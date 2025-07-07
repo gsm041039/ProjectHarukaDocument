@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01_人物背景故事.md",
+                "file": "TEMP《魔法少女晴香物語》.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "01_人物背景故事"
+              "title": "TEMP《魔法少女晴香物語》"
             }
           }
         ]
@@ -246,11 +246,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd53a83f26ef3705",
+  "active": "ec3b400745f0a2c5",
   "lastOpenFiles": [
+    "圖表.md",
     "Test.canvas",
-    "TEMP《魔法少女晴香物語》.md",
     "01_人物背景故事.md",
+    "TEMP《魔法少女晴香物語》.md",
     "test",
     "07_故事結構、氛圍與事件服務性深度解析.md",
     "詳細時間線.md",
@@ -258,7 +259,6 @@
     "copilot-custom-prompts/Remove URLs.md",
     "copilot-custom-prompts/Explain like I am 5.md",
     "copilot-custom-prompts/Emojify.md",
-    "圖表.md",
     "04_故事大綱.md",
     "05_角色心理分析.md",
     "03_世界觀與核心設定.md",
