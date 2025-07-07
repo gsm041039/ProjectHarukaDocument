@@ -1,0 +1,15 @@
+/* just a quick example, will have to be tweaked for your usecase */
+.mermaid svg { /* for example all mermaid diagrams */
+   max-width: 100% !important;
+   transform: scale(1.0); /* or some other rules */
+}
+
+.mermaid .edgeLabel {
+    background-color: white !important;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.mermaid .cluster rect {
+    rx: 5px;
+    ry: 5px;
+}

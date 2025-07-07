@@ -1,0 +1,289 @@
+{
+  "main": {
+    "id": "7036c17e09fcceef",
+    "type": "split",
+    "children": [
+      {
+        "id": "204e52aa3b588704",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ec3b400745f0a2c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01_人物背景故事.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "01_人物背景故事"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f225bbabc7c22945",
+    "type": "split",
+    "children": [
+      {
+        "id": "fad62c6ca50f963c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd53a83f26ef3705",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "a715c01540607c3b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "[\"tags\":",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "3b0a071c895882ea",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 346.5
+  },
+  "right": {
+    "id": "3b951194f4683c05",
+    "type": "split",
+    "children": [
+      {
+        "id": "3306a26287aaaa31",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "789d20a1ac37bf32",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "1e6f5fc4d924227c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "詳細時間線.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "詳細時間線 的大綱"
+            }
+          },
+          {
+            "id": "a6d199a4f89f9c85",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "4ff340f8ab5f0ab5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TEMP《魔法少女晴香物語》.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "TEMP《魔法少女晴香物語》 的反向連結"
+            }
+          },
+          {
+            "id": "9496cb8ee88f9c94",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_故事大綱.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "04_故事大綱 的對外連結"
+            }
+          },
+          {
+            "id": "91e4d23481e517d4",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "5d48cecdab867cfd",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "7449a7034d60cdbd",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "外掛程式已不復活躍"
+            }
+          },
+          {
+            "id": "4992d05a693ed648",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "05e52a3ea47fea28",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "831ab11db11194a5",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
+          }
+        ],
+        "currentTab": 8
+      }
+    ],
+    "direction": "horizontal",
+    "width": 670.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "copilot:Open Copilot Chat": false,
+      "juggl:Juggl global graph": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian42-brat:BRAT": false,
+      "remotely-save:Remotely Save": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "fd53a83f26ef3705",
+  "lastOpenFiles": [
+    "Test.canvas",
+    "TEMP《魔法少女晴香物語》.md",
+    "01_人物背景故事.md",
+    "test",
+    "07_故事結構、氛圍與事件服務性深度解析.md",
+    "詳細時間線.md",
+    "06_重大事件與角色關係影響分析.md",
+    "copilot-custom-prompts/Remove URLs.md",
+    "copilot-custom-prompts/Explain like I am 5.md",
+    "copilot-custom-prompts/Emojify.md",
+    "圖表.md",
+    "04_故事大綱.md",
+    "05_角色心理分析.md",
+    "03_世界觀與核心設定.md",
+    "02_次要角色與組織設定.md",
+    "晴香.md",
+    "秋穗.md",
+    "愛莉.md",
+    "copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot-custom-prompts/Generate glossary.md",
+    "copilot-custom-prompts/Generate table of contents.md",
+    "copilot-custom-prompts/Make longer.md",
+    "copilot-custom-prompts/Make shorter.md",
+    "copilot-custom-prompts/Simplify.md",
+    "copilot-custom-prompts/Summarize.md",
+    "copilot-custom-prompts/Translate to Chinese.md",
+    "copilot-custom-prompts",
+    "copilot-conversations",
+    "角色心理轉變",
+    "未命名 2.canvas",
+    "textgenerator/templates/dalle",
+    "未命名 1.canvas",
+    "textgenerator/templates/default",
+    "textgenerator/templates",
+    "textgenerator",
+    "bc56226ecc7209fb573e41eb4fc7542f.jpg"
+  ]
+}
