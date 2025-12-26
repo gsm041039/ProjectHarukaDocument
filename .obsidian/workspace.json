@@ -11,14 +11,12 @@
             "id": "b0c351aa614b7b64",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "image",
               "state": {
-                "aFile": "導演/故事結構與氛圍設計.md",
-                "bFile": "導演/故事結構與氛圍設計.md",
-                "aRef": ""
+                "file": "美術/Images/MagicCorpse_Doll.jpg"
               },
-              "icon": "diff",
-              "title": "Diff: 故事結構與氛圍設計"
+              "icon": "lucide-image",
+              "title": "MagicCorpse_Doll"
             }
           },
           {
@@ -278,14 +276,17 @@
   },
   "active": "b0c351aa614b7b64",
   "lastOpenFiles": [
+    "導演/角色氛圍的導演手冊：四幕結構下的情感調度.md",
+    "美術/Images/MagicCorpse_Doll.jpg",
+    "美術/Images/unnamed.jpg",
+    "導演/01_創作核心與指導原則.md",
+    "導演/世界觀與場景設定分析.md",
     "美術/Images/Boss_Kurosou.jpg",
     "美術/Images/MagicalGirl_Rin.jpg",
-    "美術/Images/MagicCorpse_Doll.jpg",
     "美術/Images/MagicCorpse_Scrap.jpg",
     "美術/205_角色視覺設計檔案_朔.md",
     "美術/302_魔法屍骸視覺設計檔案.md",
     "美術/302_魔法屍骸視覺設計檔案.md.tmp.149972.1766760825179",
-    "美術/Images/unnamed.jpg",
     "美術/Images/MagicCorpse_.jpg",
     "美術/Images/MagicCop.jpg",
     "美術/210_角色視覺設計檔案_凜.md.tmp.205020.1766757708842",
@@ -322,8 +323,6 @@
     "美術/208_角色視覺設計檔案_岩倉朱音.md",
     "美術/01_核心視覺支柱詳解.md",
     "美術/209_角色視覺設計檔案_綾小路 操.md",
-    "美術/203_角色視覺設計檔案_美夜子.md",
-    "美術/202_角色視覺設計檔案_晴香.md",
     "未命名 2.canvas",
     "未命名 1.canvas"
   ]
