@@ -13,12 +13,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "編劇/01_人物背景故事.md",
-                "bFile": "編劇/01_人物背景故事.md",
+                "aFile": "美術/00_核心視覺基礎.md",
+                "bFile": "美術/00_核心視覺基礎.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 01_人物背景故事"
+              "title": "Diff: 00_核心視覺基礎"
             }
           },
           {
@@ -263,6 +263,12 @@
   },
   "active": "121e91771fce3827",
   "lastOpenFiles": [
+    "美術/01_核心視覺支柱詳解.md",
+    "美術/00_核心視覺基礎.md.tmp.135416.1767205510067",
+    "編劇/02_次要角色背景故事.md.tmp.135416.1767205400266",
+    "編劇/02_次要角色背景故事.md.tmp.135416.1767205385252",
+    "美術/Untitled",
+    "美術/Images/CasualWear _Akiho.jpg",
     "美術/Images/CasualWear_Kurosou.jpg",
     "美術/Images/ConceptArt_Aeri.jpg",
     "美術/Images/MagicalGirl_Aeri.jpg",
@@ -272,8 +278,6 @@
     "美術/Images/ConceptArt_Misao_1.jpg",
     "美術/Images/ConceptArt_Misao_2.jpg",
     "美術/Images/ConceptArt_Miyako.jpg",
-    "美術/Images/ConceptArt_Miyako_Cat.jpg",
-    "美術/Images/MagicCorpse_Kurosou.jpg",
     "美術/202_角色視覺設計檔案_晴香.md",
     "美術/303_魔法少女共通視覺語言.md",
     "美術/206_角色視覺設計檔案_秋穗.md",
@@ -298,14 +302,9 @@
     "TEMP《魔法少女晴香物語》.md.tmp.236784.1767033253863",
     "TEMP《魔法少女晴香物語》.md.tmp.236784.1767033252204",
     "TEMP《魔法少女晴香物語》.md.tmp.236784.1767033250562",
-    "TEMP《魔法少女晴香物語》.md.tmp.236784.1767033248939",
-    "TEMP《魔法少女晴香物語》.md.tmp.236784.1767033247291",
-    "導演/資訊掌控與觀眾體驗設計.md.tmp.97580.1767033245125",
-    "導演/故事結構與氛圍設計.md.tmp.236784.1767033122115",
     "導演/角色氛圍的導演手冊：四幕結構下的情感調度.md",
     "導演/世界觀與場景設定分析.md",
     "編劇/魔法少女設定詳解：心匣、裝置與宿命.md",
-    "美術/01_核心視覺支柱詳解.md",
     "美術/205_角色視覺設計檔案_朔.md",
     "導演/故事結構與氛圍設計.md",
     "編劇/06_角色心理分析.md",
