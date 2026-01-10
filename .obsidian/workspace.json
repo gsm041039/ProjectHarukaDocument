@@ -11,15 +11,14 @@
             "id": "121e91771fce3827",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "詳細時間線.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": "導演/00_故事導演手冊(未整理).md",
+                "bFile": "導演/00_故事導演手冊(未整理).md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "詳細時間線"
+              "icon": "diff",
+              "title": "Diff: 00_故事導演手冊(未整理)"
             }
           },
           {
@@ -262,8 +261,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4992d05a693ed648",
+  "active": "121e91771fce3827",
   "lastOpenFiles": [
+    "詳細時間線.md",
     "詳細時間線.md.tmp.21352.1767626526220",
     "圖表.md.tmp.21352.1767626513187",
     "圖表.md.tmp.21352.1767626507508",
@@ -274,7 +274,6 @@
     "導演/故事結構與氛圍設計.md.tmp.21352.1767626338811",
     "導演/故事結構與氛圍設計.md.tmp.21352.1767626311226",
     "編劇/魔法少女設定詳解：心匣、裝置與宿命.md.tmp.21352.1767626285304",
-    "編劇/04_故事結構、氛圍與事件服務性深度解析.md.tmp.21352.1767626244767",
     "圖表.md",
     "導演/資訊掌控與觀眾體驗設計.md",
     "美術/01_核心視覺支柱詳解.md",
