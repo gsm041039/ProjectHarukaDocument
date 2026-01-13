@@ -23,6 +23,18 @@
             }
           },
           {
+            "id": "91d7d3dcb54e6983",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "發行記錄 1.11.4"
+            }
+          },
+          {
             "id": "37556709d00f966e",
             "type": "leaf",
             "state": {
@@ -37,7 +49,8 @@
               "title": "圖表"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -262,7 +275,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "121e91771fce3827",
+  "active": "91d7d3dcb54e6983",
   "lastOpenFiles": [
     "編劇/06_角色心理分析.md",
     "遊戲性/00_核心遊戲性設計文件.md",
