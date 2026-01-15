@@ -9,204 +9,204 @@
 ### 1. 想了解整體故事
 > 故事的主線、結構、時間線
 
-- [[編劇/05_故事大綱]] - 完整故事結構（推薦首先閱讀）
-- [[詳細時間線]] - 帝國歷 0-113 年完整歷史
-- [[編劇/04_故事結構、氛圍與事件服務性深度解析]] - 故事設計深度分析
+- [[screenwriter/05_Story_Outline]] - 完整故事結構（推薦首先閱讀）
+- [[Detailed_Timeline]] - 帝國歷 0-113 年完整歷史
+- [[screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis]] - 故事設計深度分析
 
 ### 2. 想了解某個角色
 
 **背景與心理：**
-- [[編劇/01_人物背景故事]] - 主要角色背景
-- [[編劇/02_次要角色背景故事]] - 配角與組織設定
-- [[編劇/06_角色心理分析]] - 角色心理深度分析
-- [[編劇/各魔法少女主題詳解]] - 每位魔法少女的核心主題
+- [[screenwriter/01_Character_Background_Story]] - 主要角色背景
+- [[screenwriter/02_Secondary_Character_Background_Story]] - 配角與組織設定
+- [[screenwriter/06_Character_Psychology_Analysis]] - 角色心理深度分析
+- [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]] - 每位魔法少女的核心主題
 
 **個別角色視覺設計：**
-- [[美術/202_角色視覺設計檔案_晴香]] - 雨宮晴香
-- [[美術/203_角色視覺設計檔案_美夜子]] - 月城美夜子
-- [[美術/204_角色視覺設計檔案_彩]] - 神樂彩
-- [[美術/205_角色視覺設計檔案_朔]] - 白銀朔
-- [[美術/206_角色視覺設計檔案_秋穗]] - 楓秋穗
-- [[美術/207_角色視覺設計檔案_愛莉]] - 星野愛莉
-- [[美術/208_角色視覺設計檔案_岩倉朱音]] - 岩倉朱音
-- [[美術/209_角色視覺設計檔案_綾小路 操]] - 綾小路操
-- [[美術/210_角色視覺設計檔案_凜]] - 凜
+- [[art/202_Character_Visual_Design_Haruka]] - 雨宮晴香
+- [[art/203_Character_Visual_Design_Miyako]] - 月城美夜子
+- [[art/204_Character_Visual_Design_Iroha]] - 神樂彩
+- [[art/205_Character_Visual_Design_Saku]] - 白銀朔
+- [[art/206_Character_Visual_Design_Akiho]] - 楓秋穗
+- [[art/207_Character_Visual_Design_Airi]] - 星野愛莉
+- [[art/208_Character_Visual_Design_Iwakura_Akane]] - 岩倉朱音
+- [[art/209_Character_Visual_Design_Ayakomoji_Sou]] - 綾小路操
+- [[art/210_Character_Visual_Design_Rin]] - 凜
 <!-- 新角色視覺設計檔案請按 2XX 編號加入此處 -->
 
 ### 3. 想了解世界觀
 > 帝國、夜區、維多利亞城、魔法系統
 
-- [[編劇/03_世界觀設定]] - 世界觀總覽
-- [[編劇/魔法少女設定詳解：心匣、裝置與宿命]] - 魔法系統詳解
-- [[美術/301_世界觀美術指導手冊]] - 世界觀視覺設定
+- [[screenwriter/03_Worldview_Setting]] - 世界觀總覽
+- [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny]] - 魔法系統詳解
+- [[art/301_Worldview_Art_Direction_Handbook]] - 世界觀視覺設定
 
 ### 4. 想了解視覺/美術風格
 
 **核心視覺基礎：**
-- [[美術/00_核心視覺基礎]] - 視覺哲學與情感矛盾體
-- [[美術/01_核心視覺支柱詳解]] - 視覺設計的物理法則
-- [[美術/02_進階敘事設計]] - 深層敘事視覺設計
+- [[art/00_Core_Visual_Foundation]] - 視覺哲學與情感矛盾體
+- [[art/01_Core_Visual_Pillars_Detailed]] - 視覺設計的物理法則
+- [[art/02_Advanced_Narrative_Design]] - 深層敘事視覺設計
 
 **角色與魔法少女設計：**
-- [[美術/04_角色插畫風格指引]] - 角色設計標準
-- [[美術/303_魔法少女共通視覺語言]] - 魔法少女視覺共通元素
+- [[art/04_Character_Illustration_Style_Guide]] - 角色設計標準
+- [[art/303_Magical_Girl_Common_Visual_Language]] - 魔法少女視覺共通元素
 
 **特殊視覺元素：**
-- [[美術/302_魔法屍骸視覺設計檔案]] - 敵人設計
+- [[art/302_Magical_Corpse_Visual_Design]] - 敵人設計
 <!-- 新美術文檔請按編號規則加入 -->
 
 ### 5. 想了解敘事/導演手法
 > 如何講好這個故事
 
-- [[導演/01_創作核心與指導原則]] - 核心創作理念（推薦）
-- [[導演/故事結構與氛圍設計]] - 氛圍營造方法
-- [[導演/角色氛圍的導演手冊：四幕結構下的情感調度]] - 四幕結構情感設計
-- [[導演/資訊掌控與觀眾體驗設計]] - 懸念與揭示設計
-- [[導演/故事結構與角色原型整合分析]] - 角色原型分析
-- [[導演/核心角色與象徵設定分析]] - 象徵意義分析
-- [[導演/世界觀與場景設定分析]] - 場景設計
-- [[導演/重大事件與角色關係分析]] - 事件影響分析
-- [[導演/00_故事導演手冊(未整理)]] - 未整理素材
+- [[director/01_Creative_Core_Principles]] - 核心創作理念（推薦）
+- [[director/Story_Structure_Atmosphere_Design]] - 氛圍營造方法
+- [[director/Character_Atmosphere_Director_Handbook_Four_Act_Structure]] - 四幕結構情感設計
+- [[director/Information_Control_Audience_Experience_Design]] - 懸念與揭示設計
+- [[director/Story_Structure_Character_Archetype_Analysis]] - 角色原型分析
+- [[director/Core_Characters_Symbolism_Analysis]] - 象徵意義分析
+- [[director/Worldview_Scene_Analysis]] - 場景設計
+- [[director/Major_Events_Character_Relationships_Analysis]] - 事件影響分析
+- [[director/00_Story_Director_Handbook_Draft]] - 未整理素材
 <!-- 新導演文檔加入此處 -->
 
 ### 6. 想了解遊戲設計
 > 遊戲機制與玩法
 
-- [[遊戲性/00_核心遊戲性設計文件]] - 核心遊戲機制
-- [[編劇/12_社會風評與任務系統]] - 社會系統與任務設計
+- [[gameplay/00_Core_Gameplay_Design_Document]] - 核心遊戲機制
+- [[screenwriter/12_Social_Evaluation_Quest_System]] - 社會系統與任務設計
 <!-- 新遊戲性文檔加入此處 -->
 
 ### 7. 想了解角色關係
 > 角色之間的連結與互動
 
-- [[圖表]] - Mermaid 角色關係圖、故事流程圖
-- [[編劇/07_重大事件與角色關係影響分析]] - 事件如何影響關係
+- [[Charts]] - Mermaid 角色關係圖、故事流程圖
+- [[screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis]] - 事件如何影響關係
 
 ### 8. 想了解角色日常/互動細節
 > 角色的生活習慣、日常互動
 
-- [[編劇/09_角色感官與私密習慣設定集]] - 個人習慣與感官細節
-- [[編劇/10_少女日常與社交互動設定]] - 日常生活與社交
-- [[編劇/13_趣味篇章與特殊情節設定]] - 輕鬆有趣的情節設定
+- [[screenwriter/09_Character_Senses_Private_Habits_Setting]] - 個人習慣與感官細節
+- [[screenwriter/10_Girl_Daily_Social_Interaction_Setting]] - 日常生活與社交
+- [[screenwriter/13_Interesting_Chapters_Special_Plot_Setting]] - 輕鬆有趣的情節設定
 
 ### 9. 想了解深層主題/哲學
 > 故事的深層意涵
 
-- [[編劇/08_情緒設定總綱]] - 情緒力量與代價系統
-- [[編劇/11_深層哲學概念集]] - 存在主義與哲學探討
+- [[screenwriter/08_Emotion_Setting_Overview]] - 情緒力量與代價系統
+- [[screenwriter/11_Deep_Philosophy_Concepts]] - 存在主義與哲學探討
 
 ### 10. 想了解故事進度追蹤
 > 劇本進度與角色存活
 
-- [[劇本細化/階段與存活名單矩陣]] - 故事階段與角色狀態追蹤
+- [[script_refinement/Stage_Survival_Roster_Matrix]] - 故事階段與角色狀態追蹤
 
 ---
 
 ## 建議閱讀順序
 
 ### 新手入門（了解基本設定）
-1. [[編劇/05_故事大綱]] - 先了解故事是什麼
-2. [[編劇/01_人物背景故事]] - 認識主要角色
-3. [[編劇/03_世界觀設定]] - 了解故事發生的世界
+1. [[screenwriter/05_Story_Outline]] - 先了解故事是什麼
+2. [[screenwriter/01_Character_Background_Story]] - 認識主要角色
+3. [[screenwriter/03_Worldview_Setting]] - 了解故事發生的世界
 
 ### 深入了解（理解創作深度）
-1. [[詳細時間線]] - 完整歷史脈絡
-2. [[編劇/06_角色心理分析]] - 角色內心世界
-3. [[導演/01_創作核心與指導原則]] - 創作理念
+1. [[Detailed_Timeline]] - 完整歷史脈絡
+2. [[screenwriter/06_Character_Psychology_Analysis]] - 角色內心世界
+3. [[director/01_Creative_Core_Principles]] - 創作理念
 
 ### 美術創作者專用
-1. [[美術/00_核心視覺基礎]] - 視覺哲學
-2. [[美術/01_核心視覺支柱詳解]] - 設計法則
-3. [[美術/04_角色插畫風格指引]] - 角色繪製標準
+1. [[art/00_Core_Visual_Foundation]] - 視覺哲學
+2. [[art/01_Core_Visual_Pillars_Detailed]] - 設計法則
+3. [[art/04_Character_Illustration_Style_Guide]] - 角色繪製標準
 
 ---
 
 ## 完整文件清單（按部門分類）
 
-### 美術/
+### art/
 > 編號規則：00-04 核心視覺、2XX 角色設計、3XX 世界觀
 
 **核心視覺文檔 (00-04)：**
-- [[美術/00_核心視覺基礎]]
-- [[美術/01_核心視覺支柱詳解]]
-- [[美術/02_進階敘事設計]]
-- [[美術/04_角色插畫風格指引]]
+- [[art/00_Core_Visual_Foundation]]
+- [[art/01_Core_Visual_Pillars_Detailed]]
+- [[art/02_Advanced_Narrative_Design]]
+- [[art/04_Character_Illustration_Style_Guide]]
 
 **角色視覺設計 (202-210)：**
-- [[美術/202_角色視覺設計檔案_晴香]]
-- [[美術/203_角色視覺設計檔案_美夜子]]
-- [[美術/204_角色視覺設計檔案_彩]]
-- [[美術/205_角色視覺設計檔案_朔]]
-- [[美術/206_角色視覺設計檔案_秋穗]]
-- [[美術/207_角色視覺設計檔案_愛莉]]
-- [[美術/208_角色視覺設計檔案_岩倉朱音]]
-- [[美術/209_角色視覺設計檔案_綾小路 操]]
-- [[美術/210_角色視覺設計檔案_凜]]
+- [[art/202_Character_Visual_Design_Haruka]]
+- [[art/203_Character_Visual_Design_Miyako]]
+- [[art/204_Character_Visual_Design_Iroha]]
+- [[art/205_Character_Visual_Design_Saku]]
+- [[art/206_Character_Visual_Design_Akiho]]
+- [[art/207_Character_Visual_Design_Airi]]
+- [[art/208_Character_Visual_Design_Iwakura_Akane]]
+- [[art/209_Character_Visual_Design_Ayakomoji_Sou]]
+- [[art/210_Character_Visual_Design_Rin]]
 
 **世界觀美術 (301-303)：**
-- [[美術/301_世界觀美術指導手冊]]
-- [[美術/302_魔法屍骸視覺設計檔案]]
-- [[美術/303_魔法少女共通視覺語言]]
+- [[art/301_Worldview_Art_Direction_Handbook]]
+- [[art/302_Magical_Corpse_Visual_Design]]
+- [[art/303_Magical_Girl_Common_Visual_Language]]
 
 *新文件請按編號規則加入對應區塊*
 
 ---
 
-### 編劇/
+### screenwriter/
 > 編號規則：01-13 依序編號
 
 **系列文檔 (01-13)：**
-- [[編劇/01_人物背景故事]]
-- [[編劇/02_次要角色背景故事]]
-- [[編劇/03_世界觀設定]]
-- [[編劇/04_故事結構、氛圍與事件服務性深度解析]]
-- [[編劇/05_故事大綱]]
-- [[編劇/06_角色心理分析]]
-- [[編劇/07_重大事件與角色關係影響分析]]
-- [[編劇/08_情緒設定總綱]]
-- [[編劇/09_角色感官與私密習慣設定集]]
-- [[編劇/10_少女日常與社交互動設定]]
-- [[編劇/11_深層哲學概念集]]
-- [[編劇/12_社會風評與任務系統]]
-- [[編劇/13_趣味篇章與特殊情節設定]]
+- [[screenwriter/01_Character_Background_Story]]
+- [[screenwriter/02_Secondary_Character_Background_Story]]
+- [[screenwriter/03_Worldview_Setting]]
+- [[screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis]]
+- [[screenwriter/05_Story_Outline]]
+- [[screenwriter/06_Character_Psychology_Analysis]]
+- [[screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis]]
+- [[screenwriter/08_Emotion_Setting_Overview]]
+- [[screenwriter/09_Character_Senses_Private_Habits_Setting]]
+- [[screenwriter/10_Girl_Daily_Social_Interaction_Setting]]
+- [[screenwriter/11_Deep_Philosophy_Concepts]]
+- [[screenwriter/12_Social_Evaluation_Quest_System]]
+- [[screenwriter/13_Interesting_Chapters_Special_Plot_Setting]]
 
 **專題文檔：**
-- [[編劇/各魔法少女主題詳解]]
-- [[編劇/魔法少女設定詳解：心匣、裝置與宿命]]
+- [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]]
+- [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny]]
 
 *新文件請按 XX 編號規則加入，或作為專題文檔*
 
 ---
 
-### 導演/
+### director/
 > 編號規則：00-01 核心、其餘為專題分析
 
 **核心文檔：**
-- [[導演/00_故事導演手冊(未整理)]]
-- [[導演/01_創作核心與指導原則]]
+- [[director/00_Story_Director_Handbook_Draft]]
+- [[director/01_Creative_Core_Principles]]
 
 **專題分析文檔：**
-- [[導演/世界觀與場景設定分析]]
-- [[導演/角色氛圍的導演手冊：四幕結構下的情感調度]]
-- [[導演/故事結構與角色原型整合分析]]
-- [[導演/故事結構與氛圍設計]]
-- [[導演/重大事件與角色關係分析]]
-- [[導演/核心角色與象徵設定分析]]
-- [[導演/資訊掌控與觀眾體驗設計]]
+- [[director/Worldview_Scene_Analysis]]
+- [[director/Character_Atmosphere_Director_Handbook_Four_Act_Structure]]
+- [[director/Story_Structure_Character_Archetype_Analysis]]
+- [[director/Story_Structure_Atmosphere_Design]]
+- [[director/Major_Events_Character_Relationships_Analysis]]
+- [[director/Core_Characters_Symbolism_Analysis]]
+- [[director/Information_Control_Audience_Experience_Design]]
 
 *新文件加入此處*
 
 ---
 
-### 遊戲性/
-- [[遊戲性/00_核心遊戲性設計文件]]
+### gameplay/
+- [[gameplay/00_Core_Gameplay_Design_Document]]
 
 *新文件加入此處*
 
 ---
 
-### 劇本細化/
-- [[劇本細化/階段與存活名單矩陣]]
+### script_refinement/
+- [[script_refinement/Stage_Survival_Roster_Matrix]]
 
 *新文件加入此處*
 
@@ -215,9 +215,8 @@
 ### 根目錄
 > 全域性的文檔
 
-- [[詳細時間線]] - 完整歷史時間線
-- [[圖表]] - Mermaid 圖表集合
-- [[Test]] - 測試與迭代討論
+- [[Detailed_Timeline]] - 完整歷史時間線
+- [[Charts]] - Mermaid 圖表集合
 
 ---
 
@@ -225,8 +224,9 @@
 
 1. **決定分類**：根據文件內容選擇適合的資料夾
 2. **命名規則**：
-   - 美術：`XX_文件名.md`（核心用 00-04，角色用 2XX，世界觀用 3XX）
-   - 編劇：`XX_文件名.md`（依序編號 01-99）
-   - 導演：核心用 `XX_` 編號，專題直接命名
-   - 遊戲性：`XX_文件名.md`
+   - art/：`XX_File_Name.md`（核心用 00-04，角色用 2XX，世界觀用 3XX）
+   - screenwriter/：`XX_File_Name.md`（依序編號 01-99）
+   - director/：核心用 `XX_` 編號，專題用 `File_Name.md` 格式
+   - gameplay/：`XX_File_Name.md`
+   - script_refinement/：`XX_File_Name.md`
 3. **更新本指引**：在對應的分類和清單中加入連結
