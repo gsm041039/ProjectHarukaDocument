@@ -1,0 +1,991 @@
+# Project Haruka — Layer 2: Beat → Scenes / Missions (TXT)
+
+Generated: 2026-01-15 (Asia/Tokyo)
+
+Source: Beat Sheet Prompt 5 (B01–B26) + linked AtomIDs per beat.
+
+Goal: Turn each beat into playable scene nodes you can map to quests, missions, cutscenes, and level beats.
+
+Convention: SceneID = Bxx.Syy
+
+Legend (Core Hook): Explore / Social / Combat / Puzzle / Stealth / Boss / Choice / Dream
+
+
+============================================================
+GLOBAL DESIGN NOTES (keep in mind while implementing)
+============================================================
+- Use “Info Tokens” per scene: what the audience learns, what the protagonist learns, what the team learns.
+- “Social Evaluation” beats should have a visible meter + rumor posts + NPC behavior shifts (even if abstracted).
+- Power/Cost beats: each time player uses “big power” show a small permanent trade-off (UI corruption, memory glitch, relationship fracture, map scar).
+- Act 3 must feel like: victory momentum → moral dead-end → structure collapse (偽高潮→地震).
+- Act 4 must feel like: truth earthquake → new-world rules → cost settlement (不是爽快勝利).
+
+
+============================================================
+起（Act 1）
+============================================================
+
+
+[B01] 《帝國的眼淚機器》
+
+B01.S01
+- Format: Cinematic + Light Walk
+- Location: 日區/夜區交界天橋
+- Player Objective: 完成通勤/導航，見證城市分裂與秩序
+- Core Hook: Explore + environmental storytelling (海報、廣播、分區門禁)
+- Info Control (Audience vs Character): Audience learns '情緒被制度化' first; Characters treat it as normal
+- Stakes / Fail-state: Fail = none (onboarding). Stakes =世界壓迫感建立
+- Emotion Target: 冷、巨大、壓迫
+- Linked Atoms: D31-A0001, D31-A0002
+- Unlock/Artifact: 世界觀筆記：『日/夜區』、第一條帝國口號
+
+B01.S02
+- Format: Playable Investigation
+- Location: 公共展館/新聞牆
+- Player Objective: 蒐集 3 個「制度線索」(文件/新聞/傳聞)
+- Core Hook: Puzzle-lite: 拼合資訊牆，解鎖『情緒=威脅』論述
+- Info Control (Audience vs Character): Audience gets explicit rationale; Protagonist only senses '怪' not '真相'
+- Stakes / Fail-state: Fail = time-out→少獎勵; Stakes = 早期理解深度
+- Emotion Target: 不安、被監視
+- Linked Atoms: D31-A0001, D31-A0002
+- Unlock/Artifact: 解鎖：『制度檔案#1』(可在後面對照抽水泵)
+
+B01.S03
+- Format: Stealth Peek (Optional)
+- Location: 封鎖的地下入口外圍
+- Player Objective: 偷看抽取設施跡象（守衛巡邏）
+- Core Hook: Stealth micro-loop; 看到『眼淚機器』的管線/聲音
+- Info Control (Audience vs Character): Audience gets foreshadow; Characters still缺乏名稱與全貌
+- Stakes / Fail-state: Fail = 被趕走/扣聲望小量
+- Emotion Target: 恐懼、禁忌感
+- Linked Atoms: D31-A0001, D31-A0002
+- Unlock/Artifact: 解鎖：場景地標『泵站入口(未知)』
+
+
+[B02] 《偶像的微笑裂縫》
+
+B02.S01
+- Format: Playable Social
+- Location: 偶像練習室/後台
+- Player Objective: 完成一次舞台排練（節奏QTE）
+- Core Hook: Social + Rhythm mini; 引入『表演式笑容』概念
+- Info Control (Audience vs Character): Audience is invited to believe '變身=救贖'; Character believes it too
+- Stakes / Fail-state: Fail = 表演失誤→掉少量初始聲望
+- Emotion Target: 甜、但有裂痕
+- Linked Atoms: D31-A0006, D22-A0003
+- Unlock/Artifact: 解鎖：晴香『偶像日誌#1』
+
+B02.S02
+- Format: Playable Choice
+- Location: 街頭簽名會
+- Player Objective: 處理一宗粉絲情緒崩潰（選擇安撫方式）
+- Core Hook: Choice: 表面安撫 vs 直面痛苦；影響早期聲望與NPC記憶
+- Info Control (Audience vs Character): Audience sees cracks of '先甜後苦'; Character still thinks it's manageable
+- Stakes / Fail-state: Fail = 群眾失控→聲望下滑
+- Emotion Target: 暖→不安
+- Linked Atoms: D22-A0003, D22-A0006
+- Unlock/Artifact: 解鎖：社會評價UI（原型）
+
+B02.S03
+- Format: Combat Intro
+- Location: 夜區邊緣小巷
+- Player Objective: 首次小型屍骸戰（教學戰）
+- Core Hook: Combat tutorial + '力量看似爽快'，但結尾加一個小代價提示
+- Info Control (Audience vs Character): Audience gets dopamine; Character feels heroic; we plant cost seed
+- Stakes / Fail-state: Fail = 戰敗→重試；Stakes=建立『爽』基礎
+- Emotion Target: 興奮→隱隱寒
+- Linked Atoms: D31-A0006, D22-A0003
+- Unlock/Artifact: 解鎖：『變身技能#1』 + 代價提示(微)
+
+
+[B03] 《命運相遇：美夜子把她拉入夜區》
+
+B03.S01
+- Format: Cutscene + Dialogue
+- Location: 夜區入口橋下
+- Player Objective: 與美夜子首次對話：『妳唔應該來，但已經遲咗』
+- Core Hook: Dialogue tree: 信任/懷疑；埋下美夜子秘密伏筆
+- Info Control (Audience vs Character): Audience senses Miyako hides something; Character thinks it's '前輩怪癖'
+- Stakes / Fail-state: Fail = 無；Stakes = 關係起點
+- Emotion Target: 被拖入深水
+- Linked Atoms: D31-A0007, D40-A0001
+- Unlock/Artifact: 解鎖：同伴槽『美夜子-信任值(初始)』
+
+B03.S02
+- Format: Playable Chase
+- Location: 夜區巷弄/霓虹市場
+- Player Objective: 追逐屍骸獵物/或被獵
+- Core Hook: Explore+Chase; 引入夜區地形、遮蔽物、路徑抉擇
+- Info Control (Audience vs Character): Audience learns night zone rules; Character learns '這裡不是舞台'
+- Stakes / Fail-state: Fail = 失去目標→少獎勵；Stakes=夜區壓迫
+- Emotion Target: 緊張、窒息
+- Linked Atoms: D31-A0007, D40-A0001
+- Unlock/Artifact: 解鎖：夜區地圖(局部)
+
+B03.S03
+- Format: Combat + Rule Hint
+- Location: 廢棄車站月台
+- Player Objective: 擊退屍骸並第一次看到『人格面具』的戰鬥副作用
+- Core Hook: Combat; 戰後短暫人格失真/語氣變化(夕影子極微弱)
+- Info Control (Audience vs Character): Audience gets first hint of split-persona; Character忽略/否認
+- Stakes / Fail-state: Fail = 戰敗→重試；Stakes=建立『契約=創傷面具』
+- Emotion Target: 勝利後空虛
+- Linked Atoms: D40-A0001, D31-A0009
+- Unlock/Artifact: 解鎖：『面具系統』(未命名)
+
+
+[B04] 《小勝堆民望，枷鎖開始上身》
+
+B04.S01
+- Format: Playable Quest
+- Location: 夜區小社區
+- Player Objective: 解決一個小事件（找回失物/護送）
+- Core Hook: Explore + light combat; 讓聲望上升，NPC態度變好
+- Info Control (Audience vs Character): Audience enjoys being praised; Character reinforces '被愛=價值'
+- Stakes / Fail-state: Fail = 任務失敗→聲望不上升
+- Emotion Target: 甜蜜、被肯定
+- Linked Atoms: D31-A0008, D22-A0007
+- Unlock/Artifact: 解鎖：聲望+、NPC支援（店折扣）
+
+B04.S02
+- Format: Social Media Montage
+- Location: 手機介面/街頭屏幕
+- Player Objective: 閱讀/回應 3 則貼文（選擇回覆語氣）
+- Core Hook: Social system: 回覆影響『支持者/黑粉』比例
+- Info Control (Audience vs Character): Audience starts seeing '系統能翻面'; Character still believes can manage
+- Stakes / Fail-state: Fail = 選錯→埋下黑粉種子
+- Emotion Target: 微妙的不安
+- Linked Atoms: D31-A0008, D22-A0007
+- Unlock/Artifact: 解鎖：社群貼文檔案（可回看）
+
+B04.S03
+- Format: Foreshadow Incident
+- Location: 街頭突發事件
+- Player Objective: 一次小失誤被放大（救人成功但方法被剪輯成『暴力』）
+- Core Hook: Choice + cinematic: 你救到人，但聲望小跌（第一次示範反噬）
+- Info Control (Audience vs Character): Audience learns praise is fragile; Character feels injustice
+- Stakes / Fail-state: Fail = 無；Stakes = 反噬引信點燃
+- Emotion Target: 委屈、憤怒
+- Linked Atoms: D31-A0008, D31-A0010
+- Unlock/Artifact: 解鎖：『黑粉種子#1』(系統旗標)
+
+
+[B05] 《遠古火種：彩與守護者的悲劇起點》
+
+B05.S01
+- Format: Playable Flashback (Dream)
+- Location: 童年巷口/螢火蟲夜
+- Player Objective: 以小彩視角走到姐姐身邊
+- Core Hook: Dream + explore; 用光點引導，建立『被救』情感根
+- Info Control (Audience vs Character): Audience gets '彩=核心'；Character(現代)尚未知
+- Stakes / Fail-state: Fail = 無；Stakes=建立宿命與溫柔
+- Emotion Target: 溫柔、宿命
+- Linked Atoms: D31-A0003, D31-A0004
+- Unlock/Artifact: 解鎖：彩記憶碎片#1
+
+B05.S02
+- Format: Cinematic
+- Location: 守護者研究室
+- Player Objective: 蒼/花子提出『用科學+魔法治癒』的理想
+- Core Hook: Cinematic info dump with emotional tone
+- Info Control (Audience vs Character): Audience learns noble intent; Characters in present still unaware
+- Stakes / Fail-state: Fail = 無
+- Emotion Target: 希望帶陰影
+- Linked Atoms: D31-A0004, D31-A0005
+- Unlock/Artifact: 解鎖：研究筆記（可用作後續對照）
+
+B05.S03
+- Format: Foreshadow Choice
+- Location: 夢境裂縫
+- Player Objective: 看見『救人→更大災難』的剪影（不完整）
+- Core Hook: Puzzle: 拼合碎片，但故意缺一塊（資訊控制）
+- Info Control (Audience vs Character): Audience gets foreshadow; Character gets only a feeling
+- Stakes / Fail-state: Fail = 無；Stakes=埋炸彈
+- Emotion Target: 不祥
+- Linked Atoms: D22-A0004, D31-A0003
+- Unlock/Artifact: 解鎖：未知拼圖(缺角)
+
+
+[B06] 《拯救的禁忌：人工屍骸原型》
+
+B06.S01
+- Format: Playable Infiltration
+- Location: 醫院/研究附屬樓
+- Player Objective: 潛入調查『人工屍骸』傳聞
+- Core Hook: Stealth + document pickup; 首次看到『裝置』輪廓
+- Info Control (Audience vs Character): Audience learns '工業化方向'; Character thinks '救人技術'
+- Stakes / Fail-state: Fail=觸發警報→戰鬥增加、聲望風險
+- Emotion Target: 禁忌感
+- Linked Atoms: D31-A0005, D40-A0004
+- Unlock/Artifact: 解鎖：裝置素描#1
+
+B06.S02
+- Format: Cinematic + Dialogue
+- Location: 隔離病房窗外
+- Player Objective: 看到愛莉的狀態（原型），同時聽到『救』的倫理辯論
+- Core Hook: Dialogue: 支持救治 vs 反對武器化；影響隊伍價值張力
+- Info Control (Audience vs Character): Audience senses the trap; Character still clings to '救=善'
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 噁心、同情
+- Linked Atoms: D31-A0005, D40-A0001
+- Unlock/Artifact: 解鎖：價值衝突旗標(隊伍張力+1)
+
+B06.S03
+- Format: Combat Escape
+- Location: 地下通道
+- Player Objective: 逃離追兵並保護一名證人
+- Core Hook: Combat + escort; 結尾給出『夕將覺醒』的內在耳語
+- Info Control (Audience vs Character): Audience gets first clear whisper; Character否認
+- Stakes / Fail-state: Fail=證人死亡→少資訊，後續更難
+- Emotion Target: 緊迫、寒
+- Linked Atoms: D31-A0009, D40-A0004
+- Unlock/Artifact: 解鎖：證人錄音(斷續)
+
+
+============================================================
+承（Act 2）
+============================================================
+
+
+[B07] 《夕覺醒：陰影開始指揮》
+
+B07.S01
+- Format: Internal Dialogue (Playable)
+- Location: 鏡中/走廊
+- Player Objective: 第一次與夕對話：她替你說出你不敢承認的話
+- Core Hook: Choice: 反駁/接受/逃避；改變夕的『掌控值』
+- Info Control (Audience vs Character): Audience learns '陰影=真心'; Character恐懼但被說中
+- Stakes / Fail-state: Fail=無；Stakes=內在對抗軸成立
+- Emotion Target: 恐懼、被看穿
+- Linked Atoms: D31-A0009, D40-A0001
+- Unlock/Artifact: 解鎖：夕掌控值(系統)
+
+B07.S02
+- Format: Combat (Mechanic Shift)
+- Location: 夜區天台
+- Player Objective: 戰鬥中夕短暫接管（更強但更傷）
+- Core Hook: Combat + risk-reward: 爆發技會留下一個永久小代價
+- Info Control (Audience vs Character): Audience sees power-cost; Character rationalizes '必要'
+- Stakes / Fail-state: Fail=戰敗→重試；代價不可回滾
+- Emotion Target: 爽→恐
+- Linked Atoms: D22-A0006, D40-A0001
+- Unlock/Artifact: 解鎖：爆發技 + 代價標記#1
+
+B07.S03
+- Format: Social Fallout Seed
+- Location: 學校/街道
+- Player Objective: NPC開始用奇怪眼神看你（夕接管片段被拍到）
+- Core Hook: Social: 目擊者事件；聲望系統悄悄轉向
+- Info Control (Audience vs Character): Audience anticipates backlash; Character覺得委屈
+- Stakes / Fail-state: Fail=處理不好→黑粉增長
+- Emotion Target: 不安
+- Linked Atoms: D22-A0007, D31-A0010
+- Unlock/Artifact: 解鎖：黑粉種子#2
+
+
+[B08] 《獵巫反噬：晴香被放逐》
+
+B08.S01
+- Format: Cinematic
+- Location: 公共廣場大屏幕
+- Player Objective: 剪輯影片引爆獵巫；你被貼上『怪物』標籤
+- Core Hook: Cinematic + UI collapse: 聲望條被翻面
+- Info Control (Audience vs Character): Audience sees design; Character被背叛震碎
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 羞辱、崩塌
+- Linked Atoms: D31-A0010, D22-A0007
+- Unlock/Artifact: 解鎖：『放逐狀態』(世界互動改變)
+
+B08.S02
+- Format: Escape Mission
+- Location: 夜區邊界封鎖線
+- Player Objective: 逃離追捕（群眾+治安隊雙威脅）
+- Core Hook: Stealth/Chase/Combat mix; 讓玩家感受『全世界敵對』
+- Info Control (Audience vs Character): Audience knows it's system; Character只感受惡意
+- Stakes / Fail-state: Fail=被捕→Lose condition (重來)
+- Emotion Target: 窒息、孤立
+- Linked Atoms: D31-A0010, D22-A0001
+- Unlock/Artifact: 解鎖：新安全屋(夜區)
+
+B08.S03
+- Format: Bitter Quiet
+- Location: 安全屋
+- Player Objective: 夕逼你承認：你其實渴望被愛
+- Core Hook: Dialogue choice; 決定你接下來的『態度路線』起點
+- Info Control (Audience vs Character): Audience sees internal theme; Character面對自我
+- Stakes / Fail-state: Fail=無；Stakes=內在弧線推進
+- Emotion Target: 痛、誠實
+- Linked Atoms: D22-A0001, D31-A0011
+- Unlock/Artifact: 解鎖：『態度宣言(草稿)』
+
+
+[B09] 《潛意識旅程：整合情緒而非正能量》
+
+B09.S01
+- Format: Dream Dungeon
+- Location: 集體潛意識入口
+- Player Objective: 進入夢境迷宮，收集 4 種情緒碎片
+- Core Hook: Puzzle + symbolism; 每種碎片帶一段痛的記憶
+- Info Control (Audience vs Character): Audience learns '整合'；Character被迫承認痛
+- Stakes / Fail-state: Fail=迷失→重設段落；Stakes=心理承受
+- Emotion Target: 哀、清醒
+- Linked Atoms: D31-A0011, D31-A0014
+- Unlock/Artifact: 解鎖：情緒碎片(道具)
+
+B09.S02
+- Format: Reveal Scene
+- Location: 泵站核心(夢境映射)
+- Player Objective: 看到維多利亞之淚=抽水泵真相
+- Core Hook: Reveal cinematic + interactive scanning
+- Info Control (Audience vs Character): Audience gets concrete truth; Character finally names the horror
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 震驚、厭惡
+- Linked Atoms: D31-A0014, D31-A0035
+- Unlock/Artifact: 解鎖：制度檔案#2（泵站）
+
+B09.S03
+- Format: Return With Scar
+- Location: 醒來的清晨
+- Player Objective: 回到現實：能力更強，但新增一個不可逆『小失真』
+- Core Hook: System event: permanent cost marker appears
+- Info Control (Audience vs Character): Audience understands price; Character tells self '值得'
+- Stakes / Fail-state: Fail=無；Stakes=代價曲線啟動
+- Emotion Target: 沉重、但堅定
+- Linked Atoms: D22-A0006, D40-A0006
+- Unlock/Artifact: 解鎖：代價標記#2
+
+
+[B10] 《剪髮宣言：告別逃避》
+
+B10.S01
+- Format: Cinematic
+- Location: 鏡前/剪髮
+- Player Objective: 剪髮儀式，宣告不再逃避
+- Core Hook: Cinematic emotional anchor
+- Info Control (Audience vs Character): Audience sees hero stance; Character chooses attitude
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 悲壯
+- Linked Atoms: D31-A0012, D22-A0006
+- Unlock/Artifact: 解鎖：外觀變化 + 新立繪
+
+B10.S02
+- Format: Training Mission
+- Location: 廢棄操場
+- Player Objective: 訓練新招式（但每次爆發都顯示代價）
+- Core Hook: Combat trial + cost UI; teach player to hesitate
+- Info Control (Audience vs Character): Audience learns restraint; Character struggles with temptation
+- Stakes / Fail-state: Fail=不影響主線；Stakes=玩家學會系統
+- Emotion Target: 壓抑、焦躁
+- Linked Atoms: D22-A0006, D40-A0006
+- Unlock/Artifact: 解鎖：『克制』技能(降低代價)
+
+B10.S03
+- Format: Moral Choice
+- Location: 夜區救援現場
+- Player Objective: 救人但必須選：用大力快救(代價大) or 慢救(可能死傷)
+- Core Hook: Choice with visible consequences
+- Info Control (Audience vs Character): Audience sees no perfect win; Character learns responsibility
+- Stakes / Fail-state: Fail=有人死→情緒負債(後續更難)
+- Emotion Target: 痛、負罪
+- Linked Atoms: D31-A0012, D31-A0035
+- Unlock/Artifact: 解鎖：情緒負債旗標(系統)
+
+
+[B11] 《秋穗交易：情緒毒品危機》
+
+B11.S01
+- Format: Investigation
+- Location: 夜區診所/黑市
+- Player Objective: 追查情緒毒品來源
+- Core Hook: Explore + social interrogation; 引入毒品副作用視覺
+- Info Control (Audience vs Character): Audience sees industrialization; Character focuses on '救人'
+- Stakes / Fail-state: Fail=線索不足→增加戰鬥數量
+- Emotion Target: 噁心、憤怒
+- Linked Atoms: D31-A0015, D40-A0004
+- Unlock/Artifact: 解鎖：毒品樣本(證據)
+
+B11.S02
+- Format: Factory Raid
+- Location: 裝置中轉倉
+- Player Objective: 摧毀一個分發點並救出受害者
+- Core Hook: Combat + timer rescue; 讓聲望短暫回升(為下一次反噬鋪路)
+- Info Control (Audience vs Character): Audience gets '先給回升'; Character回到希望
+- Stakes / Fail-state: Fail=救援失敗→聲望更差
+- Emotion Target: 燃起希望
+- Linked Atoms: D22-A0003, D22-A0007
+- Unlock/Artifact: 解鎖：暫時聲望回升(假安全)
+
+B11.S03
+- Format: Reveal: Akiho Deal
+- Location: 高層會面室(偷聽)
+- Player Objective: 偷聽秋穗與皇帝交易/實驗目的
+- Core Hook: Stealth + audio logs; 讓玩家看見『母愛→災難』
+- Info Control (Audience vs Character): Audience learns truth; Character only gets partial (情報控制)
+- Stakes / Fail-state: Fail=被發現→逃脫戰
+- Emotion Target: 背脊發涼
+- Linked Atoms: D31-A0015, D40-A0004
+- Unlock/Artifact: 解鎖：錄音#秋穗(斷續版)
+
+
+[B12] 《救美夜子，反而孵化緋潮》
+
+B12.S01
+- Format: Dream Storm
+- Location: 愛莉潛意識風暴
+- Player Objective: 進入風暴救人：找到美夜子
+- Core Hook: Dream + puzzle; 利用情緒碎片作為鑰匙
+- Info Control (Audience vs Character): Audience suspects trap; Character believes rescue
+- Stakes / Fail-state: Fail=迷失→重設段落
+- Emotion Target: 焦灼、急
+- Linked Atoms: D31-A0013, D22-A0008
+- Unlock/Artifact: 解鎖：美夜子回收(暫時)
+
+B12.S02
+- Format: Rescue Escape
+- Location: 風暴崩塌走廊
+- Player Objective: 護送美夜子離開，途中出現『緋潮』徵兆
+- Core Hook: Chase + collapsing environment
+- Info Control (Audience vs Character): Audience sees consequence forming; Character仍不理解
+- Stakes / Fail-state: Fail=被吞沒→Lose (重來)
+- Emotion Target: 勝利帶惡兆
+- Linked Atoms: D22-A0004, D22-A0006
+- Unlock/Artifact: 解鎖：緋潮徵兆旗標
+
+B12.S03
+- Format: Aftermath Misread
+- Location: 安全屋/診所
+- Player Objective: 團隊以為成功，實際災難開門
+- Core Hook: Dialogue: 自我安慰 vs 不安；種下『茶會邀請』
+- Info Control (Audience vs Character): Audience knows it’s bad; Characters believe they won
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 不祥的平靜
+- Linked Atoms: D22-A0004, D31-A0017
+- Unlock/Artifact: 解鎖：玻璃庭院邀請函
+
+
+============================================================
+轉（Act 3）
+============================================================
+
+
+[B13] 《玻璃庭院茶會：頂峰瞬變鴻門宴》
+
+B13.S01
+- Format: Prep Mission
+- Location: 城市邊緣/人質線索點
+- Player Objective: 在赴宴前救出/確認人質位置（但只成功一半）
+- Core Hook: Stealth + choice; 玩家以為掌握主動，但其實被引導
+- Info Control (Audience vs Character): Audience: tension; Character: thinks can bargain
+- Stakes / Fail-state: Fail=人質受傷→後面更痛
+- Emotion Target: 焦慮
+- Linked Atoms: D31-A0017, D22-A0008
+- Unlock/Artifact: 解鎖：人質狀態旗標
+
+B13.S02
+- Format: Cinematic Entry
+- Location: 玻璃庭院入口
+- Player Objective: 盛大而冷的迎接；禮儀像刀
+- Core Hook: Cinematic with control: camera angles as intimidation
+- Info Control (Audience vs Character): Audience senses trap; Character forced to comply
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 優雅恐怖
+- Linked Atoms: D22-A0008, D22-A0005
+- Unlock/Artifact: 解鎖：茶會規則(明面)
+
+B13.S03
+- Format: Dialogue Trap
+- Location: 茶會桌邊
+- Player Objective: 對話選項全部有代價：答就暴露弱點，不答就傷害人質
+- Core Hook: Choice: reveal small secrets vs pay immediate harm
+- Info Control (Audience vs Character): Audience sees info warfare; Character learns '對手玩資訊'
+- Stakes / Fail-state: Fail=人質受傷/關係破裂
+- Emotion Target: 被操控的憤怒
+- Linked Atoms: D22-A0001, D22-A0008
+- Unlock/Artifact: 解鎖：弱點標記(對手掌握)
+
+
+[B14] 《微小神揭幕：黑奏奪舍彩》
+
+B14.S01
+- Format: Reveal Cutscene
+- Location: 茶會內殿
+- Player Objective: 黑奏以彩的身體登場（反差恐怖）
+- Core Hook: Cinematic: teddy bear + god voice
+- Info Control (Audience vs Character): Audience + Character both shocked (或先誤導後反轉)
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 噁心、心碎
+- Linked Atoms: D31-A0018, D31-A0019
+- Unlock/Artifact: 解鎖：黑奏登場(敵名公開)
+
+B14.S02
+- Format: Boss Encounter
+- Location: 玻璃回廊
+- Player Objective: 與黑奏交手，但不能全力（人質/爆炸威脅）
+- Core Hook: Boss-lite with constraints; teach '無法用力解題'
+- Info Control (Audience vs Character): Audience sees no clean win; Character feels helpless
+- Stakes / Fail-state: Fail=觸發爆炸→bad end / reset checkpoint
+- Emotion Target: 無力、憤怒
+- Linked Atoms: D22-A0008, D22-A0006
+- Unlock/Artifact: 解鎖：限制條件(爆炸/人質)
+
+B14.S03
+- Format: Silent SOS
+- Location: 短暫靜止時間
+- Player Objective: 彩奪回 1 秒控制：用眼神/手勢求救
+- Core Hook: Micro interaction/QTE; 玩家獲得『彩可被救』的證據
+- Info Control (Audience vs Character): Audience learns hope seed; Character gets mission goal shift
+- Stakes / Fail-state: Fail=錯過→後續更難，但不死
+- Emotion Target: 撕心裂肺的希望
+- Linked Atoms: D31-A0021, D22-A0004
+- Unlock/Artifact: 解鎖：彩求救線索(任務目標更新)
+
+
+[B15] 《永遠笑：抽走痛苦的誘惑》
+
+B15.S01
+- Format: Philosophy Duel
+- Location: 內殿對話空間
+- Player Objective: 黑奏提出『永遠笑』方案，晴香反駁
+- Core Hook: Dialogue with hidden meters: 欲望/恐懼/誠實
+- Info Control (Audience vs Character): Audience sees theme; Character articulates stance
+- Stakes / Fail-state: Fail=無（但選項影響夕掌控值）
+- Emotion Target: 寒意、清醒
+- Linked Atoms: D22-A0003, D40-A0006
+- Unlock/Artifact: 解鎖：主題宣言(版本1)
+
+B15.S02
+- Format: Temptation Simulation
+- Location: 幻覺舞台
+- Player Objective: 體驗『抽走痛苦』的世界：每個NPC都笑，但空洞
+- Core Hook: Dream/puzzle: 你要找出『缺失的溫度』
+- Info Control (Audience vs Character): Audience understands cost; Character feels disgust
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 噁心、悲傷
+- Linked Atoms: D22-A0006, D31-A0035
+- Unlock/Artifact: 解鎖：『假治癒』檔案
+
+B15.S03
+- Format: Price Spike
+- Location: 回到現實走廊
+- Player Objective: 你用了一次大力抵抗幻覺，代價永久加深
+- Core Hook: System event: cost marker escalates
+- Info Control (Audience vs Character): Audience: price is real; Character: chooses anyway
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 硬撐的痛
+- Linked Atoms: D22-A0006, D40-A0006
+- Unlock/Artifact: 解鎖：代價標記#3
+
+
+[B16] 《恐怖平衡：動手就爆，不動手就折磨》
+
+B16.S01
+- Format: School Day Loop
+- Location: 校園/走廊
+- Player Objective: 在校園完成一日行程，同時偵測地底炸彈點
+- Core Hook: Explore + stealth; '動手會爆'限制玩家
+- Info Control (Audience vs Character): Audience learns trap; Character feels suffocated
+- Stakes / Fail-state: Fail=踩到引爆點→重來當日
+- Emotion Target: 焦躁、窒息
+- Linked Atoms: D31-A0022, D22-A0006
+- Unlock/Artifact: 解鎖：引爆點地圖(不完整)
+
+B16.S02
+- Format: Non-Combat Solutions
+- Location: 教室/天台
+- Player Objective: 用談判、安撫、轉移、封鎖等非戰方式解局
+- Core Hook: Social/Puzzle; reward restraint
+- Info Control (Audience vs Character): Audience sees '態度'不是力量; Character learns patience
+- Stakes / Fail-state: Fail=有人受傷→情緒負債+1
+- Emotion Target: 無力但堅持
+- Linked Atoms: D31-A0011, D31-A0035
+- Unlock/Artifact: 解鎖：克制路線點數
+
+B16.S03
+- Format: Pressure Escalation
+- Location: 放學後操場
+- Player Objective: 黑奏隔空折磨：逼你動手
+- Core Hook: Choice: break rule (爆發) vs endure (關係損)
+- Info Control (Audience vs Character): Audience sees moral trap; Character cracks
+- Stakes / Fail-state: Fail=爆發→代價暴增；忍耐→同伴信任下降
+- Emotion Target: 極限壓力
+- Linked Atoms: D22-A0006, D22-A0001
+- Unlock/Artifact: 解鎖：隊伍裂痕旗標
+
+
+[B17] 《日常的裂光：擦膠/擋球/便當》
+
+B17.S01
+- Format: Slice-of-life
+- Location: 教室
+- Player Objective: 幫彩擦膠，對話建立信任
+- Core Hook: Social mini; unlock trust
+- Info Control (Audience vs Character): Audience sees hope seed; Character begins to believe
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 溫柔
+- Linked Atoms: D31-A0023, D31-A0021
+- Unlock/Artifact: 解鎖：彩信任值+1
+
+B17.S02
+- Format: Micro Hero Moment
+- Location: 操場
+- Player Objective: 替彩擋球/擋罵聲
+- Core Hook: Choice: protect publicly (被拍) vs privately (少證據)
+- Info Control (Audience vs Character): Audience sees love-as-resource; Character risks reputation
+- Stakes / Fail-state: Fail=被拍→黑粉+；不保護→信任下降
+- Emotion Target: 想哭的溫柔
+- Linked Atoms: D22-A0007, D31-A0021
+- Unlock/Artifact: 解鎖：彩奪回控制機率+
+
+B17.S03
+- Format: Bentō Promise
+- Location: 放學路上
+- Player Objective: 便當交換：彩第一次表達『想活』
+- Core Hook: Dialogue; seed future sacrifice meaning
+- Info Control (Audience vs Character): Audience anticipates tragedy; Character clings to hope
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 甜得痛
+- Linked Atoms: D31-A0021, D31-A0031
+- Unlock/Artifact: 解鎖：彩記憶碎片#2
+
+
+[B18] 《隊伍裂開：殺不殺彩》
+
+B18.S01
+- Format: Argument Set-piece
+- Location: 安全屋
+- Player Objective: 隊伍爆發爭吵：殺/救兩派
+- Core Hook: Dialogue with branching; choose stance
+- Info Control (Audience vs Character): Audience sees irreversible裂痕; Character forced to choose
+- Stakes / Fail-state: Fail=無，但分支影響後續同伴可用性
+- Emotion Target: 撕裂
+- Linked Atoms: D31-A0024, D22-A0001
+- Unlock/Artifact: 解鎖：派系旗標(救派/殺派)
+
+B18.S02
+- Format: Consequences Mission
+- Location: 夜區街頭
+- Player Objective: 兩派分頭行動：你只能帶走部分同伴
+- Core Hook: Combat/Stealth depending on team composition
+- Info Control (Audience vs Character): Audience sees '失去同伴'代價; Character feels loneliness
+- Stakes / Fail-state: Fail=隊友重傷→永久退場/關係崩
+- Emotion Target: 孤立、憤怒
+- Linked Atoms: D22-A0001, D22-A0009
+- Unlock/Artifact: 解鎖：永恆隔閡(不可逆)
+
+B18.S03
+- Format: Yuu Pushes
+- Location: 內心空間
+- Player Objective: 夕逼你：『你唔係救人，你係想證明你值得被愛』
+- Core Hook: Internal dialogue; increase stakes of identity
+- Info Control (Audience vs Character): Audience sees truth; Character resists/accepts
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 羞恥、清醒
+- Linked Atoms: D22-A0005, D31-A0011
+- Unlock/Artifact: 解鎖：主題宣言(版本2)
+
+
+[B19] 《第二失控線：美夜子得知凜仍在生而失蹤》
+
+B19.S01
+- Format: Clue Hunt
+- Location: 醫院/地鐵站
+- Player Objective: 找美夜子下落：收集3個線索
+- Core Hook: Investigation + time pressure
+- Info Control (Audience vs Character): Audience knows it's worse; Character hopes it’s temporary
+- Stakes / Fail-state: Fail=超時→後面難度上升
+- Emotion Target: 心慌
+- Linked Atoms: D31-A0025, D31-A0013
+- Unlock/Artifact: 解鎖：凜線索(不完整)
+
+B19.S02
+- Format: Rin Echo Encounter
+- Location: 舊教堂遺址
+- Player Objective: 看到凜的『回聲』或紀錄（不確認真偽）
+- Core Hook: Puzzle: verify authenticity but keep ambiguity (info control)
+- Info Control (Audience vs Character): Audience gets ambiguity; Character shaken
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 幽靈般的恐懼
+- Linked Atoms: D22-A0004, D31-A0026
+- Unlock/Artifact: 解鎖：凜檔案(疑似)
+
+B19.S03
+- Format: Miyako Gone
+- Location: 夜區雨巷
+- Player Objective: 追到最後只剩雨與血跡
+- Core Hook: Cinematic + small combat ambush
+- Info Control (Audience vs Character): Audience feels impending doom; Character feels helpless
+- Stakes / Fail-state: Fail=戰敗→重試
+- Emotion Target: 失重
+- Linked Atoms: D31-A0025, D31-A0026
+- Unlock/Artifact: 解鎖：失蹤狀態(長期)
+
+
+[B20] 《偽高潮：解放之戰＋公開處刑》
+
+B20.S01
+- Format: Large Battle
+- Location: 解放戰區(街區戰)
+- Player Objective: 帶領解放之戰：奪回3個據點
+- Core Hook: Combat set-piece + allies; give player peak power
+- Info Control (Audience vs Character): Audience feels momentum; Character believes '我贏了'
+- Stakes / Fail-state: Fail=據點失守→重來/難度上升
+- Emotion Target: 熱血（但危險）
+- Linked Atoms: D31-A0026, D22-A0003
+- Unlock/Artifact: 解鎖：解放旗幟(象徵)
+
+B20.S02
+- Format: Public Execution Trap
+- Location: 公共廣場
+- Player Objective: 帝國公開處刑逼你現身：你必須選救誰/如何救
+- Core Hook: Choice + timer + constrained boss; show 'no clean win'
+- Info Control (Audience vs Character): Audience sees trap; Character forced into sacrifice math
+- Stakes / Fail-state: Fail=人質死亡→情緒負債暴增
+- Emotion Target: 絕望翻湧
+- Linked Atoms: D22-A0005, D22-A0008
+- Unlock/Artifact: 解鎖：地震引信(已點燃)
+
+B20.S03
+- Format: Collapse Trigger
+- Location: 廣場邊緣/天空裂縫
+- Player Objective: 你爆發一次改變現實（或嘗試），但代價與反噬開始
+- Core Hook: Cinematic + system: cost spike + world scar appears
+- Info Control (Audience vs Character): Audience: fake climax breaks; Character: shock
+- Stakes / Fail-state: Fail=無（進入Act4）
+- Emotion Target: 爽感被打碎
+- Linked Atoms: D31-A0027, D22-A0006
+- Unlock/Artifact: 解鎖：新世界裂痕(主線狀態)
+
+
+============================================================
+合（Act 4）
+============================================================
+
+
+[B21] 《結構性地震：Alpha線與創世者真相》
+
+B21.S01
+- Format: Truth Earthquake Cutscene
+- Location: 無重力記憶殿堂
+- Player Objective: 揭露Alpha線/創世者真相（你與世界綁死）
+- Core Hook: Cinematic + interactive timeline map (玩家點選回憶節點)
+- Info Control (Audience vs Character): Audience + Character receive quake truth
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 顫抖、崩潰清醒
+- Linked Atoms: D31-A0028, D22-A0005
+- Unlock/Artifact: 解鎖：世界真相檔案(Alpha)
+
+B21.S02
+- Format: Acceptance Trial
+- Location: 內心審判場
+- Player Objective: 面對『我也是因果源頭』，完成3題自白選擇
+- Core Hook: Choice: 承認/辯解/逃避 → 影響結局語氣（非結果）
+- Info Control (Audience vs Character): Audience sees maturity; Character chooses attitude
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 羞恥→堅定
+- Linked Atoms: D22-A0001, D31-A0035
+- Unlock/Artifact: 解鎖：態度宣言(版本3)
+
+B21.S03
+- Format: World Rule Boot
+- Location: 新現實第一天
+- Player Objective: 走入新現實：測試新規則（沒有原聲望條，但有新傷疤）
+- Core Hook: Explore; show scars as landmarks, not UI
+- Info Control (Audience vs Character): Audience sees 'new-world rules'; Character disoriented
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 陌生、寂寞
+- Linked Atoms: D31-A0029, D22-A0009
+- Unlock/Artifact: 解鎖：新世界地圖(局部)
+
+
+[B22] 《二十年後：最難打的敵人係『不想醒』》
+
+B22.S01
+- Format: Exploration
+- Location: 二十年後的城
+- Player Objective: 探索：找到3個『你曾經留下的傷疤地標』
+- Core Hook: Explore + memory echoes
+- Info Control (Audience vs Character): Audience understands passage; Character numb
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 空洞、疲倦
+- Linked Atoms: D31-A0029, D22-A0009
+- Unlock/Artifact: 解鎖：地標記憶#1-3
+
+B22.S02
+- Format: Inner Boss (Soft)
+- Location: 內心海
+- Player Objective: 與『不想醒』戰鬥（不是怪物，是疲倦）
+- Core Hook: Boss as endurance/puzzle: 不靠輸出，靠承認
+- Info Control (Audience vs Character): Audience sees theme; Character either yields or stands
+- Stakes / Fail-state: Fail=耗盡→回到起點（重試）
+- Emotion Target: 絕望→微光
+- Linked Atoms: D22-A0001, D31-A0011
+- Unlock/Artifact: 解鎖：重新站起來旗標
+
+B22.S03
+- Format: Miyako Thread
+- Location: 電話/留言
+- Player Objective: 收到美夜子留下的『人類連結』訊息
+- Core Hook: Cinematic + choice: 回應/不回應（影響結尾溫度）
+- Info Control (Audience vs Character): Audience sees remaining scar; Character remembers love
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 溫柔但痛
+- Linked Atoms: D22-A0009, D31-A0035
+- Unlock/Artifact: 解鎖：人類連結線索
+
+
+[B23] 《屍骸的選擇：自由而非復仇》
+
+B23.S01
+- Format: Negotiation
+- Location: 屍骸聚落
+- Player Objective: 與屍骸代表談判：他們拒絕復仇，要求自由
+- Core Hook: Dialogue + trust checks
+- Info Control (Audience vs Character): Audience sees theme landing; Character gets proof
+- Stakes / Fail-state: Fail=談判破裂→多一場戰鬥
+- Emotion Target: 苦中回甘
+- Linked Atoms: D31-A0030, D31-A0001
+- Unlock/Artifact: 解鎖：自由盟約(道具)
+
+B23.S02
+- Format: Combat/Defense
+- Location: 聚落外圍
+- Player Objective: 保護屍骸聚落免受殘存勢力騷擾
+- Core Hook: Combat defense; show they don't want to kill
+- Info Control (Audience vs Character): Audience: moral nuance; Character: new perspective
+- Stakes / Fail-state: Fail=聚落受損→盟約變弱（結尾語氣變冷）
+- Emotion Target: 堅韌
+- Linked Atoms: D31-A0030, D22-A0006
+- Unlock/Artifact: 解鎖：盟約強度(系統)
+
+B23.S03
+- Format: Rule Demonstration
+- Location: 傷疤地標旁
+- Player Objective: 用一個小事件展示：新世界規則不是『抹平痛』，而是『把痛變成路標』
+- Core Hook: Explore + short puzzle
+- Info Control (Audience vs Character): Audience sees rule; Character understands responsibility
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 沉穩
+- Linked Atoms: D31-A0035, D22-A0009
+- Unlock/Artifact: 解鎖：新世界規則筆記#1
+
+
+[B24] 《彩的輪迴：愛的代價與因果償還》
+
+B24.S01
+- Format: Loop Witness
+- Location: 輪迴迴廊
+- Player Objective: 見證彩的輪迴片段（3次，不同角度）
+- Core Hook: Dream + repeated scene with variations
+- Info Control (Audience vs Character): Audience feels cruelty; Character breaks
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 心碎
+- Linked Atoms: D31-A0031, D31-A0003
+- Unlock/Artifact: 解鎖：輪迴證言(檔案)
+
+B24.S02
+- Format: Ritual Mission
+- Location: 裂縫邊緣
+- Player Objective: 完成修補裂縫的儀式前置（收集3件象徵物）
+- Core Hook: Explore/Combat mix; each item costs something
+- Info Control (Audience vs Character): Audience: cost is unavoidable; Character accepts
+- Stakes / Fail-state: Fail=少一件→儀式成功但代價更大
+- Emotion Target: 敬畏
+- Linked Atoms: D31-A0032, D31-A0035
+- Unlock/Artifact: 解鎖：儀式材料
+
+B24.S03
+- Format: Decision Scene
+- Location: 儀式核心
+- Player Objective: 彩的代價被確立：她選擇承擔（或你選擇接受）
+- Core Hook: Choice with no 'good' option; only 'honest' option
+- Info Control (Audience vs Character): Audience sees real dark healing; Character grows
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 痛但被治癒一點
+- Linked Atoms: D31-A0031, D22-A0001
+- Unlock/Artifact: 解鎖：主題宣言(版本4：代價)
+
+
+[B25] 《秋穗的終極諷刺：製造魔法少女機器》
+
+B25.S01
+- Format: Factory Recon
+- Location: 秋穗設施外圍
+- Player Objective: 偵察製造線：看到『把女孩變成資源』的現場
+- Core Hook: Stealth + document capture
+- Info Control (Audience vs Character): Audience disgust; Character rage
+- Stakes / Fail-state: Fail=警報→難度上升
+- Emotion Target: 厭惡
+- Linked Atoms: D31-A0033, D40-A0004
+- Unlock/Artifact: 解鎖：製造線證據
+
+B25.S02
+- Format: Assault
+- Location: 製造線核心
+- Player Objective: 摧毀機器（但每摧毀一段都會釋放情緒污染）
+- Core Hook: Combat + hazard; show '解放也會傷人'
+- Info Control (Audience vs Character): Audience sees complexity; Character forced to choose method
+- Stakes / Fail-state: Fail=污染過量→同伴受傷/結尾更冷
+- Emotion Target: 憤怒→沉重
+- Linked Atoms: D31-A0033, D31-A0035
+- Unlock/Artifact: 解鎖：工業化閉環終止旗標
+
+B25.S03
+- Format: Confront Akiho
+- Location: 控制室
+- Player Objective: 與秋穗對質：母愛如何被扭曲成機器
+- Core Hook: Dialogue + partial boss; outcome affects closure tone
+- Info Control (Audience vs Character): Audience: tragedy; Character: sees wrong attitude end
+- Stakes / Fail-state: Fail=無（可勝可不殺）
+- Emotion Target: 悲劇、決心
+- Linked Atoms: D31-A0015, D31-A0033
+- Unlock/Artifact: 解鎖：反面教材檔案(秋穗)
+
+
+[B26] 《世界索債：創世者成為代價》
+
+B26.S01
+- Format: Final Trial
+- Location: 世界核(傷疤之心)
+- Player Objective: 完成最後的『承擔試煉』：不是打倒敵人，而是承擔規則
+- Core Hook: Puzzle/choice: 你要如何成為代價（語氣路線）
+- Info Control (Audience vs Character): Audience: theme conclusion; Character: accepts
+- Stakes / Fail-state: Fail=無（只是不同語氣）
+- Emotion Target: 莊嚴、痛
+- Linked Atoms: D31-A0034, D31-A0035
+- Unlock/Artifact: 解鎖：結局語氣旗標
+
+B26.S02
+- Format: Miyako Epilogue
+- Location: 人類世界的一角
+- Player Objective: 美夜子作為『唯一人類連結』的收束對話
+- Core Hook: Cinematic + final choice: 留言/沉默/道別
+- Info Control (Audience vs Character): Audience sees scar remains; Character chooses honesty
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 溫柔的殘酷
+- Linked Atoms: D22-A0009, D31-A0035
+- Unlock/Artifact: 解鎖：後日談訊息(可回看)
+
+B26.S03
+- Format: World Landmark Payoff
+- Location: 糖果山/人偶牆(象徵)
+- Player Objective: 把『不可逆傷疤』變成地標：新世界的記憶機制
+- Core Hook: Explore + short narration; confirm '傷口不被抹去'
+- Info Control (Audience vs Character): Audience gets catharsis without cheap redemption
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 治癒但仍痛
+- Linked Atoms: D22-A0001, D22-A0009
+- Unlock/Artifact: 解鎖：新世界規則筆記#2（地標）
+
+
+============================================================
+IMPLEMENTATION CHECKLIST (so you can use this immediately)
+============================================================
+1) Build a Quest Spreadsheet (SceneID rows):
+   - SceneID, Location, Hook, Objective, NPCs, Enemy, Reward, Fail-state, Info Tokens, Linked Atoms
+2) For each scene, write:
+   - 1 paragraph 'Director intent' (camera/atmosphere)
+   - 1 paragraph 'Gameplay intent' (what the player does)
+3) Start prototyping with Act 1 only:
+   - B02.S03 combat tutorial, B03.S02 chase, B04.S02 social UI
+4) When you expand atoms later:
+   - Replace 'Linked Atoms' with more precise per-scene atoms (not just beat-level).

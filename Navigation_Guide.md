@@ -22,8 +22,8 @@
 - [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]] - 每位魔法少女的核心主題
 
 **個別角色視覺設計：**
-- [[art/202_Character_Visual_Design_Haruka]] - 雨宮晴香
-- [[art/203_Character_Visual_Design_Miyako]] - 月城美夜子
+- [[art/202_Character_Visual_Design_Haruka]] - 雨宮晴香（春日井晴香）
+- [[art/203_Character_Visual_Design_Miyako]] - 水無月美夜子
 - [[art/204_Character_Visual_Design_Iroha]] - 神樂彩
 - [[art/205_Character_Visual_Design_Saku]] - 白銀朔
 - [[art/206_Character_Visual_Design_Akiho]] - 楓秋穗

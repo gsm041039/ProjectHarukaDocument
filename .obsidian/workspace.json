@@ -23,30 +23,15 @@
             }
           },
           {
-            "id": "91d7d3dcb54e6983",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.11.4"
-              },
-              "icon": "lucide-book-up",
-              "title": "發行記錄 1.11.4"
-            }
-          },
-          {
             "id": "37556709d00f966e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "圖表.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
+                "file": "art/Images/ConceptArt_Aya.jpg"
               },
-              "icon": "lucide-file",
-              "title": "圖表"
+              "icon": "lucide-image",
+              "title": "ConceptArt_Aya"
             }
           }
         ],
@@ -275,8 +260,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91d7d3dcb54e6983",
+  "active": "37556709d00f966e",
   "lastOpenFiles": [
+    "art/Images/MagicalGirl_Aya.jpg",
+    "art/Images/ConceptArt_Aya.jpg",
     "編劇/06_角色心理分析.md",
     "遊戲性/00_核心遊戲性設計文件.md",
     "導演/01_創作核心與指導原則.md",
@@ -306,7 +293,6 @@
     "美術/Images/ConceptArt_Haruka.jpg",
     "美術/Images/ConceptArt_Misao_1.jpg",
     "美術/Images/ConceptArt_Misao_2.jpg",
-    "美術/Images/ConceptArt_Miyako.jpg",
     "美術/202_角色視覺設計檔案_晴香.md",
     "美術/303_魔法少女共通視覺語言.md",
     "美術/206_角色視覺設計檔案_秋穗.md",
@@ -322,7 +308,6 @@
     "編劇/02_次要角色背景故事.md",
     "導演/00_故事導演手冊(未整理).md",
     "編劇/各魔法少女主題詳解.md",
-    "導演/角色氛圍的導演手冊：四幕結構下的情感調度.md",
     "Test.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
