@@ -11,7 +11,8 @@
       "Bash(wc:*)",
       "Bash(tree:*)",
       "Bash(grep -r \"大姐姐\" \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\編劇\"\" 2>/dev/null | wc -l && echo \"\" && echo \"2. Checking for 蒼 's characterization consistency:\" && grep -c \"逃避|逃跑|臨陣退縮\" \"c:ProjectsProjectHarukaDocument編劇05_故事大綱.md\" && grep -c \"逃避|逃跑|臨陣退縮\" \"c:ProjectsProjectHarukaDocument編劇01_人物背景故事.md \")",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git mv:*)"
     ],
     "ask": [
       "Bash(git commit:*)",
