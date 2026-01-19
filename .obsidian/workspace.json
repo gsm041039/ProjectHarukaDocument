@@ -26,12 +26,14 @@
             "id": "37556709d00f966e",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "split-diff-view",
               "state": {
-                "file": "art/Images/ConceptArt_Aya.jpg"
+                "aFile": "art/208_Character_Visual_Design_Iwakura_Akane.md",
+                "bFile": "art/208_Character_Visual_Design_Iwakura_Akane.md",
+                "aRef": ""
               },
-              "icon": "lucide-image",
-              "title": "ConceptArt_Aya"
+              "icon": "diff",
+              "title": "Diff: 208_Character_Visual_Design_Iwakura_Akane"
             }
           }
         ],
@@ -262,8 +264,8 @@
   },
   "active": "37556709d00f966e",
   "lastOpenFiles": [
-    "art/Images/MagicalGirl_Aya.jpg",
     "art/Images/ConceptArt_Aya.jpg",
+    "art/Images/MagicalGirl_Aya.jpg",
     "編劇/06_角色心理分析.md",
     "遊戲性/00_核心遊戲性設計文件.md",
     "導演/01_創作核心與指導原則.md",

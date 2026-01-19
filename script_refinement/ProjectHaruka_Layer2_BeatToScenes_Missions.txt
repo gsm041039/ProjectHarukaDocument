@@ -612,6 +612,42 @@ B16.S03
 - Unlock/Artifact: 解鎖：隊伍裂痕旗標
 
 
+[B16.5] 《完美的代價：操的隱藏動機被揭穿》
+
+B16.5.S01
+- Format: Boss Battle + Media Pressure
+- Location: 市中心地標建築
+- Player Objective: 擊敗大型屍骸，同時避免建築損毀（媒體直播中）
+- Core Hook: 操堅持「完美戰術」vs 實用戰術選擇
+- Info Control (Audience vs Character): Audience sees 操's hidden motivation (wanting father's approval); Character sees tactical disagreement
+- Stakes / Fail-state: Fail=建築毀損降低公眾評價；Success=戰鬥拖延導致朱音受傷
+- Emotion Target: 壓力、完美主義的代價
+- Linked Atoms: D31-A0022
+- Unlock/Artifact: 解鎖：操完美執著旗標
+
+B16.5.S02
+- Format: Combat Crisis
+- Location: 市中心戰場
+- Player Objective: 屍骸反撲，朱音掩護操而受傷
+- Core Hook: 操錯過擊殺時機 → 代價由朱音承擔
+- Info Control (Audience vs Character): Audience sees causation clearly; 操 in denial
+- Stakes / Fail-state: 朱音手臂受重傷（固定結果）
+- Emotion Target: 內疚、緊張
+- Linked Atoms: D22-A0006
+- Unlock/Artifact: 解鎖：朱音受傷CG
+
+B16.5.S03
+- Format: Confrontation Dialogue
+- Location: 戰後廢墟
+- Player Objective: 見證朱音與操的對質
+- Core Hook: 朱音揭穿操的真正動機：「妳那個死鬼老豆就會望妳一眼？」
+- Info Control (Audience vs Character): Audience fully understands 操's psychology; 晴香等人只看到衝突表面
+- Stakes / Fail-state: 操崩潰（傀儡失控舉刀 → 停頓 → 沉默離開）
+- Emotion Target: 揭穿的殘酷、無言的崩潰
+- Linked Atoms: D31-A0022
+- Unlock/Artifact: 解鎖：操內心檔案#2（隱藏動機）
+
+
 [B17] 《日常的裂光：擦膠/擋球/便當》
 
 B17.S01
@@ -648,76 +684,181 @@ B17.S03
 - Unlock/Artifact: 解鎖：彩記憶碎片#2
 
 
-[B18] 《隊伍裂開：殺不殺彩》
+[B17.5] 《小光之死：保護失敗的絕望》
+
+B17.5.S01
+- Format: Mass Combat Mission
+- Location: 夜區廢墟戰場
+- Player Objective: 控制朱音清理屍骸，保護平民（含小光）
+- Core Hook: Horde combat with resource management (magic/emotion depletion)
+- Info Control (Audience vs Character): Audience sees depletion bar warning; Akane feels invincible (denial)
+- Stakes / Fail-state: Fail=觸發戒斷事件（劇情必然）
+- Emotion Target: 緊張→無力感
+- Linked Atoms: D22-A0006 (代價漸進侵蝕)
+- Unlock/Artifact: 解鎖：朱音戒斷事件
+
+B17.5.S02
+- Format: Interactive Tragedy (QTE Fail by Design)
+- Location: 廢墟角落
+- Player Objective: 試圖阻止屍骸攻擊小光（但必然失敗）
+- Core Hook: Fail-state narrative; player input = emotional investment but no agency
+- Info Control (Audience vs Character): Audience與角色同步經歷無力感；黑奏暗中觀察
+- Stakes / Fail-state: 必然失敗（戒斷導致魔力中斷）
+- Emotion Target: 絕望、崩潰、心碎
+- Linked Atoms: D22-A0006, D31-A0024
+- Unlock/Artifact: 解鎖：小光死亡CG；小光屍骸化開始
+
+B17.5.S03
+- Format: Cinematic + Dialogue Choice
+- Location: 廢墟戰場（戰後）
+- Player Objective: 黑奏介入，提出「他沒有死，只是換了生存方式」；選擇朱音的反應
+- Core Hook: Dialogue choice affects Akane's corruption speed (但結果相同)
+- Info Control (Audience vs Character): Audience sees manipulation; Akane (player-controlled) struggles with logic
+- Stakes / Fail-state: Fail=無（所有選擇導向背叛）
+- Emotion Target: 扭曲的希望、被操控感
+- Linked Atoms: D31-A0024, D22-A0004 (誤導→反轉)
+- Unlock/Artifact: 解鎖：朱音邏輯重構；小光屍骸完全形成；黑奏操控證據#1
+
+
+[B18] 《朱音背叛：扭曲的母性》
 
 B18.S01
-- Format: Argument Set-piece
-- Location: 安全屋
-- Player Objective: 隊伍爆發爭吵：殺/救兩派
-- Core Hook: Dialogue with branching; choose stance
-- Info Control (Audience vs Character): Audience sees irreversible裂痕; Character forced to choose
-- Stakes / Fail-state: Fail=無，但分支影響後續同伴可用性
-- Emotion Target: 撕裂
+- Format: Betrayal Mission (Defensive)
+- Location: 夜區臨時基地
+- Player Objective: 朱音攻擊試圖消滅「小光屍骸」的隊友；玩家必須防禦/勸說
+- Core Hook: Boss fight (former ally) + dialogue interrupt attempts
+- Info Control (Audience vs Character): Audience理解朱音動機；角色只看到背叛
+- Stakes / Fail-state: Fail=隊友重傷→操介入（觸發下一場景）
+- Emotion Target: 背叛感、混亂、同情與憤怒的衝突
 - Linked Atoms: D31-A0024, D22-A0001
-- Unlock/Artifact: 解鎖：派系旗標(救派/殺派)
+- Unlock/Artifact: 解鎖：朱音背叛旗標；媒體負面報導開始
 
 B18.S02
-- Format: Consequences Mission
-- Location: 夜區街頭
-- Player Objective: 兩派分頭行動：你只能帶走部分同伴
-- Core Hook: Combat/Stealth depending on team composition
-- Info Control (Audience vs Character): Audience sees '失去同伴'代價; Character feels loneliness
-- Stakes / Fail-state: Fail=隊友重傷→永久退場/關係崩
-- Emotion Target: 孤立、憤怒
-- Linked Atoms: D22-A0001, D22-A0009
-- Unlock/Artifact: 解鎖：永恆隔閡(不可逆)
+- Format: Emotional Boss Fight (操 vs 朱音)
+- Location: 廢棄糖果工廠外圍
+- Player Objective: 操試圖喚回朱音，展現真感情但失敗
+- Core Hook: Dialogue-heavy boss fight; player chooses 操's approach (溫柔/強硬)
+- Info Control (Audience vs Character): Audience sees 操隱藏的關心；角色驚訝於操的轉變
+- Stakes / Fail-state: Fail=操身受重傷（劇情必然）；朱音逃入工廠深處
+- Emotion Target: 意外的溫暖、無力感、心碎
+- Linked Atoms: D31-A0024, D22-A0001
+- Unlock/Artifact: 解鎖：操受傷狀態；屍骸樂園位置；朱音完全墮落
 
 B18.S03
-- Format: Yuu Pushes
-- Location: 內心空間
-- Player Objective: 夕逼你：『你唔係救人，你係想證明你值得被愛』
-- Core Hook: Internal dialogue; increase stakes of identity
-- Info Control (Audience vs Character): Audience sees truth; Character resists/accepts
+- Format: Media Fallout (Narrative Segment)
+- Location: 城市各處（蒙太奇）
+- Player Objective: 觀看媒體報導「魔法少女背叛人類」；感受社會壓力
+- Core Hook: Cinematic + choice: 如何回應輿論（沉默/辯解/對抗）
+- Info Control (Audience vs Character): Audience sees 黑奏的社會性抹殺策略；角色感受窒息
+- Stakes / Fail-state: Fail=無（但選擇影響後續民望）
+- Emotion Target: 窒息、被背棄感、憤怒
+- Linked Atoms: D31-A0024, D22-A0007 (民望反噬)
+- Unlock/Artifact: 解鎖：社會壓力旗標；團隊士氣下降
+
+
+[B18.5] 《屍骸女王討伐：三位一體的質問》
+
+B18.5.S01
+- Format: Infiltration + Environmental Storytelling
+- Location: 屍骸樂園（廢棄糖果工廠）- 外圍到內部
+- Player Objective: 潛入工廠，發現朱音建立的「屍骸樂園」真相
+- Core Hook: Stealth/Combat hybrid; environmental clues reveal Akane's twisted logic
+- Info Control (Audience vs Character): 角色逐步理解朱音的動機；發現被囚禁的人類和被裝飾的屍骸
+- Stakes / Fail-state: Fail=警報→直接進入Boss戰（更難）
+- Emotion Target: 不安、噁心、同情的混合
+- Linked Atoms: D31-A0024, D22-A0001
+- Unlock/Artifact: 解鎖：屍骸樂園全貌；朱音日記碎片
+
+B18.5.S02
+- Format: Philosophical Boss Fight
+- Location: 糖果王座大廳
+- Player Objective: 對峙朱音（屍骸女王形態）；面對三位一體質問
+- Core Hook: Multi-phase boss fight with dialogue interruptions; 朱音的質問無法被完美回答
+- Info Control (Audience vs Character): 觀眾與角色同步面對道德困境；每個回答都有代價
+- Stakes / Fail-state: Fail=戰敗→重試；質問回答影響後續角色心理狀態
+- Emotion Target: 哲學對決的寒意、道德困境、心痛
+- Linked Atoms: D31-A0024 (擴展), D22-A0001 (擴展)
+- Unlock/Artifact: 解鎖：三位一體問題記錄；朱音的質問會在後續劇情中迴響
+
+B18.5.S03
+- Format: Failed Execution (Interactive Cutscene)
+- Location: 糖果王座大廳（崩塌中）
+- Player Objective: 屍骸小光失控後消失；晴香無法下手殺死朱音
+- Core Hook: QTE-based emotional sequence; player attempts to execute but hesitates (intentionally fails)
+- Info Control (Audience vs Character): 觀眾與角色同步經歷「無法下手」的道德困境；晴香無法成為處決者
+- Stakes / Fail-state: Fail=無（劇情必然：晴香無法殺死朱音）
+- Emotion Target: 心碎、矛盾、無法下手的痛苦、質疑正義
+- Linked Atoms: D31-A0024, D22-A0001, D22-A0009 (永恆隔閡)
+- Unlock/Artifact: 解鎖：朱音放逐CG；晴香冷冷說「滾」；**朱音開始自我放逐期**；遺物（發霉波板糖、破爛書包、光環碎片）；「治癒失敗+處決失敗」雙重挫敗；團隊永久裂痕
+
+B18.5.S04
+- Format: Aftermath (Narrative Segment)
+- Location: 屍骸樂園外（雨中）
+- Player Objective: 團隊處理朱音放逐的情緒；收集遺物；面對媒體；朱音消失在下水道深處
+- Core Hook: Dialogue choices affect team morale and future relationships; **朱音暗線開始：下水道掙扎**
+- Info Control (Audience vs Character): 觀眾看到裂痕已無法修補；角色試圖安慰彼此但失敗；**朱音的命運成為懸念**
 - Stakes / Fail-state: Fail=無
-- Emotion Target: 羞恥、清醒
-- Linked Atoms: D22-A0005, D31-A0011
-- Unlock/Artifact: 解鎖：主題宣言(版本2)
+- Emotion Target: 空虛、沉重、無法被治癒的傷口、懸念
+- Linked Atoms: D22-A0009, D31-A0024
+- Unlock/Artifact: 解鎖：朱音放逐狀態；團隊關係永久改變旗標；**嘆息之橋伏筆種子**
 
 
-[B19] 《第二失控線：美夜子得知凜仍在生而失蹤》
+[B19] 《隊伍再裂：殺不殺彩 + 美夜子失蹤》
 
 B19.S01
-- Format: Clue Hunt
-- Location: 醫院/地鐵站
-- Player Objective: 找美夜子下落：收集3個線索
-- Core Hook: Investigation + time pressure
-- Info Control (Audience vs Character): Audience knows it's worse; Character hopes it’s temporary
-- Stakes / Fail-state: Fail=超時→後面難度上升
-- Emotion Target: 心慌
-- Linked Atoms: D31-A0025, D31-A0013
-- Unlock/Artifact: 解鎖：凜線索(不完整)
+- Format: Argument Set-piece (Akane's Shadow)
+- Location: 安全屋
+- Player Objective: 團隊因**朱音的放逐**爆發爭吵：對「殺唔殺彩」分歧更加激烈
+- Core Hook: Dialogue with branching;朱音放逐的陰影籠罩辯論（「朱音的放逐證明晴香太軟弱」vs「正是因為我們無法救她，不能再重蹈覆轍」）
+- Info Control (Audience vs Character): Audience sees 朱音放逐加深裂痕；角色被恐懼、罪惡感和「無法下手」的矛盾驅動
+- Stakes / Fail-state: Fail=無，但分支影響後續同伴可用性和彩的命運
+- Emotion Target: 撕裂、絕望（傷口未癒又被撕開）、「我們該不該殺她」的矛盾
+- Linked Atoms: D31-A0024, D22-A0001
+- Unlock/Artifact: 解鎖：派系旗標加深(救派/殺派)；朱音放逐陰影效果；**朱音暗線進行中**
 
 B19.S02
-- Format: Rin Echo Encounter
-- Location: 舊教堂遺址
-- Player Objective: 看到凜的『回聲』或紀錄（不確認真偽）
-- Core Hook: Puzzle: verify authenticity but keep ambiguity (info control)
-- Info Control (Audience vs Character): Audience gets ambiguity; Character shaken
-- Stakes / Fail-state: Fail=無
-- Emotion Target: 幽靈般的恐懼
-- Linked Atoms: D22-A0004, D31-A0026
-- Unlock/Artifact: 解鎖：凜檔案(疑似)
+- Format: Discovery + Investigation
+- Location: 安全屋/美夜子房間
+- Player Objective: 發現美夜子留下的線索：「凜仍在生」的證據和失蹤的痕跡
+- Core Hook: Investigation + emotional items (Rin's photo, bloodstained note)
+- Info Control (Audience vs Character): Audience knows 這是陷阱/災難；角色希望只是短暫離隊
+- Stakes / Fail-state: Fail=無（劇情必然）
+- Emotion Target: 心慌、失重、「不是吧，又來？」的絕望
+- Linked Atoms: D31-A0025, D31-A0013
+- Unlock/Artifact: 解鎖：凜線索(不完整)；美夜子失蹤旗標
 
 B19.S03
-- Format: Miyako Gone
+- Format: Clue Hunt + Time Pressure
+- Location: 醫院/地鐵站/舊教堂遺址
+- Player Objective: 追蹤美夜子下落：收集3個線索；看到凜的『回聲』或紀錄（不確認真偽）
+- Core Hook: Investigation + time pressure + ambiguity puzzle
+- Info Control (Audience vs Character): Audience gets ambiguity about Rin；角色被凜的可能存在動搖
+- Stakes / Fail-state: Fail=超時→後面難度上升
+- Emotion Target: 幽靈般的恐懼、心慌
+- Linked Atoms: D22-A0004, D31-A0025, D31-A0026
+- Unlock/Artifact: 解鎖：凜檔案(疑似)；追蹤進度
+
+B19.S04
+- Format: Miyako Gone (Cinematic)
 - Location: 夜區雨巷
-- Player Objective: 追到最後只剩雨與血跡
-- Core Hook: Cinematic + small combat ambush
-- Info Control (Audience vs Character): Audience feels impending doom; Character feels helpless
+- Player Objective: 追到最後只剩雨與血跡；美夜子已消失
+- Core Hook: Cinematic + small combat ambush；player feels helpless
+- Info Control (Audience vs Character): Audience feels impending doom; Character feels 「我又救唔到」
 - Stakes / Fail-state: Fail=戰敗→重試
-- Emotion Target: 失重
+- Emotion Target: 失重、無力感、「朱音的悲劇會重演」的恐懼
 - Linked Atoms: D31-A0025, D31-A0026
-- Unlock/Artifact: 解鎖：失蹤狀態(長期)
+- Unlock/Artifact: 解鎖：失蹤狀態(長期)；團隊士氣崩潰
+
+B19.S05
+- Format: Yuu Pushes (Internal Dialogue)
+- Location: 內心空間
+- Player Objective: 夕在朱音與美夜子雙重打擊下逼迫晴香：『你救唔到所有人』
+- Core Hook: Internal dialogue; confront failures
+- Info Control (Audience vs Character): Audience sees truth; Character forced to face limits
+- Stakes / Fail-state: Fail=無
+- Emotion Target: 羞恥、清醒、絕望中的清醒
+- Linked Atoms: D22-A0005, D31-A0011, D31-A0024
+- Unlock/Artifact: 解鎖：主題宣言(版本3 - 更黑暗)
 
 
 [B20] 《偽高潮：解放之戰＋公開處刑》
