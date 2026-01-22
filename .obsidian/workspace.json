@@ -35,9 +35,23 @@
               "icon": "diff",
               "title": "Diff: 208_Character_Visual_Design_Iwakura_Akane"
             }
+          },
+          {
+            "id": "63eafabbc8b3e775",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "screenwriter/01_Character_Background_Story.md",
+                "bFile": "screenwriter/01_Character_Background_Story.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 01_Character_Background_Story"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -262,8 +276,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "37556709d00f966e",
+  "active": "63eafabbc8b3e775",
   "lastOpenFiles": [
+    "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_4.jpg",
+    "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_3.jpg",
+    "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_2.jpg",
+    "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_1.jpg",
     "art/Images/ConceptArt_Aya.jpg",
     "art/Images/MagicalGirl_Aya.jpg",
     "編劇/06_角色心理分析.md",
@@ -291,10 +309,6 @@
     "美術/Images/ConceptArt_Aeri.jpg",
     "美術/Images/MagicalGirl_Aeri.jpg",
     "美術/Images/ConceptArt_Akane.jpg",
-    "美術/Images/ConceptArt_Aya.jpg",
-    "美術/Images/ConceptArt_Haruka.jpg",
-    "美術/Images/ConceptArt_Misao_1.jpg",
-    "美術/Images/ConceptArt_Misao_2.jpg",
     "美術/202_角色視覺設計檔案_晴香.md",
     "美術/303_魔法少女共通視覺語言.md",
     "美術/206_角色視覺設計檔案_秋穗.md",
