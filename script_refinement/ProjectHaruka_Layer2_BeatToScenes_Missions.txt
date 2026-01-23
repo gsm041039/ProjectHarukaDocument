@@ -394,73 +394,101 @@ B10.S03
 [B11] 《秋穗交易：情緒毒品危機》
 
 B11.S01
-- Format: Investigation
-- Location: 夜區診所/黑市
-- Player Objective: 追查情緒毒品來源
-- Core Hook: Explore + social interrogation; 引入毒品副作用視覺
-- Info Control (Audience vs Character): Audience sees industrialization; Character focuses on '救人'
+- Format: Investigation + Emo-Visor Experience
+- Location: 日區「Emo-Visor 體驗館」→ 夜區診所/黑市
+- Player Objective: 追查情緒毒品來源；體驗 Emo-Visor 的「美化世界」效果
+- Core Hook:
+  - 體驗館：市民戴著裝置露出空洞滿足的笑容，裝置表面亮起粉紅/藍色光圈
+  - 安普膠囊：「卡嚓」插入聲 +「嘶——」氣體洩漏聲
+  - 舊款膠囊：朱音曾用的黑市糖果（「唔食...個腦會有雜音...」）
+- Info Control (Audience vs Character): Audience sees Emo-Visor 是「共振網絡」基礎設施; Character focuses on '救人'
 - Stakes / Fail-state: Fail=線索不足→增加戰鬥數量
-- Emotion Target: 噁心、憤怒
+- Emotion Target: 噁心、憤怒、人性扭曲的不安
 - Linked Atoms: D31-A0015, D40-A0004
-- Unlock/Artifact: 解鎖：毒品樣本(證據)
+- Unlock/Artifact: 解鎖：Emo-Visor 樣本(證據) + 「安普膠囊」殘渣
 
 B11.S02
-- Format: Factory Raid
-- Location: 裝置中轉倉
-- Player Objective: 摧毀一個分發點並救出受害者
-- Core Hook: Combat + timer rescue; 讓聲望短暫回升(為下一次反噬鋪路)
-- Info Control (Audience vs Character): Audience gets '先給回升'; Character回到希望
-- Stakes / Fail-state: Fail=救援失敗→聲望更差
-- Emotion Target: 燃起希望
+- Format: Stealth Infiltration + Discovery
+- Location: 「糖果唐樓」外圍 → 地下拍賣會
+- Player Objective: 朔帶晴香潛入夜區「情緒交易中心」，發現「情緒美食家」蹤跡
+- Core Hook:
+  - 視覺：大紅大綠霓虹、紙紮質感建築、笑臉面具燈籠、「囍」字封條貼滿裂縫、水管流出粉紅糖漿
+  - 地下拍賣：父母主動賣掉孩子的情緒——「大師，我個仔好易喊㗎，佢啲眼淚一定好值錢」
+  - 被賣的孩子反咬晴香：「你做咩阻住我發達呀！」
+  - 品酒師（舌頭分叉、戴圓墨鏡）首次遠景出現
+- Info Control (Audience vs Character): Audience gets '美食家' 伏筆; Character震驚於人性之惡
+- Stakes / Fail-state: Fail=被發現→護士長追殺（「乖，唔好郁。打完呢針之後，你就唔會再痛㗎啦。」）
+- Emotion Target: 人性醜惡的噁心感、中式恐怖
 - Linked Atoms: D22-A0003, D22-A0007
-- Unlock/Artifact: 解鎖：暫時聲望回升(假安全)
+- Unlock/Artifact: 解鎖：「情緒美食家」情報 + 「原初之苦」線索
 
 B11.S03
-- Format: Reveal: Akiho Deal
-- Location: 高層會面室(偷聽)
-- Player Objective: 偷聽秋穗與皇帝交易/實驗目的
-- Core Hook: Stealth + audio logs; 讓玩家看見『母愛→災難』
-- Info Control (Audience vs Character): Audience learns truth; Character only gets partial (情報控制)
+- Format: Reveal: Akiho Deal + Primal Bitter Foreshadow
+- Location: 高層會面室(偷聽) / 美食家據點
+- Player Objective: 偷聽秋穗與皇帝交易；聽到「原初之苦」的提及
+- Core Hook:
+  - Stealth + audio logs; 讓玩家看見『母愛→災難』
+  - 品酒師對白：「黑奏那個小女孩懂什麼？她只想消除痛苦。但我知道，痛苦才是能量的核反應堆。」
+  - 伏筆：「這東西（原初之苦）能令系統過載」
+- Info Control (Audience vs Character): Audience learns「原初之苦」是下一階段關鍵; Character only gets partial
 - Stakes / Fail-state: Fail=被發現→逃脫戰
-- Emotion Target: 背脊發涼
+- Emotion Target: 背脊發涼、不祥預感
 - Linked Atoms: D31-A0015, D40-A0004
-- Unlock/Artifact: 解鎖：錄音#秋穗(斷續版)
+- Unlock/Artifact: 解鎖：錄音#秋穗(斷續版) + 「原初之苦」情報碎片
 
 
 [B12] 《救美夜子，反而孵化緋潮》
 
+**【風暴觸發背景】**
+- 黑奏派兵突襲糖果唐樓，搶走「原初之苦」
+- 「原初之苦」投入 Emo-Visor 中央伺服器 → 全城裝置強制更新
+- 愛莉「濾心」無法負荷暴增的負面情緒廢料 → 逆流（Backflow）→ 風暴爆發
+- 黑奏透過收割的恐懼能量，力量暴升（1.5 → 10）
+
 B12.S01
-- Format: Dream Storm
+- Format: Dream Storm + Filter Overload
 - Location: 愛莉潛意識風暴
 - Player Objective: 進入風暴救人：找到美夜子
-- Core Hook: Dream + puzzle; 利用情緒碎片作為鑰匙
-- Info Control (Audience vs Character): Audience suspects trap; Character believes rescue
+- Core Hook:
+  - 視覺：黑色淤泥湧出，浮現無數「扭曲人臉」——全城人「被過濾掉的痛苦」具現化
+  - 敵人：「笑著的黑色人形」——不是普通屍骸，而是 Emo-Visor 強制快樂的副產物
+  - 聲音：成千上萬人「痛苦尖叫」與「Emo-Visor 強制快樂的狂笑」混雜
+  - 利用情緒碎片作為鑰匙
+- Info Control (Audience vs Character): Audience sees「濾心過載」機制; Character believes rescue
 - Stakes / Fail-state: Fail=迷失→重設段落
-- Emotion Target: 焦灼、急
+- Emotion Target: 焦灼、系統性恐怖、「全城的痛苦堆在一個孩子身上」的壓迫感
 - Linked Atoms: D31-A0013, D22-A0008
-- Unlock/Artifact: 解鎖：美夜子回收(暫時)
+- Unlock/Artifact: 解鎖：美夜子回收(暫時) + 「濾心」概念理解
 
 B12.S02
-- Format: Rescue Escape
+- Format: Rescue Escape + Paper Knight Moment
 - Location: 風暴崩塌走廊
 - Player Objective: 護送美夜子離開，途中出現『緋潮』徵兆
-- Core Hook: Chase + collapsing environment
-- Info Control (Audience vs Character): Audience sees consequence forming; Character仍不理解
+- Core Hook:
+  - Chase + collapsing environment
+  - **紙皮騎士登場**：拚命用盾牌擋住黑泥
+  - 紙皮騎士對白（哭著喊）：「好苦... 這些東西好苦... 媽媽說這是藥... 但為什麼吃完會這麼痛？」
+  - 暗示愛莉一直在承受「全城的廢料」
+- Info Control (Audience vs Character): Audience sees「愛莉的真實處境」; Character仍不完全理解
 - Stakes / Fail-state: Fail=被吞沒→Lose (重來)
-- Emotion Target: 勝利帶惡兆
+- Emotion Target: 勝利帶惡兆、對愛莉的心疼
 - Linked Atoms: D22-A0004, D22-A0006
-- Unlock/Artifact: 解鎖：緋潮徵兆旗標
+- Unlock/Artifact: 解鎖：緋潮徵兆旗標 + 紙皮騎士記憶碎片
 
 B12.S03
-- Format: Aftermath Misread
-- Location: 安全屋/診所
-- Player Objective: 團隊以為成功，實際災難開門
-- Core Hook: Dialogue: 自我安慰 vs 不安；種下『茶會邀請』
-- Info Control (Audience vs Character): Audience knows it’s bad; Characters believe they won
+- Format: Aftermath Misread + Crystal Discovery
+- Location: 安全屋/診所 + 愛莉石像前
+- Player Objective: 團隊以為成功；朔採集結晶體進行分析
+- Core Hook:
+  - Dialogue: 自我安慰 vs 不安；種下『茶會邀請』
+  - **關鍵發現**：朔在愛莉石像嘴角採集到結晶體
+  - 朔分析對白：「這種波長同市面賣的 Emo-Visor 完全相反。如果 Emo-Visor 是『光』，愛莉體內積聚的就是提煉之後剩下的『影』。」
+  - 開始懷疑秋穗/黑奏
+- Info Control (Audience vs Character): Audience gets「光與影」的完整關係; Characters開始懷疑但仍以為他們贏了
 - Stakes / Fail-state: Fail=無
-- Emotion Target: 不祥的平靜
+- Emotion Target: 不祥的平靜、「真相的碎片開始拼湊」
 - Linked Atoms: D22-A0004, D31-A0017
-- Unlock/Artifact: 解鎖：玻璃庭院邀請函
+- Unlock/Artifact: 解鎖：玻璃庭院邀請函 + 「愛莉濾心」結晶樣本
 
 
 ============================================================
