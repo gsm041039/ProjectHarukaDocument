@@ -42,12 +42,12 @@
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": "screenwriter/01_Character_Background_Story.md",
-                "bFile": "screenwriter/01_Character_Background_Story.md",
+                "aFile": "screenwriter/02_Secondary_Character_Background_Story.md",
+                "bFile": "screenwriter/02_Secondary_Character_Background_Story.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: 01_Character_Background_Story"
+              "title": "Diff: 02_Secondary_Character_Background_Story"
             }
           }
         ],
@@ -256,7 +256,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 459.5
+    "width": 488.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,6 +278,18 @@
   },
   "active": "63eafabbc8b3e775",
   "lastOpenFiles": [
+    "art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.jpg",
+    "screenwriter/00_Story_Brief.md",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769336701891",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769336681274",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769336660649",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769336640801",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335807205",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335696418",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335661377",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335608785",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335591965",
+    "screenwriter/00_Story_Brief.md.tmp.60484.1769335465762",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_4.jpg",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_3.jpg",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_2.jpg",
@@ -290,17 +302,7 @@
     "編劇/10_少女日常與社交互動設定.md",
     "編劇/05_故事大綱.md",
     "劇本細化/階段與存活名單矩陣.md",
-    "編劇/05_故事大綱.md.tmp.71672.1768118092813",
-    "劇本細化/階段與存活名單矩陣.md.tmp.71672.1768117639954",
-    "劇本細化/階段與存活名單矩陣.md.tmp.71672.1768117592400",
     "詳細時間線.md",
-    "詳細時間線.md.tmp.21352.1767626526220",
-    "圖表.md.tmp.21352.1767626513187",
-    "圖表.md.tmp.21352.1767626507508",
-    "導演/資訊掌控與觀眾體驗設計.md.tmp.21352.1767626489504",
-    "導演/資訊掌控與觀眾體驗設計.md.tmp.21352.1767626433952",
-    "導演/資訊掌控與觀眾體驗設計.md.tmp.21352.1767626423785",
-    "導演/資訊掌控與觀眾體驗設計.md.tmp.21352.1767626373823",
     "圖表.md",
     "導演/資訊掌控與觀眾體驗設計.md",
     "美術/01_核心視覺支柱詳解.md",
@@ -308,7 +310,6 @@
     "美術/Images/CasualWear_Kurosou.jpg",
     "美術/Images/ConceptArt_Aeri.jpg",
     "美術/Images/MagicalGirl_Aeri.jpg",
-    "美術/Images/ConceptArt_Akane.jpg",
     "美術/202_角色視覺設計檔案_晴香.md",
     "美術/303_魔法少女共通視覺語言.md",
     "美術/206_角色視覺設計檔案_秋穗.md",
@@ -323,7 +324,6 @@
     "編劇/01_人物背景故事.md",
     "編劇/02_次要角色背景故事.md",
     "導演/00_故事導演手冊(未整理).md",
-    "編劇/各魔法少女主題詳解.md",
     "Test.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"

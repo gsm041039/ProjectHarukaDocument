@@ -285,7 +285,7 @@
 
 ---
 
-#### **凜 (Rin)** ^block-rin
+#### **綾瀨 凜 (Rin)** ^block-rin
 
 **魔法即病症——情緒凍結與完美主義 (Emotional Freezing & Perfectionism)**
 
