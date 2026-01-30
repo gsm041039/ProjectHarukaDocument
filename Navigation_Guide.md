@@ -38,6 +38,7 @@
 
 - [[screenwriter/03_Worldview_Setting]] - 世界觀總覽
 - [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny]] - 魔法系統詳解
+- [[screenwriter/14_Alpha_Beta_Narrative_Mechanics]] - Alpha/Beta 線敘事機制完整指引
 - [[art/301_Worldview_Art_Direction_Handbook]] - 世界觀視覺設定
 
 ### 4. 想了解視覺/美術風格
@@ -59,6 +60,7 @@
 > 如何講好這個故事
 
 - [[director/01_Creative_Core_Principles]] - 核心創作理念（推薦）
+- [[director/02_Alpha_Line_Integration_Guide]] - Alpha 線整合指引（導演手冊）
 - [[director/Story_Structure_Atmosphere_Design]] - 氛圍營造方法
 - [[director/Character_Atmosphere_Director_Handbook_Four_Act_Structure]] - 四幕結構情感設計
 - [[director/Information_Control_Audience_Experience_Design]] - 懸念與揭示設計
@@ -155,7 +157,7 @@
 ### screenwriter/
 > 編號規則：01-13 依序編號
 
-**系列文檔 (01-13)：**
+**系列文檔 (01-14)：**
 - [[screenwriter/01_Character_Background_Story]]
 - [[screenwriter/02_Secondary_Character_Background_Story]]
 - [[screenwriter/03_Worldview_Setting]]
@@ -169,6 +171,7 @@
 - [[screenwriter/11_Deep_Philosophy_Concepts]]
 - [[screenwriter/12_Social_Evaluation_Quest_System]]
 - [[screenwriter/13_Interesting_Chapters_Special_Plot_Setting]]
+- [[screenwriter/14_Alpha_Beta_Narrative_Mechanics]]
 
 **專題文檔：**
 - [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]]
@@ -184,6 +187,7 @@
 **核心文檔：**
 - [[director/00_Story_Director_Handbook_Draft]]
 - [[director/01_Creative_Core_Principles]]
+- [[director/02_Alpha_Line_Integration_Guide]]
 
 **專題分析文檔：**
 - [[director/Worldview_Scene_Analysis]]

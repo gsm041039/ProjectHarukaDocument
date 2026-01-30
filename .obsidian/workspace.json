@@ -4,54 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f459fc86291ef449",
+        "id": "e2c1bb2873556f0b",
         "type": "tabs",
         "children": [
           {
-            "id": "121e91771fce3827",
+            "id": "bce9668d9149677a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "詳細時間線.md",
+                "file": "director/00_Story_Director_Handbook_Draft.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "詳細時間線"
-            }
-          },
-          {
-            "id": "37556709d00f966e",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "art/208_Character_Visual_Design_Iwakura_Akane.md",
-                "bFile": "art/208_Character_Visual_Design_Iwakura_Akane.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 208_Character_Visual_Design_Iwakura_Akane"
-            }
-          },
-          {
-            "id": "63eafabbc8b3e775",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "screenwriter/02_Secondary_Character_Background_Story.md",
-                "bFile": "screenwriter/02_Secondary_Character_Background_Story.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 02_Secondary_Character_Background_Story"
+              "title": "00_Story_Director_Handbook_Draft"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -83,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"tags\":",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "編劇/03_世界觀設定.md",
+                "file": "director/00_Story_Director_Handbook_Draft.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "03_世界觀設定 的大綱"
+              "title": "00_Story_Director_Handbook_Draft 的大綱"
             }
           },
           {
@@ -154,8 +125,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
+              "icon": "message-square",
+              "title": "Copilot"
             }
           },
           {
@@ -164,12 +135,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04_故事大綱.md",
+                "file": "director/00_Story_Director_Handbook_Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "04_故事大綱 的對外連結"
+              "title": "00_Story_Director_Handbook_Draft 的對外連結"
             }
           },
           {
@@ -198,18 +169,8 @@
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "外掛程式已不復活躍"
-            }
-          },
-          {
-            "id": "4992d05a693ed648",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "trident-custom",
+              "title": "Mermaid Toolbar"
             }
           },
           {
@@ -238,7 +199,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "圖表.md",
+                "file": "director/00_Story_Director_Handbook_Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -248,11 +209,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "圖表 的反向連結"
+              "title": "00_Story_Director_Handbook_Draft 的反向連結"
+            }
+          },
+          {
+            "id": "1b5caa468cf2df5b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -276,20 +247,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63eafabbc8b3e775",
+  "active": "1b5caa468cf2df5b",
   "lastOpenFiles": [
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699251189",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699179950",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699150162",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699128238",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699099966",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699067179",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699029259",
+    "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699012607",
+    "screenwriter/Villain_Master_Plan.md.tmp.37200.1769698973527",
+    "screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md.tmp.37200.1769698940434",
+    "screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md.tmp.37200.1769698912495",
+    "art/302_Magical_Corpse_Visual_Design.md",
+    "screenwriter/01_Character_Background_Story.md",
+    "screenwriter/02_Secondary_Character_Background_Story.md",
+    "director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md",
+    "director/02_Alpha_Line_Integration_Guide.md",
     "art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.jpg",
     "screenwriter/00_Story_Brief.md",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769336701891",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769336681274",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769336660649",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769336640801",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335807205",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335696418",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335661377",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335608785",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335591965",
-    "screenwriter/00_Story_Brief.md.tmp.60484.1769335465762",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_4.jpg",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_3.jpg",
     "art/ConceptArt/Characters/Haruka/MagicalGirl_Haruka_2.jpg",
@@ -309,7 +286,6 @@
     "美術/Images/CasualWear _Akiho.jpg",
     "美術/Images/CasualWear_Kurosou.jpg",
     "美術/Images/ConceptArt_Aeri.jpg",
-    "美術/Images/MagicalGirl_Aeri.jpg",
     "美術/202_角色視覺設計檔案_晴香.md",
     "美術/303_魔法少女共通視覺語言.md",
     "美術/206_角色視覺設計檔案_秋穗.md",
@@ -319,11 +295,6 @@
     "美術/210_角色視覺設計檔案_凜.md",
     "美術/302_魔法屍骸視覺設計檔案.md",
     "美術/301_世界觀美術指導手冊.md",
-    "美術/00_核心視覺基礎.md",
-    "編劇/03_世界觀設定.md",
-    "編劇/01_人物背景故事.md",
-    "編劇/02_次要角色背景故事.md",
-    "導演/00_故事導演手冊(未整理).md",
     "Test.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
