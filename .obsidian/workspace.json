@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "director/00_Story_Director_Handbook_Draft.md",
+                "file": "screenwriter/08_Emotion_Setting_Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "00_Story_Director_Handbook_Draft"
+              "title": "08_Emotion_Setting_Overview"
             }
           }
         ]
@@ -247,8 +247,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b5caa468cf2df5b",
+  "active": "bce9668d9149677a",
   "lastOpenFiles": [
+    "screenwriter/10_Girl_Daily_Social_Interaction_Setting.md",
+    "screenwriter/11_Deep_Philosophy_Concepts.md",
+    "screenwriter/05_Story_Outline_Detailed_Scenes.md",
+    "screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md",
+    "screenwriter/06_Character_Psychology_Analysis.md",
+    "director/Worldview_Scene_Analysis.md",
+    "director/Core_Characters_Symbolism_Analysis.md",
+    "director/Information_Control_Audience_Experience_Design.md",
+    "director/Major_Events_Character_Relationships_Analysis.md",
+    "director/Story_Structure_Atmosphere_Design.md",
+    "director/Story_Structure_Character_Archetype_Analysis.md",
+    "director/00_Story_Director_Handbook_Draft.md",
     "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699251189",
     "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699179950",
     "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699150162",
@@ -259,7 +271,6 @@
     "screenwriter/01_Character_Background_Story.md.tmp.37200.1769699012607",
     "screenwriter/Villain_Master_Plan.md.tmp.37200.1769698973527",
     "screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md.tmp.37200.1769698940434",
-    "screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md.tmp.37200.1769698912495",
     "art/302_Magical_Corpse_Visual_Design.md",
     "screenwriter/01_Character_Background_Story.md",
     "screenwriter/02_Secondary_Character_Background_Story.md",
@@ -281,20 +292,9 @@
     "劇本細化/階段與存活名單矩陣.md",
     "詳細時間線.md",
     "圖表.md",
-    "導演/資訊掌控與觀眾體驗設計.md",
-    "美術/01_核心視覺支柱詳解.md",
     "美術/Images/CasualWear _Akiho.jpg",
     "美術/Images/CasualWear_Kurosou.jpg",
     "美術/Images/ConceptArt_Aeri.jpg",
-    "美術/202_角色視覺設計檔案_晴香.md",
-    "美術/303_魔法少女共通視覺語言.md",
-    "美術/206_角色視覺設計檔案_秋穗.md",
-    "美術/207_角色視覺設計檔案_愛莉.md",
-    "美術/208_角色視覺設計檔案_岩倉朱音.md",
-    "美術/209_角色視覺設計檔案_綾小路 操.md",
-    "美術/210_角色視覺設計檔案_凜.md",
-    "美術/302_魔法屍骸視覺設計檔案.md",
-    "美術/301_世界觀美術指導手冊.md",
     "Test.canvas",
     "未命名 2.canvas",
     "未命名 1.canvas"
