@@ -1,3 +1,9 @@
+---
+status: Draft
+canon_target: "[[canon/04_timeline_canon]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（201 行，含詳細場景、角色視角、具體對白）供深度參考。"
+---
+
 **=====時間線=====**
 
 ### **I. 共通前史 (The Shared History)**
