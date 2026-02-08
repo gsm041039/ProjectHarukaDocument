@@ -1,3 +1,9 @@
+---
+status: Draft
+canon_target: "[[canon/01_world_rules_and_costs#alpha-beta-mechanism]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（623 行）供深度參考。"
+---
+
 # Alpha/Beta 線敘事機制
 
 ## 概述 ^alpha-beta-overview

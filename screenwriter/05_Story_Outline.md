@@ -1,5 +1,7 @@
-
-
+---
+status: Draft
+canon_target: "[[canon/05_story_outline_canon]]"
+note: "本文件的 Canon 級結構已遷移至上述目標。此文件保留為完整母文檔（415 行，含詳細場景、wikilink、導演註記）供深度參考。"
 ---
 
 # =====故事大綱=====
