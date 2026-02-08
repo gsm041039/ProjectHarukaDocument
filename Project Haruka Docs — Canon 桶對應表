@@ -1,0 +1,384 @@
+Project Haruka Docs — Canon 桶對應表（就你現有 repo 客製化） v1.0
+Date: 2026-02-08
+目的：建立「單一真相（Canon）」＋「引用取代重覆」＋「Decision Log 解矛盾」的乾淨骨架；
+      舊文件保留但降級（Draft/Archive），逐群搬運去 Canon。
+
+──────────────────────────────────────────────────────────────────────────────
+[Canon 桶定義（你之後所有內容只能落去以下桶；其他文件只可引用）]
+
+CAN-00  Series Bible（核心命題/基調/觀眾體驗/導演原則總覽）
+CAN-01  World Rules & Costs（世界規則/代價系統/Alpha-Beta 機制/不可逆規則）
+CAN-02  Glossary（專有名詞唯一解釋入口）
+CAN-03  Characters（每個角色一份 Canon Sheet：背景+弧光+關係+要點）
+CAN-04  Timeline Canon（唯一時間線；事件只寫一次）
+CAN-05  Story Outline Canon（唯一大綱；章節節點+功能；scene 詳細另放草稿）
+CAN-06  Visual Bible（世界觀美術方向/共通視覺語言/插畫風格指南）
+CAN-07  Entities & Designs（魔法物件/裝置/怪物/屍體等「設定物」的 Canon）
+CAN-08  Directing Playbook（導演技法/資訊控制工具箱；只收可重複使用規則）
+CAN-10  Gameplay Bible（核心玩法/loop/系統；可連到 story 但唔重述 lore）
+
+CAN-99  Decision Log（DL-001…：每次解矛盾就記錄採用/棄用版本，防止回頭再打架）
+
+備註：CAN-06/07/08/10 係實務上最能「阻止內容亂走位」的桶，
+      建議你真係建立，唔好硬塞晒入 CAN-00。
+
+──────────────────────────────────────────────────────────────────────────────
+[Phase 0 止血：必須先做（否則引用/索引會永遠亂）]
+
+!! CRITICAL: 檔名編號撞車 [✅ 已修復]
+- ProjectHarukaDocument/art/211_Character_Visual_Design_Ko_Hikaru.md (已改名)
+- ProjectHarukaDocument/art/210_Character_Visual_Design_Rin.md
+Action: COMPLETED
+- Ko_Hikaru 已改名為 211_Character_Visual_Design_Ko_Hikaru.md
+- 所有引用已同步更新
+Reason:
+- 同資料夾撞號 = 之後你做 doc_id / 連結索引一定崩。
+
+──────────────────────────────────────────────────────────────────────────────
+[檔案逐一對應（Source -> Canon 桶 -> Action -> 目標 Canon 文件/章節）]
+
+ROOT（repo root）
+1) ProjectHarukaDocument/Navigation_Guide.md
+   -> CAN-00 / CAN-NAV（入口導航）
+   Action: REWRITE 成「只指向 Canon」；舊版內容搬去 draft/legacy_navigation.md
+   Target: (留檔名) Navigation_Guide.md 作為 Canon 入口頁
+   Notes: 任何 Draft 文件唔可以出現在主導航，只可有一個 Draft Library 入口。
+
+2) ProjectHarukaDocument/Detailed_Timeline.md
+   -> CAN-04（Timeline Canon）
+   Action: EXTRACT 入 CAN-04；此文件降級為 draft/timeline_raw.md（保留細節做追溯）
+   Target: canon/04_timeline_canon.md（Era/Date/Event/Impact/Links 格式化）
+   Notes: 事件只寫一次；其他文件再提事件只能 link。
+
+3) ProjectHarukaDocument/Charts.md
+   -> CAN-05 附錄 / CAN-08 工具 / 或保留參考
+   Action: KEEP as draft reference；從 Canon 需要用到嘅位置「引用」Charts
+   Target: draft/charts_reference.md（或保留原位但標 draft）
+
+──────────────────────────────────────────────────────────────────────────────
+ART/
+4) art/00_Core_Visual_Foundation.md
+   -> CAN-06（Visual Bible）+ CAN-00（Series Bible 的「視覺哲學摘要」）
+   Action: SPLIT
+     - 視覺哲學/體驗法則：摘 1-2 頁摘要放 CAN-00（只放原則）
+     - 詳細視覺規則：放 CAN-06
+   Target: canon/06_visual_bible.md#visual-philosophy
+
+5) art/01_Core_Visual_Pillars_Detailed.md
+   -> CAN-06
+   Action: MOVE/EXTRACT（作為 CAN-06 主幹）
+   Target: canon/06_visual_bible.md#core-pillars
+
+6) art/02_Advanced_Narrative_Design.md
+   -> CAN-00（敘事基調原則）+ CAN-08（可重用導演手法）
+   Action: SPLIT（只保留「規則級」入 Canon；例子/推演留 Draft）
+   Target: canon/00_series_bible.md#narrative-principles
+           canon/08_directing_playbook.md#advanced-narrative-tools
+
+7) art/04_Character_Illustration_Style_Guide.md
+   -> CAN-06
+   Action: MOVE/EXTRACT（插畫風格、線條、上色、材質規範）
+   Target: canon/06_visual_bible.md#illustration-style-guide
+
+8) art/202_Character_Visual_Design_Haruka.md
+   -> CAN-03（角色 Canon Sheet 的「視覺摘要」）+ CAN-06（視覺規範）/或獨立角色視覺檔
+   Action: KEEP as “Character Visual Spec” 但要固定歸位
+   Target: canon/characters_visual/haruka.md（或 canon/03_characters/haruka.md#visual）
+   Notes: 視覺細節只放一份，其他地方只 link。
+
+9) art/203_Character_Visual_Design_Miyako.md
+   -> 同上（CAN-03 + 角色視覺）
+   Action: KEEP as Character Visual Spec
+   Target: canon/characters_visual/miyako.md
+
+10) art/204_Character_Visual_Design_Iroha.md
+    -> 同上
+    Target: canon/characters_visual/iroha.md
+
+11) art/205_Character_Visual_Design_Saku.md
+    -> 同上
+    Target: canon/characters_visual/saku.md
+
+12) art/206_Character_Visual_Design_Akiho.md
+    -> 同上
+    Target: canon/characters_visual/akiho.md
+
+13) art/207_Character_Visual_Design_Airi.md
+    -> 同上
+    Target: canon/characters_visual/airi.md
+
+14) art/208_Character_Visual_Design_Iwakura_Akane.md
+    -> 同上
+    Target: canon/characters_visual/iwakura_akane.md
+
+15) art/209_Character_Visual_Design_Ayakomoji_Sou.md
+    -> 同上
+    Target: canon/characters_visual/ayakomoji_sou.md
+
+16) art/211_Character_Visual_Design_Ko_Hikaru.md
+    -> 同上
+    Action: KEEP as Character Visual Spec [✅ 已改名]
+    Target: canon/characters_visual/ko_hikaru.md
+
+17) art/210_Character_Visual_Design_Rin.md
+    -> 同上
+    Action: RENAME（先解撞號）+ KEEP as Character Visual Spec
+    Target: canon/characters_visual/rin.md
+
+18) art/301_Worldview_Art_Direction_Handbook.md
+    -> CAN-06
+    Action: MOVE/EXTRACT（世界觀視覺語言/色腳本/場景基調）
+    Target: canon/06_visual_bible.md#worldview-art-direction
+
+19) art/302_Magical_Corpse_Visual_Design.md
+    -> CAN-07（Entities & Designs）+ CAN-02（術語）
+    Action: MOVE/EXTRACT 成「設定物」條目；Glossary 加 Magical Corpse
+    Target: canon/07_entities/magical_corpse.md
+            canon/02_glossary.md#magical-corpse
+
+20) art/303_Magical_Girl_Common_Visual_Language.md
+    -> CAN-06
+    Action: MOVE/EXTRACT（共通魔法少女視覺語法：符號、材質、輪廓語言）
+    Target: canon/06_visual_bible.md#magical-girl-common-language
+
+──────────────────────────────────────────────────────────────────────────────
+DIRECTOR/
+21) director/00_Story_Director_Handbook_Draft.md
+    -> CAN-08（Directing Playbook）+ CAN-00（摘要）
+    Action: SPLIT
+      - 可重複使用規則/方法論 -> CAN-08
+      - 只要一頁摘要 -> CAN-00
+      - 其餘保留 Draft（唔入主導航）
+    Target: canon/08_directing_playbook.md
+            canon/00_series_bible.md#director-intent
+
+22) director/01_Creative_Core_Principles.md
+    -> CAN-00（核心命題/治癒定義/禁忌）+ CAN-08（分析框架）
+    Action: MOVE/EXTRACT（把「反對力量六維」做成工具條目）
+    Target: canon/00_series_bible.md#creative-core
+            canon/08_directing_playbook.md#antagonistic-force-framework
+
+23) director/02_Alpha_Line_Integration_Guide.md
+    -> CAN-01（Alpha/Beta 機制）+ CAN-05（結構節奏）+ CAN-99（如有矛盾）
+    Action: EXTRACT 原則入 CAN-01；節奏/使用時機入 CAN-05
+    Target: canon/01_world_rules_and_costs.md#alpha-beta
+            canon/05_story_outline_canon.md#reveal-pacing-alpha-beta
+    Notes: 如內容同 screenwriter/14 有版本差異 -> DL 記錄。
+
+24) director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md
+    -> CAN-05（Outline Canon 的結構章）+ CAN-08（導演工具）
+    Action: EXTRACT 結構規則；例子留 Draft
+    Target: canon/05_story_outline_canon.md#four-act
+            canon/08_directing_playbook.md#atmosphere-controls
+
+25) director/Core_Characters_Symbolism_Analysis.md
+    -> CAN-03（角色 Canon 的「象徵摘要」）+ CAN-00（主題總覽）
+    Action: EXTRACT 只保留「最穩定的象徵對應」（一句）
+            其餘深分析留 Draft（避免反覆改動污染 Canon）
+    Target: canon/03_characters/*.md#symbolism (each)
+            canon/00_series_bible.md#motifs
+
+26) director/Information_Control_Audience_Experience_Design.md
+    -> CAN-00（觀眾體驗原則）+ CAN-08（資訊控制工具箱）
+    Action: MOVE/EXTRACT（這份應該成為 Canon 的導演工具核心）
+    Target: canon/00_series_bible.md#audience-experience
+            canon/08_directing_playbook.md#information-control
+
+27) director/Major_Events_Character_Relationships_Analysis.md
+    -> CAN-04（事件）+ CAN-03（關係）+ Draft（分析）
+    Action: SPLIT
+      - 「事件客觀版本」-> CAN-04
+      - 「關係定義（誰與誰、因果）」-> CAN-03
+      - 「評價/推演」-> Draft
+    Target: canon/04_timeline_canon.md
+            canon/03_characters/*#relationships
+    Notes: 任何互斥關係/事件因果 -> DL。
+
+28) director/Story_Structure_Atmosphere_Design.md
+    -> CAN-05（Outline）+ CAN-00（調性摘要）+ CAN-08（工具）
+    Action: EXTRACT 結構功能、情緒波形規則；例子留 Draft
+    Target: canon/05_story_outline_canon.md#emotional-waveform
+            canon/08_directing_playbook.md#tone-toolkit
+
+29) director/Story_Structure_Character_Archetype_Analysis.md
+    -> CAN-03（每角一句 archetype）+ Draft（深分析）
+    Action: EXTRACT “一句 archetype” 入角色 Canon；其餘留 Draft
+    Target: canon/03_characters/*.md#archetype
+
+30) director/Worldview_Scene_Analysis.md
+    -> CAN-01（世界規則補充）+ CAN-06（場景視覺語言）+ Draft（分析）
+    Action: EXTRACT 任何「規則/不可逆」到 CAN-01；
+            任何「色腳本/場景語法」到 CAN-06；
+            其餘留 Draft
+    Target: canon/01_world_rules_and_costs.md
+            canon/06_visual_bible.md#scene-language
+
+──────────────────────────────────────────────────────────────────────────────
+GAMEPLAY/
+31) gameplay/00_Core_Gameplay_Design_Document.md
+    -> CAN-10（Gameplay Bible）
+    Action: MOVE/EXTRACT（核心 loop、戰術戰鬥、關卡/演出結合原則）
+    Target: canon/10_gameplay_bible.md
+    Notes: 玩法若引用世界規則/術語，只 link，唔再解釋。
+
+──────────────────────────────────────────────────────────────────────────────
+SCREENWRITER/
+32) screenwriter/00_Story_Brief.md
+    -> CAN-00（Series Bible：logline/premise）
+    Action: EXTRACT（作為 Canon 開頭 1-2 頁）
+    Target: canon/00_series_bible.md#logline
+
+33) screenwriter/01_Character_Background_Story.md
+    -> CAN-03（Characters）
+    Action: SPLIT by character；每個角色落一份 Canon Sheet
+    Target: canon/03_characters/haruka.md, miyako.md, ...
+
+34) screenwriter/02_Secondary_Character_Background_Story.md
+    -> CAN-03（Characters）+ CAN-07（組織/物件如有）
+    Action: SPLIT；次要角色/組織分開歸檔
+    Target: canon/03_characters/supporting/*.md
+            canon/07_entities/organizations/*.md (如適用)
+
+35) screenwriter/03_Worldview_Setting.md
+    -> CAN-01（World Rules）+ CAN-02（Glossary）
+    Action: REBUILD into structured rules（Rule/Cost/Irreversible）
+    Target: canon/01_world_rules_and_costs.md#worldview-core
+    Notes: 此文件文字似有格式破損，建議以它作“素材來源”而非直接搬全文。
+
+36) screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md
+    -> Draft（分析）+ CAN-05/CAN-04（抽穩定要點）
+    Action: EXTRACT 只有「可定稿」的事件/節奏規則；其餘留 Draft
+    Target: canon/05_story_outline_canon.md
+            canon/04_timeline_canon.md
+
+37) screenwriter/05_Story_Outline.md
+    -> CAN-05（Story Outline Canon）
+    Action: MAKE THIS THE MOTHER DOC（大綱唯一版本）
+    Target: canon/05_story_outline_canon.md
+
+38) screenwriter/05_Story_Outline_Detailed_Scenes.md
+    -> Draft（Scenes Library）
+    Action: KEEP as draft/scenes_library.md；Outline 每章只 link 到對應 scenes 區塊
+    Target: draft/scenes/05_detailed_scenes.md
+    Notes: Scenes 唔可以再塞世界規則/人物背景，最多引用。
+
+39) screenwriter/05_Story_Outline_Director_Notes.md
+    -> CAN-08（導演工具摘要）+ Draft（筆記）
+    Action: EXTRACT 可重用規則入 CAN-08；其餘保留 Draft
+    Target: canon/08_directing_playbook.md#notes-derived
+
+40) screenwriter/06_Character_Psychology_Analysis.md
+    -> CAN-03（角色 Canon 的 Want/Need/Lie/Truth 摘要）+ Draft（深分析）
+    Action: EXTRACT 每角 5-10 行心理核心；其餘留 Draft
+    Target: canon/03_characters/*.md#want-need-lie-truth
+
+41) screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md
+    -> CAN-04（事件客觀版）+ CAN-03（關係定義）+ Draft（影響分析）
+    Action: 同 director/07 规则；避免重覆
+    Target: canon/04_timeline_canon.md
+            canon/03_characters/*#relationships
+    Notes: 與 director 同類型文件要合併決策：只保留一份“母分析”（Draft）其餘引用。
+
+42) screenwriter/08_Emotion_Setting_Overview.md
+    -> CAN-00（調性）+ CAN-01（情緒守恆等規則如有）+ CAN-02（術語）
+    Action: EXTRACT「規則級」入 Canon；例子留 Draft
+    Target: canon/00_series_bible.md#tone
+            canon/01_world_rules_and_costs.md#emotion-system
+            canon/02_glossary.md (相關 terms)
+
+43) screenwriter/09_Character_Senses_Private_Habits_Setting.md
+    -> Draft（角色細節庫）+ CAN-03（極簡摘要）
+    Action: KEEP as draft/character_details.md；
+            角色 Canon 只保留 3-5 個“最關鍵且反覆用到”的習慣
+    Target: draft/characters/habits_and_senses.md
+            canon/03_characters/*.md#behavior-hooks
+
+44) screenwriter/10_Girl_Daily_Social_Interaction_Setting.md
+    -> CAN-10（Gameplay social loop）+ Draft（素材）
+    Action: EXTRACT 成“社交互動系統規則/loop”；細節留 Draft
+    Target: canon/10_gameplay_bible.md#social-interaction-loop
+
+45) screenwriter/11_Deep_Philosophy_Concepts.md
+    -> CAN-00（主題辯證）+ CAN-02（哲學術語）
+    Action: EXTRACT「能被引用的主張」；其餘留 Draft
+    Target: canon/00_series_bible.md#philosophy
+            canon/02_glossary.md
+
+46) screenwriter/12_Social_Evaluation_Quest_System.md
+    -> CAN-10（Gameplay system）+ CAN-01（若牽涉代價/不可逆）
+    Action: MOVE/EXTRACT（系統規格化：Inputs/Outputs/Loop/Failure states）
+    Target: canon/10_gameplay_bible.md#social-evaluation-quest
+
+47) screenwriter/13_Interesting_Chapters_Special_Plot_Setting.md
+    -> Draft（Idea Bank）+ CAN-05（挑入最終採用嘅章節）
+    Action: KEEP as draft/idea_bank.md；只有被採用嘅才搬入 Outline
+    Target: draft/idea_bank/interesting_chapters.md
+
+48) screenwriter/14_Alpha_Beta_Narrative_Mechanics.md
+    -> CAN-01（Alpha/Beta 規則母文檔）+ CAN-05（節奏）
+    Action: MAKE THIS THE MOTHER DOC for Alpha/Beta（比 director/02 更像規格）
+    Target: canon/01_world_rules_and_costs.md#alpha-beta
+            canon/05_story_outline_canon.md#alpha-beta-usage
+    Notes: 若與 director/02 發生差異：以 DL 決策定稿。
+
+49) screenwriter/15_Alpha_Beta_Discussion_Archive.md
+    -> Archive（歷史討論）
+    Action: MARK deprecated；只保留追溯，不入導航
+    Target: archive/alpha_beta_discussion.md（或原地標 archive）
+
+50) screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md
+    -> CAN-01（魔法系統規則）+ CAN-07（裝置條目）+ CAN-02（術語）
+    Action: SPLIT
+      - 規則/代價 -> CAN-01
+      - Heart Container Device 物件規格 -> CAN-07
+    Target: canon/01_world_rules_and_costs.md#magic-system
+            canon/07_entities/heart_container_device.md
+            canon/02_glossary.md#heart-container
+
+51) screenwriter/Magical_Girl_Themes_Detailed_Explanation.md
+    -> CAN-00（主題/反題）+ CAN-02（術語）
+    Action: EXTRACT 成「可引用的主題聲明」；深解留 Draft
+    Target: canon/00_series_bible.md#themes
+            canon/02_glossary.md
+
+52) screenwriter/Villain_Master_Plan.md
+    -> CAN-03（反派/對抗力量角色條目）+ CAN-05（plot pressure escalation）+ Draft（細節）
+    Action: SPLIT
+      - 反派身份/目的（穩定）-> CAN-03
+      - 壓力升級節點（結構）-> CAN-05
+      - 具體橋段/招式 -> Draft
+    Target: canon/03_characters/antagonist.md
+            canon/05_story_outline_canon.md#pressure-escalation
+
+──────────────────────────────────────────────────────────────────────────────
+SCRIPT_REFINEMENT/
+53) script_refinement/BeatSheet_v2_Question_Framework_CN.md
+    -> Tools（非 Canon lore）
+    Action: KEEP as tools/question_framework.md；Navigation 只在 “工具” 一節引用
+    Target: tools/BeatSheet_question_framework_cn.md
+    Notes: 工具文件唔好污染 Canon 世界觀內容。
+
+54) script_refinement/Stage_Survival_Roster_Matrix.md
+    -> CAN-10（Gameplay balance appendix）或 Tools
+    Action: KEEP as gameplay appendix；Canon 只 link
+    Target: canon/10_gameplay_bible.md#appendix-roster-matrix (link to draft/tools)
+
+──────────────────────────────────────────────────────────────────────────────
+[落地執行順序（避免一次爆炸）]
+
+Step A（立即）：解 art/210 撞號 + 建立 canon/ 桶文件空壳（00/01/02/03/04/05/06/07/08/10/99）
+Step B：以 “母文檔策略” 先鎖 3 個母文檔
+  - Alpha/Beta：screenwriter/14 -> CAN-01
+  - Outline：screenwriter/05 -> CAN-05
+  - Visual：art/01 + art/301 + art/303 -> CAN-06
+Step C：用 Timeline 作第二層骨架（Detailed_Timeline -> CAN-04）
+Step D：逐群搬運（每次只處理一個 duplicate cluster），所有矛盾寫入 CAN-99 Decision Log
+Step E：Navigation_Guide.md 重寫為 Canon-only，Draft 只留一個入口
+
+──────────────────────────────────────────────────────────────────────────────
+[你叫 IDE AI 的「最重要一句」：母文檔 + 引用政策]
+
+“同一件事只可在 Canon 出現一次；其餘文件禁止重述，只能改成 link 指向 Canon 條目。
+先做報告（Register/Cluster/Conflict），再做 Refactor Plan，最後先落手改檔。”
+
+END

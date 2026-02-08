@@ -61,7 +61,7 @@
 | art/208_Character_Visual_Design_Iwakura_Akane.md | ART-107 | character_visual | 朱音 | CAN-03-VIS | canon候選 | 岩倉朱音視覺設計 | 朱音, 屍骸女王, 視覺設計 |
 | art/209_Character_Visual_Design_Ayakomoji_Sou.md | ART-108 | character_visual | 操 | CAN-03-VIS | canon候選 | 綾小路操視覺設計 | 操, 傀儡師, 視覺設計 |
 | art/210_Character_Visual_Design_Rin.md | ART-109 | character_visual | 凜 | CAN-03-VIS | canon候選 | 綾瀨凜視覺設計 | 凜, Unit 00, 視覺設計 |
-| art/210_Character_Visual_Design_Ko_Hikaru.md | ART-110 | character_visual | 小光 | CAN-03-VIS | canon候選 | 小光視覺設計（⚠️ 210撞號） | 小光, 視覺設計 |
+| art/211_Character_Visual_Design_Ko_Hikaru.md | ART-110 | character_visual | 小光 | CAN-03-VIS | canon候選 | 小光視覺設計 | 小光, 視覺設計 |
 | art/301_Worldview_Art_Direction_Handbook.md | ART-201 | visual | 世界觀美術 | CAN-06 | canon候選 | 世界觀美術方向手冊（105行） | 帝國皇室美術, 夜區美術, 場景色腳本 |
 | art/302_Magical_Corpse_Visual_Design.md | ART-202 | visual | 屍骸視覺 | CAN-07 / CAN-02 | draft | 魔法屍骸視覺設計（399行） | 魔法屍骸, Type A/B/C, 腐蝕階段, 視覺規格 |
 | art/303_Magical_Girl_Common_Visual_Language.md | ART-203 | visual | 魔法少女語言 | CAN-06 | canon候選 | 魔法少女共通視覺語言（316行） | Halo, 光環, 心匣視覺, 變身序列 |
@@ -97,7 +97,7 @@
 - **Archive**: 1 份（歷史討論）
 - **Tools**: 2 份（工具文件）
 - **需重寫**: 1 份（Navigation）
-- **需修復**: 1 處（art/210 撞號）
+- **已修復**: 1 處（art/210 撞號 → 211）
 
 ## Canon 桶分佈
 

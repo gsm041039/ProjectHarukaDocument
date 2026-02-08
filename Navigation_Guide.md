@@ -31,6 +31,7 @@
 - [[art/208_Character_Visual_Design_Iwakura_Akane]] - 岩倉朱音
 - [[art/209_Character_Visual_Design_Ayakomoji_Sou]] - 綾小路操
 - [[art/210_Character_Visual_Design_Rin]] - 凜
+- [[art/211_Character_Visual_Design_Ko_Hikaru]] - 小光
 <!-- 新角色視覺設計檔案請按 2XX 編號加入此處 -->
 
 ### 3. 想了解世界觀
@@ -144,6 +145,7 @@
 - [[art/208_Character_Visual_Design_Iwakura_Akane]]
 - [[art/209_Character_Visual_Design_Ayakomoji_Sou]]
 - [[art/210_Character_Visual_Design_Rin]]
+- [[art/211_Character_Visual_Design_Ko_Hikaru]]
 
 **世界觀美術 (301-303)：**
 - [[art/301_Worldview_Art_Direction_Handbook]]
