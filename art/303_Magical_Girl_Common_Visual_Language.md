@@ -1,3 +1,9 @@
+---
+status: Draft
+canon_target: "[[canon/06_visual_bible#magical-girl-common-visual-language]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔供深度參考。"
+---
+
 ## 魔法少女共通視覺語言 (Magical Girl Common Visual Language)
 
 ### 引言：設計哲學

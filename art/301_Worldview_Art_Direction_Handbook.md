@@ -1,3 +1,9 @@
+---
+status: Draft
+canon_target: "[[canon/06_visual_bible#worldview-art-direction]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔供深度參考。"
+---
+
 ### **世界觀美術指導手冊 (World Art Bible) - V3 (最終定案)**
 
 #### **1. 帝國皇室 (The Imperial Court)**
