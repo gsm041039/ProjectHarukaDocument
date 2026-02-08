@@ -1,9 +1,10 @@
 
-
 ---
-**文件狀態**：v2.0 (Alpha/Beta 深度整合版)
-**核心概念**：情緒即現實的覆寫；魔法即世界的出血；結局即傷口的癒合。
-
+status: Draft
+canon_target: "[[canon/01_world_rules_and_costs#emotion-system]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（860 行）供深度參考，包含世界免疫系統理論、雙重現實法則的詳細闡述、病理光譜等深度分析。"
+file_status_legacy: "v2.0 (Alpha/Beta 深度整合版)"
+core_concept_legacy: "情緒即現實的覆寫；魔法即世界的出血；結局即傷口的癒合。"
 ---
 
 #### **引言**

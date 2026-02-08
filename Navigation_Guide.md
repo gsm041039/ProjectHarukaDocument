@@ -1,238 +1,205 @@
-# 《魔法少女晴香物語》文件導覽指引
+# 《魔法少女晴香物語》Canon 文件導覽
 
-本文件幫助你快速找到想了解的內容。結構設計方便將來加入新文件。
+**歡迎來到 Project Haruka 的單一真相來源 (Single Source of Truth)**
 
----
-
-## 快速導覽：想了解什麼就看什麼
-
-### 1. 想了解整體故事
-> 故事的主線、結構、時間線
-
-- [[screenwriter/05_Story_Outline]] - 完整故事結構（推薦首先閱讀）
-- [[Detailed_Timeline]] - 帝國歷 0-113 年完整歷史
-- [[screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis]] - 故事設計深度分析
-
-### 2. 想了解某個角色
-
-**背景與心理：**
-- [[screenwriter/01_Character_Background_Story]] - 主要角色背景
-- [[screenwriter/02_Secondary_Character_Background_Story]] - 配角與組織設定
-- [[screenwriter/06_Character_Psychology_Analysis]] - 角色心理深度分析
-- [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]] - 每位魔法少女的核心主題
-
-**個別角色視覺設計：**
-- [[art/202_Character_Visual_Design_Haruka]] - 雨宮晴香（春日井晴香）
-- [[art/203_Character_Visual_Design_Miyako]] - 水無月美夜子
-- [[art/204_Character_Visual_Design_Iroha]] - 神樂彩
-- [[art/205_Character_Visual_Design_Saku]] - 白銀朔
-- [[art/206_Character_Visual_Design_Akiho]] - 楓秋穗
-- [[art/207_Character_Visual_Design_Airi]] - 星野愛莉
-- [[art/208_Character_Visual_Design_Iwakura_Akane]] - 岩倉朱音
-- [[art/209_Character_Visual_Design_Ayakomoji_Sou]] - 綾小路操
-- [[art/210_Character_Visual_Design_Rin]] - 凜
-- [[art/211_Character_Visual_Design_Ko_Hikaru]] - 小光
-<!-- 新角色視覺設計檔案請按 2XX 編號加入此處 -->
-
-### 3. 想了解世界觀
-> 帝國、夜區、維多利亞城、魔法系統
-
-- [[screenwriter/03_Worldview_Setting]] - 世界觀總覽
-- [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny]] - 魔法系統詳解
-- [[screenwriter/14_Alpha_Beta_Narrative_Mechanics]] - Alpha/Beta 線敘事機制完整指引
-- [[art/301_Worldview_Art_Direction_Handbook]] - 世界觀視覺設定
-
-### 4. 想了解視覺/美術風格
-
-**核心視覺基礎：**
-- [[art/00_Core_Visual_Foundation]] - 視覺哲學與情感矛盾體
-- [[art/01_Core_Visual_Pillars_Detailed]] - 視覺設計的物理法則
-- [[art/02_Advanced_Narrative_Design]] - 深層敘事視覺設計
-
-**角色與魔法少女設計：**
-- [[art/04_Character_Illustration_Style_Guide]] - 角色設計標準
-- [[art/303_Magical_Girl_Common_Visual_Language]] - 魔法少女視覺共通元素
-
-**特殊視覺元素：**
-- [[art/302_Magical_Corpse_Visual_Design]] - 敵人設計
-<!-- 新美術文檔請按編號規則加入 -->
-
-### 5. 想了解敘事/導演手法
-> 如何講好這個故事
-
-- [[director/01_Creative_Core_Principles]] - 核心創作理念（推薦）
-- [[director/02_Alpha_Line_Integration_Guide]] - Alpha 線整合指引（導演手冊）
-- [[director/Story_Structure_Atmosphere_Design]] - 氛圍營造方法
-- [[director/Character_Atmosphere_Director_Handbook_Four_Act_Structure]] - 四幕結構情感設計
-- [[director/Information_Control_Audience_Experience_Design]] - 懸念與揭示設計
-- [[director/Story_Structure_Character_Archetype_Analysis]] - 角色原型分析
-- [[director/Core_Characters_Symbolism_Analysis]] - 象徵意義分析
-- [[director/Worldview_Scene_Analysis]] - 場景設計
-- [[director/Major_Events_Character_Relationships_Analysis]] - 事件影響分析
-- [[director/00_Story_Director_Handbook_Draft]] - 未整理素材
-<!-- 新導演文檔加入此處 -->
-
-### 6. 想了解遊戲設計
-> 遊戲機制與玩法
-
-- [[gameplay/00_Core_Gameplay_Design_Document]] - 核心遊戲機制
-- [[screenwriter/12_Social_Evaluation_Quest_System]] - 社會系統與任務設計
-<!-- 新遊戲性文檔加入此處 -->
-
-### 7. 想了解角色關係
-> 角色之間的連結與互動
-
-- [[Charts]] - Mermaid 角色關係圖、故事流程圖
-- [[screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis]] - 事件如何影響關係
-
-### 8. 想了解角色日常/互動細節
-> 角色的生活習慣、日常互動
-
-- [[screenwriter/09_Character_Senses_Private_Habits_Setting]] - 個人習慣與感官細節
-- [[screenwriter/10_Girl_Daily_Social_Interaction_Setting]] - 日常生活與社交
-- [[screenwriter/13_Interesting_Chapters_Special_Plot_Setting]] - 輕鬆有趣的情節設定
-
-### 9. 想了解深層主題/哲學
-> 故事的深層意涵
-
-- [[screenwriter/08_Emotion_Setting_Overview]] - 情緒力量與代價系統
-- [[screenwriter/11_Deep_Philosophy_Concepts]] - 存在主義與哲學探討
-
-### 10. 想了解故事進度追蹤
-> 劇本進度與角色存活
-
-- [[script_refinement/Stage_Survival_Roster_Matrix]] - 故事階段與角色狀態追蹤
+本導覽指引你前往所有 Canon（定稿）內容。Draft 母文檔僅供深度參考，日常查閱請以 Canon 為準。
 
 ---
 
-## 建議閱讀順序
+## 核心 Canon 文件（必讀）
 
-### 新手入門（了解基本設定）
-1. [[screenwriter/05_Story_Outline]] - 先了解故事是什麼
-2. [[screenwriter/01_Character_Background_Story]] - 認識主要角色
-3. [[screenwriter/03_Worldview_Setting]] - 了解故事發生的世界
+### [CAN-00: Series Bible（系列聖經）](canon/00_series_bible.md)
+**第一份必讀文件** — 故事核心命題、創作理念、哲學主題總覽
 
-### 深入了解（理解創作深度）
-1. [[Detailed_Timeline]] - 完整歷史脈絡
-2. [[screenwriter/06_Character_Psychology_Analysis]] - 角色內心世界
-3. [[director/01_Creative_Core_Principles]] - 創作理念
+- 終極目的：治癒
+- 總主題：態度 vs. 命運
+- 視覺哲學：溫柔的殘酷、破碎的美學
+- 反對力量六維框架
 
-### 美術創作者專用
-1. [[art/00_Core_Visual_Foundation]] - 視覺哲學
-2. [[art/01_Core_Visual_Pillars_Detailed]] - 設計法則
-3. [[art/04_Character_Illustration_Style_Guide]] - 角色繪製標準
+### [CAN-01: World Rules & Costs（世界規則與代價）](canon/01_world_rules_and_costs.md)
+**世界觀核心定義** — 三位一體光譜、Alpha/Beta 雙重現實、魔法系統、情緒守恆
 
----
+- 三位一體光譜（人類 → 魔法少女 → 魔法屍骸）
+- Alpha/Beta Line 雙重現實法則
+- 地理與政治（維多利亞城、日區/夜區、帝國）
+- 魔法系統：調律、情緒諧振、情感耗損
+- 情緒守恆定律與緋潮
+- 鏡像法則
 
-## 完整文件清單（按部門分類）
+### [CAN-02: Glossary（術語典）](canon/02_glossary.md)
+**70 個核心術語唯一解釋入口** — 專有名詞定義、跨文件引用標準
 
-### art/
-> 編號規則：00-04 核心視覺、2XX 角色設計、3XX 世界觀
+分類：世界觀 / 魔法系統 / 情緒系統 / 魔法少女與屍骸 / 法則與機制 / 視覺法則 / 角色特殊能力 / 哲學概念
 
-**核心視覺文檔 (00-04)：**
-- [[art/00_Core_Visual_Foundation]]
-- [[art/01_Core_Visual_Pillars_Detailed]]
-- [[art/02_Advanced_Narrative_Design]]
-- [[art/04_Character_Illustration_Style_Guide]]
+### [CAN-04: Timeline Canon（時間線）](canon/04_timeline_canon.md)
+**帝國歷 0-114 年完整歷史** — 關鍵事件、影響分析、角色命運交點
 
-**角色視覺設計 (202-210)：**
-- [[art/202_Character_Visual_Design_Haruka]]
-- [[art/203_Character_Visual_Design_Miyako]]
-- [[art/204_Character_Visual_Design_Iroha]]
-- [[art/205_Character_Visual_Design_Saku]]
-- [[art/206_Character_Visual_Design_Akiho]]
-- [[art/207_Character_Visual_Design_Airi]]
-- [[art/208_Character_Visual_Design_Iwakura_Akane]]
-- [[art/209_Character_Visual_Design_Ayakomoji_Sou]]
-- [[art/210_Character_Visual_Design_Rin]]
-- [[art/211_Character_Visual_Design_Ko_Hikaru]]
+### [CAN-05: Story Outline Canon（故事大綱）](canon/05_story_outline_canon.md)
+**完整故事結構** — 四幕劇情、章節規劃、情節轉折
 
-**世界觀美術 (301-303)：**
-- [[art/301_Worldview_Art_Direction_Handbook]]
-- [[art/302_Magical_Corpse_Visual_Design]]
-- [[art/303_Magical_Girl_Common_Visual_Language]]
-
-*新文件請按編號規則加入對應區塊*
+### [CAN-06: Visual Bible（視覺聖經）](canon/06_visual_bible.md)
+**視覺語言與設計規範** — 核心視覺支柱、情感物質設定、鏡頭語言
 
 ---
 
-### screenwriter/
-> 編號規則：01-13 依序編號
+## 角色 Canon（Characters）
 
-**系列文檔 (01-14)：**
-- [[screenwriter/01_Character_Background_Story]]
-- [[screenwriter/02_Secondary_Character_Background_Story]]
-- [[screenwriter/03_Worldview_Setting]]
-- [[screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis]]
-- [[screenwriter/05_Story_Outline]]
-- [[screenwriter/06_Character_Psychology_Analysis]]
-- [[screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis]]
-- [[screenwriter/08_Emotion_Setting_Overview]]
-- [[screenwriter/09_Character_Senses_Private_Habits_Setting]]
-- [[screenwriter/10_Girl_Daily_Social_Interaction_Setting]]
-- [[screenwriter/11_Deep_Philosophy_Concepts]]
-- [[screenwriter/12_Social_Evaluation_Quest_System]]
-- [[screenwriter/13_Interesting_Chapters_Special_Plot_Setting]]
-- [[screenwriter/14_Alpha_Beta_Narrative_Mechanics]]
+### 主角群（Main Cast）
 
-**專題文檔：**
-- [[screenwriter/Magical_Girl_Themes_Detailed_Explanation]]
-- [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny]]
+| 角色 | 背景 Canon | 視覺 Canon |
+|-----|-----------|-----------|
+| **雨宮晴香** | [haruka.md](canon/03_characters/haruka.md) | [haruka (visual)](canon/characters_visual/haruka.md) |
+| **水無月美夜子** | [miyako.md](canon/03_characters/miyako.md) | [miyako (visual)](canon/characters_visual/miyako.md) |
+| **神樂彩/黑奏** | [iroha.md](canon/03_characters/iroha.md) | [iroha (visual)](canon/characters_visual/iroha.md) |
+| **白銀朔** | [saku.md](canon/03_characters/saku.md) | [saku (visual)](canon/characters_visual/saku.md) |
+| **東雲秋穗** | [akiho.md](canon/03_characters/akiho.md) | [akiho (visual)](canon/characters_visual/akiho.md) |
+| **東雲愛莉** | [airi.md](canon/03_characters/airi.md) | [airi (visual)](canon/characters_visual/airi.md) |
+| **岩倉朱音** | [iwakura_akane.md](canon/03_characters/iwakura_akane.md) | [iwakura_akane (visual)](canon/characters_visual/iwakura_akane.md) |
+| **綾小路操** | [ayakomoji_sou.md](canon/03_characters/ayakomoji_sou.md) | [ayakomoji_sou (visual)](canon/characters_visual/ayakomoji_sou.md) |
+| **綾瀨凜** | [rin.md](canon/03_characters/rin.md) | [rin (visual)](canon/characters_visual/rin.md) |
+| **小光** | [ko_hikaru.md](canon/03_characters/ko_hikaru.md) | [ko_hikaru (visual)](canon/characters_visual/ko_hikaru.md) |
 
-*新文件請按 XX 編號規則加入，或作為專題文檔*
+### 特殊角色
 
----
+- [夕（晴香暗面）](canon/03_characters/yu.md) — 晴香被放逐的真相與內在解離人格
+- [黑奏（反派面向）](canon/03_characters/antagonist.md) — 獨立條目深度分析
 
-### director/
-> 編號規則：00-01 核心、其餘為專題分析
+### 次要角色（Supporting Cast）
 
-**核心文檔：**
-- [[director/00_Story_Director_Handbook_Draft]]
-- [[director/01_Creative_Core_Principles]]
-- [[director/02_Alpha_Line_Integration_Guide]]
-
-**專題分析文檔：**
-- [[director/Worldview_Scene_Analysis]]
-- [[director/Character_Atmosphere_Director_Handbook_Four_Act_Structure]]
-- [[director/Story_Structure_Character_Archetype_Analysis]]
-- [[director/Story_Structure_Atmosphere_Design]]
-- [[director/Major_Events_Character_Relationships_Analysis]]
-- [[director/Core_Characters_Symbolism_Analysis]]
-- [[director/Information_Control_Audience_Experience_Design]]
-
-*新文件加入此處*
+- [東雲花子](canon/03_characters/supporting/hanako.md) — 晴香/美夜子之母
+- [綾小路紗夜](canon/03_characters/supporting/sayo.md) — 操之管家與共犯
+- [桐生健](canon/03_characters/supporting/kiryu_ken.md) — 凡人盟友
+- [帝國皇帝（原初）](canon/03_characters/supporting/emperor.md)
+- [晴香的經理人](canon/03_characters/supporting/manager.md)
 
 ---
 
-### gameplay/
-- [[gameplay/00_Core_Gameplay_Design_Document]]
+## 設定物 Canon（Entities）
 
-*新文件加入此處*
+### [CAN-07: Entities（設定物）](canon/07_entities/)
 
----
-
-### script_refinement/
-- [[script_refinement/Stage_Survival_Roster_Matrix]]
-
-*新文件加入此處*
+- **[Magical Corpse（魔法屍骸）](canon/07_entities/magical_corpse.md)** — 視覺設計、Type A/B、求救型/拒絕型分類
+- **[Heart Container Device（心匣與情緒力量裝置）](canon/07_entities/heart_container_device.md)** — 魔法系統核心、契約機制、兩種道路
+- **[Organizations（組織）](canon/07_entities/organizations.md)** — 帝國、情緒管理局、維多利亞之淚、軍方改造計劃
 
 ---
 
-### 根目錄
-> 全域性的文檔
+## 導演與執行 Canon
 
-- [[Detailed_Timeline]] - 完整歷史時間線
-- [[Charts]] - Mermaid 圖表集合
+### [CAN-08: Directing Playbook（導演工具書）](canon/08_directing_playbook.md)
+**可重用演出技法** — Alpha/Beta Line 演出、四幕氛圍調度、關鍵場景執行指南
+
+- 核心導演原則（象徵意義三層金字塔）
+- Alpha/Beta Line 演出技法（場景殘影、變身異常、鏡像真相）
+- 四幕氛圍調度（情緒曲線圖）
+- 視覺敘事原則（雙重性原則、Shape/Line Language）
+- 關鍵場景執行指南（操「無心的完美人偶」7 階段、美夜子「三段式覺醒」、凜「遲來的介錯」）
+- 音色工具包（配樂、音效、對白節奏）
 
 ---
 
-## 如何新增文件
+## 遊戲設計 Canon
 
-1. **決定分類**：根據文件內容選擇適合的資料夾
-2. **命名規則**：
-   - art/：`XX_File_Name.md`（核心用 00-04，角色用 2XX，世界觀用 3XX）
-   - screenwriter/：`XX_File_Name.md`（依序編號 01-99）
-   - director/：核心用 `XX_` 編號，專題用 `File_Name.md` 格式
-   - gameplay/：`XX_File_Name.md`
-   - script_refinement/：`XX_File_Name.md`
-3. **更新本指引**：在對應的分類和清單中加入連結
+### [CAN-10: Gameplay Bible（遊戲聖經）](canon/10_gameplay_bible.md)
+**核心玩法 loop、戰術戰鬥、社交系統、任務設計**
+
+- 動態干預系統（戰術視窗 5 種觸發機制）
+- 絕對共感視界（晴香專屬情報系統 UI）
+- 雙軌數值系統（假象 vs 真實 + 四階段失靈）
+- 靈魂抽離機制（三階段流程 + 隊友參與）
+- 社交風評三階段（維多利亞天使期 → 裂痕期 → 魔女狩獵期）
+- IG 敘事線（四階段演變）
+- 戰術物品系統（4 種核心道具）
+
+---
+
+## Draft Library（素材庫入口）
+
+**Canon 已提取精華，Draft 保留完整母文檔供深度參考。**
+
+### 重要 Draft 母文檔（含深度分析）
+
+| 文件 | 說明 | Canon 目標 |
+|-----|-----|-----------|
+| [screenwriter/03_Worldview_Setting.md](screenwriter/03_Worldview_Setting.md) | 世界觀完整母文檔（1052 行） | [CAN-01](canon/01_world_rules_and_costs.md) |
+| [screenwriter/08_Emotion_Setting_Overview.md](screenwriter/08_Emotion_Setting_Overview.md) | 情緒系統完整母文檔（860 行） | [CAN-01](canon/01_world_rules_and_costs.md) |
+| [screenwriter/14_Alpha_Beta_Narrative_Mechanics.md](screenwriter/14_Alpha_Beta_Narrative_Mechanics.md) | Alpha/Beta 機制完整母文檔（623 行） | [CAN-01](canon/01_world_rules_and_costs.md) |
+| [screenwriter/Magical_Girl_Setting...](screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md) | 心匣與契約完整母文檔（477 行） | [CAN-07](canon/07_entities/heart_container_device.md) |
+| [screenwriter/06_Character_Psychology_Analysis.md](screenwriter/06_Character_Psychology_Analysis.md) | 角色心理深度分析（1401 行） | [CAN-03](canon/03_characters/) 各角色 |
+| [screenwriter/11_Deep_Philosophy_Concepts.md](screenwriter/11_Deep_Philosophy_Concepts.md) | 哲學概念深度論述 | [CAN-00](canon/00_series_bible.md) + [CAN-02](canon/02_glossary.md) |
+| [director/01_Creative_Core_Principles.md](director/01_Creative_Core_Principles.md) | 創作核心原則（581 行） | [CAN-00](canon/00_series_bible.md) + [CAN-08](canon/08_directing_playbook.md) |
+| [art/00_Core_Visual_Foundation.md](art/00_Core_Visual_Foundation.md) | 視覺哲學與法則完整母文檔 | [CAN-00](canon/00_series_bible.md) + [CAN-06](canon/06_visual_bible.md) |
+| [art/302_Magical_Corpse_Visual_Design.md](art/302_Magical_Corpse_Visual_Design.md) | 魔法屍骸視覺規格完整母文檔（400+ 行） | [CAN-07](canon/07_entities/magical_corpse.md) |
+
+### Draft 歸檔文件（已完全遷移）
+
+- [draft/outline_raw.md](draft/outline_raw.md) — 原始大綱（已遷移至 CAN-05）
+- [draft/timeline_raw.md](draft/timeline_raw.md) — 原始時間線（已遷移至 CAN-04）
+- [draft/charts_reference.md](draft/charts_reference.md) — 參考圖表
+- [draft/scenes/](draft/scenes/) — 詳細場景描述
+- [draft/art_originals/](draft/art_originals/) — 角色視覺設計原檔（已遷移至 CAN-03-VIS）
+- [draft/idea_bank/](draft/idea_bank/) — 創意素材庫
+
+---
+
+## 工具與模板（Tools）
+
+- [tools/BeatSheet_v2_Question_Framework_CN.md](tools/BeatSheet_v2_Question_Framework_CN.md) — BeatSheet 問題框架
+- [tools/Stage_Survival_Roster_Matrix.md](tools/Stage_Survival_Roster_Matrix.md) — 角色存活矩陣工具
+
+---
+
+## 決策記錄（Decision Log）
+
+### [CAN-99: Decision Log（決策記錄）](canon/99_decision_log.md)
+**記錄已發現衝突與解決方案** — 保持設定一致性的歷史記錄
+
+---
+
+## 快速索引：我想找...
+
+### 想了解整體故事
+→ [CAN-00 Series Bible](canon/00_series_bible.md) → [CAN-05 Story Outline](canon/05_story_outline_canon.md) → [CAN-04 Timeline](canon/04_timeline_canon.md)
+
+### 想了解某個角色
+→ [CAN-03 角色目錄](canon/03_characters/) → 選擇角色名稱 → 查看背景 Canon + 視覺 Canon
+
+### 想了解世界觀設定
+→ [CAN-01 World Rules](canon/01_world_rules_and_costs.md) → 查看地理、政治、魔法系統
+
+### 想查某個術語定義
+→ [CAN-02 Glossary](canon/02_glossary.md) → 按類別或 Ctrl+F 搜尋術語
+
+### 想了解魔法少女如何戰鬥
+→ [CAN-01 魔法系統](canon/01_world_rules_and_costs.md) → [CAN-07 Heart Container Device](canon/07_entities/heart_container_device.md) → [CAN-10 Gameplay](canon/10_gameplay_bible.md)
+
+### 想了解魔法屍骸設計
+→ [CAN-07 Magical Corpse](canon/07_entities/magical_corpse.md)
+
+### 想了解如何執行某個場景
+→ [CAN-08 Directing Playbook](canon/08_directing_playbook.md) → 查看關鍵場景執行指南
+
+### 想深入研究某個主題
+→ 從 Canon 文件找到對應 Draft 母文檔連結（見 Canon 文件底部 "完整設定見..." 標註）
+
+---
+
+## 文件更新日誌
+
+| 日期 | 事項 |
+|-----|-----|
+| 2026-02-08 | Canon 重構完成：建立 11 個 Canon 桶，填充 CAN-00/01/02/04/05/06/07/08/10，降級舊文件至 Draft |
+| 2026-01-25 | Navigation Guide 重寫為 Canon-only 入口 |
+
+---
+
+**Canon 維護原則**：
+- ✅ Canon 是單一真相來源，僅含定稿內容
+- ✅ Draft 母文檔保留完整深度分析供參考
+- ✅ 術語定義只存在於 CAN-02 Glossary，其他文件只能引用（link）
+- ✅ 所有 wikilink 優先指向 Canon 文件，除非需要深度參考才 link Draft
+- ✅ 新內容先寫入 Draft，驗證後再遷移至 Canon
+
+---
+
+**最後更新**: 2026-02-08 | **維護者**: Worldbuilding Team

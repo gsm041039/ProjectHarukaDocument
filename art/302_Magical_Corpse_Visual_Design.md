@@ -1,3 +1,9 @@
+---
+status: Draft
+canon_target: "[[canon/07_entities/magical_corpse]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（400+ 行）供深度參考，包含詳細的視覺規格、變體設計、音效設計等。"
+---
+
 ## 魔法屍骸視覺設計檔案 (Magic Corpse Visual Design Document)
 
 ### 核心設計哲學：鐘錶龐克恐怖 (Clockpunk Body Horror)

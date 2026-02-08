@@ -12,7 +12,20 @@
       "Bash(tree:*)",
       "Bash(grep -r \"大姐姐\" \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\編劇\"\" 2>/dev/null | wc -l && echo \"\" && echo \"2. Checking for 蒼 's characterization consistency:\" && grep -c \"逃避|逃跑|臨陣退縮\" \"c:ProjectsProjectHarukaDocument編劇05_故事大綱.md\" && grep -c \"逃避|逃跑|臨陣退縮\" \"c:ProjectsProjectHarukaDocument編劇01_人物背景故事.md \")",
       "Bash(ls:*)",
-      "Bash(git mv:*)"
+      "Bash(git mv:*)",
+      "Bash(if [ -f screenwriter/15_Alpha_Beta_Discussion_Archive.md ])",
+      "Bash(then mv screenwriter/15_Alpha_Beta_Discussion_Archive.md archive/)",
+      "Bash(else echo \"File not found\")",
+      "Bash(fi)",
+      "Bash(if [ -f \"screenwriter/13_Interesting_Chapters_Special_Plot_Setting.md\" ])",
+      "Bash(then mv \"screenwriter/13_Interesting_Chapters_Special_Plot_Setting.md\" draft/idea_bank/)",
+      "Bash(grep:*)",
+      "Bash(for:*)",
+      "Bash(do sed -i 's|\\\\[\\\\[art/2\\\\\\([0-9][0-9]\\\\\\)_Character_Visual_Design_|\\\\[\\\\[draft/art_originals/2\\\\1_Character_Visual_Design_|g' \"$f\")",
+      "Bash(done)",
+      "Bash(do if [ -f \"$f\" ])",
+      "Bash(then head -5 \"$f\")",
+      "Bash(echo:*)"
     ],
     "ask": [
       "Bash(git commit:*)",

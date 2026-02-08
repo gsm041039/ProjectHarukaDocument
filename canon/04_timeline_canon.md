@@ -4,7 +4,7 @@ title: "Timeline Canon（唯一時間線）"
 status: Canon
 scope: "帝國歷 0-114 年完整時間線、關鍵事件、因果連結"
 sources:
-  - "Detailed_Timeline.md"
+  - "draft/timeline_raw.md"
   - "director/Major_Events_Character_Relationships_Analysis.md"
   - "screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md"
   - "screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md"
@@ -207,4 +207,4 @@ last_updated: 2026-02-08
 - Alpha/Beta 分歧點：帝國歷 109 年
 - 故事主線：帝國歷 113-114 年（21 個月）
 
-**注意**: 詳細場景、對白、角色視角見母文檔 [[Detailed_Timeline]]（標記為 Draft）。
+**注意**: 詳細場景、對白、角色視角見母文檔 [[draft/timeline_raw]]（標記為 Draft）。

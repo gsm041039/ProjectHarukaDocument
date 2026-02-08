@@ -1,5 +1,9 @@
 
 ---
+status: Draft
+canon_target: "[[canon/01_world_rules_and_costs#magic-system]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（477 行）供深度參考，包含詳細的心匣機制、契約儀式與代價系統。"
+---
 
 ### **魔法少女設定詳解：心匣、裝置與宿命**
 

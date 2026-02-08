@@ -1,4 +1,8 @@
-
+---
+status: Draft
+canon_target: "[[canon/01_world_rules_and_costs#worldview-core]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（1052 行）供深度參考。"
+---
 
 ### **世界地理與勢力**
 

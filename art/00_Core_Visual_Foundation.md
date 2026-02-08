@@ -1,4 +1,8 @@
-
+---
+status: Draft
+canon_target: "[[canon/00_series_bible#visual-philosophy]] + [[canon/06_visual_bible]]"
+note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔供深度參考。"
+---
 
 ## 引言：世界的靈魂
 
