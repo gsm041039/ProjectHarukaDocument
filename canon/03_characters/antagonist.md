@@ -1,134 +1,234 @@
----
-doc_id: CAN-03-ANTAGONIST
-title: "黑奏 (Kurokana) - 反派面向"
-status: Canon
-scope: "反派身份、目的、壓力升級策略"
-sources:
-  - "screenwriter/Villain_Master_Plan.md"
-  - "screenwriter/01_Character_Background_Story.md"
-last_updated: 2026-02-08
----
+# 黑奏（Kurokana）— 保護者人格 / 帝國皇帝
 
-# CAN-03: 黑奏 (Kurokana) - 反派面向
+> **讀者指引**：本頁是「黑奏」的 Canon Sheet——從[彩](iroha.md)的創傷中誕生的保護者人格，後成為帝國皇帝與極致修正主義者。
+> 黑奏與彩共享一具身體。理解黑奏必須先理解螢的死亡（[Timeline](../04_timeline_canon.md#event-hotaru-death)）與她的核心邏輯「修正人類的設計缺陷」。
+> 相關文件：[彩](iroha.md) | [Character Index](../03_character_index.md) | [Glossary](../02_glossary.md) | [Story Outline](../05_story_outline_canon.md)
 
-> **注意**: 此條目獨立於神樂彩（iroha.md），專注於反派身份與計劃。
-
-## 基本資料
-
-> **來源**: [[screenwriter/Villain_Master_Plan]] + [[screenwriter/01_Character_Background_Story]]
-
-- **身份**：彩的保護者人格、帝國皇帝、極致修正主義者
-- **誕生**：帝國歷 79 年（6 歲時目睹螢被殺，黑奏人格誕生）
-- **權力**：帝國歷 85 年弒殺養父皇帝，篡奪帝國
-- **力量來源**：晴香未來發動「改變現實」時逸散的因果能量
-- **特殊能力**：跨時間線記憶保留、情緒能量收割
-
-## 目的與動機
-
-> **來源**: [[screenwriter/Villain_Master_Plan]]
-> **詳細**: 母文檔保留完整哲學論述、三階段實現計劃、與 EVA 人類補完計劃的區別
-
-**核心邏輯——修正人類的設計缺陷**：
-黑奏的真正目標不是單純的世界統治或復仇，而是**「修正人類的設計缺陷」**。她觀察到，人類之所以有戰爭、欺詐與剝削，是因為**「後果（痛楚）與決策（利益）是分開的」**——皇帝發動戰爭獲得領土（利益），但死的是士兵（痛楚）。皇帝感覺不到痛，所以戰爭永遠不會停止。
-
-**修正方案——共振地獄（痛楚公有化）**：
-黑奏要建立一個**「痛楚公有化」**的世界，讓施暴者能立即感受到受害者的痛苦，從而在生物本能層面消滅惡意。如果我打你一拳，我的神經系統會即時收到同等的痛覺訊號，那我就物理上無法再打你。這不是報復，這是「絕對的互不侵犯條約」。
-
-**極致的修正主義**：
-她的存在，是為了**「承受彩無法承受的痛苦」**並**「執行彩不敢做的殘忍決定」**。她建立帝國、推行「情緒修正」，其核心邏輯源於那個崩壞的夜晚：「如果我當時沒有恐懼這種多餘的情緒，我就不會哭；我不哭，螢就不會死。所以，情緒即是死亡的噪音。」她要修正的不是世界，而是**「人類擁有痛覺」**這個生理缺陷。
-
-## 終極計劃：共振地獄三階段
-
-> **來源**: [[screenwriter/Villain_Master_Plan#^共振地獄]]
-
-| 階段 | 手段 | 目的 |
-|-----|-----|-----|
-| **第一階段** | Emo-Visor 系統推廣 | 「軟性共振」試驗——建立與全城市民的微弱情緒連結，收集數據並鋪設「共振網絡」基礎設施 |
-| **第二階段** | 搶奪「原初之苦」，觸發愛莉潛意識風暴 | 將「原初之苦」投入 Emo-Visor 中央伺服器，透過全城裝置強制更新注入高濃度絕望，嘗試觸發「全面共振」；造成愛莉濾心過載 |
-| **第三階段** | 集體潛意識決戰 | 重創後的最後手段，企圖強制連結所有人類神經——直接開啟全人類情緒視覺 |
-
-**與 EVA 人類補完計劃的區別**：
-- EVA：回歸母體/無（液態融合），目標是消除個體
-- 黑奏：保留個體但強制互聯，你依然是你，我依然是我，但我們共享痛覺
-- 基於「功利主義」的強制進化——基於恐懼的和平
-
-## 數據養殖計劃
-
-> **來源**: [[screenwriter/Villain_Master_Plan#^數據養殖計劃]]
-
-**魔法少女的真正用途**：
-魔法屍骸有無被消滅根本無關緊要。魔法少女系統的真正價值，是作為**「極限情感數據的養殖場」**——讓少女們在絕望中掙扎、在崩潰邊緣求生，觀測她們在極端情緒下的心理反應與能量波動。每一次瀕死體驗、每一次精神崩潰、每一次被迫殺死同伴，都會產生黑奏所需的「高爆廢料」。
-
-**放養策略**：
-黑奏採取「放養」策略。讓她們活著去承受更多痛苦、產生更多極限情感數據，比一次性收割更有效率。這解釋了為何帝國不直接處決所有魔法少女——她們是活著的「能量農場」。
-
-## 跨時間線能量收割
-
-> **來源**: [[screenwriter/Villain_Master_Plan#^跨時間線能量收割]]
-
-**恩賜與詛咒**：
-黑奏能夠**在死亡後保留記憶，並穿越不同時間線**。然而，她在每次循環中都會喪失所有力量。她那「神一般」的強大能力，並非源於她自身的天賦，而是源於**晴香在未來發動「改變現實」時逸散的龐大因果能量**。
-
-**能量收割循環**：
-她必須在晴香身邊潛伏，監視與記錄晴香散發的每一份情緒波動。她必須不斷製造痛苦與絕望，迫使晴香再次發動「改變現實」。她必須在下一個循環中重新承載那股神聖的因果能量，好讓自己能重新成為那個無敵的「神」。
-
-**偽裝與心理實驗**：
-黑奏偽裝成轉校生「彩」潛伏在晴香身邊，表面上驗證人性——「情感是否真的注定導致毀滅？」但實質上在進行能量的監測與收集。她看著晴香為保護「廢物般的彩」而受傷，不是感動，而是冷靜地計算著晴香散發出的情感能量數據。
-
-## Want / Need / Lie / Truth
-
-> **來源**: [[screenwriter/06_Character_Psychology_Analysis]]
-
-**Want（顯性欲望）**：
-- 建立「共振地獄」，實現痛楚公有化
-- 消滅人類的「情緒」這個設計缺陷
-- 創造一個「連彩這樣軟弱的孩子也能活下去」的完美世界
-
-**Need（隱性需求）**：
-- 承認自己無法拯救彩——螢的死不是彩的錯
-- 放棄修正主義——接受痛苦是人類的一部分
-- 學會放手——讓彩自己做選擇
-
-**Lie（核心謊言）**：
-- 「情緒即是死亡的噪音」
-- 「如果消滅恐懼，就不會有人死去」
-- 「我能創造完美世界」
-
-**Truth（最終真相）**：
-- 消滅選擇 = 消滅人性
-- 痛苦是人類的一部分，不是缺陷
-- 愛不是控制，而是尊重選擇
-
-## Archetype & Symbolism
-
-> **來源**: [[director/Core_Characters_Symbolism_Analysis]]
-
-**Archetype**：保護者 (The Protector) → 修正者 (The Corrector) → 獨裁者 (The Tyrant)
-
-**象徵**：
-- **萬花筒心匣**：扭曲的愛，彩的熊公仔被黑奏掌控時的形態
-- **共振地獄**：基於恐懼的和平，功利主義的極致
-- **跨時間線記憶**：永恆的詛咒，無力的清醒
-
-## Relationships
-
-> **來源**: [[screenwriter/01_Character_Background_Story]]
-
-- **彩**：主人格，被囚禁者，最終一同消散
-- **螢**：創傷源頭，黑奏誕生的起因
-- **晴香**：能量來源，收割對象，最終的救贖者
-- **帝國皇帝（養父）**：被弒殺者，權力的前任擁有者
-- **夕**：無意識能量農場，被利用的哲學反叛者
-
-## 壓力升級策略（對主角團）
-
-> **來源**: [[screenwriter/Villain_Master_Plan]] + [[screenwriter/05_Story_Outline]]
-
-**第一幕**：觀察與試探——偽裝成轉校生「彩」接近晴香，收集情緒數據
-**第二幕前段**：製造絕望——利用魔法少女系統壓榨少女們，養殖極限情感數據
-**第二幕後段**：搶奪「原初之苦」——觸發愛莉潛意識風暴，嘗試全面共振
-**第三幕**：集體潛意識決戰——最後手段，強制連結所有人類神經
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md-->
 
 ---
 
-**注意**: 黑奏完整哲學論述、共振地獄機制、數據養殖計劃、跨時間線能量收割詳情見母文檔 [[screenwriter/Villain_Master_Plan]]（標記為 Draft）。彩的視角見 [[canon/03_characters/iroha]]。
+## <a id="section-char-scope"></a>角色文件職責邊界
+
+- 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
+- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+
+---
+## <a id="char-kurokana"></a>基本資料
+
+| 項目 | 內容 |
+|------|------|
+| 身份 | [彩](iroha.md)的保護者人格 / 帝國皇帝 / 極致修正主義者 |
+| 誕生 | 螢之死當夜的人格分裂（見 [Timeline](../04_timeline_canon.md#event-hotaru-death)） |
+| 篡位 | 弒殺養父並奪權（見 [Timeline](../04_timeline_canon.md#event-kurokana-usurp)） |
+| 力量來源 | [晴香](haruka.md)未來發動「[改變現實](../02_glossary.md#term-reality-override)」時逸散的因果能量 |
+| 特殊能力 | 跨時間線記憶保留、情緒能量收割 |
+| 存活狀態 | 消散 |
+| Archetype | 保護者 → 修正者 → 獨裁者 |
+
+---
+
+## <a id="section-backstory"></a>背景故事
+
+### 誕生——保護者的起源
+
+在螢死亡當夜，6 歲的[彩](iroha.md)因極端恐懼失去呼吸控制，並在目睹犧牲後出現人格分裂——「黑奏」誕生。她的第一個念頭不是復仇，而是：「我不會再讓彩感到恐懼。」
+
+**See also**: [Timeline — 黑奏創傷事件](../04_timeline_canon.md#event-hotaru-death) | [螢（次要角色）](../03_character_index.md#char-hotaru)
+
+### 核心邏輯——修正人類的設計缺陷
+
+黑奏的哲學起點：「後果與決策是分開的。」施暴者從不感受受害者的痛苦——這是人類的設計缺陷。螢的死亡證明了這一點：士兵殺死螢時沒有感到任何痛楚。他們甚至在彼此之間開玩笑。
+
+黑奏不恨那些士兵。她恨的是允許這種事發生的「系統」——人類的神經系統設計。如果傷害他人的瞬間能感受到同等痛楚，沒有人會選擇施暴。這不是道德問題，是工程問題。黑奏要修正這個缺陷。
+
+### 修正方案——[共振地獄](../02_glossary.md#term-resonance-hell)（痛楚公有化）
+
+黑奏把共振地獄當成「慈悲工程」：不靠勸善，而是讓所有人先痛再行動。  
+她相信這能終止暴力，卻同時把自由意志壓成服從機制。角色層面上，這是她由保護者滑向獨裁者的關鍵一步。機制條文見 [Glossary：共振地獄](../02_glossary.md#term-resonance-hell)。
+
+### 極致修正主義的演化
+
+從「修正惡意」到「修正痛覺」——黑奏的邏輯經歷三次升級：
+
+1. **初始版本**：修正「人類傷害人類」→ 共振地獄 v1（痛覺共享）
+2. **中期版本**：修正「人類感到恐懼」→ 情緒壓抑系統（[Emo-Visor](../02_glossary.md#term-emo-visor) 原型）
+3. **最終版本**：修正「人類擁有痛覺」→ 徹底消滅情緒本身
+
+最終結論：「情緒即是死亡的噪音。」螢死了因為恐懼讓彩哭泣。如果彩不會恐懼，螢就不會死。如果人類不會痛苦，世界就不需要被修正。
+
+### 篡位——從保護者到獨裁者
+
+黑奏弒殺養父帝國皇帝並完成篡位。這標誌著她由「保護者」轉為「獨裁者」的關鍵轉折——為了保護彩，她需要權力；為了權力，她需要帝國；為了帝國，她需要成為她曾經憎恨的暴君。
+
+**See also**: [Timeline — 黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp) | [帝國皇帝（次要角色）](../03_character_index.md#char-emperor)
+
+### 終極計劃三階段
+
+1. **[Emo-Visor](../02_glossary.md#term-emo-visor) 推廣**：將情緒毒品普及為社會基礎設施，建立情緒數據監控網
+2. **搶奪原初之苦**：把[愛莉](airi.md)推入失控邊緣，奪取[集體潛意識](../02_glossary.md#term-collective-unconscious)主導權
+3. **集體潛意識決戰**：強制連結所有人類神經，建立[共振地獄](../02_glossary.md#term-resonance-hell)
+
+### 數據養殖計劃
+
+魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
+
+### 跨時間線能量收割
+
+死亡後保留記憶穿越時間線，但需要重新收集[晴香](haruka.md)散發的因果能量。每條時間線都是一次新的實驗——調整變量、優化策略。這是永恆的詛咒，也是黑奏「修正」的終極體現。
+
+### 偽裝與心理實驗
+
+偽裝成「彩」潛伏在[晴香](haruka.md)身邊。目的不只是收集能量數據——黑奏在進行一場賭注式的心理實驗。
+
+核心問題：晴香的善意能否穿透[彩](iroha.md)的囚牢？如果能，就證明「情緒」——哪怕是痛苦的情緒——有存在的價值，黑奏的修正主義就是錯的。如果不能，就證明情緒在暴力面前毫無意義，修正才是唯一正解。
+
+諷刺的是：晴香的善意確實穿透了封鎖。但黑奏選擇無視這個結果。
+
+---
+
+## <a id="section-want-need"></a>Want / Need / Lie / Truth
+
+| 維度 | 內容 |
+|------|------|
+| **Want** | 建立[共振地獄](../02_glossary.md#term-resonance-hell)；消滅情緒缺陷；創造彩能活的完美世界 |
+| **Need** | 承認無法拯救彩；放棄修正主義；讓彩自己做選擇 |
+| **Lie** | 「情緒是死亡噪音」「消滅恐懼就沒人死」「我能創造完美世界」 |
+| **Truth** | 消滅選擇 = 消滅人性；痛苦是人類的一部分不是缺陷；愛是尊重選擇 |
+
+---
+
+## <a id="section-archetype"></a>Archetype & Symbolism
+
+**弧光**：保護者 → 修正者 → 獨裁者
+
+| 符號 | 意義 |
+|------|------|
+| 萬花筒[心匣](../02_glossary.md#term-heart-container) | 扭曲的愛——將世界折疊成「無痛苦」的美麗幻象 |
+| [共振地獄](../02_glossary.md#term-resonance-hell) | 基於恐懼的和平——消滅選擇的「完美」 |
+| 跨時間線記憶 | 永恆的詛咒——每一次輪迴都記得所有失敗 |
+| 殘舊熊公仔 | 與彩共享的契約信物（[心匣](../02_glossary.md#term-heart-container)）——偽裝下唯一的脆弱 |
+| 全覆蓋帝國面具 | 權力的偽裝——面具下是 148 cm 的孩子 |
+
+**主題關聯**：子主題 B「[完美的幻象](../00_series_bible.md#section-core-theme)」——黑奏是「消滅痛苦 = 消滅選擇」命題的終極化身。與[操](ayakomoji_sou.md)的「完美人偶」形成鏡像：操證明「沒有痛覺的完美比地獄更可怕」，黑奏要將這個地獄推廣到全人類。
+
+**[反對力量](../00_series_bible.md#section-opposition-forces)第六維度**：黑奏代表「錯誤方法論」——修正派調律的極致，試圖用暴力覆寫取代接納共鳴。
+
+---
+
+## <a id="section-pressure-escalation"></a>壓力升級策略（四幕）
+
+### 第一幕：觀察試探
+
+偽裝成轉校生「彩」接近[晴香](haruka.md)。收集情緒數據，測試晴香的[情緒增幅器](../02_glossary.md#term-emotional-amplifier)極限。表面上是溫順的新同學，實際上每一個微笑、每一次示弱都是精心設計的心理實驗。
+
+黑奏在此階段建立情報網：通過「彩」的視角觀察所有魔法少女的弱點，標記每個人的[執念飽和度](../02_glossary.md#term-saturation-of-obsession)臨界值。
+
+### 第二幕前段：製造絕望
+
+養殖極限情感數據。推動[凜](rin.md)走向兵器化、加速[朱音](iwakura_akane.md)的墮落、利用[秋穗](akiho.md)的愧疚。每一個悲劇都是黑奏「放養策略」的一部分——讓少女們在希望與絕望間循環，產出最高純度的情緒能量。
+
+核心策略：不直接摧毀，而是讓她們自我摧毀。黑奏從不親手動手——她只是移除安全網，然後觀察。
+
+### 第二幕後段：搶奪原初之苦
+
+黑奏把愛莉從「承受痛苦的人」改造成「擴散痛苦的節點」。  
+這一步的角色功能是把黑奏從操控個人悲劇，升級為操控全城情緒基建。事件細節見 [Timeline](../04_timeline_canon.md#section-114-april)。
+
+### 第三幕：集體潛意識決戰
+
+強制連結所有人類神經，啟動[共振地獄](../02_glossary.md#term-resonance-hell)。帝國廣場成為決戰場。[緋潮](../02_glossary.md#term-scarlet-tide)反噬與黑奏的修正力量交織——世界在「接納」與「修正」之間撕裂。
+
+在第三幕中段，黑奏刻意執行「[真身揭露：巨大衣服，微小的神](../04_timeline_canon.md#event-kurokana-body-reveal)」：以皇袍滑落暴露幼體身軀，將「皇權威壓」瞬間轉成「被囚禁孩童」的心理震波。這不是示弱，而是對敵我認知的重新編排：迫使晴香團隊同時面對暴君與受害者同體的倫理困局。
+
+最終，[彩](iroha.md)覺醒奪回身體。彩對黑奏說：「多謝你保護咗我咁耐。但係……我想自己揀。」黑奏的意識在這句話中消散——不是被擊敗，而是被她最想保護的人否定了存在意義。
+
+**See also**: [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle) | [Story Outline](../05_story_outline_canon.md)
+
+---
+
+## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
+
+1. **華麗偽裝下緊抓熊公仔**：藏在極度寬大皇袍的袖子裡——帝國皇帝最大的秘密
+2. **坐在巨大王座上雙腳離地晃蕩**：148 cm 的身軀坐不穩王座，單手托腮時另一隻手在袖中摸熊公仔耳朵
+3. **發動魔法時隨意得像「趕蒼蠅」「丟玩具」**：萬花筒空間折疊對她而言不過是日常——這種漫不經心才是真正的恐怖
+4. **暴走時萬花筒圖案崩壞**：面具裂開流出血淚，皇袍刺繡停止旋轉開始碎裂，暴露出底下幼童般的身軀
+5. **偽裝成「彩」時的微小破綻**：偶爾眼神閃過帝王般的冷漠，隨即切換回怯懦表情——只有極度敏銳的人才能察覺
+
+---
+
+## <a id="section-visual"></a>視覺要點
+
+| 項目 | 描述 |
+|------|------|
+| 身體 | 與[彩](iroha.md)共享——148 cm，幼童體型，發育不良 |
+| 核心視覺矛盾 | 帝國最高權力者 = 148 cm 的孩子 |
+
+### 黑奏形態（帝國皇帝）
+
+極度寬大皇袍（十二單層疊）偽裝成高大皇帝。全覆蓋帝國面具遮擋真實面容。萬花筒動態刺繡隨情緒波動旋轉、分裂、重組——平靜時如緩慢轉動的萬花筒，暴怒時碎裂為尖銳幾何碎片。
+
+### 彩形態（轉校生偽裝）
+
+與[彩 Canon Sheet](iroha.md#section-visual) 相同——厚重黑框眼鏡、鬆垮 T-shirt + 七分褲。唯一差別：黑奏偽裝時眼神偶爾閃過非人的冷漠。
+
+### 戰鬥特效
+
+萬花筒魔法——空間折疊與破碎。多重鏡像攻擊：每一面碎鏡都是一條被折疊的時間線，敵人同時面對來自多個時間線的攻擊。空間如萬花筒般旋轉碎裂重組，美麗而致命。
+
+與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏把「映照真實」當作可被操控的舞台道具。角色意義上，這可視為她修正主義的視覺化；法則條文與演出規格分別見 [World Rules](../01_world_rules_and_costs.md#rule-mirror-law) 與 [Visual Bible](../06_visual_bible.md#section-law-mirror-visual)。
+
+---
+
+## <a id="section-relationships"></a>Relationships
+
+| 對象 | 關係 | 性質 |
+|------|------|------|
+| [彩](iroha.md) | 主人格 / 被保護者 | 黑奏存在的唯一理由；最終被彩選擇否定 |
+| [螢](../03_character_index.md#char-hotaru) | 創傷起源 | 螢的死亡催生黑奏；黑奏繼承了螢的熊公仔 |
+| [晴香](haruka.md) | 能量農場 / 試驗對象 | 偽裝接近收割因果能量；暗中測試「善意」的力量 |
+| [秋穗](akiho.md) | 魔鬼契約 | 黑奏提供救活[愛莉](airi.md)的方法，秋穗為黑奏培養晴香 |
+| [夕](yu.md) | 無意識能量農場 | 夕以為自己在反叛，實際是黑奏設計的能量收割迴路 |
+| [愛莉](airi.md) | 情緒廢料[濾心](../02_glossary.md#term-filter-mechanism) | 利用愛莉消化 Emo-Visor 系統產生的痛苦廢料 |
+| [帝國皇帝](../03_character_index.md#char-emperor) | 養父（已弒殺） | 收養彩→被黑奏篡位殺害 |
+| [凜](rin.md) | 被操縱的棋子 | 推動凜走向自願兵器化，收割極限痛覺數據 |
+| [美夜子](miyako.md) | 間接對立 | Alpha 線中殺害花子和美夜子，觸發晴香改變現實 |
+
+---
+
+
+## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
+
+- [黑奏創傷事件](../04_timeline_canon.md#event-kurokanae-trauma)：保護者人格誕生。
+- [黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp)：由保護者轉為統治者。
+- [真身揭露：巨大衣服，微小的神](../04_timeline_canon.md#event-kurokana-body-reveal)：暴君與受害者同體的關鍵揭露。
+- [共振地獄第三階段](../04_timeline_canon.md#event-resonance-hell-3)：修正主義的終極實驗。
+
+---
+## <a id="section-role-function"></a>角色功能（Narrative Function）
+
+- 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 黑奏專屬功能：把「修正主義」推到極限，作為主題反例壓測晴香路線。
+
+---
+## <a id="section-canon-constraints"></a>禁忌（不可改設定）
+
+- 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 黑奏專屬禁忌：不可刪除其「保護彩」初衷與「獨裁修正」結果並存的雙重性。
+## <a id="section-see-also"></a>See also
+
+- [彩 Canon Sheet](iroha.md) — 被囚禁的主人格
+- [晴香 Canon Sheet](haruka.md) — 被黑奏操縱的創世者
+- [Character Index](../03_character_index.md) — 角色總覽與關係網
+- [Timeline — 黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp) | [Timeline — Alpha 分歧](../04_timeline_canon.md#event-alpha-divergence) | [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle)
+- [Glossary — 共振地獄](../02_glossary.md#term-resonance-hell) | [Glossary — Emo-Visor](../02_glossary.md#term-emo-visor) | [Glossary — 集體潛意識](../02_glossary.md#term-collective-unconscious)
+- [Glossary — 緋潮](../02_glossary.md#term-scarlet-tide) | [Glossary — 情感耗損](../02_glossary.md#term-emotional-erosion) | [Glossary — 心匣](../02_glossary.md#term-heart-container)
+- [Glossary — 光環](../02_glossary.md#term-halo) | [Glossary — 三位一體光譜](../02_glossary.md#term-trinity-spectrum) | [Glossary — 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
+- [Glossary — 執念飽和度](../02_glossary.md#term-saturation-of-obsession) | [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse)
+- [Story Outline](../05_story_outline_canon.md) — 四幕故事結構
+
+
+
+
+
+

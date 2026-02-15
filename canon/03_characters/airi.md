@@ -1,105 +1,189 @@
----
-doc_id: CAN-03-AIRI
-title: "東雲愛莉 (Shinonome Airi)"
-status: Canon
-scope: "角色背景、心理弧光、關係網絡、行為特徵"
-sources:
-  - "screenwriter/01_Character_Background_Story.md"
-  - "screenwriter/06_Character_Psychology_Analysis.md"
-last_updated: 2026-02-08
----
+# 東雲愛莉（Shinonome Airi）
 
-# CAN-03: 東雲愛莉 (Shinonome Airi)
+> **讀者指引**：本頁是愛莉的單一角色 Canon Sheet——秋穗的女兒、第一個人造魔法屍骸石像，以及精神網絡中的「紙皮騎士」。
+> 首次閱讀建議先看 [§ Header Table](#char-airi) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 理解愛莉必須同時理解[秋穗](akiho.md)的罪孽與[濾心機制](../02_glossary.md#term-filter-heart)。
+> 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
 
-## 基本資料
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story#^block1]]
-
-- **身份**：秋穗的女兒、第一個人造魔法屍骸石像
-- **年齡**：成為屍骸時約 10 代初
-- **現狀**：在現實中是冰冷的石像，在精神世界中是「紙皮騎士」
-- **生前性格**：不良少女偽裝（實際上善良且想保護母親）
-- **特殊能力**：精神網絡守門人、Alpha/Beta 連結活體黑盒、濾心機制
-
-## 背景故事
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story#^block1]]
-> **詳細**: 母文檔保留完整三大核心用途、濾心機制、紙皮騎士守護行為
-
-**第一個人造屍骸**：
-愛莉本是一個心地善良的女孩，但她的命運，卻因母親秋穗那份對科學的執念而徹底改變。或許是出於對母親關愛的渴望，又或是單純的好奇與叛逆，她闖入了母親進行「情緒力量擷取」實驗的秘密實驗室。在那裡，她無意中接觸了正在試圖連結精神世界的實驗裝置，成為了緋潮的第一個人類「錨點」。她的靈魂在瞬間發生了劇烈而不可逆的改變，成為了這個世界上第一個人造的魔法屍骸。
-
-**精神世界中的紙皮騎士**：
-在現實中她是冰冷的石像，但在精神世界的深處，她卸下了生前為了自我保護而披上的「不良少女」偽裝。她的精神世界形象是一個穿著**瓦楞紙箱盔甲、手持膠帶纏繞的紙劍的小女孩——「紙皮騎士」**。這身滑稽卻充滿童趣的裝備，象徵著她雖然力量微薄，卻擁有想要保護母親與表姐的堅定決心。她保留了生前的粗魯與毒舌，經常用這獨特的方式指引著迷茫的晴香：「喂，笨蛋表姐！騎士守則第一條是看路啊！你想死嗎？」
-
-**核心用途一：精神網絡的「無名守門人」**：
-愛莉是唯一能在「精神/情緒網絡」中對抗黑奏侵蝕的「防毒軟體」。她的身體變成了石像（伺服器），但她的靈魂直接住進了集體潛意識（精神網絡）。因為她是**第一個人造魔法屍骸**，她與這個網絡有著獨特的「原生權限」。在現實世界，晴香她們在物理上戰鬥；在精神世界裡，「紙皮騎士」一直在孤軍奮戰——守護朱音、守護美夜子、干擾黑奏的「共振地獄」。
-
-**核心用途二：連結 Alpha 線與 Beta 線的「活體黑盒」**：
-愛莉是唯一「不受時間線變動影響」的記憶觀測點。因為愛莉成為了緋潮錨點，她的靈魂被「釘」在了 Alpha 線與 Beta 線的交界處。緋潮是 Alpha 線試圖奪回現實的力量——當晴香創造 Beta 線時，被抹殺的「原初現實」並未消失，而是累積在精神世界的深處。**唯獨愛莉記得完整的真相**——花子如何死去、美夜子曾經死去又被復活、晴香如何發動「改變現實」、這個世界的一切是建立在多大的謊言之上。
-
-**濾心機制——情緒廢料處理場**：
-愛莉在不知情的情況下，被黑奏利用為情緒生產系統的**活體廢料處理場（濾心）**。Emo-Visor 系統從精神世界提取情緒能量，萃取「快樂」做成安普膠囊，但被剔除的「痛苦、恐懼、悲傷」不會消失——必須有地方儲存。黑奏利用愛莉作為**活體垃圾桶**，她每天都在吞下全城人的痛苦、恐懼與絕望。紙皮騎士斬斷的「黑色觸手」，其實是全城人的痛苦。
-
-**核心用途三：母女親情線的收束點**：
-秋穗每天都會來對著石像說話、懺悔，她嘗試用科學儀器「修復」愛莉，但每次都失敗。在精神世界裡，愛莉其實**聽得到**母親的一切——每一句懺悔、每一聲嘆息、每一滴落在冰冷石像上的淚水。在秋穗最絕望、快要做出不可挽回的決定時，她在潛意識中聽到女兒的聲音——那句最簡單卻最沉重的話：「笨蛋老媽，我從來沒怪過妳。」
-
-## Want / Need / Lie / Truth
-
-> **來源**: [[screenwriter/06_Character_Psychology_Analysis]]
-
-**Want（顯性欲望）**：
-- 守護母親和表姐（在精神世界默默守護）
-- 阻止黑奏的共振地獄計劃
-- 讓母親知道「我從來沒怪過妳」
-
-**Need（隱性需求）**：
-- 讓母親放手——不要再試圖「修復」她
-- 獲得母親的原諒——讓秋穗原諒自己
-- 證明即使無法動彈，依然能選擇戰鬥
-
-**Lie（核心謊言）**：
-- 「我必須守護所有人」
-- 「我的存在是負擔」
-- 「媽媽需要救活我」
-
-**Truth（最終真相）**：
-- 媽媽需要的不是救活我，而是原諒自己
-- 真正的救贖不是「修正過去」，而是「接納現在」
-- 用最廉價的紙皮，也能擋住最可怕的命運
-
-## Archetype & Symbolism
-
-> **來源**: [[director/Core_Characters_Symbolism_Analysis]]
-
-**Archetype**：受難聖徒 (Suffering Saint) → 無名守門人 (Anonymous Guardian) → 紙皮騎士 (Cardboard Knight)
-
-**象徵**：
-- **紙皮盔甲與紙劍**：用最廉價的材料，擋住最可怕的命運
-- **石像**：現實中的囚禁，秋穗罪孽的鐵證
-- **黑色觸手**：全城人的痛苦，愛莉每天吞下的情緒廢料
-
-## Relationships
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
-
-- **秋穗**：母親，懺悔者，最終的原諒對象
-- **晴香**：表姐，守護對象，真相揭露對象
-- **美夜子、朱音、操**：隊友，在精神層面默默守護的對象
-- **黑奏**：敵人，利用愛莉作為濾心的施暴者
-- **夕**：對照存在——愛莉是「被動守護者」，夕是「主動反叛者」
-
-## Behavior Hooks（關鍵習慣）
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]] + [[screenwriter/09_Character_Senses_Private_Habits_Setting]]
-
-**關鍵習慣**（精神世界形態的行為）：
-1. **紙皮騎士裝備**：穿著瓦楞紙箱盔甲、手持膠帶纏繞的紙劍——用最廉價的材料守護
-2. **斬斷黑色觸手**：在精神層面守護隊友（朱音、美夜子、操）免受黑奏侵蝕
-3. **吞下痛苦**：作為濾心承受全城情緒廢料，喃喃自語「好苦... 這些東西好苦...」
-4. **夢境指引**：在晴香夢中揭露真相碎片，毒舌粗魯地質問「笨蛋表姐！」
-5. **無聲的守護**：在精神網絡中默默戰鬥，隊友只能模糊感知到「穿著紙皮盔甲的小孩」
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md-->
 
 ---
 
-**注意**: 詳細三大核心用途、濾心機制、紙皮騎士守護行為、與夕的對照見母文檔 [[screenwriter/02_Secondary_Character_Background_Story#^block1]]（標記為 Draft）。濾心機制技術解釋見 [[screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#aeri-filter-mechanism]]。
+## <a id="section-char-scope"></a>角色文件職責邊界
+
+- 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
+- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+
+---
+## <a id="char-airi"></a>Header Table
+
+| 欄位 | 內容 |
+|------|------|
+| **全名** | 東雲愛莉（しののめ あいり） |
+| **年齡** | 10 代初（成為屍骸時） |
+| **身份** | 秋穗的女兒、第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)石像、精神網絡守門人 |
+| **家庭** | 母親[秋穗](akiho.md)、表姐[晴香](haruka.md)、阿姨花子（已逝） |
+| **Archetype** | 受難聖徒 → 無名守門人 → 紙皮騎士 |
+| **存活狀態** | 石像（精神存活） |
+| **特殊能力** | 精神網絡守門人、[Alpha](../02_glossary.md#term-alpha-line)/[Beta](../02_glossary.md#term-beta-line) 連結活體黑盒、[濾心](../02_glossary.md#term-filter-heart)機制 |
+
+---
+
+## <a id="section-background"></a>背景故事
+
+### 第一個人造屍骸
+
+愛莉闖入母親[秋穗](akiho.md)的實驗室接觸情緒力量裝置，意外成為[緋潮](../02_glossary.md#term-scarlet-tide)的第一個人類錨點——世界上第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)。現實中，她是一座冰冷的石像；精神世界中，她以「紙皮騎士」的姿態繼續戰鬥。
+
+**See also**: [Timeline — 愛莉事故](../04_timeline_canon.md#event-airi-accident)
+
+### 精神世界中的紙皮騎士
+
+瓦楞紙箱盔甲、膠帶纏繞紙劍、蠟筆畫的笑臉太陽紙盾——這就是愛莉在[集體潛意識](../02_glossary.md#term-collective-unconscious)中的全部裝備。她以毒舌少女的語氣指引表姐[晴香](haruka.md)，用最廉價的材料擋住最沉重的命運。
+
+### 核心用途一——精神網絡守門人
+
+愛莉的角色價值不在「有幾強」，而在「肯唔肯長期承受」。  
+她在精神網絡中做的事很單純：把會傷人的東西擋開，讓其他人仲有喘息空間。
+
+### 核心用途二——活體黑盒
+
+在敘事功能上，愛莉是時間線真相的記憶錨點：當多數角色記憶被改寫時，她承擔「未被覆寫證詞」的角色位置。客觀時間線對照以 [Timeline](../04_timeline_canon.md#section-alpha-line-history) 與 [Timeline](../04_timeline_canon.md#section-beta-line-history) 為準。
+
+### 核心用途三——濾心機制
+
+對愛莉而言，「濾心」不是技術詞，而是每天都要吞下別人痛苦的生活事實。  
+她明知好苦，仍然選擇頂住，因為她不想下一個受傷的人是自己在乎的人。
+
+### 母女親情線收束
+
+[秋穗](akiho.md)每天到石像前懺悔。愛莉在精神深處聽得到母親的每一句話、每一滴眼淚。她想告訴母親「我從來沒怪過妳」，但石像無法張口。
+
+---
+
+## <a id="section-wnlt"></a>Want / Need / Lie / Truth
+
+| 維度 | 內容 |
+|------|------|
+| **Want** | 守護母親和表姐；阻止[共振地獄](../02_glossary.md#term-resonance-hell)計劃；讓母親知道「我從來沒怪過妳」 |
+| **Need** | 讓母親放手；獲得母親原諒自己——不是愛莉需要被原諒，而是秋穗需要原諒自己 |
+| **Lie** | 「我必須守護所有人」「我的存在是負擔」 |
+| **Truth** | 媽媽需要的不是救活我，而是原諒自己；用最廉價的紙皮也能擋住命運 |
+
+---
+
+## <a id="section-archetype"></a>Archetype & Symbolism
+
+**弧光**：受難聖徒 → 無名守門人 → 紙皮騎士
+
+| 符號 | 意義 |
+|------|------|
+| 紙皮盔甲與紙劍 | 最廉價的材料擋住命運——價值不在材質，在[態度](../02_glossary.md#term-attitude-vs-fate) |
+| 石像 | 現實中的囚禁——被困在自己身體中的靈魂 |
+| 黑色觸手 | 全城人的痛苦殘渣——[濾心](../02_glossary.md#term-filter-heart)每日承受的代價 |
+| 蠟筆太陽盾 | 孩子對光明的樸素信仰——童稚但不可摧毀 |
+
+**主題關聯**：子主題 C「身份的本質」——即使變成石像、即使只有紙皮武裝，[態度](../02_glossary.md#term-attitude-vs-fate)決定存在的意義。子主題 D「連結的價值」——母女之間無法被石化阻斷的羈絆。
+
+---
+
+## <a id="section-four-act-arc"></a>四幕弧光
+
+### [第一幕](../05_story_outline_canon.md#act-1)：沉默的石像
+
+以石像形態存在於秋穗實驗室深處。精神世界中默默守護網絡節點，斬斷[黑奏](antagonist.md)滲透的觸手。晴香偶爾夢見一個穿紙皮盔甲的小女孩，但醒來就忘記。
+
+### [第二幕](../05_story_outline_canon.md#act-2)：過載的濾心
+
+[濾心](../02_glossary.md#term-filter-heart)機制過載，紙皮騎士的戰鬥愈發激烈。紙皮盔甲開始碎裂，黑色觸手越來越多。愛莉在精神戰場上獨自苦戰，每次受傷都用膠帶把紙皮重新黏回去。
+
+### [第三幕](../05_story_outline_canon.md#act-3)：夢中的真相碎片
+
+在晴香的夢境中，紙皮騎士終於開口——「笨蛋表姐！」。愛莉將活體黑盒中保存的關鍵真相碎片交給晴香，揭露 [Alpha 線](../02_glossary.md#term-alpha-line)被隱藏的記憶。
+
+### [第四幕](../05_story_outline_canon.md#act-4)：母女對話
+
+精神世界中，愛莉終於與[秋穗](akiho.md)面對面。紙皮盔甲碎裂，露出裏面那個普通的女兒。「笨蛋老媽，我從來沒怪過妳。」秋穗學會放手——不是放棄愛莉，而是放下罪孽。
+
+---
+
+## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
+
+1. **紙皮騎士裝備**：穿瓦楞紙箱盔甲、揮舞膠帶紙劍——用孩子的方式守護世界
+2. **斬斷黑色觸手**：精神層面守護隊友免受[黑奏](antagonist.md)[情緒侵蝕](../02_glossary.md#term-emotional-erosion)，每次揮劍都帶著「切！」的毒舌語氣
+3. **吞下痛苦**：作為[濾心](../02_glossary.md#term-filter-heart)承受全城情緒廢料——「好苦……這些東西好苦……」
+4. **夢境指引**：在晴香夢中以毒舌質問——「笨蛋表姐！你到底在看什麼啊！」
+5. **無聲守護**：精神網絡中默默戰鬥，從不求助、從不抱怨，用膠帶修補自己的紙皮盔甲繼續前進
+
+---
+
+## <a id="section-visual"></a>視覺要點
+
+| 項目 | 描述 |
+|------|------|
+| 髮色 | 鮮豔橙色（警示色，渴望被關注） |
+| 核心關鍵詞 | 橙色、紙皮、偽裝 |
+
+### 生前偽裝（MK 不良少女）
+
+地雷系 + 街頭混搭——黑色露肩 T-shirt + 牛仔熱褲 + 網格長襪，深紅眼影。不良少女的偽裝實際上是保護母親的盾牌：用叛逆外表把所有敵意吸引到自己身上，不讓人注意到秋穗的研究。
+
+### 紙皮騎士形態（精神世界）
+
+T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾。盔甲上用馬克筆寫著歪歪斜斜的「最強」兩個字。每次被打碎就用膠帶黏回去，越戰越多膠帶痕跡。
+
+### 石像形態（現實世界）
+
+半透明橙色水晶寶石質感，雙手交疊安詳沉睡。陽光照射時散發暖橙色光芒——像在石化狀態中依然試圖溫暖周圍。
+
+### 聖女騎士形態（晴香眼中）
+
+白銀鎧甲 + 黃金聖劍 + 白色披風——這是晴香在夢中將紙皮騎士理想化後的形象。與紙皮騎士的對比突顯：愛莉不需要華麗裝備，紙皮就夠了。
+
+---
+
+## <a id="section-relationships"></a>Relationships
+
+| 對象 | 關係 | 核心動態 |
+|------|------|---------|
+| [秋穗](akiho.md) | 母親 | 秋穗每天懺悔，愛莉全都聽到；核心母女線收束於「我從來沒怪過妳」 |
+| [晴香](haruka.md) | 表姐 | 在夢境中以毒舌引導晴香；活體黑盒中保存晴香需要的真相 |
+| [黑奏](antagonist.md) | 利用者 | 黑奏將愛莉當作[濾心](../02_glossary.md#term-filter-heart)——情緒廢料處理場 |
+| [美夜子](miyako.md) | 表姐（秋穗的姪女） | 間接關係——美夜子守護晴香，愛莉在精神層面守護美夜子 |
+| [夕](yu.md) | 精神網絡接觸 | 愛莉在精神網絡中偶爾感知到夕的存在——兩個被囚禁的靈魂 |
+
+---
+
+
+## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
+
+- [愛莉事故](../04_timeline_canon.md#event-airi-accident)：紙皮騎士弧光的起點。
+- [紙皮騎士守護（一）](../04_timeline_canon.md#event-paper-knight-1)：先在美夜子噩夢場域出現，建立潛意識守門人身份。
+- [紙皮騎士守護（二）](../04_timeline_canon.md#event-paper-knight-2)：在朱音崩潰期維持心智邊界，保留其回歸與贖罪可能。
+- [美夜子失蹤/救援](../04_timeline_canon.md#event-miyako-missing)：潛意識風暴與守門功能顯性化。
+- [故事後段開端](../04_timeline_canon.md#event-post-story-begin)：由被動容器轉為主動守門人。
+
+---
+## <a id="section-role-function"></a>角色功能（Narrative Function）
+
+- 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 本角色的獨有功能與取向，以本頁各章節為準。
+
+---
+## <a id="section-canon-constraints"></a>禁忌（不可改設定）
+
+- 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 若本角色另有專屬硬限制，以本頁明示條目優先。
+## <a id="section-see-also"></a>See also
+
+- [秋穗 Canon Sheet](akiho.md) — 母親的罪孽與救贖
+- [晴香 Canon Sheet](haruka.md) — 表姐、創世者
+- [Character Index](../03_character_index.md) — 角色總覽與關係網
+- [Timeline — 愛莉事故](../04_timeline_canon.md#event-airi-accident) — 屍骸化事件
+- [Glossary — 濾心](../02_glossary.md#term-filter-heart) | [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse) | [Glossary — 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
+- [Story Outline](../05_story_outline_canon.md) — 四幕故事結構
+
+
+
+
+

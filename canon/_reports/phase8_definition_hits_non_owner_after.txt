@@ -1,0 +1,12 @@
+canon\99_decision_log.md:35:- 血糖驟降、低溫症、手抖是身體強行導引靈魂能量的生理副作用，而非獨立代價機制
+canon\10_gameplay_bible.md:84:- **靈魂抽離**：是高門檻但高價值的終局處理（流程口徑見 [§ 靈魂抽離機制](#section-soul-extraction)）
+canon\06_visual_bible.md:127:- 這是世界法則為誘使靈魂打開大門而設的「甜蜜陷阱」
+canon\06_visual_bible.md:231:**視覺用途**：光環是魔法少女狀態讀取的主視覺層；術語口徑見 [Glossary：光環](02_glossary.md#term-halo) 與 [World Rules](01_world_rules_and_costs.md)。
+canon\03_character_index.md:3:> **讀者指引**：本文件是角色系統的入口 hub。12 位主要角色各有獨立 Canon Sheet（見下表連結），5 位次要角色的精簡條目收錄在本頁底部。
+canon\03_characters\akiho.md:61:「過程不重要，結果才是一切。」——這是秋穗的行事信條。為了救愛莉，她可以犧牲任何人；為了超越花子，她可以跨越任何道德底線。她開發[情緒毒品](../02_glossary.md#term-emo-visor)、協助建立[魔法少女](../02_glossary.md#term-magical-girl)系統、封存真相操控晴香——所有罪行都被「結果」合理化。
+canon\03_characters\akiho.md:185:| [黑奏](antagonist.md) | 魔鬼契約者 | 黑奏提供救愛莉的虛假希望，秋穗為黑奏服務。契約的本質是利用與被利用 |
+canon\03_characters\airi.md:135:半透明橙色水晶寶石質感，雙手交疊安詳沉睡。陽光照射時散發暖橙色光芒——像是在石化狀態中依然試圖溫暖周圍。
+canon\03_characters\yu.md:91:夕在鏡子和夢境中隱約出現，晴香誤以為是自己精神狀態的不穩定。偶爾在極端壓力下聽到低語：「家姐點解會變貓？」「媽媽真係難產死？」——這些線索被晴香下意識忽略。
+canon\03_characters\iwakura_akane.md:35:出身夜區毒品街區，父母是情緒膠囊的重度成癮者。朱音從小在飢餓與暴力中長大，14 歲為養家成為黑幫打手——戰鬥是她的「精神毒品」，用腎上腺素壓制深入骨髓的罪惡感。18 歲時為獲取毒品再次淪為打手，暴力成為唯一能讓她忘記一切的代償機制。
+canon\03_characters\antagonist.md:43:黑奏不恨那些士兵。她恨的是允許這種事發生的「系統」——人類的神經系統設計。如果傷害他人的瞬間能感受到同等痛楚，沒有人會選擇施暴。這不是道德問題，是工程問題。黑奏要修正這個缺陷。
+canon\03_characters\antagonist.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏的萬花筒魔法是對鏡像法則的暴力扭曲。鏡子本應反映真實——黑奏將其碎裂、重組，讓「真實」變成無限個被扭曲的版本。這是她「修正」哲學的視覺化：不面對真實，而是把真實打碎重新拼湊成自己想要的樣子。

@@ -1,0 +1,1750 @@
+diff --git a/canon/03_characters/miyako.md b/canon/03_characters/miyako.md
+index f9c1483..139f507 100644
+--- a/canon/03_characters/miyako.md
++++ b/canon/03_characters/miyako.md
+@@ -1,69 +1,79 @@
+----
+-doc_id: CAN-03-MIYAKO
+-title: "水無月美夜子 (Mizunatsuki Miyako)"
+-status: Canon
+-scope: "角色背景、心理弧光、關係網絡、行為特徵"
+-sources:
+-  - "screenwriter/01_Character_Background_Story.md"
+-  - "screenwriter/06_Character_Psychology_Analysis.md"
+-last_updated: 2026-02-08
++# 水無月美夜子（Mizunatsuki Miyako）
++
++> **讀者指引**：本頁是美夜子的單一角色 Canon Sheet，整合背景故事、心理弧光、視覺設計與關係網絡。
++> 首次閱讀建議先看 [§ Header Table](#char-miyako) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
++> 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
++
++<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md -->
++
+ ---
+ 
+-# CAN-03: 水無月美夜子 (Mizunatsuki Miyako)
++## <a id="section-char-scope"></a>角色文件職責邊界
+ 
+-## 基本資料
++- 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
++- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+ 
+-> **來源**: [[screenwriter/01_Character_Background_Story]]
++---
++## <a id="char-miyako"></a>Header Table
++
++| 欄位 | 內容 |
++|------|------|
++| **本名** | 雨宮美夜子（改名水無月美夜子，象徵與過去決裂） |
++| **年齡** | 21 歲（帝國歷 113 年時），視覺年齡 16 |
++| **誕生** | 帝國歷 76 年 |
++| **死亡** | 帝國歷 92 年（[Alpha 線](../02_glossary.md#term-alpha-line)） |
++| **復活** | 帝國歷 103–108 年（[秋穗](akiho.md)復活為 [Unit 01](../02_glossary.md#term-unit-01)） |
++| **身份** | 唯一真正死者、借來的生命、黑貓守護者 |
++| **家庭** | 妹妹[晴香](haruka.md)（互不知情）、母親花子（已逝） |
++| **Archetype** | 介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian) |
++| **存活狀態** | 存活（貓形態） |
+ 
+-- **本名**：雨宮美夜子（改名為水無月美夜子，象徵與過去決裂）
+-- **年齡**：21 歲（帝國歷 113 年時）
+-- **誕生**：帝國歷 76 年（晴香的親姊姊）
+-- **死亡**：帝國歷 92 年（Alpha 線意外身亡）
+-- **復活**：帝國歷 103-108 年（秋穗強行復活，成為 Unit 01）
+-- **身份**：唯一真正死者、借來的生命、階段一兵器（已廢棄）、黑貓守護者
++---
+ 
+-## 背景故事
++## <a id="section-background"></a>背景故事
+ 
+-> **來源**: [[screenwriter/01_Character_Background_Story#miyako-alpha-beta]]
+-> **詳細**: 母文檔保留完整 Alpha/Beta 對照、避難所詛咒、凜的犧牲詳情
++### 唯一的已死者——借來的生命
+ 
+-**唯一的已死者——借來的生命**：
+-在所有主要角色中，美夜子擁有獨特定位——**她是唯一在 Alpha 線中真正死亡的角色**。她本該就此安息，但秋穗為了驗證瘋狂理論，利用集體潛意識技術強行將她的靈魂碎片從彼岸拉回，注入人造軀殼。
++在所有主要角色中，美夜子擁有獨特定位——她是唯一在 [Alpha 線](../02_glossary.md#term-alpha-line)中真正死亡的角色。她本該就此安息，但[秋穗](akiho.md)為了驗證瘋狂理論，利用[集體潛意識](../02_glossary.md#term-collective-unconscious)技術強行將她的靈魂碎片從彼岸拉回，注入人造軀殼。
+ 
+-**Alpha vs Beta 的獨特對照**：
+ - **Alpha 線**：突然中斷，留下無數遺憾（無法告別、無法看晴香長大）
+ - **Beta 線**：倒數計時的借來時光（知道隨時會消失）
+-- **深層意義**：Beta 線不是為了「復活」，而是為了「道別」——從「被奪走」到「主動放手」
++- **深層意義**：[Beta 線](../02_glossary.md#term-beta-line)不是為了「復活」，而是為了「道別」——從「被奪走」到「主動放手」
++
++**See also**: [Alpha Divergence 事件](../04_timeline_canon.md#event-alpha-divergence)
++
++### 五歲的詛咒——避難所（The Sanctuary Curse）
+ 
+-**五歲的詛咒——避難所 (The Sanctuary Curse)**：
+-美夜子變成貓的能力，並非出於她自身意志，而是晴香 5 歲時天真願望的產物——「家姐唔好死……如果家姐變做貓仔就唔會受傷啦……」這個願望被刻入 Beta 線世界法則，成為美夜子靈魂上的「絕對保護機制」：當她受到致死傷害或心理防線崩潰時，會強制變成無法被殺死的黑貓。
++美夜子的貓形態不是主動能力，而是晴香幼年願望留下的代價性綁定。此處只保留角色意義（被保護與被剝奪並存）；觸發條件與規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse) 與 [World Rules：Alpha/Beta 結構](../01_world_rules_and_costs.md#rule-alpha-beta)。
+ 
+-這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭貓的依賴、那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在——一隻寵物。
++這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在。
+ 
+-**Unit 01——階段一兵器**：
+-復活後失去記憶，被編入帝國軍方「魔法少女部隊」，代號 Unit 01。在部隊中，她與 4 號魔法少女凜並肩作戰，兩人建立深厚戰友情誼。
++### Unit 01——軍方魔法少女兵器
+ 
+-**凜的犧牲與詛咒首次觸發**：
+-在一次「悲慟風暴」壓制任務中，凜為掩護她撤離，被 L3 光環處決：冰藍色光環強行扭轉凜的頭顱 180 度。美夜子親眼看見凜最後的微笑，以扭曲角度永遠定格。目睹這一刻，美夜子情緒防線崩潰——觸發「避難所詛咒」，身軀被強制壓縮進黑貓體內，從此逃離軍方控制，流落街頭。
++復活後失去記憶，被編入帝國軍方「魔法少女部隊」，代號 [Unit 01](../02_glossary.md#term-unit-01)。在部隊中，她與 4 號魔法少女[凜](rin.md)並肩作戰，兩人建立深厚戰友情誼。
+ 
+-**光環 PTSD 與戰鬥風格轉變**：
+-光環扭斷凜脖子的「喀嚓」聲成為美夜子一生夢魘。她現在戰鬥極度克制——幾乎只用體術或槍械，非必要絕不使用大魔法。只要看到隊友身上出現光環徵兆，她就會極度焦慮，甚至粗暴打斷施法：「停下來！妳想被扭斷嗎？！」
++### 凜的犧牲與詛咒首次觸發
++
++在一次「悲慟風暴」壓制任務中，凜為掩護她撤離，被 L3 [光環](../02_glossary.md#term-halo)處決：冰藍色光環強行扭轉凜的頭顱 180 度。美夜子親眼看見凜最後的微笑，以扭曲角度永遠定格。目睹這一刻，美夜子情緒防線崩潰——觸發[避難所詛咒](../02_glossary.md#term-sanctuary-curse)，身軀被強制壓縮進黑貓體內，從此逃離軍方控制，流落街頭。
++
++**See also**: [凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice)
++
++### 介錯人的覺悟
+ 
+-**介錯人的覺悟**：
+ 美夜子從一開始就沒有幻想。她知道魔法少女的結局只有兩種：光環處決，或者屍骸化。她要做的，是成為「最後的保險栓」——確保當她們走向終點時，能夠以「人類」身份死去，而不是變成怪物。這是她唯一能給予她們的溫柔。
+ 
+-## Want / Need / Lie / Truth
++---
+ 
+-> **來源**: [[screenwriter/06_Character_Psychology_Analysis]]
++## <a id="section-wnlt"></a>Want / Need / Lie / Truth
+ 
+ **Want（顯性欲望）**：
+ - 恢復人形態，擺脫貓的詛咒
+ - 對魔法少女兵器制度進行報復
+-- 保護晴香，履行姊姊的責任
++- 保護[晴香](haruka.md)，履行姊姊的責任
+ 
+ **Need（隱性需求）**：
+ - 接受自己是「借來的生命」，學會放手
+-- 打破「避難所詛咒」，獲得「光榮戰死」的權利
++- 打破[避難所詛咒](../02_glossary.md#term-sanctuary-curse)，獲得「光榮戰死」的權利
+ - 在信賴的人面前大哭一場——證明即使軟弱也值得被愛
+ 
+ **Lie（核心謊言）**：
+@@ -74,39 +84,159 @@ last_updated: 2026-02-08
+ **Truth（最終真相）**：
+ - 存在的價值不在於有用，而在於被愛
+ - 接受失去，才能真正道別
+-- 死亡的意義在於選擇——主動放手 vs 被動失去
++- 死亡的意義在於選擇——主動放手 vs 被動失去（[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)）
+ 
+-## Archetype & Symbolism
++---
+ 
+-> **來源**: [[director/Core_Characters_Symbolism_Analysis]]
++## <a id="section-archetype"></a>Archetype & Symbolism
+ 
+-**Archetype**：介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian)
++**Archetype 變遷**：介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian)
+ 
+ **象徵**：
+-- **黑貓**：被詛咒的守護、無法死去的悲哀
+-- **借來的生命**：倒數計時的道別禮物
+-- **槍**：最後的慈悲（介錯）
++- **黑貓** — 被[詛咒](../02_glossary.md#term-sanctuary-curse)的守護、無法死去的悲哀、最厭惡卻被迫承受的形態
++- **借來的生命** — 倒數計時的道別禮物；Beta 線本身就是一張「借來的膠布」
++- **槍** — 最後的慈悲（介錯）；從琉璃緞帶到衝鋒槍的武器轉變，象徵從「優雅的兵器」到「拒絕魔法的倖存者」
++
++---
++
++## <a id="section-four-act-arc"></a>四幕弧光
+ 
+-## Relationships
++### [第一幕](../05_story_outline_canon.md#act-1)：黑貓守護者
+ 
+-> **來源**: [[screenwriter/01_Character_Background_Story]]
++以黑貓形態暗中守護[晴香](haruka.md)。晴香以為美夜子只是「夥伴和大姐姐」，不知道對方是親姊姊。美夜子扮演介錯人角色——以沉默的行動守護隊伍，為「最後的慈悲」做準備。
+ 
+-- **晴香**：親妹妹（不知情），靈魂深處唯一的錨點，最終的守護對象
+-- **凜**：戰友，犧牲者，光環 PTSD 的源頭，「血之約定」的對象
+-- **秋穗**：復活的施術者，愛與罪的施予者
+-- **朱音、操**：隊友，介錯人的守護對象
++### [第二幕](../05_story_outline_canon.md#act-2)：PTSD 與轉變
+ 
+-## Behavior Hooks（關鍵習慣）
++[凜犧牲](../04_timeline_canon.md#event-rin-sacrifice)的光環 PTSD 全面爆發。恢復人形後戰鬥風格發生根本轉變：從琉璃緞帶 + 冰刀的優雅冰舞，轉為雙持衝鋒槍的「子彈圓舞曲」。她拒絕大量魔法輸出，信奉「鋼鐵才是信條」。
+ 
+-> **來源**: [[screenwriter/09_Character_Senses_Private_Habits_Setting.md]]
++### [第三幕](../05_story_outline_canon.md#act-3)：借來的生命
+ 
+-**關鍵習慣**（3-5 個核心習慣）：
+-1. **槍械保養**：每晚清潔槍械，儀式化的準備——為「最後的慈悲」做好準備
+-2. **無體溫/無心跳**：Alpha 線「已死事實」的生理滲漏
+-3. **光環警戒**：對隊友光環徵兆極度敏感，會粗暴打斷施法
+-4. **貓形態厭惡**：強烈抗拒變回貓，視為「失去尊嚴」的象徵
+-5. **沉默的守護**：不善言辭，用行動表達關心（偷偷檢查隊友傷勢、準備食物）
++面對「借來的生命」真相——她本該在 Alpha 線安息，Beta 線的存在本身就是一場倒數。[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)中[朱音](iwakura_akane.md)和[操](ayakomoji_sou.md)的犧牲，迫使她直面：介錯人保護不了所有人。
++
++### [第四幕](../05_story_outline_canon.md#act-4)：美夜子的大哭
++
++[Dark Healing](../02_glossary.md#term-dark-healing) 三大治癒時刻之一。美夜子終於允許自己脆弱——在信賴的人面前痛哭失聲。這不是軟弱，而是「借來的生命」最珍貴的瞬間：用眼淚證明自己還是人。
++
++---
++
++## <a id="section-existence-collapse"></a>存在確認測試與崩潰修復
++
++**事件位置**：[Timeline: 美夜子的三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)
++
++美夜子在「貓殼碎裂」後進入重度解離，核心恐懼是：即使回到人形，自己仍可能只是「功能性的兵器殘骸」，而非真正活著的人。  
++她因此進行一次[存在確認測試](../02_glossary.md#term-existence-validation-test)：企圖用強烈生理刺激確認「我仍有感覺」。結果是失敗的。
++
++- 測試結果：只出現更深的空洞與失重感，無法產生存在感
++- 心理意義：證明「單向自我刺激」不能修復存在裂縫
++- 劇情功能：把美夜子從「可運作的隊長」推到「必須被接住的人」
++- 主題功能：對照晴香的擁抱，完成「封閉式求生」到「開放式連結」的過渡
++
++此段不是情慾描寫，而是創傷與解離描寫。其 Canon 價值在於：明確顯示美夜子的修復路徑不是「變強」，而是「允許被愛與被承接」。
++
++---
++
++## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
++
++1. **槍械保養** — 每晚清潔槍械，儀式化地為「最後的慈悲」做準備
++2. **無體溫 / 無心跳** — Alpha 線「已死事實」的生理滲漏；[魔法屍骸](../02_glossary.md#term-magical-corpse)的隱喻
++3. **[光環](../02_glossary.md#term-halo)警戒** — 對隊友光環徵兆極度敏感，會粗暴打斷施法：「停下來！妳想被扭斷嗎？！」
++4. **貓形態厭惡** — 強烈抗拒變回貓，視為「失去尊嚴」的象徵
++5. **沉默守護** — 不善言辭，用行動表達關心（偷偷檢查隊友傷勢、準備食物）
+ 
+ ---
+ 
+-**注意**: 詳細 Alpha/Beta 對照、避難所詛咒機制、凜的犧牲完整描述見母文檔 [[screenwriter/01_Character_Background_Story#miyako-alpha-beta]]（標記為 Draft）。
++## <a id="section-visual"></a>視覺要點
++
++| 欄位 | 內容 |
++|------|------|
++| **身高 / 體型** | 162cm / 倒三角形，鋼條型少年感 |
++| **核心關鍵詞** | 月亮、凍傷、琉璃 |
++| **主色** | 午夜藍 (Midnight Blue) + 軍綠 (Military Green) + 金色 (Gold) |
++| **基礎幾何** | 倒三角 / 尖角為主，銳利直線，象徵危險與攻擊性 |
++| **膚色** | 蒼白，帶冷色調（像體溫很低） |
++
++### 貓形態（The Mascot）
++
++- 全黑英短 (British Shorthair)，毛髮濃密短絨，頭圓臉大
++- 識別點：左耳金屬星型髮夾
++- 行為反差：外表極度可愛，行為像「疲憊的大叔」——癱坐露肚皮、沉重嘆氣
++
++### 人類常服（Night District Combat Chic）
++
++- 短身飛行皮褸 (Cropped Bomber Jacket)，大立領，硬挺闊身
++- 黑色緊身背心 + 黑色多口袋工裝短褲 + 半透絲襪 + 厚底軍靴
++- 黑色露指戰術手套；深藍色單邊高馬尾，一束金色挑染（復活副作用）
++
++### 魔法少女形態（冰舞者 Unit 01）
++
++- 深藍/冰藍色高柏連體衣 (Leotard)，玻璃光澤如第二層皮膚
++- 琉璃腰紗 (Glass Waist-Cape)：兩片極長半透明漸變薄紗
++
++### 武器演變
++
++| 階段 | 武裝 | 觸發原因 |
++|------|------|---------|
++| 早期（凜存活時） | 琉璃緞帶（可硬化為刀刃）+ 能量冰刀 | Unit 01 標準配置 |
++| 後期（凜犧牲後） | 雙持 HK MP7A1 衝鋒槍 | [光環](../02_glossary.md#term-halo) PTSD，拒絕大量魔法輸出 |
++
++**戰鬥風格——子彈圓舞曲 (The Waltz of Bullets)**：冰舞 + 衝鋒槍。滑行射擊、旋轉壓制 (Spinning Suppression)、Axel 跳躍狙擊。魔法只是輔助（後座力消除、冰面滑行），鋼鐵才是信條。
++
++### 行為反差（The Gap）
++
++- **貓舌頭** — 極度怕燙，喝熱飲時雙手捧杯拼命吹氣，表情痛苦糾結
++- **追光點** — 嚴肅討論戰術時，視線無意識追逐移動的光點或飛蟲，猛然驚醒裝作沒事
++
++### 視覺演變
++
++| 狀態 | 髮型/特徵 | 眼神 | 身體異變 |
++|------|----------|------|---------|
++| 日常（偽裝） | 深藍高馬尾 + 金色挑染 | 微垂死魚眼，抑鬱疲憊 | 體溫異常低 |
++| 戰鬥（覺醒） | 馬尾凌厲擺動 | 瞳孔縮小，狩獵中的貓 | 緞帶/冰刀寒光 |
++| 腐蝕（代價） | 金色挑染光澤黯淡 | 混濁，焦距渙散 | 指尖四肢末端紫黑色凍傷斑塊 |
++
++---
++
++## <a id="section-relationships"></a>Relationships
++
++| 對象 | 關係 | 核心動態 |
++|------|------|---------|
++| [晴香](haruka.md) | 親妹妹（互不知情） | 靈魂深處唯一的錨點；最終的守護對象 |
++| [凜](rin.md) | 軍方戰友 | 最深的羈絆；犧牲後成為終身 PTSD 源頭；重組後的凜不記得美夜子 |
++| [秋穗](akiho.md) | 復活施術者 | 愛與罪的施予者；美夜子「借來的生命」的源頭 |
++| [朔](saku.md) | Alpha 線青梅竹馬戀人 | 朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器） |
++| [朱音](iwakura_akane.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
++| [操](ayakomoji_sou.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
++
++---
++
++
++## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
++
++- [凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)：核心創傷來源，形成光環 PTSD。
++- [三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)：從功能性生存轉為主體性存在。
++- [凜的最終戰](../04_timeline_canon.md#event-rin-final-battle)：完成遲來介錯，推進送行者弧光。
++
++---
++## <a id="section-role-function"></a>角色功能（Narrative Function）
++
++- 劇情功能：在至少一個四幕轉折節點推進衝突或揭示代價。
++- 主題功能：對主題「[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)」提供該角色獨特答案。
++- 情緒功能：與晴香路徑形成互補或對照，擴大觀眾理解面。
++
++---
++## <a id="section-canon-constraints"></a>禁忌（不可改設定）
++
++- 不可與 [Decision Log](../99_decision_log.md) 已裁決口徑衝突。
++- 不可刪除本角色創傷來源與代價鏈，避免無代價改寫。
++- 不可改動本角色在 [Alpha/Beta 結構](../01_world_rules_and_costs.md#rule-alpha-beta) 的責任定位。
++## <a id="section-see-also"></a>See also
++
++- [Character Index](../03_character_index.md)
++- [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
++- [Timeline: 凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice) | [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
++- [Glossary: 避難所詛咒](../02_glossary.md#term-sanctuary-curse) | [Unit 01](../02_glossary.md#term-unit-01) | [光環](../02_glossary.md#term-halo)
++- [Dark Healing](../02_glossary.md#term-dark-healing) — 美夜子的大哭是三大治癒時刻之一
++
++
++
++
+diff --git a/canon/05_story_outline_canon.md b/canon/05_story_outline_canon.md
+index 17244a4..b31e58a 100644
+--- a/canon/05_story_outline_canon.md
++++ b/canon/05_story_outline_canon.md
+@@ -1,101 +1,461 @@
++# Story Outline Canon（唯一大綱）
++
++> **讀者指引**：本文件是故事的四幕結構、敘事設計與情感節奏。事件的具體時間線見 [Timeline](04_timeline_canon.md)，此處聚焦「為什麼這個事件放在這裡」。
++> 首次閱讀建議從 [§ 四幕總覽](#section-four-act-overview) 開始，然後閱讀各幕詳解。
++> 相關文件：[Timeline](04_timeline_canon.md) | [Series Bible](00_series_bible.md) | [Character Index](03_character_index.md) | [World Rules](01_world_rules_and_costs.md)
++
++<!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md, backup/director/Story_Structure_Atmosphere_Design.md, backup/director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md, backup/screenwriter/Villain_Master_Plan.md -->
++
++---
++
++## <a id="section-scope"></a>文件職責邊界
++
++- 本文件只負責其對應 Canon 範圍，不重寫其他文件的完整內容。
++- 術語完整定義只放在 [Glossary](02_glossary.md)。
++- 世界規則完整定義只放在 [World Rules](01_world_rules_and_costs.md)。
++- 事件時間與因果完整定義只放在 [Timeline](04_timeline_canon.md)。
++
+ ---
+-doc_id: CAN-05
+-title: "Story Outline Canon（唯一大綱）"
+-status: Canon
+-scope: "四幕結構、章節節點、角色弧光、Alpha/Beta 使用時機、情緒波形"
+-sources:
+-  - "screenwriter/05_Story_Outline.md"
+-  - "screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md"
+-  - "director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md"
+-  - "director/Story_Structure_Atmosphere_Design.md"
+-  - "screenwriter/Villain_Master_Plan.md"
+-last_updated: 2026-02-08
++## <a id="section-four-act-overview"></a>四幕總覽
++
++本故事採用「偽三幕，真四幕」（起承轉合）的結構性詭計——觀眾以為第三幕是結局，實際上是偽高潮。
++
++| 幕 | 名稱 | 結構功能 | 氛圍 | 時間 |
++|---|------|---------|------|------|
++| **起** | [日常的裂痕與命運的相遇](#section-act-1) | 建立代入→同步誤導 | 懸疑+親密的心理驚悚 | 113 年 3-4 月 |
++| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 5 月-114 年 4 月 |
++| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 5 月 |
++| **合** | [重生或毀滅](#section-act-4) | 回答存在問題→主題閉環 | 史詩悲壯+存在主義孤寂 | 114 年 7-9 月 |
++
++**核心詭計**：以傳統皇道動漫元素（偶像、羈絆、熱血團戰）為「陷阱」，讓觀眾放鬆警惕後，在最意想不到的時刻撕開糖衣，暴露[溫柔的殘酷](02_glossary.md#term-gentle-cruelty)的真實內核。
++
++---
++
++## <a id="section-prologue"></a>開場前紀：世界的起源
++
++**時間**：帝國歷 0-112 年（見 [Timeline §I-III](04_timeline_canon.md#section-shared-history)）
++
++**敘事功能**：建立故事的「原罪」——一切悲劇源於 5 歲晴香的一次改變現實。
++
++**關鍵前提**：
++- [靈樹戰爭](04_timeline_canon.md#event-sacred-tree-war)與[維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造
++- [彩/黑奏的精神分裂](04_timeline_canon.md#event-kurokanae-trauma)（姊姊螢被槍殺）
++- **[Alpha 線真相](04_timeline_canon.md#event-alpha-divergence)**：本作原罪入口與角色動機源頭；客觀事件鏈以 Timeline 為準
++- **Beta 線設定**：花子死因重設為難產，[夕](03_characters/yu.md)誕生，晴香成長為少年偶像
++
+ ---
+ 
+-# CAN-05: Story Outline Canon（唯一大綱）
++<a id="act-1"></a>
++## <a id="section-act-1"></a>Act I：日常的裂痕與命運的相遇（起）
++
++**結構功能**：讓觀眾與[晴香](03_characters/haruka.md)建立深刻的個人連結，同時設下「內在命運」的巨大謎題（夕的身份、母親的死）。透過個人化危機，將「治療內心」主題內化為晴香的個人戰爭。
++
++**氛圍**：懸疑與親密並存的心理驚悚劇。開場是少年偶像日常的明亮與輕鬆，但隨著美夜子與屍骸的出現，氛圍迅速轉為緊張、神秘。
++
++**社會風評**：[維多利亞天使期](04_timeline_canon.md#section-113-march) → 裂痕初現
++
++### <a id="section-act1-key-events"></a>關鍵節點
+ 
+-## Four-Act Structure（四幕結構）
++**1. 覺醒與組隊**（[113 年 3-4 月](04_timeline_canon.md#section-113-march)）
++- 晴香與彩建立友誼，獲得[情緒力量裝置](02_glossary.md#term-heart-container) + 貓形態美夜子
++- 魔法屍骸入侵學校，晴香覺醒——命運暴力撕開日常的帷幕
++- [偶像式入隊](04_timeline_canon.md#event-story-begin)：美夜子以「維多利亞天使」概念包裝魔法少女使命，隱藏殘酷真相
+ 
+-> **來源**: [[screenwriter/05_Story_Outline]] (母文檔，415 行完整版)
++**2. [膠布哲學](02_glossary.md#term-band-aid-philosophy)第一層**：「痛是證據」（個人習慣）
++- 晴香將膠布貼在校霸傷口上：「痛是證據。留住個傷口，你先會記得今日發生咩事。」
++- 諷刺伏筆：她教校霸用膠布「記住痛」，自己卻在用膠布「逃避痛」
+ 
+-### 開場前紀：世界的起源
++**3. [情緒連結](02_glossary.md#term-emotion-link)首戰**（[113 年 4 月](04_timeline_canon.md#event-emotion-link-first)）
++- 四人連結後出現高成本反噬，功能上完成「能力展示 -> 代價示警」轉折（事件細節見 Timeline）
++- 為[共振地獄](02_glossary.md#term-resonance-hell)埋下恐懼種子——晴香親歷「強制共感」的恐怖
+ 
+-**時間**: 帝國歷 0-113 年
++**4. 膠布哲學第二層**：系統批判
++- 朱音撕開膠布：「妳以為貼住張貼紙，個傷口就會好？」
++- 從「個人習慣」上升到「系統批判」——整個[魔法少女系統](01_world_rules_and_costs.md#section-magic-system)就是一塊巨大的膠布
+ 
+-**關鍵事件**:
+-- 靈樹戰爭與維多利亞之淚建造
+-- 彩/黑奏的精神分裂（姊姊螢被槍殺）
+-- **Alpha 線真相**（帝國歷 109 年）：黑奏襲擊花子與美夜子，晴香目睹雙重失去，發動「改變現實」創造 Beta 線
+-- **Beta 線設定**：花子死因重設為難產，夕誕生，晴香成長為少年偶像
++**5. [總部被襲](04_timeline_canon.md#event-hq-raid)**：虛榮的代價
++- 操因虛榮心洩露據點，美夜子重創——少女的面子如何導致真實傷害
++- 操坦白認錯，成為第一次「承認自己的醜陋」，真正融入團隊的起點
+ 
+-### Act I: 日常的裂痕與命運的相遇
++### <a id="section-act1-arc"></a>Act I 角色弧光
+ 
+-**社會風評**: 維多利亞天使期 → 裂痕初現
++| 角色 | 起點 | 終點 | 關鍵轉折 |
++|------|------|------|---------|
++| [晴香](03_characters/haruka.md) | 天真的偶像少女 | 開始質疑「正義」的輪廓 | 「鏡中之影」——屍骸也曾是人類 |
++| [美夜子](03_characters/miyako.md) | 冷漠的功利引導者 | 開始對晴香產生共情 | 從「不成熟的工具」看到值得扶持的夥伴 |
++| [朱音](03_characters/iwakura_akane.md) | 搶怪黨/流浪狗 | 勉強的隊員 | 晴香給糖吃——久違的人的善意 |
++| [操](03_characters/ayakomoji_sou.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
+ 
+-**關鍵節點**:
+-- 晴香與彩建立友誼，獲得情緒力量裝置 + 貓形態美夜子
+-- 魔法屍骸入侵學校，晴香覺醒
+-- **膠布哲學第一層**：「痛是證據」（個人習慣）
+-- **情緒連結首戰**：團隊連鎖崩潰，共識絕不再使用
+-- **膠布哲學第二層**：系統批判（朱音：「貼住張貼紙，個傷口就會好？」）
+-- **總部被襲**：操洩露據點，美夜子重創，團隊流落街頭
++---
++
++<a id="act-2"></a>
++## <a id="section-act-2"></a>Act II：扭曲的深淵（承）
++
++**結構功能**：將故事格局從個人內心擴大到整個世界。核心詭計在於**「營造期待」**——讓觀眾順著傳統英雄史詩的思路，誤以為晴香正一步步走向打敗大魔王的康莊大道。
++
++**氛圍**：山雨欲來的史詩感。基調變得宏大，充滿團隊戰鬥的熱血與壯烈。然而，在史詩表象之下，潛藏著濃厚的不安——同伴的犧牲、體制的無情、黑奏陰謀的冰山一角。
+ 
+-### Act II: 扭曲的深淵
++**社會風評**：裂痕期 → 魔女狩獵期
+ 
+-**社會風評**: 墮落期
++### <a id="section-act2-key-events"></a>關鍵節點
+ 
+-**關鍵節點**:
++**1. 朱音墮落與屍骸女王**（[113 年 5 月底-6 月中](04_timeline_canon.md#section-113-may-late)）
++- [小光之死](04_timeline_canon.md#event-ko-hikaru-death)：朱音戒斷時小光被屍骸化，黑奏誘惑「他沒有死，只是換了生存方式」
++- [三位一體辯論](04_timeline_canon.md#event-trinity-debate)：「人類 vs 屍骸，邊個先係弱小？」——晴香無法回答
++- [朱音放逐](04_timeline_canon.md#event-akane-exile)：證明「不是所有人都能在此刻被拯救」——[黑暗治癒](02_glossary.md#term-dark-healing)主題的第一個實證
++
++**2. 社會性死亡**（[113 年 6 月底-7 月](04_timeline_canon.md#section-113-june-late)）
++- [夕的背叛](04_timeline_canon.md#event-yu-betrayal)：拍攝虐殺錄像→國民偶像淪為「變態殺手」
+ - 媒體反轉，民眾視魔法少女為「代罪羔羊」
+-- **朱音暴走與犧牲**：情緒毒品成癮導致屍骸化
+-- **彩的覺醒與身份揭露**：黑奏身份曝光，信任危機
+-- **朔的加入**：帶來資源與道德困境
+-- **夕的第一次顯現**：晴香內在人格浮現
+-- **共振地獄啟動**：黑奏啟動全城情緒連結計劃
++- [經理人背叛](04_timeline_canon.md#event-manager-betrayal)：肖像權被奪走製造「晴香版[情緒毒品](02_glossary.md#term-emotion-drug)」
++
++**3. [鏡像破碎之夜](04_timeline_canon.md#event-mirror-shatter-night)**（[113 年 7-8 月](04_timeline_canon.md#section-113-july-august)）
++- [紗夜犧牲](04_timeline_canon.md#event-sayo-sacrifice)：在結構上把操由「角色面具」推向「身份崩解」
++- [操面對真相](04_timeline_canon.md#event-misao-collapse)：在結構上承接第二幕中段的隊伍裂痕升級
++- 魔法少女被全面通緝：在結構上把敘事舞台由「公開行動」轉成「地下生存」
++
++**4. 晴香與夕和解**（[114 年 3 月](04_timeline_canon.md#event-haruka-yu-integration)）
++- 美夜子引導晴香面對[夕](03_characters/yu.md)，促成部分融合
++- 獲得[陰影視覺](02_glossary.md#term-shadow-sight)：開始能「聽見」屍骸的[遺願低語](02_glossary.md#term-corpse-wishes)
++- 從「淨化者」轉變為「傾聽者」——對三位一體的第一次實際理解
+ 
+-### Act III: 鏡像的破碎
++**5. 真相揭露期**（[114 年 4 月](04_timeline_canon.md#section-114-april)）
++- [守恆定律揭露](04_timeline_canon.md#event-conservation-revealed)：守恆規則首次成為主衝突驅動（條文口徑見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
++- [凜的最終崩潰](04_timeline_canon.md#event-rin-final-collapse)：把「可逆挽回」路線封死，為第三幕失敗奠基
++- [共振地獄第一階段](04_timeline_canon.md#event-resonance-hell-1)：黑奏方案由隱性操控轉入可觀測部署（機制口徑見 [Glossary](02_glossary.md#term-resonance-hell)）。
+ 
+-**社會風評**: 覺醒期
++**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
++- 晴香帶隊救援被困的美夜子——功能上完成「主角被動反應 -> 主角主動承擔」
++- 腦中不再有「母親的聲音」（夕已潛航），必須獨自面對
++- 態度轉變：從「消滅黑暗」到「理解黑暗」——走向哭泣的影子，用共鳴說：「我知道，這很痛苦。」
+ 
+-**關鍵節點**:
+-- **鏡像破碎之夜**：管家紗夜犧牲，操面對真相
+-- **Alpha 線大規模洩露**：團隊成員看見真相碎片
+-- **夕與晴香的對質**：內在人格分裂達頂點
+-- **Beta 線真相**：晴香創造了扭曲現實
+-- **黑奏的真實計劃**：跨時間線能量收割揭露
+-- **美夜子的秘密**：避難所詛咒（無法戰死的黑貓）
++### <a id="section-act2-arc"></a>Act II 角色弧光
+ 
+-### Act IV: 重生或毀滅
++| 角色 | 起點 | 終點 | 關鍵轉折 |
++|------|------|------|---------|
++| [晴香](03_characters/haruka.md) | 質疑中的英雄 | 完成內在整合，成為領袖 | 與夕和解 + 愛莉潛意識風暴的畢業考試 |
++| [美夜子](03_characters/miyako.md) | 冷靜的隊長 | 信任被打破的傲慢者 | 獨自調查被困→被隊友救援→「你連我們都不信！」 |
++| [朱音](03_characters/iwakura_akane.md) | 背叛的屍骸女王 | 下水道的喪家之犬 | 等待回歸時機 |
++| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+ 
+-**社會風評**: 重生期或毀滅期
++---
++
++<a id="act-3"></a>
++## <a id="section-act-3"></a>Act III：鏡像的破碎（轉）
++
++**結構功能**：引爆整個故事的結構性詭計。在觀眾情緒與期待的最高點，給予最沉重的「失敗」，從而徹底粉碎傳統敘事框架，強行將故事內核從「勝負」轉向「存在」。
++
++**氛圍**：從極致的激昂到瞬間的死寂。節奏在「偽高潮」中戛然而止，世界陷入絕對的靜默，觀眾和主角一同墜入迷茫深淵。
++
++**社會風評**：覺醒期
++
++### <a id="section-act3-key-events"></a>關鍵節點
++
++**1. [恐怖家家酒](04_timeline_canon.md#event-horrific-house)（2 週）**——心理驚悚篇章
++- 黑奏強迫大家繼續返學，校園成為「高壓鍋」
++- 恐怖平衡：晴香不能動手（黑奏引爆學校），黑奏不能大開殺戒（晴香同歸於盡）
++- 這段時間的相處（撿擦膠、擋球、分便當）讓彩意識到：「原來世界上真係有人會不顧性命黎保護我。」
+ 
+-**關鍵節點**:
+-- 晴香面對 Alpha/Beta 融合或崩潰的選擇
+-- 團隊各角色完成個人弧光
+-- **最終決戰**：黑奏 vs 晴香（創世者與寄生者）
+-- **Alpha/Beta 線的融合**：接受真相同時保持態度
+-- **愛自己的實踐**：「我唔用魔法都要照顧自己」
++**2. 朱音與操的「畢業」**
++- 第 10 天：朱音「暴食斷頭台」——拒絕黑奏的毒品盛宴，拿出自己半個麵包：「收返埋啦。妳啲野食無味道。」學會「給予」
++- 第 13 天：操「[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)」——被控制、假髮被打掉、真實樣貌曝露。領悟「即使殘缺也能守護」，主動扯斷絲線，第一次「擁抱失控」
+ 
+-**結局（待確定）**:
+-- 可能性 A：代價式勝利（部分角色犧牲）
+-- 可能性 B：整合式重生（融合兩條線建立新秩序）
+-- 可能性 C：開放式結局（真相揭露但未完全解決）
++**3. [嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)**——雙重犧牲
++- [朱音回歸](04_timeline_canon.md#event-akane-return)：穿垃圾鎧甲，過載變身自爆。遺言：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
++- [雙重犧牲](04_timeline_canon.md#event-double-sacrifice)：在結構上完成「高峰能量 -> 高代價回收」的第三幕中段節點
++- **治癒意義**：朱音和操的有尊嚴死亡——即使面對死亡仍選擇如何離開
++
++**4. [美夜子的三段式覺醒](04_timeline_canon.md#event-miyako-awakening)**
++- **第一階段**：貓殼碎裂（避難所詛咒打破），美夜子變回赤裸的人類少女，陷入解離狀態
++- **第二階段**：月下窗台的存在確認——用身體測試「我還是人類嗎？」發現生理刺激填補不了靈魂空洞
++- **第三階段**：以崩潰釋放完成角色防線卸下，讓第四幕可承接「接納而非修正」路線
++- **治癒意義**：[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)的正面展示——痛苦不消失，但可以被釋放、承認、陪伴
++
++**5. [凜的最終戰](04_timeline_canon.md#event-rin-final-battle)**：遲來的介錯
++- 美夜子以人類戰士身份履行血之約定，槍擊 Unit 00 核心
++- 凜的離場以「未完成告別」形態收束，功能上放大第三幕的失語感
++- 美夜子沒有再哭，合上凜的眼睛，背負沈重繼續前進
++
++**6. 膠布哲學第三層**：世界真相
++- 黑奏撕開空間裂縫，露出 Alpha 線美夜子的屍體：「妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。二十年了⋯⋯傷口發炎了。」
++- 將 [Alpha/Beta](01_world_rules_and_costs.md#rule-alpha-beta) 對立從背景設定推到當幕主衝突前台
++
++**7. [帝國廣場決戰](04_timeline_canon.md#event-imperial-plaza-battle)與偽高潮**
++- [希望的背叛](04_timeline_canon.md#event-hope-betrayal)：民眾的希望之力反轉為惡意洪流，攻擊晴香的[心匣](02_glossary.md#term-heart-container)
++- [彩的內部革命](04_timeline_canon.md#event-aya-internal-revolution)：彩（主人格）抱住黑奏：「我已經大個女啦。」——不是殺死保護者，而是說「可以放手了」
++- [夕完全接管](04_timeline_canon.md#event-yu-takeover)→改變現實嘗試失敗→[緋潮](02_glossary.md#term-scarlet-tide)爆發（客觀因果鏈見 Timeline）
++- **結構的奇點**：英雄輸掉了最重要的戰鬥。「如果勝利不是結局，那什麼才是？」
++
++**8. [二十年守望](04_timeline_canon.md#event-twenty-year-vigil)**
++- 夕線在此完成方法論反轉：由「修正」轉向「接納」
++- 晴香意識被困 20 年，夕維持身體機能、對抗黑奏侵蝕
+ 
+ ---
+ 
+-**注意**: 此為結構骨架。詳細場景、對白、wikilink 見母文檔 `screenwriter/05_Story_Outline.md`（標記為 Draft）。
++<a id="act-4"></a>
++## <a id="section-act-4"></a>Act IV：重生或毀滅（合）
++
++**結構功能**：回答第三幕留下的巨大問題。驅動力不再是解決外部衝突，而是主角如何定義自己在新世界中的「存在意義」。所有線索收攏，為核心主題完成最深刻的闡述。
++
++**氛圍**：史詩的悲壯與存在主義的孤寂。整個色調是憂鬱沉靜的，但廢墟中透出微光。像一首漫長的輓歌。
+ 
+-## Alpha/Beta Usage（雙線部署時機）
++### <a id="section-act4-key-events"></a>關鍵節點
+ 
+-（待填充）
++**1. [母愛的琥珀](04_timeline_canon.md#event-amber-of-love)**：打破溫柔的牢籠
++- 晴香被困於「完美世界」：功能上對主角施加最強情感誘惑壓力（場景細節見 Timeline）
++- 花子（或自我投射）構建的「溫柔牢籠」：在結構上把外部決戰轉為內在決戰
++- 晴香與母性投影和解：功能上完成「依附 -> 自主」的第四幕前段轉折
++- 不是弒母，是整合——將對母愛的渴望收回自己心中
+ 
+-## Emotional Waveform（情緒波形）
++**2. 膠布哲學第四層**：終極抉擇
++- 晴香撕開「膠布」：功能上把長期逃避改寫為主動承擔
++- 「好痛。但係依份痛⋯⋯係我自己既。」——從「遮蓋者」成為「直視者」
++- 為最終決戰的台詞埋下伏筆：「好痛呵？⋯⋯我都係。我哋一齊痛啦。」
+ 
+-（待填充）
++**3. 愛莉作為魔法少女登場**
++- 她是主題的「活體證明」——同樣的悲劇起點，不同的態度造就不同的結果
++- 點燃晴香在絕望中最後的希望
+ 
+-## Pressure Escalation（壓力升級節點）
++**4. [共振地獄](02_glossary.md#term-resonance-hell)第三階段**：終極選擇題（[114 年 9 月](04_timeline_canon.md#event-resonance-hell-3)）
++- 黑奏要求晴香開啟全人類的[情緒視覺](02_glossary.md#term-emotional-qualia)——「如果所有人都能感受彼此的痛苦，人類就再也無法傷害彼此」
++- 晴香做出第三選擇——既不開啟也不關閉
++- **故事主題的最終回答**：「強制的透明，不是真正的理解——那只是剝奪了『想要被理解』這份努力的權利。」「不確定中的信任，才是真正的連結。」
+ 
+-（待填充）
++**5. [靈魂共鳴](04_timeline_canon.md#event-soul-resonance)**：逝者的態度延續
++- 操的殘響：「不是形態定義我⋯⋯是我的選擇定義我。」
++- 朱音的殘響：「不是因為放棄，是因為不再逃了。」
++- **治癒意義**：痛苦不會消失，但態度也不會消失——逝者的意志穿透生死界限
++
++**6. [彩的覺醒與犧牲](04_timeline_canon.md#event-aya-awakening)**
++- 彩用靈魂填補天空裂痕，償還[因果債務](02_glossary.md#term-causal-debt)
++- 以角色抉擇承載[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)的代價回收（規則條文不在此重述）
++- 黑奏人格消散：功能上完成「保護者邏輯」的敘事閉環
++
++**7. [最終決戰](04_timeline_canon.md#event-final-battle)與[強制索回](04_timeline_canon.md#event-forced-ascension)**
++- 晴香選擇「吸收」而非「排放」作為結局方法論（規則機制見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）
++- 成為「活的平衡點」——把守恆代價從抽象命題轉成角色承擔（機制細節見 World Rules）
++- 被強行轉化為「[三位一體](01_world_rules_and_costs.md#rule-trinity-spectrum)的永恆守護者」——以態度完成結局
++- [魔法系統終結](04_timeline_canon.md#event-magic-system-end)：在結構上完成世界狀態收束（客觀狀態變更見 Timeline）
++
++**8. [悲劇但有意義的結局](04_timeline_canon.md#event-bittersweet-ending)**
++- 晴香終結了自己無意中創造的魔法地獄——創世者的最終責任
++- [美夜子](03_characters/miyako.md)回歸凡人，成為唯一與晴香保持連結的存在
++- 觀眾懷著記憶，看著遺忘一切的她——永恆的隔閡
++
++### <a id="section-act4-arc"></a>Act IV 角色弧光
++
++| 角色 | 起點 | 終點 | 最終選擇 |
++|------|------|------|---------|
++| [晴香](03_characters/haruka.md) | 從 20 年沉睡中覺醒 | 永恆的守護者 | 擁抱並承擔所有人的痛苦 |
++| [美夜子](03_characters/miyako.md) | 已覺醒的人類戰士 | 唯一的連結者 | 以新身份活下去，珍惜眼前連結 |
++| [朔](03_characters/saku.md) | 管理局叛逃者 | 解放者 | 解放被體制囚禁的靈魂 |
++| [彩](03_characters/antagonist.md) | 黑奏的囚徒 | 自己的救贖者 | 用靈魂填補裂痕，終結黑奏 |
+ 
+ ---
+ 
+-**注意**: 詳細場景描述放於 `draft/scenes/`，此處只保留結構與節點功能。
++## <a id="section-alpha-beta-usage"></a>Alpha/Beta 雙線部署時機
++
++> 何時讓 [Alpha 線](02_glossary.md#term-alpha-line)殘影滲入 [Beta 線](02_glossary.md#term-beta-line)故事？
++
++### 三大滲漏機制
++
++| 機制 | 觸發場景 | 呈現方式 | 使用限制 |
++|------|---------|---------|---------|
++| **變身與[鏡像](01_world_rules_and_costs.md#rule-mirror-law)的真實** | 變身/照鏡場景 | 認知跳幀、旁觀者記憶被縫合、鏡中映照被壓抑的真相 | 只在變身與照鏡時生效 |
++| **場景的歷史圖層** | 同一場景兩線疊影 | 背景元素短暫「錯位」或「疊影」（幸福日常 vs 戰後殘骸） | Alpha 線是「持續在場的幽靈」 |
++| **生理滲漏** | 情緒崩潰時 | 味覺喪失、眩暈、短暫失語、反胃、瞬間失溫 | 保持「可被解釋成心理問題」的曖昧度 |
++
++### 部署節奏
++
++| 時期 | 滲漏強度 | 策略 |
++|------|---------|------|
++| **Act I** | 低 | 輕微症狀（疲勞、短暫失味），觀眾和角色都以為是體力消耗 |
++| **Act II** | 中 | 鏡像與場景圖層逐步清晰，開始影響角色判斷；角色不會說「這是 Alpha 線記憶」，只會說「我係咪癲咗」 |
++| **Act III** | 高 | Alpha/Beta 幾乎同畫面並存，形成認知崩潰；黑奏撕開空間展示 Alpha 線真相 |
++| **Act IV** | 融合 | 兩線界限模糊，晴香同時承載兩個現實的記憶 |
++
++### 角色滲漏對照
++
++| 角色 | Alpha 線（原初） | Beta 線（現在） | 主要滲漏線索 |
++|------|-----------------|----------------|-------------|
++| [晴香](03_characters/haruka.md) | 普通少女、失去姊姊與母親 | 魔法少女、創世者 | 夢境片段、味覺回流、記憶跳幀 |
++| [美夜子](03_characters/miyako.md) | 平凡姊姊、無魔法 | Unit 01 / 黑貓 | 鏡中人形殘影、傷疤消失幻覺 |
++| [朱音](03_characters/iwakura_akane.md) | 可被拯救的普通少女 | 成癮戰鬥者 | 聽覺失真、戰鬥後空洞感加劇 |
++| [操](03_characters/ayakomoji_sou.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
++| [凜](03_characters/rin.md) | 本不應成為兵器 | 被重組的傀儡 | 情緒平坦化、短暫情感復甦 |
++
++---
++
++## <a id="section-emotional-waveform"></a>情緒波形
++
++> 觀眾情緒的四幕曲線。
++
++```
++情緒
++高
++ ↑     ╱╲  希望    ╱╲ 偽高潮         ╱╲ 靈魂共鳴
++ │   ╱    ╲      ╱    ╲           ╱    ╲
++ │  ╱      ╲    ╱  朱音 ╲        ╱  最終 ╲
++ │ ╱ 組隊   ╲  ╱  墮落   ╲      ╱  選擇   ╲───
++ │╱  溫暖    ╲╱            ╲    ╱
++ │            社會性死亡     ╲  ╱ 母愛琥珀
++ │                           ╲╱
++低                         偽高潮後的死寂
++ └──── Act I ────── Act II ────── Act III ────── Act IV ────→
++      (起)         (承)         (轉)           (合)
++```
++
++### 關鍵情緒節點
++
++| 節點 | 位置 | 情緒走向 | 設計目標 |
++|------|------|---------|---------|
++| 組隊溫暖 | Act I 中期 | ↑ 溫馨 | 觀眾最覺得溫馨的時期——回頭看最痛 |
++| 情緒連結崩潰 | Act I 後期 | ↓ 恐懼 | 第一次「被強行入侵」的恐怖 |
++| 朱音墮落/社會性死亡 | Act II 前期 | ↓↓ 絕望 | 英雄敘事開始崩塌 |
++| 晴香與夕和解 | Act II 中期 | ↑ 希望 | 內在整合的溫暖——但觀眾不知偽高潮在等 |
++| 恐怖家家酒 | Act III 開場 | → 緊張 | 持續兩週的心理驚悚 |
++| 朱音回歸/雙重犧牲 | Act III 中期 | ↑↑↓↓ 極端波動 | 最激昂→最悲壯→轉瞬消逝 |
++| 美夜子大哭 | Act III 中期 | ↑ 治癒性的悲傷 | 允許自己脆弱——第一個關鍵治癒時刻 |
++| 偽高潮（帝國廣場） | Act III 末 | ↓↓↓ 死寂 | 所有聲音戛然而止，觀眾墜入深淵 |
++| 母愛的琥珀 | Act IV 前期 | ↑ 溫柔的悲傷 | 不是弒母，是整合 |
++| 靈魂共鳴 | Act IV 中期 | ↑↑ 信念 | 逝者的態度穿透生死——第三個關鍵治癒時刻 |
++| 最終選擇/強制索回 | Act IV 末 | → 帶著傷痕的和解 | 不是勝利，是態度的尊嚴 |
++
++---
++
++## <a id="section-pressure-escalation"></a>壓力升級節點
++
++> 黑奏計劃的五階段升級與晴香團隊的對應壓力。
++
++### 黑奏的五階段計劃
++
++| 階段 | 時間 | 手段 | 目標 |
++|------|------|------|------|
++| 1. 放養 | 102-112 年 | [潘朵拉協議](04_timeline_canon.md#event-pandora-protocol)：等待晴香成熟 | 培養「中央節點」 |
++| 2. 分裂 | 113 年 5-6 月 | 利用朱音墮落、操虛榮、媒體輿論 | 摧毀團隊凝聚力 |
++| 3. 抹殺 | 113 年 6-8 月 | 夕的背叛→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
++| 4. 試驗 | 114 年 4-5 月 | 毒品危機→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
++| 5. 收割 | 114 年 9 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
++
++### 團隊壓力曲線
++
++| 時期 | 壓力來源 | 壓力等級 | 團隊狀態 |
++|------|---------|---------|---------|
++| Act I | 外部威脅（屍骸） | ★★☆☆☆ | 磨合中，尚有日常喘息 |
++| Act II 前期 | 內部分裂 + 社會排斥 | ★★★☆☆ | 朱音背叛、操崩潰、團隊瓦解 |
++| Act II 後期 | 全面通緝 + 真相揭露 | ★★★★☆ | 地下抵抗軍，資源匱乏 |
++| Act III | 恐怖家家酒 + 決戰 | ★★★★★ | 每天與死亡共存 |
++| Act IV | 存在主義拷問 | ★★★★★ | 不再是物理壓力，而是「存在意義」的壓力 |
++
++---
++
++## <a id="section-thematic-threads"></a>主題進程線索
++
++> 貫穿四幕的敘事主線如何逐層揭開。
++
++### <a id="section-thread-bandaid"></a>[膠布哲學](02_glossary.md#term-band-aid-philosophy)四層揭露
++
++| 層 | 位置 | 內容 | 範圍 |
++|----|------|------|------|
++| 1 | Act I | 「痛是證據」——晴香給校霸貼膠布 | 個人習慣 |
++| 2 | Act I-II | 「貼住張貼紙，個傷口就會好？」——朱音撕開膠布 | 系統批判 |
++| 3 | Act III | 膠布隱喻由角色層提升到世界層，完成真相級別升維 | 世界真相 |
++| 4 | Act IV | 主角把「遮蓋」改為「承擔」，完成方法論轉向 | 終極抉擇 |
++
++### <a id="section-thread-conservation"></a>[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)五階段
++
++| 階段 | 位置 | 內容 |
++|------|------|------|
++| 鋪陳 | Act I | 晴香首次變身後感到「某樣東西被抽走」的空虛——以為是消耗體力 |
++| 暗示 | Act II | 集體潛意識中的「紅色水位」每次都比上一次高 |
++| 概念揭露 | Act II-III | 守恆規則由背景設定上升為劇情主驅動（條文見 World Rules） |
++| 歷史揭露 | Act III | 角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |
++| 超越 | Act IV | 晴香選擇「吸收」而非「排放」——終止惡性累積循環 |
++
++### <a id="section-thread-resonance"></a>[共振地獄](02_glossary.md#term-resonance-hell)三階段
++
++| 階段 | 位置 | 內容 |
++|------|------|------|
++| 軟性共振試驗 | Act II | 反派方案由隱性滲透轉為可觀測部署 |
++| 緋潮（失敗試驗） | Act III | 試驗失控把外部戰鬥壓力轉為世界級存續壓力 |
++| 終極選擇題 | Act IV | 對「強制透明」與「自由連結」作最終價值裁決 |
++
++### <a id="section-thread-social"></a>社會風評六階段
++
++| 階段 | 時期 | 公眾態度 |
++|------|------|---------|
++| 維多利亞天使期 | Act I 前期 | 魔法少女 = 英雄，充滿敬意 |
++| 裂痕初現 | Act I 後期 | 戰鬥破壞引發質疑 |
++| 魔女狩獵期 | Act II | 「魔法少女會背叛！」公眾恐懼 |
++| 徹底排斥 | Act II-III | 晴香成為「變態殺手」，走在街上只有石頭 |
++| 新現實 | Act IV 前期 | 20 年後的世界，風評系統不再存在 |
++| 終極體現 | Act IV 末 | 屍骸集體選擇「自由」而非「復仇」——[三位一體](02_glossary.md#term-trinity-spectrum)的最終證明 |
++
++### <a id="section-thread-ig"></a>IG 敘事線四階段
++
++| 階段 | 時期 | 帳號狀態 | 觀眾感受 |
++|------|------|---------|---------|
++| 強行營業期 | Act I 開場 | 美夜子頭像是默認灰色人頭，用手擋鏡頭 | 有趣/溫馨 |
++| 閃耀的日常 | Act I-II | 團隊經營帳號，操的「精緻生活」、朱音的野狗頭像 | **最溫馨的時期——回頭看最痛** |
++| 數位墓碑 | Act II-III | 晴香帳號不再更新，操發全黑照後消失，朱音凌晨混亂文字 | 殘酷的見證 |
++| 結局的迴響 | Act IV 後 | 帳號成為數位遺跡，美夜子發四個杯子的照片配文空白 | 哀悼與懷念 |
++
++---
++
++## <a id="section-three-healing-moments"></a>三個關鍵治癒時刻
++
++> 這三個時刻是故事「[黑暗治癒](02_glossary.md#term-dark-healing)」主題的核心展現。
++
++| # | 時刻 | 位置 | 治癒類型 | 核心台詞 |
++|---|------|------|---------|---------|
++| 1 | **[美夜子的大哭](04_timeline_canon.md#event-miyako-awakening)** | Act III | 情緒釋放的治癒——允許自己脆弱 | 「唔使再做隊長住啦。喊出黎啦。」 |
++| 2 | **[朱音、操的有尊嚴死亡](04_timeline_canon.md#event-double-sacrifice)** | Act III | 態度選擇的治癒——即使面對死亡仍選擇如何離開 | 「我唔想再一個人食飯。」 |
++| 3 | **[靈魂共鳴](04_timeline_canon.md#event-soul-resonance)** | Act IV | 連結延續的治癒——逝者的態度以精神形式傳承 | 「不是形態定義我⋯⋯是我的選擇定義我。」 |
++
++---
++
++## <a id="section-info-control-sequence"></a>資訊揭露次序（從母文檔回填）
++
++> 來源重點：`backup/director/Information_Control_Audience_Experience_Design.md`、`backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md`
++
++本段規範「觀眾先知道 / 角色先知道 / 同步知道」的硬規則，避免重寫時資訊節奏失真。
++
++1. **觀眾與晴香同步誤導**（Act I）：魔法少女 = 希望使者  
++2. **觀眾先於角色感到異常**（Act II 前）：規則副作用與社會輿論轉向  
++3. **角色先承壓、觀眾後理解**（Act II 中）：美夜子獨斷調查、隊伍裂痕  
++4. **同步重擊**（Act III）：帝國廣場真相揭露，英雄敘事坍塌  
++5. **觀眾先理解、主角後承擔**（Act IV 前）：母愛琥珀與世界代價結構  
++6. **最終同步收束**（Act IV 末）：第三選擇與強制索回
++
++這一套次序是結構核心，不可改成「全部同時知道」或「全部觀眾先知道」。
++
++---
++
++## <a id="section-beat-to-scene-mapping"></a>Beat-to-Scene 任務映射（結構補齊）
++
++> 來源收斂自 script_refinement 母文檔；本節只保留 Canon 層級可用的節拍到場景功能映射，不展開技術執行稿。
++
++### Act I（起）映射原則
++- **B01-B04**：建立「可愛日常 + 輕微異常」雙軌，讓觀眾先投入再不安。
++- **B05-B08**：以首次實戰與隊伍磨合建立「能力感」與「代價陰影」同時存在。
++
++### Act II（承）映射原則
++- **B09-B14**：每個勝利節點都要附帶一個關係成本，防止「越打越爽」偏航。
++- **B15-B18**：將外部敵意（社會、制度）與內部裂痕（隊伍、身份）同步升高。
++
++### Act III（轉）映射原則
++- **B19-B21**：所有高潮場面必須服務於「崩解」，而非服務於「逆轉勝」。
++- **B22**：偽高潮結束後必須留出「失語/停滯」空窗，給第四幕哲學轉向。
++
++### Act IV（合）映射原則
++- **B23-B24**：收束「態度選擇」而非「武力勝負」，以第三選擇完成命題閉環。
++
++**See also**: [Timeline 關鍵場景索引](04_timeline_canon.md#section-critical-scene-index) | [Gameplay 關卡與演出](10_gameplay_bible.md#section-level-design)
++
++---
++
++**See also**: [Series Bible — 終極目的](00_series_bible.md#section-ultimate-purpose) | [Timeline](04_timeline_canon.md) | [World Rules](01_world_rules_and_costs.md) | [Character Index](03_character_index.md)
++
++
++
++
+diff --git a/canon/06_visual_bible.md b/canon/06_visual_bible.md
+index 10ae08b..425e8ec 100644
+--- a/canon/06_visual_bible.md
++++ b/canon/06_visual_bible.md
+@@ -1,166 +1,435 @@
++# Visual Bible（視覺聖經）
++
++> **讀者指引**：本文件定義世界觀的所有視覺法則、美術方向與插畫規格。首次閱讀建議從 [§ 視覺哲學](#section-visual-philosophy) 開始。
++> 規則的敘事定義見 [World Rules](01_world_rules_and_costs.md)；本文件聚焦於「如何在視覺上呈現」。
++> 相關文件：[World Rules](01_world_rules_and_costs.md) | [Glossary](02_glossary.md) | [Entities](07_entities_and_devices.md)
++
++<!-- Sources: art/00_Core_Visual_Foundation.md, art/02_Advanced_Narrative_Design.md, art/04_Character_Illustration_Style_Guide.md, art/302_Magical_Corpse_Visual_Design.md, backup/director/Worldview_Scene_Analysis.md -->
++
+ ---
+-doc_id: CAN-06
+-title: "Visual Bible（視覺聖經）"
+-status: Canon
+-scope: "世界觀美術方向、共通視覺語言、插畫風格指南、場景視覺語法"
+-sources:
+-  - "art/01_Core_Visual_Pillars_Detailed.md"
+-  - "art/301_Worldview_Art_Direction_Handbook.md"
+-  - "art/303_Magical_Girl_Common_Visual_Language.md"
+-  - "art/00_Core_Visual_Foundation.md"
+-  - "art/04_Character_Illustration_Style_Guide.md"
+-  - "director/Worldview_Scene_Analysis.md"
+-last_updated: 2026-02-08
++
++## <a id="section-scope"></a>文件職責邊界
++
++- 本文件只負責其對應 Canon 範圍，不重寫其他文件的完整內容。
++- 術語完整定義只放在 [Glossary](02_glossary.md)。
++- 世界規則完整定義只放在 [World Rules](01_world_rules_and_costs.md)。
++- 事件時間與因果完整定義只放在 [Timeline](04_timeline_canon.md)。
++
+ ---
++## <a id="section-visual-philosophy"></a>Visual Philosophy（視覺哲學）
+ 
+-# CAN-06: Visual Bible（視覺聖經）
++### <a id="section-tender-cruelty"></a>核心情感矛盾體：溫柔的殘酷 (Tender Cruelty)
+ 
+-## Visual Philosophy（視覺哲學）
++**視覺準則**：用最唯美、最詩意的視覺語言呈現最殘酷的命運與最痛苦的靈魂撕裂；希望的展現必須克制、真實且有重量。這種反差是核心敘事武器。
+ 
+-> **來源**: [[art/00_Core_Visual_Foundation]] (摘要)
++**指導原則**：「美麗」是「痛苦」的放大器。絕不使用廉價驚嚇或純粹感官刺激的血腥。所有殘酷的視覺呈現都必須被悲劇性美感包裹，引發觀眾的「憐惜」、「不安」與「心碎」。
+ 
+-**核心命題**: 溫柔的殘酷 (Tender Cruelty)
++- **畫面範例**：少女的崩潰不是猙獰哭號——而是灑滿午後陽光的寧靜房間裡，平靜微笑的臉上無聲流下結晶化淚珠，墜地時發出清脆心碎的碎裂聲
++- **聲音範例**：最慘烈的戰鬥中，背景音樂是溫柔的童謠色彩鋼琴曲
+ 
+-視覺設計遵循「情感物質化」原則：所有抽象概念（尤其是情緒）都擁有其對應的物理屬性。這是構成世界的基礎材料。
++### <a id="section-what-is-real"></a>核心存在主義詰問：何為真實？(What is Real?)
+ 
+----
++視覺呈現必須不斷挑戰觀眾對「真實」的感知。世界存在兩個可相互滲透的層面：
+ 
+-## Core Visual Pillars（核心視覺支柱）
++- **表象現實**：穩定、清晰、符合常規物理光學。色調可能壓抑，但形態可被理解
++- **底層真實**：當鏡頭揭示底層真實時（透過[鏡像法則](01_world_rules_and_costs.md#rule-mirror-law)、情緒失控、潛意識空間），畫面應變得「不可靠」——大量運用訊號干擾 (Glitch Art)、色差 (Chromatic Aberration)、不合邏輯的空間扭曲、幀率微妙變化
+ 
+-> **來源**: [[art/01_Core_Visual_Pillars_Detailed]]
++### <a id="section-aesthetics-of-flawed"></a>核心美學觀點：破碎的美學 (Aesthetics of the Flawed)
+ 
+-### 三大法則
++最高美學追求不是「完美」，而是**不完整性、傷痕與裂痕本身蘊含的淒涼美感**。完美無瑕的存在是可疑的、虛假的。
+ 
+-**【法則·質化 (The Law of Substance)】**
++**哲學參照**：角色「腐蝕」過程應參考瓷器龜裂（哥窯「開片」）與修復（日本「金繼」）。裂痕蔓延如冬日冰花或水墨渲染；接納創傷時，裂痕中透出微光，如金繼中的金漆。
+ 
+-核心原則：所有抽象概念，尤其是「情緒」，都擁有其對應的物理屬性。
++---
++
++## <a id="section-core-pillars"></a>Core Visual Pillars（核心視覺支柱）
++
++<a id="section-emotion-substance"></a>
++### <a id="section-law-substance"></a>支柱一：法則·質化 (The Law of Substance)
+ 
+-**情感物質設定表**（核心範例）:
++**視覺規格**：所有抽象概念（尤其是情緒）都擁有對應的物理屬性——質量、溫度、質感、光澤、形態。情緒是可被感知、觸摸、儲存的客觀「物質」。
++
++#### 情感物質設定表
+ 
+ | 情緒物質 | 核心形態 | 質感/紋理 | 光學特性 | 色彩體系 | 動態表現 |
+ |---------|---------|----------|----------|----------|----------|
+-| **希望 (Hope)** | 液態/氣體 | 溫暖、流動、順滑 | 自發光、半透明 | 溫暖的金色、黎明的粉橙色 | 緩慢流動的熔金 |
+-| **絕望 (Despair)** | 固態結晶 | 冰冷、銳利、極度脆弱 | 吸收光線、不透明 | 啞光的黑色、深紫色 | 靜止不動，受衝擊碎裂 |
+-| **憤怒 (Anger)** | 電漿/火焰 | 灼熱、不穩定、侵蝕性 | 高度發光、扭曲周遭光線 | 刺眼的猩紅色、黑色雜訊橙色 | 劇烈脈動、爆裂 |
+-| **悲傷 (Sadness)** | 液態 | 濕冷、沉重、黏性 | 折射光線、完全透明 | 無色或極淡青藍色 | 緩慢滴落、蔓延 |
+-| **恐懼 (Fear)** | 固態/氣體 | 尖銳晶體或刺骨寒氣 | 光學迷彩效果 | 接近透明，邊緣紫色色散 | 快速無規律生長 |
++| **希望** | 液態/氣體 | 溫暖、流動、順滑 | 自發光、半透明 | 溫暖金色、黎明粉橙 | 緩慢流動的熔金 |
++| **絕望** | 固態結晶 | 冰冷、銳利、極脆 | 吸收光線、不透明 | 啞光黑、深紫 | 靜止不動，受衝擊碎裂 |
++| **憤怒** | 電漿/火焰 | 灼熱、不穩定、侵蝕性 | 高度發光、扭曲周遭光線 | 猩紅、黑色雜訊橙 | 劇烈脈動、爆裂 |
++| **悲傷** | 液態 | 濕冷、沉重、黏性 | 折射光線、完全透明 | 無色或極淡青藍 | 緩慢滴落、蔓延 |
++| **恐懼** | 固態/氣體 | 尖銳晶體或刺骨寒氣 | 光學迷彩效果 | 接近透明，邊緣紫色色散 | 快速無規律生長 |
++
++---
++
++<a id="section-corruption-stages"></a>
++### <a id="section-law-corruption"></a>支柱二：法則·腐蝕 (The Law of Corruption)
++
++**視覺規格**：一切「崩壞」不是生物性的（腐爛、流血），而是概念性與本體論層面的。[心匣](07_entities_and_devices.md#section-heart-container)如精緻瓷器般龜裂，本質碎片剝落並結晶化。
++
++#### 腐蝕三階段
++
++**第一階段：風化/紋章顯現**
++- 皮膚浮現流動的「紋章 (Sigil)」——瓷器裂紋般的永久烙印
++- 魔法特效的真相：紋章剝落的[情緒結晶](02_glossary.md#term-emotional-crystal)粉塵
++
++**第二階段：瞳之印**
++- 紋章圖案浮現於瞳孔虹膜中
++- 特定角度下呈現非人的、令人不安的圖案
++- [情感耗損](02_glossary.md#term-emotional-erosion)最直觀的體現：眼神高光消失，瞳孔如毛玻璃
++
++**第三階段：結晶化/靈魂剝落**
++- [情緒結晶](02_glossary.md#term-emotional-crystal)從裂紋破體而出
++- 皮膚像瓷器碎片剝落
++- [魔法屍骸](07_entities_and_devices.md#section-magical-corpse)的起源
++
++#### 戰鬥的華彩樂章
++
++所有華麗魔法特效的本質：少女們的心匣在高速碎裂時飛散的、燃燒著的情緒結晶。每一次絢爛攻擊都是靈魂的獻祭。戰鬥後地面散落的美麗結晶，是這場獻祭無法挽回的證據——完美詮釋[溫柔的殘酷](#section-tender-cruelty)。
++
++---
++
++### <a id="section-law-entropy"></a>支柱三：法則·熵增 (The Law of Entropy)
++
++**視覺規格**：所有有序的「情緒物質」都存在向混沌態演變的趨勢，體現為「黏稠感 (Viscosity)」——角色存在性崩解的視覺化。
++
++- **混沌態視覺**：非單純黑色黏液，而是如**虹彩色油污**或**半凝固七彩樹脂**——美麗、緩慢、無法名狀，象徵所有定義與界線的消解
++- **觸發條件**：角色嚴重偏離心匣核心認同時，或[集體潛意識](02_glossary.md#term-collective-unconscious)能量洩漏區域
++- **與腐蝕的結合**：心匣出現裂紋後、碎片（結晶）徹底剝落之前，黏稠的混沌態物質從裂縫中緩慢滲出——比裂紋更令人不安的動態崩壞
+ 
+-**【法則·腐蝕 (The Law of Corruption)】**
++---
++
++### <a id="section-law-mirror-visual"></a>支柱四：法則·鏡像 (The Law of the Mirror) — 視覺規格
++
++> 規則定義見 [World Rules: 鏡像法則](01_world_rules_and_costs.md#rule-mirror-law)。本節收斂其視覺呈現規格。
++
++**核心視覺**：任何完美反光面（鏡子、靜止水面、拋光金屬）如同靈魂X光片，映照底層真實。
+ 
+-靈魂崩壞的三個階段：
++#### 四項視覺應用
++
++1. **魔法的缺席**：僅由情緒力量渲染的物體（火焰劍、隱形結界），在鏡中無倒影。充滿反光面的環境 = 幻術的刑場
++2. **情緒的顯色**：鏡中倒影色彩即時反映真實情緒——「希望」= 柔和金色光暈；「絕望」= 吸光的啞光紫黑
++3. **本質的反向映照**：鏡像映照與表象完全對立的內在主導真實
++   - 猙獰屍骸若殘存人性意志 → 鏡像映照生前人形
++   - 外表「活人」若靈魂被創傷主導 → 鏡像映照死去原始肉身
++   - 內在陰影 (Shadow Self)：意志薄弱時在鏡中短暫浮現，與本人形象重疊閃爍
++4. **缺席的倒影**：自我認同完全瓦解時，鏡中什麼都看不到——只有一片空白。「內在」徹底虛無化
++
++---
+ 
+-1. **第一階段：風化/紋章顯現**
+-   - 皮膚浮現流動的「紋章 (Sigil)」
+-   - 魔法特效的真相：紋章剝落的情緒結晶粉塵
++### <a id="section-law-rejection"></a>支柱五：法則·生理排斥 (The Law of Physiological Rejection)
+ 
+-2. **第二階段：瞳之印**
+-   - 瞳孔虹膜中浮現紋章圖案
++**視覺規格**：調用[集體潛意識](02_glossary.md#term-collective-unconscious)的力量是侵入性行為。靈魂與肉體對這股外來力量產生劇烈排斥，體現為精神、感官與肉體三個層面的視覺演出。
+ 
+-3. **第三階段：結晶化/靈魂剝落**
+-   - 情緒結晶從裂紋破體而出
+-   - 皮膚像瓷器碎片剝落
+-   - 魔法屍骸的起源
++#### 排斥的三重奏 (The Trio of Rejection)
+ 
+-**【法則·鏡像 (The Law of Mirror)】**
++**第一樂章：誘因·精神的欺騙**
++- 諧振的狂喜 (Ecstasy of Resonance)：力量初始體驗必然是精神極樂與全能感
++- 這是世界法則為誘使靈魂打開大門而設的「甜蜜陷阱」
+ 
+-（詳見母文檔）
++**第二樂章：後果·感官與肉體的懲罰**
++- 感官反噬：靈魂延遲 (Soul Lag)——視覺殘影、聽覺針刺感，感官系統「重啟」的痛苦悲鳴
++- 肉體排斥：身體本能試圖「排出」非自然能量
++  - 嘔吐：最直接的排出行為
++  - 肢體扭曲 (Somatic Distortion)：肌肉與神經在能量流衝擊下失控，做出違反人體工學的非自主扭動——角色正在失去對身體控制權的恐怖證明
++
++**第三樂章：終曲·精神的解離**
++- 狂喜的痛苦 (Ecstatic Agony)：精神為逃避無法承受的雙重痛苦而啟動極端解離
++- **視覺表現**：身體正經歷最恐怖異變（龜裂、扭曲），臉上卻浮現極度幸福的狂喜笑容
++- **核心**：不是享受痛苦，而是精神已徹底斷線，退回到唯一美好的初始記憶中。「表情」與「現實」的極致反差是整個視覺體系最令人不安的景象
+ 
+ ---
+ 
+-## Worldview Art Direction（世界觀美術方向）
++### <a id="section-decay-chain"></a>靈魂崩壞視覺鏈
++
++基於以上法則的完整崩壞路徑：
+ 
+-> **來源**: [[art/301_Worldview_Art_Direction_Handbook]]
++**巨大衝擊 → 浮現裂紋 → 裂縫滲出黏稠混沌態（熵增） → 混沌態凝固剝落成情緒結晶 → 鏡像映照一切內在結果**
+ 
+-### 1. 帝國皇室 (The Imperial Court)
++---
+ 
+-**核心概念**: 黑暗的威權 & 停滯的奢華
++## <a id="section-derived-principles"></a>Derived Principles（派生原則）
+ 
+-**配色**:
+-- 深淵黑 (Abyss Black) — 基底
+-- 皇家金 (Royal Gold) — 密密麻麻的刺繡
+-- 紫色 (Amethyst) — 點綴（綬帶、領章、寶石）
++### <a id="section-env-manifestation"></a>法則的物理顯化原則 (Environmental Manifestation)
+ 
+-**制服與禮服**:
+-- 參考：英國皇室 WWI/WWII 軍服剪裁 + Dark Fantasy 黑金配色
+-- 男裝/軍官：筆挺的黑色束腰軍服、金色武裝帶、黑色高筒軍靴、繁複勳章
+-- 女裝/貴族：黑色絲絨長裙、黑色蕾絲手套、金色頭飾、端莊保守剪裁
++核心法則不僅作用於個體，更塑造整個文明的物理形態。
+ 
+-**黑奏的視覺衝突**:
+-- 唯一的「萬花筒幾何」皇袍（黑/金/紫配色但圖案破碎、旋轉、非具象）
+-- 在完美黑金畫卷中如同蠕動的雜訊 (Glitch)
++- **[日區](02_glossary.md#term-sun-district)「無鏡之城」**：大量啞光、吸光粗糙材質；刻意避免開闊水域；上流時尚以避免高反光金屬或寶石為榮
++- **[夜區](02_glossary.md#term-night-district)「鏡像之城」**：潮濕街道、老舊玻璃幕牆、坑窪積水，處處是揭示底層真實的畫布
+ 
+-### 2. 夜區遺民 (Night District)
++### <a id="section-ritual-transformation"></a>轉變的儀式原則 (Ritual Transformation)
+ 
+-**核心概念**: 混沌的生命力
++任何本質性轉變絕不突兀。必須透過充滿象徵意義的視覺儀式完成：
+ 
+-**環境氛圍**:
+-- 參考：九龍城寨美學
+-- 潮濕街道、密密麻麻招牌、錯綜電線、冒蒸氣的路邊攤
++- 自然覺醒嚴格遵循「鏡中的承諾」儀式——角色與自我倒影從對峙、交流到契約達成
++- 外力導致的轉變（帝國改造）有對應的、充滿痛苦與非人化過程的視覺儀式
+ 
+-**服飾混搭**:
+-- 基底 (HK 80s)：牛仔褸、皮褸、花恤衫、喇叭褲
+-- 點綴 (Tibetan)：藏式粗毛織物、綠松石珠串、嘎烏盒、彩色編織腰帶
++### <a id="section-industrial-exploitation"></a>工業化剝削原則 (Industrial Exploitation)
+ 
+-### 3. 維多利亞城
++情緒本質應自由流動，任何「量化/儲存/工業化」的科技本質上是靈魂剝削。
+ 
+-（中間地帶，詳見母文檔）
++- 帝國情緒力量裝置設計美學：冰冷、非人道，類似過時醫療刑具或精密屠宰場設備
++- 「靈魂之刺」收割過程：外科手術般的精確 + 血淋淋的痛苦，直接控訴技術的殘酷本質
+ 
+ ---
+ 
+-## Magical Girl Common Visual Language（魔法少女共通視覺語言）
++## <a id="section-worldview-art"></a>Worldview Art Direction（世界觀美術方向）
++
++### <a id="section-art-imperial"></a>帝國皇室 (The Imperial Court)
++
++**核心概念**：黑暗的威權 & 停滯的奢華
++
++| 項目 | 規格 |
++|------|------|
++| 配色 | 深淵黑（基底）+ 皇家金（刺繡）+ 紫水晶（點綴） |
++| 男裝/軍官 | 英式 WWI/WWII 軍服 + Dark Fantasy 黑金；筆挺束腰、金色武裝帶、黑色高筒軍靴 |
++| 女裝/貴族 | 黑色絲絨長裙、黑色蕾絲手套、金色頭飾、端莊保守剪裁 |
++| 特殊 | [黑奏](03_characters/antagonist.md)——唯一的萬花筒幾何皇袍，在完美黑金畫卷中如蠕動的雜訊 |
+ 
+-> **來源**: [[art/303_Magical_Girl_Common_Visual_Language]]
++### <a id="section-art-night"></a>夜區遺民 (Night District)
+ 
+-### 設計哲學
++**核心概念**：混沌的生命力
+ 
+-**核心對比原則**:
++| 項目 | 規格 |
++|------|------|
++| 環境 | 九龍城寨美學：潮濕街道、密密麻麻招牌、錯綜電線、冒蒸氣路邊攤 |
++| 服飾基底 | HK 80s：牛仔褸、皮褸、花恤衫、喇叭褲 |
++| 服飾點綴 | 藏式粗毛織物、綠松石珠串、嘎烏盒、彩色編織腰帶 |
++| 色彩 | 大地色深色基底，被霓虹燈映照出斑斕色彩 |
+ 
+-| 魔法少女 | 魔法屍骸 |
++### <a id="section-art-sun"></a>日區居民 (Sun District)
++
++**核心概念**：奢華、壓抑、虛假、統一
++
++- 服飾：剪裁精良、面料高級，但缺乏個性——如同昂貴制服
++- 色彩：柔和高雅但飽和度偏低，被「過濾」掉活力
++- 姿態：表情麻木，儀態優雅但僵硬
++- 細節：遵循「無鏡之城」原則——服飾配飾刻意避免高反光金屬或鏡面材料
++
++### <a id="section-art-empire-agents"></a>帝國人員 (Imperial Agents)
++
++**核心概念**：秩序、非人化、冰冷、高效
++
++- 服飾：稜角分明，強調對稱與直線。冰冷合成纖維或裝甲，抹消所有個人特徵
++- 色彩：黑、白、灰或極深藍，強烈壓迫感
++- 是[工業化剝削原則](#section-industrial-exploitation)的執行者
++
++---
++
++<a id="section-magical-girl-common"></a>
++## <a id="section-magical-girl-visual"></a>Magical Girl Visual Language（魔法少女視覺語言）
++
++### <a id="section-design-contrast"></a>核心對比原則
++
++| 魔法少女 | [魔法屍骸](07_entities_and_devices.md#section-magical-corpse) |
+ |---------|---------|
+ | 能量體（流動、發光） | 實體金屬（停滯、生鏽） |
+ | 隱晦的代價 | 外露的侵蝕 |
+ | 與鏡中倒影互動 | 只能在碎鏡中映照扭曲 |
+ 
+-### 1. Halo（光環）- 力量的榮耀
++### <a id="section-halo"></a>Halo（光環）
+ 
+-**定義**: 每位魔法少女的非物質高能量體，與【集體潛意識】連結的視覺證明。
++**視覺用途**：光環是魔法少女狀態讀取的主視覺層；術語口徑見 [Glossary：光環](02_glossary.md#term-halo) 與 [World Rules](01_world_rules_and_costs.md)。
+ 
+-**核心特性**:
++**核心特性**：
+ - 材質：非物質純能量體，不可觸碰
+ - 光學：自發光，微弱粒子飄散
+-- 動態：隨心匣「心跳」輕微脈動
++- 動態：隨[心匣](07_entities_and_devices.md#section-heart-container)「心跳」輕微脈動
++- 個人化：形狀、位置、顏色因人而異
+ 
+-**個人化**: 形狀、位置、顏色因人而異
++**狀態變化**：
+ 
+-**狀態變化**:
+-- 健康：穩定發光，輪廓清晰，規律脈動
+-- 疲勞：光芒減弱，偶爾閃爍
+-- 損耗嚴重：出現裂紋/缺口，光芒不穩定
++| 狀態 | 視覺表現 |
++|------|---------|
++| 健康 | 穩定發光，輪廓清晰，規律脈動 |
++| 疲勞 | 光芒減弱，偶爾閃爍 |
++| 損耗嚴重 | 出現裂紋/缺口，光芒不穩定 |
++| 屍骸化 | 光環碎裂或熄滅 |
+ 
+-### 2. Heart Container Device（心匣視覺）
++### <a id="section-transformation-visual"></a>變身序列 (Transformation Sequence)
+ 
+-（詳見 [[canon/07_entities/heart_container_device]]）
++遵循[轉變的儀式原則](#section-ritual-transformation)——「鏡中的承諾」三階段鏡像系統：
+ 
+-### 3. Transformation Sequence（變身序列）
++1. **對峙**：角色面對鏡中倒影，倒影映照底層真實
++2. **交流**：角色與倒影建立情感連結，倒影回應
++3. **契約**：角色接受自我，倒影與本人融合，變身完成
+ 
+-（詳見母文檔）
++### <a id="section-corruption-on-girls"></a>腐蝕在魔法少女身上的體現
++
++每位角色的腐蝕三階段都有獨特的視覺設計：
++- 紋章圖案因人而異（對應個人象徵母題）
++- 結晶化形態反映心匣核心情緒
++- 整體過程應被當作「視覺詩歌」處理，參照[破碎的美學](#section-aesthetics-of-flawed)
+ 
+ ---
+ 
+-## Illustration Style Guide（插畫風格指南）
++## <a id="section-character-design"></a>Character Design Framework（角色設計框架）
++
++### <a id="section-duality"></a>雙重性原則 (Principle of Duality)
++
++每個角色設計包含兩個層面：
++- **表象 (The Shell)**：符合社會身份的外觀
++- **本質 (The Core)**：細節中不經意流露的心匣真實狀態（如總是微笑但眼神毫無光彩）
+ 
+-> **來源**: [[art/04_Character_Illustration_Style_Guide]]
++### <a id="section-shape-language"></a>基礎造型語言
+ 
+-（待填充：線條風格、上色規範、材質處理）
++| 幾何 | 代表意義 | 適用 |
++|------|---------|------|
++| 倒三角形 | 力量、威脅、攻擊性 | [朱音](03_characters/iwakura_akane.md)、帝國高級特工 |
++| 矩形/直線 | 中性、堅定、壓抑 | 帝國普通人員（非人化統一性） |
++| 正三角形 | 柔和、穩定、被動 | 溫柔角色、[秋穗](03_characters/akiho.md)日常形象 |
++
++**線條語言**：
++- 尖銳/角度：剛烈、攻擊性、痛苦中（[夕](03_characters/yu.md)、[黑奏](03_characters/antagonist.md)）
++- 圓潤/曲線：溫和、天真、平靜（[晴香](03_characters/haruka.md)偶像服飾）
++
++**對稱性**：
++- 完全對稱 = 秩序、理性、非人化（帝國制服）
++- 不對稱 = 混亂、自由、內心矛盾（魔法少女設計）
++
++### <a id="section-color-language"></a>情緒色彩語言
++
++- 角色主配色與其主導情緒物質/心匣本質色彩相關
++- 彩度 (Saturation) 直接與精神活力掛鉤——[情感耗損](02_glossary.md#term-emotional-erosion)使整體飽和度顯著降低，趨向灰色
++- 冷暖對比對應性格核心（[晴香](03_characters/haruka.md) = 暖色調；[美夜子](03_characters/miyako.md) = 冷色調）
++- 內心矛盾時，特效或服飾細節出現強烈補色
++
++### <a id="section-visual-deception"></a>視覺欺騙與反差
++
++角色第一印象應服務於劇情反轉或內在矛盾：
++- [黑奏主人格](03_characters/antagonist.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
++- [美夜子](03_characters/miyako.md)貓形態：強調可愛弱小，與人形冰冷高效形成強烈反差
++
++### <a id="section-personal-motifs"></a>個人母題與演變符號
++
++核心角色被賦予象徵性母題，隨心路歷程視覺演變：
++
++| 角色 | 母題 | 象徵 |
++|------|------|------|
++| [晴香](03_characters/haruka.md) | 小熊 | 童真、渴望被保護 |
++| [美夜子](03_characters/miyako.md) | 貓 | 獨立、神秘、自我封閉 |
++| [朱音](03_characters/iwakura_akane.md) | 食人花/荊棘 | 侵略性、頑強生命力 |
++
++---
++
++## <a id="section-narrative-visual"></a>Advanced Narrative Design（進階敘事視覺設計）
++
++### <a id="section-posture-theatrics"></a>姿態與表演性
++
++在充滿謊言與自我欺騙的世界裡，許多角色的日常姿態本身就是「表演」。當內心動搖導致「表演失誤」（不符角色的顫抖或猶豫），是窺見真實內心的敘事節點。
++
++### <a id="section-env-staining"></a>環境印染 (Environmental Staining)
++
++強烈情緒事件在發生地留下不可磨滅的物理痕跡——場景擁有「記憶」：
++
++- **色彩印染**：極致絕望之處，牆壁地板色彩飽和度永久降低，變成灰色地帶
++- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/antagonist.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
++- **聲音印染**：特定地點永遠迴盪著只有[晴香](03_characters/haruka.md)能聽見的微弱殘響
++
++### <a id="section-negative-space"></a>負空間與缺席 (Negative Space & Absence)
++
++最強烈的恐怖與悲傷來自「沒有什麼」：
++
++- **缺席的倒影**：自我認同瓦解時，鏡中只有空白
++- **缺席的聲音**：最劇烈痛苦時剝奪所有音效，只留微弱呼吸或完全靜音
++- **缺席的色彩**：[情感耗損](02_glossary.md#term-emotional-erosion)最終階段，角色主觀視角變成黑白
+ 
+ ---
+ 
+-## Scene Visual Language（場景視覺語法）
++## <a id="section-scene-visual"></a>Scene Visual Language（場景視覺語法）
+ 
+-> **來源**: [[director/Worldview_Scene_Analysis]]
++### <a id="section-supernatural-phenomena"></a>超自然環境現象
+ 
+-（待填充：色腳本、場景基調規則）
++**情緒結晶苔 (Emotion Crystal Moss)**
++- 重大悲劇或長期情緒浸泡之處生長的微小[情緒結晶](02_glossary.md#term-emotional-crystal)苔蘚
++- 微光下散發幽幽光芒，色彩對應吸收的情緒（悲傷藍、憤怒暗紅）
++- 直接觸碰極度危險——積累的情緒殘響瞬間湧入觸碰者腦海
++
++**記憶迴響的雨 (Rain of Echoing Memories)**
++- [集體潛意識](02_glossary.md#term-collective-unconscious)邊界薄弱時，無主記憶碎片溶入水汽
++- 雨水打在皮膚上，可能突然聽見愛人呢喃、看見陌生孩子的畫面、或感受不屬於自己的悲傷
++- 撐傘不再是為了保持乾爽，而是保護精神不受「污染」的儀式
+ 
+ ---
+ 
+-**注意**: 此為視覺設計骨架。詳細情感物質表（完整版）、鏡像法則、場景案例見母文檔。
++## <a id="section-illustration-style"></a>Illustration Style Guide（插畫風格指南）
++
++**美術風格定位**：Modern Japanese Light Novel / Gacha Game Art Style
++
++### <a id="section-line-art"></a>線條處理 (Line Art)
++
++- 輪廓：乾淨、細膩、無雜線
++- 線稿：典型日系動漫處理
++- 粗細：根據遠近與重要性變化
++- 邊緣：保持清晰可辨，避免模糊
++
++### <a id="section-coloring"></a>上色技法 (Coloring)
++
++- **基礎**：賽璐璐 (Cel-Shading) — 色塊分明，清晰明暗交界線
++- **進階**：柔和漸層疊加，大量環境光遮蔽，創造「膠質感」
++- **材質**：皮膚半透明次表面散射；布料細膩褶皺；金屬/魔法道具高光銳利
++
++### <a id="section-vfx"></a>視覺特效 (VFX)
++
++| 類型 | 應用 |
++|------|------|
++| 粒子特效 | 魔法光點、能量粒子、自然元素 |
++| 發光效果 | 武器/魔法陣發光邊緣、眼睛微光、背景光暈 |
++| 環境特效 | 光束/光柱、能量波紋、氛圍霧氣 |
++
++**目標**：「SSR 稀有卡面」精緻感。特效強化角色魅力，不喧賓奪主。
++
++### <a id="section-character-proportions"></a>角色比例
++
++- 頭身比：6-7 頭身（纖細少女感）
++- 眼睛佔比極大，虹膜如寶石，2-3 個高光點
++- 柔美曲線，動態姿勢流暢優雅
++
++### <a id="section-tech-specs"></a>技術規格
++
++| 項目 | 規格 |
++|------|------|
++| 立繪 | 最低 2000px（長邊） |
++| 卡面 | 1080px - 2048px |
++| 解析度 | 300 DPI（印刷）/ 72 DPI（數位） |
++| 工作檔 | PSD / CLIP STUDIO PAINT（保留圖層） |
++| 交付檔 | PNG（透明背景）/ JPG（完整背景） |
++
++### <a id="section-style-consistency"></a>風格一致性
++
++**統一項目**：線條粗細、陰影處理、特效風格（粒子大小/光暈強度）、色彩飽和度範圍
++
++**允許變化**：角色屬性色調、特效類型、服裝複雜度
++
++**核心原則**：萌系美少女 + 華麗特效 + 精緻細節。可愛優先於寫實，柔和優先於銳利，夢幻優先於寫實。
++
++---
++
++## <a id="section-appendix"></a>Appendix
++
++- **世界規則**：[World Rules](01_world_rules_and_costs.md) — 鏡像法則、情緒守恆、代價機制的敘事定義
++- **設定物**：[Entities](07_entities_and_devices.md) — 心匣裝置、魔法屍骸視覺規格、組織設定
++- **角色數據**：[Character Sheets](03_characters/) — 各角色視覺要點
++- **Gameplay**：[Gameplay Bible](10_gameplay_bible.md) — 戰術視窗、UI 系統的視覺整合
++
++---
++
++## <a id="section-cinematography-grammar"></a>鏡頭語法與分鏡規範（補齊）
++
++### 情緒鏡頭三段法
++1. **狀態建立**：先給中景與環境聲，確認角色當下的「社會姿態」。
++2. **失衡揭露**：切近景（眼、手、呼吸），以微延遲或不連續動作表現內在裂縫。
++3. **代價落地**：回到空間全景，保留破壞痕跡或沉默空白，避免用台詞解釋。
++
++### 構圖禁忌
++- 禁止把創傷場面拍成英雄海報式「勝利姿態」。
++- 禁止在角色崩潰時使用炫技鏡頭奪走角色主體。
++- 禁止在關鍵承擔場景以高速剪輯取代情緒停留。
++
++### 推薦鏡頭語法
++- **鏡像場景**：優先固定鏡 + 緩推，讓觀眾自行比對表象與底層真實。
++- **共感場景**：優先雙人同框，不切反應鏡頭，維持情緒連續性。
++- **社會暴力場景**：優先遠景與群像，凸顯「制度性」而非單一惡人。
++
++
++
++
+diff --git a/canon/10_gameplay_bible.md b/canon/10_gameplay_bible.md
+index 2cf18ae..b0982b3 100644
+--- a/canon/10_gameplay_bible.md
++++ b/canon/10_gameplay_bible.md
+@@ -1,88 +1,89 @@
+----
+-doc_id: CAN-10
+-title: "Gameplay Bible（遊戲聖經）"
+-status: Canon
+-scope: "核心玩法 loop、戰術戰鬥、社交系統、任務設計、關卡與演出結合原則"
+-sources:
+-  - "gameplay/00_Core_Gameplay_Design_Document.md"
+-  - "screenwriter/12_Social_Evaluation_Quest_System.md"
+-  - "screenwriter/10_Girl_Daily_Social_Interaction_Setting.md"
+-last_updated: 2026-02-08
++# Gameplay Bible（遊戲聖經）
++
++> **讀者指引**：本文件涵蓋核心玩法 loop、戰術戰鬥、UI 系統、社交系統與任務設計。首次閱讀建議從 [§ 動態干預系統](#section-core-loop) 開始。
++> 相關文件：[World Rules](01_world_rules_and_costs.md) | [Glossary](02_glossary.md) | [Entities](07_entities_and_devices.md)
++
++<!-- Sources: backup/gameplay/00_Core_Gameplay_Design_Document.md, backup/screenwriter/12_Social_Evaluation_Quest_System.md, backup/screenwriter/10_Girl_Daily_Social_Interaction_Setting.md -->
++
+ ---
+ 
+-# CAN-10: Gameplay Bible（遊戲聖經）
++## <a id="section-scope"></a>文件職責邊界
+ 
+-> **規則**: 玩法若引用世界規則/術語，只 link 到 [[canon/01_world_rules_and_costs|CAN-01]] / [[canon/02_glossary|CAN-02]]，不重複解釋 lore。
++- 本文件只負責其對應 Canon 範圍，不重寫其他文件的完整內容。
++- 術語完整定義只放在 [Glossary](02_glossary.md)。
++- 世界規則完整定義只放在 [World Rules](01_world_rules_and_costs.md)。
++- 事件時間與因果完整定義只放在 [Timeline](04_timeline_canon.md)。
+ 
+-## Core Gameplay Loop: 動態干預系統 (Dynamic Intervention System)
++---
++## <a id="section-core-loop"></a>Core Gameplay Loop：動態干預系統 (Dynamic Intervention System)
+ 
+-**遊戲願景**: 你不是在「打怪」，而是在「終結魔法少女們持續複製的噩夢」。
++**遊戲願景**：你不是在「打怪」，而是在「終結魔法少女們持續複製的噩夢」。
+ 
+-### 戰術視窗 (Tactical Window) 觸發機制
++### <a id="section-tactical-window"></a>戰術視窗 (Tactical Window) 觸發機制
+ 
+-玩家作為晴香在戰鬥中觀察隊友,系統動態生成最佳干預時機：
++玩家作為晴香在戰鬥中觀察隊友，系統動態生成最佳干預時機：
+ 
+-- **威脅感知**: 隊友即將受到致命攻擊,晴香可插入掩護/嘲諷
+-- **戰術發現**: 晴香察覺敵人弱點,可提示隊友利用或自己執行
+-- **移動機遇**: 空間出現有利位置,可命令隊友移動或自己搶位
+-- **弱點暴露**: 敵人架勢崩潰,可指揮集火或接近執行靈魂抽離
+-- **玩家主動**: 隨時暫停進入戰術視角,手動規劃 3 秒內行動序列
++- **威脅感知**：隊友即將受到致命攻擊，晴香可插入掩護/嘲諷
++- **戰術發現**：晴香察覺敵人弱點，可提示隊友利用或自己執行
++- **移動機遇**：空間出現有利位置，可命令隊友移動或自己搶位
++- **弱點暴露**：敵人架勢崩潰，可指揮集火或接近執行靈魂抽離
++- **玩家主動**：隨時暫停進入戰術視角，手動規劃 3 秒內行動序列
+ 
+ ### 四階段流程
+ 
+ 1. **佈局** — 觀察隊友狀態（情緒條、架勢條、戰鬥風格）與敵人模式
+ 2. **觸發** — 系統偵測關鍵時機彈出「戰術視窗」慢動作（子彈時間）
+ 3. **決策** — 選擇介入方式：保護/增幅/組合攻擊/靈魂抽離/戰術物品
+-4. **執行** — 晴香執行指令,隊友回應（信任度影響成功率與配合度）
++4. **執行** — 晴香執行指令，隊友回應（信任度影響成功率與配合度）
+ 
+-**設計理念**: 玩家並非「控制全隊」,而是「有限度地影響已失控的戰場」。完整規格見 [[gameplay/00_Core_Gameplay_Design_Document#dynamic-intervention-system]]。
++**設計理念**：玩家並非「控制全隊」，而是「有限度地影響已失控的戰場」。
+ 
+ ---
+ 
+-## 絕對共感視界 (Absolute Empathy Interface): 晴香專屬情報系統
++## <a id="section-empathy-interface"></a>絕對共感視界 (Absolute Empathy Interface)：晴香專屬情報系統
+ 
+-**核心設定**: 因晴香是世界創造者,她能直觀「看見」他人情緒與意圖（但無法改變）。
++**核心設定**：因晴香是世界創造者，她能直觀「看見」他人情緒與意圖（但無法改變）。
+ 
+ ### UI 元素
+ 
+-- **情緒條 (Emotion Gauge)**: 每位隊友頭頂顯示當前情緒飽和度（平靜藍→激動橙→失控紅）
+-- **架勢條 (Posture Bar)**: 敵我雙方戰鬥姿態穩定度（滿→易被打斷,空→可處決）
+-- **仇恨線 (Aggro Threads)**: 紅線連接敵人與目標,粗細代表威脅優先級
+-- **範圍警告 (AoE Prediction)**: 敵人蓄力攻擊時地面提前顯示傷害範圍（橙色→紅色倒計時）
+-- **心之隙縫 (Soul Fissure)**: 魔法屍骸架勢破碎時胸口出現金色裂縫標記（可抽離靈魂）
+-- **情緒圖標 (Emotional Icons)**: 隊友頭頂浮現即時情緒符號（憤怒/恐懼/悲傷/麻木）
+-- **對話提示 (Dialogue Cues)**: 戰鬥中隊友呼叫晴香時,對應選項附帶「預測回應效果」標籤
+-
+-### 與遊戲進程的關係
++- **情緒條 (Emotion Gauge)**：每位隊友頭頂顯示當前情緒飽和度（平靜藍→激動橙→失控紅）
++- **架勢條 (Posture Bar)**：敵我雙方戰鬥姿態穩定度（滿→易被打斷，空→可處決）
++- **仇恨線 (Aggro Threads)**：紅線連接敵人與目標，粗細代表威脅優先級
++- **範圍警告 (AoE Prediction)**：敵人蓄力攻擊時地面提前顯示傷害範圍（橙色→紅色倒計時）
++- **心之隙縫 (Soul Fissure)**：[魔法屍骸](07_entities_and_devices.md#section-magical-corpse)架勢破碎時胸口出現金色裂縫標記（可抽離靈魂）
++- **情緒圖標 (Emotional Icons)**：隊友頭頂浮現即時情緒符號（憤怒/恐懼/悲傷/麻木）
++- **對話提示 (Dialogue Cues)**：戰鬥中隊友呼叫晴香時，對應選項附帶「預測回應效果」標籤
+ 
+-- **第一幕**: 介面完整運作,晴香擁有「上帝視角」優勢
+-- **第二幕**: 夕的干擾導致介面出現雜訊（情緒條失準、仇恨線錯亂）
+-- **第三幕**: 介面大規模失效,晴香被迫「像普通人一樣戰鬥」
+-- **第四幕**: 介面恢復,但晴香已學會不依賴它——成為「象徵性輔助」而非必需
++### <a id="section-interface-progression"></a>與遊戲進程的關係
+ 
+-完整 UI 規格與互動邏輯見 [[gameplay/00_Core_Gameplay_Design_Document#empathy-interface]]。
++| 幕 | 介面狀態 | 敘事意義 |
++|---|---------|---------|
++| **第一幕** | 完整運作，晴香擁有「上帝視角」優勢 | 玩家相信自己掌控一切 |
++| **第二幕** | [夕](03_characters/yu.md)的干擾導致雜訊（情緒條失準、仇恨線錯亂） | 開始質疑系統可靠性 |
++| **第三幕** | 大規模失效，晴香被迫「像普通人一樣戰鬥」 | 失去特權，面對真實 |
++| **第四幕** | 恢復，但晴香已學會不依賴它 | 成為「象徵性輔助」而非必需 |
+ 
+ ---
+ 
+-## 雙軌數值系統: 假象與真實 (Dual Progression System)
++## <a id="section-dual-system"></a>雙軌數值系統：假象與真實 (Dual Progression System)
+ 
+-**核心詭計**: 遊戲刻意誤導玩家相信「殺死屍骸」是最優解,直到真相揭示。
++**核心詭計**：遊戲刻意誤導玩家相信「殺死屍骸」是最優解，直到真相揭示。
+ 
+ ### 假系統（遊戲前期呈現）
+ 
+ | 行動 | 獲得 EXP | 表面邏輯 |
+ |-----|---------|---------|
+-| **殺死** | 1000 | 「快速清場,高效升級」 |
+-| **淨化** | 200 | 「道德選項,但效率低」 |
++| **殺死** | 1000 | 「快速清場，高效升級」 |
++| **淨化** | 200 | 「道德選項，但效率低」 |
+ | **靈魂抽離** | 0 | 「浪費時間的儀式」 |
+ 
+ ### 真系統（遊戲後期揭示）
+ 
+-- **殺死** = 將情緒債務轉移到世界其他地方,製造更多屍骸（惡性循環）
+-- **淨化** = 暫時壓制,但未解決靈魂困境,屍骸會再次生成
+-- **靈魂抽離** = 真正終結痛苦循環,但耗時且需高信任度 + 精準時機
++- **殺死**：短期效率高，但在長線回饋上會推高世界層債務（規則口徑見 [World Rules：情緒守恆](01_world_rules_and_costs.md#rule-emotion-conservation)）
++- **淨化**：提供戰術緩衝，不等同長線解決（狀態口徑見 [Entities：魔法屍骸](07_entities_and_devices.md#section-magical-corpse)）
++- **靈魂抽離**：是高門檻但高價值的終局處理（流程口徑見 [§ 靈魂抽離機制](#section-soul-extraction)）
+ 
+-### 系統失靈的四階段
++### <a id="section-system-failure"></a>系統失靈的四階段
+ 
+ | 階段 | 戰術視窗準確度 | 情緒條可信度 | 獎勵系統 | 象徵意義 |
+ |-----|-------------|------------|---------|---------|
+@@ -91,106 +92,82 @@ last_updated: 2026-02-08
+ | **明顯失靈** | 40% | 嚴重延遲/反向 | 獎勵與結果脫鉤 | 玩家被迫質疑機制 |
+ | **完全崩潰** | 介面消失 | 無法讀取 | 數值無意義 | 晴香必須「憑感覺」行動 |
+ 
+-完整機制與敘事配合見 [[gameplay/00_Core_Gameplay_Design_Document#dual-value-system]]。
+-
+ ---
+ 
+-## 靈魂抽離機制 (Soul Extraction Mechanic)
++## <a id="section-soul-extraction"></a>靈魂抽離機制 (Soul Extraction Mechanic)
+ 
+-**核心體驗**: 將戰鬥變為「心理干預」——玩家需理解屍骸生前痛苦,找到正確「解脫方式」。
++**核心體驗**：將戰鬥變為「心理干預」——玩家需理解屍骸生前痛苦，找到正確「解脫方式」。
+ 
+ ### 三階段流程
+ 
+ 1. **架勢破碎 (Posture Break)**
+    - 持續攻擊或利用弱點使屍骸架勢條歸零
+-   - 胸口出現金色「心之隙縫」標記,進入可抽離狀態（8 秒時限）
++   - 胸口出現金色「心之隙縫」標記，進入可抽離狀態（8 秒時限）
+ 
+ 2. **共感連結 (Empathy Link)**
+-   - 晴香靠近並按住互動鍵,進入靈魂對話場景
++   - 晴香靠近並按住互動鍵，進入靈魂對話場景
+    - 玩家需從 3-4 個對話選項中選擇「最能安撫該靈魂」的回應
+-   - **求救型** (藍色光暈): 選項偏向「理解/陪伴/承諾記住」→成功率高,靈魂主動伸手
+-   - **拒絕型** (紅色光暈): 選項偏向「尊重選擇/不強迫/留有退路」→需多次嘗試,可能失敗進入暴怒
++   - **[求救型](07_entities_and_devices.md#section-mc-psychology)**（藍色光暈）：選項偏向「理解/陪伴/承諾記住」→成功率高
++   - **[拒絕型](07_entities_and_devices.md#section-mc-psychology)**（紅色光暈）：選項偏向「尊重選擇/不強迫/留有退路」→需多次嘗試
+ 
+ 3. **靈魂抽離 (Extraction)**
+-   - 成功: 靈魂化為光點消散,屍骸肉體崩解,獲得「記憶碎片」（解鎖 codex 條目）
+-   - 失敗: 屍骸進入短暫「暴怒狀態」（攻擊力 +50%,移動速度 +30%,持續 15 秒）
++   - 成功：靈魂化為光點消散，屍骸肉體崩解，獲得「記憶碎片」（解鎖 codex 條目）
++   - 失敗：屍骸進入短暫「暴怒狀態」（攻擊力 +50%，移動速度 +30%，持續 15 秒）
+ 
+ ### 隊友參與系統
+ 
+ 部分屍骸需「特定隊友」參與抽離才能成功：
+-- **例**: 前維多利亞之淚成員 → 朔參與成功率 +40%
+-- **例**: 被軍方改造的少女 → 美夜子參與可解鎖隱藏對話
+-
+-詳細分類與對話樹見 [[gameplay/00_Core_Gameplay_Design_Document#soul-extraction]] 及 [[canon/07_entities/magical_corpse#psychological-types]]。
++- **例**：前維多利亞之淚成員 → 朔參與成功率 +40%
++- **例**：被軍方改造的少女 → 美夜子參與可解鎖隱藏對話
+ 
+ ---
+ 
+-## 社交系統: 風評三階段 (Social Reputation System)
++<a id="section-social-reputation"></a>
++## <a id="section-social-system"></a>社交系統：風評三階段 (Social Reputation System)
+ 
+-**核心設定**: 晴香的偶像身份與魔法少女身份存在矛盾,玩家行動會影響公眾認知。
++**核心設定**：晴香的偶像身份與魔法少女身份存在矛盾，玩家行動會影響公眾認知。
+ 
+-### 階段一: 維多利亞天使期（第一幕）
++### 階段一：維多利亞天使期（第一幕）
+ 
+-- **光幕濾鏡 (Light Veil Filter)**: [[canon/01_world_rules_and_costs#reality-stitching|現實縫合機制]] 自動美化魔法少女形象
+-- **任務類型**: 「拯救迷路小貓」「阻止銀行搶劫」「慈善活動護衛」
+-- **NPC 反應**: 崇拜/感激/請求簽名合照
+-- **遊戲體驗**: 輕鬆愉快,玩家享受「被需要」的錯覺
++- **[光幕濾鏡](02_glossary.md#term-light-veil)**：[現實縫合機制](01_world_rules_and_costs.md#rule-reality-stitching)自動美化魔法少女形象
++- **任務類型**：「拯救迷路小貓」「阻止銀行搶劫」「慈善活動護衛」
++- **NPC 反應**：崇拜/感激/請求簽名合照
++- **遊戲體驗**：輕鬆愉快，玩家享受「被需要」的錯覺
+ 
+-### 階段二: 裂痕與質疑期（第二幕）
++### 階段二：裂痕與質疑期（第二幕）
+ 
+-- **濾鏡穿幫**: 現實縫合開始失效,旁觀者偶爾「看見不該看見的」（血跡/屍骸真實面目/魔法少女的痛苦表情）
+-- **任務變質**: 「清理廢棄工廠屍骸」「處決失控的前隊友」「阻止真相傳播」
+-- **NPC 反應**: 困惑/恐懼/開始在網路上發布「詭異目擊」
+-- **風評指標**: 開始出現「負面新聞」計數器,影響部分 NPC 對話與商店價格
++- **濾鏡穿幫**：現實縫合開始失效，旁觀者偶爾「看見不該看見的」
++- **任務變質**：「清理廢棄工廠屍骸」「處決失控的前隊友」「阻止真相傳播」
++- **NPC 反應**：困惑/恐懼/開始在網路上發布「詭異目擊」
++- **風評指標**：開始出現「負面新聞」計數器，影響部分 NPC 對話與商店價格
+ 
+-### 階段三: 魔女狩獵期（第三幕高潮）
++### 階段三：魔女狩獵期（第三幕高潮）
+ 
+-- **濾鏡破碎**: 全城同時看見魔法少女與屍骸的真實面目
+-- **任務崩壞**: 「鎮壓平民暴動」「保護被圍攻的隊友」「委託人是屍骸」（想被終結的怪物主動發布任務）
+-- **NPC 反應**: 尖叫/逃跑/投擲石塊/呼叫軍方
+-- **巔峰場景**: 晴香演唱會變成公審大會,觀眾席空無一人或充滿敵意
+-
+-完整三階段任務設計與敘事節點見 [[screenwriter/12_Social_Evaluation_Quest_System]]。
++- **濾鏡破碎**：全城同時看見魔法少女與屍骸的真實面目
++- **任務崩壞**：「鎮壓平民暴動」「保護被圍攻的隊友」「委託人是屍骸」
++- **NPC 反應**：尖叫/逃跑/投擲石塊/呼叫軍方
++- **巔峰場景**：晴香演唱會變成公審大會，觀眾席空無一人或充滿敵意
+ 
+ ---
+ 
+-## IG 敘事線 (Instagram Chronicle)
++## <a id="section-ig-chronicle"></a>IG 敘事線 (Instagram Chronicle)
+ 
+-**設計目的**: 透過社交媒體模擬「少女們試圖維持正常生活假象」的悲劇。
++**設計目的**：透過社交媒體模擬「少女們試圖維持正常生活假象」的悲劇。
+ 
+ ### 四階段演變
+ 
+-#### Stage 1: 強行營業期（第一幕前半）
+-
+-- **晴香帳號**（@amemiya_haruka_official）: 高頻更新（演唱會後台/新歌預告/粉絲互動）
+-- **其他角色**: 帳號存在但幾乎無更新（象徵「沒有餘裕過正常生活」）
+-- **玩家互動**: 可瀏覽但無法留言,只能「按讚」（象徵旁觀者身份）
+-
+-#### Stage 2: 閃耀的日常（第一幕後半～第二幕前半）
+-
+-- **集體活躍**: 美夜子分享咖啡拉花、操發布書法作品、秋穗上傳訓練照
+-- **虛假的「正常」**: 每篇貼文都刻意迴避「魔法少女」話題,營造「我們只是普通女高中生」假象
+-- **隱藏細節**: 玩家仔細觀察可發現異常（照片背景的繃帶、發文時間都在深夜、朱音從不出現在合照中）
+-
+-#### Stage 3: 數位墓碑（第二幕後半～第三幕）
+-
+-- **逐一沉默**: 隊友帳號停止更新（朱音→操→朔→秋穗...）
+-- **最後的貼文**: 每個角色停更前會發布「意味深長的最後貼文」（例: 操發布「明月幾時有」書法,配文「再見」）
+-- **晴香的獨白**: 只剩晴香繼續更新,但內容變成「對著空無一人的舞台唱歌」
+-
+-#### Stage 4: 結局的迴響（第四幕後／遊戲通關後）
+-
+-- **倖存者更新**: 根據玩家選擇,倖存角色重新開始發文（例: 美夜子發布「重新開張的咖啡店」照片）
+-- **紀念帳號**: 死去角色的帳號變成「數位墓碑」,玩家可留言悼念
+-- **隱藏彩蛋**: 全員存活時解鎖「合照大結局貼文」
+-
+-完整 11 個心理維度與貼文內容範例見 [[screenwriter/10_Girl_Daily_Social_Interaction_Setting]]。
++| 階段 | 時期 | 特徵 |
++|-----|------|------|
++| **強行營業期** | 第一幕前半 | 晴香高頻更新，其他角色帳號幾乎無更新 |
++| **閃耀的日常** | 第一幕後半～第二幕前半 | 集體活躍但刻意迴避「魔法少女」話題，隱藏細節暗示異常 |
++| **數位墓碑** | 第二幕後半～第三幕 | 隊友帳號逐一停更，每人發布「意味深長的最後貼文」 |
++| **結局的迴響** | 第四幕後 | 倖存者重新發文，死去角色帳號變「數位墓碑」，全員存活解鎖合照彩蛋 |
+ 
+ ---
+ 
+-## 戰術物品系統 (Tactical Items)
++## <a id="section-tactical-items"></a>戰術物品系統 (Tactical Items)
+ 
+-晴香可攜帶最多 4 種戰術物品進入戰鬥,每種限定數量。設計核心: **不是強化戰力,而是「彌補情報缺失」或「創造安全空間」**。
++晴香可攜帶最多 4 種戰術物品進入戰鬥，每種限定數量。設計核心：**不是強化戰力，而是「彌補情報缺失」或「創造安全空間」**。
+ 
+ | 物品 | 效果 | 主題意義 | 獲得方式 |
+ |-----|-----|---------|---------|
+@@ -199,39 +176,74 @@ last_updated: 2026-02-08
+ | **替死鬼假人** | 吸引全體敵人 8 秒 | 「替身」與「犧牲」的隱喻 | 操的符咒商店 |
+ | **血糖手錶** | 晴香瀕死時自動觸發無敵 3 秒 | 對「崩潰」的物理干預 | 秋穗贈送（信任度 Lv.3） |
+ 
+-完整物品列表與隱藏配方見 [[gameplay/00_Core_Gameplay_Design_Document#tactical-items]]。
+-
+ ---
+ 
+-## Level & Performance Integration（關卡與演出結合）
++## <a id="section-level-design"></a>Level & Performance Integration（關卡與演出結合）
+ 
+-**核心原則**: 每個關卡不僅是「戰鬥場地」,更是「角色內心世界的物理投影」。
++**核心原則**：每個關卡不僅是「戰鬥場地」，更是「角色內心世界的物理投影」。
+ 
+ ### 關卡設計三層次
+ 
+-1. **L1 物理層**: 可互動環境（倒塌柱子/爆炸油桶/上鎖的門）
+-2. **L2 敘事層**: 場景暗示角色過去（美夜子關卡的焚毀醫院、操關卡的無人豪宅）
+-3. **L3 象徵層**: 空間本身就是隱喻（彩的萬花筒迷宮 = 破碎人格、黑奏的齒輪地獄 = 機械秩序）
++1. **L1 物理層**：可互動環境（倒塌柱子/爆炸油桶/上鎖的門）
++2. **L2 敘事層**：場景暗示角色過去（美夜子關卡的焚毀醫院、操關卡的無人豪宅）
++3. **L3 象徵層**：空間本身就是隱喻（彩的萬花筒迷宮 = 破碎人格、黑奏的齒輪地獄 = 機械秩序）
+ 
+ ### 與導演手法的配合
+ 
+-- **Alpha/Beta Line 場景**: 關卡中特定區域會「疊加過去與現在」,玩家需在雙重現實中找到唯一正確路徑
+-- **鏡像法則**: Boss 戰場地為完美對稱空間（中軸線兩側是「理想與現實」的對比）
+-- **四幕氛圍轉變**: 同一場景在不同幕重訪時,光線/配樂/NPC 對話完全不同（例: 維多利亞總部從「溫暖金光」變「冰冷白熾燈」）
++- **[Alpha/Beta Line](01_world_rules_and_costs.md#rule-alpha-beta) 場景**：關卡中特定區域會「疊加過去與現在」，玩家需在雙重現實中找到唯一正確路徑
++- **[鏡像法則](01_world_rules_and_costs.md#rule-mirror-law)**：Boss 戰場地為完美對稱空間（中軸線兩側是「理想與現實」的對比）
++- **四幕氛圍轉變**：同一場景在不同幕重訪時，光線/配樂/NPC 對話完全不同
++
++---
++
++## <a id="section-mission-architecture"></a>任務架構（Beat / Scene / Mission 對齊）
++
++> 把母文檔中的任務化拆分收斂成 Canon 可維護格式。
++
++### 三層對齊規則
++1. **Beat 層**：只描述敘事功能（鋪陳、對抗、崩解、收束）。
++2. **Scene 層**：只描述互動意圖（探索、對話、戰鬥、救援、撤離）。
++3. **Mission 層**：只描述可驗收目標（成功條件、失敗代價、資源回饋）。
++
++### 驗收欄位（每個 Mission 必備）
++- `NarrativePurpose`：這關推進哪條主題線。
++- `PlayerPressure`：主要壓力類型（時間、資源、倫理、信任）。
++- `FailureDebt`：失敗會把哪種債務推高（社會、情緒、因果）。
++- `CarryOver`：如何影響下一關（敵性、物價、隊內連結、抽離難度）。
+ 
+-完整場景演出指南見 [[canon/08_directing_playbook]]。
++## <a id="section-failure-feedback"></a>失敗回饋與債務累積（母文檔回填）
++
++失敗不只扣血或重試，而要把世界觀代價回寫到系統層，令玩家感受到「代價會留痕」：
++
++1. **戰術失敗**：提高該區域敵人執念飽和度，下次進場更接近失控
++2. **社交失敗**：風評提前惡化，NPC 支援與資源折扣下降
++3. **倫理失敗**：錯誤抽離或粗暴共感可換短期收益，但會增加[因果債務](02_glossary.md#term-causal-debt)
++4. **隊伍失敗**：隊內連結值下降，後續[情緒連結](02_glossary.md#term-emotion-link)成功率受罰
++
++這一層回饋把[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)轉為可操作的玩法壓力，而非僅劇情設定。
+ 
+ ---
+ 
+-## Appendix: 核心文檔連結
++## <a id="section-boss-ethics"></a>Boss 設計倫理（補齊）
++
++- Boss 不是「血量變厚」，而是「價值衝突變硬」。
++- 每場 Boss 戰至少有一個可被共感讀取的「人性殘片」。
++- 最終勝利條件可不是擊殺，而是中止循環、解除控制或完成抽離。
+ 
+-- **世界規則**: [[canon/01_world_rules_and_costs]] — 魔法系統、情緒守恆、代價機制
+-- **角色數據**: [[canon/03_characters/]] — 全角色背景、能力、心理分析
+-- **視覺規格**: [[canon/06_visual_bible]] — UI 設計語言、角色動畫規範
+-- **導演手法**: [[canon/08_directing_playbook]] — 演出技法與關卡氛圍指南
+-- **完整 Gameplay Doc**: [[gameplay/00_Core_Gameplay_Design_Document]] — 包含本 Canon 未涵蓋的技術細節
+-- **工具矩陣**: [[tools/Stage_Survival_Roster_Matrix]] — 角色存活/死亡排列組合與結局影響
++### 無限再生類 Boss 規則
++- 再生必須有敘事來源（守恆債務、裝置回灌或群體惡意供能）。
++- 玩家若只追求輸出，會進入資源虧損死循環。
++- 唯一破局方式要回到世界規則：切供能、拆認知濾鏡、完成靈魂層干預。
+ 
+ ---
+ 
+-**最後更新**: 2026-02-08 | **維護者**: Gameplay Design Team
++## <a id="section-appendix"></a>Appendix：核心文檔連結
++
++- **世界規則**：[World Rules](01_world_rules_and_costs.md) — 魔法系統、情緒守恆、代價機制
++- **角色數據**：[Character Sheets](03_characters/) — 全角色背景、能力、心理分析
++- **視覺規格**：[Visual Bible](06_visual_bible.md) — UI 設計語言、角色動畫規範
++- **設定物**：[Entities](07_entities_and_devices.md) — 心匣、屍骸、組織
++- **劇情結構**：[Story Outline](05_story_outline_canon.md) — 節拍與情緒曲線
++- **時間/事件**：[Timeline](04_timeline_canon.md) — 任務所依賴的事件順序
++
++

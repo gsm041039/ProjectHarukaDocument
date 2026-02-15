@@ -1,0 +1,17 @@
+canon/03_characters\ayakomoji_sou.md:63:「我選擇停留在我想停留的位置。這是我的態度。」——這句話同時回應[三位一體光譜](../02_glossary.md#term-trinity-spectrum)的三重意義：性別認同（停留在自己選擇的性別）、生死邊界（停留在人與屍骸之間）、[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)（以選擇定義存在）。
+canon/03_characters\airi.md:3:> **讀者指引**：本頁是愛莉的單一角色 Canon Sheet——秋穗的女兒、第一個人造魔法屍骸石像，以及精神網絡中的「紙皮騎士」。
+canon/03_characters\yu.md:4:> 夕是晴香的潛意識人格（陰影自我），僅存在於 Beta 線，沒有獨立的視覺設計文件。
+canon/03_characters\antagonist.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
+canon/03_characters\akiho.md:39:帝國歷 98 年的愛莉事故是秋穗角色弧的不可逆起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
+canon/03_characters\saku.md:24:| **關係** | [美夜子](miyako.md)的青梅竹馬戀人（[Alpha 線](../02_glossary.md#term-alpha-line)） |
+canon/03_characters\saku.md:35:朔是[夜區](../02_glossary.md#term-night-district)最年輕的[靈樹](../02_glossary.md#term-spirit-tree)守護者，與[美夜子](miyako.md)在夜區長大，青梅竹馬，感情深厚。在 [Alpha 線](../02_glossary.md#term-alpha-line)中，兩人是戀人。美夜子的「死亡」對朔而言是世界的崩塌——他親手參加了愛人的葬禮，親眼看著棺材被合上。
+canon/03_characters\saku.md:45:為了接近 Unit 01 的真相，朔加入情緒管理局成為雙面特工。白天是冷酷的外勤特工，執行清剿[魔法屍骸](../02_glossary.md#term-magical-corpse)的任務；夜晚是孤獨的屍骸獵人，在夜區巡邏的同時暗中尋找美夜子的痕跡。這種分裂的雙面生活將他的精神推向極限。
+canon/03_characters\saku.md:106:與美夜子重逢。接受她已經改變的事實——她不再是記憶中那個青梅竹馬的少女，而是經歷過死亡、冰封、兵器化與[避難所詛咒](../02_glossary.md#term-sanctuary-curse)的全新存在。朔學會的不是「找回失去的人」，而是「接受眼前的人」。
+canon/03_characters\rin.md:58:凜是全作品中唯一「知道治癒可能性但主動拒絕」的角色。她自願走向 Unit 00 路線，將此作為自己的最終選擇。這不是絕望，而是[態度](../02_glossary.md#term-attitude-vs-fate)：「選擇拒絕治癒也是一種自由。」（規則語義見 [World Rules：三位一體](../01_world_rules_and_costs.md#rule-trinity-spectrum)）
+canon/03_characters\haruka.md:169:| [彩](iroha.md) / [黑奏](antagonist.md) | 致命吸引 | 彩是晴香內在恐懼的具象化；黑奏是創造 Beta 線的反派，偽裝潛伏收割情緒能量 |
+canon/03_characters\ko_hikaru.md:146:| [晴香](haruka.md) | 間接關係 | 晴香目睹小光的屍骸時，映照出自己作為創世者的罪責——這個孩子的命運源於她創造的 [Beta 線](../02_glossary.md#term-beta-line) |
+canon/03_characters\miyako.md:37:在所有主要角色中，美夜子擁有獨特定位——她是唯一在 [Alpha 線](../02_glossary.md#term-alpha-line)中真正死亡的角色。後續「被拉回」不是奇蹟，而是整個體制代價的集中體現；客觀事件鏈以 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival) 為準。
+canon/03_characters\miyako.md:47:美夜子的貓形態不是主動能力，而是晴香幼年願望留下的代價性綁定。此處只保留角色意義（被保護與被剝奪並存）；觸發條件與規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse) 與 [World Rules：Alpha/Beta 結構](../01_world_rules_and_costs.md#rule-alpha-beta)。
+canon/03_characters\miyako.md:49:這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在。
+canon/03_characters\miyako.md:57:在一次「悲慟風暴」壓制任務中，凜為掩護她撤離而被處決。目睹這一刻後，美夜子的情緒防線崩潰並進入黑貓形態，從此脫離軍方控制。事件細節見 [Timeline：凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)；規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse)。
+canon/03_characters\iroha.md:50:「有牠陪著妳，就等於我陪著妳。」這隻熊公仔是彩與黑奏的共享契約信物（[心匣條目](../02_glossary.md#term-heart-container)；[物件規格](../07_entities_and_devices.md#section-heart-container)）。寒酸的外表下藏著頂級深紅絲絨、真寶石眼睛、金線縫線：愛的真實形態不在表面，在縫線裏。

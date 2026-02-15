@@ -1,0 +1,24 @@
+canon\00_series_bible.md:38:**治癒主張**：`Dark Healing` 的實作要點如下（完整術語口徑見 [Glossary](02_glossary.md#term-dark-healing)）。
+canon\05_story_outline_canon.md:43:- **[Alpha 線真相](04_timeline_canon.md#event-alpha-divergence)**：本作原罪入口與角色動機源頭；客觀事件鏈以 Timeline 為準
+canon\05_story_outline_canon.md:69:- 四人連結後出現高成本反噬，功能上完成「能力展示 -> 代價示警」轉折（事件細節見 Timeline）
+canon\05_story_outline_canon.md:123:- [守恆定律揭露](04_timeline_canon.md#event-conservation-revealed)：守恆規則首次成為主衝突驅動（條文口徑見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
+canon\05_story_outline_canon.md:125:- [共振地獄第一階段](04_timeline_canon.md#event-resonance-hell-1)：黑奏方案由隱性操控轉入可觀測部署（機制口徑見 [Glossary](02_glossary.md#term-resonance-hell)）。
+canon\05_story_outline_canon.md:186:- [夕完全接管](04_timeline_canon.md#event-yu-takeover)→改變現實嘗試失敗→[緋潮](02_glossary.md#term-scarlet-tide)爆發（客觀因果鏈見 Timeline）
+canon\05_story_outline_canon.md:231:- 以角色抉擇承載[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)的代價回收（規則條文不在此重述）
+canon\05_story_outline_canon.md:436:> 來源收斂自 script_refinement 母文檔；本節只保留 Canon 層級可用的節拍到場景功能映射，不展開技術執行稿。
+canon\03_character_index.md:99:秋穗的雙胞胎妹妹、晴香與美夜子的母親。此條目只保留關係定位；事件事實與死因版本以 Timeline 為準。
+canon\03_character_index.md:107:彩無血緣的姊姊，夜區戰爭孤兒。此條目只保留角色功能（創傷觸發者與情感錨點）；完整事件敘述以 Timeline 與彩/黑奏角色檔為準。
+canon\03_character_index.md:115:操的管家，真正的守護者。此條目只保留關係與主題功能；臨終揭露與崩潰事件細節以 Timeline 與操角色檔為準。
+canon\03_character_index.md:123:黑奏的養父。此條目只保留權力關係定位；篡位事件與轉折敘述以 Timeline 與黑奏角色檔為準。
+canon\03_character_index.md:131:朱音的弟弟，朱音創傷鏈的起點人物。此條目只保留角色功能；事故經過與心理後果以朱音角色檔為準。
+canon\10_gameplay_bible.md:82:- **殺死**：短期效率高，但在長線回饋上會推高世界層債務（規則口徑見 [World Rules：情緒守恆](01_world_rules_and_costs.md#rule-emotion-conservation)）
+canon\10_gameplay_bible.md:83:- **淨化**：提供戰術緩衝，不等同長線解決（狀態口徑見 [Entities：魔法屍骸](07_entities_and_devices.md#section-magical-corpse)）
+canon\10_gameplay_bible.md:84:- **靈魂抽離**：屬高門檻但高價值的終局處理（流程口徑見 [§ 靈魂抽離機制](#section-soul-extraction)）
+canon\06_visual_bible.md:231:**視覺用途**：光環用作魔法少女狀態讀取的主視覺層；術語口徑見 [Glossary：光環](02_glossary.md#term-halo) 與 [World Rules](01_world_rules_and_costs.md)。
+canon\03_characters\antagonist.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
+canon\03_characters\antagonist.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏把「映照真實」當作可被操控的舞台道具。角色意義上，這是她修正主義的視覺化；法則條文與演出規格分別見 [World Rules](../01_world_rules_and_costs.md#rule-mirror-law) 與 [Visual Bible](../06_visual_bible.md#section-law-mirror-visual)。
+canon\03_characters\akiho.md:39:帝國歷 98 年的愛莉事故是秋穗角色弧的不可逆起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
+canon\03_characters\akiho.md:49:為黑奏服務期間，秋穗犯下最不可饒恕的罪行——把美夜子推入 Unit 01 路線。此段聚焦罪責與心理後果；技術流程與事件順序見 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival)。
+canon\03_characters\miyako.md:37:在所有主要角色中，美夜子擁有獨特定位——她是唯一在 [Alpha 線](../02_glossary.md#term-alpha-line)中真正死亡的角色。後續「被拉回」不是奇蹟，而是整個體制代價的集中體現；客觀事件鏈以 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival) 為準。
+canon\03_characters\miyako.md:47:美夜子的貓形態不是主動能力，而是晴香幼年願望留下的代價性綁定。此處只保留角色意義（被保護與被剝奪並存）；觸發條件與規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse) 與 [World Rules：Alpha/Beta 結構](../01_world_rules_and_costs.md#rule-alpha-beta)。
+canon\03_characters\miyako.md:57:在一次「悲慟風暴」壓制任務中，凜為掩護她撤離而被處決。目睹這一刻後，美夜子的情緒防線崩潰並進入黑貓形態，從此脫離軍方控制。事件細節見 [Timeline：凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)；規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse)。

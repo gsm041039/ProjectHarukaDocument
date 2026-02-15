@@ -1,100 +1,207 @@
+# 白銀朔（Shirogane Saku）
+
+> **讀者指引**：本頁是朔的單一角色 Canon Sheet，整合背景故事、心理弧光、視覺設計與關係網絡。
+> 首次閱讀建議先看 [§ Header Table](#char-saku) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/02_Secondary_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md-->
+
 ---
-doc_id: CAN-03-SAKU
-title: "白銀朔 (Shirogane Saku)"
-status: Canon
-scope: "角色背景、心理弧光、關係網絡、行為特徵"
-sources:
-  - "screenwriter/01_Character_Background_Story.md"
-  - "screenwriter/06_Character_Psychology_Analysis.md"
-last_updated: 2026-02-08
+
+## <a id="section-char-scope"></a>角色文件職責邊界
+
+- 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
+- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+
+---
+## <a id="char-saku"></a>Header Table
+
+| 欄位 | 內容 |
+|------|------|
+| **全名** | 白銀朔（しろがね さく） |
+| **年齡** | 20 代中期（主線期） |
+| **身份** | [夜區](../02_glossary.md#term-night-district)[靈樹](../02_glossary.md#term-spirit-tree)守護者、屍骸獵人、情緒管理局外勤特工 |
+| **關係** | [美夜子](miyako.md)的青梅竹馬戀人（[Alpha 線](../02_glossary.md#term-alpha-line)） |
+| **創傷** | 親手參加美夜子葬禮 → 在戰場遇到長著愛人臉的 Unit 01 |
+| **Archetype** | 復仇者 (The Avenger) → 守護者 (The Guardian) → 解放者 (The Liberator) |
+| **存活狀態** | 存活 |
+
 ---
 
-# CAN-03: 白銀朔 (Shirogane Saku)
+## <a id="section-background"></a>背景故事
 
-## 基本資料
+### 最遙遠距離的悲歌
 
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
+朔是[夜區](../02_glossary.md#term-night-district)最年輕的[靈樹](../02_glossary.md#term-spirit-tree)守護者，與[美夜子](miyako.md)在夜區長大，青梅竹馬，感情深厚。在 [Alpha 線](../02_glossary.md#term-alpha-line)中，兩人是戀人。美夜子的「死亡」對朔而言是世界的崩塌——他親手參加了愛人的葬禮，親眼看著棺材被合上。
 
-- **身份**：夜區靈樹守護者、屍骸獵人、情緒管理局外勤特工
-- **年齡**：20 代中期（帝國歷 113 年時）
-- **關係**：美夜子的青梅竹馬戀人（Alpha 線）
-- **創傷**：親手參加美夜子的葬禮，多年後遇到長著愛人臉的 Unit 01
+### 最痛苦的目擊者
 
-## 背景故事
+朔再次見到美夜子時，最痛的不是「她變了」，而是「她仲喺度，但唔再屬於自己」。  
+這次目擊把朔由哀悼者推成追索者：他唔再只想報仇，而係想確認對方仲有冇主體性。
 
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
-> **詳細**: 母文檔保留完整屍骸獵人轉變、角色弧光觸發點
+**See also**: [朔的發現](../04_timeline_canon.md#event-saku-discovery) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival)
 
-**最遙遠距離的悲歌**：
-朔曾是夜區最年輕、最有天賦的靈樹守護者，與美夜子是青梅竹馬的戀人。他親眼目睹了美夜子死於意外，並親手參加了她的葬禮，將摯愛埋葬。這份失去，曾是他心中最深的痛。
+### 既視感追認——從臉孔辨識到行為辨識
 
-**最痛苦的目擊者**：
-多年後，命運對他開了最殘酷的玩笑。在一次慘烈的戰場上，他遇到了一個代號為**「Unit 01」**的帝國新型兵器。那具冷酷無情、沒有靈魂的殺戮機器，竟然長著一張與他死去的愛人一模一樣的臉。那張臉是他死去的愛人，但眼神完全陌生。朔的世界在那一刻崩塌了。他不知道眼前的存在究竟是被操控的屍體、是殘忍的贗品，還是某種奇蹟。
+在主線後段，朔不再依賴「她長得像美夜子」這種外觀證據，而是從她的戰鬥節奏、保護優先序、停頓習慣中確認「那就是她」。  
+這個轉變的心理意義是：朔放棄把美夜子當作「要復原成舊樣子的遺失物」，改以「已改變但仍連續的主體」去承認她。既視感因此不是懷舊，而是現實中的關係重建。
 
-**以身飼虎——雙面特工**：
-為了尋找生存的意義，為了獲得足以對抗未知黑幕的力量，他做出了最艱難的選擇——隱藏自己的過去，「以身飼虎」，加入了帝國最神秘的組織「情緒管理局」，成為一名外勤特工。從此，他遊走在黑白之間，白天是遵循命令的冷酷特工，夜晚則是狩獵一切魔法屍骸、追尋個人正義的神秘獵人，成為了一名專門獵殺怪物的「屍骸獵人」。
+### 以身飼虎
 
-他繼續擔任獵人，不再是為了復仇，而是為了**「確認」**真相，以及尋求最終的**「解脫」**——如果那是被操控的亡靈，他要親手讓她安息；如果她還活著，他要帶她回家。他遊走在崩潰的邊緣，每一次扣下扳機，都是對自己靈魂的拷問。
+為了接近 Unit 01 的真相，朔加入情緒管理局成為雙面特工。白天是冷酷的外勤特工，執行清剿[魔法屍骸](../02_glossary.md#term-magical-corpse)的任務；夜晚是孤獨的屍骸獵人，在夜區巡邏的同時暗中尋找美夜子的痕跡。這種分裂的雙面生活將他的精神推向極限。
 
-**角色弧光的觸發點——保護的殘響**：
-朔對魔法屍骸的態度，在一次執行任務時發生了根本性的轉變。他奉命清除一處被屍骸盤據的廢棄建築，卻在執行過程中目睹了改變他一生的一幕：一個年幼的屍骸即將被倒塌的瓦礫壓碎時，另一個成年屍骸突然停下漫無目的的遊蕩，用自己的身體擋在小屍骸前面。這個「保護」的動作沒有任何實際意義——兩個屍骸都會被壓碎、然後再生——但那一瞬間的「選擇」，卻徹底動搖了朔的信念。
+### 保護的殘響
 
-他意識到，即使是被稱為「怪物」的魔法屍骸，在某些殘存的意志碎片中，依然保留著「保護」這個概念。這份發現，徹底觸發了朔內心深處的正義感。他對魔法屍骸的態度，從最初的「清除威脅」，轉變為一份沉重的責任——他要成為這些被命運拋棄的靈魂的「解放者」，決心以自己的方式，結束她們永無止境的痛苦。這份覺醒，也讓他重新審視了美夜子——如果連失去意識的屍骸都能保有「選擇」的殘響，那麼依然擁有靈魂的美夜子，無論外表如何改變，都絕對值得被守護。
+轉捩點發生在一次夜間巡邏中：朔目睹一具成年[魔法屍骸](../02_glossary.md#term-magical-corpse)用殘破的身體保護年幼屍骸免受攻擊。那一刻，他從屍骸的行為中看到了[殘響](../02_glossary.md#term-echo)——即使是失去人性的存在，也保留著「保護」的本能。他的態度從「清除威脅」轉變為「解放被囚禁的靈魂」。
 
-## Want / Need / Lie / Truth
+**See also**: [屍骸的遺願](../02_glossary.md#term-corpse-last-wishes) | [微弱的感謝](../02_glossary.md#term-faint-gratitude)
 
-> **來源**: [[screenwriter/06_Character_Psychology_Analysis]]
+---
+
+## <a id="section-wnlt"></a>Want / Need / Lie / Truth
 
 **Want（顯性欲望）**：
-- 確認真相——眼前的 Unit 01 到底是誰
-- 解脫——如果是被操控的亡靈，親手讓她安息；如果她還活著，帶她回家
-- 成為屍骸的解放者——結束她們永無止境的痛苦
+- 確認 Unit 01 是否保留美夜子的意識
+- 成為[魔法屍骸](../02_glossary.md#term-magical-corpse)的解放者，而非殺戮者
+- 找到「救回」美夜子的方法
 
 **Need（隱性需求）**：
-- 接受失去——美夜子可能已經不是原本的她
-- 學會放手——允許美夜子選擇自己的道路
-- 承認自己的無力——不是所有痛苦都能被解除
+- 接受失去——美夜子已經不是記憶中的那個人
+- 允許美夜子選擇自己的路，而非替她決定命運
+- 學會放手不等於遺忘，[態度](../02_glossary.md#term-attitude-vs-fate)比結果更重要
 
 **Lie（核心謊言）**：
-- 「只要找到真相，我就能解脫」
-- 「我能拯救她」
-- 「屍骸只是需要被清除的威脅」
+- 「只要找到真相就能解脫」——真相可能比不知道更痛苦
+- 「我能拯救她」——不是所有人都需要被拯救
+- 「屍骸只是需要被消滅的威脅」——早期的自我欺騙
 
 **Truth（最終真相）**：
-- 真相可能比不知道更痛苦
-- 有些人已經改變，回不去了
-- 即使是怪物，也保留著「選擇」的殘響
-
-## Archetype & Symbolism
-
-> **來源**: [[director/Core_Characters_Symbolism_Analysis]]
-
-**Archetype**：復仇者 (The Avenger) → 守護者 (The Guardian) → 解放者 (The Liberator)
-
-**象徵**：
-- **雙面身份**：情緒管理局特工（白天）vs 屍骸獵人（夜晚）
-- **扳機**：每一次扣下扳機都是對靈魂的拷問
-- **保護的殘響**：即使是屍骸，也保留著「保護」的意志碎片
-
-## Relationships
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
-
-- **美夜子**：青梅竹馬戀人（Alpha 線），親手埋葬，後遇到 Unit 01（長著美夜子臉的兵器）
-- **情緒管理局**：雙面特工，表面效忠，實際追尋真相
-- **魔法屍骸**：從「清除威脅」到「解放靈魂」的對象
-
-## Behavior Hooks（關鍵習慣）
-
-> **來源**: [[screenwriter/09_Character_Senses_Private_Habits_Setting]]
-
-**關鍵習慣**（3-5 個核心習慣）：
-1. **雙面生活**：白天冷酷特工，夜晚孤獨獵人——遊走在黑白之間
-2. **扳機前的猶豫**：每次扣下扳機前都會猶豫，對自己靈魂的拷問
-3. **尋找美夜子的痕跡**：在每個戰場尋找 Unit 01，試圖確認真相
-4. **屍骸的慈悲處決**：從清除威脅轉變為解放靈魂——「我會結束妳的痛苦」
-5. **崩潰邊緣的掙扎**：每次見到 Unit 01 都接近崩潰，但強迫自己冷靜
+- 真相可能比不知道更痛苦；但面對真相是唯一的前進方式
+- 即使跌到最差形態，個體仍可能保留最少限度的選擇痕跡（口徑見 [殘響](../02_glossary.md#term-echo)）
+- 解放不是毀滅，而是歸還選擇權
 
 ---
 
-**注意**: 詳細屍骸獵人轉變、角色弧光觸發點、與美夜子的關係見母文檔 [[screenwriter/02_Secondary_Character_Background_Story]]（標記為 Draft）。
+## <a id="section-archetype"></a>Archetype & Symbolism
+
+**Archetype 變遷**：復仇者 (The Avenger) → 守護者 (The Guardian) → 解放者 (The Liberator)
+
+**象徵**：
+- **雙面身份（白天特工 / 夜晚獵人）** — 日間的「完美秩序」與夜間的「混沌真實」撕裂朔的存在。制服的絕對對稱 vs. 夜服的極度不對稱，是內心分裂的外在具現
+- **扳機（靈魂的拷問）** — 每次扣扳機前的猶豫，是「清除」與「解放」之間的道德掙扎。扳機是他與屍骸之間最後的倫理邊界
+- **保護的殘響** — 成年屍骸保護幼年屍骸的場景，是朔世界觀轉變的核心意象。證明即使在[情感耗損](../02_glossary.md#term-emotional-erosion)的盡頭，「保護」的本能仍然殘存
+
+---
+
+## <a id="section-four-act-arc"></a>四幕弧光
+
+### [第一幕](../05_story_outline_canon.md#section-act-1)：雙面特工
+
+朔以情緒管理局外勤特工身份行動，白天執行任務，夜晚在[夜區](../02_glossary.md#term-night-district)巡邏。暗中收集 Unit 01 相關情報，尋找美夜子的痕跡。此時的他是冷酷的復仇者——為了接近真相可以不擇手段。
+
+### [第二幕](../05_story_outline_canon.md#section-act-2)：真相與轉變
+
+發現 Unit 01 的真相：美夜子的靈魂確實存在於其中，但已被嚴重扭曲。目睹「保護的殘響」事件後，朔的態度從復仇轉向守護。開始質疑情緒管理局的[魔法屍骸](../02_glossary.md#term-magical-corpse)清剿政策——屍骸不是需要消滅的威脅，而是需要被解放的靈魂。
+
+### [第三幕](../05_story_outline_canon.md#section-act-3)：解放者覺醒
+
+「保護的殘響」理念徹底覺醒。朔決心解放所有被囚禁的靈魂，不再為任何一方的利益服務。他成為獨立的解放者，與[晴香](haruka.md)團隊建立同盟，共同對抗將靈魂當作資源的體制。
+
+### [第四幕](../05_story_outline_canon.md#section-act-4)：重逢與放手
+
+與美夜子重逢。接受她已經改變的事實——她不再是記憶中那個青梅竹馬的少女，而是經歷過死亡、冰封、兵器化與[避難所詛咒](../02_glossary.md#term-sanctuary-curse)的全新存在。朔學會的不是「找回失去的人」，而是「接受眼前的人」。
+
+**See also**: [美夜子覺醒](../04_timeline_canon.md#event-miyako-awakening)
+
+---
+
+## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
+
+1. **雙面生活** — 白天穿純白西裝以「完美特工」身份行動，面無表情；夜晚換上少數民族風格獵裝，在廢墟間獨自巡邏。兩套服裝之間的切換是每天最痛苦的儀式
+2. **扳機前的猶豫** — 每次瞄準屍骸扣扳機前都會猶豫 0.5 秒。這個習慣讓他在同僚眼中是「心太軟的菜鳥」，但正是這份猶豫讓他沒有徹底喪失人性
+3. **尋找美夜子的痕跡** — 每個戰場、每次任務都會下意識搜索 Unit 01 的蹤跡。收集所有與美夜子相關的碎片情報，在安全屋中拼湊成情報板
+4. **屍骸的慈悲處決** — 從「清除」進化為「解放」。處決屍骸前會低聲說「安息」，並在殘骸前停留數秒——這是他對逝去靈魂最後的尊重
+5. **崩潰邊緣的掙扎** — 每次見到 Unit 01 都接近精神崩潰。美夜子的臉配上空洞的殺戮機器眼神，是他最深的恐懼具象化
+
+---
+
+## <a id="section-visual"></a>視覺要點
+
+| 欄位 | 內容 |
+|------|------|
+| **身高 / 體型** | 183cm / 倒三角形，獵豹般精瘦爆發力 |
+| **核心關鍵詞** | 分裂、偽裝、星月 |
+| **主色** | 日間：純白 + 鮮紅；夜間：綠松石藍 + 大地色 |
+| **基礎幾何** | 日間絕對對稱 / 夜間極度不對稱 |
+
+### 日間形態（情緒管理局特工）
+
+- 純白緊身西裝 + 鮮紅領帶，完美對稱，一絲不苟
+- 金色小辮子是唯一打破對稱的元素——無聲的反叛，暗示內心尚未被體制完全同化
+- 武器：高科技伸縮警棍（制式裝備）
+
+### 夜晚形態（屍骸獵人）
+
+- 藏族 / 少數民族風格獵裝，綠松石藍色調，極度不對稱
+- 單肩披風、腰間編織繩結、骨制護身符——[夜區](../02_glossary.md#term-night-district)傳統與[靈樹](../02_glossary.md#term-spirit-tree)信仰的具現
+- 武器：改裝十字弓（個人武器，每根箭矢都刻有祝禱文）
+
+### 關鍵飾品
+
+- **月亮形耳環** — 與美夜子的星型髮夾成對——「星月相隨」。美夜子生死不明後，朔再也沒有摘下這只耳環
+
+### 視覺演變
+
+| 幕 | 日 / 夜形態 | 關鍵變化 |
+|----|------------|---------|
+| 第一幕 | 兩套形態涇渭分明 | 雙面生活穩定運作 |
+| 第二幕 | 日間形態開始出現夜間元素（繩結手環） | 內心分裂加劇 |
+| 第三幕 | 兩套形態融合——白色獵裝 + 綠松石飾品 | 解放者身份確立 |
+| 第四幕 | 放棄制服，穿回夜區傳統服飾 | 回歸真實自我 |
+
+---
+
+## <a id="section-relationships"></a>Relationships
+
+| 對象 | 關係 | 核心動態 |
+|------|------|---------|
+| [美夜子](miyako.md) | 青梅竹馬戀人（[Alpha 線](../02_glossary.md#term-alpha-line)） | 從失去→尋找→重逢→接受改變。「星月相隨」的殘響 |
+| [晴香](haruka.md) | 同盟 | 朔從晴香身上看到美夜子守護的對象；最終成為解放者同盟 |
+| [秋穗](akiho.md) | 仇恨與理解 | 秋穗是將美夜子變成 Unit 01 的執行者；但朔逐漸理解秋穗的罪與悔 |
+| [黑奏](antagonist.md) | 敵對 | 黑奏是一切悲劇的根源；朔的復仇最初指向黑奏 |
+| [朱音](iwakura_akane.md) | 鏡像 | 兩人都因失去至愛而墮入黑暗，但選擇了不同的道路——朱音成為屍骸首領，朔成為屍骸解放者 |
+| [愛莉](airi.md) | 對照 | 愛莉（魔法屍骸石像）是朔理解「屍骸也有靈魂」的活證據 |
+
+---
+
+
+## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
+
+- [朔的發現](../04_timeline_canon.md#event-saku-discovery)：確認 Unit 01 與美夜子身份連結。
+- [朔與美夜子的既視感追認](../04_timeline_canon.md#event-saku-miyako-dejavu)：由外觀識別升級為行為識別，關係重建啟動。
+- [故事後段開端](../04_timeline_canon.md#event-post-story-begin)：由倖存者轉向解放者。
+- [最終決戰](../04_timeline_canon.md#event-final-battle)：完成凡人路徑的主題驗證。
+
+---
+## <a id="section-role-function"></a>角色功能（Narrative Function）
+
+- 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 本角色的獨有功能與取向，以本頁各章節為準。
+
+---
+## <a id="section-canon-constraints"></a>禁忌（不可改設定）
+
+- 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 若本角色另有專屬硬限制，以本頁明示條目優先。
+## <a id="section-see-also"></a>See also
+
+- [Character Index](../03_character_index.md)
+- [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
+- [Timeline: 朔的發現](../04_timeline_canon.md#event-saku-discovery) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival)
+- [Glossary: 殘響](../02_glossary.md#term-echo) | [魔法屍骸](../02_glossary.md#term-magical-corpse) | [屍骸的遺願](../02_glossary.md#term-corpse-last-wishes) | [態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
+- [美夜子 Canon Sheet](miyako.md) — 青梅竹馬戀人
+
+
+
+
+

@@ -1,0 +1,6 @@
+43:- **[Alpha 線真相](04_timeline_canon.md#event-alpha-divergence)**：本作原罪入口與角色動機源頭；客觀事件鏈以 Timeline 為準
+186:- [夕完全接管](04_timeline_canon.md#event-yu-takeover)→改變現實嘗試失敗→[緋潮](02_glossary.md#term-scarlet-tide)爆發（客觀因果鏈見 Timeline）
+231:- 以角色抉擇承載[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)的代價回收（規則條文不在此重述）
+238:- [魔法系統終結](04_timeline_canon.md#event-magic-system-end)：在結構上完成世界狀態收束（客觀狀態變更見 Timeline）
+371:| 概念揭露 | Act II-III | 守恆規則由背景設定上升為劇情主驅動（條文見 World Rules） |
+372:| 歷史揭露 | Act III | 角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |

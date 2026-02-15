@@ -1,0 +1,60 @@
+25:| **起** | [日常的裂痕與命運的相遇](#section-act-1) | 建立代入→同步誤導 | 懸疑+親密的心理驚悚 | 113 年 3-4 月 |
+26:| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 5 月-114 年 4 月 |
+27:| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 5 月 |
+28:| **合** | [重生或毀滅](#section-act-4) | 回答存在問題→主題閉環 | 史詩悲壯+存在主義孤寂 | 114 年 7-9 月 |
+36:**時間**：帝國歷 0-112 年（見 [Timeline §I-III](04_timeline_canon.md#section-shared-history)）
+42:- [彩/黑奏的精神分裂](04_timeline_canon.md#event-kurokanae-trauma)（姊姊螢被槍殺）
+59:**1. 覺醒與組隊**（[113 年 3-4 月](04_timeline_canon.md#section-113-march)）
+68:**3. [情緒連結](02_glossary.md#term-emotion-link)首戰**（[113 年 4 月](04_timeline_canon.md#event-emotion-link-first)）
+76:**5. [總部被襲](04_timeline_canon.md#event-hq-raid)**：虛榮的代價
+87:| [操](03_characters/ayakomoji_sou.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
+96:**氛圍**：山雨欲來的史詩感。基調變得宏大，充滿團隊戰鬥的熱血與壯烈。然而，在史詩表象之下，潛藏著濃厚的不安——同伴的犧牲、體制的無情、黑奏陰謀的冰山一角。
+102:**1. 朱音墮落與屍骸女王**（[113 年 5 月底-6 月中](04_timeline_canon.md#section-113-may-late)）
+103:- [小光之死](04_timeline_canon.md#event-ko-hikaru-death)：朱音戒斷時小光被屍骸化，黑奏誘惑「他沒有死，只是換了生存方式」
+105:- [朱音放逐](04_timeline_canon.md#event-akane-exile)：證明「不是所有人都能在此刻被拯救」——[黑暗治癒](02_glossary.md#term-dark-healing)主題的第一個實證
+107:**2. 社會性死亡**（[113 年 6 月底-7 月](04_timeline_canon.md#section-113-june-late)）
+110:- [經理人背叛](04_timeline_canon.md#event-manager-betrayal)：肖像權被奪走製造「晴香版[情緒毒品](02_glossary.md#term-emotion-drug)」
+112:**3. [鏡像破碎之夜](04_timeline_canon.md#event-mirror-shatter-night)**（[113 年 7-8 月](04_timeline_canon.md#section-113-july-august)）
+113:- [紗夜犧牲](04_timeline_canon.md#event-sayo-sacrifice)：在結構上把操由「角色面具」推向「身份崩解」
+115:- 魔法少女被全面通緝：在結構上把敘事舞台由「公開行動」轉成「地下生存」
+117:**4. 晴香與夕和解**（[114 年 3 月](04_timeline_canon.md#event-haruka-yu-integration)）
+122:**5. 真相揭露期**（[114 年 4 月](04_timeline_canon.md#section-114-april)）
+124:- [凜的最終崩潰](04_timeline_canon.md#event-rin-final-collapse)：把「可逆挽回」路線封死，為第三幕失敗奠基
+127:**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
+128:- 晴香帶隊救援被困的美夜子——功能上完成「主角被動反應 -> 主角主動承擔」
+137:| [美夜子](03_characters/miyako.md) | 冷靜的隊長 | 信任被打破的傲慢者 | 獨自調查被困→被隊友救援→「你連我們都不信！」 |
+139:| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+161:- 第 13 天：操「[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)」——被控制、假髮被打掉、真實樣貌曝露。領悟「即使殘缺也能守護」，主動扯斷絲線，第一次「擁抱失控」
+163:**3. [嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)**——雙重犧牲
+165:- [雙重犧牲](04_timeline_canon.md#event-double-sacrifice)：在結構上完成「高峰能量 -> 高代價回收」的第三幕中段節點
+166:- **治癒意義**：朱音和操的有尊嚴死亡——即使面對死亡仍選擇如何離開
+171:- **第三階段**：以崩潰釋放完成角色防線卸下，讓第四幕可承接「接納而非修正」路線
+172:- **治癒意義**：[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)的正面展示——痛苦不消失，但可以被釋放、承認、陪伴
+186:- [夕完全接管](04_timeline_canon.md#event-yu-takeover)→改變現實嘗試失敗→[緋潮](02_glossary.md#term-scarlet-tide)爆發（客觀因果鏈見 Timeline）
+191:- 晴香意識被困 20 年，夕維持身體機能、對抗黑奏侵蝕
+205:- 晴香被困於「完美世界」：功能上對主角施加最強情感誘惑壓力（場景細節見 Timeline）
+219:**4. [共振地獄](02_glossary.md#term-resonance-hell)第三階段**：終極選擇題（[114 年 9 月](04_timeline_canon.md#event-resonance-hell-3)）
+222:- **故事主題的最終回答**：「強制的透明，不是真正的理解——那只是剝奪了『想要被理解』這份努力的權利。」「不確定中的信任，才是真正的連結。」
+229:**6. [彩的覺醒與犧牲](04_timeline_canon.md#event-aya-awakening)**
+237:- 被強行轉化為「[三位一體](01_world_rules_and_costs.md#rule-trinity-spectrum)的永恆守護者」——以態度完成結局
+251:| [朔](03_characters/saku.md) | 管理局叛逃者 | 解放者 | 解放被體制囚禁的靈魂 |
+264:| **變身與[鏡像](01_world_rules_and_costs.md#rule-mirror-law)的真實** | 變身/照鏡場景 | 認知跳幀、旁觀者記憶被縫合、鏡中映照被壓抑的真相 | 只在變身與照鏡時生效 |
+266:| **生理滲漏** | 情緒崩潰時 | 味覺喪失、眩暈、短暫失語、反胃、瞬間失溫 | 保持「可被解釋成心理問題」的曖昧度 |
+274:| **Act III** | 高 | Alpha/Beta 幾乎同畫面並存，形成認知崩潰；黑奏撕開空間展示 Alpha 線真相 |
+283:| [朱音](03_characters/iwakura_akane.md) | 可被拯救的普通少女 | 成癮戰鬥者 | 聽覺失真、戰鬥後空洞感加劇 |
+284:| [操](03_characters/ayakomoji_sou.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
+285:| [凜](03_characters/rin.md) | 本不應成為兵器 | 被重組的傀儡 | 情緒平坦化、短暫情感復甦 |
+301: │            社會性死亡     ╲  ╱ 母愛琥珀
+313:| 情緒連結崩潰 | Act I 後期 | ↓ 恐懼 | 第一次「被強行入侵」的恐怖 |
+314:| 朱音墮落/社會性死亡 | Act II 前期 | ↓↓ 絕望 | 英雄敘事開始崩塌 |
+317:| 朱音回歸/雙重犧牲 | Act III 中期 | ↑↑↓↓ 極端波動 | 最激昂→最悲壯→轉瞬消逝 |
+335:| 2. 分裂 | 113 年 5-6 月 | 利用朱音墮落、操虛榮、媒體輿論 | 摧毀團隊凝聚力 |
+336:| 3. 抹殺 | 113 年 6-8 月 | 夕的背叛→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
+337:| 4. 試驗 | 114 年 4-5 月 | 毒品危機→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
+338:| 5. 收割 | 114 年 9 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
+345:| Act II 前期 | 內部分裂 + 社會排斥 | ★★★☆☆ | 朱音背叛、操崩潰、團隊瓦解 |
+346:| Act II 後期 | 全面通緝 + 真相揭露 | ★★★★☆ | 地下抵抗軍，資源匱乏 |
+347:| Act III | 恐怖家家酒 + 決戰 | ★★★★★ | 每天與死亡共存 |
+369:| 鋪陳 | Act I | 晴香首次變身後感到「某樣東西被抽走」的空虛——以為是消耗體力 |
+372:| 歷史揭露 | Act III | 角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |
+412:| 2 | **[朱音、操的有尊嚴死亡](04_timeline_canon.md#event-double-sacrifice)** | Act III | 態度選擇的治癒——即使面對死亡仍選擇如何離開 | 「我唔想再一個人食飯。」 |

@@ -1,106 +1,223 @@
+# 東雲秋穗（Shinonome Akiho）
+
+> **讀者指引**：本頁是秋穗的單一角色 Canon Sheet，整合背景故事、心理弧光、視覺設計與關係網絡。
+> 首次閱讀建議先看 [§ Header Table](#char-akiho) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md-->
+
 ---
-doc_id: CAN-03-AKIHO
-title: "東雲秋穗 (Shinonome Akiho)"
-status: Canon
-scope: "角色背景、心理弧光、關係網絡、行為特徵"
-sources:
-  - "screenwriter/01_Character_Background_Story.md"
-  - "screenwriter/06_Character_Psychology_Analysis.md"
-last_updated: 2026-02-08
+
+## <a id="section-char-scope"></a>角色文件職責邊界
+
+- 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
+- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+
+---
+## <a id="char-akiho"></a>Header Table
+
+| 欄位 | 內容 |
+|------|------|
+| **全名** | 東雲秋穗（しののめ あきほ） |
+| **年齡** | 40 代（主線期） |
+| **身份** | 頂尖生命機械學家、[情緒力量裝置](../02_glossary.md#term-emotional-power-device)原型研發者 |
+| **家庭** | 雙胞胎妹妹花子（已逝）、女兒[愛莉](airi.md)（[魔法屍骸](../02_glossary.md#term-magical-corpse)石像） |
+| **職位** | 前軍方情緒力量研究核心人員、[黑奏](antagonist.md)合作者 |
+| **Archetype** | 瘋狂科學家 (The Mad Scientist) → 悔恨的母親 (The Remorseful Mother) → 放手者 (The One Who Lets Go) |
+| **存活狀態** | 存活 |
+
 ---
 
-# CAN-03: 東雲秋穗 (Shinonome Akiho)
+## <a id="section-background"></a>背景故事
 
-## 基本資料
+### 被遺忘的第二名
 
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
+秋穗與花子是雙胞胎姊妹。花子是天才中的天才——所有人的目光、讚美、期待都投向花子。秋穗永遠是「第二名」，永遠活在花子的陰影下。這份比較心態深入骨髓，成為她一切行為的原始驅動力：必須超越花子，必須證明自己不是附屬品。
 
-- **身份**：頂尖生命機械學家、情緒力量裝置原型研發者
-- **家庭**：雙胞胎妹妹花子（已逝）、女兒愛莉（成為魔法屍骸石像）
-- **年齡**：40 代（帝國歷 113 年時）
-- **職位**：軍方情緒力量研究核心人員、與黑奏合作者
+### 愛莉的意外——第一個人造屍骸
 
-## 背景故事
+愛莉事故構成秋穗角色弧的關鍵起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
 
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story#^block9]]
-> **詳細**: 母文檔保留完整與花子的競爭、愛莉實驗室意外、石像前懺悔、來自錯誤未來的無臉執行官
+**See also**: [愛莉事故](../04_timeline_canon.md#event-airi-accident)
 
-**被遺忘的第二名**：
-秋穗的人生始終籠罩在雙胞胎妹妹花子的陰影下。花子是天才，是光芒萬丈的太陽；而秋穗只是努力的凡人，是追逐太陽的影子。同為頂尖的生命機械家，花子在研究上似乎總能更勝一籌，這讓好勝的秋穗產生了強烈的比較心態。她將大量時間投入研究，渴望證明自己，卻也因此長期忽略了對女兒愛莉的關心。這份愧疚，在她心中埋下了悲劇的種子。
+### 與魔鬼的契約
 
-**愛莉的意外——第一個人造屍骸**：
-在軍方推動情緒力量研究的背景下，她的女兒愛莉，或許是出於對母親關愛的渴望，又或是單純的好奇，闖入了她進行「連接精神世界」實驗的秘密實驗室。在無意中，愛莉接觸了正在運作的實驗裝置，她的靈魂被暴力扭曲，成為了第一個人造的、不可逆轉的魔法屍骸。當政府與軍方判定沒有研究疫苗的價值，放棄了她的女兒後，秋穗的世界徹底崩塌。
+秋穗與黑奏的交易本質是「以母愛為名的自我綁架」：她明知代價殘酷，仍把希望押在黑奏手上。  
+從這一刻起，秋穗每一次「為了救女兒」的決策，都同時在傷害另一批女兒。
 
-**與魔鬼的契約**：
-就在她最絕望的時刻，已成為帝國皇帝的黑奏出現在她面前，向她提供了救活女兒的方法——只要能收集到巨大的、來自眾人的情緒能量，就能夠逆轉變化、改變現實。從此，秋穗為了這個看似不可能的希望，與魔鬼立下契約，開始為黑奏服務，並暗中培養晴香，希望利用她來實現自己拯救女兒的、瘋狂而悲哀的計劃。
+### 罪孽的繼承者
 
-**罪孽的繼承者**：
-美夜子的悲劇，是秋穗罪孽的鐵證。為了完成妹妹的遺願，或是為了證明自己能超越生死，她親手將外甥女變成了實驗品「Unit 01」。這解釋了她後來對晴香那種近乎窒息的「過度保護」與「利用」並存的矛盾心理——因為她已經毀了一個女兒，她不能再毀第二個，但為了拯救自己的親生女兒愛莉，她又不得不再次利用晴香的力量。
+為黑奏服務期間，秋穗犯下最不可饒恕的罪行——把美夜子推入 Unit 01 路線。此段聚焦罪責與心理後果；技術流程與事件順序見 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival)。
 
-**石像前的懺悔——無聲的對話**：
-自從愛莉成為石像後，秋穗養成了每天對著女兒說話的習慣。那些話語有時是科學報告，有時是日常瑣事，更多時候是深夜的懺悔——「如果我當時多陪妳一些...」「如果我沒有那麼執著於研究...」「對不起，對不起...」她嘗試過無數次用科學儀器「修復」愛莉，調整參數、更換設備、甚至用自己的生命力作為能量來源，但每一次都以失敗告終。這個曾經自信滿滿的科學家，在女兒面前成了一個無助的母親。
+**See also**: [美夜子復活](../04_timeline_canon.md#event-miyako-revival)
 
-然而秋穗不知道的是，在集體潛意識的深處，愛莉其實**聽得到一切**。每一句懺悔、每一聲嘆息、每一滴落在冰冷石像上的淚水——她的靈魂雖然無法控制肉體，卻從未離開過這個世界。
+### 石像前的懺悔
 
-**瘋狂的結果論**：
-花子死後，留下了未完成的研究和晴香。在秋穗眼中，花子是「任性」的，為了理想拋棄了家人。這份自卑與怨懟，催生了她極端的**「結果論」**價值觀——「過程不重要，結果才是一切。」只要能達成復活女兒愛莉的結果，即使手段卑劣（如開發情緒毒品）也是必要的惡。
+每天，秋穗都會來到愛莉的石像前說話。她傾訴研究進展、說晴香今天的狀況、哭訴自己的罪孽。她不知道的是——愛莉在[集體潛意識](../02_glossary.md#term-collective-unconscious)的精神深處聽得到一切。每一句話，每一聲嗚咽，愛莉都記住了。
 
-## Want / Need / Lie / Truth
+**See also**: [愛莉的濾心機制](../02_glossary.md#term-filter-mechanism)
 
-> **來源**: [[screenwriter/06_Character_Psychology_Analysis]]
+### 瘋狂的結果論
+
+「過程不重要，結果才是一切。」——這句話是秋穗的行事信條。為了救愛莉，她可以犧牲任何人；為了超越花子，她可以跨越任何道德底線。她開發[情緒毒品](../02_glossary.md#term-emo-visor)、協助建立[魔法少女](../02_glossary.md#term-magical-girl)系統、封存真相操控晴香——所有罪行都被「結果」合理化。
+
+---
+
+## <a id="section-wnlt"></a>Want / Need / Lie / Truth
 
 **Want（顯性欲望）**：
-- 復活女兒愛莉，逆轉變化
-- 證明自己能超越妹妹花子——超越生死
-- 保護晴香（同時利用晴香的力量）
+- 復活[愛莉](airi.md)——讓女兒從石像中甦醒
+- 超越花子——證明自己是更優秀的科學家
+- 保護 / 利用[晴香](haruka.md)——既是阿姨的守護，也是黑奏的棋子
 
 **Need（隱性需求）**：
-- 接受愛莉的現狀——放棄修正過去
-- 學會原諒自己——不是所有錯誤都能被修正
-- 聽到女兒的原諒——「我從來沒怪過妳」
+- 接受愛莉的現狀——石像中的愛莉仍然活著，只是以不同形式存在
+- 原諒自己——停止以「救贖」之名累積更多罪孽
+- 聽到女兒的聲音——愛莉需要的不是被修復，而是被原諒
 
 **Lie（核心謊言）**：
-- 「只要收集足夠的情緒能量，就能救活愛莉」
-- 「結果才是一切，過程不重要」
-- 「我必須超越花子，才能證明自己的價值」
+- 「收集足夠能量就能救愛莉」——黑奏的承諾從未打算兌現
+- 「結果才是一切」——過程中造成的傷害同樣真實且會留下長期後果
+- 「我是為了愛莉才這麼做」——部分動機是為了超越花子和自我救贖
 
 **Truth（最終真相）**：
-- 真正的救贖不是「修正過去」，而是「接納現在」
-- 愛莉需要的不是復活，而是母親的原諒與放手
-- 被遺忘的第二名，也值得被愛
-
-## Archetype & Symbolism
-
-> **來源**: [[director/Core_Characters_Symbolism_Analysis]]
-
-**Archetype**：瘋狂科學家 (Mad Scientist) → 悔恨的母親 (Regretful Mother) → 放手者 (The Releaser)
-
-**象徵**：
-- **石像**：愛莉的現狀，秋穗罪孽的鐵證
-- **科學儀器**：試圖修正過去的徒勞嘗試
-- **無臉執行官**：來自錯誤未來的秋穗，罪孽的終極代價
-
-## Relationships
-
-> **來源**: [[screenwriter/02_Secondary_Character_Background_Story]]
-
-- **愛莉**：女兒，第一個人造屍骸，救贖的核心
-- **花子**：雙胞胎妹妹，競爭對象，自卑與怨懟的源頭
-- **晴香**：外甥女，過度保護與利用的對象，封存 Alpha 線真相的執行者
-- **美夜子**：外甥女，罪孽的鐵證（強行復活為 Unit 01）
-- **黑奏**：合作者，提供救活愛莉方法的魔鬼
-
-## Behavior Hooks（關鍵習慣）
-
-> **來源**: [[screenwriter/09_Character_Senses_Private_Habits_Setting]]
-
-**關鍵習慣**（3-5 個核心習慣）：
-1. **石像前的懺悔**：每天對著愛莉石像說話，傾訴科學報告、日常瑣事、深夜懺悔
-2. **科學儀器修復嘗試**：無數次用儀器嘗試「修復」愛莉，但每次都失敗
-3. **過度保護晴香**：近乎窒息的保護，同時暗中培養晴香的力量
-4. **工作狂**：將大量時間投入研究，試圖證明自己能超越花子
-5. **結果論執行**：為達成目的不擇手段，開發情緒毒品等卑劣手段
+- 真正的救贖不是修正過去，而是接納現在
+- 愛莉需要的不是科學奇蹟，而是母親的一句「對不起」和女兒的一句「我原諒妳」
+- [態度比命運更重要](../02_glossary.md#term-attitude-vs-fate)——「我做錯了，但我選擇停下來」本身就是救贖
 
 ---
 
-**注意**: 詳細與花子的競爭、愛莉實驗室意外、石像前懺悔、來自錯誤未來的無臉執行官見母文檔 [[screenwriter/02_Secondary_Character_Background_Story#^block9]]（標記為 Draft）。
+## <a id="section-archetype"></a>Archetype & Symbolism
+
+**Archetype 變遷**：瘋狂科學家 (The Mad Scientist) → 悔恨的母親 (The Remorseful Mother) → 放手者 (The One Who Lets Go)
+
+**象徵**：
+- **石像（罪孽鐵證）** — 愛莉的石像是秋穗一切罪孽的物質化見證。石像不會腐朽，罪孽也不會消散——它永遠立在那裡，逼迫秋穗面對自己
+- **科學儀器（修正過去的徒勞）** — 秋穗的實驗室堆滿失敗的儀器，每一台都代表一次「修正過去」的失敗嘗試。科學是她的信仰，也是她的牢籠
+- **無臉執行官（錯誤未來的秋穗）** — 失敗時間線中的秋穗具現化為無臉執行官——純白緊身衣、面部溶解為星光宇宙。這是「結果論」走到極端的終點：為了結果連自我都消解了
+
+**See also**: [無臉執行官真相](../04_timeline_canon.md#event-faceless-truth) | [秋穗的循環](../04_timeline_canon.md#event-akiho-time-loop)
+
+---
+
+## <a id="section-four-act-arc"></a>四幕弧光
+
+### [第一幕](../05_story_outline_canon.md#section-act-1)：茶餐廳老闆娘
+
+秋穗以「茶餐廳老闆娘」身份守護[晴香](haruka.md)，隱藏科學家過去。表面是溫暖的阿姨，暗中培養晴香的[情緒增幅器](../02_glossary.md#term-emotional-amplifier)能力，監控其力量成長。每天仍到愛莉石像前懺悔。
+
+### [第二幕](../05_story_outline_canon.md#section-act-2)：真相揭露
+
+秋穗在第二幕失去「善意監護人」的道德位置。  
+她從保護者翻轉為加害鏈節點，與晴香的關係由信任轉為審判。規則與機制內容統一回指 [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)。
+
+**See also**: [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)
+
+### [第三幕](../05_story_outline_canon.md#section-act-3)：最後抉擇
+
+面對愛莉的石像做出最後抉擇——放棄修正過去。無數次的科學嘗試全部失敗，黑奏的承諾從未打算兌現。秋穗終於放下「結果論」，不再以救贖之名累積罪孽。
+
+### [第四幕](../05_story_outline_canon.md#section-act-4)：笨蛋老媽
+
+[愛莉](airi.md)的聲音從[集體潛意識](../02_glossary.md#term-collective-unconscious)深處傳來——
+
+> 「笨蛋老媽，我從來沒怪過妳。」
+
+這句話是秋穗整個弧光的終點。她需要的不是「修復愛莉」，而是「被愛莉原諒」。原諒從來都在那裡——是秋穗自己拒絕去聽。
+
+---
+
+## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
+
+1. **石像前的懺悔** — 每天固定時間來到愛莉石像前傾訴。有時是研究進展，有時是對晴香的擔憂，更多時候是無聲的哭泣。這個習慣從未中斷過
+2. **科學儀器修復嘗試** — 實驗室裡堆滿失敗的原型機。每隔一段時間，秋穗就會徹夜不眠地嘗試新方案，然後在失敗後砸毀一切。隔天又重新開始
+3. **過度保護晴香** — 以阿姨身份近乎窒息地保護晴香——不允許晴香冒險、不允許晴香接觸真相。保護的背後是利用：確保晴香的力量按計劃成長
+4. **工作狂** — 投入研究試圖超越花子。即使花子已死，這份競爭心態仍驅動秋穗不眠不休。茶餐廳後面的密室就是她的秘密實驗室
+5. **結果論執行** — 為達目的不擇手段。做決策時只問「結果是什麼」，從不問「過程中誰會受傷」。這個習慣在第三幕被打破
+
+---
+
+## <a id="section-visual"></a>視覺要點
+
+| 欄位 | 內容 |
+|------|------|
+| **身高 / 體型** | 172cm / 豐滿沙漏型 |
+| **核心關鍵詞** | 模仿、星空、罪孽 |
+| **主色** | 日常：暖色調（圍裙米白 + 針織深紫）；過去：冷色調（實驗袍白 + 商務灰） |
+| **髮色** | 深紫色，用大鯊魚夾隨意夾在腦後 |
+| **眼神** | 極度有神銳利（Tatsumaki 參考） |
+
+### 日常形態（茶餐廳老闆娘）
+
+- 無袖高領針織衫 + 圍裙，耳朵夾原子筆——溫暖、接地氣、充滿煙火氣的形象
+- 隨意的髮型與鬆散的穿著暗示「偽裝的放鬆」——實際上隨時保持警覺
+- 圍裙口袋裡藏著微型檢測儀器（監控晴香的情緒波動）
+
+### 過去形態（帝國首席科學家）
+
+- 白色實驗袍 + 商務套裝——冷酷、精確、不帶感情
+- 頭髮束成嚴謹的髮髻，眼鏡反光遮住眼神——「無臉」的前兆
+- 胸前別著帝國徽章——從未真心效忠，只是交易的憑證
+
+### 未來形態（無臉執行官）
+
+- 純白緊身衣 + 白色高跟鞋，面部溶解為星光宇宙
+- 這是失敗時間線的秋穗——「結果論」走到極端，為了結果連自我都消解
+- 身體表面浮現科學公式與數據流——知識成為囚禁靈魂的牢籠
+
+### 視覺演變
+
+| 幕 | 形象 | 關鍵變化 |
+|----|------|---------|
+| 第一幕 | 茶餐廳老闆娘，溫暖慈祥 | 偽裝完美，裂縫隱藏在細節中 |
+| 第二幕 | 科學家身份暴露，兩種形象交替 | 圍裙下開始露出實驗袍 |
+| 第三幕 | 脫下所有偽裝，面容憔悴 | 鯊魚夾掉落，頭髮散亂 |
+| 第四幕 | 回歸老闆娘形象，但眼神柔和 | 不再偽裝——這次是真正的溫暖 |
+
+---
+
+## <a id="section-relationships"></a>Relationships
+
+| 對象 | 關係 | 核心動態 |
+|------|------|---------|
+| [愛莉](airi.md) | 女兒（魔法屍骸石像） | 一切罪孽的起點與終點；每天的懺悔對象；最終的原諒來源 |
+| 花子 | 雙胞胎妹妹（已逝） | 永遠的比較對象；即使花子已死，競爭心態仍在驅動秋穗 |
+| [晴香](haruka.md) | 外甥女 | 既是守護對象也是利用工具；封存真相的執行者；「阿姨」身份的溫暖是真心，「培養」是黑奏的任務 |
+| [美夜子](miyako.md) | 外甥女 | 將美夜子變成 Unit 01 的執行者；最不可饒恕的罪行之一 |
+| [黑奏](antagonist.md) | 魔鬼契約者 | 黑奏提供救愛莉的虛假希望，秋穗為黑奏服務。契約本質屬利用與被利用 |
+| [夕](yu.md) | 間接創造者 | 秋穗封存 Alpha 線真相的行為間接催生了夕的誕生 |
+| [朔](saku.md) | 仇恨對象 | 朔恨秋穗將美夜子變成兵器；秋穗理解這份恨意，視為應得的懲罰 |
+
+---
+
+
+## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
+
+- [愛莉事故](../04_timeline_canon.md#event-airi-accident)：罪責起點與技術原罪。
+- [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)：從遮掩者轉為揭露者。
+- [無臉真相](../04_timeline_canon.md#event-faceless-truth)：時間循環中的失敗自我被揭示。
+
+---
+## <a id="section-role-function"></a>角色功能（Narrative Function）
+
+- 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 秋穗專屬功能：承擔「母性愧疚工程化」的倫理張力，連接復活技術與代價體系。
+
+---
+## <a id="section-canon-constraints"></a>禁忌（不可改設定）
+
+- 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
+- 秋穗專屬禁忌：不可刪除「救女兒→製造更大代價」的因果鏈與其承責弧線。
+## <a id="section-see-also"></a>See also
+
+- [Character Index](../03_character_index.md)
+- [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
+- [Timeline: 愛莉事故](../04_timeline_canon.md#event-airi-accident) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival) | [無臉真相](../04_timeline_canon.md#event-faceless-truth) | [秋穗循環](../04_timeline_canon.md#event-akiho-time-loop)
+- [Glossary: 情緒力量裝置](../02_glossary.md#term-emotional-power-device) | [情緒毒品](../02_glossary.md#term-emo-visor) | [魔法屍骸](../02_glossary.md#term-magical-corpse) | [態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
+- [愛莉 Canon Sheet](airi.md) — 女兒
+- [晴香 Canon Sheet](haruka.md) — 外甥女
+
+
+
+
+

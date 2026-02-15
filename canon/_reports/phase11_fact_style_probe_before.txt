@@ -1,0 +1,94 @@
+canon/06_visual_bible.md:299:- [黑奏主人格](03_characters/antagonist.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
+canon/06_visual_bible.md:322:強烈情緒事件在發生地留下不可磨滅的物理痕跡——場景擁有「記憶」：
+canon/06_visual_bible.md:325:- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/antagonist.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
+canon/06_visual_bible.md:420:2. **失衡揭露**：切近景（眼、手、呼吸），以微延遲或不連續動作表現內在裂縫。
+canon/10_gameplay_bible.md:176:| **替死鬼假人** | 吸引全體敵人 8 秒 | 「替身」與「犧牲」的隱喻 | 操的符咒商店 |
+canon/00_series_bible.md:45:2. **朱音、操的有尊嚴死亡** — 態度選擇的治癒，即使面對死亡仍選擇如何離開
+canon/00_series_bible.md:96:| 第二幕 | 經歷凜的犧牲、系統真相揭露 | 認知崩壞——英雄敘事崩塌 |
+canon/00_series_bible.md:102:**起（虛假的希望）** → **承（代價的揭露）** → **轉（偽高潮/存在主義拷問）** → **合（態度的選擇/帶著傷痕的和解）**
+canon/00_series_bible.md:182:3. **不把角色工具化**：每個死亡或犧牲必須保留角色主體性與選擇性。
+canon/03_character_index.md:26:| [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（嘆息之橋） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
+canon/03_character_index.md:27:| [綾小路操](03_characters/ayakomoji_sou.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_sou.md](03_characters/ayakomoji_sou.md) |
+canon/03_character_index.md:41:| [神樂彩](03_characters/iroha.md) | 被囚禁的主人格 / 轉校生偽裝 | 囚徒→見證者→救贖者 | 死亡（永恆輪迴） | [iroha.md](03_characters/iroha.md) |
+canon/03_character_index.md:44:| [綾瀨凜](03_characters/rin.md) | 痛覺信徒 / 被重組的軀殼 | 完美主義者→痛覺信徒→自願的兵器 | 死亡（自願兵器化） | [rin.md](03_characters/rin.md) |
+canon/03_character_index.md:45:| [小光](03_characters/ko_hikaru.md) | 純真的錨點 / 屍骸化的孩子 | 純真者→犧牲者→墮落的起因 | 屍骸化 | [ko_hikaru.md](03_characters/ko_hikaru.md) |
+canon/03_character_index.md:60:- **美夜子 ↔ 凜**：軍方戰友，最深的羈絆。凜犧牲後美夜子終身 PTSD；重組後的凜不記得美夜子
+canon/03_character_index.md:63:- **朱音 ↔ 操**：隊友。據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲
+canon/03_character_index.md:101:**See also**: [秋穗](03_characters/akiho.md) | [Timeline](04_timeline_canon.md#event-alpha-divergence)
+canon/03_character_index.md:109:**See also**: [彩](03_characters/iroha.md) | [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-hotaru-death)
+canon/03_character_index.md:115:操的管家，真正的守護者。此條目只保留關係與主題功能；臨終揭露與崩潰事件細節以 Timeline 與操角色檔為準。
+canon/03_character_index.md:123:黑奏的養父。此條目只保留權力關係定位；篡位事件與轉折敘述以 Timeline 與黑奏角色檔為準。
+canon/03_character_index.md:125:**See also**: [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-kurokana-usurp)
+canon/05_story_outline_canon.md:25:| **起** | [日常的裂痕與命運的相遇](#section-act-1) | 建立代入→同步誤導 | 懸疑+親密的心理驚悚 | 113 年 3-4 月 |
+canon/05_story_outline_canon.md:26:| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 5 月-114 年 4 月 |
+canon/05_story_outline_canon.md:27:| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 5 月 |
+canon/05_story_outline_canon.md:28:| **合** | [重生或毀滅](#section-act-4) | 回答存在問題→主題閉環 | 史詩悲壯+存在主義孤寂 | 114 年 7-9 月 |
+canon/05_story_outline_canon.md:36:**時間**：帝國歷 0-112 年（見 [Timeline §I-III](04_timeline_canon.md#section-shared-history)）
+canon/05_story_outline_canon.md:41:- [靈樹戰爭](04_timeline_canon.md#event-sacred-tree-war)與[維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造
+canon/05_story_outline_canon.md:42:- [彩/黑奏的精神分裂](04_timeline_canon.md#event-kurokanae-trauma)（姊姊螢被槍殺）
+canon/05_story_outline_canon.md:43:- **[Alpha 線真相](04_timeline_canon.md#event-alpha-divergence)**：本作原罪入口與角色動機源頭；客觀事件鏈以 Timeline 為準
+canon/05_story_outline_canon.md:57:### <a id="section-act1-key-events"></a>關鍵節點
+canon/05_story_outline_canon.md:59:**1. 覺醒與組隊**（[113 年 3-4 月](04_timeline_canon.md#section-113-march)）
+canon/05_story_outline_canon.md:62:- [偶像式入隊](04_timeline_canon.md#event-story-begin)：美夜子以「維多利亞天使」概念包裝魔法少女使命，隱藏殘酷真相
+canon/05_story_outline_canon.md:65:- 晴香將膠布貼在校霸傷口上：「痛是證據。留住個傷口，你先會記得今日發生咩事。」
+canon/05_story_outline_canon.md:68:**3. [情緒連結](02_glossary.md#term-emotion-link)首戰**（[113 年 4 月](04_timeline_canon.md#event-emotion-link-first)）
+canon/05_story_outline_canon.md:76:**5. [總部被襲](04_timeline_canon.md#event-hq-raid)**：虛榮的代價
+canon/05_story_outline_canon.md:96:**氛圍**：山雨欲來的史詩感。基調變得宏大，充滿團隊戰鬥的熱血與壯烈。然而，在史詩表象之下，潛藏著濃厚的不安——同伴的犧牲、體制的無情、黑奏陰謀的冰山一角。
+canon/05_story_outline_canon.md:100:### <a id="section-act2-key-events"></a>關鍵節點
+canon/05_story_outline_canon.md:102:**1. 朱音墮落與屍骸女王**（[113 年 5 月底-6 月中](04_timeline_canon.md#section-113-may-late)）
+canon/05_story_outline_canon.md:103:- [小光之死](04_timeline_canon.md#event-ko-hikaru-death)：朱音戒斷時小光被屍骸化，黑奏誘惑「他沒有死，只是換了生存方式」
+canon/05_story_outline_canon.md:104:- [三位一體辯論](04_timeline_canon.md#event-trinity-debate)：「人類 vs 屍骸，邊個先係弱小？」——晴香無法回答
+canon/05_story_outline_canon.md:105:- [朱音放逐](04_timeline_canon.md#event-akane-exile)：證明「不是所有人都能在此刻被拯救」——[黑暗治癒](02_glossary.md#term-dark-healing)主題的第一個實證
+canon/05_story_outline_canon.md:107:**2. 社會性死亡**（[113 年 6 月底-7 月](04_timeline_canon.md#section-113-june-late)）
+canon/05_story_outline_canon.md:108:- [夕的背叛](04_timeline_canon.md#event-yu-betrayal)：拍攝虐殺錄像→國民偶像淪為「變態殺手」
+canon/05_story_outline_canon.md:110:- [經理人背叛](04_timeline_canon.md#event-manager-betrayal)：肖像權被奪走製造「晴香版[情緒毒品](02_glossary.md#term-emotion-drug)」
+canon/05_story_outline_canon.md:112:**3. [鏡像破碎之夜](04_timeline_canon.md#event-mirror-shatter-night)**（[113 年 7-8 月](04_timeline_canon.md#section-113-july-august)）
+canon/05_story_outline_canon.md:113:- [紗夜犧牲](04_timeline_canon.md#event-sayo-sacrifice)：在結構上把操由「角色面具」推向「身份崩解」
+canon/05_story_outline_canon.md:114:- [操面對真相](04_timeline_canon.md#event-misao-collapse)：在結構上承接第二幕中段的隊伍裂痕升級
+canon/05_story_outline_canon.md:117:**4. 晴香與夕和解**（[114 年 3 月](04_timeline_canon.md#event-haruka-yu-integration)）
+canon/05_story_outline_canon.md:122:**5. 真相揭露期**（[114 年 4 月](04_timeline_canon.md#section-114-april)）
+canon/05_story_outline_canon.md:123:- [守恆定律揭露](04_timeline_canon.md#event-conservation-revealed)：守恆規則首次成為主衝突驅動（條文口徑見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
+canon/05_story_outline_canon.md:124:- [凜的最終崩潰](04_timeline_canon.md#event-rin-final-collapse)：把「可逆挽回」路線封死，為第三幕失敗奠基
+canon/05_story_outline_canon.md:125:- [共振地獄第一階段](04_timeline_canon.md#event-resonance-hell-1)：黑奏方案由隱性操控轉入可觀測部署（機制口徑見 [Glossary](02_glossary.md#term-resonance-hell)）。
+canon/05_story_outline_canon.md:127:**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
+canon/05_story_outline_canon.md:139:| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+canon/05_story_outline_canon.md:152:### <a id="section-act3-key-events"></a>關鍵節點
+canon/05_story_outline_canon.md:154:**1. [恐怖家家酒](04_timeline_canon.md#event-horrific-house)（2 週）**——心理驚悚篇章
+canon/05_story_outline_canon.md:161:- 第 13 天：操「[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)」——被控制、假髮被打掉、真實樣貌曝露。領悟「即使殘缺也能守護」，主動扯斷絲線，第一次「擁抱失控」
+canon/05_story_outline_canon.md:163:**3. [嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)**——雙重犧牲
+canon/05_story_outline_canon.md:164:- [朱音回歸](04_timeline_canon.md#event-akane-return)：穿垃圾鎧甲，過載變身自爆。遺言：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
+canon/05_story_outline_canon.md:165:- [雙重犧牲](04_timeline_canon.md#event-double-sacrifice)：在結構上完成「高峰能量 -> 高代價回收」的第三幕中段節點
+canon/05_story_outline_canon.md:166:- **治癒意義**：朱音和操的有尊嚴死亡——即使面對死亡仍選擇如何離開
+canon/05_story_outline_canon.md:168:**4. [美夜子的三段式覺醒](04_timeline_canon.md#event-miyako-awakening)**
+canon/05_story_outline_canon.md:174:**5. [凜的最終戰](04_timeline_canon.md#event-rin-final-battle)**：遲來的介錯
+canon/05_story_outline_canon.md:183:**7. [帝國廣場決戰](04_timeline_canon.md#event-imperial-plaza-battle)與偽高潮**
+canon/05_story_outline_canon.md:184:- [希望的背叛](04_timeline_canon.md#event-hope-betrayal)：民眾的希望之力反轉為惡意洪流，攻擊晴香的[心匣](02_glossary.md#term-heart-container)
+canon/05_story_outline_canon.md:185:- [彩的內部革命](04_timeline_canon.md#event-aya-internal-revolution)：彩（主人格）抱住黑奏：「我已經大個女啦。」——不是殺死保護者，而是說「可以放手了」
+canon/05_story_outline_canon.md:186:- [夕完全接管](04_timeline_canon.md#event-yu-takeover)→改變現實嘗試失敗→[緋潮](02_glossary.md#term-scarlet-tide)爆發（客觀因果鏈見 Timeline）
+canon/05_story_outline_canon.md:189:**8. [二十年守望](04_timeline_canon.md#event-twenty-year-vigil)**
+canon/05_story_outline_canon.md:202:### <a id="section-act4-key-events"></a>關鍵節點
+canon/05_story_outline_canon.md:204:**1. [母愛的琥珀](04_timeline_canon.md#event-amber-of-love)**：打破溫柔的牢籠
+canon/05_story_outline_canon.md:219:**4. [共振地獄](02_glossary.md#term-resonance-hell)第三階段**：終極選擇題（[114 年 9 月](04_timeline_canon.md#event-resonance-hell-3)）
+canon/05_story_outline_canon.md:224:**5. [靈魂共鳴](04_timeline_canon.md#event-soul-resonance)**：逝者的態度延續
+canon/05_story_outline_canon.md:229:**6. [彩的覺醒與犧牲](04_timeline_canon.md#event-aya-awakening)**
+canon/05_story_outline_canon.md:234:**7. [最終決戰](04_timeline_canon.md#event-final-battle)與[強制索回](04_timeline_canon.md#event-forced-ascension)**
+canon/05_story_outline_canon.md:238:- [魔法系統終結](04_timeline_canon.md#event-magic-system-end)：在結構上完成世界狀態收束（客觀狀態變更見 Timeline）
+canon/05_story_outline_canon.md:240:**8. [悲劇但有意義的結局](04_timeline_canon.md#event-bittersweet-ending)**
+canon/05_story_outline_canon.md:301: │            社會性死亡     ╲  ╱ 母愛琥珀
+canon/05_story_outline_canon.md:314:| 朱音墮落/社會性死亡 | Act II 前期 | ↓↓ 絕望 | 英雄敘事開始崩塌 |
+canon/05_story_outline_canon.md:317:| 朱音回歸/雙重犧牲 | Act III 中期 | ↑↑↓↓ 極端波動 | 最激昂→最悲壯→轉瞬消逝 |
+canon/05_story_outline_canon.md:334:| 1. 放養 | 102-112 年 | [潘朵拉協議](04_timeline_canon.md#event-pandora-protocol)：等待晴香成熟 | 培養「中央節點」 |
+canon/05_story_outline_canon.md:335:| 2. 分裂 | 113 年 5-6 月 | 利用朱音墮落、操虛榮、媒體輿論 | 摧毀團隊凝聚力 |
+canon/05_story_outline_canon.md:336:| 3. 抹殺 | 113 年 6-8 月 | 夕的背叛→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
+canon/05_story_outline_canon.md:337:| 4. 試驗 | 114 年 4-5 月 | 毒品危機→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
+canon/05_story_outline_canon.md:338:| 5. 收割 | 114 年 9 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
+canon/05_story_outline_canon.md:346:| Act II 後期 | 全面通緝 + 真相揭露 | ★★★★☆ | 地下抵抗軍，資源匱乏 |
+canon/05_story_outline_canon.md:347:| Act III | 恐怖家家酒 + 決戰 | ★★★★★ | 每天與死亡共存 |
+canon/05_story_outline_canon.md:356:### <a id="section-thread-bandaid"></a>[膠布哲學](02_glossary.md#term-band-aid-philosophy)四層揭露
+canon/05_story_outline_canon.md:371:| 概念揭露 | Act II-III | 守恆規則由背景設定上升為劇情主驅動（條文見 World Rules） |
+canon/05_story_outline_canon.md:372:| 歷史揭露 | Act III | 角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |
+canon/05_story_outline_canon.md:411:| 1 | **[美夜子的大哭](04_timeline_canon.md#event-miyako-awakening)** | Act III | 情緒釋放的治癒——允許自己脆弱 | 「唔使再做隊長住啦。喊出黎啦。」 |
+canon/05_story_outline_canon.md:412:| 2 | **[朱音、操的有尊嚴死亡](04_timeline_canon.md#event-double-sacrifice)** | Act III | 態度選擇的治癒——即使面對死亡仍選擇如何離開 | 「我唔想再一個人食飯。」 |
+canon/05_story_outline_canon.md:413:| 3 | **[靈魂共鳴](04_timeline_canon.md#event-soul-resonance)** | Act IV | 連結延續的治癒——逝者的態度以精神形式傳承 | 「不是形態定義我⋯⋯是我的選擇定義我。」 |
+canon/05_story_outline_canon.md:417:## <a id="section-info-control-sequence"></a>資訊揭露次序（從母文檔回填）
+canon/05_story_outline_canon.md:426:4. **同步重擊**（Act III）：帝國廣場真相揭露，英雄敘事坍塌  

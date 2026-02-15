@@ -1,0 +1,265 @@
+   1: # Timeline Canon（唯一時間線）
+   2: 
+   3: > **讀者指引**：本文件是整個故事的時間軸。每個事件只在此處描述一次，其他文件一律引用（link）。
+   4: > 首次閱讀建議從 [§ 共通前史](#section-shared-history) 開始，注意 [§ Alpha 線分歧事件](#event-alpha-divergence) 是整個故事的起源。
+   5: > 相關文件：[World Rules](01_world_rules_and_costs.md) | [Glossary](02_glossary.md) | [Story Outline](05_story_outline_canon.md) | [Character Index](03_character_index.md)
+   6: 
+   7: <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md, backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md -->
+   8: 
+   9: ---
+  10: 
+  11: ## <a id="section-scope"></a>文件職責邊界
+  12: 
+  13: - 本文件只負責其對應 Canon 範圍，不重寫其他文件的完整內容。
+  14: - 術語完整定義只放在 [Glossary](02_glossary.md)。
+  15: - 世界規則完整定義只放在 [World Rules](01_world_rules_and_costs.md)。
+  16: - 事件時間與因果完整定義只放在 [Timeline](04_timeline_canon.md)。
+  17: 
+  18: ---
+  19: ## <a id="section-shared-history"></a>I. 共通前史（帝國歷 0-101 年）
+  20: 
+  21: > Alpha/Beta 線分歧前的共同歷史。
+  22: 
+  23: ### <a id="event-ancient-era"></a>遠古至建國期
+  24: 
+  25: - **遠古時期**：夜區存在，居民信奉[靈樹](02_glossary.md#term-sacred-tree)
+  26: - **帝國歷元年**：[帝國](02_glossary.md#term-empire)崛起
+  27: 
+  28: ### <a id="section-birth-war-era"></a>角色誕生與戰爭期（帝國歷 73-98 年）
+  29: 
+  30: | 年份 | 事件 | 影響 |
+  31: |------|------|------|
+  32: | **73** | <a id="event-aya-birth"></a>澄川彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/antagonist.md)的宿主誕生 |
+  33: | **76** | <a id="event-miyako-birth"></a>[美夜子](03_characters/miyako.md)誕生（東雲花子的大女兒） | 未來晴香的姊姊 |
+  34: | **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始 |
+  35: | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |
+  36: | **97** | <a id="event-haruka-birth"></a>[雨宮晴香](03_characters/haruka.md)誕生 | 創世者誕生 |
+  37: | **98** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變**：黑奏殺死帝國皇帝，奪取最高權力 | 黑奏掌權 |
+  38: | **98** | <a id="event-airi-accident"></a>**愛莉事故**：[愛莉](03_characters/airi.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
+  39: 
+  40: ---
+  41: 
+  42: ## <a id="event-alpha-divergence"></a>II. Alpha 線分歧事件（帝國歷 102 年）
+  43: 
+  44: > **世界分裂為 [Alpha](02_glossary.md#term-alpha-line)/[Beta](02_glossary.md#term-beta-line) 兩條時間線的關鍵時刻。**
+  45: > 關於 102 年的裁決，見 [Decision Log CF-002](99_decision_log.md#decision-cf002)。
+  46: 
+  47: ### <a id="event-alpha-original"></a>Alpha 線原初現實
+  48: 
+  49: - 5 歲的[晴香](03_characters/haruka.md)（97+5=102）與 26 歲的[美夜子](03_characters/miyako.md)（76+26=102）為感情深厚的親姊妹
+  50: - <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/antagonist.md)在晴香面前殺害花子和美夜子
+  51: - <a id="event-first-reality-change"></a>**第一次[改變現實](02_glossary.md#term-reality-change)**：晴香的悲痛撕裂時空，創造 Beta 線高魔世界
+  52: - 晴香的天真願望「如果家姐變做貓仔就唔會受傷」被刻入世界法則，成為美夜子的[避難所詛咒](02_glossary.md#term-shelter-curse)
+  53: 
+  54: ### <a id="event-beta-reset"></a>Beta 線重設
+  55: 
+  56: - 花子死因改為難產；美夜子在帝國歷 92 年「意外身亡」（冰封）
+  57: - <a id="event-yu-birth"></a>**[夕](03_characters/yu.md)的誕生**：晴香的 Alpha 線記憶被剝離，具現化為潛意識人格
+  58: - [靈魂滲漏](02_glossary.md#term-soul-leakage)開始：世界出現「悲慟風暴」現象
+  59: 
+  60: ---
+  61: 
+  62: ## <a id="section-beta-prehistory"></a>III. Beta 線前史（帝國歷 103-112 年）
+  63: 
+  64: > 故事主線（113 年）前的準備階段。
+  65: 
+  66: | 年份 | 事件 | 影響 |
+  67: |------|------|------|
+  68: | **103** | <a id="event-singer-origin"></a>**歌手身份起源**：[秋穗](03_characters/akiho.md)決定讓晴香成為歌手以合法釋放情緒能量 | 晴香偶像生涯開始 |
+  69: | **103-108** | <a id="event-miyako-revival"></a>**美夜子復活**：秋穗利用[集體潛意識](02_glossary.md#term-collective-unconscious)技術強行復活美夜子 | 美夜子成為 Unit 01 |
+  70: | **103-108** | <a id="event-unit01"></a>**Unit 01**：復活後的美夜子被編入軍方，成為階段一兵器 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
+  71: | **103-108** | <a id="event-saku-discovery"></a>**[朔](03_characters/saku.md)的發現**：朔在戰場上目睹 Unit 01，發現那是他死去的愛人 | 朔與美夜子的連結 |
+  72: | **108** | <a id="event-rin-sacrifice"></a>**[凜](03_characters/rin.md)的犧牲**：凜為掩護美夜子撤離而犧牲，頸部被強行扭斷 | 凜死亡 |
+  73: | **108** | <a id="event-shelter-curse-trigger"></a>**美夜子逃亡 / 詛咒首次觸發**：目睹凜犧牲後，[避難所詛咒](02_glossary.md#term-shelter-curse)啟動，靈魂壓縮進黑貓體內 | 黑貓美夜子誕生 |
+  74: | **109** | <a id="event-rin-reconstruction"></a>**凜的重組**：黑奏將凜重新具現化為情緒管理局公務員，記憶被改寫 | Unit 00 原型 |
+  75: | **109** | <a id="event-akane-trauma"></a>**朱音創傷事件**：14 歲的[朱音](03_characters/iwakura_akane.md)的弟弟誤食[情緒結晶](02_glossary.md#term-emotion-crystal)而死 | 朱音的創傷種子 |
+  76: | **109** | <a id="event-pandora-protocol"></a>**潘朵拉協議**：黑奏開始「放養實驗」，等待晴香再次成熟 | 黑奏計劃啟動 |
+  77: | **112-113** | <a id="event-yu-first-appearance"></a>**夕的初次顯現**：晴香首次聽到鏡中聲音（5 歲小女孩的黑色輪廓） | 夕與晴香的共生關係開始 |
+  78: 
+  79: ---
+  80: 
+  81: ## <a id="section-main-story-113"></a>IV. 故事主線（帝國歷 113 年）
+  82: 
+  83: > Act I ~ Act III 前半。詳細四幕結構見 [Story Outline](05_story_outline_canon.md)。
+  84: 
+  85: ### <a id="section-113-march"></a>113 年 3 月：覺醒與組隊
+  86: 
+  87: - <a id="event-story-begin"></a>**故事開端**：貓型美夜子將裝置交給晴香，姊妹不知情重逢
+  88: - <a id="event-aya-appears"></a>**彩登場**：轉校生[彩](03_characters/antagonist.md)進入晴香學校，以低調怯懦的形象出現；晴香出手幫助被欺凌的彩
+  89: - <a id="event-rin-first-reunion"></a>**凜的第一次重逢**：凜（重組後）首次與美夜子的新團隊交戰
+  90: 
+  91: ### <a id="section-113-april"></a>113 年 4 月：團隊建立
+  92: 
+  93: - <a id="event-misao-joins"></a>**[操](03_characters/ayakomoji_sou.md)的加入**：操為了還人情勉強答應「暫時指導妳們這些庶民」
+  94: - <a id="event-akane-joins"></a>**[朱音](03_characters/iwakura_akane.md)的加入**：朱音因晴香的微小善意（給糖吃）開始跟隨團隊
+  95: - <a id="event-girls-day-out"></a>**日常：少女假日約會**：團隊難得的和平時光
+  96: - <a id="event-school-heist"></a>**日常：潛入學校偷東西**：建立秘密基地，培養團隊默契
+  97: - <a id="event-rin-memory-fragments"></a>**凜的記憶碎片恢復**：某次戰鬥中部分記憶恢復
+  98: - <a id="event-emotion-link-first"></a>**[情緒連結](02_glossary.md#term-emotion-link)首戰**：團隊首次使用情緒連結，四人體驗彼此創傷記憶後連鎖崩潰，共識絕不再用
+  99: - <a id="event-banshee-first"></a>**悲鳴女妖首戰**：團隊遭遇[無臉執行官](02_glossary.md#term-faceless-executor)，因精神攻擊慘敗撤退
+ 100: - <a id="event-aya-joins"></a>**彩正式入隊**：經過一個多月相處，彩正式加入團隊
+ 101: 
+ 102: ### <a id="section-113-may"></a>113 年 5 月：裂痕初現
+ 103: 
+ 104: - <a id="event-rin-haruka-touch"></a>**凜與晴香的第一次觸動**：晴香對凜展現溫柔，凜產生動搖
+ 105: - <a id="event-hq-raid"></a>**總部被襲**：操因虛榮心洩露據點，情緒管理局突襲，美夜子重創；操坦白後被原諒，成為真正融入團隊的起點
+ 106: - <a id="event-paper-knight-1"></a>**紙皮騎士守護（一）**：美夜子噩夢中出現紙皮騎士（[愛莉](03_characters/airi.md)在集體潛意識中的守護）
+ 107: - <a id="event-perfect-cost"></a>**完美的代價**：操堅持完美戰術錯過擊殺機會，朱音為掩護操手臂受重傷
+ 108: - <a id="event-ruins-confrontation"></a>**廢墟對質**：朱音揭穿操的真正動機，隊友關係緊張
+ 109: 
+ 110: ### <a id="section-113-may-late"></a>113 年 5 月底-6 月初：朱音墮落
+ 111: 
+ 112: - <a id="event-ko-hikaru-daily"></a>**小光與朱音的日常**：小光成為朱音內心最後的溫暖錨點
+ 113: - <a id="event-night-district-attack"></a>**夜區大規模屍骸襲擊**：朱音帶領團隊清理夜區
+ 114: - <a id="event-ko-hikaru-death"></a>**小光之死**：朱音戒斷狀態導致小光被屍骸攻擊並[屍骸化](02_glossary.md#term-corpse-transformation)（Type B 廢鐵型）
+ 115: - <a id="event-kurokanae-temptation"></a>**黑奏的誘惑**：黑奏提出「屍骸也是值得保護的生命」理念
+ 116: - <a id="event-akane-betrayal"></a>**朱音背叛**：拒絕歸隊，攻擊試圖消滅「小光屍骸」的隊友
+ 117: 
+ 118: ### <a id="section-113-june-early"></a>113 年 6 月初：屍骸女王事件
+ 119: 
+ 120: - <a id="event-misao-mediation"></a>**操的調停嘗試**：操首次展現真感情，但調停失敗並身受重傷
+ 121: - <a id="event-corpse-paradise"></a>**屍骸樂園建立**：朱音佔領廢棄糖果工廠，捕獲人類餵養屍骸
+ 122: - <a id="event-public-backlash"></a>**社會輿論逆轉**：媒體拍到朱音指揮屍骸襲擊人類，公眾開始恐懼[魔法少女](02_glossary.md#term-magical-girl)
+ 123: 
+ 124: ### <a id="section-113-june-mid"></a>113 年 6 月中旬：三位一體辯論
+ 125: 
+ 126: - <a id="event-corpse-queen-raid"></a>**屍骸女王討伐**：晴香團隊進入屍骸樂園
+ 127: - <a id="event-trinity-debate"></a>**[三位一體](02_glossary.md#term-trinity-spectrum)辯論**：朱音質問「人類 vs 屍骸，邊個先係弱小？」，晴香無法回答
+ 128: - <a id="event-unfinished-execution"></a>**未完成的處決**：晴香無法對半屍骸化的朱音下手
+ 129: - <a id="event-akane-exile"></a>**朱音的放逐**：晴香放逐朱音，朱音躲入下水道成為「喪家之犬」
+ 130: 
+ 131: ### <a id="section-113-june-late"></a>113 年 6 月底-7 月初：社會性死亡
+ 132: 
+ 133: - <a id="event-yu-betrayal"></a>**[夕](03_characters/yu.md)的背叛與社會性死亡**：夕擅自接管身體，拍攝虐殺屍骸錄像並洩漏，晴香遭受網路暴力
+ 134: - <a id="event-social-exile"></a>**晴香的社會排斥**：從國民偶像淪為「變態殺手」
+ 135: - <a id="event-manager-betrayal"></a>**經理人背叛**：經理人奪走肖像權，賣給黑奏製造「晴香版[情緒毒品](02_glossary.md#term-emotion-drug)」
+ 136: - <a id="event-haruka-yu-split"></a>**晴香與夕決裂**：晴香拒絕再變身，開始地下化生活
+ 137: 
+ 138: ### <a id="section-113-july-august"></a>113 年 7-8 月：鏡像破碎之夜
+ 139: 
+ 140: - <a id="event-mirror-shatter-night"></a>**鏡像破碎之夜**：黑奏發動《特殊生物管制法》，肅清魔法少女
+ 141: - <a id="event-father-betrayal"></a>**父親的背叛**：綾小路父親親自打開大門讓帝國軍隊進入：「這件『作品』出現了瑕疵⋯⋯我可以重新製造更好的。」
+ 142: - <a id="event-sayo-sacrifice"></a>**紗夜的反叛與犧牲**：管家紗夜拔槍反抗，臨終前喊出：「妳根本唔係少爺⋯⋯妳係我最靚嘅女。」為操製造逃生機會
+ 143: - <a id="event-misao-collapse"></a>**操的逃亡與崩潰**：操精神瀕臨崩潰，雙重背叛將她推向屍骸化
+ 144: - <a id="event-team-isolation"></a>**團隊的孤立**：魔法少女被全面通緝，躲藏在夜區廢棄地鐵站
+ 145: 
+ 146: ---
+ 147: 
+ 148: ## <a id="section-main-story-114"></a>V. 故事主線（帝國歷 114 年）
+ 149: 
+ 150: > Act III 後半 ~ Act IV。
+ 151: 
+ 152: ### <a id="section-114-march"></a>114 年 3 月：和解與整合
+ 153: 
+ 154: - <a id="event-haruka-yu-integration"></a>**晴香與夕和解：部分融合**：美夜子引導晴香面對夕，促成整合，獲得[陰影視覺](02_glossary.md#term-shadow-sight)能力。夕仍保留獨立意識，兩者共存
+ 155: 
+ 156: ### <a id="section-114-april"></a>114 年 4 月：真相揭露期
+ 157: 
+ 158: - <a id="event-rin-truth-revealed"></a>**觀眾知道凜已死並被重組**：美夜子向晴香坦白凜的過去，觀眾首次明確得知凜在 108 年已死亡並被重組
+ 159: - <a id="event-curse-truth"></a>**詛咒真相揭露**：美夜子記憶恢復，記起自己是晴香的親姊姊，知道變貓是晴香 5 歲時的[避難所詛咒](02_glossary.md#term-shelter-curse)
+ 160: - <a id="event-rin-final-collapse"></a>**凜的最終崩潰與自願改造**：凜推開晴香伸出的手，要求黑奏挖走所有感情，變成 Unit 00 - Null
+ 161: - <a id="event-miyako-missing"></a>**美夜子失蹤 / 愛莉潛意識風暴**：美夜子獨自調查凜下落被困，晴香帶隊救援成功——晴香從「被保護者」正式成為「保護者」
+ 162: - <a id="event-conservation-revealed"></a>**[守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)揭露**：[秋穗](03_characters/akiho.md)解釋情緒守恆定律，揭示[維多利亞之淚](02_glossary.md#term-tears-of-victoria)的真實功能
+ 163: - <a id="event-drug-crisis"></a>**情緒毒品危機**：大量市民變為[魔法屍骸](02_glossary.md#term-magical-corpse)
+ 164: - <a id="event-resonance-hell-1"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第一階段**：黑奏透過毒品測試「軟性共振」技術
+ 165: 
+ 166: ### <a id="section-114-may"></a>114 年 5 月：恐怖家家酒與決戰
+ 167: 
+ 168: - <a id="event-horrific-house"></a><a id="event-terror-playhouse"></a>**恐怖家家酒（2 週）**：黑奏強迫大家「繼續扮朋友返學」，形成恐怖平衡
+ 169:   - 第 10 天：朱音「暴食斷頭台」——拒絕黑奏的毒品盛宴，學會「給予」而非「暴力守護」
+ 170:   - 第 11 天：操控制欲爆發
+ 171:   - 第 12 天：操的劇本式指揮完全失效
+ 172:   - <a id="event-steel-solo"></a>**第 13 天**：操「鋼鐵獨舞」——主動扯斷絲線擺脫控制，對彩喊出「跌倒都唔緊要！我會接住妳！」第一次「擁抱失控」
+ 173:   - <a id="event-bridge-of-sighs"></a>**第 14 天**：嘆息之橋戰役（維多利亞之淚事件）
+ 174:     - <a id="event-akane-return"></a>**朱音的回歸**：朱音穿著垃圾鎧甲突然出現，使用「過載變身」
+ 175:     - <a id="event-akane-last-words"></a>**朱音的遺言**：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
+ 176:     - <a id="event-double-sacrifice"></a>**雙重犧牲**：朱音自爆變成糖果山，操擋刀變成人偶牆，兩人一同犧牲
+ 177: - <a id="event-curse-broken"></a>**詛咒打破**：美夜子強行打破[避難所詛咒](02_glossary.md#term-shelter-curse)，從此可以正常死亡
+ 178: - <a id="event-miyako-awakening"></a>**美夜子的三段式覺醒與身份揭露**：
+ 179:   - **第一段：貓殼碎裂**：在高壓連鎖事件後，美夜子的貓形偽裝無法維持，開始進入人形回流
+ 180:   - **第二段：月下窗台的存在確認測試**：美夜子嘗試以純生理刺激確認「自己是否仍然活著」，但測試失敗，無法帶來存在感與安定感
+ 181:   - **第三段：晴香的擁抱與崩潰大哭**：晴香以身體接觸與情感承接把她從解離邊緣拉回，美夜子首次容許自己失控痛哭。晴香亦在此階段確定黑貓就是自己的姊姊
+ 182: - <a id="event-rin-final-battle"></a>**凜的最終戰：遲來的介錯**：美夜子以人類戰士身份履行血之約定，槍擊 Unit 00 核心。凜死前只發出氣音，無法留下遺言
+ 183: - <a id="event-liberation-battle"></a>**解放之戰**：晴香團隊攻入維多利亞之淚核心，停止人造太陽
+ 184: - <a id="event-hope-betrayal"></a>**希望的背叛**：全城斷電，黑奏將晴香塑造為毀滅元兇；民眾的「希望」反轉為「惡意」洪流
+ 185: - <a id="event-imperial-plaza-battle"></a>**帝國廣場決戰**：世界因[靈魂滲漏](02_glossary.md#term-soul-leakage)即將崩潰
+ 186: - <a id="event-truth-revealed"></a>**真相揭露**：黑奏揭露 [Alpha 線](02_glossary.md#term-alpha-line)真相與晴香「創世者」身份——「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」
+ 187: - <a id="event-aya-internal-revolution"></a>**彩的內部革命**：彩（主人格）抱住黑奏，說：「唔需要啦⋯⋯黑奏。我已經大個女啦。」黑奏防禦力場瞬間消失
+ 188: - <a id="event-yu-takeover"></a>**夕的完全接管**：晴香精神崩潰，夕完全接管，發動[改變現實](02_glossary.md#term-reality-change)
+ 189: 
+ 190: ### <a id="section-114-twenty-years"></a>114 年 6 月-134 年 6 月：二十年守望
+ 191: 
+ 192: - <a id="event-alpha-days"></a>**Alpha 線的幾日**：夕在重建的 Alpha 線度過數日，發現內心創傷無法被治癒——證明「過去無法被修正，只能被接納」
+ 193: - <a id="event-disillusion"></a>**幻滅與還原**：夕試圖撥回 Beta 線，造成時間線裂痕
+ 194: - <a id="event-resonance-hell-2"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第二階段**：[緋潮](02_glossary.md#term-scarlet-tide)爆發——時間線裂痕的副產品
+ 195: - <a id="event-faceless-truth"></a>**[無臉執行官](02_glossary.md#term-faceless-executor)真相**：揭露無臉執行官是失敗時間線的[秋穗](03_characters/akiho.md)
+ 196: - <a id="event-twenty-year-vigil"></a>**二十年守望**：晴香意識被困於[集體潛意識](02_glossary.md#term-collective-unconscious)；夕維持身體機能，對抗黑奏侵蝕
+ 197: 
+ 198: ### <a id="section-114-july-new"></a>114 年 7 月（新現實）：覺醒
+ 199: 
+ 200: - <a id="event-time-reset"></a>**時間重置**：世界重置回 114 年 7 月，只有晴香保留記憶
+ 201: - <a id="event-post-story-begin"></a>**故事後段開端**：晴香甦醒於新現實；愛莉成為魔法少女；朔轉變為「解放者」
+ 202: - <a id="event-amber-of-love"></a>**母愛的琥珀**：晴香被困於「完美世界」——花子還活著，美夜子是普通少女
+ 203: 
+ 204: ### <a id="section-114-august"></a>114 年 8 月：自我整合
+ 205: 
+ 206: - <a id="event-self-integration"></a>**自我整合**：晴香選擇離開「母愛的琥珀」，將對母愛的渴望收回心中，完成覺醒。不是弒母——是整合
+ 207: 
+ 208: ### <a id="section-114-september"></a>114 年 9 月：最終決戰
+ 209: 
+ 210: - <a id="event-final-battle"></a>**最終決戰**：晴香匯聚眾人「態度」的力量
+ 211: - <a id="event-resonance-hell-3"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第三階段**：黑奏試圖開啟全人類的[情緒視覺](02_glossary.md#term-emotional-qualia)；晴香做出第三選擇——既不開啟也不完全關閉，守護「不確定中的信任」
+ 212: - <a id="event-soul-resonance"></a>**[靈魂共鳴](02_glossary.md#term-soul-resonance)**：操、朱音的態度殘響穿透生死界限，為晴香注入最後的力量
+ 213: - <a id="event-aya-awakening"></a>**彩的覺醒與犧牲**：彩用靈魂填補裂痕，償還[因果債務](02_glossary.md#term-causal-debt)，黑奏人格消散
+ 214: - <a id="event-forced-ascension"></a>**強制索回**：晴香被強行轉化為「[三位一體](02_glossary.md#term-trinity-spectrum)的永恆守護者」
+ 215: - <a id="event-magic-system-end"></a>**魔法系統終結**：[魔法少女](02_glossary.md#term-magical-girl)系統、屍骸、[情緒毒品](02_glossary.md#term-emotion-drug)全部失效
+ 216: - <a id="event-bittersweet-ending"></a>**悲劇但有意義的結局**：晴香成為[集體潛意識](02_glossary.md#term-collective-unconscious)的永恆守護者；[美夜子](03_characters/miyako.md)回歸凡人，成為唯一與晴香保持連結的存在
+ 217: 
+ 218: ---
+ 219: 
+ 220: ## <a id="section-critical-scene-index"></a>關鍵場景索引（事件檢索補齊）
+ 221: 
+ 222: > 為避免跨文件重複敘述，本節只提供「事件定位 + 功能摘要」。
+ 223: 
+ 224: | 場景錨點 | 所在時段 | 事件功能 | 主要影響角色 |
+ 225: |---|---|---|---|
+ 226: | [月下窗台存在確認](#event-miyako-awakening) | 114 年 5 月 | 把美夜子從「功能性活著」推向「主體性活著」 | [美夜子](03_characters/miyako.md)、[晴香](03_characters/haruka.md) |
+ 227: | [鋼鐵獨舞](#event-steel-solo) | 114 年 5 月 | 操從控制崩壞轉入自我承擔 | [操](03_characters/ayakomoji_sou.md) |
+ 228: | [雙重犧牲](#event-double-sacrifice) | 114 年 5 月 | 朱音與操完成「態度式治癒」閉環 | [朱音](03_characters/iwakura_akane.md)、[操](03_characters/ayakomoji_sou.md) |
+ 229: | [希望背叛](#event-hope-betrayal) | 114 年 5 月 | 英雄敘事正式斷裂，進入存在命題 | [晴香](03_characters/haruka.md) |
+ 230: | [母愛的琥珀](#event-amber-of-love) | 114 年 7 月 | 晴香從逃避回到承擔，完成自我整合前置 | [晴香](03_characters/haruka.md) |
+ 231: | [靈魂共鳴](#event-soul-resonance) | 114 年 9 月 | 逝者態度跨越生死，完成主題驗證 | 晴香、操、朱音 |
+ 232: 
+ 233: ## <a id="section-eternal-return"></a>VI. 永劫回歸：時間循環
+ 234: 
+ 235: > 主時間線之外的靈魂循環。
+ 236: 
+ 237: ### <a id="event-aya-time-loop"></a>彩的無盡輪迴（Time Loop Omega-Aya）
+ 238: 
+ 239: - **循環起點**：帝國歷 73 年（彩誕生）
+ 240: - **循環終點**：帝國歷 114 年 9 月（犧牲後死亡）
+ 241: - **核心**：彩用永恆痛苦阻止無數時間線中「黑奏」的誕生，成為自己的救贖者
+ 242: 
+ 243: ### <a id="event-akiho-time-loop"></a>秋穗的循環（Time Loop Omega-Autumn）
+ 244: 
+ 245: - **循環起點**：帝國歷 98 年（愛莉成為魔法屍骸）
+ 246: - **循環終點**：時空夾縫（靈魂被囚禁）
+ 247: - **核心**：在沒有晴香的時間線中，秋穗重複「為救女兒而製造悲劇」的循環，最終成為[無臉執行官](02_glossary.md#term-faceless-executor)
+ 248: 
+ 249: ### <a id="event-haruka-ascension"></a>晴香的命運（Forced Ascension）
+ 250: 
+ 251: - **被強制索回時刻**：帝國歷 114 年 9 月
+ 252: - **核心**：創世者的責任——無法選擇命運，但選擇讓結局成為救贖而非詛咒
+ 253: 
+ 254: ---
+ 255: 
+ 256: **統計**：
+ 257: - 涵蓋帝國歷 0-114 年
+ 258: - 關鍵事件節點：80+
+ 259: - Alpha/Beta 分歧點：**帝國歷 102 年**（見 [CF-002](99_decision_log.md#decision-cf002)）
+ 260: - 故事主線：帝國歷 113-114 年（約 21 個月）
+ 261: 
+ 262: **See also**: [Story Outline](05_story_outline_canon.md) | [World Rules — Alpha/Beta](01_world_rules_and_costs.md#section-alpha-beta) | [Character Index](03_character_index.md)
+ 263: 
+ 264: 
+ 265: 

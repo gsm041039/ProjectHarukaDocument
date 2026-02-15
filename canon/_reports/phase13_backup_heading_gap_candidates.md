@@ -1,0 +1,443 @@
+# Phase 13 Backup Heading Gap Candidates
+
+- backup files: 53
+- candidates: 1149
+
+## Top Missing Headings
+- [6] **1. 基礎美術規格 (Basic Art Brief)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\202_Character_Visual_Design_Haruka.md:3
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\203_Character_Visual_Design_Miyako.md:1
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\204_Character_Visual_Design_Iroha.md:1
+- [3] 氛圍與玩家感受
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:152
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:188
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:231
+- [3] Alpha/Beta 線對比表
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:352
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:404
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:454
+- [3] **4. 視覺演變與狀態 (Visual Evolution)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\202_Character_Visual_Design_Haruka.md:85
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\203_Character_Visual_Design_Miyako.md:91
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\210_Character_Visual_Design_Rin.md:125
+- [3] **6. 動作演出指導 (Acting Guide)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\204_Character_Visual_Design_Iroha.md:106
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\206_Character_Visual_Design_Akiho.md:88
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\207_Character_Visual_Design_Airi.md:84
+- [3] **2. 造型語言與配色 (Shape & Color)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\202_Character_Visual_Design_Haruka.md:22
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\203_Character_Visual_Design_Miyako.md:16
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\210_Character_Visual_Design_Rin.md:16
+- [3] **事件關係變化的多層次分析**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:14
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:52
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:72
+- [3] 穿插觸發條件
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:362
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:414
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:464
+- [3] Beta 線現實（主舞台）
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:343
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:395
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:445
+- [3] **5. 動作演出指導 (Acting Guide)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\202_Character_Visual_Design_Haruka.md:94
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\203_Character_Visual_Design_Miyako.md:99
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\210_Character_Visual_Design_Rin.md:134
+- [3] **與主題的關聯**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:38
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:66
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:135
+- [2] 與主題的連結
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:214
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:526
+- [2] 悲劇的深層結構
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:468
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:170
+- [2] **事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:61
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:139
+- [2] **事件三：凜的犧牲 & 團隊分裂**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:42
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:89
+- [2] **事件一：魔法屍骸入侵學校**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:3
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:9
+- [2] 對角色心理的影響
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:172
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:221
+- [2] Project Haruka — Next Step Output (Sectioning + Atomization)
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_Current_Work_Consolidated_CN.txt:253
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt:1
+- [2] **事件二：「鏡中之影」**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Major_Events_Character_Relationships_Analysis.md:23
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:49
+- [2] **三位一體的病理光譜 (The Pathology Spectrum)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\08_Emotion_Setting_Overview.md:94
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:563
+- [2] **1. 基礎美術規格**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\207_Character_Visual_Design_Airi.md:1
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\209_Character_Visual_Design_Ayakomoji_Sou.md:1
+- [2] **3. 形態設計細節 (Form Design)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\203_Character_Visual_Design_Miyako.md:33
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\210_Character_Visual_Design_Rin.md:35
+- [2] Atom List (D31 + D22 + D40)
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_Current_Work_Consolidated_CN.txt:308
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt:56
+- [2] D40 Section Table
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_Current_Work_Consolidated_CN.txt:291
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt:39
+- [2] D22 Section Table
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_Current_Work_Consolidated_CN.txt:278
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt:26
+- [2] D31 Section Table
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_Current_Work_Consolidated_CN.txt:260
+  - C:\Projects\ProjectHarukaDocument\backup\script_refinement\ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt:8
+- [1] 3. 角色Alpha線設定（已整合至 01_Character_Background_Story.md）
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:57
+- [1] 2. 命名（Naming）機制
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:93
+- [1] 3.1 核心設計理念
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:92
+- [1] 2. 核心機制（已整合至 14_Alpha_Beta_Narrative_Mechanics.md）
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:36
+- [1] 2. 情緒毒品（Emo-Visor）的出現
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:181
+- [1] 2. 想了解某個角色
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:16
+- [1] 3. 詳細結局場景描寫
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:137
+- [1] 2. 詳細視聽機制
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:126
+- [1] 2. Alpha/Beta關係應該是什麼？
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:274
+- [1] 2.1 死前清單
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:104
+- [1] 3. 想了解世界觀
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:37
+- [1] 2.1 階段一：夢幻之鏡 (The Idol / The Dream)
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:121
+- [1] 2.2 普通死亡
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:129
+- [1] 2.2 階段二：裂痕之鏡 (The Doubt / The Crack)
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:158
+- [1] 3. 晴香的道德困境
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:283
+- [1] 10. 想了解故事進度追蹤
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:101
+- [1] 2.3 階段三：監禁之鏡 (The Puppet / The Cage)
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:194
+- [1] 2.4 痛覺異常
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:173
+- [1] 3. 共享印證（Shared Validation）機制
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:106
+- [1] 2.3 生日蛋糕
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:150
+- [1] 1.2.2 共通性與個人化
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:82
+- [1] 1.3 流浪貓救援行動
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:54
+- [1] **IG使用習慣：公開偶像帳號 vs 匿名厭世小號** ^晴香IG
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:104
+- [1] **IG使用習慣：深夜Emo、食物遺照、野狗醜照** ^朱音IG
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:638
+- [1] **IG使用習慣：精緻生活濾鏡與秒讚但不敢留言** ^操IG
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:738
+- [1] **IG敘事線作為結構性工具**
+  - C:\Projects\ProjectHarukaDocument\backup\director\01_Creative_Core_Principles.md:263
+- [1] **II. Timeline Alpha：低魔的原初世界**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\timeline_raw.md:24
+- [1] **III. Timeline Beta：高魔的崩壞世界 (故事主舞台)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\timeline_raw.md:35
+- [1] **IV. 永劫回歸：時間循環的終局**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\timeline_raw.md:185
+- [1] ❌ 未整合內容（作為備案參考）
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:106
+- [1] 04_故事結構 - 主題表達工具圖
+  - C:\Projects\ProjectHarukaDocument\backup\draft\charts_reference.md:297
+- [1] 04_故事結構 - 四幕結構詳細分析圖
+  - C:\Projects\ProjectHarukaDocument\backup\draft\charts_reference.md:232
+- [1] 04_故事結構 - 核心思想對立圖
+  - C:\Projects\ProjectHarukaDocument\backup\draft\charts_reference.md:701
+- [1] 04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖
+  - C:\Projects\ProjectHarukaDocument\backup\draft\charts_reference.md:189
+- [1] 08_情緒設定總綱 - 情緒系統架構圖
+  - C:\Projects\ProjectHarukaDocument\backup\draft\charts_reference.md:74
+- [1] 1. 同步（Synchronization）機制
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:74
+- [1] 1.4 校霸戀愛委託
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:78
+- [1] 1. 為何要深化Alpha線？
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:266
+- [1] 1. 想了解整體故事
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:9
+- [1] 1. 詳細生理症狀系統
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:110
+- [1] 1.1 光環 (Halo) - 力量的榮耀
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:31
+- [1] 1.1 家長日潛入戰
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:11
+- [1] 1.1.1 核心特性
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:35
+- [1] 1.1.2 共通性與個人化
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:41
+- [1] 1.1.3 狀態變化
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:50
+- [1] 1.1.4 與魔法屍骸的對應
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:59
+- [1] 1.2 便利店打工事變
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:32
+- [1] 1.2 枷鎖紋 (Shackle Mark) - 契約的代價
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:72
+- [1] 1.2.1 核心特性
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:76
+- [1] 3.1 與主線的關係
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:202
+- [1] 1.2.3 演變規則：範圍擴散
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:91
+- [1] 1.2.4 與魔法屍骸的對應
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:102
+- [1] 1. 哲學框架（已整合至 14_Alpha_Beta_Narrative_Mechanics.md）
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:18
+- [1] 3.1.1 IG敘事線與社會風評階段對應表 ^IG風評對照
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:96
+- [1] 3.3 與[[編劇/10_少女日常與社交互動設定|少女日常設定]]的關聯
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:217
+- [1] 3.2 第一階段：強行營業期 (Haruka's Tutorial) ^IG第一階段
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:107
+- [1] 二、場景的歷史圖層 (Scene Palimpsest) ^mechanism-scene
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:238
+- [1] 二、對白的干擾與斷裂
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:207
+- [1] 二、觸覺與溫度
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:276
+- [1] 二、變身異常（Transformation Glitch）
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:63
+- [1] 二、v0.1 文檔核心內容
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:148
+- [1] 人類、魔法少女、怪物——其實是同一種存在
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\00_Story_Brief.md:181
+- [1] 八、愛莉的「濾心機制」：活體廢料處理場 ^aeri-filter-mechanism
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:410
+- [1] 力量來源：晴香的逸散能量
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:95
+- [1] 力量暴升的因果鏈
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:43
+- [1] 三、 核心故事框架：顛覆性的英雄旅程**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\04_Story_Structure_Atmosphere_Events_Deep_Analysis.md:75
+- [1] 三、生理反應的滲漏 (Physiological Leakage) ^mechanism-physiological
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:266
+- [1] 三、視覺與眩暈
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:302
+- [1] 三、設計推導過程摘要
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:262
+- [1] 三、數據養殖計劃：魔法少女的真正用途 ^數據養殖計劃
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:65
+- [1] 三、篇章運用指南
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:200
+- [1] 三、鏡像真相（Mirror Truth）
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:101
+- [1] 三、變身音效的異常
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:228
+- [1] 六、夕：黑奏的無意識能量農場 ^夕能量農場
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:138
+- [1] 內容取捨標準
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:311
+- [1] 五、偽裝與實驗：接近晴香的真實目的
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:117
+- [1] 五、後續待補充項目
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:345
+- [1] 五、日常殘酷對比表現手法 ^daily-cruelty-contrast
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:236
+- [1] 中段：內在的整合與意志的重塑 - 詳細場景
+  - C:\Projects\ProjectHarukaDocument\backup\draft\scenes\05_detailed_scenes.md:202
+- [1] 二、終極計劃：共振地獄 (The Resonance Hell) ^共振地獄
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:33
+- [1] 夕與黑奏的合作關係
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:329
+- [1] 夕的早期徵兆：晴香的身體違和感
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:269
+- [1] 夕的存在形式：無肉身的意識
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:318
+- [1] 夕作為敘事者/評論者的運用
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:320
+- [1] 三種敘事機制
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:230
+- [1] 三位一體的視覺化
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\12_Social_Evaluation_Quest_System.md:193
+- [1] 三、IG敘事線 (Instagram Chronicle) ^IG敘事線
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:90
+- [1] 夕的靈魂分裂與能量寄生
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:267
+- [1] 3.2 放置時機建議
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:211
+- [1] 二、生死態度篇章
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:100
+- [1] 七、操的「無心完美人偶」實驗 ^misao-perfect-doll
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md:340
+- [1] 3.2 損壞表現
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:253
+- [1] 3.3 自然覺醒者的特殊表現：金繼
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:264
+- [1] 3.3 第二階段：閃耀的日常 (The Golden Age) ^IG第二階段
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:121
+- [1] **IG使用習慣：「阿伯式」攝影與模糊貓照** ^美夜子IG
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:241
+- [1] 3.4 第三階段：數位墓碑 (Digital Death) ^IG第三階段
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:135
+- [1] 3.5 第四階段：結局的迴響 (Post-Credits) ^IG第四階段
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:168
+- [1] 4. 心理整合框架（已整合至 06_Character_Psychology_Analysis.md）
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:92
+- [1] 4. 如何避免角色重疊？
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:292
+- [1] 4. 屍骸化與修正力
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:125
+- [1] 4. 想了解視覺/美術風格
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:45
+- [1] 4.1 總覽對照表
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:278
+- [1] 4.1 K房場景：美夜子唱《雨天》 ^K房場景
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:179
+- [1] 4.2 其他少女系活動速寫
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:224
+- [1] 4.2 轉化預示
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\303_Magical_Girl_Common_Visual_Language.md:289
+- [1] 5. 情緒管理局 (Emotion Administration Bureau)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\art_originals\301_Worldview_Art_Direction_Handbook.md:94
+- [1] 5. 想了解敘事/導演手法
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:60
+- [1] 5. 凜的設定調整
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:301
+- [1] 一、變身與鏡像的真實 (Transformation & Mirror Truth) ^mechanism-transformation
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\14_Alpha_Beta_Narrative_Mechanics.md:232
+- [1] 一、環境音效的滲漏
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:148
+- [1] 一、整合狀態總覽
+  - C:\Projects\ProjectHarukaDocument\backup\archive\15_Alpha_Beta_Discussion_Archive.md:14
+- [1] 一、趣味日常篇章
+  - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:7
+- [1] 一、場景殘影（Scene Palimpsest）
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:16
+- [1] 一、核心邏輯：痛楚的私有化是萬惡之源
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\Villain_Master_Plan.md:7
+- [1] 二、少女心理維度延展（第6-11點）
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:13
+- [1] 一、味覺與嗅覺
+  - C:\Projects\ProjectHarukaDocument\backup\director\02_Alpha_Line_Integration_Guide.md:258
+- [1] 8. 想了解角色日常/互動細節
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:88
+- [1] 7. 想了解角色關係
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:82
+- [1] 6. 想了解遊戲設計
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:75
+- [1] 5.3 敘事應用總結
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:336
+- [1] 5.2 六大表現方向
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:246
+- [1] 5.1 設計理念
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\10_Girl_Daily_Social_Interaction_Setting.md:238
+- [1] 9. 想了解深層主題/哲學
+  - C:\Projects\ProjectHarukaDocument\backup\draft\legacy_navigation.md:95
+- [1] **I. 共通前史 (The Shared History)**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\timeline_raw.md:9
+- [1] **Alpha / Beta 線敘事機制總覽** ^alpha-beta-overview
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\04_Story_Structure_Atmosphere_Events_Deep_Analysis.md:224
+- [1] **Beta線：高魔的崩壞世界 (The High-Magic Dystopia)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:481
+- [1] **黑奏的結局：不需要被治癒，只需要被「感謝」**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:1190
+- [1] **黑奏的戰略意圖：哲學武器化**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:389
+- [1] **傲慢的自我犧牲 (The Arrogant Savior)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:188
+- [1] **微觀/宏觀對照表**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:717
+- [1] **微觀參照：操的人偶事件 (The Microcosm Reference: Misao's Doll Incident)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:705
+- [1] **愛莉：遺憾 → 驚喜 → 希望**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Story_Structure_Atmosphere_Design.md:248
+- [1] **感官尋求與自我確認機制：身體的「活著」實感**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:132
+- [1] **感激的毒藥：拯救者情結的崩壞** ^gratitude-poison
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:29
+- [1] **新機制（傷疤癒合）**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\08_Emotion_Setting_Overview.md:846
+- [1] **暗示強度原則：極微弱**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Story_Structure_Atmosphere_Design.md:270
+- [1] **概念總結與故事層級對應**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:765
+- [1] **睡夢紡織工 (Dream Weavers)** ^dream-weavers
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:350
+- [1] **葡萄糖注射槍 (The Glucose Shot)** ^glucose-shot
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:1020
+- [1] **補充：兩條關鍵虐心線的資訊設計** ^info-gratitude-stitching
+  - C:\Projects\ProjectHarukaDocument\backup\director\Information_Control_Audience_Experience_Design.md:98
+- [1] **黑奏的修正（Patch）**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:156
+- [1] **解離狀態的生理確認機制**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:292
+- [1] **零點滲漏（Zero Point Leakage）機制** ^零點滲漏
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:645
+- [1] **預設命運與打破循環的代價 (Predestined Fate and the Cost of Breaking Loops)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:624
+- [1] **夢境場景的具體設計**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:753
+- [1] **對主題「治癒」的最終昇華**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:650
+- [1] **對求救型的思考**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:452
+- [1] **對其他角色的影響**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:839
+- [1] **對拒絕型的深層拷問**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:458
+- [1] **對晴香心理的毀滅性影響**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:697
+- [1] **對晴香的「母性補償行為」**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:735
+- [1] **對魔法少女身份的病態依賴**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:718
+- [1] **對魔法少女身份的極致依賴**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:837
+- [1] **漸進式揭露的敘事應用**
+  - C:\Projects\ProjectHarukaDocument\backup\director\01_Creative_Core_Principles.md:162
+- [1] **維多利亞城 (Victoria City)** ^victoria-city
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:220
+- [1] **綾小路 紗夜 (Ayanokōji Sayo)** ^block-sayo
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\02_Secondary_Character_Background_Story.md:292
+- [1] **跨越時間的力量機制：「無力卻清醒」的詛咒**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:602
+- [1] **黑奏：恐懼 → 理解 → 複雜同情**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Story_Structure_Atmosphere_Design.md:232
+- [1] **黑奏 (Kurosou)：病態執著的守護者**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:1138
+- [1] **階段零：原型體 (Phase 0: The Prototype)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\03_Worldview_Setting.md:139
+- [1] **場景三：天台的午餐 (Lunch on the Roof)**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:339
+- [1] **場景五：操「鋼鐵獨舞」（第13天下午）**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:438
+- [1] **場景四：朱音「暴食斷頭台」（第10天中午）**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:362
+- [1] **場景A：朱音「暴食斷頭台」（恐怖家家酒第10天）**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:130
+- [1] **場景B-2：操「無心的完美人偶」（鏡像破碎之夜後）**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:182
+- [1] **場景B：操「鋼鐵獨舞」（恐怖家家酒第13天）**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:155
+- [1] **場景C：美夜子「三段式覺醒」（嘆息之橋當晚）**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:329
+- [1] **場景D：凜「遲來的介錯」（嘆息之橋翌日清晨）**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:404
+- [1] **富人的「假High」**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:30
+- [1] **晴香：共情 → 心疼 → 敬佩**
+  - C:\Projects\ProjectHarukaDocument\backup\director\Story_Structure_Atmosphere_Design.md:214
+- [1] **晴香的自我理解：「同理心」的誤解**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\06_Character_Psychology_Analysis.md:71
+- [1] **晴香的困境：無法回答的問題**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:368
+- [1] **晴香的命運：創世者的責任**
+  - C:\Projects\ProjectHarukaDocument\backup\draft\outline_raw.md:397
+- [1] **晴香面臨的選擇**
+  - C:\Projects\ProjectHarukaDocument\backup\screenwriter\11_Deep_Philosophy_Concepts.md:484

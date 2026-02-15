@@ -1,0 +1,53 @@
+﻿# Phase43 DeepP6 Full Canon Ownership Matrix
+
+## Summary
+- Total flagged paragraphs: 27
+- High risk (>=3): 0
+- Medium risk (=2): 19
+- Low risk (=1): 7
+
+## By File (Flagged Count)
+| File | Count |
+|---|---:|
+| canon/02_glossary.md | 9 |
+| canon/01_world_rules_and_costs.md | 7 |
+| canon/04_timeline_canon.md | 3 |
+| canon/99_decision_log.md | 2 |
+| canon/03_characters/akiho.md | 2 |
+| canon/03_characters/ko_hikaru.md | 1 |
+| canon/03_characters/iwakura_akane.md | 1 |
+| canon/03_characters/antagonist.md | 1 |
+| canon/05_story_outline_canon.md | 1 |
+
+## Top Residual Risks (Top 25)
+| File | Para | Owner | Score | Tags | Snippet |
+|---|---:|---|---:|---|---|
+| canon/01_world_rules_and_costs.md | 67 | rule | 3 | timeline_leak,decision_ref | **帝國歷 102 年**（見 [Decision Log CF-002](99_decision_log.md#decision-cf002)）： - 5 歲的晴香（生於帝國歷 97 年）目睹黑奏攻擊家園 - 母親花子和姊姊美夜子（26 歲）同時在她面前被殺 - 晴香的「潛力之種」被極端創傷激活，向[集體潛意識](02_glossary.md#term-collective-unconscious)發出願望 - 創造了 Beta 線— |
+| canon/03_characters/akiho.md | 14 | character | 2 | rule_leak | 愛莉事故構成秋穗角色弧的不可逆起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。 |
+| canon/03_characters/akiho.md | 30 | character | 2 | rule_leak | **Lie（核心謊言）**： - 「收集足夠能量就能救愛莉」——黑奏的承諾從未打算兌現 - 「結果才是一切」——過程中造成的傷害同樣真實且不可逆 - 「我是為了愛莉才這麼做」——部分動機是為了超越花子和自我救贖 |
+| canon/03_characters/antagonist.md | 24 | character | 2 | rule_leak | 黑奏弒殺養父帝國皇帝並完成篡位。這標誌著她由「保護者」轉為「獨裁者」的不可逆轉折——為了保護彩，她需要權力；為了權力，她需要帝國；為了帝國，她需要成為她曾經憎恨的暴君。 |
+| canon/02_glossary.md | 315 | glossary | 2 | rule_leak | <a id="term-causal-debt"></a> ### <a id="term-causal-debt"></a>因果債務（Causal Debt） - 一句定義：每次強行改寫或縫合現實都會累積的系統性反噬成本，最終必須由某個主體償還。 - 重要性：它約束了「改變現實」的濫用，確保世界規則仍保有不可逆與代價。 - 例子： - 彩於[最終決戰](04_timeline_canon.md#event-aya-awakening) |
+| canon/02_glossary.md | 316 | glossary | 2 | timeline_leak | <a id="term-unit-01"></a> ### <a id="term-unit-01"></a>Unit 01（美夜子兵器編號） - 一句定義：美夜子於復活後被帝國軍方編入的階段一兵器身份代碼。 - 重要性：它標記美夜子由「人」轉為「制度工具」的斷裂點，直接連結其後避難所詛咒。 - 例子： - [帝國歷 103-108 年](04_timeline_canon.md#event-unit01)被投入戰場 - 與[朔](03 |
+| canon/02_glossary.md | 319 | glossary | 2 | rule_leak | <a id="term-corpse-transformation"></a> ### <a id="term-corpse-transformation"></a>屍骸化（Corpse Transformation） - 一句定義：個體在情緒結構崩壞與規則侵蝕下，轉化為[魔法屍骸](#term-magical-corpse)的過程。 - 重要性：屍骸化是整個世界代價體系最直觀且最殘酷的可視後果。 - 例子： - [小光之死](04_t |
+| canon/04_timeline_canon.md | 3 | timeline | 2 | character_leak | <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md, backu |
+| canon/05_story_outline_canon.md | 3 | mixed | 2 | character_leak | <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/sc |
+| canon/99_decision_log.md | 18 | decision | 2 | timeline_leak | **矛盾**：晴香創世事件在 timeline_raw 為帝國歷 102 年，在 CAN-04 v1 為 109 年。 |
+| canon/99_decision_log.md | 19 | decision | 2 | timeline_leak | **裁決**：**採用帝國歷 102 年。** - 晴香 5 歲（97+5=102 ✓） - 美夜子 26 歲（76+26=102 ✓） - 109 年版本有內部矛盾（聲稱「5 歲」但 97+12=109） |
+| canon/03_characters/iwakura_akane.md | 47 | character | 2 | rule_leak | 本幕的角色功能是把朱音推到「被愛也不敢回頭」的位置。 她把屍骸當作可被餵養的孩子，實際上是在拒絕承認自己的喪失已不可逆。這種拒認讓她與隊伍必然對立。 |
+| canon/03_characters/ko_hikaru.md | 27 | character | 2 | rule_leak | **主題關聯**：子主題 A「力量的代價」——朱音的力量中斷直接導致小光的死亡。子主題 C「身份的本質」——屍骸化後的小光還是小光嗎？朱音選擇相信「是」，這個信念定義了她的墮落。[執念飽和](../02_glossary.md#term-saturation-of-obsession)——朱音對小光的愛轉化為不可逆的執念。 **主題關聯**：小光令朱音的悲劇變得不可抽象化。 當「守護」變成「拒認失去」，愛就會由連結變成囚禁；朱音的下墜由 |
+| canon/02_glossary.md | 17 | glossary | 2 | timeline_leak | 晴香 5 歲時為救美夜子「改變現實」後創造的新世界（帝國歷 102 年）。魔法系統、情緒科技、魔法屍骸皆源於此。這是「態度層面」，回答「What it meant? / 我點樣活?」。與 Alpha 線不是「真 vs 假」，而是「事實 vs 詮釋」的雙重真相。 |
+| canon/02_glossary.md | 66 | glossary | 2 | rule_leak | 由情緒結晶製成的金屬「萬能匙」，繞過內心提煉過程的速成器。軍方將少女精神推至極限，從心之器裂痕收割「靈魂之刺」（情緒結晶），鑄造為裝置。使用者燃燒自己未來靈魂換取現在力量，代價加劇不可逆。 |
+| canon/01_world_rules_and_costs.md | 23 | rule | 2 | timeline_leak | 1. **基礎研究（帝國歷 79 年起）**：發動「靈樹戰爭」；捕獲黑奏作為活體樣本 2. **宏觀設施**：建造[維多利亞之淚](02_glossary.md#term-tears-of-victoria)作為中央監控系統 3. **核心技術突破（帝國歷 98 年前）**：秋穗主導「改變心之器」研究，研發[情緒力量裝置](02_glossary.md#term-emotional-power-device)原型，導致愛莉事故 4. * |
+| canon/01_world_rules_and_costs.md | 66 | rule | 2 | timeline_leak | ### <a id="event-alpha-divergence"></a>晴香創世事件 |
+| canon/02_glossary.md | 184 | glossary | 2 | rule_leak | > 本節只提供術語語意入口；任何規則條文、觸發條件與不可逆判定，以 [World Rules](01_world_rules_and_costs.md) 為唯一權威。 |
+| canon/02_glossary.md | 156 | glossary | 2 | rule_leak | 多出現在關節、鎖骨、脊線等高壓能量路徑，平時是低可見暗紋，高輸出時會發亮、擴散，與[光環](#term-halo)節拍錯位。它不是裝飾，而是「代價正在發生」的身體提示層。當枷鎖紋與光環同時失穩，通常意味角色正接近不可逆耗損閾值。 |
+| canon/02_glossary.md | 231 | glossary | 2 | rule_leak | 在術語層，腐蝕法則只標示「由紋章顯現到結晶剝落的不可逆耗損鏈」。分階段視覺規格見 [Visual Bible](06_visual_bible.md#section-corruption-stages)；機制條文見 [World Rules](01_world_rules_and_costs.md#rule-corpseification)。 |
+| canon/01_world_rules_and_costs.md | 44 | rule | 1 | decision_ref | <a id="rule-physiological-rejection"></a> #### 生理排斥法則（Physiological Rejection） - **定義**：靈魂與肉身對外來高能情緒流的防禦性排斥，常呈現「先狂喜、後反噬」。 - **觸發條件**：高強度調律、反覆超限變身、長時間停留情緒污染區。 - **代價**：[靈魂延遲](02_glossary.md#term-soul-lag)、嘔吐、感官錯位、短暫解離。 -  |
+| canon/01_world_rules_and_costs.md | 40 | rule | 1 | decision_ref | > 統一口徑：情感耗損為主體機制，代謝反應為生理副作用。見 [Decision Log CF-001](99_decision_log.md#decision-cf001)。 |
+| canon/02_glossary.md | 83 | glossary | 1 | decision_ref | **See also**: [World Rules](01_world_rules_and_costs.md#rule-magic-cost) \\| [Trinity Spectrum](#term-trinity-spectrum) \\| [Decision Log](99_decision_log.md#decision-cf001) |
+| canon/04_timeline_canon.md | 73 | timeline | 1 | decision_ref | **統計**： - 涵蓋帝國歷 0-114 年 - 關鍵事件節點：80+ - Alpha/Beta 分歧點：**帝國歷 102 年**（見 [CF-002](99_decision_log.md#decision-cf002)） - 故事主線：帝國歷 113-114 年（約 21 個月） |
+| canon/01_world_rules_and_costs.md | 55 | rule | 1 | decision_ref | > 統一口徑：見 [Decision Log CF-004a](99_decision_log.md#decision-cf004a) |
+
+## Notes
+- This matrix is a paragraph-level signal scan and should be treated as residual-risk hints.
+- Full row-level detail is in phase43_ownership_matrix.csv.
