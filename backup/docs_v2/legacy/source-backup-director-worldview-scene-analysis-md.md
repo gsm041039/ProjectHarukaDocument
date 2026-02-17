@@ -1,0 +1,603 @@
+# 來源重寫：`backup/director/Worldview_Scene_Analysis.md`
+
+> 讀者導讀：此文件是 backup 單一來源的重寫收納稿。
+> 用途：保證段落級零遺漏，並提供可追溯錨點。
+> 任何 Canon 決策以 `../canon/99_decision_log.md` 為準。
+
+## <a id="source-overview"></a>來源概覽
+- Source: `backup/director/Worldview_Scene_Analysis.md`
+- Coverage Units: 52
+
+## <a id="h-世界觀與場景設定分析-擴充版"></a>**世界觀與場景設定分析 (擴充版)**
+
+### <a id="cu-d63deda5bca6"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**::U001
+- 類型：`heading`
+- CU_HASH：`d63deda5bca6`
+
+**重寫內容（保留語意）**
+
+### **世界觀與場景設定分析 (擴充版)**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**::U001 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**
+
+### <a id="cu-4756f899bad5"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**::U002
+- 類型：`heading`
+- CU_HASH：`4756f899bad5`
+
+**重寫內容（保留語意）**
+
+#### **1. 世界觀基調與氛圍 (World Tone & Atmosphere)**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**::U002 -->
+
+### <a id="cu-4ba7a3a04129"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**::U003
+- 類型：`table`
+- CU_HASH：`4ba7a3a04129`
+
+**重寫內容（保留語意）**
+
+|**設定元素**|**導演呈現手法**|**設計意圖 (Purpose)**|**L1 (氛圍)**|**L2 (人物/情節)**|**L3 (主題)**|
+|---|---|---|---|---|---|
+|**核心基調：壓抑下的暗流**|天空是永恆的灰濛，空氣濕冷，城市色調偏向藍與灰。人們的表情普遍麻木，缺乏活力。|讓觀眾從進入世界的第一秒起，就感受到一種「不對勁」的窒息感，奠定故事的悲劇底色。|壓抑、沉重、窒息感。|這種環境合理化了角色們普遍的負面情緒，也讓晴香初期的「樂觀」顯得格格不入，更具特殊性。|這是「集體潛意識」負面情緒過載的外部投射，是「命運」具象化的環境本身。|
+|**現實置換：情緒毒品**|描寫使用者並非追求生理快感，而是戴上裝置後，臉上露出虛假的、被灌輸的「幸福」或「悲傷」表情，顯得詭異而非享受。|將社會問題與核心設定掛鉤，強化世界觀的獨特性與沉浸感。|詭異、精神性的墮落感，比傳統毒品更令人不寒而慄。|為朱音的沉淪提供了更具悲劇性的理由——她試圖用「虛假情感」填補「情感耗損」的空洞。|**主題B (完美的幻象)**的商品化體現。它販賣「沒有痛苦的快樂」，是黑奏「修正」哲學的重要工具。|
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**::U003 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-2-核心場景設定與象徵意義-core-location-sett"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**
+
+### <a id="cu-824af01022fd"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U004
+- 類型：`heading`
+- CU_HASH：`824af01022fd`
+
+**重寫內容（保留語意）**
+
+#### **2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U004 -->
+
+### <a id="cu-96bf7319dd33"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U005
+- 類型：`table`
+- CU_HASH：`96bf7319dd33`
+
+**重寫內容（保留語意）**
+
+|**設定元素**|**導演呈現手法**|**設計意圖 (Purpose)**|**L1 (氛圍)**|**L2 (人物/情節)**|**L3 (主題)**|
+|---|---|---|---|---|---|
+|**日區 (The Day Zone)**|一個由【維多利亞之淚】這座人造太陽24小時照耀的、永無黑夜的紫醉金迷之地。建築現代、奢華但冰冷，街道乾淨到不真實。|塑造一個「虛假光明」的符號，與夜區的「黑暗真實」形成對照。|明亮、奢華，但帶有令人焦慮的、不自然的虛假感。|這裡是權貴的遊樂場，也是晴香作為偶像時，那個「完美假面」的表演舞台。|**主題B (完美的幻象)**的極致體現。它象徵著一種試圖用外部光芒，來掩蓋內在空虛與腐敗的徒勞嘗試。|
+|**夜區 (The Night Zone)**|以老香港為藍本，擁擠、潮濕、充滿生活氣息。小巷中霓虹燈閃爍，空氣中混雜著食物的香氣與雨水的味道。|塑造一個「在逆境中求生」的符號，展現生命的韌性。|壓抑、混亂，但充滿了真實的煙火氣與人情味。|這裡是美夜子、朔等人的故鄉，也是主角團在逃亡時，最可能找到庇護與溫暖的地方。|象徵著**「擁抱不完美」**的態度。這裡的人們不追求虛假的光明，而是在黑暗中學會了如何點亮自己的燈火，是**主題D (連結的價值)**的體現。|
+|**【維多利亞之淚】**|懸掛在城市最高處的巨大天體儀，中心懸浮著一顆巨大的淚滴狀水晶。它緩慢轉動，根據集體潛意識的情緒狀態，呈現出清澈的金色或渾濁的藍灰色。|建立一個宏偉的、充滿矛盾的、貫穿整個故事的核心視覺奇觀。|莊嚴、神聖，但又帶有冰冷的、被監視的壓迫感。|它是日區的人造太陽，是帝國科技的象徵，也是市民心中一個被官方神化、卻又令人本能不安的矛盾存在。|帝國「修正」與「控制」哲學的終極體現，是與【靈樹】所代表的「接納」自然哲學的直接對立面。|
+|**【緋潮】(The Crimson Tide)**|從天空裂縫或地底湧出的紅色光芒/液化光。在紅光中隱約可見**無數扭曲的人形輪廓**，彷彿無數張痛苦的面孔在紅光中浮現。伴隨著低沉、疊加的哭泣聲/呻吟聲——不是恐怖的尖叫，而是悲傷的、被遺棄的哀鳴。|創造一個「因果反噬」的視覺化災難，讓抽象的【情緒守恆定律】以具體、恐怖的形式呈現給觀眾。|末日感、壓迫感，但更多是一種深沉的悲哀——這不是無名的天災，而是「被世人遺棄的痛苦」的集體哭號。|緋潮是故事第二幕末期的核心危機，逼使晴香做出攻擊維多利亞之淚的決定。它也是黑奏揭露晴香「罪行」的關鍵——這片紅潮，正是晴香在Alpha線改變現實時，強行塞入集體潛意識的「因果債務」。|**【情緒守恆定律】的物理化呈現**。緋潮是下水道的倒灌——那些被壓抑、被轉移、被遺忘的痛苦，終於達到臨界點並反噬回來。它直接服務於主題A（力量的代價）與主題B（完美的幻象）——任何試圖「消除」痛苦的行為，只會累積更大的災難。|
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U005 -->
+
+### <a id="cu-58b63e273b96"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U006
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**::U006 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-2-核心場景設定與象徵意義-core-location-sett"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**
+
+### <a id="cu-d970f7ac364c"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**::U007
+- 類型：`heading`
+- CU_HASH：`d970f7ac364c`
+
+**重寫內容（保留語意）**
+
+#### **2.1 【維多利亞之淚】與【緋潮】的深度解析**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**::U007 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-2-核心場景設定與象徵意義-core-location-sett"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**
+
+### <a id="cu-90121fbfd6d9"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U008
+- 類型：`heading`
+- CU_HASH：`90121fbfd6d9`
+
+**重寫內容（保留語意）**
+
+##### **【維多利亞之淚】：「完美秩序」的代價**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U008 -->
+
+### <a id="cu-b644bc888f6e"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U009
+- 類型：`list`
+- CU_HASH：`b644bc888f6e`
+
+**重寫內容（保留語意）**
+
+- **表層功能（帝國宣傳）**：人造太陽，為日區提供永恆的光明，象徵帝國的科技與秩序。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U009 -->
+
+### <a id="cu-66808084f52d"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U010
+- 類型：`list`
+- CU_HASH：`66808084f52d`
+
+**重寫內容（保留語意）**
+
+- **真實功能（情緒抽水泵）**：一個巨大的「情緒轉移裝置」，將全城的負面情緒從意識層面抽離，壓入集體潛意識的深層。它不是在「淨化」情緒，而是在「傾倒」——將廢料轉移到看不見的地方。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U010 -->
+
+### <a id="cu-757626da0926"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U011
+- 類型：`list`
+- CU_HASH：`757626da0926`
+
+**重寫內容（保留語意）**
+
+- **視覺暗示設計**：
+  - **正常狀態**：清澈的金色光芒，緩慢旋轉，有規律的嗡鳴聲
+  - **壓力增加時**：光芒開始帶有藍灰色調，嗡鳴聲變得更頻繁、更低沉
+  - **臨界狀態**：淚滴狀水晶內部出現紅色的裂紋，彷彿被壓抑的痛苦正在從內部撕裂它
+  - **地底暗示**：人造太陽下方延伸著複雜的管道結構，通往地底。在某些場景中，可以看到管道末端有隱約的紅色光芒在積聚
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U011 -->
+
+### <a id="cu-5700361da7f0"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U012
+- 類型：`list`
+- CU_HASH：`5700361da7f0`
+
+**重寫內容（保留語意）**
+
+- **主題服務**：維多利亞之淚是「逃避」哲學的終極體現。帝國相信只要將負面情緒「移除」，就能創造完美社會。但【情緒守恆定律】告訴我們——痛苦不會消失，只會轉移。維多利亞之淚越是高效運作，集體潛意識深處的「壓力」就越大，緋潮爆發的時刻就越接近。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【維多利亞之淚】：「完美秩序」的代價**::U012 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-2-核心場景設定與象徵意義-core-location-sett"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**
+
+### <a id="cu-34f729af0c50"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U013
+- 類型：`heading`
+- CU_HASH：`34f729af0c50`
+
+**重寫內容（保留語意）**
+
+##### **【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U013 -->
+
+### <a id="cu-a49e3b264ba6"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U014
+- 類型：`list`
+- CU_HASH：`a49e3b264ba6`
+
+**重寫內容（保留語意）**
+
+- **核心定義**：緋潮不只是「被壓抑的情緒」的反噬，更是**Alpha線本身試圖「奪回」現實的力量**。Beta線是一個建立在「違規」之上的世界——晴香的「改變現實」覆蓋了原本的時間線。Alpha線的「真實」從未真正消失，而是一直在集體潛意識的深處累積，等待著「倒灌」回來的時刻。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U014 -->
+
+### <a id="cu-3c2d684e0352"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U015
+- 類型：`list`
+- CU_HASH：`3c2d684e0352`
+
+**重寫內容（保留語意）**
+
+- **成因解析（三重結構）**：
+  - **第一層：創世的因果債務**：晴香在五歲時發動「改變現實」，將Alpha線的一切可能性「覆蓋」。那些在Alpha線會存在的人、會發生的事、會被經歷的情感——全部被強行塞入集體潛意識的深處。這是最深層的「債務」，也是緋潮的核心。
+  - **第二層：帝國的長期累積**：維多利亞之淚多年來將全城負面情緒壓入地底，製造了大量「情緒廢料」。這些廢料與Alpha線的因果債務相互疊加，加速了臨界點的到來。
+  - **第三層：魔法少女系統的累積**：每一個魔法少女的每一次戰鬥，都在向集體潛意識「排放」情緒廢料。整個系統運作的二十年，累積了天文數字級的「債務」。
+  - **臨界點**：當三重累積達到世界無法承受的程度，集體潛意識的「堤壩」崩潰，緋潮爆發。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U015 -->
+
+### <a id="cu-b6070b222e68"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U016
+- 類型：`list`
+- CU_HASH：`b6070b222e68`
+
+**重寫內容（保留語意）**
+
+- **視覺設計原則**：
+  - **人形輪廓的真正身份**：緋潮中的人形不只是「被壓抑的痛苦」的具現化，而是**Alpha線中「本該存在但被抹除」的人們的殘影**。他們是被晴香「選擇」犧牲的生命——不是因為惡意，而是因為她「選擇」了美夜子。
+  - **視覺升級節點**：
+    - **第二幕末期**：人形輪廓模糊、扭曲，只是隱約可見的「影子」
+    - **第三幕高潮（真相揭露時）**：人形變得更加清晰，觀眾（和晴香）開始能「辨認」出其中有些面孔——那些是在Alpha線會活下來的市民、不會成為魔法屍骸的人們
+    - **最深刻的一擊**：其中可能包括一個「沒有被改造的美夜子」的殘影——在Alpha線，美夜子只是普通少女，會正常長大、正常老去、正常死去。晴香「拯救」的美夜子，是以「抹除」另一個美夜子為代價的。
+  - **聲音設計**：多重疊加的低沉哀鳴，有男有女有老有少，營造「無數靈魂在哭泣」的聽覺印象。但這不是恐怖的尖叫，而是悲傷的、被遺棄的哀鳴——他們不是「敵人」，而是「被犧牲者」。
+  - **顏色象徵**：紅色代表「血」與「生命」——這些被壓抑的存在，本質上是活生生的人類經歷過的（或本該經歷的）真實人生。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U016 -->
+
+### <a id="cu-c14463411122"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U017
+- 類型：`list`
+- CU_HASH：`c14463411122`
+
+**重寫內容（保留語意）**
+
+- **場景應用**：
+  - **第二幕末期**：緋潮從城市各處的裂縫中滲出，天空佈滿紅色裂痕，營造末日氛圍。觀眾此時只知道這是「災難」，不知道其真正成因。
+  - **第三幕高潮**：黑奏揭示緋潮的真相時，視覺呈現「升級」——晴香「看見」紅潮中的人形，開始理解這些是她在五歲時「選擇」的代價。黑奏的嘲諷：「這些都是妳創造的。每一張臉，都是妳為了留住美夜子而抹除的可能性。」
+  - **彩的犧牲**：當彩用靈魂填補天空裂縫時，緋潮中的人形輪廓逐漸安息、消散，紅色褪去。這象徵著Alpha線的「怨念」終於得到了「償還」——不是被消滅，而是被接納、被擁抱。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U017 -->
+
+### <a id="cu-5b2fb2f70a91"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U018
+- 類型：`list`
+- CU_HASH：`5b2fb2f70a91`
+
+**重寫內容（保留語意）**
+
+- **情緒曲線服務**：
+  - **第二幕末的期待頂點**：緋潮爆發，觀眾相信晴香必須「拯救世界」。這是標準的英雄敘事。
+  - **第三幕的認知崩塌**：緋潮真相揭露——原來晴香不是救世主，而是創世者，是這場災難的「源頭」。英雄敘事被徹底顛覆。
+  - **情緒落差最大化**：觀眾會經歷從「為英雄加油」到「發現英雄才是問題的根源」的巨大反轉。這不是為了否定晴香，而是為了揭示「愛的代價」可以有多沉重。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U018 -->
+
+### <a id="cu-0a54cabab2ed"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U019
+- 類型：`list`
+- CU_HASH：`0a54cabab2ed`
+
+**重寫內容（保留語意）**
+
+- **主題服務**：
+  - **主題A（力量的代價）**：緋潮是「改變現實」這個終極力量的終極代價——不是抽象的「因果律」，而是具體的「被犧牲的生命」。
+  - **主題B（完美的幻象）**：整個Beta線的「魔法世界」本身就是一個「完美的幻象」——晴香為了創造一個「美夜子活著」的世界，覆蓋了一整個時間線。
+  - **主題C（身份的本質）**：緋潮中的人形提出了終極問題——那些被「抹除」的人，他們的存在是否有意義？他們的生命是否比美夜子的更不重要？
+  - **與彩犧牲的連結**：彩用自己的靈魂「填補」裂縫，本質上是用自己的永恆痛苦去「擁抱」那些被抹除的可能性。這是「接納」而非「逃避」的終極體現。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**2.1 【維多利亞之淚】與【緋潮】的深度解析**/**【緋潮】：「Alpha線的血」——被覆蓋的現實的復仇**::U019 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-2-核心場景設定與象徵意義-core-location-sett"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**
+
+### <a id="cu-b253803e741b"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U020
+- 類型：`heading`
+- CU_HASH：`b253803e741b`
+
+**重寫內容（保留語意）**
+
+#### **3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U020 -->
+
+### <a id="cu-80af38d961f6"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U021
+- 類型：`list`
+- CU_HASH：`80af38d961f6`
+
+**重寫內容（保留語意）**
+
+- **設定一：【情緒結晶苔 (Emotion Crystal Moss)】**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U021 -->
+
+### <a id="cu-adc0b56ca934"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U022
+- 類型：`list`
+- CU_HASH：`adc0b56ca934`
+
+**重寫內容（保留語意）**
+
+- **現實聯想**：苔蘚、地衣、菌絲體。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U022 -->
+
+### <a id="cu-1b298efdc39b"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U023
+- 類型：`list`
+- CU_HASH：`1b298efdc39b`
+
+**重寫內容（保留語意）**
+
+- **世界觀設定**：在那些發生過重大悲劇或長期被某種情緒浸泡的地方（例如兇案現場、廢棄的孤兒院），牆壁、地板和天花板上，會緩慢地生長出薄薄一層、如同苔蘚般的微小情緒結晶。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U023 -->
+
+### <a id="cu-a09fa1649a2a"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U024
+- 類型：`list`
+- CU_HASH：`a09fa1649a2a`
+
+**重寫內容（保留語意）**
+
+- **儀式感與氛圍**：
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U024 -->
+
+### <a id="cu-6b936be83935"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U025
+- 類型：`list`
+- CU_HASH：`6b936be83935`
+
+**重寫內容（保留語意）**
+
+- **美麗與不安**：這些「結晶苔」在微光下會散發出幽幽的、美麗的光芒，色彩則對應著它們所吸收的情緒（悲傷之地是藍色，憤怒之地是暗紅色）。這種美麗，與它們生長的污穢環境形成巨大反差，營造出一種病態、詭異的美感。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U025 -->
+
+### <a id="cu-ff74f7a1955e"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U026
+- 類型：`list`
+- CU_HASH：`ff74f7a1955e`
+
+**重寫內容（保留語意）**
+
+- **危險的儀式**：主角團在追查線索時，可以透過觀察「結晶苔」的顏色和生長密度，來判斷這個地方過去發生了什麼。但直接觸碰是極度危險的，因為積累在其中的龐大情緒殘響，可能會在一瞬間湧入觸碰者的腦海，造成精神衝擊。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U026 -->
+
+### <a id="cu-a8ebc1a7eed5"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U027
+- 類型：`list`
+- CU_HASH：`a8ebc1a7eed5`
+
+**重寫內容（保留語意）**
+
+- **設定二：【記憶迴響的雨 (The Rain of Echoing Memories)】**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U027 -->
+
+### <a id="cu-d78b514bbbde"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U028
+- 類型：`list`
+- CU_HASH：`d78b514bbbde`
+
+**重寫內容（保留語意）**
+
+- **現實聯-想**：酸雨、空氣污染、水循環。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U028 -->
+
+### <a id="cu-c335dac8a04f"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U029
+- 類型：`list`
+- CU_HASH：`c335dac8a04f`
+
+**重寫內容（保留語意）**
+
+- **世界觀設定**：當【集體潛意識】的邊界變得薄弱時，那些無主的、破碎的記憶與情感碎片，會逸散到大氣中，並溶入水汽。當這些水汽凝結成雨落下時，每一滴雨，都包裹著一段不屬於任何人的記憶。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U029 -->
+
+### <a id="cu-a09fa1649a2a"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U030
+- 類型：`list`
+- CU_HASH：`a09fa1649a2a`
+
+**重寫內容（保留語意）**
+
+- **儀式感與氛圍**：
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U030 -->
+
+### <a id="cu-4e3973ec8df4"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U031
+- 類型：`list`
+- CU_HASH：`4e3973ec8df4`
+
+**重寫內容（保留語意）**
+
+- **無處可逃的滲透**：走在夜區的雨中，人們被迫撐傘，這不再是為了保持乾爽，而是一種保護自己精神不受「污染」的儀式。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U031 -->
+
+### <a id="cu-4dcb1d4f962d"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U032
+- 類型：`list`
+- CU_HASH：`4dcb1d4f962d`
+
+**重寫內容（保留語意）**
+
+- **詩意的恐怖**：當雨水打在皮膚上，一個人可能會突然聽見一句愛人的呢喃，看見一個陌生孩子盪鞦韆的畫面，或感受到一陣突如其來的、不屬於自己的悲傷。整個城市，都籠罩在一場永不間斷的、溫柔的精神侵擾之中，讓夜區的壓抑氛圍，昇華為一種充滿詩意、也充滿無盡悲傷的「靈魂潮濕」。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U032 -->
+
+### <a id="cu-58b63e273b96"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U033
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**2. 核心場景設定與象徵意義 (Core Location Setting & Symbolism)**/**3.** 日常中的儀式感與超自然現象 (Rituals and Supernatural Phenomena **in Daily Life)**::U033 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-alpha-線整合導演手冊-alpha-line-guide"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide
+
+### <a id="cu-15cb4571acdf"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide::U034
+- 類型：`heading`
+- CU_HASH：`15cb4571acdf`
+
+**重寫內容（保留語意）**
+
+### **Alpha 線整合導演手冊** ^alpha-line-guide
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide::U034 -->
+
+### <a id="cu-de8c5f3917da"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide::U035
+- 類型：`paragraph`
+- CU_HASH：`de8c5f3917da`
+
+**重寫內容（保留語意）**
+
+本段提供 Alpha 線元素的導演落地方法，強調「心理恐怖」與「態度選擇」，避免遊戲化或過度特效化。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide::U035 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-alpha-線整合導演手冊-alpha-line-guide-1"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**1. 導演目標 (Directing Intent)**
+
+### <a id="cu-bbcb2732f4ee"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**1. 導演目標 (Directing Intent)**::U036
+- 類型：`heading`
+- CU_HASH：`bbcb2732f4ee`
+
+**重寫內容（保留語意）**
+
+#### **1. 導演目標 (Directing Intent)**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**1. 導演目標 (Directing Intent)**::U036 -->
+
+### <a id="cu-12b2d68bab8e"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**1. 導演目標 (Directing Intent)**::U037
+- 類型：`list`
+- CU_HASH：`12b2d68bab8e`
+
+**重寫內容（保留語意）**
+
+- 讓 Alpha 線成為**持續在場的幽靈**，而非一次性的回憶。
+- 讓觀眾感到「現實被剪接」，但永遠不確定**哪一邊才是真**。
+- 以**感官失序**代替視覺特效，維持心理恐怖質感。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**1. 導演目標 (Directing Intent)**::U037 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-alpha-線整合導演手冊-alpha-line-guide-2"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual
+
+### <a id="cu-ffd3daa96e93"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U038
+- 類型：`heading`
+- CU_HASH：`ffd3daa96e93`
+
+**重寫內容（保留語意）**
+
+#### **2. 視覺語言 (Visual Grammar)** ^alpha-visual
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U038 -->
+
+### <a id="cu-13954eba6053"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U039
+- 類型：`table`
+- CU_HASH：`13954eba6053`
+
+**重寫內容（保留語意）**
+
+| 層級 | Alpha 線 | Beta 線 | 滲漏時的折衷 |
+|------|---------|---------|--------------|
+| 色溫 | 暖色、日光感 | 冷色、人工光 | 冷暖同框、局部錯位 |
+| 焦距 | 柔焦、輕霧感 | 清晰、銳利 | 局部失焦、短暫漂移 |
+| 構圖 | 安穩、日常對稱 | 壓迫、不對稱 | 短暫回到「理想構圖」後迅速破裂 |
+| 質地 | 乾淨、溫潤 | 潮濕、粗糙 | 同一物件兩種材質疊影 |
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U039 -->
+
+### <a id="cu-0f26497fe16e"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U040
+- 類型：`paragraph`
+- CU_HASH：`0f26497fe16e`
+
+**重寫內容（保留語意）**
+
+**視覺重點：**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U040 -->
+
+### <a id="cu-194348b4e3bb"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U041
+- 類型：`list`
+- CU_HASH：`194348b4e3bb`
+
+**重寫內容（保留語意）**
+
+- 不使用 UI glitch，不使用文字錯誤。
+- 滲漏是「現實被剪接」的錯覺，而非「畫面壞掉」。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**2. 視覺語言 (Visual Grammar)** ^alpha-visual::U041 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-alpha-線整合導演手冊-alpha-line-guide-3"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**3. 聽覺語言 (Audio Grammar)** ^alpha-audio
+
+### <a id="cu-815d91e1fd72"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**3. 聽覺語言 (Audio Grammar)** ^alpha-audio::U042
+- 類型：`heading`
+- CU_HASH：`815d91e1fd72`
+
+**重寫內容（保留語意）**
+
+#### **3. 聽覺語言 (Audio Grammar)** ^alpha-audio
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**3. 聽覺語言 (Audio Grammar)** ^alpha-audio::U042 -->
+
+### <a id="cu-84344b1a4f30"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**3. 聽覺語言 (Audio Grammar)** ^alpha-audio::U043
+- 類型：`list`
+- CU_HASH：`84344b1a4f30`
+
+**重寫內容（保留語意）**
+
+- **Alpha 線**：環境聲乾淨、層次薄、帶少量空間回響。
+- **Beta 線**：噪音密集、遠處警報與機械低頻長鳴。
+- **滲漏時刻**：
+  - 音場突然變「空」，像被吸走一層噪音。
+  - 人聲出現半秒「斷訊」，接續時語氣已變成另一條時間線。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**3. 聽覺語言 (Audio Grammar)** ^alpha-audio::U043 -->
+
+## <a id="h-世界觀與場景設定分析-擴充版-1-世界觀基調與氛圍-world-tone-atmosphere-alpha-線整合導演手冊-alpha-line-guide-4"></a>**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging
+
+### <a id="cu-8275f13ea26b"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U044
+- 類型：`heading`
+- CU_HASH：`8275f13ea26b`
+
+**重寫內容（保留語意）**
+
+#### **4. 場景演出重點 (Scene Staging)** ^alpha-staging
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U044 -->
+
+### <a id="cu-e0320b32db3f"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U045
+- 類型：`paragraph`
+- CU_HASH：`e0320b32db3f`
+
+**重寫內容（保留語意）**
+
+**A) 變身場**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U045 -->
+
+### <a id="cu-9389102c45ec"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U046
+- 類型：`list`
+- CU_HASH：`9389102c45ec`
+
+**重寫內容（保留語意）**
+
+- 觀眾視角短暫失焦或切黑 1-2 格。
+- 群眾反應：只記得「魔法少女一直在現場」。
+- 旁白或字幕避免解釋，讓觀眾自行拼接。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U046 -->
+
+### <a id="cu-d4a11c22bbb6"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U047
+- 類型：`paragraph`
+- CU_HASH：`d4a11c22bbb6`
+
+**重寫內容（保留語意）**
+
+**B) 鏡面場**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U047 -->
+
+### <a id="cu-ca82778672d2"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U048
+- 類型：`list`
+- CU_HASH：`ca82778672d2`
+
+**重寫內容（保留語意）**
+
+- 鏡頭固定，避免快速運鏡造成「技巧感」。
+- 先呈現正常倒影，再慢慢出現「不對」的細節（視線、身形、傷痕）。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U048 -->
+
+### <a id="cu-091db63c19a0"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U049
+- 類型：`paragraph`
+- CU_HASH：`091db63c19a0`
+
+**重寫內容（保留語意）**
+
+**C) 情緒崩潰場**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U049 -->
+
+### <a id="cu-7ffc40f8db6d"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U050
+- 類型：`list`
+- CU_HASH：`7ffc40f8db6d`
+
+**重寫內容（保留語意）**
+
+- 畫面不必變形，但**角色的感官回報**要變形（喘氣、噁心、手抖）。
+- 觀眾透過演員的身體反應感知滲漏，而不是透過特效。
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U050 -->
+
+### <a id="cu-70b186117e19"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U051
+- 類型：`paragraph`
+- CU_HASH：`70b186117e19`
+
+**重寫內容（保留語意）**
+
+**參照文件：**
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U051 -->
+
+### <a id="cu-afa3054f728e"></a>Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U052
+- 類型：`list`
+- CU_HASH：`afa3054f728e`
+
+**重寫內容（保留語意）**
+
+- [[screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis#^alpha-beta-overview|Alpha/Beta 線敘事機制總覽]]
+- [[screenwriter/03_Worldview_Setting#^alpha-beta-bleed|Alpha/Beta 線的敘事滲漏機制概述]]
+
+<!-- Sources: backup/director/Worldview_Scene_Analysis.md::CU_ID=Worldview_Scene_Analysis::H**世界觀與場景設定分析 (擴充版)**/**1. 世界觀基調與氛圍 (World Tone & Atmosphere)**/**Alpha 線整合導演手冊** ^alpha-line-guide/**4. 場景演出重點 (Scene Staging)** ^alpha-staging::U052 -->

@@ -1,0 +1,2323 @@
+# 來源重寫：`backup/screenwriter/01_Character_Background_Story.md`
+
+> 讀者導讀：此文件是 backup 單一來源的重寫收納稿。
+> 用途：保證段落級零遺漏，並提供可追溯錨點。
+> 任何 Canon 決策以 `../canon/99_decision_log.md` 為準。
+
+## <a id="source-overview"></a>來源概覽
+- Source: `backup/screenwriter/01_Character_Background_Story.md`
+- Coverage Units: 220
+
+## <a id="h-角色背景故事"></a>角色背景故事
+
+### <a id="cu-63540760e210"></a>01_Character_Background_Story::H角色背景故事::U001
+- 類型：`heading`
+- CU_HASH：`63540760e210`
+
+**重寫內容（保留語意）**
+
+# 角色背景故事
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事::U001 -->
+
+### <a id="cu-34f61e6a6289"></a>01_Character_Background_Story::H角色背景故事::U002
+- 類型：`paragraph`
+- CU_HASH：`34f61e6a6289`
+
+**重寫內容（保留語意）**
+
+> **文件職責**：本文件專注於角色的生平經歷、童年創傷、性格形成。
+> 機制詳解請參閱對應專門文件。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事::U002 -->
+
+## <a id="h-角色背景故事-相關文件導航"></a>角色背景故事/相關文件導航
+
+### <a id="cu-d29c65140dad"></a>01_Character_Background_Story::H角色背景故事/相關文件導航::U003
+- 類型：`heading`
+- CU_HASH：`d29c65140dad`
+
+**重寫內容（保留語意）**
+
+## 相關文件導航
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航::U003 -->
+
+### <a id="cu-ba16e6909714"></a>01_Character_Background_Story::H角色背景故事/相關文件導航::U004
+- 類型：`list`
+- CU_HASH：`ba16e6909714`
+
+**重寫內容（保留語意）**
+
+- **能力與詛咒機制** → [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|魔法少女設定：角色能力章節]]
+- **反派終極計劃** → [[Villain_Master_Plan|黑奏的終極計劃]]
+- **Alpha/Beta線機制** → [[14_Alpha_Beta_Narrative_Mechanics|Alpha/Beta線敘事機制]]
+- **晴香創世事件** → [[14_Alpha_Beta_Narrative_Mechanics#^haruka-creation-event|晴香創世事件：Beta線的誕生]]
+- **深層哲學概念** → [[11_Deep_Philosophy_Concepts|深層哲學概念集]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航::U004 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航::U005
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航::U005 -->
+
+## <a id="h-角色背景故事-相關文件導航-操-misao-misao-alpha-beta"></a>角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta
+
+### <a id="cu-1babad73f852"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U192
+- 類型：`heading`
+- CU_HASH：`1babad73f852`
+
+**重寫內容（保留語意）**
+
+### **操 (Misao)** ^misao-alpha-beta
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U192 -->
+
+### <a id="cu-1dc189523759"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U193
+- 類型：`paragraph`
+- CU_HASH：`1dc189523759`
+
+**重寫內容（保留語意）**
+
+**【Alpha線：被定義的囚徒】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U193 -->
+
+### <a id="cu-f4140e52159c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U194
+- 類型：`paragraph`
+- CU_HASH：`f4140e52159c`
+
+**重寫內容（保留語意）**
+
+操的Alpha線是整個故事中最黑暗、最具創傷性的設定之一。**核心主題是「身體自主權」——被剝奪自我定義的權利。**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U194 -->
+
+### <a id="cu-cf67f1740cf0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U195
+- 類型：`paragraph`
+- CU_HASH：`cf67f1740cf0`
+
+**重寫內容（保留語意）**
+
+**家庭背景**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U195 -->
+
+### <a id="cu-cee9628b2638"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U196
+- 類型：`list`
+- CU_HASH：`cee9628b2638`
+
+**重寫內容（保留語意）**
+
+- 來自一個富裕但病態的家族
+- 父親是一個追求「完美」的控制狂，可能是整形醫生或生物學家
+- 父親的理念：「性別是缺陷」、「不完美的孩子是恥辱」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U196 -->
+
+### <a id="cu-4827d272ba59"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U197
+- 類型：`paragraph`
+- CU_HASH：`4827d272ba59`
+
+**重寫內容（保留語意）**
+
+**被改造的身體**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U197 -->
+
+### <a id="cu-b344c2255ed4"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U198
+- 類型：`list`
+- CU_HASH：`b344c2255ed4`
+
+**重寫內容（保留語意）**
+
+- 操原本是女性，但父親強行對她進行了**性別改造手術**——將她的身體強制改造成男性
+- 父親的動機：不是因為性別本身，而是因為他認為「完美」必須由他來定義
+- 操堅持自己是女性，但在父親眼中，這是「性別認知障礙」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U198 -->
+
+### <a id="cu-c6c6ca19998d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U199
+- 類型：`paragraph`
+- CU_HASH：`c6c6ca19998d`
+
+**重寫內容（保留語意）**
+
+**精神病院的囚禁**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U199 -->
+
+### <a id="cu-a91b1306fa66"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U200
+- 類型：`list`
+- CU_HASH：`a91b1306fa66`
+
+**重寫內容（保留語意）**
+
+- 因為操拒絕接受改造結果、堅持自己的女性身份，父親將她診斷為「性別認知障礙」或「妄想症」
+- 她被關入高級精神病院（對外宣稱是出國留學）
+- 在藥物和禁閉下，她開始懷疑：「我是不是真的瘋了？我記憶中的女孩子是不是我的妄想？」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U200 -->
+
+### <a id="cu-be34e96fd94a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U201
+- 類型：`paragraph`
+- CU_HASH：`be34e96fd94a`
+
+**重寫內容（保留語意）**
+
+**Alpha線的核心痛苦**：
+> 「妳係錯嘅」——自我認知被徹底否定
+> 「你無權定義自己」——身體自主權的完全剝奪
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U201 -->
+
+### <a id="cu-98d58d7988e6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U202
+- 類型：`paragraph`
+- CU_HASH：`98d58d7988e6`
+
+**重寫內容（保留語意）**
+
+**【Beta線：自我定義的反抗】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U202 -->
+
+### <a id="cu-56bfd7b3f766"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U203
+- 類型：`paragraph`
+- CU_HASH：`56bfd7b3f766`
+
+**重寫內容（保留語意）**
+
+Beta線的操，通過魔法獲得了Alpha線中被剝奪的東西——**自我定義的權利**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U203 -->
+
+### <a id="cu-fe615487a32d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U204
+- 類型：`paragraph`
+- CU_HASH：`fe615487a32d`
+
+**重寫內容（保留語意）**
+
+**魔法的本質**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U204 -->
+
+### <a id="cu-cbb07cf07cbe"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U205
+- 類型：`list`
+- CU_HASH：`cbb07cf07cbe`
+
+**重寫內容（保留語意）**
+
+- 操的魔法能力是「線」與「縫合」
+- **諷刺的象徵**：這源於父親的手術刀，但這次**刀柄在她自己手上**
+- 她用魔法維持自己理想中的女性身體——這不是整形，而是持續性的現實覆寫
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U205 -->
+
+### <a id="cu-db3ced6f3800"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U206
+- 類型：`paragraph`
+- CU_HASH：`db3ced6f3800`
+
+**重寫內容（保留語意）**
+
+**與父親的力量平衡**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U206 -->
+
+### <a id="cu-2baa241d33c0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U207
+- 類型：`list`
+- CU_HASH：`2baa241d33c0`
+
+**重寫內容（保留語意）**
+
+- Beta線中，操仍然住在家裡，但情況完全不同
+- 父親想處置她，但因為她擁有魔法（武力威懾），父親不敢輕舉妄動
+- 同時，舉報她會影響家族聲譽
+- 雙方維持著一種**「冷戰式的恐怖平衡」**——一觸即發但暫時穩定
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U207 -->
+
+### <a id="cu-c8ed7eedf8b4"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U208
+- 類型：`paragraph`
+- CU_HASH：`c8ed7eedf8b4`
+
+**重寫內容（保留語意）**
+
+**Alpha線滲漏**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U208 -->
+
+### <a id="cu-ab3b07bc8bee"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U209
+- 類型：`list`
+- CU_HASH：`ab3b07bc8bee`
+
+**重寫內容（保留語意）**
+
+- **鏡中陌生人**：當操照鏡子時，偶爾會短暫看到Alpha線那個被改造的身體
+- 這個視覺滲漏提醒她：魔法是臨時的，Alpha線的身體才是「物理真相」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U209 -->
+
+### <a id="cu-34f05765c1f0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U210
+- 類型：`paragraph`
+- CU_HASH：`34f05765c1f0`
+
+**重寫內容（保留語意）**
+
+**最大的恐懼**：
+> **魔法消失 = 回到被改造的身體 = 回到精神病院**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U210 -->
+
+### <a id="cu-264650383fe2"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U211
+- 類型：`paragraph`
+- CU_HASH：`264650383fe2`
+
+**重寫內容（保留語意）**
+
+這是操戰鬥的真正動力——她不是為了正義，而是為了**維持魔法**，因為魔法是她**唯一的自我定義權**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U211 -->
+
+### <a id="cu-745675e01cc5"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U212
+- 類型：`paragraph`
+- CU_HASH：`745675e01cc5`
+
+**重寫內容（保留語意）**
+
+**結局：從「完美」到「破損的必需品」**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U212 -->
+
+### <a id="cu-4905eed72829"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U213
+- 類型：`list`
+- CU_HASH：`4905eed72829`
+
+**重寫內容（保留語意）**
+
+- 在最終戰中，操面臨選擇：維持完美的女性身體（自私），還是保護同伴（無私）
+- 她選擇放棄夢寐以求的「完美身體」，將自己變成守護隊友的**「人偶之牆」**——醜陋但堅固
+- 這是她對父親的最終反抗：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U213 -->
+
+### <a id="cu-b75c4dcfed61"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U214
+- 類型：`paragraph`
+- CU_HASH：`b75c4dcfed61`
+
+**重寫內容（保留語意）**
+
+> 「爸爸想把我變成『完美的觀賞品』。但我選擇變成『破損的必需品』。即使不再美麗，這是我自己選擇的樣子。」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U214 -->
+
+### <a id="cu-15b34416aa62"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U215
+- 類型：`paragraph`
+- CU_HASH：`15b34416aa62`
+
+**重寫內容（保留語意）**
+
+**深層主題**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U215 -->
+
+### <a id="cu-c7b11c229a23"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U216
+- 類型：`list`
+- CU_HASH：`c7b11c229a23`
+
+**重寫內容（保留語意）**
+
+- **被定義vs自我定義**：Alpha線她被父親定義；Beta線她用魔法定義自己；最終她學會接受「不完美但自主」
+- **完美vs有用**：從追求父親眼中的「完美」，到接受自己選擇的「有用」
+- **身體自主權**：即使身體不完美，但只要是「我選擇的」，就有尊嚴
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U216 -->
+
+### <a id="cu-c4dbb4228875"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U217
+- 類型：`paragraph`
+- CU_HASH：`c4dbb4228875`
+
+**重寫內容（保留語意）**
+
+**重要說明**：
+此設定的目的不是獵奇，而是探討**「誰有權定義我」**這個存在主義命題。操的故事呼應核心主題「態度vs命運」：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U217 -->
+
+### <a id="cu-390d721c192d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U218
+- 類型：`list`
+- CU_HASH：`390d721c192d`
+
+**重寫內容（保留語意）**
+
+- 命運（Alpha）給了她一個被改造的身體
+- 態度（Beta）讓她選擇如何定義這個身體的意義
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U218 -->
+
+### <a id="cu-fc047a1f54a7"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U219
+- 類型：`paragraph`
+- CU_HASH：`fc047a1f54a7`
+
+**重寫內容（保留語意）**
+
+> **Alpha/Beta對照詳解**：操的完整對照表、視覺滲漏機制，見 [[14_Alpha_Beta_Narrative_Mechanics#^misao-contrast|操的Alpha/Beta對照]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U219 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U220
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**操 (Misao)** ^misao-alpha-beta::U220 -->
+
+## <a id="h-角色背景故事-相關文件導航-朱音-akane-akane-alpha-beta"></a>角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta
+
+### <a id="cu-82790c4cc939"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U170
+- 類型：`heading`
+- CU_HASH：`82790c4cc939`
+
+**重寫內容（保留語意）**
+
+### **朱音 (Akane)** ^akane-alpha-beta
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U170 -->
+
+### <a id="cu-1b25c0a32019"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U171
+- 類型：`paragraph`
+- CU_HASH：`1b25c0a32019`
+
+**重寫內容（保留語意）**
+
+**【Alpha線：從索取到絕望】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U171 -->
+
+### <a id="cu-57dd14918bbd"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U172
+- 類型：`paragraph`
+- CU_HASH：`57dd14918bbd`
+
+**重寫內容（保留語意）**
+
+在Alpha線中，朱音是一個生不如死的存在：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U172 -->
+
+### <a id="cu-cf67f1740cf0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U173
+- 類型：`paragraph`
+- CU_HASH：`cf67f1740cf0`
+
+**重寫內容（保留語意）**
+
+**家庭背景**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U173 -->
+
+### <a id="cu-93a8b330b832"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U174
+- 類型：`list`
+- CU_HASH：`93a8b330b832`
+
+**重寫內容（保留語意）**
+
+- 來自破碎的底層家庭，父母因毒品和暴力早已不知所蹤
+- 獨自撫養年幼的弟弟，但作為未成年的姐姐，她根本無力承擔這個責任
+- 為了生存，她開始接觸毒品——最初是為了賺錢（販賣），後來自己也成了癮君子
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U174 -->
+
+### <a id="cu-b9c645d5c2db"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U175
+- 類型：`paragraph`
+- CU_HASH：`b9c645d5c2db`
+
+**重寫內容（保留語意）**
+
+**墮落的螺旋**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U175 -->
+
+### <a id="cu-4f9fd77bc8f2"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U176
+- 類型：`list`
+- CU_HASH：`4f9fd77bc8f2`
+
+**重寫內容（保留語意）**
+
+- **吸毒的動機**：不是為了快樂，而是為了**麻醉自己**，讓自己不去感受飢餓、寒冷和對弟弟的無力感
+- **行為本質**：**索取**——她吸毒是為了填補自己的空洞，但這種索取是封閉的、自私的（即使出發點是為了逃避痛苦）
+- **最終結局**：在某個寒冷的夜晚，朱音和弟弟一起因毒品過量和飢餓死在一個破舊的毒窟裡，孤獨地死在垃圾堆旁，無人知曉
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U176 -->
+
+### <a id="cu-0b56830f9beb"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U177
+- 類型：`paragraph`
+- CU_HASH：`0b56830f9beb`
+
+**重寫內容（保留語意）**
+
+**Alpha線的核心痛苦**：
+> 「我無法填飽你」——無力保護的絕望
+> 「我用錯誤的方式想要救你」——自我毀滅式的愛
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U177 -->
+
+### <a id="cu-7d55d129079e"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U178
+- 類型：`paragraph`
+- CU_HASH：`7d55d129079e`
+
+**重寫內容（保留語意）**
+
+**【Beta線：從承擔到守護】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U178 -->
+
+### <a id="cu-d145b5c3a86a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U179
+- 類型：`paragraph`
+- CU_HASH：`d145b5c3a86a`
+
+**重寫內容（保留語意）**
+
+Beta線的朱音，表面上仍然是一個「渴望填補空洞」的存在，但她的行為本質發生了根本性轉變：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U179 -->
+
+### <a id="cu-c2a53b51a5d9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U180
+- 類型：`paragraph`
+- CU_HASH：`c2a53b51a5d9`
+
+**重寫內容（保留語意）**
+
+**魔法少女的動機**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U180 -->
+
+### <a id="cu-3f65c7a46af6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U181
+- 類型：`list`
+- CU_HASH：`3f65c7a46af6`
+
+**重寫內容（保留語意）**
+
+- 最初加入魔法少女，是因為戰鬥帶來的快感能讓她暫時忘記內心的空洞（類似毒品的止痛效果）
+- 但隨著與隊友的相處，她逐漸發現：比起「麻醉自己」，「保護他人」帶來的是另一種填補感
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U181 -->
+
+### <a id="cu-932f156fb20c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U182
+- 類型：`paragraph`
+- CU_HASH：`932f156fb20c`
+
+**重寫內容（保留語意）**
+
+**關鍵轉變**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U182 -->
+
+### <a id="cu-f9122e6b937f"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U183
+- 類型：`list`
+- CU_HASH：`f9122e6b937f`
+
+**重寫內容（保留語意）**
+
+- **行為本質**：從**索取**（吸毒麻醉自己）轉變為**承擔**（吞噬威脅保護他人）
+- **魔法能力**：她的魔法是「吞噬」——將傷害同伴的敵人、絕望、痛苦全部吃進肚子
+- **痛苦的重新詮釋**：
+  - Alpha：「我好痛，所以我食藥（麻醉）」
+  - Beta：「你哋會痛，所以我幫你哋食晒佢（承擔）」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U183 -->
+
+### <a id="cu-7f4af503e421"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U184
+- 類型：`paragraph`
+- CU_HASH：`7f4af503e421`
+
+**重寫內容（保留語意）**
+
+**Alpha線滲漏的具體表現**：
+雖然test文件中有詳細的生理症狀系統，但根據用戶指示「不需要這麼詳細」，這裡只保留核心概念：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U184 -->
+
+### <a id="cu-67148d00fcbe"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U185
+- 類型：`list`
+- CU_HASH：`67148d00fcbe`
+
+**重寫內容（保留語意）**
+
+- 朱音在Beta線會感受到一種「永遠填不滿的空洞感」
+- 越使用魔法，這種感覺越強烈
+- 她會隱約感覺到自己與Alpha線那個餓死的自己之間的連結
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U185 -->
+
+### <a id="cu-309358d7cc02"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U186
+- 類型：`paragraph`
+- CU_HASH：`309358d7cc02`
+
+**重寫內容（保留語意）**
+
+**結局：化身糖果山**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U186 -->
+
+### <a id="cu-966309f5ef8f"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U187
+- 類型：`list`
+- CU_HASH：`966309f5ef8f`
+
+**重寫內容（保留語意）**
+
+- 朱音最終選擇「食盡」所有傷害，身體承受不住而爆開
+- 但她的犧牲不是毫無價值的死亡——她化為糖果山，**滋養他人**
+- 這是對Alpha線「孤獨死在垃圾堆」的逆轉：
+  - Alpha：無意義的腐爛（被遺忘）
+  - Beta：有意義的燃燒（被紀念）
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U187 -->
+
+### <a id="cu-15b34416aa62"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U188
+- 類型：`paragraph`
+- CU_HASH：`15b34416aa62`
+
+**重寫內容（保留語意）**
+
+**深層主題**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U188 -->
+
+### <a id="cu-a96d7c333ded"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U189
+- 類型：`list`
+- CU_HASH：`a96d7c333ded`
+
+**重寫內容（保留語意）**
+
+- **自私vs無私**：從為了逃避而索取，到為了保護而承擔
+- **封閉vs開放**：從封閉自我的藥物依賴，到開放地承擔他人痛苦
+- **對「飢餓」的重新定義**：Alpha線的飢餓是物質的、絕望的；Beta線的「吞噬」是精神的、守護的
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U189 -->
+
+### <a id="cu-e53226e16b5e"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U190
+- 類型：`paragraph`
+- CU_HASH：`e53226e16b5e`
+
+**重寫內容（保留語意）**
+
+> **Alpha/Beta對照詳解**：朱音的完整對照表、具體觸發時機，見 [[14_Alpha_Beta_Narrative_Mechanics#^akane-contrast|朱音的Alpha/Beta對照]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U190 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U191
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**朱音 (Akane)** ^akane-alpha-beta::U191 -->
+
+## <a id="h-角色背景故事-相關文件導航-水無月-美夜子-miyako-miyako-alpha-beta"></a>角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta
+
+### <a id="cu-fad9b167afda"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U079
+- 類型：`heading`
+- CU_HASH：`fad9b167afda`
+
+**重寫內容（保留語意）**
+
+### **水無月 美夜子 (Miyako)** ^miyako-alpha-beta
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U079 -->
+
+### <a id="cu-3130617ddede"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U080
+- 類型：`paragraph`
+- CU_HASH：`3130617ddede`
+
+**重寫內容（保留語意）**
+
+**【水無月美夜子】**
+美夜子原名「雨宮美夜子」，是晴香的親生姊姊。在經歷了軍方改造、逃離實驗室後，她選擇與過去決裂，自己將姓氏改為「水無月」（みなづき）。這個姓氏象徵著她對「雨宮家」血脈的拒絕，以及她作為六月之雨的孤獨存在。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U080 -->
+
+### <a id="cu-e99ac55bed53"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U081
+- 類型：`paragraph`
+- CU_HASH：`e99ac55bed53`
+
+**重寫內容（保留語意）**
+
+美夜子的人生，是一齣由大人的罪孽與強制的奇蹟所編織的、關於**「存在主義受害者」**的悲劇。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U081 -->
+
+### <a id="cu-a71b9686f7c6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U082
+- 類型：`paragraph`
+- CU_HASH：`a71b9686f7c6`
+
+**重寫內容（保留語意）**
+
+**【唯一的已死者：借來的生命】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U082 -->
+
+### <a id="cu-006d48a66517"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U083
+- 類型：`paragraph`
+- CU_HASH：`006d48a66517`
+
+**重寫內容（保留語意）**
+
+在所有主要角色中，美夜子擁有獨特的定位——**她是唯一在Alpha線中真正死亡的角色**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U083 -->
+
+### <a id="cu-8aaf8bc3f471"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U084
+- 類型：`list`
+- CU_HASH：`8aaf8bc3f471`
+
+**重寫內容（保留語意）**
+
+- **朱音**：Alpha線生不如死（吸毒/流浪）但未死
+- **操**：Alpha線被囚禁（精神病院）但未死
+- **晴香**：Alpha線目睹親人死亡但她自己活著
+- **美夜子**：Alpha線中因意外身亡，**真正的死者**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U084 -->
+
+### <a id="cu-8e1b1d05b2fc"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U085
+- 類型：`paragraph`
+- CU_HASH：`8e1b1d05b2fc`
+
+**重寫內容（保留語意）**
+
+**Alpha vs Beta的獨特對照**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U085 -->
+
+### <a id="cu-46a3b6c6ca1c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U086
+- 類型：`table`
+- CU_HASH：`46a3b6c6ca1c`
+
+**重寫內容（保留語意）**
+
+| 維度 | Alpha線 | Beta線 | 深層意義 |
+|------|---------|---------|----------|
+| **存在狀態** | 突然中斷，留下無數遺憾<br>（無法告別、無法看晴香長大） | 倒數計時的借來時光<br>（知道隨時會消失） | 從遺憾到圓滿 |
+| **死亡性質** | 毫無準備的終結 | 有準備的告別 | 從「被奪走」到「主動放手」 |
+| **對晴香的影響** | 晴香永遠帶著「失去家姐」的創傷 | 晴香學會「送別家姐」的成熟 | 從依賴到獨立 |
+| **任務** | 無（已死） | 教晴香「如何接受失去」 | 死亡的教導意義 |
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U086 -->
+
+### <a id="cu-c1fbfc561ddf"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U087
+- 類型：`paragraph`
+- CU_HASH：`c1fbfc561ddf`
+
+**重寫內容（保留語意）**
+
+**Beta線的真正意義**：
+美夜子的Beta線存在，不是為了「復活」，而是為了**「道別」**：
+> 「Beta線係一份禮物。唔係比我復活嘅禮物，係比我哋好好講『再見』嘅禮物。Alpha線嗰次太倉卒啦，今次我哋慢慢講。」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U087 -->
+
+### <a id="cu-8a81a65302f2"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U088
+- 類型：`paragraph`
+- CU_HASH：`8a81a65302f2`
+
+**重寫內容（保留語意）**
+
+**Alpha線滲漏的表現**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U088 -->
+
+### <a id="cu-f7558c372502"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U089
+- 類型：`list`
+- CU_HASH：`f7558c372502`
+
+**重寫內容（保留語意）**
+
+- **無體溫/無心跳**：這是Alpha線「已死事實」的生理滲漏
+- **存在的虛幻感**：她知道自己是「借來的生命」，隨時可能消失
+- **對時間的敏感**：每一刻都在珍惜，因為知道這是「多出來的時間」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U089 -->
+
+### <a id="cu-72288c6ff51a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U090
+- 類型：`paragraph`
+- CU_HASH：`72288c6ff51a`
+
+**重寫內容（保留語意）**
+
+**美夜子的成長弧線**：
+她在Beta線的任務，是將晴香從：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U090 -->
+
+### <a id="cu-5772df3ffe38"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U091
+- 類型：`list`
+- CU_HASH：`5772df3ffe38`
+
+**重寫內容（保留語意）**
+
+- **「依賴家姐嘅細路」** → **「可以送走家姐嘅大人」**
+- **「害怕失去」** → **「接受失去」**
+- **「逃避死亡」** → **「擁抱告別」**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U091 -->
+
+### <a id="cu-2ca830c54fae"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U092
+- 類型：`paragraph`
+- CU_HASH：`2ca830c54fae`
+
+**重寫內容（保留語意）**
+
+這呼應了核心主題「態度vs命運」：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U092 -->
+
+### <a id="cu-1bc0cbeeaa2b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U093
+- 類型：`list`
+- CU_HASH：`1bc0cbeeaa2b`
+
+**重寫內容（保留語意）**
+
+- **命運（Alpha）**：美夜子注定會死
+- **態度（Beta）**：如何面對這個死亡——是倉卒的創傷，還是溫柔的告別
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U093 -->
+
+### <a id="cu-0c3b3f680ef9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U094
+- 類型：`paragraph`
+- CU_HASH：`0c3b3f680ef9`
+
+**重寫內容（保留語意）**
+
+> **詳細對照與生理滲漏**：見 [[14_Alpha_Beta_Narrative_Mechanics#^美夜子-alpha-beta-對照|美夜子的Alpha/Beta完整對照]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U094 -->
+
+### <a id="cu-afd66d67e6b6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U095
+- 類型：`table`
+- CU_HASH：`afd66d67e6b6`
+
+**重寫內容（保留語意）**
+
+生前，她是[[02_次要角色背景故事#^block2|花子]]的大女兒、[[01_人物背景故事#^block1|晴香]]的親生姊姊，一個與軍方毫無瓜葛的普通少女。然而，命運對她展現了最溫柔的殘酷——她因一場突如其中來的意外（晴香第一次改變現實後）而身亡。她本該就此安息，成為家人心中一道悲傷但平靜的傷痕。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U095 -->
+
+### <a id="cu-34b4fa60473b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U096
+- 類型：`table`
+- CU_HASH：`34b4fa60473b`
+
+**重寫內容（保留語意）**
+
+然而，她的死亡逼瘋了母親[[02_次要角色背景故事#^block2|花子]]，也成為了阿姨[[01_人物背景故事#^block9|秋穗]]最大的夢魘。在[[02_次要角色背景故事#^block2|花子]]死後，[[01_人物背景故事#^block9|秋穗]]為了驗證某種瘋狂的理論，利用集體潛意識技術與複製技術，強行將美夜子的靈魂碎片從彼岸拉回，注入了一具人造的軀殼之中。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U096 -->
+
+### <a id="cu-5fbe1b8395fc"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U097
+- 類型：`paragraph`
+- CU_HASH：`5fbe1b8395fc`
+
+**重寫內容（保留語意）**
+
+**「被剝奪死亡權利的少女」**： 復活後的美夜子失去了生前的記憶，被編入帝國軍方「魔法少女部隊」，代號**「Unit 01」**。她是軍方的「階段一」兵器，被訓練成冷酷的殺戮機器。在部隊中，她與4號魔法少女【凜】並肩作戰，兩人在無數次生死任務中建立了深厚的戰友情誼。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U097 -->
+
+### <a id="cu-5b57b698ac20"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U098
+- 類型：`paragraph`
+- CU_HASH：`5b57b698ac20`
+
+**重寫內容（保留語意）**
+
+**【五歲的詛咒：避難所 (The Sanctuary Curse)】** 美夜子變成貓的能力，並非出於她自身的意志，而是晴香5歲時天真願望的產物——「家姐唔好死……如果家姐變做貓仔就唔會受傷啦……」這個願望被刻入了 Beta 線世界的法則，成為美夜子靈魂上的「絕對保護機制」：當她受到致死傷害或心理防線崩潰時，會強制變成無法被殺死的黑貓。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U098 -->
+
+### <a id="cu-f0187e2f39ef"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U099
+- 類型：`paragraph`
+- CU_HASH：`f0187e2f39ef`
+
+**重寫內容（保留語意）**
+
+這是5歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭貓的依賴、那種「需要依附別人才能生存」的姿態。作為長女，她的尊嚴建立在「保護他人」而非「被保護」之上。晴香的願望，將她變成了她最厭惡的存在——一隻寵物。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U099 -->
+
+### <a id="cu-fc424c3a60ef"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U100
+- 類型：`paragraph`
+- CU_HASH：`fc424c3a60ef`
+
+**重寫內容（保留語意）**
+
+> **詛咒機制詳解**：避難所詛咒的觸發條件、「由心發動魔法」的證明，見 [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|美夜子的避難所詛咒]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U100 -->
+
+### <a id="cu-94c14272cdb4"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U101
+- 類型：`paragraph`
+- CU_HASH：`94c14272cdb4`
+
+**重寫內容（保留語意）**
+
+**【凜的犧牲與詛咒首次觸發】** 在軍方服役的五年間（帝國歷103-108年），美夜子有凜作為心理支柱，詛咒從未觸發。直到那次慘烈的「悲慟風暴」壓制任務——凜為掩護她撤離，釋放超過臨界點的冰凍魔法，被 L3 光環處決：冰藍色的光環猛烈旋轉，將凜的頭顱強行扭轉180度。美夜子親眼看見凜最後試圖安慰她的微笑，以一種扭曲的角度永遠定格。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U101 -->
+
+### <a id="cu-b2b2470185d6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U102
+- 類型：`paragraph`
+- CU_HASH：`b2b2470185d6`
+
+**重寫內容（保留語意）**
+
+目睹戰友被光環處決的那一刻，美夜子的情緒防線徹底崩潰——這觸發了晴香5歲時刻在她靈魂上的「避難所詛咒」。她的身軀被強制壓縮進一隻黑貓體內，從此逃離軍方控制，流落街頭。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U102 -->
+
+### <a id="cu-39aa59f838fe"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U103
+- 類型：`paragraph`
+- CU_HASH：`39aa59f838fe`
+
+**重寫內容（保留語意）**
+
+美夜子以為自己是因為懦弱才變成貓，不知道這是妹妹的「愛」——一份天真而殘酷的愛。這份創傷成為她心中最深的傷痕：「凜為我而死」的沉重內疚，與「我連死都死不了」的絕望感。這讓她對「魔法少女兵器制度」產生了深刻的仇恨。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U103 -->
+
+### <a id="cu-7521a4714097"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U104
+- 類型：`table`
+- CU_HASH：`7521a4714097`
+
+**重寫內容（保留語意）**
+
+**【光環PTSD與戰鬥風格的轉變】** 那個光環扭斷凜脖子的「喀嚓」聲，成為美夜子一生的夢魘。這也解釋了為什麼她現在戰鬥極度克制——她幾乎只用體術或槍械，非必要絕不使用大魔法。因為她對「光環」有著深刻的PTSD。只要看到隊友（特別是晴香或朱音）身上出現光環的徵兆，她就會極度焦慮，甚至粗暴地打斷隊友施法，大吼：「停下來！妳想被扭斷嗎？！」這份恐懼讓她成為團隊中最保守的戰術指揮者——她寧可選擇撤退，也不願看到任何人重蹈凜的覆轍。她接近[[01_人物背景故事#^block1|晴香]]，並非為了贖罪，也不是為了拯救世界，而是因為在這個充滿陌生與敵意的世界上，[[01_人物背景故事#^block1|晴香]]是她靈魂深處唯一感到**「熟悉與安全」**的錨點。她是一艘在狂風暴雨中失去方向的船，本能地靠向了唯一的港灣。同時，她也希望透過晴香的力量恢復人形態，並對這個不人道的制度進行報復。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U104 -->
+
+### <a id="cu-e0b2cbf68572"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U105
+- 類型：`paragraph`
+- CU_HASH：`e0b2cbf68572`
+
+**重寫內容（保留語意）**
+
+美夜子的一生，被剝奪了最基本的人性——死亡的權利、休息的權利、軟弱的權利。在軍方的訓練中，她被教導「情緒是弱點」。復活後，她背負著「我的命是借來的」的絕望。但即便如此，她內心深處依然存在著最深切、最禁忌的渴望：**她想在某個完全信賴的人面前，毫無顧忌地大哭一場**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U105 -->
+
+### <a id="cu-c0fe9f69de24"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U106
+- 類型：`paragraph`
+- CU_HASH：`c0fe9f69de24`
+
+**重寫內容（保留語意）**
+
+這個願望看似簡單，卻承載著她對存在本身的絕望質問。她想要證明，自己即使軟弱、即使不完美、即使是從死亡中被強行拉回的人造物，也值得被無條件地接納。她想要在某人的懷抱中感受到那份「妳不需要成為兵器，妳只需要是妳自己」的確認。這份渴望，成為了她與晴香之間最深層的情感連結——因為晴香擁有她最缺乏的東西：**無條件的、不計代價的愛**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U106 -->
+
+### <a id="cu-9a29762c4641"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U107
+- 類型：`paragraph`
+- CU_HASH：`9a29762c4641`
+
+**重寫內容（保留語意）**
+
+**【介錯人的覺悟：親手送行的準備】** 美夜子從一開始就沒有幻想。她知道魔法少女的結局只有兩種：光環處決，或者屍骸化。她接近晴香，表面上是為了恢復人形態和復仇，但她內心深處始終在準備著另一件事——當那一刻來臨時，由她來執行最後的送行。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U107 -->
+
+### <a id="cu-61fbb5aea119"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U108
+- 類型：`paragraph`
+- CU_HASH：`61fbb5aea119`
+
+**重寫內容（保留語意）**
+
+她不是要「拯救」任何人，因為這個系統本身就是不可挽回的悲劇。她要做的，是成為「最後的保險栓」——確保當她們走向終點時，能夠以「人類」的身份死去，而不是變成怪物。這是她唯一能給予她們的溫柔。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U108 -->
+
+### <a id="cu-3cc34bceb1e3"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U109
+- 類型：`paragraph`
+- CU_HASH：`3cc34bceb1e3`
+
+**重寫內容（保留語意）**
+
+對於朱音，她看見了一個「戒斷即死亡」的成癮者——不讓她戰鬥，她會因為無法逃避弟弟死亡的罪惡感而自我毀滅。對於操，她看見了一個「真相即崩壞」的脆弱靈魂——不讓她成為魔法少女，當她發現自己身體的真相時，她的自我認同會瞬間瓦解。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U109 -->
+
+### <a id="cu-519ad9814e81"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U110
+- 類型：`paragraph`
+- CU_HASH：`519ad9814e81`
+
+**重寫內容（保留語意）**
+
+美夜子選擇了最殘忍的慈悲：讓她們繼續戰鬥，同時準備好在終點等待她們。她的態度從最初的「冷漠交易」，逐漸轉變為「沉默的守護」，最終成為「背負罪孽的送行者」。這就是「介錯人」的覺悟——不是阻止死亡，而是讓死亡變得有尊嚴。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U110 -->
+
+### <a id="cu-864cbad66fca"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U111
+- 類型：`paragraph`
+- CU_HASH：`864cbad66fca`
+
+**重寫內容（保留語意）**
+
+**【傲慢的代價：獨自調查凜事件】** ^miyako-arrogance
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U111 -->
+
+### <a id="cu-00a525c0240d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U112
+- 類型：`paragraph`
+- CU_HASH：`00a525c0240d`
+
+**重寫內容（保留語意）**
+
+在團隊信任已經建立的時期，美夜子犯下了一個源於「傲慢的保護欲」的嚴重錯誤。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U112 -->
+
+### <a id="cu-a317ebfdb59e"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U113
+- 類型：`paragraph`
+- CU_HASH：`a317ebfdb59e`
+
+**重寫內容（保留語意）**
+
+**起因：** 在一次戰略討論中，晴香和其他隊員想參與決策，卻被美夜子一言堂否決：「你們不懂」、「太危險」、「乖乖去練習」。隊友覺得被當成小孩，產生了冷戰氣氛。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U113 -->
+
+### <a id="cu-3608e4258480"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U114
+- 類型：`paragraph`
+- CU_HASH：`3608e4258480`
+
+**重寫內容（保留語意）**
+
+**關鍵發現：** 就在這個時候，美夜子獲得情報：凜仍然在生，以情緒管理局公務員的身份存在。這個消息對她是巨大的衝擊——她一直活在「凜為我而死」的罪惡感之中，如今卻發現凜可能還活著。她想確認：這是真正的凜？還是黑奏設下的陷阱？
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U114 -->
+
+### <a id="cu-829b1e16d3fa"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U115
+- 類型：`paragraph`
+- CU_HASH：`829b1e16d3fa`
+
+**重寫內容（保留語意）**
+
+**錯誤行動：** 因為正與隊友冷戰（賭氣），加上覺得「這件事太私人，告訴她們只會添亂」，美夜子選擇隱瞞全隊，刪除通訊記錄，獨自去調查凜的下落。她的心態是：「我一個人搞得定。等我確認了再告訴她們。」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U115 -->
+
+### <a id="cu-ff2f8005279c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U116
+- 類型：`paragraph`
+- CU_HASH：`ff2f8005279c`
+
+**重寫內容（保留語意）**
+
+**災難後果：** 美夜子被黑奏/情緒管理局伏擊、軟禁。團隊群龍無首，而且因為無人知道她去了哪裡，根本無法救援。更糟的是，美夜子被迫與「重組凜」對峙——那個保留了凜的外貌，卻被植入虛假記憶、完全不認識她的「傀儡」。這造成了極大的心理創傷。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U116 -->
+
+### <a id="cu-c1c93e86e7bf"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U117
+- 類型：`paragraph`
+- CU_HASH：`c1c93e86e7bf`
+
+**重寫內容（保留語意）**
+
+**晴香帶隊救援：** 這是晴香第一次肩負起領導責任，帶領朱音和操去救美夜子。這成為晴香成長的轉折點——從「被保護者」變成「能保護別人的人」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U117 -->
+
+### <a id="cu-627cd9d137de"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U118
+- 類型：`paragraph`
+- CU_HASH：`627cd9d137de`
+
+**重寫內容（保留語意）**
+
+**事後衝突：** 隊友發現真相後極度憤怒，特別是朱音：「你整天說要保護我們，但你連我們都不信！」美夜子的「隊長權威」受到嚴重質疑。但同時，隊友第一次見到美夜子的「軟弱」——原來她也有無法放下的執念。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U118 -->
+
+### <a id="cu-8ed87d873f1a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U119
+- 類型：`paragraph`
+- CU_HASH：`8ed87d873f1a`
+
+**重寫內容（保留語意）**
+
+美夜子被救出後，第一次在隊友面前承認：「我錯了⋯⋯我應該告訴你們⋯⋯」這是她第一次以「弱者」的身份接受隊友的援手，打破了她與隊友之間的上下關係。她對「信任」的定義被重寫——信任不是「我保護你」，而是「你也可以保護我」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**水無月 美夜子 (Miyako)** ^miyako-alpha-beta::U119 -->
+
+## <a id="h-角色背景故事-相關文件導航-潛意識人格-夕-yu"></a>角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**
+
+### <a id="cu-7e4bfb306bcb"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U120
+- 類型：`heading`
+- CU_HASH：`7e4bfb306bcb`
+
+**重寫內容（保留語意）**
+
+### **潛意識人格 (夕 Yu)**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U120 -->
+
+### <a id="cu-f67671a7ebf3"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U121
+- 類型：`paragraph`
+- CU_HASH：`f67671a7ebf3`
+
+**重寫內容（保留語意）**
+
+夕的誕生源於晴香創造Beta線時的靈魂撕裂——所有她無法面對的痛苦、恐懼，以及Alpha線的真實記憶，被強制剝離並凝聚成獨立人格。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U121 -->
+
+### <a id="cu-768cf05b8f41"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U122
+- 類型：`paragraph`
+- CU_HASH：`768cf05b8f41`
+
+**重寫內容（保留語意）**
+
+她不僅是晴香被切割出去的陰影，更是記得完整真相的意識碎片——媽媽和美夜子是怎麼死的。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U122 -->
+
+### <a id="cu-6924304dddc8"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U123
+- 類型：`paragraph`
+- CU_HASH：`6924304dddc8`
+
+**重寫內容（保留語意）**
+
+夕是被拋棄的真相，也是黑奏的能量來源。她記得那些被刪除的過去，同時也不斷產生痛苦的情緒——而黑奏可以從她身上吸取這些痛苦，轉化成力量。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U123 -->
+
+### <a id="cu-0a6c52881432"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U124
+- 類型：`paragraph`
+- CU_HASH：`0a6c52881432`
+
+**重寫內容（保留語意）**
+
+> **分裂機制詳解**：平衡機制如何剝離記憶、夕的本質與起源，見 [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|夕的靈魂分裂]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U124 -->
+
+### <a id="cu-d148ebe9b07b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U125
+- 類型：`paragraph`
+- CU_HASH：`d148ebe9b07b`
+
+**重寫內容（保留語意）**
+
+**【夕想證明一件事：晴香是錯的】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U125 -->
+
+### <a id="cu-c5ee88c49f2b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U126
+- 類型：`paragraph`
+- CU_HASH：`c5ee88c49f2b`
+
+**重寫內容（保留語意）**
+
+夕的存在本身就證明了晴香「刪除痛苦=幸福」的邏輯是錯的。晴香相信只要切割出負面情緒，就能獲得幸福。但夕——這個被切割出來的痛苦本身——不但沒有消失，反而變成了長住在潛意識裡的怪物。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U126 -->
+
+### <a id="cu-f63eaec24a11"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U127
+- 類型：`paragraph`
+- CU_HASH：`f63eaec24a11`
+
+**重寫內容（保留語意）**
+
+夕的核心動機是**證明晴香是錯的**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U127 -->
+
+### <a id="cu-28760eafa516"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U128
+- 類型：`list`
+- CU_HASH：`28760eafa516`
+
+**重寫內容（保留語意）**
+
+- 晴香說：痛苦是可以刪除的。
+- 夕說：痛苦是刪不走的，它只會變成你無法控制的東西。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U128 -->
+
+### <a id="cu-2dd18f3c732b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U129
+- 類型：`paragraph`
+- CU_HASH：`2dd18f3c732b`
+
+**重寫內容（保留語意）**
+
+夕拒絕回歸本體。她要作為一個獨立的個體，用自己的存在告訴創造者：「我唔係你嘅垃圾，我係你拋棄咗嘅『真實』。只要我一日唔消失，你嘅烏托邦就一日都係假象。」
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U129 -->
+
+### <a id="cu-9ee14caf28d0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U130
+- 類型：`paragraph`
+- CU_HASH：`9ee14caf28d0`
+
+**重寫內容（保留語意）**
+
+她攻擊晴香，不是出於單純的恨，而是**「強迫面對」**——她認為只有讓晴香直面被刪除的痛苦，晴香才能真正成長。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U130 -->
+
+### <a id="cu-5da89443ec78"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U131
+- 類型：`paragraph`
+- CU_HASH：`5da89443ec78`
+
+**重寫內容（保留語意）**
+
+**【夕與黑奏的共生關係】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U131 -->
+
+### <a id="cu-5f2fcf05d006"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U132
+- 類型：`paragraph`
+- CU_HASH：`5f2fcf05d006`
+
+**重寫內容（保留語意）**
+
+黑奏在集體潛意識中發現了夕的存在——一個獨自承載著真實、充滿痛苦與憤怒、與晴香靈魂相連卻被遺棄的意識碎片。對黑奏而言，夕是一個**完美的能量來源**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U132 -->
+
+### <a id="cu-dc93ec10dead"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U133
+- 類型：`paragraph`
+- CU_HASH：`dc93ec10dead`
+
+**重寫內容（保留語意）**
+
+夕充滿了痛苦的回憶和負面情緒。她的存在本身就不斷產生痛苦——而黑奏可以從她身上吸取這些痛苦，轉化成力量。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U133 -->
+
+### <a id="cu-a6eda71fd08b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U134
+- 類型：`paragraph`
+- CU_HASH：`a6eda71fd08b`
+
+**重寫內容（保留語意）**
+
+**目標重疊的諷刺**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U134 -->
+
+### <a id="cu-41e9d570de50"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U135
+- 類型：`list`
+- CU_HASH：`41e9d570de50`
+
+**重寫內容（保留語意）**
+
+- 黑奏想要傷害晴香來收割能量
+- 夕想要「打醒」晴香讓她直面真實
+- 兩者的行動都是「攻擊晴香」，但動機完全不同
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U135 -->
+
+### <a id="cu-97f14f9c2c0f"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U136
+- 類型：`paragraph`
+- CU_HASH：`97f14f9c2c0f`
+
+**重寫內容（保留語意）**
+
+**重要設定**：夕始終沒有獨立的肉身。她只能通過**奪取晴香身體控制權**來在現實世界中行動。當夕試圖浮現時，晴香會經歷記憶斷層，周圍的人會看到「晴香」的言行舉止突然改變——變得冰冷、充滿敵意。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U136 -->
+
+### <a id="cu-2a2707d51da4"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U137
+- 類型：`paragraph`
+- CU_HASH：`2a2707d51da4`
+
+**重寫內容（保留語意）**
+
+諷刺的是，夕以為自己在進行崇高的哲學反叛（證明晴香是錯的），卻不知道每一次「強迫面對」都在餵養著真正的敵人。**她成為了黑奏的「能量農場」**——一個在客觀上為黑奏提供能量，但主觀上追求自己哲學目標的存在。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U137 -->
+
+### <a id="cu-b08736e6845b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U138
+- 類型：`paragraph`
+- CU_HASH：`b08736e6845b`
+
+**重寫內容（保留語意）**
+
+> **能量收割機制詳解**：黑奏如何利用夕作為能量農場，見 [[Villain_Master_Plan#^夕能量農場|夕：黑奏的無意識能量農場]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U138 -->
+
+### <a id="cu-c170be6c75d1"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U139
+- 類型：`paragraph`
+- CU_HASH：`c170be6c75d1`
+
+**重寫內容（保留語意）**
+
+**【融合時刻的意義】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U139 -->
+
+### <a id="cu-dc4bf9bfb150"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U140
+- 類型：`paragraph`
+- CU_HASH：`dc4bf9bfb150`
+
+**重寫內容（保留語意）**
+
+當晴香最終選擇擁抱夕時，這不是「消滅暗面」，而是**承認自己的錯誤**。晴香終於明白：痛苦不能被刪除，只能被接納；夕不是敵人，而是被自己拋棄的真實。融合後的晴香，終於擁有了完整的自我——這是夕反叛的最終勝利，也是她存在的意義得到認可的時刻。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U140 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U141
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**潛意識人格 (夕 Yu)**::U141 -->
+
+## <a id="h-角色背景故事-相關文件導航-澄川-彩-黒奏"></a>角色背景故事/相關文件導航/**澄川 彩(黒奏)**
+
+### <a id="cu-aef5cdafca8b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**::U058
+- 類型：`heading`
+- CU_HASH：`aef5cdafca8b`
+
+**重寫內容（保留語意）**
+
+### **澄川 彩(黒奏)**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**::U058 -->
+
+### <a id="cu-e52f0ab67174"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**::U059
+- 類型：`paragraph`
+- CU_HASH：`e52f0ab67174`
+
+**重寫內容（保留語意）**
+
+**【崩壞的搖籃曲：雙重人格的悲劇起源】** 黒奏並非單純的戰爭孤兒，她的身體裡居住著兩個靈魂：不知情的脆弱主人格**「彩 (Aya)」**，與為了承受痛苦而生的強大保護者**「黒奏 (Kurosou)」**。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**::U059 -->
+
+## <a id="h-角色背景故事-相關文件導航-澄川-彩-黒奏-偽裝與心理實驗"></a>角色背景故事/相關文件導航/**澄川 彩(黒奏)**/偽裝與心理實驗
+
+### <a id="cu-05261836b8ce"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/偽裝與心理實驗::U077
+- 類型：`heading`
+- CU_HASH：`05261836b8ce`
+
+**重寫內容（保留語意）**
+
+#### 偽裝與心理實驗
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/偽裝與心理實驗::U077 -->
+
+### <a id="cu-5bcea203a268"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/偽裝與心理實驗::U078
+- 類型：`paragraph`
+- CU_HASH：`5bcea203a268`
+
+**重寫內容（保留語意）**
+
+黒奏偽裝成轉校生「彩」潛伏在晴香身邊，表面上在驗證人性——「情感是否真的注定導致毀滅？」但實質上在進行能量的監測與收集。她看著晴香為保護「廢物般的彩」而受傷，不是感動，而是冷靜地計算著晴香散發出的情感能量數據。她精心誘導晴香陷入更深的絕望，因為絕望中的晴香所產生的能量品質最高、最純粹。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/偽裝與心理實驗::U078 -->
+
+## <a id="h-角色背景故事-相關文件導航-澄川-彩-黒奏-夜區創傷-希望的粉碎"></a>角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎
+
+### <a id="cu-473454ddba88"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U060
+- 類型：`heading`
+- CU_HASH：`473454ddba88`
+
+**重寫內容（保留語意）**
+
+#### 夜區創傷：希望的粉碎
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U060 -->
+
+### <a id="cu-43bbf32e6242"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U061
+- 類型：`paragraph`
+- CU_HASH：`43bbf32e6242`
+
+**重寫內容（保留語意）**
+
+在帝國統一戰爭的陰影下，年幼的黑奏被遺棄在戰火紛飛的「夜區」。在這個充滿絕望與死亡的地方，一個無名的「大姐姐」——後來被稱為**「螢」**的少女找到了並保護了她。這位少女比黑奏年長幾歲，成為了她在亂世中唯一的依靠與溫暖來源。她們之間的情感連結，是黑奏人生中第一次體驗到的、純粹的信賴與關愛。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U061 -->
+
+### <a id="cu-70d2242f4940"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U062
+- 類型：`paragraph`
+- CU_HASH：`70d2242f4940`
+
+**重寫內容（保留語意）**
+
+**螢**將一隻殘舊的熊公仔送給黑奏，告訴她：「有牠陪著妳，就等於我陪著妳。」這隻熊公仔，成為了黑奏心中「愛」這個抽象概念的具體形態。它不單只是一個玩具，更是她情感世界的支柱，是她與這個殘酷世界之間的唯一緩衝。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U062 -->
+
+### <a id="cu-06da65999061"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U063
+- 類型：`paragraph`
+- CU_HASH：`06da65999061`
+
+**重寫內容（保留語意）**
+
+一切始於靈樹戰爭末期的夜區廢墟。年僅六歲的彩，是一個極度敏感、依賴性強的孩子，她與無血緣關係的姊姊「螢」相依為命。在一次帝國軍的肅清中，兩人躲藏在通風管道內。面對逼近的死亡，彩因極致的恐懼而過度換氣，體內龐大的情緒能量發生逆流，化作尖銳的哭聲引來了士兵。螢為了保護彩，衝出去引開敵人，最終慘死在彩的眼前。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U063 -->
+
+### <a id="cu-b540b25460a0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U064
+- 類型：`paragraph`
+- CU_HASH：`b540b25460a0`
+
+**重寫內容（保留語意）**
+
+那一刻，彩的精神徹底崩潰。她不恨殺人的士兵，她恨的是**「那一刻無法停止哭泣的自己」**。為了活下去，為了不再因為軟弱而害死人，一個眼神冰冷、毫無恐懼的人格——**「黒奏」**覺醒了。當帝國皇帝發現這個女孩並問她名字時，抬起頭的已經不再是那個愛哭的彩，而是冷漠回答「彩已經死了」的黒奏。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U064 -->
+
+### <a id="cu-437473d5748c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U065
+- 類型：`paragraph`
+- CU_HASH：`437473d5748c`
+
+**重寫內容（保留語意）**
+
+自始至終，【黑奏】的兩個人格都存在於同一具身體中。強大的第二人格（自稱為「神」）作為「表層意識」主導一切，而原本的孩童人格（主人格）則被壓抑在潛意識的最深處，如同被囚禁在自己身體裡的囚犯。最終，已完全由第二人格主導的【黑奏】，利用自己對宮廷的熟悉和操控情緒的能力，親手殺死了她的「養父」——【帝國皇帝】。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U065 -->
+
+### <a id="cu-3f58380b65b3"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U066
+- 類型：`paragraph`
+- CU_HASH：`3f58380b65b3`
+
+**重寫內容（保留語意）**
+
+**【極致的修正主義】** 黒奏的存在，是為了**「承受彩無法承受的痛苦」**並**「執行彩不敢做的殘忍決定」**。她建立帝國、推行「情緒修正」，其核心邏輯源於那個崩壞的夜晚：「如果我當時沒有恐懼這種多餘的情緒，我就不會哭；我不哭，姊姊就不會死。所以，情緒即是死亡的噪音。」她要修正的不是世界，而是**「人類擁有痛覺」**這個生理缺陷。她所做的一切，本質上是為了創造一個**「連彩這樣軟弱的孩子也能活下去（因為沒有恐懼）」**的完美世界。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U066 -->
+
+### <a id="cu-8b6e3c1a6fb6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U067
+- 類型：`paragraph`
+- CU_HASH：`8b6e3c1a6fb6`
+
+**重寫內容（保留語意）**
+
+**【終極計劃：共振地獄與跨時間線收割】** ^共振地獄
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U067 -->
+
+### <a id="cu-6d2ddb014c97"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U068
+- 類型：`paragraph`
+- CU_HASH：`6d2ddb014c97`
+
+**重寫內容（保留語意）**
+
+黒奏的真正目標是**「修正人類的設計缺陷」**——建立一個「痛楚公有化」的世界，讓施暴者能立即感受到受害者的痛苦，從而在生物本能層面消滅惡意。她的計劃分為三個階段：透過 Emo-Visor 系統建立共振網絡、利用「原初之苦」觸發全面共振、最終在集體潛意識中強制連結所有人類神經。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U068 -->
+
+### <a id="cu-d6c1d35d8659"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U069
+- 類型：`paragraph`
+- CU_HASH：`d6c1d35d8659`
+
+**重寫內容（保留語意）**
+
+然而，她的力量並非天生——而是源於晴香未來發動「改變現實」時逸散的因果能量。她能在死亡後保留記憶並穿越時間線，但每次循環都會喪失力量。因此，她必須潛伏在晴香身邊，不斷收割情緒能量以維持統治。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U069 -->
+
+### <a id="cu-f4667bcc0bd9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U070
+- 類型：`paragraph`
+- CU_HASH：`f4667bcc0bd9`
+
+**重寫內容（保留語意）**
+
+魔法少女系統的真正用途，不是對抗魔法屍骸，而是**「極限情感數據的養殖場」**——讓少女們在絕望中掙扎，產生黑奏完善「共振地獄」所需的高純度負面情緒數據。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U070 -->
+
+### <a id="cu-ee028c1ad630"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U071
+- 類型：`paragraph`
+- CU_HASH：`ee028c1ad630`
+
+**重寫內容（保留語意）**
+
+> **反派計劃完整詳解**：共振地獄的三階段實現、數據養殖計劃、跨時間線能量收割機制，見 [[Villain_Master_Plan|黑奏的終極計劃]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/夜區創傷：希望的粉碎::U071 -->
+
+## <a id="h-角色背景故事-相關文件導航-澄川-彩-黒奏-彩的魔法少女形態-能量收割的陷阱"></a>角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱
+
+### <a id="cu-c8fda99dbd11"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U072
+- 類型：`heading`
+- CU_HASH：`c8fda99dbd11`
+
+**重寫內容（保留語意）**
+
+#### 彩的魔法少女形態：能量收割的陷阱
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U072 -->
+
+### <a id="cu-1e273b2a0214"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U073
+- 類型：`paragraph`
+- CU_HASH：`1e273b2a0214`
+
+**重寫內容（保留語意）**
+
+為了製造敘事誤導，主人格彩也能變身為魔法少女——**「祭祀之花」**，以白色祭祀服為形態，如同即將被獻祭的巫女。她與黑奏共享同一個心匣（那隻殘舊的熊公仔），當彩掌控身體時恢復原形，當黑奏掌控時則扭曲為萬花筒。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U073 -->
+
+### <a id="cu-5e40a6c0d076"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U074
+- 類型：`paragraph`
+- CU_HASH：`5e40a6c0d076`
+
+**重寫內容（保留語意）**
+
+由於靈魂分裂，彩的變身是**自殘性**的——每次使用力量都會遭受劇烈的感官反噬與靈魂延遲，當她因痛苦崩潰時，會爆發出「悲慟風暴」，成為黑奏製造情緒病毒的原材料。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U074 -->
+
+### <a id="cu-5c4bbffec745"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U075
+- 類型：`paragraph`
+- CU_HASH：`5c4bbffec745`
+
+**重寫內容（保留語意）**
+
+> **能力機制詳解**：彩與黑奏共享心匣的雙重形態、靈魂延遲 (Soul Lag) 機制，見 [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|黑奏與彩的共享心匣]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U075 -->
+
+### <a id="cu-ef143fcd883c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U076
+- 類型：`paragraph`
+- CU_HASH：`ef143fcd883c`
+
+**重寫內容（保留語意）**
+
+**終極諷刺**：晴香以為自己在保護彩，實際上彩就是精心設計的「能量收割裝置」——她越保護彩，彩越痛苦，黑奏就越強大。**最親密的夥伴關係，建立在最殘酷的利用之上。**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**澄川 彩(黒奏)**/彩的魔法少女形態：能量收割的陷阱::U076 -->
+
+## <a id="h-角色背景故事-相關文件導航-雨宮-晴香"></a>角色背景故事/相關文件導航/**雨宮 晴香**
+
+### <a id="cu-ddf98ddc47b1"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U006
+- 類型：`heading`
+- CU_HASH：`ddf98ddc47b1`
+
+**重寫內容（保留語意）**
+
+### **雨宮 晴香**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U006 -->
+
+### <a id="cu-b8476405d797"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U007
+- 類型：`paragraph`
+- CU_HASH：`b8476405d797`
+
+**重寫內容（保留語意）**
+
+**【雨宮晴香與春日井晴香】**
+晴香擁有兩個姓氏：真名「雨宮晴香」（あめみや はるか）是她在官方檔案、帝國系統、以及集體潛意識管理中的正式名字；而「春日井晴香」（かすがい はるか）則是她成為偶像魔法少女後使用的藝名。這個名字也是對母親「東雲（黎明）」的致敬，代表她想像春日的陽光一樣溫暖他人。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U007 -->
+
+### <a id="cu-c2ba19749f62"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U008
+- 類型：`paragraph`
+- CU_HASH：`c2ba19749f62`
+
+**重寫內容（保留語意）**
+
+晴香的誕生，源於一場深沉的悲劇與絕望中的一絲慰藉。在她的姊姊【美夜子】因意外身亡、被母親【東雲花子】冰封於冷藏庫後，【花子】在「失去」大女兒的打擊下，精神瀕臨崩潰。為了尋求慰藉，她選擇再度懷孕——晴香就這樣在母親最脆弱的時刻降臨到這個世界。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U008 -->
+
+### <a id="cu-3040c49cf1b2"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U009
+- 類型：`paragraph`
+- CU_HASH：`3040c49cf1b2`
+
+**重寫內容（保留語意）**
+
+因此，晴香的生命，從一開始就承載著雙重的祝福與詛咒。她天生就有特殊的力量，像一顆種子藏在她身體裡——可以變得很強大，也可能變得很危險。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U009 -->
+
+### <a id="cu-d1bccc75cb3c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U010
+- 類型：`paragraph`
+- CU_HASH：`d1bccc75cb3c`
+
+**重寫內容（保留語意）**
+
+大家都說，晴香的力量是從媽媽那裡遺傳來的——母親【花子】是生命機械學家，有特殊的血脈。但這只是阿姨為了保護她而編的善意謊言，真相更加複雜。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U010 -->
+
+### <a id="cu-1f8405b4f798"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U011
+- 類型：`paragraph`
+- CU_HASH：`1f8405b4f798`
+
+**重寫內容（保留語意）**
+
+**【情緒增幅器的詛咒】** 晴香五歲時，她的力量被扭曲了——變成了一個情緒炸彈。她會把周圍人的感受放大，痛苦會被放大到失控程度。這份力量既是光源，也是隨時可能引爆的災難。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U011 -->
+
+### <a id="cu-7ec55a7b8f35"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U012
+- 類型：`paragraph`
+- CU_HASH：`7ec55a7b8f35`
+
+**重寫內容（保留語意）**
+
+> **能力機制詳解**：情緒增幅器的完整運作機制、因果回流原理，見 [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|晴香的情緒增幅器]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U012 -->
+
+### <a id="cu-9ec99de6a92c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U013
+- 類型：`paragraph`
+- CU_HASH：`9ec99de6a92c`
+
+**重寫內容（保留語意）**
+
+**【創世者的身份：不自知的罪責】** 晴香不知道的是，她在五歲時改變了整個世界。當她在原本的世界（Alpha線）目睹母親和美夜子死去時，她無意識地創造了另一個世界（Beta線）——一個「她們沒有死」的世界。但這個新世界建立在壓抑之上：魔法少女系統、魔法屍骸、情緒毒品——所有悲劇都源於她那一刻的願望。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U013 -->
+
+### <a id="cu-f3f7541ac960"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U014
+- 類型：`paragraph`
+- CU_HASH：`f3f7541ac960`
+
+**重寫內容（保留語意）**
+
+她不知道自己創造了這個世界，只以為自己是普通的魔法少女。當真相揭露時，她背負的不是「倖存者罪責」，而是**「造物主的罪責」**——所有人的痛苦都源於她的選擇。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U014 -->
+
+### <a id="cu-a72c1f28e7d8"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U015
+- 類型：`paragraph`
+- CU_HASH：`a72c1f28e7d8`
+
+**重寫內容（保留語意）**
+
+> **創世事件完整真相**：Alpha 線的原初狀態、改變現實的機制、Beta 線的詛咒遺產，見 [[14_Alpha_Beta_Narrative_Mechanics#^haruka-creation-event|晴香創世事件：Beta 線的誕生]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U015 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U016
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/**雨宮 晴香**::U016 -->
+
+## <a id="h-角色背景故事-相關文件導航-終局劇透警告-alpha-beta線的完整真相"></a>角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相
+
+### <a id="cu-2a29ea1ef195"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U031
+- 類型：`heading`
+- CU_HASH：`2a29ea1ef195`
+
+**重寫內容（保留語意）**
+
+### 【終局劇透警告】Alpha/Beta線的完整真相
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U031 -->
+
+### <a id="cu-6def8458d363"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U032
+- 類型：`paragraph`
+- CU_HASH：`6def8458d363`
+
+**重寫內容（保留語意）**
+
+> ⚠️ **警告**：以下內容揭露Alpha線與Beta線的核心真相，涉及晴香創世的完整來龍去脈。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U032 -->
+
+### <a id="cu-9edb0ebd7702"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U033
+- 類型：`paragraph`
+- CU_HASH：`9edb0ebd7702`
+
+**重寫內容（保留語意）**
+
+在原本的世界（Alpha線）中，晴香五歲時目睹母親和美夜子同時被殺——這份「雙重失去」的創傷讓她發動「改變現實」，創造了Beta線。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U033 -->
+
+### <a id="cu-a2831004f229"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U034
+- 類型：`paragraph`
+- CU_HASH：`a2831004f229`
+
+**重寫內容（保留語意）**
+
+在新世界中，媽媽的死因被重新設定為難產，美夜子存活下來，而晴香對Alpha線真相毫無所覺。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U034 -->
+
+### <a id="cu-6bbc6e472fd6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U035
+- 類型：`paragraph`
+- CU_HASH：`6bbc6e472fd6`
+
+**重寫內容（保留語意）**
+
+她的靈魂為了自保而撕裂——所有無法面對的痛苦、恐懼，以及Alpha線的真實記憶，凝聚成了另一個潛意識人格「夕」。阿姨【秋穗】利用情緒力量裝置將真相封存，讓晴香只知道「媽媽生我時去世了」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U035 -->
+
+### <a id="cu-a3c76a44b758"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U036
+- 類型：`paragraph`
+- CU_HASH：`a3c76a44b758`
+
+**重寫內容（保留語意）**
+
+她的悲劇不在於天賦的詛咒，而是被自己親手扭曲的天賦所詛咒——她創造了一個「幸福」的世界，卻不知道這份幸福的代價。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U036 -->
+
+### <a id="cu-79c3f01c144f"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U037
+- 類型：`paragraph`
+- CU_HASH：`79c3f01c144f`
+
+**重寫內容（保留語意）**
+
+**【倖存者的缺失與孤獨的英雄】** 儘管在校園中看似受歡迎，晴香卻始終是一個「善良的絕緣體」。一出生就失去母親的缺失感，在她潛意識中植入了「我無法保護我所愛的人」以及「我害怕再次失去」的劇毒信念。她將自己擺在「拯救者」的位置上，因為拯救者不能示弱，也不能與被拯救者平起平坐。這種早熟的沉重感，讓她無法與同齡人建立真正的親密連結——她對所有人都好，本質上是一種拒絕深層連結的防護罩，因為如果不深交，失去時就不會那麼痛。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U037 -->
+
+### <a id="cu-25ceec87fb1e"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U038
+- 類型：`paragraph`
+- CU_HASH：`25ceec87fb1e`
+
+**重寫內容（保留語意）**
+
+**【身體違和感：夕的早期徵兆】** 在成為魔法少女之前，晴香就經歷過無法解釋的身體異常——幽靈重量、記憶斷層、幻聽。她秘密查閱精神疾病資料，害怕自己「病咗」，卻不敢告訴任何人。這份「我是不是病咗」的恐懼，成為她接受魔法少女身份的隱藏動機之一——她希望魔法能治好自己的怪病。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U038 -->
+
+### <a id="cu-b3e8dfee1393"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U039
+- 類型：`paragraph`
+- CU_HASH：`b3e8dfee1393`
+
+**重寫內容（保留語意）**
+
+諷刺的是，這些症狀正是夕存在的證據——一個被壓抑的人格，正在試圖浮現。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U039 -->
+
+### <a id="cu-7ab347f1f99a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U040
+- 類型：`paragraph`
+- CU_HASH：`7ab347f1f99a`
+
+**重寫內容（保留語意）**
+
+> **症狀機制詳解**：幽靈重量、記憶斷層、鏡中無人等症狀的運作原理，見 [[Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny#^角色特殊能力|夕的早期徵兆]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U040 -->
+
+### <a id="cu-326d85dbf2cf"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U041
+- 類型：`paragraph`
+- CU_HASH：`326d85dbf2cf`
+
+**重寫內容（保留語意）**
+
+**【入隊動機：被美化的真相】** 當美夜子以貓型態向晴香解釋「魔法少女」時，她選擇了一個晴香最容易接受的說法：**「維多利亞天使」**——用歌聲和光芒散播希望的英雄偶像。晴香欣然接受這個身份，將每一次戰鬥視為「希望的現場演出」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U041 -->
+
+### <a id="cu-627175a05b37"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U042
+- 類型：`paragraph`
+- CU_HASH：`627175a05b37`
+
+**重寫內容（保留語意）**
+
+然而，這份天真注定會被現實擊碎。當她發現隊友們隱藏的痛苦時，她不得不重新思考：什麼才是「真正的希望」？
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U042 -->
+
+### <a id="cu-c5e4b968435c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U043
+- 類型：`paragraph`
+- CU_HASH：`c5e4b968435c`
+
+**重寫內容（保留語意）**
+
+這種病態的孤獨，讓她對轉校生**「彩 (Aya)」**產生了致命的吸引力。彩表現出的極度弱小與膽怯，正是晴香內心深處最想否認、卻又最渴望被保護的那個自己。晴香對彩的執著，並非單純的友誼，而是一種**「替代性補償」**——她潛意識認為，如果能保護好這個如此脆弱的女孩，就能原諒當年的自己。殊不知，這是一場互為替身的悲劇，她以為找到了需要呵護的同類，其實是死神坐到了她身邊。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】Alpha/Beta線的完整真相::U043 -->
+
+## <a id="h-角色背景故事-相關文件導航-終局劇透警告-夕的時間折返與二十年守護"></a>角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護
+
+### <a id="cu-1e07f77cd845"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U142
+- 類型：`heading`
+- CU_HASH：`1e07f77cd845`
+
+**重寫內容（保留語意）**
+
+### 【終局劇透警告】夕的時間折返與二十年守護
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U142 -->
+
+### <a id="cu-6bc2a5452e61"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U143
+- 類型：`paragraph`
+- CU_HASH：`6bc2a5452e61`
+
+**重寫內容（保留語意）**
+
+> ⚠️ **警告**：以下內容涉及夕的最終選擇與時間線操作，包含重大結局劇透。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U143 -->
+
+### <a id="cu-b4c00504e3fe"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U144
+- 類型：`paragraph`
+- CU_HASH：`b4c00504e3fe`
+
+**重寫內容（保留語意）**
+
+**【絕望的投降：連反叛者也想逃避】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U144 -->
+
+### <a id="cu-6614ef7863cc"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U145
+- 類型：`paragraph`
+- CU_HASH：`6614ef7863cc`
+
+**重寫內容（保留語意）**
+
+夕一直以反叛者的身份存在——她的使命是證明晴香「刪除痛苦=幸福」的邏輯是錯的。然而，在帝國廣場決戰的最絕望時刻，當晴香的精神防線崩潰時，夕做出了自己也未曾預料的選擇。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U145 -->
+
+### <a id="cu-acba713f427b"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U146
+- 類型：`paragraph`
+- CU_HASH：`acba713f427b`
+
+**重寫內容（保留語意）**
+
+她奪取了身體的控制權，發動了「改變現實」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U146 -->
+
+### <a id="cu-2aceadf2ca65"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U147
+- 類型：`paragraph`
+- CU_HASH：`2aceadf2ca65`
+
+**重寫內容（保留語意）**
+
+不是為了證明什麼，而是——她也想回去。她也想見到活著的花子和美夜子。她反抗了那麼久，卻在最後一刻發現，自己內心深處也渴望著那份被剝奪的幸福。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U147 -->
+
+### <a id="cu-036f1e1f5a96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U148
+- 類型：`paragraph`
+- CU_HASH：`036f1e1f5a96`
+
+**重寫內容（保留語意）**
+
+**【Alpha線的幾日：完美的牢籠】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U148 -->
+
+### <a id="cu-1d07b34f270e"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U149
+- 類型：`paragraph`
+- CU_HASH：`1d07b34f270e`
+
+**重寫內容（保留語意）**
+
+夕成功了。世界被重寫為Alpha線——花子在廚房煮飯，美夜子在客廳看電視，一切都是「應該是」的樣子。在外界看來，這只是一瞬間；但在夕的主觀體驗中，她在這個「完美世界」裡度過了數日。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U149 -->
+
+### <a id="cu-45fc2d7114e9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U150
+- 類型：`paragraph`
+- CU_HASH：`45fc2d7114e9`
+
+**重寫內容（保留語意）**
+
+然而，她很快發現了恐怖的真相：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U150 -->
+
+### <a id="cu-8161f270d2b0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U151
+- 類型：`list`
+- CU_HASH：`8161f270d2b0`
+
+**重寫內容（保留語意）**
+
+- 花子的笑容是真實的，但夕無法放鬆地接受——每當花子靠近，她的身體會下意識地戒備（戰鬥本能）
+- 美夜子說的話是溫暖的，但在夕聽來像是重複的錄音（因為夕的靈魂已經滿佈傷痕）
+- 這裡沒有魔法、沒有屍骸、沒有戰爭——但夕心裡的窟窿依然空洞
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U151 -->
+
+### <a id="cu-c7a3c03c94df"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U152
+- 類型：`paragraph`
+- CU_HASH：`c7a3c03c94df`
+
+**重寫內容（保留語意）**
+
+她意識到：**「就算將所有死人都救番生，我心入面個窿……係唔會填補到。」**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U152 -->
+
+### <a id="cu-84a9e5a00a7a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U153
+- 類型：`paragraph`
+- CU_HASH：`84a9e5a00a7a`
+
+**重寫內容（保留語意）**
+
+她是一個「異物」——帶著未來創傷回到過去的靈魂，永遠無法融入這份幸福。只要她還記得那些痛苦，天堂就永遠是地獄。這是對「修正主義」的終極否定：**即使擁有改變過去的神力，也無法治癒一顆破碎的心。**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U153 -->
+
+### <a id="cu-25774d61d806"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U154
+- 類型：`paragraph`
+- CU_HASH：`25774d61d806`
+
+**重寫內容（保留語意）**
+
+**【無法復原的撤銷】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U154 -->
+
+### <a id="cu-9cc871804e27"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U155
+- 類型：`paragraph`
+- CU_HASH：`9cc871804e27`
+
+**重寫內容（保留語意）**
+
+數日後，夕做出了決定：這不是她的世界，這是死人的世界。她不能用這個虛假的幻象覆蓋現實中晴香、朱音、操她們奮鬥過的痕跡。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U155 -->
+
+### <a id="cu-abc3a5704b8a"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U156
+- 類型：`paragraph`
+- CU_HASH：`abc3a5704b8a`
+
+**重寫內容（保留語意）**
+
+她試圖「取消」改變現實，將世界撥回Beta線。然而，被破壞的東西無法還原做原樣。時間線被暴力撕裂，留下了永恆的裂痕——這個裂痕成為緋潮爆發和後續所有災難的伏筆。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U156 -->
+
+### <a id="cu-a5b5232342fb"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U157
+- 類型：`paragraph`
+- CU_HASH：`a5b5232342fb`
+
+**重寫內容（保留語意）**
+
+**【贖罪的二十年：肉體控制者】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U157 -->
+
+### <a id="cu-3020dae5ae81"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U158
+- 類型：`paragraph`
+- CU_HASH：`3020dae5ae81`
+
+**重寫內容（保留語意）**
+
+回到Beta線後，晴香的意識因力量失控而陷入沉睡，肉體瀕臨死亡。夕看著這個被自己傷害的「本體」，做出了最後的選擇：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U158 -->
+
+### <a id="cu-a8315431d771"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U159
+- 類型：`paragraph`
+- CU_HASH：`a8315431d771`
+
+**重寫內容（保留語意）**
+
+她沒有消失，也沒有繼續發瘋。她選擇控制晴香的身體，維持其基本生命機能——像傀儡師操縱人偶一樣，讓這具身體繼續呼吸、心跳、存活。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U159 -->
+
+### <a id="cu-2e69b413c74d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U160
+- 類型：`paragraph`
+- CU_HASH：`2e69b413c74d`
+
+**重寫內容（保留語意）**
+
+在接下來的二十年裡，夕成為了晴香的「守門人」：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U160 -->
+
+### <a id="cu-9f1c819e5178"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U161
+- 類型：`list`
+- CU_HASH：`9f1c819e5178`
+
+**重寫內容（保留語意）**
+
+- 在精神世界對抗黑奏的侵蝕
+- 在現實世界維持晴香身體的基本機能
+- 承擔所有的孤獨——因為外界的人不知道這二十年曾經存在過
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U161 -->
+
+### <a id="cu-a044f16f6bcf"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U162
+- 類型：`paragraph`
+- CU_HASH：`a044f16f6bcf`
+
+**重寫內容（保留語意）**
+
+她從「奪舍者」變成了「守護者」。這是她對自己錯誤的贖罪，也是她存在意義的最終轉變。夕用二十年證明了一件事：**就算妳能夠做到一般人永遠無法做到、但係好多人嘅終極夢想嘅事情——回到過去改變遺憾——都唔能夠幫到任何人。包括夕自己。**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U162 -->
+
+### <a id="cu-bd158fc04f80"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U163
+- 類型：`paragraph`
+- CU_HASH：`bd158fc04f80`
+
+**重寫內容（保留語意）**
+
+**【夕的本質：Alpha線的代言人】**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U163 -->
+
+### <a id="cu-5a5a40171138"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U164
+- 類型：`paragraph`
+- CU_HASH：`5a5a40171138`
+
+**重寫內容（保留語意）**
+
+夕不僅是晴香的陰影,更是**Alpha線真相的守護者**。她的存在本身就證明了一個核心命題：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U164 -->
+
+### <a id="cu-8d31f0a6c2eb"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U165
+- 類型：`list`
+- CU_HASH：`8d31f0a6c2eb`
+
+**重寫內容（保留語意）**
+
+- **Alpha線**代表事件層面的真相——無論多麼殘酷,它是「實際發生的事」
+- **Beta線**代表態度層面的真相——如何賦予這些事件意義
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U165 -->
+
+### <a id="cu-eef3fb1e3918"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U166
+- 類型：`paragraph`
+- CU_HASH：`eef3fb1e3918`
+
+**重寫內容（保留語意）**
+
+夕的角色功能：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U166 -->
+
+### <a id="cu-0e253b673ca4"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U167
+- 類型：`list`
+- CU_HASH：`0e253b673ca4`
+
+**重寫內容（保留語意）**
+
+- **現實的提醒者**：她不斷揭示Beta線幻象下的Alpha線真相
+- **陰影的具現化**：她是晴香無法面對的黑暗面、痛苦記憶的集合
+- **態度的對照**：她代表「清醒但絕望」,與晴香的「逃避但希望」形成對比
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U167 -->
+
+### <a id="cu-71019d3bdff9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U168
+- 類型：`paragraph`
+- CU_HASH：`71019d3bdff9`
+
+**重寫內容（保留語意）**
+
+> **陰影機制詳解**：夕作為Alpha線記憶的承載者、與晴香的心理動力關係，見 [[14_Alpha_Beta_Narrative_Mechanics#^haruka-contrast|晴香的Alpha/Beta對照]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U168 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U169
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】夕的時間折返與二十年守護::U169 -->
+
+## <a id="h-角色背景故事-相關文件導航-終局劇透警告-彩的覺醒與犧牲"></a>角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲
+
+### <a id="cu-b59dad9880cc"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U049
+- 類型：`heading`
+- CU_HASH：`b59dad9880cc`
+
+**重寫內容（保留語意）**
+
+### 【終局劇透警告】彩的覺醒與犧牲
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U049 -->
+
+### <a id="cu-70a1032a3e43"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U050
+- 類型：`paragraph`
+- CU_HASH：`70a1032a3e43`
+
+**重寫內容（保留語意）**
+
+> ⚠️ **警告**：以下內容涉及彩的結局與最終選擇，包含重大劇情轉折。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U050 -->
+
+### <a id="cu-f416916c77e9"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U051
+- 類型：`paragraph`
+- CU_HASH：`f416916c77e9`
+
+**重寫內容（保留語意）**
+
+**【覺醒與犧牲】** 在帝國廣場決戰的最後時刻，當晴香為救美夜子而放棄控制力量、即將引發世界毀滅級的緋潮反噬時，彩感受到了那份「為了愛人寧願毀滅一切」的絕望。她想起了螢——螢的犧牲是為了讓她活著去愛，而不是活著去恨。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U051 -->
+
+### <a id="cu-d91b26f3d390"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U052
+- 類型：`paragraph`
+- CU_HASH：`d91b26f3d390`
+
+**重寫內容（保留語意）**
+
+彩用盡全部意志，從黑奏的掌控中奪回了身體。她沒有攻擊晴香，而是選擇「接手」晴香本該付出的代價。她燃燒自己的靈魂，將自身化為填補天空裂痕的材料，用畢生累積的痛苦——那些被黑奏壓抑的悲傷、恐懼、絕望——作為「償還」的貨幣，平息了緋潮的反噬。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U052 -->
+
+### <a id="cu-0110e94a9988"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U053
+- 類型：`paragraph`
+- CU_HASH：`0110e94a9988`
+
+**重寫內容（保留語意）**
+
+**【黑奏人格的消亡】** 當彩做出這個選擇的瞬間，「黑奏」這個為了承受痛苦而誕生的保護者人格隨之消散——因為彩終於學會了自己承受痛苦、自己做出選擇，黑奏存在的意義被否定了。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U053 -->
+
+### <a id="cu-9529150c18b0"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U054
+- 類型：`paragraph`
+- CU_HASH：`9529150c18b0`
+
+**重寫內容（保留語意）**
+
+**【永恆輪迴中的守護者】** 彩的犧牲並非終結，而是另一種形式的開始。因為【情緒守恆定律】，她為晴香承擔的那份因果債務，必須由某個靈魂來償還。彩的靈魂被【大自然的平衡機制】捕獲，開始了屬於她的永恆循環——在每一個時間線中，她都會回到那個通風管道的夜晚。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U054 -->
+
+### <a id="cu-58a34adf9fb1"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U055
+- 類型：`paragraph`
+- CU_HASH：`58a34adf9fb1`
+
+**重寫內容（保留語意）**
+
+彩用自己的永恆痛苦，阻止了無數時間線中「黑奏」的誕生。她成為了自己的救贖者，也成為了所有可能的「彩」的守護天使。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U055 -->
+
+### <a id="cu-de025617a742"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U056
+- 類型：`paragraph`
+- CU_HASH：`de025617a742`
+
+**重寫內容（保留語意）**
+
+**【心匣的最終形態】** 在彩犧牲的那一刻，原本被黑奏扭曲為「萬花筒」的心匣，恢復成了最初的形態——那隻螢留給她的殘舊熊公仔。這證明了彩的靈魂，始終都是那個渴望被愛的孩子。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U056 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U057
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】彩的覺醒與犧牲::U057 -->
+
+## <a id="h-角色背景故事-相關文件導航-終局劇透警告-最終形態-靜止搖籃-the-static-cradle-haruka-final-form"></a>角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form
+
+### <a id="cu-81ae712c9416"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U017
+- 類型：`heading`
+- CU_HASH：`81ae712c9416`
+
+**重寫內容（保留語意）**
+
+### 【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U017 -->
+
+### <a id="cu-8a99b4091573"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U018
+- 類型：`paragraph`
+- CU_HASH：`8a99b4091573`
+
+**重寫內容（保留語意）**
+
+> ⚠️ **警告**：以下內容涉及故事結局的重大劇透，建議完整閱讀角色背景後再查看。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U018 -->
+
+### <a id="cu-1618155db0e1"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U019
+- 類型：`paragraph`
+- CU_HASH：`1618155db0e1`
+
+**重寫內容（保留語意）**
+
+在整合夕、擊敗黑奏之後，晴香面臨最終的選擇——接受因果律的強制索回，成為 Beta 線世界的「痛苦淨化機」。她的最終形態並非傳統意義上的「強大戰鬥形態」，而是一個永恆的、被動的「痛苦容器」。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U019 -->
+
+### <a id="cu-d3c372575064"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U020
+- 類型：`paragraph`
+- CU_HASH：`d3c372575064`
+
+**重寫內容（保留語意）**
+
+**核心狀態**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U020 -->
+
+### <a id="cu-78a617095c6d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U021
+- 類型：`list`
+- CU_HASH：`78a617095c6d`
+
+**重寫內容（保留語意）**
+
+- 晴香的意識已經陷入深層沉睡，不再有自主思考或行動能力
+- 她的身體成為整個世界的「情緒濾網」——所有無處可去的負面情緒、所有被壓抑的痛苦，全部湧入她的身體
+- 她不是「治癒」痛苦，而是「承擔」痛苦。世界的痛苦沒有消失，只是全部轉移到她一個人身上
+- 她的存在成為 Beta 線持續存在的「錨點」。只要她持續承擔痛苦，這個世界就不會崩潰
+- 美夜子留在她身邊，成為唯一的守護者。她每天為晴香梳理頭髮、擦拭身體、輕聲說話——即使晴香再也無法回應
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U021 -->
+
+### <a id="cu-8cc28f4df50d"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U022
+- 類型：`paragraph`
+- CU_HASH：`8cc28f4df50d`
+
+**重寫內容（保留語意）**
+
+**角色轉變**：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U022 -->
+
+### <a id="cu-4e0abf1d0048"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U023
+- 類型：`paragraph`
+- CU_HASH：`4e0abf1d0048`
+
+**重寫內容（保留語意）**
+
+晴香從「給予者」變成「承擔者」：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U023 -->
+
+### <a id="cu-2578070895b8"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U024
+- 類型：`list`
+- CU_HASH：`2578070895b8`
+
+**重寫內容（保留語意）**
+
+1. **初期變身**：「希望的偶像」——給予他人希望和光芒
+2. **整合夕**：「陰影的整合」——接納自己的黑暗面，學會「承認痛苦的存在」
+3. **最終形態**：「痛苦的承擔者」——不再給予虛假的希望，而是用自己的身體承擔所有人的痛苦
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U024 -->
+
+### <a id="cu-4e1aa7f5bcb3"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U025
+- 類型：`paragraph`
+- CU_HASH：`4e1aa7f5bcb3`
+
+**重寫內容（保留語意）**
+
+**哲學意義**
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U025 -->
+
+### <a id="cu-56875908fa9f"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U026
+- 類型：`paragraph`
+- CU_HASH：`56875908fa9f`
+
+**重寫內容（保留語意）**
+
+晴香的最終形態體現「黑暗治癒」的終極詮釋：
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U026 -->
+
+### <a id="cu-5bfb2ce8eb59"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U027
+- 類型：`list`
+- CU_HASH：`5bfb2ce8eb59`
+
+**重寫內容（保留語意）**
+
+- **不是消除痛苦，而是承擔痛苦**：她沒有讓世界的痛苦消失，而是選擇「由我來承擔」
+- **不是拯救所有人，而是讓他們活下去**：她的犧牲不是為了創造完美世界，而是為了讓不完美的世界繼續運轉
+- **態度的最終體現**：即使變成無意識的容器，她最後的「選擇」依然存在——這是她對「如何面對因果債務」的態度
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U027 -->
+
+### <a id="cu-7592a0cb2c1c"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U028
+- 類型：`paragraph`
+- CU_HASH：`7592a0cb2c1c`
+
+**重寫內容（保留語意）**
+
+這個形態的視覺設計刻意避免「神聖化」或「英雄化」——她不是「升天的聖女」，而是「被釘在世界底部的痛苦容器」。她的微笑不是慈悲，而是系統錯誤；她的延伸肢體不是神性，而是被拉扯到極限的脆弱。她是這個世界最殘酷的代價，也是最溫柔的謊言。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U028 -->
+
+### <a id="cu-cc9e349f8a21"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U029
+- 類型：`paragraph`
+- CU_HASH：`cc9e349f8a21`
+
+**重寫內容（保留語意）**
+
+詳細視覺設計與變身序列見：[[director/02_Alpha_Line_Integration_Guide#晴香最終形態|晴香最終形態執行指引]]
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U029 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U030
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/【終局劇透警告】最終形態：靜止搖籃 (The Static Cradle) ^haruka-final-form::U030 -->
+
+## <a id="h-角色背景故事-相關文件導航-彩-aya-黑奏的主人格"></a>角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格
+
+### <a id="cu-b5788e9ea644"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U044
+- 類型：`heading`
+- CU_HASH：`b5788e9ea644`
+
+**重寫內容（保留語意）**
+
+### 彩 (Aya) - 黑奏的主人格
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U044 -->
+
+### <a id="cu-ccbbef7478d8"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U045
+- 類型：`paragraph`
+- CU_HASH：`ccbbef7478d8`
+
+**重寫內容（保留語意）**
+
+**【被囚禁的孩子】** 彩是黑奏身體中的主人格，一個從六歲起就被困在自己靈魂最深處的孩子。當螢死去的那一刻，為了保護無法承受痛苦的彩，「黑奏」這個保護者人格誕生了。從此，彩被永久地鎖在潛意識的最深處，只能透過黑奏的眼睛，無助地觀看著外面的世界。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U045 -->
+
+### <a id="cu-c3bd98565ec6"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U046
+- 類型：`paragraph`
+- CU_HASH：`c3bd98565ec6`
+
+**重寫內容（保留語意）**
+
+**【沉默的見證者】** 多年來，彩目睹了黑奏以她的名義做的一切：篡奪帝國、製造情緒病毒、操縱晴香、毀滅無數生命。她想要阻止，卻完全無法控制自己的身體。這份無力感，比任何酷刑都更加折磨。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U046 -->
+
+### <a id="cu-d974cffb62c7"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U047
+- 類型：`paragraph`
+- CU_HASH：`d974cffb62c7`
+
+**重寫內容（保留語意）**
+
+**【與晴香的連結】** 當黑奏以「彩」的身份接近晴香時，真正的彩第一次感受到了來自他人的、不帶任何目的的善意。晴香對「彩」的保護，雖然對象是黑奏的偽裝，卻真實地觸動了被囚禁的主人格。這份溫暖，成為了彩最終覺醒的種子。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U047 -->
+
+### <a id="cu-58b63e273b96"></a>01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U048
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md::CU_ID=01_Character_Background_Story::H角色背景故事/相關文件導航/彩 (Aya) - 黑奏的主人格::U048 -->

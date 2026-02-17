@@ -4,33 +4,36 @@
 > 首次閱讀建議先看 [§ Header Table](#char-miyako) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
 > 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
 
-<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md -->
+
 
 ---
 
-## <a id="section-char-scope"></a>角色文件職責邊界
+## 角色文件職責邊界
 
 - 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
 - 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 
 ---
-## <a id="char-miyako"></a>Header Table
 
-| 欄位 | 內容 |
-|------|------|
-| **本名** | 雨宮美夜子（改名水無月美夜子，象徵與過去決裂） |
-| **年齡** | 21 歲（主線期），視覺年齡 16 |
-| **誕生** | 早期世代角色（見 [Timeline](../04_timeline_canon.md#section-birth-war-era)） |
-| **死亡** | [Alpha 線](../02_glossary.md#term-alpha-line)已死者（見 [Timeline](../04_timeline_canon.md#event-alpha-divergence)） |
-| **復活** | 由[秋穗](akiho.md)重啟為 [Unit 01](../02_glossary.md#term-unit-01)（見 [Timeline](../04_timeline_canon.md#event-miyako-revival)） |
-| **身份** | 唯一真正死者、借來的生命、黑貓守護者 |
-| **家庭** | 妹妹[晴香](haruka.md)（互不知情）、母親花子（已逝） |
-| **Archetype** | 介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian) |
-| **存活狀態** | 存活（貓形態） |
+## Header Table
+
+
+| 欄位            | 內容                                                                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **本名**        | 雨宮美夜子（改名水無月美夜子，象徵與過去決裂）                                                                                                  |
+| **年齡**        | 21 歲（主線期），視覺年齡 16                                                                                                        |
+| **誕生**        | 早期世代角色（見 [Timeline](../04_timeline_canon.md#section-birth-war-era)）                                                      |
+| **死亡**        | [Alpha 線](../02_glossary.md#term-alpha-line)已死者（見 [Timeline](../04_timeline_canon.md#event-alpha-divergence)）            |
+| **復活**        | 由[秋穗](akiho.md)重啟為 [Unit 01](../02_glossary.md#term-unit-01)（見 [Timeline](../04_timeline_canon.md#event-miyako-revival)） |
+| **身份**        | 唯一真正死者、借來的生命、黑貓守護者                                                                                                       |
+| **家庭**        | 妹妹[晴香](haruka.md)（互不知情）、母親花子（已逝）                                                                                         |
+| **Archetype** | 介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian)                                                   |
+| **存活狀態**      | 存活（貓形態）                                                                                                                  |
+
 
 ---
 
-## <a id="section-background"></a>背景故事
+## 背景故事
 
 ### 唯一的已死者——借來的生命
 
@@ -71,42 +74,47 @@
 
 ---
 
-## <a id="section-wnlt"></a>Want / Need / Lie / Truth
+## Want / Need / Lie / Truth
 
 **Want（顯性欲望）**：
+
 - 恢復人形態，擺脫貓的詛咒
 - 對魔法少女兵器制度進行報復
 - 保護[晴香](haruka.md)，履行姊姊的責任
 
 **Need（隱性需求）**：
+
 - 接受自己是「借來的生命」，學會放手
 - 打破[避難所詛咒](../02_glossary.md#term-sanctuary-curse)，獲得「光榮戰死」的權利
 - 在信賴的人面前大哭一場——證明即使軟弱也值得被愛
 
 **Lie（核心謊言）**：
+
 - 「我的命是借來的，所以我沒有軟弱的權利」
 - 「情緒是弱點」（軍方洗腦）
 - 「我必須成為兵器，才有存在價值」
 
 **Truth（最終真相）**：
+
 - 存在的價值不在於有用，而在於被愛
 - 接受失去，才能真正道別
 - 死亡的意義在於選擇——主動放手 vs 被動失去（[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)）
 
 ---
 
-## <a id="section-archetype"></a>Archetype & Symbolism
+## Archetype & Symbolism
 
 **Archetype 變遷**：介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian)
 
 **象徵**：
+
 - **黑貓** — 被[詛咒](../02_glossary.md#term-sanctuary-curse)的守護、無法死去的悲哀、最厭惡卻被迫承受的形態
 - **借來的生命** — 倒數計時的道別禮物；Beta 線本身就是一張「借來的膠布」
 - **槍** — 最後的慈悲（介錯）；從琉璃緞帶到衝鋒槍的武器轉變，象徵從「優雅的兵器」到「拒絕魔法的倖存者」
 
 ---
 
-## <a id="section-four-act-arc"></a>四幕弧光
+## 四幕弧光
 
 ### [第一幕](../05_story_outline_canon.md#act-1)：黑貓守護者
 
@@ -126,7 +134,7 @@
 
 ---
 
-## <a id="section-existence-collapse"></a>存在確認測試與崩潰修復
+## 存在確認測試與崩潰修復
 
 **事件位置**：[Timeline: 美夜子的三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)
 
@@ -142,7 +150,11 @@
 
 ---
 
-## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
+## 關鍵習慣（Behavior Hooks）
+
+
+
+**日常習慣：**
 
 1. **槍械保養** — 每晚清潔槍械，儀式化地為「最後的慈悲」做準備
 2. **無體溫 / 無心跳** — Alpha 線「已死事實」的生理滲漏；[魔法屍骸](../02_glossary.md#term-magical-corpse)的隱喻
@@ -150,17 +162,26 @@
 4. **貓形態厭惡** — 強烈抗拒變回貓，視為「失去尊嚴」的象徵
 5. **沉默守護** — 不善言辭，用行動表達關心（偷偷檢查隊友傷勢、準備食物）
 
+**私密習慣（存在確認機制）：**
+
+1. **黑暗中沖涼** — 完全關燈的浴室，長時間站在熱水中。黑暗消除「觀測」，讓她暫時不必是兵器或倖存者。在此她會輕聲呢喃那些無法拯救的同伴名字，黑暗是她悼念死者的私密空間。視覺：水流聲混著輕微抽泣聲；冷水忽至時她會瑟縮；洗完後靜站黑暗中許久，不立即離開。
+2. **長泳窒息** — 在無人泳池中游至體力極限，享受瀕死的換氣掙扎。呼吸的掙扎是她「活著」的確認——只有必須用力才能呼吸時，才真實感受到這具借來的身體仍然完整。
+3. **研磨凜的斷刃** — 每天用磨刀石打磨那把刻有凜名字的斷刃匕首（刀刃已斷，無法再戰）。她的指紋被磨平、手指紅腫破皮，但刀身被磨得如鏡子般反光。心理意義：試圖通過物理修復遮蓋無法挽回的創傷。那把斷刀映照出她憔悴的臉——介錯人護衛失敗的永恆指控。
+4. **渴望大哭** — 她一生中最深切的願望：在某個完全信賴的人面前大哭一場。軍方訓練使她視情緒為弱點；「借來的命」的絕望讓她連哭的資格都喪失了。她能透過生理刺激製造眼淚，但那不是真正的哭泣。真正的哭泣意味著「被無條件接納」——不必是兵器，只是一個受傷的女孩，而依然被珍視。見 [第四幕：美夜子的大哭](../05_story_outline_canon.md#act-4)。
+
 ---
 
-## <a id="section-visual"></a>視覺要點
+## 視覺要點
 
-| 欄位 | 內容 |
-|------|------|
-| **身高 / 體型** | 162cm / 倒三角形，鋼條型少年感 |
-| **核心關鍵詞** | 月亮、凍傷、琉璃 |
-| **主色** | 午夜藍 (Midnight Blue) + 軍綠 (Military Green) + 金色 (Gold) |
-| **基礎幾何** | 倒三角 / 尖角為主，銳利直線，象徵危險與攻擊性 |
-| **膚色** | 蒼白，帶冷色調（像體溫很低） |
+
+| 欄位          | 內容                                                    |
+| ----------- | ----------------------------------------------------- |
+| **身高 / 體型** | 162cm / 倒三角形，鋼條型少年感                                   |
+| **核心關鍵詞**   | 月亮、凍傷、琉璃                                              |
+| **主色**      | 午夜藍 (Midnight Blue) + 軍綠 (Military Green) + 金色 (Gold) |
+| **基礎幾何**    | 倒三角 / 尖角為主，銳利直線，象徵危險與攻擊性                              |
+| **膚色**      | 蒼白，帶冷色調（像體溫很低）                                        |
+
 
 ### 貓形態（The Mascot）
 
@@ -181,10 +202,12 @@
 
 ### 武器演變
 
-| 階段 | 武裝 | 觸發原因 |
-|------|------|---------|
-| 早期（凜存活時） | 琉璃緞帶（可硬化為刀刃）+ 能量冰刀 | Unit 01 標準配置 |
-| 後期（凜犧牲後） | 雙持 HK MP7A1 衝鋒槍 | [光環](../02_glossary.md#term-halo) PTSD，拒絕大量魔法輸出 |
+
+| 階段       | 武裝                 | 觸發原因                                            |
+| -------- | ------------------ | ----------------------------------------------- |
+| 早期（凜存活時） | 琉璃緞帶（可硬化為刀刃）+ 能量冰刀 | Unit 01 標準配置                                    |
+| 後期（凜犧牲後） | 雙持 HK MP7A1 衝鋒槍    | [光環](../02_glossary.md#term-halo) PTSD，拒絕大量魔法輸出 |
+
 
 **戰鬥風格——子彈圓舞曲 (The Waltz of Bullets)**：冰舞 + 衝鋒槍。滑行射擊、旋轉壓制 (Spinning Suppression)、Axel 跳躍狙擊。魔法只是輔助（後座力消除、冰面滑行），鋼鐵才是信條。
 
@@ -195,29 +218,32 @@
 
 ### 視覺演變
 
-| 狀態 | 髮型/特徵 | 眼神 | 身體異變 |
-|------|----------|------|---------|
-| 日常（偽裝） | 深藍高馬尾 + 金色挑染 | 微垂死魚眼，抑鬱疲憊 | 體溫異常低 |
-| 戰鬥（覺醒） | 馬尾凌厲擺動 | 瞳孔縮小，狩獵中的貓 | 緞帶/冰刀寒光 |
-| 腐蝕（代價） | 金色挑染光澤黯淡 | 混濁，焦距渙散 | 指尖四肢末端紫黑色凍傷斑塊 |
+
+| 狀態     | 髮型/特徵        | 眼神         | 身體異變          |
+| ------ | ------------ | ---------- | ------------- |
+| 日常（偽裝） | 深藍高馬尾 + 金色挑染 | 微垂死魚眼，抑鬱疲憊 | 體溫異常低         |
+| 戰鬥（覺醒） | 馬尾凌厲擺動       | 瞳孔縮小，狩獵中的貓 | 緞帶/冰刀寒光       |
+| 腐蝕（代價） | 金色挑染光澤黯淡     | 混濁，焦距渙散    | 指尖四肢末端紫黑色凍傷斑塊 |
+
 
 ---
 
-## <a id="section-relationships"></a>Relationships
+## Relationships
 
-| 對象 | 關係 | 核心動態 |
-|------|------|---------|
-| [晴香](haruka.md) | 親妹妹（互不知情） | 靈魂深處唯一的錨點；最終的守護對象 |
-| [凜](rin.md) | 軍方戰友 | 最深的羈絆；犧牲後成為終身 PTSD 源頭；重組後的凜不記得美夜子 |
-| [秋穗](akiho.md) | 復活施術者 | 愛與罪的施予者；美夜子「借來的生命」的源頭 |
-| [朔](saku.md) | Alpha 線青梅竹馬戀人 | 朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器） |
-| [朱音](iwakura_akane.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
-| [操](ayakomoji_sou.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
+
+| 對象                     | 關係            | 核心動態                                                              |
+| ---------------------- | ------------- | ----------------------------------------------------------------- |
+| [晴香](haruka.md)        | 親妹妹（互不知情）     | 靈魂深處唯一的錨點；最終的守護對象                                                 |
+| [凜](rin.md)            | 軍方戰友          | 最深的羈絆；犧牲後成為終身 PTSD 源頭；重組後的凜不記得美夜子                                 |
+| [秋穗](akiho.md)         | 復活施術者         | 愛與罪的施予者；美夜子「借來的生命」的源頭                                             |
+| [朔](saku.md)           | Alpha 線青梅竹馬戀人 | 朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器）                                    |
+| [朱音](iwakura_akane.md) | 隊友            | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
+| [操](ayakomoji_sou.md)  | 隊友            | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
+
 
 ---
 
-
-## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
+## 關鍵事件錨點（Timeline 對齊）
 
 - [凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)：核心創傷來源，形成光環 PTSD。
 - [朔與美夜子的既視感追認](../04_timeline_canon.md#event-saku-miyako-dejavu)：由兵器身份回到關係身份的關鍵節點。
@@ -225,24 +251,24 @@
 - [凜的最終戰](../04_timeline_canon.md#event-rin-final-battle)：完成遲來介錯，推進送行者弧光。
 
 ---
-## <a id="section-role-function"></a>角色功能（Narrative Function）
+
+## 角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
 - 美夜子專屬功能：把「借來的生命」由功能性生存轉為可被承接的主體性存在。
 
 ---
-## <a id="section-canon-constraints"></a>禁忌（不可改設定）
+
+## 禁忌（不可改設定）
 
 - 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
 - 美夜子專屬禁忌：不可刪除「唯一已死者」身份與「介錯人→守護者」弧光的連續性。
-## <a id="section-see-also"></a>See also
+
+## See also
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
 - [Timeline: 凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice) | [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
 - [Glossary: 避難所詛咒](../02_glossary.md#term-sanctuary-curse) | [Unit 01](../02_glossary.md#term-unit-01) | [光環](../02_glossary.md#term-halo)
 - [Dark Healing](../02_glossary.md#term-dark-healing) — 美夜子的大哭是三大治癒時刻之一
-
-
-
 

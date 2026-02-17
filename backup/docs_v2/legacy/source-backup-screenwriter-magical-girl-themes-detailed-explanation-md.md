@@ -1,0 +1,1215 @@
+# 來源重寫：`backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md`
+
+> 讀者導讀：此文件是 backup 單一來源的重寫收納稿。
+> 用途：保證段落級零遺漏，並提供可追溯錨點。
+> 任何 Canon 決策以 `../canon/99_decision_log.md` 為準。
+
+## <a id="source-overview"></a>來源概覽
+- Source: `backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md`
+- Coverage Units: 116
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念"></a>**設計簡介：魔法少女「雙面主題」的創作理念**
+
+### <a id="cu-d4cf94e29f0f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**::U002
+- 類型：`heading`
+- CU_HASH：`d4cf94e29f0f`
+
+**重寫內容（保留語意）**
+
+### **設計簡介：魔法少女「雙面主題」的創作理念**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**::U002 -->
+
+### <a id="cu-9e831adf81ff"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**::U003
+- 類型：`paragraph`
+- CU_HASH：`9e831adf81ff`
+
+**重寫內容（保留語意）**
+
+在本故事的創作框架中，為每位魔法少女建立「現實主題」與「少女主題」的雙重身份，其核心目的在於**將角色內在的心理矛盾與故事的宏大悲劇性，進行深度綑綁與外化**。這套系統旨在超越傳統魔法少女的單一符號，創造出一個充滿巨大反差感、能深刻詮釋「溫柔的殘酷」這一核心氛圍的角色體系。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**::U003 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**
+
+### <a id="cu-39d69e15a022"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U004
+- 類型：`heading`
+- CU_HASH：`39d69e15a022`
+
+**重寫內容（保留語意）**
+
+#### **1. 「現實主題」：理想我的閃亮盔甲**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U004 -->
+
+### <a id="cu-14b214070cd1"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U005
+- 類型：`paragraph`
+- CU_HASH：`14b214070cd1`
+
+**重寫內容（保留語意）**
+
+「現實主題」是少女們渴望成為、或展示給世界的**「理想我 (Ideal Self)」**，即榮格心理學中的**「創傷性面具 (Traumatic Persona)」**。它通常是一個具體的、充滿力量或魅力的社會身份，例如「偶像歌手」、「冰上舞者」或「女皇」。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U005 -->
+
+### <a id="cu-3d9420f10375"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U006
+- 類型：`list`
+- CU_HASH：`3d9420f10375`
+
+**重寫內容（保留語意）**
+
+- **創作原因：**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U006 -->
+
+### <a id="cu-7ba9940c28b1"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U007
+- 類型：`list`
+- CU_HASH：`7ba9940c28b1`
+
+**重寫內容（保留語意）**
+
+- **建立角色弧光起點：** 這個「理想我」是少女們為逃避和壓抑其「內在陰影」（核心創傷）而建立的心理防衛機制。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U007 -->
+
+### <a id="cu-83e02f53ca0f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U008
+- 類型：`list`
+- CU_HASH：`83e02f53ca0f`
+
+**重寫內容（保留語意）**
+
+- **營造敘事詭計：** 在故事前期，這個光鮮亮麗的身份是為了讓觀眾投入情感，誤以為這是一段傳統的英雄成長之旅。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**::U008 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-2-少女主題-靈魂深處的悲鳴"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**
+
+### <a id="cu-49c94c241227"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U009
+- 類型：`heading`
+- CU_HASH：`49c94c241227`
+
+**重寫內容（保留語意）**
+
+#### **2. 「少女主題」：靈魂深處的悲鳴**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U009 -->
+
+### <a id="cu-ece2bf5db904"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U010
+- 類型：`paragraph`
+- CU_HASH：`ece2bf5db904`
+
+**重寫內容（保留語意）**
+
+「少女主題」則是揭示力量本質的**「殘酷真相」**。它以一個充滿詩意與少女感的主題（如「音律」、「琉璃緞帶」、「花卉」）包裝著魔法力量的悲劇性代價。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U010 -->
+
+### <a id="cu-3d9420f10375"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U011
+- 類型：`list`
+- CU_HASH：`3d9420f10375`
+
+**重寫內容（保留語意）**
+
+- **創作原因：**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U011 -->
+
+### <a id="cu-9fd06429cffc"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U012
+- 類型：`list`
+- CU_HASH：`9fd06429cffc`
+
+**重寫內容（保留語意）**
+
+- **深化「力量的代價」：** 它將「情感耗損」這個核心設定具象化、個人化。歌手的代價是「失聲」，舞者的代價是「僵化」，賞金獵人的代價是「靈魂被寄生」。這讓每一個悲劇都獨一無二，充滿了無法逃避的宿命感。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U012 -->
+
+### <a id="cu-e54d302ca3be"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U013
+- 類型：`list`
+- CU_HASH：`e54d302ca3be`
+
+**重寫內容（保留語意）**
+
+- **統一美學與世界觀：** 它為魔法少女的戰鬥風格、武器形態、力量代價提供了一套完整、自洽且充滿美學風格的內部邏輯，讓奇幻設定更具說服力。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**::U013 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-2-少女主題-靈魂深處的悲鳴-核心目的-無法彌合的悲劇性反差"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**
+
+### <a id="cu-d385d02a429f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U014
+- 類型：`heading`
+- CU_HASH：`d385d02a429f`
+
+**重寫內容（保留語意）**
+
+#### **核心目的：無法彌合的悲劇性反差**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U014 -->
+
+### <a id="cu-b42bb71382ed"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U015
+- 類型：`paragraph`
+- CU_HASH：`b42bb71382ed`
+
+**重寫內容（保留語意）**
+
+這套系統的真正力量，在於「現實主題」與「少女主題」之間產生的**巨大衝突與反差**。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U015 -->
+
+### <a id="cu-fbf813cb10c7"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U016
+- 類型：`paragraph`
+- CU_HASH：`fbf813cb10c7`
+
+**重寫內容（保留語意）**
+
+盔甲越是光鮮（理想我），盔甲下的靈魂（殘酷真相）就越是脆弱與痛苦。一位追求極致動態之美的**「冰上舞者」**，其本質卻是走向永恆靜止的**「琉璃緞帶少女」**；一位渴望佔有一切的**「賞金獵人」**，其靈魂花園卻被貪婪的**「花卉」**所寄生，最終化為荒蕪。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U016 -->
+
+### <a id="cu-a1623e4d72c2"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U017
+- 類型：`paragraph`
+- CU_HASH：`a1623e4d72c2`
+
+**重寫內容（保留語意）**
+
+這份無法彌合的鴻溝，正是本故事所有悲劇性的根源，也是對**「態度 vs. 命運」**這一核心主題最深刻的詮釋。少女們以最堅定的「態度」去追求她們的「理想」，卻因此觸發了通往自我毀滅的「命運」機關。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**2. 「少女主題」：靈魂深處的悲鳴**/**核心目的：無法彌合的悲劇性反差**::U017 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**
+
+### <a id="cu-4196faca8bf2"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**::U018
+- 類型：`heading`
+- CU_HASH：`4196faca8bf2`
+
+**重寫內容（保留語意）**
+
+### **各魔法少女主題詳解**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**::U018 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-1-雨宮-01-人物背景故事-block1-晴香-amamiya-"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**
+
+### <a id="cu-f46b38d9bf03"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U019
+- 類型：`heading`
+- CU_HASH：`f46b38d9bf03`
+
+**重寫內容（保留語意）**
+
+##### **1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U019 -->
+
+### <a id="cu-56bacc114f5b"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U020
+- 類型：`list`
+- CU_HASH：`56bacc114f5b`
+
+**重寫內容（保留語意）**
+
+- **雙重身份設計**：
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U020 -->
+
+### <a id="cu-e3c61421e9fa"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U021
+- 類型：`list`
+- CU_HASH：`e3c61421e9fa`
+
+**重寫內容（保留語意）**
+
+- **社會面具**：偶像歌手「春日井晴香」——為取悅他人而戴的表演面具，是她初期那種被包裝過的、單一的、完美的正面形象。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U021 -->
+
+### <a id="cu-c63e40286917"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U022
+- 類型：`list`
+- CU_HASH：`c63e40286917`
+
+**重寫內容（保留語意）**
+
+- **理想我**：公主女武神 (Princess Valkyrie)——內心真正渴望成為的人：優雅、強大、能保護重要的人。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U022 -->
+
+### <a id="cu-5bc005b3177c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U023
+- 類型：`list`
+- CU_HASH：`5bc005b3177c`
+
+**重寫內容（保留語意）**
+
+- **現實主題：【公主女武神 (The Princess Valkyrie)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U023 -->
+
+### <a id="cu-b6c0761c2a55"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U024
+- 類型：`list`
+- CU_HASH：`b6c0761c2a55`
+
+**重寫內容（保留語意）**
+
+- **象徵**：她內心深處渴望成為的存在——不是舞台上取悅觀眾的偶像，而是戰場上守護重要之人的女武神。這個「理想我」代表了她對力量與優雅的終極追求：一個能為他人帶來光明、擊退黑暗的守護者。她的變身形態正是這個理想我的具現化——戰甲禮服，華麗而致命。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U024 -->
+
+### <a id="cu-cfe26712aa8d"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U025
+- 類型：`list`
+- CU_HASH：`cfe26712aa8d`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【光芒少女 (The Radiant Maiden)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U025 -->
+
+### <a id="cu-94f79a3c6d12"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U026
+- 類型：`list`
+- CU_HASH：`94f79a3c6d12`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個發光的水晶棺（透明寶盒），內部裝著一團逐漸黯淡的光芒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U026 -->
+
+### <a id="cu-d47837b910cd"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U027
+- 類型：`list`
+- CU_HASH：`d47837b910cd`
+
+**重寫內容（保留語意）**
+
+- **獻祭的信物**：她必須從心中召喚出一份對她意義重大的「希望的記憶」，將這段**「光芒的本質」**作為祭品獻上。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U027 -->
+
+### <a id="cu-a4ee0a3a2b7c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U028
+- 類型：`list`
+- CU_HASH：`a4ee0a3a2b7c`
+
+**重寫內容（保留語意）**
+
+- **武器**：雙形態長矛 (Dual-Mode Spear)——近戰時矛桿延長，以少林棍法橫掃敵群；中距離時矛頭發光，可投擲後召回（類似雷神之錘），用於精準穿刺或位移傳送。矛頭帶有「光芒/羽翼」紋路，呼應女武神意象。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U028 -->
+
+### <a id="cu-a91da2bd58fd"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U029
+- 類型：`list`
+- CU_HASH：`a91da2bd58fd`
+
+**重寫內容（保留語意）**
+
+- **結合**：公主女武神象徵「帶來光明的守護者」，光芒少女則揭示其代價。她的每一次戰鬥、每一次揮矛，都在耗損自己「希望的光芒」——那份相信世界會變好的純粹信念。她越是拼命守護他人，內心的光芒就消散得越快。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U029 -->
+
+### <a id="cu-3d32a7f860e4"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U030
+- 類型：`list`
+- CU_HASH：`3d32a7f860e4`
+
+**重寫內容（保留語意）**
+
+- **反差感**：一個想為世界帶來希望的少女，最終卻因拯救他人而失去自己的光芒。原本閃耀奪目的存在，逐漸變得黑暗、空洞。她用光芒照亮他人的道路，自己卻走向永恆的黑暗。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U030 -->
+
+### <a id="cu-cd06df814822"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U031
+- 類型：`list`
+- CU_HASH：`cd06df814822`
+
+**重寫內容（保留語意）**
+
+- **入隊動機：【守護者的幻象 (The Guardian Illusion)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U031 -->
+
+### <a id="cu-6aac984299ca"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U032
+- 類型：`list`
+- CU_HASH：`6aac984299ca`
+
+**重寫內容（保留語意）**
+
+- **初始理解**：當美夜子以「維多利亞天使」的概念向晴香解釋魔法少女時，晴香將其理解為「守護天使」——如同神話中的女武神，在戰場上守護英靈、為世界帶來希望的光芒。這個理解恰好契合了她內心深處對「公主女武神」的渴望。這是一個天真而浪漫的誤解。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U032 -->
+
+### <a id="cu-b78923989073"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U033
+- 類型：`list`
+- CU_HASH：`b78923989073`
+
+**重寫內容（保留語意）**
+
+- **美夜子的心理**：美夜子選擇這個說法，既是為了保護晴香不被殘酷現實擊碎，也是因為她自己渴望相信這個美好的版本——「如果晴香能以這種純粹的信念成為魔法少女，也許這個系統還有救。」
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U033 -->
+
+### <a id="cu-b19e9a641821"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U034
+- 類型：`list`
+- CU_HASH：`b19e9a641821`
+
+**重寫內容（保留語意）**
+
+- **轉折點**：當晴香發現其他魔法少女（朱音、操）都在用戰鬥逃避痛苦時，這份天真被擊碎。她開始質疑：什麼才是「真正的守護」？光芒能照亮黑暗，但能治癒傷痛嗎？
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U034 -->
+
+### <a id="cu-77309073c354"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U035
+- 類型：`list`
+- CU_HASH：`77309073c354`
+
+**重寫內容（保留語意）**
+
+- **角色弧光**：從「散播光芒的守護者」逐漸轉變為「理解並陪伴痛苦的人」。她最終明白，真正的守護不是站在高處發光，而是走進黑暗與他人並肩。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**1. 雨宮 [[01_人物背景故事#^block1|晴香]] (Amamiya Haruka)**::U035 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**
+
+### <a id="cu-0a45bc85c2bc"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U036
+- 類型：`heading`
+- CU_HASH：`0a45bc85c2bc`
+
+**重寫內容（保留語意）**
+
+#### **入隊動機對比表：陽光與黑暗的裂痕**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U036 -->
+
+### <a id="cu-9c8fb3f878a9"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U037
+- 類型：`paragraph`
+- CU_HASH：`9c8fb3f878a9`
+
+**重寫內容（保留語意）**
+
+這份對比表揭示了晴香與其他魔法少女之間最深刻的差異——當其他人都因創傷而戰鬥時，晴香卻懷抱著天真的希望入場。這份「輕鬆 vs 黑暗」的對比，既是敘事張力的來源，也是晴香角色成長的起點。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U037 -->
+
+### <a id="cu-1ca24fe901d9"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U038
+- 類型：`table`
+- CU_HASH：`1ca24fe901d9`
+
+**重寫內容（保留語意）**
+
+| 魔法少女             | 入隊動機               | 戰鬥的真正原因                 | 與晴香的對比                   |
+| ---------------- | ------------------ | ----------------------- | ------------------------ |
+| **晴香**           | 「維多利亞天使」：守護世界的光芒女武神 | 初期：天真的守護者信念；後期：理解並陪伴痛苦的人 | **基準點**：唯一以正面理由入隊的魔法少女   |
+| **美夜子（Unit 01）** | 被強制改造為兵器，從未有選擇權    | 尋找存在的意義、報復不人道的制度        | 晴香「選擇」成為魔法少女，美夜子從未有過這份自由 |
+| **朱音**       | 逃避弟弟死亡的罪惡感         | 戰鬥成癮——只有戰鬥時才能忘記弟弟的死     | 晴香想「給予」希望，朱音想「逃避」痛苦      |
+| **操**        | 追求「絕對女性形態」的身份認同    | 填補被控制、被欺騙所造成的身份空洞       | 晴香知道自己是誰，操連自己的性別都被剝奪     |
+| **凜（已犧牲）** | 不明（軍方分配）               | 守護戰友、證明存在價值                  | 晴香「相信希望」，凜「相信責任」——她選擇為美夜子而死 |
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U038 -->
+
+### <a id="cu-9f2fbe453b7c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U039
+- 類型：`paragraph`
+- CU_HASH：`9f2fbe453b7c`
+
+**重寫內容（保留語意）**
+
+**敘事功能**：這份對比在第二幕製造了團隊內部的深刻衝突。當朱音質問晴香「妳以為這是遊戲嗎？妳知道我們付出了什麼代價嗎？」時，晴香的天真與她們的創傷形成了最尖銳的碰撞——也正是這份碰撞，促使晴香開始理解「真正的希望」不是無視痛苦，而是陪伴痛苦。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**::U039 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-2-01-人物背景故事-bloc"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**
+
+### <a id="cu-d93be5a2a96e"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U040
+- 類型：`heading`
+- CU_HASH：`d93be5a2a96e`
+
+**重寫內容（保留語意）**
+
+##### **2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U040 -->
+
+### <a id="cu-ab562354c6c7"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U041
+- 類型：`list`
+- CU_HASH：`ab562354c6c7`
+
+**重寫內容（保留語意）**
+
+- **現實主題 (理想我)：【冰上舞者 / 首席滑冰家 (The Ice Dancer / Prima Skater)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U041 -->
+
+### <a id="cu-4d35b11aff5c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U042
+- 類型：`list`
+- CU_HASH：`4d35b11aff5c`
+
+**重寫內容（保留語意）**
+
+- **象徵**：代表了[[01_人物背景故事#^block5|美夜子]]所追求的、在世界面前展現的、孤高而完美的動態之美。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U042 -->
+
+### <a id="cu-932bdfdda062"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U043
+- 類型：`list`
+- CU_HASH：`932bdfdda062`
+
+**重寫內容（保留語意）**
+
+- **少女主題 (殘酷真相)：【琉璃緞帶少女 (The Glass Ribbon Maiden)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U043 -->
+
+### <a id="cu-c420a19465fa"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U044
+- 類型：`list`
+- CU_HASH：`c420a19465fa`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個晶瑩剔透的琉璃珠寶盒，內部飄浮著柔軟的緞帶。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U044 -->
+
+### <a id="cu-a530bcbd1c2b"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U045
+- 類型：`list`
+- CU_HASH：`a530bcbd1c2b`
+
+**重寫內容（保留語意）**
+
+- **力量的本質：【從「柔」到「剛」的轉化】**：[[01_人物背景故事#^block5|美夜子]]的戰鬥，是一場在「至柔」與「至剛」之間不斷切換的、華麗而危險的舞蹈。她將柔軟的「靈魂緞帶」，在瞬間**「硬化」或「結晶化」**，使其變成如同琉璃或玻璃一般鋒利、堅硬的武器。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U045 -->
+
+### <a id="cu-7e5f223c8ea4"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U046
+- 類型：`list`
+- CU_HASH：`7e5f223c8ea4`
+
+**重寫內容（保留語意）**
+
+- **反差感 / 力量的代價：【不可逆的結晶化 (Irreversible Crystallization)】**：這個「硬化」過程並非完美可逆。每一次轉化，都會有微量的結晶體殘留在她的靈魂緞帶之中，不斷累積。最終，當結晶累積到臨界點時，一次劇烈的衝擊將引發連鎖反應，導致她整個靈魂連同肉體，在瞬間徹底結晶化，永遠定格在自己最後的舞姿中，成為一座美麗卻沒有心跳的琉璃雕像。她用流動的緞帶起舞，卻以永恆的靜止落幕。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U046 -->
+
+### <a id="cu-09dafbee88d2"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U047
+- 類型：`list`
+- CU_HASH：`09dafbee88d2`
+
+**重寫內容（保留語意）**
+
+- **入隊動機：三層結構的介錯人**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U047 -->
+
+### <a id="cu-8b5d53ec7098"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U048
+- 類型：`list`
+- CU_HASH：`8b5d53ec7098`
+
+**重寫內容（保留語意）**
+
+- **表層動機（交易關係）**：恢復人型與復仇。她需要晴香的力量來恢復自己的肉身，並對那個把她變成兵器的不人道制度進行清算。這是她最初接近晴香的理由。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U048 -->
+
+### <a id="cu-535d6b58d0c5"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U049
+- 類型：`list`
+- CU_HASH：`535d6b58d0c5`
+
+**重寫內容（保留語意）**
+
+- **深層動機（保護與謊言）**：「維多利亞天使」這個美麗的謊言，是為了延長晴香的「純真」。她比任何人都清楚魔法少女的殘酷真相，但她選擇讓晴香相信那個美好的版本——如同在屠宰場門口為待宰的羔羊唱搖籃曲。這不是欺騙，而是最後的溫柔。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U049 -->
+
+### <a id="cu-5bd540f8e7c4"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U050
+- 類型：`list`
+- CU_HASH：`5bd540f8e7c4`
+
+**重寫內容（保留語意）**
+
+- **核心動機（介錯人心態）**：她從一開始就做好了「親手送行」的準備。她無法阻止命運的齒輪轉動，但她可以確保當結局來臨時，由她來執行那最後的一刀——乾淨、迅速、帶著愛。她不是要讓晴香成為魔法少女，她是要成為晴香的「最後保險栓」。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U050 -->
+
+### <a id="cu-8881f1bb69f5"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U051
+- 類型：`list`
+- CU_HASH：`8881f1bb69f5`
+
+**重寫內容（保留語意）**
+
+- **對朱音/操的態度**：
+        - **朱音**：她的「戰鬥成癮」已經到了「戒斷即死亡」的地步。不當魔法少女，她會死得更快。美夜子選擇讓她繼續戰鬥，因為這至少是一種延緩。
+        - **操**：她的身份認同完全建立在「絕對女性形態」之上。如果不讓她成為魔法少女，當她發現真相時會立刻崩潰。美夜子選擇讓她維持這個幻象。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U051 -->
+
+### <a id="cu-06056127a681"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U052
+- 類型：`list`
+- CU_HASH：`06056127a681`
+
+**重寫內容（保留語意）**
+
+- **轉變弧線**：從「利用」→「勸阻」→「無力阻止」→「履行介錯職責」。她的態度從冷漠的交易者，逐漸轉變為沉默的守護者，最終成為背負罪孽的送行者。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U052 -->
+
+### <a id="cu-8284c2961db6"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U053
+- 類型：`list`
+- CU_HASH：`8284c2961db6`
+
+**重寫內容（保留語意）**
+
+- **戰鬥方式：子彈圓舞曲 (The Waltz of Bullets)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U053 -->
+
+### <a id="cu-5a8993537b77"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U054
+- 類型：`list`
+- CU_HASH：`5a8993537b77`
+
+**重寫內容（保留語意）**
+
+- **武器演變（階段關係）**：
+        - **早期（凜存活時）**：使用「琉璃緞帶 + 能量冰刀」，是標準的魔法少女戰鬥風格。
+        - **後期（凜犧牲後）**：因為目睹凜被光環處決的PTSD，她對大量魔法輸出產生深刻恐懼。從此幾乎只用體術或槍械，非必要絕不使用大魔法。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U054 -->
+
+### <a id="cu-7ae890bfca20"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U055
+- 類型：`list`
+- CU_HASH：`7ae890bfca20`
+
+**重寫內容（保留語意）**
+
+- **核心哲學**：魔法只是輔助，鋼鐵才是信條。她不信任那個「從內部吞噬使用者」的魔法系統，所以選擇用「不會背叛的」物理武器。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U055 -->
+
+### <a id="cu-d3c9d9e66872"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U056
+- 類型：`list`
+- CU_HASH：`d3c9d9e66872`
+
+**重寫內容（保留語意）**
+
+- **武裝設定**：雙持 HK MP7A1 衝鋒槍（緊湊、高射速、適合高機動戰鬥）。這是現代軍火與魔法少女美學的衝突結合。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U056 -->
+
+### <a id="cu-04a8ff7a2142"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U057
+- 類型：`list`
+- CU_HASH：`04a8ff7a2142`
+
+**重寫內容（保留語意）**
+
+- **魔法輔助（最低限度使用）**：
+        - **後座力歸零**：魔法抵消射擊時的後座力，實現行進間精準射擊
+        - **冰面滑行**：腳下生成薄冰軌道，實現花滑式的高速移動
+        - **魔法換彈**：彈匣自動補充，無需手動換彈的空檔
+        - **魔力附魔彈**：子彈附加冰屬性，對魔法屍骸造成有效傷害
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U057 -->
+
+### <a id="cu-fee70ff92f75"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U058
+- 類型：`list`
+- CU_HASH：`fee70ff92f75`
+
+**重寫內容（保留語意）**
+
+- **戰鬥美學**：
+        - **冰之軌跡**：她在戰場上留下的冰晶軌跡，如同花滑選手的編舞痕跡
+        - **旋轉掃射 (Spinning Suppression)**：以滑冰旋轉動作進行360度壓制射擊
+        - **跳躍狙擊 (The Axel Jump)**：以花滑跳躍動作躍起，在空中進行精準射擊
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U058 -->
+
+### <a id="cu-00bc511671cf"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U059
+- 類型：`list`
+- CU_HASH：`00bc511671cf`
+
+**重寫內容（保留語意）**
+
+- **視覺反差**：冰舞家的優雅禮服 + 雙持現代衝鋒槍。這是「美麗與暴力」的終極融合，如同在血腥的戰場上跳著華爾茲。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**2. [[01_人物背景故事#^block5|美夜子]] (Miyako)**::U059 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-3-黒奏-kurosou"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**
+
+### <a id="cu-32b39c18fc2e"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U060
+- 類型：`heading`
+- CU_HASH：`32b39c18fc2e`
+
+**重寫內容（保留語意）**
+
+##### **3. 黒奏 (Kurosou)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U060 -->
+
+### <a id="cu-bc5ac8c59b7e"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U061
+- 類型：`list`
+- CU_HASH：`bc5ac8c59b7e`
+
+**重寫內容（保留語意）**
+
+- **現實主題：【女皇 (The Empress) & 公主 (The Princess)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U061 -->
+
+### <a id="cu-e2fa67d2bfa3"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U062
+- 類型：`list`
+- CU_HASH：`e2fa67d2bfa3`
+
+**重寫內容（保留語意）**
+
+- **象徵**：這不是一個職業或身份，而是她雙重人格在現實世界中的角色扮演。作為【女皇】，她是[[03_世界觀設定#^empire|帝國]]的絕對統治者，是秩序與控制的化身；作為被囚禁的【公主】，她代表了所有被這個體制壓抑的、無聲的痛苦與純真。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U062 -->
+
+### <a id="cu-a05f65a81fa2"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U063
+- 類型：`list`
+- CU_HASH：`a05f65a81fa2`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【萬花筒少女 (The Kaleidoscope Maiden)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U063 -->
+
+### <a id="cu-8a391ee6d9bf"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U064
+- 類型：`list`
+- CU_HASH：`8a391ee6d9bf`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個由無數破碎鏡片構成的、既美麗又危險的萬花筒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U064 -->
+
+### <a id="cu-266769439e7f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U065
+- 類型：`list`
+- CU_HASH：`266769439e7f`
+
+**重寫內容（保留語意）**
+
+- **統一的本質**：無論是【女皇】還是【公主】，她們的靈魂本質都是這個由**創傷（破碎鏡片）**構成的萬花筒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U065 -->
+
+### <a id="cu-6458b5300515"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U066
+- 類型：`list`
+- CU_HASH：`6458b5300515`
+
+**重寫內容（保留語意）**
+
+- **第二人格：【女皇】 - 轉動萬花筒的手**：作為【女皇】，她堅信自己是掌控者。她主動地、粗暴地去轉動萬花筒，強行讓內部混亂的碎片，組合成一個個對稱、完美的圖案。她帶給世界的「完美秩序」，就是她強行創造出的、萬花筒中的一幀靜止畫面。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U066 -->
+
+### <a id="cu-ee77c688fa85"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U067
+- 類型：`list`
+- CU_HASH：`ee77c688fa85`
+
+**重寫內容（保留語意）**
+
+- **主人格：【公主】 - 被囚禁在萬花筒內的碎片**：作為【公主】，她就是那些被動地、身不由己地在萬花筒中不斷翻滾、碰撞的彩色玻璃碎片。她只能承受每一次轉動所帶來的劇痛與混亂，但也因此保留了最原始的、未被「秩序」所扭曲的色彩與光芒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U067 -->
+
+### <a id="cu-949c0ae0d93f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U068
+- 類型：`list`
+- CU_HASH：`949c0ae0d93f`
+
+**重寫內容（保留語意）**
+
+- **悲劇閉環**：女皇（轉動者）為了維持她的「秩序」（美麗圖案），就必須不斷地傷害公主（碎片）。公主（碎片）越是痛苦，女皇（轉動者）所能創造出的圖案就越是「完美」。她們是施虐者與受虐者的共生，是秩序與混亂的同源。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3. 黒奏 (Kurosou)**::U068 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-3-5-彩-aya-主人格的化身"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**
+
+### <a id="cu-91519e6fd41b"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U069
+- 類型：`heading`
+- CU_HASH：`91519e6fd41b`
+
+**重寫內容（保留語意）**
+
+##### **3.5. 彩 (Aya) - 主人格的化身**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U069 -->
+
+### <a id="cu-4daee177ac2b"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U070
+- 類型：`list`
+- CU_HASH：`4daee177ac2b`
+
+**重寫內容（保留語意）**
+
+- **現實主題：【轉學生 / 受保護者 (The Transfer Student / Protected One)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U070 -->
+
+### <a id="cu-83da05668e23"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U071
+- 類型：`list`
+- CU_HASH：`83da05668e23`
+
+**重寫內容（保留語意）**
+
+- **象徵**：她在晴香的校園生活中扮演著「需要被保護的弱者」角色，是晴香英雄主義的投射對象。在表面上，她是一個普通的、膽怯的少女，毫無威脅性。這個身份是為了接近晴香、製造情感連結的完美偽裝。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U071 -->
+
+### <a id="cu-61754bb8a511"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U072
+- 類型：`list`
+- CU_HASH：`61754bb8a511`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【祭祀之花 (The Ritual Bloom)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U072 -->
+
+### <a id="cu-f2d14aa575e7"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U073
+- 類型：`list`
+- CU_HASH：`f2d14aa575e7`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：與黑奏共享同一個心匣——當黑奏掌控時呈現為「萬花筒」，當彩掌控時則恢復為「殘舊的熊公仔」。這個雙重形態象徵著同一個靈魂的分裂與掙扎。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U073 -->
+
+### <a id="cu-64953661c9ff"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U074
+- 類型：`list`
+- CU_HASH：`64953661c9ff`
+
+**重寫內容（保留語意）**
+
+- **視覺形態**：傳統的日式祭祀服，以白色為底，朱紅色為點綴。形象純淨卻帶有不祥的氛圍，如同即將被獻祭的巫女。她不像其他魔法少女那樣華麗奪目，而是呈現出一種**病態的聖潔**。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U074 -->
+
+### <a id="cu-5d26e1564c02"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U075
+- 類型：`list`
+- CU_HASH：`5d26e1564c02`
+
+**重寫內容（保留語意）**
+
+- **力量的本質：【自殘性變身與靈魂延遲】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U075 -->
+
+### <a id="cu-ddddf798976b"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U076
+- 類型：`list`
+- CU_HASH：`ddddf798976b`
+
+**重寫內容（保留語意）**
+
+- **靈魂延遲 (Soul Lag)**：由於主人格彩與副人格黑奏之間的靈魂分裂，當彩強行變身時，她的靈魂與肉體會產生劇烈的不同步現象。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U076 -->
+
+### <a id="cu-6f18597e4a1e"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U077
+- 類型：`list`
+- CU_HASH：`6f18597e4a1e`
+
+**重寫內容（保留語意）**
+
+- **感官反噬**：每次使用魔法力量，她都會遭受劇烈的感官錯位——視覺延遲、聽覺扭曲、觸覺麻痺，如同靈魂被困在時間縫隙中掙扎。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U077 -->
+
+### <a id="cu-d14a9bcdcb4c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U078
+- 類型：`list`
+- CU_HASH：`d14a9bcdcb4c`
+
+**重寫內容（保留語意）**
+
+- **悲慟風暴的引發**：當彩因痛苦而情緒崩潰時，她體內會爆發出純粹的、未經引導的情緒能量——「悲慟風暴」，這正是黑奏製造「情緒病毒」的原材料來源。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U078 -->
+
+### <a id="cu-cf35dd8080ba"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U079
+- 類型：`list`
+- CU_HASH：`cf35dd8080ba`
+
+**重寫內容（保留語意）**
+
+- **結合**：作為「祭祀之花」，她的存在本身就是一場獻祭。表面上她在為守護世界而戰，實際上她的每一次變身、每一次戰鬥，都在為黑奏提供能量。她的痛苦本身就是黑奏力量的源泉。她的魔法形態不是為了勝利，而是為了**承受痛苦並將其轉化為可被收割的能量**。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U079 -->
+
+### <a id="cu-0ac62627412f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U080
+- 類型：`list`
+- CU_HASH：`0ac62627412f`
+
+**重寫內容（保留語意）**
+
+- **反差感**：一個看似與晴香並肩作戰的夥伴，一個應該被守護的柔弱少女，其真實身份卻是最殘酷的陷阱。晴香越是保護她，她越是痛苦；她越是痛苦，黑奏就越強大。最親密的夥伴關係，建立在最殘酷的利用之上；最溫柔的守護，恰恰是最致命的陷阱。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U080 -->
+
+### <a id="cu-651411e7dd2c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U081
+- 類型：`list`
+- CU_HASH：`651411e7dd2c`
+
+**重寫內容（保留語意）**
+
+- **敘事功能：完美的誤導**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U081 -->
+
+### <a id="cu-e2ff235359a7"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U082
+- 類型：`list`
+- CU_HASH：`e2ff235359a7`
+
+**重寫內容（保留語意）**
+
+- 在故事前中期，觀眾會以為彩是與晴香一同成長的戰友，一個同樣為了守護世界而努力的魔法少女。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U082 -->
+
+### <a id="cu-26fc24b70262"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U083
+- 類型：`list`
+- CU_HASH：`26fc24b70262`
+
+**重寫內容（保留語意）**
+
+- 當真相揭曉——彩就是黑奏的主人格，她的每一次變身都在為反派提供能量——這份背叛感將達到頂峰。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U083 -->
+
+### <a id="cu-f158fa1c10ce"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U084
+- 類型：`list`
+- CU_HASH：`f158fa1c10ce`
+
+**重寫內容（保留語意）**
+
+- 這個設定將「最親密的關係即最深的背叛」這一悲劇主題推向極致。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**3.5. 彩 (Aya) - 主人格的化身**::U084 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-4-東雲-02-次要角色背景故事"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**
+
+### <a id="cu-b9b5ac1bb4fa"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U085
+- 類型：`heading`
+- CU_HASH：`b9b5ac1bb4fa`
+
+**重寫內容（保留語意）**
+
+##### **4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U085 -->
+
+### <a id="cu-402ce3de88fe"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U086
+- 類型：`list`
+- CU_HASH：`402ce3de88fe`
+
+**重寫內容（保留語意）**
+
+- **現實主題：【聖女騎士 (The Saintly Knight)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U086 -->
+
+### <a id="cu-584ffe188f32"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U087
+- 類型：`list`
+- CU_HASH：`584ffe188f32`
+
+**重寫內容（保留語意）**
+
+- **象徵**：在新現實中，她以騎士的姿態登場，代表著守護、犧牲與堅定的信仰。她是[[01_人物背景故事#^block1|晴香]]在絕望中看到的「希望」的化身，是秩序與正義的守護者。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U087 -->
+
+### <a id="cu-27645fe4c38a"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U088
+- 類型：`list`
+- CU_HASH：`27645fe4c38a`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【寶石少女 (The Gem Maiden)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U088 -->
+
+### <a id="cu-2f212684b866"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U089
+- 類型：`list`
+- CU_HASH：`2f212684b866`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個內部鑲嵌著巨大完整寶石的水晶盒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U089 -->
+
+### <a id="cu-5eccc70ad5fa"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U090
+- 類型：`list`
+- CU_HASH：`5eccc70ad5fa`
+
+**重寫內容（保留語意）**
+
+- **結合**：騎士的鎧甲，正是由她純粹「心之器」所化的寶石構成。她的劍，是靈魂光輝的結晶。但這份堅硬與光輝的背後，是她曾作為「第一個人造魔法屍骸」的破碎歷史。她的每一次揮劍，每一次格擋，都在提醒著她，自己的存在是建立在怎樣的痛苦與奇蹟之上。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U090 -->
+
+### <a id="cu-4ef4b7888071"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U091
+- 類型：`list`
+- CU_HASH：`4ef4b7888071`
+
+**重寫內容（保留語意）**
+
+- **反差感**：一位看似無堅不摧、完美無瑕的聖女騎士，其內在卻是一顆曾經徹底破碎、被溫柔地重新拼合起來的寶石。她的堅強，源於她對自身脆弱最深刻的理解。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**4. 東雲 [[02_次要角色背景故事#^block1|愛莉]] (Shinonome Aeri)**::U091 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-5-岩倉-朱音-iwakura-"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**
+
+### <a id="cu-fa7d584f3eee"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U092
+- 類型：`heading`
+- CU_HASH：`fa7d584f3eee`
+
+**重寫內容（保留語意）**
+
+##### **5. 岩倉 朱音 (Iwakura Akane)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U092 -->
+
+### <a id="cu-9fe8e21b2968"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U093
+- 類型：`list`
+- CU_HASH：`9fe8e21b2968`
+
+**重寫內容（保留語意）**
+
+- **現實主題 (理想我)：【賞金獵人 / 財寶獵人 (The Bounty / Treasure Hunter)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U093 -->
+
+### <a id="cu-b21a3ffb0fc9"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U094
+- 類型：`list`
+- CU_HASH：`b21a3ffb0fc9`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【花卉少女 (The Flower Maiden) - 寄生變種】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U094 -->
+
+### <a id="cu-b9bf0c847cfc"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U095
+- 類型：`list`
+- CU_HASH：`b9bf0c847cfc`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個由枯萎藤蔓纏繞的、內部寄生著妖異花朵的木盒。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U095 -->
+
+### <a id="cu-8622e26cc4a4"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U096
+- 類型：`list`
+- CU_HASH：`8622e26cc4a4`
+
+**重寫內容（保留語意）**
+
+- **反差感**：一個看似粗野的賞金獵人，其力量的本質卻是來自一朵以吞噬他人為生的、扭曲的惡之華。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U096 -->
+
+### <a id="cu-a1e8e9f505b7"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U097
+- 類型：`list`
+- CU_HASH：`a1e8e9f505b7`
+
+**重寫內容（保留語意）**
+
+- **內在陰影 (Inner Shadow)：【飢餓之影 (The Starving Shadow)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U097 -->
+
+### <a id="cu-3fa67e3d7e53"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U098
+- 類型：`list`
+- CU_HASH：`3fa67e3d7e53`
+
+**重寫內容（保留語意）**
+
+- **核心創傷**：出身於夜區毒品街區，父母是情緒膠囊的重度成癮者。為了養活弟弟而成為黑幫打手，卻因私藏的情緒結晶被飢餓的弟弟誤食，導致弟弟在她眼前因能量過載而死。她親手帶回的「希望」，變成了殺死至親的「毒藥」。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U098 -->
+
+### <a id="cu-46774d66bda2"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U099
+- 類型：`list`
+- CU_HASH：`46774d66bda2`
+
+**重寫內容（保留語意）**
+
+- **鏡中形象**：鏡中的她，是一個瘦骨嶙峋、雙眼燃燒著貪婪火焰、身上纏繞著枯萎藤蔓的倒影。弟弟死時那張詭異的幸福笑容，會在鏡中若隱若現。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U099 -->
+
+### <a id="cu-d956991044b5"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U100
+- 類型：`list`
+- CU_HASH：`d956991044b5`
+
+**重寫內容（保留語意）**
+
+- **陰影的對話與影響**：
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U100 -->
+
+### <a id="cu-a6f3a96a52a4"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U101
+- 類型：`list`
+- CU_HASH：`a6f3a96a52a4`
+
+**重寫內容（保留語意）**
+
+- **日常**：陰影會不斷在她耳邊低語：「不夠，還遠遠不夠」、「如果當時有足夠食物，弟弟就不會去吃那包毒品」、「你帶回來的不是希望，是死亡」。這驅使她養成囤積物品的習慣，並對任何利益都極度敏感。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U101 -->
+
+### <a id="cu-ca0cf23fbd46"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U102
+- 類型：`list`
+- CU_HASH：`ca0cf23fbd46`
+
+**重寫內容（保留語意）**
+
+- **戰鬥**：陰影會放大她的攻擊性和佔有慾，讓她的【花卉少女】力量呈現出極具侵略性的「吞噬」特性。戰鬥是她唯一能暫時聽不到弟弟聲音的時刻。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U102 -->
+
+### <a id="cu-f5754f3dbfaa"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U103
+- 類型：`list`
+- CU_HASH：`f5754f3dbfaa`
+
+**重寫內容（保留語意）**
+
+- **身體影響**：長期被這個陰影影響，可能會讓她的身體出現類似營養不良的特徵，因為靈魂的飢餓是無法被物質填滿的。那個空洞的形狀，是弟弟。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**5. 岩倉 朱音 (Iwakura Akane)**::U103 -->
+
+## <a id="h-設計簡介-魔法少女-雙面主題-的創作理念-1-現實主題-理想我的閃亮盔甲-各魔法少女主題詳解-入隊動機對比表-陽光與黑暗的裂痕-6-綾小路-操-ayanok-j"></a>**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**
+
+### <a id="cu-0df6db500f39"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U104
+- 類型：`heading`
+- CU_HASH：`0df6db500f39`
+
+**重寫內容（保留語意）**
+
+##### **6. 綾小路 操 (Ayanokōji Misao)**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U104 -->
+
+### <a id="cu-341d2f0dbe54"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U105
+- 類型：`list`
+- CU_HASH：`341d2f0dbe54`
+
+**重寫內容（保留語意）**
+
+- **現實主題：【木偶師 (The Puppeteer)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U105 -->
+
+### <a id="cu-7b968da8772c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U106
+- 類型：`list`
+- CU_HASH：`7b968da8772c`
+
+**重寫內容（保留語意）**
+
+- **象徵**：她是被家庭嚴格控制、失去自我的悲劇——一個**「破碎的瓷娃娃」**。她的存在本身就是一場表演：不知道「真正的自己」是什麼，只能用24小時不間斷的「正確形式」來掩飾內在的空洞。她的優雅不是教養，而是恐懼露出破綻；她的控制欲不是惡意，而是**「如果連外在都無法控制，我就什麼都控制不了」**的恐慌。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U106 -->
+
+### <a id="cu-5014464b1dab"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U107
+- 類型：`list`
+- CU_HASH：`5014464b1dab`
+
+**重寫內容（保留語意）**
+
+- **少女主題：【舞踊少女 (The Dance Maiden) - 傀儡變種】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U107 -->
+
+### <a id="cu-42afc2d3262f"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U108
+- 類型：`list`
+- CU_HASH：`42afc2d3262f`
+
+**重寫內容（保留語意）**
+
+- **心匣形態**：一個精緻的八音盒，打開後是一個正在跳舞的傀儡人偶。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U108 -->
+
+### <a id="cu-d59f498e26fb"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U109
+- 類型：`list`
+- CU_HASH：`d59f498e26fb`
+
+**重寫內容（保留語意）**
+
+- **結合**：她的戰鬥本身就是一場傀儡戲。她能創造出沒有靈魂的「舞偶」為她戰鬥，而她自己則像一個優雅的指揮家，在遠處用看不見的絲線操控著一切。她自己的舞姿也極其優美，但那份優美，恰恰是她被自身創傷所「編舞」的結果，每一個動作都是對過去不自由的痛苦模仿。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U109 -->
+
+### <a id="cu-d2a92d5c7340"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U110
+- 類型：`list`
+- CU_HASH：`d2a92d5c7340`
+
+**重寫內容（保留語意）**
+
+- **反差感**：一個渴望擺脫控制的木偶，最終卻成為了另一個控制他人的木偶師，並將自己也變成了舞台上最華麗、也最悲哀的傀儡。
+- **內在陰影 (Inner Shadow)：【傀儡之影 (The Puppet Shadow)】**
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U110 -->
+
+### <a id="cu-b043e5924530"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U111
+- 類型：`list`
+- CU_HASH：`b043e5924530`
+
+**重寫內容（保留語意）**
+
+- **核心創傷**：她本來出生為女性，但父親為了讓她繼承家族事業，在她年幼時強行對她進行性別重置手術，將她改造為男性，並徹底隱瞞這段歷史。她的靈魂深處始終保留著對原生性別的本能認同，卻被告知自己是「生理男性」，因此產生了極度的「性別焦慮」，以為自己是「渴望成為女性的男性」。這個最極致的「被控制」與「被隱瞞」經歷，讓她產生了對「被控制」的極度憎恨與對「知情權」的病態執著。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U111 -->
+
+### <a id="cu-95c3cc7dac90"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U112
+- 類型：`list`
+- CU_HASH：`95c3cc7dac90`
+
+**重寫內容（保留語意）**
+
+- **鏡中形象**：鏡中的她，是一個關節僵硬、動作像木偶、臉上掛著完美卻虛假微笑的倒影。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U112 -->
+
+### <a id="cu-d956991044b5"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U113
+- 類型：`list`
+- CU_HASH：`d956991044b5`
+
+**重寫內容（保留語意）**
+
+- **陰影的對話與影響**：
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U113 -->
+
+### <a id="cu-aac66c74bab0"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U114
+- 類型：`list`
+- CU_HASH：`aac66c74bab0`
+
+**重寫內容（保留語意）**
+
+- **日常**：陰影會用她父母那種嚴厲的語氣不斷評判她的一切，同時又會用充滿誘惑的聲音告訴她：「只有成為拉線的人，你才是安全的。」
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U114 -->
+
+### <a id="cu-8cbadb1719b0"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U115
+- 類型：`list`
+- CU_HASH：`8cbadb1719b0`
+
+**重寫內容（保留語意）**
+
+- **戰鬥**：她創造出的「舞偶」，就是她內心那個失去靈魂的傀儡自我的投射。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U115 -->
+
+### <a id="cu-22f8ebe6921c"></a>Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U116
+- 類型：`list`
+- CU_HASH：`22f8ebe6921c`
+
+**重寫內容（保留語意）**
+
+- **身體影響**：長期與這個陰影共存，可能會讓她的肢體在壓力下變得僵硬，或在放鬆時無意識地做出一些機械性的、重複的細微動作。
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::H**設計簡介：魔法少女「雙面主題」的創作理念**/**1. 「現實主題」：理想我的閃亮盔甲**/**各魔法少女主題詳解**/**入隊動機對比表：陽光與黑暗的裂痕**/**6. 綾小路 操 (Ayanokōji Misao)**::U116 -->
+
+## <a id="h-root"></a>ROOT
+
+### <a id="cu-58b63e273b96"></a>Magical_Girl_Themes_Detailed_Explanation::HROOT::U001
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md::CU_ID=Magical_Girl_Themes_Detailed_Explanation::HROOT::U001 -->

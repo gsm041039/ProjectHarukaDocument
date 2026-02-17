@@ -1,0 +1,342 @@
+# 來源重寫：`backup/director/Major_Events_Character_Relationships_Analysis.md`
+
+> 讀者導讀：此文件是 backup 單一來源的重寫收納稿。
+> 用途：保證段落級零遺漏，並提供可追溯錨點。
+> 任何 Canon 決策以 `../canon/99_decision_log.md` 為準。
+
+## <a id="source-overview"></a>來源概覽
+- Source: `backup/director/Major_Events_Character_Relationships_Analysis.md`
+- Coverage Units: 30
+
+## <a id="h-事件一-魔法屍骸入侵學校"></a>**事件一：魔法屍骸入侵學校**
+
+### <a id="cu-929f817d048d"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U002
+- 類型：`heading`
+- CU_HASH：`929f817d048d`
+
+**重寫內容（保留語意）**
+
+### **事件一：魔法屍骸入侵學校**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U002 -->
+
+### <a id="cu-2d4b52dfdd66"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U003
+- 類型：`list`
+- CU_HASH：`2d4b52dfdd66`
+
+**重寫內容（保留語意）**
+
+- **導演核心目標：** 將故事的「日常」帷幕暴力撕開，打破所有關係的「初始設定」，並為主角的旅程設置起點。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U003 -->
+
+### <a id="cu-83a455cf9d5d"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U004
+- 類型：`table`
+- CU_HASH：`83a455cf9d5d`
+
+**重寫內容（保留語意）**
+
+|**涉及角色**|**行動與感受 (Action & Feeling)**|**看法變化 (Perception Change)**|
+|---|---|---|
+|**晴香 (Haruka)**|**感受：** 恐懼，但被內心的正義感所驅使。<br>**行動：** 在不成熟的狀態下，依然選擇了挺身而出。|**→ 對世界：** 從安全、充滿機會的舞台，變為潛藏著致命危險的地方。<br>**→ 對美夜子：** 一個突然出現、帶來麻煩的神秘存在。|
+|**美夜子 (Miyako)**|**感受：** 煩躁、功利，對晴香的天真感到不耐煩。<br>**行動：** 以「引導者」的姿態，強行將晴香拖入戰鬥。|**→ 對晴香：** 一個達成目的所必需的、不成熟的「鑰匙」，但可能在她身上看到了一絲自己早已失去的特質。|
+|**桐生 健 (校霸)**|**感受：** 從最初的囂張，到面對真正恐怖時的恐懼，再到被拯救後的敬畏與困惑。<br>**行動：** 從欺凌者，轉變為一個笨拙的「幫助者」。|**→ 對晴香：** 從一個礙事的「正義魔人」，驟變為難以理解、令人恐懼卻又救了自己一命的「怪物/英雄」混合體。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**::U004 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**
+
+### <a id="cu-993d5ccf1940"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U005
+- 類型：`heading`
+- CU_HASH：`993d5ccf1940`
+
+**重寫內容（保留語意）**
+
+#### **事件關係變化的多層次分析**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U005 -->
+
+### <a id="cu-674753372ce7"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U006
+- 類型：`list`
+- CU_HASH：`674753372ce7`
+
+**重寫內容（保留語意）**
+
+- **L1 (氛圍)：** 從明亮的日常，急轉直下為陰森、充滿暴力與恐懼的非日常。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U006 -->
+
+### <a id="cu-270b07954d0b"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U007
+- 類型：`list`
+- CU_HASH：`270b07954d0b`
+
+**重寫內容（保留語意）**
+
+- **L2 (關係)：** 建立了[[01_人物背景故事#^block1|晴香]]與[[01_人物背景故事#^block5|美夜子]]之間**不平等的「引導者-被引導者」關係**；同時建立了[[01_人物背景故事#^block1|晴香]]與桐生健之間奇特的**「共犯」關係**。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U007 -->
+
+### <a id="cu-12220acc3e64"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U008
+- 類型：`list`
+- CU_HASH：`12220acc3e64`
+
+**重寫內容（保留語意）**
+
+- **L3 (主題)：** 殘酷地呈現了**「命運」的暴力入侵**，以及它如何不由分說地粉碎個人的日常。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**::U008 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件三-凜的犧牲-團隊分裂"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**
+
+### <a id="cu-034693cad745"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U016
+- 類型：`heading`
+- CU_HASH：`034693cad745`
+
+**重寫內容（保留語意）**
+
+### **事件三：凜的犧牲 & 團隊分裂**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U016 -->
+
+### <a id="cu-3638f041db30"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U017
+- 類型：`list`
+- CU_HASH：`3638f041db30`
+
+**重寫內容（保留語意）**
+
+- **導演核心目標：** 揭示「魔法少女=詛咒」的殘酷真相，粉碎初期的幻想，並以悲劇為催化劑，推動角色關係的重組與決裂。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U017 -->
+
+### <a id="cu-d4b56f6b1079"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U018
+- 類型：`table`
+- CU_HASH：`d4b56f6b1079`
+
+**重寫內容（保留語意）**
+
+|**涉及角色**|**行動與感受 (Action & Feeling)**|**看法變化 (Perception Change)**|
+|---|---|---|
+|**晴香 (Haruka)**|**感受：** 第一次親歷同伴的死亡，巨大的悲傷與無力感透過「情緒連結」被放大。<br>**行動：** 嘗試拯救但最終失敗，只能眼看著悲劇發生。|**→ 對魔法少女身份：** 從一個特殊的「身份」，變為一個隨時會帶來死亡與異變的「詛咒」。<br>**→ 對同伴：** 開始理解她們身上那種與生俱來的絕望和憤怒。|
+|**美夜子 (Miyako)**|**感受：** 沉重的自責與愧疚感，認為這是自己作為前隊長領導失敗的歷史重演。<br>**行動：** 在分裂時保持沉默，將所有責任歸咎於自己。|**→ 對責任：** 看法變得更加沉重，對「魔法少女的命運就是悲劇」這一點更加確信。|
+|**朱音 & 操**|**感受：** 絕望、憤怒，認為舊有的戰鬥方式與理念已經破產。<br>**行動：** 徹底放棄團隊合作，選擇分道揚鑣，尋找自己的出路。|**→ 對世界/體制：** 將滿腔的怨恨指向了創造她們命運的黑幕，為日後走向極端埋下伏筆。|
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**::U018 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件三-凜的犧牲-團隊分裂-事件關係變化的多層次分析"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**
+
+### <a id="cu-993d5ccf1940"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U019
+- 類型：`heading`
+- CU_HASH：`993d5ccf1940`
+
+**重寫內容（保留語意）**
+
+#### **事件關係變化的多層次分析**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U019 -->
+
+### <a id="cu-381bb68ac2b3"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U020
+- 類型：`list`
+- CU_HASH：`381bb68ac2b3`
+
+**重寫內容（保留語意）**
+
+- **L1 (氛圍)：** 絕望、痛苦、幻滅，英雄史詩的激昂感被徹底擊碎。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U020 -->
+
+### <a id="cu-c3267b3b4e42"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U021
+- 類型：`list`
+- CU_HASH：`c3267b3b4e42`
+
+**重寫內容（保留語意）**
+
+- **L2 (關係)：** **團隊的徹底決裂。** [[01_人物背景故事#^block1|晴香]]與[[01_人物背景故事#^block5|美夜子]]因共同創傷而靠近，成為真正的「戰友」；而她們與朱音、操的關係則走向終結。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U021 -->
+
+### <a id="cu-bdadcce8c45a"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U022
+- 類型：`list`
+- CU_HASH：`bdadcce8c45a`
+
+**重寫內容（保留語意）**
+
+- **L3 (主題)：** 暴力地揭示了**主題A (力量的代價)**，證明成為魔法少女的終點，就是毀滅。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件三：凜的犧牲 & 團隊分裂**/**事件關係變化的多層次分析**::U022 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件二-鏡中之影"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**
+
+### <a id="cu-fed16869c910"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U009
+- 類型：`heading`
+- CU_HASH：`fed16869c910`
+
+**重寫內容（保留語意）**
+
+### **事件二：「鏡中之影」**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U009 -->
+
+### <a id="cu-913dbbf3172f"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U010
+- 類型：`list`
+- CU_HASH：`913dbbf3172f`
+
+**重寫內容（保留語意）**
+
+- **導演核心目標：** 第一次衝擊[[01_人物背景故事#^block1|晴香]]的價值觀，讓「正義」的輪廓開始變得模糊，為核心主題「三位一體」埋下第一塊基石。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U010 -->
+
+### <a id="cu-07959ab744e8"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U011
+- 類型：`table`
+- CU_HASH：`07959ab744e8`
+
+**重寫內容（保留語意）**
+
+|**涉及角色**|**行動與感受 (Action & Feeling)**|**看法變化 (Perception Change)**|
+|---|---|---|
+|**晴香 (Haruka)**|**感受：** 困惑、動搖，對「淨化」行為產生了道德上的不適。<br>**行動：** 在準備給予最後一擊時，出現了明顯的猶豫。|**→ 對敵人：** 第一次從「該被消滅的怪物」，轉變為「曾是人類的悲劇存在」。|
+|**美夜子 (Miyako)**|**感受：** 堅定、冷靜，認為晴香的猶豫是致命的。<br>**行動：** 以近乎冷酷的實用主義態度，代替晴香完成了擊殺。|**→ 對晴香：** 更加確信晴香的「多愁善感」是個致命弱點，必須被糾正，這也加強了她作為「引導者」的責任感。|
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**::U011 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件二-鏡中之影-事件關係變化的多層-次分析"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**
+
+### <a id="cu-eb2865d0a5e5"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U012
+- 類型：`heading`
+- CU_HASH：`eb2865d0a5e5`
+
+**重寫內容（保留語意）**
+
+#### **事件關係變化的多層-次分析**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U012 -->
+
+### <a id="cu-7aa0c5984b3e"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U013
+- 類型：`list`
+- CU_HASH：`7aa0c5984b3e`
+
+**重寫內容（保留語意）**
+
+- **L1 (氛圍)：** 在戰鬥的緊張中，注入了一絲悲傷、困惑，以及理念碰撞的火花。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U013 -->
+
+### <a id="cu-967111d43a11"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U014
+- 類型：`list`
+- CU_HASH：`967111d43a11`
+
+**重寫內容（保留語意）**
+
+- **L2 (關係)：** **凸顯了[[01_人物背景故事#^block1|晴香]]與[[01_人物背景故事#^block5|美夜子]]此刻價值觀的巨大鴻溝**，為她們後續的磨合與成長提供了起點。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U014 -->
+
+### <a id="cu-ffe98a788091"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U015
+- 類型：`list`
+- CU_HASH：`ffe98a788091`
+
+**重寫內容（保留語意）**
+
+- **L3 (主題)：** 首次向主角和觀眾引入**主題C (身份的本質)**，暗示了魔法屍骸並非純粹的怪物，動搖了故事的二元對立。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件二：「鏡中之影」**/**事件關係變化的多層-次分析**::U015 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件四-與-01-人物背景故事-block7-夕-的首次對決-身份曝光"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**
+
+### <a id="cu-77751161799b"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U023
+- 類型：`heading`
+- CU_HASH：`77751161799b`
+
+**重寫內容（保留語意）**
+
+### **事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U023 -->
+
+### <a id="cu-997da79954e7"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U024
+- 類型：`list`
+- CU_HASH：`997da79954e7`
+
+**重寫內容（保留語意）**
+
+- **導演核心目標：** 將[[01_人物背景故事#^block1|晴香]]推入故事的第一個谷底，完成她成長的第一重境界（接受內在陰影）的鋪墊，並重塑主角團的內部關係。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U024 -->
+
+### <a id="cu-0c86ecc51a95"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U025
+- 類型：`table`
+- CU_HASH：`0c86ecc51a95`
+
+**重寫內容（保留語意）**
+
+|**涉及角色**|**行動與感受 (Action & Feeling)**|**看法變化 (Perception Change)**|
+|---|---|---|
+|**晴香 (Haruka)**|**感受：** 信念徹底崩塌，第一次直面自己是「不幸之源」。<br>**行動：** 從最初的「對抗」，變為徹底的「自我否定」與「癱瘓」。|**→ 對美夜子：** 從「麻煩的合作者」變為「黑暗中唯一的光源」。<br>**→ 對秋穗：** 從「唯一的親人」變為「有所隱瞞、不完全可信的長輩」。|
+|**美夜子 (Miyako)**|**感受：** 在晴香身上看到自己過去的影子，產生了最初的「共情」。<br>**行動：** 從冷漠的「引導者」，第一次轉變為一個**「守護者」**，選擇留下。|**→ 對晴香：** 從「不成熟的工具」變為「一個需要被保護的、脆弱的夥伴」。|
+|**秋穗 (Akiho)**|**感受：** 愧疚感的總爆發，意識到自己的「保護」是失敗的。<br>**行動：** 這份愧疚將驅使她後續做出更極端的行為（與黑奏交易）。|**→ 對晴香：** 看法變得更複雜，在「愛」的基礎上，增添了濃厚的「負罪感」。|
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**::U025 -->
+
+## <a id="h-事件一-魔法屍骸入侵學校-事件關係變化的多層次分析-事件四-與-01-人物背景故事-block7-夕-的首次對決-身份曝光-事件關係變化的多層次分析"></a>**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**
+
+### <a id="cu-993d5ccf1940"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U026
+- 類型：`heading`
+- CU_HASH：`993d5ccf1940`
+
+**重寫內容（保留語意）**
+
+#### **事件關係變化的多層次分析**
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U026 -->
+
+### <a id="cu-05975e189c48"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U027
+- 類型：`list`
+- CU_HASH：`05975e189c48`
+
+**重寫內容（保留語意）**
+
+- **L1 (氛圍)：** 窒息、被全世界背叛的孤立感。社交媒體的暴力應被呈現為快速閃過的、充滿惡意的視覺與聽覺雜訊。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U027 -->
+
+### <a id="cu-410c80b8a8bb"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U028
+- 類型：`list`
+- CU_HASH：`410c80b8a8bb`
+
+**重寫內容（保留語意）**
+
+- **L2 (關係)：** [[01_人物背景故事#^block1|晴香]]與[[01_人物背景故事#^block9|秋穗]]的信任關係產生**裂痕**；[[01_人物背景故事#^block1|晴香]]與[[01_人物背景故事#^block5|美夜子]]的關係則從**功利走向共情**，奠定了日後信賴的基礎。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U028 -->
+
+### <a id="cu-95f3037fce7c"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U029
+- 類型：`list`
+- CU_HASH：`95f3037fce7c`
+
+**重寫內容（保留語意）**
+
+- **L3 (主題)：** 這是[[01_人物背景故事#^block1|晴香]]**成長第二重境界（接受外在身份）**的開端。同時，[[01_人物背景故事#^block5|美夜子]]的留下，是**主題D (連結的價值)**的第一次重要體現。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U029 -->
+
+### <a id="cu-071fdaf6d845"></a>Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U030
+- 類型：`paragraph`
+- CU_HASH：`071fdaf6d845`
+
+**重寫內容（保留語意）**
+
+_（註：其他重大事件的詳細分析將在此處陸續添加）_
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::H**事件一：魔法屍骸入侵學校**/**事件關係變化的多層次分析**/**事件四：與「[[01_人物背景故事#^block7|夕]]」的首次對決 & 身份曝光**/**事件關係變化的多層次分析**::U030 -->
+
+## <a id="h-root"></a>ROOT
+
+### <a id="cu-13932cec7d86"></a>Major_Events_Character_Relationships_Analysis::HROOT::U001
+- 類型：`paragraph`
+- CU_HASH：`13932cec7d86`
+
+**重寫內容（保留語意）**
+
+**導演意圖：** 本文件旨在聚焦於故事中的每一個重大事件，詳細分析在這些事件中，角色的行動、內心感受，以及他們之間關係的微妙變化。透過追蹤這些動態，我們可以確保人物的成長曲線與故事的宏大主題緊密相連，讓每一次衝突都成為深化角色與關係的契機。
+
+<!-- Sources: backup/director/Major_Events_Character_Relationships_Analysis.md::CU_ID=Major_Events_Character_Relationships_Analysis::HROOT::U001 -->

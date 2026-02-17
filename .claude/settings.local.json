@@ -25,7 +25,10 @@
       "Bash(done)",
       "Bash(do if [ -f \"$f\" ])",
       "Bash(then head -5 \"$f\")",
-      "Bash(echo:*)"
+      "Bash(echo:*)",
+      "Bash(test:*)",
+      "Bash(find:*)",
+      "Bash(powershell -Command:*)"
     ],
     "ask": [
       "Bash(git commit:*)",

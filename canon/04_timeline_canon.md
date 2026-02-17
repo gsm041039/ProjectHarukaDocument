@@ -53,7 +53,7 @@
 
 ### <a id="section-beta-line-history"></a><a id="event-beta-reset"></a>Beta 線重設
 
-- 花子死因改為難產；美夜子在帝國歷 92 年「意外身亡」（冰封）
+- 花子死因改為難產；美夜子在帝國歷 92 年「意外身亡」（冰封）<!-- Q-003 C：「誰執行了冰封」刻意保留為敘事懸念，不在此指明主體。觀眾將在後期才發現真相。 -->
 - <a id="event-yu-birth"></a>**[夕](03_characters/yu.md)的誕生**：晴香的 Alpha 線記憶被剝離，具現化為潛意識人格
 - [靈魂滲漏](02_glossary.md#term-soul-leakage)開始：世界出現「悲慟風暴」現象
 
@@ -66,8 +66,8 @@
 | 年份 | 事件 | 影響 |
 |------|------|------|
 | **103** | <a id="event-singer-origin"></a>**歌手身份起源**：[秋穗](03_characters/akiho.md)決定讓晴香成為歌手以合法釋放情緒能量 | 晴香偶像生涯開始 |
-| **103-108** | <a id="event-miyako-revival"></a>**美夜子復活**：秋穗利用[集體潛意識](02_glossary.md#term-collective-unconscious)技術強行復活美夜子 | 美夜子成為 Unit 01 |
-| **103-108** | <a id="event-unit01"></a>**Unit 01**：復活後的美夜子被編入軍方，成為階段一兵器 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
+| **103** | <a id="event-miyako-revival"></a>**美夜子復活**：秋穗利用[集體潛意識](02_glossary.md#term-collective-unconscious)技術強行復活美夜子（Q-004 A 定案：103 年復活，冰封期 92-103 年，共 11 年） | 美夜子成為 Unit 01 |
+| **103-108** | <a id="event-unit01"></a>**Unit 01 服役期**：復活後的美夜子被編入軍方，成為階段一兵器；與[凜](03_characters/rin.md)並肩作戰約 5 年，至 108 年凜犧牲止 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
 | **103-108** | <a id="event-saku-discovery"></a>**[朔](03_characters/saku.md)的發現**：朔在戰場上目睹 Unit 01，發現那是他死去的愛人 | 朔與美夜子的連結 |
 | **108** | <a id="event-rin-sacrifice"></a>**[凜](03_characters/rin.md)的犧牲**：凜為掩護美夜子撤離而犧牲，頸部被強行扭斷 | 凜死亡 |
 | **108** | <a id="event-shelter-curse-trigger"></a>**美夜子逃亡 / 詛咒首次觸發**：目睹凜犧牲後，[避難所詛咒](02_glossary.md#term-shelter-curse)啟動，靈魂壓縮進黑貓體內 | 黑貓美夜子誕生 |

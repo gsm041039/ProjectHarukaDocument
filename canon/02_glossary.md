@@ -440,12 +440,15 @@
 
 ---
 
-### <a id="term-saturation-of-obsession"></a>執念飽和度（Saturation of Obsession）
-人類與屍骸界線的唯一定義。
-
-界線不是物種而是「執念的飽和度」——情緒是「流動」還是「固化」。人類是動態平衡（有喜怒哀樂）。屍骸是靜態死循環（某情緒強烈到佔據 100% 靈魂容量其他情緒被排擠）。界線唯一定義：「你能否控制情緒還是情緒在控制你？」
-
-**See also**: [Trinity Spectrum](#term-trinity-spectrum) | [Magical Corpse](#term-magical-corpse)
+### <a id="term-saturation-of-obsession"></a><a id="term-obsession-saturation"></a>執念飽和度（Saturation of Obsession）
+- 一句定義：人類與魔法屍骸的界線不是物種差異，而是某種情緒佔據靈魂的飽和程度。
+- 重要性：為三位一體光譜提供量化框架——飽和度 = 病變程度。
+- 例子：
+  - 朱音對小光的愛飽和至 100%，其他情緒（理性、自保）被排擠 → 屍骸化
+  - 反例：一隻「仍有猶豫」的魔法屍骸，靈魂層面比六親不認的富豪更接近人類
+- 影響/代價：極致的愛本身就是一種詛咒。
+<!-- Sources: backup/screenwriter/11_Deep_Philosophy_Concepts.md -->
+- See also：[執念飽和度（規則）](01_world_rules_and_costs.md#rule-obsession-saturation) | [三位一體光譜](#term-trinity-spectrum) | [Magical Corpse](#term-magical-corpse)
 
 ---
 
@@ -666,21 +669,28 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-### <a id="term-unsolicited-salvation"></a>未經同意的救贖（Unsolicited Salvation）
-改變他人命運是否是一種暴力？
-
-在術語層，指「以愛之名改寫他者命運，仍可能構成二次傷害」的倫理命題。事件層證據見 [Timeline](04_timeline_canon.md) 與角色層對照見 [Miyako](03_characters/miyako.md)。
-
-**See also**: [Haruka](03_characters/haruka.md) | [Miyako](03_characters/miyako.md) | [Sanctuary Curse](#term-sanctuary-curse)
+### <a id="term-unsolicited-salvation"></a><a id="term-salvation-sin"></a>未經同意的救贖（The Sin of Salvation）
+- 一句定義：改變他人時間線或命運的行為，即使出於愛，也是對對方意志的侵犯。
+- 重要性：晴香創造 Beta 線的行為、夕改變現實的行為，都屬此類。
+- 核心問題：「誰有權決定另一個人的命運？即使出於愛？」
+- 例子：
+  - 晴香創造 Beta 線 → 美夜子被剝奪「作為人類光榮戰死」的權利
+  - 夕改變現實 → 世界被剝奪「承受痛苦」的能力，引發緋潮反噬
+- 影響/代價：妳以為的救贖，對別人來說可能是無期徒刑。
+<!-- Sources: backup/screenwriter/11_Deep_Philosophy_Concepts.md -->
+- See also：[世界免疫系統理論](01_world_rules_and_costs.md#section-world-immune-system) | [美夜子](03_characters/miyako.md) | [晴香](03_characters/haruka.md) | [Sanctuary Curse](#term-sanctuary-curse)
 
 ---
 
-### <a id="term-swampman-problem"></a>記憶與自我的悖論（Memory & Identity Paradox / Swampman Problem）
-沼澤人哲學命題。
-
-在術語層，指「記憶連續性不足以單獨保證自我同一性」的身份問題。該問題在 Alpha/Beta 重置與記憶保留場景中被反覆觸發。
-
-**See also**: [Alpha Line](#term-alpha-line) | [Beta Line](#term-beta-line)
+### <a id="term-swampman-problem"></a><a id="term-memory-identity-paradox"></a>記憶與自我悖論（Memory & Identity Paradox / Swampman Problem）
+- 一句定義：若記憶可以被篡改，自我的連續性便失去根基——刪除創傷記憶等同殺死曾經歷那些創傷的自己。
+- 重要性：解釋為何「完美治癒（抹除痛苦）」在本故事世界是禁忌。
+- 例子：
+  - 黑奏重組凜並植入假記憶——那個「幸福的公務員凜」是否是同一個人？
+  - 若朱音刪除弟弟死去的記憶，她的性格、保護弱小的動機便會崩塌
+- 影響/代價：痛苦的記憶是人格的基石，不是應被清除的病灶。
+<!-- Sources: backup/screenwriter/11_Deep_Philosophy_Concepts.md -->
+- See also：[世界免疫系統理論](01_world_rules_and_costs.md#section-world-immune-system) | [凜](03_characters/rin.md) | [Alpha Line](#term-alpha-line) | [Beta Line](#term-beta-line)
 
 ---
 
@@ -798,11 +808,25 @@ Beta 線本質的核心敘事隱喻。
 
 **See also**: [Series Bible](00_series_bible.md#section-opposition-forces) | [Antagonist](03_characters/antagonist.md)
 
+<!-- Sources: backup/screenwriter/11_Deep_Philosophy_Concepts.md -->
+
+### <a id="term-empathy-curse"></a>共感詛咒（The Curse of Empathy）
+- 一句定義：魔法少女因強大感受力而缺乏情緒邊界，他人的惡意、絕望與痛苦會像輻射一樣直接燒灼其神經。
+- 重要性：解釋了魔法少女為何必須發展各種防禦機制才能在人群中生存。
+- 例子：
+  - 美夜子冷漠（情緒隔離）
+  - 朱音成癮（麻醉感知）
+  - 操戴面具（偽裝防禦）
+  - 晴香樂觀（選擇性感知）
+- 影響/代價：真正的強者不是感受不到痛的人，而是「感受了全世界的痛，卻依然選擇溫柔」的人。
+- See also：[情緒視覺](01_world_rules_and_costs.md#rule-emotional-qualia) | [三位一體光譜](01_world_rules_and_costs.md#rule-trinity-spectrum)
+
+
 ---
 
 ## <a id="section-stats"></a>統計
 
-**當前術語數**: 70
+**當前術語數**: 71（合併 3 個重複定義後）
 
 **類別分布**:
 - 世界觀核心：10 個
@@ -812,4 +836,4 @@ Beta 線本質的核心敘事隱喻。
 - 法則與機制：9 個
 - 視覺法則：6 個
 - 角色特殊能力：8 個
-- 哲學概念：8 個（含反對力量）
+- 哲學概念：9 個（原 12 個；PASS2 合併 3 個重複定義：執念飽和度、未經同意的救贖、記憶與自我悖論）

@@ -173,6 +173,11 @@
 
 **7. [膠布哲學第三層揭露](04_timeline_canon.md#event-band-aid-third-reveal)**：世界真相
 - 將 [Alpha/Beta](01_world_rules_and_costs.md#rule-alpha-beta) 對立從背景推到主衝突前台。
+- **導演執行**：黑奏以「撕開空間一角」的方式（如撕開膠布）向晴香展示 Alpha 線殘像。晴香從裂縫中看到 Alpha 線美夜子的屍體，以及從裂縫湧出的緋潮。
+- **核心台詞**：「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。二十年了……傷口發炎了。」
+- **揭露邏輯**：Beta 線 = 晴香貼在 Alpha 線傷口上的「巨大膠布」；遮蓋的真實終將以災難形式反噬（參見 [世界免疫系統理論](01_world_rules_and_costs.md#section-world-immune-system)）。晴香罪責感由「我救唔到人」升級成「我可能就是災厄來源」。
+
+<!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md（膠布哲學第三層，行 49-61） -->
 
 **8. [帝國廣場決戰](04_timeline_canon.md#event-imperial-plaza-battle)與偽高潮**
 - [希望的背叛](04_timeline_canon.md#event-hope-betrayal)把群眾情感從資源翻轉為武器。
@@ -198,8 +203,13 @@
 - 功能上施加最高情感誘惑壓力，把決戰從外部戰術轉為內在決策。
 - 完成「依附 -> 自主」的前段轉折。
 
-**2. 膠布哲學第四層**：終極抉擇
+**2. <a id="director-band-aid-4th"></a>膠布哲學第四層**：終極抉擇
 - 功能上把長期逃避改寫為主動承擔，完成主題方法論定稿。
+- **導演執行**：覺醒後第一個夜晚，晴香獨自站在廢墟高處，撕開手臂上「在夢境中不存在、但在現實中積累了二十年」的膠布，鮮血與淚水一起流下。
+- **核心台詞**：「好痛。」（嘴角微笑）「但係依份痛……係我自己既。」→ 呼應終局「好痛呵？……我都係。我哋一齊痛啦。」
+- **弧光收束**：晴香從「遮蓋者」成為「直視者」——不再逃避傷口，而是選擇與痛苦共存並吸收（參見 [情緒守恆超越節點](01_world_rules_and_costs.md#rule-emotion-conservation)）。
+
+<!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md（膠布哲學第四層，行 63-74） -->
 
 **3. 愛莉作為魔法少女登場**
 - 功能上提供「同起點、異態度、異結果」的對照證據，支撐終局選擇可信度。
@@ -219,6 +229,9 @@
 
 **8. [悲劇但有意義的結局](04_timeline_canon.md#event-bittersweet-ending)**
 - 功能上完成「責任閉環 + 關係殘留」雙收束，將情緒終點固定為「帶傷的連結」。
+- <a id="director-static-cradle-ending"></a>**結局定局 — [靜止搖籃（Static Cradle）](03_characters/haruka.md#status-static-cradle)**：晴香整合所有 Alpha 線真相後，意識永久沉睡，肉身轉化為世界情緒濾網，持續吸收並轉化集體潛意識中的負面情緒。美夜子以人類身份永遠守護在旁。此為唯一定局——無「晴香清醒存活」之分支。
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md（晴香最終形態 — Static Cradle；Q-001 A 定案） -->
 
 ### <a id="section-act4-arc"></a>Act IV 角色弧光
 

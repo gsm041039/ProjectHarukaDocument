@@ -1,0 +1,1082 @@
+# 來源重寫：`backup/draft/charts_reference.md`
+
+> 讀者導讀：此文件是 backup 單一來源的重寫收納稿。
+> 用途：保證段落級零遺漏，並提供可追溯錨點。
+> 任何 Canon 決策以 `../canon/99_decision_log.md` 為準。
+
+## <a id="source-overview"></a>來源概覽
+- Source: `backup/draft/charts_reference.md`
+- Coverage Units: 38
+
+## <a id="h-角色關係圖"></a>角色關係圖
+
+### <a id="cu-8491d5d10a7d"></a>charts_reference::H角色關係圖::U001
+- 類型：`heading`
+- CU_HASH：`8491d5d10a7d`
+
+**重寫內容（保留語意）**
+
+### 角色關係圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖::U001 -->
+
+### <a id="cu-a63ebae5a8b3"></a>charts_reference::H角色關係圖::U002
+- 類型：`code`
+- CU_HASH：`a63ebae5a8b3`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 核心主角
+    晴香["晴香<br/>雨宮晴香（春日井晴香）<br/>偶像歌手/魔法少女"]
+
+    %% 晴香的內在世界
+    晴香 -->|Alpha線雙重失去創傷| 夕["夕<br/>潛意識人格<br/>記得Alpha線真相"]
+    晴香 -->|最終整合| 夕
+
+    %% 晴香的家庭
+    晴香 -->|母親| 花子["東雲花子<br/>帝國科學家<br/>難產而逝(Beta線)<br/>母愛的琥珀中的存在"]
+    晴香 -->|姐姐| 美夜子["水無月美夜子<br/>魔法少女隊長<br/>貓形態<br/>原名：雨宮美夜子"]
+    晴香 -->|撫養者| 秋穗["秋穗<br/>生命機械學家<br/>花子的雙胞胎姐姐"]
+    
+    %% 反派核心
+    黑奏["黑奏<br/>戰爭孤兒<br/>帝國皇帝"] 
+    黑奏 -->|雙重人格| 黑奏主人格["黑奏主人格<br/>被壓抑的孩童<br/>渴望愛與連結"]
+    黑奏 -->|雙重人格| 黑奏第二人格["黑奏第二人格<br/>冷酷的神<br/>追求完美秩序"]
+    
+    %% 黑奏的操縱網絡
+    黑奏 -->|策劃創傷| 夕
+    黑奏 -->|利用執念| 秋穗
+    黑奏 -->|潛意識連結| 晴香
+    黑奏 -->|奪舍| 帝國皇帝["帝國皇帝<br/>原初統治者<br/>被黑奏殺害"]
+    黑奏 -->|欺騙操縱| 操["操<br/>魔法少女<br/>被虛假記憶欺騙"]
+    
+    %% 愛情悲劇線
+    美夜子 -->|戀人| 浩然["浩然<br/>靈樹守護者<br/>屍骸獵人"]
+    浩然 -->|加入組織尋找| 情緒管理局["情緒管理局<br/>帝國秘密機構"]
+    
+    %% 秋穗的悲劇
+    秋穗 -->|女兒| 愛莉["愛莉<br/>第一個人造魔法屍骸<br/>新現實中的魔法少女"]
+    秋穗 -->|發明| 情緒毒品["情緒毒品<br/>為救女兒的交易"]
+    秋穗 -->|與魔鬼交易| 黑奏
+    
+    %% 魔法少女人型兵器
+    軍方["軍方<br/>人型兵器計劃"] -->|改造| 美夜子
+    軍方 -->|改造| 朱音["朱音<br/>屍骸首領"]
+    軍方 -->|改造| 操
+    軍方 -->|改造| 凜["凜<br/>最善良的成員<br/>為保護同伴自殺"]
+    軍方 -->|改造| 五號["五號<br/>最弱小的成員<br/>任務中陣亡"]
+    
+    %% 其他重要角色
+    晴香 -->|校園關係| 校霸["校霸<br/>桐生健<br/>後成為希望傳播者"]
+    晴香 -->|商業關係| 經理人["經理人<br/>投機主義者<br/>出賣晴香肖像權"]
+    
+    %% 世界觀背景
+    帝國["帝國<br/>統治勢力"] -->|發動戰爭| 夜區["夜區<br/>靈樹信仰者"]
+    帝國 -->|建造| 維多利亞之淚["維多利亞之淚<br/>人造太陽<br/>監控系統"]
+    夜區 -->|信仰| 靈樹["靈樹<br/>集體潛意識樞紐"]
+    
+    %% 樣式定義
+    classDef protagonist fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
+    classDef antagonist fill:#ffebee,stroke:#d32f2f,stroke-width:3px
+    classDef family fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef tragic fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef organization fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef world fill:#fafafa,stroke:#424242,stroke-width:2px
+    classDef magical_girl fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    
+    class 晴香 protagonist
+    class 黑奏,黑奏主人格,黑奏第二人格,帝國皇帝 antagonist
+    class 花子,美夜子,秋穗,愛莉,浩然 family
+    class 夕,校霸,經理人 tragic
+    class 軍方,情緒管理局,帝國 organization
+    class 夜區,靈樹,維多利亞之淚 world
+    class 朱音,操,凜,五號 magical_girl
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖::U002 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖::U003
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖::U003 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖
+
+### <a id="cu-e9892f87ef60"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U004
+- 類型：`heading`
+- CU_HASH：`e9892f87ef60`
+
+**重寫內容（保留語意）**
+
+### 08_情緒設定總綱 - 情緒系統架構圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U004 -->
+
+### <a id="cu-bf029d36d351"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U005
+- 類型：`code`
+- CU_HASH：`bf029d36d351`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 基礎環境層
+    A[集體潛意識<br/>Collective Unconscious<br/>無盡後巷與唐樓的超現實香港] --> B[鏡像法則<br/>Mirror Law<br/>絕對客觀的現實觀察者]
+    
+    %% 核心本體層
+    A --> C[靈魂 Soul/Consciousness]
+    C --> D[心房<br/>Heart-Chamber<br/>靈魂的居所與潛意識環境]
+    C --> E[心之器<br/>Heart-Vessel<br/>靈魂的本質與核心]
+    
+    %% 核心技藝層
+    E --> F[情緒力量<br/>Emotional Power<br/>心之器輻射的能量]
+    F --> G[調律 Tuning<br/>與心之器互動的技藝]
+    G --> H[情緒諧振<br/>Emotional Resonance<br/>調律的運作原理]
+    G --> I[情感耗損<br/>Emotional Atrophy<br/>調律的必然代價]
+    
+    %% 調律流派
+    G --> J[修正派<br/>洗滌式調律<br/>抹除裂痕的錯誤]
+    G --> K[接納派<br/>共鳴式調律<br/>理解裂痕的歷史]
+    
+    %% 衍生物層
+    J --> L[情緒病毒<br/>Emotion Virus<br/>黑奏的暴力修正派調律]
+    E --> M[情緒結晶<br/>Emotion Crystal<br/>心之器裂痕剝落的碎片]
+    M --> N[情緒力量裝置<br/>Emotional Power Device<br/>跳過內心提煉的速成器]
+    N --> O[魔法少女<br/>Magical Girl<br/>背負未來屍骸的悲劇英雄]
+    L --> P[魔法屍骸<br/>Magical Corpus<br/>心之器破碎後的悲劇形態]
+    
+    %% 終極現象
+    G --> Q[現實覆寫<br/>Reality Override<br/>世界級調律與源代碼重寫]
+    
+    %% 特殊狀態
+    O --> R[殘響 Echo<br/>心之器燃盡後的空殼]
+    
+    %% 樣式定義
+    classDef environment fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef law fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef core fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    classDef power fill:#e8f5e8,stroke:#1b5e20,stroke-width:2px
+    classDef technique fill:#fff8e1,stroke:#f57f17,stroke-width:2px
+    classDef derivative fill:#fce4ec,stroke:#880e4f,stroke-width:2px
+    classDef ultimate fill:#f1f8e9,stroke:#33691e,stroke-width:3px
+    classDef tragic fill:#ffebee,stroke:#b71c1c,stroke-width:2px
+    
+    class A environment
+    class B law
+    class C,D,E core
+    class F power
+    class G,H,I,J,K technique
+    class L,M,N,O,P derivative
+    class Q ultimate
+    class R tragic
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U005 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U006
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖::U006 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-04-故事結構-主題表達工具圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖
+
+### <a id="cu-c23b4a3e8d43"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U016
+- 類型：`heading`
+- CU_HASH：`c23b4a3e8d43`
+
+**重寫內容（保留語意）**
+
+### 04_故事結構 - 主題表達工具圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U016 -->
+
+### <a id="cu-0e0321676917"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U017
+- 類型：`code`
+- CU_HASH：`0e0321676917`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 核心隱喻
+    A[主題表達工具] --> B[核心隱喻<br/>魔法少女作為精神創傷具現化]
+    B --> B1[鏡中的承諾]
+    B1 --> B1a[承諾 = 解離<br/>創傷人格分裂]
+    B1 --> B1b[魔法 = 過激<br/>內心創傷尖叫]
+    B1 --> B1c[代價 = 耗損<br/>情感通路關閉]
+    B1 --> B1d[終點 = 崩潰<br/>魔法屍骸形成]
+    
+    %% 三位一體概念
+    A --> C[三位一體概念<br/>人類、魔法少女、魔法屍骸本質無別]
+    C --> C1[態度是超越外在身份的唯一標尺]
+    
+    %% 框架解構
+    A --> D[魔法少女框架的解構]
+    D --> D1[第三幕偽高潮與晴香失敗]
+    D --> D2[對傳統魔法少女類型的顛覆]
+    
+    %% 節奏控制
+    A --> E[節奏的斷裂與重組]
+    E --> E1[第三幕：極致激昂戛然而止]
+    E --> E2[第四幕：緩慢而充滿哲思]
+    E --> E3[讓讀者體驗主角世界崩塌]
+    
+    %% 樣式定義
+    classDef tool fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef metaphor fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef concept fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef deconstruct fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef rhythm fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    
+    class A tool
+    class B,B1,B1a,B1b,B1c,B1d metaphor
+    class C,C1 concept
+    class D,D1,D2 deconstruct
+    class E,E1,E2,E3 rhythm
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U017 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U018
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 主題表達工具圖::U018 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-04-故事結構-四幕結構詳細分析圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖
+
+### <a id="cu-5cbc1de02408"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U013
+- 類型：`heading`
+- CU_HASH：`5cbc1de02408`
+
+**重寫內容（保留語意）**
+
+### 04_故事結構 - 四幕結構詳細分析圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U013 -->
+
+### <a id="cu-fd4e2a49af18"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U014
+- 類型：`code`
+- CU_HASH：`fd4e2a49af18`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 第一幕
+    A[第一幕：內在的戰爭] --> A1[結構功能<br/>建立個人連結<br/>設下內在命運謎題]
+    A --> A2[氛圍<br/>懸疑與親密並存的<br/>心理驚悚劇]
+    A --> A3[關鍵事件]
+    A3 --> A3a[晴香日常變身<br/>確立核心態度]
+    A3 --> A3b[與夕對決慘敗<br/>揭露Alpha線真相]
+    A3 --> A3c[鏡中之影<br/>三位一體概念伏筆]
+    A3 --> A3d[潛意識治療整合夕<br/>成長儀式完成]
+    
+    %% 過渡
+    A --> T1[過渡：寂靜之聲<br/>母親聲音消失<br/>新內在問題產生]
+    
+    %% 第二幕
+    T1 --> B[第二幕：世界的試煉]
+    B --> B1[結構功能<br/>擴大故事格局<br/>營造期待]
+    B --> B2[氛圍<br/>山雨欲來的史詩感<br/>熱血與悲劇並存]
+    B --> B3[關鍵事件]
+    B3 --> B3a[愛莉潛意識風暴<br/>晴香畢業考試]
+    B3 --> B3b[情緒毒品危機<br/>態度重要性論證]
+    B3 --> B3c[朔與凜理念決裂<br/>哲學辯論具現化]
+    B3 --> B3d[帝國廣場處決事件<br/>第二幕最高潮]
+    
+    %% 第三幕
+    B --> C[第三幕：偽高潮與結構性地震]
+    C --> C1[結構功能<br/>引爆結構性詭計<br/>粉碎傳統框架]
+    C --> C2[氛圍<br/>從極致激昂到<br/>瞬間死寂]
+    C --> C3[關鍵事件]
+    C3 --> C3a[改變現實與晴香失敗<br/>結構的奇點]
+    C3 --> C3b[夕的二十年守望之戰<br/>悲壯的句號]
+    
+    %% 第四幕
+    C --> D[第四幕：態度的勝利與新世界的誕生]
+    D --> D1[結構功能<br/>回答巨大問題<br/>完成主題闡述]
+    D --> D2[氛圍<br/>史詩的悲壯與<br/>存在主義的孤寂]
+    D --> D3[關鍵事件]
+    D3 --> D3a[母愛的琥珀<br/>自我囚禁與覺醒]
+    D3 --> D3b[愛莉登場<br/>主題的活體證明]
+    D3 --> D3c[晴香最終選擇<br/>轉化為魔法屍骸]
+    
+    %% 樣式定義
+    classDef act1 fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef act2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef act3 fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef act4 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef transition fill:#e1f5fe,stroke:#0277bd,stroke-width:2px
+    classDef function fill:#fafafa,stroke:#424242,stroke-width:1px
+    classDef atmosphere fill:#f9fbe7,stroke:#689f38,stroke-width:1px
+    classDef event fill:#fff8e1,stroke:#fbc02d,stroke-width:1px
+    
+    class A,A1,A2,A3,A3a,A3b,A3c,A3d act1
+    class B,B1,B2,B3,B3a,B3b,B3c,B3d act2
+    class C,C1,C2,C3,C3a,C3b act3
+    class D,D1,D2,D3,D3a,D3b,D3c act4
+    class T1 transition
+    class A1,B1,C1,D1 function
+    class A2,B2,C2,D2 atmosphere
+    class A3a,A3b,A3c,A3d,B3a,B3b,B3c,B3d,C3a,C3b,D3a,D3b,D3c event
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U014 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U015
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 四幕結構詳細分析圖::U015 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-04-故事結構-核心思想對立圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 核心思想對立圖
+
+### <a id="cu-881a0aaa0859"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 核心思想對立圖::U037
+- 類型：`heading`
+- CU_HASH：`881a0aaa0859`
+
+**重寫內容（保留語意）**
+
+### 04_故事結構 - 核心思想對立圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 核心思想對立圖::U037 -->
+
+### <a id="cu-49dd8334c9a5"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 核心思想對立圖::U038
+- 類型：`code`
+- CU_HASH：`49dd8334c9a5`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph LR
+    %% 中心衝突
+    A[核心思想對立<br/>Acceptance vs Correction] 
+    
+    %% 晴香方
+    A --> B[晴香方：接納 Acceptance]
+    B --> B1[核心態度：擁抱]
+    B --> B2[情感觀：痛苦也是生命的一部分]
+    B --> B3[創傷觀：裂痕是需要被理解的歷史]
+    B --> B4[方法論：共鳴式調律]
+    B --> B5[最終選擇：吸收並擁抱黑暗]
+    
+    %% 黑奏方
+    A --> C[黑奏方：修正 Correction]
+    C --> C1[核心態度：控制]
+    C --> C2[情感觀：情感是混亂的根源]
+    C --> C3[創傷觀：痛苦是必須被根除的Bug]
+    C --> C4[方法論：洗滌式調律]
+    C --> C5[最終目標：完美的結果]
+    
+    %% 對決結果
+    B --> D[第三幕偽高潮對決]
+    C --> D
+    D --> E[第四幕晴香的最終選擇給出答案]
+    E --> F[態度的勝利<br/>三位一體理念實現]
+    
+    %% 樣式定義
+    classDef center fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef acceptance fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef correction fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef battle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef victory fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
+    
+    class A center
+    class B,B1,B2,B3,B4,B5 acceptance
+    class C,C1,C2,C3,C4,C5 correction
+    class D,E battle
+    class F victory
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構 - 核心思想對立圖::U038 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-04-故事結構-氛圍與事件服務性深度解析-故事結構圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖
+
+### <a id="cu-67c987deeb36"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U010
+- 類型：`heading`
+- CU_HASH：`67c987deeb36`
+
+**重寫內容（保留語意）**
+
+### 04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U010 -->
+
+### <a id="cu-0ba459b64985"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U011
+- 類型：`code`
+- CU_HASH：`0ba459b64985`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 核心主題
+    A[核心主題<br/>面對命運時態度最重要] --> B[明主題：態度不能被外界改變]
+    A --> C[暗主題：做自己認為最值得做的事]
+    
+    %% 故事驅動力
+    A --> D[主題驅動<br/>Theme-Driven]
+    D --> E[創作使命<br/>療癒的寓言]
+    
+    %% 核心框架
+    E --> F[顛覆性的英雄旅程]
+    F --> G[偽裝：成長儀式]
+    F --> H[真貌：全新存在狀態]
+    
+    %% 結構詭計
+    F --> I[偽三幕，真四幕結構]
+    I --> J[第一幕：內在的戰爭<br/>心理驚悚劇]
+    I --> K[第二幕：世界的試煉<br/>傳統英雄史詩]
+    I --> L[第三幕：偽高潮與結構性地震<br/>顛覆性轉折點]
+    I --> M[第四幕：態度的勝利<br/>存在主義史詩]
+    
+    %% 核心對立
+    A --> N[接納 vs 修正]
+    N --> O[晴香方：擁抱<br/>創傷是需要被理解的歷史]
+    N --> P[黑奏方：控制<br/>痛苦是必須被根除的Bug]
+    
+    %% 樣式定義
+    classDef theme fill:#e3f2fd,stroke:#1976d2,stroke-width:3px
+    classDef structure fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef act fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef conflict fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    
+    class A,B,C theme
+    class D,E,F,G,H,I structure
+    class J,K,L,M act
+    class N,O,P conflict
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U011 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U012
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/04_故事結構、氛圍與事件服務性深度解析 - 故事結構圖::U012 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-四幕心理狀態進度圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖
+
+### <a id="cu-d036d90f211e"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U031
+- 類型：`heading`
+- CU_HASH：`d036d90f211e`
+
+**重寫內容（保留語意）**
+
+### 四幕心理狀態進度圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U031 -->
+
+### <a id="cu-d16021947798"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U032
+- 類型：`code`
+- CU_HASH：`d16021947798`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 第一幕
+    A["第一幕 - 內在戰爭"] --> A_H["晴香"]
+    A_H --> A_H1["情感:天真到崩潰"]
+    A_H1 --> A_H1a["開始:快樂偶像<br/>結束:支離破碎"]
+
+    A --> A_Y["夕"]
+    A_Y --> A_Y1["情感:隱忍到爆發"]
+    A_Y1 --> A_Y1a["開始:潛伏<br/>結束:對晴香攻擊"]
+
+    A --> A_M["美夜子"]
+    A_M --> A_M1["情感:陌生到親近"]
+    A_M1 --> A_M1a["開始:神秘黑貓<br/>結束:親姐指導"]
+
+    A --> A_A["秋穗"]
+    A_A --> A_A1["情感:保護到愧疚"]
+    A_A1 --> A_A1a["開始:溫暖監護<br/>結束:隱秘操縱被揭露"]
+
+    %% 第二幕
+    B["第二幕 - 世界試煉"] --> B_H["晴香"]
+    B_H --> B_H1["情感:燃燒到疲憊"]
+    B_H1 --> B_H1a["開始:希望燃燒<br/>結束:救世主使命感"]
+
+    B --> B_K["黑奏"]
+    B_K --> B_K1["情感:隱藏到顯露"]
+    B_K1 --> B_K1a["開始:幕後操縱<br/>結束:直接對抗"]
+
+    B --> B_O["其他魔法少女"]
+    B_O --> B_O1["情感:堅持到崩潰"]
+    B_O1 --> B_O1a["開始:互相扶持<br/>結束:相繼陣亡/叛變"]
+
+    %% 第三幕
+    C["第三幕 - 結構地震"] --> C_H["晴香"]
+    C_H --> C_H1["情感:絕望到虛空"]
+    C_H1 --> C_H1a["開始:勝利轉敗<br/>結束:意識被困"]
+
+    C --> C_Y["夕"]
+    C_Y --> C_Y1["情感:護衛到燃盡"]
+    C_Y1 --> C_Y1a["開始:20年孤守<br/>結束:完全耗盡"]
+
+    C --> C_W["世界"]
+    C_W --> C_W1["情感:秩序到混亂"]
+    C_W1 --> C_W1a["開始:文明崩潰<br/>結束:回到虛假平靜"]
+
+    %% 第四幕
+    D["第四幕 - 態度的勝利"] --> D_H["晴香"]
+    D_H --> D_H1["情感:麻木到覺醒"]
+    D_H1 --> D_H1a["開始:被動反映<br/>結束:主動擁抱"]
+
+    D --> D_A["母愛的琥珀"]
+    D_A --> D_A1["情感:溫馨到覺醒"]
+    D_A1 --> D_A1a["開始:善意的牢籠<br/>結束:自我整合"]
+
+    D --> D_E["艾莉"]
+    D_E --> D_E1["情感:無知到清醒"]
+    D_E1 --> D_E1a["開始:新現實誕生<br/>結束:英勇救贖"]
+
+    D --> D_W["世界"]
+    D_W --> D_W1["情感:虛假到真實"]
+    D_W1 --> D_W1a["開始:檯面上獲救<br/>結束:深層永恆孤獨"]
+
+    %% 樣式定義
+    classDef act1 fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef act2 fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef act3 fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef act4 fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef character_state fill:#fafafa,stroke:#424242,stroke-width:1px
+    classDef emotion_arc fill:#f1f8e9,stroke:#558b2f,stroke-width:1px
+
+    class A,A_H,A_Y,A_M,A_A act1
+    class A_H1,A_Y1,A_M1,A_A1 character_state
+    class A_H1a,A_Y1a,A_M1a,A_A1a emotion_arc
+
+    class B,B_H,B_K,B_O,B_S act2
+    class B_H1,B_K1,B_O1,B_S1 character_state
+    class B_H1a,B_K1a,B_O1a,B_S1a emotion_arc
+
+    class C,C_H,C_Y,C_W act3
+    class C_H1,C_Y1,C_W1 character_state
+    class C_H1a,C_Y1a,C_W1a emotion_arc
+
+    class D,D_H,D_S,D_E,D_W act4
+    class D_H1,D_S1,D_E1,D_W1 character_state
+    class D_H1a,D_S1a,D_E1a,D_W1a emotion_arc
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U032 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U033
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/四幕心理狀態進度圖::U033 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-故事關鍵事件時間軸"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸
+
+### <a id="cu-3d79407b7bfc"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U007
+- 類型：`heading`
+- CU_HASH：`3d79407b7bfc`
+
+**重寫內容（保留語意）**
+
+### 故事關鍵事件時間軸
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U007 -->
+
+### <a id="cu-3e2f49d4a9fa"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U008
+- 類型：`code`
+- CU_HASH：`3e2f49d4a9fa`
+
+**重寫內容（保留語意）**
+
+```mermaid
+gantt
+    title 魔法少女晴香物語 - 時間軸
+    dateFormat YYYY-MM-DD
+    axisFormat %Y年
+    
+    section 黑奏線
+    黑奏誕生於夜區                    :done, 0100-01-01, 180d
+    黑奏被帝國收養實驗                :done, 0100-07-01, 180d
+    黑奏奪權成功                      :milestone, crit, done, 0101-01-01, 0d
+    黑奏主人格反抗                    :crit, done, 0101-07-01, 180d
+    
+    section 花子線
+    靈樹戰爭                          :crit, done, 0100-01-01, 180d
+    花子研究情緒力量                  :done, 0100-07-01, 180d
+    花子難產而逝(Beta線設定)          :crit, done, 0101-01-01, 180d
+    母愛的琥珀(晴香被困20年)          :active, 0101-07-01, 180d
+    晴香覺醒重創黑奏                  :milestone, crit, done, 0102-01-01, 0d
+    
+    section 美夜子線
+    美夜子誕生                        :done, 0100-01-01, 180d
+    美夜子殉情                        :crit, done, 0100-07-01, 180d
+    美夜子復活                        :done, 0101-01-01, 180d
+    美夜子現身指導晴香                :active, 0101-07-01, 180d
+    
+    section 晴香主線
+    晴香誕生                          :done, 0100-01-01, 180d
+    Alpha線雙重失去，夕誕生           :crit, done, 0100-07-01, 180d
+    晴香成為偶像                      :done, 0101-01-01, 180d
+    晴香首次變身                      :crit, active, 0101-07-01, 180d
+    夕現身，真相揭露                  :crit, active, 0102-01-01, 180d
+    晴香與夕決戰融合                  :crit, done, 0102-07-01, 180d
+    晴香改變現實                      :crit, done, 0103-01-01, 180d
+    晴香意識回歸                      :milestone, crit, done, 0103-07-01, 0d
+    最終決戰                          :crit, active, 0104-01-01, 180d
+    
+    section 魔法少女計劃
+    魔法少女計劃啟動                  :done, 0100-01-01, 180d
+    魔法少女脫離軍方                  :done, 0100-07-01, 180d
+    五號陣亡                          :crit, done, 0101-01-01, 180d
+    凜犧牲，團隊分裂                :milestone, crit, done, 0101-07-01, 0d
+    
+    section 愛莉線
+    愛莉成為魔法屍骸                  :done, 0100-01-01, 180d
+    愛莉潛意識風暴                    :crit, active, 0100-07-01, 180d
+    愛莉(新現實)登場                  :active, 0101-01-01, 180d
+    
+    section 危機事件
+    情緒毒品危機爆發                  :crit, active, 0100-07-01, 180d
+    帝國廣場處決事件                  :milestone, crit, done, 0101-01-01, 0d
+    快樂村計劃暴露                    :active, 0101-07-01, 180d
+
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U008 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U009
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/故事關鍵事件時間軸::U009 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-時間迴圈因果悖論-黑奏力量來源圖"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖
+
+### <a id="cu-b448407833d0"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U022
+- 類型：`heading`
+- CU_HASH：`b448407833d0`
+
+**重寫內容（保留語意）**
+
+### 時間迴圈因果悖論 - 黑奏力量來源圖
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U022 -->
+
+### <a id="cu-7f4b52569209"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U023
+- 類型：`code`
+- CU_HASH：`7f4b52569209`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph LR
+    %% 過去
+    A["Era 114 現在<br/>晴香失敗時刻"] --> B["晴香的現實改寫<br/>超越極限的力量<br/>來自未來的能量"]
+
+    %% 時間流向
+    B --> C["力量反向流動<br/>時間悖論<br/>因果循環"]
+
+    %% 未來
+    C --> D["Era 134<br/>未來的晴香<br/>已成魔法屍骸<br/>已獲終極力量"]
+
+    %% 詛咒傳導
+    D --> E["力量回溯<br/>經由黑奏<br/>轉化為詛咒"]
+
+    %% 黑奏的真實
+    C --> F["黑奏的真實<br/>不是獨立角色<br/>而是晴香未來的<br/>負面力量具現"]
+
+    %% 迴圈閉合
+    E --> A
+
+    %% 循環的含義
+    A -.->|"當前時刻<br/>力量微弱"| G["黑奏為何強大<br/>因為她是未來晴香<br/>跨時間的力量體"]
+    D -.->|"終極時刻<br/>力量最強"| G
+
+    %% 詛咒內容
+    G --> H["詛咒機制<br/>年幼黑奏沒有自主意志<br/>只能執行來自未來的<br/>負面情感衝動"]
+
+    H --> I["黑奏的悖論"]
+    I --> I1["為何深愛晴香?<br/>因為來自晴香未來<br/>所有愛都是自愛"]
+    I --> I2["為何要摧毀晴香?<br/>因為拒絕接受痛苦<br/>導致極端控制欲"]
+
+    %% 樣式定義
+    classDef present fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef future fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef loop fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef truth fill:#ffebee,stroke:#d32f2f,stroke-width:3px
+    classDef paradox fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+
+    class A,B,C present
+    class D,E future
+    class F,G,H,I,I1,I2 truth
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U023 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U024
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/時間迴圈因果悖論 - 黑奏力量來源圖::U024 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-無限迴圈比較圖-三種困境的輪迴"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴
+
+### <a id="cu-15bae5ca6740"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U034
+- 類型：`heading`
+- CU_HASH：`15bae5ca6740`
+
+**重寫內容（保留語意）**
+
+### 無限迴圈比較圖 - 三種困境的輪迴
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U034 -->
+
+### <a id="cu-8329e1b1d9c8"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U035
+- 類型：`code`
+- CU_HASH：`8329e1b1d9c8`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 總標題
+    A["永劫回歸：三種無限迴圈的命運"]
+
+    %% 黑奏的迴圈
+    A --> B["黑奏的黑色迴圈<br/>Time Loop Omega-Black"]
+    B --> B1["被困時刻<br/>年齡6歲<br/>妹妹熱風執行槍殺時"]
+    B1 --> B2["迴圈內容<br/>重新體驗妹妹死亡<br/>再次獲得能力<br/>再次意識到自己造成了什麼<br/>絕望"]
+    B2 --> B3["記憶狀態<br/>✓ 記得所有迴圈<br/>✓ 記得真相<br/>✓ 記得愛妹<br/>✗ 無法改變命運"]
+    B3 --> B4["迴圈持續理由<br/>無法接受痛苦<br/>拒絕療癒<br/>被自己的控制欲<br/>永遠監禁"]
+    B4 --> B5["終極結局<br/>無晴香供應能量<br/>力量逐漸耗盡<br/>跌回弱小狀態<br/>重複絕望→死亡→重生"]
+
+    %% 秋穗的迴圈
+    A --> C["秋穗的秋色迴圈<br/>Time Loop Omega-Autumn"]
+    C --> C1["被困時刻<br/>年齡不詳<br/>為女兒獻身的選擇時刻"]
+    C1 --> C2["迴圈內容<br/>不斷犧牲人性<br/>不斷與黑奏交易<br/>不斷失去所愛<br/>不斷深化罪惡感"]
+    C2 --> C3["記憶狀態<br/>✓ 記得女兒<br/>✓ 記得初心<br/>✗ 記憶逐漸破碎<br/>✗ 身份日漸模糊"]
+    C3 --> C4["迴圈持續理由<br/>執念於拯救女兒<br/>每次都失敗<br/>每次都更深入<br/>帝國系統"]
+    C4 --> C5["終極結局<br/>完全黑奏化<br/>成為'無臉執行官'<br/>靈魂被囚禁時空間隙<br/>永恆的被操控狀態"]
+
+    %% 晴香的逃脫路
+    A --> D["晴香的翠色突破<br/>Timeline Beta - Ascension Path"]
+    D --> D1["關鍵時刻<br/>第四幕開始<br/>拒絕美好謊言"]
+    D1 --> D2["突破方式<br/>不逃避痛苦<br/>不控制他人<br/>與盟友共鳴<br/>接納命運"]
+    D2 --> D3["記憶狀態<br/>✓ 完全整合<br/>✓ 擁抱所有<br/>✓ 記得犧牲<br/>✓ 自願選擇"]
+    D3 --> D4["突破成功理由<br/>態度的轉變<br/>從被動→主動<br/>從拒絕→接納<br/>從逃避→直面"]
+    D4 --> D5["終極結局<br/>打破無限迴圈<br/>成為永恆魔法屍骸<br/>主動守護所有困靈<br/>孤獨但自由"]
+
+    %% 對比分析
+    A --> E["三迴圈對比"]
+    E --> E1["循環源頭<br/>黑奏:痛苦<br/>秋穗:內疚<br/>晴香:選擇"]
+    E --> E2["循環特性<br/>黑奏:無力的強大<br/>秋穗:深化的救贖<br/>晴香:昇華的犧牲"]
+    E --> E3["脫困可能性<br/>黑奏:不可能(拒絕改變)<br/>秋穗:不可能(被系統囚禁)<br/>晴香:可能(態度轉變)"]
+
+    %% 樣式定義
+    classDef trapped fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef black_loop fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    classDef autumn_loop fill:#fff3e0,stroke:#f57c00,stroke-width:3px
+    classDef escape_loop fill:#e8f5e8,stroke:#2e7d32,stroke-width:3px
+    classDef detail fill:#fafafa,stroke:#424242,stroke-width:1px
+    classDef analysis fill:#e1f5fe,stroke:#0277bd,stroke-width:1px
+
+    class B,B1,B2,B3,B4,B5 black_loop
+    class C,C1,C2,C3,C4,C5 autumn_loop
+    class D,D1,D2,D3,D4,D5 escape_loop
+    class E,E1,E2,E3 analysis
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U035 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U036
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/無限迴圈比較圖 - 三種困境的輪迴::U036 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-角色態度與困境矩陣"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣
+
+### <a id="cu-598bda0f7265"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U028
+- 類型：`heading`
+- CU_HASH：`598bda0f7265`
+
+**重寫內容（保留語意）**
+
+### 角色態度與困境矩陣
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U028 -->
+
+### <a id="cu-5401b9128716"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U029
+- 類型：`code`
+- CU_HASH：`5401b9128716`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 坐標軸定義
+    A["態度維度 vs 困境類型"] --> B["縱軸：內向/外向態度"]
+    A --> C["橫軸：逃避 → 接納的光譜"]
+
+    %% 左上象限：外向逃避
+    D["象限I：外向逃避<br/>控制/消除問題"] --> D1["黑奏<br/>態度:絕對控制<br/>困境:誰的痛苦都<br/>不值得保存"]
+
+    %% 左下象限：外向接納
+    E["象限II：外向接納<br/>改造/重建"] --> E1["花子/母愛琥珀<br/>態度:逃入幻夢<br/>困境:愛表現為<br/>善意的牢籠"]
+
+    %% 右上象限：內向逃避
+    F["象限III：內向逃避<br/>隱瞞/分裂"] --> F1["夕<br/>態度:承載負面<br/>困境:自我犧牲<br/>卻傷害摯愛"]
+
+    F --> F2["操<br/>態度:完美執念<br/>困境:無法接受<br/>真實的自己"]
+
+    %% 右下象限：內向接納
+    G["象限IV：內向接納<br/>理解/整合"] --> G1["晴香<br/>態度:擁抱痛苦<br/>困境:為此承受<br/>永恆的孤寂"]
+
+    G --> G2["美夜子<br/>態度:接納新身份<br/>困境:喪失人性<br/>卻守護愛"]
+
+    G --> G3["艾莉(新時間線)<br/>態度:從始至終接納<br/>困境:對抗世界<br/>拯救摯愛"]
+
+    %% 秋穗的位置變遷
+    H["秋穗的軌跡"] --> H1["起點:象限II<br/>改造女兒<br/>充滿希望"]
+    H1 --> H2["轉折:象限III<br/>被夕操縱<br/>充滿內疚"]
+    H2 --> H3["終點:象限I<br/>完全黑奏化<br/>成為無臉執行官"]
+
+    %% 朱音的位置
+    I["朱音"] --> I1["起點:象限I<br/>暴力控制一切"]
+    I1 --> I2["嘗試轉變:象限II<br/>推翻黑奏系統"]
+    I2 --> I3["最終:象限III<br/>屍骸首領<br/>被迫領導"]
+
+    %% 樣式定義
+    classDef axis fill:#f9fbe7,stroke:#689f38,stroke-width:2px
+    classDef control fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef escape fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef division fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef acceptance fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef trajectory fill:#e3f2fd,stroke:#1976d2,stroke-width:1px,stroke-dasharray: 5 5
+
+    class A,B,C axis
+    class D,D1 control
+    class E,E1 escape
+    class F,F1,F2 division
+    class G,G1,G2,G3 acceptance
+    class H,H1,H2,H3,I,I1,I2,I3 trajectory
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U029 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U030
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/角色態度與困境矩陣::U030 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-記憶碎片化地圖-晴香的記憶重構"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構
+
+### <a id="cu-cc897b8583ba"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U019
+- 類型：`heading`
+- CU_HASH：`cc897b8583ba`
+
+**重寫內容（保留語意）**
+
+### 記憶碎片化地圖 - 晴香的記憶重構
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U019 -->
+
+### <a id="cu-e806c546518e"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U020
+- 類型：`code`
+- CU_HASH：`e806c546518e`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 核心意識
+    A["晴香核心意識<br/>當前自我認知"] --> A1["日常記憶<br/>偶像生活<br/>學校生活<br/>與秋穗互動"]
+
+    %% 封印記憶
+    B["被夕封印的記憶<br/>深層潛意識"] --> B1["Alpha線真相<br/>花子+美夜子同時死亡<br/>晴香創造Beta世界"]
+    B --> B2["花子的存在<br/>原初的母愛<br/>對完整家庭的渴望"]
+    B --> B3["美夜子的死亡<br/>第一次失去<br/>被重寫的記憶"]
+    B --> B4["夕的諸多罪行<br/>對秋穗的操縱<br/>對晴香的傷害"]
+
+    %% 夕的記憶容器
+    C["夕的獨立記憶<br/>黑奏賦予的知識"] --> C1["黑奏的詛咒<br/>來自未來的力量<br/>時間反向流動"]
+    C --> C2["原初時間線<br/>美夜子存活<br/>晴香未成為偶像"]
+    C --> C3["修正時間線<br/>美夜子消失<br/>花子之死確定"]
+
+    %% 時間線分支
+    D["時間線分支點"] --> D1["Alpha時間線<br/>已刪除<br/>美夜子活著"]
+    D --> D2["Beta時間線<br/>目前時間線<br/>平衡修正後<br/>花子代死"]
+    D --> D3["新時間線<br/>現實改寫後<br/>晴香意識脫困"]
+
+    %% 整合過程
+    A --> E["心靈融合<br/>第一幕"]
+    B --> E
+    C --> E
+    E --> F["完整自我<br/>整合後的晴香<br/>全知全感"]
+
+    %% 黑奏詛咒
+    G["黑奏的詛咒<br/>態度竊取詛咒"] --> G1["第三幕結果<br/>晴香意識被困<br/>20年潛意識淪陷"]
+    G1 --> G2["回歸新現實時<br/>晴香只能被動反映<br/>他人的態度"]
+    G2 --> F
+
+    %% 樣式定義
+    classDef conscious fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef sealed fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef shadow fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef timeline fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef curse fill:#ffe0b2,stroke:#e65100,stroke-width:2px
+    classDef integration fill:#e8f5e8,stroke:#2e7d32,stroke-width:3px
+
+    class A,A1 conscious
+    class B,B1,B2,B3,B4 sealed
+    class C,C1,C2,C3 shadow
+    class D,D1,D2,D3 timeline
+    class G,G1,G2 curse
+    class E,F integration
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U020 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U021
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/記憶碎片化地圖 - 晴香的記憶重構::U021 -->
+
+## <a id="h-角色關係圖-08-情緒設定總綱-情緒系統架構圖-魔法少女的力量腐蝕週期"></a>角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期
+
+### <a id="cu-e8d13954c9fd"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U025
+- 類型：`heading`
+- CU_HASH：`e8d13954c9fd`
+
+**重寫內容（保留語意）**
+
+### 魔法少女的力量腐蝕週期
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U025 -->
+
+### <a id="cu-b6546f28feeb"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U026
+- 類型：`code`
+- CU_HASH：`b6546f28feeb`
+
+**重寫內容（保留語意）**
+
+```mermaid
+graph TD
+    %% 初期階段
+    A["獲得魔法少女裝置"] --> B["第一次變身<br/>純粹力量<br/>正面情感驅動"]
+
+    %% 力量運用
+    B --> C["早期任務<br/>簡單戰鬥<br/>肌肉記憶建立"]
+
+    %% 正向使用
+    C --> D["積極期<br/>相信自己能拯救<br/>希望充足<br/>正面情感調律"]
+
+    %% 轉折點
+    D --> E["轉折點:<br/>第一次失敗<br/>第一次犧牲<br/>友誼破裂"]
+
+    %% 腐蝕開始
+    E --> F["腐蝕期初期<br/>開始使用黑暗情感<br/>憤怒、絕望、恐懼"]
+
+    F --> G["習慣化<br/>負面情感效率更高<br/>但付出代價加大<br/>情感耗損加速"]
+
+    %% 深度腐蝕
+    G --> H["依賴化<br/>無法用正面情感<br/>只能靠負面驅動<br/>成為情感毒品上癮"]
+
+    %% 最終崩潰
+    H --> I["燃盡期<br/>心之器多處破裂<br/>情感通路關閉<br/>無法產生任何情感"]
+
+    %% 三種結局
+    I --> J["結局一:<br/>屍骸化<br/>心之器完全碎裂<br/>魂魄困於軀殼<br/>No. 2/3/4的命運"]
+
+    I --> K["結局二:<br/>執行官化<br/>被黑奏奪舍<br/>靈魂被囚禁於時空間隙<br/>秋穗的未來結局"]
+
+    I --> L["結局三:<br/>超越化<br/>接納所有破裂<br/>主動轉化為屍骸<br/>晴香的終極選擇"]
+
+    %% 各角色的位置
+    C --> M["朱音<br/>停留在:習慣化<br/>活著但已死<br/>奪回控制權"]
+
+    C --> N["操<br/>停留在:腐蝕初期<br/>精神分裂中<br/>完美執念反噬"]
+
+    C --> O["凜<br/>停留在:習慣化<br/>無法承受<br/>選擇自殺"]
+
+    C --> P["五號<br/>停留在:純粹期<br/>最純真的犧牲<br/>最無辜的死亡"]
+
+    C --> Q["晴香<br/>經過:全階段<br/>最終選擇:結局三<br/>轉化為永恆守護者"]
+
+    %% 樣式定義
+    classDef pure fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef growth fill:#e8f5e8,stroke:#2e7d32,stroke-width:2px
+    classDef turning fill:#fff3e0,stroke:#f57c00,stroke-width:2px
+    classDef corruption fill:#ffebee,stroke:#d32f2f,stroke-width:2px
+    classDef burnout fill:#f3e5f5,stroke:#7b1fa2,stroke-width:3px
+    classDef undead fill:#fce4ec,stroke:#c2185b,stroke-width:2px
+    classDef character fill:#fafafa,stroke:#424242,stroke-width:1px
+
+    class A,B,C,P pure
+    class D,M,N,O growth
+    class E,F turning
+    class G,H corruption
+    class I,J,K,L burnout
+    class Q character
+```
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U026 -->
+
+### <a id="cu-58b63e273b96"></a>charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U027
+- 類型：`paragraph`
+- CU_HASH：`58b63e273b96`
+
+**重寫內容（保留語意）**
+
+---
+
+<!-- Sources: backup/draft/charts_reference.md::CU_ID=charts_reference::H角色關係圖/08_情緒設定總綱 - 情緒系統架構圖/魔法少女的力量腐蝕週期::U027 -->
