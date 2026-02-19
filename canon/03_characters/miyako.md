@@ -4,18 +4,16 @@
 > 首次閱讀建議先看 [§ Header Table](#char-miyako) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
 > 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
 
-
-
 ---
 
-## 角色文件職責邊界
+## <a id="section-char-scope"></a>角色文件職責邊界
 
 - 本文件只負責該角色的人設真相、心理弧、關係與不可改設定。
 - 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 
 ---
 
-## Header Table
+## <a id="char-miyako"></a>Header Table
 
 
 | 欄位            | 內容                                                                                                                       |
@@ -33,7 +31,7 @@
 
 ---
 
-## 背景故事
+## <a id="section-background"></a>背景故事
 
 ### 唯一的已死者——借來的生命
 
@@ -47,7 +45,7 @@
 
 ### 五歲的詛咒——避難所（The Sanctuary Curse）
 
-美夜子的貓形態對她而言不是「可選能力」，而是被迫承接的身份。  
+美夜子的貓形態對她而言不是「可選能力」，而是被迫承接的身份。
 她同時被保護、也被剝奪：能活下來，卻失去以原本姿態告別的權利。規則細節見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse)。
 
 這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在。
@@ -58,7 +56,7 @@
 
 ### 凜的犧牲與詛咒首次觸發
 
-凜的死亡不是單一創傷事件，而是美夜子人格防線被打穿的起點。  
+凜的死亡不是單一創傷事件，而是美夜子人格防線被打穿的起點。
 自此她把「活著」理解為「欠下來的時間」，並以介錯人角色壓住崩潰。事件細節見 [Timeline：凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)。
 
 **See also**: [凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice)
@@ -69,12 +67,12 @@
 
 ### 既視感追認——確認「仍是同一個人」的方式
 
-美夜子在多次交鋒中，從朔的戰術微習慣與保護動作感到強烈既視感，並反向確認自己對朔也保留同一層「身體記憶」。  
+美夜子在多次交鋒中，從朔的戰術微習慣與保護動作感到強烈既視感，並反向確認自己對朔也保留同一層「身體記憶」。
 這條線的關鍵不在「戀人重逢的浪漫」，而在「身份連續性」：即使經歷死亡、兵器化、詛咒與人格防衛，她仍可被辨識為同一主體。這為她後段從兵器角色回到關係角色提供心理支點。
 
 ---
 
-## Want / Need / Lie / Truth
+## <a id="section-wnlt"></a>Want / Need / Lie / Truth
 
 **Want（顯性欲望）**：
 
@@ -102,7 +100,7 @@
 
 ---
 
-## Archetype & Symbolism
+## <a id="section-archetype"></a>Archetype & Symbolism
 
 **Archetype 變遷**：介錯人 (The Executioner) → 送行者 (The Farewell Keeper) → 守護者 (The Guardian)
 
@@ -114,7 +112,7 @@
 
 ---
 
-## 四幕弧光
+## <a id="section-arc"></a>四幕弧光
 
 ### [第一幕](../05_story_outline_canon.md#act-1)：黑貓守護者
 
@@ -134,11 +132,11 @@
 
 ---
 
-## 存在確認測試與崩潰修復
+## <a id="section-existence-collapse"></a>存在確認測試與崩潰修復
 
 **事件位置**：[Timeline: 美夜子的三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)
 
-美夜子在「貓殼碎裂」後進入重度解離，核心恐懼是：即使回到人形，自己仍可能只是「功能性的兵器殘骸」，而非真正活著的人。  
+美夜子在「貓殼碎裂」後進入重度解離，核心恐懼是：即使回到人形，自己仍可能只是「功能性的兵器殘骸」，而非真正活著的人。
 她因此進行一次[存在確認測試](../02_glossary.md#term-existence-validation-test)：企圖用強烈生理刺激確認「我仍有感覺」。結果是失敗的。
 
 - 測試結果：只出現更深的空洞與失重感，無法產生存在感
@@ -150,9 +148,9 @@
 
 ---
 
-## 關鍵習慣（Behavior Hooks）
+## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
 
-
+<!-- Sources: backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md -->
 
 **日常習慣：**
 
@@ -164,14 +162,17 @@
 
 **私密習慣（存在確認機制）：**
 
-1. **黑暗中沖涼** — 完全關燈的浴室，長時間站在熱水中。黑暗消除「觀測」，讓她暫時不必是兵器或倖存者。在此她會輕聲呢喃那些無法拯救的同伴名字，黑暗是她悼念死者的私密空間。視覺：水流聲混著輕微抽泣聲；冷水忽至時她會瑟縮；洗完後靜站黑暗中許久，不立即離開。
-2. **長泳窒息** — 在無人泳池中游至體力極限，享受瀕死的換氣掙扎。呼吸的掙扎是她「活著」的確認——只有必須用力才能呼吸時，才真實感受到這具借來的身體仍然完整。
-3. **研磨凜的斷刃** — 每天用磨刀石打磨那把刻有凜名字的斷刃匕首（刀刃已斷，無法再戰）。她的指紋被磨平、手指紅腫破皮，但刀身被磨得如鏡子般反光。心理意義：試圖通過物理修復遮蓋無法挽回的創傷。那把斷刀映照出她憔悴的臉——介錯人護衛失敗的永恆指控。
-4. **渴望大哭** — 她一生中最深切的願望：在某個完全信賴的人面前大哭一場。軍方訓練使她視情緒為弱點；「借來的命」的絕望讓她連哭的資格都喪失了。她能透過生理刺激製造眼淚，但那不是真正的哭泣。真正的哭泣意味著「被無條件接納」——不必是兵器，只是一個受傷的女孩，而依然被珍視。見 [第四幕：美夜子的大哭](../05_story_outline_canon.md#act-4)。
+6. <a id="habit-dark-shower"></a>**黑暗中沖涼** — 完全關燈的浴室，長時間站在熱水中。黑暗消除「觀測」，讓她暫時不必是兵器或倖存者。在此她會輕聲呢喃那些無法拯救的同伴名字，黑暗是她悼念死者的私密空間。視覺：水流聲混著輕微抽泣聲；冷水忽至時她會瑟縮；洗完後靜站黑暗中許久，不立即離開。
+
+7. <a id="habit-long-swim"></a>**長泳窒息** — 在無人泳池中游至體力極限，享受瀕死的換氣掙扎。呼吸的掙扎是她「活著」的確認——只有必須用力才能呼吸時，才真實感受到這具借來的身體仍然完整。
+
+8. <a id="habit-blade-grinding"></a>**研磨凜的斷刃** — 每天用磨刀石打磨那把刻有凜名字的斷刃匕首（刀刃已斷，無法再戰）。她的指紋被磨平、手指紅腫破皮，但刀身被磨得如鏡子般反光。心理意義：試圖通過物理修復遮蓋無法挽回的創傷。那把斷刀映照出她憔悴的臉——介錯人護衛失敗的永恆指控。
+
+9. <a id="habit-crying-desire"></a>**渴望大哭** — 她一生中最深切的願望：在某個完全信賴的人面前大哭一場。軍方訓練使她視情緒為弱點；「借來的命」的絕望讓她連哭的資格都喪失了。她能透過生理刺激製造眼淚，但那不是真正的哭泣。真正的哭泣意味著「被無條件接納」——不必是兵器，只是一個受傷的女孩，而依然被珍視。見 [第四幕：美夜子的大哭](../05_story_outline_canon.md#act-4)。
 
 ---
 
-## 視覺要點
+## <a id="section-visual"></a>視覺要點
 
 
 | 欄位          | 內容                                                    |
@@ -185,7 +186,7 @@
 
 ### 貓形態（The Mascot）
 
-- 全黑英短 (British Shorthair)，毛髮濃密短絨，頭圓臉大
+- 全黑英短 (British Shorthore Shorthair)，毛髮濃密短絨，頭圓臉大
 - 識別點：左耳金屬星型髮夾
 - 行為反差：外表極度可愛，行為像「疲憊的大叔」——癱坐露肚皮、沉重嘆氣
 
@@ -228,7 +229,7 @@
 
 ---
 
-## Relationships
+## <a id="section-relationships"></a>Relationships
 
 
 | 對象                     | 關係            | 核心動態                                                              |
@@ -243,8 +244,12 @@
 
 ---
 
-## 關鍵事件錨點（Timeline 對齊）
+## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
 
+- [美夜子出生](../04_timeline_canon.md#event-miyako-birth)：76 年生，天生具大威脅魔法，埋下身為「工具」的命運伏筆。
+- [姊妹處決](../04_timeline_canon.md#event-sisters-execution)：Alpha 線中黑奏殺死花子與美夜子，導致晴香改寫現實創造 Beta 線。
+- [Beta 線重置](../04_timeline_canon.md#event-beta-reset)：美夜子在 Beta 線以「僅年死」形式存在，庇護詛咒啟動前提。
+- [庇護詛咒觸發](../04_timeline_canon.md#event-shelter-curse-trigger)：凜的犧牲令美夜子的庇護詛咒啟動，進入光環 PTSD 狀態。
 - [凜的犧牲](../04_timeline_canon.md#event-rin-sacrifice)：核心創傷來源，形成光環 PTSD。
 - [朔與美夜子的既視感追認](../04_timeline_canon.md#event-saku-miyako-dejavu)：由兵器身份回到關係身份的關鍵節點。
 - [三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)：從功能性生存轉為主體性存在。
@@ -252,23 +257,22 @@
 
 ---
 
-## 角色功能（Narrative Function）
+## <a id="section-role-function"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
 - 美夜子專屬功能：把「借來的生命」由功能性生存轉為可被承接的主體性存在。
 
 ---
 
-## 禁忌（不可改設定）
+## <a id="section-canon-constraints"></a>禁忌（不可改設定）
 
 - 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
 - 美夜子專屬禁忌：不可刪除「唯一已死者」身份與「介錯人→守護者」弧光的連續性。
 
-## See also
+## <a id="section-see-also"></a>See also
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
 - [Timeline: 凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice) | [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
 - [Glossary: 避難所詛咒](../02_glossary.md#term-sanctuary-curse) | [Unit 01](../02_glossary.md#term-unit-01) | [光環](../02_glossary.md#term-halo)
 - [Dark Healing](../02_glossary.md#term-dark-healing) — 美夜子的大哭是三大治癒時刻之一
-

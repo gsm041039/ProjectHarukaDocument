@@ -31,7 +31,7 @@
 
 ---
 
-## <a id="section-ultimate-purpose"></a>終極目的：治癒（Dark Healing）
+## <a id="section-ultimate-purpose"></a><a id="section-dark-healing"></a>終極目的：治癒（Dark Healing）
 
 > 這是一個「[黑暗治癒系](02_glossary.md#term-dark-healing)」故事。所有的殘酷、痛苦與絕望，都服務於一個終極目標——**讓觀眾透過故事得到治癒**。
 

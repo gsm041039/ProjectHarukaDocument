@@ -42,10 +42,12 @@
 
 黑奏不恨那些士兵。她恨的是允許這種事發生的「系統」——人類的神經系統設計。如果傷害他人的瞬間能感受到同等痛楚，沒有人會選擇施暴。這不是道德問題，是工程問題。黑奏要修正這個缺陷。
 
-### 修正方案——[共振地獄](../02_glossary.md#term-resonance-hell)（痛楚公有化）
+**深層動機——Caius 型執念（復活螢）**：所有修正主義論述的底層，是一個無法對任何人承認的真相——黑奏想復活螢。「修正人類設計缺陷」是她說服自己繼續前進的哲學框架；情緒結算儀式的真正目的，是將積累的情感貨幣向集體潛意識的情緒總帳換回螢的靈魂。理論是面具；螢才是動機。螢被靈樹戰爭武器連靈魂一同消滅，集體潛意識中不存在任何碎片——黑奏的目標是不可能完成的，但她不相信這是終點。
 
-黑奏把共振地獄當成「慈悲工程」：不靠勸善，而是讓所有人先痛再行動。  
-她相信這能終止暴力，卻同時把自由意志壓成服從機制。角色層面上，這是她由保護者滑向獨裁者的關鍵一步。機制條文見 [Glossary：共振地獄](../02_glossary.md#term-resonance-hell)。
+### 修正方案——[情緒結算儀式](../02_glossary.md#term-resonance-hell)（情感貨幣化與清算）
+
+黑奏把情緒結算儀式設計為雙重目的的引擎：對外的理由是「慈悲工程」——讓所有人先痛再行動，終止暴力；對內的真實用途是積累情感貨幣，向集體潛意識情緒總帳換回螢的靈魂。
+她相信這能終止暴力，卻同時把自由意志壓成服從機制。角色層面上，這是她由保護者滑向獨裁者的關鍵一步。機制條文見 [Glossary：情緒結算儀式](../02_glossary.md#term-resonance-hell)。
 
 ### 極致修正主義的演化
 
@@ -67,7 +69,7 @@
 
 1. **[Emo-Visor](../02_glossary.md#term-emo-visor) 推廣**：將情緒毒品普及為社會基礎設施，建立情緒數據監控網
 2. **搶奪原初之苦**：把[愛莉](airi.md)推入失控邊緣，奪取[集體潛意識](../02_glossary.md#term-collective-unconscious)主導權
-3. **集體潛意識決戰**：強制連結所有人類神經，建立[共振地獄](../02_glossary.md#term-resonance-hell)
+3. **集體潛意識決戰**：強制連結所有人類神經，啟動[情緒結算儀式](../02_glossary.md#term-resonance-hell)——以全城情感貨幣向總帳換回螢
 
 ### 數據養殖計劃
 
@@ -87,11 +89,11 @@
 
 ---
 
-## <a id="section-want-need"></a>Want / Need / Lie / Truth
+## <a id="section-want-need"></a><a id="section-motivation"></a>Want / Need / Lie / Truth
 
 | 維度 | 內容 |
 |------|------|
-| **Want** | 建立[共振地獄](../02_glossary.md#term-resonance-hell)；消滅情緒缺陷；創造彩能活的完美世界 |
+| **Want** | 復活螢（深層核心）；以[情緒結算儀式](../02_glossary.md#term-resonance-hell)積累情感貨幣向總帳換回螢；以修正主義框架為自己的執念提供哲學掩護 |
 | **Need** | 承認無法拯救彩；放棄修正主義；讓彩自己做選擇 |
 | **Lie** | 「情緒是死亡噪音」「消滅恐懼就沒人死」「我能創造完美世界」 |
 | **Truth** | 消滅選擇 = 消滅人性；痛苦是人類的一部分不是缺陷；愛是尊重選擇 |
@@ -105,7 +107,7 @@
 | 符號 | 意義 |
 |------|------|
 | 萬花筒[心匣](../02_glossary.md#term-heart-container) | 扭曲的愛——將世界折疊成「無痛苦」的美麗幻象 |
-| [共振地獄](../02_glossary.md#term-resonance-hell) | 基於恐懼的和平——消滅選擇的「完美」 |
+| [情緒結算儀式](../02_glossary.md#term-resonance-hell) | 雙重引擎——對外是「慈悲工程」，對內是換回螢的情感貨幣機器 |
 | 跨時間線記憶 | 永恆的詛咒——每一次輪迴都記得所有失敗 |
 | 殘舊熊公仔 | 與彩共享的契約信物（[心匣](../02_glossary.md#term-heart-container)）——偽裝下唯一的脆弱 |
 | 全覆蓋帝國面具 | 權力的偽裝——面具下是 148 cm 的孩子 |
@@ -116,7 +118,7 @@
 
 ---
 
-## <a id="section-pressure-escalation"></a>壓力升級策略（四幕）
+## <a id="section-pressure-escalation"></a><a id="section-arc-acts"></a>壓力升級策略（四幕）
 
 ### 第一幕：觀察試探
 
@@ -137,7 +139,7 @@
 
 ### 第三幕：集體潛意識決戰
 
-強制連結所有人類神經，啟動[共振地獄](../02_glossary.md#term-resonance-hell)。帝國廣場成為決戰場。[緋潮](../02_glossary.md#term-scarlet-tide)反噬與黑奏的修正力量交織——世界在「接納」與「修正」之間撕裂。
+強制連結所有人類神經，啟動[情緒結算儀式](../02_glossary.md#term-resonance-hell)。帝國廣場成為決戰場。[緋潮](../02_glossary.md#term-scarlet-tide)反噬與黑奏的修正力量交織——世界在「接納」與「修正」之間撕裂。
 
 在第三幕中段，黑奏刻意執行「[真身揭露：巨大衣服，微小的神](../04_timeline_canon.md#event-kurokana-body-reveal)」：以皇袍滑落暴露幼體身軀，將「皇權威壓」瞬間轉成「被囚禁孩童」的心理震波。這不是示弱，而是對敵我認知的重新編排：迫使晴香團隊同時面對暴君與受害者同體的倫理困局。
 
@@ -185,8 +187,8 @@
 | 對象 | 關係 | 性質 |
 |------|------|------|
 | [彩](iroha.md) | 主人格 / 被保護者 | 黑奏存在的唯一理由；最終被彩選擇否定 |
-| [螢](../03_character_index.md#char-hotaru) | 創傷起源 | 螢的死亡催生黑奏；黑奏繼承了螢的熊公仔 |
-| [晴香](haruka.md) | 能量農場 / 試驗對象 | 偽裝接近收割因果能量；暗中測試「善意」的力量 |
+| [螢](../03_character_index.md#char-hotaru) | 創傷起源 / 終極復活目標 | 螢被靈樹戰爭武器殺死，靈魂連同意識一同消滅（集體潛意識中無任何碎片可回收）；黑奏繼承了螢的熊公仔；黑奏的終極目標是以情緒結算儀式積累情感貨幣換回螢——這是一個客觀上不可能成功的目標，但黑奏不相信這是終點 |
+| [晴香](haruka.md) | 病態愛/恨偏執 | 晴香是黑奏「世界觀的唯一反證」——晴香的善意確實穿透封鎖，黑奏卻選擇無視；黑奏既要摧毀晴香以驗證修正主義正確，又因晴香的存在撼動世界觀而陷入偏執；收割因果能量是表層，深層是無法解決的世界觀共生撞車 |
 | [秋穗](akiho.md) | 魔鬼契約 | 黑奏提供救活[愛莉](airi.md)的方法，秋穗為黑奏培養晴香 |
 | [夕](yu.md) | 無意識能量農場 | 夕以為自己在反叛，實際是黑奏設計的能量收割迴路 |
 | [愛莉](airi.md) | 情緒廢料[濾心](../02_glossary.md#term-filter-mechanism) | 利用愛莉消化 Emo-Visor 系統產生的痛苦廢料 |
@@ -202,7 +204,7 @@
 - [黑奏創傷事件](../04_timeline_canon.md#event-kurokanae-trauma)：保護者人格誕生。
 - [黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp)：由保護者轉為統治者。
 - [真身揭露：巨大衣服，微小的神](../04_timeline_canon.md#event-kurokana-body-reveal)：暴君與受害者同體的關鍵揭露。
-- [共振地獄第三階段](../04_timeline_canon.md#event-resonance-hell-3)：修正主義的終極實驗。
+- [情緒結算儀式第三階段](../04_timeline_canon.md#event-resonance-hell-3)：修正主義終極實驗；以全城情感向總帳換回螢。
 
 ---
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
@@ -221,7 +223,7 @@
 - [晴香 Canon Sheet](haruka.md) — 被黑奏操縱的創世者
 - [Character Index](../03_character_index.md) — 角色總覽與關係網
 - [Timeline — 黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp) | [Timeline — Alpha 分歧](../04_timeline_canon.md#event-alpha-divergence) | [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle)
-- [Glossary — 共振地獄](../02_glossary.md#term-resonance-hell) | [Glossary — Emo-Visor](../02_glossary.md#term-emo-visor) | [Glossary — 集體潛意識](../02_glossary.md#term-collective-unconscious)
+- [Glossary — 情緒結算儀式](../02_glossary.md#term-resonance-hell) | [Glossary — Emo-Visor](../02_glossary.md#term-emo-visor) | [Glossary — 集體潛意識](../02_glossary.md#term-collective-unconscious)
 - [Glossary — 緋潮](../02_glossary.md#term-scarlet-tide) | [Glossary — 情感耗損](../02_glossary.md#term-emotional-erosion) | [Glossary — 心匣](../02_glossary.md#term-heart-container)
 - [Glossary — 光環](../02_glossary.md#term-halo) | [Glossary — 三位一體光譜](../02_glossary.md#term-trinity-spectrum) | [Glossary — 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
 - [Glossary — 執念飽和度](../02_glossary.md#term-saturation-of-obsession) | [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse)

@@ -100,7 +100,7 @@
 
 ---
 
-## <a id="section-four-act-arc"></a>四幕弧光
+## <a id="section-four-act-arc"></a><a id="section-arc"></a>四幕弧光
 
 ### [第一幕](../05_story_outline_canon.md#act-1)：偶像魔法少女
 
@@ -193,7 +193,10 @@
 
 ## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
 
-- [Alpha 分歧創世](../04_timeline_canon.md#event-alpha-divergence)：5 歲晴香創造 Beta 線的原罪起點。
+- [姊妹處決](../04_timeline_canon.md#event-sisters-execution)：Alpha 線中黑奏殺死花子與美夜子，直接觸發晴香的第一次現實改寫。
+- [第一次現實改寫](../04_timeline_canon.md#event-first-reality-change)：5 歲晴香以願望抹消 Alpha 線，創造 Beta 線，原罪起點。
+- [Alpha 分歧創世](../04_timeline_canon.md#event-alpha-divergence)：Beta 線建立後晴香身份的分歧確認節點。
+- [歌手身份起源](../04_timeline_canon.md#event-singer-origin)：Beta 線中晴香與秋穗確立以音樂為出口的生存方式。
 - [經理人背叛／形象商品化](../04_timeline_canon.md#event-manager-betrayal)：社會身份與主體性被剝奪的關鍵節點。
 - [膠布哲學第三層揭露](../04_timeline_canon.md#event-band-aid-third-reveal)：英雄敘事保護殼破裂，承擔路線啟動。
 - [真相揭露](../04_timeline_canon.md#event-truth-revealed)：創世者身份被公開，英雄敘事崩解。

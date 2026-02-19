@@ -41,16 +41,20 @@
 
 瓦楞紙箱盔甲、膠帶纏繞紙劍、蠟筆畫的笑臉太陽紙盾——這就是愛莉在[集體潛意識](../02_glossary.md#term-collective-unconscious)中的全部裝備。她以毒舌少女的語氣指引表姐[晴香](haruka.md)，用最廉價的材料擋住最沉重的命運。
 
-### 核心用途一——精神網絡守門人
+### 核心用途一——集體潛意識人造錨點（常駐閘口）
 
-愛莉的角色價值不在「有幾強」，而在「肯唔肯長期承受」。  
+愛莉是[集體潛意識](../02_glossary.md#term-collective-unconscious)中唯一的人造常駐節點：所有人下潛進入集體潛意識，都必須經過愛莉的閘口；她是通往 L2 留存海與 L3 冥河的必經入口。每次被作為閘口使用，她承受的負擔都會加重——她的紙皮盔甲每多一道裂縫、每多一圈膠帶，都是有人借道的代價。
+
+### 核心用途二——精神網絡守門人
+
+愛莉的角色價值不在「有幾強」，而在「肯唔肯長期承受」。
 她在精神網絡中做的事很單純：把會傷人的東西擋開，讓其他人仲有喘息空間。
 
-### 核心用途二——活體黑盒
+### 核心用途三——活體黑盒
 
 在敘事功能上，愛莉是時間線真相的記憶錨點：當多數角色記憶被改寫時，她承擔「未被覆寫證詞」的角色位置。客觀時間線對照以 [Timeline](../04_timeline_canon.md#section-alpha-line-history) 與 [Timeline](../04_timeline_canon.md#section-beta-line-history) 為準。
 
-### 核心用途三——濾心機制
+### 核心用途四——濾心機制
 
 對愛莉而言，「濾心」不是技術詞，而是每天都要吞下別人痛苦的生活事實。  
 她明知好苦，仍然選擇頂住，因為她不想下一個受傷的人是自己在乎的人。
@@ -164,7 +168,7 @@ T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾。�
 - [故事後段開端](../04_timeline_canon.md#event-post-story-begin)：由被動容器轉為主動守門人。
 
 ---
-## <a id="section-role-function"></a>角色功能（Narrative Function）
+## <a id="section-role-function"></a><a id="section-core-function-1"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
 - 本角色的獨有功能與取向，以本頁各章節為準。

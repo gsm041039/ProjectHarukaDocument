@@ -50,7 +50,12 @@
 
 連接所有靈魂的情感網絡，包含所有人類的心之器及其衍生的情緒、記憶與未竟之夢。具現化為由「無盡後巷與唐樓」構成的超現實香港城市景觀。同時承載 Alpha 線原始數據與 Beta 線覆寫補丁。
 
-**See also**: [World Immune System](#term-world-immune-system) | [Scarlet Tide](#term-scarlet-tide)
+**三層結構（CF-T13）**：
+- **L1 回聲層**：表層情緒殘留，所有人可觸及（做夢即入）
+- **L2 留存海**：沉澱記憶存檔，魔法少女可達
+- **L3 冥河**：未處理哀傷的終點，市井俗稱「陰渠水」或「苦水井」；僅晴香、黑奏、夕等最深潛者可達
+
+**See also**: [World Immune System](#term-world-immune-system) | [Scarlet Tide](#term-scarlet-tide) | [World Rules: 三層結構](01_world_rules_and_costs.md#rule-collective-unconscious)
 
 ---
 
@@ -67,6 +72,15 @@
 帝國首都，中西文化交匯之地。
 
 類似老香港的特別城市，分為「日區」和「夜區」。晴香生活的城市，是魔法少女故事的主舞台。
+
+**四層命名（CF-T12）**：
+
+| 名稱 | 性質 | 使用者 |
+|------|------|--------|
+| **維多利亞城** | 帝國官方名稱（Beta 城市） | 官方文件、帝國體制 |
+| **霧港** | 市民俗稱 | 一般市民、非正式場合 |
+| **黑水港** | 夜區黑話 | 夜區居民、地下組織 |
+| **靈樹谷 / 夢離谷** | 上古地名（帝國侵佔前） | 歷史記錄、夜區長者口傳（已棄用，保留歷史注記） |
 
 **See also**: [Sun District](#term-sun-district) | [Night District](#term-night-district)
 
@@ -217,9 +231,11 @@
 ## <a id="section-emotion-system"></a>三、情緒系統術語
 
 ### <a id="term-emotion-conservation"></a>情緒守恆定律（Law of Emotional Conservation）
-痛苦不會消失只會轉移的宇宙法則。
+**全作主旋律世界法則**：痛苦不會消失，只會轉移。
 
 情緒是遵循守恆原理的能量形式。正面情緒與負面情緒在宇宙總量上必須維持平衡。Alpha 線是「債權人」，Beta 線被魔法消除的痛苦都變成情緒債務。累積的負面情緒超過臨界值會以緋潮形式反噬。
+
+**主旋律地位（CF-T07）**：情緒守恆定律是整個故事世界的核心組織原則——所有魔法少女系統、Alpha/Beta線分歧、屍骸化、黑奏的計劃、每個角色的悲劇弧光，都是這一法則的不同呈現。「膠布哲學」是在這個框架下，角色在面對守恆法則時採取的個人態度技術（降格為框架下的個人回應策略，而非並列法則）。
 
 **See also**: [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation) | [Scarlet Tide](#term-scarlet-tide) | [Band-Aid Philosophy](#term-band-aid-philosophy)
 
@@ -373,11 +389,15 @@
 ---
 
 ### <a id="term-halo-execution"></a>光環處決（Halo Execution）
-瞬間過載導致的死亡方式。
+同頻過載切線——瞬間過載導致的死亡方式。
+
+**機制真相（CF-T30）**：光環處決的本質是系統偵測到「情緒同頻過載」後強制切斷連線的保護機制失控——並非主動懲罰，而是魔法系統超載後的斷路器被衝破。切得太猛（切線力道過大）會直接扭斷人。
 
 短時間內急速大量輸出魔法能量，光環失控旋轉扭斷肢體。極度痛苦但瞬間結束。死者狀態是「人類的死亡」——肉體死亡靈魂解脫。最終形態是被扭曲的「完美雕像」。象徵殉道者為超越極限而燃燒殆盡。
 
-**See also**: [Halo](#term-halo)
+**欠債門檻規則**：情緒守恆欠債越高，光環處決觸發門檻越低。欠債積累到臨界值後，即使謹慎操作也無法完全避免過載風險（見 [World Rules: 光環處決機制](01_world_rules_and_costs.md#rule-halo-execution-mechanism)）。
+
+**See also**: [Halo](#term-halo) | [情緒守恆定律](#term-emotion-conservation)
 
 ---
 
@@ -470,8 +490,8 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-### <a id="term-resonance-hell"></a>共振地獄（The Resonance Hell）
-黑奏的終極計劃。
+### <a id="term-resonance-hell"></a>情緒結算儀式（The Emotional Settlement Ritual）
+舊稱「共振地獄」。黑奏的終極計劃，雙重目的引擎。
 
 建立「痛楚公有化」機制。當傷害他人時神經即時收到同等痛覺訊號，物理上無法再傷害。目標是消滅惡意而非懲罰。但這是「基於恐懼的和平」而非「基於善良的和平」——人們不作惡因怕痛不是因選擇善良。消滅行為上的惡同時消滅了選擇。
 
@@ -583,7 +603,6 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-<a id="term-ecstasy-of-resonance"></a>
 ### <a id="term-ecstasy-of-resonance"></a>諧振的狂喜（Ecstasy of Resonance）
 首次高強度接入集體潛意識時產生的短暫極樂狀態。
 
@@ -593,7 +612,6 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-<a id="term-existence-validation-test"></a>
 ### <a id="term-existence-validation-test"></a>存在確認測試（Existence Validation Test）
 角色在嚴重解離或空洞狀態下，嘗試以強刺激確認「我仍然活著」的危機行為。
 
@@ -721,7 +739,6 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-<a id="term-soul-leakage"></a>
 ### <a id="term-soul-leakage"></a>靈魂滲漏（Soul Leakage）
 - 一句定義：時間線裂痕與靈魂層失衡造成的存在性外洩現象，會令現實穩定度持續下降。
 - 重要性：它是帝國廣場決戰前世界崩壞的直接指標，亦是晴香被迫作出最終選擇的危機背景。
@@ -731,7 +748,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：靈魂滲漏加速[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)失衡，增加社會崩壞速度。
 - See also：[共振地獄](#term-resonance-hell) | [改變現實](#term-reality-change) | [時間線](04_timeline_canon.md)
 
-<a id="term-emotion-link"></a>
 ### <a id="term-emotion-link"></a>情緒連結（Emotion Link）
 - 一句定義：戰術上將多名魔法少女的情緒場域短暫同步，換取高強度協同增幅的高風險連結機制。
 - 重要性：它是團隊戰術爆發的關鍵，但亦最容易引發連鎖創傷與心理崩潰。
@@ -741,7 +757,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：連結會放大彼此創傷記憶，若隊伍信任不足，可能導致全面失控。
 - See also：[絕對共感](#term-absolute-empathy) | [共感的詛咒](#term-curse-of-empathy) | [Gameplay](10_gameplay_bible.md#section-core-loop)
 
-<a id="term-soul-resonance"></a>
 ### <a id="term-soul-resonance"></a>靈魂共鳴（Soul Resonance）
 - 一句定義：超越肉身與時間邊界的意志同步狀態，使已離場角色的「態度殘響」仍可介入當下因果。
 - 重要性：它讓最終戰的力量來源不再是單一角色能力，而是全隊共同選擇的累積結果。
@@ -751,7 +766,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：過度依賴共鳴會加深個體邊界模糊，強化[共感的詛咒](#term-curse-of-empathy)。
 - See also：[絕對共感](#term-absolute-empathy) | [態度 vs. 命運](#term-attitude-vs-fate) | [時間線](04_timeline_canon.md)
 
-<a id="term-causal-debt"></a>
 ### <a id="term-causal-debt"></a>因果債務（Causal Debt）
 - 一句定義：每次強行改寫或縫合現實都會累積的系統性反噬成本，最終必須由某個主體償還。
 - 重要性：它約束了「改變現實」的濫用，確保世界規則仍保有代價與邊界（判準見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）。
@@ -761,7 +775,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：債務累積越高，世界越接近結構性崩潰，角色犧牲規模亦越大。
 - See also：[改變現實](#term-reality-change) | [靈魂滲漏](#term-soul-leakage) | [世界規則](01_world_rules_and_costs.md)
 
-<a id="term-unit-01"></a>
 ### <a id="term-unit-01"></a>Unit 01（美夜子兵器編號）
 - 一句定義：美夜子於復活後被帝國軍方編入的階段一兵器身份代碼。
 - 重要性：它標記美夜子由「人」轉為「制度工具」的斷裂點，直接連結其後避難所詛咒。
@@ -771,7 +784,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：人格邊界受損、記憶與情感遭制度化切割。
 - See also：[避難所詛咒](#term-shelter-curse) | [潘朵拉協議](#term-pandora-protocol) | [美夜子](03_characters/miyako.md)
 
-<a id="term-kurokanae"></a>
 ### <a id="term-kurokanae"></a>黑奏（Kurokanae）
 - 一句定義：由彩在極端創傷下分裂出的保護者人格，後成為帝國最高權力核心。
 - 重要性：黑奏是 Alpha/Beta 結構、共振地獄與最終決戰因果鏈的中樞角色。
@@ -781,7 +793,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：其保護邏輯會把「救贖」異化為「控制」，持續擴大制度性暴力。
 - See also：[彩](03_characters/iroha.md) | [反派條目](03_characters/antagonist.md) | [共振地獄](#term-resonance-hell)
 
-<a id="term-faceless-executor"></a>
 ### <a id="term-faceless-executor"></a>無臉執行官（Faceless Executor）
 - 一句定義：帝國清剿行動中的高階執行體，象徵制度將個體去人格化後的純功能暴力。
 - 重要性：它是「秩序」外衣下非人化機器的代表，亦是主角群戰術與心理雙重壓力源。
@@ -791,7 +802,6 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：其存在迫使角色重新定義「敵人」與「被利用者」邊界。
 - See also：[帝國](#term-empire) | [秋穗](03_characters/akiho.md) | [時間線](04_timeline_canon.md)
 
-<a id="term-corpse-transformation"></a>
 ### <a id="term-corpse-transformation"></a>屍骸化（Corpse Transformation）
 - 一句定義：個體在情緒結構崩壞與規則侵蝕下，轉化為[魔法屍骸](#term-magical-corpse)的過程。
 - 重要性：屍骸化是整個世界代價體系最直觀且最殘酷的可視後果。
