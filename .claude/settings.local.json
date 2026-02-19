@@ -28,7 +28,8 @@
       "Bash(echo:*)",
       "Bash(test:*)",
       "Bash(find:*)",
-      "Bash(powershell -Command:*)"
+      "Bash(powershell -Command:*)",
+      "Bash(python3:*)"
     ],
     "ask": [
       "Bash(git commit:*)",
