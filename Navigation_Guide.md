@@ -40,9 +40,10 @@
 ## 3. 設定與演出路線
 
 1. [Visual Bible](canon/06_visual_bible.md)
-2. [Entities & Devices](canon/07_entities_and_devices.md)
-3. [Gameplay Bible](canon/10_gameplay_bible.md)
-4. [Decision Log](canon/99_decision_log.md)
+2. [Information Design Bible](canon/09_information_design.md)
+3. [Entities & Devices](canon/07_entities_and_devices.md)
+4. [Gameplay Bible](canon/10_gameplay_bible.md)
+5. [Decision Log](canon/99_decision_log.md)
 
 ---
 
@@ -57,6 +58,7 @@
 | 四幕結構與節奏 | [05_story_outline_canon.md](canon/05_story_outline_canon.md) |
 | 角色心理弧光 | [03_character_index.md](canon/03_character_index.md) |
 | 視覺規格與鏡頭語法 | [06_visual_bible.md](canon/06_visual_bible.md) |
+| 資訊揭露與場景執行 | [09_information_design.md](canon/09_information_design.md) |
 | 心匣 / 屍骸 / 組織 | [07_entities_and_devices.md](canon/07_entities_and_devices.md) |
 | 玩法與系統介面 | [10_gameplay_bible.md](canon/10_gameplay_bible.md) |
 | 衝突裁決依據 | [99_decision_log.md](canon/99_decision_log.md) |

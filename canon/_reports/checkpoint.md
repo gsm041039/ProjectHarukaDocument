@@ -36,19 +36,27 @@
 
 ## TODO_QUEUE
 
-**全部完成。** 殘留待作者裁決的 PENDING 項目（不影響工程驗收）：
+**全部完成。** 所有待作者裁決項目已於 2026-03-15 敲定：
 
-- ⏳ Q-001：晴香最終形態（Static Cradle vs. 開放）— 待作者選 A/B/C
-- ⏳ Q-002：操的最終命運（犧牲 vs. 存活）— 待作者選 A/B/C
-- ⏳ Q-003：花子冰封美夜子主體 — 待作者確認
-- ⏳ Q-004：美夜子復活精確年份 — 待作者選 A/B/C
-- ⏳ Q-005：朱音犧牲的可逆性 — 待作者選 A/B/C
+- ✅ Q-001：晴香最終形態（Static Cradle vs. 開放）— **RESOLVED A：Static Cradle**
+- ✅ Q-002：操的最終命運（犧牲 vs. 存活）— **RESOLVED A：雙重犧牲結局（變人偶牆）**
+- ✅ Q-003：花子冰封美夜子主體 — **RESOLVED C：刻意保留敘事懸念（canon/04 line 57 HTML comment marker）**
+- ✅ Q-004：美夜子復活精確年份 — **RESOLVED A：103 年復活（冰封期 92-103）**
+- ✅ Q-005：朱音犧牲的可逆性 — **RESOLVED A：不可逆，永久死亡**
+
+**新增決策項目（2026-03-15）：**
+- ✅ Q-ARCH-1：**RESOLVED A** — 新增 canon/09_information_design.md（資訊揭露架構）
+- ✅ Q-SCOPE-1：**RESOLVED A** — iroha.md 完整補全至主角深度
+- ✅ Q-SCOPE-2：**RESOLVED A** — rin.md 補核心因果鏈
+- ✅ Q-DECIDE-1：**RESOLVED B** — 7 個場景晉升至 canon/05 附錄
 
 ---
 
 ## CURRENT_STEP
 
-**✅ 所有步驟完成 — 進入後備模式（等待作者回答 questions_for_author.md）**
+**✅ 所有步驟完成 — 進入第三階段實施（2026-03-15）：執行最終 GAP 補全與四幕結構優化**
+
+作者已裁決所有關鍵決策（Q-001 ~ Q-005，Q-ARCH-1 ~ Q-DECIDE-1）。當前任務：實施 97 個確認或新增內容項（GAP-01 ~ GAP-97）。
 
 ---
 
@@ -100,9 +108,13 @@
 
 ## NEXT_COMMAND
 
-等待作者回答 [questions_for_author.md](questions_for_author.md) 的 Q-001 至 Q-005。
+所有決策已敲定（2026-03-15）。Canon Lead 正在執行最終實施，涵蓋：
 
-作者回答後，通知 Canon Lead 執行：
-1. 更新 conflicts_report.md（CF 狀態從 PENDING → RESOLVED）
-2. 補入對應的 canon/ 文件（依選項 A/B/C 更新 haruka.md、ayakomoji_sou.md、04_timeline_canon.md 等）
-3. 執行小規模 PASS3 重審（僅限新增/修改段落）
+1. ✅ 驗證既有決策標記（Q-003 cryo ambiguity、Hanako "never resolve" directive）
+2. 補全所有 canon/01、06、10 的世界規則與視覺規格（GAP-10~35, 52~77, 87~91）
+3. 擴展所有角色文件，補充習慣錨點、視覺微細節、心理機制（GAP-01~06, 16~17, 36~42, 48~51, 54~72）
+4. 新建 canon/09_information_design.md（Q-ARCH-1 A）
+5. 擴展 canon/04、05 時間線與結構（GAP-18, 29~30, 77）
+6. 更新 Navigation_Guide.md 納入新文件
+7. 執行最終 PASS4 QA（風格一致性、anchor 格式、責任邊界、coverage 驗證）
+8. 執行 Phase 49 commit（所有最終實施變更）
