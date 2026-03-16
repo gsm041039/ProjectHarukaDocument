@@ -4,7 +4,7 @@
 > 理解彩必須先理解螢的死亡（[Timeline](../04_timeline_canon.md#event-hotaru-death)）與黑奏的誕生。
 > 相關文件：[黑奏](antagonist.md) | [Character Index](../03_character_index.md) | [Glossary](../02_glossary.md) | [Story Outline](../05_story_outline_canon.md)
 
-<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md-->
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md -->
 
 ---
 
@@ -130,13 +130,25 @@
 
 ## <a id="section-behavior-hooks"></a>關鍵習慣（Behavior Hooks）
 
-> 以下為彩被囚禁狀態下的行為模式。
+> 以下為彩被囚禁狀態下的行為模式。部分習慣由彩的潛意識意志滲透至黑奏的外在行為，形成雙層表現。
 
 1. **沉默的哭泣**：在潛意識深處無聲哭泣，淚水在[心房](../02_glossary.md#term-heart-chamber)中結晶化
 2. **擁抱熊公仔**：在意識空間中緊抱螢的遺物——唯一的安慰
 3. **對晴香的回應**：晴香的善意觸動情緒波動，偶爾在黑奏的控制中造成微小裂痕
 4. **奪回身體的掙扎**：關鍵時刻嘗試奪回控制權——表現為黑奏突然的動作停頓或語氣變化
 5. **永恆輪迴的守護**：犧牲後在每個時間線中重複阻止黑奏誕生——不哭、不逃、直面恐懼
+
+<a id="habit-bear-hoarding"></a>**熊公仔囤積**：彩對所有熊形玩具有強迫性的吸引力。黑奏以「彩」身份外出時，會在無意識驅動下買入所有遇到的黑色熊形玩具，鎖入壓克力盒保存——這是黑奏「把螢的痕跡鎖住」的佔有動機與彩「不讓螢消失」的保護動機重疊的產物。壓克力盒象徵界限：黑奏想要控制；彩在意識空間緊抱同一批熊，視其為螢遺物的所有延伸。外人只看到「彩」有大量熊公仔藏品；無人知道擁有者有兩個。
+
+<a id="habit-letter-ritual"></a>**書信焚燒與秘密重抄**：彩每晚在意識空間中寫給螢的信，然後親手燒毀——這是她囚禁狀態下唯一能主動發起的行為。黑奏悄悄從彩的記憶中提取信的內容，重新抄寫後封存在心匣最深處。彩不知道自己的話被保留；黑奏不承認自己在珍視它們。這個儀式是兩個人格之間最隱密、也是最真實的溫柔。
+
+<a id="habit-next-time-query"></a>**「下次呢？」詢問模式**：彩不斷在意識層積蓄對普通日常的渴望，透過微弱的滲漏影響黑奏的對話行為——「下次買麵包可以帶我去嗎？」「下次下雨可以告訴我嗎？」這些請求常在對話後半段突然出現，語氣變得熱切而與前文割裂。聰明的觀察者（如[晴香](haruka.md)）有時察覺「彩」在談話結尾變得奇怪地執著於「下次」——那是彩在透過黑奏的口，試圖為自己預約一個存在的理由。
+
+<a id="habit-body-tug"></a>**身體奪回掙扎（外化版）**：當彩的意志特別強烈時，外部可見「彩」的雙臂在同一瞬間朝反方向扯動——一隻手向前、一隻手向後，維持 0.5–1 秒後「正常」動作恢復。這是彩與黑奏爭奪身體控制權的短暫平衡破裂，在情緒極度激動的場景中發生。這個動作是全片最直觀的「一個身體兩個靈魂」視覺演出，也是觀眾辨識彩試圖干預的可靠信號。
+
+<a id="habit-daily-confirmation"></a>**出門確認儀式**：每次「彩」要出門，彩在意識深處都會確認袋中有熊公仔。這份確認穿透黑奏的控制，讓她偶爾在門口停留幾秒，做出「確認袋子」的動作卻說不出理由。這個習慣是彩參與日常的最後一道倔強：我無法自己出門，但我能確保她帶著我出門。
+
+<!-- Sources: backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md（彩習慣節） -->
 
 ---
 
@@ -175,6 +187,7 @@
 | [帝國皇帝](../03_character_index.md#char-emperor) | 養父（名義） | 收養彩後被黑奏弒殺篡位 |
 | [秋穗](akiho.md) | 間接關係 | 秋穗與黑奏的魔鬼契約間接影響彩的命運 |
 | [愛莉](airi.md) | 間接受害者 | 黑奏利用愛莉作為情緒廢料的[濾心](../02_glossary.md#term-filter-mechanism)，彩無力阻止 |
+| 紗夜（前小隊成員） | 背叛者／悔恨者 | **虛榮の代價**——紗夜為維持「小隊長」地位，向黑奏組織洩露了彩（Aya）小隊的巡邏路線（「基地洩露事件」）。事後內疚加深，成為紗夜自願接受改造手術的直接導火索。彩在輪迴中能感知到這份愧疚的情緒殘影，但從未在記憶中找到完整事件脈絡。**See also**: [backup/screenwriter/02_Secondary_Character_Background_Story.md §紗夜] |
 
 ---
 

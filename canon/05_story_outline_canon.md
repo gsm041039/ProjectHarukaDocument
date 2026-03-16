@@ -139,6 +139,26 @@
 
 ---
 
+---
+
+## <a id="section-silent-voice-interlude"></a>幕間插入：「沉默之聲」（Act II → Act III 過渡）
+
+**功能**：情緒節奏緩衝節。在第二幕最後一個高壓事件與第三幕開場之間插入，提供觀眾/玩家最後一次與「日常」接觸的機會，強化第三幕黑暗的對比衝擊。
+
+**設計規格**：
+- **長度**：約 5 分鐘（遊戲/影像），無配對收益或戰鬥元素
+- **媒介**：純視覺段落，**無任何對白**（包括旁白、內心獨白）
+- **內容**：展示維多利亞城的「日常正在繼續」——無關背景人物的日常生活：老人早市買菜、孩子在水窪踩水、咖啡廳開張擦窗、路燈在日出前關閉。沒有一個畫面包含主角或任何已知角色。
+
+**核心功能**：
+1. **情緒節奏緩衝**：讓觀眾/玩家從第二幕末的高壓狀態短暫降溫，使第三幕的黑暗衝擊更有力
+2. **觀眾喘息**：在不打斷敘事的前提下給予一段靜默時間處理前一幕的情緒
+3. **對比設計**：這些「正常人的正常日常」在第三幕黑暗到來後，會讓觀眾想起「那些人完全不知道將要發生什麼」
+
+**禁忌**：此段不得加入任何暗示性象徵或預示性鏡頭（如烏鴉、黑雲、不祥音樂）。它必須是完全中性的、平靜的、甚至有些無聊的——正是這種「無聊的正常」使它成為最有效的反差裝置。
+
+---
+
 <a id="act-3"></a>
 ## <a id="section-act-3"></a>Act III：鏡像的破碎（轉）
 
@@ -346,6 +366,23 @@
 
 > 貫穿四幕的敘事主線如何逐層揭開。
 
+### <a id="section-magic-as-symptom"></a>「魔法即症狀」四角框架
+
+全故事的核心診斷框架：四位主角各自的魔法使用模式對應一種心理防衛機制，揭示魔法力量本質上是角色創傷的外化表現。
+
+| 角色 | 防衛機制類型 | 魔法表現模式 | 底層創傷 |
+|------|------------|------------|---------|
+| [晴香](03_characters/haruka.md) | **掩蓋型（Cover-Up）** | 用治癒魔法覆蓋自己的痛苦——先救別人，以免面對自己 | 「我的存在就是他人痛苦的起源」的罪責感 |
+| [美夜子](03_characters/miyako.md) | **補償型（Compensation）** | 冰封魔法 = 「讓一切靜止以免再失去」的完美控制需求 | 被詛咒借來的生命——補償被剝奪的「正常死亡」 |
+| [凜](03_characters/rin.md) | **置換型（Displacement）** | 以精密紅線和痛覺依存「替代」真實情感需求（安全連結的渴望） | 感官剝奪創傷——通過可控的痛確認自己仍存在 |
+| [黑奏](03_characters/antagonist.md) | **根源型（Root Cause）** | 其力量本身是因果逆流借來的——整個力量系統就是創傷的產物 | 幼年被迫吸收他人痛苦的絕對保護者心理 |
+
+**框架作用**：此四角診斷是「故事為何是治癒故事」的結構基礎——四人不是因為外部邪惡力量而受苦，而是在用自己的力量傷害自己。晴香的「治癒」是在幫助其他人認出這個模式，而非消滅他們。
+
+**See also**: [角色個檔](03_characters/) | [黑暗治癒](02_glossary.md#term-dark-healing)
+
+---
+
 ### <a id="section-thread-bandaid"></a>[膠布哲學](02_glossary.md#term-band-aid-philosophy)四層揭露
 
 | 層 | 位置 | 內容 | 範圍 |
@@ -449,6 +486,60 @@
 ---
 
 **See also**: [Series Bible — 終極目的](00_series_bible.md#section-ultimate-purpose) | [Timeline](04_timeline_canon.md) | [World Rules](01_world_rules_and_costs.md) | [Character Index](03_character_index.md)
+
+---
+
+## <a id="section-optional-scenes-appendix"></a>附錄：可選場景框架（七個已決定入 Canon 的日常/死亡態度場景）
+
+> **說明**：以下七個場景為作者裁決（Q-DECIDE-1）列入 canon 的「可選場景框架」——它們是確定發生的事件，但其具體編排（對白精確版本、演出時序）屬於執行層，由 [canon/09_information_design.md](09_information_design.md) 持有。本附錄只記錄每個場景的敘事功能與落點位置。
+
+### 生死態度章（全四個）
+
+<a id="optional-scene-death-wish-list"></a>
+**⑤ 死前願望清單**
+- **功能**：以「普通願望清單」揭示每個角色對「死亡與普通性」的真實態度——美夜子要自然死亡（八十歲，在醫院）；朱音要「吃頓飽」；操要「拆一個完美的線稿」；凜沉默後說「我想再見到某人一次」。
+- **落點**：Act II 中期，地下生存期的喘息場景
+- **See also**: [canon/09_information_design.md](09_information_design.md)
+
+<a id="optional-scene-ordinary-death"></a>
+**⑥ 普通死法討論（含美夜子「自然死。八十歲。在醫院。」）**
+- **功能**：以「如果你能普通死，你想怎樣死？」的對話揭示各角色與死亡的關係；美夜子以完全平靜的語氣說出「自然死。八十歲。在醫院。」是全作最具分量的一句「希望」——因為一個借來生命的人知道連這個也是奢望。
+- **落點**：Act II 中期，與⑤同一時期段
+- **See also**: [美夜子快樂結局定義](03_characters/miyako.md) | [canon/09_information_design.md](09_information_design.md)
+
+<a id="optional-scene-birthday-cake"></a>
+**⑦ 生日蛋糕**
+- **功能**：以「誰也不知道彼此生日」的現實作為日常中的悲劇揭示——她們成為摯友，但連對方的生日都不知道，因為她們沒有習慣「把自己的生日當成值得被記住的事」。
+- **落點**：Act II，具體時機由執行層決定
+- **See also**: [canon/09_information_design.md](09_information_design.md)
+
+<a id="optional-scene-pain-anomaly"></a>
+**⑧ 痛覺異常**
+- **功能**：以日常情境下「少女們測試彼此痛覺感知是否正常」的小遊戲，揭示魔法少女使用的實際代價——凜對痛的依賴、晴香感知過敏、美夜子的感知喪失。輕鬆包裝下的殘酷告知。
+- **落點**：Act I 後期或 Act II 前期
+- **See also**: [canon/09_information_design.md](09_information_design.md)
+
+---
+
+### 日常章（三個，③流浪貓救援保留在 backup）
+
+<a id="optional-scene-parent-day-heist"></a>
+**① 家長日臥底**
+- **功能**：以「偽裝成彼此家長去參加家長日」的滑稽任務，揭示每個角色的家庭關係缺位——操根本不知道扮演家長是什麼感覺；朱音扮家長時說錯了所有該說的話；晴香不需要家長來，因為她的「家人」只有美夜子（一隻貓）。
+- **落點**：Act I 後期，功能是「讓觀眾在安心笑過後意識到剛才有多悲傷」
+- **See also**: [canon/09_information_design.md](09_information_design.md)
+
+<a id="optional-scene-convenience-store"></a>
+**② 便利店作戰**
+- **功能**：以「合力搶購限量便利店商品」的日常任務，建立隊伍默契並呈現角色個性——朱音的食物執著、美夜子的清單思維、操把「效率最大化」當作遊戲。在充滿殺伐的故事中，這是她們「仍然是普通少女」的最強證明。
+- **落點**：Act I 中期
+- **See also**: [canon/09_information_design.md](09_information_design.md)
+
+<a id="optional-scene-heartbreak-commission"></a>
+**④ 情傷委託**
+- **功能**：以「被甩的普通少女委託魔法少女幫她搞定前男友」的荒謬委託，呈現「魔法力量 vs 日常人際複雜性」的落差喜劇；結尾轉向：晴香幫不了，只能陪她哭。這是「幫到人」神話第一次碰壁。
+- **落點**：Act I 末段，功能是預告第二幕的「英雄敘事裂痕」
+- **See also**: [canon/09_information_design.md](09_information_design.md)
 
 
 
