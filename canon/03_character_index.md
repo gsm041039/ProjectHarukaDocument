@@ -86,6 +86,47 @@
 - **夕 ↔ 黑奏**：夕以為自己在反叛，實際上是黑奏的無意識能量農場
 - **愛莉 ↔ 黑奏**：愛莉被黑奏利用為情緒廢料的[濾心](02_glossary.md#term-filter-heart)
 
+### <a id="section-relationship-diagram"></a>關係網絡圖
+
+```mermaid
+graph LR
+    Haruka["晴香（雨宮晴香）"]
+    Miyako["美夜子（水無月美夜子）"]
+    Yu["夕（陰影自我）"]
+    Akane["朱音（岩倉朱音）"]
+    Sou["操（綾小路操）"]
+    Rin["凜（綾瀨凜）"]
+    Saku["朔（白銀朔）"]
+    Akiho["秋穗（東雲秋穗）"]
+    Airi["愛莉（東雲愛莉）"]
+    Iroha["彩／黑奏（神樂彩）"]
+    Ko["光（小光）"]
+
+    Haruka <-->|親姊妹（互不知情）| Miyako
+    Haruka -->|分裂陰影自我| Yu
+    Haruka -->|贖罪目標| Akane
+    Haruka -->|創傷連結| Sou
+    Haruka -->|象徵連結| Airi
+    Haruka -->|象徵連結| Ko
+
+    Miyako -->|繼承／悼念| Rin
+    Miyako <-->|Alpha線青梅竹馬| Saku
+    Saku -->|對立執行者| Akiho
+
+    Akiho -->|義務性引導| Haruka
+    Akiho -->|義務性引導| Miyako
+    Akiho -->|魔鬼契約| Iroha
+
+    Akane <-->|隊友・同生共死| Sou
+    Akane -->|夜區溫暖錨點| Ko
+
+    Iroha -->|入侵／收割情緒| Haruka
+    Iroha -.->|寄生利用（夕不知情）| Yu
+    Iroha -.->|利用為濾心| Airi
+```
+
+> 實線 = 主要情感關係，虛線 = 單向利用或非自願連結。完整關係細節以各角色 Canon Sheet 為準。
+
 ---
 
 ## <a id="section-thematic-grouping"></a>主題分組

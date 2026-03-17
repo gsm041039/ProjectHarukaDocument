@@ -54,15 +54,20 @@
 
 ## CURRENT_STEP
 
-**✅ 所有步驟完成 — 第三階段實施完成（2026-03-16）：GAP-01 ~ GAP-97 全部處理完畢**
+**✅ 驗證審計完成（2026-03-17）：GAP-78、GAP-92 解決，art/ 補漏，矛盾掃描通過**
 
-作者已裁決所有關鍵決策（Q-001 ~ Q-005，Q-ARCH-1 ~ Q-DECIDE-1）。97 個 GAP 項目已全部實施（已關閉項除外）。Phases 49–54 提交完畢。
+第四階段（Canon Verification Audit）執行完畢。主要成果：
+- GAP-78 + GAP-92 解決（見 TODO_QUEUE）
+- art/302_Magical_Corpse_Visual_Design.md 兩個缺口補入 canon/07：§section-mc-variants（6 個設計變體）+ §section-mc-mixed（形態×心理混合規格）
+- Phase D 實地驗證：backup 09/14/scenes 三份高風險源文件的核心內容已確認落地
+- Phase E 矛盾掃描：Alpha/Beta 規則無矛盾，屍骸分類無重覆問題，習慣 anchor 完全隔離在角色文件內
 
 **已關閉 GAP（驗證無需實施）**：GAP-39, 44, 45, 46, 47, 80
 
-**已暫緩 GAP（需作者確認）**：
-- GAP-78：夕作為主動敘事者架構——director/02 與 archive/15 存在衝突，需作者確認哪個版本有效
-- GAP-92：Mermaid 圖表是否加入 canon——需作者決定是否引入視覺化圖表節
+**已暫緩 GAP（需作者確認）**：全部已解決。
+
+- ✅ GAP-78（2026-03-17）：夕的聲音分層機制——作者裁決「兩者都有，視乎階段」。已寫入 canon/03_characters/yu.md §section-voice-stage-spec（三階段：隱匿期僅晴香聽到 / 半透明期偶發殘影 / 完全顯現期獨立音軌）。Cross-reference 已加入 canon/06 §section-alpha-beta-grammar-table。
+- ✅ GAP-92（2026-03-17）：Mermaid 圖表——作者裁決「需要，加角色關係網絡 + Alpha/Beta 機制圖」。已加入 canon/01_world_rules_and_costs.md §section-alpha-beta-mechanism-diagram + canon/03_character_index.md §section-relationship-diagram。
 
 ---
 

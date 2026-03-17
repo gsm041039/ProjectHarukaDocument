@@ -281,6 +281,26 @@ Alpha 線是一條被壓制但**仍然同時存在**的平行真相，與 Beta �
 
 **世界規則解釋**：Beta 線的現實結構對某類「現實裂縫言語」有自動抑制反應——不是敵方力量，而是 Beta 線維持自身現實穩定性的被動機制。堵塞強度與 Beta 線現實穩定性成正比：Beta 線越脆弱，堵塞越少；接近 Act IV 時幾乎不再堵塞。
 
+### <a id="section-alpha-beta-mechanism-diagram"></a>Alpha/Beta 入侵機制流程圖
+
+```mermaid
+flowchart TD
+    A["Alpha 線（仍在發生的平行真相）"] -->|情緒壓力達閾值\n或觸及核心錨點| B{"邊界薄弱點"}
+    B --> C["視覺滲出\n（色溫/光源/動態失常）"]
+    B --> D["聲音滲出\n（靜電雜音 / 音量 dropout）"]
+    B --> E["夕的評語滲出\n（Act I: 僅晴香聽到\nAct III+: 獨立音軌）"]
+    B --> F["鏡像腐蝕預言\n（鏡面顯示心匣損傷未來態）"]
+
+    G["角色嘗試說出 Alpha 核心真相"] --> H{"聲音堵塞機制"}
+    H --> I["口型完整但聲音消失"]
+    H --> J["字幕顯示真實試圖說出的話"]
+
+    C & D & E & F --> K["玩家/觀眾接收到 Alpha 存在的信號"]
+    I & J --> K
+```
+
+> 各信號的視覺/音頻操作規格見 [§section-alpha-beta-grammar-table](06_visual_bible.md#section-alpha-beta-grammar-table)。夕的聲音三階段規格見 [夕：§section-voice-stage-spec](03_characters/yu.md#section-voice-stage-spec)。
+
 ### <a id="rule-alpha-sync"></a>同步機制（三階段模型）
 
 > 統一口徑：見 [Decision Log：CF-004a](99_decision_log.md#decision-cf004a)

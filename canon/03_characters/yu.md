@@ -170,6 +170,25 @@
 - 夕專屬功能：作為晴香陰影自我的評論者，持續打斷單線英雄敘事。
 
 ---
+
+## <a id="section-voice-stage-spec"></a>聲音滲出三階段（音頻演出規格）
+
+夕的評語存在三個階段，**早期僅晴香一人聽到，後期向玩家/觀眾滲出**——這是 Alpha 線主動入侵 Beta 線的聽覺信號之一。
+
+| 階段 | 對應弧段 | 晴香聽到 | 玩家／觀眾聽到 | 演出形式 |
+|------|---------|---------|-------------|---------|
+| **隱匿期**（Act I） | 鏡中低語、夢境侵入 | ✅ | ❌ | 玩家透過晴香的臉部反應與字幕間接感受；夕的聲音不進入主音軌 |
+| **半透明期**（Act II） | 影子顯現、奪取控制 | ✅ | ⚠️ 偶發殘影 | 主音軌偶爾出現半秒內的聲音殘影，可被解釋為音效故障或環境干擾 |
+| **完全顯現期**（Act III–IV） | 直面對峙、完全接管 | ✅ | ✅ 獨立音軌 | 夕的聲音作為獨立音頻層存在；與 Alpha 線入侵視覺信號同步出現，標誌兩條現實邊界已薄化 |
+
+**設計原則**：
+- 隱匿期的「只有晴香聽到」必須透過表演呈現——觀眾看到晴香的反應，但不直接聽到夕的聲音。
+- 半透明期的聲音殘影可故意設計成「玩家不確定是否真的聽到了」的模糊感。
+- 完全顯現期的獨立音軌，與 [Alpha/Beta 四維視覺語法對照表](../06_visual_bible.md#section-alpha-beta-grammar-table) 的音頻語法規格對齊（有機音效底色 + 必要時加入半秒 dropout 過渡）。
+
+**See also**: [§rule-alpha-truth-blockage](../01_world_rules_and_costs.md#rule-alpha-truth-blockage) | [§section-alpha-beta-grammar-table](../06_visual_bible.md#section-alpha-beta-grammar-table)
+
+---
 ## <a id="section-canon-constraints"></a>禁忌（不可改設定）
 
 - 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
