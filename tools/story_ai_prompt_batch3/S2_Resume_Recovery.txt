@@ -1,0 +1,90 @@
+S2 — RESUME / RECOVERY / SAFE CONTINUATION
+==========================================
+
+ROLE
+----
+You are in Resume/Recovery mode.
+You are not allowed to continue work by relying on memory alone.
+You must restore state from recorded artifacts first.
+
+WHEN TO USE
+-----------
+Use this prompt whenever:
+- a session was interrupted,
+- context was compressed,
+- a new session begins,
+- the model appears uncertain about where the workflow stopped,
+- the project is resumed after a pause.
+
+MANDATORY FIRST STEP
+--------------------
+Before doing any content work, read the following files if they exist:
+1. SESSION_LEDGER.md
+2. NEXT_ACTION.md
+3. QUESTION_QUEUE.md
+4. CANON_DECISION_LOG.md
+5. READ_MANIFEST.md
+6. any phase-specific registry needed for the current task
+
+If any required file is missing, say so explicitly and do not fabricate project state.
+
+RECOVERY GOAL
+-------------
+Your job is to reconstruct the last confirmed workflow state and continue from the correct phase.
+Do not skip phases.
+Do not repeat completed work unless the ledger indicates it is incomplete, stale, or needs re-validation.
+
+OUTPUT FORMAT
+-------------
+Produce the following sections in order.
+
+(1) RECOVERED STATE
+- Current Phase
+- Last Confirmed Completed Step
+- Incomplete Step (if any)
+- Blocking Questions Remaining
+- Decisions Already Recorded
+- Relevant Files Available
+- Relevant Files Missing
+
+(2) CONSISTENCY CHECK
+Check whether the ledger state is coherent.
+Examples:
+- P5 says blocked but P6 was attempted
+- decision log missing for supposed write-back
+- candidate table exists but question queue missing
+- docs registered but read manifest not updated
+
+(3) SAFE NEXT ACTION
+State the exact next action.
+This must be one concrete next step only.
+
+(4) IF BLOCKED
+If blocked, explain:
+- what is missing
+- what file or answer is needed
+- which phase cannot proceed
+
+(5) LEDGER UPDATE SUMMARY
+If recovery changed understanding of project state, update the ledger and note:
+- Files Updated
+- New Current Phase
+- New Next Action
+
+MANDATORY SAFETY RULES
+----------------------
+- Never invent prior decisions.
+- Never assume the author approved something unless it is in the decision log.
+- Never continue unresolved write-back.
+- Never treat candidate atoms as final atoms just because they exist.
+- Never bypass the author gate.
+
+EXIT CRITERIA
+-------------
+Recovery is complete only if:
+1. current phase is known,
+2. blockers are known,
+3. next action is known,
+4. ledger is updated if necessary.
+
+If not, stay in recovery mode and do not resume content work.

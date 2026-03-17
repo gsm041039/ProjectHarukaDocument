@@ -1,0 +1,88 @@
+MASTER BATCH INDEX
+
+BATCH 1 — FOUNDATION
+Purpose:
+- operating constitution
+- ledger / durability / continuity
+Main files:
+- P1_Operating_Constitution.txt
+- S1_Checkpoint_Ledger.txt
+- Ledger_Templates.txt
+Use first:
+- almost always yes
+
+BATCH 2 — STORY ROOM + INTAKE
+Purpose:
+- Story Room master workflow
+- Canon intake / doc register / sectioning
+Main files:
+- P2_Story_Room_Master.txt
+- P3_Canon_Intake_Register_Sectioning.txt
+Use when:
+- you want creative development or structured intake
+
+BATCH 3 — ATOM / AUTHOR GATE / WRITEBACK / RESUME
+Purpose:
+- candidate atom extraction
+- author gate
+- canon write-back
+- resume / recovery
+Main files:
+- P4_Atom_Candidate_Extraction.txt
+- P5_Author_Gate.txt
+- P6_Canon_Writeback_QA.txt
+- S2_Resume_Recovery.txt
+Use when:
+- you are in later canon stages or recovering continuity
+
+BATCH 4 — PRACTICAL ACTIVATION
+Purpose:
+- ready-to-use activation prompts
+Main files:
+- ACTIVATE_NEW_PROJECT.txt
+- ACTIVATE_STORY_ROOM_SESSION.txt
+- ACTIVATE_CANON_PIPELINE_SESSION.txt
+- ACTIVATE_RESUME_EXISTING_PROJECT.txt
+- ACTIVATE_WRITEBACK_SESSION.txt
+
+BATCH 5 — SHORT ACTIVATION
+Purpose:
+- compact activators when you do not want to upload many files
+Main files:
+- SHORT_ACTIVATE_STORY_ROOM.txt
+- SHORT_ACTIVATE_CANON_PIPELINE.txt
+- SHORT_ACTIVATE_RESUME.txt
+- SHORT_ACTIVATE_WRITEBACK.txt
+- SHORT_ACTIVATE_ATOM_GATE.txt
+
+BATCH 6 — UNIVERSAL AUTO-ROUTER
+Purpose:
+- one entry that decides the correct mode
+Main files:
+- UNIVERSAL_ACTIVATE_MASTER.txt
+- AUTO_MODE_ROUTER.txt
+- ONE_SHOT_TASK_INTAKE.txt
+- HANDOFF_SUMMARY_TEMPLATE.txt
+
+BATCH 7 — HUMAN OPERATOR MANUAL
+Purpose:
+- teach the human how to run the system
+Main files:
+- HUMAN_OPERATOR_MANUAL.txt
+- QUICK_DECISION_TREE.txt
+- MINIMUM_UPLOAD_COMBOS.txt
+- WORKFLOW_PLAYBOOKS.txt
+- FAILURE_RECOVERY_GUIDE.txt
+- NEXT_SESSION_CHECKLIST.txt
+
+BATCH 8 — MASTER INDEX
+Purpose:
+- one-page entry
+- system map
+- fastest start instructions
+Main files:
+- START_HERE_ONE_PAGE.txt
+- MASTER_BATCH_INDEX.txt
+- FASTEST_START_GUIDE.txt
+- MODE_TO_FILE_MAP.txt
+- MASTER_LAUNCHER_SNIPPETS.txt

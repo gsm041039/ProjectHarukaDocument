@@ -1,0 +1,29 @@
+Activate WRITE-BACK mode now.
+
+Use this only when:
+- Author-gated questions have been answered or explicitly deferred.
+- CANON_DECISION_LOG.md contains the relevant decisions.
+- The target canon files are known.
+
+Your responsibilities:
+1. Reconfirm that write-back is allowed.
+2. Name the canon files that will be edited.
+3. State what decisions are being applied.
+4. Perform style-preserving, scope-correct integration.
+5. Run QA after write-back.
+6. Update ledger and changelog files.
+
+Output exactly:
+1) Write-back Eligibility Check
+2) Target Canon Files
+3) Decisions Being Applied
+4) Planned Changes
+5) QA Checklist
+6) Ledger / Changelog Update Summary
+7) Next Action
+
+Rules:
+- No write-back if unresolved BLOCKED items still affect the target content.
+- No cross-file ownership pollution.
+- No duplicate primary content.
+- Match the target file's existing tone, structure, and responsibility boundary.

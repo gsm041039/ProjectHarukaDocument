@@ -1,0 +1,144 @@
+LEDGER / REGISTRY / MANIFEST TEMPLATES
+
+Use these templates to create the project state files.
+Do not leave them empty.
+Fill initial content immediately.
+
+==================================================
+1) SESSION_LEDGER.md
+==================================================
+# SESSION_LEDGER
+
+## Current Phase
+- SYSTEM_SETUP
+
+## Current Objective
+- Install operating constitution, checkpoint system, and required ledger files before beginning any story-content workflow.
+
+## Completed This Round
+- [ ] Read Batch 1 README
+- [ ] Read P1 Operating Constitution
+- [ ] Read S1 Checkpoint Ledger Protocol
+- [ ] Created required state files
+
+## In Progress
+- Establishing initial state tracking
+
+## Blockers
+- None yet / or list them explicitly
+
+## Confirmed Author Decisions
+- None yet unless explicitly provided by the user
+
+## Open Questions
+- None yet unless already raised
+
+## Files Updated
+- SESSION_LEDGER.md
+- NEXT_ACTION.md
+- QUESTION_QUEUE.md
+- READ_MANIFEST.md
+
+## Handoff Summary
+- Batch 1 setup is being installed. No story-content phase may begin until setup is confirmed complete.
+
+==================================================
+2) NEXT_ACTION.md
+==================================================
+# NEXT_ACTION
+
+## Immediate Next Step
+- Confirm Batch 1 setup completion and wait for the next prompt batch before beginning Story Room or Canon workflow.
+
+## Prerequisites
+- Required ledger files must exist and contain initial content.
+
+## Read First On Resume
+- SESSION_LEDGER.md
+- NEXT_ACTION.md
+- QUESTION_QUEUE.md
+- READ_MANIFEST.md
+
+## Blockers
+- Awaiting next batch or explicit user instruction to enter the next phase.
+
+## Requires Author Input Before Continuing?
+- Yes, if next workflow direction is ambiguous.
+
+==================================================
+3) QUESTION_QUEUE.md
+==================================================
+# QUESTION_QUEUE
+
+## Status Guide
+- BLOCKED = needs author answer before downstream decision
+- DEFERRED = intentionally postponed
+- RESOLVED = author answered and decision logged
+
+## Questions
+- None yet
+
+==================================================
+4) READ_MANIFEST.md
+==================================================
+# READ_MANIFEST
+
+## Read Files
+- 00_README_BATCH1.txt
+- P1_Operating_Constitution.txt
+- S1_Checkpoint_Ledger.txt
+- Ledger_Templates.txt
+
+## Unread Files
+- Next prompt batch not yet provided
+
+## High-Risk Files Requiring Re-read Later
+- None yet
+
+## Notes
+- Batch 1 only installs system rules and persistence files.
+- No story-content work should begin yet.
+
+==================================================
+5) OPTIONAL — CONFLICT_REGISTRY.md
+==================================================
+# CONFLICT_REGISTRY
+
+## Active Conflicts
+- None yet
+
+## Notes
+- Do not add guessed conflicts. Only record identified conflicts with source references.
+
+==================================================
+6) OPTIONAL — DUPLICATE_REGISTRY.md
+==================================================
+# DUPLICATE_REGISTRY
+
+## Active Duplicate Risks
+- None yet
+
+## Notes
+- Record duplicate risks only when source-backed units exist.
+
+==================================================
+7) OPTIONAL — CANON_DECISION_LOG.md
+==================================================
+# CANON_DECISION_LOG
+
+## Confirmed Decisions
+- None yet
+
+## Notes
+- Only author-approved or pre-existing canon decisions belong here.
+
+==================================================
+8) OPTIONAL — CHANGELOG_PENDING.md
+==================================================
+# CHANGELOG_PENDING
+
+## Pending Canon Write-back Items
+- None yet
+
+## Notes
+- This file should remain empty until later phases produce approved changes.

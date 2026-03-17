@@ -1,0 +1,53 @@
+MODE TO FILE MAP
+
+STORY_ROOM
+Long form:
+- Batch 2 / P2_Story_Room_Master.txt
+Activation:
+- Batch 4 / ACTIVATE_STORY_ROOM_SESSION.txt
+Short form:
+- Batch 5 / SHORT_ACTIVATE_STORY_ROOM.txt
+
+CANON_PIPELINE
+Long form:
+- Batch 2 / P3_Canon_Intake_Register_Sectioning.txt
+Activation:
+- Batch 4 / ACTIVATE_CANON_PIPELINE_SESSION.txt
+Short form:
+- Batch 5 / SHORT_ACTIVATE_CANON_PIPELINE.txt
+
+ATOM_GATE
+Long form:
+- Batch 3 / P4_Atom_Candidate_Extraction.txt
+- Batch 3 / P5_Author_Gate.txt
+Short form:
+- Batch 5 / SHORT_ACTIVATE_ATOM_GATE.txt
+
+WRITEBACK
+Long form:
+- Batch 3 / P6_Canon_Writeback_QA.txt
+Activation:
+- Batch 4 / ACTIVATE_WRITEBACK_SESSION.txt
+Short form:
+- Batch 5 / SHORT_ACTIVATE_WRITEBACK.txt
+
+RESUME_RECOVERY
+Long form:
+- Batch 3 / S2_Resume_Recovery.txt
+Activation:
+- Batch 4 / ACTIVATE_RESUME_EXISTING_PROJECT.txt
+Short form:
+- Batch 5 / SHORT_ACTIVATE_RESUME.txt
+
+UNIVERSAL_ROUTING
+Long form:
+- Batch 6 / UNIVERSAL_ACTIVATE_MASTER.txt
+- Batch 6 / AUTO_MODE_ROUTER.txt
+Task intake:
+- Batch 6 / ONE_SHOT_TASK_INTAKE.txt
+
+FOUNDATION
+Must-have:
+- Batch 1 / P1_Operating_Constitution.txt
+- Batch 1 / S1_Checkpoint_Ledger.txt
+- Batch 1 / Ledger_Templates.txt

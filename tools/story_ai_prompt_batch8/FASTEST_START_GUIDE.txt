@@ -1,0 +1,46 @@
+FASTEST START GUIDE
+
+If you want the least thinking and the safest default:
+
+CASE A — Normal creative discussion
+Upload:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_STORY_ROOM
+Then give your topic.
+
+CASE B — Organize docs
+Upload:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_CANON_PIPELINE
+Then give docs / file list.
+
+CASE C — Review atoms / duplicates / conflicts
+Upload:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_ATOM_GATE
+Then give candidate tables / sections / docs.
+
+CASE D — Resume after interruption
+Upload:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_RESUME
+Then give ledger status or existing files.
+
+CASE E — Official write-back
+Upload:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_WRITEBACK
+Only do this after approved decisions already exist.
+
+CASE F — Unsure what mode you need
+Upload:
+- Batch 1
+- Batch 6 UNIVERSAL_ACTIVATE_MASTER
+Then describe your current task.
+
+Safest serious setup
+If the task is important and long:
+- Batch 1
+- task-specific long prompt from Batch 2 or 3
+- activation prompt from Batch 4
+- Resume tools available if needed

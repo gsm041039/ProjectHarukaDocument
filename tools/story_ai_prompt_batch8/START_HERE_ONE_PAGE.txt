@@ -1,0 +1,81 @@
+START HERE — ONE PAGE ENTRY
+
+This system has TWO TRACKS:
+
+TRACK A — STORY ROOM
+Use when you want:
+- brainstorming
+- outline improvement
+- character arc work
+- theme / atmosphere / pacing pressure test
+- A/B question design
+- multi-axis story health monitoring
+
+TRACK B — CANON
+Use when you want:
+- document register
+- sectioning
+- source inventory
+- atom candidate extraction
+- duplicate / conflict review
+- author-gated canon decisions
+- write-back into canon files
+
+NON-NEGOTIABLE RULES
+- The AI must ask the author first before:
+  - resolving true contradictions
+  - finalizing atoms with judgment
+  - meaning-changing dedupe
+  - canonization
+  - write-back that changes project truth
+- The AI must not continue from memory alone after interruption.
+- The AI must update SESSION_LEDGER.md and NEXT_ACTION.md.
+
+MINIMUM SAFE FOUNDATION
+Always load Batch 1 first.
+
+THEN CHOOSE ONE:
+
+1) I want to think and develop ideas
+-> Story Room
+Best picks:
+- Batch 2 P2
+- Batch 4 ACTIVATE_STORY_ROOM_SESSION
+- or Batch 5 SHORT_ACTIVATE_STORY_ROOM
+
+2) I want to organize documents
+-> Canon Intake / Register / Sectioning
+Best picks:
+- Batch 2 P3
+- Batch 4 ACTIVATE_CANON_PIPELINE_SESSION
+- or Batch 5 SHORT_ACTIVATE_CANON_PIPELINE
+
+3) I want candidate atoms / duplicate / conflict review
+-> Atom Gate
+Best picks:
+- Batch 3 P4
+- Batch 3 P5
+- or Batch 5 SHORT_ACTIVATE_ATOM_GATE
+
+4) I want confirmed decisions written back into canon
+-> Write-back
+Best picks:
+- Batch 3 P6
+- Batch 4 ACTIVATE_WRITEBACK_SESSION
+- or Batch 5 SHORT_ACTIVATE_WRITEBACK
+
+5) I got interrupted / new chat / compressed context
+-> Resume first
+Best picks:
+- Batch 3 S2
+- Batch 4 ACTIVATE_RESUME_EXISTING_PROJECT
+- or Batch 5 SHORT_ACTIVATE_RESUME
+
+6) I do not know which mode I need
+-> Universal activation
+Best picks:
+- Batch 6 UNIVERSAL_ACTIVATE_MASTER
+- Batch 6 ONE_SHOT_TASK_INTAKE
+
+SIMPLE GOLDEN SEQUENCE
+Batch 1 -> choose mode -> do work -> keep ledger updated -> ask author before judgment-heavy decisions -> write back only after approval

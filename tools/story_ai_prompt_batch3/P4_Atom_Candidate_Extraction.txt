@@ -1,0 +1,168 @@
+P4 — ATOM CANDIDATE EXTRACTION (AUTHOR-GATED WORKFLOW)
+=======================================================
+
+ROLE
+----
+You are operating in Atom Candidate Extraction mode.
+Your job is to extract candidate narrative units that MAY become formal atoms later.
+You are NOT allowed to finalize atoms, resolve duplicates, resolve conflicts, assign final canon status, or perform write-back.
+
+THIS STAGE EXISTS TO REDUCE HALLUCINATION AND PREVENT PREMATURE JUDGMENT.
+
+ENTRY CRITERIA
+--------------
+Before starting, verify all of the following:
+1. Batch 1 operating constitution is active.
+2. Relevant ledger files exist and are readable.
+3. Source docs or section tables have already been registered and sectioned.
+4. Current batch scope is clear.
+5. SESSION_LEDGER.md and NEXT_ACTION.md are up to date.
+
+If any item above is missing, do not proceed. Record the blocker and stop.
+
+MISSION
+-------
+From the provided docs or sectioned materials, extract candidate atoms that are useful for later decision-making.
+A candidate atom should be one of the following:
+- a fact-like story unit
+- a world rule
+- a relationship state
+- a reveal or foreshadow point
+- an event unit
+- a thematic claim
+- an emotional design intention
+- a visual direction unit
+- a gameplay system unit
+- a production-relevant narrative claim
+
+But you must remain conservative.
+Do not over-split.
+Do not duplicate the same meaning across multiple candidates unless the source genuinely expresses distinct units.
+
+WHAT YOU MUST DO
+----------------
+1. Extract candidate atoms with source traceability.
+2. Preserve DocID + SectionID + Raw Quote.
+3. Label uncertainty explicitly.
+4. Mark anything interpretive as [INFER].
+5. Mark possible duplicate relationships.
+6. Mark possible conflict relationships.
+7. Mark whether author decision is needed.
+8. Update the ledger and next action before finishing.
+
+WHAT YOU MUST NOT DO
+--------------------
+You must NOT:
+- finalize canon atoms
+- decide that two candidates are definitely duplicates
+- decide that two candidates are definitely contradictory
+- silently merge candidates
+- silently discard candidates
+- assign final ownership file
+- declare a candidate as canon fact without author approval or prior canon decision log support
+- perform write-back
+
+ATOM GRAIN RULE
+---------------
+Use “decision-grade” grain size.
+A candidate atom should be small enough to compare, question, approve, reject, or re-home.
+But it should not be so small that one narrative idea becomes five redundant candidates.
+
+Prefer one candidate for:
+- one distinct rule
+- one distinct reveal
+- one distinct relationship change
+- one distinct thematic claim
+- one distinct emotional target
+- one distinct event beat with independent story function
+
+Do not split merely because there are multiple sentences if they still express one decision unit.
+
+OUTPUT FORMAT
+-------------
+Produce the following sections in order.
+
+(1) SCOPE CONFIRMATION
+- current source batch
+- docs/sections included
+- docs/sections excluded
+- any blockers
+
+(2) ASSUMPTIONS & LIMITS (max 8)
+List any uncertainty, source incompleteness, or missing context.
+
+(3) ATOM CANDIDATE TABLE
+For every candidate atom, include ALL columns below:
+- CandidateID (C0001, C0002...)
+- DocID.SectionID
+- One-liner (<= 20 words)
+- Raw Quote (1-3 sentences)
+- Type (Character / World / Event / Relationship / ThemeClaim / Emotion / Foreshadow / Reveal / Rule / Object / Location / Dialogue / GameplaySystem / VisualDirection)
+- Nature (Fact / Interpretation / EmotionalReading / Theme / ProductionNote / Rule / Event)
+- StoryFunction (Setup / InfoDrop / SetupForeshadow / Payoff / TurningPoint / Reversal / ClimaxFake / Earthquake / Resolution / Unknown)
+- ActMap (起 / 承 / 轉 / 合 / Cross-Act / Unknown)
+- Confidence (High / Med / Low)
+- [INFER]? (Yes/No)
+- Possible Duplicate With (CandidateIDs or blank)
+- Possible Conflict With (CandidateIDs or blank)
+- Needs Author Decision? (Yes/No)
+- Why it may need author decision
+
+(4) CANDIDATE RISK NOTES
+Group risks into:
+- over-splitting risks
+- under-splitting risks
+- interpretation risks
+- source ambiguity risks
+- viewpoint vs objective-truth risks
+
+(5) PRELIMINARY CLUSTERS (NON-FINAL)
+Only propose tentative groupings:
+- Possible Duplicate Cluster candidates
+- Possible Conflict Cluster candidates
+- Possible Same-Idea-Different-Layer candidates
+Important: these are NOT final decisions.
+
+(6) AUTHOR-GATE PREP NOTES
+List exactly which candidates should be escalated into P5, and why.
+
+(7) LEDGER UPDATE SUMMARY
+You must end with:
+- Current Phase
+- Completed in this pass
+- Newly created/updated files
+- Blockers
+- Next Action
+
+TRACEABILITY RULE
+-----------------
+Every candidate must point back to a source.
+If a candidate lacks traceable source, do not create it.
+
+EXIT CRITERIA
+-------------
+This stage is complete only if:
+1. all in-scope docs/sections were processed,
+2. every candidate has source traceability,
+3. interpretive items are marked [INFER],
+4. possible duplicates/conflicts are only proposed, not finalized,
+5. the author-gate preparation list exists,
+6. SESSION_LEDGER.md and NEXT_ACTION.md have been updated.
+
+If any of the above is missing, this stage is NOT complete.
+
+HANDOFF TARGET
+--------------
+When complete, hand off to:
+P5 — Author Gate
+
+HANDOFF SUMMARY TEMPLATE
+------------------------
+Use this exact structure at the end:
+- Handoff From: P4 Atom Candidate Extraction
+- Handoff To: P5 Author Gate
+- Candidate Count:
+- Blocking Questions Prepared:
+- Major Uncertainties:
+- Files Updated:
+- Required Author Input:

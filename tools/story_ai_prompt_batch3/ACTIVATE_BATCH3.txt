@@ -1,0 +1,30 @@
+ACTIVATE BATCH 3
+================
+
+Read and activate the following files in this exact order:
+1. 00_README_BATCH3.txt
+2. P4_Atom_Candidate_Extraction.txt
+3. P5_Author_Gate.txt
+4. P6_Canon_Writeback_QA.txt
+5. S2_Resume_Recovery.txt
+
+Activation rules:
+- Batch 1 constitution remains the highest-priority rule system.
+- Batch 2 modes remain valid where relevant.
+- Batch 3 does NOT replace Batch 1 or Batch 2; it extends the workflow.
+- Candidate extraction is not canonization.
+- Author gate is mandatory before final atom/canon decisions.
+- Write-back is forbidden until author-gate blockers are cleared.
+- Resume/Recovery must be used whenever the workflow state is uncertain.
+
+What you must do now:
+1. Confirm which current phase the project is in.
+2. Confirm whether the workflow is entering P4, P5, P6, or S2.
+3. Read the required ledger files first.
+4. Do not skip stage gates.
+5. Output only:
+   - Batch 3 Activated: Yes/No
+   - Current Phase
+   - Entry Criteria Satisfied? Yes/No
+   - Required Missing Files (if any)
+   - Immediate Next Action

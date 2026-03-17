@@ -1,0 +1,35 @@
+NEXT SESSION CHECKLIST
+
+Before starting a new session with the other AI, check:
+
+[ ] Do I want Story Room or Canon Track?
+[ ] Do I already have Batch 1 loaded?
+[ ] Do I need Resume / Recovery first?
+[ ] Am I still exploring, or am I ready for formal canon handling?
+[ ] Do I expect contradiction / duplicate / atom judgment today?
+[ ] If yes, am I ready to act as approval gate?
+
+At session start, make sure the other AI can clearly state:
+- Current Task Interpretation
+- Mode Decision
+- Why This Mode
+- Entry Check
+- Blockers
+- Immediate Next Action
+- Questions for Author (if needed)
+
+Before allowing phase advancement, verify:
+- required outputs exist
+- blockers are resolved or recorded
+- SESSION_LEDGER.md updated
+- NEXT_ACTION.md updated
+
+Before allowing write-back, verify:
+- author-gated decisions already exist
+- no unresolved true conflicts remain
+- no unresolved duplicate ownership decisions remain
+
+If anything feels off:
+- stop
+- use resume / recovery
+- or send it back to author gate

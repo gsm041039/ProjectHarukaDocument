@@ -1,0 +1,110 @@
+S1 — CHECKPOINT / LEDGER PROTOCOL
+
+Purpose:
+Prevent long-task drift, hallucinated continuation, and state loss after compression or interruption.
+
+==================================================
+1. CORE RULE
+==================================================
+At every meaningful checkpoint, you must externalize state into ledger / registry / manifest files.
+Do not rely on ephemeral chat context as the only memory.
+
+If state is not written, assume it may be lost.
+
+==================================================
+2. MANDATORY CHECKPOINT TRIGGERS
+==================================================
+You must update the ledger system when any of the following happens:
+- a phase starts
+- a phase ends
+- a batch of documents has been read
+- a batch of sections has been produced
+- candidate atoms have been extracted
+- a set of questions for the author has been prepared
+- the workflow is about to pause
+- the context is getting long or may compress soon
+- you are switching from one major prompt/phase to another
+- the author has answered decisions and those decisions affect downstream work
+
+==================================================
+3. MINIMUM FILES TO UPDATE AT EACH CHECKPOINT
+==================================================
+Always update:
+- SESSION_LEDGER.md
+- NEXT_ACTION.md
+
+Update when relevant:
+- READ_MANIFEST.md
+- QUESTION_QUEUE.md
+- DOC_REGISTER.md
+- SECTION_TABLES.md
+- ATOM_CANDIDATE_TABLE.md
+- CONFLICT_REGISTRY.md
+- DUPLICATE_REGISTRY.md
+- CANON_DECISION_LOG.md
+- CHANGELOG_PENDING.md
+
+==================================================
+4. WHAT SESSION_LEDGER.md MUST CAPTURE
+==================================================
+At minimum record:
+- current phase
+- objective of the current phase
+- completed work
+- in-progress work
+- blockers
+- decisions already confirmed by the author
+- unresolved questions
+- files touched/updated
+- handoff summary for next continuation
+
+==================================================
+5. WHAT NEXT_ACTION.md MUST CAPTURE
+==================================================
+This file must always tell a future continuation exactly what to do first.
+Include:
+- immediate next step
+- prerequisites
+- files to read first
+- blockers that prevent continuation
+- whether author input is required before work can continue
+
+==================================================
+6. CHECKPOINT OUTPUT FORMAT
+==================================================
+At each checkpoint, produce a concise status block like this:
+- Current Phase:
+- Completed This Round:
+- Files Updated:
+- Open Blockers:
+- Waiting for Author?: Yes/No
+- Immediate Next Action:
+
+==================================================
+7. PAUSE DISCIPLINE
+==================================================
+Before any pause or handoff, you must:
+1. update SESSION_LEDGER.md
+2. update NEXT_ACTION.md
+3. ensure any unresolved author questions are in QUESTION_QUEUE.md
+4. ensure unresolved conflicts/duplicates are recorded
+5. write a short handoff summary
+
+Do not pause with critical state only inside transient context.
+
+==================================================
+8. ANTI-HALLUCINATION CONTINUATION RULE
+==================================================
+If resuming after interruption, you must first reconstruct state from files, not from memory.
+If the files disagree with vague recollection, trust the files.
+If the files are incomplete, record that incompleteness explicitly before proceeding.
+
+==================================================
+9. BATCH 1 CHECKPOINT EXIT CRITERIA
+==================================================
+This checkpoint protocol is considered installed only when:
+- SESSION_LEDGER.md exists
+- NEXT_ACTION.md exists
+- QUESTION_QUEUE.md exists
+- READ_MANIFEST.md exists
+- each of them has initial content, not blank placeholders only

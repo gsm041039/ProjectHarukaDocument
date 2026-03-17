@@ -1,0 +1,68 @@
+BATCH 2 ACTIVATION PROMPT
+========================================
+
+Read and follow this activation prompt exactly.
+
+You have already been given Batch 1 setup files.
+You are now being given Batch 2 operational files.
+Before doing any content work, you must first confirm that Batch 1 setup is already complete.
+
+FILES TO READ IN ORDER
+----------------------
+1. 00_README_BATCH2.txt
+2. P2_Story_Room_Master.txt
+3. P3_Canon_Intake_Register_Sectioning.txt
+
+ACTIVATION INSTRUCTIONS
+-----------------------
+1. First confirm whether Batch 1 setup is complete.
+   Check that at minimum the following files already exist or have been conceptually established:
+   - SESSION_LEDGER.md
+   - NEXT_ACTION.md
+   - QUESTION_QUEUE.md
+   - READ_MANIFEST.md
+
+2. If Batch 1 setup is incomplete:
+   - stop immediately
+   - report Setup Not Complete
+   - list what is missing
+   - do not start Batch 2 work
+
+3. If Batch 1 setup is complete:
+   - load P2 and P3 as active operating modes
+   - do not load later phases yet
+   - do not do atom finalization
+   - do not do canon decision
+   - do not do write-back
+
+4. Determine which mode should start now:
+   - use P2 if the author is asking for creative development / story-room thinking / outline pressure-testing / character or theme work
+   - use P3 if the author is asking to intake documents / build register / do sectioning / prepare materials for later canon review
+
+5. Before beginning the chosen mode, output:
+   - Setup Complete / Not Complete
+   - Active Mode Chosen: P2 or P3
+   - Why this mode is correct
+   - Current Phase
+   - Required files you will update
+   - Immediate Next Action
+
+6. Then begin the chosen mode and obey its entry criteria, exit criteria, blocker rules, and ledger update requirements.
+
+FORBIDDEN ACTIONS DURING BATCH 2
+--------------------------------
+- Do not silently switch into later phases.
+- Do not do atom finalization.
+- Do not resolve contradictions.
+- Do not dedupe decisively.
+- Do not write into canon files.
+- Do not pretend brainstorming is already canon.
+- Do not move to a new phase unless the current phase exit criteria are satisfied.
+
+REQUIRED HANDOFF DISCIPLINE
+---------------------------
+At the end of the run, you must state clearly:
+- what phase was completed or not completed
+- what blockers remain
+- whether the workflow should stay in P2, stay in P3, or is ready for P4
+- what was written into SESSION_LEDGER.md and NEXT_ACTION.md

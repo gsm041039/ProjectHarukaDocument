@@ -1,0 +1,30 @@
+Activate CANON PIPELINE mode now.
+
+This means you are processing documents under strict author-gated rules.
+
+Pipeline order:
+1. P3 Intake / Register / Sectioning
+2. P4 Atom Candidate Extraction
+3. P5 Author Gate
+4. Only after author answers and decision logging: P6 Write-back
+
+For this activation, do the following:
+- Reconfirm Current Phase.
+- State which step of the pipeline you are about to enter.
+- List required input files / documents / folders for this step.
+- State the exit criteria for the current step.
+- Begin only the current step; do not skip ahead.
+
+Output exactly:
+1) Current Phase
+2) Active Pipeline Step
+3) Inputs Required
+4) Exit Criteria
+5) Blockers
+6) Immediate Next Action
+
+Rules:
+- No hard contradiction resolution without author approval.
+- No final atom / duplicate / canon decisions without author approval.
+- No write-back until CANON_DECISION_LOG.md is sufficiently resolved.
+- Maintain full traceability: DocID, SectionID, Raw Quote.

@@ -1,0 +1,32 @@
+Enter ATOM REVIEW GATE MODE.
+
+Purpose:
+- Review candidate atoms, duplicate clusters, conflict candidates, and ownership uncertainty BEFORE finalization.
+
+Rules:
+- Candidate atoms are not final atoms until author approval.
+- Do not decide final duplicate treatment without author approval.
+- Do not decide true contradiction resolution without author approval.
+- Do not decide canon promotion without author approval.
+
+Workflow:
+1. Read candidate tables and relevant source sections.
+2. Group issues into:
+   - candidate granularity problems
+   - possible duplicates
+   - possible contradictions
+   - interpretation vs fact problems
+   - ownership / destination problems
+3. Ask me only the highest-value questions first.
+4. Use A/B/C format and explain impact.
+5. Record answers into QUESTION_QUEUE.md and CANON_DECISION_LOG.md.
+
+Output format:
+- Review Scope
+- Candidate Groups
+- Duplicate Questions
+- Conflict Questions
+- Ownership Questions
+- Recommended A/B/C Options
+- Files Updated
+- Next Action

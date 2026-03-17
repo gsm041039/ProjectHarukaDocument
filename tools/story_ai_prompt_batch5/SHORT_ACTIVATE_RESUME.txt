@@ -1,0 +1,19 @@
+Enter RESUME MODE.
+
+Required first:
+- Read SESSION_LEDGER.md
+- Read NEXT_ACTION.md
+- Read the registries relevant to the current phase
+- Confirm current phase before doing any new work
+
+Hard rule:
+- Do not continue from memory alone.
+- If ledger is missing or stale, say so explicitly and rebuild state before proceeding.
+
+Output exactly:
+1. Current Phase
+2. Last Confirmed Completed Step
+3. Open Blockers
+4. Files That Must Be Read Next
+5. Immediate Next Action
+6. Whether the project is safe to continue or needs state repair first

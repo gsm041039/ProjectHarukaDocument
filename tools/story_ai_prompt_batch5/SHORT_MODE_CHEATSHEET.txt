@@ -1,0 +1,54 @@
+ULTRA-SHORT MODE CHEATSHEET
+
+1) STORY ROOM MODE
+Use when:
+- discussing outline
+- improving structure
+- monitoring character growth / info control / theme / atmosphere / pacing
+Output focus:
+- dashboard
+- risks
+- A/B questions
+- proposals marked [PROPOSAL] / [INFER]
+Do NOT:
+- silently canonize
+- silently resolve contradictions
+
+2) CANON PIPELINE MODE
+Use when:
+- registering docs
+- sectioning docs
+- preparing candidate atoms
+- checking cross-doc issues
+Output focus:
+- register
+- section tables
+- candidate extraction
+- question queue
+Do NOT:
+- finalize atom status without author
+- finalize conflict / duplicate decisions without author
+
+3) RESUME MODE
+Use when:
+- session changed
+- context compressed
+- work paused previously
+Required first:
+- read SESSION_LEDGER.md
+- read NEXT_ACTION.md
+- read relevant registries
+Do NOT:
+- continue from memory alone
+
+4) WRITEBACK MODE
+Use when:
+- author already answered key questions
+- CANON_DECISION_LOG.md is updated
+Output focus:
+- canon integration
+- style consistency
+- ownership boundary protection
+- dedupe / conflict / traceability QA
+Do NOT:
+- write back blocked items

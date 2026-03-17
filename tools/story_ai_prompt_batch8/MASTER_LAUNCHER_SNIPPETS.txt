@@ -1,0 +1,47 @@
+MASTER LAUNCHER SNIPPETS
+
+1) QUICK STORY ROOM LAUNCH
+Read the loaded operating prompts and activate STORY ROOM mode for this request.
+Do not canonize anything.
+Ask me A/B/C questions where judgment is needed.
+Keep SESSION_LEDGER.md and NEXT_ACTION.md updated.
+Current topic:
+[PASTE TOPIC]
+
+2) QUICK CANON PIPELINE LAUNCH
+Read the loaded operating prompts and activate CANON PIPELINE mode for this request.
+Do doc register and sectioning first.
+Do not finalize atoms, dedupe, contradictions, or canon decisions without asking me first.
+Materials:
+[PASTE DOCS / FILE LIST]
+
+3) QUICK ATOM GATE LAUNCH
+Read the loaded operating prompts and activate ATOM GATE mode for this request.
+Extract or review candidate atoms only.
+Do not finalize duplicates, contradictions, or canon truth without asking me first.
+Materials:
+[PASTE SECTIONS / CANDIDATE TABLES / DOCS]
+
+4) QUICK WRITEBACK LAUNCH
+Read the loaded operating prompts and activate WRITEBACK mode for this request.
+Only use already-approved decisions.
+Preserve file style and ownership boundaries.
+Keep zero duplicate main content.
+Materials / decisions:
+[PASTE DECISION LOG / CHANGE REQUESTS]
+
+5) QUICK RESUME LAUNCH
+Read the loaded operating prompts and activate RESUME / RECOVERY mode for this project.
+Do not continue from memory.
+Read SESSION_LEDGER.md, NEXT_ACTION.md, and relevant registries first.
+Then tell me:
+- current phase
+- last confirmed completed step
+- blockers
+- immediate next action
+
+6) QUICK UNIVERSAL LAUNCH
+Read the loaded operating prompts and activate UNIVERSAL ROUTING mode for this request.
+First decide the correct primary mode, then stop for confirmation before doing unsafe work.
+Current request:
+[PASTE REQUEST]

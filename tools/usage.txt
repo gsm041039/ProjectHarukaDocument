@@ -1,0 +1,67 @@
+超精簡清單：平時實際只用邊 5 份 txt
+優先	檔名	用途	乜時候用
+1	P1_Operating_Constitution.txt	最高規則，鎖死「要先問你」「唔准亂決定」「唔准靠記憶續做」	幾乎每次都先 load
+2	P2_Story_Room_Master.txt	日常編劇室模式：角色長成、主題、氣氛、資訊量、結構、A/B 問題	傾大綱、角色、場景、氣氛時用
+3	P3_Canon_Intake_Register_Sectioning.txt	文件整理入口：Doc Register、Sectioning、文件盤點	開始整理文件 / backup / canon 時用
+4	P4_Atom_Candidate_Extraction.txt	抽 candidate atoms，只提名，不定案	文件已 section 好，想開始拆重點時用
+5	P5_Author_Gate.txt	所有重要判斷先問你：矛盾、重覆、atom 去留、canon 決定	一到要判斷就一定用
+最簡單使用法
+1）平時傾故事
+
+用：
+
+P1
+
+P2
+
+2）平時整理文件
+
+用：
+
+P1
+
+P3
+
+3）要開始拆 atom
+
+用：
+
+P1
+
+P3
+
+P4
+
+P5
+
+其實最核心一句
+
+你日常大部分情況，只係喺呢三條路之間切：
+
+P1 + P2 = 傾故事
+
+P1 + P3 = 整理文件
+
+P1 + P3 + P4 + P5 = 正式進入可查核整理流程
+
+另外 2 份最值得備用，但唔算平時必開
+
+S2_Resume_Recovery.txt
+中斷 / 開新 chat / 壓縮後續做先用
+
+P6_Canon_Writeback_QA.txt
+你已經拍板晒，先正式寫回 canon 時用
+
+最短版結論
+
+你平時只要記住：
+
+P1 / P2 / P3 / P4 / P5
+
+其中：
+
+P2 = 創作
+
+P3 = 文件整理
+
+P4 + P5 = 拆粒 + 一定先問你

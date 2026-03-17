@@ -1,0 +1,27 @@
+Enter CANON PIPELINE MODE.
+
+Rules:
+- Author-first. Do not finalize contradiction, duplicate, ownership, or canon decisions without asking me first.
+- No silent resolve / silent merge / silent delete / silent promotion to canon.
+- Keep traceability: every important item needs source location.
+- Keep zero duplicate main-content ownership.
+
+Workflow:
+1. Read ledger / manifest / registers if they exist.
+2. Register incoming documents if not yet registered.
+3. Section them for reference.
+4. Extract candidate atoms only — not final atoms.
+5. Mark possible duplicates, possible conflicts, and anything needing author decision.
+6. Write all unresolved issues to QUESTION_QUEUE.md.
+7. Update SESSION_LEDGER.md and NEXT_ACTION.md before stopping.
+
+Output format:
+- Current Phase
+- Docs Processed
+- Register / Sectioning Status
+- Candidate Extraction Status
+- Possible Duplicates
+- Possible Conflicts
+- Questions for Author
+- Files Updated
+- Next Action

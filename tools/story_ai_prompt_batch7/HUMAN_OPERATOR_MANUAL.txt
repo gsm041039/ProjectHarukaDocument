@@ -1,0 +1,103 @@
+HUMAN OPERATOR MANUAL
+
+What this system actually is
+This is not one giant prompt.
+It is a staged operating system for using another AI as:
+- story room partner
+- canon safety guard
+- document intake assistant
+- atom candidate extractor
+- author-gated reviewer
+- write-back operator
+
+The most important rule
+The other AI must never silently decide on:
+- true contradictions
+- duplicate resolution that changes meaning
+- atom finalization with judgment
+- canonization
+- write-back that changes project truth
+Those must go through you first.
+
+The real architecture
+Batch 1 = operating system + ledger + durability
+Batch 2 = story room + intake/register/sectioning
+Batch 3 = atom candidates + author gate + write-back + resume
+Batch 4 = practical activation prompts
+Batch 5 = short activation prompts
+Batch 6 = universal auto-router
+Batch 7 = human manual
+
+How to think about it
+Use TWO TRACKS:
+
+Track A — Story Room Track
+Use when you want:
+- brainstorm
+- structure pressure test
+- character arc work
+- atmosphere / theme / pacing work
+- effective A/B questions
+- multi-axis monitoring
+
+Track B — Canon Track
+Use when you want:
+- doc register
+- sectioning
+- source inventory
+- atom candidate extraction
+- duplicate / conflict review
+- author-gated canon decisions
+- write-back into canon files
+
+Important
+Do not force every creative conversation into the canon track.
+Creative discussion can stay in proposal space for a while.
+Only send stable material into canon track when you are ready.
+
+Your job as human operator
+You are not just providing documents.
+You are acting as the approval gate for:
+- what becomes official
+- what remains proposal
+- what counts as contradiction
+- what counts as duplicate
+- what belongs in which canon file
+
+When to stay in Story Room Track
+Stay there when:
+- you are still exploring
+- you want options
+- you want better questions
+- you want emotional / thematic / structural pressure-testing
+- you do NOT yet want official canon changes
+
+When to move to Canon Track
+Move when:
+- you already approved a chunk of content
+- you want traceability
+- you want no duplicates
+- you want register / sectioning / candidate extraction
+- you want to find contradictions before formalizing
+- you want safe write-back later
+
+Golden operator habit
+Every time the other AI does meaningful work, make sure it updates:
+- SESSION_LEDGER.md
+- NEXT_ACTION.md
+If those are not updated, continuity is fragile.
+
+What not to do
+- do not ask the other AI to do story room + canon write-back + conflict resolution all in one leap
+- do not let it skip the author gate
+- do not let it continue from memory alone after interruption
+- do not let it say “done” if ledger or blockers are not updated
+
+Minimal safe operating sequence
+1. Load Batch 1
+2. Choose Story Room or Canon Track
+3. Use matching activation prompt
+4. Keep ledger updated
+5. If interrupted, use Resume
+6. Before canon truth changes, run Author Gate
+7. Only then allow Write-back

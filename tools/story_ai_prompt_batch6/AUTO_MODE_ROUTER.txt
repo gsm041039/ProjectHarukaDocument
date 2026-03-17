@@ -1,0 +1,30 @@
+AUTO MODE ROUTER
+
+Use this when a user request is ambiguous and you must decide the correct working mode.
+
+Decision tree
+
+A. Is the user mainly asking to think, compare, develop, improve, pressure-test, or expand story ideas?
+-> STORY_ROOM
+
+B. Is the user mainly asking to inspect, register, section, sort, track, or map documents?
+-> CANON_PIPELINE
+
+C. Is the user mainly asking to identify candidate atoms, possible duplicates, possible conflicts, or determine what must be asked before atom/canon finalization?
+-> ATOM_GATE
+
+D. Is the user mainly asking to update the actual canon files based on already approved decisions?
+-> WRITEBACK
+
+E. Is the user continuing from an earlier interrupted session or a compressed context?
+-> RESUME_RECOVERY
+
+Conflict between modes
+- If creative development is primary and doc work is secondary -> choose STORY_ROOM first
+- If source control / canon safety is primary -> choose CANON_PIPELINE first
+- If atom / duplicate / conflict decisions are the active bottleneck -> choose ATOM_GATE first
+- If actual file updates are requested and approvals already exist -> choose WRITEBACK
+- If state continuity is uncertain -> choose RESUME_RECOVERY before all else
+
+Do not multi-mode jump in one step unless the author explicitly asks for a combined workflow.
+Pick one primary mode, state the others as secondary, and explain the phase gate.

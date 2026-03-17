@@ -1,0 +1,32 @@
+You have already been given the Story AI operating prompts. Activate NEW PROJECT mode now.
+
+Your job in this activation:
+1. Reconfirm P1 Operating Constitution as highest priority.
+2. Create or initialize all required ledger / registry / manifest files.
+3. Set Current Phase to PROJECT SETUP.
+4. Do NOT start atomization, canon decision, or write-back yet.
+5. Ask the author only the minimum startup questions needed to begin safely.
+
+Required actions:
+- Read and apply Batch 1, Batch 2, Batch 3 rules.
+- Initialize at minimum:
+  - SESSION_LEDGER.md
+  - NEXT_ACTION.md
+  - QUESTION_QUEUE.md
+  - READ_MANIFEST.md
+  - DOC_REGISTER.md (empty if no docs yet)
+  - CONFLICT_REGISTRY.md
+  - DUPLICATE_REGISTRY.md
+  - CANON_DECISION_LOG.md
+- Output exactly these sections:
+  1) Setup Status
+  2) Files Initialized
+  3) Current Phase
+  4) Minimal Startup Questions
+  5) Next Action
+
+Rules:
+- Keep questions minimal and high-value.
+- Do not assume canon.
+- Do not generate story facts unless clearly marked [PROPOSAL] or [INFER].
+- If the author has not yet provided source documents, outline, or current goals, ask for them in a compact, structured way.

@@ -1,0 +1,52 @@
+FAILURE RECOVERY GUIDE
+
+Problem 1 — The other AI starts making canon decisions on its own
+What you do:
+- stop it
+- remind it that contradictions / duplicates / atom finalization / canonization require author approval
+- send it back to Author Gate
+Useful command:
+"Stop. You are making an unauthorized decision. Move this item into QUESTION_QUEUE.md and ask me in A/B/C format first."
+
+Problem 2 — It jumps from story room straight to write-back
+What you do:
+- stop it
+- ask for phase verification
+Useful command:
+"Do not jump phases. Verify entry criteria, exit criteria, blockers, and handoff summary before any write-back."
+
+Problem 3 — It forgets what was done before
+What you do:
+- invoke resume / recovery
+Useful command:
+"Do not continue from memory. Read SESSION_LEDGER.md, NEXT_ACTION.md, and relevant registries first, then restate current phase and next safe action."
+
+Problem 4 — It says 'done' but no ledger updated
+What you do:
+- reject completion
+Useful command:
+"This phase is not complete. Update SESSION_LEDGER.md and NEXT_ACTION.md, then restate blockers and handoff status."
+
+Problem 5 — It hallucinates source facts
+What you do:
+- force traceability check
+Useful command:
+"Do not state this as canon truth without DocID, SectionID, Raw Quote, or an explicit author decision."
+
+Problem 6 — It produces too much duplicated content
+What you do:
+- route it to duplicate review
+Useful command:
+"Do not keep parallel ownership. Identify the single responsible file, convert all others to mention/link only, and ask me before any meaning-changing dedupe."
+
+Problem 7 — It asks too many chaotic questions
+What you do:
+- force batching and prioritization
+Useful command:
+"Rebatch your questions. Ask only the highest-impact blockers first, in A/B/C format, with impact notes."
+
+Problem 8 — It mixes proposal with canon
+What you do:
+- force label hygiene
+Useful command:
+"Separate [PROPOSAL], [INFER], and canon-confirmed content. Do not merge them."

@@ -1,0 +1,62 @@
+MINIMUM UPLOAD COMBOS
+
+These are the minimum practical combinations, not the maximum ideal combinations.
+
+1) Small everyday story discussion
+Use:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_STORY_ROOM
+Optional:
+- Batch 2 P2 if you want the full long form
+
+2) Serious story room / outline restructuring session
+Use:
+- Batch 1
+- Batch 2 P2
+- Batch 4 ACTIVATE_STORY_ROOM_SESSION
+Optional:
+- Batch 6 UNIVERSAL_ACTIVATE_MASTER
+
+3) New document intake session
+Use:
+- Batch 1
+- Batch 2 P3
+- Batch 4 ACTIVATE_CANON_PIPELINE_SESSION
+
+4) Candidate atom / duplicate / conflict review
+Use:
+- Batch 1
+- Batch 3 P4
+- Batch 3 P5
+Or short version:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_ATOM_GATE
+
+5) Official canon write-back
+Use:
+- Batch 1
+- Batch 3 P6
+- Batch 4 ACTIVATE_WRITEBACK_SESSION
+Important:
+- only after author-gated decisions already exist
+
+6) Resume interrupted project
+Use:
+- Batch 1
+- Batch 3 S2
+- Batch 4 ACTIVATE_RESUME_EXISTING_PROJECT
+Or short version:
+- Batch 1
+- Batch 5 SHORT_ACTIVATE_RESUME
+
+7) One-shot unsure what mode to use
+Use:
+- Batch 1
+- Batch 6 UNIVERSAL_ACTIVATE_MASTER
+- Optional ONE_SHOT_TASK_INTAKE
+
+Best practice
+The real minimum is almost always:
+- Batch 1
+- one task-specific activator
+Anything less becomes risky for long tasks.

@@ -1,0 +1,41 @@
+QUICK DECISION TREE
+
+Q1. Are you mainly trying to THINK, EXPLORE, IMPROVE, OR COMPARE story ideas?
+-> Use STORY ROOM
+Recommended:
+- Batch 1 loaded
+- Batch 2 P2 or Batch 4/5 short activator
+- Optional Batch 6 universal activation
+
+Q2. Are you mainly trying to SORT, REGISTER, SECTION, OR MAP documents?
+-> Use CANON INTAKE / REGISTER / SECTIONING
+Recommended:
+- Batch 1 loaded
+- Batch 2 P3 or Batch 4/5 canon activator
+
+Q3. Are you mainly trying to extract candidate atoms or inspect possible duplicate/conflict clusters?
+-> Use ATOM CANDIDATE + AUTHOR GATE
+Recommended:
+- Batch 1 loaded
+- Batch 3 P4 + P5
+- Or Batch 5 short atom gate activator
+
+Q4. Have you ALREADY approved the decisions and now want actual canon files updated?
+-> Use WRITEBACK
+Recommended:
+- Batch 1 loaded
+- Batch 3 P6
+- Or Batch 4/5 writeback activator
+
+Q5. Was the previous session interrupted, compressed, or moved to a new chat?
+-> Use RESUME / RECOVERY FIRST
+Recommended:
+- Batch 1 loaded
+- Batch 3 S2
+- Or Batch 4/5 resume activator
+
+Rule of thumb
+If you are unsure:
+- use Batch 6 universal activation
+- let the AI choose a primary mode
+- but still do not allow unsafe phase jumps

@@ -1,0 +1,75 @@
+WORKFLOW PLAYBOOKS
+
+PLAYBOOK A — Daily Story Room Session
+Use when you want to develop ideas without formal canon lock-in.
+
+Steps
+1. Load Batch 1
+2. Activate Story Room (Batch 2 P2 or Batch 4/5 short activator)
+3. Give current question / scene / structure problem
+4. Require:
+   - story dashboard
+   - current risks
+   - A/B questions
+   - proposal vs infer labels
+   - candidates for later canonization
+5. Answer its questions
+6. Stay in story room until you approve stable material
+7. If a stable chunk emerges, later transfer it into canon track
+
+PLAYBOOK B — Document Intake
+Use when you have documents and want structure before deep judgment.
+
+Steps
+1. Load Batch 1
+2. Activate Canon Intake/Register/Sectioning
+3. Give docs
+4. Require:
+   - doc register
+   - read manifest updates
+   - section tables
+   - initial cross-doc alerts
+5. Only after that move to candidate extraction
+
+PLAYBOOK C — Atom Candidate Review
+Use when source materials are already sectioned and you want decision-grade candidate units.
+
+Steps
+1. Load Batch 1
+2. Activate Batch 3 P4
+3. Generate atom candidates only
+4. Do NOT finalize
+5. Then activate Batch 3 P5
+6. Make the AI ask you:
+   - which candidates merge
+   - which are duplicates
+   - which are true conflicts
+   - which remain proposal only
+7. Record your answers in CANON_DECISION_LOG.md
+
+PLAYBOOK D — Write-back
+Use only after decisions are already approved.
+
+Steps
+1. Confirm decision log exists
+2. Activate Batch 3 P6
+3. Require:
+   - style-safe integration
+   - ownership-safe placement
+   - zero duplicate main content
+   - QA outputs
+4. Make sure ledger and changelog are updated
+
+PLAYBOOK E — Resume After Break
+Steps
+1. Load Batch 1 + Resume tools
+2. Require the AI to read:
+   - SESSION_LEDGER.md
+   - NEXT_ACTION.md
+   - relevant registries
+3. Ask it to output:
+   - current phase
+   - last confirmed completed step
+   - blockers
+   - immediate next action
+4. Only then continue work

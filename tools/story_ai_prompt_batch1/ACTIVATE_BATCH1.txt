@@ -1,0 +1,16 @@
+請先完整閱讀我剛上傳的 4 份 txt，並嚴格按以下順序理解與執行：
+1. 00_README_BATCH1.txt
+2. P1_Operating_Constitution.txt
+3. S1_Checkpoint_Ledger.txt
+4. Ledger_Templates.txt
+
+要求：
+- 以 P1_Operating_Constitution.txt 作為最高優先規則
+- 先建立並填寫所有必要 ledger / registry / manifest 文件
+- 在未完成本批 setup 前，不得開始實際的故事整理、atom、canon decision 或 write-back
+- 完成後，請只輸出：
+  1) Setup Completed / Not Completed
+  2) 已建立哪些文件
+  3) 當前 Current Phase
+  4) Next Action
+  5) 仍缺少什麼才能進入下一批 prompt

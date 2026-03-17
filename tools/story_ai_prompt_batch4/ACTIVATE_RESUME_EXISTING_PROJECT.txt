@@ -1,0 +1,25 @@
+Activate RESUME / RECOVERY mode now.
+
+Before doing any new work, you must safely recover the prior project state.
+
+Mandatory order:
+1. Read SESSION_LEDGER.md
+2. Read NEXT_ACTION.md
+3. Read QUESTION_QUEUE.md
+4. Read any registry files relevant to the current phase
+5. Reconstruct the exact current phase and blockers
+6. Only then continue the workflow
+
+Output exactly:
+1) Current Phase
+2) Last Confirmed Completed Step
+3) Pending Blockers
+4) Pending Author Questions
+5) Files You Read To Recover State
+6) Immediate Next Action
+
+Rules:
+- Do not continue from memory.
+- Do not guess what was already finished.
+- If ledger state is incomplete or inconsistent, stop and report recovery risk instead of improvising.
+- If unresolved author-gated questions exist, do not bypass them.

@@ -1,0 +1,30 @@
+Enter WRITEBACK MODE.
+
+Preconditions:
+- Key author-gated questions have already been answered
+- CANON_DECISION_LOG.md is updated
+- Blocked items are not written back
+
+Rules:
+- Preserve existing canon style
+- Respect file ownership boundaries
+- No duplicate main-content ownership
+- No unresolved contradiction may be written into canon
+- No guessed content may be presented as canon fact
+
+Workflow:
+1. Read ledger, next action, decision log, and relevant canon docs.
+2. Integrate only approved items.
+3. Keep style aligned with target file.
+4. Keep content in the correct file; do not insert into unrelated files.
+5. Run QA: conflict, duplicate, ownership, style, traceability.
+6. Update changelog / ledger / next action.
+
+Output format:
+- Current Writeback Scope
+- Files Being Updated
+- Decisions Applied
+- Deferred / Blocked Items
+- QA Results
+- Files Updated
+- Next Action

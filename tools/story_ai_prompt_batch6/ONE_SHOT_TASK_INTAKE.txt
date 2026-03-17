@@ -1,0 +1,25 @@
+ONE-SHOT TASK INTAKE TEMPLATE
+
+Use this as the first message when starting a new task with the other AI.
+
+Read the previously provided project operating prompts and activate the correct workflow mode for this request.
+
+Current request:
+[PASTE REQUEST HERE]
+
+Available materials:
+[PASTE / LIST FILES, DOCS, LEDGER STATUS, OR SAY NONE]
+
+Requirements:
+- First identify the correct primary mode
+- Do not begin unsafe work before the entry check
+- If required files or decisions are missing, tell me exactly what is missing
+- If contradictions / duplicates / atom finalization / canonization are involved, ask me first
+- Output:
+  1) Current Task Interpretation
+  2) Mode Decision
+  3) Why This Mode
+  4) Entry Check
+  5) Blockers
+  6) Immediate Next Action
+  7) Questions for Author (if needed)
