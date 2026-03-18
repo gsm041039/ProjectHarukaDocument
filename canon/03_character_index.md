@@ -40,7 +40,7 @@
 | [雨宮晴香](03_characters/haruka.md) | 創世者 / 偶像 / 情緒增幅器 | 拯救者→殉道者→承擔者 | 存活（失去記憶） | [haruka.md](03_characters/haruka.md) |
 | [水無月美夜子](03_characters/miyako.md) | 介錯人 / 借來的生命 / 黑貓 | 介錯人→送行者→守護者 | 存活（貓形態） | [miyako.md](03_characters/miyako.md) |
 | [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（嘆息之橋） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
-| [綾小路操](03_characters/ayakomoji_sou.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_sou.md](03_characters/ayakomoji_sou.md) |
+| [綾小路操](03_characters/ayakomoji_misao.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_misao.md](03_characters/ayakomoji_misao.md) |
 
 ### 核心非戰鬥角色
 
@@ -48,14 +48,14 @@
 |------|------|----------------|----------|-------------|
 | [白銀朔](03_characters/saku.md) | 屍骸獵人 / 雙面特工 | 復仇者→守護者→解放者 | 存活 | [saku.md](03_characters/saku.md) |
 | [東雲秋穗](03_characters/akiho.md) | 瘋狂科學家 / 罪孽的母親 | 瘋狂科學家→悔恨的母親→放手者 | 存活 | [akiho.md](03_characters/akiho.md) |
-| [東雲愛莉](03_characters/airi.md) | 紙皮騎士 / 精神守門人 | 受難聖徒→無名守門人→紙皮騎士 | 石像（精神存活） | [airi.md](03_characters/airi.md) |
+| [東雲愛莉](03_characters/aeri.md) | 紙皮騎士 / 精神守門人 | 受難聖徒→無名守門人→紙皮騎士 | 石像（精神存活） | [aeri.md](03_characters/aeri.md) |
 
 ### 反派與特殊存在
 
 | 角色 | 定位 | Archetype 變遷 | 存活狀態 | Canon Sheet |
 |------|------|----------------|----------|-------------|
-| [神樂彩](03_characters/iroha.md) | 被囚禁的主人格 / 轉校生偽裝 | 囚徒→見證者→救贖者 | 死亡（永恆輪迴） | [iroha.md](03_characters/iroha.md) |
-| [黑奏](03_characters/antagonist.md) | 保護者人格 / 帝國皇帝 | 保護者→修正者→獨裁者 | 消散 | [antagonist.md](03_characters/antagonist.md) |
+| [神樂彩](03_characters/aya.md) | 被囚禁的主人格 / 轉校生偽裝 | 囚徒→見證者→救贖者 | 死亡（永恆輪迴） | [aya.md](03_characters/aya.md) |
+| [黑奏](03_characters/aya.md#section-kurokane) | 保護者人格 / 帝國皇帝 | 保護者→修正者→獨裁者 | 消散 | [aya.md#section-kurokane](03_characters/aya.md#section-kurokane) |
 | [夕](03_characters/yu.md) | 晴香的暗面人格 / 陰影自我 | 陰影自我→內在聲音→整合碎片 | 與晴香整合 | [yu.md](03_characters/yu.md) |
 | [綾瀨凜](03_characters/rin.md) | 痛覺信徒 / 被重組的軀殼 | 完美主義者→痛覺信徒→自願的兵器 | 死亡（自願兵器化） | [rin.md](03_characters/rin.md) |
 | [小光](03_characters/ko_hikaru.md) | 純真的錨點 / 屍骸化的孩子 | 純真者→犧牲者→墮落的起因 | 屍骸化 | [ko_hikaru.md](03_characters/ko_hikaru.md) |
@@ -94,19 +94,19 @@ graph LR
     Miyako["美夜子（水無月美夜子）"]
     Yu["夕（陰影自我）"]
     Akane["朱音（岩倉朱音）"]
-    Sou["操（綾小路操）"]
+    Misao["操（綾小路操）"]
     Rin["凜（綾瀨凜）"]
     Saku["朔（白銀朔）"]
     Akiho["秋穗（東雲秋穗）"]
-    Airi["愛莉（東雲愛莉）"]
+    Aeri["愛莉（東雲愛莉）"]
     Iroha["彩／黑奏（神樂彩）"]
     Ko["光（小光）"]
 
     Haruka <-->|親姊妹（互不知情）| Miyako
     Haruka -->|分裂陰影自我| Yu
     Haruka -->|贖罪目標| Akane
-    Haruka -->|創傷連結| Sou
-    Haruka -->|象徵連結| Airi
+    Haruka -->|創傷連結| Misao
+    Haruka -->|象徵連結| Aeri
     Haruka -->|象徵連結| Ko
 
     Miyako -->|繼承／悼念| Rin
@@ -117,12 +117,12 @@ graph LR
     Akiho -->|義務性引導| Miyako
     Akiho -->|魔鬼契約| Iroha
 
-    Akane <-->|隊友・同生共死| Sou
+    Akane <-->|隊友・同生共死| Misao
     Akane -->|夜區溫暖錨點| Ko
 
     Iroha -->|入侵／收割情緒| Haruka
     Iroha -.->|寄生利用（夕不知情）| Yu
-    Iroha -.->|利用為濾心| Airi
+    Iroha -.->|利用為濾心| Aeri
 ```
 
 > 實線 = 主要情感關係，虛線 = 單向利用或非自願連結。完整關係細節以各角色 Canon Sheet 為準。
@@ -133,11 +133,11 @@ graph LR
 
 ### 子主題 A：力量的代價
 
-本主題重點不是「有冇力量」，而是「用力量時會失去咩」。代表：[朱音](03_characters/iwakura_akane.md)（戰鬥成癮）、[操](03_characters/ayakomoji_sou.md)（完美偽裝的代價）、[凜](03_characters/rin.md)（理性凍結→痛覺信徒）
+本主題重點不是「有冇力量」，而是「用力量時會失去咩」。代表：[朱音](03_characters/iwakura_akane.md)（戰鬥成癮）、[操](03_characters/ayakomoji_misao.md)（完美偽裝的代價）、[凜](03_characters/rin.md)（理性凍結→痛覺信徒）
 
 ### 子主題 B：完美的幻象
 
-本主題聚焦「完美外觀」點樣反過來吞噬人。代表：[操](03_characters/ayakomoji_sou.md)（「沒有痛覺的完美比地獄更可怕」）、[黑奏](03_characters/antagonist.md)（[共振地獄](02_glossary.md#term-resonance-hell)——強制消滅選擇）
+本主題聚焦「完美外觀」點樣反過來吞噬人。代表：[操](03_characters/ayakomoji_misao.md)（「沒有痛覺的完美比地獄更可怕」）、[黑奏](03_characters/aya.md#section-kurokane)（[共振地獄](02_glossary.md#term-resonance-hell)——強制消滅選擇）
 
 ### 子主題 C：身份的本質
 
@@ -163,7 +163,7 @@ graph LR
 
 彩無血緣的姊姊，夜區戰爭孤兒。此條目只保留角色功能（創傷觸發者與情感錨點）；完整事件敘述以 Timeline 與彩/黑奏角色檔為準。
 
-**See also**: [彩](03_characters/iroha.md) | [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-hotaru-death)
+**See also**: [彩](03_characters/aya.md) | [黑奏](03_characters/aya.md#section-kurokane) | [Timeline](04_timeline_canon.md#event-hotaru-death)
 
 ---
 
@@ -171,7 +171,7 @@ graph LR
 
 操的管家，真正的守護者。此條目只保留關係與主題功能；臨終揭露與崩潰事件細節以 Timeline 與操角色檔為準。
 
-**See also**: [操](03_characters/ayakomoji_sou.md)
+**See also**: [操](03_characters/ayakomoji_misao.md)
 
 ---
 
@@ -179,7 +179,7 @@ graph LR
 
 黑奏的養父。此條目只保留權力關係定位；篡位事件與轉折敘述以 Timeline 與黑奏角色檔為準。
 
-**See also**: [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-kurokana-usurp)
+**See also**: [黑奏](03_characters/aya.md#section-kurokane) | [Timeline](04_timeline_canon.md#event-kurokana-usurp)
 
 ---
 

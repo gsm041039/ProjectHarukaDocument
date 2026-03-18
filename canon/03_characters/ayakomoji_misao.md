@@ -1,7 +1,7 @@
-# 綾小路操（Ayakomoji Sou）
+# 綾小路操（Ayakomoji Misao）
 
 > **讀者指引**：本頁是操的單一角色 Canon Sheet，整合背景故事、心理弧光、視覺設計與關係網絡。
-> 首次閱讀建議先看 [§ Header Table](#char-sou) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 首次閱讀建議先看 [§ Header Table](#char-misao) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
 > 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
 
 <!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md, backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md-->
@@ -14,11 +14,11 @@
 - 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 
 ---
-## <a id="char-sou"></a>Header Table
+## <a id="char-misao"></a>Header Table
 
 | 欄位 | 內容 |
 |------|------|
-| **本名** | 綾小路操（あやこもじ そう）——生理女性，被家族強制以男性身份養育 |
+| **本名** | 綾小路操（あやこもじ みさお）——生理女性，被家族強制以男性身份養育 |
 | **年齡** | 18 歲（主線期） |
 | **身份** | 綾小路家族繼承人、魔法少女、傀儡師 |
 | **家庭** | 父親（拒絕接納）、管家[紗夜](../03_character_index.md#char-sayo)（真正守護者） |
@@ -65,7 +65,9 @@
 
 ### 無心完美人偶——形式極致的代價
 
-紗夜死後，操製作了一具完美的女性人偶軀殼，將自己的意識注入其中。她終於擁有了「完美的身體」——卻無法感受冷暖、無法流淚、無法觸碰。「沒有痛覺的完美比地獄更可怕。」她親手打碎人偶，選擇回到殘缺但真實的身體。
+紗夜死後，操製作了一具完美的女性人偶軀殼，將自己的意識注入其中。她終於擁有了「完美的身體」——卻無法感受冷暖、無法流淚、無法觸碰。她親手打碎人偶，選擇回到殘缺但真實的身體。
+
+> 沒有痛覺的完美，比地獄更可怕。
 
 ### 鏡像破碎之夜
 
@@ -112,6 +114,8 @@
 ## <a id="section-archetype"></a>Archetype & Symbolism
 
 **Archetype 變遷**：破碎的瓷娃娃 (The Cracked Porcelain) → 完美主義者 (The Perfectionist) → 真實的自我 (The Authentic Self)
+
+> 她一直靠蜘蛛的方式，把自己織成天鵝。
 
 **象徵**：
 - **精緻人偶** — 完美偽裝的具現化 / 內在空洞的映射。操的傀儡戰鬥風格本身就是她人生的隱喻：操控外物，隔離真實
@@ -213,7 +217,7 @@
 | [晴香](haruka.md) | 隊友 | 映照晴香「完美面具」的另一種形態；晴香的善意是操卸下偽裝的契機之一 |
 | [美夜子](miyako.md) | 隊友 / 介錯對象 | 據點洩露導致美夜子重傷；美夜子的介錯人守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
 | [朱音](iwakura_akane.md) | 隊友 | 據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲 |
-| [黑奏](antagonist.md) | 間接敵人 | 帝國體制的代表；父親將操交給帝國的幕後推手 |
+| [黑奏](aya.md#section-kurokane) | 間接敵人 | 帝國體制的代表；父親將操交給帝國的幕後推手 |
 
 ---
 

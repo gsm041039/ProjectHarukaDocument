@@ -207,7 +207,7 @@
 - **代價**：[靈魂延遲](02_glossary.md#term-soul-lag)、嘔吐、感官錯位、短暫解離。
 - **不可逆**：反覆發作會放大心匣微裂紋，最終推進不可逆崩壞。
 - **可視化呈現建議**：先以[諧振的狂喜](02_glossary.md#term-ecstasy-of-resonance)表現誘因，再切入神經性反噬與控制權喪失。
-- **例子**：[彩](03_characters/iroha.md)在自殘性變身後出現劇烈排斥連鎖反應。
+- **例子**：[彩](03_characters/aya.md)在自殘性變身後出現劇烈排斥連鎖反應。
 - **See also**：[Visual Bible](06_visual_bible.md#section-law-rejection) | [Decision Log：CF-001](99_decision_log.md#decision-cf001)
 
 **三段症狀鏈（臨床觀察）**：
@@ -397,7 +397,7 @@ Alpha 線的「可信度」建立在**共享印證**上：
 - Aya 的必要性：Aya（潛意識靈魂）需要貼近晴香，才能維持主靈魂與集體潛意識的連結，進而維持能量供給通道
 - 力量失效時刻：當晴香決定「不改變現實」（第四幕覺悟）時，整個因果鏈條斷裂，黑奏的力量瞬間消失
 
-**See also**: [Timeline: 黑奏創傷事件](04_timeline_canon.md#event-kurokanae-trauma) | [Antagonist](03_characters/antagonist.md)
+**See also**: [Timeline: 黑奏創傷事件](04_timeline_canon.md#event-kurokanae-trauma) | [Antagonist](03_characters/aya.md#section-kurokane)
 
 ### <a id="rule-beta-curse-gen4"></a>Beta 線詛咒遺產第四類（Personal Curses）
 
@@ -442,7 +442,7 @@ Alpha 線的「可信度」建立在**共享印證**上：
 - **觸發條件**：情緒債務累積超過閾值，且回流通道同時開啟。
 - **代價**：現實層遭受群體性情緒倒灌，社會秩序與認知濾鏡同步失穩。
 - **不可逆**：已釋放的校正壓力不能被「單次勝利」清零，只能以承擔路徑消化。
-- **例子**：紅潮視覺、重疊哀鳴、被抹除人形殘影回返。
+- **例子**：緋潮視覺、重疊哀鳴、被抹除人形殘影回返。
 
 ### <a id="rule-emotional-capitalism"></a>情緒資本主義
 
@@ -552,7 +552,7 @@ Alpha 線的「可信度」建立在**共享印證**上：
 - 因此她的策略轉為：逐步摧毀受害者的「高階情緒」（希望、自尊、連結感），使其自願放棄生存意志
 - 這是為什麼黑奏的折磨往往比直接殺害更有效——她在製造「自願死亡」的心理條件
 
-**See also**: [情緒守恆定律](#rule-emotion-conservation) | [Antagonist](03_characters/antagonist.md#section-strategy)
+**See also**: [情緒守恆定律](#rule-emotion-conservation) | [Antagonist](03_characters/aya.md#section-strategy)
 
 ### <a id="rule-scar-formation"></a>結痂機制（Scar Formation）
 

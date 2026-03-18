@@ -199,7 +199,7 @@
 
 **理由**：P2（Caius 型動機製造更深的悲劇性，強化「愛到極端成為毀滅」主旋律）
 
-**影響文件**：[Antagonist](03_characters/antagonist.md#section-motivation) | [Antagonist Stage 3](03_characters/antagonist.md#section-arc-acts)
+**影響文件**：[Antagonist](03_characters/aya.md#section-motivation) | [Antagonist Stage 3](03_characters/aya.md#section-arc-acts)
 
 ---
 
@@ -285,9 +285,9 @@
 
 ### <a id="decision-cft21"></a>CF-T21: 操（綾小路操）Alpha 原傷及 Beta 軌跡
 
-**矛盾**：Canon `ayakomoji_sou.md` 未以五步模板結構化操的原傷路徑。（計劃文件誤標目標為 `yu.md`；正確目標為 `ayakomoji_sou.md`。）
+**矛盾**：Canon `ayakomoji_misao.md` 未以五步模板結構化操的原傷路徑。（計劃文件誤標目標為 `yu.md`；正確目標為 `ayakomoji_misao.md`。）
 
-**裁決**：**採納（A）**，寫入 `ayakomoji_sou.md`：
+**裁決**：**採納（A）**，寫入 `ayakomoji_misao.md`：
 - **Alpha 原傷**：家道中落，行乞時被當垃圾
 - **童願**：「我想讓他們有尊嚴。」
 - **Beta 修正**：綾小路家族恢復體面
@@ -296,19 +296,19 @@
 
 **理由**：P2（守恆反噬模式一致；身份牆主題強化）
 
-**影響文件**：[Ayakomoji Sou](03_characters/ayakomoji_sou.md)
+**影響文件**：[Ayakomoji Misao](03_characters/ayakomoji_misao.md)
 
 ---
 
 ### <a id="decision-cft27"></a>CF-T27: 愛莉の集體潛意識人造錨點身份
 
-**矛盾**：Canon `airi.md` 未明確定義愛莉作為集體潛意識通道節點的功能機制。
+**矛盾**：Canon `aeri.md` 未明確定義愛莉作為集體潛意識通道節點的功能機制。
 
 **裁決**：**採納（A）**。愛莉 = 集體潛意識唯一人造常駐節點；所有人下潛必須經過愛莉的閘口；每次被作為閘口使用，負擔加重（紙皮盔甲每多一道裂縫、每多一圈膠帶 = 有人借道的代價）。
 
 **理由**：P1（使愛莉的視覺符號「裂縫/膠帶加重」獲得敘事意義，可制式化為代價計時器）
 
-**影響文件**：[Airi](03_characters/airi.md#section-core-function-1)
+**影響文件**：[Aeri](03_characters/aeri.md#section-core-function-1)
 
 ---
 
@@ -322,7 +322,7 @@
 
 **理由**：P2（病態偏執比工具關係提供更深的情感張力與悲劇性）
 
-**影響文件**：[Antagonist](03_characters/antagonist.md#section-relationships)
+**影響文件**：[Antagonist](03_characters/aya.md#section-relationships)
 
 ---
 
@@ -334,7 +334,7 @@
 
 **理由**：P2（靈魂不可回收強化黑奏動機的悲劇性——他為一個不可能的事付出一切）
 
-**影響文件**：[Antagonist](03_characters/antagonist.md#section-relationships)
+**影響文件**：[Antagonist](03_characters/aya.md#section-relationships)
 
 ---
 
@@ -377,7 +377,7 @@
 
 **理由**：P2（命名必須反映動機邏輯；「結算」比「地獄」更符合 Caius 型「以等價交換換回所愛」的悲劇結構）
 
-**影響文件**：[Antagonist](03_characters/antagonist.md) | [Glossary: 情緒結算儀式](02_glossary.md#term-resonance-hell)
+**影響文件**：[Antagonist](03_characters/aya.md#section-kurokane) | [Glossary: 情緒結算儀式](02_glossary.md#term-resonance-hell)
 
 ---
 
@@ -520,7 +520,7 @@
 
 **裁決**：**維持 CF-T06 裁決**。靈樹戰爭武器連靈魂消滅；集體潛意識中無任何螢的碎片可回收。任何暗示螢靈魂碎片存在的描述均屬廢棄口徑。
 
-**影響文件**：[Antagonist](03_characters/antagonist.md#section-relationships)
+**影響文件**：[Antagonist](03_characters/aya.md#section-relationships)
 
 ---
 

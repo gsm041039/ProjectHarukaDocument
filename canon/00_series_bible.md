@@ -112,7 +112,7 @@
 本作把「世界的錯誤」定義為一個結構性缺陷，而非單一惡人：  
 人類可以在不感受他人痛苦的情況下做出傷害行為，令制度、技術與暴力容易結盟。黑奏把這個缺陷推到極端，提出[共振地獄](02_glossary.md#term-resonance-hell)作為修正方案；晴香則選擇另一條路——不以強制透明抹除自由，而是在不確定中承擔並連結。
 
-此段只作系列命題入口；規則條文見 [World Rules](01_world_rules_and_costs.md)，角色方法論見 [黑奏](03_characters/antagonist.md) 與 [晴香](03_characters/haruka.md)。
+此段只作系列命題入口；規則條文見 [World Rules](01_world_rules_and_costs.md)，角色方法論見 [黑奏](03_characters/aya.md#section-kurokane) 與 [晴香](03_characters/haruka.md)。
 
 ---
 

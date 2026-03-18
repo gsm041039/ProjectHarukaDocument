@@ -43,7 +43,7 @@
 
 ### 朱音墮落的起因
 
-小光屍骸化後，[黑奏](antagonist.md)對朱音耳語：「他沒有死，只是換了生存方式。」這句話成為朱音墮落的轉折點——朱音開始相信屍骸不是死亡，而是「另一種活法」。她成為屍骸首領，建立「屍骸樂園」，將小光和其他屍骸當作自己的孩子守護。出於愛的墮落，比出於恨的墮落更令人心痛。
+小光屍骸化後，[黑奏](aya.md#section-kurokane)對朱音耳語：「他沒有死，只是換了生存方式。」這句話成為朱音墮落的轉折點——朱音開始相信屍骸不是死亡，而是「另一種活法」。她成為屍骸首領，建立「屍骸樂園」，將小光和其他屍骸當作自己的孩子守護。出於愛的墮落，比出於恨的墮落更令人心痛。
 
 ### 屍骸樂園中的存在
 
@@ -87,7 +87,7 @@
 
 ### [第二幕](../05_story_outline_canon.md#act-2)：屍骸化
 
-[屍骸](../02_glossary.md#term-magical-corpse)襲擊中小光被殺、變成 Type B 廢鐵型屍骸。朱音的世界崩塌。[黑奏](antagonist.md)的耳語「他沒有死」成為朱音墮落的催化劑。小光的屍骸手中依然握著發黑的波板糖——這個畫面是全作品最殘忍的視覺之一。
+[屍骸](../02_glossary.md#term-magical-corpse)襲擊中小光被殺、變成 Type B 廢鐵型屍骸。朱音的世界崩塌。[黑奏](aya.md#section-kurokane)的耳語「他沒有死」成為朱音墮落的催化劑。小光的屍骸手中依然握著發黑的波板糖——這個畫面是全作品最殘忍的視覺之一。
 
 **See also**: [Timeline — 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
 
@@ -147,9 +147,9 @@
 | 對象 | 關係 | 核心動態 |
 |------|------|---------|
 | [朱音](iwakura_akane.md) | 溫暖錨點 / 墮落起因 | 生前是朱音唯一的光；屍骸化後成為朱音墮落為屍骸首領的直接原因 |
-| [黑奏](antagonist.md) | 操縱者 | 黑奏用「他沒有死」的謊言操縱朱音；小光是黑奏手中的棋子 |
+| [黑奏](aya.md#section-kurokane) | 操縱者 | 黑奏用「他沒有死」的謊言操縱朱音；小光是黑奏手中的棋子 |
 | [晴香](haruka.md) | 間接關係 | 晴香目睹小光的屍骸時，映照出自己作為創世者的罪責——這個孩子的命運源於她創造的 [Beta 線](../02_glossary.md#term-beta-line) |
-| [操](ayakomoji_sou.md) | 間接關係 | 操在[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)與朱音一同犧牲時，理解了朱音守護小光的執念 |
+| [操](ayakomoji_misao.md) | 間接關係 | 操在[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)與朱音一同犧牲時，理解了朱音守護小光的執念 |
 
 ---
 
@@ -174,7 +174,7 @@
 ## <a id="section-see-also"></a>See also
 
 - [朱音 Canon Sheet](iwakura_akane.md) — 小光墮落的直接承受者
-- [黑奏 Canon Sheet](antagonist.md) — 操縱朱音的幕後者
+- [黑奏 Canon Sheet](aya.md#section-kurokane) — 操縱朱音的幕後者
 - [Character Index](../03_character_index.md) — 角色總覽與關係網
 - [Timeline — 小光之死](../04_timeline_canon.md#event-ko-hikaru-death) — 屍骸化事件
 - [Timeline — 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs) — 朱音的最終犧牲

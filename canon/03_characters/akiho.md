@@ -21,8 +21,8 @@
 | **全名** | 東雲秋穗（しののめ あきほ） |
 | **年齡** | 40 代（主線期） |
 | **身份** | 頂尖生命機械學家、[情緒力量裝置](../02_glossary.md#term-emotional-power-device)原型研發者 |
-| **家庭** | 雙胞胎妹妹花子（已逝）、女兒[愛莉](airi.md)（[魔法屍骸](../02_glossary.md#term-magical-corpse)石像） |
-| **職位** | 前軍方情緒力量研究核心人員、[黑奏](antagonist.md)合作者 |
+| **家庭** | 雙胞胎妹妹花子（已逝）、女兒[愛莉](aeri.md)（[魔法屍骸](../02_glossary.md#term-magical-corpse)石像） |
+| **職位** | 前軍方情緒力量研究核心人員、[黑奏](aya.md#section-kurokane)合作者 |
 | **Archetype** | 瘋狂科學家 (The Mad Scientist) → 悔恨的母親 (The Remorseful Mother) → 放手者 (The One Who Lets Go) |
 | **存活狀態** | 存活 |
 
@@ -66,7 +66,7 @@
 ## <a id="section-wnlt"></a>Want / Need / Lie / Truth
 
 **Want（顯性欲望）**：
-- 復活[愛莉](airi.md)——讓女兒從石像中甦醒
+- 復活[愛莉](aeri.md)——讓女兒從石像中甦醒
 - 超越花子——證明自己是更優秀的科學家
 - 保護 / 利用[晴香](haruka.md)——既是阿姨的守護，也是黑奏的棋子
 
@@ -128,7 +128,7 @@
 
 ### [第四幕](../05_story_outline_canon.md#section-act-4)：笨蛋老媽
 
-[愛莉](airi.md)的聲音從[集體潛意識](../02_glossary.md#term-collective-unconscious)深處傳來——
+[愛莉](aeri.md)的聲音從[集體潛意識](../02_glossary.md#term-collective-unconscious)深處傳來——
 
 > 「笨蛋老媽，我從來沒怪過妳。」
 
@@ -195,11 +195,11 @@
 
 | 對象 | 關係 | 核心動態 |
 |------|------|---------|
-| [愛莉](airi.md) | 女兒（魔法屍骸石像） | 一切罪孽的起點與終點；每天的懺悔對象；最終的原諒來源 |
+| [愛莉](aeri.md) | 女兒（魔法屍骸石像） | 一切罪孽的起點與終點；每天的懺悔對象；最終的原諒來源 |
 | 花子 | 雙胞胎妹妹（已逝） | 永遠的比較對象；即使花子已死，競爭心態仍在驅動秋穗 |
 | [晴香](haruka.md) | 外甥女 | 既是守護對象也是利用工具；封存真相的執行者；「阿姨」身份的溫暖是真心，「培養」是黑奏的任務 |
 | [美夜子](miyako.md) | 外甥女 | 將美夜子變成 Unit 01 的執行者；最不可饒恕的罪行之一 |
-| [黑奏](antagonist.md) | 魔鬼契約者 | 黑奏提供救愛莉的虛假希望，秋穗為黑奏服務。契約本質屬利用與被利用 |
+| [黑奏](aya.md#section-kurokane) | 魔鬼契約者 | 黑奏提供救愛莉的虛假希望，秋穗為黑奏服務。契約本質屬利用與被利用 |
 | [夕](yu.md) | 間接創造者 | 秋穗封存 Alpha 線真相的行為間接催生了夕的誕生 |
 | [朔](saku.md) | 仇恨對象 | 朔恨秋穗將美夜子變成兵器；秋穗理解這份恨意，視為應得的懲罰 |
 
@@ -229,7 +229,7 @@
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
 - [Timeline: 愛莉事故](../04_timeline_canon.md#event-airi-accident) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival) | [無臉真相](../04_timeline_canon.md#event-faceless-truth) | [秋穗循環](../04_timeline_canon.md#event-akiho-time-loop)
 - [Glossary: 情緒力量裝置](../02_glossary.md#term-emotional-power-device) | [情緒毒品](../02_glossary.md#term-emo-visor) | [魔法屍骸](../02_glossary.md#term-magical-corpse) | [態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
-- [愛莉 Canon Sheet](airi.md) — 女兒
+- [愛莉 Canon Sheet](aeri.md) — 女兒
 - [晴香 Canon Sheet](haruka.md) — 外甥女
 
 

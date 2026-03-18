@@ -29,7 +29,10 @@
       "Bash(test:*)",
       "Bash(find:*)",
       "Bash(powershell -Command:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(mv canon/03_characters/ayakomoji_sou.md canon/03_characters/ayakomoji_misao.md)",
+      "Bash(mv canon/03_characters/airi.md canon/03_characters/aeri.md)",
+      "Bash(xargs sed:*)"
     ],
     "ask": [
       "Bash(git commit:*)",

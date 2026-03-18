@@ -255,7 +255,7 @@
 
 並非傳統病毒，而是黑奏利用晴香改變現實造成的時空裂縫中噴發的「悲慟風暴」能量，透過修正派調律轉化為可控的、精準攻擊心之器的「病毒武器」。能量來源諷刺地來自晴香的痛苦。
 
-**See also**: [Grief Storm](#term-grief-storm) | [Antagonist](03_characters/antagonist.md)
+**See also**: [Grief Storm](#term-grief-storm) | [Antagonist](03_characters/aya.md#section-kurokane)
 
 ---
 
@@ -504,7 +504,7 @@ Beta 線本質的核心敘事隱喻。
 
 建立「痛楚公有化」機制。當傷害他人時神經即時收到同等痛覺訊號，物理上無法再傷害。目標是消滅惡意而非懲罰。但這是「基於恐懼的和平」而非「基於善良的和平」——人們不作惡因怕痛不是因選擇善良。消滅行為上的惡同時消滅了選擇。
 
-**See also**: [Antagonist](03_characters/antagonist.md) | [Emo-Visor](#term-emo-visor) | [Attitude vs. Fate](#term-attitude-vs-fate)
+**See also**: [Antagonist](03_characters/aya.md#section-kurokane) | [Emo-Visor](#term-emo-visor) | [Attitude vs. Fate](#term-attitude-vs-fate)
 
 ---
 
@@ -608,7 +608,7 @@ Beta 線本質的核心敘事隱喻。
 
 使用者的意識/靈魂不會立刻「歸位」而是短暫「延遲」。兩階段：麻痺期（肉體感覺麻木不屬於自己）和針刺期（靈魂歸位後所有被屏蔽的感官信號如電流般一次性湧回痛覺加倍奉還）。彩的自殘性變身會產生劇烈靈魂延遲。
 
-**See also**: [Iroha](03_characters/iroha.md)
+**See also**: [Iroha](03_characters/aya.md)
 
 ---
 
@@ -644,7 +644,7 @@ Beta 線本質的核心敘事隱喻。
 
 紗夜死後操因極度自我厭惡，製作完美人偶軀殼（皮膚白皙如瓷身材完美永不衰老）並將靈魂移轉。但發現：沒有溫度感知（無法感受紗夜遺物溫度）、沒有淚腺（無法哭泣）、臉部肌肉固定微笑（明明心碎卻無法表達）。最終主動打碎人偶回歸殘缺原本肉體。證明：「沒有痛覺的完美比地獄更可怕」。
 
-**See also**: [Ayakomoji Sou](03_characters/ayakomoji_sou.md)
+**See also**: [Ayakomoji Misao](03_characters/ayakomoji_misao.md)
 
 ---
 
@@ -654,7 +654,7 @@ Beta 線本質的核心敘事隱喻。
 
 在術語層，濾心機制指「被系統剔除的負面情緒不消失，而被轉嫁到愛莉作為活體處理端」的處置鏈。運作條文見 [World Rules：情緒守恆](01_world_rules_and_costs.md#rule-emotion-conservation)。
 
-**See also**: [Airi](03_characters/airi.md) | [Emo-Visor](#term-emo-visor)
+**See also**: [Aeri](03_characters/aeri.md) | [Emo-Visor](#term-emo-visor)
 
 ---
 
@@ -663,7 +663,7 @@ Beta 線本質的核心敘事隱喻。
 
 僅發生於愛莉——第一個因人工實驗而與緋潮產生連結的個體。秋穗實驗試圖人工擷取集體潛意識情緒力量，愛莉接觸裝置時無意成為緋潮第一個人類「錨點」。她靈魂被「釘」在兩條時間線交節點上。身體完全結晶化為半透明橙色水晶，姿態安詳如沉睡雕塑。
 
-**See also**: [Airi](03_characters/airi.md) | [Scarlet Tide](#term-scarlet-tide)
+**See also**: [Aeri](03_characters/aeri.md) | [Scarlet Tide](#term-scarlet-tide)
 
 ---
 
@@ -775,6 +775,15 @@ Beta 線本質的核心敘事隱喻。
 - 影響/代價：過度依賴共鳴會加深個體邊界模糊，強化[共感的詛咒](#term-curse-of-empathy)。
 - See also：[絕對共感](#term-absolute-empathy) | [態度 vs. 命運](#term-attitude-vs-fate) | [時間線](04_timeline_canon.md)
 
+### <a id="term-soul-traversal"></a>Soul Traversal（靈魂橫越）
+- 一句定義：[黑奏](03_characters/aya.md#section-kurokane)獨有的跨時間線能力——死亡後保留完整記憶穿越至下一條時間線，以便在新循環中繼續執行收割計劃。
+- 重要性：它使黑奏成為整個多時間線格局中唯一擁有完整歷史記憶的角色；也是她被永恆詛咒困住的根本機制——她修正時間線的能力本身，即是她無法逃脫的牢籠。
+- 機制說明：借來的因果力量每個循環耗盡後，必須重新製造晴香的絕望才能補充。黑奏無法自願退出此收割循環——「修正主義者的詛咒」：試圖修正的系統，反過來將修正者困在永恆收割中。
+- 例子：
+  - 每條時間線是新的實驗——調整變量、優化策略——也是同一個永恆囚籠的下一間牢房。
+- 代價：每一次橫越都完整記得所有失敗，所有被她殺死的人，所有她試過但失敗的方法——記憶本身是最殘酷的懲罰。
+- See also：[黑奏 Canon Sheet](03_characters/aya.md#section-kurokane) | [跨時間線能量收割](03_characters/aya.md#section-kurokane) | [靈魂共鳴](#term-soul-resonance) | [靈魂滲漏](#term-soul-leakage)
+
 ### <a id="term-causal-debt"></a>因果債務（Causal Debt）
 - 一句定義：每次強行改寫或縫合現實都會累積的系統性反噬成本，最終必須由某個主體償還。
 - 重要性：它約束了「改變現實」的濫用，確保世界規則仍保有代價與邊界（判準見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）。
@@ -800,7 +809,7 @@ Beta 線本質的核心敘事隱喻。
   - [黑奏政變](04_timeline_canon.md#event-kurokanae-coup)
   - [共振地獄三階段](04_timeline_canon.md#event-resonance-hell-3)
 - 影響/代價：其保護邏輯會把「救贖」異化為「控制」，持續擴大制度性暴力。
-- See also：[彩](03_characters/iroha.md) | [反派條目](03_characters/antagonist.md) | [共振地獄](#term-resonance-hell)
+- See also：[彩](03_characters/aya.md) | [反派條目](03_characters/aya.md#section-kurokane) | [共振地獄](#term-resonance-hell)
 
 ### <a id="term-faceless-executor"></a>無臉執行官（Faceless Executor）
 - 一句定義：帝國清剿行動中的高階執行體，象徵制度將個體去人格化後的純功能暴力。
@@ -825,7 +834,7 @@ Beta 線本質的核心敘事隱喻。
 
 故事中阻礙角色的力量不是單一反派，而是六個維度的系統性壓迫：制度（帝國體制）、規則（情緒守恆/鏡像法則）、命運（Alpha 線不可改變性）、心理病灶（角色內在創傷）、世界機制（緋潮/免疫系統）、統治者（黑奏）。
 
-**See also**: [Series Bible](00_series_bible.md#section-opposition-forces) | [Antagonist](03_characters/antagonist.md)
+**See also**: [Series Bible](00_series_bible.md#section-opposition-forces) | [Antagonist](03_characters/aya.md#section-kurokane)
 
 <!-- Sources: backup/screenwriter/11_Deep_Philosophy_Concepts.md -->
 
