@@ -10,12 +10,12 @@ canon/03_characters\miyako.md:37:在所有主要角色中，美夜子擁有獨�
 canon/03_characters\miyako.md:47:美夜子的貓形態不是主動能力，而是晴香幼年願望留下的代價性綁定。此處只保留角色意義（被保護與被剝奪並存）；觸發條件與規則口徑見 [Glossary：避難所詛咒](../02_glossary.md#term-sanctuary-curse) 與 [World Rules：Alpha/Beta 結構](../01_world_rules_and_costs.md#rule-alpha-beta)。
 canon/03_characters\miyako.md:49:這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在。
 canon/03_characters\miyako.md:57:在一次「悲慟風暴」壓制任務中，凜為掩護她撤離，被 L3 [光環](../02_glossary.md#term-halo)處決：冰藍色光環強行扭轉凜的頭顱 180 度。美夜子親眼看見凜最後的微笑，以扭曲角度永遠定格。目睹這一刻，美夜子情緒防線崩潰——觸發[避難所詛咒](../02_glossary.md#term-sanctuary-curse)，身軀被強制壓縮進黑貓體內，從此逃離軍方控制，流落街頭。
-canon/03_characters\haruka.md:169:| [彩](iroha.md) / [黑奏](antagonist.md) | 致命吸引 | 彩是晴香內在恐懼的具象化；黑奏是創造 Beta 線的反派，偽裝潛伏收割情緒能量 |
+canon/03_characters\haruka.md:169:| [彩](aya.md) / [黑奏](aya.md) | 致命吸引 | 彩是晴香內在恐懼的具象化；黑奏是創造 Beta 線的反派，偽裝潛伏收割情緒能量 |
 canon/03_characters\ko_hikaru.md:146:| [晴香](haruka.md) | 間接關係 | 晴香目睹小光的屍骸時，映照出自己作為創世者的罪責——這個孩子的命運源於她創造的 [Beta 線](../02_glossary.md#term-beta-line) |
-canon/03_characters\ayakomoji_sou.md:63:「我選擇停留在我想停留的位置。這是我的態度。」——這句話同時回應[三位一體光譜](../02_glossary.md#term-trinity-spectrum)的三重意義：性別認同（停留在自己選擇的性別）、生死邊界（停留在人與屍骸之間）、[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)（以選擇定義存在）。
-canon/03_characters\iroha.md:50:「有牠陪著妳，就等於我陪著妳。」這隻熊公仔是彩與黑奏的共享契約信物（[心匣條目](../02_glossary.md#term-heart-container)；[物件規格](../07_entities_and_devices.md#section-heart-container)）。寒酸的外表下藏著頂級深紅絲絨、真寶石眼睛、金線縫線：愛的真實形態不在表面，在縫線裏。
-canon/03_characters\antagonist.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
-canon/03_characters\antagonist.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏的萬花筒魔法是對鏡像法則的暴力扭曲。鏡子本應反映真實——黑奏將其碎裂、重組，讓「真實」變成無限個被扭曲的版本。這是她「修正」哲學的視覺化：不面對真實，而是把真實打碎重新拼湊成自己想要的樣子。
-canon/03_characters\airi.md:3:> **讀者指引**：本頁是愛莉的單一角色 Canon Sheet——秋穗的女兒、第一個人造魔法屍骸石像，以及精神網絡中的「紙皮騎士」。
-canon/03_characters\airi.md:50:愛莉是唯一不受時間線變動影響的記憶觀測點——她記得 [Alpha 線](../02_glossary.md#term-alpha-line)與 [Beta 線](../02_glossary.md#term-beta-line)的完整真相。當所有人的記憶都被改寫時，只有石像中沉睡的她保留著未被篡改的歷史。
-canon/03_characters\akiho.md:39:帝國歷 98 年，秋穗的女兒[愛莉](airi.md)闖入實驗室接觸[情緒力量裝置](../02_glossary.md#term-emotional-power-device)原型機。裝置失控，愛莉的靈魂被暴力扭曲——她沒有死亡，而是變成了第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)，身體凝固為石像，精神被困在[集體潛意識](../02_glossary.md#term-collective-unconscious)深處。
+canon/03_characters\ayakomoji_misao.md:63:「我選擇停留在我想停留的位置。這是我的態度。」——這句話同時回應[三位一體光譜](../02_glossary.md#term-trinity-spectrum)的三重意義：性別認同（停留在自己選擇的性別）、生死邊界（停留在人與屍骸之間）、[態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)（以選擇定義存在）。
+canon/03_characters\aya.md:50:「有牠陪著妳，就等於我陪著妳。」這隻熊公仔是彩與黑奏的共享契約信物（[心匣條目](../02_glossary.md#term-heart-container)；[物件規格](../07_entities_and_devices.md#section-heart-container)）。寒酸的外表下藏著頂級深紅絲絨、真寶石眼睛、金線縫線：愛的真實形態不在表面，在縫線裏。
+canon/03_characters\aya.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
+canon/03_characters\aya.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏的萬花筒魔法是對鏡像法則的暴力扭曲。鏡子本應反映真實——黑奏將其碎裂、重組，讓「真實」變成無限個被扭曲的版本。這是她「修正」哲學的視覺化：不面對真實，而是把真實打碎重新拼湊成自己想要的樣子。
+canon/03_characters\aeri.md:3:> **讀者指引**：本頁是愛莉的單一角色 Canon Sheet——秋穗的女兒、第一個人造魔法屍骸石像，以及精神網絡中的「紙皮騎士」。
+canon/03_characters\aeri.md:50:愛莉是唯一不受時間線變動影響的記憶觀測點——她記得 [Alpha 線](../02_glossary.md#term-alpha-line)與 [Beta 線](../02_glossary.md#term-beta-line)的完整真相。當所有人的記憶都被改寫時，只有石像中沉睡的她保留著未被篡改的歷史。
+canon/03_characters\akiho.md:39:帝國歷 98 年，秋穗的女兒[愛莉](aeri.md)闖入實驗室接觸[情緒力量裝置](../02_glossary.md#term-emotional-power-device)原型機。裝置失控，愛莉的靈魂被暴力扭曲——她沒有死亡，而是變成了第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)，身體凝固為石像，精神被困在[集體潛意識](../02_glossary.md#term-collective-unconscious)深處。

@@ -68,15 +68,15 @@
 | canon/02_glossary.md | 685 | → docs_v2 CAN-02 (expand+anchor) | Base |
 | canon/03_characters/haruka.md | 107 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/miyako.md | 112 | → docs_v2 CAN-03 + visual merge | Base |
-| canon/03_characters/iroha.md | 115 | → docs_v2 CAN-03 + visual merge | Base |
+| canon/03_characters/aya.md | 115 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/saku.md | 100 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/akiho.md | 106 | → docs_v2 CAN-03 + visual merge | Base |
-| canon/03_characters/airi.md | 105 | → docs_v2 CAN-03 + visual merge | Base |
+| canon/03_characters/aeri.md | 105 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/iwakura_akane.md | 105 | → docs_v2 CAN-03 + visual merge | Base |
-| canon/03_characters/ayakomoji_sou.md | 104 | → docs_v2 CAN-03 + visual merge | Base |
+| canon/03_characters/ayakomoji_misao.md | 104 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/ko_hikaru.md | 97 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/rin.md | 104 | → docs_v2 CAN-03 + visual merge | Base |
-| canon/03_characters/antagonist.md | 134 | → docs_v2 CAN-03 + visual merge | Base |
+| canon/03_characters/aya.md | 134 | → docs_v2 CAN-03 + visual merge | Base |
 | canon/03_characters/yu.md | 94 | → docs_v2 CAN-03 (new) | Base |
 | canon/03_characters/supporting/hanako.md | 41 | → docs_v2 CAN-03-index | Base |
 | canon/03_characters/supporting/sayo.md | 41 | → docs_v2 CAN-03-index | Base |
@@ -94,12 +94,12 @@
 | canon/99_decision_log.md | 41 | → docs_v2 CAN-99 (expand) | Base |
 | canon/characters_visual/haruka.md | 96 | → merge into CAN-03/haruka | Merge |
 | canon/characters_visual/miyako.md | 103 | → merge into CAN-03/miyako | Merge |
-| canon/characters_visual/iroha.md | 100 | → merge into CAN-03/iroha | Merge |
+| canon/characters_visual/aya.md | 100 | → merge into CAN-03/iroha | Merge |
 | canon/characters_visual/saku.md | 95 | → merge into CAN-03/saku | Merge |
 | canon/characters_visual/akiho.md | 83 | → merge into CAN-03/akiho | Merge |
-| canon/characters_visual/airi.md | 83 | → merge into CAN-03/airi | Merge |
+| canon/characters_visual/aeri.md | 83 | → merge into CAN-03/airi | Merge |
 | canon/characters_visual/iwakura_akane.md | 127 | → merge into CAN-03/iwakura_akane | Merge |
-| canon/characters_visual/ayakomoji_sou.md | 114 | → merge into CAN-03/ayakomoji_sou | Merge |
+| canon/characters_visual/ayakomoji_misao.md | 114 | → merge into CAN-03/ayakomoji_sou | Merge |
 | canon/characters_visual/ko_hikaru.md | 200 | → merge into CAN-03/ko_hikaru | Merge |
 | canon/characters_visual/rin.md | 153 | → merge into CAN-03/rin | Merge |
 

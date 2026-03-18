@@ -8,12 +8,12 @@ C:\Projects\ProjectHarukaDocument\canon\06_visual_bible.md|284
 C:\Projects\ProjectHarukaDocument\canon\07_entities_and_devices.md|192
 C:\Projects\ProjectHarukaDocument\canon\10_gameplay_bible.md|168
 C:\Projects\ProjectHarukaDocument\canon\99_decision_log.md|82
-C:\Projects\ProjectHarukaDocument\canon\03_characters\airi.md|116
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aeri.md|116
 C:\Projects\ProjectHarukaDocument\canon\03_characters\akiho.md|144
-C:\Projects\ProjectHarukaDocument\canon\03_characters\antagonist.md|144
-C:\Projects\ProjectHarukaDocument\canon\03_characters\ayakomoji_sou.md|143
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md|144
+C:\Projects\ProjectHarukaDocument\canon\03_characters\ayakomoji_misao.md|143
 C:\Projects\ProjectHarukaDocument\canon\03_characters\haruka.md|139
-C:\Projects\ProjectHarukaDocument\canon\03_characters\iroha.md|131
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md|131
 C:\Projects\ProjectHarukaDocument\canon\03_characters\iwakura_akane.md|143
 C:\Projects\ProjectHarukaDocument\canon\03_characters\ko_hikaru.md|115
 C:\Projects\ProjectHarukaDocument\canon\03_characters\miyako.md|158

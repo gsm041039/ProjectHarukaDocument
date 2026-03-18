@@ -1,9 +1,9 @@
-C:\Projects\ProjectHarukaDocument\canon\03_characters\airi.md
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aeri.md
 C:\Projects\ProjectHarukaDocument\canon\03_characters\akiho.md
-C:\Projects\ProjectHarukaDocument\canon\03_characters\antagonist.md
-C:\Projects\ProjectHarukaDocument\canon\03_characters\ayakomoji_sou.md
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md
+C:\Projects\ProjectHarukaDocument\canon\03_characters\ayakomoji_misao.md
 C:\Projects\ProjectHarukaDocument\canon\03_characters\haruka.md
-C:\Projects\ProjectHarukaDocument\canon\03_characters\iroha.md
+C:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md
 C:\Projects\ProjectHarukaDocument\canon\03_characters\iwakura_akane.md
 C:\Projects\ProjectHarukaDocument\canon\03_characters\ko_hikaru.md
 C:\Projects\ProjectHarukaDocument\canon\03_characters\miyako.md

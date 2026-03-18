@@ -80,15 +80,15 @@ canon/
 ├── 03_characters/
 │   ├── haruka.md
 │   ├── miyako.md
-│   ├── iroha.md
+│   ├── aya.md
 │   ├── saku.md
 │   ├── akiho.md
-│   ├── airi.md
+│   ├── aeri.md
 │   ├── iwakura_akane.md
-│   ├── ayakomoji_sou.md
+│   ├── ayakomoji_misao.md
 │   ├── ko_hikaru.md
 │   ├── rin.md
-│   ├── antagonist.md
+│   ├── aya.md
 │   └── yu.md
 ├── 04_timeline_canon.md
 ├── 05_story_outline_canon.md

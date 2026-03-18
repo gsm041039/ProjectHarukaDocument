@@ -5,7 +5,7 @@
   - `canon/03_characters/haruka.md`
   - `canon/03_characters/miyako.md`
   - `canon/03_characters/yu.md`
-  - `canon/03_characters/antagonist.md`
+  - `canon/03_characters/aya.md`
   - `canon/03_characters/akiho.md`
   - `canon/03_characters/iwakura_akane.md`
 - Dependency:

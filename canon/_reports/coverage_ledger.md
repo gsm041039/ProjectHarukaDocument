@@ -13,21 +13,21 @@
 |---|---------|---------|--------------|---------|------|
 | A-01 | `backup/screenwriter/00_Story_Brief.md` | 世界觀概要、計劃前提、核心衝突 | `canon/00_series_bible.md` §section-premise + §section-core-themes | — | ✅ |
 | A-02 | `backup/screenwriter/01_Character_Background_Story.md` | 主角（晴香、美夜子）背景故事 | `canon/03_characters/haruka.md` + `canon/03_characters/miyako.md` | — | ✅ |
-| A-03 | `backup/screenwriter/02_Secondary_Character_Background_Story.md` | 次要角色（朱音、操、秋穗、朔、凜、愛莉、Ko光）背景 | `canon/03_characters/iwakura_akane.md` + `ayakomoji_sou.md` + `akiho.md` + `saku.md` + `iroha.md` + `canon/03_character_index.md` | — | ✅ |
+| A-03 | `backup/screenwriter/02_Secondary_Character_Background_Story.md` | 次要角色（朱音、操、秋穗、朔、凜、愛莉、Ko光）背景 | `canon/03_characters/iwakura_akane.md` + `ayakomoji_misao.md` + `akiho.md` + `saku.md` + `aya.md` + `canon/03_character_index.md` | — | ✅ |
 | A-04 | `backup/screenwriter/03_Worldview_Setting.md` | 世界規則、魔力系統、存在代價、Alpha/Beta 線 | `canon/01_world_rules_and_costs.md` + `canon/02_glossary.md` | — | ✅ |
 | A-05 | `backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md` | 四幕結構分析、氛圍設計、大事件節點 | `canon/05_story_outline_canon.md` §section-act-structure | — | ✅ |
 | A-06 | `backup/screenwriter/05_Story_Outline_Director_Notes.md` | 故事大綱 + 膠布哲學四層揭露導演細節 | `canon/05_story_outline_canon.md`（大綱主體 + §director-band-aid-3rd + §director-band-aid-4th） | Step 1d | ✅ |
 | A-07 | `backup/screenwriter/06_Character_Psychology_Analysis.md` | 各角色 Want/Need/Lie/Truth/Wound 心理剖析 | `canon/03_characters/*.md` §section-psychology | — | ✅ |
 | A-08 | `backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md` | 大事件對角色關係的衝擊 | `canon/04_timeline_canon.md` §section-events + `canon/03_characters/*.md` §section-relationships | — | ✅ |
 | A-09 | `backup/screenwriter/08_Emotion_Setting_Overview.md` | 情緒系統、感官失真規格、情緒增幅器機制 | `canon/01_world_rules_and_costs.md` §rule-emotional-qualia + `canon/02_glossary.md`（情緒相關術語） | Step 1b | ✅ |
-| A-10 | `backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md` | 各角色私密感官習慣（黑暗沖涼、研磨斷刃、穿鞋守門、強迫清洗等） | `canon/03_characters/haruka.md` §habit-* × 4 + `miyako.md` §habit-* × 4 + `iwakura_akane.md` §habit-* × 3 + `ayakomoji_sou.md` §habit-* × 2 + `saku.md` §habit-* × 2 + `akiho.md` §habit-* × 2 | Step 1c | ✅ |
+| A-10 | `backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md` | 各角色私密感官習慣（黑暗沖涼、研磨斷刃、穿鞋守門、強迫清洗等） | `canon/03_characters/haruka.md` §habit-* × 4 + `miyako.md` §habit-* × 4 + `iwakura_akane.md` §habit-* × 3 + `ayakomoji_misao.md` §habit-* × 2 + `saku.md` §habit-* × 2 + `akiho.md` §habit-* × 2 | Step 1c | ✅ |
 | A-11 | `backup/screenwriter/10_Girl_Daily_Social_Interaction_Setting.md` | 少女心理維度 6-11、K房場景（美夜子唱《雨天》）、日常殘酷對比六大方向 | `canon/10_gameplay_bible.md` §section-girl-psychology-extended + §section-k-room-scene + §section-daily-cruelty-contrast | Step 1d | ✅ |
 | A-12 | `backup/screenwriter/11_Deep_Philosophy_Concepts.md` | 世界免疫系統理論（~200行）、執念飽和度、情緒視覺論、共感詛咒、記憶與自我悖論、未經同意的救贖 | `canon/01_world_rules_and_costs.md` §section-world-immune-system + §rule-emotional-qualia；`canon/02_glossary.md` term-obsession-saturation + term-empathy-curse + term-memory-identity-paradox + term-salvation-sin | Step 1b | ✅ |
 | A-13 | `backup/screenwriter/12_Social_Evaluation_Quest_System.md` | 社會風評系統、任務評分機制 | `canon/10_gameplay_bible.md` §section-social-evaluation + §section-mission-architecture | — | ✅ |
 | A-14 | `backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md` | Alpha/Beta 線機制、時間線分支規則、觀眾資訊控制 | `canon/01_world_rules_and_costs.md` §section-alpha-beta-rules + `canon/02_glossary.md` term-alpha-line + term-beta-line | — | ✅ |
 | A-15 | `backup/screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md` | 心匣裝置規格、命運機制、契約細節 | `canon/07_entities_and_devices.md` §section-heart-container + §section-destiny-contract | — | ✅ |
 | A-16 | `backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md` | 魔法少女主題詮釋、犧牲 vs 消費分析 | `canon/00_series_bible.md` §section-themes-analysis | — | ✅ |
-| A-17 | `backup/screenwriter/Villain_Master_Plan.md` | 反派（黑奏）計劃、目標、手段 | `canon/03_characters/antagonist.md` §section-master-plan | — | ✅ |
+| A-17 | `backup/screenwriter/Villain_Master_Plan.md` | 反派（黑奏）計劃、目標、手段 | `canon/03_characters/aya.md` §section-master-plan | — | ✅ |
 
 ---
 
@@ -61,12 +61,12 @@
 | C-07 | `backup/draft/art_originals/01_Core_Visual_Pillars_Detailed.md` | 情緒物質5種特性表、腐蝕三階段（含Stage 1/2虹膜封印）、晴香存在同化反噬、愛莉橙色結晶、裝置使用者屍骸複合視覺、鏡面意圖判定基準 | `canon/06_visual_bible.md` §情緒物質 + §腐蝕三階段 + §haruka-special + §airi-visual + §corpse-visual + §mirror-intent（GAP-52/53/54/55/56/57） | Phase 51 | ✅ |
 | C-08 | `backup/draft/art_originals/202_Character_Visual_Design_Haruka.md` | 晴香光杖/光棍雙模式規格（少林棍法/雷神錘）、蜜腿旋轉軸心、戰鬥美學 | `canon/03_characters/haruka.md` §visual-weapon（GAP-58/59/60） | Phase 52 | ✅ |
 | C-09 | `backup/draft/art_originals/203_Character_Visual_Design_Miyako.md` | 美夜子MP7A1零裝飾設計規則、子彈圓舞曲三動作（含滑行射擊）、腐蝕視覺例外框架 | `canon/03_characters/miyako.md` §visual-weapon（GAP-61/62/63） | Phase 52 | ✅ |
-| C-10 | `backup/draft/art_originals/204_Character_Visual_Design_Iroha.md` | 熊公仔自動潔淨視覺線索、黑奏皇袍情緒動態旋轉/碎裂規則、黑奏血淚失控glitch噪點 | `canon/03_characters/iroha.md` §visual + §habit-bear（GAP-64/65/66） | Phase 52 | ✅ |
+| C-10 | `backup/draft/art_originals/204_Character_Visual_Design_Iroha.md` | 熊公仔自動潔淨視覺線索、黑奏皇袍情緒動態旋轉/碎裂規則、黑奏血淚失控glitch噪點 | `canon/03_characters/aya.md` §visual + §habit-bear（GAP-64/65/66） | Phase 52 | ✅ |
 | C-11 | `backup/draft/art_originals/205_Character_Visual_Design_Saku.md` | 朔弩規格（木材+竊取技術+光箭）、紅色領帶「血跡」象徵解讀 | `canon/03_characters/saku.md` §visual-weapon（GAP-67/68） | Phase 51 | ✅ |
 | C-12 | `backup/draft/art_originals/206_Character_Visual_Design_Akiho.md` | 秋穗執行官形態公式/數據流皮膚視覺、手刃武器規格、壓縮型權威感外形功能、模仿花子表演規則 | `canon/03_characters/akiho.md` §visual-executor + §behavior-hooks（GAP-69/70/71/72） | Phase 52 | ✅ |
-| C-13 | `backup/draft/art_originals/207_Character_Visual_Design_Airi.md` | 愛莉蠟筆太陽盾起源（為秋穗媽媽所畫）、水晶雕像內部橙紅脈紋說明 | `canon/03_characters/airi.md` §visual（GAP-16/17） | Phase 51 | ✅ |
+| C-13 | `backup/draft/art_originals/207_Character_Visual_Design_Airi.md` | 愛莉蠟筆太陽盾起源（為秋穗媽媽所畫）、水晶雕像內部橙紅脈紋說明 | `canon/03_characters/aeri.md` §visual（GAP-16/17） | Phase 51 | ✅ |
 | C-14 | `backup/draft/art_originals/208_Character_Visual_Design_Iwakura_Akane.md` | 朱音笑面電鋸音效、嘴部裂開規格、調味粉罐道具、飢餓幽靈鏡像、屍骸女王完全形態 | `canon/03_characters/iwakura_akane.md` §visual（GAP-40） | Phase 52 | ✅ |
-| C-15 | `backup/draft/art_originals/209_Character_Visual_Design_Ayakomoji_Sou.md` | 操「父母」傀儡道具、玫瑰金量尺、絲線手套、懸空弱點、傀儡牆最終形態、3mm精準斷手場面、四幕強迫症升級時序 | `canon/03_characters/ayakomoji_sou.md` §visual（GAP-50） | Phase 52 | ✅ |
+| C-15 | `backup/draft/art_originals/209_Character_Visual_Design_Ayakomoji_Sou.md` | 操「父母」傀儡道具、玫瑰金量尺、絲線手套、懸空弱點、傀儡牆最終形態、3mm精準斷手場面、四幕強迫症升級時序 | `canon/03_characters/ayakomoji_misao.md` §visual（GAP-50） | Phase 52 | ✅ |
 | C-16 | `backup/draft/art_originals/210_Character_Visual_Design_Rin.md` | 凜1/1000度微笑弧光、術前/術後微行為對比（脈搏點→裝置位置） | `canon/03_characters/rin.md` §visual（GAP-41） | Phase 51 | ✅ |
 | C-17 | `backup/draft/art_originals/211_Character_Visual_Design_Ko_Hikaru.md` | 光棒棒糖透明活著/灰黑化「死亡」視覺、廢鐵碰撞音效、聲音失去諧波、夜區螢火蟲意象 | `canon/03_characters/ko_hikaru.md` §visual（GAP-42） | Phase 51 | ✅ |
 | C-18 | `backup/draft/art_originals/301_Worldview_Art_Direction_Handbook.md` | 日區服裝材質規格（PVC/透明塑料/全息布料） | `canon/06_visual_bible.md` §日區服裝規格（GAP-73） | Phase 51 | ✅ |

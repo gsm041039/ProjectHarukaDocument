@@ -7,7 +7,7 @@
   - `canon/03_characters/iwakura_akane.md`
   - `canon/03_characters/ko_hikaru.md`
   - `canon/03_characters/saku.md`
-  - `canon/03_characters/ayakomoji_sou.md`
+  - `canon/03_characters/ayakomoji_misao.md`
 
 ## Applied Changes
 - Header Table 的「帝國歷 xx 年時」統一改為「主線期」或回指 Timeline。
@@ -16,7 +16,7 @@
 
 ## Metrics
 - Character 年份命中（`\\d{2,4}\\s*年`）：
-  - `iroha.md=7`
+  - `aya.md=7`
   - 其餘角色檔全部 `0`
 - Link audit：
   - `BROKEN_FILE_LINKS=0`

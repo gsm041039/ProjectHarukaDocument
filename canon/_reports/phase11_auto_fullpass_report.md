@@ -19,9 +19,9 @@
 - `canon/03_characters/yu.md`
 - `canon/03_characters/rin.md`
 - `canon/03_characters/miyako.md`
-- `canon/03_characters/airi.md`
+- `canon/03_characters/aeri.md`
 - `canon/03_characters/akiho.md`
-- `canon/03_characters/antagonist.md`
+- `canon/03_characters/aya.md`
 - `canon/06_visual_bible.md`
 - `canon/10_gameplay_bible.md`
 - `canon/99_decision_log.md`
@@ -40,7 +40,7 @@
 
 ## 最終殘留 2 條（判定可接受）
 
-1. `canon/03_characters/antagonist.md:43`
+1. `canon/03_characters/aya.md:43`
 - 角色哲學句（工程倫理立場），非世界條文重寫。
 
 2. `canon/03_characters/akiho.md:61`

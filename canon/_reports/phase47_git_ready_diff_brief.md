@@ -9,12 +9,12 @@
  M canon/00_series_bible.md
  M canon/01_world_rules_and_costs.md
  M canon/02_glossary.md
- M canon/03_characters/airi.md
+ M canon/03_characters/aeri.md
  M canon/03_characters/akiho.md
- M canon/03_characters/antagonist.md
- M canon/03_characters/ayakomoji_sou.md
+ M canon/03_characters/aya.md
+ M canon/03_characters/ayakomoji_misao.md
  M canon/03_characters/haruka.md
- M canon/03_characters/iroha.md
+ M canon/03_characters/aya.md
  M canon/03_characters/iwakura_akane.md
  M canon/03_characters/ko_hikaru.md
  M canon/03_characters/miyako.md

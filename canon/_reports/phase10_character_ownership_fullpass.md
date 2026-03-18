@@ -28,7 +28,7 @@
 - 收斂復活與貓化段的機制描述。
 - 改為角色代價與心理意義句，事件/規則分別回鏈 `Timeline` 與 `Glossary/World Rules`。
 
-### D. `canon/03_characters/airi.md`
+### D. `canon/03_characters/aeri.md`
 - 「時間線不受影響記憶觀測點」改為敘事功能句（記憶錨點）。
 - 時間線客觀對照回鏈 `Timeline` 對應章節。
 
@@ -36,7 +36,7 @@
 - 愛莉事故段收斂為角色弧責任句，機制與客觀事件外移到 owner。
 - Unit 01 段改為罪責與心理後果語義，事件順序回鏈 `Timeline`。
 
-### F. `canon/03_characters/antagonist.md`
+### F. `canon/03_characters/aya.md`
 - 鏡像法則段改為角色立場詮釋。
 - 條文/視覺規格分別回鏈 `World Rules` 與 `Visual Bible`。
 

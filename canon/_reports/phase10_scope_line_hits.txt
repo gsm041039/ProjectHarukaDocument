@@ -4,9 +4,9 @@ canon/03_characters\rin.md:15:- 術語/規則/事件只連到 Canon，不在此�
 canon/03_characters\miyako.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 canon/03_characters\ko_hikaru.md:15:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 canon/03_characters\iwakura_akane.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
-canon/03_characters\iroha.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+canon/03_characters\aya.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 canon/03_characters\haruka.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
-canon/03_characters\ayakomoji_sou.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
-canon/03_characters\antagonist.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+canon/03_characters\ayakomoji_misao.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+canon/03_characters\aya.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
 canon/03_characters\akiho.md:14:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
-canon/03_characters\airi.md:15:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。
+canon/03_characters\aeri.md:15:- 術語/規則/事件只連到 Canon，不在此重寫完整定義。

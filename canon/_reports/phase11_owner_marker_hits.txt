@@ -15,8 +15,8 @@ canon\10_gameplay_bible.md:82:- **殺死**：短期效率高，但在長線回�
 canon\10_gameplay_bible.md:83:- **淨化**：提供戰術緩衝，不等同長線解決（狀態口徑見 [Entities：魔法屍骸](07_entities_and_devices.md#section-magical-corpse)）
 canon\10_gameplay_bible.md:84:- **靈魂抽離**：屬高門檻但高價值的終局處理（流程口徑見 [§ 靈魂抽離機制](#section-soul-extraction)）
 canon\06_visual_bible.md:231:**視覺用途**：光環用作魔法少女狀態讀取的主視覺層；術語口徑見 [Glossary：光環](02_glossary.md#term-halo) 與 [World Rules](01_world_rules_and_costs.md)。
-canon\03_characters\antagonist.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
-canon\03_characters\antagonist.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏把「映照真實」當作可被操控的舞台道具。角色意義上，這是她修正主義的視覺化；法則條文與演出規格分別見 [World Rules](../01_world_rules_and_costs.md#rule-mirror-law) 與 [Visual Bible](../06_visual_bible.md#section-law-mirror-visual)。
+canon\03_characters\aya.md:75:魔法少女是「極限情感數據養殖場」。黑奏的策略是放養而非一次性收割——讓少女經歷希望、絕望、再希望、再絕望的循環，每次循環都產生更高純度的情緒能量。對她而言，[魔法屍骸](../02_glossary.md#term-magical-corpse)只是收割流程的末端產物（術語口徑見 [Glossary](../02_glossary.md#term-magical-corpse)）。
+canon\03_characters\aya.md:177:與[鏡像法則](../02_glossary.md#term-mirror-law)的關係：黑奏把「映照真實」當作可被操控的舞台道具。角色意義上，這是她修正主義的視覺化；法則條文與演出規格分別見 [World Rules](../01_world_rules_and_costs.md#rule-mirror-law) 與 [Visual Bible](../06_visual_bible.md#section-law-mirror-visual)。
 canon\03_characters\akiho.md:39:帝國歷 98 年的愛莉事故是秋穗角色弧的不可逆起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
 canon\03_characters\akiho.md:49:為黑奏服務期間，秋穗犯下最不可饒恕的罪行——把美夜子推入 Unit 01 路線。此段聚焦罪責與心理後果；技術流程與事件順序見 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival)。
 canon\03_characters\miyako.md:37:在所有主要角色中，美夜子擁有獨特定位——她是唯一在 [Alpha 線](../02_glossary.md#term-alpha-line)中真正死亡的角色。後續「被拉回」不是奇蹟，而是整個體制代價的集中體現；客觀事件鏈以 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival) 為準。

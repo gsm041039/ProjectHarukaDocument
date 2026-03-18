@@ -3,8 +3,8 @@
 ## Scope
 - 全 Canon 非抽樣 owner-boundary 深檢（含角色檔時間鏈洩漏壓縮）
 - 修正檔案：
-  - `canon/03_characters/antagonist.md`
-  - `canon/03_characters/iroha.md`
+  - `canon/03_characters/aya.md`
+  - `canon/03_characters/aya.md`
   - `canon/03_characters/miyako.md`
   - `canon/03_characters/rin.md`
 
@@ -15,15 +15,15 @@
 
 ## Metrics
 - Character 年份命中（`\\d{2,4}\\s*年`）最新分佈：
-  - `iroha.md=7`
+  - `aya.md=7`
   - `akiho.md=2`
   - `haruka.md=2`
   - `iwakura_akane.md=2`
   - `ko_hikaru.md=2`
-  - `ayakomoji_sou.md=1`
+  - `ayakomoji_misao.md=1`
   - `saku.md=1`
-  - `airi.md=0`
-  - `antagonist.md=0`
+  - `aeri.md=0`
+  - `aya.md=0`
   - `miyako.md=0`
   - `rin.md=0`
   - `yu.md=0`
@@ -33,7 +33,7 @@
 - 舊路徑 hyperlink：`OLDPATH_LINK_HITS=0`
 
 ## Residual Risk
-- `iroha.md` 仍保留少量年份語句（角色自我時間感所需），但已移除明確客觀鏈細節與分期表。
+- `aya.md` 仍保留少量年份語句（角色自我時間感所需），但已移除明確客觀鏈細節與分期表。
 - `akiho.md`/`haruka.md`/`iwakura_akane.md`/`ko_hikaru.md` 尚有低量年份標記，可放入下一輪細化壓縮。
 
 ## Result

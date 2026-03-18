@@ -6,7 +6,7 @@
   - 掃描誤報 `character_leak`（2，來源註解段）
 
 ## Files Updated
-- `canon/03_characters/antagonist.md`
+- `canon/03_characters/aya.md`
 - `canon/03_characters/akiho.md`
 - `canon/03_characters/iwakura_akane.md`
 - `canon/03_characters/ko_hikaru.md`

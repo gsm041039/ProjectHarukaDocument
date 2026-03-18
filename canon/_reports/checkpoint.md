@@ -46,7 +46,7 @@
 
 **新增決策項目（2026-03-15）：**
 - ✅ Q-ARCH-1：**RESOLVED A** — 新增 canon/09_information_design.md（資訊揭露架構）
-- ✅ Q-SCOPE-1：**RESOLVED A** — iroha.md 完整補全至主角深度
+- ✅ Q-SCOPE-1：**RESOLVED A** — aya.md 完整補全至主角深度
 - ✅ Q-SCOPE-2：**RESOLVED A** — rin.md 補核心因果鏈
 - ✅ Q-DECIDE-1：**RESOLVED B** — 7 個場景晉升至 canon/05 附錄
 

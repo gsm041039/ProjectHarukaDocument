@@ -15,7 +15,7 @@
 
 2. Owner 引用強化
 - `canon/00_series_bible.md` 將規則類描述改為「World Rules 為準，本文只保留敘事用途」。
-- `canon/03_characters/antagonist.md` 將術語補註統一為「術語口徑見 Glossary」。
+- `canon/03_characters/aya.md` 將術語補註統一為「術語口徑見 Glossary」。
 
 ## 已修改文件
 
@@ -24,9 +24,9 @@
 - `canon/06_visual_bible.md`
 - `canon/10_gameplay_bible.md`
 - `canon/03_characters/haruka.md`
-- `canon/03_characters/ayakomoji_sou.md`
+- `canon/03_characters/ayakomoji_misao.md`
 - `canon/03_characters/iwakura_akane.md`
-- `canon/03_characters/antagonist.md`
+- `canon/03_characters/aya.md`
 
 ## 驗證結果
 

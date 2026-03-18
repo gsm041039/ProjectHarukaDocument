@@ -29,13 +29,13 @@
   29: 
   30: | 年份 | 事件 | 影響 |
   31: |------|------|------|
-  32: | **73** | <a id="event-aya-birth"></a>澄川彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/antagonist.md)的宿主誕生 |
+  32: | **73** | <a id="event-aya-birth"></a>澄川彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/aya.md)的宿主誕生 |
   33: | **76** | <a id="event-miyako-birth"></a>[美夜子](03_characters/miyako.md)誕生（東雲花子的大女兒） | 未來晴香的姊姊 |
   34: | **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始 |
   35: | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |
   36: | **97** | <a id="event-haruka-birth"></a>[雨宮晴香](03_characters/haruka.md)誕生 | 創世者誕生 |
   37: | **98** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變**：黑奏殺死帝國皇帝，奪取最高權力 | 黑奏掌權 |
-  38: | **98** | <a id="event-airi-accident"></a>**愛莉事故**：[愛莉](03_characters/airi.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
+  38: | **98** | <a id="event-airi-accident"></a>**愛莉事故**：[愛莉](03_characters/aeri.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
   39: 
   40: ---
   41: 
@@ -47,7 +47,7 @@
   47: ### <a id="event-alpha-original"></a>Alpha 線原初現實
   48: 
   49: - 5 歲的[晴香](03_characters/haruka.md)（97+5=102）與 26 歲的[美夜子](03_characters/miyako.md)（76+26=102）為感情深厚的親姊妹
-  50: - <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/antagonist.md)在晴香面前殺害花子和美夜子
+  50: - <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/aya.md)在晴香面前殺害花子和美夜子
   51: - <a id="event-first-reality-change"></a>**第一次[改變現實](02_glossary.md#term-reality-change)**：晴香的悲痛撕裂時空，創造 Beta 線高魔世界
   52: - 晴香的天真願望「如果家姐變做貓仔就唔會受傷」被刻入世界法則，成為美夜子的[避難所詛咒](02_glossary.md#term-shelter-curse)
   53: 
@@ -85,12 +85,12 @@
   85: ### <a id="section-113-march"></a>113 年 3 月：覺醒與組隊
   86: 
   87: - <a id="event-story-begin"></a>**故事開端**：貓型美夜子將裝置交給晴香，姊妹不知情重逢
-  88: - <a id="event-aya-appears"></a>**彩登場**：轉校生[彩](03_characters/antagonist.md)進入晴香學校，以低調怯懦的形象出現；晴香出手幫助被欺凌的彩
+  88: - <a id="event-aya-appears"></a>**彩登場**：轉校生[彩](03_characters/aya.md)進入晴香學校，以低調怯懦的形象出現；晴香出手幫助被欺凌的彩
   89: - <a id="event-rin-first-reunion"></a>**凜的第一次重逢**：凜（重組後）首次與美夜子的新團隊交戰
   90: 
   91: ### <a id="section-113-april"></a>113 年 4 月：團隊建立
   92: 
-  93: - <a id="event-misao-joins"></a>**[操](03_characters/ayakomoji_sou.md)的加入**：操為了還人情勉強答應「暫時指導妳們這些庶民」
+  93: - <a id="event-misao-joins"></a>**[操](03_characters/ayakomoji_misao.md)的加入**：操為了還人情勉強答應「暫時指導妳們這些庶民」
   94: - <a id="event-akane-joins"></a>**[朱音](03_characters/iwakura_akane.md)的加入**：朱音因晴香的微小善意（給糖吃）開始跟隨團隊
   95: - <a id="event-girls-day-out"></a>**日常：少女假日約會**：團隊難得的和平時光
   96: - <a id="event-school-heist"></a>**日常：潛入學校偷東西**：建立秘密基地，培養團隊默契
@@ -103,7 +103,7 @@
  103: 
  104: - <a id="event-rin-haruka-touch"></a>**凜與晴香的第一次觸動**：晴香對凜展現溫柔，凜產生動搖
  105: - <a id="event-hq-raid"></a>**總部被襲**：操因虛榮心洩露據點，情緒管理局突襲，美夜子重創；操坦白後被原諒，成為真正融入團隊的起點
- 106: - <a id="event-paper-knight-1"></a>**紙皮騎士守護（一）**：美夜子噩夢中出現紙皮騎士（[愛莉](03_characters/airi.md)在集體潛意識中的守護）
+ 106: - <a id="event-paper-knight-1"></a>**紙皮騎士守護（一）**：美夜子噩夢中出現紙皮騎士（[愛莉](03_characters/aeri.md)在集體潛意識中的守護）
  107: - <a id="event-perfect-cost"></a>**完美的代價**：操堅持完美戰術錯過擊殺機會，朱音為掩護操手臂受重傷
  108: - <a id="event-ruins-confrontation"></a>**廢墟對質**：朱音揭穿操的真正動機，隊友關係緊張
  109: 
@@ -224,8 +224,8 @@
  224: | 場景錨點 | 所在時段 | 事件功能 | 主要影響角色 |
  225: |---|---|---|---|
  226: | [月下窗台存在確認](#event-miyako-awakening) | 114 年 5 月 | 把美夜子從「功能性活著」推向「主體性活著」 | [美夜子](03_characters/miyako.md)、[晴香](03_characters/haruka.md) |
- 227: | [鋼鐵獨舞](#event-steel-solo) | 114 年 5 月 | 操從控制崩壞轉入自我承擔 | [操](03_characters/ayakomoji_sou.md) |
- 228: | [雙重犧牲](#event-double-sacrifice) | 114 年 5 月 | 朱音與操完成「態度式治癒」閉環 | [朱音](03_characters/iwakura_akane.md)、[操](03_characters/ayakomoji_sou.md) |
+ 227: | [鋼鐵獨舞](#event-steel-solo) | 114 年 5 月 | 操從控制崩壞轉入自我承擔 | [操](03_characters/ayakomoji_misao.md) |
+ 228: | [雙重犧牲](#event-double-sacrifice) | 114 年 5 月 | 朱音與操完成「態度式治癒」閉環 | [朱音](03_characters/iwakura_akane.md)、[操](03_characters/ayakomoji_misao.md) |
  229: | [希望背叛](#event-hope-betrayal) | 114 年 5 月 | 英雄敘事正式斷裂，進入存在命題 | [晴香](03_characters/haruka.md) |
  230: | [母愛的琥珀](#event-amber-of-love) | 114 年 7 月 | 晴香從逃避回到承擔，完成自我整合前置 | [晴香](03_characters/haruka.md) |
  231: | [靈魂共鳴](#event-soul-resonance) | 114 年 9 月 | 逝者態度跨越生死，完成主題驗證 | 晴香、操、朱音 |

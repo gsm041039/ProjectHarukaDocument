@@ -7,7 +7,7 @@
 ## 已完成改動
 - `canon/04_timeline_canon.md`：新增事件錨點 `event-kurokana-body-reveal`（真身揭露：巨大衣服，微小的神），並加入關鍵場景索引表。
 - `canon/05_story_outline_canon.md`：在 Act III 關鍵節點新增「真身揭露」結構功能段，並重排後續編號。
-- `canon/03_characters/antagonist.md`：補入黑奏於第三幕使用「真身揭露」的心理戰意義，並在事件錨點區加入對應連結。
+- `canon/03_characters/aya.md`：補入黑奏於第三幕使用「真身揭露」的心理戰意義，並在事件錨點區加入對應連結。
 
 ## 快速覆蓋檢查（高價值詞）
 | 詞條 | Canon 是否命中 |
@@ -28,12 +28,12 @@
 ## Round 1-B（追加補齊）
 - `canon/04_timeline_canon.md`：新增 `event-paper-knight-2`（紙皮騎士守護（二）），補齊愛莉對朱音崩潰期的潛意識守門事件。
 - `canon/05_story_outline_canon.md`：Act II「社會性死亡」段新增對應結構功能說明，交代第三幕回歸動機前置。
-- `canon/03_characters/airi.md`：關鍵事件錨點新增守護（一）（二）對齊 Timeline。
+- `canon/03_characters/aeri.md`：關鍵事件錨點新增守護（一）（二）對齊 Timeline。
 
 ## Round 2（操的調停嘗試：事件/結構/心理三層補齊）
 - `canon/04_timeline_canon.md`：把 `event-misao-mediation` 擴寫為「操的調停嘗試（調停失敗）」，補入對話核心與失敗後果，並加 alias `event-misao-mediation-failure`。
 - `canon/05_story_outline_canon.md`：Act II 新增「操的調停失敗」之結構功能（理性協商路線失效，衝突升級為不可逆裂解）。
-- `canon/03_characters/ayakomoji_sou.md`：新增「調停失敗——完美理性的破產」心理段，連接至第四幕承擔。
+- `canon/03_characters/ayakomoji_misao.md`：新增「調停失敗——完美理性的破產」心理段，連接至第四幕承擔。
 - `canon/03_characters/iwakura_akane.md`：新增「調停失敗——被理解恐懼的反彈」心理段，解釋為何被理解仍拒絕回頭。
 - 驗證：`#event-misao-mediation` 在 Outline 與兩份角色頁均已命中；本輪未新增任何舊目錄超連結。
 
@@ -47,7 +47,7 @@
 ## Round 4（公開處刑／終極變異體：體制陷阱鏈）
 - `canon/04_timeline_canon.md`：新增 `event-public-execution-bait` / `event-sanitation-execution-declare`，補入「衛生行動公開處刑公告（陷阱）」事件。
 - `canon/05_story_outline_canon.md`：補入此事件之結構功能（私下對抗升級為全民凝視的處刑劇場）。
-- `canon/03_characters/ayakomoji_sou.md`：新增心理段「公開處刑話術——從人到變異體的再物化」，並加入事件錨點。
+- `canon/03_characters/ayakomoji_misao.md`：新增心理段「公開處刑話術——從人到變異體的再物化」，並加入事件錨點。
 - 驗證：新錨點/詞條已命中；本輪未新增舊目錄超連結。
 
 ## Round 5（朔／美夜子既視感追認：關係重建鏈）

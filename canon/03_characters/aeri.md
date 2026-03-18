@@ -1,7 +1,7 @@
-# 東雲愛莉（Shinonome Airi）
+# 東雲愛莉（Shinonome Aeri）
 
 > **讀者指引**：本頁是愛莉的單一角色 Canon Sheet——秋穗的女兒、第一個人造魔法屍骸石像，以及精神網絡中的「紙皮騎士」。
-> 首次閱讀建議先看 [§ Header Table](#char-airi) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 首次閱讀建議先看 [§ Header Table](#char-aeri) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
 > 理解愛莉必須同時理解[秋穗](akiho.md)的罪孽與[濾心機制](../02_glossary.md#term-filter-heart)。
 > 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
 
@@ -16,7 +16,7 @@
 
 ---
 
-## Header Table
+## <a id="char-aeri"></a>Header Table
 
 
 | 欄位            | 內容                                                                                                                                             |
@@ -38,7 +38,7 @@
 
 愛莉闖入母親[秋穗](akiho.md)的實驗室接觸情緒力量裝置，意外成為[緋潮](../02_glossary.md#term-scarlet-tide)的第一個人類錨點——世界上第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)。現實中，她是一座冰冷的石像；精神世界中，她以「紙皮騎士」的姿態繼續戰鬥。
 
-**See also**: [Timeline — 愛莉事故](../04_timeline_canon.md#event-airi-accident)
+**See also**: [Timeline — 愛莉事故](../04_timeline_canon.md#event-aeri-accident)
 
 ### 精神世界中的紙皮騎士
 
@@ -179,7 +179,7 @@ T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾。�
 
 ## 關鍵事件錨點（Timeline 對齊）
 
-- [愛莉事故](../04_timeline_canon.md#event-airi-accident)：紙皮騎士弧光的起點。
+- [愛莉事故](../04_timeline_canon.md#event-aeri-accident)：紙皮騎士弧光的起點。
 - [紙皮騎士守護（一）](../04_timeline_canon.md#event-paper-knight-1)：先在美夜子噩夢場域出現，建立潛意識守門人身份。
 - [紙皮騎士守護（二）](../04_timeline_canon.md#event-paper-knight-2)：在朱音崩潰期維持心智邊界，保留其回歸與贖罪可能。
 - [美夜子失蹤/救援](../04_timeline_canon.md#event-miyako-missing)：潛意識風暴與守門功能顯性化。
@@ -204,7 +204,7 @@ T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾。�
 - [秋穗 Canon Sheet](akiho.md) — 母親的罪孽與救贖
 - [晴香 Canon Sheet](haruka.md) — 表姐、創世者
 - [Character Index](../03_character_index.md) — 角色總覽與關係網
-- [Timeline — 愛莉事故](../04_timeline_canon.md#event-airi-accident) — 屍骸化事件
+- [Timeline — 愛莉事故](../04_timeline_canon.md#event-aeri-accident) — 屍骸化事件
 - [Glossary — 濾心](../02_glossary.md#term-filter-heart) | [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse) | [Glossary — 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
 - [Story Outline](../05_story_outline_canon.md) — 四幕故事結構
 

@@ -16,7 +16,7 @@
 | canon/03_characters/akiho.md | 2 |
 | canon/03_characters/ko_hikaru.md | 1 |
 | canon/03_characters/iwakura_akane.md | 1 |
-| canon/03_characters/antagonist.md | 1 |
+| canon/03_characters/aya.md | 1 |
 | canon/05_story_outline_canon.md | 1 |
 
 ## Top Residual Risks (Top 25)
@@ -25,7 +25,7 @@
 | canon/01_world_rules_and_costs.md | 67 | rule | 3 | timeline_leak,decision_ref | **帝國歷 102 年**（見 [Decision Log CF-002](99_decision_log.md#decision-cf002)）： - 5 歲的晴香（生於帝國歷 97 年）目睹黑奏攻擊家園 - 母親花子和姊姊美夜子（26 歲）同時在她面前被殺 - 晴香的「潛力之種」被極端創傷激活，向[集體潛意識](02_glossary.md#term-collective-unconscious)發出願望 - 創造了 Beta 線— |
 | canon/03_characters/akiho.md | 14 | character | 2 | rule_leak | 愛莉事故構成秋穗角色弧的不可逆起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。 |
 | canon/03_characters/akiho.md | 30 | character | 2 | rule_leak | **Lie（核心謊言）**： - 「收集足夠能量就能救愛莉」——黑奏的承諾從未打算兌現 - 「結果才是一切」——過程中造成的傷害同樣真實且不可逆 - 「我是為了愛莉才這麼做」——部分動機是為了超越花子和自我救贖 |
-| canon/03_characters/antagonist.md | 24 | character | 2 | rule_leak | 黑奏弒殺養父帝國皇帝並完成篡位。這標誌著她由「保護者」轉為「獨裁者」的不可逆轉折——為了保護彩，她需要權力；為了權力，她需要帝國；為了帝國，她需要成為她曾經憎恨的暴君。 |
+| canon/03_characters/aya.md | 24 | character | 2 | rule_leak | 黑奏弒殺養父帝國皇帝並完成篡位。這標誌著她由「保護者」轉為「獨裁者」的不可逆轉折——為了保護彩，她需要權力；為了權力，她需要帝國；為了帝國，她需要成為她曾經憎恨的暴君。 |
 | canon/02_glossary.md | 315 | glossary | 2 | rule_leak | <a id="term-causal-debt"></a> ### <a id="term-causal-debt"></a>因果債務（Causal Debt） - 一句定義：每次強行改寫或縫合現實都會累積的系統性反噬成本，最終必須由某個主體償還。 - 重要性：它約束了「改變現實」的濫用，確保世界規則仍保有不可逆與代價。 - 例子： - 彩於[最終決戰](04_timeline_canon.md#event-aya-awakening) |
 | canon/02_glossary.md | 316 | glossary | 2 | timeline_leak | <a id="term-unit-01"></a> ### <a id="term-unit-01"></a>Unit 01（美夜子兵器編號） - 一句定義：美夜子於復活後被帝國軍方編入的階段一兵器身份代碼。 - 重要性：它標記美夜子由「人」轉為「制度工具」的斷裂點，直接連結其後避難所詛咒。 - 例子： - [帝國歷 103-108 年](04_timeline_canon.md#event-unit01)被投入戰場 - 與[朔](03 |
 | canon/02_glossary.md | 319 | glossary | 2 | rule_leak | <a id="term-corpse-transformation"></a> ### <a id="term-corpse-transformation"></a>屍骸化（Corpse Transformation） - 一句定義：個體在情緒結構崩壞與規則侵蝕下，轉化為[魔法屍骸](#term-magical-corpse)的過程。 - 重要性：屍骸化是整個世界代價體系最直觀且最殘酷的可視後果。 - 例子： - [小光之死](04_t |

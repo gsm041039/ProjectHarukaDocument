@@ -47,10 +47,10 @@
 - ✅ miyako.md：補入 habit-dark-shower、habit-long-swim、habit-blade-grinding、habit-crying-desire（共 4 項，items 6-9）
 - ✅ haruka.md：補入 habit-rhythm-control、habit-transparency-obsession、habit-hot-cocoa、habit-ice-chewing（共 4 項，items 6-9；並強化 item 1 膠布哲學劇情弧線）
 - ✅ iwakura_akane.md：補入 habit-sleeping-in-boots（強化）、habit-dead-plants、habit-feed-cat-miyako、habit-gum-chewing（共 +3 項，items 6-8）
-- ✅ ayakomoji_sou.md：補入 habit-eye-mask、habit-compulsive-washing（共 +2 項，items 6-7）
+- ✅ ayakomoji_misao.md：補入 habit-eye-mask、habit-compulsive-washing（共 +2 項，items 6-7）
 - ✅ saku.md：補入 habit-earring-temperature、habit-ice-bath（共 +2 項，items 6-7）
 - ✅ akiho.md：補入 habit-instrument-scan、habit-statue-dialogue（共 +2 項，items 6-7）
-- ✅ iroha.md：backup/09 無對應章節，確認無需補入
+- ✅ aya.md：backup/09 無對應章節，確認無需補入
 
 **狀態**：✅ 完成
 
@@ -154,7 +154,7 @@
 - ✅ Q-001 A（靜止搖籃定局）：
   - haruka.md §status-static-cradle：Header Table 存活狀態更新為「靜止搖籃」定義
   - canon/05 Act IV §8：新增 §director-static-cradle-ending 明確確認定局
-- ✅ Q-002 A（操死亡確認）：ayakomoji_sou.md 已有「死亡（嘆息之橋）」記錄，無需補入
+- ✅ Q-002 A（操死亡確認）：ayakomoji_misao.md 已有「死亡（嘆息之橋）」記錄，無需補入
 - ✅ Q-003 C（冰封主體模糊化）：canon/04 §event-beta-reset 補入 HTML 設計懸念注釋
 - ✅ Q-004 A（美夜子 103 年復活）：
   - canon/04 event-miyako-revival 年份由「103-108」→「103」，補入冰封期說明

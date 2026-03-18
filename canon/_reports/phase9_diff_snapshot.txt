@@ -173,7 +173,7 @@ index f9c1483..139f507 100644
 -3. **光環警戒**：對隊友光環徵兆極度敏感，會粗暴打斷施法
 -4. **貓形態厭惡**：強烈抗拒變回貓，視為「失去尊嚴」的象徵
 -5. **沉默的守護**：不善言辭，用行動表達關心（偷偷檢查隊友傷勢、準備食物）
-+面對「借來的生命」真相——她本該在 Alpha 線安息，Beta 線的存在本身就是一場倒數。[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)中[朱音](iwakura_akane.md)和[操](ayakomoji_sou.md)的犧牲，迫使她直面：介錯人保護不了所有人。
++面對「借來的生命」真相——她本該在 Alpha 線安息，Beta 線的存在本身就是一場倒數。[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)中[朱音](iwakura_akane.md)和[操](ayakomoji_misao.md)的犧牲，迫使她直面：介錯人保護不了所有人。
 +
 +### [第四幕](../05_story_outline_canon.md#act-4)：美夜子的大哭
 +
@@ -268,7 +268,7 @@ index f9c1483..139f507 100644
 +| [秋穗](akiho.md) | 復活施術者 | 愛與罪的施予者；美夜子「借來的生命」的源頭 |
 +| [朔](saku.md) | Alpha 線青梅竹馬戀人 | 朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器） |
 +| [朱音](iwakura_akane.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
-+| [操](ayakomoji_sou.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
++| [操](ayakomoji_misao.md) | 隊友 | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
 +
 +---
 +
@@ -417,7 +417,7 @@ index 17244a4..b31e58a 100644
 +| [晴香](03_characters/haruka.md) | 天真的偶像少女 | 開始質疑「正義」的輪廓 | 「鏡中之影」——屍骸也曾是人類 |
 +| [美夜子](03_characters/miyako.md) | 冷漠的功利引導者 | 開始對晴香產生共情 | 從「不成熟的工具」看到值得扶持的夥伴 |
 +| [朱音](03_characters/iwakura_akane.md) | 搶怪黨/流浪狗 | 勉強的隊員 | 晴香給糖吃——久違的人的善意 |
-+| [操](03_characters/ayakomoji_sou.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
++| [操](03_characters/ayakomoji_misao.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
  
 -**關鍵節點**:
 -- 晴香與彩建立友誼，獲得情緒力量裝置 + 貓形態美夜子
@@ -494,7 +494,7 @@ index 17244a4..b31e58a 100644
 +| [晴香](03_characters/haruka.md) | 質疑中的英雄 | 完成內在整合，成為領袖 | 與夕和解 + 愛莉潛意識風暴的畢業考試 |
 +| [美夜子](03_characters/miyako.md) | 冷靜的隊長 | 信任被打破的傲慢者 | 獨自調查被困→被隊友救援→「你連我們都不信！」 |
 +| [朱音](03_characters/iwakura_akane.md) | 背叛的屍骸女王 | 下水道的喪家之犬 | 等待回歸時機 |
-+| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
++| [操](03_characters/ayakomoji_misao.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
  
 -**社會風評**: 重生期或毀滅期
 +---
@@ -625,7 +625,7 @@ index 17244a4..b31e58a 100644
 +| [晴香](03_characters/haruka.md) | 從 20 年沉睡中覺醒 | 永恆的守護者 | 擁抱並承擔所有人的痛苦 |
 +| [美夜子](03_characters/miyako.md) | 已覺醒的人類戰士 | 唯一的連結者 | 以新身份活下去，珍惜眼前連結 |
 +| [朔](03_characters/saku.md) | 管理局叛逃者 | 解放者 | 解放被體制囚禁的靈魂 |
-+| [彩](03_characters/antagonist.md) | 黑奏的囚徒 | 自己的救贖者 | 用靈魂填補裂痕，終結黑奏 |
++| [彩](03_characters/aya.md) | 黑奏的囚徒 | 自己的救贖者 | 用靈魂填補裂痕，終結黑奏 |
  
  ---
  
@@ -658,7 +658,7 @@ index 17244a4..b31e58a 100644
 +| [晴香](03_characters/haruka.md) | 普通少女、失去姊姊與母親 | 魔法少女、創世者 | 夢境片段、味覺回流、記憶跳幀 |
 +| [美夜子](03_characters/miyako.md) | 平凡姊姊、無魔法 | Unit 01 / 黑貓 | 鏡中人形殘影、傷疤消失幻覺 |
 +| [朱音](03_characters/iwakura_akane.md) | 可被拯救的普通少女 | 成癮戰鬥者 | 聽覺失真、戰鬥後空洞感加劇 |
-+| [操](03_characters/ayakomoji_sou.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
++| [操](03_characters/ayakomoji_misao.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
 +| [凜](03_characters/rin.md) | 本不應成為兵器 | 被重組的傀儡 | 情緒平坦化、短暫情感復甦 |
 +
 +---
@@ -1094,7 +1094,7 @@ index 10ae08b..425e8ec 100644
 +| 配色 | 深淵黑（基底）+ 皇家金（刺繡）+ 紫水晶（點綴） |
 +| 男裝/軍官 | 英式 WWI/WWII 軍服 + Dark Fantasy 黑金；筆挺束腰、金色武裝帶、黑色高筒軍靴 |
 +| 女裝/貴族 | 黑色絲絨長裙、黑色蕾絲手套、金色頭飾、端莊保守剪裁 |
-+| 特殊 | [黑奏](03_characters/antagonist.md)——唯一的萬花筒幾何皇袍，在完美黑金畫卷中如蠕動的雜訊 |
++| 特殊 | [黑奏](03_characters/aya.md)——唯一的萬花筒幾何皇袍，在完美黑金畫卷中如蠕動的雜訊 |
  
 -> **來源**: [[art/303_Magical_Girl_Common_Visual_Language]]
 +### <a id="section-art-night"></a>夜區遺民 (Night District)
@@ -1210,7 +1210,7 @@ index 10ae08b..425e8ec 100644
 +| 正三角形 | 柔和、穩定、被動 | 溫柔角色、[秋穗](03_characters/akiho.md)日常形象 |
 +
 +**線條語言**：
-+- 尖銳/角度：剛烈、攻擊性、痛苦中（[夕](03_characters/yu.md)、[黑奏](03_characters/antagonist.md)）
++- 尖銳/角度：剛烈、攻擊性、痛苦中（[夕](03_characters/yu.md)、[黑奏](03_characters/aya.md)）
 +- 圓潤/曲線：溫和、天真、平靜（[晴香](03_characters/haruka.md)偶像服飾）
 +
 +**對稱性**：
@@ -1227,7 +1227,7 @@ index 10ae08b..425e8ec 100644
 +### <a id="section-visual-deception"></a>視覺欺騙與反差
 +
 +角色第一印象應服務於劇情反轉或內在矛盾：
-+- [黑奏主人格](03_characters/antagonist.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
++- [黑奏主人格](03_characters/aya.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
 +- [美夜子](03_characters/miyako.md)貓形態：強調可愛弱小，與人形冰冷高效形成強烈反差
 +
 +### <a id="section-personal-motifs"></a>個人母題與演變符號
@@ -1253,7 +1253,7 @@ index 10ae08b..425e8ec 100644
 +強烈情緒事件在發生地留下不可磨滅的物理痕跡——場景擁有「記憶」：
 +
 +- **色彩印染**：極致絕望之處，牆壁地板色彩飽和度永久降低，變成灰色地帶
-+- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/antagonist.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
++- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/aya.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
 +- **聲音印染**：特定地點永遠迴盪著只有[晴香](03_characters/haruka.md)能聽見的微弱殘響
 +
 +### <a id="section-negative-space"></a>負空間與缺席 (Negative Space & Absence)

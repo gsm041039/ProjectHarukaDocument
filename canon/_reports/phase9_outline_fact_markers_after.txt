@@ -7,7 +7,7 @@
 59:**1. 覺醒與組隊**（[113 年 3-4 月](04_timeline_canon.md#section-113-march)）
 68:**3. [情緒連結](02_glossary.md#term-emotion-link)首戰**（[113 年 4 月](04_timeline_canon.md#event-emotion-link-first)）
 76:**5. [總部被襲](04_timeline_canon.md#event-hq-raid)**：虛榮的代價
-87:| [操](03_characters/ayakomoji_sou.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
+87:| [操](03_characters/ayakomoji_misao.md) | 傲嬌獨行俠 | 被接納的同伴 | 總部被襲→坦白→被原諒 |
 96:**氛圍**：山雨欲來的史詩感。基調變得宏大，充滿團隊戰鬥的熱血與壯烈。然而，在史詩表象之下，潛藏著濃厚的不安——同伴的犧牲、體制的無情、黑奏陰謀的冰山一角。
 102:**1. 朱音墮落與屍骸女王**（[113 年 5 月底-6 月中](04_timeline_canon.md#section-113-may-late)）
 103:- [小光之死](04_timeline_canon.md#event-ko-hikaru-death)：朱音戒斷時小光被屍骸化，黑奏誘惑「他沒有死，只是換了生存方式」
@@ -23,7 +23,7 @@
 127:**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
 128:- 晴香帶隊救援被困的美夜子——功能上完成「主角被動反應 -> 主角主動承擔」
 137:| [美夜子](03_characters/miyako.md) | 冷靜的隊長 | 信任被打破的傲慢者 | 獨自調查被困→被隊友救援→「你連我們都不信！」 |
-139:| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+139:| [操](03_characters/ayakomoji_misao.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
 161:- 第 13 天：操「[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)」——被控制、假髮被打掉、真實樣貌曝露。領悟「即使殘缺也能守護」，主動扯斷絲線，第一次「擁抱失控」
 163:**3. [嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)**——雙重犧牲
 165:- [雙重犧牲](04_timeline_canon.md#event-double-sacrifice)：在結構上完成「高峰能量 -> 高代價回收」的第三幕中段節點
@@ -42,7 +42,7 @@
 266:| **生理滲漏** | 情緒崩潰時 | 味覺喪失、眩暈、短暫失語、反胃、瞬間失溫 | 保持「可被解釋成心理問題」的曖昧度 |
 274:| **Act III** | 高 | Alpha/Beta 幾乎同畫面並存，形成認知崩潰；黑奏撕開空間展示 Alpha 線真相 |
 283:| [朱音](03_characters/iwakura_akane.md) | 可被拯救的普通少女 | 成癮戰鬥者 | 聽覺失真、戰鬥後空洞感加劇 |
-284:| [操](03_characters/ayakomoji_sou.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
+284:| [操](03_characters/ayakomoji_misao.md) | 被改造的囚徒 | 人偶師與掌權者 | 看到鏡中的「真實自己」 |
 285:| [凜](03_characters/rin.md) | 本不應成為兵器 | 被重組的傀儡 | 情緒平坦化、短暫情感復甦 |
 301: │            社會性死亡     ╲  ╱ 母愛琥珀
 313:| 情緒連結崩潰 | Act I 後期 | ↓ 恐懼 | 第一次「被強行入侵」的恐怖 |

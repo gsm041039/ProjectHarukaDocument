@@ -26,10 +26,10 @@
 | 項目 | 內容 |
 |------|------|
 | **來源 A（backup/02 朱音章節）** | 「朱音與操一同犧牲，變成巨大的『糖果山』，保護了美夜子和晴香。」明確描述操在嘆息之橋（114年5月）與朱音同死。 |
-| **來源 B（canon/03_characters/ayakomoji_sou.md）** | 操的結局在現有 canon 中未明確記載（可能在精煉時被省略或保持開放）|
+| **來源 B（canon/03_characters/ayakomoji_misao.md）** | 操的結局在現有 canon 中未明確記載（可能在精煉時被省略或保持開放）|
 | **衝突性質** | backup 寫定了操的死亡；canon 目前未確認 — 若作者後期希望操存活，兩者產生硬衝突 |
 | **影響範圍** | 操的全部角色弧、與朱音的羈絆結局、嘆息之橋戰役結果 |
-| **決策** | ✅ **Q-002 A 定案**：操在嘆息之橋確認死亡。ayakomoji_sou.md 已有「死亡（嘆息之橋）」記錄，無需補入。 |
+| **決策** | ✅ **Q-002 A 定案**：操在嘆息之橋確認死亡。ayakomoji_misao.md 已有「死亡（嘆息之橋）」記錄，無需補入。 |
 
 ---
 
@@ -125,5 +125,5 @@
 - [canon/04_timeline_canon.md](../04_timeline_canon.md) — 時間線（衝突 CF-003、CF-004 涉及）
 - [canon/05_story_outline_canon.md](../05_story_outline_canon.md) — 故事大綱（衝突 CF-001 涉及）
 - [canon/03_characters/iwakura_akane.md](../03_characters/iwakura_akane.md) — 朱音（CF-002、CF-005、CF-008 涉及）
-- [canon/03_characters/ayakomoji_sou.md](../03_characters/ayakomoji_sou.md) — 操（CF-002 涉及）
+- [canon/03_characters/ayakomoji_misao.md](../03_characters/ayakomoji_misao.md) — 操（CF-002 涉及）
 - [canon/03_characters/haruka.md](../03_characters/haruka.md) — 晴香（CF-001 涉及）

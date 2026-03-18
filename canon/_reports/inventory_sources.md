@@ -26,7 +26,7 @@
 | 14_Alpha_Beta_Narrative_Mechanics.md | 629 | ✅ 已整合 | Alpha/Beta 機制在 canon/01 + canon/02 |
 | Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md | 481 | ✅ 已整合 | 心匣/裝置在 canon/07 |
 | Magical_Girl_Themes_Detailed_Explanation.md | 258 | ✅ 已整合 | 主題在 canon/00 |
-| Villain_Master_Plan.md | 190 | ✅ 已整合 | 反派計劃在 canon/03_characters/antagonist.md |
+| Villain_Master_Plan.md | 190 | ✅ 已整合 | 反派計劃在 canon/03_characters/aya.md |
 | **小計** | **10,911 行** | | **主要缺口：09、10、11、05** |
 
 ---

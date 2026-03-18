@@ -16,11 +16,11 @@
 
 ## 本輪已執行硬去重修改
 
-1. `canon/03_characters/iroha.md`
+1. `canon/03_characters/aya.md`
 - 將「心匣物理定義」改為「共享契約信物 + 連到 Owner」。
 - 同步收斂象徵表述，保留角色心理意義。
 
-2. `canon/03_characters/antagonist.md`
+2. `canon/03_characters/aya.md`
 - 將「魔法屍骸定義語氣」改為「角色立場詮釋」，並明示正式定義在 Glossary。
 - 將「共享心匣」改為「共享契約信物（心匣）」以避免角色檔承擔術語定義。
 

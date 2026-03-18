@@ -43,8 +43,8 @@
 | `canon/00_series_bible.md:152` | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
 | `canon/00_series_bible.md:151` | `#term-unsolicited-salvation` | ✅ 保留，仍有效 |
 | `canon/00_series_bible.md:156` | `#term-swampman-problem` | ✅ 保留，仍有效 |
-| `canon/03_characters/antagonist.md` × 2 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
-| `canon/03_characters/ayakomoji_sou.md` × 2 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
+| `canon/03_characters/aya.md` × 2 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
+| `canon/03_characters/ayakomoji_misao.md` × 2 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
 | `canon/03_characters/iwakura_akane.md` × 2 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
 | `canon/03_characters/ko_hikaru.md` × 3 | `#term-saturation-of-obsession` | ✅ 保留，仍有效 |
 
@@ -84,7 +84,7 @@ Step 1c 新增的習慣條目審計：
 | haruka.md | habit-rhythm-control, habit-transparency-obsession, habit-hot-cocoa, habit-ice-chewing | 否 | ✅ |
 | miyako.md | habit-dark-shower, habit-long-swim, habit-blade-grinding, habit-crying-desire | 否 | ✅ |
 | iwakura_akane.md | habit-sleeping-in-boots, habit-dead-plants, habit-feed-cat-miyako, habit-gum-chewing | 否（habit-feed-cat-miyako 涉及美夜子但定義在朱音檔，美夜子檔只用敘事描述，無重複定義） | ✅ |
-| ayakomoji_sou.md | habit-eye-mask, habit-compulsive-washing | 否 | ✅ |
+| ayakomoji_misao.md | habit-eye-mask, habit-compulsive-washing | 否 | ✅ |
 | saku.md | habit-earring-temperature, habit-ice-bath | 否 | ✅ |
 | akiho.md | habit-instrument-scan, habit-statue-dialogue | 否 | ✅ |
 

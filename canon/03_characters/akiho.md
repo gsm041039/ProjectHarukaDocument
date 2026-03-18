@@ -36,9 +36,9 @@
 
 ### 愛莉的意外——第一個人造屍骸
 
-愛莉事故構成秋穗角色弧的關鍵起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-airi-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
+愛莉事故構成秋穗角色弧的關鍵起點。此處只保留角色心理與責任意義；事故客觀鏈與機制口徑分別見 [Timeline：愛莉事故](../04_timeline_canon.md#event-aeri-accident) 與 [Glossary：魔法屍骸](../02_glossary.md#term-magical-corpse)。
 
-**See also**: [愛莉事故](../04_timeline_canon.md#event-airi-accident)
+**See also**: [愛莉事故](../04_timeline_canon.md#event-aeri-accident)
 
 ### 與魔鬼的契約
 
@@ -208,7 +208,7 @@
 
 ## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
 
-- [愛莉事故](../04_timeline_canon.md#event-airi-accident)：罪責起點與技術原罪。
+- [愛莉事故](../04_timeline_canon.md#event-aeri-accident)：罪責起點與技術原罪。
 - [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)：從遮掩者轉為揭露者。
 - [無臉真相](../04_timeline_canon.md#event-faceless-truth)：時間循環中的失敗自我被揭示。
 
@@ -227,7 +227,7 @@
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
-- [Timeline: 愛莉事故](../04_timeline_canon.md#event-airi-accident) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival) | [無臉真相](../04_timeline_canon.md#event-faceless-truth) | [秋穗循環](../04_timeline_canon.md#event-akiho-time-loop)
+- [Timeline: 愛莉事故](../04_timeline_canon.md#event-aeri-accident) | [美夜子復活](../04_timeline_canon.md#event-miyako-revival) | [無臉真相](../04_timeline_canon.md#event-faceless-truth) | [秋穗循環](../04_timeline_canon.md#event-akiho-time-loop)
 - [Glossary: 情緒力量裝置](../02_glossary.md#term-emotional-power-device) | [情緒毒品](../02_glossary.md#term-emo-visor) | [魔法屍骸](../02_glossary.md#term-magical-corpse) | [態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
 - [愛莉 Canon Sheet](aeri.md) — 女兒
 - [晴香 Canon Sheet](haruka.md) — 外甥女

@@ -56,7 +56,7 @@
 | haruka.md | `habit-rhythm-control` + 3 個 | ✅ | migration_runlog ✅ |
 | miyako.md | `habit-dark-shower` + 3 個 | ✅ | migration_runlog ✅ |
 | iwakura_akane.md | `habit-sleeping-in-boots` + 3 個 | ✅ | backup/02 有文字引用（僅 wikilink，不影響 canon） |
-| ayakomoji_sou.md | `habit-eye-mask` + 1 個 | ✅ | — |
+| ayakomoji_misao.md | `habit-eye-mask` + 1 個 | ✅ | — |
 | saku.md | `habit-earring-temperature` + 1 個 | ✅ | — |
 | akiho.md | `habit-instrument-scan` + 1 個 | ✅ | — |
 
@@ -86,13 +86,13 @@
 | haruka.md | ✅ |
 | miyako.md | ✅ |
 | iwakura_akane.md | ✅ |
-| ayakomoji_sou.md | ✅ |
+| ayakomoji_misao.md | ✅ |
 | saku.md | ✅ |
 | akiho.md | ✅ |
-| iroha.md | ✅ |
-| airi.md | ✅ |
+| aya.md | ✅ |
+| aeri.md | ✅ |
 | rin.md | ✅ |
-| antagonist.md | ✅ |
+| aya.md | ✅ |
 | ko_hikaru.md | ✅ |
 | yu.md | ✅ |
 

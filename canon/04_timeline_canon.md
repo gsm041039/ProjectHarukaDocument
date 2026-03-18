@@ -36,7 +36,7 @@
 | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |
 | **97** | <a id="event-haruka-birth"></a>[雨宮晴香](03_characters/haruka.md)誕生 | 創世者誕生 |
 | **98** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變**：黑奏殺死帝國皇帝，奪取最高權力 | 黑奏掌權 |
-| **98** | <a id="event-airi-accident"></a>**愛莉事故**：[愛莉](03_characters/aeri.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
+| **98** | <a id="event-aeri-accident"></a>**愛莉事故**：[愛莉](03_characters/aeri.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
 
 ---
 

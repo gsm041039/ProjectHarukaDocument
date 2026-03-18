@@ -1,6 +1,6 @@
-canon/06_visual_bible.md:299:- [黑奏主人格](03_characters/antagonist.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
+canon/06_visual_bible.md:299:- [黑奏主人格](03_characters/aya.md)：極致無害化、圓潤線條、柔和色彩——積蓄揭露時的認知衝擊
 canon/06_visual_bible.md:322:強烈情緒事件在發生地留下不可磨滅的物理痕跡——場景擁有「記憶」：
-canon/06_visual_bible.md:325:- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/antagonist.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
+canon/06_visual_bible.md:325:- **質地印染**：[凜](03_characters/rin.md)犧牲之處永遠飄浮微弱金色光塵；[黑奏](03_characters/aya.md)王座周圍金屬呈現被「憎恨」酸蝕的黑色紋理
 canon/06_visual_bible.md:420:2. **失衡揭露**：切近景（眼、手、呼吸），以微延遲或不連續動作表現內在裂縫。
 canon/10_gameplay_bible.md:176:| **替死鬼假人** | 吸引全體敵人 8 秒 | 「替身」與「犧牲」的隱喻 | 操的符咒商店 |
 canon/00_series_bible.md:45:2. **朱音、操的有尊嚴死亡** — 態度選擇的治癒，即使面對死亡仍選擇如何離開
@@ -8,17 +8,17 @@ canon/00_series_bible.md:96:| 第二幕 | 經歷凜的犧牲、系統真相揭�
 canon/00_series_bible.md:102:**起（虛假的希望）** → **承（代價的揭露）** → **轉（偽高潮/存在主義拷問）** → **合（態度的選擇/帶著傷痕的和解）**
 canon/00_series_bible.md:182:3. **不把角色工具化**：每個死亡或犧牲必須保留角色主體性與選擇性。
 canon/03_character_index.md:26:| [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（嘆息之橋） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
-canon/03_character_index.md:27:| [綾小路操](03_characters/ayakomoji_sou.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_sou.md](03_characters/ayakomoji_sou.md) |
-canon/03_character_index.md:41:| [神樂彩](03_characters/iroha.md) | 被囚禁的主人格 / 轉校生偽裝 | 囚徒→見證者→救贖者 | 死亡（永恆輪迴） | [iroha.md](03_characters/iroha.md) |
+canon/03_character_index.md:27:| [綾小路操](03_characters/ayakomoji_misao.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_misao.md](03_characters/ayakomoji_misao.md) |
+canon/03_character_index.md:41:| [神樂彩](03_characters/aya.md) | 被囚禁的主人格 / 轉校生偽裝 | 囚徒→見證者→救贖者 | 死亡（永恆輪迴） | [aya.md](03_characters/aya.md) |
 canon/03_character_index.md:44:| [綾瀨凜](03_characters/rin.md) | 痛覺信徒 / 被重組的軀殼 | 完美主義者→痛覺信徒→自願的兵器 | 死亡（自願兵器化） | [rin.md](03_characters/rin.md) |
 canon/03_character_index.md:45:| [小光](03_characters/ko_hikaru.md) | 純真的錨點 / 屍骸化的孩子 | 純真者→犧牲者→墮落的起因 | 屍骸化 | [ko_hikaru.md](03_characters/ko_hikaru.md) |
 canon/03_character_index.md:60:- **美夜子 ↔ 凜**：軍方戰友，最深的羈絆。凜犧牲後美夜子終身 PTSD；重組後的凜不記得美夜子
 canon/03_character_index.md:63:- **朱音 ↔ 操**：隊友。據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲
 canon/03_character_index.md:101:**See also**: [秋穗](03_characters/akiho.md) | [Timeline](04_timeline_canon.md#event-alpha-divergence)
-canon/03_character_index.md:109:**See also**: [彩](03_characters/iroha.md) | [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-hotaru-death)
+canon/03_character_index.md:109:**See also**: [彩](03_characters/aya.md) | [黑奏](03_characters/aya.md) | [Timeline](04_timeline_canon.md#event-hotaru-death)
 canon/03_character_index.md:115:操的管家，真正的守護者。此條目只保留關係與主題功能；臨終揭露與崩潰事件細節以 Timeline 與操角色檔為準。
 canon/03_character_index.md:123:黑奏的養父。此條目只保留權力關係定位；篡位事件與轉折敘述以 Timeline 與黑奏角色檔為準。
-canon/03_character_index.md:125:**See also**: [黑奏](03_characters/antagonist.md) | [Timeline](04_timeline_canon.md#event-kurokana-usurp)
+canon/03_character_index.md:125:**See also**: [黑奏](03_characters/aya.md) | [Timeline](04_timeline_canon.md#event-kurokana-usurp)
 canon/05_story_outline_canon.md:25:| **起** | [日常的裂痕與命運的相遇](#section-act-1) | 建立代入→同步誤導 | 懸疑+親密的心理驚悚 | 113 年 3-4 月 |
 canon/05_story_outline_canon.md:26:| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 5 月-114 年 4 月 |
 canon/05_story_outline_canon.md:27:| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 5 月 |
@@ -51,7 +51,7 @@ canon/05_story_outline_canon.md:123:- [守恆定律揭露](04_timeline_canon.md#
 canon/05_story_outline_canon.md:124:- [凜的最終崩潰](04_timeline_canon.md#event-rin-final-collapse)：把「可逆挽回」路線封死，為第三幕失敗奠基
 canon/05_story_outline_canon.md:125:- [共振地獄第一階段](04_timeline_canon.md#event-resonance-hell-1)：黑奏方案由隱性操控轉入可觀測部署（機制口徑見 [Glossary](02_glossary.md#term-resonance-hell)）。
 canon/05_story_outline_canon.md:127:**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
-canon/05_story_outline_canon.md:139:| [操](03_characters/ayakomoji_sou.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+canon/05_story_outline_canon.md:139:| [操](03_characters/ayakomoji_misao.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
 canon/05_story_outline_canon.md:152:### <a id="section-act3-key-events"></a>關鍵節點
 canon/05_story_outline_canon.md:154:**1. [恐怖家家酒](04_timeline_canon.md#event-horrific-house)（2 週）**——心理驚悚篇章
 canon/05_story_outline_canon.md:161:- 第 13 天：操「[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)」——被控制、假髮被打掉、真實樣貌曝露。領悟「即使殘缺也能守護」，主動扯斷絲線，第一次「擁抱失控」

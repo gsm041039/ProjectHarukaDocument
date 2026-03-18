@@ -26,7 +26,7 @@
 | `backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md` | `canon/01_world_rules_and_costs.md`, `canon/04_timeline_canon.md`, `canon/99_decision_log.md` |
 | `backup/screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md` | `canon/01_world_rules_and_costs.md`, `canon/07_entities_and_devices.md`, `canon/02_glossary.md` |
 | `backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md` | `canon/00_series_bible.md`, `canon/03_characters/*.md` |
-| `backup/screenwriter/Villain_Master_Plan.md` | `canon/03_characters/antagonist.md`, `canon/05_story_outline_canon.md`, `canon/04_timeline_canon.md` |
+| `backup/screenwriter/Villain_Master_Plan.md` | `canon/03_characters/aya.md`, `canon/05_story_outline_canon.md`, `canon/04_timeline_canon.md` |
 
 ---
 

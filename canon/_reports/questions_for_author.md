@@ -24,12 +24,12 @@
 
 ## <a id="q-002"></a>Q-002（對應 CF-002）— 操（绫小路奏）的結局
 
-**背景**：backup/02 朱音章節描述「朱音與操一同犧牲，變成巨大的糖果山」（帝國歷 114 年 5 月，嘆息之橋戰役）。操的現行 canon sheet（ayakomoji_sou.md）未明確記錄其最終命運。
+**背景**：backup/02 朱音章節描述「朱音與操一同犧牲，變成巨大的糖果山」（帝國歷 114 年 5 月，嘆息之橋戰役）。操的現行 canon sheet（ayakomoji_misao.md）未明確記錄其最終命運。
 
 **問題**：操的故事是否在嘆息之橋與朱音共同結束？
 
 **選項**：
-- **A（backup 版）**：操在嘆息之橋犧牲，確認死亡。→ 請更新 canon/03_characters/ayakomoji_sou.md 的 §section-arc 補入死亡記錄。
+- **A（backup 版）**：操在嘆息之橋犧牲，確認死亡。→ 請更新 canon/03_characters/ayakomoji_misao.md 的 §section-arc 補入死亡記錄。
 - **B（存活版）**：操在嘆息之橋重傷但存活，之後在 Act IV 擔任晴香的支援角色或目擊者。→ backup/02 的描述為「犧牲類語」但實際結局需重新設定。
 - **C（模糊版）**：操的下場刻意設為「去向不明」——觀眾/玩家不知道她是否真的死去，成為作品留白之一。
 
@@ -109,4 +109,4 @@ Q-005: 選 A — 備註：朱音過載消散等同永久死亡，任何現實修
 - [canon/04_timeline_canon.md](../04_timeline_canon.md) — 時間線（Q-003、Q-004 涉及）
 - [canon/03_characters/haruka.md](../03_characters/haruka.md) — 晴香（Q-001 涉及）
 - [canon/03_characters/iwakura_akane.md](../03_characters/iwakura_akane.md) — 朱音（Q-002、Q-005 涉及）
-- [canon/03_characters/ayakomoji_sou.md](../03_characters/ayakomoji_sou.md) — 操（Q-002 涉及）
+- [canon/03_characters/ayakomoji_misao.md](../03_characters/ayakomoji_misao.md) — 操（Q-002 涉及）
