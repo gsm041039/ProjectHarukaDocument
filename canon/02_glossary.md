@@ -30,7 +30,7 @@
 ### <a id="term-alpha-line"></a>Alpha 線（Alpha Line / The Low-Magic Origin）
 原初低魔世界，事件層面的殘酷真相。
 
-故事的「原初現實」，魔法力量極為稀少。美夜子與母親花子死於黑奏攻擊。這是不可改變的「命運層面」，回答「What actually happened?」。Alpha 線是「債權人」，Beta 線被魔法消除的痛苦都變成情緒債務。
+故事的「原初現實」，魔法力量極為稀少。美夜子與母親花子死於黑奏攻擊。這是不可改變的「命運層面」，回答「What actually happened?」——**Alpha 線 = Truth of Events（事件層面的真相）**。Alpha 線是「債權人」，Beta 線被魔法消除的痛苦都變成情緒債務。
 
 **See also**: [Beta Line](#term-beta-line) | [World Rules](01_world_rules_and_costs.md#rule-alpha-beta)
 
@@ -39,7 +39,7 @@
 ### <a id="term-beta-line"></a>Beta 線（Beta Line / The High-Magic Dystopia）
 晴香創世後的高魔世界，態度/意義層面的真相。
 
-晴香幼年時為救美夜子「改變現實」後創造的新世界（事件口徑見 [Timeline](04_timeline_canon.md#event-alpha-divergence)）。魔法系統、情緒科技、魔法屍骸皆源於此。這是「態度層面」，回答「What it meant? / 我點樣活?」。與 Alpha 線不是「真 vs 假」，而是「事實 vs 詮釋」的雙重真相。
+晴香幼年時為救美夜子「改變現實」後創造的新世界（事件口徑見 [Timeline](04_timeline_canon.md#event-alpha-divergence)）。魔法系統、情緒科技、魔法屍骸皆源於此。這是「態度層面」，回答「What it meant? / 我點樣活?」——**Beta 線 = Truth of Attitude（態度層面的真相）**。與 Alpha 線不是「真 vs 假」，而是「事實 vs 詮釋」的雙重真相。
 
 **See also**: [Alpha Line](#term-alpha-line) | [Band-Aid Philosophy](#term-band-aid-philosophy) | [Timeline](04_timeline_canon.md#event-alpha-divergence)
 
