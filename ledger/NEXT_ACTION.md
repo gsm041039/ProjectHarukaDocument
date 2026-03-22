@@ -1,7 +1,9 @@
 # NEXT_ACTION
 
 ## Immediate Next Step
-**等待作者回答 P7_PENDING_QUESTIONS.md** — 第二次審計循環完成，問題清單已更新。
+兩條平行進行中，互不阻塞：
+1. **P7 write-back**：等待作者回答 `ledger/P7_PENDING_QUESTIONS.md`
+2. **P2 Story Room**：Round 1 已完成（2026-03-22），等待作者回答 Q-P2-001 至 Q-P2-004
 
 ## 當前狀態
 - P6 Write-back：**完成** ✓
@@ -10,6 +12,11 @@
   - 讀取全部 canon/ 主要文件（01 ~ 10 + 99 + character_index + 12 個角色 sheet）
   - 讀取 backup/ 關鍵文件（timeline_raw / art_originals / screenwriter 系列）
   - 發現 4 個確認 Bug + 2 個待澄清問題
+- **P2 Story Room Round 1：完成** ✓（2026-03-22）
+  - 全局 10 軸 Story Dashboard
+  - 3 個 Top Risks 識別
+  - 4 個 A/B/C 問題（Q-P2-001 至 Q-P2-004）
+- **canon/11_directing_playbook.md**：新建 ✓（2026-03-22）
 
 ## 問題清單位置
 - `ledger/P7_PENDING_QUESTIONS.md` — 全部問題（舊 Q1-Q5 + 新 BUG-A/B/C/D + Q6-A/B）
@@ -39,5 +46,12 @@
 ## Blockers
 - 等待作者回答所有問題。
 
+## P2 Story Room — 待回答問題
+- **Q-P2-001**：朱音/操終局主動性（A/B/C）
+- **Q-P2-002**：「晴香是創世者」知情時間表（A/B/C）
+- **Q-P2-003**：第二幕有沒有「無代價的甜」（A/B/C）
+- **Q-P2-004**：黑奏的終局（A/B/C）
+
 ## Requires Author Input Before Continuing?
-- **Yes** — 必須回答 BUG-A/B/C/D + Q6-A/B + Q1-Q5 後才能執行 write-back，然後進入 P2。
+- **P7 write-back**：Yes — 需要回答 BUG-A/B/C/D + Q6-A/B + Q1-Q5
+- **P2 next round**：Yes — 需要回答 Q-P2-001 至 Q-P2-004（或其中任何一個開始討論）

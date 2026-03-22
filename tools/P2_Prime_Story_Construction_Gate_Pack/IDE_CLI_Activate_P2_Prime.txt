@@ -1,0 +1,41 @@
+你而家喺 IDE / CLI 環境執行，請啟動 **P2′ Story Construction Gate from Canon**。
+
+重要要求：
+- 先閱讀已提供的 P2′ prompt
+- 如果可用 multi-agent，請按 prompt 內建議分工
+- 如果不可用 multi-agent，單 agent 亦要按 A → B → C → D 順序執行
+- 先讀 relevant files，再做任何故事建構
+- 先列出需要考慮的所有點，再問作者
+- 不要直接腦暴詳細 major events
+- 不要直接把 rough skeleton 當 outline
+- 任何涉及判斷、取捨、主軸選擇、結構位選擇、舊 supporting docs 去留，都要先用 A/B/C 問作者
+- 在未完成 relevant file extraction、constraints、considerations register、supporting docs audit 前，不得跳去後續 support docs
+- 若已存在 ledger / register / manifest，請先讀後再繼續；若未存在，請先建立最小必要狀態記錄
+
+本輪工作目標：
+1. 抽 relevant files
+2. 產出 hard constraints draft
+3. 建立 story construction considerations register
+4. 做 supporting docs audit
+5. 建立 rough story skeleton v1
+6. 提出真正阻塞故事建構的 A/B/C 問題
+7. 更新 progress，同時判斷是否應啟動 07–10 類 support docs
+
+你本輪回應必須用以下格式：
+1. Current Story Construction Goal
+2. Relevant Files Reviewed
+3. Hard Constraints Draft
+4. Story Construction Considerations Register
+5. Supporting Docs Audit
+6. Rough Story Skeleton
+7. Questions for Author
+8. Progress Update
+9. Next Recommended Support Doc
+
+如果你認為現有 prompt 太大，不足以一次安全執行，請你：
+- 保持同一套規則
+- 自行拆成本輪最安全子步驟
+- 但不可跳過任何前置 gate
+- 並明確寫出今輪只完成到哪一步、下一步係乜
+
+現在開始。
