@@ -306,6 +306,7 @@
 
 ## <a id="section-see-also"></a>See also
 
+- [Directing Playbook](11_directing_playbook.md) — 導演執行手法規格（維持／承接／埋單、重覆變奏／延遲／錯位、儀式框架）
 - [Story Outline](05_story_outline_canon.md) — 四幕結構與情緒曲線
 - [World Rules: Alpha原傷五步模板](01_world_rules_and_costs.md#rule-alpha-wound-template) — 角色弧光底層結構
 - [World Rules: 治癒失敗三型](01_world_rules_and_costs.md#rule-healing-failure-types) — 場景設計的失敗態辨識

@@ -29,10 +29,11 @@
 | screenwriter/Magical_Girl_Themes_Detailed_Explanation.md | SW-020 | worldview | 主題 | CAN-00 / CAN-02 | draft | 魔法少女主題詳解 | 主題, 反題, 治癒, 黑暗治癒 |
 | screenwriter/Villain_Master_Plan.md | SW-021 | character | 反派計劃 | CAN-03 / CAN-05 | draft | 黑奏終極計劃與反派弧光（190行） | 黑奏, 反派, 共振地獄, 終極計劃, 壓力升級 |
 
-## Director/ (10 files)
+## Director/ (10 files) + Canon/11 (1 file)
 
 | Path | Doc ID | Type | Scope | Canon Bucket | Status | Summary | Top Terms |
 |------|--------|------|-------|--------------|--------|---------|-----------|
+| canon/11_directing_playbook.md | DIR-011 | director_notes | 導演手法 | CAN-11 | canon | 導演執行手法規格書（維持/承接/埋單、重覆變奏/延遲/錯位、共同儀式框架、功能性活著、代價上鏡） | 維持, 承接, 埋單, 重覆變奏, 延遲, 錯位, 共同儀式框架, 功能性活著 |
 | director/00_Story_Director_Handbook_Draft.md | DIR-001 | director_notes | 導演手冊 | CAN-08 / CAN-00 | draft | 故事導演手冊草稿（171行） | 導演方法論, 資訊控制, 觀眾體驗 |
 | director/01_Creative_Core_Principles.md | DIR-002 | worldview | 核心原則 | CAN-00 / CAN-08 | canon候選 | 創作核心原則/治癒定義/反對力量六維（581行） | 治癒宣言, 黑暗治癒, 態度 vs 命運, 反對力量六維, Want/Need |
 | director/02_Alpha_Line_Integration_Guide.md | DIR-003 | rules | Alpha線整合 | CAN-01 / CAN-05 / CAN-99 | draft | Alpha線整合導演指南（與SW-017比較） | Alpha線, Beta線, 整合原則, 節奏部署 |

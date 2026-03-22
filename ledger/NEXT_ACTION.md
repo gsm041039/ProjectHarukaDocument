@@ -1,31 +1,43 @@
 # NEXT_ACTION
 
 ## Immediate Next Step
-**P2（Story Room Master）** — Canon 已更新完畢，進入創作發展模式。
+**等待作者回答 P7_PENDING_QUESTIONS.md** — 第二次審計循環完成，問題清單已更新。
 
 ## 當前狀態
 - P6 Write-back：**完成** ✓
-- P7 Audit：**完成** ✓
-  - 43 項問題全部回答
-  - 8 個文件 edit 執行完畢
-  - 5 項已在 canon 確認無需動作
+- P7 Audit Session 1：**完成** ✓（5 組問題已記錄）
+- P7 Audit Session 2（第二次完整循環）：**完成** ✓（2026-03-21）
+  - 讀取全部 canon/ 主要文件（01 ~ 10 + 99 + character_index + 12 個角色 sheet）
+  - 讀取 backup/ 關鍵文件（timeline_raw / art_originals / screenwriter 系列）
+  - 發現 4 個確認 Bug + 2 個待澄清問題
 
 ## 問題清單位置
-- `ledger/P7_PENDING_QUESTIONS.md` — 5 組問題，等待作者回答
+- `ledger/P7_PENDING_QUESTIONS.md` — 全部問題（舊 Q1-Q5 + 新 BUG-A/B/C/D + Q6-A/B）
 
-## 問題摘要（共 5 組）
-1. **凜 quote 版本選擇**（A/B 二選一）
-2. **角色 Quotes**（8 條，各自要/唔要）
-3. **世界設定詞條**（3 項：緋雨形態 / Sin-Eaters系列 / Echo餘響）
-4. **系統/哲學框架**（6 項：Attitude Deprivation / Alpha-Beta哲學定義 / Unsanctioned Salvation / 永恆陷阱 / 放置鏡子戰術 / 情緒資料農場）
-5. **製作文件更新**（8 項：魔法特效 / 美術風格 / 緋潮剪影 / 四類預告系統 / 五符號物件 / 揭露時間表 / 三層平衡法 / 五項類型顛覆）
+## 問題摘要
+
+### 新發現（第二次審計）— 優先處理
+- **BUG-A**：ko_hikaru.md 聲音設計 line 139 — 童聲「肚餓……」殘留（P6 未完全修復）
+- **BUG-B**：haruka.md 年齡 17歲 → 應為 16歲（born 97年，主線 113年）
+- **BUG-C**：miyako.md 年齡 21歲 → 計算結果應為 26歲（復活 103年，主線 113年）
+- **BUG-D**：aeri.md 假名 あいり → 應為 あえり（羅馬字已改為 Aeri）
+- **Q6-A**：朔年齡：canon 20代中期 vs backup 美術檔 22歲
+- **Q6-B**：朔/美夜子「青梅竹馬」年齡差 11-15年問題
+
+### 舊有問題（Session 1）
+1. **Q1**：凜 quote 版本選擇（A/B 二選一）
+2. **Q2**：角色 Quotes（8 條，各自要/唔要）
+3. **Q3**：世界設定詞條（3 項）
+4. **Q4**：系統/哲學框架（6 項）
+5. **Q5**：製作文件更新（8 項）
 
 ## Read First On Resume
 - ledger/SESSION_LEDGER.md
 - ledger/NEXT_ACTION.md（本文件）
+- ledger/P7_PENDING_QUESTIONS.md（完整問題清單）
 
 ## Blockers
-- 無。
+- 等待作者回答所有問題。
 
 ## Requires Author Input Before Continuing?
-- No — 可直接進入 P2 Story Room
+- **Yes** — 必須回答 BUG-A/B/C/D + Q6-A/B + Q1-Q5 後才能執行 write-back，然後進入 P2。
