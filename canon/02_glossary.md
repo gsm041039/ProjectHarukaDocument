@@ -213,9 +213,16 @@
 ### <a id="term-reality-override"></a>現實覆寫（Reality Override / Permanent Rewrite）
 改變現實光譜的最高層級。
 
-調律技藝的終極應用，對集體潛意識底層代碼進行世界級調律與永久性源代碼重寫。需要天文數字級情緒力量、情緒結晶作為存檔點、極度穩固的心之器。絕對法則：不能還原心之器已徹底消散的靈魂。
+調律技藝的終極應用，對集體潛意識底層代碼進行世界級調律與永久性源代碼重寫。需要天文數字級情緒力量、情緒結晶作為存檔點、極度穩固的心之器。
 
-**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching)
+**三項硬限制（不可違反）**：
+1. **不能真正復活死者** — 意識已完全消散的靈魂不可逆，任何「復活」只是複製外殼而非還原本體
+2. **因果債必須歸還** — 改變越大，反噬越強；被消除的痛苦將以等量代價在時間軸的其他節點回歸
+3. **不能覆寫原始情感記憶** — 痛苦不會消失，只會轉移；無法透過現實覆寫抹除一個人真正經歷過的情感真相
+
+> `改變越大，反噬越強；痛苦不會消失，只會轉移。`（Source: ROOT-01.S07）
+
+**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation)
 
 ---
 

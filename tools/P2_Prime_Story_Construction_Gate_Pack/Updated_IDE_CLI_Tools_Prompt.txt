@@ -1,0 +1,7 @@
+請改用我已提供嘅 Updated_IDE_CLI_Tools_Prompt_v2.txt 作為工具治理層。該文件規定：
+- 預設 DISCUSSION / REVIEW ONLY
+- 必須建立 canon/_working/ 與 canon/_working/story_construction/
+- 必須維持 QUESTION_QUEUE、PROGRESS、ROUGH_SKELETON、EVIDENCE_GAPS
+- 必須建立 KNOWLEDGE_DEPENDENCY_MAP
+- 一有判斷就先問作者
+- 未 APPLY NOW 前不得改正式檔案

@@ -1,4 +1,4 @@
-你而家喺 IDE / CLI 環境執行，請啟動 **P2′ Story Construction Gate from Canon**。
+你而家喺 IDE / CLI 環境執行，請啟動 P2′ Story Construction Gate from Canon。
 
 重要要求：
 - 先閱讀已提供的 P2′ prompt
