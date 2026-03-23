@@ -1,6 +1,6 @@
 # P7 PENDING QUESTIONS
-Generated: 2026-03-18 | Updated: 2026-03-21（第二次審計循環完成）
-Status: 等待作者回答
+Generated: 2026-03-18 | Updated: 2026-03-23（全部 write-back 完成）
+Status: **全部完成** ✓ — BUG-A/B/C/D + Q6-A/B + Q1 + Q2 + Q3 + Q4 + Q5 全部 write-back 執行完畢
 
 ---
 
@@ -19,7 +19,11 @@ Status: 等待作者回答
 ## 確認 Bug / 矛盾（需修正）
 ## ══════════════════════════════
 
-### BUG-A — ko_hikaru.md 聲音設計殘留矛盾（P6 未完成修復）
+### ✓ BUG-A — ko_hikaru.md 聲音設計殘留矛盾 ← **已修正 2026-03-23**
+**決定：A（刪除）**。ko_hikaru.md line 139 整段「金屬碎片背景音」（含童聲描述）已刪除。
+
+---
+### [原 BUG-A 內容]
 
 **問題**：聲音設計 section 內部自我矛盾：
 
@@ -38,7 +42,11 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-### BUG-B — 晴香年齡錯誤：17歲應為 16歲
+### ✓ BUG-B — 晴香年齡 ← **已修正 2026-03-23**
+**決定：改為 16歲**。haruka.md Header Table 已更新。
+
+---
+### [原 BUG-B 內容]
 
 **問題**：`haruka.md` Header Table 寫「**17歲**（主線期）」，但：
 - Timeline：born 97年，main story 113年 → 113 - 97 = **16歲**
@@ -49,7 +57,11 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-### BUG-C — 美夜子年齡矛盾：21歲 vs 計算結果 26歲
+### ✓ BUG-C — 美夜子年齡 ← **已修正 2026-03-23**
+**決定：視覺 16，年齡合理就得**。更新為「26 歲（主線期，復活後計），視覺年齡 16」。miyako.md 已更新。
+
+---
+### [原 BUG-C 內容]
 
 **問題**：`miyako.md` Header Table 寫「**21歲**（主線期），視覺年齡 16」，但：
 - Born 76年，凍結 92年（age 16），復活 103年（仍看起來 16）
@@ -66,7 +78,11 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-### BUG-D — aeri.md 假名未更新：あいり 應為 あえり
+### ✓ BUG-D — aeri.md 假名 ← **已修正 2026-03-23**
+**決定：確認改**。あいり → あえり。aeri.md 已更新。
+
+---
+### [原 BUG-D 內容]
 
 **問題**：`aeri.md` Header Table：「東雲愛莉（しののめ **あいり**）」
 
@@ -80,7 +96,12 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 ## 第二次審計循環——待澄清問題
 ## ══════════════════════════════
 
-### Q6-A — 朔年齡：22歲 vs 20代中期
+### ✓ Q6-A — 朔年齡 ← **write-back 完成 2026-03-23**
+**決定：A（以 saku.md 為準，更新 backup 美術檔）**
+但需配合 Q6-B 調整出生年後同步更新 saku.md 年齡描述。
+
+---
+### [原 Q6-A 內容]
 
 **問題**：
 - `saku.md` Header Table：「**20代中期**（主線期）」
@@ -95,7 +116,13 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-### Q6-B — 朔/美夜子「青梅竹馬」年齡差問題
+### ✓ Q6-B — 朔/美夜子年齡差 ← **write-back 完成 2026-03-23**
+**決定：調整朔出生年至與美夜子相近**（美夜子 born 76年）。
+建議朔 born ~78-80年 → Alpha divergence (102年)時朔 22-24歲、美夜子 26歲 → 青梅竹馬合理成立。
+主線(113年)朔約 33-35歲（30代前半）。需更新 saku.md 年齡欄位及出生年設定。
+
+---
+### [原 Q6-B 內容]
 
 **問題**：Character Index 寫「美夜子 ↔ 朔：**Alpha線青梅竹馬戀人**」，但：
 - 美夜子 born **76年**，朔 born **~87-91年**（依年齡估算）
@@ -118,7 +145,12 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 ## 待回答的舊有問題（原 Q1-Q5）
 ## ══════════════════════════════
 
-## Q1 — 凜 quote 版本選擇
+## ✓ Q1 — 凜 quote ← **write-back 完成 2026-03-23**
+**決定：版本 B** —「她本來想用聲音救人，最後卻連自己的聲音都留不住。」
+目標：rin.md ✓
+
+---
+### [原 Q1 內容]
 
 兩個版本，保留哪一句？
 
@@ -129,7 +161,16 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-## Q2 — 角色 Quotes（每項要/唔要）
+## ✓ Q2 — 角色 Quotes ← **write-back 完成 2026-03-23**
+**決定：全部 8 條 OK，全部入 canon。**
+- 夕 quote → yu.md
+- 黑奏×2 quotes → aya.md
+- 朱音×2 quotes → iwakura_akane.md（注意：朱音味覺通感 quote 需新增 CAN-12 機制說明）
+- 操×2 quotes → ayakomoji_misao.md
+- 美夜子 quote → miyako.md
+
+---
+### [原 Q2 內容]
 
 | 角色 | Quote | 入邊？ |
 |------|-------|--------|
@@ -144,7 +185,14 @@ P6 已更新 Behavior Hook（line 118），但 聲音設計 section（line 139�
 
 ---
 
-## Q3 — 世界設定詞條（每項要/唔要）
+## ✓ Q3 — 世界設定詞條 ← **write-back 完成 2026-03-23**
+**決定：全部 3 個詞條 OK。**
+- 愛莉「緋雨（Crimson Storm）」形態 → aeri.md
+- Sin-Eaters / Dream Weavers / Emotion Gourmets → glossary
+- Echo（餘響） → glossary
+
+---
+### [原 Q3 內容]
 
 **愛莉「緋雨（Crimson Storm）」形態**
 Emo-Visor 情緒廢料超載時觸發的 named ability state。現有 aeri.md 沒有此命名形態。
@@ -160,7 +208,19 @@ Emo-Visor 情緒廢料超載時觸發的 named ability state。現有 aeri.md �
 
 ---
 
-## Q4 — 系統 / 哲學框架（每項要/唔要）
+## ✓ Q4 — 系統/哲學框架 ← **write-back 完成 2026-03-23**
+**決定：應該要新文件（不整合入現有文件）。**
+建議新建：`canon/12_philosophy_and_systems.md`（或類似）
+收錄 6 個框架：
+1. 晴香「傲慢救世主」模式 / Attitude Deprivation（態度剝奪詛咒）
+2. Alpha = Truth of Events；Beta = Truth of Attitude
+3. 「未授權救贖」（Unsanctioned Salvation）
+4. 黑奏「永恆陷阱」機制
+5. 黑奏「放置鏡子」戰術（G-E14）← 作者明確決定前補充：需確認是否最終保留
+6. 「情緒資料農場」框架
+
+---
+### [原 Q4 內容]
 
 **晴香「傲慢救世主」模式 / Attitude Deprivation（態度剝奪詛咒）**
 她的救贖方式本身剝奪他人面對痛苦的權利，「我帶回來的希望，親手殺死了我最愛的人。」
@@ -190,7 +250,12 @@ P5 被標「作者不確認」自動廢棄，但你從未正式決定。
 
 ---
 
-## Q5 — 製作文件更新（每項要/唔要）
+## ✓ Q5 — 製作文件更新 ← **write-back 完成 2026-03-23**
+**決定：全部 8 項確認（作者回答「ok」）。**
+待更新文件：visual_bible.md（×3）、information_design.md（×2）、narrative_design_bible.md（×3）
+
+---
+### [原 Q5 內容]
 
 **所有魔法特效本質 = 心之器碎裂的情緒結晶碎片**
 「戰鬥中所有華麗的魔法特效，其本質都是心之器高速碎裂時飛散出的燃燒情緒結晶碎片。」

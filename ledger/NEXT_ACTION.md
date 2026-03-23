@@ -1,9 +1,27 @@
 # NEXT_ACTION
 
-## Immediate Next Step
-兩條平行進行中，互不阻塞：
-1. **P7 write-back**：等待作者回答 `ledger/P7_PENDING_QUESTIONS.md`
-2. **P2 Story Room**：Round 1 已完成（2026-03-22），等待作者回答 Q-P2-001 至 Q-P2-004
+## Immediate Next Step（2026-03-23 更新）
+
+### ✓ P7 Write-back — **全部完成 2026-03-23**
+- BUG-A/B/C/D ✓ | Q6-A/B ✓ | Q1 ✓ | Q2 ✓ | Q3 ✓ | Q4 ✓ | Q5 ✓
+- 受影響文件：ko_hikaru / haruka / miyako / aeri / saku / rin / yu / aya / iwakura_akane / ayakomoji_misao + visual_bible + narrative_design_bible + **新建 canon/12_philosophy_and_systems.md**
+
+### ✓ Narrowed 09 — **完成 2026-03-23**
+`canon/09_information_design.md` 新增 `section-three-reveal-chains`：
+- 晴香創世者揭示鏈（L0/L1/L2/L3 四階段）
+- 螢不可復活揭示鏈（P1-P4 前置知識序列）
+- 愛莉雙形態揭示鏈（雙形態前置知識對比）
+
+### ✓ 07 Major Events Working Doc v1 — **完成 2026-03-23**
+`canon/_working/story_construction/07_Major_Events_Relationship_Impact.md`
+- 22 個重大事件，四幕全覆蓋
+- 每個事件含：結構功能 / 關係影響 L1-L2-L3 / 觀眾知識狀態（AKS 校準）/ 主題連結
+- 角色弧光總表（晴香/美夜子/朱音/操/彩黑奏/朔/愛莉/夕）
+- **BLOCKED**：E-11 Act II 甜蜜高峰具體場景（需作者決定）
+
+### 1. P2 下一步
+**E-11 Act II 甜蜜高峰場景定案**（作者決定）→ 07 working doc 收尾
+之後可考慮：08_Story_Engine / 10_Theme_to_Conflict / 或直接 canon 07 正式文件
 
 ## 當前狀態
 - P6 Write-back：**完成** ✓
@@ -44,14 +62,16 @@
 - ledger/P7_PENDING_QUESTIONS.md（完整問題清單）
 
 ## Blockers
-- 等待作者回答所有問題。
+**無阻塞。** 所有問題已有答案。
 
-## P2 Story Room — 待回答問題
-- **Q-P2-001**：朱音/操終局主動性（A/B/C）
-- **Q-P2-002**：「晴香是創世者」知情時間表（A/B/C）
-- **Q-P2-003**：第二幕有沒有「無代價的甜」（A/B/C）
-- **Q-P2-004**：黑奏的終局（A/B/C）
+## P2 Story Room — 全部確認
+- **Q-P2-001: A** ✓ 朱音+操同時主動犧牲
+- **Q-P2-002: C** ✓ 夕 Act II 已暗示，晴香知而不承認
+- **Q-P2-003: C** ✓ 有甜蜜高峰（關係進展）後緊跟最大代價
+- **Q-P2-004** ✓ 從 canon 解答（黑奏消散/彩永恆輪迴）
+- **Q-P2-005: A** ✓ 石像/紙皮騎士同一觸發；魔法少女 = Act III/IV
+- **Q-P2-006: C** ✓ 螢最後揭示（彩「多謝你保護咗我咁耐」那一刻）
 
 ## Requires Author Input Before Continuing?
-- **P7 write-back**：Yes — 需要回答 BUG-A/B/C/D + Q6-A/B + Q1-Q5
-- **P2 next round**：Yes — 需要回答 Q-P2-001 至 Q-P2-004（或其中任何一個開始討論）
+- **P7 write-back**：No — 可直接執行
+- **P2 07/09 文件**：No — 可直接啟動

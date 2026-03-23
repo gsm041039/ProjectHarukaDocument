@@ -19,7 +19,7 @@
 | 欄位 | 內容 |
 |------|------|
 | **全名** | 雨宮晴香（あめみや はるか）/ 春日井晴香（藝名） |
-| **年齡** | 17 歲（主線期） |
+| **年齡** | 16 歲（主線期） |
 | **誕生** | 主線前世代出生（見 [Timeline](../04_timeline_canon.md#event-haruka-birth)） |
 | **身份** | 少年偶像、創世者（不自知）、[情緒增幅器](../02_glossary.md#term-emotional-amplifier)、[整合者候選](../02_glossary.md#term-integrator)（未確認，本人無此自知） |
 | **家庭** | 母親花子（難產而亡，[Beta 線](../02_glossary.md#term-beta-line)設定）、姊姊[美夜子](miyako.md)（貓形態） |

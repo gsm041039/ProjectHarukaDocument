@@ -240,6 +240,18 @@
 - [情緒連結首戰](../04_timeline_canon.md#event-emotion-link-battle)：首次觸發情緒連結時，朱音穿透操的完美面具，感受到面具底下那個哭泣的孩子。
 
 ---
+
+## <a id="section-quotes"></a>核心台詞
+
+> 「她不是在活，她是在不斷重新穿上自己。」
+
+*操的「形式主義」本質的自我觀察——身份由表演構成，一旦停止表演就不知道自己是誰。*
+
+> 「沒有痛覺的完美，比地獄更可怕。」
+
+*無心完美人偶實驗的核心頓悟——感受是存在的證明。沒有痛覺的完美身體，是最精緻的囚籠。*
+
+---
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。

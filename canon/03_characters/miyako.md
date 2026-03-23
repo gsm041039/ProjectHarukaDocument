@@ -19,7 +19,7 @@
 | 欄位            | 內容                                                                                                                       |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **本名**        | 雨宮美夜子（改名水無月美夜子，象徵與過去決裂）                                                                                                  |
-| **年齡**        | 21 歲（主線期），視覺年齡 16                                                                                                        |
+| **年齡**        | 26 歲（主線期，復活後計），視覺年齡 16                                                                                                        |
 | **誕生**        | 早期世代角色（見 [Timeline](../04_timeline_canon.md#section-birth-war-era)）                                                      |
 | **死亡**        | [Alpha 線](../02_glossary.md#term-alpha-line)已死者（見 [Timeline](../04_timeline_canon.md#event-alpha-divergence)）            |
 | **復活**        | 由[秋穗](akiho.md)重啟為 [Unit 01](../02_glossary.md#term-unit-01)（見 [Timeline](../04_timeline_canon.md#event-miyako-revival)） |
@@ -269,6 +269,14 @@
 - [朔與美夜子的既視感追認](../04_timeline_canon.md#event-saku-miyako-dejavu)：由兵器身份回到關係身份的關鍵節點。
 - [三段式覺醒](../04_timeline_canon.md#event-miyako-awakening)：從功能性生存轉為主體性存在。
 - [凜的最終戰](../04_timeline_canon.md#event-rin-final-battle)：完成遲來介錯，推進送行者弧光。
+
+---
+
+## <a id="section-quotes"></a>核心台詞
+
+> 「這不是美夜子的詛咒，這是晴香的願望。」
+
+*貓形態真相重構——詛咒源於晴香幼年出於愛的願望。最諷刺的溫柔：被你最愛的人，變成你最厭惡的樣子。*
 
 ---
 

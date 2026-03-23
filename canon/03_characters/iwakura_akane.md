@@ -236,6 +236,18 @@ Alpha 線把她困在無力（無法救母親），Beta 線把她推向過度補
 - [情緒連結首戰](../04_timeline_canon.md#event-emotion-link-battle)：首次觸發情緒連結時，晴香感受到朱音胸腔燃燒的怒火；朱音感受到操完美面具下哭泣的孩子。
 
 ---
+
+## <a id="section-quotes"></a>核心台詞
+
+> 「我帶回來的希望，親手殺死了我最愛的人。」
+
+*最深恐懼的具現——朱音帶回的糖（希望）成為弟弟致死的毒。折射「傲慢救世主」主題：給予本身可以是傷害。*
+
+> 「晴香，妳今天的悲傷……食落去好似過期嘅士多啤梨牛奶。」
+
+*朱音的味覺通感能力——以食物味道感知他人情緒狀態，是她理解世界的獨特方式。*
+
+---
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。

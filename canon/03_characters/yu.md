@@ -182,6 +182,14 @@
 - [晴香與夕和解](../04_timeline_canon.md#event-haruka-yu-integration)：整合路徑啟動。
 
 ---
+
+## <a id="section-quotes"></a>核心台詞
+
+> 「妳對佢哋就咁好。」
+
+*嫉妒——傷口最直接的聲音。晴香給予他人的溫柔，是夕最無法承受的刺。*
+
+---
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。

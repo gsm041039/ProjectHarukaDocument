@@ -406,6 +406,20 @@
 
 ---
 
+## <a id="section-quotes"></a>核心台詞
+
+**黑奏：**
+
+> 「我想睇妳崩，但我又比任何人都更想妳唔好崩。」
+
+*愛恨矛盾的核心——黑奏對晴香情感的最深層剖白。她恨晴香帶來的痛苦，卻比任何人都更不想晴香被摧毀。*
+
+> 「如果我打你一拳，我的神經系統會即時收到同等的痛覺訊號，那我就物理上無法再打你。」
+
+*共振地獄計劃的哲學核心——「痛楚公有化」不是懲罰，而是強制進化的設計邏輯。*
+
+---
+
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
 
 - 共通功能規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
