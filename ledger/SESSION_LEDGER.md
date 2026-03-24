@@ -1,80 +1,66 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- P6 CANON WRITE-BACK — **完成**
+- P2′ Story Construction Gate — **全部 Working Docs 完成**（2026-03-24）
 
 ## Current Objective
-- P6 完成：19 項 write-back 任務全部執行完畢。Canon 已與作者 P5 決定同步。
+- 07 Major Events working doc v1.1 QA 修訂完成。所有 P2′ 工作文件建立完成。
+- 下一步：作者開綠燈後，07 working doc 升格為正式 canon 文件。
 
-## Completed This Round
-- [x] Read Batch 1 (00_README / P1 / S1 / Ledger_Templates)
-- [x] Created Batch 1 required ledger files (SESSION / NEXT / QUESTION / READ_MANIFEST)
-- [x] Read Batch 2 (00_README / P2 / P3 / ACTIVATE_BATCH2)
-- [x] P3 Scope 確定：canon/ + backup/ + art/ + root（79 份文件，作者授權）
-- [x] 讀取全部 79 份文件（3 個 agent 平行執行）
-- [x] 建立 ledger/DOC_REGISTER.md（79 份文件，含跨文件警示 17 條）
-- [x] 建立 ledger/SECTION_TABLES_CAN.md（canon/ 24 份文件，~190 sections）
-- [x] 建立 ledger/SECTION_TABLES_BACKUP_SW_DIR.md（screenwriter + director 27 份文件，99 sections）
-- [x] 建立 ledger/SECTION_TABLES_OTHER.md（draft + art + root 28 份文件）
-- [x] P4 Group A 提取完成：ATOM_CANDIDATES_A.md — 91 candidates (CA-0001 to CA-0091)，CAN-01 to CAN-24
-- [x] P4 Group B 提取完成：ATOM_CANDIDATES_B.md — 57 candidates (SB-0001 to SB-0057)，SCR-01 to SCR-17 + DIR-01 to DIR-10
-- [x] P4 Group C 提取完成：ATOM_CANDIDATES_C.md — 37 candidates (SC-0001 to SC-0037)，DFT/OAR/ARC/GP/ART/ROOT
-- [x] 建立 ATOM_CANDIDATE_TABLE.md（P4 master output，含 7 個必需章節）
-- [x] 更新 READ_MANIFEST.md、NEXT_ACTION.md、QUESTION_QUEUE.md
+## Completed This Round（P7 + P2′，2026-03-22 ~ 2026-03-24）
+
+### P7 Audit Write-back（2026-03-23）
+- [x] BUG-A: ko_hikaru.md 聲音設計童聲殘留修正
+- [x] BUG-B: haruka.md 年齡 17→16 歲修正
+- [x] BUG-C: miyako.md 年齡 21→26 歲修正
+- [x] BUG-D: aeri.md 假名 あいり→あえり 修正
+- [x] Q6-A/B: 朔年齡 + 青梅竹馬時序確認修正
+- [x] Q1-Q5: 凜 quote / 角色 Quotes / 世界設定詞條 / 系統哲學框架 / 製作文件更新
+- 受影響文件：ko_hikaru / haruka / miyako / aeri / saku / rin / yu / aya / iwakura_akane / ayakomoji_misao + visual_bible + narrative_design_bible + 新建 canon/12_philosophy_and_systems.md
+
+### P2′ Story Construction Gate（2026-03-23 ~ 2026-03-24）
+- [x] **Narrowed 09** — canon/09_information_design.md 新增 section-three-reveal-chains（三大揭示知識依賴鏈）
+- [x] **07 Major Events Working Doc v1** — 24 個重大事件，四幕全覆蓋，AKS 校準，角色弧光總表
+- [x] **08 Story Engine Working Doc** — 雙引擎機制 + 四幕壓力曲線 + 日常場景設計
+- [x] **10 Theme-to-Conflict Working Doc** — 主題架構 + TC-01~06 碰撞點 + 角色主題對應
+- [x] **三 Agent 平行 QA**（Agent P-T / P-C / P-A） — 20+ 問題識別
+- [x] 作者確認所有 QA 問題：夕/黑奏/晴香/凜/情緒毒品危機 等
+- [x] **07 Major Events v1.1 修訂** — E-05/10/11a/15/15a/16/18/22 + 關係弧光總表修正
+- [x] Tools Prompt Phase 5 更新（問題質量規則加入）
+- [x] memory/feedback_question_quality.md 新建
+- [x] QUESTION_QUEUE.md Q-SC-001 RESOLVED
 
 ## In Progress
-- 無。P6 完成。
-
-## Blockers
 - 無。
 
-## Confirmed Author Decisions（P5 + P6 合計）
-- P3 scope：全範圍（canon/ + backup/ + art/ + root）— 2026-03-18
-- 舊 doc_register 丟棄，全新登錄 — 2026-03-18
-- P4 授權進行（Q-006 RESOLVED）— 2026-03-18
-- RISK-01: 保留 SB-0036 quote "這不是報復，這是『絕對的互不侵犯條約』。" — 2026-03-18
-- RISK-02: Alpha 線花子+美夜子同時死亡（DFT-01 定案）— 2026-03-18
-- Q-004: Misao/Aeri 係真名，全部替換 — 2026-03-18
-- Q-005: iroha.md → aya.md 合併，角色真名為彩(Aya) — 2026-03-18
-- Q-006: RESOLVED — 2026-03-18
-- G-E15: 術語「緋潮」（非「紅潮」）— 2026-03-18
-- 全 29 項 P5 Author Gate 決定：見 ledger/P5_DECISIONS.md
+## Blockers
+- E-11 甜蜜高峰具體場景 — BLOCKED（結構定案，具體場景 TBD，非阻塞主線）
+
+## Confirmed Author Decisions（本輪）
+- 夕 = 暫時沉睡（E-10後），Act III 被強迫接管（E-18）
+- 黑奏消散 = Act IV（非 Act III末）
+- 晴香靜止搖籃 = 「覺醒」不明寫，讀者自行推斷
+- 凜拒絕治癒→Unit 00 = Act III 獨立事件（已加入 E-15a）
+- 情緒毒品危機 = 獨立存在（已加入 E-11a）
+- E-11 甜蜜高峰 = 日常積累（無單一事件），keep BLOCKED
+- 朔 Act IV = 重逢；接受美夜子已改變的事實
+- 問題格式 = 不用編號，術語自足，多維度提問
 
 ## Open Questions
-- 見 QUESTION_QUEUE.md（Q-004/Q-005/Q-006 全部 RESOLVED）
+- 無阻塞問題。
 
-## Files Updated
-- ledger/DOC_REGISTER.md（新建 P3）
-- ledger/SECTION_TABLES_CAN.md（新建 P3）
-- ledger/SECTION_TABLES_BACKUP_SW_DIR.md（新建 P3）
-- ledger/SECTION_TABLES_OTHER.md（新建 P3）
-- ledger/ATOM_CANDIDATES_A.md（新建 P4 — 91 candidates）
-- ledger/ATOM_CANDIDATES_B.md（新建 P4 — 57 candidates）
-- ledger/ATOM_CANDIDATES_C.md（新建 P4 — 37 candidates）
-- ledger/ATOM_CANDIDATE_TABLE.md（新建 P4 master output）
-- ledger/READ_MANIFEST.md（更新）
+## Files Updated This Round
+- canon/09_information_design.md（新增 section-three-reveal-chains）
+- canon/_working/story_construction/07_Major_Events_Relationship_Impact.md（新建 v1 + v1.1修訂）
+- canon/_working/story_construction/08_Story_Engine_and_Conflict_Pressure_Map.md（新建）
+- canon/_working/story_construction/10_Theme_to_Conflict_Expression_Map.md（新建）
+- canon/_working/QUESTION_QUEUE.md（更新，Q-SC-001 RESOLVED）
 - ledger/NEXT_ACTION.md（更新）
-- ledger/QUESTION_QUEUE.md（更新）
-- ledger/SESSION_LEDGER.md（更新）
-
-## Handoff Summary
-P3/P4/P5/P6 全部完成（2026-03-18）。P6 執行了 19 項 write-back：
-- T00: aya.md（合併 iroha.md + antagonist.md）
-- T01: 文件改名（ayakomoji_misao.md, aeri.md）+ 全局名稱替換
-- T02: Timeline Alpha 線同時死亡補充
-- T03/T07/T13: 彩/黑奏 quotes + 永恆陷阱整合（T00 階段執行）
-- T04: 凜 quote 加入 rin.md
-- T05: Soul Traversal 詞條加入 glossary
-- T06: 夕左手攔截行為 hook 加入 yu.md（上輪完成）
-- T08: 已存在於文件（skip）
-- T09: 美夜子 quote 加入 miyako.md
-- T10/T12: 操 spider/swan + puppet quotes 加入 ayakomoji_misao.md
-- T11: 朱音望門習慣 + quote 加入 iwakura_akane.md
-- T14/T18: 三層恐怖規則 + 變身=浮士德契約 加入 narrative_design_bible.md
-- T15/T16/T17: 伏筆系統 + 揭露時間表 + Reality Stitching 加入 information_design.md
-- T19: 緋潮剪影設計加入 visual_bible.md
-- 全域 antagonist.md/iroha.md 交叉引用修正完畢（0 餘留）
-- 全域「紅潮」→「緋潮」修正完畢（0 餘留）
+- ledger/SESSION_LEDGER.md（本文件，更新）
+- canon/_working/STORY_CONSTRUCTION_PROGRESS.md（更新）
+- tools/P2_Prime_Story_Construction_Gate_Pack/P2_Prime_Story_Construction_Gate_From_Canon.txt（Phase 5 問題質量規則加入）
+- memory/feedback_question_quality.md（新建）
+- memory/MEMORY.md（更新索引）
 
 ## Session Date
-- 2026-03-18
+- 2026-03-22 ~ 2026-03-24

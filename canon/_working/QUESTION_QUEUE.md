@@ -18,25 +18,18 @@ Generated: 2026-03-23 | Source: P2′ Rounds 1-3 + P7 write-back complete
 
 ---
 
-## 當前阻塞問題（BLOCKED）
+## ✓ 已解決
 
-### Q-SC-001 — Act II 甜蜜高峰具體場景設計
+### Act II 甜蜜高峰結構定義 ← **RESOLVED 2026-03-24**
 
-- **Question ID**: Q-SC-001
-- **Title**: Act II 甜蜜高峰（隊伍最暖時刻）的具體場景/事件設計
-- **Related Files**: `07_Major_Events_Relationship_Impact.md` E-11 | `canon/05_story_outline_canon.md` Act II | `ledger/P2_PRIME_LEDGER.md` Q-P2-003
-- **Why Blocked**: 結構已確認（Q-P2-003: C — 有甜蜜高峰後緊跟最大代價），但具體觸發事件、場景內容、涉及角色組合尚未定義。
-- **Downstream Docs Affected**:
-  - `07_Major_Events_Relationship_Impact.md` E-11（目前 BLOCKED 佔位）
-  - 未來 canon/07 正式文件
-  - 08_Story_Engine / 10_Theme_to_Conflict（若開啟）
-- **Design Constraint** (已知):
-  - 時序：Act II 中期（嘆息之橋之前）
-  - 觀眾知識狀態：AKS-H2（晴香知道創世者身份但在逃避，觀眾處於上帝視角）
-  - 設計要點：甜蜜必須是「真實的」而非諷刺性的——正因為真實，後續失去才有重量
-  - 甜蜜高峰後緊接嘆息之橋最大代價（Q-P2-003 C確認）
-- **Options**: 開放 — 待作者提供方向
-- **Status**: BLOCKED — 待作者決定
+**設計方向確認**：甜蜜高峰**不是單一大場景**，而是 Act II 中期日常活動場景的積累，透過關係進化逐步建立。沒有一個「甜蜜頂點事件」需要命名或定義——由編劇在日常場景中自然推進。
+
+**下游影響**：
+- `07_Major_Events_Relationship_Impact.md` E-11：改為「日常關係積累期（散落於 Act II 中期各日常場景）」
+- `08_Story_Engine`：Act II 日常插入點設計已反映此方向
+- 不再需要作者提供具體場景
+
+**不再是阻塞點。**
 
 ---
 
