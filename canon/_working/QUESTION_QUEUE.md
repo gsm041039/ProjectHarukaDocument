@@ -1,5 +1,5 @@
 # QUESTION QUEUE
-Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ Rounds 1-3 + P7 write-back + 07 Upgrade Audit + Writing Gate
+Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ + Writing Gate + Full Story Rough Outline Audit
 
 ---
 
@@ -13,6 +13,22 @@ Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ Rounds 1-3 + P7 writ
 | WG-Q4 | 輸出格式 | C 方向（混合格式），需先討論格式細節 | ⏳ 待格式討論 |
 | WG-Q5 | 對白語言 | A — 全廣東話口語 | ✓ [AC] |
 | WG-Q6 | Canon 空白時的處理 | B — 必須先問才填補 | ✓ [AC] |
+
+---
+
+## 待確認（BLOCKED / DEFERRED）
+
+| 問題 | 來源 | 優先度 | 狀態 |
+|------|------|--------|------|
+| 晴香得知自己是創世者的具體時機 | BD-01剩餘 | **High** | BLOCKED — 需作者在 Act Outline 前確認 |
+| 螢（愛莉）揭示線跨幕鋪陳設計 | BD-09 | **High** | 設計缺口 — 需在 Act I-III Outline 時設計 |
+| 夕 Act IV 具體終局 | BD-03 | Medium | BLOCKED — 可延後至 Act IV Outline |
+| 愛莉 Act IV 具體終局 | BD-04 | Medium | BLOCKED — 可延後至 Act IV Outline |
+| 操 Alpha 線身體描述矛盾 | BD-06 | Medium | 待確認 — 影響鏡中幻象設計 |
+| Beta 線晴香媽媽死因官方記憶 | BD-07 | Medium | 待確認 — 影響秋穗揭露節點 |
+| 美夜子 Alpha 線死亡方式 | BD-08 | Medium | 待確認 — 影響 Alpha 線回溯場景 |
+| Act I 調性強調（WG-Q2）| Writing Gate | Low | 待最終確認，不阻塞 Outline Gate |
+| 輸出格式細節（WG-Q4）| Writing Gate | Low | 待格式討論，不阻塞 Outline Gate |
 
 ---
 

@@ -16,8 +16,8 @@ Version: v3 | Updated: 2026-03-23 | Stability: ~95%
 | **Fake Climax Candidate** | Act III 偽高潮：鏡像的破碎。朱音+操同時主動犧牲（Act III，嘆息之橋前後）。表面上隊伍完整大戰，觀眾以為將進入終局。 | AUTHOR_CONFIRMED |
 | **Earthquake / Structural Break** | Act III 後期：Alpha 線真相揭露。晴香是創世者確認。觀眾世界觀完全翻轉。 | AUTHOR_CONFIRMED（原則）/ INFERRED（具體觸發事件） |
 | **Late-Stage Reorientation** | Act IV：重生或毀滅。愛莉雙形態第二觸發（魔法少女形態）出現（Act III/IV邊界）。黑奏計劃攤牌。彩「多謝你保護咗我咁耐」→ 螢不可復活揭示（最大情感重量）。美夜子接受新身份，朔不再與她主動往來。 | AUTHOR_CONFIRMED |
-| **End-State Direction** | 黑奏消散（被彩「我想自己揀」否定）。彩永恆輪迴（自選，每次阻止黑奏誕生）。晴香終局：靜止搖籃 or 主體性回歸（未定案）。「態度 vs. 命運」主題收束。 | PARTIALLY_CONFIRMED（黑奏/彩）/ BLOCKED（晴香終局形態） |
-| **Biggest Unknowns** | 1. Act II 甜蜜高峰具體場景 / 2. 晴香終局形態（非阻塞，可在後期定案）/ 3. 三大揭示（晴香/螢/愛莉）的觀眾知識前提鏈 | — |
+| **End-State Direction** | 黑奏消散（被彩「我想自己揀」否定）。彩永恆輪迴（自選，每次阻止黑奏誕生）。晴香終局：靜止搖籃（唯一定局，無清醒存活分支）。「態度 vs. 命運」主題收束。 | AUTHOR_CONFIRMED（黑奏/彩/晴香終局）|
+| **Biggest Unknowns** | 1. Act II 甜蜜高峰具體場景（延後）/ 2. Alpha線真相揭露時機（Act I vs Act II末，待確認）/ 3. 場景B-2幕別（Act III vs Act IV前期，待確認）/ 4. 夕/愛莉Act IV終局（BLOCKED） | — |
 
 ---
 
@@ -38,7 +38,7 @@ Version: v3 | Updated: 2026-03-23 | Stability: ~95%
 | 朔 | 弧光：學識接受三位一體，Act II 後期與美夜子關係終結 | AUTHOR_CONFIRMED |
 | 朱音 | 犧牲（糖果山），同時 Act III | AUTHOR_CONFIRMED |
 | 操 | 自選停留半屍骸化，Act III | AUTHOR_CONFIRMED |
-| 晴香 | 未定案 | BLOCKED |
+| 晴香 | 靜止搖籃（唯一定局，覺醒不明寫，讀者推斷） | AUTHOR_CONFIRMED |
 | 夕 | 共犯結構（與黑奏客觀共犯），具體終局未確認 | INFERRED |
 | 愛莉 | 雙形態觸發後終局未定案 | BLOCKED |
 

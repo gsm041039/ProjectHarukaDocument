@@ -16,7 +16,8 @@ Updated: 2026-03-25 | Writing Gate Q1–Q6 確認 + 新規則集綁定（P2_Prim
 | Phase 7 — QA + 作者確認 + 修訂 | D | ✓ Complete (07 v1.1, 2026-03-24) |
 | Phase 8 — Canon Upgrade | D | ✓ Complete (2026-03-25) |
 | **Phase 9 — Writing Gate + Rule Rebind** | D | **✓ Complete (2026-03-25)** |
-| **Phase 10 — Full Story Rough Outline Audit** | Auto | **⏳ NEXT — Auto-triggered** |
+| **Phase 10 — Full Story Rough Outline Audit** | Auto | **✓ Complete (2026-03-25)** |
+| **Phase 11 — Act Outline Gate** | D | **⏳ NEXT — Act I 先** |
 
 ---
 
