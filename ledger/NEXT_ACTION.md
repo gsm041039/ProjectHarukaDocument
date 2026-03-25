@@ -5,11 +5,40 @@
 P2′ 全部完成。07 v1.2 修訂完成，**已升格為 canon/13_major_events_relationship_impact.md**。
 **下一步**：
 
-| 選項 | 說明 | 前置條件 |
-|------|------|---------|
-| **A. 08/10 補入新事件** | E-1.5/E-3.5/E-8.5/E-11a/E-15a/E-15.8 同步更新 08/10 working docs | 可獨立進行 |
-| **B. 開始寫作 Act I** | 所有 canon 文件已備齊 | 無阻塞 |
-| **C. KNOWLEDGE_DEPENDENCY_MAP** | 逐場次 AKS 追蹤輔助工具 | 開始 Act II 前建議建立 |
+**★ 已更改（2026-03-25）：新規則集綁定，下一步由 auto-call 接管。**
+
+### 立即執行（Auto-triggered）
+- **Full Story Rough Outline Audit**
+  - `FULL_STORY_ROUGH_OUTLINE_AUDIT.md` 不存在 → Auto-Call Rule 第3條觸發
+  - 四幕逐幕審核 + Cross-Act Control Layers + Blocked Decisions
+  - 完成前不得推進 Act 寫作 / narrowed docs
+
+### 同步待建立
+| 文件 | 狀態 |
+|------|------|
+| `RELEVANT_FILES_TABLE.md` | ✗ 待建立 |
+| `HARD_CONSTRAINTS_TABLE.md` | ✗ 待建立 |
+| `CONSIDERATIONS_REGISTER.md` | ✗ 待建立 |
+| `CROSS_ACT_CONTROL_LAYERS.md` | ✗ 待建立 |
+| `BLOCKED_DECISIONS.md` | ✗ 待建立 |
+| `writing/WRITING_PRECONDITIONS.md` | ✗ Audit 後建立 |
+| `writing/WRITING_SCOPE_AND_PERMISSIONS.md` | ✗ Audit 後建立 |
+| `writing/ACT_DRAFT_STATUS.md` | ✗ Audit 後建立 |
+
+### Writing Gate Q1–Q6（2026-03-25 確認）
+| 問題 | 答案 |
+|------|------|
+| Q1 晴香對彩/黑奏切換反應 | **C** — 完全沒意識到 |
+| Q2 Act I 調性 | **A 或 C 待定** |
+| Q3 日常場景 | **傾向 B，C 亦可** |
+| Q4 輸出格式 | **C 方向，待格式討論** |
+| Q5 對白語言 | **A** — 全廣東話口語 |
+| Q6 Canon 空白 | **B** — 必須先問才填補 |
+
+### 規則集（已綁定）
+- `P2_Prime_Story_Construction_Gate_From_Canon.txt`
+- `Updated_IDE_CLI_Tools_Prompt.txt`（v4）
+- `IDE_CLI_Activate_P2_Prime.txt`
 
 ---
 

@@ -1,11 +1,24 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- P2′ Story Construction Gate — **全部 Working Docs 完成**（2026-03-24）
+- **Writing Gate 前置確認完成（2026-03-25）**
+- 新規則集已綁定：P2_Prime_Story_Construction_Gate_From_Canon + Updated_IDE_CLI_Tools_Prompt + IDE_CLI_Activate_P2_Prime（v4）
+- **下一步**：Auto-run `FULL_STORY_ROUGH_OUTLINE_AUDIT.md`（缺失，自動觸發）
 
 ## Current Objective
-- 07 Major Events working doc v1.1 QA 修訂完成。所有 P2′ 工作文件建立完成。
-- 下一步：作者開綠燈後，07 working doc 升格為正式 canon 文件。
+- 執行 Full Story Rough Outline Audit（四幕逐幕 + Cross-Act Control Layers）
+- 在 audit 足夠穩定前不推進 Act 寫作
+
+## Writing Gate Q1–Q6 答案（2026-03-25 確認）
+
+| 問題 | 答案 | 備注 |
+|------|------|------|
+| Q1 E-1.5 晴香反應（彩/黑奏切換） | **C** 完全沒意識到是人格切換 | [AC] |
+| Q2 Act I 調性強調 | **A 或 C 待定** | 開場亮色優先 or 跟場景走 |
+| Q3 日常場景比重 | **傾向 B，C 亦可** | 至少一個功能，不強求兩個 |
+| Q4 輸出格式 | **C 方向，需先討論** | 混合格式，待格式細節確認 |
+| Q5 對白語言 | **A 全廣東話口語** | [AC] |
+| Q6 Canon 空白處理 | **B，必須先問才填補** | [AC] |
 
 ## Completed This Round（P7 + P2′，2026-03-22 ~ 2026-03-24）
 
@@ -31,10 +44,11 @@
 - [x] QUESTION_QUEUE.md Q-SC-001 RESOLVED
 
 ## In Progress
-- 無。
+- Full Story Rough Outline Audit（尚未執行，下一輪首要任務）
 
 ## Blockers
 - E-11 甜蜜高峰具體場景 — BLOCKED（結構定案，具體場景 TBD，非阻塞主線）
+- Q2 / Q4 待最終確認（不阻塞 audit，阻塞正式寫作）
 
 ## Confirmed Author Decisions（本輪）
 - 夕 = 暫時沉睡（E-10後），Act III 被強迫接管（E-18）
@@ -63,4 +77,4 @@
 - memory/MEMORY.md（更新索引）
 
 ## Session Date
-- 2026-03-22 ~ 2026-03-24
+- 2026-03-22 ~ 2026-03-25

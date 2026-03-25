@@ -1,5 +1,5 @@
 # STORY CONSTRUCTION PROGRESS
-Updated: 2026-03-25 | 07 working doc v1.2 完成 + 升格為 canon/13_major_events_relationship_impact.md
+Updated: 2026-03-25 | Writing Gate Q1–Q6 確認 + 新規則集綁定（P2_Prime v4）
 
 ---
 
@@ -14,7 +14,9 @@ Updated: 2026-03-25 | 07 working doc v1.2 完成 + 升格為 canon/13_major_even
 | Phase 5 — Author Q&A | D | ✓ All blocking questions resolved |
 | Phase 6 — Working Docs 建立 | D | ✓ Complete (2026-03-24) |
 | Phase 7 — QA + 作者確認 + 修訂 | D | ✓ Complete (07 v1.1, 2026-03-24) |
-| **Phase 8 — Canon Upgrade** | D | **✓ Complete (2026-03-25)** |
+| Phase 8 — Canon Upgrade | D | ✓ Complete (2026-03-25) |
+| **Phase 9 — Writing Gate + Rule Rebind** | D | **✓ Complete (2026-03-25)** |
+| **Phase 10 — Full Story Rough Outline Audit** | Auto | **⏳ NEXT — Auto-triggered** |
 
 ---
 

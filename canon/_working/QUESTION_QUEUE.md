@@ -1,5 +1,18 @@
 # QUESTION QUEUE
-Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ Rounds 1-3 + P7 write-back + 07 Upgrade Audit
+Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ Rounds 1-3 + P7 write-back + 07 Upgrade Audit + Writing Gate
+
+---
+
+## Writing Gate Q1–Q6（2026-03-25 確認）
+
+| ID | 問題 | 答案 | 狀態 |
+|----|------|------|------|
+| WG-Q1 | E-1.5 晴香目睹彩/黑奏切換後反應 | C — 完全沒意識到是人格切換（以為彩只是恍神） | ✓ [AC] |
+| WG-Q2 | Act I 調性強調 | A 或 C 待定（開場亮色優先 / 跟場景走） | ⏳ 待最終確認 |
+| WG-Q3 | 日常場景比重與要求 | 傾向 B（至少一個功能），C 亦可 | ✓ [AC] 有彈性 |
+| WG-Q4 | 輸出格式 | C 方向（混合格式），需先討論格式細節 | ⏳ 待格式討論 |
+| WG-Q5 | 對白語言 | A — 全廣東話口語 | ✓ [AC] |
+| WG-Q6 | Canon 空白時的處理 | B — 必須先問才填補 | ✓ [AC] |
 
 ---
 
