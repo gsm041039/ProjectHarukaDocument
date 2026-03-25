@@ -1,31 +1,25 @@
-P2′ Story Construction Gate from Canon — Updated Full Pack
+P2′ Story Construction Gate from Canon — Updated Pack (Auto-Call Version)
 
 Files
-- P2_Prime_Story_Construction_Gate_From_Canon_v2.txt
-  主 prompt。用來取代舊 P2。
-- IDE_CLI_Activate_P2_Prime_v2.txt
-  IDE / CLI 專用啟動 prompt。讀完主 prompt 後再貼。
-- README_P2_Prime_Pack_v2.txt
+- P2_Prime_Story_Construction_Gate_From_Canon.txt
+  主 prompt。現已加入 Auto-Call Workflow Rule。
+- Updated_IDE_CLI_Tools_Prompt.txt
+  工具治理 prompt。現已加入 Full Story Rough Outline Audit discipline。
+- IDE_CLI_Activate_P2_Prime.txt
+  IDE / CLI 專用啟動 prompt。現已要求主 prompt + tools prompt 同時生效。
+- README_P2_Prime_Pack.txt
   使用說明。
-- Updated_IDE_CLI_Tools_Prompt_v2.txt
-  更高約束的 tools / working files / dependency map 規則。
 
-How these 4 files relate
-- 原本嗰 3 份仲係主體：
-  1) 主 prompt
-  2) 啟動 prompt
-  3) README
-- 我頭先單獨俾你嗰份 tools prompt 係額外加強層，不係取代前面 3 份。
-- 呢個 full pack 係將兩者合併返一齊，避免你只拎到 1 個 file 以為覆蓋咗整套。
+What changed
+- AI 會自動先跑 Full Story Rough Outline Audit，而唔係等作者手動揀 07 / 08 / 09 / 10。
+- AI 必須主動推薦 single best next step，唔可以只列 options。
+- AI 未完成 outline audit 前，不可直接跳去寫單一 Act。
 
 Recommended use
-1. 先讀 README
-2. load 主 prompt
-3. load tools prompt
-4. 再貼 IDE_CLI activate
-5. 再畀 repo / 文件
+1. 先 load 主 prompt
+2. 再 load tools prompt
+3. 再貼 IDE CLI activate
+4. 再畀 repo / 文件
 
 Honest note
-- 一份長 prompt 不能保證 100% 做齊所有事。
-- 真正穩定做法係：主 prompt + 啟動 prompt + tools prompt + ledger / phase gate + 你作 author approval gate。
-- 所以分開通常更穩，而唔係全部塞成一段。
+- 真正穩定做法仍然係：主 prompt + tools prompt + activate prompt + working files + 作者 approval gate。

@@ -1,5 +1,5 @@
 # STORY CONSTRUCTION PROGRESS
-Updated: 2026-03-24 | P2′ 全部 Working Docs 完成 + 07 v1.1 QA 修訂完成
+Updated: 2026-03-25 | 07 working doc v1.2 完成 + 升格為 canon/13_major_events_relationship_impact.md
 
 ---
 
@@ -14,7 +14,7 @@ Updated: 2026-03-24 | P2′ 全部 Working Docs 完成 + 07 v1.1 QA 修訂完成
 | Phase 5 — Author Q&A | D | ✓ All blocking questions resolved |
 | Phase 6 — Working Docs 建立 | D | ✓ Complete (2026-03-24) |
 | Phase 7 — QA + 作者確認 + 修訂 | D | ✓ Complete (07 v1.1, 2026-03-24) |
-| **Phase 8 — Canon Upgrade** | — | **待作者開綠燈** |
+| **Phase 8 — Canon Upgrade** | D | **✓ Complete (2026-03-25)** |
 
 ---
 
@@ -23,7 +23,8 @@ Updated: 2026-03-24 | P2′ 全部 Working Docs 完成 + 07 v1.1 QA 修訂完成
 | 文件 | 狀態 | 版本 | 備注 |
 |------|------|------|------|
 | `canon/09_information_design.md` section-three-reveal-chains | ✓ Canon | — | 三大揭示知識依賴鏈 |
-| `canon/_working/story_construction/07_Major_Events_Relationship_Impact.md` | ✓ Working | v1.1 | 24 事件（含 E-11a/E-15a 新增），QA 修訂完成 |
+| `canon/_working/story_construction/07_Major_Events_Relationship_Impact.md` | ✓ Working | v1.2 | 28 事件（+E-1.5/E-3.5/E-8.5/E-15.8），全部修訂完成 |
+| `canon/13_major_events_relationship_impact.md` | **✓ CANON** | v1.0 | 從 working doc v1.2 升格，2026-03-25 |
 | `canon/_working/story_construction/08_Story_Engine_and_Conflict_Pressure_Map.md` | ✓ Working | v1 | 雙引擎 + 壓力曲線 + 日常設計 |
 | `canon/_working/story_construction/10_Theme_to_Conflict_Expression_Map.md` | ✓ Working | v1 | TC-01~06 + 角色主題對應 |
 

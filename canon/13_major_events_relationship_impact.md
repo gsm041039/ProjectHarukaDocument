@@ -1,32 +1,6 @@
-# 07 Major Events — Character Relationship Impact Analysis
-**Working Doc — NOT CANON**
-Created: 2026-03-23 | Status: Draft v1.2（2026-03-25 作者確認修訂）
+# 13 Major Events — Character Relationship Impact Analysis
+**CANON** | Promoted: 2026-03-25 from working doc v1.2
 Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confirmed P2′ skeleton
-
-> **v1.2 修訂摘要（2026-03-25）**：
-> - E-1.5：新增「圖書館的幽靈」（Act I，backup L28-47）
-> - E-3.5：新增「美夜子失蹤——傲慢的代價」（Act I，backup L107-135 + [AC]作者補充）
-> - E-8.5：新增「攻擊維多利亞之淚」（Act II中後期，backup L256-269）
-> - E-10：加入場景邏輯設計注意（晴香首次面對寂靜 + 共鳴黑暗方法論）
-> - E-11a：AKS-S標記修正（S0→S1完成），秋穗主動交易動因補充
-> - E-12：AKS-S標記修正（S1已完成）
-> - E-13：AKS-S標記修正（S1已完成）
-> - E-15.8：新增「凜的最終戰——遲來的介錯」（Act III，backup L766-904 + [AC]作者修正）
-> - E-16：朔觸發器修正（「保護的殘響」非美夜子覺醒）；加入貓殼碎裂視覺設計注意
-> - E-18：AKS-S2標示修正；補入希望武器化機制因果說明
-> - E-21：時序修正（Act IV末 → Act III高潮帝國廣場決戰中）**[阻塞修復]**
-> - 關係弧光總表：夕欄補入持續對抗期；朔/凜/秋穗條目補充；新增秋穗行
-
-> **v1.1 修訂摘要（2026-03-24）**：
-> - E-05：加入前置事件說明（凜原初犧牲 = 故事前）
-> - E-10：夕「潛航謝幕」→「暫時沉睡（待 Act III 強迫接管）」
-> - E-11a：新增「情緒毒品危機」獨立事件（Act II 末）
-> - E-15：擴寫，釐清代價收割 vs. 弧光完成
-> - E-15a：新增「凜拒絕治癒→Unit 00」獨立事件（Act III）
-> - E-16：[SS] → [AC]
-> - E-18：夕「完全接管」→「強迫接管（從暫時沉睡中）」
-> - E-22：加入晴香終局設計注意（覺醒不明寫）
-> - 關係弧光總表：朱音/朔/夕 Act 欄修正
 
 > **使用說明**：本文件追蹤每個重大事件對角色關係的衝擊。每個事件記錄：結構功能、關係影響（L1-L3 三層）、觀眾知識狀態（calibrated against `canon/09 section-three-reveal-chains`）、主題連結。
 > 標記：[AC] = AUTHOR_CONFIRMED | [SS] = SOURCE_SUPPORTED_BUT_NOT_CONFIRMED | [INF] = INFERRED
@@ -376,7 +350,7 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 
 **結構功能**：操弧光收束——從「被動傀儡」→「主動選擇者」；「三位一體」概念的終極具體化。
 
-**觀眾知識狀態**：AKS-H2 / AKS-S0-S1轉折 / AKS-A1
+**觀眾知識狀態**：AKS-H2 / **AKS-S1（已完成）** / AKS-A1
 
 | 關係 | 轉變 | 層次 |
 |------|------|------|
@@ -465,7 +439,7 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 
 **設計注意（視覺結構）**：貓殼碎裂是美夜子「防禦層解除」的視覺外化——非特效演出，而是功能性設計符號：貓形態（控制/隱藏）的物理消解，標示角色由「控制型引導者」跨越至「可被陪伴的人」的結構性轉折點。
 
-**See also**: [canon/09 場景C](../../09_information_design.md#section-key-scenes)
+**See also**: [canon/09 場景C](09_information_design.md#section-key-scenes)
 
 ---
 
@@ -505,6 +479,25 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 
 ---
 
+### E-21 彩的覺醒與犧牲——螢揭示
+
+**時序**：Act III 高潮（帝國廣場決戰中）| [AC — Q-P2-006 C]
+
+**結構功能**：彩弧光完成（被囚禁的孩子→自願的救贖者）；黑奏被彩「我想自己揀」否定；螢揭示達到最大情感重量。
+
+**觀眾知識狀態**：AKS-H3 / **AKS-S4 → 螢揭示完成** / AKS-A2
+
+| 關係 | 轉變 | 層次 |
+|------|------|------|
+| 彩 ↔ 黑奏 | 彩說「我想自己揀」→ 否定黑奏的存在意義；黑奏消散 [AC] | L2自我否定的悲劇 |
+| 彩 ↔ 螢 | 彩說「**多謝你保護咗我咁耐**」→ 接受螢永遠不可能回來的現實 | **螢揭示完成** |
+| 觀眾 ↔ 黑奏的全部罪行 | 黑奏為了不可能實現的目標造成一切 → 悲劇是「不承認不可能」的最終代價 | L3永恆陷阱機制終結 |
+| 彩 ↔ 因果債務 | 彩燃燒靈魂償還晴香的因果債務 → 靈魂被集體潛意識捕獲，投入永恆輪迴 [AC] | L3犧牲有物理基礎的「交換」 |
+
+**See also**: [canon/12 section-eternal-trap](12_philosophy_and_systems.md#section-eternal-trap) | [canon/09 螢揭示鏈](09_information_design.md#section-three-reveal-chains)
+
+---
+
 ## ══ ACT IV ══
 
 ---
@@ -540,25 +533,6 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 
 ---
 
-### E-21 彩的覺醒與犧牲——螢揭示
-
-**時序**：Act III 高潮（帝國廣場決戰中）| [AC — Q-P2-006 C；v1.2 FIX-01阻塞修復]
-
-**結構功能**：彩弧光完成（被囚禁的孩子→自願的救贖者）；黑奏被彩「我想自己揀」否定；螢揭示達到最大情感重量。
-
-**觀眾知識狀態**：AKS-H3 / **AKS-S4 → 螢揭示完成** / AKS-A2
-
-| 關係 | 轉變 | 層次 |
-|------|------|------|
-| 彩 ↔ 黑奏 | 彩說「我想自己揀」→ 否定黑奏的存在意義；黑奏消散 [AC] | L2自我否定的悲劇 |
-| 彩 ↔ 螢 | 彩說「**多謝你保護咗我咁耐**」→ 接受螢永遠不可能回來的現實 | **螢揭示完成** |
-| 觀眾 ↔ 黑奏的全部罪行 | 黑奏為了不可能實現的目標造成一切 → 悲劇是「不承認不可能」的最終代價 | L3永恆陷阱機制終結 |
-| 彩 ↔ 因果債務 | 彩燃燒靈魂償還晴香的因果債務 → 靈魂被集體潛意識捕獲，投入永恆輪迴 [AC] | L3犧牲有物理基礎的「交換」 |
-
-**See also**: [canon/12 section-eternal-trap](../../12_philosophy_and_systems.md#section-eternal-trap) | [canon/09 螢揭示鏈](../../09_information_design.md#section-three-reveal-chains)
-
----
-
 ### E-22 最終決戰與強制索回——靜止搖籃
 
 **時序**：Act IV 結局 | [AC — canon/05 Act IV 8]
@@ -587,7 +561,7 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 | **美夜子** | 功利引導者→開始共情 | 信任被打破→被隊友救援 | 三段式覺醒，可被陪伴的人 | 人類身份守護者；笨拙演奏繼承意志 |
 | **朱音** | 搶怪黨→勉強隊員 | 屍骸女王（放逐期）| 糖果山犧牲（主動，有名字）| — |
 | **操** | 傲嬌獨行俠→被接納 | 雙重背叛→崩潰邊緣 | 自選停留半屍骸化臨界點 | — |
-| **彩/黑奏** | — | DID開始可推斷 | 彩內部革命 | 彩犧牲（永恆輪迴）；黑奏消散 |
+| **彩/黑奏** | — | DID開始可推斷 | 彩內部革命；彩犧牲+螢揭示（E-21，Act III高潮）；黑奏消散 | 彩永恆輪迴（靈魂被集體潛意識捕獲）|
 | **朔** | — | 反叛萌芽；**朔↔美夜子既視感追認（Act II末）** | 解放者覺醒（E-16）：**保護的殘響**觸發，脫離管理局，與晴香同盟 | **重逢（朔↔美夜子）**；接受美夜子已改變的事實 |
 | **凜** | 公務員重組身份（不記得是誰） | 美夜子發現重組的凜；PTSD觸發 | 記憶恢復→拒絕治癒→Unit 00（E-15a）；**凜↔美夜子介錯關係衝擊（E-15.8）** | 態度即自由；美夜子接受凜的選擇 |
 | **秋穗** | — | 善意加害者浮現（情緒毒品危機 E-11a）| — | **精神世界母女對話（秋穗↔愛莉）**；執念釋放完成 |
@@ -596,12 +570,12 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 
 ---
 
-## 工作備注
+## 備注
 
 - **E-11 Act II 甜蜜高峰**：BLOCKED（具體日常場景內容 TBD）。結構方向已定案（Q-SC-001 RESOLVED 2026-03-24）：由 Act II 中期分散日常場景積累構成，無單一頂點事件。建議參考 AKS-H2（晴香知但逃避）設計暗流。
-- **E-11a 情緒毒品危機**：作者確認獨立存在（2026-03-24）；具體場景細節待定。
-- **E-15a 凜拒絕治癒→Unit 00**：作者確認獨立事件（2026-03-24）；見 canon/rin.md § 第三幕。
+- **E-11a 情緒毒品危機**：秋穗-黑奏主動交易動因具體機制待作者確認。
+- **E-15a 凜拒絕治癒→Unit 00**：見 canon/rin.md § 第三幕。
 - **晴香終局確認**：靜止搖籃已在 canon/05 定案。覺醒不明寫（讀者推斷空間）。
-- **夕終局（作者確認 2026-03-24）**：E-10 後夕為「暫時沉睡」，非謝幕；Act III 帝國廣場決戰（E-18）時被強迫接管。
-- **黑奏消散時點（作者確認 2026-03-24）**：Act IV（E-21 彩的覺醒後），非 Act III 末。
-- 本文件僅為 story construction working doc；所有 [SS]/[INF] 項目需在 canon 文件階段逐一確認。
+- **夕終局**：E-10 後夕為「暫時沉睡」，非謝幕；Act III 帝國廣場決戰（E-18）時被強迫接管。
+- **黑奏消散時點**：E-21 彩的覺醒，發生於 Act III 高潮（帝國廣場決戰中）。
+- 所有 [SS]/[INF] 標記項目留待寫作階段逐場次確認。

@@ -1,17 +1,25 @@
 # NEXT_ACTION
 
-## ★ 當前狀態（2026-03-24）
+## ★ 當前狀態（2026-03-25）
 
-P2′ Story Construction Gate 全部完成。07 working doc v1.1 QA 修訂完成。
-**下一步由作者決定**：
+P2′ 全部完成。07 v1.2 修訂完成，**已升格為 canon/13_major_events_relationship_impact.md**。
+**下一步**：
 
 | 選項 | 說明 | 前置條件 |
 |------|------|---------|
-| **A. 07 升格為 canon** | 建立 canon/07_major_events.md | 作者確認「07 可以升格」|
-| **B. 08/10 補入 E-11a/E-15a** | 兩個新事件同步更新 08/10 docs | 可獨立進行，不需作者輸入 |
-| **C. 下一個 Story Construction 文件** | 例如 KNOWLEDGE_DEPENDENCY_MAP | 作者指示方向 |
+| **A. 08/10 補入新事件** | E-1.5/E-3.5/E-8.5/E-11a/E-15a/E-15.8 同步更新 08/10 working docs | 可獨立進行 |
+| **B. 開始寫作 Act I** | 所有 canon 文件已備齊 | 無阻塞 |
+| **C. KNOWLEDGE_DEPENDENCY_MAP** | 逐場次 AKS 追蹤輔助工具 | 開始 Act II 前建議建立 |
 
 ---
+
+## Completed（2026-03-25 更新）
+
+### ✓ 07 working doc v1.2 + Canon Upgrade — **完成 2026-03-25**
+- 07 v1.2：FIX-01（阻塞修復）+ FIX-02~10（修訂）+ ADD-01~04（新增事件）全部執行
+- 新增事件：E-1.5 圖書館幽靈 / E-3.5 美夜子失蹤 / E-8.5 攻擊維多利亞之淚 / E-15.8 凜的最終戰
+- 升格：`canon/13_major_events_relationship_impact.md` 建立（canon v1.0）
+- P2 Story Construction Gate **Phase 8 完成**
 
 ## Completed（2026-03-23 更新）
 
