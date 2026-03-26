@@ -39,7 +39,7 @@ Version: v3 | Updated: 2026-03-23 | Stability: ~95%
 | 朱音 | 犧牲（糖果山），同時 Act III | AUTHOR_CONFIRMED |
 | 操 | 自選停留半屍骸化，Act III | AUTHOR_CONFIRMED |
 | 晴香 | 靜止搖籃（唯一定局，覺醒不明寫，讀者推斷） | AUTHOR_CONFIRMED |
-| 夕 | 共犯結構（與黑奏客觀共犯），具體終局未確認 | INFERRED |
+| 夕 | **消散** — 改變現實後反悔，用自身力量 undo 改變現實，力量耗盡消散 `[AC：BD-03 2026-03-26]` | AUTHOR_CONFIRMED |
 | 愛莉 | 雙形態觸發後終局未定案 | BLOCKED |
 
 ---

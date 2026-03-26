@@ -1,5 +1,5 @@
 # QUESTION QUEUE
-Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ + Writing Gate + Full Story Rough Outline Audit
+Generated: 2026-03-23 | Updated: 2026-03-26 | Source: P2′ + Writing Gate + Full Story Rough Outline Audit + Phase 11 Q-N Session
 
 ---
 
@@ -20,13 +20,16 @@ Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ + Writing Gate + Ful
 
 | 問題 | 來源 | 優先度 | 狀態 |
 |------|------|--------|------|
-| 晴香得知自己是創世者的具體時機 | BD-01剩餘 | **High** | BLOCKED — 需作者在 Act Outline 前確認 |
-| 螢（愛莉）揭示線跨幕鋪陳設計 | BD-09 | **High** | 設計缺口 — 需在 Act I-III Outline 時設計 |
-| 夕 Act IV 具體終局 | BD-03 | Medium | BLOCKED — 可延後至 Act IV Outline |
+| ~~晴香得知自己是創世者的具體時機~~ | ~~BD-01剩餘~~ | — | ✓ **RESOLVED** — Act III 帝國廣場決戰，黑奏直接揭露 `[AC 2026-03-26]` |
+| **螢揭示線跨幕鋪陳設計（AKS-S2-S3）** | BD-09a | **Critical** | 設計缺口 — 需在 Act I-III Outline 時同步設計（螢≠愛莉，兩條獨立） |
+| **愛莉揭示線跨幕設計（AKS-A1）** | BD-09b | **High** | 設計缺口 — 石像→紙皮騎士→魔法少女三階段暗示缺失 |
+| 夕 Act IV 具體終局 | BD-03 | High | BLOCKED — 影響 Act IV 整體骨架 |
 | 愛莉 Act IV 具體終局 | BD-04 | Medium | BLOCKED — 可延後至 Act IV Outline |
-| 操 Alpha 線身體描述矛盾 | BD-06 | Medium | 待確認 — 影響鏡中幻象設計 |
+| ~~操 Alpha 線身體描述矛盾~~ | ~~BD-06~~ | — | ✓ **RESOLVED** — 操係女兒身，家道中落，街邊行乞 `[AC 2026-03-26]` |
 | Beta 線晴香媽媽死因官方記憶 | BD-07 | Medium | 待確認 — 影響秋穗揭露節點 |
 | 美夜子 Alpha 線死亡方式 | BD-08 | Medium | 待確認 — 影響 Alpha 線回溯場景 |
+| **Information_Control 空條目（三項）** | BD-10 | **High** | 待確認 — AKS-H2（創世者揭示）衝擊力前置依賴 |
+| 夕是否知道自己是黑奏情緒農場一部分 | Q-N-07（BD-12候選）| Medium | DEFERRED — 未編 BD 號，待澄清是設定確認還是待決 |
 | Act I 調性強調（WG-Q2）| Writing Gate | Low | 待最終確認，不阻塞 Outline Gate |
 | 輸出格式細節（WG-Q4）| Writing Gate | Low | 待格式討論，不阻塞 Outline Gate |
 
@@ -44,6 +47,15 @@ Generated: 2026-03-23 | Updated: 2026-03-25 | Source: P2′ + Writing Gate + Ful
 | Q-P2-006 | 螢揭示時機 | C — 最後揭示，彩「多謝你保護咗我咁耐」那一刻 | 2026-03-23 |
 | Q-P2P-001 | 朔弧光 | A — Act II 獨立戲份；三位一體主題指標；美夜子接受新身份後不再主動往來 | 2026-03-23 |
 | Q-P2P-002 | 愛莉成為魔法少女觸發 | 晴香（夕）第2次改變現實時，愛莉內心希望有人拯救她 | 2026-03-23 |
+| Q-N-15 | 避難所詛咒觸發機制 | 5歲晴香許願「家姐變貓就唔會受傷」→ Beta線法則；首次觸發：凜被光環處決後美夜子目睹 | ✓ [AC 2026-03-26] |
+| Q-N-16 | 情緒增幅器污染機制 | 成年晴香改變現實能量逆流 → 黑奏污染 → 穿越時間 → 催化5歲晴香為高共鳴增幅器 | ✓ [AC 2026-03-26] |
+| Q-N-17 | 凜 Alpha 線設計 | 原方向不批准，新方向待定 | **DEFERRED** |
+| Q-N-18 | 小光與朱音的關係 | 小光 = 朱音的護理對象（非不倫關係）；朱音拒絕放棄 = 母性/姊弟保護欲延伸 | ✓ [AC 2026-03-26] |
+| Q-N-19 | 秋穗結晶雕像設計 | 作者否定此設計，全部刪除 | **DELETED** |
+| BD-06 | 操身份設計 | 操一直係女兒身（無手術/精神病院）；家道中落，街邊行乞 | ✓ [AC 2026-03-26] |
+| BD-03 | 夕 Act IV 終局 | 消散 — 改變現實後反悔 → undo → 力量耗盡消散 | ✓ [AC 2026-03-26] |
+| BD-09b | 愛莉揭示線跨幕設計 | 冇系統性暗示（設計意圖）；紙皮騎士 = 魔法少女騎士形態唯一視覺連結 | ✓ [AC 2026-03-26] |
+| Q-F-01 | 08_Story_Engine 操日常素材 | 舊 Alpha 線設計（男性化特徵/羨慕天生女生）已刪除，此素材係 Beta 線討論，舊項目不適用 | ✓ [AC 2026-03-26] |
 
 ---
 

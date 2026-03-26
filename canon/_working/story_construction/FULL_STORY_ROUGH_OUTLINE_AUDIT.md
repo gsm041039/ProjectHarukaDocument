@@ -22,15 +22,15 @@ Format: 混合（表格快速參考 + 逐幕段落風險分析）
 
 | 角度 | 狀態 | 說明 |
 |------|------|------|
-| **1. Character Growth** | Mostly Stable | 晴香/美夜子/朱音/操/朔/凜終局全部[AC]；夕/愛莉 Act IV 終局 BLOCKED（非主線阻塞）|
+| **1. Character Growth** | **Stable** | 晴香/美夜子/朱音/操/朔/凜/**夕**終局全部[AC]；~~夕 Act IV~~ ✓ RESOLVED（消散 BD-03）；~~愛莉 Act IV 終局（BD-04）~~ ✓ RESOLVED（光點消失）[AC 2026-03-26]|
 | **2. Relationship Dynamics** | Stable | 主要關係對均已確認。晴香×秋穗 Act III 背叛揭露具體內容待 Act Outline 展開時細化。|
 | **3. Theme Expression** | Stable | 態度vs命運核心主題穩定；TC-01~06 碰撞點已映射；三位一體三階段視覺化設計穩定。|
 | **4. Atmosphere/Tension** | Stable | 四幕氛圍曲線確認（不安→偽史詩→崩塌→淒美希望）；L1/L2/L3 框架已建立；情緒曲線頂點/低谷明確。|
-| **5. Knowledge/Reveal Control** | **Unstable** | AKS-H2（晴香創世者揭示時機）BLOCKED；AKS-A1（愛莉跨幕鋪陳）設計缺口（BD-09）；Information_Control 三個空條目（BD-10）。|
+| **5. Knowledge/Reveal Control** | **Partially Stable** | ~~AKS-H2時機~~ ✓ BD-01 RESOLVED；~~AKS-A1（愛莉跨幕鋪陳）缺口~~ ✓ BD-09b RESOLVED（設計意圖確認）；**AKS-S2-S3（螢揭示線）設計待優化（BD-09a Critical）**；Information_Control 三個空條目（BD-10）。|
 | **6. Structure/Beat Function** | Mostly Stable | 四幕核心功能穩定；事件清單暫定（可取消/增加/轉位）；場景B-2幕別 DEFERRED；甜蜜高峰具體場景 BLOCKED（延後）。|
 | **7. World-Rule/Mechanic Pressure** | Mostly Stable | 情緒守恆定律五層揭露框架穩定；Alpha/Beta滲漏三段強度設計框架穩定；具體執行場景待 Act Outline 設計。|
-| **8. Canon/Continuity/Ownership** | Mostly Stable | canon/13 為權威事件參考；三個 Alpha 線設定矛盾待確認（BD-06/07/08）；backup 08/14 部分內容待核對是否完整入 canon。|
-| **9. Audience Experience** | **Unstable** | AKS-A1（愛莉揭示線）缺口直接影響 Act IV 螢揭示情感重量；彩漸進暗示設計框架確認但具體信號未細化；偽史詩感建立方式待 Act II Outline 詳細設計。|
+| **8. Canon/Continuity/Ownership** | Mostly Stable | canon/13 為權威事件參考；~~BD-06~~ ✓ RESOLVED（操係女兒身）；BD-07 Alpha線 ✓ RESOLVED（被黑奏預謀殺死）Beta線TBD；BD-08 Alpha線 ✓ RESOLVED（被黑奏殺死）具體場景DEFERRED；backup 08/14 部分內容待核對是否完整入 canon。|
+| **9. Audience Experience** | **Partially Stable** | ~~AKS-A1（愛莉揭示線）缺口~~ ✓ BD-09b RESOLVED；**AKS-S2-S3（螢/彩關係暗示）設計待優化（BD-09a Critical），影響 Act IV 螢揭示情感重量**；彩漸進暗示設計框架確認但具體信號未細化；偽史詩感建立方式待 Act II Outline 詳細設計。|
 | **10. Writing Execution** | **Blocked** | Writing Gate Q2（Act I 調性）和 Q4（輸出格式）尚未最終確認；Writing Preconditions Gate 未執行；目前係 DISCUSSION ONLY 模式。|
 
 ### Top Unstable Angles（最需要優先處理）
@@ -114,7 +114,7 @@ Act I的結構骨架高度穩定，主要風險集中在一個尚未確定的時
 | World-Rule Pressure | 情緒守恆定律科學層揭露；情緒毒品危機（守恆定律的宏觀體現）；魔法少女系統詛咒遺產開始顯現 | Stable |
 | End-of-Act State | 嘆息之橋後隊伍受重創；朔進入解放者身份；偽史詩感達頂點後開始崩塌，為Act III做好情感準備 | Stable |
 | Current Stability | **Mostly Stable** | — |
-| Current Blockers | BD-01（Alpha線真相揭露時機影響H1位置）；BD-05（E-11具體場景，延後，非阻塞）| Partially Blocked |
+| Current Blockers | ~~BD-01（Alpha線真相揭露時機影響H1位置）~~ ✓ RESOLVED；BD-05（E-11具體場景，延後，非阻塞）| Partially Blocked |
 
 **Act II 風險分析：**
 
@@ -138,7 +138,7 @@ Act II的結構骨架穩定，但有兩個值得注意的設計挑戰：第一�
 | World-Rule Pressure | 情緒守恆定律歷史層（晴香五歲創世是緋潮根源）；Gameplay假數值系統徹底崩潰 | Stable |
 | End-of-Act State | 晴香困於集體潛意識；世界觀完全翻轉；觀眾問題從「英雄能否獲勝」轉為「失敗後如何存在」 | Stable |
 | Current Stability | **Mostly Stable** | — |
-| Current Blockers | BD-02（場景B-2幕別：Act III vs Act IV前期？）；BD-03（夕Act III E-18後Act IV定位）| Partially Blocked |
+| Current Blockers | BD-02（場景B-2幕別：Act III vs Act IV前期？）；~~BD-03~~ ✓ RESOLVED（夕消散 [AC 2026-03-26]）| Partially Blocked |
 
 **Act III 風險分析：**
 
@@ -161,12 +161,12 @@ Act III的結構骨架是全作最穩定的，因為所有重大犧牲事件均�
 | Theme Collision | TC-01（治癒宣言最終收束）；TC-03（態度vs命運最終回答：態度超越命運）；三位一體完整實現 | Stable |
 | World-Rule Pressure | 情緒守恆定律超越層（打破惡性循環）；Gameplay真數值系統完全揭露；玩家從「戰士」轉變為「療癒者」 | Stable |
 | End-of-Act State | 黑奏消散；彩永恆輪迴；晴香靜止搖籃（覺醒不明寫，讀者自行推斷）；美夜子繼承晴香精神；「態度vs命運」主題收束 | Stable（所有已確認終局 [AC]）|
-| Current Stability | **Partially Stable（因BD-03/BD-04未解）** | — |
-| Current Blockers | BD-03（夕Act IV具體終局BLOCKED）；BD-04（愛莉Act IV具體終局BLOCKED）；BD-09（螢揭示線跨幕鋪陳缺口）| Partially Blocked |
+| Current Stability | **Stable（BD-04 RESOLVED [AC 2026-03-26]）** | — |
+| Current Blockers | ~~BD-03~~ ✓ RESOLVED（夕消散 [AC 2026-03-26]）；~~BD-04（愛莉Act IV具體終局）~~ ✓ RESOLVED（光點消失）[AC 2026-03-26]；BD-09a（螢揭示線 AKS-S2-S3 設計待優化）| Partially Blocked |
 
-**Act IV 風險分析：**
+**Act IV 風險分析（更新 2026-03-26）：**
 
-Act IV的主要結構節點（晴香靜止搖籃、彩永恆輪迴、螢揭示、黑奏消散）均已確認。有三個值得注意的設計問題：第一，夕的具體終局（BD-03）影響Act IV夕戲份設計——E-18被強迫接管後，夕在Act IV到底以何種形式存在？如果是犧牲/消散，需要設計相應場景；如果是共存，則需要確認在晴香最終選擇中夕扮演的角色。第二，愛莉的Act IV終局（BD-04）目前BLOCKED，但她的出場（第2次改變現實）已確認，終局設計需與螢揭示的情感節奏配合。第三，螢（愛莉）揭示線（BD-09）的跨幕鋪陳缺口——Act IV的「多謝你保護咗我咁耐」的最大情感重量，需要前三幕的系統性暗示作為前置，目前這個跨幕設計尚未完整。
+Act IV的主要結構節點（晴香靜止搖籃、彩永恆輪迴、螢揭示、黑奏消散、**夕消散**）均已確認。現有兩個值得注意的設計問題：第一，愛莉的Act IV終局（BD-04）目前BLOCKED，但她的出場（第2次改變現實）已確認，終局設計需與螢揭示的情感節奏配合。第二，螢揭示線（BD-09a）的跨幕鋪陳缺口——Act IV的「多謝你保護咗我咁耐」的最大情感重量，需要前三幕的系統性暗示作為前置；方向確認（彩無意識行為反映螢），具體設計 DEFERRED。**BD-03（夕終局）已於 2026-03-26 解決：夕消散（改變現實→反悔→undo→力量耗盡）。**
 
 ---
 
@@ -176,9 +176,9 @@ Act IV的主要結構節點（晴香靜止搖籃、彩永恆輪迴、螢揭示�
 
 | 控制線 | 整體穩定度 | 最薄弱點 |
 |--------|-----------|---------|
-| 角色成長線 | Mostly Stable | 夕Act IV終局（BD-03），愛莉終局（BD-04），場景B-2幕別（BD-02） |
+| 角色成長線 | **Mostly Stable** | ~~夕Act IV終局（BD-03）~~ ✓ RESOLVED（消散）；~~愛莉終局（BD-04）~~ ✓ RESOLVED（光點消失）[AC 2026-03-26]；場景B-2幕別（BD-02） |
 | 關係線 | Stable | — |
-| 知識/揭露線 | Partially Stable | Alpha線揭露時機矛盾（BD-01），愛莉揭示線缺口（BD-09） |
+| 知識/揭露線 | **Mostly Stable** | ~~Alpha線揭露時機（BD-01）~~ ✓ RESOLVED；~~愛莉揭示線缺口（BD-09b）~~ ✓ RESOLVED；**螢揭示線 AKS-S2-S3（BD-09a Critical）** |
 | 氛圍/張力線 | Stable | — |
 | 主題表達線 | Stable | — |
 
@@ -190,11 +190,12 @@ Act IV的主要結構節點（晴香靜止搖籃、彩永恆輪迴、螢揭示�
 
 | ID | 內容 | 優先度 | 影響 |
 |----|------|--------|------|
-| BD-01 | Alpha線真相揭露時機（Act I vs Act II末）| **Critical** | Act I/II幕別骨架，AKS-H1位置 |
+| ~~BD-01~~ | ✓ RESOLVED — Act III 帝國廣場決戰，黑奏直接揭露 `[AC 2026-03-26]` | — | — |
 | BD-02 | 場景B-2幕別（Act III vs Act IV前期）| **High** | Act III/IV接駁節奏 |
-| BD-03 | 夕Act IV具體終局 | High | Act IV骨架 |
-| BD-04 | 愛莉Act IV具體終局 | Medium | Act IV骨架 |
+| ~~BD-03~~ | ✓ RESOLVED — 夕消散（改變現實→反悔→undo→力量耗盡）`[AC 2026-03-26]` | — | — |
+| ~~BD-04~~ | ✓ RESOLVED — 愛莉光點消失（晴香接受現實改變係錯→願望消失）[AC 2026-03-26] | — | — |
 | BD-05 | E-11甜蜜高峰具體場景 | Low（延後） | Act II場景設計 |
+| **R-7（新）** | 黑奏預謀揭示時機（封閉循環揭示節點）— 有顯性揭示，時機待定 `[AC：Q-2 2026-03-26]` | High | 待定（Act III/IV）|
 
 ---
 
@@ -215,7 +216,7 @@ Act IV的主要結構節點（晴香靜止搖籃、彩永恆輪迴、螢揭示�
 **不穩定的部分（需解決後才能完成 Act Outline）：**
 - Alpha線真相揭露時機（BD-01）— 影響Act I/II分割點和AKS設計
 - 場景B-2幕別（BD-02）— 影響Act III/IV接駁
-- 夕/愛莉Act IV終局（BD-03/04）— 影響Act IV場景設計
+- ~~夕Act IV終局（BD-03）~~ ✓ RESOLVED（消散）；~~愛莉Act IV終局（BD-04）~~ ✓ RESOLVED（光點消失）
 
 **設計缺口（不阻塞 Act Outline，但動筆前需補充）：**
 - 螢揭示線跨幕鋪陳系統（BD-09）

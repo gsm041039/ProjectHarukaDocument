@@ -34,6 +34,9 @@ Full Story Rough Outline Audit
 17. 不得只向作者拋出 options；你必須先做 recommendation，再由作者批准
 18. 在全作粗骨架未經 audit 前，不得直接開始單一 Act 的正式寫作建議
 19. 若全作 outline 層未穩，不得直接推薦 full 07 / 08 / 09 / 10；應優先做 audit 或 narrowed sub-doc
+20. 任何重建層文件（STORY_BASE_RECONSTRUCTION / FULL_STORY_ROUGH_OUTLINE_AUDIT / CROSS_ACT_CONTROL_LAYERS / ROUGH_STORY_SKELETON / KNOWLEDGE_DEPENDENCY_MAP / BLOCKED_DECISIONS / 任何 Act Outline）必須保持 [UNAPPROVED RECONSTRUCTION DRAFT] 狀態，直到作者明確批准其詮釋判斷
+21. 證據層工作（QUESTION_QUEUE / PROGRESS / EVIDENCE_GAPS / RELEVANT_FILES_TABLE）可自動進行；重建層工作必須作者先閱覽、批准後才可視為有效
+22. 不得在未經作者批准下，在重建層文件中分類故事穩定度、排定 Blocker 優先次序、宣稱全作 X% 穩定、判斷幕功能、判斷揭露順序、或判斷是否可跳過任何建構步驟
 
 ---
 # 二、working files 的位置規則
@@ -247,6 +250,10 @@ Heuristics:
 - 禁止未問作者就硬定主軸 / 事件 / 結構位
 - 禁止將 rough skeleton 視為正式 outline
 - 禁止未完成 Writing Preconditions Gate 就直接寫 Act / Scene / prose
+- 禁止在重建層文件中，未經作者批准就輸出穩定度分類（Stable/Unstable/Mostly Stable）、優先次序排列（Critical/High/Medium/Low）、或「X% 穩定」宣告
+- 禁止將重建層文件的詮釋判斷當成已確認事實使用，在下游分析中引用
+- 禁止在作者未回答重建層問題前，繼續推進至 Full Story Rough Outline v2、Act Outline Gate、或任何 Writing Gate
+- 禁止將 BD-XX 的優先次序宣告（如「BD-01 Critical」）視為已確認框架，在未經作者批准下以此作為建議依據
 
 ---
 # 十、完成條件（Exit Criteria）
@@ -269,7 +276,42 @@ Heuristics:
 若未滿足以上條件，不得宣稱完成。
 
 ---
-# 十一、啟動規則
+# 十一、重建層文件守門規則（Reconstruction-Level File Gate）
+
+## 重建層文件定義
+以下文件屬於重建層，不屬於證據層：
+- STORY_BASE_RECONSTRUCTION
+- FULL_STORY_ROUGH_OUTLINE_AUDIT
+- FULL_STORY_ROUGH_OUTLINE_V2
+- CROSS_ACT_CONTROL_LAYERS
+- ROUGH_STORY_SKELETON
+- KNOWLEDGE_DEPENDENCY_MAP
+- BLOCKED_DECISIONS
+- 任何 Act Outline
+- 任何主題 / 揭露 / 關係 / 幕功能 / 故事引擎 / 壓力線的重建或分析
+
+## 重建層 vs 證據層的分別
+| 層次 | 定義 | 可否自動進行 |
+|------|------|------------|
+| **證據層** | 直接從 canon 文件 / QUESTION_QUEUE / 作者明確確認紀錄中提取的事實（不含詮釋） | ✓ 可自動進行 |
+| **重建層** | 對多個事實的綜合判斷、穩定度評估、優先次序排定、幕功能詮釋、揭露鏈排序、結構地位宣告 | ✗ 必須作者批准後才有效 |
+
+## 強制程序
+當產出任何重建層文件時：
+1. 在文件頂部標記 `[UNAPPROVED RECONSTRUCTION DRAFT]`
+2. 識別所有重建層判斷（非直接來自作者明確確認的分類/評估/排序）
+3. 將這些判斷轉成 A/B/C 作者問題，分組列出
+4. 輸出兩層分解：A. 已有來源支持的證據 / B. 仍需作者批准的重建判斷
+5. 等待作者答覆，才可更新重建層文件狀態
+
+## 任何重建層文件
+
+Any reconstruction-level file must remain provisional until the author approves its interpretive judgments.
+Do not classify story stability, priority, act function, theme framing, reveal ordering, or blocker importance without explicit author approval.
+
+---
+
+# 十二、啟動規則
 
 除非作者明確說 APPLY NOW，否則你永遠視自己為 DISCUSSION / REVIEW ONLY。
 

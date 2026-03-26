@@ -76,17 +76,19 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 
 | ID | 內容 | 優先度 | 何時需要 |
 |----|------|--------|---------|
-| BD-01（剩餘）| 晴香創世者揭示時機 | High | Act II/III Outline 前 |
+| ~~BD-01~~ | ✓ RESOLVED — Act III 帝國廣場決戰 `[AC 2026-03-26]` | — | — |
 | BD-02 | 場景B-2幕別 | Low | DEFERRED |
-| BD-03 | 夕 Act IV 終局 | Medium | Act IV Outline 前 |
-| BD-04 | 愛莉 Act IV 終局 | Medium | Act IV Outline 前 |
+| ~~BD-03~~ | ✓ RESOLVED — 夕消散 `[AC 2026-03-26]` | — | — |
+| ~~BD-04~~ | ✓ RESOLVED — 愛莉光點消失 `[AC 2026-03-26]` | — | — |
 | BD-05 | E-11 甜蜜高峰具體場景 | Low | DEFERRED |
-| BD-06 | 操 Alpha 線身體描述矛盾 | Medium | Act I/II Outline 前 |
-| BD-07 | 晴香媽媽死因官方記憶 | Medium | Act II/III Outline 前 |
+| ~~BD-06~~ | ✓ RESOLVED — 操係女兒身，家道中落 `[AC 2026-03-26]` | — | — |
+| BD-07 | Alpha線 FULLY RESOLVED：黑奏預謀殺死（令晴香改變現實→黑奏獲魔法力量）[AC]；動機揭示節點時機TBD；Beta線TBD | Medium | Beta線TBD；動機揭示時機TBD |
 | BD-08 | 美夜子 Alpha 線死亡方式 | Medium | Act IV Outline 前 |
-| BD-09 | 螢揭示線跨幕鋪陳設計缺口 | High | Act I-III Outline 同步設計 |
-| BD-10 | Information_Control 三個空條目 | Medium | 動筆前 |
+| BD-09a | **螢揭示線** AKS-S2-S3 方向確認（熊公仔+深夜寫信/燒信儀式）[AC]；具體設計DEFERRED | **Critical** | Act I-III Outline 同步設計 |
+| ~~BD-09b~~ | ✓ RESOLVED — 無系統性暗示（設計意圖）；紙皮騎士=魔法少女騎士視覺連結 `[AC 2026-03-26]` | — | — |
+| BD-10 | Information_Control 三個空條目 | **High** | 動筆前（為 AKS-H2 提供前置） |
 | BD-11 | 象徵物件分析缺失（鏡子等）| Medium | 動筆前 |
+| ~~BD-12~~ | ✓ RESOLVED — 夕唔知情；輸送設定取消 `[AC 2026-03-26]` | — | — |
 
 ---
 
@@ -102,6 +104,26 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 - AKS-H1：Act I 幕末 = 知道 Alpha/Beta 線存在 [AC]
 - Writing Gate Q1/Q3/Q5/Q6 全部 [AC]
 - 事件清單暫定，可取消/增加/轉位 [AC]
+- **避難所詛咒**：美夜子首次變貓觸發 = 凜被光環處決後目睹 [AC Q-N-15 2026-03-26]
+- **情緒增幅器污染機制**：黑奏污染逆流 → 穿越時間 → 催化5歲晴香為高共鳴增幅器 [AC Q-N-16 2026-03-26]
+- **小光 = 朱音護理對象**（非不倫關係，母性/姊弟保護欲）[AC Q-N-18 2026-03-26]
+- **操係女兒身，家道中落，街邊行乞**（無手術/精神病院）= BD-06 RESOLVED [AC 2026-03-26]
+- **Q-N-17 DEFERRED**：凜 Alpha 線待重新設計
+- **Q-N-19 DELETED**：秋穗結晶雕像設計被否定
+- **BD-03 RESOLVED**：夕消散（改變現實→反悔→undo→力量耗盡消散）`[AC 2026-03-26]`
+- **BD-09b RESOLVED**：愛莉揭示線冇系統性暗示（設計意圖）；紙皮騎士=魔法少女騎士視覺連結 `[AC 2026-03-26]`
+- **BD-09a 方向確認（更新）**：AKS-S2-S3 設計方向 = 熊公仔視覺語言 + 深夜寫信/燒信儀式 `[AC 2026-03-26]`；具體場景設計 DEFERRED
+- **BD-04 RESOLVED**：愛莉 Act IV 終局 = 光點消失（晴香接受改變現實係錯→願望消失→愛莉消失）`[AC 2026-03-26]`
+- **BD-07 PARTIALLY RESOLVED**：Alpha線晴香媽媽 = 被黑奏殺死（同美夜子同一事件）`[AC 2026-03-26]`；Beta線難產 TBD
+- **BD-07 Alpha線 FULLY RESOLVED + Q-A/Q-B 澄清** `[AC 2026-03-26]`：黑奏主動殺死 Alpha 線晴香媽媽 + 美夜子，目的係**令晴香魔法覺醒**，讓黑奏可借晴香之力改變現實（因果逆流結構性力量，非一次性獲得）；意識動機兩層同步：工具目的（借力）= 終極目的（積累情感貨幣恢復螢）係同一條路；有顯性揭示（R-7，時機待定）
+- **Q-C 不需要記錄**：黑奏 Soul Traversal 首次時間點 DEFERRED（不影響結構）
+- **Q-3 確認**：黑奏農場機制以現有向量（情緒守恆定律 + 朱音 + 秋穗 + Phase 3）已夠解釋，不需新增管道 `[AC 2026-03-26]`
+- **Q-4 確認**：5歲晴香直接目擊 Alpha 線殺人過程，但認唔出殺人係黑奏 `[AC 2026-03-26]`
+- **Q-1 FALSE ALARM**：QA agent 誤判——愛莉消失（BD-04）與 R-5 螢揭示無關係，R-5 係彩×螢場景，愛莉在場與否不影響 R-5 戲劇功能
+- **BD-08 PARTIALLY RESOLVED**：美夜子Alpha線死亡 = 被黑奏殺死（同BD-07事件）`[AC 2026-03-26]`；具體場景 DEFERRED
+- **BD-12 RESOLVED**：夕完全唔知情（不知黑奏情緒農場）；「夕→黑奏輸送情緒能量」設定取消 `[AC 2026-03-26]`
+- **BD-10 澄清**：「改變現實光譜」和「態度剝奪詛咒」已有 canon 定義（02_glossary/12_philosophy）；BD-10 實際係資訊揭示時序問題，DEFERRED 至 Act Outline
+- **08_Story_Engine 修正**：刪除舊 Alpha 線設計殘留（操「男性化特徵」焦慮、「羨慕天生女生」）
 
 ---
 
@@ -109,4 +131,4 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 - 見上方「Working Files 新建/更新」清單
 
 ## Session Date
-- 2026-03-25
+- 2026-03-26（Phase 11 Q-N session 持續）
