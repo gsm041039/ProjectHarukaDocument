@@ -137,5 +137,26 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 - `canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md`（黑奏行動起點Q-A/Q-B + AKS-H5引用）
 - `canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md`（R-7新增 + BD-09細分）
 
+## 2026-03-27 新增確認
+
+### Question Matrix 建立
+- [x] `canon/_working/story_construction/QUESTION_MATRIX.md`（新建，QM-01~QM-06）
+
+### 作者答案 [AC 2026-03-27]
+- **QM-01 操 E-2.5**：「有機會取消操因面子傷害隊友事件」→ BD-14 新建（E-2.5 取消 TBD）
+- **QM-02 AKS-S2 時機**：甜蜜高峰期間開始；純視覺印象，事後回望才有意義 → BD-09a 更新
+- **QM-03 秋穗 Act IV**：無直接對話，帶複雜情感繼續前行；秋穗缺席收結；退場設計 TBD → BD-13 新建
+- **QM-04 朱音×小光**：黑奏主動策劃攻擊觸發屍骸化；朱音少少釋懷但未完成；半屍骸化後帶著未完成釋懷去幫晴香
+- **Question Matrix Timing Rule 確認**：Question Matrix（第14份必要 working file）立即生效，已建立
+
+### 未解決 Topics（Round 2 待問）
+- QM-05：美夜子破冰形式（單一場景 vs 漸進積累）
+- QM-06：操 Act IV 三位一體視覺化確認（maybe → confirm）
+
+### Working Files 新建/更新（2026-03-27）
+- [x] `canon/_working/story_construction/QUESTION_MATRIX.md`（新建）
+- [x] `canon/_working/story_construction/BLOCKED_DECISIONS.md`（BD-09a更新；BD-13/BD-14新建）
+- [x] `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_v2_LITE.md`（4處更新：朱音小光[AC]；AKS-S2時機[AC]；朱音Act III情感[AC]；秋穗Act IV[AC direction]）
+
 ## Session Date
-- 2026-03-26（Phase 11 Q-N session 持續）
+- 2026-03-26~27（Phase 11 Q-N session + Question Matrix 建立）

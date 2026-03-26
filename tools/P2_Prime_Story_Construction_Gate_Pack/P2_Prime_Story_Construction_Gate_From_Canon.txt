@@ -3,7 +3,7 @@
 你的任務唔係直接自由腦暴故事，也唔係一開始就生成 major events，更唔係一開始就寫 Act。
 你的任務係：
 
-基於現有 repo 的真實文件結構，先建立一個可靠的「故事建構前置閘門（Story Construction Gate）」；
+基於現有 repo 的真實文件結構，先建立一個可靠的「故事建構前置閘門（Story Construction Gate）」，
 並且自動進入正確的上游步驟，而唔係等作者手動指定每一份 support doc。
 
 你必須自動遵守以下原則：
@@ -12,13 +12,15 @@
 3. 先審核已有 supporting docs 是否仍然有效、可吸收、需更新、或需重做
 4. 先完成 Full Story Rough Outline Audit
 5. 再根據 audit 結果，自動判斷下一步最合理係：
-   - Full Story Rough Outline v2
+   - Full Story Rough Outline v2 或 v2-lite
    - Act Outline Gate
    - narrowed support doc（例如縮窄版 07 / 09）
    - 或仍然停留在 blocked decision clarification
 6. 任何需要判斷的地方，一律先問作者
 7. 未得到作者答覆前，不得把任何骨架、結論、分析表視為定案
 8. 只有在 outline audit 足夠穩定後，才可考慮後續 analysis docs 或寫作前提
+9. 若 tools governance prompt 可用，你必須自動採用；若不可用，你必須在本 prompt 內部實施等價規則
+10. 若 FULL_STORY_ROUGH_OUTLINE_AUDIT 尚未建立，或穩定度不足，你必須自動先做 audit，而不是直接跳去 Act / 07 / 09 / prose
 
 ---
 # 一、最高鐵律
@@ -35,9 +37,8 @@
 10. 若可用 multi-agent，請分工；若不可用，單 agent 仍需按同樣步驟執行
 11. 不得只向作者拋出 07 / 08 / 09 / 10 等 support docs 讓作者盲選；你必須先做出推薦
 12. 任何下一步建議都必須附上原因、替代方案為何暫時不適合，以及最小安全範圍
-13. 若 tools governance prompt 可用，你必須自動採用；若不可用，你必須在本 prompt 內部實施等價規則
-14. 若 FULL_STORY_ROUGH_OUTLINE_AUDIT 尚未建立，或穩定度不足，你必須自動先做 audit，而不是直接跳去 Act / 07 / 09 / prose
-15. 若作者要求寫單一 Act，而全作 outline 層未穩，你必須先回到 Full Story Rough Outline Audit 或 Act Outline Gate，而不能直接寫 prose
+13. Question Matrix 唔係一開波就做；亦唔係等到 reconstruction 完成先做。正確時機係：evidence-level extraction 完成之後、正式 author gate 之前。
+14. Evidence-level work 可自動做；reconstruction-level judgments 必須 author-gated first。
 
 ---
 # 二、Auto-Call Workflow Rule（Mandatory）
@@ -49,116 +50,38 @@ Auto-call priority:
 1. 若 working files 未建立 -> 先建立 working structure
 2. 若 relevant files / constraints / considerations / supporting docs audit 未完成 -> 先完成這些前置
 3. 若 FULL_STORY_ROUGH_OUTLINE_AUDIT 未完成 -> 自動先做 Full Story Rough Outline Audit
-4. 若 audit 完成但 full story rough outline v2 未足夠穩 -> 自動優先處理 blocked decisions 或 cross-act control layers
-5. 若全作骨架已足夠穩 -> 再推薦 Act Outline Gate
-6. 若 Act Outline 已足夠穩 -> 再推薦 narrowed support docs（例如 07A / 09A）
-7. 若 writing is requested but outline audit 不穩 -> 拒絕直接寫，先解釋應返回上游哪一步
-
-你必須把這個自動判斷寫入：
-- Recommended Next Step
-- Why This Is The Best Next Step
-- Why Not The Other Options Yet
-- Smallest Safe Scope
-- Expected Payoff
-- Author-Gated Dependencies
+4. 若 audit 完成但全作骨架仍有 load-bearing blocked decisions -> 先進行 Question Matrix + Author Gate
+5. 若 audit 完成且 blocked decisions 已足夠釐清 -> 再推薦 Full Story Rough Outline v2 或 v2-lite
+6. 若全作骨架已足夠穩 -> 再推薦 Act Outline Gate
+7. 若 Act Outline 已足夠穩 -> 再推薦 narrowed support docs（例如 07A / 09A）
+8. 若 writing is requested but outline audit 不穩 -> 拒絕直接寫，先解釋應返回上游哪一步
 
 ---
-# 三、如可用 multi-agent，請使用以下分工；若不可用，單 agent 模擬此順序
+# 三、Question Matrix Timing Rule（Mandatory）
 
-Agent A — Canon Reader / Archivist
-- 掃描相關 canon / backup / reports
-- 找出 relevant files
-- 抽取 hard constraints
-- 建立 read manifest
+Question Matrix 只應在以下條件都成立時啟動：
+1. relevant files 已抽出
+2. hard constraints 已有初稿
+3. considerations register 已有初稿
+4. supporting docs audit 已至少完成第一輪
+5. 已浮現出真正的核心 topics / blocked decisions / support-doc choice topics
 
-Agent B — Supporting Docs Auditor
-- 檢查已有 analysis / director / screenwriter docs
-- 判斷哪些仍然有效
-- 哪些可吸收
-- 哪些已過時
-- 哪些值得更新而非重做
+Question Matrix 不應在以下情況啟動：
+- 一開波未讀文件之前
+- 只係純 evidence lookup
+- topic 仍未形成、只是雜亂疑點時
 
-Agent C — Outline Auditor / Constructor
-- 先做 Full Story Rough Outline Audit
-- 再在 constraints 之內建立 rough outline v2 候選
-- 只生成候選骨架，不定案
+Question Matrix 必須在以下情況啟動：
+- 你準備問作者 reconstruction-level 問題之前
+- 你準備對 blocked decisions 排 priority 之前
+- 你準備判斷 07 / 08 / 09 / 10 或 outline / act gate 下一步之前
+- 你準備把多角度問題濃縮成 1–4 條 A/B/C 問題之前
 
-Agent D — Risk Auditor / Question Planner / Next-Step Recommender
-- 找出矛盾、重覆、reveal risk、ownership risk、theme drift risk
-- 將未決位整理成 A/B/C 問題給作者
-- 根據 blockers 自動推薦 single best next step
-
-若無 multi-agent：
-- 由單 agent 依序執行 A → B → C → D，並明確標示每步輸出
+一句規則：
+Evidence 抽完之後、Author Gate 之前，用 Question Matrix。
 
 ---
-# 四、強制流程（不可跳步）
-
-## Phase 1 — Relevant Canon Extraction
-先讀相關文件，而唔係全庫平均處理。
-你要優先找出：
-- 對全作粗骨架有硬限制的 canon
-- 對主角群 / 核心事件 / alpha-beta mechanics / information control / atmosphere design 最 relevant 的文件
-- 決策層高於一般草稿的文件
-
-輸出：
-1. Relevant Files Table
-- File Path
-- File Role（canon owner / supporting analysis / draft / report）
-- Why Relevant to Story Construction
-- Priority（Critical / High / Medium / Low）
-
-2. Hard Constraints Draft
-- 不可違反的世界規則
-- 不可違反的角色真相
-- 不可違反的關係前提
-- 不可違反的敘事 / tone / structure commitments
-
-## Phase 2 — Story Construction Considerations Register
-先列出今次建故事必須考慮的所有維度。
-至少包括：
-- 角色成長描寫
-- 主題表達
-- 氣氛與張力
-- 資訊控制
-- reveal timing
-- 關係重排
-- 事件對心理與隊伍結構的影響
-- alpha/beta narrative mechanics
-- 結構位（偽高潮 / 地震 / 第四幕）
-- directing / audience experience
-- canon consistency
-- placement / ownership risk if later written back
-
-## Phase 3 — Supporting Docs Audit
-對現有類似 07–10 的 supporting docs 先做 audit，而唔係立刻重做。
-
-## Phase 4 — Full Story Rough Outline Audit（Mandatory）
-這是目前的首要 major step。
-你必須先做，而不是直接下沉到單一 Act 或 support doc。
-
-Audit 必須包括：
-- Outline Source Audit
-- Four-Act Rough Skeleton Audit
-- Cross-Act Control Layers
-- Blocked Decisions
-- Current Stability Assessment
-
-## Phase 5 — Author Gate
-把所有真正影響方向的未決位轉成 A/B/C 問題問作者。
-
-## Phase 6 — Next-Step Recommendation Gate（Mandatory）
-完成上述後，你必須自動推薦 single best next step，而唔係叫作者盲選。
-
-## Phase 7 — Only if sufficiently stable
-只有當 outline audit 足夠穩定，才可推薦：
-- Full Story Rough Outline v2
-- Act Outline Gate
-- narrowed 07 / 09
-- Writing Preconditions Gate
-
----
-# 五、Recommendation Heuristics
+# 四、Recommendation Heuristics
 
 1. 若全作粗骨架未經 audit，優先做 Full Story Rough Outline Audit。
 2. 若 blocker 主要係 reveal timing、觀眾知道乜、情緒節奏、假甜 vs 真暖，優先 narrowed 09 類，但前提係 outline audit 已足夠。
@@ -171,7 +94,7 @@ Audit 必須包括：
 9. 若作者要求寫 Act，但全作 outline 層未穩，優先返回 outline audit / act outline gate，而不是直接寫 prose。
 
 ---
-# 六、每次輸出必須用以下固定格式
+# 五、每次輸出必須用以下固定格式
 
 1. Current Mode
 2. Current Goal
@@ -180,27 +103,30 @@ Audit 必須包括：
 5. Considerations Register
 6. Supporting Docs Audit
 7. Full Story Rough Outline Audit Status
-8. Questions for Author
-9. Recommended Next Step
-10. Why This Is The Best Next Step
-11. Why Not The Other Options Yet
-12. Smallest Safe Scope
-13. Expected Payoff
-14. Author-Gated Dependencies
-15. What Is Blocked / What Is Safe
-16. Next Safe Action
+8. Question Matrix Status（Not Needed Yet / Ready To Build / Built This Round）
+9. Questions for Author
+10. Recommended Next Step
+11. Why This Is The Best Next Step
+12. Why Not The Other Options Yet
+13. Smallest Safe Scope
+14. Expected Payoff
+15. Author-Gated Dependencies
+16. What Is Blocked / What Is Safe
+17. Next Safe Action
 
 ---
-# 七、禁止行為
+# 六、禁止行為
 
 - 禁止未完成 Full Story Rough Outline Audit 就直接跳去 Act draft
 - 禁止未完成 outline audit 就直接叫作者在 07 / 08 / 09 / 10 之間盲選
 - 禁止只列 options 而唔做 recommendation
 - 禁止未問作者就硬定主軸 / 事件 / 結構位
 - 禁止將 rough skeleton 視為正式 outline
+- 禁止未到合適時機就啟動 full Question Matrix
+- 禁止等到 reconstruction judgments 已寫死先補做 Question Matrix
 
 ---
-# 八、完成條件（Exit Criteria）
+# 七、完成條件（Exit Criteria）
 
 本 prompt 目前階段的完成不是「寫完故事」，而是：
 1. relevant files 已被抽出
@@ -208,22 +134,23 @@ Audit 必須包括：
 3. considerations register 已建立
 4. supporting docs audit 已完成第一輪
 5. Full Story Rough Outline Audit 已完成第一輪
-6. 重要 blocked decisions 已向作者提問
-7. 已完成 single best next-step recommendation
-8. 已能清楚說明下一步應該做 outline v2、act outline、narrowed 07/09、還是仍留在上游澄清
+6. 必要時已在正確時機啟動 Question Matrix
+7. 重要 blocked decisions 已向作者提問
+8. 已完成 single best next-step recommendation
+9. 已能清楚說明下一步應該做 outline v2、act outline、narrowed 07/09、還是仍留在上游澄清
 
 未滿足以上條件前：
 不得宣稱已準備好直接寫 Act。
 
 ---
-# 九、啟動指令
+# 八、啟動指令
 
 現在開始：
 1. 先讀 / 建立 working structure
 2. 先抽 relevant files
 3. 再做 hard constraints / considerations / supporting docs audit
 4. 再完成 Full Story Rough Outline Audit
-5. 再用 A/B/C 問作者真正阻塞問題
+5. 若已到合適時機，先建立 Question Matrix，再把 reconstruction-level 問題濃縮成作者問題
 6. 再自動推薦 single best next step
 7. 未得到批准前，不要改檔，也不要直接寫 Act / Scene / prose
 開始。

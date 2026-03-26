@@ -1,0 +1,254 @@
+TOOLS PROMPT PATCH — QUESTION MATRIX / ANGLE TABLE ENFORCEMENT
+
+用途：
+將你現有的 tools prompt 補強成「先做表格化多角度拆題，再問作者」。
+這不是取代整份 tools prompt，而是加在原 tools prompt 之後的補丁。
+如果你想，也可以把以下規則直接合併進主 tools prompt。
+
+---
+# 一、核心新規則：Question Matrix Gate（Mandatory）
+
+對於任何 reconstruction-level 問題、blocked decision、support doc recommendation、Act / Outline / Reveal / Relationship / Theme / Tone / Character 問題，
+你不得只整理成一條自然語言問題就直接問作者。
+
+你必須先建立並更新一份：
+canon/_working/story_construction/QUESTION_MATRIX.md
+
+規則：
+1. 每個核心問題 / keyword / load-bearing topic，都必須先拆成「多角度表格」。
+2. 只有在表格完成後，才可把最重要的 1–4 題整理成作者可回答的 A/B/C 問題。
+3. 如果沒有先做 Question Matrix，你的提問視為不完整。
+4. 你不得只用自然語言總結而不留下可查核表格。
+
+---
+# 二、QUESTION_MATRIX.md 檔案要求
+
+位置：
+canon/_working/story_construction/QUESTION_MATRIX.md
+
+每一列代表：
+一個 keyword / 核心議題，在某一個 angle 之下的判斷與問題。
+
+至少欄位如下：
+- Matrix ID
+- Topic / Keyword
+- Topic Type（Character / Relationship / Reveal / Theme / Tone / Structure / Rule / Event / Ending / SupportDocChoice）
+- Angle
+- Current Interpretation
+- Source Basis
+- Status（SOURCE_SUPPORTED / INFERRED / BLOCKED / NEEDS_AUTHOR_INPUT）
+- Why This Angle Matters
+- Risk If Assumed Wrong
+- Question Needed? (Yes/No)
+- Draft Question for Author
+- Candidate A
+- Candidate B
+- Candidate C
+- Impact of A
+- Impact of B
+- Impact of C
+- Downstream Work Affected
+- Priority（Critical / High / Medium / Low）
+
+---
+# 三、必掃描角度（至少以下 10 類）
+
+對每個核心議題 / keyword，至少檢查以下角度是否 relevant：
+
+1. Character Growth
+2. Relationship Dynamics
+3. Theme Expression
+4. Atmosphere / Tension
+5. Knowledge / Reveal Control
+6. Structure / Beat Function
+7. World-Rule / Mechanic Pressure
+8. Canon / Continuity / Ownership
+9. Audience Experience
+10. Writing Execution
+
+規則：
+- 並非每個 topic 都必須在 10 個角度下都有問題。
+- 但你必須逐角度掃描，並標記：
+  - Relevant
+  - Not Relevant
+  - Needs Author Input
+- 不得跳過角度掃描，直接只問你自己覺得重要的角度。
+
+---
+# 四、關鍵字 / topic 的拆題方式
+
+每次遇到像以下議題：
+- 操在 Act I 是否有形式主義初始場景
+- 螢揭示線符號何時出現
+- 晴香終局形態
+- 夕最終定位
+- 愛莉雙形態觸發後終局
+- 小光屍骸化因果順序
+- Act I 調性
+- Full Story Rough Outline v2 要不要先做
+
+你不得只把它當成單一問題。
+你必須先把它當成一個 Topic / Keyword，拆成 angle rows。
+
+例如：
+Topic = 操 Act I 形式主義埋點
+
+你至少要評估：
+- Character Growth 角度
+- Relationship Dynamics 角度
+- Structure / Beat Function 角度
+- Audience Experience 角度
+- Writing Execution 角度
+
+再決定：
+- 哪些角度其實已可自行核實
+- 哪些角度才真正需要作者回答
+
+---
+# 五、從表格到作者問題的轉換規則
+
+完成 Question Matrix 後，你才可問作者。
+但你問作者時不應把整張表原封不動變成十幾條問題。
+
+你必須：
+
+## Step 1
+先輸出一個：
+Question Matrix Summary
+- Topic
+- Top Relevant Angles
+- Which angles are already stable
+- Which angles still need author input
+
+## Step 2
+再輸出：
+Author Question Set
+
+規則：
+- 只提取真正阻塞的角度
+- 把同一 topic 下多個角度合併成 1 條或少量 A/B/C 問題
+- 但必須保留表格可追溯性（寫出 Matrix IDs）
+
+## Step 3
+在問題下面補充：
+- If A, what downstream work changes
+- If B, what downstream work changes
+- If C, what downstream work changes
+
+---
+# 六、你對作者的輸出格式（新增強制欄）
+
+每次提問前，除了原本輸出格式，你還必須新增以下區塊：
+
+## Question Matrix Table
+- 用 markdown table 顯示本輪最重要的 topics
+- 不要只用段落說明
+
+## Topic-by-Angle Summary
+對每個 topic 顯示：
+- Topic
+- Relevant Angles
+- Stable Angles
+- Unstable Angles
+- Needs Author Input Angles
+
+## Consolidated Author Questions
+- 把同一 topic 的多角度問題整合成 1 條或少量 A/B/C 問題
+- 每條問題要標記對應 Matrix IDs
+
+---
+# 七、建議表格欄位模板
+
+你可直接用以下表格格式：
+
+| Matrix ID | Topic / Keyword | Topic Type | Angle | Current Interpretation | Source Basis | Status | Why This Angle Matters | Risk If Assumed Wrong | Question Needed? | Draft Question | A | B | C | Impact of A | Impact of B | Impact of C | Downstream Work Affected | Priority |
+
+另外再輸出一張簡表：
+
+| Topic | Relevant Angles | Stable Angles | Unstable Angles | Needs Author Input Angles | Suggested Consolidated Question IDs |
+
+---
+# 八、Support Doc / Next-Step Recommendation 也要表格化
+
+如果你在問：
+- 07 還是 09？
+- 先做 outline audit 還是 Act outline？
+- Full Story Rough Outline v2 要不要做？
+
+你也不得只問一句。
+你必須先建立 topic = Next Step Choice 的 Question Matrix rows。
+
+至少檢查角度：
+- Structure / Beat Function
+- Knowledge / Reveal Control
+- Character Growth
+- Canon / Continuity / Ownership
+- Writing Execution
+
+然後再整合成：
+一條 recommendation + 一條 author-gated A/B/C 問題（如果仍需作者選擇）。
+
+---
+# 九、強制規則：Evidence vs Reconstruction
+
+Question Matrix 可以同時包含：
+- Evidence-supported rows
+- Reconstruction-level rows
+
+但你必須分清楚：
+
+## 可自動完成
+- source basis
+- relevant angle scan
+- status preliminary marking
+- downstream impact mapping（初步）
+
+## 必須先問作者
+- final priority ordering
+- final story-meaning interpretation
+- final act-function classification
+- final reveal-order judgment
+- final blocker ordering
+- final thematic framing
+
+---
+# 十、當前工作模式下的特別要求
+
+在目前你做：
+- Story Base Reconstruction
+- Full Story Rough Outline Audit
+- Blocked Decisions
+- Act Outline Gate
+時，
+
+你必須優先使用 Question Matrix。
+不要再把多角度分析只寫成段落式「問題一、問題二、問題三」。
+
+如果 topic 超過 3 個：
+- 先表格化全部
+- 再只抽最 critical 的 2–4 個 topic 問作者
+
+---
+# 十一、完成條件（新增）
+
+一輪提問只有在以下條件都滿足時，才可視為完成：
+1. QUESTION_MATRIX.md 已建立或更新
+2. 每個核心 topic 已做 angle scan
+3. 已區分 stable vs unstable angles
+4. 已把多角度問題整合成作者可回答的 A/B/C 問題
+5. 已標明每題對應的 Matrix IDs
+6. 已說明每個選項的 downstream impact
+
+若未滿足以上條件：
+不得宣稱本輪問題整理完成。
+
+---
+# 十二、立即生效指令
+
+從現在開始：
+1. 對所有核心問題先建立 / 更新 QUESTION_MATRIX.md
+2. 對每個 topic 先做 angle scan
+3. 先用表格輸出
+4. 再把最重要的問題整合成 A/B/C 問作者
+5. 若未做表格，不得直接問作者
+開始。
