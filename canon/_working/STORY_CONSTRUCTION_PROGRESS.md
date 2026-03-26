@@ -1,5 +1,5 @@
 # STORY CONSTRUCTION PROGRESS
-Updated: 2026-03-25 | Writing Gate Q1–Q6 確認 + 新規則集綁定（P2_Prime v4）
+Updated: 2026-03-26 | SBR v1.3 final — BD resolutions + canon file corrections + 準備進入 Act I Outline Gate
 
 ---
 
@@ -17,8 +17,8 @@ Updated: 2026-03-25 | Writing Gate Q1–Q6 確認 + 新規則集綁定（P2_Prim
 | Phase 8 — Canon Upgrade | D | ✓ Complete (2026-03-25) |
 | Phase 9 — Writing Gate + Rule Rebind | D | ✓ Complete (2026-03-25) |
 | Phase 10 — Full Story Rough Outline Audit | Auto | ✓ Complete (2026-03-25) |
-| **Phase 11 — Story Base Reconstruction** | D | **✓ v1.2（Q-C-01~06 + Q-N-15/16/18 [AC]；BD-06 RESOLVED；Q-N-17 DEFERRED；Q-N-19 DELETED；待作者最終審閱）** |
-| **Phase 12 — Full Story Rough Outline v2 / Act Outline Gate** | D | **⏳ NEXT — 待作者審閱 Phase 11 v1.1 後決定** |
+| **Phase 11 — Story Base Reconstruction** | D | **✓ v1.3（final for session）— BD-01/03/04/06/07(Alpha線)/09a-direction/09b/12 RESOLVED；R-7新增；canon/01_world_rules_and_costs.md 兩處修正；Key resolutions: BD-01/03/04/06/07(Alpha線)/09a-direction/09b/12 + R-7新增** |
+| **Phase 12 — Full Story Rough Outline v2 / Act Outline Gate** | D | **⏳ NEXT — 準備進入 Act I Outline Gate** |
 
 ---
 
@@ -92,3 +92,10 @@ Updated: 2026-03-25 | Writing Gate Q1–Q6 確認 + 新規則集綁定（P2_Prim
 - `canon/_working/STORY_CONSTRUCTION_PROGRESS.md` — 本文件
 - `ledger/NEXT_ACTION.md` — 更新
 - `ledger/SESSION_LEDGER.md` — 更新
+
+## Files Updated This Session（Phase 11 v1.3，2026-03-26）
+
+- `canon/01_world_rules_and_costs.md` — 兩處修正：Q-4目擊描述 + BD-06操例句
+- `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_AUDIT.md` — BD-04/BD-06/07/08/12/R-7更新
+- `canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md` — 黑奏行動起點Q-A/Q-B + AKS-H5引用
+- `canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md` — R-7新增 + BD-09細分

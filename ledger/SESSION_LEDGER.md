@@ -66,7 +66,7 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 
 ## Top Unstable Angles（Coverage Gate 結果）
 
-1. **知識/揭露控制**：晴香創世者揭示時機 BLOCKED（BD-01剩餘）；愛莉揭示線缺口（BD-09）
+1. **知識/揭露控制**：~~BD-01~~ ✓ RESOLVED；~~愛莉揭示線缺口（BD-09b）~~ ✓ RESOLVED；**螢揭示線 BD-09a（Critical，方向確認，具體設計DEFERRED）**；**R-7 黑奏預謀揭示時機（High，待定）**
 2. **觀眾體驗**：螢揭示情感前置鋪陳缺口（BD-09）— 最影響 Act IV 情感重量
 3. **寫作執行**：仍在 DISCUSSION ONLY 模式，Writing Gate Q2/Q4 未完全確認
 
@@ -116,6 +116,7 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 - **BD-04 RESOLVED**：愛莉 Act IV 終局 = 光點消失（晴香接受改變現實係錯→願望消失→愛莉消失）`[AC 2026-03-26]`
 - **BD-07 PARTIALLY RESOLVED**：Alpha線晴香媽媽 = 被黑奏殺死（同美夜子同一事件）`[AC 2026-03-26]`；Beta線難產 TBD
 - **BD-07 Alpha線 FULLY RESOLVED + Q-A/Q-B 澄清** `[AC 2026-03-26]`：黑奏主動殺死 Alpha 線晴香媽媽 + 美夜子，目的係**令晴香魔法覺醒**，讓黑奏可借晴香之力改變現實（因果逆流結構性力量，非一次性獲得）；意識動機兩層同步：工具目的（借力）= 終極目的（積累情感貨幣恢復螢）係同一條路；有顯性揭示（R-7，時機待定）
+- **R-7 揭示節點新建** `[AC 2026-03-26]`：黑奏預謀揭示（封閉循環揭示）= 新增獨立揭示節點，有顯性揭示，時機待定；已加入 KNOWLEDGE_DEPENDENCY_MAP + CROSS_ACT_CONTROL_LAYERS + BLOCKED_DECISIONS
 - **Q-C 不需要記錄**：黑奏 Soul Traversal 首次時間點 DEFERRED（不影響結構）
 - **Q-3 確認**：黑奏農場機制以現有向量（情緒守恆定律 + 朱音 + 秋穗 + Phase 3）已夠解釋，不需新增管道 `[AC 2026-03-26]`
 - **Q-4 確認**：5歲晴香直接目擊 Alpha 線殺人過程，但認唔出殺人係黑奏 `[AC 2026-03-26]`
@@ -124,11 +125,17 @@ Act Outline Gate 建立時，以當時已確認的事件為準。
 - **BD-12 RESOLVED**：夕完全唔知情（不知黑奏情緒農場）；「夕→黑奏輸送情緒能量」設定取消 `[AC 2026-03-26]`
 - **BD-10 澄清**：「改變現實光譜」和「態度剝奪詛咒」已有 canon 定義（02_glossary/12_philosophy）；BD-10 實際係資訊揭示時序問題，DEFERRED 至 Act Outline
 - **08_Story_Engine 修正**：刪除舊 Alpha 線設計殘留（操「男性化特徵」焦慮、「羨慕天生女生」）
+- **愛莉起源兩階段澄清** `[AC 2026-03-26]`：Stage 1 = 秋穗「改變心之器」研究事故 → 愛莉成為石像（人造魔法屍骸）；Stage 2 = 晴香改變現實願望 → 愛莉由石像成為魔法少女；兩階段獨立，不矛盾
+- **canon/01_world_rules_and_costs.md 修正** `[2026-03-26]`：① Line 365「目睹黑奏攻擊家園」→「目睹不明攻擊者攻擊家園」（Q-4 [AC]）；② Line 278 操例句由「我一直是女孩」→「我係被爸爸遺棄喺街邊嘅人」（BD-06 [AC]）
 
 ---
 
 ## Files Updated This Round
 - 見上方「Working Files 新建/更新」清單
+- `canon/01_world_rules_and_costs.md`（修正兩處：Q-4目擊描述 + BD-06操例句）
+- `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_AUDIT.md`（BD-04/BD-06/07/08/12/R-7更新）
+- `canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md`（黑奏行動起點Q-A/Q-B + AKS-H5引用）
+- `canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md`（R-7新增 + BD-09細分）
 
 ## Session Date
 - 2026-03-26（Phase 11 Q-N session 持續）
