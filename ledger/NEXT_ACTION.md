@@ -1,12 +1,18 @@
 # NEXT_ACTION
 
-## ★ 當前狀態（2026-03-26）
+## ★ 當前狀態（2026-03-27）
 
-**Full Story Rough Outline Audit 完成。所有 P2′ 強制前置步驟完成。**
+**P0 四條問題已全部答完。Full Story Rough Outline v2 可以開始。**
+
+重要：本作為**遊戲**（video game）。Full v2 outline 需區分：
+- Main story beats（主線強制）
+- Non-combat gameplay sections（非戰鬥，玩家主導探索）
+- Side quest content（副角色，可選）
+- Text props / 書信 / 道具（ambient lore）
 
 ---
 
-## 立即下一步：Act Outline Gate（Act I）
+## 立即下一步：Full Story Rough Outline v2
 
 ### 執行規則
 - 仍在 **DISCUSSION / REVIEW ONLY** 模式

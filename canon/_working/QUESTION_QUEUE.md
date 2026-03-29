@@ -1,122 +1,75 @@
-# QUESTION QUEUE
-Generated: 2026-03-23 | Updated: 2026-03-26 | Source: P2′ + Writing Gate + Full Story Rough Outline Audit + Phase 11 Q-N Session
+# QUESTION_QUEUE
 
----
+## Status Guide
+- BLOCKED = needs author answer before downstream decision
+- DEFERRED = intentionally postponed, must carry revisit trigger
+- RESOLVED = author answered and decision logged
+- DROPPED = no longer needed, but keep short trace
 
-## Writing Gate Q1–Q6（2026-03-25 確認）
+## Active Questions
+| QID | Topic | Related Matrix IDs / Source Basis | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| QQ-01 | V2 整體批核 | FULL_STORY_ROUGH_OUTLINE_V2.md | — | RESOLVED（隱含）| — | V2 係否批核？ | — | 作者透過答 Act I Gate 問題隱含進入 V2 框架，Gate OPEN | Act I Outline Gate OPEN | — | 2026-03-28 |
+| QQ-02 | Cross-act foreshadowing 框架 | 本 session 討論 | Medium | RESOLVED（隱含）| — | Act I Outline 採用三層結構？ | A=三層結構 / B=唔需埋位層 | **A 隱含確認**：ACT_I_OUTLINE.md 以三層結構建立並貫穿全輪討論，作者無異議 | Act I Outline 架構確立 | — | 2026-03-29 |
+| QQ-03 | R-7 + AKS-S1 黑奏動機 Info Architecture | BD-07 / STORY_BASE_RECONSTRUCTION / Q-AI-01 作者回應 | High | BLOCKED | Act II/III Outline 前 | AKS-S1（觀眾知螢已逝）+ R-7（黑奏預謀揭示）需整體設計揭示順序同時機；兩者係同一 info chain，唔可獨立決定 | — | — | 解鎖 AKS-S1 timing；R-7 揭示節點；Act II/III 螢線 + 黑奏動機設計 | Act II Outline 前 | 2026-03-28 |
+| QQ-04 | BD-13 秋穗退場事件 | BD-13 / BLOCKED_DECISIONS.md | Medium | BLOCKED | Act III Outline | 秋穗在 Act III 秘密揭露後如何退場？ | — | — | 解鎖 Act III/IV 秋穗戲份設計 | Act III Outline 前 | 2026-03-28 |
+| QQ-05 | 美夜子 soft pivot 具體場景 | QM-05 / V2 outline | Medium | DEFERRED | Act II Outline | Act II 美夜子破冰 soft pivot 的具體觸發場景？ | — | — | 解鎖 Act II 美夜子戲份設計 | Act II Outline 前 | 2026-03-28 |
+| QQ-06 | 操三位一體視覺化 | QM-06 / V2 outline | Medium | DEFERRED | Act IV Outline | Act IV 操三位一體視覺化具體方案？ | — | — | 解鎖 Act IV 操高潮場景 | Act IV Outline 前 | 2026-03-28 |
+| QQ-07 | BD-10 Information_Control 揭示時序 | BD-10 / canon/12 | Medium | DEFERRED | Act Outline（配合 AKS-H2）| 三概念觀眾揭示時序？ | — | — | 解鎖 AKS-H2 前置設計 | Act Outline 前 | 2026-03-28 |
+| QQ-08 | BD-11 象徵物件分析 | BD-11 | Medium | DEFERRED | 動筆前 | 鏡子/素描本/雙面盒墜象徵設計？ | — | — | 解鎖場景視覺設計 | 動筆前 | 2026-03-28 |
+| QQ-09 | BD-08 美夜子 Alpha 線死亡具體場景 | BD-08 / BLOCKED_DECISIONS.md | Medium | DEFERRED | Act III/IV Outline | 美夜子被黑奏殺死的具體場景設計？ | — | — | 解鎖 Alpha 線回溯場景設計 | Act III/IV Outline 前 | 2026-03-28 |
+| QQ-10 | E-01 晴香持續留在隊伍機制（維多利亞天使設計）| ACT_I_OUTLINE.md E-01；CDL-053/054/055 | High | RESOLVED | — | 三層心理設計令晴香合理上當：①「半真半假」資訊過濾（CDL-055）②精準命中晴香拯救者情結/公主女武神渴望（CDL-053）③美夜子共謀誤導（自身也渴望相信，CDL-054）；+世界層面：維多利亞之淚群體催眠（CDL-056）+ 情緒資本主義娛樂化（CDL-057）令社會環境支撐謊言 | 三層心理機制 + 世界機制（見 CDL-053~057）| **完整設計確立**（見 CDL-053~057） | 解鎖 E-01 美夜子說明場景設計；晴香 Act I 性格底層；Act III 謊言揭露對比場景 | — | 2026-03-29 |
+| QQ-11 | E-03 停止使用情緒連結機制（四人協議冇依樣野）| ACT_I_OUTLINE.md E-03；Q-BS-14/15 answer 2026-03-28 | Medium | DEFERRED（機制已選 B，beat details btd）| Act I Beat Sheet | 停止機制 = B（後遺症自然停止）已確認；Plant-A chain 重新定義（後遺症脆弱點 → 黑奏在 Act II 利用）；beat 細節（停止如何呈現、關係改善場景）= btd | A: 美夜子單方面禁止 / B: 後遺症自然停止（已選）/ C: 默契型無正式承諾 / D: 完全唔停 | **B（選擇）**：後遺症嚇人令人不敢再用；關係改善 = 見到彼此黑暗面而建立羈絆；beat 細節 btd；E-03 無正式協議場景 | 解鎖 E-03 beat 設計（機制確定）；Plant-A 植入描述更新；beat sheet 細節待定 | Act I Beat Sheet | 2026-03-28 |
+| QQ-14 | E-01 朱音+操 入場設計 | ACT_I_OUTLINE.md E-01；CDL-045/049/050/051/052 | High | RESOLVED | — | 各自有獨立入隊場景（非 E-01 同時入場）；具體 beat 位置 = btd（可能需新 outline beats） | 操：大型屍骸戰鬥中晴香擋攻擊（CDL-050）；朱音：珍寶珠場景後戒斷症狀（CDL-052） | **操 + 朱音 各自獨立入隊場景**（見 CDL-049~052）；入隊場景時機在 Act I beats 中的位置 → 見 QQ-18 | 解鎖 E-01 組隊設計；朱音+操 Act I 場景設計；見 QQ-16/17/18 新項目 | — | 2026-03-29 |
+| QQ-16 | 操 獨行俠期間是否曾用裝置戰鬥 | CDL-065 | Medium | RESOLVED | — | 操作為獨行俠是否有用情緒力量裝置打過屍骸？ | A: 有，獨行俠時期有戰鬥記錄 | **A（有戰鬥記錄）**：雙重原因：①燈塔效應（啟動裝置→成為屍骸獵殺目標，冇得唔打）②形式主義強迫；孤身打但冇觀眾 = 空洞 | 解鎖 Act I 操相關 back-reference 場景；操 E-02 入隊場景戲劇衝擊設計 | — | 2026-03-29 |
+| QQ-17 | 管家紗夜 角色設計 | CDL-049/071（新角色）| Medium | DEFERRED（部分確認）| Act I Beat Sheet / 動筆前 | 管家紗夜係操的管家，為救操從黑市買了裝置。她在故事中有多少存在感？具體設計？⚠ CDL-005（Alpha線家道中落）vs CDL-049（Beta線紗夜仍在）時間線；**Act I存在感已確認 = B（輕量[NC]出場，CDL-071）**；具體設計細節仍 btd | B: Act I 有輕量出場（操打電話或短暫露面）**已確認（CDL-071）** | **B（輕量出場）**：Act I [NC]中操打電話或短暫露面；戲份極少；具體設計 btd | 解鎖操 Act I [NC] 具體場景設計；Act III紗夜犧牲情感前置 | 動筆前（具體設計）| 2026-03-29 |
+| QQ-18 | 操+朱音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；朱音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 朱音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 朱音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
+| QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
-| ID | 問題 | 答案 | 狀態 |
-|----|------|------|------|
-| WG-Q1 | E-1.5 晴香目睹彩/黑奏切換後反應 | C — 完全沒意識到是人格切換（以為彩只是恍神） | ✓ [AC] |
-| WG-Q2 | Act I 調性強調 | A 或 C 待定（開場亮色優先 / 跟場景走） | ⏳ 待最終確認 |
-| WG-Q3 | 日常場景比重與要求 | 傾向 B（至少一個功能），C 亦可 | ✓ [AC] 有彈性 |
-| WG-Q4 | 輸出格式 | C 方向（混合格式），需先討論格式細節 | ⏳ 待格式討論 |
-| WG-Q5 | 對白語言 | A — 全廣東話口語 | ✓ [AC] |
-| WG-Q6 | Canon 空白時的處理 | B — 必須先問才填補 | ✓ [AC] |
+## Beat Sheet Pre-Entry Question Results（2026-03-29 Round 006）
+| QID | Topic | Result | CDL Ref |
+|---|---|---|---|
+| Q-BS-R01 | E-03 後遺症停止場景形式 | A大於C：A=身體反應嚴重目擊後心照不宣；C=見到對方最壞情緒→後續羈絆發展 | CDL-067 |
+| Q-BS-R02 | E-04 凜前史/光環呈現方式 | A：短暫閃回靜態圖像+美夜子旁白；刻意克制，唔想過早揭露美夜子弧光根源 | CDL-068 |
+| Q-BS-R03 | 夕整合轉折形式（Q-AI-03 RESOLVED）| D：歉疚與共情型；膠布哲學視覺化；道歉「對唔住，我應該早啲面對你」 | CDL-069/070 |
+| Q-BS-R04 | 管家紗夜 Act I 存在感 | B：輕量[NC]出場（打電話/短暫露面）；具體設計 btd | CDL-071 |
+| Q-BS-R05 | [NC] 夕噪訊呈現方式 | C：視覺型+情緒衝動型混用，分散不同[NC]段落 | CDL-072 |
+| Q-BS-R06 | E-02 Reality Show遊戲呈現 | A+B+假數值系統：戰鬥UI彈出Likes/打賞；NPC圍觀下注；玩家-晴香認知錯位 | CDL-073 |
+| Q-BS-R07 | 螢 Act I 存在感 + 彩設計 | 負空間手法；紅絲絨熊公仔（螢遺物）；「下次呢？」行為印記；黑奏誕生原因確立 | CDL-074/075/076 |
+| Q-BS-R08 | 榮格個體化過程具現化系統 | 全作心理骨幹確立：Persona=變身；Shadow=夕；C.U.=物理空間 | CDL-066 |
 
----
+## Act I Gate Question Results（2026-03-28）
+| QID | Topic | Result | Reason |
+|---|---|---|---|
+| Q-AI-01 | AKS-S1 timing | LINKED → 升級為 QQ-03 | 作者：AKS-S1 同 R-7 屬同一 info architecture，唔可獨立決定；不阻塞 Act I |
+| Q-AI-02 | 操鏡中幻象新設計 | DROPPED（錯誤前提）| 作者：BD-06 係 Alpha線設計；鏡中幻象只顯示 Beta線，唔受 BD-06 影響 |
+| Q-AI-03 | 夕整合幕末 L1 場景形式 | DEFERRED to beat sheet | 作者：scene format 係 beat-level 決定，唔係 outline gate 層 |
 
-## 待確認（BLOCKED / DEFERRED）
+## Resolved Questions
+| QID | Topic | Final Answer | Decision Log Ref | Downstream Change | Resolved At |
+|---|---|---|---|---|---|
+| QQ-R01 | Alpha線揭示時機 | Act I 幕末 + Act III 決戰 | CDL-001/002 | AKS-H1/H2/H3 設計 | 2026-03-26 |
+| QQ-R02 | 夕終局 | 消散 | CDL-003 | Act IV 夕戲份 | 2026-03-26 |
+| QQ-R03 | 愛莉終局 | 光點消失 | CDL-004 | Act IV 愛莉戲份 | 2026-03-26 |
+| QQ-R04 | 操設計更新 | 女兒身，家道中落，街邊行乞（Alpha線）| CDL-005 | Act I/II Alpha線設計 | 2026-03-26 |
+| QQ-R05 | 黑奏殺人動機 | 令晴香魔法覺醒；兩層動機同步 | CDL-006/007 | R-7；Alpha線回溯 | 2026-03-26 |
+| QQ-R06 | Beta線真相 | 晴香媽媽確實難產；黑奏不介入 | CDL-009 | 無需 Beta線暗示 | 2026-03-27 |
+| QQ-R07 | 螢線視覺設計 | 熊公仔+寫信/燒信；Act II 甜蜜高峰；[NC] | CDL-010/011/012 | AKS-S2/S3 | 2026-03-26/27 |
+| QQ-R08 | 愛莉暗示設計 | 無系統性暗示；紙皮騎士唯一視覺連結 | CDL-013 | AKS-A1 | 2026-03-26 |
+| QQ-R09 | 夕知情狀態 | 完全唔知情；輸送設定取消 | CDL-014 | Act II/III 夕戲份 | 2026-03-26 |
+| QQ-R10 | 秋穗終局方式 | Act IV 缺席；無直接對話 | CDL-015 | Act IV 秋穗設計 | 2026-03-27 |
+| QQ-R11 | 操 E-2.5 | 輕量/間接版；不作獨立場景 | CDL-016 | Act I 節奏 | 2026-03-27 |
+| QQ-R12 | 操鏡中幻象前提 | **Beta線**內容；BD-06（Alpha線設計）不影響鏡中幻象設計 | 作者 2026-03-28 | 撤回 Q-AI-02；鏡中幻象設計問題若有，係 Beta線層面 | 2026-03-28 |
+| QQ-R13 | E-04 主線格式：超載阻止 + 朱音肢體扭曲 | A 確認：不敵 → 超載嘗試 → 美夜子阻止 → 朱音肢體扭曲受傷（手臂傷口）；凜線主要透過美夜子回憶；凜×美夜子 bad complex 關係 | CDL-019/020/021/022 | E-04 從 [SS] 弱 → [AC] 強；Plant-A 新增朱音肢體扭曲 entry | 2026-03-28 |
+| QQ-R14 | E-04 受傷角色 = 朱音（肢體扭曲） | A：朱音肢體扭曲 = 屍骸女皇 foreshadow；手臂傷口 = Act III recognition trigger；晴香心理仍幼稚不宜直接受傷；操視覺上不適合（但可討論）| CDL-021 | Plant-A 朱音 foreshadow 正式確立；Act III 識別場景設計 | 2026-03-28 |
+| QQ-R15 | 凜×美夜子關係定性 | C：複雜，雙方都有責任，互有虧欠 | CDL-022 | E-04 回憶場景設計；Act II/III 凜×美夜子 re-encounter 設計 | 2026-03-28 |
+| QQ-R16 | 凜前史媒介 + 出現時機 | A：Act I 早期；美夜子回憶形式；目的：建立凜 + 美夜子孤獨感/秘密建立 | CDL-020 | E-04 媒介標籤更新；美夜子線弧光 Act I 起點確立 | 2026-03-28 |
+| QQ-R17 | E-04 超載者 = 朱音（A） | A：朱音自身超載，自身肢體扭曲係代價；晴香有衝動但朱音先行；CDL-043 完整 E-04 邏輯 | CDL-043 | E-04 場景設計可完整執行；CDL-019/021 補完 | 2026-03-28 |
+| QQ-R18 | 花子身份 = 晴香同美夜子的母親 / 秋穗的妹妹 | 花子係母親（既有文件有記錄）；晴香在 AKS-H1 記憶 fragment 見到的陌生女性係自己親生母親 | CDL-044 | AKS-H1 情感層次確立（陌生人 = 失去的媽媽）；E-XX 失去感設計可執行 | 2026-03-28 |
 
-| 問題 | 來源 | 優先度 | 狀態 |
-|------|------|--------|------|
-| ~~晴香得知自己是創世者的具體時機~~ | ~~BD-01剩餘~~ | — | ✓ **RESOLVED** — Act III 帝國廣場決戰，黑奏直接揭露 `[AC 2026-03-26]` |
-| **螢揭示線跨幕鋪陳設計（AKS-S2-S3）** | BD-09a | **Critical** | 設計缺口 — 需在 Act I-III Outline 時同步設計（螢≠愛莉，兩條獨立） |
-| **愛莉揭示線跨幕設計（AKS-A1）** | BD-09b | **High** | 設計缺口 — 石像→紙皮騎士→魔法少女三階段暗示缺失 |
-| 夕 Act IV 具體終局 | BD-03 | High | BLOCKED — 影響 Act IV 整體骨架 |
-| 愛莉 Act IV 具體終局 | BD-04 | Medium | BLOCKED — 可延後至 Act IV Outline |
-| ~~操 Alpha 線身體描述矛盾~~ | ~~BD-06~~ | — | ✓ **RESOLVED** — 操係女兒身，家道中落，街邊行乞 `[AC 2026-03-26]` |
-| Beta 線晴香媽媽死因官方記憶 | BD-07 | Medium | 待確認 — 影響秋穗揭露節點 |
-| 美夜子 Alpha 線死亡方式 | BD-08 | Medium | 待確認 — 影響 Alpha 線回溯場景 |
-| **Information_Control 空條目（三項）** | BD-10 | **High** | 待確認 — AKS-H2（創世者揭示）衝擊力前置依賴 |
-| 夕是否知道自己是黑奏情緒農場一部分 | Q-N-07（BD-12候選）| Medium | DEFERRED — 未編 BD 號，待澄清是設定確認還是待決 |
-| Act I 調性強調（WG-Q2）| Writing Gate | Low | 待最終確認，不阻塞 Outline Gate |
-| 輸出格式細節（WG-Q4）| Writing Gate | Low | 待格式討論，不阻塞 Outline Gate |
-
----
-
-## 已解決（RESOLVED）
-
-| ID | Title | Resolution | Date |
-|----|-------|-----------|------|
-| Q-P2-001 | 朱音/操犧牲結構 | A — 同時主動犧牲（無先後） | 2026-03-23 |
-| Q-P2-002 | 夕揭示時機 | C — Act II 已暗示，晴香知而不認 | 2026-03-23 |
-| Q-P2-003 | Act II 甜蜜高峰 | C — 有甜蜜高峰後緊跟最大代價（嘆息之橋） | 2026-03-23 |
-| Q-P2-004 | 黑奏/彩終局 | canon 解答 — 黑奏消散；彩永恆輪迴 | 2026-03-23 |
-| Q-P2-005 | 愛莉觸發機制 | A — 石像/紙皮騎士 = 同一前史事故；魔法少女形態 = 第2次改變現實（Act III/IV） | 2026-03-23 |
-| Q-P2-006 | 螢揭示時機 | C — 最後揭示，彩「多謝你保護咗我咁耐」那一刻 | 2026-03-23 |
-| Q-P2P-001 | 朔弧光 | A — Act II 獨立戲份；三位一體主題指標；美夜子接受新身份後不再主動往來 | 2026-03-23 |
-| Q-P2P-002 | 愛莉成為魔法少女觸發 | 晴香（夕）第2次改變現實時，愛莉內心希望有人拯救她 | 2026-03-23 |
-| Q-N-15 | 避難所詛咒觸發機制 | 5歲晴香許願「家姐變貓就唔會受傷」→ Beta線法則；首次觸發：凜被光環處決後美夜子目睹 | ✓ [AC 2026-03-26] |
-| Q-N-16 | 情緒增幅器污染機制 | 成年晴香改變現實能量逆流 → 黑奏污染 → 穿越時間 → 催化5歲晴香為高共鳴增幅器 | ✓ [AC 2026-03-26] |
-| Q-N-17 | 凜 Alpha 線設計 | 原方向不批准，新方向待定 | **DEFERRED** |
-| Q-N-18 | 小光與朱音的關係 | 小光 = 朱音的護理對象（非不倫關係）；朱音拒絕放棄 = 母性/姊弟保護欲延伸 | ✓ [AC 2026-03-26] |
-| Q-N-19 | 秋穗結晶雕像設計 | 作者否定此設計，全部刪除 | **DELETED** |
-| BD-06 | 操身份設計 | 操一直係女兒身（無手術/精神病院）；家道中落，街邊行乞 | ✓ [AC 2026-03-26] |
-| BD-03 | 夕 Act IV 終局 | 消散 — 改變現實後反悔 → undo → 力量耗盡消散 | ✓ [AC 2026-03-26] |
-| BD-09b | 愛莉揭示線跨幕設計 | 冇系統性暗示（設計意圖）；紙皮騎士 = 魔法少女騎士形態唯一視覺連結 | ✓ [AC 2026-03-26] |
-| Q-F-01 | 08_Story_Engine 操日常素材 | 舊 Alpha 線設計（男性化特徵/羨慕天生女生）已刪除，此素材係 Beta 線討論，舊項目不適用 | ✓ [AC 2026-03-26] |
-
----
-
-## ✓ 已解決
-
-### Act II 甜蜜高峰結構定義 ← **RESOLVED 2026-03-24**
-
-**設計方向確認**：甜蜜高峰**不是單一大場景**，而是 Act II 中期日常活動場景的積累，透過關係進化逐步建立。沒有一個「甜蜜頂點事件」需要命名或定義——由編劇在日常場景中自然推進。
-
-**下游影響**：
-- `07_Major_Events_Relationship_Impact.md` E-11：改為「日常關係積累期（散落於 Act II 中期各日常場景）」
-- `08_Story_Engine`：Act II 日常插入點設計已反映此方向
-- 不再需要作者提供具體場景
-
-**不再是阻塞點。**
-
----
-
----
-
-## 07 Working Doc 升格審計（2026-03-25）— Multi-Agent QA
-
-### ✓ 已決定（作者確認 2026-03-25）
-
-| ID | 問題 | 決定 |
-|----|------|------|
-| Q-07-001 | 朱音犧牲時序：「暴食斷頭台」= 同一事件含弧光畢業+肉體犧牲，定係兩個時間點？ | **A — 同一事件，維持 E-13 現狀**（過載變身+吞過期糖果毒素，第10天） |
-| Q-07-002 | 缺失事件處理：全加還是選擇性加入？ | **A — 四個全加**（E-1.5圖書館幽靈 / E-3.5美夜子失蹤 / E-9攻擊維多利亞之淚 / E-9.8凜的最終戰） |
-
-### ✓ 作者提供新 Canon 資料（2026-03-25）
-
-| 項目 | 內容 | 狀態 |
-|------|------|------|
-| E-3.5「美夜子失蹤」觸發原因 | 美夜子**因為認為收到凜的消息**才獨自行動（backup 只寫「對凜的執念」，無此細節） | [AC] — 作者確認，加入 E-3.5 |
-| E-9.8「凜死亡場景」描述 | 「凜死前只發出系統音」描述不準確。正確：凜嘴巴張開喉嚨蠕動（嘗試說話），美夜子靠近聆聽，出來的係氣音（嘶...嘶...）和 Error（系統音）——凜**嘗試說話但無法說出**，美夜子**選擇聆聽**，是完全不同的情感重量 | [AC] — 作者確認，修正 E-9.8 |
-
-### 待修訂（07 v1.2 執行清單）
-
-| ID | 類型 | 項目 | 來源 |
-|----|------|------|------|
-| FIX-01 | **阻塞** | E-21 時序：Act IV末 → Act III高潮（帝國廣場決戰） | Agent B |
-| FIX-02 | 修訂 | E-07 關係弧光總表夕欄：揭露與和解之間加入「持續對抗期（113年6月-114年3月）」 | Agent B |
-| FIX-03 | 修訂 | E-11a/E-12/E-13 AKS-S 標記：S0→S1 轉折時序修正（Act III前P1應已完成） | Agent B |
-| FIX-04 | 修訂 | E-18 AKS-S2 標示：改為「S2已完成（前節點確認）」 | Agent B |
-| FIX-05 | 修訂 | E-16 朔觸發器歸因：「脫離管理局」觸發器改為「保護的殘響」（非美夜子覺醒） | Agent B |
-| FIX-06 | 補充 | E-16 加入貓殼碎裂視覺設計 + 晴香/美夜子核心台詞（backup screenwriter L533-763） | Agent A |
-| FIX-07 | 補充 | E-10 加入完整場景邏輯：晴香首次面對寂靜 + 共鳴黑暗方法論 | Agent A |
-| FIX-08 | 補充 | E-11a 加入秋穗-黑奏主動交易動因（非單純「配方被利用」） | Agent A |
-| FIX-09 | 補充 | E-18 加入「希望被武器化反噬」具體機制 + E-09因果閉環說明 | Agent A |
-| FIX-10 | 補充 | 關係弧光總表：補入 朔↔美夜子既視感追認（Act II末）、凜↔美夜子介錯關係衝擊、秋穗↔愛莉精神世界母女對話、朔↔美夜子Act IV重逢 | Agent B |
-| ADD-01 | **新增** | E-1.5「圖書館的幽靈」：晴香首次目睹彩/黑奏人格切換，彩恐懼浮現→黑奏接管，留下「盡情掙扎啦，偶像小姐」 | backup L28-47 |
-| ADD-02 | **新增** | E-3.5「美夜子失蹤——傲慢的代價」：美夜子**因認為收到凜的消息**獨自行動陷危；晴香首次帶隊救援；朱音爆發「你整天說要保護我們，但你連我們都不信！」；操發現美夜子執念=自己執念鏡像 | backup L107-135 + [AC]作者補充 |
-| ADD-03 | **新增** | E-9「攻擊維多利亞之淚」：主角團主動進攻；晴香首次感受全城希望注入（力量觀轉變：「人民賦予的神聖權力」）；桐生健升格為信息戰盟友；E-18「希望反噬」因果前置 | backup L256-269 |
-| ADD-04 | **新增** | E-9.8「凜的最終戰——遲來的介錯」：嘆息之橋翌日清晨；美夜子獨自面對Unit 00；完整場景含凜嘗試說話/美夜子聆聽/只得氣音+系統音；美夜子領悟「有些傷口永遠無法癒合」；[AC]死亡場景描述由作者確認 | backup L766-904 + [AC]作者修正 |
-
----
-
-## ✓ 已解決（Narrowed 09 write-back 2026-03-23）
-
-| ID | Title | Resolution |
-|----|-------|-----------|
-| Q-INFO-001 | 晴香創世者揭示鏈 | ✓ 四階段知識鏈（L0/L1/L2/L3）已入 canon/09 section-three-reveal-chains |
-| Q-INFO-002 | 螢不可復活揭示鏈 | ✓ P1-P4 前置知識序列 + 彩台詞設計已入 canon/09 |
-| Q-INFO-003 | 愛莉雙形態揭示序列 | ✓ 雙形態前置知識對比表已入 canon/09 |
+## Deferred Questions Archive
+| QID | Topic | Why Deferred | Safe To Continue? | Revisit Trigger | Last Reviewed |
+|---|---|---|---|---|---|
+| BD-02 | 場景B-2幕別 | 作者指示繼續先 | Yes | 事件重排後 | 2026-03-25 |
+| BD-05 | E-11甜蜜高峰具體場景 | 作者指示 keep blocked | Yes（結構已定）| 作者主動提出 | 2026-03-25 |
+| Q-AI-03 | 夕整合幕末 L1 場景形式 | Beat-level 決定；**RESOLVED 2026-03-29（CDL-069/070）**：D 歉疚共情型；膠布哲學視覺化；道歉場景 | — | — | 2026-03-29 |

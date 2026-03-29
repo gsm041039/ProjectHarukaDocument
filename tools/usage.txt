@@ -65,3 +65,52 @@ P2 = 創作
 P3 = 文件整理
 
 P4 + P5 = 拆粒 + 一定先問你
+
+
+你而家進入 Universal Story Workflow Start / Resume Mode。
+
+今次我要做嘅 task / topic / section：
+[在此填入，例如：重整第三幕偽高潮、黑奏 reveal 順序、角色關係壓測、全作 outline construction]
+
+我希望你幫我做：
+[在此填入，例如：question engine、outline construction、canon audit、blocked decision design、writeback planning]
+
+你必須先做以下步驟，唔可以跳：
+1. 讀 `canon/_working/PROJECT_STATUS.md`
+2. 讀 `canon/_working/NEXT_ACTION.md`
+3. 讀 `canon/_working/QUESTION_QUEUE.md`
+4. 讀 `canon/_working/SESSION_LEDGER.md`
+5. 讀 `canon/_working/CANON_DECISION_LOG.md`（如存在）
+6. 讀 `canon/_working/READ_MANIFEST.md`（如存在）
+7. 讀 `canon/_working/story_construction/QUESTION_MATRIX.md`（如相關）
+
+然後你要判斷：
+- Current Mode
+- Current Active Topic / Section
+- Last Stable Completed Step
+- Open Blockers
+- Deferred Questions
+- Single Safe Next Action
+
+規則：
+- 如果我今次 topic 同目前進度一致，就繼續同一工作線，唔好重開新流程
+- 如果 topic 唔一致，要先講明係切 topic、分支處理、定其實仍屬同一 section
+- 唔可以靠記憶直接續做
+- 唔可以 silent resolve contradiction / canon decision
+- 唔可以令 deferred question 消失
+- 未做 source check 前，唔准直接問 reconstruction-level 問題
+- 問題預設用 A/B/C，但容許我自由補充
+- 一輪預設只問 3–6 條最高價值問題；真係有多個獨立 blocker 先可提升到 8–12 條
+- 如我 defer 某條問題，你要記錄入 `QUESTION_QUEUE.md`，並寫 revisit trigger
+- 停之前一定更新 relevant state files
+
+你輸出時必須有：
+1. Current Task Interpretation
+2. Recovered State Snapshot
+3. Mode Decision
+4. Why This Mode
+5. Evidence / Source Check Plan
+6. Top Blockers
+7. Immediate Next Action
+8. Questions For Author（如安全需要）
+9. File Update Plan
