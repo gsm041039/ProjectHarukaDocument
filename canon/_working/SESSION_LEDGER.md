@@ -1,28 +1,49 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.5 建立完成**；Round 008 問題已落檔（QQ-20~QQ-27）；等待作者回答 Round 008 問題 + 批核 v1.5
+- Phase 12 (Act I Outline) — **DRAFT v1.5 待批核**；Writeback CDL-051~099全部完成；唯一剩餘 blocker = 作者批核 Act I Outline v1.5
 
 ## Current Objective
-- 作者批核 Act I Outline Draft v1.5 → 並回答 Round 008 Q1-Q8 → 進入 Act I Beat Sheet
+- 作者批核 Act I Outline Draft v1.5 → 進入 Act I Beat Sheet
 
-## Completed This Round (Round 008 — 2026-03-30 問題落檔)
-- [x] Round 008 source-check完成（8個新問題從 Act I Outline v1.5 + CDL-086~088 發現）
-- [x] QQ-20~QQ-27 落檔至 QUESTION_QUEUE.md（BLOCKED，Beat Sheet前需答）
-- [x] QUESTION_MATRIX.md 新增 M012~M019（8個新 matrix rows）
-- [x] SESSION_LEDGER.md 更新（本文件）
-- [ ] **待作者回答**：Round 008 Q1-Q8（QQ-20~QQ-27）
-- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.5
+## Completed This Round (Round 010 — 2026-03-30 Writeback CDL-051~099)
+- [x] rin.md：CDL-068（E-04短暫閃回）+ CDL-084（E-02凜信息極簡帶猶豫）
+- [x] yu.md：CDL-085（噪訊B雙層遮蔽）+ CDL-094（影子清晰度C）+ CDL-077（夕視覺=5歲晴香）+ CDL-069（整合D型歉疚共情）+ CDL-070（膠布哲學E-XX高潮）
+- [x] iwakura_akane.md：CDL-051（裝置獲得+精神毒品設定）+ CDL-052（珍寶珠入隊場景）
+- [x] 12_philosophy_and_systems.md：CDL-066（榮格個體化具現化系統，新章節七）
+- [x] 07_entities_and_devices.md：CDL-064（燈塔效應世界規則）+ CDL-091（美夜子記憶消除現實縫合應用）
+- [x] PROJECT_STATUS.md更新
+- [x] SESSION_LEDGER.md更新（本文件）
+- Previous session writeback (Round 009.5): aya.md / ayakomoji_misao.md / miyako.md / haruka.md / saku.md
 
-## Round 008 Questions Summary（待作者回答）
-- QQ-20：白銀朔 Act I 引入方式（A:臥底學生 / B:半公開帝國人員 / C:校外戰鬥場景）
-- QQ-21：美夜子消除記憶能力是否真實存在（A:帝國程序 / B:個人有限 / C:純威脅 / D:個人非帝國）
-- QQ-22：桐生健 Act I 後續出現頻率（A:只E-01 / B:1-2個[NC] / C:獨立[SQ]線）
-- QQ-23：[NC]夕噪訊鏡中影子清晰程度（A:完全模糊 / B:矮小輪廓 / C:動作特徵可辨）
-- QQ-24：E-01美夜子使命說明場景形式（A:現場清醒 / B:私下安靜地點 / C:催眠包圍中）
-- QQ-25：晴香幽靈症狀 Act I 呈現方式（A:[NC]視覺化 / B:對話輕提 / C:A+B組合）
-- QQ-26：黑奏接管晴香頻率 Act I（A:只兩個場景 / B:三個場景 / C:4-5個短暫場景）
-- QQ-27：E-02首戰桐生健是否在場（A:在場被催眠 / B:在場有抗性 / C:不在場）
+## Completed This Round (Round 009 — 2026-03-30 Round 008 Q1-Q8答案處理)
+- [x] CDL-089落檔：燈塔效應揭示時機（Story Room Q2答案）
+- [x] QQ-20~QQ-27全部回答並落檔（CDL-090~098）
+- [x] QQ-26框架重構：「次數問題」→「目的驅動設計原則」（CDL-097）
+- [x] NEW CANON CDL-093：桐生健出現於第2次改變現實幻象喚醒晴香/夕（Act III/IV新場景）
+- [x] 白銀朔 Act I設計確立（CDL-090）：學校無朔；夜區影子過場；既視感+白西裝全推Act II
+- [x] 美夜子記憶消除能力確立（CDL-091）：B（個人有限，Unit 01殘響）；Act III雙線迴響
+- [x] QUESTION_QUEUE.md更新（QQ-20~27全部RESOLVED/DEFERRED）
+- [x] CANON_DECISION_LOG.md更新（CDL-089~098）
+- [x] PROJECT_STATUS.md更新
+- [x] SESSION_LEDGER.md更新（本文件）
+- [x] NEXT_ACTION.md更新
+- [ ] **唯一剩餘**：作者批核 ACT_I_OUTLINE.md Draft v1.5
+
+## Confirmed Author Decisions（Round 009，2026-03-30）
+- QQ-20 → C-variant（CDL-090）：白銀朔 Act I = 夜區影子過場；學校無朔；既視感追認推至Act II
+- QQ-21 → B（CDL-091）：美夜子記憶消除能力 = 個人有限魔法（Unit 01軍方殘響）；代價大
+- QQ-22 → B（CDL-092）：桐生健 Act I = 1-2個[NC]輕量出場（眼神/膠布視覺錨點）
+- QQ-22 NEW → 桐生健出現第2次改變現實幻象喚醒晴香/夕（CDL-093）
+- QQ-23 → C（CDL-094）：夕影子 = 動作特徵可辨，面目模糊
+- QQ-24 → B（CDL-095）：使命說明 = 學校天台，放學後
+- QQ-25 → C（CDL-096）：幽靈症狀 = A+B組合
+- QQ-26 → 框架重構（CDL-097）：目的驅動設計（非次數計數）
+- QQ-27 → C（CDL-098）：E-02桐生健不在場；[SQ-A]係獨立beat
+
+## Open Questions (Round 009 end)
+- **Act I Outline v1.5批核**：唯一剩餘blocker（進入Beat Sheet前）
+- **QQ-26**：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（逐場景確認）
 
 ## Completed This Round (Round 007 補充 — 2026-03-30 桐生健確認)
 - [x] QQ-19 RESOLVED：桐生健（CDL-087/088）

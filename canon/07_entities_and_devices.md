@@ -55,6 +55,25 @@
 2. **必然性假象** — 因鑰匙與自身同源，少女本能感到病態「親切感」，誤以為這是「天命」，接受暴力
 3. **代價加劇** — 暴力破解會對心匣造成高強度物理損傷。每次使用如用鐵鎚敲擊精密水晶盒，極大加速[「情感耗損」](02_glossary.md#term-emotional-erosion)（最終判定見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）
 
+### <a id="section-lighthouse-effect"></a>燈塔效應（Lighthouse Effect）——啟動裝置的隱性代價（CDL-064）
+
+**世界規則**：啟動情緒力量裝置後，持有者在[集體潛意識](02_glossary.md#term-collective-unconscious)海洋中如黑暗中的燈塔，成為全城魔法屍骸的本能獵殺目標。
+
+**機制邏輯**：
+- 裝置啟動 → 觸發「集體潛意識燈塔效應」
+- 持有者發出強烈潛意識信號，屍骸以本能（非理性）獵殺
+- 持有者無法關閉裝置（維持變身必須持有）→ 死循環
+
+**操的困境**：操啟動裝置後，燈塔效應使屍骸湧現，「冇得唔打」的死循環根源即在於此——她不是主動挑釁，而是被迫成為目標。
+
+**設計原則**：燈塔效應是所有魔法少女「持有裝置的隱性代價」設定基礎，後續屍骸獵殺機制均以此為底層邏輯。
+
+**揭示時機**（CDL-089）：E-01 暗示（操面對大量屍骸的困惑），E-02 美夜子明確說明機制。
+
+**See also**: [操 Canon Sheet](03_characters/ayakomoji_misao.md) | [World Rules：魔法代價](01_world_rules_and_costs.md#rule-magic-cost) | [集體潛意識](02_glossary.md#term-collective-unconscious)
+
+---
+
 ### <a id="section-hc-stitching"></a>變身的現實縫合機制 (Reality Stitching)
 
 本節只保留「裝置與演出」可觀測指標；規則全文由 [World Rules：變身的現實縫合機制](01_world_rules_and_costs.md#rule-reality-stitching) 持有。
@@ -62,6 +81,24 @@
 - 裝置視角：變身觸發時，心匣與外界知覺層同步重寫，造成短暫認知補丁。
 - 可觀測異常：聽覺跳幀、視線失焦、短停頓，像被剪接掉的一秒。
 - 敘事用途：把英雄行為與「被記憶抹除」放在同一鏡頭內，強化代價體感。
+
+### <a id="section-miyako-memory-erasure"></a>美夜子的記憶消除應用——現實縫合（CDL-091）
+
+**能力來源**：Unit 01 軍方「戰後清場/掩蓋魔法真相」的標準作業，深植於美夜子骨子裡的戰術反射動作（非帝國正式程序授權）。
+
+**機制**：現實縫合（Reality Stitching）= 局部覆寫認知 + 表層肉體狀態。
+
+**代價**：情緒守恆轉移（將負面情緒排放至集體潛意識深處）+ 心匣耗損；次數受限，代價大。
+
+**Act I 具體應用**：E-02 場景：美夜子在場見過異常事件的桐生健時，準備施展記憶消除，晴香伸手阻止，為桐生健貼上膠布說「痛係證據」。
+
+**後續敘事迴響**：
+- ①凜以「空殼公務員 Unit 00」形式失憶重組 → 美夜子曾是記憶消除者，最終成為被最在乎的人遺忘的受害者（Act III 殘酷反噬）
+- ②晴香阻止微型記憶消除 vs 晴香自己是最大規模現實覆寫者 → Act III「從道德高地摔落」的諷刺對稱
+
+**See also**: [美夜子 Canon Sheet](03_characters/miyako.md#section-memory-erasure) | [膠布哲學 CDL-070](03_characters/haruka.md)
+
+---
 
 ### <a id="section-hc-shared"></a>特殊案例：黑奏與彩的共享心匣
 

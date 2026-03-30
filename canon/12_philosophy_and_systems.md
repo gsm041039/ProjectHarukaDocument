@@ -185,3 +185,31 @@ Alpha 線未必比 Beta 線「更真實」，它只是「未被改寫的版本�
 **答案是肯定的**——朱音、操的最終選擇證明了這一點。
 
 **See also**: [黑奏 Canon Sheet](03_characters/aya.md#section-kurokane) | [永恆陷阱機制](#section-eternal-trap) | [態度 vs. 命運](02_glossary.md#term-attitude-vs-fate)
+
+---
+
+## <a id="section-jung-individuation"></a>七、榮格個體化過程具現化系統（CDL-066）
+
+**Jung Individuation Concretization System**
+
+### 定義
+
+本作故事核心 = 晴香的「個體化過程 (Individuation)」。本作採用「具現化心理學」方法論：心理概念成為真實的物理現象，不是文學隱喻。
+
+### 具現化對應
+
+| 榮格心理學概念 | 本作具現化形式 |
+|-------------|-------------|
+| **Persona（人格面具）** | 魔法少女變身——晴香為逃避創傷建立的防衛面具，外化為變身形態 |
+| **Shadow（陰影）** | 夕——被5歲晴香強行切割出去、物理分離的內在陰影人格 |
+| **Collective Unconscious（集體潛意識）** | 超現實物理空間——後巷/唐樓 + 魔法能量流動海洋，可進入的真實地點 |
+
+### 核心諷刺
+
+晴香的「改變現實」= 將內在問題投射到外在（Beta 線），問題無法被解決。真正的治癒只能向內接納陰影（夕整合，CDL-069）。外在現實的改寫，反而是逃避個體化的最徹底方式。
+
+### 方法論原則
+
+「具現化心理學」：所有榮格概念在本作中都是**物理真實**，而非隱喻。觀眾感受到的不是「晴香的心理旅程」，而是「晴香字面意義上穿越了潛意識空間」。
+
+**See also**: [晴香 Canon Sheet](03_characters/haruka.md) | [夕 Canon Sheet](03_characters/yu.md) | [傲慢救世主模式](#section-haruka-savior) | [集體潛意識](02_glossary.md#term-collective-unconscious)
