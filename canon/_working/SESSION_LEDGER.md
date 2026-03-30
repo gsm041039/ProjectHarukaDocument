@@ -1,10 +1,65 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.3 建立完成**；全部 Beat Sheet 前問題已解決；等待作者批核
+- Phase 12 (Act I Outline) — **DRAFT v1.5 建立完成**；Round 008 問題已落檔（QQ-20~QQ-27）；等待作者回答 Round 008 問題 + 批核 v1.5
 
 ## Current Objective
-- 作者批核 Act I Outline Draft v1.3 → 進入 Act I Beat Sheet
+- 作者批核 Act I Outline Draft v1.5 → 並回答 Round 008 Q1-Q8 → 進入 Act I Beat Sheet
+
+## Completed This Round (Round 008 — 2026-03-30 問題落檔)
+- [x] Round 008 source-check完成（8個新問題從 Act I Outline v1.5 + CDL-086~088 發現）
+- [x] QQ-20~QQ-27 落檔至 QUESTION_QUEUE.md（BLOCKED，Beat Sheet前需答）
+- [x] QUESTION_MATRIX.md 新增 M012~M019（8個新 matrix rows）
+- [x] SESSION_LEDGER.md 更新（本文件）
+- [ ] **待作者回答**：Round 008 Q1-Q8（QQ-20~QQ-27）
+- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.5
+
+## Round 008 Questions Summary（待作者回答）
+- QQ-20：白銀朔 Act I 引入方式（A:臥底學生 / B:半公開帝國人員 / C:校外戰鬥場景）
+- QQ-21：美夜子消除記憶能力是否真實存在（A:帝國程序 / B:個人有限 / C:純威脅 / D:個人非帝國）
+- QQ-22：桐生健 Act I 後續出現頻率（A:只E-01 / B:1-2個[NC] / C:獨立[SQ]線）
+- QQ-23：[NC]夕噪訊鏡中影子清晰程度（A:完全模糊 / B:矮小輪廓 / C:動作特徵可辨）
+- QQ-24：E-01美夜子使命說明場景形式（A:現場清醒 / B:私下安靜地點 / C:催眠包圍中）
+- QQ-25：晴香幽靈症狀 Act I 呈現方式（A:[NC]視覺化 / B:對話輕提 / C:A+B組合）
+- QQ-26：黑奏接管晴香頻率 Act I（A:只兩個場景 / B:三個場景 / C:4-5個短暫場景）
+- QQ-27：E-02首戰桐生健是否在場（A:在場被催眠 / B:在場有抗性 / C:不在場）
+
+## Completed This Round (Round 007 補充 — 2026-03-30 桐生健確認)
+- [x] QQ-19 RESOLVED：桐生健（CDL-087/088）
+- [x] CDL-087：桐生健身份 + Act I 四層功能
+- [x] CDL-088：膠布哲學第一層 = 桐生健傷口 + 「痛係證據」；晴香阻止記憶消除
+- [x] ACT_I_OUTLINE.md v1.5 更新（[SQ-A]段落重建）
+- [x] QUESTION_QUEUE.md 更新（QQ-19 RESOLVED）
+- [x] PROJECT_STATUS.md、SESSION_LEDGER.md、NEXT_ACTION.md 更新
+
+## Confirmed Author Decisions（Round 007 補充）
+- 桐生健 = 欺凌者（武力型）；現實感錨點；「態度勝力量」主題首落地；共犯；膠布第一層；CDL-087/088
+
+## Completed This Round (Round 007 — 2026-03-30 Story Room Source-Check + Q1-Q8)
+- [x] Story Room source-check完成；8個新問題從canon docs發現（非重複QM/BD）
+- [x] 作者Q1-Q8全部確認
+- [x] CDL-077~086新增（10個決定 + 1矛盾修正）
+- [x] ⚠ CDL-025矛盾識別並修正：白銀朔=屍骸獵人；校霸=另一角色（QQ-19 BLOCKED新建）
+- [x] ACT_I_OUTLINE.md v1.4全面更新（7處更新）
+- [x] QUESTION_QUEUE.md更新（QQ-19新增）
+- [x] PROJECT_STATUS.md更新
+- [x] SESSION_LEDGER.md更新（本文件）
+- [x] NEXT_ACTION.md更新
+
+## Confirmed Author Decisions This Round (Round 007)
+- Q1 → C：夕視覺形態 = 5歲晴香形態；CDL-077
+- Q2 → A：E-03倒下 = 晴香；CDL-078
+- Q3 → A（大幅擴展）：黑奏潛伏三大物理需求（充電線/挖礦/節點校準）；CDL-079；E-1.5台詞確認；CDL-080/081
+- Q4 → A：彩「下次呢？」首次觸發 = E-01後日常；CDL-082
+- Q5 → A：美夜子非功利行為 = E-02首戰保護動作；CDL-083
+- Q6 → C簡化：極簡一句帶情感色彩（猶豫）；CDL-084
+- Q7 → 矛盾修正：白銀朔=屍骸獵人（非校霸）；校霸=另一角色B（武力型）；CDL-086；QQ-19 BLOCKED
+- Q8 → B：夕噪訊B = 彩獨處觸發；夕遮蔽黑奏感知雙層設計；CDL-085
+
+## Open Questions (Round 007 end)
+- **QQ-19**: 「校霸」角色身份確認（High，Beat Sheet前，新BLOCKED）
+- **等待作者批核 ACT_I_OUTLINE.md Draft v1.4**
+- QQ-03: AKS-S1 + R-7 info architecture（High，Act II Outline前）
 
 ## Completed This Round (Round 006 — 2026-03-29 Story Room Audit + Beat Sheet Pre-Entry Qs)
 - [x] Story Room 最終問題審查完成（Q1-Q8 全部提出並獲作者回答）

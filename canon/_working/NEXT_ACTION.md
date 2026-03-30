@@ -1,41 +1,94 @@
 # NEXT_ACTION
 
-## Immediate Next Step
-- **作者批核 Act I Outline Draft v1.3**
-- 所有 Beat Sheet 前問題已解決（QQ-10/11/14/15/16/18 + Q-AI-03 + Beat Sheet Q1-Q8）
-- Outline v1.3 已整合：
-  - 操形式主義+燈塔效應+獨行俠戰鬥記錄
-  - 彩紅絲絨熊公仔+「下次呢？」行為印記
-  - 榮格個體化心理系統（全作骨幹）
-  - E-03停止場景、E-04凜前史呈現、E-XX夕整合、[NC]夕噪訊
-  - Reality Show A+B+假數值系統
-  - Plant-A擴充至14 entries
+## Immediate Next Steps（兩件事並行）
+1. **作者批核 ACT_I_OUTLINE.md Draft v1.5**
+2. **作者回答 Round 008 Q1-Q8（QQ-20~QQ-27）**
 
-## Why This Is The Next Safe Step
-- ACT_I_OUTLINE.md v1.3 處於 `[DRAFT — PENDING AUTHOR APPROVAL]` 狀態
-- 批核前唔可作為 Beat Sheet 正式工作基礎
-- 唯一阻塞 Beat Sheet 的項目係作者批核
+兩件事均需在進入 Act I Beat Sheet 前完成。
+
+## Round 008 Questions（QQ-20~QQ-27，Beat Sheet 前必答）
+
+### QQ-20 — 白銀朔 Act I 引入方式
+白銀朔係屍骸獵人（CDL-086），但 Act I 以咩身份出現未定。
+- A：臥底學生（混入校園，可與晴香/桐生健日常互動）
+- B：半公開帝國人員（部分人知道，暗流涌動感強）
+- C：校外角色（只在戰鬥場景出現，唔混入校園）
+
+### QQ-21 — 美夜子消除記憶能力是否真實存在
+[SQ-A] 晴香阻止美夜子消除桐生健記憶——呢個能力係真係有定係威脅話術？
+- A：帝國正式程序（真能力，需申請）
+- B：個人有限能力（有但代價大、次數有限）
+- C：冇能力，純係威脅話術
+- D：個人能力（非帝國程序，美夜子個人設計）
+
+### QQ-22 — 桐生健 Act I 後續出現頻率
+E-01 後仲出現幾多次？決定膠布哲學第一層種子深度。
+- A：只 E-01（一次性角色）
+- B：E-01 後有 1-2 個 [NC] 輕量出場
+- C：有獨立 [SQ] 線（膠布哲學更多層設計）
+
+### QQ-23 — [NC] 夕噪訊鏡中影子清晰程度
+晴香鏡中見到的夕影子要清晰到幾程度？
+- A：完全模糊（只有黑影輪廓）
+- B：矮小輪廓（看得出係小孩但無其他特徵）
+- C：小孩動作特徵可辨（有特定姿勢，但面目模糊）
+
+### QQ-24 — E-01 美夜子使命說明場景形式
+美夜子向晴香解釋維多利亞天使使命，晴香處於什麼狀態、在哪裡？
+- A：現場（屍骸戰後，特殊清醒狀態）
+- B：私下安靜地點（放學後、空教室）
+- C：在群體催眠市民的包圍中
+
+### QQ-25 — 晴香幽靈症狀 Act I 呈現方式
+幽靈重量感/幻聽/記憶斷層症狀，以什麼媒介呈現？
+- A：[NC] 場景中視覺化（晴香獨處時出現）
+- B：對話中輕輕提及
+- C：A+B 組合
+
+### QQ-26 — 黑奏接管晴香頻率 Act I
+E-1.5 同 E-03 係已知接管點，Act I 總接管次數係幾多？
+- A：只兩個場景（E-1.5 + E-03）
+- B：三個場景（E-1.5 + E-03 + 一個 [NC]）
+- C：4-5 個短暫場景（分散多個 [NC]）
+
+### QQ-27 — E-02 首戰桐生健是否在場
+E-02 首戰（操入隊場景），桐生健在場定唔在場？
+- A：在場，被催眠（美夜子催眠市民包含桐生健）
+- B：在場，有抗性，見證全程
+- C：不在場（[SQ-A] 係獨立場景）
+
+## Outline v1.5 整合內容摘要（供批核參考）
+- 夕視覺形態 = 5歲晴香（CDL-077）
+- E-03倒下 = 晴香；Plant-A目標 = 晴香脆弱點（CDL-078）
+- 黑奏潛伏三大需求（充電線/挖礦/節點校準，CDL-079）
+- E-1.5具體台詞 + 晴香誤認機制（CDL-080）
+- 天台午餐[NC]種子（CDL-081）
+- 彩「下次呢？」首次觸發 = E-01後日常（CDL-082）
+- 美夜子非功利行為 = E-02首戰保護動作（CDL-083）
+- 凜信息 = 極簡一句帶猶豫（CDL-084）
+- 夕噪訊B + 雙層遮蔽設計（CDL-085）
+- ⚠ 白銀朔修正 = 屍骸獵人（CDL-086）
+- **桐生健**：欺凌者/現實感錨點/「態度勝力量」主題首落地/共犯關係/膠布哲學第一層（CDL-087/088）
 
 ## File Location
 - `canon/_working/story_construction/ACT_I_OUTLINE.md`
 
 ## Requires Author Input Before Continuing?
-- **Yes** — 需要作者批核 Act I Outline v1.3 先可進入 Beat Sheet
+- **Yes** — 需要：①作者批核 Act I Outline v1.5 ②作者回答 QQ-20~QQ-27
 
-## After Approval
+## After Both Completed
 - 進入 Act I Beat Sheet（E-01/E-1.5/E-02/E-02.5/E-03/E-04/E-XX 各 beat 詳細場景設計）
-- 同步設計 [NC] section 分布（夕噪訊視覺型+情緒型混用節點）
-- 管家紗夜 Act I [NC] 場景具體設計（CDL-071 確認輕量出場，設計 btd）
-- 膠布哲學 [NC] 種植節點設計
+- 同步設計 [NC] section 分布（夕噪訊視覺型+情緒型混用節點；天台午餐[NC]）
+- 管家紗夜 Act I [NC] 場景具體設計（CDL-071，btd）
+- 膠布哲學種植節點設計（第一層桐生健場景；第二層[NC]習慣性動作）
+- 白銀朔 Act I 屍骸獵人身份引入方式（答案視 QQ-20 而定）
 
 ## Key Open Items（唔阻塞批核，Beat Sheet 時處理）
 - QQ-03: AKS-S1 + R-7 info architecture（Act II前）
 - QQ-17 具體設計: 管家紗夜 Act I [NC] 場景（Beat Sheet時）
 - 操 父親陰影暗示具體形式（[NC] 迴避反應，DEFERRED to Beat Sheet）
 
-## What Changed Since Last NEXT_ACTION Update（Round 006）
-- QQ-16 → A（操獨行俠有戰鬥記錄）RESOLVED；CDL-065
-- Q-AI-03 → D（歉疚共情型；膠布哲學）RESOLVED；CDL-069/070
-- Beat Sheet Q1-Q8 全部確認；CDL-063~076
-- ACT_I_OUTLINE.md v1.3 完成（全面更新）
-- 榮格個體化系統確立（CDL-066）
+## What Changed Since Last NEXT_ACTION Update
+- Round 008 source-check完成，QQ-20~QQ-27 落檔（2026-03-30）
+- QUESTION_MATRIX.md 新增 M012~M019
+- NEXT_ACTION.md 更新為雙任務模式（批核 v1.5 + 回答 Round 008）

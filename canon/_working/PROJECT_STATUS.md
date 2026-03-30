@@ -1,23 +1,42 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Act I Outline v1.3 Draft 完成；等待作者批核
-- Active Topic / Section: Phase 12 — Act I Outline（Beat Sheet 前問題全部解決）
-- Current Objective: 作者批核 Act I Outline Draft v1.3 → 進入 Act I Beat Sheet
+- Current Mode: STORY_ROOM — Act I Outline v1.5 Draft；Round 008 問題落檔（QQ-20~QQ-27）；等待作者批核 + 回答 Round 008
+- Active Topic / Section: Phase 12 — Act I Outline（Round 007+桐生健補充完成；Round 008 問題已落檔）
+- Current Objective: 作者批核 Act I Outline Draft v1.5 + 回答 QQ-20~QQ-27 → 進入 Act I Beat Sheet
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-03-29
+- Last Stable Updated At: 2026-03-30
 
 ## Last Stable Completed Step
-- Round 006 Story Room審查 + Beat Sheet Pre-Entry Q1-Q8 全部確認（2026-03-29）：
-  - CDL-063~076 新增（14個確認決定）
-  - QQ-16 RESOLVED（A：有戰鬥記錄；CDL-065）
-  - Q-AI-03 RESOLVED（D：歉疚共情型；CDL-069/070）
-  - ACT_I_OUTLINE.md v1.3 全面更新（所有stale標記清理；Beat Sheet Qs整合）
-  - 榮格個體化系統確立（CDL-066）
+- Round 007 Story Room source-check發現問題 + 作者Q1-Q8全部確認（2026-03-30）：
+  - CDL-077~086 新增（10個確認決定 + 1個矛盾修正）
+  - ⚠ CDL-025矛盾修正：白銀朔≠校霸；朔=屍骸獵人；校霸=另一角色（CDL-086）
+  - 夕視覺形態 = 5歲晴香（CDL-077）
+  - E-03倒下 = 晴香；Plant-A目標確認（CDL-078）
+  - 黑奏潛伏三大需求（充電線/挖礦/節點校準，CDL-079）
+  - E-1.5台詞 + 晴香誤認機制（CDL-080）
+  - 天台午餐[NC]場景種子（CDL-081）
+  - 彩「下次呢？」首次觸發位置（CDL-082）
+  - 美夜子非功利行為位置（CDL-083）
+  - 凜信息形式（CDL-084）
+  - 夕噪訊B + 雙層遮蔽設計（CDL-085）
+  - ACT_I_OUTLINE.md v1.4 全面更新
 
 ## Current Blockers
-- **等待作者批核 ACT_I_OUTLINE.md Draft v1.3**（唯一阻塞 Beat Sheet 的項目）
+- **等待作者批核 ACT_I_OUTLINE.md Draft v1.5**（阻塞 Beat Sheet）
+- **QQ-20~QQ-27（Round 008）**：8條 Beat Sheet 前必答問題，已落檔，等待作者回答
+- ~~QQ-19 RESOLVED~~（桐生健確認，CDL-087/088）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
+
+## Round 008 Pending Questions（QQ-20~QQ-27）
+- QQ-20：白銀朔 Act I 引入方式（A:臥底學生 / B:半公開帝國人員 / C:校外戰鬥場景）[High]
+- QQ-21：美夜子消除記憶能力（A:帝國程序 / B:個人有限 / C:純威脅 / D:個人非帝國）[High]
+- QQ-22：桐生健後續頻率（A:只E-01 / B:1-2個[NC] / C:獨立[SQ]線）[Medium]
+- QQ-23：[NC]夕噪訊鏡中影子清晰程度（A:完全模糊 / B:矮小輪廓 / C:動作特徵可辨）[Medium]
+- QQ-24：E-01使命說明場景形式（A:現場清醒 / B:私下地點 / C:催眠包圍中）[Medium]
+- QQ-25：晴香幽靈症狀呈現方式（A:[NC]視覺化 / B:對話輕提 / C:A+B）[Medium]
+- QQ-26：黑奏接管頻率（A:2個場景 / B:3個場景 / C:4-5個場景）[Medium]
+- QQ-27：E-02桐生健在場設計（A:在場被催眠 / B:在場有抗性 / C:不在場）[High]
 
 ## All Beat Sheet Pre-Entry Items: RESOLVED
 - ✅ QQ-10 RESOLVED（維多利亞天使三層心理設計）
@@ -29,18 +48,17 @@
 - ✅ Q-AI-03 RESOLVED（D：夕整合=歉疚共情型；膠布哲學）
 - ✅ Beat Sheet Q2-Q8 RESOLVED（CDL-067~076）
 
-## New Canon This Round（Round 006，2026-03-29）
-- **操「形式主義」悲劇核心**（CDL-063）：打屍骸=規則義務，非正義；孤身戰鬥=冇觀眾的空洞表演
-- **「燈塔效應」世界規則**（CDL-064）：啟動裝置→集體潛意識燈塔→成為屍骸獵殺目標
-- **榮格個體化系統**（CDL-066）：Persona=變身面具；Shadow=夕；C.U.=物理空間；全作骨幹
-- **E-03停止場景 = A+C**（CDL-067）：身體反應嚴重→心照不宣；見最壞情緒→羈絆
-- **E-04凜前史呈現 = A**（CDL-068）：短暫閃回靜態圖像+美夜子旁白
-- **夕整合 = D歉疚共情型**（CDL-069）：「對唔住，我應該早啲面對你。」
-- **「膠布哲學」視覺語言**（CDL-070）：晴香習慣性掩蓋→放下膠布貼向夕
-- **Reality Show遊戲呈現**（CDL-073）：A+B+假數值系統（Likes/打賞/NPC圍觀）
-- **螢負空間設計**（CDL-074）：Act I不出現螢名，通過彩行為讓螢「缺席地存在」
-- **彩 Act I 核心錨點**（CDL-075）：紅絲絨熊公仔（螢遺物）；「下次呢？」病態執著
-- **黑奏誕生原因**（CDL-076）：螢死亡之夜→彩恐懼→黑奏誕生保護彩
+## New Canon This Round（Round 007，2026-03-30）
+- **夕視覺形態 = 5歲晴香**（CDL-077）：鏡中夕以晴香童年形態存在；接納童年創傷
+- **E-03倒下 = 晴香**（CDL-078）：Plant-A目標確立；黑奏Act II利用晴香脆弱點
+- **黑奏潛伏三大需求**（CDL-079）：充電線（維持能量通道）；挖礦（夕痛苦→情感貨幣）；節點校準（微調晴香心理）
+- **E-1.5台詞確認 + 晴香誤認**（CDL-080）：「盡情掙扎啦，偶像小姐。」；晴香誤作幻聽
+- **天台午餐[NC]場景種子**（CDL-081）：黑奏打翻飯盒測試晴香
+- **彩「下次呢？」首次觸發 = E-01後日常**（CDL-082）
+- **美夜子非功利行為 = E-02首戰保護動作**（CDL-083）
+- **凜信息 = 極簡一句帶猶豫**（CDL-084）
+- **夕噪訊B + 雙層遮蔽設計**（CDL-085）：彩獨處觸發；夕遮蔽黑奏感知
+- **⚠ CDL-025 CORRECTION**（CDL-086）：白銀朔=屍骸獵人；校霸=另一角色（QQ-19 BLOCKED）
 
 ## Active Deferred Questions
 - QQ-03: AKS-S1 + R-7 黑奏動機 Info Architecture — High，Act II Outline 前
@@ -64,7 +82,7 @@
 - 榮格個體化系統 = 全作心理骨幹 [AC] CDL-066
 
 ## Immediate Safe Next Action
-- 作者批核 ACT_I_OUTLINE.md Draft v1.3
+- **作者批核 ACT_I_OUTLINE.md Draft v1.5**（唯一剩餘 blocker）
 - 批核後 → 進入 Act I Beat Sheet
 
 ## If Switching Computer / New Session
