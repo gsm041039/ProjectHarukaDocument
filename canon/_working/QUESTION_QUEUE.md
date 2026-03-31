@@ -27,6 +27,27 @@
 | QQ-18 | 操+朱音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；朱音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 朱音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 朱音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
 | QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
+## Round 012 Questions（2026-03-31 — 待作者回答）
+| QID | Topic | Matrix ID | Priority | Status | Question Summary | A/B/C | Last Updated |
+|---|---|---|---|---|---|---|---|
+| QQ-36 | 美夜子貓形態Act I戰鬥機制 | M028 | **High** | BLOCKED | 美夜子被詛咒困在貓形態，但 E-02「非計劃保護動作」（CDL-083）+ E-04「強硬阻止朱音超載」——她以魔法貓形態行動，還是有臨時變回人形的機制？ | A: 全程貓形態（魔法防護能力）/ B: 觸發條件臨時變人形 / C: 更靈活機制 | 2026-03-31 |
+| QQ-37 | 晴香裝置獲得方式 + E-01前知情狀態 | M029 | **High** | BLOCKED | E-01「自發使用情緒力量裝置」——晴香在 E-01 前已持有裝置，但裝置從哪裡來？她對它知道多少？秋穗係裝置研發者兼阿姨，是否相關？ | A: 秋穗以阿姨身份暗中給的 / B: 美夜子E-01現場急給 / C: 帝國招募計劃前期接觸 | 2026-03-31 |
+| QQ-38 | 秋穗 Act I 茶餐廳出場設計 | M030 | **High** | BLOCKED | 秋穗 Act I = 茶餐廳老闆娘守護晴香（akiho.md 確認），但 Outline 完全無提及。她在 Act I 出場嗎？什麼形式？影響 Act II 揭露情感前置 | A: 1-2個[NC]輕量出場（茶餐廳直接登場）/ B: 只在對話/提及中存在 / C: 電話/短訊形式（不出鏡）| 2026-03-31 |
+| QQ-39 | 晴香絕對共感視界 GameUI 首次出現時機 | M031 | Medium | BLOCKED | 晴香能看到遊戲UI（血條/情緒圖標）誤以為是同理心（haruka.md habit #3）——第一次出現是什麼時候？ | A: E-01第一次變身後 / B: E-01/E-02 [NC]中首次出現 / C: E-01前就有（幽靈症狀一部分）| 2026-03-31 |
+| QQ-40 | 彩節奏破壞植入充分度 | M032 | Medium | BLOCKED | 現有兩個彩×晴香節奏破壞場景（CDL-081天台打翻飯盒 + CDL-082「下次呢？」）是否已足夠？還是需要更多植入？ | A: 現有已足夠 / B: 需要1個額外[NC]場景 / C: 設計成彩×晴香互動視覺語言 | 2026-03-31 |
+
+## Round 011 Questions（2026-03-31 — ✅ 全部完成）
+| QID | Topic | Status | Author Answer | CDL Ref |
+|---|---|---|---|---|
+| QQ-28 | [SQ-A]桐生健序列位置 | **RESOLVED** | A — E-01 Immediate Epilogue（腎上腺素未退的直接尾聲；三人動態一氣呵成）| CDL-100 |
+| QQ-29 | E-XX幕末觸發條件 | **RESOLVED** | B — E-04後[NC]緩衝，晴香獨處平靜崩潰型觸發（後勁型爆發）| CDL-101 |
+| QQ-30 | E-XX Act I幕末收結 | **RESOLVED** | B — 晴香回到等待的隊伍，偽溫暖畫面收結 | CDL-102 |
+| QQ-31 | 天台使命說明時機 | **RESOLVED** | C — 次日放學後（E-01當日回家，次日主動赴約）| CDL-103 |
+| QQ-32 | Act I [NC]設計框架 | **RESOLVED** | C — 靈活框架（E-01/E-02後多；E-03後減；E-04後1個銜接E-XX）| CDL-104 |
+| QQ-33 | 美夜子[NC]裂縫設計 | **RESOLVED** | C — 輕量對話場景（晴香問私人問題，美夜子停頓後功利轉移）| CDL-105 |
+| QQ-34 | 朔夜區影子呈現形式 | **RESOLVED** | B — [SQ]可選場景（夜區探索觸發cutscene，個體差異型）| CDL-106 |
+| QQ-35 | 紗夜Act I出場形式 | **RESOLVED** | A — 操打電話形式（不耐煩語氣+掛線前沉默）| CDL-107 |
+
 ## Round 008 Questions（2026-03-30 — ✅ 全部完成）
 | QID | Topic | Related Matrix IDs / Source Basis | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
 |---|---|---|---|---|---|---|---|---|---|---|---|

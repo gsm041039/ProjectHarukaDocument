@@ -1,10 +1,48 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.5 待批核**；Writeback CDL-051~099全部完成；唯一剩餘 blocker = 作者批核 Act I Outline v1.5
+- Phase 12 (Act I Outline) — **DRAFT v1.6 待批核**；Round 012 問題已落檔（QQ-36~QQ-40）；等待作者回答 Round 012 問題 + 批核 v1.6
 
 ## Current Objective
-- 作者批核 Act I Outline Draft v1.5 → 進入 Act I Beat Sheet
+- 作者回答 QQ-36~QQ-40 + 批核 Act I Outline Draft v1.6 → 進入 Act I Beat Sheet
+
+## Completed This Round (Round 012 — 2026-03-31 問題落檔)
+- [x] Source-check 讀了 haruka.md / miyako.md / akiho.md
+- [x] 發現 3 個 Outline 未覆蓋的 Beat Sheet 阻塞項（M028/M029/M030）+ 2 個中優先問題（M031/M032）
+- [x] QUESTION_MATRIX.md 新增 M028~M032（5個新 matrix rows）
+- [x] QUESTION_QUEUE.md 新增 QQ-36~QQ-40（BLOCKED）
+- [x] SESSION_LEDGER.md 更新（本文件）
+- [ ] **待作者回答**：QQ-36~QQ-40（Round 012）
+- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.6
+
+## Round 012 Questions Summary（待作者回答）
+- QQ-36：美夜子貓形態 Act I 戰鬥機制（A:全程貓形態魔法 / B:觸發條件臨時變人 / C:靈活機制）⭐ HIGH
+- QQ-37：晴香裝置獲得方式（A:秋穗阿姨暗中給 / B:美夜子E-01急給 / C:帝國招募前期接觸）⭐ HIGH
+- QQ-38：秋穗 Act I 茶餐廳出場設計（A:1-2個[NC]輕量出場 / B:只被提及 / C:電話形式）⭐ HIGH
+- QQ-39：晴香絕對共感視界 GameUI 首次出現時機（A:E-01變身後 / B:[NC]中 / C:E-01前）☆ MEDIUM
+- QQ-40：彩節奏破壞植入充分度（A:現有足夠 / B:需1個額外場景 / C:設計成視覺語言）☆ MEDIUM
+
+## Completed This Round (Round 011 — 2026-03-31 Story Room Source-Check + Q1-Q8)
+- [x] Round 011 source-check完成：從ACT_I_OUTLINE v1.5 + CDL-100前各決定中發現8個新問題
+- [x] QUESTION_MATRIX.md 新增 M020~M027（8個新 matrix rows）
+- [x] 作者 Q1-Q8 全部回答
+- [x] CDL-100~107 落檔（8個新確認決定）
+- [x] ACT_I_OUTLINE.md v1.5 → v1.6 更新（5處 Outline 填補）
+- [x] QUESTION_QUEUE.md 新增 QQ-28~35（全部 RESOLVED）
+- [x] SESSION_LEDGER.md 更新（本文件）
+- [x] PROJECT_STATUS.md 更新
+- [x] NEXT_ACTION.md 更新
+- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.6
+
+## Confirmed Author Decisions（Round 011，2026-03-31）
+- Q1 → A（CDL-100）：[SQ-A]桐生健 = E-01 Immediate Epilogue；三人動態一氣呵成
+- Q2 → B（CDL-101）：E-XX觸發 = E-04後[NC]緩衝，獨處平靜崩潰（後勁型）
+- Q3 → B（CDL-102）：Act I收結 = 晴香回到等待的隊伍，偽溫暖畫面
+- Q4 → C（CDL-103）：天台使命說明 = 次日放學後（非E-01同日）
+- Q5 → C（CDL-104）：[NC]靈活框架（E-01/E-02後多；E-04後1個銜接E-XX）
+- Q6 → C（CDL-105）：美夜子[NC]對話裂縫（晴香問私人問題→停頓→功利轉移）
+- Q7 → B（CDL-106）：朔夜區 = [SQ]可選cutscene（個體差異型前置）
+- Q8 → A（CDL-107）：紗夜 = 操打電話形式（掛線前沉默）
 
 ## Completed This Round (Round 010 — 2026-03-30 Writeback CDL-051~099)
 - [x] rin.md：CDL-068（E-04短暫閃回）+ CDL-084（E-02凜信息極簡帶猶豫）

@@ -1,60 +1,59 @@
 # NEXT_ACTION
 
-## Immediate Next Step（唯一一件事）
-**作者批核 ACT_I_OUTLINE.md Draft v1.5**
+## Immediate Next Steps（兩件事並行）
+1. **作者回答 Round 012 QQ-36~QQ-40**
+2. **作者批核 ACT_I_OUTLINE.md Draft v1.6**
 
-Round 008+009全部問題已回答完畢（CDL-089~098）。唯一剩餘 blocker。
+QQ-36/37/38（⭐ HIGH）係 Outline 填補問題，建議批核前先確認。
+QQ-39/40（☆ MEDIUM）批核後確認亦可。
 
-## File Location
-- `canon/_working/story_construction/ACT_I_OUTLINE.md`
+## Round 012 Questions（QQ-36~QQ-40，等待作者回答）
 
-## 批核要點（供作者參考）
-以下係 v1.5 整合的全部內容：
+### QQ-36 ⭐ — 美夜子貓形態 Act I 戰鬥機制
+美夜子被詛咒困在貓形態（非可選，miyako.md）。但 E-02 有一個「非計劃即時保護晴香動作」（CDL-083），E-04 要「強硬阻止朱音超載」——一隻貓怎麼做這些？
+- **A：全程貓形態**（魔法防護能力：魔法光幕/爪擊推開攻擊；「保護動作」= 魔法光幕；「阻止朱音」= 魔法束縛或身體衝出擋在前面）
+- **B：有觸發條件臨時變回人形**（極端危機才觸發，時間短，代價大；Act I 有 1 次人形態登場）
+- **C：更靈活機制**（例如半人半貓過渡形態；或特定魔法空間才能還原）
 
-### Round 007 更新（CDL-077~088）
-- 夕視覺形態 = 5歲晴香（CDL-077）
-- E-03倒下 = 晴香；Plant-A目標確立（CDL-078）
-- 黑奏潛伏三大需求（充電線/挖礦/節點校準，CDL-079）
-- E-1.5具體台詞 + 晴香誤認機制（CDL-080）
-- 天台午餐[NC]種子（CDL-081）
-- 彩「下次呢？」首次觸發 = E-01後日常（CDL-082）
-- 美夜子非功利行為 = E-02首戰保護動作（CDL-083）
-- 凜信息 = 極簡一句帶猶豫（CDL-084）
-- 夕噪訊B + 雙層遮蔽設計（CDL-085）
-- ⚠ 白銀朔修正 = 屍骸獵人（CDL-086）
-- 桐生健：欺凌者/現實感錨點/「態度勝力量」/共犯/膠布哲學第一層（CDL-087/088）
+### QQ-37 ⭐ — 晴香裝置獲得方式 + E-01前知情狀態
+E-01「自發使用情緒力量裝置」暗示晴香之前已有裝置。秋穗係裝置原型研發者兼晴香的阿姨——裝置從哪裡來？
+- **A：秋穗以阿姨身份暗中給的**（用含糊藉口給晴香「一個特殊的東西，有需要時試試」；晴香一直放著，E-01 危急時才用）
+- **B：美夜子在 E-01 現場緊急交給晴香**（「用它！」；晴香第一次見到就用了）
+- **C：帝國招募計劃前期接觸**（維多利亞天使的前期宣傳/招募；晴香在某次接觸中拿到裝置）
 
-### Round 009 新確認（CDL-090~098，需整合入 Outline）
-- 白銀朔 Act I = 夜區後段影子過場（學校段落無朔，CDL-090）
-- 美夜子記憶消除 = B個人有限魔法（CDL-091）
-- 桐生健後續 = 1-2個[NC]輕量出場（CDL-092）
-- 夕鏡中影子 = C動作特徵可辨（CDL-094）
-- 使命說明 = 學校天台B（CDL-095）
-- 幽靈症狀 = C（A+B組合，CDL-096）
-- 黑奏接管原則 = 目的驅動（CDL-097）
-- E-02桐生健不在場（CDL-098）
+### QQ-38 ⭐ — 秋穗 Act I 茶餐廳出場設計
+akiho.md 確認：秋穗 Act I = 茶餐廳老闆娘，暗中守護+監控晴香。但現有 Outline **完全無提及秋穗**。Beat Sheet 開始前需確認。
+- **A：1-2 個 [NC] 輕量出場**（晴香去茶餐廳；秋穗溫暖阿姨形象；有一個極細微「不像普通阿姨」細節）
+- **B：只在對話/提及中存在**（晴香說「待會去阿姨那裡」；秋穗不直接出場）
+- **C：電話/短訊形式**（秋穗不出鏡，但有「秋穗打電話確認晴香狀況」場景；晴香掛線後若有所思）
 
-## Requires Author Input Before Continuing?
-- **Yes** — 批核 Act I Outline v1.5（唯一prerequisite）
+### QQ-39 ☆ — 晴香絕對共感視界 GameUI 首次出現時機
+晴香能看到別人看不到的 GameUI（血條/情緒圖標），誤以為是同理心（haruka.md habit #3）。
+- **A：E-01 第一次變身後立即出現**（契約啟動 = 創世者特權啟動）
+- **B：E-01/E-02 [NC] 中首次出現**（日常情況下突然發現朋友有情緒圖標）
+- **C：E-01 前就有**（幽靈重量症狀的一部分，但晴香以為是同理心）
 
-## After Completed
-- 進入 Act I Beat Sheet（E-01/[SQ-A]/E-1.5/E-02/E-02.5/E-03/E-04/E-XX 各 beat 詳細場景設計）
-- 同步設計 [NC] section 分布（夕噪訊視覺型+情緒型混用；天台午餐；幽靈症狀視覺化）
-- 管家紗夜 Act I [NC] 場景具體設計（CDL-071，btd）
-- 膠布哲學種植節點設計（第一層桐生健場景 + [NC]視覺錨點）
-- 黑奏接管場景逐一確認（目的驅動，QQ-26 DEFERRED）
+### QQ-40 ☆ — 彩節奏破壞植入是否足夠
+晴香有強迫性「規律節奏控制」防禦機制，被彩打亂時防線瓦解（haruka.md habit #6）。現有：CDL-081 天台打翻飯盒 + CDL-082「下次呢？」追問。
+- **A：現有設計已足夠**（兩個場景已代表兩種不同破壞方式）
+- **B：需要 1 個額外 [NC] 節奏破壞場景**（例如彩突然改路線；或在晴香戴耳機時突然說話）
+- **C：把「節奏破壞」設計成 Act I 彩×晴香互動視覺語言**（每次彩出場都有一個具體破壞）
 
-## Key Open Items（唔阻塞批核，Beat Sheet 時處理）
+---
+
+## Outline v1.6 待批核內容摘要（供參考）
+- 詳見 NEXT_ACTION 版本歷史；v1.6 整合了 CDL-100~107（Round 011 所有決定）
+- v1.6 主要更新：桐生健E-01 Immediate Epilogue；天台次日說明；E-XX觸發+收結；[NC]靈活框架
+
+## After Both Completed
+- 進入 Act I Beat Sheet（E-01/[SQ-A Epilogue]/天台/E-1.5/E-02/E-02.5/E-03/E-04/[NC]/E-XX 各 beat 詳細場景設計）
+
+## Key Open Items（唔阻塞批核）
 - QQ-03: AKS-S1 + R-7 info architecture（Act II前）
-- QQ-17 具體設計: 管家紗夜 Act I [NC] 場景（Beat Sheet時）
 - QQ-26: 黑奏接管具體場景（Beat Sheet逐場景確認）
-- 操 父親陰影暗示具體形式（[NC] 迴避反應，DEFERRED to Beat Sheet）
 
-## What Changed Since Last NEXT_ACTION Update
-- Round 010完成：Writeback CDL-051~099全部落地（2026-03-30）
-  - rin.md, yu.md, iwakura_akane.md更新
-  - 12_philosophy_and_systems.md（榮格個體化系統新章節）更新
-  - 07_entities_and_devices.md（燈塔效應 + 美夜子現實縫合應用）更新
-  - 已完成文件：aya / ayakomoji_misao / miyako / haruka / saku / rin / yu / iwakura_akane / 12_philosophy / 07_entities
-- Round 009完成：QQ-20~27全部回答（2026-03-30）
-- CDL-089~099落檔
+## What Changed Since Last Update
+- Round 012問題識別完成（2026-03-31）：QQ-36~QQ-40落檔
+- Source-check：haruka.md / miyako.md / akiho.md
+- 重大發現：秋穗 Act I 茶餐廳完全未在 Outline 出現（需補入）
+- QUESTION_MATRIX.md 新增 M028~M032

@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Act I Outline v1.5 待批核；Writeback CDL-051~099 全部完成
-- Active Topic / Section: Phase 12 — Act I Outline（Writeback完成；唯一剩餘 blocker = 作者批核）
-- Current Objective: 作者批核 ACT_I_OUTLINE.md Draft v1.5 → 進入 Act I Beat Sheet
+- Current Mode: STORY_ROOM — Act I Outline v1.6 待批核；Round 011 全部完成（CDL-100~107）
+- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.6 Draft；唯一剩餘 blocker = 作者批核）
+- Current Objective: 作者批核 ACT_I_OUTLINE.md Draft v1.6 → 進入 Act I Beat Sheet
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-03-30
+- Last Stable Updated At: 2026-03-31
 
 ## Last Stable Completed Step
 - Round 010 Writeback完成（2026-03-30）：CDL-051~099全部寫回 atom files + series files
@@ -18,8 +18,24 @@
   - 美夜子記憶消除能力定案：B（個人有限，Unit 01殘響）
   - 黑奏接管原則重構：目的驅動（非次數計數）
 
+## New Canon This Round（Round 011，2026-03-31）
+- **[SQ-A]桐生健 = E-01 Immediate Epilogue**（CDL-100）：三人動態一氣呵成；SOP邏輯+膠布種子最強時機
+- **E-XX觸發 = E-04後[NC]緩衝，獨處崩潰型**（CDL-101）：後勁型爆發；延遲型情緒語法
+- **Act I收結 = 偽溫暖隊伍畫面**（CDL-102）：偽英雄旅程假象最強美學
+- **天台使命說明 = 次日放學後**（CDL-103）：晴香主動性最強；天台視覺符號有呼吸空間
+- **[NC]靈活框架**（CDL-104）：E-01/E-02後多→E-03後減→E-04後1個銜接E-XX
+- **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
+- **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
+- **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
 ## Current Blockers
-- **⚠ 唯一 blocker：作者批核 ACT_I_OUTLINE.md Draft v1.5**（阻塞 Beat Sheet）
+- **⚠ 作者批核 ACT_I_OUTLINE.md Draft v1.6**（阻塞 Beat Sheet）
+- **QQ-36~QQ-40（Round 012）**：5條問題已落檔，等待作者回答
+  - QQ-36：美夜子貓形態戰鬥機制 ⭐ HIGH
+  - QQ-37：晴香裝置獲得方式 ⭐ HIGH
+  - QQ-38：秋穗 Act I 茶餐廳出場設計 ⭐ HIGH（Outline 完全無提及，akiho.md 確認她 Act I 存在）
+  - QQ-39：晴香 GameUI 視界首次出現時機 ☆ MEDIUM
+  - QQ-40：彩節奏破壞植入充分度 ☆ MEDIUM
 - QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（唔阻塞批核）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
 
