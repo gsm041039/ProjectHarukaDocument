@@ -1,26 +1,32 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.6 待批核**；Round 012 問題已落檔（QQ-36~QQ-40）；等待作者回答 Round 012 問題 + 批核 v1.6
+- Phase 12 (Act I Outline) — **DRAFT v1.7 待批核**；Round 012 全部完成（QQ-36~40 RESOLVED，CDL-108~112落檔）
 
 ## Current Objective
-- 作者回答 QQ-36~QQ-40 + 批核 Act I Outline Draft v1.6 → 進入 Act I Beat Sheet
+- 作者批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
 
-## Completed This Round (Round 012 — 2026-03-31 問題落檔)
+## Completed This Round (Round 012 — 2026-04-01 全部完成)
 - [x] Source-check 讀了 haruka.md / miyako.md / akiho.md
 - [x] 發現 3 個 Outline 未覆蓋的 Beat Sheet 阻塞項（M028/M029/M030）+ 2 個中優先問題（M031/M032）
 - [x] QUESTION_MATRIX.md 新增 M028~M032（5個新 matrix rows）
-- [x] QUESTION_QUEUE.md 新增 QQ-36~QQ-40（BLOCKED）
+- [x] QUESTION_QUEUE.md 新增 QQ-36~QQ-40；全部 RESOLVED
+- [x] 作者 Q1-Q5 全部回答（Round 012）
+- [x] CDL-108~112 落檔（5個新確認決定）
+- [x] ACT_I_OUTLINE.md v1.6 → v1.7 更新（4處 Outline 填補）
+- [x] QUESTION_QUEUE.md 更新（QQ-36~40 全部 RESOLVED）
 - [x] SESSION_LEDGER.md 更新（本文件）
-- [ ] **待作者回答**：QQ-36~QQ-40（Round 012）
-- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.6
+- [x] PROJECT_STATUS.md 更新
+- [x] NEXT_ACTION.md 更新
+- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.7
+- [ ] **待 Writeback**：haruka.md habit #6 刪除（CDL-112；非本輪阻塞項）
 
-## Round 012 Questions Summary（待作者回答）
-- QQ-36：美夜子貓形態 Act I 戰鬥機制（A:全程貓形態魔法 / B:觸發條件臨時變人 / C:靈活機制）⭐ HIGH
-- QQ-37：晴香裝置獲得方式（A:秋穗阿姨暗中給 / B:美夜子E-01急給 / C:帝國招募前期接觸）⭐ HIGH
-- QQ-38：秋穗 Act I 茶餐廳出場設計（A:1-2個[NC]輕量出場 / B:只被提及 / C:電話形式）⭐ HIGH
-- QQ-39：晴香絕對共感視界 GameUI 首次出現時機（A:E-01變身後 / B:[NC]中 / C:E-01前）☆ MEDIUM
-- QQ-40：彩節奏破壞植入充分度（A:現有足夠 / B:需1個額外場景 / C:設計成視覺語言）☆ MEDIUM
+## Confirmed Author Decisions（Round 012，2026-04-01）
+- Q1 → A+Glitch Form新設計（CDL-108）：Act I = 全程貓形態魔法防護；Act II = Glitch Form冰藍色人類少女殘影首次；Act III = 真實肉身突破
+- Q2 → B（CDL-109）：晴香裝置 = 美夜子E-01現場危急交予（「用它！」）
+- Q3 → A+血糖手錶（CDL-110）：秋穗 = 1-2個[NC]茶餐廳出場；血糖手錶道具；模仿花子語調；微小破綻；輔助NPC
+- Q4 → B（CDL-111）：GameUI視界 = E-01/E-02後日常[NC]首次出現（非戰鬥情境）
+- Q5 → DROPPED（CDL-112）：haruka.md habit #6「規律節拍控制」取消
 
 ## Completed This Round (Round 011 — 2026-03-31 Story Room Source-Check + Q1-Q8)
 - [x] Round 011 source-check完成：從ACT_I_OUTLINE v1.5 + CDL-100前各決定中發現8個新問題

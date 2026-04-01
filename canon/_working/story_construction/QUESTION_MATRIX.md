@@ -53,6 +53,16 @@
 | M031 | 晴香「絕對共感視界」GameUI 首次出現時機 | World Rule / Reveal | Information / Reveal Control | haruka.md habit #3：晴香能看到 GameUI（血條/情緒圖標），誤以為是「同理心強」；CDL-073：E-02 Reality Show A+B+假數值系統；E-01/E-02 有戰鬥場景 | haruka.md；CDL-073；ACT_I_OUTLINE.md E-01/E-02 | NEEDS_AUTHOR_INPUT | GameUI 首次出現時機決定觀眾對 Reality Show 機制的第一印象；晴香誤解UI為同理心是 Act I 最重要的主題「錯誤解讀」之一 | 設計E-01 beat後發現「晴香怎麼看到血條」無解釋 | Yes | 晴香能看到其他人看不到的「遊戲 UI」（血條/情緒圖標），她誤以為是自己同理心強——這個能力是什麼時候第一次出現在 Act I？ | A: E-01 第一次變身後立即出現（變身 = 創世者特權啟動）| B: 在 [NC] 場景中首次被晴香注意到（日常情況下突然看到某個人的血條）| C: 早在 E-01 之前就有（是幽靈重量症狀的一部分，但晴香以為是普通同理心）| A: 與變身/魔法少女契約強綁定；最清晰；Reality Show 機制在 E-02 前已視覺化 | B: 更日常化；幽靈重量+UI同時積累；觀眾有更多看晴香「誤解自己」的機會 | C: Act I 前就有 = 秋穗暗中監控的一部分；UI 係晴香的底層能力而非後天獲得 | E-01/E-02 Beat Sheet GameUI 視覺設計；Reality Show 主題的觀眾引導時機 | Medium |
 | M032 | 彩「打亂晴香節奏」Act I 植入設計 | Character / Setup | Setup / Payoff | haruka.md habit #6：晴香有「規律節拍控制」習慣（上學時間/午餐/放學路線的強迫執著）；「被彩打亂節奏時防線即開始瓦解」；現有 Act I 設計：CDL-082「下次呢？」（彩極度認真追問）+ CDL-081天台午餐打翻飯盒——係咪足夠呈現彩破壞晴香節奏的植入？ | haruka.md；CDL-081/082；ACT_I_OUTLINE.md E-01/[NC] | NEEDS_AUTHOR_INPUT | 節奏破壞 = 彩對晴香心理防線的獨特威力；Act I 植入深度決定 Act III 彩揭露後「所有破壞都是設計好的」的情感衝擊 | 彩節奏破壞植入太少 = Act III 情感衝擊力弱 | Yes | 晴香有強迫性的「規律節奏控制」作為情緒防禦機制，彩打亂她的節奏時晴香的防線就開始瓦解——Act I 目前有「下次呢？」和「天台午餐打翻飯盒」這兩個場景，是否足夠？還是需要更多節奏破壞場景？ | A: 現有設計已足夠（「下次呢？」+ 天台打翻飯盒；Act I 保持輕量）| B: 需要 1-2 個額外 [NC] 節奏破壞場景（例如彩突然改變晴香熟悉的放學路線；或在晴香聽歌放鬆時突然插話打斷）| C: 需要將「節奏破壞」設計成 Act I 的視覺主題（每次彩出場都有一個具體的晴香節奏被打亂的細節）| A: 輕量設計；Beat Sheet工作量少；現有場景足夠種子 | B: 節奏主題更清晰；1-2個额外場景可用已有的 [NC] 框架 | C: 彩×晴香的關係語言最豐富；但設計工作量大；可能過於刻意 | 彩的 [NC] 互動場景設計；Act III 節奏破壞揭露的情感前置質量 | Medium |
 
+## Round 012 Resolution Log（2026-04-01）
+M028~M032 全部 RESOLVED：
+| Matrix ID | QID | Author Answer | CDL |
+|---|---|---|---|
+| M028 | QQ-36 | A + Glitch Form：Act I 全程貓形態魔法防護；Act II Glitch Form（冰藍色人類少女殘影）首次；Act III 真實肉身突破 | CDL-108 |
+| M029 | QQ-37 | B：美夜子E-01現場危急交予晴香裝置（「用它！」） | CDL-109 |
+| M030 | QQ-38 | A：1-2個[NC]茶餐廳輕量出場；血糖手錶道具；模仿花子語調；微小破綻；輔助NPC | CDL-110 |
+| M031 | QQ-39 | B：E-01/E-02後日常[NC]首次出現（非戰鬥情境）；誤以為強烈同理心 | CDL-111 |
+| M032 | QQ-40 | DROPPED：haruka.md habit #6「規律節拍控制」取消；CDL-081/082保留但不依附此habit | CDL-112 |
+
 ## Angle Status Labels
 - SOURCE_SUPPORTED
 - INFERRED

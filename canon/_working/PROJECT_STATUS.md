@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Act I Outline v1.6 待批核；Round 011 全部完成（CDL-100~107）
-- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.6 Draft；唯一剩餘 blocker = 作者批核）
-- Current Objective: 作者批核 ACT_I_OUTLINE.md Draft v1.6 → 進入 Act I Beat Sheet
+- Current Mode: STORY_ROOM — Act I Outline v1.7 待批核；Round 012 全部完成（CDL-108~112）
+- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.7 Draft；唯一剩餘 blocker = 作者批核）
+- Current Objective: 作者批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-03-31
+- Last Stable Updated At: 2026-04-01
 
 ## Last Stable Completed Step
 - Round 010 Writeback完成（2026-03-30）：CDL-051~099全部寫回 atom files + series files
@@ -18,6 +18,13 @@
   - 美夜子記憶消除能力定案：B（個人有限，Unit 01殘響）
   - 黑奏接管原則重構：目的驅動（非次數計數）
 
+## New Canon This Round（Round 012，2026-04-01）
+- **美夜子 Act I = 全程貓形態魔法防護 + Act II Glitch Form框架**（CDL-108）：冰藍色人類少女殘影；三階段設計（貓→Glitch→真實突破）
+- **晴香裝置獲得 = 美夜子E-01現場緊急交予**（CDL-109）：「用它！」；具體交付方式 btd
+- **秋穗 Act I = 茶餐廳1-2個[NC]，血糖手錶道具，輔助NPC定位**（CDL-110）：模仿花子語調；微小破綻；暗中守護+監控
+- **晴香GameUI視界 = E-01/E-02後日常[NC]首次出現**（CDL-111）：非戰鬥情境；誤以為係強烈同理心
+- **haruka.md habit #6「規律節拍控制」DROPPED**（CDL-112）：現有CDL-081/082保留但不依附此habit
+
 ## New Canon This Round（Round 011，2026-03-31）
 - **[SQ-A]桐生健 = E-01 Immediate Epilogue**（CDL-100）：三人動態一氣呵成；SOP邏輯+膠布種子最強時機
 - **E-XX觸發 = E-04後[NC]緩衝，獨處崩潰型**（CDL-101）：後勁型爆發；延遲型情緒語法
@@ -29,15 +36,10 @@
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
 
 ## Current Blockers
-- **⚠ 作者批核 ACT_I_OUTLINE.md Draft v1.6**（阻塞 Beat Sheet）
-- **QQ-36~QQ-40（Round 012）**：5條問題已落檔，等待作者回答
-  - QQ-36：美夜子貓形態戰鬥機制 ⭐ HIGH
-  - QQ-37：晴香裝置獲得方式 ⭐ HIGH
-  - QQ-38：秋穗 Act I 茶餐廳出場設計 ⭐ HIGH（Outline 完全無提及，akiho.md 確認她 Act I 存在）
-  - QQ-39：晴香 GameUI 視界首次出現時機 ☆ MEDIUM
-  - QQ-40：彩節奏破壞植入充分度 ☆ MEDIUM
+- **⚠ 作者批核 ACT_I_OUTLINE.md Draft v1.7**（阻塞 Beat Sheet）
 - QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（唔阻塞批核）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
+- **Writeback待執行**：haruka.md habit #6 刪除（CDL-112；非阻塞項）
 
 ## All Round 008 Questions: RESOLVED
 - ✅ QQ-20 RESOLVED（白銀朔 = 夜區影子過場，CDL-090）
