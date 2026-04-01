@@ -1,10 +1,29 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.7 待批核**；Round 012 全部完成（QQ-36~40 RESOLVED，CDL-108~112落檔）
+- Phase 12 (Act I Outline) — **DRAFT v1.7 待批核**；Round 013 問題已落檔（QQ-41~45，2026-04-02）
 
 ## Current Objective
-- 作者批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
+- 作者回答 QQ-41~43（HIGH）+ 批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
+
+## Completed This Round (Round 013 — 2026-04-02 問題落檔)
+- [x] ACT_I_OUTLINE.md v1.7 全文 source-check
+- [x] 識別 5 個設計缺口（M033~M037）：[SQ-A]行為邏輯 / 血糖手錶Payoff / 秋穗揭露timing / 幽靈症狀vs夕噪訊原則 / 彩行為植入次數
+- [x] QUESTION_QUEUE.md 新增 QQ-41~45（全部 BLOCKED）
+- [x] PROJECT_STATUS.md 更新
+- [x] SESSION_LEDGER.md 更新（本文件）
+- [x] NEXT_ACTION.md 更新
+- [ ] **待作者回答**：QQ-41~45（Round 013）
+- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.7
+- [ ] **QUESTION_MATRIX.md 待更新**：新增 M033~M037（等作者回答後更新）
+- [ ] **Writeback待執行**：haruka.md habit #6 刪除（CDL-112）
+
+## Round 013 Questions Summary（待作者回答）
+- QQ-41：[SQ-A]晴香阻止美夜子的行為邏輯（A:純直覺 / B:視覺提示推斷 / C:E-01已有能力提示）⭐ HIGH
+- QQ-42：血糖手錶後續Payoff設計（A:Act III揭露 / B:較早揭露 / C:btd）⭐ HIGH
+- QQ-43：秋穗真實身份揭露時機（A:Act II中期 / B:Act III同期 / C:觀眾先知）⭐ HIGH
+- QQ-44：幽靈症狀vs夕噪訊觀眾感知原則（A:混成一層 / B:兩套視覺語言 / C:btd）☆ MEDIUM
+- QQ-45：彩「下次呢？」Act I植入次數（A:一次已足夠 / B:需1個額外觸發 / C:每次出場都觸發）☆ MEDIUM
 
 ## Completed This Round (Round 012 — 2026-04-01 全部完成)
 - [x] Source-check 讀了 haruka.md / miyako.md / akiho.md

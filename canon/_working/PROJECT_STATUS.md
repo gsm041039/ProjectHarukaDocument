@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Act I Outline v1.7 待批核；Round 012 全部完成（CDL-108~112）
-- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.7 Draft；唯一剩餘 blocker = 作者批核）
-- Current Objective: 作者批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
+- Current Mode: STORY_ROOM — Act I Outline v1.7 待批核；Round 013 問題已落檔（QQ-41~45）
+- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.7 Draft；待作者回答Round 013問題+批核）
+- Current Objective: 作者回答QQ-41~43（HIGH）+ 批核ACT_I_OUTLINE.md Draft v1.7 → 進入Act I Beat Sheet
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-01
+- Last Stable Updated At: 2026-04-02
 
 ## Last Stable Completed Step
 - Round 010 Writeback完成（2026-03-30）：CDL-051~099全部寫回 atom files + series files
@@ -37,6 +37,12 @@
 
 ## Current Blockers
 - **⚠ 作者批核 ACT_I_OUTLINE.md Draft v1.7**（阻塞 Beat Sheet）
+- **QQ-41~QQ-45（Round 013，2026-04-02）**：5條問題等待作者回答
+  - QQ-41：[SQ-A]晴香阻止行為邏輯 ⭐ HIGH
+  - QQ-42：血糖手錶Payoff設計 ⭐ HIGH
+  - QQ-43：秋穗真實身份揭露時機 ⭐ HIGH
+  - QQ-44：幽靈症狀vs夕噪訊觀眾感知原則 ☆ MEDIUM
+  - QQ-45：彩「下次呢？」Act I植入次數 ☆ MEDIUM
 - QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（唔阻塞批核）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
 - **Writeback待執行**：haruka.md habit #6 刪除（CDL-112；非阻塞項）

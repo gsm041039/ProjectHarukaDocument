@@ -27,6 +27,15 @@
 | QQ-18 | 操+朱音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；朱音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 朱音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 朱音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
 | QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
+## Round 013 Questions（2026-04-02 — 等待作者回答）
+| QID | Topic | Related Matrix IDs / Source Basis | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| QQ-41 | [SQ-A] 晴香阻止美夜子消除桐生健記憶的行為邏輯 | M033；CDL-088/091/103 | High | BLOCKED | Act I Beat Sheet（[SQ-A]場景設計）| 天台說明係次日（CDL-103），但[SQ-A]在E-01當日——晴香未被正式告知美夜子有記憶消除能力，憑什麼阻止？ | A:純直覺/本能，感受到「不對」就阻止 / B:美夜子準備動作有視覺提示，晴香視覺推斷 / C:E-01戰鬥中已有某種能力提示，晴香有粗略概念 | — | 解鎖[SQ-A]場景Beat Sheet執行；晴香台詞寫法方向；美夜子能力首次可見時機 | Act I Beat Sheet | 2026-04-02 |
+| QQ-42 | 血糖手錶（秋穗Act I道具）的後續Payoff設計 | M034；CDL-110；Layer 3 Plant-A/B | High | BLOCKED | Act II/III Outline 前 | 秋穗在Act I茶餐廳給晴香「情緒增幅器監控裝置（血糖手錶）」，Layer 3 Plant表有記錄，但完全無Payoff設計——這個道具後來怎樣？ | A:Act I-II持續被動監控，Act III揭露 / B:Act I/II某事件令晴香察覺異常，較早揭露 / C:細節btd（Beat Sheet決定）| — | 解鎖Layer 3 Plant-B新條目；秋穗×晴香揭露設計；Act II/III秋穗戲份 | Act II Outline 前 | 2026-04-02 |
+| QQ-43 | 秋穗真實身份揭露的時機與性質 | M035；CDL-110；QQ-04；akiho.md | High | BLOCKED | Act II/III Outline 前 | 秋穗Act I是「溫暖阿姨+暗中守護監控」，但她的真實身份（情緒裝置研發者）和監控行為何時被揭露？現在跨幕設計完全空白（QQ-04係退場事件，不同於身份揭露）| A:Act II中期觸發事件揭露 / B:Act III與其他大揭露同期引爆 / C:觀眾先知晴香後知（旁觀者焦慮感設計）| — | 解鎖Act II/III秋穗戲份設計；血糖手錶Payoff；Layer 3植入補充 | Act II Outline 前 | 2026-04-02 |
+| QQ-44 | 幽靈症狀與夕噪訊的觀眾感知設計原則 | M036；CDL-038/085/096 | Medium | BLOCKED | Act I Beat Sheet（[NC]設計）| Act I的[NC]有兩種「晴香感到異常」：①幽靈重量症狀（詛咒本身）②夕噪訊（妒嫉引發情緒衝動）。現在設計說「雙層遮蔽全部歸因為夕干擾」，但觀眾設計原則是否刻意混淆兩者，還是有視覺語言區分？ | A:全部混成一層（觀眾/晴香無法區分）Act III揭露衝擊最大 / B:幽靈症狀一套視覺語言，夕噪訊另一套，觀眾看到兩層晴香看到一層 / C:現有設計已足夠，詳細留Beat Sheet決定 | — | 解鎖[NC]場景視覺語言設計原則；Act III揭露前置設計 | Act I Beat Sheet | 2026-04-02 |
+| QQ-45 | 彩「下次呢？」行為在Act I的植入次數 | M037；CDL-082/112；Layer 3 Plant-A（CDL-075）| Medium | BLOCKED | Act I Beat Sheet（彩[NC]設計）| habit#6（節奏破壞）已DROPPED（CDL-112）。現在Act I只有一次「下次呢？」植入（CDL-082，E-01後日常）。Act III/IV payoff需要觀眾記住此行為模式——一次Plant是否足夠？ | A:一次已足夠，設計精準觀眾記得住 / B:需要1個額外觸發（不同情境）令行為模式成立 / C:每次彩出場都觸發（最強密度但風險過早暗示異常）| — | 解鎖彩Act I [NC]場景設計；Act III/IV最深心痛payoff前置確認 | Act I Beat Sheet | 2026-04-02 |
+
 ## Round 012 Questions（2026-03-31 — ✅ 全部完成 2026-04-01）
 | QID | Topic | Status | Author Answer | CDL Ref |
 |---|---|---|---|---|
