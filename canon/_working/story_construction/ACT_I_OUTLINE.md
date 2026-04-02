@@ -1,5 +1,5 @@
 # ACT I OUTLINE
-**[DRAFT v1.7 — PENDING AUTHOR APPROVAL]**
+**[APPROVED v1.7 — 2026-04-02]**
 Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author gate answers
 三層結構：Layer 1 主 beats / Layer 2 媒介標籤 / Layer 3 跨幕埋位
 
@@ -189,6 +189,8 @@ Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author g
 | E-1.5/[NC] | 黑奏存在本身（Act I無說明誕生原因）| Act III | 黑奏誕生真相揭露：「螢死亡當夜6歲的彩人格分裂，黑奏從彩的創傷中誕生」（CDL-076/099）= 全劇最大情感反轉之一；Act I所有黑奏「高傲保護」行為的意義全面翻轉 | `[AC]`（CDL-076/099）|
 | [SQ-A] | 桐生健手臂傷口 + 晴香貼膠布說「痛係證據」+ 退色貓仔膠布（CDL-088）| Act III/IV | 第2次改變現實幻象（CDL-093）：夕沉溺完美Alpha幻象，桐生健摸退色膠布說「痛係證據...醒啦，唔好忘記妳受過嘅傷」→ 幻象崩解；三位一體終極論證（凡人態度在神級魔法中引發奇蹟）；膠布哲學三層閉環完成 | `[AC]`（CDL-088/093）|
 
+| [NC] Act I（茶餐廳） | 秋穗以「阿姨維護日常戰鬥裝備」名義改裝血糖手錶 CGM，加裝後門（CDL-114）；Act I觀眾/晴香只看到「溫暖NPC幫換更好的裝置」 | Act II中期→Act II末E-11a附近 | Act II中期：手錶在純情緒崩潰（非物理戰鬥）時異常閃爍/傳輸信號微光（Foreshadowing）；Act II末E-11a：傳輸被朔/美夜子截獲→晴香對質秋穗→三層坦白（CDL-115）：監控真相+守恆定律真相+愛莉石像動機；Act II最大情感背叛設計 | `[AC]`（CDL-114/115）|
+
 ### Plant-B（payoff `[BK]` — PLACEHOLDER）
 
 | 植入位置 | 植入內容 | 回收位置 | 回收內容 | Status |
@@ -223,7 +225,8 @@ Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author g
 
 ---
 
-*Version: v1.7 Draft | 最後更新 2026-04-01 | [DRAFT — PENDING AUTHOR APPROVAL]*
+*Version: v1.7 | 最後更新 2026-04-02 | [APPROVED 2026-04-02]*
 *Major updates v1.7: 美夜子E-01緊急裝置交付（CDL-109）；E-02貓形態魔法防護說明（CDL-108）；秋穗茶餐廳[NC]+血糖手錶道具（CDL-110）；晴香GameUI視界日常首次出現（CDL-111）*
+*Round 013 Layer 3 新增: 血糖手錶CGM三段Payoff Plant（CDL-114/115）；[SQ-A]晴香阻止邏輯=B視覺提示推斷（CDL-113）；CDL-116（幽靈症狀+夕噪訊混成一層）；CDL-117（彩「下次呢？」共2次植入）*
 *Major updates v1.6: [SQ-A]桐生健=E-01 Immediate Epilogue（CDL-100）；天台使命說明=次日放學後（CDL-103）；E-XX觸發條件=E-04後[NC]緩衝獨處崩潰（CDL-101）；E-XX收結=偽溫暖隊伍畫面（CDL-102）；[NC]靈活框架（CDL-104）；美夜子[NC]對話裂縫（CDL-105）；朔夜區=[SQ]可選（CDL-106）；紗夜=電話形式（CDL-107）*
 *上一層：FULL_STORY_ROUGH_OUTLINE_V2.md | 下一層：Act I Beat Sheet*

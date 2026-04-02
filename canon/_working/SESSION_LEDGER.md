@@ -1,29 +1,53 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 12 (Act I Outline) — **DRAFT v1.7 待批核**；Round 013 問題已落檔（QQ-41~45，2026-04-02）
+- Phase 13 (Act I Beat Sheet) — **Round 014 全部完成（2026-04-02）**；QQ-46~50 RESOLVED，CDL-118~122落檔；Beat Sheet 前置 source check 全部清除，Phase 13 可正式開始
 
 ## Current Objective
-- 作者回答 QQ-41~43（HIGH）+ 批核 ACT_I_OUTLINE.md Draft v1.7 → 進入 Act I Beat Sheet
+- 進入 Act I Beat Sheet 逐場景設計（Phase 13）— 前置全部就緒
 
-## Completed This Round (Round 013 — 2026-04-02 問題落檔)
-- [x] ACT_I_OUTLINE.md v1.7 全文 source-check
-- [x] 識別 5 個設計缺口（M033~M037）：[SQ-A]行為邏輯 / 血糖手錶Payoff / 秋穗揭露timing / 幽靈症狀vs夕噪訊原則 / 彩行為植入次數
-- [x] QUESTION_QUEUE.md 新增 QQ-41~45（全部 BLOCKED）
-- [x] PROJECT_STATUS.md 更新
+## Completed This Round (Round 014 — 2026-04-02 全部完成)
+- [x] ACT_I_OUTLINE.md v1.7 × HARD_CONSTRAINTS_TABLE 全域 source check
+- [x] 識別 4個 source-level blockers（HC-2e奪舍/HC-2f vs CDL-048/HC-5c膠布第二層/情緒連結深度）+ 1個 Beat Sheet設計項（CDL-117第二觸發）
+- [x] 5條作者問題（QQ-46~50）設計並全部作者回答
+- [x] CDL-118~122 落檔（5個新確認決定）
+- [x] QUESTION_QUEUE.md 更新（Round 014 section新增）
+- [x] CANON_DECISION_LOG.md 更新（CDL-118~122）
 - [x] SESSION_LEDGER.md 更新（本文件）
-- [x] NEXT_ACTION.md 更新
-- [ ] **待作者回答**：QQ-41~45（Round 013）
-- [ ] **待作者批核**：ACT_I_OUTLINE.md Draft v1.7
-- [ ] **QUESTION_MATRIX.md 待更新**：新增 M033~M037（等作者回答後更新）
+- [ ] **PROJECT_STATUS.md 待更新**
+- [ ] **NEXT_ACTION.md 待更新**
+- [ ] **QUESTION_MATRIX.md 待更新**：M033~M037 Resolution Log（Round 013/014）
 - [ ] **Writeback待執行**：haruka.md habit #6 刪除（CDL-112）
+- [ ] **Writeback待執行**：葡萄糖注射槍 + CGM系統 source gap → gameplay_bible + entities
 
-## Round 013 Questions Summary（待作者回答）
-- QQ-41：[SQ-A]晴香阻止美夜子的行為邏輯（A:純直覺 / B:視覺提示推斷 / C:E-01已有能力提示）⭐ HIGH
-- QQ-42：血糖手錶後續Payoff設計（A:Act III揭露 / B:較早揭露 / C:btd）⭐ HIGH
-- QQ-43：秋穗真實身份揭露時機（A:Act II中期 / B:Act III同期 / C:觀眾先知）⭐ HIGH
-- QQ-44：幽靈症狀vs夕噪訊觀眾感知原則（A:混成一層 / B:兩套視覺語言 / C:btd）☆ MEDIUM
-- QQ-45：彩「下次呢？」Act I植入次數（A:一次已足夠 / B:需1個額外觸發 / C:每次出場都觸發）☆ MEDIUM
+## Confirmed Author Decisions（Round 014，2026-04-02）
+- QQ-46 → timing確認（CDL-118）：奪舍示範場景 = E-02後某事件中間的小事件；具體位置 btd
+- QQ-47 → A（CDL-119）：四人協議 = 自然停止，無點頭場景；各人「死人面」式震驚
+- QQ-48 → B（CDL-120）：膠布哲學第二層（朱音批判台詞）= E-04後[NC]緩衝段
+- QQ-49 → C（CDL-121）：情緒連結 = 情緒海嘯+觀眾視角Flash；3個Flash確認；晴香防護機制確認
+- QQ-50 → B+C（CDL-122）：彩「下次呢？」第二觸發 = 爽約+半私密；完整場景設計確認
+
+## Completed This Round (Round 013 — 2026-04-02 全部完成)
+- [x] ACT_I_OUTLINE.md v1.7 全文 source-check
+- [x] 10_gameplay_bible.md / akiho.md / 01_world_rules / 02_glossary source-check
+- [x] Source gap 確認：葡萄糖注射槍 + CGM系統 = backup/03_Worldview_Setting.md（未遷canon）
+- [x] 識別 5 個設計缺口（M033~M037），QQ-41~45全部RESOLVED
+- [x] CDL-113~117 落檔（5個新確認決定）
+- [x] ACT_I_OUTLINE.md v1.7 APPROVED + Layer 3 Plant-A 新增血糖手錶三段payoff（CDL-114/115）
+- [x] QUESTION_QUEUE.md 更新（QQ-41~45 全部 RESOLVED）
+- [x] SESSION_LEDGER.md 更新（本文件）
+- [x] PROJECT_STATUS.md 更新（待本輪結束後執行）
+- [x] NEXT_ACTION.md 更新（待本輪結束後執行）
+- [ ] **QUESTION_MATRIX.md 待更新**：M033~M037 新增 resolution rows
+- [ ] **Writeback待執行**：haruka.md habit #6 刪除（CDL-112）
+- [ ] **Writeback待執行**：葡萄糖注射槍 + CGM系統 source gap → gameplay_bible + entities
+
+## Confirmed Author Decisions（Round 013，2026-04-02）
+- QQ-41 → B（CDL-113）：[SQ-A]晴香阻止 = 視覺提示推斷（美夜子動作可見，晴香本能推斷阻止）
+- QQ-42 → CGM整合方案（CDL-114）：血糖手錶 = CGM戰鬥必備裝備（血糖值=MP）+ 秋穗後門（情感數據傳輸）；三段payoff Act I→Act II中→Act II末E-11a
+- QQ-43 → A（CDL-115）：秋穗身份揭露 = Act II末E-11a，情緒毒品危機；三層坦白；akiho.md source確認
+- QQ-44 → A（CDL-116）：幽靈症狀+夕噪訊 = 全部混成一層；觀眾/晴香同樣無法區分
+- QQ-45 → B（CDL-117）：彩「下次呢？」共2次植入；第二次位置 = Beat Sheet [NC]確認
 
 ## Completed This Round (Round 012 — 2026-04-01 全部完成)
 - [x] Source-check 讀了 haruka.md / miyako.md / akiho.md

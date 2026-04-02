@@ -1,22 +1,28 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Act I Outline v1.7 待批核；Round 013 問題已落檔（QQ-41~45）
-- Active Topic / Section: Phase 12 — Act I Outline（Outline v1.7 Draft；待作者回答Round 013問題+批核）
-- Current Objective: 作者回答QQ-41~43（HIGH）+ 批核ACT_I_OUTLINE.md Draft v1.7 → 進入Act I Beat Sheet
+- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）；Round 014 全部完成（CDL-118~122）；Beat Sheet前置source check全部清除
+- Active Topic / Section: Phase 13 — Act I Beat Sheet（逐beat場景設計正式開始）
+- Current Objective: 進入 Act I Beat Sheet 逐場景設計（E-01開始）
 - Resume Confidence: HIGH
 - Last Stable Updated At: 2026-04-02
 
 ## Last Stable Completed Step
-- Round 010 Writeback完成（2026-03-30）：CDL-051~099全部寫回 atom files + series files
-- Round 009 Round 008 Q1-Q8全部回答處理（2026-03-30）：
-  - CDL-089：燈塔效應揭示時機（暗示+明示兩階段）
-  - CDL-090~098新增（Round 009，9個確認決定）
-  - QQ-20~27全部RESOLVED（QQ-26 DEFERRED框架重構）
-  - NEW STORY ELEMENT：桐生健出現第2次改變現實幻象（CDL-093）
-  - 白銀朔Act I定案：學校無朔；夜區影子過場；Act II既視感追認
-  - 美夜子記憶消除能力定案：B（個人有限，Unit 01殘響）
-  - 黑奏接管原則重構：目的驅動（非次數計數）
+- Round 014 完成（2026-04-02）：QQ-46~50全部RESOLVED；CDL-118~122落檔；Beat Sheet前置source-level blockers全部清除
+
+## New Canon This Round（Round 014，2026-04-02）
+- **奪舍示範場景（HC-2e）時機確認**（CDL-118）：E-02首戰後某事件中間的小事件；HC-2e時序約束滿足；具體位置 btd Beat Sheet
+- **四人協議 = 自然停止，無點頭場景**（CDL-119）：各人「死人面」式震驚；CDL-048確認；晴香 Act II 拒絕共振計劃根源=個人記憶恐懼感
+- **膠布哲學第二層（朱音批判台詞）= E-04後[NC]緩衝段**（CDL-120）：HC-5c順序確認
+- **情緒連結交叉感染 = 情緒海嘯+觀眾視角Flash**（CDL-121）：3個Flash確認（朱音細佬/操手術室/美夜子目睹凜）；晴香防護機制（罪疚感深淵+紅黑雜訊）確認；Act IV共振地獄前置最深根源確立
+- **彩「下次呢？」第二觸發 = 爽約+半私密**（CDL-122）：場景設計確認；位置=E-02/E-03後某[NC]
+
+## New Canon This Round（Round 013，2026-04-02）
+- **[SQ-A]晴香阻止行為邏輯 = B（視覺提示推斷）**（CDL-113）：美夜子動作有視覺提示，晴香本能阻止；創世者直覺種子
+- **血糖手錶 CGM 整合系統 + 秋穗後門設計**（CDL-114）：血糖值=MP；秋穗後門=情感數據實時傳輸；三段payoff（Act I植→Act II中→Act II末E-11a）；葡萄糖注射槍=source gap候選
+- **秋穗身份揭露 = Act II末E-11a，情緒毒品危機**（CDL-115）：朔/美夜子截獲手錶傳輸；三層坦白；akiho.md source確認
+- **幽靈症狀+夕噪訊 = 全部混成一層**（CDL-116）：觀眾/晴香無法區分；Act III揭露衝擊最大
+- **彩「下次呢？」= 共2次植入**（CDL-117）：B，需1個額外觸發（不同情境）；第二次位置 btd Beat Sheet
 
 ## New Canon This Round（Round 012，2026-04-01）
 - **美夜子 Act I = 全程貓形態魔法防護 + Act II Glitch Form框架**（CDL-108）：冰藍色人類少女殘影；三階段設計（貓→Glitch→真實突破）
@@ -36,16 +42,10 @@
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
 
 ## Current Blockers
-- **⚠ 作者批核 ACT_I_OUTLINE.md Draft v1.7**（阻塞 Beat Sheet）
-- **QQ-41~QQ-45（Round 013，2026-04-02）**：5條問題等待作者回答
-  - QQ-41：[SQ-A]晴香阻止行為邏輯 ⭐ HIGH
-  - QQ-42：血糖手錶Payoff設計 ⭐ HIGH
-  - QQ-43：秋穗真實身份揭露時機 ⭐ HIGH
-  - QQ-44：幽靈症狀vs夕噪訊觀眾感知原則 ☆ MEDIUM
-  - QQ-45：彩「下次呢？」Act I植入次數 ☆ MEDIUM
-- QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（唔阻塞批核）
+- QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（Beat Sheet開始時逐場景確認）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
 - **Writeback待執行**：haruka.md habit #6 刪除（CDL-112；非阻塞項）
+- **Writeback待執行**：葡萄糖注射槍 + CGM系統詳細數值 → gameplay_bible + entities（source gap修補，CDL-114；非阻塞項）
 
 ## All Round 008 Questions: RESOLVED
 - ✅ QQ-20 RESOLVED（白銀朔 = 夜區影子過場，CDL-090）

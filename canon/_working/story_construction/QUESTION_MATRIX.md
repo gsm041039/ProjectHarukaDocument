@@ -63,6 +63,26 @@ M028~M032 全部 RESOLVED：
 | M031 | QQ-39 | B：E-01/E-02後日常[NC]首次出現（非戰鬥情境）；誤以為強烈同理心 | CDL-111 |
 | M032 | QQ-40 | DROPPED：haruka.md habit #6「規律節拍控制」取消；CDL-081/082保留但不依附此habit | CDL-112 |
 
+## Round 013 Resolution Log（2026-04-02）
+QQ-41~45 RESOLVED（無正式 M-rows 預建，本輪補記）：
+| Matrix ID | QID | Topic | Author Answer | CDL |
+|---|---|---|---|---|
+| M033 | QQ-41 | [SQ-A]晴香阻止美夜子消除記憶行為邏輯 | B：美夜子動作有視覺提示，晴香視覺推斷本能阻止；創世者直覺種子 | CDL-113 |
+| M034 | QQ-42 | 血糖手錶Payoff設計 | CGM整合：血糖值=MP；秋穗後門=情感數據傳輸；三段payoff軌跡 | CDL-114 |
+| M035 | QQ-43 | 秋穗身份揭露時機 | A：Act II末E-11a；朔/美夜子截獲手錶傳輸；三層坦白 | CDL-115 |
+| M036 | QQ-44 | 幽靈症狀+夕噪訊觀眾感知設計 | A：全部混成一層；觀眾/晴香同樣無法區分；Act III揭露衝擊最大 | CDL-116 |
+| M037 | QQ-45 | 彩「下次呢？」植入次數 | B：需1個額外觸發（不同情境）；共2次；第二次位置btd | CDL-117 |
+
+## Round 014 Resolution Log（2026-04-02）
+QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
+| Matrix ID | QID | Topic | Author Answer | CDL |
+|---|---|---|---|---|
+| M038 | QQ-46 | 奪舍示範場景（HC-2e）位置 | PARTIALLY：E-02後某事件中間的小事件；HC-2e時序滿足；具體beat btd | CDL-118 |
+| M039 | QQ-47 | 四人協議：有冇點頭場景 | A：自然停止，無點頭場景；各人「死人面」式震驚；CDL-048確認 | CDL-119 |
+| M040 | QQ-48 | 膠布哲學第二層位置 | B：E-04後[NC]緩衝段；HC-5c順序確認 | CDL-120 |
+| M041 | QQ-49 | 情緒連結交叉感染深度 | C：情緒海嘯+觀眾視角Flash（3瞬間：朱音細佬/操手術室/美夜子目睹凜）；晴香防護=罪疚感深淵+紅黑雜訊；Act IV共振前置確立 | CDL-121 |
+| M042 | QQ-50 | 彩「下次呢？」第二觸發情境 | B+C：爽約觸發+半私密感；完整場景設計確認；位置=E-02/E-03後某[NC] | CDL-122 |
+
 ## Angle Status Labels
 - SOURCE_SUPPORTED
 - INFERRED
