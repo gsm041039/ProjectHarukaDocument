@@ -1,14 +1,20 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**開始 Act I Beat Sheet 設計（Phase 13）— E-01 首個場景**
+**回答 QQ-51（E-03 操「手術室」Flash 具體事件）→ 然後開始 Act I Beat Sheet 設計（E-01）**
 
-前置條件：✅ 全部完成
-- ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）
-- Round 013 全部完成（QQ-41~45 RESOLVED，CDL-113~117落檔）
-- Round 014 全部完成（QQ-46~50 RESOLVED，CDL-118~122落檔）
-- Beat Sheet 前置 source check 全部清除（HC-2e/HC-2f/HC-5c矛盾解決；情緒連結深度確認）
-- 所有 state files 更新完成
+前置條件：
+- ✅ ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）
+- ✅ Round 013/014 全部完成（QQ-41~50 RESOLVED，CDL-113~122落檔）
+- ✅ Beat Sheet 前置矛盾掃描完成（Round 015，2026-04-02）
+- ✅ E-01~E-02.5 全部 beats 無 blocker（可直接開始設計）
+- ⬜ QQ-51：E-03 操「手術室」Flash 具體事件 — **待作者回答**
+  - 選項 A: 帝國植入程序（控制裝置/情緒採集器植入）
+  - 選項 B: 家族強制醫療程序（Beta-線，非生殖器官）
+  - 選項 C: Alpha-線 創傷事件（行乞時期強制醫療）
+  - 選項 D: 作者自訂（說明觸發者/目的/時間線）
+
+**建議啟動方式**：可先開始 E-01 → E-02.5 設計（不受 QQ-51 影響），QQ-51 答案到後補完 E-03。
 
 ## Beat Sheet 工作範圍（Phase 13 預覽）
 

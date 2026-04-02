@@ -1,0 +1,4 @@
+interface:
+  display_name: "Story Resume"
+  short_description: "Resume story workflow state safely"
+  default_prompt: "Use $story-resume to recover the current story workflow state and give me the next safe step."

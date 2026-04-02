@@ -73,6 +73,12 @@ QQ-41~45 RESOLVED（無正式 M-rows 預建，本輪補記）：
 | M036 | QQ-44 | 幽靈症狀+夕噪訊觀眾感知設計 | A：全部混成一層；觀眾/晴香同樣無法區分；Act III揭露衝擊最大 | CDL-116 |
 | M037 | QQ-45 | 彩「下次呢？」植入次數 | B：需1個額外觸發（不同情境）；共2次；第二次位置btd | CDL-117 |
 
+## Round 015 新增（2026-04-02 — Beat Sheet 前矛盾掃描）
+QQ-51 BLOCKED：12角度分析已在本輪呈現：
+| Matrix ID | QID | Topic | Status | Blocker / Notes |
+|---|---|---|---|---|
+| M043 | QQ-51 | E-03 操「手術室」Flash 具體事件 | BLOCKED | CDL-121 vs CDL-005 矛盾；ayakomoji_misao.md 無任何手術事件記載；父親「交給帝國」= Act III事件，Flash時機矛盾；需作者定義事件性質/觸發者/時間線 |
+
 ## Round 014 Resolution Log（2026-04-02）
 QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 | Matrix ID | QID | Topic | Author Answer | CDL |

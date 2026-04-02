@@ -1,14 +1,14 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）；Round 014 全部完成（CDL-118~122）；Beat Sheet前置source check全部清除
-- Active Topic / Section: Phase 13 — Act I Beat Sheet（逐beat場景設計正式開始）
-- Current Objective: 進入 Act I Beat Sheet 逐場景設計（E-01開始）
+- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.7 APPROVED；Round 015 矛盾掃描完成（2026-04-02）；1個新BLOCKED（QQ-51）；E-01~E-02.5可立即開始；E-03需QQ-51答案
+- Active Topic / Section: Phase 13 — Act I Beat Sheet（等待QQ-51答案後繼續）
+- Current Objective: 作者回答 QQ-51（操手術室Flash）→ 進入 E-01 Beat Sheet 設計
 - Resume Confidence: HIGH
 - Last Stable Updated At: 2026-04-02
 
 ## Last Stable Completed Step
-- Round 014 完成（2026-04-02）：QQ-46~50全部RESOLVED；CDL-118~122落檔；Beat Sheet前置source-level blockers全部清除
+- Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
 
 ## New Canon This Round（Round 014，2026-04-02）
 - **奪舍示範場景（HC-2e）時機確認**（CDL-118）：E-02首戰後某事件中間的小事件；HC-2e時序約束滿足；具體位置 btd Beat Sheet
@@ -42,10 +42,13 @@
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
 
 ## Current Blockers
+- **QQ-51（新增，2026-04-02）**：E-03 操「手術室」Flash 具體事件 = BLOCKED（CDL-121確認Flash #2但角色文件空白；CDL-005排除強制性別手術）；阻塞 E-03 Beat Sheet；E-01~E-02.5 不受影響
 - QQ-26：黑奏接管具體場景設計 = DEFERRED至Act I Beat Sheet（Beat Sheet開始時逐場景確認）
 - QQ-03: AKS-S1 + R-7 info architecture（不阻塞 Act I，阻塞 Act II）
+- **HC-5g 缺口**：backup/director/Information_Control_Audience_Experience_Design.md 已不存在；不阻塞 Act I，阻塞 Act II Beat Sheet
 - **Writeback待執行**：haruka.md habit #6 刪除（CDL-112；非阻塞項）
-- **Writeback待執行**：葡萄糖注射槍 + CGM系統詳細數值 → gameplay_bible + entities（source gap修補，CDL-114；非阻塞項）
+- **Writeback待執行**：gameplay_bible + entities CGM/葡萄糖注射槍（CDL-114；非阻塞項）
+- **Writeback待執行**：miyako.md [SQ-A]「指尖亮起」→ cat paw（新發現；非阻塞項）
 
 ## All Round 008 Questions: RESOLVED
 - ✅ QQ-20 RESOLVED（白銀朔 = 夜區影子過場，CDL-090）
