@@ -1,10 +1,23 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 13 (Act I Beat Sheet) — **Round 015 矛盾掃描完成（2026-04-02）**；QQ-51 BLOCKED（操手術室Flash）；E-01~E-02.5 Beat Sheet 可立即開始；E-03 設計前需 QQ-51 答案
+- Phase 13 (Act I Beat Sheet) — **Round 016 00_Story_Brief 編輯補完（2026-04-04）**；QQ-51 BLOCKED（操手術室Flash）；E-01~E-02.5 Beat Sheet 可立即開始；E-03 設計前需 QQ-51 答案
 
 ## Current Objective
 - 回答 QQ-51（操手術室Flash具體事件）→ 然後進入 Act I Beat Sheet 逐場景設計（E-01開始）
+
+## Completed This Round (Round 016 — 2026-04-04 00_Story_Brief編輯補完)
+- [x] 00_Story_Brief.md「為何創作這個故事？」section 編輯
+- [x] 新增「心理學的具現化」subsection（作者回饋：普及心理學、故事具現化、讓觀眾直觀感受）
+- [x] 完成對前期 session user feedback 的實現（psychology popularization concept）
+- [x] 夕character 定位重構：夕的存在本身 = 晴香改變現實時情緒守恆定律所產生的物理代價（不是「也付出代價」，而是「是代價本身」）
+- [x] 黑奏character 目的補充：核心目標 = 復活螢，不惜毀滅世界；強調不惜一切的執念
+- [x] 故事大事件 section 完全重寫：移除技術術語，改成白話情節摘要（首次讀者易懂版本）
+- [x] 主要角色 section 完全重寫：從點陣式結構轉為敘事段落，建立清晰的閱讀邏輯（讀完A就懂B；所有技術標籤整合入段落內容）
+- [x] 主要角色各段落進一步分段：短句長度優化，提升視覺可讀性（每個人物3-5個短段落而非一大塊）
+- [x] 次要角色（綾瀨凜、螢、小光）獨立展開：各自3-4段落，解釋其故事意義（非壓縮列表）
+- [x] 綾瀨凜關係補充：凜想成為歌手 → 被晴香取代 → 成為魔法少女 → 為晴香的夢想付出生命（情緒守恆的具體例子）
+- [x] SESSION_LEDGER.md / PROJECT_STATUS.md 更新
 
 ## Completed This Round (Round 015 — 2026-04-02 矛盾掃描)
 - [x] 全面 source check：ayakomoji_misao.md / HARD_CONSTRAINTS_TABLE.md / CDL-080/084/121 / QUESTION_MATRIX.md M038~M042
