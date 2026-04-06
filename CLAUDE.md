@@ -20,6 +20,22 @@
 - 唔可以令 deferred question 消失
 - 唔可以未更新 state files 就宣稱本輪完成
 
+## ⚠️ 故事寫作 Pipeline（全局不可違反）
+
+```
+Act I Outline → Act II Outline → Act III Outline → Act IV Outline
+        ↓
+Act I Beat Sheet → Act II Beat Sheet → Act III Beat Sheet → Act IV Beat Sheet
+        ↓
+全部 Beat Sheet 完成並批核後，才可以開始寫任何 Section
+```
+
+**硬性規則：**
+- 唔可以因為「某個 Act 的 Beat Sheet 完成了」就開始寫該 Act 的 Section
+- **必須整個故事（全四幕）的 Beat Sheet 全部完成並批核後，才可以開始寫任何 Section**
+- 任何「幫我寫呢個場景/section/腳本」的請求，如果全部 Beat Sheet 未完成，必須拒絕並提示當前 pipeline 狀態
+- 唯一例外：作者明確說「我知道 pipeline 未完成，我想試寫一個草稿看感覺」——此情況下寫出的文字標記為 `[DRAFT ONLY — NOT CANON]`，不進入任何 canon 文件
+
 ## Primary durable files
 - `PROJECT_STATUS.md` = 主 resume anchor / current truth snapshot
 - `SESSION_LEDGER.md` = 本輪與歷史 phase 記錄
