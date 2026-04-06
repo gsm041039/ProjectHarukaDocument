@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.7 APPROVED；Round 016 00_Story_Brief編輯補完（2026-04-04）；1個新BLOCKED（QQ-51）；E-01~E-02.5可立即開始；E-03需QQ-51答案
-- Active Topic / Section: Phase 13 — Act I Beat Sheet（等待QQ-51答案後繼續）
-- Current Objective: 作者回答 QQ-51（操手術室Flash）→ 進入 E-01 Beat Sheet 設計
+- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.8（2026-04-06 補入Beat 0a/0b/0c/0d/IG線）；Round 017 Q1~Q3/Q8~Q10已答（CDL-123~128落檔）；Q4/Q5/Q6待答；QQ-51仍BLOCKED
+- Active Topic / Section: Phase 13 — E-01 Beat Sheet設計（Q4/Q5/Q6待答後可完成E-01設計）
+- Current Objective: 作者回答Q4（欺凌形式）/ Q5（晴香介入觸發點）/ Q6（街道視覺細節）→ 完成E-01 Beat Sheet v0.3
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-04
+- Last Stable Updated At: 2026-04-06
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -40,6 +40,14 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 017，2026-04-06）
+- **E-01當晚獨立beat（CDL-123）**：Beat 0d加入；睡前熱可可習慣→Act II可樂失味前置
+- **浩然=白銀朔確認（CDL-124）**：CDL-090口徑正確；無需新設計
+- **IG線Act I加入[NC]＋世界觀澄清（CDL-125）**：晴香自發IG；潘朵拉協議；社會定位=Reality Show偶像；帝國幕後莊家
+- **秋穗家中聲音型（CDL-126）**：模仿花子語調；聽覺破綻種入
+- **世界觀開場兩段式（CDL-127）**：10秒動畫+玩家控制
+- **幽靈重量呈現（CDL-128）**：視覺+身體+日常藉口；可被否認性原則
 
 ## Current Blockers
 - **QQ-51（新增，2026-04-02）**：E-03 操「手術室」Flash 具體事件 = BLOCKED（CDL-121確認Flash #2但角色文件空白；CDL-005排除強制性別手術）；阻塞 E-03 Beat Sheet；E-01~E-02.5 不受影響
@@ -94,9 +102,14 @@
 - QQ-17（具體設計）: 管家紗夜 Act I 具體場景 btd — Act I Beat Sheet 時確認
 - QQ-26（框架重構）: 黑奏接管具體場景設計 — Act I Beat Sheet（逐場景確認）
 
+## Pending Writeback（不阻塞 Beat Sheet）
+- haruka.md habit #6 刪除（CDL-112）
+- gameplay_bible + entities CGM/葡萄糖注射槍（CDL-114）
+- miyako.md [SQ-A]「指尖亮起」→ cat paw（新發現）
+- canon/01_world_rules_and_costs.md 補充潘朵拉協議（CDL-125）
+
 ## Immediate Safe Next Action
-- **作者批核 ACT_I_OUTLINE.md Draft v1.5**（唯一剩餘 blocker）
-- 批核後 → 進入 Act I Beat Sheet
+- 作者回答 **Q4**（欺凌具體形式）/ **Q5**（晴香介入觸發點）/ **Q6**（街道視覺細節）→ 完成 E-01 Beat Sheet v0.3
 
 ## If Switching Computer / New Session
 Read in this order:

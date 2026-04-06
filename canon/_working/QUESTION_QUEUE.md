@@ -91,6 +91,11 @@
 | Q-BS-R07 | 螢 Act I 存在感 + 彩設計 | 負空間手法；紅絲絨熊公仔（螢遺物）；「下次呢？」行為印記；黑奏誕生原因確立 | CDL-074/075/076 |
 | Q-BS-R08 | 榮格個體化過程具現化系統 | 全作心理骨幹確立：Persona=變身；Shadow=夕；C.U.=物理空間 | CDL-066 |
 
+## Round 017 Deferred Questions（2026-04-06）
+| QID | Topic | Source | Priority | Status | Needed Before | Options | Revisit Trigger |
+|---|---|---|---|---|---|---|---|
+| QQ-52 | E-1.5「目睹切換」具體位置 | CDL-133；ACT_I_OUTLINE.md Beat 2 | Medium | DEFERRED | E-1.5 Beat Sheet設計時 | A:E-02後某[NC] / B:E-03後 / C:E-04後[NC] / D:其他 | E-1.5 Beat Sheet設計時 |
+
 ## Act I Gate Question Results（2026-03-28）
 | QID | Topic | Result | Reason |
 |---|---|---|---|

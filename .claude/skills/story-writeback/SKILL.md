@@ -22,11 +22,22 @@ $ARGUMENTS
 5. `canon/_working/CANON_DECISION_LOG.md`
 6. relevant canon target files
 
+## ⚠️ 故事寫作 Pipeline（全局規則）
+
+```
+Act I~IV Outline → Act I~IV Beat Sheet（全部）→ 才可寫 Section
+```
+
+- Writeback 只處理 canon files（Outline / Beat Sheet / CDL / 角色文件等）的更新
+- **Section 文字（腳本/故事文本）的 writeback，必須在全四幕 Beat Sheet 全部完成並批核後才可執行**
+- 如果 task 涉及寫入 section 文字，先確認 pipeline 狀態，如未完成則拒絕並提示
+
 ## Entry criteria
 只有以下成立先可 writeback：
 - blocking author questions 已 resolved，或者已明確標記 deferred 並確認 safe to continue
 - 要寫回既 decisions 已存在於 `CANON_DECISION_LOG.md` 或同等 author-approved source
 - target files clear
+- **如果 writeback 對象係 section 文字：全四幕 Beat Sheet 必須全部完成並批核**
 
 ## Writeback rules
 - 只寫 author-approved truth

@@ -1,7 +1,12 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**回答 QQ-51（E-03 操「手術室」Flash 具體事件）→ 然後開始 Act I Beat Sheet 設計（E-01）**
+**E-02 Beat Sheet 設計（首戰 + 操入隊）**
+
+前置條件：
+- ✅ E-01 Beat Sheet v0.3 APPROVED（2026-04-06）
+- ✅ E-1.5「目睹切換」時機 = DEFERRED btd（作者決定此場景比 E-1.5 更後，具體位置待定）
+- ⬜ QQ-51：E-03 操「手術室」Flash — 待作者回答（不阻塞 E-02）
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）

@@ -180,19 +180,19 @@
 
 ---
 
-### <a id="term-tuning"></a>調律（Tuning）
-與心之器互動的根本技藝。
+### <a id="term-tuning"></a>情緒投射（Emotional Projection）
+與心之器互動的根本機制。
 
-利用情緒能量對抗/覆寫 Alpha 法則的技藝，是所有「改變現實」現象的根本。分為兩大哲學流派：
-- **修正派**（洗滌式）：粗暴抹平雜音，強行覆寫
-- **接納派**（共鳴式）：理解並整合創傷
+利用情緒能量對抗/覆寫 Alpha 法則的機制，是所有「改變現實」現象的根本。分為兩大哲學流派：
+- **強行抹除式**（洗滌式）：粗暴壓抑雜音，強行覆寫現實
+- **共情承擔式**（共鳴式）：理解並整合創傷，承擔痛苦
 
 **See also**: [Emotional Resonance](#term-emotional-resonance) | [World Rules](01_world_rules_and_costs.md#rule-tuning)
 
 ---
 
 ### <a id="term-emotional-resonance"></a>情緒諧振（Emotional Resonance）
-調律的運作原理。
+情緒投射的運作原理。
 
 使用者以「態度」為「調音叉」，透過「集體潛意識」這個「共鳴箱」，與目標的心之器產生共鳴並汲取力量。是一切魔法力量的基礎機制。
 
@@ -201,7 +201,7 @@
 ---
 
 ### <a id="term-emotional-erosion"></a>情感耗損（Emotional Atrophy / Overdraft）
-調律的必然代價，即透支。
+情緒投射的必然代價，即透支。
 
 為維持幻象必須燃燒真實。當魔法少女情緒（墨水）用盡，必須燃燒自己的「存在感」來維持 Beta 線物理形態。生理副作用包括血糖驟降、低溫症、手抖（身體強行導引靈魂能量的代謝反應）。感官喪失是因身體正在「數據化」，感官開始讀取 Alpha 線數據。
 
@@ -213,7 +213,7 @@
 ### <a id="term-reality-override"></a>現實覆寫（Reality Override / Permanent Rewrite）
 改變現實光譜的最高層級。
 
-調律技藝的終極應用，對集體潛意識底層代碼進行世界級調律與永久性源代碼重寫。需要天文數字級情緒力量、情緒結晶作為存檔點、極度穩固的心之器。
+情緒投射的終極應用，對集體潛意識底層代碼進行世界級強行覆寫與永久性源代碼重寫。需要天文數字級情緒力量、情緒結晶作為存檔點、極度穩固的心之器。
 
 **三項硬限制（不可違反）**：
 1. **不能真正復活死者** — 意識已完全消散的靈魂不可逆，任何「復活」只是複製外殼而非還原本體
@@ -260,18 +260,18 @@
 ### <a id="term-emotion-virus"></a>情緒病毒（Emotion Virus）
 黑奏將靈魂滲漏武器化後的生物兵器。
 
-並非傳統病毒，而是黑奏利用晴香改變現實造成的時空裂縫中噴發的「悲慟風暴」能量，透過修正派調律轉化為可控的、精準攻擊心之器的「病毒武器」。能量來源諷刺地來自晴香的痛苦。
+並非傳統病毒，而是黑奏利用晴香改變現實造成的時空裂縫中噴發的廣域靈魂滲漏能量（心之器大出血），透過強行抹除式覆寫轉化為可控的、精準攻擊心之器的「病毒武器」。能量來源諷刺地來自晴香的痛苦。
 
-**See also**: [Grief Storm](#term-grief-storm) | [Antagonist](03_characters/aya.md#section-kurokane)
+**See also**: [Soul Leakage](#term-soul-leakage) | [Antagonist](03_characters/aya.md#section-kurokane)
 
 ---
 
-### <a id="term-grief-storm"></a>悲慟風暴（Grief Storm）
-晴香情緒失控時的能量爆發。
+### <a id="term-grief-storm"></a>廣域靈魂滲漏（Widespread Soul Leakage）
+心之器承受極端創傷時的能量大出血。
 
-當晴香情緒失控時，從時空裂縫中噴發的純粹、未被引導的情緒能量。如同從「傷口」流出的「血」。黑奏用這些「血」煉製成情緒病毒「毒藥」。黑奏越強大，本質上因晴香越痛苦。
+任何人的心之器在遭受無法承受的重創時，都可能發生此現象——並非晴香專屬。心之器災難性碎裂，純粹、未被引導的原始情緒能量從靈魂的裂縫中噴發至現實空間。晴香因天生是情緒增幅器，出血量極度放大，造成廣域災難。黑奏用這些「血」煉製成情緒病毒。「悲慟風暴」是前線人員對此現象的俗稱，非官方術語。
 
-**See also**: [Emotion Virus](#term-emotion-virus) | [Haruka](03_characters/haruka.md)
+**See also**: [Emotion Virus](#term-emotion-virus) | [Soul Leakage](#term-soul-leakage) | [Haruka](03_characters/haruka.md)
 
 ---
 
@@ -437,18 +437,18 @@
 ---
 
 ### <a id="term-soul-extraction"></a>靈魂抽離（Soul Extraction）
-接納派調律的終極應用。
+共情承擔式情緒投射的終極應用。
 
-本質不是「消滅」屍骸，而是「讓被困的靈魂得到理解後自願離去」。是唯一不會累積情緒債務的終結方式。當調律師透過共鳴「見證」並「接納」了屍骸生前痛苦，這份痛苦便不再需要以「執念」形式存在，靈魂得以安息。
+本質不是「消滅」屍骸，而是「讓被困的靈魂得到理解後自願離去」。是唯一不會累積情緒債務的終結方式。當魔法少女透過共鳴「見證」並「接納」了屍骸生前痛苦，這份痛苦便不再需要以「執念」形式存在，靈魂得以安息。
 
-**See also**: [Tuning](#term-tuning) | [Faint Gratitude](#term-faint-gratitude) | [Gameplay](10_gameplay_bible.md#section-soul-extraction)
+**See also**: [Emotional Projection](#term-tuning) | [Faint Gratitude](#term-faint-gratitude) | [Gameplay](10_gameplay_bible.md#section-soul-extraction)
 
 ---
 
 ### <a id="term-faint-gratitude"></a>微弱的感謝（Faint Gratitude）
 靈魂抽離成功後被解放靈魂留下的正面情緒結晶。
 
-靈魂在消散前最後一刻自發性留下的一縷正面情緒結晶。與普通情緒結晶（痛苦碎片）不同，這是純正面、無毒性的「無毒燃料」。每一份都會強化調律師與集體潛意識的正向連結。世界觀中唯一的無毒燃料。
+靈魂在消散前最後一刻自發性留下的一縷正面情緒結晶。與普通情緒結晶（痛苦碎片）不同，這是純正面、無毒性的「無毒燃料」。每一份都會強化魔法少女與集體潛意識的正向連結。世界觀中唯一的無毒燃料。
 
 **See also**: [Soul Extraction](#term-soul-extraction) | [Emotion Crystal](#term-emotion-crystal)
 
@@ -553,19 +553,19 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-### <a id="term-law-of-substance"></a>質化法則（The Law of Substance）
-情感物質設定的核心法則。
+### <a id="term-law-of-substance"></a>情緒具象化法則（Law of Emotional Manifestation）
+極端情緒的生理具象化核心法則。
 
-在術語層，質化法則指「情緒可被物質化為可觀測狀態」。分類表與鏡頭規格由 [Visual Bible](06_visual_bible.md#section-emotion-substance) 持有；規則條文由 [World Rules](01_world_rules_and_costs.md#section-magic-system) 持有。
+情緒可被物質化為可觀測狀態——極端心理狀態會突破肉體極限，以物理形式顯現。分類表與鏡頭規格由 [Visual Bible](06_visual_bible.md#section-emotion-substance) 持有；規則條文由 [World Rules](01_world_rules_and_costs.md#section-magic-system) 持有。
 
 **See also**: [Visual Bible](06_visual_bible.md#section-emotion-substance)
 
 ---
 
-### <a id="term-law-of-corruption"></a>腐蝕法則（The Law of Corruption）
-靈魂崩壞的三個階段。
+### <a id="term-law-of-corruption"></a>靈魂碎裂法則（Law of Soul Fracture）
+心之器在情感耗損下龜裂崩壞的機制。
 
-在術語層，腐蝕法則只標示「由紋章顯現到結晶剝落的高風險耗損鏈」。分階段視覺規格見 [Visual Bible](06_visual_bible.md#section-corruption-stages)；機制條文見 [World Rules](01_world_rules_and_costs.md#rule-corpseification)。
+心之器承受情感耗損後，從龜裂紋章顯現到靈魂碎片剝落的高風險耗損鏈。視覺規格見 [Visual Bible](06_visual_bible.md#section-corruption-stages)；機制條文見 [World Rules](01_world_rules_and_costs.md#rule-corpseification)。
 
 **See also**: [Visual Bible](06_visual_bible.md#section-corruption-stages) | [Emotional Erosion](#term-emotional-erosion)
 
@@ -622,7 +622,7 @@ Beta 線本質的核心敘事隱喻。
 ### <a id="term-ecstasy-of-resonance"></a>諧振的狂喜（Ecstasy of Resonance）
 首次高強度接入集體潛意識時產生的短暫極樂狀態。
 
-常被誤認為「力量覺醒的獎勵」，實際上是生理排斥法則的前置誘因。快感退去後通常伴隨靈魂延遲、嘔吐與感官錯位，亦會提高角色過度調律與自我毀損風險。
+常被誤認為「力量覺醒的獎勵」，實際上是生理排斥法則的前置誘因。快感退去後通常伴隨靈魂延遲、嘔吐與感官錯位，亦會提高角色過度透支與自我毀損風險。
 
 **See also**: [Soul Lag](#term-soul-lag) | [World Rules](01_world_rules_and_costs.md#rule-physiological-rejection) | [Visual Bible](06_visual_bible.md#section-law-rejection)
 

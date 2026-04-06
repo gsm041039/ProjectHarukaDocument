@@ -1,10 +1,10 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 13 (Act I Beat Sheet) — **Round 016 00_Story_Brief 編輯補完（2026-04-04）**；QQ-51 BLOCKED（操手術室Flash）；E-01~E-02.5 Beat Sheet 可立即開始；E-03 設計前需 QQ-51 答案
+- Phase 13 (Act I Beat Sheet) — **Round 017 E-01 Beat Sheet 設計中（2026-04-06）**；QQ-51 BLOCKED（操手術室Flash）；E-01 Beat Sheet v0.2 草稿中（家中出門場景+世界觀開場待作者決定）；BEAT_SHEET_SOURCE_MANIFEST.md 新建；story-room skill 已更新強制 manifest 讀取
 
 ## Current Objective
-- 回答 QQ-51（操手術室Flash具體事件）→ 然後進入 Act I Beat Sheet 逐場景設計（E-01開始）
+- 作者決定 E-01 開場兩條問題（家中場景A/B/C + 世界觀建立A/B/C）→ 完成 E-01 Beat Sheet v0.3
 
 ## Completed This Round (Round 016 — 2026-04-04 00_Story_Brief編輯補完)
 - [x] 00_Story_Brief.md「為何創作這個故事？」section 編輯

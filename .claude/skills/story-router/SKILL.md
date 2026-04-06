@@ -35,11 +35,27 @@ $ARGUMENTS
 - WRITEBACK
 - RESUME_RECOVERY
 
+## ⚠️ 故事寫作 Pipeline（routing 前必須知道的全局規則）
+
+```
+Act I~IV Outline（全部完成）
+        ↓
+Act I~IV Beat Sheet（全部完成並批核）
+        ↓
+才可開始寫任何 Section 文字
+```
+
+**Pipeline 狀態必須在 routing 前確認：**
+- 如果 request 係「寫 section / 寫腳本 / 寫故事文字」：先確認 pipeline 狀態
+- 如果全四幕 Beat Sheet 未完成：拒絕寫 section，提示當前 pipeline 階段
+- 如果作者明確說「想試寫草稿看感覺」：可以，但輸出必須標記 `[DRAFT ONLY — NOT CANON]`
+
 ## Routing rules
-- brainstorming / outline / section construction / reveal order / relationship / theme / tone / section design -> STORY_ROOM_QUESTION_ENGINE
+- brainstorming / outline / beat sheet / arc / reveal order / relationship / theme / tone / section design -> STORY_ROOM_QUESTION_ENGINE
 - source inventory / doc register / sectioning / evidence extraction / audit -> CANON_PIPELINE
 - duplicate / conflict / ownership / atom candidate / author-gated judgment -> ATOM_GATE
-- confirmed decisions back into canon docs -> WRITEBACK
+- confirmed decisions back into canon docs（Outline/Beat Sheet/CDL/角色文件，**非 section 文字**）-> WRITEBACK
+- section 文字 writeback（**只有全四幕 Beat Sheet 完成後才可路由至此**）-> WRITEBACK
 - interrupted / uncertain / new machine / new chat / stale state -> RESUME_RECOVERY
 
 ## Continuity rules
