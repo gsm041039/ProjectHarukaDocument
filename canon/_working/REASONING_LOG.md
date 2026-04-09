@@ -210,6 +210,162 @@
 
 ---
 
+## Round 018 補充 — 2026-04-09 — ACT_I_OUTLINE.md 第五輪 Source 交叉對比
+
+**Source 已讀：** rin.md ✅ / 05_Story_Outline_Director_Notes.md ✅ / 04_Story_Structure.md ✅ / CDL-143~148確認 ✅
+
+### 識別出的落差（第五輪）
+
+| 落差 | 性質 | 嚴重度 |
+|---|---|---|
+| CDL-146 偷睇約會場景未入Outline [NC] | Gap A（可直接補） | LOW |
+| CDL-154 凜辦公室 vs CDL-140 凜Act I形式 | 潛在矛盾，需確認 | MEDIUM |
+| Layer 3 Plant-A E-02.5 entry 未更新CDL-158誤導設計 | Gap A（可直接補） | LOW |
+
+**考慮過但唔列為Gap：** CDL-153/156/157均btd Beat Sheet；rin.md Alpha線純角色backstory；04_Structure主題框架已透過beat主題標記體現
+
+## Round 018 — 2026-04-08 — ACT_I_OUTLINE.md 第三輪 Source 交叉對比（補讀未讀文件）
+
+**Source 已讀：** Major_Events分析 ✅ / 05_detailed_scenes.md（Act I段落）✅ / outline_raw.md（Act I後段/Act II前段）✅ / miyako.md ✅ / iwakura_akane.md ✅ / ACT_I_OUTLINE.md v1.11全文 ✅
+
+### 識別出的 source vs Outline 落差（第三輪）
+
+| 落差 | Source | 現有Outline | 性質 | 嚴重度 |
+|---|---|---|---|---|
+| **晴香開始訓練** | outline_raw：「晴香開始訓練」係 Act I 前段內容 | Outline無此元素；晴香是否有訓練場景？ | Gap B（暗示但未確認是否需獨立beat）| LOW：可以係[NC]泛提，或省略 |
+| **奪舍示範場景（HC-2e）的具體觸發**| CDL-118確認E-02後某事件中間的小事件；但到底係咩事件令奪舍示範發生（老婆婆靈魂傳話「有個婆婆說她很抱歉」）的世界觀背景未在Outline交代 | Outline [NC]有提奪舍示範場景（CDL-118），標記btd | Gap B（世界觀邏輯層面）| LOW：Beat Sheet層可處理 |
+| **情緒連結首戰 = E-03（四人）確認** | 05_detailed_scenes.md明確：情緒連結首戰係四人（晴香/朱音/操/美夜子）；這意味朱音必須在E-03前入隊（CDL-139已確認） | Outline已有E-03情緒連結後遺症，且CDL-139確認朱音E-02後入隊；**邏輯一致** | 確認一致，無gap | — |
+| **朱音情緒毒品注射場景** | 05_detailed_scenes.md「幻象的崩塌」：晴香無意中目睹朱音在後巷注射情緒毒品 | 現有Outline無此元素；timeline說係Act I期間？還是Act II？ | **Gap A疑問**：timeline_raw.md記載係Act I前段（4月），但outline_raw.md將其放在「前段：破碎的羽翼」之下，明確屬Act I/II交界 | MEDIUM：需確認歸屬 |
+| **朱音視美夜子為「藥頭與保險栓」的明確展示** | Outline Beat 1已記載（CDL-051）；但何時/如何呈現未定 | 已在Outline記錄，屬Beat Sheet層 | 已處理 | — |
+| **美夜子Unit 01身份前置** | miyako.md確認美夜子係Unit 01軍方魔法少女兵器，凜係4號隊員；Act I的美夜子行為有軍方訓練底層 | Outline提及「軍方訓練遺留」（秘密基地潛行場景），但無系統性的Unit 01前置 | Gap B（隱性）：觀眾是否需要Act I就知道美夜子的軍方背景？或全靠E-04閃回？ | LOW：E-04閃回已設計為前置節點 |
+| **凜記憶碎片恢復（timeline 4月）** | timeline_raw.md：「某次戰鬥中，凜受傷，部分記憶恢復，記起與美夜子的血之約定和在冰封中的等待」| CDL-140設計：凜只透過E-04靜態閃回+遠景彩蛋存在；凜記憶碎片恢復係Act II事件 | 口徑確認：凜記憶碎片恢復已被歸入Act II，Act I只有E-04閃回+管理局遠景；**一致** | — |
+
+### 考慮過但決定唔列為Gap的項目
+
+| 項目 | 決定唔列的理由 |
+|---|---|
+| 晴香開始訓練 | 可以係[NC]場景的泛化呈現，唔需獨立beat；Outline層已有靈活[NC]框架覆蓋 |
+| 奪舍場景世界觀背景 | 世界觀已在Beat 0b+Worldview設定建立；奪舍具體觸發係Beat Sheet層設計 |
+| 美夜子Unit 01系統性前置 | E-04閃回已設計為第一個前置節點，Act I不需要更多Unit 01信息；過多前置會減弱Act II揭露衝擊 |
+| 凜記憶碎片恢復 | 已確認係Act II事件，唔係Act I缺口 |
+
+**本輪唯一真正需要作者確認的 Outline 層問題：**
+朱音情緒毒品注射場景（「幻象的崩塌」）係 Act I 還是 Act II 元素？
+
+## Round 017 補充 E — 2026-04-06 — ACT_I_OUTLINE.md 深度 Source 交叉對比（第二輪掃描）
+
+**Source 已讀：** timeline_raw.md（113年3-4月）✅ / outline_raw.md（Act I前段）✅ / ACT_I_OUTLINE.md v1.10 ✅
+
+### 識別出的 source vs Outline 落差
+
+| 落差 | Source | 現有Outline | 性質 |
+|---|---|---|---|
+| **少女假日約會** | timeline_raw 4月初；逛街/拍大頭貼/吃甜品；IG敘事線第二階段素材 | [NC]「全員一起食飯/活動（CDL-039）」隱式覆蓋，但無具體mention | Gap A（source有，Outline無具體mention）|
+| **感激的毒藥（食罪者/睡夢紡織工）** | outline_raw Act I前段；食罪者+睡夢紡織工感謝晴香；Act III黑奏拎返作罪證的payoff | 完全缺失 | **Gap A（重要）**：有完整前置+回收設計，Outline完全無 |
+| **花子夢中意識片段** | outline_raw Act I前段：「疲憊時在夢中與花子的意識片段相遇，獲得指導」| 完全缺失 | Gap A/B（Act I還是Act II需確認）|
+| **彩「正式入隊」時機** | timeline_raw 4月底：「彩因某次意外事件（尚待確定）正式加入」| 無此設計；彩從Beat 0c起就在晴香身邊 | Outline層結構問題：是否需要一個「正式入隊」beat？ |
+| **凜記憶碎片恢復** | timeline_raw 4月（Act I期間）；凜受傷、部分記憶恢復 | CDL-140只有E-04閃回+遠景彩蛋 | 需確認是否Act I事件或已被CDL-140覆蓋/移至Act II |
+| **黑奏主人格「小嚮導」** | outline_raw：「偶遇黑奏主人格——怯生生的孩童靈魂成為『小嚮導』」| 完全缺失 | 可能已被現有彩/黑奏設計取代（彩完全被囚禁，無「小嚮導」概念）；需確認是否deprecated |
+
+### 考慮過但決定唔列為Gap的項目
+
+| 項目 | 理由 |
+|---|---|
+| 凜替代品恐懼（timeline 3月）| CDL-140已處理：凜的情感反應透過E-04遠景彩蛋承載，3月的具體事件已被合併入更大的設計 |
+| 「幻象的崩塌：發現隊友黑暗面」（outline_raw）| 此為Act II元素（朱音注射情緒毒品），唔係Act I |
+| 悲鳴女妖二戰（timeline 5月）| 確認為Act II事件 |
+
+## Round 017 補充 D — 2026-04-06 — ACT_I_OUTLINE.md 全幕 Outline 層審計
+
+**Source 已讀：** ACT_I_OUTLINE.md v1.8 全文 ✅
+
+### 12角度 Outline 層 Gap 掃描
+
+| Gap | 角度 | 性質 | 嚴重度 |
+|---|---|---|---|
+| **E-04 敵人身份未明**（「不敵某敵人」）| 結構功能、氣氛/張力、角色成長 | Gap B（Outline暗示但未確認）| HIGH — 影響E-04整個emotional tone |
+| **黑奏 Act I 接管具體次數/目的**（QQ-26 btd）| 結構功能、資訊揭示控制、埋伏/回收 | Gap B（CDL-097目的驅動但次數/目的未列明）| MEDIUM — Beat Sheet無法設計黑奏接管節點 |
+| **E-1.5 位置**（QQ-52 DEFERRED）| 觀眾體驗、氣氛/張力、AKS-S0時機 | Gap B（CDL-133推後但位置未定）| HIGH — 影響全幕不安感積累節奏 |
+| **E-02.5 「某次戰鬥後」具體時機**| 結構功能、關係動態 | Gap B（Outline模糊）| MEDIUM — 朱音入隊的因果鏈需要確認 |
+| **凜 Act I 存在形式**（除E-04閃回外）| 入場時機、資訊揭示控制 | Gap B（Outline只說E-04美夜子回憶，凜其他形式未確認）| MEDIUM |
+| **秘密基地/隊伍夜間行動**（timeline_raw.md有記載，Outline無）| 關係動態、氣氛/張力 | Gap A（source有，Outline無）| LOW — [NC]元素，可選 |
+
+**考慮過但唔列為 Gap：**
+- E-03 QQ-51（操手術室Flash）= BLOCKED，但E-03 Outline大方向已AC（後遺症+可樂失味+自然停止）；QQ-51係Scene層細節，唔係Outline層gap
+- Plant-B [BK] 項目 = 已標記為placeholder，作者知情；唔係遺漏
+
+## Round 017 補充 C — 2026-04-06 — E-02 正式序列推理（重做）
+
+**Source 已讀：** ACT_I_OUTLINE.md E-02 ✅ / ayakomoji_misao.md ✅ / CDL-031/032/050/057/063/064/065/073/083/084/108 ✅ / 09_Habits（操）✅ / 05_detailed_scenes.md（操入隊場景）✅ / outline_raw.md（E-02段落）✅ / ACT_I_BEAT_SHEET.md（E-01 APPROVED確認）✅
+
+### 事件序列完整性推理
+
+**當前序列（E-01後）：**
+```
+E-01（組隊/初次變身）✅ APPROVED
+        ↓
+[NC] E-01後（彩「下次呢？」/IG/GameUI/夕噪訊）
+        ↓
+Beat 0d（E-01當晚，熱可可）
+        ↓
+天台使命說明（次日）
+        ↓
+E-02（首戰+操入隊）← 設計中
+```
+
+**12角度 Gap 掃描：**
+
+| 角度 | 分析 | Gap? |
+|---|---|---|
+| 觀眾體驗/知識差距 | 操係全新角色，E-02直接出場——觀眾有無足夠背景？**Q12：操E-02前有無[NC]前置？** | RELEVANT — 待作者決定 |
+| 關係動態 | 晴香×操係E-02第一次互動，relationship起點設計需確認觸發點細節 | SOURCE_SUPPORTED（05_detailed_scenes.md有完整場景） |
+| 資訊揭示控制 | 朱音E-02首次現身但唔入隊——觀眾對朱音的初印象設計：「野獸感/搶怪黨」；唔需解釋，只需行動 | STABLE |
+| 氣氛/張力 | E-02係「首次大規模戰鬥」，偽亮色感高峰；Reality Show氣氛；操突然亂入製造意外感 | STABLE |
+| 主題表達 | 主題B「美好謊言」：外在光輝感 vs 底層成本（情緒連結首用）；主題D：隊伍組建的困難（操傲嬌入隊） | STABLE |
+| 結構功能 | E-02 = 首戰 + 情緒連結首用 + 操入隊——三個功能在同一beat，節奏密度需確認 | 考慮過：三功能同beat係Outline已確認，唔係gap |
+| 入場時機 | 操突然亂入 vs 有前置影子：直接亂入陌生感最強（已推理決定A，待確認Q12）| 待作者 Q12 確認 |
+| 世界規則 | 情緒連結首次使用；Reality Show直播UI在E-02達到高峰（首次大型戰鬥）| STABLE |
+| 埋伏/回收 | CDL-084 凜信息（一句話帶猶豫）= Act III凜前史前置；操入隊 = 獨行俠→隊伍弧光起點；朱音「搶怪黨」= E-02.5珍寶珠前置 | STABLE |
+| 觀眾體驗 | 操出場需要「衝擊感」——E-02前唔應有任何提示；突然性係設計意圖 | SUPPORTS A（無前置）|
+| Canon/連續性 | CDL-050確認操入隊台詞/場景；05_detailed_scenes.md有完整操入隊描述；口徑一致 | STABLE |
+| 寫作可執行性 | 三功能密集beat = 節奏快，但有source支撐；E-02.5作為緩衝（朱音入隊）承接 | STABLE |
+
+**識別 Gap：**
+1. **Q12（操E-02前[NC]前置）**：已推理傾向A（無前置），待作者確認
+2. **操入隊時的心理底層**：05_detailed_scenes.md有記載「第一次見到有人在乎她而非戰果」——需確認Beat Sheet是否需要呈現操的內心獨白或保持外層傲嬌？
+
+**考慮過但決定唔列為Gap的項目：**
+
+| 項目 | 決定唔列的理由 |
+|---|---|
+| E-02場景位置（街道vs其他）| Outline已確認「首次大型屍骸戰鬥」，街道係最合理位置，無需問作者 |
+| 情緒連結具體視覺呈現 | CDL-084/121確認；Beat Sheet層可自行設計，唔係design gap |
+| 朱音「搶怪黨」行為的具體細節 | CDL-052/原始大綱已充分說明，無需問 |
+
+**Q設計（需問作者）：**
+- Q12：操E-02前有無[NC]前置（A/B）
+- Q13：操入隊時的心理底層呈現（A:外層傲嬌，觀眾自己感受 / B:簡短內心獨白 / C:視覺化動作暗示）
+
+## Round 017 補充 B — 2026-04-06 — E-02 流程失誤記錄
+
+**失誤類型：** 跳過 source check + 12角度分析 + 作者問題設計，直接輸出 E-02 Beat Sheet Draft v0.1
+
+**具體漏讀文件：**
+- `ayakomoji_misao.md`（操完整角色文件）
+- `backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md`（操的日常習慣）
+- `backup/draft/scenes/05_detailed_scenes.md`（E-02已有場景描述）
+- `backup/draft/outline_raw.md`（E-02原始大綱）
+- `ACT_I_BEAT_SHEET.md`（當前 Beat Sheet 進度）
+
+**具體跳過步驟：**
+- 無 REASONING_LOG 更新（序列推理未落檔）
+- 無 QUESTION_MATRIX.md 更新（E-02相關topics未建立）
+- 無作者問題設計（只在 Draft 末尾問了一條Q12，順序完全錯誤）
+
+**處理：** E-02 Draft v0.1 標記 [VOID]；重新按 skill 規則走完整流程
+
+---
+
 ## Round 017 補充 — 2026-04-06 — Q1/Q2/Q3/Q8/Q9/Q10 答案映射
 
 ### 答案確認記錄

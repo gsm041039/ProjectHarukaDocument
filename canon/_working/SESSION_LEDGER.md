@@ -1,10 +1,35 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 13 (Act I Beat Sheet) — **Round 017 E-01 Beat Sheet 設計中（2026-04-06）**；QQ-51 BLOCKED（操手術室Flash）；E-01 Beat Sheet v0.2 草稿中（家中出門場景+世界觀開場待作者決定）；BEAT_SHEET_SOURCE_MANIFEST.md 新建；story-room skill 已更新強制 manifest 讀取
+- Phase 14 (Act II Outline) — **Round 019 世界觀落地 + Act II Outline設計起步（2026-04-10）**；CDL-185~189 落檔；Act II Outline v0.1 草案列出；Q1-Q8 待作者回答
 
 ## Current Objective
-- 作者決定 E-01 開場兩條問題（家中場景A/B/C + 世界觀建立A/B/C）→ 完成 E-01 Beat Sheet v0.3
+- 作者回答 Act II Outline Q1-Q8（螢揭示時機/美夜子破冰/朱音辯論深度/地下化呈現/珍寶珠payoff/兩大事件時序/夕和解形式/幕末情緒定調）
+
+## Completed This Round (Round 019 — 2026-04-10 世界觀落地 + Act II Outline起步)
+- [x] 桐生健目擊變身三重失效設計確認（CDL-185）：系統延遲+黑奏暗中干預+距離因素
+- [x] 集體潛意識戰場視覺設計確認（CDL-186）：超現實香港後巷+唐樓；風暴期黑色淤泥+扭曲人臉
+- [x] 魔法器官具體設計確認（CDL-187）：光環刑具化+枷鎖紋（Shackle Mark）
+- [x] 情緒視覺詛咒具體設計確認（CDL-188）：感官異化；各角色防禦策略差異
+- [x] 日常偽裝設計框架確認（CDL-189）：P圖/OOTD偽裝/美食打卡虛假；心酸生存羞恥
+- [x] ACT_I_OUTLINE.md [SQ-A]節更新：三重失效解釋補入
+- [x] 01_world_rules_and_costs.md 更新：生理代價擴充（枷鎖紋/情緒視覺詛咒）；集體潛意識戰場視覺補充
+- [x] Act II Outline v0.1 草案起草（8個設計問題列出，待作者回答）
+
+## Completed This Round (Round 018 — 2026-04-08 無名男孩整合)
+- [x] Canon File Integrator Phase 1–4 完成（現有文件全覽/風格分析/位置確認/矛盾掃描）
+- [x] 作者 Q1–Q5 全部回答確認（CDL級別/Act II時序/B留CDL/匿名/Act IV顯式merge）
+- [x] 新增設計確認：榮格陰影投射/從不問名字的傲慢/名字螢幕不顯示機制
+- [x] CDL-143 落檔：無名男孩核心設計（刻意匿名/榮格缺失填補/美術部邊緣人/速寫簿）
+- [x] CDL-144 落檔：A/B split 資訊錯位 + 速寫簿揭露設計
+- [x] CDL-145 落檔：男孩死亡時序 = Act II 魔女狩獵期；操「不敢出手」之罪
+- [x] CDL-146 落檔：偷睇約會場景基調（晴香/朱音/美夜子黑貓）；Act I Beat Sheet btd
+- [x] CDL-147 落檔：名字揭露機制（螢幕不顯示原則）
+- [x] CDL-148 落檔：Act IV 動機 merge（無名男孩guilt + 紗夜死亡並列）
+- [x] ayakomoji_misao.md 更新：新增「無名男孩與速寫簿」背景節
+- [x] ayakomoji_misao.md 更新：Relationships 表新增一行（無名男孩/美術部）
+- [x] ayakomoji_misao.md 更新：四幕弧光 Act I 補入暗戀線 [NC] 說明
+- [x] ayakomoji_misao.md 更新：四幕弧光 Act IV 顯式加入多層動機（CDL-148）
 
 ## Completed This Round (Round 016 — 2026-04-04 00_Story_Brief編輯補完)
 - [x] 00_Story_Brief.md「為何創作這個故事？」section 編輯

@@ -22,16 +22,42 @@ $ARGUMENTS
 ## ⚠️ 故事寫作 Pipeline（全局規則，不可違反）
 
 ```
-Act I~IV Outline（全部）
-        ↓
-Act I~IV Beat Sheet（全部完成並批核）
-        ↓
-只有全部 Beat Sheet 完成後，才可開始寫任何 Section
+Outline（幕結構 + beat 功能 + 大方向）
+        ↓ [作者批核]
+Beat Sheet（每個 beat 的大方向決定：發生咩、情感弧、關鍵設計決定、CDL錨點）
+        ↓ [全四幕全部批核]
+Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
+        ↓ [全部 Beat Sheet 完成後才開始]
 ```
 
-- 唔可以因為某個 Act 的 Beat Sheet 完成了就建議/開始寫該 Act Section
-- 如果作者要求寫 section 但全部 Beat Sheet 未完成：**拒絕並提示 pipeline 狀態**
-- 唯一例外：作者明確說「我知道未完成，想試寫草稿看感覺」→ 輸出標記 `[DRAFT ONLY — NOT CANON]`，不進任何 canon 文件
+**三層分工定義：**
+
+| 層級 | 應包含 | 唔應包含 |
+|---|---|---|
+| **Outline** | Act結構、beat功能、AKS進程、跨幕埋位、大方向確認 | 具體場景執行、具體對白 |
+| **Beat Sheet** | 每beat發生咩大事、情感弧、關鍵設計決定（A/B/C已答）、CDL錨點、開放問題 | 具體對白、鏡頭角度、timing、動作細節 |
+| **Scene/Script** | 具體對白、鏡頭設計、timing、動作細節、視覺執行 | — |
+
+## ⚠️ Stage 判斷門控（AI 必須主動判斷，唔可以「是但」跳層）
+
+**每次開始工作前，必須確認當前應在哪一層，並且明確檢查入場條件：**
+
+### 進入 Beat Sheet 層的入場條件
+- ✅ 當前 Act 的 Outline 已批核（`[APPROVED]` 標記）
+- ✅ 所有 Outline 層的開放問題已解決或明確 DEFERRED
+- ✅ Beat Sheet 內容不超出「大方向決定」層——如發現自己在寫具體對白/鏡頭/timing，立即停止並提示作者
+
+### 進入 Scene/Script 層的入場條件
+- ✅ 全四幕所有 Beat Sheet 已批核
+- ✅ 唔可以因為「某個 beat 的 Beat Sheet 完成了」就開始寫對應 Scene
+- ✅ 唯一例外：作者明確說「我想試寫草稿看感覺」→ 標記 `[DRAFT ONLY — NOT CANON]`
+
+### 自我檢查問題（每次 Beat Sheet 工作時問自己）
+1. 我現在寫的係「這個 beat 發生咩大事 + 情感功能」，還是「具體怎樣拍/怎樣說」？
+2. 如果係後者——停下來，這係 Scene/Script 層
+3. Outline 是否已批核？如果未，先完善 Outline
+
+**違反信號：** 出現「X秒特寫」「具體台詞wording」「鏡頭角度」「動作timing」→ 已跳入 Scene/Script 層，須退回 Beat Sheet 層，不進任何 canon 文件
 
 ## Mandatory first steps
 1. 讀：
@@ -56,6 +82,11 @@ Act I~IV Beat Sheet（全部完成並批核）
 
 ### Outline Step 1 — 讀原始 source（唔可以只靠現有 Outline 修改 Outline）
 以下文件必須讀：
+- **`canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md`** — 跨幕植入→回收對照表；確認本幕需要回收哪些前幕伏線（PAYOFF_DUE），以及本幕新增的植入點
+- **所有已完成幕的 Outline 文件**（確認 Plant-A/B 表）：
+  - `canon/_working/story_construction/ACT_I_OUTLINE.md`（如已完成）
+  - `canon/_working/story_construction/ACT_II_OUTLINE.md`（如已完成）
+  - 等等
 - `backup/draft/outline_raw.md` — 完整故事大綱（含開場/家中/街道/欺凌觸發等設計）
 - `backup/draft/scenes/05_detailed_scenes.md` — 詳細場景庫（已有設計唔可以重新發明）
 - `backup/draft/timeline_raw.md` — 時間線（角色登場時機/事件觸發順序）
@@ -81,18 +112,32 @@ Act I~IV Beat Sheet（全部完成並批核）
 
 **必須在設計任何 beat 前完成以下步驟：**
 
-### Step 1 — 讀 Beat Sheet Source Manifest
-讀 `canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md`
-此 manifest 列明第一層（Universal）、第二層（Per-Character）、第三層（Beat-Specific）必讀文件清單。
+### Step 1 — 讀 Beat Sheet Source Manifest + 當前進度
+1. 讀 `canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md`（列明所有必讀文件）
+2. 讀當前 Act 的 Beat Sheet 文件（如存在）確認已批核/已設計的 beats：
+   - Act I → `canon/_working/story_construction/ACT_I_BEAT_SHEET.md`
+   - Act II → `canon/_working/story_construction/ACT_II_BEAT_SHEET.md`
+   - Act III → `canon/_working/story_construction/ACT_III_BEAT_SHEET.md`
+   - Act IV → `canon/_working/story_construction/ACT_IV_BEAT_SHEET.md`
+3. 確認哪些 beats 已 `[APPROVED]`，哪些係 `[DRAFT]` 或 `[WIP]`，從正確位置繼續
 
 ### Step 2 — 事件序列完整性推理（12角度驅動）
 
 **唔係死板 checklist。** 係用12個角度獨立推理：**呢個 section 的事件序列係咪完整？中間有冇觀眾/玩家會感到疑惑、脫節、或缺乏 context 的地方？**
 
 對每個識別出的 gap，用12角度決定**最合適的補充方式**：
-- 選項一：加入新 scene（例如：家中出門、上學途中、世界觀段落）
-- 選項二：在現有 scene 內補充內容（例如：在學校開場加入世界觀背景細節）
-- 選項三：唔需要補充（現有 scene 已足夠）
+
+**Gap 類型 A — Source 補入：** source 文件有記載但未入 Outline/Beat Sheet → 直接補入
+**Gap 類型 B — 推理補入：** source 暗示但唔明確 → 推理後補入，標記 `[SS]`
+**Gap 類型 C — 創作提案：** 12角度發現故事需要某種新事件，任何 source 完全冇提過 → **主動提案**，標記 `[NEW EVENT CANDIDATE]`
+
+**Gap 類型 C 規則（創作性思考）：**
+- 當12角度分析顯示某個敘事需求（例如：關係動態/觀眾體驗/主題表達/氣氛張力）未被現有事件滿足，且 source 文件中完全冇對應設計時
+- **主動提出新事件候選**，解釋12角度中哪些角度支持此提案，以及它解決了什麼敘事問題
+- **強制標記：** `[NEW EVENT CANDIDATE — 非source衍生，12角度創作提案]`
+- **唔可以直接入 canon**，必須呈現給作者批核
+- 批核後由作者決定：採用（入CDL）/ 修改後採用 / 否決
+- 提案時列出：①提案理由（哪個12角度觸發）②具體場景描述 ③唔加入的後果
 
 **推理角度應用（事件序列層面）：**
 

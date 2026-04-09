@@ -5,10 +5,26 @@
 
 ---
 
+## Beat Sheet 文件位置規範
+
+| Act | 路徑 |
+|---|---|
+| Act I | `canon/_working/story_construction/ACT_I_BEAT_SHEET.md` |
+| Act II | `canon/_working/story_construction/ACT_II_BEAT_SHEET.md` |
+| Act III | `canon/_working/story_construction/ACT_III_BEAT_SHEET.md` |
+| Act IV | `canon/_working/story_construction/ACT_IV_BEAT_SHEET.md` |
+
+**規則：**
+- 每個 beat 批核後標記 `[APPROVED — 日期]`
+- 未批核標記 `[DRAFT]`；設計中標記 `[WIP]`
+- 每次 Beat Sheet 工作開始前，必須先讀對應 Act 的 Beat Sheet 文件（如存在）確認目前進度
+
 ## 第一層：每次 Beat Sheet 工作必讀（Universal）
 
 | 文件 | 路徑 | 用途 |
 |---|---|---|
+| **當前 Act Beat Sheet** | `canon/_working/story_construction/ACT_[I/II/III/IV]_BEAT_SHEET.md` | 已批核/已設計的 beats，避免重複工作或矛盾 |
+| **跨幕伏線對照表** | `canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md` | 確認本 beat 需落地哪些前幕 plant（PAYOFF_DUE），以及本 beat 新增植入點需同步更新此表 |
 | ACT_I_OUTLINE.md | `canon/_working/story_construction/ACT_I_OUTLINE.md` | 主結構骨架、已確認 beats |
 | CANON_DECISION_LOG.md | `canon/_working/CANON_DECISION_LOG.md` | 所有已確認決定（CDL） |
 | PROJECT_STATUS.md | `canon/_working/PROJECT_STATUS.md` | 當前 blockers / deferred |

@@ -36,6 +36,8 @@ $ARGUMENTS
 
 | 文件 | 路徑 | 為什麼必讀 |
 |---|---|---|
+| **跨幕伏線對照表** | `canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md` | 確認本幕需回收哪些前幕 plant（PAYOFF_DUE），以及本幕新增植入點需同步更新此表 |
+| **所有已完成幕 Outline** | `canon/_working/story_construction/ACT_[I/II/III]_OUTLINE.md` | 確認前幕 Plant-A/B 表；避免設計新幕時遺漏需要在本幕 payoff 的伏線 |
 | 完整故事大綱（原始） | `backup/draft/outline_raw.md` | 開場結構/家中/街道/欺凌觸發等設計原點 |
 | 詳細場景庫 | `backup/draft/scenes/05_detailed_scenes.md` | 所有已有詳細場景描述，唔可以重新發明 |
 | 時間線（原始） | `backup/draft/timeline_raw.md` | 角色登場時機、事件觸發順序 |
@@ -55,9 +57,10 @@ $ARGUMENTS
 > 呢個 section 的事件序列係咪完整？中間有冇觀眾/玩家會感到脫節、缺乏 context、或資訊斷層的地方？
 
 **對每個識別出的 gap，用12角度決定補充方式：**
-- 加入新 scene（例如：家中出門、上學途中、世界觀段落）
-- 在現有 scene 內補充內容（例如：在學校開場加世界觀細節）
-- 唔需要補充（現有已足夠）
+
+**Gap 類型 A — Source 補入：** source 有記載但未入 Outline/Beat Sheet → 直接補入
+**Gap 類型 B — 推理補入：** source 暗示但唔明確 → 推理後補入，標記 `[SS]`
+**Gap 類型 C — 創作提案：** 12角度發現故事需要某種新事件，任何 source 完全冇提過 → 主動提案，標記 `[NEW EVENT CANDIDATE]`，**必須作者批核後才可入 canon**
 
 **關鍵推理角度：**
 

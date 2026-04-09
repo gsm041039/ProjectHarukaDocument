@@ -20,6 +20,13 @@ $ARGUMENTS
 5. `canon/_working/CANON_DECISION_LOG.md`
 6. `canon/_working/READ_MANIFEST.md`
 7. `canon/_working/story_construction/QUESTION_MATRIX.md`
+8. 讀跨幕伏線對照表確認整體 plant/payoff 狀態：
+   - `canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md`
+9. 如果 phase 係 Beat Sheet：讀對應 Act 的 Beat Sheet 文件確認進度：
+   - `canon/_working/story_construction/ACT_I_BEAT_SHEET.md`（如存在）
+   - `canon/_working/story_construction/ACT_II_BEAT_SHEET.md`（如存在）
+   - 等等
+   - 確認哪些 beats 已 `[APPROVED]`、哪些 `[DRAFT]`、哪些未開始
 
 ## Goal
 - 恢復 last confirmed state

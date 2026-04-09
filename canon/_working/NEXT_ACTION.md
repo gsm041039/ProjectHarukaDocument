@@ -1,44 +1,23 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**E-02 Beat Sheet 設計（首戰 + 操入隊）**
+**作者回答 Act II Outline Q1-Q8，確認 Act II Outline v1.0**
 
 前置條件：
-- ✅ E-01 Beat Sheet v0.3 APPROVED（2026-04-06）
-- ✅ E-1.5「目睹切換」時機 = DEFERRED btd（作者決定此場景比 E-1.5 更後，具體位置待定）
-- ⬜ QQ-51：E-03 操「手術室」Flash — 待作者回答（不阻塞 E-02）
+- ✅ ACT_I_OUTLINE.md v1.18 **APPROVED**（2026-04-09）
+- ✅ CDL-001~184 全部落檔
+- ✅ CROSS_ACT_FORESHADOW_MANIFEST.md 建立（P-A01~P-A25 + P-B01~P-B02）
+- ✅ 所有 skills 更新（跨幕伏線對照必讀）
+- ⬜ Act II Outline 設計
+- ⬜ Act III/IV Outline 設計
+- ⬜ 全四幕 Outline 完成後才進 Beat Sheet
+- ⬜ QQ-51：E-03 操「手術室」Flash — 仍 BLOCKED（不阻塞 Act II Outline）
 
-前置條件：
-- ✅ ACT_I_OUTLINE.md v1.7 APPROVED（2026-04-02）
-- ✅ Round 013/014 全部完成（QQ-41~50 RESOLVED，CDL-113~122落檔）
-- ✅ Beat Sheet 前置矛盾掃描完成（Round 015，2026-04-02）
-- ✅ E-01~E-02.5 全部 beats 無 blocker（可直接開始設計）
-- ⬜ QQ-51：E-03 操「手術室」Flash 具體事件 — **待作者回答**
-  - 選項 A: 帝國植入程序（控制裝置/情緒採集器植入）
-  - 選項 B: 家族強制醫療程序（Beta-線，非生殖器官）
-  - 選項 C: Alpha-線 創傷事件（行乞時期強制醫療）
-  - 選項 D: 作者自訂（說明觸發者/目的/時間線）
-
-**建議啟動方式**：可先開始 E-01 → E-02.5 設計（不受 QQ-51 影響），QQ-51 答案到後補完 E-03。
-
-## Beat Sheet 工作範圍（Phase 13 預覽）
-
-| Beat | 待設計內容 |
-|---|---|
-| **E-01** | 開場場景動線；美夜子裝置交付動線（CDL-109）；晴香初次變身；[SQ-A]桐生健Epilogue：視覺提示+晴香阻止（CDL-113）+「痛係證據」台詞動線 |
-| **天台次日** | 美夜子冷漠解說天台場景；高處俯視城市視覺語言 |
-| **E-1.5** | 彩/黑奏切換具體場景；CDL-080台詞動線 |
-| **E-02** | 首戰動線；貓形態魔法防護視覺（CDL-108）；凜信息一句話（CDL-084）；操傲嬌入隊 |
-| **E-02.5** | 珍寶珠場景具體動線 |
-| **E-03** | 後遺症呈現；可樂失味場景 |
-| **E-04** | 凜前史閃回；朱音超載+肢體扭曲；美夜子阻止動線 |
-| **[NC]** | 秋穗茶餐廳場景+血糖手錶派發（CDL-110/114）；GameUI視界[NC]（CDL-111）；夕噪訊場景（CDL-116 混成一層）；彩「下次呢？」第二次觸發（CDL-117）；紗夜電話[NC]（CDL-107）；桐生健後續[NC] |
-| **E-XX** | 夕整合具體台詞+鏡面動線（CDL-069/070/077） |
-
-## Key Open Items（Beat Sheet 逐場景確認）
-- QQ-26: 黑奏接管具體場景（每場景設計時確認）
-- 彩「下次呢？」第二次觸發具體位置（[NC]設計時決定）
-
-## Pending Writeback（不阻塞 Beat Sheet）
-- haruka.md habit #6 刪除（CDL-112）
-- 葡萄糖注射槍 + CGM系統 source gap → gameplay_bible + entities（CDL-114）
+## Act II Outline 入場條件
+- ✅ Act I Outline APPROVED
+- ✅ CROSS_ACT_FORESHADOW_MANIFEST.md 確認 Act II 需回收的 Plant（P-A04/P-A06/P-A07/P-A18/P-A20/P-A21）
+- Act II 設計時必須讀：
+  - `canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md`
+  - `canon/_working/story_construction/ACT_I_OUTLINE.md`（Plant表）
+  - `backup/draft/outline_raw.md`（Act II段落）
+  - `backup/draft/timeline_raw.md`（113年4月-114年4月）

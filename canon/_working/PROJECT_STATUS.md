@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 13 Act I Beat Sheet；ACT_I_OUTLINE.md v1.8（2026-04-06 補入Beat 0a/0b/0c/0d/IG線）；Round 017 Q1~Q3/Q8~Q10已答（CDL-123~128落檔）；Q4/Q5/Q6待答；QQ-51仍BLOCKED
-- Active Topic / Section: Phase 13 — E-01 Beat Sheet設計（Q4/Q5/Q6待答後可完成E-01設計）
-- Current Objective: 作者回答Q4（欺凌形式）/ Q5（晴香介入觸發點）/ Q6（街道視覺細節）→ 完成E-01 Beat Sheet v0.3
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline；ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**；CDL-185~189落檔；Act II Outline v0.1草案完成；Q1-Q8待作者回答
+- Active Topic / Section: **Act II Outline 設計**（8個關鍵問題待回答後確認v1.0）
+- Current Objective: 作者回答 Act II Outline Q1-Q8
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-06
+- Last Stable Updated At: 2026-04-10
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -40,6 +40,21 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 019，2026-04-10）
+- **桐生健目擊變身三重失效（CDL-185）**：系統Lag 0.5秒+黑奏暗中干預+距離因素；解釋[SQ-A]美夜子手動SOP原因；桐生健弧線確立（厭惡→敬畏→Act II無名盟友）
+- **集體潛意識戰場視覺（CDL-186）**：超現實香港後巷+唐樓；潮濕石板/水窪/霓虹；風暴期黑色淤泥+扭曲人臉；紙皮騎士守護
+- **光環刑具化+枷鎖紋（CDL-187）**：光環=扳手夾緊脖子（光環處決前置解釋）；枷鎖紋=關節/鎖骨發亮烙印，屍骸化程度指標
+- **情緒視覺詛咒（CDL-188）**：感官異化具體設計；各角色防禦策略差異（毒品/冷漠/面具/天真過濾）
+- **日常偽裝設計（CDL-189）**：P圖偽裝/OOTD偽裝（美夜子高領/操蕾絲手套）/美食打卡虛假；心酸生存羞恥設計框架
+
+## New Canon This Round（Round 018，2026-04-08）
+- **無名男孩核心設計（CDL-143）**：榮格缺失填補；美術部邊緣人；速寫簿；遊戲永不顯示姓名
+- **A/B split + 速寫簿揭露（CDL-144）**：操誤讀A言論→自卑；底層B=接納真實；速寫簿留言「不用那麼用力也可以」
+- **男孩死亡時序 = Act II 魔女狩獵期（CDL-145）**：操不敢出手永遠之罪；Act IV 動機根源
+- **偷睇約會場景基調確認（CDL-146）**：晴香/朱音/美夜子黑貓；Act I Beat Sheet btd
+- **名字螢幕不顯示機制（CDL-147）**：私密聖域；主題B呼應
+- **Act IV 動機 merge（CDL-148）**：紗夜+無名男孩兩層並列；鋼鐵獨舞/人偶牆閉環
 
 ## New Canon This Round（Round 017，2026-04-06）
 - **E-01當晚獨立beat（CDL-123）**：Beat 0d加入；睡前熱可可習慣→Act II可樂失味前置

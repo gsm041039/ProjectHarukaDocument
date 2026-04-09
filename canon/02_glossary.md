@@ -119,7 +119,23 @@
 
 核心是一顆巨大人造情緒結晶。官方說詞是「人造太陽」提供電力，真實目的是監視器與鎮靜劑——監測市民情緒數據，壓抑激烈情感。黑奏篡位後扭曲為「負面情緒培養皿」。是情緒經濟體系的中央銀行。
 
-**See also**: [Entities](07_entities_and_devices.md#section-organizations) | [Emotional Capitalism](#term-emotional-capitalism) | [Light Veil](#term-light-veil)
+**市民認知層：偽永動機（CDL-176）**
+
+日區市民相信維多利亞之淚是一部「永動機」——無需代價、無盡產生快樂、永久消滅痛苦的完美機器。這是帝國情緒資本主義制度的核心謊言，也是現實世界「人類渴望根治痛苦的制度或科技」這個慾望的具現化。
+
+**真實結構：情緒抽水泵**
+
+它不是永動機，而是一部巨型情緒抽水泵——將日區負面情緒強行抽走，壓入夜區與集體潛意識地底。痛苦從未消失，只是被轉移。情緒守恆定律不可繞過，社會性債務持續堆高，直到緋潮強制倒灌。
+
+**「被壓抑物的回歸」**
+
+當被壓入地底的情緒廢料累積超過集體潛意識承載極限，[緋潮](01_world_rules_and_costs.md#rule-crimson-tide)以洪流形式倒灌現實，是世界免疫系統對「偽永動機謊言」的強制糾正。這是弗洛伊德「被壓抑物的回歸 (Return of the Repressed)」的世界規模具現。
+
+**主題映射：世界規模的膠布哲學**
+
+維多利亞之淚是晴香個人「膠布哲學」（用膠布遮住傷口假裝不存在）的宏觀版——整個社會用這部機器蓋住痛苦守恆的傷口。機器崩潰 = 膠布被撕開 = 緋潮。
+
+**See also**: [Entities](07_entities_and_devices.md#section-organizations) | [Emotional Capitalism](#term-emotional-capitalism) | [Light Veil](#term-light-veil) | [Crimson Tide](01_world_rules_and_costs.md#rule-crimson-tide) | [CDL-176]
 
 ---
 

@@ -94,7 +94,7 @@
 ## Round 017 Deferred Questions（2026-04-06）
 | QID | Topic | Source | Priority | Status | Needed Before | Options | Revisit Trigger |
 |---|---|---|---|---|---|---|---|
-| QQ-52 | E-1.5「目睹切換」具體位置 | CDL-133；ACT_I_OUTLINE.md Beat 2 | Medium | DEFERRED | E-1.5 Beat Sheet設計時 | A:E-02後某[NC] / B:E-03後 / C:E-04後[NC] / D:其他 | E-1.5 Beat Sheet設計時 |
+| QQ-52 | E-1.5「目睹切換」具體位置 | CDL-133/138；ACT_I_OUTLINE.md Beat 2 | Medium | **RESOLVED（CDL-138）** | — | B:E-03後 | E-1.5位置 = E-03後確認 |
 
 ## Act I Gate Question Results（2026-03-28）
 | QID | Topic | Result | Reason |
