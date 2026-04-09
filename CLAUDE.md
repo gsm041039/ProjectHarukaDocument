@@ -23,18 +23,23 @@
 ## ⚠️ 故事寫作 Pipeline（全局不可違反）
 
 ```
-Act I Outline → Act II Outline → Act III Outline → Act IV Outline
-        ↓
-Act I Beat Sheet → Act II Beat Sheet → Act III Beat Sheet → Act IV Beat Sheet
-        ↓
-全部 Beat Sheet 完成並批核後，才可以開始寫任何 Section
+Outline（幕結構 + beat 功能 + 大方向）
+        ↓ [作者批核]
+Beat Sheet（每個 beat 的大方向決定）    ← 全四幕全部完成並批核
+        ↓ [全四幕全部批核]
+Scene / Script（執行細節：對白/鏡頭/timing）
 ```
 
+**三層分工：**
+- **Outline 層：** Act結構、beat功能、AKS進程、埋位設計、大方向確認。唔包含具體對白或執行細節。
+- **Beat Sheet 層：** 每beat發生咩、情感弧、關鍵設計決定（A/B/C）、CDL錨點。唔包含具體對白/鏡頭/timing。
+- **Scene/Script 層：** 具體對白、鏡頭設計、動作細節。**全四幕 Beat Sheet 完成後才開始。**
+
 **硬性規則：**
-- 唔可以因為「某個 Act 的 Beat Sheet 完成了」就開始寫該 Act 的 Section
-- **必須整個故事（全四幕）的 Beat Sheet 全部完成並批核後，才可以開始寫任何 Section**
-- 任何「幫我寫呢個場景/section/腳本」的請求，如果全部 Beat Sheet 未完成，必須拒絕並提示當前 pipeline 狀態
-- 唯一例外：作者明確說「我知道 pipeline 未完成，我想試寫一個草稿看感覺」——此情況下寫出的文字標記為 `[DRAFT ONLY — NOT CANON]`，不進入任何 canon 文件
+- 唔可以跳層——Outline未批核不做Beat Sheet；Beat Sheet未全部完成不做Scene
+- AI 必須主動判斷當前層級，唔可以「是但」跳去下一層
+- 出現「具體對白wording / 鏡頭角度 / Xsec timing」= 已跳入 Scene 層，須退回
+- 唯一例外：作者明確說「我想試寫草稿看感覺」→ 標記 `[DRAFT ONLY — NOT CANON]`，不進入任何 canon 文件
 
 ## Primary durable files
 - `PROJECT_STATUS.md` = 主 resume anchor / current truth snapshot
