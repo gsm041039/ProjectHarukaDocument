@@ -12,9 +12,9 @@
 | QQ-01 | V2 整體批核 | FULL_STORY_ROUGH_OUTLINE_V2.md | — | RESOLVED（隱含）| — | V2 係否批核？ | — | 作者透過答 Act I Gate 問題隱含進入 V2 框架，Gate OPEN | Act I Outline Gate OPEN | — | 2026-03-28 |
 | QQ-02 | Cross-act foreshadowing 框架 | 本 session 討論 | Medium | RESOLVED（隱含）| — | Act I Outline 採用三層結構？ | A=三層結構 / B=唔需埋位層 | **A 隱含確認**：ACT_I_OUTLINE.md 以三層結構建立並貫穿全輪討論，作者無異議 | Act I Outline 架構確立 | — | 2026-03-29 |
 | QQ-51 | E-03 操「手術室」Flash — 具體事件是什麼 | CDL-121（Flash #2 = 「操被強行帶進手術室的那一刻」）vs CDL-005（無強制性別手術/精神病院）；ayakomoji_misao.md 無任何手術事件記載；M043 | High | **BLOCKED** | E-03 Beat Sheet 設計前 | CDL-121 確認 E-03 情緒海嘯 Flash #2 = 「操被強行帶進手術室的那一刻」，但此事件在操的角色文件中完全空白，且與 CDL-005 的排除項有張力（CDL-005：無強制性別手術/精神病院）。手術性質/時機/施加者不明，無法設計 E-03 Flash 視覺。 | A: 帝國植入程序（控制裝置/情緒數據採集器，「父親交給帝國」時）/ B: 家族強制醫療程序（Beta-線 恢復名門後，非生殖器官但強制男性化相關醫療）/ C: Alpha-線創傷事件（行乞時期強制醫療）/ D: 作者自訂（請說明觸發者/目的/時間線） | — | 解鎖 E-03 Beat Sheet Flash #2 視覺設計；ayakomoji_misao.md 補充；Act III 鏡像破碎之夜情感前置 | E-03 Beat Sheet 設計時 | 2026-04-02 |
-| QQ-03 | R-7 + AKS-S1 黑奏動機 Info Architecture | BD-07 / STORY_BASE_RECONSTRUCTION / Q-AI-01 作者回應 | High | BLOCKED | Act II/III Outline 前 | AKS-S1（觀眾知螢已逝）+ R-7（黑奏預謀揭示）需整體設計揭示順序同時機；兩者係同一 info chain，唔可獨立決定 | — | — | 解鎖 AKS-S1 timing；R-7 揭示節點；Act II/III 螢線 + 黑奏動機設計 | Act II Outline 前 | 2026-03-28 |
+| QQ-03 | R-7 + AKS-S1 黑奏動機 Info Architecture | BD-07 / STORY_BASE_RECONSTRUCTION / Q-AI-01 作者回應 | High | **RESOLVED（CDL-190）** | — | AKS-S1揭示時機 = Act II末期（E-11a附近）；媒介 = Text Prop型（朔找到螢死亡報告+熊公仔修復圖紙）；Act II全段維持統治者原型冰冷壓迫感；知識依賴鏈S1→P1→P2層層遞進 | C = Act II末期 | **C（CDL-190）**：Act II末期E-11a附近；Text Prop；帝國最高機密舊檔案（螢死亡報告+熊公仔圖紙）；朔/觀眾拼湊「毀滅百萬人的底層驅動竟是六歲孩童的妄想」 | 解鎖 Act II Outline AKS進程；Act III茶會真身揭露情感前置 | — | 2026-04-10 |
 | QQ-04 | BD-13 秋穗退場事件 | BD-13 / BLOCKED_DECISIONS.md | Medium | BLOCKED | Act III Outline | 秋穗在 Act III 秘密揭露後如何退場？ | — | — | 解鎖 Act III/IV 秋穗戲份設計 | Act III Outline 前 | 2026-03-28 |
-| QQ-05 | 美夜子 soft pivot 具體場景 | QM-05 / V2 outline | Medium | DEFERRED | Act II Outline | Act II 美夜子破冰 soft pivot 的具體觸發場景？ | — | — | 解鎖 Act II 美夜子戲份設計 | Act II Outline 前 | 2026-03-28 |
+| QQ-05 | 美夜子 soft pivot 具體場景 | QM-05 / V2 outline | Medium | **RESOLVED（CDL-191）** | — | 美夜子破冰 = D【無價值留守】；觸發 = 社會性死亡後晴香失去功利價值，美夜子選擇留下；場景 = 廢棄地鐵站，關手機+遞常溫水+核心台詞（「妳依家確實係一件廢物。但係，我唔會走。」）；兩步成長架構確立 | D（自訂場景）| **D【無價值留守】（CDL-191）**：113年7月社死後；廢棄地鐵站[NC]；功利藉口失效後第一次純粹守護；兩人關係從功利走向信賴的絕對分水嶺 | 解鎖 Act II 美夜子弧線；miyako.md soft pivot节 writeback | — | 2026-04-10 |
 | QQ-06 | 操三位一體視覺化 | QM-06 / V2 outline | Medium | DEFERRED | Act IV Outline | Act IV 操三位一體視覺化具體方案？ | — | — | 解鎖 Act IV 操高潮場景 | Act IV Outline 前 | 2026-03-28 |
 | QQ-07 | BD-10 Information_Control 揭示時序 | BD-10 / canon/12 | Medium | DEFERRED | Act Outline（配合 AKS-H2）| 三概念觀眾揭示時序？ | — | — | 解鎖 AKS-H2 前置設計 | Act Outline 前 | 2026-03-28 |
 | QQ-08 | BD-11 象徵物件分析 | BD-11 | Medium | DEFERRED | 動筆前 | 鏡子/素描本/雙面盒墜象徵設計？ | — | — | 解鎖場景視覺設計 | 動筆前 | 2026-03-28 |
@@ -124,6 +124,10 @@
 | QQ-R16 | 凜前史媒介 + 出現時機 | A：Act I 早期；美夜子回憶形式；目的：建立凜 + 美夜子孤獨感/秘密建立 | CDL-020 | E-04 媒介標籤更新；美夜子線弧光 Act I 起點確立 | 2026-03-28 |
 | QQ-R17 | E-04 超載者 = 朱音（A） | A：朱音自身超載，自身肢體扭曲係代價；晴香有衝動但朱音先行；CDL-043 完整 E-04 邏輯 | CDL-043 | E-04 場景設計可完整執行；CDL-019/021 補完 | 2026-03-28 |
 | QQ-R18 | 花子身份 = 晴香同美夜子的母親 / 秋穗的妹妹 | 花子係母親（既有文件有記錄）；晴香在 AKS-H1 記憶 fragment 見到的陌生女性係自己親生母親 | CDL-044 | AKS-H1 情感層次確立（陌生人 = 失去的媽媽）；E-XX 失去感設計可執行 | 2026-03-28 |
+
+| G1 | 黑奏最終消散直接原因 | C — 死穴A+B+C 三者同時成立，缺一不可 | CDL-185 | Act III/IV 黑奏最終場景設計 | 2026-04-10 |
+| G2 | 愛莉在恐怖家家酒超載→引爆潛意識風暴 因果確認 | A — 直接因果關係確認；移除「搶奪原初之苦」作為主因 | CDL-188 | Acts II/III 過渡設計；愛莉線功能強化 | 2026-04-10 |
+| G3 | 「學校PUA = 黑奏最致命失誤」framing確認 | A — Act III前半核心反諷設計確認 | CDL-185 | Act III 前半 恐怖家家酒設計 | 2026-04-10 |
 
 ## Deferred Questions Archive
 | QID | Topic | Why Deferred | Safe To Continue? | Revisit Trigger | Last Reviewed |

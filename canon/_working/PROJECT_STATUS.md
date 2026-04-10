@@ -1,11 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline；ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**；CDL-185~189落檔；Act II Outline v0.1草案完成；Q1-Q8待作者回答
-- Active Topic / Section: **Act II Outline 設計**（8個關鍵問題待回答後確認v1.0）
-- Current Objective: 作者回答 Act II Outline Q1-Q8
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline；ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**；**ACT_II_OUTLINE.md v0.2 [DRAFT 2026-04-11]**；CDL-192~211落檔；待作者批核 Act II Outline v0.2
+- Active Topic / Section: **Act II Outline 批核**（v0.2 draft完成，等待作者審閱）
+- Current Objective: 作者審閱並批核 ACT_II_OUTLINE.md v0.2，或提出最終修改意見
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-10
+- Last Stable Updated At: 2026-04-11
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -41,12 +41,21 @@
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
 
+## New Canon This Round（Round 019，2026-04-10，完成）
+- **AKS-S1 揭示 = Act II末期E-11a附近（CDL-190）**：Text Prop型（螢死亡報告+熊公仔圖紙）；朔找到帝國最高機密；Act II維持統治者原型壓迫感；QQ-03 RESOLVED
+- **美夜子soft pivot = 【無價值留守】（CDL-191）**：113年7月社死後廢棄地鐵站；功利藉口失效後純粹守護；「妳依家確實係一件廢物。但係，我唔會走。」；兩步成長架構；QQ-05 RESOLVED
+- **CDL-192~196（原誤標CDL-185~189）**：桐生健三重失效/集體潛意識戰場/光環刑具化/情緒視覺詛咒/日常偽裝設計
+- **CDL-197~203（Q1-Q10答案）**：Act II scope(114年3月虛假黎明)/黑奏動機兩步/偽王道覺醒/朱音腐化A+C/愛莉三步/玻璃庭院幕末/魔女狩獵期A→B→C
+- **ACT_II_OUTLINE.md v0.1 建立→v0.2更新**：7個Phase、16個beat（新增E-05a）；AKS S0→S1→P1進程；Act II新增Plant P-C01~P-C08
+- **CDL-204 落檔（術語清理）**：廢除「共鳴式調律」/「情緒諧振」/「調音叉」/「共鳴波動」/「執念飽和度」等全數術語；四步底層機制「情緒承接（Emotional Acceptance）」取代；02_glossary.md + 01_world_rules_and_costs.md 更新完成
+- **CDL-205~211 落檔（Round 020）**：E-05a總部被襲/E-06 EMB SOP/彩卡頓Plant/假→真情緒承接三段弧/愛莉動機童真修正/變身鏡Hangover Phase/黑奏農場觀察
+
 ## New Canon This Round（Round 019，2026-04-10）
-- **桐生健目擊變身三重失效（CDL-185）**：系統Lag 0.5秒+黑奏暗中干預+距離因素；解釋[SQ-A]美夜子手動SOP原因；桐生健弧線確立（厭惡→敬畏→Act II無名盟友）
-- **集體潛意識戰場視覺（CDL-186）**：超現實香港後巷+唐樓；潮濕石板/水窪/霓虹；風暴期黑色淤泥+扭曲人臉；紙皮騎士守護
-- **光環刑具化+枷鎖紋（CDL-187）**：光環=扳手夾緊脖子（光環處決前置解釋）；枷鎖紋=關節/鎖骨發亮烙印，屍骸化程度指標
-- **情緒視覺詛咒（CDL-188）**：感官異化具體設計；各角色防禦策略差異（毒品/冷漠/面具/天真過濾）
-- **日常偽裝設計（CDL-189）**：P圖偽裝/OOTD偽裝（美夜子高領/操蕾絲手套）/美食打卡虛假；心酸生存羞恥設計框架
+- **桐生健目擊變身三重失效（CDL-192）**：系統Lag 0.5秒+黑奏暗中干預+距離因素；解釋[SQ-A]美夜子手動SOP原因；桐生健弧線確立（厭惡→敬畏→Act II無名盟友）
+- **集體潛意識戰場視覺（CDL-193）**：超現實香港後巷+唐樓；潮濕石板/水窪/霓虹；風暴期黑色淤泥+扭曲人臉；紙皮騎士守護
+- **光環刑具化+枷鎖紋（CDL-194）**：光環=扳手夾緊脖子（光環處決前置解釋）；枷鎖紋=關節/鎖骨發亮烙印，屍骸化程度指標
+- **情緒視覺詛咒（CDL-195）**：感官異化具體設計；各角色防禦策略差異（毒品/冷漠/面具/天真過濾）
+- **日常偽裝設計（CDL-196）**：P圖偽裝/OOTD偽裝（美夜子高領/操蕾絲手套）/美食打卡虛假；心酸生存羞恥設計框架
 
 ## New Canon This Round（Round 018，2026-04-08）
 - **無名男孩核心設計（CDL-143）**：榮格缺失填補；美術部邊緣人；速寫簿；遊戲永不顯示姓名

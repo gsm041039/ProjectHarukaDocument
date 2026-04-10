@@ -742,7 +742,7 @@ Alpha 線的「可信度」建立在**共享印證**上：
 | **共情承擔式** | 共鳴式——理解並整合創傷 | 面對痛苦 | 晴香（後期） |
 
 **層級**（從低到高）：
-1. [情緒諧振](02_glossary.md#term-emotional-resonance)：基礎機制
+1. [情緒承接](02_glossary.md#term-emotional-resonance)：共情承擔式流派的底層機制（集體潛意識物理接觸→世界免疫繞過→情緒守恆完成）
 2. [情緒投射](02_glossary.md#term-tuning)：實踐機制
 3. [現實縫合](02_glossary.md#term-reality-stitching)：變身（局部覆寫）
 4. [現實覆寫](02_glossary.md#term-reality-override)：世界級改變（禁忌）

@@ -203,16 +203,19 @@
 - **強行抹除式**（洗滌式）：粗暴壓抑雜音，強行覆寫現實
 - **共情承擔式**（共鳴式）：理解並整合創傷，承擔痛苦
 
-**See also**: [Emotional Resonance](#term-emotional-resonance) | [World Rules](01_world_rules_and_costs.md#rule-tuning)
+**See also**: [Emotional Acceptance](#term-emotional-resonance) | [World Rules](01_world_rules_and_costs.md#rule-tuning)
 
 ---
 
-### <a id="term-emotional-resonance"></a>情緒諧振（Emotional Resonance）
-情緒投射的運作原理。
+### <a id="term-emotional-resonance"></a>情緒承接（Emotional Acceptance）
+情緒投射「共情承擔式」流派的底層四步運作機制。（CDL-204）
 
-使用者以「態度」為「調音叉」，透過「集體潛意識」這個「共鳴箱」，與目標的心之器產生共鳴並汲取力量。是一切魔法力量的基礎機制。
+1. **集體潛意識的物理法則**：深潛後，情緒在此空間具有物理重量與溫度，可直接觸碰對方的心之器。接觸即接觸——無需任何額外媒介。
+2. **世界免疫系統的排斥**：「希望之光」或「強行消除痛苦」會觸發世界免疫系統的反彈（視之為對苦難靈魂的病毒侵入）。否定痛苦是一種暴力，系統會強制彈開。
+3. **以夕的陰影作為通道**：夕的力量不是「光」，而是「被黑暗接納後仍然存在的東西」。使用夕的情緒作為通道，才能以「同類」身份繞過免疫排斥，直接觸及對方的痛苦核心。
+4. **情緒守恆定律的自然完成**：當對方的痛苦被「承接」而非「抹除」，守恆定律達成平衡——靈魂不再需要怪物外殼作為痛苦容器，自然鬆脫。
 
-**See also**: [Tuning](#term-tuning) | [Collective Unconscious](#term-collective-unconscious)
+**See also**: [Tuning](#term-tuning) | [Collective Unconscious](#term-collective-unconscious) | [情緒守恆定律](#term-emotion-conservation)
 
 ---
 

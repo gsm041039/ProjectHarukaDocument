@@ -1,20 +1,41 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline) — **Round 019 世界觀落地 + Act II Outline設計起步（2026-04-10）**；CDL-185~189 落檔；Act II Outline v0.1 草案列出；Q1-Q8 待作者回答
+- Phase 14 (Act II Outline) — **Round 020 Act II Outline深化 + v0.2完成（2026-04-11）**；CDL-205~211 落檔；ACT_II_OUTLINE.md v0.2 建立，待作者批核
 
 ## Current Objective
-- 作者回答 Act II Outline Q1-Q8（螢揭示時機/美夜子破冰/朱音辯論深度/地下化呈現/珍寶珠payoff/兩大事件時序/夕和解形式/幕末情緒定調）
+- **ACT_II_OUTLINE.md v0.2 作者批核**（完成後進 Act III Outline；全四幕 Outline 完成後才進 Beat Sheet）
 
-## Completed This Round (Round 019 — 2026-04-10 世界觀落地 + Act II Outline起步)
-- [x] 桐生健目擊變身三重失效設計確認（CDL-185）：系統延遲+黑奏暗中干預+距離因素
-- [x] 集體潛意識戰場視覺設計確認（CDL-186）：超現實香港後巷+唐樓；風暴期黑色淤泥+扭曲人臉
-- [x] 魔法器官具體設計確認（CDL-187）：光環刑具化+枷鎖紋（Shackle Mark）
-- [x] 情緒視覺詛咒具體設計確認（CDL-188）：感官異化；各角色防禦策略差異
-- [x] 日常偽裝設計框架確認（CDL-189）：P圖/OOTD偽裝/美食打卡虛假；心酸生存羞恥
+## Completed This Round (Round 020 — 2026-04-11 Act II Outline深化)
+- [x] CDL-205 落檔：E-05a 總部被襲——虛榮的代價（操洩露據點+EMB突襲+Unit 01確認+12角度掃描批核）
+- [x] CDL-206 落檔：E-06 美夜子失蹤具體設計（EMB SOP合理性+鏡像處刑室+美夜子傲慢業力迴力鏢）
+- [x] CDL-207 落檔：Phase A [NC] 彩「卡頓」場景（黑奏系統困惑+非魔法愛Plant-B前置）
+- [x] CDL-208 落檔：假情緒承接→真情緒承接三段弧（E-05偽→E-07失效→E-11真）
+- [x] CDL-209 落檔：E-11愛莉動機修正（童真「幫媽媽修機器」主因；比較心理只係微小潛台詞）
+- [x] CDL-210 落檔：變身鏡「Hangover Phase」美學+夕聲音暗示（Act IV打碎鏡子遠端前置）
+- [x] CDL-211 落檔：黑奏農場觀察視角（彩冷靜評估晴香為電池；因果閉環視覺錨點）
+- [x] ACT_II_OUTLINE.md v0.1→v0.2：新增E-05a beat；E-06具體化；三段弧整合；愛莉動機修正；Hangover Phase；農場觀察；P-C06~P-C08新增
+- [x] CROSS_ACT_FORESHADOW_MANIFEST.md：P-C06~P-C08 補入；Act IV payoff P-C08 標記
+
+## Completed This Round (Round 019 — 2026-04-10 世界觀落地 + ACT_II_OUTLINE.md v0.1完成)
+- [x] CDL 重複 ID 修正：CDL-185~189（桐生健/集體潛意識/魔法器官/情緒詛咒/日常偽裝）重編為 CDL-192~196
+- [x] CDL-197~203 落檔（Q1-Q10 答案）：Act II scope/黑奏動機兩步/偽王道覺醒/朱音腐化/愛莉三步/玻璃庭院/魔女狩獵期
+- [x] **ACT_II_OUTLINE.md v0.1 建立**：6個Phase、15個beat、AKS進程、角色弧線摘要、Act II新增Plant P-C01~P-C05
+- [x] CROSS_ACT_FORESHADOW_MANIFEST.md 更新：Act II plants P-C01~P-C05 補入；Act II payoff進度標記
+- [x] PROJECT_STATUS.md 更新：CDL-192~196修正；Round 019已完成項更新
+- [x] Q1=C 確認：Act II scope CDL-197 落檔；QQ-03 RESOLVED（CDL-190 E-11a附近）
+- [x] Q2=B 確認：AKS-S1揭示時機 = E-11a附近（CDL-190已落檔）；QQ-03 RESOLVED
+- [x] Q5=C 確認：美夜子soft pivot 【無價值留守】（CDL-191已落檔）；QQ-05 RESOLVED
+- [x] **CDL-204 落檔**：術語清理——廢除「共鳴式調律」/「情緒諧振」/「調音叉」/「共鳴波動」/「執念飽和度」等術語；「情緒承接（Emotional Acceptance）」四步機制取代；02_glossary.md + 01_world_rules_and_costs.md 更新完成
+
+## Completed This Round (Round 019 — 2026-04-10 世界觀落地 + Act II Outline起步，早段)
+- [x] 桐生健目擊變身三重失效設計確認（CDL-192，原誤標CDL-185）：系統延遲+黑奏暗中干預+距離因素
+- [x] 集體潛意識戰場視覺設計確認（CDL-193，原誤標CDL-186）：超現實香港後巷+唐樓；風暴期黑色淤泥+扭曲人臉
+- [x] 魔法器官具體設計確認（CDL-194，原誤標CDL-187）：光環刑具化+枷鎖紋（Shackle Mark）
+- [x] 情緒視覺詛咒具體設計確認（CDL-195，原誤標CDL-188）：感官異化；各角色防禦策略差異
+- [x] 日常偽裝設計框架確認（CDL-196，原誤標CDL-189）：P圖/OOTD偽裝/美食打卡虛假；心酸生存羞恥
 - [x] ACT_I_OUTLINE.md [SQ-A]節更新：三重失效解釋補入
 - [x] 01_world_rules_and_costs.md 更新：生理代價擴充（枷鎖紋/情緒視覺詛咒）；集體潛意識戰場視覺補充
-- [x] Act II Outline v0.1 草案起草（8個設計問題列出，待作者回答）
 
 ## Completed This Round (Round 018 — 2026-04-08 無名男孩整合)
 - [x] Canon File Integrator Phase 1–4 完成（現有文件全覽/風格分析/位置確認/矛盾掃描）

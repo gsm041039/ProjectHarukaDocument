@@ -44,14 +44,23 @@
 
 | Plant ID | 植入位置 | 植入內容 | Payoff 目標幕 | 備注 | CDL | Status |
 |---|---|---|---|---|---|---|
-| P-B01 | 待定 | AKS-S1 PLACEHOLDER（螢悲劇身份建立）| Act I or II 早期 | 觀眾知螢已逝；黑奏動機info前置；**BLOCKED QQ-03** | QQ-03 | `[BLOCKED]` |
+| P-B01 | Act II末期（E-11a附近）| AKS-S1：朔找到帝國最高機密舊檔案——螢死亡報告+殘舊紅絲絨熊公仔修復圖紙（Text Prop型揭示）| Act III | 觀眾拼湊「毀滅百萬人的底層驅動=六歲孩童的妄想」；前置Act III茶會真身揭露衝擊；**QQ-03 RESOLVED（CDL-190）** | CDL-190 | `[PLANTED]` |
 | P-B02 | E-01/[NC] | 操父親陰影輕量暗示 | Act IV | 操三位一體視覺化（整合被否定的自我）；**DEFERRED QQ-06** | QQ-06 | `[DEFERRED]` |
 
 ---
 
-## Act II → 跨幕植入清單（待設計後補入）
+## Act II → 跨幕植入清單（ACT_II_OUTLINE.md v0.1，2026-04-10）
 
-*此區塊在 Act II Outline 設計完成後填寫*
+| Plant ID | 植入位置 | 植入內容 | Payoff 目標幕 | 回收內容摘要 | CDL | Status |
+|---|---|---|---|---|---|---|
+| P-C01 | E-09 社死崩潰 | 秋穗「古典制約」情感背叛場景（「妳對我的信任係化學反應的錯覺」）| Act IV | 晴香再次面對信任問題時P-A20/P-C01雙層迴響；秋穗弧線閉環 | CDL-115 | `[PLANTED]` |
+| P-C02 | E-13 無名男孩之死 | 操目睹未出手——「永遠之罪」誕生 | Act IV | 操孤舞/人偶牆動機根源；Act IV操弧線核心燃料（CDL-148 merge）| CDL-145/148 | `[PLANTED]` |
+| P-C03 | E-11 潛意識風暴 | 愛莉動機在深潛中首次情感呈現（選擇繼續消耗自身的理由）| Act III/IV | 愛莉最終選擇/消失前的情感根源；愛莉弧線情感核彈 | CDL-201 | `[PLANTED]` |
+| P-C04 | E-12 屍骸女皇出現 | 屍骸女皇的行動/動作令晴香有「似曾相識感」（觀眾無解讀工具）| Act III | P-A09（朱音手臂傷口）閉環：recognition trigger確認朱音=屍骸女皇 | — | `[PLANTED]` |
+| P-C05 | Act II-XX 玻璃庭院茶會 | 彩在茶會中的具體宣告/行動（btd Beat Sheet）| Act III | 黑奏操縱彩相關行動在Act III的直接前置 | CDL-202 | `[PLANTED]` |
+| P-C06 | E-05 [NC] + E-08 [NC] | 彩「卡頓」1-2場景——晴香非魔法善意觸發黑奏系統困惑（紫色閃爍+身體僵直0.5秒）| Act III/IV | 黑奏三死穴B（非魔法愛無法收割）情感前置；回頭看=黑奏一直感應到威脅但無法消除 | CDL-207 | `[PLANTED]` |
+| P-C07 | E-08 高壓場景 | 黑奏農場觀察視角——彩暗中冷靜評估晴香痛苦（電池充電眼神）| Act III/IV | 黑奏「算了最多、算錯最關鍵一步」的終極諷刺前置；因果閉環（CDL-189）視覺錨點 | CDL-211 | `[PLANTED]` |
+| P-C08 | E-09/E-14 + 各Phase變身場景 | 變身鏡「Hangover Phase」美學（光環沉重/勒緊）+ 夕聲音「妳又要穿上這層假皮去逃避了嗎？」| Act IV | 打碎變身鏡（CDL-187）概念在觀眾潛意識累積萌芽；CDL-187 Act IV場景遠端前置 | CDL-210 | `[PLANTED]` |
 
 ---
 
@@ -73,12 +82,13 @@
 
 | Plant ID | 植入內容 | 回收時機 | 優先度 |
 |---|---|---|---|
-| P-A07 | 情緒連結後遺症脆弱點（晴香）| E-11a前後 | HIGH |
-| P-A18 | 血糖手錶CGM後門 | E-11a | HIGH |
-| P-A20 | 葡萄糖水伏筆 | 113年6-7月社會性死亡期 | HIGH |
-| P-A21 | 朱音戒斷症狀暗示 | Act II Early（朱音後巷注射揭露）| HIGH |
-| P-A06 | 守恆定律Layer 1→Layer 2 | Act II高潮秋穗解說 | MEDIUM |
-| P-A04 | E-02.5珍寶珠誤導 | Act II朱音揭露期 | MEDIUM |
+| P-A07 | 情緒連結後遺症脆弱點（晴香）| E-11a前後 | HIGH | ✅ PAID（E-11a，CDL-190） |
+| P-A18 | 血糖手錶CGM後門 | E-11a | HIGH | ✅ PAID（E-11a，CDL-115） |
+| P-A20 | 葡萄糖水伏筆 | E-09 社會性死亡期 | HIGH | ✅ PAID（E-09，CDL-163/165）|
+| P-A21 | 朱音戒斷症狀暗示 | E-07 朱音後巷注射揭露 | HIGH | ✅ PAID（E-07，CDL-200） |
+| P-A06 | 守恆定律Layer 1→2→3 | E-08/E-10/E-11a三段 | MEDIUM | ✅ PAID（分三段，CDL-034）|
+| P-A04 | E-02.5珍寶珠誤導 | E-07 朱音腐化揭露 | MEDIUM | ✅ PAID（E-07，CDL-052/158）|
+| P-B01 | AKS-S1 螢死亡報告+熊公仔圖紙 | E-11a | HIGH | ✅ PAID（E-11a，CDL-190）|
 
 ### Act III 需回收的 Plant
 
@@ -109,8 +119,9 @@
 | P-A02 | 晴香「無論如何都能笑」| 終局確認主題 | HIGH |
 | P-A15 | 彩「下次呢？」(Act IV) | 最深心痛 | HIGH |
 | P-B02 | 操父親陰影 | 操三位一體視覺化 | MEDIUM |
+| P-C08 | 變身鏡Hangover Phase + 夕聲音 | 打碎變身鏡（CDL-187）高潮 | CRITICAL |
 
 ---
 
-**Last Updated:** 2026-04-09（Round 018，基於 ACT_I_OUTLINE.md v1.16）
-**下次更新：** Act II Outline 設計完成後補入 Act II Plant 清單
+**Last Updated:** 2026-04-11（Round 020，基於 ACT_II_OUTLINE.md v0.2）
+**下次更新：** Act III/IV Outline 設計完成後補入 Act III/IV Plant 清單
