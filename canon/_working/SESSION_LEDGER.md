@@ -1,10 +1,19 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline) — **Round 020 Act II Outline深化 + v0.2完成（2026-04-11）**；CDL-205~211 落檔；ACT_II_OUTLINE.md v0.2 建立，待作者批核
+- Phase 14 (Act II Outline) — **Round 021 Act II Gap Analysis 完成（2026-04-12）**；發現4個重大缺失+1個觸發點矛盾；QQ-52~55 落檔，待作者答覆後修訂 v0.3
 
 ## Current Objective
-- **ACT_II_OUTLINE.md v0.2 作者批核**（完成後進 Act III Outline；全四幕 Outline 完成後才進 Beat Sheet）
+- **作者答覆 QQ-52~55 → ACT_II_OUTLINE.md v0.3 修訂 → 批核**（完成後進 Act III Outline；全四幕 Outline 完成後才進 Beat Sheet）
+
+## Completed This Round (Round 021 — 2026-04-12 Act II Gap Analysis)
+- [x] source check：timeline_raw.md（113年5月底-114年3月段落）、outline_raw.md（朱音cascade）、CROSS_ACT_FORESHADOW_MANIFEST.md（P-A25確認）
+- [x] 發現 Gap 1（Critical）：E-09 社死觸發點矛盾——v0.2 用帝國法案，timeline 用夕拍片背叛
+- [x] 發現 Gap 2（High）：朱音 Phase B 完整 cascade 缺失（小光之死→屍骸樂園→三位一體辯論→放逐，113年5月底-6月中旬）
+- [x] 發現 Gap 3（Critical）：鏡像破碎之夜完全缺失（操父親背叛+紗夜犧牲，113年7-8月）；P-A25 payoff 幕歸屬未定
+- [x] 發現 Gap 4（Medium）：E-15 scope 缺失陰影視覺+剪髮（114年3月）
+- [x] QQ-52~55 落檔（QUESTION_QUEUE.md Active Questions）
+- [x] NEXT_ACTION.md 更新：下一步改為「作者答覆 QQ-52~55 → v0.3」
 
 ## Completed This Round (Round 020 — 2026-04-11 Act II Outline深化)
 - [x] CDL-205 落檔：E-05a 總部被襲——虛榮的代價（操洩露據點+EMB突襲+Unit 01確認+12角度掃描批核）

@@ -1,17 +1,28 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_II_OUTLINE.md v0.2（或提出最終修改意見）**
+**作者答覆 QQ-52~55（Act II Gap Analysis 問題）→ 更新 ACT_II_OUTLINE.md v0.3 → 作者批核**
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.18 **APPROVED**（2026-04-09）
-- ✅ CDL-001~203 全部落檔
+- ✅ CDL-001~211 全部落檔
 - ✅ ACT_II_OUTLINE.md v0.2 建立（2026-04-11）
-- ✅ CROSS_ACT_FORESHADOW_MANIFEST.md 更新（P-C01~P-C05補入；Act II payoff標記）
-- ⬜ 作者批核 Act II Outline → 才能進 Act III Outline
+- ✅ CROSS_ACT_FORESHADOW_MANIFEST.md 更新（P-C01~P-C08）
+- ✅ Gap Analysis 完成（2026-04-12）：發現4個重大缺失 + 1個觸發點矛盾
+- ⬜ **作者答覆 QQ-52~55**（見 QUESTION_QUEUE.md）
+- ⬜ 根據答案修訂 → ACT_II_OUTLINE.md v0.3
+- ⬜ 作者批核 v0.3 → 才能進 Act III Outline
 - ⬜ Act III/IV Outline 設計
 - ⬜ 全四幕 Outline 完成後才進 Beat Sheet
 - ⬜ QQ-51：E-03 操「手術室」Flash — 仍 BLOCKED（不阻塞 Act II/III Outline）
+
+## Gap Analysis 發現摘要（QQ-52~55）
+| QID | 問題 | 優先度 |
+|---|---|---|
+| QQ-52 | E-09 社死觸發：帝國法案 vs 夕拍片背叛（Critical 矛盾）| Critical |
+| QQ-53 | 朱音 cascade（小光之死→屍骸樂園→放逐）完全缺失 | High |
+| QQ-54 | 鏡像破碎之夜（操父親背叛+紗夜犧牲）完全缺失，P-A25 payoff歸屬未定 | Critical |
+| QQ-55 | E-15 scope：陰影視覺+剪髮 Outline 層還是 btd | Medium |
 
 ## 批核後下一步
 - Act II 批核 → 進 Act III Outline 設計
