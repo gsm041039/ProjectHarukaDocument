@@ -96,6 +96,28 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 - NEEDS_AUTHOR_INPUT
 - NOT_RELEVANT
 
+---
+
+## Round 022 新增 Topics（2026-04-13 — Act III 地下抵抗期填充討論）
+
+| Topic | Relevant Angles | Stable Angles | Unstable Angles | Needs Author Input Angles | Suggested Question IDs |
+|---|---|---|---|---|---|
+| Act III 地下抵抗期「受傷仍救人」beat | 角色成長、主題表達、氣氛/張力、觀眾體驗 | 需要此類beat（12角度全部支持）| 具體beat數量+情感基調 | 數量/基調選擇 | Q-R1 |
+| 情緒美食家線（情緒黑市世界觀）| 世界規則壓力、觀眾體驗/知識差距、資訊揭示控制 | 帝國情緒資本主義存在黑市面向（CDL-196基礎上）| 是否做成獨立線；入路角色 | 入路方式選擇 | Q-R2 |
+| 尋找朱音主動搜尋線 | 入場時機/存在感、關係動態、埋伏/回收、角色成長 | 朱音11個月消失需有前置積累（timeline_raw支持）| 搜尋形式（主動/被動/合并線）| 做法選擇 | Q-R3 |
+| 114年4月凜三連爆 Outline 層 beat 數量 | 結構功能、角色成長、關係動態 | 三件事均在timeline_raw確認 | 是否拆成3/2/1個beat | beat數量選擇 | Q-R4 |
+| 公開處刑公告（114年5月）具體設計方向 | 氣氛/張力、結構功能、主題表達、觀眾體驗 | 事件存在（timeline_raw確認）| 針對對象（集體/晴香/身份）| 設計方向選擇 | Q-R5 |
+
+### Matrix Rows（Round 022）
+
+| Matrix ID | Topic | Angle | Current Interpretation | Source Basis | Status | Why This Angle Matters | Question Needed? | Draft Question | A | B | C | Downstream Work | Priority |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| M-R01 | 地下抵抗期「受傷仍救人」beat | 主題表達、氣氛/張力 | 完全缺失。Act II Phase D-F僅有被動高潮，無主動選擇驅動 | 12角度創作提案（非source衍生）| NEEDS_AUTHOR_INPUT | 無此類beat = Act IV處刑公告缺乏「她們一直在努力」的落差感；主題「選擇的代價」缺乏高風險場景論證 | Yes（Q-R1）| beat數量和情感基調？ | 一個觸目驚心型 | 兩個小beat積累型 | 作為其他beat的背景質感 | Act III Outline E-III-01設計 | High |
+| M-R02 | 情緒美食家線 | 世界規則壓力、觀眾體驗 | 情緒黑市作為帝國情緒資本主義地下面向——CDL-196有「美食打卡虛假」日常偽裝基礎但無黑市設計 | CDL-196（基礎）；12角度創作擴展 | NEEDS_AUTHOR_INPUT | 帝國如何在日常生活中執行魔女狩獵的世界質感缺失；Act III地下生活缺具體生存困境場景 | Yes（Q-R2）| 情緒美食家線的入路方式？ | 完全新角色（情緒掮客）| 從秋穗延伸（不需新角色）| 完全唔做留Act IV | Act III Outline 世界觀beat設計 | Medium |
+| M-R03 | 尋找朱音主動搜尋線 | 入場時機/存在感、關係動態、埋伏/回收 | 朱音113年6月底放逐→114年5月回歸，11個月消失無Outline交代 | timeline_raw（朱音消失記錄）| NEEDS_AUTHOR_INPUT | 朱音回歸若無前置積累=機械降神；操成長弧缺主動性節點 | Yes（Q-R3）| 搜尋線的做法？ | 做主動搜尋線（2-3個失敗嘗試）| 唔做，改為零碎訊號 | 搜尋線和美食家線合併 | Act III Outline朱音相關beat；操Act III弧線 | High |
+| M-R04 | 114年4月凜三連爆 Outline beat數量 | 結構功能、角色成長、關係動態 | timeline_raw記錄三件事但無Outline對應：①觀眾知凜已死+被重組（美夜子坦白）②美夜子記憶恢復（知係晴香親姐）③凜自願改造Unit 00-Null | timeline_raw（114年4月）| NEEDS_AUTHOR_INPUT | 美夜子Act III弧線高潮；凜弧線終點設計影響整個Act III節奏配置 | Yes（Q-R4）| 凜三連爆要幾多個Outline beat？ | 三個獨立beat | 兩個beat（揭露+記憶恢復合并/凜自願改造獨立）| 一個大beat「凜弧線高潮」 | Act III Outline E-III-XX凜相關beat | High |
+| M-R05 | 公開處刑公告（114年5月）設計方向 | 氣氛/張力、結構功能、主題表達 | timeline_raw確認存在，但針對對象/性質完全未設計 | timeline_raw（114年5月）| NEEDS_AUTHOR_INPUT | 公告是Act III的第一個大錨點，設計方向影響整幕張力走向 | Yes（Q-R5）| 公開處刑公告針對對象？ | 集體死刑令（所有主角）| 針對晴香一人（他人處置不同）| 針對「魔法少女」身份的全面消滅令 | Act III Outline Act III-XX設計；Act IV處刑場景前置 | High |
+
 ## Compression Rule
 完成 rows 後，先輸出：
 1. Topic-by-Angle summary

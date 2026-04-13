@@ -1,10 +1,21 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline) — **Round 021 Act II Gap Analysis 完成（2026-04-12）**；發現4個重大缺失+1個觸發點矛盾；QQ-52~55 落檔，待作者答覆後修訂 v0.3
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 022 Act III 地下抵抗期填充討論（2026-04-13）**；提出三條填充方向（救援beat/美食家線/朱音搜尋）；Q-R1~Q-R5 落檔；待作者答覆後進 Act III Outline
 
 ## Current Objective
-- **作者答覆 QQ-52~55 → ACT_II_OUTLINE.md v0.3 修訂 → 批核**（完成後進 Act III Outline；全四幕 Outline 完成後才進 Beat Sheet）
+- ①作者答覆 **QQ-52~55**（Act II Gap Analysis，Critical）→ ACT_II_OUTLINE.md v0.3
+- ②作者答覆 **Q-R1~Q-R5**（Act III 地下抵抗期設計，High）→ ACT_III_OUTLINE.md v0.1 起稿
+
+## Completed This Round (Round 022 — 2026-04-13 Act III 地下抵抗期填充討論)
+- [x] 定位「空白期」真實位置：Act II Phase D-F（密度低）+ Act III開場（完全空白）
+- [x] 12角度全覆蓋掃描：地下抵抗期填充需求——全部12角度RELEVANT
+- [x] 創作提案三條：①受傷仍救人的主動危難beat；②情緒美食家線（情緒黑市世界觀）；③尋找朱音主動搜尋線
+- [x] 提出Q-R1~Q-R5（Act III Outline設計問題）
+- [x] REASONING_LOG.md 更新（Round 022全部推理記錄）
+- [x] QUESTION_MATRIX.md 更新（M-R01~M-R05新增rows）
+- [ ] 待作者答覆 Q-R1~Q-R5 → ACT_III_OUTLINE.md v0.1 起稿
+- [ ] 待作者答覆 QQ-52~55 → ACT_II_OUTLINE.md v0.3
 
 ## Completed This Round (Round 021 — 2026-04-12 Act II Gap Analysis)
 - [x] source check：timeline_raw.md（113年5月底-114年3月段落）、outline_raw.md（朱音cascade）、CROSS_ACT_FORESHADOW_MANIFEST.md（P-A25確認）

@@ -1,11 +1,14 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline；ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**；**ACT_II_OUTLINE.md v0.2 [DRAFT 2026-04-11]**；CDL-192~211落檔；待作者批核 Act II Outline v0.2
-- Active Topic / Section: **Act II Outline 批核**（v0.2 draft完成，等待作者審閱）
-- Current Objective: 作者審閱並批核 ACT_II_OUTLINE.md v0.2，或提出最終修改意見
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（待批核） + Act III Outline 預設計討論
+- ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**
+- **ACT_II_OUTLINE.md v0.2 [DRAFT 2026-04-11]**；待作者答覆 QQ-52~55 → v0.3
+- **Act III 地下抵抗期填充討論完成（2026-04-13）**：三條方向提案；Q-R1~Q-R5 待作者答覆
+- Active Topic / Section: **Act II v0.3 + Act III Outline v0.1**（並行）
+- Current Objective: 作者答覆 QQ-52~55 + Q-R1~Q-R5 → 兩份Outline同步推進
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-11
+- Last Stable Updated At: 2026-04-13
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
