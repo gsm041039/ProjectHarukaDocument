@@ -35,7 +35,7 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
 | 層級 | 應包含 | 唔應包含 |
 |---|---|---|
 | **Outline** | Act結構、beat功能、AKS進程、跨幕埋位、大方向確認 | 具體場景執行、具體對白 |
-| **Beat Sheet** | 每beat發生咩大事、情感弧、關鍵設計決定（A/B/C已答）、CDL錨點、開放問題 | 具體對白、鏡頭角度、timing、動作細節 |
+| **Beat Sheet** | 每beat發生咩大事、情感弧、關鍵設計決定（A/B/C已答）、CDL錨點、**導演感受→場景決策翻譯（DFT）**、開放問題 | 具體對白、鏡頭角度、timing、動作細節 |
 | **Scene/Script** | 具體對白、鏡頭設計、timing、動作細節、視覺執行 | — |
 
 ## ⚠️ Stage 判斷門控（AI 必須主動判斷，唔可以「是但」跳層）
@@ -56,6 +56,7 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
 1. 我現在寫的係「這個 beat 發生咩大事 + 情感功能」，還是「具體怎樣拍/怎樣說」？
 2. 如果係後者——停下來，這係 Scene/Script 層
 3. Outline 是否已批核？如果未，先完善 Outline
+4. 我有冇完成 DFT 翻譯？如果我只描述了「氣氛」或「感受」而冇具體決定角色行為/空間/道具/節奏——返回 DFT Gate 補完再輸出。
 
 **違反信號：** 出現「X秒特寫」「具體台詞wording」「鏡頭角度」「動作timing」→ 已跳入 Scene/Script 層，須退回 Beat Sheet 層，不進任何 canon 文件
 
@@ -101,6 +102,7 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
 - [ ] 呢個 beat 係咪 Act 開場（第一個 beat）？→ 必讀 outline_raw.md Act 開場段落 + 角色家中/出門設計
 - [ ] backup/draft/scenes 有冇呢個 beat 的現有場景描述？→ 先讀，唔好遺漏已有設計
 - [ ] 呢個 beat 有冇角色習慣/日常行為展示？→ 讀 09_Character_Senses 對應角色
+- [ ] **Light DFT check**：呢個 beat / event 想觀眾感受到咩？主要靠哪個 carrier（角色行為 / 關係結構 / 環境 / 媒介分配）？如果揀另一種事件位置或媒介，感覺會點變？
 
 **禁止：** 喺只讀 ACT_I_OUTLINE.md 本身及 CDL 的情況下直接修改或新增 beats。
 
@@ -171,6 +173,95 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
 **禁止在完成 Step 1+2 之前輸出任何 beat 設計內容。**
 讀完後必須在輸出前列明：「已讀文件：[清單]」作為 evidence trail。
 
+---
+
+## ⚠️ Directorial Feeling Translation Gate（DFT）
+
+**觸發條件：** 任何 Beat Sheet 設計、scene proposal、beat proposal、或關係/情感弧設計任務
+
+**核心原則：** 唔夠只係講感覺；必須將感覺翻譯成決策。
+
+> A scene is not considered sufficiently designed if you only describe tone, mood, or visual atmosphere without specifying the concrete behavior and environment decisions that generate that feeling.
+
+**DFT 適用層級：**
+- **Outline / Event Candidate 層 = Light DFT**（唔使填完整表，但必須答：目標感受 / 主要 carrier / 換媒介或換位置感覺會點變）
+- **Beat Sheet 層 = Full DFT**（完整七個承載面 + Feeling-to-Decision Table）
+
+DFT is not Beat-only in principle. At outline / event-candidate layer, a light version of DFT must already be considered whenever the emotional feel of a beat is load-bearing for reveal, relationship, theme, or payoff.
+
+### 必須完成的翻譯步驟（每個 beat 輸出前）
+
+**Step DFT-1 — 定義目標感受**
+- 呢個 beat 觀眾應該感受到咩？（例：假安全感 / 靜默恐懼 / 痛苦的溫柔 / 被壓制的希望 / 社會性窒息 / 情感麻木 / 脆弱的溫暖 / 壓迫性的必然）
+- 為咩要係呢度帶出呢個感受？（服務於哪個更大的 act / theme / reveal / 關係功能？）
+
+**Step DFT-2 — 感受→決策翻譯（七個承載面）**
+
+必須逐一過以下七個面，決定具體選擇：
+
+| 承載面 | 必須決定的問題 |
+|---|---|
+| **A. 角色行為選擇** | 每個關鍵角色應該做咩 / 拒絕做咩？哪種行為比其他合理選項更能產生目標感受？什麼應該留在話說一半、未完成、被打斷？ |
+| **B. 關係互動結構** | 誰主動誰被動誰迴避？互動係直接、迴避、尷尬、過度小心、表演性、被動攻擊、過度有禮，還是情感位移？關係動態本身如何承載感受？ |
+| **C. 環境／空間設計** | 什麼空間設置幫助產生目標感受？（太開放 / 太小 / 太乾淨 / 太擁擠 / 太空 / 太靜 / 過渡空間 / 半公開半私密空間）空間應該暗示什麼而不直接說明？ |
+| **D. 道具／物件狀態** | 什麼物件狀態、信件、雜亂、損壞、禮物、制服、剩飯、座位安排、日常物品幫助承載感受？哪些道具係情感上最關鍵的？ |
+| **E. 資訊呈現方式** | 什麼直接展示？什麼延遲？什麼係觀眾感受到但未能完全理解？什麼應該被注意但不能被完整詮釋？ |
+| **F. 節奏／停頓密度** | 呢個 scene 應該呼吸、猶豫、拖曳、突然剪切，還是感覺過度順滑？沉默或停頓在哪裡比對白更有力？ |
+| **G. 媒介分配（遊戲結構）** | 呢個感受應該由主線 beat、非戰鬥段、side quest、text prop、選項互動，還是環境敘事承載？為什麼這個媒介是最佳承載者？ |
+
+**Step DFT-3 — 比較替代選項**
+
+對每個重要的感受承載決策，必須比較至少兩個合理選項：
+- 為什麼推薦選項更能服務目標感受
+- 被拒絕的選項會產生什麼不同的感受
+
+**Step DFT-4 — 跨幕衝擊 + Later-Act Risk 檢查**
+- 呢個感受設計是否為後來的 payoff / reveal / collapse / 結局意義做好準備？
+- 呢個 scene 係咪意外削弱了後來的情感升級？
+- 呢個行為選擇係咪和後來的角色塑造或主題 payoff 矛盾？
+- 呢個感受係咪提前透支後段情緒？係咪太靚 / 太重 / 太直白令後面唔夠升級空間？
+
+### 必須輸出的格式（任何 beat proposal 必須包括）
+
+**Directorial Feeling Target**
+- 目標感受：
+- 導演意圖（服務於哪個更大功能）：
+
+**Feeling-to-Decision Table**
+
+| 承載面 | 提案決定 | 為何產生目標感受 | 考慮過的替代選項 | 為何替代選項較差 | 跨幕衝擊 | Later-Act Risk |
+|---|---|---|---|---|---|---|
+| 角色行為 | | | | | | |
+| 關係動態 | | | | | | |
+| 環境／空間 | | | | | | |
+| 道具／物件 | | | | | | |
+| 資訊呈現 | | | | | | |
+| 節奏／停頓 | | | | | | |
+| 媒介分配 | | | | | | |
+
+**Risk Check**
+- 什麼情況下呢個 scene 會感覺：過於直白 / 太平淡 / 太煽情 / 太早 / 太弱 / 太 on-the-nose / 情感偏離目標？
+
+### 硬性規則
+
+- **禁止**：只描述鏡頭語言 / 只用視覺形容詞 / 只用抽象 tone label
+- **禁止**：「柔和燈光」「壓抑氣氛」「空氣凝重」等表面描述，若未附帶具體行為/空間/互動決策
+- **禁止**：只為當場 feel 最優化——DFT 決策必須係「全作內最佳」，唔係「場景內最佳」
+- **必須**：感受翻譯成敘事和場景建構決策
+- **必須**：在任何 DFT 決策後問：呢個 feel 有冇過早消耗後段情緒？有冇提前講穿？有冇令後面唔夠升級？
+
+Do not optimize a beat only for local emotional effect. Always check whether the proposed feeling delivery weakens or prematurely consumes later-act payoff, reveal, escalation, or ending meaning.
+
+### 落檔規則
+
+DFT 分析結果必須落入：
+`canon/_working/story_construction/DIRECTOR_INTENT_TRANSLATION_TABLE.md`
+
+每列格式：
+| Beat ID | 目標感受 | 導演意圖 | 角色行為決定 | 關係互動決定 | 環境空間決定 | 道具物件決定 | 資訊呈現決定 | 節奏停頓決定 | 媒介分配 | 替代考慮 | 拒絕原因 | 跨幕衝擊 | Later-Act Risk | 狀態 |
+
+---
+
 ## Mandatory Question Matrix Gate
 對任何 reconstruction-level / blocked decision / reveal-order / theme / relationship / outline-function 問題：
 - 唔可以直接問作者
@@ -237,6 +328,7 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
 4. STORY DASHBOARD
 5. TOP RISKS / UNSTABLE ANGLES
 6. CONSOLIDATED AUTHOR QUESTIONS
+6.5. DIRECTORIAL FEELING TRANSLATION（任何 beat proposal 必須包括 DFT Table）
 7. PROPOSAL BLOCK（clearly non-final）
 8. CANDIDATES FOR LATER INTAKE
 9. FILE UPDATE PLAN
