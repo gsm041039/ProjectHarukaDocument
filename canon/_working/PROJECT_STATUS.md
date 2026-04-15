@@ -1,12 +1,13 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（待批核） + Act III Outline 預設計討論
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（待批核） + Act III Outline 起稿中
 - ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**
-- **ACT_II_OUTLINE.md v0.2 [DRAFT 2026-04-11]**；待作者答覆 QQ-52~55 → v0.3
-- **Act III 地下抵抗期填充討論完成（2026-04-13）**：三條方向提案；Q-R1~Q-R5 待作者答覆
-- Active Topic / Section: **Act II v0.3 + Act III Outline v0.1**（並行）
-- Current Objective: 作者答覆 QQ-52~55 + Q-R1~Q-R5 → 兩份Outline同步推進
+- **ACT_II_OUTLINE.md v0.2 [DRAFT]**；仍待 QQ-52~55 答覆 → v0.3
+- **CDL-212~218 落檔（2026-04-13）**：Act III地下抵抗期+犧牲結構全部決策完成
+- **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告
+- Active Topic / Section: **Act II v0.3（待QQ-52~55）+ Act III Outline v0.1 起稿**
+- Current Objective: ①QQ-52~55 答覆 → Act II v0.3；②ACT_III_OUTLINE.md v0.1 起稿
 - Resume Confidence: HIGH
 - Last Stable Updated At: 2026-04-13
 
@@ -43,6 +44,15 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 022，2026-04-13，Q-R1~Q-R7全部確認）
+- **CDL-212**：Q-R1=B 地下救援兩個小beat積累型；凜交錯整合（接舉報電話=重組後的凜）
+- **CDL-213**：Q-R2=D 糖果唐樓/護士長/品酒師作為情報線入路（現有Canon設定直接使用）
+- **CDL-214**：Q-R3=C 搜尋線+美食家線合併；三動機（黑市懸賞+操創傷共鳴+晴香未了之結）；下水道無聲重逢收結（留糖+不打擾）
+- **CDL-215**：Q-R4=B 凜三連爆兩個Outline beat（E-III-01詛咒真相重疊/E-III-02拒絕治癒的信徒）
+- **CDL-216**：Q-R5=混合型 + Bug Fix：公開處刑目標改為**朱音**（非操）；廢除「操=處刑目標」舊設定
+- **CDL-217**：Q-R6=B Day13公告/Day14嘆息之橋分開事件；中間一晚死亡倒數確立
+- **CDL-218**：Q-R7=D 錯位雙殺——操Day13學校人偶牆、朱音Day14嘆息之橋糖果山；廢除timeline_raw「兩人一同犧牲」設定
 
 ## New Canon This Round（Round 019，2026-04-10，完成）
 - **AKS-S1 揭示 = Act II末期E-11a附近（CDL-190）**：Text Prop型（螢死亡報告+熊公仔圖紙）；朔找到帝國最高機密；Act II維持統治者原型壓迫感；QQ-03 RESOLVED

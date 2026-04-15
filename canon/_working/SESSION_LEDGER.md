@@ -7,15 +7,21 @@
 - ①作者答覆 **QQ-52~55**（Act II Gap Analysis，Critical）→ ACT_II_OUTLINE.md v0.3
 - ②作者答覆 **Q-R1~Q-R5**（Act III 地下抵抗期設計，High）→ ACT_III_OUTLINE.md v0.1 起稿
 
-## Completed This Round (Round 022 — 2026-04-13 Act III 地下抵抗期填充討論)
+## Completed This Round (Round 022 — 2026-04-13 Act III 地下抵抗期全設計 + Q-R1~Q-R7全部確認)
 - [x] 定位「空白期」真實位置：Act II Phase D-F（密度低）+ Act III開場（完全空白）
 - [x] 12角度全覆蓋掃描：地下抵抗期填充需求——全部12角度RELEVANT
-- [x] 創作提案三條：①受傷仍救人的主動危難beat；②情緒美食家線（情緒黑市世界觀）；③尋找朱音主動搜尋線
-- [x] 提出Q-R1~Q-R5（Act III Outline設計問題）
-- [x] REASONING_LOG.md 更新（Round 022全部推理記錄）
-- [x] QUESTION_MATRIX.md 更新（M-R01~M-R05新增rows）
-- [ ] 待作者答覆 Q-R1~Q-R5 → ACT_III_OUTLINE.md v0.1 起稿
+- [x] 創作提案三條：①受傷仍救人beat；②情緒美食家線；③尋找朱音主動搜尋線
+- [x] Q-R1=B 確認：兩個小beat積累型（CDL-212落檔）
+- [x] Q-R2=D 確認：糖果唐樓/護士長/品酒師（CDL-213落檔）
+- [x] Q-R3=C 確認：搜尋線+美食家線合併，三動機，無聲重逢（CDL-214落檔）
+- [x] Q-R4=B 確認：凜三連爆兩beat（CDL-215落檔）
+- [x] Q-R5=混合型 + Bug Fix：公開處刑目標改為朱音（CDL-216落檔）
+- [x] Q-R6=B 確認：Day13公告/Day14嘆息之橋分開（CDL-217落檔）
+- [x] Q-R7=D 確認：錯位雙殺，廢除timeline_raw「兩人一同犧牲」（CDL-218落檔）
+- [x] CDL-212~218 全部落檔
+- [x] PROJECT_STATUS.md 更新
 - [ ] 待作者答覆 QQ-52~55 → ACT_II_OUTLINE.md v0.3
+- [ ] ACT_III_OUTLINE.md v0.1 起稿（骨架已成型，可以開始）
 
 ## Completed This Round (Round 021 — 2026-04-12 Act II Gap Analysis)
 - [x] source check：timeline_raw.md（113年5月底-114年3月段落）、outline_raw.md（朱音cascade）、CROSS_ACT_FORESHADOW_MANIFEST.md（P-A25確認）
