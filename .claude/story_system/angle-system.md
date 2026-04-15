@@ -57,12 +57,32 @@
     - 故事最終 validate / complicate / reject / transform 呢種 stance？
     - **Hard rule：** 故事對一種 stance 的處理，不等於角色本人對該 stance 的理解。AI 必須分清：角色信乜、故事點對待佢個信念、故事係 validate / complicate / reject / transform 佢——三件事可以完全唔同。
 
+19. **Method Necessity / Form Meaning**
+    - 觸發條件：任何重大設定、事件執行方式、reveal 裝置、行為選擇、環境設計、象徵物件、ritual、或事件形式
+    - **唔係只問「呢個設計做到咩」，而係問「點解一定要用呢種形式去做到」。**
+    - 必須問：
+      - 呢個設計想達成咩效果？
+      - 有咩其他 plausible 形式都能達到相近的表面功能？
+      - 點解最後揀呢個形式？
+      - 呢個形式比其他選項多帶咗咩意義？（角色意義 / 主題意義 / 制度意義 / 感受意義 / 媒介意義 / payoff 意義）
+      - 如果換另一種形式，會失去咩？
+    - **Possible justification categories（常見形式意義解釋，唔係 angle 本身）：**
+      - personhood erosion / dignity cost
+      - commodification / public circulation
+      - forced visibility / exposure
+      - ritualization
+      - institutional logic
+      - emotional displacement
+      - medium-specific delivery
+      - setup/payoff efficiency
+    - **Hard rule：** 呢啲 category 係「可能的答案之一」，唔係 angle 本身。唔可以直接將 category 當作分析結論跳過推理過程。
+
 ---
 
 ## How to use
 
 **Baseline Pool (1–12)：** 每次全掃，逐一標記。
-**Extended Pool (13–18)：** 每次先做 relevance check，RELEVANT 者才展開。
+**Extended Pool (13–19)：** 每次先做 relevance check，RELEVANT 者才展開。
 
 每個 angle 標記：
 - RELEVANT

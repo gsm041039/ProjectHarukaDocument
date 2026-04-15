@@ -283,21 +283,79 @@ DFT 分析結果必須落入：
 
 ---
 
+## ⚠️ Cross-Act Dependency Gate（Mandatory, Always-On Global Overlay）
+
+**觸發條件：** 任何 story-base / full-outline / act-outline / beat-sheet / major event design / reveal decision / relationship decision / theme decision / medium allocation decision / author-question design 任務。
+
+**執行順序：** source check 之後、angle scan 之前、DFT 之前、問題壓縮之前。
+
+**唔係 Pool 2 可選角度。唔係 DFT 的子檢查。唔係 beat proposal 最後順手一眼。係全局硬規則，任何任務都必須先過。**
+
+對任何決定，必須先完成以下六項 cross-act dependency check：
+
+### 1. Upstream Dependencies（上游依賴）
+- 哪些更早的埋位、關係狀態、傷口、世界規則、信諾、象徵種子、或觀眾知識狀態，正在制約呢個決定？
+- 呢個選擇係咪違反或違背任何更早的已確認 canon？
+
+### 2. Downstream Dependencies（下游依賴）
+- 哪些後來的 reveal、payoff、反轉、情緒升級、崩塌、意識形態衝突、或結局意義，依賴呢個決定？
+- 呢個選擇係咪承諾咗後面必須兌現的東西？
+
+### 3. Later-Act Constraints（後段制約）
+- 即使 Act II / III / IV 未全部解決，已知的後段制約（已有的 CDL 決定 / 已答過的作者問題 / 已設計的 payoff 位）係咪已經限制咗當前的可能選擇？
+- 唔可以只問「呢個 beat 現在做到咩」——必須先問「後段有冇我唔可以違反的已知限制」。
+
+### 4. Local vs Whole-Story Decision Test（局部 vs 全作決定測試）
+- 呢個決定係咪真正可以局部處理？
+- 定係一個偽裝成局部的全作結構決定？
+- 如果係後者：唔可以只用當前 act 的視角作出最終判斷，必須標記為「whole-story decision，需全作結構視角先能定案」。
+
+### 5. Early Consumption Risk（情緒 / 主題提前透支）
+- 呢個選擇係咪過早消耗了後段的情緒力度、reveal 力度、象徵力度、或主題 payoff？
+- 「現在感覺好強烈」不等於「全作層面是最佳決定」。
+
+### 6. Misalignment Risk（局部最優 vs 全作一致性）
+- 呢個選擇係咪產生局部最優，但削弱全作敘事一致性？
+- 有冇後段 beat / payoff / 結局意義因此變得難以自圓其說？
+
+**Hard rule：**
+> 你可以暫時唔解決後段問題，但你永遠唔可以無視後段制約。
+> 局部最優唔係好決定。只有全作最優先係好決定。
+
+**Cross-Act 落檔規則（必須落入 QUESTION_MATRIX.md 對應 topic row）：**
+每個 topic 的 cross-act check 結果必須落入以下欄位（唔可以只喺 chat 提過）：
+- **Upstream Dependencies**：列出上游制約（已有 canon / 埋位 / 觀眾知識）
+- **Downstream Dependencies**：列出下游依賴（後段 payoff / reveal / 情緒升級）
+- **Later-Act Constraints**：列出已知後段制約（唔可解決但唔可無視的）
+- **Can Be Decided Locally**：Yes / No / Provisionally（只能暫定，後段定案後再確認）
+- **Early Consumption Risk**：有 / 無 / 待確認（說明理由）
+
+**DFT 同 Angle 19 唔可以代替 Cross-Act Dependency Gate：**
+- DFT 係：導演感受 → 場景決策翻譯
+- Angle 19 係：點解一定要用呢種形式
+- Cross-Act 係：呢個決定對全作結構的依賴關係
+- 三者各司其職。有 DFT 唔等於有 cross-act。有 Angle 19 唔等於有 cross-act。
+
+---
+
 ## Mandatory Question Matrix Gate
 對任何 reconstruction-level / blocked decision / reveal-order / theme / relationship / outline-function 問題：
 - 唔可以直接問作者
 - 必須先建立或更新 `QUESTION_MATRIX.md`
-- 每個核心 topic 都要先做 12-angle relevance scan
+- 每個核心 topic 都要先做 cross-act dependency check，再做 angle scan
 - 然後先壓縮成少量作者問題
 
 **⚠️ 落檔規則（所有推理必須有文件記錄）：**
-- **12角度 relevance scan 結果** → 每個 topic 必須寫入 `QUESTION_MATRIX.md` 對應 row，格式：角度名 / RELEVANT or NOT_RELEVANT / 分析摘要
+- **Cross-Act Dependency Check 結果** → 每個 topic 必須寫入 `QUESTION_MATRIX.md` 對應 row，包含六個欄位：Upstream Dependencies / Downstream Dependencies / Later-Act Constraints / Can Be Decided Locally / Early Consumption Risk（+ Misalignment Risk 摘要）
+- **Angle scan 結果** → 每個 topic 必須寫入 `QUESTION_MATRIX.md` 對應 row，格式：角度名 / RELEVANT or NOT_RELEVANT / 分析摘要
 - **序列完整性推理 / gap 識別 / 補充決定** → 寫入 `canon/_working/REASONING_LOG.md`
 - **作者問題設計理由** → 寫入 `QUESTION_MATRIX.md` 對應 row 的「consolidated question」欄
 - **任何「我考慮過但唔問作者」的角度** → 亦要在 QUESTION_MATRIX.md 記錄為 NOT_RELEVANT + 理由，唔可以只喺 chat 提過就消失
 - 規則：**chat 入面出現過的推理，必須同時存在於檔案**
 
-## 12-angle scan (always check relevance)
+## Angle scan（Pool 1 全掃，Pool 2 先做 relevance check）
+
+**Pool 1 — Baseline（每次全掃，angles 1–12）：**
 1. Character Growth
 2. Relationship Dynamics
 3. Information / Reveal Control
@@ -310,6 +368,15 @@ DFT 分析結果必須落入：
 10. Audience Experience / Knowledge Gap
 11. Canon / Continuity / Ownership
 12. Writing Execution / Draftability
+
+**Pool 2 — Extended（每次先做 relevance check，angles 13–19）：**
+13. Coping / Defense Mechanism
+14. Ideology / Value System
+15. Social / Institutional Position
+16. Moral Tradeoff
+17. Symbolic / Ritual Behavior
+18. Narrative Validation Level
+19. **Method Necessity / Form Meaning** — 任何重大設定 / 事件執行方式 / reveal 裝置 / 行為選擇 / 環境設計 / 象徵物件 / ritual / 事件形式：唔係只問「做到咩」，而係問「點解一定要用呢種形式去做到」。必須比較其他 plausible 形式、解釋為何呢個形式更 story-native、以及呢種形式帶出了哪些獨特意義（角色 / 主題 / 制度 / 感受 / 媒介 / payoff）。常見 justification categories 包括：personhood erosion / dignity cost / commodification / forced visibility / ritualization / institutional logic / emotional displacement / medium-specific delivery / setup-payoff efficiency——但呢啲係可能答案，唔係 angle 本身，唔可以跳過推理直接套用。**特別規則：** 如果 task 涉及重大執行形式選擇（reveal 裝置 / 象徵承載物 / 公開曝光機制 / 媒介分配），Angle 19 預設 RELEVANT——但仍必須先過 Cross-Act Dependency Gate，再做 Method Necessity 分析。
 
 ## Question output rules
 - 每輪 8–15條最高價值問題（唔係20條；問題多 = 用於 source check 的 token 減少）
@@ -345,14 +412,17 @@ DFT 分析結果必須落入：
 ## Required response structure
 1. CURRENT FOCUS
 2. EVIDENCE READ THIS ROUND
-3. ANGLE COVERAGE CHECK
-4. STORY DASHBOARD
-5. TOP RISKS / UNSTABLE ANGLES
-6. CONSOLIDATED AUTHOR QUESTIONS
-6.5. DIRECTORIAL FEELING TRANSLATION（任何 beat proposal 必須包括 DFT Table）
-7. PROPOSAL BLOCK（clearly non-final）
-8. CANDIDATES FOR LATER INTAKE
-9. FILE UPDATE PLAN
+3. CROSS-ACT DEPENDENCY CHECK（六項：Upstream / Downstream / Later-Act Constraints / Local vs Whole-Story Test / Early Consumption Risk / Misalignment Risk）
+4. ANGLE COVERAGE CHECK（Pool 1 全掃 + Pool 2 relevance check）
+5. STORY DASHBOARD
+6. TOP RISKS / UNSTABLE ANGLES
+7. CONSOLIDATED AUTHOR QUESTIONS
+7.5. DIRECTORIAL FEELING TRANSLATION（任何 beat proposal 必須包括 DFT Table）
+8. PROPOSAL BLOCK（clearly non-final）
+9. CANDIDATES FOR LATER INTAKE
+10. FILE UPDATE PLAN
+
+**執行順序硬規則：** Cross-Act（第3步）必須先於 Angle Scan（第4步）。Angle Scan 先於 DFT 同 Method Necessity。唔可以倒轉順序。
 
 ## Hard rules
 - 未做 source check，不准問 reconstruction-level 問題
