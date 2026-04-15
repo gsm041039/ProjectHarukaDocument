@@ -68,12 +68,33 @@ Scene / Script（執行細節：具體對白、鏡頭、timing、動作細節）
    - `canon/_working/SESSION_LEDGER.md`
    - `canon/_working/story_construction/QUESTION_MATRIX.md`
    - 與 `$ARGUMENTS` 直接相關既 docs / sections
-2. 恢復：
+2. **條件讀取（當 task 涉及角色成長 / 意識型態 / 主題立場 / 群體世界觀 / 衝突意義時，額外讀）：**
+   - `canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md` — 全作控制任務總表（最高層）
+   - `canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` — 角色成長弧
+   - `canon/_working/story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md` — 角色/群體主題立場
+   - `canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md` — 群體世界觀衝突
+   - `canon/_working/story_construction/THEME_CONFLICT_EXPRESSION_TABLE.md` — 主題衝突表達記錄
+3. 恢復：
    - Current Active Topic / Section
    - Existing blockers
    - Deferred questions
    - 已答過但會影響本輪既 decisions
-3. 先做 source check，再做 reconstruction judgment
+4. 先做 source check，再做 reconstruction judgment
+
+## ⚠️ Character Growth + Ideology Theme Gate（任何 story-base / outline / beat-sheet / major event design 必須先通過）
+
+**觸發條件：** 任何 story-base / full-outline / act-outline / beat-sheet / major event design 任務
+
+→ 執行 `.claude/story_system/character-ideology-gate.md` 定義的三個 gate：
+- **Gate A：Character Growth Gate** — 每個主要角色的成長弧必須落表（9個欄位）
+- **Gate B：Ideology / Theme Stance Gate** — 每個主要 entity 的主題立場必須落表（11個欄位）
+- **Gate C：Theme Conflict Gate** — 每個 major event / beat 的立場衝突必須落表（7個欄位）
+
+**Gate 結果必須落入對應 tracking 文件，唔可以只喺 chat 完成。**
+
+Hard rule：角色有 arc ≠ 主題有表達。唔可以將「主角點變」當作「作品立場」。
+
+---
 
 ## ⚠️ Outline 建立／更新模式強制規則（當 task 係建立或更新任何 Act Outline 時）
 

@@ -107,6 +107,34 @@ $ARGUMENTS
 7. RECOMMENDED NEXT MODE
 8. FILE UPDATE PLAN
 
+## ⚠️ Ideology / Stance Evidence Extraction Rule
+
+**觸發條件：** task 涉及角色 arc / ideology / theme stance / worldview / 群體衝突 / 制度分析
+
+當 source extraction 涉及以上任何一項時，除了常規 evidence 外，必須順手抽以下類別的 evidence：
+
+| Evidence 類別 | 抽取目標 |
+|---|---|
+| **Coping pattern evidence** | 角色慣常如何保護自己 / 避開痛苦 / 防止重複傷害（行為層面）|
+| **Value system / belief evidence** | 角色信咩價值排序、願意犧牲乜換取乜（透過選擇和行動，唔只係對白）|
+| **Institutional position evidence** | 角色/群體喺社會/制度結構中的位置，及其對立場的影響 |
+| **Symbolic / ritual behavior evidence** | 任何重複行為、ritual、象徵物件，及其與角色立場/成長的關係 |
+| **Narrative validation evidence** | 故事點對待呢種 stance——source 有冇暗示故事 validate / complicate / reject / transform 某種信念或立場 |
+
+**抽出的 evidence 必須分類：**
+- SOURCE_SUPPORTED（有直接文字根據）
+- INFERRED（source 暗示但唔明確，標記理由）
+- CONTRADICTED（不同 source 有矛盾，標記哪兩份 source 撞）
+
+抽出後，適當的 evidence 應送入：
+- `canon/_working/story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md`
+- `canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`
+- `canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md`
+
+（如果文件不存在或 entry 未建立，標記為 candidate，等待 story-room / author gate 確認）
+
+---
+
 ## Hard rules
 - 不得將 audit 推斷直接當 final canon
 - 不得跳過作者 gate 處理 meaning-changing judgments

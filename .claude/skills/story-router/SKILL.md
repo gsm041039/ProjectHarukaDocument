@@ -58,6 +58,22 @@ Act I~IV Beat Sheet（全部完成並批核）
 - section 文字 writeback（**只有全四幕 Beat Sheet 完成後才可路由至此**）-> WRITEBACK
 - interrupted / uncertain / new machine / new chat / stale state -> RESUME_RECOVERY
 
+## ⚠️ Character / Ideology Routing Rule（路由前必須檢查）
+
+當 task 涉及以下任何一項，路由去 STORY_ROOM_QUESTION_ENGINE 時，必須同時啟動 Character Growth + Ideology Theme Gate：
+
+- character arc / character growth / 角色成長
+- theme handling / thematic argument / 主題論述
+- worldview / ideology / 世界觀 / 意識型態
+- conflict meaning / stance collision / 立場衝突 / 衝突意義
+- relationship meaning / 關係意義
+- act-level design with thematic load / 帶主題承載的幕結構設計
+
+路由邏輯：
+- 唔係「先 story-room，如果需要才考慮 ideology gate」
+- 而係「一旦 task scope 符合上述任何一項，必須同時進入 story-room + character-ideology-gate」
+- Gate 結果必須落入對應 tracking 文件，唔可以只喺 chat 完成
+
 ## Continuity rules
 - 如果 `$ARGUMENTS` 同現有 Active Topic / Section 本質一致，就繼續原工作線
 - 如果只是進入同一大 topic 內的另一個 section，要保留 shared blockers / pending questions / confirmed decisions
