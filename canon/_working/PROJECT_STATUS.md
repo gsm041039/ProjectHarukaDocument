@@ -2,7 +2,7 @@
 
 ## Current Workflow Snapshot
 - Current Mode: STORY_ROOM — Phase 14 Act II Outline（待批核） + Act III Outline 起稿中
-- ACT_I_OUTLINE.md **v1.18 [APPROVED 2026-04-09]**
+- ACT_I_OUTLINE.md **v1.20 [APPROVED base v1.18；v1.19/v1.20 補入CDL-219~226，2026-04-16]**
 - **ACT_II_OUTLINE.md v0.2 [DRAFT]**；仍待 QQ-52~55 答覆 → v0.3
 - **CDL-212~218 落檔（2026-04-13）**：Act III地下抵抗期+犧牲結構全部決策完成
 - **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告
@@ -44,6 +44,17 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 023，2026-04-16）
+- **CDL-219**：晴香 Beta線 = 獨生女；完全不知美夜子存在（非「家姐死了」，而是「從未知道有家姐」）；Alpha線記憶滲漏機制確立
+- **CDL-220**：梳頭夢境（Alpha線記憶滲漏代表場景）= 年長女性模糊面容幫晴香梳頭；觀眾/晴香誤讀為母愛渴望；Act III貓殼碎裂後插播回收，畫面清晰揭示係美夜子；「無視之罪」情感核彈前置
+- **CDL-221**：夕5歲形態 = Option D（時間錨點+自我對峙+榮格創傷凍結）；DFT執行規格：晴香必須蹲下/跪地平視夕（高度落差）；夕反應=被拋棄孩子的創傷姿態（非張牙舞爪）
+- **CDL-222**：美夜子黑貓 = 四重意圖：尊嚴剝奪（Alpha線討厭貓）+陰影象徵+視覺反差+吉祥物Meta欺騙；行為語言規格確立（拒絕寵物化/陰影觀察者/PTSD裂縫）
+- **CDL-223**：Act I 道德困境 = A+B混合「Plausible Deniability」寫作原則；晴香善意的代價發生但立刻被王道橋段掩蓋；Act I Beat Sheet最高寫作準則
+- **CDL-224**：E-02/E-03情緒連結序列 = Act I 最強懷疑觸發點（Peak Moment of Doubt）；「友情合體技→強制心理入侵」顛覆類型預期；勝利後靜默執行語法
+- **CDL-225**：五種Coping策略 = Option C（系統性碰撞）；病態默契Jenga塔；三個確定碰撞節點：晴香vs操/晴香vs朱音/E-02全線突破
+- **CDL-226**：珍寶珠 = Option B（平凡的甜）；跨幕Payoff鏈確立（入隊→小光波板糖→屍骸化發霉→嘆息之橋殉道信物）
+- **ACT_I_OUTLINE.md v1.20**：E-02加Peak Moment標記；Layer 3 Plant-A新增珍寶珠條目
 
 ## New Canon This Round（Round 022，2026-04-13，Q-R1~Q-R7全部確認）
 - **CDL-212**：Q-R1=B 地下救援兩個小beat積累型；凜交錯整合（接舉報電話=重組後的凜）
