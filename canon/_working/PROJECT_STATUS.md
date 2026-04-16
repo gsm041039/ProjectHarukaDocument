@@ -1,15 +1,15 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（待批核） + Act III Outline 起稿中
-- ACT_I_OUTLINE.md **v1.20 [APPROVED base v1.18；v1.19/v1.20 補入CDL-219~226，2026-04-16]**
-- **ACT_II_OUTLINE.md v0.2 [DRAFT]**；仍待 QQ-52~55 答覆 → v0.3
-- **CDL-212~218 落檔（2026-04-13）**：Act III地下抵抗期+犧牲結構全部決策完成
-- **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告
-- Active Topic / Section: **Act II v0.3（待QQ-52~55）+ Act III Outline v0.1 起稿**
-- Current Objective: ①QQ-52~55 答覆 → Act II v0.3；②ACT_III_OUTLINE.md v0.1 起稿
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.3 DRAFT待批核） + Act III Outline 起稿就緒
+- ACT_I_OUTLINE.md **v1.20 [APPROVED]**
+- **ACT_II_OUTLINE.md v0.3 [DRAFT]**；QQ-52~55 全部解決 + QQ-56~58 新增並解決（CDL-227~235）；待作者批核
+- **CDL-227~235 落檔（2026-04-16）**：QQ-52~58全部RESOLVED；朱音cascade完整；鏡像破碎之夜加入；操Body Horror設計確認
+- **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告（CDL-212~218）
+- Active Topic / Section: **Act II v0.3 待批核 + ACT_III_OUTLINE.md v0.1 起稿**
+- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.3；②ACT_III_OUTLINE.md v0.1 起稿（骨架已成型）
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-13
+- Last Stable Updated At: 2026-04-16
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -44,6 +44,18 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 024，2026-04-16）
+- **CDL-227**：QQ-52 RESOLVED — E-09觸發：C修正版兩步因果綁定（夕哲學拍片反叛→帝國因果收割法案）；形式意義：強制可見性+公開流通+身份固定化
+- **CDL-228**：QQ-56 RESOLVED — 夕意識狀態=D+A（主動有意識+戰略判斷失算）；E-15和解核心=晴香原諒夕=原諒5歲創世自己（鏡像閉環）
+- **CDL-229**：QQ-53 RESOLVED — 朱音cascade=B（E-07a小光之死+邏輯重構；E-07b廢棄糖果工廠+三位一體+放逐）
+- **CDL-230**：廢棄糖果工廠Outline層確認；象徵=腐爛甜蜜/死去童年純真；Act III朱音糖果山犧牲閉環前置
+- **CDL-231**：QQ-54 RESOLVED — 鏡像破碎之夜=C（Act II E-09a事件骨架+創傷耳鳴遮蔽；Act III鋼鐵獨舞清晰還原Double-hit）；P-A25雙標更新
+- **CDL-232**：QQ-58 RESOLVED — 紗夜遺言=C（Act II耳鳴碎片遮蔽；Act III鋼鐵獨舞記憶解封清晰還原）
+- **CDL-233**：操Body Horror三段設計（Stage1牙齦滲血Phase A/B→Stage2絲線縫牙Phase C/E-09a→Stage3鋼鐵獨舞黑奏揭露）；傀儡絲線=攻擊工具=自我修補工具的雙重意義
+- **CDL-234**：QQ-57 RESOLVED — 父親道德性質=A純粹物化；確認台詞；Theme B人格化體現；紗夜無條件愛的終極對比
+- **CDL-235**：QQ-55 RESOLVED — E-15 scope=A（陰影視覺功能性前置+剪髮儀式符號，均Outline層確認）
+- **ACT_II_OUTLINE.md v0.3**：E-07拆分E-07a+E-07b；E-09兩步觸發；新增E-09a；E-15更新；操Body Horror Phase A/B/C/E-09a加入；植入清單更新（P-C09/P-A25/P-D01/P-D02/P-E01/P-E02新增）
 
 ## New Canon This Round（Round 023，2026-04-16）
 - **CDL-219**：晴香 Beta線 = 獨生女；完全不知美夜子存在（非「家姐死了」，而是「從未知道有家姐」）；Alpha線記憶滲漏機制確立
