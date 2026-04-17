@@ -1,7 +1,7 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_II_OUTLINE.md v0.3**，然後 **起稿 ACT_III_OUTLINE.md v0.1**（CDL-212~218骨架已完整）
+**作者批核 ACT_II_OUTLINE.md v0.4**，然後 **起稿 ACT_III_OUTLINE.md v0.1**（CDL-212~218骨架已完整）
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.20 **APPROVED**（2026-04-16）

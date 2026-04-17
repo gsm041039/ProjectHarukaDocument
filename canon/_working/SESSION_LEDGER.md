@@ -1,11 +1,22 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 024 Act II Pool 2掃描 + QQ-52~58全部RESOLVED + ACT_II_OUTLINE.md v0.3（2026-04-16）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 025 Act II Gap Analysis + E-12重寫 + CDL-236~241（2026-04-17）**
 
 ## Current Objective
-- ①作者批核 **ACT_II_OUTLINE.md v0.3**
+- ①作者批核 **ACT_II_OUTLINE.md v0.4**
 - ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+
+## Completed This Round (Round 025 — 2026-04-17 E-12重寫 + 朱音身份鎖定)
+- [x] Act II v0.3 Outline 層缺口分析（gap scan）完成——識別13項缺口，優先級分類
+- [x] 作者確認：朱音=屍骸女王/首領100%專屬身份（CDL-236）
+- [x] E-12框架錯誤確認：「帝國部署」屬bug；重設為「屍骸女王討伐」（CDL-237）
+- [x] E-12觸發B+D確認（CDL-238）；結果B意識形態慘敗確認（CDL-239）
+- [x] P-A09功能重設：Act III recognition trigger廢除→E-12情感癱瘓觸發器；CDL-021廢除（CDL-240）
+- [x] [NC]暗線「王國邊緣的盛宴」確認（CDL-241）
+- [x] CDL-236~241全部落檔
+- [x] ACT_II_OUTLINE.md v0.4完成（E-07b補充；E-12重寫；[NC]暗線加入；P-A09 PAID；P-C04 VOIDED）
+- [x] PROJECT_STATUS.md更新；SESSION_LEDGER.md更新
 
 ## Completed This Round (Round 024 — 2026-04-16 Act II Pool 2掃描 + v0.3更新)
 - [x] Act II Outline v0.2 讀取，執行Pool 2（角度13-19）全面掃描

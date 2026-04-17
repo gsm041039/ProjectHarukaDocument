@@ -1,10 +1,11 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.3 DRAFT待批核） + Act III Outline 起稿就緒
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.4 DRAFT待批核） + Act III Outline 起稿就緒
 - ACT_I_OUTLINE.md **v1.20 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.3 [DRAFT]**；QQ-52~55 全部解決 + QQ-56~58 新增並解決（CDL-227~235）；待作者批核
+- **ACT_II_OUTLINE.md v0.5 [DRAFT]**；CDL-236~242落檔（2026-04-17）；朱音身份鎖定；E-12三重癱瘓完整結構；小光最終消散；[NC]暗線；待作者批核
 - **CDL-227~235 落檔（2026-04-16）**：QQ-52~58全部RESOLVED；朱音cascade完整；鏡像破碎之夜加入；操Body Horror設計確認
+- **CDL-236~242 落檔（2026-04-17）**：朱音=屍骸女王身份鎖定；E-12三重癱瘓矩陣+小光最終消散+失語崩潰撤退；P-A09 PAID；CDL-021廢除；[NC]暗線P-F01確認
 - **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告（CDL-212~218）
 - Active Topic / Section: **Act II v0.3 待批核 + ACT_III_OUTLINE.md v0.1 起稿**
 - Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.3；②ACT_III_OUTLINE.md v0.1 起稿（骨架已成型）
@@ -44,6 +45,15 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 025，2026-04-17）
+- **CDL-236**：朱音=屍骸女王/屍骸首領 100%專屬身份鎖定；archetype確認（成癮者→墮落母親/屍骸首領→燃燒的贖罪者）；糖果王座+懷抱小光設計確認
+- **CDL-237**：E-12框架錯誤確認並修正：「帝國部署」→「屍骸女王討伐（主角團主動出擊）」；P-C04 VOIDED
+- **CDL-238**：E-12觸發=B+D（晴香罪疚驅動+帝國衛生行動計時器）
+- **CDL-239**：E-12結果=B（意識形態慘敗）；朱音三位一體道德拷問；晴香王道信念在此崩潰
+- **CDL-240**：P-A09功能重設=情感癱瘓觸發器（E-12）；CDL-021廢除（Act III recognition trigger）；Act III朱音recognition另設計
+- **CDL-241**：[NC]暗線「王國邊緣的盛宴」確認（Phase D E-10附近；朔遠望視角；下水道/暗巷邊緣；P-F01 PLANTED）
+- **ACT_II_OUTLINE.md v0.4**：E-07b補充朱音自立為王設計；E-12全面重寫；Phase D加入[NC]暗線；P-A09 PAID；P-C04 VOIDED；植入清單更新
 
 ## New Canon This Round（Round 024，2026-04-16）
 - **CDL-227**：QQ-52 RESOLVED — E-09觸發：C修正版兩步因果綁定（夕哲學拍片反叛→帝國因果收割法案）；形式意義：強制可見性+公開流通+身份固定化
