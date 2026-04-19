@@ -1,23 +1,20 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_II_OUTLINE.md v0.4**，然後 **起稿 ACT_III_OUTLINE.md v0.1**（CDL-212~218骨架已完整）
+**作者批核 ACT_II_OUTLINE.md v0.6**，然後 **起稿 ACT_III_OUTLINE.md v0.1**（CDL-212~218骨架已完整）
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.20 **APPROVED**（2026-04-16）
-- ✅ CDL-001~235 全部落檔（2026-04-16）
-- ✅ **ACT_II_OUTLINE.md v0.3 建立（2026-04-16）**：QQ-52~58全部RESOLVED；E-07a+E-07b；E-09兩步；E-09a新beat；E-15更新；操Body Horror加入
-- ✅ Gap Analysis 完成（2026-04-12）：4個重大缺失 + 1個觸發點矛盾 — 全部解決
-- ✅ **Q-R1~Q-R7 全部確認（2026-04-13）**：Act III骨架完整（CDL-212~218）
-- ✅ **QQ-52~55 全部 RESOLVED（2026-04-16）**（CDL-227~235）
-- ✅ **QQ-56~58 新增並 RESOLVED（2026-04-16）**
-- ⬜ **作者批核 ACT_II_OUTLINE.md v0.3**（主要等待項）
+- ✅ CDL-001~247 全部落檔（2026-04-19）
+- ✅ **ACT_II_OUTLINE.md v0.6 建立（2026-04-19）**：E-05a Glitch Form；E-12雙守護；E-14 Fallen Angel；Act II-XX詛咒型切斷；守恆定律Layer重定義；MANIFEST+ACT_I Plant表更新
+- ✅ **QQ-52~63 全部 RESOLVED（2026-04-19）**
+- ⬜ **作者批核 ACT_II_OUTLINE.md v0.6**（主要等待項）
 - ⬜ **ACT_III_OUTLINE.md v0.1 起稿**（骨架已成型，批核後可立即開始）
 - ⬜ Act IV Outline 設計
 - ⬜ 全四幕 Outline 完成後才進 Beat Sheet
 - ⬜ QQ-51：E-03 操「手術室」Flash — 仍 BLOCKED（不阻塞 Outline）
 
-## 已解決 Gap Analysis（QQ-52~58）
+## 已解決 Gap Analysis（QQ-52~63）
 | QID | 問題 | 決策 | CDL |
 |---|---|---|---|
 | QQ-52 | E-09 社死觸發 | C修正版：夕拍片哲學反叛→帝國因果收割（兩步綁定）| CDL-227 |

@@ -1,16 +1,14 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.4 DRAFT待批核） + Act III Outline 起稿就緒
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.6 DRAFT待批核）
 - ACT_I_OUTLINE.md **v1.20 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.5 [DRAFT]**；CDL-236~242落檔（2026-04-17）；朱音身份鎖定；E-12三重癱瘓完整結構；小光最終消散；[NC]暗線；待作者批核
-- **CDL-227~235 落檔（2026-04-16）**：QQ-52~58全部RESOLVED；朱音cascade完整；鏡像破碎之夜加入；操Body Horror設計確認
-- **CDL-236~242 落檔（2026-04-17）**：朱音=屍骸女王身份鎖定；E-12三重癱瘓矩陣+小光最終消散+失語崩潰撤退；P-A09 PAID；CDL-021廢除；[NC]暗線P-F01確認
-- **Act III 骨架已成型**：地下救援beat×2、糖果唐樓、朱音搜尋、凜三連爆、操Day13犧牲、朱音Day14犧牲、處刑公告（CDL-212~218）
-- Active Topic / Section: **Act II v0.3 待批核 + ACT_III_OUTLINE.md v0.1 起稿**
-- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.3；②ACT_III_OUTLINE.md v0.1 起稿（骨架已成型）
+- **ACT_II_OUTLINE.md v0.6 [DRAFT]**；CDL-236~247落檔；朱音身份鎖定；E-12三重癱瘓完整結構+雙守護撤退；Glitch Form首次呈現；Fallen Angel機制；玻璃庭院詛咒型切斷；守恆定律Layer重定義；待作者批核
+- **CDL-243~247 落檔（2026-04-19）**：QQ-59~63 RESOLVED；E-05a Glitch Form（CDL-243）；E-14 Fallen Angel（CDL-244）；E-12雙守護（CDL-245）；Act II-XX詛咒型切斷（CDL-246）；守恆定律Layer重定義（CDL-247）
+- Active Topic / Section: **Act II v0.6 待批核**
+- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.6；②批核後可進行 ACT_III_OUTLINE.md v0.1 起稿
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-16
+- Last Stable Updated At: 2026-04-19
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -45,6 +43,14 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 026，2026-04-19）
+- **CDL-243**：Q-026-01=A — E-05a美夜子Glitch Form首次呈現；外部物理破壞超越詛咒極限→貓形態Glitch→冰藍少女殘影0.5秒→Unit 01波長Spike→EMB雙層視角確認；三階段形態弧線（Act I全貓→E-05a Glitch→Act III突破）Outline確立
+- **CDL-244**：Q-026-02=D — E-14 Fallen Angel靈魂商品化；帝國提煉晴香情感創傷數據→地下毒品；晴香絕對共感視界目睹消費現場（偽王道完全崩潰）；夕哲學反叛被資本消化（雙重死亡）；「經理人/中介組織」設計 btd
+- **CDL-245**：Q-026-03=C — E-12隊友雙守護；操（前方張臂阻擋，E-07b迴響，Act III人偶牆前置）+美夜子（側邊拖拽，CDL-191承諾具現化）；「包圍式保護」視覺構圖
+- **CDL-246**：Q-026-04=C — Act II-XX玻璃庭院詛咒型切斷；彩靈魂卡頓→萬花筒法則滲漏→黑奏聲線切入預言/宣告→彩回復正常毫不知情；AKS P1積累最強節點；具體台詞btd Beat Sheet
+- **CDL-247**：Q-026-05=C — 守恆定律Layer重定義；L1(E-08)=個體生理代價；L2(E-10)=局部系統轉移(愛莉)；L3(E-11a)=宏觀物理法則命名(秋穗)；L4後幕；三個beat+P-A06表格全部修正
+- **ACT_II_OUTLINE.md v0.6**：E-05a Glitch Form；E-08/E-10/E-11a Layer修正；E-12雙守護；E-14 Fallen Angel Outline層；Act II-XX詛咒型切斷；P-A06回收表更新；MANIFEST+ACT_I_OUTLINE P-A09/P-C04修正
 
 ## New Canon This Round（Round 025，2026-04-17）
 - **CDL-236**：朱音=屍骸女王/屍骸首領 100%專屬身份鎖定；archetype確認（成癮者→墮落母親/屍骸首領→燃燒的贖罪者）；糖果王座+懷抱小光設計確認

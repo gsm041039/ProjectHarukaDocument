@@ -1,11 +1,28 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 025 Act II Gap Analysis + E-12重寫 + CDL-236~241（2026-04-17）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 026 Act II 矛盾掃描 + CDL-243~247（2026-04-19）**
 
 ## Current Objective
-- ①作者批核 **ACT_II_OUTLINE.md v0.4**
+- ①作者批核 **ACT_II_OUTLINE.md v0.6**
 - ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+
+## Completed This Round (Round 026 — 2026-04-19 Act II v0.5矛盾掃描 + CDL-243~247)
+- [x] Story Room skill 啟動；讀取6個必需狀態文件
+- [x] ACT_II_OUTLINE.md v0.5全文讀取 + 12角度矛盾掃描
+- [x] 掃描發現7項問題（2紅/2橙/3黃）；Admin-01/02確認；Q-026-01~05全部提問
+- [x] 作者完整回答所有5條設計問題
+- [x] **QQ-59 RESOLVED（CDL-243）**：E-05a Glitch Form=A；詛咒極限Glitch→Unit 01波長確認；EMB雙層視角
+- [x] **QQ-60 RESOLVED（CDL-244）**：E-14 Fallen Angel=D；晴香創傷商品化；夕意識形態死亡
+- [x] **QQ-61 RESOLVED（CDL-245）**：E-12雙守護=C；操前方阻擋+美夜子側邊拖拽
+- [x] **QQ-62 RESOLVED（CDL-246）**：Act II-XX詛咒型切斷=C；黑奏聲線滲出+萬花筒法則+預言式
+- [x] **QQ-63 RESOLVED（CDL-247）**：守恆定律Layer重定義=C；L1個體/L2系統/L3法則
+- [x] CDL-243~247全部落檔
+- [x] ACT_II_OUTLINE.md v0.5→v0.6完成（6個區域更新+重複行清理）
+- [x] CROSS_ACT_FORESHADOW_MANIFEST.md更新（P-A09 PAID；P-C04 VOIDED）
+- [x] ACT_I_OUTLINE.md Plant表更新（P-A09 CDL-021廢除；payoff移至E-12）
+- [x] QUESTION_QUEUE.md QQ-59~63 RESOLVED條目加入
+- [x] PROJECT_STATUS.md + SESSION_LEDGER.md + NEXT_ACTION.md 更新
 
 ## Completed This Round (Round 025 — 2026-04-17 E-12重寫 + 朱音身份鎖定)
 - [x] Act II v0.3 Outline 層缺口分析（gap scan）完成——識別13項缺口，優先級分類

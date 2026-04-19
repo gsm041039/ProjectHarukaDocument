@@ -132,7 +132,9 @@
 
 **膠布哲學 E-XX 高潮視覺（CDL-070）**：晴香整合高潮時，本想用膠布蓋住鏡子/傷口，最終放下膠布，主動把手貼向鏡面/夕的手。將「接受陰影而非掩蓋」的心理轉折視覺化為一個具體動作。此為膠布哲學第二層語義（第一層 = 桐生健傷口場景「痛是真實存在的證據」；第二層 = 接受陰影；第三層 = Act IV 膠布全部放下）。
 
-**See also**: [夕的完全接管](../04_timeline_canon.md#event-yu-takeover) | [自我整合](../04_timeline_canon.md#event-self-integration)
+**E-XX 夕臨別機制頓悟（P-E03 第二段，臨別型）**：E-XX 係 P-E03 的最終交付場景。夕在完全消散前，以「臨別頓悟」形式點出「保護者人格依附主人格存在前提」的心理學原理，並以間接方式暗示另一個雙重人格（黑奏）——對白設計方向：「無論係我……定係『佢』」（具體 wording btd Beat Sheet；P-E03 為 Outline 層方向確認）。此為觀眾機制教學的最終落點：夕 = 教學場景；黑奏消散 = 教學 payoff。與 E-15 的開悟型機制暗示形成「暗示（E-15）→ 頓悟（E-XX）→ payoff（彩/黑奏）」三段式設計。
+
+**See also**: [夕的完全接管](../04_timeline_canon.md#event-yu-takeover) | [自我整合](../04_timeline_canon.md#event-self-integration) | [P-E03 保護者自解植入](../_working/CROSS_ACT_FORESHADOW_MANIFEST.md) | [黑奏保護者悖論](aya.md#section-backstory-kurokane)
 
 ---
 
