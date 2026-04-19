@@ -438,6 +438,16 @@ Alpha 線的「可信度」建立在**共享印證**上：
 - 裝置並非「淨化」負面情緒，而是「排放」到集體潛意識
 - 核電廠隱喻：能產生巨大能量（奇蹟），但製造劇毒核廢料（未處理的痛苦）
 
+**故事內三層揭示結構（CDL-247）**：觀眾/角色在Act II中透過三個階段逐步理解守恆定律的完整意義：
+
+| Layer | 揭示時間 | 認知內容 | 效果 |
+|-------|---------|---------|------|
+| Layer 1（個體生理代價） | Act II Phase B（恐怖家家酒）| 角色自身生理代價明顯升級（味覺/感知損耗）；以為只是「個人體力耗損」 | 不安感開始累積 |
+| Layer 2（局部系統轉移） | Act II Phase C（地下化後）| 發現愛莉作為活體濾心正在痛苦過濾全城情緒廢料；代價沒消失，只是轉移給無辜第三方 | 道德負罪感爆發 |
+| Layer 3（宏觀物理法則）| Act II Phase D（秋穗身份揭露）| 秋穗以研發者身份正式命名「情緒守恆定律」；前兩層被統一為不可違逆的物理法則後果 | 英雄敘事底層邏輯破產 |
+
+Layer 4 及以後仍在後幕（Act III/IV）。
+
 **See also**: [Glossary: Emotion Conservation](02_glossary.md#term-emotion-conservation) | [Band-Aid Philosophy](02_glossary.md#term-band-aid-philosophy)
 
 ### <a id="rule-scarlet-tide"></a>緋潮
