@@ -3,12 +3,12 @@
 ## Current Workflow Snapshot
 - Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.6 DRAFT待批核）
 - ACT_I_OUTLINE.md **v1.20 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.6 [DRAFT]**；CDL-236~247落檔；朱音身份鎖定；E-12三重癱瘓完整結構+雙守護撤退；Glitch Form首次呈現；Fallen Angel機制；玻璃庭院詛咒型切斷；守恆定律Layer重定義；待作者批核
-- **CDL-243~247 落檔（2026-04-19）**：QQ-59~63 RESOLVED；E-05a Glitch Form（CDL-243）；E-14 Fallen Angel（CDL-244）；E-12雙守護（CDL-245）；Act II-XX詛咒型切斷（CDL-246）；守恆定律Layer重定義（CDL-247）
+- **ACT_II_OUTLINE.md v0.6 [DRAFT]**；待作者批核
+- **CDL-248 落檔（2026-04-20）**：QQ-64~68 RESOLVED；唯識宇宙哲學底層確立；00_series_bible.md + 01_world_rules_and_costs.md 更新完成
 - Active Topic / Section: **Act II v0.6 待批核**
 - Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.6；②批核後可進行 ACT_III_OUTLINE.md v0.1 起稿
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-19
+- Last Stable Updated At: 2026-04-20
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -43,6 +43,9 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 027，2026-04-20）
+- **CDL-248**：唯識宇宙哲學底層全面確立；Q-027-01=A（客觀物理法則）；Q-027-02=C（分兩層次）；Q-027-03=B（唯識宇宙術語）；Q-027-04=A+C節奏（三層崩塌效應）；Q-027-05=C（兩份文件分工）；00_series_bible.md + 01_world_rules_and_costs.md 成功寫入
 
 ## New Canon This Round（Round 026，2026-04-19）
 - **CDL-243**：Q-026-01=A — E-05a美夜子Glitch Form首次呈現；外部物理破壞超越詛咒極限→貓形態Glitch→冰藍少女殘影0.5秒→Unit 01波長Spike→EMB雙層視角確認；三階段形態弧線（Act I全貓→E-05a Glitch→Act III突破）Outline確立

@@ -1,11 +1,22 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 026 Act II 矛盾掃描 + CDL-243~247（2026-04-19）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 027 唯識宇宙哲學底層確立 + CDL-248（2026-04-20）**
 
 ## Current Objective
 - ①作者批核 **ACT_II_OUTLINE.md v0.6**
 - ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+
+## Completed This Round (Round 027 — 2026-04-20 唯識宇宙哲學底層確立)
+- [x] always-ask-next skill 安裝確認
+- [x] Story Room skill 啟動；讀取狀態文件 + 01_world_rules_and_costs.md + 00_series_bible.md + CanonFileIntegrator
+- [x] 12角度分析完成：唯識宇宙哲學底層擴建
+- [x] Q-027-01~05 全部提問並獲作者完整回答
+- [x] **QQ-64~68 全部 RESOLVED（CDL-248）**：唯識宇宙5項決定確立
+- [x] **CDL-248 落檔（2026-04-20）**：Q-027-01=A（客觀物理法則）；Q-027-02=C（分開兩層）；Q-027-03=B（唯識宇宙術語）；Q-027-04=A+C節奏（三層崩塌效應）；Q-027-05=C（兩份文件分工）
+- [x] **00_series_bible.md 更新**：§Premise 底部新增世界本體論前提一句話
+- [x] **01_world_rules_and_costs.md 更新**：§Worldview Core 頂部新增「第一公理：唯識宇宙」完整段落（含三層連動表、機制區分表）；集體潛意識定義首句加銜接語
+- [x] **QUESTION_QUEUE.md 更新**：Round 027 QQ-64~68 全部 RESOLVED
 
 ## Completed This Round (Round 026 — 2026-04-19 Act II v0.5矛盾掃描 + CDL-243~247)
 - [x] Story Room skill 啟動；讀取6個必需狀態文件

@@ -29,6 +29,8 @@
 - **Beta 線**：晴香改變現實創造的世界，魔法系統、情緒科技、魔法屍骸皆源於此
 - **20 年滯留**：晴香改變現實後因「因果債務」困在集體潛意識 20 年，暗面人格[「夕」](02_glossary.md#term-yu)用她身體守護世界
 
+**世界本體論前提（Ontological Premise — CDL-248）**：本故事處於一個**「唯識宇宙（Consciousness-Centric Universe）」**——靈魂與意志是現實的唯一地基。物理世界並非客觀死物，而是由億萬靈魂的集體意志所撐起的**脆弱共識**。因此，所有的魔法、屍骸化與世界災難，本質上都是**靈魂爭奪「現實定義權」的物理顯化**。*See also: [World Rules: 第一公理](01_world_rules_and_costs.md#rule-consciousness-centric-universe)*
+
 ---
 
 ## <a id="section-ultimate-purpose"></a><a id="section-dark-healing"></a>終極目的：治癒（Dark Healing）
