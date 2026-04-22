@@ -1,0 +1,85 @@
+Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留
+
+
+keep same design, pose, composition, costume and accessories. apply changes only to the character and directly interacting props, not the background. simplify linework only: reduce inner lines, fold lines, seam lines, and hair strand lines, while keeping essential contour and key structure lines. preserve non-line design details such as clothing patterns, motifs, symbols, decorative shapes, color-blocking, and material separation.
+
+render the character and directly interacting props in extremely strict posterized 2-tone cel shading: one lit color and one shadow color only, hard cutoff, hard shadow grouping, stepped toon lighting, and clear cel self-shadows. no third band, no soft shadow, no diffuse shading, no ambient occlusion.
+
+keep the character’s main local colors and base palette clearly recognizable. do not over-shift the lit areas toward the background color. the lit color should stay close to the original local color, with only a subtle environmental influence. apply most of the scene-color influence mainly to the shadow color, so the cel self-shadows are scene-tinted and environment-influenced, but the main lit color remains largely stable. use colored cel shadows, not black multiply or neutral gray-black shadows.
+
+metal must also be rendered in flat anime cel metal with hard highlight bands and hard shadow bands, not realistic reflections or glossy gradients. keep the metal’s base color readable, while allowing the shadow bands to carry more of the environmental tint than the lit bands.
+
+do not simplify, flatten, reduce detail, or reduce texture in the background. keep all background rendering, painted detail, depth, atmosphere, and environmental complexity intact.
+
+
+Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感
+
+
+adjust only the facial proportions toward a soft high-moe balance: slightly larger eyes relative to the face, shorter midface, smaller nose and mouth, softer cheek and jaw balance. keep the original eye shape unchanged. do not change the expression, emotional read, gaze direction, eye openness, eyelid shape, eyelid tension, eyebrow shape, eyebrow emotion, mouth shape, mouth openness, blush placement, or overall facial mood. keep the character identity and face reading exactly the same.
+
+
+
+Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading
+
+
+add a very heavy anime screen-cap style compositing and post-processing pass over the finished frame, including both the character and the background. apply broad screen-space exposure shaping and atmospheric mood shadow across the image: large soft dark masses, irregular low-frequency darkening, and a strong cinematic light-to-dark separation across the frame. this darkening must read as a full-frame compositing pass, not as added form shading on the character. it must not behave like an extra cel-shadow layer, local repainting, or anatomy-based shading. allow parts of the character and scene to fall into deep composited darkness when appropriate, but only as screen-space mood darkening.
+
+the image should have clear bright zones and clear dark zones. do not darken the whole frame evenly. keep the brightest areas open and luminous while allowing selected areas to become much darker. the result should feel like strong anime post-processing with clear exposure separation, not a flat overall dimming.
+
+add a broad screen-space luminous gradient or atmospheric light wash on the bright side of the frame, as a soft post-compositing veil derived from the main light direction. this bright-side lift should affect a large area of the image and feel like anime compositing glow, not like local repainting or a hard spotlight beam.
+
+add strong bloom, halation, emissive glow diffusion, additive haze, and noticeable cinematic color grading, but only around emissive elements, strong environmental light sources, bright windows, rim lights, and major bright highlights. use a relatively low bloom threshold so that not only pure white highlights, but also medium-high luminance areas can bloom and diffuse softly. allow bloom and halation to affect a wide bright-side value range, closer to the upper two-thirds of the brightness range, while remaining strongest near bright sources and highlight-rich regions.
+
+do not add bloom or glow to the eyes, eyelashes, pupils, skin highlights, facial features, or ordinary non-emissive local colors. eye highlights must remain crisp and clean, not bloomed.
+
+keep glow, bloom, and halation directional and localized to the bright side. do not let bright color spread too far into the dark zones. do not let glow wash over the shadow masses, lift the dark side, or contaminate the dark areas with excessive light spill. the dark regions must stay clean, readable, and properly dark.
+
+derive the compositing tint, glow color, haze color, bright-side gradient color, and darkening color from the existing background palette and scene lighting. preserve the original color family of the image, but push it further in a more dramatic and cinematic direction. if the scene is warm, intensify the existing warm atmosphere; if the scene is cool, intensify the existing cool atmosphere. do not shift the image into a different color family.
+
+keep the hard 2-tone cel shading fully intact underneath the compositing layer. do not blur, soften, repaint, or replace the cel shading structure. the dramatic atmosphere must come from post-compositing, exposure shaping, bright-side luminous gradient, glow, haze, and grading only, not from turning the character into soft diffuse shading.
+
+avoid visible geometric gradient beams, spotlight cones, diagonal bands, wedge-shaped overlays, scanlines, fake interlacing, CRT artifacts, or graphic screen effects. do not add text, subtitles, timecode, watermark, logo, or interface overlay.
+
+
+
+
+
+
+
+
+
+anime settei sheet:
+official anime settei sheet, professional character turnaround sheet, production model sheet, reference design page, one single character only, full body front view and full body back view, strict A-pose, neutral standing pose, technical character sheet, costume breakdown, accessory detail callouts, hairstyle detail callouts, close-up parts, small expression sheet, main full-body figures large on the left, smaller detail boxes and headshots on the right, flat colors, extremely flat cel shading, minimal shading, hard-edged shadow shapes, no soft shading, no painterly rendering, no atmospheric lighting, no gradient rendering, clean silhouette, clear shape separation, readable costume construction, simple grey background, Traditional Chinese text annotations, clean anime production reference aesthetic, 2D design document, rough but controlled lineart, slightly sketchy lines, clean readable layout --ar 3:2 --niji --style raw --s 25 --no painterly shading, soft shading, soft lighting, fashion illustration, dynamic pose, mood illustration, blush focus, slice-of-life board, rendered skin, semi-realistic rendering
+
+
+
+
+
+美術圖:
+use the provided image as a character design reference only. ignore the original sheet layout, plain background, annotations, settei presentation, and turnaround format. generate a finished anime illustration / key visual of the same character in a new scene.
+
+preserve the character’s identity, hairstyle, hair color, face shape, eye shape, costume design, accessories, color scheme, motifs, and overall design language. keep the same core outfit design, recognizable silhouette, and non-line design information such as clothing patterns, motifs, symbols, decorative shapes, color blocking, and material separation. present the character as a finished illustration rather than a design sheet.
+
+create a cinematic anime scene with a clear environment, mood, and composition. choose a dynamic but readable pose and a story-like setting appropriate for the character. the image should feel like a polished anime screen cap or anime key visual, not a model sheet.
+
+use hybrid rendering: preserve the background as a detailed atmospheric painted anime background with depth, texture, perspective, environmental richness, and full scene detail. render only the character and directly interacting props in extremely strict posterized 2-tone cel shading: one lit band and one shadow band only, hard cutoff, hard shadow grouping, stepped toon lighting, and clear cel self-shadows. no third band, no soft shadow, no diffuse shading, no ambient occlusion. the cel self-shadows must be scene-tinted and environment-influenced, not black multiply or neutral gray-black. keep the lit band close to the character’s original local color, with only slight environmental influence; apply most of the scene-color shift mainly to the shadow band so the character feels integrated into the environment at the cel-shading level, not through a screen tint. metal must also be flat anime cel metal with hard highlight bands and hard shadow bands, not realistic reflections or glossy gradients.
+
+simplify linework only on the character and directly interacting props: reduce inner lines, fold lines, seam lines, and excess hair strand lines, while preserving all non-line design information. keep only essential contour and key structure lines. make the drawing animation-ready, clean, and stable, with reduced inner line noise but without deleting important costume patterns or design motifs.
+
+the face should preserve the original character identity and eye shape while using a soft anime beauty balance: slightly larger eyes relative to the face, softer cheek and jaw balance, and a clean appealing anime face. do not alter the intended expression or emotional read unless otherwise specified. if the reference expression is neutral, choose a fitting clear expression for the scene while preserving identity and eye shape.
+
+add a very heavy anime screen-cap style compositing and post-processing pass over the finished frame, affecting both the character and the background. push the full-frame tonal separation strongly: create clear bright zones and clear dark zones with a strong cinematic bright-to-dark exposure transition across the frame. apply broad screen-space atmospheric darkening and mood shadow using large low-frequency tonal masses and irregular darkening across parts of the image, including across parts of the character, but keep it strictly as a post-compositing layer independent of form shading. this darkening must not behave like extra cel-shadow, local repainting, or anatomy-based shading.
+
+at the same time, add a broad luminous screen-space light wash on the bright side of the frame, derived from the main light direction. this bright-side lift should cover a large area and feel like anime compositing glow and exposure shaping, not like a hard spotlight cone, diagonal band, wedge, or obvious graphic overlay. the image should not be uniformly darkened; keep the brightest areas open and luminous while allowing selected darker regions to fall much deeper into composited darkness.
+
+add strong bloom, halation, emissive glow diffusion, additive haze, and noticeable cinematic color grading around emissive elements, strong environmental light sources, bright windows, rim lights, and major highlights. use a relatively low bloom threshold so that not only pure white highlights, but also medium-high luminance areas on the bright side can bloom softly. let bloom and halation affect much of the upper brightness range while remaining strongest near bright sources and highlight-rich regions.
+
+do not add bloom or glow to the eyes, eyelashes, pupils, mouth line, skin highlights, facial features, or ordinary non-emissive local colors. eye highlights must remain crisp and clean, not bloomed. keep glow, bloom, and halation strongly biased toward the bright side of the frame. do not let them wash over the dark side, lift the shadow masses too much, or contaminate dark regions with excessive light spill. dark regions must stay properly dark, clean, and readable.
+
+derive the compositing tint, glow color, haze color, bright-side luminous wash, and dark-side tonal color from the existing background palette and scene lighting. preserve the dominant atmosphere and original color family of the scene, but push it further in a more dramatic and cinematic direction. if the environment is warm, keep and intensify the warm atmosphere; if the environment is cool, keep and intensify the cool atmosphere. do not shift the image into a different color family.
+
+keep the hard 2-tone cel shading fully intact underneath the compositing layer. do not blur, soften, repaint, or replace the cel-shaded structure. all dramatic atmosphere must come from post-compositing, exposure shaping, bloom, halation, haze, and grading only, not from turning the character into soft diffuse shading.
+
+avoid visible geometric gradient beams, spotlight cones, diagonal graphic bands, wedge-shaped masks, scanlines, fake interlacing, CRT artifacts, or graphic screen effects. do not add text, subtitles, timecode, watermark, logo, or interface overlay.
+
+final result: a finished anime key visual / anime screen-cap style illustration, with a detailed painted background, strict 2-tone cel-shaded character and directly interacting props, reduced inner line detail, strong cinematic compositing, strong bright-to-dark exposure separation, bright-side luminous wash, controlled bloom and halation, and a cohesive atmosphere.
