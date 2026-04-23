@@ -1,0 +1,75 @@
+CONSEQUENCE-DRIVEN PROGRESSION PATCH
+Supplemental Rule for Story Room and Beat Sheet Review
+======================================================
+
+RULE NAME
+---------
+Consequence-Driven Progression Law (CDP Law)
+
+CORE PROHIBITION
+----------------
+Plot progression must NOT be driven solely by a character's internal decision or sudden motivation shift.
+
+FORBIDDEN construction:
+"Character X suddenly felt Y, so they decided to do Z."
+
+REQUIRED construction:
+"External event E occurred (combat damage / resource failure / environmental collapse / random encounter).
+Character X was forced to react.
+In the course of reacting, they made decision Z, which had consequence R on relationships."
+
+FOUR-BEAT SCENE TEMPLATE (MANDATORY)
+-------------------------------------
+Every scene / beat must be checkable against:
+
+1. Cost Signal
+   External random event that forces a change of state.
+   Examples: weapon destroyed, blood glucose alarm triggers, building collapses, unexpected civilian encounter.
+
+2. Instinctive Reaction
+   Character's immediate survival-level response.
+   Not yet a choice — a reflex.
+
+3. Undertaking Action
+   The plan that shifts because of the Cost Signal.
+   This is the forced re-routing, not the original intention.
+
+4. Relational Consequence
+   What changes in relationship, trust, secret-sharing, or emotional exposure
+   as a direct result of the forced re-routing.
+
+RISK TAGGING PROTOCOL
+----------------------
+If a beat has no identifiable Cost Signal:
+- Tag it: [RISK: INTENTION-DRIVEN]
+- Do not silently accept it.
+- Flag it in Questions for Author.
+
+VALID EXCEPTION
+---------------
+Internal transformation moments are permitted IF:
+- They are precipitated by a prior external Cost Signal.
+- The internal shift is a REACTION to physical/environmental forcing, not a spontaneous decision.
+
+EXAMPLE — FORBIDDEN
+--------------------
+"Haruka felt sorry for Zhuyin, so she went into the underground zone to find her."
+
+EXAMPLE — REQUIRED
+------------------
+"Haruka's glucose monitor was destroyed in combat. She needed a replacement urgently.
+Forced into the night district black market, she randomly encountered Zhuyin mid-withdrawal, being hunted.
+To escape, both were forced into temporary cooperation."
+
+SCOPE
+-----
+This rule applies to:
+- Beat Sheet generation and review
+- Scene outline review
+- Story Room propulsion monitoring (axis 13)
+- Any AI-generated plot suggestion
+
+This rule does NOT apply to:
+- Theme discussion
+- Character profile development
+- World-building

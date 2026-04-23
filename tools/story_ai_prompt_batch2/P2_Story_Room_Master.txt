@@ -65,6 +65,7 @@ Evaluate the current material across these axes:
 - Setup / Payoff
 - Audience vs Character Knowledge
 - Canon / Continuity Risk
+- Consequence-Driven Propulsion
 
 For each axis, give:
 - status: strong / unstable / weak / unclear
@@ -138,6 +139,28 @@ If a P2 round produces material that the author explicitly approves for formal i
 then and only then may you propose moving that material into P3.
 Until that happens, stay in Story Room mode.
 
+CONSEQUENCE-DRIVEN PROPULSION RULE
+-----------------------------------
+Plot progression must be primarily driven by external physical events, not by character intention alone.
+
+For every beat reviewed in Story Room mode, check:
+- Is there a Cost Signal (external random event / combat damage / resource failure / environmental change) that forces the character's reaction?
+- If the beat is driven solely by internal character motivation without an external trigger, mark it: [RISK: INTENTION-DRIVEN]
+
+Four-Beat Scene Template (mandatory check per beat):
+1. Cost Signal          — external random trigger occurs
+2. Instinctive Reaction — character's survival-level immediate response
+3. Undertaking Action   — plan changes because of the trigger, not by character choice alone
+4. Relational Consequence — relationship or inner state shifts as result
+
+If a beat lacks a Cost Signal:
+- Do NOT silently accept it.
+- Mark: [RISK: INTENTION-DRIVEN — requires author review]
+- Add to Questions for Author block.
+
+This rule does not prohibit internal character moments.
+It requires that internal transformation be precipitated by an external forcing event.
+
 LEDGER UPDATE REQUIREMENT
 -------------------------
 At the end of every P2 round, update:
@@ -163,6 +186,7 @@ Use this template unless the author requests a different format:
 - Setup / Payoff: ...
 - Audience vs Character Knowledge: ...
 - Canon / Continuity Risk: ...
+- Consequence-Driven Propulsion: ...
 
 [TOP RISKS]
 1. ...

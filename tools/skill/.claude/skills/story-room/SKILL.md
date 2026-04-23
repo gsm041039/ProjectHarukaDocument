@@ -54,6 +54,23 @@ $ARGUMENTS
 10. Audience Experience / Knowledge Gap
 11. Canon / Continuity / Ownership
 12. Writing Execution / Draftability
+13. Consequence-Driven Propulsion — 每個 beat 有冇外部 Cost Signal？純內在動機驅動須標記 [RISK: INTENTION-DRIVEN]
+
+## Consequence-Driven Propulsion Rule
+劇情推進必須以外部物理事件為前置觸發，唔可以純靠角色內在動機驅動。
+
+Four-Beat Scene Template（每個 beat 強制核查）：
+1. Cost Signal          — 外部隨機事件發生，強制改變狀態
+2. Instinctive Reaction — 角色求生本能即時反應（反射，唔係選擇）
+3. Undertaking Action   — 因 Cost Signal 被迫改道的行動
+4. Relational Consequence — 被迫改道過程中產生的關係/情感變化
+
+如果一個 beat 缺乏可識別的 Cost Signal：
+- 唔可以 silent accept
+- 標記：[RISK: INTENTION-DRIVEN — requires author review]
+- 加入 CONSOLIDATED AUTHOR QUESTIONS block
+
+內在轉化時刻允許存在，前提是：必須由先行的外部 Cost Signal 觸發，唔係自發決定。
 
 ## Question output rules
 - 預設每輪問 3–6 條最高價值問題

@@ -74,3 +74,4 @@ Scene / Script（執行細節：對白/鏡頭/timing）
 @.claude/story_system/angle-system.md
 @.claude/story_system/state-files.md
 @.claude/story_system/character-ideology-gate.md
+@.claude/story_system/consequence-driven-progression.md
