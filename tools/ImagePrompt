@@ -52,26 +52,43 @@ avoid visible geometric gradient beams, spotlight cones, diagonal bands, wedge-s
 
 
 
+
 anime settei sheet:
 official anime settei sheet, professional character turnaround sheet, production model sheet, reference design page, one single character only, full body front view and full body back view, strict A-pose, neutral standing pose, technical character sheet, costume breakdown, accessory detail callouts, hairstyle detail callouts, close-up parts, small expression sheet, main full-body figures large on the left, smaller detail boxes and headshots on the right, flat colors, extremely flat cel shading, minimal shading, hard-edged shadow shapes, no soft shading, no painterly rendering, no atmospheric lighting, no gradient rendering, clean silhouette, clear shape separation, readable costume construction, simple grey background, Traditional Chinese text annotations, clean anime production reference aesthetic, 2D design document, rough but controlled lineart, slightly sketchy lines, clean readable layout --ar 3:2 --niji --style raw --s 25 --no painterly shading, soft shading, soft lighting, fashion illustration, dynamic pose, mood illustration, blush focus, slice-of-life board, rendered skin, semi-realistic rendering
 
 
 
+
+
 anime head sheet:
-official anime settei sheet, professional production model sheet, animation character reference page, dense Japanese anime reference-sheet layout, one single character only, page must look like a real anime studio reference sheet, not a promotional illustration; prioritize layout density, technical breakdown panels, and model consistency over beauty rendering
+use the input image only as character identity, hairstyle, face, color, and eye-style reference; convert it into a strict anime production head settei sheet, professional animation head model sheet, technical studio head reference page
 
-large full-body front view and full-body back view as the main central figures, strict neutral A-pose, orthographic standing pose, technical turnaround sheet, full-body proportions consistent across all views, same character identity in every panel, same hairstyle construction in every angle, same costume details in every angle, neutral expression in the turnaround section
+one single character only, head-only sheet, every panel must show head only or head-and-neck only, cropped at the base of the neck or slightly above the shoulders, absolutely no full body, no half body, no torso, no waist-up, no arms, no hands
 
-include many smaller head-angle studies surrounding the main figures, multiple face rotations, 3/4 left view, 3/4 right view, side view, back head view, looking up view, looking down view, eye close-up detail box, hairstyle structure breakdown, fringe detail panel, accessory detail box, clothing detail close-ups, color swatches, small expression sheet, several boxed callout sections, black title labels, annotation boxes, Traditional Chinese text annotations only, clean readable page divisions, information-heavy layout, authentic anime production reference sheet rhythm
+strict fixed grid layout, highly organized, evenly aligned rectangular panel arrangement, neat rows and columns, clean spacing, clear borders, no random floating panels, no loose collage layout
 
-main large figures in the center-left, one large eye close-up on the left, a row of head-angle references across the upper right, hairstyle breakdown boxes on the right, a small boxed expression sheet near the lower middle, clothing and accessory close-up boxes along the bottom, dense but clean composition, little empty space, technical page design, layout-first design
+mandatory unique head-view structure, with no duplicate angles:
+- top row: exactly 2 large main panels only: 1 front head view and 1 back head view
+- middle row: exactly 7 smaller unique head-angle panels, each angle appearing once only: 3/4 left, 3/4 right, left profile, right profile, rear 3/4, looking up, looking down
+- bottom row: technical study panels only, including exactly 1 eye close-up panel, exactly 1 hairstyle construction breakdown panel, exactly 1 fringe / side-hair breakdown panel, exactly 1 small expression panel with 4 different expressions, and optional 1 small accessory callout panel only if directly attached to the head
+- do not repeat front, back, profile, or any other angle
+- every required angle must appear exactly once
+- do not merge multiple required angles into one panel
+- do not replace angle-study panels with accessory panels
 
-flat colors, extremely flat cel shading, minimal shading, only tiny hard-edged shadow shapes, no soft shading, no painterly rendering, no atmospheric lighting, no gradient rendering, no glossy rendering, no realistic skin, no dramatic mood lighting, no poster illustration feeling, clear silhouette, clear shape separation, readable costume construction, anime production reference aesthetic, 2D design document look, rough but controlled lineart, slightly sketchy but clean linework, precise anime draftsmanship, simple white or very light grey background
+all panels must remain head-focused and technically useful, prioritizing head rotation coverage and model consistency over decoration. accessory details must stay small and secondary
 
---ar 3:2 --niji --style raw --s 25 --no poster composition, painterly shading, soft shading, soft lighting, fashion illustration, dynamic pose, dramatic foreshortening, cinematic framing, mood illustration, full rendered skin, semi-realistic rendering, splash art, background scene, environment art, decorative composition, large empty areas, watercolor, airbrush, glossy highlights
+all views must maintain the same character identity, same face proportions, same eye design, same hairstyle volume and structure, same color palette, and same head accessory placement
 
+use a high-moe anime eye proportion in every panel: relatively large eyes, tall eye height, large iris and pupil, soft rounded eye shape, thicker upper lash line, light lower eyelid line, cute gentle expression, and eyes occupying a noticeably larger proportion of the face than standard anime reference sheets. eye proportions must remain consistent across all head-angle panels, expression panels, and eye close-up studies
 
+Traditional Chinese text annotations only, concise technical labels, boxed headings, clean white or very light grey background, dense information-heavy anime production sheet feeling
 
+render in extremely strict flat anime coloring: flat colors only, extremely flat cel shading, at most one tiny hard-edged shadow shape per form, no soft shading, no gradient shading, no airbrush, no painterly rendering, no skin rendering, no glossy highlights, no bloom, no ambient shading, no subsurface look, no semi-realistic rendering, no atmospheric lighting, no cinematic lighting. the whole sheet must read as a true 2D anime production reference sheet, not an illustration
+
+rough but controlled anime lineart, slightly sketchy but clean, readable silhouette, clear shape separation, technical 2D reference-sheet finish
+
+--ar 3:2 --niji --style raw --s 5 --chaos 0 --no duplicate angles, repeated back view, repeated front view, repeated profile, full body, half body, torso, bust shot, fashion board, merchandise sheet, accessory showcase board, product catalog, scrapbook layout, sticker sheet, decorative collage, splash art, poster composition, dynamic pose, cinematic composition, soft shading, painterly shading, glossy rendering, gradient shading, rendered skin, large empty areas
 
 
 美術圖:
