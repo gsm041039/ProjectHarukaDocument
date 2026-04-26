@@ -1,11 +1,27 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 027 唯識宇宙哲學底層確立 + CDL-248（2026-04-20）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 028 E-XX Cost Signal設計確立 + CDL-249（2026-04-25）**
 
 ## Current Objective
 - ①作者批核 **ACT_II_OUTLINE.md v0.6**
 - ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+
+## Completed This Round (Round 028 — 2026-04-25/26 CDL-249 + Phase D 地下化邏輯掃描)
+- [x] Story Room skill 啟動；讀取狀態文件（PROJECT_STATUS / NEXT_ACTION / SESSION_LEDGER / CANON_DECISION_LOG）
+- [x] 以「隨機性/Cost Signal角度」掃描Act I + Act II Outline，識別缺乏外部觸發的beats
+- [x] Act I E-XX識別為最高優先Cost Signal缺口（純內在積累觸發，違反CDL法則）
+- [x] 12角度分析完成 + Cross-Act Dependency Gate過關；設計Q-OUTLINE-COST-01（M021）四個選項A/B/C/D
+- [x] 作者確認：**D方案**（CGM有聲警報+戰損裂鏡雙重Cost Signal）；**黑奏介入度=零**（三項理由：夕主體性/命運無常/黑奏農場主昇華）；Option C排除原因：違反CDL-101語法
+- [x] **CDL-249 落檔**：E-XX幕末觸發機制D方案AC 2026-04-25
+- [x] **QUESTION_MATRIX.md M021 RESOLVED**（D+CDL-249；黑奏=零）
+- [x] **ACT_I_OUTLINE.md v1.20 → v1.21**：E-XX觸發條件加入雙重外部Cost Signal；黑奏介入=零；版本歷史更新
+- [x] **PROJECT_STATUS.md 更新**：CDL-249落檔；v1.21 APPROVED；Round 028記錄
+- [x] **SESSION_LEDGER.md 更新**：Round 028完整記錄
+- [x] **ACT_II_OUTLINE.md Phase D 地下化邏輯掃描（Subagent）**：3紅5橙5黃問題識別；8條作者問題設計（QQ-69~76）
+- [x] **QUESTION_MATRIX.md M033~M040 新建**：Phase D 8個核心問題；12角度分析 + Cross-Act check 完成
+- [x] **QUESTION_QUEUE.md QQ-69~76 OPEN**：Round 028 Phase D掃描問題
+- [x] **REASONING_LOG.md Round 028追加**：完整12角度分析 + Cross-Act Dependency Check + 問題清單
 
 ## Completed This Round (Round 027 — 2026-04-20 唯識宇宙哲學底層確立)
 - [x] always-ask-next skill 安裝確認

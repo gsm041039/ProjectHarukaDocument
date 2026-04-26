@@ -5,6 +5,88 @@
 
 ---
 
+## Round 028 — 2026-04-26 — ACT_II_OUTLINE Phase D 地下化邏輯掃描（Subagent 執行）
+
+### 任務背景
+作者指示以 subagent 對 ACT_II_OUTLINE.md v0.6 做深度掃描，特別聚焦「地下活動（地下化，Phase D）」的事件邏輯同事件次序問題。
+
+### 文件讀取清單
+- ACT_II_OUTLINE.md v0.6（主要分析對象，全文）
+- CANON_DECISION_LOG.md CDL-200～249
+- backup/draft/timeline_raw.md（113年7-8月段）
+- backup/draft/outline_raw.md（第二幕高潮段）
+- CROSS_ACT_FORESHADOW_MANIFEST.md
+- QUESTION_QUEUE.md（確認無重複OPEN問題）
+- QUESTION_MATRIX.md（確認無重複Matrix rows）
+
+### 問題識別清單
+
+#### 🔴 Red（阻塞級）
+- **R-01：E-10地下化完全缺乏外部Cost Signal** — 第一行直接說「主角團地下化」無外部觸發；`[RISK: INTENTION-DRIVEN]` → M033/QQ-69
+- **R-02：E-10時間標記矛盾** — E-09社死（113年7月）和E-10地下化（113年7月）幾乎同月，但無因果說明 → M037/QQ-73
+- **R-03：timeline_raw vs Outline地下化觸發機制重大差異** — timeline_raw記錄「帝國包圍大宅→操逃亡→全隊地下化」直接因果；Outline把地下化放在E-10但無說明與E-09a的因果連結 → M033/M037
+
+#### 🟠 Orange（高優先）
+- **O-01：E-10與E-09a時間標記重疊（分屬Phase C/D但無銜接說明）** → M037/QQ-73
+- **O-02：E-10地下化後基本生存邏輯完全缺席** — 三個月地下生活無任何Outline層說明 → M035/QQ-71
+- **O-03：E-11觸發——outline_raw有黑奏主動引爆設計，現Outline用「積累達臨界」** — 兩個版本觸發機制根本差異 → M036/QQ-72
+- **O-04：Phase D整體缺乏帝國行為邏輯** — 帝國在113年7月～11月六個月幾乎消失 → M034/QQ-70
+- **O-05：E-12計時器與Phase D之間缺乏過渡說明** — 衛生行動計時器感知時機未定 → M038/QQ-74
+
+#### 🟡 Yellow（中優先）
+- **Y-01：Phase D時間間隔愛莉積累說明缺失** — E-08（113年5-6月）到E-11（113年9-10月）三個月間愛莉狀態空白 → M039/QQ-75（部分）
+- **Y-02：E-12（113年12月～114年1月）vs E-13（114年1月）時間標記幾乎重疊** — 次序及節奏問題
+- **Y-03：[NC]「王國邊緣的盛宴」時間定位過模糊** — 「113年秋冬，E-10附近」不夠精確 → M040/QQ-76
+- **Y-04：Fallen Angel製造時間（113年7月）vs投放時間（114年1月）——Outline未在E-09說明「提煉已開始」** — 輕度前置說明缺失
+- **Y-05：操Body Horror Stage 2觸發時機分散於E-08和E-09a** — 輕度敘述分散
+
+### 12角度分析結果（Phase D地下化邏輯）
+
+| 角度 | Judgment | 分析摘要 |
+|---|---|---|
+| 1. Character Growth | RELEVANT | Phase D是各角色在壓力下「無路可退」的弧線積累期；地下化觸發設計直接影響角色被動狀態的可信度 |
+| 2. Relationship Dynamics | RELEVANT | 地下生活的密閉空間是關係動態最集中的時期；生存邏輯設計影響角色互動的真實感 |
+| 3. Information / Reveal Control | RELEVANT | 愛莉Layer 2揭示、秋穗坦白等在Phase D/E的資訊釋放順序；計時器感知時機影響觀眾知識積累 |
+| 4. Atmosphere / Tension | RELEVANT | 帝國六個月消失令Phase D壓力感缺失；計時器前置影響E-12的氣氛張力 |
+| 5. Theme Expression | RELEVANT | 地下化=「制度性排斥的終點」；觸發機制的外部/內部性質影響主題表達（被動vs主動反抗）|
+| 6. Structural Beat Function | RELEVANT — 核心問題 | E-10 beat的結構功能缺乏Cost Signal支撐；E-09a→E-10過渡是Outline層最大結構漏洞 |
+| 7. Entry Timing / Presence Control | RELEVANT | [NC]暗線「王國邊緣的盛宴」位置影響朱音存在感建立時機；帝國在Phase D的存在感缺席 |
+| 8. World Rule / Mechanic Pressure | RELEVANT — 核心問題 | 帝國六個月行為空白違反世界規則一致性；CDL法則（Cost Signal）要求E-10有外部觸發 |
+| 9. Setup / Payoff | RELEVANT | E-12計時器需要前置種子；E-11觸發的設計影響愛莉守恆定律Layer 2-3的payoff鏈 |
+| 10. Audience Experience / Knowledge Gap | RELEVANT | 地下生活無說明令觀眾對Phase D有認知空白；計時器突然出現令觀眾感到E-12邏輯不足 |
+| 11. Canon / Continuity | RELEVANT — 核心問題 | timeline_raw與Outline的地下化觸發機制有重大差異；outline_raw與Outline的E-11觸發機制有重大差異 |
+| 12. Writing Execution | RELEVANT | 生存邏輯錨點缺失令Beat Sheet設計師面臨矛盾選擇 |
+| 13. Coping / Defense Mechanism | RELEVANT | 地下化本身是「逃跑型」coping；Phase D晴香/美夜子的coping在封閉空間下升溫 |
+| 14. Ideology / Value System | NOT_RELEVANT（本輪）| Phase D的意識形態衝突不是此次掃描重點；btd後幕設計 |
+| 15. Social / Institutional Position | RELEVANT | 帝國制度邏輯（為何允許主角團地下化六個月）= 制度位置問題；影響帝國世界觀一致性 |
+| 16. Moral Tradeoff | NOT_RELEVANT（本輪）| 地下化的道德代價不是此次主要問題 |
+| 17. Symbolic / Ritual Behavior | NOT_RELEVANT（本輪）| 暗線「王國邊緣的盛宴」有symbolic設計但位置問題是此輪關注點而非symbolic意義 |
+| 18. Narrative Validation Level | NOT_RELEVANT（本輪）| 本輪係事件邏輯掃描，非stance validation分析 |
+| 19. Method Necessity | NOT_RELEVANT（本輪）| 本輪不涉及重大執行形式選擇的必要性分析 |
+
+### Cross-Act Dependency Check（Phase D地下化邏輯）
+- **Upstream Dependencies：** E-09社死（Phase C）、E-09a鏡像破碎之夜（Phase C）、E-08恐怖家家酒（Phase B）是Phase D的直接上游；這些beats的設計決定地下化的情感重量
+- **Downstream Dependencies：** Phase D地下化後三個月的狀態直接影響E-11愛莉風暴、E-11a秋穗坦白、E-12討伐的情感可信度；地下化觸發設計影響Act III開場（地下生活延伸）
+- **Later-Act Constraints：** Act III確認地下生活繼續延伸（不是E-12後立即「解放」），因此Phase D地下化的世界規則邏輯必須能支撐到Act III
+- **Can Be Decided Locally：** No——地下化觸發是whole-story decision（影響Phase C/D/E過渡及Act III開場）
+- **Early Consumption Risk：** 低——Phase D設計失誤不會透支後段情緒，但會令後段失去可信度基礎
+- **Misalignment Risk：** 高——timeline_raw和outline_raw記載的設計與現有Outline已有偏離，不對齊風險真實存在
+
+### 新建 QUESTION_MATRIX 記錄
+- M033：E-10地下化外部觸發事件（Critical）
+- M034：Phase D帝國行為邏輯（High）
+- M035：E-10地下化後生存邏輯Outline層深度（Medium）
+- M036：E-11風暴觸發機制選擇（High）
+- M037：E-09a與E-10因果關係定性（High）
+- M038：E-12衛生行動計時器感知時機（High）
+- M039：愛莉Layer 2揭示媒介形式（Medium）
+- M040：[NC]「王國邊緣的盛宴」精確位置（Medium）
+
+### 新建 QUESTION_QUEUE 記錄
+QQ-69 through QQ-76（全部 OPEN，Round 028）
+
+---
+
 ## Round 023 — 2026-04-14 — Act I × 18-angle 系統首次全掃描
 
 ### 【任務背景】

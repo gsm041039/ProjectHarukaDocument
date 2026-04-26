@@ -1,14 +1,15 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.6 DRAFT待批核）
-- ACT_I_OUTLINE.md **v1.20 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.6 [DRAFT]**；待作者批核
-- **CDL-248 落檔（2026-04-20）**：QQ-64~68 RESOLVED；唯識宇宙哲學底層確立；00_series_bible.md + 01_world_rules_and_costs.md 更新完成
-- Active Topic / Section: **Act II v0.6 待批核**
-- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.6；②批核後可進行 ACT_III_OUTLINE.md v0.1 起稿
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.7 DRAFT待批核）
+- ACT_I_OUTLINE.md **v1.21 [APPROVED]**
+- **ACT_II_OUTLINE.md v0.7 [DRAFT]**；Phase D邏輯完整化；待作者批核
+- **CDL-249 落檔（2026-04-25）**：E-XX幕末觸發機制D方案；M021 RESOLVED
+- **CDL-250~257 落檔（2026-04-26）**：Phase D 8項決策完成（QQ-69~76 全部RESOLVED）——地下化雙重Cost Signal/帝國戰略無視/E-11衛生行動觸發/愛莉具現化揭示/王國邊緣盛宴位置鎖定
+- Active Topic / Section: **Act II v0.7 待批核**
+- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.7；②批核後進行 ACT_III_OUTLINE.md v0.1 起稿
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-20
+- Last Stable Updated At: 2026-04-25
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -43,6 +44,19 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 028，2026-04-25/26）
+- **CDL-249**：E-XX幕末觸發機制D方案；CGM警報+戰損裂鏡；黑奏介入=零；ACT_I_OUTLINE.md→v1.21
+- **CDL-250**（QQ-69）：E-10地下化=C 雙重疊加觸發（E-09社死+E-09a帝國行動同時降臨）；徹底消除Intention-Driven餘地
+- **CDL-251**（QQ-70）：Phase D帝國行為=C+A 戰略性無視（六個月在消化主角團痛苦：Fallen Angel量產+Emo-Visor鋪設）；對齊「情緒農場主」核心設定
+- **CDL-252**（QQ-72）：E-11觸發=C 積累+衛生行動雙觸發；CDL法則完美體現；農場主恐怖深化
+- **CDL-253**（QQ-73）：E-09a/E-10=B 平行雙線災難；與CDL-250完全對齊
+- **CDL-254**（QQ-74）：E-12計時器=C Phase D三階段壓縮節奏（黑市封鎖→Emo-Visor投影+紅色標記→驅逐氣體）；溫水煮青蛙窒息感
+- **CDL-255**（QQ-71）：Phase D生存錨點=B 朔黑市網絡+Emo-Visor監控盲點+物資匱乏；朔角色功能升級為無聲盟友
+- **CDL-256**（QQ-75）：愛莉揭示=C+A 紙皮騎士具現化擋刀+石像龜裂雙線視覺；113年9月E-11前數日；「未經同意的恩情」推罪疚到頂峰
+- **CDL-257**（QQ-76）：王國邊緣的盛宴=B 113年9月E-11風暴前夕；與主角團夜區絕望平行剪接（戲劇性諷刺最強）
+- **ACT_II_OUTLINE.md v0.6→v0.7**：Phase D全面重寫（Phase C→D過渡/Phase D背景框架/E-10/E-10b新beat/[NC]位置/E-11觸發/E-12定性）
+- **8條 OPEN 問題全部 RESOLVED**（QQ-69~76）；M033~M040 RESOLVED
 
 ## New Canon This Round（Round 027，2026-04-20）
 - **CDL-248**：唯識宇宙哲學底層全面確立；Q-027-01=A（客觀物理法則）；Q-027-02=C（分兩層次）；Q-027-03=B（唯識宇宙術語）；Q-027-04=A+C節奏（三層崩塌效應）；Q-027-05=C（兩份文件分工）；00_series_bible.md + 01_world_rules_and_costs.md 成功寫入
