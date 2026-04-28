@@ -1,15 +1,17 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.7 DRAFT待批核）
+- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.8 DRAFT重構完成，待作者批核）
 - ACT_I_OUTLINE.md **v1.21 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.7 [DRAFT]**；Phase D邏輯完整化；待作者批核
-- **CDL-249 落檔（2026-04-25）**：E-XX幕末觸發機制D方案；M021 RESOLVED
-- **CDL-250~257 落檔（2026-04-26）**：Phase D 8項決策完成（QQ-69~76 全部RESOLVED）——地下化雙重Cost Signal/帝國戰略無視/E-11衛生行動觸發/愛莉具現化揭示/王國邊緣盛宴位置鎖定
-- Active Topic / Section: **Act II v0.7 待批核**
-- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.7；②批核後進行 ACT_III_OUTLINE.md v0.1 起稿
+- **ACT_II_OUTLINE.md v0.8 [DRAFT]**；E-09「飢餓的天使」方案完整重構；Phase D新增朔見証之夜[NC]暗線；操Body Horror分層確立（Stage 2a vs 2b）；待作者批核
+- **CDL-233 更新（2026-04-28）**：操Body Horror分層設計（Stage 2a肉體 vs Stage 2b靈魂）；與Phase D四角困獸構圖對稱性確立
+- **CDL-259 新增（2026-04-28）**：E-09「飢餓的天使」——直播失控+光幕破碎（完整重構方案）；12角度全覆蓋+Cross-Act Dependency Gate通過
+- **CDL-260 新增（2026-04-28）**：[NC]「見証之夜」——朔從無聲盟友升級為心理認可者；三維度拍板方案[推薦值待作者最終確認]
+- **CDL-258 [SUPERSEDED]**：由CDL-259完全取代（夕的剪接室暗線方案已廢除）
+- Active Topic / Section: **Act II v0.8 E-09重構+Phase D朔見証暗線確立**
+- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.8 + 確認CDL-260朔見証三維度拍板；②批核後進行 ACT_III_OUTLINE.md v0.1 起稿
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-25
+- Last Stable Updated At: 2026-04-28
 
 ## Last Stable Completed Step
 - Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
@@ -44,6 +46,10 @@
 - **美夜子[NC]對話裂縫**（CDL-105）：輕量對話場景，觀眾確定感最清晰
 - **朔夜區 = [SQ]可選**（CDL-106）：個體差異型前置（觸發vs未觸發兩種體驗均有價值）
 - **紗夜 = 電話形式**（CDL-107）：聲音型存在感；掛線前沉默；Act III犧牲前置
+
+## New Canon This Round（Round 029，2026-04-28）
+- **CDL-258**：E-09社會性死亡Step 1前置決策（夕的剪接室暗線）；113年4月～7月夕利用晴香記憶斷層期暗中蒐集剪輯魔法少女監控素材；113年7月中旬由朔經黑市發布至帝國民間網絡；12角度全覆蓋確認；Cross-Act Dependency Gate通過；Angle 19形式必要性深化；ACT_II_OUTLINE.md→v0.8（E-08新增暗線段+E-09新增前置段）；QUESTION_MATRIX.md M-041新增行
+- **ACT_II_OUTLINE.md v0.7→v0.8**：Phase B整合E-08暗線+E-09因果鏈前置；版本變更記錄更新
 
 ## New Canon This Round（Round 028，2026-04-25/26）
 - **CDL-249**：E-XX幕末觸發機制D方案；CGM警報+戰損裂鏡；黑奏介入=零；ACT_I_OUTLINE.md→v1.21
