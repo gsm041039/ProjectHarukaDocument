@@ -77,6 +77,20 @@
 | **109** | <a id="event-pandora-protocol"></a>**潘朵拉協議**：黑奏開始「放養實驗」，等待晴香再次成熟 | 黑奏計劃啟動 |
 | **112-113** | <a id="event-yu-first-appearance"></a><a id="event-yu-disembodied-consciousness"></a>**夕的初次顯現（無肉身意識）**：晴香首次聽到鏡中聲音（5 歲小女孩的黑色輪廓） | 夕與晴香的共生關係開始 |
 
+### <a id="section-miyako-revival-mechanism"></a>美夜子復活機制（定案）
+
+**冰封的十年沉寂（92–102 年）**：冰封後的美夜子靈魂殘響完全靜止。[維多利亞之淚](02_glossary.md#term-tears-of-victoria)的集體潛意識掃描無法定位任何可識別信號——冰封肉體既無情緒輸出，亦無方向坐標。秋穗持有掃描權限，但在此期間無法有效行動。
+
+**102 年坐標活化**：晴香在 Alpha 線目睹美夜子慘死，發動「[改變現實](02_glossary.md#term-reality-override)」覆寫 Beta 線的一瞬間，Alpha 線美夜子臨死前對晴香的保護慾與不捨，以情緒衝擊波形式橫跨時間線，撞入 Beta 線冰封肉體。原本死寂的肉體在集體潛意識掃描數據中突然爆發出可識別的 Alpha 線殘響坐標信號。
+
+**秋穗的捕獲與準備（102–103 年）**：秋穗捕捉到這個異常信號，以此作為打撈方向，用一年時間完成交易換取儀器資源，於 103 年將美夜子靈魂殘響強行縫合回冰封肉體。
+
+**復活的本質**：此復活不違反「[不能真正復活死者](02_glossary.md#term-reality-override)」限制——秋穗並未還原完整靈魂，只是以「情緒殘響」填充肉身外殼。美夜子的存在是拼接式而非復原式。
+
+**悲劇閉環**：美夜子被找到、被拖入 Unit 01 地獄的根源，是她在 Alpha 線對晴香太深的愛。晴香 5 歲改變現實的執念，既是 Beta 線的創生衝擊，也無意間成為將家姐靈魂殘響從冥河打撈出來的定位訊號。
+
+**See also**: [Alpha 線分歧事件](#event-alpha-divergence) | [秋穗：罪孽的繼承者](03_characters/akiho.md#section-background) | [美夜子：唯一的已死者](03_characters/miyako.md#section-background) | [現實覆寫硬限制](02_glossary.md#term-reality-override)
+
 ---
 
 ## <a id="section-main-story-113"></a>IV. 故事主線（帝國歷 113 年）

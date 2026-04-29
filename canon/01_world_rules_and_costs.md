@@ -124,6 +124,18 @@
 
 **See also**: [Timeline](04_timeline_canon.md) | [Entities: Organizations](07_entities_and_devices.md#section-organizations)
 
+#### <a id="rule-alpha-qualification"></a>魔法少女資質：Alpha 線因果牽連原則
+
+**定義**：成為魔法少女（或被成功改造為兵器）的底層必要條件，是擁有「Alpha 線因果牽連」——靈魂曾被晴香帝國歷 102 年「[改變現實](02_glossary.md#term-reality-override)」的衝擊波所波及。
+
+**帝國的根本盲點**：軍方的「強制提取技術（洗滌式調律、心之器裂解）」只是表面手段。帝國始終不明白為何只有特定少女才能被成功改造——真相是，具有 Alpha 線因果牽連的靈魂，其[心之器](02_glossary.md#term-heart-vessel)本身已對集體潛意識的裂縫產生感應與共振，強制技術才能有效運作。無此連結的人接受同等手段，結果只有死亡或失敗。
+
+**不可逆**：Alpha 線因果牽連無法後天賦予或人工偽造，軍方無法憑技術「製造」具資質的少女，只能從已有資質者身上強制提取。
+
+**美夜子的極端案例**：作為 Alpha 線唯一真正死者、亦是「改變現實」的核心原點，美夜子的 Alpha 線因果烙印是所有魔法少女中最深、最完整的。復活後心之器已徹底碎裂，軍方無需額外強制手段即可完成 Unit 01 鑄造——她是這條規則運作至極端的活體示範。
+
+**See also**: [Alpha 線分歧事件](04_timeline_canon.md#event-alpha-divergence) | [美夜子 Unit 01](03_characters/miyako.md#section-background) | [改變現實](02_glossary.md#term-reality-override)
+
 ---
 
 ## <a id="section-soul-mechanics"></a>Soul Mechanics（靈魂本體論）
