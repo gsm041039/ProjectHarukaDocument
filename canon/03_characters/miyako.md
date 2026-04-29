@@ -38,7 +38,7 @@
 在所有主要角色中，美夜子擁有獨特定位——她是唯一在 [Alpha 線](../02_glossary.md#term-alpha-line)中真正死亡的角色。後續「被拉回」不是奇蹟，而是整個體制代價的集中體現；客觀事件鏈以 [Timeline：美夜子復活](../04_timeline_canon.md#event-miyako-revival) 為準。
 
 - **Alpha 線**：突然中斷，留下無數遺憾（無法告別、無法看晴香長大）
-- **Beta 線**：倒數計時的借來時光（知道隨時會消失）
+- **Beta 線**：以非正常方式存活的借來時光——並非定時炸彈，而是「死唔去，又活得不完整」的永恆懸空。肉體存活，靈魂殘缺，卻找不到出口。
 - **深層意義**：[Beta 線](../02_glossary.md#term-beta-line)不是為了「復活」，而是為了「道別」——從「被奪走」到「主動放手」
 
 **See also**: [Alpha Divergence 事件](../04_timeline_canon.md#event-alpha-divergence)
@@ -55,6 +55,10 @@
 ### Unit 01——軍方魔法少女兵器
 
 復活後失去記憶，被編入帝國軍方「魔法少女部隊」，代號 [Unit 01](../02_glossary.md#term-unit-01)。在部隊中，她與 4 號魔法少女[凜](rin.md)並肩作戰，兩人建立深厚戰友情誼。
+
+復活後，其[心之器](../02_glossary.md#term-heart-vessel)已處於徹底碎裂狀態——作為 Alpha 線唯一真正死者，靈魂結構本身即是最深的裂縫（見 [Alpha 線魔法少女資質原則](../01_world_rules_and_costs.md#rule-alpha-qualification)），軍方無需額外強制手段即可完成 Unit 01 鑄造。
+
+**黑貓 Bug 與降級**：[避難所詛咒](../02_glossary.md#term-sanctuary-curse)在某次執行任務時意外觸發，軍方發現 Unit 01 可隨時「失效」為無害黑貓，內部將其定性為有缺陷的半成品兵器，喪失核心任務資格後被分配至次要崗位。[秋穗](akiho.md)彼時已取得所需研究資源，未再出手干預。這是美夜子後來以黑貓形態伴隨[晴香](haruka.md)的前史結構原因。
 
 ### 凜的犧牲與詛咒首次觸發
 
