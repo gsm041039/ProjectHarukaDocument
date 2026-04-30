@@ -1,11 +1,24 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 028 E-XX Cost Signal設計確立 + CDL-249（2026-04-25）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 029 E-09 Step 1前置決策 + CDL-258（2026-04-28）**
 
 ## Current Objective
-- ①作者批核 **ACT_II_OUTLINE.md v0.6**
+- ①作者批核 **ACT_II_OUTLINE.md v0.8**（新增E-08暗線+E-09前置）
 - ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+
+## Completed This Round (Round 029 — 2026-04-28 E-09 Step 1前置決策 + CDL-258)
+- [x] 讀取狀態檔（PROJECT_STATUS / SESSION_LEDGER / CANON_DECISION_LOG / QUESTION_MATRIX）
+- [x] 識別E-09社會性死亡Step 1形式決策缺口（夕的剪接室暗線）
+- [x] 執行12角度全掃描：Character Growth/Relationship Dynamics/Information Control/Atmosphere/Theme Expression/Structural Function/Entry Timing/World Rule/Setup-Payoff/Audience Experience/Canon Continuity/Writing Execution全覆蓋
+- [x] Cross-Act Dependency Gate通過：Upstream(CDL-244/E-08記憶斷層)/Downstream(E-10/E-11/E-12/夕Act III)/Late-Act Risk確認
+- [x] Angle 19 (Method Necessity) 深化：「為何影片發布」vs「家人告發/網路流言」的形式必要性分析完成
+- [x] **用戶確認：Choice B（影片發布）**；理由：強制可見性+公開流通+身份固定化+帝國法理化完美契合
+- [x] **CDL-258 落檔（2026-04-28）**：E-09 Step 1前置完整決策文本
+- [x] **ACT_II_OUTLINE.md v0.7→v0.8**：Phase B新增「[暗線並行：夕的剪接室]」段落+E-09前新增「[從E-08繼承的因果鏈]」段落
+- [x] **QUESTION_MATRIX.md M-041 新增行**：E-09 Step 1前置決策矩陣完整落檔
+- [x] **PROJECT_STATUS.md 更新**：CDL-258落檔；v0.8 DRAFT待批核；Round 029新增
+- [x] **SESSION_LEDGER.md 更新**：Round 029完整記錄
 
 ## Completed This Round (Round 028 — 2026-04-25/26 CDL-249 + Phase D 地下化邏輯掃描)
 - [x] Story Room skill 啟動；讀取狀態文件（PROJECT_STATUS / NEXT_ACTION / SESSION_LEDGER / CANON_DECISION_LOG）
