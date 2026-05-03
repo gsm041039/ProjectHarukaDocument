@@ -1,4 +1,4 @@
-Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留
+/////////////////////Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留/////////////////////
 
 
 keep same design, pose, composition, costume and accessories. apply changes only to the character and directly interacting props, not to the background. simplify linework only: reduce inner lines, fold lines, seam lines, and hair strand lines, while keeping essential contour and key structure lines. preserve non-line design details such as clothing patterns, motifs, symbols, decorative shapes, color-blocking, and material separation.
@@ -20,14 +20,14 @@ metal must also be rendered in flat anime cel metal with hard highlight bands an
 do not simplify, flatten, reduce detail, or reduce texture in the background. keep all background rendering, painted detail, depth, atmosphere, and environmental complexity intact.
 
 
-Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感
+/////////////////////Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感/////////////////////
 
 
 adjust only the facial proportions toward a soft high-moe balance: slightly larger eyes relative to the face, shorter midface, smaller nose and mouth, softer cheek and jaw balance. keep the original eye shape unchanged. do not change the expression, emotional read, gaze direction, eye openness, eyelid shape, eyelid tension, eyebrow shape, eyebrow emotion, mouth shape, mouth openness, blush placement, or overall facial mood. keep the character identity and face reading exactly the same.
 
 
 
-Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading
+/////////////////////Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading/////////////////////
 
 
 add a very heavy anime screen-cap style compositing and post-processing pass over the finished frame, including both the character and the background. apply broad screen-space exposure shaping and atmospheric mood shadow across the image: large soft dark masses, irregular low-frequency darkening, and a strong cinematic light-to-dark separation across the frame. this darkening must read as a full-frame compositing pass, not as added form shading on the character. it must not behave like an extra cel-shadow layer, local repainting, or anatomy-based shading. allow parts of the character and scene to fall into deep composited darkness when appropriate, but only as screen-space mood darkening.
@@ -53,30 +53,78 @@ avoid visible geometric gradient beams, spotlight cones, diagonal bands, wedge-s
 
 
 
-anime settei sheet:
-official anime settei sheet, professional character turnaround sheet, production model sheet, reference design page, one single character only, full body front view and full body back view, strict A-pose, neutral standing pose, technical character sheet, expression sheet, hairstyle detail callouts, costume breakdown, accessory detail callouts, close-up parts, color palette swatches, main full-body figures large on the left, smaller detail boxes and headshots on the right, simple grey background, Traditional Chinese text annotations, clean anime production reference aesthetic, 2D design document, neat clean lineart, organized layout
+/////////////////////anime settei sheet/////////////////////
+official anime settei sheet, professional TV-anime production model sheet, simplified character turnaround sheet, one single character only, clean technical reference page, 2D anime production design document
 
-flat colors, extremely flat cel shading, very minimal shading, 1-2 tone shading only, hard-edged shadow shapes only, no soft shading, no soft lighting, no painterly rendering, no atmospheric lighting, no gradient rendering, no glossy rendering, no fabric sheen, no bloom, no rim light, no translucent rendering, no material rendering, no semi-realistic surface treatment
+use the reference image as the primary source of character identity and costume concept, but redraw it at a much simpler TV-animation production detail level. preserve the same character identity, same face and eye style, same hairstyle silhouette, same main outfit concept, same motif family, same main color blocking, same role and overall design family. do not redesign the character into a different costume.
 
-medium-low detail density, clean but not plain, simplified production-friendly costume design, readable costume construction, clear shape separation, large clean shapes with small concentrated detail zones, one clear main visual motif, 2-3 supporting costume details only, balanced information density, not overly detailed, not overly simple, not visually crowded, no excessive ornamentation, no excessive layering, no dense frills, no excessive tiny accessories, no overdesigned silhouette
+TARGET DETAIL LEVEL:
+clean official TV anime settei sheet, medium-low detail density, production-safe, easy to redraw, broad readable shapes, large clean costume areas, simple silhouette, clear color blocking, limited garment layers, limited decoration, no high-detail concept-art density.
+
+DETAIL BUDGET RULE:
+the final design must have around 40% to 55% of the reference image’s original drawn detail density. preserve only the largest and most recognizable design decisions. simplify or merge small parts into larger cleaner shapes. every costume area should be readable from a distance. do not fill empty areas with extra decoration.
+
+LARGE SHAPE FIRST RULE:
+keep large shapes large. do not break one large costume panel into many small pieces. do not over-segment skirts, sleeves, capes, ribbons, belts, straps, or cloth tails. use big simple panels and clear silhouettes. leave some calm empty cloth areas with no decoration.
+
+DECORATION CONTROL:
+details may appear only in 3 to 5 focal zones maximum, such as chest emblem, collar, waist, hair accessory, cuffs, shoes, or one signature accessory area. all other areas must remain clean and quiet. do not decorate every edge. do not add new unnecessary ornaments.
+
+REPEATED ELEMENT LIMIT:
+if the design includes chains, straps, ribbons, feathers, lace, spikes, charms, crosses, stitches, trims, gems, beads, broken cloth tips, or repeated motifs, reduce them to a few large representative elements only.
+maximum chains: 1 to 2 short simple chain segments.
+maximum dangling ornaments: 2 to 4 total.
+maximum skirt pleat lines: 4 to 6 large simple fold lines total.
+maximum cloth split tips: 3 to 5 large tips total.
+maximum small symbols or motifs: 3 to 5 total.
+no dense repeated patterns, no chain curtains, no many link clusters, no many tiny straps, no many small hanging pieces.
+
+CLOTH SIMPLIFICATION:
+skirts, sleeves, cape panels, draped fabric, ribbons, and layered garments must use broad simple cloth shapes with only a few major folds. folds should be clean, graphic, and animation-friendly. avoid micro-folds, dense wrinkles, many pleats, many crease lines, tiny torn edges, and complex cloth texture.
+
+EDGE SIMPLIFICATION:
+if the original design has ragged hems, broken edges, cloud-shaped edges, asymmetrical cloth, layered skirts, or decorative cloth tails, keep the motif but simplify it into fewer larger cleaner shapes. keep important cloud-shaped clothing edges if they are part of the original design, but make them broad, readable, and not overly detailed.
+
+LINEART AND COLOR:
+clean neat anime lineart, clear outlines, minimal internal linework, flat colors, extremely flat cel shading, very minimal 1-2 tone shading only, hard-edged shadow shapes only, no soft rendering, no painterly rendering, no fabric sheen, no glossy material rendering, no gradients, no bloom, no rim light, no atmospheric lighting.
+
+SHEET LAYOUT:
+full body front view and full body back view, strict A-pose, neutral standing pose, large main figures on the left. on the right include expression heads, hairstyle callouts, accessory callouts, costume breakdown, close-up parts, shoe detail, hand/glove detail if needed, and color palette swatches. simple light grey background, Traditional Chinese text annotations, organized rectangular layout, clean spacing, clear hierarchy, professional anime settei sheet style.
+
+the final result should look like the same character and same costume concept, but simplified into a clean, production-safe official TV anime model sheet.
+
+
+
+
+/////////////////////anime settei sheet with reference/////////////////////
+Create an official anime settei sheet / professional character turnaround sheet / production model sheet for one single character only.
+
+Do not copy the reference image at full detail. Use it only as a character identity and costume-concept reference. Redraw the design as a simplified TV-anime production model sheet with much lower detail density.Use the character reference image for identity, costume concept, color family, motif family, silhouette family, hairstyle, face, and overall role only. Do not reproduce every small costume detail from the reference. This is not an exact-detail copy task. This is a simplified production-safe anime design adaptation of the same character.
+
+The final design must keep the same character identity and same outfit concept, but with much lower drawn detail density. Preserve the large recognizable design decisions only: main silhouette, hairstyle, face and eye style, main color blocking, main motif placement, major garment layers, major accessories, and overall costume archetype. Simplify or remove tertiary decoration, micro parts, tiny spikes, tiny cracks, tiny straps, tiny seams, dense edge cuts, excessive trim fragments, repeated small ornaments, and unnecessary internal linework.
+
+Match the detail level of a clean simple official anime magical girl / anime character settei sheet: broad readable shapes, clean color blocks, limited garment layers, simple edges, decoration concentrated in only a few focal areas, and no dense surface detail. The design should feel like an animation-friendly TV anime production sheet, not a gacha-game costume sheet, not a fantasy armor concept sheet, not a high-detail illustration design, and not a luxury idol costume.
+
+Important simplification rule: keep the outer silhouette and major motif positions, but simplify the inner construction. Large shapes must stay large. Do not split large costume areas into many small parts. Do not add extra spikes, extra feathers, extra ribbons, extra broken cloth tips, extra metal trims, extra cracks, extra ornaments, or extra layered pieces. If the reference has many repeated small elements, merge them into fewer larger shapes. If the reference has complex ragged or spiky edges, redraw them as simple broad stylized edges with only a few clear points.
+
+The costume should have one clear main motif and a small number of supporting details. Details may appear only in key areas such as chest, waist, collar, cuffs, shoes, hair accessory, or one signature emblem. Keep all other areas clean and quiet. Do not decorate every edge. Do not fill empty space with new details. Do not draw high-frequency detail.
+
+The sheet must include full body front view and full body back view in strict A-pose, neutral standing pose, large on the left. On the right, include expression heads, hairstyle callouts, costume breakdown, accessory callouts, close-up parts, and color palette swatches. Use a simple light grey background, Traditional Chinese text annotations, organized rectangular layout, clean spacing, clear hierarchy, neat clean lineart, and a 2D anime production reference aesthetic.
+
+Rendering must be flat and simple: flat colors, extremely flat cel shading, very minimal shading, 1-2 tone shading only, hard-edged shadow shapes only. No painterly rendering, no soft shading, no atmospheric lighting, no gradient rendering, no glossy material, no fabric sheen, no bloom, no rim light, no semi-realistic rendering.
+
+The result should look like the same character redesigned only at the drawing-detail level, not a different character and not a different outfit. Same identity, same concept, same motif family, but simplified to a clean official anime production sheet level.
 
 character design: [角色身份 / 類型], [年齡感], [性格氣質], [主色系], [副色系], [accent color], [主要 motif], [整體氣氛], [世界觀定位]
 
-costume design: simple but distinctive anime costume design, clear garment layers, controlled decorative elements placed only in key areas such as chest, collar, cuffs, waist, skirt hem, shoes, or hair accessory, minimal but meaningful accessories, production-friendly shape logic, silhouette-focused design, no luxury-fashion complexity, no dense stage-costume overdesign
-
-hair design: clean readable hairstyle, simple front and back hair shape, one distinctive hair detail or accessory, hairstyle detail callout, no overly complex hair ornaments
-
-sheet layout: large front and back full-body views on the left, expression heads on the upper right, hairstyle details and costume detail boxes on the right, clothing parts breakdown at the bottom, color palette swatches, Traditional Chinese labels, clean professional settei sheet layout
-
-design complexity similar to a clean mid-simplicity anime magical girl settei sheet, with moderate information density and simplified costume construction
-
---ar 3:2 --niji --style raw --s 15
---no painterly shading, soft shading, soft lighting, fashion illustration, dynamic pose, mood illustration, semi-realistic rendering, rendered skin, glossy material, translucent fabric rendering, complex light effects, bloom, gradient shading, detailed textile rendering, hyper detailed costume, excessive accessories, excessive frills, dense patterns, chaotic ornaments, too many layers, luxury idol costume complexity, visual clutter, overdesigned outfit, empty plain outfit
+--ar 3:2 --niji --style raw --s 5
+--no exact micro-detail reproduction, gacha-game detail, fantasy armor detail, high-detail costume sheet, intricate armor, dense gothic ornament, excessive spikes, excessive feathers, excessive torn cloth, too many cloth tips, too many small fragments, too many trims, too many straps, too many seams, too many cracks, too many tiny ornaments, high-frequency detail, dense edge detail, over-segmented costume, noisy silhouette, chaotic layered pieces, overdesigned outfit, luxury idol costume, fashion illustration, painterly shading, soft shading, soft lighting, gradient shading, glossy rendering, translucent fabric, bloom, rim light, cinematic lighting, dynamic pose, mood illustration, semi-realistic rendering
 
 
 
 
-anime head sheet:
+
+/////////////////////anime head sheet/////////////////////
 use the input image only as character identity, hairstyle, face, color, and eye-style reference; convert it into a strict anime production head settei sheet, professional animation head model sheet, technical studio head reference page
 
 one single character only, head-only sheet, every panel must show head only or head-and-neck only, cropped at the base of the neck or slightly above the shoulders, absolutely no full body, no half body, no torso, no waist-up, no arms, no hands
@@ -107,7 +155,7 @@ rough but controlled anime lineart, slightly sketchy but clean, readable silhoue
 --ar 3:2 --niji --style raw --s 5 --chaos 0 --no duplicate angles, repeated back view, repeated front view, repeated profile, full body, half body, torso, bust shot, fashion board, merchandise sheet, accessory showcase board, product catalog, scrapbook layout, sticker sheet, decorative collage, splash art, poster composition, dynamic pose, cinematic composition, soft shading, painterly shading, glossy rendering, gradient shading, rendered skin, large empty areas
 
 
-美術圖:
+/////////////////////美術圖/////////////////////
 use the provided image as a character design reference only. ignore the original sheet layout, plain background, annotations, settei presentation, and turnaround format. generate a finished anime illustration / key visual of the same character in a new scene.
 
 preserve the character’s identity, hairstyle, hair color, face shape, eye shape, costume design, accessories, color scheme, motifs, and overall design language. keep the same core outfit design, recognizable silhouette, and all important non-line design information such as clothing patterns, motifs, symbols, decorative shapes, color blocking, and material separation. present the character as a finished illustration rather than a design sheet.

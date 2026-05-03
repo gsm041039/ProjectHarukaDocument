@@ -1,11 +1,51 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 029 E-09 Step 1前置決策 + CDL-258（2026-04-28）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 030c HSP/晨間斷層概念群全部RESOLVED + CDL-261~270（2026-05-02）**
 
 ## Current Objective
-- ①作者批核 **ACT_II_OUTLINE.md v0.8**（新增E-08暗線+E-09前置）
-- ②**ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型）
+- ①**ACT_II_OUTLINE.md v0.8 加CDL-264錨點②**（E-08斷層延長標記）後提交批核
+- ②批核後 **ACT_III_OUTLINE.md v0.1 起稿**（CDL-212~218骨架 + CDL-264③④ + CDL-266三武器 + CDL-268兩段HSP + CDL-269[對比錨點B]）
+
+## Completed This Round (Round 030c — 2026-05-02 QQ-78/80/83/84/86 RESOLVED + CDL-266~270落檔)
+- [x] 作者答 QQ-78=A（三武器②→①→③）/ QQ-86=A（先修Act III）/ QQ-83=C（兩段漸進）/ QQ-84=A（兩場Outline層確認）/ QQ-80=B（桐生健純Beta線）
+- [x] **QQ-78 RESOLVED（CDL-266）**：Act III三武器揭露確認，排序②→①→③
+- [x] **QQ-86 RESOLVED（CDL-267）**：Outline修訂序列=先Act III，之後回補Act I/II
+- [x] **QQ-83 RESOLVED（CDL-268）**：HSP展示Act III兩段漸進（笨拙嘗試→完整展示）
+- [x] **QQ-84 RESOLVED（CDL-269）**：膠布vs陰影治癒對比雙場景入Outline層
+- [x] **QQ-80 RESOLVED（CDL-270）**：桐生健無Alpha線特別身份
+- [x] **CDL-266~270 全部落檔**
+- [x] **QUESTION_QUEUE.md 更新**：QQ-78/80/83/84/86 全部RESOLVED
+- [x] **QUESTION_MATRIX.md 更新**：M-042~051 全部RESOLVED
+- [x] **NEXT_ACTION.md 更新**：移除QQ問題前置條件，指向ACT_II v0.8加錨點→批核→ACT_III v0.1
+- [x] **PROJECT_STATUS.md 更新**：Round 030c新CDL記錄
+- [x] **SESSION_LEDGER.md 更新**（本條）
+
+## Completed This Round (Round 030b — 2026-05-02 HSP/晨間斷層 5條答案落檔)
+- [x] 識別 QQ-78 錯誤引用 CDL-227（已被CDL-259取代），修正為CDL-259直播失控方案
+- [x] 作者答 QQ-77=A（全劇動脈）/ QQ-79=B（[NC]嵌入）/ QQ-81=B（設計缺陷型）/ QQ-82=A（四錨點全OK）/ QQ-85=A（無需補充）
+- [x] **QQ-77 RESOLVED（CDL-261）**：HSP/晨間斷層全劇動脈確認
+- [x] **QQ-79 RESOLVED（CDL-262）**：Act I嵌入[NC]，唔改開場結構
+- [x] **QQ-81 RESOLVED（CDL-263）**：Emo-Visor=設計缺陷型，帝國平庸之惡，CDL-251對齊
+- [x] **QQ-82 RESOLVED（CDL-264）**：四階段錨點全部確認（①Act I [NC]/②Act II E-08/③Act III武器化/④Act III治癒）
+- [x] **QQ-85 RESOLVED（CDL-265）**：睡眠機制解釋足夠，無需writeback
+- [x] **CDL-261~265 全部落檔**
+
+## Completed This Round (Round 030 — 2026-05-02 HSP/晨間存在斷層 Cross-Act Gate + State File Writeback)
+- [x] 讀取狀態檔（PROJECT_STATUS / NEXT_ACTION / QUESTION_QUEUE / SESSION_LEDGER）
+- [x] 識別 Round 030 之前的討論（HSP優點翻轉 / 膠布哲學對比 / 晨間存在斷層 / 晨間解離症候群）全部係 [DRAFT ONLY — NOT CANON]
+- [x] Source check 確認：晨間存在斷層/HSP/陰影治癒等詞彙**完全不存在於任何Canon文件**
+- [x] Cross-Act Dependency Gate 執行：六欄完整分析
+- [x] 12角度全掃描（Pool 1全部 + Pool 2角度13~19全部判斷）：全部RELEVANT
+- [x] 六大風險識別（RISK-030-01~06）：揭露武器排隊/Act I開場衝突/桐生健新material/Emo-Visor機制張力/情感積累前置耗損/Phase D密度過載
+- [x] Angle 19（形式必要性）推理：早晨時窗的形式優先性論證
+- [x] 10條作者問題（QQ-77~86 / Q-030-01~10）設計完畢，包含A/B/C選項及影響說明
+- [x] **QUESTION_QUEUE.md 更新**：Round 030 QQ-77~86 新增（全部OPEN）
+- [x] **QUESTION_MATRIX.md 更新**：M-042~M-051 新增（Cross-Act Gate + 12角度 + 六大風險 + Matrix Rows）
+- [x] **REASONING_LOG.md 更新**：Round 030 完整推理追加
+- [x] **SESSION_LEDGER.md 更新**：Round 030 記錄（本條）
+- ⬜ PROJECT_STATUS.md 更新（下一步）
+- ⬜ NEXT_ACTION.md 更新（下一步）
 
 ## Completed This Round (Round 029 — 2026-04-28 E-09 Step 1前置決策 + CDL-258)
 - [x] 讀取狀態檔（PROJECT_STATUS / SESSION_LEDGER / CANON_DECISION_LOG / QUESTION_MATRIX）

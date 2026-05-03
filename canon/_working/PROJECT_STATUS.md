@@ -1,20 +1,42 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: STORY_ROOM — Phase 14 Act II Outline（v0.8 DRAFT重構完成，待作者批核）
-- ACT_I_OUTLINE.md **v1.21 [APPROVED]**
-- **ACT_II_OUTLINE.md v0.8 [DRAFT]**；E-09「飢餓的天使」方案完整重構；Phase D新增朔見証之夜[NC]暗線；操Body Horror分層確立（Stage 2a vs 2b）；待作者批核
-- **CDL-233 更新（2026-04-28）**：操Body Horror分層設計（Stage 2a肉體 vs Stage 2b靈魂）；與Phase D四角困獸構圖對稱性確立
-- **CDL-259 新增（2026-04-28）**：E-09「飢餓的天使」——直播失控+光幕破碎（完整重構方案）；12角度全覆蓋+Cross-Act Dependency Gate通過
-- **CDL-260 新增（2026-04-28）**：[NC]「見証之夜」——朔從無聲盟友升級為心理認可者；三維度拍板方案[推薦值待作者最終確認]
-- **CDL-258 [SUPERSEDED]**：由CDL-259完全取代（夕的剪接室暗線方案已廢除）
-- Active Topic / Section: **Act II v0.8 E-09重構+Phase D朔見証暗線確立**
-- Current Objective: ①作者批核 ACT_II_OUTLINE.md v0.8 + 確認CDL-260朔見証三維度拍板；②批核後進行 ACT_III_OUTLINE.md v0.1 起稿
+- Current Mode: WORLD_SYSTEM — Phase 15 屍骸化機制深化及世界觀補圓（CDL-271 世界規則層Writeback完成）
+- **ACT_I_OUTLINE.md v1.21 [APPROVED]**（待Act III批核後回補CDL-262/264晨間斷層微細節+CDL-269[對比錨點A]標記 — 低影響，CDL-267工作序列）
+- **ACT_II_OUTLINE.md v0.8 [DRAFT]**；待加入CDL-264錨點②（E-08斷層延長標記）後提交批核
+- **HSP/晨間存在斷層概念群**：Round 030全部10條 **RESOLVED（CDL-261~270）**；概念群完整進入canon pipeline
+- **CDL-271 靈魂困禁機制（2026-05-03）**：屍骸化本質確立；Glossary + World Rules + Narrative Design Bible 全層補圓完成；Character Files Writeback待執行
+- **Round 031 完整新CDL（CDL-271，2026-05-03）**：魔法屍骸真相/靈魂困禁1%控制力/執念物理錨點/**未斷的殘絲設定確立**/屍骸化場景執行規格/心之器靈魂-肉體連繫機制
+- Active Topic / Section: **CDL-271 Canon層Writeback完成 → Character Files補充（miyako.md + haruka.md） → 準備ACT_III_OUTLINE.md v0.1起稿**
+- Current Objective: ①完成miyako.md + haruka.md CDL-271相關補充；②準備進入Act III Outline設計（需完整理解屍骸化視角後確保Outline層揭示節奏正確）；③提交作者批核Act II v0.8 + 新增補圓確認無衝突
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-04-28
+- Last Stable Updated At: 2026-05-03
 
 ## Last Stable Completed Step
-- Round 015 矛盾掃描完成（2026-04-02）：全部 Act I beats source check；唯一 blocker = QQ-51（操手術室Flash CDL-121 vs CDL-005矛盾）；E-01~E-02.5清場完成
+- Round 031 完成（2026-05-03）：CDL-271 屍骸化靈魂困禁機制確立；Glossary + World Rules + Narrative Design Bible 全層Writeback完成；Character Files 補充待執行
+
+## New Canon This Round（Round 031，2026-05-03）
+- **CDL-271**：魔法屍骸「未斷的殘絲」靈魂困禁機制確立；靈魂1%控制力對99%情緒廢料的永恆囚禁；執念物理錨點防止靈魂逃脫；屍骸有記憶、執念、微小人性動作的根本原因；朱音保護屍骸與晴香陰影視覺的機制完整支撐
+
+## New Canon This Round（Round 030c，2026-05-02）
+- **CDL-266**（QQ-78=A）：Act III三武器揭露確認，排序②→①→③（Fallen Angel→夕直播失控→晨間斷層創世原罪）
+- **CDL-267**（QQ-86=A）：Outline修訂序列=先起草Act III，之後回補Act I/II
+- **CDL-268**（QQ-83=C）：HSP優點翻轉Act III兩段漸進（地下期笨拙嘗試→後段/Act IV完整展示）
+- **CDL-269**（QQ-84=A）：膠布vs陰影治癒對比雙場景入Outline層（[對比錨點A]+[對比錨點B]）
+- **CDL-270**（QQ-80=B）：桐生健無Alpha線特別身份，純Beta線校霸（CDL-087維持）
+
+## New Canon This Round（Round 030b，2026-05-02）
+- **CDL-261**（QQ-77=A）：HSP/晨間存在斷層全劇動脈確認；四階段進度條模型
+- **CDL-262**（QQ-79=B）：Act I晨間斷層嵌入[NC]，唔改開場結構，CDL-100~102偽溫暖保留
+- **CDL-263**（QQ-81=B）：Emo-Visor=設計缺陷型Alpha滲漏；帝國平庸之惡；CDL-251對齊
+- **CDL-264**（QQ-82=A）：四階段錨點全部確認（Act I [NC]/Act II E-08延長/Act III武器化/Act III治癒）
+- **CDL-265**（QQ-85=A）：睡眠機制解釋足夠，01_world_rules_and_costs.md無需補充
+
+## New Canon This Round（Round 030，2026-05-02）
+- **無新CDL**（概念評估+問題設計輪，全部提案待作者Gate）
+- QQ-77~86 全部 **OPEN**（10條）
+- M-042~M-051 全部新增（NEEDS_AUTHOR_INPUT）
+- 六大風險 RISK-030-01~06 識別完成
 
 ## New Canon This Round（Round 014，2026-04-02）
 - **奪舍示範場景（HC-2e）時機確認**（CDL-118）：E-02首戰後某事件中間的小事件；HC-2e時序約束滿足；具體位置 btd Beat Sheet
@@ -201,11 +223,13 @@
 - QQ-17（具體設計）: 管家紗夜 Act I 具體場景 btd — Act I Beat Sheet 時確認
 - QQ-26（框架重構）: 黑奏接管具體場景設計 — Act I Beat Sheet（逐場景確認）
 
-## Pending Writeback（不阻塞 Beat Sheet）
+## Pending Writeback（不阻塞 Beat Sheet / Outline）
 - haruka.md habit #6 刪除（CDL-112）
 - gameplay_bible + entities CGM/葡萄糖注射槍（CDL-114）
 - miyako.md [SQ-A]「指尖亮起」→ cat paw（新發現）
 - canon/01_world_rules_and_costs.md 補充潘朵拉協議（CDL-125）
+- **canon/03_characters/miyako.md**：補充Unit 01時期靈魂困禁狀態描寫（CDL-271）——潛意識中美夜子如何被軍方改造、被鎖鏈/抽吸喉管困住的心房狀態
+- **canon/03_characters/haruka.md**：補充陰影視覺與屍骸靈魂聲音機制（CDL-271）——整合夕後晴香如何感知被困靈魂層，為Act III/IV屍骸揭示提供機制支撐
 
 ## Immediate Safe Next Action
 - 作者回答 **Q4**（欺凌具體形式）/ **Q5**（晴香介入觸發點）/ **Q6**（街道視覺細節）→ 完成 E-01 Beat Sheet v0.3

@@ -142,6 +142,68 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 | M-R04 | 114年4月凜三連爆 Outline beat數量 | 結構功能、角色成長、關係動態 | timeline_raw記錄三件事但無Outline對應：①觀眾知凜已死+被重組（美夜子坦白）②美夜子記憶恢復（知係晴香親姐）③凜自願改造Unit 00-Null | timeline_raw（114年4月）| NEEDS_AUTHOR_INPUT | 美夜子Act III弧線高潮；凜弧線終點設計影響整個Act III節奏配置 | Yes（Q-R4）| 凜三連爆要幾多個Outline beat？ | 三個獨立beat | 兩個beat（揭露+記憶恢復合并/凜自願改造獨立）| 一個大beat「凜弧線高潮」 | Act III Outline E-III-XX凜相關beat | High |
 | M-R05 | 公開處刑公告（114年5月）設計方向 | 氣氛/張力、結構功能、主題表達 | timeline_raw確認存在，但針對對象/性質完全未設計 | timeline_raw（114年5月）| NEEDS_AUTHOR_INPUT | 公告是Act III的第一個大錨點，設計方向影響整幕張力走向 | Yes（Q-R5）| 公開處刑公告針對對象？ | 集體死刑令（所有主角）| 針對晴香一人（他人處置不同）| 針對「魔法少女」身份的全面消滅令 | Act III Outline Act III-XX設計；Act IV處刑場景前置 | High |
 
+## Round 030 新增 Topics（2026-05-02 — HSP/晨間存在斷層概念群 Cross-Act Dependency Gate）
+
+### Cross-Act Dependency Gate 執行結果
+
+| Gate欄位 | 評估 |
+|---|---|
+| Upstream dependency | CDL-227（夕拍片E-09）/ CDL-228（夕意識狀態）/ CDL-231（E-09a鏡像破碎之夜）/ CDL-244（Fallen Angel）/ CDL-251（帝國戰略性無視）|
+| Downstream risk | Act III黑奏揭露武器序列衝突（三武器排隊問題）/ Act I開場結構CDL-100~104衝突風險 |
+| Late-Act risk | Act III鋼鐵獨舞 Double-hit（CDL-232）若被Act II晨間斷層早消耗，情感前置過深 |
+| Decision needed | Q-030-01（概念群位階）/ Q-030-02（揭露武器排序）/ Q-030-10（修訂範圍）為最高優先 |
+| Pipeline status | 全概念群為 [PROPOSAL — NOT CANON]；未通過作者 gate；全部相關 scene-level 內容 = [DRAFT ONLY — NOT CANON] |
+
+### 12角度掃描（全概念群）
+
+| 角度 | 判斷 | 關鍵發現 |
+|---|---|---|
+| 1. 角色成長 | RELEVANT | 晴香整合夕後HSP優點翻轉係Act III弧線核心；需確認首展時機（QQ-83）|
+| 2. 關係動態 | RELEVANT | 晨間斷層+隊友用其安慰晴香=關係和解素材；但時機需配合朱音出走/回歸弧線 |
+| 3. 資訊揭示控制 | RELEVANT — CRITICAL | 黑奏用斷層做揭露武器可能造成「第三武器排隊」問題（QQ-78）|
+| 4. 氣氛/張力 | RELEVANT | 晨間蒙太奇心理驚悚感強，但與Act I偽溫暖CDL-102美學可能衝突 |
+| 5. 主題表達 | RELEVANT | 「態度 vs 命運」核心主題的具體化載體；晨間斷層=命運（無法改變），擁抱彼此=態度 |
+| 6. 結構功能 | RELEVANT — CRITICAL | 四階段植入需對應現有具體beats；若全劇動脈，Act I/II Outline需修訂 |
+| 7. 入場時機 | RELEVANT | 概念群在哪一幕首次「顯性」vs「背景」出現影響觀眾感知積累 |
+| 8. 世界規則壓力 | RELEVANT | Alpha/Beta線睡眠機制需補充說明（01_world_rules_and_costs.md）才能落場 |
+| 9. 埋伏/回收 | RELEVANT | 膠布哲學對比雙場景需Act I/II植入才有Act III回收；需確認植入位置 |
+| 10. 觀眾體驗 | RELEVANT | 晨間蒙太奇若在Act I開場，可能透支Act III Mirror Shatter CDL-231的情感積累 |
+| 11. Canon/連續性 | RELEVANT — CRITICAL | 桐生健Alpha線背景完全無CDL支撐；Emo-Visor滲漏機制需與CDL-251對齊 |
+| 12. 寫作可執行性 | RELEVANT | 概念本身高度可執行，但「早晨2秒斷層」在文字媒介（遊戲文本）需特殊設計 |
+| 13. Coping/防禦機制 | RELEVANT | 膠布哲學 vs 陰影治癒對比=晴香防禦機制整合的核心可視化 |
+| 14. 意識形態/價值系統 | RELEVANT | 「有資格痛」vs「虛假正能量」=兩種不同的痛苦處理哲學衝突 |
+| 15. 社會/制度位置 | RELEVANT | 晨間解離症候群=帝國制度對凡人的宏觀壓迫；擴展世界質感 |
+| 16. 道德代償 | RELEVANT | 晴香「創世原罪」=以朋友的Alpha線痛苦換Beta線的存在——晨間斷層係這個代償的每日具象化 |
+| 17. 象徵/儀式行為 | RELEVANT | 角色晨間儀式（凜扯紅線/美夜子浸冰水/操摸頸/朱音反胃）=每日重覆的存在確認ritual |
+| 18. 敘事驗證層次 | RELEVANT | 故事最終validate「每日選擇擁抱彼此」而非validate「消除痛苦」 |
+| 19. 形式必要性 | RELEVANT — NEEDS_AUTHOR_INPUT | 為何係「早晨」而非其他時窗？睡眠機制解釋是否足夠（QQ-85）|
+
+### 六大風險（已識別）
+
+| 風險ID | 描述 | 衝突CDL | 優先QQ |
+|---|---|---|---|
+| RISK-030-01 | Act III揭露武器三角排隊（CDL-227/CDL-244/晨間斷層三個同時用） | CDL-227/244 | QQ-78 |
+| RISK-030-02 | Act I開場蒙太奇 vs CDL-100~104偽溫暖美學衝突 | CDL-100~104 | QQ-79 |
+| RISK-030-03 | 桐生健Alpha線崩潰場景=完全無CDL支撐的新material | — | QQ-80 |
+| RISK-030-04 | Emo-Visor Alpha滲漏機制與CDL-251「消化痛苦/戰略無視」邏輯張力 | CDL-251 | QQ-81 |
+| RISK-030-05 | 早期晨間斷層植入可能透支CDL-231 Act II鏡像破碎之夜情感前置深度 | CDL-231 | QQ-78/82 |
+| RISK-030-06 | Phase D 14日斷層強化 vs 現有E-09直播失控+E-09a鏡像破碎cascade可能重疊 | CDL-259/231 | QQ-82 |
+
+### Matrix Rows（Round 030）
+
+| Matrix ID | Topic | 主要角度 | 當前詮釋 | Source基礎 | Status | 關鍵風險 | 需要作者輸入？ | QQ |
+|---|---|---|---|---|---|---|---|---|
+| M-042 | HSP/晨間存在斷層概念群整體位階 | 結構功能/設定壓力/埋伏回收 | 完全新概念群，未通過任何Gate；全部相關對話內容=[DRAFT ONLY — NOT CANON] | 本輪聊天提案（無CDL支撐）| **SOURCE_SUPPORTED（CDL-261）** | QQ-77=A RESOLVED：全劇動脈，四階段進度條設計 | Act I/II/III/IV均有錨點 | QQ-77 ✅ |
+| M-043 | Act III揭露武器——是否加入晨間斷層作第三武器 | 資訊揭示控制/結構功能/觀眾體驗 | 武器①CDL-259（CONFIRMED）：「夕一直都在利用你，令你失控攻擊路人」；武器②CDL-244（CONFIRMED）：Fallen Angel；武器③（提案）：晨間斷層原罪武器——前兩個已確認，問題只係第三個要唔要 | CDL-259/244（CONFIRMED）；斷層武器=提案 | **SOURCE_SUPPORTED（CDL-266）** | QQ-78=A RESOLVED：三武器確認，排序②→①→③（剝洋蔥式） | Act III Outline黑奏揭露beat設計可執行 | QQ-78 ✅ |
+| M-044 | Act I開場結構——晨間蒙太奇 vs CDL-100~104 | 氣氛/張力/觀眾體驗/Canon連續性 | CDL-100~104已確立Act I開場=E-01→桐生健→偽溫暖；蒙太奇前置=結構修改 | CDL-100~104（現有）；蒙太奇=提案 | **SOURCE_SUPPORTED（CDL-262）** | QQ-79=B RESOLVED：嵌入現有[NC]，唔改開場結構 | Act I Outline無需結構修改 | QQ-79 ✅ |
+| M-045 | 桐生健 Alpha 線背景正典化 | Canon連續性/角色成長/世界規則 | 完全無CDL支撐；「被欺凌/餓死」=本輪聊天提案；需作者確認方可進入beta-to-alpha角色設計 | 無（純提案）| **SOURCE_SUPPORTED（CDL-270）** | QQ-80=B RESOLVED：無Alpha線特別身份，純Beta線校霸（CDL-087維持） | 不影響現有CDL；崩潰場景按CDL-263執行 | QQ-80 ✅ |
+| M-046 | Emo-Visor Alpha滲漏機制框架 | 世界規則壓力/Canon連續性 | CDL-251=帝國「戰略性無視+消化痛苦」；滲漏機制=武器vs副作用vs靈樹老化三選一 | CDL-251（現有）；滲漏機制=提案 | **SOURCE_SUPPORTED（CDL-263）** | QQ-81=B RESOLVED：設計缺陷型，帝國平庸之惡，與CDL-251完全對齊 | Act II Phase D凡人崩潰場景設計可執行 | QQ-81 ✅ |
+| M-047 | 四階段錨點映射（具體beat對應）| 結構功能/入場時機 | 四個理論錨點已設計，但未對應現有具體beats（依賴QQ-77先確定）| 本輪提案（依賴QQ-77）| **SOURCE_SUPPORTED（CDL-264）** | QQ-82=A RESOLVED：全部四錨點確認（①Act I [NC]②Act II E-08③Act III揭露④Act III地下期）| 四個Outline錨點全部落實 | QQ-82 ✅ |
+| M-048 | HSP優點翻轉首展時機（Act III地下期 vs Act IV）| 角色成長/觀眾體驗/埋伏回收 | CDL-235已確認陰影視覺Outline層；但「HSP益處完整展示場景」時機未定 | CDL-235（陰影視覺Outline確認）| **SOURCE_SUPPORTED（CDL-268）** | QQ-83=C RESOLVED：Act III兩段漸進（地下期笨拙嘗試→後段完整展示） | Act III Outline需安排兩個HSP展示beat | QQ-83 ✅ |
+| M-049 | 膠布哲學 vs 陰影治癒結構對比雙場景 | 埋伏回收/角色成長/象徵行為 | CDL-120（膠布第二層已在E-04後[NC]）；Act III對比場景=完全新提案；需確認Outline層還是Beat Sheet層決定 | CDL-120（植入側已有基礎）；Act III對比場景=提案 | **SOURCE_SUPPORTED（CDL-269）** | QQ-84=A RESOLVED：兩場均入Outline層（[對比錨點A：膠布掩蓋]+[對比錨點B：直面傷口]）| Act I/II加[對比錨點A]標記；Act III加[對比錨點B]功能性beat | QQ-84 ✅ |
+| M-050 | 晨間形式必要性（角度19）——為何係早晨 | 形式必要性/世界規則 | Alpha/Beta線睡眠機制解釋已在本輪提出，但01_world_rules_and_costs.md尚未補充相關條目 | 本輪聊天提案；01_world_rules_and_costs.md現無睡眠機制段落 | **SOURCE_SUPPORTED（CDL-265）** | QQ-85=A RESOLVED：現有解釋足夠，無需補充世界觀段落 | 無writeback需求 | QQ-85 ✅ |
+| M-051 | 若通過，Outline修訂範圍與優先次序 | 結構功能/寫作可執行性 | Act I v1.21 [APPROVED]修改風險最高；Act II v0.8 [DRAFT]尚未批核=修改成本最低；Act III=尚未起稿=可直接整合 | 現有Outline狀態快照 | **SOURCE_SUPPORTED（CDL-267）** | QQ-86=A RESOLVED：先起草Act III，之後回補Act I/II | 工作序列確定：Act II v0.8加錨點→批核→Act III v0.1起稿→回補 | QQ-86 ✅ |
+
 ## Compression Rule
 完成 rows 後，先輸出：
 1. Topic-by-Angle summary

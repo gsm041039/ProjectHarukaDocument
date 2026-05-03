@@ -1,16 +1,19 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_II_OUTLINE.md v0.6**，然後 **起稿 ACT_III_OUTLINE.md v0.1**（CDL-212~218骨架已完整）
+**補充 miyako.md + haruka.md CDL-271相關內容**（靈魂困禁狀態 + 陰影視覺機制）→ **確認屍骸化視角完整後**，加入CDL-264錨點②到ACT_II_OUTLINE.md v0.8 → 提交作者批核 v0.8 → 起稿 ACT_III_OUTLINE.md v0.1
 
 前置條件：
-- ✅ ACT_I_OUTLINE.md v1.20 **APPROVED**（2026-04-16）
-- ✅ CDL-001~248 全部落檔（2026-04-20）
-- ✅ **ACT_II_OUTLINE.md v0.6 建立（2026-04-19）**
-- ✅ **唯識宇宙哲學底層確立（CDL-248，2026-04-20）**：00_series_bible.md + 01_world_rules_and_costs.md 已更新
-- ✅ **QQ-52~68 全部 RESOLVED（2026-04-20）**
-- ⬜ **作者批核 ACT_II_OUTLINE.md v0.6**（主要等待項）
-- ⬜ **ACT_III_OUTLINE.md v0.1 起稿**（骨架已成型，批核後可立即開始）
+- ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）
+- ✅ CDL-001~270 全部落檔（2026-05-02）
+- ✅ **ACT_II_OUTLINE.md v0.8 [DRAFT] 建立（2026-04-28）**
+- ✅ **唯識宇宙哲學底層確立（CDL-248）**
+- ✅ **QQ-52~86 Round 030 全部 RESOLVED（2026-05-02）**
+- ✅ **CDL-261~270：HSP/晨間斷層完整概念群 + Act III設計決定全部落檔（2026-05-02）**
+- ⬜ **加入CDL-264錨點②到ACT_II_OUTLINE.md v0.8**（E-08恐怖家家酒加斷層延長錨點）→ 提交批核
+- ⬜ **ACT_II_OUTLINE.md v0.8 作者批核**
+- ⬜ **ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型；三武器揭露排序CDL-266；兩段HSP展示CDL-268；膠布對比[對比錨點B]CDL-269；晨間斷層③④錨點CDL-264直接整合）
+- ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記 + Act II任何需補充錨點（CDL-267工作序列）
 - ⬜ Act IV Outline 設計
 - ⬜ 全四幕 Outline 完成後才進 Beat Sheet
 - ⬜ QQ-51：E-03 操「手術室」Flash — 仍 BLOCKED（不阻塞 Outline）

@@ -146,7 +146,9 @@
 
 位於心房最深處，是靈魂對世界「預設解讀方式」的底層程式碼。由核心信念、童年創傷印記或原初依戀模式所鑄造，決定個體面對挑戰時的必然反應模式。精神創傷會產生裂痕，極端態度會導致破碎。
 
-**See also**: [Heart Chamber](#term-heart-chamber) | [Heart Casket](#term-heart-container) | [World Rules](01_world_rules_and_costs.md#section-emotion-system)
+**在集體潛意識中的功能**（CDL-271）：當靈魂進入集體潛意識進行遙距作戰時，心之器不僅是靈魂的認知基礎，更是靈魂與肉體的**連繫媒介**。心之器的完整程度直接決定靈魂對肉體的控制力——心之器越完整，靈魂控制力越強；心之器龜裂，控制力遞減；心之器碎裂成執念碎片嵌入肉體時，靈魂被永久困禁。
+
+**See also**: [Heart Chamber](#term-heart-chamber) | [Heart Casket](#term-heart-container) | [The Unsevered Thread](#term-unsevered-thread) | [World Rules](01_world_rules_and_costs.md#section-emotion-system)
 
 ---
 
@@ -666,6 +668,30 @@ Beta 線本質的核心敘事隱喻。
 它不是快樂行為，而是崩潰邊緣的存在驗證。若測試失敗，角色通常會更快滑入自我否定與情緒關機。就美夜子案例而言，純生理刺激無法修補「借來的生命」帶來的存在裂縫，最終仍需透過他者連結與情緒承接回到人際現實。
 
 **See also**: [美夜子覺醒事件](04_timeline_canon.md#event-miyako-awakening) | [Miyako](03_characters/miyako.md#section-existence-collapse) | [Dark Healing](#term-dark-healing)
+
+---
+
+### <a id="term-unsevered-thread"></a>未斷的殘絲（The Unsevered Thread）
+
+屍骸靈魂被困肉體的根本原因。（CDL-271）
+
+靈魂本想在極度痛苦下扯斷與肉體的因果線，逃入集體潛意識尋求安息。但就在斷裂的 0.1 秒前，執念（對摯愛的記憶）變成物理錨點，令因果線斷不晒。
+
+**結果**：靈魂永遠被困在已經異化的肉體裡面，只能控制 1% 的動作，眼睜睜看著自己的肉體被情緒廢料主導，做著自己永遠反對的事。
+
+**靈魂狀態**：
+- **靈魂控制力**：固定 1%（絕望的無力感）
+- **情緒廢料主導**：99%（盲目攻擊、自我毀滅）
+- **執念碎片**：最後一塊心之器碎片，物理鎖死靈魂於肉體
+- **可能的微動作**：抱著信物、說一句殘破對白、眼神一瞬間的清醒
+
+**敘事揭示進度**：
+- **Act I - II**：觀眾只看到屍骸的盲目攻擊性，誤認為純粹怪物
+- **Act III 前期**：朱音的直覺（「她們還活著」）令觀眾開始懷疑
+- **Act III 後期**：晴香陰影視覺首次完全展開，雙層同時呈現（肉體異變 ↔ 被困靈魂）
+- **Act IV**：觀眾最終理解：每隻屍骸都在地獄中做著微小但永恆的愛的抵抗
+
+**See also**: [Corpseification](01_world_rules_and_costs.md#rule-corpseification) | [Heart-Vessel](#term-heart-vessel) | [Collective Unconscious](#term-collective-unconscious) | [Shadow Vision](#term-shadow-vision)
 
 ---
 
