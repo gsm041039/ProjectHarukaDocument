@@ -32,7 +32,8 @@
       "Bash(python3:*)",
       "Bash(mv canon/03_characters/ayakomoji_sou.md canon/03_characters/ayakomoji_misao.md)",
       "Bash(mv canon/03_characters/airi.md canon/03_characters/aeri.md)",
-      "Bash(xargs sed:*)"
+      "Bash(xargs sed:*)",
+      "Bash(Get-ChildItem \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\03_characters\\\\\" -Filter \"*.md\" | Select-Object Name)"
     ],
     "ask": [
       "Bash(git commit:*)",
