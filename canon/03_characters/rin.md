@@ -29,6 +29,17 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 凜 (Rin) | Working 文件使用 |
+| **Alpha Line（真名）** | 凌心怡 | 原初現實的偶像身份，代表能用溫暖拯救他人的女孩 |
+| **Beta Line（帝國名）** | 綾瀨凜 / Unit 00 | 帝國軍方的精準兵器，象徵情緒被完全凍結 |
+| **象徵機制** | 創傷性面具：溫暖 → 冷漠 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### <a id="section-alpha-idol"></a>Alpha 線：溫柔偶像（木之本櫻味）

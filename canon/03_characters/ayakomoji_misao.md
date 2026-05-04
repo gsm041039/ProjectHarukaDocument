@@ -28,6 +28,17 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 操 (Misao) | Working 文件使用 |
+| **Alpha Line（真名）** | 無 | 絕對統治階層，無 Alpha 線來源 |
+| **Beta Line（帝國名）** | 綾小路操 | 財閥世家身份，本身即權力象徵 |
+| **象徵機制** | 權力的囚徒：出身枷鎖 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 破碎的瓷娃娃——恐懼露出破綻的人

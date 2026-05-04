@@ -28,6 +28,17 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 晴香 (Haruka) | Working 文件使用 |
+| **Alpha Line（真名）** | 連若晴 | 原初現實的身份，代表未被帝國包裝的自我 |
+| **Beta Line（帝國名）** | 春日井晴香 | 帝國賦予的藝名，象徵被系統塑造的虛假身份 |
+| **象徵機制** | 動漫濾鏡 + 情緒農場商品標籤 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 誕生的悲劇與祝福

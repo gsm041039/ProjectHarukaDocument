@@ -31,6 +31,17 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 美夜子 (Miyako) | Working 文件使用 |
+| **Alpha Line（真名）** | 連若星 | 原初現實的身份，代表姐姐應有的原貌 |
+| **Beta Line（帝國名）** | 水無月美夜子 / Unit 01 | 帝國軍方的兵器代號，象徵人性被制度抹殺 |
+| **象徵機制** | 借來的生命 + 帝國編制化 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 唯一的已死者——借來的生命

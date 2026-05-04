@@ -28,6 +28,18 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 朱音 (Akane) | Working 文件使用 |
+| **Alpha Line（真名）** | 方曉彤 | 原初現實的夜區底層女孩，代表無法被帝國包裝的痛苦 |
+| **Beta Line（帝國名）** | 無（未被帝國承認） | 朱音象徵無法同化的對抗，連虛假身份都被拒絕 |
+| **潛意識創造** | 不知火紫音 | 變身魔法少女後潛意識創造的日文名（非官方編制） |
+| **象徵機制** | 階級底層 + 拒絕包裝 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 魔法即病症——藥物依賴與暴力代償

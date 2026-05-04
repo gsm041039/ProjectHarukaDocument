@@ -28,6 +28,17 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 朔 (Saku) | Working 文件使用 |
+| **Alpha Line（真名）** | 莫浩然 | 原初現實的夜區影子身份 |
+| **Beta Line（帝號）** | 朔 / 白銀朔 | 帝國特工代號 |
+| **象徵機制** | 雙重身份：夜區影子 ↔ 帝國特工 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 最遙遠距離的悲歌

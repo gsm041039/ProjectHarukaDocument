@@ -29,6 +29,18 @@
 
 ---
 
+## <a id="section-naming-data"></a>名字系統
+
+| 類別 | 名字 | 備註 |
+|------|------|------|
+| **Meta Handle（代號）** | 夕 (Yu / Yuu) | Working 文件使用 |
+| **Alpha Line（真名）** | 無 | 僅存在於晴香潛意識，無獨立身份 |
+| **Beta Line（帝國名）** | 無 | 從未被帝國承認為獨立個體 |
+| **存在形式** | 菲 (Fei) | 作為完全獨立意識時的自我稱呼 |
+| **象徵機制** | 無名之物：被壓抑的陰影碎片 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
+
+---
+
 ## <a id="section-background"></a>背景故事
 
 ### 被切割的陰影
