@@ -749,3 +749,119 @@ Act II Phase D現有設計：E-09直播失控（CDL-259）→E-09a鏡像破碎�
 - 所有本輪聊天中的具體wording/鏡頭/場景提案 = `[DRAFT ONLY — NOT CANON]`
 - Act II v0.8批核流程不受影響（斷層概念不影響現有v0.8內容）
 - Act III Outline起稿可以開始，但斷層相關beats先標記`[PENDING Q-030-01]`
+
+---
+
+## Round 032 — 2026-05-08 — temp.txt Act III核心設計 Cross-Act Gate + CDL-272~280落檔
+
+### 任務背景
+
+作者要求處理 temp.txt（Act II→Act III設計討論記錄）中的5項核心設計決策，確認哪些可進CDL，哪些有歧義需確認。5項設計：①雙面音樂盒墜（Alpha/Beta線物理矛盾證據）②美夜子月下自慰→晴香擁抱（倖存者內疚崩潰）③姊妹相認分兩步（貓殼碎裂 vs 黑奏處刑室）④創世原罪揭露分層（Act III中段相認 + 結尾核爆）⑤魔法少女資訊差（朱音/操死時不知創世真相）
+
+### Source Check 結果
+
+- CDL-109：原有「美夜子緊急交予裝置」設計——**與temp.txt「盒墜屬晴香」衝突** → Q1識別
+- CDL-059~062 / QQ-15 / P-A12：原有「嘆息之橋單一揭露」相認設計——**與temp.txt「2步設計」衝突** → Q2識別
+- CDL-248：唯識宇宙（心理狀態→物理後果）——**支持temp.txt「接納痛苦解鎖夕」機制** → Q4 SOURCE_SUPPORTED
+- CDL-266：三武器揭露排序——**支持創世原罪作為第三武器** → 資訊差設計Q5 SOURCE_SUPPORTED
+- CDL-263 / CDL-265：Emo-Visor缺陷 + 睡眠邊界機制——**支持相簿Glitch機制** → Q7 SOURCE_SUPPORTED
+
+### Cross-Act Dependency Gate（QQ-87~94 5個主題核心執行）
+
+#### 主題1：音樂盒墜設計（QQ-87+QQ-90）
+| Gate欄位 | 分析 |
+|---|---|
+| Upstream Dependencies | CDL-109（E-01裝置交付）；CDL-248（唯識宇宙=心理→物理）；E-01已有canon場景設計 |
+| Downstream Dependencies | CDL-274月下場景（盒墜需在晴香身上）；CDL-273精神鎖（解鎖條件設計）；Act III夕登場序列 |
+| Later-Act Constraints | Act IV夕消散（CDL-003）需對齊精神鎖機制的完整生命週期 |
+| Can Be Decided Locally | Provisionally（CDL-109修訂需作者確認；解鎖條件需確認唯識宇宙應用範圍） |
+| Early Consumption Risk | 無（精神鎖係機制設計，非情感消耗） |
+| Misalignment Risk | CDL-109描述修訂若處理不當會令E-01場景設計出現執行矛盾 → 已處理（描述改「啟動」） |
+
+**結論：Q1=A（盒墜屬晴香，美夜子啟動）；Q4=A（接納痛苦解鎖）— 兩個決定互相支持，CDL-272+CDL-273落檔**
+
+#### 主題2：姊妹相認2步設計（QQ-88）
+| Gate欄位 | 分析 |
+|---|---|
+| Upstream Dependencies | CDL-059~062（原嘆息之橋設計）；P-A12（靈魂錨點植入）；美夜子PTSD設定；美夜子核心性格=過度保護 |
+| Downstream Dependencies | Act III整個「晴香知道美夜子是姐姐」的情感弧線；黑奏揭露節奏；Step1貓殼碎裂→Step2邏輯誅心的情緒遞進 |
+| Later-Act Constraints | CDL-266三武器序列已確認（社會剝奪→身份背叛→創世原罪），Step2須在第三武器後或同時發生 |
+| Can Be Decided Locally | No — 這是全作結構決定（相認時機影響Act III整個情感曲線） |
+| Early Consumption Risk | Step1（無語言相認）保留情感厚度到Step2；無提前透支風險 |
+| Misalignment Risk | CDL-059~062需明確SUPERSEDED標記防止未來設計引用舊版 → 已標記 |
+
+**結論：Q2=A（2步設計），CDL-059~062 SUPERSEDED BY CDL-274，P-A12 payoff位置更新**
+
+#### 主題3：月下崩潰場景（QQ-89）
+| Gate欄位 | 分析 |
+|---|---|
+| Upstream Dependencies | CDL-274 Step1（地下據點月下場景=相認Step1）；Consequence-Driven Progression Law（Cost Signal=美夜子長期積累崩潰臨界點）；美夜子倖存者內疚弧線 |
+| Downstream Dependencies | 貓殼碎裂（情感裂縫）→ Step2邏輯誅心（完整相認）的情緒準備 |
+| Later-Act Constraints | 無（一氣呵成vs分段係Scene層設計選擇，不影響後段結構） |
+| Can Be Decided Locally | Yes（節奏設計決定，不跨幕） |
+| Early Consumption Risk | 一氣呵成不中斷=強制觀眾代入；但Step2仍有更大情緒升級空間（語言相認+黑奏在場）→ 無透支風險 |
+| Misalignment Risk | 無 |
+
+**結論：Q3=A（一氣呵成），CDL-275落檔**
+
+#### 主題4：資訊差設計（QQ-91+QQ-92）
+| Gate欄位 | 分析 |
+|---|---|
+| Upstream Dependencies | CDL-276朱音/操Layer 1資訊差；CDL-149（感謝作罪證）；CDL-266三武器排序 |
+| Downstream Dependencies | Act III/IV Layer 2揭露時機；觀眾情緒曲線（憤怒Layer1→心碎Layer2）；晴香成長弧（被誤解/被指控→真正理解動機） |
+| Later-Act Constraints | Layer 2揭露時機未定（btd Act III Outline）；唔可以在Act III前段就洩露Layer 2 |
+| Can Be Decided Locally | Provisionally（確認朱音/操不知Layer 2=局部決定；Layer 2具體揭露時機=全作結構決定，btd） |
+| Early Consumption Risk | Layer 1先揭露會令觀眾短暫憤怒晴香——但這個憤怒是設計好的，Layer 2的心碎是升級而非重複 → 無透支風險 |
+| Misalignment Risk | 唔可以在任何已確認beats中讓朱音/操表現出知道Layer 2的反應 → 需在ACT_III Outline設計時確認 |
+
+**結論：Q5=A（只知Layer 1）；Q6=A（人造空殼謊言可信），CDL-276+CDL-277落檔**
+
+#### 主題5：相簿Glitch + 黑奏處刑（QQ-93+QQ-94）
+| Gate欄位 | 分析 |
+|---|---|
+| Upstream Dependencies | CDL-263（Emo-Visor缺陷=Alpha線滲漏源）；CDL-265（睡眠邊界=Beta濾鏡最弱）；CDL-266三武器 |
+| Downstream Dependencies | 相簿Glitch = Act I/II植入時機（btd Beat Sheet）；黑奏處刑室設計=Act III Outline功能beat |
+| Later-Act Constraints | 美夜子掙扎強度設計（具體執行細節btd Beat Sheet） |
+| Can Be Decided Locally | Yes（兩個均係機制確認，具體執行btd）|
+| Early Consumption Risk | 相簿Glitch係伏線（唔直接揭露），無透支；黑奏處刑=高潮節點設計，強度與後段無衝突 |
+| Misalignment Risk | 美夜子「死命喊+掙扎」強度須確認與CDL-191（無價值留守，純粹守護）一致 → 完全一致（愛到最後仍無力）|
+
+**結論：Q7=A（Glitch確認）；Q8=A+C（死命喊+掙扎），CDL-278+CDL-279落檔**
+
+### 12角度掃描摘要（5個主題共用）
+
+| 角度 | 結論 |
+|---|---|
+| 1. Character Growth | RELEVANT — 美夜子相認2步對齊「過度保護→真正放下」成長弧（貓殼碎裂係第一步）|
+| 2. Relationship Dynamics | RELEVANT — 姊妹相認節奏直接決定兩人關係的情感重量和後段信任建立基礎 |
+| 3. Info / Reveal Control | RELEVANT — Layer 1/2資訊差係核心揭露控制設計；盒墜Alpha面係物理矛盾伏線 |
+| 4. Atmosphere / Tension | RELEVANT — 月下場景一氣呵成設計係氣氛決定（強制代入 vs 緩衝處理） |
+| 5. Theme Expression | RELEVANT — 「接納痛苦=解鎖夕」直接表達唯識宇宙主題（CDL-248）|
+| 6. Structural Beat Function | RELEVANT — CDL-274 Step1+Step2係Act III兩個功能性beat，需在Outline確認位置 |
+| 7. Entry Timing / Presence | RELEVANT — 夕登場時機（QQ-95尚未答）係本輪唯一未解阻塞 |
+| 8. World Rule / Mechanic | RELEVANT — 唯識宇宙規則應用在盒墜精神鎖機制上，需確認無矛盾 |
+| 9. Setup / Payoff | RELEVANT — CDL-274 Step1係月下場景 payoff Step2的前置；Layer 1/2揭露係長期payoff |
+| 10. Audience Experience | RELEVANT — 資訊差設計=觀眾在Layer 1憤怒/Layer 2心碎的情緒設計 |
+| 11. Canon / Continuity | RELEVANT — CDL-109/059~062/P-A12 三個canon衝突全部識別+解決 |
+| 12. Writing Execution | RELEVANT — 一氣呵成vs分段=場景執行難度評估；DFT設計btd Beat Sheet |
+| 13. Coping / Defense | RELEVANT — 美夜子「人造空殼」謊言 = coping mechanism（過度保護模式的防衛外化）|
+| 14. Ideology / Value | RELEVANT — 美夜子「唔願讓晴香背負罪疚」係其價值排序（保護>真相）|
+| 15. Social / Institutional | NOT_RELEVANT — 此輪設計不涉及社會/制度層分析 |
+| 16. Moral Tradeoff | RELEVANT — 美夜子選擇「沉默謊言保護晴香」vs「揭露真相」係道德代價設計 |
+| 17. Symbolic / Ritual | RELEVANT — 盒墜雙面係Alpha/Beta線物理矛盾象徵物；貓殼碎裂係ritual-level相認 |
+| 18. Narrative Validation | RELEVANT — 美夜子的「謊言保護」最終被故事揭示為不完整（Step2黑奏強行揭露）= 故事complicates而非validates|
+| 19. Method Necessity | RELEVANT — 為何月下場景一氣呵成比分段更好（強制代入vs解釋空間）；為何盒墜物件形式比其他矛盾證據更好（隨身攜帶+雙面物理矛盾）|
+
+### 唯一剩餘阻塞：QQ-95
+
+**夕奪身後第一個動作**係本輪唯一未決問題。三個選項：
+- A（沉默+物理動作）：純粹視覺衝擊；留白；後段設計自由度高
+- B（陌生語氣一句話）：夕存在感確立；點明眼淚作為「素材」；引出後段動機
+- C（暗示知道姊妹關係）：資訊不對稱；後段Payoff更強；但需要機制支撐（夕剛接管即知曉記憶）
+
+**12角度核心阻塞角度（QQ-95）：**
+- 角度3（資訊揭示控制）：C會製造「夕知道晴香記憶」的設定，需要canon支撐（夕接管後即有完整記憶存取？）
+- 角度9（Setup/Payoff）：C若在Act III登場時就暗示姊妹關係，會削弱後段的「夕主動利用姊妹身份」設計
+- 角度7（入場時機）：夕Act III登場的第一印象決定其後段全部互動的情感基調
+
+**等待作者答覆後，CDL-281落檔，QQ-95 RESOLVED，Round 032全部完成。**

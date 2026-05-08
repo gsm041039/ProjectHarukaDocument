@@ -1,19 +1,20 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**補充 miyako.md + haruka.md CDL-271相關內容**（靈魂困禁狀態 + 陰影視覺機制）→ **確認屍骸化視角完整後**，加入CDL-264錨點②到ACT_II_OUTLINE.md v0.8 → 提交作者批核 v0.8 → 起稿 ACT_III_OUTLINE.md v0.1
+**ACT_II_OUTLINE.md v0.9 作者批核** → 批核後立即進 ACT_III_OUTLINE.md v0.1 起稿
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）
-- ✅ CDL-001~270 全部落檔（2026-05-02）
-- ✅ **ACT_II_OUTLINE.md v0.8 [DRAFT] 建立（2026-04-28）**
-- ✅ **唯識宇宙哲學底層確立（CDL-248）**
-- ✅ **QQ-52~86 Round 030 全部 RESOLVED（2026-05-02）**
-- ✅ **CDL-261~270：HSP/晨間斷層完整概念群 + Act III設計決定全部落檔（2026-05-02）**
-- ⬜ **加入CDL-264錨點②到ACT_II_OUTLINE.md v0.8**（E-08恐怖家家酒加斷層延長錨點）→ 提交批核
-- ⬜ **ACT_II_OUTLINE.md v0.8 作者批核**
-- ⬜ **ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218已成型；三武器揭露排序CDL-266；兩段HSP展示CDL-268；膠布對比[對比錨點B]CDL-269；晨間斷層③④錨點CDL-264直接整合）
-- ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記 + Act II任何需補充錨點（CDL-267工作序列）
+- ✅ CDL-001~285 全部落檔（2026-05-08）
+- ✅ **ACT_II_OUTLINE.md v0.9 [DRAFT] 建立（2026-05-08）**
+- ✅ **QQ-52~95 全部 RESOLVED（2026-05-08）**
+- ✅ **CDL-261~285：HSP/晨間斷層 + CDL-271屍骸化 + temp.txt Act III核心設計（Q1~Q9）+ CDL-282~285新決定 全部落檔（2026-05-08）**
+- ✅ **P-A12 + P-C10 payoff位置更新完成（CROSS_ACT_FORESHADOW_MANIFEST.md）**
+- ✅ **ACT_II_OUTLINE.md v0.9：幕末三段序列（E-16）+ 相簿Plant（P-C10）+ MS-Burnout偽裝整合完成**
+- ⬜ **ACT_II_OUTLINE.md v0.9 作者批核**（⬅ 當前阻塞點）
+- ⬜ **ACT_III_OUTLINE.md v0.1 起稿**（骨架CDL-212~218；CDL-264③④；CDL-266三武器；CDL-268/269；CDL-272~285 Act III設計全整合）
+- ⬜ miyako.md + haruka.md CDL-271補充（靈魂困禁狀態 + 陰影視覺機制）**（非阻塞，可並行）**
+- ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記（CDL-267工作序列）
 - ⬜ Act IV Outline 設計
 - ⬜ 全四幕 Outline 完成後才進 Beat Sheet
 - ⬜ QQ-51：E-03 操「手術室」Flash — 仍 BLOCKED（不阻塞 Outline）

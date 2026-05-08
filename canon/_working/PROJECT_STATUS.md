@@ -1,19 +1,33 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: WORLD_SYSTEM — Phase 15 屍骸化機制深化及世界觀補圓（CDL-271 世界規則層Writeback完成）
+- Current Mode: ACT_II_OUTLINE v0.9 [DRAFT] 待作者批核 → 批核後進 ACT_III_OUTLINE v0.1
 - **ACT_I_OUTLINE.md v1.21 [APPROVED]**（待Act III批核後回補CDL-262/264晨間斷層微細節+CDL-269[對比錨點A]標記 — 低影響，CDL-267工作序列）
-- **ACT_II_OUTLINE.md v0.8 [DRAFT]**；待加入CDL-264錨點②（E-08斷層延長標記）後提交批核
-- **HSP/晨間存在斷層概念群**：Round 030全部10條 **RESOLVED（CDL-261~270）**；概念群完整進入canon pipeline
-- **CDL-271 靈魂困禁機制（2026-05-03）**：屍骸化本質確立；Glossary + World Rules + Narrative Design Bible 全層補圓完成；Character Files Writeback待執行
-- **Round 031 完整新CDL（CDL-271，2026-05-03）**：魔法屍骸真相/靈魂困禁1%控制力/執念物理錨點/**未斷的殘絲設定確立**/屍骸化場景執行規格/心之器靈魂-肉體連繫機制
-- Active Topic / Section: **CDL-271 Canon層Writeback完成 → Character Files補充（miyako.md + haruka.md） → 準備ACT_III_OUTLINE.md v0.1起稿**
-- Current Objective: ①完成miyako.md + haruka.md CDL-271相關補充；②準備進入Act III Outline設計（需完整理解屍骸化視角後確保Outline層揭示節奏正確）；③提交作者批核Act II v0.8 + 新增補圓確認無衝突
+- **ACT_II_OUTLINE.md v0.9 [DRAFT — 待作者批核]**（CDL-282~285全部整合完成；幕末三段序列E-15→Act II-XX→E-16確立；相簿Plant P-C10加入；MS-Burnout偽裝加入）
+- **CDL-272~285 全部落檔（2026-05-08）**：temp.txt Q1~Q9全部RESOLVED + CDL-282~285新決定
+- Active Topic / Section: **ACT_II_OUTLINE v0.9 作者批核 → 批核後立即進 ACT_III_OUTLINE.md v0.1起稿**
+- Current Objective: ①ACT_II v0.9 呈作者批核；②批核後起稿ACT_III_OUTLINE.md v0.1（骨架CDL-212~218 + CDL-264③④ + CDL-266三武器 + CDL-268/269 + CDL-272~285 Act III全設計）；③miyako.md + haruka.md CDL-271補充（非阻塞）
 - Resume Confidence: HIGH
-- Last Stable Updated At: 2026-05-03
+- Last Stable Updated At: 2026-05-08
 
 ## Last Stable Completed Step
-- Round 031 完成（2026-05-03）：CDL-271 屍骸化靈魂困禁機制確立；Glossary + World Rules + Narrative Design Bible 全層Writeback完成；Character Files 補充待執行
+- Round 032 完成（2026-05-08）：CDL-272~285全部落檔；ACT_II_OUTLINE.md升至v0.9（CDL-282~285整合；幕末三段序列；P-C10加入）；CROSS_ACT_FORESHADOW_MANIFEST.md P-C10加入；QQ-87~95全部RESOLVED；無任何阻塞問題
+
+## New Canon This Round（Round 032，2026-05-08）
+- **CDL-285**（幕末三段序列=Option B）：E-16 EMB鐵桶包圍獨立beat確立；幕末三段序列E-15（魂醒）→Act II-XX（魂咒）→E-16（物理絕境）；「我哋出去」Cut to Black
+- **CDL-284**（晨間斷層MS-Burnout偽裝）：「魔法少女精神耗損（MS-Burnout）」世界內解釋確立；秋穗藥物設定OFFICIALLY WITHDRAWN
+- **CDL-283**（鏡像相簿機制；SUPERSEDES CDL-278）：實體相簿Phase A/B間Plant；E-08深夜鏡面異象Red Herring；Alpha線殘影在鏡面反射中出現
+- **CDL-282**（鏡像法則=靈魂真實）：鏡面/反射面顯示觀察對象靈魂最深壓抑真實；不限Alpha或Beta線；QQ-R12解釋（操鏡=Beta線因操最深痛苦在Beta線）；E-06世界規則codify
+- **CDL-281**（QQ-95=C extended）：夕奪身後第一動作確立；「明知故犯的殘酷救贖者」定性；雙層動機（私心+保護晴香）；清醒悖論；主題鏡像（晴香失憶逃避 vs 夕毀滅逃避 = 同一個受傷細路女）；美夜子雙重打擊設計確認
+- **CDL-272**（QQ-87=A）：音樂盒墜屬晴香，美夜子E-01緊急啟動/活化（修訂CDL-109「緊急交予」→「緊急啟動」）
+- **CDL-273**（QQ-90=A）：盒墜Alpha面精神鎖=夕解鎖；條件=接納痛苦（CDL-248唯識宇宙機制）
+- **CDL-274**（QQ-88=A）：美夜子姊妹相認2步設計（Step1地下據點月下無語言→Step2黑奏處刑室語言確認）；CDL-059~062 SUPERSEDED
+- **CDL-275**（QQ-89=A）：月下崩潰場景一氣呵成（美夜子崩潰→晴香本能抱住，不中斷）
+- **CDL-276**（QQ-91=A）：朱音/操死前只知Layer 1（創世者引發Beta線困禁）；Layer 2（5歲許願動機）為Act III/IV揭露保留
+- **CDL-277**（QQ-92=A）：美夜子「人造空殼」謊言設計（表演性格+晴香高信任=可信；Step1貓殼碎裂=第一裂縫）
+- **CDL-278**（QQ-93=A；NOW SUPERSEDED by CDL-283）：相簿Glitch機制初版
+- **CDL-279**（QQ-94=A+C）：黑奏處刑室場景（踩+掟+邏輯誅心）；美夜子「死命喊+掙扎」（完全無力感最大化悲劇）
+- **CDL-280**：P-A12 payoff位置正式更新（嘆息之橋→地下據點月下場景CDL-274 Step 1）
 
 ## New Canon This Round（Round 031，2026-05-03）
 - **CDL-271**：魔法屍骸「未斷的殘絲」靈魂困禁機制確立；靈魂1%控制力對99%情緒廢料的永恆囚禁；執念物理錨點防止靈魂逃脫；屍骸有記憶、執念、微小人性動作的根本原因；朱音保護屍骸與晴香陰影視覺的機制完整支撐

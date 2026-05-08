@@ -1,11 +1,44 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 030c HSP/晨間斷層概念群全部RESOLVED + CDL-261~270（2026-05-02）**
+- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 032 complete：CDL-272~285全部落檔；ACT_II_OUTLINE v0.9 DRAFT 完成（2026-05-08）**
 
 ## Current Objective
-- ①**ACT_II_OUTLINE.md v0.8 加CDL-264錨點②**（E-08斷層延長標記）後提交批核
-- ②批核後 **ACT_III_OUTLINE.md v0.1 起稿**（CDL-212~218骨架 + CDL-264③④ + CDL-266三武器 + CDL-268兩段HSP + CDL-269[對比錨點B]）
+- **ACT_II_OUTLINE.md v0.9 待作者批核** → 批核後進 ACT_III_OUTLINE.md v0.1
+
+## Completed This Round (Round 032 continued — 2026-05-08 CDL-282~285 + ACT_II_OUTLINE v0.9)
+- [x] 讀 PROJECT_STATUS / NEXT_ACTION / QUESTION_QUEUE / SESSION_LEDGER / QUESTION_MATRIX
+- [x] 讀 CROSS_ACT_FORESHADOW_MANIFEST（P-A12位置確認）
+- [x] 讀 CANON_DECISION_LOG（CDL-271最後一條，格式確認）
+- [x] **收到作者答案 QQ-87~QQ-94（Q1~Q8全部確認）**
+  - Q1=A（盒墜屬晴香，美夜子緊急啟動）
+  - Q2=A（2步相認設計，取代CDL-059~062）
+  - Q3=A（月下場景一氣呵成）
+  - Q4=A（接納痛苦解鎖夕，唯識宇宙機制）
+  - Q5=A（朱音/操只知Layer 1）
+  - Q6=A（人造空殼謊言可信）
+  - Q7=A（相簿Glitch確認）
+  - Q8=A+C（美夜子死命喊+掙扎）
+- [x] **CDL-272~280 全部落檔（CANON_DECISION_LOG.md）**
+- [x] **P-A12 payoff位置更新（CROSS_ACT_FORESHADOW_MANIFEST.md）**
+- [x] **QUESTION_QUEUE.md 更新**：QQ-87~QQ-94 RESOLVED；QQ-95 OPEN
+- [x] **SESSION_LEDGER.md 更新**（本條）
+- [x] **QQ-95 RESOLVED（CDL-281）** — 夕奪身後第一個動作 = C extended「明知故犯的殘酷救贖者」；雙層動機；清醒悖論；主題鏡像確立
+- [x] **CDL-281 落檔（CANON_DECISION_LOG.md）**
+- [x] **QQ-95 RESOLVED 更新（QUESTION_QUEUE.md）**
+- [x] **PROJECT_STATUS.md + NEXT_ACTION.md 最終更新**
+- [x] **REASONING_LOG.md Round 032 append（完整）**
+- [x] **CDL-282（鏡像法則=靈魂真實）落檔**：QQ-R12解釋；E-06世界規則codify；不限Alpha/Beta線
+- [x] **CDL-283（鏡像相簿機制；SUPERSEDES CDL-278）落檔**：Phase A/B間[NC]相簿創建Plant；E-08[NC]鏡像相簿首次異變Red Herring
+- [x] **CDL-284（晨間斷層MS-Burnout偽裝；秋穗藥物WITHDRAWN）落檔**
+- [x] **CDL-285（幕末三段序列=Option B）落檔**：E-16 EMB鐵桶包圍；「我哋出去」Cut to Black
+- [x] **ACT_II_OUTLINE.md 升至v0.9（7項結構編輯完成）**：幕弧概覽E-16；Phase A/B間[NC]相簿創建；E-08[NC]鏡像異變；CDL-264 MS-Burnout補充；Beat E-16正文；P-C10 Plant清單；底部Status+Changelog更新
+- [x] **CROSS_ACT_FORESHADOW_MANIFEST.md P-C10加入**（Act II Plant清單 + Act III回收清單）
+- [x] **PROJECT_STATUS.md 更新**（v0.9 DRAFT完成；CDL-282~285新Canon記錄）
+- [x] **NEXT_ACTION.md 更新**（指向v0.9作者批核）
+- [x] **SESSION_LEDGER.md 更新**（本條）
+- [ ] QUESTION_MATRIX.md M-052~M-060 新增（非阻塞，可在起草ACT_III Outline前補完）
+- [ ] miyako.md + haruka.md CDL-271補充（非阻塞）
 
 ## Completed This Round (Round 030c — 2026-05-02 QQ-78/80/83/84/86 RESOLVED + CDL-266~270落檔)
 - [x] 作者答 QQ-78=A（三武器②→①→③）/ QQ-86=A（先修Act III）/ QQ-83=C（兩段漸進）/ QQ-84=A（兩場Outline層確認）/ QQ-80=B（桐生健純Beta線）
