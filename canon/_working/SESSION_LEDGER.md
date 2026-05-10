@@ -1,10 +1,68 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 14 (Act II Outline → Act III Outline 預設計) — **Round 032 complete：CDL-272~285全部落檔；ACT_II_OUTLINE v0.9 DRAFT 完成（2026-05-08）**
+- Phase 15 (Act III Outline 設計) — **Round 033d in-progress：三幕故事大綱文風改進與邏輯修正完成（2026-05-10）；等待作者對 ACT_III_OUTLINE.md v0.2 最終判決**
 
 ## Current Objective
-- **ACT_II_OUTLINE.md v0.9 待作者批核** → 批核後進 ACT_III_OUTLINE.md v0.1
+- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 當前單一阻塞點
+  - 批核通過 → 進 Beat Sheet 層設計
+  - 要求修改 → 補充微調後再提
+  - 其他判決方向
+
+## Completed This Round (Round 033e — 2026-05-10 故事大綱 v2.1→v2.2 深度邏輯審查與修正)
+- [x] **Sub-agent 跨文件深度審查**：
+  - 讀取 three_acts_story_outline_v1.md、ACT_I/II/III OUTLINE、outline_raw.md、timeline_raw.md、角色檔案
+  - 執行系統化邏輯驗證（時間線、角色狀態、事件連貫性、Body Horror進程）
+  - 識別 4 個優先度 A 邏輯缺口 + 2 個優先度 B 來源驗證問題 + 2 個優先度 C 細節問題
+- [x] **優先度 A 邏輯缺口補充**：
+  - ✅ **A-001**：補充朱音被黑奏移至嘆息之橋的事件鏈（從下水道捕獲→囚禁於行刑場）
+  - ✅ **A-002**：分層凜的身份揭露（H1 死訊「我是凜」→ H1.5 相認 → 終局形態 Unit 00-Null）
+  - ✅ **A-003**：補充 Day 13 夜間至 Day 14 中午隊伍等待狀態（死囚牢房效應描寫）
+  - ✅ **A-004**：補充 Phase G/H 中操的 Stage 2b 漸進過程（無痛覺自我縫合、靈魂離體化）
+- [x] **版本升級**：v2.1 → v2.2（邏輯完整化版）
+  - 更新檔頭 metadata（version + updated_date + note 加入審查記錄）
+- [x] **PROJECT_STATUS.md / SESSION_LEDGER.md 更新**（記錄深度審查完成）
+
+## Completed This Round (Round 033d — 2026-05-10 故事大綱 v2.0→v2.1 文風改進與邏輯修正)
+- [x] 讀取 three_acts_story_outline_v1.md v2.0（完整故事大綱）
+- [x] 讀取 ACT_II_OUTLINE.md E-09/E-09a 部分（驗證事件細節）
+- [x] **文風改進（結構化標籤移除）**：
+  - 移除第一幕 **調性：** 標籤，改為流暢敘述
+  - 移除第二幕 **調性：** 和 **時間：** 標籤，融入敘述
+  - 移除第三幕 **調性：** 和 **時間：** 標籤，融入敘述
+  - 改進第三幕內多個小節標題（共7處）改為連貫敘述段落
+- [x] **邏輯修正與內容補充**：
+  - 修正小光身份、E-09 事件描述、移除重複段落、補充前置危機說明
+- [x] **檔案版本更新**：v2.0 → v2.1（文風改進版）
+
+## Completed This Round (Round 033c — 2026-05-10 ACT_III_OUTLINE.md v0.1 建立 + P-C11/C12/C13 納檔)
+- [x] 讀 PROJECT_STATUS / NEXT_ACTION / QUESTION_QUEUE / SESSION_LEDGER / CROSS_ACT_FORESHADOW_MANIFEST
+- [x] 讀 backup/draft/outline_raw.md（Act III完整草稿）+ timeline_raw.md
+- [x] 讀 CDL-212~218（Act III骨架決定）+ 相關CDL（CDL-264/266/268/269）
+- [x] **P-C11/P-C12/P-C13 驗證與納檔**：三個新Plant合法性確認；加入CROSS_ACT_FORESHADOW_MANIFEST.md Act II Plant-C清單 + Act III Payoff回收表
+- [x] **CROSS_ACT_FORESHADOW_MANIFEST.md 更新**（P-C11/C12/C13正式納檔；Last Updated時戳更新至2026-05-10）
+- [x] **ACT_III_OUTLINE.md v0.1 建立**：
+  - Outline層完整架構（時間線Phase G-L確認；11個主要beat完整設計）
+  - 角色弧線簽名（Gate A快速版：晴香/美夜子/彩/操/朱音/凜）
+  - 意識形態衝突（Gate B三軸：拯救/佔有/命運 vs 對應立場）
+  - 主題衝突承載（Gate C五場景：真相/拯救/佔有/選擇/命運）
+  - Plant Payoff對照清單（12+ Plant回收位置）
+  - 開放設計項清單（10項，優先級標記）
+  - CDL-212~218 + P-C11/C12/C13 全整合
+- [x] **ACT_III_OUTLINE.md v0.1 → v0.2 升級（2026-05-10 後段）**：
+  - **12角度全掃描完成**：19個角度全部掃描（Pool 1 12個 + Pool 2 7個）；識別 7 個壓縮問題
+  - **6項決策補丁整合**：
+    ① 凜時序延遲揭露（Phase G 身份隱瞞；H2 才發現真相；實際拒絕時間 114 年 2-3 月初）
+    ② H1.5 獨立月下崩潰 beat（P-A01 貓殼碎裂 + P-A12 Step 1 無言相認；美夜子掙扎空間）
+    ③ 夕隱形軌跡補充（Phase G/H [NC] 推送記憶碎片；P-C13 payoff 路徑確認；J6 反抗無效說明）
+    ④ 操人偶化 Stage 2b 視覺標記（無痛覺自我縫合；Cost Signal 空間閉鎖；Stage 3 完整說明）
+    ⑤ Phase G/H/I 氛圍基調 + 張力標記（幽閉恐懼 + 死囚牢房效應 + 張力波浪；防止審美疲勞）
+    ⑥ 黑奏終局立場改為 Transform（消散時被還原為純粹保護愛；Transform 而非單純 Complicate + Reject）
+  - **Outline 架構最終確認**：12 個主要 beat（新增 H1.5）；Gate A/B/C 完整更新；15+ Plant payoff 精確位置；遊戲媒介指引（K/L Walking Simulator）；愛莉最後守護補充
+- [x] **PROJECT_STATUS.md 更新**（v0.2 [DRAFT — Pending] 狀態；6 補丁整合確認；當前阻塞點標記）
+- [x] **NEXT_ACTION.md 更新**（單一步改為「作者最終判決」；可選路徑 A/B/C）
+- [x] **SESSION_LEDGER.md 更新**（本條；Round 033c 進展；v0.2 待批核）
+- ⏳ **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]**（當前阻塞點；等待作者最終判決）
 
 ## Completed This Round (Round 032 continued — 2026-05-08 CDL-282~285 + ACT_II_OUTLINE v0.9)
 - [x] 讀 PROJECT_STATUS / NEXT_ACTION / QUESTION_QUEUE / SESSION_LEDGER / QUESTION_MATRIX

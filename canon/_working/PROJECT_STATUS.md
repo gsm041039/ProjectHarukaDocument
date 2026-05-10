@@ -1,14 +1,21 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: ACT_II_OUTLINE v0.9 [DRAFT] 待作者批核 → 批核後進 ACT_III_OUTLINE v0.1
+- Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定
+- **三幕故事大綱 (three_acts_story_outline_v1.md v2.2) — Sub-agent 深度審查後邏輯完整化** （2026-05-10）
+  - v2.1：文風改進（結構化標籤移除）+ 基礎邏輯修正（小光身份、E-09事件、重複段落）
+  - v2.2：Sub-agent 跨文件審查 + 4 項優先度 A 邏輯缺口補充（操Stage 2b進程、朱音時序、凜身份分層、隊伍等待狀態）
 - **ACT_I_OUTLINE.md v1.21 [APPROVED]**（待Act III批核後回補CDL-262/264晨間斷層微細節+CDL-269[對比錨點A]標記 — 低影響，CDL-267工作序列）
 - **ACT_II_OUTLINE.md v0.9 [DRAFT — 待作者批核]**（CDL-282~285全部整合完成；幕末三段序列E-15→Act II-XX→E-16確立；相簿Plant P-C10加入；MS-Burnout偽裝加入）
-- **CDL-272~285 全部落檔（2026-05-08）**：temp.txt Q1~Q9全部RESOLVED + CDL-282~285新決定
-- Active Topic / Section: **ACT_II_OUTLINE v0.9 作者批核 → 批核後立即進 ACT_III_OUTLINE.md v0.1起稿**
-- Current Objective: ①ACT_II v0.9 呈作者批核；②批核後起稿ACT_III_OUTLINE.md v0.1（骨架CDL-212~218 + CDL-264③④ + CDL-266三武器 + CDL-268/269 + CDL-272~285 Act III全設計）；③miyako.md + haruka.md CDL-271補充（非阻塞）
-- Resume Confidence: HIGH
-- Last Stable Updated At: 2026-05-08
+- **ACT_III_OUTLINE.md v0.2 [DRAFT — 新增 2026-05-10；6項決策補丁整合完成]**
+  - v0.1→v0.2 升級：凜時序延遲揭露 + H1.5獨立月下beat + 夕隱形軌跡 + 操人偶化標記 + 氛圍基調補充 + 黑奏終局Transform
+  - 12個主要beat確認（新增H1.5）；Gate A/B/C檢查點更新；3個氛圍基調確立；張力波浪標記；10項開放設計項優先級標記
+  - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
+- **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
+- Active Topic / Section: **ACT_III_OUTLINE.md v0.2 作者最終批核** ← **當前阻塞點**
+- Current Objective: ①作者判決ACT_III v0.2；②若批核通過→進Beat Sheet層設計；若需修改→補充微調後再提；③全四幕Outline完成後才啟動Beat Sheet層設計
+- Resume Confidence: HIGH（架構完整；等待作者判決）
+- Last Stable Updated At: 2026-05-10
 
 ## Last Stable Completed Step
 - Round 032 完成（2026-05-08）：CDL-272~285全部落檔；ACT_II_OUTLINE.md升至v0.9（CDL-282~285整合；幕末三段序列；P-C10加入）；CROSS_ACT_FORESHADOW_MANIFEST.md P-C10加入；QQ-87~95全部RESOLVED；無任何阻塞問題

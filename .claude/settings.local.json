@@ -33,7 +33,11 @@
       "Bash(mv canon/03_characters/ayakomoji_sou.md canon/03_characters/ayakomoji_misao.md)",
       "Bash(mv canon/03_characters/airi.md canon/03_characters/aeri.md)",
       "Bash(xargs sed:*)",
-      "Bash(Get-ChildItem \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\03_characters\\\\\" -Filter \"*.md\" | Select-Object Name)"
+      "Bash(Get-ChildItem \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\03_characters\\\\\" -Filter \"*.md\" | Select-Object Name)",
+      "Bash(Select-String -Path \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\CANON_DECISION_LOG.md\" -Pattern \"CDL-21[2-8]\" -Context 5)",
+      "Bash(Select-Object -First 200)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\story_construction\" -Filter \"*.md\")",
+      "Bash(Select-Object Name)"
     ],
     "ask": [
       "Bash(git commit:*)",
