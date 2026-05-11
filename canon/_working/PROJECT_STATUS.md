@@ -2,6 +2,7 @@
 
 ## Current Workflow Snapshot
 - Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定
+- **M-061 無鏡之城設定存廢評估**（2026-05-11）：Cross-Act Gate + 19角度掃描完成；QQ-98~101 OPEN；唔阻塞 Act III 批核
 - **三幕故事大綱 (three_acts_story_outline_v1.md v2.2) — Sub-agent 深度審查後邏輯完整化** （2026-05-10）
   - v2.1：文風改進（結構化標籤移除）+ 基礎邏輯修正（小光身份、E-09事件、重複段落）
   - v2.2：Sub-agent 跨文件審查 + 4 項優先度 A 邏輯缺口補充（操Stage 2b進程、朱音時序、凜身份分層、隊伍等待狀態）
@@ -12,14 +13,22 @@
   - 12個主要beat確認（新增H1.5）；Gate A/B/C檢查點更新；3個氛圍基調確立；張力波浪標記；10項開放設計項優先級標記
   - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
 - **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
-- Active Topic / Section: **ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97 待回應** ← **當前雙阻塞點**
-- Current Objective: ①作者判決ACT_III v0.2（主要阻塞）；②作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；③若v0.2批核通過→進Beat Sheet層設計；④全四幕Outline完成後才啟動Beat Sheet層設計
+- Active Topic / Section: **ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97/98~101 待回應** ← **當前阻塞點**
+- Current Objective: ①作者判決ACT_III v0.2（主要阻塞）；②作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；③作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；④若v0.2批核通過→進Beat Sheet層設計；⑤全四幕Outline完成後才啟動Beat Sheet層設計
+
+**Round 034（2026-05-11）無鏡之城設定存廢評估完成：**
+- M-061 建立：Cross-Act Dependency Gate + 19角度掃描（Pool 1+2全覆蓋）
+- 識別三大風險：Mirror Law 日常觸發漏洞 / 夜區命名對立意義喪失 / 主題物理落地削弱
+- 核心發現：維多利亞之淚 vs 無鏡之城隱藏不同層次真相（政治 vs 靈魂），非重複設計
+- Angle 19 特別發現：2C選項「全城集體扮睇唔到」恐怖潛力最高
+- 生成 QQ-98~101（Q1~Q4，OPEN 等待作者決策）
+- Resume Confidence: HIGH（架構完整；等待作者判決）
+- Last Stable Updated At: 2026-05-11
 
 **Round 033f（2026-05-11）三幕矛盾審查完成：**
 - 識別 9 項問題（A×4 reference錯誤；B×2 舊記錄未更新；C×3 敘事gap）
 - 已執行 7 項非阻塞修正（無需作者確認的技術性修正）
 - 生成 QQ-96/97 兩條作者問題（B-2 CDL狀態矛盾；J9/L5/L9設計依據）
-- Resume Confidence: HIGH（架構完整；等待作者判決）
 - Last Stable Updated At: 2026-05-10
 
 ## Last Stable Completed Step

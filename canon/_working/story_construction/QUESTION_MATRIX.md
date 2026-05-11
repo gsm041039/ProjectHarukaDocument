@@ -204,6 +204,53 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 | M-050 | 晨間形式必要性（角度19）——為何係早晨 | 形式必要性/世界規則 | Alpha/Beta線睡眠機制解釋已在本輪提出，但01_world_rules_and_costs.md尚未補充相關條目 | 本輪聊天提案；01_world_rules_and_costs.md現無睡眠機制段落 | **SOURCE_SUPPORTED（CDL-265）** | QQ-85=A RESOLVED：現有解釋足夠，無需補充世界觀段落 | 無writeback需求 | QQ-85 ✅ |
 | M-051 | 若通過，Outline修訂範圍與優先次序 | 結構功能/寫作可執行性 | Act I v1.21 [APPROVED]修改風險最高；Act II v0.8 [DRAFT]尚未批核=修改成本最低；Act III=尚未起稿=可直接整合 | 現有Outline狀態快照 | **SOURCE_SUPPORTED（CDL-267）** | QQ-86=A RESOLVED：先起草Act III，之後回補Act I/II | 工作序列確定：Act II v0.8加錨點→批核→Act III v0.1起稿→回補 | QQ-86 ✅ |
 
+---
+
+## Round 034 新增（2026-05-11 — 無鏡之城設定存廢評估）
+
+### Cross-Act Dependency Gate 執行結果
+
+| Gate 欄位 | 評估 |
+|---|---|
+| **Upstream Dependencies** | 無鏡之城係 Mirror Law（CAN-19-S04/S06）的**派生原則**，唔係獨立設定。Mirror Law 是四大視覺支柱之一，已入 visual bible canon。Alpha/Beta 架構（鏡面在情緒高峰時透出 Alpha 殘影）亦係已確定機制。修正 vs 接納意識形態二元對立靠城市建築具象化。 |
+| **Downstream Dependencies** | 無鏡之城建立「日區市民唔係每天照鏡都見到 Alpha 線」的機制說明。Act IV 崩塌視覺（QQ-67=A+C：日區街道空洞裂縫，倒懸唐樓）若原本日區為無鏡之城，裂縫開始反光衝擊更強。夜區「鏡像之城」稱號的對立意義依賴日區為「無鏡之城」。服飾設計條目（art/02_Advanced_Narrative_Design.md）引用無鏡之城原則。 |
+| **Later-Act Constraints** | 移除後，Mirror Law 仍存在但缺乏「日常生活不持續觸發」的機制解釋。主題對比「修正意識形態=無鏡，接納=鏡像」削弱主題落地。 |
+| **Can Be Decided Locally** | No（全作視覺設計 + 世界規則 + 主題表達決定，需全作視角才能定案）|
+| **Early Consumption Risk** | N/A（移除既有設定，唔係添加）|
+| **Misalignment Risk** | High：Mirror Law 說鏡面即靈魂 X 光，但若移除無鏡之城，帝國如何阻止日區市民每日見到 Alpha 線殘影的問題懸空。兩個設定隱藏不同層次真相——維多利亞之淚=政治/外部真相；無鏡之城=靈魂/內在真相，移除會混淆層次。 |
+
+### 12角度 + Extended Pool 掃描結果
+
+| 角度 | 判斷 | 關鍵發現 |
+|---|---|---|
+| 1. 角色成長 | RELEVANT | 日區無鏡環境支撐晴香「從不見自己靈魂真實」的成長起點；修正意識形態起點 |
+| 2. 關係動態 | NOT_RELEVANT | 建築設計唔直接影響角色間關係 |
+| 3. 資訊/揭示控制 | **HIGHLY RELEVANT** | 兩個設定隱藏不同真相：維多利亞之淚=政治真相；無鏡之城=靈魂個人真相。非重複功能 |
+| 4. 氣氛/張力 | RELEVANT | 無鏡之城提供日區視覺美學基礎；服飾規格、建築材料均依賴此設定 |
+| 5. 主題表達 | **HIGHLY RELEVANT** | 修正 vs 接納係全作核心主題。無鏡之城=修正意識形態的物理具象化。移除削弱主題環境落地 |
+| 6. 結構功能 | RELEVANT | 目前無 specific beat 明確依賴此設定；但 Act IV 崩塌視覺有潛在 payoff 價值 |
+| 7. 入場時機 | NOT_RELEVANT | 唔涉及角色入場 |
+| 8. 世界規則壓力 | **HIGHLY RELEVANT** | Mirror Law 日常觸發邏輯依賴無鏡之城解釋。移除=世界規則漏洞 |
+| 9. 埋伏/回收 | RELEVANT | 無鏡之城是否有 planned payoff（如 Act IV 崩塌日區首次出現大量反光面）？待作者確認 |
+| 10. 觀眾體驗 | RELEVANT | 觀眾透過日區建築感受帝國「拒絕自我反映」的壓抑——依賴美術落地 |
+| 11. Canon/連續性 | **HIGH RISK** | 已記錄於 visual bible、glossary、01_world_rules、art/02_Advanced_Narrative_Design。移除需大量 writeback |
+| 12. 寫作可執行性 | RELEVANT | 美術服飾規格已有執行基礎（避免高反光材料） |
+| 13. Coping/防禦 | RELEVANT | 城市建築本身係集體性防禦機制——阻止市民見到靈魂真實 |
+| 14. 意識形態 | **HIGHLY RELEVANT** | 無鏡之城=「修正意識形態」物理化身。修正派=拒絕看見不完美的自己 |
+| 15. 社會/制度位置 | RELEVANT | 日區建築係帝國意識形態控制的物理層面 |
+| 16. 道德代償 | NOT_RELEVANT | 唔係核心焦點 |
+| 17. 象徵/儀式 | RELEVANT | 「整個城市拒絕自我反映」係象徵設計，呼應 Kintsugi 主題（裂縫才是誠實） |
+| 18. 敘事驗證層級 | RELEVANT | 故事 validate「接納」（夜區鏡像之城）、reject「修正」（日區無鏡）。移除削弱此結構性對比 |
+| 19. 形式必要性 | **HIGHLY RELEVANT** | 形式係由世界規則直接驅動：Mirror Law 說反光面=靈魂 X 光 → 修正意識形態 → 系統性移除反光面。非裝飾性設計，係因果邏輯。見 2B 選項之「C（集體清醒夢）」具有更高恐怖潛力 |
+
+### Matrix Row
+
+| Matrix ID | Topic | 主要角度 | 當前詮釋 | Source 基礎 | Status | 關鍵風險 | 需要作者輸入？| QQ |
+|---|---|---|---|---|---|---|---|---|
+| M-061 | 無鏡之城設定存廢——是否移除日區「無鏡之城」設定，因維多利亞之淚已遮蓋真相 | 世界規則壓力、主題表達、形式必要性、Canon 連續性 | 作者提出移除，理由=維多利亞之淚已有遮真相功能。但分析顯示兩者遮不同層次真相（政治 vs 靈魂）。移除可能製造 Mirror Law 世界規則漏洞。 | canon/06_visual_bible.md（Environmental Manifestation）；canon/02_glossary.md（無鏡之城）；canon/01_world_rules_and_costs.md；art/02_Advanced_Narrative_Design.md；backup/screenwriter/03_Worldview_Setting.md；backup/screenwriter/08_Emotion_Setting_Overview.md；CAN-19-S06 | **NEEDS_AUTHOR_INPUT（QQ-98~101 OPEN）** | Mirror Law 日常觸發漏洞；夜區名稱失去對立意義；主題修正 vs 接納物理落地削弱；無鏡之城移除但 Mirror Law 仍存在之世界規則不一致 | Yes（Q1~Q4，見 QQ-98~101）| QQ-98, QQ-99, QQ-100, QQ-101 |
+
+---
+
 ## Compression Rule
 完成 rows 後，先輸出：
 1. Topic-by-Angle summary

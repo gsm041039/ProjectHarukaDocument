@@ -1,13 +1,24 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 033f 完成：三幕大綱矛盾審查 + 9項問題識別 + 6項非阻塞修正執行完畢（2026-05-11）；等待作者對 QQ-96/97 回應 + ACT_III_OUTLINE.md v0.2 最終判決**
+- Phase 15 (Act III Outline 設計) — **Round 034 完成：M-061無鏡之城評估 + QQ-98~101 OPEN + state files 更新（2026-05-11）；等待作者答 QQ-96/97/98~101 + ACT_III_OUTLINE.md v0.2 最終判決**
 
 ## Current Objective
-- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 當前單一阻塞點
-  - 批核通過 → 進 Beat Sheet 層設計
+- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 主阻塞點
+  - 批核通過 → 進 Beat Sheet 層設計（全四幕 Outline 批核後）
   - 要求修改 → 補充微調後再提
-  - 其他判決方向
+- **QQ-96/97 確認**（非阻塞，但需清理矛盾）
+- **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
+
+## Completed This Round (Round 034 — 2026-05-11 無鏡之城設定存廢評估 + State Files 更新)
+- [x] **作者提出討論**：日區「無鏡之城」設定是否移除，理由=維多利亞之淚已遮蓋真相
+- [x] **Source check 完成**：canon/06_visual_bible.md、canon/02_glossary.md、canon/01_world_rules_and_costs.md、backup/screenwriter/03_Worldview_Setting.md、backup/screenwriter/08_Emotion_Setting_Overview.md、CAN-19-S06、art/02_Advanced_Narrative_Design.md
+- [x] **Cross-Act Dependency Gate 執行**：六項全部完成；識別 Mirror Law 日常觸發漏洞風險 + 夜區命名對立意義喪失風險 + 主題物理落地削弱風險
+- [x] **12角度 + Pool 2 全掃描**：19角度全部掃描；識別5個 HIGHLY RELEVANT 角度（資訊揭示控制/主題表達/世界規則壓力/意識形態/形式必要性）；Angle 19 分析：「市民集體扮睇唔到」（選項2C）恐怖潛力最高
+- [x] **4條 Consolidated Author Questions 設計**（QQ-98~101）
+- [x] **QUESTION_MATRIX.md M-061 寫入**：Cross-Act Gate結果 + 19角度掃描 + Matrix Row
+- [x] **QUESTION_QUEUE.md 更新**：QQ-98~101 OPEN 加入 Round 034 Questions
+- [x] **QQ-96/97 狀態確認**：仍 BLOCKED（非阻塞 Act III 批核，但需在矛盾清理前確認）
 
 ## Completed This Round (Round 033f — 2026-05-11 三幕大綱矛盾審查 + 非阻塞修正)
 - [x] **讀取文件**：ACT_I_OUTLINE.md v1.21 + ACT_II_OUTLINE.md v0.9 + ACT_III_OUTLINE.md v0.2 + PROJECT_STATUS + CANON_DECISION_LOG
