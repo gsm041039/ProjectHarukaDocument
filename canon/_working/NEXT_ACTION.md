@@ -15,10 +15,16 @@
   - 12角度全掃描完成；識別7個壓縮問題
   - 6項決策補丁整合：凜時序延遲揭露 + H1.5獨立月下beat + 夕隱形軌跡 + 操人偶化標記 + 氛圍基調 + 黑奏Transform
   - 12個主要beat確認（新增H1.5）；Gate A/B/C更新；張力波浪標記；10項開放設計項
-- ⏳ **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]**（⬅ 當前單一阻塞點）
+- ⏳ **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]**（⬅ 主要阻塞點）
   - 可選路徑A：批核通過 → 立刻進Beat Sheet層設計
   - 可選路徑B：要求修改 → 補充微調後再提
   - 可選路徑C：其他判決
+- ⏳ **QQ-96（Q-SV-01）：CDL-258「夕剪接室暗線」是否已被 CDL-259 正式 SUPERSEDE？**（非阻塞 Outline 批核，但需在矛盾消除前確認）
+  - A：CDL-258 SUPERSEDED BY CDL-259 → 更新 PROJECT_STATUS.md 記錄
+  - B：兩個機制並存 → 解釋共存方式
+- ⏳ **QQ-97（Q-SV-02）：E-III-J9/L5/L9 三個 beat 的設計依據（CDL不存在）**（非阻塞 Outline 批核）
+  - A：純 source 推導（outline_raw.md 等已有依據，無需新 CDL）
+  - B：有未落檔決策 → 補登 CDL-286+
 - ⬜ miyako.md + haruka.md CDL-271補充（靈魂困禁狀態 + 陰影視覺機制）**（非阻塞，可並行）**
 - ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記（CDL-267工作序列）
 - ⬜ Act IV Outline 設計

@@ -1,13 +1,27 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 033d in-progress：三幕故事大綱文風改進與邏輯修正完成（2026-05-10）；等待作者對 ACT_III_OUTLINE.md v0.2 最終判決**
+- Phase 15 (Act III Outline 設計) — **Round 033f 完成：三幕大綱矛盾審查 + 9項問題識別 + 6項非阻塞修正執行完畢（2026-05-11）；等待作者對 QQ-96/97 回應 + ACT_III_OUTLINE.md v0.2 最終判決**
 
 ## Current Objective
 - **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 當前單一阻塞點
   - 批核通過 → 進 Beat Sheet 層設計
   - 要求修改 → 補充微調後再提
   - 其他判決方向
+
+## Completed This Round (Round 033f — 2026-05-11 三幕大綱矛盾審查 + 非阻塞修正)
+- [x] **讀取文件**：ACT_I_OUTLINE.md v1.21 + ACT_II_OUTLINE.md v0.9 + ACT_III_OUTLINE.md v0.2 + PROJECT_STATUS + CANON_DECISION_LOG
+- [x] **識別 9 項問題**（Category A×4 / B×2 / C×3）：
+  - A-1~A-4：reference 錯誤（P-A25位置錯、CDL-265/243誤引、CDL-405/320/352不存在）
+  - B-1：Act I Plant-A 美夜子相認 payoff 舊記錄（嘆息之橋 → CDL-274兩步設計）
+  - B-2：PROJECT_STATUS CDL-258/259 狀態矛盾
+  - C-1~C-3：敘事 gap（P-A12 Step 2 J2 缺失、凜 Phase F 延遲揭露無注記、朱音被捕時機缺失）
+- [x] **執行 7 項非阻塞修正**（A-1~A-4 + B-1 + C-1~C-3）：
+  - ACT_III_OUTLINE.md：P-A25 payoff 修正；J5/J6/J9/L5/L9 CDL 修正；J2 P-A12 Step 2 注記；Phase I 朱音被捕注記
+  - ACT_I_OUTLINE.md：Plant-A 美夜子相認 payoff 更新（CDL-274 兩步設計）
+  - ACT_II_OUTLINE.md：角色弧線摘要新增凜延遲揭露注記
+- [x] **生成 2 條作者問題**：QQ-96（Q-SV-01：CDL-258 vs CDL-259 狀態）；QQ-97（Q-SV-02：J9/L5/L9 設計依據）
+- [x] **更新 state files**：QUESTION_QUEUE / REASONING_LOG / SESSION_LEDGER / PROJECT_STATUS / NEXT_ACTION
 
 ## Completed This Round (Round 033e — 2026-05-10 故事大綱 v2.1→v2.2 深度邏輯審查與修正)
 - [x] **Sub-agent 跨文件深度審查**：

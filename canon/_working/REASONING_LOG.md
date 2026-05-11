@@ -864,4 +864,62 @@ Act II Phase D現有設計：E-09直播失控（CDL-259）→E-09a鏡像破碎�
 - 角度9（Setup/Payoff）：C若在Act III登場時就暗示姊妹關係，會削弱後段的「夕主動利用姊妹身份」設計
 - 角度7（入場時機）：夕Act III登場的第一印象決定其後段全部互動的情感基調
 
+---
+
+## Round 033f — 2026-05-11 — 三幕大綱矛盾審查（ACT_I / ACT_II / ACT_III OUTLINE 跨幕比對）
+
+### 任務背景
+作者指示對 ACT_I_OUTLINE.md v1.21、ACT_II_OUTLINE.md v0.9、ACT_III_OUTLINE.md v0.2 三份文件進行系統性矛盾審查。本輪為審查性質，非設計輪。
+
+### 讀取文件清單
+- ACT_I_OUTLINE.md v1.21 [APPROVED]
+- ACT_II_OUTLINE.md v0.9 [DRAFT]
+- ACT_III_OUTLINE.md v0.2 [DRAFT]
+- PROJECT_STATUS.md（確認 CDL-258/259 衝突）
+- CANON_DECISION_LOG.md（確認 CDL 編號範圍：最高 CDL-285）
+- QUESTION_QUEUE.md（確認無重複問題）
+- SESSION_LEDGER.md（確認當前 phase）
+
+### 識別問題清單
+
+#### Category A — 清晰 Reference 錯誤（可直接修正，不須作者確認）
+- **A-1**：Act III Plant Payoff 表 P-A25 payoff 位置標示「J6 鋼鐵獨舞」→ 錯誤；鋼鐵獨舞 = I1 E-III-I1。J6 係「愛與毀滅的抉擇點」。
+- **A-2**：E-III-J6 header 引用「CDL-265」→ 錯誤；CDL-265 = 睡眠機制解釋，與 J6 設計（反抗無效/夕接管）完全無關。
+- **A-3**：E-III-J5 header 引用「CDL-243」→ 錯誤；CDL-243 = 美夜子 Glitch Form 首次觸發，與 J5 設計（共振地獄第二階段）完全無關。
+- **A-4**：三個不存在的 CDL 編號（最高 CDL = CDL-285）：E-III-J9 [CDL-405]、E-III-L5 [CDL-320]、E-III-L9 [CDL-352]。
+
+**修正方式（A-1~A-4 均為 non-blocking，已執行）：**
+- A-1：P-A25 "J6" → "I1 E-III-I1"
+- A-2：J6 "[CDL-265]" → "[btd — CDL待登記]"
+- A-3：J5 "[CDL-243]" → "[btd — CDL待登記]"
+- A-4：J9/L5/L9 改為 "[btd — CDL待登記]"；生成 QQ-97（Q-SV-02）確認設計基礎
+
+#### Category B — 已 SUPERSEDE 但未更新的舊記錄
+- **B-1**：Act I Plant-A 美夜子相認 payoff 仍顯示「Act III 嘆息之橋碎殼揭露；CDL-059~062」→ 過時。CDL-274 已更改為兩步設計（Step1=H1.5月下；Step2=J2黑奏處刑室）。
+- **B-2**：PROJECT_STATUS.md 同時記錄 CDL-258（夕剪接室暗線）為 active canon 與 CDL-259（直播失控）為修訂版，但 ACT_II_OUTLINE.md v0.8 change log 明確寫「刪除剪接室暗線」。→ 狀態矛盾，生成 QQ-96（Q-SV-01）
+
+**修正方式：**
+- B-1：已直接更新 Act I Plant-A 表（不須作者確認，屬技術性標記更新，CDL-274 已確認）
+- B-2：QQ-96 生成，待作者確認後更新 PROJECT_STATUS.md
+
+#### Category C — 敘事 Gap（待 Beat Sheet 層確認）
+- **C-1**：P-A12 Step 2（語言確認）Payoff 列在 J2，但 J2 beat 描述只有三武器揭露，無美夜子×晴香語言相認內容。→ 加一行注記「P-A12 Step 2 [btd — Beat Sheet層確認]」於 J2。
+- **C-2**：凜的 Unit 00 轉化（114年2月底-3月初）落在 Act II Phase F 時間窗口，但 Act II 角色弧線摘要無凜條目。→ 加一行「延遲揭露設計」注記於 Act II 角色弧線摘要。
+- **C-3**：Phase G G4（下水道無聲重逢）到 I2（帝國公開處刑公告）之間，朱音被捕機制缺失。→ 加一行注記「朱音被捕時機 [btd]」於 Phase I 開頭。
+
+**修正方式（C-1/C-2/C-3 均為 non-blocking 注記，已執行）**
+
+### Cross-Act Dependency Check 摘要
+- A 類修正為純技術性 reference 修正，不涉及 canon 設計決定。
+- B-1 為技術性標記更新（CDL-274 已作者確認）。
+- B-2 涉及 CDL 狀態判定，需作者確認。
+- C 類缺口均標記為 [btd]，不影響 Outline 層批核。
+
+### 落檔記錄
+- ACT_I_OUTLINE.md：B-1 修正完成（Plant-A 美夜子相認 payoff 更新）
+- ACT_II_OUTLINE.md：C-2 修正完成（角色弧線摘要新增凜延遲揭露注記）
+- ACT_III_OUTLINE.md：A-1/A-2/A-3/A-4/C-1/C-3 修正完成
+- QUESTION_QUEUE.md：QQ-96（Q-SV-01）+ QQ-97（Q-SV-02）新增
+- 兩項作者問題待回應後執行後續動作（B-2 PROJECT_STATUS 更新；QQ-97 CDL 補登記）
+
 **等待作者答覆後，CDL-281落檔，QQ-95 RESOLVED，Round 032全部完成。**

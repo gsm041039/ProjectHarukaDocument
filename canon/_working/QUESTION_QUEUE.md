@@ -183,6 +183,12 @@
 | BD-05 | E-11甜蜜高峰具體場景 | 作者指示 keep blocked | Yes（結構已定）| 作者主動提出 | 2026-03-25 |
 | Q-AI-03 | 夕整合幕末 L1 場景形式 | Beat-level 決定；**RESOLVED 2026-03-29（CDL-069/070）**：D 歉疚共情型；膠布哲學視覺化；道歉場景 | — | — | 2026-03-29 |
 
+## Round 033f Questions（2026-05-11 — 三幕大綱矛盾審查 Q-SV 系列）
+| QID | Topic | Matrix | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| QQ-96 | Q-SV-01：CDL-258「夕剪接室暗線/紀錄片」是否已被 CDL-259 正式取代 | — | High | **BLOCKED** | 矛盾清理前 | PROJECT_STATUS.md 同時記錄 CDL-258（夕剪接室暗線）為 active canon 和 CDL-259（直播失控）為修訂版；但 ACT_II_OUTLINE.md v0.8 change log 明確寫「刪除：之前的『夕的剪接室暗線』與『紀錄片發布』段落」。CDL-258 是否已被 CDL-259 正式 SUPERSEDE？ | A: CDL-258 SUPERSEDED BY CDL-259（PROJECT_STATUS.md 記錄屬過時，需更新）/ B: CDL-258 仍有效（兩個機制並存，需解釋）/ C: 其他安排 | — | 若選 A：PROJECT_STATUS.md 更新 CDL-258 狀態；CANON_DECISION_LOG 補「SUPERSEDED」標記；消除現有矛盾 | 矛盾審查後立即確認 | 2026-05-11 |
+| QQ-97 | Q-SV-02：E-III-J9/L5/L9 三個 beat 的設計依據為何（CDL 編號不存在） | — | High | **BLOCKED** | Act III v0.2 批核前 | Act III Outline E-III-J9（原標 CDL-405）、E-III-L5（原標 CDL-320）、E-III-L9（原標 CDL-352）引用的 CDL 編號均不存在（最高 CDL = CDL-285）。這三個 beat 的設計基礎係：現有 source 文件（outline_raw.md / timeline_raw.md 等）推導？還是有未落檔的口頭決策？ | A: 純 source 推導（outline_raw.md / CDL-002/007/248 等支撐，無新 CDL 需登記）/ B: 有未落檔的決策（需補 CDL-286+ 正式登記）/ C: beat 設計需要修改（目前設計有問題）| — | 若選 A：三個 beat 的現有 source 支撐需在 Outline 中明確標記；若選 B：需補登記對應 CDL | Act III v0.2 批核時確認 | 2026-05-11 |
+
 ## Round 031 Questions（2026-05-08 — temp.txt Act III 核心設計）
 | QID | Topic | Matrix | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
 |---|---|---|---|---|---|---|---|---|---|---|---|
