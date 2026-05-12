@@ -13,6 +13,7 @@
   - 12個主要beat確認（新增H1.5）；Gate A/B/C檢查點更新；3個氛圍基調確立；張力波浪標記；10項開放設計項優先級標記
   - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
 - **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
+- **Round 035（2026-05-12）世界觀底層 Writeback 完成**：CDL-286~289 落檔；涉及檔案：01_world_rules_and_costs.md / 04_timeline_canon.md / aya.md / CANON_DECISION_LOG.md。決策：Alpha線低魔共享歷史（解釋X）/ 維多利亞之淚Alpha線廢棄結構 / 黑奏力量雙重因果機制 / 鐵絲網偶遇（Act III扣留子彈）/ Loop 0意外→Loop N精準化。
 - Active Topic / Section: **ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97/98~101 待回應** ← **當前阻塞點**
 - Current Objective: ①作者判決ACT_III v0.2（主要阻塞）；②作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；③作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；④若v0.2批核通過→進Beat Sheet層設計；⑤全四幕Outline完成後才啟動Beat Sheet層設計
 

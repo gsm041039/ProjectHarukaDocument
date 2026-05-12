@@ -32,7 +32,7 @@
 |------|------|------|
 | **73** | <a id="event-aya-birth"></a>澄川彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/aya.md#section-kurokane)的宿主誕生 |
 | **76** | <a id="event-miyako-birth"></a>[美夜子](03_characters/miyako.md)誕生（東雲花子的大女兒） | 未來晴香的姊姊 |
-| **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始 |
+| **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始（Alpha/Beta 共享歷史；Alpha 線因低魔能量不足，設施停滯為廢棄金屬結構；Beta 線創世後才活化為功能性設施，見 CDL-286） |
 | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |
 | **97** | <a id="event-haruka-birth"></a>[雨宮晴香](03_characters/haruka.md)誕生 | 創世者誕生 |
 | **98** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變**：黑奏殺死帝國皇帝，奪取最高權力 | 黑奏掌權 |
@@ -48,8 +48,9 @@
 ### <a id="section-alpha-line-history"></a><a id="event-alpha-original"></a>Alpha 線原初現實
 
 - 5 歲的[晴香](03_characters/haruka.md)（97+5=102）與 26 歲的[美夜子](03_characters/miyako.md)（76+26=102）為感情深厚的親姊妹
-- <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/aya.md#section-kurokane)在晴香面前殺害花子和美夜子（**DFT-01 定案：花子與美夜子同時死亡，非先後**）
-- <a id="event-first-reality-change"></a>**第一次[改變現實](02_glossary.md#term-reality-change)**：晴香的悲痛撕裂時空，創造 Beta 線高魔世界
+- <a id="event-fence-encounter"></a>**鐵絲網偶遇**（CDL-288）：分歧事件發生前夕，5 歲晴香路過帝國實驗設施外圍，偶然目睹鐵絲網另一邊滿身傷痕、抱著爛熊公仔的彩正被守衛拖走。晴香在潛意識中許下天真願望：「如果有一個好強的人可以永遠保護佢就好了。」此許願成為創世能量的因果信標，在改變現實爆發時精準賦予黑奏人格魔法力量。此事件係 Act III 黑奏三段擊處刑的核心揭示，**敘事上扣起至 Act III 結尾**，不提前披露。
+- <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/aya.md#section-kurokane)在晴香面前殺害花子和美夜子（**DFT-01 定案：花子與美夜子同時死亡，非先後**）<!-- Loop N：黑奏帶著跨循環記憶主動確保死亡發生；Loop 0 為初始意外，見 CDL-289 -->
+- <a id="event-first-reality-change"></a>**第一次[改變現實](02_glossary.md#term-reality-change)**：晴香的悲痛透過靈樹（天然潛意識接口）引爆，創世因果能量湧出，將 Alpha 線覆寫為 Beta 線高魔世界；能量逆流擊中黑奏（具 Alpha 創傷共振條件），結合鐵絲網許願的因果信標，賦予黑奏魔法力量與 Soul Traversal 能力
 - 晴香的天真願望「如果家姐變做貓仔就唔會受傷」直接觸發美夜子的[避難所詛咒](02_glossary.md#term-shelter-curse)；機制條文見 [World Rules](01_world_rules_and_costs.md#section-alpha-beta)
 
 ### <a id="section-beta-line-history"></a><a id="event-beta-reset"></a>Beta 線重設
