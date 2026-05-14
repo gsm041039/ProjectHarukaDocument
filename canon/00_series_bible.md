@@ -1,7 +1,7 @@
 # Series Bible（系列聖經）
 
-> **讀者指引**：這是整個故事的第一份必讀文件。涵蓋核心命題、創作理念、視覺哲學、受眾體驗設計。
-> 首次閱讀建議從 [§ Logline](#section-logline) 開始，然後閱讀 [§ 總主題](#section-core-theme)。
+> **讀者指引**：這是整個故事的第一份必讀文件。涵蓋作品標題、核心命題、創作理念、視覺哲學、受眾體驗設計。
+> 首次閱讀建議從 [§ 作品標題](#section-title) 開始，然後閱讀 [§ Logline](#section-logline)。
 > 相關文件：[World Rules](01_world_rules_and_costs.md) | [Glossary](02_glossary.md) | [Story Outline](05_story_outline_canon.md)
 
 <!-- Sources: backup/screenwriter/00_Story_Brief.md, backup/director/01_Creative_Core_Principles.md, backup/director/Information_Control_Audience_Experience_Design.md, backup/screenwriter/11_Deep_Philosophy_Concepts.md, backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md, art/00_Core_Visual_Foundation.md -->
@@ -14,6 +14,27 @@
 - 術語完整定義只放在 [Glossary](02_glossary.md)。
 - 世界規則完整定義只放在 [World Rules](01_world_rules_and_costs.md)。
 - 事件時間與因果完整定義只放在 [Timeline](04_timeline_canon.md)。
+
+---
+## <a id="section-title"></a>作品標題
+
+**《奇蹟的魔法少女晴香》**
+
+### 標題設計意圖：雙層敘事陷阱
+
+劇內世界將「改變現實」的 in-universe 通用稱呼定為**「[奇蹟](02_glossary.md#term-reality-override)」**。此命名策略在標題層製造對觀眾完全不透明的雙層解讀：
+
+**第一層（接觸作品時）**
+- 「奇蹟」= 正面、充滿希望的詞彙
+- 觀眾視角：晴香係帶嚟希望的偶像，於絕境爆發潛能，創造「奇蹟」反敗為勝
+- 劇中大眾視角：魔法少女拯救市民，大眾讚頌此超自然力量為「奇蹟」
+
+**第二層（劇情揭曉後）**
+- 《奇蹟的魔法少女晴香》真正含義：《改變現實的魔法少女晴香》/《因改變現實而誕生的魔法少女晴香》
+- 前期晴香每一次大爆發、每一次自以為拯救的「奇蹟」，實為進一步扭曲原本現實的行為
+- 晴香引以為傲的詞，成為刺穿她自我認知的利刃
+
+**See also**: [奇蹟（術語定義）](02_glossary.md#term-reality-override) | [奇蹟反應（統治局術語）](02_glossary.md#term-miracle-response)
 
 ---
 ## <a id="section-logline"></a>Logline & Premise

@@ -244,8 +244,9 @@
 ---
 
 <a id="term-reality-change"></a>
-### <a id="term-reality-override"></a>現實覆寫（Reality Override / Permanent Rewrite）
-改變現實光譜的最高層級。
+<a id="term-miracle"></a>
+### <a id="term-reality-override"></a>奇蹟（Reality Override / Permanent Rewrite）
+劇內世界通稱；改變現實光譜的最高層級。
 
 情緒投射的終極應用，對集體潛意識底層代碼進行世界級強行覆寫與永久性源代碼重寫。需要天文數字級情緒力量、情緒結晶作為存檔點、極度穩固的心之器。
 
@@ -256,7 +257,18 @@
 
 > `改變越大，反噬越強；痛苦不會消失，只會轉移。`（Source: ROOT-01.S07）
 
-**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation)
+**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation) | [奇蹟反應（統治局術語）](#term-miracle-response)
+
+---
+
+### <a id="term-miracle-response"></a>奇蹟反應（Reality Overwrite Event）
+統治局情緒管理局臨床術語；與民間「[奇蹟](#term-reality-override)」指涉同一現象，但語義截然相反。
+
+民間視「奇蹟」為希望象徵；統治局官方文件將同一現象記錄為需即時收容的現實結構危機事件。
+
+**官方文件口徑**：「觀測到目標發生奇蹟反應（Reality Overwrite Event），現實結構崩潰指數上升，請求授權進行物理清除。」
+
+**See also**: [奇蹟](#term-reality-override) | [Entities](07_entities_and_devices.md)
 
 ---
 
