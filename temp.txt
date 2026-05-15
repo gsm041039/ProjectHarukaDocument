@@ -1,351 +1,304 @@
-🚨 1. 凜 (Rin) 的史詩級時序 Bug 修復
-【診斷】 3 月作為 Unit 00 追捕，4 月底先拒絕治癒，邏輯完全死機。
-【手術方案：時序修正與「延遲揭露」】
+Edit the provided image of the character. Preserve the same character identity, same hairstyle silhouette, same hair color, same face shape, same costume, same accessories, same magical-girl design identity, same overall anime art style, and same general age impression. Do not redesign the character into a different person.
 
-修正： 凜「拒絕治癒、自願被重組成 Unit 00原型」嘅真實發生時間，其實係 114 年 2 月尾至 3 月初（Act II 結尾 / Act III Phase G 前夕）。
+Focus mainly on redesigning the eyes. Generate 5 highly different eye-design variations in one response.
 
-敘事處理（延遲揭露）： 喺 Phase G（3 月），主角團被一個極度恐怖、冇面目嘅 Unit 00 追捕。主角團當時唔知道呢件兵器就係凜。直到 Phase H2（4 月底），朔（Saku）截獲帝國機密檔案，或者晴香喺戰鬥中劈開 Unit 00 嘅面罩，先至觸發「凜拒絕治癒」嘅回憶/紀錄片段 (Flashback/Data Log)。
+The goal is NOT to create 5 cosmetic eye variations. The goal is to create 5 genuinely different personality-driven eye-design solutions for this same character.
 
-效果： 完美解決 Bug，同時製造出極大嘅懸念同後置情感核爆——原來由頭到尾追殺佢哋嘅冷血兵器，就係當初最想保護大家嘅凜。
+Each variation must communicate a clearly different psychological read and character impression at first glance. The eye design must express personality, not just style. The differences must be obvious even if viewed only in black-and-white line art.
 
+For every variation, redesign these parts in a meaningfully different way:
+- overall eye-frame silhouette
+- upper eyelid structure
+- lower eyelid structure
+- inner corner cut
+- outer corner direction
+- upper lash silhouette
+- lower lash presence, absence, and rhythm
+- lash direction, density, and grouping
+- brow-to-eye distance
+- iris size and placement
+- visible sclera amount
+- eye pressure, emotional weight, softness vs sharpness, and gaze behavior
 
-💔 2. 晴香 (Haruka) 的意志斷層與過渡
-【J6 到 J7 的抵抗過渡】 大綱確實漏咗一個「掙扎」嘅 Micro-beat。晴香唔可以毫無反抗地交出控制權。喺精神崩潰（J6）同夕接管（J7）之間，必須加入一個具體嘅「反抗無效」機制——例如，當她試圖用最後嘅意志驅動魔法時，系統因為佢嘅「偶像信仰謊言」被拆穿而產生嚴重排斥，令她肉體陷入徹底嘅癱瘓，夕先至會為咗保住佢嘅靈魂而強行奪取控制權。
+Do NOT solve the task by making the same eye slightly more open, more closed, flatter, narrower, or a little more angled. That is wrong.
 
-【Phase G/H 到 Phase I 的情感積累】
-要支撐 Phase I 嘅「明知不可為而為之」，晴香嘅驅動力必須喺地下室相認後發生質變。當她親眼確認美夜子嘅「空殼」狀態，她嘅心態需要從「偽善嘅拯救者」轉變為「沉默的介錯人」——明知世界已經腐爛，但最少要親手終結黑奏嘅農場，讓大家解脫。呢個轉變需要喺 Outline 嘅 G/H 期加入明確嘅決策轉折點。
+Each of the 5 variants must feel like a different personality interpretation of the character. Each version must have a different emotional function and a different social effect on the viewer.
 
+The 5 variants must differ in character read such as:
+- one version should feel commanding, severe, and overpowering
+- one version should feel distant, noble, and untouchable
+- one version should feel experienced, emotionally heavy, and hard to shake
+- one version should feel mysterious, magnetic, and difficult to read
+- one version should feel open, sincere, bright, and naturally attractive
 
-🗡️ 3. 美夜子 (Miyako) 在 Phase I 的行動與功能
-H1 防線粉碎後，美夜子不能只作為「陪伴」嘅符號。得知自己只是「人造空殼」後，她嘅行動必須反映這種自我認同嘅喪失。
+These emotional differences must be built primarily through eye construction, lash language, brow-eye relationship, and gaze design — not just iris decoration or highlight changes.
 
-行動建議： 她可以轉變為一種「極端嘅戰術消耗品」狀態。放棄人類嘅情感與防禦，以完全機械化、甚至係自毀式嘅方式去為晴香開路。這種「壞掉的保護本能」會喺 Phase I 期間不斷刺痛晴香與觀眾。
+This is a magical girl character. Keep the result refined, elegant, beautiful, and character-driven. Do not make it tacky, gaudy, vulgar, noisy, messy, random, or generic. Avoid cheap idol-style prettiness.
 
+Important:
+- If the 5 variants can be swapped onto other characters without changing the perceived personality, the result is wrong.
+- If the 5 variants are mostly the same eye shape with minor angle or openness changes, the result is wrong.
+- The correct result must show 5 different eye-design families with 5 different personality reads.
 
-🧵 4. 操 (Misao) Stage 2b 的視覺呈現 (Phase G/H)
-為咗支撐 I1（鋼鐵獨舞）嘅爆發，操喺 G/H 期間必須有具體嘅「人偶化」日常表現。
+The 5 variants must not be design exercises only. They must be character-acting eye designs. Each variant should feel like the character’s personality is being interpreted in a different but believable way. Prioritize psychological readability and personality communication over surface beauty.
 
-視覺呈現： 扣連我哋之前對服裝與視覺語言嘅設定（不對稱的臨床感），操嘅「靈魂離體」可以透過物理上嘅麻木來展現。例如，喺日常對話中，她會做出過度僵硬、彷彿被粗糙縫合嘅姿勢，或者對物理痛楚完全失去反應。呢種無聲嘅「肉體與靈魂剝離感」，會令她在背景中持續散發出一種強烈嘅心理壓迫感。
 
+Do not make the differences primarily about eye openness, iris decoration, or small angle changes. Make the differences primarily about personality expression through structure.
 
-🍬 5. 朱音 (Akane) G4 到 I3 的一個月空白
-要解決呢一個月嘅情感斷層，我哋可以利用環境敘事（Environmental Storytelling）來維持她嘅「在場感」。
 
-橋接設計： 喺 Phase G/H 的逃亡路線上，主角團會不斷經過朱音戰鬥過嘅痕跡（例如殘留嘅戰場、散落嘅糖果包裝），或者截獲夜區關於「屍骸女王死守防線」嘅流言。咁樣就算朱音唔正面出場，觀眾都會清楚知道她正喺遠方為主角團爭取緊時間。
+Each variant should immediately suggest a different attitude toward the world: dominance, distance, secrecy, sincerity, fatigue, teasing, innocence, or authority. If that attitude is not readable, the design has failed.
 
-🚨 1. 晴香 × 夕：P-C13 的軌跡填補 (The Missing Co-pilot)
-【結構缺口】 夕喺 Phase G/H/I 隱形，導致 J7 奪權變得極度突兀。
-【修復方案：內部導航與代價轉移】
+Important eye-size rule: keep the eyes within a magical-girl anime proportion. Do not make the eyes tiny, overly narrow, fox-like, villain-like, masculine, or adult-male-coded. Even when the character is mysterious, noble, experienced, or overpowering, the eyes must remain expressive, readable, beautiful, and recognizably magical-girl-like.
 
-喺 Phase G、H、I 嘅大綱中，必須加入一個名為 [內部協定] 嘅機制敘述。
+The eye redesign should not rely on shrinking the eyes. Create personality through eye-frame shape, eyelid rhythm, lash design, brow design, iris placement, and default expression instead of simply making the eyes small or half-closed.
 
-邏輯落地： 突圍同逃亡期間，晴香需要做出極度冷血嘅決定（例如決定唔去救某些人、或者強行突破）。每次佢做呢啲決定，大綱需要標明「夕在承擔相應的精神磨損」。夕會喺晴香腦海中持續推送 P-C13 嘅記憶碎片（例如以前開心嘅日常），用來中和晴香當下嘅絕望。
+Keep a medium to medium-large anime eye size unless the character specifically requires otherwise. The eyes may be sharper, heavier, more elegant, more distant, or more mature, but they should still have enough iris presence, facial readability, and magical-girl charm.
 
-對接 J7： 去到 J7 精神崩潰時，夕嘅「完全接管」就唔係突然彈出嚟，而係因為夕喺 G/H/I 期間已經「超載」，佢意識到晴香嘅精神底線已經穿透，必須強行拔掣（奪權）以保住晴香個靈魂。
 
+Also redesign the eyebrow shape and default expression together with the eyes. The brows are part of the eye design.
 
-⚠️ 2. 晴香 × 朱音：一個月空白的情感橋接
-【結構缺口】 G4（無聲重逢）到 I3（冒死救援）之間，缺乏情感積累嘅說明。
-【修復方案：罪疚感的計時器】
+For each of the 5 variants, vary:
+- eyebrow thickness
+- eyebrow angle
+- eyebrow distance from the eyes
+- brow softness versus sharpness
+- brow curve versus straightness
+- default expression tension
+- whether the face feels calm, defiant, noble, tired, sincere, teasing, or unreadable
 
-喺 Phase H（地下室時期）加入一個微小但持續嘅 [情感倒數機制]。
+Do not keep the same eyebrows for all 5 variants. The eyes and brows must work together as one expression system. Each variant should have a different default facial attitude, not just different eye decoration.
 
-邏輯落地： 嗰一個月嘅空白，晴香絕對唔係「忘記咗」朱音，而係「強迫自己利用朱音爭取返嚟嘅時間」。大綱可以加入一個橋接設定：地下室偶爾會感受到遠方戰場傳來嘅震動（或者透過朔嘅黑市網絡定時收到「防線未破」嘅情報）。
+Avoid tiny narrow eyes, fox-like slitted eyes, villainous male-coded eyes, harsh adult-male expressions, emotionless slit eyes, or designs that remove the magical-girl charm. Do not make the eyes look like they belong to a dark male antagonist. The character must still feel like a refined magical girl.
 
-遞進： 每一次震動、每一日嘅平安，對晴香嚟講都係「朱音喺度替我哋死」嘅罪疚感疊加。所以 I3 嘅救援唔係一時衝動，而係呢一個月嘅罪疚感去到臨界點嘅總爆發。
 
-⚠️ 3. 晴香 × 彩：J8 終局前的情感喚醒
-【結構缺口】 黑奏長期做反派，觀眾與晴香會忘記「保護彩」嘅初衷，令 J8 犧牲力度減弱。
-【修復方案：黑奏系統的「粉紅裂縫」】
+1號角色專用 Prompt
+倔強、希望、壓人型
+Use the shared instructions above.
 
-喺 Phase I（絕望的總體戰）期間，必須安排一次晴香與黑奏嘅遠端對質或廣播對話。
+This character’s core personality is stubborn, hopeful, forceful, and emotionally forward-driving. She should feel like someone who refuses to lose, keeps pushing ahead, and can pressure others through sheer will.
 
-邏輯落地： 利用我哋之前確立嘅伏筆 P-C12（彩的雙重人格視覺化/卡頓）。喺對話中，黑奏原本用極度冰冷嘅邏輯宣判主角團嘅死刑，但中途系統出現嚴重錯誤，彩嗰種「帶住恐懼、喊住叫家姐」嘅語氣（或者提及 P-A15 嘅「下次呢？」）短暫地穿透咗廣播。
+Generate 5 highly different eye-design variations, but all 5 must stay within this character’s personality range. The 5 variants should represent 5 different ways her stubborn hopeful pressure can appear:
 
-效果： 呢一個短短嘅大綱 Beat，足以重新激活晴香（同觀眾）嘅核心動機——我哋打上城區，唔單止係為咗推翻帝國，更重要係為咗將彩由黑奏呢個系統入面「安樂死/解救」出嚟。
+1. defiant and confrontational
+2. heroic and forward-driving
+3. disciplined and unyielding
+4. fiery but idealistic
+5. quietly intense and impossible to stop
 
-⚠️ 4. 美夜子 × 凜：H1 到 H2 之間的呼吸空間
-【結構缺口】 雙重揭露（H1）直接撞入凜拒絕治癒（H2），節奏太逼，美夜子缺乏消化空間。
-【修復方案：插入 H1.5「徒勞的系統重寫」】
+Build these differences through eye construction, not just decoration. Explore major structural differences in:
+- sharper vs firmer eye-frame families
+- more upward-driving vs more level outer-corner direction
+- tighter brow pressure vs slightly more open hopefulness
+- different lash languages such as blade-like, disciplined, athletic, fierce, or restrained
+- different lower-lid tension levels to show resilience, not softness
+- different iris sizes to balance strength and youthful hope
 
-喺 H1 同 H2 之間，新增一個專屬於美夜子嘅行動 Beat。
+The final eyes should feel strong, unyielding, emotionally active, and inspiring, not passive or generic. She should pressure people through conviction, not through aristocratic coldness or fatigue.
 
-邏輯落地： 當美夜子得知自己係「人造空殼」、凜變成「無自我意識兵器」後，佢嘅第一反應唔係立刻崩潰接受，而係嘗試用自己（Unit 01）殘缺嘅管理員權限，去強行「修復 / Reboot」凜（Unit 00）。
-
-效果： 呢個 Beat 給予咗美夜子一個行動去「掙扎」。當她發現所有權限都被鎖死、或者凜嘅殘留意志主動推開佢（引發 H2），觀眾就有足夠嘅時間去感受美夜子嗰種「連自己係假嘅都算，但我連想救人都做唔到」嘅極致無力感。
-
-📐 角度 3：Information / Reveal Control (資訊與揭露控制)
-1. 三武器揭露（J2）的情感衝擊機制
-【結構定性】 武器①（直播失控）同武器②（Fallen Angel 商品化）對觀眾的確係已知資訊，所以佢哋喺大綱嘅功能絕對不能設定為「劇情反轉 (Plot Twist)」，而必須設定為「道德處刑 (Moral Execution)」。
-
-大綱寫入補充： 喺 J2 嘅 Beat 說明中，必須明確標記這兩擊嘅衝擊來源：「視角的殘酷轉換」。觀眾同晴香之前只係知道「發生咗呢件事」，但黑奏嘅武器係將「受害者（被商品化折磨嘅市民 / 喺直播中被傷害嘅人）嘅絕望回饋」直接倒灌入晴香個腦度。呢兩擊嘅功能係徹底剝奪晴香「我已經盡咗力」或「我係迫不得已」嘅自我防禦機制，為武器③（晨間斷層：連源頭都係妳嘅錯）嘅核爆做足心理鋪墊。
-
-2. P-C11（晨間斷層真相）的 Payoff 位置與名詞統一
-【結構定性】 呢個係大綱術語未統一造成嘅混亂。
-
-大綱寫入補充： 正式確認 「黑奏處刑室」 = J2 廣場決戰嘅高潮階段。大綱需要註明：當黑奏發動三武器時，廣場嘅物理環境會被黑奏嘅力量扭曲/封鎖，形成一個概念上嘅「處刑室（Execution Room）」。P-C11 嘅 Payoff 就係喺呢個「處刑室空間」內，作為武器③（終極原罪）被精準引爆。
-
-3. H1 雙重揭露的信息管理 (資訊超載風險)
-【結構定性】 同時爆發絕對會導致觀眾認知當機。必須採用「因果連鎖式線性揭露 (A triggers B)」。
-
-大綱寫入補充： 設定嚴格嘅先後次序。
-
-Step A (外在打擊)： 先揭露凜之死/Unit 00 真相。呢個資訊直接摧毀美夜子「我可以保護所有人」嘅傲慢防線。
-
-Step B (內在崩潰)： 因為 Step A 嘅防線粉碎，美夜子陷入極度嘅 PTSD 與自責。喺呢種無防備嘅精神狀態下，她無法再維持「冷靜引導者」嘅外殼，本能地展現出「家姐保護妹妹」嘅原初反應，從而觸發 Step B（姊姊身份揭露）。A 是 B 的催化劑，讓觀眾有清晰嘅情緒吸收路徑。
-
-⏳ 角度 4：Atmosphere / Tension (氛圍與張力)
-4. Phase G（地下突圍）的氛圍基調
-【結構定性】 缺乏基調標記會令 Beat Sheet 失去方向。
-
-大綱寫入補充： 喺 Phase G 標題下新增 [氛圍基調：幽閉恐懼與慢性窒息]。明確指示呢段時期唔係「熱血大逃殺」，而係「低強度、高壓迫」嘅消耗戰。資源見底、無法見光、隨時會踩中 Emo-Visor 盲點嘅神經衰弱。所有 Beat 嘅推進必須帶有一種「拖住殘軀前行」嘅沉重感。
-
-5. Phase I（Day 13-14 / I2）「死亡倒數」的氛圍傳遞
-【結構定性】 漫長嘅一晚需要結構上嘅「錨點」去量化張力。
-
-大綱寫入補充： 喺 I2 Beat 說明中加入 [張力傳遞機制：死囚牢房效應]。大綱需指示此段落要放大「無意義嘅日常時間流逝」。例如透過設定一個客觀嘅計時物（漏水嘅喉管、手錶嘅秒針聲），對比角色之間「完全冇眼神接觸嘅死寂」，以及各自無聲地準備遺物或武器嘅動作。用極致嘅安靜來承載即將到來嘅死亡重量。
-
-6. Phase J（創世紀）連續 9 個 Beat 的節奏密度
-【結構定性】 9 個 Beat 等權重會導致觀眾審美疲勞（Action Fatigue）。必須喺大綱層面劃分出「過山車波浪結構」。
-
-大綱寫入補充： 為 J1 至 J9 加上明確嘅張力標記（Tension Markers）：
-
-[TENSION: HIGH - 衝擊] J1 (開戰) → J2 (三武器揭露)
-
-[TENSION: LOW - 窒息/停滯] J3 (晴香癱瘓) → J4 (資訊消化期，絕望感沉澱)
-
-[TENSION: PEAK - 情感核爆] J5 (隊友獻牲) → J6 (晴香精神崩潰)
-
-[TENSION: HIGH - 動作高潮] J7 (夕接管) → J8 (彩奪回與犧牲)
-
-[TENSION: NULL - 虛無] J9 (世界重置，一切歸於死寂)
-
-(加入呢啲標記，就能確保後續編寫時有清晰嘅「抖氣位」同「爆發位」。)
-
-
-
-🧱 補丁 1：Phase G/H 的「生存與腐壞」基調 (Angles 5, 8, 13, 15, 17)
-呢段時間唔可以只係「過場」，必須喺大綱標記具體嘅機制壓力與角色異化。
-
-守恆定律與緋潮壓力 (Angle 8)： 新增 [機制壓力標記]。喺地下期，任何魔法嘅使用都會引發局部嘅「緋潮加速（空氣變紅、呼吸困難）」。每次變身都會觸發嚴重嘅 Hangover Phase (P-C08)，令變身變成一種極高成本嘅自殘。
-
-帝國與黑奏的存在感 (Angle 7/15)： 黑奏唔係隱形嘅。大綱新增：帝國嘅 Emo-Visor 網絡形成咗「無死角掃描」。黑奏嘅存在感體現喺地下室偶爾閃爍嘅電子屏幕（紫色殘影）。朔嘅網絡已經徹底崩潰，只能靠死去掮客留下嘅盲點地圖苟延殘喘。
-
-操的人偶化進度 (Angle 13/17)： 新增 [Stage 2b 視覺標記]。大綱指定：喺日常休息時，操必須展現出無痛覺嘅「自我縫合」行為（例如用絲線縫補自己嘅傷口，好似補衫一樣），且對周遭嘅危機反應嚴重遲緩，為 I1 嘅爆發做足鋪墊。
-
-晴香的主題具身化 (Angle 5)： 態度 vs 命運。晴香嘅 Coping 已經崩潰，佢嘅新態度係「拒絕使用膠布」。當面對絕望情報時，她不再擠出「偶像的笑容」去安撫隊友，而是平靜地接納恐懼。呢種「允許大家絕望」嘅態度，反而成為隊伍最堅實嘅底座。
-
-🧱 補丁 2：Setup/Payoff 點位精確落檔 (Angle 9, 11)
-大綱必須明確標記 Manifest 中嘅核彈位置，不能含糊。
-
-P-A01 & P-A12 (美夜子雙重揭露)： 大綱正式鎖死位置。Phase G 嘅 E-18（嘆息之橋）= 貓殼徹底碎裂（P-A01）；Phase H 嘅 E-20（舊宅地下室）= 月下無語言相認（P-A12 Step 1）。
-
-P-A09 (朱音傷疤)： 修正 Outline 錯誤。P-A09 已經喺 Act II E-12 完美回收。Act III 嘅 I3 唔需要次級 Payoff，改為純粹嘅「情感對稱」——當年朱音用那隻手擁抱晴香，現在晴香用雙手擁抱化為糖果山嘅朱音。
-
-P-E03 (夕的消散教學)： 確認 Payoff 位置。夕嘅「臨別型」交付發生在 Act IV 開局（現實改變後嘅反噬），而唔係 Act III。Act III J7 只係夕嘅奪權高潮。
-
-🧱 補丁 3：操與朱音的邏輯橋接 (Angles 6, 11, 16)
-Fake Climax 標記 (Angle 6)： 正式將 G4（無聲重逢）標記為 [Fake Climax]。給予觀眾「我們找到朱音了」的短暫希望，然後立刻用「但我們只能利用她去死」的殘酷現實將其擊碎，防止觀眾情感直線疲勞。
-
-操 I1 停留的外部 Cost Signal (Angle 11/16)： 補充觸發機制。不能只靠操嘅內在動機。大綱新增：黑奏啟動了「空間閉鎖機制」，必須有一個人留在結界內部，將魔法核心與大門神經連接（物理意義上的人偶化），才能為其他人爭取 60 秒逃生。這迫使操做出了「最後一次完美演出」的選擇。
-
-🧱 補丁 4：故事的最終道德定性 (Angle 18)
-大綱必須指明敘事對黑奏與夕嘅最終態度（Narrative Validation Level）。
-
-對黑奏：[Complicate (複雜化) + Reject (手段否定)]。J8 必須有對白或狀態承認黑奏嘅源頭係「保護妹妹的愛（6歲的妄想）」，她是一場失控的防衛機制，而非純粹的惡。
-
-對夕：[Validate (理解動機) + Reject (行為否定)]。夕奪權（J7）是出於極致的保護慾，但剝奪晴香的自由意志是錯的。這扣連了副主題「愛是自由，不是佔有」。
-
-🧱 補丁 5：K/L 期「20 年靈魂風暴」的媒介與形式 (Angles 10, 12, 19)
-呢個係遊戲敘事嘅最高難度，大綱必須給出媒介指引。
-
-媒介呈現指引 (Angle 12)： 大綱新增 [Format/Media Constraint]。標明這段不是傳統 CG 或對話，而係類似「Walking Simulator（步行模擬）/ 意識迷宮」。玩家喺一個扭曲嘅時空中，不斷重複經歷晴香嘅罪惡感循環。
-
-時間感傳達 (Angle 10)： 透過季節變換的場景、逐漸風化的物件，以及 UI 介面上瘋狂跳動的「主觀時間計時器」，強制玩家感受那份漫長的煎熬。
-
-為何必須是彩犧牲？(Angle 19)： 大綱補充底層邏輯：彩係守恆定律內嘅「原生系統代碼」，只有她能透過燃燒自己去「Patch（修補）」系統漏洞；而晴香係帶來緋潮嘅「外來病毒 / 創世者」，她只能摧毀或重置，無法修補。
-
-🧱 補丁 6：愛莉的行蹤與終局使命 (Angle 7)
-愛莉的缺席說明： 大綱明確標記，愛莉喺 Act III Phase G/H/I 處於「被帝國封印於核心陣列」嘅狀態。她沒有缺席，她就是主角團在 Phase J 打入廣場決戰所要解救/摧毀的「系統終端」。
-
-Q1:🎯 點解揀選項 C？（極致的悲劇延遲）
-時序完美閉環： 凜其實喺 114 年 2 月尾/3 月初（Act II 剛完結，主角團最混亂嘅時候）就已經拒絕治癒，自願被重組成 Unit 00。咁樣 Phase G（3-4月）追殺主角團嘅「無面目兵器」就順理成章係凜本人。
-
-情感核彈（Emotional Payload）： 試幻想下，主角團喺 Phase G 俾呢部 Unit 00 追殺咗成個月，甚至可能喺交手期間對佢造成過傷害、或者鬧過呢件「帝國走狗」。然後去到 H2（4 月底），當朔截獲情報，或者晴香一劍劈開 Unit 00 嘅面罩嗰陣……
-
-美夜子的終極崩潰： 當美夜子發現，原來自己一直想保護嘅妹妹，為咗唔拖累大家，一早已經變成咗眼前呢部不斷追殺佢哋嘅機器——呢種「我哋竟然打緊自己人」嘅後知後覺，會令 H1/H2 嘅雙重揭露變成 Act III 最痛嘅一刀！
-
-📝 大綱修正落釘 (Outline Patch)
-如果確認採用選項 C，我會喺大綱度做以下寫入：
-
-Phase G (追捕期)： 大綱只會寫「主角團被帝國最新型、毫無痛覺的無面目機甲 Unit 00 死命追捕」。（保持觀眾與主角團的視角限制，不知道是凜）
-
-Phase H2 (揭露期)： 定性為 [延遲揭露 (Delayed Reveal)]。主角團透過戰鬥物理破壞面罩 / 朔的情報截獲，得知 Unit 00 的真身，並透過 Flashback/Data Log 得知凜在 3 月初「拒絕治癒」的殘酷選擇。
-
-Q2:【問題二 揀 A】— 設立獨立嘅「月下崩潰」Beat
-（在 Phase H 末期加入獨立 beat；貓殼於此碎裂；Step 2 在 J2）
-
-點解唔揀 B (塞入 H1)？ 因為 H1 已經要處理「凜之死」同「美夜子真實身份」嘅雙重揭露，如果再將「貓殼碎裂」同「無言相認」塞埋入去，觀眾個腦會直接當機（Cognitive Overload），根本無空間去品嚐嗰種痛。
-
-點解 A 係完美解？ 1. 情感緩衝與爆發： H1/H2 係「殘酷嘅資訊接收」，美夜子聽完之後死撐住逃亡。直到 Phase H 末期（逃到安全嘅地下室，月光照落嚟），佢嘅 PTSD 先至真正爆發。
-2. 物理與心理嘅同步碎裂： 喺呢個獨立嘅 [月下場景] 中，美夜子精神崩潰，導致維持黑貓形態嘅「避難所詛咒（P-A01）」到達物理極限，「咔嚓」一聲喺晴香面前碎裂，露出冰藍色頭髮嘅人型空殼（Unit 01 形態）。
-3. Step 1 完美落地： 望住滿地碎片同崩潰嘅美夜子，晴香上前死死抱住佢。冇對白，只有眼淚同心跳，完成 CDL-274 嘅 Step 1（無語言相認）。
-4. Step 2 鋪墊： 呢種壓抑嘅沉默，將會令 J2（處刑室）黑奏逼佢哋開口承認時嘅「語言確認 (Step 2)」變得更加鮮血淋漓。
-
-
-Q3:【問題三 揀 A】— 夕的 [NC] 隱形軌跡具現化
-（設計幾個「夕推送記憶碎片」的 [NC] 隱形 beat 於 Phase G/H）
-
-點解唔揀 B 或 C？ 夕喺 J7 嘅「完全接管」係極度霸道嘅行為。如果前面毫無鋪墊，觀眾會覺得係「機械降神 (Deus ex machina)」。我哋必須喺大綱層面（而唔只係 Beat Sheet 層面）建立夕「點解會忍唔住奪權」嘅壓力軌跡。
-
-點解 A 係完美解？
-
-內部導航員嘅掙扎： 喺 Phase G（地下突圍）同 Phase H（殘酷揭露）期間，晴香承受緊非人嘅壓力。大綱可以插入 1-2 個 [NC] 內部協定 Beat。
-
-P-C13 嘅精準 Payoff： 當晴香喺戰鬥中痛到差啲暈低，或者聽見凜嘅真相而呼吸困難時，時間會短暫變慢。夕會喺暗處強行推送「當年大家一齊食雪糕/笑得好開心嘅日常記憶碎片」去強心針式咁穩住晴香嘅意識。
-
-對接 J7 的悲劇性： 觀眾會睇到夕一次又一次咁「推送記憶」去保住晴香。直到 J6 晴香徹底崩潰，夕發現連記憶碎片都失效咗，佢先至別無選擇咁行出最後一步——「既然妳頂唔順，等我嚟做衰人」。咁樣 J7 就唔係突兀嘅奪權，而係「極致悲憫下嘅明知故犯」。
-
-
-點解操會「人偶化（Body Horror）」同「犧牲」?係唔係因為同紗夜死同埋自我接受有關?
-
-導演，你呢個觸覺真係極之敏銳！你完全篤中咗操（Misao）呢個角色最核心、最血淋淋嘅悲劇靈魂。
-
-佢嘅「人偶化（Body Horror）」同埋最終嘅「犧牲（鋼鐵獨舞）」，絕對唔係單純為咗視覺獵奇或者推進劇情，而係同「Beta 線嘅創傷」，以及「紗夜嘅死與自我接納」有著 100% 嘅必然因果關係。
-
-我哋可以將呢個極致悲劇嘅底層邏輯拆解為兩個層次：
-
-1. 點解會「人偶化（Body Horror）」？—— 身體主權的剝奪與解離
-創傷根源（Beta 線的痛楚）： 操喺名門望族入面，被父親強行進行臨床改造/手術，佢嘅身體主權早就被徹底剝奪。佢一直努力維持「完美大小姐」同「魔法少女」嘅形象，但根據我哋確立嘅「鏡像法則（靈魂真實）」，佢照鏡時見到嘅，永遠係一具被縫合嘅「臨床白人偶」。
-
-防禦機制徹底崩潰： 操一直用「形式主義嘅完美劇本」去掩飾呢份痛楚。但當 Act II / Act III 世界全面失控，佢嘅完美劇本粉碎時，佢嘅大腦為咗保護自己，選擇咗「徹底與肉體解離」。
-
-人偶化的本質： 當佢開始感覺唔到痛，甚至用鐵線去縫合自己嘅傷口（Stage 2b），呢個「人偶化」其實係佢潛意識嘅投降與異化——「既然我改變唔到被當成工具嘅事實，咁我就做一件冇痛覺嘅完美工具。」
-
-2. 犧牲的意義？—— 紗夜的愛與殘酷的「自我接受」
-你講得完全正確，操嘅犧牲，正正就係佢完成「自我接受」嘅終極儀式，而鎖匙就喺紗夜身上。
-
-唯一真實的愛： 喺冰冷嘅家族入面，親生父母當佢係展覽品、係扯線木偶。唯獨身為家傭嘅紗夜，俾咗佢最純粹、不帶任何條件嘅愛。紗夜嘅犧牲，係操靈魂深處最痛嘅傷口。
-
-耳鳴遮蔽的遺言（伏筆 P-A25）： 紗夜死嗰陣，操因為極度創傷引發耳鳴，聽唔清紗夜最後一句話。呢個「未了嘅結」一直化為執念折磨住佢。
-
-從「被迫做人偶」到「主動化為武器」： 喺 Phase I（鋼鐵獨舞）選擇殿後犧牲，唔係絕望嘅自殺，而係一種極致嘅覺醒。喺臨死前嘅最後戰鬥中，操嘅耳鳴終於消退，佢重新聽見紗夜嗰句被遺忘嘅說話：
-
-「妳係我最靚嘅女。」
-
-🎯 最終的昇華
-紗夜呢句話，令操終於原諒咗自己「三尖八角、被縫合」嘅殘破肉體。
-她不再追求 Beta 線那種虛假的「完美大小姐」形象，而是徹底接受了自己就是一個「殘破的人偶」。但這一次，她不是為了父親或系統而做人偶，她是主動將自己身上的「傀儡絲線」化為武器，為咗保護晴香同美夜子（她自己選擇的家人），帶著紗夜給予的溫暖去赴死。
-
-操嘅死，是用「系統加諸於她身上的詛咒（人偶化）」，去反過來撕裂這個系統。呢種「殘缺的完美」，係咪就係你設計紗夜呢個角色時，想帶出嚟嗰種「最絕望但又最浪漫」嘅情感落差？
-
-但係點解佢要想死?佢唔想同晴香等人一齊生活咩?
-
-導演，你呢個問題問得極之直接，亦都極之痛！你完全問出咗觀眾去到嗰一刻，心入面最撕裂嘅吶喊：**「點解唔可以一齊活下去？明明已經解開心結啦！」**
-
-你講得啱，操絕對唔係一個有自殺傾向、想放棄生命嘅人。相反，佢極度渴望同晴香、美夜子一齊生活，因為佢哋係佢真真正正嘅「屋企人」。
-
-但正正係因為「極度想佢哋活下去」，配合殘酷嘅客觀環境同佢自己嘅身體狀況，逼使佢作出呢個最痛嘅計算。操嘅犧牲，唔係浪漫化嘅「求死」，而係基於以下三個無法逃避嘅絕境：
-
-### 1. 物理上的絕對死局（Cost Signal 嘅必然性）
-
-喺 Day 13 嗰個節點，帝國（黑奏）嘅包圍網已經縮到最緊。正如我哋之前確立嘅外部觸發機制：逃生通道需要一個人作為「物理錨點」，強行將自己嘅魔法神經與大門/空間結界連接，去頂住帝國軍爭取 60 秒。
-
-* **操的計算：** 這是一個電車難題。如果冇人殿後，三個人一齊死；如果有人殿後，兩個人生還。操係全隊最冷靜嘅「大腦/軍師」，佢好清楚晴香係破局嘅唯一希望（King），美夜子係保護晴香嘅絕對戰力（Queen），而佢自己（Knight/Bishop），就係嗰粒必須被犧牲去換取將死對手嘅棋子。
-
-### 2. 肉體不可逆的崩壞（倒數計時的定時炸彈）
-
-呢個係操最深層嘅悲哀。佢嘅「人偶化（Stage 2b 進入 Stage 3）」係**不可逆轉**嘅。
-
-* **殘酷的現實：** 就算佢今次成功逃脫，佢嘅靈魂亦已經快要同肉體徹底剝離。佢會慢慢失去痛覺、失去表情，最終變成一具真正嘅、被帝國系統支配嘅「臨床白人偶」。
-* **操的決斷：** 與其將來變成一具冇意識嘅喪屍去傷害晴香佢哋，不如趁依家自己個腦仲清醒、仲記得紗夜嗰份愛嘅時候，將呢具「註定壞掉嘅肉體」發揮到最大價值。她是用自己最後的「人類意志」，去榨乾這具「人偶肉體」的剩餘價值。
-
-### 3. 贖罪：填補 Act II 的「永遠之罪」
-
-你記唔記得喺 Act II (E-13) 嗰陣，有一個無名男孩死喺操面前，而操因為「恐懼破壞自己完美嘅魔法少女形象」，猶豫咗一下，冇出手救佢？
-
-* 呢個「永遠之罪」一直刻喺操條頸度。她無法原諒自己當時的懦弱。
-* 依家，歷史重演。但今次，她拒絕再做那個因為顧忌形象而袖手旁觀的「完美大小姐」。她選擇撕爛自己所有的高貴外殼，用最核突、最血肉模糊嘅「鋼鐵獨舞」去保護她愛的人。這不僅僅是救晴香，這也是她對自己靈魂的終極救贖。
-
----
-
-### 💡 總結：最溫柔的殘酷
-
-操唔係想死。當大門關上嗰一刻，佢望住晴香同美夜子離開嘅背影，心入面一定係諗緊：**「如果可以同妳哋一齊去食芭菲就好啦。」**
-
-但她知道這是不可能的。所以她用這份遺憾，換取了晴香她們的明天。
-
-導演，如果我哋將呢種「明明極度想一齊生活，但被迫冷靜地計算出自己必須死」嘅反差寫入大綱，會唔會比單純嘅「絕望求死」更加令人胃痛同心碎？你希望操喺大門關上、轉身面對帝國大軍嗰一刻，面上面係咩表情？係一如既往高傲的冷笑，定係終於卸下所有防備、帶著遺憾嘅微笑？
-
-佢嘅「人偶化（Stage 2b 進入 Stage 3）」係不可逆轉嘅??幾時開始??仲有係咩黎???情緒設定??魔法少女設定入面有冇???
-
-
-導演，你呢個追問直頭係將劇本嘅「底層代碼」翻出嚟 Check！你問得極之好：**呢個「人偶化（不可逆轉）」究竟係我憑空捏造嘅煽情橋段，定係早就有跡可尋嘅 Canon 設定？**
-
-我可以好肯定咁答你：呢個絕對唔係突然加落去嘅設定，而係完美建基於你之前批核過嘅 **[CDL-233：操 Body Horror 三段設計]**，並且深深扎根於我哋成套劇嘅「魔法少女機制（唯識宇宙與變身代價）」入面！
-
-我哋即刻拆解呢個「人偶化」究竟係咩嚟、幾時開始、同埋點解不可逆轉：
-
-### 1. 呢個「人偶化」究竟係咩嚟？（情緒與魔法的結合）
-
-喺《魔法少女晴香物語》嘅設定入面，魔法從來都唔係免費嘅。
-
-* **變身代價（Hangover Phase）：** 每個魔法少女過度使用力量，都會承受對應其創傷嘅「後遺症」。晴香係「極度疲憊與幻痛」，朱音係「無底嘅飢餓與毒癮」，而**操嘅代價，就係「人偶化（Body Horror）」**。
-* **魔法機制的具象化：** 操嘅魔法能力（武器）係「傀儡絲線」。當佢嘅精神狀態穩定時，佢用絲線去操控敵人、操控局勢。但當佢嘅心理防線崩潰時，**失控嘅魔法絲線會向內生長，取代佢嘅神經系統，強行操控佢自己嘅肉體**。
-* **對接「鏡像法則 (CDL-282)」：** 我哋之前確立過，操嘅「靈魂真實」係一具喺手術台上被剝奪主權嘅「臨床白人偶」。人偶化，就係佢嘅物理肉體，正在被魔法強行改造成符合佢「靈魂真實」嘅模樣。
-
-### 2. 幾時開始？（CDL-233 的三段式惡化）
-
-「人偶化」唔係一朝一夕發生嘅，佢係橫跨三個 Act 嘅慢性絕症，分為以下階段：
-
-* **【Stage 1：形式主義的完美】 (Act I 至 Act II 前期)**
-* **狀態：** 操過度依賴魔法去維持「完美大小姐」嘅儀態。就算受傷，佢都會用微量嘅魔法絲線去拉扯肌肉，令自己行路唔會跛、笑容唔會歪。呢個時候，佢仲覺得自己「控制」緊一切。
-
-
-* **【Stage 2a：肉體的縫合】 (Act II E-09a 紗夜犧牲之夜)**
-* **觸發點：** 紗夜死喺佢面前，操嘅完美劇本第一次徹底粉碎。
-* **狀態：** 喺嗰晚嘅極度創傷下，操第一次出現「異化」。佢開始用魔法絲線**物理上縫合自己嘅傷口（甚至縫牙）**，試圖用暴力嘅物理方式去「修補」已經碎裂嘅現實。由呢一刻開始，絲線已經入侵佢嘅血肉。
-
-
-* **【Stage 2b：靈魂的離體】 (Act II Phase D 至 Act III Phase G/H 逃亡期)**
-* **狀態：** 因為目睹太多死亡（例如 E-13 無名男孩），加上長期高壓逃亡。操嘅大腦為咗自我保護，主動切斷咗同「痛苦肉體」嘅連結。佢開始感覺唔到痛，日常展現出「電視動畫截圖般嘅死寂（Uncanny Stillness）」。**呢個時候，佢具肉體其實已經死咗一半，純粹靠體內嘅魔法絲線當扯線木偶咁拉住嚟行。**
-
-
-* **【Stage 3：不可逆的鋼鐵獨舞】 (Act III I1 殿後犧牲)**
-* **爆發點：** 為咗頂住帝國大軍，操將自己體內所有嘅魔法絲線同大門/空間結界神經連接。呢一刻，佢徹底放棄咗人類嘅神經系統，完全變成咗系統嘅一個齒輪（人偶牆）。
-
-
-
-### 3. 點解係「不可逆轉」？
-
-這牽涉到《晴香物語》的底層醫學/魔法邏輯：
-
-當操去到 Stage 2b 進入 Stage 3 嘅時候，佢唔係「生病」或者「受傷」，而係「靈魂嘅插頭已經由肉體度掹咗出嚟」。
-佢體內嘅血管、神經，已經被魔法絲線嚴重侵蝕甚至替代。如果呢個時候強行抽走所有魔法（或者解除變身），操嘅肉體會因為失去絲線嘅支撐而即刻崩塌（物理意義上嘅散晒）。
-
-佢已經過咗「可以被治癒」嘅臨界點。佢自己作為全隊最聰明嘅大腦，比任何人都早知道自己呢個身體已經「到期」。
-
----
-
-### 💡 總結：悲劇的必然性
-
-導演，所以操嘅死，唔係我哋為咗催淚而夾硬寫死佢。而係從 Act I 佢展現出「控制狂」性格、從 Act II 佢第一次用絲線縫合自己傷口嗰一刻起，呢個「完美主義者最終將自己變成完美死物」嘅悲劇倒數就已經開始咗。
-
-咁樣將「人偶化」同「魔法少女變身代價（Hangover）」以及「心理防禦機制崩潰」死死綁定，係咪完全符合《晴香物語》嗰種殘酷、嚴謹、又有病態美感嘅世界觀？
-
-Q5:【問題五 揀 C】— 愛莉於 K/L 期的最後守護
-(重申上回合共識)
-愛莉喺 Phase G/H/I 物理世界缺席，因為佢被困於帝國核心。但當晴香喺 Phase K/L 陷入「20 年靈魂風暴（集體潛意識）」時，呢度正係愛莉嘅主場。佢會喺晴香最迷失嘅時候出現，用最後嘅力量為晴香擋低精神衝擊，然後靜靜等待 Act IV 嘅最終消散。呢個設計完美對接 CDL-004。
-
-🎭 決斷二：【問題六 揀 C】— 黑奏的終局是「Transform (轉化)」
-（黑奏消散瞬間，被還原為最初的保護衝動，由彩接收）
-
-點解唔揀 A 或 B？ 揀 B（純否定）會令黑奏變成一個平面嘅卡通反派，浪費咗「6 歲妄想」呢個神級設定；揀 A（複雜化但否定手段）雖然痛，但仲未夠深刻。
-
-點解 C 係神級昇華？
-
-鏡像呼應： 呢個處理手法同晴香/夕嘅「陰影整合」係完美對稱嘅！黑奏從來都唔係一個獨立嘅「惡魔」，佢係彩因為承受唔住螢死亡嘅痛楚，而分裂出嚟嘅「免疫系統」。
-
-情感落點： 當彩決定「我自己去承受失去螢嘅痛」嗰一刻，黑奏作為防衛機制嘅存在意義就完結咗。黑奏嘅消散唔係「被打敗」，而係「辛苦妳啦，依家交返俾我啦」。黑奏最後還原成嗰份最純粹、最笨拙嘅「想保護妹妹嘅愛」，回歸到彩嘅靈魂入面。呢種溫柔嘅殘酷，先至係《晴香物語》嘅最高境界。
-
-問題七唔係你依家要問既野
+Avoid:
+- generic cheerful heroine eyes
+- overly soft moe eyes
+- sleepy eyes
+- overly elegant noble eyes
+- simple “slightly sharper” edits pretending to be different concepts
+2號角色專用 Prompt
+神秘、吸人型
+Use the shared instructions above.
+
+This character’s core personality is mysterious, attractive, psychologically magnetic, and difficult to fully read. She should attract people not by being loud or cute, but by making them want to keep looking and keep guessing.
+
+Generate 5 highly different eye-design variations, all within this character’s mysterious-attractive range. The 5 variants should represent 5 different kinds of mystery-based attraction:
+
+1. quiet magnetic mystery
+2. elegant unreadable beauty
+3. soft dangerous allure
+4. detached dreamlike mystery
+5. subtle teasing mystery
+
+Each variant must feel like a different social effect on the viewer: one should pull the viewer in through silence, one through distance, one through danger, one through dreamlike remoteness, one through quiet playful unreadability.
+
+Build these mainly through:
+- elongated vs restrained almond eye-frame families
+- different upper-lid weight patterns
+- different lower-lid calmness or softness
+- different inner-corner cuts, from discreetly sharp to more hidden
+- different outer-corner attitudes, from elegantly level to subtly relaxed
+- different lash languages, such as refined fan-lashes, restrained mature lashes, sparse dangerous lashes, floating airy lashes, or teasing asymmetrical-feeling lashes
+- different gaze-directness levels
+- different brow-eye spacing to test closeness, intrigue, and presence
+
+The final eyes should feel iconic, alluring, and unreadable. The attraction must come from psychology and structure, not from iris sparkle or pretty decoration.
+
+Avoid:
+- generic pretty anime-girl eyes
+- obvious moe sweetness
+- simple half-closed eyes with no real concept
+- “mystery” expressed only by making the eyes narrower
+3號角色專用 Prompt
+開朗、可愛、吸人型
+Use the shared instructions above.
+
+This character’s core personality is cheerful, cute, lively, and emotionally attractive. She should pull people in through warmth, energy, and natural emotional openness.
+
+Generate 5 highly different eye-design variations, all within this bright attractive range. The 5 variants should represent 5 different ways cheerful attraction can work:
+
+1. sparkling energetic friendliness
+2. playful and mischievous cuteness
+3. sunny and approachable warmth
+4. lively expressive charm
+5. emotionally open and affectionate brightness
+
+The 5 variants must not all be “big cute eyes.” They must differ in personality read, using clearly different eye families and lash families.
+
+Explore structural variation through:
+- rounder vs more horizontally lively eye frames
+- more lifted vs more open lower-lid behavior
+- different lash languages such as bouncy, playful, feathery, bright, or airy
+- different brow-eye openness to increase emotional lightness
+- different iris proportions to control innocence vs sparkle vs confidence
+- different gaze energy, such as straight-at-you excitement vs inviting softness
+
+The final eyes should feel adorable and attractive, but not generic idol-cute. She should feel like someone who naturally brightens the emotional space around her.
+
+Avoid:
+- standard template moe eyes
+- overreliance on sparkles
+- empty “cute eyes” with no social effect
+- mature seductive eyes
+- simply larger eyes as the only solution
+4號角色專用 Prompt
+高貴、疏離、壓人型
+Use the shared instructions above.
+
+This character’s core personality is noble, distant, elevated, and overpowering. She should feel high-born, inaccessible, emotionally restrained, and quietly intimidating. Her pressure should come from status, distance, and control.
+
+Generate 5 highly different eye-design variations, all within this noble-distant-overpowering range. The 5 variants should represent 5 different ways high-status pressure can work:
+
+1. imperial severity
+2. aristocratic indifference
+3. holy untouchability
+4. elegant executioner calm
+5. cold sovereign distance
+
+Each variant must feel like a different kind of superior presence. One should feel like judgment, one like indifference, one like sacred remoteness, one like elegant danger, one like rulership.
+
+Build these mainly through:
+- long narrow vs aristocratically fuller but still cold eye-frame families
+- stronger vs subtler upper-lid severity
+- lower-lid firmness and control
+- inner-corner cuts from sharp controlled precision to remote restraint
+- outer-corner direction from level severity to slightly lifted superiority
+- lash languages such as blade-like, polished aristocratic, sacred minimal, executioner-clean, or sovereign sharp
+- tighter brow-eye spacing for dominance
+- different visible sclera balances to control distance and severity
+- different gaze angles such as judging, overlooking, or emotionally unreachable
+
+The final eyes should not merely look elegant. They must feel socially dominant, distant, and impossible to casually approach.
+
+Avoid:
+- soft fantasy princess eyes
+- generic “ice princess” beauty
+- sad eyes
+- cute noble-girl eyes
+- simply narrowing the same eye shape and calling it noble
+5號角色專用 Prompt
+經歷多、壓人型
+Use the shared instructions above.
+
+This character’s core personality is experienced, emotionally weighted, resilient, and quietly overpowering. She should feel like someone who has seen many things, endured many things, and cannot be easily moved or shaken.
+
+Generate 5 highly different eye-design variations, all within this experienced-pressure range. The 5 variants should represent 5 different ways life-weight can become presence:
+
+1. weathered composure
+2. quiet emotional burden
+3. seen-too-much detachment
+4. gentle but immovable strength
+5. scarred psychological depth
+
+Each variant must feel different in emotional history. One should feel composed, one heavy, one detached, one unmovable, one layered and wounded-but-strong.
+
+Build these differences through:
+- longer, calmer, heavier, or more quietly sunken eye-frame families
+- upper-lid weight patterns that suggest gravity rather than sleepiness
+- lower-lid tension that suggests endurance rather than fragility
+- outer-corner behavior from slightly lowered burden to level hard control
+- lash languages such as restrained weighted lashes, sparse lived-in lashes, broken-rhythm lashes, calm mature lashes, or quietly roughened lashes
+- tighter brow-eye distance for psychological pressure
+- smaller or more centered iris choices for depth and steadiness
+- different gaze speeds and focus feels, such as watchful, resigned, unshakable, or quietly piercing
+
+The final eyes should feel layered, mature, and emotionally dense. She should pressure others through history, gravity, and internal strength — not through aristocratic superiority and not through simple anger.
+
+Avoid:
+- generic sleepy eyes
+- weak tired eyes
+- depressed empty eyes
+- looking merely older
+- using half-closed eyes as the only expression of experience
+6號角色專用 Prompt
+可愛、木之本櫻味、吸人型
+Use the shared instructions above.
+
+This character’s core personality is sweet, sincere, innocent, and naturally lovable, with a Cardcaptor Sakura-like purity and warmth. She should attract people through honesty, kindness, and bright heartfelt charm.
+
+Generate 5 highly different eye-design variations, all within this pure-cute-attractive range. The 5 variants should represent 5 different ways sincerity-based charm can work:
+
+1. pure sparkling innocence
+2. heartfelt warm sweetness
+3. gentle magical-girl optimism
+4. soft earnest cuteness
+5. bright trustworthy charm
+
+Do not turn all 5 versions into the same round moe eyes. The differences must be meaningful personality acting differences.
+
+Explore variation through:
+- rounder vs slightly oval but still innocent eye-frame families
+- softer vs clearer upper-lid structures
+- lower-lid openness and emotional receptiveness
+- lash languages such as soft feather lashes, childlike clear lashes, magical-girl airy lashes, honest simple lashes, or gently radiant lashes
+- slightly more open brow-eye spacing for trust and warmth
+- larger iris placements for innocence, but with varied gaze personality
+- different social effects like comforting, inspiring, uplifting, reassuring, or naturally charming
+
+The final eyes should feel pure, magical-girl-like, and emotionally transparent, not shallow-cute or hyper-idolized.
+
+Avoid:
+- tacky over-cute idol eyes
+- generic moe eyes
+- mature seductive styling
+- too many sparkles
+- fake sweetness without sincerity
+7號角色專用 Prompt
+神秘、空靈、古惑、吸人型
+Use the shared instructions above.
+
+This character’s core personality is mysterious, ethereal, slightly mischievous, and attractive in a hard-to-define way. She should feel airy and elusive, but also a little sly, playful, or secretly knowing.
+
+Generate 5 highly different eye-design variations, all within this mysterious-ethereal-mischievous range. The 5 variants should represent 5 different ways elusive attraction can work:
+
+1. airy untouchable mystery
+2. sly playful unreadability
+3. dreamlike floating distance
+4. quietly knowing mischief
+5. ethereal but slightly dangerous charm
+
+Each variant must feel different in how she attracts the viewer: one through remoteness, one through teasing, one through floating dreaminess, one through hidden wit, one through subtle danger.
+
+Build these differences mainly through:
+- elongated, drifting, or slightly unusual eye-frame families
+- upper-lid structures that feel airy, sly, or subtly uncanny
+- lower-lid behaviors that control detachment vs playfulness
+- inner-corner cuts that range from hidden-soft to clever-sharp
+- outer-corner directions from level-floaty to gently relaxed or teasing
+- lash languages such as airy drifting lashes, sly pointed lashes, broken whimsical lashes, elegant ghostlike lashes, or narrow clever lashes
+- different gaze-directness patterns, including glancing, floating, or half-direct reads
+- different brow-eye spacing to balance mischief and remoteness
+
+The final eyes should feel memorable because they are difficult to pin down. She should not feel like a generic saintly mystical girl or a generic seductive girl.
+
+Avoid:
+- pure saintly eyes with no mischief
+- ordinary soft mystery eyes
+- simple sleepy eyes
+- shallow flirtiness
+- only changing the angle slightly and calling it ethereal

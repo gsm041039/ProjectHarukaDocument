@@ -1,7 +1,7 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**ACT_III_OUTLINE.md v0.2 [DRAFT] 作者最終判決** → 判決後進 Beat Sheet（全四幕 Outline 批核完成後啟動）
+**作者確認 QQ-102（CDL-288 鐵絲網偶遇整合方式）** → 選 A/C 不改 Outline 結構 → 直接進 Act III v0.2 最終批核；選 B → Outline 升至 v0.3（加新 beat）→ 批核 v0.3
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）

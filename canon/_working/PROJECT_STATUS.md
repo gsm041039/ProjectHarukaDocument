@@ -1,7 +1,13 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定
+- Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定（須先確認 QQ-102 鐵絲網偶遇整合方式）
+- **Round 036（2026-05-13）ACT_III_OUTLINE v0.2 全面審查完成**：
+  - **新發現 🔴 CDL-288 整合缺口**：鐵絲網偶遇（Act III黑奏三段擊核心揭示）未在 J2 三武器序列中體現 → QQ-102 OPEN
+  - **新發現 🔴 CDL-289 整合缺口**：黑奏 Loop N Warden 角色未在 J3 守恆定律歷史揭露中體現 → QQ-103 OPEN
+  - **J8 citation 錯誤修正（非門控）**：移除錯誤 CDL-275/278 引用，改為 `[outline_raw.md後段]`
+  - **J1 時序歧義** → QQ-104 OPEN（不阻塞批核）
+  - **新增 QQ-102/103/104** 加入 QUESTION_QUEUE
 - **M-061 無鏡之城設定存廢評估**（2026-05-11）：Cross-Act Gate + 19角度掃描完成；QQ-98~101 OPEN；唔阻塞 Act III 批核
 - **三幕故事大綱 (three_acts_story_outline_v1.md v2.2) — Sub-agent 深度審查後邏輯完整化** （2026-05-10）
   - v2.1：文風改進（結構化標籤移除）+ 基礎邏輯修正（小光身份、E-09事件、重複段落）
@@ -14,8 +20,8 @@
   - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
 - **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
 - **Round 035（2026-05-12）世界觀底層 Writeback 完成**：CDL-286~289 落檔；涉及檔案：01_world_rules_and_costs.md / 04_timeline_canon.md / aya.md / CANON_DECISION_LOG.md。決策：Alpha線低魔共享歷史（解釋X）/ 維多利亞之淚Alpha線廢棄結構 / 黑奏力量雙重因果機制 / 鐵絲網偶遇（Act III扣留子彈）/ Loop 0意外→Loop N精準化。
-- Active Topic / Section: **ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97/98~101 待回應** ← **當前阻塞點**
-- Current Objective: ①作者判決ACT_III v0.2（主要阻塞）；②作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；③作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；④若v0.2批核通過→進Beat Sheet層設計；⑤全四幕Outline完成後才啟動Beat Sheet層設計
+- Active Topic / Section: **QQ-102（鐵絲網偶遇整合）確認 → ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97/98~104 待回應** ← **當前阻塞點**
+- Current Objective: ①作者確認 QQ-102（CDL-288 鐵絲網偶遇整合方式，最高優先）；②作者判決ACT_III v0.2（若QQ-102選B需升至v0.3）；③作者確認 QQ-103（Loop N Warden 揭露位置，若選C不阻塞批核）；④QQ-104（J1時序確認，唔阻塞批核）；⑤作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；⑥作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；⑦若v0.2批核通過→進Beat Sheet層設計；⑧全四幕Outline完成後才啟動Beat Sheet層設計
 
 **Round 034（2026-05-11）無鏡之城設定存廢評估完成：**
 - M-061 建立：Cross-Act Dependency Gate + 19角度掃描（Pool 1+2全覆蓋）

@@ -183,6 +183,13 @@
 | BD-05 | E-11甜蜜高峰具體場景 | 作者指示 keep blocked | Yes（結構已定）| 作者主動提出 | 2026-03-25 |
 | Q-AI-03 | 夕整合幕末 L1 場景形式 | Beat-level 決定；**RESOLVED 2026-03-29（CDL-069/070）**：D 歉疚共情型；膠布哲學視覺化；道歉場景 | — | — | 2026-03-29 |
 
+## Round 036 Questions（2026-05-13 — ACT_III_OUTLINE v0.2 全面審查：CDL-288/289 整合缺口）
+| QID | Topic | Matrix | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| QQ-102 | CDL-288 鐵絲網偶遇——係 J2 武器③子層、獨立第四揭露，還是 J3 整合？ | — | **Critical** | **OPEN** | Act III v0.2 批核前 | CDL-288（2026-05-12）確立「鐵絲網偶遇（5歲晴香許願→賦予黑奏魔法力量）係 Act III 黑奏三段擊處刑的核心揭示」，但現時 J2 三武器序列（CDL-266）無此揭露位置。鐵絲網偶遇應如何整合進 Act III J 期？ | A: 武器③子層（延伸武器③節奏，唔改三武器結構）/ B: 獨立第四揭露（J2.5 或 J3 延伸，新增 beat）/ C: 整合入 J3（守恆定律歷史揭露，同 Loop N 機制一齊說出）| — | A=J2延伸，唔加新beat；B=需升至 ACT_III_OUTLINE v0.3，加新beat；C=J3內容擴展 | 批核前確認 | 2026-05-13 |
+| QQ-103 | CDL-289 黑奏 Loop N Warden 角色——在 J 期哪個 beat 揭露？ | — | High | **OPEN** | Act III v0.2 批核前 | CDL-289 確立黑奏在當前循環（Loop N）係「宿命系統維護者（Warden）」——有跨循環記憶，主動確保歷史重演。但 J3「守恆定律歷史揭露」未說明此角色，現 Outline 無 Loop N Warden 揭露位置。 | A: 歸入 J3（守恆定律歷史揭露延伸）/ B: 歸入 J2 武器①（身份背叛層面）/ C: BTD（Beat Sheet 層決定，Outline 暫唔標記） | — | A/B=Outline 補充 CDL-289 引用及設計方向；C=保留現狀但 Beat Sheet 需覆蓋 | 批核前確認（若選 C 可先批核）| 2026-05-13 |
+| QQ-104 | J1「前往廣場救朱音」時序確認——與 I3（朱音犧牲 Day 14）的關係 | — | Medium | **OPEN** | Act III v0.2 批核前 | Phase I 時間線 Day 14 → I3 朱音犧牲；Phase J 時間線標記「114年5月中~底」。若 Phase J 在 Day 14 之後，J1「前往廣場救朱音」與「朱音已死」矛盾。 | A: J1 係 Day 14 同日（嘆息之橋 = 廣場，I3 和 J1 係同日前後段）/ B: J1 係 I3 之前（Day 14 早晨，主角團抵達後目睹朱音犧牲再進入 J2）/ C: Outline 時間線標記錯誤，Phase J 應從 Day 14 開始 | — | A/B/C 均不改 Outline 實質設計，主要係時間線標記澄清；B 影響 I3 和 J1 的先後順序描述 | 批核前確認 | 2026-05-13 |
+
 ## Round 034 Questions（2026-05-11 — 無鏡之城設定存廢 M-061）
 | QID | Topic | Matrix | Priority | Status | Needed Before | Question Summary | A/B/C Summary | Author Answer | Impact / What This Unlocks | Revisit Trigger | Last Updated |
 |---|---|---|---|---|---|---|---|---|---|---|---|

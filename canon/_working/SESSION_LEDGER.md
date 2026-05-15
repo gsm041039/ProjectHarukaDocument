@@ -1,14 +1,31 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 034 完成：M-061無鏡之城評估 + QQ-98~101 OPEN + state files 更新（2026-05-11）；等待作者答 QQ-96/97/98~101 + ACT_III_OUTLINE.md v0.2 最終判決**
+- Phase 15 (Act III Outline 設計) — **Round 036 完成：ACT_III_OUTLINE v0.2 全面審查 + CDL-288/289 整合缺口識別 + QQ-102/103/104 OPEN + J8 citation 修正（2026-05-13）；等待作者回應 QQ-102（最高優先）+ QQ-96/97/103/104**
 
 ## Current Objective
-- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 主阻塞點
+- **Q1 確認（QQ-102）：鐵絲網偶遇整合方式** ← **新增最高優先阻塞點**（CDL-288 缺口）
+- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 主阻塞點（QQ-102確認後才批核）
   - 批核通過 → 進 Beat Sheet 層設計（全四幕 Outline 批核後）
-  - 要求修改 → 補充微調後再提
+  - 要求修改（QQ-102 選 B）→ 升至 v0.3，加新 beat 後再提
+- **QQ-103（Loop N Warden 揭露位置）** 需確認（若選 C 不阻塞批核）
+- **QQ-104（J1 時序）** 需確認（不阻塞批核，但需澄清）
 - **QQ-96/97 確認**（非阻塞，但需清理矛盾）
 - **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
+
+## Completed This Round (Round 036 — 2026-05-13 ACT_III_OUTLINE v0.2 全面審查)
+- [x] **讀取文件**：ACT_III_OUTLINE.md（全文）、CANON_DECISION_LOG.md（CDL-276~289）、PROJECT_STATUS / NEXT_ACTION / QQ / SESSION_LEDGER
+- [x] **CDL-288 整合缺口識別**：鐵絲網偶遇（Act III扣留子彈）係 Act III 核心揭示但未出現在 Outline J2 三武器序列中
+- [x] **CDL-289 整合缺口識別**：黑奏 Loop N Warden 角色未在 J3 守恆定律歷史揭露中體現
+- [x] **J8 CDL citation 修正（非門控）**：J8 header 由 `[CDL-275/278]` 改為 `[outline_raw.md後段]`；相關 CDL 移除錯誤引用並加入說明注記
+- [x] **J1 時序歧義識別**：Phase I Day 14 朱音犧牲 vs Phase J「114年5月中~底」J1「救朱音」的時序矛盾
+- [x] **QQ-04 vs L2 張力識別**：L2「蒼老的秋穗」隱含設計 vs QQ-04 秋穗退場仍 BLOCKED
+- [x] **Cross-Act Dependency Gate 六項全完成**
+- [x] **12角度 + Pool 2 全掃描**（CDL-288 整合缺口為主題）
+- [x] **5條作者問題設計**（QQ-102/103/104 OPEN 加入；Q4/Q5 重述 QQ-96/97 + QQ-04）
+- [x] **REASONING_LOG.md 更新**（Round 036 推理落檔）
+- [x] **QUESTION_QUEUE.md 更新**（QQ-102/103/104 加入 Round 036 Questions）
+- [x] **SESSION_LEDGER.md / PROJECT_STATUS.md / NEXT_ACTION.md 更新**
 
 ## Completed This Round (Round 034 — 2026-05-11 無鏡之城設定存廢評估 + State Files 更新)
 - [x] **作者提出討論**：日區「無鏡之城」設定是否移除，理由=維多利亞之淚已遮蓋真相

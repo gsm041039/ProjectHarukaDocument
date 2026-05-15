@@ -5,6 +5,74 @@
 
 ---
 
+## Round 036 — 2026-05-13 — ACT_III_OUTLINE v0.2 全面審查（CDL-286~289 整合缺口識別）
+
+### 任務背景
+作者指示：「睇下 Act III 仲有冇問題」。本輪係 Outline 批核前的最後全面審查，重點聚焦：
+① CDL-286~289（2026-05-12 落檔）是否已整合入 ACT_III_OUTLINE.md（最後更新 2026-05-10）
+② 已知 BLOCKED 問題（QQ-96/97）狀態確認
+③ 文件 citation 錯誤識別
+
+### 文件讀取清單
+- ACT_III_OUTLINE.md（全文審查）
+- CANON_DECISION_LOG.md（CDL-276~289 段）
+- PROJECT_STATUS.md / NEXT_ACTION.md / QUESTION_QUEUE.md / SESSION_LEDGER.md
+
+### 主要發現
+
+#### 🔴 Gap 1：CDL-288 鐵絲網偶遇未整合（最高優先）
+- **問題**：CDL-288（2026-05-12）明確「此事件係 Act III 黑奏三段擊處刑的核心揭示」，但 ACT_III_OUTLINE.md J2 三武器序列（CDL-266）無此揭露位置
+- **鐵絲網偶遇**：帝國歷 102 年分歧點前夕，5歲晴香目睹彩被拖走，潛意識許願→賦予黑奏魔法力量因果信標
+- **12角度判斷**：角度 3（資訊揭示控制）/ 角度 6（結構 beat 功能）/ 角度 10（觀眾體驗）均 HIGHLY RELEVANT；唔可自行決定整合方式
+- **生成問題**：QQ-102（鐵絲網偶遇係第四武器 vs 武器③子層 vs J3 整合）
+
+#### 🔴 Gap 2：CDL-289 Loop N Warden 角色未反映於 J 期
+- **問題**：CDL-289 確立黑奏 = Loop N 宿命系統維護者（Warden），但 J3「守恆定律歷史揭露」未說明黑奏的 Warden 角色
+- **生成問題**：QQ-103（Loop N Warden 揭露歸入哪個 beat）
+
+#### 🟠 Citation 錯誤：J8 CDL-275/278（即時修正）
+- **問題**：J8 引用 CDL-275（月下崩潰，非彩犧牲）和 CDL-278（相簿Glitch，已 SUPERSEDED by CDL-283）為「彩犧牲設計」——兩個 CDL 均錯誤
+- **彩犧牲設計基礎**：outline_raw.md 後段（無獨立 CDL）
+- **執行**：已非門控修正 J8 header 和相關 CDL 引用（Round 036 技術修正）
+
+#### 🟡 時序歧義：J1「前往廣場救朱音」
+- **問題**：Phase I 時間線 Day 14 → 朱音犧牲（I3）；Phase J 時間線「114年5月中~底」。若 Phase J 係 Day 14 後，J1「救朱音」不成立
+- **推斷（未確認）**：I3 和 J1 可能係同日 Day 14 同一地點（嘆息之橋 = 廣場）的前後段——但需作者確認
+- **生成問題**：QQ-104（J1 時序確認）
+
+#### 🟡 QQ-04 vs L2 張力
+- **問題**：L2 已設計「蒼老的秋穗」在場，但 QQ-04（秋穗退場 Act III）仍 BLOCKED
+- **包含於**：Q5（本輪向作者提出）
+
+### Angle Scan 結果（CDL-288 整合缺口，Pool 1 全掃）
+| 角度 | 判斷 |
+|---|---|
+| 1. Character Growth | RELEVANT |
+| 2. Relationship Dynamics | RELEVANT |
+| 3. Information/Reveal Control | HIGHLY RELEVANT |
+| 4. Atmosphere/Tension | RELEVANT |
+| 5. Theme Expression | RELEVANT |
+| 6. Structural Beat Function | HIGHLY RELEVANT |
+| 7. Entry Timing | RELEVANT |
+| 8. World Rule/Mechanic Pressure | RELEVANT |
+| 9. Setup/Payoff | RELEVANT |
+| 10. Audience Experience/Knowledge Gap | HIGHLY RELEVANT |
+| 11. Canon/Continuity | CONFIRMED GAP |
+| 12. Writing Execution | RELEVANT |
+
+Pool 2：14(RELEVANT)、16(RELEVANT)、18(RELEVANT)、19(RELEVANT)；13/15/17 NOT_RELEVANT
+
+### Cross-Act Dependency Check 結論
+- CDL-286~289 全部落檔於 ACT_III_OUTLINE.md 最後更新之後（2+天差距）
+- CDL-288 鐵絲網偶遇 = 全作結構決定，不可局部處理
+- 建議：Q1（鐵絲網偶遇整合方式）確認後才批核 Act III Outline
+
+### 即時修正執行
+- ACT_III_OUTLINE.md J8：header 由 `[CDL-275/278]` 改為 `[outline_raw.md後段]`
+- ACT_III_OUTLINE.md J8：「相關 CDL」移除錯誤引用 CDL-275/278，加入說明注記
+
+---
+
 ## Round 028 — 2026-04-26 — ACT_II_OUTLINE Phase D 地下化邏輯掃描（Subagent 執行）
 
 ### 任務背景
