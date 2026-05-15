@@ -13,6 +13,19 @@
 - **QQ-96/97 確認**（非阻塞，但需清理矛盾）
 - **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
 
+## Completed This Round (Round 037 — 2026-05-15 canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD)
+- [x] **story-document-synthesis-gate v2 完整執行**：Target = canon/05_story_outline_canon.md；Mode = FULL_OUTLINE_REBUILD；Preserve four-act structure
+- [x] **Source Coverage Ledger 建立**：6個主要來源審查（ACT_I v1.21 APPROVED / PROJECT_STATUS / CDL-log / ACT_II v0.9 DRAFT / ACT_III v0.2 DRAFT / backup header-only）；Gate decision = PARTIAL PASS（CDL-confirmed claims promoted；draft-only detail not promoted）
+- [x] **Conflict Map：5個舊 canon 錯誤識別並修正**：
+  - Act II timeline `113年5月-114年4月` → `113年4月-114年3月`（CDL-285）
+  - `真相揭露期 (114年4月)` 移除出 Act II（屬 Act III 內容）
+  - Act IV timestamp `114年7-9月` → `134年7月-`（20年空白CDL確認）
+  - CDL-119 四人協議「只有一個點頭」→「無點頭場景」
+  - 美夜子 Act III 描述「三段式覺醒」→「兩步相認」（CDL-274）
+- [x] **新增內容整合**：Phase G/H 月光對峙節點（CDL-212~215）；H1.5月下崩潰；錯位雙殺明確化（CDL-218）；守恆定律6-stage table（CDL-247）；Act III arc table 新增；情緒波形 Phase G/H row 新增
+- [x] **No-Invention Checklist 全部通過**：無新人物/系統/地點/設定發明；所有不確定項標注 SOURCE NEEDED 或 AUTHOR GATE
+- [x] **PROJECT_STATUS.md / SESSION_LEDGER.md / NEXT_ACTION.md 更新**（本輪）
+
 ## Completed This Round (Round 036 — 2026-05-13 ACT_III_OUTLINE v0.2 全面審查)
 - [x] **讀取文件**：ACT_III_OUTLINE.md（全文）、CANON_DECISION_LOG.md（CDL-276~289）、PROJECT_STATUS / NEXT_ACTION / QQ / SESSION_LEDGER
 - [x] **CDL-288 整合缺口識別**：鐵絲網偶遇（Act III扣留子彈）係 Act III 核心揭示但未出現在 Outline J2 三武器序列中

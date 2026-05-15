@@ -2,6 +2,16 @@
 
 ## Current Workflow Snapshot
 - Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定（須先確認 QQ-102 鐵絲網偶遇整合方式）
+- **Round 037（2026-05-15）canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD 完成**：
+  - story-document-synthesis-gate v2 完整執行；Source Coverage Ledger 6個主要來源（Tier A×4 + Tier B×2）；Gate decision = PARTIAL PASS（CDL-backed claims promoted; draft-only structural detail not promoted）
+  - **Act II timeline 修正**：`113年5月-114年4月` → `113年4月-114年3月`（CDL-285 E-16 Cut to Black 基準）
+  - **Act III Phase G/H 月光對峙節點新增**（CDL-212~215）；H1.5月下崩潰beat整合
+  - **守恆定律 5-stage → 6-stage 更新**（CDL-247 L1/L2/L3精確定義）
+  - **CDL-119 四人協議修正**：「只有一個點頭」→「無點頭場景——各人『死人面』式震驚，自然停止」
+  - **錯位雙殺明確化**（CDL-218）：操Day13學校人偶牆 / 朱音Day14嘆息之橋糖果山
+  - **兩步相認整合**（CDL-274）：美夜子姊妹；H1.5非語言→J2語言確認
+  - **Act IV timestamp 更新**：`114年7-9月` → `134年7月-`（20年空白CDL確認）
+  - **Act III arc table 新增**（CDL-212~218主要角色弧線確認）
 - **Round 036（2026-05-13）ACT_III_OUTLINE v0.2 全面審查完成**：
   - **新發現 🔴 CDL-288 整合缺口**：鐵絲網偶遇（Act III黑奏三段擊核心揭示）未在 J2 三武器序列中體現 → QQ-102 OPEN
   - **新發現 🔴 CDL-289 整合缺口**：黑奏 Loop N Warden 角色未在 J3 守恆定律歷史揭露中體現 → QQ-103 OPEN

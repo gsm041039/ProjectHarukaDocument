@@ -5,6 +5,7 @@
 > 相關文件：[Timeline](04_timeline_canon.md) | [Series Bible](00_series_bible.md) | [Character Index](03_character_index.md) | [World Rules](01_world_rules_and_costs.md)
 
 <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md, backup/director/Story_Structure_Atmosphere_Design.md, backup/director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md, backup/screenwriter/Villain_Master_Plan.md -->
+<!-- Rebuilt: 2026-05-15 — CDL-218/247/259/274/285 incorporated; Act II/III timeline corrected; Act III Phase G/H added; Act IV timeline updated to reflect 20-year gap. ACT_I_OUTLINE v1.21 [APPROVED]; ACT_II_OUTLINE v0.9 [DRAFT]; ACT_III_OUTLINE v0.2 [DRAFT — pending final approval]. Act IV content preserved pending Act IV Outline design. -->
 
 ---
 
@@ -23,9 +24,11 @@
 | 幕 | 名稱 | 結構功能 | 氛圍 | 時間 |
 |---|------|---------|------|------|
 | **起** | [日常的裂痕與命運的相遇](#section-act-1) | 建立代入→同步誤導 | 懸疑+親密的心理驚悚 | 113 年 3-4 月 |
-| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 5 月-114 年 4 月 |
-| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 5 月 |
-| **合** | [重生或毀滅](#section-act-4) | 回答存在問題→主題閉環 | 史詩悲壯+存在主義孤寂 | 114 年 7-9 月 |
+| **承** | [扭曲的深淵](#section-act-2) | 世界擴張→營造期待 | 山雨欲來的史詩感 | 113 年 4 月-114 年 3 月 |
+| **轉** | [鏡像的破碎](#section-act-3) | 引爆結構詭計→偽高潮 | 從極致激昂到瞬間死寂 | 114 年 3 月-5 月 |
+| **合** | [重生或毀滅](#section-act-4) | 回答存在問題→主題閉環 | 史詩悲壯+存在主義孤寂 | 134 年 7 月- |
+
+> **注**：Act III 至 Act IV 之間存在 20 年靈魂風暴（帝國歷 114 年 5 月底→134 年 7 月）；Act IV 開場於晴香覺醒。Act IV 詳細 Outline 設計待完成。<!-- CDL-003/CDL-218/ACT_III_OUTLINE v0.2 確認 -->
 
 **核心詭計**：以傳統皇道動漫元素（偶像、羈絆、熱血團戰）為「陷阱」，讓觀眾放鬆警惕後，在最意想不到的時刻撕開糖衣，暴露[溫柔的殘酷](02_glossary.md#term-gentle-cruelty)的真實內核。
 
@@ -64,11 +67,16 @@
 - 晴香將膠布貼在校霸傷口上：「痛是證據。留住個傷口，你先會記得今日發生咩事。」
 - 諷刺伏筆：她教校霸用膠布「記住痛」，自己卻在用膠布「逃避痛」
 
+**2a. <a id="scene-aks-s0"></a>AKS-S0：彩/黑奏切換初感知（E-1.5）**<!-- CDL-029/030/079/080; ACT_I_OUTLINE v1.21 -->
+- 晴香在校園日常中目睹彩短暫失神（眼神突然變幾秒）；彩若無其事轉移話題。
+- 晴香將異感歸因為「幻聽/魔法後遺症」；觀眾察覺可疑但無解釋。
+- **AKS-S0 觸發**：彩/黑奏可疑切換第一次感知；為 Act III 身份揭露埋下最早種子。
+
 **3. <a id="scene-emotion-link-first-battle"></a>[情緒連結](02_glossary.md#term-emotion-link)首戰 + 四人協議**（[113 年 4 月](04_timeline_canon.md#event-emotion-link-first)）
 - 完成「能力展示 -> 代價示警」的第一個結構轉折（事件細節見 Timeline）。
 - 以失控共感預埋[共振地獄](02_glossary.md#term-resonance-hell)的恐懼語法。
 - **戰後跨污染創傷場景**：首次情緒連結戰鬥後，四人各自經歷跨污染後遺症——每人短暫感知到其他三人的「最深私密情緒層」（羞恥、恐懼、憤怒混雜）。四人在後遺症尚未消退時無言對視；沒有人說出感知到的內容。
-- **四人協議**：這段沉默結束後，四人達成不明言的共識：「我哋唔再用情緒連結。」無投票、無討論、無正式宣告——只有一個點頭。這是晴香後來拒絕「共振地獄」計劃的情感根源：她親身經歷過情緒連結強制透明的代價，知道那種「被看見」的暴力。<!-- Source: backup/draft/scenes/05_detailed_scenes.md §情緒連結首戰後遺症 -->
+- **四人協議**：這段沉默結束後，四人達成不明言的共識：「我哋唔再用情緒連結。」無投票、無討論、無正式宣告——各人「死人面」式震驚，自然停止（無點頭場景）。這是晴香後來拒絕「共振地獄」計劃的情感根源：她親身經歷過情緒連結強制透明的代價，知道那種「被看見」的暴力。<!-- CDL-119; Source: backup/draft/scenes/05_detailed_scenes.md §情緒連結首戰後遺症 -->
 
 **3a. <a id="scene-possession-ghost"></a>「奪舍」示範場景——屍骸倫理選擇能力的首次示範**
 - **功能**：在觀眾建立「屍骸 = 失控怪物」的初始認知後，提供第一個反例，植入「屍骸仍保有某種選擇能力」的世界觀伏筆。
@@ -83,6 +91,11 @@
 **5. [總部被襲](04_timeline_canon.md#event-hq-raid)**：虛榮的代價
 - 功能上把「面子成本」由人際衝突升級為實際戰損，強化第二幕裂解的可信前置。
 - 把操的角色弧由「防禦性表演」推向「可承認羞恥」的起點。
+
+**6. <a id="scene-act1-finale"></a>Act I 幕末收結：夕整合 + AKS-H1 + 偽溫暖五人隊**<!-- CDL-102/151; ACT_I_OUTLINE v1.21 APPROVED -->
+- [E-XX 夕整合](04_timeline_canon.md#event-yu-first-appearance)：晴香在鏡中以歉疚與共情的態度面對夕（5 歲形態），向壓抑的自我道歉，完成第一次暫時融合。
+- **AKS-H1 觸發**：觀眾透過此場景確認 Alpha/Beta 線同時存在；晴香不知自己是創世者。
+- **偽溫暖五人隊收結**：整合後晴香回到等待她的五人隊（晴香/美夜子/操/朱音/彩）；以偽溫暖畫面收結——AKS-H1 已觸發的觀眾看到笑容燦爛的彩（底層是滲透者），反差感最大。偽英雄旅程假象的最強收結時刻。
 
 ### <a id="section-act1-arc"></a>Act I 角色弧光
 
@@ -106,44 +119,64 @@
 
 **社會風評**：裂痕期 → 魔女狩獵期
 
+**時間範圍**：帝國歷 113 年 4 月 - 114 年 3 月<!-- CDL-197; ACT_II_OUTLINE v0.9; CDL-285 -->
+
 ### <a id="section-act2-key-events"></a>關鍵節點
 
 **1. 朱音墮落與屍骸女王**（[113 年 5 月底-6 月中](04_timeline_canon.md#section-113-may-late)）
-- 由[小光之死](04_timeline_canon.md#event-ko-hikaru-death)與[三位一體辯論](04_timeline_canon.md#event-trinity-debate)把衝突由戰術層提升到存在論層。
+- 由[小光之死](04_timeline_canon.md#event-ko-hikaru-death)（E-07a）與[三位一體辯論](04_timeline_canon.md#event-trinity-debate)（E-07b）把衝突由戰術層提升到存在論層。<!-- CDL-229 -->
 - 以[操的調停失敗](04_timeline_canon.md#event-misao-mediation)判定「理性協商路線」暫時失效。
 - 以[朱音放逐](04_timeline_canon.md#event-akane-exile)確立「非所有人都可即時被救」的主題硬度。
+- 朱音放逐後以廢棄糖果工廠為根據地自立為屍骸首領（糖果王座+懷抱屍骸化小光），「屍骸女王/屍骸首領」身份 100% 專屬岩倉朱音。<!-- CDL-236 -->
 
-**2. 社會性死亡**（[113 年 6 月底-7 月](04_timeline_canon.md#section-113-june-late)）
-- 透過[夕的背叛](04_timeline_canon.md#event-yu-betrayal)與[經理人背叛](04_timeline_canon.md#event-manager-betrayal)同步擊穿「社會身份」與「商業身份」。
+**2. 社會性死亡**（[113 年 7 月](04_timeline_canon.md#section-113-june-late)）
+- 透過[夕直播失控（飢餓的天使）](04_timeline_canon.md#event-yu-betrayal)把「社會身份」與「商業身份」同步擊穿：夕接管晴香身體在直播中撕破光幕濾鏡裝置，令圍觀者目睹無濾鏡的失控場景，直播畫面完整記錄無法刪除。<!-- CDL-259 -->
+- 帝國以直播記錄為法律依據推動反魔法少女法案，主角團從「非法但默許」變成「公開通緝」。
 - [紙皮騎士守護（二）](04_timeline_canon.md#event-paper-knight-2)保留回歸可行性，避免第三幕轉向斷裂。
 - 結構上把主角由敘事主體下放成可交易符號，為第三幕自我決裂蓄壓。
 
-**3. [鏡像破碎之夜](04_timeline_canon.md#event-mirror-shatter-night)**（[113 年 7-8 月](04_timeline_canon.md#section-113-july-august)）
-- [紗夜犧牲](04_timeline_canon.md#event-sayo-sacrifice)與[操面對真相](04_timeline_canon.md#event-misao-collapse)共同完成操線「面具->崩解」。
+**3. [鏡像破碎之夜](04_timeline_canon.md#event-mirror-shatter-night)**（[113 年 7-8 月](04_timeline_canon.md#section-113-july-august)）<!-- CDL-231/232/233/234 -->
+- [紗夜犧牲](04_timeline_canon.md#event-sayo-sacrifice)（父親書面背叛+紗夜被捕）與[操面對真相](04_timeline_canon.md#event-misao-collapse)（創傷性耳鳴遮蔽紗夜遺言）共同完成操線「面具->崩解」。
+- 操傀儡絲線縫牙（Body Horror Stage 2）在此首次以自我修補形式出現。<!-- CDL-233 -->
 - 本節點主要功能是把舞台切換到「地下生存敘事」。
 
-**4. 晴香與夕和解**（[114 年 3 月](04_timeline_canon.md#event-haruka-yu-integration)）
-- 以[和解事件](04_timeline_canon.md#event-haruka-yu-integration)完成主角方法論第一次改道。
-- 功能上把晴香由「處理目標」轉為「理解對象」。
+**4. Phase D 末日序曲**（[113 年 7 月-10 月](04_timeline_canon.md#section-113-july-august)）<!-- CDL-250~257 -->
+- 帝國戰略性無視主角團六個月，轉而部署：①將晴香痛苦數據提煉成情緒毒品 **Fallen Angel** 量產；②全面鋪設 **Emo-Visor** 網絡為共振地獄準備基建。<!-- CDL-251 -->
+- 主角團夜區生存錨點：白銀朔的黑市網絡暗中提供物資（無聲盟友模式）；帝國 Emo-Visor 監控盲點作為移動路線。<!-- CDL-255 -->
+- 衛生行動三階段壓縮節奏（113 年 7 月黑市封鎖→113 年 9 月 Emo-Visor 全息投影→113 年 11 月驅逐氣體）製造溫水煮青蛙的窒息感。<!-- CDL-254 -->
+- [愛莉具現化揭示](04_timeline_canon.md#event-miyako-missing)（紙皮騎士擋刀 + 石像龜裂雙線視覺）把「未經同意的恩情」罪疚感推至頂峰，確立愛莉作為「主動施恩者」的悲劇功能。<!-- CDL-256 -->
 
-**5. 真相揭露期**（[114 年 4 月](04_timeline_canon.md#section-114-april)）
-- [守恆定律揭露](04_timeline_canon.md#event-conservation-revealed)把世界規則推到主衝突前台（條文見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
-- [既視感追認](04_timeline_canon.md#event-saku-miyako-dejavu)提供情感可信度加固。
-- [凜的最終崩潰](04_timeline_canon.md#event-rin-final-collapse)封死可逆挽回路線。
-- [共振地獄第一階段](04_timeline_canon.md#event-resonance-hell-1)把反派方案由隱性改為可觀測部署。
-
-**6. 「愛莉的潛意識風暴」——晴香的畢業考試**（[114 年 4 月](04_timeline_canon.md#event-miyako-missing)）
-- 功能上完成「被動反應 -> 主動承擔」。
+**5. 愛莉的潛意識風暴**（[113 年 9 月-10 月](04_timeline_canon.md#event-miyako-missing)）<!-- CDL-252; ACT_II_OUTLINE v0.9 E-11 -->
+- 帝國衛生行動大規模清掃觸發群體恐慌作為最後一根稻草，愛莉潛意識盾牌徹底碎裂，風暴爆發。<!-- CDL-252 -->
+- 功能上完成「被動反應 -> 主動承擔」——晴香在集體潛意識戰場中以「真情緒承接」（承接而非否定痛苦）取代「假情緒承接」（以光芒壓制）。<!-- CDL-208 第三段 -->
+- 晴香感知到愛莉動機：「讓媽媽多看自己一眼」的孩子氣衝動導致的最純粹心碎。<!-- CDL-209 -->
 - 同時完成主角態度由「消滅」向「理解」轉向。
+
+**6. 英雄の刑場**（[113 年 11 月-114 年 1 月](04_timeline_canon.md#section-114-april)）<!-- CDL-190/115/237~242/145 -->
+- [秋穗身份危機](04_timeline_canon.md#event-conservation-revealed)（E-11a）：朔截獲血糖手錶後門傳輸→晴香對質秋穗→三層坦白（監控真相/守恆法則/愛莉石像動機）；[AKS-S1 揭示](04_timeline_canon.md#event-saku-miyako-dejavu)（帝國最高機密：螢死亡報告）。<!-- CDL-190/115 -->
+- [守恆定律揭露](04_timeline_canon.md#event-conservation-revealed)：守恆定律 Layer 3 由秋穗正式命名為宏觀物理法則。<!-- CDL-247 -->
+- [屍骸女王討伐](04_timeline_canon.md#event-mirror-shatter-night)（E-12）：主角團主動攻入廢棄糖果工廠；三重癱瘓矩陣（邏輯+情感+歷史）令晴香完全失語崩潰撤退——朱音三位一體道德拷問徹底摧毀晴香偽王道信念。<!-- CDL-237~242 -->
+- [無名男孩之死](04_timeline_canon.md#event-mirror-shatter-night)（E-13）：操目睹未出手，「永遠之罪」誕生，Act IV 動機根源前置。<!-- CDL-145/148 -->
+
+**7. 晴香與夕和解**（[114 年 2-3 月](04_timeline_canon.md#event-haruka-yu-integration)）
+- 以[和解事件](04_timeline_canon.md#event-haruka-yu-integration)完成主角方法論第一次改道（部分融合，非完全整合）。<!-- CDL-228 -->
+- 功能上把晴香由「處理目標」轉為「理解對象」。
+- 和解道德閉環：晴香原諒夕 = 晴香原諒 5 歲創世的自己。<!-- CDL-228 -->
+- 陰影視覺功能性前置（情緒殘影感知首次出現）；剪髮儀式確立（不可逆 Persona 剝除）。<!-- CDL-235 -->
+
+**8. 幕末三段序列**（[114 年 3 月](04_timeline_canon.md#event-haruka-yu-integration)）<!-- CDL-285; CDL-246 -->
+- **E-15（魂醒）**：晴香×夕和解，陰影視覺 + 剪髮——靈魂真實成長（偽三幕假象最強節點）。
+- **Act II-XX（魂咒）**：玻璃庭院茶會——黑奏聲線切入詛咒型切斷，虛假黎明瞬間被制度性碾壓。<!-- CDL-246 -->
+- **E-16（物理絕境）**：EMB 鐵桶包圍——出口全數封堵；晴香說出「我哋出去。」Cut to Black；Act III 強制入場。<!-- CDL-285 -->
 
 ### <a id="section-act2-arc"></a>Act II 角色弧光
 
 | 角色 | 起點 | 終點 | 關鍵轉折 |
 |------|------|------|---------|
-| [晴香](03_characters/haruka.md) | 質疑中的英雄 | 完成內在整合，成為領袖 | 與夕和解 + 愛莉潛意識風暴的畢業考試 |
+| [晴香](03_characters/haruka.md) | 質疑中的英雄 | 完成內在整合，進入地下抵抗 | 與夕和解 + 愛莉潛意識風暴的畢業考試 |
 | [美夜子](03_characters/miyako.md) | 冷靜的隊長 | 信任被打破的傲慢者 | 獨自調查被困→被隊友救援→「你連我們都不信！」 |
-| [朱音](03_characters/iwakura_akane.md) | 背叛的屍骸女王 | 下水道的喪家之犬 | 等待回歸時機 |
-| [操](03_characters/ayakomoji_misao.md) | 雙重背叛下的崩潰者 | 在屍骸化邊緣掙扎 | 紗夜犧牲→身份揭露 |
+| [朱音](03_characters/iwakura_akane.md) | 背叛的屍骸女王 | 廢棄糖果工廠的屍骸首領 | E-07b 放逐→自立為王→E-12 討伐失敗仍守根據地 |
+| [操](03_characters/ayakomoji_misao.md) | 傲嬌獨行俠 | 屍骸化邊緣的崩潰者 | 紗夜犧牲（E-09a）→ Body Horror Stage 2 進行中 |
 
 ---
 
@@ -176,47 +209,74 @@
 
 **社會風評**：覺醒期
 
+**時間範圍**：帝國歷 114 年 3 月初（E-16 突圍起點）→ 114 年 5 月底（偽高潮崩塌；靈魂風暴開始）<!-- ACT_III_OUTLINE v0.2 [DRAFT — Pending Author Final Approval] -->
+
 ### <a id="section-act3-key-events"></a>關鍵節點
 
-**1. [恐怖家家酒](04_timeline_canon.md#event-horrific-house)（2 週）**——心理驚悚篇章
+> **注**：Act III 詳細工作文件為 `canon/_working/story_construction/ACT_III_OUTLINE.md` v0.2 [DRAFT — Pending Author Final Approval]。以下節點基於 CDL-212~218/231/247/259/266/274/281 等 CDL-確認決策；Draft-only 細節不在此展開。
+
+**1. <a id="scene-phase-gh"></a>Phase G/H：地下突圍期 + 月光對峙**（114 年 3 月初-4 月末）<!-- CDL-212~215 -->
+- **Phase G 地下突圍**：主角團潛入黑市據點「糖果唐樓」搜尋朱音下落；無聲重逢後晴香選擇不打擾（留糖撤退）；朱音在遠方的隱形存在感積累罪疚壓力。<!-- CDL-212/213/214 -->
+- **Phase H 月光對峙**：美夜子首先得知凜真相——凜不是「多年前已死的人」，而是「2 月底主動拒絕治癒、自願被重組為 Unit 00-Null」，且 Phase G 的追捕者就是凜本人（延遲揭露）。<!-- CDL-215 -->
+- **H1.5 月下崩潰**：美夜子防線粉碎，在地下據點月下崩潰；詛咒「咔嚓」碎裂露出冰藍色人形殼；晴香本能抱住——**P-A12 Step 1：靈魂比語言更早認出彼此（無語言相認）**。<!-- CDL-274 Step 1 -->
+
+**2. 凜的最終戰**（114 年 4 月末）<!-- CDL-215 -->
+- 凜以 Unit 00-Null 形態（陶瓷面具、控制管）推開晴香伸出的手；透過機密檔案揭示她早在 2 月底已主動選擇拒絕治癒。
+- 功能上把「個人承諾」轉化為「代價執行」；以未完成告別擴大第三幕失語感。
+
+**3. [恐怖家家酒](04_timeline_canon.md#event-horrific-house)（Phase I，約 2 週）**——心理驚悚篇章
 - 本段功能是維持「高壓僵局」並拉長心理折磨時窗，讓偽高潮前的情緒張力可被堆高。
-- [公開處刑公告（陷阱）](04_timeline_canon.md#event-public-execution-bait)把決戰合法化為公眾觀看事件。
+- [公開處刑公告（陷阱）](04_timeline_canon.md#event-public-execution-bait)（Day 13 夜）把決戰合法化為公眾觀看事件。<!-- CDL-217 -->
 
-**2. [真身揭露：巨大衣服，微小的神](04_timeline_canon.md#event-kurokana-body-reveal)**
-- 功能上把衝突由「外部征伐」改寫為「內部解放」。
-
-**3. 朱音與操的「畢業」**
-- 本段功能是把兩位角色的弧線收束成「可自我命名的離場態度」。
-- [鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)作為操線從被控到自控的節點。
-
-**4. [嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)**——雙重犧牲
-- [朱音回歸](04_timeline_canon.md#event-akane-return)與[雙重犧牲](04_timeline_canon.md#event-double-sacrifice)負責完成「高峰能量 -> 高代價回收」。
+**4. <a id="scene-double-graduation"></a>朱音與操的「畢業」——錯位雙殺**<!-- CDL-218 -->
+- **Day 13 下午（操）**：[鋼鐵獨舞](04_timeline_canon.md#event-steel-solo)——黑奏強行撬開口腔揭露絲線縫牙（CDL-233 Body Horror Stage 3）；紗夜遺言在此刻清晰傳來（耳鳴消退 Double-hit）；操選擇以絲線將殘軀縫入學校瓦礫形成「人偶牆」為隊友爭取逃生時間。<!-- CDL-231/232/233 -->
+- **Day 14 正午（朱音）**：[嘆息之橋戰役](04_timeline_canon.md#event-bridge-of-sighs)——主角團冒死救援；朱音見證被無條件拯救後流淚，主動過載，自爆化糖果山；遺言「我唔想再一個人食飯」。<!-- CDL-218 -->
+- **錯位設計功能**：兩場犧牲各自 100% 聚光燈；「今日死一個，聽日再死一個」的雙重擊潰效果。
 - 治癒意義是「死亡中的態度主權」而非勝負逆轉。
 
-**5. [美夜子的三段式覺醒](04_timeline_canon.md#event-miyako-awakening)**
-- 本段功能是把美夜子從「控制型隊長」轉為「可被陪伴的人」。
+**5. [美夜子的兩步相認](04_timeline_canon.md#event-miyako-awakening)**<!-- CDL-274；SUPERSEDES CDL-059~062 -->
+- 本段功能是把美夜子從「控制型隊長」轉為「可被陪伴的人」，同時完成姊妹身份的語言確認。
+- **Step 1（Phase H H1.5）**：月下無語言相認（已見節點 1）。
+- **Step 2（Phase J 黑奏處刑室）**：黑奏三武器揭露序列中，美夜子×晴香姊妹身份的最終語言確立（具體時間點待 Beat Sheet 確認）。<!-- CDL-274 Step 2; btd -->
 - 同時作為第四幕「接納路線」的情感通道開口。
 
-**6. [凜的最終戰](04_timeline_canon.md#event-rin-final-battle)**：遲來的介錯
-- 功能上把「個人承諾」轉化為「代價執行」。
-- 以未完成告別擴大第三幕失語感。
+**6. [真身揭露：巨大衣服，微小的神](04_timeline_canon.md#event-kurokana-body-reveal)**（Phase J 開場）
+- 功能上把衝突由「外部征伐」改寫為「內部解放」。
+- 黑奏在廣場前脫下彩的面具，真實面孔登場；彩就是帝國皇帝黑奏的雙重背叛同時爆發。
 
-**7. [膠布哲學第三層揭露](04_timeline_canon.md#event-band-aid-third-reveal)**：世界真相
+**7. [膠布哲學第三層揭露](04_timeline_canon.md#event-band-aid-third-reveal)**：世界真相（Phase J 黑奏三武器序列）<!-- CDL-266 -->
 - 將 [Alpha/Beta](01_world_rules_and_costs.md#rule-alpha-beta) 對立從背景推到主衝突前台。
-- **導演執行**：黑奏以「撕開空間一角」的方式（如撕開膠布）向晴香展示 Alpha 線殘像。晴香從裂縫中看到 Alpha 線美夜子的屍體，以及從裂縫湧出的緋潮。
+- **黑奏三武器揭露序列（CDL-266，剝洋蔥式由外到內）**：<!-- CDL-266 -->
+  - 武器②（首擊）：Fallen Angel 商品化——「妳的痛苦只是一門生意」（道德處刑）
+  - 武器①（次擊）：夕直播失控完整回放——「妳連同伴都拯救唔到」（視角殘酷轉換）
+  - 武器③（致命第三擊）：晨間斷層創世原罪——「妳的愛才是最殘忍的酷刑」（唯一全新信息）
+- **導演執行**：黑奏以「撕開空間一角」的方式向晴香展示 Alpha 線殘像。晴香從裂縫中看到 Alpha 線美夜子的屍體，以及從裂縫湧出的緋潮。
 - **核心台詞**：「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。二十年了……傷口發炎了。」
 - **揭露邏輯**：Beta 線 = 晴香貼在 Alpha 線傷口上的「巨大膠布」；遮蓋的真實終將以災難形式反噬（參見 [世界免疫系統理論](01_world_rules_and_costs.md#section-world-immune-system)）。晴香罪責感由「我救唔到人」升級成「我可能就是災厄來源」。
 
 <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md（膠布哲學第三層，行 49-61） -->
 
-**8. [帝國廣場決戰](04_timeline_canon.md#event-imperial-plaza-battle)與偽高潮**
+**8. [帝國廣場決戰](04_timeline_canon.md#event-imperial-plaza-battle)與偽高潮**（Phase J）
 - [希望的背叛](04_timeline_canon.md#event-hope-betrayal)把群眾情感從資源翻轉為武器。
 - [彩的內部革命](04_timeline_canon.md#event-aya-internal-revolution)把外部決戰轉為內部決戰。
-- [夕完全接管](04_timeline_canon.md#event-yu-takeover)與[緋潮](02_glossary.md#term-scarlet-tide)構成偽高潮後的坍塌門檻。
+- **共振地獄第一階段**（Phase J 中）：黑奏展示共振地獄計劃真相；彩干擾施術導致失控引爆，把外部戰鬥壓力轉為世界級存續壓力。
+- [夕完全接管](04_timeline_canon.md#event-yu-takeover)（CDL-281：「明知故犯的殘酷救贖者」雙層動機——保護晴香靈魂不消散 + 私心渴望）與[緋潮](02_glossary.md#term-scarlet-tide)構成偽高潮後的坍塌門檻。<!-- CDL-281 -->
 - 結構奇點：英雄失敗，強制敘事從勝負轉向存在命題。
 
 **9. [二十年守望](04_timeline_canon.md#event-twenty-year-vigil)**
 - 本節點功能是完成夕線方法論反轉，並建立第四幕時間斷層壓力。
+- 晴香意識沉入集體潛意識；客觀世界時間跳躍至帝國歷 134 年 7 月。
+
+---
+
+### <a id="section-act3-arc"></a>Act III 角色弧光
+
+| 角色 | 起點 | 終點 | 關鍵轉折 |
+|------|------|------|---------|
+| [晴香](03_characters/haruka.md) | 地下躲藏中的無力感 | 精神崩潰；被強制索回為守護者 | 黑奏三武器揭露；夕接管；強制索回 |
+| [美夜子](03_characters/miyako.md) | 防線冷化的冷靜隊長 | 唯一倖存者；晴香的最後連結 | 凜死訊衝擊 + 身份認知 + 月下崩潰兩步相認 |
+| [朱音](03_characters/iwakura_akane.md) | 半屍骸化的屍骸首領 | 糖果山犧牲（Day 14） | 嘆息之橋被無條件拯救；「我唔想再一個人食飯」 |
+| [操](03_characters/ayakomoji_misao.md) | 人偶化進行中的殘破者 | 人偶牆犧牲（Day 13） | 鋼鐵獨舞；紗夜遺言清晰回放；「選擇停留在我想停留的位置」 |
 
 ---
 
@@ -226,6 +286,8 @@
 **結構功能**：回答第三幕留下的巨大問題。驅動力不再是解決外部衝突，而是主角如何定義自己在新世界中的「存在意義」。所有線索收攏，為核心主題完成最深刻的闡述。
 
 **氛圍**：史詩的悲壯與存在主義的孤寂。整個色調是憂鬱沉靜的，但廢墟中透出微光。像一首漫長的輓歌。
+
+> **注**：Act IV 詳細 Outline 設計待完成（見 `canon/_working/NEXT_ACTION.md`）。以下節點為當前 Canon 層級已確立的結構錨點；時間範圍已依 CDL-確認的 20 年靈魂風暴更新為帝國歷 134 年 7 月起。
 
 ### <a id="section-act4-key-events"></a>關鍵節點
 
@@ -244,7 +306,7 @@
 **3. 愛莉作為魔法少女登場**
 - 功能上提供「同起點、異態度、異結果」的對照證據，支撐終局選擇可信度。
 
-**4. [共振地獄](02_glossary.md#term-resonance-hell)第三階段**：終極選擇題（[114 年 9 月](04_timeline_canon.md#event-resonance-hell-3)）
+**4. [共振地獄](02_glossary.md#term-resonance-hell)第三階段**：終極選擇題
 - 本節點是全作價值裁決點：在強制透明與自由連結之間確立第三選擇。
 
 **5. [靈魂共鳴](04_timeline_canon.md#event-soul-resonance)**：逝者的態度延續
@@ -252,6 +314,7 @@
 
 **6. [彩的覺醒與犧牲](04_timeline_canon.md#event-aya-awakening)**
 - 功能上執行代價回收，並收束黑奏「保護者邏輯」。
+- 黑奏消散不是「被打敗」，而是「被還原為最初的保護衝動」——黑奏本質是 6 歲彩創傷分裂的防衛機制；彩主動承受螺旋痛苦，黑奏存在意義完結，最終還原為純粹保護愛回歸彩的靈魂。<!-- CDL-076; ACT_III_OUTLINE v0.2 [DRAFT] -->
 
 **7. [最終決戰](04_timeline_canon.md#event-final-battle)與[強制索回](04_timeline_canon.md#event-forced-ascension)**
 - 功能上把「吸收而非排放」定為結局方法論（機制見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
@@ -340,8 +403,9 @@
 | 組隊溫暖 | Act I 中期 | ↑ 溫馨 | 觀眾最覺得溫馨的時期——回頭看最痛 |
 | 情緒連結崩潰 | Act I 後期 | ↓ 恐懼 | 第一次「被強行入侵」的恐怖 |
 | 朱音墮落/社會性死亡 | Act II 前期 | ↓↓ 絕望 | 英雄敘事開始崩塌 |
-| 晴香與夕和解 | Act II 中期 | ↑ 希望 | 內在整合的溫暖——但觀眾不知偽高潮在等 |
-| 恐怖家家酒 | Act III 開場 | → 緊張 | 持續兩週的心理驚悚 |
+| 晴香與夕和解 | Act II 後期 | ↑ 希望 | 內在整合的溫暖——但觀眾不知偽高潮在等 |
+| Phase G/H 月光對峙 | Act III 前期 | → 窒息 | 凜揭露；美夜子防線粉碎 |
+| 恐怖家家酒 | Act III 中期 | → 緊張 | 持續兩週的心理驚悚 |
 | 朱音回歸/雙重犧牲 | Act III 中期 | ↑↑↓↓ 極端波動 | 最激昂→最悲壯→轉瞬消逝 |
 | 美夜子大哭 | Act III 中期 | ↑ 治癒性的悲傷 | 允許自己脆弱——第一個關鍵治癒時刻 |
 | 偽高潮（帝國廣場） | Act III 末 | ↓↓↓ 死寂 | 所有聲音戛然而止，觀眾墜入深淵 |
@@ -361,9 +425,9 @@
 |------|------|------|------|
 | 1. 放養 | 102-112 年 | [潘朵拉協議](04_timeline_canon.md#event-pandora-protocol)：等待晴香成熟 | 培養「中央節點」 |
 | 2. 分裂 | 113 年 5-6 月 | 利用朱音墮落、操虛榮、媒體輿論 | 摧毀團隊凝聚力 |
-| 3. 抹殺 | 113 年 6-8 月 | 夕的背叛→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
-| 4. 試驗 | 114 年 4-5 月 | 毒品危機→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
-| 5. 收割 | 114 年 9 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
+| 3. 抹殺 | 113 年 6-8 月 | 夕直播失控→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
+| 4. 試驗 | 113 年 7 月-114 年 3 月 | 地下圍剿（Emo-Visor/Fallen Angel 部署）→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
+| 5. 收割 | 134 年 7 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
 
 ### 團隊壓力曲線
 
@@ -407,22 +471,25 @@
 | 3 | Act III | 膠布隱喻由角色層提升到世界層，完成真相級別升維 | 世界真相 |
 | 4 | Act IV | 主角把「遮蓋」改為「承擔」，完成方法論轉向 | 終極抉擇 |
 
-### <a id="section-thread-conservation"></a>[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)五階段
+### <a id="section-thread-conservation"></a>[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)六階段
+
+<!-- CDL-247 Layer 重定義：L1=個體生理代價（E-08）；L2=局部系統轉移（E-10愛莉）；L3=宏觀物理法則命名（E-11a秋穗） -->
 
 | 階段 | 位置 | 內容 |
 |------|------|------|
-| 鋪陳 | Act I | 晴香首次變身後感到「某樣東西被抽走」的空虛——以為是消耗體力 |
-| 暗示 | Act II | 集體潛意識中的「紅色水位」每次都比上一次高 |
-| 概念揭露 | Act II-III | 守恆規則由背景設定上升為劇情主驅動（條文見 World Rules） |
-| 歷史揭露 | Act III | 角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |
+| 鋪陳 | Act I | 晴香首次變身後感到「某樣東西被抽走」的空虛——以為是消耗體力（守恆定律 Layer 1 前兆） |
+| 暗示 | Act II 前期 | 恐怖家家酒 14 天高壓期，主角團生理代價升級（味覺/感知損耗）——Layer 1（個體生理代價）可見化；觀眾和角色誤以為是疲勞副作用 |
+| 概念揭露（局部） | Act II 後期 | 愛莉潛意識風暴後——守恆定律 Layer 2（局部系統轉移：愛莉為全城過濾情緒廢料，自身存在本質消耗）由情感震撼揭示 |
+| 宏觀法則命名 | Act II 末（E-11a） | 秋穗三層坦白——守恆定律 Layer 3 正式命名為宏觀物理法則；全作代價真相完整浮現 |
+| 歷史揭露 | Act III | 黑奏三武器揭露：角色過往行為被重估為現時代價來源（事件鏈見 Timeline） |
 | 超越 | Act IV | 晴香選擇「吸收」而非「排放」——終止惡性累積循環 |
 
 ### <a id="section-thread-resonance"></a>[共振地獄](02_glossary.md#term-resonance-hell)三階段
 
 | 階段 | 位置 | 內容 |
 |------|------|------|
-| 軟性共振試驗 | Act II | 反派方案由隱性滲透轉為可觀測部署 |
-| 緋潮（失敗試驗） | Act III | 試驗失控把外部戰鬥壓力轉為世界級存續壓力 |
+| 軟性共振試驗 | Act II | 反派方案由隱性滲透轉為可觀測部署（Emo-Visor 網絡鋪設） |
+| 緋潮（失敗試驗） | Act III Phase J | 試驗失控把外部戰鬥壓力轉為世界級存續壓力 |
 | 終極選擇題 | Act IV | 對「強制透明」與「自由連結」作最終價值裁決 |
 
 ### <a id="section-thread-social"></a>社會風評六階段
@@ -555,7 +622,3 @@
 - **功能**：以「被甩的普通少女委託魔法少女幫她搞定前男友」的荒謬委託，呈現「魔法力量 vs 日常人際複雜性」的落差喜劇；結尾轉向：晴香幫不了，只能陪她哭。這是「幫到人」神話第一次碰壁。
 - **落點**：Act I 末段，功能是預告第二幕的「英雄敘事裂痕」
 - **See also**: [canon/09_information_design.md](09_information_design.md)
-
-
-
-

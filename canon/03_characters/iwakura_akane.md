@@ -35,7 +35,7 @@
 | **Meta Handle（代號）** | 朱音 (Akane) | Working 文件使用 |
 | **Alpha Line（真名）** | 方曉彤 | 原初現實的夜區底層女孩，代表無法被帝國包裝的痛苦 |
 | **Beta Line（帝國名）** | 無（未被帝國承認） | 朱音象徵無法同化的對抗，連虛假身份都被拒絕 |
-| **潛意識創造** | 不知火紫音 | 變身魔法少女後潛意識創造的日文名（非官方編制） |
+| **Beta 藝名（潛意識創造）** | 不知火 紫音（Shiranui Shion） | 受變身影響，潛意識認為自己需要一個日文名 |
 | **象徵機制** | 階級底層 + 拒絕包裝 | 見 [05_naming_and_psychology_system.md](../05_naming_and_psychology_system.md#section-character-naming) |
 
 ---

@@ -7,6 +7,7 @@
 - ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）
 - ✅ CDL-001~285 全部落檔（2026-05-10）
 - ✅ CDL-286~289 落檔（2026-05-12）：Alpha線城市形態 / 黑奏力量機制 / 鐵絲網偶遇 / 因果閉環 Loop 0/N
+- ✅ **canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD 完成（2026-05-15）**：CDL-218/247/259/274/285整合；Act II/III timeline修正；Act IV timestamp更新；守恆定律6-stage table；Act III arc table新增
 - ✅ **ACT_II_OUTLINE.md v0.9 [DRAFT] 建立（2026-05-08）**
 - ✅ **QQ-52~95 全部 RESOLVED（2026-05-08）**
 - ✅ **CDL-261~285 全部落檔**：HSP/晨間斷層 + CDL-271屍骸化 + CDL-282~285 全整合（2026-05-08~2026-05-10）
