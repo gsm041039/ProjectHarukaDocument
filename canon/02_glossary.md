@@ -703,7 +703,7 @@ Beta 線本質的核心敘事隱喻。
 - **Act III 後期**：晴香陰影視覺首次完全展開，雙層同時呈現（肉體異變 ↔ 被困靈魂）
 - **Act IV**：觀眾最終理解：每隻屍骸都在地獄中做著微小但永恆的愛的抵抗
 
-**See also**: [Corpseification](01_world_rules_and_costs.md#rule-corpseification) | [Heart-Vessel](#term-heart-vessel) | [Collective Unconscious](#term-collective-unconscious) | [Shadow Vision](#term-shadow-vision)
+**See also**: [Corpseification](01_world_rules_and_costs.md#rule-corpseification) | [Heart-Vessel](#term-heart-vessel) | [Collective Unconscious](#term-collective-unconscious) | [Shadow Vision](#term-shadow-sight)
 
 ---
 

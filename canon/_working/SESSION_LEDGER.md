@@ -13,6 +13,25 @@
 - **QQ-96/97 確認**（非阻塞，但需清理矛盾）
 - **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
 
+## Completed This Round (Round 039 — 2026-05-15 story-canon-sync-gate AUTO_SYNC)
+- [x] **AUTO_FIX_SAFE** canon/02_glossary.md：修正破損錨點 `#term-shadow-vision` → `#term-shadow-sight`（未斷的殘絲 See also 條目）
+- [x] **AUTO_FIX_MEDIUM** canon/10_gameplay_bible.md：新增`葡萄糖注射槍`行至戰術物品表（CDL-114）
+- [x] **AUTO_FIX_MEDIUM** canon/07_entities_and_devices.md：新增`entity-glucose-injector`實體條目——緊急補血糖道具、代謝代價、秋穗後門影響（CDL-114）
+- [x] **AUTO_FIX_MEDIUM** canon/01_world_rules_and_costs.md：新增`rule-pandora-protocol-mechanics`子節——五大機制（命運偶遇假象/市民認知/Reality Show定位/監控後門/晴香IG線）（CDL-125）
+- [x] **AUTO_FIX_SAFE** ACT_II_OUTLINE.md：`操Body Horror三段設計` → `四段設計`（CDL-233 = 4 stages）
+- [x] **AUTO_FIX_SAFE** ACT_III_OUTLINE.md：`Body Horror 三段式於此完成` → `四段式`（CDL-233）
+- [x] **NEXT_ACTION.md**：CDL-114 + CDL-125 Pending Writeback 標記完成
+- [x] **Session Scan 結論**：全部剩餘未掃描 canon 文件無新 AUTHOR_GATE 問題；CDL-286~289 在 aya.md 已落檔（正確）；act outlines 中CDL-271無需額外整合（role-specific已在角色文件完成）
+
+## Completed This Round (Round 038 — 2026-05-15 Pending Writeback 全清)
+- [x] **haruka.md CDL-112**：habit #6「規律節拍控制」刪除 + habits 7-11 → 6-10 重新編號
+- [x] **haruka.md CDL-271**：新增`section-shadow-vision-mechanism`——陰影視覺與屍骸靈魂感知機制（夕整合後雙層感知、Act III笨拙版/Act IV完整版展示）
+- [x] **miyako.md**：CDL-088 [SQ-A]「指尖亮起」→「貓爪亮起」（Act I = 貓形態修正）
+- [x] **miyako.md CDL-271**：新增`section-unit01-soul-state`——Unit 01靈魂困禁狀態（1%靈魂意志對99%情緒廢料永恆抗爭；月下崩潰機制支撐）
+- [x] **ayakomoji_misao.md CDL-233**：新增`section-body-horror-design`——Body Horror傀儡絲線縫牙分層設計（Stage 1牙齦滲血/Stage 2a肉體層/Stage 2b靈魂層人偶化/Stage 3鋼鐵獨舞揭露Double-hit）
+- [x] **CROSS_ACT_FORESHADOW_MANIFEST.md**：P-A25 更新為 Act II E-09a（第一段）+ Act III 鋼鐵獨舞（Double-hit）雙標（CDL-231）；Act II payoff表新增P-A25第一段條目；Act III payoff表P-A25更新為第二段完整payoff描述
+- [x] **NEXT_ACTION.md**：Pending Writeback全部標記完成
+
 ## Completed This Round (Round 037 — 2026-05-15 canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD)
 - [x] **story-document-synthesis-gate v2 完整執行**：Target = canon/05_story_outline_canon.md；Mode = FULL_OUTLINE_REBUILD；Preserve four-act structure
 - [x] **Source Coverage Ledger 建立**：6個主要來源審查（ACT_I v1.21 APPROVED / PROJECT_STATUS / CDL-log / ACT_II v0.9 DRAFT / ACT_III v0.2 DRAFT / backup header-only）；Gate decision = PARTIAL PASS（CDL-confirmed claims promoted；draft-only detail not promoted）

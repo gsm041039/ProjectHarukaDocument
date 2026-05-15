@@ -426,6 +426,18 @@ Type A/B（物理形態）與求救型/拒絕型（心理狀態）的四種交�
 - **社會後果**：可作短時減壓基建，但不能替代關係修復與制度修補。
 - **See also**：[樹窿電話亭規則](01_world_rules_and_costs.md#rule-tree-hole-booth) | [Social Reputation](10_gameplay_bible.md#section-social-reputation)
 
+### <a id="entity-glucose-injector"></a>葡萄糖注射槍（Glucose Injector）
+
+- **用途**：戰鬥中緊急補充血糖，防止因魔力耗盡導致強制昏厥（CDL-114）。
+- **構成**：預裝高濃度葡萄糖液的自動注射裝置，按壓後直接注入大腿肌肉。
+- **魔法系統對應**：晴香魔力消耗 = 血糖快速燃燒；正常值 70–100 mg/dL；危險值 <40 mg/dL 觸發強制昏厥。葡萄糖注射槍提供 +40 mg/dL 的緊急窗口。
+- **代謝代價**：注射後血糖回彈過高（>180 mg/dL）會觸發反應性低血糖，約 20 分鐘後耗損更劇烈；不可連續使用超過兩次。
+- **社會後果**：黑市流通；被濫用者常在短時爆發後陷入更深崩潰，象徵「強撐」的結構性代價。
+- **與血糖手錶的關係**：血糖手錶（CDL-110/114）監測實時血糖值並觸發無敵保護；葡萄糖注射槍是主動干預工具。兩者配合使用構成晴香的「代謝魔力系統」。
+- **秋穗後門影響**：血糖手錶的情緒數據傳輸在注射後峰值數據尤為敏感，秋穗實驗室可藉此追蹤情緒燃燒的極限邊界。
+
+**See also**：[血糖手錶（Gameplay）](10_gameplay_bible.md#section-tactical-items) | [葡萄糖注射槍（Gameplay）](10_gameplay_bible.md#section-tactical-items) | [World Rules：魔法代價](01_world_rules_and_costs.md#rule-magic-cost)
+
 <!-- Sources: backup/screenwriter/03_Worldview_Setting.md, backup/screenwriter/12_Social_Evaluation_Quest_System.md -->
 
 

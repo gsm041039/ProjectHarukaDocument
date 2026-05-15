@@ -27,7 +27,7 @@
 - ⏳ **QQ-97（Q-SV-02）：E-III-J9/L5/L9 三個 beat 的設計依據（CDL不存在）**（非阻塞 Outline 批核）
   - A：純 source 推導（outline_raw.md 等已有依據，無需新 CDL）
   - B：有未落檔決策 → 補登 CDL-286+
-- ⬜ miyako.md + haruka.md CDL-271補充（靈魂困禁狀態 + 陰影視覺機制）**（非阻塞，可並行）**
+- ✅ miyako.md + haruka.md CDL-271補充完成（2026-05-15）：haruka.md 陰影視覺機制節；miyako.md Unit 01靈魂困禁狀態節；miyako.md cat paw修正
 - ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記（CDL-267工作序列）
 - ⬜ Act IV Outline 設計
 - ⬜ 全四幕 Outline 完成後才進 Beat Sheet（硬性規則；CDL管道）
@@ -65,9 +65,11 @@
   - `backup/draft/timeline_raw.md`（114年3月-114年8月）
 
 ## Pending Writeback（不阻塞 Outline）
-- haruka.md habit #6 刪除（CDL-112）
-- gameplay_bible + entities CGM/葡萄糖注射槍（CDL-114）
-- miyako.md [SQ-A]「指尖亮起」→ cat paw
-- canon/01_world_rules_and_costs.md 補充潘朵拉協議（CDL-125）
-- **CROSS_ACT_FORESHADOW_MANIFEST.md P-A25 歸屬更新**（CDL-231）：從「Act III payoff」改為「Act II E-09a植入 + Act III鋼鐵獨舞payoff」雙標
-- **canon/03_characters/ayakomoji_misao.md**：補充操Body Horror三段設計（CDL-233）——Stage1牙齦滲血/Stage2絲線縫牙/Stage3鋼鐵獨舞揭露
+- ✅ haruka.md habit #6 刪除（CDL-112）— 完成 2026-05-15
+- ✅ miyako.md [SQ-A]「指尖亮起」→「貓爪亮起」— 完成 2026-05-15
+- ✅ miyako.md Unit 01靈魂困禁狀態（CDL-271）— 完成 2026-05-15
+- ✅ haruka.md 陰影視覺與屍骸靈魂感知機制（CDL-271）— 完成 2026-05-15
+- ✅ ayakomoji_misao.md Body Horror 分層設計（CDL-233）— 完成 2026-05-15
+- ✅ CROSS_ACT_FORESHADOW_MANIFEST.md P-A25 雙標更新（CDL-231）— 完成 2026-05-15
+- ✅ gameplay_bible + entities CGM/葡萄糖注射槍（CDL-114）— 完成 2026-05-15
+- ✅ canon/01_world_rules_and_costs.md 補充潘朵拉協議（CDL-125）— 完成 2026-05-15
