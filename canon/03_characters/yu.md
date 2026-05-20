@@ -136,7 +136,7 @@
 
 ### [第四幕](../05_story_outline_canon.md#section-act-4)：完全接管與最終整合
 
-晴香精神崩潰時，夕完全接管身體並試圖發動[現實覆寫](../02_glossary.md#term-reality-override)。在 Alpha 線中度過數日後，夕自身也發現創傷無法被修正——「過去無法被修正，只能被接納」。最終與晴香完成真正的整合，成為完整人格的一部分。
+晴香精神崩潰時，夕完全接管身體並成功執行[現實覆寫](../02_glossary.md#term-reality-override)（即「改變現實（夕，Phase J）」；見 [01_world_rules_and_costs.md](../01_world_rules_and_costs.md)）。然而在 Alpha 線中度過數日後，夕自身也發現：即使改變了現實，創傷的深層痛苦仍無法被真正修正——「過去無法被修正，只能被接納」。這個心理上的頓悟並非放棄，而是執行之後的認知。最終與晴香完成真正的整合，成為完整人格的一部分。
 
 **E-XX 整合視覺形態（CDL-077）**：在 E-XX 幕末整合場景，夕以「5歲晴香」的外貌在鏡中存在。5歲晴香 = Alpha 線悲劇起點（媽媽與家姐同時失去的時間點），是「被遺棄的童年自我」最直接的視覺主題化。晴香向5歲的自己道歉、放下膠布、把手貼向鏡面，與 Act I [NC] 中鏡中模糊小孩動作形成最強回收。
 
@@ -204,6 +204,7 @@
 - [夕的背叛](../04_timeline_canon.md#event-yu-betrayal)：社會性死亡節點。
 - [經理人背叛／形象商品化](../04_timeline_canon.md#event-manager-betrayal)：夕策略失算的關鍵後果。
 - [晴香與夕和解](../04_timeline_canon.md#event-haruka-yu-integration)：整合路徑啟動。
+- [夕的完全接管](../04_timeline_canon.md#event-yu-takeover)：第四幕精神崩潰時夕完全接管身體，執行「改變現實（Phase J）」，發現即使改變現實創傷仍無法消除，繼而完成最終整合。
 
 ---
 

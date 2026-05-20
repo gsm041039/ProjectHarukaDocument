@@ -89,15 +89,13 @@
 
 [屍骸](../02_glossary.md#term-magical-corpse)襲擊中小光被殺、變成 Type B 廢鐵型屍骸。朱音的世界崩塌。[黑奏](aya.md#section-kurokane)的耳語「他沒有死」成為朱音墮落的催化劑。小光的屍骸手中依然握著發黑的波板糖——這個畫面是全作品最殘忍的視覺之一。
 
-**See also**: [Timeline — 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
-
 ### [第三幕](../05_story_outline_canon.md#act-3)：屍骸樂園
 
 在朱音建立的屍骸樂園中，小光被守護著。但飢餓本能逐漸失控——屍骸的「肚餓」不是生理需求，而是[情緒侵蝕](../02_glossary.md#term-emotional-erosion)的表現。小光開始對朱音以外的人伸出手，不再是擁抱，而是撕扯。
 
 ### [第四幕](../05_story_outline_canon.md#act-4)：出於愛的墮落
 
-透過朱音的最終犧牲，小光代表的主題完成收束——「出於愛的墮落」。朱音在[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)上燃燒自己，最後對小光的屍骸說：「唔好再肚餓了。」波板糖在火焰中融化，甜味與焦味混合。
+透過朱音的最終犧牲，小光代表的主題完成收束——「出於愛的墮落」。朱音在帝國廣場燃燒自己，最後對小光的屍骸說：「唔好再肚餓了。」波板糖在火焰中融化，甜味與焦味混合。
 
 ---
 
@@ -148,7 +146,7 @@
 | [朱音](iwakura_akane.md) | 溫暖錨點 / 墮落起因 | 生前是朱音唯一的光；屍骸化後成為朱音墮落為屍骸首領的直接原因 |
 | [黑奏](aya.md#section-kurokane) | 操縱者 | 黑奏用「他沒有死」的謊言操縱朱音；小光是黑奏手中的棋子 |
 | [晴香](haruka.md) | 間接關係 | 晴香目睹小光的屍骸時，映照出自己作為創世者的罪責——這個孩子的命運源於她創造的 [Beta 線](../02_glossary.md#term-beta-line) |
-| [操](ayakomoji_misao.md) | 間接關係 | 操在[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)與朱音一同犧牲時，理解了朱音守護小光的執念 |
+| [操](ayakomoji_misao.md) | 間接關係 | 操與朱音在連續錯位犧牲（Day 13/14）中，操理解了朱音守護小光的執念 |
 
 ---
 
@@ -176,7 +174,6 @@
 - [黑奏 Canon Sheet](aya.md#section-kurokane) — 操縱朱音的幕後者
 - [Character Index](../03_character_index.md) — 角色總覽與關係網
 - [Timeline — 小光之死](../04_timeline_canon.md#event-ko-hikaru-death) — 屍骸化事件
-- [Timeline — 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs) — 朱音的最終犧牲
 - [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse) | [Glossary — 情緒侵蝕](../02_glossary.md#term-emotional-erosion) | [Glossary — 執念飽和](../02_glossary.md#term-saturation-of-obsession)
 - [Story Outline](../05_story_outline_canon.md) — 四幕故事結構
 

@@ -24,7 +24,7 @@
 | **家庭** | 父親（拒絕接納）、管家[紗夜](../03_character_index.md#char-sayo)（真正守護者） |
 | **魔法少女形態** | 傀儡師——操控精緻人偶戰鬥 |
 | **Archetype** | 破碎的瓷娃娃 (The Cracked Porcelain) → 完美主義者 (The Perfectionist) → 真實的自我 (The Authentic Self) |
-| **存活狀態** | 死亡（[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)） |
+| **存活狀態** | 死亡（Day 13 鋼鐵獨舞） |
 
 ---
 
@@ -180,7 +180,7 @@
 
 ### [第四幕](../05_story_outline_canon.md#act-4)：鋼鐵獨舞與人偶牆
 
-[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)。測量頻率暴增 → 用絲線「整形手術」→ 第 13 天「鋼鐵獨舞」切斷變形的左手 → 最終以「人偶牆」封鎖通道保護隊友。最終宣言：「我選擇停留在我想停留的位置。這是我的態度。」
+Day 13 鋼鐵獨舞。測量頻率暴增 → 用絲線「整形手術」→ 第 13 天「鋼鐵獨舞」切斷變形的左手 → 最終以「人偶牆」封鎖通道保護隊友。最終宣言：「我選擇停留在我想停留的位置。這是我的態度。」
 
 **多層動機確認（CDL-148）**：操在此幕主動打碎完美人偶外殼、以殘缺真實身軀承擔，由以下兩層深層根源驅動：
 - **紗夜之死**：「妳本來就是被愛的，不需要完美。」——被愛不需要資格。
@@ -282,8 +282,8 @@
 | [紗夜](../03_character_index.md#char-sayo) | 管家 / 真正守護者 | 唯一給予無條件愛的人；臨終真相觸發崩潰與覺醒 |
 | 父親 | 原生家庭 / 創傷根源 | 拒絕接納操的真實身份；最終背叛（交給帝國） |
 | [晴香](haruka.md) | 隊友 | 映照晴香「完美面具」的另一種形態；晴香的善意是操卸下偽裝的契機之一 |
-| [美夜子](miyako.md) | 隊友 / 介錯對象 | 據點洩露導致美夜子重傷；美夜子的介錯人守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
-| [朱音](iwakura_akane.md) | 隊友 | 據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲 |
+| [美夜子](miyako.md) | 隊友 / 介錯對象 | 據點洩露導致美夜子重傷；美夜子的介錯人守護對象；Day 13 鋼鐵獨舞犧牲 |
+| [朱音](iwakura_akane.md) | 隊友 | 據點洩露事件後朱音原諒了操；操 Day 13 鋼鐵獨舞犧牲、朱音 Day 14 帝國廣場犧牲——連續錯位雙殺 |
 | [黑奏](aya.md#section-kurokane) | 間接敵人 | 帝國體制的代表；父親將操交給帝國的幕後推手 |
 | 無名男孩（美術部） | 暗戀 / 永遠的缺席 | 榮格式缺失填補——操愛上的是他身上「敢於做自己」的鬆弛感（自己最缺乏的部分）；他的死與操「不敢出手」的罪成為 Act IV 非完美承擔的深層根源（CDL-143/145）|
 
@@ -326,7 +326,7 @@
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
-- [Timeline: 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs) | [鏡像破碎之夜](../04_timeline_canon.md#event-mirror-shatter-night)
+- [Timeline: 鋼鐵獨舞（Day 13）](../04_timeline_canon.md#event-steel-solo) | [鏡像破碎之夜](../04_timeline_canon.md#event-mirror-shatter-night)
 - [Glossary: Alpha 線](../02_glossary.md#term-alpha-line) | [Beta 線](../02_glossary.md#term-beta-line) | [魔法屍骸](../02_glossary.md#term-magical-corpse)
 - [Glossary: 三位一體光譜](../02_glossary.md#term-trinity-spectrum) | [態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
 - [Glossary: 執念飽和](../02_glossary.md#term-saturation-of-obsession) | [心之器](../02_glossary.md#term-heart-container)

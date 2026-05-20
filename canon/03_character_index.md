@@ -39,8 +39,8 @@
 |------|------|----------------|----------|-------------|
 | [雨宮晴香](03_characters/haruka.md) | 創世者 / 偶像 / 情緒增幅器 | 拯救者→殉道者→承擔者 | 存活（失去記憶） | [haruka.md](03_characters/haruka.md) |
 | [水無月美夜子](03_characters/miyako.md) | 介錯人 / 借來的生命 / 黑貓 | 介錯人→送行者→守護者 | 存活（貓形態） | [miyako.md](03_characters/miyako.md) |
-| [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（嘆息之橋） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
-| [綾小路操](03_characters/ayakomoji_misao.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（嘆息之橋） | [ayakomoji_misao.md](03_characters/ayakomoji_misao.md) |
+| [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（帝國廣場） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
+| [綾小路操](03_characters/ayakomoji_misao.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（Day 13 鋼鐵獨舞） | [ayakomoji_misao.md](03_characters/ayakomoji_misao.md) |
 
 ### 核心非戰鬥角色
 
@@ -76,7 +76,7 @@
 - **美夜子 ↔ 凜**：軍方戰友，最深的羈絆。凜犧牲後美夜子終身 PTSD；重組後的凜不記得美夜子
 - **美夜子 ↔ 朔**：Alpha 線青梅竹馬戀人。朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器）
 - **朱音 ↔ 小光**：夜區的溫暖錨點。小光屍骸化後，朱音墮落為屍骸首領
-- **朱音 ↔ 操**：隊友。據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲
+- **朱音 ↔ 操**：隊友。據點洩露事件後朱音原諒了操；操 Day 13 鋼鐵獨舞犧牲、朱音 Day 14 帝國廣場犧牲——連續錯位雙殺
 
 ### 對立與利用
 

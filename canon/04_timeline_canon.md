@@ -188,13 +188,14 @@
   - 第 10 天：朱音「暴食斷頭台」——拒絕黑奏的毒品盛宴，學會「給予」而非「暴力守護」
   - 第 11 天：操控制欲爆發
   - 第 12 天：操的劇本式指揮完全失效
-  - <a id="event-steel-solo"></a>**第 13 天**：操「鋼鐵獨舞」——主動扯斷絲線擺脫控制，對彩喊出「跌倒都唔緊要！我會接住妳！」第一次「擁抱失控」
+  - <a id="event-steel-solo"></a>**第 13 天：操「鋼鐵獨舞」**（錯位雙殺前半）——黑奏強行撬開口腔揭露絲線縫牙（Stage 3）；紗夜遺言在此刻清晰傳來；操最終以絲線將殘軀縫入瓦礫形成「人偶牆」，封鎖通道保護隊友。最終宣言：「我選擇停留在我想停留的位置。這是我的態度。」
   - <a id="event-sanitation-execution-declare"></a><a id="event-public-execution-bait"></a>**衛生行動公開處刑公告（陷阱）**：帝國把「衛生行動」升級為公開處刑政治秀，對外宣稱將處決「終極變異體」，並點名晴香與美夜子為最危險異端，目的是迫使隊伍在帝國廣場現身
   - <a id="event-kurokana-body-reveal"></a>**真身揭露：巨大衣服，微小的神**——黑奏故意讓皇袍滑落，露出彩被長期囚禁的幼體身軀（抱著舊熊公仔），以「權力外殼 vs 脆弱核心」的反差羞辱團隊並重置敵我認知
-  - <a id="event-bridge-of-sighs"></a>**第 14 天**：嘆息之橋戰役（維多利亞之淚事件）
+  - <a id="event-bridge-of-sighs"></a>**嘆息之橋（凜獨立場景）**：[btd — 凜在嘆息之橋的獨立 beat；Phase G/H 某處；具體設計待 Beat Sheet 確認]
+  - <a id="event-imperial-plaza-rescue"></a><a id="event-double-sacrifice"></a>**第 14 天：帝國廣場救援**（錯位雙殺後半）
     - <a id="event-akane-return"></a>**朱音的回歸**：朱音穿著垃圾鎧甲突然出現，使用「過載變身」
     - <a id="event-akane-last-words"></a>**朱音的遺言**：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
-    - <a id="event-double-sacrifice"></a>**雙重犧牲**：朱音自爆變成糖果山，操擋刀變成人偶牆，兩人一同犧牲
+    - **朱音犧牲**：朱音自爆化為糖果山（Day 14 帝國廣場）——與操 Day 13 鋼鐵獨舞共同構成「今日死一個，聽日再死一個」的錯位雙殺
 - <a id="event-curse-broken"></a>**詛咒打破**：美夜子強行打破[避難所詛咒](02_glossary.md#term-shelter-curse)，從此可以正常死亡
 - <a id="event-miyako-awakening"></a>**美夜子的三段式覺醒與身份揭露**：
   - **第一段：貓殼碎裂**：在高壓連鎖事件後，美夜子的貓形偽裝無法維持，開始進入人形回流
@@ -250,7 +251,7 @@
 | [公開處刑公告（陷阱）](#event-public-execution-bait) | 114 年 5 月 | 帝國以「終極變異體」敘事製造恐懼並引蛇出洞 | [黑奏](03_characters/aya.md#section-kurokane)、[晴香](03_characters/haruka.md)、[美夜子](03_characters/miyako.md) |
 | [既視感追認](#event-saku-miyako-dejavu) | 114 年 4 月 | 將朔/美夜子關係由「臉孔識別」升級為「行為與態度識別」 | [朔](03_characters/saku.md)、[美夜子](03_characters/miyako.md) |
 | [真身揭露：巨大衣服，微小的神](#event-kurokana-body-reveal) | 114 年 5 月 | 黑奏以「脆弱肉身 + 統治外殼」重置敵我認知，揭示彩被囚禁狀態 | [黑奏](03_characters/aya.md#section-kurokane)、[彩](03_characters/aya.md)、[晴香](03_characters/haruka.md) |
-| [雙重犧牲](#event-double-sacrifice) | 114 年 5 月 | 朱音與操完成「態度式治癒」閉環 | [朱音](03_characters/iwakura_akane.md)、[操](03_characters/ayakomoji_misao.md) |
+| [錯位雙殺（操 Day 13 + 朱音 Day 14）](#event-double-sacrifice) | 114 年 5 月 | 朱音與操完成「態度式治癒」閉環（連續分開犧牲） | [朱音](03_characters/iwakura_akane.md)、[操](03_characters/ayakomoji_misao.md) |
 | [希望背叛](#event-hope-betrayal) | 114 年 5 月 | 英雄敘事正式斷裂，進入存在命題 | [晴香](03_characters/haruka.md) |
 | [母愛的琥珀](#event-amber-of-love) | 114 年 7 月 | 晴香從逃避回到承擔，完成自我整合前置 | [晴香](03_characters/haruka.md) |
 | [靈魂共鳴](#event-soul-resonance) | 114 年 9 月 | 逝者態度跨越生死，完成主題驗證 | 晴香、操、朱音 |

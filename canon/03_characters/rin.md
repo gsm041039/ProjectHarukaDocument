@@ -21,11 +21,11 @@
 |------|------|
 | **全名** | 綾瀨凜（あやせ りん） |
 | **身份** | 軍方魔法少女兵器 4 號、[美夜子](miyako.md)戰友、[黑奏](aya.md#section-kurokane)重組的軀殼 |
-| **死亡** | 戰場中遭[光環](../02_glossary.md#term-halo)處決（見 [Timeline](../04_timeline_canon.md#event-rin-sacrifice)） |
+| **死亡** | 帝國歷108年，戰場中遭[光環](../02_glossary.md#term-halo)處決（頸部被強行扭斷；見 [Timeline](../04_timeline_canon.md#event-rin-sacrifice)） |
 | **重組** | 被黑奏具現化為情緒管理局公務員（見 [Timeline](../04_timeline_canon.md#event-rin-reconstruction)） |
 | **戰鬥風格** | 冰藍色調，精準動作（早期「冷的毀滅」） |
 | **Archetype** | 溫柔偶像（木之本櫻味）→ 完美主義者 → 痛覺信徒 → 自願的兵器 |
-| **存活狀態** | 死亡（自願兵器化 [Unit 00](../02_glossary.md#term-unit-01)） |
+| **存活狀態** | 死亡（自願兵器化 Unit 00） |
 
 ---
 
@@ -94,6 +94,8 @@
 
 凜是全作最硬的反例：知道有機會回頭，仍然選擇唔回頭。  
 呢個選擇唔係自毀浪漫，而係她最後一次對自己生命保留主導權。
+
+**嘆息之橋獨立場景（btd）**：凜在 [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs) 有一個獨立的 beat（Phase G 或 H 某時），代表她弧光中的某個關鍵時刻。具體設計（事件內容、情感意義、與主角團的關係）待 Beat Sheet 層確認。
 
 ---
 

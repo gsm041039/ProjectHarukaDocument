@@ -114,3 +114,40 @@ P4 + P5 = 拆粒 + 一定先問你
 7. Immediate Next Action
 8. Questions For Author（如安全需要）
 9. File Update Plan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/story-conflict-resolution-gate
+
+Mode: CANON_WIDE_CONFLICT_PASS
+
+掃描整個 canon/ 內嘅 story/canon 內容文件，搵出互相矛盾、過時、重複但唔一致、或者 working truth 未寫回 canon 嘅地方。
+
+你要自己解決安全項；解決唔到先用 ask-user-question MCP/tool 請示我。
+問題要問內容 / 設定 / canon truth，唔好問段落放置位置。
+
+Approval management: OFF.
+唔好讀或改 PROJECT_STATUS / NEXT_ACTION / SESSION_LEDGER / project-level QUESTION_QUEUE。
+唔好講批核、升版本、最高優先阻塞點。
+
+只可以更新：
+1. canon/ 內需要修正嘅 story/canon 文件
+2. canon/_working/conflict_resolution/ 入面嘅 skill-local state
+
+請使用 persistent state，並強制使用 multi-agent。
+作者可見問題同 final report 唔准用 J幾、L幾、Phase、QQ、CDL、section code 做核心語言。
+內部編號只可以留喺 source note / state file。
+
+Scope:
+canon/

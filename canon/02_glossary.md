@@ -45,6 +45,15 @@
 
 ---
 
+### <a id="term-imperial-calendar"></a>帝國歷（Imperial Calendar / Year System）
+Beta 線建立的曆法標準。
+
+晴香改變現實創造 Beta 線後，帝國建立了新的紀年系統。帝國歷 102 年 = 晴香 5 歲時發動「改變現實」改變世界的時刻，成為 Beta 線魔法系統的創世年份。故事發生在帝國歷 114 年期間，即創世後 12 年。重要事件均以帝國歷年份標註於文件中。
+
+**See also**: [Timeline](04_timeline_canon.md) | [Beta Line](#term-beta-line) | [Alpha Line](#term-alpha-line)
+
+---
+
 ### <a id="term-collective-unconscious"></a>集體潛意識（Collective Unconscious）
 世界的伺服器與免疫系統。
 
@@ -646,7 +655,6 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-<a id="term-shelter-curse"></a>
 ### <a id="term-sanctuary-curse"></a>美夜子的避難所詛咒（Sanctuary Curse）
 源於晴香 5 歲時天真願望的絕對保護機制。
 

@@ -19,7 +19,7 @@
 | 欄位            | 內容                                                                                                                       |
 | ------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | **本名**        | 雨宮美夜子（改名水無月美夜子，象徵與過去決裂）                                                                                                  |
-| **年齡**        | 26 歲（主線期，復活後計），視覺年齡 16                                                                                                        |
+| **年齡**        | 38 歲（主線期 114 年），身體年齡視覺 16（復活後仍保持少女外貌）                                                                                                        |
 | **誕生**        | 早期世代角色（見 [Timeline](../04_timeline_canon.md#section-birth-war-era)）                                                      |
 | **死亡**        | [Alpha 線](../02_glossary.md#term-alpha-line)已死者（見 [Timeline](../04_timeline_canon.md#event-alpha-divergence)）            |
 | **復活**        | 由[秋穗](akiho.md)重啟為 [Unit 01](../02_glossary.md#term-unit-01)（見 [Timeline](../04_timeline_canon.md#event-miyako-revival)） |
@@ -62,6 +62,8 @@
 這是 5 歲小孩天真的殘酷——晴香想保護姐姐，卻剝奪了姐姐「作為人類光榮戰死」的權利。諷刺的是，美夜子在 Alpha 線最討厭貓——討厭那種「需要依附別人才能生存」的姿態。晴香的願望，將她變成了她最厭惡的存在。
 
 > 這不是美夜子的詛咒，這是晴香的願望。
+
+**兩層理解並存（canon 確認）**：現實層——美夜子作為個體受詛咒束縛，是受害者框架（以上描述成立）；形上層——美夜子的存在本身即是詛咒的具現，避難所詛咒與美夜子無法分割，她是晴香 5 歲念想的直接產物。兩個層次並存，不互斥。
 
 ### Unit 01——軍方魔法少女兵器
 
@@ -179,7 +181,7 @@
 
 ### [第三幕](../05_story_outline_canon.md#act-3)：借來的生命
 
-面對「借來的生命」真相——她本該在 Alpha 線安息，Beta 線的存在本身就是一場倒數。[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)中[朱音](iwakura_akane.md)和[操](ayakomoji_misao.md)的犧牲，迫使她直面：介錯人保護不了所有人。
+面對「借來的生命」真相——她本該在 Alpha 線安息，Beta 線的存在本身就是一場倒數。朱音與操的連續犧牲（操 Day 13 鋼鐵獨舞 + 朱音 Day 14 帝國廣場），迫使她直面：介錯人保護不了所有人。
 
 ### [第四幕](../05_story_outline_canon.md#act-4)：美夜子的大哭
 
@@ -310,8 +312,8 @@
 | [凜](rin.md)            | 軍方戰友          | 最深的羈絆；犧牲後成為終身 PTSD 源頭；重組後的凜不記得美夜子                                 |
 | [秋穗](akiho.md)         | 復活施術者         | 愛與罪的施予者；美夜子「借來的生命」的源頭                                             |
 | [朔](saku.md)           | Alpha 線青梅竹馬戀人 | 朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器）                                    |
-| [朱音](iwakura_akane.md) | 隊友            | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
-| [操](ayakomoji_misao.md)  | 隊友            | 介錯人的守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
+| [朱音](iwakura_akane.md) | 隊友            | 介錯人的守護對象；Day 14 帝國廣場犧牲 |
+| [操](ayakomoji_misao.md)  | 隊友            | 介錯人的守護對象；Day 13 鋼鐵獨舞犧牲 |
 
 
 ---
@@ -353,6 +355,6 @@
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
-- [Timeline: 凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice) | [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
+- [Timeline: 凜犧牲事件](../04_timeline_canon.md#event-rin-sacrifice) | [帝國廣場救援（朱音犧牲）](../04_timeline_canon.md#event-imperial-plaza-rescue) | [鋼鐵獨舞（操犧牲）](../04_timeline_canon.md#event-steel-solo)
 - [Glossary: 避難所詛咒](../02_glossary.md#term-sanctuary-curse) | [Unit 01](../02_glossary.md#term-unit-01) | [光環](../02_glossary.md#term-halo)
 - [Dark Healing](../02_glossary.md#term-dark-healing) — 美夜子的大哭是三大治癒時刻之一

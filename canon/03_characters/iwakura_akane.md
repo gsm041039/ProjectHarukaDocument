@@ -24,7 +24,7 @@
 | **家庭** | 父母（[情緒膠囊](../02_glossary.md#term-emotional-erosion)重度成癮者）、弟弟（誤食情緒結晶死亡） |
 | **身份** | 戰鬥成癮者 → 屍骸首領（中期）→ 燃燒的贖罪者（終局） |
 | **Archetype** | 成癮者 (The Addict) → 墮落母親 (The Fallen Mother) → 燃燒的贖罪者 (The Burning Penitent) |
-| **存活狀態** | 死亡（[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)） |
+| **存活狀態** | 死亡（帝國廣場） |
 
 ---
 
@@ -88,11 +88,9 @@ Alpha 線把她困在無力（無法救母親），Beta 線把她推向過度補
 在[操的調停嘗試](../04_timeline_canon.md#event-misao-mediation)中，朱音其實第一次被隊友正面承認痛苦，但她仍選擇拒絕。對朱音而言，若接受這份理解，就等於承認自己仍有「回到人群」的可能；而這會直接撞上她最深的罪惡感（弟弟與小光）。  
 因此她採取更激烈的反彈：把「被看見」解讀為威脅，轉而加深屍骸首領身份。這是她在第三幕前仍持續下墜的心理關鍵。
 
-### 燃燒的贖罪——嘆息之橋回歸
+### 燃燒的贖罪——帝國廣場回歸
 
-在嘆息之橋終局日，朱音穿著垃圾製成的鎧甲、手持生鏽電鋸回到隊伍。她以過載變身加上吞下過期糖果毒素觸發自爆——將自己燃燒成一座糖果山，保護隊友撤退。遺言：「我唔想再一個人食飯。」（事件定位見 [Timeline](../04_timeline_canon.md#event-bridge-of-sighs)）
-
-**See also**: [嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)
+在帝國廣場終局日，朱音穿著垃圾製成的鎧甲、手持生鏽電鋸回到隊伍。她以過載變身加上吞下過期糖果毒素觸發自爆——將自己燃燒成一座糖果山，保護隊友撤退。遺言：「我唔想再一個人食飯。」
 
 ---
 
@@ -164,7 +162,7 @@ Alpha 線把她困在無力（無法救母親），Beta 線把她推向過度補
 
 ### [第四幕](../05_story_outline_canon.md#act-4)：燃燒的贖罪
 
-[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)的回歸，標誌朱音由「索取型存活」轉成「給予型離場」。  
+帝國廣場的回歸，標誌朱音由「索取型存活」轉成「給予型離場」。  
 她最後承認的不是英勇，而是最基本的人類需求：想同人一齊食飯。這句遺言令她的贖罪回到關係，而不是回到神話。
 
 ---
@@ -247,8 +245,8 @@ Alpha 線把她困在無力（無法救母親），Beta 線把她推向過度補
 |------|------|---------|
 | [小光](ko_hikaru.md) | 溫暖錨點 / 墮落起因 | 唯一對她好的人；屍骸化後成為朱音墮落的導火線 |
 | [晴香](haruka.md) | 隊友 | 映照晴香「拯救者情結」的極端化；朱音是「無法被拯救的人」 |
-| [美夜子](miyako.md) | 隊友 / 介錯對象 | 美夜子的介錯人守護對象；[嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs)犧牲者 |
-| [操](ayakomoji_misao.md) | 隊友 | 據點洩露事件後朱音原諒了操；嘆息之橋二人一同犧牲 |
+| [美夜子](miyako.md) | 隊友 / 介錯對象 | 美夜子的介錯人守護對象；Day 14 帝國廣場犧牲 |
+| [操](ayakomoji_misao.md) | 隊友 | 據點洩露事件後朱音原諒了操；操 Day 13 鋼鐵獨舞犧牲、朱音 Day 14 帝國廣場犧牲——連續錯位雙殺 |
 | [黑奏](aya.md#section-kurokane) | 操縱者 | 黑奏操控屍骸化的小光，間接推動朱音墮落為屍骸首領 |
 | 弟弟 | 創傷核心 | 誤食情緒結晶死亡；一切罪惡感與補償行為的起點 |
 
@@ -285,12 +283,12 @@ Alpha 線把她困在無力（無法救母親），Beta 線把她推向過度補
 ## <a id="section-canon-constraints"></a>禁忌（不可改設定）
 
 - 共通禁忌規格見 [Character Index：角色 Sheet 共通契約](../03_character_index.md#section-character-sheet-contract)。
-- 朱音專屬禁忌：不可刪除小光屍骸化造成的墮落鏈與嘆息之橋的自我犧牲結局。
+- 朱音專屬禁忌：不可刪除小光屍骸化造成的墮落鏈與帝國廣場終局日的自我犧牲結局。
 ## <a id="section-see-also"></a>See also
 
 - [Character Index](../03_character_index.md)
 - [Story Outline](../05_story_outline_canon.md) — 四幕結構完整劇情
-- [Timeline: 嘆息之橋](../04_timeline_canon.md#event-bridge-of-sighs) | [小光之死](../04_timeline_canon.md#event-ko-hikaru-death) | [恐怖遊樂場](../04_timeline_canon.md#event-terror-playhouse)
+- [Timeline: 帝國廣場救援](../04_timeline_canon.md#event-imperial-plaza-rescue) | [小光之死](../04_timeline_canon.md#event-ko-hikaru-death) | [恐怖遊樂場](../04_timeline_canon.md#event-terror-playhouse)
 - [Glossary: Alpha 線](../02_glossary.md#term-alpha-line) | [Beta 線](../02_glossary.md#term-beta-line) | [魔法屍骸](../02_glossary.md#term-magical-corpse)
 - [Glossary: 情緒侵蝕](../02_glossary.md#term-emotional-erosion) | [執念飽和](../02_glossary.md#term-saturation-of-obsession)
 - [Glossary: 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate) | [情緒守恆](../02_glossary.md#term-emotion-conservation)
