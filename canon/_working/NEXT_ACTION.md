@@ -65,6 +65,7 @@
   - `backup/draft/timeline_raw.md`（114年3月-114年8月）
 
 ## Pending Writeback（不阻塞 Outline）
+- ⬜ CDL-217/218 addendum：場地描述「嘆息之橋」需標注已更新為「帝國廣場」（AC 2026-05-19）——不阻塞批核；可於 Beat Sheet 前完成
 - ✅ haruka.md habit #6 刪除（CDL-112）— 完成 2026-05-15
 - ✅ miyako.md [SQ-A]「指尖亮起」→「貓爪亮起」— 完成 2026-05-15
 - ✅ miyako.md Unit 01靈魂困禁狀態（CDL-271）— 完成 2026-05-15

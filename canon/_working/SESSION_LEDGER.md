@@ -13,6 +13,14 @@
 - **QQ-96/97 確認**（非阻塞，但需清理矛盾）
 - **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
 
+## Completed This Round (Round 040 — 2026-05-19 story-conflict-resolution-gate VENUE_WRITEBACK)
+- [x] **CONFLICT_RESOLUTION** ACT_III_OUTLINE.md：嘆息之橋 → 帝國廣場 全文 venue writeback（7 處，含 Gate A、Phase I header btd note、I2、I3 heading、J1 事件核心及 AC note）
+- [x] **CONFLICT_RESOLVED (C-01~C-04)** 朱音犧牲 Phase + venue 矛盾：Phase I Day 14 帝國廣場確認；連續兩日結構保留；嘆息之橋改由凜或其他角色場景使用（位置待定，Beat Sheet 層）
+- [x] **DESIGN_GAP_IDENTIFIED** J1 進場動機（原「阻止朱音公開處刑」已移除；新動機待 Beat Sheet 補充，btd note 加入 J1）
+- [x] **PENDING_CDL_ADDENDUM** CDL-217/218 場地描述（嘆息之橋）需加入 addendum 反映 AC 2026-05-19 venue 修訂（不阻塞批核）
+- [x] **DEFERRED (C-05~C-06)** CDL-278/283 gap + L9/J8 mechanics overlap → Beat Sheet 層處理
+- [x] **State files updated**: conflict_resolution/* (SESSION_STATE, CONFLICT_REGISTER, WRITEBACK_LOG, QUESTION_QUEUE) + PROJECT_STATUS.md CDL-218 summary line
+
 ## Completed This Round (Round 039 — 2026-05-15 story-canon-sync-gate AUTO_SYNC)
 - [x] **AUTO_FIX_SAFE** canon/02_glossary.md：修正破損錨點 `#term-shadow-vision` → `#term-shadow-sight`（未斷的殘絲 See also 條目）
 - [x] **AUTO_FIX_MEDIUM** canon/10_gameplay_bible.md：新增`葡萄糖注射槍`行至戰術物品表（CDL-114）
