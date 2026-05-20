@@ -41,8 +41,8 @@
 
 | Item | Location | Type | Status | Source | Blocking? |
 |------|----------|------|--------|--------|-----------|
-| **CRITICAL**: 鐵絲網偶遇整合方式 (QQ-102) | ACT_III_OUTLINE v0.2 | BEAT_PLACEMENT | AWAITING_AUTHOR_DECISION | CDL-288 | **YES** (outline approval) |
-| **CRITICAL**: Loop N Warden 角色揭露位置 (QQ-103) | ACT_III_OUTLINE v0.2 | REVEAL_TIMING | AWAITING_AUTHOR_DECISION | CDL-289 | PARTIAL (non-blocking if deferred) |
+| **CRITICAL**: 鐵絲網偶遇整合方式 (QQ-102) | ACT_III_OUTLINE v0.2 | BEAT_PLACEMENT | OUTLINE_APPROVAL_LAYER (not a Fact Map contradiction — canon fact documented in CF-EVT-0047; integration timing = outline layer decision) | CDL-288 | YES (for outline approval; NOT blocking Fact Map) |
+| **CRITICAL**: Loop N Warden 角色揭露位置 (QQ-103) | ACT_III_OUTLINE v0.2 | REVEAL_TIMING | OUTLINE_APPROVAL_LAYER (not a Fact Map contradiction — reveal timing = presentation layer choice, not canon truth question) | CDL-289 | PARTIAL (for outline; NOT blocking Fact Map) |
 | E-III-01 地下救援 (凜交錯整合) 具體場景 | ACT_III_OUTLINE v0.2 | SCENE_OUTLINE | BEAT_SHEET_LAYER | CDL-212 | NO |
 | E-III-02 拒絕治癒的信徒 (凜信仰) 具體展現 | ACT_III_OUTLINE v0.2 | SCENE_OUTLINE | BEAT_SHEET_LAYER | CDL-215 | NO |
 | H1.5 月下崩潰獨立beat (新增) 具體場景 | ACT_III_OUTLINE v0.2 | SCENE_OUTLINE | BEAT_SHEET_LAYER | ACT_III v0.1→v0.2 | NO |
@@ -99,6 +99,51 @@
 ### Zero Structural Contradictions
 
 Fact map confirms: **0 internal canon contradictions** between primary sources.
+
+---
+
+## Intentional Design Gaps (Tier 1 Triage — Remediation Phase)
+
+**Recorded 2026-05-20 during REMEDIATE_COMPLETENESS_GAPS workflow. Not blocking Fact Map.**
+
+### Gap 1: Ko Hikaru Consciousness Persistence (Trapped vs Mindless)
+
+| Attribute | Value |
+|-----------|-------|
+| **Gap** | Ko's consciousness state post-corpse-transformation unclear |
+| **Source** | Timeline Y113 May-June (Ko transforms to Type B scrap corpse) |
+| **Classification** | INTENTIONAL_AMBIGUITY / MEANING_DEPENDENT |
+| **Status in Fact Map** | CF-STATE-KO-04: Documented as "ambiguous / intentional mystery" |
+| **Evidence** | Misao protects Ko's corpse form (suggests consciousness matters to Misao); canon does not explicitly state consciousness level |
+| **Remediation** | CHARACTER_STATE_FACTS.md records state with ambiguity note; NOT escalated to author question |
+| **Why Intentional** | Misao's protective behavior carries more emotional weight if consciousness question remains; audience interpretation adds thematic layer |
+| **Related CDL** | CDL-229 (Ko corpse creation) |
+
+### Gap 2: Aya Imprisonment — Can She Be Freed (Permanent vs Liberatable)
+
+| Attribute | Value |
+|-----------|-------|
+| **Gap** | Whether Aya consciousness can be freed before/during Act IV; liberation mechanics unclear |
+| **Source** | Timeline Y114+ (post-finale eternal recurrence); Act IV design (pending) |
+| **Classification** | DESIGN_GAP_ONLY / Act IV reveal question |
+| **Status in Fact Map** | CF-STATE-AYA-05/06: Documented with liberation mechanics marked for Act IV clarification |
+| **Evidence** | Canon documents: (1) Aya imprisoned Y79+; (2) Eternal recurrence mechanism active Y114+; (3) Does "choosing eternal return" = agency or permanent erasure? |
+| **Remediation** | CHARACTER_STATE_FACTS.md records state; Question deferred to Act IV outline design layer (NOT author question at this time) |
+| **Why Deferred** | Thematic resolution depends on Act IV design choices re: consciousness/choice/liberation meanings; not a canon contradiction |
+| **Related CDL** | CDL-185 (death point), CDL-289 (soul traversal), aya.md (character arc) |
+
+### Gap 3: Y102 Fence Placement in Act III Outline (Narrative Integration)
+
+| Attribute | Value |
+|-----------|-------|
+| **Gap** | Where/when to reveal fence encounter in Act III beats; narrative integration question |
+| **Source** | CDL-288 (fence encounter core fact documented); ACT III outline placement (pending) |
+| **Classification** | DESIGN_GAP_ONLY / Outline placement question |
+| **Status in Fact Map** | CF-EVT-0047: Fact documented in EVENT_FACTS; placement question noted as QQ-102 |
+| **Evidence** | Canon documents: (1) Fence encounter Y102 (cause-effect beacon fact); (2) CDL-288 states "core reveal of Act III three-hit execution"; (3) Exact beat/timing not specified in outline |
+| **Remediation** | EVENT_FACTS.md now includes complete fence encounter fact; Placement decision is outline approval phase (QQ-102, tracked in NEXT_ACTION) |
+| **Why Design Gap** | This is presentation layer choice, not canon-truth missing; event fact is complete; integration timing affects emotional impact but not narrative truth |
+| **Related CDL** | CDL-288, REASONING_LOG, PROJECT_STATUS QQ-102 |
 
 ---
 

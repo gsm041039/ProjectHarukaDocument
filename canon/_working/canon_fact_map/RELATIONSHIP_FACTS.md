@@ -154,6 +154,17 @@
 
 ---
 
+## Section 11: Bidirectionality Supplements (Phase 4 Remediation)
+
+Supplements the B→A emotional direction for two pairs flagged as incomplete in Phase 4 COMPLETENESS_AUDIT.
+
+| Fact ID | Supplements | Character (B→A subject) | B→A Emotional Stance | Applies When | Status | Notes |
+|---|---|---|---|---|---|---|
+| CF-REL-0059 | CF-REL-0030 (Kurokane→Haruka) | Haruka's stance toward Kurokane | Post-confrontation: grief for "Aya" persona used as weapon; anger at manipulation; recognition that the friendship was real to Aya even if weaponized by Kurokane; complex mourning state rather than simple hatred | Y114 Day 15+ (post-dispersal); full emotional processing = Act IV | INFERRED (framework from 05_story_outline Act III finale; precise emotional articulation = BEAT_SHEET_LAYER) | Haruka's B→A stance toward Kurokane specifically is not identical to her feelings toward freed Aya; differentiation between the two is part of the Act III finale emotional design |
+| CF-REL-0060 | CF-REL-0041 (Akane→Ko Hikaru) | Ko Hikaru's reciprocal attachment toward Akane pre-/post-transformation | Pre-transformation: Ko Hikaru functions as Akane's emotional anchor — reciprocal care implied by the anchoring bond (no explicit canon statement); Post-transformation: Ko's consciousness persistence = DESIGN_GAP_ONLY per CF-STATE-KO-04 — emotional reciprocity in corpse form cannot be confirmed | Y113 (alive state); Y113-05+ (corpse form) | PRE-TRANSFORMATION: INFERRED. POST-TRANSFORMATION: DESIGN_GAP_ONLY | See DESIGN_GAPS.md Gap 1 — Ko consciousness ambiguity is intentional narrative mystery; Misao's protective behavior of Ko's corpse form is the closest canon signal of ongoing relational significance; CF-STATE-KO-04 |
+
+---
+
 ## Summary Statistics
 
 - **Total dyadic pairs extracted**: 58 CF-REL-#### relationships (core + secondary)

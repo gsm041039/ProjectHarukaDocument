@@ -4,51 +4,53 @@
 
 This skill builds a structured Canon Fact Map from Project Haruka story documents.
 
-It does not rewrite prose.
+It does not rewrite story prose.
 
-It does not resolve all contradictions directly.
+It reads canon / working / decision-log documents, extracts atomic claims, classifies authority and freshness, builds fact tables, and validates coverage before downstream conflict-resolution.
 
-It reads canon / working / decision-log documents, extracts atomic claims, classifies their authority and freshness, and writes persistent fact-map files that later skills can use for validation and writeback.
+This v2 version adds strict completeness auditing.
 
-This skill exists because direct prose-to-prose comparison across many story files is unreliable.
+The skill must not claim `FACT_MAP_BUILT` merely because it extracted many facts.
 
-Correct workflow:
-
-```text
-story-canon-fact-map-builder
-        ↓
-canon/_working/canon_fact_map/
-        ↓
-story-conflict-resolution-gate
-        ↓
-safe writeback / author questions
-        ↓
-rerun fact validation
-```
+A Fact Map is incomplete if it misses required identity, name-chain, timeline, relationship, event, world-rule, knowledge-state, transformation-state, terminology, or theme dimensions.
 
 ---
 
 # Core Principle
 
-Do not compare whole documents directly.
+Do not compare whole prose documents directly.
 
 Convert documents into atomic claims first.
 
-Then compare:
+Then build fact tables.
+
+Then run coverage audits.
+
+Then validate.
+
+Correct pipeline:
 
 ```text
-document prose → atomic claim → fact map → validation
+documents
+→ DOC_REGISTER
+→ CLAIM_INDEX
+→ fact tables
+→ COVERAGE_MATRIX
+→ validation audit
+→ FACT_MAP_BUILT only if all required dimensions pass
 ```
 
 The agent must distinguish:
 
 - objective canon truth
 - character belief
+- rhetoric / accusation
 - narrator framing
 - old draft residue
-- temporary / btd placeholder
+- temp-only claim
+- btd / placeholder
 - design gap
-- Beat Sheet presentation gap
+- presentation note
 - unsupported prose glue
 - author-approved decision
 - active working truth candidate
@@ -56,55 +58,82 @@ The agent must distinguish:
 
 ---
 
+# Absolute Rule: No Premature Completion
+
+The agent must not declare:
+
+```text
+FACT_MAP_BUILT
+100% complete
+zero contradictions confirmed
+ready for Beat Sheet
+canon stable
+```
+
+unless all required tables and all required coverage audits pass.
+
+If any required table or required coverage dimension is missing, final status must be one of:
+
+```text
+FACT_MAP_PARTIAL_BUILT
+FACT_MAP_INCOMPLETE
+FACT_MAP_NEEDS_COMPLETENESS_REMEDIATION
+FACT_MAP_BUILT_READY_FOR_USE_PENDING_LIMITATIONS
+```
+
+Only after final audit may the status become:
+
+```text
+FACT_MAP_BUILT
+```
+
+---
+
 # Supported Modes
 
 ## BUILD_FACT_MAP
 
-Build or refresh the fact map from the requested scope.
-
-Use when the user says:
-
-- 建 Canon Fact Map
-- 建 claim database
-- 抽 claims
-- 整理所有 canon facts
-- 先集合內容
-- story-canon-fact-map-builder
+Build or refresh fact map from requested scope.
 
 ## INCREMENTAL_UPDATE
 
-Update the fact map only for files changed since the last ledger entry.
-
-Use when the user says:
-
-- 更新 fact map
-- 根據最近修改更新
-- incremental
-- 只更新 changed files
+Update fact map for changed files only.
 
 ## VALIDATE_AGAINST_FACT_MAP
 
-Check documents against existing fact map and produce validation report.
-
-This mode does not patch prose.
+Audit existing fact map.
 
 ## REBUILD_FROM_SCRATCH
 
-Ignore existing cache and rebuild all fact-map files.
+Ignore cache and rebuild all fact-map files.
 
-Use when cache is stale or corrupted.
+## COMPLETENESS_AUDIT
+
+Run strict coverage audit across all required fact dimensions.
+
+Use this when the user says:
+- 有好多嘢未做
+- Fact Map 好似漏咗資料
+- name / alias 唔齊
+- 角色設定漏抽
+- 事件 / timeline / relationship 未完整
+- 驗證似假完成
+
+## REMEDIATE_COMPLETENESS_GAPS
+
+Fill missing required fact dimensions found by COMPLETENESS_AUDIT.
 
 ---
 
 # Output Folder
 
-Default folder:
+Default:
 
 ```text
 canon/_working/canon_fact_map/
 ```
 
-If the project uses:
+If project uses:
 
 ```text
 canon_working/
@@ -116,8 +145,6 @@ then use:
 canon_working/canon_fact_map/
 ```
 
-Create the folder if missing.
-
 ---
 
 # Required Persistent Files
@@ -125,27 +152,48 @@ Create the folder if missing.
 The skill must create and maintain:
 
 ```text
-canon/_working/canon_fact_map/DOC_REGISTER.md
-canon/_working/canon_fact_map/CLAIM_INDEX.md
-canon/_working/canon_fact_map/CHARACTER_FACTS.md
-canon/_working/canon_fact_map/EVENT_FACTS.md
-canon/_working/canon_fact_map/TIMELINE_FACTS.md
-canon/_working/canon_fact_map/WORLD_RULE_FACTS.md
-canon/_working/canon_fact_map/THEME_FACTS.md
-canon/_working/canon_fact_map/RELATIONSHIP_FACTS.md
-canon/_working/canon_fact_map/TERMINOLOGY_FACTS.md
-canon/_working/canon_fact_map/DESIGN_GAPS.md
-canon/_working/canon_fact_map/SOURCE_GAPS.md
-canon/_working/canon_fact_map/CONFLICT_CANDIDATES.md
-canon/_working/canon_fact_map/VALIDATION_REPORT.md
-canon/_working/canon_fact_map/BUILD_LEDGER.md
+DOC_REGISTER.md
+CLAIM_INDEX.md
+CHARACTER_FACTS.md
+CHARACTER_NAME_FACTS.md
+CHARACTER_STATE_FACTS.md
+CHARACTER_KNOWLEDGE_FACTS.md
+EVENT_FACTS.md
+TIMELINE_FACTS.md
+RELATIONSHIP_FACTS.md
+WORLD_RULE_FACTS.md
+TERMINOLOGY_FACTS.md
+THEME_FACTS.md
+DESIGN_GAPS.md
+SOURCE_GAPS.md
+CONFLICT_CANDIDATES.md
+VALIDATION_REPORT.md
+BUILD_LEDGER.md
+COVERAGE_MATRIX.md
+MISSING_FACT_DIMENSIONS.md
+FACT_ID_REGISTRY.md
+FACT_MAP_SCHEMA.md
 ```
 
-Optional but recommended:
+Optional audit folder:
 
 ```text
-canon/_working/canon_fact_map/FACT_MAP_SCHEMA.md
-canon/_working/canon_fact_map/FACT_ID_REGISTRY.md
+audits/
+```
+
+Recommended audit files:
+
+```text
+audits/COMPLETENESS_AUDIT_SUMMARY.md
+audits/CHARACTER_COVERAGE_AUDIT.md
+audits/EVENT_COVERAGE_AUDIT.md
+audits/WORLD_RULE_COVERAGE_AUDIT.md
+audits/RELATIONSHIP_COVERAGE_AUDIT.md
+audits/TIMELINE_COVERAGE_AUDIT.md
+audits/THEME_COVERAGE_AUDIT.md
+audits/TERMINOLOGY_COVERAGE_AUDIT.md
+audits/SOURCE_TRACE_AUDIT.md
+audits/TEMP_DRAFT_UPLIFT_AUDIT.md
 ```
 
 ---
@@ -155,20 +203,33 @@ canon/_working/canon_fact_map/FACT_ID_REGISTRY.md
 This skill must not:
 
 - rewrite story prose
-- update project-level status files
-- update NEXT_ACTION / PROJECT_STATUS / SESSION_LEDGER
-- ask Beat Sheet placement questions
+- update PROJECT_STATUS / NEXT_ACTION / SESSION_LEDGER
+- update project-level QUESTION_QUEUE
+- start Beat Sheet
 - ask scene placement questions
-- decide approval / readiness
+- ask design-gap questions
+- declare project readiness
 - promote TEMP-only claims into canon
 - invent missing facts
 - smooth contradictions with literary prose
 
-If contradiction is found, record it in `CONFLICT_CANDIDATES.md`.
+If contradiction is found, record it in:
 
-If author decision is required, record the exact content-truth question candidate, but do not ask unless user specifically says this run should ask questions.
+```text
+CONFLICT_CANDIDATES.md
+```
 
-If a design gap is found, record it in `DESIGN_GAPS.md`, not as contradiction.
+If a source is missing, record it in:
+
+```text
+SOURCE_GAPS.md
+```
+
+If a design gap is found, record it in:
+
+```text
+DESIGN_GAPS.md
+```
 
 ---
 
@@ -182,14 +243,16 @@ When scanning `canon/`, include story-content files:
 - series bible
 - story outline canon
 - act outlines
-- character index / character docs
+- character index
+- character docs
 - world rules
 - glossary
 - timeline canon
 - theme docs
 - reveal docs
-- approved decision logs / CDL / author decisions
-- active working story docs when needed as candidate newer truth
+- decision logs / CDL / author decisions
+- approved working docs
+- active working story docs if they contain candidate newer truth
 
 ## Exclude by default
 
@@ -206,72 +269,7 @@ approval status files
 project progress files
 ```
 
-These are workflow files.
-
-They may be mentioned in `DOC_REGISTER.md` as excluded sources, but they must not contribute canon facts.
-
----
-
-# Document Register
-
-For every inspected file, write to:
-
-```text
-DOC_REGISTER.md
-```
-
-Required columns:
-
-```markdown
-| Doc ID | File | Type | Status | Authority | Freshness | Version/Date | Canon Use | Exclude Reason | Notes |
-|---|---|---|---|---|---|---|---|---|---|
-```
-
-## Type values
-
-- STORY_BRIEF
-- SERIES_BIBLE
-- FULL_OUTLINE
-- ACT_OUTLINE
-- CHARACTER_DOC
-- WORLD_RULE_DOC
-- TIMELINE_DOC
-- THEME_DOC
-- REVEAL_DOC
-- GLOSSARY
-- DECISION_LOG
-- WORKING_OUTLINE
-- TEMP_DRAFT
-- BACKUP
-- WORKFLOW_STATE
-- UNKNOWN
-
-## Status values
-
-- CANON
-- APPROVED
-- ACTIVE_WORKING
-- DRAFT
-- TEMP
-- BACKUP
-- DEPRECATED
-- WORKFLOW_ONLY
-- UNKNOWN
-
-## Authority values
-
-- HIGH
-- MEDIUM
-- LOW
-- EXCLUDED
-
-## Canon Use values
-
-- TRUTH_SOURCE
-- CANDIDATE_TRUTH_SOURCE
-- NAVIGATION_ONLY
-- VALIDATION_TARGET
-- EXCLUDED
+They may be listed as excluded in DOC_REGISTER, but must not contribute canon facts.
 
 ---
 
@@ -279,52 +277,36 @@ Required columns:
 
 Every claim must be one concrete statement.
 
-Bad:
+Good examples:
 
 ```text
-晴香的罪與救贖非常複雜，連結了黑奏與世界命運。
-```
-
-Good:
-
-```text
-晴香在102年改變現實，創造 Beta 線。
-```
-
-```text
-夕在 Phase J 成功執行改變現實，但結果沒有修復創傷。
-```
-
-```text
-朱音在 Day 14 的帝國廣場救援中犧牲。
-```
-
-```text
-嘆息之橋目前沒有已定 canon 事件，只是待場面設計的新用途。
+彩的原名是澄川彩。
+彩被帝國皇帝收養後改名為神樂彩。
+黑奏是彩的另一人格 / 帝國皇帝人格。
+夕在改變現實時成功執行，但結果沒有修復創傷。
+朱音在帝國廣場救援事件中犧牲。
+嘆息之橋目前是 DESIGN_GAP_ONLY，沒有已定 canon 事件。
 ```
 
 ---
 
 # Claim Index
 
-All extracted claims go into:
-
-```text
-CLAIM_INDEX.md
-```
+All extracted claims go into CLAIM_INDEX.md.
 
 Format:
 
 ```markdown
-# Claim Index
-
-| Claim ID | Claim Text | Claim Type | Subject | Predicate | Object/Value | Source Doc | Source Section | Authority | Freshness | Support | Confidence | Status |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Claim ID | Claim Text | Claim Type | Subject | Predicate | Object/Value | Source Doc | Source Section | Authority | Freshness | Support | Confidence | Status | Fact ID |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
-## Claim Type values
+Claim Type values:
 
 - CHARACTER_FACT
+- CHARACTER_NAME_FACT
+- CHARACTER_STATE_FACT
+- CHARACTER_KNOWLEDGE_FACT
 - EVENT_FACT
 - TIMELINE_FACT
 - WORLD_RULE_FACT
@@ -336,170 +318,290 @@ Format:
 - SOURCE_GAP
 - CHARACTER_BELIEF
 - RHETORIC
+- ACCUSATION
 - PRESENTATION_NOTE
 - UNSUPPORTED_GLUE
-
-## Status values
-
-- CURRENT_FACT_CANDIDATE
-- CURRENT_FACT
-- STALE_CLAIM
-- CONTRADICTED
-- TEMP_ONLY
-- BACKUP_ONLY
-- NEEDS_AUTHOR_DECISION
-- DESIGN_GAP_ONLY
-- SOURCE_NEEDED
-- EXCLUDED
 
 ---
 
 # Fact ID Rules
 
-Each canonical fact should have stable ID.
+Each fact must have stable ID.
 
-Recommended prefixes:
+Prefixes:
 
 ```text
-CF-CHAR-0001   Character fact
-CF-EVT-0001    Event fact
-CF-TIME-0001   Timeline fact
-CF-WORLD-0001  World rule fact
-CF-THEME-0001  Theme fact
-CF-REL-0001    Relationship fact
-CF-TERM-0001   Terminology fact
-CF-GAP-0001    Design gap
+CF-CHAR-####   Character general fact
+CF-NAME-####   Character name / alias / rename fact
+CF-STATE-####  Character body/survival/transformation/knowledge state
+CF-EVT-####    Event fact
+CF-TIME-####   Timeline / dependency fact
+CF-WORLD-####  World rule fact
+CF-THEME-####  Theme fact
+CF-REL-####    Relationship fact
+CF-TERM-####   Terminology fact
+CF-GAP-####    Design gap
 ```
 
-Do not create new IDs for the same fact unless meaning changed.
-
-If wording changes but fact stays same, update alias / source support.
+Do not create duplicate IDs for same fact.
 
 ---
 
-# Fact Tables
+# Required Fact Tables
 
 ## CHARACTER_FACTS.md
 
-Use for stable character facts.
-
-Format:
+General stable character facts.
 
 ```markdown
-# Character Facts
-
 | Fact ID | Character | Attribute | Current Value | Status | Canon Source | Supporting Sources | Conflicting Claims | Confidence | Notes |
 |---|---|---|---|---|---|---|---|---|---|
 ```
 
-Attributes include:
+Required attributes per major character:
 
-- age
-- identity
-- true name
-- alias
+- current canonical identity
 - role
-- survival state
-- transformation state
-- trauma origin
-- motivation
-- core relationship
-- death event
-- key action
-- knowledge state
-- author-confirmed interpretation
+- faction / affiliation
+- core motivation
+- core trauma
+- main arc
+- key relationship anchors
+- final known state
+- source authority
+
+## CHARACTER_NAME_FACTS.md
+
+Required. Name and alias chains.
+
+```markdown
+| Fact ID | Character | Name Type | Name Value | Applies To | Rename / Usage Cause | Source Doc | Source Claim ID | Status | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+```
+
+Name Type values:
+
+- birth_name
+- original_name
+- current_name
+- adopted_name
+- imperial_name
+- alias
+- codename
+- personality_name
+- title
+- idol_name
+- stage_name
+- alpha_name
+- beta_name
+- deprecated_name
+- temp_only_name
+
+Required for every major character:
+
+- current_name
+- display_name
+- alias mapping if any alias appears in canon
+- personality_name if split personality exists
+- codename if Unit / system name exists
+- former name if name changed
+- rename/adoption/transformation cause if known
+- status of each name
+
+If any role/name chain is incomplete, record:
+
+```text
+NAME_CHAIN_INCOMPLETE
+```
+
+in MISSING_FACT_DIMENSIONS.md.
+
+Example for 彩:
+
+```text
+original_name = 澄川彩
+adopted / imperial / current name = 神樂彩
+personality_name = 黑奏
+short display name = 彩
+rename cause = 帝國皇帝收養後改名
+```
+
+## CHARACTER_STATE_FACTS.md
+
+Required. Body, survival, transformation, knowledge, and identity-state facts.
+
+```markdown
+| Fact ID | Character | State Type | State Value | Applies When | Cause / Trigger | Source Doc | Source Claim ID | Status | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+```
+
+State Type values:
+
+- alive_dead
+- survival_state
+- corpse_state
+- magical_girl_state
+- transformation_state
+- unit_state
+- body_ownership
+- personality_state
+- memory_state
+- knowledge_state
+- denial_state
+- reality_state
+- role_state
+
+Required checks:
+
+- no character acts after death unless explained by state
+- transformation state has trigger/source
+- Unit state has source
+- knowledge/reveal state is not confused with objective truth
+- personality state is separated from legal/current name
+
+## CHARACTER_KNOWLEDGE_FACTS.md
+
+Required if story has reveal control.
+
+```markdown
+| Fact ID | Character | Knows What | When Known | How Learned | Belief vs Truth | Source Doc | Source Claim ID | Status |
+|---|---|---|---|---|---|---|---|---|
+```
+
+Required for:
+
+- Haruka knowing / denying creator truth
+- Miyako identity reveal
+- Rin / Unit 00 truth
+- Kurosou / Aya truth
+- Yu / reality change truth
+- any Act II/III reveal with audience-control significance
 
 ## EVENT_FACTS.md
 
 ```markdown
-# Event Facts
-
 | Fact ID | Event | Date/Time | Location | Participants | Outcome | Status | Canon Source | Supporting Sources | Conflicting Claims | Confidence | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|
 ```
 
-Status values:
+Required event dimensions:
 
-- CANON_CONFIRMED
-- CANDIDATE_CANON
-- DESIGN_GAP_ONLY
-- SUPERSEDED
-- NEEDS_AUTHOR_DECISION
+- event name
+- date/time
+- location
+- participants
+- causal trigger
+- direct outcome
+- downstream consequence
+- character state changes
+- knowledge/reveal changes
+- world-rule impact
+- design gap status if event is not fixed
 
 ## TIMELINE_FACTS.md
 
 ```markdown
-# Timeline Facts
-
 | Fact ID | Date/Order | Event | Before | After | Dependencies | Canon Source | Conflicts | Confidence |
 |---|---|---|---|---|---|---|---|
 ```
 
+Required checks:
+
+- before/after dependencies
+- event cannot depend on future event
+- no circular dependencies
+- death/sacrifice before later action
+- age/time calculation
+- Alpha/Beta/reality split dates
+- reveal order if knowledge state matters
+
 ## WORLD_RULE_FACTS.md
 
 ```markdown
-# World Rule Facts
-
-| Fact ID | Rule | Definition | Cost | Trigger | Exception | Canon Source | Conflicts | Confidence | Notes |
-|---|---|---|---|---|---|---|---|---|
+| Fact ID | Rule | Definition | Cost | Trigger | Exception | Related Events | Related Characters | Canon Source | Conflicts | Confidence | Notes |
+|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
-## THEME_FACTS.md
+Required dimensions:
 
-```markdown
-# Theme Facts
+- definition
+- trigger
+- cost
+- exception
+- limitation
+- user / actor
+- affected target
+- related events
+- source authority
+- contradiction candidates
 
-| Fact ID | Theme Claim | Meaning | Supported Scenes | Canon Source | Conflicts | Confidence | Notes |
-|---|---|---|---|---|---|---|
-```
+Must distinguish:
+
+- world rule
+- metaphor
+- character belief
+- institution propaganda
+- rhetorical accusation
 
 ## RELATIONSHIP_FACTS.md
 
 ```markdown
-# Relationship Facts
-
-| Fact ID | Character A | Character B | Relationship Truth | Status | Canon Source | Conflicts | Confidence | Notes |
-|---|---|---|---|---|---|---|---|
+| Fact ID | Character A | Character B | Relationship Type | Initial State | Arc Progression | Final State | Power Dynamic | Key Events | Canon Source | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
 ```
+
+Required dimensions:
+
+- relationship truth
+- emotional direction A→B
+- emotional direction B→A
+- power dynamic
+- knowledge asymmetry
+- relationship turning points
+- final state
+- conflict / betrayal / care / dependency markers
 
 ## TERMINOLOGY_FACTS.md
 
 ```markdown
-# Terminology Facts
-
-| Fact ID | Term | Definition | Preferred Spelling | Forbidden / Deprecated Forms | Canon Source | Conflicts | Confidence |
-|---|---|---|---|---|---|---|
+| Fact ID | Term | Definition | Preferred Spelling | Forbidden / Deprecated Forms | Usage Context | Canon Source | Status |
+|---|---|---|---|---|---|---|---|
 ```
+
+Required dimensions:
+
+- preferred spelling
+- variants
+- deprecated forms
+- Japanese / Chinese / English forms if applicable
+- anchor / glossary ID
+- usage context
+- related world rule / character / event
+
+## THEME_FACTS.md
+
+```markdown
+| Fact ID | Theme | Aspect | Expression Method | Character Bearer(s) | Arc Integration | Supporting Events | Narrative Validation | Canon Source | Status |
+|---|---|---|---|---|---|---|---|---|---|
+```
+
+Required distinction:
+
+- what character believes
+- what the story shows
+- what final narrative stance is
+- whether theme is validated / complicated / rejected / transformed
 
 ---
 
-# Design Gaps Are Not Contradictions
+# DESIGN_GAPS.md
 
-Use:
-
-```text
-DESIGN_GAPS.md
-```
-
-for unresolved design / scene / presentation tasks.
-
-Format:
+Design gaps are not contradictions.
 
 ```markdown
-# Design Gaps
-
 | Gap ID | Summary | Affected Area | Why Not Canon Contradiction | Suggested Later Layer | Status |
 |---|---|---|---|---|---|
 ```
-
-Examples:
-
-- 嘆息之橋新用途未細化
-- 凜相關場景位置待設計
-- 主角團前往帝國廣場的新進場動機待場面設計
-- 某 reveal 的 presentation timing 未定
-
-These must not be exported as author questions.
 
 Status values:
 
@@ -508,7 +610,7 @@ Status values:
 - BEAT_SHEET_LAYER
 - SOURCE_NOTE_ONLY
 
-Forbidden statuses:
+Forbidden:
 
 - AUTHOR_GATE
 - WAITING_FOR_AUTHOR
@@ -517,152 +619,121 @@ Forbidden statuses:
 
 ---
 
-# Source Gaps
+# MISSING_FACT_DIMENSIONS.md
 
-Use:
+Required.
 
-```text
-SOURCE_GAPS.md
-```
-
-when a fact may exist but source support is missing.
-
-Format:
+Any missing required dimension must be recorded here.
 
 ```markdown
-# Source Gaps
-
-| Gap ID | Missing Source / Claim | Why Needed | Affected Fact IDs | Blocking? | Suggested Search |
-|---|---|---|---|---|---|
+| Missing ID | Entity Type | Entity | Missing Dimension | Why Required | Affected Table | Severity | Suggested Remediation |
+|---|---|---|---|---|---|---|---|
 ```
+
+Severity:
+
+- HIGH
+- MEDIUM
+- LOW
+
+Examples:
+
+```text
+Character 彩 missing original_name/adopted_name/personality_name mapping.
+Event 嘆息之橋 missing fixed canon event status; classify as DESIGN_GAP_ONLY.
+World rule 情緒守恆 missing exception / cost source.
+Relationship X-Y missing B→A emotional direction.
+Theme responsibility vs blame missing final narrative stance.
+```
+
+A Fact Map cannot be considered complete while any HIGH missing dimension remains.
 
 ---
 
-# Conflict Candidates
+# COVERAGE_MATRIX.md
 
-Use:
+Required. This is the main completeness control file.
 
-```text
-CONFLICT_CANDIDATES.md
-```
-
-for potential contradictions found during fact extraction.
-
-Format:
+## Character Coverage Matrix
 
 ```markdown
-# Conflict Candidates
-
-| Conflict ID | Conflict Type | Summary | Related Fact IDs | Related Claim IDs | Source A | Source B | Suggested Classification | Needs Author? |
+| Character | General Facts | Name Chain | State Facts | Knowledge Facts | Relationships | Timeline Links | Theme Links | Coverage Status |
 |---|---|---|---|---|---|---|---|---|
 ```
 
-Conflict Type:
+## Event Coverage Matrix
 
-- CHARACTER_FACT_CONFLICT
-- EVENT_FACT_CONFLICT
-- TIMELINE_CONFLICT
-- WORLD_RULE_CONFLICT
-- THEME_MEANING_CONFLICT
-- RELATIONSHIP_CONFLICT
-- TERMINOLOGY_CONFLICT
-- SOURCE_AUTHORITY_CONFLICT
-- DESIGN_GAP_NOT_CONFLICT
+```markdown
+| Event | Date | Location | Participants | Trigger | Outcome | Downstream Consequence | State Changes | Knowledge Changes | World Rule Impact | Coverage Status |
+|---|---|---|---|---|---|---|---|---|---|---|
+```
 
-`Needs Author?` must be true only for real content-truth conflicts.
+## World Rule Coverage Matrix
+
+```markdown
+| Rule | Definition | Trigger | Cost | Exception | Limitation | User/Actor | Affected Target | Events | Coverage Status |
+|---|---|---|---|---|---|---|---|---|---|
+```
+
+## Relationship Coverage Matrix
+
+```markdown
+| Pair | A→B Emotion | B→A Emotion | Power Dynamic | Knowledge Asymmetry | Turning Points | Final State | Coverage Status |
+|---|---|---|---|---|---|---|---|
+```
 
 ---
 
-# Validation Report
+# Completeness Audit Requirements
 
-Use:
+The fact map must run all checks:
 
-```text
-VALIDATION_REPORT.md
-```
+1. Doc Register completeness
+2. Claim traceability
+3. Character general fact coverage
+4. Character name / alias / rename chain coverage
+5. Character state / transformation / knowledge coverage
+6. Event date / location / participants / outcome coverage
+7. Timeline dependency coverage
+8. Relationship bidirectional coverage
+9. World rule definition / trigger / cost / exception coverage
+10. Terminology spelling / variant / deprecated form coverage
+11. Theme character-belief vs final-stance coverage
+12. Design gap filtering
+13. Source gap listing
+14. TEMP / draft uplift prevention
+15. Conflict candidates classification
 
-for automated checks.
-
-Required sections:
-
-```markdown
-# Validation Report
-
-## Summary
-
-## Checks Run
-
-### Character Fact Consistency
-### Event Venue / Date Consistency
-### Timeline Ordering
-### World Rule Consistency
-### Relationship Consistency
-### Theme Meaning Consistency
-### Terminology Consistency
-### Design Gap Filter
-### Source Authority / Freshness Check
-
-## Auto-Fix Candidates
-
-## Author-Decision Candidates
-
-## Design Gaps Recorded
-
-## Source Gaps
-
-## Recommended Next Skill
-```
-
-Recommended next skill usually:
-
-```text
-story-conflict-resolution-gate
-```
+If any of checks 3–11 are missing or only sample-checked, validation must not say 100%.
 
 ---
 
 # Multi-Agent Fact Extraction
 
-The builder must use multiple reviewer passes.
-
-## Required Reviewers
+Required reviewers:
 
 1. Doc Register Reviewer
-2. Character Fact Extractor
-3. Event / Timeline Fact Extractor
-4. World Rule Fact Extractor
-5. Relationship Fact Extractor
-6. Theme / Meaning Fact Extractor
-7. Terminology Extractor
-8. Source Authority Reviewer
-9. Design Gap Filter Reviewer
-10. Validation Reviewer
+2. Character General Fact Extractor
+3. Character Name / Alias Chain Extractor
+4. Character State / Transformation Extractor
+5. Character Knowledge / Reveal State Extractor
+6. Event / Timeline Fact Extractor
+7. World Rule Fact Extractor
+8. Relationship Fact Extractor
+9. Theme / Meaning Fact Extractor
+10. Terminology Extractor
+11. Source Authority Reviewer
+12. Design Gap Filter Reviewer
+13. Missing Dimension Reviewer
+14. Validation Reviewer
 
-Each reviewer must write results to the relevant fact-map file.
-
----
-
-# Design Gap Filter Reviewer
-
-This reviewer must prevent design gaps from becoming contradictions.
-
-It checks:
-
-- Is this a real canon fact conflict?
-- Or just scene placement?
-- Or Beat Sheet / btd placeholder?
-- Or presentation timing?
-- Or future design task?
-
-If not a contradiction, record in `DESIGN_GAPS.md`.
-
-Do not create author question.
+Each reviewer must write results to fact-map files.
 
 ---
 
 # Source Authority Rules
 
-When two claims disagree, rank by:
+When claims disagree, rank by:
 
 1. explicit author decision / CDL / decision log
 2. approved act outline
@@ -682,45 +753,9 @@ A TEMP file never becomes truth without support.
 
 ---
 
-# Claim Status Decision Rules
-
-## CURRENT_FACT
-
-Use only when:
-
-- strong source support
-- no unresolved conflict
-- not temp-only
-- not design gap
-- not merely character belief
-
-## CURRENT_FACT_CANDIDATE
-
-Use when likely current but needs validation.
-
-## NEEDS_AUTHOR_DECISION
-
-Use only for unresolved content-truth conflict.
-
-Do not use for design gaps.
-
-## DESIGN_GAP_ONLY
-
-Use for scene placement / btd / Beat Sheet / future staging issues.
-
-## TEMP_ONLY
-
-Use for claims found only in temp/draft without support.
-
-## STALE_CLAIM
-
-Use when a claim is outdated by stronger current source.
-
----
-
 # Character Belief vs Canon Truth
 
-Do not treat character dialogue / accusation / rhetoric as objective truth automatically.
+Do not treat dialogue / accusation / rhetoric as objective truth automatically.
 
 Classify as:
 
@@ -728,20 +763,9 @@ Classify as:
 - RHETORIC
 - ACCUSATION
 - OBJECTIVE_FACT
+- HALF_TRUE_CAUSALITY
 
-Example:
-
-```text
-黑奏說「你給了我力量」
-```
-
-Could be:
-
-- OBJECTIVE_FACT if supported by world rule / decision log
-- RHETORIC if used as psychological attack
-- HALF_TRUE_CAUSALITY if author decision says so
-
-If unclear, create conflict candidate / author-decision candidate.
+If unclear, create conflict candidate.
 
 ---
 
@@ -753,80 +777,61 @@ If unclear, create conflict candidate / author-decision candidate.
 DESIGN_GAP_ONLY
 ```
 
-Do not convert into contradiction unless another source asserts a concrete incompatible fact.
+Do not convert into contradiction unless another source asserts incompatible fixed fact.
 
 ---
 
-# Validation Checks
+# Validation Report
 
-Run at least these checks:
-
-## Character Checks
-
-- age consistency
-- death/survival state consistency
-- true identity / alias consistency
-- relationship consistency
-- trauma origin consistency
-- transformation state consistency
-
-## Event Checks
-
-- event venue consistency
-- event date consistency
-- participant consistency
-- outcome consistency
-- duplicate event with different names
-- design gap incorrectly treated as canon
-
-## Timeline Checks
-
-- before/after dependencies
-- death before later action
-- reality rewrite order
-- reveal order if it affects knowledge state
-
-## World Rule Checks
-
-- Alpha/Beta logic
-- reality change rules
-- emotional conservation
-- collective unconscious
-- magical girl / corpse rules
-- ending mechanics
-
-## Theme Checks
-
-- responsibility vs blame
-- forced transparency vs true connection
-- voluntary choice vs coercion
-- healing vs erasure
-- punishment vs consequence
-
-## Terminology Checks
-
-- preferred spelling
-- duplicate anchors
-- deprecated terms
-- mixed orthography
-
----
-
-# Build Ledger
-
-Use:
-
-```text
-BUILD_LEDGER.md
-```
-
-Format:
+VALIDATION_REPORT.md must include:
 
 ```markdown
+# Validation Report
+
+## Summary
+
+## Checks Run
+
+### Doc Register Completeness
+### Claim Traceability
+### Character General Fact Coverage
+### Character Name / Alias Chain Coverage
+### Character State / Transformation / Knowledge Coverage
+### Event Coverage
+### Timeline Dependency Coverage
+### Relationship Bidirectional Coverage
+### World Rule Coverage
+### Terminology Coverage
+### Theme Coverage
+### Design Gap Filter
+### Source Gap Register
+### Temp/Draft Uplift Prevention
+### Conflict Candidate Classification
+
+## Checks Not Fully Supported
+
+## Auto-Fix Candidates
+
+## Author-Decision Candidates
+
+## Design Gaps Recorded
+
+## Source Gaps
+
+## Recommended Next Skill
+```
+
+Never say all checks pass if required tables / dimensions are missing.
+
+---
+
 # Build Ledger
 
-| Build ID | Mode | Scope | Files Read | Claims Extracted | Facts Updated | Conflicts Found | Design Gaps | Source Gaps | Status |
-|---|---|---|---|---|---|---|---|---|---|
+BUILD_LEDGER.md format:
+
+```markdown
+| Build ID | Mode | Scope | Files Read | Claims Extracted | Facts Updated | Missing Dimensions | Conflicts Found | Design Gaps | Source Gaps | Status |
+|---|---|---|---|---|---|---|---|---|---|---|
 ```
 
 ---
@@ -841,124 +846,184 @@ Every run must output:
 4. Documents registered
 5. Claims extracted
 6. Current facts updated
-7. Conflict candidates found
-8. Design gaps recorded
-9. Source gaps recorded
-10. Validation summary
-11. Recommended next skill/action
+7. Missing dimensions found
+8. Coverage matrix result
+9. Conflict candidates found
+10. Design gaps recorded
+11. Source gaps recorded
+12. Validation summary
+13. Final status
 
 Do not output project readiness.
 
-Do not say canon is ready for Beat Sheet.
+Do not say ready for Beat Sheet.
 
-Use:
+Use statuses:
 
 ```text
-FACT_MAP_BUILT
+FACT_MAP_PARTIAL_BUILT
 FACT_MAP_UPDATED
-VALIDATION_REPORT_READY
+FACT_MAP_NEEDS_COMPLETENESS_REMEDIATION
+FACT_MAP_COMPLETENESS_AUDIT_PASSED
+FACT_MAP_BUILT_READY_FOR_USE_PENDING_LIMITATIONS
+FACT_MAP_BUILT
 FACT_MAP_BLOCKED_BY_SOURCE_GAP
 ```
 
 ---
 
-# Recommended Prompt
+# Recommended Prompt: Completeness Audit
 
 ```text
 /story-canon-fact-map-builder
 
-Mode: BUILD_FACT_MAP
+Mode: COMPLETENESS_AUDIT
 
-掃描 canon/ 內 story/canon 內容文件，建立 Canon Fact Map。
-唔好直接改 prose 文件。
-先將所有內容抽成 atomic claims，再整理成 fact tables。
+Scope:
+canon/_working/canon_fact_map/
 
-請建立 / 更新：
-- DOC_REGISTER
-- CLAIM_INDEX
-- CHARACTER_FACTS
-- EVENT_FACTS
-- TIMELINE_FACTS
-- WORLD_RULE_FACTS
-- THEME_FACTS
-- RELATIONSHIP_FACTS
-- TERMINOLOGY_FACTS
-- DESIGN_GAPS
-- SOURCE_GAPS
-- CONFLICT_CANDIDATES
-- VALIDATION_REPORT
-- BUILD_LEDGER
+審計目前 Fact Map 是否真的完整。
+重點不是再數 fact 數量，而是檢查有冇漏 required dimensions。
 
-要分清：
-- canon truth
-- character belief
-- rhetoric
-- temp/draft
-- design gap
-- btd placeholder
-- stale claim
-- unsupported glue
+必查：
+1. 每個主要角色是否有 Name / Alias / Rename Chain
+2. 每個主要角色是否有 survival / transformation / personality / knowledge state
+3. 每個主要事件是否有 date / location / participants / trigger / outcome / downstream consequence
+4. 每個關係是否有 A→B / B→A / power dynamic / turning point / final state
+5. 每個世界規則是否有 definition / trigger / cost / exception / limitation
+6. 每個主題是否區分 character belief / story shows / final narrative stance
+7. 每個術語是否有 preferred spelling / variants / deprecated forms
+8. DESIGN_GAP 是否沒有被當成 contradiction
+9. TEMP / draft 是否沒有被提升成 CURRENT_FACT
 
-Design gap 唔好當矛盾。
-唔好問我場景放邊。
-唔好更新 PROJECT_STATUS / NEXT_ACTION / SESSION_LEDGER。
+請生成 / 更新：
+- COVERAGE_MATRIX.md
+- MISSING_FACT_DIMENSIONS.md
+- audits/COMPLETENESS_AUDIT_SUMMARY.md
+- VALIDATION_REPORT.md
+- BUILD_LEDGER.md
+
+如果任何 HIGH missing dimension 存在，不准標 FACT_MAP_BUILT。
+```
+
+---
+
+# Recommended Prompt: Remediate Missing Dimensions
+
+```text
+/story-canon-fact-map-builder
+
+Mode: REMEDIATE_COMPLETENESS_GAPS
 
 Scope:
 canon/
+
+根據 MISSING_FACT_DIMENSIONS.md 補齊缺失 fact dimensions。
+
+優先處理 HIGH severity：
+- character name / alias / rename chain
+- character survival / transformation / knowledge state
+- event trigger / outcome / downstream consequence
+- relationship bidirectional state
+- world rule cost / exception / limitation
+- theme character belief vs final stance
+
+不要改 story prose。
+只更新 canon_fact_map/。
+如果 source 不足，寫 SOURCE_GAPS.md。
+如果只是設計缺口，寫 DESIGN_GAPS.md。
+完成後 rerun COMPLETENESS_AUDIT。
 ```
 
 ---
 
 # Recommended Pipeline
 
-After building fact map:
-
 ```text
+/story-canon-fact-map-builder
+Mode: COMPLETENESS_AUDIT
+
+→ if missing dimensions:
+
+/story-canon-fact-map-builder
+Mode: REMEDIATE_COMPLETENESS_GAPS
+
+→ rerun audit
+
 /story-conflict-resolution-gate
-
 Mode: CANON_WIDE_CONFLICT_LOOP
-
 Use canon/_working/canon_fact_map/ as primary validation input.
-Patch outdated story/canon files using Canon Fact Map.
-Ask me only for CONFLICT_CANDIDATES where Needs Author = true.
 ```
 
 ---
 
 # Failure Handling
 
-## If agent starts rewriting prose
+## If agent claims built while required dimensions missing
 
 Self-correct:
 
 ```text
 Workflow correction:
-This skill builds Canon Fact Map only. I will not rewrite story prose in this step.
+Fact count is not completeness. Required fact dimensions are missing.
+I will mark FACT_MAP_NEEDS_COMPLETENESS_REMEDIATION.
 ```
 
-## If agent treats design gap as contradiction
+## If name/alias chain is missing
 
 Self-correct:
 
 ```text
 Workflow correction:
-This is a design/presentation gap, not a canon contradiction. I will record it in DESIGN_GAPS.md.
+Character identity validation is incomplete without name/alias/rename chain.
+I will create/update CHARACTER_NAME_FACTS.md and MISSING_FACT_DIMENSIONS.md.
 ```
 
-## If agent compares prose directly without claims
+## If state/knowledge facts are missing
 
 Self-correct:
 
 ```text
 Workflow correction:
-I compared prose directly. I will extract atomic claims first and rebuild the fact map.
+Character validation is incomplete without survival/transformation/personality/knowledge state.
+I will create/update CHARACTER_STATE_FACTS.md and CHARACTER_KNOWLEDGE_FACTS.md.
 ```
 
-## If agent updates project-level files
+## If event lacks trigger/outcome/downstream consequence
 
 Self-correct:
 
 ```text
 Workflow correction:
-Project-level workflow files must not be updated by fact-map builder.
+Event validation is incomplete without trigger, outcome, and downstream consequence.
+I will update EVENT_FACTS.md and COVERAGE_MATRIX.md.
+```
+
+## If relationship lacks bidirectional state
+
+Self-correct:
+
+```text
+Workflow correction:
+Relationship validation is incomplete without A→B and B→A state.
+I will update RELATIONSHIP_FACTS.md and coverage audit.
+```
+
+## If theme lacks final narrative stance
+
+Self-correct:
+
+```text
+Workflow correction:
+Theme validation is incomplete without distinguishing character belief, story evidence, and final narrative stance.
+I will update THEME_FACTS.md.
+```
+
+## If agent rewrites prose
+
+Self-correct:
+
+```text
+Workflow correction:
+This skill builds Fact Map only. I will not rewrite story prose.
 ```

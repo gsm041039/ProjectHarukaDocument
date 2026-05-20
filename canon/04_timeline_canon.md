@@ -51,7 +51,7 @@
 - <a id="event-fence-encounter"></a>**鐵絲網偶遇**（CDL-288）：分歧事件發生前夕，5 歲晴香路過帝國實驗設施外圍，偶然目睹鐵絲網另一邊滿身傷痕、抱著爛熊公仔的彩正被守衛拖走。晴香在潛意識中許下天真願望：「如果有一個好強的人可以永遠保護佢就好了。」此許願成為創世能量的因果信標，在改變現實爆發時精準賦予黑奏人格魔法力量。此事件係 Act III 黑奏三段擊處刑的核心揭示，**敘事上扣起至 Act III 結尾**，不提前披露。
 - <a id="event-sisters-execution"></a>**姊妹的處刑**：[黑奏](03_characters/aya.md#section-kurokane)在晴香面前殺害花子和美夜子（**DFT-01 定案：花子與美夜子同時死亡，非先後**）<!-- Loop N：黑奏帶著跨循環記憶主動確保死亡發生；Loop 0 為初始意外，見 CDL-289 -->
 - <a id="event-first-reality-change"></a>**第一次[改變現實](02_glossary.md#term-reality-change)**：晴香的悲痛透過靈樹（天然潛意識接口）引爆，創世因果能量湧出，將 Alpha 線覆寫為 Beta 線高魔世界；能量逆流擊中黑奏（具 Alpha 創傷共振條件），結合鐵絲網許願的因果信標，賦予黑奏魔法力量與 Soul Traversal 能力
-- 晴香的天真願望「如果家姐變做貓仔就唔會受傷」直接觸發美夜子的[避難所詛咒](02_glossary.md#term-shelter-curse)；機制條文見 [World Rules](01_world_rules_and_costs.md#section-alpha-beta)
+- 晴香的天真願望「如果家姐變做貓仔就唔會受傷」直接觸發美夜子的[避難所詛咒](02_glossary.md#term-sanctuary-curse)；機制條文見 [World Rules](01_world_rules_and_costs.md#section-alpha-beta)
 
 ### <a id="section-beta-line-history"></a><a id="event-beta-reset"></a>Beta 線重設
 
@@ -72,7 +72,7 @@
 | **103-108** | <a id="event-unit01"></a>**Unit 01 服役期**：復活後的美夜子被編入軍方，成為階段一兵器；與[凜](03_characters/rin.md)並肩作戰約 5 年，至 108 年凜犧牲止 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
 | **103-108** | <a id="event-saku-discovery"></a>**[朔](03_characters/saku.md)的發現**：朔在戰場上目睹 Unit 01，發現那是他死去的愛人 | 朔與美夜子的連結 |
 | **108** | <a id="event-rin-sacrifice"></a>**[凜](03_characters/rin.md)的犧牲**：凜為掩護美夜子撤離而犧牲，頸部被強行扭斷 | 凜死亡 |
-| **108** | <a id="event-shelter-curse-trigger"></a>**美夜子逃亡 / 詛咒首次觸發**：目睹凜犧牲後，[避難所詛咒](02_glossary.md#term-shelter-curse)啟動，靈魂壓縮進黑貓體內 | 黑貓美夜子誕生 |
+| **108** | <a id="event-shelter-curse-trigger"></a>**美夜子逃亡 / 詛咒首次觸發**：目睹凜犧牲後，[避難所詛咒](02_glossary.md#term-sanctuary-curse)啟動，靈魂壓縮進黑貓體內 | 黑貓美夜子誕生 |
 | **109** | <a id="event-rin-reconstruction"></a>**凜的重組**：黑奏將凜重新具現化為情緒管理局公務員，記憶被改寫 | Unit 00 原型 |
 | **109** | <a id="event-akane-trauma"></a>**朱音創傷事件**：14 歲的[朱音](03_characters/iwakura_akane.md)的弟弟誤食[情緒結晶](02_glossary.md#term-emotion-crystal)而死 | 朱音的創傷種子 |
 | **109** | <a id="event-pandora-protocol"></a>**潘朵拉協議**：黑奏開始「放養實驗」，等待晴香再次成熟 | 黑奏計劃啟動 |
@@ -174,7 +174,7 @@
 ### <a id="section-114-april"></a>114 年 4 月：真相揭露期
 
 - <a id="event-rin-truth-revealed"></a>**觀眾知道凜已死並被重組**：美夜子向晴香坦白凜的過去，觀眾首次明確得知凜在 108 年已死亡並被重組
-- <a id="event-curse-truth"></a>**詛咒真相揭露**：美夜子記憶恢復，記起自己是晴香的親姊姊，知道變貓是晴香 5 歲時的[避難所詛咒](02_glossary.md#term-shelter-curse)
+- <a id="event-curse-truth"></a>**詛咒真相揭露**：美夜子記憶恢復，記起自己是晴香的親姊姊，知道變貓是晴香 5 歲時的[避難所詛咒](02_glossary.md#term-sanctuary-curse)
 - <a id="event-saku-miyako-dejavu"></a><a id="event-saku-miyako-recognition"></a>**朔與美夜子的既視感追認**：美夜子在多次交戰中從朔的戰鬥習慣與保護動作辨認出「舊世界殘響」，朔亦首次確認 Unit 01 並非空殼兵器而是保留連結的活體存在
 - <a id="event-rin-final-collapse"></a>**凜的最終崩潰與自願改造**：凜推開晴香伸出的手，要求黑奏挖走所有感情，變成 Unit 00 - Null
 - <a id="event-miyako-missing"></a>**美夜子失蹤 / 愛莉潛意識風暴**：美夜子獨自調查凜下落被困，晴香帶隊救援成功——晴香從「被保護者」正式成為「保護者」
@@ -196,7 +196,7 @@
     - <a id="event-akane-return"></a>**朱音的回歸**：朱音穿著垃圾鎧甲突然出現，使用「過載變身」
     - <a id="event-akane-last-words"></a>**朱音的遺言**：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
     - **朱音犧牲**：朱音自爆化為糖果山（Day 14 帝國廣場）——與操 Day 13 鋼鐵獨舞共同構成「今日死一個，聽日再死一個」的錯位雙殺
-- <a id="event-curse-broken"></a>**詛咒打破**：美夜子強行打破[避難所詛咒](02_glossary.md#term-shelter-curse)，從此可以正常死亡
+- <a id="event-curse-broken"></a>**詛咒打破**：美夜子強行打破[避難所詛咒](02_glossary.md#term-sanctuary-curse)，從此可以正常死亡
 - <a id="event-miyako-awakening"></a>**美夜子的三段式覺醒與身份揭露**：
   - **第一段：貓殼碎裂**：在高壓連鎖事件後，美夜子的貓形偽裝無法維持，開始進入人形回流
   - **第二段：月下窗台的存在確認測試**：美夜子嘗試以純生理刺激確認「自己是否仍然活著」，但測試失敗，無法帶來存在感與安定感

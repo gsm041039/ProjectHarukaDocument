@@ -21,8 +21,8 @@
 
 | Fact ID | Event | Date | Location | Key Detail | Source |
 |---------|-------|------|----------|-----------|--------|
-| CF-EVT-0005 | Fence Encounter (鐵絲網偶遇) | Y102 | Empire research facility exterior | 5yo Haruka glimpses bloodied Aya in detention; wishes "if only she had a protector" | CDL-288, 04_timeline event-fence-encounter |
-| CF-EVT-0006 | Sisters' Execution | Y102 | [Alpha location TBD] | Kurokane shoots Hanako + Miyako in front of 5yo Haruka | 04_timeline event-sisters-execution |
+| CF-EVT-0005 | Fence Encounter (鐵絲網偶遇) | Y102 (pre-execution) | Empire research facility exterior | 5yo Haruka glimpses bloodied Aya being dragged; subconscious wish forms cause-effect beacon; core Act III revelation | CDL-288, 04_timeline event-fence-encounter, REASONING_LOG |
+| CF-EVT-0006 | Sisters' Execution | Y102 | [Alpha location TBD] | Kurokane executes Hanako + Miyako simultaneously in front of 5yo Haruka (DFT-01 confirmed: simultaneous death) | 04_timeline event-sisters-execution, DFT-01 |
 | CF-EVT-0007 | First Reality Override | Y102 | [Spirit Tree location] | Haruka's grief-powered consciousness overwrite triggered by wish to save sister | 04_timeline event-first-reality-change, 02_glossary term-reality-change |
 | CF-EVT-0008 | Wish Manifestation | Y102 | [Collective unconscious] | Haruka's wish "if sister became cat she wouldn't get hurt" → Shelter Curse activation on Miyako | 04_timeline |
 | CF-EVT-0009 | Beta Line Rewrite | Y102 | [All locations simultaneously] | World state overwritten: Alpha erased, Beta established; all Y102+ events rewritten | 02_glossary term-beta-line |
@@ -97,16 +97,18 @@
 | Fact ID | Event | Date | Location | Participants | Outcome | Source |
 |---------|-------|------|----------|--------------|---------|--------|
 | CF-EVT-0044 | [ACT III Outline Details] | Y114-03 → 05 | Multiple (detailed in ACT_III_OUTLINE v0.2) | Haruka, Team, Rin, Akane, Kurokane, Militia | Three weapons revealed; black sonata finale; false climax | 05_story_outline_canon, ACT_III_OUTLINE v0.2 DRAFT |
-| CF-EVT-0045 | Misao's Steel Solo | Y114-Day13 | School wall location | Misao (final form), Haruka team, Empire forces | Misao transforms into steel puppet; voluntary weaponization; death | CDL-218, CDL-233 |
-| CF-EVT-0046 | Akane's Empire Plaza Death | Y114-Day14 | Empire Plaza (Tears of Victoria square) | Akane, Empire forces, Public (watching) | Akane self-detonates; chosen exit with dignity; solo act (separate from Misao) | CDL-218 |
+| CF-EVT-0045 | Misao's Steel Solo (鋼鐵獨舞) — Day 13 | Y114-Day13 (afternoon) | School wall location | Misao (final form), Kurokane (confrontation), Haruka team (escape) | Space-closure mechanism triggers trolley problem; Misao chooses to stay and anchor space; transforms into steel puppet wall; dies as voluntary weapon | 05_story_outline_canon Act III I1:212-226 + CDL-218 + CDL-233 |
+| CF-EVT-0046 | Akane's Empire Plaza Rescue & Death — Day 14 | Y114-Day14 (noon) | Empire Plaza (Tears of Victoria square) | Akane (rescued), Haruka team (saves), Empire forces (surrounding), Public (witnessing) | Team penetrates execution site; Akane witnesses unconditional rescue; emotional reversal triggers self-detonation (active choice, not defeat); death as dignity reclamation; becomes candy mountain | 05_story_outline_canon Act III I3:236-243 + CDL-214 + CDL-218 |
+| CF-EVT-0047 | Fence Encounter (鐵絲網偶遇) — Alpha Divergence Precursor | Y102 (pre-execution) | Empire research facility exterior | 5yo Haruka (observer), Aya (detained), Empire guards (holding her) | Haruka glimpses bloodied Aya being dragged away; subconscious wish "if only she had a protector" forms cause-effect beacon; triggers reality override cascade; becomes core revelation of Act III (CDL-288) | 04_timeline event-fence-encounter + CDL-288 + REASONING_LOG |
+| CF-EVT-0048 | Y102 Sisters' Execution — Alpha Line Event | Y102 (moment following fence encounter) | [Alpha location unspecified] | Kurokane (executor), Hanako (victim), Miyako (victim), 5yo Haruka (witness) | Kurokane executes Hanako and Miyako in front of Haruka (simultaneous death per DFT-01); triggers Haruka's grief eruption; initiates first reality override (Beta line creation) | 04_timeline event-sisters-execution + DFT-01 + 09_information_design reveal-timing |
 
 ### Phase 6: The 20-Year Gap & Act IV (Y114 May–Y134 July)
 
 | Fact ID | Event | Date | Location | Participants | Outcome | Source |
 |---------|-------|------|----------|--------------|---------|--------|
-| CF-EVT-0047 | Scarlet Tide & Soul Storm | Y114-05 + | Collective unconscious + Reality breaches | All souls, World, Kurokane (ritual hub) | Emotional debt triggers cascading reality collapse; consciousness trapped 20 years | 02_glossary term-scarlet-tide, 01_world_rules L3 imbalance |
-| CF-EVT-0048 | Haruka's Stasis | Y114-05 → Y134-07 | [Spiritual dimension] | Haruka (consciousness), Miyako (guardian), World (sustained) | Haruka becomes "Static Cradle" — world's emotion filter; soul sleeps 20 years | haruka.md status-static-cradle |
-| CF-EVT-0049 | Act IV Awakening | Y134-07 | [Reopened world] | Haruka (conscious again), Miyako (cat waiting), Inhabitants (rebuilding) | Haruka wakes to reformed world; spirit damage healed; new reality emerges | 05_story_outline_canon Act IV, 03_character_index status |
+| CF-EVT-0049 | Scarlet Tide & Soul Storm | Y114-05 + | Collective unconscious + Reality breaches | All souls, World, Kurokane (ritual hub) | Emotional debt triggers cascading reality collapse; consciousness trapped 20 years | 02_glossary term-scarlet-tide, 01_world_rules L3 imbalance |
+| CF-EVT-0050 | Haruka's Stasis | Y114-05 → Y134-07 | [Spiritual dimension] | Haruka (consciousness), Miyako (guardian), World (sustained) | Haruka becomes "Static Cradle" — world's emotion filter; soul sleeps 20 years | haruka.md status-static-cradle |
+| CF-EVT-0051 | Act IV Awakening | Y134-07 | [Reopened world] | Haruka (conscious again), Miyako (cat waiting), Inhabitants (rebuilding) | Haruka wakes to reformed world; spirit damage healed; new reality emerges | 05_story_outline_canon Act IV, 03_character_index status |
 
 ---
 
@@ -122,12 +124,24 @@
 
 ---
 
-## Design Gaps in Event Records
+## Design Gaps in Event Records (Remediated & Remaining)
+
+### ✅ Remediated Gaps (now in fact tables)
+
+| Fact ID | Event | Status | Notes |
+|---------|-------|--------|-------|
+| CF-EVT-0045 | Misao's Day 13 Steel Solo trigger + decision mechanism | REMEDIATED | Now in EVENT_FACTS Phase 5 with full cost-signal + decision documentation |
+| CF-EVT-0046 | Akane's Day 14 Empire Plaza death + consequence | REMEDIATED | Now in EVENT_FACTS Phase 5 with rescue timing + self-sacrifice rationale |
+| CF-EVT-0047 | Fence Encounter (Y102) — trigger for Haruka's imprisonment | REMEDIATED | Now in EVENT_FACTS Alpha Divergence with cause-effect beacon explanation |
+| CF-EVT-0048 | Y102 Sisters' Execution — Alpha line truth | REMEDIATED | Now in EVENT_FACTS Alpha Divergence with DFT-01 simultaneous confirmation |
+
+### Remaining Design Gaps (not blocking Fact Map)
 
 | Fact ID | Event | Status | Note |
 |---------|-------|--------|------|
-| CF-EVT-0050 | Specific timing of Rin's reconstruction details | SOURCE_GAP | Y109 timing confirmed; ritual specifics deferred |
-| CF-EVT-0051 | Ko Hikaru's full name origin | SOURCE_GAP | "Ko" name only; given name/family unknown |
-| CF-EVT-0052 | Misao's father's name/appearances | SOURCE_GAP | Rejection dynamic confirmed; identity unknown |
-| CF-EVT-0053 | Specific locations of key battles (Act I-II) | NARRATIVE_MYSTERY | Intentionally vague for flexibility in Beat Sheet |
-| CF-EVT-0054 | Exact mechanism of Kurokane soul-traversal activation | INTENTIONAL_MYSTERY | Reserved for Act IV revelation |
+| CF-EVT-0052 | Specific timing of Rin's reconstruction ritual | BEAT_SHEET_LAYER | Y109 timing confirmed; ritual execution details deferred to scene design |
+| CF-EVT-0053 | Fence encounter placement in Act III outline | PRESENTATION_TODO | Event fact complete; where/how to reveal in Act III not yet specified (related to QQ-102) |
+| CF-EVT-0054 | Ko Hikaru's full name origin | DESIGN_GAP | "Ko" name only; surname/family unknown — possible intentional mystery |
+| CF-EVT-0055 | Misao's father's name/appearances | DESIGN_GAP | Rejection dynamic confirmed; identity unknown |
+| CF-EVT-0056 | Specific locations of key battles (Act I-II) | NARRATIVE_MYSTERY | Intentionally vague for flexibility in Beat Sheet |
+| CF-EVT-0057 | Exact mechanism of Kurokane soul-traversal activation | INTENTIONAL_MYSTERY | Reserved for Act IV revelation |

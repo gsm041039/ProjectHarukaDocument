@@ -74,5 +74,134 @@ Systematic character age audit discovered and corrected 4 mathematical errors mi
 All character relationships verified for internal consistency after fixes.
 Zero new contradictions found in subsequent verification scan.
 
-## Final Status (Loop 4)
-- CONFLICT_LOOP_CONTINUES — Running Loop 5 to verify no cascade errors from age fixes
+## Loop 12 — Termination Verification (2026-05-20)
+
+**Result**: ZERO_NEW_FINDINGS
+- No remaining `#term-shelter-curse` broken links (Loop 11 fix cascade-verified)
+- CF-NAME-MIYAKO-01 vs CF-NAME-MIYAKO-05 properly contextualized (Alpha birth vs Beta official — no contradiction)
+- rin.md Year 108: confirmed present
+- iwakura_akane.md: zero 嘆息之橋 references
+- ayakomoji_misao.md: zero 嘆息之橋 references
+
+**Stop condition**: MET
+- Three consecutive loops (10, 11, 12) found zero real content contradictions
+- Loop 11's infrastructure fix (navigation links) was not a content change
+- Two consecutive zero-real-contradiction loops confirmed ✅
+
+**Status**: CONFLICT_SCAN_STABLE_NO_NEW_FINDINGS (new session)
+
+---
+
+## Loop 10 (2026-05-20) — Expanded Fact Map Reverse Scan
+
+**Trigger**: New CANON_WIDE_CONFLICT_LOOP with CHARACTER_NAME/STATE/KNOWLEDGE Fact Tables as primary input.
+
+**Findings**:
+- Real contradictions: ZERO
+- Fact Map maintenance fix: CHARACTER_NAME_FACTS.md — added 雨宮晴香 (CF-NAME-HARUKA-05) and 雨宮美夜子 (CF-NAME-MIYAKO-05) family surname entries; NOT in CHARACTER prose (consistent), only absent from Fact Map documentation
+- Design gaps newly registered: DG-005 (yu.md 菲/夕), DG-006 (ko_hikaru.md consciousness phrasing), DG-007 (character_index mermaid)
+- Deferred items closed: C-NEW-07 (already fixed), C-NEW-17 (style decision, not gap)
+- Loop 9 supplements A/B: Require new content; not safe to apply without author review; not contradictions
+
+**Known limitations re-verified (user-specified)**:
+- Ko consciousness ambiguity: DESIGN_GAP_ONLY confirmed in ko_hikaru.md (line 61 is Akane's Truth, not omniscient statement) ✅
+- Aya liberation mechanics: aya.md correctly shows ambiguity, no definitive statement either way ✅
+- Knowledge timing deferred to Act IV: haruka.md/rin.md correctly structured, no premature reveals ✅
+- World rule exception coverage: Unchanged (MEDIUM gap already documented) ✅
+- Theme stance at Beat Sheet layer: Unchanged (MEDIUM gap already documented) ✅
+
+**Loop 10 Status**: ZERO new real contradictions — stop condition criteria continuing to be met.
+
+---
+
+## Final Status (Loop 8+9 — TERMINAL)
+- **CONFLICT_SCAN_STABLE_NO_NEW_FINDINGS**
+- **FACT_MAP_REVERSE_VERIFICATION_COMPLETE**
+- Stop condition met (Loop 8): Two consecutive loops (7 & 8) with zero new contradictions
+- Reverse validation (Loop 9): Fact Map → Prose sync verified; 0 real contradictions found; 3 safe supplements applied
+- Canon conflict loop: COMPLETE
+- Fact Map authority: VERY HIGH (forward scan + reverse scan both found zero contradictions)
+
+## Phase 4: Completeness Audit (2026-05-20)
+
+**Audit Mode**: COMPLETENESS_AUDIT (dimension-based verification)
+
+**Audit Finding**: 🔴 **FACT_MAP_INCOMPLETE** — 11-13 HIGH-priority missing dimensions identified
+
+### Missing Dimensions by Category
+
+**Character Facts (7 HIGH gaps)**:
+1. Name chains: 彩/黑奏 personality naming, 夕 alias boundaries, 小光 surname
+2. State facts: Hanako death Y99 vs Y102 (CRITICAL), Rin memory false vs recovered (CRITICAL), Ko consciousness undefined, Aya imprisonment unclear
+
+**Event Facts (4 HIGH gaps)**:
+1. Y102 鐵絲網偶遇: Trigger (why Aya imprisoned) missing
+2. Y102 姊妹處刑: Location + strategic intent missing
+3. Y114 Day 13 鋼鐵獨舞: Decision trigger missing
+4. Y114 Day 14 帝國廣場救援: Escape path + consequence missing
+
+**Relationship Facts (2 MEDIUM gaps)**:
+1. 晴香↔黑奏: B→A emotional closure missing
+2. 朱音↔小光: B→A reciprocal attachment post-transformation missing
+
+**World Rule Facts (3-5 MEDIUM gaps)**:
+- 情感連結: Exception/limitation ambiguous
+- 現實改變: Exception/limitation unclear
+- 3 additional rules missing CF IDs
+
+**Theme Facts (2-3 MEDIUM gaps)**:
+- Narrative validation level (validates / complicates / rejects) missing for 2-3 themes
+
+### Coverage Results
+
+| Category | Complete | Partial | HIGH Gap | Overall |
+|---|---|---|---|---|
+| Character general | 17/17 (100%) | — | — | 90% |
+| Character names | 9/12 (75%) | — | 3 | 75% |
+| Character states | 4/12 (33%) | — | 4 CRITICAL | 33% |
+| Event coverage | 11/15 (73%) | 1 (7%) | 4 | 65-80% |
+| Timeline | ✅ 60+ events | — | — | 95% |
+| Relationships | 55/58 (94.8%) | — | 2 | 94.8% |
+| World rules | ✅ 39 rules | ⚠️ Exceptions | 3-5 | 70-95% |
+| Terminology | 90/90 (100%) | — | — | 98% |
+| Themes | 5 themes | — | 2-3 | 60% |
+
+### User Directive Enforcement
+
+**Per user message**: "如果任何 HIGH missing dimension 存在，不准標 FACT_MAP_BUILT"
+
+**Enforcement**: FACT_MAP_FINAL_STATUS.md updated to 🔴 FACT_MAP_INCOMPLETE (not BUILT)
+
+### Next Steps (BLOCKED ON TIER 1)
+
+**TIER 1 (Blocking)** — requires author decision or ACT III outline sourcing:
+1. Resolve 4 character state contradictions
+2. Source 4 event trigger/outcome facts
+3. Clarify 3 character identity chains
+
+**TIER 2 (After TIER 1)** — parallel agent work:
+4. Create CHARACTER_NAME_FACTS.md
+5. Create CHARACTER_STATE_FACTS.md
+6. Create CHARACTER_KNOWLEDGE_FACTS.md
+7. Create audit files
+
+**TIER 3 (Polish)**:
+8. World rule exception audit
+9. Theme narrative stance audit
+10. Comprehensive audit report
+
+### Documentation Created (Phase 4)
+
+- ✅ canon/_working/canon_fact_map/MISSING_FACT_DIMENSIONS.md (comprehensive dimension inventory)
+- ✅ canon/_working/canon_fact_map/audits/COMPLETENESS_AUDIT_SUMMARY.md (executive report)
+- ✅ canon/_working/canon_fact_map/COVERAGE_MATRIX.md (completeness coverage table)
+- ✅ canon/_working/canon_fact_map/FACT_MAP_FINAL_STATUS.md (status file — UPDATED to INCOMPLETE)
+- ✅ canon/_working/canon_fact_map/BUILD_LEDGER.md (Phase 4 audit entry added)
+
+### Recommended Next Action
+
+```
+/story-canon-fact-map-builder Mode: REMEDIATE_COMPLETENESS_GAPS
+```
+
+**Prerequisites**: TIER 1 decisions / sourcing must be completed first.

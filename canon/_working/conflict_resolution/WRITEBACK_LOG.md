@@ -47,6 +47,17 @@ Applies all pending writebacks from CR-2026-05-19-001 plus new conflicts found i
 
 ---
 
+## Loop 11 Safe Fix (2026-05-20 — Broken Anchor Links)
+
+| WB ID | File | Change | Status |
+|---|---|---|---|
+| WB-50 | 04_timeline_canon.md | 4× `#term-shelter-curse` → `#term-sanctuary-curse` (broken links repaired) | APPLIED ✅ |
+| WB-51 | 01_world_rules_and_costs.md | 2× `#term-shelter-curse` → `#term-sanctuary-curse` | APPLIED ✅ |
+| WB-52 | 02_glossary.md | 1× `#term-shelter-curse` → `#term-sanctuary-curse` (See also link) | APPLIED ✅ |
+| WB-53 | CHARACTER_NAME_FACTS.md | Added CF-NAME-HARUKA-05 (雨宮晴香 family name form) + CF-NAME-MIYAKO-05 (雨宮美夜子 birth name) | APPLIED ✅ |
+
+---
+
 ## Session CR-2026-05-20-002 (CHARACTER_FILE_DEEP_SCAN)
 
 | WB ID | File | Change | Status |

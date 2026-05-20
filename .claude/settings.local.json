@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "*"
+      "*",
+      "Bash(Get-ChildItem -Path \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\03_characters\" -Filter \"*.md\")",
+      "Bash(Select-Object Name)",
+      "Bash(Get-ChildItem -Name *.md)",
+      "Bash(Select-String -Pattern \"WORLD|FACT\" -AllMatches)",
+      "Bash(Get-ChildItem -Path \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\canon_fact_map\" -ErrorAction SilentlyContinue)",
+      "Bash(Get-ChildItem \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\conflict_resolution\\\\\" -File | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime -Descending)"
     ],
     "ask": [
       "Bash(git commit:*)",

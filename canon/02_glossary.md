@@ -885,7 +885,7 @@ Beta 線本質的核心敘事隱喻。
   - [主線前期量產階段](04_timeline_canon.md#event-unit01)被投入戰場
   - 與[朔](03_characters/saku.md)重逢引發倫理衝突
 - 影響/代價：人格邊界受損、記憶與情感遭制度化切割。
-- See also：[避難所詛咒](#term-shelter-curse) | [潘朵拉協議](#term-pandora-protocol) | [美夜子](03_characters/miyako.md)
+- See also：[避難所詛咒](#term-sanctuary-curse) | [潘朵拉協議](#term-pandora-protocol) | [美夜子](03_characters/miyako.md)
 
 ### <a id="term-kurokanae"></a>黑奏（Kurokanae）
 - 一句定義：由彩在極端創傷下分裂出的保護者人格，後成為帝國最高權力核心。
