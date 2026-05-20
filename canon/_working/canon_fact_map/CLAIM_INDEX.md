@@ -9,6 +9,96 @@
 
 ---
 
+## CF-ID to Fact Table Mapping
+
+All CF-* claim IDs are traceable to their source fact tables:
+
+| CF-ID Range | Fact Table | Domain | Count | Maps To |
+|---|---|---|---|---|
+| CF-CHAR-0001–0025 | CHARACTER_FACTS.md | Haruka (雨宮晴香) | 25 | Rows 1-25 |
+| CF-CHAR-0026–0048 | CHARACTER_FACTS.md | Miyako (水無月美夜子) | 23 | Rows 26-48 |
+| CF-CHAR-0049–0063 | CHARACTER_FACTS.md | Akane (岩倉朱音) | 15 | Rows 49-63 |
+| CF-CHAR-0064–0083 | CHARACTER_FACTS.md | Misao (綾小路操) | 20 | Rows 64-83 |
+| CF-CHAR-0084–0092 | CHARACTER_FACTS.md | Saku (白銀朔) | 9 | Rows 84-92 |
+| CF-CHAR-0093–0107 | CHARACTER_FACTS.md | Akiho (東雲秋穗) | 15 | Rows 93-107 |
+| CF-CHAR-0108–0118 | CHARACTER_FACTS.md | Aeri (東雲愛莉) | 11 | Rows 108-118 |
+| CF-CHAR-0119–0136 | CHARACTER_FACTS.md | Aya/Kurokane (彩/黒音) | 18 | Rows 119-136 |
+| CF-CHAR-0137–0148 | CHARACTER_FACTS.md | Yu (夕 Shadow Self) | 12 | Rows 137-148 |
+| CF-CHAR-0149–0161 | CHARACTER_FACTS.md | Rin (綾瀨凜) | 13 | Rows 149-161 |
+| CF-CHAR-0162–0171 | CHARACTER_FACTS.md | Ko Hikaru (小光) | 10 | Rows 162-171 |
+| CF-WORLD-0001–0011 | WORLD_RULE_FACTS.md | Fundamental Laws | 11 | Fundamental Laws section |
+| CF-WORLD-0012–0017 | WORLD_RULE_FACTS.md | Magical System Rules | 6 | Magical System Rules section |
+| CF-WORLD-0018–0020 | WORLD_RULE_FACTS.md | Emotional Energy System | 3 | Emotional Energy System section |
+| CF-WORLD-0021–0025 | WORLD_RULE_FACTS.md | Pandora Protocol | 5 | Institution Rules section |
+| CF-WORLD-0026–0030 | WORLD_RULE_FACTS.md | Alpha/Beta Mechanics | 5 | Alpha/Beta Line Mechanics section |
+| CF-WORLD-0031–0034 | WORLD_RULE_FACTS.md | Physical Laws | 4 | Physical Laws That Hold Both Lines section |
+| CF-WORLD-0035–0039 | WORLD_RULE_FACTS.md | Design Gaps | 5 | Design Gaps & Unresolved Rules section |
+| CF-EVT-0001–0004 | EVENT_FACTS.md | Alpha Line (Y79–Y98) | 4 | Alpha Line Events section |
+| CF-EVT-0005–0009 | EVENT_FACTS.md | Alpha Divergence (Y102) | 5 | Alpha Divergence Event section |
+| CF-EVT-0010–0017 | EVENT_FACTS.md | Beta Prehistory (Y103–Y112) | 8 | Beta Prehistory Events section |
+| CF-EVT-0018–0026 | EVENT_FACTS.md | Phase 1 Team Assembly (Y113-03/04) | 9 | Phase 1 section |
+| CF-EVT-0027–0034 | EVENT_FACTS.md | Phase 2 Cracks Deepen (Y113-05/06) | 8 | Phase 2 section |
+| CF-EVT-0035–0040 | EVENT_FACTS.md | Phase 3 System Collapse (Y113-06/07) | 6 | Phase 3 section |
+| CF-EVT-0041–0043 | EVENT_FACTS.md | Phase 4 Standoff (Y113-07 to Y113-09) | 3 | Phase 4 section |
+| CF-EVT-0044–0046 | EVENT_FACTS.md | Phase 5 Endgame (Y114-03/05) | 3 | Phase 5 section |
+| CF-EVT-0047–0049 | EVENT_FACTS.md | Phase 6 Act IV (Y114-05 to Y134-07) | 3 | Phase 6 section |
+| CF-EVT-0050–0054 | EVENT_FACTS.md | Design Gaps | 5 | Design Gaps in Event Records section |
+
+**Total Phase 1 indexed claims**: 264 across core fact tables
+
+---
+
+## Phase 2 Fact Tables: CF-ID Allocation
+
+All Phase 2-generated fact tables use stable CF-* identifiers for complete traceability:
+
+| Table | CF-ID Range | Count | Scope | Maps To |
+|---|---|---|---|---|
+| TIMELINE_FACTS.md | CF-TIME-0001–0119 | 119 | All story events Y0–Y134+ | canon/04_timeline_canon.md + canon/05_story_outline_canon.md |
+| RELATIONSHIP_FACTS.md | CF-REL-0001–0058 | 58 | All dyadic character relationships | canon/03_characters/*.md + canon/03_character_index.md |
+| TERMINOLOGY_FACTS.md | CF-TERM-0001–0100+ | 100+ | Glossary + canonical terminology | canon/02_glossary.md + all story files |
+| THEME_FACTS.md | CF-THEME-0001–0044 | 44 | Thematic expressions & narrative validation | canon/00_series_bible.md + canon/05_story_outline_canon.md |
+
+**Total Phase 2 indexed claims**: 321+ atomic facts
+
+---
+
+## How to Trace from CLAIM_INDEX to Fact Tables
+
+Example: You see CF-TIME-0045 in a document.
+
+1. Open CLAIM_INDEX.md
+2. Search for "CF-TIME-0045"
+3. Find the row showing: "CF-TIME-0045 | Alpha Divergence event | Y102 | Haruka reality override | 04_timeline_canon.md"
+4. Go to TIMELINE_FACTS.md
+5. Search for "CF-TIME-0045" in the Fact ID column
+6. Verify the full row: date, location, participants, prerequisites, outcome
+7. Cross-reference source document (04_timeline_canon.md) if needed
+
+**Complete traceability chain**:
+- Story prose reference → CF-* ID search → CLAIM_INDEX lookup → Fact Table row → Source document verification
+
+---
+
+## Complete Fact ID Allocation (All Phases)
+
+| Category | ID Range | Count | Status |
+|---|---|---|---|
+| Character Facts | CF-CHAR-0001–0171 | 171 | ✅ Phase 1 Complete |
+| World Rule Facts | CF-WORLD-0001–0039 | 39 | ✅ Phase 1 Complete |
+| Event Facts | CF-EVT-0001–0054 | 54 | ✅ Phase 1 Complete |
+| **Phase 1 Total** | — | **264** | — |
+| Timeline Facts | CF-TIME-0001–0119 | 119 | ✅ Phase 2 Complete |
+| Relationship Facts | CF-REL-0001–0058 | 58 | ✅ Phase 2 Complete |
+| Terminology Facts | CF-TERM-0001–0100+ | 100+ | ✅ Phase 2 Complete |
+| Theme Facts | CF-THEME-0001–0044 | 44 | ✅ Phase 2 Complete |
+| **Phase 2 Total** | — | **321+** | — |
+| **GRAND TOTAL** | — | **585+** | ✅ COMPLETE |
+
+**Total indexed claims**: 585+ across all tables
+
+---
+
 ## Index Organization
 
 Claims are organized by type and given stable CF-* identifiers.
