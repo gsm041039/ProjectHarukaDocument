@@ -6,6 +6,48 @@
 
 ## Build 001: Initial Fact Map Construction
 
+---
+
+## Build 002: INCREMENTAL_UPDATE via CANON_WIDE_CONFLICT_LOOP Loop 13
+
+| Field | Value |
+|---|---|
+| **Build ID** | FM-BUILD-002 |
+| **Date** | 2026-05-21 |
+| **Mode** | INCREMENTAL_UPDATE |
+| **Source Trigger** | CANON_WIDE_CONFLICT_LOOP Loop 13 multi-agent verification |
+| **Scope** | canon/ (verification-only; no prose changes) |
+| **Status** | SYNC_COMPLETE ✅ |
+| **Duration** | Verification loop |
+
+### Verification Results
+- Real contradictions found: **0**
+- Safe fixes applied: **0**
+- Design gaps recorded: **7** (pre-existing, all DG-001 through DG-007)
+- Fact map modifications: **NONE** (fact map already fully synced with canonical sources)
+- New source gaps: **0**
+- New conflict candidates: **0**
+
+### Files Verified
+- canon/04_timeline_canon.md (events, dates, causality) ✅
+- canon/03_characters/iwakura_akane.md (朱音 sacrifice) ✅
+- canon/03_characters/ayakomoji_misao.md (操 sacrifice) ✅
+- canon/03_characters/rin.md (Year 108 death, Unit 00 state) ✅
+- canon/01_world_rules_and_costs.md (rule definitions, terminology) ✅
+- canon/02_glossary.md (anchors, terminology) ✅
+- canon/05_story_outline_canon.md (event sequencing) ✅
+
+### Multi-Agent Verification
+- Canon Authority Reviewer: Timeline & character state consistency — ZERO contradictions ✅
+- World Rules Reviewer: System consistency, terminology, glossary anchors — ZERO conflicts ✅
+- Global verification: btd/TEMP/draft markers, venue names — all correct ✅
+
+**Conclusion**: Fact Map remains fully synced with canonical sources. No writeback needed.
+
+---
+
+## Build 001: Initial Fact Map Construction
+
 | Field | Value |
 |---|---|
 | **Build ID** | FM-BUILD-001 |
