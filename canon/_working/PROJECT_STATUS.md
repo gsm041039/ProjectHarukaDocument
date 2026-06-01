@@ -1,7 +1,8 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核決定（須先確認 QQ-102 鐵絲網偶遇整合方式）
+- Current Mode: **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核（QQ-102=B J2.5 beat已整合；QQ-103 Warden設定暫唔入 Outline；QQ-104 DEFERRED）
+- **Round 038（2026-06-01）story-canon-sync-gate AUTO_SYNC + ACT_III v0.3 升級**：CDL-217/218 venue addendum落檔；QQ-96/97 RESOLVED確認；QQ-102=B（新增J2.5鐵絲網偶遇beat，CDL-290）；QQ-103=無Warden設定（CDL-291）；QQ-104 DEFERRED；ACT_III_OUTLINE v0.2→v0.3；CDL-271全三項canon writeback確認完整（world rules/glossary/narrative design bible）
 - **Round 037（2026-05-15）canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD 完成**：
   - story-document-synthesis-gate v2 完整執行；Source Coverage Ledger 6個主要來源（Tier A×4 + Tier B×2）；Gate decision = PARTIAL PASS（CDL-backed claims promoted; draft-only structural detail not promoted）
   - **Act II timeline 修正**：`113年5月-114年4月` → `113年4月-114年3月`（CDL-285 E-16 Cut to Black 基準）
@@ -30,8 +31,8 @@
   - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
 - **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
 - **Round 035（2026-05-12）世界觀底層 Writeback 完成**：CDL-286~289 落檔；涉及檔案：01_world_rules_and_costs.md / 04_timeline_canon.md / aya.md / CANON_DECISION_LOG.md。決策：Alpha線低魔共享歷史（解釋X）/ 維多利亞之淚Alpha線廢棄結構 / 黑奏力量雙重因果機制 / 鐵絲網偶遇（Act III扣留子彈）/ Loop 0意外→Loop N精準化。
-- Active Topic / Section: **QQ-102（鐵絲網偶遇整合）確認 → ACT_III_OUTLINE.md v0.2 作者最終批核 + QQ-96/97/98~104 待回應** ← **當前阻塞點**
-- Current Objective: ①作者確認 QQ-102（CDL-288 鐵絲網偶遇整合方式，最高優先）；②作者判決ACT_III v0.2（若QQ-102選B需升至v0.3）；③作者確認 QQ-103（Loop N Warden 揭露位置，若選C不阻塞批核）；④QQ-104（J1時序確認，唔阻塞批核）；⑤作者確認 QQ-96（CDL-258/259狀態）+ QQ-97（J9/L5/L9設計依據）；⑥作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；⑦若v0.2批核通過→進Beat Sheet層設計；⑧全四幕Outline完成後才啟動Beat Sheet層設計
+- Active Topic / Section: **ACT_III_OUTLINE.md v0.3 作者最終批核** ← **當前阻塞點**（QQ-102=B J2.5整合完成；QQ-103/104處理；QQ-96/97 RESOLVED；QQ-98~101 OPEN但不阻塞批核）
+- Current Objective: ①**作者判決 ACT_III_OUTLINE.md v0.3**（主阻塞點）→ 批核通過 → 進 Act IV Outline 設計；②作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；③全四幕 Outline 完成後才進 Beat Sheet 層設計（硬性規則）
 
 **Round 034（2026-05-11）無鏡之城設定存廢評估完成：**
 - M-061 建立：Cross-Act Dependency Gate + 19角度掃描（Pool 1+2全覆蓋）

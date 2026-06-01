@@ -62,7 +62,7 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 | HC-4d | Alpha 線是「仍在發生的平行真相」，不是「過去的記憶」。所有 Alpha 滲漏場景必須用「平行現實入侵當下」的語法，禁用「閃回/回憶」框架 | `canon/01 §rule-alpha-coexistence` [CR] | Critical |
 | HC-4e | Alpha 線真相「聲音堵塞」機制：角色嘗試說出與 Alpha 相連的核心真相時，聲音會物理性堵塞（口型完整但聲音消失）。此機制是 Beta 線自我保護的被動反應，不是敵方力量 | `canon/01 §rule-alpha-truth-blockage` [CR] | High |
 | HC-4f | 變身 = 浮士德契約（T18 定案）。每次變身必須在視聽層體現代價視覺（裂紋/褪色瞳孔/心之器微顫 + 音調輕微沉降）。禁止呈現為純粹美麗的授權儀式 | `canon/08 §section-scene-execution` [DC] | High |
-| HC-4g | 黑奏無法殺死晴香，只能囚禁她。原因：黑奏的力量來自晴香未來的「改變現實」因果逆流——殺死晴香即切斷自身力量來源 | `canon/01 §rule-causal-backflow` [CR] | Critical |
+| HC-4g | 黑奏無法殺死晴香，只能囚禁她。原因（CDL-287 更新）：①晴香係 Y102 雙重因果賦能（鐵絲網許願信標 + 改變現實逆流）的源頭承載者——毀滅晴香等同切斷黑奏力量根基；②黑奏恢復螢的計劃需持續收割晴香情緒能量作情感貨幣（CDL-007）。舊版理由「晴香未來改變現實因果逆流」已由 CDL-287 取代。 | `canon/01 §rule-causal-backflow`（CDL-287）[CR] | Critical |
 | HC-4h | 代價不會重置或治癒。所有魔法使用的累積代價在 20 年系統運行期間持續積累，直接餵入緋潮閾值 | `canon/08 §section-cost-design` [CR] | High |
 
 ---

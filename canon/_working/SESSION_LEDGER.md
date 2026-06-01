@@ -1,17 +1,23 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 036 完成：ACT_III_OUTLINE v0.2 全面審查 + CDL-288/289 整合缺口識別 + QQ-102/103/104 OPEN + J8 citation 修正（2026-05-13）；等待作者回應 QQ-102（最高優先）+ QQ-96/97/103/104**
+- Phase 15 (Act III Outline 設計) — **Round 038 完成：ACT_III_OUTLINE v0.3 整合 + QQ-102/103/104 全部處理 + CDL-290/291 落檔（2026-06-01）；等待作者批核 v0.3**
 
 ## Current Objective
-- **Q1 確認（QQ-102）：鐵絲網偶遇整合方式** ← **新增最高優先阻塞點**（CDL-288 缺口）
-- **ACT_III_OUTLINE.md v0.2 作者最終判決** ← 主阻塞點（QQ-102確認後才批核）
-  - 批核通過 → 進 Beat Sheet 層設計（全四幕 Outline 批核後）
-  - 要求修改（QQ-102 選 B）→ 升至 v0.3，加新 beat 後再提
-- **QQ-103（Loop N Warden 揭露位置）** 需確認（若選 C 不阻塞批核）
-- **QQ-104（J1 時序）** 需確認（不阻塞批核，但需澄清）
-- **QQ-96/97 確認**（非阻塞，但需清理矛盾）
+- **ACT_III_OUTLINE.md v0.3 作者最終批核** ← 主阻塞點
+  - 批核通過 → 進 Act IV Outline → 全四幕 Outline 完成後進 Beat Sheet 層設計
+  - 要求修改 → 補充後再提
 - **QQ-98~101 作者決定**（無鏡之城存廢；不阻塞 Act III 批核）
+- **QQ-51 BLOCKED**（E-03 操「手術室」Flash）
+
+## Completed This Round (Round 038 — 2026-06-01 story-canon-sync-gate AUTO_SYNC)
+- [x] **AUTO_FIX_SAFE** CANON_DECISION_LOG.md：CDL-217/218 venue addendum 注記（⚠️ 嘆息之橋→帝國廣場，AC 2026-05-19）
+- [x] **AUTO_FIX_SAFE** NEXT_ACTION.md：QQ-96/97 ⏳→✅ RESOLVED；CDL-217/218 addendum ⬜→✅
+- [x] **AUTHOR_GATE RESOLVED (QQ-102=B)** 鐵絲網偶遇整合 = 新增 J2.5 獨立 beat；CDL-290 落檔；ACT_III_OUTLINE v0.2→v0.3
+- [x] **AUTHOR_GATE RESOLVED (QQ-103=依家冇Warden設定)** Warden 概念不在 Outline 層標記；CDL-291 落檔
+- [x] **AUTHOR_GATE DEFERRED (QQ-104=唔知)** Phase J 時間線 J1/I3 順序加 [⏳TIMELINE_TBD] 標記；Beat Sheet 層確認
+- [x] **CANON VERIFIED** CDL-271全三項非角色文件 writeback 確認完整（01_world_rules_and_costs/02_glossary/08_narrative_design_bible）
+- [x] **State files updated**: auto_canon_sync/* + PROJECT_STATUS.md + SESSION_LEDGER.md + NEXT_ACTION.md + QUESTION_QUEUE.md
 
 ## Completed This Round (Round 040 — 2026-05-19 story-conflict-resolution-gate VENUE_WRITEBACK)
 - [x] **CONFLICT_RESOLUTION** ACT_III_OUTLINE.md：嘆息之橋 → 帝國廣場 全文 venue writeback（7 處，含 Gate A、Phase I header btd note、I2、I3 heading、J1 事件核心及 AC note）

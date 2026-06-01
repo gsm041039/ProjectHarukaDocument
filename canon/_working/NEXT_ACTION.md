@@ -17,16 +17,13 @@
   - 12角度全掃描完成；識別7個壓縮問題
   - 6項決策補丁整合：凜時序延遲揭露 + H1.5獨立月下beat + 夕隱形軌跡 + 操人偶化標記 + 氛圍基調 + 黑奏Transform
   - 12個主要beat確認（新增H1.5）；Gate A/B/C更新；張力波浪標記；10項開放設計項
-- ⏳ **ACT_III_OUTLINE.md v0.2 [DRAFT — Pending Author Final Approval]**（⬅ 主要阻塞點）
+- ⏳ **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]**（⬅ 主要阻塞點）
+  - v0.3 升級（2026-06-01）：新增 E-III-J2.5 鐵絲網偶遇獨立揭露 beat（CDL-290）；QQ-102/103/104 全部 RESOLVED/DEFERRED；Phase J 時間線加 QQ-104 TBD 標記
   - 可選路徑A：批核通過 → 立刻進Beat Sheet層設計
   - 可選路徑B：要求修改 → 補充微調後再提
   - 可選路徑C：其他判決
-- ⏳ **QQ-96（Q-SV-01）：CDL-258「夕剪接室暗線」是否已被 CDL-259 正式 SUPERSEDE？**（非阻塞 Outline 批核，但需在矛盾消除前確認）
-  - A：CDL-258 SUPERSEDED BY CDL-259 → 更新 PROJECT_STATUS.md 記錄
-  - B：兩個機制並存 → 解釋共存方式
-- ⏳ **QQ-97（Q-SV-02）：E-III-J9/L5/L9 三個 beat 的設計依據（CDL不存在）**（非阻塞 Outline 批核）
-  - A：純 source 推導（outline_raw.md 等已有依據，無需新 CDL）
-  - B：有未落檔決策 → 補登 CDL-286+
+- ✅ **QQ-96（Q-SV-01）RESOLVED（A — 2026-05-19）**：CANON_DECISION_LOG.md CDL-258 已正式標記 [SUPERSEDED]（line 321）；ACT_II_OUTLINE.md v0.8 已刪除剪接室暗線段落。PROJECT_STATUS.md Round 029 CDL-258 條目係歷史記錄，無需更新。
+- ✅ **QQ-97（Q-SV-02）RESOLVED（A — 2026-05-19）**：ACT_III_OUTLINE.md v0.2 已將 J9/L5/L9（及 J5/J6）全部改為 [btd — CDL待登記] 標記。設計基礎有 source 支撐（J9=CDL-003/053/066；L5=CDL-218/233/232；L9=CDL-247/248）。Beat Sheet 層再補 CDL，無需獨立 CDL 登記。
 - ✅ miyako.md + haruka.md CDL-271補充完成（2026-05-15）：haruka.md 陰影視覺機制節；miyako.md Unit 01靈魂困禁狀態節；miyako.md cat paw修正
 - ⬜ Act III批核後回補 Act I v1.21 [NC]晨間斷層微細節標記（CDL-267工作序列）
 - ⬜ Act IV Outline 設計
@@ -65,7 +62,7 @@
   - `backup/draft/timeline_raw.md`（114年3月-114年8月）
 
 ## Pending Writeback（不阻塞 Outline）
-- ⬜ CDL-217/218 addendum：場地描述「嘆息之橋」需標注已更新為「帝國廣場」（AC 2026-05-19）——不阻塞批核；可於 Beat Sheet 前完成
+- ✅ CDL-217/218 addendum：場地描述「嘆息之橋」→「帝國廣場」（AC 2026-05-19）——已在 CANON_DECISION_LOG.md CDL-217/218 條目加入 ⚠️ venue addendum 注記（ACS-2026-06-01）。
 - ✅ haruka.md habit #6 刪除（CDL-112）— 完成 2026-05-15
 - ✅ miyako.md [SQ-A]「指尖亮起」→「貓爪亮起」— 完成 2026-05-15
 - ✅ miyako.md Unit 01靈魂困禁狀態（CDL-271）— 完成 2026-05-15

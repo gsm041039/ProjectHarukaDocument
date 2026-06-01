@@ -86,7 +86,7 @@
 
 | Fact ID | Gap | Status | Source |
 |---------|-----|--------|--------|
-| CF-WORLD-0035 | **Glucose injection gun mechanism** | CANDIDATE_NEED (device exists in design, deployment unclear) | CDL-114 |
+| CF-WORLD-0035 | **Glucose injection gun mechanism** | SOURCE_SUPPORTED (blood-glucose=MP; CDL-114 confirmed; entity in 07_entities, gameplay in 10_gameplay_bible; Round 039 writeback 2026-05-15 ✅) | CDL-114 |
 | CF-WORLD-0036 | **Specific soul-stitching ritual components** | NARRATIVE_MYSTERY (intentionally deferred) | 04_timeline §miyako-revival-mechanism |
 | CF-WORLD-0037 | **Loop 0 initial accident details** | INTENTIONAL_MYSTERY (preserved for Act IV) | CDL-289 |
 | CF-WORLD-0038 | **Kurokane's soul traversal mechanics** | INTENTIONAL_SECRET (reserved for villain revelation) | CDL-289 |
