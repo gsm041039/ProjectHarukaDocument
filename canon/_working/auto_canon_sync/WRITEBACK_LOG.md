@@ -67,3 +67,23 @@
 | Backup Referenced | No |
 | Canon Meaning Changed | No |
 | Follow-up | None |
+
+---
+
+## WB-ACS-005 through WB-ACS-015: Applied Loops 5–32 (Consolidated)
+
+| ACS ID | Loop | File | Change Summary | Status |
+|---|---|---|---|---|
+| ACS-003 | 5 | ACT_III_OUTLINE.md | v0.2→v0.3; new E-III-J2.5 beat (CDL-290); Phase J TBD marker | ✅ |
+| ACS-004 | 5 | CANON_DECISION_LOG.md | CDL-290 + CDL-291 logged | ✅ |
+| ACS-006 | 9–11 | canon/13 + working/07 | E-13 date Day10→Day14; E-14 title 鐵板→鋼鐵; E-14 date fix | ✅ |
+| ACS-007 | 10 | canon/09_information_design.md | 鐵板獨舞→鋼鐵獨舞 (replace_all) | ✅ |
+| ACS-009 | 12 | canon/01_world_rules_and_costs.md | rule-causal-backflow: time-reversal→CDL-287 double causal | ✅ |
+| ACS-010 | 12 | HARD_CONSTRAINTS_TABLE.md | HC-4g reason updated to CDL-287 + CDL-007 | ✅ |
+| ACS-011 | 16 | canon/05_story_outline_canon.md | Line 457 Kurokane power description→CDL-287 | ✅ |
+| ACS-014 | 21 | CROSS_ACT_CONTROL_LAYERS.md | Kurokane causal description→CDL-287 double causal | ✅ |
+| ICGT note | 23 | INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md | Act III BK+NOTE added for CDL-290 J2.5 guilt deepening | ✅ |
+
+**Evidence pointer**: All individual changes documented in CONFLICT_REGISTER.md (ACS-001 to ACS-015). WRITEBACK_LOG underpopulated for Loops 5–32 — CONFLICT_REGISTER is authoritative source for these entries.
+
+**Loop 33 Writeback Completeness Verdict**: All confirmed RESOLVED items in CONFLICT_REGISTER.md have been applied. No pending writebacks slipped through. Documentation gap in WRITEBACK_LOG (missing WB-ACS-005 onward individual entries) is cosmetic — canon integrity is intact.

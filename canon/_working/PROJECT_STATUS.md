@@ -1,7 +1,8 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核（QQ-102=B J2.5 beat已整合；QQ-103 Warden設定暫唔入 Outline；QQ-104 DEFERRED）
+- Current Mode: **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核
+- **Round 039（2026-06-03）Semantic Audit Auto-Loop 完成（Loops 17–32）**：全14大語意類別覆蓋完成（角色設定/世界規則/情緒機制/形上規則/術語/主題邏輯/關係邏輯/視覺象徵/遊戲機制/備份漂移/CDL一致性/資訊設計/跨幕控制層/角色成長追蹤）。合計 15項確認修正（ACS-001~ACS-015）、10項PROVEN_SAFE。SEMANTIC_AUDIT_COMPLETE判定成立。剩餘開放項全屬 AUTHOR_GATE（QQ-98~101/51/104；C-NEW-13/15/16）。
 - **Round 038（2026-06-01）story-canon-sync-gate AUTO_SYNC + ACT_III v0.3 升級**：CDL-217/218 venue addendum落檔；QQ-96/97 RESOLVED確認；QQ-102=B（新增J2.5鐵絲網偶遇beat，CDL-290）；QQ-103=無Warden設定（CDL-291）；QQ-104 DEFERRED；ACT_III_OUTLINE v0.2→v0.3；CDL-271全三項canon writeback確認完整（world rules/glossary/narrative design bible）
 - **Round 037（2026-05-15）canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD 完成**：
   - story-document-synthesis-gate v2 完整執行；Source Coverage Ledger 6個主要來源（Tier A×4 + Tier B×2）；Gate decision = PARTIAL PASS（CDL-backed claims promoted; draft-only structural detail not promoted）

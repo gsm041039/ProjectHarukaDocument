@@ -1,7 +1,7 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 038 完成：ACT_III_OUTLINE v0.3 整合 + QQ-102/103/104 全部處理 + CDL-290/291 落檔（2026-06-01）；等待作者批核 v0.3**
+- Phase 15 (Act III Outline 設計) — **Round 039 完成：Semantic Audit Auto-Loop Loops 17–32 完成；SEMANTIC_AUDIT_COMPLETE 判定（2026-06-03）；等待作者批核 ACT_III v0.3**
 
 ## Current Objective
 - **ACT_III_OUTLINE.md v0.3 作者最終批核** ← 主阻塞點
@@ -26,6 +26,22 @@
 - [x] **PENDING_CDL_ADDENDUM** CDL-217/218 場地描述（嘆息之橋）需加入 addendum 反映 AC 2026-05-19 venue 修訂（不阻塞批核）
 - [x] **DEFERRED (C-05~C-06)** CDL-278/283 gap + L9/J8 mechanics overlap → Beat Sheet 層處理
 - [x] **State files updated**: conflict_resolution/* (SESSION_STATE, CONFLICT_REGISTER, WRITEBACK_LOG, QUESTION_QUEUE) + PROJECT_STATUS.md CDL-218 summary line
+
+## Completed This Round (Round 039 — 2026-06-03 Semantic Audit Auto-Loop Loops 17–32)
+
+- [x] **Loop 17–19**: Character file semantic audit (rin, miyako, aya, haruka) — CLEAN
+- [x] **Loop 20**: 02_glossary.md CDL-204 terminology drift — CLEAN (4 abolished terms absent; 執念飽和度 retained intentionally = ACS-015 PROVEN_SAFE)
+- [x] **Loop 21**: CROSS_ACT_CONTROL_LAYERS Kurokane CDL-287 update — FIXED (ACS-014); CDL-204 terminology = PROVEN_SAFE (ACS-015)
+- [x] **Loop 22**: Alpha/Beta line mechanics cross-file — CLEAN
+- [x] **Loop 23**: J2.5 CDL-290 character growth implications + CDL-291 Warden drift — CLEAN; INDIVIDUAL_CHARACTER_GROWTH_TRACKER Act III note added
+- [x] **Loop 24–27**: Emotion conservation 6-stage / visual-symbolic / metaphysical / info design — CLEAN
+- [x] **Loop 28**: Backup-to-canon drift (08_Emotion_Setting_Overview.md) — PROVEN_SAFE (complementary, not contradictory)
+- [x] **Loop 29**: 10_gameplay_bible.md full audit — PROVEN_SAFE (soul mechanics, emotion conservation, theme alignment all consistent)
+- [x] **Loop 30**: Relationship logic (haruka/miyako/aya/rin/misao + canon/13) — PROVEN_SAFE
+- [x] **Loop 31**: 04_timeline_canon.md vs CDL-217/218/288 — PROVEN_SAFE (CDL-288 already integrated; correct dates and terminology)
+- [x] **Loop 32**: 00_series_bible.md theme descriptions — PROVEN_SAFE ("時間折返" = narrative shorthand, not time-reversal mechanics)
+- [x] **SEMANTIC_AUDIT_COMPLETE**: All 14 categories covered; 15 confirmed fixes; 10 PROVEN_SAFE; 0 open semantic contradictions
+- [x] **State files updated**: auto_canon_sync/SESSION_STATE.md + CONFLICT_REGISTER.md + PROJECT_STATUS.md + SESSION_LEDGER.md
 
 ## Completed This Round (Round 039 — 2026-05-15 story-canon-sync-gate AUTO_SYNC)
 - [x] **AUTO_FIX_SAFE** canon/02_glossary.md：修正破損錨點 `#term-shadow-vision` → `#term-shadow-sight`（未斷的殘絲 See also 條目）
