@@ -62,7 +62,7 @@
 
 ### 黑奏的無意識能量農場
 
-夕的存在對[黑奏](aya.md#section-kurokane)而言是意外的收穫。夕在[集體潛意識](../02_glossary.md#term-collective-unconscious)中不斷產生的痛苦與憤怒，被黑奏透過[情緒諧振](../02_glossary.md#term-emotional-resonance)吸取並轉化為力量。夕以為自己在反叛晴香，實際上只是黑奏的無意識能量農場——她的每一次掙扎都在為敵人充能。
+夕的存在對[黑奏](aya.md#section-kurokane)而言是意外的收穫。夕在[集體潛意識](../02_glossary.md#term-collective-unconscious)中不斷產生的痛苦與憤怒，被黑奏直接吸取並轉化為力量（情緒廢料能量提取機制；「情緒諧振」為 CDL-204 廢除術語，此處改用描述性語言）。夕以為自己在反叛晴香，實際上只是黑奏的無意識能量農場——她的每一次掙扎都在為敵人充能。
 
 此處必須明確：夕與黑奏不是合作關係，而是「被寄生利用」關係。夕沒有分享目標，只是她的反抗路徑被黑奏預先佈局並回收為能源。
 
@@ -124,7 +124,7 @@
 
 ### [第二幕](../05_story_outline_canon.md#section-act-2)：影響力增強
 
-夕的存在感急劇提升。在關鍵戰鬥中短暫奪取晴香的身體控制權，展現被壓抑的戰鬥本能與[情緒增幅器](../02_glossary.md#term-emotional-amplifier)的全部威力。最終擅自接管身體拍攝虐殺屍骸錄像並洩漏，導致晴香遭受社會性死亡。
+夕的存在感急劇提升。在關鍵戰鬥中短暫奪取晴香的身體控制權，展現被壓抑的戰鬥本能與[情緒增幅器](../02_glossary.md#term-emotional-amplifier)的全部威力。最終接管晴香身體在直播中撕破光幕濾鏡裝置（飢餓的天使事件），令圍觀者目睹無濾鏡的失控場景，直播畫面完整記錄無法刪除，導致晴香遭受社會性死亡。<!-- CDL-259；舊版CDL-258「擅自拍攝錄像洩漏」已廢除 -->
 
 **See also**: [夕的背叛](../04_timeline_canon.md#event-yu-betrayal) | [晴香與夕決裂](../04_timeline_canon.md#event-haruka-yu-split)
 
@@ -189,7 +189,7 @@
 | 對象 | 關係 | 核心動態 |
 |------|------|---------|
 | [晴香](haruka.md) | 本體、創造者、最終整合對象 | 被切割的陰影面；從對抗到共存到整合 |
-| [黑奏](aya.md#section-kurokane) | 無意識能量供應者（被利用） | 夕的痛苦被黑奏透過[情緒諧振](../02_glossary.md#term-emotional-resonance)吸取轉化為力量 |
+| [黑奏](aya.md#section-kurokane) | 無意識能量供應者（被利用） | 夕的痛苦被黑奏直接吸取轉化為力量（見§黑奏的無意識能量農場） |
 | [秋穗](akiho.md) | 封印者 | 秋穗利用[情緒力量裝置](../02_glossary.md#term-emotional-power-device)將真相封存，間接創造了夕 |
 | [愛莉](aeri.md)（紙皮騎士） | 對照存在 | 愛莉是被動守護者（在[集體潛意識](../02_glossary.md#term-collective-unconscious)中默默守護），夕是主動反叛者（強迫晴香面對真相） |
 | [美夜子](miyako.md) | 和解的引導者 | 美夜子引導晴香在集體潛意識中面對夕，促成整合 |

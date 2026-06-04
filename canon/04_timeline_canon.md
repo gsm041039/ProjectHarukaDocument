@@ -147,7 +147,7 @@
 
 ### <a id="section-113-june-late"></a>113 年 6 月底-7 月初：社會性死亡
 
-- <a id="event-yu-betrayal"></a>**[夕](03_characters/yu.md)的背叛與社會性死亡**：夕擅自接管身體，拍攝虐殺屍骸錄像並洩漏，晴香遭受網路暴力
+- <a id="event-yu-betrayal"></a>**[夕](03_characters/yu.md)的背叛與社會性死亡（飢餓的天使事件）**：夕接管晴香身體在直播中撕破光幕濾鏡裝置，令圍觀者目睹無濾鏡的失控場景，直播畫面完整記錄無法刪除，晴香遭受網路暴力<!-- CDL-259；舊版CDL-258「擅自拍攝錄像洩漏」已廢除 -->
 - <a id="event-social-exile"></a>**晴香的社會排斥**：從國民偶像淪為「變態殺手」
 - <a id="event-manager-betrayal"></a><a id="event-haruka-image-commodification"></a>**經理人背叛／形象商品化**：經理人以違約金與資產清算為名奪走晴香肖像權，轉售黑奏體系製造「晴香版[情緒毒品](02_glossary.md#term-emotion-drug)」，把她的公共形象由「希望符號」反轉為「成癮商品」
 - <a id="event-haruka-yu-split"></a>**晴香與夕決裂**：晴香拒絕再變身，開始地下化生活
@@ -207,7 +207,7 @@
 - <a id="event-imperial-plaza-battle"></a>**帝國廣場決戰**：世界因[靈魂滲漏](02_glossary.md#term-soul-leakage)即將崩潰
 - <a id="event-truth-revealed"></a><a id="event-band-aid-third-reveal"></a><a id="event-world-truth-reveal"></a>**真相揭露（膠布哲學第三層）**：黑奏揭露 [Alpha 線](02_glossary.md#term-alpha-line)真相與晴香「創世者」身份——「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」
 - <a id="event-aya-internal-revolution"></a>**彩的內部革命**：彩（主人格）抱住黑奏，說：「唔需要啦⋯⋯黑奏。我已經大個女啦。」黑奏防禦力場瞬間消失
-- <a id="event-yu-takeover"></a>**夕的完全接管**：晴香精神崩潰，夕完全接管，發動[改變現實](02_glossary.md#term-reality-change)
+- <a id="event-yu-takeover"></a>**夕的完全接管（被迫，非主動謝幕）**：晴香精神崩潰，夕被強迫接管身體（CDL-281；雙層動機：私心+保護晴香，清醒悖論），發動[改變現實](02_glossary.md#term-reality-change)
 
 ### <a id="section-114-twenty-years"></a>114 年 6 月-134 年 6 月：二十年守望
 

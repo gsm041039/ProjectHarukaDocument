@@ -23,12 +23,12 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 
 | 約束 | 內容 | 來源 | 等級 |
 |------|------|------|------|
-| HC-2a | 朱音與操「同時」主動犧牲於 Act III 嘆息之橋戰役（E-14 雙重犧牲）。不可有「一人先死、另一人後死」的先後次序 | `ROUGH_STORY_SKELETON.md` [AC] | Critical |
+| HC-2a | 朱音與操主動犧牲為**錯位雙殺**（CDL-218 AC 2026-04-13）：操 Day 13 學校人偶牆、朱音 Day 14 帝國廣場糖果山——連續兩日但分開犧牲，不可設計為同時同地。「嘆息之橋」為活動命名隱喻，非物理地點，朱音物理犧牲地點係帝國廣場（CDL-217 AC 2026-05-19） | `CDL-218`, `CDL-217` [AC] | Critical |
 | HC-2b | 螢不可復活。原因：靈樹武器在屠殺時連靈魂一同消滅（非普通死亡）。螢的不可復活性是整個彩/黑奏弧光的情感重量基礎 | `ROUGH_STORY_SKELETON.md` [AC] | Critical |
 | HC-2c | 螢的不可復活揭示時機：Act IV，彩說「多謝你保護咗我咁耐」的那一刻。不可提前揭示 | `STORY_CONSTRUCTION_PROGRESS.md §Confirmed` [AC] | Critical |
 | HC-2d | 晴香的「創世者」身份：Act II 暗示（晴香知而拒絕承認）；Act III 由黑奏正式揭露。不可提前在 Act I 明確揭示 | `ROUGH_STORY_SKELETON.md`, `canon/05 §section-act-2/act-3` [AC] | Critical |
 | HC-2e | 「奪舍示範場景」（屍骸老婆婆透過小孩傳話）必須出現在正式講解世界規則「之前」。先「感受」後「被告知」 | `canon/05 §scene-possession-ghost` [AC] | High |
-| HC-2f | 「四人協議」（不再使用情緒連結）在情緒連結首戰後遺症場景後自動成立。無投票、無宣告、只有點頭。此協議是晴香後來拒絕共振地獄計劃的情感根源 | `canon/05 §scene-emotion-link-first-battle` [AC] | High |
+| HC-2f | 「四人協議」（不再使用情緒連結）在情緒連結首戰後遺症場景後自動成立。無投票、無宣告、**無點頭場景**——各人「死人面」式震驚自然停止（CDL-119）。此協議是晴香後來拒絕共振地獄計劃的情感根源 | `canon/05 §scene-emotion-link-first-battle`, `CDL-119` [AC] | High |
 | HC-2g | 凜的「不可逆改造」（自願要求黑奏挖走所有感情 → Unit 00-Null）發生於 Act II 末 114 年 4 月。此後凜無法透過任何方式恢復感情 | `canon/04 #event-rin-final-collapse` [CR] | High |
 | HC-2h | 夕在 Act III E-18 被「強迫接管」晴香身體（非主動謝幕）。Act III 後期夕發動「改變現實」是被迫的結果，不是夕的主動選擇 | `STORY_CONSTRUCTION_PROGRESS.md §Confirmed` [AC] | High |
 | HC-2i | 「情緒毒品危機」（E-11a）是 Act II 末獨立事件，不與嘆息之橋同期 | `STORY_CONSTRUCTION_PROGRESS.md §Confirmed` [AC] | High |
@@ -88,7 +88,7 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 |------|------|------|------|
 | 晴香 | Act I「天真偶像→質疑正義」→ Act II「與夕和解（整合）」→ Act III「創世者罪責感確認」→ Act IV「離開母愛琥珀→靜止搖籃」。不可跳過整合步驟直達罪責感 | `canon/05 §section-act2-arc/act4-arc` [AC] | Critical |
 | 美夜子 | Act III「月下窗台存在確認測試失敗→晴香擁抱→崩潰大哭」三段式覺醒順序不可顛倒 | `canon/04 #event-miyako-awakening` [AC] | Critical |
-| 朱音 | Act II「情緒毒品危機/屍骸女王」→ Act III「恐怖家家酒第10天暴食斷頭台（拒絕毒品盛宴）」→「嘆息之橋」回歸並犧牲。回歸前必須完成態度轉變 | `canon/09 §scene-A`, `canon/04 §section-114-may` [AC] | Critical |
+| 朱音 | Act II「情緒毒品危機/屍骸女王」→ Act III「恐怖家家酒 Day 14 帝國廣場糖果山犧牲（CDL-218）」。回歸前必須完成態度轉變。犧牲地點係帝國廣場，非嘆息之橋（CDL-217 AC 2026-05-19） | `CDL-218`, `CDL-217`, `canon/04 §section-114-may` [AC] | Critical |
 | 操 | Act III「恐怖家家酒第13天鋼鐵獨舞（主動扯斷絲線）」是她弧光最重要節點。對彩喊「跌倒都唔緊要！我會接住妳！」第一次擁抱失控 | `canon/04 #event-steel-solo`, `canon/09 §scene-B` [AC] | Critical |
 | 彩/黑奏 | 彩「我已經大個女啦」否定黑奏的保護者邏輯 → 黑奏防禦力場消失。彩的主動性是終局的關鍵，不是晴香或其他人「打敗」黑奏 | `canon/04 #event-aya-internal-revolution` [AC] | Critical |
 
@@ -108,7 +108,7 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 ## 優先級總結：影響四幕結構最大的 5 條約束
 
 1. **HC-1a** — 「偽三幕，真四幕」詭計。Act I–II 必須真誠製造王道幻覺，否則 Act III 偽高潮無衝擊力。
-2. **HC-2a + HC-3e/3f** — 朱音與操同時主動犧牲，犧牲方式（糖果山 / 半屍骸化自選停留）和核心台詞已定案，不可改。
+2. **HC-2a + HC-3e/3f** — 朱音與操錯位雙殺（CDL-218）：操 Day 13 / 朱音 Day 14，分別主動犧牲。犧牲方式（糖果山 / 絲線人偶牆）和核心台詞已定案，不可改。
 3. **HC-4a** — 情緒守恆定律。所有「魔法使用」場景必須有代價成本可見性，否則四幕代價收割節點（E-15 等）失去邏輯基礎。
 4. **HC-3c** — 晴香終局 = 靜止搖籃，無清醒存活分支。整個 Act IV 的情感設計（美夜子笨拙演奏）以此為前提。
 5. **HC-5g** — 三大揭示的觀眾知識前置鏈（AKS 系統）——螢/晴香/愛莉的揭示必須按依賴鏈順序部署。**此條目前缺失具體細節，需讀 `backup/director/Information_Control_Audience_Experience_Design.md`。**
