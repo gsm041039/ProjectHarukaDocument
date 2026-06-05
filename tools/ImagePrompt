@@ -265,46 +265,38 @@ preserve the character’s original body proportions exactly as in the reference
 
 
 official anime character model sheet, professional TV-anime production settei, clean production-ready character turnaround sheet, one single character only, full body front view and full body back view, strict neutral A-pose, clean technical reference page
-
 use the reference image as the primary source of character identity and costume concept. preserve the same character identity, same face type, same eye style, same hairstyle silhouette, same body type, same age impression, same main outfit concept, same motif family, same role, same weapon or signature accessory if present, and same main color family.
-
 IMPORTANT DESIGN INTENT:
 this is NOT a faithful redraw.
 this is NOT a detail copy.
 this is NOT a minimal blank simplification.
 this is a production cleanup and trim redesign pass.
-
 PRIMARY GOAL:
 redraw the same character as a cleaner official anime production design.
 keep the costume concept and major clothing structure, but REDESIGN the small trim system into fewer, thicker, clearer, more graphic border shapes.
-
 DO NOT COPY THE ORIGINAL TRIM MAP:
 do not preserve every original thin trim line.
 do not preserve every original seam line.
 do not preserve every original decorative border.
 do not trace the reference edge decoration exactly.
 the trim placement may be simplified, merged, moved slightly, or redesigned to improve readability.
-
 TRIM REDESIGN RULE:
 replace the original thin-line decoration system with a bold graphic trim system.
 all visible costume borders should feel like designed color-block borders, not fragile hairline piping.
 use thick trim bands, wide edge blocks, and simple graphic accents.
 a trim should look like a readable shape, not a thin line.
-
 THICKNESS RULE:
 all decorative borders must be visibly thicker than normal lineart.
 thin piping is forbidden.
 hairline trim is forbidden.
 micro edge decoration is forbidden.
 if a trim is too thin to read from far away, remove it or redraw it as a thick band.
-
 MERGE RULE:
 merge multiple thin parallel lines into one bold border.
 merge tiny seam accents into one larger clean accent.
 merge many small edge marks into one clear graphic shape.
 merge repeated tiny decorations into fewer larger readable decorations.
 one strong border is better than three thin borders.
-
 EDGE HIERARCHY RULE:
 only the most important garment edges should have decorative borders.
 not every edge needs trim.
@@ -312,7 +304,6 @@ not every seam needs trim.
 not every fold needs trim.
 not every panel needs outline decoration.
 choose only the visually important outer edges, hems, collars, cuffs, waistline, skirt hem, cape or coat edge, shoe opening, or signature motif edge.
-
 BORDER AMOUNT RULE:
 each major garment part may have only one main decorative border treatment.
 outer layer: one main border style.
@@ -322,52 +313,43 @@ sleeves or cuffs: one main border style.
 shoes: one main border style.
 weapon or prop: one main border style.
 do not stack many different border styles on the same part.
-
 GRAPHIC SHAPE RULE:
 decorative borders should be simple geometric or clean curved shapes.
 use broad strips, blocky borders, large scallops, bold triangular tips, simple angular cuts, or clean motif-shaped borders if they match the reference.
 avoid delicate ornamental lines, tiny dots, tiny loops, tiny holes, tiny filigree, tiny lace mesh, tiny stitches, and thin parallel lines.
-
 DETAIL DENSITY RULE:
 keep the character design rich enough to feel like the same costume concept, but remove visual noise.
 the final design should have clear design information, not many tiny marks.
 details should be large enough to read when the full body is viewed small.
-
 COSTUME STRUCTURE RULE:
 preserve the major garment logic from the reference:
 outer layer, inner top, waist piece, skirt or pants, sleeves, cape or coat if present, legwear, shoes, gloves, hair accessories, weapon or prop if present.
 make each part easier to understand by using clean shape separation and bold borders.
-
 MOTIF RULE:
 preserve the original motif family only as large readable graphic motifs.
 do not create dense repeated motif textures.
 do not scatter many tiny symbols.
 if the reference has repeated motifs, redraw them as fewer, larger, clearer motifs.
-
 DECORATIVE EDGE RULE:
 if the original costume has decorative hems, special edges, lace, frills, torn edges, patterned borders, layered edges, or ornamental cuts, keep the idea but redesign it into larger cleaner anime shapes.
 make the edge design bolder and simpler.
 do not use tiny lace mesh, tiny holes, filigree, dense ruffles, or micro-patterns.
-
 COLOR BLOCK RULE:
 preserve the reference color family, but organize it into cleaner large color blocks.
 use color and value separation to define garment parts instead of many thin lines.
 accent colors should appear as larger readable accents, not tiny scattered dots.
-
 LINEART RULE:
 clean anime lineart, clear silhouette, strong outer contour, controlled internal lines.
 internal costume lines should be fewer and more purposeful.
 decorative trim bands should be drawn as colored shapes with clear width, not as lineart strokes.
-
 RENDERING RULE:
 flat colors, extremely flat cel shading, minimal 1 to 2 hard-edged shadow tones only.
 no soft shading, no painterly rendering, no glossy rendering, no gradients, no bloom, no rim light, no texture.
-
 SHEET LAYOUT:
 front view and back view should be large and dominant.
+wide horizontal production sheet, landscape orientation, 16:9 aspect ratio, canvas width clearly longer than canvas height.
 right side includes expression heads, hairstyle view, accessory callouts, costume breakdown, shoe detail, hand or glove detail if needed, and color palette.
 simple light grey background, Traditional Chinese text annotations, clean rectangular layout.
-
 QUALITY GOAL:
 the final result should clearly look like the same character and same costume concept, but with the trim system redesigned for anime production:
 fewer trim lines, thicker trim bands, clearer edge hierarchy, larger readable motifs, stronger color blocks, less fragile micro-detail.
