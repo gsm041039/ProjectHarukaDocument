@@ -121,6 +121,10 @@ character design: [角色身份 / 類型], [年齡感], [性格氣質], [主色�
 --no exact micro-detail reproduction, gacha-game detail, fantasy armor detail, high-detail costume sheet, intricate armor, dense gothic ornament, excessive spikes, excessive feathers, excessive torn cloth, too many cloth tips, too many small fragments, too many trims, too many straps, too many seams, too many cracks, too many tiny ornaments, high-frequency detail, dense edge detail, over-segmented costume, noisy silhouette, chaotic layered pieces, overdesigned outfit, luxury idol costume, fashion illustration, painterly shading, soft shading, soft lighting, gradient shading, glossy rendering, translucent fabric, bloom, rim light, cinematic lighting, dynamic pose, mood illustration, semi-realistic rendering
 
 
+
+
+
+
 /////////////////////model sheet//////////////////////////////
 
 anime character pose and behavior exploration sheet, character action and gesture sheet, personality-driven character exploration page, one single character only, multiple drawings of the same character on one page, 2D anime character exploration page
@@ -206,6 +210,9 @@ rough but controlled anime lineart, slightly sketchy but clean, readable silhoue
 --ar 3:2 --niji --style raw --s 5 --chaos 0 --no duplicate angles, repeated back view, repeated front view, repeated profile, full body, half body, torso, bust shot, fashion board, merchandise sheet, accessory showcase board, product catalog, scrapbook layout, sticker sheet, decorative collage, splash art, poster composition, dynamic pose, cinematic composition, soft shading, painterly shading, glossy rendering, gradient shading, rendered skin, large empty areas
 
 
+
+
+
 /////////////////////美術圖/////////////////////
 use the provided image as a character design reference only. ignore the original sheet layout, plain background, annotations, settei presentation, and turnaround format. generate a finished anime illustration / key visual of the same character in a new scene.
 
@@ -263,7 +270,7 @@ preserve the character’s original body proportions exactly as in the reference
 
 
 
-
+/////////////////////Character Model Sheet/////////////////////
 official anime character model sheet, professional TV-anime production settei, clean production-ready character turnaround sheet, one single character only, full body front view and full body back view, strict neutral A-pose, clean technical reference page
 use the reference image as the primary source of character identity and costume concept. preserve the same character identity, same face type, same eye style, same hairstyle silhouette, same body type, same age impression, same main outfit concept, same motif family, same role, same weapon or signature accessory if present, and same main color family.
 IMPORTANT DESIGN INTENT:
@@ -353,3 +360,154 @@ simple light grey background, Traditional Chinese text annotations, clean rectan
 QUALITY GOAL:
 the final result should clearly look like the same character and same costume concept, but with the trim system redesigned for anime production:
 fewer trim lines, thicker trim bands, clearer edge hierarchy, larger readable motifs, stronger color blocks, less fragile micro-detail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////Anime screenshot/////////////////////
+accodeing to the image text file, accodeing to the image text file, Train station platform / waiting for the last train home At a local train station platform in the evening or night, with vending machines, benches, school bags, railings, and soft platform lights. The girls are waiting together, tired but connected. The scene should feel like a quiet in-between moment: not a big event, just friendship existing during the commute.
+
+Use the provided character setting sheets as the primary reference for character identity only. Preserve each character’s recognizable identity, hairstyle silhouette, main hair color, main outfit shape, major color blocks, body proportion, face impression, and one or two signature accessories. Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background.
+
+Do NOT preserve every small costume detail.Do NOT preserve every accessory detail.Do NOT preserve every trim, fold, seam, hair strand, or tiny decoration.The characters should remain recognizable through large shapes, color blocks, silhouettes, and key iconic elements, not through dense detail.
+
+A candid slice-of-life group scene featuring four girls and one black cat, showing the value of connection and the preciousness of ordinary daily life even under cruel fate. The emotional core is that they are still trying to do normal teenage-girl things together. The atmosphere should feel youthful, warm, lively, slightly noisy, and full of real friendship: teasing, caring, leaning into each other, small interruptions, casual closeness, and the feeling that they genuinely know each other well.
+
+HIGHEST PRIORITY STYLE OVERRIDE:Match the simplicity of a normal TV anime broadcast screenshot, not an anime illustration.The image should look like a clean but economical episode frame with production limitations.The character rendering must be simple, low-detail, thick-lined, flat-colored, and easy to animate.
+
+This must NOT look like:
+
+polished anime illustration
+
+key visual
+
+promotional still
+
+premium character art
+
+detailed anime poster
+
+concept art
+
+full-body character showcase
+
+clean group photo
+
+This must look like:
+
+regular TV anime episode frame
+
+broadcast anime screenshot
+
+simple episode drawing
+
+production-economical frame
+
+low-detail but readable acting
+
+simple TV anime background plate
+
+strong screen-space post-processing over simple cel drawings
+
+IMPORTANT IMAGE INTENT:This image is not meant to show all characters beautifully.This image is not a “nice group picture.”This image is not a character lineup.This image should feel like one frame captured from the middle of an ongoing TV anime episode.The story is already happening before this frame, and will continue after this frame.The shot should communicate a small relationship beat before visual beauty.
+
+STYLE GOAL:ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker clean outlines, low inner-line density, flat color blocks, almost no self-shadow detail, simple cel shading, simple painted background plate, visible screen-space bloom, visible halation, strong gradient darkening, strong bright-to-dark exposure separation, natural mid-scene framing, candid dialogue cut, slice-of-life episode frame.
+
+The image should rely on screen-space gradient darkness, bloom, halation, and exposure separation for mood, NOT on detailed character rendering.
+
+VISUAL RULES:
+
+Prioritize “real TV anime episode screenshot” feeling over polished illustration rendering.
+
+Character drawing must be simpler than the reference sheets.
+
+Character detail density must be much lower than a polished anime still.
+
+Use thick, clean, simple linework.
+
+Use flat color regions.
+
+Use almost no internal cel self-shadows.
+
+Keep character shading extremely sparse and broad.
+
+Keep the background readable but simple, like a TV anime background plate.
+
+The background may have slight hand-drawn TV anime production roughness.
+
+Natural, asymmetrical staging; do not line all characters up on one flat plane.
+
+Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture.
+
+No one should look like they are posing for the viewer.
+
+No text, no watermark, no readable phone UI, no readable signs.
+
+SCENE:[SCENE]
+
+SCENE BEAT GENERATION LOGIC:Do not use a fixed or hard-coded scene beat.Do not always make Haruka show a phone.Do not always make Akane interrupt.Do not always make Aya the foreground reaction.Do not always make the same character become the center of the shot.Do not compose the image as a checklist showing every character.
+
+Instead, generate one natural micro-moment based on the selected [SCENE], the characters’ personalities, and the feeling of ordinary teenage friendship.
+
+Before composing the image, decide one small scene-specific story beat:
+
+What ordinary activity is happening in this exact moment?
+
+What small interruption, reaction, hesitation, teasing, caring gesture, or accidental moment naturally happens here?
+
+Who is driving the interaction?
+
+Who is reacting?
+
+Who is quietly observing?
+
+Who is trying to join but hesitating?
+
+Who is pretending not to care while still paying attention?
+
+Who needs subtle emotional support?
+
+Where would the camera naturally be placed if this were a real TV anime episode scene?
+
+The scene beat should feel like a small moment that could happen naturally during the chosen activity, such as:
+
+someone notices something funny or embarrassing
+
+someone reacts slightly too late
+
+someone tries to join the conversation but hesitates
+
+someone quietly helps another person without making a big deal of it
+
+someone teases another person in a friendly way
+
+someone tries to act composed but is clearly interested
+
+someone gets lightly startled
+
+someone passes, offers, reaches for, or protects a small object
+
+someone leans in to see what the others are looking at
+
+someone pretends not to care while still paying attention
+
+the black cat moves closer to the person who needs support while looking annoyed
+
+a cup, snack, phone, bag, photo strip, karaoke micropho
