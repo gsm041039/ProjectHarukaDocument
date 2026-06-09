@@ -4,6 +4,8 @@
 **作者批核 ACT_III_OUTLINE.md v0.3** → 批核通過 → 進 Act IV Outline 設計
 （Semantic Audit Auto-Loop COMPLETE — 全14類覆蓋；15項修正；0開放語意矛盾）
 
+> ℹ️ Round 041（2026-06-09）旁支完成：情緒具現化設定整合（Shadow's Surreal Passion，CDL-292）——已寫入 06_visual_bible / 01_world_rules / rin.md / ayakomoji_misao.md。**不改變主阻塞點**（仍為 Act III v0.3 批核）。
+
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）
 - ✅ CDL-001~285 全部落檔（2026-05-10）

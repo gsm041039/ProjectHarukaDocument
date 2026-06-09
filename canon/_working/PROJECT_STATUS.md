@@ -2,6 +2,7 @@
 
 ## Current Workflow Snapshot
 - Current Mode: **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核
+- **Round 041（2026-06-09）情緒具現化設定整合（CanonFileIntegrator 流程）**：確立「內在陰影的超現實受難（Shadow's Surreal Passion）」——鏡中陰影以超現實劇烈自殘具現「沉溺苦難/拒絕成長/拒絕自救」小我心理；屬鏡像法則「內在陰影」深化，非新機制。作者裁決 Q1=分層並存（凜挑紅線：現實克制+鏡中放大）/ Q2=痛楚→情緒→輸出循質化法則·並 codify「情緒強度→輸出」/ Q3=深化內在陰影 subsection / Q4=「液態/黏性」非廢棄維持 canon。**CDL-292 落檔**；寫入 06_visual_bible.md（§section-shadow-surreal-passion）/ 01_world_rules_and_costs.md（§rule-emotion-intensity-output）/ rin.md（鏡中放大層+金屬扣新增）/ ayakomoji_misao.md（Body Horror 鏡中層）。**不阻塞主線**（Act III v0.3 批核仍為當前阻塞點）。
 - **Round 039（2026-06-03）Semantic Audit Auto-Loop 完成（Loops 17–32）**：全14大語意類別覆蓋完成（角色設定/世界規則/情緒機制/形上規則/術語/主題邏輯/關係邏輯/視覺象徵/遊戲機制/備份漂移/CDL一致性/資訊設計/跨幕控制層/角色成長追蹤）。合計 15項確認修正（ACS-001~ACS-015）、10項PROVEN_SAFE。SEMANTIC_AUDIT_COMPLETE判定成立。剩餘開放項全屬 AUTHOR_GATE（QQ-98~101/51/104；C-NEW-13/15/16）。
 - **Round 038（2026-06-01）story-canon-sync-gate AUTO_SYNC + ACT_III v0.3 升級**：CDL-217/218 venue addendum落檔；QQ-96/97 RESOLVED確認；QQ-102=B（新增J2.5鐵絲網偶遇beat，CDL-290）；QQ-103=無Warden設定（CDL-291）；QQ-104 DEFERRED；ACT_III_OUTLINE v0.2→v0.3；CDL-271全三項canon writeback確認完整（world rules/glossary/narrative design bible）
 - **Round 037（2026-05-15）canon/05_story_outline_canon.md FULL_OUTLINE_REBUILD 完成**：

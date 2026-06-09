@@ -629,6 +629,15 @@ Layer 4 及以後仍在後幕（Act III/IV）。
 
 **See also**: [Haruka 的特殊能力](03_characters/haruka.md) | [Glossary: Emotion Fuel](02_glossary.md#term-emotion-fuel)
 
+### <a id="rule-emotion-intensity-output"></a>情緒強度與魔法輸出（Emotion Intensity → Output）
+
+**定義**：魔法輸出強度與施法當下的情緒能量強度成正比——情緒越劇烈，可榨取的燃料越多，輸出越強。此非獨立新法則，而係[質化法則](#rule-materialization-law)（情緒具物理質量＝燃料）與[光環](#section-irreversible)（輸出增壓閥，榨取體內情緒能量）的直接推論。
+
+- **觸發條件**：施法者進入高強度情緒狀態（含主動激化，如以痛楚自我催情）。
+- **代價**：強度越高，[生理排斥](#rule-physiological-rejection)與心匣龜裂風險同步上升；負向情緒另受[情緒燃料極性](#rule-emotion-fuel-polarity)毒藥型代價約束。
+- **不可逆**：以自殘 / 創傷主動拉高情緒換取輸出者，會強化耗損與屍骸化滑移。
+- **例子**：陰影受難型角色（凜、操）以痛楚激化情緒所伴隨的輸出上升，循此推論成立，無需新增機制。
+
 ### <a id="rule-emotion-link-levels"></a>情緒連結三層級（Three Levels of Emotion Link）
 
 <!-- Sources: backup/screenwriter/08_Emotion_Setting_Overview.md -->
