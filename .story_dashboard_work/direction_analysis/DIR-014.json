@@ -1,0 +1,63 @@
+{
+  "direction_id": "DIR-014",
+  "direction_title": "信息掌控架構 (Information Control Architecture)",
+  "stability": "working",
+  "claim_status": "[SOURCED]",
+  "short_summary": "D22文件定義的「剝洋蔥原則」：核心世界觀和角色秘密不一次拋出，在不同階段不同視角逐步揭示，甚至製造誤導。四大策略：同步→誤導→共同發現→永恆隔閡。BD-10（三個術語揭示時序）DEFERRED。",
+  "source_files": [
+    "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt §D22",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-10"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-010"],
+  "involved_events": ["E-02", "E-1.5", "E-ACT2-GLASS", "E-ACT3-PLAZA"],
+  "related_lines": ["mixed"],
+  "core_question": "信息掌控設計如何為每個主要揭示建立正確的「觀眾知識差距」，讓觀眾在正確時機既驚喜又感到前置合理？",
+  "emotional_center": "「剝洋蔥的快感」——每次揭示讓已知信息獲得更黑暗的詮釋",
+  "dramatic_function": "Angle 3（信息/揭示控制）的全局設計框架；所有AKS鏈條的設計根基；BD-10揭示時序設計的母框架",
+
+  "pool_1_analysis": {
+    "1_character_growth": "信息掌控架構不是角色成長線，而是觀眾體驗設計框架。但信息控制設計直接決定每個角色的成長揭示時機——觀眾何時知道某角色的「真實面目」，決定觀眾對角色的情感投入方式（先同情後震驚 vs 先震驚後同情）。[SOURCED]",
+    "2_relationship_dynamics": "信息控制的四大策略（同步/誤導/共同發現/永恆隔閡）對關係動力的影響：觀眾和晴香「同步」→創造認同感；觀眾被「誤導」（比晴香知道更多但知道的是錯誤信息）→製造焦慮；「共同發現」→驚喜最大化；「永恆隔閡」→觀眾比角色知道更多，永遠帶著讓角色知道的渴望。[SOURCED]",
+    "3_information_reveal_control": "信息掌控架構是整個「信息/揭示控制」角度的設計主幹。AKS-H（晴香創世者）、AKS-S（螢揭示）、AKS-A（愛莉）都是這個框架的執行實例。BD-10的三個術語（晴香體質/改變現實光譜/態度剝奪詛咒）的揭示時序是目前最重要的缺口。[SOURCED]",
+    "4_atmosphere_tension": "信息控制設計直接管理全作氣氛的緊張節奏：「剝洋蔥」的設計讓每一層揭示都不是單純的「新信息加入」，而是「已知信息的詮釋顛覆」——這種顛覆製造的不是驚喜感，而是「後脊發涼」的回溯恐懼感。[SOURCED]",
+    "5_theme_expression": "「真相比表面更黑暗」是本作的信息設計哲學，直接反映TC-03的主題（完美幻象×未授權救贖）：每一層揭示都讓觀眾理解「表面上美好的事物，背後有更黑暗的真相」。信息控制設計和主題表達是互相強化的。[SOURCED]",
+    "6_structural_beat_function": "信息掌控架構不是一個單一的結構節點，而是全作所有主要節點的設計元規則。每個揭示節點（玻璃庭院茶會/帝國廣場/Act IV）都是這個架構的執行實例。[SOURCED]",
+    "7_entry_timing_presence": "D22文件的「剝洋蔥原則」定義了信息的「何時出現、以何種形式出現、從何種視角出現」。Entry Timing設計是這個架構的核心——錯誤的timing會破壞整個揭示鏈的衝擊力。BD-10 DEFERRED意味著三個核心術語的timing仍不確定。[SOURCED]",
+    "8_world_rule_mechanic": "信息控制設計決定觀眾何時理解世界規則。若世界規則（守恆定律/改變現實/三位一體）在錯誤時機揭示，觀眾會在理解規則前就遇到規則的後果，造成理解困惑。[SOURCED]",
+    "9_setup_payoff": "信息掌控架構的設計效率：最佳setup是「觀眾事後回看才發現那是伏筆」（非刻意的前置）。AKS-S2/S3的熊公仔設計（觀眾看見但不理解）是此架構最完美的例子——若BD-09a解決，就有了這樣的setup。[SOURCED]",
+    "10_audience_knowledge_gap": "觀眾知識差距設計是信息掌控架構的核心工具。同步策略（觀眾=晴香）→認同感；超前策略（觀眾>晴香）→焦慮；滯後策略（觀眾<晴香）→驚喜；永恆隔閡（觀眾知道某些角色不知道的事，且永遠無法讓角色知道）→悲劇感。[SOURCED]",
+    "11_canon_continuity": "BD-10 OPEN（三個術語揭示時序）。D22文件是MAYBE_RELEVANT備份文件，其核心設計已被移入working docs（具體mapping需要讀canon/09_information_design.md確認）。[SOURCED][INFERRED]",
+    "12_writing_execution": "信息掌控架構的執行難度在於「一致性」：若每個場景獨立設計信息，就容易造成前後不一致（BD-10的問題）。D22的表格式設計工具（每個揭示項目的timing/視角/形式）是執行的核心工具，需要在Beat Sheet層作為參考。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "NOT_RELEVANT", "reason": "信息掌控架構是設計工具，不涉及角色防衛機制。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "NOT_RELEVANT", "reason": "信息掌控架構是設計框架，不是主題表達工具。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "NOT_RELEVANT", "reason": "不適用。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "NOT_RELEVANT", "reason": "不適用。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "NOT_RELEVANT", "reason": "不適用。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "NOT_RELEVANT", "reason": "不適用（信息掌控架構是工具，不是主題立場）。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "信息掌控架構本身就是「為什麼用這種方式而不是那種方式揭示」的設計工具——每個揭示形式選擇都是Angle 19的直接應用。"}
+  ],
+
+  "pool_2_expanded": {
+    "19_method_necessity": "D22的每個表格條目本質上就是Angle 19分析的輸出：「這個概念為什麼要在這個時機以這種形式揭示？」BD-10的三個缺口（晴香體質/改變現實光譜/態度剝奪詛咒）代表Angle 19分析尚未完成的部分——這三個概念的揭示時機和形式選擇會直接影響Act III帝國廣場決戰的觀眾理解完整度。"
+  },
+
+  "contradictions": [
+    {
+      "id": "C-DIR014-01",
+      "description": "BD-10：三個術語（晴香體質/改變現實光譜/態度剝奪詛咒）的觀眾揭示時序缺失——若這些術語在AKS-H2/H3前未被觀眾理解，帝國廣場揭示的完整含義就無法被接收",
+      "claim_status": "[UNRESOLVED]",
+      "source": "BLOCKED_DECISIONS.md §BD-10"
+    }
+  ],
+  "missing_bridges": ["BD-10（Medium）：三個核心術語的觀眾揭示時序設計"],
+  "open_questions": ["QQ-07 / BD-10：改變現實相關術語揭示時序 DEFERRED至Act Outline"],
+  "recommendation": {
+    "strongest_value": "D22文件的表格式信息設計極其系統化，是觀眾體驗設計的最佳工具文件；四大策略（同步/誤導/共同發現/永恆隔閡）是全作信息設計的清晰框架",
+    "biggest_weakness": "BD-10三個術語時序缺失，影響Act III揭示的觀眾理解完整度",
+    "suggested_next_action": "Act Outline前解決BD-10，確定三個術語在Act I/II的揭示時序；建議在ACT_II_OUTLINE層處理",
+    "author_confirmation_needed": []
+  }
+}

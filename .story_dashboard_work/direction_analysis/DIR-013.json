@@ -1,0 +1,60 @@
+{
+  "direction_id": "DIR-013",
+  "direction_title": "Alpha/Beta 雙世界結構線 (Alpha/Beta Dual World Structure Line)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "Alpha線（低魔現實，帝國歷102年黑奏殺死花子+美夜子前）vs Beta線（晴香創世高魔世界，現故事世界）。兩線滲漏從Act I微弱（鏡中幻象）到Act III直接揭露。BD-07 FULLY RESOLVED。",
+  "source_files": [
+    "canon/04_timeline_canon.md §II Alpha線分歧事件",
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §二",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-07"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-002", "CHAR-003"],
+  "involved_events": ["E-PRE-01", "E-PRE-02", "E-ACT3-PLAZA"],
+  "related_lines": ["Alpha"],
+  "core_question": "Alpha線回溯場景（Act III/IV）如何在視覺上讓觀眾理解「這是不同時間線的版本」而非單純的記憶場景？",
+  "emotional_center": "「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」",
+  "dramatic_function": "故事核心設定（膠布哲學第三層）；TC-03最高衝擊點的設定基礎；晴香×美夜子隱藏深度",
+
+  "pool_1_analysis": {
+    "1_character_growth": "Alpha/Beta雙線設定是晴香創世者揭示（DIR-001）的設定基礎，不是獨立的成長線。但設定本身對美夜子的成長至關重要：美夜子是Alpha線的「死者」——她的整個存在是Alpha線記憶和Beta線拼接的結果，這使她的「我是否真的活著」議題有設定支撐。[SOURCED]",
+    "2_relationship_dynamics": "晴香×美夜子關係的最深層：Beta線的美夜子是Alpha線美夜子「死前對晴香的愛的殘響」的具現化。晴香不知道的是：她正在保護的「家姐」，是她5歲時的善意把Alpha線的家姐拖出來重新以扭曲形式存在的結果。[SOURCED]",
+    "3_information_reveal_control": "Alpha/Beta線知識的揭示節奏：AKS-H0（觀眾不知兩線）→AKS-H1（觀眾知兩線同時存在）→帝國廣場決戰（黑奏揭露「Beta線是貼在Alpha線屍體上的膠布」）→Act IV Alpha線回溯（完整歷史揭示）。節奏設計完整，依賴BD-08（Alpha線回溯場景設計）。[SOURCED]",
+    "4_atmosphere_tension": "Alpha線滲漏設計（Act I鏡中幻象→Act II記憶修改→Act III直接揭露）是全作最長的「不安感積累」線：觀眾從Act I就感覺到有什麼「不對勁」，但無法解釋，直到帝國廣場才獲得解答。這種「持續的輕微不安」是全作最重要的隱性氣氛設計。[SOURCED]",
+    "5_theme_expression": "Alpha/Beta雙線是膠布哲學L3的設定基礎：Beta線是晴香在Alpha線「死去的美夜子」屍體上貼的膠布。主題TC-03（完美幻象×未授權救贖）的最終衝擊依賴觀眾完全理解Alpha/Beta線的關係。[SOURCED]",
+    "6_structural_beat_function": "AKS-H1（Act I幕末）是觀眾獲知兩線存在的結構節點。帝國廣場（Act III）是兩線關係被完整揭示的最高張力節點。Act IV Alpha線回溯是最後的設定解鎖。三個節點分佈在三幕（I/III/IV），設計完整。[SOURCED]",
+    "7_entry_timing_presence": "Alpha線在Act I以「不可解釋的幽靈感」presence（晴香的幻聽/幻覺無法解釋）。AKS-H1後Alpha線正式在觀眾認知中「存在」。BD-08（Alpha線回溯場景）是Alpha線在Act III/IV的具體presence設計。[SOURCED]",
+    "8_world_rule_mechanic": "Alpha/Beta分歧機制（帝國歷102年）是全作世界觀的最核心設定。維多利亞之淚的Alpha線（廢棄金屬結構）vs Beta線（活化功能設施）的差異（CDL-286）說明Beta線是高魔世界的具體化。[SOURCED]",
+    "9_setup_payoff": "Setup：Act I鏡中幻象（Alpha線滲漏L1）；幽靈重量症狀（夕存在=Alpha線記憶具現化）。Payoff：帝國廣場（Alpha/Beta線完整揭露）；Alpha線的幾日（Act IV，timeline §114年6月-134年6月）。BD-08 DEFERRED影響具體payoff設計。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I觀眾感覺「有什麼不對勁」但無法解釋→AKS-H1觀眾知兩線→帝國廣場觀眾和晴香同步獲得最大衝擊→Act IV Alpha線回溯最終揭示。知識差距的設計從「感覺層（不安感）」到「理解層（兩線關係）」到「情感層（代價）」的三層推進。[SOURCED]",
+    "11_canon_continuity": "BD-07 FULLY RESOLVED（Alpha線死因=黑奏預謀；Beta線死因=真實難產，無deeper truth）。CDL-288 RESOLVED（鐵絲網偶遇：晴香5歲許願+黑奏獲得魔法力量的因果信標）。無硬衝突。[SOURCED]",
+    "12_writing_execution": "Alpha線回溯場景（BD-08）的可寫性依賴具體設計（DEFERRED）。帝國廣場決戰場景中「Alpha線揭露」的具體對白（「妳只係在美夜子屍體上貼膠布」）可寫性極高（黑奏台詞方向清晰）。整體設定的可寫性高，但回溯場景設計是中等難度的視覺挑戰。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "整個Beta線是晴香5歲的防衛機制：通過創世一個更美好的世界來迴避Alpha線家姐死去的事實。Alpha/Beta雙線是最宏觀的「防衛機制具現化」。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "Alpha線揭露是晴香「善意可以改變命運」意識形態的最終否定：Beta線是晴香的善意創造的，但Beta線的存在本身就是「善意的最大代價」。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "帝國制度只在Beta線存在（Alpha線維多利亞之淚是廢棄金屬結構）。揭露兩線差異=揭露「整個帝國制度只因晴香5歲的善意才存在」——制度合法性的根本質疑。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "晴香的最終道德困局：接受Beta線是「膠布」=接受整個魔法少女系統/帝國/所有戰鬥的意義基礎崩潰。L5選擇（吸收）是在接受這個道德事實後仍然選擇承擔的行動。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "RELEVANT", "reason": "「膠布」是Alpha/Beta雙線的核心象徵：Beta線=晴香貼在Alpha線屍體上的膠布。鐵絲網偶遇（CDL-288）是Alpha/Beta分歧的因果信標，具有象徵性的物件性（鐵絲網兩側=Alpha/Beta的分界）。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對「創世=貼膠布」的最終處理：acknowledge（是膠布），但validate了「即使是膠布，膠布下面的人在這段時間裡的連結和愛是真實的」（美夜子20年守望的真實性）。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "Alpha線「回溯」為何必須作為場景出現（而非旁白說明）：旁白說明讓觀眾「理解」Alpha線；場景讓觀眾「感受」Alpha線——在Act IV能夠感受到「Alpha線的現實」才能讓晴香的選擇（接受Beta線是膠布）有充分的情感重量。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "Beta線是晴香5歲「最大的防衛機制」：用創世一個美好世界來迴避家姐死亡的事實。整個故事世界的存在，是一個五歲兒童的防衛機制的宏觀具現化。這使Alpha/Beta雙線不只是設定選擇，而是主題的最大化表達：防衛機制可以大到覆蓋整個現實。",
+    "17_symbolic": "鐵絲網偶遇（CDL-288）的象徵意義：晴香在Alpha線目睹鐵絲網另一邊受苦的彩，許下願望→創世能量使Beta線誕生。鐵絲網是Alpha/Beta分界的物理象徵：在Alpha線，晴香和彩被鐵絲網隔開；在Beta線，鐵絲網消失了（但代價是Beta線整個存在）。膠布哲學L3台詞中的「膠布」也是一個物理象徵：膠布貼在傷口上讓傷口看起來已癒合，但傷口還在。",
+    "18_narrative_validation": "故事對Beta線的最終態度：acknowledge它是「膠布」（晴香接受），但不否定在Beta線中發生的一切的價值（美夜子的20年守望、晴香和隊友們的連結都是真實的）。「膠布是膠布，但膠布下面的人的愛是真實的」——這是對「創世行為的道德評判」和「創世行為的情感遺產」的分別處理。",
+    "19_method_necessity": "Alpha線回溯場景vs旁白說明：Act IV的「Alpha線的幾日」（timeline §VI）讓夕在Alpha線度過數日，讓晴香/夕體驗「過去無法被修正」。這種「親身體驗Alpha線」的設計讓「接受Beta線是膠布」不是一個思想上的接受，而是一個感受上的接受——比旁白說明有更深的情感根基。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["BD-08（Medium）：美夜子Alpha線死亡場景具體設計 DEFERRED", "Alpha線回溯場景的視覺形式（是否採用「色彩差異/質感差異」來區分Alpha/Beta）"],
+  "open_questions": ["BD-08：Alpha線回溯場景設計 DEFERRED"],
+  "recommendation": {
+    "strongest_value": "BD-07 FULLY RESOLVED使整個雙線設定的結構清晰度極高；鐵絲網偶遇（CDL-288）是全作最精緻的因果信標設計之一",
+    "biggest_weakness": "BD-08 Alpha線回溯場景具體設計DEFERRED，影響Act III/IV視覺設計；Alpha線的「視覺區分」（如何讓觀眾一看就知道是Alpha線場景）需要具體設計決策",
+    "suggested_next_action": "Act III/IV Outline前確認Alpha線回溯場景的視覺區分形式（顏色/質感/音效）；確認BD-08",
+    "author_confirmation_needed": ["BD-08：Alpha線回溯場景視覺形式"]
+  }
+}

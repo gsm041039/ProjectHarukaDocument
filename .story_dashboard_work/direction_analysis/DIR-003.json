@@ -1,0 +1,59 @@
+{
+  "direction_id": "DIR-003",
+  "direction_title": "美夜子破冰→傳承者 弧線 (Miyako Thaw to Heir Arc)",
+  "stability": "working",
+  "claim_status": "[SOURCED]",
+  "short_summary": "美夜子從冰冷功利感（Act I E-01），經「無價值留守」軟轉折點（113年7月社死後廢棄地鐵站，CDL-191），燒盡20年守望（避難所詛咒解除，三段式覺醒），最終以吉他傳承晴香精神（Act IV）。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三",
+    "canon/04_timeline_canon.md §美夜子復活機制",
+    "canon/_working/PROJECT_STATUS.md CDL-191"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-002"],
+  "involved_events": ["E-01", "E-ACT3-MIYAKO-THAW", "E-ACT4-MIYAKO-GUITAR"],
+  "related_lines": ["Alpha", "Beta"],
+  "core_question": "美夜子的軟轉折點（廢棄地鐵站Soft Pivot）如何設計既不陷入刻意感，又不令觀眾感覺關係發展太快？",
+  "emotional_center": "「妳依家確實係一件廢物。但係，我唔會走。」—— 功利邏輯消失後的第一次純粹守護",
+  "dramatic_function": "晴香×美夜子是全作最重要情感主軸；美夜子是「傳承晴香精神」的Act IV解決方案；避難所詛咒解鎖是Act III情感高潮",
+
+  "pool_1_analysis": {
+    "1_character_growth": "美夜子成長類型：inversion（從功利守護→無條件守護）+ partial change（身份認知恢復）。CDL-191確認兩步成長架構：Step 1廢棄地鐵站Soft Pivot（功利邏輯消失）→Step 2三段式覺醒（完全覺醒）。美夜子的成長基礎：拼接式復活（情緒殘響）的存在本質使她無法確認「自己是否真的活著」，成長的核心是「接受存在本身的不確定性」。[SOURCED AC CDL-191]",
+    "2_relationship_dynamics": "晴香×美夜子的關係動力線：E-01（工具vs被工具）→社死後廢棄地鐵站（美夜子第一次承認「留下是因為想留」）→三段式覺醒（晴香的擁抱解鎖詛咒）→Act IV（吉他傳承）。晴香從「被保護者」→「保護者」的角色轉換在美夜子×晴香關係中是最關鍵的節點（timeline §IV美夜子失蹤救援事件）。[SOURCED]",
+    "3_information_reveal_control": "美夜子的身份（晴香的Alpha線姊姊）揭示在Act III（CDL-108避難所詛咒機制確認）。避難所詛咒的原因（晴香5歲許願「如果家姐變做貓仔就唔會受傷」）是晴香創世者揭示（DIR-001）的一個側面。美夜子的黑貓形態在Act I以「無解釋」方式存在（觀眾疑問→Act III解答）。[SOURCED]",
+    "4_atmosphere_tension": "廢棄地鐵站場景（社死後Soft Pivot）：最高孤立感時刻，隊伍已崩，晴香已是通緝犯，美夜子選擇留下——這個選擇在零資源、零理由的情況下才有最大情感重量。三段式覺醒（貓殼碎裂→月下窗台→晴香的擁抱）是全作最高情感張力的非戰鬥段落之一。[SOURCED]",
+    "5_theme_expression": "美夜子弧線承載「連結的本質」主題：不是功利連結（有用才留），而是「就算妳依家係廢物，我都唔走」的無條件連結。這是TC-01（連結的價值×傲慢救世主）的直接表達，對比晴香的「傲慢式連結」（以善意改變他人命運），美夜子的連結是「接受對方現在的樣子」。[SOURCED]",
+    "6_structural_beat_function": "美夜子的Soft Pivot在Act II末/Act III初（社死後）是隊伍解散→重建的情感橋。三段式覺醒在Act III是全作非戰鬥段情感高峰。Act IV吉他傳承是整條弧線的最終payoff。三個節點分別在Act II末/Act III/Act IV，節奏設計完整。[SOURCED]",
+    "7_entry_timing_presence": "美夜子Act I以黑貓形態出場（無解釋）。美夜子的人類形態presence在Act II-III逐漸恢復（Glitch Form→三段式覺醒）。人類形態的完整展示在Act III三段式覺醒後——這是整條弧線的entry timing核心設計（觀眾在Act III才真正「見到」美夜子）。[SOURCED]",
+    "8_world_rule_mechanic": "避難所詛咒（晴香5歲許願→美夜子黑貓）是核心世界規則壓力。詛咒解鎖條件：晴香主動擁抱（「接受美夜子的存在和脆弱」）。詛咒設計與晴香創世者揭示深度綁定，且是「意外的善意造成意外的代價」的小型版TC-03。[SOURCED]",
+    "9_setup_payoff": "Setup：Act I美夜子黑貓（詛咒無解釋）；CDL-108確認Act I全程貓形態執行；E-01口裡說工具身體本能保護。Payoff：廢棄地鐵站Soft Pivot（CDL-191）；三段式覺醒；吉他傳承。最長線setup：「美夜子的復活是因為Alpha線她對晴香太深的愛」（timeline §III）→Act IV吉他傳承（這份愛的最終表達）。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I觀眾不知美夜子是晴香姊姊（AKS-H0）。AKS-H1（Act I幕末）後觀眾知Alpha/Beta線，但姊妹真相在Act III才揭示（timeline §IV 詛咒真相揭露）。美夜子自己在Act III才恢復記憶（「記起自己是晴香的親姊姊」）。三方知識差距（觀眾/晴香/美夜子）的設計精緻。[SOURCED]",
+    "11_canon_continuity": "CDL-191 RESOLVED（廢棄地鐵站Soft Pivot確認）。SG-04 RESOLVED（miyako.md Act II已全面更新 2026-04-19）。CDL-108 RESOLVED（Act I全程貓形態確認）。無硬衝突。[SOURCED]",
+    "12_writing_execution": "Soft Pivot台詞（「妳依家確實係一件廢物。但係，我唔會走。」）可寫性極高，情感邏輯清晰。三段式覺醒場景有具體的視覺設計（貓殼碎裂/月下窗台/晴香的擁抱）。整體可寫性高。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "美夜子的防衛機制：功利語言（「妳有用才留」）用來迴避承認「我想守護妳」。Soft Pivot是防衛語言第一次崩潰的時刻。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "美夜子的價值系統從「功利連結」轉化為「無條件連結」——這個轉化是全作「連結的真實價值」主題的最具體人格化表達。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "NOT_RELEVANT", "reason": "美夜子弧線是個人情感線，不主要受社會制度位置影響。Unit 01身份是背景設定，不是弧線設計核心。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "美夜子的道德困局：告知晴香「我是妳Alpha線姊姊」=讓晴香面對她5歲「殺死」了家姐的事實。Soft Pivot前後美夜子一直在避免這個揭示，直到三段式覺醒後才能正視。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "RELEVANT", "reason": "吉他是傳承晴香精神的核心象徵物件。避難所詛咒解鎖（晴香的擁抱）是一個具體的儀式性動作：身體接觸作為接受脆弱的象徵。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事validate美夜子的「無條件守護」作為連結的正確模式，與晴香的「傲慢式善意救贖」形成對比。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "NOT_RELEVANT", "reason": "美夜子弧線的核心設計問題是情感節奏，不是特定形式選擇的必要性。避難所詛咒解鎖的「擁抱」形式已充分合理，無需進一步form meaning分析。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "美夜子的防衛機制：拼接式復活的存在不確定性（「我不確定自己是否真的活著」）→通過功利語言建立與晴香的距離（「妳有用才留」），迴避真實情感依附。Soft Pivot是第一次放棄這個防衛——「妳現在是廢物，但我唔會走」，承認守護不需要理由。三段式覺醒是防衛機制完全瓦解後的情感爆發（月下窗台存在確認失敗→晴香的擁抱才讓她確認存在）。",
+    "14_ideology": "美夜子的意識形態轉化：從「連結需要合理化（工具性）」到「連結本身就是合理化（情感性）」。這個轉化是TC-01主題的人格化：故事通過美夜子的弧線validate了「無條件連結」作為存在意義的基礎。",
+    "16_moral_tradeoff": "美夜子的道德困局：告知晴香真相（你殺死了我，但你也救了我）= 讓一個已經脆弱的人承受更大的傷。不告知 = 維持美夜子的「安全距離」。她最終在Act III被迫接受揭示（詛咒真相），告知等於接受了「連結比保護對方免受痛苦更重要」。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["Act IV美夜子×晴香payoff的具體位置（TBD）"],
+  "open_questions": ["Act IV美夜子×晴香payoff場景位置（Act IV前期確認前）"],
+  "recommendation": {
+    "strongest_value": "兩步成長架構（CDL-191）設計精緻；美夜子復活機制的悲劇閉環（「晴香對家姐的愛把家姐靈魂從冥河打撈出來」）是全作最黑暗的「善意代價」設計之一",
+    "biggest_weakness": "Act IV美夜子×晴香payoff位置TBD，需要在Act IV Outline前確認",
+    "suggested_next_action": "Act IV Outline確認美夜子×晴香payoff場景在全場景序列中的位置（Act IV前期）",
+    "author_confirmation_needed": []
+  }
+}

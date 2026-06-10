@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-06-10",
+  "phase": "phase_2_raw_extraction",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md",
+    "canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md",
+    "canon/03_characters/*.md",
+    "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt"
+  ],
+  "characters": [
+    {
+      "id": "CHAR-001",
+      "name": "晴香 (Haruka / 雨宮晴香)",
+      "role": "protagonist",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "偶像高中生，魔法少女。Beta線世界的無意識創造者。創世者特權（絕對共感視界 / Game UI）。最終被世界索回，靜止搖籃。",
+      "growth_arc": "逃避者 → 英雄 → 失敗的英雄 → 承受者 / 永恆守護者",
+      "act_states": {
+        "act_1": "脆弱的明亮感→不安陰影；情感耗損開始；夕整合完成 [AC]",
+        "act_2": "英雄孤獨感；力量增長但內在萎縮；英雄偶像謊言開始崩壞 [SS]",
+        "act_3": "徹底無力感；創世者罪責揭露（帝國廣場）；困於集體潛意識20年 [AC]",
+        "act_4": "善意牢籠覺醒 → 自我整合（接納花子） → 靜止搖籃（覺醒不明寫）[AC]"
+      },
+      "key_abilities": [
+        "絕對共感視界（Game UI / 創世者管理員權限）[AC]",
+        "改變現實（最高層魔法；代價最大）[AC]",
+        "情緒增幅器（被黑奏污染後）[AC]",
+        "陰影視覺（整合夕後）[AC]"
+      ],
+      "key_secrets": [
+        "5歲時無意識創造Beta線世界，是緋潮根源 [AC]",
+        "世界最終將她索回作維持新秩序代價 [AC]"
+      ],
+      "directions_involved": ["DIR-001", "DIR-002", "DIR-005", "DIR-009", "DIR-011", "DIR-013", "DIR-014", "DIR-015"],
+      "source_files": ["canon/03_characters/haruka.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-002",
+      "name": "美夜子 (Miyako / 月代美夜子)",
+      "role": "mentor_partner",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "前軍方魔法少女隊長，被「避難所詛咒」鎖定貓形態。晴香的細妹（Alpha線），但Beta線晴香不知情。傳承者。",
+      "growth_arc": "冰冷功利感 → 破冰（無價值留守）→ 悲壯燃盡 → 倖存者/繼承人",
+      "act_states": {
+        "act_1": "冰冷功利感；將晴香視為工具 [AC]",
+        "act_2": "漸進破冰（無價值留守CDL-191）；軟轉折點 [AC direction]",
+        "act_3": "悲壯燃盡；20年守望集體潛意識；三段式覺醒（貓殼碎裂→月下窗台→晴香的擁抱）[AC]",
+        "act_4": "倖存者；用吉他演奏晴香最後的曲子；朔重逢 [AC]"
+      },
+      "special_mechanics": [
+        "避難所詛咒（Sanctuary Curse）：晴香5歲許願→美夜子心理防線崩潰時強制變貓 [AC：Q-N-15]",
+        "美夜子Glitch Form：外部破壞超越詛咒極限→冰藍少女殘影0.5秒 [AC CDL-243]",
+        "是晴香Alpha線的大家姐（Beta線晴香不知）[AC]"
+      ],
+      "directions_involved": ["DIR-001", "DIR-002", "DIR-003", "DIR-009"],
+      "source_files": ["canon/03_characters/miyako.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-003",
+      "name": "彩 / 黑奏 (Sai / Kurosou)",
+      "role": "villain_dual_personality",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "彩＝主人格，靈樹戰爭倖存者。黑奏＝副人格，目睹螢死亡後精神完全崩潰所形成，承擔彩無法承受的痛苦。帝國皇帝（黑奏操控）。共享心匣（萬花筒形態）。",
+      "growth_arc": "陰影/偽裝 → 威嚴裂痕 → 彩主人格覺醒 → 黑奏消散 → 彩永恆輪迴（自選）",
+      "act_states": {
+        "act_1": "彩偽裝轉學生；E-1.5晴香目睹切換（不知係DID）[AC]",
+        "act_2": "幕後威嚴感；漸進暗示（極微弱）[SS]",
+        "act_3": "威嚴裂痕；茶會真身揭露；身份揭露（情感核彈L1+L2+L3）[AC]",
+        "act_4": "彩主人格覺醒；黑奏消散（彩「我想自己揀」否定）；彩永恆輪迴（自選，每次阻止黑奏誕生）[AC]"
+      },
+      "special_mechanics": [
+        "黑奏農場計劃：以緋潮情緒能量積累「情感貨幣」以恢復螢 [AC]",
+        "黑奏創世行動：主動殺死Alpha線晴香媽媽+美夜子，令晴香魔法覺醒發動改變現實 [AC CDL-287/288]",
+        "心匣：萬花筒形態（黑奏）vs 傳統形態（彩）[AC]",
+        "彩的永恆輪迴：自願承擔「愛的代價」 [AC]"
+      ],
+      "directions_involved": ["DIR-001", "DIR-004", "DIR-007", "DIR-013", "DIR-015"],
+      "source_files": ["canon/03_characters/aya.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-004",
+      "name": "夕 (Yu / 夕影)",
+      "role": "shadow_inner_entity",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "晴香第一次改變現實的「情緒守恆代價」。承載晴香壓抑的痛苦記憶 + Alpha線真實（花子與美夜子同時死亡的真相）。位於集體潛意識。",
+      "growth_arc": "植入不對勁噪訊 → 首次整合（Act I幕末）→ 暗示創世者 → 暫時沉睡 → 被迫接管（E-18 兩個階段）→ 消散",
+      "act_states": {
+        "act_1": "植入不對勁噪訊；首次整合（幕末，L1+L2+L3）[AC]",
+        "act_2": "暗示晴香是創世者；晴香知而拒絕承認 [AC]",
+        "act_3_early": "暫時沉睡（E-10後）[AC]",
+        "act_3_late": "E-18：①被迫接管（晴香困集體潛意識，不接管就一起死）→ ②主動取控（發現可利用晴香改變現實，主動發動）[AC]",
+        "act_4": "消散：夕改變現實 → 反悔 → 用自身力量undo → 力量耗盡消散 [AC BD-03]"
+      },
+      "key_facts": [
+        "夕完全唔知情（不知道黑奏情緒農場）[AC BD-12 RESOLVED]",
+        "「夕→黑奏輸送情緒能量」設定取消 [AC]",
+        "5歲形態：Option D（時間錨點+自我對峙+榮格創傷凍結）[AC CDL-221]"
+      ],
+      "directions_involved": ["DIR-005", "DIR-011", "DIR-013"],
+      "source_files": ["canon/03_characters/yu.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-005",
+      "name": "朱音 (Akiho / 朱音)",
+      "role": "team_member",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "屍骸女王 / 屍骸首領（Act II後期）。護理者原型。小光的非戀愛保護者。嘆息之橋犧牲。",
+      "growth_arc": "隊伍羈絆建立 → 情緒毒品依賴加深 → 「今晚我哋還在，起碼食完今頓飯」→ 嘆息之橋自毀贖罪",
+      "act_states": {
+        "act_1": "隊伍羈絆建立 [SS]",
+        "act_2": "情緒毒品依賴加深；小光被黑奏主動策劃攻擊觸發屍骸化；成屍骸女王 [AC]",
+        "act_3": "完整犧牲流程：暴食斷頭台過載+吞過期糖果毒素→部分屍骸化（糖晶硬殼）→逃入下水道→嘆息之橋自毀贖罪 [AC]"
+      },
+      "key_relationship": "小光：護理對象（非不倫關係）；黑奏蓄意心理操控工具 [AC Q-N-18]",
+      "sacrifice_dialogue": "「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」[AC]",
+      "directions_involved": ["DIR-006", "DIR-011"],
+      "source_files": ["canon/03_characters/akiho.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-006",
+      "name": "操 (Misao / 綾小路操 / Ayakomoji Misao)",
+      "role": "team_member",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "完美主義者。一直係女兒身（無強制性別手術/精神病院）。家道中落，街邊行乞。父親視她為瑕疵作品。管家紗夜的庇護。嘆息之橋後半屍骸歸來。",
+      "growth_arc": "完美主義/形式主義 → 自我放逐 → 主動選擇半屍骸化臨界點（三位一體）",
+      "act_states": {
+        "act_1": "形式主義背後的創傷；父親「瑕疵作品」陰影（輕量暗示）[AC]",
+        "act_2": "凜崩潰後心理衝擊；鋼鐵獨舞[SS]；操Body Horror三段（Stage1牙齦滲血/Stage2絲線縫牙/Stage3黑奏揭露）[AC CDL-233]",
+        "act_3": "主動選擇半屍骸化臨界點；紗夜犧牲（情緒管理局攻入大宅）；台詞「我選擇停留在我想停留的位置。」[AC]",
+        "act_4": "半屍骸歸來；三位一體首次視覺化 [AC]"
+      },
+      "key_facts": [
+        "操一直係女兒身 [AC BD-06 RESOLVED]",
+        "父親台詞：「這件『作品』出現了瑕疵…既然帝國要回收，那就拿去吧。我可以重新製造更好的。」[AC CDL-234]",
+        "紗夜：「妳係我最靚嘅女」[AC CDL-232]"
+      ],
+      "directions_involved": ["DIR-006", "DIR-011"],
+      "source_files": ["canon/03_characters/ayakomoji_misao.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-007",
+      "name": "凜 (Rin)",
+      "role": "supporting_unit00",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "美夜子的前同袍，美夜子唯一聽過她「完整版本」歌聲的人。被光環處決後被黑奏救回利用。以「屍骸獵人」形式存在（著制服消除情緒突異個體）。拒絕治癒→Unit 00。",
+      "growth_arc": "原初犧牲 → 屍骸獵人 → 拒絕治癒 → Unit 00",
+      "act_states": {
+        "prehistory": "原初犧牲：為美夜子犧牲，被帝國光環扭斷頸部處決（故事開始前）→ 被黑奏救回並加以利用 [AC]",
+        "act_2_3": "屍骸獵人形式（著制服）；美夜子發現凜「仍alive」= 震驚觸發點，促使美夜子獨立行動 [AC]",
+        "act_3": "拒絕治癒→Unit 00（E-15a獨立事件）；「遲來的介錯」——嘴巴張開嘗試說話/美夜子靠近聆聽/只得氣音+系統音 [AC]"
+      },
+      "key_tragedy": "晴香佔了那個位置——凜本想以歌聲救人，但那個位置給了晴香 [AC]",
+      "second_being_severed": "美夜子失憶 = 凜的第二次被切斷 [AC]",
+      "directions_involved": ["DIR-008"],
+      "source_files": ["canon/03_characters/rin.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-008",
+      "name": "朔 (Saku / 白銀朔)",
+      "role": "supporting_liberator",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "三位一體概念的學習者與守護者。解放者。朔=浩然=白銀朔（CDL-124）。Act I在夜區以影子身份存在。",
+      "growth_arc": "夜區影子 → 學識三位一體 → 解放者覺醒（脫離管理局，與晴香同盟）→ 重逢，接受美夜子已改變",
+      "act_states": {
+        "act_1": "夜區影子過場（[SQ]可選）[AC CDL-090]",
+        "act_2": "獨立戲份啟動；學識認識三位一體 [AC]",
+        "act_3": "解放者覺醒（脫離管理局，與晴香同盟 E-16嵌入）；觸發器：「保護的殘響」（非美夜子覺醒）[AC]",
+        "act_4": "重逢；接受美夜子已改變的事實 [AC]"
+      },
+      "directions_involved": ["DIR-010", "DIR-011"],
+      "source_files": ["canon/03_characters/saku.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-009",
+      "name": "愛莉 (Aeri)",
+      "role": "supporting_saint_knight",
+      "claim_status": "[SOURCED]",
+      "stability": "AC",
+      "core_identity": "靈魂被鎖定在Alpha/Beta線交叉點；唯一在時間線覆寫後仍保有Alpha線記憶的人。兩階段起源：秋穗研究事故→石像；晴香改變現實→魔法少女。光點消失。",
+      "growth_arc": "石像/紙皮騎士 → 魔法少女形態（第2次改變現實觸發）→ 光點消失",
+      "act_states": {
+        "act_1_to_3": "石像/紙皮騎士形態（前史事故）；無系統性暗示（設計意圖）；紙皮騎士=魔法少女騎士形態的唯一視覺連結 [AC BD-09b]",
+        "act_3_4_boundary": "魔法少女形態第二觸發登場（晴香夕第2次改變現實時愛莉內心希望有人拯救她）[AC]",
+        "act_4": "光點消失：晴香接受改變現實係錯→願望消失→愛莉由魔法少女形態變成光點慢慢消失 [AC BD-04]"
+      },
+      "directions_involved": ["DIR-012"],
+      "source_files": ["canon/03_characters/aeri.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    },
+    {
+      "id": "CHAR-010",
+      "name": "秋穗 (Akiho Senior / 月代秋穗)",
+      "role": "supporting_scientist_betrayer",
+      "claim_status": "[SOURCED]",
+      "stability": "AC_partial",
+      "core_identity": "花子的雙胞胎姊姊。「改變心之器」研究者，意外令愛莉成為第一個人造魔法屍骸。為救愛莉與帝國（黑奏）交易，引發情緒毒品危機。以「缺席」終局收結。退場機制TBD。",
+      "growth_arc": "母性依靠NPC → 信任加深 → 秘密揭露背叛 → 缺席終局",
+      "act_states": {
+        "act_1": "茶餐廳[NC]輕量出場；血糖手錶派發；模仿花子語調；輔助NPC定位 [AC CDL-110]",
+        "act_2": "信任加深 [AC]；情緒毒品危機E-11a揭露：被黑奏妥協，為救愛莉而相信黑奏的話 [AC Q-N-10]",
+        "act_3": "背叛揭露 + 退場（退場事件TBD）[AC direction]",
+        "act_4": "缺席收結；晴香無直接對話 [AC 2026-03-27]"
+      },
+      "open_questions": ["QQ-04 / BD-13：退場事件設計 BLOCKED"],
+      "directions_involved": ["DIR-009", "DIR-011"],
+      "source_files": ["canon/03_characters/akiho.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md"]
+    }
+  ]
+}

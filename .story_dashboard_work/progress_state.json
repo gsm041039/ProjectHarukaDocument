@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-10",
+  "phase": "phase_7_html_build_complete",
+  "completed_phases": [
+    "phase_1_file_discovery",
+    "phase_2_raw_extraction",
+    "phase_3_direction_identification",
+    "phase_4_direction_analysis",
+    "phase_5_cross_reference",
+    "phase_6_html_planning",
+    "phase_7_html_build"
+  ],
+  "remaining_phases": [
+    "phase_8_self_audit"
+  ],
+  "html_dashboard": {
+    "path": ".story_dashboard_work/story_dashboard/index.html",
+    "type": "single self-contained HTML + inline CSS/JS + embedded data",
+    "features": ["direction cards (15)", "filter chips (stability/line/issues)", "search box", "expandable Pool 1/2 sections", "character index sidebar", "contradiction register sidebar", "Pool 1+2 full data for DIR-011/012/015", "Pool 2 partial for DIR-013/014 embedded in direction_analysis/*.json", "stability/claim_status badges", "missing bridge warnings", "recommendation boxes"],
+    "pool_analysis_notes": "Full Pool 1+2 analysis embedded in HTML for DIR-011, DIR-012, DIR-015. For DIR-001 through DIR-010, DIR-013, DIR-014: full JSON analysis files available in direction_analysis/*.json"
+  },
+  "files_read_in_phase_2": [
+    "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt",
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md",
+    "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md",
+    "canon/_working/PROJECT_STATUS.md",
+    "canon/_working/QUESTION_QUEUE.md (first 100 lines)",
+    "canon/04_timeline_canon.md",
+    "canon/_working/story_construction/ACT_I_OUTLINE.md (first 150 lines)",
+    "ledger/CONTRADICTION_AUDIT.md",
+    "canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md"
+  ],
+  "extraction_outputs": {
+    "character_index": ".story_dashboard_work/character_index.json (10 characters)",
+    "event_index": ".story_dashboard_work/event_index.json (25+ events)",
+    "direction_candidates": ".story_dashboard_work/direction_candidates.json (15 directions)",
+    "contradiction_log": ".story_dashboard_work/contradiction_log.json (7 open issues)"
+  },
+  "phase_4_status": {
+    "directions_to_analyze": 15,
+    "directions_analyzed": 15,
+    "in_progress": []
+  },
+  "identified_directions": [
+    "DIR-001", "DIR-002", "DIR-003", "DIR-004", "DIR-005",
+    "DIR-006", "DIR-007", "DIR-008", "DIR-009", "DIR-010",
+    "DIR-011", "DIR-012", "DIR-013", "DIR-014", "DIR-015"
+  ],
+  "completed_direction_ids": [
+    "DIR-001", "DIR-002", "DIR-003", "DIR-004", "DIR-005",
+    "DIR-006", "DIR-007", "DIR-008", "DIR-009", "DIR-010",
+    "DIR-011", "DIR-012", "DIR-013", "DIR-014", "DIR-015"
+  ],
+  "incomplete_direction_ids": [],
+  "known_risks": [
+    "STORY_BASE_RECONSTRUCTION and outline files must be author-gated before treating stability labels as approved",
+    "backup/ files may be earlier versions — compare with canon/ before treating as current",
+    "Multiple question queues exist (canon/_working, canon/_working/conflict_resolution, ledger) — must merge and deduplicate",
+    "CONTROL_OBJECTIVES_MASTER.md is empty template — not yet filled, a gap in project state",
+    "HC-01 (Beta 花子死因) is the main open hard contradiction — affects DIR-007 and DIR-013",
+    "E-number desync between 13_major_events.md and ACT_II_OUTLINE.md — use event_index.json as authoritative",
+    "Timeline shows Aya/Akiho time loop mechanics not yet captured in direction_candidates.json",
+    "Act IV has more events than captured in direction_candidates.json (Amber of Love, Forced Ascension, Time Loop resolution)"
+  ],
+  "gaps_discovered": [
+    "DIR-016 candidate: 無臉執行官真相（秋穗時間循環）— from timeline canon §VI",
+    "DIR-017 candidate: 彩的時間循環 + 強制索回 + 魔法系統終結 — Act IV supernatural resolution",
+    "DIR-018 candidate: 20年守望 + 母愛的琥珀 + 自我整合 — Act IV emotional resolution arc"
+  ],
+  "stats": {
+    "total_files_scanned_for_manifest": 97,
+    "relevant_count": 55,
+    "maybe_relevant_count": 27,
+    "not_relevant_count": 15,
+    "directions_found": 15,
+    "direction_candidates_in_gaps": 3,
+    "characters_found": 10,
+    "events_extracted": 27,
+    "contradictions_found": 7
+  }
+}

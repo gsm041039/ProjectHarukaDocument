@@ -1,0 +1,60 @@
+{
+  "direction_id": "DIR-008",
+  "direction_title": "凜 Unit 00 弧線 (Rin Unit 00 Arc)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "凜（帝國歷108年犧牲→被黑奏以記憶改寫方式重組為帝國公務員Unit 00）→美夜子在戰鬥中發現凜alive→凜「遲來的介錯」（拒絕治癒，美夜子以人類形態槍擊Unit 00核心，凜只發出氣音）。",
+  "source_files": [
+    "canon/04_timeline_canon.md §III-IV",
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三"
+  ],
+  "involved_characters": ["CHAR-002", "CHAR-007"],
+  "involved_events": ["E-15a"],
+  "related_lines": ["Beta"],
+  "core_question": "凜的「遲來的介錯」（只發出氣音）如何設計最大化留白效果，而不令觀眾感覺倉促？",
+  "emotional_center": "「被世界遺下」——死亡不完整，以扭曲形式存活，而唯一記得她的人（美夜子）失憶後再度被切斷",
+  "dramatic_function": "「力量的代價」主題的獨立人格化例証；美夜子×凜是全作情感密度最高的支線",
+
+  "pool_1_analysis": {
+    "1_character_growth": "凜的弧線類型：acceptance（接受不完整的存在後選擇結束）。凜無法「正常」成長（記憶被改寫，不完整的靈魂），只能選擇如何面對不完整。拒絕治癒=拒絕偽裝完整；選擇Unit 00=接受自己的存在形式只能以消失完成。[SOURCED]",
+    "2_relationship_dynamics": "美夜子×凜是全作關係線中最悲劇性的一條：凜是美夜子在Unit 01時期唯一的真實連結，108年凜犧牲，109年黑奏重組凜（記憶改寫），103年美夜子復活後美夜子逐漸知道凜alive（AKS-S1觸發點之一）→凜最終拒絕治癒→美夜子完成「遲來的介錯」。每一步都是悲劇加深。[SOURCED]",
+    "3_information_reveal_control": "觀眾知道凜alive（美夜子發現時）→觀眾和美夜子同步知道凜是108年犧牲被黑奏重組（114年4月，timeline §IV）→凜拒絕治癒。揭示節奏：以「凜是Unit 00公務員」（看似普通NPC）→到「她是108年死去的美夜子的唯一連結的重組者」的落差揭示。[SOURCED]",
+    "4_atmosphere_tension": "凜線的氣氛設計是「低調的悲劇」——不是大規模的爆發，而是每次場景都帶著「不完整/錯誤/扭曲」的感覺。「遲來的介錯」場景的氣氛設計：靜默+氣音=最高留白。[SOURCED]",
+    "5_theme_expression": "凜是「力量的代價」（主題A）的最直接人格化例証：凜的存在本身就是「使用力量的代價」——黑奏用魔法力量重組了凜，代價是凜的記憶和「完整死亡」的機會。同時也承載「存在的意義」子主題：不完整的存在是否值得存在？[SOURCED]",
+    "6_structural_beat_function": "凜線是支線（[SQ]）。主要結構功能：(1)觸發美夜子的獨立行動（美夜子發現凜alive→試圖調查凜下落→被困→晴香救援→角色轉換）；(2)E-15a是Act III的獨立情感節點；(3)「遲來的介錯」是美夜子Act III弧線的關鍵payoff。[SOURCED]",
+    "7_entry_timing_presence": "凜在Act I以「Unit 00公務員（記憶改寫後）」形式登場（觀眾不知道她是108年死去的凜）。凜的真實身份在Act III/IV揭示（timeline §IV 114年4月）。Entry Timing設計使凜在Act I-II以「普通配角」存在，真相揭示時才有最大情感衝擊。[SOURCED]",
+    "8_world_rule_mechanic": "黑奏重組機制（記憶改寫+靈魂不完整縫合）是凜線的世界規則壓力。凜是「魔法少女系統代價」的具現化：用技術強行讓死者以不完整形式繼續服務系統。[SOURCED]",
+    "9_setup_payoff": "Setup：103-108年Unit 01服役期（凜與美夜子並肩作戰5年）；108年凜犧牲+避難所詛咒觸發；109年黑奏重組。Payoff：美夜子發現凜alive（Act II/III）；凜拒絕治癒→「遲來的介錯」（Act III）。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I觀眾不知凜的過去（只看到Unit 00公務員）。Act III/IV觀眾和晴香同步獲知凜的真實歷史。「遲來的介錯」場景的情感重量依賴觀眾在此之前完全理解凜×美夜子的5年連結歷史。[SOURCED]",
+    "11_canon_continuity": "Timeline確認：108年凜犧牲；109年黑奏重組。CDL-108確認美夜子Act I全程貓形態。無硬衝突。[SOURCED]",
+    "12_writing_execution": "「遲來的介錯」留白設計（氣音+系統音）的寫法難度在於：需要足夠的前置讓靜默達到最大重量。若觀眾對凜×美夜子的連結理解不足，留白只會顯得空洞。Act II的凜presence設計是關鍵。[SOURCED][INFERRED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "凜拒絕治癒是一種特殊的防衛：拒絕用「假裝恢復正常」的方式迴避「我的死亡不完整」這個事實。接受Unit 00=接受真實的不完整，而非偽裝的完整。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "NOT_RELEVANT", "reason": "凜的弧線是個人情感線，不主要涉及意識形態衝突。凜的選擇（拒絕治癒）是個人選擇而非價值系統的表達。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "凜被帝國重組為「公務員」——制度把死者變成工具（Unit 00系統）。凜拒絕治癒是對這個制度的無聲抵抗：她選擇「按自己的條件消失」而非「繼續服務制度」。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "美夜子的道德困局：「治癒凜=讓她繼續以不完整形式存在；執行介錯=讓她得到真正的死亡」。美夜子選擇了後者（「血之約定」），承受了「殺死自己愛的人」的代價。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "RELEVANT", "reason": "「遲來的介錯」是一個具體的ritual動作（槍擊Unit 00核心）。「介錯」這個詞本身具有武士傳統象徵（為被執行者提供尊嚴的死亡）——凜拒絕治癒=請求美夜子給她尊嚴的死亡。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對「不完整的存在」的處理：validate凜的選擇（接受消失）而非要求她「活著繼續貢獻」。這是對「生存即意義」意識形態的gentle rejection。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "「遲來的介錯」為何必須是「氣音，無遺言」：遺言=需要語言來填補空白；氣音=語言失去能力，只剩存在本身。無遺言讓觀眾自己填補，最大化留白的情感密度。"}
+  ],
+
+  "pool_2_expanded": {
+    "15_social_institutional": "凜被重組為帝國公務員（Unit 00系統）是帝國制度「工具化死者」的最具體例証。凜的存在本身就是制度暴力的產物。拒絕治癒+接受介錯是凜在制度框架內唯一能主動選擇的事——帝國可以重組她的身體，但無法重組她的意志。",
+    "16_moral_tradeoff": "美夜子的「血之約定」：在103-108年Unit 01服役期間，凜與美夜子有一個約定——若對方變成無法選擇的狀態，另一方要給予終結。美夜子在E-15a執行這個約定，是承諾的實踐（而非殺人）。但承擔「殺死愛的人」的代價是永久的。",
+    "17_symbolic": "「介錯」的象徵意義：日本武士傳統中，介錯是為切腹者提供快速乾淨死亡的人。稱之為「遲來的介錯」：(1)遲來——凜108年死去，直到114年才完成「死亡」；(2)介錯——美夜子作為凜的介錯者，給予凜的死亡以尊嚴和意義。",
+    "18_narrative_validation": "故事validate凜的選擇：不要求凜「選擇繼續活著」（制度要求她活著服務）或「選擇被治癒」（一種偽裝的解決）。凜選擇的是「按自己的條件消失」，故事通過美夜子的執行承認這個選擇的合法性和悲劇性。",
+    "19_method_necessity": "「氣音，無遺言」為何必須：若凜說出遺言，那是一個closure——觀眾得到答案；氣音是「差一點點」——凜有話要說但身體無法發出聲音，遺留了一個永遠的「缺失」。這個缺失比任何遺言更有重量，因為它讓觀眾永遠不知道凜想說什麼，只知道她想說。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["凜在Act II的屍骸獵人presence設計（具體scene量）"],
+  "open_questions": ["凜在Act II的存在感設計（確保「遲來的介錯」有足夠前置）"],
+  "recommendation": {
+    "strongest_value": "「遲來的介錯」留白設計是全作技術難度最高的情感節點之一；凜×美夜子是全作情感密度最高的支線",
+    "biggest_weakness": "凜是支線（[SQ]），在主線beats中的存在感需要謹慎設計，否則Act III凜線缺乏前置重量",
+    "suggested_next_action": "Act II Outline確認凜屍骸獵人的存在感設計（需要足夠場次讓觀眾記住凜×美夜子的連結）",
+    "author_confirmation_needed": []
+  }
+}

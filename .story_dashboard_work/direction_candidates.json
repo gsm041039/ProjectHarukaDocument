@@ -1,0 +1,382 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-06-10",
+  "phase": "phase_2_raw_extraction — direction candidates identified",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md",
+    "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md",
+    "canon/_working/PROJECT_STATUS.md",
+    "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt"
+  ],
+  "identification_note": "In Project Haruka, 'directions' are concurrent narrative / thematic lines running simultaneously across all four acts. They are not mutually exclusive route choices but parallel tracks that must all be designed, balanced, and paid off. Each direction is a distinct design challenge requiring angle analysis.",
+  "directions": [
+    {
+      "direction_id": "DIR-001",
+      "title": "晴香創世者揭示鏈 (Haruka Creator Revelation Chain)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "觀眾和晴香逐步發現：晴香5歲時無意識創造了整個Beta線世界，是緋潮根源。揭示分四層（AKS-H0→H4），最高衝擊點在Act III帝國廣場決戰。",
+      "core_question": "如何設計「英雄發現自己是災難根源」這個揭示的節奏，讓衝擊最大化但前置合理？",
+      "emotional_center": "角色的自我認識崩潰 + 觀眾對「善意=惡果」的道德震撼",
+      "dramatic_function": "TC-03最高張力碰撞（完美的幻象×未授權救贖）；膠布哲學第三層揭露；故事核心引擎B（系統揭露）的最大爆發點",
+      "related_lines": ["Alpha"],
+      "involved_characters": ["CHAR-001", "CHAR-003", "CHAR-004"],
+      "involved_events": ["AKS-H0（開場）", "AKS-H1（Act I幕末，夕整合）", "AKS-H2/H3（Act III帝國廣場決戰，黑奏直接揭露）", "AKS-H4（Act IV Alpha線回溯）"],
+      "reveal_sequence": {
+        "AKS_H0": "Act I開場：觀眾不知Alpha/Beta線存在，不知晴香是創世者 [AC]",
+        "AKS_H1": "Act I幕末（夕整合節點）：觀眾知Alpha/Beta線同時存在；晴香不知自己是創世者 [AC]",
+        "AKS_H2_H3": "Act III帝國廣場決戰：黑奏直接揭露——晴香個人知情+觀眾系統確認緋潮根源，同一事件雙層衝擊 [AC BD-01 RESOLVED]",
+        "AKS_H4": "Act IV：Alpha線回溯，晴香最終宿命完整揭示 [SS]"
+      },
+      "missing_bridges": ["BD-10：Information_Control揭示時序設計（改變現實光譜/態度剝奪詛咒概念的觀眾揭示時序）DEFERRED至Act Outline"],
+      "contradictions": [],
+      "open_questions": ["QQ-07：BD-10揭示時序 DEFERRED"],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §五", "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md", "canon/99_decision_log.md"],
+      "recommendation": {
+        "strongest_value": "「英雄即災難根源」是TC-03的核心衝擊；帝國廣場同一事件雙層揭露設計極具效率",
+        "biggest_weakness": "BD-10揭示時序設計缺口：「改變現實光譜」等術語的前置節奏尚未設計，可能令Act III揭示缺少充分前置",
+        "suggested_next_action": "解決QQ-07 / BD-10，確定AKS-H2前置的術語觀眾揭示時序",
+        "author_confirmation_needed": ["BD-10揭示時序確認"]
+      }
+    },
+    {
+      "direction_id": "DIR-002",
+      "title": "螢不可復活揭示鏈 (Hotaru Cannot Revive Revelation Chain)",
+      "stability": "working",
+      "claim_status": "[SOURCED]",
+      "short_summary": "全作情感最重要的單一時刻（R-5）：Act IV彩「多謝你保護咗我咁耐」揭示螢永遠不可復活。需要Act II-III精心鋪陳（熊公仔視覺語言+深夜寫信/燒信儀式），否則R-5情感重量崩潰。",
+      "core_question": "如何在Act II-III用非戰鬥部分（[NC]）累積足夠的視覺印象，讓Act IV「螢不可復活」揭示達到最大情感重量？",
+      "emotional_center": "黑奏殺人犯罪的底層動機竟是「復活已死的摯愛」——最大反差的憐憫與悲傷",
+      "dramatic_function": "全作情感最重要單一揭示（R-5）；AKS-S4最高情感重量；直接決定Act IV主題收束的感受質量",
+      "related_lines": ["mixed"],
+      "involved_characters": ["CHAR-003"],
+      "involved_events": ["AKS-S0（E-1.5，彩/黑奏首次切換）", "AKS-S1（Act II末，螢死亡報告Text Prop）", "AKS-S2-S3（Act II-III，熊公仔+深夜寫信/燒信儀式，[NC]非戰鬥）", "AKS-S4（Act IV，彩「多謝你保護咗我咁耐」）"],
+      "reveal_sequence": {
+        "AKS_S0": "E-1.5 Act I：彩/黑奏第一個可疑切換，無解釋 [AC]",
+        "AKS_S1": "Act II末E-11a附近：Text Prop型（朔找到螢死亡報告+熊公仔圖紙）；觀眾/朔拼湊「毀滅百萬人的底層驅動竟是六歲孩童的妄想」[AC CDL-190]",
+        "AKS_S2_S3": "Act II甜蜜高峰期間 + Act III：彩無意識行為積累；純視覺印象（觀眾看見但不理解，事後回望才有意義）[AC BD-09a]；媒介：遊戲非戰鬥部分[NC]；高密度；具體section設計 DEFERRED",
+        "AKS_S4": "Act IV：彩「多謝你保護咗我咁耐」——螢不可復活終極揭示（最大情感重量）[AC]"
+      },
+      "missing_bridges": ["BD-09a（Critical）：AKS-S2-S3 具體[NC] section設計完全缺失——影響全作最重要單一揭示的前置情感建立"],
+      "contradictions": [],
+      "open_questions": ["BD-09a：螢揭示線[NC] section設計 DEFERRED（Critical）"],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §五", "canon/_working/story_construction/BLOCKED_DECISIONS.md"],
+      "recommendation": {
+        "strongest_value": "R-5是全作情感最重要時刻；「殺人動機源於六歲孩童的妄想」反差是最高憐憫質量",
+        "biggest_weakness": "BD-09a Critical缺口：AKS-S2-S3完全無具體設計，若不處理R-5情感重量會崩潰",
+        "suggested_next_action": "這是最高優先度設計任務。需要設計Act II-III [NC]非戰鬥section，用熊公仔+深夜寫信/燒信儀式積累視覺印象",
+        "author_confirmation_needed": ["BD-09a：具體[NC] section設計"]
+      }
+    },
+    {
+      "direction_id": "DIR-003",
+      "title": "美夜子破冰→傳承者 弧線 (Miyako Thaw to Heir Arc)",
+      "stability": "working",
+      "claim_status": "[SOURCED]",
+      "short_summary": "美夜子從冰冷功利感，經「無價值留守」軟轉折點（113年7月社死後），燒盡20年守望，最終以吉他傳承晴香精神。避難所詛咒（晴香5歲許願→美夜子心理防線崩潰時強制變貓）是關鍵機制。",
+      "core_question": "美夜子的軟轉折點（soft pivot）如何既不陷入刻意感，又不令觀眾感覺關係發展太快？",
+      "emotional_center": "「妳依家確實係一件廢物。但係，我唔會走。」—— 功利邏輯消失後的第一次純粹守護",
+      "dramatic_function": "晴香×美夜子關係是全作最重要情感主軸之一；美夜子是「傳承晴香精神」的Act IV解決方案；避難所詛咒的解鎖（晴香的擁抱）是Act III三段式覺醒的情感高潮",
+      "related_lines": ["Alpha", "Beta"],
+      "involved_characters": ["CHAR-001", "CHAR-002"],
+      "involved_events": ["E-01（組隊，冰冷功利感確立）", "CDL-191無價值留守（113年7月社死後）", "美夜子Glitch Form（E-05a）", "AKS-S1（美夜子發現凜alive，震驚觸發獨立行動）", "三段式覺醒（Act III：貓殼碎裂→月下窗台→晴香的擁抱）", "20年守望", "Act IV吉他傳承"],
+      "missing_bridges": ["具體payoff順序（Act IV美夜子×晴香）TBD"],
+      "contradictions": [],
+      "open_questions": ["Act IV美夜子×晴香payoff順序TBD"],
+      "source_files": ["canon/03_characters/miyako.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三"],
+      "recommendation": {
+        "strongest_value": "兩步成長架構（CDL-191確認）和「避難所詛咒」解鎖機制設計精緻；Act III三段式覺醒情感完整",
+        "biggest_weakness": "Act IV美夜子×晴香payoff順序TBD——Act IV節奏設計依賴此決定",
+        "suggested_next_action": "Act IV Outline前確認美夜子×晴香payoff位置（Act IV前期）",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-004",
+      "title": "彩/黑奏 雙人格身份揭露 (Sai/Kurosou Dual Personality Identity Reveal)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "從E-1.5（Act I）彩/黑奏首次切換，經Act II幕末玻璃庭院茶會（真身揭露：身高148cm抱熊公仔的小女孩），到Act III情感核彈L1+L2+L3（身份完整揭露），直到Act IV彩主人格覺醒+黑奏消散。",
+      "core_question": "如何讓「帝國皇帝=小女孩的副人格」這個揭示既有震撼感，又令觀眾事後回望所有伏筆時感到前置合理？",
+      "emotional_center": "「快啲走...佢想食咗妳...」—— 即使在最惡的情況下，彩試圖救晴香的那一刻",
+      "dramatic_function": "TC-06核心（身份的本質×黑奏永恆陷阱）；Act II-III最大資訊轉折；道德困局最高點（晴香面對的「殺不殺彩」辯論）",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-001", "CHAR-003"],
+      "involved_events": ["AKS-S0 E-1.5（首次切換，晴香不知是DID）", "Act II幕末玻璃庭院茶會：真身揭露", "茶會彩倒茶求救台詞", "黑奏展示「抽走痛苦=永遠笑」vs晴香反駁", "彩短暫反抗讓晴香被放過", "Act III情感核彈L1+L2+L3身份完整揭露", "Act IV彩主人格覺醒+黑奏消散"],
+      "reveal_sequence": {
+        "AKS_S0": "E-1.5：切換可疑，晴香不知DID [AC]",
+        "act_2_xx": "玻璃庭院茶會（Act II幕末）：真身揭露（小女孩/熊公仔）；彩求救台詞；彩干預放過晴香 [AC CDL-246]",
+        "act_3": "情感核彈L1+L2+L3：完整身份揭露（三層遞進） [AC]",
+        "act_4": "彩主人格覺醒；黑奏消散 [AC]"
+      },
+      "missing_bridges": ["AKS-S2-S3彩的非戰鬥鋪陳設計（BD-09a）與此線部分重疊"],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五", "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt §D31"],
+      "recommendation": {
+        "strongest_value": "「帝國最強BOSS = 身高148cm抱熊公仔小女孩」的極端反差設計極具衝擊力；情感核彈三層設計完整",
+        "biggest_weakness": "AKS-S2-S3的彩/黑奏非戰鬥鋪陳設計（BD-09a）是前置弱點",
+        "suggested_next_action": "BD-09a設計時需要同時為此揭示線設計非戰鬥section",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-005",
+      "title": "夕整合→被迫接管→消散 弧線 (Yu Shadow Integration-Takeover-Dissolution Arc)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "夕從Act I幕末第一次整合（L1+L2+L3），到Act II暗示晴香是創世者，到Act III兩個階段的接管（被迫接管→主動取控），到Act IV消散（undo改變現實，力量耗盡）。",
+      "core_question": "夕的「主動發動改變現實」→「反悔undo」→「消散」這個Act IV結局，如何設計讓觀眾感受到夕的主體性，而非只是工具性？",
+      "emotional_center": "「明知故犯的殘酷救贖者」——夕的雙層動機（私心+保護晴香）；清醒悖論",
+      "dramatic_function": "夕是晴香的鏡像自我（晴香失憶逃避 vs 夕毀滅逃避 = 同一個受傷細路女）；E-15和解核心是「晴香原諒夕=原諒5歲創世自己」的鏡像閉環",
+      "related_lines": ["Alpha"],
+      "involved_characters": ["CHAR-001", "CHAR-004"],
+      "involved_events": ["Act I幕末夕整合（AKS-H1觸發）", "Act II夕暗示創世者", "Act III E-10後沉睡", "Act III E-18 兩個階段（被迫接管→主動取控）", "Act IV消散（CDL-281：夕奪身後第一動作確立；雙層動機CDL-281）"],
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五", "canon/_working/PROJECT_STATUS.md CDL-281"],
+      "recommendation": {
+        "strongest_value": "BD-03已解決（消散機制確定）；CDL-281確立了夕「明知故犯的殘酷救贖者」定性和雙層動機，設計完整度高",
+        "biggest_weakness": "Act IV夕消散在整體Act IV節奏中的具體位置TBD",
+        "suggested_next_action": "Act IV Outline確認夕消散事件在全場景序列中的位置",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-006",
+      "title": "朱音/操 嘆息之橋犧牲線 (Akiho/Misao Sigh Bridge Sacrifice Line)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "朱音（Day 14帝國廣場糖果山自毀贖罪）和操（Day 13學校人偶牆主動選擇半屍骸化）的錯位雙殺。CDL-218確認：兩人在不同地點不同時間犧牲，形成錯位震撼感。朱音/操是全作感情最深的隊伍代價。",
+      "core_question": "錯位雙殺（操Day 13學校 / 朱音Day 14帝國廣場）的具體場景如何設計，讓兩個犧牲各自有最強的情感節拍，同時形成呼應？",
+      "emotional_center": "「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」",
+      "dramatic_function": "全作最大代價節點（TC-01/TC-02核心）；隊伍崩潰的直接觸發；觀眾從「英雄能否獲勝」問題轉向「失敗後如何存在」",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-005", "CHAR-006"],
+      "involved_events": ["E-07a（小光之死+黑奏邏輯重構）", "E-07b（廢棄糖果工廠+放逐）", "E-09a（鏡像破碎之夜：父親背叛+紗夜犧牲，創傷耳鳴遮蔽）", "E-13（操Day 13學校人偶牆）", "E-14（朱音Day 14帝國廣場糖果山）"],
+      "special_note": "CDL-217/218確認：場地為帝國廣場（非嘆息之橋命名地點），venue addendum需加入 [AC 2026-05-19]",
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三", "canon/_working/PROJECT_STATUS.md CDL-217/218"],
+      "recommendation": {
+        "strongest_value": "錯位雙殺設計是全作最具衝擊力的結構決策；兩條角色弧線（朱音→贖罪，操→自選半屍骸）各自完整",
+        "biggest_weakness": "E-13操 Act IV三位一體視覺化（QQ-06）仍DEFERRED，影響操的線是否完整收束",
+        "suggested_next_action": "Act IV Outline前確認QQ-06操三位一體視覺化方案",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-007",
+      "title": "黑奏農場計劃全揭露線 (Kurosou Farm Plan Full Reveal Line)",
+      "stability": "working",
+      "claim_status": "[SOURCED]",
+      "short_summary": "黑奏的情緒農場計劃（以緋潮情緒能量積累「情感貨幣」以恢復螢）的逐層揭露。核心反諷：黑奏的殺人行動創造了農場的運作基礎，同時也是農場試圖對付的災難根源（封閉循環）。R-7黑奏預謀揭示時機BLOCKED。",
+      "core_question": "R-7黑奏預謀揭示（黑奏主動殺死晴香媽媽+美夜子以獲得魔法力量）應該放在Act III帝國廣場後段，還是Act IV？",
+      "emotional_center": "「毀滅百萬人的底層驅動竟是六歲孩童的妄想」——黑奏的可憐與可怕",
+      "dramatic_function": "TC-04核心（黑奏永恆陷阱×連結的價值）；封閉循環完整揭示；晴香×黑奏最終道德評判",
+      "related_lines": ["Alpha", "Beta"],
+      "involved_characters": ["CHAR-001", "CHAR-003"],
+      "involved_events": ["黑奏農場建立（前史）", "情緒毒品危機E-11a（農場計劃操作）", "共振地獄第一階段（軟性試驗）", "R-7：黑奏預謀揭示（時機TBD，可能Act III帝國廣場後段 or Act IV）"],
+      "open_questions": ["R-7揭示時機BLOCKED（高優先度）—— Act III後段 vs Act IV？"],
+      "missing_bridges": ["R-7揭示時機未定，但Beta線已確認無deeper truth，不需額外clue體系 [AC BD-07]"],
+      "source_files": ["canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-07", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §五"],
+      "recommendation": {
+        "strongest_value": "封閉循環設計完整：黑奏殺人→晴香創世→Beta線→黑奏農場基礎+目標，極具諷刺性",
+        "biggest_weakness": "R-7時機是最重要未決項之一，直接影響Act III/IV情感節奏",
+        "suggested_next_action": "在ACT_III_OUTLINE批核前確認R-7揭示位置（帝國廣場後段 or Act IV）",
+        "author_confirmation_needed": ["R-7揭示時機"]
+      }
+    },
+    {
+      "direction_id": "DIR-008",
+      "title": "凜 Unit 00 弧線 (Rin Unit 00 Arc)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "凜從原初犧牲（光環處決）被黑奏救回，以屍骸獵人形式存在（著制服），拒絕治癒→Unit 00。凜的核心悲劇：晴香佔了「以歌聲救人」的位置；美夜子失憶=凜的第二次被切斷。",
+      "core_question": "凜的Unit 00結局（「遲來的介錯」——嘴巴張開只得氣音+系統音）如何做到「留白最大化情感重量」，而非令觀眾感覺倉促？",
+      "emotional_center": "「被世界遺下」——死亡不完整，以扭曲形式存活，而唯一記得她的人（美夜子）失憶後再度被切斷",
+      "dramatic_function": "凜是「力量的代價」（主題A）的一個獨立人格化例證；美夜子×凜是全作關係線中情感密度最高的一條支線",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-002", "CHAR-007"],
+      "involved_events": ["前史：光環扭斷頸部處決→被黑奏救回", "Act II/III：屍骸獵人著制服（美夜子發現凜alive，促美夜子獨立行動）", "E-15a：拒絕治癒→Unit 00（Act III獨立事件）"],
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/03_characters/rin.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三"],
+      "recommendation": {
+        "strongest_value": "「遲來的介錯」留白設計和「美夜子唯一聽過完整歌聲的人」背景是情感密度最高的設計之一",
+        "biggest_weakness": "凜線是支線（[SQ]），主線beats中的存在感需要謹慎設計以避免失重",
+        "suggested_next_action": "Act II/III Outline確認凜屍骸獵人存在感與E-15a的情感前置",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-009",
+      "title": "秋穗妥協→缺席退場線 (Akiho Senior Compromise to Absent Exit Line)",
+      "stability": "unresolved",
+      "claim_status": "[SOURCED]",
+      "short_summary": "秋穗從Act I輔助NPC（血糖手錶派發），到Act II末被揭露情緒毒品危機主謀（為救愛莉與黑奏交易），到Act III退場（退場機制TBD），到Act IV缺席收結（晴香帶著複雜情感繼續前行，無直接對話）。",
+      "core_question": "秋穗的退場事件是什麼？（被驅逐/自行離開/死亡/其他？）退場後不出現的理由要可信。",
+      "emotional_center": "「為救女兒而妥協，但妥協最終傷害了更多人」——秋穗的悲劇在於善意的代價無法逃避",
+      "dramatic_function": "秋穗揭露是Act II最重要的信任崩潰事件；秋穗的缺席終局是對「未完成救贖」的殘忍留白",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-009", "CHAR-010"],
+      "involved_events": ["Act I [NC]茶餐廳出場（血糖手錶CDL-110）", "E-11a：秋穗身份揭露（情緒毒品危機，信任崩潰）[AC CDL-115]", "Act III：秘密揭露+退場事件（TBD）", "Act IV：缺席收結"],
+      "missing_bridges": ["BD-13（Medium）：退場事件設計 BLOCKED"],
+      "contradictions": [],
+      "open_questions": ["QQ-04 / BD-13：秋穗退場事件 BLOCKED（Medium）—— Act III Outline前需確認"],
+      "source_files": ["canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-13", "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md ACT_III"],
+      "recommendation": {
+        "strongest_value": "秋穗的Act II揭露設計（CGM後門被截獲）完整；缺席終局是正確的情感選擇（非甜化）",
+        "biggest_weakness": "BD-13退場事件完全空白，是Act III Outline前的關鍵阻塞項",
+        "suggested_next_action": "ACT_III_OUTLINE批核前確認秋穗退場事件（QQ-04）",
+        "author_confirmation_needed": ["BD-13：退場事件設計"]
+      }
+    },
+    {
+      "direction_id": "DIR-010",
+      "title": "朔三位一體解放者弧線 (Saku Three-in-One Liberator Arc)",
+      "stability": "working",
+      "claim_status": "[SOURCED]",
+      "short_summary": "朔從Act I夜區影子（[SQ]可選）到Act II學識三位一體概念，到Act III解放者覺醒（脫離管理局，E-16嵌入，觸發器：「保護的殘響」），到Act IV重逢（接受美夜子已改變）。朔的功能：無聲盟友、黑市網絡、三位一體概念承載者。",
+      "core_question": "朔的解放者角色如何與美夜子的弧線在Act III/IV形成情感呼應，而不只是功能性配角？",
+      "emotional_center": "接受「我愛的人已經不是原來的那個人」",
+      "dramatic_function": "三位一體概念承載者（Act II植入→Act IV收束）；CDL-255確認朔為無聲盟友（黑市網絡+Emo-Visor監控盲點）；Act IV美夜子×朔重逢是關係線的收束",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-002", "CHAR-008"],
+      "involved_events": ["Act I [SQ]夜區過場", "Act II三位一體概念建立", "E-16解放者覺醒（脫離管理局）", "Act IV重逢"],
+      "missing_bridges": ["QQ-06：Act IV操三位一體視覺化 DEFERRED（Medium）"],
+      "contradictions": [],
+      "open_questions": ["QQ-06：操三位一體視覺化 DEFERRED"],
+      "source_files": ["canon/03_characters/saku.md", "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三"],
+      "recommendation": {
+        "strongest_value": "朔的功能性設計很強（黑市網絡CDL-255）；三位一體承載者與Act IV收束有機連接",
+        "biggest_weakness": "朔戲份以[SQ]副線為主，主線存在感需謹慎設計",
+        "suggested_next_action": "Act IV Outline確認朔×美夜子重逢場景設計",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-011",
+      "title": "情緒守恆定律六層揭露線 (Emotion Conservation Law Six-Layer Reveal Line)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "情緒能量不會消失只會轉移的世界規則，分六層（CDL-247更新）從Act I到Act IV逐層揭露。L1個體代價→L2系統轉移→L3法則命名→L4緋潮根源→L5超越（Act IV晴香選擇吸收而非排放）→L6（尚待確認）。",
+      "core_question": "守恆定律L3（秋穗法則命名）和L4（黑奏嘲諷揭露晴香是緋潮始作俑者）之間的Act III銜接節奏如何設計？",
+      "emotional_center": "「裝置不是在消滅負面情緒，而是在抽離並排放。就像核電廠，產生巨大能量，但廢料必須去某個地方。」",
+      "dramatic_function": "世界規則壓力線（Angle 8）；TC-05核心（態度 vs 命運×情緒資料農場）；守恆定律L4是晴香創世者揭示（DIR-001）的核心機制支撐",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-001", "CHAR-010"],
+      "involved_events": ["L1（Act I E-01/E-02後[NC]，首次變身後異常疲憊）[AC]", "L2（Act II E-10，局部系統轉移，愛莉濾心）[AC CDL-247]", "L3（Act II E-11a，秋穗科學原理解釋+法則命名）[AC CDL-247]", "L4（Act III帝國廣場，黑奏嘲諷揭露晴香是緋潮始作俑者）[AC]", "L5（Act IV，晴香選擇吸收而非排放，打破惡性循環）[AC]"],
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §八", "canon/_working/PROJECT_STATUS.md CDL-247"],
+      "recommendation": {
+        "strongest_value": "守恆定律L1→L5跨幕設計完整，節奏清晰；L5的「吸收而非排放」是主題最終收束的物理具現化",
+        "biggest_weakness": "L5→L6（若存在）的設計尚未明確；守恆定律在Act IV的表達方式還需具體化",
+        "suggested_next_action": "Act IV Outline確認守恆定律L5的具體場景表現",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-012",
+      "title": "愛莉雙形態揭示鏈 (Aeri Dual Form Revelation Chain)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "愛莉從石像/紙皮騎士形態（前史事故），經過「無系統性暗示」設計（BD-09b RESOLVED），到Act III/IV邊界第2次改變現實觸發魔法少女形態，再到Act IV光點消失。紙皮騎士外形是魔法少女騎士形態的唯一視覺連結。",
+      "core_question": "愛莉的光點消失（晴香接受改變現實係錯→願望消失）如何在Act IV設計讓觀眾感受到悲劇性，而非只是機制性消失？",
+      "emotional_center": "「未經同意的恩情」——晴香改變現實的願望令愛莉成為魔法少女，但晴香最終接受這是錯的，愛莉消失",
+      "dramatic_function": "愛莉光點消失是TC-03（完美的幻象×未授權救贖）的最後一個代價；也是晴香「接受改變現實係錯」這個選擇的直接後果",
+      "related_lines": ["Alpha", "Beta"],
+      "involved_characters": ["CHAR-009"],
+      "involved_events": ["前史：Stage 1（秋穗研究事故→石像）", "前史：Stage 2（晴香改變現實→紙皮騎士）", "Act I-III：紙皮騎士存在，無系統性暗示 [AC BD-09b]", "Act III/IV邊界：魔法少女形態觸發（CDL-256確認揭示媒介）", "Act IV：愛莉光點消失 [AC BD-04]"],
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": ["BD-11（Medium）：愛莉相關象徵物件（素描本/雙面盒墜/鏡子）=「Later talk」[AC 2026-03-26]"],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五", "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-09b"],
+      "recommendation": {
+        "strongest_value": "BD-09b RESOLVED（無系統性暗示是設計意圖，非缺口）——意外性最大化",
+        "biggest_weakness": "BD-11象徵物件分析缺失，若動筆前不解決，愛莉相關視覺設計無依據",
+        "suggested_next_action": "動筆前確認BD-11象徵物件設計",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-013",
+      "title": "Alpha/Beta 雙世界結構線 (Alpha/Beta Dual World Structure Line)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "Alpha線 = 低魔現實世界（黑奏殺死晴香媽媽+美夜子前的世界）；Beta線 = 晴香無意識創造的高魔世界（現故事世界）。兩線滲漏機制從Act I微弱到Act III直接揭露。Beta線晴香媽媽死因 = 真實難產（無deeper truth）[AC BD-07]。",
+      "core_question": "Alpha線回溯場景（Act III/IV）如何在視覺上和情感上讓觀眾理解「這是不同時間線的版本」，而非單純的記憶場景？",
+      "emotional_center": "「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」",
+      "dramatic_function": "故事核心設定（膠布哲學第三層）；TC-03最高衝擊點的設定基礎；晴香×美夜子關係的隱藏深度",
+      "related_lines": ["Alpha"],
+      "involved_characters": ["CHAR-001", "CHAR-002", "CHAR-003"],
+      "involved_events": ["AKS-H0開場（不知兩線存在）", "AKS-H1 Act I幕末（觀眾知兩線同時存在）", "Alpha/Beta線滲漏：低（Act I鏡中幻象）→中（Act II記憶修改）→高（Act III帝國廣場直接揭露）", "Alpha線回溯場景（Act III/IV，BD-08具體設計DEFERRED）"],
+      "missing_bridges": ["BD-08（Medium）：美夜子Alpha線死亡場景設計 DEFERRED"],
+      "contradictions": [],
+      "open_questions": ["BD-08：具體場景設計 DEFERRED（Medium）"],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §二/八", "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-07"],
+      "recommendation": {
+        "strongest_value": "BD-07 FULLY RESOLVED（Alpha線死因確定為黑奏預謀；Beta線難產為真實，無deeper truth）——極大簡化了揭示設計複雜度",
+        "biggest_weakness": "BD-08 Alpha線回溯場景具體設計DEFERRED，影響Act III/IV視覺設計",
+        "suggested_next_action": "Act III/IV Outline前確認Alpha線回溯場景的視覺形式",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-014",
+      "title": "信息掌控架構 (Information Control Architecture)",
+      "stability": "working",
+      "claim_status": "[SOURCED]",
+      "short_summary": "D22文件定義的「剝洋蔥原則」：核心世界觀和角色秘密不能一次性拋出，而是在不同階段、不同角色視角下逐步揭示，甚至製造誤導。核心策略：同步→誤導→共同發現→永恆隔閡。",
+      "core_question": "信息掌控設計如何在四幕中為每個主要揭示建立正確的「觀眾知識差距」，讓觀眾在正確時機既驚喜又感到前置合理？",
+      "emotional_center": "「剝洋蔥的快感」—— 每次揭示都讓已知信息獲得更黑暗的詮釋",
+      "dramatic_function": "Angle 3（信息/揭示控制）的全局設計框架；所有AKS鏈條的設計根基；BD-10揭示時序設計的母框架",
+      "related_lines": ["mixed"],
+      "involved_characters": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004", "CHAR-010"],
+      "involved_events": ["首次變身（諧振狂喜，暫時隱藏代價）", "黑奏/彩雙人格揭露節奏（長期誤導→反轉）", "晴香核心秘密保留到後段", "情緒代價漸進揭示", "社會風評/輿論系統配合信息控制", "終局「永恆隔閡」設計"],
+      "reveal_table_gaps": [
+        "D22文件中部分表格條目資訊密度很高，但三個空條目（晴香體質/改變現實光譜/態度剝奪詛咒）的揭示時序待定",
+        "BD-10 DEFERRED至Act Outline"
+      ],
+      "missing_bridges": ["BD-10（Medium）：三個核心概念的觀眾揭示時序 DEFERRED至Act Outline"],
+      "contradictions": [],
+      "open_questions": ["QQ-07 / BD-10 DEFERRED"],
+      "source_files": ["backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt §D22", "canon/09_information_design.md"],
+      "recommendation": {
+        "strongest_value": "D22文件的表格式信息設計極其系統化，是觀眾體驗設計的最佳工具文件",
+        "biggest_weakness": "BD-10三個空條目直接影響Act III揭示的觀眾前置設計",
+        "suggested_next_action": "Act Outline前解決BD-10，確定改變現實光譜等術語的揭示時序",
+        "author_confirmation_needed": []
+      }
+    },
+    {
+      "direction_id": "DIR-015",
+      "title": "膠布哲學三層揭露線 (Bandage Philosophy Three-Layer Reveal Line)",
+      "stability": "canon",
+      "claim_status": "[SOURCED]",
+      "short_summary": "「膠布哲學」（不面對傷口、只在上面貼膠布）分三層揭露：L1個人（桐生健傷口）→L2群體（晴香用善意保護他人但剝奪自主）→L3宏觀（整個Beta線世界是晴香在Alpha線美夜子屍體上貼的膠布，傷口發炎了）。TC-03最高張力碰撞。",
+      "core_question": "膠布哲學第三層（世界宏觀揭露）如何在帝國廣場決戰場景中設計，讓「善意創造最大的惡」這個主題在戲劇化對白和行動中得到最大表達？",
+      "emotional_center": "「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。二十年了……傷口發炎了。」",
+      "dramatic_function": "TC-03全作最高張力碰撞點；Act III最重要主題陳述場景；晴香從「英雄」到「失敗的英雄」身份轉換的核心時刻",
+      "related_lines": ["Beta"],
+      "involved_characters": ["CHAR-001", "CHAR-003"],
+      "involved_events": ["L1：桐生健傷口+「痛係證據」（Act I [SQ-A]）[AC CDL-087]", "L2：朱音批判台詞（E-04後[NC]）[AC CDL-120]", "L3：帝國廣場決戰，黑奏揭露Alpha線殘像+膠布哲學宏觀揭露（Act III）[AC]"],
+      "missing_bridges": [],
+      "contradictions": [],
+      "open_questions": [],
+      "source_files": ["canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §七", "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt §D31 A0028"],
+      "recommendation": {
+        "strongest_value": "三層設計清晰且跨幕前置完整；L3的宏觀揭露是全作最強主題陳述時刻",
+        "biggest_weakness": "L3場景的具體對白和視覺設計留在Beat Sheet層，當前Outline層設計已完整",
+        "suggested_next_action": "L3場景設計確認在Act III Beat Sheet時處理",
+        "author_confirmation_needed": []
+      }
+    }
+  ]
+}

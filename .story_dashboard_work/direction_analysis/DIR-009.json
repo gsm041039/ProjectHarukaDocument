@@ -1,0 +1,59 @@
+{
+  "direction_id": "DIR-009",
+  "direction_title": "秋穗妥協→缺席退場線 (Akiho Senior Compromise to Absent Exit Line)",
+  "stability": "unresolved",
+  "claim_status": "[SOURCED]",
+  "short_summary": "秋穗從Act I [NC]輔助NPC（血糖手錶CDL-110）→Act II末情緒毒品危機主謀揭露（E-11a，信任崩潰最高點）→Act III退場（機制完全空白，BD-13 BLOCKED）→Act IV缺席收結（晴香帶複雜情感繼續前行）。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-13",
+    "ledger/CONTRADICTION_AUDIT.md §DG-02"
+  ],
+  "involved_characters": ["CHAR-009", "CHAR-010"],
+  "involved_events": ["E-11a", "E-ACT3-AKIHO-EXIT"],
+  "related_lines": ["Beta"],
+  "core_question": "秋穗的退場事件是什麼？（被驅逐/自行離開/死亡/其他？）退場後不出現的理由要可信。",
+  "emotional_center": "「為救女兒而妥協，但妥協最終傷害了更多人」——秋穗悲劇在於善意代價無法逃避",
+  "dramatic_function": "秋穗揭露是Act II最重要信任崩潰事件；秋穗缺席終局是對「未完成救贖」的殘忍留白",
+
+  "pool_1_analysis": {
+    "1_character_growth": "秋穗的弧線類型：collapse（部分）+ absence（缺席終局）。秋穗從「虛假家庭溫暖提供者」（CDL-126，模仿花子語調）→到「為救女兒與惡魔交易的失敗母親」→到缺席終局。秋穗的成長不是「治癒」，而是「消失」——她無法面對晴香，也無法改變已造成的傷害。[SOURCED]",
+    "2_relationship_dynamics": "秋穗×晴香：「假家庭溫暖」的欺騙關係（Act I秋穗扮演花子的聲音）→揭露後信任崩潰（E-11a）→晴香帶複雜情感前行（無直接和解）。秋穗×愛莉：母女關係是秋穗一切妥協的動機，愛莉的存在使秋穗無法作出「正確」的選擇。[SOURCED]",
+    "3_information_reveal_control": "秋穗在Act I以「支持系統NPC」存在（觀眾和晴香都以為是良性角色）。E-11a揭露是「可信賴的人原來是問題的根源」——與晴香的信任崩潰同時發生。這個揭露設計需要Act I-II積累足夠的「秋穗=可信賴」的印象，才能讓揭露有衝擊力。[SOURCED]",
+    "4_atmosphere_tension": "E-11a是全作「可信賴者背叛」的最高氣氛衝擊點（高於任何戰鬥場景，因為是安全感的崩潰）。秋穗的退場需要一個合理且有情感重量的exit機制，否則觀眾會感覺「秋穗被遺忘」。[SOURCED]",
+    "5_theme_expression": "秋穗承載TC-03的一個側面：「為了保護最重要的人，傷害了更多人」（與晴香的創世者主題形成呼應）。秋穗和晴香是「善意代價」主題的兩個不同層次的人格化。[SOURCED]",
+    "6_structural_beat_function": "E-11a（Act II末）是信任崩潰的結構節點，打破「晴香有可靠後方支持」的假象。秋穗退場（Act III）是隊伍完全孤立（無後方，無可信賴的成人）的最終確認。BD-13 BLOCKED意味著這個結構節點完全缺失設計。[SOURCED]",
+    "7_entry_timing_presence": "秋穗在Act I以聲音型登場（CDL-126，廚房叮囑聲），視覺首次出場在茶餐廳（CDL-110）。這個「隱藏視覺身份」的設計讓秋穗在E-11a揭露前保持功能性「善意背景角色」的印象。[SOURCED]",
+    "8_world_rule_mechanic": "情緒毒品危機是守恆定律（DIR-011）和農場計劃（DIR-007）失控的世界規則後果。秋穗的退場需要在世界規則框架內有合理性（她能做什麼、不能做什麼）。[SOURCED]",
+    "9_setup_payoff": "Setup：Act I秋穗模仿花子聲音（CDL-126，未解釋）；Act I茶餐廳CGM血糖手錶（CDL-110）；Act II E-11a揭露。Payoff：退場事件（BD-13 BLOCKED，完全缺失）；Act IV缺席收結（晴香複雜情感）。Payoff設計空白是最大問題。[SOURCED][INFERRED]",
+    "10_audience_knowledge_gap": "觀眾在Act I以為秋穗是「善意研究員」（類家庭關係）。E-11a後觀眾知道秋穗是主謀。Act III退場後觀眾見證晴香如何處理這段複雜關係的遺留情感。[SOURCED]",
+    "11_canon_continuity": "CDL-110 RESOLVED（茶餐廳血糖手錶確認）。CDL-115 RESOLVED（E-11a秋穗身份揭露確認）。BD-13 BLOCKED（退場設計）。DG-02（structural dependency gap，OPEN）。[SOURCED]",
+    "12_writing_execution": "E-11a揭露場景有完整的設計方向（CGM後門被截獲）。退場場景完全缺失（BD-13 BLOCKED），無法評估可寫性。缺席終局（無直接對話）可寫性高，但依賴退場場景的前置設計。[SOURCED][INFERRED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "秋穗的防衛機制：用「為了愛莉」的框架justify所有不道德的妥協，迴避面對「我傷害了無辜的人」的直接罪責。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "秋穗的價值排序：女兒的生命>任何其他人的生命。這種「個人愛>普世倫理」的價值系統與晴香的「善意=普世利益」形成對比。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "秋穗的科學家身份和帝國體制的關係：她是帝國制度的「服務者」（研究情緒機制），同時也是制度的受害者（被迫與黑奏交易）。她的退場反映了「制度服務者如何在道德困局中失敗」。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "秋穗的核心道德困局：救愛莉（與黑奏交易）= 傷害無辜市民（情緒毒品危機）。她無法「不選擇」，每個選擇都有無法接受的代價。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "NOT_RELEVANT", "reason": "秋穗線不主要通過象徵物件或儀式表達，是事件驅動的敘事線。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對秋穗「為女兒妥協」stance的處理：complicate（代價是百萬人）+ 缺席終局（無和解，無救贖）= reject的弱版。故事不validate，但也不直接審判，而是用缺席讓觀眾帶著複雜情感繼續。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "NOT_RELEVANT", "reason": "秋穗線的核心設計問題是BD-13（退場機制），不是特定事件形式的必要性分析。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "秋穗的防衛：「我做這一切都是為了愛莉」的框架讓她迴避直接面對「我的行動害了很多人」。缺席終局是這個防衛機制的最終表現：無法面對晴香=無法放棄防衛框架，選擇消失而非對質。",
+    "16_moral_tradeoff": "秋穗的道德困局設計關鍵：她知道自己在傷害無辜，但無法停止因為停止=放棄愛莉。這不是單純的「為惡」，而是「在不可解的困局中選擇了傷害更少但無法停止的一個選項」。故事通過秋穗的缺席終局（而非死亡或和解）選擇了最殘忍的留白。",
+    "18_narrative_validation": "故事對秋穗的最終處理：既不讓她得到救贖（無法向晴香道歉）也不讓她受到明確懲罰（死亡/審判）。缺席是一種「永遠未完成的搭扣」——比死亡或和解更難受，因為晴香（和觀眾）永遠無法知道秋穗最後有沒有後悔，有沒有為愛莉做出了正確選擇。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["BD-13（High）：退場事件設計完全空白——這是Act III Outline前的關鍵阻塞項"],
+  "open_questions": ["QQ-04 / BD-13：秋穗退場事件 BLOCKED（High）"],
+  "recommendation": {
+    "strongest_value": "缺席終局設計（無和解，無救贖，晴香帶複雜情感前行）是全作最殘忍的「留白」設計，符合主題（不完整的代價不能被整齊地解決）",
+    "biggest_weakness": "BD-13退場事件完全空白，是Act III Outline前的關鍵阻塞項。若沒有合理的退場設計，觀眾會感覺秋穗被「棄置」",
+    "suggested_next_action": "ACT_III_OUTLINE批核前確認秋穗退場事件。建議考慮：自行離開（無法面對）vs 被排除（晴香明確拒絕繼續信任）vs 其他形式",
+    "author_confirmation_needed": ["BD-13退場事件設計"]
+  }
+}

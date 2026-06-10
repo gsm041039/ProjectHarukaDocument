@@ -1,0 +1,61 @@
+{
+  "direction_id": "DIR-015",
+  "direction_title": "膠布哲學三層揭露線 (Bandage Philosophy Three-Layer Reveal Line)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "「不面對傷口只在上面貼膠布」分三層揭露：L1個人（桐生健傷口+「痛係證據」台詞 CDL-087）→L2群體（朱音批判台詞 CDL-120）→L3宏觀（帝國廣場：Beta線是Alpha線美夜子屍體上的膠布）。TC-03最高張力碰撞。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §七",
+    "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt §D31 A0028",
+    "canon/_working/story_construction/ACT_I_OUTLINE.md Beat 1 §SQ-A"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-003", "CHAR-005"],
+  "involved_events": ["E-01", "E-ACT3-PLAZA"],
+  "related_lines": ["Beta"],
+  "core_question": "膠布哲學第三層（世界宏觀揭露）如何在帝國廣場決戰場景中設計，讓「善意創造最大的惡」這個主題在戲劇化對白和行動中得到最大表達？",
+  "emotional_center": "「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。二十年了……傷口發炎了。」",
+  "dramatic_function": "TC-03全作最高張力碰撞點；Act III最重要主題陳述場景；晴香從「英雄」到「失敗的英雄」身份轉換的核心時刻",
+
+  "pool_1_analysis": {
+    "1_character_growth": "膠布哲學三層揭露是晴香成長弧的外化表達：L1（晴香拒絕現實縫合，相信痛是存在的證明）→L2（朱音批判指出晴香的善意是「貼膠布」，晴香第一次被正面挑戰）→L3（黑奏在帝國廣場告訴晴香整個世界是最大的膠布）。三層對應晴香成長的三個心理危機。[SOURCED AC CDL-087/120]",
+    "2_relationship_dynamics": "L1：晴香×桐生健（英雄vs被救者，第一次主題碰撞）。L2：晴香×朱音（同伴批判，更深的主題質疑）。L3：晴香×黑奏（敵人揭示，主題最終正面交鋒）。三層分別通過不同的關係展示同一個主題，逐層深化。[SOURCED]",
+    "3_information_reveal_control": "L1在Act I末（SQ-A）；L2在Act II（E-04後[NC]）；L3在Act III（帝國廣場）。三層前置完整（L1→L2→L3的邏輯鏈清晰），觀眾在L3時已通過L1/L2建立了「膠布哲學」的認知框架，L3使這個框架在最高壓力下被宏觀化。[SOURCED]",
+    "4_atmosphere_tension": "L3的氣氛設計：帝國廣場決戰（全作最高壓場景）中黑奏的語言攻擊（「妳以為妳救活了她？」）是「戰場上的語言武器」——比任何物理攻擊更具破壞力。這是Act III氣氛設計的最高點：不是「能否勝利的壓力」而是「存在意義的崩潰」。[SOURCED]",
+    "5_theme_expression": "膠布哲學是TC-03（完美幻象×未授權救贖）的具體象徵化表達。L1/L2建立觀眾對「膠布」作為象徵的認知；L3讓象徵獲得宏觀意義（世界=膠布）。主題通過三層象徵的疊加達到最大主題表達密度。[SOURCED]",
+    "6_structural_beat_function": "L1是Act I [SQ-A]的主題植入節點。L2是Act II主題深化節點。L3是Act III主題最高碰撞節點。三層各在一幕，完美的跨幕主題設計，每幕都有這個主題的一個層次，使主題的成長與故事的成長同步。[SOURCED]",
+    "7_entry_timing_presence": "「膠布」象徵在Act I SQ-A首次出現（桐生健傷口）。L1的桐生健場景是非常具體的、低風險的、日常性的「傷口+膠布」物理場景——這讓象徵以最自然的方式進入觀眾認知，不需要解說。L3的宏觀化才讓這個微小的物理象徵獲得全部重量。[SOURCED]",
+    "8_world_rule_mechanic": "Beta線的存在（世界規則基礎）是L3的「膠布」。「傷口發炎了」=緋潮爆發。膠布哲學L3使世界規則（緋潮/守恆定律）獲得主題意義：不只是「物理規則後果」，而是「晴香試圖逃避的那個傷口的擴大化結果」。[SOURCED]",
+    "9_setup_payoff": "Setup：L1桐生健傷口（E-01 [SQ-A]）；L2朱音批判台詞（E-04後[NC]）。Payoff：L3帝國廣場（黑奏宏觀揭示）。最長線setup/payoff：Act I的桐生健膠布→Act III帝國廣場決戰的「世界是膠布」（跨兩幕半）。[SOURCED]",
+    "10_audience_knowledge_gap": "L1後觀眾接受「膠布=拒絕面對傷口」的象徵認知。L2後觀眾看到這個象徵被應用於更大範疇（群體層面）。L3是觀眾和晴香「同步震驚」——因為L1/L2讓觀眾建立了足夠的象徵框架，L3的宏觀化對觀眾和晴香同樣震撼。[SOURCED]",
+    "11_canon_continuity": "CDL-087 RESOLVED（桐生健傷口+「痛係證據」台詞確認）。CDL-120 RESOLVED（朱音批判台詞確認）。膠布哲學L3位置在帝國廣場（與DIR-001/013一致）。無硬衝突。[SOURCED]",
+    "12_writing_execution": "L3核心台詞（「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」）可寫性極高，台詞方向清晰。整個三層設計的可寫性高。L3是Beat Sheet層的核心設計工作。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "膠布哲學本身就是一種防衛機制的象徵：不面對傷口，只在表面貼膠布=迴避痛苦的防衛行為。三層揭露展示了這個防衛從個人到群體到宇宙層面的擴大化。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "晴香「善意救人=好事」的意識形態通過L1/L2/L3被系統性挑戰。L3是最終的意識形態危機：「你的善意是宇宙級別的膠布」。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "NOT_RELEVANT", "reason": "膠布哲學是個人和宏觀主題的象徵線，不主要通過社會制度位置表達。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "L1晴香的選擇（不抹去桐生健的記憶）是「接受真實代替保護對方免受衝擊」的道德選擇。這個微小選擇是L3宏觀道德困局（接受Beta線是膠布）的先行預示。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "RELEVANT", "reason": "膠布是全作最重要的象徵物件。桐生健傷口上的膠布（L1）→朱音被放逐後的自我包紮（L2語境）→Beta線世界作為宏觀膠布（L3）。同一個物件在三個層次獲得三個維度的意義。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對「貼膠布」（迴避傷口）stance的最終處理：reject（L3揭示膠布下的傷口發炎了）但同時acknowledge（「痛係存在的證明」，CDL-087——感受痛也是有意義的）。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "L1為何必須以「桐生健傷口」的物理場景引入而非對白說明：具體的物理傷口+膠布讓象徵有感官基礎（觀眾看到具體的膠布），為後來的宏觀化建立了可感知的參照點。若L1直接以對白說「貼膠布=逃避」，L3的震撼力會削弱（失去「具體物件→宏觀象徵」的層次感）。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "膠布哲學三層揭露是對「防衛機制的後果」的宏觀展示：L1個人層面的防衛（用膠布迴避痛苦）→L2群體層面的防衛（晴香的善意保護他人免受真相衝擊）→L3宇宙層面的防衛（整個Beta線是晴香逃避Alpha線創傷的宏觀防衛）。三層都是同一個防衛機制在不同規模的表現。",
+    "16_moral_tradeoff": "L1晴香選擇「不抹去桐生健記憶」（痛係存在的證明）是一個微小的道德選擇，也是全作唯一一次晴香主動選擇「接受真實代替保護對方免受衝擊」的行動。這個選擇在Act I是「英雄行為」；在L3視角下，這個選擇的logic（「真實優先於保護」）恰好是晴香最終必須接受Beta線是膠布的道德基礎。",
+    "17_symbolic": "膠布的三層象徵意義：L1=具體物件（桐生健傷口上的Band-Aid）→L2=行為隱喻（晴香的善意保護=「貼膠布」）→L3=存在隱喻（Beta線=Alpha線美夜子屍體上的宏觀膠布）。每層都是上一層的宏觀化，但始終保持「膠布」這個核心象徵的統一性。",
+    "18_narrative_validation": "故事同時做了兩件看似矛盾的事：(1)通過L3 reject了「貼膠布=好的解決方法」（Beta線傷口發炎）；(2)在L1通過「痛係存在的證明」(CDL-087) validate了「感受痛苦本身是有意義的」。兩者不矛盾：故事reject了「迴避痛苦」，但validate了「直面痛苦」。",
+    "19_method_necessity": "L1必須用「桐生健的物理傷口+膠布」而非抽象說法引入：(1)具體性——觀眾可以在視覺上理解「膠布」的功能和限制（它遮蔽傷口，不癒合傷口）；(2)低風險場景——在低壓力的學校場景引入，讓象徵自然進入觀眾認知，無需解說；(3)桐生健的記憶問題是具體的「貼膠布」場景（抹去記憶=貼膠布遮住真相），讓象徵有最直接的邏輯連結。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": [],
+  "open_questions": ["L3帝國廣場場景的具體對白設計（Beat Sheet層）"],
+  "recommendation": {
+    "strongest_value": "三層設計完整、跨幕前置完整、象徵一致性極高；L3核心台詞是全作主題表達最強單一對白；三層各承載一種關係類型（英雄vs被救/同伴批判/敵人揭示）使主題碰撞多樣化",
+    "biggest_weakness": "L3具體對白設計留在Beat Sheet層，當前Outline層設計已完整——但Beat Sheet層的設計挑戰高（在決戰場景中嵌入主題性對白，需要平衡動作節奏和對話深度）",
+    "suggested_next_action": "L3場景設計在Act III Beat Sheet時處理；確認L2朱音批判台詞的具體位置（E-04後[NC]，是哪個具體場景）",
+    "author_confirmation_needed": []
+  }
+}

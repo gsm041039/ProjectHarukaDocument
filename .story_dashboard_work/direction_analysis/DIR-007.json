@@ -1,0 +1,68 @@
+{
+  "direction_id": "DIR-007",
+  "direction_title": "黑奏農場計劃全揭露線 (Kurosou Farm Plan Full Reveal Line)",
+  "stability": "working",
+  "claim_status": "[SOURCED]",
+  "short_summary": "黑奏的情緒農場計劃（以緋潮情緒能量積累「情感貨幣」以恢復螢）的逐層揭露。封閉循環設計：黑奏創造農場→晴香創世（Beta線）→Beta線建立農場的基礎+也是農場要解決的災難。R-7黑奏預謀揭示時機BLOCKED。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §五",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-07",
+    "ledger/CONTRADICTION_AUDIT.md §HC-01"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-003"],
+  "involved_events": ["E-PRE-01", "E-ACT2-GLASS", "E-ACT3-PLAZA"],
+  "related_lines": ["Alpha", "Beta"],
+  "core_question": "R-7黑奏預謀揭示（黑奏主動殺死晴香媽媽+美夜子以獲得魔法力量）應放在Act III帝國廣場後段，還是Act IV？",
+  "emotional_center": "「毀滅百萬人的底層驅動竟是六歲孩童的妄想」——黑奏的可憐與可怕",
+  "dramatic_function": "TC-04核心（黑奏永恆陷阱×連結的價值）；封閉循環完整揭示；晴香×黑奏最終道德評判",
+
+  "pool_1_analysis": {
+    "1_character_growth": "黑奏的「成長」不是傳統弧線，而是從「被誤解為純粹惡」到「被理解為悲劇性執念者」的觀眾認知轉化。農場計劃揭露線是這個轉化的核心裝置——觀眾從「壓倒性大反派」到「六歲孩童的妄想的受害者」。黑奏自己的成長：從「執念者」到「被告別者」（彩的「我已經大個女啦」）。[SOURCED]",
+    "2_relationship_dynamics": "黑奏×晴香的關係動力：黑奏是晴香善意救贖的最終鏡照——晴香的善意創造了黑奏，黑奏的善意（復活螢）毀滅了百萬人。兩者是「善意+代價」主題的雙面鏡。R-7揭示（黑奏主動殺死晴香媽媽+美夜子）後，晴香面對「彼此都是對方的加害者和受害者」的道德困局。[SOURCED]",
+    "3_information_reveal_control": "農場計劃的揭露分層：E-07a（農場邏輯首次展示）→E-11a（農場危機爆發）→AKS-S1（Text Prop：螢死亡報告）→帝國廣場（緋潮根源揭露）→R-7（黑奏預謀揭示，時機TBD）。HC-01仍然是潛在衝突（BD-07 RESOLVED但舊文件可能殘留framing）。[SOURCED][INFERRED HC-01殘留]",
+    "4_atmosphere_tension": "農場計劃的揭露是「冷酷計算」的氣氛設計：黑奏從不因被揭露而焦慮，只是更換作戰策略。這種冷靜的反派設計比歇斯底里的反派更令人不安——因為讓觀眾感覺黑奏「一切都在計劃內」。[SOURCED]",
+    "5_theme_expression": "TC-04（黑奏永恆陷阱×連結的價值）的核心衝突：黑奏為了「連結」（復活螢）不惜用無數人的「連結」（情感能量）作為燃料。這個設計使TC-04的主題衝突內部自洽：最重視連結的人，用最多人的連結作為代價。[SOURCED]",
+    "6_structural_beat_function": "農場計劃是Act II-III的主要反派壓力機制（世界危機的具體形式）。揭露線的結構功能：將「個人情感動機」（螢）和「世界級災難」（緋潮）連接起來，使反派有世界級威脅+個人情感合理化的雙重質感。[SOURCED]",
+    "7_entry_timing_presence": "農場計劃在Act I以「維多利亞之淚=情緒淨化裝置」的偽裝登場（觀眾不知是農場）。Act II E-11a情緒毒品危機是農場的第一次真相顯露。帝國廣場是完整揭示。R-7是最後一層（時機TBD）。Entry Timing的節奏清晰。[SOURCED]",
+    "8_world_rule_mechanic": "農場計劃依賴情緒守恆定律（DIR-011）：情緒能量不消失，可以被收集→這是農場存在的世界規則基礎。BD-07 RESOLVED：Beta線花子死因=真實難產，無deeper truth，農場計劃不需要額外的clue體系。[SOURCED]",
+    "9_setup_payoff": "Setup：E-02 Reality Show直播（農場偽裝為娛樂系統）；E-07a（黑奏邏輯重構，農場計劃的目的展示）；E-11a（情緒毒品危機，農場失控）。Payoff：帝國廣場（緋潮根源揭露）；R-7（預謀揭示，TBD）；彩「我已大個女」（農場計劃終止）。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I觀眾以為農場是娛樂系統。Act II觀眾拼湊農場的真實目的（情感貨幣）。帝國廣場後觀眾完整理解農場的宇宙層面意義（緋潮根源）。R-7（時機TBD）是最後一層深度揭示（黑奏自知創造了農場的基礎）。[SOURCED][INFERRED R-7]",
+    "11_canon_continuity": "BD-07 FULLY RESOLVED（Alpha線死因確認）。HC-01 OPEN但與BD-07解決方向一致（不加深hidden truth層）。無新硬衝突。[SOURCED]",
+    "12_writing_execution": "封閉循環的概念（黑奏製造農場+晴香創世=循環因果）在對白中難以簡潔表達——需要帝國廣場決戰場景的精心設計才能清晰傳達不顯說教。Beat Sheet層工作。[SOURCED][INFERRED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "黑奏的農場計劃是黑奏的防衛機制：用「有機會復活螢」的幻象迴避接受「螢永遠不可復活」的事實。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "農場計劃體現黑奏的意識形態（一個生命的價值可以超越百萬人的代價）。揭露線質疑這個意識形態的合理性。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "農場計劃通過帝國制度（維多利亞之淚/Reality Show）實施，帝國制度是農場的合法外殼。揭露農場=揭露帝國制度的工具性質。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "農場計劃的核心道德困局：黑奏知道螢可能不可復活，但繼續使用百萬人的情感能量嘗試。這是理性vs情感、hope vs evidence的根本衝突。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "NOT_RELEVANT", "reason": "農場計劃本身是系統性設計，不主要通過象徵物件或儀式行為表達。熊公仔作為螢遺物的象徵歸屬DIR-002。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對「為愛不惜犯罪」的最終處理：complicate（代價無法被justify）+ TRANSFORM（彩的告別讓黑奏的存在意義完成而非被否定）。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "農場計劃為何必須通過「偶像偶像制度/Reality Show」而非其他方式收集情緒能量：Media作為情緒收集機制強調「觀眾的娛樂情緒是可以被商品化的」，與主題（情緒資本主義）直接關聯。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "黑奏知道（在某個層面上）螢無法復活，但選擇繼續執行農場計劃。這是「知情的防衛機制」——不是自欺，而是「明知不可能但繼續嘗試因為停止=放棄螢」。彩的「我已經大個女啦」是告知黑奏「妳的防衛任務已經完成，可以停止了」。",
+    "14_ideology": "農場計劃體現「結果主義的極端版本」：只要目的（復活螢）足夠重要，任何手段都被justify。故事通過農場計劃揭露線質疑這個意識形態——不是直接駁斥，而是通過展示代價（百萬人的生命）讓觀眾自己作出判斷。",
+    "15_social_institutional": "帝國制度（維多利亞之淚/Reality Show/光幕濾鏡）是農場計劃的合法化外殼。揭露農場計劃同時揭露：帝國制度是情感收割機（把市民的情緒作為原材料），Reality Show娛樂化是收割機的開關。",
+    "18_narrative_validation": "故事對黑奏的最終處理：既不validate（農場計劃殺死了無數人）也不simply reject（根源是純粹的愛）。TRANSFORM：彩的告別讓黑奏的「保護任務」完成，黑奏消散不是被消滅而是被release。農場計劃被終止，但黑奏的愛被承認。",
+    "19_method_necessity": "農場計劃為何必須通過偶像/娛樂制度而非直接力量收集：(1)隱藏性——市民自願「捐出」情緒（觀看直播/下注）而不知道自己在供養農場；(2)規模性——直播覆蓋全城，情感收割效率最大化；(3)主題意義——「娛樂即剝削」的批判。改用直接強制收割：失去「市民自願」的諷刺性和「消費文化」的批判意義。"
+  },
+
+  "contradictions": [
+    {
+      "id": "C-DIR007-01",
+      "description": "HC-01仍然OPEN：舊文件可能殘留「Beta花子死因有deeper truth」的framing，與BD-07 RESOLVED（無deeper truth）衝突",
+      "claim_status": "[CONFLICTING]",
+      "source": "ledger/CONTRADICTION_AUDIT.md §HC-01"
+    }
+  ],
+  "missing_bridges": ["R-7揭示時機未定（Act III帝國廣場後段 vs Act IV）"],
+  "open_questions": ["R-7揭示時機（帝國廣場後段 vs Act IV）—— 高優先度"],
+  "recommendation": {
+    "strongest_value": "封閉循環設計（黑奏殺人→晴香創世→Beta線→農場基礎+農場目標=循環）是全作最具諷刺意義的因果設計；「毀滅百萬人=六歲孩童妄想」的反差是最高憐憫質量",
+    "biggest_weakness": "HC-01殘留衝突 + R-7時機未定，影響Act III/IV揭示脊柱設計",
+    "suggested_next_action": "確認HC-01是否已被BD-07完全解決（需要讀舊文件確認）；在ACT_III_OUTLINE批核前確認R-7揭示位置",
+    "author_confirmation_needed": ["HC-01確認", "R-7揭示時機"]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "direction_id": "DIR-002",
+  "direction_title": "螢不可復活揭示鏈 (Hotaru Cannot Revive Revelation Chain)",
+  "stability": "working",
+  "claim_status": "[SOURCED]",
+  "short_summary": "全作情感最重要單一時刻（R-5）：Act IV彩「多謝你保護咗我咁耐」揭示螢永遠不可復活。依賴Act II-III大量非戰鬥前置積累（熊公仔+深夜寫信/燒信儀式）。BD-09a Critical缺口：前置設計完全缺失。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-09a",
+    "ledger/CONTRADICTION_AUDIT.md §DG-01"
+  ],
+  "involved_characters": ["CHAR-003"],
+  "involved_events": ["E-PRE-03", "E-ACT2-GLASS", "E-AKS-S1", "E-NC-GUARDIAN-SEED", "E-ACT4-SAI-RESOLUTION"],
+  "related_lines": ["Alpha", "Beta", "mixed"],
+  "core_question": "如何在Act II-III用非戰鬥部分（[NC]）積累足夠的視覺印象，讓Act IV「螢不可復活」揭示達到全作最大情感重量？",
+  "emotional_center": "黑奏殺人犯罪的底層動機竟是「復活已死的摯愛」——「毀滅百萬人的底層驅動竟是六歲孩童的妄想」——最大反差的憐憫",
+  "dramatic_function": "全作情感最重要單一揭示（R-5）；AKS-S4最高情感重量；直接決定Act IV主題收束的感受質量",
+
+  "pool_1_analysis": {
+    "1_character_growth": "彩的成長不是「從壞到好」，而是「從需要黑奏保護到接受螢不可復活的事實」。AKS-S4的「多謝你保護咗我咁耐」是彩主人格面對「黑奏的存在意義已完結」這個事實的內在解放時刻。這條揭示線是彩角色弧線的情感收束點，不是任何其他角色的成長線。[SOURCED]",
+    "2_relationship_dynamics": "彩×黑奏關係（同一軀殼的兩個人格）在這條線中的關係動力：黑奏為了復活螢不惜毀滅百萬人→彩一直存在於黑奏的陰影下→AKS-S4是彩對黑奏的告別（「我已經大個女啦」）同時也是對螢的接受（「多謝你保護咗我咁耐」）。雙層人際關係在同一時刻收束。[SOURCED]",
+    "3_information_reveal_control": "AKS-S0→S1→S2/S3→S4的四層設計：S0彩/黑奏可疑切換（無解釋）；S1 Text Prop型（螢死亡報告+熊公仔圖紙，觀眾拼圖）；S2/S3非戰鬥視覺印象積累（BD-09a BLOCKED — 具體設計完全缺失）；S4最終揭示（最大情感重量）。S2/S3是整條揭示鏈的前置支柱，目前完全缺失是Critical問題。[SOURCED][CONFLICTING BD-09a]",
+    "4_atmosphere_tension": "這條線的氣氛策略是「累積→爆發」而非「懸念→驚喜」。S1後觀眾已知螢的存在和死亡，S2/S3的視覺印象積累是情感「充電」而非知識填補。S4的「多謝你保護咗我咁耐」是充電完成後的情感「釋放」。若S2/S3前置不足，S4就像一個沒有充電的情感裝置——噸位不夠。[SOURCED][INFERRED BD-09a影響]",
+    "5_theme_expression": "螢揭示線承載TC-04的核心（黑奏永恆陷阱×連結的價值）。黑奏的「情感貨幣農場」是為了復活螢→整個農場的道德代價全都源於一個孩童的愛——這是「連結的重量」的最黑暗表達。TC-04通過這條線獲得其最深的情感層次（不只是抽象的「連結」，而是具體的「為了那個人，我不惜做任何事」）。[SOURCED]",
+    "6_structural_beat_function": "AKS-S1在Act II幕末（拼圖節點，觀眾/朔拼湊六歲孩童的妄想）。AKS-S2/S3在Act II甜蜜高峰期間+Act III（視覺印象積累，[NC]非戰鬥）。AKS-S4在Act IV（情感收束）。三個節點橫跨Act II-IV，需要全作最長的前置設計。Act IV S4的位置要求S2/S3的積累在Act II/III完成，不能推遲。[SOURCED]",
+    "7_entry_timing_presence": "螢作為人物從未在主線出現（死於前史）。但螢的「presence」通過彩的行為模式貫穿全作：熊公仔（螢遺物）、深夜寫信/燒信儀式、黑奏的農場計劃。螢的「entry」是以物件和行為的形式，而非人物登場。這種「absent presence」設計需要高密度的[NC]非戰鬥段支撐——BD-09a缺口的核心問題。[SOURCED]",
+    "8_world_rule_mechanic": "螢不可復活的世界規則是核心：改變現實無法逆轉死亡（BD-04 RESOLVED機制確認）。這個世界規則使黑奏的整個農場計劃成為「必然失敗的執念」。機制本身已確認，但世界規則如何在Act I/II植入（讓觀眾理解「螢真的無法復活」的底層規則）需要在BD-10揭示時序中處理。[SOURCED]",
+    "9_setup_payoff": "S1（Text Prop）是主要setup節點，設計完整。S2/S3是情感setup，BD-09a Critical缺口代表這個setup完全缺失。S4是payoff，依賴S2/S3的累積才有效。換言之：payoff已設計好，但支撐payoff的前置setup是整條線的最弱環節，且是Critical級別的設計缺口。[SOURCED][CONFLICTING BD-09a]",
+    "10_audience_knowledge_gap": "S1後觀眾知道螢的存在和死亡（觀眾領先彩的主人格，因為彩主人格對螢的記憶模糊）。S2/S3讓觀眾看到彩對螢的行為（觀眾知道這是螢相關，但彩不自知）→形成「旁觀者的心碎感」。S4是知識差距消除時刻：彩主人格終於接受螢已逝，觀眾和彩在情感上同步。這個設計思路正確，但S2/S3缺失破壞了知識差距的建立。[SOURCED][INFERRED]",
+    "11_canon_continuity": "CDL-190 RESOLVED（AKS-S1 Text Prop型確認）。BD-09a OPEN（S2/S3具體設計缺失）。無硬衝突，但BD-09a是Critical Structural Dependency Gap（DG-01）。螢的世界規則（不可復活）與BD-04 RESOLVED一致。[SOURCED]",
+    "12_writing_execution": "S4台詞「多謝你保護咗我咁耐」本身可寫性極高。問題在於：若沒有S2/S3的前置積累，寫出S4也無法達到預期情感重量——因為觀眾對彩和螢關係的具體情感記憶不夠深。BD-09a的設計工作需要在Beat Sheet層而非Outline層完成，因為需要設計具體的[NC]場景節奏。[SOURCED][INFERRED]"
+  },
+
+  "pool_2_relevance": [
+    {
+      "angle_id": 13,
+      "angle_name": "Coping / Defense Mechanism",
+      "verdict": "RELEVANT",
+      "reason": "黑奏的整個存在是彩的防衛機制（承受彩無法承受的痛苦）。螢揭示線是這個防衛機制的最終解鎖：彩不再需要黑奏代她面對螢不可復活的事實。"
+    },
+    {
+      "angle_id": 14,
+      "angle_name": "Ideology / Value System",
+      "verdict": "RELEVANT",
+      "reason": "黑奏的核心價值系統：「為了復活螢可以犧牲任何人」。揭示線最終質問：這個價值系統是否成立？彩的「我已經大個女啦」是對這個價值系統的否定。"
+    },
+    {
+      "angle_id": 15,
+      "angle_name": "Social / Institutional Position",
+      "verdict": "NOT_RELEVANT",
+      "reason": "螢揭示線是彩/黑奏的內在情感線，與社會制度位置無直接關聯。黑奏的帝國皇帝身份是達成農場計劃的手段，不是揭示線本身的設計因素。"
+    },
+    {
+      "angle_id": 16,
+      "angle_name": "Moral Tradeoff",
+      "verdict": "RELEVANT",
+      "reason": "黑奏的核心道德困局：「為了愛一個已死的人，殺死了無數活著的人」。揭示線最終要求觀眾判斷：這種愛是崇高的還是瘋狂的？故事選擇的答案是「兩者都是」。"
+    },
+    {
+      "angle_id": 17,
+      "angle_name": "Symbolic / Ritual Behavior",
+      "verdict": "RELEVANT",
+      "reason": "熊公仔（螢遺物）+深夜寫信/燒信儀式是這條線的核心象徵裝置，也是AKS-S2/S3的具體設計載體。沒有這些具體的象徵行為，整條線的情感積累就無法實現。"
+    },
+    {
+      "angle_id": 18,
+      "angle_name": "Narrative Validation Level",
+      "verdict": "RELEVANT",
+      "reason": "故事對「為愛不惜一切」這個stance的處理：既不validate（因為代價是百萬人的生命）也不simply reject（因為其根源是六歲孩童的純粹愛）。故事選擇TRANSFORM：讓彩接受「愛不需要讓人活著才能持續」。"
+    },
+    {
+      "angle_id": 19,
+      "angle_name": "Method Necessity / Form Meaning",
+      "verdict": "RELEVANT",
+      "reason": "S4的「多謝你保護咗我咁耐」為何必須由彩說出（而非黑奏消散的旁白說明）：只有彩主人格主動說出這句話，才代表她真正面對了螢不可復活這個事實；若由旁白或觀眾推斷，失去彩自我解放的主體性。"
+    }
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "黑奏人格本身是彩的防衛機制：在帝國歷79年螢死亡當夜，6歲的彩因極端恐懼人格分裂，黑奏誕生來承受彩無法承受的痛苦並執行彩不敢做的殘忍決定。整個Act I-III，黑奏的存在就是彩對「螢已死」這個事實的持續迴避。AKS-S4的「多謝你保護咗我咁耐」是防衛機制解除的時刻——彩終於可以自己承受螢的死亡，不再需要黑奏代她承受。",
+    "14_ideology": "黑奏的意識形態：「一個值得愛的人的生命，比任何數量的無名之輩的生命更重要」。這種意識形態不是「偽裝的」（黑奏確實相信）。揭示線通過S1（Text Prop）讓觀眾理解這個意識形態的根源（六歲孩童的愛），通過S2/S3讓觀眾看到意識形態的行為表現，通過S4讓觀眾看到彩自己放棄了這個意識形態。故事的處理是TRANSFORM：彩說出「多謝你保護咗我咁耐」，承認了螢的死亡，意識形態從「復活螢」轉化為「接受螢永遠存在於記憶中」。",
+    "16_moral_tradeoff": "黑奏的道德困局：螢的生命vs百萬人的生命。更深的困局：黑奏知道螢無法復活（世界規則確認），但選擇繼續嘗試——這是理性上的self-deception還是情感上的genuine love？故事選擇「兩者都是」：黑奏的愛是真實的，但代價是不可接受的。彩的「我已經大個女啦」是彩接受了這個困局的不可解性，選擇放棄黑奏的解決方案。",
+    "17_symbolic_ritual": "熊公仔（CDL-075）：觀眾初讀=安心毛公仔；真相=螢的遺物，彩/黑奏共享心匣。「彩一直抱著的一直都係螢」——這個象徵在Act IV揭露後讓所有Act I-III的熊公仔場景獲得全新情感意義。深夜寫信/燒信儀式（BD-09a設計目標）：這個儀式是彩對螢的「繼續存在」的方式——寫信=繼續對話；燒信=接受無法收到回覆。儀式本身既是愛也是哀悼。",
+    "18_narrative_validation": "角色（黑奏）自以為信：「只要繼續嘗試，螢就有可能復活」。故事揭示真正信：「螢不可復活是世界規則，黑奏在某種程度上知道但拒絕接受」。作者希望觀眾感受：「這種愛既是最真實的人類情感，也是最具破壞性的執念——觀眾應同時憐憫和痛心」。",
+    "19_method_necessity": "S4為何必須是彩主人格說「多謝你保護咗我咁耐」而非其他形式：(1)只有彩說出代表她真正接受了螢的死——這是主體性行為而非被動揭示；(2)「多謝你」是對黑奏的告別，也是對螢的直接致謝——兩層含義在同一句話；(3)若改為旁白說明「螢已死，黑奏消散了」，失去彩作為主體的情感解放感。(4)若改為晴香/其他人說出，失去「受害者自己說出的解脫」的獨特質感。"
+  },
+
+  "contradictions": [
+    {
+      "id": "C-DIR002-01",
+      "description": "BD-09a Critical缺口：AKS-S2/S3的具體[NC]非戰鬥section設計完全缺失，與已定的S4最大情感重量目標形成矛盾——目標很高但前置設計為零",
+      "claim_status": "[CONFLICTING]",
+      "source": "BLOCKED_DECISIONS.md §BD-09a / ledger/CONTRADICTION_AUDIT.md §DG-01"
+    }
+  ],
+
+  "missing_bridges": [
+    "BD-09a (Critical)：Act II甜蜜高峰期間[NC]非戰鬥section具體設計（熊公仔+深夜寫信/燒信儀式）",
+    "Act III AKS-S2/S3的視覺印象積累具體場景設計",
+    "世界規則（螢不可復活）的觀眾前置時序（和BD-10部分相關）"
+  ],
+
+  "open_questions": [
+    "BD-09a：AKS-S2/S3具體[NC] section設計（Critical — 全作最高優先度未解設計任務之一）",
+    "IC-02：螢揭示線功能重心（reveal engineering vs 情感回收）——作者尚未確認哪種為主"
+  ],
+
+  "recommendation": {
+    "strongest_value": "R-5（AKS-S4）是全作情感最重要單一時刻；「毀滅百萬人的底層驅動=六歲孩童的妄想」是全作最大的憐憫/道德反差設計；熊公仔作為螢遺物的象徵設計在Act IV揭露後有最高「回看重估」價值",
+    "biggest_weakness": "BD-09a Critical缺口使整條揭示線的前置設計為零。若不解決，R-5的情感重量無法實現——這是全作設計最大的單一風險點",
+    "suggested_next_action": "這是全作最高優先度的未解設計任務。需要在Act II Beat Sheet層設計具體[NC]非戰鬥section：熊公仔的出場頻率+情境+與彩行為的關聯；深夜寫信/燒信儀式的具體場景和視覺語言",
+    "author_confirmation_needed": ["BD-09a：AKS-S2/S3具體[NC] section設計", "IC-02：螢揭示線功能重心確認"]
+  }
+}

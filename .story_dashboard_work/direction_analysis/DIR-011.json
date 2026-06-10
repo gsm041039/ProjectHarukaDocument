@@ -1,0 +1,58 @@
+{
+  "direction_id": "DIR-011",
+  "direction_title": "情緒守恆定律六層揭露線 (Emotion Conservation Law Six-Layer Reveal Line)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "情緒能量不消失只轉移的世界規則，分六層（CDL-247更新）從Act I到Act IV揭露。L1個體代價→L2系統轉移→L3法則命名→L4緋潮根源→L5超越（吸收而非排放）→L6（待確認）。是全作世界規則設計的核心骨架。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §八",
+    "canon/_working/PROJECT_STATUS.md CDL-247"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-010"],
+  "involved_events": ["E-02", "E-10", "E-11a", "E-ACT3-PLAZA", "E-ACT4-HARUKA-CHOICE"],
+  "related_lines": ["Beta"],
+  "core_question": "守恆定律L3（秋穗法則命名）和L4（黑奏嘲諷揭露晴香是緋潮始作俑者）之間的Act III銜接節奏如何設計？",
+  "emotional_center": "「裝置不是在消滅負面情緒，而是在抽離並排放。就像核電廠，產生巨大能量，但廢料必須去某個地方。」",
+  "dramatic_function": "世界規則壓力線（Angle 8）；TC-05核心（態度vs命運×情緒資料農場）；守恆定律L4是DIR-001揭示的機制支撐",
+
+  "pool_1_analysis": {
+    "1_character_growth": "守恆定律不是角色成長線，而是世界規則揭露線。對晴香的影響：每層揭示都要求晴香更新對「自己使用力量的代價」的理解。L5（吸收而非排放）是晴香最終選擇的體現——從「不理解代價」到「選擇承擔代價」的成長線的世界規則版本。[SOURCED]",
+    "2_relationship_dynamics": "守恆定律L1-L3由秋穗傳遞（晴香通過秋穗理解世界規則），L4由黑奏揭露（以嘲諷方式揭示晴香是根源）。揭示者的關係定位（善意提供者vs惡意揭露者）使同一個世界規則在不同揭示者口中具有不同的情感質感。[SOURCED]",
+    "3_information_reveal_control": "六層分佈在四幕：L1（Act I）→L2/L3（Act II）→L4（Act III）→L5（Act IV）。每層都是已知信息的「更黑暗詮釋」——不是新信息的添加，而是舊信息的重框。這是最高效率的揭示設計（一個概念，六層深度）。[SOURCED]",
+    "4_atmosphere_tension": "守恆定律的揭露節奏設計了全作的「世界末日感」累積：L1（個人代價，可接受）→L2（系統代價，開始不安）→L3（設計意圖，震驚）→L4（世界級代價，絕望）→L5（選擇承擔，希望重建）。每層都升高一個級別。[SOURCED]",
+    "5_theme_expression": "TC-05的核心（態度vs命運×情緒資料農場）通過守恆定律具現化：情緒能量的守恆就是「代價不會消失，只會轉移」——這是「命運不可迴避」的物理版本；L5（吸收）是「態度」的最終勝利（選擇直面代價而非轉移代價）。[SOURCED]",
+    "6_structural_beat_function": "每層揭示都是一個結構節點：L1（Act I beat，首次代價）；L2（Act II mid，系統揭示）；L3（Act II末，E-11a核心）；L4（Act III高潮，帝國廣場）；L5（Act IV收束，最終選擇）。六層對應六個結構位置。[SOURCED]",
+    "7_entry_timing_presence": "守恆定律在Act I以「異常疲憊」（L1）隱藏存在。不是通過說明而是通過身體感覺入場。這種「隱形entry」讓L3（秋穗命名）在觀眾已有足夠身體感覺印象的前提下才「命名」——naming後觀眾才回溯理解之前所有的異常。[SOURCED]",
+    "8_world_rule_mechanic": "守恆定律是本作最重要的世界規則機制。整個農場計劃（DIR-007）、緋潮機制、情緒毒品危機（E-11a）都依賴此規則。L5（吸收而非排放）打破農場計劃的邏輯基礎（農場靠排放/收集驅動，吸收使排放失去意義）。[SOURCED]",
+    "9_setup_payoff": "Setup：L1（Act I異常疲憊，被晴香用「日常藉口」解釋）→L2/L3（Act II系統揭示+命名）。Payoff：L4（帝國廣場嘲諷揭露）→L5（晴香最終選擇）。最高效率的setup/payoff設計：L1的setup在L3命名後才被觀眾回溯理解其含義。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I觀眾看到L1（身體代價）但不理解含義。Act II L3秋穗命名後觀眾才理解全部L1-L3的含義（回溯型揭示）。L4帝國廣場是觀眾和晴香同步的最大衝擊。L5是觀眾見証晴香選擇的時刻（無知識差距，純情感同步）。[SOURCED]",
+    "11_canon_continuity": "CDL-247 RESOLVED（守恆定律L1-L5更新確認）。與世界規則文件（01_world_rules_and_costs.md）一致（未讀確認，標記[INFERRED]）。無硬衝突。[SOURCED][INFERRED]",
+    "12_writing_execution": "守恆定律的「核電廠廢料」比喻（L3台詞方向）是極清晰的科普式揭示，可寫性高。L4帝國廣場（黑奏嘲諷版本）需要設計使技術術語在情緒激動的決戰場景中仍然清晰傳遞。整體可寫性高。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "NOT_RELEVANT", "reason": "守恆定律是世界規則揭露線，不是角色防衛機制設計問題。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "守恆定律揭露挑戰「情緒管理=消除負面情緒」的意識形態——實際上是「轉移而非消除」。這是對情緒管理制度（帝國）的深層批判。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "帝國制度（維多利亞之淚）建立在守恆定律被隱藏的基礎上。揭露守恆定律=揭露帝國制度的運作邏輯：用轉移代替解決，把代價轉移給看不到的「廢料傾倒地」。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "守恆定律的揭露使晴香面對道德困局：使用魔法力量=把代價轉移給某個地方（緋潮）。L5選擇（吸收而非排放）是接受代價由自己承擔的道德選擇。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "NOT_RELEVANT", "reason": "守恆定律是概念性揭露線，主要通過對話和場景呈現，不是通過象徵物件或儀式。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事validate晴香的L5選擇（吸收而非排放），将「直面代價」作為主題最終答案。同時complicate「使用力量」本身——不是「應該使用力量vs不應該」，而是「如何承擔使用力量的代價」。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "L3為何必須由秋穗「命名」（科學命名）而非由黑奏揭露（嘲諷版本）：秋穗是守恆定律的發現者和研究者，她的命名是「不帶惡意的揭示」，使觀眾先獲得中性的科學理解，才能在L4（黑奏嘲諷）時感受到扭曲的情感衝擊。"}
+  ],
+
+  "pool_2_expanded": {
+    "14_ideology": "維多利亞之淚的運作意識形態：「我們在幫助市民管理情緒，讓城市更健康」。守恆定律揭露拆穿這個意識形態：城市看起來更健康，但代價是把情緒廢料傾倒在看不見的地方（緋潮）。這是對「情緒管理文化」的批判——管理≠解決，只是隱藏。",
+    "15_social_institutional": "帝國的政治合法性建立在「管理情緒=為人民服務」的敘事上。守恆定律的揭露（L3/L4）使這個合法性崩潰：帝國不是在服務人民，而是在用人民的情緒填充農場，把代價（緋潮）傾倒在城市邊緣。揭露守恆定律=揭露帝國制度的本質是剝削而非服務。",
+    "19_method_necessity": "守恆定律揭露分兩個階段：L3秋穗（中性科學揭示）+ L4黑奏（惡意嘲諷揭示）。分兩次揭示的必要性：(1)秋穗揭示讓觀眾先獲得正確理解（「代價不消失只轉移」）；(2)黑奏揭示加入「而且晴香你就是那個把代價轉移到世界的人」的道德攻擊。若只有一次揭示，觀眾要同時處理科學概念+道德震撼，認知負荷過高；分兩次讓兩個衝擊分別最大化。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["L6（守恆定律第六層）是否存在及其含義待確認"],
+  "open_questions": ["守恆定律L6是否設計（CDL-247提到六層但只描述了L1-L5）"],
+  "recommendation": {
+    "strongest_value": "六層揭露節奏是全作最高效率的世界規則設計（一個概念，六層深度，橫跨四幕）；L5的「吸收而非排放」是主題最終收束的物理具現化",
+    "biggest_weakness": "L6是否存在及其含義不明確——若L5已是完整收束，L6可能多餘；若L6有具體設計目標，需要明確",
+    "suggested_next_action": "確認守恆定律L6的設計（若存在）；確認L4帝國廣場場景中「守恆定律術語揭示」與「創世者身份揭示」的場景節奏（兩個揭示在同一場景，設計挑戰高）",
+    "author_confirmation_needed": ["守恆定律L6確認"]
+  }
+}

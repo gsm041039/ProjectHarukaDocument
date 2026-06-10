@@ -1,0 +1,111 @@
+{
+  "direction_id": "DIR-006",
+  "direction_title": "朱音/操 嘆息之橋犧牲線 (Akiho/Misao Sigh Bridge Sacrifice Line)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "朱音（Day 14帝國廣場糖果山自毀贖罪）和操（Day 13學校人偶牆主動選擇半屍骸化）的錯位雙殺。CDL-217/218確認：兩人在不同地點不同時間犧牲，「今日死一個，聽日再死一個」的錯位震撼感。全作最大代價節點。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三",
+    "canon/04_timeline_canon.md §IV 鋼鐵獨舞+帝國廣場救援",
+    "canon/_working/PROJECT_STATUS.md CDL-217/218"
+  ],
+  "involved_characters": ["CHAR-005", "CHAR-006"],
+  "involved_events": ["E-07a", "E-07b", "E-09a", "E-13", "E-14"],
+  "related_lines": ["Beta"],
+  "core_question": "錯位雙殺（操Day 13學校 / 朱音Day 14帝國廣場）的具體場景如何設計，讓兩個犧牲各自有最強的情感節拍，同時形成呼應？",
+  "emotional_center": "「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」",
+  "dramatic_function": "全作最大代價節點（TC-01/TC-02核心）；隊伍崩潰的直接觸發；觀眾從「英雄能否獲勝」問題轉向「失敗後如何存在」",
+
+  "pool_1_analysis": {
+    "1_character_growth": "朱音弧線：赤罪（誤食情緒結晶弟弟死亡創傷）→罪惡感投射救贖（入隊）→小光之死→放棄救贖→廢棄糖果工廠→放逐→「下水道流浪犬」→垃圾鎧甲回歸→「過載變身」自毀。成長類型：failure + acceptance（沒有完整治癒，接受了不完整的自己）。操弧線：完美主義（形式主義強迫）→控制崩潰連鎖→「我選擇停留在我想停留的位置」的主體性宣言。[SOURCED]",
+    "2_relationship_dynamics": "操和朱音是隊伍中情感密度最高的配對之一：操的調停嘗試失敗（放棄「理性談判」語氣直接說「我都痛」）是操第一次跨越自保邊界。兩人犧牲的「錯位」強化了這種關係：不是並肩犧牲（那是epic）而是各自在不同地點用自己的方式說再見（這是heartbreaking）。[SOURCED]",
+    "3_information_reveal_control": "朱音的弧線在觀眾視野中是完整的（從Act I入隊到Act III自毀）。操的弧線有一個重要的reveal節點：Act III恐怖家家酒期間「絲線縫牙」被揭露（Stage 3 屍骸化程度），讓觀眾在操犧牲前才真正理解她一直隱藏的屍骸化程度。這個資訊控制使操的犧牲更有震撼力。[SOURCED]",
+    "4_atmosphere_tension": "恐怖家家酒2週是全作氣氛最高壓段落之一。Day 10/11/12的逐步崩潰（朱音暴食斷頭台→操控制欲爆發→操指揮完全失效）製造了「不可逆轉」的氣氛。Day 13操的「鋼鐵獨舞」（人偶牆）在高壓結束後留下靜默；Day 14朱音在糖果山自毀是壓抑後的爆發。節奏設計：壓→靜→爆。[SOURCED]",
+    "5_theme_expression": "TC-01（連結的價值×傲慢救世主）和TC-02（英雄的代價）在這條線中同時表達。朱音的「我無治癒成功但我唔想再一個人食飯」是TC-01（連結的價值）的最強人格化表達。操的「我選擇停留在我想停留的位置」是TC-02（態度式治癒）的人格化表達。兩個角色的犧牲共同承載兩個主題，設計效率極高。[SOURCED]",
+    "6_structural_beat_function": "Day 13-14是Act III第二高潮節點（緊跟帝國廣場決戰）。錯位雙殺的結構功能：打破「隊伍可以一起解決問題」的幻象，強制轉換故事的核心問題（從「能否勝利」到「失去後如何繼續」）。這是Act III→Act IV過渡的情感橋。[SOURCED]",
+    "7_entry_timing_presence": "朱音在Act I以「搶怪黨」入場（野獸感）；操在Act I以「獨行俠」入場。兩人的「presence」在Act II甜蜜高峰期間有充分建立（日常互動、友誼深化）。犧牲的timing（Act III末）依賴Act II的情感積累才有重量——若Act II的日常建立不足，Act III的犧牲就缺乏有說服力的情感重量。[SOURCED]",
+    "8_world_rule_mechanic": "屍骸化機制（Stage 1→Stage 2→Stage 3）是這條線的世界規則壓力：操的Stage 3絲線縫牙在犧牲前才被揭露，朱音的「過載變身」是魔法代價的極端表現。兩個犧牲都通過世界規則機制（屍骸化＋魔法代價）具現化，非純情感選擇，有設定基礎。[SOURCED]",
+    "9_setup_payoff": "朱音Setup：赤罪（弟弟死亡）→小光之死→三位一體辯論→朱音未完成的介錯→放逐。Payoff：垃圾鎧甲回歸+最後台詞+糖果山自毀（糖果山對應E-07b廢棄糖果工廠setup，地點呼應）。操Setup：E-09a鏡像破碎之夜（父親背叛+紗夜犧牲）→完美主義崩潰連鎖。Payoff：人偶牆+「我選擇停留的位置」。[SOURCED]",
+    "10_audience_knowledge_gap": "朱音的行動在觀眾視野中是可見的（從放逐到「下水道流浪犬」到回歸）。操的屍骸化程度（Stage 3）在犧牲前才揭露——這個知識差距讓觀眾在「以為操只是控制欲太強」的前提下，突然發現她一直在用絲線縫牙。這是操的犧牲的核心震撼機制。[SOURCED]",
+    "11_canon_continuity": "CDL-217/218 RESOLVED（場地確認為帝國廣場，非嘆息之橋命名地點）。IC-03 OPEN（操E-2.5保留/刪除/替代爭議，影響操的前置設計密度）。無硬衝突。[SOURCED][INFERRED IC-03影響]",
+    "12_writing_execution": "朱音最後台詞（「我無治癒成功...但我唔想再一個人食飯」）可寫性極高，已有完整的情感邏輯。操的「鋼鐵獨舞」場景（人偶牆+「我選擇停留在我想停留的位置」）有清晰的視覺意象和台詞方向。整體可寫性高，需要具體在Beat Sheet層落實。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {
+      "angle_id": 13,
+      "angle_name": "Coping / Defense Mechanism",
+      "verdict": "RELEVANT",
+      "reason": "朱音的防衛機制：用魔法（精神毒品）麻醉弟弟死亡的罪惡感。操的防衛機制：用完美主義形式控制來迴避「無人見證自己存在」的空洞。兩條犧牲線都是防衛機制最終崩潰的結果。"
+    },
+    {
+      "angle_id": 14,
+      "angle_name": "Ideology / Value System",
+      "verdict": "RELEVANT",
+      "reason": "朱音的價值排序：保護弱小（包括屍骸）>服從隊伍共識。操的價值排序：維持完美秩序>承認失控。兩種價值排序的崩潰是各自犧牲的前置。"
+    },
+    {
+      "angle_id": 15,
+      "angle_name": "Social / Institutional Position",
+      "verdict": "NOT_RELEVANT",
+      "reason": "朱音和操的犧牲線主要是個人弧線，不主要受社會/制度位置影響。帝國制度是背景壓力，但犧牲的情感核心是個人選擇。"
+    },
+    {
+      "angle_id": 16,
+      "angle_name": "Moral Tradeoff",
+      "verdict": "RELEVANT",
+      "reason": "朱音的道德困局：救小光屍骸=放棄隊伍目標=最終更多人受苦。操的道德困局：維持完美指揮=失去真實連結。兩者的犧牲都是道德困局的解決方式——不是「正確」的解決，而是「自己能做到的」解決。"
+    },
+    {
+      "angle_id": 17,
+      "angle_name": "Symbolic / Ritual Behavior",
+      "verdict": "RELEVANT",
+      "reason": "朱音的糖果山（廢棄糖果工廠setup→帝國廣場糖果山payoff）是最完整的象徵地點呼應。操的「絲線縫牙」是屍骸化的具體象徵物件+身體儀式。兩者都有具體的象徵物件設計。"
+    },
+    {
+      "angle_id": 18,
+      "angle_name": "Narrative Validation Level",
+      "verdict": "RELEVANT",
+      "reason": "故事對「不完整的治癒」的stance：validate——朱音「無治癒成功但唔想再一個人食飯」是故事最有力的主題陳述；操的「我選擇停留的位置」也是validate的。兩個犧牲都是故事確認的「有意義的不完整」。"
+    },
+    {
+      "angle_id": 19,
+      "angle_name": "Method Necessity / Form Meaning",
+      "verdict": "RELEVANT",
+      "reason": "為何朱音必須是「過載變身自毀」而非普通戰死：(1)過載變身是魔法代價的主動選擇；(2)糖果山是廢棄糖果工廠場景的地點呼應；(3)主動選擇vs被動犧牲——朱音主動結束自己的生命，而非被敵人殺死，這是赤罪→自選贖罪的弧線完整收束。"
+    }
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "朱音的防衛機制：魔法變身=精神毒品（麻醉弟弟死亡的罪惡感，CDL-051/052）。Act III犧牲是這個防衛機制的最終解除：朱音用「過載變身」把毒癮本身作為犧牲的工具，把一直在用的毒變成自己的最後選擇。操的防衛機制：完美主義形式控制（「魔法少女必須優雅消滅怪物」）是她迴避「無人真正見證自己」的方式。鋼鐵獨舞是完美主義崩潰後第一次「凌亂的自我決斷」。",
+    "14_ideology": "朱音的意識形態核心衝突：「所有弱小的生命都值得保護（包括屍骸）」vs「保護更多人需要犧牲部分弱小」。這個衝突無法在朱音的框架內解決，所以她選擇用犧牲代替選擇。操的意識形態核心衝突：「表演和控制才是存在的意義」vs「真實連結才是存在的意義」。鋼鐵獨舞是她第一次放棄「表演完美」，選擇「真實行動」。",
+    "16_moral_tradeoff": "朱音的tradeoff：救小光=背叛隊伍=更多人受苦；不救小光=自己無法承受。她選擇了前者（救小光），接受了後果（更多人受苦），然後用自毀去贖罪。操的tradeoff：維持控制=保持與隊友的距離；失控=真實連結。她選擇了後者（失去控制=獲得真實），用「停留在我想停留的位置」承擔失控的後果。",
+    "17_symbolic_ritual": "廢棄糖果工廠（E-07b）→帝國廣場糖果山（E-14）：地點的象徵呼應。廢棄糖果工廠是朱音「屍骸天堂」幻想的創造地；帝國廣場糖果山是幻想破滅後的自我消解地。操的絲線縫牙（Stage 3）：屍骸化最終階段的具體身體象徵——操一直用絲線縫住「不完整的自己」，鋼鐵獨舞是她選擇把這個不完整變成封鎖通道的工具。",
+    "18_narrative_validation": "故事對「不完整的救贖」的stance：全面validate。朱音「無治癒成功但不想再一個人食飯」和操「我選擇停留的位置」——兩個台詞都是「不完整+自我接受」的表達。故事選擇validate而非complicate，強調「接受不完整本身就是一種完整」。這是最符合TC-01/TC-02主題的處理。",
+    "19_method_necessity": "朱音為何必須是「過載變身糖果山」：(1)地點象徵完整（廢棄糖果工廠→糖果山）；(2)「過載變身」是主動選擇的代價，強調agency；(3)垃圾鎧甲+糖果山的視覺具有獨特的荒謬感和詩意感（垃圾也能犧牲）。操為何必須是「人偶牆」：(1)Stage 3屍骸化的視覺化——把「不完整的自己」字面意義化為牆體；(2)封鎖通道=保護隊友=最後的「完美指揮官」行動（但這次是真實選擇而非表演）。"
+  },
+
+  "contradictions": [
+    {
+      "id": "C-DIR006-01",
+      "description": "IC-03 OPEN：操E-2.5的保留/刪除/替代爭議，影響操前置建立密度。若E-2.5被刪，需要替代設計來建立觀眾對操的情感投入",
+      "claim_status": "[UNRESOLVED]",
+      "source": "ledger/CONTRADICTION_AUDIT.md §IC-03"
+    }
+  ],
+  "missing_bridges": [
+    "IC-03：操E-2.5 Act I前置設計決策（保留/刪除/替代）",
+    "QQ-06：Act IV操三位一體視覺化（如果操半屍骸化後在Act IV還有後續，其視覺化設計仍DEFERRED）"
+  ],
+  "open_questions": [
+    "IC-03：操E-2.5處理方式（作者決策）",
+    "QQ-06：操三位一體視覺化（DEFERRED Medium）"
+  ],
+
+  "recommendation": {
+    "strongest_value": "錯位雙殺設計是全作最具結構衝擊力的決策；兩條角色弧線各自完整且承載不同主題（TC-01/TC-02）；朱音最後台詞是全作主題表達最強單一台詞之一",
+    "biggest_weakness": "IC-03（操E-2.5）設計爭議影響操的前置建立；若前置密度不足，操的犧牲情感重量不夠支撐",
+    "suggested_next_action": "在Act I/II Outline批核前確認IC-03（操E-2.5保留/刪除/替代），確保操的情感前置充分。確認QQ-06操三位一體視覺化設計",
+    "author_confirmation_needed": ["IC-03確認"]
+  }
+}

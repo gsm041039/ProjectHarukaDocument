@@ -1,0 +1,106 @@
+{
+  "direction_id": "DIR-004",
+  "direction_title": "彩/黑奏 雙人格身份揭露 (Sai/Kurosou Dual Personality Identity Reveal)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "從Act I E-1.5（彩/黑奏首次可疑切換，AKS-S0）→Act II幕末玻璃庭院茶會（真身揭露：148cm小女孩）→Act III情感核彈L1+L2+L3→Act IV彩主人格覺醒+黑奏消散+「多謝你保護咗我咁耐」。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五",
+    "canon/04_timeline_canon.md §IV 恐怖家家酒+真身揭露",
+    "canon/_working/story_construction/ACT_I_OUTLINE.md Beat 4.5",
+    "canon/_working/PROJECT_STATUS.md CDL-246"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-003"],
+  "involved_events": ["E-1.5", "E-ACT2-GLASS", "E-ACT3-PLAZA", "E-ACT4-SAI-RESOLUTION"],
+  "related_lines": ["Beta"],
+  "core_question": "如何讓「帝國皇帝=小女孩的副人格」這個揭示既有震撼感，又令觀眾事後回望所有伏筆時感到前置合理？",
+  "emotional_center": "「快啲走...佢想食咗妳...」—— 即使在最惡的情況下，彩試圖救晴香的那一刻",
+  "dramatic_function": "TC-06核心（身份的本質×黑奏永恆陷阱）；Act II-III最大資訊轉折；道德困局最高點（晴香「殺不殺彩」辯論）",
+
+  "pool_1_analysis": {
+    "1_character_growth": "彩的成長線：從DID（解離性身份障礙）的受害者→到主動接受黑奏的存在是自己的一部分→到最終說「我已經大個女啦」告別黑奏。這條成長線需要玻璃庭院茶會揭示（彩主動求救）→情感核彈（彩反抗）→Act IV（彩完全覺醒）的三段式支撐。黑奏的成長線：從純粹保護→到試圖用農場計劃實現妄想→到「彩填補裂痕，黑奏消散」的終局。[SOURCED]",
+    "2_relationship_dynamics": "晴香×彩/黑奏是全作最複雜的二元關係：晴香對彩有連結（鐵絲網偶遇的潛意識共鳴）→被黑奏欺騙利用（E-1.5到玻璃庭院茶會之前）→知道真相後的「殺不殺彩」道德困局→最終接受彩的Act IV收束。這條揭示線的設計質量直接決定晴香×彩的道德困局能否成立。[SOURCED]",
+    "3_information_reveal_control": "AKS-S0（E-1.5：可疑切換，無解釋）→ACT II幕末玻璃庭院茶會（真身揭露，彩×黑奏的完整身份）→Act III情感核彈L1+L2+L3（三層完整揭示，CDL-246）→Act IV彩主人格覺醒。信息控制的關鍵是：S0到茶會之間的「懸念維持期」，觀眾必須察覺異常但無法確認，讓茶會的揭示達到最大衝擊。[SOURCED]",
+    "4_atmosphere_tension": "真身揭露「巨大衣服，微小的神」（timeline canon §IV）：黑奏故意讓皇袍滑落露出彩被長期囚禁的幼體身軀（148cm，抱舊熊公仔），用「權力外殼vs脆弱核心」的反差羞辱團隊。這個場景的氣氛設計是全作最大的「認知顛覆」時刻：最強的敵人是最脆弱的受害者。[SOURCED]",
+    "5_theme_expression": "TC-06（身份的本質）：彩/黑奏揭示讓觀眾質問「身份是什麼」——是行動（黑奏的暴行）還是本質（彩的無辜）？黑奏的行動是否代表彩的身份？這個主題質問只有通過這條揭示線才能被戲劇化，而不是靠說教。[SOURCED]",
+    "6_structural_beat_function": "S0在Act I幕末（製造懸念）；茶會在Act II幕末（揭示真身，改變觀眾對「黑奏=絕對惡」的認知）；情感核彈L1+L2+L3在Act III（三層完整揭示）；彩覺醒在Act IV（收束）。四個節點分佈在全作四幕，是最跨幕的設計之一。[SOURCED]",
+    "7_entry_timing_presence": "彩在Act I以「転校生」入場（低調怯懦），熊公仔是其presence的核心符號。黑奏的presence通過隱藏的控制力（「皇帝」身份從未在Act I直接出現）維持神秘感。Entry Timing：Act I以彩視角登場→Act II幕末雙重身份揭露→平衡了「過早揭示（失去懸念）」和「過晚揭示（觀眾失耐）」的矛盾。[SOURCED]",
+    "8_world_rule_mechanic": "DID（解離性身份障礙）在Beta線高魔世界中的具體化：黑奏獲得實際魔法力量（Alpha線鐵絲網許願+改變現實的因果信標）。這個世界規則設定使「彩的DID具有世界級破壞力」——普通的心理問題被放大成政治級別的威脅。機制設計巧妙，使心理現實主義和魔法設定有機融合。[SOURCED]",
+    "9_setup_payoff": "Setup完整：E-1.5（圖書館幽靈，CDL-080具體台詞已定）；Act I熊公仔場景積累；黑奏三大需求（充電線+挖礦+節點校準，CDL-079）。最大payoff：玻璃庭院茶會真身揭露→情感核彈L1+L2+L3。「彩一直抱著的一直都係螢」（CDL-075）是最長線setup（Act I→Act IV）。[SOURCED]",
+    "10_audience_knowledge_gap": "S0後觀眾察覺異常但無法確認（觀眾和晴香知識相同）→茶會後觀眾和晴香同步獲得真相（知識對等的衝擊）→情感核彈後觀眾理解三層身份複雜性（觀眾理解可能超過晴香）→Act IV觀眾見證彩覺醒。知識設計正確，懸念維持期和衝擊點設計合理。[SOURCED]",
+    "11_canon_continuity": "CDL-246 RESOLVED（玻璃庭院茶會設計確認）。CDL-075 RESOLVED（熊公仔=螢遺物，心匣設計確認）。CDL-080 RESOLVED（E-1.5具體台詞確認）。BD-09b RESOLVED（愛莉紙皮騎士無系統性暗示設計確認）。無硬衝突。[SOURCED]",
+    "12_writing_execution": "「帝國最強BOSS=身高148cm抱熊公仔小女孩」的視覺場景（玻璃庭院茶會）可寫性極高，對白已有設計方向（彩求救台詞）。情感核彈L1+L2+L3的三層遞進設計是Beat Sheet層工作，整體方向已定。可寫性高。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {
+      "angle_id": 13,
+      "angle_name": "Coping / Defense Mechanism",
+      "verdict": "RELEVANT",
+      "reason": "黑奏是彩的防衛機制：承受彩無法承受的痛苦並執行彩不敢做的殘忍決定。彩的DID是她面對螢死亡和帝國創傷的防衛方式。"
+    },
+    {
+      "angle_id": 14,
+      "angle_name": "Ideology / Value System",
+      "verdict": "RELEVANT",
+      "reason": "黑奏的意識形態（為復活螢不惜一切）vs 晴香的意識形態（善意不需要consent）——兩種意識形態在這條揭示線中直接碰撞。"
+    },
+    {
+      "angle_id": 15,
+      "angle_name": "Social / Institutional Position",
+      "verdict": "RELEVANT",
+      "reason": "黑奏的帝國皇帝身份是「社會/制度位置」的極端版本（最高權力位置）。揭示「皇帝=小女孩的DID人格」是對制度合法性的根本質疑：制度由一個六歲的心理創傷所控制。"
+    },
+    {
+      "angle_id": 16,
+      "angle_name": "Moral Tradeoff",
+      "verdict": "RELEVANT",
+      "reason": "晴香的道德困局：殺死黑奏=殺死彩（同一個軀殼）；放過彩=繼續讓黑奏的農場計劃傷害世界。這個tradeoff是揭示線的最高道德張力點。"
+    },
+    {
+      "angle_id": 17,
+      "angle_name": "Symbolic / Ritual Behavior",
+      "verdict": "RELEVANT",
+      "reason": "熊公仔（螢遺物/心匣）是彩/黑奏共享的核心象徵物件。彩的「出門確認熊公仔儀式」是這條線的ritual承載，也是揭示前置的視覺語言。"
+    },
+    {
+      "angle_id": 18,
+      "angle_name": "Narrative Validation Level",
+      "verdict": "RELEVANT",
+      "reason": "故事對「因愛不惜成為怪物」的stance：既不validate（黑奏的行動殺死了無數人）也不reject（其根源是純粹的愛），而是TRANSFORM（彩接受黑奏存在的目的已完成）。"
+    },
+    {
+      "angle_id": 19,
+      "angle_name": "Method Necessity / Form Meaning",
+      "verdict": "RELEVANT",
+      "reason": "玻璃庭院茶會「真身揭露」為何必須是黑奏主動讓皇袍滑落（而非晴香或朔發現）：黑奏主動揭露是「控制的展示」，而非被動暴露——強調黑奏的算計和操控，不是weakness的暴露。"
+    }
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "黑奏誕生根源（CDL-076/099）：帝國歷79年螢死亡當夜，6歲的彩因極端恐懼失去呼吸控制，目睹犧牲後人格分裂。黑奏的雙重初衷：①承受彩無法承受的痛苦②執行彩不敢做的殘忍決定。整個Act I-III，彩的「低調怯懦」是黑奏保護她的防衛結果——黑奏成為彩的外殼，讓彩不需要面對殘酷現實。",
+    "14_ideology": "彩的意識形態（主人格）：「我只想跟喜歡的人在一起，不想傷害任何人」。黑奏的意識形態：「為了螢，任何代價都是合理的」。揭示線的戲劇功能：讓觀眾理解這兩個相反的意識形態住在同一個身體裡。Act IV的「我已經大個女啦」是彩放棄依賴黑奏的意識形態，選擇自己面對現實。",
+    "15_social_institutional": "黑奏以帝國皇帝身份統治Beta線世界。揭示「皇帝=六歲孩童的DID人格」是對整個帝國制度合法性的根本瓦解：帝國的所有政策、農場計劃、「衛生行動」都源於一個孩童的心理創傷和妄想。這是最有力的「制度批判」形式——不是說制度壞，而是揭示制度的根源是一個孩童的愛。",
+    "16_moral_tradeoff": "晴香的道德困局是全作最重要的「行動困局」：黑奏必須停止→但停止黑奏=傷害彩（同一個軀殼）→不停止=繼續讓無辜人受苦。最終解決方案不是晴香殺死彩，而是彩主人格選擇告別黑奏——這讓解決方案從外部强制變成內部自決，保留了彩的主體性。",
+    "17_symbolic_ritual": "熊公仔（CDL-075）：彩/黑奏共享心匣，「彩一直抱著的一直都係螢」。出門確認儀式（09_Habits）：黑奏計算晴香的同時，彩的潛意識通過確認熊公仔來確認螢的存在。這個ritual在Act I-III是純視覺前置（觀眾看見但不理解），在Act IV獲得全部情感意義。",
+    "18_narrative_validation": "故事對「DID人格的行動責任」的處理：黑奏的行動是真實的傷害（責任不能消除）；彩的本質是受害者（無辜不能否認）。故事選擇TRANSFORM：不是「彩/黑奏是一個整體，行動責任共擔」也不是「黑奏是外來惡靈，彩完全無辜」，而是「彩最終接受了黑奏的存在是她的一部分，並以告別代替仇恨」。",
+    "19_method_necessity": "玻璃庭院茶會為何必須是黑奏主動讓皇袍滑落：(1)顯示黑奏的完全控制意識——這不是失誤暴露，而是刻意羞辱；(2)彩在被黑奏控制的情況下出現倒茶求救（「快啲走...佢想食咗妳...」），展示彩的微弱主體性；(3)若改為晴香/朔偷拍到彩，失去「被羞辱的同時發現受害者求救」的雙重情感質感。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": [
+    "AKS-S2/S3的非戰鬥前置設計（BD-09a，與DIR-002共享）",
+    "情感核彈L1+L2+L3具體設計（Beat Sheet層，當前Outline層設計足夠）"
+  ],
+  "open_questions": [
+    "情感核彈三層的具體設計（Beat Sheet層）",
+    "Act III「晴香殺不殺彩」的道德辯論具體設計（Beat Sheet層）"
+  ],
+
+  "recommendation": {
+    "strongest_value": "「帝國最強BOSS=身高148cm抱熊公仔小女孩」是全作最強的認知反差設計；彩/黑奏的DID設計使「心理現實主義+魔法放大」達到完美融合",
+    "biggest_weakness": "AKS-S2/S3的前置積累設計（BD-09a）與此方向的情感前置部分重疊，若不解決會削弱彩相關的所有情感高峰",
+    "suggested_next_action": "解決BD-09a時需要同時考慮此方向（彩的非戰鬥視覺語言）和DIR-002（螢揭示前置）的雙重需求；情感核彈L1+L2+L3的具體設計在Act III Beat Sheet時處理",
+    "author_confirmation_needed": []
+  }
+}

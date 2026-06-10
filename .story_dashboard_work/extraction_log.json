@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2026-06-10",
+  "phase": "phase_2_raw_extraction — COMPLETE",
+  "batches": [
+    {
+      "batch_id": "B-001",
+      "date": "2026-06-10",
+      "files_processed": [
+        "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt",
+        "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md",
+        "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md",
+        "canon/_working/story_construction/BLOCKED_DECISIONS.md",
+        "canon/_working/PROJECT_STATUS.md",
+        "canon/_working/QUESTION_QUEUE.md"
+      ],
+      "outputs_produced": [
+        "character_index.json (10 characters CHAR-001~CHAR-010)",
+        "direction_candidates.json (15 directions DIR-001~DIR-015, first pass)"
+      ],
+      "notes": "First extraction batch. Created character and direction structure from core story documents."
+    },
+    {
+      "batch_id": "B-002",
+      "date": "2026-06-10",
+      "files_processed": [
+        "canon/04_timeline_canon.md",
+        "canon/_working/story_construction/ACT_I_OUTLINE.md (first 150 lines)",
+        "ledger/CONTRADICTION_AUDIT.md",
+        "canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md"
+      ],
+      "outputs_produced": [
+        "event_index.json (27 events, first pass from STORY_BASE_RECONSTRUCTION + timeline canon)",
+        "contradiction_log.json (7 open contradictions/gaps + 6 resolved)"
+      ],
+      "notes": "Second extraction batch. Timeline canon provides authoritative date structure (帝國歷102=Alpha/Beta divergence, 113-114=main story). Act I Outline confirms beat structure and CDL anchors. Discovered: Aya/Akiho time loop mechanics, Forced Ascension, Amber of Love events not yet in direction_candidates.json. CONTROL_OBJECTIVES_MASTER.md is empty template — gap noted."
+    },
+    {
+      "batch_id": "B-003",
+      "date": "2026-06-10",
+      "files_processed_note": "Remaining RELEVANT files not yet processed — deferred to Phase 4 as-needed reads",
+      "unread_high_priority": [
+        "00_Story_Brief.md",
+        "canon/05_story_outline_canon.md",
+        "canon/13_major_events_relationship_impact.md",
+        "canon/99_decision_log.md",
+        "canon/00_series_bible.md",
+        "canon/01_world_rules_and_costs.md",
+        "canon/03_characters/*.md (11 character files)",
+        "canon/_working/story_construction/ACT_II_OUTLINE.md",
+        "canon/_working/story_construction/ACT_III_OUTLINE.md",
+        "canon/_working/story_construction/ACT_I_BEAT_SHEET.md",
+        "canon/_working/CANON_DECISION_LOG.md",
+        "backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md",
+        "backup/script_refinement/ProjectHaruka_Current_Consolidated_AllChinese.txt"
+      ],
+      "strategy_note": "Phase 4 direction analysis will read specific files as needed per direction. Phase 7 HTML build uses current extracted data as primary source."
+    }
+  ]
+}

@@ -1,0 +1,1175 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-06-10",
+  "phase": "phase_1_file_discovery",
+  "folders_scanned": [
+    "canon/ (root)",
+    "canon/03_characters/",
+    "canon/_working/ (root)",
+    "canon/_working/story_construction/",
+    "canon/_working/conflict_resolution/",
+    "canon/_working/auto_canon_sync/",
+    "canon/_working/canon_fact_map/",
+    "canon/_reports/",
+    "backup/screenwriter/",
+    "backup/director/",
+    "backup/draft/",
+    "backup/script_refinement/",
+    "backup/archive/",
+    "backup/gameplay/",
+    "ledger/",
+    "art/ (root .md files only)",
+    "root (top-level .md files)"
+  ],
+
+  "files": [
+
+    {
+      "path": "00_Story_Brief.md",
+      "folder_group": "root",
+      "type": "story_overview",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Top-level story brief — most current consolidated overview of the whole project"
+    },
+
+    {
+      "path": "canon/00_series_bible.md",
+      "folder_group": "canon_core",
+      "type": "world_rules_theme",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Series-level foundational canon: premise, world rules, themes, core logic"
+    },
+    {
+      "path": "canon/01_world_rules_and_costs.md",
+      "folder_group": "canon_core",
+      "type": "world_rules",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "World mechanics and cost system — needed for world rule / mechanic pressure angle"
+    },
+    {
+      "path": "canon/02_glossary.md",
+      "folder_group": "canon_core",
+      "type": "reference",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Terminology canon — needed to parse direction content correctly"
+    },
+    {
+      "path": "canon/03_character_index.md",
+      "folder_group": "canon_core",
+      "type": "character_index",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Canon character roster — master list for character involvement in directions"
+    },
+    {
+      "path": "canon/03_characters/haruka.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Protagonist — central to all or most directions"
+    },
+    {
+      "path": "canon/03_characters/miyako.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Major character — likely appears in multiple directions"
+    },
+    {
+      "path": "canon/03_characters/yu.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Major character — Alpha line involvement expected"
+    },
+    {
+      "path": "canon/03_characters/rin.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Named in project signals as direction-relevant (singer line)"
+    },
+    {
+      "path": "canon/03_characters/aya.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Named in project signals as direction-relevant (Kurosou-Aya)"
+    },
+    {
+      "path": "canon/03_characters/saku.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Major character — likely involved in multiple directions"
+    },
+    {
+      "path": "canon/03_characters/akiho.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Supporting character — role in direction lines TBD"
+    },
+    {
+      "path": "canon/03_characters/aeri.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Supporting character — role in direction lines TBD"
+    },
+    {
+      "path": "canon/03_characters/iwakura_akane.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Supporting character — role in direction lines TBD"
+    },
+    {
+      "path": "canon/03_characters/ayakomoji_misao.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Supporting character — role in direction lines TBD"
+    },
+    {
+      "path": "canon/03_characters/ko_hikaru.md",
+      "folder_group": "canon_characters",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Supporting character — role in direction lines TBD"
+    },
+    {
+      "path": "canon/04_timeline_canon.md",
+      "folder_group": "canon_core",
+      "type": "timeline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Canonical event order — needed for reveal timing, continuity, and direction placement"
+    },
+    {
+      "path": "canon/05_story_outline_canon.md",
+      "folder_group": "canon_core",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Canonical story outline — primary reference for direction vs. canon alignment"
+    },
+    {
+      "path": "canon/05_naming_and_psychology_system.md",
+      "folder_group": "canon_core",
+      "type": "character_system",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Psychology system used for character analysis angles"
+    },
+    {
+      "path": "canon/07_entities_and_devices.md",
+      "folder_group": "canon_core",
+      "type": "world_entities",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Entities and devices — world rule / mechanic angle, method necessity angle"
+    },
+    {
+      "path": "canon/08_narrative_design_bible.md",
+      "folder_group": "canon_core",
+      "type": "narrative_design",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Narrative design principles — structural beat function, theme expression angles"
+    },
+    {
+      "path": "canon/09_information_design.md",
+      "folder_group": "canon_core",
+      "type": "information_design",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Information / reveal control — directly maps to angle 3"
+    },
+    {
+      "path": "canon/12_philosophy_and_systems.md",
+      "folder_group": "canon_core",
+      "type": "theme_philosophy",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Philosophy and world systems — ideology, value system, theme angles"
+    },
+    {
+      "path": "canon/13_major_events_relationship_impact.md",
+      "folder_group": "canon_core",
+      "type": "events_relationships",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Major events with relationship impact — core source for event extraction"
+    },
+    {
+      "path": "canon/99_decision_log.md",
+      "folder_group": "canon_core",
+      "type": "decision_log",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Author-confirmed canon decisions — highest authority for claim tagging"
+    },
+    {
+      "path": "canon/06_visual_bible.md",
+      "folder_group": "canon_core",
+      "type": "visual_design",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Visual design — symbolic / ritual angle (17) may reference visual motifs, but not primary direction source"
+    },
+    {
+      "path": "canon/10_gameplay_bible.md",
+      "folder_group": "canon_core",
+      "type": "gameplay",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Gameplay systems — may define world mechanics relevant to direction constraints"
+    },
+    {
+      "path": "canon/11_directing_playbook.md",
+      "folder_group": "canon_core",
+      "type": "directing",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Directing notes — execution angle (12) support, but not primary direction source"
+    },
+
+    {
+      "path": "canon/_working/PROJECT_STATUS.md",
+      "folder_group": "working_state",
+      "type": "state_file",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Primary session resume anchor — current working state"
+    },
+    {
+      "path": "canon/_working/CANON_DECISION_LOG.md",
+      "folder_group": "working_state",
+      "type": "decision_log",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Canon decisions made in working sessions — authority for claim tagging"
+    },
+    {
+      "path": "canon/_working/QUESTION_QUEUE.md",
+      "folder_group": "working_state",
+      "type": "question_queue",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Open / deferred / resolved author questions — directly maps to open_questions in direction analysis"
+    },
+    {
+      "path": "canon/_working/ROUGH_STORY_SKELETON.md",
+      "folder_group": "working_state",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Working skeleton — key source for direction candidates"
+    },
+    {
+      "path": "canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md",
+      "folder_group": "working_state",
+      "type": "foreshadow_map",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Setup / payoff tracking — directly maps to angle 9"
+    },
+    {
+      "path": "canon/_working/EVIDENCE_GAPS.md",
+      "folder_group": "working_state",
+      "type": "gap_analysis",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Known evidence gaps — maps to missing_bridges in direction analysis"
+    },
+    {
+      "path": "canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md",
+      "folder_group": "working_state",
+      "type": "source_manifest",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Beat sheet sourcing — needed for source trace"
+    },
+    {
+      "path": "canon/_working/REASONING_LOG.md",
+      "folder_group": "working_state",
+      "type": "reasoning",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Reasoning log — may contain inferred direction logic to flag as [INFERRED]"
+    },
+    {
+      "path": "canon/_working/HANDOFF_SUMMARY.md",
+      "folder_group": "working_state",
+      "type": "handoff",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Handoff between sessions — useful for context recovery but not primary direction source"
+    },
+    {
+      "path": "canon/_working/READ_MANIFEST.md",
+      "folder_group": "working_state",
+      "type": "read_manifest",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "File read tracking — useful for knowing what was covered in prior sessions"
+    },
+    {
+      "path": "canon/_working/SESSION_LEDGER.md",
+      "folder_group": "working_state",
+      "type": "session_ledger",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Session history — useful for understanding what changed, not a primary story source"
+    },
+    {
+      "path": "canon/_working/NEXT_ACTION.md",
+      "folder_group": "working_state",
+      "type": "state_file",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Next action pointer only — no story content"
+    },
+
+    {
+      "path": "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md",
+      "folder_group": "story_construction",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Story base reconstruction — key source for directions and events; author-gate required before treating stability labels as approved"
+    },
+    {
+      "path": "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md",
+      "folder_group": "story_construction",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Full story rough outline v2 — latest working version of full-story direction structure"
+    },
+    {
+      "path": "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_v2_LITE.md",
+      "folder_group": "story_construction",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Lite version of full outline — may be a summary or compressed variant"
+    },
+    {
+      "path": "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_AUDIT.md",
+      "folder_group": "story_construction",
+      "type": "audit",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Outline audit with gaps, contradictions, and stability issues — directly maps to contradictions and missing_bridges"
+    },
+    {
+      "path": "canon/_working/story_construction/ACT_I_OUTLINE.md",
+      "folder_group": "story_construction",
+      "type": "act_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Act I outline — act-level direction placement"
+    },
+    {
+      "path": "canon/_working/story_construction/ACT_II_OUTLINE.md",
+      "folder_group": "story_construction",
+      "type": "act_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Act II outline — act-level direction placement"
+    },
+    {
+      "path": "canon/_working/story_construction/ACT_III_OUTLINE.md",
+      "folder_group": "story_construction",
+      "type": "act_outline",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Act III outline — act-level direction placement"
+    },
+    {
+      "path": "canon/_working/story_construction/ACT_I_BEAT_SHEET.md",
+      "folder_group": "story_construction",
+      "type": "beat_sheet",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Act I beat sheet — most specific event/beat level source"
+    },
+    {
+      "path": "canon/_working/story_construction/ACT_I_ANGLE_MAP.md",
+      "folder_group": "story_construction",
+      "type": "angle_analysis",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Act I angle analysis — existing Pool 1/2 work that may inform direction analysis"
+    },
+    {
+      "path": "canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md",
+      "folder_group": "story_construction",
+      "type": "control_objectives",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Master control objectives — highest-level view of what each act/line must achieve"
+    },
+    {
+      "path": "canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md",
+      "folder_group": "story_construction",
+      "type": "cross_act",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Cross-act control — setup/payoff and foreshadow tracking across acts"
+    },
+    {
+      "path": "canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md",
+      "folder_group": "story_construction",
+      "type": "character_growth",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Gate A output — character growth per act; maps to angle 1 directly"
+    },
+    {
+      "path": "canon/_working/story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md",
+      "folder_group": "story_construction",
+      "type": "ideology_theme",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Gate B output — ideology stance per entity; maps to angles 5, 14, 18"
+    },
+    {
+      "path": "canon/_working/story_construction/THEME_CONFLICT_EXPRESSION_TABLE.md",
+      "folder_group": "story_construction",
+      "type": "theme_conflict",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Gate C output — theme collision events; maps to angle 5/6"
+    },
+    {
+      "path": "canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md",
+      "folder_group": "story_construction",
+      "type": "worldview_conflict",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Group worldview conflicts — social/institutional position angle (15)"
+    },
+    {
+      "path": "canon/_working/story_construction/07_Major_Events_Relationship_Impact.md",
+      "folder_group": "story_construction",
+      "type": "events_relationships",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Major events and relationship impact — primary event extraction source"
+    },
+    {
+      "path": "canon/_working/story_construction/08_Story_Engine_and_Conflict_Pressure_Map.md",
+      "folder_group": "story_construction",
+      "type": "conflict_map",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Story engine / conflict pressure — structural beat function and atmosphere angles"
+    },
+    {
+      "path": "canon/_working/story_construction/10_Theme_to_Conflict_Expression_Map.md",
+      "folder_group": "story_construction",
+      "type": "theme_map",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Theme-to-conflict expression map — theme expression angle"
+    },
+    {
+      "path": "canon/_working/story_construction/QUESTION_MATRIX.md",
+      "folder_group": "story_construction",
+      "type": "question_matrix",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Existing angle analysis matrix — shows what has and hasn't been analyzed"
+    },
+    {
+      "path": "canon/_working/story_construction/BLOCKED_DECISIONS.md",
+      "folder_group": "story_construction",
+      "type": "blocked_decisions",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Blocked author decisions — maps to open_questions and NEEDS_AUTHOR_INPUT claims"
+    },
+    {
+      "path": "canon/_working/story_construction/HARD_CONSTRAINTS_TABLE.md",
+      "folder_group": "story_construction",
+      "type": "constraints",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Hard constraints — canon / continuity angle (11), world rule angle (8)"
+    },
+    {
+      "path": "canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md",
+      "folder_group": "story_construction",
+      "type": "knowledge_map",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Knowledge dependencies — audience knowledge gap angle (10)"
+    },
+    {
+      "path": "canon/_working/story_construction/CONSIDERATIONS_REGISTER.md",
+      "folder_group": "story_construction",
+      "type": "considerations",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Registered considerations — may contain direction candidates"
+    },
+    {
+      "path": "canon/_working/story_construction/RELEVANT_FILES_TABLE.md",
+      "folder_group": "story_construction",
+      "type": "file_index",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Prior relevance table — useful as cross-check for this manifest"
+    },
+    {
+      "path": "canon/_working/story_construction/SUPPORTING_DOCS_AUDIT.md",
+      "folder_group": "story_construction",
+      "type": "audit",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Supporting docs audit — may identify additional sources, but is a meta-document"
+    },
+
+    {
+      "path": "canon/_working/conflict_resolution/CONFLICT_REGISTER.md",
+      "folder_group": "conflict_resolution",
+      "type": "conflict_register",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Conflict register — primary source for [CONFLICTING] claims"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/AUTHOR_DECISIONS.md",
+      "folder_group": "conflict_resolution",
+      "type": "decision_log",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Author-confirmed decisions in conflict resolution — claim authority"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/DESIGN_GAP_REGISTER.md",
+      "folder_group": "conflict_resolution",
+      "type": "gap_analysis",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Design gaps — missing_bridges and open_questions"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/QUESTION_QUEUE.md",
+      "folder_group": "conflict_resolution",
+      "type": "question_queue",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Questions from conflict resolution phase — may overlap with main QUESTION_QUEUE"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/SESSION_STATE.md",
+      "folder_group": "conflict_resolution",
+      "type": "state_file",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Session state for conflict resolution phase — no story content"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/READ_LEDGER.md",
+      "folder_group": "conflict_resolution",
+      "type": "state_file",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Read ledger — no story content"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/WRITEBACK_LOG.md",
+      "folder_group": "conflict_resolution",
+      "type": "state_file",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Writeback log — no story content"
+    },
+    {
+      "path": "canon/_working/conflict_resolution/MULTI_AGENT_REVIEW.md",
+      "folder_group": "conflict_resolution",
+      "type": "review",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Multi-agent review — may contain contradiction analysis useful for direction flags"
+    },
+
+    {
+      "path": "backup/screenwriter/00_Story_Brief.md",
+      "folder_group": "backup_screenwriter",
+      "type": "story_overview",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Earlier story brief — useful for direction evolution tracking and detecting drift"
+    },
+    {
+      "path": "backup/screenwriter/01_Character_Background_Story.md",
+      "folder_group": "backup_screenwriter",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Character background — may contain direction-relevant backstory not in current canon files"
+    },
+    {
+      "path": "backup/screenwriter/02_Secondary_Character_Background_Story.md",
+      "folder_group": "backup_screenwriter",
+      "type": "character_file",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Secondary character backgrounds — may contain direction-relevant info"
+    },
+    {
+      "path": "backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md",
+      "folder_group": "backup_screenwriter",
+      "type": "story_analysis",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Deep analysis of structure, atmosphere, events — direction-level source material"
+    },
+    {
+      "path": "backup/screenwriter/05_Story_Outline_Director_Notes.md",
+      "folder_group": "backup_screenwriter",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Story outline with director notes — direction candidates and beat intent"
+    },
+    {
+      "path": "backup/screenwriter/06_Character_Psychology_Analysis.md",
+      "folder_group": "backup_screenwriter",
+      "type": "character_psychology",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Character psychology — coping, defense, ideology angles (13, 14)"
+    },
+    {
+      "path": "backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md",
+      "folder_group": "backup_screenwriter",
+      "type": "events_relationships",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Earlier major events analysis — compare with canon/13 for evolution"
+    },
+    {
+      "path": "backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md",
+      "folder_group": "backup_screenwriter",
+      "type": "narrative_mechanics",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Alpha/Beta narrative mechanics — critical for direction line classification"
+    },
+    {
+      "path": "backup/screenwriter/11_Deep_Philosophy_Concepts.md",
+      "folder_group": "backup_screenwriter",
+      "type": "theme_philosophy",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Deep philosophy — ideology / value system angle (14), narrative validation (18)"
+    },
+    {
+      "path": "backup/screenwriter/Villain_Master_Plan.md",
+      "folder_group": "backup_screenwriter",
+      "type": "villain",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Villain plan — conflict pressure, theme opposition, moral tradeoff angles"
+    },
+    {
+      "path": "backup/screenwriter/Magical_Girl_Setting_Detailed_Heart_Container_Device_Destiny.md",
+      "folder_group": "backup_screenwriter",
+      "type": "world_rules",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Core world mechanic — heart container / device / destiny — method necessity angle (19)"
+    },
+    {
+      "path": "backup/screenwriter/Magical_Girl_Themes_Detailed_Explanation.md",
+      "folder_group": "backup_screenwriter",
+      "type": "theme_philosophy",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Magical girl theme elaboration — theme expression angle"
+    },
+    {
+      "path": "backup/screenwriter/03_Worldview_Setting.md",
+      "folder_group": "backup_screenwriter",
+      "type": "world_rules",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Worldview setting — may duplicate canon/00 or 01; check for additional material"
+    },
+    {
+      "path": "backup/screenwriter/08_Emotion_Setting_Overview.md",
+      "folder_group": "backup_screenwriter",
+      "type": "emotion_design",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Emotion setting — atmosphere / tension angle; may be superseded by current canon"
+    },
+    {
+      "path": "backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md",
+      "folder_group": "backup_screenwriter",
+      "type": "character_detail",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Sensory / habit details — symbolic / ritual angle (17) may be relevant"
+    },
+    {
+      "path": "backup/screenwriter/10_Girl_Daily_Social_Interaction_Setting.md",
+      "folder_group": "backup_screenwriter",
+      "type": "social_setting",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Social interaction setting — social / institutional position angle (15)"
+    },
+    {
+      "path": "backup/screenwriter/12_Social_Evaluation_Quest_System.md",
+      "folder_group": "backup_screenwriter",
+      "type": "gameplay_social",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Social quest system — may define institutional pressures relevant to direction stakes"
+    },
+    {
+      "path": "backup/screenwriter/00_Story_Brief_Rebuilt.md",
+      "folder_group": "backup_screenwriter",
+      "type": "story_overview",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Rebuilt story brief — likely intermediate version; compare with current 00_Story_Brief.md"
+    },
+
+    {
+      "path": "backup/director/02_Alpha_Line_Integration_Guide.md",
+      "folder_group": "backup_director",
+      "type": "direction_guide",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Alpha line integration — critical for Alpha vs. Beta direction classification"
+    },
+    {
+      "path": "backup/director/Information_Control_Audience_Experience_Design.md",
+      "folder_group": "backup_director",
+      "type": "information_design",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Information control design — reveal control angle (3), audience knowledge angle (10)"
+    },
+    {
+      "path": "backup/director/Major_Events_Character_Relationships_Analysis.md",
+      "folder_group": "backup_director",
+      "type": "events_relationships",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Major events / relationships analysis — direction event source"
+    },
+    {
+      "path": "backup/director/Story_Structure_Atmosphere_Design.md",
+      "folder_group": "backup_director",
+      "type": "story_structure",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Story structure / atmosphere — structural beat function and atmosphere angles"
+    },
+    {
+      "path": "backup/director/Character_Atmosphere_Director_Handbook_Four_Act_Structure.md",
+      "folder_group": "backup_director",
+      "type": "story_structure",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Four-act structure handbook — direction act placement"
+    },
+    {
+      "path": "backup/director/Core_Characters_Symbolism_Analysis.md",
+      "folder_group": "backup_director",
+      "type": "character_symbolism",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Character symbolism — symbolic / ritual angle (17)"
+    },
+    {
+      "path": "backup/director/00_Story_Director_Handbook_Draft.md",
+      "folder_group": "backup_director",
+      "type": "director_handbook",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Draft director handbook — may duplicate other director files"
+    },
+    {
+      "path": "backup/director/01_Creative_Core_Principles.md",
+      "folder_group": "backup_director",
+      "type": "creative_principles",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Creative principles — tone/theme guidance, but likely summarized in canon/08"
+    },
+    {
+      "path": "backup/director/Story_Structure_Character_Archetype_Analysis.md",
+      "folder_group": "backup_director",
+      "type": "character_archetype",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Archetype analysis — character growth angle, but check for duplication with current character files"
+    },
+    {
+      "path": "backup/director/Worldview_Scene_Analysis.md",
+      "folder_group": "backup_director",
+      "type": "world_scene",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Worldview scene analysis — may contain useful scene-level direction candidates"
+    },
+
+    {
+      "path": "backup/script_refinement/ProjectHaruka_BeatSheet_Prompt5_FourAct_24Beats.txt",
+      "folder_group": "script_refinement",
+      "type": "beat_sheet",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "24-beat four-act beat sheet — specific beat-level direction data"
+    },
+    {
+      "path": "backup/script_refinement/ProjectHaruka_Current_Consolidated_AllChinese.txt",
+      "folder_group": "script_refinement",
+      "type": "consolidated_story",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Current consolidated story document — high-density direction source"
+    },
+    {
+      "path": "backup/script_refinement/ProjectHaruka_Current_Work_Consolidated_CN.txt",
+      "folder_group": "script_refinement",
+      "type": "consolidated_story",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Current working consolidated — may be more recent than AllChinese version"
+    },
+    {
+      "path": "backup/script_refinement/ProjectHaruka_Layer2_BeatToScenes_Missions.txt",
+      "folder_group": "script_refinement",
+      "type": "beat_to_scene",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Beat-to-scene mapping — direction execution and structural beat function"
+    },
+    {
+      "path": "backup/script_refinement/ProjectHaruka_NextStep_D31_D22_D40_Sectioning_Atomization.txt",
+      "folder_group": "script_refinement",
+      "type": "direction_work",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "File naming implies specific direction IDs (D31, D22, D40) — direct direction candidate source"
+    },
+
+    {
+      "path": "backup/draft/outline_raw.md",
+      "folder_group": "backup_draft",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Raw outline — may contain direction candidates not yet formalized"
+    },
+    {
+      "path": "backup/draft/three_acts_story_outline_v1.md",
+      "folder_group": "backup_draft",
+      "type": "story_outline",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "v1 story outline — early direction thinking, useful for tracking direction evolution"
+    },
+    {
+      "path": "backup/draft/idea_bank/13_Interesting_Chapters_Special_Plot_Setting.md",
+      "folder_group": "backup_draft",
+      "type": "idea_bank",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Interesting chapters / special plot settings — may contain alternative direction candidates"
+    },
+    {
+      "path": "backup/archive/15_Alpha_Beta_Discussion_Archive.md",
+      "folder_group": "backup_archive",
+      "type": "discussion_archive",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Alpha/Beta discussion archive — key for understanding how Alpha/Beta lines were developed"
+    },
+    {
+      "path": "backup/draft/timeline_raw.md",
+      "folder_group": "backup_draft",
+      "type": "timeline",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Raw timeline — may duplicate canon/04; check for additional events"
+    },
+    {
+      "path": "backup/draft/scenes/05_detailed_scenes.md",
+      "folder_group": "backup_draft",
+      "type": "scenes",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Detailed scenes — may contain direction execution examples but are pre-beat-sheet level"
+    },
+    {
+      "path": "backup/draft/charts_reference.md",
+      "folder_group": "backup_draft",
+      "type": "reference",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Charts reference — likely structural reference material"
+    },
+
+    {
+      "path": "ledger/ATOM_CANDIDATES_A.md",
+      "folder_group": "ledger",
+      "type": "atom_candidates",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Atom candidates batch A — granular canon facts, useful for claim tracing"
+    },
+    {
+      "path": "ledger/ATOM_CANDIDATES_B.md",
+      "folder_group": "ledger",
+      "type": "atom_candidates",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Atom candidates batch B"
+    },
+    {
+      "path": "ledger/ATOM_CANDIDATES_C.md",
+      "folder_group": "ledger",
+      "type": "atom_candidates",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Atom candidates batch C"
+    },
+    {
+      "path": "ledger/CONTRADICTION_AUDIT.md",
+      "folder_group": "ledger",
+      "type": "contradiction",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Contradiction audit — primary source for [CONFLICTING] tags and contradiction_log"
+    },
+    {
+      "path": "ledger/BLOCKED_DECISIONS_FOR_OUTLINE.md",
+      "folder_group": "ledger",
+      "type": "blocked_decisions",
+      "classification": "RELEVANT",
+      "priority": 1,
+      "reason": "Blocked decisions for outline — directly maps to NEEDS_AUTHOR_INPUT items"
+    },
+    {
+      "path": "ledger/QUESTION_QUEUE.md",
+      "folder_group": "ledger",
+      "type": "question_queue",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Ledger question queue — additional open questions beyond _working queue"
+    },
+    {
+      "path": "ledger/PRE_OUTLINE_QUESTION_LIST.md",
+      "folder_group": "ledger",
+      "type": "question_list",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "Pre-outline questions — unresolved items that may block direction finalization"
+    },
+    {
+      "path": "ledger/ATOM_CANDIDATE_TABLE.md",
+      "folder_group": "ledger",
+      "type": "atom_candidates",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Atom candidate summary table — may duplicate A/B/C files"
+    },
+    {
+      "path": "ledger/DOC_REGISTER.md",
+      "folder_group": "ledger",
+      "type": "file_index",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Document register — useful as cross-check but no story content"
+    },
+    {
+      "path": "ledger/SESSION_LEDGER.md",
+      "folder_group": "ledger",
+      "type": "session_ledger",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Session history log — no story content"
+    },
+    {
+      "path": "ledger/READ_MANIFEST.md",
+      "folder_group": "ledger",
+      "type": "read_manifest",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Read manifest — no story content"
+    },
+    {
+      "path": "ledger/FILE_READ_MANIFEST.md",
+      "folder_group": "ledger",
+      "type": "read_manifest",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "File read manifest — no story content"
+    },
+    {
+      "path": "ledger/P2_PRIME_LEDGER.md",
+      "folder_group": "ledger",
+      "type": "phase_ledger",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "P2 Prime phase ledger — may contain direction-relevant work from P2 Prime phase"
+    },
+    {
+      "path": "ledger/P5_DECISIONS.md",
+      "folder_group": "ledger",
+      "type": "decision_log",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "P5 decisions — author-confirmed decisions from phase 5"
+    },
+    {
+      "path": "ledger/P6_TASKS.md",
+      "folder_group": "ledger",
+      "type": "task_log",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "P6 tasks — may indicate where work stopped and what was pending"
+    },
+    {
+      "path": "ledger/P7_PENDING_QUESTIONS.md",
+      "folder_group": "ledger",
+      "type": "question_list",
+      "classification": "RELEVANT",
+      "priority": 2,
+      "reason": "P7 pending questions — unresolved items that block direction completion"
+    },
+
+    {
+      "path": "temp.txt",
+      "folder_group": "root",
+      "type": "temp",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Root temp file — unknown content; needs inspection"
+    },
+    {
+      "path": "temp2.txt",
+      "folder_group": "root",
+      "type": "temp",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Root temp2 file — large file (97kb); likely working notes with story content"
+    },
+
+    {
+      "path": "canon/_reports/ (entire folder — ~50 files)",
+      "folder_group": "canon_reports",
+      "type": "process_artifacts",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Phase audit reports, migration runlogs, ownership scans, link checks — process artifacts with no story content. Not a direction source."
+    },
+    {
+      "path": "tools/ (entire folder — prompts, skills, tool configs)",
+      "folder_group": "tools",
+      "type": "workflow_tools",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Workflow prompt tools, skill definitions, tool configs — no story content"
+    },
+    {
+      "path": "backup/gameplay/00_Core_Gameplay_Design_Document.md",
+      "folder_group": "backup_gameplay",
+      "type": "gameplay",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Gameplay design — not a story direction source; world mechanics already covered in canon/01 and 10"
+    },
+    {
+      "path": "00_Story_Brief.html",
+      "folder_group": "root",
+      "type": "duplicate",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "HTML render of 00_Story_Brief.md — duplicate"
+    },
+    {
+      "path": "ProjectHarukaDocument.zip",
+      "folder_group": "root",
+      "type": "archive",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Project archive zip — binary, contents covered by current files"
+    },
+    {
+      "path": "MIGRATION_MAP.md / Navigation_Guide.md / README_INSTALL.md / REPO_STRUCTURE.md / AGENTS.md",
+      "folder_group": "root",
+      "type": "meta",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Repo meta files — no story content"
+    },
+    {
+      "path": "art/ConceptArt/ (images only)",
+      "folder_group": "art",
+      "type": "images",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Image files — not readable as text"
+    },
+    {
+      "path": "art/00_Core_Visual_Foundation.md",
+      "folder_group": "art",
+      "type": "visual_design",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Core visual foundation — symbolic / ritual angle (17), visual motif support"
+    },
+    {
+      "path": "art/02_Advanced_Narrative_Design.md",
+      "folder_group": "art",
+      "type": "narrative_design",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Advanced narrative design via art — may contain direction-related narrative concepts"
+    },
+    {
+      "path": "art/04_Character_Illustration_Style_Guide.md",
+      "folder_group": "art",
+      "type": "visual_design",
+      "classification": "NOT_RELEVANT",
+      "priority": null,
+      "reason": "Illustration style guide — visual production, no story direction content"
+    },
+    {
+      "path": "art/302_Magical_Corpse_Visual_Design.md",
+      "folder_group": "art",
+      "type": "visual_design",
+      "classification": "MAYBE_RELEVANT",
+      "priority": 3,
+      "reason": "Magical corpse visual design — may define world mechanic visuals relevant to method necessity angle (19)"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "direction_id": "DIR-012",
+  "direction_title": "愛莉雙形態揭示鏈 (Aeri Dual Form Revelation Chain)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "愛莉從石像/紙皮騎士（前史事故）→無系統性暗示設計（BD-09b RESOLVED）→Act III/IV邊界魔法少女形態觸發（CDL-256確認）→Act IV光點消失（晴香接受改變現實係錯→願望消失→愛莉消失）。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三/五",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-09b"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-009"],
+  "involved_events": ["E-ACT3-AERI-TRANSFORM", "E-ACT4-AERI-LIGHT"],
+  "related_lines": ["Alpha", "Beta"],
+  "core_question": "愛莉光點消失（晴香接受改變現實係錯→願望消失）如何設計讓觀眾感受到悲劇性，而非只是機制性消失？",
+  "emotional_center": "「未經同意的恩情」——晴香的善意改變了愛莉的命運，晴香接受錯誤後，愛莉消失",
+  "dramatic_function": "TC-03（完美幻象×未授權救贖）的最後一個代價；晴香「接受改變現實係錯」的直接後果",
+
+  "pool_1_analysis": {
+    "1_character_growth": "愛莉的弧線設計與傳統成長線不同：愛莉的「存在」本身是晴香成長線的代價展示。從石像（事故後靜止）→紙皮騎士（守護者）→魔法少女（願望實現）→光點消失（願望撤回）。愛莉的存在狀態直接映射晴香對「改變現實」的道德立場。[SOURCED]",
+    "2_relationship_dynamics": "愛莉×晴香：未出現的守護者×不知情的被守護者。愛莉在集體潛意識中守護晴香（紙皮騎士守護場景），但晴香直到Act III/IV才知道愛莉是魔法少女。關係的悲劇：晴香的善意讓愛莉存在，晴香接受善意是錯誤讓愛莉消失——這個關係裡晴香既是愛莉的創造者也是終結者。[SOURCED]",
+    "3_information_reveal_control": "BD-09b RESOLVED（「無系統性暗示」是設計意圖）：觀眾在Act III/IV邊界前不應有足夠線索預測愛莉會成為魔法少女——意外性最大化。紙皮騎士的外形是唯一視覺連結（但Act I-III觀眾無法連結紙皮騎士=愛莉的魔法少女形態）。[SOURCED]",
+    "4_atmosphere_tension": "愛莉的揭示時機（Act III/IV邊界）是在全作最高壓時刻出現的「意外盟友」——這個timing本身製造情感relief，但光點消失又把relief轉化為新的悲劇。氣氛節奏：意外的喜（魔法少女揭示）→迅速的悲（光點消失）。[SOURCED]",
+    "5_theme_expression": "愛莉是TC-03的最後一個代價：晴香的善意（改變現實救活愛莉）=「未授權的恩情」。晴香接受「我做了錯事」的道德成長，其直接物理後果是愛莉的消失。主題通過這個代價被「具現化」而非被「說出」。[SOURCED]",
+    "6_structural_beat_function": "愛莉魔法少女揭示在Act III/IV邊界是Act IV的情感前置之一（為即將到來的最終決戰提供「新盟友」）。光點消失在Act IV是TC-03主題收束的最終具體事件（代價必須由人承擔，不只是抽象的「世界代價」）。[SOURCED]",
+    "7_entry_timing_presence": "愛莉Act I以「紙皮騎士（集體潛意識守護形象）」存在（非直接出場）。Act I-III的紙皮騎士守護（晴香夢境/朱音潛意識）是愛莉的presence方式。Act III/IV邊界的魔法少女揭示是愛莉從「集體潛意識存在」到「主線存在」的entry節點。[SOURCED]",
+    "8_world_rule_mechanic": "愛莉的存在機制：秋穗實驗事故→石像（第一個人造魔法屍骸）；晴香改變現實→紙皮騎士（晴香願望的具現化）。光點消失機制：BD-04 RESOLVED（晴香接受改變現實係錯→願望消失→愛莉消失）。整個世界規則機制鏈完整確認。[SOURCED]",
+    "9_setup_payoff": "Setup：前史愛莉事故（CDL-098）；紙皮騎士守護一（Act I，美夜子夢境）；紙皮騎士守護二（Act II末，朱音潛意識，CDL timeline）。Payoff：魔法少女揭示（Act III/IV邊界，CDL-256）；光點消失（Act IV，BD-04）。[SOURCED]",
+    "10_audience_knowledge_gap": "Act I-III觀眾知道紙皮騎士存在但不知是愛莉。魔法少女揭示後觀眾才回溯理解所有紙皮騎士場景。光點消失後觀眾理解：晴香的道德成長是有代價的，而且代價由愛莉承受（非晴香自己）——這種「道德成長的代價由無辜者承受」的設計極具衝擊力。[SOURCED]",
+    "11_canon_continuity": "BD-09b RESOLVED（無系統性暗示設計確認）。BD-04 RESOLVED（光點消失機制確認）。CDL-256確認魔法少女揭示媒介。BD-11（象徵物件設計）仍DEFERRED。無硬衝突。[SOURCED]",
+    "12_writing_execution": "魔法少女揭示場景（Act III/IV邊界）的可寫性依賴CDL-256確認的揭示媒介。光點消失場景需要與晴香的「接受改變現實係錯」的情感節點精確對齊（同一場景或緊接）。BD-11象徵物件設計DEFERRED可能影響視覺設計細節。[SOURCED][INFERRED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "NOT_RELEVANT", "reason": "愛莉的存在是世界規則的後果，不涉及防衛機制設計。秋穗的防衛機制歸屬DIR-009。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "RELEVANT", "reason": "愛莉的消失是晴香「接受善意需要consent」這個新意識形態的直接代價——故事用愛莉的消失具現化「意識形態轉化是有代價的」。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "NOT_RELEVANT", "reason": "愛莉線是個人化的TC-03具現化，不涉及社會/制度位置設計。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "RELEVANT", "reason": "晴香的最終道德困局：接受「改變現實係錯」=愛莉消失。晴香選擇接受道德真相，代價由愛莉承受——「正確的道德選擇也有無辜者的代價」。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "RELEVANT", "reason": "紙皮騎士→魔法少女形態的視覺變化是愛莉最重要的象徵轉換。BD-11象徵物件設計DEFERRED可能影響此線的視覺象徵設計。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事對「未授權的善意」的最終處理：reject（光點消失=善意不能被justify）但同時validate了晴香接受這個事實的道德成長（正確的認識本身是有價值的）。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "RELEVANT", "reason": "愛莉消失為何必須是「光點消失」而非死亡：光點消失=願望撤回，不是死亡，是「存在基礎的消失」。死亡有具體的肉體消滅；光點消失是「她從來就不應該以這種形式存在」——這種形式強調的是「未授權創造的不合法性」。"}
+  ],
+
+  "pool_2_expanded": {
+    "14_ideology": "晴香接受「改變現實係錯」是意識形態的轉化：從「善意=可以改變他人命運」到「善意需要對方的consent才能實施」。這個轉化的代價具現化為愛莉的消失——改變了主體（晴香）的認識，但無法補救被改變的對象（愛莉）。",
+    "16_moral_tradeoff": "「正確的道德選擇的代價由無辜者承受」是全作最黑暗的單一道德設計：晴香做了「正確的事」（接受自己的錯誤），但代價不是晴香自己承受，而是愛莉消失。故事不讓晴香通過「正確選擇」解脫——正確選擇也有代價，且代價可能落在無辜者身上。",
+    "17_symbolic": "紙皮騎士的象徵意義：(1)「紙皮」=脆弱、廉價、不真實（晴香的願望是「不真實」的改變現實）；(2)「騎士」=守護者角色；(3)紙皮騎士全程守護晴香/朱音，但「不真實」——光點消失讓紙皮騎士的所有守護行為也變得「從未真正發生」。BD-11若解決，可能為紙皮騎士加入更豐富的象徵物件設計。",
+    "18_narrative_validation": "故事最終reject了「改變現實可以被justify的善意」，但validate了「接受錯誤本身是有意義的道德行為」（即使代價無法被消除）。愛莉的消失不是對晴香的懲罰，而是「真相的完整顯現」——沒有真相就沒有後果，後果顯現才能讓改變有意義。",
+    "19_method_necessity": "光點消失vs死亡：死亡=有具體的原因（被殺/病死），有哀悼對象；光點消失=存在的基礎消失，「她從來就不應該以這種形式存在」。光點消失讓悲劇的根源指向「改變現實的行為本身」而非任何一個施害者——這種形式最大化了「原因是晴香5歲的善意」的主題清晰度。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["BD-11（Medium）：愛莉象徵物件設計 DEFERRED"],
+  "open_questions": ["BD-11：象徵物件設計（素描本/雙面盒墜/鏡子）——「Later talk」"],
+  "recommendation": {
+    "strongest_value": "BD-09b RESOLVED（無系統性暗示設計確認）——愛莉揭示的意外性被作者確認為設計意圖，是全作最大「意外盟友」時刻之一；光點消失的「道德代價由無辜者承受」設計是最黑暗的TC-03收束",
+    "biggest_weakness": "BD-11象徵物件設計DEFERRED，在動筆前（Beat Sheet層）需要解決",
+    "suggested_next_action": "Act IV Beat Sheet前確認BD-11象徵物件設計；確認愛莉光點消失場景與晴香「接受改變現實係錯」的情感節點的具體排列順序",
+    "author_confirmation_needed": []
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "direction_id": "DIR-010",
+  "direction_title": "朔三位一體解放者弧線 (Saku Three-in-One Liberator Arc)",
+  "stability": "working",
+  "claim_status": "[SOURCED]",
+  "short_summary": "朔從Act I [SQ]夜區影子→Act II三位一體概念承載者→Act III E-16解放者覺醒（觸發器：「保護的殘響」）→Act IV重逢（接受美夜子已改變）。CDL-255確認：無聲盟友角色（黑市網絡+Emo-Visor監控盲點）。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §三",
+    "canon/_working/PROJECT_STATUS.md CDL-255"
+  ],
+  "involved_characters": ["CHAR-002", "CHAR-008"],
+  "involved_events": ["E-16", "E-AKS-S1", "E-ACT4-SAKU-REUNION"],
+  "related_lines": ["Beta"],
+  "core_question": "朔的解放者角色如何在Act III/IV與美夜子弧線形成情感呼應，而不只是功能性配角？",
+  "emotional_center": "接受「我愛的人已經不是原來的那個人」",
+  "dramatic_function": "三位一體概念承載者（Act II植入→Act IV收束）；CDL-255確認無聲盟友功能；Act IV美夜子×朔重逢是關係線收束",
+
+  "pool_1_analysis": {
+    "1_character_growth": "朔成長類型：acceptance（接受改變）。核心議題：「我愛的人復活了，但她已不是原來那個人，我能接受嗎？」朔的成長是從「追找原來的美夜子」到「接受改變後的美夜子也是值得連結的人」。[SOURCED]",
+    "2_relationship_dynamics": "朔×美夜子：戰場上目睹Unit 01→既視感追認（103-108服役期記憶）→E-16解放者覺醒（脫離管理局，觸發器=「保護的殘響」）→Act IV重逢（接受改變）。朔的行動軌跡完全由美夜子的存在驅動，但最終成長目標是超越「追找原來的那個人」。[SOURCED]",
+    "3_information_reveal_control": "三位一體概念是由朔在Act II引入（觀眾通過朔理解概念）。朔的身份（前Unit 01戰場見証者）在Act III才完整揭示。朔在AKS-S1中發現螢死亡報告+熊公仔圖紙，是唯一的人類側揭示者（黑奏揭示通常是「敵方視角」）。[SOURCED]",
+    "4_atmosphere_tension": "朔線是全作最低調的情感線——沒有大爆發，以「無聲守候→無聲行動→最終接受」的節奏推進。黑市網絡和Emo-Visor監控盲點的存在（CDL-255）讓朔的行動有「地下抵抗」的氣氛。[SOURCED]",
+    "5_theme_expression": "朔承載「連結的本質」主題的另一個角度：連結不需要對方「是原來的那個人」，連結是對「此刻的那個人」的選擇。這與美夜子的弧線（無條件守護）形成對應。[SOURCED]",
+    "6_structural_beat_function": "朔線是支線（[SQ]）。主要結構功能：(1)三位一體概念在Act II通過朔傳入（世界觀建立）；(2)AKS-S1的Text Prop發現者（朔是揭示機制的人類代理）；(3)無聲盟友提供黑市資源；(4)Act IV重逢是美夜子弧線的配對收束。[SOURCED]",
+    "7_entry_timing_presence": "朔在Act I以夜區「影子」形式出現（[SQ]，可選）。Act II三位一體辯論時以知識提供者出現。Act III E-16解放者覺醒是朔從「旁觀者」轉為「參與者」的節點。[SOURCED]",
+    "8_world_rule_mechanic": "三位一體（人/魔法少女/屍骸光譜）是本故事世界的核心概念之一。朔作為「知識者」（在管理局工作，瞭解三位一體機制）是這個概念的世界規則傳播者。[SOURCED]",
+    "9_setup_payoff": "Setup：Act I夜區影子；Act II三位一體概念建立；AKS-S1螢揭示（朔作為發現者）。Payoff：E-16解放者覺醒；Act IV重逢。QQ-06（操三位一體視覺化）是相關的未解問題。[SOURCED]",
+    "10_audience_knowledge_gap": "觀眾在Act II通過朔獲得三位一體知識（比其他角色更早理解世界規則）。朔的個人歷史（Unit 01見証者）在Act III揭示。知識設計：朔是觀眾「理解世界規則」的信息代理人。[SOURCED]",
+    "11_canon_continuity": "CDL-255 RESOLVED（朔無聲盟友角色確認）。無硬衝突。[SOURCED]",
+    "12_writing_execution": "朔線主要是低調的情感線，台詞和行動方向清晰。Act IV重逢「接受改變後的美夜子」場景的具體設計需要在Beat Sheet層完成。整體可寫性中等（需要精細的情感節奏設計）。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {"angle_id": 13, "angle_name": "Coping / Defense", "verdict": "RELEVANT", "reason": "朔的防衛機制：將「找回原來的美夜子」作為行動動力，迴避面對「我愛的那個人已不存在」的事實。解放者覺醒是防衛機制的轉化：從找回→到接受改變。"},
+    {"angle_id": 14, "angle_name": "Ideology / Value", "verdict": "NOT_RELEVANT", "reason": "朔線不主要涉及意識形態衝突，是個人情感線。"},
+    {"angle_id": 15, "angle_name": "Social / Institutional", "verdict": "RELEVANT", "reason": "朔脫離管理局（E-16）是制度立場的明確選擇：從「制度內部者」到「制度外解放者」。這個轉變具有社會/制度意義。"},
+    {"angle_id": 16, "angle_name": "Moral Tradeoff", "verdict": "NOT_RELEVANT", "reason": "朔的核心議題是「接受改變」，不是道德困局。"},
+    {"angle_id": 17, "angle_name": "Symbolic / Ritual", "verdict": "NOT_RELEVANT", "reason": "朔線沒有特定的象徵物件或儀式設計。"},
+    {"angle_id": 18, "angle_name": "Narrative Validation", "verdict": "RELEVANT", "reason": "故事validate朔的最終選擇：接受改變後的美夜子=接受連結的動態性而非靜態性。這是TC-01（連結的價值）的一個角度。"},
+    {"angle_id": 19, "angle_name": "Method Necessity", "verdict": "NOT_RELEVANT", "reason": "朔線沒有特定形式選擇的必要性分析需求。"}
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "朔把「找回美夜子」作為生存意義——若放棄這個目標，朔就失去了自己的存在意義。解放者覺醒（E-16）的觸發器「保護的殘響」意味著：朔不是因為「確認美夜子還是原來那個人」才行動，而是因為「感受到美夜子仍有值得保護的東西」——這是從「找回原版」轉化為「守護現在版本」的第一步。",
+    "15_social_institutional": "朔在管理局（制度內部）的身份使他同時是「系統知識者」和「制度批判者」。E-16脫離管理局是他選擇站在「人的連結」一邊而非「制度效率」一邊——這個選擇與三位一體概念（人/魔法少女/屍骸都有尊嚴）直接相關。",
+    "18_narrative_validation": "故事最終validate朔的「接受改變後的美夜子」：Act IV重逢不是「你終於找回了原來的美夜子」而是「你接受了她現在的樣子」。這是對「連結需要對象保持不變」這個執念的gentle rejection——連結可以在改變中延續。"
+  },
+
+  "contradictions": [],
+  "missing_bridges": ["QQ-06：操三位一體視覺化 DEFERRED（Medium）—— 與朔的三位一體承載者身份相關"],
+  "open_questions": ["QQ-06：操三位一體視覺化 DEFERRED"],
+  "recommendation": {
+    "strongest_value": "朔的無聲盟友功能（CDL-255）設計完整；三位一體概念通過朔傳入是非常自然的世界觀建立方式",
+    "biggest_weakness": "朔的情感線較薄（[SQ]副線），若沒有足夠場次建立朔×美夜子的連結質感，Act IV重逢的情感重量不足",
+    "suggested_next_action": "Act II/III Outline確認朔×美夜子的交流場景數量；確認QQ-06",
+    "author_confirmation_needed": []
+  }
+}

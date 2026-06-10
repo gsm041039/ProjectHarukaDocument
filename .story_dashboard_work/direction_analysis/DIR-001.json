@@ -1,0 +1,114 @@
+{
+  "direction_id": "DIR-001",
+  "direction_title": "晴香創世者揭示鏈 (Haruka Creator Revelation Chain)",
+  "stability": "canon",
+  "claim_status": "[SOURCED]",
+  "short_summary": "觀眾和晴香逐步發現：晴香5歲時無意識創造了整個Beta線世界，是緋潮根源。揭示分四層（AKS-H0→H4），最高衝擊點在Act III帝國廣場決戰。黑奏三段擊處刑是核心揭示裝置。",
+  "source_files": [
+    "canon/_working/story_construction/STORY_BASE_RECONSTRUCTION.md §二/五",
+    "canon/04_timeline_canon.md §II Alpha線分歧事件",
+    "canon/_working/story_construction/BLOCKED_DECISIONS.md §BD-01",
+    "canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md"
+  ],
+  "involved_characters": ["CHAR-001", "CHAR-002", "CHAR-003", "CHAR-004"],
+  "involved_events": ["E-PRE-01", "E-PRE-02", "E-1.5", "E-ACT3-PLAZA", "E-ACT4-YU-DISSOLVE"],
+  "related_lines": ["Alpha", "Beta"],
+  "core_question": "如何設計「英雄發現自己是災難根源」這個揭示的節奏，讓衝擊最大化但前置合理？",
+  "emotional_center": "角色的自我認識崩潰 + 觀眾對「善意=惡果」的道德震撼",
+  "dramatic_function": "TC-03最高張力碰撞（完美的幻象×未授權救贖）；膠布哲學第三層揭露；故事核心引擎B（系統揭露）的最大爆發點",
+
+  "pool_1_analysis": {
+    "1_character_growth": "晴香的核心成長弧線正是「從天真英雄到接受自己是悲劇根源的人」。AKS-H揭示鏈是這條成長弧最重要的外部觸發：H1（知道Alpha/Beta線）→H2/H3（知道自己是創世者/緋潮根源）→H4（Alpha線回溯完整面對）。每層揭示對應一個心理崩潰節點，要求晴香重構自我認知。沒有這條線，晴香的Act IV「選擇吸收守恆定律」就缺乏充分的心理前置。[SOURCED]",
+    "2_relationship_dynamics": "AKS-H揭示與美夜子×晴香關係深度綁定：AKS-H1（美夜子知道Alpha線）→美夜子知道晴香無意間殺了她（Alpha線）→美夜子選擇繼續保護晴香的道德重量極大。揭示進程同時是美夜子×晴香關係從「工具關係」到「無條件守護」的情感根基。[SOURCED]",
+    "3_information_reveal_control": "AKS-H設計精心：H0觀眾和晴香都盲目→H1觀眾知道Alpha/Beta線存在，晴香不知創世者身份（觀眾領先晴香）→H2/H3同一場景晴香個人知情+觀眾系統確認（雙層衝擊，BD-01 RESOLVED）→H4Alpha線回溯（最終完整揭示）。BD-10揭示時序缺口（改變現實光譜/態度剝奪詛咒的前置時序）仍DEFERRED。[SOURCED BD-01][INFERRED BD-10影響]",
+    "4_atmosphere_tension": "揭示節奏是全作最大「知識轉換」時刻。H2/H3在帝國廣場決戰—— 戰鬥+揭示+道德崩潰同時發生，氣氛壓力在全作最高點。H0→H1的節奏設計（觀眾逐漸發現Beta線是「貼膠布」的世界）需要ACT_I/II的克制處理，讓H2/H3的衝擊保持最大化。[SOURCED]",
+    "5_theme_expression": "這條揭示線是TC-03（完美的幻象×未授權救贖）的直接戲劇化：晴香救的是自己製造的災難、創造的是把家姐屍體「貼膠布」的世界。膠布哲學L3的主題陳述完全依賴這條揭示線的衝擊質量。主題表達是「被體現」而非「被說出」—— 通過揭示的震撼讓觀眾自己感受到「善意的代價」。[SOURCED]",
+    "6_structural_beat_function": "H1是Act I幕末高潮（AKS-H1觸發，觀眾知Alpha/Beta線）。H2/H3是Act III最高張力節點（帝國廣場決戰主揭示）。H4是Act IV最終回溯（Alpha線的幾日）。三個主要結構節點分佈在Act I幕末/Act III高潮/Act IV收束，符合四幕架構的信息密度分佈原則。[SOURCED]",
+    "7_entry_timing_presence": "鐵絲網偶遇（CDL-288）是創世能量的因果信標——這個細節在Act III才揭示，但其presence在整個Act I-II以「晴香對彩的特殊情感共鳴」的形式存在（偽造的解釋）。晴香創世者身份的「隱形存在」貫穿全作前三幕，只有在H2/H3才轉為顯性。設計完整。[SOURCED]",
+    "8_world_rule_mechanic": "Beta線的世界規則（高魔能量、緋潮、情緒守恆定律）全部源自這個創世事件。創世事件的機制：靈樹作為天然潛意識接口，晴香悲痛觸發改變現實，Alpha線被覆寫為Beta線。機制與世界規則一致，無矛盾。但BD-10（改變現實光譜術語的觀眾揭示時序）仍DEFERRED，影響機制概念的前置設計。[SOURCED][INFERRED BD-10]",
+    "9_setup_payoff": "前置埋位設計完整：Beat 0開場（幽靈重量症狀→夕的存在）；E-1.5（彩/黑奏切換→黑奏有Alpha線記憶）；AKS-H1（觀眾知Alpha/Beta線）。BD-10的「改變現實光譜/態度剝奪詛咒」術語前置缺口是主要setup不完整項。H2/H3的payoff（帝國廣場雙層揭示）已由BD-01 RESOLVED確認機制。[SOURCED][INFERRED BD-10缺口]",
+    "10_audience_knowledge_gap": "AKS-H設計精心利用觀眾知識差距：H1後觀眾領先晴香（知道Alpha/Beta線，但晴香不知創世者身份）→製造「旁觀者的焦慮」。H2/H3讓晴香和觀眾同步獲得最大衝擊（不再是「觀眾早知」而是「同時震撼」）。這種設計最大化了H2/H3的情感重量。[SOURCED]",
+    "11_canon_continuity": "BD-01 RESOLVED：揭示時機在帝國廣場決戰（Act III）確認。BD-07 RESOLVED：Alpha線死因確認為黑奏預謀。與timeline canon（帝國歷102年）完全一致。無硬衝突。SG-01 RESOLVED（sync gap已清）。[SOURCED]",
+    "12_writing_execution": "「英雄是災難根源」的揭示在視覺小說/RPG中是完全可戲劇化的——黑奏的直接語言攻擊（膠布哲學L3台詞）提供具體的對話載體。Act III帝國廣場決戰場景本身提供充足的戲劇壓力。BD-10缺口（術語前置）需要解決才能令揭示在脈絡上完全清晰。整體可寫性高。[SOURCED]"
+  },
+
+  "pool_2_relevance": [
+    {
+      "angle_id": 13,
+      "angle_name": "Coping / Defense Mechanism",
+      "verdict": "RELEVANT",
+      "reason": "晴香的「拯救者情結+偶像使命天真接受」本質是一種防衛機制：用「救人」的行動迴避面對自己5歲製造災難的可能性。整個揭示鏈是對這個防衛機制的系統性拆解。"
+    },
+    {
+      "angle_id": 14,
+      "angle_name": "Ideology / Value System",
+      "verdict": "RELEVANT",
+      "reason": "晴香的價值排序（「救人就是對的」「善意不會造成惡果」）是TC-03的碰撞核心。揭示鏈是這個意識形態的徹底挑戰——「善意」創造了最大的惡。"
+    },
+    {
+      "angle_id": 15,
+      "angle_name": "Social / Institutional Position",
+      "verdict": "NOT_RELEVANT",
+      "reason": "晴香的創世者身份和揭示節奏不主要受其社會/制度位置影響。偶像身份是揭示的媒介工具（光幕濾鏡/Reality Show），但不是揭示鏈本身的設計因素。"
+    },
+    {
+      "angle_id": 16,
+      "angle_name": "Moral Tradeoff",
+      "verdict": "RELEVANT",
+      "reason": "TC-03的核心tradeoff：晴香的善意救贖 vs. 未授權改變他人命運的代價。揭示鏈的每一層都是對這個tradeoff的逐步揭示。Act IV的選擇（接受改變現實係錯）是最終moral decision。"
+    },
+    {
+      "angle_id": 17,
+      "angle_name": "Symbolic / Ritual Behavior",
+      "verdict": "RELEVANT",
+      "reason": "膠布哲學是這條線的核心象徵。L1個人膠布（桐生健）→L2群體膠布（朱音批判）→L3宏觀膠布（Beta線世界是晴香在家姐屍體上貼的膠布）。每層都有具體的象徵物件和儀式行為（包紮、保護、創世）。"
+    },
+    {
+      "angle_id": 18,
+      "angle_name": "Narrative Validation Level",
+      "verdict": "RELEVANT",
+      "reason": "故事最終既不簡單validate也不reject晴香的善意救贖——而是TRANSFORM：晴香從「善意=必然對」轉化到「善意需要consent + 承擔代價」。晴香自己的理解和故事的最終處理不同（角色以為救了家姐，故事揭示她殺了家姐）。"
+    },
+    {
+      "angle_id": 19,
+      "angle_name": "Method Necessity / Form Meaning",
+      "verdict": "RELEVANT",
+      "reason": "「為什麼揭示必須由黑奏親口說出，而不是晴香自己發現？」這個形式選擇極關鍵：黑奏說出是weapon（語言攻擊），是羞辱，是「你的善意殺了我」的受害者控訴——而非晴香主動解謎的成就感。改用其他揭示形式（日記/回憶/旁白）會失去這種「直接創傷」的情感形式。"
+    }
+  ],
+
+  "pool_2_expanded": {
+    "13_coping_defense": "晴香的核心防衛機制：「用持續救人迴避面對自己是災難根源的可能性」。拯救者情結（CDL-053）是這個防衛的表現形式。揭示鏈的設計功能是：每一層AKS-H都在剝奪一個晴香用來避開痛苦的認知層。H2/H3是防衛機制完全崩潰的時刻（「妳不是英雄，妳是根源」）。Act IV的守恆定律L5選擇是防衛機制崩潰後「真正面對」的行動。",
+    "14_ideology": "晴香的意識形態：「善意的行動必然是對的；救人不需要考慮代價」。黑奏的反意識形態：「善意的行動可以製造最大的惡；以未授權的善意剝奪他人的命運選擇」。揭示鏈是這兩種意識形態的全作主要碰撞裝置。Act IV晴香的意識形態不是被reject，而是被transform（保留善意的衝動，但加入consent和承擔代價的新要素）。",
+    "16_moral_tradeoff": "揭示鏈呈現的道德困局：晴香5歲的善意創造了Beta線（救了家姐，給了世界魔法）→但代價是把美夜子的屍骸拖回來強行「復活」+製造緋潮+讓黑奏獲得魔法力量。「選擇放棄vs選擇接受自己的錯誤」是Act IV道德核心。揭示鏈的設計質量直接決定這個道德困局的說服力。",
+    "17_symbolic_ritual": "膠布哲學三層符號體系是揭示鏈的象徵骨架。桐生健傷口+「痛係證據」台詞（L1）→朱音批判台詞（L2）→帝國廣場黑奏語言攻擊（L3）。三層都有具體的象徵物件和儀式行為（包紮動作、護理動作、世界創造行為）。L3是象徵意義的最終解鎖，讓前兩層的象徵獲得宏觀意義。",
+    "18_narrative_validation": "角色自己以為：「我5歲的願望是出於愛，是美好的」。故事實際揭示：「5歲的願望是未授權的改變他人命運的行為，代價由所有人承受」。作者希望觀眾感受到：「善意不等於正確；但承認錯誤、承擔代價本身就是一種救贖」。三者不同，且故事選擇的是TRANSFORM而非simple reject。",
+    "19_method_necessity": "揭示形式：黑奏在帝國廣場決戰中親口說出（語言攻擊）。為何必須是這種形式：(1)黑奏是受害者（Alpha線晴香間接導致螢死亡，黑奏的整個存在都是因為晴香的善意），說出揭示是受害者的「控訴」；(2)決戰場景提供最高壓力，讓揭示變成weapon而非discovery；(3)晴香無法否認（無法說「你說謊」）——揭示者的身份本身就是揭示可信度的保證。改成日記或旁白或自我發現：失去「被受害者直接控訴」的倫理重量。"
+  },
+
+  "contradictions": [
+    {
+      "id": "C-DIR001-01",
+      "description": "BD-10揭示時序（改變現實光譜/態度剝奪詛咒概念）DEFERRED至Act Outline，但如果不在AKS-H2/H3前充分前置這些術語，觀眾可能無法理解揭示的完整含義",
+      "claim_status": "[UNRESOLVED]",
+      "source": "BLOCKED_DECISIONS.md §BD-10"
+    }
+  ],
+
+  "missing_bridges": [
+    "BD-10：三個核心術語（晴香體質/改變現實光譜/態度剝奪詛咒）的觀眾揭示時序設計完全缺失",
+    "AKS-H4 Alpha線回溯場景的具體設計（BD-08部分相關）"
+  ],
+
+  "open_questions": [
+    "QQ-07 / BD-10：改變現實相關術語的觀眾揭示時序（DEFERRED至Act Outline）",
+    "黑奏三段擊處刑的具體設計細節（敘事上扣起至Act III結尾）"
+  ],
+
+  "recommendation": {
+    "strongest_value": "AKS-H2/H3帝國廣場雙層衝擊（晴香個人知情+觀眾系統確認同一場景）是全作信息設計效率最高的單一時刻；「英雄是災難根源」在TC-03主題框架下有最高道德震撼質量",
+    "biggest_weakness": "BD-10揭示時序缺口：若Act I/II不建立對「改變現實光譜」等術語的觀眾理解，AKS-H2/H3的揭示可能只是情感衝擊而缺乏理智上的完整震撼",
+    "suggested_next_action": "解決QQ-07/BD-10，確定Act I/II中三個術語的觀眾揭示時序。然後確認AKS-H4 Alpha線回溯場景具體形式（Act III/IV邊界或Act IV早段）",
+    "author_confirmation_needed": ["BD-10揭示時序確認", "黑奏三段擊處刑敘事扣起策略"]
+  }
+}

@@ -365,149 +365,350 @@ fewer trim lines, thicker trim bands, clearer edge hierarchy, larger readable mo
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /////////////////////Anime screenshot/////////////////////
-accodeing to the image text file, accodeing to the image text file, Train station platform / waiting for the last train home At a local train station platform in the evening or night, with vending machines, benches, school bags, railings, and soft platform lights. The girls are waiting together, tired but connected. The scene should feel like a quiet in-between moment: not a big event, just friendship existing during the commute.
 
-Use the provided character setting sheets as the primary reference for character identity only. Preserve each character’s recognizable identity, hairstyle silhouette, main hair color, main outfit shape, major color blocks, body proportion, face impression, and one or two signature accessories. Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background.
+The scene features four girls and one black cat.
+Their interaction should feel real and casual:
+teasing, reacting, leaning in, offering something, quietly helping, awkward hesitating, pretending not to care while still listening, tired but connected.
+This is not a clean posed group image.
+This is not a lineup.
+This is not a showcase.
+This should feel like one frame captured from the middle of an ongoing TV anime episode.
 
-Do NOT preserve every small costume detail.Do NOT preserve every accessory detail.Do NOT preserve every trim, fold, seam, hair strand, or tiny decoration.The characters should remain recognizable through large shapes, color blocks, silhouettes, and key iconic elements, not through dense detail.
+IMPORTANT IMAGE INTENT:
+This image is not meant to show all characters beautifully.
+This is not a “nice group picture.”
+This is not a character lineup.
+This is not a full-body showcase.
+This is not a poster composition.
+The story already started before this frame and will continue after it.
+The frame should communicate a small relationship beat before visual beauty.
 
-A candid slice-of-life group scene featuring four girls and one black cat, showing the value of connection and the preciousness of ordinary daily life even under cruel fate. The emotional core is that they are still trying to do normal teenage-girl things together. The atmosphere should feel youthful, warm, lively, slightly noisy, and full of real friendship: teasing, caring, leaning into each other, small interruptions, casual closeness, and the feeling that they genuinely know each other well.
+CHARACTER REFERENCE SIMPLIFICATION RULE:
+Use the provided character setting sheets only to understand the characters’ broad identity.
+Do not copy the full costume detail density from the sheets.
+Redesign each character into a simplified weekly-TV anime episode version.
 
-HIGHEST PRIORITY STYLE OVERRIDE:Match the simplicity of a normal TV anime broadcast screenshot, not an anime illustration.The image should look like a clean but economical episode frame with production limitations.The character rendering must be simple, low-detail, thick-lined, flat-colored, and easy to animate.
+CHARACTERS:
+Haruka Kasugai:
+Keep her pink hair, heart-shaped ahoge, heart sunglasses, headphones, sporty pink jacket, white shirt, denim shorts, mint shoulder bag, cute fish motif, and lively styling. She is the outgoing mood-maker and natural connector. She should be actively showing something on the phone, leaning in, smiling, or bringing the others into the moment.
 
-This must NOT look like:
+Miyako, black cat form:
+Keep her black fur, blue eyes, elegant silhouette, star-shaped ear ornament, crystal feather collar, and magical-cat design. She must remain in black cat form. She is elegant, intelligent, aloof, slightly annoyed by noise, observant, and quietly protective. She must not read like a mascot pose. She should feel like a real participant in the scene, naturally occupying a controlled position near the emotional center of the group.
 
-polished anime illustration
+Misao Ayanokoji:
+Keep her white hair, braid, elegant daily outfit, dark blue cardigan, white blouse, dark skirt, blue gemstone accessories, and refined silhouette. She has a composed young-lady aura, graceful and reserved. She participates with subtle interest and proper posture.
 
-key visual
+Akane Shiranui:
+Use the new coat version. Keep her purple hair, dark coat, black inner outfit, boots, and bandaged hand. She is direct, teasing, mischievous, slightly rough, and energetic, but protective underneath. She should feel like she is leaning in mid-comment, mid-tease, or mid-reaction rather than posing.
 
-promotional still
+Hagocoro Aya:
+Keep her cream knit hat, dark hair, oversized outerwear, moon-and-star motif, long gradient skirt, shoulder bag, and timid silhouette. She is very shy, timid, easily nervous, hesitant, and easily startled. She wants to belong but is not bold. Show small cautious body language: holding a cup with both hands, slight shoulder tension, careful posture, shy reaction, and quiet relief from being included.
 
-premium character art
+Preserve only:
+- hairstyle silhouette
+- main hair color
+- general face impression
+- body proportion
+- main outfit silhouette
+- 3 to 5 major color blocks
+- at most one iconic accessory per character
 
-detailed anime poster
+Simplify or remove:
+- tiny trims
+- lace
+- jewelry
+- small charms
+- repeated motifs
+- printed text
+- complex bag decorations
+- complex shoe details
+- complex hair ornaments
+- layered costume micro-details
+- decorative edge patterns
+- small symbols
+- extra belts
+- chains
+- buckles
+- pins
+- ornaments
+- dense skirt decorations
+- detailed sleeve trims
+- tiny hair strand details
+- detailed prop decorations
 
-concept art
+If a detail is not necessary to recognize the character from a distance, remove it.
+The final characters must look like simplified in-episode animation models, not full-detail character sheet artwork.
+The characters should remain recognizable through large shapes, silhouettes, main color blocks, hairstyle, face impression, and one key iconic element, not through dense costume copying.
 
-full-body character showcase
+REFERENCE SHEET USAGE:
+Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background.
+Do not preserve every small costume detail.
+Do not preserve every accessory detail.
+Do not preserve every trim, fold, seam, hair strand, or tiny decoration.
+Do not treat the setting sheet as a final illustration to copy.
+Treat it as raw design material that must be simplified for weekly TV animation.
 
-clean group photo
+HIGHEST PRIORITY STYLE OVERRIDE:
+Match the simplicity of a normal TV anime broadcast screenshot.
+Do not make a polished anime illustration.
+Do not make a key visual.
+Do not make a promotional still.
+Do not make premium character art.
+Do not make a detailed anime poster.
+Do not make concept art.
+Do not make a clean group photo.
+Do not make a full-body character showcase.
 
 This must look like:
+- regular TV anime episode frame
+- broadcast anime screenshot
+- simple episode drawing
+- production-economical frame
+- low-detail but readable acting
+- simplified in-episode character models
+- simple TV anime background plate
+- ordinary dialogue / reaction cut
+- mid-scene captured frame
 
-regular TV anime episode frame
+STYLE GOAL:
+Ordinary TV anime episode screenshot, flat broadcast-anime look, standard weekly TV anime production quality, clean 2D line art, simple character construction, simplified anime facial features, restrained detail density, clear silhouette readability, ordinary in-episode cut look.
 
-broadcast anime screenshot
+Use:
+- thick, clean, simple outlines
+- low inner-line density
+- flat color blocks
+- simple 2D cel shading
+- one main shadow tone only
+- minimal highlights
+- reduced hair highlight complexity
+- almost no self-shadow detail
+- simplified cloth folds
+- simplified costume shapes
+- simple anime faces
+- flat lighting treatment
+- limited rendering layers
+- clean color separation
+- plain production frame finish
 
-simple episode drawing
+Do not use:
+- rich character rendering
+- detailed facial rendering
+- complex hair shading
+- detailed costume rendering
+- glossy rendering
+- painterly character rendering
+- premium anime still finish
+- high-end illustration polish
 
-production-economical frame
+TV BROADCAST POST-COMPOSITING OVERRIDE:
+Apply a strong but low-budget TV anime screen-cap compositing pass over the finished frame, affecting both the characters and the background.
 
-low-detail but readable acting
+The underlying artwork must remain simple:
+- simplified weekly-TV character drawings
+- thick clean outlines
+- flat color blocks
+- one simple cel-shadow tone
+- very few hair highlights
+- very few clothing folds
+- low costume detail
+- simple TV anime background plate
 
-simple TV anime background plate
+Do not increase the rendering detail.
+Do not add extra character shading.
+Do not add realistic lighting.
+Do not add painterly material detail.
+Do not upgrade the frame into a cinematic anime still.
 
-strong screen-space post-processing over simple cel drawings
+Apply broad screen-space exposure shaping and atmospheric mood shadow across the whole image:
+- large soft dark masses
+- irregular low-frequency darkening
+- clear bright and dark zones
+- strong light-to-dark separation across the frame
 
-IMPORTANT IMAGE INTENT:This image is not meant to show all characters beautifully.This image is not a “nice group picture.”This image is not a character lineup.This image should feel like one frame captured from the middle of an ongoing TV anime episode.The story is already happening before this frame, and will continue after this frame.The shot should communicate a small relationship beat before visual beauty.
+This darkening must read as a full-frame compositing pass, not as added form shading on the characters.
+It must not behave like an extra cel-shadow layer, local repainting, anatomy-based shading, or extra material rendering.
+Allow parts of the characters and scene to fall into deeper composited darkness where appropriate, but only as screen-space mood darkening.
 
-STYLE GOAL:ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker clean outlines, low inner-line density, flat color blocks, almost no self-shadow detail, simple cel shading, simple painted background plate, visible screen-space bloom, visible halation, strong gradient darkening, strong bright-to-dark exposure separation, natural mid-scene framing, candid dialogue cut, slice-of-life episode frame.
+The image should have clear bright zones and clear dark zones.
+Do not darken the whole frame evenly.
+Keep the brightest areas open and luminous while allowing selected areas to become much darker.
+The result should feel like strong anime screen-cap post-processing over simple drawings, not like premium film compositing and not like flat overall dimming.
 
-The image should rely on screen-space gradient darkness, bloom, halation, and exposure separation for mood, NOT on detailed character rendering.
+Add a broad screen-space luminous gradient or atmospheric light wash on the bright side of the frame, as a soft post-compositing veil derived from the main light direction.
+This bright-side lift should affect a large area of the image and feel like anime compositing glow, not local repainting and not a hard spotlight beam.
 
-VISUAL RULES:
+Add bloom, halation, emissive glow diffusion, additive haze, and color grading only around actual bright sources and bright-side regions such as:
+- vending machine light
+- platform lamps
+- strong environmental light sources
+- bright windows if present
+- major bright-side reflective highlights
 
-Prioritize “real TV anime episode screenshot” feeling over polished illustration rendering.
+Use bloom and halation in a controlled TV-anime way.
+Allow medium-high luminance areas near bright sources to diffuse softly.
+Do not make the bloom feel realistic or movie-grade.
+Keep it like TV broadcast compositing, not premium film compositing.
 
-Character drawing must be simpler than the reference sheets.
+Do not add bloom or glow to:
+- eyes
+- eyelashes
+- pupils
+- skin highlights
+- facial features
+- ordinary non-emissive local colors
 
-Character detail density must be much lower than a polished anime still.
+Eye highlights must remain crisp and clean, not bloomed.
 
-Use thick, clean, simple linework.
+Keep glow, bloom, and halation directional and mostly localized to the bright side.
+Do not let bright color spread too far into the dark zones.
+Do not let glow wash over the shadow masses, lift the dark side too much, or contaminate the dark areas with excessive spill.
+The dark regions must stay clean, readable, and properly dark.
 
-Use flat color regions.
+Derive the compositing tint, glow color, haze color, bright-side gradient color, and darkening color from the existing scene palette and lighting.
+Preserve the original color family of the image and push it slightly further in a dramatic screen-cap direction, but do not shift the image into a different color family.
 
-Use almost no internal cel self-shadows.
+Keep the hard simple TV-anime cel shading fully intact underneath the compositing layer.
+Do not blur, soften, repaint, or replace the cel shading structure.
+The dramatic atmosphere must come from post-compositing only, not from rich rendering.
 
-Keep character shading extremely sparse and broad.
+Avoid:
+- visible geometric gradient beams
+- spotlight cones
+- diagonal bands
+- wedge-shaped overlays
+- scanlines
+- fake interlacing
+- CRT artifacts
+- graphic screen effects
 
-Keep the background readable but simple, like a TV anime background plate.
+Do not add:
+- text
+- subtitles
+- timecode
+- watermark
+- logo
+- interface overlay
 
-The background may have slight hand-drawn TV anime production roughness.
+DETAIL LOCK:
+The compositing pass must not increase visual complexity.
+Even after post-processing, the frame must remain lower-detail than the reference sheets.
+If there is a conflict between dramatic lighting and simple TV anime drawing, choose simple TV anime drawing.
+If there is a conflict between character recognition and low detail, choose low-detail large-shape recognition.
+If there is a conflict between beautiful image quality and ordinary episode screenshot quality, choose ordinary episode screenshot quality.
 
-Natural, asymmetrical staging; do not line all characters up on one flat plane.
+BACKGROUND STYLE:
+The background should be a simple painted TV anime background plate.
+It should be readable but not highly detailed.
+Use simplified station architecture, vending machines, benches, railings, platform roof, tracks, signs, and distant night houses.
+Keep the background flatter than a movie background.
+No hyper-detailed textures.
+No cinematic painterly rendering.
+No realistic material rendering.
+No excessive reflections.
+No complicated signage.
+No readable text.
+No readable station names.
+No readable vending machine labels.
+No readable phone UI.
 
+The background may have slight hand-painted TV anime production roughness.
+It should look like an ordinary background plate used in a weekly episode.
+
+COMPOSITION:
+Use natural mid-scene framing, like an ordinary dialogue cut from a TV anime episode.
+Do not line all characters up on one flat plane.
+Do not show every character equally clearly.
+Do not make everyone face the camera.
+Do not center all characters perfectly.
+Do not make the image look posed.
+
+Allow:
+- partial overlap
+- one character partly cropped
+- one character turned away slightly
+- one character seated while another stands
+- one character lower-detail in the background
+- the black cat near someone’s feet or bag
+- school bags, drinks, or small props breaking up the composition
+
+Only one or two characters should carry the main acting beat.
+The remaining characters should support the scene with simpler poses and lower detail.
+The black cat should feel like part of the scene rhythm, not a prop showcase.
+
+SCENE BEAT GENERATION LOGIC:
+Do not use a fixed scene beat.
+Do not always make the same character the center.
+Do not compose the image as a checklist showing every character equally.
+Do not force every character to perform a big gesture.
+
+Before composing the image, choose one small natural micro-moment that could happen while waiting for the last train home.
+
+Possible micro-moments:
+- one girl offers a vending machine drink to another
+- one girl teases another about being sleepy
+- one girl notices the train announcement and reacts slightly late
+- one girl quietly makes space on the bench
+- one girl leans in to hear a quiet comment
+- one girl laughs while another tries to act composed
+- one girl pretends not to care but is clearly listening
+- one girl adjusts or protects another’s school bag
+- one girl is lightly startled by the black cat moving near her feet
+- the black cat moves closer to the person who needs support while acting mildly annoyed
+- someone points casually toward the tracks
+- someone passes a bottle, snack, ticket, scarf, or bag strap
+
+The moment should be small and ordinary.
+No dramatic pose.
+No action scene.
+No emotional breakdown.
+No heroic composition.
+No clean group-photo arrangement.
+
+ACTING:
 Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture.
-
+Make the acting readable but simple.
+Use low-detail TV anime facial acting.
+No over-rendered eyes.
+No beauty-shot faces.
+No pin-up expressions.
 No one should look like they are posing for the viewer.
 
-No text, no watermark, no readable phone UI, no readable signs.
+VISUAL DENSITY CONTROL:
+Overall image detail must be lower than the provided character sheets.
+Each character should have a simplified animation-model version of their design.
+Costumes should be reduced to clear large shapes and color blocks.
+Use fewer folds.
+Use fewer lines.
+Use fewer accessories.
+Use fewer small decorations.
+Use fewer hair highlights.
+Use fewer separated hair strands.
 
-SCENE:[SCENE]
+For each character, keep only one iconic accessory at most.
+If the design has many accessories, merge or remove most of them.
+If the outfit has many trims, convert them into one or two broad graphic shapes.
+If the hairstyle has many small strands, simplify into a readable silhouette.
+If the bag or shoes have decorations, simplify them into plain shapes.
 
-SCENE BEAT GENERATION LOGIC:Do not use a fixed or hard-coded scene beat.Do not always make Haruka show a phone.Do not always make Akane interrupt.Do not always make Aya the foreground reaction.Do not always make the same character become the center of the shot.Do not compose the image as a checklist showing every character.
+BROADCAST SCREENSHOT FEEL:
+Make it look like a normal TV anime episode screenshot.
+Slightly plain composition.
+Slightly practical camera placement.
+Flat TV anime lighting underneath the compositing layer.
+Simple color compression feel.
+Clean but economical drawing.
+Ordinary episode frame.
+Not a polished standalone artwork.
 
-Instead, generate one natural micro-moment based on the selected [SCENE], the characters’ personalities, and the feeling of ordinary teenage friendship.
+No visible subtitles.
+No clock overlay.
+No watermark.
+No readable signs.
+No readable text.
 
-Before composing the image, decide one small scene-specific story beat:
+FINAL STYLE SUMMARY:
+TV anime episode screenshot, ordinary dialogue cut, flat broadcast-anime look, simple 2D cel-shaded characters, simplified weekly-TV animation models, limited shading, one shadow tone only, minimal highlights, thicker clean outlines, low inner-line density, flat lighting, simple painted TV anime background plate, strong but cheap TV screen-cap compositing, broad screen-space darkening, controlled bloom and halation around real light sources, ordinary night platform setting, restrained detail density, natural asymmetrical staging, candid mid-scene friendship moment, standard weekly anime production quality, not a poster, not a key visual, not a film still, not a polished illustration.
 
-What ordinary activity is happening in this exact moment?
-
-What small interruption, reaction, hesitation, teasing, caring gesture, or accidental moment naturally happens here?
-
-Who is driving the interaction?
-
-Who is reacting?
-
-Who is quietly observing?
-
-Who is trying to join but hesitating?
-
-Who is pretending not to care while still paying attention?
-
-Who needs subtle emotional support?
-
-Where would the camera naturally be placed if this were a real TV anime episode scene?
-
-The scene beat should feel like a small moment that could happen naturally during the chosen activity, such as:
-
-someone notices something funny or embarrassing
-
-someone reacts slightly too late
-
-someone tries to join the conversation but hesitates
-
-someone quietly helps another person without making a big deal of it
-
-someone teases another person in a friendly way
-
-someone tries to act composed but is clearly interested
-
-someone gets lightly startled
-
-someone passes, offers, reaches for, or protects a small object
-
-someone leans in to see what the others are looking at
-
-someone pretends not to care while still paying attention
-
-the black cat moves closer to the person who needs support while looking annoyed
-
-a cup, snack, phone, bag, photo strip, karaoke micropho
+NEGATIVE PROMPT:
+cinematic anime still, movie-grade lighting, premium compositing, high-end anime film look, realistic bloom, volumetric haze, depth of field, lens flare, painterly background, detailed material rendering, complex character shading, rich hair highlights, detailed costume folds, detailed accessories, over-rendered faces, glossy eyes, dramatic rim light, beautiful promotional still, key visual, poster art, concept art, illustration polish, detailed lace, detailed jewelry, detailed trims, detailed chains, detailed buckles, detailed charms, detailed bag accessories, repeated ornaments, complex shoes, complex hair decorations, full-body character showcase, clean lineup composition, elegant group pose, beauty shot, everyone equally visible, everyone facing camera, readable text, readable signs, readable phone UI, subtitles, timecode, watermark, logo, interface overlay.
