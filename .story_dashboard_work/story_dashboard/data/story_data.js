@@ -15,7 +15,7 @@ SD.meta = {
 
 // ─── 2. CHARACTERS ──────────────────────────────────────────────────────────
 SD.characters = [
-  { id:"CHAR-001", name:"晴香", full:"春日井晴香 / 連若晴 (Haruka)", role:"protagonist",
+  { id:"CHAR-001", name:"晴香", full:"雨宮晴香 / 春日井晴香 (Haruka)", role:"protagonist",
     color:"#e879f9",
     arc:"逃避者 → 英雄 → 失敗的英雄 → 承受者",
     states:{ "前史":"—", I:"脆弱明亮感+不安陰影；情感耗損開始", II:"英雄孤獨感；力量增長但內在萎縮", III:"徹底無力感；創世者罪責揭露（帝國廣場）", IV:"善意牢籠覺醒 → 自我整合 → 靜止搖籃" },
@@ -31,11 +31,11 @@ SD.characters = [
     secrets:["是晴香Alpha線的大家姐，Beta線晴香不知","避難所詛咒：心理防線崩潰時強制變貓（CDL-243）"],
     dirs:["DIR-001","DIR-002","DIR-003","DIR-008","DIR-009","DIR-010","DIR-013","DIR-014"] },
 
-  { id:"CHAR-003", name:"彩/黑奏", full:"彩 / 黑奏 (Sai / Kurosou)", role:"villain_dual",
+  { id:"CHAR-003", name:"彩/黑奏", full:"彩 / 黑奏 (Aya / Kurokane)", role:"villain_dual",
     color:"#f97316",
     arc:"陰影/偽裝 → 威嚴裂痕 → 彩主人格覺醒 → 黑奏消散 → 彩永恆輪迴",
-    states:{ "前史":"螢死亡→黑奏形成；Alpha線預謀殺死花子+美夜子", I:"彩偽裝轉學生；E-1.5晴香目睹切換", II:"幕後威嚴感；漸進暗示（極微弱）", III:"威嚴裂痕；茶會真身揭露；情感核彈L1+L2+L3", IV:"彩主人格覺醒；黑奏消散；彩永恆輪迴（自選）" },
-    coping:"黑奏承擔彩所有無法承受的痛苦；用農場計劃將「恢復螺」轉化為結果主義目標",
+    states:{ "前史":"螢死亡→黑奏形成；Alpha線預謀殺死花子+美夜子", I:"彩偽裝轉學生；E-1.5晴香目睹切換", II:"幕後威嚴感；漸進暗示（極微弱）", III:"威嚴裂痕；彩/黑奏身份揭露（情感核彈L1+L2+L3）[揭露場景位置待Beat Sheet確認]", IV:"彩主人格覺醒；黑奏消散；彩永恆輪迴（自選，每次阻止黑奏誕生）" },
+    coping:"黑奏承擔彩所有無法承受的痛苦；用農場計劃將「恢復螢」轉化為結果主義目標",
     secrets:["農場計劃：以緋潮情緒能量積累『情感貨幣』以恢復螢","黑奏主動殺死Alpha線花子+美夜子令晴香創世"],
     dirs:["DIR-001","DIR-002","DIR-004","DIR-007","DIR-013","DIR-015"] },
 
@@ -52,7 +52,7 @@ SD.characters = [
     arc:"隊伍羈絆 → 情緒毒品依賴 → 今晚我哋還在 → 嘆息之橋自毀",
     states:{ "前史":"—", I:"隊伍羈絆建立；膠布哲學L2批判者（第一個質疑晴香善意的人）", II:"情緒毒品依賴加深；小光被攻擊→屍骸化→屍骸女王", III:"完整犧牲：糖晶硬殼→逃入下水道→嘆息之橋自毀", IV:"缺席（犧牲）" },
     coping:"用護理行為（保護小光）轉移對自身創傷的關注",
-    sacrifice:"「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」",
+    sacrifice:"「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」[SOURCED CDL-217/218]",
     dirs:["DIR-006","DIR-011","DIR-015"] },
 
   { id:"CHAR-006", name:"操", full:"綾小路操 (Misao)", role:"team_member",
@@ -65,7 +65,7 @@ SD.characters = [
   { id:"CHAR-007", name:"凜", full:"綾瀨凜 (Rin)", role:"unit00",
     color:"#64748b",
     arc:"原初犧牲 → 屍骸獵人 → 拒絕治癒 → Unit 00",
-    states:{ "前史":"為美夜子犧牲，被帝國光環扭斷頸部處決；被黑奏救回利用", I:"缺席（前史）", II:"屍骸獵人形式（著制服）；美夜子發現凜仍alive=震驚觸發點", III:"拒絕治癒→Unit 00（E-15a）；遲來的介錯：嘴巴張開/氣音無遺言", IV:"缺席（Unit 00）" },
+    states:{ "前史":"為美夜子犧牲，被帝國光環扭斷頸部處決；被黑奏救回利用", I:"以重組後的公務員身份出現情緒管理局；記憶被改寫（CDL-084 E-02信息種植）", II:"屍骸獵人形式（著制服）；美夜子發現凜仍alive=震驚觸發點", III:"拒絕治癒→Unit 00（E-15a）；遲來的介錯：嘴巴張開/氣音無遺言", IV:"缺席（Unit 00）" },
     tragedy:"晴香佔了那個位置——凜本想以歌聲救人，但那個位置給了晴香",
     dirs:["DIR-008"] },
 
@@ -101,7 +101,7 @@ SD.events = [
   {
     id:"E-PRE-03", title:"螢的死亡", ord:1000, act:"前史", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"彩的摯愛螢在彩6歲時死亡。黑奏作為副人格在此時刻形成，以承擔彩無法承受的痛苦。螢的死是農場計劃和整個衝突的根本動機起點。",
+    summary:"彩的非血緣大姐姐螢在彩6歲時死亡。黑奏作為副人格在此時刻形成，以承擔彩無法承受的痛苦。螢的死是農場計劃和整個衝突的根本動機起點。",
     chars:["CHAR-003"],
     ci:[{ ch:"CHAR-003", role:"emotional_receiver", action:"目睹螢死亡，精神崩潰", inner:"黑奏作為副人格被召喚以承擔彩無法承受的痛苦", growth:"黑奏形成根本原因；DID起點", claim:"[SOURCED]" }],
     df:[{ dir:"DIR-002", fn:"setup", desc:"AKS-S揭示鏈根源起點；螢不可復活的動機核心" },
@@ -280,11 +280,11 @@ SD.events = [
   {
     id:"E-07a", title:"E-07a：小光之死+黑奏邏輯重構", ord:3100, act:"II", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"小光戒斷發作意外死亡，朱音情緒過載成屍骸女王。黑奏事後邏輯重構：「情緒毒品只是農場的副產品，不是目的」（黑奏的介入係事後邏輯注入，非蓄意策劃觸發小光死亡）。守恆定律L3前置（黑奏用作情緒能量收割）。",
+    summary:"黑奏蓄意策劃攻擊（[AC 2026-03-27]），觸發小光屍骸化（Type B廢鐵型），朱音情緒過載成屍骸女王。黑奏邏輯重構：「情緒毒品只是農場的副產品，不是目的」。守恆定律L3前置（黑奏用作情緒能量收割）。",
     chars:["CHAR-003","CHAR-005"],
     ci:[
-      { ch:"CHAR-003", role:"antagonist", action:"事後邏輯重構農場計劃（非蓄意策劃小光死亡）", inner:"黑奏確認「大規模屍骸化=高效情緒能量」是農場計劃的進化版", growth:"農場計劃從「隱性」到「主動推進」的升級節點", claim:"[SOURCED]" },
-      { ch:"CHAR-005", role:"victim", action:"小光死亡觸發朱音情緒過載→屍骸化開始", inner:"「我沒有保護到小光」——朱音最深的罪責感觸發", growth:"朱音→屍骸女王弧線的決定性轉折", claim:"[SOURCED]" }
+      { ch:"CHAR-003", role:"antagonist", action:"蓄意策劃攻擊觸發小光屍骸化；邏輯重構農場計劃", inner:"黑奏確認「大規模屍骸化=高效情緒能量」是農場計劃的進化版", growth:"農場計劃從「隱性」到「主動推進」的升級節點", claim:"[SOURCED]" },
+      { ch:"CHAR-005", role:"victim", action:"小光屍骸化觸發朱音情緒過載→屍骸化開始", inner:"（罪責感觸發：護理者失守）", growth:"朱音→屍骸女王弧線的決定性轉折", claim:"[SOURCED]" }
     ],
     df:[{ dir:"DIR-006", fn:"escalation", desc:"朱音屍骸化弧線的決定性轉折" },
         { dir:"DIR-007", fn:"escalation", desc:"農場計劃從隱性到主動推進的升級" },
@@ -294,27 +294,26 @@ SD.events = [
   {
     id:"E-07b", title:"E-07b：廢棄糖果工廠+朱音放逐", ord:3200, act:"II", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"廢棄糖果工廠場景。朱音（部分屍骸化）被隊伍放逐/自我放逐。嘆息之橋犧牲的設定基礎建立。Act III E-14帝國廣場糖果山的payoff前置。",
+    summary:"廢棄糖果工廠場景。朱音（部分屍骸化）被晴香放逐，躲入下水道。嘆息之橋犧牲的設定基礎建立。Act III E-14帝國廣場糖果山的payoff前置。",
     chars:["CHAR-001","CHAR-005"],
     ci:[
       { ch:"CHAR-001", role:"witness", action:"目睹朱音放逐；被迫接受無法阻止的結果", inner:"「我救不了所有人」——英雄主義第一次重大打擊", claim:"[SOURCED]" },
-      { ch:"CHAR-005", role:"protagonist", action:"部分屍骸化後放逐（自我放逐或隊伍決定）", inner:"「我是個失敗者」——朱音開始接受「不完整的自己」的過程", growth:"E-14糖果山犧牲弧線的情感setup", claim:"[SOURCED]" }
+      { ch:"CHAR-005", role:"protagonist", action:"部分屍骸化後被晴香放逐，躲入下水道成為喪家之犬", inner:"「我是個失敗者」——朱音開始接受「不完整的自己」的過程", growth:"E-14糖果山犧牲弧線的情感setup", claim:"[SOURCED]" }
     ],
     df:[{ dir:"DIR-006", fn:"escalation", desc:"朱音放逐：犧牲弧線的情感節點" }],
     src:["STORY_BASE_RECONSTRUCTION.md §九"], q:[], contra:[]
   },
   {
-    id:"E-09a", title:"E-09a：鏡像破碎之夜（操父親背叛+紗夜犧牲）", ord:3300, act:"II", line:"Beta",
+    id:"E-09a", title:"E-09a：鏡像破碎之夜（操父親背叛+紗夜犧牲）", ord:4050, act:"III", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"情緒管理局攻入操的大宅。父親「瑕疵作品」台詞（CDL-234）。紗夜犧牲保護操（「妳係我最靚嘅女」CDL-232）。操Body Horror Stage 3：黑奏揭露絲線縫牙（CDL-233）。操的心理世界全面崩潰。",
-    chars:["CHAR-003","CHAR-006"],
+    summary:"情緒管理局攻入操的大宅。父親「瑕疵作品」台詞（CDL-234）。紗夜犧牲保護操（「妳係我最靚嘅女」CDL-232）。操的心理世界全面崩潰。注意：Body Horror Stage 3（黑奏強行揭露絲線縫牙）係 E-13 Day 13 鋼鐵獨舞的事件，唔係呢個事件。",
+    chars:["CHAR-006"],
     ci:[
-      { ch:"CHAR-003", role:"antagonist", action:"揭露操的Body Horror Stage 3（絲線縫牙）；管理局攻入大宅", inner:"黑奏以「揭露操的真實狀態」作為心理武器", growth:"DIR-006 操弧線的最高壓力點", claim:"[SOURCED]" },
       { ch:"CHAR-006", role:"victim", action:"父親「瑕疵作品」台詞後；目睹紗夜犧牲", inner:"「即使是最靚的我也是瑕疵」——完美主義框架完全崩潰", growth:"Act III「我選擇停留」台詞的情感根基", claim:"[SOURCED]" }
     ],
-    df:[{ dir:"DIR-006", fn:"climax", desc:"操弧線最高壓力點（錯位雙殺CDL-217/218的前置）" }],
-    src:["STORY_BASE_RECONSTRUCTION.md §九","STORY_BASE_RECONSTRUCTION.md §CDL-232/233/234"],
-    q:[], contra:["IC-03：操E-2.5敘事功能（OPEN）"]
+    df:[{ dir:"DIR-006", fn:"escalation", desc:"操弧線高壓前置（錯位雙殺CDL-217/218的情感基礎）" }],
+    src:["STORY_BASE_RECONSTRUCTION.md §三","STORY_BASE_RECONSTRUCTION.md §九"],
+    q:[], contra:[]
   },
   {
     id:"E-10", title:"E-10：局部系統轉移（守恆定律L2）", ord:3400, act:"II", line:"Beta",
@@ -369,7 +368,7 @@ SD.events = [
     ],
     df:[{ dir:"DIR-004", fn:"escalation", desc:"彩/黑奏弧線Act II幕末節點（具體功能待Beat Sheet確認）" },
         { dir:"DIR-014", fn:"reference", desc:"信息掌控架構：Act II幕末節點" }],
-    src:["BLOCKED_DECISIONS.md §CDL-246"],
+    src:["CANON_DECISION_LOG.md §CDL-246"],
     q:["茶會具體內容確認（避免與Act III Phase J揭示位置衝突）"], contra:[]
   },
   {
@@ -399,11 +398,14 @@ SD.events = [
     src:["STORY_BASE_RECONSTRUCTION.md §三"], q:[], contra:[]
   },
   {
-    id:"E-13", title:"E-13：操Day 13學校人偶牆（Act III高壓節點）", ord:4100, act:"III", line:"Beta",
+    id:"E-13", title:"E-13：操Day 13學校人偶牆（鋼鐵獨舞）", ord:4100, act:"III", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"Day 13。操在學校觸發大規模屍骸化，學校人偶牆場景。操Body Horror三段完成（Stage 3終結）。半屍骸化臨界點主動選擇。台詞：「我選擇停留在我想停留的位置。」",
-    chars:["CHAR-006"],
-    ci:[{ ch:"CHAR-006", role:"protagonist", action:"主動選擇半屍骸化臨界點；「我選擇停留在我想停留的位置。」", inner:"「完美主義失敗了，但我仍然選擇我想成為的樣子」", growth:"操弧線（DIR-006）高潮；三位一體角色確立（Act IV）", claim:"[SOURCED]" }],
+    summary:"Day 13。操在學校觸發大規模屍骸化，學校人偶牆場景。黑奏強行撬開口腔揭露絲線縫牙（Body Horror Stage 3）。紗夜遺言在此刻清晰傳來。半屍骸化臨界點主動選擇。台詞：「我選擇停留在我想停留的位置。」",
+    chars:["CHAR-003","CHAR-006"],
+    ci:[
+      { ch:"CHAR-003", role:"antagonist", action:"強行揭露操的Body Horror Stage 3（絲線縫牙）", inner:"黑奏以暴力揭露作為心理打擊手段", growth:"Stage 3揭露是E-09a（父親背叛）後的最終崩潰催化劑", claim:"[SOURCED]" },
+      { ch:"CHAR-006", role:"protagonist", action:"承受Stage 3揭露；主動選擇半屍骸化臨界點；「我選擇停留在我想停留的位置。」", inner:"「完美主義失敗了，但我仍然選擇我想成為的樣子」", growth:"操弧線（DIR-006）高潮；三位一體角色確立（Act IV）", claim:"[SOURCED]" }
+    ],
     df:[{ dir:"DIR-006", fn:"climax", desc:"操弧線高潮：半屍骸化主動選擇" },
         { dir:"DIR-011", fn:"escalation", desc:"守恆定律：屍骸化=情緒代價的最高表現之一" }],
     src:["STORY_BASE_RECONSTRUCTION.md §九"], q:[], contra:[]
@@ -411,7 +413,7 @@ SD.events = [
   {
     id:"E-14", title:"E-14：朱音 Day 14 帝國廣場糖果山（嘆息之橋犧牲）", ord:4200, act:"III", line:"Beta",
     status:"canon", claim:"[SOURCED]",
-    summary:"Day 14。朱音在帝國廣場糖果山完成最終犧牲：暴食斷頭台過載+吞過期糖果毒素→嘆息之橋自毀贖罪。台詞：「我無治癒成功。我依然係爛泥。但……我唔想再一個人食飯。」CDL-217/218 錯位雙殺。",
+    summary:"Day 14。朱音在帝國廣場糖果山完成最終犧牲：暴食斷頭台過載+吞過期糖果毒素→嘆息之橋自毀贖罪。台詞：「我無治癒成功。我依然係爛泥。但我起碼知道一樣嘢……我唔想再一個人食飯。」CDL-217/218 錯位雙殺。",
     chars:["CHAR-001","CHAR-005"],
     ci:[
       { ch:"CHAR-001", role:"witness", action:"目睹朱音最終犧牲", inner:"「我又救不到她」——英雄主義的最深打擊", growth:"晴香從「拯救者」到「承受者」轉化的情感積累", claim:"[SOURCED]" },
@@ -448,8 +450,8 @@ SD.events = [
   },
   {
     id:"E-16", title:"E-16：朔解放者覺醒（脫離管理局）", ord:4500, act:"III", line:"Beta",
-    status:"canon", claim:"[SOURCED]",
-    summary:"朔脫離情緒管理局，與晴香建立同盟。觸發器：「保護的殘響」（非美夜子直接覺醒觸發）。CDL-255無聲盟友功能。解放者角色在E-16正式成形。",
+    status:"working", claim:"[INFERRED]",
+    summary:"朔脫離情緒管理局，與晴香建立同盟。觸發器：「保護的殘響」（非美夜子直接覺醒觸發）。CDL-255無聲盟友功能。⚠️ CDL-285（2026-05-08 [AC]）重定義E-16為EMB裝甲車圍困絕境beat（非朔覺醒）；朔覺醒事件的beat歸屬需重新確認。",
     chars:["CHAR-001","CHAR-008"],
     ci:[
       { ch:"CHAR-001", role:"protagonist", action:"接受朔作為同盟", inner:"晴香在最孤立的時刻獲得新盟友", claim:"[SOURCED]" },
@@ -551,7 +553,7 @@ SD.events = [
     chars:["CHAR-001","CHAR-003"],
     ci:[
       { ch:"CHAR-001", role:"witness", action:"見証彩說出最後台詞；見証黑奏消散", inner:"晴香理解「有人比我更深刻地承受了這個世界的痛苦」", claim:"[SOURCED]" },
-      { ch:"CHAR-003", role:"protagonist", action:"彩說「多謝你保護咗我咁耐」；黑奏消散；彩永恆輪迴（自選）", inner:"「黑奏一直是我的一部分，他保護了我，現在我可以保護自己了」", growth:"彩/黑奏弧線（DIR-004）完結；AKS-S4閉合", claim:"[SOURCED]" }
+      { ch:"CHAR-003", role:"protagonist", action:"彩說「多謝你保護咗我咁耐」；黑奏消散；彩永恆輪迴（自選，每次阻止黑奏誕生）", inner:"「黑奏一直是我的一部分，他保護了我，現在我可以保護自己了」", growth:"彩/黑奏弧線（DIR-004）完結；AKS-S4閉合", claim:"[SOURCED]" }
     ],
     df:[{ dir:"DIR-002", fn:"payoff", desc:"AKS-S4：螢揭示鏈最終情感回收" },
         { dir:"DIR-004", fn:"payoff", desc:"彩/黑奏弧線完結：情感核彈L3閉環" }],
@@ -629,16 +631,16 @@ SD.contradictions = [
   { id:"IC-02", type:"Interpretation Conflict", status:"OPEN", severity:"High",
     topic:"螢揭示線功能重心（Reveal Engineering vs 情感回收）",
     claim:"[CONFLICTING]",
-    desc:"一派偏reveal engineering；一派偏情感回收（R-5是否成立）。影響AKS-S回收方式與最終情感重量。⚠️ 注意：IC-02識別符係dashboard內部追蹤，未在CONTRADICTION_AUDIT.md確認存在；underlying衝突係真實的，但標籤待驗證。",
+    desc:"一派偏reveal engineering；一派偏情感回收（R-5是否成立）。影響AKS-S回收方式與最終情感重量。",
     dirs:["DIR-002"],
     author_needed:true, src:["[Dashboard internal — verify against CONTRADICTION_AUDIT.md]"] },
 
-  { id:"IC-03", type:"Interpretation Conflict", status:"OPEN", severity:"High",
+  { id:"IC-03", type:"Interpretation Conflict", status:"RESOLVED", severity:"High",
     topic:"操E-2.5敘事功能（保留/刪除/替代）",
-    claim:"[CONFLICTING]",
-    desc:"一派視為必要前置埋點；另一派認為拖慢節奏應刪或輕量化。直接影響Act I/II負載與操線建立。⚠️ 注意：IC-03識別符係dashboard內部追蹤，未在CONTRADICTION_AUDIT.md確認存在；underlying衝突係真實的，但標籤待驗證。",
+    claim:"[SOURCED]",
+    desc:"BD-14 RESOLVED [AC 2026-03-27]，CDL-016確認：輕量/間接版。操Act I/II前置方向已定為輕量化版本。",
     dirs:["DIR-006"],
-    author_needed:true, src:["[Dashboard internal — verify against CONTRADICTION_AUDIT.md]"] },
+    author_needed:false, src:["BLOCKED_DECISIONS.md §BD-14","CANON_DECISION_LOG.md §CDL-016"] },
 
   { id:"SG-06", type:"Sync Gap", status:"PARTIALLY_MITIGATED", severity:"High",
     topic:"E-編號體系不同步（13_major_events vs ACT_II_OUTLINE v0.6）",

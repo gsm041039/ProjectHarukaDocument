@@ -83,7 +83,7 @@ window.SD_DIRS = [
   stability:"canon", claim:"[SOURCED]", line:["Beta"],
   chars:["CHAR-001","CHAR-002"],
   events:["E-01","E-PRE-04","E-05a","E-A3-THAW","E-A4-MIYAKO"],
-  summary:"美夜子從「冰冷功利感」到「無條件守護者/繼承者」的兩步成長架構（CDL-191）。三段式覺醒（Act III）：貓殼碎裂→月下窗台→晴香擁抱。避難所詛咒是設定基礎。",
+  summary:"美夜子從「冰冷功利感」到「無條件守護者/繼承者」的兩步成長架構（CDL-191）。CDL-274（2026-05-08 [AC]）：相認設計為2步——Step 1地下據點月下場景（貓殼碎裂+無語言抱擁）；Step 2黑奏處刑室（語言確認）。CDL-059~062 SUPERSEDED。避難所詛咒是設定基礎。",
   core_q:"美夜子在Act IV吉他場景的具體payoff位置和形式；告知晴香「你是Alpha線家姐重生」的道德困局如何設計。",
   emotional_center:"美夜子演奏晴香最後的曲子——從工具性同伴到繼承者，代價是失去晴香。",
   dramatic_fn:"晴香×美夜子關係弧的主軸；避難所詛咒機制的戲劇化；CDL-191兩步成長架構的具體執行。",
@@ -98,7 +98,7 @@ window.SD_DIRS = [
     {a:8,q:"strong",t:"避難所詛咒（世界規則）直接驅動美夜子的外在行為：心理防線崩潰=強制變貓。詛咒的鬆解=成長的標誌。[SOURCED]"},
     {a:9,q:"moderate",t:"E-01（工具性框架）→三段式覺醒（框架崩潰）→吉他繼承（框架被替換為無條件守護）。三點setup/payoff清晰。Act IV具體位置TBD。[SOURCED]"},
     {a:10,q:"strong",t:"觀眾在Act III前比晴香更了解美夜子的真實動機（觀眾知她是家姐）——這個知識差距使美夜子的冰冷行為對觀眾呈現不同意義。[SOURCED]"},
-    {a:11,q:"strong",t:"CDL-191 RESOLVED，CDL-243 RESOLVED（Glitch Form）。美夜子×晴香關係的canon設計完整，無硬衝突。[SOURCED]"},
+    {a:11,q:"strong",t:"CDL-191 RESOLVED，CDL-243 RESOLVED（Glitch Form）。CDL-274（2026-05-08 [AC]）：相認設計更新為2步——Step 1地下據點月下場景（貓殼碎裂+無語言抱擁）；Step 2黑奏處刑室（語言確認）。CDL-059~062 SUPERSEDED BY CDL-274。[SOURCED]"},
     {a:12,q:"strong",t:"三段式覺醒的可寫性高，情感設計清晰。吉他payoff在Act IV的具體timing需Beat Sheet確認。[SOURCED]"}
   ],
   pool2:[
@@ -191,8 +191,8 @@ window.SD_DIRS = [
   stability:"canon", claim:"[SOURCED]", line:["Beta"],
   chars:["CHAR-005","CHAR-006"],
   events:["E-07a","E-07b","E-09a","E-13","E-14"],
-  summary:"錯位雙殺（CDL-217/218）：朱音犧牲Day 14（E-14糖果山嘆息之橋）；操半屍骸化選擇Day 13（E-13人偶牆）。兩人弧線互相照映：朱音「護理者自毀贖罪」vs操「完美主義者主動選擇不完整」。IC-03 OPEN（操E-2.5敘事功能）。",
-  core_q:"IC-03：操E-2.5（Act I/II前置）是保留、刪除還是輕量化？此決定影響操弧線Act I/II的建立完整度。",
+  summary:"錯位雙殺（CDL-217/218）：朱音犧牲Day 14（E-14糖果山嘆息之橋）；操半屍骸化選擇Day 13（E-13人偶牆）。兩人弧線互相照映：朱音「護理者自毀贖罪」vs操「完美主義者主動選擇不完整」。IC-03/BD-14 RESOLVED（CDL-016：輕量/間接版 [AC 2026-03-27]）。",
+  core_q:"操E-2.5前置設計已定（輕量/間接版CDL-016）。後續核心問題：操弧線Act I/II輕量化前置的具體scene設計。",
   emotional_center:"朱音：「我無治癒成功。我依然係爛泥。但……我唔想再一個人食飯。」操：「我選擇停留在我想停留的位置。」",
   dramatic_fn:"Dir-006是「不完整的救贖被validate」的主題最高表達；錯位雙殺設計使兩條弧線相互強化。",
   pool1:[
@@ -203,11 +203,11 @@ window.SD_DIRS = [
     {a:5,q:"strong",t:"「不完整的救贖」被validate：朱音「爛泥」和操「瑕疵作品」都被故事validate為「仍然有價值」。主題通過具體的角色終局表達。[SOURCED]"},
     {a:6,q:"strong",t:"朱音：Act I羈絆→Act II屍骸化→Act III犧牲。操：Act I暗示→Act II Body Horror→Act III主動選擇。兩條弧線的三幕結構各自完整。[SOURCED]"},
     {a:7,q:"moderate",t:"操Stage 3（黑奏揭露絲線縫牙）是操的最不舒服的「被迫暴露」時刻；朱音的放逐是她的「主動/被動退場」設計。[SOURCED]"},
-    {a:8,q:"na",t:"IC-03（操E-2.5）涉及Act I/II負載設計而非世界規則。操的Body Horror Stage是世界規則（屍骸化機制）的具體化。[SOURCED]"},
+    {a:8,q:"na",t:"操E-2.5（BD-14/IC-03 RESOLVED CDL-016：輕量版）涉及Act I/II負載設計而非世界規則。操的Body Horror Stage是世界規則（屍骸化機制）的具體化。[SOURCED]"},
     {a:9,q:"strong",t:"E-07b廢棄糖果工廠→E-14帝國廣場糖果山的地點payoff設計清晰。朱音「今晚我哋還在」→最終犧牲的情感payoff完整。[SOURCED]"},
     {a:10,q:"strong",t:"朱音犧牲設計讓觀眾在「知道朱音無法被治癒」和「仍然希望她能被治癒」之間持續張力，直到E-14台詞才釋放。[SOURCED]"},
-    {a:11,q:"moderate",t:"CDL-217/218 RESOLVED（錯位雙殺確認）；CDL-233 RESOLVED（操Stage 3）；IC-03 OPEN（操E-2.5敘事功能）。[SOURCED]"},
-    {a:12,q:"strong",t:"朱音台詞（「我唔想再一個人食飯」）和操台詞（「我選擇停留」）可寫性極高。IC-03解決前操的Act I/II戲份設計存在不確定性。[SOURCED]"}
+    {a:11,q:"strong",t:"CDL-217/218 RESOLVED（錯位雙殺確認）；CDL-233 RESOLVED（操Stage 3）；IC-03/BD-14 RESOLVED（CDL-016：輕量/間接版 [AC 2026-03-27]）。[SOURCED]"},
+    {a:12,q:"strong",t:"朱音台詞（「我唔想再一個人食飯」）和操台詞（「我選擇停留」）可寫性極高。BD-14/IC-03 RESOLVED（CDL-016輕量版）——操Act I/II戲份設計方向已確認。[SOURCED]"}
   ],
   pool2:[
     {a:13,v:"RELEVANT",r:"朱音防衛：護理行為（保護小光）轉移對自身創傷的關注。操防衛：完美主義偽裝（避免被視為瑕疵而被拋棄）。"},
@@ -219,8 +219,8 @@ window.SD_DIRS = [
     {a:19,v:"RELEVANT",r:"朱音「過載變身自毀」vs「普通戰死」：前者保有主體性（她選擇燃盡方式），後者是被外力消滅。操「人偶牆場景」是她選擇留存的具體視覺化。"}
   ],
   missing:[],
-  questions:["IC-03：操E-2.5保留/刪除/輕量化"],
-  contra:["IC-03：操E-2.5敘事功能（OPEN）","C-DIR006-01：IC-03 OPEN"]
+  questions:["操弧線Act I/II輕量前置scene的具體設計（CDL-016確認輕量版方向）"],
+  contra:[]
 },
 {
   id:"DIR-007", title:"黑奏農場計劃線",
@@ -335,17 +335,17 @@ window.SD_DIRS = [
   stability:"working", claim:"[SOURCED]", line:["Beta"],
   chars:["CHAR-002","CHAR-008"],
   events:["E-11a","E-16","E-A4-SAKU"],
-  summary:"朔（三位一體概念的學習者和守護者）在E-16脫離情緒管理局，與晴香建立同盟。CDL-255無聲盟友功能。觸發器「保護的殘響」（非美夜子直接覺醒）。QQ-06三位一體視覺化 DEFERRED。",
+  summary:"朔（三位一體概念的學習者和守護者）脫離情緒管理局，與晴香建立同盟。CDL-255無聲盟友功能。觸發器「保護的殘響」（非美夜子直接覺醒）。QQ-06三位一體視覺化 DEFERRED。⚠️ 注意：CDL-285（2026-05-08 [AC]）重定義 E-16 為 EMB 裝甲車圍困絕境 beat（切入黑）；朔公開立場/脫離管理局事件與 E-16 的對應關係需按 CDL-285 重新確認。[INFERRED pending CDL-285 verification]",
   core_q:"三位一體概念的具體視覺化設計（QQ-06 DEFERRED）；朔×美夜子重逢的情感設計（接受「已改變的美夜子」）。",
   emotional_center:"朔接受「她不再是我記憶中的美夜子，但她仍然在這裡，我仍然守護她。」",
   dramatic_fn:"無聲盟友（CDL-255）功能；三位一體概念的學識者和視覺化者；解放者立場的道德清晰化。",
   pool1:[
     {a:1,q:"strong",t:"朔弧線（夜區影子→學識三位一體→解放者覺醒→重逢）完整，四幕各有節點。覺醒觸發器「保護的殘響」使朔的覺醒有獨立於美夜子的動機。[SOURCED]"},
     {a:2,q:"moderate",t:"朔×美夜子關係：朔對「記憶中的美夜子」的守護→接受「已改變的美夜子」。重逢設計是「接受改變」的主題具現。[SOURCED]"},
-    {a:3,q:"strong",t:"CDL-255無聲盟友功能：朔在Act II-III以「沉默存在」的方式積累信息，在E-16才公開立場。這個設計讓觀眾感到「一直有人在默默準備」。[SOURCED]"},
-    {a:4,q:"moderate",t:"E-16解放者覺醒的氣氛設計：「脫離管理局」是一個公開宣告，需要在Act III的高壓環境中有充分的情感準備。[SOURCED]"},
+    {a:3,q:"strong",t:"CDL-255無聲盟友功能：朔在Act II-III以「沉默存在」的方式積累信息，然後公開立場。這個設計讓觀眾感到「一直有人在默默準備」。[SOURCED]"},
+    {a:4,q:"moderate",t:"朔解放者覺醒的氣氛設計：「脫離管理局」是一個公開宣告，需要在Act III的高壓環境中有充分的情感準備。⚠️ CDL-285重定義E-16為EMB圍困beat；朔公開立場的具體beat歸屬待按CDL-285重新確認。[INFERRED]"},
     {a:5,q:"strong",t:"三位一體是「個體尊嚴vs制度吸收」主題的具體化工具；朔作為三位一體的學習者和守護者是這個主題的人格化。[SOURCED]"},
-    {a:6,q:"strong",t:"Act I過場→Act II學識三位一體→Act III解放者覺醒（E-16）→Act IV重逢。四幕分佈完整。[SOURCED]"},
+    {a:6,q:"strong",t:"Act I過場→Act II學識三位一體→Act III解放者覺醒（E-16附近，具體beat待CDL-285確認）→Act IV重逢。四幕分佈完整。[SOURCED][INFERRED — CDL-285 E-16 mapping unconfirmed]"},
     {a:7,q:"moderate",t:"朔以「夜區影子過場」在Act I存在（CDL-090），不佔主要screen time但建立了存在感。[SOURCED]"},
     {a:8,q:"moderate",t:"三位一體概念涉及魔法系統的深層邏輯；朔脫離管理局是對「制度服從世界規則」的拒絕。[SOURCED]"},
     {a:9,q:"moderate",t:"CDL-090（Act I過場）→CDL-255（無聲盟友積累）→E-16（覺醒）→E-A4-SAKU（重逢）四點setup/payoff。Act I過場是最早的setup。[SOURCED]"},
