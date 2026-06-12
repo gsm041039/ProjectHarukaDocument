@@ -143,7 +143,7 @@ abbr:hover::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);
 .char-group-header{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:22px 0 10px;padding-bottom:5px;border-bottom:1px solid var(--border)}
 
 /* ── Law cards grid ── */
-.law-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0}
+.law-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;margin:22px 0}
 .law-card{background:var(--surf);border:1px solid var(--border);border-radius:10px;padding:16px;border-left:4px solid var(--acc)}
 .law-card h4{margin:0 0 8px;font-size:13.5px;color:#2d1b69}
 .law-card p{margin:0;font-size:13px;line-height:1.7;color:var(--txt)}
@@ -186,6 +186,7 @@ a[href^="#"]:hover{color:var(--acc)}
   <div class="sb-label">世界</div>
   <a href="#world">世界觀速覽</a>
   <a href="#laws">世界如何運作：七個法則</a>
+  <a href="#hidden-mechanisms">情緒世界的隱藏機制</a>
   <a href="#naming">名字系統</a>
   <a href="#mahou">魔法少女設定</a>
   <a href="#depiction" class="sub">↳ 類型描寫手法</a>
@@ -549,9 +550,9 @@ a[href^="#"]:hover{color:var(--acc)}
 </div>
 
 <div class="law-card">
-<span class="law-icon">♾️</span>
-<h4>永動機幻象：情緒能源詐騙</h4>
-<p>日區人相信維多利亞之淚無限製造快樂。實際係「情緒抽水機」——抽取人民所有情緒（崇拜、信任、希望、痛苦）作為能源。帝國靠著人民的情緒不斷運作，同時把日區痛苦轉移到夜區。永動機根本不存在，帝國只需要你信它存在。</p>
+<span class="law-icon">⏰</span>
+<h4>晨間人格解體：身份不實感</h4>
+<p>每朝起床頭 0.5-2 秒，靈魂還未完全「載入」Beta 線。感覺自己不實在、不屬於此刻，懷疑「現在係邊個我」。</p>
 </div>
 
 <div class="law-card">
@@ -561,9 +562,9 @@ a[href^="#"]:hover{color:var(--acc)}
 </div>
 
 <div class="law-card">
-<span class="law-icon">⏰</span>
-<h4>晨間人格解體：身份不實感</h4>
-<p>每朝起床頭 0.5-2 秒，靈魂還未完全「載入」Beta 線。感覺自己不實在、不屬於此刻，懷疑「現在係邊個我」。</p>
+<span class="law-icon">♾️</span>
+<h4>永動機幻象：情緒能源詐騙</h4>
+<p>日區人相信維多利亞之淚無限製造快樂。實際係「情緒抽水機」——抽取人民所有情緒（崇拜、信任、希望、痛苦）作為能源。帝國靠著人民的情緒不斷運作，同時把日區痛苦轉移到夜區。永動機根本不存在，帝國只需要你信它存在。</p>
 </div>
 
 </div>
