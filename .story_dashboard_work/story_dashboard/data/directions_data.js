@@ -191,7 +191,7 @@ window.SD_DIRS = [
   stability:"canon", claim:"[SOURCED]", line:["Beta"],
   chars:["CHAR-005","CHAR-006"],
   events:["E-07a","E-07b","E-09a","E-13","E-14"],
-  summary:"錯位雙殺（CDL-217/218）：朱音犧牲Day 14（E-14糖果山嘆息之橋）；操半屍骸化選擇Day 13（E-13人偶牆）。兩人弧線互相照映：朱音「護理者自毀贖罪」vs操「完美主義者主動選擇不完整」。IC-03/BD-14 RESOLVED（CDL-016：輕量/間接版 [AC 2026-03-27]）。",
+  summary:"錯位雙殺（CDL-217/218）：朱音犧牲Day 14（E-14糖果山帝國廣場，venue addendum AC 2026-05-19）；操半屍骸化選擇Day 13（E-13人偶牆）。兩人弧線互相照映：朱音「護理者自毀贖罪」vs操「完美主義者主動選擇不完整」。IC-03/BD-14 RESOLVED（CDL-016：輕量/間接版 [AC 2026-03-27]）。",
   core_q:"操E-2.5前置設計已定（輕量/間接版CDL-016）。後續核心問題：操弧線Act I/II輕量化前置的具體scene設計。",
   emotional_center:"朱音：「我無治癒成功。我依然係爛泥。但……我唔想再一個人食飯。」操：「我選擇停留在我想停留的位置。」",
   dramatic_fn:"Dir-006是「不完整的救贖被validate」的主題最高表達；錯位雙殺設計使兩條弧線相互強化。",
@@ -299,7 +299,7 @@ window.SD_DIRS = [
   stability:"working", claim:"[SOURCED]", line:["Beta"],
   chars:["CHAR-001","CHAR-009","CHAR-010"],
   events:["E-11a","E-A3-EXIT"],
-  summary:"秋穗（月代秋穗）從「母性依靠NPC」到「信任崩潰背叛」到「缺席終局」。CDL-126模仿花子語調。E-11a信任崩潰。BD-13退場事件完全空白（High blocked）。Act IV缺席收結確認。",
+  summary:"秋穗（東雲秋穗）從「母性依靠NPC」到「信任崩潰背叛」到「缺席終局」。CDL-126模仿花子語調。E-11a信任崩潰。BD-13退場事件完全空白（High blocked）。Act IV缺席收結確認。",
   core_q:"BD-13：秋穗退場事件設計。退場形式（主動/被迫/死亡/逃離）直接影響Act III→IV過渡、群像分配、主題收束。",
   emotional_center:"「我只是想救愛莉。我唔知道我做咗咩。」——秋穗的信任背叛動機是母性而非惡意。",
   dramatic_fn:"「以愛為名的道德失敗」的主題呈現；制度服務者（研究者）的道德失敗；愛莉弧線（DIR-012）的前史設定者。",
@@ -530,7 +530,7 @@ window.SD_DIRS = [
     {a:8,q:"strong",t:"L3使世界規則（緋潮/守恆定律）獲得主題意義：不只是「物理規則後果」，而是「晴香試圖逃避的傷口的擴大化結果」。[SOURCED]"},
     {a:9,q:"strong",t:"Setup：L1桐生健傷口（Act I SQ-A）；L2朱音批判台詞（Act II）。Payoff：L3帝國廣場。最長線setup/payoff：Act I→Act III（跨兩幕半）。[SOURCED]"},
     {a:10,q:"strong",t:"L1後觀眾接受「膠布=拒絕面對傷口」象徵認知；L3是觀眾和晴香「同步震驚」——L1/L2讓觀眾建立足夠框架，L3的宏觀化對兩者同樣震撼。[SOURCED]"},
-    {a:11,q:"strong",t:"CDL-087 RESOLVED（桐生健傷口+「痛係證據」台詞確認）；CDL-120 RESOLVED（朱音批判台詞確認）。無硬衝突。[SOURCED]"},
+    {a:11,q:"strong",t:"CDL-088 RESOLVED（桐生健傷口+「痛係證據」台詞確認）；CDL-120 RESOLVED（朱音批判台詞確認）。無硬衝突。[SOURCED]"},
     {a:12,q:"strong",t:"L3核心台詞可寫性極高，台詞方向清晰。L3在決戰場景中嵌入主題性對白的執行挑戰是「平衡動作節奏和對話深度」。[SOURCED]"}
   ],
   pool2:[
