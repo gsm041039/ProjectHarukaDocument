@@ -1,6 +1,50 @@
 # SESSION_LEDGER
 
 ## Current Phase
+- Phase 15 (Act III Outline 設計) — **Round 043（2026-06-15）Story Brief 結構完善化 + 無意識兵器/情緒毒品新設定整合完成（00_Story_Brief.md）；§魔法少女的起源 加入兩種製造方式對比；Markdown/HTML 結構對齐。不影響主線 Outline 批核流程**
+- Phase 15 (Act III Outline 設計) — **Round 042（2026-06-15）記憶/靈魂「無法遺忘」設定整合完成（CanonFileIntegrator）；QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成。主阻塞點仍為 ACT_III v0.3 作者批核（不受影響）**
+  - [x] READ+AUDIT：CanonFileIntegrator + 01_world_rules/02_glossary/04_timeline/yu.md/miyako.md/akiho.md/99_decision_log
+
+## Completed This Round (Round 043 — 2026-06-15 Story Brief 結構完善化 + Dual-Column Layout 並排)
+- [x] **READ_FIRST** 讀 00_Story_Brief.md / 00_Story_Brief.html（§魔法少女設定）；確認 Markdown/HTML 結構差異
+- [x] **STRUCTURE_ISSUE_IDENTIFIED** 
+  - Markdown 版本「兩種魔法少女的製造背景」係在 §魔法少女類型描寫:敘事手法 section 底下（錯誤位置）
+  - Markdown 缺失「使用裝置的具體壞處」獨立 h3 subsection
+  - Markdown 缺失 HTML dual-column `<div class="dual">` 並排結構（3處）
+  - HTML 順序：情緒力量裝置 → 使用裝置具體壞處 → 變身代價 → 光環 → 燈塔效應 → 隱喻本質 → 兩種製造背景
+  - Markdown 舊順序：情緒力量裝置 → 變身代價 → 光環 → 燈塔效應 → 兩種製造背景 → 隱喻本質
+- [x] **MARKDOWN_REORGANIZATION**
+  - 加入缺失段落「燈塔效應：為何被迫不斷戰鬥」（在光環後）
+  - 加入「使用裝置的具體壞處」作為獨立 subsection（在情緒力量裝置與變身代價間）
+  - 重排順序：將「魔法的隱喻本質」調整至「兩種製造背景」前
+  - 移除舊位置重複內容
+- [x] **DUAL_COLUMN_LAYOUT**（新增）
+  - ✅ 「自然覺醒 vs 裝置強制」：HTML div 並排（box-light / box-red）
+  - ✅ 「全階段共通症狀 + 身體延遲 + 靈魂延遲」：HTML div 並排（box-red / box-dark）
+  - ✅ 「兩種魔法少女的製造背景」：HTML div 並排（box-light / box-red）
+  - 所有 dual box 套用一致性 style="margin:14px 0"
+- [x] **CONTENT_ALIGNMENT** 補充「越來越沉重」描述細節「扳手夾緊脖子」（HTML 版本嘅括弧內容）
+- [x] **FINAL_VERIFICATION** 
+  - Markdown 結構驗證完成：13 個 subsection 全部正確排列
+  - HTML/Markdown 順序完全對齊
+  - Markdown 現有 CSS 類引用驗證（dual / box / box-light / box-red / box-dark）
+- [x] **NO_NEW_CANON** 純結構整理；無新設定/決策/矛盾；HTML 版本資料完整度高於 Markdown（Markdown 保留更多細節，如身體延遲/靈魂延遲的詳細說明）
+- [x] **State files NOT UPDATED** 本輪為純結構調整，無新設定、無新問題、無 CDL 生成、無作者決策點——不需更新 QUESTION_QUEUE / NEXT_ACTION / PROJECT_STATUS（只更新 SESSION_LEDGER）
+- [x] **「魔法少女的起源」新設定整合**（追加於同輪）
+  - ✅ Markdown 版本：加入「無意識兵器魔法少女」vs「真正的魔法少女」對比（347行後）
+  - ✅ HTML 版本：加入同樣對比內容（dual box 並排，box-dark + box-green）
+  - ✅ 解釋秋穗實驗→軍方工業化路線
+  - ✅ 整合情緒毒品設定（被榨乾絕望稀釋賣給市民）
+  - ✅ 突出主角群相比軍方兵器的本質差異（有意識 vs 無意識）
+  - ✅ 強化「晴香五歲許願」作為資格來源的重要性
+  - ✅ 兩個檔案內容對應一致
+  - [x] 判定現有設定強力支持（奇蹟硬限制#3、集體潛意識核心記憶不可抹除、單一靈魂原則、yu.md:207）
+  - [x] AUTHOR_GATE RESOLVED Q1=B / Q2=A / Q3=A / Q4=A / Q5=A(夕拒絕·冇切) / Q6=A
+  - [x] CDL-293（記憶讀取權限+靈魂切除 Soul Excision，避開「靈魂核銷」撞車）
+  - [x] CDL-294（美夜子失憶=突觸斷裂+神經元重連 reframe；殘響殘存非完全消散）
+  - [x] CDL-295（夕拒絕靈魂切除式遺忘；兩種失憶本體論區分；Act IV beat btd）
+  - [x] WRITEBACK：01_world_rules_and_costs.md / 04_timeline_canon.md / miyako.md / yu.md / 00_series_bible.md
+  - [x] State files updated: QUESTION_QUEUE + PROJECT_STATUS + SESSION_LEDGER + NEXT_ACTION
 - Phase 15 (Act III Outline 設計) — **Round 041（2026-06-09）情緒具現化設定整合完成（CanonFileIntegrator）；CDL-292 落檔；主阻塞點仍為 ACT_III v0.3 作者批核**
 - Phase 15 (Act III Outline 設計) — **Round 039 完成：Semantic Audit Auto-Loop Loops 17–32 完成；SEMANTIC_AUDIT_COMPLETE 判定（2026-06-03）；等待作者批核 ACT_III v0.3**
 

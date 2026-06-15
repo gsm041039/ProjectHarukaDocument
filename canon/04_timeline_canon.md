@@ -88,6 +88,8 @@
 
 **復活的本質**：此復活不違反「[不能真正復活死者](02_glossary.md#term-reality-override)」限制——秋穗並未還原完整靈魂，只是以「情緒殘響」填充肉身外殼。美夜子的存在是拼接式而非復原式。
 
+**記憶的去向（CDL-294）**：美夜子復活後的失憶，並非記憶被消滅。作為被打撈出的靈魂殘響（屬「殘響殘存」而非「意識完全消散」，故不適用[奇蹟硬限制#1](02_glossary.md#term-reality-override)，其記憶仍完整留存於[集體潛意識](02_glossary.md#term-collective-unconscious)留存海）。她「忘記」復活前的事，是因為拼接式復活未能重新接通靈魂與該批記憶之間的諧振突觸——存檔仍在，讀取線路斷裂。此斷裂可被高強度情緒／因果刺激逐步重連（靈魂的神經元式再生），是她在主線期記憶逐步恢復（見 [美夜子 Unit 01](03_characters/miyako.md#section-background)）的底層機制；每次重連都加深她與集體潛意識的焊接，故記得越多、[生理排斥](01_world_rules_and_costs.md#rule-physiological-rejection)（怕冷／瓷化）越重。
+
 **悲劇閉環**：美夜子被找到、被拖入 Unit 01 地獄的根源，是她在 Alpha 線對晴香太深的愛。晴香 5 歲改變現實的執念，既是 Beta 線的創生衝擊，也無意間成為將家姐靈魂殘響從冥河打撈出來的定位訊號。
 
 **See also**: [Alpha 線分歧事件](#event-alpha-divergence) | [秋穗：罪孽的繼承者](03_characters/akiho.md#section-background) | [美夜子：唯一的已死者](03_characters/miyako.md#section-background) | [現實覆寫硬限制](02_glossary.md#term-reality-override)

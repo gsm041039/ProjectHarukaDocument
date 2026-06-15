@@ -40,6 +40,18 @@
 | QQ-18 | 操+朱音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；朱音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 朱音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 朱音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
 | QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
+## Round 042 Questions（2026-06-15 — 記憶/靈魂「無法遺忘」設定整合 CanonFileIntegrator — ✅ 全部 RESOLVED + WRITEBACK 完成）
+> 來源：作者提出 4 個設定原子（N1 記憶存集體潛意識·凡人有防火牆可遺忘·魔法少女焊接無法遺忘 / N2 遺忘須切除一部分靈魂 / N3 夕拒絕自殘式遺忘 / N4 美夜子被秋穗復活時靈魂一部分被破壞失憶·神經元式刺激可重連）。現有設定強力支持。CDL-293/294/295 落檔；5 處 canon writeback 完成。
+
+| QID | Topic | Status | Author Answer | CDL |
+|---|---|---|---|---|
+| QQ-105 | N1+N2 寫入位置 | **RESOLVED** | B — 併入現有 §集體潛意識，不開新 top-level 規則 | CDL-293 |
+| QQ-106 | N2 遺忘代價術語（避開「靈魂核銷」撞車）| **RESOLVED** | A — 新詞「靈魂切除 / Soul Excision」 | CDL-293 |
+| QQ-107 | 美夜子失憶機制 vs 現有「拼接式復活」調和 | **RESOLVED** | A — Reframe：記憶從未消失，復活令突觸斷裂，神經元式重連解釋既定 Act II 記憶恢復；更新 timeline wording（與現有「拼接式」框架相容） | CDL-294 |
+| QQ-108 | 美夜子＝殘響殘存抑或意識完全消散 | **RESOLVED** | A — 確認殘響殘存·記憶可重連·不抵觸硬限制#1 | CDL-294 |
+| QQ-109 | 夕拒絕遺忘(N3) vs 晴香終局失憶(靜止搖籃) | **RESOLVED** | A — 確認本體論不同（夕=逃避式切靈魂；晴香=犧牲式情感耗損空殼）；作者補充：夕**冇**進行靈魂切除，係明知逃避+會傷晴香而選擇拒絕 | CDL-295 |
+| QQ-110 | N3 寫入層級（pipeline 約束：Act IV Outline 未開始）| **RESOLVED** | A — 只落 CDL + yu.md 第四幕弧光（角色檔層）+ series bible 主題註；具體 Act IV beat 留待 Act IV Outline | CDL-295 |
+
 ## Round 028 Questions（2026-04-26 — ✅ 全部完成 2026-04-26 — ACT_II_OUTLINE Phase D 地下化邏輯掃描）
 | QID | Topic | Matrix | Status | Author Answer | CDL Ref |
 |---|---|---|---|---|---|

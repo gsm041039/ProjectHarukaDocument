@@ -660,7 +660,9 @@ Beta 線本質的核心敘事隱喻。
 
 晴香 5 歲創造 Beta 線時許願：「如果家姐好似貓仔咁跑得咁快就好啦……」這願望被刻入 Beta 線法則成為美夜子靈魂上的「絕對保護機制」。當美夜子受致死傷害或心理防線崩潰，身體會無視物理法則強制變成黑貓。剝奪了她「作為人類光榮戰死」的權利。
 
-**See also**: [Miyako](03_characters/miyako.md) | [Beta Line](#term-beta-line)
+**靈魂 11 年不消散的底層機制**：美夜子在 Alpha 線真正死亡後，靈魂本應回歸集體潛意識消散，但晴香的創世願望在集體潛意識法則中焊死了一條規則：「雨宮美夜子的靈魂，被禁止消散」。加上美夜子死前對晴香「放不下、極度渴望保護她」的執念，兩者在集體潛意識深處形成**雙向共振（Dual Resonance）**——靈魂以「黑貓靈體」形式沉睡於集體潛意識最深處，有意識地旁觀世界整整 11 年，直到秋穗將其撈取（見 [§rule-beta-curse-gen4](01_world_rules_and_costs.md#rule-beta-curse-gen4)）。
+
+**See also**: [Miyako](03_characters/miyako.md) | [Beta Line](#term-beta-line) | [靈魂-肉體排斥反應](01_world_rules_and_costs.md#rule-soul-body-rejection)
 
 ---
 
