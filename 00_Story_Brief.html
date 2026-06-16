@@ -51,7 +51,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans TC','Mic
 /* ── Section ── */
 .sec{padding:44px 0 0;border-bottom:1px solid var(--border)}
 .sec:last-child{border-bottom:none}
-h2{font-size:21px;font-weight:800;color:#1a0f3a;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-block}
+h2{font-size:21px;font-weight:800;color:#1a0f3a;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-block}.sec-collapse{border:none;margin:0}.sec-h2{font-size:21px;font-weight:800;color:#1a0f3a;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-flex;align-items:baseline;gap:8px;cursor:pointer;list-style:none;user-select:none}.sec-h2::-webkit-details-marker,.sec-h2::marker{display:none}.sec-h2::before{content:'▶';font-size:13px;color:var(--acc);flex-shrink:0}details[open].sec-collapse>.sec-h2::before{content:'▼'}
 h3{font-size:16px;font-weight:700;color:#2d1b69;margin:26px 0 10px}
 h4{font-size:14px;font-weight:700;color:#4c1d95;margin:16px 0 6px}
 p{margin-bottom:12px}
@@ -615,7 +615,7 @@ img,video,canvas,svg{max-width:100%;height:auto}
 .layer-access{padding:12px 13px;background:#faf5ff;border-left:1px solid var(--border);font-size:12.5px;line-height:1.55;color:#4c1d95}
 .story-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:14px 0}
 .story-node{background:#fff;border:1px solid var(--border);border-radius:13px;padding:12px;min-height:110px;position:relative}
-.story-node strong{display:block;font-size:13px;color:#2d1b69;margin-bottom:6px}.story-node span{display:block;font-size:12.5px;line-height:1.55;color:#57534e}
+.story-node strong{display:block;font-size:13px;color:#2d1b69;margin-bottom:6px}.story-node span{display:block;font-size:12.5px;line-height:1.55;color:#57534e}.node-chars{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px}.char-tag{font-size:11px;border-radius:10px;padding:2px 8px;font-weight:500;text-decoration:none;display:inline-block;background:rgba(45,27,105,0.07);border:1px solid rgba(45,27,105,0.18);color:#6d5fbb}.char-tag[data-char="haruka"]{background:rgba(236,72,153,0.1);border-color:rgba(219,39,119,0.35);color:#be185d}.char-tag[data-char="miyako"]{background:rgba(30,64,175,0.08);border-color:rgba(30,64,175,0.3);color:#1e3a8a}.char-tag[data-char="sou"]{background:rgba(17,24,39,0.07);border-color:rgba(17,24,39,0.3);color:#111827}.char-tag[data-char="akane"]{background:rgba(126,34,206,0.08);border-color:rgba(126,34,206,0.3);color:#6b21a8}.char-tag[data-char="keishi"]{background:rgba(217,119,6,0.08);border-color:rgba(217,119,6,0.3);color:#b45309}.char-tag[data-char="airi"]{background:rgba(2,132,199,0.08);border-color:rgba(2,132,199,0.3);color:#0369a1}.char-tag[data-char="fei"]{background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.3);color:#b91c1c}.char-tag[data-char="akiho"]{background:rgba(180,83,9,0.08);border-color:rgba(180,83,9,0.3);color:#92400e}.char-tag[data-char="sayo"]{background:rgba(100,116,139,0.08);border-color:rgba(100,116,139,0.3);color:#475569}.char-tag[data-char="rin"]{background:rgba(55,65,81,0.08);border-color:rgba(55,65,81,0.3);color:#1f2937}.char-tag[data-char="saku"]{background:rgba(22,101,52,0.08);border-color:rgba(22,101,52,0.3);color:#14532d}
 .compact-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:12px 0}
 .compact-rel{border:1px solid var(--border);border-radius:14px;background:#fff;padding:14px}.compact-rel h4{margin:0 0 8px!important;color:#2d1b69}.compact-rel dl{display:grid;grid-template-columns:70px minmax(0,1fr);gap:5px 10px;margin:0;font-size:12.8px;line-height:1.55}.compact-rel dt{font-weight:800;color:#7c3aed}.compact-rel dd{margin:0;color:#57534e}
 details.full-text{margin-top:14px;border:1px dashed #c4b5fd;border-radius:12px;background:#faf5ff;padding:0;overflow:hidden}
@@ -878,7 +878,7 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img alt="日區街道概念圖" src="art/ConceptArt/Scenes/DayDistrict/ConceptArt_DayDistrict_Street_1.png"/>
+<img alt="日區街道概念圖" src="art/ConceptArt/Environment/DayDistrict/ConceptArt_DayDistrict_Street_1.png"/>
 <div class="char-img-cap">日區街道</div>
 </div>
 </div>
@@ -887,20 +887,20 @@ details.full-text[open] summary::before{content:'－'}
 <div class="char-card">
 <div class="char-head" style="background:linear-gradient(135deg,#1e1b4b,#4c1d95)">
 <div class="char-name">夜區</div>
-<div class="char-real">「鏡像之城」· 原名靈樹谷</div>
+<div class="char-real">原名靈樹谷 · 又稱霧港</div>
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img alt="夜區街道概念圖" src="art/ConceptArt/Scenes/NightDistrict/ConceptArt_NightDistrict_Street_1.png"/>
+<img alt="夜區街道概念圖" src="art/ConceptArt/Environment/NightDistrict/ConceptArt_NightDistrict_Street_1.png"/>
 <div class="char-img-cap">夜區街道</div>
 </div>
 </div>
-<div class="char-body">原名靈樹谷，被帝國侵佔。天空被廢氣籠罩，潮濕街道永遠積著水窪，老舊玻璃幕牆處處映照真實。居民被迫與真實共存，被帝國剝削但更真實、堅韌。體現「接納」態度：鏡像之城，即面對真實之城。<br/>
+<div class="char-body">原名靈樹谷（又稱霧港），被帝國侵佔。天空被廢氣籠罩，潮濕街道永遠積著水窪，老舊玻璃幕牆處處映照真實。居民被迫與真實共存，被帝國剝削但更真實、堅韌。體現「接納」態度：面對真實之城。<br/>
 <span style="font-size:11.5px;color:var(--muted)">Beta 線獨有：靈樹能量殘留令夜區居民具有輕微自發魔法——無法戰鬥，但足以點燈、感知情緒、短暫接觸集體潛意識。日區居民無此能力。此能力亦是帝國發動靈樹戰爭、強行吞併夜區的真正誘因——帝國需要這批天然具備魔法親和力的人口作為情緒力量裝置的實驗素材。</span></div>
 </div>
-</div><p style="font-size:12.5px;color:var(--muted);font-style:italic">夜區以老舊唐樓後巷為視覺語言基礎。</p></article><article class="subcard flow-short"><h3>政治設定</h3><p>帝國由<a href="#c-keishi">刑思</a>（以皇帝身份）暗中統治。夜區本名<strong>靈樹谷 / 夢離谷</strong>，是以靈樹信仰為核心的獨立地區——靈樹是現實世界與集體潛意識之間的能量樞紐，正負情感在此流通保持平衡。</p><p>帝國為奪取靈樹的情緒能量，發動<strong>靈樹戰爭</strong>，大肆屠殺夜區原居民，將此地並吞為帝國版圖。靈樹戰爭是所有後續悲劇的制度源頭——捕獲實驗對象、研究情緒機制、建造維多利亞之淚、最終量產魔法少女，皆由此而起。</p><ul>
+</div><p style="font-size:12.5px;color:var(--muted);font-style:italic">夜區以老舊唐樓後巷為視覺語言基礎。</p></article><article class="subcard flow-short"><h3>政治設定</h3><p>帝國原由皇帝統治，<a href="#c-keishi">刑思</a>將其殺死後，以皇帝身份暗中接管並統治帝國。夜區本名<strong>靈樹谷 / 夢離谷</strong>（又稱霧港），是以靈樹信仰為核心的獨立地區——靈樹是現實世界與集體潛意識之間的能量樞紐，正負情感在此流通保持平衡。</p><p>帝國為奪取靈樹的情緒能量，發動<strong>靈樹戰爭</strong>，大肆屠殺夜區原居民，將此地並吞為帝國版圖。靈樹戰爭是所有後續悲劇的制度源頭——捕獲實驗對象、研究情緒機制、建造維多利亞之淚、最終量產魔法少女，皆由此而起。</p><ul>
 <li id="world-victoria"><strong>維多利亞之淚</strong>：巨大人造太陽，官方說詞是無限能源，真實功能是情緒抽水泵——將日區負面情緒強行抽走壓入夜區，並即時監控全城情緒數據。在 Alpha 線因缺乏高魔能量而停滯為廢棄金屬結構；Beta 線<a href="#c-haruka">晴香</a>創世後靈樹能量爆發，帝國才將其活化為完整的情緒監控中樞。</li>
-<li><strong>魔法少女計劃（潘朵拉協議）</strong>：帝國以「命運偶遇」假象篩選具特定創傷特質的少女，讓她們在不知情的情況下「自願」成為消耗品，在公開直播的戰鬥中為帝國收割情緒能量，用完即棄。</li>
+<li><strong>維多利亞天使</strong>：帝國設立的官方魔法少女偶像身份，以公開直播戰鬥的 Reality Show 形式對外呈現，令市民相信魔法少女是自願守護城市的英雄——實際上是帝國收割情緒能量的公開裝置，光幕濾鏡覆蓋戰損與真實面貌。</li>
 </ul></article><article class="subcard flow-table flow-short"><h3>情緒管理局</h3><p>帝國直屬的情緒監控與管理機構，是帝國對市民情緒實施全面控制的執行手臂。</p><div class="tw table-wrap-ok">
 <table>
 <thead><tr><th>職能</th><th>表面說法</th><th>實際作用</th></tr></thead>
@@ -946,7 +946,37 @@ details.full-text[open] summary::before{content:'－'}
 <li><strong>只有少數記得 Alpha 線真相</strong>：<a href="#c-fei">菲</a>（<a href="#c-haruka">晴香</a>的影子人格）、<a href="#c-keishi">刑思</a>、<a href="#c-airi">愛莉</a></li>
 </ul>
 </div>
-</div><blockquote><p>兩條線的本質：不是「真 vs 假」，而是「事件真相 vs 意義真相」的互補。Alpha 線是發生過的殘酷現實（不可改變），Beta 線是面對那份現實的態度（可以選擇）。「改變現實」的核心諷刺：只是「用更大的膠布貼住更大的傷口」，傷口依然在底下發炎。</p></blockquote><div class="bq-tip"><p>每一個在 Beta 世界中受苦的人，都是<a href="#c-haruka">晴香</a>那一刻的回聲。認識各角色之後，<a href="#sin">→ 晴香的原罪對照表</a>列出每個人在兩條線中命運的具體分別。</p></div></article></div></section>
+</div><blockquote><p>兩條線的本質：不是「真 vs 假」，而是「事件真相 vs 意義真相」的互補。Alpha 線是發生過的殘酷現實（不可改變），Beta 線是面對那份現實的態度（可以選擇）。「改變現實」的核心諷刺：只是「用更大的膠布貼住更大的傷口」，傷口依然在底下發炎。</p></blockquote><h4 style="margin:20px 0 10px;font-size:14px;color:#1a0f3a">晴香的原罪：Beta 線對每個人命運的改變</h4>
+<p style="font-size:13px;color:var(--muted);margin-bottom:10px">晴香不是一個「選擇了做壞事」的人。她只是一個五歲的小孩，在極度恐懼中說了一句話——然後整個世界改變了。</p>
+<div class="tw table-wrap-ok"><table>
+<thead><tr><th>角色</th><th>Alpha 線（原初現實）</th><th>Beta 線（晴香創造的世界）</th></tr></thead>
+<tbody>
+<tr><td><strong><a href="#c-haruka">晴香</a></strong></td><td>5歲親眼目睹母親和姊姊被殺，留下無法消除的創傷</td><td>在「正常」世界長大，以為母親難產死，不知道自己是災難的根源</td></tr>
+<tr><td><strong><a href="#c-miyako">美夜子</a></strong></td><td>26歲被殺，至少死得完整</td><td>15歲被冰封，被復活為失憶兵器，被詛咒為黑貓，失去以人的姿態光榮死去的權利</td></tr>
+<tr><td><strong><a href="#c-fei">菲</a></strong></td><td>不存在</td><td>存在——是晴香被剝離的Alpha記憶碎片，被困在潛意識中無法自由</td></tr>
+<tr><td><strong><a href="#c-sou">操</a></strong></td><td>綾小路家族破產，操隨父親行乞</td><td>財富與名門回歸；但代價是父親強制將操在小時候被性別重置改造成男性繼承人</td></tr>
+<tr><td><strong><a href="#c-rin">凜</a></strong></td><td>可以追求歌手夢想，不被魔法少女系統捲入</td><td>Beta世界的帝國強制徵召她，奪走她的夢想，讓她成為消耗品</td></tr>
+<tr><td><strong><a href="#c-akane">紫音</a></strong></td><td>弟弟不會因情緒結晶死亡（低魔世界無此物）</td><td>Beta世界的情緒結晶導致弟弟死亡——紫音悲劇的根源，是晴香創造的世界</td></tr>
+<tr><td><strong><a href="#c-saku">浩然</a></strong></td><td>與美夜子是青梅竹馬，有機會好好陪她</td><td>美夜子死因可疑，朔成為屍骸獵人調查真相，後在戰場上遇到長著愛人臉的兵器</td></tr>
+<tr><td><strong><a href="#c-akiho">秋穗</a></strong></td><td>妹妹花子在意外中遇難——真相清晰</td><td>花子死因被改寫，秋穗失去了與妹妹真正道別的機會；背負扭曲的愛去填補這份空白</td></tr>
+</tbody></table></div>
+<blockquote style="margin-top:12px"><p>每一個在 Beta 世界中受苦的人，都是晴香那一刻的回聲。你無法懲罰一個五歲的孩子。但你也無法抹掉那些代價。</p></blockquote>
+<h4 style="margin:24px 0 10px;font-size:14px;color:#1a0f3a">名字系統：Beta 線的動漫濾鏡</h4>
+<blockquote class="bq-dark"><p><strong>核心命題</strong>：晴香 5 歲時以「日系魔法少女動漫」為藍本創造 Beta 線，因此 Beta 線整個文化語言系統都是幼童的動漫投影。</p></blockquote>
+<div class="dual3" style="margin:12px 0">
+<div class="box box-dark" style="text-align:center"><strong style="display:block;margin-bottom:6px">日文名字</strong><span style="font-size:13px">Beta 線的「動漫濾鏡」，掩蓋 Alpha 線血肉模糊的真相</span></div>
+<div class="box box-light" style="text-align:center"><strong style="display:block;color:#4c1d95;margin-bottom:6px">中文真名</strong><span style="font-size:13px">Alpha 線的原初現實——無魔法、無帝國、只有殘酷與痛楚</span></div>
+<div class="box box-red" style="text-align:center"><strong style="display:block;margin-bottom:6px">帝國強推日系文化</strong><span style="font-size:13px">維持晴香幼年逃避幻象的國家級膠布</span></div>
+</div>
+<div class="tw table-wrap-ok"><table>
+<thead><tr><th>常用名（Beta 線）</th><th>真實名字（Alpha 線）</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td>春日井<a href="#c-haruka">晴香</a></td><td><strong>連若晴</strong></td><td>「若晴」卻承受最黑暗創傷</td></tr>
+<tr><td>水無月<a href="#c-miyako">美夜子</a></td><td><strong>連若星</strong></td><td>帝國代號切斷她與過去的連結</td></tr>
+<tr><td>刑思</td><td><strong>葉語彩</strong></td><td>廣東話「思螢」——保護者人格的自命名</td></tr>
+</tbody></table></div>
+<p style="font-size:12.5px;color:var(--muted);margin-top:8px">完整角色名字對照表請見 <a href="#appendix-b" style="color:var(--acc)">附錄 B</a>。</p>
+</article></div></section>
 <!-- ═══════════════════════════════════════════════ 世界如何運作 -->
 <section class="sec dashboard-heavy visual-compressed laws-compressed" id="laws">
 <h2>世界如何運作：七個核心法則</h2>
@@ -1096,44 +1126,6 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </section>
 <!-- ═══════════════════════════════════════════════ 名字系統 -->
-<section class="sec dashboard-heavy" id="naming">
-<h2>名字系統：Beta 線的動漫濾鏡</h2>
-<blockquote class="bq-dark"><p><strong>核心命題</strong>：<a href="#c-haruka">晴香</a> 5 歲時以「日系魔法少女動漫」為藍本創造 Beta 線，因此 Beta 線整個文化語言系統都是幼童的動漫投影。</p></blockquote>
-<div class="dual3">
-<div class="box box-dark" style="text-align:center">
-<strong style="display:block;margin-bottom:6px">日文名字</strong>
-<span style="font-size:13px">Beta 線的「動漫濾鏡」，掩蓋 Alpha 線血肉模糊的真相</span>
-</div>
-<div class="box box-light" style="text-align:center">
-<strong style="display:block;color:#4c1d95;margin-bottom:6px">中文真名</strong>
-<span style="font-size:13px">Alpha 線的原初現實——無魔法、無帝國、只有殘酷與痛楚</span>
-</div>
-<div class="box box-red" style="text-align:center">
-<strong style="display:block;margin-bottom:6px">帝國強推日系文化</strong>
-<span style="font-size:13px">維持<a href="#c-haruka">晴香</a>幼年逃避幻象的國家級膠布</span>
-</div>
-</div>
-<div class="box box-light" style="margin:16px 0;font-size:13.5px">
-<strong>簡單來說：</strong>
-<ul style="margin:8px 0 0;padding-left:18px">
-<li>Beta 線名字 = <a href="#c-haruka">晴香</a>幼年動漫濾鏡下的身份</li>
-<li>Alpha 線名字 = 被壓住的原初現實</li>
-<li>Act IV 中，叫回真名等於拒絕再用濾鏡逃避</li>
-</ul>
-</div>
-<h3>關鍵例子</h3>
-<div class="tw table-wrap-ok">
-<table>
-<thead><tr><th>常用名（Beta 線）</th><th>真實名字（Alpha 線）</th><th>說明</th></tr></thead>
-<tbody>
-<tr><td>春日井<a href="#c-haruka">晴香</a></td><td><strong>連若晴</strong></td><td>「若晴」卻承受最黑暗創傷</td></tr>
-<tr><td>水無月<a href="#c-miyako">美夜子</a></td><td><strong>連若星</strong></td><td>帝國代號切斷她與過去的連結</td></tr>
-<tr><td>刑思</td><td><strong>葉語彩</strong></td><td>廣東話「思螢」——保護者人格的自命名</td></tr>
-</tbody>
-</table>
-</div>
-<p style="font-size:12.5px;color:var(--muted)">完整角色名字對照表請見 <a href="#appendix-b" style="color:var(--acc)">附錄 B</a>。</p>
-</section>
 </div><!-- end system-extensions -->
 <!-- ═══════════════════════════════════════════════ 魔法少女設定 -->
 <section class="sec reading-heavy" id="mahou">
@@ -1427,25 +1419,23 @@ details.full-text[open] summary::before{content:'－'}
 <li><strong>髮型</strong>：呆毛 + 雙辮對應金魚旗輪廓；青色挑染 = 魚旗顏色</li>
 <li><strong>服裝</strong>：棒球外套 + 熱褲；上衣青色心形圖案對應魚尾</li>
 <li><strong>關鍵單品</strong>：掛頸大耳機、雙面盒墜項鍊（母親遺物）、斜背包、金魚造型掛飾</li>
-<li><strong>行為 Tells</strong>：焦慮縮手入袖；說謊時過度燦爛笑容（面部肌肉僵硬）；疲憊戴耳機低頭切斷眼神</li>
 </ul></div>
 </div>
 <div class="design-form">
 <div class="design-img"><img alt="晴香 偶像歌手服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_Singer.png"/><div class="design-img-cap">偶像歌手服</div></div>
-<div class="design-notes"><h4>偶像歌手形態</h4><ul>
-<li><strong>定位</strong>：王道氛圍全開——觀眾與她同步代入「魔法少女 = 正義」；拯救者 Archetype 具現</li>
+<div class="design-notes"><h4>偶像歌手形態（愛心 × 儀式感 × 舞台化偶像）</h4><ul>
+<li><strong>核心 Motif</strong>：愛心——象徵晴香作為偶像與魔法少女對外傳遞情感、希望與連結的能力；愛心不只是裝飾，而是整個拯救者情結的視覺符號語言</li>
+<li><strong>主色</strong>：粉紅 · 白 · 深紫為主；少量藍色、橙色愛心飾件作平衡色，構成明亮、可親、舞台化的配色層次</li>
+<li><strong>輪廓</strong>：高領長外套式披層 + 外露肩位 + 短裙——「儀式感 / 公主感」與「青春偶像感」並存；高領帶來正式距離感，裸肩破除距離，形成雙層視覺張力</li>
+<li><strong>核心圖案焦點</strong>：袖口與下擺的大型愛心放射花紋——情感由角色中心向外綻放的舞台視覺語言；整套服裝最重要的圖案元素</li>
+<li><strong>背面設計</strong>：大蝴蝶結 + 垂落心形吊飾——強化中軸裝飾感與偶像服舞台性；背面視覺與正面同等重要（舞台旋轉鏡頭考量）</li>
 </ul></div>
 </div>
 <div class="design-form">
 <div class="design-img"><img alt="晴香 魔法少女服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png"/><div class="design-img-cap">魔法少女形態</div></div>
 <div class="design-notes"><h4>魔法少女形態（公主 × 女武神 × 拳擊手）</h4><ul>
 <li><strong>公主語言</strong>：皇冠是最重要符號；粉 + 白 + 金保留夢幻少女感</li>
-<li><strong>女武神語言</strong>：光芒／羽翼紋路武器；戰鬥時光紋延展如舞台光線</li>
-<li><strong>拳擊手語言</strong>：拳擊腰帶橫向鎖定重心；手套令晴香的「拯救」可以直接回擊</li>
-<li><strong>武器</strong>：雙形態長矛——近戰少林棍法 / 投擲金色光跡（雷神之錘參考，自動飛回）</li>
-<li><strong>戰鬥美學</strong>：掃擊以舞蹈流暢性為核心，每次掃擊後有「收勢」靜止幀</li>
-<li><strong>Act III 後期</strong>：受傷時傷口揭露集體潛意識視覺（後巷、公屋、生活碎片）——自我邊界消融後身體成為集體情緒海的出口</li>
-<li><strong>視覺演變</strong>：Act I 粉色 100% 飽和 → Act II 暗淡死魚眼 → Act III Wolf Cut + 破碎星星瞳孔 → Act IV 純白髮 · 近透明灰瞳（融入夕黑色元素）</li>
+<li><strong>拳擊手語言</strong>：拳擊腰帶 + 拳擊手套</li>
 </ul></div>
 </div>
 </details>
@@ -1472,6 +1462,20 @@ details.full-text[open] summary::before{content:'－'}
 <p>她無法忍受<a href="#c-haruka">晴香</a>用虛假的完美逃避罪責，因此不斷在精神深處干預、甚至策劃社會性死亡事件，目的是強迫<a href="#c-haruka">晴香</a>直面自己是災難源頭的真相。她最終與<a href="#c-haruka">晴香</a>完成人格整合。</p>
 <p style="margin-top:10px;font-size:12.5px;background:var(--surf2);padding:7px 10px;border-radius:6px;border-left:3px solid var(--acc)"><strong>主題關聯</strong>：子主題 C（身份的本質）。她代表<a href="#c-haruka">晴香</a>迴避接受的真實自我——整合<a href="#c-fei">菲</a>，就是接受「我也是問題的一部分」。</p>
 </div>
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="菲" src="art/ConceptArt/Characters/Yu/ConceptArt_Yu_CasualWear.png"/><div class="design-img-cap">陰影人格形態</div></div>
+<div class="design-notes"><h4>陰影人格形態（幼年殘像 × 狐狸小獸感）</h4><ul>
+<li><strong>主題</strong>：晴香的陰影人格——創傷時間點凝固的幼年殘像；狐狸般古惑的小獸感</li>
+<li><strong>配色</strong>：黑色為主，象徵陰影人格與被壓抑情緒，與晴香主體的粉白系形成直接對比</li>
+<li><strong>頭部</strong>：大蝴蝶結刻意塑造成近似獸耳的輪廓——強化其狐狸般古惑、靈巧、帶試探性的性格印象</li>
+<li><strong>足部</strong>：赤腳——表達幼童狀態、缺乏保護、缺乏安全感，以及人格碎片的裸露感</li>
+<li><strong>年齡感</strong>：視覺年齡固定約 5 歲，對應晴香人格分離的時間點；不是一般小女孩風格，而是創傷時刻被凍結的自我投影</li>
+<li><strong>心理對應</strong>：古惑、狡黠與不安定感——攜帶創傷與防衛本能的幼年陰影人格，而非純真無邪的小孩</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-keishi">
 <div class="char-head" style="background:linear-gradient(135deg,#0f172a,#1e1b4b)">
@@ -1685,7 +1689,7 @@ details.full-text[open] summary::before{content:'－'}
 <li><strong>不平衡規則</strong>：襪子左右不同、裙上蝴蝶結不在正中、裝飾節奏偏移；整體 flow 為 zig-zag</li>
 <li><strong>願望外化</strong>：魔法形態使用大雙辮——現實中作為打手無法留長，變身後終於能把願望外化</li>
 <li><strong>武器</strong>：大型糖果粉碎鎚——甜品師主題 + 鋸齒設計，像用來粉碎硬糖、骨頭與幻想的重型甜品工具</li>
-<li><strong>特殊</strong>：戰鬥狂暴時嘴角向耳延伸 40 度角，露出異常整齊鯊魚齒（執念飽和視覺化）</li>
+<li><strong>特殊</strong>：戰鬥狂暴時嘴角向耳延伸 40 度角</li>
 </ul></div>
 </div>
 </details>
@@ -1985,27 +1989,6 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </section>
 <!-- ═══════════════════════════════════════════════ <a href="#c-haruka">晴香</a>的原罪 -->
-<section class="sec" id="sin">
-<h2>晴香的原罪：一個孩子創造了整個地獄</h2>
-<p>晴香不是一個「選擇了做壞事」的人。她只是一個五歲的小孩，在極度恐懼中說了一句話、哭了一場——然後整個世界改變了。</p>
-<p>但這份無意識的改寫，讓世界裡每一個人的命運都為此付出了代價。你剛認識了他們每一個人——現在請看看，<a href="#c-haruka">晴香</a>的那一刻，如何改變了他們所有人的一生。</p>
-<div class="tw table-wrap-ok">
-<table>
-<thead><tr><th>角色</th><th>Alpha 線（原初現實）</th><th>Beta 線（<a href="#c-haruka">晴香</a>創造的世界）</th></tr></thead>
-<tbody>
-<tr><td><strong><a href="#c-haruka">晴香</a></strong></td><td>5歲親眼目睹母親和姊姊被殺，留下無法消除的創傷</td><td>在「正常」世界長大，以為母親難產死，不知道自己是災難的根源</td></tr>
-<tr><td><strong><a href="#c-miyako">美夜子</a></strong></td><td>26歲被殺，至少死得完整</td><td>15歲被冰封，被復活為失憶兵器，被詛咒為黑貓，失去以人的姿態光榮死去的權利</td></tr>
-<tr><td><strong><a href="#c-fei">菲</a></strong></td><td>不存在</td><td>存在——是<a href="#c-haruka">晴香</a>被剝離的Alpha記憶碎片，被困在潛意識中無法自由</td></tr>
-<tr><td><strong><a href="#c-sou">操</a></strong></td><td>綾小路家族破產，<a href="#c-sou">操</a>隨父親行乞</td><td>財富與名門回歸；但代價是父親強制將<a href="#c-sou">操</a>在小時候被性別重置改造成男性繼承人</td></tr>
-<tr><td><strong><a href="#c-rin">凜</a></strong></td><td>可以追求歌手夢想，不被魔法少女系統捲入</td><td>Beta世界的帝國強制徵召她，奪走她的夢想，讓她成為消耗品</td></tr>
-<tr><td><strong><a href="#c-akane">紫音</a></strong></td><td>弟弟不會因情緒結晶死亡（低魔世界無此物）</td><td>Beta世界的情緒結晶導致弟弟死亡——<a href="#c-akane">紫音</a>悲劇的根源，是<a href="#c-haruka">晴香</a>創造的世界</td></tr>
-<tr><td><strong><a href="#c-saku">浩然</a></strong></td><td>與<a href="#c-miyako">美夜子</a>是青梅竹馬，有機會好好陪她</td><td>美夜子死因可疑，<a href="#c-saku">朔</a>參加葬禮但無法釋懷，成為屍骸獵人調查真相，後在戰場上遇到長著愛人臉的兵器</td></tr>
-<tr><td><strong><a href="#c-akiho">秋穗</a></strong></td><td>妹妹<a href="#c-hanako">花子</a>在意外中遇難——真相清晰</td><td>花子死因被改寫，<a href="#c-akiho">秋穗</a>失去了與妹妹真正道別的機會；背負扭曲的愛去填補這份空白</td></tr>
-</tbody>
-</table>
-</div>
-<blockquote><p>每一個在 Beta 世界中受苦的人，都是<a href="#c-haruka">晴香</a>那一刻的回聲。你無法懲罰一個五歲的孩子。但你也無法抹掉那些代價。</p></blockquote>
-</section>
 <!-- ═══════════════════════════════════════════════ 核心人物關係 -->
 <section class="sec dashboard-heavy" id="rels">
 <h2>核心人物關係</h2><div class="section-lead"><p style="font-size:13px;color:var(--muted);margin-bottom:18px">先看整體地圖，再讀個別關係細節。</p><div style="display:grid;gap:10px;margin-bottom:28px">
@@ -2165,35 +2148,35 @@ details.full-text[open] summary::before{content:'－'}
 <h3 id="story-1">第一階段：虛假的英雄起點與日常裂痕</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act I 的「隊伍成立 → 連結代價 → 日常裂痕 → 紫音墮落 → 秋穗暗線」；先用 beat strip 讀節奏，詳細劇情放入展開。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 被迫入局</strong><span>晴香只是普通學生，意外看見魔法少女戰鬥後，被美夜子交出變身裝置，正式被拖入不能回頭的世界。</span></div>
-<div class="story-node"><strong>2. 四人組隊</strong><span>晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊。</span></div>
-<div class="story-node"><strong>3. 連結污染</strong><span>她們戰鬥時要共享情緒力量；代價是彼此會看見對方最深的創傷，靈魂邊界開始變得模糊。</span></div>
-<div class="story-node"><strong>4. 日常裂開</strong><span>戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。</span></div>
-<div class="story-node"><strong>5. 紫音墮落</strong><span>紫音珍視的小孩死後變成屍骸，她無法再相信人類世界，轉而把屍骸當成需要保護的孩子。</span></div>
-<div class="story-node"><strong>6. 秋穗暗線</strong><span>秋穗表面是可靠技術支援，暗中卻為救女兒愛莉，開始與刑思交易，埋下背叛伏線。</span></div>
+<div class="story-node"><strong>1. 被迫入局</strong><span>晴香只是普通學生，意外看見魔法少女戰鬥後，被美夜子交出變身裝置，正式被拖入不能回頭的世界。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a></div></div>
+<div class="story-node"><strong>2. 四人組隊</strong><span>晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="akane" href="#c-akane">紫音</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>3. 連結污染</strong><span>她們戰鬥時要共享情緒力量；代價是彼此會看見對方最深的創傷，靈魂邊界開始變得模糊。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>4. 日常裂開</strong><span>戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>5. 紫音墮落</strong><span>紫音珍視的小孩死後變成屍骸，她無法再相信人類世界，轉而把屍骸當成需要保護的孩子。</span><div class="node-chars"><a class="char-tag" data-char="akane" href="#c-akane">紫音</a></div></div>
+<div class="story-node"><strong>6. 秋穗暗線</strong><span>秋穗表面是可靠技術支援，暗中卻為救女兒愛莉，開始與刑思交易，埋下背叛伏線。</span><div class="node-chars"><a class="char-tag" data-char="akiho" href="#c-akiho">秋穗</a><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act I 功能</h4><p>先建立「魔法少女像英雄」，再露出系統代價。</p></div>
 <div class="matrix-card"><h4>核心轉折</h4><p>隊伍不是因友誼自然建立，而是因創傷被迫連接。</p></div>
 <div class="matrix-card"><h4>主題種子</h4><p>怪物仍有態度；膠布不能治傷；救人不等於能救所有人。</p></div>
 </div>
-<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>故事由一場屍骸襲擊開始。<a href="#c-miyako">美夜子</a>將變身裝置交給無意中目睹魔法秘密的<a href="#c-haruka">晴香</a>：「妳已經看到了，就無法回頭。」無法回頭的<a href="#c-haruka">晴香</a>陸續遇上其他被命運絆住的少女——在夜市被屍骸追殺、收留在廢棄倉庫的浪女<a href="#c-akane">紫音</a>；隱瞞性別身份、渴望通過變身找回自我的富家少女<a href="#c-misao">操</a>；以及被<a href="#c-keishi">刑思</a>（以<a href="#c-keishi">葉語彩</a>身份滲透同班同學）暗中操縱的神秘少女<a href="#c-ayato">彩</a>。幾個陌生人就這樣被迫組成了隊伍，每一次戰鬥都需要彼此的力量。</p><p>第一次四人聯手戰鬥後，最恐怖的代價才出現——跨污染。每個人短暫進入了其他三人最深層的精神世界，看到她們最隱秘的羞恥、恐懼、憤怒。四人在後遺症尚未消退時無言對視，沒有人說出剛才感知到的內容。從那一刻起，她們明白了一個殘酷的機制：隊伍必須建立<strong>情緒連結</strong>才能生存，但每次連結都在彼此靈魂刻下無法癒合的傷口——共享創傷記憶、吸收彼此的絕望、靈魂邊界逐漸模糊。<a href="#c-haruka">晴香</a>第一次感受到從未有過的被看見，但她也第一次無法獨自承受痛苦，必須學會「讓別人進來」，同時永久被別人的創傷污染。</p><p>每次戰鬥後，少女們開始出現手震、嘔吐、短暫失去感官。更令人不安的是，校園與日常生活中開始出現幻覺——普通的教室邊緣會疊上廢墟的影像，無緣無故聞到血腥氣味。<a href="#c-akane">紫音</a>有天在課堂上撕開<a href="#c-haruka">晴香</a>貼在傷口上的膠布，問她：「妳以為貼住張貼紙，個傷口就會好？」話裡的意思不只是問傷口，而是在批判整個魔法少女系統本身——那根本就是一塊巨大的膠布，用來遮掩而非治癒。</p><p>但最終的破裂來自更深的地方。當<a href="#c-akane">紫音</a>眼睜睜看著自己最珍視的小學生死去並變成屍骸時，她的精神徹底崩潰。她開始收集屍骸、保護它們、把它們當作孩子一樣餵養。在廢棄糖果工廠中，<a href="#c-akane">紫音</a>為自己建造了一個王座——在那裡，至少死亡可以被她控制，至少怪物會聽她說話。<a href="#c-akane">紫音</a>背叛了隊伍，而隊伍被迫放逐了她。在這一刻，她們學會了一個殘酷的真相：並非所有人都能即時被救，有些人的傷痛深到只能選擇沉入黑暗。</p><p>在陰影中，<a href="#c-haruka">晴香</a>的阿姨<a href="#c-akiho"><strong>秋穗</strong></a>以頂尖生命機械學家的身份為隊伍提供技術支援——研發道具、調配藥物、分析魔法屍骸結構。<a href="#c-haruka">晴香</a>視她為少數可信任的後盾。但<a href="#c-akiho">秋穗</a>的動機從來不純粹：她的女兒<a href="#c-airi"><strong>愛莉</strong></a>早在帝歷 108 年意外成為第一具人造魔法屍骸，至今以石像形態被困。為了換回<a href="#c-airi">愛莉</a>，<a href="#c-akiho">秋穗</a>早已悄悄與<a href="#c-keishi">刑思</a>建立了不可告人的交易——她以「科學服務拯救<a href="#c-airi">愛莉</a>」說服自己，卻一步步走向背叛。</p></div></details>
+<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>故事開始之前，<a href="#c-haruka">晴香</a>已經是全城最知名的名字。作為帝國秘密扶植的獨立偶像「春日井晴香」，她的臉出現在每條街道的廣告牌上，她的直播讓陌生人在螢幕前流淚。她以為這是天份與努力的成果，卻不知道這十年的「輝煌」，是一個精心算計的籠。每天早晨的規律儀式——照鏡、穿鞋、背包——給她一種控制與安全的錯覺。</p><p>就在平靜的某個校園早晨，一個剛轉來的女生引起了<a href="#c-haruka">晴香</a>的注意：<a href="#c-keishi">葉語彩</a>，厚框眼鏡、鬆垮衣服，懷裡抱著一個破舊的紅絲絨熊公仔，走路時眼神從不落在任何人身上。幾天後，校霸桐生健伸手扯住那隻熊公仔，嘲笑說：「幾大個人仲攬住件垃圾。」彩拉扯著不放手，臉上卻是一種空白的表情——不是恐懼，是「習慣了被忽略」的那種空白。<a href="#c-haruka">晴香</a>在那道空白裡看見了當年無助的自己，下意識擋在兩人之間。她以為自己只是出於正義感；但那一刻，她已經踏入了一個為她量身訂造的陷阱。</p><p>僵局還未解決，屍骸突然攻入校園。<a href="#c-miyako">美夜子</a>將變身裝置交給驚慌失措的<a href="#c-haruka">晴香</a>：「妳已經看到了，就無法回頭。」——就這樣，<a href="#c-haruka">晴香</a>成為了「維多利亞天使」。無法回頭的<a href="#c-haruka">晴香</a>陸續遇上其他被命運絆住的少女——在夜市被屍骸追殺、收留在廢棄倉庫的浪女<a href="#c-akane">紫音</a>；隱瞞性別身份、渴望通過變身找回自我的富家少女<a href="#c-sou">操</a>；以及被<a href="#c-keishi">刑思</a>（以<a href="#c-keishi">葉語彩</a>身份滲透同班同學）暗中操縱的神秘少女<a href="#c-keishi">彩</a>。幾個陌生人就這樣被迫組成了隊伍，每一次戰鬥都需要彼此的力量。</p><p>第一次四人聯手戰鬥後，最恐怖的代價才出現——跨污染。每個人短暫進入了其他三人最深層的精神世界，看到她們最隱秘的羞恥、恐懼、憤怒。四人在後遺症尚未消退時無言對視，沒有人說出剛才感知到的內容。從那一刻起，她們明白了一個殘酷的機制：隊伍必須建立<strong>情緒連結</strong>才能生存，但每次連結都在彼此靈魂刻下無法癒合的傷口——共享創傷記憶、吸收彼此的絕望、靈魂邊界逐漸模糊。<a href="#c-haruka">晴香</a>第一次感受到從未有過的被看見，但她也第一次無法獨自承受痛苦，必須學會「讓別人進來」，同時永久被別人的創傷污染。</p><p>每次戰鬥後，少女們開始出現手震、嘔吐、短暫失去感官。更令人不安的是，校園與日常生活中開始出現幻覺——普通的教室邊緣會疊上廢墟的影像，無緣無故聞到血腥氣味。<a href="#c-akane">紫音</a>有天在課堂上撕開<a href="#c-haruka">晴香</a>貼在傷口上的膠布，問她：「妳以為貼住張貼紙，個傷口就會好？」話裡的意思不只是問傷口，而是在批判整個魔法少女系統本身——那根本就是一塊巨大的膠布，用來遮掩而非治癒。</p><p>但最終的破裂來自更深的地方。當<a href="#c-akane">紫音</a>眼睜睜看著自己最珍視的小學生死去並變成屍骸時，她的精神徹底崩潰。她開始收集屍骸、保護它們、把它們當作孩子一樣餵養。在廢棄糖果工廠中，<a href="#c-akane">紫音</a>為自己建造了一個王座——在那裡，至少死亡可以被她控制，至少怪物會聽她說話。<a href="#c-akane">紫音</a>背叛了隊伍，而隊伍被迫放逐了她。在這一刻，她們學會了一個殘酷的真相：並非所有人都能即時被救，有些人的傷痛深到只能選擇沉入黑暗。</p><p>在陰影中，<a href="#c-haruka">晴香</a>的阿姨<a href="#c-akiho"><strong>秋穗</strong></a>以頂尖生命機械學家的身份為隊伍提供技術支援——研發道具、調配藥物、分析魔法屍骸結構。<a href="#c-haruka">晴香</a>視她為少數可信任的後盾。但<a href="#c-akiho">秋穗</a>的動機從來不純粹：她的女兒<a href="#c-airi"><strong>愛莉</strong></a>早在帝歷 108 年意外成為第一具人造魔法屍骸，至今以石像形態被困。為了換回<a href="#c-airi">愛莉</a>，<a href="#c-akiho">秋穗</a>早已悄悄與<a href="#c-keishi">刑思</a>建立了不可告人的交易——她以「科學服務拯救<a href="#c-airi">愛莉</a>」說服自己，卻一步步走向背叛。</p></div></details>
 </article><article class="subcard subcard-wide flow-medium visual-compressed story-phase-card">
 <h3 id="story-2">第二階段：社會性抹殺與隊友墮落</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act II 的「隊友墮落 → 恐怖扮家家 → 偶像形象崩毀 → 社會清算 → 父親出賣・紗夜犧牲 → 情緒毒品擴散 → 愛莉潛意識風暴爆發」；從校園恐怖到社會獵巫，壓力從四面八方把英雄逼入最深的傷口。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 打怪無效</strong><span>隊伍雖然不斷消滅屍骸，但城市的痛苦沒有減少；每場勝利都只是把問題推遲到下一次爆發。</span></div>
-<div class="story-node"><strong>2. 紫音稱王</strong><span>被放逐後，紫音在廢棄地帶建立屍骸樂園，自稱女皇；她不是想毀滅世界，而是想保護被世界拋棄的怪物。</span></div>
-<div class="story-node"><strong>3. 回到學校</strong><span>帝國策劃校園恐懼事件，強迫主角群在死亡威脅下繼續扮演普通同學，令安全的校園變成心理刑場。</span></div>
-<div class="story-node"><strong>4. 恐怖扮家家</strong><span>長達兩週，越普通的場景越顯得不正常；魔法代價悄悄升級，隊員的身體開始計息，晨間意識斷層從兩秒拉長至半分鐘。</span></div>
-<div class="story-node"><strong>5. 菲直播失控</strong><span>在公開直播中，晴香體內的陰影人格菲奪取身體，吸走觀眾情緒，令全城第一次看見「天使」濾鏡下的恐怖真相。</span></div>
-<div class="story-node"><strong>6. 天使變公敵</strong><span>直播片段無法刪除，晴香由被崇拜的國民天使，瞬間變成人人恐懼的情緒吸血鬼。</span></div>
-<div class="story-node"><strong>7. 帝國清算</strong><span>帝國把失控影像當成證據，推動反魔法少女輿論，將晴香塑造成必須被清除的社會威脅。</span></div>
-<div class="story-node"><strong>8. 形象商品化</strong><span>晴香的經理人沒有保護她，反而把她的怪物形象包裝成上癮商品，連她的崩潰都被拿去賺錢。</span></div>
-<div class="story-node"><strong>9. 父親出賣・紗夜犧牲</strong><span>操的父親以「廢品可以重造」親手把她出賣給帝國；管理局同步武裝突襲大宅。管家紗夜擋槍犧牲，說了什麼——但創傷性耳鳴遮蔽了一切，操只看到口型，聽不到聲音。</span></div>
-<div class="story-node"><strong>10. 秋穗毒品擴散</strong><span>秋穗為了換回女兒愛莉，繼續研究情緒毒品；帝國利用這種毒品，把全城痛苦變成可管理的資源。</span></div>
-<div class="story-node"><strong>11. 愛莉地底抵消</strong><span>愛莉雖然被困成石像，仍在精神世界中替母親收拾後果，像紙皮騎士一樣默默斬斷毒品侵蝕。</span></div>
-<div class="story-node"><strong>12. 愛莉風暴爆發</strong><span>帝國衛生行動引發群體恐慌，成為壓垮愛莉的最後一根稻草；潛意識盾牌碎裂，主角團被迫進入超現實集體潛意識戰場。晴香第一次在黑暗深處看見那個只是想讓媽媽多看自己一眼的寂寞小女孩。</span></div>
+<div class="story-node"><strong>1. 打怪無效</strong><span>隊伍雖然不斷消滅屍骸，但城市的痛苦沒有減少；每場勝利都只是把問題推遲到下一次爆發。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="akane" href="#c-akane">紫音</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>2. 紫音稱王</strong><span>被放逐後，紫音在廢棄地帶建立屍骸樂園，自稱女皇；她不是想毀滅世界，而是想保護被世界拋棄的怪物。</span><div class="node-chars"><a class="char-tag" data-char="akane" href="#c-akane">紫音</a></div></div>
+<div class="story-node"><strong>3. 回到學校</strong><span>帝國策劃校園恐懼事件，強迫主角群在死亡威脅下繼續扮演普通同學，令安全的校園變成心理刑場。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>4. 恐怖扮家家</strong><span>長達兩週，越普通的場景越顯得不正常；魔法代價悄悄升級，隊員的身體開始計息，晨間意識斷層從兩秒拉長至半分鐘。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>5. 菲直播失控</strong><span>在公開直播中，晴香體內的陰影人格菲奪取身體，吸走觀眾情緒，令全城第一次看見「天使」濾鏡下的恐怖真相。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="fei" href="#c-fei">菲</a></div></div>
+<div class="story-node"><strong>6. 天使變公敵</strong><span>直播片段無法刪除，晴香由被崇拜的國民天使，瞬間變成人人恐懼的情緒吸血鬼。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>7. 帝國清算</strong><span>帝國把失控影像當成證據，推動反魔法少女輿論，將晴香塑造成必須被清除的社會威脅。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>8. 形象商品化</strong><span>晴香的經理人沒有保護她，反而把她的怪物形象包裝成上癮商品，連她的崩潰都被拿去賺錢。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>9. 父親出賣・紗夜犧牲</strong><span>操的父親以「廢品可以重造」親手把她出賣給帝國；管理局同步武裝突襲大宅。管家紗夜擋槍犧牲，說了什麼——但創傷性耳鳴遮蔽了一切，操只看到口型，聽不到聲音。</span><div class="node-chars"><a class="char-tag" data-char="sou" href="#c-sou">操</a><a class="char-tag" data-char="sayo" href="#c-sayo">紗夜</a></div></div>
+<div class="story-node"><strong>10. 秋穗毒品擴散</strong><span>秋穗為了換回女兒愛莉，繼續研究情緒毒品；帝國利用這種毒品，把全城痛苦變成可管理的資源。</span><div class="node-chars"><a class="char-tag" data-char="akiho" href="#c-akiho">秋穗</a><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a></div></div>
+<div class="story-node"><strong>11. 愛莉地底抵消</strong><span>愛莉雖然被困成石像，仍在精神世界中替母親收拾後果，像紙皮騎士一樣默默斬斷毒品侵蝕。</span><div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a><a class="char-tag" data-char="akiho" href="#c-akiho">秋穗</a></div></div>
+<div class="story-node"><strong>12. 愛莉風暴爆發</strong><span>帝國衛生行動引發群體恐慌，成為壓垮愛莉的最後一根稻草；潛意識盾牌碎裂，主角團被迫進入超現實集體潛意識戰場。晴香第一次在黑暗深處看見那個只是想讓媽媽多看自己一眼的寂寞小女孩。</span><div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act II 功能</h4><p>把「英雄故事」轉成「社會獵巫故事」；外敵壓力變成群眾壓力。</p></div>
@@ -2205,11 +2188,11 @@ details.full-text[open] summary::before{content:'－'}
 <h3 id="story-3">第三階段：計劃曝光與母親的選擇</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act III 的「刑思理念曝光 → 共痛計劃代價 → 秋穗身份揭露 → 母親背叛成形」；敵人的理想與盟友的背叛同步逼近。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 彩/刑思同體</strong><span>晴香以為身邊的葉語彩只是同班同學，真相卻是她與暴君刑思共用同一個身體，親近感變成威脅。</span></div>
-<div class="story-node"><strong>2. 共痛計劃</strong><span>刑思提出把全人類神經連起來：任何人傷害別人，自己也會同樣痛，表面上是終結暴力。</span></div>
-<div class="story-node"><strong>3. 自由被取消</strong><span>共痛計劃真正可怕之處，是它用「不再有人受傷」做理由，剝奪所有人的隱私、選擇與自我邊界。</span></div>
-<div class="story-node"><strong>4. 秋穗交出弱點</strong><span>刑思要求秋穗交出晴香的能力資料與弱點；秋穗必須在保護晴香與拯救愛莉之間作選擇。</span></div>
-<div class="story-node"><strong>5. 母親墜落</strong><span>秋穗最後選擇出賣晴香，因為她相信只要能救回愛莉，其他人的代價都可以被犧牲。</span></div>
+<div class="story-node"><strong>1. 彩/刑思同體</strong><span>晴香以為身邊的葉語彩只是同班同學，真相卻是她與暴君刑思共用同一個身體，親近感變成威脅。</span><div class="node-chars"><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a></div></div>
+<div class="story-node"><strong>2. 共痛計劃</strong><span>刑思提出把全人類神經連起來：任何人傷害別人，自己也會同樣痛，表面上是終結暴力。</span><div class="node-chars"><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a></div></div>
+<div class="story-node"><strong>3. 自由被取消</strong><span>共痛計劃真正可怕之處，是它用「不再有人受傷」做理由，剝奪所有人的隱私、選擇與自我邊界。</span><div class="node-chars"><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a></div></div>
+<div class="story-node"><strong>4. 秋穗交出弱點</strong><span>刑思要求秋穗交出晴香的能力資料與弱點；秋穗必須在保護晴香與拯救愛莉之間作選擇。</span><div class="node-chars"><a class="char-tag" data-char="akiho" href="#c-akiho">秋穗</a><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>5. 母親墜落</strong><span>秋穗最後選擇出賣晴香，因為她相信只要能救回愛莉，其他人的代價都可以被犧牲。</span><div class="node-chars"><a class="char-tag" data-char="akiho" href="#c-akiho">秋穗</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act III 功能</h4><p>刑思的理念與秋穗的背叛同時逼近，令主角群腹背受敵。</p></div>
@@ -2221,13 +2204,13 @@ details.full-text[open] summary::before{content:'－'}
 <h3 id="story-4">第四階段：犧牲在前，真相在後</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act IV 的「操人偶牆 → 紫音自爆 → 廣場決戰 → 三武器揭真相 → 主角身份反轉 → 緋潮意義重寫」；先以隊友的犧牲奠基，再以最沉重的真相轟炸。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 操人偶牆</strong><span>操被敵人的空間封鎖機制逼入死角，冷靜地用魔法絲線將自己縫入廢墟成為「人偶牆」，為隊友換取六十秒逃生。臨終前她說：「我選擇停留在我想停留的位置。」——這不是被迫，而是主動為自己的生命選擇了意義。</span></div>
-<div class="story-node"><strong>2. 紫音自爆</strong><span>紫音在帝國廣場主動過載，以生命為代價為隊友擋住災難擴散。</span></div>
-<div class="story-node"><strong>3. 廣場決戰</strong><span>決戰發生在全城都看得到的維多利亞廣場；晴香不只是跟刑思打，還要在所有市民面前接受審判。</span></div>
-<div class="story-node"><strong>4. 刑思揭真相</strong><span>刑思公開說出最殘酷的真相：這個世界本來不應該變成這樣，是晴香五歲時改寫現實造成的。</span></div>
-<div class="story-node"><strong>5. 五歲創世</strong><span>五歲的晴香無法接受親人死亡，情緒失控時把現實重寫成 Beta 世界，令魔法、屍骸和帝國制度一併誕生。</span></div>
-<div class="story-node"><strong>6. 英雄反轉</strong><span>晴香一直以為自己在拯救世界，但真相是：她想逃避的那一刻，正是這個地獄世界的起點。</span></div>
-<div class="story-node"><strong>7. 緋潮重定義</strong><span>即將吞噬城市的紅色洪流，不只是天災，而是被晴香那次奇蹟抹走的人與痛苦，回來要求世界償還。</span></div>
+<div class="story-node"><strong>1. 操人偶牆</strong><span>操被敵人的空間封鎖機制逼入死角，冷靜地用魔法絲線將自己縫入廢墟成為「人偶牆」，為隊友換取六十秒逃生。臨終前她說：「我選擇停留在我想停留的位置。」——這不是被迫，而是主動為自己的生命選擇了意義。</span><div class="node-chars"><a class="char-tag" data-char="sou" href="#c-sou">操</a></div></div>
+<div class="story-node"><strong>2. 紫音自爆</strong><span>紫音在帝國廣場主動過載，以生命為代價為隊友擋住災難擴散。</span><div class="node-chars"><a class="char-tag" data-char="akane" href="#c-akane">紫音</a></div></div>
+<div class="story-node"><strong>3. 廣場決戰</strong><span>決戰發生在全城都看得到的維多利亞廣場；晴香不只是跟刑思打，還要在所有市民面前接受審判。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a></div></div>
+<div class="story-node"><strong>4. 刑思揭真相</strong><span>刑思公開說出最殘酷的真相：這個世界本來不應該變成這樣，是晴香五歲時改寫現實造成的。</span><div class="node-chars"><a class="char-tag" data-char="keishi" href="#c-keishi">刑思</a><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>5. 五歲創世</strong><span>五歲的晴香無法接受親人死亡，情緒失控時把現實重寫成 Beta 世界，令魔法、屍骸和帝國制度一併誕生。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>6. 英雄反轉</strong><span>晴香一直以為自己在拯救世界，但真相是：她想逃避的那一刻，正是這個地獄世界的起點。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>7. 緋潮重定義</strong><span>即將吞噬城市的紅色洪流，不只是天災，而是被晴香那次奇蹟抹走的人與痛苦，回來要求世界償還。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act IV 功能</h4><p>完成全故事最大反轉：救世主身份翻面成創世罪人。</p></div>
@@ -2239,10 +2222,10 @@ details.full-text[open] summary::before{content:'－'}
 <h3 id="story-5">第五階段：崩潰與二十年沉睡</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act V 的「真相後崩潰 → 菲重置失敗 → 凜介錯 → 晴香被困集體潛意識 → 菲守護廢墟二十年」；真相之後沒有勝利，只有人接連支付代價。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 晴香崩潰</strong><span>晴香得知自己是整場災難的起源後，精神徹底崩潰。</span></div>
-<div class="story-node"><strong>2. 菲奪身重置</strong><span>菲強行奪取晴香身體，企圖再次重置世界洗清罪孽，結果令現實裂得更深。</span></div>
-<div class="story-node"><strong>3. 凜介錯</strong><span>凜拒絕被治癒，選擇切除情感成為殺戮機器；美夜子親手為她執行介錯。</span></div>
-<div class="story-node"><strong>4. 二十年沉睡</strong><span>菲的改變現實失敗後，晴香意識被拉入集體潛意識最深處，受困於刑思遺留的「態度剝奪詛咒」長達二十年；菲以晴香的肉體在廢墟中孤獨守護。</span></div>
+<div class="story-node"><strong>1. 晴香崩潰</strong><span>晴香得知自己是整場災難的起源後，精神徹底崩潰。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>2. 菲奪身重置</strong><span>菲強行奪取晴香身體，企圖再次重置世界洗清罪孽，結果令現實裂得更深。</span><div class="node-chars"><a class="char-tag" data-char="fei" href="#c-fei">菲</a><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>3. 凜介錯</strong><span>凜拒絕被治癒，選擇切除情感成為殺戮機器；美夜子親手為她執行介錯。</span><div class="node-chars"><a class="char-tag" data-char="rin" href="#c-rin">凜</a><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a></div></div>
+<div class="story-node"><strong>4. 二十年沉睡</strong><span>菲的改變現實失敗後，晴香意識被拉入集體潛意識最深處，受困於刑思遺留的「態度剝奪詛咒」長達二十年；菲以晴香的肉體在廢墟中孤獨守護。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a class="char-tag" data-char="fei" href="#c-fei">菲</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act V 功能</h4><p>將真相後的代價具體化：精神崩潰、菲的失敗、凜的不可挽回。</p></div>
@@ -2254,15 +2237,15 @@ details.full-text[open] summary::before{content:'－'}
 <h3 id="story-6">第六階段：覺醒與最終的承擔</h3>
 <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Final Act 的「二十年後覺醒 → 拒絕修正 → 愛莉現身 → 不同態度 → 最後承擔 → 魔法終結 → 普通人繼續活」；重點係承擔而非勝利。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 二十年後醒來</strong><span>二十年後，晴香重新醒來，同時取回這段時間發生過的殘酷記憶，不能再假裝不知道。</span></div>
-<div class="story-node"><strong>2. 拒絕再修正</strong><span>她終於明白，靠力量修正世界只是在逃避痛苦；真正要做的是停止繼續製造代價。</span></div>
-<div class="story-node"><strong>3. 愛莉現身</strong><span>晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局。</span></div>
-<div class="story-node"><strong>4. 不同態度</strong><span>愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種，也是愛莉走向對決的起點。</span></div>
-<div class="story-node"><strong>5. 愛莉對彩</strong><span>愛莉與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞。</span></div>
-<div class="story-node"><strong>6. 彩填補裂縫</strong><span>彩最後選擇犧牲自己來填補世界裂縫，讓晴香有機會走向最後的承擔。</span></div>
-<div class="story-node"><strong>7. 靜止搖籃</strong><span>世界要求晴香償還奇蹟的代價，她成為永恆情緒容器，承接被轉移出去的痛苦。</span></div>
-<div class="story-node"><strong>8. 魔法系統終結</strong><span>晴香的承擔終止了魔法少女、屍骸與情緒毒品的生產管線，剝削人的魔法系統停止運作。</span></div>
-<div class="story-node"><strong>9. 普通地活下去</strong><span>倖存者失去魔法，回到沒有奇蹟的現實；他們只能靠彼此連繫與自己的態度，繼續普通地活下去。</span></div>
+<div class="story-node"><strong>1. 二十年後醒來</strong><span>二十年後，晴香重新醒來，同時取回這段時間發生過的殘酷記憶，不能再假裝不知道。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>2. 拒絕再修正</strong><span>她終於明白，靠力量修正世界只是在逃避痛苦；真正要做的是停止繼續製造代價。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>3. 愛莉現身</strong><span>晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局。</span><div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a></div></div>
+<div class="story-node"><strong>4. 不同態度</strong><span>愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種，也是愛莉走向對決的起點。</span><div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>5. 愛莉對彩</strong><span>愛莉與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞。</span><div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>6. 彩填補裂縫</strong><span>彩最後選擇犧牲自己來填補世界裂縫，讓晴香有機會走向最後的承擔。</span><div class="node-chars"><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div></div>
+<div class="story-node"><strong>7. 靜止搖籃</strong><span>世界要求晴香償還奇蹟的代價，她成為永恆情緒容器，承接被轉移出去的痛苦。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>8. 魔法系統終結</strong><span>晴香的承擔終止了魔法少女、屍骸與情緒毒品的生產管線，剝削人的魔法系統停止運作。</span><div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div></div>
+<div class="story-node"><strong>9. 普通地活下去</strong><span>倖存者失去魔法，回到沒有奇蹟的現實；他們只能靠彼此連繫與自己的態度，繼續普通地活下去。</span><div class="node-chars"><a class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="saku" href="#c-saku">朔</a></div></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Final Act 功能</h4><p>把故事由「拯救世界」收束成「承擔世界的代價」。</p></div>
@@ -2733,6 +2716,24 @@ document.querySelectorAll('.char-img-item img').forEach(img => {
     lb.classList.add('open');
   });
 });
+</script>
+<script>
+(function(){
+  document.querySelectorAll('section.sec').forEach(function(sec){
+    var h2 = sec.querySelector(':scope > h2');
+    if (!h2) return;
+    var details = document.createElement('details');
+    details.className = 'sec-collapse';
+    var summary = document.createElement('summary');
+    summary.className = 'sec-h2';
+    while (h2.firstChild) summary.appendChild(h2.firstChild);
+    details.appendChild(summary);
+    var rest = Array.from(sec.childNodes).filter(function(n){ return n !== h2; });
+    rest.forEach(function(n){ details.appendChild(n); });
+    sec.appendChild(details);
+    h2.remove();
+  });
+})();
 </script>
 </body>
 </html>
