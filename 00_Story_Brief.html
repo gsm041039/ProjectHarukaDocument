@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>奇蹟魔法少女晴香 — Story Brief｜Visual Compressed Reader Layout v10</title>
+<title>奇蹟魔法少女晴香 — Story Brief｜Visual Compressed Reader Layout v11</title>
 <link href="art/Others/Logo.png" rel="icon" type="image/png"/>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
@@ -106,6 +106,24 @@ tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:t
 .char-img-item img{width:100%;height:100%;object-fit:cover;object-position:top;display:block;cursor:zoom-in;transition:transform .25s ease}
 .char-img-item:hover img{transform:scale(1.06)}
 .char-img-cap{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.72));color:#fff;font-size:10px;padding:20px 6px 5px;text-align:center;letter-spacing:.04em;line-height:1.3;pointer-events:none}
+/* ── Visual Design Details ── */
+.char-design{border-top:1px solid var(--border)}
+.char-design>summary{display:flex;align-items:center;gap:7px;padding:10px 18px;cursor:pointer;font-size:11.5px;font-weight:700;letter-spacing:.06em;color:var(--muted);user-select:none;list-style:none}
+.char-design>summary::-webkit-details-marker{display:none}
+.char-design>summary::before{content:"▶";font-size:9px;transition:transform .2s}
+.char-design[open]>summary::before{transform:rotate(90deg)}
+.char-design>summary:hover{color:var(--fg)}
+.design-form{display:flex;gap:16px;padding:14px 18px;border-top:1px solid var(--border);align-items:flex-start}
+.design-form:first-of-type{border-top:none}
+.design-img{flex:0 0 180px}
+.design-img img{width:100%;border-radius:6px;object-fit:cover;object-position:top;display:block}
+.design-img-cap{font-size:10px;text-align:center;color:var(--muted);margin-top:4px;letter-spacing:.04em}
+.design-notes{flex:1;font-size:12.5px;line-height:1.75}
+.design-notes h4{font-size:12.5px;font-weight:700;margin:0 0 8px;color:var(--fg);border-bottom:1px solid var(--border);padding-bottom:4px}
+.design-notes ul{margin:0;padding-left:16px}
+.design-notes li{margin-bottom:4px}
+.design-notes strong{color:var(--fg)}
+@media(max-width:600px){.design-form{flex-direction:column}.design-img{flex:none;width:100%;max-width:240px}}
 /* ── Lightbox ── */
 .img-lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:9000;align-items:center;justify-content:center;flex-direction:column;gap:12px;cursor:zoom-out}
 .img-lb.open{display:flex}
@@ -689,6 +707,17 @@ details.full-text[open] summary::before{content:'－'}
 .story-phase-card .story-node span{font-size:12.8px;line-height:1.62;color:#44403c}
 .story-phase-card .visual-note{font-size:13.2px}
 .story-phase-card details.full-text summary{background:#f5f3ff}
+
+
+/* v11 — dedup pass + corrected magical-girl eligibility canon */
+.dedup-note{margin:10px 0 14px;padding:10px 13px;border-radius:12px;background:#f0f9ff;border:1px solid #bae6fd;color:#0c4a6e;font-size:13px;line-height:1.65}
+.origin-lanes.three-lanes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.lane.device{border-color:#fde68a}.lane.device .lane-head{background:linear-gradient(135deg,#78350f,#d97706)}
+.lane.failed{border-color:#fecdd3}.lane.failed .lane-head{background:linear-gradient(135deg,#7f1d1d,#be123c)}
+.route-table{width:100%;border-collapse:collapse;font-size:13px;margin:12px 0 0}.route-table th{background:#1a0f3a;color:#fff;text-align:left;padding:9px 10px}.route-table td{border-bottom:1px solid var(--border);padding:9px 10px;vertical-align:top}.route-table tr:nth-child(even) td{background:#faf8ff}
+#mahou .device-cost-card .device-dual .box h4 .tag{display:inline-block;margin-left:6px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid currentColor;opacity:.78}
+.removed-duplicate-note{grid-column:1/-1;margin:8px 0 0;color:var(--muted);font-size:12.5px;font-style:italic}
+@media(max-width:1100px){.origin-lanes.three-lanes{grid-template-columns:1fr!important}}
 </style>
 </head>
 <body>
@@ -783,7 +812,7 @@ details.full-text[open] summary::before{content:'－'}
 <tr style="background:var(--surf2)"><td style="padding:7px 10px;border-bottom:1px solid var(--border)"><strong>Side Quest</strong></td><td style="padding:7px 10px;border-bottom:1px solid var(--border)">副角色完整弧光、世界灰色地帶、道德兩難選擇</td><td style="padding:7px 10px;border-bottom:1px solid var(--border)">誰值得被拯救？拯救者有沒有資格決定？</td></tr>
 <tr><td style="padding:7px 10px"><strong>態度選擇</strong></td><td style="padding:7px 10px">關鍵時刻以什麼方式面對不可改變的結果</td><td style="padding:7px 10px">「態度」的具體重量</td></tr>
 </tbody>
-</table><p>玩家的選擇不會創造完美快樂結局，但會影響角色如何理解自己、他人如何記憶死者、以及<a href="#c-haruka">晴香</a>最終能否以清醒姿態承擔代價。</p></article><article class="subcard flow-feature feature-logline"><h3>Logline</h3><blockquote class="bq-dark"><p>魔法少女<a href="#c-haruka">晴香</a>（故事開始時 16 歲，主線中踏入 17 歲）發現：她小時候為了逃避姊姊的死，不小心創造了整個世界——一個會把少女榨乾、變成怪物的世界。現在她必須選擇：繼續用力量「修正」一切但可能毀掉更多人，還是接受「自己就是災難的源頭」、永遠承受所有人的痛苦。</p></blockquote><div class="dual" style="margin-top:20px">
+</table><p>玩家的選擇不會創造完美快樂結局，但會影響角色如何理解自己、他人如何記憶死者、以及<a href="#c-haruka">晴香</a>最終能否以清醒姿態承擔代價。</p></article><article class="subcard flow-feature feature-logline"><h3>Logline</h3><blockquote class="bq-dark"><p>魔法少女<a href="#c-haruka">晴香</a>有改變現實的力量，但小時候唔知道。為了逃避姊姊的死，無意間觸發咗呢股力量，創造咗一個看起來美好但徹底扭曲的世界——表面光鮮，裡面榨乾所有人的人性。現在她背上咗整個世界的原罪。</p></blockquote><div class="dual" style="margin-top:20px">
 <div class="box box-green">
 <h4>這個故事 IS</h4>
 <ul style="margin:0;padding-left:16px">
@@ -825,7 +854,7 @@ details.full-text[open] summary::before{content:'－'}
 </ul></article></div></section>
 <!-- ═══════════════════════════════════════════════ 主題 -->
 <section class="sec dashboard-heavy" id="theme">
-<h2>主題</h2><div class="section-lead"><blockquote class="bq-dark"><p><strong>主題句</strong>：「面對不可控的命運時，『態度』是唯一的自由。」</p></blockquote><div class="box box-amber" style="margin:16px 0;font-size:13.5px">
+<h2>主題</h2><div class="section-lead"><blockquote class="bq-dark"><p><strong>主題句</strong>：「命運強加於你，無從逃避——但你嘅態度，係任何人都奪唔走嘅力量。」</p></blockquote><div class="box box-amber" style="margin:16px 0;font-size:13.5px">
 <strong>「態度」的精確定義</strong>：在本作中，「態度」不是樂觀口號，而是面對不可改變的痛苦時，一個人選擇逃避、控制、轉嫁，還是承認、承擔、繼續活下去的方式。它不保證好結果，但它是痛苦中僅存的主體性。
 </div></div><div class="subsection-grid"><article class="subcard flow-table flow-short"><h3>四大子主題</h3><div class="tw table-wrap-ok">
 <table>
@@ -1123,7 +1152,7 @@ details.full-text[open] summary::before{content:'－'}
 </tbody>
 </table>
 </div></article><article class="subcard flow-feature visual-compressed origin-divergence">
-<h3>魔法少女的起源：裂口 → 帝國機器 → 兩種分歧</h3>
+<h3>魔法少女的起源：標記資格 → 裝置旁路 → 解離兵器失敗線</h3><div class="dedup-note"><strong>Canon 修正：</strong>「真正魔法少女」同「裝置魔法少女」都必須先被晴香五歲願望標記；帝國裝置只能旁路、榨取、監控已標記的靈魂。沒有標記的少女無法成為正常魔法少女，只會在強制實驗中變成「解離兵器」或死亡。</div>
 <div class="system-map">
 <h4>制度生成鏈：晴香創造可能性，帝國製造成制度</h4>
 <div class="chain-steps compact-chain">
@@ -1134,52 +1163,53 @@ details.full-text[open] summary::before{content:'－'}
 <div class="step-card"><span class="step-k">Protocol</span><strong>潘朵拉協議</strong><span>魔法少女從創傷奇蹟，變成帝國可管理的消耗品制度。</span></div>
 </div>
 </div>
-<div class="lane-compare origin-lanes">
-<div class="lane good">
-<div class="lane-head"><span>真正的魔法少女</span><small>主角群 / Marked Soul</small></div>
+<div class="lane-compare origin-lanes three-lanes">
+<div class="lane good true-mahou-lane">
+<div class="lane-head"><span>真正魔法少女</span><small>Marked Soul / 自然整合</small></div>
 <div class="lane-flow">
-<div><b>資</b><span><strong>資格：</strong>被晴香五歲願望直接觸及，靈魂留下與裂口相連的標記。</span></div>
-<div><b>契</b><span>帝國裝置可以啟動，但不是憑空製造資格；資格本身來自晴香原罪。</span></div>
+<div><b>資</b><span><strong>資格：</strong>必須被晴香五歲願望直接觸及，靈魂留下與裂口相連的標記。</span></div>
+<div><b>源</b><span>力量不是被裝置硬借，而是透過面對創傷、整合自我而生長。</span></div>
 <div><b>識</b><span>保有自我意識，能選擇、能拒絕、能承擔代價。</span></div>
-<div><b>題</b><span>她們仍被制度榨取，但仍有「態度」自由——這就是主角群優勢。</span></div>
+<div><b>例</b><span>晴香、美夜子屬於這條路線；她們的強大來自「接納」而不是逃避。</span></div>
 </div>
 </div>
-<div class="lane bad">
-<div class="lane-head"><span>無意識兵器魔法少女</span><small>秋穗實驗 → 軍方工業化</small></div>
+<div class="lane device">
+<div class="lane-head"><span>裝置魔法少女</span><small>Marked Soul + 帝國心匣</small></div>
 <div class="lane-flow">
-<div><b>實</b><span>秋穗實驗暴力改造愛莉，證明靈魂可以被強行分離。</span></div>
-<div><b>產</b><span>軍方將方法工業化，繞過資格，任何少女都可能被強制改造。</span></div>
-<div><b>裂</b><span>自我被撕開，意識與身體分離，留下可操作的戰爭外殼。</span></div>
-<div><b>毒</b><span>被榨乾的絕望被回收，成為情緒毒品與帝國能源。</span></div>
+<div><b>資</b><span><strong>同樣需要晴香標記。</strong>沒有標記，帝國心匣無法製造正常魔法少女。</span></div>
+<div><b>契</b><span>帝國把裝置「遺棄」給合資格少女，令她以為自己被命運選中。</span></div>
+<div><b>耗</b><span>裝置繞過創傷整合，直接切走痛苦換力量；短期變強，長期燃盡。</span></div>
+<div><b>例</b><span>凜、紫音等屬於這條路線：仍有選擇，但被監控、被收割、受光環倒數威脅。</span></div>
+</div>
+</div>
+<div class="lane failed">
+<div class="lane-head"><span>解離兵器</span><small>無標記 / 失敗實驗品</small></div>
+<div class="lane-flow">
+<div><b>無</b><span><strong>沒有晴香標記。</strong>帝國與秋穗試圖繞過資格，強行把魔法塞入普通少女。</span></div>
+<div><b>裂</b><span>結果不是正常變身，而是靈魂分離：意識與身體被硬撕開。</span></div>
+<div><b>械</b><span>留下可操控的戰爭外殼，沒有真正選擇權。</span></div>
+<div><b>毒</b><span>被迫反芻的絕望被回收，成為情緒毒品與帝國能源。</span></div>
 </div>
 </div>
 </div>
-<details class="full-text"><summary>展開原本詳細文字：魔法少女起源與兩種製造背景</summary><div class="full-text-body"><p>晴香五歲時改變現實，在集體潛意識上撕裂了一道永久性的裂口，大量原始魔法能量從此不斷流出。帝國發現了這道裂口，意識到其中的能量可以被提取和利用——然後花了幾十年時間，建立起一整套榨取這股能量的機器。</p><p>帝國的研究鏈：發動靈樹戰爭奪取能量節點 → 捕獲<a href="#c-keishi">刑思</a>作為活體研究對象 → 委托<a href="#c-akiho">秋穗</a>開發情緒力量裝置 → 建造維多利亞之淚作為中央監控 → <a href="#c-keishi">刑思</a>篡位後將所有技術軍事化 → 以「潘朵拉協議」大規模量產魔法少女。</p><p><strong>總結</strong>：<a href="#c-haruka">晴香</a>製造了裂口，帝國建造了榨取裂口的機器。魔法少女是帝國的制度性產物，而她們能夠存在的前提條件，是<a href="#c-haruka">晴香</a>的原罪。</p>
-<p style="margin-top:14px"><strong>但帝國有兩種截然不同的製造方式：</strong></p>
-<div class="dual" style="margin:14px 0">
-<div class="box box-dark">
-<h4>無意識兵器魔法少女</h4>
-<p style="margin:0;font-size:13px">帝國軍方發現可以透過強制改造將<strong>任何少女</strong>改造成魔法兵器。<a href="#c-akiho">秋穗</a>20年前的實驗（改造女兒<a href="#c-aeri">愛莉</a>）意外啟動了這條黑暗路線。軍方將其工業化，用特殊裝置批量製造戰爭機器：強行切割少女的自我意識，讓她們的靈魂分裂，大腦被迫不斷反覆最深的創傷。她們無法選擇、無法拒絕、無法保有自己——唯有在破壞敵人的瞬間才能暫停痛苦。這些被榨乾的絕望最終被回收，稀釋成情緒毒品賣給普通市民當作快樂膠囊——帝國將「一個人的地獄」變成「另一個人的天堂」。</p>
+<details class="full-text"><summary>展開完整說明：魔法少女起源、三種路線與資格差異</summary>
+<div class="full-text-body">
+<p>晴香五歲時改變現實，在集體潛意識上撕裂了一道永久性的裂口，大量原始魔法能量從此不斷流出。帝國發現了這道裂口，意識到其中的能量可以被提取和利用——然後花了幾十年時間，建立起一整套榨取這股能量的機器。</p>
+<p>帝國的研究鏈：發動靈樹戰爭奪取能量節點 → 捕獲<a href="#c-keishi">刑思</a>作為活體研究對象 → 委托<a href="#c-akiho">秋穗</a>開發情緒力量裝置 → 建造維多利亞之淚作為中央監控 → <a href="#c-keishi">刑思</a>篡位後將所有技術軍事化 → 以「潘朵拉協議」大規模量產魔法少女。</p>
+<p><strong>總結</strong>：<a href="#c-haruka">晴香</a>製造了裂口，帝國建造了榨取裂口的機器。魔法少女是帝國的制度性產物，而她們能夠存在的前提條件，是<a href="#c-haruka">晴香</a>的原罪。</p>
+<table class="route-table">
+<thead><tr><th>路線</th><th>是否需要晴香標記？</th><th>製造 / 覺醒方式</th><th>意識狀態</th><th>結果</th></tr></thead>
+<tbody>
+<tr><td><strong>真正魔法少女</strong></td><td>需要。被晴香五歲願望直接觸及。</td><td>透過面對創傷、整合自我而自然覺醒。</td><td>保有完整自我，能選擇、能拒絕。</td><td>仍有代價，但力量來自「接納」。</td></tr>
+<tr><td><strong>裝置魔法少女</strong></td><td>需要。帝國裝置只能在已標記靈魂上生效。</td><td>帝國心匣旁路創傷整合，直接切走痛苦換力量。</td><td>仍保有自我，但逐步耗損並被監控。</td><td>短期變強，長期燃盡；可能出現光環處決機制。</td></tr>
+<tr><td><strong>解離兵器</strong></td><td>不具備標記，是帝國/秋穗試圖繞過資格的失敗實驗線。</td><td>暴力把魔法力量塞入普通少女身體，強行分離靈魂。</td><td>自我被撕開，意識與身體分離。</td><td>成為戰爭外殼；絕望數據被回收成情緒毒品。</td></tr>
+</tbody>
+</table>
+<p style="margin-top:14px">因此，「真正魔法少女」與「裝置魔法少女」不是有標記 / 無標記的分別，而是<strong>同樣有標記，但一條走向整合，一條被帝國裝置榨取</strong>。真正沒有晴香標記的，是解離兵器路線：那不是正常魔法少女，而是強行繞過資格後產生的失敗實驗品。</p>
 </div>
-<div class="box box-green">
-<h4>真正的魔法少女</h4>
-<p style="margin:0;font-size:13px">與無意識兵器完全相反，「真正的魔法少女」只能從被<a href="#c-haruka">晴香</a>五歲許願直接觸及的少女中誕生。她們保有完整的意識、能夠做出選擇、能夠拒絕。<a href="#c-haruka">晴香</a>的許願在她們靈魂上留下的連結讓帝國的技術得以生效，卻同時保護了她們的自我。這正是主角群（<a href="#c-haruka">晴香</a>、<a href="#c-miyako">美夜子</a>、<a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>等）相比軍方兵器的本質差異——她們雖然被魔法困住，但仍保有選擇的自由。</p>
-</div>
-</div>
-</div><hr/><div class="full-text-body"><div class="dual">
-<div class="box box-light">
-<h4>有人保護的少女（主角團）</h4>
-<p>因為在<a href="#c-haruka">晴香</a>許願時被波及，所以靈魂有「護甲」。她們雖然被魔法困住，但仍保有自己的意思。這就是為什麼她們能選擇、能拒絕、能改變。</p>
-</div>
-<div class="box box-red" id="unlinked">
-<h4>被強制離解的少女 / 解離兵器（從<a href="#c-aeri">愛莉</a>到軍方兵器）</h4>
-<p>秋穗 20 年前用暴力方式把魔法力量強行裝進少女身體，把她們的自我意識撕裂開（愛莉就是這樣）。她以為是在研究「怎樣製造更強的魔法少女」，卻反而啟動了帝國軍方後來的恐怖計劃。</p>
-<p style="margin-top:10px">現在軍方已經把秋穗的方法工業化了：用特殊裝置批量把普通少女變成戰爭機器，把她們的意識完全分離。她們的大腦被迫不斷反覆最深的創傷，唯有在破壞敵人的瞬間才能暫停幾秒痛苦。</p>
-<p style="margin-top:10px">這些被榨乾的絕望會被回收，稀釋後賣給普通市民當快樂膠囊（<strong>情緒毒品</strong>）。帝國硬生生把「一個人的地獄」變成「另一個人的天堂」。</p>
-</div>
-</div></div></details></article><article class="subcard flow-short"><h3>如何成為魔法少女？</h3><p>絕大多數少女都不知道自己被選中的過程。帝國大數據監控鎖定具有特定心理創傷的少女，暗中將變身裝置「遺棄」在她們某天必定路過的地方——少女撿到裝置，以為是命運，實際上是帝國的主動篩選。裝置內置後門，即時向帝國傳輸她的情緒數據。</p><p>撿到裝置後，真正的入門儀式幾乎總在少女最崩潰的一刻發生：她照進鏡子，看見鏡中的自己變得冷靜而強大，向她說「把痛苦交給我，我來替你承受」。少女觸碰鏡面，協議成立——她把自己最痛苦、最脆弱的那一部分切割出去，換取力量。鏡中那個「更強的自己」，是從她身上分裂出來的創傷性面具，不是真正的她。</p></article><article class="subcard flow-feature visual-compressed device-cost-card">
+</details></article><article class="subcard flow-short"><h3>如何成為魔法少女？</h3><p>絕大多數少女都不知道自己被選中的過程。帝國大數據監控鎖定具有特定心理創傷的少女，暗中將變身裝置「遺棄」在她們某天必定路過的地方——少女撿到裝置，以為是命運，實際上是帝國的主動篩選。裝置內置後門，即時向帝國傳輸她的情緒數據。</p><p>撿到裝置後，真正的入門儀式幾乎總在少女最崩潰的一刻發生：她照進鏡子，看見鏡中的自己變得冷靜而強大，向她說「把痛苦交給我，我來替你承受」。少女觸碰鏡面，協議成立——她把自己最痛苦、最脆弱的那一部分切割出去，換取力量。鏡中那個「更強的自己」，是從她身上分裂出來的創傷性面具，不是真正的她。</p></article><article class="subcard flow-feature visual-compressed device-cost-card">
 <h3>情緒力量裝置：使用 = 逃避 = 逐步燃盡</h3>
-<div class="visual-note"><strong>壓縮閱讀：</strong>「使用裝置係逃避」同「裝置有咩壞處」係同一條因果鏈：裝置繞過創傷整合 → 直接借力 → 情緒債累積 → 靈魂燃盡 / 帝國收割。</div>
+<div class="visual-note"><strong>壓縮閱讀：</strong>裝置不是「資格來源」，而是帝國用來榨取已標記少女的旁路工具：標記令心匣可啟動，裝置令痛苦被切走、數據被監控、情緒債越滾越大。</div>
 <div class="device-flow">
 <div class="device-node start"><strong>創傷裂痕</strong><span>少女有痛苦，但未能整合。</span></div>
 <div class="device-arrow">→</div>
@@ -1190,14 +1220,8 @@ details.full-text[open] summary::before{content:'－'}
 <div class="device-node danger"><strong>長期燃盡</strong><span>情緒債、監控、逃避能量、心之器裂縫同步擴大。</span></div>
 </div>
 <div class="dual device-dual">
-<div class="box box-light">
-<h4>自然覺醒 / 真正整合</h4>
-<p style="margin:0;font-size:13px">少女透過「鏡中的承諾」真正面對創傷，力量從真實自我中生長。心匣裂痕以金繼方式修復——裂縫本身成為光源。<strong>晴香與美夜子屬此類。</strong></p>
-</div>
-<div class="box box-red">
-<h4>裝置強制 / 逃避速成</h4>
-<p style="margin:0;font-size:13px">帝國製造的速成器從心之器裂痕強行收割情緒結晶。裂痕只被灰色焊痕補住，每次使用後繼續擴大。<strong>凜與紫音屬此類。</strong></p>
-</div>
+<div class="box box-light"><h4>自然覺醒 / 真正整合 <span class="tag">需標記</span></h4><p style="margin:0;font-size:13px">同樣需要被晴香願望標記；分別是少女透過「鏡中的承諾」真正面對創傷，力量從真實自我中生長。心匣裂痕以金繼方式修復——裂縫本身成為光源。<strong>晴香與美夜子屬此類。</strong></p></div>
+<div class="box box-red"><h4>裝置強制 / 逃避速成 <span class="tag">需標記＋心匣</span></h4><p style="margin:0;font-size:13px">同樣需要被晴香願望標記，但帝國心匣把這個資格變成可榨取的接口：從心之器裂痕強行收割情緒結晶。裂痕只被灰色焊痕補住，每次使用後繼續擴大。<strong>凜與紫音屬此類。</strong></p></div>
 </div>
 <div class="cost-grid">
 <div class="cost-card"><strong>燃燒未來靈魂</strong><span>預支未來靈魂換取現在力量，代價延後但急速累積。</span></div>
@@ -1207,13 +1231,13 @@ details.full-text[open] summary::before{content:'－'}
 <div class="cost-card"><strong>變身越來越沉重</strong><span>光環由神聖符號變成刑具感，身體感覺被勒緊。</span></div>
 </div>
 <blockquote><p>菲對此一針見血：「妳又要穿上這層假皮去逃避了嗎？」</p></blockquote>
-<details class="full-text"><summary>展開原本詳細文字：裝置原理與具體壞處</summary><p>絕大多數魔法少女依賴<strong>情緒力量裝置</strong>（心匣）來變身。這個裝置的本質是「靈魂的旁路手術工具」——它<em>繞過</em>內心提煉創傷的過程，讓少女把痛苦切割出去直接換取力量。她並沒有真正面對或整合自己的創傷，只是把它切除了。這就是為什麼使用裝置本質上是一種逃避。</p><p>菲對此一針見血：<strong>「妳又要穿上這層假皮去逃避了嗎？」</strong></p><div class="dual" style="margin:14px 0">
+<details class="full-text"><summary>展開原本詳細文字：裝置原理與具體壞處</summary><p>絕大多數魔法少女依賴<strong>情緒力量裝置</strong>（心匣）來變身。這個裝置的本質是「靈魂的旁路手術工具」——它<em>繞過</em>內心提煉創傷的過程，讓少女把痛苦切割出去直接換取力量。她並沒有真正面對或整合自己的創傷，只是把它切除了。這就是為什麼使用裝置本質上是一種逃避。</p><p><strong>資格釐清：</strong>裝置不能把無標記少女變成正常魔法少女；它只能在已被晴香願望標記的少女身上啟動。無標記少女被強行改造時，走向的是解離兵器或死亡，而不是裝置魔法少女。</p><p>菲對此一針見血：<strong>「妳又要穿上這層假皮去逃避了嗎？」</strong></p><div class="dual" style="margin:14px 0">
 <div class="box box-light">
-<h4>自然覺醒（不使用裝置）</h4>
+<h4>自然覺醒（需標記，不使用帝國裝置）</h4>
 <p style="margin:0;font-size:13px">少女透過「鏡中的承諾」儀式，真正面對並整合自己的創傷，讓力量從真實的自我中生長出來。心匣的裂痕以金色修復（金繼效果）——裂縫本身成為光源，比原來更完整。<strong>晴香與<a href="#c-miyako">美夜子</a>屬此類。</strong></p>
 </div>
 <div class="box box-red">
-<h4>裝置強制（使用裝置）</h4>
+<h4>裝置強制（需標記，使用帝國裝置）</h4>
 <p style="margin:0;font-size:13px">裝置是帝國製造的速成器：從心之器裂痕強行收割情緒結晶鑄成工具。心匣的裂痕以焊接痕修補——灰色、無美感，每次使用後裂縫繼續擴大。<strong>凜與<a href="#c-akane">紫音</a>屬此類。</strong></p>
 </div>
 </div><hr/><div class="tw table-wrap-ok">
@@ -1339,20 +1363,7 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </div></article></div></section>
 <!-- ═══════════════════════════════════════════════ 核心世界法則 -->
-<section class="sec" id="rules">
-<h2>核心世界法則</h2><div class="subsection-grid"><article class="subcard flow-short"><h3>情緒守恆定律——痛苦不會消失，只會轉移</h3><ul>
-<li>魔法少女每次「打敗」怪物，其實是把負面情緒排放到別處</li>
-<li>日區（富人區）的快樂，必須由夜區（貧民區）的痛苦來支付</li>
-<li><strong>主題意義</strong>：「治好傷口」是不可能的，只能「學會帶著傷口活下去」</li>
-</ul></article><article class="subcard flow-short"><h3>人類、魔法少女、怪物——同一條光譜</h3><div class="dual3">
-<div class="box box-green" style="text-align:center"><strong>人類</strong><br/><span style="font-size:13px">情感完整，但力量微弱</span></div>
-<div class="box box-light" style="text-align:center"><strong>魔法少女</strong><br/><span style="font-size:13px">消耗情感換取力量，正在「非人化」的過程中</span></div>
-<div class="box box-dark" style="text-align:center"><strong style="color:#fff">魔法屍骸</strong><br/><span style="font-size:13px">心之器徹底破碎後的悲劇存在——任何人都可能成為，靈魂仍在但失去選擇的自由</span></div>
-</div><p>打敗怪物不是「消滅敵人」，而是「幫助曾經是人的他們重新選擇」。</p></article><article class="subcard flow-short"><h3>集體潛意識——所有魔法的源頭</h3><p>所有人類共享的深層意識空間，是情緒能量流動的「海洋」。視覺呈現為無盡的後巷與唐樓。情緒在這個空間裡不是靜止的——它像水流一樣持續流動、傳染，一個人強烈的情緒釋出後，會向外暈開，被附近的靈魂感應到。三層深度：</p><ul>
-<li><strong>回聲層</strong>——所有人做夢都會觸及，殘留著日常情緒碎片</li>
-<li><strong>留存海</strong>——魔法少女可以潛入，保存著較完整的記憶與意志</li>
-<li><strong>冥河</strong>——最深處，只有少數人能到達（<a href="#c-haruka">晴香</a>、<a href="#c-keishi">刑思</a>、<a href="#c-fei">菲</a>）；被抹殺靈魂的怨念與緋潮能量積聚於此</li>
-</ul></article></div></section>
+
 <!-- ═══════════════════════════════════════════════ 主要角色 -->
 <section class="sec dashboard-heavy" id="chars">
 <h2>主要角色</h2>
@@ -1407,6 +1418,37 @@ details.full-text[open] summary::before{content:'－'}
 <div style="margin-top:6px"><strong>標誌：</strong>棒球褸萌袖 · 雙面盒墜（母親遺物）</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="晴香 日常服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png"/><div class="design-img-cap">學生日常・偶像私服</div></div>
+<div class="design-notes"><h4>學生日常 / 偶像私服（金魚・魚旗語言）</h4><ul>
+<li><strong>主題</strong>：金魚旗——可愛、活力與被展示感的視覺核心</li>
+<li><strong>髮型</strong>：呆毛 + 雙辮對應金魚旗輪廓；青色挑染 = 魚旗顏色</li>
+<li><strong>服裝</strong>：棒球外套 + 熱褲；上衣青色心形圖案對應魚尾</li>
+<li><strong>關鍵單品</strong>：掛頸大耳機、雙面盒墜項鍊（母親遺物）、斜背包、金魚造型掛飾</li>
+<li><strong>行為 Tells</strong>：焦慮縮手入袖；說謊時過度燦爛笑容（面部肌肉僵硬）；疲憊戴耳機低頭切斷眼神</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="晴香 偶像歌手服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_Singer.png"/><div class="design-img-cap">偶像歌手服</div></div>
+<div class="design-notes"><h4>偶像歌手形態</h4><ul>
+<li><strong>定位</strong>：王道氛圍全開——觀眾與她同步代入「魔法少女 = 正義」；拯救者 Archetype 具現</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="晴香 魔法少女服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png"/><div class="design-img-cap">魔法少女形態</div></div>
+<div class="design-notes"><h4>魔法少女形態（公主 × 女武神 × 拳擊手）</h4><ul>
+<li><strong>公主語言</strong>：皇冠是最重要符號；粉 + 白 + 金保留夢幻少女感</li>
+<li><strong>女武神語言</strong>：光芒／羽翼紋路武器；戰鬥時光紋延展如舞台光線</li>
+<li><strong>拳擊手語言</strong>：拳擊腰帶橫向鎖定重心；手套令晴香的「拯救」可以直接回擊</li>
+<li><strong>武器</strong>：雙形態長矛——近戰少林棍法 / 投擲金色光跡（雷神之錘參考，自動飛回）</li>
+<li><strong>戰鬥美學</strong>：掃擊以舞蹈流暢性為核心，每次掃擊後有「收勢」靜止幀</li>
+<li><strong>Act III 後期</strong>：受傷時傷口揭露集體潛意識視覺（後巷、公屋、生活碎片）——自我邊界消融後身體成為集體情緒海的出口</li>
+<li><strong>視覺演變</strong>：Act I 粉色 100% 飽和 → Act II 暗淡死魚眼 → Act III Wolf Cut + 破碎星星瞳孔 → Act IV 純白髮 · 近透明灰瞳（融入夕黑色元素）</li>
+</ul></div>
+</div>
+</details>
 </div>
 <p class="char-group-header">核心軸心角色（直接影響主線走向）</p>
 <div class="char-card" id="c-fei">
@@ -1417,9 +1459,9 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-fei"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Yu/ConceptArt_Yu_CasualWear.png"/>菲 日常服"&gt;
+<img #c-fei"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Yu/ConceptArt_Yu_CasualWear.png">菲 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：冷酷直接、零容忍逃避——用殘忍迫使<a href="#c-haruka">晴香</a>直面真相，是以最刺骨的方式表達最深的愛</p>
@@ -1439,13 +1481,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png"/>葉語彩 日常服"&gt;
+<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png">葉語彩 日常服"&gt;
         <div class="char-img-cap">葉語彩 · 日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Kurosou_CasualWear.png"/>刑思 日常服"&gt;
+<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Kurosou_CasualWear.png">刑思 日常服"&gt;
         <div class="char-img-cap">刑思 · 日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
 <img alt="魔法少女服 1" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_1.png"/>
 <div class="char-img-cap">魔法少女服 1</div>
@@ -1474,6 +1516,46 @@ details.full-text[open] summary::before{content:'－'}
 <div style="margin-top:4px;color:var(--muted);font-size:11px">熊公仔「永遠潔淨」：無論怎麼摔滾絨毛永保完全潔淨——首要身份線索</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="葉語彩 日常服" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png"/><div class="design-img-cap">葉語彩</div></div>
+<div class="design-notes"><h4>葉語彩（學生偽裝・日常）</h4><ul>
+<li><strong>主題</strong>：占卜少女——月、四角星、八角星營造神秘柔弱可被保護假象</li>
+<li><strong>露肩設計</strong>：刻意露肩製造弱小感與迷惑性，令旁人把她理解成需要照顧的少女</li>
+<li><strong>熊公仔</strong>：貴族感名貴熊——寒酸/柔弱偽裝與高級熊形成反差，潛意識令人懷疑身份</li>
+<li><strong>Cover Story</strong>：寄養孤兒偽裝以真話構成（螢確實死了、熊確實是螢遺物），核心是選擇性省略</li>
+<li><strong>刑思規則</strong>：從不主動說謊——所有謊言皆由真話構成；省略的是「她已是帝國皇帝」</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="刑思 魔法少女形態" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png"/><div class="design-img-cap">刑思 魔法少女形態</div></div>
+<div class="design-notes"><h4>刑思 魔法少女形態（惡夢・囚牢語言）</h4><ul>
+<li><strong>定位</strong>：刑思的真正身份——不是黑化前身，而是學生偽裝的底層真相</li>
+<li><strong>囚牢語言</strong>：頭上鐵環 + 腳鐐 = 囚禁，不是哥德裝飾</li>
+<li><strong>脆弱語言</strong>：露背、露肩、赤腳突出心靈上的弱小與缺乏保護層</li>
+<li><strong>黑雲語言</strong>：衣服黑色不祥之雲 = 刑思魔法少女形態白雲的反轉（白雲=刑思外殼；黑雲=葉語彩惡夢本源）</li>
+<li><strong>Character Flow</strong>：倒 V 向下——心靈力量不足、下墜、被拖回創傷深處</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="葉語彩 魔法少女形態" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_1.png"/><div class="design-img-cap">葉語彩 魔法少女形態</div></div>
+<div class="design-notes"><h4>葉語彩 魔法少女形態（夢境偽裝・雨衣語言）</h4><ul>
+<li><strong>定位</strong>：刑思以葉語彩身份偽裝成正常學生時使用的魔法少女外殼</li>
+<li><strong>主題</strong>：夢 / 夢境；副主題獨角獸——白雲、星空與月共同營造安全童話假象</li>
+<li><strong>共通語彙</strong>：頭上環、心口心形裝飾、雲紋必須與葉語彩本源形態保持形狀記憶——偽裝外殼 vs 真正身份的關係</li>
+<li><strong>Flow 差異</strong>：同樣倒 V 向下，但比葉語彩本源更柔和、更厚、更像保護衣，呈現被包裝過的脆弱</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="刑思 帝國皇帝形態" src="art/ConceptArt/Characters/Aya/ConceptArt_Kurosou_CasualWear.png"/><div class="design-img-cap">刑思 帝國皇帝形態</div></div>
+<div class="design-notes"><h4>刑思 帝國皇帝形態</h4><ul>
+<li><strong>核心反差</strong>：極度寬大皇袍 + 全覆蓋帝國面具偽裝成高大皇帝——面具下是 148 cm 幼童身軀</li>
+<li><strong>視覺謎題</strong>：觀眾先看見巍峨帝王，揭露後才理解皇袍是為了讓幼童看起來像成人</li>
+<li><strong>尺寸語言</strong>：「寬大」不是設計失誤，而是刻意設計——比身體大兩倍的皇袍是偽裝機制本身</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-miyako">
 <div class="char-head" style="background:linear-gradient(135deg,#0c4a6e,#1e40af)">
@@ -1483,17 +1565,17 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png"/>美夜子 日常服"&gt;
+<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png">美夜子 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png"/>美夜子 魔法少女服"&gt;
+<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png">美夜子 魔法少女服"&gt;
         <div class="char-img-cap">魔法少女服</div>
-</div>
+</img></div>
 <div class="char-img-item" style="grid-column:1/-1">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png"/>美夜子 黑貓形態"&gt;
+<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png">美夜子 黑貓形態"&gt;
         <div class="char-img-cap">黑貓形態（避難所詛咒）</div>
-</div>
+</img></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1518,6 +1600,37 @@ details.full-text[open] summary::before{content:'－'}
 <div style="margin-top:4px;color:var(--muted);font-size:11px">深藍色單邊高馬尾，金色挑染（復活副作用）</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="美夜子 日常服" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png"/><div class="design-img-cap">人類日常（校服即常服）</div></div>
+<div class="design-notes"><h4>人類日常（戰備學生）</h4><ul>
+<li><strong>定位</strong>：沒有衣著喜好，校服就是日常服——重點不是時尚，而是「隨時能戰鬥的學生」</li>
+<li><strong>手套</strong>：固定戴手套，掌心有貓 paw 設計——隨時準備戰鬥，避免徒手接觸武器或留下痕跡</li>
+<li><strong>隱藏武裝</strong>：書包 / 側袋內裝不同武器；包袋設計可帶貓元素，但內部功能是武器收納</li>
+<li><strong>星月 motif</strong>：五角星與月是人類日常形態主要符號；頭飾為星，耳環為月——不可被普通可愛裝飾取代</li>
+<li><strong>貓元素</strong>：袋、手機掛飾、細小五金件可加入貓 motif，代表她從抗拒到承認貓形態也是自己一部分</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="美夜子 魔法少女服" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png"/><div class="design-img-cap">魔法少女形態（冰上溜冰手 Unit 01）</div></div>
+<div class="design-notes"><h4>魔法少女形態（冰上溜冰手 × 星月 × 冰晶）</h4><ul>
+<li><strong>服裝核心</strong>：深藍/冰藍色高柏連體衣，玻璃光澤如第二層皮膚；琉璃腰紗以半透明冰晶布料形成滑冰裙擺</li>
+<li><strong>X flow</strong>：心口羽毛向上，裙擺/腰紗向上展開形成 X 型輪廓——冰舞者旋轉時的張力與受控擴張</li>
+<li><strong>冰晶語言</strong>：馬尾尾部有冰晶；裙擺以冰晶切面作主題，戰鬥時像冰面裂線般反光</li>
+<li><strong>後期武裝</strong>：凜犧牲後改用雙持 HK MP7A1（標準消光黑，零裝飾，無魔法少女化改造）；槍與魔法服的視覺衝突是刻意設計——衝突本身即拒絕魔法的宣示</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="美夜子 黑貓形態" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png"/><div class="design-img-cap">黑貓形態（避難所詛咒）</div></div>
+<div class="design-notes"><h4>貓形態（The Mascot）</h4><ul>
+<li><strong>外觀</strong>：全黑英短 (British Shorthair)，毛髮濃密短絨，頭圓臉大</li>
+<li><strong>識別點</strong>：左耳星型飾品；星月與冰晶飾物可作為貓形態的高階版本語言</li>
+<li><strong>行為反差</strong>：外表極度可愛，行為像「疲憊的大叔」——癱坐露肚皮、沉重嘆氣</li>
+<li><strong>意義</strong>：不是單純 mascot，而是美夜子由「討厭變成貓」到「接受自己曾經是貓」的自我認同載體</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-group-header">主線悲劇角色</div>
 <div class="char-card" id="c-akane">
@@ -1528,13 +1641,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear.png"/>紫音 日常服"&gt;
+<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear.png">紫音 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png"/>紫音 魔法少女服"&gt;
+<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png">紫音 魔法少女服"&gt;
         <div class="char-img-cap">魔法少女服</div>
-</div>
+</img></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1552,6 +1665,30 @@ details.full-text[open] summary::before{content:'－'}
 <div style="margin-top:4px;color:var(--muted);font-size:11px">扣帶一緊一鬆，破布尾巴，罐頭拉環</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="紫音 日常服" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear.png"/><div class="design-img-cap">日常（不良少女・小狗）</div></div>
+<div class="design-notes"><h4>平民形態（不良少女・小狗偽裝）</h4><ul>
+<li><strong>核心 Silhouette</strong>：短身上衣 + 短褲 + 吊帶襪 + 厚靴；讀作不良少女但保留少女感</li>
+<li><strong>髮色危險感</strong>：紫髮 + 紅挑染增加危險預感；黃色布條固定辮子為高辨識度焦點</li>
+<li><strong>髮廊尖位</strong>：頭上剪刀代表黑社會打手隨時有武力可用；鬢邊水平突出 = 難相處充滿尖銳感</li>
+<li><strong>小狗主題</strong>：靴上毛毛、褲上吊帶裝飾、上衣小狗圖案共建小狗 motif——可愛外皮遮掩危險性</li>
+<li><strong>日常限制</strong>：日常不留過長頭髮（打手需靈活）——此限制在魔法形態中被反轉</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="紫音 魔法少女服" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png"/><div class="design-img-cap">魔法少女（甜品師・skull 小狗）</div></div>
+<div class="design-notes"><h4>魔法少女形態（甜品師 × skull 小狗）</h4><ul>
+<li><strong>主題扭轉</strong>：日常小狗 motif → 變身後異化為 skull 小狗（危險、死亡、糖果混合）</li>
+<li><strong>布料語言</strong>：大量鋸齒狀布料；左右不平衡是核心，不可整理成對稱美少女服</li>
+<li><strong>不平衡規則</strong>：襪子左右不同、裙上蝴蝶結不在正中、裝飾節奏偏移；整體 flow 為 zig-zag</li>
+<li><strong>願望外化</strong>：魔法形態使用大雙辮——現實中作為打手無法留長，變身後終於能把願望外化</li>
+<li><strong>武器</strong>：大型糖果粉碎鎚——甜品師主題 + 鋸齒設計，像用來粉碎硬糖、骨頭與幻想的重型甜品工具</li>
+<li><strong>特殊</strong>：戰鬥狂暴時嘴角向耳延伸 40 度角，露出異常整齊鯊魚齒（執念飽和視覺化）</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-sou">
 <div class="char-head" style="background:linear-gradient(135deg,#134e4a,#065f46)">
@@ -1561,13 +1698,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png"/>操 日常服"&gt;
+<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png">操 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png"/>操 魔法少女服"&gt;
+<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png">操 魔法少女服"&gt;
         <div class="char-img-cap">魔法少女服</div>
-</div>
+</img></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1590,6 +1727,29 @@ details.full-text[open] summary::before{content:'－'}
 <div style="margin-top:4px;color:var(--muted);font-size:11px">傘面唯一主視覺：白色扇形缺口——逃生缺口語言</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="操 日常服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png"/><div class="design-img-cap">日常（天鵝語言）</div></div>
+<div class="design-notes"><h4>平民形態（天鵝語言）</h4><ul>
+<li><strong>主題</strong>：天鵝的高雅、克制與白色羽摺——不是普通大小姐制服</li>
+<li><strong>服裝</strong>：深藍外套鈕扣永遠不扣（只作裝飾）；領口永遠固定小三角缺口 = 唯一允許自己的逃生口</li>
+<li><strong>天鵝語言</strong>：衣袖、裙身與傘內側露出的白色摺位必須讀作天鵝羽毛</li>
+<li><strong>傘</strong>：深藍長傘傘面唯一主視覺為白色扇形缺口，邊緣蛛網蕾絲；傘永遠半開偏右前方，角度固定</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="操 魔法少女服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png"/><div class="design-img-cap">魔法少女（蜘蛛 rose 傀儡師）</div></div>
+<div class="design-notes"><h4>魔法少女形態（蜘蛛 rose 傀儡師）</h4><ul>
+<li><strong>主題</strong>：蜘蛛（控制・織網・捕食）× rose（瑰麗・精緻・被觀賞的完美）</li>
+<li><strong>眼布</strong>：核心心理符號——代表操逃避接受自己處於男性身體的事實；「拒絕看見自我」的外化</li>
+<li><strong>肩上蜘蛛網</strong>：肩部蜘蛛網必須清晰可讀；絲線即蛛網，操控傀儡即織網捕食</li>
+<li><strong>六處突出布條</strong>：身上 6 處向外突出形成蜘蛛腳式 flow（固定採用 6 處非 8 隻，保持 silhouette 可讀性）</li>
+<li><strong>蜘蛛覆蓋天鵝</strong>：魔法形態以蜘蛛主題覆蓋日常天鵝；終局時天鵝捕食蜘蛛，反噬為自身支撐</li>
+<li><strong>測量道具</strong>：玫瑰金量尺（0.1mm 精度）偽裝成腰間圓盤珠寶飾品；0.1mm 誤差即觸發崩潰</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-rin">
 <div class="char-head" style="background:linear-gradient(135deg,#1e3a5f,#1d4ed8)">
@@ -1599,24 +1759,24 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_CasualWear.png"/>凜 日常服"&gt;
+<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_CasualWear.png">凜 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png"/>凜 魔法少女服 1"&gt;
+<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png">凜 魔法少女服 1"&gt;
         <div class="char-img-cap">魔法少女服 1</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png"/>凜 魔法少女服 2"&gt;
+<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png">凜 魔法少女服 2"&gt;
         <div class="char-img-cap">魔法少女服 2</div>
-</div>
+</img></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：情感徹底封閉的完美主義者——以「精確執行」代替感受，選擇拒絕治癒本身，就是她最後的主體意志</p>
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid var(--acc)">目的：靠痛覺確認自己還活著，讓美夜子記住她 → 其實需要承認自己渴望被愛，而不是用「拒絕被治癒」來假裝自己不需要任何人</p>
 <div class="box box-dark" style="margin:0 0 12px;font-size:12.5px;padding:10px 14px">
-<strong style="color:#a78bfa">身份說明</strong>：凜在一次戰鬥中為掩護美夜子撤退而過度透支，被頸部「光環」扭斷脖子處決。黑奏事後以「改變現實」將其肉體完全還原至死前狀態，並令她加入情緒管理局——記憶模糊是此次肉體復原的副作用，她對過去仍有大概印象，並在後期逐漸完整回復所有記憶。靈魂帶有「頸椎斷裂即死」的死亡印記，令她無法感受正面情緒，只能靠痛覺確認自己還活著。
+<strong style="color:#a78bfa">身份說明</strong>：凜在一次戰鬥中為掩護美夜子撤退而過度透支，被頸部「光環」扭斷脖子處決。刑思事後以「改變現實」將其肉體完全還原至死前狀態，並令她加入情緒管理局——記憶模糊是此次肉體復原的副作用，她對過去仍有大概印象，並在後期逐漸完整回復所有記憶。靈魂帶有「頸椎斷裂即死」的死亡印記，令她無法感受正面情緒，只能靠痛覺確認自己還活著。
 </div>
 <p>美夜子最深羈絆的戰友。她原本甚至已經小有名氣，正朝著偶像歌手的道路走去，但帝國發現了她的魔法少女天賦，沒有問她是否願意，直接將她強制徵召。她的唱歌生涯被掐斷，在 Beta 線中其偶像位置更被<a href="#c-haruka">晴香</a>取代。</p>
 <p>在一次戰鬥中，她為了掩護<a href="#c-miyako">美夜子</a>撤退而過度透支力量，觸發了系統的死亡倒數，最終被頸部出現的「光環」強行扭斷脖子處決。犧牲後，她被<a href="#c-keishi">刑思</a>用靈魂碎片重組為公務員並抹除記憶。重組後的她對正面情緒完全麻木，只能透過「痛覺」來確認自己的存在。當記憶逐漸恢復時，她拒絕被治癒，自願接受徹底切除情感的手術成為殺戮機器（Unit 00），最終由<a href="#c-miyako">美夜子</a>親手為其介錯。</p>
@@ -1629,6 +1789,39 @@ details.full-text[open] summary::before{content:'－'}
 <div><strong>主色：</strong>孔雀綠 · 粉紅 · 天藍 · 白 · 香檳色</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="凜 日常服" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_CasualWear.png"/><div class="design-img-cap">日常（金絲雀隱身語法）</div></div>
+<div class="design-notes"><h4>常服（金絲雀隱身語法）</h4><ul>
+<li><strong>主題</strong>：明星出街隱藏身份 + 金絲雀——會唱歌卻被迫噤聲的意象</li>
+<li><strong>外套</strong>：短身連帽外套（全黑/深灰）+ 鴨嘴帽；帽簷底側加極幼淡黃邊線（任何光線下可讀到）；兜帽內襯灰粉/煙粉（低頭或風吹才露出的呼吸色）</li>
+<li><strong>裙</strong>：深炭黑百摺裙，摺面加同色淡籠格壓紋（近看才見的籠格——被困歌鳥）；裙擺摺位內側有極淡黃羽片形 wedge（走路才閃一下）</li>
+<li><strong>金絲雀語言位置</strong>：只藏在帽飾、鈴鐺、耳環、內襯或走動時閃現，外觀整體偏黑灰低調</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="凜 魔法少女服 1" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png"/><div class="design-img-cap">魔法少女形態一（孔雀・飛行員）</div></div>
+<div class="design-notes"><h4>魔法少女形態一（孔雀・飛行員）</h4><ul>
+<li><strong>主題</strong>：孔雀（開屏・被看見）+ 飛行員——凜原本明亮自信可愛的一面</li>
+<li><strong>主色</strong>：孔雀綠為主；金 + 粉紅 + 白拉回夢幻少女感</li>
+<li><strong>輪廓</strong>：背上翼與飛行員外套上衣共同形成 X shape；整體 flow 向外展開，讀作開朗、自信、起飛</li>
+<li><strong>飛行員語言</strong>：外套與靴上白色毛毛令設計不只剩孔雀公主感，保留 aviator 主題</li>
+<li><strong>孔雀語言</strong>：「開屏」= 在舞台上被看見——與凜 Alpha 線偶像身份互相呼應</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="凜 魔法少女服 2" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png"/><div class="design-img-cap">魔法少女形態二（痛苦化身・烏鴉）</div></div>
+<div class="design-notes"><h4>魔法少女形態二（痛苦化身・烏鴉）+ 關鍵視覺線索</h4><ul>
+<li><strong>主題</strong>：痛苦的化身 + 烏鴉——以痛證明自己仍存在的極端結果</li>
+<li><strong>核心視覺</strong>：C 型金屬扣水平插入肉身，半圈埋入半圈外露並連接鐵鏈——痛覺被服裝化、儀式化、華麗化</li>
+<li><strong>烏鴉語言</strong>：肩上毛毛 = 烏鴉羽毛；黑色 / 深綠 / 金屬扣鐵鏈形成夜鴉般沉重輪廓</li>
+<li><strong>Character Shape</strong>：整體倒 V 向內收縮——與 MG1 外開 X shape 形成明確反差</li>
+<li><strong>頸部遮掩</strong>：高領 / 飾帶刻意遮住頭部，遮掩本身是 visual clue；重組後外觀不變但眼神空洞、微笑僵硬如批量生產</li>
+<li><strong>脖子紅線</strong>：頸部一圈淡淡紅線 = 頭顱被縫回的痕跡；鏡中映照頸椎斷裂死亡瞬間</li>
+</ul></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-akiho">
 <div class="char-head" style="background:linear-gradient(135deg,#1c2a40,#2d1b4e)">
@@ -1638,13 +1831,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_CasualWear.png"/>秋穗 日常服"&gt;
+<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_CasualWear.png">秋穗 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png"/>秋穗 無臉執行官"&gt;
+<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png">秋穗 無臉執行官"&gt;
         <div class="char-img-cap">無臉執行官</div>
-</div>
+</img></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：工作狂結果論者——一切代價都能被「救回<a href="#c-airi">愛莉</a>」合理化，愛與執念之間的界線早已模糊</p>
@@ -1666,13 +1859,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png"/>愛莉 日常服"&gt;
+<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png">愛莉 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 <div class="char-img-item">
-<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png"/>愛莉 魔法少女服（聖女騎士）"&gt;
+<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png">愛莉 魔法少女服（聖女騎士）"&gt;
         <div class="char-img-cap">魔法少女服（聖女騎士）</div>
-</div>
+</img></div>
 <div class="char-img-item">
 <img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear_Child.png"/>愛莉 紙皮騎士"&gt;
         <div class="char-img-cap">紙皮騎士</div>
@@ -1691,12 +1884,34 @@ details.full-text[open] summary::before{content:'－'}
 <aside style="flex:0 0 185px;font-size:11.5px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);border-radius:6px;padding:10px 12px;line-height:1.7;align-self:flex-start">
 <div style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin-bottom:7px">◈ 美術設計備注</div>
 <div><strong>關鍵詞：</strong>橙色 · 希望 · 堅定· 電單車手 · 紅白格仔 · 紙皮</div>
-<div style="margin-top:6px"><strong>生前：</strong></div>
 <div><strong>紙皮騎士：</strong>瓦楞紙箱盔甲 + 膠帶紙劍 + 蠟筆笑臉盾；</div>
 <div><strong>石像：</strong>半透明橙色水晶 · 橙紅脈紋如心跳</div>
-<div style="margin-top:4px;color:var(--muted);font-size:11px">聖女騎士（<a href="#c-haruka">晴香</a>夢中）：鎧甲 + 黃金劍 + 披風</div>
 </aside>
 </div><!-- /outer flex -->
+<details class="char-design">
+<summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="愛莉 生前日常服" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png"/><div class="design-img-cap">生前日常（電單車騎手）</div></div>
+<div class="design-notes"><h4>生前 / 精神世界日常（電單車騎手）</h4><ul>
+<li><strong>主題</strong>：喜歡騎電單車的騎手；視覺年齡約 20–25 歲，成熟騎手感</li>
+<li><strong>紅白格頸巾</strong>：賽車設計語言核心，必須穩定保留——連接日常與紙皮騎士形態的共通符號</li>
+<li><strong>服裝成熟感</strong>：長褲提高成熟感與騎手實用性；性格仍保留活潑毒舌行動力強，但不可回到幼態不良少女外觀</li>
+<li><strong>髮色</strong>：鮮豔橙色——警示色，渴望被關注</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="愛莉 紙皮騎士" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear_Child.png"/><div class="design-img-cap">紙皮騎士形態（精神世界）</div></div>
+<div class="design-notes"><h4>紙皮騎士形態（精神世界）</h4><ul>
+<li><strong>構成</strong>：T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾；盔甲上用馬克筆寫歪歪斜斜的「最強」</li>
+<li><strong>核心設計規則</strong>：被打碎就用膠帶黏回去，越戰越多膠帶痕跡——戰損本身是成長的視覺記錄</li>
+<li><strong>紅白格共通語言</strong>：披風尾部加入手畫紅白格仔對應日常頸巾；必須看起來像手畫，不應變成高級印刷布料</li>
+<li><strong>成熟與童稚並存</strong>：外觀視覺年齡成熟，但紙皮盔甲仍保留小孩式手作感——這種反差是愛莉的核心</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="愛莉 聖女騎士形態" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png"/><div class="design-img-cap">聖女騎士形態（魔法少女）</div></div>
+</div>
+</details>
 </div>
 <div class="char-card" id="c-saku">
 <div class="char-head" style="background:linear-gradient(135deg,#374151,#1f2937)">
@@ -1706,9 +1921,9 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-saku"="" alt="莫&lt;a href=" src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_CasualWear.png"/>浩然 日常服"&gt;
+<img #c-saku"="" alt="莫&lt;a href=" src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_CasualWear.png">浩然 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1757,9 +1972,9 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-hanako"="" alt="雨宮&lt;a href=" src="art/ConceptArt/Characters/Hanako/ConceptArt_Hanako_CasualWear.png"/>花子 日常服"&gt;
+<img #c-hanako"="" alt="雨宮&lt;a href=" src="art/ConceptArt/Characters/Hanako/ConceptArt_Hanako_CasualWear.png">花子 日常服"&gt;
         <div class="char-img-cap">日常服</div>
-</div>
+</img></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：天才中的天才——所有人的目光、讚美與期待都投向她，令<a href="#c-akiho">秋穗</a>一生活在她的陰影之下</p>
@@ -2019,41 +2234,41 @@ details.full-text[open] summary::before{content:'－'}
 <details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>在維多利亞廣場的決戰中，<a href="#c-keishi">刑思</a>向<a href="#c-haruka">晴香</a>和全世界揭露了最令人絕望的真相：這個充滿魔法、怪物與悲劇的世界，其實是<a href="#c-haruka">晴香</a>五歲那年，為了逃避親人被殺的極度恐懼，無意中用強大的力量「強行扭曲現實」而創造出來的。<a href="#c-haruka">晴香</a>以為自己是拯救世界的英雄，但原來她才是這個地獄的源頭。而那股正要吞噬城市的紅色洪流（緋潮），就是當年被<a href="#c-haruka">晴香</a>強行抹去、無數本應存在的靈魂的哀鳴與反撲。</p></div></details>
 </article><article class="subcard subcard-wide flow-medium visual-compressed story-phase-card">
 <h3 id="story-5">第五階段：慘烈犧牲與二十年沉睡</h3>
-<div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act V 的「真相後崩潰 → 菲重置失敗 → 隊友犧牲 → 愛莉點火 → 二十年空白」；節奏係災難連鎖，不係單一高潮。</div>
+<div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act V 的「真相後崩潰 → 菲重置失敗 → 隊友連環犧牲 → 晴香被困集體潛意識 → 菲守護廢墟二十年」；節奏係災難連鎖，不係單一高潮。</div>
 <div class="story-strip">
-<div class="story-node"><strong>1. 晴香崩潰</strong><span>晴香知道自己是災難源頭後，精神承受不住；她不再只是受害者，也必須面對自己造成的傷害。</span></div>
-<div class="story-node"><strong>2. 菲奪身重置</strong><span>菲接管晴香身體，想用再次重置世界的方法洗清一切；但重置本身就是逃避，所以只令現實裂得更嚴重。</span></div>
-<div class="story-node"><strong>3. 紫音自爆</strong><span>紫音在帝國廣場主動過載自爆，用自己最後的力量擋住災難，為其他人爭取時間。</span></div>
-<div class="story-node"><strong>4. 操人偶牆</strong><span>操被逼到死角後，選擇把自己縫進廢墟，變成封路的人偶牆，替隊友換取六十秒逃生時間。</span></div>
-<div class="story-node"><strong>5. 愛莉現身</strong><span>晴香內心最深處仍想被人拯救，這個願望喚醒愛莉；她以聖女騎士姿態正式介入戰局。</span></div>
-<div class="story-node"><strong>6. 不同態度</strong><span>愛莉同樣承受巨大創傷，但她沒有選擇轉嫁痛苦；她向晴香證明，受傷後仍可以選另一種面對方式。</span></div>
-<div class="story-node"><strong>7. 二十年沉睡</strong><span>災難後，晴香意識沉入靈魂深處；菲則用她的身體在廢墟世界中守護二十年。</span></div>
+<div class="story-node"><strong>1. 晴香崩潰</strong><span>晴香得知自己是整場災難的起源後，精神徹底崩潰。</span></div>
+<div class="story-node"><strong>2. 菲奪身重置</strong><span>菲強行奪取晴香身體，企圖再次重置世界洗清罪孽，結果令現實裂得更深。</span></div>
+<div class="story-node"><strong>3. 紫音自爆</strong><span>紫音在帝國廣場主動過載，以生命為代價為隊友擋住災難擴散。</span></div>
+<div class="story-node"><strong>4. 操人偶牆</strong><span>操被逼至死角，以自身絲線將自己縫入廢墟成為「人偶牆」，為隊友換取六十秒逃生。</span></div>
+<div class="story-node"><strong>5. 凜介錯</strong><span>凜拒絕被治癒，選擇切除情感成為殺戮機器；美夜子親手為她執行介錯。</span></div>
+<div class="story-node"><strong>6. 二十年沉睡</strong><span>菲的改變現實失敗後，晴香意識被拉入集體潛意識最深處，受困於刑思遺留的「態度剝奪詛咒」長達二十年；菲以晴香的肉體在廢墟中孤獨守護。</span></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Act V 功能</h4><p>將真相的代價具體化：精神、隊友、世界結構一起崩塌。</p></div>
 <div class="matrix-card"><h4>核心轉折</h4><p>真正的希望不是重置世界，而是有人展示「另一種態度」仍然存在。</p></div>
 <div class="matrix-card"><h4>主題種子</h4><p>犧牲不自動帶來勝利；它只為下一個人保留選擇的可能。</p></div>
 </div>
-<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>得知真相後，<a href="#c-haruka">晴香</a>精神徹底崩潰。<a href="#c-fei">菲</a>完全奪取了身體的控制權，企圖再次強行重置世界來洗清<a href="#c-haruka">晴香</a>的罪孽，結果導致世界進一步撕裂。隊友<a href="#c-akane">紫音</a>和<a href="#c-sou">操</a>在絕境中先後選擇了犧牲——<a href="#c-akane">紫音</a>在帝國廣場主動過載自爆，化成最後的防線；<a href="#c-sou">操</a>被敵人的空間封鎖機制逼至死角，冷靜地用自己的絲線將身體縫入廢墟，以「人偶牆」封印通道，換取隊友逃生的六十秒。<a href="#c-sou">操</a>臨終前的話是「我選擇停留在我想停留的位置」——這不是被迫的犧牲，而是她自己選擇的位置。</p><p>就在世界因<a href="#c-fei">菲</a>的失敗重置而進一步撕裂之際，<a href="#c-haruka">晴香</a>內心最深處「渴望有人來拯救她」的願望，觸發了一個意想不到的反應：<a href="#c-airi"><strong>愛莉</strong></a>從被動的精神錨點轉變為主動的參與者，以魔法少女（聖女騎士）的形態正式現身。她向崩潰邊緣的<a href="#c-haruka">晴香</a>展示了「相同的創傷，可以有不同的態度選擇」——她自己就是證明。這是點燃<a href="#c-haruka">晴香</a>最終希望的關鍵火種，卻也是<a href="#c-airi">愛莉</a>走向最後對決的開始。</p><p>災難過後，<a href="#c-haruka">晴香</a>的意識沉入最深層的靈魂空間沉睡，而<a href="#c-fei">菲</a>則控制著<a href="#c-haruka">晴香</a>的肉體，在廢墟中孤獨地守護這個破碎的世界長達二十年。</p></div></details>
+<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>得知真相的那一刻，<a href="#c-haruka">晴香</a>的精神徹底崩潰。這不只是「我做錯了」的罪惡感——而是發現自己不只是受害者，更是整場災難的起源。帝國存在、世界撕裂、每一個犧牲、每一個被改寫的命運，其根源都可以追溯到她。這種認知的重量令她無法繼續支撐意識。</p><p>就在<a href="#c-haruka">晴香</a>的意志開始崩解的瞬間，<a href="#c-fei">菲</a>抓住空隙，完全奪取了身體的控制權。<a href="#c-fei">菲</a>的算盤很直接：再次強行重置世界，把一切歷史的罪孽都抹消掉，還<a href="#c-haruka">晴香</a>一個乾淨的起點。但這一次的重置完全失敗。現實已不是可以被單方面改寫的素材；<a href="#c-fei">菲</a>的強行干預不但沒能縫合裂痕，反而令世界進一步撕裂。逃避的代價，只有更多的崩潰。</p><p>在連鎖崩潰之中，<a href="#c-akane">紫音</a>在帝國廣場選擇主動過載。她以自己的身體為燃料，觸發全爆炸式的力量釋放，化成擋住災難擴散的最後一道防線，為其他人爭取了撤退的時間。</p><p>緊接著，<a href="#c-sou">操</a>被敵人的空間封鎖機制困入死角，退路被完全封死。面對這個局面，她沒有慌亂，而是冷靜地用魔法少女形態的絲線，一針一線地將自己的身體縫入廢墟的結構之中，以「人偶牆」的形式封印了唯一的通道，為隊友換取了逃生的六十秒。臨終前，<a href="#c-sou">操</a>留下的話是：「我選擇停留在我想停留的位置。」——這不是走投無路下的被迫犧牲，而是她主動為自己的生命選擇了意義。</p><p>在廣場最深處，<a href="#c-rin">凜</a>的記憶正在逐漸回復——那些被強行抹去的情感、過去的身份、以及對<a href="#c-miyako">美夜子</a>的記憶。然而她在記憶回復之後，作出了令人窒息的選擇：拒絕被治癒。她選擇自願切除一切殘存的情感，讓自己徹底成為純粹的殺戮機器。<a href="#c-miyako">美夜子</a>沒有辦法阻止她，只能親手為<a href="#c-rin">凜</a>執行介錯——在那一刻承受「有些傷口永遠無法癒合」這個最殘酷的事實。</p><p><a href="#c-fei">菲</a>的「改變現實」沒能修復任何傷痕——它只是令時間線被暴力撕裂，世界進一步崩解。在這場崩解中，<a href="#c-haruka">晴香</a>的意識被拉離肉體，沉入集體潛意識最深處。<a href="#c-keishi">刑思</a>留下的最終詛咒——「態度剝奪」——在此刻生效：<a href="#c-haruka">晴香</a>被困在集體潛意識的靈魂空間裡，失去了自由選擇態度的能力，只能在一個扭曲的「幸福房間」裡主觀體驗漫長的二十年。</p><p>然而對<a href="#c-fei">菲</a>而言，最殘酷的或許不是失敗本身——而是一個她從未真正正視的問題：就算「改變現實」成功了，<a href="#c-haruka">晴香</a>的傷也不會消失。歷史可以被改寫，時間線可以被抹消，但那些傷是長在人身上的，不在任何一條時間線上。<a href="#c-fei">菲</a>用盡一切去追求的「新現實」，即使真的降臨，也治癒不了任何心靈。她想為<a href="#c-haruka">晴香</a>洗清一切，卻始終沒有理解，有些東西是無法用「重來一次」來解決的。她選擇留下來，用<a href="#c-haruka">晴香</a>的肉體守著這個她親手撕裂的世界，長達二十年。</p></div></details>
 </article><article class="subcard subcard-wide flow-medium visual-compressed story-phase-card">
 <h3 id="story-6">第六階段：覺醒與最終的承擔</h3>
-<div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Final Act 的「二十年後覺醒 → 拒絕修正 → 最後承擔 → 魔法終結 → 普通人繼續活」；重點係承擔而非勝利。</div>
+<div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Final Act 的「二十年後覺醒 → 拒絕修正 → 愛莉現身 → 不同態度 → 最後承擔 → 魔法終結 → 普通人繼續活」；重點係承擔而非勝利。</div>
 <div class="story-strip">
 <div class="story-node"><strong>1. 二十年後醒來</strong><span>二十年後，晴香重新醒來，同時取回這段時間發生過的殘酷記憶，不能再假裝不知道。</span></div>
 <div class="story-node"><strong>2. 拒絕再修正</strong><span>她終於明白，靠力量修正世界只是在逃避痛苦；真正要做的是停止繼續製造代價。</span></div>
-<div class="story-node"><strong>3. 凜介錯</strong><span>凜記憶逐漸回復後，拒絕被治癒，自願切除一切情感成為純粹殺戮機器；美夜子無法阻止，只能親手為她執行介錯——承受「有些傷口永遠無法癒合」這個事實。</span></div>
-<div class="story-node"><strong>4. 愛莉對彩</strong><span>愛莉自 Act V 被晴香的潛意識願望喚醒後，一直以聖女騎士身份持續存在；此時她與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞。</span></div>
-<div class="story-node"><strong>5. 彩填補裂縫</strong><span>彩最後選擇犧牲自己來填補世界裂縫，讓晴香有機會走向最後的承擔。</span></div>
-<div class="story-node"><strong>6. 靜止搖籃</strong><span>世界要求晴香償還奇蹟的代價，她成為永恆情緒容器，承接被轉移出去的痛苦。</span></div>
-<div class="story-node"><strong>7. 魔法系統終結</strong><span>晴香的承擔終止了魔法少女、屍骸與情緒毒品的生產管線，剝削人的魔法系統停止運作。</span></div>
-<div class="story-node"><strong>8. 普通地活下去</strong><span>倖存者失去魔法，回到沒有奇蹟的現實；他們只能靠彼此連繫與自己的態度，繼續普通地活下去。</span></div>
+<div class="story-node"><strong>3. 愛莉現身</strong><span>晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局。</span></div>
+<div class="story-node"><strong>4. 不同態度</strong><span>愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種，也是愛莉走向對決的起點。</span></div>
+<div class="story-node"><strong>5. 愛莉對彩</strong><span>愛莉與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞。</span></div>
+<div class="story-node"><strong>6. 彩填補裂縫</strong><span>彩最後選擇犧牲自己來填補世界裂縫，讓晴香有機會走向最後的承擔。</span></div>
+<div class="story-node"><strong>7. 靜止搖籃</strong><span>世界要求晴香償還奇蹟的代價，她成為永恆情緒容器，承接被轉移出去的痛苦。</span></div>
+<div class="story-node"><strong>8. 魔法系統終結</strong><span>晴香的承擔終止了魔法少女、屍骸與情緒毒品的生產管線，剝削人的魔法系統停止運作。</span></div>
+<div class="story-node"><strong>9. 普通地活下去</strong><span>倖存者失去魔法，回到沒有奇蹟的現實；他們只能靠彼此連繫與自己的態度，繼續普通地活下去。</span></div>
 </div>
 <div class="mini-matrix">
 <div class="matrix-card"><h4>Final Act 功能</h4><p>把故事由「拯救世界」收束成「承擔世界的代價」。</p></div>
 <div class="matrix-card"><h4>核心轉折</h4><p>晴香最後沒有逃避、重置或勝利，而是清醒地接受不可逆後果。</p></div>
 <div class="matrix-card"><h4>主題落點</h4><p>命運未必能改變，但面對命運的態度仍然屬於自己。</p></div>
 </div>
-<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>二十年後，<a href="#c-haruka">晴香</a>帶著二十年裡所有殘酷的記憶醒來。她終於明白，不斷用力量去「修正」和逃避，只會製造更多悲劇。</p><p>覺醒後的最終決戰中，<a href="#c-airi">愛莉</a>與<a href="#c-keishi">葉語彩</a>正面交鋒——兩個同樣被創傷塑造、同樣因摯愛之人的選擇而承受一切的靈魂，用各自的答案對撞。彩選擇以犧牲填補世界裂縫，保護了<a href="#c-haruka">晴香</a>走向最終承擔的那條路。</p><p>最終，世界守恆機制將<a href="#c-haruka">晴香</a>「強制索回」，化身為永恆靜止的情緒容器——靜止搖籃。這個命運徹底終結了剝削人的魔法系統。倖存下來的人（包括一直守護她的<a href="#c-miyako">美夜子</a>）失去了魔法，回歸為普通人。他們終於要學會，在一個沒有魔法、充滿傷痕的真實世界裡，靠著自己與身邊人的連繫，繼續勇敢地活下去。</p></div></details>
+<details class="full-text"><summary>展開原本詳細文字（未刪減）</summary><div class="full-text-body"><p>二十年後，<a href="#c-haruka">晴香</a>的意識從集體潛意識最深處甦醒。對她而言，這二十年並非空白——那是漫長的主觀煎熬，每一個細節她都記得。她醒來時，身邊是蒼老了二十年的<a href="#c-haruka">晴香</a>的守護者，而外面的世界也已面目全非。但她沒有因此崩潰——她已經在靈魂空間裡承受了足夠漫長的黑暗，現在她選擇醒來。</p><p>覺醒帶來的第一個清醒，是終於看透「修正」的本質。不斷用「改變現實」去消除後果、重寫歷史，看似是拯救，實則是將代價轉嫁給每一個捲入其中的人。每一次「重置」都只是在製造新的傷口，同時拒絕面對舊的。<a href="#c-haruka">晴香</a>決定停止。</p><p>就在這一刻，<a href="#c-airi"><strong>愛莉</strong></a>出現了。在<a href="#c-haruka">晴香</a>沉睡的二十年間，<a href="#c-airi">愛莉</a>一直潛伏在集體潛意識的邊緣，在<a href="#c-haruka">晴香</a>最迷失的時候悄悄擋下精神衝擊。如今<a href="#c-haruka">晴香</a>醒來，<a href="#c-airi">愛莉</a>也走出了那個守護的位置，以聖女騎士的完整形態現身，正式踏入最後的戰局。</p><p><a href="#c-airi">愛莉</a>沒有說教，沒有給出任何保證。她能給<a href="#c-haruka">晴香</a>的，只是她自己的存在：同樣承受過毀滅性的創傷，同樣走在隨時可能崩潰的邊緣——但她站在這裡，選擇了另一種面對的方式。她不是沒有痛苦，她只是沒有讓痛苦決定她的一切。這是點燃<a href="#c-haruka">晴香</a>最後一絲意志的火種；也是<a href="#c-airi">愛莉</a>走向她自己終局的起點。</p><p>最終決戰中，<a href="#c-airi">愛莉</a>與<a href="#c-aya">葉語彩</a>正面交鋒。兩個靈魂都被創傷塑造，都因摯愛之人的命運而承受了不屬於自己的重量——但她們走向了截然不同的答案。這場交鋒不是力量的比拼，而是兩種態度的對撞：一種選擇以控制消除痛苦，另一種選擇在痛苦中仍然保有自己。彩在那一刻從<a href="#c-keishi">刑思</a>的掌控中奪回了身體，主動燃燒自己的靈魂，填補世界撕裂所留下的因果裂縫——還清了她當初分裂出刑思、創造 Beta 線所積欠的一切債務。她用這個選擇，為<a href="#c-haruka">晴香</a>保留了走向最後承擔的那條路。</p><p>世界守恆機制隨之啟動。<a href="#c-haruka">晴香</a>最初「改變現實」所借出的力量必須被索回——那是無可迴避的代價。守恆機制將<a href="#c-haruka">晴香</a>「強制索回」，令她化為永恆靜止的情緒容器，承接所有曾被魔法系統強制流通、轉嫁的情緒與痛苦。這個狀態被稱為「靜止搖籃」。她沒有掙扎，也沒有逃避——她清醒地接受了這個命運，因為她知道這是唯一能夠真正終止這個循環的方式。</p><p><a href="#c-haruka">晴香</a>的承擔，徹底斬斷了維持魔法系統運作的根源：不再有新的魔法少女被招募，不再有屍骸被製造，不再有情緒毒品從人的傷口裡被提煉出來。那條以痛苦為燃料的剝削管線，就此停止。</p><p>倖存下來的人——包括以人類戰士身份走完最後一程的<a href="#c-miyako">美夜子</a>——失去了魔法，回歸為普通人。沒有奇蹟，沒有力量，只有傷痕，只有彼此，只有每一天要重新作出的選擇。他們終於要學會，在一個不再有魔法可以依靠的世界裡，靠著連繫與態度，繼續勇敢地、普通地活下去。</p></div></details>
 </article></div></section>
 <!-- ═══════════════════════════════════════════════ 結局 -->
 <section class="sec reading-heavy" id="ending">
@@ -2177,7 +2392,7 @@ details.full-text[open] summary::before{content:'－'}
 <div style="flex:1;padding-left:24px">
 <div style="background:#0c1e3a;border:1px solid #1e3a8a;border-radius:8px;padding:10px 14px">
 <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#60a5fa;margin-bottom:4px">前史</div>
-<div style="color:#bfdbfe;font-size:13px"><a href="#c-rin" style="color:#bfdbfe">凜</a>在戰場犧牲（第一次死亡）；<a href="#c-miyako" style="color:#bfdbfe">美夜子</a>目睹後退化為黑貓逃亡；<a href="#c-airi" style="color:#bfdbfe">愛莉</a>成為第一具人造魔法屍骸；<a href="#c-keishi" style="color:#bfdbfe">刑思</a>將<a href="#c-rin">凜</a>復活為無記憶的帝國官員</div>
+<div style="color:#bfdbfe;font-size:13px"><a href="#c-rin" style="color:#bfdbfe">凜</a>在戰場犧牲（第一次死亡）；<a href="#c-miyako" style="color:#bfdbfe">美夜子</a>目睹後退化為黑貓逃亡；<a href="#c-airi" style="color:#bfdbfe">愛莉</a>成為第一具人造魔法屍骸；<a href="#c-keishi" style="color:#bfdbfe">刑思</a>將<a href="#c-rin">凜</a>復活為無記憶的情緒管理局成員</div>
 </div>
 </div>
 </div>

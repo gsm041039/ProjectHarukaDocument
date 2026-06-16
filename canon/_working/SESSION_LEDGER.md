@@ -1,6 +1,7 @@
 # SESSION_LEDGER
 
 ## Current Phase
+- Phase 15 (Act III Outline 設計) — **Round 044（2026-06-16）人物視覺設計 `<details>` 展開區塊實作（00_Story_Brief.html）；5個角色（晴香・彩/黑奏・紫音・操・愛莉）各加入 collapsible 視覺設計 section；image-left/notes-right 並排 layout；CSS 新增 `.char-design`/`.design-form`/`.design-img`/`.design-notes`。不影響主線 Outline 批核流程**
 - Phase 15 (Act III Outline 設計) — **Round 043（2026-06-15）Story Brief 結構完善化 + 無意識兵器/情緒毒品新設定整合完成（00_Story_Brief.md）；§魔法少女的起源 加入兩種製造方式對比；Markdown/HTML 結構對齐。不影響主線 Outline 批核流程**
 - Phase 15 (Act III Outline 設計) — **Round 042（2026-06-15）記憶/靈魂「無法遺忘」設定整合完成（CanonFileIntegrator）；QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成。主阻塞點仍為 ACT_III v0.3 作者批核（不受影響）**
   - [x] READ+AUDIT：CanonFileIntegrator + 01_world_rules/02_glossary/04_timeline/yu.md/miyako.md/akiho.md/99_decision_log
