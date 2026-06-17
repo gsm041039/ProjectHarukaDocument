@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="zh-Hant">
 <head>
@@ -15,21 +15,21 @@
   --acc:#7c3aed;
   --pink:#db2777;
   --amber:#d97706;
-  --bg:#f9f8f6;
-  --surf:#fff;
-  --surf2:#f5f3ff;
-  --txt:#1c1917;
-  --muted:#78716c;
-  --border:#e8e3f8;
-  --shad:rgba(124,58,237,.07);
+  --bg:#0f0a15;
+  --surf:#1a1425;
+  --surf2:#1a1425;
+  --txt:#e8e8e8;
+  --muted:#a0a0a0;
+  --border:#2a2438;
+  --shad:rgba(124,58,237,.15);
 }
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans TC','Microsoft JhengHei',system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.8;font-size:15px}
 
 /* ── Sidebar ── */
 .sidebar{position:fixed;top:0;left:0;width:var(--sw);height:100vh;background:var(--sbg);overflow-y:auto;z-index:100}
-.sb-head{padding:22px 18px 14px;border-bottom:1px solid rgba(255,255,255,.07);color:#fff;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
+.sb-head{padding:22px 18px 14px;border-bottom:1px solid rgba(255,255,255,.07);color:#e9d5ff;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase}
 .sb-label{padding:10px 18px 2px;font-size:9.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(196,181,253,.38)}
-.sidebar a{display:block;padding:5px 18px 5px 26px;color:var(--stxt);text-decoration:none;font-size:12.5px;transition:all .12s;border-left:2px solid transparent}
+.sidebar a{display:block;padding:5px 18px 5px 26px;color:#e9d5ff;text-decoration:none;font-size:12.5px;transition:all .12s;border-left:2px solid transparent}
 .sidebar a:hover{color:#fff;background:rgba(124,58,237,.15);border-left-color:rgba(196,181,253,.5)}
 .sidebar a.active{color:#e9d5ff;background:rgba(124,58,237,.25);border-left-color:#a78bfa}
 .sidebar a.sub{padding-left:36px;font-size:11.5px;color:rgba(196,181,253,.62)}
@@ -51,20 +51,27 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans TC','Mic
 /* ── Section ── */
 .sec{padding:44px 0 0;border-bottom:1px solid var(--border)}
 .sec:last-child{border-bottom:none}
-h2{font-size:21px;font-weight:800;color:#1a0f3a;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-block}.sec-collapse{border:none;margin:0}.sec-h2{font-size:21px;font-weight:800;color:#1a0f3a;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-flex;align-items:baseline;gap:8px;cursor:pointer;list-style:none;user-select:none}.sec-h2::-webkit-details-marker,.sec-h2::marker{display:none}.sec-h2::before{content:'▶';font-size:13px;color:var(--acc);flex-shrink:0}details[open].sec-collapse>.sec-h2::before{content:'▼'}
-h3{font-size:16px;font-weight:700;color:#2d1b69;margin:26px 0 10px}
-h4{font-size:14px;font-weight:700;color:#4c1d95;margin:16px 0 6px}
+h2{font-size:21px;font-weight:800;color:#d0d0ff;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-block}
+
+/* ── Category Section ── */
+.category-section{margin:56px 0 34px;padding:22px 24px;background:linear-gradient(135deg,rgba(124,58,237,.15) 0%,rgba(124,58,237,.08) 100%);border-left:4px solid #7c3aed;border-radius:8px}
+.category-title{font-size:20px;font-weight:800;color:#c0a0ff;margin:0 0 8px;padding:0;border:none}
+.category-section p{margin:0;font-size:13.5px;color:#b0b0b0;line-height:1.5}
+
+.sec-collapse{border:none;margin:0}.sec-h2{font-size:21px;font-weight:800;color:#d0d0ff;margin-bottom:22px;padding-bottom:10px;border-bottom:2.5px solid var(--acc);display:inline-flex;align-items:baseline;gap:8px;cursor:pointer;list-style:none;user-select:none}.sec-h2::-webkit-details-marker,.sec-h2::marker{display:none}.sec-h2::before{content:'▶';font-size:13px;color:var(--acc);flex-shrink:0}details[open].sec-collapse>.sec-h2::before{content:'▼'}
+h3{font-size:16px;font-weight:700;color:#c0c0ff;margin:26px 0 10px}
+h4{font-size:14px;font-weight:700;color:#b0b0e0;margin:16px 0 6px}
 p{margin-bottom:12px}
 
 /* ── Blockquote ── */
-blockquote{margin:18px 0;padding:14px 18px;background:linear-gradient(to right,#f5f3ff,#fafaf8);border-left:4px solid var(--acc);border-radius:0 8px 8px 0;color:#3730a3;font-style:italic}
+blockquote{margin:18px 0;padding:14px 18px;background:linear-gradient(to right,rgba(124,58,237,.15),rgba(124,58,237,.08));border-left:4px solid var(--acc);border-radius:0 8px 8px 0;color:#b0a0ff;font-style:italic}
 blockquote p{margin:0}
 .bq-dark{background:linear-gradient(to right,#140f2a,#2d1b69);color:#e0e7ff;border-left-color:var(--pink);border-radius:8px;font-style:normal;padding:18px 22px;font-size:15px}
 
 /* ── Lists ── */
 ul,ol{padding-left:20px;margin-bottom:12px}
 li{margin-bottom:5px}
-strong{color:#2d1b69;font-weight:700}
+strong{color:#c0a0ff;font-weight:700}
 
 /* ── Tables ── */
 .tw{overflow-x:auto;margin:18px 0}
@@ -72,7 +79,7 @@ table{width:100%;border-collapse:collapse;font-size:13.5px}
 thead tr{background:#1a0f3a;color:#fff}
 thead th{padding:9px 13px;text-align:left;font-weight:600;font-size:12.5px}
 tbody tr:nth-child(even){background:var(--surf2)}
-tbody tr:hover{background:#ede9fe}
+tbody tr:hover{background:rgba(124,58,237,.2)}
 tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:top}
 .thead-pink thead tr{background:#9d174d}
 .thead-indigo thead tr{background:#3730a3}
@@ -83,10 +90,10 @@ tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:t
 .box{padding:15px;border-radius:8px;font-size:13.5px}
 .box-dark{background:#140f2a;color:#c4b5fd;border:1px solid #3b0764}
 .box-dark strong{color:#a78bfa}
-.box-light{background:#faf5ff;color:#4c1d95;border:1px solid #ddd6fe}
-.box-green{background:#f0fdf4;border:1px solid #bbf7d0;color:#14532d}
-.box-red{background:#fff1f2;border:1px solid #fecdd3;color:#9f1239}
-.box-amber{background:#fffbeb;border:1px solid #fde68a;color:#78350f}
+.box-light{background:rgba(124,58,237,.15);color:#c0a0ff;border:1px solid #4a3a60}
+.box-green{background:rgba(34,197,94,.12);border:1px solid rgba(34,197,94,.3);color:#86efac}
+.box-red{background:rgba(239,68,68,.12);border:1px solid rgba(239,68,68,.3);color:#fca5a5}
+.box-amber{background:rgba(217,119,6,.12);border:1px solid rgba(217,119,6,.3);color:#fde68a}
 .box h4{margin:0 0 8px;font-size:13px;color:inherit}
 
 /* ── Character cards ── */
@@ -133,7 +140,7 @@ tbody td{padding:9px 13px;border-bottom:1px solid var(--border);vertical-align:t
 
 /* ── Relationship blocks ── */
 .rel{margin:16px 0;padding:14px 18px;background:var(--surf);border-radius:8px;border:1px solid var(--border);border-left:4px solid var(--acc)}
-.rel h4{margin-top:0;color:#4c1d95}
+.rel h4{margin-top:0;color:#b0b0e0}
 .rel p{margin:0;font-size:13.5px}
 
 /* ── Story beats ── */
@@ -154,7 +161,7 @@ abbr:hover::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);
 /* ── Character badges ── */
 .badge{display:inline-block;padding:2px 9px;border-radius:20px;font-size:10.5px;font-weight:700;letter-spacing:.05em;margin-bottom:4px}
 .badge-protagonist{background:#92400e;color:#fef3c7;border:1px solid #d97706}
-.badge-core{background:#4c1d95;color:#ede9fe;border:1px solid #7c3aed}
+.badge-core{background:rgba(124,58,237,.3);color:#c0a0ff;border:1px solid #7c3aed}
 .badge-tragic{background:#7f1d1d;color:#fef2f2;border:1px solid #b91c1c}
 .badge-support{background:#1e3a5f;color:#dbeafe;border:1px solid #3b82f6}
 
@@ -164,7 +171,7 @@ abbr:hover::after{content:attr(title);position:absolute;bottom:calc(100% + 6px);
 /* ── Law cards grid ── */
 .law-grid{display:grid;grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));gap:14px;margin:22px 0}
 .law-card{background:var(--surf);border:1px solid var(--border);border-radius:10px;padding:16px;border-left:4px solid var(--acc)}
-.law-card h4{margin:0 0 8px;font-size:13.5px;color:#2d1b69}
+.law-card h4{margin:0 0 8px;font-size:13.5px;color:#b0b0e0}
 .law-card p{margin:0;font-size:13px;line-height:1.7;color:var(--txt)}
 .law-icon{font-size:20px;margin-bottom:6px;display:block}
 
@@ -177,7 +184,7 @@ a[href^="#"]{color:inherit;text-decoration:underline dotted;text-underline-offse
 a[href^="#"]:hover{color:var(--acc)}
 
 /* ── Reader tip blockquote ── */
-.bq-tip{background:#f5f3ff;border-left:4px solid #a78bfa;border-radius:0 8px 8px 0;padding:12px 18px;color:#4c1d95;font-size:13.5px;margin:14px 0}
+.bq-tip{background:rgba(124,58,237,.15);border-left:4px solid #a78bfa;border-radius:0 8px 8px 0;padding:12px 18px;color:#c0a0ff;font-size:13.5px;margin:14px 0}
 .bq-tip p{margin:0}
 
 /* ── Mobile ── */
@@ -196,33 +203,33 @@ a[href^="#"]:hover{color:var(--acc)}
    ───────────────────────────────────────────── */
 :root{--page-max:1560px;--card-radius:16px;--soft-border:1px solid rgba(124,58,237,.13)}
 @media(min-width:1024px){
-  .content{background:linear-gradient(180deg,#faf8ff 0%,#f9f8f6 320px,#f9f8f6 100%)}
+  .content{background:linear-gradient(180deg,#0f0a15 0%,#0f0a15 320px,#0f0a15 100%)}
   .ci{max-width:var(--page-max);padding:0 34px}
   .hero{padding:54px 46px 42px}
   .hero h1{max-width:var(--page-max);margin-left:auto;margin-right:auto;font-size:32px}
   .hero .sub,.hero .links{max-width:var(--page-max);margin-left:auto;margin-right:auto}
   .hero .links{margin-top:16px}
-  .sec{background:rgba(255,255,255,.82);border:var(--soft-border);border-radius:20px;padding:28px 30px;margin:26px 0 0;box-shadow:0 8px 28px rgba(76,29,149,.055);border-bottom:var(--soft-border)}
+  .sec{background:#1a1425;border:var(--soft-border);border-radius:20px;padding:28px 30px;margin:26px 0 0;box-shadow:0 8px 28px rgba(76,29,149,.055);border-bottom:var(--soft-border)}
   .sec>h2{display:flex;align-items:center;gap:12px;width:100%;border-bottom:1px solid var(--border);padding-bottom:13px;margin-bottom:18px;font-size:23px}
-  .sec>h2::before{content:'§';display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#ede9fe;color:#4c1d95;font-size:15px;font-weight:900}
+  .sec>h2::before{content:'§';display:inline-grid;place-items:center;width:32px;height:32px;border-radius:10px;background:rgba(124,58,237,.2);color:#c0a0ff;font-size:15px;font-weight:900}
 }
 
-.reader-dashboard{margin-top:24px;margin-bottom:4px;background:#fff;border:1px solid var(--border);border-radius:22px;padding:24px 26px;box-shadow:0 10px 32px rgba(76,29,149,.07)}
+.reader-dashboard{margin-top:24px;margin-bottom:4px;background:#1a1425;border:1px solid var(--border);border-radius:22px;padding:24px 26px;box-shadow:0 10px 32px rgba(76,29,149,.07)}
 .dash-head{display:grid;grid-template-columns:minmax(260px,390px) minmax(0,1fr);gap:22px;align-items:end;margin-bottom:18px}
 .eyebrow{font-size:10px;letter-spacing:.16em;font-weight:800;color:#7c3aed;margin-bottom:4px}
-.reader-dashboard h2{border:0;margin:0;padding:0;font-size:22px;display:block;color:#1a0f3a}
+.reader-dashboard h2{border:0;margin:0;padding:0;font-size:22px;display:block;color:#d0d0ff}
 .dash-head p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.7}
 .dash-grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
-.dash-card{display:block;min-height:126px;padding:15px 14px;border-radius:16px;background:linear-gradient(180deg,#faf5ff,#fff);border:1px solid #e9d5ff;text-decoration:none!important;color:inherit;transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
+.dash-card{display:block;min-height:126px;padding:15px 14px;border-radius:16px;background:linear-gradient(180deg,#1a1425,#1a1425);border:1px solid rgba(124,58,237,.3);text-decoration:none!important;color:inherit;transition:transform .14s ease,box-shadow .14s ease,border-color .14s ease}
 .dash-card:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(76,29,149,.10);border-color:#c4b5fd;color:inherit!important}
-.dash-card strong{display:block;color:#2d1b69;font-size:13.5px;margin-bottom:8px}
-.dash-card span{display:block;color:#57534e;font-size:12.3px;line-height:1.55}
+.dash-card strong{display:block;color:#c0a0ff;font-size:13.5px;margin-bottom:8px}
+.dash-card span{display:block;color:#a0a0a0;font-size:12.3px;line-height:1.55}
 
-.section-lead{font-size:14.5px;line-height:1.82;color:#2b2724;margin-bottom:18px}
+.section-lead{font-size:14.5px;line-height:1.82;color:#d0d0d0;margin-bottom:18px}
 .section-lead>*:last-child{margin-bottom:0}
 .subsection-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(360px,1fr));gap:16px;align-items:start}
-.subcard{background:#fff;border:1px solid var(--border);border-radius:16px;padding:18px 18px;box-shadow:0 3px 14px rgba(124,58,237,.045);min-width:0}
-.subcard h3{margin:0 0 11px;font-size:16px;padding-bottom:8px;border-bottom:1px solid #eee7fb;color:#2d1b69}
+.subcard{background:#1a1425;border:1px solid var(--border);border-radius:16px;padding:18px 18px;box-shadow:0 3px 14px rgba(124,58,237,.045);min-width:0}
+.subcard h3{margin:0 0 11px;font-size:16px;padding-bottom:8px;border-bottom:1px solid #3a3448;color:#c0c0ff}
 .subcard h4:first-child{margin-top:0}
 .subcard p:last-child,.subcard ul:last-child,.subcard ol:last-child{margin-bottom:0}
 .subcard .tw{margin:10px 0 0}
@@ -232,13 +239,13 @@ a[href^="#"]:hover{color:var(--acc)}
 .law-grid{grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:16px}
 .law-card[style*="grid-column:1/-1"]{grid-column:span 2!important}
 .char-grid{grid-template-columns:repeat(auto-fit,minmax(360px,1fr));align-items:start}
-.char-group-header{grid-column:1/-1;background:#f5f3ff;border:1px solid var(--border);border-radius:12px;padding:9px 12px;margin:8px 0 0;color:#4c1d95}
+.char-group-header{grid-column:1/-1;background:rgba(124,58,237,.15);border:1px solid var(--border);border-radius:12px;padding:9px 12px;margin:8px 0 0;color:#c0a0ff}
 .char-card{height:100%}
 .char-img-item{height:220px}.char-img-item:only-child{height:240px}
 .dual{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.dual3{grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.tw{border-radius:12px;border:1px solid var(--border);background:#fff}.tw table{min-width:720px}.tw thead tr{position:sticky;top:0}
+.tw{border-radius:12px;border:1px solid var(--border);background:#1a1425}.tw table{min-width:720px}.tw thead tr{position:sticky;top:0}
 .beats{display:grid;grid-template-columns:repeat(auto-fit,minmax(330px,1fr));gap:14px}.beat{margin:0;height:100%}
-.rel{break-inside:avoid;background:#fff}
+.rel{break-inside:avoid;background:#1a1425}
 
 @media(min-width:1380px){
   .subsection-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
@@ -309,7 +316,7 @@ img,video,canvas,svg{max-width:100%;height:auto}
 }
 
 /* Tables: small tables wrap; only genuinely dense tables get local horizontal scroll. */
-.tw{max-width:100%;border-radius:12px;border:1px solid var(--border);background:#fff}
+.tw{max-width:100%;border-radius:12px;border:1px solid var(--border);background:#1a1425}
 .tw table{width:100%;min-width:0!important;max-width:100%;table-layout:auto}
 .tw th,.tw td{overflow-wrap:break-word;word-break:normal;white-space:normal}
 .tw.table-wrap-ok{overflow-x:visible}
@@ -517,7 +524,7 @@ img,video,canvas,svg{max-width:100%;height:auto}
     padding:10px 12px;
     border:1px solid var(--border);
     border-radius:10px;
-    background:#faf8ff;
+    background:#1a1425;
   }
 }
 
@@ -585,55 +592,55 @@ img,video,canvas,svg{max-width:100%;height:auto}
    Visual Compression Pass v5 — prose → diagrams / lanes / layered cards
    Goal: first-time readers see structure before dense canon text.
    ───────────────────────────────────────────── */
-.visual-note{margin:10px 0 16px;padding:10px 14px;border-radius:12px;background:#fffbeb;border:1px solid #fde68a;color:#78350f;font-size:13px;line-height:1.65}
+.visual-note{margin:10px 0 16px;padding:10px 14px;border-radius:12px;background:rgba(217,119,6,.12);border:1px solid rgba(217,119,6,.3);color:#fde68a;font-size:13px;line-height:1.65}
 .system-map{display:grid;gap:14px;margin:16px 0}
 .chain-steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;align-items:stretch}
-.step-card{position:relative;background:#fff;border:1px solid var(--border);border-radius:14px;padding:13px 12px;box-shadow:0 4px 14px rgba(124,58,237,.045);min-height:92px}
-.step-card::after{content:'→';position:absolute;right:-12px;top:50%;transform:translateY(-50%);font-weight:900;color:#7c3aed;background:#fff;border:1px solid #e9d5ff;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;font-size:13px;z-index:2}
+.step-card{position:relative;background:#1a1425;border:1px solid var(--border);border-radius:14px;padding:13px 12px;box-shadow:0 4px 14px rgba(124,58,237,.045);min-height:92px}
+.step-card::after{content:'→';position:absolute;right:-12px;top:50%;transform:translateY(-50%);font-weight:900;color:#7c3aed;background:#1a1425;border:1px solid rgba(124,58,237,.4);width:23px;height:23px;border-radius:50%;display:grid;place-items:center;font-size:13px;z-index:2}
 .step-card:last-child::after{display:none}
 .step-k{display:block;font-size:10px;letter-spacing:.12em;font-weight:900;color:#7c3aed;margin-bottom:5px;text-transform:uppercase}
-.step-card strong{display:block;color:#1a0f3a;font-size:13px;line-height:1.35;margin-bottom:5px}
-.step-card span{display:block;color:#57534e;font-size:12px;line-height:1.5}
+.step-card strong{display:block;color:#c0a0ff;font-size:13px;line-height:1.35;margin-bottom:5px}
+.step-card span{display:block;color:#a0a0a0;font-size:12px;line-height:1.5}
 .lane-compare{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
-.lane{border-radius:16px;border:1px solid var(--border);overflow:hidden;background:#fff;box-shadow:0 4px 18px rgba(124,58,237,.045)}
+.lane{border-radius:16px;border:1px solid var(--border);overflow:hidden;background:#1a1425;box-shadow:0 4px 18px rgba(124,58,237,.045)}
 .lane.bad{border-color:#fecdd3}.lane.good{border-color:#bbf7d0}
 .lane-head{padding:13px 15px;color:#fff;font-weight:900;display:flex;justify-content:space-between;gap:10px;align-items:center}
 .lane.bad .lane-head{background:linear-gradient(135deg,#7f1d1d,#be123c)}
 .lane.good .lane-head{background:linear-gradient(135deg,#14532d,#16a34a)}
 .lane-head small{font-weight:700;opacity:.75;font-size:10.5px;letter-spacing:.08em;text-transform:uppercase}
 .lane-flow{display:grid;gap:8px;padding:14px}
-.lane-flow div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:9px;align-items:start;padding:9px 10px;border-radius:10px;background:#faf8ff;border:1px solid #eee7fb;font-size:12.8px;line-height:1.5}
-.lane-flow b{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#ede9fe;color:#4c1d95;font-size:11px}
-.lane-summary{padding:12px 14px;border-top:1px solid var(--border);font-size:13px;line-height:1.6;background:#fafafa}
+.lane-flow div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:9px;align-items:start;padding:9px 10px;border-radius:10px;background:#1a1425;border:1px solid #3a3448;font-size:12.8px;line-height:1.5}
+.lane-flow b{display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:rgba(124,58,237,.3);color:#c0a0ff;font-size:11px}
+.lane-summary{padding:12px 14px;border-top:1px solid var(--border);font-size:13px;line-height:1.6;background:#1a1425}
 .mini-matrix{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin:14px 0}
-.matrix-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 12px;min-height:86px}
-.matrix-card h4{margin:0 0 5px!important;font-size:12.5px;color:#2d1b69}.matrix-card p{margin:0;font-size:12.5px;line-height:1.58;color:#57534e}
+.matrix-card{background:#1a1425;border:1px solid var(--border);border-radius:12px;padding:12px 12px;min-height:86px}
+.matrix-card h4{margin:0 0 5px!important;font-size:12.5px;color:#b0b0e0}.matrix-card p{margin:0;font-size:12.5px;line-height:1.58;color:#a0a0a0}
 .layer-stack{display:grid;gap:10px;margin:14px 0}
-.layer-row{display:grid;grid-template-columns:92px minmax(0,1fr) minmax(220px,.58fr);gap:12px;align-items:stretch;background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden}
+.layer-row{display:grid;grid-template-columns:92px minmax(0,1fr) minmax(220px,.58fr);gap:12px;align-items:stretch;background:#1a1425;border:1px solid var(--border);border-radius:14px;overflow:hidden}
 .layer-id{display:grid;place-items:center;background:#1a0f3a;color:#e9d5ff;font-weight:900;font-size:15px}
-.layer-main{padding:12px 13px}.layer-main strong{display:block;font-size:14px;color:#2d1b69;margin-bottom:4px}.layer-main span{font-size:12.8px;line-height:1.55;color:#57534e;display:block}
-.layer-access{padding:12px 13px;background:#faf5ff;border-left:1px solid var(--border);font-size:12.5px;line-height:1.55;color:#4c1d95}
+.layer-main{padding:12px 13px}.layer-main strong{display:block;font-size:14px;color:#c0a0ff;margin-bottom:4px}.layer-main span{font-size:12.8px;line-height:1.55;color:#a0a0a0;display:block}
+.layer-access{padding:12px 13px;background:rgba(124,58,237,.15);border-left:1px solid var(--border);font-size:12.5px;line-height:1.55;color:#c0a0ff}
 .story-strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:14px 0}
-.story-node{background:#fff;border:1px solid var(--border);border-radius:13px;padding:12px;min-height:110px;position:relative}
+.story-node{background:#1a1425;border:1px solid var(--border);border-radius:13px;padding:12px;min-height:110px;position:relative}
 .story-node strong{display:block;font-size:13px;color:#2d1b69;margin-bottom:6px}.story-node span{display:block;font-size:12.5px;line-height:1.55;color:#57534e}.node-chars{margin-top:8px;display:flex;flex-wrap:wrap;gap:4px}.char-tag{font-size:11px;border-radius:10px;padding:2px 8px;font-weight:500;text-decoration:none;display:inline-block;background:rgba(45,27,105,0.07);border:1px solid rgba(45,27,105,0.18);color:#6d5fbb}.char-tag[data-char="haruka"]{background:rgba(236,72,153,0.1);border-color:rgba(219,39,119,0.35);color:#be185d}.char-tag[data-char="miyako"]{background:rgba(30,64,175,0.08);border-color:rgba(30,64,175,0.3);color:#1e3a8a}.char-tag[data-char="sou"]{background:rgba(17,24,39,0.07);border-color:rgba(17,24,39,0.3);color:#111827}.char-tag[data-char="akane"]{background:rgba(126,34,206,0.08);border-color:rgba(126,34,206,0.3);color:#6b21a8}.char-tag[data-char="keishi"]{background:rgba(217,119,6,0.08);border-color:rgba(217,119,6,0.3);color:#b45309}.char-tag[data-char="airi"]{background:rgba(2,132,199,0.08);border-color:rgba(2,132,199,0.3);color:#0369a1}.char-tag[data-char="fei"]{background:rgba(220,38,38,0.08);border-color:rgba(220,38,38,0.3);color:#b91c1c}.char-tag[data-char="akiho"]{background:rgba(180,83,9,0.08);border-color:rgba(180,83,9,0.3);color:#92400e}.char-tag[data-char="sayo"]{background:rgba(100,116,139,0.08);border-color:rgba(100,116,139,0.3);color:#475569}.char-tag[data-char="rin"]{background:rgba(55,65,81,0.08);border-color:rgba(55,65,81,0.3);color:#1f2937}.char-tag[data-char="saku"]{background:rgba(22,101,52,0.08);border-color:rgba(22,101,52,0.3);color:#14532d}
 .compact-rel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin:12px 0}
-.compact-rel{border:1px solid var(--border);border-radius:14px;background:#fff;padding:14px}.compact-rel h4{margin:0 0 8px!important;color:#2d1b69}.compact-rel dl{display:grid;grid-template-columns:70px minmax(0,1fr);gap:5px 10px;margin:0;font-size:12.8px;line-height:1.55}.compact-rel dt{font-weight:800;color:#7c3aed}.compact-rel dd{margin:0;color:#57534e}
-details.full-text{margin-top:14px;border:1px dashed #c4b5fd;border-radius:12px;background:#faf5ff;padding:0;overflow:hidden}
-details.full-text summary{cursor:pointer;padding:10px 13px;font-weight:800;color:#4c1d95;font-size:13px;list-style:none}
+.compact-rel{border:1px solid var(--border);border-radius:14px;background:#1a1425;padding:14px}.compact-rel h4{margin:0 0 8px!important;color:#b0b0e0}.compact-rel dl{display:grid;grid-template-columns:70px minmax(0,1fr);gap:5px 10px;margin:0;font-size:12.8px;line-height:1.55}.compact-rel dt{font-weight:800;color:#7c3aed}.compact-rel dd{margin:0;color:#a0a0a0}
+details.full-text{margin-top:14px;border:1px dashed rgba(124,58,237,.4);border-radius:12px;background:rgba(124,58,237,.1);padding:0;overflow:hidden}
+details.full-text summary{cursor:pointer;padding:10px 13px;font-weight:800;color:#c0a0ff;font-size:13px;list-style:none}
 details.full-text summary::-webkit-details-marker{display:none}
-details.full-text summary::before{content:'＋';display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#ede9fe;margin-right:8px;color:#4c1d95;font-weight:900}
+details.full-text summary::before{content:'＋';display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:rgba(124,58,237,.3);margin-right:8px;color:#c0a0ff;font-weight:900}
 details.full-text[open] summary::before{content:'－'}
-.full-text-body{padding:0 14px 14px;color:#44403c;font-size:13px;line-height:1.72}.full-text-body p{margin-bottom:10px}
+.full-text-body{padding:0 14px 14px;color:#d0d0d0;font-size:13px;line-height:1.72}.full-text-body p{margin-bottom:10px}
 @media(min-width:1024px){.visual-compressed{grid-column:1/-1!important;max-width:none!important}.visual-compressed.flow-short,.visual-compressed.flow-medium{grid-column:1/-1!important;max-width:none!important}}
 @media(max-width:820px){.lane-compare{grid-template-columns:1fr}.layer-row{grid-template-columns:1fr}.layer-id{padding:9px}.layer-access{border-left:0;border-top:1px solid var(--border)}.step-card::after{display:none}}
 
 
 /* v6 — merge eligibility into true magical girl lane */
 .eligibility-card{margin:10px 0 12px;padding:13px 14px;border-radius:14px;background:rgba(240,253,244,.92);border:1px solid rgba(34,197,94,.24);box-shadow:inset 0 0 0 1px rgba(255,255,255,.5)}
-.eligibility-card .eligibility-k{font-size:10px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:#166534;margin-bottom:5px}
-.eligibility-card strong{display:block;color:#14532d;font-size:14px;line-height:1.55;margin-bottom:6px}
-.eligibility-card p{margin:0!important;color:#14532d;font-size:12.8px;line-height:1.65}
-.true-mahou-lane .lane-flow div:first-child span::before{content:'所以：';font-weight:800;color:#166534}
+.eligibility-card .eligibility-k{font-size:10px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:#86efac;margin-bottom:5px}
+.eligibility-card strong{display:block;color:#86efac;font-size:14px;line-height:1.55;margin-bottom:6px}
+.eligibility-card p{margin:0!important;color:#a0d8a0;font-size:12.8px;line-height:1.65}
+.true-mahou-lane .lane-flow div:first-child span::before{content:'所以：';font-weight:800;color:#86efac}
 @media(min-width:1024px){.true-mahou-lane{position:relative}.true-mahou-lane .eligibility-card{min-height:112px}}
 
 
@@ -648,17 +655,17 @@ details.full-text[open] summary::before{content:'－'}
   .origin-lanes{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
   .origin-lanes .lane-flow div{min-height:58px}
   .device-flow{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:stretch;margin:16px 0 18px}
-  .device-node{background:#fff;border:1px solid var(--border);border-radius:14px;padding:13px 14px;box-shadow:0 4px 14px rgba(124,58,237,.045)}
-  .device-node strong{display:block;font-size:13.5px;color:#2d1b69;margin-bottom:5px}
-  .device-node span{display:block;font-size:12.5px;line-height:1.55;color:#57534e}
-  .device-node.start{background:#faf5ff;border-color:#ddd6fe}
-  .device-node.danger{background:#fff1f2;border-color:#fecdd3}
+  .device-node{background:#1a1425;border:1px solid var(--border);border-radius:14px;padding:13px 14px;box-shadow:0 4px 14px rgba(124,58,237,.045)}
+  .device-node strong{display:block;font-size:13.5px;color:#c0a0ff;margin-bottom:5px}
+  .device-node span{display:block;font-size:12.5px;line-height:1.55;color:#a0a0a0}
+  .device-node.start{background:rgba(124,58,237,.15);border-color:rgba(124,58,237,.4)}
+  .device-node.danger{background:rgba(239,68,68,.12);border-color:rgba(239,68,68,.3)}
   .device-arrow{display:grid;place-items:center;color:#7c3aed;font-weight:900;font-size:20px}
   .device-dual{margin:14px 0 16px!important}
   .cost-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin:14px 0 0}
-  .cost-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 12px;border-top:3px solid #7c3aed}
-  .cost-card strong{display:block;font-size:12.8px;color:#2d1b69;margin-bottom:5px}
-  .cost-card span{display:block;font-size:12px;line-height:1.55;color:#57534e}
+  .cost-card{background:#1a1425;border:1px solid var(--border);border-radius:12px;padding:12px 12px;border-top:3px solid #7c3aed}
+  .cost-card strong{display:block;font-size:12.8px;color:#c0a0ff;margin-bottom:5px}
+  .cost-card span{display:block;font-size:12px;line-height:1.55;color:#a0a0a0}
 }
 @media(max-width:1379px){
   .compact-chain{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -718,25 +725,42 @@ details.full-text[open] summary::before{content:'－'}
 #mahou .device-cost-card .device-dual .box h4 .tag{display:inline-block;margin-left:6px;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:2px 7px;border-radius:999px;border:1px solid currentColor;opacity:.78}
 .removed-duplicate-note{grid-column:1/-1;margin:8px 0 0;color:var(--muted);font-size:12.5px;font-style:italic}
 @media(max-width:1100px){.origin-lanes.three-lanes{grid-template-columns:1fr!important}}
+
+/* ── Character Cards Collapsible ── */
+details.char-card{margin:0 0 18px}
+details.char-card > summary{cursor:pointer;list-style:none;display:block}
+details.char-card > summary::-webkit-details-marker{display:none}
+details.char-card > summary::before{content:'▼';display:inline-block;width:18px;margin-right:8px;color:var(--acc);font-weight:700}
+details.char-card:not([open]) > summary::before{content:'▶'}
+details.char-card > summary .char-name::before{content:'';display:inline;margin-left:0}
+details.char-card > *:not(summary){display:block}
+
+/* v12 — world overview non-collapsible district/politics cards */
+.district-card{height:100%;display:block}.district-card .char-head{padding:15px 18px;color:#fff}.district-card .char-body{min-height:0}
 </style>
 </head>
 <body>
 <nav class="sidebar">
 <div class="sb-head">Story Brief</div><a class="sub" href="#reader-map">↳ 第一次閱讀地圖</a>
 <div class="sb-div"></div>
+
+<div class="sb-label">01 入門理解</div>
 <a href="#what">這是什麼故事？</a>
 <a href="#why">為何創作</a>
 <a href="#theme">主題</a>
+
 <div class="sb-div"></div>
-<div class="sb-label">世界</div>
+
+<div class="sb-label">02 世界與系統</div>
 <a href="#world">世界觀速覽</a>
-<a href="#laws">世界如何運作：七個法則</a>
-<a href="#hidden-mechanisms">情緒世界的隱藏機制</a>
-<a href="#naming">名字系統</a>
+<a href="#laws">七個法則</a>
+<a href="#hidden-mechanisms">隱藏機制</a>
 <a href="#mahou">魔法少女設定</a>
-<a class="sub" href="#depiction">↳ 類型描寫手法</a>
+<a class="sub" href="#depiction">↳ 類型描寫</a>
+
 <div class="sb-div"></div>
-<div class="sb-label">角色</div>
+
+<div class="sb-label">03 角色資料庫</div>
 <a href="#chars">主要角色</a>
 <a class="sub" href="#c-haruka">春日井晴香</a>
 <a class="sub" href="#c-fei">菲</a>
@@ -746,19 +770,28 @@ details.full-text[open] summary::before{content:'－'}
 <a class="sub" href="#c-sou">綾小路操</a>
 <a class="sub" href="#c-rin">綾瀨凜</a>
 <a class="sub" href="#c-saku">莫浩然</a>
-<a class="sub" href="#c-hikaru">支線關鍵角色</a>
-<a class="sub" href="#sin">晴香的原罪對照表</a>
-<a href="#rels">核心人物關係</a>
-<a class="sub" href="#rels">↳ 關係概覽圖</a>
+<a class="sub" href="#c-akiho">東雲秋穗</a>
+<a class="sub" href="#c-hikaru">支線角色</a>
+<a href="#rels">人物關係</a>
+
 <div class="sb-div"></div>
-<div class="sb-label">故事</div>
-<a href="#story">故事</a>
+
+<div class="sb-label">04 故事流程</div>
+<a href="#story">六階段故事</a>
 <a href="#ending">結局解讀</a>
-<a href="#game">作為遊戲</a>
-<a href="#timeline">故事時間線</a>
+<a href="#timeline">時間線</a>
+
 <div class="sb-div"></div>
-<a href="#appendix">附錄 A：情緒世界系統</a>
-<a class="sub" href="#appendix-b">附錄 B：角色名字對照表</a>
+
+<div class="sb-label">05 遊戲化承載</div>
+<a href="#game-system">系統設計</a>
+<a class="sub" href="#game-narrative">敘事承載例子</a>
+
+<div class="sb-div"></div>
+
+<div class="sb-label">06 深讀附錄</div>
+<a href="#appendix">附錄 A</a>
+<a class="sub" href="#appendix-b">附錄 B</a>
 </nav>
 <main class="content">
 <div class="hero">
@@ -790,7 +823,13 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </div>
 <div class="ci">
-<!-- ═══════════════════════════════════════════════ 這是什麼故事 -->
+
+<!-- ═══════════════════════════════════════════════ 01 入門理解 -->
+<div class="category-section">
+<h1 class="category-title">01 入門理解</h1>
+<p class="category-desc">故事是什麼、為何創作、主題句。適合第一次打開文件的人。</p>
+</div>
+
 <section class="sec" id="what">
 <h2>這是什麼故事？</h2><div class="section-lead"><p><strong>類型</strong>：黑暗魔法少女 × 心理驚悚 × 存在主義成長劇<br/>
 <strong>調性</strong>：黑暗治癒（Dark Healing）/ 心理寓言</p><blockquote><p>用「魔法少女」的外殼，包裝一個關於「創傷、解離、自我整合」的心理寓言。這不是「打敗壞人拯救世界」的故事，而是「接納自己的黑暗面，學會在痛苦中找到繼續前行的態度」的故事。</p></blockquote></div><div class="subsection-grid"><article class="subcard flow-feature feature-title-explain"><h3>為什麼叫「奇蹟魔法少女<a href="#c-haruka">晴香</a>」？</h3><div class="callout-ab">
@@ -867,11 +906,16 @@ details.full-text[open] summary::before{content:'－'}
 </tbody>
 </table>
 </div></article></div></section>
-<!-- ═══════════════════════════════════════════════ 世界觀 -->
+<!-- ═══════════════════════════════════════════════ 02 世界與系統 -->
+<div class="category-section">
+<h1 class="category-title">02 世界與系統</h1>
+<p class="category-desc">日區/夜區、七法則、隱藏機制、魔法少女制度。</p>
+</div>
+
 <section class="sec reading-heavy" id="world">
-<h2>世界觀速覽</h2><div class="subsection-grid"><article class="subcard flow-short"><h3>市民眼中的世界</h3><p>這是一個情緒力量公開存在的世界。人們知道魔法是真實的，也知道城市裡有怪物——被稱為「魔法屍骸」的存在：曾經是人，情感徹底耗盡後轉化，徘徊在街道廢墟中，對周圍的人造成威脅。這是市民日常生活的一部分，如同洪水或罪案一樣，是需要被處理的社會問題。</p><p>雖然魔法存在是公開事實，但能親自使用的人極少。夜區居民因靈樹能量殘留，天生具備輕微自發魔法——足以點燈、感知他人情緒、短暫觸碰集體潛意識，但無法戰鬥。日區居民完全沒有這種能力。對絕大多數市民來說，魔法是「別人的事」，只能透過直播遠遠旁觀。</p><p>帝國的「解決方案」是<strong>魔法少女</strong>。在市民眼中，她們是命運選中的民間英雄：戰鬥在直播鏡頭前公開進行，帝國的光幕濾鏡將滿身血污、忍痛作戰的少女，過濾成優雅揮劍的<abbr title="帝國官方品牌名稱「維多利亞天使」：光幕濾鏡將少女血污戰鬥畫面全面美化，打造偶像級英雄形象；市民看到的優雅從來不是真實，背後目的是收割觀眾崇拜情緒作為帝國能源">維多利亞天使</abbr>，配上電子聲音報告：「目標排除完畢。區域安全確認。」粉絲為她們打賞、送禮、留言「你是我們的希望」。商業協會、警方、市長辦公室都可以向她們發出委託，戰鬥結果實時上傳社交媒體。整個系統看起來像是一個真人秀英雄節目，偶像與保護者合而為一——<a href="#c-haruka">晴香</a>的 IG 帳號有幾十萬追蹤者。</p><p>真相是：帝國透過維多利亞之淚，在市民觀看直播時收割觀眾的崇拜情緒作為能源；通過裝置後門，實時監控和提取少女每次戰鬥的情緒燃燒數據。少女越熱血，帝國的數據越豐富。<br/>
+<h2>世界觀速覽</h2><div class="subsection-grid"><article class="subcard flow-short"><h3>市民眼中的世界</h3><p>這是一個情緒力量公開存在的世界。人們知道魔法是真實的，也知道城市裡有怪物——被稱為「魔法屍骸」的存在：曾經是人，情感徹底耗盡後轉化，徘徊在街道廢墟中，對周圍的人造成威脅。這是市民日常生活的一部分，如同洪水或罪案一樣，是需要被處理的社會問題。</p><p>雖然魔法存在是公開事實，但能親自使用的人極少。夜區居民因靈樹能量殘留，天生具備輕微自發魔法——足以點燈、感知他人情緒、短暫觸碰集體潛意識，但無法戰鬥。日區居民完全沒有這種能力。對絕大多數市民來說，魔法是「別人的事」，只能透過直播遠遠旁觀。</p><p>帝國的「解決方案」是<strong>魔法少女</strong>。在市民眼中，她們是命運選中的民間英雄：戰鬥在直播鏡頭前公開進行，帝國的光幕濾鏡將滿身血污、忍痛作戰的少女，過濾成優雅揮劍的<abbr title="帝國官方品牌名稱「維多利亞天使」：光幕濾鏡將少女血污戰鬥畫面全面美化，打造偶像級英雄形象；市民看到的優雅從來不是真實，背後目的是收割觀眾崇拜情緒作為帝國能源">維多利亞天使</abbr>粉絲為她們打賞、送禮、留言「你是我們的希望」。商業協會、警方、市長辦公室都可以向她們發出委託，戰鬥結果實時上傳社交媒體。整個系統看起來像是一個真人秀英雄節目，偶像與保護者合而為一——<a href="#c-haruka">晴香</a>的 IG 帳號有幾十萬追蹤者。</p><p>真相是：帝國透過維多利亞之淚，在市民觀看直播時收割觀眾的崇拜情緒作為能源；通過裝置後門，實時監控和提取少女每次戰鬥的情緒燃燒數據。少女越熱血，帝國的數據越豐富。<br/>
 <span style="font-size:11.5px;color:var(--muted)">夜區居民從未見過「天使」。濾鏡只覆蓋日區（維多利亞之淚照射範圍）。夜區看到的一直是真相：滿身傷痕、在廢墟中發抖的孩子。</span></p></article><article class="subcard flow-visual flow-short"><h3>地理設定：維多利亞城</h3><p>類似老香港的中西交匯城市，分為「日區」和「夜區」。</p><div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0">
-<div class="char-card">
+<article class="char-card district-card">
 <div class="char-head" style="background:linear-gradient(135deg,#78350f,#b45309)">
 <div class="char-name">日區</div>
 <div class="char-real">「無鏡之城」· 帝國核心領土</div>
@@ -883,8 +927,8 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </div>
 <div class="char-body">帝國領土，人造太陽 24 小時照耀，富裕但情緒被壓抑。玻璃幕牆處處可見——因為帝國有<a href="#world-victoria">維多利亞之淚</a>在背後統一過濾所有人感知到的現實：鏡子照到的，永遠只有帝國希望你相信的那個自己。體現「修正」意識形態：拒絕承認不完美，用完美幻象蓋住一切痛苦。</div>
-</div>
-<div class="char-card">
+</article>
+<article class="char-card district-card">
 <div class="char-head" style="background:linear-gradient(135deg,#1e1b4b,#4c1d95)">
 <div class="char-name">夜區</div>
 <div class="char-real">原名靈樹谷 · 又稱霧港</div>
@@ -897,8 +941,7 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-body">原名靈樹谷（又稱霧港），被帝國侵佔。天空被廢氣籠罩，潮濕街道永遠積著水窪，老舊玻璃幕牆處處映照真實。居民被迫與真實共存，被帝國剝削但更真實、堅韌。體現「接納」態度：面對真實之城。<br/>
 <span style="font-size:11.5px;color:var(--muted)">Beta 線獨有：靈樹能量殘留令夜區居民具有輕微自發魔法——無法戰鬥，但足以點燈、感知情緒、短暫接觸集體潛意識。日區居民無此能力。此能力亦是帝國發動靈樹戰爭、強行吞併夜區的真正誘因——帝國需要這批天然具備魔法親和力的人口作為情緒力量裝置的實驗素材。</span></div>
-</div>
-</div><p style="font-size:12.5px;color:var(--muted);font-style:italic">夜區以老舊唐樓後巷為視覺語言基礎。</p></article><article class="subcard flow-short"><h3>政治設定</h3><p>帝國原由皇帝統治，<a href="#c-keishi">刑思</a>將其殺死後，以皇帝身份暗中接管並統治帝國。夜區本名<strong>靈樹谷 / 夢離谷</strong>（又稱霧港），是以靈樹信仰為核心的獨立地區——靈樹是現實世界與集體潛意識之間的能量樞紐，正負情感在此流通保持平衡。</p><p>帝國為奪取靈樹的情緒能量，發動<strong>靈樹戰爭</strong>，大肆屠殺夜區原居民，將此地並吞為帝國版圖。靈樹戰爭是所有後續悲劇的制度源頭——捕獲實驗對象、研究情緒機制、建造維多利亞之淚、最終量產魔法少女，皆由此而起。</p><ul>
+</article></div><p style="font-size:12.5px;color:var(--muted);font-style:italic">夜區以老舊唐樓後巷為視覺語言基礎。</p></article><article class="subcard flow-short"><h3>政治設定</h3><p>帝國原由皇帝統治，<a href="#c-keishi">刑思</a>將其殺死後，以皇帝身份暗中接管並統治帝國。夜區本名<strong>靈樹谷 / 夢離谷</strong>（又稱霧港），是以靈樹信仰為核心的獨立地區——靈樹是現實世界與集體潛意識之間的能量樞紐，正負情感在此流通保持平衡。</p><p>帝國為奪取靈樹的情緒能量，發動<strong>靈樹戰爭</strong>，大肆屠殺夜區原居民，將此地並吞為帝國版圖。靈樹戰爭是所有後續悲劇的制度源頭——捕獲實驗對象、研究情緒機制、建造維多利亞之淚、最終量產魔法少女，皆由此而起。</p><ul>
 <li id="world-victoria"><strong>維多利亞之淚</strong>：巨大人造太陽，官方說詞是無限能源，真實功能是情緒抽水泵——將日區負面情緒強行抽走壓入夜區，並即時監控全城情緒數據。在 Alpha 線因缺乏高魔能量而停滯為廢棄金屬結構；Beta 線<a href="#c-haruka">晴香</a>創世後靈樹能量爆發，帝國才將其活化為完整的情緒監控中樞。</li>
 <li><strong>維多利亞天使</strong>：帝國設立的官方魔法少女偶像身份，以公開直播戰鬥的 Reality Show 形式對外呈現，令市民相信魔法少女是自願守護城市的英雄——實際上是帝國收割情緒能量的公開裝置，光幕濾鏡覆蓋戰損與真實面貌。</li>
 </ul></article><article class="subcard flow-table flow-short"><h3>情緒管理局</h3><p>帝國直屬的情緒監控與管理機構，是帝國對市民情緒實施全面控制的執行手臂。</p><div class="tw table-wrap-ok">
@@ -1143,7 +1186,7 @@ details.full-text[open] summary::before{content:'－'}
 <tr><td>愛 = 治癒與拯救的動力</td><td>愛導致瘋狂（<a href="#c-akane">紫音</a>愛小光→屍骸首領；<a href="#c-keishi">刑思</a>愛螢→情緒結算儀式）</td><td>未授權的救贖——愛不賦予改變他人的權利</td></tr>
 </tbody>
 </table>
-</div></article><article class="subcard flow-feature visual-compressed origin-divergence">
+</div></article><article class="subcard flow-short"><h3>變身的現實縫合機制：局部改寫的記憶陷阱</h3><p>變身並非簡單換裝，而是<strong>局部現實覆寫</strong>——在短瞬間，魔法少女的形態會覆蓋原本的少女。但觀看者無法接受「人突然發光變身」的邏輯，因此大腦會自動進行<strong>記憶植入</strong>。</p><p>具體表現：旁觀者會記得魔法少女「一直都在現場」，而變身前的少女要麼「從未存在」，要麼「已經逃走」。這不是失憶，而是被集體潛意識強制執行的記憶覆寫——每次變身，都是一次對群體記憶的微小改寫。</p><p><strong>敘事恐怖之處</strong>：這個機制適用於所有魔法少女。她在他人眼中越英勇，越在記憶中被抹除為「不存在的少女」。即使脫離變身，平日裡的人也無法在記憶中重新連結到那個奮力戰鬥的身影——你保護的人，再也認不出你。</p></article><article class="subcard flow-short"><h3>魔法少女的工具</h3><div class="dual" style="margin-bottom:12px"><div class="box box-light"><h4>⌚ 血糖手錶</h4><p style="margin:0;font-size:12.5px"><strong>表面功能：</strong>健康監控設備，實時顯示血糖、心率數據。<br/><strong>真實用途：</strong>帝國的監控後門——情緒增幅器波動的實時監測系統。每次魔法少女變身或使用力量，手錶都在將她的情緒增幅數據回傳帝國實驗室。</p></div><div class="box box-light"><h4>🐠 金魚雷達</h4><p style="margin:0;font-size:12.5px"><strong>功能：</strong>低成本的情緒異常預警工具，偵測局部情緒湍流及屍骸群聚點。<br/><strong>工作原理：</strong>透過集體潛意識的情緒波動模式識別危險。</p></div><div class="box box-light"><h4>💧 金夫人花露水</h4><p style="margin:0;font-size:12.5px"><strong>功能：</strong>民間對抗技術，透過嗅覺干預降低目標短時敵意。近距離噴灑並保持視線脫離敵意刺激源，可延遲情緒爆發。<br/><strong>效果：</strong>臨時緩解，無法根除。只係買時間。</p></div></div><p style="font-size:12.5px;color:var(--muted);background:rgba(255,255,255,.04);padding:10px 12px;border-radius:6px;margin:0"><strong>設計意圖：</strong>這些工具代表少女們如何被「聰慧地綁定」。不是鐵鍊，而是習慣；不是強制，而是「為了活下去必須用」。每個工具都許諾了便利與安全，實際上却拔走了自主判斷的肌肉。最後妳甚至遺忘自己曾經擁有不依賴它們的能力。</p></article><article class="subcard flow-feature visual-compressed origin-divergence">
 <h3>魔法少女的起源：標記資格 → 裝置旁路 → 解離兵器失敗線</h3><div class="dedup-note"><strong>Canon 修正：</strong>「真正魔法少女」同「裝置魔法少女」都必須先被晴香五歲願望標記；帝國裝置只能旁路、榨取、監控已標記的靈魂。沒有標記的少女無法成為正常魔法少女，只會在強制實驗中變成「解離兵器」或死亡。</div>
 <div class="system-map">
 <h4>制度生成鏈：晴香創造可能性，帝國製造成制度</h4>
@@ -1161,8 +1204,8 @@ details.full-text[open] summary::before{content:'－'}
 <div class="lane-flow">
 <div><b>資</b><span><strong>資格：</strong>必須被晴香五歲願望直接觸及，靈魂留下與裂口相連的標記。</span></div>
 <div><b>源</b><span>力量不是被裝置硬借，而是透過面對創傷、整合自我而生長。</span></div>
-<div><b>識</b><span>保有自我意識，能選擇、能拒絕、能承擔代價。</span></div>
-<div><b>例</b><span>晴香、美夜子屬於這條路線；她們的強大來自「接納」而不是逃避。</span></div>
+<div><b>識</b><span>保有自我意識，能選擇、能拒絕、能承擔代價；不被帝國裝置監控或收割。</span></div>
+<div><b>例</b><span>後期的<a href="#c-haruka">晴香</a>：停止逃避創傷，自願整合痛苦，成為真正自主的魔法少女。其他角色在故事進程中都未曾達到此狀態。</span></div>
 </div>
 </div>
 <div class="lane device">
@@ -1170,17 +1213,17 @@ details.full-text[open] summary::before{content:'－'}
 <div class="lane-flow">
 <div><b>資</b><span><strong>同樣需要晴香標記。</strong>沒有標記，帝國心匣無法製造正常魔法少女。</span></div>
 <div><b>契</b><span>帝國把裝置「遺棄」給合資格少女，令她以為自己被命運選中。</span></div>
-<div><b>耗</b><span>裝置繞過創傷整合，直接切走痛苦換力量；短期變強，長期燃盡。</span></div>
-<div><b>例</b><span>凜、紫音等屬於這條路線：仍有選擇，但被監控、被收割、受光環倒數威脅。</span></div>
+<div><b>耗</b><span>裝置繞過創傷整合，直接切走痛苦換力量；短期變強，長期燃盡。被帝國監控、被實時收割情緒數據、被光環倒數威脅。</span></div>
+<div><b>例</b><span><a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>等：故事全程都屬於此路線。仍有表面上的選擇，但實質上被帝國系統囚禁與消耗。</span></div>
 </div>
 </div>
 <div class="lane failed">
-<div class="lane-head"><span>解離兵器</span><small>無標記 / 失敗實驗品</small></div>
+<div class="lane-head"><span>解離兵器</span><small>靈魂分離 / 無意識戰爭機器</small></div>
 <div class="lane-flow">
-<div><b>無</b><span><strong>沒有晴香標記。</strong>帝國與秋穗試圖繞過資格，強行把魔法塞入普通少女。</span></div>
-<div><b>裂</b><span>結果不是正常變身，而是靈魂分離：意識與身體被硬撕開。</span></div>
-<div><b>械</b><span>留下可操控的戰爭外殼，沒有真正選擇權。</span></div>
-<div><b>毒</b><span>被迫反芻的絕望被回收，成為情緒毒品與帝國能源。</span></div>
+<div><b>無</b><span><strong>沒有自主意識。</strong>要麼是無標記少女被強制改造，要麼是有標記少女被迫進行靈魂分離。</span></div>
+<div><b>裂</b><span>意識與身體被硬撕開（或主動撕開）；剩餘的只是戰爭外殼，沒有人性、沒有情感。</span></div>
+<div><b>械</b><span>完全可被操控的殺戮機器；不存在選擇，只有指令與執行。</span></div>
+<div><b>例</b><span>後期的<a href="#c-rin">凜</a>（主動切除一切情感成為純粹殺戮機器）、<a href="#c-akiho">秋穗/無臉執行官</a>（被黑奏改造成的無意識離解兵器——消除五官、剝奪自我意識，保留對愛莉的執念驅動但遺忘執念對象）。</span></div>
 </div>
 </div>
 </div>
@@ -1192,12 +1235,12 @@ details.full-text[open] summary::before{content:'－'}
 <table class="route-table">
 <thead><tr><th>路線</th><th>是否需要晴香標記？</th><th>製造 / 覺醒方式</th><th>意識狀態</th><th>結果</th></tr></thead>
 <tbody>
-<tr><td><strong>真正魔法少女</strong></td><td>需要。被晴香五歲願望直接觸及。</td><td>透過面對創傷、整合自我而自然覺醒。</td><td>保有完整自我，能選擇、能拒絕。</td><td>仍有代價，但力量來自「接納」。</td></tr>
-<tr><td><strong>裝置魔法少女</strong></td><td>需要。帝國裝置只能在已標記靈魂上生效。</td><td>帝國心匣旁路創傷整合，直接切走痛苦換力量。</td><td>仍保有自我，但逐步耗損並被監控。</td><td>短期變強，長期燃盡；可能出現光環處決機制。</td></tr>
-<tr><td><strong>解離兵器</strong></td><td>不具備標記，是帝國/秋穗試圖繞過資格的失敗實驗線。</td><td>暴力把魔法力量塞入普通少女身體，強行分離靈魂。</td><td>自我被撕開，意識與身體分離。</td><td>成為戰爭外殼；絕望數據被回收成情緒毒品。</td></tr>
+<tr><td><strong>真正魔法少女</strong></td><td>需要。被晴香五歲願望直接觸及。</td><td>透過面對創傷、整合自我而自然覺醒；拒絕帝國裝置的監控與榨取。</td><td>保有完整自我，能選擇、能拒絕、能承擔代價。</td><td>力量來自「接納」而非「逃避」。故事中只有後期的<a href="#c-haruka">晴香</a>達到此狀態。</td></tr>
+<tr><td><strong>裝置魔法少女</strong></td><td>需要。帝國裝置只能在已標記靈魂上生效。</td><td>帝國心匣旁路創傷整合，直接切走痛苦換力量。</td><td>仍保有表面自我，但被帝國監控、數據被實時收割、逐步耗損。</td><td>短期變強，長期燃盡。<a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>等在故事全程屬此類。</td></tr>
+<tr><td><strong>解離兵器</strong></td><td>有標記但被迫靈魂分離（如後期<a href="#c-rin">凜</a>），或無標記被強制改造。</td><td>靈魂與身體被硬撕開；意識遭抹除，只剩戰爭外殼。</td><td>完全喪失自我，無法選擇，只有指令與執行。</td><td>無意識殺戮機器；被迫的絕望被轉化成帝國的情緒毒品資源。</td></tr>
 </tbody>
 </table>
-<p style="margin-top:14px">因此，「真正魔法少女」與「裝置魔法少女」不是有標記 / 無標記的分別，而是<strong>同樣有標記，但一條走向整合，一條被帝國裝置榨取</strong>。真正沒有晴香標記的，是解離兵器路線：那不是正常魔法少女，而是強行繞過資格後產生的失敗實驗品。</p>
+<p style="margin-top:14px"><strong>三線的本質區別</strong>：</p><ul style="margin:8px 0;padding-left:20px"><li>「<strong>真正魔法少女</strong>」：有標記，拒絕帝國裝置，自行整合創傷而覺醒。故事中只有後期<a href="#c-haruka">晴香</a>達到此境界。</li><li>「<strong>裝置魔法少女</strong>」：有標記，但被帝國心匣旁路並監控。<a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>等角色在故事全程都屬於此線，表面上有選擇，實質上被制度囚禁與消耗。</li><li>「<strong>解離兵器</strong>」：要麼無標記被強制改造，要麼有標記但被迫進行靈魂分離（如後期<a href="#c-rin">凜</a>主動切除情感）。完全喪失自主意識，�淪為無感情的殺戮機器。</li></ul>
 </div>
 </details></article><article class="subcard flow-short"><h3>如何成為魔法少女？</h3><p>絕大多數少女都不知道自己被選中的過程。帝國大數據監控鎖定具有特定心理創傷的少女，暗中將變身裝置「遺棄」在她們某天必定路過的地方——少女撿到裝置，以為是命運，實際上是帝國的主動篩選。裝置內置後門，即時向帝國傳輸她的情緒數據。</p><p>撿到裝置後，真正的入門儀式幾乎總在少女最崩潰的一刻發生：她照進鏡子，看見鏡中的自己變得冷靜而強大，向她說「把痛苦交給我，我來替你承受」。少女觸碰鏡面，協議成立——她把自己最痛苦、最脆弱的那一部分切割出去，換取力量。鏡中那個「更強的自己」，是從她身上分裂出來的創傷性面具，不是真正的她。</p></article><article class="subcard flow-feature visual-compressed device-cost-card">
 <h3>情緒力量裝置：使用 = 逃避 = 逐步燃盡</h3>
@@ -1212,8 +1255,8 @@ details.full-text[open] summary::before{content:'－'}
 <div class="device-node danger"><strong>長期燃盡</strong><span>情緒債、監控、逃避能量、心之器裂縫同步擴大。</span></div>
 </div>
 <div class="dual device-dual">
-<div class="box box-light"><h4>自然覺醒 / 真正整合 <span class="tag">需標記</span></h4><p style="margin:0;font-size:13px">同樣需要被晴香願望標記；分別是少女透過「鏡中的承諾」真正面對創傷，力量從真實自我中生長。心匣裂痕以金繼方式修復——裂縫本身成為光源。<strong>晴香與美夜子屬此類。</strong></p></div>
-<div class="box box-red"><h4>裝置強制 / 逃避速成 <span class="tag">需標記＋心匣</span></h4><p style="margin:0;font-size:13px">同樣需要被晴香願望標記，但帝國心匣把這個資格變成可榨取的接口：從心之器裂痕強行收割情緒結晶。裂痕只被灰色焊痕補住，每次使用後繼續擴大。<strong>凜與紫音屬此類。</strong></p></div>
+<div class="box box-light"><h4>自然覺醒 / 真正整合 <span class="tag">需標記＋拒絕監控</span></h4><p style="margin:0;font-size:13px">需要被晴香願望標記，並拒絕帝國裝置的榨取。少女透過「鏡中的承諾」真正面對創傷，力量從真實自我中生長。心匣裂痕以金繼方式修復——裂縫本身成為光源。<strong>故事中只有後期的<a href="#c-haruka">晴香</a>達到此狀態。</strong></p></div>
+<div class="box box-red"><h4>裝置強制 / 逃避速成 <span class="tag">需標記＋帝國心匣</span></h4><p style="margin:0;font-size:13px">需要被晴香願望標記，但被帝國心匣旁路、監控、榨取：從心之器裂痕強行收割情緒結晶。裂痕只被灰色焊痕補住，每次使用後繼續擴大，直到完全燃盡。<strong><a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>等角色在故事全程屬此類。</strong></p></div>
 </div>
 <div class="cost-grid">
 <div class="cost-card"><strong>燃燒未來靈魂</strong><span>預支未來靈魂換取現在力量，代價延後但急速累積。</span></div>
@@ -1356,7 +1399,12 @@ details.full-text[open] summary::before{content:'－'}
 </div></article></div></section>
 <!-- ═══════════════════════════════════════════════ 核心世界法則 -->
 
-<!-- ═══════════════════════════════════════════════ 主要角色 -->
+<!-- ═══════════════════════════════════════════════ 03 角色資料庫 -->
+<div class="category-section">
+<h1 class="category-title">03 角色資料庫</h1>
+<p class="category-desc">角色身份、視覺、心理功能、人物關係。</p>
+</div>
+
 <section class="sec dashboard-heavy" id="chars">
 <h2>主要角色</h2>
 <div class="box box-light" style="margin:0 0 22px;font-size:13.5px">
@@ -1369,23 +1417,23 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <div class="char-grid">
 <p class="char-group-header">主角</p>
-<div class="char-card" id="c-haruka" style="border:2px solid #d97706">
-<div class="char-head" style="background:linear-gradient(135deg,#7c3aed,#db2777)">
+<details class="char-card" id="c-haruka" style="border:2px solid #d97706">
+<summary class="char-head" style="background:linear-gradient(135deg,#7c3aed,#db2777)">
 <span class="badge badge-protagonist">主角</span>
 <div class="char-name">春日井<a href="#c-haruka">晴香</a></div>
 <div class="char-real">真實名字：連若晴 · 故事開始時 16 歲，主線中踏入 17 歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-haruka"="" alt="春日井&lt;a href=" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png"/>晴香 日常服"&gt;
+<img alt="晴香 日常服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png"/>
         <div class="char-img-cap">日常服</div>
 </div>
 <div class="char-img-item">
-<img #c-haruka"="" alt="春日井&lt;a href=" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_Singer.png"/>晴香 偶像歌手服"&gt;
+<img alt="晴香 偶像歌手服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_Singer.png"/>
         <div class="char-img-cap">偶像歌手服</div>
 </div>
 <div class="char-img-item">
-<img #c-haruka"="" alt="春日井&lt;a href=" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png"/>晴香 魔法少女服"&gt;
+<img alt="晴香 魔法少女服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png"/>
         <div class="char-img-cap">魔法少女服</div>
 </div>
 </div>
@@ -1439,19 +1487,18 @@ details.full-text[open] summary::before{content:'－'}
 </ul></div>
 </div>
 </details>
-</div>
+</details>
 <p class="char-group-header">核心軸心角色（直接影響主線走向）</p>
-<div class="char-card" id="c-fei">
-<div class="char-head" style="background:linear-gradient(135deg,#1a0f3a,#4c1d95)">
+<details class="char-card" id="c-fei">
+<summary class="char-head" style="background:linear-gradient(135deg,#1a0f3a,#4c1d95)">
 <span class="badge badge-core">核心軸心</span>
 <div class="char-name">菲</div>
 <div class="char-real">晴香的陰影人格 · 外表停留在五歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-fei"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Yu/ConceptArt_Yu_CasualWear.png">菲 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="菲 日常服" src="art/ConceptArt/Characters/Yu/ConceptArt_Yu_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：冷酷直接、零容忍逃避——用殘忍迫使<a href="#c-haruka">晴香</a>直面真相，是以最刺骨的方式表達最深的愛</p>
@@ -1477,21 +1524,20 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-keishi">
-<div class="char-head" style="background:linear-gradient(135deg,#0f172a,#1e1b4b)">
+
+</details><details class="char-card" id="c-keishi">
+<summary class="char-head" style="background:linear-gradient(135deg,#0f172a,#1e1b4b)">
 <span class="badge badge-core">核心軸心</span>
 <div class="char-name">葉語彩 / <a href="#c-keishi">刑思</a></div>
 <div class="char-real">雙重人格，共用同一身體 · 40歲（真實）/ 外表：轉校生少女</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png">葉語彩 日常服"&gt;
-        <div class="char-img-cap">葉語彩 · 日常服</div>
-</img></div>
+<img alt="葉語彩 日常服" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png"/>
+        <div class="char-img-cap">葉語彩 · 日常服</div></div>
 <div class="char-img-item">
-<img #c-keishi"="" alt="&lt;a href=" src="art/ConceptArt/Characters/Aya/ConceptArt_Kurosou_CasualWear.png">刑思 日常服"&gt;
-        <div class="char-img-cap">刑思 · 日常服</div>
-</img></div>
+<img alt="刑思 日常服" src="art/ConceptArt/Characters/Aya/ConceptArt_Kurosou_CasualWear.png"/>
+        <div class="char-img-cap">刑思 · 日常服</div></div>
 <div class="char-img-item">
 <img alt="魔法少女服 1" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_1.png"/>
 <div class="char-img-cap">魔法少女服 1</div>
@@ -1561,25 +1607,23 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-miyako">
-<div class="char-head" style="background:linear-gradient(135deg,#0c4a6e,#1e40af)">
+
+</details><details class="char-card" id="c-miyako">
+<summary class="char-head" style="background:linear-gradient(135deg,#0c4a6e,#1e40af)">
 <span class="badge badge-core">核心軸心</span>
 <div class="char-name">水無月<a href="#c-miyako">美夜子</a></div>
 <div class="char-real">真實名字：連若星 · 38歲（主線期）/ 視覺年齡 18 歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png">美夜子 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="美夜子 日常服" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png">美夜子 魔法少女服"&gt;
-        <div class="char-img-cap">魔法少女服</div>
-</img></div>
+<img alt="美夜子 魔法少女服" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png"/>
+        <div class="char-img-cap">魔法少女服</div></div>
 <div class="char-img-item" style="grid-column:1/-1">
-<img #c-miyako"="" alt="水無月&lt;a href=" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png">美夜子 黑貓形態"&gt;
-        <div class="char-img-cap">黑貓形態（避難所詛咒）</div>
-</img></div>
+<img alt="美夜子 黑貓形態" src="art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png"/>
+        <div class="char-img-cap">黑貓形態（避難所詛咒）</div></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1636,22 +1680,21 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-group-header">主線悲劇角色</div>
-<div class="char-card" id="c-akane">
-<div class="char-head" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">
+
+</details><div class="char-group-header">主線悲劇角色</div>
+<details class="char-card" id="c-akane">
+<summary class="char-head" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">
 <span class="badge badge-tragic">主線悲劇</span>
 <div class="char-name">不知火<a href="#c-akane">紫音</a></div>
 <div class="char-real">真實名字：方曉彤 · 17歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear.png">紫音 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="紫音 日常服" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-akane"="" alt="不知火&lt;a href=" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png">紫音 魔法少女服"&gt;
-        <div class="char-img-cap">魔法少女服</div>
-</img></div>
+<img alt="紫音 魔法少女服" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png"/>
+        <div class="char-img-cap">魔法少女服</div></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1694,21 +1737,20 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-sou">
-<div class="char-head" style="background:linear-gradient(135deg,#134e4a,#065f46)">
+
+</details><details class="char-card" id="c-sou">
+<summary class="char-head" style="background:linear-gradient(135deg,#134e4a,#065f46)">
 <span class="badge badge-tragic">主線悲劇</span>
 <div class="char-name">綾小路<a href="#c-sou">操</a></div>
 <div class="char-real">唯一真名，無中文名 · 16歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png">操 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="操 日常服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-sou"="" alt="綾小路&lt;a href=" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png">操 魔法少女服"&gt;
-        <div class="char-img-cap">魔法少女服</div>
-</img></div>
+<img alt="操 魔法少女服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png"/>
+        <div class="char-img-cap">魔法少女服</div></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1755,25 +1797,23 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-rin">
-<div class="char-head" style="background:linear-gradient(135deg,#1e3a5f,#1d4ed8)">
+
+</details><details class="char-card" id="c-rin">
+<summary class="char-head" style="background:linear-gradient(135deg,#1e3a5f,#1d4ed8)">
 <span class="badge badge-tragic">主線悲劇</span>
 <div class="char-name">綾瀨<a href="#c-rin">凜</a></div>
 <div class="char-real">真實名字：凌心怡</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_CasualWear.png">凜 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="凜 日常服" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png">凜 魔法少女服 1"&gt;
-        <div class="char-img-cap">魔法少女服 1</div>
-</img></div>
+<img alt="凜 魔法少女服 1" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png"/>
+        <div class="char-img-cap">魔法少女服 1</div></div>
 <div class="char-img-item">
-<img #c-rin"="" alt="綾瀨&lt;a href=" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png">凜 魔法少女服 2"&gt;
-        <div class="char-img-cap">魔法少女服 2</div>
-</img></div>
+<img alt="凜 魔法少女服 2" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png"/>
+        <div class="char-img-cap">魔法少女服 2</div></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1827,21 +1867,20 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-akiho">
-<div class="char-head" style="background:linear-gradient(135deg,#1c2a40,#2d1b4e)">
+
+</details><details class="char-card" id="c-akiho">
+<summary class="char-head" style="background:linear-gradient(135deg,#1c2a40,#2d1b4e)">
 <span class="badge badge-tragic">主線悲劇</span>
 <div class="char-name">東雲<a href="#c-akiho">秋穗</a></div>
 <div class="char-real">43歲 · 茶餐廳老闆娘（偽裝）</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_CasualWear.png">秋穗 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="秋穗 日常服" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-akiho"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png">秋穗 無臉執行官"&gt;
-        <div class="char-img-cap">無臉執行官</div>
-</img></div>
+<img alt="秋穗 無臉執行官" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png"/>
+        <div class="char-img-cap">無臉執行官</div></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：工作狂結果論者——一切代價都能被「救回<a href="#c-airi">愛莉</a>」合理化，愛與執念之間的界線早已模糊</p>
@@ -1851,27 +1890,45 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <p><a href="#c-haruka">晴香</a>的阿姨。以技術專家身份為隊伍提供後勤支援——研發對抗屍骸的道具、調配應急藥物、分析魔法屍骸結構。</p>
 <p>她的支援夾雜著複雜的情緒——內疚、償還、以及掩蓋不住的憎恨（<a href="#c-haruka">晴香</a>的母親、她的雙胞胎妹妹<a href="#c-hanako">花子</a>，為了生下<a href="#c-haruka">晴香</a>而難產死亡，而<a href="#c-hanako">花子</a>一生都是<a href="#c-akiho">秋穗</a>最羨慕、最嫉妒的人）。女兒<a href="#c-airi">愛莉</a>意外成為第一具人造魔法屍骸後，她陷入瘋狂的結果論：與<a href="#c-keishi">刑思</a>簽約換取復活技術、把<a href="#c-miyako">美夜子</a>推入 Unit 01 路線作實驗預演、協助<a href="#c-keishi">刑思</a>建立整個魔法少女系統——所有罪行都被「一定能救回<a href="#c-airi">愛莉</a>」合理化。每天，她仍然到<a href="#c-airi">愛莉</a>的石像前說話，傾訴研究進展、哭訴罪孽。她不知道——<a href="#c-airi">愛莉</a>在精神深處聽得到每一句話。</p>
-<p style="margin-top:10px;font-size:12.5px;background:var(--surf2);padding:7px 10px;border-radius:6px;border-left:3px solid var(--acc)"><strong>無臉執行官真相</strong>：整個故事裡，主角群一直在對抗一個恐怖的敵人——純白緊身衣、沒有臉，臉的位置溶解成一片星空。牠殺人不眨眼，從不說話。到了故事中段，真相揭開：這個無臉的怪物，其實是<a href="#c-akiho">秋穗</a>自己——是她「如果一直不停下來」的未來。一個從未選擇放手、把一切都押在結果上直到連自我都消失的<a href="#c-akiho">秋穗</a>，以這種形態存在於世界之中，回頭攻擊現在的她。</p>
+<p style="margin-top:10px;font-size:12.5px;background:var(--surf2);padding:7px 10px;border-radius:6px;border-left:3px solid var(--acc)"><strong>無臉執行官真相</strong>：故事中主角群對抗的恐怖敵人——純白緊身衣、面部溶解為星光宇宙——是<a href="#c-akiho">秋穗</a>本人。當夕改變現實後，<a href="#c-akiho">秋穗</a>為保護<a href="#c-airi">愛莉</a>代替她成為「活體濾心」，被緋潮侵蝕到千瘡百孔但仍死守執念。黑奏發現殘破靈魂後，基於<a href="#c-akiho">秋穗</a>對<a href="#c-airi">愛莉</a>的執念強度將其改造成<strong>無意識離解兵器</strong>：消除五官、剝奪自我意識、烙印科學公式（擬 Emo-Visor）。改造後保留執念驅動但遺忘執念對象——她永遠在執行「保護某人」的指令，卻再也想不起自己在保護誰。</p>
+<details class="char-design"><summary>視覺設計</summary>
+<div class="design-form">
+<div class="design-img"><img alt="秋穗 日常服" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_CasualWear.png"/><div class="design-img-cap">日常形態・茶餐廳老闆娘</div></div>
+<div class="design-notes"><h4>日常形態（茶餐廳老闆娘）</h4><ul>
+<li><strong>整體風格</strong>：商務套裝組合，冷酷、精確、不帶感情</li>
+<li><strong>髮型與眼鏡</strong>：嚴謹髮髻 + 眼鏡反光遮住眼神——刻意的「臉部遮蔽」設計，預示無臉執行官形態的到來</li>
+<li><strong>符號含義</strong>：整體造型隱喻她早已失去了真實的「臉」，只剩偽裝和使命</li>
+</ul></div>
+</div>
+<div class="design-form">
+<div class="design-img"><img alt="秋穗 無臉執行官" src="art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png"/><div class="design-img-cap">無臉執行官・黑奏兵器</div></div>
+<div class="design-notes"><h4>無臉執行官形態（失敗時間線秋穗）</h4><ul>
+<li><strong>整體風格</strong>：純白緊身衣 + 白色高跟鞋——非人化、工具化的極致</li>
+<li><strong>面部設計</strong>：面部溶解為星光虛空，消除一切人類五官特徵</li>
+<li><strong>設計意圖</strong>：星光虛空拉近與集體潛意識的連結，同時完美隱藏胸口的 Emo-Visor 刻印，令旁觀者看不穿她是帝國的離解兵器</li>
+<li><strong>象徵性</strong>：「結果論」走到極端的視覺隱喻——她連臉都沒了，只剩帝國需要的無感情工具</li>
+</ul></div>
+</div>
+</details>
 </div>
 </div>
-<div class="char-group-header">支線與世界觀關鍵角色</div>
-<div class="char-card" id="c-airi">
-<div class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
+
+</details><div class="char-group-header">支線與世界觀關鍵角色</div>
+<details class="char-card" id="c-airi">
+<summary class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
 <span class="badge badge-support">支線關鍵</span>
 <div class="char-name">東雲<a href="#c-airi">愛莉</a></div>
 <div class="char-real">17歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png">愛莉 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="愛莉 日常服" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 <div class="char-img-item">
-<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png">愛莉 魔法少女服（聖女騎士）"&gt;
-        <div class="char-img-cap">魔法少女服（聖女騎士）</div>
-</img></div>
+<img alt="愛莉 魔法少女服（聖女騎士）" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png"/>
+        <div class="char-img-cap">魔法少女服（聖女騎士）</div></div>
 <div class="char-img-item">
-<img #c-airi"="" alt="東雲&lt;a href=" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear_Child.png"/>愛莉 紙皮騎士"&gt;
+<img alt="愛莉 紙皮騎士" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear_Child.png"/>
         <div class="char-img-cap">紙皮騎士</div>
 </div>
 </div>
@@ -1917,17 +1974,17 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </details>
 </div>
-<div class="char-card" id="c-saku">
-<div class="char-head" style="background:linear-gradient(135deg,#374151,#1f2937)">
+
+</details><details class="char-card" id="c-saku">
+<summary class="char-head" style="background:linear-gradient(135deg,#374151,#1f2937)">
 <span class="badge badge-support">支線關鍵</span>
 <div class="char-name">白銀<a href="#c-saku">朔</a></div>
 <div class="char-real">真實名字：莫<a href="#c-saku">浩然</a> · 36歲</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-saku"="" alt="莫&lt;a href=" src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_CasualWear.png">浩然 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="浩然 日常服" src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 </div>
 <div style="display:flex;gap:16px;align-items:flex-start">
 <div class="char-body" style="flex:1;min-width:0">
@@ -1947,45 +2004,45 @@ details.full-text[open] summary::before{content:'－'}
 </aside>
 </div><!-- /outer flex -->
 </div>
-<div class="char-card" id="c-hikaru">
-<div class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
+
+</details><details class="char-card" id="c-hikaru">
+<summary class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
 <span class="badge badge-support">支線關鍵</span>
 <div class="char-name">小光</div>
 <div class="char-real">8–10歲 · 夜區小學生</div>
-</div>
+</summary>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：夜區最後一塊純真——缺門牙的笑容、手裡永遠有一根分人的波板糖</p>
 <p>夜區的貧困小學生。是<a href="#c-akane">紫音</a>在這個殘酷世界中唯一感受到純真善意的對象。小光在屍骸襲擊中慘死並轉化為廢鐵型魔法屍骸，手中仍握著要分給<a href="#c-akane">紫音</a>的波板糖。他的死徹底擊碎了<a href="#c-akane">紫音</a>的理智防線，是導致<a href="#c-akane">紫音</a>墮落的直接起因。</p>
 </div>
-</div>
-<div class="char-card" id="c-sayo">
-<div class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
+</details>
+<details class="char-card" id="c-sayo">
+<summary class="char-head" style="background:linear-gradient(135deg,#1c3240,#1e4d6b)">
 <span class="badge badge-support">支線關鍵</span>
 <div class="char-name">綾小路<a href="#c-sayo">紗夜</a></div>
-</div>
+</summary>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：終身守護<a href="#c-sou">操</a>的無聲忠誠——知曉全部真相，卻選擇以行動代替言語，直到最後一刻</p>
 <p>綾小路家管家，<a href="#c-sou">操</a>的真正守護者。她知曉<a href="#c-sou">操</a>的真實性別，用一生的陪伴代償無法說出口的真相，並用畢生積蓄為<a href="#c-sou">操</a>買來魔法裝置。最終在帝國軍隊包圍大宅時，以肉身擋槍掩護<a href="#c-sou">操</a>逃走，並在臨死前將性別真相告知<a href="#c-sou">操</a>。</p>
 </div>
-</div>
-<div class="char-card" id="c-hanako">
-<div class="char-head" style="background:linear-gradient(135deg,#292524,#1c1917)">
+</details>
+<details class="char-card" id="c-hanako">
+<summary class="char-head" style="background:linear-gradient(135deg,#292524,#1c1917)">
 <span class="badge badge-tragic">主線悲劇</span>
 <div class="char-name">東雲<a href="#c-hanako">花子</a></div>
 <div class="char-real">晴香與<a href="#c-miyako">美夜子</a>的母親 · <a href="#c-akiho">秋穗</a>的雙胞胎妹妹 · 已故</div>
-</div>
+</summary>
 <div class="char-imgs">
 <div class="char-img-item">
-<img #c-hanako"="" alt="雨宮&lt;a href=" src="art/ConceptArt/Characters/Hanako/ConceptArt_Hanako_CasualWear.png">花子 日常服"&gt;
-        <div class="char-img-cap">日常服</div>
-</img></div>
+<img alt="花子 日常服" src="art/ConceptArt/Characters/Hanako/ConceptArt_Hanako_CasualWear.png"/>
+        <div class="char-img-cap">日常服</div></div>
 </div>
 <div class="char-body">
 <p style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">性格：天才中的天才——所有人的目光、讚美與期待都投向她，令<a href="#c-akiho">秋穗</a>一生活在她的陰影之下</p>
 <p><a href="#c-akiho">秋穗</a>的雙胞胎妹妹，<a href="#c-haruka">晴香</a>與<a href="#c-miyako">美夜子</a>的母親。她是公認的天才，光芒完全遮蓋了<a href="#c-akiho">秋穗</a>，成為<a href="#c-akiho">秋穗</a>此後一切扭曲行為的根源——「必須超越<a href="#c-hanako">花子</a>」的執念深入<a href="#c-akiho">秋穗</a>骨髓。</p>
 <p>在兩條時間線中以不同形式死去：<strong>Alpha 線</strong>中，她與女兒<a href="#c-miyako">美夜子</a>同時死於意外，5 歲的<a href="#c-haruka">晴香</a>親眼目睹；<strong>Beta 線</strong>中，她在生下<a href="#c-haruka">晴香</a>時難產死亡，<a href="#c-haruka">晴香</a>從未見過自己的母親。兩條線的共同點是：她的缺席是整個故事所有悲劇的最初起點。</p>
 </div>
-</div>
+</details>
 </div>
 </section>
 <!-- ═══════════════════════════════════════════════ <a href="#c-haruka">晴香</a>的原罪 -->
@@ -2142,7 +2199,12 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 </div>
 </div></div><div class="subsection-grid"><article class="subcard flow-short"><h3>情感核心關係</h3><div class="rel"><h4><a href="#c-haruka">晴香</a> ↔ <a href="#c-miyako">美夜子</a>（不知情的骨肉——全作最核心情感炸彈）</h4><p>晴香以為姊姊早已死去，<a href="#c-miyako">美夜子</a>以「前輩和夥伴」身份陪伴成長，暗中守護。這份「互不以真實姿態相見」的關係，在揭露時牽動整個故事收束。</p></div><div class="rel"><h4>美夜子 ↔ <a href="#c-saku">浩然</a>（子主題 D 最純粹呈現：連結不被死亡終結）</h4><p>朔因<a href="#c-miyako">美夜子</a>死因可疑而無法釋懷，成為屍骸獵人調查真相，其後在戰場上遇到長著愛人臉的兵器 Unit 01。他花了多年確認「那就是她，但已改變」——接受她以新的形態存在，而非試圖還原舊日的她。這是全作守護最純粹的示範。</p></div></article><article class="subcard flow-short"><h3>鏡像對立關係</h3><div class="rel" style="border-left-color:var(--pink)"><h4>晴香 ↔ <a href="#c-keishi">刑思</a>（主題辯證的最終戰場）</h4><p>兩人都因童年創傷而「改變現實」——<a href="#c-haruka">晴香</a>選接納，<a href="#c-keishi">刑思</a>選控制。<a href="#c-keishi">刑思</a>是「<a href="#c-haruka">晴香</a>可能成為的另一個自己」。</p></div><div class="rel" style="border-left-color:var(--pink)"><h4>晴香 ↔ <a href="#c-keishi">葉語彩</a>（意外的救贖，非對等的犧牲）</h4><p>彩以轉校生身份偽裝接近<a href="#c-haruka">晴香</a>，<a href="#c-keishi">刑思</a>借機收割情緒能量。最終彩選擇犧牲填補世界裂痕——這份犧牲不是因為<a href="#c-haruka">晴香</a>「值得」，而是彩選擇了她認為正確的事。</p></div><div class="rel" style="border-left-color:var(--pink)"><h4>晴香 ↔ <a href="#c-fei">菲</a>（本體與陰影——全作最核心的內在戰）</h4><p>同一個身體，相互對立又相互依存。<a href="#c-fei">菲</a>是<a href="#c-haruka">晴香</a>切割出去的創傷面，代表<a href="#c-haruka">晴香</a>拒絕接受的真實自我。整合<a href="#c-fei">菲</a> = 接納自己是問題的一部分。</p></div></article><article class="subcard flow-medium target-rel-burden"><h3>負擔與連鎖關係</h3><div class="rel" style="border-left-color:var(--amber)"><h4>晴香 ↔ <a href="#c-akiho">秋穗</a>（愛如何變成傷害的鏡像）</h4><p>兩人都因愛而造成傷害——<a href="#c-akiho">秋穗</a>為救<a href="#c-airi">愛莉</a>製造毒品，<a href="#c-haruka">晴香</a>為救姊姊創造了悲劇世界。「愛能否賦予改變他人命運的權利」是兩人共同面對的道德難題。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4><a href="#c-akane">紫音</a> ↔ <a href="#c-haruka">晴香</a>（警示鏡像）</h4><p>紫音是<a href="#c-haruka">晴香</a>「如果選擇放棄自我」的結果。<a href="#c-akane">紫音</a>的墮落不是因為她不夠好，而是沒有得到足夠的支撐。她的死是「治癒失敗但態度自主」的完整示範。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4>美夜子 ↔ <a href="#c-rin">凜</a>（戰友的枷鎖與痛覺的信徒）</h4><p>軍方時期最深嘅羈絆，亦係<a href="#c-miyako">美夜子</a>終身 PTSD 嘅源頭。<a href="#c-rin">凜</a>為掩護<a href="#c-miyako">美夜子</a>而死，令<a href="#c-miyako">美夜子</a>產生極深嘅「倖存者內疚」。<a href="#c-rin">凜</a>最終拒絕被治癒、自願切除情感，而<a href="#c-miyako">美夜子</a>只能親手為她「介錯」並學會接受「有些傷口永遠無法癒合」。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4>刑思 ↔ 螢（極端執念的起源）</h4><p>螢是彩在夜區唯一感受到愛與保護嘅無血緣姊姊，螢嘅犧牲直接催生咗<a href="#c-keishi">刑思</a>這個保護者人格。<a href="#c-keishi">刑思</a>建立帝國、發動「情緒結算儀式」嘅所有瘋狂行為，底層動機只有一個：積累情感貨幣向集體潛意識換回螢的靈魂。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4>紫音 ↔ <a href="#c-hikaru">小光</a>（出於愛的墮落）</h4><p>小光是夜區唯一對<a href="#c-akane">紫音</a>展現純真善意的小學生，填補咗<a href="#c-akane">紫音</a>害死細佬嘅巨大空洞。小光被殺並屍骸化，直接導致<a href="#c-akane">紫音</a>世界觀崩塌，選擇背叛人類墮落成為「屍骸首領」。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4><a href="#c-sou">操</a> ↔ <a href="#c-sayo">紗夜</a>（虛假世界中的真實之愛）</h4><p>在<a href="#c-sou">操</a>被父親強行改造性別、剝奪身份的絕望中，管家<a href="#c-sayo">紗夜</a>是唯一給予她無條件愛與守護的人。<a href="#c-sayo">紗夜</a>為保護<a href="#c-sou">操</a>而擋子彈犧牲，臨終前那句「妳根本唔係少爺……妳係我最靚嘅女」，徹底擊碎咗<a href="#c-sou">操</a>維持多年的完美偽裝。</p></div><div class="rel" style="border-left-color:var(--amber)"><h4>秋穗 ↔ <a href="#c-airi">愛莉</a>（母愛的扭曲與原諒）</h4><p>秋穗因為科學實驗意外令親生女<a href="#c-airi">愛莉</a>變成第一具魔法屍骸石像。為咗救<a href="#c-airi">愛莉</a>，<a href="#c-akiho">秋穗</a>不惜與<a href="#c-keishi">刑思</a>做交易，甚至出賣<a href="#c-haruka">晴香</a>。<a href="#c-airi">愛莉</a>在精神世界中成為了吸收全城痛苦嘅「濾心」，默默承受母親發明帶嚟嘅折磨。</p></div></article></div></section>
-<!-- ═══════════════════════════════════════════════ 故事 -->
+<!-- ═══════════════════════════════════════════════ 04 故事流程 -->
+<div class="category-section">
+<h1 class="category-title">04 故事流程</h1>
+<p class="category-desc">六階段故事、結局解讀、時間線。用來掌握劇情推進。</p>
+</div>
+
 <section class="sec reading-heavy" id="story">
 <h2>故事</h2><div class="subsection-grid"><article class="subcard subcard-wide flow-medium visual-compressed story-phase-card">
 <h3 id="story-1">第一階段：虛假的英雄起點與日常裂痕</h3>
@@ -2285,9 +2347,18 @@ details.full-text[open] summary::before{content:'－'}
 <li>不是「被懲罰」，而是「承擔責任」</li>
 <li>晴香無法擁有好結局，但她可以擁有：「即使在痛苦之中，她仍在做她認為正確的事」——那不是幸福，是一種悲傷、扎心、但有重量的贖罪</li>
 </ul><blockquote class="bq-dark"><p><strong>核心訊息</strong>：治癒不是「傷口消失」，而是「學會帶著傷口活下去，並找到活下去的意義」。</p></blockquote></article></div></section>
-<!-- ═══════════════════════════════════════════════ 作為遊戲 -->
-<section class="sec dashboard-heavy" id="game">
-<h2>作為遊戲，這個故事如何承載</h2><div class="subsection-grid"><article class="subcard flow-short target-game-why"><h3>為何遊戲媒介特別重要</h3><p>本作的核心主題——「態度是唯一的自由」——需要玩家以第一身體驗「選擇」的重量。電影告訴你一個故事；遊戲讓你成為故事的參與者。</p></article><article class="subcard flow-table flow-short"><h3>IG 敘事線（Instagram Chronicle）四階段演變</h3><div class="tw table-wrap-ok">
+<!-- ═══════════════════════════════════════════════ 時間線 -->
+<section class="sec dashboard-heavy" id="timeline">
+<h2>遊戲系統設計</h2><div class="subsection-grid">
+
+<article class="subcard flow-short" id="game-system"><h3>系統設計</h3><div class="dual">
+<div class="box box-light"><h4>為何遊戲媒介特別重要</h4><p style="margin:0;font-size:12.5px">本作的核心主題——「態度是唯一的自由」——需要玩家以第一身體驗「選擇」的重量。電影告訴你一個故事；遊戲讓你成為故事的參與者。</p></div>
+<div class="box box-light"><h4>社會風評系統三階段</h4><div style="font-size:12.5px;margin:0"><strong>維多利亞天使期：</strong>王道任務（救人、護送）——玩家享受「被需要」的錯覺<br/><strong>裂痕期：</strong>任務變質，委託人並非全是善良的——「正義」的輪廓開始模糊<br/><strong>魔女狩獵期：</strong>任務崩壞（鎮壓平民暴動），<a href="#c-haruka">晴香</a>演唱會變成公審大會</div></div>
+</div></article>
+
+<article class="subcard flow-short" id="game-narrative"><h3>敘事承載例子</h3>
+
+<h4 style="margin-top:0">IG 敘事線（Instagram Chronicle）四階段演變</h4><div class="tw table-wrap-ok" style="font-size:12px;margin:0 0 14px">
 <table>
 <thead><tr><th>階段</th><th>說明</th></tr></thead>
 <tbody>
@@ -2297,20 +2368,17 @@ details.full-text[open] summary::before{content:'－'}
 <tr><td><strong>結局迴響期</strong>（第四幕後）</td><td>倖存者重新發文，死去角色帳號成為數位墓碑</td></tr>
 </tbody>
 </table>
-</div></article><article class="subcard flow-table flow-short"><h3>社會風評系統三階段</h3><div class="tw table-wrap-ok">
-<table>
-<thead><tr><th>階段</th><th>任務性質</th></tr></thead>
-<tbody>
-<tr><td><strong>維多利亞天使期</strong></td><td>王道任務（救人、護送）——玩家享受「被需要」的錯覺</td></tr>
-<tr><td><strong>裂痕期</strong></td><td>任務變質，委託人並非全是善良的——「正義」的輪廓開始模糊</td></tr>
-<tr><td><strong>魔女狩獵期</strong></td><td>任務崩壞（鎮壓平民暴動），<a href="#c-haruka">晴香</a>演唱會變成公審大會</td></tr>
-</tbody>
-</table>
-</div></article><article class="subcard flow-short target-text-prop"><h3>Text Prop / 書信 / 道具文字承載</h3><ul>
+</div>
+
+<h4>物資短缺 → 潛入學校（Gameplay = Consequence-Driven Narrative）</h4><p style="margin:0;font-size:12.5px"><strong>觸發條件：</strong>血糖補給耗盡（葡萄糖注射槍耗盡），四人面臨低血糖手震。<br/><strong>任務目標：</strong>夜晚潛入學校——醫療室（葡萄糖針劑）+ 化學實驗室（花露水材料）+ 備用家具。<br/><strong>敘事層面：</strong>為了活下去，少女要偷東西。玩家體驗到「選擇不是自由的，而是被迫的」——遊戲系統直接呈現道德模糊地帶。</p>
+
+<h4>Text Prop / 書信 / 道具文字承載</h4><ul style="font-size:12.5px">
 <li><strong>書信與遺物</strong>：角色死後留下的物件（<a href="#c-miyako">美夜子</a>保存的斷吉他、<a href="#c-sou">操</a>的速寫本、<a href="#c-rin">凜</a>的吊墜碎片）讓死去的選擇在世界中繼續存在</li>
 <li><strong>IG 貼文文字</strong>：深夜「好累」背後是毒癮發作；全黑照片背後是剛從噩夢驚醒——角色最接近真實的時刻</li>
 <li><strong>遊戲內 text prop</strong>（帝國公告、廢棄工廠標語、舊報章）：制度暴力的歷史語境，使世界觀有質地</li>
-</ul></article></div></section>
+</ul>
+
+</article></div></section>
 <!-- ═══════════════════════════════════════════════ 時間線 -->
 <section class="sec dashboard-heavy" id="timeline">
 <h2>故事時間線</h2>
@@ -2503,7 +2571,49 @@ details.full-text[open] summary::before{content:'－'}
 </div>
 <p style="font-size:12.5px;color:var(--muted);margin-top:18px">完整時間線請見 <a href="canon/04_timeline_canon.md" style="color:var(--acc)">Timeline Canon</a></p>
 </section>
-<!-- ═══════════════════════════════════════════════ 附錄 -->
+<!-- ═══════════════════════════════════════════════ 05 遊戲化承載 -->
+<div class="category-section">
+<h1 class="category-title">05 遊戲化承載</h1>
+<p class="category-desc">玩家實際做什麼、系統如何承載主題。</p>
+</div>
+
+<section class="sec dashboard-heavy" id="game">
+<h2>遊戲系統設計</h2><div class="subsection-grid">
+
+<article class="subcard flow-short" id="game-system"><h3>系統設計</h3><div class="dual">
+<div class="box box-light"><h4>為何遊戲媒介特別重要</h4><p style="margin:0;font-size:12.5px">本作的核心主題——「態度是唯一的自由」——需要玩家以第一身體驗「選擇」的重量。電影告訴你一個故事；遊戲讓你成為故事的參與者。</p></div>
+<div class="box box-light"><h4>社會風評系統三階段</h4><div style="font-size:12.5px;margin:0"><strong>維多利亞天使期：</strong>王道任務（救人、護送）——玩家享受「被需要」的錯覺<br/><strong>裂痕期：</strong>任務變質，委託人並非全是善良的——「正義」的輪廓開始模糊<br/><strong>魔女狩獵期：</strong>任務崩壞（鎮壓平民暴動），<a href="#c-haruka">晴香</a>演唱會變成公審大會</div></div>
+</div></article>
+
+<article class="subcard flow-short" id="game-narrative"><h3>敘事承載例子</h3>
+
+<h4 style="margin-top:0">IG 敘事線（Instagram Chronicle）四階段演變</h4><div class="tw table-wrap-ok" style="font-size:12px;margin:0 0 14px">
+<table>
+<thead><tr><th>階段</th><th>說明</th></tr></thead>
+<tbody>
+<tr><td><strong>強行營業期</strong>（第一幕）</td><td>晴香高頻更新，其他人帳號幾乎無更新</td></tr>
+<tr><td><strong>閃耀日常期</strong>（第一至二幕）</td><td>集體活躍但刻意迴避魔法少女話題，隱藏細節暗示異常</td></tr>
+<tr><td><strong>數位墓碑期</strong>（第二至三幕）</td><td>隊友帳號逐一停更，各自發出「意味深長的最後貼文」</td></tr>
+<tr><td><strong>結局迴響期</strong>（第四幕後）</td><td>倖存者重新發文，死去角色帳號成為數位墓碑</td></tr>
+</tbody>
+</table>
+</div>
+
+<h4>物資短缺 → 潛入學校（Gameplay = Consequence-Driven Narrative）</h4><p style="margin:0;font-size:12.5px"><strong>觸發條件：</strong>血糖補給耗盡（葡萄糖注射槍耗盡），四人面臨低血糖手震。<br/><strong>任務目標：</strong>夜晚潛入學校——醫療室（葡萄糖針劑）+ 化學實驗室（花露水材料）+ 備用家具。<br/><strong>敘事層面：</strong>為了活下去，少女要偷東西。玩家體驗到「選擇不是自由的，而是被迫的」——遊戲系統直接呈現道德模糊地帶。</p>
+
+<h4>Text Prop / 書信 / 道具文字承載</h4><ul style="font-size:12.5px">
+<li><strong>書信與遺物</strong>：角色死後留下的物件（<a href="#c-miyako">美夜子</a>保存的斷吉他、<a href="#c-sou">操</a>的速寫本、<a href="#c-rin">凜</a>的吊墜碎片）讓死去的選擇在世界中繼續存在</li>
+<li><strong>IG 貼文文字</strong>：深夜「好累」背後是毒癮發作；全黑照片背後是剛從噩夢驚醒——角色最接近真實的時刻</li>
+<li><strong>遊戲內 text prop</strong>（帝國公告、廢棄工廠標語、舊報章）：制度暴力的歷史語境，使世界觀有質地</li>
+</ul>
+
+</article></div></section>
+<!-- ═══════════════════════════════════════════════ 06 深讀附錄 -->
+<div class="category-section">
+<h1 class="category-title">06 深讀附錄</h1>
+<p class="category-desc">術語、完整系統、名字對照。適合查資料。</p>
+</div>
+
 <section class="sec reading-heavy" id="appendix">
 <h2>附錄 A：情緒世界系統</h2><div class="section-lead"><p>這個世界的一切運作——魔法、怪物、帝國、毀滅——都建立在以下幾個核心概念的層級關係上。</p><div style="display:flex;flex-direction:column;gap:0;margin:20px 0;font-size:13px">
 <!-- 基礎層 -->
@@ -2737,3 +2847,4 @@ document.querySelectorAll('.char-img-item img').forEach(img => {
 </script>
 </body>
 </html>
+
