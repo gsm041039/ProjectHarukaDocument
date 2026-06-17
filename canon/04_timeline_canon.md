@@ -100,10 +100,27 @@
 
 > Act I ~ Act III 前半。詳細四幕結構見 [Story Outline](05_story_outline_canon.md)。
 
+### <a id="section-phase-map"></a>故事階段總覽
+
+| 幕 | 時段 | Phase | 核心功能 |
+|---|------|-------|---------|
+| 開場前紀 | 前史（§I-III）| — | 靈樹戰爭 / Alpha 分歧 / Beta 前史 |
+| **[Act I](05_story_outline_canon.md#section-act-1)** | 113 年 3 月-5 月 | 覺醒與組隊 → 幕末五人隊 | 代入 + 同步誤導；建立偽英雄外衣 |
+| **[Act II](05_story_outline_canon.md#section-act-2)** | 113 年 5 月底-114 年 3 月 | Phase D（末日序曲）/ 英雄の刑場 / 幕末三段 | 世界擴張 → 營造史詩期待 |
+| ↓幕間插入 | 113 年 8 月中旬-114 年 2 月底 | 沉默之聲 | 純視覺緩衝（無對白）|
+| **[Act III](05_story_outline_canon.md#section-act-3)** | 114 年 3 月初-5 月底 | Phase G/H（地下突圍+月光對峙）/ Phase I（恐怖家家酒）/ Phase J（帝國廣場+偽高潮）| 引爆結構詭計 → 偽高潮 → 坍塌 |
+| 二十年守望 | 114 年 5 月底-134 年 7 月 | — | 晴香沉入集體潛意識；夕維持肉身 |
+| **[Act IV](05_story_outline_canon.md#section-act-4)** | 134 年 7 月- | 母愛的琥珀 / 膠布哲學第四層 / 靈魂共鳴 / 強制索回 | 回答存在問題 → 主題閉環 |
+
+---
+
+<!-- ═══ ACT I 開始 ═══ -->
+
 ### <a id="section-113-march"></a>113 年 3 月：覺醒與組隊
 
 - <a id="event-story-begin"></a>**故事開端**：貓型美夜子將裝置交給晴香，姊妹不知情重逢
 - <a id="event-aya-appears"></a>**彩登場**：轉校生[彩](03_characters/aya.md#section-kurokane)進入晴香學校，以低調怯懦的形象出現；晴香出手幫助被欺凌的彩
+- <a id="event-band-aid-layer1"></a>**[膠布哲學](02_glossary.md#term-band-aid-philosophy)第一層**（個人習慣）：晴香將膠布貼在校霸傷口上——「痛係證據。留住個傷口，你先會記得今日發生咩事。」諷刺伏筆：她教校霸用膠布「記住痛」，自己卻在用膠布「逃避痛」。<!-- 見 05_story_outline_canon.md#section-act1-key-events 節點 2 -->
 - <a id="event-library-ghost"></a>**Event 1.5「圖書館幽靈」**：晴香在圖書館首次目擊彩的雙重人格——同一個身體發出兩種截然不同的聲音（彩的怯懦童聲與黑奏的平靜低語在同一瞬間交疊）。晴香當下將其歸因為「幻聽」或「回聲」；此事件成為她後來識別「一個身體兩個聲音」的關鍵記憶伏筆。<!-- 非戰鬥場合；僅晴香目擊，彩對此不知情 -->
 - <a id="event-rin-first-reunion"></a>**凜的第一次重逢**：凜（重組後）首次與美夜子的新團隊交戰
 
@@ -114,9 +131,14 @@
 - <a id="event-girls-day-out"></a>**日常：少女假日約會**：團隊難得的和平時光
 - <a id="event-school-heist"></a>**日常：潛入學校偷東西**：建立秘密基地，培養團隊默契
 - <a id="event-rin-memory-fragments"></a>**凜的記憶碎片恢復**：某次戰鬥中部分記憶恢復
-- <a id="event-emotion-link-first"></a>**[情緒連結](02_glossary.md#term-emotion-link)首戰**：團隊首次使用情緒連結，四人體驗彼此創傷記憶後連鎖崩潰，共識絕不再用
+- <a id="event-corpse-apology"></a>**「奪舍」示範場景**：一個已屍骸化的老婆婆透過附近的小孩傳話——用小孩的嘴說出「有個婆婆說她很抱歉」。老婆婆的靈魂清醒地知道自己正在傷害他人，並選擇以此方式表達歉意而非繼續攻擊。植入「屍骸仍保有某種選擇能力」的世界觀伏筆。<!-- Act I §3a；見 05_story_outline_canon.md#section-act1-key-events -->
+- <a id="event-emotion-link-first"></a>**[情緒連結](02_glossary.md#term-emotion-link)首戰**：團隊首次使用情緒連結，四人各自短暫感知到其他三人的「最深私密情緒層」（羞恥、恐懼、憤怒混雜）後連鎖崩潰。
+  - **跨污染後遺症**：後遺症尚未消退時，四人無言對視；沒有人說出感知到的內容。
+  - **四人協議**：沉默結束後達成不明言的共識「不再用情緒連結」——無投票、無討論、無正式宣告，各人「死人面」式震驚，自然停止。
 - <a id="event-banshee-first"></a>**悲鳴女妖首戰**：團隊遭遇[無臉執行官](02_glossary.md#term-faceless-executor)，因精神攻擊慘敗撤退
 - <a id="event-aya-joins"></a>**彩正式入隊**：經過一個多月相處，彩正式加入團隊
+- <a id="event-aks-s0"></a>**AKS-S0：彩/黑奏切換初感知**（E-1.5）：晴香在校園日常中目睹彩短暫失神（眼神突然變幾秒）；彩若無其事轉移話題。晴香將異感歸因為「幻聽/魔法後遺症」；觀眾察覺可疑但無解釋。為 Act III 身份揭露埋下最早種子。<!-- CDL-029/030/079/080; ACT_I_OUTLINE v1.21 -->
+- <a id="event-band-aid-layer2"></a>**[膠布哲學](02_glossary.md#term-band-aid-philosophy)第二層**（系統批判）：朱音撕開膠布——「妳以為貼住張貼紙，個傷口就會好？」從「個人習慣」上升到「系統批判」：整個[魔法少女系統](01_world_rules_and_costs.md#section-magic-system)就是一塊巨大的膠布。<!-- 見 05_story_outline_canon.md#section-act1-key-events 節點 4 -->
 
 ### <a id="section-113-may"></a>113 年 5 月：裂痕初現
 
@@ -125,6 +147,11 @@
 - <a id="event-paper-knight-1"></a>**紙皮騎士守護（一）**：美夜子噩夢中出現紙皮騎士（[愛莉](03_characters/aeri.md)在集體潛意識中的守護）
 - <a id="event-perfect-cost"></a>**完美的代價**：操堅持完美戰術錯過擊殺機會，朱音為掩護操手臂受重傷
 - <a id="event-ruins-confrontation"></a>**廢墟對質**：朱音揭穿操的真正動機，隊友關係緊張
+- <a id="event-act1-yu-mirror-integration"></a>**Act I 幕末：夕鏡中整合（第一次暫時融合）**：晴香在鏡中以歉疚與共情的態度面對夕（5 歲形態），向壓抑的自我道歉，完成第一次暫時融合（≠ Act II 末 E-15 的部分融合——此為短暫觸碰，夕仍潛伏）。<!-- CDL-102; ACT_I_OUTLINE v1.21 -->
+- <a id="event-aks-h1"></a>**AKS-H1 觸發**：觀眾透過鏡中整合場景確認 Alpha/Beta 線同時存在；晴香此時不知自己是創世者。<!-- CDL-151 -->
+- <a id="event-act1-finale-team"></a>**Act I 幕末收結：偽溫暖五人隊**：整合後晴香回到等待她的五人隊（晴香/美夜子/操/朱音/彩）；以偽溫暖畫面收結——AKS-H1 已觸發的觀眾看到笑容燦爛的彩（底層是滲透者），反差感最強。偽英雄旅程假象的最強收結時刻。<!-- CDL-102/151; ACT_I_OUTLINE v1.21 APPROVED -->
+
+<!-- ═══ ACT I 結束 / ACT II 開始 ═══ -->
 
 ### <a id="section-113-may-late"></a>113 年 5 月底-6 月初：朱音墮落
 
@@ -163,37 +190,64 @@
 - <a id="event-misao-collapse"></a>**操的逃亡與崩潰**：操精神瀕臨崩潰，雙重背叛將她推向屍骸化
 - <a id="event-team-isolation"></a>**團隊的孤立**：魔法少女被全面通緝，躲藏在夜區廢棄地鐵站
 
+### <a id="section-silent-voice-interlude"></a>幕間插入：「沉默之聲」（113 年 8 月中旬 - 114 年 2 月底）
+
+> 結構功能：Act II → Act III 過渡緩衝。純視覺段落，無對白，無已知角色。展示維多利亞城日常正在繼續（老人早市買菜、孩子踩水窪、咖啡廳開張擦窗、路燈在日出前關閉）——正是這種「無聊的正常」使第三幕的黑暗衝擊更有力。見 [Story Outline §幕間插入](05_story_outline_canon.md#section-silent-voice-interlude)。
+
+### <a id="section-113-sept-nov"></a>113 年 9-11 月：Phase D 末日序曲
+
+> 帝國戰略性無視主角團，轉而部署滲透基建。主角團在夜區廢棄地鐵站地下生存。<!-- CDL-250~257 -->
+
+- <a id="event-sanitation-phase-d"></a>**衛生行動三階段**：
+  - **113 年 7 月**：黑市封鎖——[白銀朔](03_characters/saku.md)黑市網絡暗中受壓；帝國開始壓縮主角團補給線
+  - **113 年 9 月**：Emo-Visor 全息投影全城展開——為[共振地獄](02_glossary.md#term-resonance-hell)準備情緒採集基建；主角團以帝國監控盲點為移動路線<!-- CDL-251/254 -->
+  - **113 年 11 月**：驅逐氣體階段——公共空間魔法少女驅逐行動升級，形成溫水煮青蛙的窒息感
+- <a id="event-fallen-angel-production"></a>**Fallen Angel 量產**：帝國將晴香痛苦數據提煉成情緒毒品批量生產，流入黑市<!-- CDL-251 -->
+- <a id="event-aeri-storm"></a>**愛莉潛意識風暴**（113 年 9-10 月）：帝國衛生行動大規模清掃觸發群體恐慌，成為壓垮愛莉潛意識盾牌的最後一根稻草。愛莉具現化揭示（紙皮騎士擋刀 + 石像龜裂雙線視覺）把「未經同意的恩情」罪疚感推至頂峰；晴香在集體潛意識戰場以真情緒承接（承接而非否定痛苦）取代假情緒承接，完成「消滅→理解」態度轉向。晴香感知到愛莉動機：「讓媽媽多看自己一眼」的孩子氣衝動導致的最純粹心碎。<!-- CDL-252；見 event-miyako-missing -->
+
+### <a id="section-113-nov-114-jan"></a>113 年 11 月-114 年 2 月：英雄の刑場
+
+> 主角方法論遭到制度性碾壓。帝國以「守恆定律揭露」強制將「魔法代價」推上主線前台。<!-- CDL-190/115/237~242/145 -->
+
+- <a id="event-akiho-triple-confession"></a>**秋穗身份危機**（E-11a）：朔截獲血糖手錶後門傳輸；晴香對質秋穗——三層坦白（監控真相 / 守恆法則 / 愛莉石像動機）；AKS-S1 揭示（帝國最高機密：螢死亡報告）<!-- CDL-190/115 -->
+- <a id="event-conservation-revealed"></a>**[守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)揭露**：守恆定律 Layer 3 由秋穗正式命名為宏觀物理法則<!-- CDL-247 -->
+- <a id="event-saku-miyako-dejavu"></a><a id="event-saku-miyako-recognition"></a>**朔與美夜子的既視感追認**：美夜子在多次交戰中從朔的戰鬥習慣與保護動作辨認出「舊世界殘響」，朔亦首次確認 Unit 01 並非空殼兵器而是保留連結的活體存在
+- <a id="event-nameless-boy-death"></a>**無名男孩之死**（E-13）：操目睹未出手；「永遠之罪」誕生，Act IV 動機根源前置<!-- CDL-145/148 -->
+- <a id="event-drug-crisis"></a>**情緒毒品危機**：大量市民變為[魔法屍骸](02_glossary.md#term-magical-corpse)
+- <a id="event-resonance-hell-1"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第一階段**：黑奏透過毒品測試「軟性共振」技術
+
 ---
 
 ## <a id="section-main-story-114"></a>V. 故事主線（帝國歷 114 年）
 
 > Act III 後半 ~ Act IV。
 
-### <a id="section-114-march"></a>114 年 3 月：和解與整合
+<!-- ═══ ACT II 結束 / ACT III 開始 ═══ -->
 
-- <a id="event-haruka-yu-integration"></a>**晴香與夕和解：部分融合**：美夜子引導晴香面對夕，促成整合，獲得[陰影視覺](02_glossary.md#term-shadow-sight)能力。夕仍保留獨立意識，兩者共存
+### <a id="section-114-march"></a>114 年 3 月：和解與整合（Act II 幕末 → Act III 強制入場）
 
-### <a id="section-114-april"></a>114 年 4 月：真相揭露期
+- <a id="event-haruka-yu-integration"></a>**E-15（魂醒）——晴香與夕和解：部分融合**：美夜子引導晴香面對夕，促成整合，獲得[陰影視覺](02_glossary.md#term-shadow-sight)能力。夕仍保留獨立意識，兩者共存。和解道德閉環：晴香原諒夕 = 晴香原諒 5 歲創世的自己。剪髮儀式確立（不可逆 Persona 剝除）。<!-- CDL-228/235 -->
+- <a id="event-glass-garden-tea"></a>**Act II-XX（魂咒）——玻璃庭院茶會**：晴香與夕和解後的虛假黎明片刻，黑奏聲線切入詛咒型切斷，瞬間被制度性碾壓。<!-- CDL-246 -->
+- <a id="event-emb-siege"></a>**E-16（物理絕境）——EMB 鐵桶包圍**：情緒管理局鐵桶式包圍，出口全數封堵；晴香說出「我哋出去。」Cut to Black；Act III 強制入場。<!-- CDL-285 -->
 
-- <a id="event-rin-truth-revealed"></a>**觀眾知道凜已死並被重組**：美夜子向晴香坦白凜的過去，觀眾首次明確得知凜在 108 年已死亡並被重組
+### <a id="section-114-april"></a>114 年 4 月：Phase G/H — 地下突圍與月光對峙
+
+- <a id="event-rin-truth-revealed"></a>**Phase H：觀眾知道凜已死並被重組**：美夜子向晴香坦白凜的過去，觀眾首次明確得知凜在 108 年已死亡並被重組
 - <a id="event-curse-truth"></a>**詛咒真相揭露**：美夜子記憶恢復，記起自己是晴香的親姊姊，知道變貓是晴香 5 歲時的[避難所詛咒](02_glossary.md#term-sanctuary-curse)
-- <a id="event-saku-miyako-dejavu"></a><a id="event-saku-miyako-recognition"></a>**朔與美夜子的既視感追認**：美夜子在多次交戰中從朔的戰鬥習慣與保護動作辨認出「舊世界殘響」，朔亦首次確認 Unit 01 並非空殼兵器而是保留連結的活體存在
+- <a id="event-miyako-moonlit-collapse"></a>**H1.5 月下崩潰——無語言相認（P-A12 Step 1）**：美夜子得知凜真相後防線粉碎；晴香本能抱住——「靈魂比語言更早認出彼此」。無語言相認完成，姊妹身份在情感層確認，正式語言確立留待 Phase J（黑奏處刑室）。<!-- CDL-213；見 05_story_outline_canon.md#scene-phase-gh -->
 - <a id="event-rin-final-collapse"></a>**凜的最終崩潰與自願改造**：凜推開晴香伸出的手，要求黑奏挖走所有感情，變成 Unit 00 - Null
-- <a id="event-miyako-missing"></a>**美夜子失蹤 / 愛莉潛意識風暴**：美夜子獨自調查凜下落被困，晴香帶隊救援成功——晴香從「被保護者」正式成為「保護者」
-- <a id="event-conservation-revealed"></a>**[守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)揭露**：[秋穗](03_characters/akiho.md)公開「維多利亞之淚」與情緒債務回流的關聯，將代價機制推到主線前台
-- <a id="event-drug-crisis"></a>**情緒毒品危機**：大量市民變為[魔法屍骸](02_glossary.md#term-magical-corpse)
-- <a id="event-resonance-hell-1"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第一階段**：黑奏透過毒品測試「軟性共振」技術
+- <a id="event-miyako-missing"></a>**美夜子失蹤**：美夜子獨自調查凜下落被困，晴香帶隊救援成功——晴香從「被保護者」正式成為「保護者」。（愛莉潛意識風暴已在 [113 年 9-10 月](#event-aeri-storm) 完成）
+- <a id="event-bridge-of-sighs"></a>**嘆息之橋（凜獨立場景）**：[btd — 凜在嘆息之橋的獨立 beat；Phase G/H（114 年 3-4 月）某處；具體設計待 Beat Sheet 確認]
 
-### <a id="section-114-may"></a>114 年 5 月：恐怖家家酒與決戰
+### <a id="section-114-may"></a>114 年 5 月：Phase I（恐怖家家酒）→ Phase J（帝國廣場決戰與偽高潮）
 
 - <a id="event-horrific-house"></a><a id="event-terror-playhouse"></a>**恐怖家家酒（2 週）**：黑奏強迫大家「繼續扮朋友返學」，形成恐怖平衡
   - 第 10 天：朱音「暴食斷頭台」——拒絕黑奏的毒品盛宴，學會「給予」而非「暴力守護」
   - 第 11 天：操控制欲爆發
   - 第 12 天：操的劇本式指揮完全失效
   - <a id="event-steel-solo"></a>**第 13 天：操「鋼鐵獨舞」**（錯位雙殺前半）——黑奏強行撬開口腔揭露絲線縫牙（Stage 3）；紗夜遺言在此刻清晰傳來；操最終以絲線將殘軀縫入瓦礫形成「人偶牆」，封鎖通道保護隊友。最終宣言：「我選擇停留在我想停留的位置。這是我的態度。」
-  - <a id="event-sanitation-execution-declare"></a><a id="event-public-execution-bait"></a>**衛生行動公開處刑公告（陷阱）**：帝國把「衛生行動」升級為公開處刑政治秀，對外宣稱將處決「終極變異體」，並點名晴香與美夜子為最危險異端，目的是迫使隊伍在帝國廣場現身
+  - <a id="event-sanitation-execution-declare"></a><a id="event-public-execution-bait"></a>**衛生行動公開處刑公告（陷阱）**（Day 13 夜）：帝國把「衛生行動」升級為公開處刑政治秀，對外宣稱將處決「終極變異體」，並點名晴香與美夜子為最危險異端，目的是迫使隊伍在帝國廣場現身
   - <a id="event-kurokana-body-reveal"></a>**真身揭露：巨大衣服，微小的神**——黑奏故意讓皇袍滑落，露出彩被長期囚禁的幼體身軀（抱著舊熊公仔），以「權力外殼 vs 脆弱核心」的反差羞辱團隊並重置敵我認知
-  - <a id="event-bridge-of-sighs"></a>**嘆息之橋（凜獨立場景）**：[btd — 凜在嘆息之橋的獨立 beat；Phase G/H 某處；具體設計待 Beat Sheet 確認]
   - <a id="event-imperial-plaza-rescue"></a><a id="event-double-sacrifice"></a>**第 14 天：帝國廣場救援**（錯位雙殺後半）
     - <a id="event-akane-return"></a>**朱音的回歸**：朱音穿著垃圾鎧甲突然出現，使用「過載變身」
     - <a id="event-akane-last-words"></a>**朱音的遺言**：「我無治癒成功⋯⋯但我起碼知道⋯⋯我唔想再一個人食飯。」
@@ -204,12 +258,16 @@
   - **第二段：月下窗台的存在確認測試**：美夜子嘗試以純生理刺激確認「自己是否仍然活著」，但測試失敗，無法帶來存在感與安定感
   - **第三段：晴香的擁抱與崩潰大哭**：晴香以身體接觸與情感承接把她從解離邊緣拉回，美夜子首次容許自己失控痛哭。晴香亦在此階段確定黑貓就是自己的姊姊
 - <a id="event-rin-final-battle"></a>**凜的最終戰：遲來的介錯**：美夜子以人類戰士身份履行血之約定，槍擊 Unit 00 核心。凜死前只發出氣音，無法留下遺言
-- <a id="event-liberation-battle"></a>**解放之戰**：晴香團隊攻入維多利亞之淚核心，停止人造太陽
+<!-- Phase J 開場 -->
+- <a id="event-liberation-battle"></a>**解放之戰**（Phase J 開場）：晴香團隊攻入維多利亞之淚核心，停止人造太陽
 - <a id="event-hope-betrayal"></a>**希望的背叛**：全城斷電，黑奏將晴香塑造為毀滅元兇；民眾的「希望」反轉為「惡意」洪流
-- <a id="event-imperial-plaza-battle"></a>**帝國廣場決戰**：世界因[靈魂滲漏](02_glossary.md#term-soul-leakage)即將崩潰
+- <a id="event-imperial-plaza-battle"></a>**帝國廣場決戰**（Phase J 主戰）：世界因[靈魂滲漏](02_glossary.md#term-soul-leakage)即將崩潰
+- <a id="event-miyako-sister-language-confirm"></a>**美夜子×晴香姊妹身份最終語言確立**（P-A12 Step 2，Phase J 黑奏處刑室）：黑奏三武器揭露序列中，晴香與美夜子以語言正式確認姊妹身份——在已知彼此是誰的情況下，第一次用語言說出來。<!-- CDL-274 Step 2; btd —具體台詞待 Beat Sheet 確認 -->
 - <a id="event-truth-revealed"></a><a id="event-band-aid-third-reveal"></a><a id="event-world-truth-reveal"></a>**真相揭露（膠布哲學第三層）**：黑奏揭露 [Alpha 線](02_glossary.md#term-alpha-line)真相與晴香「創世者」身份——「妳以為妳救活了她？不，晴香。妳只是在她屍體上貼了一塊叫做『魔法世界』的膠布。」
 - <a id="event-aya-internal-revolution"></a>**彩的內部革命**：彩（主人格）抱住黑奏，說：「唔需要啦⋯⋯黑奏。我已經大個女啦。」黑奏防禦力場瞬間消失
-- <a id="event-yu-takeover"></a>**夕的完全接管（被迫，非主動謝幕）**：晴香精神崩潰，夕被強迫接管身體（CDL-281；雙層動機：私心+保護晴香，清醒悖論），發動[改變現實](02_glossary.md#term-reality-change)
+- <a id="event-yu-takeover"></a>**夕的完全接管（被迫，非主動謝幕）**：晴香精神崩潰，夕被強迫接管身體（CDL-281；雙層動機：私心+保護晴香，清醒悖論），發動[改變現實](02_glossary.md#term-reality-change)。接管即觸發：改變現實嘗試失敗 → 時間線裂痕 → [緋潮](02_glossary.md#term-scarlet-tide)爆發（三者為不可分的連鎖後果，見下段）。<!-- 與 CDL-281 的「偽高潮後的坍塌門檻」結構：夕接管+緋潮構成雙重坍塌 -->
+
+<!-- ═══ ACT III 結束（偽高潮坍塌）/ 二十年守望開始 ═══ -->
 
 ### <a id="section-114-twenty-years"></a>114 年 6 月-134 年 6 月：二十年守望
 
@@ -219,17 +277,21 @@
 - <a id="event-faceless-truth"></a>**[無臉執行官](02_glossary.md#term-faceless-executor)真相**：揭露無臉執行官是失敗時間線的[秋穗](03_characters/akiho.md)
 - <a id="event-twenty-year-vigil"></a>**二十年守望**：晴香意識被困於[集體潛意識](02_glossary.md#term-collective-unconscious)；夕維持身體機能，對抗黑奏侵蝕
 
-### <a id="section-114-july-new"></a>114 年 7 月（新現實）：覺醒
+<!-- ═══ 二十年守望結束 / ACT IV 開始 ═══ -->
+
+### <a id="section-114-july-new"></a>134 年 7 月（新現實）：覺醒（Act IV 開場）
 
 - <a id="event-time-reset"></a>**時間重置**：世界重置回 114 年 7 月，只有晴香保留記憶
 - <a id="event-post-story-begin"></a>**故事後段開端**：晴香甦醒於新現實；愛莉成為魔法少女；朔轉變為「解放者」
 - <a id="event-amber-of-love"></a>**母愛的琥珀**：晴香被困於「完美世界」——花子還活著，美夜子是普通少女
 
-### <a id="section-114-august"></a>114 年 8 月：自我整合
+### <a id="section-114-august"></a>134 年 8 月：自我整合
 
 - <a id="event-self-integration"></a>**自我整合**：晴香選擇離開「母愛的琥珀」，將對母愛的渴望收回心中，完成覺醒。不是弒母——是整合
+- <a id="event-band-aid-layer4"></a>**[膠布哲學](02_glossary.md#term-band-aid-philosophy)第四層**（終極抉擇）：覺醒後第一個夜晚，晴香獨自站在廢墟高處，撕開手臂上「在夢境中不存在、但在現實中積累了二十年」的膠布，鮮血與淚水一起流下。核心台詞：「好痛。」（嘴角微笑）「但係依份痛……係我自己既。」弧光收束：從「遮蓋者」成為「直視者」——不再逃避傷口，選擇與痛苦共存並吸收。<!-- 見 05_story_outline_canon.md#director-band-aid-4th; Source: backup/screenwriter/05_Story_Outline_Director_Notes.md 行 63-74 -->
+- <a id="event-aeri-magical-girl-debut"></a>**愛莉作為魔法少女登場**：愛莉以魔法少女身份正式現身，填補晴香缺席留下的守護缺口；提供「同起點、異態度、異結果」的對照證據，支撐終局選擇可信度。<!-- 見 05_story_outline_canon.md#section-act4-key-events 節點 3 -->
 
-### <a id="section-114-september"></a>114 年 9 月：最終決戰
+### <a id="section-114-september"></a>134 年 9 月：最終決戰
 
 - <a id="event-final-battle"></a>**最終決戰**：晴香匯聚眾人「態度」的力量
 - <a id="event-resonance-hell-3"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第三階段**：黑奏試圖開啟全人類的[情緒視覺](02_glossary.md#term-emotional-qualia)；晴香做出第三選擇——既不開啟也不完全關閉，守護「不確定中的信任」
@@ -237,7 +299,8 @@
 - <a id="event-aya-awakening"></a>**彩的覺醒與犧牲**：彩用靈魂填補裂痕，償還[因果債務](02_glossary.md#term-causal-debt)，黑奏人格消散
 - <a id="event-forced-ascension"></a>**強制索回**：晴香被強行轉化為「[三位一體](02_glossary.md#term-trinity-spectrum)的永恆守護者」
 - <a id="event-magic-system-end"></a>**魔法系統終結**：[魔法少女](02_glossary.md#term-magical-girl)系統、屍骸、[情緒毒品](02_glossary.md#term-emotion-drug)全部失效
-- <a id="event-bittersweet-ending"></a>**悲劇但有意義的結局**：晴香成為[集體潛意識](02_glossary.md#term-collective-unconscious)的永恆守護者；[美夜子](03_characters/miyako.md)回歸凡人，成為唯一與晴香保持連結的存在
+- <a id="event-bittersweet-ending"></a>**悲劇但有意義的結局——靜止搖籃（Static Cradle）**：晴香整合所有 Alpha 線真相後，意識永久沉睡，肉身轉化為世界情緒濾網，持續吸收並轉化集體潛意識中的負面情緒。[美夜子](03_characters/miyako.md)回歸凡人，成為唯一與晴香保持連結的存在。此為唯一定局——無「晴香清醒存活」之分支。<!-- CDL-001; 見 03_characters/haruka.md#status-static-cradle -->
+- <a id="event-miyako-guitar-inheritance"></a>**美夜子「笨拙演奏」（精神繼承者的定義）**：晴香進入靜止搖籃後的某一天，美夜子獨自找到晴香生前最後創作的未完成曲目。她從未學過吉他；用雙手笨拙地按弦，左手指被弦切出紅痕；音符不準確，節奏不穩定，開頭同一段反覆彈奏。沒有說任何話，也沒有哭泣。繼承的不是技術，而是意志——以自己笨拙的方式觸碰晴香未完成的事。**導演鐵律：禁止插入技巧漸增蒙太奇；笨拙必須維持至場景結束。**<!-- CDL; 見 05_story_outline_canon.md#scene-miyako-guitar-inheritance -->
 
 ---
 
@@ -257,6 +320,8 @@
 | [希望背叛](#event-hope-betrayal) | 114 年 5 月 | 英雄敘事正式斷裂，進入存在命題 | [晴香](03_characters/haruka.md) |
 | [母愛的琥珀](#event-amber-of-love) | 114 年 7 月 | 晴香從逃避回到承擔，完成自我整合前置 | [晴香](03_characters/haruka.md) |
 | [靈魂共鳴](#event-soul-resonance) | 114 年 9 月 | 逝者態度跨越生死，完成主題驗證 | 晴香、操、朱音 |
+| [膠布哲學第四層](#event-bittersweet-ending) | 134 年 7 月後 | 晴香接受「世界本身就是不完美的膠布」——最終主題收束 | [晴香](03_characters/haruka.md) |
+| [愛莉魔法少女登場](#event-post-story-begin) | 134 年 7 月 | 愛莉作為魔法少女正式現身，接續守護缺口 | [愛莉](03_characters/aeri.md)、[晴香](03_characters/haruka.md) |
 
 ## <a id="section-eternal-return"></a>VI. 永劫回歸：時間循環
 
@@ -282,10 +347,11 @@
 ---
 
 **統計**：
-- 涵蓋帝國歷 0-114 年
-- 關鍵事件節點：80+
+- 涵蓋帝國歷 0-134 年（+後）
+- 關鍵事件節點：110+
 - Alpha/Beta 分歧點：**帝國歷 102 年**（見 [Decision Log：CF-002](99_decision_log.md#decision-cf002)）
-- 故事主線：帝國歷 113-114 年（約 21 個月）
+- 故事主線：帝國歷 113-134 年
+- 幕別：Act I（113/3-5月）/ Act II（113/5月底-114/3月）/ Act III（114/3-5月底）/ 二十年守望（114/6月-134/7月）/ Act IV（134/7月-）
 
 **See also**: [Story Outline](05_story_outline_canon.md) | [World Rules — Alpha/Beta](01_world_rules_and_costs.md#section-alpha-beta) | [Character Index](03_character_index.md)
 
