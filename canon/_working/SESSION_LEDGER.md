@@ -1,6 +1,7 @@
 # SESSION_LEDGER
 
 ## Current Phase
+- Phase 15 (Act III Outline 設計) — **Round 045（2026-06-19）00_Story_Brief.html 全面可讀性審查修正完成（P0/P1/P2 全批）：canon rename 朱音→紫音（97 canon files）；CDL-290 時間線修正（花子/美夜子「意外遇難」取代「刑思殺死」）；膠布哲學第二層修正（紫音撕膠布批判，非隊友依賴）；三張橋接卡新增（30秒劇情版/Alpha-Beta誤讀預防/先記五個人）；六段 Phase 橋接句；JS 預設展開 #what/#why/#theme/#world；h1→h2 category-section；bq-tip 移位；字符卡 open 屬性；sidebar #game 連結；菲/刑思括號補充；靜止搖籃意識狀態說明；CSS dead code 清除。不影響主線 Outline 批核流程。**
 - Phase 15 (Act III Outline 設計) — **Round 044（2026-06-16）人物視覺設計 `<details>` 展開區塊實作（00_Story_Brief.html）；5個角色（晴香・彩/黑奏・紫音・操・愛莉）各加入 collapsible 視覺設計 section；image-left/notes-right 並排 layout；CSS 新增 `.char-design`/`.design-form`/`.design-img`/`.design-notes`。不影響主線 Outline 批核流程**
 - Phase 15 (Act III Outline 設計) — **Round 043（2026-06-15）Story Brief 結構完善化 + 無意識兵器/情緒毒品新設定整合完成（00_Story_Brief.md）；§魔法少女的起源 加入兩種製造方式對比；Markdown/HTML 結構對齐。不影響主線 Outline 批核流程**
 - Phase 15 (Act III Outline 設計) — **Round 042（2026-06-15）記憶/靈魂「無法遺忘」設定整合完成（CanonFileIntegrator）；QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成。主阻塞點仍為 ACT_III v0.3 作者批核（不受影響）**
@@ -77,8 +78,8 @@
 
 ## Completed This Round (Round 040 — 2026-05-19 story-conflict-resolution-gate VENUE_WRITEBACK)
 - [x] **CONFLICT_RESOLUTION** ACT_III_OUTLINE.md：嘆息之橋 → 帝國廣場 全文 venue writeback（7 處，含 Gate A、Phase I header btd note、I2、I3 heading、J1 事件核心及 AC note）
-- [x] **CONFLICT_RESOLVED (C-01~C-04)** 朱音犧牲 Phase + venue 矛盾：Phase I Day 14 帝國廣場確認；連續兩日結構保留；嘆息之橋改由凜或其他角色場景使用（位置待定，Beat Sheet 層）
-- [x] **DESIGN_GAP_IDENTIFIED** J1 進場動機（原「阻止朱音公開處刑」已移除；新動機待 Beat Sheet 補充，btd note 加入 J1）
+- [x] **CONFLICT_RESOLVED (C-01~C-04)** 紫音犧牲 Phase + venue 矛盾：Phase I Day 14 帝國廣場確認；連續兩日結構保留；嘆息之橋改由凜或其他角色場景使用（位置待定，Beat Sheet 層）
+- [x] **DESIGN_GAP_IDENTIFIED** J1 進場動機（原「阻止紫音公開處刑」已移除；新動機待 Beat Sheet 補充，btd note 加入 J1）
 - [x] **PENDING_CDL_ADDENDUM** CDL-217/218 場地描述（嘆息之橋）需加入 addendum 反映 AC 2026-05-19 venue 修訂（不阻塞批核）
 - [x] **DEFERRED (C-05~C-06)** CDL-278/283 gap + L9/J8 mechanics overlap → Beat Sheet 層處理
 - [x] **State files updated**: conflict_resolution/* (SESSION_STATE, CONFLICT_REGISTER, WRITEBACK_LOG, QUESTION_QUEUE) + PROJECT_STATUS.md CDL-218 summary line
@@ -136,7 +137,7 @@
 - [x] **CDL-288 整合缺口識別**：鐵絲網偶遇（Act III扣留子彈）係 Act III 核心揭示但未出現在 Outline J2 三武器序列中
 - [x] **CDL-289 整合缺口識別**：黑奏 Loop N Warden 角色未在 J3 守恆定律歷史揭露中體現
 - [x] **J8 CDL citation 修正（非門控）**：J8 header 由 `[CDL-275/278]` 改為 `[outline_raw.md後段]`；相關 CDL 移除錯誤引用並加入說明注記
-- [x] **J1 時序歧義識別**：Phase I Day 14 朱音犧牲 vs Phase J「114年5月中~底」J1「救朱音」的時序矛盾
+- [x] **J1 時序歧義識別**：Phase I Day 14 紫音犧牲 vs Phase J「114年5月中~底」J1「救紫音」的時序矛盾
 - [x] **QQ-04 vs L2 張力識別**：L2「蒼老的秋穗」隱含設計 vs QQ-04 秋穗退場仍 BLOCKED
 - [x] **Cross-Act Dependency Gate 六項全完成**
 - [x] **12角度 + Pool 2 全掃描**（CDL-288 整合缺口為主題）
@@ -161,9 +162,9 @@
   - A-1~A-4：reference 錯誤（P-A25位置錯、CDL-265/243誤引、CDL-405/320/352不存在）
   - B-1：Act I Plant-A 美夜子相認 payoff 舊記錄（嘆息之橋 → CDL-274兩步設計）
   - B-2：PROJECT_STATUS CDL-258/259 狀態矛盾
-  - C-1~C-3：敘事 gap（P-A12 Step 2 J2 缺失、凜 Phase F 延遲揭露無注記、朱音被捕時機缺失）
+  - C-1~C-3：敘事 gap（P-A12 Step 2 J2 缺失、凜 Phase F 延遲揭露無注記、紫音被捕時機缺失）
 - [x] **執行 7 項非阻塞修正**（A-1~A-4 + B-1 + C-1~C-3）：
-  - ACT_III_OUTLINE.md：P-A25 payoff 修正；J5/J6/J9/L5/L9 CDL 修正；J2 P-A12 Step 2 注記；Phase I 朱音被捕注記
+  - ACT_III_OUTLINE.md：P-A25 payoff 修正；J5/J6/J9/L5/L9 CDL 修正；J2 P-A12 Step 2 注記；Phase I 紫音被捕注記
   - ACT_I_OUTLINE.md：Plant-A 美夜子相認 payoff 更新（CDL-274 兩步設計）
   - ACT_II_OUTLINE.md：角色弧線摘要新增凜延遲揭露注記
 - [x] **生成 2 條作者問題**：QQ-96（Q-SV-01：CDL-258 vs CDL-259 狀態）；QQ-97（Q-SV-02：J9/L5/L9 設計依據）
@@ -175,7 +176,7 @@
   - 執行系統化邏輯驗證（時間線、角色狀態、事件連貫性、Body Horror進程）
   - 識別 4 個優先度 A 邏輯缺口 + 2 個優先度 B 來源驗證問題 + 2 個優先度 C 細節問題
 - [x] **優先度 A 邏輯缺口補充**：
-  - ✅ **A-001**：補充朱音被黑奏移至嘆息之橋的事件鏈（從下水道捕獲→囚禁於行刑場）
+  - ✅ **A-001**：補充紫音被黑奏移至嘆息之橋的事件鏈（從下水道捕獲→囚禁於行刑場）
   - ✅ **A-002**：分層凜的身份揭露（H1 死訊「我是凜」→ H1.5 相認 → 終局形態 Unit 00-Null）
   - ✅ **A-003**：補充 Day 13 夜間至 Day 14 中午隊伍等待狀態（死囚牢房效應描寫）
   - ✅ **A-004**：補充 Phase G/H 中操的 Stage 2b 漸進過程（無痛覺自我縫合、靈魂離體化）
@@ -203,7 +204,7 @@
 - [x] **CROSS_ACT_FORESHADOW_MANIFEST.md 更新**（P-C11/C12/C13正式納檔；Last Updated時戳更新至2026-05-10）
 - [x] **ACT_III_OUTLINE.md v0.1 建立**：
   - Outline層完整架構（時間線Phase G-L確認；11個主要beat完整設計）
-  - 角色弧線簽名（Gate A快速版：晴香/美夜子/彩/操/朱音/凜）
+  - 角色弧線簽名（Gate A快速版：晴香/美夜子/彩/操/紫音/凜）
   - 意識形態衝突（Gate B三軸：拯救/佔有/命運 vs 對應立場）
   - 主題衝突承載（Gate C五場景：真相/拯救/佔有/選擇/命運）
   - Plant Payoff對照清單（12+ Plant回收位置）
@@ -233,7 +234,7 @@
   - Q2=A（2步相認設計，取代CDL-059~062）
   - Q3=A（月下場景一氣呵成）
   - Q4=A（接納痛苦解鎖夕，唯識宇宙機制）
-  - Q5=A（朱音/操只知Layer 1）
+  - Q5=A（紫音/操只知Layer 1）
   - Q6=A（人造空殼謊言可信）
   - Q7=A（相簿Glitch確認）
   - Q8=A+C（美夜子死命喊+掙扎）
@@ -355,9 +356,9 @@
 - [x] QUESTION_QUEUE.md QQ-59~63 RESOLVED條目加入
 - [x] PROJECT_STATUS.md + SESSION_LEDGER.md + NEXT_ACTION.md 更新
 
-## Completed This Round (Round 025 — 2026-04-17 E-12重寫 + 朱音身份鎖定)
+## Completed This Round (Round 025 — 2026-04-17 E-12重寫 + 紫音身份鎖定)
 - [x] Act II v0.3 Outline 層缺口分析（gap scan）完成——識別13項缺口，優先級分類
-- [x] 作者確認：朱音=屍骸女王/首領100%專屬身份（CDL-236）
+- [x] 作者確認：紫音=屍骸女王/首領100%專屬身份（CDL-236）
 - [x] E-12框架錯誤確認：「帝國部署」屬bug；重設為「屍骸女王討伐」（CDL-237）
 - [x] E-12觸發B+D確認（CDL-238）；結果B意識形態慘敗確認（CDL-239）
 - [x] P-A09功能重設：Act III recognition trigger廢除→E-12情感癱瘓觸發器；CDL-021廢除（CDL-240）
@@ -372,7 +373,7 @@
 - [x] 8條consolidated作者問題提出，作者全部回應
 - [x] **QQ-52 RESOLVED（CDL-227）**：E-09觸發=C修正版兩步因果綁定
 - [x] **QQ-56 RESOLVED（CDL-228）**：夕意識狀態=D+A；E-15和解道德閉環
-- [x] **QQ-53 RESOLVED（CDL-229）**：朱音cascade=B（E-07a+E-07b）
+- [x] **QQ-53 RESOLVED（CDL-229）**：紫音cascade=B（E-07a+E-07b）
 - [x] **CDL-230落檔**：廢棄糖果工廠Outline層確認
 - [x] **QQ-54 RESOLVED（CDL-231）**：鏡像破碎之夜=C（耳鳴遮蔽+Act III清晰還原）
 - [x] **QQ-58 RESOLVED（CDL-232）**：紗夜遺言=C（雙段呈現）
@@ -406,12 +407,12 @@
 ## Completed This Round (Round 022 — 2026-04-13 Act III 地下抵抗期全設計 + Q-R1~Q-R7全部確認)
 - [x] 定位「空白期」真實位置：Act II Phase D-F（密度低）+ Act III開場（完全空白）
 - [x] 12角度全覆蓋掃描：地下抵抗期填充需求——全部12角度RELEVANT
-- [x] 創作提案三條：①受傷仍救人beat；②情緒美食家線；③尋找朱音主動搜尋線
+- [x] 創作提案三條：①受傷仍救人beat；②情緒美食家線；③尋找紫音主動搜尋線
 - [x] Q-R1=B 確認：兩個小beat積累型（CDL-212落檔）
 - [x] Q-R2=D 確認：糖果唐樓/護士長/品酒師（CDL-213落檔）
 - [x] Q-R3=C 確認：搜尋線+美食家線合併，三動機，無聲重逢（CDL-214落檔）
 - [x] Q-R4=B 確認：凜三連爆兩beat（CDL-215落檔）
-- [x] Q-R5=混合型 + Bug Fix：公開處刑目標改為朱音（CDL-216落檔）
+- [x] Q-R5=混合型 + Bug Fix：公開處刑目標改為紫音（CDL-216落檔）
 - [x] Q-R6=B 確認：Day13公告/Day14嘆息之橋分開（CDL-217落檔）
 - [x] Q-R7=D 確認：錯位雙殺，廢除timeline_raw「兩人一同犧牲」（CDL-218落檔）
 - [x] CDL-212~218 全部落檔
@@ -420,9 +421,9 @@
 - [ ] ACT_III_OUTLINE.md v0.1 起稿（骨架已成型，可以開始）
 
 ## Completed This Round (Round 021 — 2026-04-12 Act II Gap Analysis)
-- [x] source check：timeline_raw.md（113年5月底-114年3月段落）、outline_raw.md（朱音cascade）、CROSS_ACT_FORESHADOW_MANIFEST.md（P-A25確認）
+- [x] source check：timeline_raw.md（113年5月底-114年3月段落）、outline_raw.md（紫音cascade）、CROSS_ACT_FORESHADOW_MANIFEST.md（P-A25確認）
 - [x] 發現 Gap 1（Critical）：E-09 社死觸發點矛盾——v0.2 用帝國法案，timeline 用夕拍片背叛
-- [x] 發現 Gap 2（High）：朱音 Phase B 完整 cascade 缺失（小光之死→屍骸樂園→三位一體辯論→放逐，113年5月底-6月中旬）
+- [x] 發現 Gap 2（High）：紫音 Phase B 完整 cascade 缺失（小光之死→屍骸樂園→三位一體辯論→放逐，113年5月底-6月中旬）
 - [x] 發現 Gap 3（Critical）：鏡像破碎之夜完全缺失（操父親背叛+紗夜犧牲，113年7-8月）；P-A25 payoff 幕歸屬未定
 - [x] 發現 Gap 4（Medium）：E-15 scope 缺失陰影視覺+剪髮（114年3月）
 - [x] QQ-52~55 落檔（QUESTION_QUEUE.md Active Questions）
@@ -441,7 +442,7 @@
 
 ## Completed This Round (Round 019 — 2026-04-10 世界觀落地 + ACT_II_OUTLINE.md v0.1完成)
 - [x] CDL 重複 ID 修正：CDL-185~189（桐生健/集體潛意識/魔法器官/情緒詛咒/日常偽裝）重編為 CDL-192~196
-- [x] CDL-197~203 落檔（Q1-Q10 答案）：Act II scope/黑奏動機兩步/偽王道覺醒/朱音腐化/愛莉三步/玻璃庭院/魔女狩獵期
+- [x] CDL-197~203 落檔（Q1-Q10 答案）：Act II scope/黑奏動機兩步/偽王道覺醒/紫音腐化/愛莉三步/玻璃庭院/魔女狩獵期
 - [x] **ACT_II_OUTLINE.md v0.1 建立**：6個Phase、15個beat、AKS進程、角色弧線摘要、Act II新增Plant P-C01~P-C05
 - [x] CROSS_ACT_FORESHADOW_MANIFEST.md 更新：Act II plants P-C01~P-C05 補入；Act II payoff進度標記
 - [x] PROJECT_STATUS.md 更新：CDL-192~196修正；Round 019已完成項更新
@@ -466,7 +467,7 @@
 - [x] CDL-143 落檔：無名男孩核心設計（刻意匿名/榮格缺失填補/美術部邊緣人/速寫簿）
 - [x] CDL-144 落檔：A/B split 資訊錯位 + 速寫簿揭露設計
 - [x] CDL-145 落檔：男孩死亡時序 = Act II 魔女狩獵期；操「不敢出手」之罪
-- [x] CDL-146 落檔：偷睇約會場景基調（晴香/朱音/美夜子黑貓）；Act I Beat Sheet btd
+- [x] CDL-146 落檔：偷睇約會場景基調（晴香/紫音/美夜子黑貓）；Act I Beat Sheet btd
 - [x] CDL-147 落檔：名字揭露機制（螢幕不顯示原則）
 - [x] CDL-148 落檔：Act IV 動機 merge（無名男孩guilt + 紗夜死亡並列）
 - [x] ayakomoji_misao.md 更新：新增「無名男孩與速寫簿」背景節
@@ -490,9 +491,9 @@
   - ✅ 夕：改寫為晴香「控制」的直接產物，形成「補完 → 反抗」的對立邏輯
   - ✅ 彩/黑奏：串聯為「如果晴香選擇消滅而非掌控」的極端版本，展示148cm身軀的困境
   - ✅ 美夜子：改寫為晴香「控制慾的直接代價」，詛咒 → 接納 → 介錯人身份的轉變
-  - ✅ 朱音：**完整救贖弧線** —— 飢餓創傷 → 戰鬥成癮 → 偶遇小光（希望） → 加入隊伍 → 小光屍骸化（絕望） → 屍骸首領（墮落） → 被迫造成災難 → 嘆息之橋回歸 → 自爆犧牲（態度的勝利）
+  - ✅ 紫音：**完整救贖弧線** —— 飢餓創傷 → 戰鬥成癮 → 偶遇小光（希望） → 加入隊伍 → 小光屍骸化（絕望） → 屍骸首領（墮落） → 被迫造成災難 → 嘆息之橋回歸 → 自爆犧牲（態度的勝利）
   - ✅ 操：第三種破碎邏輯（完美主義），變身 = 唯一的身份確認
-  - ✅ 角色間邏輯鏈：晴香的選擇 → 夕的分裂 → 黑奏的鏡像 → 美夜子的詛咒 → 朱音的犧牲 → 操的掙扎
+  - ✅ 角色間邏輯鏈：晴香的選擇 → 夕的分裂 → 黑奏的鏡像 → 美夜子的詛咒 → 紫音的犧牲 → 操的掙扎
   - ✅ Act I/II敘述：融入魔法代價與Alpha/Beta滲漏但保持故事敘述的連貫性（不用新section）
 - [x] SESSION_LEDGER.md / PROJECT_STATUS.md 更新
 
@@ -527,7 +528,7 @@
 ## Confirmed Author Decisions（Round 014，2026-04-02）
 - QQ-46 → timing確認（CDL-118）：奪舍示範場景 = E-02後某事件中間的小事件；具體位置 btd
 - QQ-47 → A（CDL-119）：四人協議 = 自然停止，無點頭場景；各人「死人面」式震驚
-- QQ-48 → B（CDL-120）：膠布哲學第二層（朱音批判台詞）= E-04後[NC]緩衝段
+- QQ-48 → B（CDL-120）：膠布哲學第二層（紫音批判台詞）= E-04後[NC]緩衝段
 - QQ-49 → C（CDL-121）：情緒連結 = 情緒海嘯+觀眾視角Flash；3個Flash確認；晴香防護機制確認
 - QQ-50 → B+C（CDL-122）：彩「下次呢？」第二觸發 = 爽約+半私密；完整場景設計確認
 
@@ -710,7 +711,7 @@
 
 ## Additional Decisions (Round 005 追加 — 2026-03-29)
 - [x] QQ-10 RESOLVED：維多利亞天使三層心理設計確立（CDL-053~057）
-- [x] QQ-18 RESOLVED（自行決定）：E-02 = 首戰+操入隊；新 E-02.5 = 朱音珍寶珠
+- [x] QQ-18 RESOLVED（自行決定）：E-02 = 首戰+操入隊；新 E-02.5 = 紫音珍寶珠
 - [x] CDL-053~058 落檔（晴香拯救者情結、美夜子共謀誤導、維多利亞天使半真半假、維多利亞之淚群體催眠、情緒資本主義娛樂化、操 Alpha/Beta 線差異）
 - [x] ACT_I_OUTLINE.md 大幅更新（E-01 晴香/美夜子、E-02 操入隊+Reality Show、E-02.5 新 beat、Plant-A 新增）
 - [x] 操 Alpha/Beta 線矛盾 RESOLVED（CDL-058）
@@ -728,15 +729,15 @@
 ## Confirmed Author Decisions This Round (Round 005)
 - QQ-10 → D（維多利亞天使團方向保留，繼續討論如何合理化）；CDL-045
 - QQ-11 → B（後遺症自然停止）+ 關係改善角度 + btd；CDL-048；QQ-11 → DEFERRED
-- QQ-12 → A（朱音超載）；CDL-043；QQ-12 → RESOLVED
+- QQ-12 → A（紫音超載）；CDL-043；QQ-12 → RESOLVED
 - QQ-13 → 花子 = 母親/秋穗妹妹；CDL-044；QQ-13 → RESOLVED
-- E-01 事件結構：只有晴香+美夜子；朱音+操 入場需設計；CDL-045；新 QQ-14 BLOCKED
+- E-01 事件結構：只有晴香+美夜子；紫音+操 入場需設計；CDL-045；新 QQ-14 BLOCKED
 - 美夜子知情 = C（部分知創世者）；CDL-046；新 QQ-15 DEFERRED（細妹知情）
 - E-XX 陰影 = B + 失去感；CDL-047
 
 ## Open Questions (Round 005 end)
 - **QQ-10**: E-01 維多利亞天使團合理化（BLOCKED，Act I Beat Sheet 前）
-- **QQ-14**: E-01 朱音+操 入場方法設計（BLOCKED，Act I Beat Sheet 前）
+- **QQ-14**: E-01 紫音+操 入場方法設計（BLOCKED，Act I Beat Sheet 前）
 - **QQ-15**: 美夜子是否知道晴香係細妹（DEFERRED）
 - QQ-03: AKS-S1 + R-7 info architecture（High，Act II Outline 前）
 - 作者批核 ACT_I_OUTLINE.md Draft v1 — 阻塞 Beat Sheet（QQ-10/14 解決前）
@@ -747,21 +748,21 @@
 - [x] 建立 ACT_I_ANGLE_MAP.md（beat × 12-angle coverage heat map）
 - [x] 作者回應 Q-SR-01（E-04 呈現方式確認）
 - [x] 作者回應 Q-OL-01/02/03（受傷角色、凜×美夜子關係、凜前史媒介）
-- [x] 更新 ACT_I_OUTLINE.md E-04 beat（朱音肢體扭曲、美夜子回憶凜、凜×美夜子複雜型）
+- [x] 更新 ACT_I_OUTLINE.md E-04 beat（紫音肢體扭曲、美夜子回憶凜、凜×美夜子複雜型）
 - [x] 更新 ACT_I_ANGLE_MAP.md（E-04 從弱→強；全幕覆蓋率重新計算）
 - [x] 更新 CANON_DECISION_LOG.md（CDL-018~022）
 - [x] 更新 QUESTION_QUEUE.md（QQ-R13~16 resolved）
 - [x] 修改 SKILL.md 問題數量規定（3-6 → 最少20條）
 
 ## Canon Corrections This Round (Round 004)
-- **E-04 大幅更新**：從「輕量前史介紹」→「主線強制 beat（戰鬥不敵+超載阻止+朱音肢體扭曲）」
-- **朱音 Plant-A 確立**：E-04 肢體扭曲手臂傷口 = Act III 屍骸女皇 recognition trigger
+- **E-04 大幅更新**：從「輕量前史介紹」→「主線強制 beat（戰鬥不敵+超載阻止+紫音肢體扭曲）」
+- **紫音 Plant-A 確立**：E-04 肢體扭曲手臂傷口 = Act III 屍骸女皇 recognition trigger
 - **凜×美夜子定性**：複雜互相責任型（雙方有虧欠）
 - **凜前史媒介確定**：美夜子回憶，Act I 早期
 
 ## Confirmed Author Decisions This Round (Round 004)
-- Q-SR-01 → E-04 = 戰鬥不敵+超載阻止+朱音肢體扭曲；凜線=美夜子回憶；CDL-019/020
-- Q-OL-01 → 受傷角色 = 朱音（A）；肢體扭曲 = 屍骸女皇 foreshadow；CDL-021
+- Q-SR-01 → E-04 = 戰鬥不敵+超載阻止+紫音肢體扭曲；凜線=美夜子回憶；CDL-019/020
+- Q-OL-01 → 受傷角色 = 紫音（A）；肢體扭曲 = 屍骸女皇 foreshadow；CDL-021
 - Q-OL-02 → 凜×美夜子 = C（複雜互相責任）；CDL-022
 - Q-OL-03 → 凜前史媒介 = A（Act I early，美夜子回憶）；CDL-020
 

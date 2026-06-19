@@ -32,7 +32,7 @@
 | CF-STATE-MIYAKO-GLITCH-01 | Miyako | glitch_manifestation_state (Y105-Y106) | Human residue shadow (0.5 sec flicker) | Y105-Y106 (mid-main story) | Physical destruction exceeding curse capacity triggers temporary human form emergence | 05_story_outline CDL-243 + CHARACTER_FACTS CF-CHAR-0047 | SOURCE_SUPPORTED |
 | CF-STATE-MIYAKO-BETA-06 | Miyako | survival_Y114+ | Alive (cat form, guardian) | Y114+ | Post-finale continuity; remains Haruka's secret protector | 03_character_index status + 04_timeline event-story-begin | SOURCE_SUPPORTED |
 
-### Akane — 岩倉朱音 (Combat State → Corpse → Death)
+### Akane — 不知火紫音 (Combat State → Corpse → Death)
 
 | Fact ID | Character | State Type | State Value | Applies When | Cause/Trigger | Source Doc + Claim ID | Status |
 |---------|-----------|-----------|------------|-----------|----------------|----------------------|--------|

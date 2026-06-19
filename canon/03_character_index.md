@@ -39,7 +39,7 @@
 |------|------|----------------|----------|-------------|
 | [雨宮晴香](03_characters/haruka.md) | 創世者 / 偶像 / 情緒增幅器 | 拯救者→殉道者→承擔者 | 存活（失去記憶） | [haruka.md](03_characters/haruka.md) |
 | [水無月美夜子](03_characters/miyako.md) | 介錯人 / 借來的生命 / 黑貓 | 介錯人→送行者→守護者 | 存活（貓形態） | [miyako.md](03_characters/miyako.md) |
-| [岩倉朱音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（帝國廣場） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
+| [不知火紫音](03_characters/iwakura_akane.md) | 戰鬥成癮者 / 屍骸首領 | 成癮者→墮落母親→燃燒的贖罪者 | 死亡（帝國廣場） | [iwakura_akane.md](03_characters/iwakura_akane.md) |
 | [綾小路操](03_characters/ayakomoji_misao.md) | 傀儡師 / 破碎的瓷娃娃 | 瓷娃娃→完美主義者→真實的自我 | 死亡（Day 13 鋼鐵獨舞） | [ayakomoji_misao.md](03_characters/ayakomoji_misao.md) |
 
 ### 核心非戰鬥角色
@@ -75,8 +75,8 @@
 - **晴香 ↔ 美夜子**：親姊妹（互不知情）。晴香以為美夜子是「夥伴和大姐姐」，美夜子以貓形態暗中守護
 - **美夜子 ↔ 凜**：軍方戰友，最深的羈絆。凜犧牲後美夜子終身 PTSD；重組後的凜不記得美夜子
 - **美夜子 ↔ 朔**：Alpha 線青梅竹馬戀人。朔親手埋葬美夜子後遇到 Unit 01（長著美夜子臉的兵器）
-- **朱音 ↔ 小光**：夜區的溫暖錨點。小光屍骸化後，朱音墮落為屍骸首領
-- **朱音 ↔ 操**：隊友。據點洩露事件後朱音原諒了操；操 Day 13 鋼鐵獨舞犧牲、朱音 Day 14 帝國廣場犧牲——連續錯位雙殺
+- **紫音 ↔ 小光**：夜區的溫暖錨點。小光屍骸化後，紫音墮落為屍骸首領
+- **紫音 ↔ 操**：隊友。據點洩露事件後紫音原諒了操；操 Day 13 鋼鐵獨舞犧牲、紫音 Day 14 帝國廣場犧牲——連續錯位雙殺
 
 ### 對立與利用
 
@@ -93,7 +93,7 @@ graph LR
     Haruka["晴香（雨宮晴香）"]
     Miyako["美夜子（水無月美夜子）"]
     Yu["夕（陰影自我）"]
-    Akane["朱音（岩倉朱音）"]
+    Akane["紫音（不知火紫音）"]
     Misao["操（綾小路操）"]
     Rin["凜（綾瀨凜）"]
     Saku["朔（白銀朔）"]
@@ -133,7 +133,7 @@ graph LR
 
 ### 子主題 A：力量的代價
 
-本主題重點不是「有冇力量」，而是「用力量時會失去咩」。代表：[朱音](03_characters/iwakura_akane.md)（戰鬥成癮）、[操](03_characters/ayakomoji_misao.md)（完美偽裝的代價）、[凜](03_characters/rin.md)（理性凍結→痛覺信徒）
+本主題重點不是「有冇力量」，而是「用力量時會失去咩」。代表：[紫音](03_characters/iwakura_akane.md)（戰鬥成癮）、[操](03_characters/ayakomoji_misao.md)（完美偽裝的代價）、[凜](03_characters/rin.md)（理性凍結→痛覺信徒）
 
 ### 子主題 B：完美的幻象
 
@@ -141,7 +141,7 @@ graph LR
 
 ### 子主題 C：身份的本質
 
-本主題關心「由邊個命名你」：制度、外觀，定你自己。代表：[朱音](03_characters/iwakura_akane.md)（「治癒失敗不代表無法選擇如何燃燒」）、[美夜子](03_characters/miyako.md)（借來的生命也值得活）
+本主題關心「由邊個命名你」：制度、外觀，定你自己。代表：[紫音](03_characters/iwakura_akane.md)（「治癒失敗不代表無法選擇如何燃燒」）、[美夜子](03_characters/miyako.md)（借來的生命也值得活）
 
 ### 子主題 D：連結的價值
 
@@ -183,11 +183,11 @@ graph LR
 
 ---
 
-### <a id="char-akane-brother"></a>朱音的弟弟
+### <a id="char-akane-brother"></a>紫音的弟弟
 
-朱音的弟弟，朱音創傷鏈的起點人物。此條目只保留角色功能；事故經過與心理後果以朱音角色檔為準。
+紫音的弟弟，紫音創傷鏈的起點人物。此條目只保留角色功能；事故經過與心理後果以紫音角色檔為準。
 
-**See also**: [朱音](03_characters/iwakura_akane.md)
+**See also**: [紫音](03_characters/iwakura_akane.md)
 
 ---
 

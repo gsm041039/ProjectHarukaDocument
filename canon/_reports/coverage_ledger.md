@@ -13,7 +13,7 @@
 |---|---------|---------|--------------|---------|------|
 | A-01 | `backup/screenwriter/00_Story_Brief.md` | 世界觀概要、計劃前提、核心衝突 | `canon/00_series_bible.md` §section-premise + §section-core-themes | — | ✅ |
 | A-02 | `backup/screenwriter/01_Character_Background_Story.md` | 主角（晴香、美夜子）背景故事 | `canon/03_characters/haruka.md` + `canon/03_characters/miyako.md` | — | ✅ |
-| A-03 | `backup/screenwriter/02_Secondary_Character_Background_Story.md` | 次要角色（朱音、操、秋穗、朔、凜、愛莉、Ko光）背景 | `canon/03_characters/iwakura_akane.md` + `ayakomoji_misao.md` + `akiho.md` + `saku.md` + `aya.md` + `canon/03_character_index.md` | — | ✅ |
+| A-03 | `backup/screenwriter/02_Secondary_Character_Background_Story.md` | 次要角色（紫音、操、秋穗、朔、凜、愛莉、Ko光）背景 | `canon/03_characters/iwakura_akane.md` + `ayakomoji_misao.md` + `akiho.md` + `saku.md` + `aya.md` + `canon/03_character_index.md` | — | ✅ |
 | A-04 | `backup/screenwriter/03_Worldview_Setting.md` | 世界規則、魔力系統、存在代價、Alpha/Beta 線 | `canon/01_world_rules_and_costs.md` + `canon/02_glossary.md` | — | ✅ |
 | A-05 | `backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md` | 四幕結構分析、氛圍設計、大事件節點 | `canon/05_story_outline_canon.md` §section-act-structure | — | ✅ |
 | A-06 | `backup/screenwriter/05_Story_Outline_Director_Notes.md` | 故事大綱 + 膠布哲學四層揭露導演細節 | `canon/05_story_outline_canon.md`（大綱主體 + §director-band-aid-3rd + §director-band-aid-4th） | Step 1d | ✅ |
@@ -65,7 +65,7 @@
 | C-11 | `backup/draft/art_originals/205_Character_Visual_Design_Saku.md` | 朔弩規格（木材+竊取技術+光箭）、紅色領帶「血跡」象徵解讀 | `canon/03_characters/saku.md` §visual-weapon（GAP-67/68） | Phase 51 | ✅ |
 | C-12 | `backup/draft/art_originals/206_Character_Visual_Design_Akiho.md` | 秋穗執行官形態公式/數據流皮膚視覺、手刃武器規格、壓縮型權威感外形功能、模仿花子表演規則 | `canon/03_characters/akiho.md` §visual-executor + §behavior-hooks（GAP-69/70/71/72） | Phase 52 | ✅ |
 | C-13 | `backup/draft/art_originals/207_Character_Visual_Design_Airi.md` | 愛莉蠟筆太陽盾起源（為秋穗媽媽所畫）、水晶雕像內部橙紅脈紋說明 | `canon/03_characters/aeri.md` §visual（GAP-16/17） | Phase 51 | ✅ |
-| C-14 | `backup/draft/art_originals/208_Character_Visual_Design_Iwakura_Akane.md` | 朱音笑面電鋸音效、嘴部裂開規格、調味粉罐道具、飢餓幽靈鏡像、屍骸女王完全形態 | `canon/03_characters/iwakura_akane.md` §visual（GAP-40） | Phase 52 | ✅ |
+| C-14 | `backup/draft/art_originals/208_Character_Visual_Design_Iwakura_Akane.md` | 紫音笑面電鋸音效、嘴部裂開規格、調味粉罐道具、飢餓幽靈鏡像、屍骸女王完全形態 | `canon/03_characters/iwakura_akane.md` §visual（GAP-40） | Phase 52 | ✅ |
 | C-15 | `backup/draft/art_originals/209_Character_Visual_Design_Ayakomoji_Sou.md` | 操「父母」傀儡道具、玫瑰金量尺、絲線手套、懸空弱點、傀儡牆最終形態、3mm精準斷手場面、四幕強迫症升級時序 | `canon/03_characters/ayakomoji_misao.md` §visual（GAP-50） | Phase 52 | ✅ |
 | C-16 | `backup/draft/art_originals/210_Character_Visual_Design_Rin.md` | 凜1/1000度微笑弧光、術前/術後微行為對比（脈搏點→裝置位置） | `canon/03_characters/rin.md` §visual（GAP-41） | Phase 51 | ✅ |
 | C-17 | `backup/draft/art_originals/211_Character_Visual_Design_Ko_Hikaru.md` | 光棒棒糖透明活著/灰黑化「死亡」視覺、廢鐵碰撞音效、聲音失去諧波、夜區螢火蟲意象 | `canon/03_characters/ko_hikaru.md` §visual（GAP-42） | Phase 51 | ✅ |
@@ -127,7 +127,7 @@
 |---|---------|---------|------|
 | H-01 | `art/INDEX.md` | art/ 目錄索引：4份設計文件 + ConceptArt目錄樹 + 概念圖清單 + 命名規範 | ✅ Step 1e |
 | H-02 | `tools/INDEX.md` | tools/ 目錄索引：Stage_Survival_Roster_Matrix + BeatSheet_v2_Question_Framework | ✅ Step 1e |
-| H-03 | `canon/09_information_design.md` | 資訊揭露架構：36條精簡揭露時序表、五段式情緒守恆揭露結構、「感激成毒藥」伏筆設計、晴香詮釋框架、五個關鍵場景執行指引（朱音/操/美夜子/凜場景分鏡 + 粵語對白）（Q-ARCH-1 A; GAP-09/19/93/94/95） | ✅ Phase 49/53 |
+| H-03 | `canon/09_information_design.md` | 資訊揭露架構：36條精簡揭露時序表、五段式情緒守恆揭露結構、「感激成毒藥」伏筆設計、晴香詮釋框架、五個關鍵場景執行指引（紫音/操/美夜子/凜場景分鏡 + 粵語對白）（Q-ARCH-1 A; GAP-09/19/93/94/95） | ✅ Phase 49/53 |
 
 ---
 

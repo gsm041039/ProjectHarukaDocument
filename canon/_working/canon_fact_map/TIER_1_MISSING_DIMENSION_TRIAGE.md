@@ -166,10 +166,10 @@
 
 | Source | Evidence | Authority |
 |---|---|---|
-| ACT III Outline:236-243 | E-III-I3 帝國廣場救援 — 朱音見證被無條件拯救 → 自爆化糖果山 | HIGH (Act Outline) |
+| ACT III Outline:236-243 | E-III-I3 帝國廣場救援 — 紫音見證被無條件拯救 → 自爆化糖果山 | HIGH (Act Outline) |
 | ACT III:238 | 主角團冒死進入刑場 | HIGH (Act Outline) |
-| ACT III:239 | 朱音遺言方向：「我無治癒成功...但我起碼知道...我唔想再一個人食飯。」 | HIGH (Act Outline) |
-| CDL-214 | 朱音弧線完成 | HIGH (CDL) |
+| ACT III:239 | 紫音遺言方向：「我無治癒成功...但我起碼知道...我唔想再一個人食飯。」 | HIGH (Act Outline) |
+| CDL-214 | 紫音弧線完成 | HIGH (CDL) |
 
 **Gap Analysis**:
 - **Consequence documented**: Self-detonation → becomes candy mountain (糖果山)
@@ -260,7 +260,7 @@
 
 **Evidence**:
 - Canon documents: Ko becomes Type B 廢鐵型 corpse (scrap metal corpse)
-- Canon documents: 朱音保護「小光屍骸」(Misao protects Ko's corpse form)
+- Canon documents: 紫音保護「小光屍骸」(Misao protects Ko's corpse form)
 - Canon does NOT explicitly state consciousness level
 
 **Analysis**:

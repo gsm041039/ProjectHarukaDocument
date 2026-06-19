@@ -1,4 +1,4 @@
-﻿# Phase43 DeepP6 Full Canon Ownership Matrix
+# Phase43 DeepP6 Full Canon Ownership Matrix
 
 ## Summary
 - Total flagged paragraphs: 27
@@ -33,8 +33,8 @@
 | canon/05_story_outline_canon.md | 3 | mixed | 2 | character_leak | <!-- Sources: backup/screenwriter/05_Story_Outline_Director_Notes.md, backup/screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md, backup/director/Major_Events_Character_Relationships_Analysis.md, backup/sc |
 | canon/99_decision_log.md | 18 | decision | 2 | timeline_leak | **矛盾**：晴香創世事件在 timeline_raw 為帝國歷 102 年，在 CAN-04 v1 為 109 年。 |
 | canon/99_decision_log.md | 19 | decision | 2 | timeline_leak | **裁決**：**採用帝國歷 102 年。** - 晴香 5 歲（97+5=102 ✓） - 美夜子 26 歲（76+26=102 ✓） - 109 年版本有內部矛盾（聲稱「5 歲」但 97+12=109） |
-| canon/03_characters/iwakura_akane.md | 47 | character | 2 | rule_leak | 本幕的角色功能是把朱音推到「被愛也不敢回頭」的位置。 她把屍骸當作可被餵養的孩子，實際上是在拒絕承認自己的喪失已不可逆。這種拒認讓她與隊伍必然對立。 |
-| canon/03_characters/ko_hikaru.md | 27 | character | 2 | rule_leak | **主題關聯**：子主題 A「力量的代價」——朱音的力量中斷直接導致小光的死亡。子主題 C「身份的本質」——屍骸化後的小光還是小光嗎？朱音選擇相信「是」，這個信念定義了她的墮落。[執念飽和](../02_glossary.md#term-saturation-of-obsession)——朱音對小光的愛轉化為不可逆的執念。 **主題關聯**：小光令朱音的悲劇變得不可抽象化。 當「守護」變成「拒認失去」，愛就會由連結變成囚禁；朱音的下墜由 |
+| canon/03_characters/iwakura_akane.md | 47 | character | 2 | rule_leak | 本幕的角色功能是把紫音推到「被愛也不敢回頭」的位置。 她把屍骸當作可被餵養的孩子，實際上是在拒絕承認自己的喪失已不可逆。這種拒認讓她與隊伍必然對立。 |
+| canon/03_characters/ko_hikaru.md | 27 | character | 2 | rule_leak | **主題關聯**：子主題 A「力量的代價」——紫音的力量中斷直接導致小光的死亡。子主題 C「身份的本質」——屍骸化後的小光還是小光嗎？紫音選擇相信「是」，這個信念定義了她的墮落。[執念飽和](../02_glossary.md#term-saturation-of-obsession)——紫音對小光的愛轉化為不可逆的執念。 **主題關聯**：小光令紫音的悲劇變得不可抽象化。 當「守護」變成「拒認失去」，愛就會由連結變成囚禁；紫音的下墜由 |
 | canon/02_glossary.md | 17 | glossary | 2 | timeline_leak | 晴香 5 歲時為救美夜子「改變現實」後創造的新世界（帝國歷 102 年）。魔法系統、情緒科技、魔法屍骸皆源於此。這是「態度層面」，回答「What it meant? / 我點樣活?」。與 Alpha 線不是「真 vs 假」，而是「事實 vs 詮釋」的雙重真相。 |
 | canon/02_glossary.md | 66 | glossary | 2 | rule_leak | 由情緒結晶製成的金屬「萬能匙」，繞過內心提煉過程的速成器。軍方將少女精神推至極限，從心之器裂痕收割「靈魂之刺」（情緒結晶），鑄造為裝置。使用者燃燒自己未來靈魂換取現在力量，代價加劇不可逆。 |
 | canon/01_world_rules_and_costs.md | 23 | rule | 2 | timeline_leak | 1. **基礎研究（帝國歷 79 年起）**：發動「靈樹戰爭」；捕獲黑奏作為活體樣本 2. **宏觀設施**：建造[維多利亞之淚](02_glossary.md#term-tears-of-victoria)作為中央監控系統 3. **核心技術突破（帝國歷 98 年前）**：秋穗主導「改變心之器」研究，研發[情緒力量裝置](02_glossary.md#term-emotional-power-device)原型，導致愛莉事故 4. * |

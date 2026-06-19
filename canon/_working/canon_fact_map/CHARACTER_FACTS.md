@@ -66,7 +66,7 @@
 | CF-CHAR-0047 | Glitch form manifestation: Y105-106 (ACT_II E-05a) | CURRENT_FACT | 05_story_outline + CDL-243 | Ice-blue human residue shadow; 0.5 second flicker |
 | CF-CHAR-0048 | Glitch form triggers: Physical destruction exceeding curse limits | CURRENT_FACT | CDL-243 | Three-stage transformation (cat → Glitch → yearning for breakthrough) |
 
-### AKANE — 岩倉朱音 (Iwakura Akane)
+### AKANE — 不知火紫音 (Iwakura Akane)
 
 | Fact ID | Claim | Status | Source | Notes |
 |---------|-------|--------|--------|-------|

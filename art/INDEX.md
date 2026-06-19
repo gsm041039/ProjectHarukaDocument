@@ -34,7 +34,7 @@ art/ConceptArt/Characters/
 │   └── BAK/
 ├── Aya/              # Aya（含 MagicCorpse_Kurosou 形態）
 │   └── BAK/
-├── Akane/            # 岩倉朱音
+├── Akane/            # 不知火紫音
 │   └── BAK/
 ├── Aeri/             # 愛莉
 │   └── BAK/
@@ -58,8 +58,8 @@ art/ConceptArt/Characters/
 | Aya | `Aya/MagicalGirl_Aya.jpg` | 魔法少女形態 |
 | Aya | `Aya/ConceptArt_AyaMagicalGirl.jpg` | 魔法少女形態（alternate） |
 | Aya | `Aya/MagicCorpse_Kurosou.jpg` | 黑奏形態 |
-| 朱音 | `Akane/ConceptArt_Akane_CasualWear.jpg` | 日常便服 |
-| 朱音 | `Akane/ConceptArt_Akane_MagicalGirl.jpg` | 魔法少女形態 |
+| 紫音 | `Akane/ConceptArt_Akane_CasualWear.jpg` | 日常便服 |
+| 紫音 | `Akane/ConceptArt_Akane_MagicalGirl.jpg` | 魔法少女形態 |
 | 愛莉 | `Aeri/ConceptArt_Aeri_CasualWear.jpg` | 日常便服 |
 | 愛莉 | `Aeri/ConceptArt_Aeri_MagicalGirl.jpg` | 魔法少女形態 |
 | 愛莉 | `Aeri/MagicalGirl_Aeri.jpg` | 魔法少女形態（alternate） |

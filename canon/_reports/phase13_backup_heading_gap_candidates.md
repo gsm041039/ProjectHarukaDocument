@@ -139,7 +139,7 @@
   - C:\Projects\ProjectHarukaDocument\backup\draft\idea_bank\13_Interesting_Chapters_Special_Plot_Setting.md:54
 - [1] **IG使用習慣：公開偶像帳號 vs 匿名厭世小號** ^晴香IG
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:104
-- [1] **IG使用習慣：深夜Emo、食物遺照、野狗醜照** ^朱音IG
+- [1] **IG使用習慣：深夜Emo、食物遺照、野狗醜照** ^紫音IG
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:638
 - [1] **IG使用習慣：精緻生活濾鏡與秒讚但不敢留言** ^操IG
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\09_Character_Senses_Private_Habits_Setting.md:738
@@ -417,9 +417,9 @@
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:339
 - [1] **場景五：操「鋼鐵獨舞」（第13天下午）**
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:438
-- [1] **場景四：朱音「暴食斷頭台」（第10天中午）**
+- [1] **場景四：紫音「暴食斷頭台」（第10天中午）**
   - C:\Projects\ProjectHarukaDocument\backup\screenwriter\07_Major_Events_Character_Relationship_Impact_Analysis.md:362
-- [1] **場景A：朱音「暴食斷頭台」（恐怖家家酒第10天）**
+- [1] **場景A：紫音「暴食斷頭台」（恐怖家家酒第10天）**
   - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:130
 - [1] **場景B-2：操「無心的完美人偶」（鏡像破碎之夜後）**
   - C:\Projects\ProjectHarukaDocument\backup\director\Character_Atmosphere_Director_Handbook_Four_Act_Structure.md:182

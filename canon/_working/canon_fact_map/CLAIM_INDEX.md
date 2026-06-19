@@ -17,7 +17,7 @@ All CF-* claim IDs are traceable to their source fact tables:
 |---|---|---|---|---|
 | CF-CHAR-0001–0025 | CHARACTER_FACTS.md | Haruka (雨宮晴香) | 25 | Rows 1-25 |
 | CF-CHAR-0026–0048 | CHARACTER_FACTS.md | Miyako (水無月美夜子) | 23 | Rows 26-48 |
-| CF-CHAR-0049–0063 | CHARACTER_FACTS.md | Akane (岩倉朱音) | 15 | Rows 49-63 |
+| CF-CHAR-0049–0063 | CHARACTER_FACTS.md | Akane (不知火紫音) | 15 | Rows 49-63 |
 | CF-CHAR-0064–0083 | CHARACTER_FACTS.md | Misao (綾小路操) | 20 | Rows 64-83 |
 | CF-CHAR-0084–0092 | CHARACTER_FACTS.md | Saku (白銀朔) | 9 | Rows 84-92 |
 | CF-CHAR-0093–0107 | CHARACTER_FACTS.md | Akiho (東雲秋穗) | 15 | Rows 93-107 |
@@ -111,7 +111,7 @@ Claims are organized by type and given stable CF-* identifiers.
 |---|---|---|---|
 | CF-CHAR-0001–0040 | Haruka (雨宮晴香) | Age, birth, family, trauma, abilities, death, shadow-self (Yu) | haruka.md, 04_timeline, 03_character_index |
 | CF-CHAR-0041–0068 | Miyako (水無月美夜子) | Age, birth, family, death (Alpha), revival (Beta), Unit 01, guardian role, cat form | miyako.md, 04_timeline, 03_character_index |
-| CF-CHAR-0069–0088 | Akane (岩倉朱音) | Age, trauma (brother), combat addiction, corpse queen, partial transformation, death (Y114) | iwakura_akane.md, 04_timeline, 03_character_index |
+| CF-CHAR-0069–0088 | Akane (不知火紫音) | Age, trauma (brother), combat addiction, corpse queen, partial transformation, death (Y114) | iwakura_akane.md, 04_timeline, 03_character_index |
 | CF-CHAR-0089–0108 | Misao (綾小路操) | Family, perfectionism, body horror (3-stage), steel solo form, day 13 event | ayakomoji_misao.md, CDL-233 |
 | CF-CHAR-0109–0128 | Saku (intelligence specialist) | Identity, relationships, intelligence role, canon status | saku.md, 03_character_index |
 | CF-CHAR-0129–0148 | Akiho (mad scientist) | Mother figure, mad scientist traits, Aeri parentage, world-threat knowledge | akiho.md, 03_character_index |

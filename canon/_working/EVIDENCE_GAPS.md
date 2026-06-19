@@ -12,7 +12,7 @@ Updated: 2026-03-25 | Full Story Rough Outline Audit + Supporting Docs Audit 整
 | `backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md`（剩餘100+行）| Medium | 半號事件完整清單 |
 | `backup/screenwriter/08_Emotion_Setting_Overview.md`（剩餘460+行）| Medium | 情緒設定深度分析，只讀了前400行 |
 | `backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md`（剩餘200+行）| Medium | Alpha/Beta機制詳細，只讀了前400行 |
-| `canon/03_characters/iwakura_akane.md`（朱音）| Medium | arc 已從 backup 確認，canon file 尚未完整讀取 |
+| `canon/03_characters/iwakura_akane.md`（紫音）| Medium | arc 已從 backup 確認，canon file 尚未完整讀取 |
 | `canon/03_characters/ayakomoji_misao.md`（操） | Medium | 同上 |
 
 ---

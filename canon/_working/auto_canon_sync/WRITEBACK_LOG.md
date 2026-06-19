@@ -26,8 +26,8 @@
 | Loop | 3 |
 | File Changed | canon/_working/CANON_DECISION_LOG.md |
 | Section | CDL-218 row (Downstream Files Affected column) |
-| Before Summary | 操/朱音犧牲時序+地點確立；timeline_raw「雙重犧牲同時」設定標記為OVERRIDDEN |
-| After Summary | 同上 + ⚠️ Venue addendum note (AC 2026-05-19): 朱音 Day 14 場地嘆息之橋 → 帝國廣場 |
+| Before Summary | 操/紫音犧牲時序+地點確立；timeline_raw「雙重犧牲同時」設定標記為OVERRIDDEN |
+| After Summary | 同上 + ⚠️ Venue addendum note (AC 2026-05-19): 紫音 Day 14 場地嘆息之橋 → 帝國廣場 |
 | Reason | Same as WB-ACS-001 |
 | Evidence | SESSION_STATE.md (CR-2026-05-19-001 WB-02/WB-05); CONFLICT_REGISTER C-NEW-01 RESOLVED |
 | Backup Referenced | No |

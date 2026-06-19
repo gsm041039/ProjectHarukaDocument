@@ -44,10 +44,10 @@ All other open questions are tracked in canon/_working/QUESTION_QUEUE.md.
 | Field | Value |
 |---|---|
 | Question ID | ACS-Q-003 |
-| Exact Decision | Phase J「114年5月中~底」標記是否準確？J1「前往廣場救朱音」與 I3「朱音 Day 14 犧牲」的先後關係？ |
+| Exact Decision | Phase J「114年5月中~底」標記是否準確？J1「前往廣場救紫音」與 I3「紫音 Day 14 犧牲」的先後關係？ |
 | Why AI Cannot Decide | Ambiguous whether J1 occurs before or after I3, or is simultaneous |
 | Files Involved | ACT_III_OUTLINE.md Phase I/J timeline table |
-| Option A | J1 係 Day 14 同日（J1 先→I3 後，即主角團抵達廣場→目睹朱音犧牲→進入黑奏 J2）|
+| Option A | J1 係 Day 14 同日（J1 先→I3 後，即主角團抵達廣場→目睹紫音犧牲→進入黑奏 J2）|
 | Option B | J1 係 I3 之前（Day 14 清晨，主角團衝入廣場，I3 係衝入後事件）|
 | Option C | Phase J 時間線標記錯誤，改為「從 Day 14 開始」（最簡修正）|
 | Recommended | C（最少歧義；Phase J 從 Day 14 開始，直接接續 Phase I 收結）|

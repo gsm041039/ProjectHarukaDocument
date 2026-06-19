@@ -14,7 +14,7 @@
 | 黑奏 (Kurokane) | ✅ 100% | ✅ 100% (CF-NAME-AYA-03; Y79 trauma birth → personality_name = 黒奏 documented) | ✅ 95% | ✅ 95% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ COMPLETE |
 | 凜 (Rin) | ✅ 100% | ✅ 100% | ✅ 95% (false memories → fragment recovery = consistent state progression, NOT contradiction; CF-STATE-RIN-01~05) | ✅ 85% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ COMPLETE (MEDIUM: Phase H reveal timing deferred) |
 | 夕 (Yu) | ✅ 100% | ✅ 95% (CF-NAME-YU-01~03; 菲 boundary = TERMINOLOGY_CLARIFICATION low priority) | ✅ 90% | ✅ 95% | ✅ 100% | ✅ 100% | ✅ 95% | 🟡 MEDIUM gaps (菲 boundary low priority) |
-| 朱音 (Misao) | ✅ 100% | ✅ 100% | ✅ 95% | ✅ 90% | ✅ 95% (B→A: CF-REL-0060 added; Ko pre-transform INFERRED, post-transform DESIGN_GAP_ONLY) | ✅ 100% | ✅ 100% | 🟡 MEDIUM gaps (Ko post-transform reciprocity = intentional ambiguity) |
+| 紫音 (Misao) | ✅ 100% | ✅ 100% | ✅ 95% | ✅ 90% | ✅ 95% (B→A: CF-REL-0060 added; Ko pre-transform INFERRED, post-transform DESIGN_GAP_ONLY) | ✅ 100% | ✅ 100% | 🟡 MEDIUM gaps (Ko post-transform reciprocity = intentional ambiguity) |
 | 小光 (Ko Hikaru) | ✅ 100% | ✅ 90% (CF-NAME-KO-01~03; surname = DESIGN_GAP_ONLY / INTENTIONAL_MYSTERY) | ✅ 85% (CF-STATE-KO-01~04; consciousness post-transformation = INTENTIONAL_AMBIGUITY) | ✅ 90% | ✅ 85% (post-transformation B→A = DESIGN_GAP_ONLY per CF-REL-0060) | ✅ 100% | ⚠️ 85% | 🟡 MEDIUM gaps (all remaining = intentional design gaps) |
 | 花子 (Hanako) | ✅ 100% | ✅ 100% | ✅ 95% (Alpha/Beta death distinction documented as timeline design, NOT contradiction; DFT-01 confirmed; CF-STATE-HANAKO-01~04) | ✅ 95% | ✅ 100% | ✅ 90% | ✅ 95% | ✅ COMPLETE |
 | 彩 (Aya) | ✅ 100% | ✅ 95% | ✅ 90% (imprisonment scope = DESIGN_GAP_ONLY Act IV; documented in CF-STATE-AYA-05/06 and DESIGN_GAPS.md Gap 2) | ✅ 95% | ✅ 100% | ✅ 100% | ✅ 100% | 🟡 MEDIUM gaps (liberation mechanics = Act IV design question, not canon contradiction) |
@@ -84,7 +84,7 @@
 | 晴香↔黑奏 | ✅ 100% | ❌ INCOMPLETE (Haruka's final emotional stance toward Kurokane unclear) | ✅ 100% | ✅ 100% | ✅ 100% | ⚠️ 90% | 🟡 MEDIUM gap |
 | 晴香↔凜 | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ COMPLETE |
 | 晴香↔夕 | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ 100% | ✅ COMPLETE |
-| 朱音↔小光 | ✅ 100% | ❌ INCOMPLETE (Ko Hikaru's reciprocal attachment post-corpse transformation unclear) | ✅ 100% | ✅ 100% | ✅ 100% | ⚠️ 85% | 🔴 HIGH gap |
+| 紫音↔小光 | ✅ 100% | ❌ INCOMPLETE (Ko Hikaru's reciprocal attachment post-corpse transformation unclear) | ✅ 100% | ✅ 100% | ✅ 100% | ⚠️ 85% | 🔴 HIGH gap |
 | (Additional 54 pairs) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | Mostly ✅ |
 
 **Relationship Coverage Summary**:

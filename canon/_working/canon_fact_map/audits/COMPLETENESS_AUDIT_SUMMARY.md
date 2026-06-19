@@ -46,7 +46,7 @@ The Fact Map contains **585+ atomic facts** organized into character, event, rel
 | Character name/alias/rename chains | 3 characters incomplete | HIGH | Personality naming (Aya↔黑奏), alias boundaries (夕↔菲), surname missing (小光) |
 | Character state/transformation/knowledge | 4 contradictions + 4 undefined | HIGH | Death timeline conflict (Hanako), memory contradiction (Rin), consciousness unknown (Ko), imprisonment unclear (Aya) |
 | Event trigger/outcome/downstream | 4 events missing ≥2 dimensions | HIGH | Y102 fence encounter trigger, Y102 execution location+strategy, Day 13 transformation decision, Day 14 escape path + consequence |
-| Relationship bidirectional state | 2 pairs incomplete | MEDIUM | Haruka↔黑奏 emotional closure, 朱音↔小光 reciprocal attachment |
+| Relationship bidirectional state | 2 pairs incomplete | MEDIUM | Haruka↔黑奏 emotional closure, 紫音↔小光 reciprocal attachment |
 | World rule definition/cost/exception | 3-5 rules (estimated) | MEDIUM | Emotion link layer ambiguity, glucose system status mislabeled, 7 rules without CF IDs |
 | Theme character-belief vs final-stance | 2-3 themes (estimated) | MEDIUM | Some theme expressions lack explicit "story validates / complicates / rejects" annotation |
 | Relationship final state documentation | 100% present in prose | MEDIUM | But 2 pairs lack explicit emotional closure statements |

@@ -11,7 +11,7 @@ Updated: 2026-03-25 | Agent B (Screenwriter) + Agent C (Director) 整合
 | `backup/screenwriter/05_Story_Outline_Director_Notes.md` | **Yes** | 場景執行層最完整導演注釋：膠布哲學四層揭露、守恆定律五個揭露節點、共振地獄三階段、IG敘事線四階段、靈魂共鳴機制。故事「施工圖」。 | **Absorb into canon** | 讀取前600行（全文約800+行）。守恆定律揭露節點和靈魂共鳴機制尚未在 canon 系統化呈現。 |
 | `backup/screenwriter/07_Major_Events_Character_Relationship_Impact_Analysis.md` | **Yes** | 所有核心事件的關係影響分析。含「半號事件」（E-1.5/E-2.5/E-3.5/E-8.5）：圖書館幽靈、美夜子失蹤等。 | **Absorb into canon** | 角色關係演進分析比現有 canon/13 更細緻，「半號事件」建議整合入 canon 事件清單。 |
 | `backup/screenwriter/08_Emotion_Setting_Overview.md` | **Partial** | 情緒設定完整理論：層級總覽、世界免疫系統理論、三位一體病理光譜、鏡像法則、心之器定義、情感耗損機制。 | **Partial: Absorb core / Verify** | 自標注「Canon 級內容已遷移至 canon/01」，但860行完整母文檔的深度分析可能未完全轉移。需核對。 |
-| `backup/screenwriter/11_Deep_Philosophy_Concepts.md` | **Yes** | 九個深層哲學概念：共振地獄（三階段）、晴香第三選擇、三位一體道德困境（朱音三個質問）。決戰對白思想底座。 | **保留原文，長期有效** | 與05號文件互補無矛盾。 |
+| `backup/screenwriter/11_Deep_Philosophy_Concepts.md` | **Yes** | 九個深層哲學概念：共振地獄（三階段）、晴香第三選擇、三位一體道德困境（紫音三個質問）。決戰對白思想底座。 | **保留原文，長期有效** | 與05號文件互補無矛盾。 |
 | `backup/screenwriter/14_Alpha_Beta_Narrative_Mechanics.md` | **Partial** | Alpha/Beta線哲學框架：晴香創世事件機制、詛咒遺產四項、五角色Alpha/Beta對照表、三種敘事機制。 | **Partial: Absorb key mechanics** | 自標注「Canon 級內容已遷移至 canon/01」。晴香創世事件的黑奏力量來源機制需核對是否完整在 canon 中。 |
 
 ---

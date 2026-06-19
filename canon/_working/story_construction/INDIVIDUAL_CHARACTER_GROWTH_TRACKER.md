@@ -74,7 +74,7 @@
 
 ---
 
-## 朱音（仁科朱音）
+## 紫音（仁科紫音）
 
 | 欄位 | 內容 | 狀態 | 來源 |
 |---|---|---|---|
@@ -87,7 +87,7 @@
 | **Change trigger** | BK | BK | — |
 | **Act I coping 代價** | 無法真正哀悼細佬；永遠處於焦躁的戒斷期，失去了平靜的權利 | **AC** | 作者確認 2026-04-14 |
 | **Act I 結束狀態** | 像流浪狗跟隨晴香；罪惡感未癒合；毒癮/戒斷循環繼續 | SS | CDL-052/158 |
-| **Act II 狀態** | BK（朱音 cascade 缺失——QQ-53 BLOCKED）| BK | QQ-53 |
+| **Act II 狀態** | BK（紫音 cascade 缺失——QQ-53 BLOCKED）| BK | QQ-53 |
 | **Act III 狀態** | BK | BK | — |
 | **Act IV / Ending 狀態** | BK | BK | — |
 | **Growth type** | BK | BK | — |

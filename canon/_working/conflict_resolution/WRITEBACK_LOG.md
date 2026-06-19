@@ -12,9 +12,9 @@ Applies all pending writebacks from CR-2026-05-19-001 plus new conflicts found i
 |---|---|---|---|
 | WB-01 | ACT_III_OUTLINE.md — I2 | Venue 嘆息之橋 → 帝國廣場 (公告 + 美夜子 timing fix) | APPLIED ✅ |
 | WB-02 | ACT_III_OUTLINE.md — I3 | Beat title: 嘆息之橋決戰 → 帝國廣場救援 | APPLIED ✅ |
-| WB-03 | ACT_III_OUTLINE.md — J1 | Removed 朱音処刑 reference + stale ⚠️ note; updated event core | APPLIED ✅ |
+| WB-03 | ACT_III_OUTLINE.md — J1 | Removed 紫音処刑 reference + stale ⚠️ note; updated event core | APPLIED ✅ |
 | WB-04 | ACT_III_OUTLINE.md — I2 | 美夜子崩潰 timing (I3之後) now valid — no text change needed | VERIFIED |
-| WB-05 | ACT_III_OUTLINE.md — 朱音弧線 | 嘆息之橋 → 帝國廣場 in Gate A table | APPLIED ✅ |
+| WB-05 | ACT_III_OUTLINE.md — 紫音弧線 | 嘆息之橋 → 帝國廣場 in Gate A table | APPLIED ✅ |
 
 ---
 
@@ -22,18 +22,18 @@ Applies all pending writebacks from CR-2026-05-19-001 plus new conflicts found i
 
 | WB ID | File | Change | Status |
 |---|---|---|---|
-| WB-06 | 03_character_index.md | 朱音 death: 嘆息之橋 → 帝國廣場 | APPLIED ✅ |
+| WB-06 | 03_character_index.md | 紫音 death: 嘆息之橋 → 帝國廣場 | APPLIED ✅ |
 | WB-07 | 03_character_index.md | 操 death: 嘆息之橋 → Day 13 鋼鐵獨舞 | APPLIED ✅ |
-| WB-08 | 03_character_index.md | 朱音↔操 relationship: 一同犧牲 → 錯位雙殺 | APPLIED ✅ |
+| WB-08 | 03_character_index.md | 紫音↔操 relationship: 一同犧牲 → 錯位雙殺 | APPLIED ✅ |
 | WB-09 | iwakura_akane.md | Section title + body venue 嘆息之橋 → 帝國廣場; See also removed | APPLIED ✅ |
 | WB-10 | ko_hikaru.md | Act IV scene venue fix; See also links updated | APPLIED ✅ |
 | WB-11 | ko_hikaru.md | Relationship table: 操 一同犧牲 → 錯位犧牲 | APPLIED ✅ |
 | WB-12 | ayakomoji_misao.md | Header table death location | APPLIED ✅ |
 | WB-13 | ayakomoji_misao.md | Act IV section: 嘆息之橋 → Day 13 鋼鐵獨舞 | APPLIED ✅ |
-| WB-14 | ayakomoji_misao.md | Relationship table (美夜子 + 朱音 rows) | APPLIED ✅ |
+| WB-14 | ayakomoji_misao.md | Relationship table (美夜子 + 紫音 rows) | APPLIED ✅ |
 | WB-15 | ayakomoji_misao.md | See also: 嘆息之橋 → 鋼鐵獨舞 | APPLIED ✅ |
 | WB-16 | miyako.md | Act III section: 嘆息之橋 → 連續犧牲 | APPLIED ✅ |
-| WB-17 | miyako.md | Relationship table (朱音 + 操 rows) | APPLIED ✅ |
+| WB-17 | miyako.md | Relationship table (紫音 + 操 rows) | APPLIED ✅ |
 | WB-18 | miyako.md | 詛咒 section: added dual-layer (B+C) note | APPLIED ✅ |
 | WB-19 | rin.md | Added 嘆息之橋 scene note (btd) | APPLIED ✅ |
 | WB-20 | 04_timeline_canon.md | Day 13 entry: expanded with 操 sacrifice details | APPLIED ✅ |
@@ -41,7 +41,7 @@ Applies all pending writebacks from CR-2026-05-19-001 plus new conflicts found i
 | WB-22 | 04_timeline_canon.md | Day 14: new 帝國廣場救援 anchor created | APPLIED ✅ |
 | WB-23 | 04_timeline_canon.md | Critical scene index: 雙重犧牲 → 錯位雙殺 label | APPLIED ✅ |
 | WB-24 | 05_story_outline_canon.md | Day 14 description: 嘆息之橋戰役 → 帝國廣場救援 | APPLIED ✅ |
-| WB-25 | 05_story_outline_canon.md | Act III arc table: 朱音 row venue fix | APPLIED ✅ |
+| WB-25 | 05_story_outline_canon.md | Act III arc table: 紫音 row venue fix | APPLIED ✅ |
 | WB-26 | 01_world_rules_and_costs.md | 改變現実 table: split into 晴香 + 夕 two entries | APPLIED ✅ |
 | WB-27 | 01_world_rules_and_costs.md | rule-immune-rejection trigger: added 緋潮 origin note | APPLIED ✅ |
 

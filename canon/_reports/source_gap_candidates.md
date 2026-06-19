@@ -30,9 +30,9 @@
 | backup\screenwriter\01_Character_Background_Story.md | **水無月 美夜子 (Miyako)** ^miyako-alpha-beta | 水無月美夜子Miyako |
 | backup\screenwriter\01_Character_Background_Story.md | **潛意識人格 (夕 Yu)** | 潛意識人格夕Yu |
 | backup\screenwriter\01_Character_Background_Story.md | 【終局劇透警告】夕的時間折返與二十年守護 | 【終局劇透警告】夕的時間折返與二十年守護 |
-| backup\screenwriter\01_Character_Background_Story.md | **朱音 (Akane)** ^akane-alpha-beta | 朱音Akane^akane |
+| backup\screenwriter\01_Character_Background_Story.md | **紫音 (Akane)** ^akane-alpha-beta | 紫音Akane^akane |
 | backup\screenwriter\01_Character_Background_Story.md | **操 (Misao)** ^misao-alpha-beta | 操Misao^misao |
-| backup\screenwriter\02_Secondary_Character_Background_Story.md | **岩倉 朱音 (Iwakura Akane)** ^block-akane | 岩倉朱音Iwakura |
+| backup\screenwriter\02_Secondary_Character_Background_Story.md | **岩倉 紫音 (Iwakura Akane)** ^block-akane | 不知火紫音Iwakura |
 | backup\screenwriter\02_Secondary_Character_Background_Story.md | **綾小路 操 (Ayanokōji Misao)** ^block-misao | 綾小路操Ayanokōji |
 | backup\screenwriter\02_Secondary_Character_Background_Story.md | **東雲秋穗 (Akiho)** | 東雲秋穗Akiho |
 | backup\screenwriter\02_Secondary_Character_Background_Story.md | 【終局劇透警告】來自錯誤未來的秋穗 | 【終局劇透警告】來自錯誤未來的秋穗 |

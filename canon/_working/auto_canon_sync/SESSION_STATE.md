@@ -92,7 +92,7 @@ Remaining open items: All are AUTHOR_GATE (QQ-98~101/51/104; C-NEW-13/15/16) —
 ## Active Unresolved Risks
 - QQ-102: CDL-288 鐵絲網偶遇 integration in ACT_III J-phase — OPEN (AUTHOR_GATE)
 - QQ-103: CDL-289 Loop N Warden reveal position — OPEN (AUTHOR_GATE)
-- QQ-104: Phase J timeline vs I3 朱音犧牲 timing — OPEN (AUTHOR_GATE, non-blocking)
+- QQ-104: Phase J timeline vs I3 紫音犧牲 timing — OPEN (AUTHOR_GATE, non-blocking)
 - QQ-98–101: 無鏡之城 setting design — OPEN (AUTHOR_GATE)
 - QQ-51: E-03 操「手術室」Flash — BLOCKED (AUTHOR_GATE)
 - QQ-04/06/07/08/09: Deferred design decisions — DEFERRED (AUTHOR_GATE when triggered)

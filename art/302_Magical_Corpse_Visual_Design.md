@@ -1,7 +1,7 @@
 ---
-status: Draft
+status: SUPERSEDED
 canon_target: "[[canon/07_entities/magical_corpse]]"
-note: "本文件的 Canon 級內容已遷移至上述目標。此文件保留為完整母文檔（400+ 行）供深度參考，包含詳細的視覺規格、變體設計、音效設計等。"
+note: "本文件已由新美術方向取代。Type A/B（陶瓷人偶+齒輪 / 鏽蝕齒輪+碎鏡）分類系統已廢除，待依「歌德侵蝕深度 / 心理狀態」重新設計。新視覺核心：宇宙星空（Cosmic Void）+ 黑鐵哥德尖塔；星空流體（Cosmic Fluid）取代機械齒輪。詳見 canon/06_visual_bible.md §section-gothic-erosion + §section-cosmic-fluid。此文件保留為歷史參考，不得用作製作依據。"
 ---
 
 ## 魔法屍骸視覺設計檔案 (Magic Corpse Visual Design Document)

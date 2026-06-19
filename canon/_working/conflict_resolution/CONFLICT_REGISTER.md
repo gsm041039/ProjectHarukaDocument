@@ -4,7 +4,7 @@
 
 | Conflict ID | Summary | Status |
 |---|---|---|
-| C-01 | 朱音犧牲 Phase: I3 vs J1 | RESOLVED — Phase I Day 14 confirmed; all files updated |
+| C-01 | 紫音犧牲 Phase: I3 vs J1 | RESOLVED — Phase I Day 14 confirmed; all files updated |
 | C-02 | I2 announcement venue 嘆息之橋 → 帝國廣場 | RESOLVED — fixed in ACT_III_OUTLINE + all canon files |
 | C-03 | 連續兩日結構 | RESOLVED — 保留 Day 13 + Day 14 |
 | C-04 | 美夜子崩潰 timing — was blocked on Q-001 | RESOLVED — timing valid (still Day 14 深夜 after I3) |
@@ -15,7 +15,7 @@
 
 | Conflict ID | Summary | Affected Files | Status |
 |---|---|---|---|
-| C-NEW-01 | 朱音犧牲地點 嘆息之橋 → 帝國廣場 in canon files | 03_character_index, iwakura_akane, ko_hikaru, miyako, ayakomoji_misao, 04_timeline, 05_outline | RESOLVED ✅ |
+| C-NEW-01 | 紫音犧牲地點 嘆息之橋 → 帝國廣場 in canon files | 03_character_index, iwakura_akane, ko_hikaru, miyako, ayakomoji_misao, 04_timeline, 05_outline | RESOLVED ✅ |
 | C-NEW-02 | 操犧牲地點 嘆息之橋 → Day 13 鋼鐵獨舞 (暫時不命名) | 03_character_index, ayakomoji_misao, miyako, ko_hikaru | RESOLVED ✅ |
 | C-NEW-03 | 「一同犧牲」描述 — 兩人分開日子地點犧牲 | 03_character_index (×2), ayakomoji_misao (×2), miyako (×2), ko_hikaru | RESOLVED ✅ |
 | C-NEW-04 | 嘆息之橋功能 — 凜獨立場景 | 04_timeline, rin.md | RESOLVED (btd design) ✅ |
@@ -31,12 +31,12 @@
 |---|---|---|---|
 | C-NEW-10 | iwakura_akane.md WB-09 incomplete — 5 嘆息之橋 locations still un-fixed after CR-2026-05-20-001 | iwakura_akane.md (lines 27, 165, 248, 249, 286, 291) | RESOLVED ✅ |
 | C-NEW-11 | rin.md Unit 00 存活狀態 link pointed to #term-unit-01 (美夜子's Unit 01 entry) | rin.md line 28 | RESOLVED ✅ |
-| C-NEW-12 | miyako.md See also linked 嘆息之橋 under 朱音/操 context — now stale | miyako.md line 358 | RESOLVED ✅ |
+| C-NEW-12 | miyako.md See also linked 嘆息之橋 under 紫音/操 context — now stale | miyako.md line 358 | RESOLVED ✅ |
 | C-NEW-13 | rin.md Unit 00 transformation placed in Act III section but confirmed canon says Act II | rin.md line 144 | DEFERRED — needs author confirmation |
 | C-NEW-14 | yu.md: 夕's Phase J action absent from entire file; Act IV 現実覆寫 framed as failed attempt | yu.md | RESOLVED ✅ — author confirmed successful execution; yu.md updated |
 | C-NEW-15 | haruka.md: 夕's Phase J final change entirely absent from event anchors and arc | haruka.md | DEFERRED (LOW) — no active contradiction in haruka.md; Phase J execution noted in yu.md; haruka.md may be updated when Phase J arc is expanded |
 | C-NEW-16 | 02_glossary.md: No #term-unit-00 anchor exists for 凜's weapon form | 02_glossary.md | DEFERRED — add when Unit 00 design confirmed |
-| C-NEW-17 | saku.md 朱音 relationship row uses present-tense "成為屍骸首領" with no death annotation | saku.md line 189 | LOW-PRIORITY — annotation gap, not hard contradiction |
+| C-NEW-17 | saku.md 紫音 relationship row uses present-tense "成為屍骸首領" with no death annotation | saku.md line 189 | LOW-PRIORITY — annotation gap, not hard contradiction |
 
 ## Session CR-2026-05-20-003 (COMPREHENSIVE_CANON_CLEANUP)
 
@@ -111,7 +111,7 @@
 ✅ No stale venue references
 ✅ Age annotations consistent with timeline framework
 ✅ Act III/IV section organization perfectly aligned with character arc descriptions
-✅ Complex relationship chains verified (朱音→小光→黑奏→朱音 墮落 fully consistent across three separate files)
+✅ Complex relationship chains verified (紫音→小光→黑奏→紫音 墮落 fully consistent across three separate files)
 
 ### World Rules & Systems Agent Report
 ✅ 改變現實 split complete and consistent (all Japanese references replaced with Traditional Chinese)
@@ -128,7 +128,7 @@
 
 | Loop | New Contradictions | Notes |
 |---|---|---|
-| Loop 6 | 1 | 朱音年齡 calculation error |
+| Loop 6 | 1 | 紫音年齡 calculation error |
 | Loop 7 | 0 | Previous loop errors corrected (3 cascade fixes) |
 | Loop 8 | 0 | **TWO CONSECUTIVE ZERO LOOPS ACHIEVED** ✅ |
 
@@ -185,7 +185,7 @@
 
 | Conflict ID | Summary | Affected Files | Status |
 |---|---|---|---|
-| C-NEW-26 | 朱音年齡數學錯誤 — LOOP 6 CALCULATION ERROR DETECTED | iwakura_akane.md | CASCADED ERROR ❌ |
+| C-NEW-26 | 紫音年齡數學錯誤 — LOOP 6 CALCULATION ERROR DETECTED | iwakura_akane.md | CASCADED ERROR ❌ |
 
 **LOOP 6 ANALYSIS:**
 - Loop 6 register claimed: "18 歲應為 19 歲（Year 109 age 14 + 5 years = 19）"
@@ -201,13 +201,13 @@
 
 | Conflict ID | Summary | Affected Files | Status |
 |---|---|---|---|
-| C-CASCADE-01 | 朱音年齡 — Loop 6 incorrect fix (19歲) corrected back to 18歲 | iwakura_akane.md | FIXED ✅ — reverted to 18歲 (correct for Year 113) |
+| C-CASCADE-01 | 紫音年齡 — Loop 6 incorrect fix (19歲) corrected back to 18歲 | iwakura_akane.md | FIXED ✅ — reverted to 18歲 (correct for Year 113) |
 | C-CASCADE-02 | 彩年齡 — Loop 4 incorrect fix (41歲 for Year 113) corrected to 40歲 | aya.md | FIXED ✅ — corrected to 40歲 (Year 113: 113-73=40) |
 | C-CASCADE-03 | 晴香年齡 — Loop 4 incorrect fix (17歲 for Year 113) corrected to 16歲 | haruka.md | FIXED ✅ — corrected to 16歲 (Year 113: 113-97=16) |
 | C-CASCADE-04 | 朔年齡 — Loop 4 fix (36歲) acceptable given ~78 birth year approximation | saku.md | ACCEPTABLE ✅ — ~78 birth allows 35-36 range |
 
 **LOOP 7 CASCADE FINDINGS:**
-1. **Loop 6 applied wrong year logic** (Year 114 math to Year 113 story) →朱音 age error cascaded
+1. **Loop 6 applied wrong year logic** (Year 114 math to Year 113 story) →紫音 age error cascaded
 2. **Loop 4 systematically confused Year 113/114 bases** →彩, 晴香 ages incorrect
 3. **朔 approximate birth year** allows range tolerance → kept as 36
 
@@ -218,7 +218,7 @@
 
 **Verification of secondary references:**
 - No stray "17歲晴香" or "41歲彩" found in canon files ✅
-- Sacrifice locations (操 Day 13 / 朱音 Day 14) confirmed consistent ✅
+- Sacrifice locations (操 Day 13 / 紫音 Day 14) confirmed consistent ✅
 - All character relationship descriptions verified ✅
 
 **Total new contradictions found in Loop 7: 0 (cascade errors from previous loops fixed)**
@@ -280,7 +280,7 @@
 |---|---|---|---|
 | C-NEW-28 | CHARACTER_NAME_FACTS.md missing 雨宮晴香/雨宮美夜子 family surname entries | CHARACTER_NAME_FACTS.md | RESOLVED ✅ — CF-NAME-HARUKA-05 and CF-NAME-MIYAKO-05 added to Fact Map |
 | C-NEW-29 | C-NEW-07 (rin.md death year 108年) — re-checked | rin.md | CLOSED ✅ — year already present at line 24; was resolved in prior session |
-| C-NEW-30 | C-NEW-17 (saku.md present-tense 朱音 row) — re-assessed | saku.md | CLOSED ✅ as DESIGN_GAP — entire relationship table uses consistent present-tense style; not an isolated gap |
+| C-NEW-30 | C-NEW-17 (saku.md present-tense 紫音 row) — re-assessed | saku.md | CLOSED ✅ as DESIGN_GAP — entire relationship table uses consistent present-tense style; not an isolated gap |
 
 **Design gaps noted (no author question)**:
 - DG-005: yu.md 菲/夕 boundary (existing gap, newly registered)
@@ -306,7 +306,7 @@ Loops 4-7 summary:
 - Loop 7: **3 NEW contradictions discovered (cascade from Loops 4+6)** — ALL FIXED ✅
 
 **FINAL VERIFICATION STATE AFTER LOOP 7:**
-- **朱音**: 18歲 ✅ (born ~95, Year 113: 113-95=18)
+- **紫音**: 18歲 ✅ (born ~95, Year 113: 113-95=18)
 - **操**: 18歲 ✅ (born ~95, Year 113: 113-95=18)
 - **晴香**: 16歲 ✅ (born 97, Year 113: 113-97=16)
 - **彩**: 40歲 ✅ (born 73, Year 113: 113-73=40)
@@ -315,7 +315,7 @@ Loops 4-7 summary:
 - **小光**: 8-10歲 ✅ (age range)
 
 **Per SKILL.md stop condition: Requires two consecutive loops with ZERO new contradictions.**
-- Loop 6: **1 contradiction found and fixed** (朱音年齡)
+- Loop 6: **1 contradiction found and fixed** (紫音年齡)
 - Loop 7: **ZERO NEW contradictions found** (previous loop errors corrected) ✅
 
 **Awaiting Loop 8 verification to meet two-zero-finding termination condition.**

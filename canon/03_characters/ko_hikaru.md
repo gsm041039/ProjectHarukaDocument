@@ -1,9 +1,9 @@
 # 小光（Ko Hikaru）
 
-> **讀者指引**：本頁是小光的單一角色 Canon Sheet——夜區貧困小學生、朱音的溫暖錨點、屍骸化後的廢鐵型存在。
-> 小光的篇幅雖短，但他是朱音墮落弧光的核心起因——理解小光才能理解朱音為何成為屍骸首領。
+> **讀者指引**：本頁是小光的單一角色 Canon Sheet——夜區貧困小學生、紫音的溫暖錨點、屍骸化後的廢鐵型存在。
+> 小光的篇幅雖短，但他是紫音墮落弧光的核心起因——理解小光才能理解紫音為何成為屍骸首領。
 > 首次閱讀建議先看 [§ Header Table](#char-ko-hikaru) 與 [§ Want/Need/Lie/Truth](#section-wnlt)。
-> 相關文件：[朱音](iwakura_akane.md) | [Character Index](../03_character_index.md) | [Glossary](../02_glossary.md)
+> 相關文件：[紫音](iwakura_akane.md) | [Character Index](../03_character_index.md) | [Glossary](../02_glossary.md)
 
 <!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/02_Secondary_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Story_Structure_Character_Archetype_Analysis.md-->
 
@@ -21,7 +21,7 @@
 |------|------|
 | **全名** | 小光（こ ひかる） |
 | **年齡** | 8–10 歲（主線期） |
-| **身份** | 夜區貧困小學生、[朱音](iwakura_akane.md)的溫暖錨點 |
+| **身份** | 夜區貧困小學生、[紫音](iwakura_akane.md)的溫暖錨點 |
 | **死亡/轉變** | 主線前中段於[屍骸](../02_glossary.md#term-magical-corpse)襲擊中被殺，轉化為 Type B 廢鐵型屍骸（見 [Timeline](../04_timeline_canon.md#event-ko-hikaru-death)） |
 | **特徵** | 彩色螺旋波板糖、破爛紅色小學生書包 |
 | **Archetype** | 純真者 → 犧牲者 → 墮落的起因 |
@@ -33,21 +33,21 @@
 
 ### 最後的溫暖錨點
 
-夜區是帝國底層——毒品、飢餓、暴力充斥每條巷道。在這座人間煉獄中，小光是唯一對[朱音](iwakura_akane.md)展現善意的人。他經常省下自己的波板糖分享給朱音，用缺門牙的笑容說：「家姐，一齊食。」他不知道朱音背負的罪孽，也不在乎——對他來說，朱音就是他的「家姐」。
+夜區是帝國底層——毒品、飢餓、暴力充斥每條巷道。在這座人間煉獄中，小光是唯一對[紫音](iwakura_akane.md)展現善意的人。他經常省下自己的波板糖分享給紫音，用缺門牙的笑容說：「家姐，一齊食。」他不知道紫音背負的罪孽，也不在乎——對他來說，紫音就是他的「家姐」。
 
 ### 悲劇的背叛與轉變
 
-[朱音](iwakura_akane.md)因魔力戒斷狀態導致力量中斷，無法保護小光。[屍骸](../02_glossary.md#term-magical-corpse)襲擊降臨時，朱音只能眼睜睜看著小光被殺——然後變成 Type B 廢鐵型屍骸。那個曾經分享糖果的小男孩，現在是一堆生鏽金屬碎片拼湊的畸形體，手裏還握著發黑發霉的波板糖。
+[紫音](iwakura_akane.md)因魔力戒斷狀態導致力量中斷，無法保護小光。[屍骸](../02_glossary.md#term-magical-corpse)襲擊降臨時，紫音只能眼睜睜看著小光被殺——然後變成 Type B 廢鐵型屍骸。那個曾經分享糖果的小男孩，現在是一堆生鏽金屬碎片拼湊的畸形體，手裏還握著發黑發霉的波板糖。
 
 **See also**: [Timeline — 小光之死](../04_timeline_canon.md#event-ko-hikaru-death)
 
-### 朱音墮落的起因
+### 紫音墮落的起因
 
-小光屍骸化後，[黑奏](aya.md#section-kurokane)對朱音耳語：「他沒有死，只是換了生存方式。」這句話成為朱音墮落的轉折點——朱音開始相信屍骸不是死亡，而是「另一種活法」。她成為屍骸首領，建立「屍骸樂園」，將小光和其他屍骸當作自己的孩子守護。出於愛的墮落，比出於恨的墮落更令人心痛。
+小光屍骸化後，[黑奏](aya.md#section-kurokane)對紫音耳語：「他沒有死，只是換了生存方式。」這句話成為紫音墮落的轉折點——紫音開始相信屍骸不是死亡，而是「另一種活法」。她成為屍骸首領，建立「屍骸樂園」，將小光和其他屍骸當作自己的孩子守護。出於愛的墮落，比出於恨的墮落更令人心痛。
 
 ### 屍骸樂園中的存在
 
-在朱音建立的屍骸樂園中，小光的屍骸被當作「最小的孩子」保護著。他不會攻擊——只會伸出生鏽的金屬手臂，像渴求擁抱一樣。他所發出的只有低沉的怪物嘶吼——撕裂的金屬鳴聲，聽不出任何人類語言或情緒，卻無法阻止聞者在那聲嘶吼中感到一種說不清的悲傷。
+在紫音建立的屍骸樂園中，小光的屍骸被當作「最小的孩子」保護著。他不會攻擊——只會伸出生鏽的金屬手臂，像渴求擁抱一樣。他所發出的只有低沉的怪物嘶吼——撕裂的金屬鳴聲，聽不出任何人類語言或情緒，卻無法阻止聞者在那聲嘶吼中感到一種說不清的悲傷。
 
 ---
 
@@ -55,9 +55,9 @@
 
 | 維度 | 內容 |
 |------|------|
-| **Want（生前）** | 活下去；分享糖果給朱音；被保護 |
-| **Need（屍骸化後 / 朱音投射）** | 證明即使變成屍骸依然值得被愛 |
-| **Lie（朱音的信念）** | 「小光沒有死，只是換了生存方式」 |
+| **Want（生前）** | 活下去；分享糖果給紫音；被保護 |
+| **Need（屍骸化後 / 紫音投射）** | 證明即使變成屍骸依然值得被愛 |
+| **Lie（紫音的信念）** | 「小光沒有死，只是換了生存方式」 |
 | **Truth** | 小光已死，屍骸是殘留意志碎片；出於愛的墮落比出於恨更令人心痛 |
 
 ---
@@ -70,12 +70,12 @@
 |------|------|
 | 彩色螺旋波板糖 | 純真善意的結晶——死後發黑發霉，善意腐敗為執念 |
 | 破爛紅色書包 | 屍骸化後唯一的身份證據——證明這堆廢鐵曾經是個小學生 |
-| 飢餓的孩子 | 朱音對所有屍骸的投射原型——每個屍骸都是「小光」 |
+| 飢餓的孩子 | 紫音對所有屍骸的投射原型——每個屍骸都是「小光」 |
 | 「肚餓……」 | 生前最樸素的渴求，死後變成最悲傷的迴響 |
 
-**主題關聯**：子主題 A「力量的代價」——朱音的力量中斷直接導致小光的死亡。子主題 C「身份的本質」——屍骸化後的小光還是小光嗎？朱音選擇相信「是」，這個信念定義了她的墮落。[執念飽和](../02_glossary.md#term-saturation-of-obsession)——朱音對小光的愛轉化為高黏著執念。
-**主題關聯**：小光令朱音的悲劇變得不可抽象化。  
-當「守護」變成「拒認失去」，愛就會由連結變成囚禁；朱音的下墜由此成立（詞條見 [執念飽和](../02_glossary.md#term-saturation-of-obsession)）。
+**主題關聯**：子主題 A「力量的代價」——紫音的力量中斷直接導致小光的死亡。子主題 C「身份的本質」——屍骸化後的小光還是小光嗎？紫音選擇相信「是」，這個信念定義了她的墮落。[執念飽和](../02_glossary.md#term-saturation-of-obsession)——紫音對小光的愛轉化為高黏著執念。
+**主題關聯**：小光令紫音的悲劇變得不可抽象化。  
+當「守護」變成「拒認失去」，愛就會由連結變成囚禁；紫音的下墜由此成立（詞條見 [執念飽和](../02_glossary.md#term-saturation-of-obsession)）。
 
 ---
 
@@ -83,19 +83,19 @@
 
 ### [第一幕](../05_story_outline_canon.md#act-1)：溫暖的錨點
 
-小光作為夜區唯一的善意存在出現在[朱音](iwakura_akane.md)的日常中。破爛書包、缺門牙的笑容、省下的波板糖——他是朱音在黑暗中唯一的光。場景設計核心：讓觀眾先愛上這個孩子。
+小光作為夜區唯一的善意存在出現在[紫音](iwakura_akane.md)的日常中。破爛書包、缺門牙的笑容、省下的波板糖——他是紫音在黑暗中唯一的光。場景設計核心：讓觀眾先愛上這個孩子。
 
 ### [第二幕](../05_story_outline_canon.md#act-2)：屍骸化
 
-[屍骸](../02_glossary.md#term-magical-corpse)襲擊中小光被殺、變成 Type B 廢鐵型屍骸。朱音的世界崩塌。[黑奏](aya.md#section-kurokane)的耳語「他沒有死」成為朱音墮落的催化劑。小光的屍骸手中依然握著發黑的波板糖——這個畫面是全作品最殘忍的視覺之一。
+[屍骸](../02_glossary.md#term-magical-corpse)襲擊中小光被殺、變成 Type B 廢鐵型屍骸。紫音的世界崩塌。[黑奏](aya.md#section-kurokane)的耳語「他沒有死」成為紫音墮落的催化劑。小光的屍骸手中依然握著發黑的波板糖——這個畫面是全作品最殘忍的視覺之一。
 
 ### [第三幕](../05_story_outline_canon.md#act-3)：屍骸樂園
 
-在朱音建立的屍骸樂園中，小光被守護著。但飢餓本能逐漸失控——屍骸的「肚餓」不是生理需求，而是[情緒侵蝕](../02_glossary.md#term-emotional-erosion)的表現。小光開始對朱音以外的人伸出手，不再是擁抱，而是撕扯。
+在紫音建立的屍骸樂園中，小光被守護著。但飢餓本能逐漸失控——屍骸的「肚餓」不是生理需求，而是[情緒侵蝕](../02_glossary.md#term-emotional-erosion)的表現。小光開始對紫音以外的人伸出手，不再是擁抱，而是撕扯。
 
 ### [第四幕](../05_story_outline_canon.md#act-4)：出於愛的墮落
 
-透過朱音的最終犧牲，小光代表的主題完成收束——「出於愛的墮落」。朱音在帝國廣場燃燒自己，最後對小光的屍骸說：「唔好再肚餓了。」波板糖在火焰中融化，甜味與焦味混合。
+透過紫音的最終犧牲，小光代表的主題完成收束——「出於愛的墮落」。紫音在帝國廣場燃燒自己，最後對小光的屍骸說：「唔好再肚餓了。」波板糖在火焰中融化，甜味與焦味混合。
 
 ---
 
@@ -103,8 +103,8 @@
 
 ### 生前
 
-1. **分享糖果**：省下波板糖分享給朱音——「家姐，一齊食」，缺門牙的笑容
-2. **天真善意**：夜區唯一對朱音好的人，不問過去、不在乎身份
+1. **分享糖果**：省下波板糖分享給紫音——「家姐，一齊食」，缺門牙的笑容
+2. **天真善意**：夜區唯一對紫音好的人，不問過去、不在乎身份
 3. **貧困生存**：破爛書包、褪色衣服、營養不良的瘦弱身軀——但保持善意
 
 ### 屍骸化後
@@ -143,19 +143,19 @@
 
 | 對象 | 關係 | 核心動態 |
 |------|------|---------|
-| [朱音](iwakura_akane.md) | 溫暖錨點 / 墮落起因 | 生前是朱音唯一的光；屍骸化後成為朱音墮落為屍骸首領的直接原因 |
-| [黑奏](aya.md#section-kurokane) | 操縱者 | 黑奏用「他沒有死」的謊言操縱朱音；小光是黑奏手中的棋子 |
+| [紫音](iwakura_akane.md) | 溫暖錨點 / 墮落起因 | 生前是紫音唯一的光；屍骸化後成為紫音墮落為屍骸首領的直接原因 |
+| [黑奏](aya.md#section-kurokane) | 操縱者 | 黑奏用「他沒有死」的謊言操縱紫音；小光是黑奏手中的棋子 |
 | [晴香](haruka.md) | 間接關係 | 晴香目睹小光的屍骸時，映照出自己作為創世者的罪責——這個孩子的命運源於她創造的 [Beta 線](../02_glossary.md#term-beta-line) |
-| [操](ayakomoji_misao.md) | 間接關係 | 操與朱音在連續錯位犧牲（Day 13/14）中，操理解了朱音守護小光的執念 |
+| [操](ayakomoji_misao.md) | 間接關係 | 操與紫音在連續錯位犧牲（Day 13/14）中，操理解了紫音守護小光的執念 |
 
 ---
 
 
 ## <a id="section-event-anchors"></a>關鍵事件錨點（Timeline 對齊）
 
-- [小光日常](../04_timeline_canon.md#event-ko-hikaru-daily)：朱音人性錨點建立。
-- [小光之死](../04_timeline_canon.md#event-ko-hikaru-death)：朱音墮落與主線轉折觸發。
-- [朱音背叛](../04_timeline_canon.md#event-akane-betrayal)：小光屍骸化後果擴散。
+- [小光日常](../04_timeline_canon.md#event-ko-hikaru-daily)：紫音人性錨點建立。
+- [小光之死](../04_timeline_canon.md#event-ko-hikaru-death)：紫音墮落與主線轉折觸發。
+- [紫音背叛](../04_timeline_canon.md#event-akane-betrayal)：小光屍骸化後果擴散。
 
 ---
 ## <a id="section-role-function"></a>角色功能（Narrative Function）
@@ -170,8 +170,8 @@
 - 若本角色另有專屬硬限制，以本頁明示條目優先。
 ## <a id="section-see-also"></a>See also
 
-- [朱音 Canon Sheet](iwakura_akane.md) — 小光墮落的直接承受者
-- [黑奏 Canon Sheet](aya.md#section-kurokane) — 操縱朱音的幕後者
+- [紫音 Canon Sheet](iwakura_akane.md) — 小光墮落的直接承受者
+- [黑奏 Canon Sheet](aya.md#section-kurokane) — 操縱紫音的幕後者
 - [Character Index](../03_character_index.md) — 角色總覽與關係網
 - [Timeline — 小光之死](../04_timeline_canon.md#event-ko-hikaru-death) — 屍骸化事件
 - [Glossary — 魔法屍骸](../02_glossary.md#term-magical-corpse) | [Glossary — 情緒侵蝕](../02_glossary.md#term-emotional-erosion) | [Glossary — 執念飽和](../02_glossary.md#term-saturation-of-obsession)

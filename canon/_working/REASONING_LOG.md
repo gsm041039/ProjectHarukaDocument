@@ -35,8 +35,8 @@
 - **彩犧牲設計基礎**：outline_raw.md 後段（無獨立 CDL）
 - **執行**：已非門控修正 J8 header 和相關 CDL 引用（Round 036 技術修正）
 
-#### 🟡 時序歧義：J1「前往廣場救朱音」
-- **問題**：Phase I 時間線 Day 14 → 朱音犧牲（I3）；Phase J 時間線「114年5月中~底」。若 Phase J 係 Day 14 後，J1「救朱音」不成立
+#### 🟡 時序歧義：J1「前往廣場救紫音」
+- **問題**：Phase I 時間線 Day 14 → 紫音犧牲（I3）；Phase J 時間線「114年5月中~底」。若 Phase J 係 Day 14 後，J1「救紫音」不成立
 - **推斷（未確認）**：I3 和 J1 可能係同日 Day 14 同一地點（嘆息之橋 = 廣場）的前後段——但需作者確認
 - **生成問題**：QQ-104（J1 時序確認）
 
@@ -118,7 +118,7 @@ Pool 2：14(RELEVANT)、16(RELEVANT)、18(RELEVANT)、19(RELEVANT)；13/15/17 NO
 | 4. Atmosphere / Tension | RELEVANT | 帝國六個月消失令Phase D壓力感缺失；計時器前置影響E-12的氣氛張力 |
 | 5. Theme Expression | RELEVANT | 地下化=「制度性排斥的終點」；觸發機制的外部/內部性質影響主題表達（被動vs主動反抗）|
 | 6. Structural Beat Function | RELEVANT — 核心問題 | E-10 beat的結構功能缺乏Cost Signal支撐；E-09a→E-10過渡是Outline層最大結構漏洞 |
-| 7. Entry Timing / Presence Control | RELEVANT | [NC]暗線「王國邊緣的盛宴」位置影響朱音存在感建立時機；帝國在Phase D的存在感缺席 |
+| 7. Entry Timing / Presence Control | RELEVANT | [NC]暗線「王國邊緣的盛宴」位置影響紫音存在感建立時機；帝國在Phase D的存在感缺席 |
 | 8. World Rule / Mechanic Pressure | RELEVANT — 核心問題 | 帝國六個月行為空白違反世界規則一致性；CDL法則（Cost Signal）要求E-10有外部觸發 |
 | 9. Setup / Payoff | RELEVANT | E-12計時器需要前置種子；E-11觸發的設計影響愛莉守恆定律Layer 2-3的payoff鏈 |
 | 10. Audience Experience / Knowledge Gap | RELEVANT | 地下生活無說明令觀眾對Phase D有認知空白；計時器突然出現令觀眾感到E-12邏輯不足 |
@@ -173,7 +173,7 @@ QQ-69 through QQ-76（全部 OPEN，Round 028）
 | 13. Coping / Defense Mechanism | RELEVANT | Act I 全部主角的「性格特徵」都是 coping patterns，embedded 但未標記為「防衛代價」 |
 | 14. Ideology / Value System | RELEVANT | 各角色有獨立價值排序且相互撞擊，但 map 未存在 |
 | 15. Social / Institutional Position | RELEVANT | 晴香偶像制度位置 CDL-164~168 完整；其他角色制度位置相對弱 |
-| 16. Moral Tradeoff | RELEVANT | 美夜子共謀誤導、朱音止痛選擇、操形式主義入隊——每個都是 tradeoff，但未落表 |
+| 16. Moral Tradeoff | RELEVANT | 美夜子共謀誤導、紫音止痛選擇、操形式主義入隊——每個都是 tradeoff，但未落表 |
 | 17. Symbolic / Ritual Behavior | RELEVANT + SOURCE_SUPPORTED | 最完整：熱可可/膠布/熊公仔確認/変身優雅/甜食搜尋 全部在 outline 有設計 |
 | 18. Narrative Validation Level | RELEVANT | Act I 整個策略 = 先 validate 偽英雄旅程假象再 complicate；各角色立場最終 treatment 待 Act III/IV 確認 |
 
@@ -193,7 +193,7 @@ QQ-69 through QQ-76（全部 OPEN，Round 028）
 **操：**
 - Moral Tradeoff（Angle 16）= INFERRED → 作者確認（2026-04-14）：入隊=獲得觀眾，代價=「被看穿破綻的風險」→ Act I/II 緊繃傲嬌的根本原因
 
-**朱音：**
+**紫音：**
 - Act I coping 代價 = INFERRED → 作者確認（2026-04-14）：無法真正哀悼細佬；永遠處於焦躁的戒斷期，失去平靜的權利
 
 ---
@@ -214,14 +214,14 @@ Act I 識別出 5 個主題衝突 events：
 1. 天台使命說明 + 共謀誤導 — DIALOGUE_ONLY（需 Beat Sheet 落地為行為層）
 2. 情緒連結停止（E-03）— EVENT_CARRIED
 3. Reality Show + 後台遮戰損 — EVENT_CARRIED
-4. 朱音珍寶珠入隊 — EVENT_CARRIED（雙層解讀）
+4. 紫音珍寶珠入隊 — EVENT_CARRIED（雙層解讀）
 5. 感激の毒藥 — CANDIDATE（Act I 只種 plant，衝突在 Act III 爆發）
 
 ---
 
 ### 【5個新發現摘要】
 
-1. **發現 1（已 AC）：** 所有角色 coping 代價在 Act I = INFERRED → 本輪作者確認晴香/美夜子/朱音三個代價，落入 INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md
+1. **發現 1（已 AC）：** 所有角色 coping 代價在 Act I = INFERRED → 本輪作者確認晴香/美夜子/紫音三個代價，落入 INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md
 2. **發現 2（已 AC）：** 晴香 + 美夜子 Core Fear = BK → 本輪作者確認，落入 tracker
 3. **發現 3（DEFERRED）：** 各角色立場最終 treatment（Angle 18）= 無法在 Act I 單獨確認，需 Act III/IV 設計完成後填入
 4. **發現 4（已落表）：** 帝國意識型態 = Act I 最完整的 BvA 設計，優先落入 IDEOLOGY_THEME_STANCE_MATRIX
@@ -231,8 +231,8 @@ Act I 識別出 5 個主題衝突 events：
 
 ### 【本輪落檔清單】
 
-- `INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` — 晴香/美夜子/操/朱音/彩黑奏 Gate A entries ✅
-- `IDEOLOGY_THEME_STANCE_MATRIX.md` — 帝國/晴香/美夜子/朱音/操/彩黑奏 Gate B entries ✅
+- `INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` — 晴香/美夜子/操/紫音/彩黑奏 Gate A entries ✅
+- `IDEOLOGY_THEME_STANCE_MATRIX.md` — 帝國/晴香/美夜子/紫音/操/彩黑奏 Gate B entries ✅
 - `THEME_CONFLICT_EXPRESSION_TABLE.md` — Act I 5個 Gate C entries ✅
 - `REASONING_LOG.md` — 本輪記錄 ✅（此項）
 
@@ -265,12 +265,12 @@ Act I 識別出 5 個主題衝突 events：
 | 氣氛/張力 | 「被追捕但仍行動」的張力係全幕最高峰；冇這個，Act IV處刑前景缺乏份量 | RELEVANT — NEEDS_AUTHOR_INPUT |
 | 主題表達 | 核心主題「選擇的代價」需在有危險的選擇中體現；低風險時的選擇無法論證主題 | RELEVANT — NEEDS_AUTHOR_INPUT |
 | 結構功能 | Act III需要上升弧到公開處刑公告；現在公告係從天而降的情節事件 | RELEVANT — SOURCE_SUPPORTED（timeline_raw 有記錄但無Outline） |
-| 入場時機/存在感 | 朱音113年6月底被放逐後消失11個月（至114年5月回歸）；現有設計完全無交代 | RELEVANT — NEEDS_AUTHOR_INPUT |
+| 入場時機/存在感 | 紫音113年6月底被放逐後消失11個月（至114年5月回歸）；現有設計完全無交代 | RELEVANT — NEEDS_AUTHOR_INPUT |
 | 世界規則壓力 | 情緒設定在地下化後的世界樣貌、帝國如何日常執行魔女狩獵——完全未建立 | RELEVANT — NEEDS_AUTHOR_INPUT |
 | 埋伏/回收 | 凜114年4月自願改造前與主角團「多次交錯」（timeline_raw記錄）——無Outline對應 | RELEVANT — SOURCE_SUPPORTED |
 | 觀眾體驗/知識差距 | 觀眾在公開處刑公告時需感到「一切都在崩塌」——要先建立她們「還在努力」的印象 | RELEVANT — NEEDS_AUTHOR_INPUT |
 | Canon/連續性 | timeline_raw記錄「凜與晴香多次交錯」（113年7月-114年3月）但無Outline對應 | RELEVANT — SOURCE_SUPPORTED |
-| 寫作可執行性 | 加入2-3個地下行動beat + 朱音搜尋線索 + 凜交錯場景 = 可執行 | RELEVANT — SOURCE_SUPPORTED |
+| 寫作可執行性 | 加入2-3個地下行動beat + 紫音搜尋線索 + 凜交錯場景 = 可執行 | RELEVANT — SOURCE_SUPPORTED |
 
 **全部12角度均RELEVANT。**
 
@@ -308,28 +308,28 @@ Act I 識別出 5 個主題衝突 events：
 **對主角團的交叉點：**
 - 情緒食材原材料之一來源於被捕的魔法少女（情緒特別濃縮）
 - 主角團可能需借助這個地下網絡獲取物資/情報
-- 可作為尋找朱音的情報線（朱音情緒成分特殊，黑市有其蹤跡）
+- 可作為尋找紫音的情報線（紫音情緒成分特殊，黑市有其蹤跡）
 
 **唔加入的後果：** 情緒設定的世界黑暗面缺乏具體落地場景，Act III缺少「帝國如何滲透日常」的質感。
 
 ---
 
-#### 提案三：尋找朱音——主動搜尋線
-`[NEW EVENT CANDIDATE — 部分source衍生，timeline_raw有朱音11個月消失記錄]`
+#### 提案三：尋找紫音——主動搜尋線
+`[NEW EVENT CANDIDATE — 部分source衍生，timeline_raw有紫音11個月消失記錄]`
 
 **觸發角度：** 入場時機/存在感、關係動態、埋伏/回收、角色成長
 
 **核心設計：**
-朱音113年6月底被放逐，114年5月突然回歸——主角團對這11個月應有主動搜尋過程，每次失敗都有代價。
+紫音113年6月底被放逐，114年5月突然回歸——主角團對這11個月應有主動搜尋過程，每次失敗都有代價。
 
 角色分歧設計：
 - 晴香：必須找，我放棄了她
 - 操：不找，找了也沒用
-- 美夜子：冷靜分析——找朱音可能暴露位置
+- 美夜子：冷靜分析——找紫音可能暴露位置
 
-功能：①讓朱音114年5月回歸有觀眾期待積累；②操成長beat（從「不找」到「去找」的轉變）；③令「放逐」成為需要主角面對的後果而非道德決定的終點。
+功能：①讓紫音114年5月回歸有觀眾期待積累；②操成長beat（從「不找」到「去找」的轉變）；③令「放逐」成為需要主角面對的後果而非道德決定的終點。
 
-**唔加入的後果：** 朱音回歸變成機械降神；操在Act II-III的成長弧缺少一個主動性選擇節點。
+**唔加入的後果：** 紫音回歸變成機械降神；操在Act II-III的成長弧缺少一個主動性選擇節點。
 
 ---
 
@@ -341,7 +341,7 @@ A：一個觸目驚心型beat → B：兩個小beat積累型 → C：作為其�
 **Q-R2：情緒美食家線的入路方式**
 A：完全新角色（情緒掮客）→ B：從秋穗延伸（不需新角色）→ C：完全唔做留Act IV → D：作者自訂
 
-**Q-R3：搜尋朱音的主動線——做唔做？**
+**Q-R3：搜尋紫音的主動線——做唔做？**
 A：做主動搜尋線（2-3個失敗嘗試）→ B：唔做，改為零碎訊號 → C：搜尋線和美食家線合併
 
 **Q-R4：114年4月「凜三連爆」在Outline層要幾多beat？**
@@ -583,9 +583,9 @@ A：集體死刑令（所有人）→ B：針對晴香一人（其他人處置�
 |---|---|---|---|---|
 | **晴香開始訓練** | outline_raw：「晴香開始訓練」係 Act I 前段內容 | Outline無此元素；晴香是否有訓練場景？ | Gap B（暗示但未確認是否需獨立beat）| LOW：可以係[NC]泛提，或省略 |
 | **奪舍示範場景（HC-2e）的具體觸發**| CDL-118確認E-02後某事件中間的小事件；但到底係咩事件令奪舍示範發生（老婆婆靈魂傳話「有個婆婆說她很抱歉」）的世界觀背景未在Outline交代 | Outline [NC]有提奪舍示範場景（CDL-118），標記btd | Gap B（世界觀邏輯層面）| LOW：Beat Sheet層可處理 |
-| **情緒連結首戰 = E-03（四人）確認** | 05_detailed_scenes.md明確：情緒連結首戰係四人（晴香/朱音/操/美夜子）；這意味朱音必須在E-03前入隊（CDL-139已確認） | Outline已有E-03情緒連結後遺症，且CDL-139確認朱音E-02後入隊；**邏輯一致** | 確認一致，無gap | — |
-| **朱音情緒毒品注射場景** | 05_detailed_scenes.md「幻象的崩塌」：晴香無意中目睹朱音在後巷注射情緒毒品 | 現有Outline無此元素；timeline說係Act I期間？還是Act II？ | **Gap A疑問**：timeline_raw.md記載係Act I前段（4月），但outline_raw.md將其放在「前段：破碎的羽翼」之下，明確屬Act I/II交界 | MEDIUM：需確認歸屬 |
-| **朱音視美夜子為「藥頭與保險栓」的明確展示** | Outline Beat 1已記載（CDL-051）；但何時/如何呈現未定 | 已在Outline記錄，屬Beat Sheet層 | 已處理 | — |
+| **情緒連結首戰 = E-03（四人）確認** | 05_detailed_scenes.md明確：情緒連結首戰係四人（晴香/紫音/操/美夜子）；這意味紫音必須在E-03前入隊（CDL-139已確認） | Outline已有E-03情緒連結後遺症，且CDL-139確認紫音E-02後入隊；**邏輯一致** | 確認一致，無gap | — |
+| **紫音情緒毒品注射場景** | 05_detailed_scenes.md「幻象的崩塌」：晴香無意中目睹紫音在後巷注射情緒毒品 | 現有Outline無此元素；timeline說係Act I期間？還是Act II？ | **Gap A疑問**：timeline_raw.md記載係Act I前段（4月），但outline_raw.md將其放在「前段：破碎的羽翼」之下，明確屬Act I/II交界 | MEDIUM：需確認歸屬 |
+| **紫音視美夜子為「藥頭與保險栓」的明確展示** | Outline Beat 1已記載（CDL-051）；但何時/如何呈現未定 | 已在Outline記錄，屬Beat Sheet層 | 已處理 | — |
 | **美夜子Unit 01身份前置** | miyako.md確認美夜子係Unit 01軍方魔法少女兵器，凜係4號隊員；Act I的美夜子行為有軍方訓練底層 | Outline提及「軍方訓練遺留」（秘密基地潛行場景），但無系統性的Unit 01前置 | Gap B（隱性）：觀眾是否需要Act I就知道美夜子的軍方背景？或全靠E-04閃回？ | LOW：E-04閃回已設計為前置節點 |
 | **凜記憶碎片恢復（timeline 4月）** | timeline_raw.md：「某次戰鬥中，凜受傷，部分記憶恢復，記起與美夜子的血之約定和在冰封中的等待」| CDL-140設計：凜只透過E-04靜態閃回+遠景彩蛋存在；凜記憶碎片恢復係Act II事件 | 口徑確認：凜記憶碎片恢復已被歸入Act II，Act I只有E-04閃回+管理局遠景；**一致** | — |
 
@@ -599,7 +599,7 @@ A：集體死刑令（所有人）→ B：針對晴香一人（其他人處置�
 | 凜記憶碎片恢復 | 已確認係Act II事件，唔係Act I缺口 |
 
 **本輪唯一真正需要作者確認的 Outline 層問題：**
-朱音情緒毒品注射場景（「幻象的崩塌」）係 Act I 還是 Act II 元素？
+紫音情緒毒品注射場景（「幻象的崩塌」）係 Act I 還是 Act II 元素？
 
 ## Round 017 補充 E — 2026-04-06 — ACT_I_OUTLINE.md 深度 Source 交叉對比（第二輪掃描）
 
@@ -621,7 +621,7 @@ A：集體死刑令（所有人）→ B：針對晴香一人（其他人處置�
 | 項目 | 理由 |
 |---|---|
 | 凜替代品恐懼（timeline 3月）| CDL-140已處理：凜的情感反應透過E-04遠景彩蛋承載，3月的具體事件已被合併入更大的設計 |
-| 「幻象的崩塌：發現隊友黑暗面」（outline_raw）| 此為Act II元素（朱音注射情緒毒品），唔係Act I |
+| 「幻象的崩塌：發現隊友黑暗面」（outline_raw）| 此為Act II元素（紫音注射情緒毒品），唔係Act I |
 | 悲鳴女妖二戰（timeline 5月）| 確認為Act II事件 |
 
 ## Round 017 補充 D — 2026-04-06 — ACT_I_OUTLINE.md 全幕 Outline 層審計
@@ -635,7 +635,7 @@ A：集體死刑令（所有人）→ B：針對晴香一人（其他人處置�
 | **E-04 敵人身份未明**（「不敵某敵人」）| 結構功能、氣氛/張力、角色成長 | Gap B（Outline暗示但未確認）| HIGH — 影響E-04整個emotional tone |
 | **黑奏 Act I 接管具體次數/目的**（QQ-26 btd）| 結構功能、資訊揭示控制、埋伏/回收 | Gap B（CDL-097目的驅動但次數/目的未列明）| MEDIUM — Beat Sheet無法設計黑奏接管節點 |
 | **E-1.5 位置**（QQ-52 DEFERRED）| 觀眾體驗、氣氛/張力、AKS-S0時機 | Gap B（CDL-133推後但位置未定）| HIGH — 影響全幕不安感積累節奏 |
-| **E-02.5 「某次戰鬥後」具體時機**| 結構功能、關係動態 | Gap B（Outline模糊）| MEDIUM — 朱音入隊的因果鏈需要確認 |
+| **E-02.5 「某次戰鬥後」具體時機**| 結構功能、關係動態 | Gap B（Outline模糊）| MEDIUM — 紫音入隊的因果鏈需要確認 |
 | **凜 Act I 存在形式**（除E-04閃回外）| 入場時機、資訊揭示控制 | Gap B（Outline只說E-04美夜子回憶，凜其他形式未確認）| MEDIUM |
 | **秘密基地/隊伍夜間行動**（timeline_raw.md有記載，Outline無）| 關係動態、氣氛/張力 | Gap A（source有，Outline無）| LOW — [NC]元素，可選 |
 
@@ -668,16 +668,16 @@ E-02（首戰+操入隊）← 設計中
 |---|---|---|
 | 觀眾體驗/知識差距 | 操係全新角色，E-02直接出場——觀眾有無足夠背景？**Q12：操E-02前有無[NC]前置？** | RELEVANT — 待作者決定 |
 | 關係動態 | 晴香×操係E-02第一次互動，relationship起點設計需確認觸發點細節 | SOURCE_SUPPORTED（05_detailed_scenes.md有完整場景） |
-| 資訊揭示控制 | 朱音E-02首次現身但唔入隊——觀眾對朱音的初印象設計：「野獸感/搶怪黨」；唔需解釋，只需行動 | STABLE |
+| 資訊揭示控制 | 紫音E-02首次現身但唔入隊——觀眾對紫音的初印象設計：「野獸感/搶怪黨」；唔需解釋，只需行動 | STABLE |
 | 氣氛/張力 | E-02係「首次大規模戰鬥」，偽亮色感高峰；Reality Show氣氛；操突然亂入製造意外感 | STABLE |
 | 主題表達 | 主題B「美好謊言」：外在光輝感 vs 底層成本（情緒連結首用）；主題D：隊伍組建的困難（操傲嬌入隊） | STABLE |
 | 結構功能 | E-02 = 首戰 + 情緒連結首用 + 操入隊——三個功能在同一beat，節奏密度需確認 | 考慮過：三功能同beat係Outline已確認，唔係gap |
 | 入場時機 | 操突然亂入 vs 有前置影子：直接亂入陌生感最強（已推理決定A，待確認Q12）| 待作者 Q12 確認 |
 | 世界規則 | 情緒連結首次使用；Reality Show直播UI在E-02達到高峰（首次大型戰鬥）| STABLE |
-| 埋伏/回收 | CDL-084 凜信息（一句話帶猶豫）= Act III凜前史前置；操入隊 = 獨行俠→隊伍弧光起點；朱音「搶怪黨」= E-02.5珍寶珠前置 | STABLE |
+| 埋伏/回收 | CDL-084 凜信息（一句話帶猶豫）= Act III凜前史前置；操入隊 = 獨行俠→隊伍弧光起點；紫音「搶怪黨」= E-02.5珍寶珠前置 | STABLE |
 | 觀眾體驗 | 操出場需要「衝擊感」——E-02前唔應有任何提示；突然性係設計意圖 | SUPPORTS A（無前置）|
 | Canon/連續性 | CDL-050確認操入隊台詞/場景；05_detailed_scenes.md有完整操入隊描述；口徑一致 | STABLE |
-| 寫作可執行性 | 三功能密集beat = 節奏快，但有source支撐；E-02.5作為緩衝（朱音入隊）承接 | STABLE |
+| 寫作可執行性 | 三功能密集beat = 節奏快，但有source支撐；E-02.5作為緩衝（紫音入隊）承接 | STABLE |
 
 **識別 Gap：**
 1. **Q12（操E-02前[NC]前置）**：已推理傾向A（無前置），待作者確認
@@ -689,7 +689,7 @@ E-02（首戰+操入隊）← 設計中
 |---|---|
 | E-02場景位置（街道vs其他）| Outline已確認「首次大型屍骸戰鬥」，街道係最合理位置，無需問作者 |
 | 情緒連結具體視覺呈現 | CDL-084/121確認；Beat Sheet層可自行設計，唔係design gap |
-| 朱音「搶怪黨」行為的具體細節 | CDL-052/原始大綱已充分說明，無需問 |
+| 紫音「搶怪黨」行為的具體細節 | CDL-052/原始大綱已充分說明，無需問 |
 
 **Q設計（需問作者）：**
 - Q12：操E-02前有無[NC]前置（A/B）
@@ -824,7 +824,7 @@ Act II Phase D現有設計：E-09直播失控（CDL-259）→E-09a鏡像破碎�
 
 ### 任務背景
 
-作者要求處理 temp.txt（Act II→Act III設計討論記錄）中的5項核心設計決策，確認哪些可進CDL，哪些有歧義需確認。5項設計：①雙面音樂盒墜（Alpha/Beta線物理矛盾證據）②美夜子月下自慰→晴香擁抱（倖存者內疚崩潰）③姊妹相認分兩步（貓殼碎裂 vs 黑奏處刑室）④創世原罪揭露分層（Act III中段相認 + 結尾核爆）⑤魔法少女資訊差（朱音/操死時不知創世真相）
+作者要求處理 temp.txt（Act II→Act III設計討論記錄）中的5項核心設計決策，確認哪些可進CDL，哪些有歧義需確認。5項設計：①雙面音樂盒墜（Alpha/Beta線物理矛盾證據）②美夜子月下自慰→晴香擁抱（倖存者內疚崩潰）③姊妹相認分兩步（貓殼碎裂 vs 黑奏處刑室）④創世原罪揭露分層（Act III中段相認 + 結尾核爆）⑤魔法少女資訊差（紫音/操死時不知創世真相）
 
 ### Source Check 結果
 
@@ -875,12 +875,12 @@ Act II Phase D現有設計：E-09直播失控（CDL-259）→E-09a鏡像破碎�
 #### 主題4：資訊差設計（QQ-91+QQ-92）
 | Gate欄位 | 分析 |
 |---|---|
-| Upstream Dependencies | CDL-276朱音/操Layer 1資訊差；CDL-149（感謝作罪證）；CDL-266三武器排序 |
+| Upstream Dependencies | CDL-276紫音/操Layer 1資訊差；CDL-149（感謝作罪證）；CDL-266三武器排序 |
 | Downstream Dependencies | Act III/IV Layer 2揭露時機；觀眾情緒曲線（憤怒Layer1→心碎Layer2）；晴香成長弧（被誤解/被指控→真正理解動機） |
 | Later-Act Constraints | Layer 2揭露時機未定（btd Act III Outline）；唔可以在Act III前段就洩露Layer 2 |
-| Can Be Decided Locally | Provisionally（確認朱音/操不知Layer 2=局部決定；Layer 2具體揭露時機=全作結構決定，btd） |
+| Can Be Decided Locally | Provisionally（確認紫音/操不知Layer 2=局部決定；Layer 2具體揭露時機=全作結構決定，btd） |
 | Early Consumption Risk | Layer 1先揭露會令觀眾短暫憤怒晴香——但這個憤怒是設計好的，Layer 2的心碎是升級而非重複 → 無透支風險 |
-| Misalignment Risk | 唔可以在任何已確認beats中讓朱音/操表現出知道Layer 2的反應 → 需在ACT_III Outline設計時確認 |
+| Misalignment Risk | 唔可以在任何已確認beats中讓紫音/操表現出知道Layer 2的反應 → 需在ACT_III Outline設計時確認 |
 
 **結論：Q5=A（只知Layer 1）；Q6=A（人造空殼謊言可信），CDL-276+CDL-277落檔**
 
@@ -973,7 +973,7 @@ Act II Phase D現有設計：E-09直播失控（CDL-259）→E-09a鏡像破碎�
 #### Category C — 敘事 Gap（待 Beat Sheet 層確認）
 - **C-1**：P-A12 Step 2（語言確認）Payoff 列在 J2，但 J2 beat 描述只有三武器揭露，無美夜子×晴香語言相認內容。→ 加一行注記「P-A12 Step 2 [btd — Beat Sheet層確認]」於 J2。
 - **C-2**：凜的 Unit 00 轉化（114年2月底-3月初）落在 Act II Phase F 時間窗口，但 Act II 角色弧線摘要無凜條目。→ 加一行「延遲揭露設計」注記於 Act II 角色弧線摘要。
-- **C-3**：Phase G G4（下水道無聲重逢）到 I2（帝國公開處刑公告）之間，朱音被捕機制缺失。→ 加一行注記「朱音被捕時機 [btd]」於 Phase I 開頭。
+- **C-3**：Phase G G4（下水道無聲重逢）到 I2（帝國公開處刑公告）之間，紫音被捕機制缺失。→ 加一行注記「紫音被捕時機 [btd]」於 Phase I 開頭。
 
 **修正方式（C-1/C-2/C-3 均為 non-blocking 注記，已執行）**
 

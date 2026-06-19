@@ -213,7 +213,7 @@ T-shirt + 瓦楞紙箱盔甲 + 膠帶纏繞紙劍 + 蠟筆笑臉太陽紙盾。�
 
 - [愛莉事故](../04_timeline_canon.md#event-aeri-accident)：紙皮騎士弧光的起點。
 - [紙皮騎士守護（一）](../04_timeline_canon.md#event-paper-knight-1)：先在美夜子噩夢場域出現，建立潛意識守門人身份。
-- [紙皮騎士守護（二）](../04_timeline_canon.md#event-paper-knight-2)：在朱音崩潰期維持心智邊界，保留其回歸與贖罪可能。
+- [紙皮騎士守護（二）](../04_timeline_canon.md#event-paper-knight-2)：在紫音崩潰期維持心智邊界，保留其回歸與贖罪可能。
 - [美夜子失蹤/救援](../04_timeline_canon.md#event-miyako-missing)：潛意識風暴與守門功能顯性化。
 - [故事後段開端](../04_timeline_canon.md#event-post-story-begin)：由被動容器轉為主動守門人。
 

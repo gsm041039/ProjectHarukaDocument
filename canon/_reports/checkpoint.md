@@ -42,7 +42,7 @@
 - ✅ Q-002：操的最終命運（犧牲 vs. 存活）— **RESOLVED A：雙重犧牲結局（變人偶牆）**
 - ✅ Q-003：花子冰封美夜子主體 — **RESOLVED C：刻意保留敘事懸念（canon/04 line 57 HTML comment marker）**
 - ✅ Q-004：美夜子復活精確年份 — **RESOLVED A：103 年復活（冰封期 92-103）**
-- ✅ Q-005：朱音犧牲的可逆性 — **RESOLVED A：不可逆，永久死亡**
+- ✅ Q-005：紫音犧牲的可逆性 — **RESOLVED A：不可逆，永久死亡**
 
 **新增決策項目（2026-03-15）：**
 - ✅ Q-ARCH-1：**RESOLVED A** — 新增 canon/09_information_design.md（資訊揭露架構）

@@ -36,13 +36,13 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 | `canon/03_characters/miyako.md` | 美夜子：Unit 01、避難所詛咒、笨拙演奏終局 | Critical | UNREAD |
 | `canon/03_characters/aya.md` | 彩/黑奏：DID 保護者人格、永恆輪迴終局 | Critical | UNREAD |
 | `canon/03_characters/yu.md` | 夕：分裂人格、三階段聲音規格 | High | UNREAD |
-| `canon/03_characters/iwakura_akane.md` | 朱音：糖果山犧牲、屍骸女王弧光 | High | UNREAD |
+| `canon/03_characters/iwakura_akane.md` | 紫音：糖果山犧牲、屍骸女王弧光 | High | UNREAD |
 | `canon/03_characters/ayakomoji_misao.md` | 操：半屍骸化自選停留、鋼鐵獨舞弧光 | High | UNREAD |
 | `canon/03_characters/rin.md` | 凜：Unit 00-Null、遲來的介錯 | High | UNREAD |
 | `canon/03_characters/aeri.md` | 愛莉：石像/紙皮騎士雙形態 | High | UNREAD |
 | `canon/03_characters/saku.md` | 朔：解放者弧光、三位一體主題指標 | Medium | UNREAD |
 | `canon/03_characters/akiho.md` | 秋穗：無臉執行官前史、守恆定律揭露 | Medium | UNREAD |
-| `canon/03_characters/ko_hikaru.md` | 小光：朱音墮落的觸發點 | Medium | UNREAD |
+| `canon/03_characters/ko_hikaru.md` | 小光：紫音墮落的觸發點 | Medium | UNREAD |
 
 ---
 

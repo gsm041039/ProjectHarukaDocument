@@ -52,11 +52,11 @@
 | CF-NAME-MISAO-01 | Misao | birth_name / family_name | 綾小路操 | Standard identity | Noble house lineage | 03_character_index + ayakomoji_misao.md | SOURCE_SUPPORTED |
 | CF-NAME-MISAO-02 | Misao | performance_alias | 完璧なる人形 (Porcelain Doll) | Y113+ squad interaction | Self-imposed perfectionist performance identity | ayakomoji_misao.md §archetype | SOURCE_SUPPORTED |
 
-### Akane — 岩倉朱音 (Iwakura Akane)
+### Akane — 不知火紫音 (Iwakura Akane)
 
 | Fact ID | Character | Name Type | Name Value | Applies To | Rename/Usage Cause | Source Doc + Claim ID | Status |
 |---------|-----------|-----------|------------|-----------|-------------------|----------------------|--------|
-| CF-NAME-AKANE-01 | Akane | birth_name | 岩倉朱音 | Standard identity | Family lineage | 03_character_index iwakura_akane.md | SOURCE_SUPPORTED |
+| CF-NAME-AKANE-01 | Akane | birth_name | 不知火紫音 | Standard identity | Family lineage | 03_character_index iwakura_akane.md | SOURCE_SUPPORTED |
 | CF-NAME-AKANE-02 | Akane | title_alias | 屍骸女王 (Corpse Queen / Corpse Leader) | Y113 June onwards | Self-declared ruler of corpse paradise | 04_timeline event-corpse-paradise + EVENT_FACTS CF-EVT-0035 | SOURCE_SUPPORTED |
 | CF-NAME-AKANE-03 | Akane | social_role | 野良犬 (Stray Dog) | Y113 June-July post-exile | Degraded status living in underground sewers | 04_timeline event-akane-exile | SOURCE_SUPPORTED |
 
@@ -101,7 +101,7 @@
 - Miyako: 水無月美夜子 → 黒猫美夜子 (curse form transformation Y108)
 
 ### Title/Role Names (Y113+)
-- Akane: 岩倉朱音 → 屍骸女王 → 野良犬 (status progression)
+- Akane: 不知火紫音 → 屍骸女王 → 野良犬 (status progression)
 - Misao: 綾小路操 → 完璧なる人形 (performance identity)
 - Ko Hikaru: 小光 → Type B 廢鐵型 (death state Y113)
 

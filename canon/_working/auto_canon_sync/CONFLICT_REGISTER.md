@@ -14,7 +14,7 @@ Prior conflict history lives in canon/_working/conflict_resolution/CONFLICT_REGI
 | Title | CDL-217/218 entries lack venue addendum (嘆息之橋→帝國廣場) |
 | Status | **RESOLVED ✅** |
 | Files Involved | canon/_working/CANON_DECISION_LOG.md (lines ~265–266) |
-| Conflicting Claims | CDL-217/218 reference 嘆息之橋 as朱音 Day 14 venue; AC 2026-05-19 changed to 帝國廣場 |
+| Conflicting Claims | CDL-217/218 reference 嘆息之橋 as紫音 Day 14 venue; AC 2026-05-19 changed to 帝國廣場 |
 | Owner File | canon/_working/CANON_DECISION_LOG.md |
 | Classification | Safe stale annotation — documentation fix only, no story meaning change |
 | Severity | LOW |
@@ -156,7 +156,7 @@ Prior conflict history lives in canon/_working/conflict_resolution/CONFLICT_REGI
 | Evidence | All files correctly use Soul Traversal as background worldbuilding; no "Warden reveal" language in canon |
 | Loop Discovered | 13 |
 
-## ACS-006: canon/13 + working/07 — 鐵板獨舞 / 朱音 Day 10 stale references
+## ACS-006: canon/13 + working/07 — 鐵板獨舞 / 紫音 Day 10 stale references
 
 | Field | Value |
 |---|---|
@@ -164,7 +164,7 @@ Prior conflict history lives in canon/_working/conflict_resolution/CONFLICT_REGI
 | Title | 鐵板獨舞 terminology + 5月第10天 date stale in canon/13 and _working/story_construction/07 |
 | Status | **RESOLVED ✅** |
 | Files Involved | canon/13_major_events_relationship_impact.md; canon/_working/story_construction/07_Major_Events_Relationship_Impact.md |
-| Conflicting Claims | CDL-218 = 鋼鐵獨舞 Day 13 (操) / Day 14 (朱音); files used 鐵板獨舞 and 5月第10天 for朱音 |
+| Conflicting Claims | CDL-218 = 鋼鐵獨舞 Day 13 (操) / Day 14 (紫音); files used 鐵板獨舞 and 5月第10天 for紫音 |
 | Classification | Stale terminology + stale date — AUTO_FIX_MEDIUM |
 | Evidence | CDL-218 (AC 2026-04-13); files NOT in CR-2026-05-19/20 update list |
 | Resolution | Updated E-13 dates, E-14 titles in both files (Day 14 正午 + 鋼鐵獨舞) |
@@ -216,7 +216,7 @@ Prior conflict history lives in canon/_working/conflict_resolution/CONFLICT_REGI
 | File Audited | canon/04_timeline_canon.md |
 | Focus | CDL-217/218 dates, 鋼鐵獨舞 terminology, CDL-288 wire-fence beacon in power description |
 | Status | **PROVEN_SAFE ✅** |
-| Findings | (1) "鋼鐵獨舞" correct (not 鐵板獨舞) ✅. (2) Day 13 操 / Day 14 朱音 帝國廣場 consistent with CDL-218 ✅. (3) Line 53 already has CDL-288 language "鐵絲網許願的因果信標" ✅. (4) "能量逆流擊中黑奏" = energy backflow from creation event, NOT temporal causality reversal — CDL-287 consistent ✅. |
+| Findings | (1) "鋼鐵獨舞" correct (not 鐵板獨舞) ✅. (2) Day 13 操 / Day 14 紫音 帝國廣場 consistent with CDL-218 ✅. (3) Line 53 already has CDL-288 language "鐵絲網許願的因果信標" ✅. (4) "能量逆流擊中黑奏" = energy backflow from creation event, NOT temporal causality reversal — CDL-287 consistent ✅. |
 | Fixes Required | None |
 
 ---
@@ -252,7 +252,7 @@ Prior conflict history lives in canon/_working/conflict_resolution/CONFLICT_REGI
 | Field | Value |
 |---|---|
 | Conflict ID | ACS-005 |
-| Title | Phase J timeline "114年5月中~底" may conflict with J1 "救朱音" after I3 Day 14 朱音犧牲 |
+| Title | Phase J timeline "114年5月中~底" may conflict with J1 "救紫音" after I3 Day 14 紫音犧牲 |
 | Status | **DEFERRED — author 唔知; [⏳TIMELINE_TBD] added to outline; Beat Sheet resolves** |
 | Files Involved | canon/_working/story_construction/ACT_III_OUTLINE.md |
 | Resolution | TBD marker added to Phase J timeline row; QQ-104 moved to DEFERRED |

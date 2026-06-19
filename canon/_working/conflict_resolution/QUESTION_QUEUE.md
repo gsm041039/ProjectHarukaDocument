@@ -7,8 +7,8 @@
 
 | QID | Session | Topic | Answer | Applied |
 |---|---|---|---|---|
-| Q-001 | CR-2026-05-19-001 | 朱音 Phase 位置 + I3 新功能 | C: Phase J犧牲→改回Phase I；嘆息之橋→凜場景；連續兩日保留 | ACT_III_OUTLINE.md ✅ |
-| Q-001b | CR-2026-05-19-001 | 矛盾解決確認 | 朱音 Phase I Day 14 帝國廣場；嘆息之橋=凜場景；J1刪除 | ACT_III_OUTLINE.md ✅ |
+| Q-001 | CR-2026-05-19-001 | 紫音 Phase 位置 + I3 新功能 | C: Phase J犧牲→改回Phase I；嘆息之橋→凜場景；連續兩日保留 | ACT_III_OUTLINE.md ✅ |
+| Q-001b | CR-2026-05-19-001 | 矛盾解決確認 | 紫音 Phase I Day 14 帝國廣場；嘆息之橋=凜場景；J1刪除 | ACT_III_OUTLINE.md ✅ |
 | Q-002 (CR-2026-05-20) | CR-2026-05-20-001 | 操犧牲地點 | 暫時不命名——只標 Day 13 鋼鐵獨舞 | All char files ✅ |
 | Q-003 (CR-2026-05-20) | CR-2026-05-20-001 | 嘆息之橋新功能 | 凜的獨立場景（Phase G/H，design btd） | rin.md + 04_timeline ✅ |
 | Q-004 (CR-2026-05-20) | CR-2026-05-20-001 | 改變現実歸屬 | 拆成兩條目：晴香（102年創世） + 夕（Phase J） | 01_world_rules ✅ |

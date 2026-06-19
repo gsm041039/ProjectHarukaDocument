@@ -83,7 +83,7 @@ Step 1c 新增的習慣條目審計：
 |------|-----------|------------------|------|
 | haruka.md | habit-rhythm-control, habit-transparency-obsession, habit-hot-cocoa, habit-ice-chewing | 否 | ✅ |
 | miyako.md | habit-dark-shower, habit-long-swim, habit-blade-grinding, habit-crying-desire | 否 | ✅ |
-| iwakura_akane.md | habit-sleeping-in-boots, habit-dead-plants, habit-feed-cat-miyako, habit-gum-chewing | 否（habit-feed-cat-miyako 涉及美夜子但定義在朱音檔，美夜子檔只用敘事描述，無重複定義） | ✅ |
+| iwakura_akane.md | habit-sleeping-in-boots, habit-dead-plants, habit-feed-cat-miyako, habit-gum-chewing | 否（habit-feed-cat-miyako 涉及美夜子但定義在紫音檔，美夜子檔只用敘事描述，無重複定義） | ✅ |
 | ayakomoji_misao.md | habit-eye-mask, habit-compulsive-washing | 否 | ✅ |
 | saku.md | habit-earring-temperature, habit-ice-bath | 否 | ✅ |
 | akiho.md | habit-instrument-scan, habit-statue-dialogue | 否 | ✅ |

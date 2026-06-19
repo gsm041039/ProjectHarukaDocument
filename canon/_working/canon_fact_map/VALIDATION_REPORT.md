@@ -265,7 +265,7 @@ Comprehensive validation of the Canon Fact Map found:
 - ✅ All character names consistent:
   - 晴香 (Haruka, not Seika or variant spellings)
   - 美夜子 (Miyako, not variations)
-  - 朱音 (Akane, not variants)
+  - 紫音 (Akane, not variants)
   - All 12 main characters have consistent naming ✓
 - ✅ All location names consistent (Empire, Pandora headquarters, candy factory, plaza, etc.)
 - ✅ All terminology consistent (trinity spectrum, corpse transformation, heart-vessel, etc.)

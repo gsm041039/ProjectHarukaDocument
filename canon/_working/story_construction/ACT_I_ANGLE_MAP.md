@@ -49,7 +49,7 @@ Built: 2026-03-28 | Source: ACT_I_OUTLINE.md v1
 
 | Angle | AC beats | SS beats | 設計備注 |
 |-------|----------|----------|---------|
-| 1. Character Growth | 8 | 0 | 全幕覆蓋良好；E-04 晴香心理極限+朱音扭曲確認 |
+| 1. Character Growth | 8 | 0 | 全幕覆蓋良好；E-04 晴香心理極限+紫音扭曲確認 |
 | 2. Relationship Dynamics | 6 | 2 | 主要關係 AC；凜×美夜子 E-04 確認；E-02/03 [SS] 可接受 |
 | 3. Info / Reveal Control | 6 | 2 | AKS chain 完整；E-04 美夜子回憶帶凜前史確認 |
 | 4. Atmosphere / Tension | 7 | 0 | 偽亮色 + 不安感雙軌清晰；E-04 戰鬥緊繃確認 |
@@ -57,7 +57,7 @@ Built: 2026-03-28 | Source: ACT_I_OUTLINE.md v1
 | 6. Structural Beat Function | 7 | 1 | 骨架清晰；E-04 主線強制確認；E-02 SS 可接受 |
 | 7. Entry Timing / Presence | 6 | 0 | 副角色分離清楚；凜 via 美夜子回憶 Act I early 確認 |
 | **8. World Rule / Mechanic** | **1** | **7** | **⚠ 見下方說明** |
-| 9. Setup / Payoff | 7 | 1 | Plant-A chain 穩固；朱音肢體扭曲 Plant 新增 |
+| 9. Setup / Payoff | 7 | 1 | Plant-A chain 穩固；紫音肢體扭曲 Plant 新增 |
 | 10. Audience Experience | 6 | 2 | AKS 進程清晰 |
 | 11. Canon / Continuity | 7 | 1 | 主要 AC；細節 SS 可接受 |
 | 12. Writing Execution | 4 | 2 | 2 DF 係設計意圖（[NC]+E-XX = beat sheet 工作）|

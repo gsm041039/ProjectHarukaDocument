@@ -70,7 +70,7 @@ Fact Map extraction is **PARTIAL** (585+ atomic facts extracted). Initial audit 
 | Missing ID | Pair | Missing Dimension | Why Required | Affected Table | Severity | Suggested Remediation |
 |---|---|---|---|---|---|---|
 | REL-RECIP-001 | 晴香 ↔ 黑奏 (CF-REL-0030) | B→A emotional state (Haruka's feeling toward Kurokane) | Relationship documented as predator-prey; Final State lacks Haruka's emotional resolution (revenge? forgiveness? transcendence?) | RELATIONSHIP_FACTS | MEDIUM | Add: How does Haruka emotionally process Kurokane's existence post-dispersal? Unresolved manipulator or tragic sibling-figure she can forgive? |
-| REL-RECIP-002 | 朱音 ↔ 小光 (CF-REL-0041) | B→A emotional state (Ko Hikaru's feeling toward Misao) | Documented as Misao protecting Ko; missing Ko's reciprocal attachment + final state after corpse transformation | RELATIONSHIP_FACTS | MEDIUM | Add: Does Ko Hikaru, trapped in corpse form, still emotionally anchor Misao or become silent object? Is the bond preserved after transformation? |
+| REL-RECIP-002 | 紫音 ↔ 小光 (CF-REL-0041) | B→A emotional state (Ko Hikaru's feeling toward Misao) | Documented as Misao protecting Ko; missing Ko's reciprocal attachment + final state after corpse transformation | RELATIONSHIP_FACTS | MEDIUM | Add: Does Ko Hikaru, trapped in corpse form, still emotionally anchor Misao or become silent object? Is the bond preserved after transformation? |
 
 ---
 

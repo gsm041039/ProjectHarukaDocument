@@ -76,7 +76,7 @@
 
 ---
 
-## 朱音（止痛/麻醉派）
+## 紫音（止痛/麻醉派）
 
 **Entity type:** 主要角色
 
@@ -90,9 +90,9 @@
 | **What this stance hides** | 她無法真正哀悼細佬；她的「保護晴香」不是為了晴香，是為了自己 | AC | 作者確認 2026-04-14 |
 | **What this stance costs** | Act I：永遠處於焦躁的戒斷期，失去平靜的權利；無法真正哀悼 | AC | 作者確認 2026-04-14 |
 | **Mirror** | — | — |
-| **Oppose** | 晴香（天真善意 vs 朱音的複雜動機）| INFERRED |
+| **Oppose** | 晴香（天真善意 vs 紫音的複雜動機）| INFERRED |
 | **Where it appears** | Beat 2.5（珍寶珠）；[NC] 戒斷症狀行為暗示（CDL-158）| SS |
-| **Story's treatment** | **Rejects 其方法（毒品化），但 validates 其底層痛苦**（BK，待 Act II/III 朱音 cascade 設計後確認）| BK | QQ-53 |
+| **Story's treatment** | **Rejects 其方法（毒品化），但 validates 其底層痛苦**（BK，待 Act II/III 紫音 cascade 設計後確認）| BK | QQ-53 |
 
 ---
 
@@ -141,4 +141,4 @@
 
 | 日期 | 更新內容 | 根據 |
 |---|---|---|
-| 2026-04-14 | Round 023 首次填入：18-angle Act I 掃描結果 + 作者確認；帝國/晴香/美夜子/朱音/操/彩黑奏 entries 建立 | 作者確認 2026-04-14 + CDL references |
+| 2026-04-14 | Round 023 首次填入：18-angle Act I 掃描結果 + 作者確認；帝國/晴香/美夜子/紫音/操/彩黑奏 entries 建立 | 作者確認 2026-04-14 + CDL references |

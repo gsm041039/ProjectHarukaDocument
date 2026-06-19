@@ -30,7 +30,7 @@
 
 ### Files Verified
 - canon/04_timeline_canon.md (events, dates, causality) ✅
-- canon/03_characters/iwakura_akane.md (朱音 sacrifice) ✅
+- canon/03_characters/iwakura_akane.md (紫音 sacrifice) ✅
 - canon/03_characters/ayakomoji_misao.md (操 sacrifice) ✅
 - canon/03_characters/rin.md (Year 108 death, Unit 00 state) ✅
 - canon/01_world_rules_and_costs.md (rule definitions, terminology) ✅

@@ -41,12 +41,12 @@
 - canon/_working/story_construction/ACT_III_OUTLINE.md
   - WB-01: I2 venue 嘆息之橋 → 帝國廣場 ✅
   - WB-02: I3 beat title renamed to 帝國廣場救援 ✅
-  - WB-03: J1 event description updated (removed 朱音処刑 reference + stale ⚠️ note) ✅
+  - WB-03: J1 event description updated (removed 紫音処刑 reference + stale ⚠️ note) ✅
   - WB-04: Phase I header note venue fix ✅
-  - WB-05: 朱音 Gate A 弧線 venue fix ✅
+  - WB-05: 紫音 Gate A 弧線 venue fix ✅
 
 ### Canon files (new fixes this session)
-- canon/03_character_index.md: 朱音 death location + 操 death location + 二人一同犧牲 description ✅
+- canon/03_character_index.md: 紫音 death location + 操 death location + 二人一同犧牲 description ✅
 - canon/03_characters/iwakura_akane.md: Section title + body venue + See also removal ✅
 - canon/03_characters/ko_hikaru.md: Venue in Act IV scene + See also link removal + relationship table ✅
 - canon/03_characters/ayakomoji_misao.md: Header table + Act IV section + relationship table ✅
@@ -163,7 +163,7 @@ Zero new contradictions found in subsequent verification scan.
 
 **Relationship Facts (2 MEDIUM gaps)**:
 1. 晴香↔黑奏: B→A emotional closure missing
-2. 朱音↔小光: B→A reciprocal attachment post-transformation missing
+2. 紫音↔小光: B→A reciprocal attachment post-transformation missing
 
 **World Rule Facts (3-5 MEDIUM gaps)**:
 - 情感連結: Exception/limitation ambiguous

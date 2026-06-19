@@ -182,7 +182,7 @@ Alpha 線未必比 Beta 線「更真實」，它只是「未被改寫的版本�
 
 使魔法少女的處境更加絕望：她們不只是被利用的工具，而是被刻意折磨以「產出數據」的活體實驗品。這對「態度 vs. 命運」主題形成終極壓力測試——在連痛苦本身都被他人收割的環境下，態度的自由是否還有可能？
 
-**答案是肯定的**——朱音、操的最終選擇證明了這一點。
+**答案是肯定的**——紫音、操的最終選擇證明了這一點。
 
 **See also**: [黑奏 Canon Sheet](03_characters/aya.md#section-kurokane) | [永恆陷阱機制](#section-eternal-trap) | [態度 vs. 命運](02_glossary.md#term-attitude-vs-fate)
 

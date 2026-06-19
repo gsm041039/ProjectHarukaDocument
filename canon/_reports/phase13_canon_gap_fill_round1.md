@@ -26,7 +26,7 @@
 - 下一輪將繼續由 `phase13_backup_heading_gap_candidates.txt` 清理高價值未收錄項，優先補 Timeline/Outline/角色心理意義。
 
 ## Round 1-B（追加補齊）
-- `canon/04_timeline_canon.md`：新增 `event-paper-knight-2`（紙皮騎士守護（二）），補齊愛莉對朱音崩潰期的潛意識守門事件。
+- `canon/04_timeline_canon.md`：新增 `event-paper-knight-2`（紙皮騎士守護（二）），補齊愛莉對紫音崩潰期的潛意識守門事件。
 - `canon/05_story_outline_canon.md`：Act II「社會性死亡」段新增對應結構功能說明，交代第三幕回歸動機前置。
 - `canon/03_characters/aeri.md`：關鍵事件錨點新增守護（一）（二）對齊 Timeline。
 

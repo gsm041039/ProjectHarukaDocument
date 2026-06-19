@@ -50,7 +50,7 @@
 | 美夜子 | `canon/03_characters/miyako.md` | 貓形態機制、靈魂錨點設計、Act I 行為原則 |
 | 彩 / 黑奏 | `canon/03_characters/aya.md` | 熊公仔出門確認儀式、接管觸發條件、CDL-082行為模式 |
 | 秋穗 | `canon/03_characters/akiho.md` | 家中存在感、暗中守護方式、破綻設計 |
-| 朱音 | `canon/03_characters/akane.md` | 戒斷症狀行為、戰鬥模式、入隊前「搶怪黨」行為 |
+| 紫音 | `canon/03_characters/akane.md` | 戒斷症狀行為、戰鬥模式、入隊前「搶怪黨」行為 |
 | 操 | `canon/03_characters/ayakomoji_misao.md` | 出門整儀習慣、傲嬌入隊設計、紗夜關係 |
 | 桐生健 | CDL-087/088/100 + `backup/director/Major_Events_Character_Relationships_Analysis.md` | 欺凌者→幫助者弧線、膠布哲學第一層 |
 | 夕 | `canon/03_characters/yu.md` | 噪訊呈現形式、Act I 早期症狀強度 |

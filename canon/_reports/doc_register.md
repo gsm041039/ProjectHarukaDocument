@@ -8,8 +8,8 @@
 | Path | Doc ID | Type | Scope | Canon Bucket | Status | Summary | Top Terms |
 |------|--------|------|-------|--------------|--------|---------|-----------|
 | screenwriter/00_Story_Brief.md | SW-001 | outline | 整體故事 | CAN-00 | canon候選 | 故事摘要與核心命題 | logline, premise, 治癒, 態度 vs 命運, 魔法少女 |
-| screenwriter/01_Character_Background_Story.md | SW-002 | character | 主角群背景 | CAN-03 | draft | 主要角色完整背景故事（晴香/美夜子/彩/朱音/操/夕） | 晴香, 美夜子, 彩, 黑奏, Alpha線, Beta線, 創世者, 情緒增幅器 |
-| screenwriter/02_Secondary_Character_Background_Story.md | SW-003 | character | 次要角色 | CAN-03 | draft | 次要角色與組織背景（朱音/操/秋穗/愛莉/花子/紗夜/凜/朔/桐生健/帝國皇帝/經理人） | 朱音, 操, 秋穗, 愛莉, 紗夜, 凜, 朔, 屍骸首領, 紙皮騎士, Unit 00 |
+| screenwriter/01_Character_Background_Story.md | SW-002 | character | 主角群背景 | CAN-03 | draft | 主要角色完整背景故事（晴香/美夜子/彩/紫音/操/夕） | 晴香, 美夜子, 彩, 黑奏, Alpha線, Beta線, 創世者, 情緒增幅器 |
+| screenwriter/02_Secondary_Character_Background_Story.md | SW-003 | character | 次要角色 | CAN-03 | draft | 次要角色與組織背景（紫音/操/秋穗/愛莉/花子/紗夜/凜/朔/桐生健/帝國皇帝/經理人） | 紫音, 操, 秋穗, 愛莉, 紗夜, 凜, 朔, 屍骸首領, 紙皮騎士, Unit 00 |
 | screenwriter/03_Worldview_Setting.md | SW-004 | worldview | 世界觀核心 | CAN-01 | canon候選 | 三位一體光譜/地理/政治/魔法規則（1052行，需REBUILD） | 三位一體, 維多利亞城, 夜區, 帝國, 靈樹, 情緒力量, 心之器 |
 | screenwriter/04_Story_Structure_Atmosphere_Events_Deep_Analysis.md | SW-005 | analysis | 故事結構 | CAN-05 / CAN-04 | draft | 結構/氛圍/事件深度分析 | 四幕結構, 氛圍設計, 事件功能, 情緒波形 |
 | screenwriter/05_Story_Outline.md | SW-006 | outline | 完整大綱 | CAN-05 | canon候選（母文檔） | 故事大綱主幹（415行，82個wikilinks） | 開場, 前段, 中段, 後段, 結局, 嘆息之橋, 帝國廣場決戰 |
@@ -59,7 +59,7 @@
 | art/205_Character_Visual_Design_Saku.md | ART-104 | character_visual | 朔 | CAN-03-VIS | canon候選 | 白銀朔視覺設計 | 朔, 屍骸獵人, 視覺設計 |
 | art/206_Character_Visual_Design_Akiho.md | ART-105 | character_visual | 秋穗 | CAN-03-VIS | canon候選 | 東雲秋穗視覺設計 | 秋穗, 生命機械學家, 視覺設計 |
 | art/207_Character_Visual_Design_Airi.md | ART-106 | character_visual | 愛莉 | CAN-03-VIS | canon候選 | 東雲愛莉視覺設計 | 愛莉, 紙皮騎士, 魔法屍骸, 視覺設計 |
-| art/208_Character_Visual_Design_Iwakura_Akane.md | ART-107 | character_visual | 朱音 | CAN-03-VIS | canon候選 | 岩倉朱音視覺設計 | 朱音, 屍骸女王, 視覺設計 |
+| art/208_Character_Visual_Design_Iwakura_Akane.md | ART-107 | character_visual | 紫音 | CAN-03-VIS | canon候選 | 不知火紫音視覺設計 | 紫音, 屍骸女王, 視覺設計 |
 | art/209_Character_Visual_Design_Ayakomoji_Sou.md | ART-108 | character_visual | 操 | CAN-03-VIS | canon候選 | 綾小路操視覺設計 | 操, 傀儡師, 視覺設計 |
 | art/210_Character_Visual_Design_Rin.md | ART-109 | character_visual | 凜 | CAN-03-VIS | canon候選 | 綾瀨凜視覺設計 | 凜, Unit 00, 視覺設計 |
 | art/211_Character_Visual_Design_Ko_Hikaru.md | ART-110 | character_visual | 小光 | CAN-03-VIS | canon候選 | 小光視覺設計 | 小光, 視覺設計 |
