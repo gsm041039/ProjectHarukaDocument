@@ -561,7 +561,23 @@
       border-radius: 6px;
       object-fit: cover;
       object-position: top;
-      display: block
+      display: block;
+      cursor: zoom-in;
+      transition: transform .25s ease
+    }
+
+    .design-img:hover img {
+      transform: scale(1.06)
+    }
+
+    /* Hover effect for standalone images */
+    img[src]:not(.char-img-item img):not(.design-img img) {
+      cursor: zoom-in;
+      transition: transform .25s ease
+    }
+
+    img[src]:not(.char-img-item img):not(.design-img img):hover {
+      transform: scale(1.06)
     }
 
     .design-img-cap {
@@ -7956,16 +7972,34 @@
     lb.addEventListener('click', () => lb.classList.remove('open'));
     document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('open'); });
 
-    document.querySelectorAll('.char-img-item img').forEach(img => {
-      img.addEventListener('click', e => {
-        e.stopPropagation();
-        document.getElementById('lb-img').src = img.src;
-        document.getElementById('lb-img').alt = img.alt;
-        const cap = img.closest('.char-img-item')?.querySelector('.char-img-cap')?.textContent || '';
-        document.getElementById('lb-cap').textContent = cap;
-        document.getElementById('lb-cap').style.display = cap ? '' : 'none';
-        lb.classList.add('open');
+    // Image lightbox with event delegation (works with dynamically loaded images)
+    document.addEventListener('click', (e) => {
+      const img = e.target.closest('img[src]');
+      if (!img) return;
+
+      e.stopPropagation();
+      document.getElementById('lb-img').src = img.src;
+      document.getElementById('lb-img').alt = img.alt;
+      // Try to find caption in parent containers
+      let cap = img.closest('.char-img-item')?.querySelector('.char-img-cap')?.textContent
+        || img.closest('.design-img')?.querySelector('.design-img-cap')?.textContent
+        || img.alt || '';
+      document.getElementById('lb-cap').textContent = cap;
+      document.getElementById('lb-cap').style.display = cap ? '' : 'none';
+      lb.classList.add('open');
+    });
+
+    // Add cursor style to all current and future images
+    const updateImageCursors = () => {
+      document.querySelectorAll('img[src]').forEach(img => {
+        img.style.cursor = 'pointer';
       });
+    };
+    updateImageCursors();
+    // Update on any DOM changes
+    new MutationObserver(updateImageCursors).observe(document.body, {
+      childList: true,
+      subtree: true
     });
   </script>
   <script>
