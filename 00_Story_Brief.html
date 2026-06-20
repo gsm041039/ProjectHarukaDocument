@@ -7152,6 +7152,9 @@
           <h2>故事時間線</h2>
           <div style="display:flex;gap:14px;flex-wrap:wrap;margin-bottom:18px;font-size:11px;color:var(--muted)">
             <span style="display:flex;align-items:center;gap:5px"><span
+                style="width:10px;height:10px;border-radius:50%;background:#0e7490;display:inline-block"></span>Alpha
+              線（原初現實）</span>
+            <span style="display:flex;align-items:center;gap:5px"><span
                 style="width:10px;height:10px;border-radius:50%;background:#57534e;display:inline-block"></span>Beta
               線回填歷史</span>
             <span style="display:flex;align-items:center;gap:5px"><span
@@ -7166,9 +7169,9 @@
                 style="width:10px;height:10px;border-radius:50%;background:#9f1239;display:inline-block"></span>最終決戰</span>
           </div>
           <div style="position:relative">
-            <!-- Vertical axis line through center -->
+            <!-- Vertical axis line — at 2/3 of flex width (3-col layout) -->
             <div
-              style="position:absolute;left:50%;transform:translateX(-50%);top:52px;bottom:10px;width:2px;background:linear-gradient(to bottom,#57534e 0%,#57534e 30%,#d97706 40%,#2563eb 48%,#7c3aed 56%,#7c3aed 82%,#374151 88%,#9f1239 100%)">
+              style="position:absolute;left:calc((200% - 40px) / 3);top:52px;bottom:10px;width:2px;background:linear-gradient(to bottom,#0e7490 0%,#57534e 25%,#57534e 38%,#d97706 45%,#2563eb 52%,#7c3aed 60%,#7c3aed 82%,#374151 88%,#9f1239 100%)">
             </div>
             <!-- Lane headers -->
             <div
@@ -7180,8 +7183,14 @@
               <div style="flex:1;padding-left:24px;border-left:1px solid rgba(120,113,108,.25);padding-bottom:8px">
                 故事事件 →<br /><span style="font-size:9px;font-weight:400;opacity:.7">Beta 線中真實發生的事</span></div>
             </div>
-            <!-- 79年 ← LEFT -->
+            <!-- 79年 ← LEFT + Alpha -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1;text-align:right;padding-right:8px">
+                <div style="background:#031f2e;border:1px solid #0e7490;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:4px">Alpha 線</div>
+                  <div style="color:#a5f3fc;font-size:13px">共通前史——此事件在 Alpha/Beta 分歧前均存在，兩條線共享同一段歷史。<br/><span style="display:block;margin-top:6px;opacity:.85">差異：Alpha 線因魔能不足，<abbr title="帝國以靈樹能量建造的核心設施" style="color:#a5f3fc">維多利亞之淚</abbr>僅建造開始即停滯廢棄，從未作為功能設施活化；Beta 線創世後才成為運作中的情緒提煉中心。</span></div>
+                </div>
+              </div>
               <div style="flex:1;text-align:right;padding-right:24px">
                 <div
                   style="background:#1c1917;border:1px solid #44403c;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
@@ -7204,8 +7213,14 @@
               </div>
               <div style="flex:1"></div>
             </div>
-            <!-- 98年 ← LEFT -->
+            <!-- 98年 ← LEFT + Alpha -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1;text-align:right;padding-right:8px">
+                <div style="background:#031f2e;border:1px solid #0e7490;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:4px">Alpha 線</div>
+                  <div style="color:#a5f3fc;font-size:13px">共通前史——黑奏政變與愛莉事故同樣發生於 Alpha 線。Alpha/Beta 兩線在 102 年分歧前共享此段歷史。</div>
+                </div>
+              </div>
               <div style="flex:1;text-align:right;padding-right:24px">
                 <div
                   style="background:#1c1917;border:1px solid #44403c;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
@@ -7230,18 +7245,25 @@
             </div>
             <!-- 102年 ★ SPANNING -->
             <div style="margin:4px 0 16px;position:relative;z-index:1">
-              <div
-                style="background:#2d1f00;border:2px solid #d97706;border-radius:8px;padding:12px 20px;text-align:center">
-                <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#f59e0b;margin-bottom:6px">★ 102年 —
-                  創造點 — Beta 線在此刻整體生成</div>
-                <div style="color:#fde68a;font-size:13px">5 歲的<a href="#c-haruka" style="color:#fde68a">晴香</a>在意外中目睹母親<a
-                    href="#c-hanako">花子</a>與姊姊<a href="#c-miyako" style="color:#fde68a">美夜子</a>遇難；在極端恐懼中改變了整個世界。帝歷 79 年與
-                  98 年的完整回填歷史同時長出</div>
+              <div style="background:#2d1f00;border:2px solid #d97706;border-radius:8px;padding:12px 20px">
+                <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#f59e0b;margin-bottom:10px;text-align:center">★ 102年 — 世界分歧點</div>
+                <div style="display:flex;gap:14px;align-items:flex-start">
+                  <div style="flex:1;background:#031f2e;border:1px solid #0e7490;border-radius:6px;padding:10px 14px">
+                    <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:6px">Alpha 線 — 原初現實</div>
+                    <div style="color:#a5f3fc;font-size:12.5px">5 歲的<a href="#c-haruka" style="color:#a5f3fc">晴香</a>目睹母親<a href="#c-hanako" style="color:#a5f3fc">花子</a>與姊姊<a href="#c-miyako" style="color:#a5f3fc">美夜子</a>在同一意外中同時遇難。<br/><span style="display:block;margin-top:6px;opacity:.85">無魔法、無奇蹟——兩條生命就此終結。晴香在現實創傷中獨自成長。Alpha 線繼續正常推進，不存在魔法少女系統、不存在情緒毒品制度，維多利亞之淚停滯廢棄。</span></div>
+                  </div>
+                  <div style="width:2px;background:#d97706;border-radius:1px;align-self:stretch;opacity:.5;flex-shrink:0"></div>
+                  <div style="flex:1;background:#1a1000;border:1px solid #92400e;border-radius:6px;padding:10px 14px">
+                    <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#f59e0b;margin-bottom:6px">Beta 線 — 奇蹟覆寫</div>
+                    <div style="color:#fde68a;font-size:12.5px">晴香極端悲痛透過靈樹引爆創世能量，將現實強行覆寫為 Beta 線高魔世界。<br/><span style="display:block;margin-top:6px;opacity:.85">花子死因改為難產；美夜子以「冰封」形式被移除（92 年）。帝歷 79 年與 98 年的完整「回填歷史」同時長出。晴香的 Alpha 線記憶被剝離，具現化為潛意識人格「夕」。靈魂滲漏開始在世界各地出現。</span></div>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- 103年 → RIGHT -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7263,7 +7285,8 @@
             </div>
             <!-- 108年 → RIGHT -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7285,7 +7308,8 @@
             <!-- 113年 → RIGHT -->
             <div id="tl-113-start" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
               data-phase="forced-entry first-transform team-formation">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7312,7 +7336,8 @@
             <div id="tl-first-team-battle" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px"
               data-phase="team-formation link-pollution daily-crack">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7336,7 +7361,8 @@
             <div id="tl-emotion-residue" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px"
               data-phase="link-pollution daily-crack relationship-collapse">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7359,7 +7385,8 @@
             <div id="tl-shion-corpse-protection" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px"
               data-phase="shion-line corpse-system night-district">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7383,7 +7410,8 @@
             <div id="tl-shion-collapse" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px"
               data-phase="shion-fall corpse-system emotion-drug">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7406,7 +7434,8 @@
             <!-- 113–114年 → RIGHT -->
             <div id="tl-public-collapse" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7433,7 +7462,8 @@
             <!-- 114年春 → RIGHT -->
             <div id="tl-emotion-drug-crisis" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7453,7 +7483,8 @@
             <!-- 114年5月 → RIGHT -->
             <div id="tl-liberation-battle" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7473,7 +7504,8 @@
             <!-- 114年中 → RIGHT -->
             <div id="tl-sacrifice-truth" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7496,7 +7528,8 @@
             <!-- 114年末 → RIGHT -->
             <div id="tl-scarlet-tide-prologue" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7514,7 +7547,8 @@
             </div>
             <!-- 114–134年 守護期 → RIGHT -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
                 <div
@@ -7535,7 +7569,8 @@
             <!-- 134年 最終決戰 → RIGHT -->
             <div id="tl-final-battle" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:4px">
-              <div style="flex:1"></div>
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
               <div
                 style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:10px;flex-shrink:0">
                 <div
