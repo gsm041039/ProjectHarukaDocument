@@ -120,6 +120,80 @@
       padding-bottom: 80px
     }
 
+    /* ── Mobile nav toggle ── */
+    #nav-toggle {
+      display: none
+    }
+
+    #nav-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, .55);
+      z-index: 150;
+      backdrop-filter: blur(2px)
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        transform: translateX(-100%);
+        transition: transform .22s cubic-bezier(.4, 0, .2, 1);
+        z-index: 200
+      }
+
+      .sidebar.open {
+        transform: translateX(0)
+      }
+
+      .content {
+        margin-left: 0
+      }
+
+      #nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 300;
+        width: 40px;
+        height: 40px;
+        background: var(--sbg);
+        border: 1px solid rgba(196, 181, 253, .28);
+        border-radius: 9px;
+        cursor: pointer;
+        padding: 0
+      }
+
+      #nav-toggle .bar {
+        display: block;
+        width: 18px;
+        height: 2px;
+        background: #e9d5ff;
+        border-radius: 2px;
+        transition: all .2s
+      }
+
+      #nav-toggle.active .bar:nth-child(1) {
+        transform: translateY(7px) rotate(45deg)
+      }
+
+      #nav-toggle.active .bar:nth-child(2) {
+        opacity: 0
+      }
+
+      #nav-toggle.active .bar:nth-child(3) {
+        transform: translateY(-7px) rotate(-45deg)
+      }
+
+      #nav-overlay.show {
+        display: block
+      }
+    }
+
     .ci {
       max-width: 820px;
       margin: 0 auto;
@@ -3670,6 +3744,12 @@
 </head>
 
 <body>
+  <button id="nav-toggle" aria-label="開啟目錄">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+  <div id="nav-overlay"></div>
   <nav class="sidebar">
     <div class="sb-head">Story Brief</div><a class="sub" href="#reader-map">↳ 第一次閱讀地圖</a>
     <div class="sb-div"></div>
@@ -3683,6 +3763,7 @@
 
     <div class="sb-label">02 世界與系統</div>
     <a href="#world">世界觀速覽</a>
+    <a href="#world-mechanics">世界機制速覽</a>
     <a href="#laws">七個法則</a>
     <a href="#hidden-mechanisms">隱藏機制</a>
     <a href="#mahou">魔法少女設定</a>
@@ -4417,6 +4498,74 @@
               <p style="font-size:12.5px;color:var(--muted);margin-top:8px">完整角色名字對照表請見 <a href="#appendix-b"
                   style="color:var(--acc)">附錄 B</a>。</p>
             </article>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 世界機制速覽 -->
+        <section class="sec dashboard-heavy" id="world-mechanics">
+          <h2>世界機制速覽</h2>
+          <div class="subsection-grid">
+
+            <!-- 情緒社會的黑暗層 — 單張全寬 card -->
+            <article class="subcard" id="dark-layer" style="grid-column:1/-1">
+              <h3 style="margin-bottom:6px">情緒社會的黑暗層</h3>
+              <p style="font-size:13px;color:var(--muted);margin:0 0 16px">Beta 線情緒資本主義系統的四種陰影結構——在「Emo-Visor 文化」與「魔法少女英雄敘事」之下，它們共同構成這個世界真正的底層邏輯。</p>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+
+                <!-- 情緒美食家 -->
+                <div id="world-gourmets" style="border:1px solid rgba(180,83,9,.35);border-radius:10px;padding:14px 16px;background:rgba(180,83,9,.05)">
+                  <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:10px">
+                    <span style="display:inline-block;width:3px;height:14px;background:#b45309;border-radius:2px;flex-shrink:0;align-self:center"></span>
+                    <strong style="color:#fbbf24;font-size:13.5px">情緒美食家</strong>
+                    <span style="font-size:10.5px;color:var(--muted)">非法黑市頂層</span>
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.75;margin:0 0 10px">鄙視加工品，追求直接從活人身上品嚐的「Raw Emotion」——臨死前的走馬燈、初戀被背叛的確切瞬間。越不可複製，越珍貴。</p>
+                  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:6px;margin-bottom:10px">
+                    <div style="background:rgba(180,83,9,.1);border-radius:5px;padding:6px 8px;font-size:11.5px"><strong style="display:block;color:#fbbf24">品酒師</strong><span style="color:var(--muted)">首領・分叉舌頭</span></div>
+                    <div style="background:rgba(180,83,9,.1);border-radius:5px;padding:6px 8px;font-size:11.5px"><strong style="display:block;color:#fbbf24">收藏家</strong><span style="color:var(--muted)">情緒標本化</span></div>
+                    <div style="background:rgba(180,83,9,.1);border-radius:5px;padding:6px 8px;font-size:11.5px"><strong style="display:block;color:#fbbf24">護士長</strong><span style="color:var(--muted)">收割執行</span></div>
+                  </div>
+                  <div style="font-size:11.5px;color:var(--muted);border-top:1px solid rgba(180,83,9,.2);padding-top:8px"><strong style="color:#b45309">據點：糖果唐樓</strong> — 霓虹燈籠・笑臉面具・丹桂香掩屍臭</div>
+                </div>
+
+                <!-- 食罪者 -->
+                <div id="world-sin-eaters" style="border:1px solid rgba(87,83,78,.4);border-radius:10px;padding:14px 16px;background:rgba(87,83,78,.05)">
+                  <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:10px">
+                    <span style="display:inline-block;width:3px;height:14px;background:#78716c;border-radius:2px;flex-shrink:0;align-self:center"></span>
+                    <strong style="color:#d6d3d1;font-size:13.5px">食罪者</strong>
+                    <span style="font-size:10.5px;color:var(--muted)">夜區社區・自願犧牲者</span>
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.75;margin:0 0 10px">簽署自願契約，成為情緒廢料的活體過濾器。長期承受高濃度絕望後，皮膚變暗、關節石化，最終失去行動能力。名字記在社區「<strong style="color:#d6d3d1">守護者名錄</strong>」。</p>
+                  <div style="font-size:11.5px;color:var(--muted);background:rgba(0,0,0,.3);border-radius:5px;padding:8px 10px">晴香曾被食罪者虔誠道謝「感謝妳讓我感到被看見」——這句話後來被刑思用作逼供武器：「妳創造了需要被拯救的地獄。」</div>
+                </div>
+
+                <!-- 睡夢紡織工 -->
+                <div id="world-dream-weavers" style="border:1px solid rgba(30,64,175,.35);border-radius:10px;padding:14px 16px;background:rgba(30,64,175,.06)">
+                  <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:10px">
+                    <span style="display:inline-block;width:3px;height:14px;background:#3b82f6;border-radius:2px;flex-shrink:0;align-self:center"></span>
+                    <strong style="color:#bfdbfe;font-size:13.5px">睡夢紡織工</strong>
+                    <span style="font-size:10.5px;color:var(--muted)">帝國基礎設施・活體計算核心</span>
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.75;margin:0 0 10px">帝國設立「白房」，讓自願者以 REM 狀態長期維持 Beta 線世界的集體夢境運算。以「<strong style="color:#bfdbfe">幸福合約</strong>」包裝——夢裡過理想人生，現實中身體萎縮成<strong style="color:#bfdbfe">幸福空殼</strong>。</p>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:6px">
+                    <div style="background:rgba(30,64,175,.12);border-radius:5px;padding:7px 9px;font-size:11.5px"><strong style="display:block;color:#bfdbfe">夢境（主觀）</strong><span style="color:var(--muted)">永不醒來的理想人生</span></div>
+                    <div style="background:rgba(30,64,175,.06);border-radius:5px;padding:7px 9px;font-size:11.5px"><strong style="display:block;color:#93c5fd">白房（現實）</strong><span style="color:var(--muted)">身體萎縮，成為計算節點</span></div>
+                  </div>
+                </div>
+
+                <!-- 凡人反抗組織 -->
+                <div id="world-resistance" style="border:1px solid rgba(21,128,61,.35);border-radius:10px;padding:14px 16px;background:rgba(21,128,61,.05)">
+                  <div style="display:flex;align-items:baseline;gap:8px;margin-bottom:10px">
+                    <span style="display:inline-block;width:3px;height:14px;background:#16a34a;border-radius:2px;flex-shrink:0;align-self:center"></span>
+                    <strong style="color:#86efac;font-size:13.5px">凡人反抗組織</strong>
+                    <span style="font-size:10.5px;color:var(--muted)">地下組織・無魔法普通人</span>
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.75;margin:0 0 10px">由<a href="#c-saku" style="color:#86efac">白銀朔</a>與桐生健等人組成。沒有心之器，只有駭客技術與夜區少年網絡——暗中送出關鍵情報、滲透帝國系統、保護無力自衛的居民。</p>
+                  <div style="font-size:11.5px;color:var(--muted);background:rgba(21,128,61,.08);border-radius:5px;padding:8px 10px"><strong style="color:#86efac">桐生健</strong>：魔法屍骸事件後被晴香以一塊膠布救下，此後加入。他是「魔法以外，普通人仍能選擇」的活體證明。</div>
+                </div>
+
+              </div>
+            </article>
+
           </div>
         </section>
         <!-- ═══════════════════════════════════════════════ 世界如何運作 -->
@@ -8122,6 +8271,34 @@
       if (location.hash) {
         window.setTimeout(function () { flashAndScroll(location.hash) }, 250);
       }
+    })();
+  </script>
+  <script>
+    (function () {
+      var toggle = document.getElementById('nav-toggle');
+      var sidebar = document.querySelector('.sidebar');
+      var overlay = document.getElementById('nav-overlay');
+      function openNav() {
+        sidebar.classList.add('open');
+        overlay.classList.add('show');
+        toggle.classList.add('active');
+        toggle.setAttribute('aria-label', '關閉目錄');
+      }
+      function closeNav() {
+        sidebar.classList.remove('open');
+        overlay.classList.remove('show');
+        toggle.classList.remove('active');
+        toggle.setAttribute('aria-label', '開啟目錄');
+      }
+      toggle.addEventListener('click', function () {
+        sidebar.classList.contains('open') ? closeNav() : openNav();
+      });
+      overlay.addEventListener('click', closeNav);
+      sidebar.querySelectorAll('a').forEach(function (a) {
+        a.addEventListener('click', function () {
+          if (window.innerWidth <= 768) closeNav();
+        });
+      });
     })();
   </script>
 
