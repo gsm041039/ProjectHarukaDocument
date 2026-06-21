@@ -7,7 +7,12 @@
       "Bash(Select-String -Pattern \"WORLD|FACT\" -AllMatches)",
       "Bash(Get-ChildItem -Path \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\canon_fact_map\" -ErrorAction SilentlyContinue)",
       "Bash(Get-ChildItem \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\conflict_resolution\\\\\" -File | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime -Descending)",
-      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" diff --name-only)"
+      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" diff --name-only)",
+      "Bash(git -C \"c:\\\\Projects\\\\ProjectHarukaDocument\" remote -v)",
+      "Bash(gh repo *)",
+      "Bash(python3 -c ' *)",
+      "Bash(python3)",
+      "Bash(find c:\\\\\\\\Projects\\\\\\\\ProjectHarukaDocument\\\\\\\\backup -name \"*.md\" -type f)"
     ],
     "ask": [
       "Bash(git commit:*)",
