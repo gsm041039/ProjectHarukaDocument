@@ -441,12 +441,35 @@ Beta 線建立的曆法標準。
 
 ---
 
-### <a id="term-shackle-mark"></a>枷鎖紋（Shackle Mark）
-契約代價在身體上的可視化烙印。
+### <a id="term-gothic-spike"></a>哥德尖刺萌生（Gothic Spike Eruption）
+魔法少女超限使用魔法時，星空流體暗態從體內外顯的身體警報。
 
-多出現在關節、鎖骨、脊線等高壓能量路徑，平時是低可見暗紋，高輸出時會發亮、擴散，與[光環](#term-halo)節拍錯位。它不是裝飾，而是「代價正在發生」的身體提示層。當枷鎖紋與光環同時失穩，通常意味角色正接近高風險耗損閾值（判準見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）。
+高強度輸出導致星空流體由光態轉為暗態，壓力從心之器向外傳導，從皮膚裂口、關節縫隙、眼眶處直接萌生吸光黑色哥德式尖刺。初期只在高壓使用後短暫顯現，隨屍骸化進程持續擴張直至不可逆。
 
-**See also**: [Halo](#term-halo) | [Emotional Erosion](#term-emotional-erosion) | [World Rules](01_world_rules_and_costs.md#rule-magic-cost)
+嘔吐、黑色眼淚、哥德尖刺萌生係同一種變質星空流體的**三種排出途徑**——身體試圖將無法消化的能量從不同出口逼出：
+
+| 途徑 | 星空流體狀態 | 排出口 | 觸發階段 |
+|---|---|---|---|
+| 嘔吐 | 虛無態 | 口腔 | 生理排斥反噬期（中短期） |
+| 黑色眼淚 | 虛無態 | 眼部 | 情緒過載 / 詛咒觸發（中期） |
+| 哥德尖刺 | 暗態（更嚴重） | 皮膚 / 關節 / 眼眶 | 晚期屍骸化進程 |
+
+崩潰越深，尖刺越趨向絕對幾何對稱（個人性消失，趨向屍骸化秩序）。見 [黑色眼淚](#term-black-tears)。
+
+**See also**: [Halo](#term-halo) | [Emotional Erosion](#term-emotional-erosion) | [Physiological Rejection](01_world_rules_and_costs.md#rule-physiological-rejection) | [Black Tears](#term-black-tears) | [Visual Bible: Gothic Erosion](06_visual_bible.md#section-gothic-erosion)
+
+---
+
+### <a id="term-black-tears"></a>黑色眼淚（Black Tears）
+魔法少女情緒過載時，星空流體虛無態從眼部滲出的生理排出現象。
+
+與嘔吐同源（虛無態）——身體試圖將無法消化的集體潛意識能量從不同出口逼出。眼部排出的觸發條件與嘴部（嘔吐）略有不同：嘔吐主要在生理排斥反噬期出現（高強度使用後短期內）；黑色眼淚則更常與情緒視覺詛咒的觸發同步——眼睛已持續接收他人情緒輻射的過載，當負荷超限時，流體從同一開口滲出。
+
+液體特徵與生理排斥嘔出物一致：深藍紫色至黑色黏稠液體，無自發光（見 [星空流體](06_visual_bible.md#section-cosmic-fluid)虛無態）。與眼淚不同，不會蒸發，接觸後會短暫殘留他人情緒印痕。
+
+三種排出途徑見 [哥德尖刺萌生](#term-gothic-spike)。
+
+**See also**: [Gothic Spike Eruption](#term-gothic-spike) | [Physiological Rejection](01_world_rules_and_costs.md#rule-physiological-rejection) | [Emotional Visual Curse](01_world_rules_and_costs.md#rule-magic-cost)
 
 ---
 
