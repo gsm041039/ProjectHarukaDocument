@@ -3753,7 +3753,41 @@
         padding: 18px
       }
     }
-  </style>
+
+    /* ── Term tooltip ── */
+    a.term-link {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(167,139,250,.5);
+      position: relative;
+      cursor: help;
+    }
+    a.term-link::after {
+      content: attr(data-tip);
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #110a2e;
+      border: 1px solid rgba(124,58,237,.45);
+      color: #d4c8f0;
+      font-size: 11.5px;
+      line-height: 1.55;
+      padding: 7px 11px;
+      border-radius: 7px;
+      width: max-content;
+      max-width: 260px;
+      white-space: normal;
+      z-index: 9999;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity .18s;
+      font-weight: 400;
+      letter-spacing: 0;
+      text-align: left;
+    }
+    a.term-link:hover::after { opacity: 1; }
+</style>
 </head>
 
 <body>
@@ -3997,6 +4031,33 @@
             <p>以下係本作在敘事、視覺、情感節奏上最核心的設計決策——唔係偶然形成的風格，而係主動選擇的武器。每一條原則都決定了故事的某種特定殺傷力。</p>
           </div>
           <div class="subsection-grid">
+            <article class="subcard flow-medium" id="dissociation-weapon" style="border-left:4px solid #4b1c1c">
+              <h3>解離兵器：帝國人體兵器計劃</h3>
+              <p style="font-size:13px;line-height:1.8;margin:0 0 14px">解離兵器不是「失控的魔法少女」——是帝國主動製造出來的無意識殺戮工具。普通裝置魔法少女仍有選擇；解離兵器連選擇的資格，都在她們被抓到的那一刻已被剝奪。</p>
+              <div class="dual" style="margin-bottom:14px">
+                <div class="box box-dark" style="border-left:3px solid #7f1d1d">
+                  <h4 style="margin:0 0 8px">誰會成為解離兵器</h4>
+                  <ul style="margin:0;padding-left:18px;font-size:12.5px;line-height:2">
+                    <li><strong>無標記少女</strong>：未被晴香五歲原初願望波及的普通少女，靈魂沒有意識錨點。帝國心匣強行格式化時，意識直接被剝離——結果只有解離或死亡</li>
+                    <li><strong>有標記少女（被迫）</strong>：如凜——主動切除自身情感、選擇兵器化；或被黑奏強制進行靈魂分離</li>
+                    <li><strong>技術上限</strong>：帝國無法憑技術「製造」資質，只能從已有 Alpha 線因果連結的人身上強制提取。無連結者接受相同手段，結果只有死亡</li>
+                  </ul>
+                </div>
+                <div class="box box-dark" style="border-left:3px solid #7f1d1d">
+                  <h4 style="margin:0 0 8px">心防內化裝置：三層改造</h4>
+                  <ol style="margin:0;padding-left:18px;font-size:12.5px;line-height:2.1">
+                    <li><strong>心匣熔焊</strong>：暴力撬開並熔斷心匣，切斷主人格與肉體連結。持有者被永久鎖死在超頻狀態，再無退路</li>
+                    <li><strong>創傷反芻注射</strong>：與維多利亞之淚逆向連接，持續向大腦高頻注射原初創傷情緒，維持情緒輸出作燃料。大腦因此面臨無限反芻與自我崩潰</li>
+                    <li><strong>成癮性代償回饋</strong>（假甜膠囊）：唯有在戰鬥中造成傷害的瞬間，創傷反芻短暫中斷 0.5 秒，系統回饋極致快樂幻覺——令兵器形成「只有摧毀才能暫停痛苦」的病理成癮</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="box box-dark" style="border-left:3px solid #6b21a8;margin-bottom:14px">
+                <h4 style="margin:0 0 8px">Emo-Visor 與解離兵器的隱藏連結</h4>
+                <p style="margin:0;font-size:12.5px;line-height:1.8">帝國需要為解離兵器大腦持續抽走溢出的極限絕望數據，避免兵器因大腦內爆而報廢——這個過濾裝置就是 <a href="#world-drug">Emo-Visor 的軍方原型（流派 B）</a>。被抽走的絕望數據根據情緒守恆定律無法消滅，逆向稀釋後包裝成商業膠囊對外販售。市民從 Emo-Visor 感受到的「快樂」，原材料是解離兵器腦中的絕望廢料。</p>
+              </div>
+              <p style="font-size:12px;color:rgba(255,255,255,.4);font-style:italic;margin:0">主題意義：帝國把人類「逃避痛苦」的本能，工業化改裝成不可撤除的暴力驅動器。解離兵器並非因為恨怪物而戰鬥，而是因為唯有在摧毀的瞬間，大腦的創傷反芻才會被強制暫停。</p>
+            </article>
             <article class="subcard flow-long" style="border-left:4px solid #db2777">
               <h3>觀眾情緒體驗曲線（五步）——甜是武器，唔係裝飾</h3>
               <div style="display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:0 0 18px">
@@ -4177,7 +4238,7 @@
                         <tr>
                           <td><strong>菲 17 歲</strong></td>
                           <td>嘗試「修正」世界，讓死者復活</td>
-                          <td>短暫成功——Alpha 線裡花子仍在廚房、美夜子仍在客廳。但菲發現牠們「像重複的錄音」，身體對花子仍本能戒備，內心的空洞填不上。她之後主動還原返 Beta 線，卻造成時間線裂痕與緋潮爆發；晴香意識因此被困集體潛意識 20 年</td>
+                          <td>改寫成功，進入一條新時間線（類 Alpha，非原始 Alpha 線）——花子仍在廚房、美夜子仍在客廳。但菲發現她們「像重複的錄音」，內心的空洞填不上。她嘗試改回 Beta 線，卻製造出另一條新時間線（非原始 Beta 線）——被破壞的現實無法還原做原樣，造成時間線裂痕與緋潮爆發；晴香意識因此被困集體潛意識 20 年</td>
                         </tr>
                       </tbody>
                     </table>
@@ -4459,8 +4520,8 @@
                   <h3>魔法屍骸</h3>
                   <p style="margin-bottom:14px">情緒被榨乾、內心完全碎掉之後，人會變成這個。牠們不是野獸——裡面仍然有靈魂殘骸，仍然感受得到痛。外殼是哀痛固化後長出的黑鐵結構，裡面那個核心，是還沒完全消失的人。</p>
                   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px">
-                    <img src="art/ConceptArt/Characters/MagicCorpse/MagicCorpse_Doll.png" alt="魔法屍骸：人偶型" style="width:100%;border-radius:6px;display:block"/>
-                    <img src="art/ConceptArt/Characters/MagicCorpse/MagicCorpse_Scrap.png" alt="魔法屍骸：廢鐵型" style="width:100%;border-radius:6px;display:block"/>
+                    <img src="art/ConceptArt/Characters/MagicCorpse/ConceptArt_MagicCorpse_Doll_Action.png" alt="魔法屍骸：人偶型" style="width:100%;border-radius:6px;display:block"/>
+                    <img src="art/ConceptArt/Characters/MagicCorpse/ConceptArt_MagicCorpse_Scrap_Action.png" alt="魔法屍骸：廢鐵型" style="width:100%;border-radius:6px;display:block"/>
                   </div>
                   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
                     <div>
@@ -5080,8 +5141,11 @@
                     <div><b>源</b><span>力量不是被裝置硬借，而是透過面對創傷、整合自我而生長。</span></div>
                     <div><b>識</b><span>保有自我意識，能選擇、能拒絕、能承擔代價；不被帝國裝置監控或收割。</span></div>
                     <div><b>例</b><span>後期的<a
-                          href="#c-haruka">晴香</a>：停止逃避創傷，自願整合痛苦，成為真正自主的魔法少女。其他角色在故事進程中都未曾達到此狀態。</span></div>
+                          href="#c-haruka">晴香</a>：停止逃避創傷，自願整合痛苦，成為真正自主的魔法少女。菲改變現實後，<a href="#c-airi">愛莉</a>在那條時間線裡亦以此形態覺醒。其他角色在故事進程中都未曾達到此狀態。</span></div>
                   </div>
+                  <img src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png"
+                    alt="愛莉 魔法少女形態" style="width:100%;border-radius:6px;display:block;margin-top:10px" />
+                  <p style="font-size:10px;color:rgba(255,255,255,.3);margin:3px 0 0;text-align:center">愛莉 · 真正魔法少女形態</p>
                 </div>
                 <div class="lane device">
                   <div class="lane-head"><span>裝置魔法少女</span><small>Marked Soul + 帝國心匣</small></div>
@@ -5092,6 +5156,9 @@
                     <div><b>例</b><span><a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a
                           href="#c-sou">操</a>等：故事全程都屬於此路線。仍有表面上的選擇，但實質上被帝國系統囚禁與消耗。</span></div>
                   </div>
+                  <img src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png"
+                    alt="操 魔法少女形態" style="width:100%;border-radius:6px;display:block;margin-top:10px" />
+                  <p style="font-size:10px;color:rgba(255,255,255,.3);margin:3px 0 0;text-align:center">操 · 裝置魔法少女形態</p>
                 </div>
                 <div class="lane failed">
                   <div class="lane-head"><span>解離兵器</span><small>靈魂分離 / 無意識戰爭機器</small></div>
@@ -5102,6 +5169,9 @@
                     <div><b>例</b><span>後期的<a href="#c-rin">凜</a>（主動切除一切情感成為純粹殺戮機器）、<a
                           href="#c-akiho">秋穗/無臉執行官</a>（被刑思改造成的無意識離解兵器——消除五官、剝奪自我意識，保留對愛莉的執念驅動但遺忘執念對象）。</span></div>
                   </div>
+                  <img src="art/ConceptArt/Characters/MagicCorpse/ConceptArt_MagicalGirlWeapon.png"
+                    alt="解離兵器 武器概念" style="width:100%;border-radius:6px;display:block;margin-top:10px" />
+                  <p style="font-size:10px;color:rgba(255,255,255,.3);margin:3px 0 0;text-align:center">武器概念圖</p>
                 </div>
               </div>
               <details class="full-text">
@@ -5183,7 +5253,7 @@
                       <td style="padding:10px 14px;font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap">篩選方式</td>
                       <td style="padding:10px 14px">帝國大數據鎖定具有特定心理創傷的少女 → 將裝置「遺棄」在她們必定路過的地方（偽命運）</td>
                       <td style="padding:10px 14px">軍方直接目標獲取：美夜子死後被秋穗重啟；凜透過潘朵拉協議（帝國對魔法定時炸彈的工業處理流程）</td>
-                      <td style="padding:10px 14px">「結果論」走到極端，自我消解為純粹執行工具</td>
+                      <td style="padding:10px 14px">無標記少女：剛好不在晴香五歲願望的影響範圍內，被強制捉去改造。沒有命運、沒有選中——只有「剛好被抓到」</td>
                     </tr>
                     <tr style="border-bottom:1px solid var(--border)">
                       <td style="padding:10px 14px;font-weight:700;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);white-space:nowrap">入門方式</td>
@@ -5221,19 +5291,7 @@
               <h3>裝置路線：力量的旁路</h3>
               <p style="font-size:13.5px;line-height:1.8;margin-bottom:16px">裝置的本質是「靈魂的旁路手術工具」——它<em>繞過</em>少女真正面對創傷的過程，把痛苦切割出去直接換取力量。少女並沒有整合創傷，只是把它切除了。力量是真的，但代價在身後一路追。</p>
               <p style="font-size:13px;margin-bottom:16px;color:var(--text-muted)"><strong>資格釐清：</strong>裝置只能在已被晴香願望標記的少女身上啟動。無標記少女被強行改造，走向的是解離兵器或死亡，而不是裝置魔法少女。</p>
-              <div class="dual">
-                <div class="box box-light">
-                  <h4>自然覺醒 <span class="tag">需標記＋拒絕裝置</span></h4>
-                  <p style="margin:0;font-size:13px">透過「鏡中的承諾」真正面對並整合創傷，力量從真實自我中生長。心匣裂痕以金繼修復——裂縫本身成為光源。<strong>故事中只有後期的<a href="#c-haruka">晴香</a>達到此狀態。</strong></p>
-                </div>
-                <div class="box box-red">
-                  <h4>裝置強制 <span class="tag">需標記＋帝國心匣</span></h4>
-                  <p style="margin:0;font-size:13px">帝國心匣從裂痕強行收割情緒結晶。裂痕被灰色焊痕補住——每次使用後繼續擴大，直到燃盡。<strong><a href="#c-rin">凜</a>、<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>等角色全程屬此類。</strong></p>
-                </div>
-              </div>
-              <blockquote style="margin-top:14px">
-                <p>菲對此一針見血：「妳又要穿上這層假皮去逃避了嗎？」</p>
-              </blockquote>
+              
             </article>
             <article class="subcard flow-long" style="border-left:4px solid #db2777">
               <h3>變身體驗：被越界，唔係英雄 <span style="font-size:10px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#db2777;background:rgba(219,39,119,.12);padding:2px 7px;border-radius:4px;vertical-align:middle">導演設計意圖</span></h3>
@@ -5242,12 +5300,16 @@
                 <div style="padding:16px 18px;background:#1a1425;border-right:1px solid var(--border)">
                   <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:8px">① 諧振的狂喜</div>
                   <p style="font-size:13px;line-height:1.75;margin:0 0 10px;color:#d1d5db">首次高強度接入集體潛意識時產生的<strong>短暫極樂狀態</strong>。常被誤認為「力量覺醒的獎勵」。</p>
-                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:var(--muted)">演出語法：身體違背意志的反應——角色感到快感，但同時知道這不是自己選擇的。咬牙、迴避視線、快感中帶羞恥的眼神。</p>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0 0 10px;color:var(--muted)">演出語法：身體違背意志的反應——角色感到快感，但同時知道這不是自己選擇的。咬牙、迴避視線、快感中帶羞恥的眼神。</p>
+                  <img src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl_Action.png"
+                    alt="紫音 魔法少女動作" style="width:100%;border-radius:6px;display:block" />
                 </div>
                 <div style="padding:16px 18px;background:#1e0e2e;border-right:1px solid var(--border)">
                   <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:8px">② 生理排斥</div>
                   <p style="font-size:13px;line-height:1.75;margin:0 0 10px;color:#d1d5db">快感退去後的<strong>嘔吐、顫抖與感官錯位</strong>——不是「代價」，而是「身體知道自己被弄髒了」。</p>
-                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:var(--muted)">演出語法：跪地、抱膝、強迫擦洗、不願讓人靠近。<strong>禁止悲壯化處理</strong>。正確基調：骯髒、失控、想躲起來，而非犧牲的崇高。</p>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0 0 10px;color:var(--muted)">演出語法：跪地、抱膝、強迫擦洗、不願讓人靠近。<strong>禁止悲壯化處理</strong>。正確基調：骯髒、失控、想躲起來，而非犧牲的崇高。</p>
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Vomit.png"
+                    alt="生理排斥場景" style="width:100%;border-radius:6px;display:block" />
                 </div>
                 <div style="padding:16px 18px;background:#1e0d2a">
                   <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:8px">③ 被觀看的悖論</div>
@@ -7204,7 +7266,7 @@
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div>
                 </div>
                 <div class="story-node"><strong>2.
-                    菲奪身重置</strong><span>菲強行奪取晴香身體，企圖再次重置世界洗清罪孽——但她所用的情緒能量仍源自逃避，而非承擔，令守恆機制立即反噬，現實裂得更深。</span>
+                    菲奪身重置</strong><span>菲強行奪取晴香身體，改寫現實進入一條新時間線（類 Alpha 線）。她在那裡發現即使死者復活，內心的空洞仍然存在；嘗試改回 Beta 線時，卻造出另一條全新時間線——被破壞的現實無法還原，留下永恆裂痕。</span>
                   <div class="node-chars"><a class="char-tag" data-char="fei" href="#c-fei">菲</a><a class="char-tag"
                       data-char="haruka" href="#c-haruka">晴香</a></div>
                 </div>
@@ -8592,6 +8654,90 @@
         });
       });
     })();
+  </script>
+
+  <script>
+  (function(){
+    var TERMS = [
+      { t: '情緒管理局', tip: '帝國的情緒監控機構，負責清除「奇蹟反應」及管制魔法少女活動。民間視為威脅，對魔法少女而言是絕對的敵人。', href: '#world' },
+      { t: 'Emo-Visor', tip: 'VR 眼罩式裝置，插入安普膠囊後讓使用者看到「被美顏過的世界」——現實的破敗變成童話場景。膠囊只維持 30 分鐘，用完後突然跌回現實。長期代價是大腦失去自發感受真實情緒的能力。', href: '#world-drug' },
+      { t: '維多利亞之淚', tip: '帝國官方說法：「無限潔淨能源人造太陽」。實際真相：全城情緒抽水泵——強行抽取日區所有負面情緒，壓入夜區地底；同時即時監控全城情緒數據，任何激烈波動都觸發管理局鎮壓。日區的「快樂」，由夜區替他們承擔。', href: '#world-victoria' },
+      { t: '維多利亞天使', tip: '帝國情緒管理局的精英執法部隊，外表如天使，實為鎮壓魔法少女的武力機器。', href: '#world' },
+      { t: '魔法少女', tip: '能夠變身成具有超自然戰鬥力的少女——但代價是把自己最深的創傷切割出去當燃料。她的力量越強，她就越快失去「自己是誰」。', href: '#mahou' },
+      { t: '魔法屍骸', tip: '情感耗盡後靈魂仍在、但被單一負面情緒佔據、無法選擇的存在。曾經都是人。', href: '#world-corpse' },
+      { t: '心之器', tip: '一個人靈魂最深處的核心，包含最根本的信念、恐懼與渴望。受損則開始失去定義自己的能力。', href: '#law-vessel' },
+      { t: '集體潛意識', tip: '全人類共享的情緒海洋，所有魔法能力、情緒結晶、情緒病毒都從這裡流出。Beta 線世界建立在這個情緒層之上。', href: '#law-collective' },
+      { t: '情緒守恆定律', tip: '痛苦不能被消除，只能被轉移。任何「幫助他人」的魔法最終都有代價。', href: '#law-conservation' },
+      { t: '緋潮', tip: '當集體潛意識中積累的情緒廢料超過臨界點，現實強制「清算」。以紅色洪流的方式爆發，不分善惡。', href: '#law-tide' },
+      { t: '奇蹟', tip: '用強烈情緒力量強行改寫現實的行為。三條硬限制：不能復活死者、因果債必須歸還、不能覆寫原始情感記憶。', href: '#world-miracle' },
+      { t: '情緒結晶', tip: '高度壓縮的情緒物質，可作魔法資源或武器。從心之器裂縫收割而來。', href: '#mahou' },
+      { t: '情緒病毒', tip: '可傳染的扭曲情緒體，接觸後會破壞心之器。', href: '#law-collective' },
+      { t: 'Alpha 線', tip: '故事開始前的原始時間線，晴香改寫現實前的世界。', href: '#world' },
+      { t: 'Beta 線', tip: '晴香五歲改寫現實後創造的世界，也就是整個故事的舞台。', href: '#world' },
+      { t: '鏡像法則', tip: '鏡子是唯一不受 Beta 覆寫影響的物質，能回傳未被修飾的底層真實。', href: '#law-mirror' },
+      { t: '金魚雷達', tip: '晴香家的金魚因被捲入創世奇蹟，天生對緋潮頻率極度敏感。集體翻肚＝危險預警。', href: '#game-combat' },
+      { t: '晴香', tip: '主角。表面是16歲的偶像歌手學生；真相是這整個世界的創造者——5歲時因目睹家人死亡情緒崩潰，無意間改寫了現實。', href: '#c-haruka' },
+      { t: '菲', tip: '晴香的陰影人格，從5歲的創傷記憶中誕生，外表停留在五歲。她承載了晴香無法面對的黑暗面。', href: '#c-fei' },
+      { t: '美夜子', tip: '晴香的姊姊。真實年齡38歲，但外表是18歲少女。原本已死，因晴香5歲改寫現實而繼續活著。', href: '#c-miyako' },
+      { t: '紫音', tip: '晴香的摯友，17歲。看似陽光積極，真相隱藏著主線最沉重的悲劇之一。', href: '#c-akane' },
+      { t: '操', tip: '16歲少女，晴香的隊友。唯一使用真名的角色。', href: '#c-sou' },
+      { t: '凜', tip: '晴香的隊友，戰鬥力極強。隱藏著與制度和家族相關的沉重秘密。', href: '#c-rin' },
+      { t: '秋穗', tip: 'Emo-Visor 的發明者，茶餐廳老闆娘（偽裝），43歲。對自己的發明正在折磨誰毫不知情。', href: '#c-akiho' },
+      { t: '花子', tip: '晴香與美夜子的母親，秋穗的雙胞胎妹妹。已故。她的死是整個故事的起點。', href: '#c-hanako' },
+      { t: '愛莉', tip: '17歲少女，被黑奏利用為「情緒廢料活體垃圾桶」——每天吞下全城人被 Emo-Visor 過濾掉的痛苦。', href: '#c-airi' },
+      { t: '朔', tip: '36歲，真實名字莫浩然。晴香的支持者，隱藏著與帝國的複雜關係。', href: '#c-saku' },
+      { t: '語彩', tip: '雙重人格，與反派刑思共用同一身體。外表是轉校少女，真實年齡40歲，靈魂幼年分裂導致身體發育停滯。', href: '#c-keishi' },
+      { t: '刑思', tip: '語彩的另一人格，也是故事主要反派。計劃建立「痛楚公有化」的世界，讓所有人強制共享彼此的痛苦。', href: '#c-keishi' }
+    ];
+
+    TERMS.sort(function(a,b){ return b.t.length - a.t.length; });
+
+    var SKIP_TAGS = new Set(['A','SCRIPT','STYLE','H1','H2','H3','H4','H5','H6','ABBR','CODE','PRE','BUTTON','SUMMARY','TH']);
+
+    function isInsideSkip(node) {
+      var p = node.parentNode;
+      while (p && p !== document.body) {
+        if (SKIP_TAGS.has(p.tagName)) return true;
+        if (p.classList && p.classList.contains('term-link')) return true;
+        p = p.parentNode;
+      },
+      { t: '解離兵器', tip: '意識被強行剝離的無意識殺戮工具——不是失控的魔法少女，而是帝國主動製造的。大腦被永久鎖在反芻原初創傷的閉環，唯有摧毀的瞬間才能暫停 0.5 秒。', href: '#dissociation-weapon' }
+      return false;
+    }
+
+    function annotateNode(node) {
+      for (var i = 0; i < TERMS.length; i++) {
+        var entry = TERMS[i];
+        var txt = node.nodeValue;
+        var idx = txt.indexOf(entry.t);
+        if (idx === -1) continue;
+        if (isInsideSkip(node)) return;
+        var before = document.createTextNode(txt.slice(0, idx));
+        var after  = document.createTextNode(txt.slice(idx + entry.t.length));
+        var a = document.createElement('a');
+        a.className = 'term-link';
+        a.href = entry.href;
+        a.setAttribute('data-tip', entry.tip);
+        a.textContent = entry.t;
+        var parent = node.parentNode;
+        parent.insertBefore(before, node);
+        parent.insertBefore(a, node);
+        parent.insertBefore(after, node);
+        parent.removeChild(node);
+        // Continue scanning the after node
+        annotateNode(after);
+        return;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', function(){
+      var walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT, null, false);
+      var nodes = [];
+      var n;
+      while((n = walker.nextNode())) nodes.push(n);
+      nodes.forEach(annotateNode);
+    });
+  })();
   </script>
 
 </body>
