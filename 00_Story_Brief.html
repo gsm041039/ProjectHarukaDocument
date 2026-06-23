@@ -4705,7 +4705,8 @@
                 <article class="subcard" id="world-corpse" style="grid-column:1/-1">
                   <h3>魔法屍骸</h3>
                   <p style="margin-bottom:14px">
-                    情緒被榨乾、內心完全碎掉之後，人會變成這個。牠們不是野獸——裡面仍然有靈魂殘骸，仍然感受得到痛。外殼是哀痛固化後長出的黑鐵結構，裡面那個核心，是還沒完全消失的人。</p>
+                    每個人的靈魂深處都有一個「心之器」——靈魂的核心結構，由童年創傷與最根本的信念鑄成，決定靈魂對肉體的控制力。心之器完整，人就是人；心之器碎裂，人就變成魔法屍骸。<br><br>
+                    魔法屍骸不是另一個物種——牠們曾經是人。心之器碎裂那一刻，靈魂最後的執念碎片嵌入肉體成為鎖鏈，把靈魂永久困住；外殼是哀痛固化後長出的黑鐵結構，但裡面那個核心，仍然感受得到痛。</p>
                   <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px">
                     <img src="art/ConceptArt/Characters/MagicCorpse/ConceptArt_MagicCorpse_Doll_Action.png"
                       alt="魔法屍骸：人偶型" style="width:100%;border-radius:6px;display:block" />
@@ -6632,6 +6633,10 @@
                   <div class="char-img-cap">日常服</div>
                 </div>
                 <div class="char-img-item">
+                  <img alt="凜 情緒管理局" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_TheAdministrationBureau.png" />
+                  <div class="char-img-cap">情緒管理局</div>
+                </div>
+                <div class="char-img-item">
                   <img alt="凜 魔法少女服 1" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png" />
                   <div class="char-img-cap">魔法少女服 1</div>
                 </div>
@@ -6857,6 +6862,10 @@
                 <div class="char-img-item">
                   <img alt="愛莉 日常服" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_CasualWear.png" />
                   <div class="char-img-cap">日常服</div>
+                </div>
+                <div class="char-img-item">
+                  <img alt="愛莉 石像" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_Crystal.png" />
+                  <div class="char-img-cap">石像</div>
                 </div>
                 <div class="char-img-item">
                   <img alt="愛莉 魔法少女服（聖女騎士）" src="art/ConceptArt/Characters/Aeri/ConceptArt_Aeri_MagicalGirl.png" />
@@ -9211,6 +9220,7 @@
   <script>
     (function () {
       var TERMS = [
+        { t: '心之器', tip: '每個人靈魂最深處的核心結構，由童年創傷與最根本的信念鑄成。心之器決定靈魂對肉體的控制力——它完整，人就是人；它碎裂，人就變成魔法屍骸。', href: '#law-vessel' },
         { t: '情緒管理局', tip: '帝國的情緒監控機構，負責清除「奇蹟反應」及管制魔法少女活動。民間視為威脅，對魔法少女而言是絕對的敵人。', href: '#world' },
         { t: 'Emo-Visor', tip: 'VR 眼罩式裝置，插入安普膠囊後讓使用者看到「被美顏過的世界」——現實的破敗變成童話場景。膠囊只維持 30 分鐘，用完後突然跌回現實。長期代價是大腦失去自發感受真實情緒的能力。', href: '#world-drug' },
         { t: '維多利亞之淚', tip: '帝國官方說法：「無限潔淨能源人造太陽」。實際真相：全城情緒抽水泵——強行抽取日區所有負面情緒，壓入夜區地底；同時即時監控全城情緒數據，任何激烈波動都觸發管理局鎮壓。日區的「快樂」，由夜區替他們承擔。', href: '#world-victoria' },
@@ -9239,7 +9249,8 @@
         { t: '愛莉', tip: '17歲少女，被黑奏利用為「情緒廢料活體垃圾桶」——每天吞下全城人被 Emo-Visor 過濾掉的痛苦。', href: '#c-airi' },
         { t: '朔', tip: '36歲，真實名字莫浩然。晴香的支持者，隱藏著與帝國的複雜關係。', href: '#c-saku' },
         { t: '語彩', tip: '雙重人格，與反派刑思共用同一身體。外表是轉校少女，真實年齡40歲，靈魂幼年分裂導致身體發育停滯。', href: '#c-keishi' },
-        { t: '刑思', tip: '語彩的另一人格，也是故事主要反派。計劃建立「痛楚公有化」的世界，讓所有人強制共享彼此的痛苦。', href: '#c-keishi' }
+        { t: '刑思', tip: '語彩的另一人格，也是故事主要反派。計劃建立「痛楚公有化」的世界，讓所有人強制共享彼此的痛苦。', href: '#c-keishi' },
+        { t: '解離兵器', tip: '意識被強行剝離的無意識殺戮工具——不是失控的魔法少女，而是帝國主動製造的。大腦被永久鎖在反芻原初創傷的閉環，唯有摧毀的瞬間才能暫停 0.5 秒。', href: '#dissociation-weapon' }
       ];
 
       TERMS.sort(function (a, b) { return b.t.length - a.t.length; });
@@ -9252,8 +9263,7 @@
           if (SKIP_TAGS.has(p.tagName)) return true;
           if (p.classList && p.classList.contains('term-link')) return true;
           p = p.parentNode;
-        },
-        { t: '解離兵器', tip: '意識被強行剝離的無意識殺戮工具——不是失控的魔法少女，而是帝國主動製造的。大腦被永久鎖在反芻原初創傷的閉環，唯有摧毀的瞬間才能暫停 0.5 秒。', href: '#dissociation-weapon' }
+        }
         return false;
       }
 
