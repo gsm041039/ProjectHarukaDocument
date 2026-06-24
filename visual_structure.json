@@ -1,0 +1,552 @@
+{
+  "project": "Project Haruka",
+  "extraction_date": "2026-06-24",
+  "purpose": "6 Concept Art Visual Resource Inventory",
+
+  "characters": {
+    "haruka": {
+      "name": "晴香 (Amemiya Haruka)",
+      "age": "16",
+      "role": "主角",
+      "forms": [
+        {
+          "name": "日常/偶像私服形態",
+          "theme": "金魚旗少女",
+          "height": "154cm",
+          "body_type": "梨形 (Pear Shape)",
+          "hair": {
+            "color": "櫻花粉 + 青色挑染",
+            "style": "頭頂呆毛 + 雙辮（金魚旗輪廓）"
+          },
+          "clothing": {
+            "top": "棒球外jacket + 青色心形T-shirt",
+            "bottom": "熱褲",
+            "colors": "粉紅+白+青綠魚尾色+金色"
+          },
+          "accessories": [
+            "掛頸式大耳機",
+            "雙面盒墜項鍊（母親遺物）",
+            "斜背包",
+            "金魚造型掛飾",
+            "專用膠布袋"
+          ],
+          "core_symbol": "金魚與魚旗"
+        },
+        {
+          "name": "魔法少女形態",
+          "theme": "公主 + 女武神 + 拳擊手",
+          "main_colors": ["粉紅", "白", "深紫", "金色"],
+          "key_features": [
+            "皇冠（公主象徵）",
+            "拳擊腰帶（重心橫向鎖定）",
+            "拳擊手套（主動回擊）"
+          ],
+          "motif": "愛心放射花紋",
+          "back_design": "大蝴蝶結 + 垂落心形吊飾",
+          "character_shape": "向外打開的X shape"
+        },
+        {
+          "name": "第四幕形態",
+          "theme": "靜止搖籃",
+          "hair_color": "純白",
+          "eyes": "極淡灰白瞳孔，近乎透明",
+          "features": "融合夕的黑色元素，空殼感+神性並存"
+        }
+      ],
+      "visual_arc": [
+        {
+          "act": "I",
+          "hair": "粉色髮，青色挑染，呆毛雙辮保持",
+          "eyes": "動漫大眼，高光明顯",
+          "saturation": "100%",
+          "mood": "金魚/魚旗，王道少女漫風格"
+        },
+        {
+          "act": "II",
+          "hair": "髮色逐漸暗淡",
+          "eyes": "玻璃珠死魚眼，高光消失",
+          "features": "龜裂紋章初現",
+          "mood": "偽王道褪去，暗示出現"
+        },
+        {
+          "act": "III",
+          "hair": "碎剪Wolf Cut，凌亂帶刺",
+          "eyes": "瞳孔深處破碎星星圖案",
+          "features": "魔法服破損，身體結晶化",
+          "mood": "創世者標記浮現"
+        },
+        {
+          "act": "IV",
+          "hair": "純白髮",
+          "eyes": "極淡灰白瞳孔",
+          "features": "融合夕的黑色元素",
+          "mood": "空殼感+神性並存"
+        }
+      ]
+    },
+
+    "rin": {
+      "name": "凜 (Ayase Rin)",
+      "age": "16",
+      "height": "165cm",
+      "death_year": "108",
+      "core_theme": "被困的金絲雀",
+      "forms": [
+        {
+          "name": "常服形態",
+          "theme": "會唱歌但被困住的金絲雀",
+          "outfit": {
+            "outer": "短身連帽外套（全黑/深灰）+ 鴨嘴帽",
+            "hat_detail": "帽簷下極幼淡黃邊線",
+            "skirt": "深炭黑百摺裙，摺面內側淡黃羽片形wedge",
+            "neckline": "高領打底衫遮住脖子紅線"
+          },
+          "color_palette": "黑+灰+隱藏黃色",
+          "visual_meaning": "明星被迫隱藏自己的日常版本"
+        },
+        {
+          "name": "魔法少女形態一",
+          "theme": "孔雀 + 飛行員",
+          "main_colors": ["孔雀綠", "金", "粉紅", "白"],
+          "features": [
+            "背上翼與飛行員外套改造成X shape",
+            "靴上白色毛毛（飛行員主題）"
+          ],
+          "character_shape": "外開X shape → 開朗、自信、起飛"
+        },
+        {
+          "name": "魔法少女形態二",
+          "theme": "痛苦的化身 + 烏鴉",
+          "main_colors": ["黑", "深綠", "金屬扣", "血紅"],
+          "core_visual": "C型金屬扣插入肉身，連接鐵鏈",
+          "outfit": [
+            "長手套",
+            "露背",
+            "破絲襪",
+            "高跟鞋"
+          ],
+          "neckline_detail": "高領/飾帶遮住快要掉下來的頭部",
+          "shoulder": "毛毛代表烏鴉羽毛",
+          "character_shape": "倒V → 心理狀態差、收縮、自我保護"
+        }
+      ],
+      "key_visual_clues": {
+        "neck_red_line": "頭顱被縫回去的痕跡 - 全角色最重要的Visual Clue",
+        "smile_arc": "整個故事中以肉眼幾乎無法察覺的量微量上升",
+        "mirror_reflection": "走過反光面時，鏡中映照頸椎斷裂死亡瞬間"
+      }
+    },
+
+    "miyako": {
+      "name": "美夜子 (Miyako)",
+      "original_age": "26",
+      "frozen_years": "11 (92-103)",
+      "story_age": "16",
+      "forms": [
+        {
+          "name": "黑貓形態",
+          "theme": "執念與保護慾的具現化",
+          "appearance": "完全黑色小貓",
+          "eyes": "仍保有人類的理性與悲傷",
+          "duration": "帝國歷92-103年（11年）"
+        },
+        {
+          "name": "人形回流狀態",
+          "trigger": "高壓連鎖事件後",
+          "process": "貓殼逐漸碎裂 → 人形浮現 → 完全回流"
+        }
+      ]
+    },
+
+    "saku": {
+      "name": "朔 (Saku)",
+      "age": "36",
+      "height": "183cm",
+      "body_type": "倒三角形，獵豹般精瘦爆發力",
+      "core_theme": "分裂 → 融合 → 解放",
+      "forms": [
+        {
+          "name": "日間形態",
+          "identity": "情緒管理局特工",
+          "outfit": {
+            "suit": "純白緊身西裝",
+            "tie": "鮮紅領帶",
+            "special_meaning": "象徵『局的殘酷』，如同血跡落在純白上"
+          },
+          "character_trait": "完美對稱，一絲不苟",
+          "rebellion_element": "金色小辮子（唯一打破對稱的元素）",
+          "weapon": "高科技伸縮警棍"
+        },
+        {
+          "name": "夜晚形態",
+          "identity": "屍骸獵人",
+          "outfit": {
+            "style": "藏族/少數民族風格獵裝",
+            "color": "綠松石藍色調",
+            "features": [
+              "單肩披風",
+              "腰間編織繩結",
+              "骨制護身符"
+            ]
+          },
+          "character_trait": "極度不對稱",
+          "weapon": {
+            "type": "改裝十字弓",
+            "materials": "古舊木材（傳統工藝）+ 發光情緒能量裝置（帝國技術）",
+            "ammunition": "以情緒能量凝縮的光箭",
+            "meaning": "新舊技術拼接 → 象徵朔本人的撕扯"
+          }
+        }
+      ],
+      "visual_arc": [
+        {
+          "act": "I",
+          "state": "兩套形態涇渭分明",
+          "meaning": "雙面生活穩定運作"
+        },
+        {
+          "act": "II",
+          "state": "日間形態開始出現夜間元素",
+          "meaning": "內心分裂加劇"
+        },
+        {
+          "act": "III",
+          "state": "兩套形態融合",
+          "outfit": "白色獵裝 + 綠松石飾品",
+          "meaning": "解放者身份確立"
+        },
+        {
+          "act": "IV",
+          "state": "放棄制服",
+          "outfit": "穿回夜區傳統服飾",
+          "meaning": "回歸真實自我"
+        }
+      ],
+      "key_accessory": {
+        "item": "月亮形耳環",
+        "meaning": "與美夜子的星型髮夾成對『星月相隨』",
+        "significance": "美夜子生死不明後，朔再也沒有摘下"
+      }
+    },
+
+    "akiho": {
+      "name": "秋穗 (Shinonome Akiho)",
+      "age": "40s",
+      "height": "172cm",
+      "body_type": "豐滿沙漏型 - 壓縮型權威感",
+      "core_theme": "偽裝 → 揭露 → 救贖",
+      "forms": [
+        {
+          "name": "日常形態",
+          "identity": "港式茶記老闆娘",
+          "hair": {
+            "color": "深紫色",
+            "style": "鬆散紮起，大鯊魚夾隨意夾住",
+            "meaning": "忙到無時間打理的感覺"
+          },
+          "eyes": {
+            "style": "半垂眼，上眼瞼壓住虹膜上半",
+            "iris": "外圈深葡萄紫 → 中層玫紫到粉紫漸層 → 內圈淡粉白",
+            "pupils": "偏細，高光克制",
+            "gaze": "視線習慣落半格，只有講到愛莉或實驗結果時才直視人"
+          },
+          "outfit": {
+            "top": "黑/深藍/深灰 T-shirt + 短身薄外套",
+            "bottom": "深色直筒工裝褲 + 黑色防滑便鞋",
+            "accessories": "毛巾掛肩，腰間鑰匙圈/開瓶器"
+          },
+          "scientist_hints": [
+            "筆夾的極細刻度紋",
+            "標籤貼（看似茶記單據，實為研究標記）",
+            "右手中指/食指的墨跡",
+            "手腕黑繩/細金屬圈（工具圈，非珠寶）"
+          ]
+        },
+        {
+          "name": "過去形態",
+          "identity": "帝國首席科學家",
+          "outfit": "白色實驗袍 + 商務套裝",
+          "hair": "束成嚴謹的髮髻",
+          "eyes": "眼鏡反光遮住眼神（刻意遮蔽設計，預示無臉執行官）",
+          "chest": "帝國徽章"
+        },
+        {
+          "name": "未來形態",
+          "identity": "無臉執行官",
+          "outfit": "純白緊身衣 + 白色高跟鞋",
+          "face": "溶解為星光宇宙",
+          "body": "浮現科學公式與數據流",
+          "weapon": {
+            "type": "手刃",
+            "ability": "可硬化或包裹能量形成手術刀刃，能切開空間本身",
+            "style": "優雅而致命的揮斬，每一下都是外科手術式的精確"
+          },
+          "meaning": "失敗時間線的秋穗 - 『結果論』走到極端，為了結果連自我都消解"
+        }
+      ],
+      "visual_arc": [
+        {
+          "act": "I",
+          "image": "茶餐廳老闆娘，溫暖慈祥",
+          "truth": "偽裝完美，裂縫隱藏在細節中"
+        },
+        {
+          "act": "II",
+          "image": "科學家身份暴露，兩種形象交替",
+          "change": "圍裙下開始露出實驗袍"
+        },
+        {
+          "act": "III",
+          "image": "脫下所有偽裝，面容憔悴",
+          "change": "鯊魚夾掉落，頭髮散亂"
+        },
+        {
+          "act": "IV",
+          "image": "回歸老闆娘形象，但眼神柔和",
+          "truth": "不再偽裝——這次是真正的溫暖"
+        }
+      ]
+    }
+  },
+
+  "world_visual_elements": {
+    "empire_geography": {
+      "day_district": {
+        "characteristics": "人造太陽24小時照耀",
+        "visual": "過度飽和的人工光線，排斥反光面（無鏡之城）",
+        "color_temp": "冷白 + 人工黃，混雜不協調感",
+        "light_quality": "刺眼、無影、平坦",
+        "symbolism": "『修正』與『隱瞞真相』"
+      },
+      "night_district": {
+        "characteristics": "天空被廢氣籠罩，潮濕街道永遠積著水窪",
+        "visual": "昏暗但充滿反光（鏡像之城）",
+        "color_temp": "冷藍 + 昏黃霓虹，梦幻詭異",
+        "light_quality": "柔和但充滿陰影、多層次反光",
+        "symbolism": "帝國的『情緒化糞池』"
+      }
+    },
+
+    "collective_unconscious": {
+      "name": "後巷唐樓景觀",
+      "code": "CDL-186",
+      "entry_points": ["清醒夢", "靈樹", "愛莉等高匯聚節點"],
+      "architecture": [
+        "潮濕青苔石板地（長滿青苔的，不是乾淨石板）",
+        "永遠積水的水窪反射昏黃霓虹燈光",
+        "緊密密麻麻的舊唐樓陽台",
+        "高懸衣服被無風吹動"
+      ],
+      "visual_essence": "非抽象星空，係共享情緒記憶具現化的日常恐怖",
+      "aeri_storm_phase": {
+        "visual": "黑色淤泥夾雜成千上萬人的痛苦尖叫與Emo-Visor強制快樂的狂笑",
+        "elements": "扭曲人臉與笑著的黑色人形隨淤泥湧出",
+        "meaning": "全城被過濾掉的痛苦具現化"
+      },
+      "paper_knight": {
+        "appearance": "以盾牌擋住黑泥",
+        "dialogue": "『好苦……這些東西好苦……』",
+        "meaning": "愛莉作為活體濾心的救贖嘗試"
+      }
+    },
+
+    "scarlet_tide": {
+      "name": "緋潮",
+      "nature": "世界免疫系統的排斥反應 - 對Beta線偏移的強制校正",
+      "visual": "群體性情緒倒灌的紅色潮汐",
+      "appearance": [
+        "紅色流體侵蝕城市",
+        "視覺重疊與分層（多重時間線同時出現）",
+        "被抹除人形的殘影回返（幽靈般的人形碎片）",
+        "哀鳴聲與痛苦共鳴"
+      ],
+      "color": "血紅、深紫、暗紅交疊",
+      "light_quality": "濃厚、粘稠、無法穿透"
+    },
+
+    "corpseification_visual_alerts": {
+      "stage_1_black_tears": {
+        "name": "黑色眼淚",
+        "appearance": "深藍紫色流體，無自發光",
+        "origin": "與嘔吐同源",
+        "effect": "接觸地面後殘留他人情緒印痕"
+      },
+      "stage_2_gothic_spikes": {
+        "name": "哥德尖刺萌生",
+        "appearance": "星空流體暗態化",
+        "location": "從皮膚裂口、關節縫隙、眼眶處萌生黑色尖刺",
+        "progression": "初期只在高壓使用後短暫顯現 → 隨屍骸化進程持續擴張",
+        "severity": "與嘔吐、黑色眼淚同源 → 暗態為最嚴重形式"
+      }
+    }
+  },
+
+  "four_acts_visual_atmosphere": {
+    "act_1": {
+      "name": "偶像魔法少女（王道期）",
+      "color_palette": "飽和色彩、粉紅、金色、明亮的青綠",
+      "lighting": "舞台聚光、明亮、無影",
+      "overall_feel": "王道少女漫風格",
+      "visual_language": [
+        "晴香的粉色髮在陽光下閃耀",
+        "金魚旗日常形態的活力感",
+        "舞台化的魔法少女變身效果",
+        "高飽和度的校園與城市背景",
+        "光芒感與希望感充滿每一幀"
+      ],
+      "background_tone": "日區的過度光線、溫暖的黃光與粉色LED、市集與購物街的霓虹彩色"
+    },
+
+    "act_2": {
+      "name": "認知崩壞（英雄敘事破裂期）",
+      "color_palette": "逐漸褪色、暗沉、灰調增加",
+      "lighting": "灰暗、濾鏡褪去、陰影增加",
+      "overall_feel": "英雄敘事的逐漸崩塌",
+      "visual_changes": [
+        "晴香髮色開始暗淡",
+        "色彩飽和度逐漸降低",
+        "照明變得不均勻（部分場景失光）",
+        "舞台感消失，日常感加強（反而製造違和感）",
+        "背景開始出現故障、破損的視覺迹象"
+      ],
+      "background_tone": "日區的人工光開始現出刺眼感、夜區的霓虹變得蒼白無力、影子開始加深"
+    },
+
+    "act_3": {
+      "name": "偽高潮與坍塌（黑暗期）",
+      "color_palette": "黑暗、紅色警告、紫色絕望",
+      "lighting": "戲劇化對比、炫光與漆黑",
+      "overall_feel": "偽高潮與結構詭計的爆發",
+      "visual_design": [
+        "晴香短髮Wolf Cut，色彩灰白混雜",
+        "紅色紋章與結晶化覆蓋身體",
+        "魔法服破損，露出下層的黑色元素",
+        "光線極度戲劇化（強光 + 強影）",
+        "現實扭曲感視覺化（時間線裂縫、色差）"
+      ],
+      "background_tone": "帝國廣場的絕對白光 vs 絕對黑暗、緋潮的紅色侵蝕、集體潛意識的黑色淤泥"
+    },
+
+    "act_4": {
+      "name": "靜止搖籃（超越與救贖期）",
+      "color_palette": "白色、灰色、淡星光",
+      "lighting": "靜謐、柔和、神聖",
+      "overall_feel": "存在的終極問題與超越",
+      "visual_design": [
+        "晴香純白髮、極淡灰白瞳孔",
+        "身體逐漸透明化",
+        "黑色元素（夕的融合）",
+        "光線改變光質：舞台光 → 自然光 → 星光",
+        "空間感：實體 → 虛化 → 集體潛意識化"
+      ],
+      "background_tone": "新現實的柔和日光（『母愛的琥珀』幻象）、破碎現實的碎片化色彩、靜止搖籃的永恆星光"
+    }
+  },
+
+  "concept_art_visual_requirements": {
+    "image_1": {
+      "title": "『金魚旗少女』",
+      "focus": "晴香日常形態 + 環境",
+      "core_visuals": [
+        "晴香完整日常形態（粉色髮+青挑+呆毛雙辮+棒球外套+金魚掛飾）",
+        "日區過度光線 OR 校園偶像活動現場背景",
+        "舞台聚光、明亮、飽和色彩",
+        "活力、被展示、王道少女漫風格"
+      ],
+      "color_scheme": "主色：櫻花粉、淡青綠、金色 | 輔色：白、淡紫 | 背景：暖黃、粉紅、舞台光"
+    },
+
+    "image_2": {
+      "title": "『光與影的蛻變』",
+      "focus": "晴香四幕視覺對比",
+      "core_visuals": [
+        "四幕並列展示（粉色高光→暗淡髮+龜裂→短髮破碎星星→純白灰瞳孔）",
+        "背景漸層：飽和→褪淡→破碎→透明",
+        "光線演變：舞台光→灰暗→戲劇對比→星光",
+        "成長與代價關係的視覺記錄"
+      ]
+    },
+
+    "image_3": {
+      "title": "『痛覺之證』",
+      "focus": "凜的視覺對比：孔雀 vs 烏鴉",
+      "core_visuals": [
+        "MG1孔雀/飛行員形態：X展開、綠金粉白、明亮自信",
+        "MG2痛苦化身/烏鴉形態：倒V收縮、黑深綠血紅、C型金屬扣貫穿身體",
+        "脖子紅線保留（視覺連續性）",
+        "光線對比：明亮舞台光 vs 暗沉自我折磨光"
+      ]
+    },
+
+    "image_4": {
+      "title": "『雙面特工』",
+      "focus": "朔的日夜形態對比",
+      "core_visuals": [
+        "日間：純白西裝+鮮紅領帶，完美對稱，冷酷",
+        "夜晚：綠松石獵裝，極度不對稱，野性",
+        "帝國建築 vs 夜區後巷背景",
+        "警棍 vs 改裝十字弓的武器對比"
+      ]
+    },
+
+    "image_5": {
+      "title": "『集體潛意識之城』",
+      "focus": "後巷唐樓景觀 + 視覺風暴",
+      "core_visuals": [
+        "潮濕青苔石板地、永遠積水的水窪反光、密麻麻舊唐樓陽台、高懸衣服無風吹動",
+        "愛莉風暴時的變化：黑色淤泥、扭曲人臉、笑著的黑色人形、紙皮騎士守護",
+        "昏黃霓虹反光、多層次陰影",
+        "日常×恐怖的混合氛圍，情緒具現化"
+      ]
+    },
+
+    "image_6": {
+      "title": "『靜止搖籃』",
+      "focus": "晴香終局形態 + 世界視覺",
+      "core_visuals": [
+        "晴香最終形態：純白髮、淡灰白瞳孔、近乎透明、融合夕的黑色元素",
+        "集體潛意識的星光、無盡後巷、靜謐氛圍",
+        "光與影的最終和解，晴香與夕的共存",
+        "從實體世界→超越現實的存在狀態"
+      ]
+    }
+  },
+
+  "quick_reference_table": [
+    {
+      "character": "晴香",
+      "core_colors": "粉紅+青綠+金",
+      "base_geometry": "圓形/心形",
+      "symbols": "金魚/膠布/心匣",
+      "visual_position": "王道→破碎→超越"
+    },
+    {
+      "character": "凜",
+      "core_colors": "黑灰+孔雀綠/血紅",
+      "base_geometry": "X展開/倒V收縮",
+      "symbols": "脖子紅線/金絲雀",
+      "visual_position": "自信→痛苦→態度"
+    },
+    {
+      "character": "朔",
+      "core_colors": "純白+鮮紅/綠松石",
+      "base_geometry": "對稱/不對稱",
+      "symbols": "月亮耳環/十字弓",
+      "visual_position": "分裂→融合→解放"
+    },
+    {
+      "character": "秋穗",
+      "core_colors": "深紫/米白/星光",
+      "base_geometry": "沙漏型",
+      "symbols": "筆/石像/無臉面",
+      "visual_position": "偽裝→揭露→救贖"
+    },
+    {
+      "character": "世界",
+      "core_colors": "粉紅→灰→黑→白",
+      "base_geometry": "飽和→破碎→星光",
+      "symbols": "後巷/水窪/緋潮",
+      "visual_position": "王道→現實→超越"
+    }
+  ]
+}
