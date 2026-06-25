@@ -84,6 +84,7 @@
 | 71 | K房唱歌傷痕 | Karaoke Scar Singing | 美夜子 | 日常 | 廢棄 K 房 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_KaraokeScarSinging.png | 美夜子在廢棄 K 房尖叫唱歌，喉嚨流血 |
 | 72 | 長泳窒息習慣 | Drowning Swim Habit | 美夜子 | 日常 | 水域 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_DrowningSwimHabit.png | 美夜子潛水延遲浮起，體驗死亡邊界 |
 | 73 | 家長日大作戰 | Parents' Day Infiltration | 紫音、操 | [待定] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_ParentsDay_Infiltration.png | 操偽裝成熟高貴家長假扮紫音的家長，紫音以學生身份參加家長日 |
+| 74 | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | 日常 | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_DessertToothDrop.png | 操在開心食甜品時悄悄掉牙，左手掌托著2-3隻帶血的牙齒，其他人渾然不覺仍歡笑食甜品 |
 
 ---
 
@@ -2136,8 +2137,90 @@ seeking escape while maintaining connection to life.
 
 ---
 
-**版本信息**：IMAGE_PROMPT_SPEC_FINAL_73_COMPLETE.md v2.2 - Added scene 73 (Parents' Day Infiltration)
+---
+
+## 圖74：「甜品局掉牙」（操、晴香、眾人 / Dessert Party Tooth Drop）[PRIVATE_BODY_HORROR_MOMENT]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_DessertToothDrop.png`
+
+### 詳細核心描述（300-400字）
+
+甜品店或室內餐桌場景，氣氛溫馨輕鬆。操與晴香及其他人圍桌而坐，桌上擺放著各式甜品——蛋糕、馬卡龍、布丁、鬆餅，色彩繽紛，燈光明亮溫暖。所有人都在笑、在聊天、在享受當下。
+
+過肩鏡頭角度（Over-the-shoulder shot）：鏡頭從操的後方越過她的肩膊，捕捉到她的左手伸在身體側面，掌心微微向上，托著兩至三隻帶血的牙齒。牙齒白色，牙根末端有深紅血跡，剛剛從牙槽脫落不久，仍然濕潤。
+
+操的面部表情——透過鏡頭邊緣或側臉隱約可見——呈現極度驚恐的神態：眼睛瞪大、瞳孔收縮、嘴唇微微顫抖，彷彿剛剛意識到自己正在以某種難以言說的方式走向死亡。那是一種「我快死了」的本能恐懼——不是痛，而是察覺到身體正在崩壞、失控、脫離自己的那種存在性的恐懼。她的右手仍機械性地握著甜品餐具，動作僵住了一半，停在半空中。
+
+背景中，晴香和其他人仍然笑著交談，沒有人看向操的方向，沒有人察覺任何異樣。歡笑聲與操臉上的死亡恐懼形成最殘忍的對比——她被困在那份恐懼裡，四周卻是完全正常的甜品局氣氛。
+
+**視覺重點**：
+- 過肩鏡頭構圖：主焦點在操的左手掌，2-3隻帶血牙齒在掌心清晰可見
+- 操的側臉表情（部分可見）：眼白放大、瞳孔縮小、嘴唇微顫，驚恐如臨死亡邊緣
+- 右手動作僵住：餐具懸在半空，動作被恐懼凍結
+- 背景散焦：晴香與其他人模糊但仍可辨認，歡笑吃甜品，與前景形成強烈情感落差
+- 色彩對比：桌上甜品的馬卡龍粉、奶黃色、薄荷綠 vs. 手掌上的血紅深色
+- 燈光：室內暖光，甜品店溫馨氛圍，暖光打在操驚恐的側臉上，令恐懼更顯孤立無援
+
+### Midjourney 標準版
+
+```
+Over-the-shoulder shot from behind a young woman with dark hair at a dessert table.
+Focus on her left hand held low near her side, palm facing up,
+cradling 2-3 small teeth with bloodied roots—
+freshly shed, still glistening with moisture.
+The teeth are white-yellowish with dark red blood at the root ends.
+Her right hand still holds a dessert fork, frozen mid-motion—
+suspended in the air, movement arrested by shock.
+Her face, partially visible at the frame edge:
+eyes wide and dilated with terror, pupils contracted,
+lips trembling slightly, expression of someone confronting their own death—
+not pain, but the existential dread of realizing the body is breaking down,
+slipping out of control, unraveling without permission.
+In the soft-focus background:
+a cheerful group of girls—including a girl with warm brown hair—
+laugh, chat, and eat from colorful desserts:
+pastel macarons, layered cakes, creamy puddings spread across a warmly-lit table.
+None of them look toward her. None have noticed.
+The left hand with the teeth is kept slightly away from the table,
+concealed from the group's line of sight.
+Color contrast: the pastel pinks, mint greens, and warm yellows of the dessert spread
+against the deep crimson of blood on white teeth.
+The warm light falls across her terrified profile, isolating her fear
+against the backdrop of ordinary cheerful noise.
+Lighting: warm indoor cafe or home lighting, soft and inviting—
+the warmth makes her terror more lonely, not less.
+Style: Painterly illustration with fine detail on the focal hand and face; soft bokeh on background figures.
+Mood: Mortal terror hidden in plain sight; a body failing while those around her remain oblivious;
+the cruelty of being alone in a moment of existential dread.
+Canvas: 16:9
+-- ar 16:9 --niji 6 --style raw
+```
+
+### 替代版本（若被拒絕）
+
+```
+Over-the-shoulder composition at a cheerful dessert gathering.
+A young woman with dark hair sits at a table covered with colorful cakes and sweets.
+Her left hand, held slightly apart from the table, holds several small objects—
+small white fragments with reddish marks at their bases.
+Her right hand holds a fork, frozen mid-air, movement halted.
+Her face—partially visible at the frame edge—shows an expression of acute fear:
+wide eyes, trembling lips, the look of someone suddenly aware of their own mortality.
+Her body has gone rigid, posture locked in a moment of shock.
+Behind her in soft focus, several other young women laugh
+and enjoy the colorful desserts spread across the table.
+None of them look in her direction.
+Warm cafe lighting. Inviting, cheerful atmosphere overall.
+The contrast between the festive, oblivious gathering behind her
+and the terror visible in her partial profile
+creates a deeply isolating emotional atmosphere.
+-- ar 16:9 --niji 6
+```
+
+---
+
+**版本信息**：IMAGE_PROMPT_SPEC_FINAL_74_COMPLETE.md v2.3 - Added scene 74 (Dessert Party Tooth Drop)
 **最後更新**：2026-06-25
 **維護者**：Project Haruka Visual Planning System
-**內容完成度**：72 個場景，全部詳細版本（包含圖 1-61 既有 + 圖 62-72 新增詳細版）
+**內容完成度**：74 個場景，全部詳細版本（包含圖 1-61 既有 + 圖 62-72 新增詳細版 + 圖 73-74 新增場景）
 **準備就緒**：可直接用於 Midjourney / DALL-E 3 生成及概念美術委外
