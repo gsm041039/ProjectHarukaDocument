@@ -1,7 +1,8 @@
 # PROJECT_STATUS
 
 ## Current Workflow Snapshot
-- Current Mode: **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核
+- Current Mode: **ACT_III_OUTLINE.md v0.4 [DRAFT — Pending Author Final Approval]** → 等待作者最終批核
+- **Round 043（2026-06-25）操母親設定 + Act III 被迫報串整合完成（CanonFileIntegrator）**：作者啟動設定加入，完成 11 條 Q-母系列問題答覆。**CDL-297**（母親設定：完美的活體人偶；綾小路家族禁忌科學；操「變成母親那樣」的存在恐懼；傀儡魔法象徵根源）/ **CDL-298**（被迫報串：父親 EMB 供應商觀察者身份知情設定；Phase H 父親最後通牒→操 PTSD 崩潰→洩露據點坐標→帶著秘密死去；死後才被理解的罪與愛美學）。**Writeback（7 處）**：ayakomoji_misao.md（Header Table 家庭欄 / §母親 subsection / §被迫報串 subsection / §四幕弧光第三幕 Phase H 暗線 / §Relationships 母親行+父親行更新 / §關鍵事件錨點）+ character_index.md（#char-misao-mother 次要角色條目 + 綾小路家關係說明）+ ACT_III_OUTLINE.md v0.3→**v0.4**（新增 E-III-H-操「被迫報串」Phase H 暗線 beat）。Q-母01～11 全部 RESOLVED。**不阻塞主線**（Act III v0.4 批核仍為當前阻塞點）。
 - **Round 045（2026-06-19）00_Story_Brief.html 全面可讀性修正完成（P0/P1/P2）**：canon rename 朱音→紫音（97 files）；CDL-290 時間線「意外遇難」修正；膠布哲學第二層（紫音批判系統）；三張橋接卡；Phase 橋接句×6；JS 預設展開；h1→h2；bq-tip 移位；字符卡 open；sidebar 補連結；菲/刑思括號；靜止搖籃意識澄清；Alpha/Beta 誤讀預防；七法則 grid 預設折疊；CSS dead code 清除。不影響主線 Outline 批核流程。
 - **Round 042（2026-06-15）記憶/靈魂「無法遺忘」設定整合完成（CanonFileIntegrator）**：作者提出 4 設定原子（N1 記憶存集體潛意識·凡人可遺忘·魔法少女焊接無法遺忘 / N2 遺忘須切除一部分靈魂 / N3 夕拒絕自殘式遺忘 / N4 美夜子復活時失憶·神經元式可重連）。判定**現有設定強力支持**並完成整合。**CDL-293**（記憶讀取權限：凡人可遺忘·魔法少女焊接無法遺忘 + 靈魂切除 Soul Excision，嚴格區分既有術語「靈魂核銷」）/ **CDL-294**（美夜子失憶=拼接式復活未接通諧振突觸·可神經元式重連；殘響殘存非完全消散，與既有 timeline 框架相容）/ **CDL-295**（夕**拒絕**靈魂切除式遺忘=Need 落點；兩種失憶本體論區分：晴香犧牲式 vs 夕逃避式；Act IV beat 留待 Act IV Outline）。**Writeback**：01_world_rules_and_costs.md（§集體潛意識）/ 04_timeline_canon.md（§美夜子復活機制）/ miyako.md / yu.md（§第四幕）/ 00_series_bible.md（§資訊控制）。QQ-105~110 全部 RESOLVED。**不阻塞主線**（Act III v0.3 批核仍為當前阻塞點）。
 - **Round 041（2026-06-09）情緒具現化設定整合（CanonFileIntegrator 流程）**：確立「內在陰影的超現實受難（Shadow's Surreal Passion）」——鏡中陰影以超現實劇烈自殘具現「沉溺苦難/拒絕成長/拒絕自救」小我心理；屬鏡像法則「內在陰影」深化，非新機制。作者裁決 Q1=分層並存（凜挑紅線：現實克制+鏡中放大）/ Q2=痛楚→情緒→輸出循質化法則·並 codify「情緒強度→輸出」/ Q3=深化內在陰影 subsection / Q4=「液態/黏性」非廢棄維持 canon。**CDL-292 落檔**；寫入 06_visual_bible.md（§section-shadow-surreal-passion）/ 01_world_rules_and_costs.md（§rule-emotion-intensity-output）/ rin.md（鏡中放大層+金屬扣新增）/ ayakomoji_misao.md（Body Horror 鏡中層）。**不阻塞主線**（Act III v0.3 批核仍為當前阻塞點）。
@@ -35,8 +36,8 @@
   - **⏳ 狀態：等待作者最終批核判決**（可批核通過、可要求修改、可啟動Beat Sheet）
 - **P-C11/P-C12/P-C13 正式納檔至 CROSS_ACT_FORESHADOW_MANIFEST.md（2026-05-10）**
 - **Round 035（2026-05-12）世界觀底層 Writeback 完成**：CDL-286~289 落檔；涉及檔案：01_world_rules_and_costs.md / 04_timeline_canon.md / aya.md / CANON_DECISION_LOG.md。決策：Alpha線低魔共享歷史（解釋X）/ 維多利亞之淚Alpha線廢棄結構 / 黑奏力量雙重因果機制 / 鐵絲網偶遇（Act III扣留子彈）/ Loop 0意外→Loop N精準化。
-- Active Topic / Section: **ACT_III_OUTLINE.md v0.3 作者最終批核** ← **當前阻塞點**（QQ-102=B J2.5整合完成；QQ-103/104處理；QQ-96/97 RESOLVED；QQ-98~101 OPEN但不阻塞批核）
-- Current Objective: ①**作者判決 ACT_III_OUTLINE.md v0.3**（主阻塞點）→ 批核通過 → 進 Act IV Outline 設計；②作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；③全四幕 Outline 完成後才進 Beat Sheet 層設計（硬性規則）
+- Active Topic / Section: **ACT_III_OUTLINE.md v0.4 作者最終批核** ← **當前阻塞點**（Round 043 補丁：操母親設定+被迫報串 Phase H 暗線整合；CDL-297/298 落檔；QQ-98~101 OPEN 但不阻塞批核）
+- Current Objective: ①**作者判決 ACT_III_OUTLINE.md v0.4**（主阻塞點）→ 批核通過 → 進 Act IV Outline 設計；②作者回應 QQ-98~101（無鏡之城存廢，唔阻塞批核）；③全四幕 Outline 完成後才進 Beat Sheet 層設計（硬性規則）
 
 **Round 034（2026-05-11）無鏡之城設定存廢評估完成：**
 - M-061 建立：Cross-Act Dependency Gate + 19角度掃描（Pool 1+2全覆蓋）

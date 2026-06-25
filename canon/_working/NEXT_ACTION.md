@@ -1,11 +1,12 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_III_OUTLINE.md v0.3** → 批核通過 → 進 Act IV Outline 設計
+**作者批核 ACT_III_OUTLINE.md v0.4** → 批核通過 → 進 Act IV Outline 設計
 （Semantic Audit Auto-Loop COMPLETE — 全14類覆蓋；15項修正；0開放語意矛盾）
 
-> ℹ️ Round 042（2026-06-15）旁支完成：記憶/靈魂「無法遺忘」設定整合（CanonFileIntegrator）。QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成（01_world_rules / 04_timeline / miyako.md / yu.md / 00_series_bible）。**衍生待辦**：夕「拒絕靈魂切除式遺忘」beat 已在 yu.md 角色弧光層確認，具體 Act IV beat 留待 Act IV Outline（守 pipeline）。**不改變主阻塞點**（仍為 Act III v0.3 批核）。
-> ℹ️ Round 041（2026-06-09）旁支完成：情緒具現化設定整合（Shadow's Surreal Passion，CDL-292）——已寫入 06_visual_bible / 01_world_rules / rin.md / ayakomoji_misao.md。**不改變主阻塞點**（仍為 Act III v0.3 批核）。
+> ℹ️ Round 046（2026-06-25）旁支完成：操母親設定 + 被迫報串整合（CanonFileIntegrator）。Q-母01～11 RESOLVED；CDL-297/298 落檔；7 處 canon writeback 完成。ACT_III_OUTLINE 升至 v0.4（新增 E-III-H-操 Phase H 暗線 beat）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
+> ℹ️ Round 042（2026-06-15）旁支完成：記憶/靈魂「無法遺忘」設定整合（CanonFileIntegrator）。QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成（01_world_rules / 04_timeline / miyako.md / yu.md / 00_series_bible）。**衍生待辦**：夕「拒絕靈魂切除式遺忘」beat 已在 yu.md 角色弧光層確認，具體 Act IV beat 留待 Act IV Outline（守 pipeline）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
+> ℹ️ Round 041（2026-06-09）旁支完成：情緒具現化設定整合（Shadow's Surreal Passion，CDL-292）——已寫入 06_visual_bible / 01_world_rules / rin.md / ayakomoji_misao.md。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
 
 前置條件：
 - ✅ ACT_I_OUTLINE.md v1.21 **APPROVED**（2026-04-25）
@@ -21,8 +22,9 @@
   - 12角度全掃描完成；識別7個壓縮問題
   - 6項決策補丁整合：凜時序延遲揭露 + H1.5獨立月下beat + 夕隱形軌跡 + 操人偶化標記 + 氛圍基調 + 黑奏Transform
   - 12個主要beat確認（新增H1.5）；Gate A/B/C更新；張力波浪標記；10項開放設計項
-- ⏳ **ACT_III_OUTLINE.md v0.3 [DRAFT — Pending Author Final Approval]**（⬅ 主要阻塞點）
-  - v0.3 升級（2026-06-01）：新增 E-III-J2.5 鐵絲網偶遇獨立揭露 beat（CDL-290）；QQ-102/103/104 全部 RESOLVED/DEFERRED；Phase J 時間線加 QQ-104 TBD 標記
+- ⏳ **ACT_III_OUTLINE.md v0.4 [DRAFT — Pending Author Final Approval]**（⬅ 主要阻塞點）
+  - v0.3 升級（2026-06-01）：新增 E-III-J2.5 鐵絲網偶遇獨立揭露 beat（CDL-290）
+  - v0.4 升級（2026-06-25）：新增 E-III-H-操「被迫報串」Phase H 暗線 beat（CDL-298）；母親設定 CDL-297 整合
   - 可選路徑A：批核通過 → 立刻進Beat Sheet層設計
   - 可選路徑B：要求修改 → 補充微調後再提
   - 可選路徑C：其他判決

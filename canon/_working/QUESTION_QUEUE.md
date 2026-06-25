@@ -228,3 +228,21 @@
 | QQ-93 | Q-031-07：相簿Glitch機制確認 | M-058 | Medium | **RESOLVED（CDL-278）** | — | Alpha線記憶以相簿Glitch形式滲漏至Beta線確認入canon？ | A: 確認入canon / B: 需修改機制 | **A — 相簿Glitch確認；對齊CDL-263 Emo-Visor缺陷+CDL-265睡眠邊界機制** | CDL-278落檔；Act I/II相簿Glitch植入位置btd Beat Sheet | — | 2026-05-08 |
 | QQ-94 | Q-031-08：黑奏處刑室場景執行（踩+掟+美夜子反應） | M-059 | **Critical** | **RESOLVED（CDL-279）** | — | 黑奏處刑執行方式（踩+掟+邏輯誅心）確認；美夜子反應係「沉默+動作」還是「死命喊+掙扎」？ | A: 死命大喊+掙扎（完全無力感）/ B: 沉默+動作（觀察型）/ C: 喊+試圖干預 | **A+C — 死命大喊晴香名字+全力掙扎；強調「有力量的人在正確時機完全無力」悲劇感** | CDL-279落檔；Beat Sheet物理細節、掙扎強度btd | — | 2026-05-08 |
 | QQ-95 | Q-031-09：夕奪身後的第一個動作 | M-060 | High | **RESOLVED（CDL-281）** | — | 黑奏三武器後夕接管晴香意識，夕的第一個動作係：A=純沉默+物理動作；B=陌生語氣一句話；C=暗示知道姊妹關係 | A: 沉默+物理動作 / B: 陌生語氣一句話 / C: 暗示知道姊妹關係 | **C extended——「明知故犯的殘酷救贖者」**：第一動作=伸手觸碰美夜子臉上血跡（貪婪+懷念）；夕知道姊妹關係且直接承認；雙層動機（私心=想返Alpha線 + 保護晴香心靈）；清醒悖論（知道係逃避但照做）；主題鏡像（晴香用失憶逃避 vs 夕用毀滅逃避 = 同一個受傷細路女）；美夜子雙重打擊（夕坦白「想見以前的你」→美夜子永遠回不去）。具體台詞wording = [DRAFT ONLY — NOT CANON] | 解鎖ACT_III_OUTLINE.md v0.1夕登場beat設計；主題鏡像確立；美夜子心理後果設計 | — | 2026-05-08 |
+
+## Round 043 Questions（2026-06-25 — 操母親設定 + Act III 被迫報串 — ✅ 全部 RESOLVED + WRITEBACK 完成）
+
+> 來源：作者啟動 CanonFileIntegrator，討論操母親設定及 Act III Phase H 被迫報串事件。CDL-297（母親）/ CDL-298（被迫報串）落檔；ayakomoji_misao.md 6 處更新 + character_index.md 2 處更新 + ACT_III_OUTLINE.md v0.4 新增 E-III-H-操 beat。
+
+| QID | Topic | Priority | Status | Author Answer | CDL |
+|---|---|---|---|---|---|
+| Q-母01 | 母親角色類型 | High | **RESOLVED** | A — 完美的空殼/同化者（有情緒但自我完全壓制） | CDL-297 |
+| Q-母02 | 母親下場尺度 | High | **RESOLVED** | B — 物理肢解重組活體人偶（綾小路家族禁忌科學；有心跳但無感受能力） | CDL-297 |
+| Q-母03 | 父親↔EMB 關係（初版）| Medium | **RESOLVED（更新為 Q-母07 最終版）** | C — 自訂折衷（後由 Q-母07=B 更新：父親以 EMB 供應商觀察者身份秘密掌握操的魔法少女身份）| CDL-298 |
+| Q-母04 | 報串動機（初版）| High | **RESOLVED（更新為 Q-母06=C 混合方案）** | B 初版（後由 Q-母06=C 替代：保留 E-05a 虛榮報串，另在 Act III Phase H 新增被迫報串）| CDL-298 |
+| Q-母05 | character_index 獨立條目 | Medium | **RESOLVED** | A — 需要 character_index 獨立次要角色條目（#char-misao-mother）| CDL-297 |
+| Q-母06 | E-05a「虛榮的代價」保留或重寫 | Critical | **RESOLVED** | C — 混合方案：保留 E-05a（Act II，虛榮→成長），另在 Act III Phase H 新增「被迫報串」暗線 | CDL-298 |
+| Q-母07 | 父親↔EMB 關係（最終版）| Critical | **RESOLVED** | B — 父親為 EMB 關鍵外部技術供應商；透過觀察者系統秘密錄影操的戰鬥數據；以保護綾小路家族名聲為由不向 EMB 通報；E-09a 後主動以操換取帝國利益 | CDL-298 |
+| Q-母08 | 母親身體改造尺度（世界規則） | High | **RESOLVED** | B — 物理肢解重組屬綾小路家族私人禁忌科學，非 EMB 標準技術；零世界規則更改 | CDL-297 |
+| Q-母09 | Act III 被迫報串落點 | High | **RESOLVED** | B — Phase H（114年4月中，月光崩潰期後；美夜子 PTSD 爆發後最孤獨時刻）| CDL-298 |
+| Q-母10 | 被迫報串代價與隊伍知情 | Critical | **RESOLVED** | A — 強制轉移 + 秘密背叛；隊伍將原因歸咎 EMB 新偵測技術；操帶著秘密死去；死後才可能被揭露 | CDL-298 |
+| Q-母11 | 認罪與鋼鐵獨舞的關係 | Critical | **RESOLVED** | B — 帶著秘密犧牲；認罪從未發生；鋼鐵獨舞本身即無聲懺悔；「死後才被理解的罪與愛」美學 | CDL-298 |
