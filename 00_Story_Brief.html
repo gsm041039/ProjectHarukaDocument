@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="zh-Hant">
 
@@ -3882,6 +3882,199 @@
         display: none !important;
       }
     }
+
+
+    /* ─────────────────────────────────────────────
+       Mobile readability + working drawer nav fix
+       Fixes later CSS blocks that hid .sidebar on mobile,
+       making the hamburger button unable to reveal the menu.
+       ───────────────────────────────────────────── */
+    @media (max-width: 1023px) {
+      html,
+      body {
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body.nav-open {
+        overflow: hidden;
+      }
+
+      #nav-toggle {
+        display: flex !important;
+        position: fixed;
+        top: max(12px, env(safe-area-inset-top));
+        left: max(12px, env(safe-area-inset-left));
+        z-index: 1001;
+        touch-action: manipulation;
+      }
+
+      #nav-overlay {
+        position: fixed;
+        inset: 0;
+        z-index: 999;
+      }
+
+      #nav-overlay.show {
+        display: block !important;
+      }
+
+      .sidebar {
+        display: block !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: min(86vw, 320px);
+        max-width: 320px;
+        height: 100dvh;
+        padding-top: env(safe-area-inset-top);
+        transform: translateX(-105%);
+        transition: transform .22s cubic-bezier(.4, 0, .2, 1);
+        z-index: 1000;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        -webkit-overflow-scrolling: touch;
+        box-shadow: 16px 0 40px rgba(0, 0, 0, .38);
+      }
+
+      .sidebar.open {
+        transform: translateX(0) !important;
+      }
+
+      .sidebar a {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        font-size: 14px;
+        line-height: 1.45;
+      }
+
+      .sidebar a.sub {
+        font-size: 13px;
+      }
+
+      .content {
+        width: 100%;
+        margin-left: 0 !important;
+      }
+
+      .ci {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding-inline: clamp(16px, 4.5vw, 24px) !important;
+      }
+
+      .hero {
+        padding: 56px clamp(16px, 4.5vw, 24px) 30px !important;
+      }
+
+      .hero h1 {
+        font-size: clamp(22px, 6vw, 30px);
+        line-height: 1.28;
+      }
+
+      .sec,
+      .reader-dashboard,
+      .category-section,
+      .subcard,
+      .char-card,
+      .law-card,
+      .rel,
+      .beat,
+      .box,
+      .callout-ab,
+      blockquote {
+        max-width: 100% !important;
+      }
+
+      .sec {
+        padding-inline: 0;
+      }
+
+      .reader-dashboard {
+        margin-inline: 0 !important;
+        border-radius: 16px;
+      }
+
+      .subsection-grid,
+      .law-grid,
+      .char-grid,
+      .beats,
+      .dual,
+      .dual3,
+      .dash-head,
+      .dash-grid {
+        grid-template-columns: 1fr !important;
+      }
+
+      .char-imgs {
+        grid-template-columns: 1fr !important;
+        max-height: none !important;
+      }
+
+      .char-img-item,
+      .char-img-item:only-child {
+        height: auto !important;
+        min-height: 0 !important;
+        aspect-ratio: 4 / 3;
+      }
+
+      .design-form {
+        flex-direction: column !important;
+      }
+
+      .design-img {
+        width: 100% !important;
+        max-width: 320px !important;
+        flex: none !important;
+      }
+
+      .tw {
+        overflow-x: auto !important;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .tw table {
+        min-width: 640px !important;
+      }
+
+      p,
+      li,
+      .char-body,
+      .subcard,
+      .box,
+      .law-card p,
+      .rel p {
+        font-size: 15px;
+        line-height: 1.78;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .ci {
+        padding-inline: 14px !important;
+      }
+
+      .hero {
+        padding-inline: 14px !important;
+      }
+
+      .subcard,
+      .law-card,
+      .box,
+      .rel,
+      .beat,
+      .callout-ab,
+      blockquote {
+        padding-inline: 14px !important;
+      }
+
+      .tw table {
+        min-width: 560px !important;
+      }
+    }
+
   </style>
 </head>
 
@@ -3921,6 +4114,8 @@
     <a class="sub" href="#c-keishi">葉語彩 / 刑思</a>
     <a class="sub" href="#c-fei">菲</a>
     <a class="sub" href="#c-sou">綾小路操</a>
+    <a class="sub" href="#c-sou-father">綾小路宗一郎</a>
+    <a class="sub" href="#c-sou-mother">華麗淇</a>
     <a class="sub" href="#c-akane">不知火紫音</a>
     <a class="sub" href="#c-rin">綾瀨凜</a>
     <a class="sub" href="#c-saku">白銀朔</a>
@@ -4663,24 +4858,30 @@
                 <article class="subcard" id="world-epd" style="grid-column:span 1">
                   <h3>情緒力量裝置</h3>
                   <p><strong>核心規則</strong>：絕大多數魔法少女<strong>無法自主使用魔法</strong>，必須依賴<abbr
-                      title="絕大多數魔法少女依賴的外部裝置，用於連接集體潛意識。帝國內置監控與生物安全鎖(光環)。只有晴香、愛莉可直接使用魔法而無需依賴此裝置。">情緒力量裝置</abbr>——帝國製造的外部「介面工具」，幫助缺乏自主魔法能力的少女連接集體潛意識。</p>
+                      title="絕大多數魔法少女依賴的外部裝置，用於連接集體潛意識。帝國內置監控與生物安全鎖(光環)。只有晴香、愛莉可直接使用魔法而無需依賴此裝置。">情緒力量裝置</abbr>——帝國製造的外部「介面工具」，幫助缺乏自主魔法能力的少女連接集體潛意識。
+                  </p>
                   <div style="font-size:13px;line-height:1.8;color:var(--txt)">
                     <p style="margin:8px 0"><strong>裝置的本質</strong>：</p>
                     <ul style="margin:0 0 10px 20px;padding:0">
                       <li style="margin-bottom:4px"><strong>形態</strong>：帝國製造的外部介面工具</li>
                       <li style="margin-bottom:4px"><strong>開鎖方式</strong>：帝國透過暴力強制開鎖，激活心之器（絕非自願的「鏡中的承諾」）</li>
                       <li style="margin-bottom:4px"><strong>監控機制</strong>：內置監控後門，即時向帝國傳輸使用者的情緒數據與身體狀況；使用者毫不知情</li>
-                      <li><strong>生物安全鎖（<a href="#world-lighthouse-effect">光環</a>）</strong>：帝國內置的遠端處決工具。當使用者情緒耗損到臨界點，光環自動扭斷佩戴者的脖子——官方美化為「天使的象徵」</li>
+                      <li><strong>生物安全鎖（<a
+                            href="#world-lighthouse-effect">光環</a>）</strong>：帝國內置的遠端處決工具。當使用者情緒耗損到臨界點，光環自動扭斷佩戴者的脖子——官方美化為「天使的象徵」
+                      </li>
                     </ul>
                     <p style="margin:8px 0"><strong>代價結構</strong>：</p>
                     <ul style="margin:0 0 10px 20px;padding:0">
                       <li style="margin-bottom:4px"><strong>燃燒未來靈魂</strong>：使用者預支未來靈魂換取現在力量；每次使用代價急速累積至不可逆</li>
                       <li style="margin-bottom:4px"><strong>永久性傷害</strong>：暴力開鎖對心之器造成永久傷害，耗損與排斥連鎖同步放大</li>
-                      <li><strong>燃盡（終局）</strong>：當裝置中所有預支的情緒結晶耗盡，心之器被徹底「燃盡」——靈魂完全消散，肉體成為永遠機械重複生前最後動作的空殼。<strong>這比魔法屍骸更慘</strong>，屍骸至少靈魂還被困其中；燃盡者是純粹的虛無</li>
+                      <li>
+                        <strong>燃盡（終局）</strong>：當裝置中所有預支的情緒結晶耗盡，心之器被徹底「燃盡」——靈魂完全消散，肉體成為永遠機械重複生前最後動作的空殼。<strong>這比魔法屍骸更慘</strong>，屍骸至少靈魂還被困其中；燃盡者是純粹的虛無
+                      </li>
                     </ul>
                   </div>
-                  <p><strong>唯一例外</strong>：只有<a href="#c-haruka">晴香</a>與<a href="#c-airi">愛莉</a>可繞過裝置直接使用魔法。她們是真正的魔法少女——透過「鏡中的承諾」儀式（<a
-                      href="#c-haruka">晴香</a>）或濾心機制（<a href="#c-airi">愛莉</a>）自主覺醒，能夠面對並整合創傷，力量從真實的自我中生長。她們的心匣裂痕以金色修復（金繼效果），裂縫本身成為光源，比原來更完整。</p>
+                  <p><strong>唯一例外</strong>：只有<a href="#c-haruka">晴香</a>與<a
+                      href="#c-airi">愛莉</a>可繞過裝置直接使用魔法。她們是真正的魔法少女——透過「鏡中的承諾」儀式（<a href="#c-haruka">晴香</a>）或濾心機制（<a
+                      href="#c-airi">愛莉</a>）自主覺醒，能夠面對並整合創傷，力量從真實的自我中生長。她們的心匣裂痕以金色修復（金繼效果），裂縫本身成為光源，比原來更完整。</p>
                 </article>
                 <article class="subcard" id="world-drug" style="grid-column:span 1">
                   <h3>Emo-Visor</h3>
@@ -4723,12 +4924,13 @@
                       </tbody>
                     </table>
                   </div>
-                  <p style="font-weight:bold;margin-top:12px;padding:10px;background:rgba(196, 181, 253, .1);border-left:3px solid #a78bfa;color:#e8e8e8">
-帝國將「一個人的地獄」轉化成「另一個人的消費品」——系統不製造快樂，只是轉移痛苦。
-</p>
+                  <p
+                    style="font-weight:bold;margin-top:12px;padding:10px;background:rgba(196, 181, 253, .1);border-left:3px solid #a78bfa;color:#e8e8e8">
+                    帝國將「一個人的地獄」轉化成「另一個人的消費品」——系統不製造快樂，只是轉移痛苦。
+                  </p>
                   <p style="font-size:12px;color:var(--muted);margin-top:10px;font-style:italic">
-這個系統的運作邏輯詳見下方「三種改造路線」——解離兵器的終局，即是成為毒品的原料來源。
-</p>
+                    這個系統的運作邏輯詳見下方「三種改造路線」——解離兵器的終局，即是成為毒品的原料來源。
+                  </p>
                 </article>
                 <article class="subcard" id="world-corpse" style="grid-column:1/-1">
                   <h3>魔法屍骸</h3>
@@ -5230,19 +5432,27 @@
           <div class="subsection-grid">
             <article class="subcard flow-short" style="grid-column:1/-1">
               <h3>魔法少女能做什麼</h3>
-              <p style="margin:0 0 10px;font-size:13px;line-height:1.8">魔法少女的力量本質是<strong>小規模奇蹟</strong>——對現實局部執行覆寫。她們能做到的事，遠超一般人的物理極限：</p>
+              <p style="margin:0 0 10px;font-size:13px;line-height:1.8">
+                魔法少女的力量本質是<strong>小規模奇蹟</strong>——對現實局部執行覆寫。她們能做到的事，遠超一般人的物理極限：</p>
               <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;font-size:12.5px">
-                <div style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
-                  <strong style="display:block;margin-bottom:4px">具現化物件</strong>將強烈的情緒意志化為實體——武器、護盾、繩索、光刃——從虛無中投射出來，消散後不留痕跡。變身本身亦是具現化的一種：魔法少女能具現出任意服裝，這亦是她們可以自由選擇變身形態的原理。
+                <div
+                  style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
+                  <strong
+                    style="display:block;margin-bottom:4px">具現化物件</strong>將強烈的情緒意志化為實體——武器、護盾、繩索、光刃——從虛無中投射出來，消散後不留痕跡。變身本身亦是具現化的一種：魔法少女能具現出任意服裝，這亦是她們可以自由選擇變身形態的原理。
                 </div>
-                <div style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
-                  <strong style="display:block;margin-bottom:4px">治癒傷口</strong>覆寫肉體的損傷狀態，強行令傷口縫合、骨骼復位。代價是消耗大量情緒燃料，過度使用會反噬心之器。
+                <div
+                  style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
+                  <strong
+                    style="display:block;margin-bottom:4px">治癒傷口</strong>覆寫肉體的損傷狀態，強行令傷口縫合、骨骼復位。代價是消耗大量情緒燃料，過度使用會反噬心之器。
                 </div>
-                <div style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
-                  <strong style="display:block;margin-bottom:4px">感知情緒</strong>魔法少女的靈魂因長期與集體潛意識共振，與人類情緒的底層能量直接相連。覺醒後自然能看穿他人真實情緒狀態——普通人眼中衣冠楚楚的人，在她們眼中可能是一團腐爛的貪婪。侵蝕越深，感知越強烈，也越難關掉；最終成為詛咒，而非天賦。
+                <div
+                  style="padding:9px 12px;background:rgba(167,139,250,.08);border-radius:6px;border-left:3px solid rgba(167,139,250,.5)">
+                  <strong
+                    style="display:block;margin-bottom:4px">感知情緒</strong>魔法少女的靈魂因長期與集體潛意識共振，與人類情緒的底層能量直接相連。覺醒後自然能看穿他人真實情緒狀態——普通人眼中衣冠楚楚的人，在她們眼中可能是一團腐爛的貪婪。侵蝕越深，感知越強烈，也越難關掉；最終成為詛咒，而非天賦。
                 </div>
               </div>
-              <p style="margin:10px 0 0;font-size:12px;color:var(--muted)">每個魔法少女的具體能力形態，由她最深層的創傷與情感決定——同樣是「具現武器」，每人召喚出來的，都是不同形狀的傷口。</p>
+              <p style="margin:10px 0 0;font-size:12px;color:var(--muted)">
+                每個魔法少女的具體能力形態，由她最深層的創傷與情感決定——同樣是「具現武器」，每人召喚出來的，都是不同形狀的傷口。</p>
             </article>
             <article class="subcard flow-short" style="grid-column:1/-1">
               <h3>魔法少女的本質定義</h3>
@@ -5254,8 +5464,10 @@
                   <h4>真實</h4>
                   並非因命運眷顧而獲得力量的少女，而是在人生最崩潰的一刻，把自己最痛、最脆弱的那部分切割出去，換取力量的人。那個穿著魔法服的「強大的自己」，唔係真正的她——只係她的傷口穿上了戰鬥服。每次變身，代價係自己的情感；越用越空，越空越依賴。
                   <ul style="margin:10px 0 0;padding-left:16px;font-size:12px;line-height:1.8;color:var(--muted)">
-                    <li>最親近的人，往往是最深的傷害來源（<a href="#c-keishi">刑思</a>與語彩、<a href="#c-fei">菲</a>與<a href="#c-haruka">晴香</a>）——愛本身不能免除傷害</li>
-                    <li>愛可以導致瘋狂：<a href="#c-akane">紫音</a>因愛弟弟而成為屍骸首領；<a href="#c-keishi">刑思</a>因愛螢而發動情緒結算儀式——愛不賦予改變他人的權利</li>
+                    <li>最親近的人，往往是最深的傷害來源（<a href="#c-keishi">刑思</a>與語彩、<a href="#c-fei">菲</a>與<a
+                        href="#c-haruka">晴香</a>）——愛本身不能免除傷害</li>
+                    <li>愛可以導致瘋狂：<a href="#c-akane">紫音</a>因愛弟弟而成為屍骸首領；<a href="#c-keishi">刑思</a>因愛螢而發動情緒結算儀式——愛不賦予改變他人的權利
+                    </li>
                     <li>犧牲不保證意義——意義由存活者如何記憶來定義，故事不替任何人的痛苦蓋章「有用」</li>
                   </ul>
                 </div>
@@ -5446,7 +5658,9 @@
                     <div><b>裂</b><span>意識與身體被硬撕開（或主動撕開）；剩餘的只是戰爭外殼，沒有人性、沒有情感。</span></div>
                     <div><b>械</b><span>完全可被操控的殺戮機器；不存在選擇，只有指令與執行。</span></div>
                     <div><b>例</b><span>後期的<a href="#c-rin">凜</a>（主動切除一切情感成為純粹殺戮機器）、<a
-                          href="#c-akiho">秋穗/無臉執行官</a>（被刑思改造成的<a href="#disassociation-weapon-card"><abbr title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器">無意識離解兵器</abbr></a>——消除五官、剝奪自我意識，保留對愛莉的執念驅動但遺忘執念對象）。</span></div>
+                          href="#c-akiho">秋穗/無臉執行官</a>（被刑思改造成的<a href="#disassociation-weapon-card"><abbr
+                            title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器">無意識離解兵器</abbr></a>——消除五官、剝奪自我意識，保留對愛莉的執念驅動但遺忘執念對象）。</span>
+                    </div>
                   </div>
                   <img src="art/ConceptArt/Characters/MagicCorpse/ConceptArt_MagicalGirlWeapon.png" alt="解離兵器 武器概念"
                     style="width:100%;border-radius:6px;display:block;margin-top:10px" />
@@ -5625,7 +5839,7 @@
                     快感退去後的<strong>嘔吐、顫抖與感官錯位</strong>——不是「代價」，而是「身體知道自己被弄髒了」。</p>
                   <p style="font-size:12.5px;line-height:1.7;margin:0 0 10px;color:var(--muted)">
                     演出語法：跪地、抱膝、強迫擦洗、不願讓人靠近。<strong>禁止悲壯化處理</strong>。正確基調：骯髒、失控、想躲起來，而非犧牲的崇高。</p>
-                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Vomit.png" alt="生理排斥場景"
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Haruka_Vomit.png" alt="生理排斥場景"
                     style="width:100%;border-radius:6px;display:block" />
                 </div>
                 <div style="padding:16px 18px;background:#1e0d2a">
@@ -6173,8 +6387,18 @@
                     <strong>主題關聯</strong>：子主題 C（身份的本質）+ 子主題 D（連結的價值）。她以黑貓身份無法以真實姿態被愛，卻仍在連結中保有連續性——「形態改變，連結不斷」是她整條弧線的主題。
                   </p>
                   <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px">
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_MoonlightBreakdown.png" alt="美夜子 月下崩潰" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">月下崩潰——在窗台測試自己是否仍是人類</figcaption></figure>
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_DarkShowerHabit.png" alt="美夜子 黑暗沖涼習慣" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">黑暗沖涼習慣——黑暗中淋浴，確認自己仍有感覺</figcaption></figure>
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_MoonlightBreakdown.png" alt="美夜子 月下崩潰"
+                        style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        月下崩潰——在窗台測試自己是否仍是人類</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_DarkShowerHabit.png"
+                        alt="美夜子 黑暗沖涼習慣"
+                        style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        黑暗沖涼習慣——黑暗中淋浴，確認自己仍有感覺</figcaption>
+                    </figure>
                   </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
@@ -6314,6 +6538,20 @@
                     <strong>主題關聯</strong>：子主題 B（完美的幻象）。<a href="#c-keishi">刑思</a>是「控制一切以消除痛苦」意識形態的最極端具現，是<a
                       href="#c-haruka">晴香</a>「接納」路線的鏡像反論。
                   </p>
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px">
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_Keishi_AwakeningMassacre.png" alt="刑思 覺醒屠殺"
+                        style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        刑思覺醒屠殺——在帝國實驗室覺醒魔法力量，殺光所有實驗人員</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_EmpireLab_KurokaneSpecimen.png" alt="帝國實驗室黑金標本"
+                        style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">帝國實驗室黑金標本
+                      </figcaption>
+                    </figure>
+                  </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
               <details class="char-design">
@@ -6475,12 +6713,14 @@
                       <span
                         style="font-size:10px;font-weight:700;letter-spacing:.06em;display:block;margin-bottom:3px;font-style:normal">日常外在</span>優雅大方
                       · 端莊美麗 · 有條不紊 · 自律嚴格 · 追求無瑕<br>
-                      <span style="color:var(--acc);font-style:normal">外貌美得超越班內所有女生，女同學因妒嫉而排擠；外人無不以為是完美偽娘</span></div>
+                      <span style="color:var(--acc);font-style:normal">外貌美得超越班內所有女生，女同學因妒嫉而排擠；外人無不以為是完美偽娘</span>
+                    </div>
                     <div
                       style="padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid var(--acc);color:var(--muted);font-style:italic">
                       <span
                         style="font-size:10px;font-weight:700;letter-spacing:.06em;display:block;margin-bottom:3px;font-style:normal">內在隱藏</span>自卑焦慮
-                      · 害怕被拋棄 · 極度缺乏安全感 · 對自己的肉體自嫌</div>
+                      · 害怕被拋棄 · 極度缺乏安全感 · 對自己的肉體自嫌
+                    </div>
                   </div>
                   <p
                     style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid var(--acc)">
@@ -6489,13 +6729,32 @@
                     <strong
                       style="color:#a78bfa">身份說明</strong>：生理為女性，但自幼被父親強行進行性別重置手術並以男性身份養育。管家紗夜從黑市為她買來魔法變身裝置，讓她能短暫獲得「絕對女性」的肉體——這是她唯一能真實感受自身性別的時刻，因此對變身嚴重上癮。
                   </div>
-                  <p><strong>16 歲貴族繼承人。生理為女性，卻自幼被父親強行進行性別重置手術並以男性身份養育。</strong>她用精緻優雅的完美人設掩蓋自己真實的身體和靈魂，直到管家紗夜用積蓄為她買來魔法變身裝置——在那短短幾秒鐘的變身時刻，她第一次感受到「絕對女性」的肉體，那是她唯一能真實感受自己的時刻。但帝國軍隊攻入大宅，紗夜為保護她而犧牲，並在臨終前揭露了她的女性真相。經歷雙重背叛後，她終於選擇打碎完美偽裝，以殘缺的真實面對死亡。</p>
+                  <p><strong>16
+                      歲貴族繼承人。生理為女性，卻自幼被父親強行進行性別重置手術並以男性身份養育。</strong>她用精緻優雅的完美人設掩蓋自己真實的身體和靈魂，直到管家紗夜用積蓄為她買來魔法變身裝置——在那短短幾秒鐘的變身時刻，她第一次感受到「絕對女性」的肉體，那是她唯一能真實感受自己的時刻。但帝國軍隊攻入大宅，紗夜為保護她而犧牲，並在臨終前揭露了她的女性真相。經歷雙重背叛後，她終於選擇打碎完美偽裝，以殘缺的真實面對死亡。
+                  </p>
                   <p
                     style="margin-top:10px;font-size:12.5px;background:var(--surf2);padding:7px 10px;border-radius:6px;border-left:3px solid var(--acc)">
-                    <strong>主題關聯</strong>：子主題 B（完美的幻象）+ 子主題 C（身份的本質）。她用一生偽裝「完美繼承人」的外殼保護真實自我；臨終的選擇，是她第一次真正選擇自己的位置。</p>
-                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px">
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Misao_SteelSolitude.png" alt="操 廢棄工廠獨舞" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">鋼鐵獨舞——半屍骸狀態被傀儡絲控制在廢棄工廠中獨舞</figcaption></figure>
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_ParentsDay_Infiltration.png" alt="操 家長日大作戰" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">家長日大作戰——操偽裝成紫音的家長，紫音以學生身份配合</figcaption></figure>
+                    <strong>主題關聯</strong>：子主題 B（完美的幻象）+ 子主題 C（身份的本質）。她用一生偽裝「完美繼承人」的外殼保護真實自我；臨終的選擇，是她第一次真正選擇自己的位置。
+                  </p>
+                  <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:12px">
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Misao_SteelSolitude.png"
+                        alt="操 廢棄工廠獨舞"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        鋼鐵獨舞——半屍骸狀態被傀儡絲控制在廢棄工廠中獨舞</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_ParentsDay_Infiltration.png" alt="操 家長日大作戰"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        家長日大作戰——操偽裝成紫音的家長</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Misao_DessertToothDrop.png"
+                        alt="操 甜品掉牙"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺</figcaption>
+                    </figure>
                   </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
@@ -6505,7 +6764,8 @@
                   style="display:grid;grid-template-columns:auto 1fr;gap:3px 14px;font-size:11.5px;padding:8px 12px;background:rgba(255,255,255,.03);border-radius:4px;margin:8px 0 12px;line-height:1.6">
                   <strong>關鍵詞</strong><span>天鵝 · 蜘蛛 · 玫瑰 ·
                     逃生缺口</span><strong>風格</strong><span>現代維多利亞哥德</span><strong>配色</strong><span>深藍/近黑 · 白扇缺口 ·
-                    藍寶石點綴</span><strong>傀儡</strong><span>兩具巨大無臉人偶，關節藏刀片，禮服帶血跡</span></div>
+                    藍寶石點綴</span><strong>傀儡</strong><span>兩具巨大無臉人偶，關節藏刀片，禮服帶血跡</span>
+                </div>
                 <div class="design-form">
                   <div class="design-img"><img alt="操 日常服"
                       src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png" />
@@ -6540,6 +6800,8 @@
                 </div>
               </details>
             </details>
+
+
             <details class="char-card" id="c-akane">
               <summary class="char-head" style="background:linear-gradient(135deg,#7f1d1d,#b91c1c)">
                 <span class="badge badge-tragic">主線悲劇</span>
@@ -6694,9 +6956,36 @@
                     <strong>主題關聯</strong>：子主題 A（力量的代價）。她的命運是「被系統抹除主體性後，以拒絕被治癒的方式奪回主體性」——殘酷的態度自由，在極端形式下的具現。
                   </p>
                   <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-top:12px">
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_PeacockVsRaven_.png" alt="凜 孔雀vs烏鴉" style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">孔雀 vs 烏鴉——凜的兩種魔法形態對比</figcaption></figure>
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_PhantomMelodyHabit.png" alt="凜 半首旋律" style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">半首旋律——習慣性哼唱，中途戛然而止</figcaption></figure>
-                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_RedLineCompulsion.png" alt="凜 紅線強迫症" style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">紅線強迫症——強迫性標記牆壁，尋求秩序感</figcaption></figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_PeacockVsRaven_.png"
+                        alt="凜 孔雀vs烏鴉"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">孔雀 vs
+                        烏鴉——凜的兩種魔法形態對比</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_PhantomMelodyHabit.png"
+                        alt="凜 半首旋律"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        半首旋律——習慣性哼唱，中途戛然而止</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_RedLineCompulsion.png"
+                        alt="凜 紅線強迫症"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        紅線強迫症——強迫性標記牆壁，尋求秩序感</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_FoldingStars_MiyakoWatches.png" alt="凜 摺星星美夜子旁看著"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        摺紙星星——失眠夜晚堆積數千摺星，美夜子靜靜旁觀</figcaption>
+                    </figure>
+                    <figure style="margin:0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png" alt="凜美夜子 黃金搭檔"
+                        style="width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">黃金搭檔——108
+                        年前軍方魔法少女時期，凜精準打擊，美夜子掩護收割</figcaption>
+                    </figure>
                   </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
@@ -6810,8 +7099,8 @@
                   <strong>無臉執行官真相</strong>：故事中主角群對抗的恐怖敵人——純白緊身衣、面部溶解為星光宇宙——是<a href="#c-akiho">秋穗</a>本人。當<a
                     href="#c-fei">菲</a>改變現實後，<a href="#c-akiho">秋穗</a>為保護<a
                     href="#c-airi">愛莉</a>代替她成為「活體濾心」，被緋潮侵蝕到千瘡百孔但仍死守執念。<a href="#c-keishi">刑思</a>發現殘破靈魂後，基於<a
-                    href="#c-akiho">秋穗</a>對<a
-                    href="#c-airi">愛莉</a>的執念強度將其改造成<a href="#disassociation-weapon-card"><abbr title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器"><strong>離解兵器</strong></abbr></a>：消除五官、剝奪自我意識。改造後保留執念驅動但遺忘執念對象——她永遠在執行「保護某人」的指令，卻再也想不起自己在保護誰。
+                    href="#c-akiho">秋穗</a>對<a href="#c-airi">愛莉</a>的執念強度將其改造成<a href="#disassociation-weapon-card"><abbr
+                      title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器"><strong>離解兵器</strong></abbr></a>：消除五官、剝奪自我意識。改造後保留執念驅動但遺忘執念對象——她永遠在執行「保護某人」的指令，卻再也想不起自己在保護誰。
                 </p>
                 <details class="char-design">
                   <summary>視覺設計</summary>
@@ -6839,7 +7128,9 @@
                       <ul>
                         <li><strong>整體風格</strong>：純白緊身衣 + 白色高跟鞋——非人化、工具化的極致</li>
                         <li><strong>面部設計</strong>：面部溶解為星光虛空，消除一切人類五官特徵</li>
-                        <li><strong>設計意圖</strong>：星光虛空拉近與集體潛意識的連結，同時完美隱藏胸口的 Emo-Visor 刻印，令旁觀者看不穿她是帝國的<a href="#disassociation-weapon-card"><abbr title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器">離解兵器</abbr></a></li>
+                        <li><strong>設計意圖</strong>：星光虛空拉近與集體潛意識的連結，同時完美隱藏胸口的 Emo-Visor 刻印，令旁觀者看不穿她是帝國的<a
+                            href="#disassociation-weapon-card"><abbr
+                              title="靈魂與身體被硬撕開，意識遭抹除，只剩帝國工具外殼的無感情殺戮機器">離解兵器</abbr></a></li>
                         <li><strong>象徵性</strong>：「結果論」走到極端的視覺隱喻——她連臉都沒了，只剩帝國需要的無感情工具</li>
                       </ul>
                     </div>
@@ -6926,7 +7217,12 @@
                   </p>
                   <p>在故事後期，她的魔法少女（聖女騎士）形態由<a href="#c-haruka">晴香</a>發動奇蹟所觸發，從石像具現為魔法少女；當<a
                       href="#c-haruka">晴香</a>最終接受「改變現實是錯的」，願望消失，她的形態隨之化為光點消散。</p>
-                  <figure style="margin:12px 0 0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Aeri_NurseryRhymeWorld.png" alt="愛莉 童謠世界" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">童謠世界——被困石像期間，愛莉存在的精神空間</figcaption></figure>
+                  <figure style="margin:12px 0 0"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_Aeri_NurseryRhymeWorld.png" alt="愛莉 童謠世界"
+                      style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block" />
+                    <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                      童謠世界——被困石像期間，愛莉存在的精神空間</figcaption>
+                  </figure>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
               <details class="char-design">
@@ -6986,7 +7282,8 @@
                   <div class="char-img-cap">日常服</div>
                 </div>
                 <div class="char-img-item">
-                  <img alt="白銀朔 情緒管理局制服" src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_TheAdministrationBureau.png" />
+                  <img alt="白銀朔 情緒管理局制服"
+                    src="art/ConceptArt/Characters/Saku/ConceptArt_Saku_TheAdministrationBureau.png" />
                   <div class="char-img-cap">情緒管理局制服</div>
                 </div>
               </div>
@@ -7056,6 +7353,79 @@
                 <p><strong>8–10
                     歲、夜區小學生，純真善意的小男孩。</strong>擁有一根彩色波板糖和破爛紅書包，缺牙的笑容是紫音在這個殘酷世界中唯一感受到的溫暖。在屍骸襲擊中慘死並轉化為廢鐵型怪物，死前還握著要分給紫音的波板糖——這一刻徹底擊碎了紫音的理智防線，是她精神崩潰並墮落成「屍骸首領」的直接起因。
                 </p>
+              </div>
+            </details>
+
+            <!-- 操的父親 -->
+            <details class="char-card" id="c-sou-father">
+              <summary class="char-head" style="background:linear-gradient(135deg,#0c1a2e,#1e3a5f)">
+                <span class="badge"
+                  style="background:rgba(239,68,68,.2);color:#fca5a5;border-color:rgba(239,68,68,.3)">反派</span>
+                <div class="char-name">綾小路<a href="#c-sou-father">宗一郎</a></div>
+                <div class="char-real">操的父親 · 綾小路家族當主</div>
+              </summary>
+              <div class="char-imgs">
+                <div class="char-img-item">
+                  <img alt="宗一郎 日常服" src="art/ConceptArt/Characters/Soichiro/ConceptArt_Soichiro_CasualWear.png" />
+                  <div class="char-img-cap">日常服</div>
+                </div>
+              </div>
+              <div style="padding:14px 16px">
+                <div class="char-body">
+                  <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 10px;font-size:12px">
+                    <div
+                      style="padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15);color:var(--muted);font-style:italic">
+                      <span
+                        style="font-size:10px;font-weight:700;letter-spacing:.06em;display:block;margin-bottom:3px;font-style:normal">表面形象</span>貴族家長
+                      · 雍容得體 · 維持家族名聲
+                    </div>
+                    <div
+                      style="padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(239,68,68,.5);color:var(--muted);font-style:italic">
+                      <span
+                        style="font-size:10px;font-weight:700;letter-spacing:.06em;display:block;margin-bottom:3px;font-style:normal">真實本質</span>控制狂
+                      · 「性別是缺陷」· 「不完美的孩子是恥辱」
+                    </div>
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.8;margin:0 0 10px">
+                    <strong>帝國情緒力量裝置的秘密技術供應商之一。</strong>以「為家族著想」為名，強制為<a
+                      href="#c-sou">操</a>進行性別重置手術，以男性繼承人身份養育她——同時秘密錄影她的魔法少女戰鬥數據，作為與帝國談判的籌碼。當操被判定為「廢品」後，他主動將她交給帝國換取家族利益，並以「令她變成母親那樣」作為最後勒索武器，逼操洩露隊伍據點坐標。
+                  </p>
+                  <p
+                    style="margin:0;font-size:12px;color:var(--muted);padding:6px 10px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(239,68,68,.4)">
+                    <strong>主題關聯</strong>：他是「完美」作為暴力工具的最直接體現——所有人、所有情感，都只是家族資產的損益計算。他從未恨操；他只是從來不把她當作人。</p>
+                </div>
+              </div>
+            </details>
+
+            <!-- 操的母親 -->
+            <details class="char-card" id="c-sou-mother">
+
+              <summary class="char-head" style="background:linear-gradient(135deg,#1a1a2e,#2d2d44)">
+                <span class="badge"
+                  style="background:rgba(167,139,250,.15);color:#c4b5fd;border-color:rgba(167,139,250,.3)">悲劇核心</span>
+                <div class="char-name"><a href="#c-sou-mother">華麗淇</a></div>
+                <div class="char-real">操的母親 · 活體人偶</div>
+              </summary>
+              <div class="char-imgs">
+                <div class="char-img-item">
+                  <img alt="華麗淇 日常服" src="art/ConceptArt/Characters/WaaLaiKei/ConceptArt_WaaLaiKei_CasualWear.png" />
+                  <div class="char-img-cap">日常服</div>
+                </div>
+              </div>
+              <div style="padding:14px 16px">
+                <div class="char-body">
+                  <div
+                    style="padding:7px 11px;background:rgba(167,139,250,.06);border-radius:5px;border-left:3px solid rgba(167,139,250,.4);font-size:12.5px;margin:0 0 12px;line-height:1.8">
+                    她仍然有心跳。她不會感到痛、悲、喜。她穿著無可挑剔的禮服，以精確對稱的弧度微笑，在固定時刻斟茶。她看起來完好無損。
+                  </div>
+                  <p style="font-size:12.5px;line-height:1.8;margin:0 0 10px">曾經是一個有情感、有靈魂的真實人類。某一天，她的情緒崩潰——一滴眼淚——被<a
+                      href="#c-sou-father">宗一郎</a>判定為「無法修復的殘次品」。他動用家族秘密研究室對她進行身體重構：抑制情緒生成的生理結構，以精密儀器替換部分維生機能，外表完整封存。她從此變成<strong>活體標本</strong>——存在但不再感受，完美但再無內裡。
+                  </p>
+                  <p
+                    style="margin:0;font-size:12px;color:var(--muted);padding:6px 10px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(167,139,250,.4)">
+                    <strong>對操的象徵意義</strong>：母親是操見過的第一個「活的警告」——在這個家裡，露出一個缺陷，代價不是被拋棄，而是被改造成連「希望被拋棄」都不再可能的東西。這解釋了操為何選擇傀儡魔法：她寧願成為拉絲線的人，也絕不當那個被絲線操控的人。
+                  </p>
+                </div>
               </div>
             </details>
             <details class="char-card" id="c-sayo">
@@ -7199,8 +7569,7 @@
                   <a href="#c-hanako" style="cursor:pointer">
                     <rect fill="#1a2e1a" height="40" rx="7" stroke="#4b5563" stroke-dasharray="4 2" width="90" x="60"
                       y="8"></rect>
-                    <text fill="#9ca3af" font-size="13" font-weight="700" text-anchor="middle" x="105" y="26">花子
-                      †</text>
+                    <text fill="#9ca3af" font-size="13" font-weight="700" text-anchor="middle" x="105" y="26">花子 †</text>
                     <text fill="#6b7280" font-size="8.5" text-anchor="middle" x="105" y="41">Alpha線已故</text>
                   </a>
                   <a href="#c-akiho" style="cursor:pointer">
@@ -7208,13 +7577,11 @@
                     <text fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle" x="355" y="26">秋穗</text>
                     <text fill="#34d399" font-size="8.5" text-anchor="middle" x="355" y="41">晴香的阿姨</text>
                   </a>
-                  <!-- 姊妹連線：<a href="#c-hanako">花子</a> ↔ <a href="#c-akiho">秋穗</a> -->
-                  <line stroke="#4ade80" stroke-dasharray="4 2" stroke-width="1.5" x1="150" x2="310" y1="28" y2="28">
-                  </line>
+                  <!-- 姊妹連線 -->
+                  <line stroke="#4ade80" stroke-dasharray="4 2" stroke-width="1.5" x1="150" x2="310" y1="28" y2="28"></line>
                   <rect fill="#052e16" height="18" rx="4" width="66" x="197" y="18"></rect>
-                  <text fill="#4ade80" font-size="9" font-weight="600" text-anchor="middle" x="230" y="30">── 姊妹
-                    ──</text>
-                  <!-- 母親分支：<a href="#c-hanako">花子</a> → <a href="#c-haruka">晴香</a> + <a href="#c-miyako">美夜子</a> -->
+                  <text fill="#4ade80" font-size="9" font-weight="600" text-anchor="middle" x="230" y="30">── 姊妹 ──</text>
+                  <!-- 母親分支 -->
                   <line stroke="#4b5563" stroke-width="1.5" x1="105" x2="105" y1="48" y2="65"></line>
                   <line stroke="#4b5563" stroke-width="1.5" x1="45" x2="171" y1="65" y2="65"></line>
                   <line stroke="#4b5563" stroke-width="1.5" x1="45" x2="45" y1="65" y2="82"></line>
@@ -7227,20 +7594,46 @@
                   </a>
                   <a href="#c-miyako" style="cursor:pointer">
                     <rect fill="#064e3b" height="40" rx="7" stroke="#065f46" width="82" x="131" y="82"></rect>
-                    <text fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle" x="172"
-                      y="100">美夜子</text>
+                    <text fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle" x="172" y="100">美夜子</text>
                     <text fill="#34d399" font-size="8.5" text-anchor="middle" x="172" y="115">姊姊</text>
                   </a>
-                  <!-- 姊妹連線：<a href="#c-haruka">晴香</a> ↔ <a href="#c-miyako">美夜子</a> -->
+                  <!-- 姊妹連線 -->
                   <line stroke="#4ade80" stroke-width="1.5" x1="82" x2="131" y1="102" y2="102"></line>
                   <text fill="#4ade80" font-size="8" font-weight="600" text-anchor="middle" x="107" y="98">姊妹</text>
-                  <!-- 母女連線：<a href="#c-akiho">秋穗</a> → <a href="#c-airi">愛莉</a> -->
+                  <!-- 母女連線 -->
                   <line stroke="#065f46" stroke-width="1.5" x1="355" x2="355" y1="48" y2="82"></line>
                   <text fill="#34d399" font-size="8" x="363" y="68">母女</text>
                   <a href="#c-airi" style="cursor:pointer">
                     <rect fill="#064e3b" height="40" rx="7" stroke="#065f46" width="74" x="318" y="82"></rect>
                     <text fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle" x="355" y="100">愛莉</text>
                     <text fill="#34d399" font-size="8.5" text-anchor="middle" x="355" y="115">秋穗的女兒</text>
+                  </a>
+                </svg>
+                <!-- 操家族 -->
+                <svg
+                  style="display:block;max-width:460px;overflow:visible;margin-top:10px;font-family:-apple-system,BlinkMacSystemFont,'Noto Sans TC',sans-serif"
+                  viewbox="0 0 460 132">
+                  <a href="#c-sou-father" style="cursor:pointer">
+                    <rect fill="#1a0a0a" height="40" rx="7" stroke="#991b1b" width="90" x="60" y="8"></rect>
+                    <text fill="#fca5a5" font-size="13" font-weight="700" text-anchor="middle" x="105" y="26">宗一郎</text>
+                    <text fill="#ef4444" font-size="8.5" text-anchor="middle" x="105" y="41">操的父親</text>
+                  </a>
+                  <a href="#c-sou-mother" style="cursor:pointer">
+                    <rect fill="#1a0a1e" height="40" rx="7" stroke="#6d28d9" width="90" x="310" y="8"></rect>
+                    <text fill="#c4b5fd" font-size="13" font-weight="700" text-anchor="middle" x="355" y="26">華麗淇</text>
+                    <text fill="#a78bfa" font-size="8.5" text-anchor="middle" x="355" y="41">操的母親</text>
+                  </a>
+                  <!-- 夫妻線 -->
+                  <line stroke="#6b7280" stroke-dasharray="3 2" stroke-width="1.5" x1="150" x2="310" y1="28" y2="28"></line>
+                  <rect fill="#052e16" height="18" rx="4" width="60" x="200" y="18"></rect>
+                  <text fill="#6b7280" font-size="9" text-anchor="middle" x="230" y="30">── 婚姻 ──</text>
+                  <!-- 垂直到操 -->
+                  <line stroke="#4b5563" stroke-width="1.5" x1="230" x2="230" y1="48" y2="82"></line>
+                  <text fill="#6b7280" font-size="8" x="238" y="68">親子</text>
+                  <a href="#c-sou" style="cursor:pointer">
+                    <rect fill="#064e3b" height="40" rx="7" stroke="#065f46" width="74" x="193" y="82"></rect>
+                    <text fill="#6ee7b7" font-size="13" font-weight="700" text-anchor="middle" x="230" y="100">操</text>
+                    <text fill="#34d399" font-size="8.5" text-anchor="middle" x="230" y="115">宗一郎之女</text>
                   </a>
                 </svg>
               </div>
@@ -8239,7 +8632,12 @@
                     <li><span class="from-tag">from 連結污染</span>勝利代價係四人開始接收到唔屬於自己嘅恐懼、自責同記憶殘響。</li>
                     <li><span class="from-tag">from 日常裂痕</span>返到課室、偶像工作同普通相處時，反而更明顯見到佢哋回唔到普通少女狀態。</li>
                   </ul>
-                  <figure style="margin:10px 0 0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_EmotionLink_Crisis.png" alt="首次情緒連結危機" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">首次情緒連結危機——四人創傷記憶互相滲透，勝利之後崩潰開始</figcaption></figure>
+                  <figure style="margin:10px 0 0"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_EmotionLink_Crisis.png" alt="首次情緒連結危機"
+                      style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" />
+                    <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                      首次情緒連結危機——四人創傷記憶互相滲透，勝利之後崩潰開始</figcaption>
+                  </figure>
                   </ul>
                 </div>
               </div>
@@ -8346,7 +8744,12 @@
                       <strong style="color:#a78bfa">③
                         衛生行動公開處刑公告</strong>——帝國正式以官方名義宣佈晴香與美夜子為「最危險異端」，公告即將執行公開處刑，迫使晴香一行在全市市民面前以「恐怖份子」身份現身。
                     </span>
-                  <figure style="margin:10px 0 0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_LightVeil_Shattered.png" alt="光幕濾鏡破碎" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">光幕濾鏡破碎——直播失控，完美偶像形象瞬間崩塌為「失控殺手」</figcaption></figure>
+                    <figure style="margin:10px 0 0"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_LightVeil_Shattered.png" alt="光幕濾鏡破碎"
+                        style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                        光幕濾鏡破碎——直播失控，完美偶像形象瞬間崩塌為「失控殺手」</figcaption>
+                    </figure>
                     <span
                       style="display:block;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08)"><a
                         href="#c-akiho" style="color:#e9d5ff">秋穗</a>出賣<a href="#c-haruka"
@@ -8411,7 +8814,12 @@
                   <div style="color:#e9d5ff;font-size:13px;line-height:1.75"><strong
                       style="color:#f472b6">崩潰觸發點</strong>：<a href="#c-haruka" style="color:#e9d5ff">晴香</a>精神崩潰；<a
                       href="#c-fei" style="color:#e9d5ff">菲</a>完全奪取身體並重置世界。重點不是「重置失敗」，而是重置確實成功，但成功本身造成新的時間線分支。</div>
-                  <figure style="margin:10px 0 0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Haruka_Integration.png" alt="晴香與夕整合" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">整合場景——晴香與夕在夢境空間痛苦碰撞，花子顫抖守護</figcaption></figure>
+                  <figure style="margin:10px 0 0"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_Haruka_Integration.png" alt="晴香與夕整合"
+                      style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" />
+                    <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                      整合場景——晴香與夕在夢境空間痛苦碰撞，花子顫抖守護</figcaption>
+                  </figure>
                 </div>
 
                 <div class="tl-major-branch-grid"
@@ -8459,7 +8867,12 @@
                           style="color:#ffe4e6">晴香</a>帶著二十年記憶甦醒；<a href="#c-airi" style="color:#ffe4e6">愛莉</a>與<a
                           href="#c-keishi" style="color:#ffe4e6">葉語彩</a>最後對決，彩犧牲；<a href="#c-haruka"
                           style="color:#ffe4e6">晴香</a>承接所有痛苦，化身永恆守護者。</div>
-                      <figure style="margin:10px 0 0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_AfterBattle.png" alt="決戰後" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">決戰後——一切結束後的殘局，晴香化身永恆守護者沉睡</figcaption></figure>
+                      <figure style="margin:10px 0 0"><img
+                          src="art/ConceptArt/Scene/ConceptArt_Scene_AfterEmotionLink_Crisis.png" alt="情緒連結危機後"
+                          style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" />
+                        <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
+                          決戰後——一切結束後的殘局，晴香化身永恆守護者沉睡</figcaption>
+                      </figure>
                     </div>
 
                     <div class="tl-follow-card"
@@ -9225,25 +9638,34 @@
       var toggle = document.getElementById('nav-toggle');
       var sidebar = document.querySelector('.sidebar');
       var overlay = document.getElementById('nav-overlay');
+      if (!toggle || !sidebar || !overlay) return;
       function openNav() {
         sidebar.classList.add('open');
         overlay.classList.add('show');
         toggle.classList.add('active');
+        document.body.classList.add('nav-open');
         toggle.setAttribute('aria-label', '關閉目錄');
+        toggle.setAttribute('aria-expanded', 'true');
       }
       function closeNav() {
         sidebar.classList.remove('open');
         overlay.classList.remove('show');
         toggle.classList.remove('active');
+        document.body.classList.remove('nav-open');
         toggle.setAttribute('aria-label', '開啟目錄');
+        toggle.setAttribute('aria-expanded', 'false');
       }
+      toggle.setAttribute('aria-expanded', 'false');
       toggle.addEventListener('click', function () {
         sidebar.classList.contains('open') ? closeNav() : openNav();
       });
       overlay.addEventListener('click', closeNav);
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape') closeNav();
+      });
       sidebar.querySelectorAll('a').forEach(function (a) {
         a.addEventListener('click', function () {
-          if (window.innerWidth <= 768) closeNav();
+          if (window.innerWidth <= 1023) closeNav();
         });
       });
     })();

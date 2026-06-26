@@ -366,7 +366,8 @@
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SteelSolitude.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl_Action.png`（如存在）
+**Reference Image**：
+- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **Creative Enhancements**：
 - Replace magical girl suit with transitioning doll-like appearance (porcelain aesthetic)
@@ -401,8 +402,8 @@ Canvas: 3:4 portrait ratio; high definition
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_Integration.png`
 
 **Reference Image**：
-- Primary：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`
-- Secondary：`art/ConceptArt/Characters/Yu/ConceptArt_Yu_Shadow.png`（如存在）
+- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
+- Yu Shadow：`ConceptArt_Yu_CasualWear.png`
 
 **Creative Enhancements**：
 - Create split/clash composition showing bright and shadow Haruka forms in violent collision (NOT smooth merge)
@@ -436,7 +437,8 @@ Canvas: Wide aspect ratio (16:9) for duality
 
 **建議輸出文件名**：`ConceptArt_Scene_BlackSong_Revelation.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png`（作為基礎變形）
+**Reference Image**：
+- Aya MagicalGirl 2（作為基礎變形）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **Creative Enhancements**：
 - Transform to show Kuroshio's true form: small 7-year-old body with overwhelming cosmic presence
@@ -470,7 +472,8 @@ Canvas: 3:4 portrait or 16:9 widescreen
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyFactory.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png`
+**Reference Image**：
+- Akane MagicalGirl：`ConceptArt_Akane_MagicalGirl.png`
 
 **Creative Enhancements**：
 - Show Akane in corpse-girl form: translucent ghost-like with candy crystalline hardshell exterior
@@ -502,7 +505,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_MirrorChamber.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Image**：
+- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **Creative Enhancements**：
 - Create impossible mirror chamber (multiple reflecting surfaces)
@@ -534,7 +538,8 @@ Canvas: 1:1 square (mirrors) or 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_MoonlightBreakdown.png`
 
-**Reference Image**：`art/ConceptArt/Scene/MiyakoScene/gdffgfgfg.jpg`（已有現成參考圖）
+**Reference Image**：
+- gdffgfgfg（已有現成參考圖）：`gdffgfgfg.jpg`
 
 **Creative Enhancements**：
 - Broken window frame with jagged shattered glass reflecting moonlight
@@ -583,8 +588,8 @@ Canvas: 16:9 landscape; high definition
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_FallenAngel.png`
 
 **Reference Image**：
-- Primary：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`
-- Secondary：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_1.png`（作為 Aya 被控制形態）
+- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
+- Aya MagicalGirl 1（作為 Aya 被控制形態）：`ConceptArt_Aya_MagicalGirl_1.png`
 
 **Creative Enhancements**：
 - Show sunlit street where light filters (日區 characteristic)
@@ -617,7 +622,8 @@ Canvas: Widescreen (16:9) to emphasize street depth
 
 **建議輸出文件名**：`ConceptArt_Scene_Aya_BodyReclaim.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Image**：
+- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **Creative Enhancements**：
 - Show moment of internal rebellion: Aya's consciousness rupturing through Kuroshio's control
@@ -650,7 +656,8 @@ Canvas: 3:4 portrait with sky visible above
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_FirstTransform.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_Singer.png`（日常形態）
+**Reference Image**：
+- Haruka Singer（日常形態）：`ConceptArt_Haruka_Singer.png`
 
 **Creative Enhancements**：
 - Show magical transformation sequence: goldfish flag elements merging with magical light
@@ -684,7 +691,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyMountain.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear_Action_1.png`（過載前）
+**Reference Image**：
+- Akane CasualWear Action 1（過載前）：`ConceptArt_Akane_CasualWear_Action_1.png`
 
 **Creative Enhancements**：
 - Show Akane at moment of overload transformation
@@ -723,7 +731,9 @@ Canvas: 3:4 portrait or widescreen to show landscape
 
 **建議輸出文件名**：`ConceptArt_Scene_GlassGarden_TeaParty.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png` + 環境參考（帝國塔頂溫室）
+**Reference Image**：
+- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
+- 環境參考：帝國塔頂溫室
 
 **簡化描述**（150-200字）：
 帝國塔頂的透明溫室，Kuroshio 以皇袍遮掩的幼女真身現身。玻璃構造映照三人與城市，光線冷漠而壓抑。這場茶會是最後的虛偽友善，暴露將至。
@@ -757,7 +767,8 @@ Canvas: Widescreen to emphasize landscape scope
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_StaticCradle.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`（轉變參考）
+**Reference Image**：
+- Haruka MagicalGirl（轉變參考）：`ConceptArt_Haruka_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 晴香在 Act IV 最終時刻化身靜止搖籃，身體粒子化為光點，成為新世界的錨點與基礎。她不再是主角，而是世界本身——一個永遠循環播放的搖籃曲。
@@ -778,7 +789,9 @@ Canvas: 3:4 portrait or square (world-forming)
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_DualForms.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png` + `ConceptArt_Rin_MagicalGirl_2.png`（如存在）
+**Reference Image**：
+- Rin MagicalGirl 1：`ConceptArt_Rin_MagicalGirl_1.png`
+- Rin MagicalGirl 2：`ConceptArt_Rin_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 凜的孔雀飛行員形態（光鮮官方）與痛苦烏鴉形態（暗巷真實）並置對比。同一靈魂卻被分裂成兩個角色，象徵制度對個體的扭曲與控制。
@@ -798,7 +811,8 @@ Canvas: Widescreen (16:9) for side-by-side comparison
 
 **建議輸出文件名**：`ConceptArt_Scene_Saku_DayNightDuality.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Saku/ConceptArt_Saku_CasualWear.png`
+**Reference Image**：
+- Saku CasualWear：`ConceptArt_Saku_CasualWear.png`
 
 **簡化描述**（150-200字）：
 朔的白色完美特務形態（日區）與綠松石獵人形態（夜區）對置。同一個人在兩個世界中的雙重角色。日區的優雅 vs. 夜區的殘暴，都是生存的必要。
@@ -818,7 +832,8 @@ Canvas: Widescreen or square
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_FormalismRuins.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Image**：
+- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操在廢棄工廠中獨舞，傀儡絲綾麗而危險地纏繞身體。她的舞蹈完美但詭異，控制與自由的邊界已然模糊。背景冷色工業感襯托孤獨的芭蕾。
@@ -839,7 +854,8 @@ Canvas: 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_BandaidPhilosophy_Triptych.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png`
+**Reference Image**：
+- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
 
 **簡化描述**（150-200字）：
 三個場景並置：（左）晴香用膠布包裹手指的日常習慣；（中）膠布作為系統暴力的隱喻；（右）膠布揭示為世界真相本身的虛偽遮蔽。從個人習慣升級為存在論批判。
@@ -860,11 +876,11 @@ Canvas: Widescreen triptych (3×square or one wide panel)
 **建議輸出文件名**：`ConceptArt_Scene_EmotionLink_Crisis.png`
 
 **Reference Image**：
-- Haruka Cat：`art/ConceptArt/Characters/Miyako/ConceptArt_Haruka_Cat.png`
-- Miyako Cat：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png`
-- Akiho MagicalGirl： `art/ConceptArt/Characters/Miyako/ConceptArt_Akiho_Cat.png`
-- Aya MagicalGirl：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_1.png`
-- Misao MagicalGirl：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png`
+- Haruka Cat：`ConceptArt_Haruka_Cat.png`
+- Miyako Cat：`ConceptArt_Miyako_Cat.png`
+- Akiho MagicalGirl：`ConceptArt_Akiho_Cat.png`
+- Aya MagicalGirl：`ConceptArt_Aya_MagicalGirl_1.png`
+- Misao MagicalGirl：`ConceptArt_Misao_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 戰鬥場景中，四人一貓情緒連結失控——四人在地上劇烈抽搐、掙扎，彷彿被無形的力量撕扯著。他們的身體蜷曲、扭動，手臂無力地拍打著地面。創傷記憶在彼此的腦中亂竄，造成現實中的生理痛楚——他們用力咬著牙、眼睛圓睜、額頭滲出冷汗。痛苦的呻吟與喘息聲混成一片。這不是視覺混雜，而是真實的、肉體的、無法承受的痛苦。
@@ -885,7 +901,8 @@ Canvas: Square or widescreen
 
 **建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_Collapse.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png`（黑奏顯露）
+**Reference Image**：
+- Aya MagicalGirl 2（黑奏顯露）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 帝國廣場決戰頂點瞬間崩塌——偽勝利的假象碎裂，色彩消失，寂靜地震。晴香隊伍發現真正的敵人不是想像的那樣，世界的邏輯完全改變。建築扭曲，市民凝滯。
@@ -928,7 +945,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_LightVeil_Shattered.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`
+**Reference Image**：
+- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 城市廣場中，無數市民圍觀現場。完美魔法少女的形象在眾人眼前開始閃爍、扭曲——光幕濾鏡在此刻全數破碎。晴香疲軟地雙膝跪地在廣場中央，整個身體向下崩潰。滿臉淚水、渾身發抖，衣衫凌亂，她用雙手撐著地面才勉強不倒下。她的說話方式改變了——不再是預錄的播報辭令，而是帶著哽咽與絕望的真實聲音，甚至發不出完整的句子。人群中傳出不同的反應：有人驚愕、有人尖叫、有人面露反感，還有人開始竊竊私語指責。市民首次親眼看見被隱藏的真相——曾經高高在上的「光之天使」，現在正在眾人面前崩潰、跪地、哭泣。
@@ -969,8 +987,8 @@ Canvas: 3:4 portrait or widescreen
 **建議輸出文件名**：`ConceptArt_Scene_HorrificHouse_School.png`
 
 **Reference Image**：
-- Haruka：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png`
-- Aya：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_CasualWear.png`
+- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
+- Aya CasualWear：`ConceptArt_Aya_CasualWear.png`
 
 **簡化描述**（150-200字）：
 晴香與彩在校園內維持致命的平衡——表面日常但充滿暗流。彼此的笑容背後是對方可能隨時背刺的恐懼。學校場景被陰影籠罩，日常物件顯得詭異且威脅。
@@ -991,7 +1009,8 @@ Canvas: Widescreen to show full classroom space
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_HumanityErased.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_TheAdministrationBureau.png`（如存在）
+**Reference Image**：
+- Rin TheAdministrationBureau：`ConceptArt_Rin_TheAdministrationBureau.png`
 
 **簡化描述**（150-200字）：
 凜穿著情緒管理局制服，個體特異性被消除，成為體制的執行機器。官方記錄身份掩蓋了她的人性。制服是枷鎖，職位是身份，這是制度對靈魂的物化。
@@ -1012,7 +1031,8 @@ Canvas: 3:4 portrait (ID photo style)
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_BetrawalTruth.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Akane/ConceptArt_Akane_CasualWear_Action_2.png`
+**Reference Image**：
+- Akane CasualWear Action 2：`ConceptArt_Akane_CasualWear_Action_2.png`
 
 **簡化描述**（150-200字）：
 朱音在後巷注射情緒毒品，對晴香的「希望」發出冷漠的嘲笑。她的背叛不是因為邪惡，而是徹底的絕望與現實妥協。這一刻她選擇了逃避而非戰鬥。
@@ -1033,7 +1053,8 @@ Canvas: 3:4 portrait or widescreen alley view
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_Abandoned.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Image**：
+- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操的父親親自打開大門投降，紗夜犧牲掩護女兒逃離。大宅在夜晚化為監獄，最親密的人成為最深的背刺。操在此刻失去對「家」與「父愛」的最後幻想。
@@ -1054,7 +1075,8 @@ Canvas: Widescreen to show spatial separation
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_ThreeStageAwakening.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png`（如存在）
+**Reference Image**：
+- Miyako MagicalGirl：`ConceptArt_Miyako_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 貓殼龜裂→月下窗台自我測試→晴香溫柔擁抱，三個階段連貫成美夜子的重生過程。她從被動保護者轉為主動選擇者，從虛假化身恢復為真實自我。
@@ -1076,8 +1098,8 @@ Canvas: Triptych or widescreen progression
 **建議輸出文件名**：`ConceptArt_Scene_ScarletTide_Backlash.png`
 
 **Reference Image**：
-- Haruka：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`
-- Aya：`art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png`
+- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
+- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 時間線被撕裂，緋潮如瀑布傾瀉，天空佈滿裂痕。過去與現在、Alpha 與 Beta 線的所有衝突在此刻爆發。現實在血紅與深紫的交界處碎裂，無法修復。
@@ -1099,7 +1121,8 @@ Canvas: Widescreen to show cosmic scope
 
 **建議輸出文件名**：`ConceptArt_Scene_Mother_GentleCage.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear.png`（晴香）
+**Reference Image**：
+- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
 
 **簡化描述**（150-200字）：
 永遠循環的晨間，花子端著熱湯，陽光開始暗淡。母愛的溫暖同時是囚禁，無論晴香如何逃脫，都會被溫柔地拉回到這個循環。夢境與現實的邊界已然消失。
@@ -1121,7 +1144,8 @@ Canvas: 3:4 portrait or square (cyclic framing)
 
 **建議輸出文件名**：`ConceptArt_Scene_Dissonance_Confrontation.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png`
+**Reference Image**：
+- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 鏡中倒影開始顯露滿身傷痕的戰士形態，與晴香在鏡前的溫柔形象形成極端對比。這是覺醒的第一步——認識到自己被分裂，被遺忘的另一半在鏡中呼喊。
@@ -1143,7 +1167,8 @@ Canvas: 3:4 portrait or square (mirror centered)
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_ReturnHumanity.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Image**：
+- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操砸碎完美人偶鏡子，決定回歸殘缺的真實身體。碎裂的鏡片反射著廢棄工廠，完美的虛假在此刻化為利刃。殘缺比完美更真實，更珍貴。
@@ -1165,7 +1190,8 @@ Canvas: 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_CatShellRecovery.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_Cat.png`
+**Reference Image**：
+- Miyako Cat：`ConceptArt_Miyako_Cat.png`
 
 **簡化描述**（150-200字）：
 美夜子在鏡子前看到腐爛紅色透視著的真實自我——被困在靈魂深處的怪物與少女的混雜體。治療房間的柔和光線無法隱蓋內部的黑暗，但她選擇接納。
@@ -1274,7 +1300,8 @@ Canvas: 3:4 portrait (mirror focus)
 
 童謠世界已碎裂，現實與魔法的界線模糊。愛莉的出現象徵著最後的救贖與希望，但同時也預示著她將付出最終的代價。這一幕成為整個故事的視覺轉折——從絕望到救贖的最後瞬間。
 
-**Reference Image**：`D:\Projects\ProjectHarukaDocument\art\ConceptArt\Characters\Aeri\_BAK\MagicalGirl_Aeri.jpg`（參考愛莉的魔法少女形態、劍的姿態、服裝設計）
+**Reference Image**：
+- Aeri MagicalGirl（參考愛莉的魔法少女形態、劍的姿態、服裝設計）：`MagicalGirl_Aeri.jpg`
 
 **所需資源**：
 - 愛莉的魔法少女形態（參考圖）
@@ -1468,7 +1495,8 @@ Canvas: 3:4 portrait (mirror focus)
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_DarkShowerHabit.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_CasualWear.png`（需調整為脆弱狀態）
+**Reference Image**：
+- Miyako CasualWear（需調整為脆弱狀態）：`ConceptArt_Miyako_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
 美夜子在完全黑暗的浴室中的私密儀式。除了蒙矇淋水聲與瓷磚滴水，世界陷入無聲。她身著解開紐扣的白色校服襬衫，水流直接接觸裸露肌膚。黑暗給予她匿名感與解離感——沒有面容，只有身軀在水中央搖晃。她的嘴唇無聲地動，用氣音呢喃已逝戰友的名字，如同喪禮念珠。水把她的淚與汗混淆，她無法區分身體邊界與水邊界。
@@ -1509,7 +1537,8 @@ Canvas: 3:4 portrait; intimate framing; high definition
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_RedLineCompulsion.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png`（需調整為日常狀態）
+**Reference Image**：
+- Rin MagicalGirl 1（需調整為日常狀態）：`ConceptArt_Rin_MagicalGirl_1.png`
 
 **詳細核心描述**（300-400字）：
 凜的房間一角，牆壁上用深紅色細線進行著強迫性的標記。這不是隨意的塗鴉，而是精確的、有規律的、不斷重複的行為——每條線都必須直、必須等距、必須染滿整個空間。
@@ -1540,7 +1569,8 @@ Canvas: 3:4 portrait focusing on hand and wall interface
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_GrindingBrokenBlade.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl.png`（需調整為黑暗狀態）
+**Reference Image**：
+- Miyako MagicalGirl（需調整為黑暗狀態）：`ConceptArt_Miyako_MagicalGirl.png`
 
 **詳細核心描述**（300-400字）：
 美夜子在祕密隱蔽處進行著一項無人知曉的儀式——她用砂輪反覆研磨著凜留給她的一把斷裂的武器刀片。這把刀曾經屬於凜，現在已經破損，無法使用。但美夜子無法丟棄它。
@@ -1571,7 +1601,8 @@ Canvas: 3:4 portrait or close-up focusing on hand-blade-sparks interaction
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_PhantomMelodyHabit.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png`（需調整為音樂時刻）
+**Reference Image**：
+- Rin MagicalGirl 2（需調整為音樂時刻）：`ConceptArt_Rin_MagicalGirl_2.png`
 
 **詳細核心描述**（300-400字）：
 凜進行著一項令人不安的強迫行為——她習慣性地開始哼唱某首旋律，卻在中途戛然而止。這首旋律沒有名字，沒有歌詞，只是一段殘缺的片段。她會重複進行這個動作：開始→停頓→沉默→再次開始。
@@ -1602,7 +1633,8 @@ Canvas: 3:4 portrait; intimate psychological focus
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_CompulsiveWashingRitual.png`
 
-**Reference Image**：`art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png`（需調整為脆弱狀態）
+**Reference Image**：
+- Misao CasualWear（需調整為脆弱狀態）：`ConceptArt_Misao_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
 操的浴室，白色磁磚被她每日的強迫清洗行為侵蝕得泛黃。她已經洗手 347 次今天——她計數著每一次。雙手因頻繁清洗而開裂、泛紅、甚至滲血，但她無法停止。
@@ -2438,7 +2470,7 @@ creates a deeply isolating emotional atmosphere.
 
 **Reference Images**：
 - `art/ConceptArt/Scene/ConceptArt_Aya_MagicalGirl_Action_2.jpg`（廢墟哥德空間、鎖鏈、壓迫性能量爆發）
-- `art/ConceptArt/Characters/Aya/9e344a9e-a688-4fa8-b0d1-fbbf6f76b262.png`（角色表情設定，特別是「血之雨的幕始」格）
+- `9e344a9e-a688-4fa8-b0d1-fbbf6f76b262.png`（角色表情設定，特別是「血之雨的幕始」格）
 
 **Creative Enhancements**：
 - 場景：帝國地下實驗室，非哥德廢墟——冷色鋼鐵牆面、測試裝置、監控儀器
@@ -2492,8 +2524,8 @@ Canvas: 3:4 portrait ratio --ar 3:4 --niji 6 --style raw
 - **後續payoff**：SPEC #77 凜犧牲（同一對角色的悲劇終局）；Act III Phase H2 Unit 00 揭露的情感衝擊；美夜子的終身 PTSD 根源
 
 **Reference Images**：
-- 凜：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png`（聖耀之翼・艾莉西亞，綠金色天使翼形態）
-- 美夜子：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl_Action_1.jpg`（雙槍、冰晶、深藍色戰鬥形態）
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`（聖耀之翼・艾莉西亞，綠金色天使翼形態）
+- 美夜子：`ConceptArt_Miyako_MagicalGirl_Action_1.jpg`（雙槍、冰晶、深藍色戰鬥形態）
 
 **Creative Enhancements**：
 - 場景：帝國歷108年前的軍方戰場，非個人情感場景——這是她們的巔峰配合，pure combat efficiency
@@ -2547,8 +2579,8 @@ Canvas: 16:9 widescreen --ar 16:9 --niji 6
 - **後續payoff**：Act II Phase A（E-05）美夜子認出重組的凜（SPEC #24）；Act III Phase H2 凜拒絕治癒（候選場景 W）；SPEC #6 月下崩潰（美夜子精神狀態根源）；Act IV 美夜子終於哭出來（候選場景 FF）
 
 **Reference Images**：
-- 凜：`art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_1.png`
-- 美夜子：`art/ConceptArt/Characters/Miyako/ConceptArt_Miyako_MagicalGirl_Action_1.jpg`
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`
+- 美夜子：`ConceptArt_Miyako_MagicalGirl_Action_1.jpg`
 
 **Creative Enhancements**：
 - 這是#76「黃金搭檔」的直接悲劇反轉——同一戰場，同樣的兩個人，但一切都在終結
