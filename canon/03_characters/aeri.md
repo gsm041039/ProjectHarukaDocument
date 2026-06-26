@@ -36,7 +36,7 @@
 
 ### 第一個人造屍骸
 
-愛莉闖入母親[秋穗](akiho.md)的實驗室接觸情緒力量裝置，意外成為[緋潮](../02_glossary.md#term-scarlet-tide)的第一個人類錨點——世界上第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)。現實中，她是一座冰冷的石像；精神世界中，她以「紙皮騎士」的姿態繼續戰鬥。
+愛莉闖入母親[秋穗](akiho.md)的實驗室接觸[情緒力量裝置](../02_glossary.md#term-emotional-power-device "絕大多數魔法少女依賴的外部裝置，用於連接集體潛意識。帝國內置監控與生物安全鎖(光環)。只有晴香、愛莉可直接使用魔法而無需依賴此裝置。")，意外成為[緋潮](../02_glossary.md#term-scarlet-tide)的第一個人類錨點——世界上第一個人造[魔法屍骸](../02_glossary.md#term-magical-corpse)。現實中，她是一座冰冷的石像；精神世界中，她以「紙皮騎士」的姿態繼續戰鬥。
 
 **See also**: [Timeline — 愛莉事故](../04_timeline_canon.md#event-aeri-accident)
 

@@ -202,11 +202,20 @@ Beta 線建立的曆法標準。
 ---
 
 ### <a id="term-emotional-power-device"></a>情緒力量裝置（Emotional Power Device）
-靈魂的旁路手術工具，現實穩定錨。
+魔法少女的必需輔助工具與帝國監控介面。
 
-由情緒結晶製成的金屬「萬能匙」，繞過內心提煉過程的速成器。軍方將少女精神推至極限，從心之器裂痕收割「靈魂之刺」（情緒結晶），鑄造為裝置。使用者燃燒自己未來靈魂換取現在力量，代價會急速放大（最終判定見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）。
+**核心規則**：
+- **絕大多數魔法少女無法自主使用魔法，必須依賴外部裝置作為「介面」連接集體潛意識。**
+- 帝國製造的裝置內置生物安全鎖（光環）與監控器，以強行開鎖的暴力形式激活使用者的心之器。
+- 使用者燃燒自己未來靈魂換取現在力量，代價會急速放大（最終判定見 [World Rules](01_world_rules_and_costs.md#section-irreversible)）。
 
-**See also**: [Emotion Crystal](#term-emotion-crystal) | [Entities](07_entities_and_devices.md#section-heart-container)
+**例外**：
+- **晴香、愛莉**：真正的魔法少女，可以繞過裝置直接使用魔法。晴香無需裝置就能驅動高級現實覆寫；愛莉則透過「濾心機制」在情緒連結中自然激活。
+
+**與民用版本 Emo-Visor 的關係**：
+- [Emo-Visor](#term-emo-visor) 是此設備的民用閹割版——移除監控與生物安全鎖，只保留情緒誘發功能。
+
+**See also**: [Emotion Crystal](#term-emotion-crystal) | [Emo-Visor](#term-emo-visor) | [Entities](07_entities_and_devices.md#section-heart-container)
 
 ---
 
@@ -216,7 +225,9 @@ Beta 線建立的曆法標準。
 
 當心之器情感能量被迫超飽和、無法消化時，這股能量在肉身層面結晶化。是心之器的自救反應。所有魔法少女情緒過載時都會經歷結晶化，表現形式因人而異（如晴香的淚水結晶化與皮膚裂痕）。
 
-**See also**: [Heart-Vessel](#term-heart-vessel) | [Emotional Erosion](#term-emotional-erosion)
+**帝國用途**：被收割成[情感採集系統](#term-emotional-logger)的高品質原料來源，或提煉為 Emo-Visor 膠囊。
+
+**See also**: [Heart-Vessel](#term-heart-vessel) | [Emotional Erosion](#term-emotional-erosion) | [情感採集系統](#term-emotional-logger)
 
 ---
 
@@ -331,12 +342,28 @@ Beta 線建立的曆法標準。
 ---
 
 <a id="term-emotion-drug"></a>
-### <a id="term-emo-visor"></a>情緒毒品 / Emo-Visor
-魔法少女裝置的民用閹割版。
+### <a id="term-emo-visor"></a>情緒毒品 / Emo-Visor（Emotional Memory Capsule System）[UPDATED]
+[情緒力量裝置](#term-emotional-power-device)的民用閹割版，同時是帝國「情緒資本主義」的關鍵商業終端。
 
-輕薄 VR 眼罩式裝置，直接刺激大腦邊緣系統。使用安普膠囊（透明子彈狀發光彈夾）作消耗品。戴上後看到「被美顏過的世界」，一支膠囊維持 30 分鐘，用完突然跌回殘酷現實。階級分化明顯，是黑奏「共振地獄」計劃的基礎設施。
+**硬體**：輕薄 VR 眼罩式裝置，直接刺激大腦邊緣系統。使用安普膠囊（透明子彈狀發光彈夾）作消耗品。戴上後看到「被美顏過的世界」，一支膠囊維持 30 分鐘，用完突然跌回殘酷現實。
 
-**See also**: [Resonance Hell](#term-resonance-hell) | [Emotional Capitalism](#term-emotional-capitalism)
+**原料來源**：三級品質的情緒記憶片段，依來源而定：
+
+| 等級 | 原料 | 品質 |
+|------|------|------|
+| **低級膠囊** | 普通人日常情緒片段 | 低品質、重複、粗劣 |
+| **中級膠囊** | 魔法少女戰鬥時的情緒裸露 | 高品質、多層次、純淨 |
+| **頂級膠囊** | 無意識兵器極端痛苦中戰鬥的絕望能量 | 最高純度、完全飽和、成癮性最強 |
+
+**運作機制**：[情感過濾與轉譯](#term-emotional-filtration)——不轉化痛苦，而是阻斷人腦對苦難的感知，並強制注入人工快感信號，令市民自動詮釋世界為「完美」。
+
+**社會分化**：階級分化明顯——金色光圈（精英）可優先獲得高級膠囊，灰色光圈（貧民）只能買低質品或被迫出賣自己的情緒換膠囊。是黑奏「共振地獄」計劃的社會基礎設施。
+
+**與軍方版本的差異**：移除監控與生物安全鎖（光環），保留純粹的情緒誘發功能；降低門檻使其大眾化，以便進行全城規模的集體情緒管理、剝削與依賴化。
+
+**終局意義**：Emo-Visor 本質上是對人性的工業化監禁——市民靠消費別人的痛苦記憶活著，同時貢獻自己的痛苦供他人消費。整個系統的道德結構是「由於都痛苦，所以沒人值得同情」。
+
+**See also**: [情感採集系統](#term-emotional-logger) | [情感過濾與轉譯](#term-emotional-filtration) | [情緒力量裝置](#term-emotional-power-device) | [Resonance Hell](#term-resonance-hell) | [Emotional Capitalism](#term-emotional-capitalism) | [World Rules：情緒資本主義](01_world_rules_and_costs.md#rule-emotional-capitalism) | [Entities: Emo-Visor 沿革](07_entities_and_devices.md#section-emo-visor)
 
 ---
 
@@ -377,6 +404,107 @@ Beta 線建立的曆法標準。
 ---
 
 ## <a id="section-magical-girl-corpse"></a>四、魔法少女與屍骸術語
+
+### <a id="term-armor-protection"></a>護甲 / 保護場域（Armor / Protection Field）[NEW]
+位於晴香五歲改變現實時所波及範圍內之少女的無意識保護機制。
+
+定義：晴香於帝國歷 102 年發動「改變現實」時，其靈魂波及範圍內的少女（Alpha 線因果牽連者）所獲得的底層代碼保護機制。允許被改造者保留完整自我意識與選擇自由。即使心之器損毀，護甲仍保護靈魂不被帝國侵蝕、不被強制改造。
+
+**故事意義**：
+- 為何路線 1 魔法少女（晴香、美夜子、紫音、操）即使遭遇失控仍保有人性與選擇
+- 為何帝國必須開發路線 2 與路線 3 來迴避護甲保護
+- 黑奏無論多強都無法剝奪、破壞此護甲——這是晴香作為創世者的絕對權限
+
+**不可逆**：護甲一旦確立，無法人為移除或改變。
+
+**See also**: [Alpha 線因果牽連原則](01_world_rules_and_costs.md#rule-alpha-qualification) | [無意識兵器](#term-unconscious-weapon) | [World Rules](01_world_rules_and_costs.md)
+
+---
+
+### <a id="term-unconscious-weapon"></a>無意識兵器 / 離解兵器（Unconscious Weapon）[NEW]
+被帝國強制改造的少女（缺乏護甲保護）的兵器化形態。
+
+定義：不在晴香五歲願望波及範圍內、因此缺乏護甲保護的普通少女，被帝國軍方或秋穗研究團隊強制開啟[心防內化裝置](07_entities_and_devices.md#section-trauma-cage)時，心之器結構性毀滅，碎片被 Emo-Visor 化學與物理手段強行黏合於「生肉裝甲」。意識與肉體分離，淪為帝國戰爭工具。
+
+**外觀特徵**：
+- 關節處有明顯的硬件熔焊痕跡
+- 動作機械化、非人類的關節活動方式
+- 無個人風格或表情變化
+
+**代表人物**：愛莉、美夜子（Unit 01 時期——強制改造的過渡版本）、凜（重組後的單層殘留型）
+
+**與路線 1 / 路線 2 的系統分類**：
+- **路線 1**：有護甲的真正魔法少女（被晴香標記）→ 保有自我、能選擇
+- **路線 2**：無護甲的無意識兵器 → 此項
+- **路線 3**：無護甲的普通人 → 魔法屍體 → 提煉為毒品原料
+
+**See also**: [心防內化裝置](07_entities_and_devices.md#section-trauma-cage) | [The Unlinked](07_entities_and_devices.md#section-unlinked) | [Emo-Visor](#term-emo-visor) | [World Rules](01_world_rules_and_costs.md)
+
+---
+
+### <a id="term-emotional-echo"></a>情緒迴響（Emotional Echo）[NEW]
+魔法屍骸在靈魂消散後，留下的純粹「負面情緒殘留」。
+
+定義：當心之器完全燃盡，靈魂徹底消散時，死者對生前痛苦的最後迴聲。不是靈魂，不是執念，而是情感耗損光譜終點的「純痛苦結晶」。
+
+**性質**：
+- 無自主意識，無執念推動
+- 純粹是物理層情緒能量的餘波
+- 不會主動攻擊，但被動存在於環境中
+
+**帝國用途**：提煉此物作為 Emo-Visor 的原始原料——最無污染的純負面情緒能量。
+
+**與情緒結晶的區別**：
+- 情緒結晶 = 極端情緒的暫時具現化（可回收、可用）
+- 情緒迴響 = 靈魂消散後的最後痕跡（不可回收、只能轉化）
+
+**See also**: [心之器](02_glossary.md#term-heart-vessel) | [Emo-Visor](#term-emo-visor) | [World Rules：情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)
+
+---
+
+### <a id="term-emotional-logger"></a>情感採集系統（Emotional Logger）[NEW]
+帝國通過魔法少女的鑰匙與全民監控網路進行的「情緒訊號採集機制」。
+
+定義：係帝國『情緒資本主義』體系的核心基礎設施。通過以下三級品質來源進行實時採集與品質分級：
+
+**三級品質原料**：
+1. **普通人日常情緒**：低品質，日常細碎情緒片段
+2. **魔法少女因鑰匙而情緒裸露**：高品質、豐富、多層次
+3. **無意識兵器在極端痛苦中戰鬥**：最高純度，完全饱和絕望能量
+
+**採集裝置**：
+- 鑰匙 = 戰鬥工具 + 情緒採集器（同時進行）
+- [維多利亞之淚](02_glossary.md#term-tears-of-victoria) = 中央收集/品質分級樞紐
+- 民用 [Emo-Visor](#term-emo-visor) 反向系統 = 消費端與回饋訊號源
+
+**完整閉環**：採集 → 品質分級 → 膠囊化 → 販售 → 市民成癮 → 情緒麻木 → 帝國需要更多兵器 → 擴大採集規模
+
+**See also**: [情感過濾與轉譯](#term-emotional-filtration) | [情緒力量裝置](02_glossary.md#term-emotional-power-device) | [Emo-Visor](#term-emo-visor) | [World Rules：情緒資本主義](01_world_rules_and_costs.md#rule-emotional-capitalism)
+
+---
+
+### <a id="term-emotional-filtration"></a>情感過濾與轉譯（Emotional Filtration & Translation）[NEW]
+Emo-Visor 的核心運作原理，實現「痛苦隱形化」的關鍵機制。
+
+定義：不轉化絕望，而是阻斷人腦對「真實痛苦」的感知能力，並強制注入「人工多巴胺信號」，迫使人腦將眼前的世界自動詮釋為「完美、快樂、無瑕」。
+
+**三層機制**：
+
+| 層次 | 功能 | 結果 |
+|------|------|------|
+| **L1：感知阻斷** | 對痛苦刺激的神經路徑被選擇性切斷 | 市民「看不到」苦難本身 |
+| **L2：信號注入** | 人工多巴胺訊號強制輸入 | 市民被迫「感到快樂」 |
+| **L3：詮釋強制** | 腦部自動填補感知缺口，詮釋為「完美世界」 | 市民主動相信「這個世界很好」 |
+
+**與真理的關係**：
+- 不是「魔法消除痛苦」（那會違反情緒守恆定律）
+- 而是「帝國監獄心靈感知，令使用者無法觸及真實」
+
+**終局後果**：當 Emo-Visor 功能失效（緋潮、維多利亞之淚損毀），市民同步瞬間面對被長期隱瞞的「真實世界」的衝擊，導致大規模精神崩潰。
+
+**See also**: [Emo-Visor](#term-emo-visor) | [維多利亞之淚](02_glossary.md#term-tears-of-victoria) | [World Rules：情緒資本主義](01_world_rules_and_costs.md#rule-emotional-capitalism) | [情感採集系統](#term-emotional-logger)
+
+---
 
 ### <a id="term-magical-girl"></a>魔法少女（Magical Girl）
 與自己鏡中倒影簽訂浮士德式協議的悲劇少女。
