@@ -3247,6 +3247,8 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 A teenage girl in a torn princess dress sits alone in a dark alley at night, holding a melted lollipop, a stray cat beside her. Distant city lights. A lone figure watches from far away. Melancholy. No gore. Painterly anime style.
 --ar 16:9 --niji 6
+
+
 圖91：「操絲線縫牙」（Misao Sews Her Teeth with Puppet Strings）[ACT_II]
 建議輸出文件名：ConceptArt_Scene_Misao_PuppetStringTeeth.png
 
@@ -3284,6 +3286,8 @@ Canvas: 1:1 --ar 1:1 --niji 6 --style raw
 
 A teenage girl with perfect makeup calmly sews glowing golden threads through her own teeth in front of a bathroom mirror. Clinical lighting. Mirror reflection visible. Focused, not pained. Dark magical girl art style. No extreme gore.
 --ar 1:1 --niji 6
+
+
 圖92：「美夜子無價值留守」（Miyako's Worthless Vigil）[ACT_II]
 建議輸出文件名：ConceptArt_Scene_Miyako_WorthlessVigil.png
 
@@ -3323,6 +3327,8 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 A girl hiding alone in an abandoned subway station with knees pulled up. A small white cat quietly places a soda can near her and sits at a distance, looking away. Silent companionship. Cold fluorescent light. Dark anime style.
 --ar 16:9 --niji 6
+
+
 圖93：「凜重組後第一次遇見美夜子」（Rin's First Encounter with Miyako After Reassembly）[ACT_II]
 建議輸出文件名：ConceptArt_Scene_Rin_MiyakoFirstEncounter.png
 
@@ -3362,6 +3368,8 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 A white cat in a hallway extends its paw toward a girl in a dark uniform who walks away without looking back. Empty corridor. Cold fluorescent light. Quiet devastation. Dark anime style.
 --ar 9:16 --niji 6
+
+
 圖94：「晴香感應到『彩不在』」（Haruka Senses "Aya Isn't Here"）[ACT_II]
 建議輸出文件名：ConceptArt_Scene_Haruka_AyaAbsenceSense.png
 
@@ -3596,6 +3604,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 A man stands in shadow watching a white cat with glowing ice-blue eyes in the distance at night. The cat is unaware of being watched. Silent recognition across distance. Dark anime style.
 --ar 16:9 --niji 6
+
 圖100：「凜的最終選擇——Unit 00-Null揭露」（Rin's Final Choice: Unit 00-Null Revelation）[ACT_III]
 建議輸出文件名：ConceptArt_Scene_Rin_FinalChoiceUnit00.png
 
@@ -3637,6 +3646,8 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 Two girls facing each other in a dim hallway. One extends her hand palm-up offering help. The other gently pushes it aside, expression calm and already decided. A red scar line visible at her neck. Dark anime style. Emotional restraint.
 --ar 16:9 --niji 6
+
+
 圖101：「嘆息之橋——凜獨角」（Sigh Bridge: Rin's Solo Moment）[ACT_III]
 建議輸出文件名：ConceptArt_Scene_Rin_SighBridgeSolo.png
 

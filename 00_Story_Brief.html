@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html lang="zh-Hant">
 
@@ -4340,18 +4340,29 @@
 
     <div class="sb-label">03 角色資料庫</div>
     <a href="#chars">角色介紹</a>
+    <div style="font-size:9.5px;letter-spacing:.08em;color:var(--muted);padding:6px 10px 2px;text-transform:uppercase">主角</div>
     <a class="sub" href="#c-haruka">春日井晴香</a>
     <a class="sub" href="#c-miyako">水無月美夜子</a>
+    <div style="font-size:9.5px;letter-spacing:.08em;color:var(--muted);padding:6px 10px 2px;text-transform:uppercase">核心軸心</div>
     <a class="sub" href="#c-keishi">葉語彩 / 刑思</a>
     <a class="sub" href="#c-fei">菲</a>
+    <div style="font-size:9.5px;letter-spacing:.08em;color:var(--muted);padding:6px 10px 2px;text-transform:uppercase">主線悲劇</div>
     <a class="sub" href="#c-sou">綾小路操</a>
-    <a class="sub" href="#c-sou-father">綾小路宗一郎</a>
-    <a class="sub" href="#c-sou-mother">華麗淇</a>
     <a class="sub" href="#c-akane">不知火紫音</a>
     <a class="sub" href="#c-rin">綾瀨凜</a>
-    <a class="sub" href="#c-saku">白銀朔</a>
     <a class="sub" href="#c-akiho">東雲秋穗</a>
-    <a class="sub" href="#c-hikaru">其他角色</a>
+    <a class="sub" href="#c-hanako">東雲花子</a>
+    <div style="font-size:9.5px;letter-spacing:.08em;color:var(--muted);padding:6px 10px 2px;text-transform:uppercase">支線關鍵</div>
+    <a class="sub" href="#c-airi">東雲愛莉</a>
+    <a class="sub" href="#c-saku">白銀朔</a>
+    <a class="sub" href="#c-hikaru">小光</a>
+    <a class="sub" href="#c-sayo">綾小路紗夜</a>
+    <a class="sub" href="#c-bully">雷子健</a>
+    <div style="font-size:9.5px;letter-spacing:.08em;color:var(--muted);padding:6px 10px 2px;text-transform:uppercase">其他角色</div>
+    <a class="sub" href="#c-sou-father">綾小路宗一郎</a>
+    <a class="sub" href="#c-sou-mother">華麗淇</a>
+    <a class="sub" href="#c-manager">溫善言</a>
+    <a class="sub" href="#c-hotaru">螢</a>
     <a href="#rels">人物關係</a>
 
     <div class="sb-div"></div>
@@ -7664,6 +7675,12 @@
                 <span class="badge badge-support">支線關鍵</span>
                 <div class="char-name">綾小路<a href="#c-sayo">紗夜</a></div>
               </summary>
+              <div class="char-imgs">
+                <div class="char-img-item">
+                  <img src="art/ConceptArt/Characters/Sayo/ConceptArt_Sayo_Maidoutfit.png" alt="綾小路紗夜 便服" />
+                  <div class="char-img-cap">女傭服</div>
+                </div>
+              </div>
               <div class="char-body">
                 <p
                   style="font-size:12px;color:var(--muted);font-style:italic;margin:0 0 10px;padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15)">
@@ -9732,12 +9749,25 @@
   </main>
   <script>
     // ── Sidebar smooth scroll + active highlight ──
+    function openParentDetails(target) {
+      var p = target;
+      while (p && p !== document.body) {
+        if (p.tagName === 'DETAILS') p.open = true;
+        p = p.parentElement;
+      }
+    }
     const links = document.querySelectorAll('.sidebar a[href^="#"]');
     links.forEach(a => {
       a.addEventListener('click', e => {
         e.preventDefault();
         const t = document.querySelector(a.getAttribute('href'));
-        if (t) t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        if (t) {
+          openParentDetails(t);
+          requestAnimationFrame(() => {
+            t.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            history.replaceState(null, '', a.getAttribute('href'));
+          });
+        }
       });
     });
     const secs = document.querySelectorAll('[id]');
@@ -9840,15 +9870,18 @@
         if (!selector) return;
         var target = document.querySelector(selector);
         if (!target) return;
+        openParentDetails(target);
         var host = target.classList && target.classList.contains('timeline-event') ? target : target.closest('.timeline-event') || target;
-        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        if (host.classList) {
-          host.classList.remove('target-flash');
-          void host.offsetWidth;
-          host.classList.add('target-flash');
-          window.setTimeout(function () { host.classList.remove('target-flash') }, 1600);
-        }
-        if (history && history.replaceState) { history.replaceState(null, '', selector) }
+        requestAnimationFrame(function () {
+          target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          if (host.classList) {
+            host.classList.remove('target-flash');
+            void host.offsetWidth;
+            host.classList.add('target-flash');
+            window.setTimeout(function () { host.classList.remove('target-flash') }, 1600);
+          }
+          if (history && history.replaceState) { history.replaceState(null, '', selector) }
+        });
       }
       document.querySelectorAll('[data-jump-to]').forEach(function (el) {
         el.addEventListener('click', function (e) {
