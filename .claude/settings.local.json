@@ -1,38 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Bash(Get-ChildItem -Path \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\03_characters\" -Filter \"*.md\")",
-      "Bash(Select-Object Name)",
-      "Bash(Get-ChildItem -Name *.md)",
-      "Bash(Select-String -Pattern \"WORLD|FACT\" -AllMatches)",
-      "Bash(Get-ChildItem -Path \"C:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\canon_fact_map\" -ErrorAction SilentlyContinue)",
-      "Bash(Get-ChildItem \"c:\\\\Projects\\\\ProjectHarukaDocument\\\\canon\\\\_working\\\\conflict_resolution\\\\\" -File | Select-Object Name, LastWriteTime | Sort-Object LastWriteTime -Descending)",
-      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" diff --name-only)",
-      "Bash(git -C \"c:\\\\Projects\\\\ProjectHarukaDocument\" remote -v)",
-      "Bash(gh repo *)",
-      "Bash(python3 -c ' *)",
-      "Bash(python3)",
-      "Bash(find c:\\\\\\\\Projects\\\\\\\\ProjectHarukaDocument\\\\\\\\backup -name \"*.md\" -type f)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch3.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch4.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch5.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch6.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch7.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch8.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patch9.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchA.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchB.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchC.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchD.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchE.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchF.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchG.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchH.py)",
-      "Bash(python3 c:/Projects/ProjectHarukaDocument/_patchI.py)"
+      "Bash(*)"
     ],
     "ask": [
       "Bash(git commit:*)",
       "Bash(git push:*)"
-    ]
+    ],
+    "defaultMode": "bypassPermissions"
   }
 }

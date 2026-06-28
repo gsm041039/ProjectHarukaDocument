@@ -724,12 +724,15 @@
       flex-direction: column;
       align-items: center;
       gap: 12px;
-      cursor: zoom-out
+      cursor: zoom-out;
+      max-height: 95vh;
+      overflow-y: auto;
+      padding: 8px 4px
     }
 
     #dlg-inner img {
       max-width: 88vw;
-      max-height: 82vh;
+      max-height: 60vh;
       object-fit: contain;
       border-radius: 6px;
       box-shadow: 0 8px 48px rgba(0, 0, 0, .6);
@@ -737,16 +740,30 @@
       width: auto;
       height: auto;
       transform: none;
-      transition: none
+      transition: none;
+      flex-shrink: 0
     }
 
-    #dlg-cap {
-      color: rgba(255, 255, 255, .8);
+    #dlg-info {
+      max-width: min(860px, 88vw);
+      background: rgba(17,10,46,.95);
+      border: 1px solid rgba(124,58,237,.35);
+      color: #d4c8f0;
+      padding: 18px 22px;
+      border-radius: 10px;
+      margin-top: 4px
+    }
+    #dlg-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #c4b5fd;
+      margin: 0 0 10px 0
+    }
+    #dlg-desc {
       font-size: 12px;
-      background: rgba(0, 0, 0, .5);
-      padding: 5px 16px;
-      border-radius: 20px;
-      letter-spacing: .05em;
+      line-height: 1.8;
+      color: #d4c8f0;
+      white-space: pre-wrap;
       margin: 0
     }
 
@@ -7161,7 +7178,7 @@
                     <strong>主題關聯</strong>：子主題 A（力量的代價）+ 子主題 C（身份的本質）。她的墮落是「以戰鬥麻醉罪惡感」的代價鏈——情感越迴避，代價越重。
                   </p>
                   <div style="margin-top:12px">
-                                        <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Akane_MagicalGirl_Action_2.png" alt="紫音 魔法少女形態" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">魔法少女形態——完全加入管理局後的紫音，甜品師武裝，笑容已成面具</figcaption></figure>
+                                        <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Akane_MagicalGirl_Action.png" alt="紫音 魔法少女形態" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">魔法少女形態——完全加入管理局後的紫音，甜品師武裝，笑容已成面具</figcaption></figure>
                   </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
@@ -7353,8 +7370,7 @@
 
 <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">拒絕被救——晴香找到治癒凜的方法，凜以一個輕小確定的動作推開她伸出的手。不是崩潰，是已決定好的平靜</figcaption>
 </figure>
-                  </div>
-                </div><!-- /char-body -->
+                  </div><!-- /char-body -->
               </div><!-- /outer flex -->
               <details class="char-design">
                 <summary>視覺設計</summary>
@@ -7707,6 +7723,12 @@
                 <div class="char-real">8–10歲 · 夜區小學生</div>
               </summary>
               <div class="char-body">
+                <div class="char-imgs">
+                  <div class="char-img-item">
+                    <img alt="小光 日常服" src="art/ConceptArt/Characters/Ko/ConceptArt_Ko_CasualWear.png" />
+                    <div class="char-img-cap">日常服</div>
+                  </div>
+                </div>
                 <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:0 0 10px;font-size:12px">
                   <div
                     style="padding:5px 9px;background:rgba(255,255,255,.04);border-radius:4px;border-left:2px solid rgba(255,255,255,.15);color:var(--muted);font-style:italic">
@@ -8220,11 +8242,21 @@
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
                       class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou"
                       href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div>
+                <div style="margin-top: 12px; display: flex; justify-content: center;">
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_EmotionLink_Crisis.png" alt="SPEC#18" style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
                 </div>
+              </div>
                 <div class="story-node"><strong>4. 日常裂開</strong><span>戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。</span>
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
                       class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou"
                       href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div>
+                <div style="margin-top:12px;display:flex;justify-content:center;"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Misao_DessertToothDrop.png" alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="甜品店或室內餐桌場景，氣氛溫馨輕鬆。操與晴香及其他人圍桌而坐，桌上擺放著各式甜品——蛋糕、馬卡龍、布丁、鬆餅，色彩繽紛，燈光明亮溫暖。所有人都在笑、在聊天、在享受當下。
+
+過肩鏡頭角度（Over-the-shoulder shot）：鏡頭從操的後方越過她的肩膊，捕捉到她的左手伸在身體側面，掌心微微向上，托著兩至三隻帶血的牙齒。牙齒白色，牙根末端有深紅血跡，剛剛從牙槽脫落不久，仍然濕潤。
+
+操的面部表情——透過鏡頭邊緣或側臉隱約可見——呈現極度驚恐的神態：眼睛瞪大、瞳孔收縮、嘴唇微微顫抖，彷彿剛剛意識到自己正在以某種難以言說的方式走向死亡。那是一種「我快死了」的本能恐懼——不是痛，而是察覺到身體正在崩壞、失控、脫離自己的那種存在性的恐懼。她的右手仍機械性地握著甜品餐具，動作僵住了一半，停在半空中。
+
+背景中，晴香和其他人仍然笑著交談，沒有人看向操的方向，沒有人察覺任何異樣。歡笑聲與操臉上的死亡恐懼形成最殘忍的對比——她被困在那份恐懼裡，四周卻是完全正常的甜品局氣氛。" style="cursor:pointer;max-width:280px;max-height:200px;border-radius:6px;border:1px solid rgba(124,58,237,0.3);" /></div>
                 </div>
                 <div class="story-node"><strong>5. 紫音墮落</strong><span>紫音珍視的小孩死後變成屍骸，她無法再相信人類世界，轉而把屍骸當成需要保護的孩子。</span>
                   <div class="node-chars"><a class="char-tag" data-char="akane" href="#c-akane">紫音</a></div>
@@ -8334,10 +8366,16 @@
                     菲直播失控</strong><span>在公開直播中，晴香體內的陰影人格菲奪取身體，吸走觀眾情緒，令全城第一次看見「天使」濾鏡下的恐怖真相。</span>
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
                       class="char-tag" data-char="fei" href="#c-fei">菲</a></div>
+                <div style="margin-top: 12px; display: flex; justify-content: center;">
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Haruka_LiveBroadcastBreak.png" alt="SPEC#95" style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
                 </div>
+              </div>
                 <div class="story-node"><strong>6. 天使變公敵</strong><span>直播片段無法刪除，晴香由被崇拜的國民天使，瞬間變成人人恐懼的情緒吸血鬼。</span>
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div>
+                <div style="margin-top: 12px; display: flex; justify-content: center;">
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_LightVeil_Shattered.png" alt="SPEC#21" style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
                 </div>
+              </div>
                 <div class="story-node"><strong>7. 帝國清算</strong><span>帝國把失控影像當成證據，推動反魔法少女輿論，將晴香塑造成必須被清除的社會威脅。</span>
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a></div>
                 </div>
@@ -8476,7 +8514,10 @@
                 <div class="story-node" role="button" tabindex="0" data-jump-to="#tl-sou-doll-wall"><strong>1.
                     操人偶牆</strong><span>操被敵人的空間封鎖機制逼入死角，冷靜地用魔法絲線將自己縫入廢墟成為「人偶牆」，為隊友換取六十秒逃生。臨終前她說：「我選擇停留在我想停留的位置。」——這不是被迫，而是主動為自己的生命選擇了意義。</span>
                   <div class="node-chars"><a class="char-tag" data-char="sou" href="#c-sou">操</a></div>
+                <div style="margin-top: 12px; display: flex; justify-content: center;">
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Misao_SteelSolitude.png" alt="SPEC#1" style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
                 </div>
+              </div>
                 <div class="story-node" role="button" tabindex="0" data-jump-to="#tl-shion-self-destruct"><strong>2.
                     紫音自爆</strong><span>紫音在帝國廣場主動過載，以生命為代價為隊友擋住災難擴散。</span>
                   <div class="node-chars"><a class="char-tag" data-char="akane" href="#c-akane">紫音</a></div>
@@ -8570,7 +8611,18 @@
                 <div class="story-node"><strong>3. 凜介錯</strong><span>凜拒絕被治癒，選擇切除情感成為殺戮機器；美夜子親手為她執行介錯。</span>
                   <div class="node-chars"><a class="char-tag" data-char="rin" href="#c-rin">凜</a><a class="char-tag"
                       data-char="miyako" href="#c-miyako">美夜子</a></div>
+                <div style="margin-top: 12px; display: flex; justify-content: center;">
+                  <img src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_Kaishakunin.png" alt="廢墟戰場——崩塌的混凝土、斷裂的鋼筋。槍聲還在空氣中迴盪。光線冷硬而蒼白，滿地是彈殼反光。
+
+凜已經不是凜了。她的身體被淡金色的傀儡絲徹底改造，4肢以非人類的角度扭曲著，關節反向彎折。她像一隻巨大的、被操縱的怪物，張牙舞爪地蜷縮在半蹲的戰鬥姿態裡。她的口腔張開，發出無聲的嘶鳴——那種聲音應該是人類發不出來的。她的眼睛空洞而獵食性的，沒有一絲人性。Unit 00-Null 正在做它被設計來做的事：進攻。
+
+美夜子面對著這個怪物，雙手各握一把 MP7A1 衝鋒槍，槍口指向前方。她的制服已經被血和塵埃弄髒，她的呼吸在面罩後沉重而急促。每一次凜撲來，她都扣動扳機——子彈掃過那具扭曲的身軀，傀儡絲在槍火下閃爍著詭異的光。
+
+在她們之間的空間裡，充滿了火力與鮮血。凜一次次地從地上爬起來，向美夜子撲去，傀儡絲驅使著這具軀殼不知疲倦地攻擊。美夜子的手指在扳機上，她已經開了無數槍，但每一槍都像是在殺死一部分自己。
+
+她需要結束這個。不是因為她想要戰勝，而是因為她必須讓凜停止痛苦——讓這個已經不是凜的怪物停止被操縱。在火力和淚水中，介錯成為了一種殘酷的必然。" style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
                 </div>
+              </div>
                 <div class="story-node"><strong>4.
                     二十年沉睡</strong><span>菲的改變現實失敗後，晴香意識被拉入集體潛意識最深處，受困於刑思遺留的「態度剝奪詛咒」（一種剝除主體對命運主動態度的靈魂詛咒，令被困者無法以意志力醒來）長達二十年；菲以晴香的肉體在廢墟中孤獨守護。</span>
                   <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
@@ -8636,6 +8688,11 @@
                 <div class="story-node"><strong>3.
                     愛莉現身</strong><span>晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局。</span>
                   <div class="node-chars"><a class="char-tag" data-char="airi" href="#c-airi">愛莉</a></div>
+                <div style="margin-top:12px;display:flex;justify-content:center;"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Aeri_NurseryRhymeWorld.png" alt="童謠世界——被困石像期間，愛莉守護晴香靈魂空間的精神世界" class="scene-desc-btn" data-title="童謠世界——被困石像期間，愛莉守護晴香靈魂空間的精神世界" data-desc="愛莉第2次改變現實——她以魔法少女形態出現在晴香面前。穿著紅紫色的魔法少女服裝，握著銀色長劍，長橙色頭髮在光芒中飄揚，她穩穩地站在晴香前面，架起劍作戰鬥姿態。
+
+對比鮮明的是地上的晴香——滿面傷痕、瘡痍，衣衫破碎，整個身體都是戰鬥的痕跡。她舉起頭，眼神中充滿絕望與哀求，望向前方穩穩挺立的愛莉。在這一刻，愛莉成為了唯一的光——用魔法之劍破開光幕濾鏡的最後牢籠，用堅定的身軀為晴香築起防線。
+
+童謠世界已碎裂，現實與魔法的界線模糊。愛莉的出現象徵著最後的救贖與希望，但同時也預示著她將付出最終的代價。這一幕成為整個故事的視覺轉折——從絕望到救贖的最後瞬間。" style="cursor:pointer;max-width:280px;max-height:200px;border-radius:6px;border:1px solid rgba(124,58,237,0.3);" /></div>
                 </div>
                 <div class="story-node"><strong>4.
                     不同態度</strong><span>愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種，也是愛莉走向對決的起點。</span>
@@ -9914,7 +9971,7 @@
     // ── Image lightbox (<dialog>) ──
     const dlg = document.createElement('dialog');
     dlg.id = 'img-dialog';
-    dlg.innerHTML = '<div id="dlg-inner"><img id="dlg-img" alt=""><p id="dlg-cap" style="display:none"></p></div>';
+    dlg.innerHTML = '<div id="dlg-inner"><img id="dlg-img" alt=""><div id="dlg-info" style="display:none"><h2 id="dlg-title"></h2><div id="dlg-desc"></div></div></div>';
     document.body.appendChild(dlg);
 
     function closeDlg() { try { dlg.close(); } catch (e) { } }
@@ -9934,14 +9991,23 @@
       var existing = document.getElementById('dlg-img');
       existing.parentNode.replaceChild(clone, existing);
 
-      var cap = (img.closest('.char-img-item') && img.closest('.char-img-item').querySelector('.char-img-cap'))
-        ? img.closest('.char-img-item').querySelector('.char-img-cap').textContent
-        : (img.closest('.design-img') && img.closest('.design-img').querySelector('.design-img-cap'))
-          ? img.closest('.design-img').querySelector('.design-img-cap').textContent
-          : (img.alt || '');
-      var capEl = document.getElementById('dlg-cap');
-      capEl.textContent = cap;
-      capEl.style.display = cap ? '' : 'none';
+      var dlgTitle = document.getElementById('dlg-title');
+      var dlgDesc  = document.getElementById('dlg-desc');
+      var dlgInfo  = document.getElementById('dlg-info');
+      if (img.classList.contains('scene-desc-btn')) {
+        dlgTitle.textContent = img.dataset.title || img.alt || '';
+        dlgDesc.textContent  = img.dataset.desc  || '';
+        dlgInfo.style.display = '';
+      } else {
+        var cap = (img.closest('.char-img-item') && img.closest('.char-img-item').querySelector('.char-img-cap'))
+          ? img.closest('.char-img-item').querySelector('.char-img-cap').textContent
+          : (img.closest('.design-img') && img.closest('.design-img').querySelector('.design-img-cap'))
+            ? img.closest('.design-img').querySelector('.design-img-cap').textContent
+            : (img.alt || '');
+        dlgTitle.textContent = cap;
+        dlgDesc.textContent  = '';
+        dlgInfo.style.display = cap ? '' : 'none';
+      }
 
       if (dlg.showModal) {
         dlg.showModal();
@@ -10275,35 +10341,6 @@
 
 
 
-<!-- Scene description modal -->
-<div id="scene-modal" style="display:none;position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.72);align-items:center;justify-content:center;padding:20px" onclick="if(event.target===this)closeSceneModal()">
-  <div style="background:#110a2e;border:1px solid rgba(124,58,237,.5);border-radius:10px;max-width:560px;width:100%;max-height:80vh;overflow:hidden;display:flex;flex-direction:column">
-    <div style="display:flex;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid rgba(124,58,237,.25)">
-      <span id="scene-modal-title" style="font-size:12px;color:#c4b5fd;font-weight:600"></span>
-      <button onclick="closeSceneModal()" style="background:none;border:none;color:#888;font-size:18px;cursor:pointer;line-height:1;padding:0 4px">&times;</button>
-    </div>
-    <div id="scene-modal-body" style="padding:16px;overflow-y:auto;font-size:12px;line-height:1.8;color:#d4c8f0;white-space:pre-wrap"></div>
-  </div>
-</div>
-<script>
-document.addEventListener('click', function(e) {
-  var btn = e.target.closest('.scene-desc-btn');
-  if (!btn) return;
-  openSceneModal(btn.dataset.title, btn.dataset.desc);
-});
-function openSceneModal(title, desc) {
-  var m = document.getElementById('scene-modal');
-  document.getElementById('scene-modal-title').textContent = title;
-  document.getElementById('scene-modal-body').textContent = desc;
-  m.style.display = 'flex';
-  document.addEventListener('keydown', escSceneModal);
-}
-function closeSceneModal() {
-  document.getElementById('scene-modal').style.display = 'none';
-  document.removeEventListener('keydown', escSceneModal);
-}
-function escSceneModal(e) { if (e.key === 'Escape') closeSceneModal(); }
-</script>
 
 </body>
 

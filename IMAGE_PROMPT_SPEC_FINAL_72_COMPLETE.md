@@ -1,13 +1,13 @@
-﻿# Project Haruka — 73 場景完整 Image Prompt 規範
+﻿# Project Haruka — 130 場景完整 Image Prompt 規範
 
-**生成日期**：2026-06-25
-**基礎資料**：Canon 全幕故事大綱 + 6 個基礎概念藝術 + 56 個既有場景 + 16 個新增私密場景 + 1 個新增日常潛入場景
+**生成日期**：2026-06-28
+**基礎資料**：Canon 全幕故事大綱 + 127 個核心場景 + 3 個新增缺失場景（打怪無效、天使變公敵、美夜子介錯）
 **策略**：Reference-driven（有圖跟圖）+ Simplified（無圖簡化）+ Private Intimate Moments（私密場景新增）
 **用途**：用於 Midjourney / DALL-E / 其他 AI 繪圖工具的提示詞
 
 ---
 
-## 📋 場景清單總覽（127 個）
+## 📋 場景清單總覽（130 個）
 
 | # | 場景名稱（中文）| 場景名稱（英文）| 主要角色 | Act | 時段/階段 | ⭐ | 建議文件名 | 簡要描述 |
 |---|---|---|---|---|---|---|---|---|
@@ -138,6 +138,8 @@
 | 125 | 無名男孩速寫簿 | 113年 Act II | 08_narrative §無名男孩；[待確認CDL] | 城市日常角落 → 速寫簿記錄「維多利亞天使」的消失過程 → 普通人視角見証社會性死亡 |
 | 126 | 操在集體潛意識尋見母親碎片 | 114年 Act III | misao.md §紗夜；CDL-298 | 操帶著罪疚進入集體潛意識 → 找到紗夜的記憶碎片，無法觸碰 → 操放下執念，SPEC#1鋼鐵獨舞 |
 | 127 | 膠布哲學第四層——覺醒後撕膠布 | 134年7月 Act IV | CDL-088；haruka.md §膠布哲學 | 膠布哲學三層全部揭露後 → 晴香主動撕下手腕的膠布，傷口已癒合 → 「已經不需要了」——成長終點 |
+| 128 | 打怪無效 | 113年5-6月 Act II Phase B/C | CDL-182～204 | 個別戰鬥無法改變系統痛苦 → 主角團例行勝利但背景市民痛苦無減 → E-08高壓期心理根基；晴香拒絕戰鬥前置 |
+| 129 | 天使變公敵 | 113年7月 Act II Phase C E-09 | CDL-180, 201, 227, 259, 282 | E-08高壓+夕半屍骸化 → 直播中夕接管，撕毀光幕濾鏡，吸食圍觀市民情緒 → 社會性死亡起爆；媒體倒戈 |
 
 ---
 
@@ -3826,6 +3828,56 @@ Two girls facing each other in a dim hallway. One extends her hand palm-up offer
 
 ---
 
+## 圖100-01：「介錯之刃——美夜子的最終溫柔」（Kaishakunin: Miyako's Final Mercy）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_Kaishakunin.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年4月末 Act III Phase H2-I過渡期
+- **CDL追蹤**：新增 CDL-283；rin.md §最終犧牲；miyako.md §介錯誓約
+- **前置事件**：SPEC#100 凜的最終選擇（Unit 00-Null 揭露）→ 凜完全失去意識，化為純粹的無意識兵器
+- **本場景功能**：美夜子履行終極承諾——不是為了「戰勝」凜，而是為了讓凜「不作為怪物而死」。這是全作中最沉痛的溫柔：美夜子以介錯人的身份，用最後的尊嚴終結凜的生命。這個時刻既是美夜子與凜關係的終章，也是她 PTSD 創傷根源的最深處。
+- **後續payoff**：SPEC#6 月下崩潰（美夜子的貓殼龜裂與存在確認測試，介錯後的創傷反應）；SPEC#109 美夜子終於哭出來（20年守護後，第一次真正哭泣）
+
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_Kaishakunin.png`
+- 凜（Unit 00 無意識形態）：`ConceptArt_Rin_Unit00Null.png`
+
+**詳細核心描述**（280-350字）：
+
+廢墟戰場——崩塌的混凝土、斷裂的鋼筋。槍聲還在空氣中迴盪。光線冷硬而蒼白，滿地是彈殼反光。
+
+凜已經不是凜了。她的身體被淡金色的傀儡絲徹底改造，4肢以非人類的角度扭曲著，關節反向彎折。她像一隻巨大的、被操縱的怪物，張牙舞爪地蜷縮在半蹲的戰鬥姿態裡。她的口腔張開，發出無聲的嘶鳴——那種聲音應該是人類發不出來的。她的眼睛空洞而獵食性的，沒有一絲人性。Unit 00-Null 正在做它被設計來做的事：進攻。
+
+美夜子面對著這個怪物，雙手各握一把 MP7A1 衝鋒槍，槍口指向前方。她的制服已經被血和塵埃弄髒，她的呼吸在面罩後沉重而急促。每一次凜撲來，她都扣動扳機——子彈掃過那具扭曲的身軀，傀儡絲在槍火下閃爍著詭異的光。
+
+在她們之間的空間裡，充滿了火力與鮮血。凜一次次地從地上爬起來，向美夜子撲去，傀儡絲驅使著這具軀殼不知疲倦地攻擊。美夜子的手指在扳機上，她已經開了無數槍，但每一槍都像是在殺死一部分自己。
+
+她需要結束這個。不是因為她想要戰勝，而是因為她必須讓凜停止痛苦——讓這個已經不是凜的怪物停止被操縱。在火力和淚水中，介錯成為了一種殘酷的必然。
+
+**生成提示（Midjourney）**：
+```
+Style: dark anime action, gunfire combat, emotional devastation amid violence
+Mood: desperate mercy, the saddest battle, duty forcing love into bloodshed, final sacrifice through violence
+Colors: grey + ash, golden puppet strings glowing against dark, pale skin stained with blood, cold steel blue, muzzle flash amber
+Composition: two figures in ruins, Miyako left (dual-wielding MP7A1s, stance ready), Rin center (crouching attacking, limbs twisted at inhuman angles), shell casings scattered on ground, debris floating
+Lighting: harsh muzzle flash creating dramatic shadows, rim light from gunfire, cold industrial overhead
+Special effects: translucent golden puppet strings covering Rin's entire twisted body, visible and luminous, gunfire tracers, smoke from gunfire, blood spray
+Characters:
+- Miyako: teenage girl with dark hair, tactical gear/school uniform variant, dual-wielding assault rifles MP7A1, eyes cold and tearful, expression determined but anguished, breathing heavily
+- Rin (Unit 00-Null): twisted non-human posture with limbs bent backward, mouth open in soundless shriek, eyes hollow and predatory, body covered entirely in glowing golden threads, clawing/attacking mid-leap
+Canvas: 16:9 cinematic combat --ar 16:9 --niji 6 --style raw
+```
+
+### 替代版本（若被拒絕）
+
+```
+magical girl with dual assault rifles in ruins, facing twisted monster-like creature covered in glowing threads, combat scene, gunfire flashes, shell casings, desperate mercy killing, dark anime violence, emotional climax, muted industrial palette with golden glow
+--ar 16:9 --niji 6
+```
+
+---
+
 ## 圖101：「嘆息之橋——凜獨角」（Sigh Bridge: Rin's Solo Moment）[ACT_III]
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_SighBridgeSolo.png`
@@ -3917,7 +3969,7 @@ Colors: deep grey, ash blue, pale skin, faint amber from door crack, muted gold 
 Composition: half-profile figure left, puppet strings center, old communication device right, dried flower fragment corner foreground
 Lighting: single dim overhead source, shadow heavy on face, faint warm light from door crack behind
 Special effects: translucent puppet strings glowing faintly gold, barely perceptible, loose and untensioned
-Character: teenage girl, dark school-uniform variant, fingers suspended 3cm above keypad, head slightly bowed, expression calm with deep-layer guilt, not crying
+Character: teenage girl, dark school-uniform variant, fingers suspended 3cm above keypad, head slightly bowed, eyes obscured by deep shadow (anime style, eyes completely dark/shadowed), visible half of face calm with deep-layer guilt, not crying
 Canvas: 16:9 cinematic --ar 16:9 --niji 6 --style raw
 ```
 
@@ -5157,3 +5209,99 @@ Lighting: Distant city glow as only ambient light; intimate darkness; blood catc
 Details: Multiple-layer bandages yellowed with age — different eras of adhesive visible; fresh blood where old wounds reopen; not dramatic cry but quiet slight smile; the expression of someone finally allowing themselves to feel something they always owned
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 ```
+
+---
+
+## 圖128：「打怪無效」（Monster Fighting Proves Ineffective）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_TeamCombat_Ineffective.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113年5月末～6月中旬（Act II Phase B～Phase C過渡，E-07b～E-08期間）
+- **CDL追蹤**：CDL-182；CDL-183；CDL-199；CDL-201；CDL-204
+- **前置事件**：E-07b廢棄糖果工廠三位一體辯論與紫音放逐；E-08恐怖家家酒高壓事件展開
+- **本場景功能**：「個別勝利能改變什麼？」的反面證明；主題B（系統邏輯無法被個人善意治癒）的物理呈現；晴香「偽王道傲慢」的高潮；假情緒承接論證的延續實戰演示
+- **後續payoff**：E-08恐怖家家酒14天高壓期的心理根基確立；晴香接下來拒絕變身/拒絕戰鬥的動機前置
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
+- 操（傀儡形態）：`ConceptArt_Misao_MagicalGirl.png`
+
+**詳細核心描述**（250字）：
+
+主角團在日區某個廣場/街道與屍骸進行例行戰鬥。晴香化為魔法少女，以耀眼光芒消滅屍骸；操以傀儡絲線精密斬擊；美夜子（貓形態）敏捷迴避與快速補刀。表面上是連貫的勝利——屍骸被一隻隻擊倒。但**背景中，市民的痛苦沒有減少**：有人還在哭泣、有人在角落蜷縮、有人互相指責。一個被救的市民甚至轉身逃離，彷彿將主角團也視為威脅。
+
+**關鍵細節**：晴香在最後一擊時，手臂顫抖（魔力超載的微妙跡象）；她的光芒在勝利的瞬間看起來有點死板、機械性，失去溫度感。在街道另一端，紫音被遠方看到，坐在垃圾堆上無動於衷地嚼著糖果。這場勝利彷彿是**一個被重複的動作**，無限迴圈。
+
+**生成提示（Midjourney）**：
+```
+A magical girl team victorious but hollow. Haruka in shimmering pink-white transformation,
+arm trembling mid-strike against crystalline undead creature dissolving into light. Misao's
+puppet strings glow with strained tension. Miyako in black cat form perches vigilant. Behind
+them, city street drenched in grey-blue despair: citizen crying unmoved by victory, another
+clutching themselves in alley corner, others turning away in fear. Visual split—foreground:
+heroic magic victory with perfect lighting. Background: suffering untouched, indifferent,
+persisting. Colors: fluorescent pink-white magic clashing against desaturated urban grey.
+Emotional tone: we won but nothing changed, doing this again tomorrow. High detail on Haruka's
+exhausted face behind transformation glow. Subtle cost: faint blood at corner of lips. 8k.
+```
+
+### 替代版本（若被拒絕）
+
+```
+Wide shot city block at dusk. Magical girl team center-foreground victorious against
+crystalline abominations. Camera pulls back showing SAME scene repeating in different
+windows, buildings around. Each repetition more faded, more grey. Foreground perfect
+magic colors. Background almost monochromatic. Multiple citizens visible wearing same
+resignation. Ash grey and dying pink. Sisyphean effort. Exhaustion aesthetic.
+```
+
+---
+
+## 圖129：「天使變公敵」（Angel Becomes Public Enemy）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_LightVeil_PublicEnemy.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113年7月中旬（Act II Phase C，E-09直播失控事件當晚）
+- **CDL追蹤**：CDL-180；CDL-201；CDL-227；CDL-259；CDL-282
+- **前置事件**：E-08恐怖家家酒14天高壓積累；E-09a父親背叛+紗夜犧牲+晴香社會性死亡開始；夕在半屍骸狀態下情緒飢渴到極限
+- **本場景功能**：晴香「國民天使」→「情緒吸血鬼」的30秒決定性轉變；光幕濾鏡（完美主義視覺保護）的物理摧毀；社會性死亡的起爆點；媒體/輿論倒戈的visual anchor
+- **後續payoff**：E-09後晴香拒絕變身；CDL-191美夜子「無價值留守」場景；Phase D地下化的開始信號
+
+**Reference Images**：
+- 晴香（變身態崩潰）：`ConceptArt_Haruka_MagicalGirl.png`
+- 市民（圍觀者）：*background characters*
+
+**詳細核心描述**（280字）：
+
+城市廣場直播舞台。主角團表演中，晴香以完美的粉紅-白色變身出現，被稱為「維多利亞天使」。光幕濾鏡（視覺安全屏障，讓一切看起來完美理想）保護著舞台。但E-08的高壓積累加上**半屍骸身份帶來的情緒飢渴**瞬間爆發：**夕接管晴香的身體**。在失控的那一刻，晴香的左手異變為黑色爪子；眼睛失去人類的光芒，變成屍骸的空洞死寂；她開始**本能地吸食圍觀者的正面情緒**。
+
+**決定性瞬間**：夕的怒火中，**物理上撕毀光幕濾鏡裝置**。圍觀者看到「無濾鏡版本」：扭曲的身體、闇黑的氣息、不是拯救者的東西。直播鏡頭完整記錄了整個過程。**立刻**，社交媒體爆炸——片段無法刪除地傳播，「維多利亞天使 = 情緒吸血鬼」瞬間成為全城共識。
+
+**生成提示（Midjourney）**：
+```
+Broadcast stage dramatic lighting failure. Center: Haruka dual-aspect—front: shimmering
+angel pink-white light (moments before). Simultaneously: black claws, dead eyes, twisted
+pose (after). Shattering light veil itself visual: crystalline dome exploding violently
+outward, each shard reflects true form fragmenting perfect illusion. Around stage: crowds
+switching adoration to horror mid-moment. Hands covering faces, backing away, filming on
+phones recording the monster reveal. Brilliant pink-white Angel light violently colliding
+dark purple-black shadow. Sharp violent boundary, no transition. Broadcast cameras
+recording unflinching. Sky: first moment red alert sirens, visual distortion. 8k cinematic
+high dynamic range showing beauty and horror simultaneously.
+```
+
+### 替代版本（若被拒絕）
+
+```
+Split-screen: Left Perfect broadcast image "Victorious Angel Haruka" pink light, smiling
+crowds. Right: Same moment, true form—twisted body, black energy, crowds running. Below
+both: smartphone screens showing clips going viral—video thumbnails multiplying, share
+counts rising, hashtags flooding, comments hostile. Moment of social death from multiple
+perspectives. Harsh fluorescent whites and blacks. Media saturation. Inevitable spread
+contagion aesthetic. Digital apocalypse meets magical girl tragedy.
+```
+
+---
