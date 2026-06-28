@@ -7,7 +7,7 @@
 
 ---
 
-## 📋 場景清單總覽（72 個）
+## 📋 場景清單總覽（127 個）
 
 | # | 場景名稱（中文）| 場景名稱（英文）| 主要角色 | Act | 時段/階段 | ⭐ | 建議文件名 | 簡要描述 |
 |---|---|---|---|---|---|---|---|---|
@@ -88,6 +88,56 @@
 | 75 | 刑思殺出實驗室 | Keishi's Awakening Massacre | 刑思（黑奏） | 前史/閃回 | 帝國實驗室 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Keishi_AwakeningMassacre.png | 黑奏（帝國法號刑思）在實驗室中覺醒魔法少女力量，殺光所有實驗人員，滿地鮮血，這是她走向帝國統治的起點 |
 | 76 | 凜×美夜子黃金搭檔 | Rin and Miyako's Golden Partnership | 凜、美夜子 | 前史/閃回（108年前） | 軍方戰場 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png | 兩人作為軍方魔法少女的默契巔峰——凜精準打擊，美夜子掩護收割，一個眼神就是一套戰術 |
 | 77 | 凜殿後最終犧牲 | Rin's Final Rear Guard Sacrifice | 凜、美夜子 | 前史/閃回（108年） | 戰場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FinalSacrifice.png | 凜主動引開L3光環掩護美夜子撤退，頸椎被扭斷180度，死亡瞬間眼神是釋然而非恐懼——成為美夜子終身PTSD的聲音 |
+| 78 | 鐵絲網偶遇 | 前史 102年 | CDL-288/289；CF-TIME-0013 | 黑奏篡位，彩被困 → 5歲晴香透過鐵絲網看見被困的彩 → 晴香許願（創世根源） |
+| 79 | 通風管道那夜（螢の犧牲） | 前史 79年 | aya.md §螢；02_glossary.md #hotaru | 帝國對螢進行最終處置 → 螢在通風管道犧牲，把熊公仔交給黑奏 → 黑奏整個人生動力根源 |
+| 80 | 帝國實驗室：黑奏作為活體樣本 | 前史 98年前後 | aya.md §數據養殖；01_world_rules §實驗鏈 | 帝國發現黑奏是魔法少女 → 心匣被強制解析數據化 → SPEC#75覺醒屠殺（同一實驗室，不同瞬間） |
+| 81 | 黑奏弒父篡位 | 前史（覺醒後） | aya.md §篡位；01_world_rules §帝國歷史 | SPEC#75覺醒屠殺後 → 148cm幼童弒殺養父 → 帝國「刑思」法號確立；黑奏對螢的永恆追求的開始 |
+| 82 | 晴香遞便當（三層交疊） | 113年 Act I [NC] | CDL-079；CDL-082 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當，黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
+| 83 | 凜不自知摺星星（美夜子目擊） | 113年 Act I-II 日常 | CDL-215；rin.md §記憶殘留 | 重組後凜日常 → 美夜子無意目擊凜無意識摺星星 → 美夜子第一個希望：身體記憶比語義記憶頑固 |
+| 84 | 美夜子Glitch Form首次 | 113年4-5月 Act II Phase A | CDL-282；E-05a；miyako.md §Unit 01 | E-05美夜子認出凜（PTSD觸發）→ 貓殼龜裂，0.5秒閃現人形 → SPEC#6月下崩潰（貓殼龜裂三段第一段） |
+| 85 | 小光之死＋黑奏邏輯侵入 | 113年5月 Act II Phase B | E-07a；aya.md §數據養殖 | 小光死亡（SPEC#22）同時 → 紫音防衛崩潰，黑奏文字滲入畫面邊緣 → 紫音被黑奏邏輯說服的心理入口 |
+| 86 | 廢棄糖果工廠三人辯論 | 113年5-6月 Act II Phase B | E-07b；[待確認CDL] | E-07b紫音被放逐後 → 晴香、紫音、操三種哲學在腐爛糖果空間對峙 → 各人弧光的中間衝突 |
+| 87 | 紗夜犧牲——耳鳴遮蔽 | 113年 Act II Phase C | CF-TIME-0068；CDL-233 | SPEC#26操被遺棄 → 紗夜開槍犧牲，白色噪音淹沒聲音 → 操CDL-298報串罪疚最深根源 |
+| 88 | 困獸的慈悲——朔見証之夜 | 113年9月 Act II Phase D | CDL-191附近；saku.md §見証 | 晴香「社會性死亡」後最低點 → 晴香半屍骸，朔在場見証 → 朔決定站在主角團這邊 |
+| 89 | 愛莉具現化擋刀＋石像龜裂 | Act II Phase D | CDL-256；aeri.md §紙皮騎士 | 愛莉以石像形式存在 → 具現化擋刀，遠景石像同時龜裂 → SPEC#40童謠救贖；SPEC#20紙皮騎士防禦 |
+| 90 | 王國邊緣的盛宴（紫音獨處） | Act II Phase D E-11前 | akane.md §嘆息之橋前；[待確認CDL] | E-07b被放逐、小光已死 → 紫音在帝國廣告光下獨自餵食流浪貓，攝取腐爛糖果 → SPEC#10犧牲情感前置 |
+| 91 | 操絲線縫牙 | Act II Phase A-B | CDL-233 Stage 2a | 操Body Horror Stage 1→2a轉換 → 鏡前用傀儡絲縫鬆動牙齒，外表完美/內部恐怖 → SPEC#74甜品掉牙的前置 |
+| 92 | 美夜子無價值留守 | 113年7月 Act II Phase C E-09後 | CDL-191；miyako.md §羈絆 | SPEC#21光幕破碎，晴香「社會性死亡」→ 美夜子推開手機，遞一罐沒氣可樂 → 從「義務守護」轉「無條件羈絆」 |
+| 93 | 凜重組後第一次遇見美夜子 | 113年4-5月 Act II Phase A E-05 | CDL-215；rin.md §被重組 | E-05美夜子追蹤凜 → 凜對美夜子毫無反應，美夜子伸手，凜繼續走 → 美夜子PTSD最大化；CDL-274前置 |
+| 94 | 晴香感應到「彩不在」（茶會） | Act II Phase B E-08周圍 | CDL-079；SPEC#11茶會同時 | SPEC#11玻璃庭院茶會某一刻 → 晴香0.5秒感應到空洞，手凍住 → Act III黑奏揭露「她一直就是這樣看我」 |
+| 95 | 飢餓的天使——直播失控（半屍骸） | 113年7月 Act II Phase C E-09 | E-09；CDL-180；夕接管 | E-08恐怖家家酒高壓 → 半屍骸左手在直播戰場吸取情緒，夕接管瞬間 → SPEC#21光幕破碎（同一事件不同鏡頭） |
+| 96 | 黑奏農場觀察 | Act II Phase B E-08 | CDL-211；CDL-079 | SPEC#11茶會 → 黑奏精算晴香情緒增幅器的農場視角 → 黑奏「情緒農場」意識形態的視覺化 |
+| 97 | 鏡像相簿異變 | Act II Phase B [NC] | 08_narrative §P-C10鏡像相簿；[待確認CDL] | SPEC#30違和感（倒影慢0.3秒）→ 晴香看見玻璃反射中的藍色馬尾殘影 → SPEC#2整合場景（殘影真正身份） |
+| 98 | 操の虛榮告白 | Act II Phase A E-05a後 | misao.md §隊伍融入；[待確認CDL] | 操被迫加入主角團初期 → 完美妝容下眼眶微紅，第一次放下傲慢 → 操弧光「從形式主義到真實」第一步 |
+| 99 | 朔看見Unit 01的臉 | Act II Phase D | saku.md §美夜子；[待確認CDL] | 朔過去與美夜子的關聯 → Unit 01任務中，朔認出美夜子的臉 → 朔的動機和CDL-274相關線 |
+| 100 | 凜的最終選擇（Unit 00-Null揭露） | 114年4月 Act III Phase H2 | E-15a（凜拒絕治癒）；CDL-215 | 凜發現自己頸部角度異常→自我認知 → 晴香伸手，凜推開，「我選擇Unit 00」→ 美夜子終極PTSD觸發 |
+| 101 | 嘆息之橋——凜獨角 | 114年 Act III Phase G-H之間 | rin.md §嘆息之橋；04_timeline §嘆息之橋 | 凜已知自己是重組體，尚未揭露 → 橋上獨處，她已決定 → 候選W最終選擇（她在這裡就決定好了） |
+| 102 | 操の被迫報串 | 114年 Act III Phase H | CDL-298；misao.md | SPEC#26被遺棄；SPEC#J紗夜犧牲 → 傀儡絲手指在通訊器上懸停，最深罪疚 → SPEC#1鋼鐵獨舞（帶著罪疚的最後一舞） |
+| 103 | 糖果唐樓交易 | 114年3月 Act III Phase G3 | CDL-213/214；07_entities §糖果唐樓 | Phase G主角團尋找紫音 → 黑市巴洛克空間，情緒結晶如品酒 → SPEC#4廢棄糖果工廠（繼續找） |
+| 104 | 下水道無聲重逢 | 114年3月 Act III Phase G4 | CDL-214 | Phase G主角團找到紫音蹤跡 → 晴香放下糖果+藥品悄悄離開，不被看見 → SPEC#4廢棄糖果工廠（正式找到） |
+| 105 | 公告夜（紫音作為清剿目標） | 114年5月 Act III Phase I Day 13夜 | CDL-217；05_outline §Phase I | Day 13操犧牲後 → 被迫直播紫音作為清剿目標，靜止的死刑等待感 → Day 14 SPEC#10糖果山犧牲 |
+| 106 | 彩在心房中摸熊公仔 | Act III（被囚狀態） | aya.md §葉語彩；CDL-076 | 黑奏全力鎮壓彩的主人格 → 透明牆外晴香笑聲，彩摸到牆壁找熊公仔 → SPEC#8彩奪回身體 |
+| 107 | 蜜月困境——K期靈魂監獄 | 114年5-6月 Act III Phase K1 | CDL-053；05_outline §Phase K | SPEC#13靜止搖籃選擇後 → 溫暖廚房+窗玻璃倒影中的遍體鱗傷（K期代價）→ Act IV Phase L晴香覺醒 |
+| 108 | 屍骸覺醒——L4 | 114年 Act III Phase L4 | 05_outline §L4；[待確認CDL] | Phase L4觸發條件 → 空洞眼睛逐一亮起人類的光 → Act IV新世界建立 |
+| 109 | 美夜子終於哭出來 | 134年7月 Act IV | miyako.md §Need；08_bible §Dark Healing | Act III覺醒→Act IV守護晴香20年 → 一生第一次真正哭泣，抓住晴香袖子 → Act IV美夜子弧光終點 |
+| 110 | 美夜子笨拙演奏（全片最後一幕） | 134年7月 Act IV Phase L | miyako.md §終局；05_outline §Act IV | 全片所有積累 → 同一段旋律第四遍，還在學，還在彈 → （全片結束） |
+| 111 | 維多利亞之淚：人造太陽剖面圖 | 世界觀設定 | 07_entities §維多利亞之淚 | — → 「人造太陽」地面/地底雙層結構 → 全片能量來源的視覺根基 |
+| 112 | 集體潛意識空間：後巷過渡狀態 | 世界觀設定 | 01_world_rules §集體潛意識；06_visual_bible | — → 唐樓牆面湮滅成宇宙星空，霓虹殘影 → SPEC#12、SPEC#48、SPEC#2等潛意識場景的視覺基礎 |
+| 113 | 心防內化裝置：製造過程 | 世界觀設定 | 07_entities §心防內化裝置；02_glossary #trauma-cage | — → 心匣被撬開+焊死，情緒注入，表情從恐懼到空白 → CDL-233操的Body Horror；rin.md §感官剝奪 |
+| 114 | 情緒管理局：局內辦公空間 | 世界觀設定 | 06_visual_bible §情緒管理局；07_entities | — → 純白啞光制服，有機流體情緒波形牆 → SPEC#14凜雙面形態；SPEC#24凜人性消磨的場景設定 |
+| 115 | 靈樹：平時狀態 | 世界觀設定 | 02_glossary #spirit-tree；01_world_rules | — → 夜區谷地老樹，普通感是伏筆 → Act III Phase J決戰中靈樹作用 |
+| 116 | 帝國廣場：常態 | 世界觀設定 | 06_visual_bible §帝國廣場；07_entities | — → 非戰鬥展示秩序空間，麻木市民 → SPEC#19決戰崩塌；SPEC#49市民凝滯的對比 |
+| 117 | Emo-Visor Gen 3：日區市民集體成癮 | 世界觀設定 | 02_glossary #emo-visor；[待確認CDL] | — → 日區咖啡廳，全城Emo-Visor過濾版幸福感 → Act II光幕體系的日常具現；SPEC#21破碎的前置 |
+| 118 | 屍骸化：心之器燃盡時刻 | 世界觀設定 | 01_world_rules §心之器；02_glossary #magical-corpse | — → 靜止恐怖，最後動作無限重複的完整外殼 → SPEC#22小光屍骸化；SPEC#10糖果山犧牲的視覺語境 |
+| 119 | 彩的心房：通風管道永恆空間 | 世界觀設定 | aya.md §葉語彩；CDL-076 | 候選B通風管道（螢犧牲）→ 彩被困內心的通風管道永恆空間，情緒結晶苔 → 候選CC彩摸熊公仔；SPEC#8心理空間 |
+| 120 | 珍寶珠入隊——朱音加入主角團 | 113年4月 Act I | CDL-170；akane.md §入隊 | 朱音仇視晴香 → 珍寶珠事件，晴香以身體護她 → 朱音加入主角團，仇恨開始轉化 |
+| 121 | 操入隊——晴香以身體擋攻擊 | 113年3-4月 Act I | CDL-162；misao.md §入隊 | 操作為對手出現 → 晴香以身體擋攻擊，不還手 → 操被迫重新評估晴香，入隊前置 |
+| 122 | 軟接觸——美夜子廢棄地鐵站遞水 | 113年 Act II Phase A-B | CDL-191；miyako.md §羈絆 | 美夜子以「義務」自我定義 → 廢棄地鐵站，遞水，不說話 → 羈絆轉型的日常具現 |
+| 123 | 死前願望清單 | 113-114年 Act II-III | haruka.md §膠布哲學；CDL-088 | 晴香意識到自己可能死去 → 在便利店收據背面寫願望清單 → Act IV「你還有一個未完成」 |
+| 124 | 美夜子鏡像反映 | 114年 Act III-IV | miyako.md §鏡像；CDL-274 | 美夜子每次在水面/玻璃看見的都是貓 → 某一刻看見自己的人臉 → 貓殼詛咒鬆動；CDL-274相認 |
+| 125 | 無名男孩速寫簿 | 113年 Act II | 08_narrative §無名男孩；[待確認CDL] | 城市日常角落 → 速寫簿記錄「維多利亞天使」的消失過程 → 普通人視角見証社會性死亡 |
+| 126 | 操在集體潛意識尋見母親碎片 | 114年 Act III | misao.md §紗夜；CDL-298 | 操帶著罪疚進入集體潛意識 → 找到紗夜的記憶碎片，無法觸碰 → 操放下執念，SPEC#1鋼鐵獨舞 |
+| 127 | 膠布哲學第四層——覺醒後撕膠布 | 134年7月 Act IV | CDL-088；haruka.md §膠布哲學 | 膠布哲學三層全部揭露後 → 晴香主動撕下手腕的膠布，傷口已癒合 → 「已經不需要了」——成長終點 |
 
 ---
 
@@ -366,8 +416,8 @@
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SteelSolitude.png`
 
-**Reference Image**：
-- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **Creative Enhancements**：
 - Replace magical girl suit with transitioning doll-like appearance (porcelain aesthetic)
@@ -401,9 +451,9 @@ Canvas: 3:4 portrait ratio; high definition
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_Integration.png`
 
-**Reference Image**：
-- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
-- Yu Shadow：`ConceptArt_Yu_CasualWear.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 夕：`ConceptArt_Yu_CasualWear.png`
 
 **Creative Enhancements**：
 - Create split/clash composition showing bright and shadow Haruka forms in violent collision (NOT smooth merge)
@@ -437,8 +487,8 @@ Canvas: Wide aspect ratio (16:9) for duality
 
 **建議輸出文件名**：`ConceptArt_Scene_BlackSong_Revelation.png`
 
-**Reference Image**：
-- Aya MagicalGirl 2（作為基礎變形）：`ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Images**：
+- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **Creative Enhancements**：
 - Transform to show Kuroshio's true form: small 7-year-old body with overwhelming cosmic presence
@@ -472,8 +522,8 @@ Canvas: 3:4 portrait or 16:9 widescreen
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyFactory.png`
 
-**Reference Image**：
-- Akane MagicalGirl：`ConceptArt_Akane_MagicalGirl.png`
+**Reference Images**：
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
 
 **Creative Enhancements**：
 - Show Akane in corpse-girl form: translucent ghost-like with candy crystalline hardshell exterior
@@ -505,8 +555,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_MirrorChamber.png`
 
-**Reference Image**：
-- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **Creative Enhancements**：
 - Create impossible mirror chamber (multiple reflecting surfaces)
@@ -538,8 +588,8 @@ Canvas: 1:1 square (mirrors) or 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_MoonlightBreakdown.png`
 
-**Reference Image**：
-- gdffgfgfg（已有現成參考圖）：`gdffgfgfg.jpg`
+**Reference Images**：
+- 美夜子（現成參考圖）：`gdffgfgfg.jpg`
 
 **Creative Enhancements**：
 - Broken window frame with jagged shattered glass reflecting moonlight
@@ -587,9 +637,9 @@ Canvas: 16:9 landscape; high definition
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_FallenAngel.png`
 
-**Reference Image**：
-- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
-- Aya MagicalGirl 1（作為 Aya 被控制形態）：`ConceptArt_Aya_MagicalGirl_1.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 彩：`ConceptArt_Aya_MagicalGirl_1.png`（作為 Aya 被控制形態）
 
 **Creative Enhancements**：
 - Show sunlit street where light filters (日區 characteristic)
@@ -622,8 +672,8 @@ Canvas: Widescreen (16:9) to emphasize street depth
 
 **建議輸出文件名**：`ConceptArt_Scene_Aya_BodyReclaim.png`
 
-**Reference Image**：
-- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Images**：
+- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **Creative Enhancements**：
 - Show moment of internal rebellion: Aya's consciousness rupturing through Kuroshio's control
@@ -656,8 +706,8 @@ Canvas: 3:4 portrait with sky visible above
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_FirstTransform.png`
 
-**Reference Image**：
-- Haruka Singer（日常形態）：`ConceptArt_Haruka_Singer.png`
+**Reference Images**：
+- 晴香（歌手形態）：`ConceptArt_Haruka_Singer.png`
 
 **Creative Enhancements**：
 - Show magical transformation sequence: goldfish flag elements merging with magical light
@@ -691,8 +741,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyMountain.png`
 
-**Reference Image**：
-- Akane CasualWear Action 1（過載前）：`ConceptArt_Akane_CasualWear_Action_1.png`
+**Reference Images**：
+- 朱音（過載前）：`ConceptArt_Akane_MagicalGirl.png`
 
 **Creative Enhancements**：
 - Show Akane at moment of overload transformation
@@ -731,8 +781,8 @@ Canvas: 3:4 portrait or widescreen to show landscape
 
 **建議輸出文件名**：`ConceptArt_Scene_GlassGarden_TeaParty.png`
 
-**Reference Image**：
-- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Images**：
+- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
 - 環境參考：帝國塔頂溫室
 
 **簡化描述**（150-200字）：
@@ -767,8 +817,8 @@ Canvas: Widescreen to emphasize landscape scope
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_StaticCradle.png`
 
-**Reference Image**：
-- Haruka MagicalGirl（轉變參考）：`ConceptArt_Haruka_MagicalGirl.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`（轉變參考）
 
 **簡化描述**（150-200字）：
 晴香在 Act IV 最終時刻化身靜止搖籃，身體粒子化為光點，成為新世界的錨點與基礎。她不再是主角，而是世界本身——一個永遠循環播放的搖籃曲。
@@ -789,9 +839,9 @@ Canvas: 3:4 portrait or square (world-forming)
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_DualForms.png`
 
-**Reference Image**：
-- Rin MagicalGirl 1：`ConceptArt_Rin_MagicalGirl_1.png`
-- Rin MagicalGirl 2：`ConceptArt_Rin_MagicalGirl_2.png`
+**Reference Images**：
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`
+- 凜（第二形態）：`ConceptArt_Rin_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 凜的孔雀飛行員形態（光鮮官方）與痛苦烏鴉形態（暗巷真實）並置對比。同一靈魂卻被分裂成兩個角色，象徵制度對個體的扭曲與控制。
@@ -811,8 +861,8 @@ Canvas: Widescreen (16:9) for side-by-side comparison
 
 **建議輸出文件名**：`ConceptArt_Scene_Saku_DayNightDuality.png`
 
-**Reference Image**：
-- Saku CasualWear：`ConceptArt_Saku_CasualWear.png`
+**Reference Images**：
+- 朔：`ConceptArt_Saku_CasualWear.png`
 
 **簡化描述**（150-200字）：
 朔的白色完美特務形態（日區）與綠松石獵人形態（夜區）對置。同一個人在兩個世界中的雙重角色。日區的優雅 vs. 夜區的殘暴，都是生存的必要。
@@ -832,8 +882,8 @@ Canvas: Widescreen or square
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_FormalismRuins.png`
 
-**Reference Image**：
-- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操在廢棄工廠中獨舞，傀儡絲綾麗而危險地纏繞身體。她的舞蹈完美但詭異，控制與自由的邊界已然模糊。背景冷色工業感襯托孤獨的芭蕾。
@@ -854,8 +904,8 @@ Canvas: 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_BandaidPhilosophy_Triptych.png`
 
-**Reference Image**：
-- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
+**Reference Images**：
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
 
 **簡化描述**（150-200字）：
 三個場景並置：（左）晴香用膠布包裹手指的日常習慣；（中）膠布作為系統暴力的隱喻；（右）膠布揭示為世界真相本身的虛偽遮蔽。從個人習慣升級為存在論批判。
@@ -875,12 +925,12 @@ Canvas: Widescreen triptych (3×square or one wide panel)
 
 **建議輸出文件名**：`ConceptArt_Scene_EmotionLink_Crisis.png`
 
-**Reference Image**：
-- Haruka Cat：`ConceptArt_Haruka_Cat.png`
-- Miyako Cat：`ConceptArt_Miyako_Cat.png`
-- Akiho MagicalGirl：`ConceptArt_Akiho_Cat.png`
-- Aya MagicalGirl：`ConceptArt_Aya_MagicalGirl_1.png`
-- Misao MagicalGirl：`ConceptArt_Misao_MagicalGirl.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
+- 秋穗：`ConceptArt_Akiho_CasualWear.png`
+- 彩：`ConceptArt_Aya_MagicalGirl_1.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 戰鬥場景中，四人一貓情緒連結失控——四人在地上劇烈抽搐、掙扎，彷彿被無形的力量撕扯著。他們的身體蜷曲、扭動，手臂無力地拍打著地面。創傷記憶在彼此的腦中亂竄，造成現實中的生理痛楚——他們用力咬著牙、眼睛圓睜、額頭滲出冷汗。痛苦的呻吟與喘息聲混成一片。這不是視覺混雜，而是真實的、肉體的、無法承受的痛苦。
@@ -901,8 +951,8 @@ Canvas: Square or widescreen
 
 **建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_Collapse.png`
 
-**Reference Image**：
-- Aya MagicalGirl 2（黑奏顯露）：`ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Images**：
+- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 帝國廣場決戰頂點瞬間崩塌——偽勝利的假象碎裂，色彩消失，寂靜地震。晴香隊伍發現真正的敵人不是想像的那樣，世界的邏輯完全改變。建築扭曲，市民凝滯。
@@ -945,8 +995,8 @@ Canvas: 3:4 portrait ratio
 
 **建議輸出文件名**：`ConceptArt_Scene_LightVeil_Shattered.png`
 
-**Reference Image**：
-- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 城市廣場中，無數市民圍觀現場。完美魔法少女的形象在眾人眼前開始閃爍、扭曲——光幕濾鏡在此刻全數破碎。晴香疲軟地雙膝跪地在廣場中央，整個身體向下崩潰。滿臉淚水、渾身發抖，衣衫凌亂，她用雙手撐著地面才勉強不倒下。她的說話方式改變了——不再是預錄的播報辭令，而是帶著哽咽與絕望的真實聲音，甚至發不出完整的句子。人群中傳出不同的反應：有人驚愕、有人尖叫、有人面露反感，還有人開始竊竊私語指責。市民首次親眼看見被隱藏的真相——曾經高高在上的「光之天使」，現在正在眾人面前崩潰、跪地、哭泣。
@@ -986,9 +1036,9 @@ Canvas: 3:4 portrait or widescreen
 
 **建議輸出文件名**：`ConceptArt_Scene_HorrificHouse_School.png`
 
-**Reference Image**：
-- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
-- Aya CasualWear：`ConceptArt_Aya_CasualWear.png`
+**Reference Images**：
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+- 彩（便服）：`ConceptArt_Aya_CasualWear.png`
 
 **簡化描述**（150-200字）：
 晴香與彩在校園內維持致命的平衡——表面日常但充滿暗流。彼此的笑容背後是對方可能隨時背刺的恐懼。學校場景被陰影籠罩，日常物件顯得詭異且威脅。
@@ -1009,8 +1059,8 @@ Canvas: Widescreen to show full classroom space
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_HumanityErased.png`
 
-**Reference Image**：
-- Rin TheAdministrationBureau：`ConceptArt_Rin_TheAdministrationBureau.png`
+**Reference Images**：
+- 凜（情緒管理局制服）：`ConceptArt_Rin_TheAdministrationBureau.png`
 
 **簡化描述**（150-200字）：
 凜穿著情緒管理局制服，個體特異性被消除，成為體制的執行機器。官方記錄身份掩蓋了她的人性。制服是枷鎖，職位是身份，這是制度對靈魂的物化。
@@ -1031,8 +1081,8 @@ Canvas: 3:4 portrait (ID photo style)
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_BetrawalTruth.png`
 
-**Reference Image**：
-- Akane CasualWear Action 2：`ConceptArt_Akane_CasualWear_Action_2.png`
+**Reference Images**：
+- 朱音：`ConceptArt_Akane_CasualWear.png`
 
 **簡化描述**（150-200字）：
 朱音在後巷注射情緒毒品，對晴香的「希望」發出冷漠的嘲笑。她的背叛不是因為邪惡，而是徹底的絕望與現實妥協。這一刻她選擇了逃避而非戰鬥。
@@ -1053,8 +1103,8 @@ Canvas: 3:4 portrait or widescreen alley view
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_Abandoned.png`
 
-**Reference Image**：
-- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操的父親親自打開大門投降，紗夜犧牲掩護女兒逃離。大宅在夜晚化為監獄，最親密的人成為最深的背刺。操在此刻失去對「家」與「父愛」的最後幻想。
@@ -1075,8 +1125,8 @@ Canvas: Widescreen to show spatial separation
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_ThreeStageAwakening.png`
 
-**Reference Image**：
-- Miyako MagicalGirl：`ConceptArt_Miyako_MagicalGirl.png`
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 貓殼龜裂→月下窗台自我測試→晴香溫柔擁抱，三個階段連貫成美夜子的重生過程。她從被動保護者轉為主動選擇者，從虛假化身恢復為真實自我。
@@ -1097,9 +1147,9 @@ Canvas: Triptych or widescreen progression
 
 **建議輸出文件名**：`ConceptArt_Scene_ScarletTide_Backlash.png`
 
-**Reference Image**：
-- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
-- Aya MagicalGirl 2：`ConceptArt_Aya_MagicalGirl_2.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
 
 **簡化描述**（150-200字）：
 時間線被撕裂，緋潮如瀑布傾瀉，天空佈滿裂痕。過去與現在、Alpha 與 Beta 線的所有衝突在此刻爆發。現實在血紅與深紫的交界處碎裂，無法修復。
@@ -1121,8 +1171,8 @@ Canvas: Widescreen to show cosmic scope
 
 **建議輸出文件名**：`ConceptArt_Scene_Mother_GentleCage.png`
 
-**Reference Image**：
-- Haruka CasualWear：`ConceptArt_Haruka_CasualWear.png`
+**Reference Images**：
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
 
 **簡化描述**（150-200字）：
 永遠循環的晨間，花子端著熱湯，陽光開始暗淡。母愛的溫暖同時是囚禁，無論晴香如何逃脫，都會被溫柔地拉回到這個循環。夢境與現實的邊界已然消失。
@@ -1144,8 +1194,8 @@ Canvas: 3:4 portrait or square (cyclic framing)
 
 **建議輸出文件名**：`ConceptArt_Scene_Dissonance_Confrontation.png`
 
-**Reference Image**：
-- Haruka MagicalGirl：`ConceptArt_Haruka_MagicalGirl.png`
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
 
 **簡化描述**（150-200字）：
 鏡中倒影開始顯露滿身傷痕的戰士形態，與晴香在鏡前的溫柔形象形成極端對比。這是覺醒的第一步——認識到自己被分裂，被遺忘的另一半在鏡中呼喊。
@@ -1167,8 +1217,8 @@ Canvas: 3:4 portrait or square (mirror centered)
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_ReturnHumanity.png`
 
-**Reference Image**：
-- Misao MagicalGirl Action：`ConceptArt_Misao_MagicalGirl_Action.png`
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
 
 **簡化描述**（150-200字）：
 操砸碎完美人偶鏡子，決定回歸殘缺的真實身體。碎裂的鏡片反射著廢棄工廠，完美的虛假在此刻化為利刃。殘缺比完美更真實，更珍貴。
@@ -1190,8 +1240,8 @@ Canvas: 3:4 portrait
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_CatShellRecovery.png`
 
-**Reference Image**：
-- Miyako Cat：`ConceptArt_Miyako_Cat.png`
+**Reference Images**：
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
 
 **簡化描述**（150-200字）：
 美夜子在鏡子前看到腐爛紅色透視著的真實自我——被困在靈魂深處的怪物與少女的混雜體。治療房間的柔和光線無法隱蓋內部的黑暗，但她選擇接納。
@@ -1300,8 +1350,8 @@ Canvas: 3:4 portrait (mirror focus)
 
 童謠世界已碎裂，現實與魔法的界線模糊。愛莉的出現象徵著最後的救贖與希望，但同時也預示著她將付出最終的代價。這一幕成為整個故事的視覺轉折——從絕望到救贖的最後瞬間。
 
-**Reference Image**：
-- Aeri MagicalGirl（參考愛莉的魔法少女形態、劍的姿態、服裝設計）：`MagicalGirl_Aeri.jpg`
+**Reference Images**：
+- 愛莉（魔法少女形態）：`ConceptArt_Aeri_MagicalGirl.png`
 
 **所需資源**：
 - 愛莉的魔法少女形態（參考圖）
@@ -1495,8 +1545,8 @@ Canvas: 3:4 portrait (mirror focus)
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_DarkShowerHabit.png`
 
-**Reference Image**：
-- Miyako CasualWear（需調整為脆弱狀態）：`ConceptArt_Miyako_CasualWear.png`
+**Reference Images**：
+- 美夜子（便服）：`ConceptArt_Miyako_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
 美夜子在完全黑暗的浴室中的私密儀式。除了蒙矇淋水聲與瓷磚滴水，世界陷入無聲。她身著解開紐扣的白色校服襬衫，水流直接接觸裸露肌膚。黑暗給予她匿名感與解離感——沒有面容，只有身軀在水中央搖晃。她的嘴唇無聲地動，用氣音呢喃已逝戰友的名字，如同喪禮念珠。水把她的淚與汗混淆，她無法區分身體邊界與水邊界。
@@ -1537,8 +1587,8 @@ Canvas: 3:4 portrait; intimate framing; high definition
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_RedLineCompulsion.png`
 
-**Reference Image**：
-- Rin MagicalGirl 1（需調整為日常狀態）：`ConceptArt_Rin_MagicalGirl_1.png`
+**Reference Images**：
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`（需調整為日常狀態）
 
 **詳細核心描述**（300-400字）：
 凜的房間一角，牆壁上用深紅色細線進行著強迫性的標記。這不是隨意的塗鴉，而是精確的、有規律的、不斷重複的行為——每條線都必須直、必須等距、必須染滿整個空間。
@@ -1569,8 +1619,8 @@ Canvas: 3:4 portrait focusing on hand and wall interface
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_GrindingBrokenBlade.png`
 
-**Reference Image**：
-- Miyako MagicalGirl（需調整為黑暗狀態）：`ConceptArt_Miyako_MagicalGirl.png`
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`（需調整為黑暗狀態）
 
 **詳細核心描述**（300-400字）：
 美夜子在祕密隱蔽處進行著一項無人知曉的儀式——她用砂輪反覆研磨著凜留給她的一把斷裂的武器刀片。這把刀曾經屬於凜，現在已經破損，無法使用。但美夜子無法丟棄它。
@@ -1601,8 +1651,8 @@ Canvas: 3:4 portrait or close-up focusing on hand-blade-sparks interaction
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_PhantomMelodyHabit.png`
 
-**Reference Image**：
-- Rin MagicalGirl 2（需調整為音樂時刻）：`ConceptArt_Rin_MagicalGirl_2.png`
+**Reference Images**：
+- 凜（第二形態）：`ConceptArt_Rin_MagicalGirl_2.png`
 
 **詳細核心描述**（300-400字）：
 凜進行著一項令人不安的強迫行為——她習慣性地開始哼唱某首旋律，卻在中途戛然而止。這首旋律沒有名字，沒有歌詞，只是一段殘缺的片段。她會重複進行這個動作：開始→停頓→沉默→再次開始。
@@ -1633,8 +1683,8 @@ Canvas: 3:4 portrait; intimate psychological focus
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_CompulsiveWashingRitual.png`
 
-**Reference Image**：
-- Misao CasualWear（需調整為脆弱狀態）：`ConceptArt_Misao_CasualWear.png`
+**Reference Images**：
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
 操的浴室，白色磁磚被她每日的強迫清洗行為侵蝕得泛黃。她已經洗手 347 次今天——她計數著每一次。雙手因頻繁清洗而開裂、泛紅、甚至滲血，但她無法停止。
@@ -3210,17 +3260,23 @@ Split-panel composition: left two-thirds shows cardboard shield-shape stopping a
 **準備就緒**：可直接用於 Midjourney / DALL-E 3 生成及概念美術委外
 
 
-圖90：「王國邊緣的盛宴」（Feast at the Kingdom's Edge）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Akane_FeastAtEdge.png
+## 圖90：「王國邊緣的盛宴」（Feast at the Kingdom's Edge）[ACT_II]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Akane_FeastAtEdge.png`
 
-時間點：帝國歷113-114年 Act II Phase D，E-11前
-CDL追蹤：akane.md §嘆息之橋前；[待確認CDL]
-前置事件：E-07b紫音被放逐、小光已死；紫音在夜區獨自生存多月
-本場景功能：展示紫音作為屍骸女皇的雛形狀態——形態尚不完整，但已被廢棄，在廢棄之中仍保有對更弱小生命的照料。朔作為遠距見証者，確立其「旁觀者」角色。
-後續payoff：SPEC#10糖果山犧牲的情感前置（她燃燒前的最後平靜）；朔「見証者」角色的建立
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷113-114年 Act II Phase D，E-11前
+- **CDL追蹤**：akane.md §嘆息之橋前；[待確認CDL]
+- **前置事件**：E-07b紫音被放逐、小光已死；紫音在夜區獨自生存多月
+- **本場景功能**：展示紫音作為屍骸女皇的雛形狀態——形態尚不完整，但已被廢棄，在廢棄之中仍保有對更弱小生命的照料。朔作為遠距見証者，確立其「旁觀者」角色。
+- **後續payoff**：SPEC#10糖果山犧牲的情感前置（她燃燒前的最後平靜）；朔「見証者」角色的建立
+
+**Reference Images**：
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+- 朔：`ConceptArt_Saku_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 夜區某條被遺忘的窄巷。帝國秩序的LED廣告屏在遠端轉角處閃爍——不是照亮這裡，而是從巷子盡頭射進一道冷白光柱，把地面切成兩塊：帝國的光與被放逐的陰影。
 
@@ -3232,9 +3288,9 @@ CDL追蹤：akane.md §嘆息之橋前；[待確認CDL]
 
 構圖核心：低角度仰視，紫音在畫面中央偏下，LED光柱在後景斜切，朔的剪影在遠端右側，幾乎融入陰影。靜止。沒有風。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, painterly ink wash, cinematic still
 Mood: desolate tenderness, quiet devastation, the last warmth before extinction
 Colors: cold LED white light from far end of alley, deep shadow blues and grays, faint amber from old candy wrapper, desaturated purple robe stained with brown and black
@@ -3243,23 +3299,33 @@ Lighting: harsh cold LED ambient from afar, no warmth at foreground, slight rim 
 Special effects: none, stillness is the effect
 Character: teenage girl in ruined white-purple robe covered in dried sugar and grime, hollow eyes, slight smile, holding a melted lollipop stick, stray cat crouched near her knee turning away
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A teenage girl in a torn princess dress sits alone in a dark alley at night, holding a melted lollipop, a stray cat beside her. Distant city lights. A lone figure watches from far away. Melancholy. No gore. Painterly anime style.
 --ar 16:9 --niji 6
+```
 
+---
 
-圖91：「操絲線縫牙」（Misao Sews Her Teeth with Puppet Strings）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Misao_PuppetStringTeeth.png
+## 圖91：「操絲線縫牙」（Misao Sews Her Teeth with Puppet Strings）[ACT_II]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Misao_PuppetStringTeeth.png`
 
-時間點：帝國歷113年 Act II Phase A-B（E-08後，Body Horror Stage 2a初期）
-CDL追蹤：CDL-233 Stage 2a；misao.md §Body Horror
-前置事件：操的Body Horror Stage 1結束，開始Stage 2a：牙齒開始鬆動，失去固著
-本場景功能：視覺化操面對身體崩壞的核心態度——不是恐懼，是工匠式的自我維護。這是她「形式主義作為自我控制」最純粹的表達：用能力去縫合自己正在失去的東西。
-後續payoff：SPEC#74甜品局掉牙（Stage 2b，縫也縫不住了）；SPEC#1鋼鐵獨舞（最終接受身體崩壞）
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷113年 Act II Phase A-B（E-08後，Body Horror Stage 2a初期）
+- **CDL追蹤**：CDL-233 Stage 2a；misao.md §Body Horror
+- **前置事件**：操的Body Horror Stage 1結束，開始Stage 2a：牙齒開始鬆動，失去固著
+- **本場景功能**：視覺化操面對身體崩壞的核心態度——不是恐懼，是工匠式的自我維護。這是她「形式主義作為自我控制」最純粹的表達：用能力去縫合自己正在失去的東西。
+- **後續payoff**：SPEC#74甜品局掉牙（Stage 2b，縫也縫不住了）；SPEC#1鋼鐵獨舞（最終接受身體崩壞）
+
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 浴室或梳妝台前。光源是正面的冷白鏡燈，把一切打得無陰影、清晰、過度明亮——沒有藏身之處。
 
@@ -3271,9 +3337,9 @@ CDL追蹤：CDL-233 Stage 2a；misao.md §Body Horror
 
 構圖核心：鏡像構圖——畫面左半是真實的操（側臉），右半是鏡中的她（正臉）。兩個她都在執行同一個動作，只是角度不同。傀儡絲在鏡子兩側都可見，像是把兩個「她」縫在一起。前景非常近，能看見傀儡絲的細節和牙齦的微紅。整體色調偏冷白，只有血的細節帶一點暗紅。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, clinical detail, close-up character study
 Mood: cold precision over pain, self-maintenance as self-control, horror through composure
 Colors: cold white mirror lighting, pale skin, full makeup intact, thin dark red blood trace at gum, translucent golden thread
@@ -3282,23 +3348,34 @@ Lighting: harsh flat frontal bathroom light, no shadows, clinical
 Special effects: semi-transparent golden puppet strings visible threading through teeth and gum, hair-thin, faintly gleaming
 Character: teenage girl with full perfect makeup, concentrated expression, threading puppet strings through her own loosening teeth, blood at gum corner, does not flinch
 Canvas: 1:1 --ar 1:1 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A teenage girl with perfect makeup calmly sews glowing golden threads through her own teeth in front of a bathroom mirror. Clinical lighting. Mirror reflection visible. Focused, not pained. Dark magical girl art style. No extreme gore.
 --ar 1:1 --niji 6
+```
 
+---
 
-圖92：「美夜子無價值留守」（Miyako's Worthless Vigil）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Miyako_WorthlessVigil.png
+## 圖92：「美夜子無價值留守」（Miyako's Worthless Vigil）[ACT_II]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_WorthlessVigil.png`
 
-時間點：帝國歷113年7月 Act II Phase C，E-09後（晴香「社會性死亡」之後）
-CDL追蹤：CDL-191；miyako.md §美夜子×晴香
-前置事件：SPEC#21光幕濾鏡破碎，晴香被全城定性為「失控殺手」，躲在廢棄地鐵站
-本場景功能：確立美夜子×晴香關係從「任務義務」轉向「無條件羈絆」的臨界點。美夜子不說話、不安慰，以行動表達陪伴。貓形態強化了「她不知道如何作為人類去安慰，但她仍在這裡」的主題。
-後續payoff：美夜子×晴香關係從義務守護轉為無條件羈絆的分水嶺；SPEC#FF美夜子終於哭出來的情感根源
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷113年7月 Act II Phase C，E-09後（晴香「社會性死亡」之後）
+- **CDL追蹤**：CDL-191；miyako.md §美夜子×晴香
+- **前置事件**：SPEC#21光幕濾鏡破碎，晴香被全城定性為「失控殺手」，躲在廢棄地鐵站
+- **本場景功能**：確立美夜子×晴香關係從「任務義務」轉向「無條件羈絆」的臨界點。美夜子不說話、不安慰，以行動表達陪伴。貓形態強化了「她不知道如何作為人類去安慰，但她仍在這裡」的主題。
+- **後續payoff**：美夜子×晴香關係從義務守護轉為無條件羈絆的分水嶺；SPEC#FF美夜子終於哭出來的情感根源
+
+**Reference Images**：
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 廢棄地鐵站。月台燈有一半壞了，剩下的燈管發著間歇性的白光。軌道上有積水反光。整個場景冷而寬闊，人在這裡顯得很小。
 
@@ -3312,9 +3389,9 @@ CDL追蹤：CDL-191；miyako.md §美夜子×晴香
 
 構圖核心：廣角構圖顯示廢棄月台的空曠，晴香在左側牆腳，美夜子在右側稍遠處，之間留有距離。可樂罐在中央地板，輕微反光。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, wide environment shot, cinematic desolation
 Mood: silent companionship, powerless love, the value of just being present
 Colors: cold fluorescent flicker white, deep station shadow blues, cracked screen light already gone, single cola can catching faint gleam
@@ -3323,23 +3400,34 @@ Lighting: intermittent broken fluorescent overhead, asymmetric cold light, mostl
 Special effects: cracked phone screen face-down, barely glowing edge
 Character: teenage girl in hiding hugging knees, face turned away from phone; white cat with ice-blue eyes crouching apart looking at wall, not at girl
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A girl hiding alone in an abandoned subway station with knees pulled up. A small white cat quietly places a soda can near her and sits at a distance, looking away. Silent companionship. Cold fluorescent light. Dark anime style.
 --ar 16:9 --niji 6
+```
 
+---
 
-圖93：「凜重組後第一次遇見美夜子」（Rin's First Encounter with Miyako After Reassembly）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Rin_MiyakoFirstEncounter.png
+## 圖93：「凜重組後第一次遇見美夜子」（Rin's First Encounter with Miyako After Reassembly）[ACT_II]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Rin_MiyakoFirstEncounter.png`
 
-時間點：帝國歷113年4-5月 Act II Phase A，E-05
-CDL追蹤：CDL-215；rin.md §被重組；miyako.md §凜之死PTSD
-前置事件：E-05美夜子在任務中認出重組後的凜（SPEC#24是凜的視角，本場景是美夜子的視角）
-本場景功能：以美夜子的視角展示「她認出了她，但她不認識我」的單向創傷。凜的無反應不是冷漠，是字面意義上的「空白」——她沒有可以觸發的記憶。這一幕是美夜子PTSD最集中的視覺化。
-後續payoff：美夜子PTSD最大化的觸發場景；CDL-274月下相認才能彌合的傷口
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷113年4-5月 Act II Phase A，E-05
+- **CDL追蹤**：CDL-215；rin.md §被重組；miyako.md §凜之死PTSD
+- **前置事件**：E-05美夜子在任務中認出重組後的凜（SPEC#24是凜的視角，本場景是美夜子的視角）
+- **本場景功能**：以美夜子的視角展示「她認出了她，但她不認識我」的單向創傷。凜的無反應不是冷漠，是字面意義上的「空白」——她沒有可以觸發的記憶。這一幕是美夜子PTSD最集中的視覺化。
+- **後續payoff**：美夜子PTSD最大化的觸發場景；CDL-274月下相認才能彌合的傷口
+
+**Reference Images**：
+- 凜（情緒管理局制服）：`ConceptArt_Rin_TheAdministrationBureau.png`
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
+
+**詳細核心描述**（200-350字）：
+
 
 某條建築物的走廊，或是機構通道。光線是正常的辦公室日光，平凡而無情。
 
@@ -3353,9 +3441,9 @@ CDL追蹤：CDL-215；rin.md §被重組；miyako.md §凜之死PTSD
 
 構圖核心：縱深走廊構圖，凜的背影在遠端，美夜子在近景，爪子向前伸出但抓空。畫面的焦點在美夜子，凜的背影是虛化的遠景但構圖重心，兩者之間的距離是這張圖的主題。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, corridor depth, emotional restraint
 Mood: one-way recognition, grief without receiver, the horror of being unknown
 Colors: cold institutional corridor lighting, neutral gray-blue walls, white cat fur, dark uniform receding in distance
@@ -3364,23 +3452,34 @@ Lighting: flat institutional overhead, no drama, ordinary light makes it worse
 Special effects: faint red scar line at neck of distant figure, barely visible
 Character: small white cat with ice-blue eyes, paw raised and reaching, fur slightly raised at shoulders; distant girl in dark uniform walking away, posture neutral, does not look back
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A white cat in a hallway extends its paw toward a girl in a dark uniform who walks away without looking back. Empty corridor. Cold fluorescent light. Quiet devastation. Dark anime style.
 --ar 9:16 --niji 6
+```
 
+---
 
-圖94：「晴香感應到『彩不在』」（Haruka Senses "Aya Isn't Here"）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Haruka_AyaAbsenceSense.png
+## 圖94：「晴香感應到『彩不在』」（Haruka Senses "Aya Isn't Here"）[ACT_II]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_AyaAbsenceSense.png`
 
-時間點：帝國歷113年5-6月 Act II Phase B，E-08期間（某次SPEC#11茶會或日常互動）
-CDL追蹤：CDL-079；SPEC#11茶會場景時
-前置事件：晴香和「彩」（黑奏偽裝）在進行某個日常互動，表面完全正常
-本場景功能：捕捉晴香最接近真相的瞬間——一個0.5秒的直覺閃現，隨即被理性壓下。這個瞬間的視覺化必須是模糊的、不確定的，因為晴香自己也不確定。「彩」的微笑完美到不正常，但只有我們（讀者）知道。
-後續payoff：Act III揭露「她一直就是這樣看我」時，晴香會回想這一幕；這是她最接近真相的時刻
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷113年5-6月 Act II Phase B，E-08期間（某次SPEC#11茶會或日常互動）
+- **CDL追蹤**：CDL-079；SPEC#11茶會場景時
+- **前置事件**：晴香和「彩」（黑奏偽裝）在進行某個日常互動，表面完全正常
+- **本場景功能**：捕捉晴香最接近真相的瞬間——一個0.5秒的直覺閃現，隨即被理性壓下。這個瞬間的視覺化必須是模糊的、不確定的，因為晴香自己也不確定。「彩」的微笑完美到不正常，但只有我們（讀者）知道。
+- **後續payoff**：Act III揭露「她一直就是這樣看我」時，晴香會回想這一幕；這是她最接近真相的時刻
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 彩（便服）：`ConceptArt_Aya_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 咖啡廳或某個日常場所的室內座位。下午光線，暖色系，普通而溫柔——這個場景的恐怖正在於它的普通。
 
@@ -3394,9 +3493,9 @@ CDL追蹤：CDL-079；SPEC#11茶會場景時
 
 構圖核心：採用主觀視角或半主觀視角——畫面呈現晴香的手（前景，略虛焦）凍住，「彩」在中景對面，微笑。重點在景深的拉伸：晴香的手在前景是靜止的異常，「彩」的微笑在中景是完美的假象。可加入非常輕微的畫面扭曲或邊緣虛焦，暗示感知短路。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, intimate scene, subtle psychological horror
 Mood: uncanny valley of friendship, half-second gap in perception, the truth that almost surfaces
 Colors: warm afternoon cafe tones, golden light, but slightly desaturated at edges, subtle wrongness in color temperature near the smiling girl
@@ -3405,58 +3504,82 @@ Lighting: soft warm window light, pleasant, makes the wrongness harder to name
 Special effects: very subtle edge distortion or focal aberration around the smiling figure, imperceptible unless looked for
 Character: foreground hand frozen mid-lift with teacup; across table a girl with blue ponytail smiling perfectly, eyes slightly too still
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Two girls having tea in a cafe. One girl's hand freezes mid-motion holding a teacup, her eyes slightly unfocused. The other girl smiles perfectly across the table. Warm lighting with subtle unease. Anime style.
 --ar 16:9 --niji 6
-圖95：「飢餓的天使——直播失控（半屍骸）」（Hungry Angel: Live Broadcast Out of Control）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Haruka_LiveBroadcastBreak.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷113年7月 Act II Phase C，E-09（直播失控事件，SPEC#21前一秒）
-CDL追蹤：E-09；CDL-180；夕接管瞬間
-前置事件：E-08恐怖家家酒高壓，晴香在直播戰鬥，精神邊界臨界
-本場景功能：視覺化「夕」接管的0.5秒——這是SPEC#21「光幕破碎」的前一幀，比破碎更原始的那一刻。「維多利亞天使」身份和半屍骸狀態之間的重疊閃爍，是整個Act II最危險的視覺時刻。
-後續payoff：直接接入SPEC#21光幕濾鏡破碎；夕接管的視覺語言建立，為後續出現奠定識別基礎
-詳細核心描述（200-350字）：
+## 圖95：「飢餓的天使——直播失控（半屍骸）」（Hungry Angel: Live Broadcast Out of Control）[ACT_II]
 
-直播舞台。維多利亞天使的舞台設計——大型聚光燈，觀眾席在下方，舞台背景有帝國風格的視覺設計。這個舞台本來是魔法少女表演的英雄主義空間，現在是陷阱。
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_LiveBroadcastBreak.png`
 
-晴香站在舞台中央，左手（半屍骸化，指尖和手背有黑化紋路蔓延）向前伸出，手掌朝上。這個姿勢是「接收」，不是「給予」——她在吸取周圍的情緒能量，而不是在施展魔法攻擊。觀眾席的情緒能量流向她，以極輕微的可見粒子形式呈現（如霧氣或細小光點，被她的手掌吸引）。
+**劇情位置**：
+- **時間點**：帝國歷113年7月 Act II Phase C，E-09（直播失控事件，SPEC#21前一秒）
+- **CDL追蹤**：E-09；CDL-180；夕接管瞬間
+- **前置事件**：E-08恐怖家家酒高壓，晴香在直播戰鬥，精神邊界臨界
+- **本場景功能**：視覺化「夕」接管的0.5秒——這是SPEC#21「光幕破碎」的前一幀，比破碎更原始的那一刻。「維多利亞天使」身份和半屍骸狀態之間的重疊閃爍，是整個Act II最危險的視覺時刻。
+- **後續payoff**：直接接入SPEC#21光幕濾鏡破碎；夕接管的視覺語言建立，為後續出現奠定識別基礎
 
-她的眼睛是這張圖的核心。維多利亞天使的眼睛是明亮、光芒、可愛的；屍骸的眼睛是空洞、漆黑的。這個0.5秒，兩種狀態同時存在——右眼還帶著天使的光，左眼已經開始黑化，不完整，撕裂，閃爍。這是雙重曝光，不是切換，是同時。
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
 
-聚光燈從上方打下，把她的剪影拉得很長。舞台的光讓她的輪廓非常清晰，但她臉部的兩種狀態讓整個圖像產生內部矛盾。
-
-構圖核心：正面仰視構圖，低角度，晴香在舞台中央，聚光燈從上方，左手掌心向觀眾（也向讀者），眼睛的雙重狀態是中心細節。
-
-生成提示（Midjourney）：
+**詳細核心描述**（200-350字）：
 
 
-Style: dark magical girl illustration, stage performance horror, dual exposure
-Mood: identity fracture at zero point, the moment before everything breaks, hungering angel
-Colors: harsh stage spotlight white, deep shadow blacks, left hand dark corruption veins navy-black, right eye still bright, left eye going hollow dark, audience blur warm glow below
-Composition: low angle upshot, girl center stage arms raised left hand extended palm-up, spotlight from above creating long shadow, stage performance setting visible
-Lighting: hard overhead spotlight, creates extreme contrast, face partially in shadow
-Special effects: left hand shows corruption vein patterns, right eye bright magical girl glow, left eye dark hollow overlap simultaneously, faint emotion-particle wisps drifting toward palm
-Character: magical girl in performance costume, left hand extended absorbing rather than giving, eyes in dual state right light left dark, expression between blank and consuming
+城市廣場。這是一場戰鬥直播現場——帝國授權的魔法少女公開戰鬥，配備直播攝影機和光幕濾鏡裝置。周圍是圍觀市民，本來安全地站在封鎖線外觀看「英雄打倒屍骸」的直播節目。光幕濾鏡的作用是把戰鬥畫面過濾成正向、英雄主義的視覺語言——觀眾以為他們在看一個光明的表演。
+
+夕接管的這0.5秒，晴香的身體還是「維多利亞天使」的戰鬥姿態，但控制者已經換了。左手（半屍骸化，指尖和手背有黑化紋路從皮下蔓延）向前伸出，掌心朝向封鎖線外的圍觀者——不是對著屍骸，是對著市民。這是攻擊，是掠奪：她在強制抽取圍觀者的情緒能量，受害者感到突然的空洞、暈眩、無故悲傷。能量以可見粒子形式流動，從人群方向被她的手掌強行抽走，像是有人把光從他們身上撕下來。
+
+她的眼睛是這張圖的核心。維多利亞天使的眼睛是明亮、光芒的；屍骸的眼睛是空洞、漆黑的。這個0.5秒，兩種狀態同時存在——右眼還帶著天使的光，左眼已開始黑化，不完整，撕裂，閃爍。雙重曝光，不是切換，是同時。
+
+廣場的自然光和直播燈光讓她的輪廓清晰，但表情已不屬於晴香——那是夕的表情：飢餓，冷靜，沒有任何痛苦的掩飾。
+
+構圖核心：低角度仰視，晴香在廣場中央，左手伸向畫面右側的圍觀人群，能量粒子從人群方向流向她的掌心。背景可見封鎖線和攝影機，遠處可見模糊的市民剪影。眼睛的雙重狀態是中心細節。
+
+
+**生成提示（Midjourney）**：
+```
+Style: dark magical girl illustration, urban battle scene, dual exposure identity fracture
+Mood: predatory hunger disguised as performance, the moment a hero becomes a threat, cold consumption
+Colors: city plaza natural light + broadcast camera lighting, left hand dark corruption veins navy-black crawling under skin, right eye still bright magical girl glow, left eye hollow dark void, visible emotion particles pulled from crowd in cold blue-white wisps
+Composition: low angle upshot, girl in center of open city plaza, left hand extended palm outward toward crowd at right side of frame, energy particles streaming from civilian silhouettes toward her palm, broadcast cameras and cordon visible in background
+Lighting: mixed urban daylight and broadcast flood lights, no single overhead spotlight, face lit from multiple angles revealing the dual eye state
+Special effects: left hand corruption vein pattern spreading, emotion particle drain from crowd flowing toward palm, right eye bright magical girl glow overlapping with left eye hollow darkness simultaneously — dual exposure not switch
+Character: magical girl in battle costume mid-combat, left hand turned toward the crowd not the enemy, expression cold and hungry rather than heroic, eyes in split state
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
-A magical girl on stage with one hand raised palm-up under harsh spotlights, one eye glowing and one eye dark hollow, in the moment before losing control. Dark magical girl horror aesthetic. Stage performance setting.
+### 替代版本（若被拒絕）
+
+```
+A magical girl in a city plaza during a battle, one hand extended toward the watching crowd rather than the enemy, one eye glowing and one eye hollow dark, emotion energy particles visibly drained from civilians into her palm. Cold expression, body horror corruption veins on hand. Dark magical girl horror, urban outdoor setting.
 --ar 9:16 --niji 6
-圖96：「黑奏農場觀察」（Kurokane's Farm Observation）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Kurokane_FarmObservation.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷113年 Act II Phase B，E-08前後
-CDL追蹤：CDL-211；CDL-079
-前置事件：黑奏長期以「彩」身份與晴香建立「友誼」，這是她長期農場計畫的一部分
-本場景功能：視覺化黑奏「情緒農場」意識形態——不是惡意，是冷靜的商業評估。「彩」的微笑和農場主看作物的視線之間的重疊，讓觀眾理解整段「友誼」的本質。
-後續payoff：揭示黑奏「情緒農場」意識形態的視覺化；SPEC#11玻璃庭院茶會的深層含義
-詳細核心描述（200-350字）：
+## 圖96：「黑奏農場觀察」（Kurokane's Farm Observation）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Kurokane_FarmObservation.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113年 Act II Phase B，E-08前後
+- **CDL追蹤**：CDL-211；CDL-079
+- **前置事件**：黑奏長期以「彩」身份與晴香建立「友誼」，這是她長期農場計畫的一部分
+- **本場景功能**：視覺化黑奏「情緒農場」意識形態——不是惡意，是冷靜的商業評估。「彩」的微笑和農場主看作物的視線之間的重疊，讓觀眾理解整段「友誼」的本質。
+- **後續payoff**：揭示黑奏「情緒農場」意識形態的視覺化；SPEC#11玻璃庭院茶會的深層含義
+
+**Reference Images**：
+- 黑奏：`ConceptArt_Kurosou_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 咖啡廳。前景和背景之間有一塊清晰的玻璃——咖啡廳的落地窗。
 
@@ -3470,9 +3593,9 @@ CDL追蹤：CDL-211；CDL-079
 
 構圖核心：前景「彩」的臉大且清晰，背景晴香在玻璃後略為虛焦，玻璃反射製造輕微重疊，兩者同時可見但層次分明。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, glass reflection composition, quiet menace
 Mood: cold assessment disguised as warmth, the farmer watching the harvest, distance as power
 Colors: warm cafe interior amber against cool street exterior blue-gray, glass creating temperature separation, girl's smile warm but eyes temperature-neutral
@@ -3481,21 +3604,33 @@ Lighting: warm interior cafe light on foreground, cool overcast daylight on back
 Special effects: glass reflection lightly overlapping foreground girl's face with background figure, creates double-exposure effect
 Character: foreground child-bodied girl with adult stillness in eyes, composed smile, hands around drink; background figure unaware teenage girl on street
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A small girl with child appearance sits at a cafe window smiling calmly toward the glass. Through the window behind her a teenage girl walks on the street unaware. Glass reflection overlaps them slightly. Warm interior, cool exterior. Dark anime style.
 --ar 16:9 --niji 6
-圖97：「鏡像相簿異變」（Mirror Photo Album Anomaly）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Haruka_PhotoAlbumAnomaly.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷113-114年 Act II Phase B，[NC] 段落
-CDL追蹤：08_narrative_design §P-C10鏡像相簿；[待確認CDL]
-前置事件：SPEC#30違和感（鏡中倒影慢0.3秒）；夕的存在仍未揭露，晴香不知道她的多重身份
-本場景功能：夕的存在感第一次物理顯現。合照中出現的殘影引入了「誰才是彩」的視覺謎題，同時暗示玻璃、鏡面、反射作為這個故事的核心意象系統。
-後續payoff：夕存在感的第一次物理顯現；SPEC#2整合場景（殘影最終被面對）
-詳細核心描述（200-350字）：
+## 圖97：「鏡像相簿異變」（Mirror Photo Album Anomaly）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_PhotoAlbumAnomaly.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113-114年 Act II Phase B，[NC] 段落
+- **CDL追蹤**：08_narrative_design §P-C10鏡像相簿；[待確認CDL]
+- **前置事件**：SPEC#30違和感（鏡中倒影慢0.3秒）；夕的存在仍未揭露，晴香不知道她的多重身份
+- **本場景功能**：夕的存在感第一次物理顯現。合照中出現的殘影引入了「誰才是彩」的視覺謎題，同時暗示玻璃、鏡面、反射作為這個故事的核心意象系統。
+- **後續payoff**：夕存在感的第一次物理顯現；SPEC#2整合場景（殘影最終被面對）
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 室內，可以是臥室或普通房間。晴香手持一張合照，照片是她和「彩」的，普通的紀念合照，背景可能是某次外出場景。
 
@@ -3509,9 +3644,9 @@ CDL追蹤：08_narrative_design §P-C10鏡像相簿；[待確認CDL]
 
 構圖核心：俯拍或中近景，晴香的手持著相框，玻璃的反射帶有藍色殘影，但角度很微妙，就像光線錯覺，隨時可能消失。照片正面清晰可見，反射殘影在玻璃層上是半透明的干擾。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, photo and reflection, visual mystery
 Mood: the ghost of someone who was never there, almost-truth, perception on the edge of breaking
 Colors: warm room tones, photo has normal colors, glass reflection shows cold blue hair ghost overlay, translucent and edge-blurred
@@ -3520,21 +3655,33 @@ Lighting: room light, soft, the reflection is not dramatic, it looks like it cou
 Special effects: semi-transparent blue hair silhouette in glass reflection layer overlapping the smiling girl in the photo, edge-blurred, almost looks like lens artifact
 Character: foreground hands holding framed photo; visible in photo two girls smiling; in glass reflection above one girl a translucent blue-haired shadow
 Canvas: 1:1 --ar 1:1 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Close shot of hands holding a framed photo of two girls. In the glass reflection of the frame, a faint blue-haired silhouette appears overlapping one of the girls. The shadow is translucent, almost like a light trick. Quiet mystery. Anime art style.
 --ar 1:1 --niji 6
-圖98：「操の虛榮告白」（Misao's Vanity Confession）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Misao_VanityConfession.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷113年 Act II Phase A，E-05a後（操加入主角團初期）
-CDL追蹤：misao.md §隊伍融入；[待確認CDL]
-前置事件：操被迫加入主角團（她認為自己是被降格了），在某次任務後的空檔
-本場景功能：操弧光的第一個真正轉折——她第一次說出「我不如我以為的那麼好」，但說出口的方式仍然是操式的：驕傲的、側身的、不看人的。這是放下傲慢但不放棄尊嚴的微妙平衡。
-後續payoff：操弧光從形式主義到真實的第一步；SPEC#5鏡像處刑室（下一個轉折點）
-詳細核心描述（200-350字）：
+## 圖98：「操の虛榮告白」（Misao's Vanity Confession）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_VanityConfession.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113年 Act II Phase A，E-05a後（操加入主角團初期）
+- **CDL追蹤**：misao.md §隊伍融入；[待確認CDL]
+- **前置事件**：操被迫加入主角團（她認為自己是被降格了），在某次任務後的空檔
+- **本場景功能**：操弧光的第一個真正轉折——她第一次說出「我不如我以為的那麼好」，但說出口的方式仍然是操式的：驕傲的、側身的、不看人的。這是放下傲慢但不放棄尊嚴的微妙平衡。
+- **後續payoff**：操弧光從形式主義到真實的第一步；SPEC#5鏡像處刑室（下一個轉折點）
+
+**Reference Images**：
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 廢棄場所，可以是廢棄倉庫或已關閉的商場走廊。光源昏黃，不是戲劇性的黑暗，是被遺棄場所的日常昏暗。
 
@@ -3548,9 +3695,9 @@ CDL追蹤：misao.md §隊伍融入；[待確認CDL]
 
 構圖核心：中近景，操側身靠牆，側臉朝向畫面外，眼眶輕微紅，妝容完整，姿態仍有稜角，但比平時多了一絲不穩定的人味。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, character close study, interior emotional moment
 Mood: pride refusing to die even when admitting defeat, the first crack in armor that does not shatter it
 Colors: dim abandoned interior warm-gray, girl's makeup perfect red lips and liner intact, slight redness at eye corners, cool wall she leans against
@@ -3559,21 +3706,34 @@ Lighting: dim ambient only, no dramatic source, makes everything feel quiet
 Special effects: none needed
 Character: teenage girl with full dramatic makeup, perfectly styled, leaning sideways against wall, eye corners very slightly red, posture defensive but with one hairline vulnerability
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A teenage girl with dramatic makeup leans sideways against a wall in an abandoned building, eyes slightly red at corners, not looking at the viewer. Her expression is proud but fragile. Character study. Dark anime art style.
 --ar 9:16 --niji 6
-圖99：「朔看見Unit 01的臉」（Saku Sees Miyako's Face on Unit 01）[ACT_II]
-建議輸出文件名：ConceptArt_Scene_Saku_SeesUnit01.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷113-114年 Act II Phase D
-CDL追蹤：saku.md §美夜子；[待確認CDL]
-前置事件：朔在某次任務中遠距遇到美夜子（Unit 01），此前他知道Unit 01的存在但從未如此近距確認
-本場景功能：朔單方面認出美夜子的瞬間。這是一個不對稱的識別時刻：他知道了她是誰，她不知道他是誰（或不確定）。這確立了朔作為旁觀者/見証者的位置，以及他選擇不直接介入但持續追蹤的動機。
-後續payoff：朔的動機和CDL-274月下相認相關線；朔決定不直接介入但持續觀察的決策根源
-詳細核心描述（200-350字）：
+## 圖99：「朔看見Unit 01的臉」（Saku Sees Miyako's Face on Unit 01）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Saku_SeesUnit01.png`
+
+**劇情位置**：
+- **時間點**：帝國歷113-114年 Act II Phase D
+- **CDL追蹤**：saku.md §美夜子；[待確認CDL]
+- **前置事件**：朔在某次任務中遠距遇到美夜子（Unit 01），此前他知道Unit 01的存在但從未如此近距確認
+- **本場景功能**：朔單方面認出美夜子的瞬間。這是一個不對稱的識別時刻：他知道了她是誰，她不知道他是誰（或不確定）。這確立了朔作為旁觀者/見証者的位置，以及他選擇不直接介入但持續追蹤的動機。
+- **後續payoff**：朔的動機和CDL-274月下相認相關線；朔決定不直接介入但持續觀察的決策根源
+
+**Reference Images**：
+- 朔：`ConceptArt_Saku_CasualWear.png`
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 戶外任務場景，夜間或黃昏。某個過渡空間——廢棄廣場、屋頂、橋上，有一定距離感。
 
@@ -3589,9 +3749,9 @@ CDL追蹤：saku.md §美夜子；[待確認CDL]
 
 構圖核心：分割視角——畫面一邊是朔的側臉（視線方向清晰），另一邊是較遠處的美夜子（冰藍眼睛在黑暗中發光），兩組視線形成一條不相交的連接線。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, night operation, distant recognition
 Mood: one-way identification, the weight of knowing without being known, surveillance as grief
 Colors: night blues and grays, white cat fur luminous against dark, ice blue eyes catching light, observer figure in deep shadow
@@ -3600,22 +3760,35 @@ Lighting: night ambient, cat's eyes catch available light and glow slightly, obs
 Special effects: cat's ice-blue eyes hold a slight glow, one precise detail in an otherwise dark scene
 Character: shadowed male observer with quiet certain expression; white cat in distance with unnaturally clear luminous ice-blue eyes, mid-task posture
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A man stands in shadow watching a white cat with glowing ice-blue eyes in the distance at night. The cat is unaware of being watched. Silent recognition across distance. Dark anime style.
 --ar 16:9 --niji 6
+```
 
-圖100：「凜的最終選擇——Unit 00-Null揭露」（Rin's Final Choice: Unit 00-Null Revelation）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_Rin_FinalChoiceUnit00.png
+---
 
-劇情位置：
+## 圖100：「凜的最終選擇——Unit 00-Null揭露」（Rin's Final Choice: Unit 00-Null Revelation）[ACT_III]
 
-時間點：帝國歷114年4月 Act III Phase H2，E-15a（凜拒絕治癒）
-CDL追蹤：E-15a；CDL-215；rin.md §最終選擇
-前置事件：晴香終於找到了「治癒凜」的方法（靈魂複原術）；凜自己已經知道自己的真實身份
-本場景功能：凜拒絕被救的瞬間。這不是悲劇性的崩潰，而是已做決定的平靜——她知道Unit 00是一件武器，她需要用這件武器完成某件事。拒絕是主動的選擇，不是被動的接受命運。
-後續payoff：直接導向E-15.8凜×美夜子的最後時刻；SPEC#77凜犧牲（前史）的現代回響
-詳細核心描述（200-350字）：
+**建議輸出文件名**：`ConceptArt_Scene_Rin_FinalChoiceUnit00.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年4月 Act III Phase H2，E-15a（凜拒絕治癒）
+- **CDL追蹤**：E-15a；CDL-215；rin.md §最終選擇
+- **前置事件**：晴香終於找到了「治癒凜」的方法（靈魂複原術）；凜自己已經知道自己的真實身份
+- **本場景功能**：凜拒絕被救的瞬間。這不是悲劇性的崩潰，而是已做決定的平靜——她知道Unit 00是一件武器，她需要用這件武器完成某件事。拒絕是主動的選擇，不是被動的接受命運。
+- **後續payoff**：直接導向E-15.8凜×美夜子的最後時刻；SPEC#77凜犧牲（前史）的現代回響
+
+**Reference Images**：
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 私密空間，廢棄建築或走廊，光線昏暗但不是絕對的黑暗——有一道光，可能是窗外透進來的，把這個拒絕的時刻照亮到恰好可以看清楚。
 
@@ -3631,9 +3804,9 @@ CDL追蹤：E-15a；CDL-215；rin.md §最終選擇
 
 構圖核心：兩人對立，晴香的手在前景伸出（手心向上），凜在中景，她的手把晴香的手輕推到一側，身後有昏暗的空間。紅縫合線是凜側的重要細節。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, intimate confrontation, quiet devastation
 Mood: chosen sacrifice as agency, the refusal that costs everything, a decision already made
 Colors: dim abandoned interior, single light source from offscreen creating rim light, red suture line at neck vivid against pale skin, two hands meeting and parting
@@ -3642,23 +3815,33 @@ Lighting: single side light from off-screen window, creates one lit face and one
 Special effects: red suture scar line at refusing girl's neck visible and clear
 Character: one girl with hand extended palm-up reaching toward other; second girl in official uniform gently pushing the hand aside, eyes settled and decided, red neck scar visible
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Two girls facing each other in a dim hallway. One extends her hand palm-up offering help. The other gently pushes it aside, expression calm and already decided. A red scar line visible at her neck. Dark anime style. Emotional restraint.
 --ar 16:9 --niji 6
+```
 
+---
 
-圖101：「嘆息之橋——凜獨角」（Sigh Bridge: Rin's Solo Moment）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_Rin_SighBridgeSolo.png
+## 圖101：「嘆息之橋——凜獨角」（Sigh Bridge: Rin's Solo Moment）[ACT_III]
 
-劇情位置：
+**建議輸出文件名**：`ConceptArt_Scene_Rin_SighBridgeSolo.png`
 
-時間點：帝國歷114年 Act III Phase G-H之間
-CDL追蹤：rin.md §嘆息之橋；04_timeline §嘆息之橋
-前置事件：凜已知自己是重組體（自我認知已完成），尚未向其他人揭露；候選W的決定在此完成
-本場景功能：凜在揭露前的最後「interiority」瞬間。她不哭，不掙扎，她已經決定好了。這個場景是她作為一個「自己知道自己會消失的人」的最後獨處，是最後一次以完整意識站在世界上的時刻。
-後續payoff：候選W凜的最終選擇（她在這裡就決定了）；E-15.8最後時刻的情感前置
-詳細核心描述（200-350字）：
+**劇情位置**：
+- **時間點**：帝國歷114年 Act III Phase G-H之間
+- **CDL追蹤**：rin.md §嘆息之橋；04_timeline §嘆息之橋
+- **前置事件**：凜已知自己是重組體（自我認知已完成），尚未向其他人揭露；候選W的決定在此完成
+- **本場景功能**：凜在揭露前的最後「interiority」瞬間。她不哭，不掙扎，她已經決定好了。這個場景是她作為一個「自己知道自己會消失的人」的最後獨處，是最後一次以完整意識站在世界上的時刻。
+- **後續payoff**：候選W凜的最終選擇（她在這裡就決定了）；E-15.8最後時刻的情感前置
+
+**Reference Images**：
+- 凜：`ConceptArt_Rin_MagicalGirl_1.png`
+
+**詳細核心描述**（200-350字）：
+
 
 嘆息之橋。帝國某處的老橋，石材建造，年代久遠。夜間，有霧，但不是伸手不見五指的霧，是讓遠景失焦、讓這個場景與城市其他地方輕微隔離的霧——橋的兩端消失在霧裡，橋上只有她。
 
@@ -3672,9 +3855,9 @@ CDL追蹤：rin.md §嘆息之橋；04_timeline §嘆息之橋
 
 構圖核心：橋上橫向構圖或縱深構圖，凜在橋中央，霧消去遠景，路燈昏黃照在她的頸部和肩膀，紅縫合線清晰，橋下黑暗。她的背影或四分之三側身，不完全給出正臉。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl illustration, atmospheric night scene, final interior moment
 Mood: a decision already made, the last moment of being whole, quiet completion not despair
 Colors: night fog blue-gray, old stone bridge texture, amber-warm old streetlamp limited pool of light, deep shadow below, red suture scar line catching lamp light
@@ -3683,21 +3866,33 @@ Lighting: single old amber streetlamp, creates warm isolated pool, everything el
 Special effects: fog softly erases distance, her figure crisp against soft surroundings, red neck scar in lamp light is the one sharp color accent
 Character: girl in dark official uniform at stone bridge railing, both hands on stone, head tilted forward looking down, posture settled not distressed, red suture scar line at neck visible in lamplight
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A girl in a dark uniform stands alone on an old stone bridge at night in the fog, hands on the railing, looking down. Amber streetlamp. A red scar line at her neck catches the light. Fog obscures both ends of the bridge. Dark anime style. Atmospheric.
 --ar 9:16 --niji 6
-圖102：「操の被迫報串」（Misao's Forced Betrayal Report）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_Misao_ForcedBetrayalReport.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年 Act III Phase H
-CDL追蹤：CDL-298；misao.md §報串；misao.md §罪疚
-前置事件：帝國以威脅或黑材料強迫操透露主角團情報，操面對無從抵抗的處境
-本場景功能：展示操在被迫背叛的瞬間——她的手懸在通訊器上，傀儡絲連著她的手指，但她沒有移動。不是抵抗，是已知道自己沒有選擇的人在按下之前最後的靜止。紗夜遺物在場，強化她背負的重量。
-後續payoff：SPEC#1鋼鐵獨舞（帶著這份罪疚起舞）；操選擇犧牲作為「用死亡贖回背叛」的個人審判
-詳細核心描述（200-350字）：
+## 圖102：「操の被迫報串」（Misao's Forced Betrayal Report）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_ForcedBetrayalReport.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年 Act III Phase H
+- **CDL追蹤**：CDL-298；misao.md §報串；misao.md §罪疚
+- **前置事件**：帝國以威脅或黑材料強迫操透露主角團情報，操面對無從抵抗的處境
+- **本場景功能**：展示操在被迫背叛的瞬間——她的手懸在通訊器上，傀儡絲連著她的手指，但她沒有移動。不是抵抗，是已知道自己沒有選擇的人在按下之前最後的靜止。紗夜遺物在場，強化她背負的重量。
+- **後續payoff**：SPEC#1鋼鐵獨舞（帶著這份罪疚起舞）；操選擇犧牲作為「用死亡贖回背叛」的個人審判
+
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 昏暗的小房間，操一個人站在簡陋的通訊器台前。台面上只有通訊器，舊型號，按鍵上有磨損痕跡。
 
@@ -3713,9 +3908,9 @@ CDL追蹤：CDL-298；misao.md §報串；misao.md §罪疚
 
 整個構圖：操的背影或半側面佔據畫面左側，傀儡絲佔中，通訊器在右。觀者視線自然從操的手指，沿著絲，落在按鍵上。那個按鍵就是她還沒有按下去的命運。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl anime, muted palette, still-life tension
 Mood: resigned guilt, last stillness before irreversible act, heavy silence
 Colors: deep grey, ash blue, pale skin, faint amber from door crack, muted gold of puppet strings
@@ -3724,21 +3919,34 @@ Lighting: single dim overhead source, shadow heavy on face, faint warm light fro
 Special effects: translucent puppet strings glowing faintly gold, barely perceptible, loose and untensioned
 Character: teenage girl, dark school-uniform variant, fingers suspended 3cm above keypad, head slightly bowed, expression calm with deep-layer guilt, not crying
 Canvas: 16:9 cinematic --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime girl standing alone before old communication device in dim room, hand hovering over keypad, thin glowing threads from fingertips to keys, dried flowers on table corner, resigned expression, muted grey and blue palette, cinematic still, dark magical girl aesthetic
 --ar 16:9 --niji 6
-圖103：「糖果唐樓交易」（Candy Tower Block Transaction）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_CandyTowerBlockTransaction.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年3月 Act III Phase G3
-CDL追蹤：CDL-213/214；07_entities §糖果唐樓
-前置事件：主角團在Phase G尋找紫音下落，走入地下情報市場尋求線索
-本場景功能：展示地下世界的美學質感——「即使是黑市也有它的尊嚴與品味」。情緒結晶如名酒一樣分類展示，中間人以專業態度接待。主角團處於評估與交換的緊張位置。
-後續payoff：CDL-214下水道無聲重逢（線索追蹤成功）；世界觀中地下經濟的視覺具象化
-詳細核心描述（200-350字）：
+## 圖103：「糖果唐樓交易」（Candy Tower Block Transaction）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_CandyTowerBlockTransaction.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年3月 Act III Phase G3
+- **CDL追蹤**：CDL-213/214；07_entities §糖果唐樓
+- **前置事件**：主角團在Phase G尋找紫音下落，走入地下情報市場尋求線索
+- **本場景功能**：展示地下世界的美學質感——「即使是黑市也有它的尊嚴與品味」。情緒結晶如名酒一樣分類展示，中間人以專業態度接待。主角團處於評估與交換的緊張位置。
+- **後續payoff**：CDL-214下水道無聲重逢（線索追蹤成功）；世界觀中地下經濟的視覺具象化
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 香港舊式唐樓的某層。走廊盡頭的一個大房間，低矮天花，牆上剝落的舊漆露出更舊的磚。但房間內部被刻意佈置過：巴洛克式的天鵝絨扶手椅，椅墊磨損，絲線微微起毛；一盞水晶吊燈，積了薄塵，但吊燈本身的切割仍然精緻，燈光透過舊水晶折射出稍微渾濁的彩虹。
 
@@ -3750,9 +3958,9 @@ CDL追蹤：CDL-213/214；07_entities §糖果唐樓
 
 整個房間的矛盾感是重點：殘舊的外殼，精心維持的內部秩序，地下世界的美學尊嚴。這個空間從不假裝自己高尚，但它知道自己是什麼，並以此為傲。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark fantasy noir anime, Hong Kong old tenement building interior, baroque decay aesthetic
 Mood: underground market professionalism, tension beneath decorum, old-world dignity in shadow economy
 Colors: deep burgundy, faded gold, dusty crystal refractions, muted skin tones, amber lamp light, grey-green wall plaster
@@ -3761,21 +3969,34 @@ Lighting: chandelier ambient with aged crystal diffusion, warm but slightly murk
 Special effects: emotion crystals glowing faintly with varied hues, each slightly different color and opacity
 Character: neat but worn nurse uniform figure as vendor, two young magic-user figures as buyers, formal body language, no smiling
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime interior Hong Kong old apartment room, baroque worn velvet chairs, dusty crystal chandelier, long table with glowing crystal vials arranged like wine collection, nurse-uniformed woman presenting items to two young visitors, dark underground market atmosphere, muted burgundy and gold palette
 --ar 16:9 --niji 6
-圖104：「下水道無聲重逢」（Silent Reunion in the Sewers）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_SilentReunionSewers.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年3月 Act III Phase G4
-CDL追蹤：CDL-214；05_story_outline §Phase G
-前置事件：糖果唐樓獲得線索，主角團找到紫音藏匿地點附近
-本場景功能：展示晴香對紫音的照顧方式——她不強迫接觸，她放下東西，然後離開，給紫音保留空間和尊嚴。這是一種「懂得怎樣愛人」的無聲示範。場景的主角是那袋被遺留的東西，不是人。
-後續payoff：SPEC#4廢棄糖果工廠正面相遇（紫音願意走出來的情感根基）；紫音接受幫助的第一步
-詳細核心描述（200-350字）：
+## 圖104：「下水道無聲重逢」（Silent Reunion in the Sewers）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_SilentReunionSewers.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年3月 Act III Phase G4
+- **CDL追蹤**：CDL-214；05_story_outline §Phase G
+- **前置事件**：糖果唐樓獲得線索，主角團找到紫音藏匿地點附近
+- **本場景功能**：展示晴香對紫音的照顧方式——她不強迫接觸，她放下東西，然後離開，給紫音保留空間和尊嚴。這是一種「懂得怎樣愛人」的無聲示範。場景的主角是那袋被遺留的東西，不是人。
+- **後續payoff**：SPEC#4廢棄糖果工廠正面相遇（紫音願意走出來的情感根基）；紫音接受幫助的第一步
+
+**Reference Images**：
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 下水道入口附近，不是下水道深處，是入口前的過渡地帶——半露天，地面潮濕，苔跡與滲水的痕跡沿磚縫生長。燈光是外面城市的漫射光，帶著橙黃色的夜色，透不進來多少，形成一個半明半暗的閾值空間。
 
@@ -3787,9 +4008,9 @@ CDL追蹤：CDL-214；05_story_outline §Phase G
 
 整個構圖的重心是地上的布袋，和袋子佔據的那一個稍微被燈光照到的空間。那是一個小小的、溫暖的、不強迫任何人的空間。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl anime, quiet emotional realism, urban undercity
 Mood: one-sided tender care, deliberate space-giving, heavy implied presence
 Colors: damp grey concrete, orange-yellow urban light diffused, deep shadow, pale cloth of small bundle
@@ -3798,21 +4019,33 @@ Lighting: low diffused urban nightlight from outside, warm amber tinge, harsh sh
 Special effects: very faint eye-reflection glint in deep shadow near sewer entrance, barely visible
 Character: departing figure (back only, school uniform), implied hidden watcher in darkness, no faces visible
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime sewer entrance urban night, small cloth bundle left on wet ground, girl silhouette walking away at frame edge, deep shadow beyond entrance with faint presence implied, muted warm grey palette, quiet emotional scene, no characters facing viewer
 --ar 16:9 --niji 6
-圖105：「公告夜（紫音作為清剿目標）」（Announcement Night: Akane as Purge Target）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年5月 Act III Phase I，Day 13夜
-CDL追蹤：CDL-217；05_story_outline §Phase I
-前置事件：Day 13操化為人偶牆犧牲；帝國即夜宣布清剿令
-本場景功能：展示帝國如何將紫音定性為「危險生物」加以公告，以及主角團目睹公告時的無言。明天（Day 14）就是決定性的一天，這個公告就是倒數的最後一格。
-後續payoff：Day 14 SPEC#10糖果山犧牲（紫音選擇主動化為糖晶而非被清剿，這個公告是她做出選擇的背景之一）
-詳細核心描述（200-350字）：
+## 圖105：「公告夜（紫音作為清剿目標）」（Announcement Night: Akane as Purge Target）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年5月 Act III Phase I，Day 13夜
+- **CDL追蹤**：CDL-217；05_story_outline §Phase I
+- **前置事件**：Day 13操化為人偶牆犧牲；帝國即夜宣布清剿令
+- **本場景功能**：展示帝國如何將紫音定性為「危險生物」加以公告，以及主角團目睹公告時的無言。明天（Day 14）就是決定性的一天，這個公告就是倒數的最後一格。
+- **後續payoff**：Day 14 SPEC#10糖果山犧牲（紫音選擇主動化為糖晶而非被清剿，這個公告是她做出選擇的背景之一）
+
+**Reference Images**：
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+
+**詳細核心描述**（200-350字）：
+
 
 城市街道或某個廣場一角，夜晚。一個大型全息投影屏幕或舊式街頭公告板（帝國風格的官方通知形式），畫面上顯示紫音（屍骸女王形態）的輪廓影像——不是她真正的臉，是帝國記錄中她的「危險形態」，邊緣失焦，帶著明顯的官方標記感。
 
@@ -3824,9 +4057,9 @@ CDL追蹤：CDL-217；05_story_outline §Phase I
 
 整個畫面：屏幕的藍白冷光、黑夜背景、幾個背影，沉默。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark sci-fi magical girl anime, dystopian public announcement aesthetic
 Mood: condemned verdict, heavy pre-dawn silence, complicit institutional coldness
 Colors: cold blue-white holographic light, deep night black, muted figure silhouettes, harsh official text contrast
@@ -3835,21 +4068,33 @@ Lighting: cold blue-white screen light as sole source, harsh face-front shadows 
 Special effects: holographic screen scan lines, official watermark textures, countdown element optional
 Character: back-view only figures, varied postures (leaning on wall, standing, crouching), no faces shown
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime dystopian city night, large holographic warning screen showing silhouette creature designation with official text, four young people watching from behind in silence, cold blue screen light, dark urban environment, back view only, no faces
 --ar 16:9 --niji 6
-圖106：「彩在心房中摸熊公仔」（Aya Touches the Teddy Bear in Her Heart Chamber）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_Aya_TeddyBear_HeartChamber.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年 Act III，彩被囚禁狀態（貫穿Act III）
-CDL追蹤：aya.md §葉語彩；CDL-076
-前置事件：黑奏長期使用彩的身體作容器，彩被困在身體最深處的心房空間，Act III所有事件在外面進行
-本場景功能：展示彩的囚禁狀態、她在等待中的堅持，以及熊公仔這個跨越了「界線」的遺留物所帶來的奇特溫度。她不知道為什麼它在這裡，但她在觸摸它。
-後續payoff：SPEC#8彩奪回身體（她一直在等待，這一刻是等待的具象化）；候選PP彩的心房空間
-詳細核心描述（200-350字）：
+## 圖106：「彩在心房中摸熊公仔」（Aya Touches the Teddy Bear in Her Heart Chamber）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Aya_TeddyBear_HeartChamber.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年 Act III，彩被囚禁狀態（貫穿Act III）
+- **CDL追蹤**：aya.md §葉語彩；CDL-076
+- **前置事件**：黑奏長期使用彩的身體作容器，彩被困在身體最深處的心房空間，Act III所有事件在外面進行
+- **本場景功能**：展示彩的囚禁狀態、她在等待中的堅持，以及熊公仔這個跨越了「界線」的遺留物所帶來的奇特溫度。她不知道為什麼它在這裡，但她在觸摸它。
+- **後續payoff**：SPEC#8彩奪回身體（她一直在等待，這一刻是等待的具象化）；候選PP彩的心房空間
+
+**Reference Images**：
+- 彩：`ConceptArt_Aya_MagicalGirl_1.png`
+
+**詳細核心描述**（200-350字）：
+
 
 心房空間：狹窄，像通風管道與廢棄地下室的混合體，天花板低，磚縫間長著青苔與細小的情緒結晶，晶體顏色暗淡，有些已經破碎，邊緣磨損。空間本身有一種長期被壓縮的感覺，不是整潔的囚室，是一個被遺忘的、勉強能存在的地方。
 
@@ -3861,9 +4106,9 @@ CDL追蹤：aya.md §葉語彩；CDL-076
 
 整體：小小的彩，舊熊公仔，狹小的空間，透明牆外的遙遠光。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl anime, claustrophobic surreal interior, muted emotional palette
 Mood: quiet endurance, isolated waiting, small warmth in constriction
 Colors: grey-green damp stone, dark moss, dim crystalline growths in pale violet and grey, warm amber only from beyond the membrane wall, old teddy bear in faded beige
@@ -3872,21 +4117,33 @@ Lighting: no direct source, ambient dim light from crystal growth and membrane w
 Special effects: semi-transparent membrane wall with impressionistic warm shapes beyond it, faint crystal fragment glow along walls
 Character: small girl approximately 7 years old, dark simple dress, hugging worn stuffed bear, fingertips touching bear's ear, calm enduring expression
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime small girl child in dark cramped underground space with mossy crystal walls, hugging worn teddy bear in corner, semi-transparent glowing wall on side showing warm light beyond, quiet isolated mood, muted grey and green palette with faint warm glow
 --ar 9:16 --niji 6
-圖107：「蜜月困境——K期靈魂監獄」（Honeymoon Trap: Phase K Soul Prison）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年5-6月 Act III Phase K1（20年靈魂風暴開始）
-CDL追蹤：CDL-053；05_story_outline §Phase K
-前置事件：SPEC#13靜止搖籃後，晴香選擇粒子化成為新世界錨點，靈魂進入K期特殊空間
-本場景功能：「溫暖監獄」的視覺具象化——K期的囚禁不是以恐怖形式呈現，而是以完美正常、幾乎過於溫暖的日常形式呈現，而真相只在反射面洩漏。每一天都是同樣的早晨，她知道，但她繼續吃早餐。
-後續payoff：Act IV Phase L晴香覺醒（20年後逃出K期）；「溫暖作為囚籠」的主題表達
-詳細核心描述（200-350字）：
+## 圖107：「蜜月困境——K期靈魂監獄」（Honeymoon Trap: Phase K Soul Prison）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年5-6月 Act III Phase K1（20年靈魂風暴開始）
+- **CDL追蹤**：CDL-053；05_story_outline §Phase K
+- **前置事件**：SPEC#13靜止搖籃後，晴香選擇粒子化成為新世界錨點，靈魂進入K期特殊空間
+- **本場景功能**：「溫暖監獄」的視覺具象化——K期的囚禁不是以恐怖形式呈現，而是以完美正常、幾乎過於溫暖的日常形式呈現，而真相只在反射面洩漏。每一天都是同樣的早晨，她知道，但她繼續吃早餐。
+- **後續payoff**：Act IV Phase L晴香覺醒（20年後逃出K期）；「溫暖作為囚籠」的主題表達
+
+**Reference Images**：
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 一個廚房。不是豪華的廚房，是普通家庭的廚房——木質餐桌，稍微舊的椅子，窗台上可能有一兩株植物，陽光透過窗戶灑進來，光線是早晨的那種淡金色。一切都完全正常，甚至稍微溫暖，像是繪本裡的「家」的圖像。
 
@@ -3898,9 +4155,9 @@ CDL追蹤：CDL-053；05_story_outline §Phase K
 
 整個場景的矛盾感：光線是早晨的溫暖色調，但晴香的姿態有一種完全沒有期待的安靜——她繼續吃早餐，不是因為她希望，而是因為這是今天，而今天和昨天一樣，和明天也會一樣。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl anime, deceptive normalcy, psychological horror through warmth
 Mood: serene trap, infinite repetition, warmth as cage, quiet despair beneath domesticity
 Colors: soft morning gold, warm wood tones, white porcelain, pale window light — all deliberately cozy; window reflection shows cold pale fracture light
@@ -3909,21 +4166,34 @@ Lighting: soft diffused morning sunlight as main light, warm and gentle, but win
 Special effects: window glass reflection shows fracture/particle edge lines on reflected face, light bleeding from cracks, reflection subtly inconsistent with source
 Character: teenage girl in casual clothes, seated, eating or hands still at table, calm and empty expression, no tears
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime girl sitting at ordinary kitchen table eating breakfast in warm morning light, window glass reflection shows her face with glowing crack lines, door in background subtly wrong, cozy domestic setting with hidden wrongness, soft gold and warm wood palette
 --ar 16:9 --niji 6
-圖108：「屍骸覺醒——L4」（Corpse Awakening: L4 Phase）[ACT_III]
-建議輸出文件名：ConceptArt_Scene_CorpseAwakening_L4.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷114年 Act III Phase L4
-CDL追蹤：05_story_outline §L4；待確認CDL
-前置事件：Phase L4觸發條件後，城市中屍骸化的人們開始從沉睡狀態復甦
-本場景功能：展示集體復甦的瞬間——不是立刻的，是一個一個的、緩慢的、每一雙眼睛各自亮起人類的光。這是「死物重新成為人」的過程，以視覺的方式展示。
-後續payoff：Act IV新世界建立的前置；「人性復甦」作為Phase L的核心主題體現
-詳細核心描述（200-350字）：
+## 圖108：「屍骸覺醒——L4」（Corpse Awakening: L4 Phase）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_CorpseAwakening_L4.png`
+
+**劇情位置**：
+- **時間點**：帝國歷114年 Act III Phase L4
+- **CDL追蹤**：05_story_outline §L4；待確認CDL
+- **前置事件**：Phase L4觸發條件後，城市中屍骸化的人們開始從沉睡狀態復甦
+- **本場景功能**：展示集體復甦的瞬間——不是立刻的，是一個一個的、緩慢的、每一雙眼睛各自亮起人類的光。這是「死物重新成為人」的過程，以視覺的方式展示。
+- **後續payoff**：Act IV新世界建立的前置；「人性復甦」作為Phase L的核心主題體現
+
+**Reference Images**：
+- 屍骸（人偶型）：`ConceptArt_MagicCorpse_Doll_Action.png`
+- 屍骸（廢鐵型）：`ConceptArt_MagicCorpse_Scrap_Action.png`
+
+**詳細核心描述**（200-350字）：
+
 
 城市廣場或寬闊街道，白天或黃昏。大批人群靜止站立，密集但不雜亂，像是凝固的瞬間——他們的姿態各異（有人低頭，有人站直，有人手臂稍微抬著），但所有人都沒有在動，沒有表情，眼睛是空洞的、白濁的，不反光，不聚焦。這是屍骸化的狀態：人的外殼存在，但內部是空的。
 
@@ -3939,9 +4209,9 @@ CDL追蹤：05_story_outline §L4；待確認CDL
 
 重要細節：不要讓「復甦」看起來像喜悅或立刻的解放。剛復甦的眼睛是困惑的，是剛從長眠中醒來的樣子，還不知道自己在哪裡，還不知道發生了什麼。但那是人的困惑，不是空洞。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark magical girl anime, mass scene, subtle hope in despair scale
 Mood: collective awakening, scattered and uneven, first light in long darkness, confusion before relief
 Colors: grey-pale crowd, overcast sky light, scattered warm amber or white points of light appearing in eyes of some figures
@@ -3950,21 +4220,34 @@ Lighting: flat diffused overcast or late afternoon light, eye-awakening light po
 Special effects: void eyes (white-grey, no pupil reflection) for most crowd, select figures have slowly brightening eye reflection light, very gradual distribution across crowd
 Character: crowd of varied ages and genders in ordinary clothes, static poses, no expressions on majority, 5-15 individuals with beginning eye-light scattered throughout
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime wide shot city crowd of standing still people with void white eyes, scattered few individuals beginning to show faint warm light in eyes, grey overcast atmosphere, mass awakening scene, hope beginning in emptiness, flat diffused light with small glowing eye points
 --ar 16:9 --niji 6
-圖109：「美夜子終於哭出來」（Miyako Finally Cries）[ACT_IV]
-建議輸出文件名：ConceptArt_Scene_Miyako_FinallyСries.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷134年7月 Act IV
-CDL追蹤：miyako.md §Need；08_narrative_design §Dark Healing三大治癒
-前置事件：美夜子Act III覺醒後以人形守護晴香20年，Act IV某個觸發瞬間令她第一次真正哭泣
-本場景功能：展示美夜子弧光的決定性時刻——她一生第一次真正哭泣。不是崩潰，是軟化，是放下。她終於允許自己成為一個需要被安慰的人。她的眼淚不是悲傷的標誌，是解脫的標誌。
-後續payoff：圖110美夜子笨拙演奏（弧光的最終一格）；美夜子Need的完整體現
-詳細核心描述（200-350字）：
+## 圖109：「美夜子終於哭出來」（Miyako Finally Cries）[ACT_IV]
+
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_FinallyСries.png`
+
+**劇情位置**：
+- **時間點**：帝國歷134年7月 Act IV
+- **CDL追蹤**：miyako.md §Need；08_narrative_design §Dark Healing三大治癒
+- **前置事件**：美夜子Act III覺醒後以人形守護晴香20年，Act IV某個觸發瞬間令她第一次真正哭泣
+- **本場景功能**：展示美夜子弧光的決定性時刻——她一生第一次真正哭泣。不是崩潰，是軟化，是放下。她終於允許自己成為一個需要被安慰的人。她的眼淚不是悲傷的標誌，是解脫的標誌。
+- **後續payoff**：圖110美夜子笨拙演奏（弧光的最終一格）；美夜子Need的完整體現
+
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 室內，不需要特定場所，可以是一個普通的房間——光線是柔和的、下午的或傍晚的側光。不是舞台，不是任何有象徵性的地方，就是一個普通的地方。
 
@@ -3978,9 +4261,9 @@ CDL追蹤：miyako.md §Need；08_narrative_design §Dark Healing三大治癒
 
 光線：柔和的側光，打在美夜子的側臉，讓眼淚在臉上有光。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: quiet healing anime, soft realism, Act IV emotional resolution
 Mood: first release after 20 years of suppression, confused relief, soft unburdening, not tragedy but opening
 Colors: warm late afternoon side light, pale skin, tears catching light, muted earth tones, gentle fabric textures
@@ -3989,21 +4272,33 @@ Lighting: warm diffused side light as primary, soft fill, no harsh shadows, ligh
 Special effects: none — just the quality of light on tears and the expression
 Character: young adult woman with subtle feline quality in posture, dark hair, plain clothes, open eyes with tears flowing, expression of confused release rather than grief, hand gripping fabric at frame edge
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime young woman close up with tears on face, warm side lighting, one hand gripping someone's sleeve at frame edge, open eyes unfocused, expression of relief and release rather than sadness, soft afternoon light, quiet emotional healing moment
 --ar 9:16 --niji 6
-圖110：「美夜子笨拙演奏（全片最後一幕）」（Miyako's Clumsy Playing: The Final Shot）[ACT_IV]
-建議輸出文件名：ConceptArt_Scene_Miyako_ClumzyFinalShot.png
+```
 
-劇情位置：
+---
 
-時間點：帝國歷134年7月 Act IV Phase L（全片最後一幕）
-CDL追蹤：miyako.md §終局；05_story_outline §Act IV
-前置事件：圖109美夜子哭泣；Act IV所有事件完成
-本場景功能：全片最後一幕。美夜子第一次嘗試演奏，笨拙的，不準確的，但她在繼續。這段旋律全片出現過四次，在不同角色身上以碎片形式出現；這是第四次，也是最後一次，由美夜子用不熟練的手指彈出。意義不在於演奏得好，而在於她在學，她在這裡，她繼續。
-後續payoff：（全片結束）
-詳細核心描述（200-350字）：
+## 圖110：「美夜子笨拙演奏（全片最後一幕）」（Miyako's Clumsy Playing: The Final Shot）[ACT_IV]
+
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_ClumzyFinalShot.png`
+
+**劇情位置**：
+- **時間點**：帝國歷134年7月 Act IV Phase L（全片最後一幕）
+- **CDL追蹤**：miyako.md §終局；05_story_outline §Act IV
+- **前置事件**：圖109美夜子哭泣；Act IV所有事件完成
+- **本場景功能**：全片最後一幕。美夜子第一次嘗試演奏，笨拙的，不準確的，但她在繼續。這段旋律全片出現過四次，在不同角色身上以碎片形式出現；這是第四次，也是最後一次，由美夜子用不熟練的手指彈出。意義不在於演奏得好，而在於她在學，她在這裡，她繼續。
+- **後續payoff**：（全片結束）
+
+**Reference Images**：
+- 美夜子（便服）：`ConceptArt_Miyako_CasualWear.png`
+
+**詳細核心描述**（200-350字）：
+
 
 一個普通的、稍微凌亂的室內空間——不是表演廳，不是舞台，可能是一個客廳，或者一個小房間，地板上有幾樣東西沒有收好，桌上有一杯冷掉的飲料，光線是日常的、不強調的、普通下午的光。一切都是日常的，不是儀式的，不是終結的，就是一個普通的地方。
 
@@ -4015,9 +4310,9 @@ CDL追蹤：miyako.md §終局；05_story_outline §Act IV
 
 窗外的光：普通的光，可能是下午，可能是陰天，不重要。重要的是光在，她在，她在繼續彈。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: quiet everyday anime realism, final scene warmth without sentimentality
 Mood: ordinary continuation, clumsy learning, life without heroism, gentle persistence
 Colors: warm muted afternoon light, wood tones of instrument, pale skin, slightly cluttered lived-in room colors, no dramatic palette
@@ -4026,21 +4321,30 @@ Lighting: diffused ordinary afternoon window light, no dramatic angles, flat and
 Special effects: none — the absence of effects is intentional. This is just a person in a room.
 Character: young adult woman with subtle feline quality remaining, plain casual clothes, beginner guitar hold, head slightly bowed to watch fingers, small frown of concentration, alive and present expression
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 anime young woman sitting in ordinary lived-in room holding acoustic guitar with beginner posture, looking down at fingers on strings, slight concentration frown, soft afternoon window light, no dramatic elements, quiet final scene feeling, warm muted tones
 --ar 16:9 --niji 6
-圖111：「維多利亞之淚：人造太陽剖面圖」（Victoria's Tear: Artificial Sun Cross-Section）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_VictoriasTear_CrossSection.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：07_entities_and_devices §維多利亞之淚；01_world_rules §能量來源
-世界功能：帝國城市的唯一光源和能量來源，同時是情緒管理廣播的發射器。其存在使日區的「人造幸福」成為可能，並將帝國對情緒的控制以物理形式廣播至全城。
-視覺功能：建立帝國城市的視覺基礎設定；展示「人造美好」包裹黑暗核心的意識形態；令觀眾在早期就隱隱感知到帝國美好表象之下有不可告人的機制。
-後續payoff：Act III決戰中維多利亞之淚的崩潰視覺；日區vs夜區光線差異的根本解釋；EMB情緒廣播機制的技術基礎。
-詳細核心描述（約300字）：
+## 圖111：「維多利亞之淚：人造太陽剖面圖」（Victoria's Tear: Artificial Sun Cross-Section）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_VictoriasTear_CrossSection.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：07_entities_and_devices §維多利亞之淚；01_world_rules §能量來源
+  世界功能：帝國城市的唯一光源和能量來源，同時是情緒管理廣播的發射器。其存在使日區的「人造幸福」成為可能，並將帝國對情緒的控制以物理形式廣播至全城。
+  視覺功能：建立帝國城市的視覺基礎設定；展示「人造美好」包裹黑暗核心的意識形態；令觀眾在早期就隱隱感知到帝國美好表象之下有不可告人的機制。
+- **後續payoff**：Act III決戰中維多利亞之淚的崩潰視覺；日區vs夜區光線差異的根本解釋；EMB情緒廣播機制的技術基礎。
+
+**詳細核心描述**（約300字）：
+
 
 畫面採用剖面圖設計語言，呈現維多利亞之淚的三層結構。整體外形為巨大球體，懸浮於城市上空，體積令人震撼——與下方城市比較，它幾乎佔天空的三分之一。
 
@@ -4052,9 +4356,9 @@ CDL追蹤：07_entities_and_devices §維多利亞之淚；01_world_rules §能�
 
 圖的下方，城市作為對比出現：左側日區光明整齊，右側夜區昏暗零亂，兩者在維多利亞之淚的光照下呈現出截然不同的命運。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, technical cross-section diagram aesthetic, detailed mechanical design
 Mood: awe-inspiring yet unsettling, imperial grandeur hiding dark machinery
 Colors: warm gold and white for outer shell, cold blue for mid-layer conduits, deep crimson and black for inner core, muted city tones below
@@ -4063,21 +4367,30 @@ Lighting: the sphere itself radiates intense warm light outward, inner layers pr
 Special effects: flowing luminescent blue fluid in conduit layer, barely visible inner core pulsing like a heart
 Details: honeycomb light emitter array on outer shell, branching nervous-system-like conduit network in mid-layer, extraction device at core with fluid flowing inward, imperial technical annotations in fictional script
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A massive artificial sun floating above a dystopian city, cross-section view revealing three layers: brilliant outer light array, blue fluid conduit network, dark crimson pulsing core. City below shows bright left district and dark right district. Technical diagram aesthetic, dark anime style, no characters.
 --ar 16:9 --niji 6
-圖112：「集體潛意識空間：後巷過渡狀態」（Collective Unconscious: Back Alley Transition）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_CollectiveUnconscious_BackAlleyTransition.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：01_world_rules §集體潛意識；06_visual_bible §夜區視覺
-世界功能：夜區某些地點在特定條件下會成為進入集體潛意識空間的臨界入口，日常空間與深層心理空間之間的滲透界面。
-視覺功能：建立集體潛意識空間的視覺語言和進入規則；為NC段落和Act II E-11提供視覺基礎；令觀眾理解「現實」在這個世界中的邊界是模糊的。
-後續payoff：SPEC#12集體潛意識之城；SPEC#48淤泥深海；SPEC#2整合場景；整個集體潛意識系列場景的視覺一致性基礎。
-詳細核心描述（約280字）：
+## 圖112：「集體潛意識空間：後巷過渡狀態」（Collective Unconscious: Back Alley Transition）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_CollectiveUnconscious_BackAlleyTransition.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：01_world_rules §集體潛意識；06_visual_bible §夜區視覺
+  世界功能：夜區某些地點在特定條件下會成為進入集體潛意識空間的臨界入口，日常空間與深層心理空間之間的滲透界面。
+  視覺功能：建立集體潛意識空間的視覺語言和進入規則；為NC段落和Act II E-11提供視覺基礎；令觀眾理解「現實」在這個世界中的邊界是模糊的。
+- **後續payoff**：SPEC#12集體潛意識之城；SPEC#48淤泥深海；SPEC#2整合場景；整個集體潛意識系列場景的視覺一致性基礎。
+
+**詳細核心描述**（約280字）：
+
 
 畫面設定在夜區一條典型的舊唐樓後巷：青苔磚牆、鏽蝕鐵管、殘破的霓虹燈招牌。這是完全可信的夜區日常空間，觀眾應在第一眼感到「熟悉」。
 
@@ -4089,9 +4402,9 @@ CDL追蹤：01_world_rules §集體潛意識；06_visual_bible §夜區視覺
 
 整體色調：夜區的髒橙霓虹 vs 過渡帶的深藍宇宙，兩個色域並存但互不溶合。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, atmospheric, urban supernatural
 Mood: liminal dread, quiet awe, the uncanny threshold between real and impossible
 Colors: dirty orange neon and wet grey for the real alley, deep cosmic blue and violet for the dissolving wall section, the two palettes coexisting without mixing
@@ -4100,21 +4413,30 @@ Lighting: warm degraded neon from above, cold cosmic glow from the dissolving wa
 Special effects: brick-shaped voids containing star fields, neon signs with subtly wrong color shifts, foot disappearing into the transition zone, ground reflection showing open void
 Details: old Hong Kong-style tenement building back alley, rusty pipes, mossy bricks, partial brick-to-starfield dissolution at mid-wall section
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A dark urban back alley in a dystopian city at night, one brick wall partially dissolving into deep cosmic space while maintaining brick shape outlines, a silhouette standing at the threshold. Neon reflections on wet ground show impossible space. Liminal supernatural atmosphere, dark anime style.
 --ar 9:16 --niji 6
-圖113：「心防內化裝置：製造過程」（Trauma Cage: Manufacturing Process）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_TraumaCage_Manufacturing.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：07_entities_and_devices §心防內化裝置（Trauma Cage）；02_glossary §trauma-cage
-世界功能：帝國強制植入心匣的標準化程序，用於「情緒合規化」——令人從生理層面無法感受特定情緒，是帝國最核心的社會控制技術。
-視覺功能：建立帝國「情緒工程」的恐怖日常化視覺；解釋相關角色體驗到的感官剝奪創傷來源；強調這不是例外，而是制度的標準作業。
-後續payoff：凜相關的感官剝奪創傷；Body Horror機制的制度根源；Act III體制崩潰的視覺對應；角色情緒麻木的具體成因。
-詳細核心描述（約320字）：
+## 圖113：「心防內化裝置：製造過程」（Trauma Cage: Manufacturing Process）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_TraumaCage_Manufacturing.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：07_entities_and_devices §心防內化裝置（Trauma Cage）；02_glossary §trauma-cage
+  世界功能：帝國強制植入心匣的標準化程序，用於「情緒合規化」——令人從生理層面無法感受特定情緒，是帝國最核心的社會控制技術。
+  視覺功能：建立帝國「情緒工程」的恐怖日常化視覺；解釋相關角色體驗到的感官剝奪創傷來源；強調這不是例外，而是制度的標準作業。
+- **後續payoff**：凜相關的感官剝奪創傷；Body Horror機制的制度根源；Act III體制崩潰的視覺對應；角色情緒麻木的具體成因。
+
+**詳細核心描述**（約320字）：
+
 
 畫面採用三格橫向構圖，呈現心防內化裝置植入的三個步驟，三格之間以纖細的白線分隔，背景為統一的冷白色醫療空間。整體美學：帝國醫療程序的日常化——這不是秘密地下室，而是光線充足、器械整潔的常規設施。
 
@@ -4126,9 +4448,9 @@ CDL追蹤：07_entities_and_devices §心防內化裝置（Trauma Cage）；02_g
 
 三格中，醫療人員的表情始終是例行公事的專注，令「恐怖日常化」的主題不言而喻。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, clinical body horror, triptych panel layout
 Mood: bureaucratic horror, the normalization of violation, cold procedural dread
 Colors: cold white and pale grey medical environment throughout, warm amber glow from the soul vessel (heart container), clinical blue-white surgical lighting, muted skin tones
@@ -4137,21 +4459,33 @@ Lighting: harsh overhead surgical lamp, no shadows allowed, everything visible a
 Special effects: glowing translucent soul vessel with color-pattern flow on surface, tiny cage-like device, faint weld light in center panel, complete blankness replacing expression in final panel
 Details: sterile imperial medical facility, metal operating table, faceless patient in white gown, hands gripping table edge in first panel relaxing to stillness in third, medical staff recording data matter-of-factly
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Three-panel sequence in a sterile white medical facility. Panel 1: person lying on table, glowing heart container being opened. Panel 2: tiny cage device implanted inside. Panel 3: procedure complete, person's face gone blank. Clinical dystopian body horror, dark anime style, no graphic gore.
 --ar 16:9 --niji 6
-圖114：「情緒管理局：局內辦公空間」（Emotion Management Bureau: Interior）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_EMB_OfficeInterior.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：06_visual_bible §情緒管理局；07_entities §EMB；凜相關檔案 §公務員身份
-世界功能：帝國情緒管理機構的日常運作空間，魔法少女被武器化的組織核心，制度暴力的執行基地。表面是公務機構，實質是情緒監控與鎮壓的行政中心。
-視覺功能：建立凜「人性消磨」的日常環境的視覺定義；呈現帝國制度美學——壓迫感不來自恐怖，而來自完美的標準化；為帝國制度vs個體主題提供視覺基礎。
-後續payoff：凜雙面形態相關場景；凜人性消磨相關場景；制度vs個體的主題基礎；Act III制度崩潰時EMB辦公空間的對比。
-詳細核心描述（約290字）：
+## 圖114：「情緒管理局：局內辦公空間」（Emotion Management Bureau: Interior）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_EMB_OfficeInterior.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：06_visual_bible §情緒管理局；07_entities §EMB；凜相關檔案 §公務員身份
+  世界功能：帝國情緒管理機構的日常運作空間，魔法少女被武器化的組織核心，制度暴力的執行基地。表面是公務機構，實質是情緒監控與鎮壓的行政中心。
+  視覺功能：建立凜「人性消磨」的日常環境的視覺定義；呈現帝國制度美學——壓迫感不來自恐怖，而來自完美的標準化；為帝國制度vs個體主題提供視覺基礎。
+- **後續payoff**：凜雙面形態相關場景；凜人性消磨相關場景；制度vs個體的主題基礎；Act III制度崩潰時EMB辦公空間的對比。
+
+**Reference Images**：
+- 凜（情緒管理局制服）：`ConceptArt_Rin_TheAdministrationBureau.png`
+
+**詳細核心描述**（約290字）：
+
 
 大型開放式辦公空間，以廣角仰視呈現其規模。天花板極高，整個空間感覺像一個計算精準的容器而非工作場所。
 
@@ -4163,9 +4497,9 @@ CDL追蹤：06_visual_bible §情緒管理局；07_entities §EMB；凜相關檔
 
 畫面中景，凜的座位。她的桌面和旁邊所有人完全一樣：顯示器、標準器材、空無一物。沒有個人物品，沒有任何使座位顯得是「她的」的東西。她的姿態和周圍人一模一樣，正確到令人不安。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, architectural, oppressive institutional aesthetic
 Mood: dehumanizing normalcy, the horror of perfect standardization, institutional erasure of self
 Colors: pure white and cold grey throughout interior, cold blue floating data displays, warm natural sunlight visible through tinted glass windows but unable to enter
@@ -4174,21 +4508,30 @@ Lighting: uniform cold white artificial light inside, warm daylight locked outsi
 Special effects: floating blue organic fluid waveform monitors above each desk showing scrolling emotion data
 Details: matte white and grey everything, identical grey-white uniforms with precise cuts, perfectly aligned postures, zero personal items on any desk, low white dividers just high enough to separate but not to hide
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Vast open-plan government office in a dystopian empire. Pure white and cold grey interior, rows of identical desks, employees in matching matte uniforms sitting perfectly upright. Floating blue waveform monitors above each seat. Warm sunlight visible through tinted windows but excluded from inside. Oppressive institutional atmosphere, dark anime style.
 --ar 16:9 --niji 6
-圖115：「靈樹：平時狀態」（Spirit Tree: Normal State）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_SpiritTree_NormalState.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：02_glossary §spirit-tree；01_world_rules §夜區力量；07_entities §靈樹
-世界功能：夜區的古老神聖節點，自然力量的殘留，不屬於帝國管轄的空間。它的力量在平時完全不顯現，這種「沉默」本身是世界觀設定的一部分。
-視覺功能：建立靈樹的平時外觀——普通到讓觀眾忽略，製造關鍵時刻作用時的反差震撼；伏筆其不屬於帝國系統的獨立性。
-後續payoff：Act III靈樹作用的關鍵時刻（待確認CDL）；日夜區力量對比；帝國無法控制夜區的核心原因之一。
-詳細核心描述（約260字）：
+## 圖115：「靈樹：平時狀態」（Spirit Tree: Normal State）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_SpiritTree_NormalState.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：02_glossary §spirit-tree；01_world_rules §夜區力量；07_entities §靈樹
+  世界功能：夜區的古老神聖節點，自然力量的殘留，不屬於帝國管轄的空間。它的力量在平時完全不顯現，這種「沉默」本身是世界觀設定的一部分。
+  視覺功能：建立靈樹的平時外觀——普通到讓觀眾忽略，製造關鍵時刻作用時的反差震撼；伏筆其不屬於帝國系統的獨立性。
+- **後續payoff**：Act III靈樹作用的關鍵時刻（待確認CDL）；日夜區力量對比；帝國無法控制夜區的核心原因之一。
+
+**詳細核心描述**（約260字）：
+
 
 夜區一處低窪谷地，夜色。沒有維多利亞之淚的直接照射，光線來自遠處城市的散射光——昏黃、柔和、不確定。
 
@@ -4200,9 +4543,9 @@ CDL追蹤：02_glossary §spirit-tree；01_world_rules §夜區力量；07_entit
 
 「普通感」是整張圖最核心的視覺語言：任何看到這張圖的人，不應覺得這棵樹有任何不對勁。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, naturalistic, deliberately understated
 Mood: quiet mundanity, ancient presence disguised as ordinary, unheroic atmosphere
 Colors: muted olive and dark grey-green foliage, dark brown textured bark, warm amber scattered light from distant city, dim blue-grey night sky
@@ -4211,21 +4554,30 @@ Lighting: no direct moonlight, diffused amber glow from distant city lights, dee
 Special effects: none — the absence of magic effects is the point
 Details: heavily textured bark with deep vertical fissures, moss and weathering, asymmetric canopy with some dead branches, sleeping elderly figure in root hollow, children playing on roots, small street vendor stall nearby, everything mundane and lived-in
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A massive ancient tree in a dark urban valley at night in a dystopian city. Enormous gnarled roots spread across the ground. Small ordinary people nearby treating it as completely normal — someone sleeping, children playing, a street vendor. No magical effects, no glow, purely naturalistic. Dark anime style, muted earthy tones.
 --ar 9:16 --niji 6
-圖116：「帝國廣場：常態」（Empire Plaza: Normal Day）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_EmpirePlaza_NormalDay.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：06_visual_bible §帝國廣場；07_entities §帝國廣場；SPEC#19的對比基準
-世界功能：帝國秩序的展示空間，日常政治表演的舞台，「帝國美好生活」的對外形象核心地點。
-視覺功能：建立帝國廣場的「正常」外觀，作為SPEC#19決戰崩塌的對比基準；令觀眾記住「這個地方原來是這樣的」，以在後期的崩塌場景中獲得最大反差震撼。
-後續payoff：SPEC#19帝國廣場決戰崩塌（同一個廣場，完全相反的狀態）；SPEC#49市民凝滯；帝國秩序崩解的視覺基準線。
-詳細核心描述（約300字）：
+## 圖116：「帝國廣場：常態」（Empire Plaza: Normal Day）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_NormalDay.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：06_visual_bible §帝國廣場；07_entities §帝國廣場；SPEC#19的對比基準
+  世界功能：帝國秩序的展示空間，日常政治表演的舞台，「帝國美好生活」的對外形象核心地點。
+  視覺功能：建立帝國廣場的「正常」外觀，作為SPEC#19決戰崩塌的對比基準；令觀眾記住「這個地方原來是這樣的」，以在後期的崩塌場景中獲得最大反差震撼。
+- **後續payoff**：SPEC#19帝國廣場決戰崩塌（同一個廣場，完全相反的狀態）；SPEC#49市民凝滯；帝國秩序崩解的視覺基準線。
+
+**詳細核心描述**（約300字）：
+
 
 白天，維多利亞之淚的光線從高空均勻投下，照亮帝國廣場每一個角落。廣場面積極大，中央有幾何精準的大理石地面拼圖，白色和帝國藍相間，從中心放射。周邊種植著完全對稱修剪的樹木（每一棵形狀相同，間距相同）。
 
@@ -4237,9 +4589,9 @@ CDL追蹤：06_visual_bible §帝國廣場；07_entities §帝國廣場；SPEC#1
 
 仔細看才能發現「過度整齊」：路線太平行，步伐節奏太接近，沒有人停下來，沒有人看手機，沒有人看旁邊的人。這是一個廣場，但感覺是一場排練。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, architectural grandeur, subtly uncanny
 Mood: controlled beauty with underlying wrongness, the performance of happiness, eerie perfection
 Colors: white marble and imperial blue geometric ground pattern, clean white building facades, warm artificial sunlight from above, muted clothing in limited color palette
@@ -4248,21 +4600,30 @@ Lighting: uniform warm artificial sunlight from Victoria's Tear above, no harsh 
 Special effects: large central display screen showing smiling faces and light imagery, subtly synchronized pedestrian movement patterns
 Details: identical trimmed trees at exact intervals, stationary flags despite open space, citizens in coordinated muted colours, perfectly blank facial expressions, geometric marble ground pattern radiating from center
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A grand imperial plaza in a dystopian city on a bright day. Perfect white marble geometry, symmetrical trimmed trees, imperial flags, large display screen showing happy imagery. Citizens in matching muted clothes walking in synchronized orderly patterns with blank calm expressions. Uncanny perfection, dark anime style.
 --ar 16:9 --niji 6
-圖117：「Emo-Visor Gen 3：日區市民集體成癮」（Emo-Visor Gen 3: Day District Citizens' Collective Addiction）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：02_glossary §emo-visor；07_entities §Emo-Visor；待確認CDL
-世界功能：第三代情緒過濾器，日區市民幾乎全員佩戴。通過過濾負面情緒頻率，令「快樂」成為強制的生理狀態，同時使用者逐漸對「過濾後的感覺」產生依賴，無法回到未過濾的感官狀態。
-視覺功能：建立日區「過濾版幸福」的視覺定義；展示Emo-Visor的設計語言和佩戴普及度；為SPEC#21光幕破碎的對比衝擊奠定基礎。
-後續payoff：SPEC#21光幕濾鏡破碎（脫下Emo-Visor後的感官對比衝擊）；帝國情緒管理制度的日常化呈現。
-詳細核心描述（約280字）：
+## 圖117：「Emo-Visor Gen 3：日區市民集體成癮」（Emo-Visor Gen 3: Day District Citizens' Collective Addiction）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：02_glossary §emo-visor；07_entities §Emo-Visor；待確認CDL
+  世界功能：第三代情緒過濾器，日區市民幾乎全員佩戴。通過過濾負面情緒頻率，令「快樂」成為強制的生理狀態，同時使用者逐漸對「過濾後的感覺」產生依賴，無法回到未過濾的感官狀態。
+  視覺功能：建立日區「過濾版幸福」的視覺定義；展示Emo-Visor的設計語言和佩戴普及度；為SPEC#21光幕破碎的對比衝擊奠定基礎。
+- **後續payoff**：SPEC#21光幕濾鏡破碎（脫下Emo-Visor後的感官對比衝擊）；帝國情緒管理制度的日常化呈現。
+
+**詳細核心描述**（約280字）：
+
 
 日區咖啡廳，早上。陽光透過大落地窗投入（維多利亞之淚的人造陽光，均勻、金黃、幾乎過於完美）。咖啡廳裝潢是帝國風格的簡潔現代感：白色、木色、幾何形。
 
@@ -4276,9 +4637,9 @@ CDL追蹤：02_glossary §emo-visor；07_entities §Emo-Visor；待確認CDL
 
 色調：全圖過度飽和的暖色（金黃、米白、咖啡褐），「太美好了」的視覺感。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, commercial-advertisement-gone-wrong aesthetic
 Mood: uncanny happiness, the texture of mandatory joy, collective addiction dressed as normalcy
 Colors: oversaturated warm gold, cream, and coffee brown throughout, faint imperial blue edge glow on visor devices, everything too warm and too bright
@@ -4287,21 +4648,30 @@ Lighting: perfect uniform warm artificial sunlight through floor-to-ceiling wind
 Special effects: thin barely-visible light film around eyes of all wearers, precisely identical smile expressions across all faces
 Details: semi-transparent head-mounted eye visor with faint blue edge lights covering eye area and temples, calibrated identical smile expressions, natural fluid movements that feel subtly rehearsed, one barely-visible modified visor in far edge of frame
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A bright café in a dystopian city where every customer wears matching semi-transparent head-mounted eye visor devices with faint blue glow. Everyone has identical perfectly calibrated smiles. Oversaturated warm colour palette, too cheerful, too perfect. A delivery person enters also wearing the device. Dark anime style, uncanny normalcy.
 --ar 16:9 --niji 6
-圖118：「屍骸化：心之器燃盡時刻」（Magical Corpse: The Moment the Soul Vessel Burns Out）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：01_world_rules §心之器；02_glossary §magical-corpse；SPEC#22小光死亡視覺語境
-世界功能：屍骸化（Magical Corpse）是心之器燃盡後的必然結果——人失去意識主體，身體繼續執行最後記住的動作，直至物理崩解。這是故事世界中魔法少女面對的最終命運威脅。
-視覺功能：建立「屍骸化」的靜止恐怖視覺語言；呈現這個過程的核心恐怖：從外面完全看不出任何異常；為故事中多個屍骸化角色的場景提供視覺定義。
-後續payoff：SPEC#22小光屍骸化；SPEC#10紫音過載（她主動燃盡，以此對比被動屍骸化的意義）。
-詳細核心描述（約310字）：
+## 圖118：「屍骸化：心之器燃盡時刻」（Magical Corpse: The Moment the Soul Vessel Burns Out）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：01_world_rules §心之器；02_glossary §magical-corpse；SPEC#22小光死亡視覺語境
+  世界功能：屍骸化（Magical Corpse）是心之器燃盡後的必然結果——人失去意識主體，身體繼續執行最後記住的動作，直至物理崩解。這是故事世界中魔法少女面對的最終命運威脅。
+  視覺功能：建立「屍骸化」的靜止恐怖視覺語言；呈現這個過程的核心恐怖：從外面完全看不出任何異常；為故事中多個屍骸化角色的場景提供視覺定義。
+- **後續payoff**：SPEC#22小光屍骸化；SPEC#10紫音過載（她主動燃盡，以此對比被動屍骸化的意義）。
+
+**詳細核心描述**（約310字）：
+
 
 日區一家普通超市，日光燈的白色照明，貨架整齊，有背景音樂。這是日常生活中最普通的場景。
 
@@ -4321,9 +4691,9 @@ CDL追蹤：01_world_rules §心之器；02_glossary §magical-corpse；SPEC#22�
 
 圖的構圖建議：略微偏側的中近景，讓觀眾看得到眼睛和胸腔位置，同時能看到日常超市背景。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, quiet horror, hyper-realistic mundane setting
 Mood: still horror, the terror of unnoticeable death, the uncanny valley of continued motion without presence
 Colors: cold white fluorescent supermarket lighting, ordinary product colours, the fading soul vessel as the only warm colour point — barely visible dying amber pinprick at chest
@@ -4332,21 +4702,33 @@ Lighting: flat cold fluorescent retail lighting throughout, tiny dying warm glow
 Special effects: soul vessel light at the moment of final extinction — a single pinpoint of warmth gone cold, the precise moment eyes become empty without any visible physical change
 Details: completely ordinary supermarket interior, ordinary groceries, normal clothing, other shoppers and staff unaware, the emptiness is only in the eyes — pupils present, direction correct, but no one behind them
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 A woman in an ordinary supermarket reaching for items on a shelf. At her sternum, a tiny dying light just extinguished. Her hand continues the motion, but her eyes are empty — physically unchanged yet completely vacant. Other shoppers continue normally, unaware. Still horror, ordinary setting, dark anime style, no graphic content.
 --ar 16:9 --niji 6
-圖119：「彩的心房：通風管道永恆空間」（Aya's Heart Chamber: Eternal Ventilation Space）[WORLD_BUILDING]
-建議輸出文件名：ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png
+```
 
-劇情位置：
+---
 
-時間點：世界觀設定（無特定時間點，適用全片）
-CDL追蹤：aya.md §葉語彩；CDL-076；候選B通風管道那夜（79年）的回響
-世界功能：彩被囚禁在自己身體深處的意識空間，以通風管道形態呈現。這個空間既是她的監獄，也是她的保護殼；她能觀察外界（透過縫隙），但無法干預，無法接觸。
-視覺功能：呈現彩的主觀被囚世界的視覺定義；連結候選B中螢×黑奏的通風管道主題回響，建立跨時間的空間echo；展示美麗與囚禁共存的矛盾視覺語言。
-後續payoff：SPEC#106彩在心房中摸熊公仔；SPEC#8彩奪回身體（從這裡突破出去）；候選B通風管道場景的主題共鳴。
-詳細核心描述（約330字）：
+## 圖119：「彩的心房：通風管道永恆空間」（Aya's Heart Chamber: Eternal Ventilation Space）[WORLD_BUILDING]
+
+**建議輸出文件名**：`ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png`
+
+**劇情位置**：
+- **時間點**：世界觀設定（無特定時間點，適用全片）
+- **CDL追蹤**：aya.md §葉語彩；CDL-076；候選B通風管道那夜（79年）的回響
+  世界功能：彩被囚禁在自己身體深處的意識空間，以通風管道形態呈現。這個空間既是她的監獄，也是她的保護殼；她能觀察外界（透過縫隙），但無法干預，無法接觸。
+  視覺功能：呈現彩的主觀被囚世界的視覺定義；連結候選B中螢×黑奏的通風管道主題回響，建立跨時間的空間echo；展示美麗與囚禁共存的矛盾視覺語言。
+- **後續payoff**：SPEC#106彩在心房中摸熊公仔；SPEC#8彩奪回身體（從這裡突破出去）；候選B通風管道場景的主題共鳴。
+
+**Reference Images**：
+- 彩（便服）：`ConceptArt_Aya_CasualWear.png`
+
+**詳細核心描述**（約330字）：
+
 
 狹窄的通風管道，但「永恆化」了。
 
@@ -4360,9 +4742,9 @@ CDL追蹤：aya.md §葉語彩；CDL-076；候選B通風管道那夜（79年）�
 
 美麗與囚禁同在：這個空間客觀上是美的，情緒結晶的光讓人覺得如夢似幻；但每一道縫隙都在提醒彩，外面的世界觸手可及卻永遠不屬於她。
 
-生成提示（Midjourney）：
 
-
+**生成提示（Midjourney）**：
+```
 Style: dark anime illustration, painterly, surreal psychological space, intimate claustrophobic beauty
 Mood: beautiful imprisonment, the ache of witnessing but not touching, crystallised grief in a confined eternal space
 Colors: industrial metal grey and rust as base, overlaid with softly glowing translucent crystals in muted violet, rose, ice blue, and dark gold, light seeping through seams from outside world in warm gold fragments
@@ -4371,7 +4753,407 @@ Lighting: no external light source — only the faint organic glow of emotion cr
 Special effects: translucent crystalline growth in multiple emotional colours emerging organically from metal seams and corners, blurred impressions of outside world visible through seam gaps, implied sound visualised as gentle waveform texture near gaps
 Details: weathered industrial metal ventilation duct with visible screws and joints, aged texture, crystal formations growing like moss in corners, a very small girl figure curled facing away toward a seam gap, outside world impressions fragmented and unreachable
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-替代版本（若被拒絕）
+```
 
+### 替代版本（若被拒絕）
+
+```
 Interior of an old industrial ventilation duct, narrow and confined. Crystalline growths in soft violet, rose, and blue glow faintly from the metal walls like bioluminescent moss. A very small girl curled up in a corner, facing away, looking toward a thin crack of light from outside. Beautiful and imprisoning. Surreal psychological space, dark anime style.
 --ar 9:16 --niji 6
+```
+
+---
+
+## 圖120：「珍寶珠入隊——朱音加入主角團」（The Lollipop Recruitment）[ACT_I]
+
+**建議輸出文件名**：`ConceptArt_Scene_Akane_LollipopRecruitment.png`
+
+**劇情位置**：
+- **時間點**：113年3-4月 Act I，E-02 系列後段
+- **CDL追蹤**：CDL-052；`05_story_outline_canon.md §Act I E-02`
+- **前置事件**：朱音加入帝國體制作為清剿魔法少女的工具，但長期情緒毒品使用令她陷入反復斷癮循環
+- **本場景功能**：朱音弧光起點——「入隊」不是因為信念，而是因為一粒糖。微小善意突破了她最堅硬的防線。展示晴香「食粒糖先」的行事邏輯。
+- **後續payoff**：朱音對主角團的奇特忠誠（不是信仰式，而是流浪動物式）；Act III 糖果山犧牲的情感重量
+
+**Reference Images**：
+- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+
+**Creative Enhancements**：
+- 場景：夜區街道路邊，潮濕地面，昏暗路燈
+- 朱音蜷縮在街角牆根，因斷癮症狀渾身顫抖（冷汗、痙攣），腿收縮，表情扭曲但仍保持某種僵硬的驕傲
+- 晴香蹲在她面前，拿著一根剝好包裝紙的珍寶珠（波板糖），神情認真地遞給她
+- 朱音接過糖的手微微顫抖，神情是「大腦當機」——第一次有人對她做出毫無目的的善意之舉
+- 構圖焦點：兩人之間的高度差（晴香蹲下，朱音坐在更低的地面），那一根糖在畫面中心
+
+**詳細核心描述**（250字）：
+
+夜區街角，潮濕的青石板地面，路燈燈光幽黃。
+
+朱音蜷縮在牆根——情緒毒品戒斷症狀令她無法站立，四肢痙攣，額頭滲出冷汗，但她的脊背仍以某種荒謬的倔強保持著弧度，像一隻試圖裝作不虛弱的受傷貓。
+
+晴香蹲在她前面，直視她，表情不是憐憫，不是焦慮，是認真的、有點笨拙的誠懇——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦」。
+
+就這樣。沒有說教，沒有解救，沒有要求。只是一粒糖。
+
+朱音的手接過去的那一刻，她的表情是那種讓計算失效的時刻——她習慣了一切都有代價，習慣了一切善意背後都有議程，但她算不出來這粒糖的用意，於是大腦暫時停止了運作。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime illustration; intimate night street scene; understated emotional weight
+Mood: The moment a hardened person encounters unexpected kindness; calculating defenses suddenly unable to compute
+Colors: Damp dark stone and dim amber streetlight; pale candy wrapper as single warm detail
+Composition: One girl crouching offering a lollipop; another girl curled at wall base receiving it; eye level framing emphasizing intimate moment
+Lighting: Single weak amber streetlamp; harsh shadows; single point of warmth from candy wrapper
+Details: Trembling hand receiving candy; crouched figure keeping her spine straight despite pain; expression of genuine confusion replacing habitual coldness
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖121：「操入隊——晴香以身體擋攻擊」（The Skirt Question）[ACT_I]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_SkirtQuestion.png`
+
+**劇情位置**：
+- **時間點**：113年3-4月 Act I，E-02 屍骸大型戰
+- **CDL追蹤**：CDL-050；`05_story_outline_canon.md §Act I E-02`
+- **前置事件**：操在大型屍骸戰中陷入陷阱，主角團突然出現
+- **本場景功能**：操弧光起點——「有人在乎的是我，不是戰果」的第一次體驗。晴香的行動邏輯是徹底不理性的，卻是操第一次無法用功效主義計算的善意。
+- **後續payoff**：操對主角團的加入；Act III 操的最終犧牲的情感根源
+
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+
+**Creative Enhancements**：
+- 場景：大型屍骸戰後，戰場廢墟殘跡
+- 晴香在前方擋住了攻擊，滿臉是血，但她回過頭問操
+- 晴香的笑：不是英雄式微笑，是真的有點傻的、帶血卻真誠的問話「條裙有無整污糟？」
+- 操的表情：傲慢防線在那一刻出現裂縫——不是被強大打動，而是被「她在乎的是我的裙」打動
+- 視覺對比：滿臉鮮血的晴香 vs. 問裙子這個荒謬問題的認真神情
+
+**詳細核心描述**（250字）：
+
+戰場殘跡。屍骸已清除，碎石與焦痕遍布地面。
+
+晴香回頭，血從額頭流下，打溼了半邊臉。她擋住了那一擊——用自己的身體，沒有任何技術計算，就是直接站在前面。
+
+操站在她身後，尚未反應。
+
+晴香看了她一眼，神情認真——不是擔心操，而是問出了那句讓操整個邏輯系統短路的問題：「你條裙有無整污糟？」
+
+不是「你有無受傷」，不是「你有無繼續戰鬥的能力」，是「你條裙」。
+
+操第一次無法計算眼前這個人的邏輯——這不符合任何她認識的「同伴」模型。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime action aftermath; emotional turning point disguised as absurd moment
+Mood: The moment a calculated person encounters logic-defying kindness; armor cracking not from force but from absurdity
+Colors: Battle-grey rubble and smoke; blood red on face; formal dress as focal point
+Composition: Haruka turning back bloodied with genuine concern for the dress; Misao in background expression shifting
+Lighting: Post-battle harsh light; debris dust in air; contrast between gore and casual concern
+Details: Blood on face not obscuring expression of genuine concern; expression of someone whose calculations failed
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖122：「軟接觸——美夜子廢棄地鐵站遞水」（Worthless Vigil: The Underground Station）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_WorthlessVigil2.png`
+
+**劇情位置**：
+- **時間點**：113年7月 Act II Phase C，SPEC#21 光幕破碎後的最低點
+- **CDL追蹤**：CDL-191；`canon/03_characters/miyako.md §羈絆`
+- **前置事件**：晴香因光幕破碎事件「社會性死亡」，跌至人生谷底
+- **本場景功能**：美夜子×晴香關係從功利性守護轉為無條件羈絆的絕對分水嶺
+- **後續payoff**：Act III Phase H 美夜子三段式覺醒（SPEC #27）；美夜子「終於哭出來」（候選FF）的情感前置
+
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**Creative Enhancements**：
+- 場景：廢棄地鐵站，月台上，隱蔽昏暗角落
+- 美夜子站在晴香旁邊，保持距離感，沉默地遞出一杯常溫水
+- 不是冰水，不是熱水——常溫水是美夜子獨特的關懷方式，不刺激，不強迫
+- 晴香的狀態：半屍骸化邊緣，身形佝僂，眼神空洞
+- 美夜子的表情：沒有同情，沒有焦慮，沒有「你要振作」的訊息——只是「我在這裡」的沉默存在
+
+**詳細核心描述**（250字）：
+
+廢棄地鐵站月台。遠處隱約有帝國廣播的迴響，但這個角落安靜。
+
+美夜子把手機放下——不是關掉，是直接放下、不看。
+
+她遞出一杯水。常溫的，簡單的塑料杯，沒有任何包裝。
+
+台詞不到十個字：「妳依家確實係一件廢物。但係，我唔會走。」
+
+不是安慰。不是鼓勵。她說的是真話——晴香現在確實沒有任何功能。但美夜子繼續站在那裡。
+
+晴香接過水。沒有喝，只是握著。溫度和手心相差不多。
+
+這就是她們的分水嶺。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime; intimate underground station; emotional understatement as climax
+Mood: Unconditional presence expressed through absence of comfort; "I am staying" without promises
+Colors: Dark station grey and rust; single flickering fluorescent; plain plastic cup as warmth focal point
+Composition: Two figures in dim corner; one standing holding cup out; one seated receiving; no eye contact needed
+Lighting: Diffused failing fluorescent; deep shadows; ordinary cup catching the only warm light
+Details: Phone placed face-down deliberately; plain water in simple cup; hollow expression and semi-corpse posture; matter-of-fact determination
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖123：「死前願望清單」（The Before-Death Wish List）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_WishList_Underground.png`
+
+**劇情位置**：
+- **時間點**：113年-114年 Act II 中段，地下生存喘息期
+- **CDL追蹤**：`05_story_outline_canon.md §Act II 附錄，普通願望清單段落`
+- **前置事件**：主角團進入地下避難生活，壓力積累期的罕見喘息窗口
+- **本場景功能**：以輕盈形式揭示每個角色對「正常生活」和死亡的真實態度；四人心理深度的橫截面
+- **後續payoff**：各人弧光完成後回看此刻的對比——她們說出的願望，哪些實現了，哪些再也沒有機會了
+
+**Reference Images**：
+- 美夜子（便服）：`ConceptArt_Miyako_CasualWear.png`
+- 凜（便服）：`ConceptArt_Rin_CasualWear.png`
+- 朱音（便服）：`ConceptArt_Akane_CasualWear.png`
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**Creative Enhancements**：
+- 場景：地下避難所某個牆角，昏暗燈光，大家隨意坐臥
+- 四人各自保持各自的距離感——不是強迫溫馨的圍坐，而是各自的姿勢
+- 視覺重點：凜沉默最長，最後說「我想再見到某人一次」時幾乎看不到的表情變化
+
+**詳細核心描述**（220字）：
+
+地下避難所一角，空氣悶熱，燈光昏黃。
+
+美夜子：「自然死。八十歲。在醫院。」——語氣平靜，像在說天氣，但這對她來說是最不可思議的奢望。
+
+朱音：「食頓飽。」——沒有停頓，直接，帶著某種骨子裡的實在。
+
+操：「想……拆一個完美的線稿。」——傲慢的說法，但「想」字停頓了一秒。
+
+凜沉默了很長時間。長到大家以為她不會回答了。然後：「我想再見到某人一次。」
+
+她沒有說是誰。也不需要說。
+
+畫面的構圖不是溫馨的聚會，而是四個在不同方向看著虛空的人，剛好說出了這些話。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime; underground shelter; quiet ensemble character study
+Mood: The weight of ordinary wishes in extraordinary circumstances
+Colors: Underground amber lamplight; grey concrete; simple muted clothing
+Composition: Four figures in loose arrangement in cramped space; each facing different direction; ensemble but not unified
+Lighting: Single warm lamp; deep shadows; intimate but not cozy
+Details: Miyako calm statement; Akane direct practicality; Misao one-second pause; Rin long silence then quiet weight of answer
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖124：「美夜子鏡像反映」（Miyako's Mirror Death）[MULTI_ACT]
+
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_MirrorDeathReflection.png`
+
+**劇情位置**：
+- **時間點**：多幕適用（Act II 詛咒觸發後至 Act III 覺醒前）
+- **CDL追蹤**：`canon/03_characters/miyako.md §避難所詛咒`；CDL-282
+- **前置事件**：美夜子在 Alpha 線已冰封死亡11年；Beta 線詛咒觸發後，反光面映照 Alpha 線的真實狀態
+- **本場景功能**：視覺化美夜子詛咒的外部呈現——她在行走，鏡子裡的她是屍體
+- **後續payoff**：SPEC#6 月下崩潰；SPEC#27 美夜子三段式覺醒
+
+**Reference Images**：
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+- 美夜子（便服）：`ConceptArt_Miyako_CasualWear.png`
+
+**Creative Enhancements**：
+- 場景：走廊或任何有大型反光面的地方
+- 現實中的美夜子：外觀正常，直立行走，表情平靜
+- 鏡中的美夜子：Alpha 線 11 年冰封的真實狀態——大面積紫黑色凍傷，眼神渙散如死眸
+- 鏡中影像若隱若現，像透過霧玻璃
+- 美夜子本人的表情：她看見了，面無表情，繼續走
+
+**詳細核心描述**（230字）：
+
+普通走廊。美夜子走過一面大型落地鏡。
+
+現實中的她：步伐正常，外觀完整，眼神平靜。
+
+鏡中的她：Alpha 線 11 年冰封後的真實樣子。紫黑色凍傷覆蓋頸部、手背、臉部邊緣，皮下組織的凍損呈樹狀紋路。眼睛存在，但眼神是「有眼睛，但沒有人在後面」的死眸——冰封而非閉合。
+
+她的鏡中身影動作略滯後，像另一個時間線的訊號延遲。
+
+美夜子看見了。她是知道的。她沒有停步，繼續走。
+
+這是她每天的日常。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime; split reality visualization; quiet horror in ordinary space
+Mood: Living past your own death; the mundanity of carrying a corpse reflection
+Colors: Ordinary corridor warm-neutral tones; reflection shows blue-black frost discoloration; slight color temperature shift in mirror zone
+Composition: Figure walking past large mirror; real figure and mirror figure both visible; clear visual distinction between living exterior and frost-death reflection
+Lighting: Normal corridor lighting; slightly colder and dimmer within mirror frame
+Special effects: Mirror image slightly offset in timing; frost-damage texture visible on reflected skin; death-still eyes in reflection vs. alert eyes outside
+Details: Bruise-pattern frostbite on neck/hands/face in reflection; hollow death-eyes in mirror vs. calm live eyes outside; zero hesitation in walking step
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖125：「無名男孩速寫簿」（The Anonymous Boy's Sketchbook）[ACT_II_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_SketchbookRevelation.png`
+
+**劇情位置**：
+- **時間點**：Act II 末至 Act III 初，操弧光的深層轉折點
+- **CDL追蹤**：CDL-143/145；`canon/03_characters/ayakomoji_misao.md §無名男孩`
+- **前置事件**：操與某個普通男孩建立了第一段「非功效主義」的關係，男孩後來死去
+- **本場景功能**：操第一次理解她的「不完美」對另一個人來說恰恰是「最美的」——形式主義世界觀的根本崩潰起點
+- **後續payoff**：SPEC#5 鏡像處刑室；SPEC#31 操回歸人類身軀
+
+**Reference Images**：
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
+
+**Creative Enhancements**：
+- 場景：遺物速寫簿，操一個人翻開的瞬間
+- 速寫簿內頁：全是日常的操——歪著頭看書、皺眉計算、睡著了、說話說到一半表情漏出來
+- 每一幅都是「她以為沒人看到」的時刻，沒有一幅是她刻意呈現的完美面
+- 畫面中手寫旁注（部分可見）：「其實她不那麼完美的時候，才是最美的。」
+- 操的反應：手停在速寫簿上，沒有翻頁，整個計算系統停止
+
+**詳細核心描述**（200字）：
+
+操一個人，遺物，速寫簿。
+
+每一幅都是她——但是她從未選擇展現的自己。歪著頭、皺著眉、睡著了、剛剛說了什麼讓自己尷尬的話之後的表情。都是「不完美的她」。
+
+旁邊的字寫得不特別工整，但很認真：「其實她不那麼完美的時候，才是最美的。想告訴她，不用那麼用力也可以。」
+
+操的手停在那一頁上。沒有翻頁。
+
+沒有哭。但有些什麼停住了。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime; intimate close-up study; quiet emotional weight
+Mood: Discovering someone loved exactly the part of yourself you were most ashamed of
+Colors: Warm paper tone of sketchbook; pencil sketch grey; cool dark background; single light on the page
+Composition: Close-up of hands on open sketchbook; sketches of candid unguarded moments visible; handwritten note partially readable
+Lighting: Single focused lamp on page; everything else in shadow
+Details: Sketches show off-guard moments — none show the perfect version; hand frozen mid-page not turning
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖126：「操在集體潛意識尋見母親碎片」（Misao Finds Sayo's Fragments in the Collective Unconscious）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_SayoFragments.png`
+
+**劇情位置**：
+- **時間點**：114年4-5月 Act III Phase H-I，操半屍骸化邊界狀態
+- **CDL追蹤**：CDL-300；`canon/03_characters/ayakomoji_misao.md §紗夜`
+- **前置事件**：SPEC#26 操被遺棄（紗夜犧牲）；紗夜被改造後靈魂碎片散入集體潛意識
+- **本場景功能**：操第一次看見母親「本來的樣子」——改造後的肉體永遠給不出的真實的愛
+- **後續payoff**：SPEC#1 鋼鐵獨舞；操犧牲（Day 13）的情感根源完整
+
+**Reference Images**：
+- 操：`ConceptArt_Misao_MagicalGirl.png`
+- 紗夜：`ConceptArt_Sayo_Maidoutfit.png`
+
+**Creative Enhancements**：
+- 場景：集體潛意識深層空間（情緒形態空間，非物理場景）
+- 紗夜的靈魂碎片：不是完整人形，是碎片聚攏的近似人形——像燭火般不穩定，但那份眼神存在
+- 那份眼神：改造後的肉體永遠失去的東西——真實的愛與哀傷，不是控制，不是工具性服從
+- 操的反應：傀儡絲自發收縮，不是作為武器，只是「她在顫抖」的視覺化
+
+**詳細核心描述**（220字）：
+
+集體潛意識的深層。沒有具體場景，只有情緒形態的空間——光點、殘影、各種破碎的人類記憶碎片漂浮。
+
+操在半屍骸化邊界，以半透明狀態進入這個空間。
+
+某一個地方，碎片聚攏了。
+
+不是完整的紗夜，是紗夜的靈魂碎片以近似人形的方式短暫凝聚——邊緣不穩定，細節模糊，像在風中的燭焰，但那個輪廓是她認識的。
+
+而那份眼神存在——真實的、屬於她自己的、對操的愛與哀傷。不是被植入的服從，是本來就有的、現在碎成片散在潛意識裡的那份情感。
+
+操的傀儡絲顫抖，不是作為武器，只是「她整個身體都在顫抖」的視覺化。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark surreal psychological space; fragmented soul visualization; quiet emotional devastation
+Mood: Seeing the love your mother would have given you if she had not been taken away
+Colors: Dark void with scattered light fragments; soul fragment in soft unstable warm light; Misao semi-transparent form in cold blue-grey
+Composition: Misao as semi-transparent figure; fragmented soul form gathering nearby in approximate human silhouette; unstable candlelight edges; the gaze as focal point
+Lighting: No external source; soul fragment as own light source; cold blue on Misao; warm amber from fragment
+Special effects: Fragment edges dissolving and reforming; puppet strings involuntarily curling inward; consciousness space as dark void with drifting light particles
+Details: Fragment form eyes as focal point — the love that should have been there; Misao expression seeing it; puppet strings trembling not as weapons but as emotional response
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖127：「膠布哲學第四層——覺醒後撕膠布」（Bandage Philosophy Layer 4: After Awakening）[ACT_IV]
+
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_BandageFinalLayer.png`
+
+**劇情位置**：
+- **時間點**：134年7月 Act IV Phase L，晴香覺醒後第一個夜晚
+- **CDL追蹤**：CDL-088；`05_story_outline_canon.md §Act IV 膠布哲學第四層`
+- **前置事件**：晴香靜止搖籃（SPEC#13）之後，覺醒後20年；K 期靈魂監獄中積累的痛楚在身體上以膠布形式物化
+- **本場景功能**：晴香弧光的最終完成——從「遮蓋者」到「直視者」。這份痛是她自己的。
+- **後續payoff**：SPEC#56 新世界搖籃曲；全片主題最終表達
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+
+**Creative Enhancements**：
+- 場景：覺醒後廢墟高處，夜晚
+- 晴香一個人，臂膀上二十年積累的層層膠布——邊緣泛黃，部分失去黏性但仍黏著
+- 她開始撕：不急，不猛，逐層撕開
+- 鮮血有的，但不是重點——重點是她的表情：疼痛，但眼神裡有第一次屬於自己的確認
+- 台詞以視覺化表達：疼痛後，嘴角微微上揚
+
+**詳細核心描述**（220字）：
+
+廢墟高處，夜晚。城市在遠處閃爍，這裡安靜。
+
+晴香一個人。臂膀上是那些膠布——Layer 1 是傷口的遮蓋，Layer 2 是系統的隱喻，Layer 3 是存在論的詰問，二十年的靜止積累在那層層疊疊的、泛黃的膠布之下。
+
+她開始撕。
+
+不急，不用力，只是撕。每撕開一層都有血——這些傷口從未真正癒合，只是被貼住了。
+
+她說：「好痛。」
+
+停頓。
+
+嘴角很輕地往上彎了一點：「但係依份痛……係我自己既。」
+
+第一次是屬於她自己的痛。
+
+**生成提示（Midjourney）**：
+```
+Style: Dark anime; quiet climax after twenty years; intimate arc completion
+Mood: The first pain that belongs entirely to yourself; acceptance so deep it looks like peace
+Colors: Dark night sky; distant city light as backdrop; pale warm skin; aged yellowing bandage layers; crimson blood as detail not spectacle
+Composition: Solitary figure on elevated ruins; close shot on arms being unwrapped layer by layer; expression in partial profile
+Lighting: Distant city glow as only ambient light; intimate darkness; blood catching minimal light
+Details: Multiple-layer bandages yellowed with age — different eras of adhesive visible; fresh blood where old wounds reopen; not dramatic cry but quiet slight smile; the expression of someone finally allowing themselves to feel something they always owned
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
