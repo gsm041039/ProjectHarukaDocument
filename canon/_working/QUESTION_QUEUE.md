@@ -50,6 +50,16 @@
 
 ---
 
+## Round 048 Questions（2026-06-30 — 魔法屍骸設定補完）
+
+> 來源：temp2.txt 設定補完討論記錄。Q1/Q3/Q4/Q5/Q6 已確認 canon，本輪 CanonFileIntegrator writeback 完成（07_entities_and_devices.md / 02_glossary.md / 01_world_rules_and_costs.md 三份文件）。以下項目待作者進一步決定。
+
+| QID | Topic | Status | A/B/C Summary | Author Answer | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|
+| QQ-112 | 情緒共鳴式感染（屍骸蔓延邏輯）——「長期暴露在屍骸哀痛迴響中，自身防線薄弱者開始共振，心之器出現裂痕，進而屍骸化」 | **DEFERRED** | A=確認 canon，加入 `rule-corpseification` / B=暫存，待確認係否削弱 Act I「屍骸化源於個體崩壞」的單一因果性 / C=唔使用 | **B**（作者決定暫不升格；擔憂稀釋 Act I 單一因果性，待進一步討論） | Act I 屍骸化設計定稿前；或 Act III 屍骸蔓延場景設計討論時 | 2026-06-30 |
+
+---
+
 ## Round 042 Questions（2026-06-15 — 記憶/靈魂「無法遺忘」設定整合 CanonFileIntegrator — ✅ 全部 RESOLVED + WRITEBACK 完成）
 > 來源：作者提出 4 個設定原子（N1 記憶存集體潛意識·凡人有防火牆可遺忘·魔法少女焊接無法遺忘 / N2 遺忘須切除一部分靈魂 / N3 夕拒絕自殘式遺忘 / N4 美夜子被秋穗復活時靈魂一部分被破壞失憶·神經元式刺激可重連）。現有設定強力支持。CDL-293/294/295 落檔；5 處 canon writeback 完成。
 
