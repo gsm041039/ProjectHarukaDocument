@@ -6362,14 +6362,14 @@ Act I 幕末，晴香首次直面鏡中的夕（5歲形態）。這是榮格個�
 ### Midjourney 標準版
 
 ```
-A teenage girl with long pink hair stands before a dark bathroom mirror at night, exhausted, 
-pink makeup smudged, holding a small bandage she never pressed to the glass. The mirror 
-reflects her slightly delayed — behind her reflection, a faint silhouette of a small 5-year-old 
-girl in black pinafore dress, barefoot, pressing one small hand to the glass from inside. 
-The adult girl slowly raises her own hand to meet it through the glass, bandage falling to 
-the floor. Atmospheric: cold clinical white bathroom light clashes with warm pink undertones. 
-Close-up on two hands nearly touching through reflective glass. Psychological realism, 
-anime-adjacent illustration style, muted palette with one rose-pink accent. Cinematic depth 
+A teenage girl with long pink hair stands before a dark bathroom mirror at night, exhausted,
+pink makeup smudged, holding a small bandage she never pressed to the glass. The mirror
+reflects her slightly delayed — behind her reflection, a faint silhouette of a small 5-year-old
+girl in black pinafore dress, barefoot, pressing one small hand to the glass from inside.
+The adult girl slowly raises her own hand to meet it through the glass, bandage falling to
+the floor. Atmospheric: cold clinical white bathroom light clashes with warm pink undertones.
+Close-up on two hands nearly touching through reflective glass. Psychological realism,
+anime-adjacent illustration style, muted palette with one rose-pink accent. Cinematic depth
 of field, high detail. Lonely midnight intimacy.
 ```
 
@@ -6417,14 +6417,14 @@ Act III 末，Phase J 後。晴香與美夜子互不知情地共同生活多時�
 ### Midjourney 標準版
 
 ```
-Three girls in a battle-damaged interior, shard light cutting through broken windows. 
-Center: teenage girl with disheveled pink wolf-cut hair (Haruka) and a young woman in 
-torn military uniform with translucent cracks on her neck glowing faintly white (Miyako) 
-face each other, frozen, in sudden mutual recognition — not touching but hands nearly 
-reaching. Background corner: an older girl (Akiho) turned away, shoulders slumped, 
-half-hidden in shadow. The space between the central figures vibrates with unspoken truth. 
-Emotionally heavy dramatic lighting, pale winter sunlight from broken glass, shattered 
-military facility aesthetic. Anime painterly style. Silence made visible. Triangle 
+Three girls in a battle-damaged interior, shard light cutting through broken windows.
+Center: teenage girl with disheveled pink wolf-cut hair (Haruka) and a young woman in
+torn military uniform with translucent cracks on her neck glowing faintly white (Miyako)
+face each other, frozen, in sudden mutual recognition — not touching but hands nearly
+reaching. Background corner: an older girl (Akiho) turned away, shoulders slumped,
+half-hidden in shadow. The space between the central figures vibrates with unspoken truth.
+Emotionally heavy dramatic lighting, pale winter sunlight from broken glass, shattered
+military facility aesthetic. Anime painterly style. Silence made visible. Triangle
 composition with distance between all three.
 ```
 
@@ -6472,14 +6472,14 @@ Act III Phase J，集體潛意識決戰中段，比 SPEC#2 整合場景更早、
 ### Midjourney 標準版
 
 ```
-Two girls collide violently in a surreal collective unconscious space — crumbling Hong Kong 
-back-alley walls dissolving into infinite starfield and neon remnants. Left diagonal: teenage 
-girl with disheveled pink wolf-cut hair (Haruka) in torn magical girl uniform, partial crystal 
-formations on skin, surging upward with pink energy in palm. Right diagonal: small 5-year-old 
-girl in black pinafore dress, barefoot, black energy radiating from fingertips, surging 
-downward. Collision point at center: massive white-gold energy explosion, pink and black 
-energy tendrils wrapping and tearing each other. Ground shattering beneath them, cosmic 
-abyss below cracks. Faces: not anger but fierce recognition. Painterly anime style, dramatic 
+Two girls collide violently in a surreal collective unconscious space — crumbling Hong Kong
+back-alley walls dissolving into infinite starfield and neon remnants. Left diagonal: teenage
+girl with disheveled pink wolf-cut hair (Haruka) in torn magical girl uniform, partial crystal
+formations on skin, surging upward with pink energy in palm. Right diagonal: small 5-year-old
+girl in black pinafore dress, barefoot, black energy radiating from fingertips, surging
+downward. Collision point at center: massive white-gold energy explosion, pink and black
+energy tendrils wrapping and tearing each other. Ground shattering beneath them, cosmic
+abyss below cracks. Faces: not anger but fierce recognition. Painterly anime style, dramatic
 diagonal composition, cosmic horror mixed with intimate psychological intensity.
 ```
 
@@ -6525,14 +6525,14 @@ diagonal composition, cosmic horror mixed with intimate psychological intensity.
 ### Midjourney 标準版
 
 ```
-Two girls on a rooftop or abandoned pier under a full moon, cool blue-white moonlight 
-flooding the scene. Right: a pale girl in dark military jacket with faint luminous cracks 
-spreading across her neck and shoulders (Miyako), cat-form suggestion in posture, frozen 
-in surprised stillness, light seeping through her skin from within like a lantern. Left: a 
-teenage girl with pink hair (Haruka), arm slowly raised with palm open between them — 
-not reaching, just present. Moonlight pools in both their palms. No words, no touch. 
-The space between them heavy with unspoken recognition. Painterly anime style, cold silver 
-and white palette, extreme emotional restraint, wide shot with significant negative space 
+Two girls on a rooftop or abandoned pier under a full moon, cool blue-white moonlight
+flooding the scene. Right: a pale girl in dark military jacket with faint luminous cracks
+spreading across her neck and shoulders (Miyako), cat-form suggestion in posture, frozen
+in surprised stillness, light seeping through her skin from within like a lantern. Left: a
+teenage girl with pink hair (Haruka), arm slowly raised with palm open between them —
+not reaching, just present. Moonlight pools in both their palms. No words, no touch.
+The space between them heavy with unspoken recognition. Painterly anime style, cold silver
+and white palette, extreme emotional restraint, wide shot with significant negative space
 between the figures. Quiet cinematic intimacy.
 ```
 
@@ -6555,7 +6555,7 @@ Act III Phase J 決戰高潮。這是黑奏與晴香最深層關係的具現化�
 
 ### 圖片說明
 
-黑奏以幼童的身體走到晴香面前，兩人距離近得呼吸可以互相感覺到。她把手放在了晴香身上——但你分不清楚那是要傷害她還是要留住她。黑奏的臉上有某種像是裂縫的東西，那個一向冷靜到像機器的帝國皇帝，在這一刻有了人才有的撕裂感。而晴香沒有退開，沒有防衛，只是靜靜地站著，讓那隻手放在那裡。
+黑奏走到晴香面前，兩人距離近得呼吸可以互相感覺到。她把手放在了晴香身上——但你分不清楚那是要傷害她還是要留住她。黑奏的臉上有某種像是裂縫的東西，那個一向冷靜到像機器的帝國皇帝，在這一刻有了人才有的撕裂感。而晴香沒有退開，沒有防衛，只是靜靜地站著，讓那隻手放在那裡。
 
 ### 劇情位置
 
@@ -6567,7 +6567,7 @@ Act III Phase J 決戰高潮。這是黑奏與晴香最深層關係的具現化�
 
 帝國廣場決戰場域的某個角落，大規模戰鬥的背景遠處仍在繼續（爆炸餘光、緋潮邊緣的猩紅反光），但鏡頭聚焦在兩人之間的極小空間。
 
-黑奏（真身狀態）：148cm 的幼童身軀，龐大皇袍脫落或半落，露出那具和她的力量完全不相稱的微小身體。她站得很近，一隻手放在晴香的胸前衣領或臉頰——動作定格在某個無法判斷意圖的瞬間。她的眼睛：異色瞳（粉×紫），平時的帝王冷漠已經有了裂縫，像是被晴香的存在本身逼出了她自己都無法處理的東西。
+黑奏（真身狀態 — 魔法少女形態爆發）：帝國皇袍在她身上碎裂，魔法少女力量從撕裂的布料縫隙中透出深紫色的不穩定光芒。她身形雖小但充滿致命的能量張力，一隻手放在晴香的胸前衣領或臉頰——動作定格在某個無法判斷意圖的瞬間。她的眼睛：異色瞳（粉×紫），平時的帝王冷漠已經有了裂縫，像是被晴香的存在本身逼出了她自己都無法處理的東西。
 
 晴香（Act III 末狀態）：Wolf Cut 粉發，制服殘破，局部結晶化。她沒有後退，眼神直視黑奏，是那種「我看見你了」的平靜——不是無懼，而是在懼怕之中選擇不退。
 
@@ -6578,22 +6578,23 @@ Act III Phase J 決戰高潮。這是黑奏與晴香最深層關係的具現化�
 ### Midjourney 標準版
 
 ```
-Two girls in extreme close proximity amid a battlefield aftermath, scarlet sky behind them. 
-Left: a tiny child (about 6-7 years old) in an oversized fallen imperial robe (Kurokane/
-Kuroshio), reaching one small hand toward the taller girl's collar or cheek — ambiguous 
-gesture, neither pure aggression nor pure tenderness. Her heterochromatic eyes (pink + 
-violet) show a fracture of emotion behind cold composure. Right: teenage girl with pink 
-wolf-cut hair in torn magical girl outfit with crystalline fragments on skin (Haruka), not 
-retreating, looking directly at the child with quiet recognition. Half-raised hand between 
-them, motion frozen. Scarlet tide remnants glow in background sky. Intimate tension, 
-ambiguous power dynamic, psychological intensity. Anime painterly, cinematic depth of 
-field focused on the hands and faces.
+Two girls in extreme close proximity amid a battlefield aftermath, scarlet sky behind them.
+Left: a girl with small powerful frame in a shattered imperial robe, dark purple magical
+girl energy radiating from the torn fabric, reaching one hand toward the taller girl's
+collar or cheek — ambiguous gesture, neither pure aggression nor pure tenderness. Her
+heterochromatic eyes (pink + violet) show a fracture of emotion behind cold composure,
+tears threatening the corner. Right: teenage girl with pink wolf-cut hair in torn magical
+girl outfit with crystalline fragments on skin (Haruka), not retreating, looking directly
+with quiet recognition. Half-raised hand between them, motion frozen. Scarlet tide
+remnants glow in background sky. Intimate tension, ambiguous power dynamic, psychological
+intensity, no childlike appearance. Anime painterly, cinematic depth of field focused on
+the hands and faces.
 ```
 
 **視覺重點**：
-- 黑奏幼童身軀 vs. 龐大帝王氣場的反差（皇袍半落）
+- 黑奏帝王形態 vs. 魔法少女力量爆發的碎裂對比（皇袍在能量中撕裂）
 - 那隻手的動作無法定性（傷害/守護的曖昧性）
-- 黑奏眼角的裂縫（修正主義世界觀被晴香動搖的外化）
+- 黑奏眼角的淚意與裂縫（修正主義世界觀被晴香動搖的外化）
 - 晴香半途停下的手（選擇不退但也不確定的複雜狀態）
 - 猩紅緋潮天空為兩人勾勒扭曲光暈
 
@@ -6632,16 +6633,16 @@ Act III/IV 交界，夕整合前的最後時刻。這是 P-E03 保護者自解�
 ### Midjourney 標準版
 
 ```
-A teenage girl (Haruka, pink wolf-cut hair, torn magical girl outfit) kneeling or bending 
-forward, right palm extended toward a small dissolving figure of a 5-year-old child (Yu) 
-in a black pinafore dress, barefoot. The child's body is dissolving from feet upward — 
-dark ink-like particles drifting softly outward into the air like smoke in reverse, 
-fingertips becoming scattered black light-points. Child's face: ancient calm, hint of 
-a smile forming as she fades. Their fingertips just touching — the moment of contact 
-accelerating the dissolution. On the floor between them: a single small bandage (just 
-released), wrinkled, still warm-looking. Background: transitional space, real floor 
-dissolving into deep blue pre-dawn starfield ceiling. Black particle bloom radiating 
-from their joined hands. Slow, tender, inevitable. Painterly anime style, vertical 
+A teenage girl (Haruka, pink wolf-cut hair, torn magical girl outfit) kneeling or bending
+forward, right palm extended toward a small dissolving figure of a 5-year-old child (Yu)
+in a black pinafore dress, barefoot. The child's body is dissolving from feet upward —
+dark ink-like particles drifting softly outward into the air like smoke in reverse,
+fingertips becoming scattered black light-points. Child's face: ancient calm, hint of
+a smile forming as she fades. Their fingertips just touching — the moment of contact
+accelerating the dissolution. On the floor between them: a single small bandage (just
+released), wrinkled, still warm-looking. Background: transitional space, real floor
+dissolving into deep blue pre-dawn starfield ceiling. Black particle bloom radiating
+from their joined hands. Slow, tender, inevitable. Painterly anime style, vertical
 composition, emotional weight of farewell without grief.
 ```
 
@@ -7225,11 +7226,11 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ### 劇情背景
 
-帝國歷113年9-10月，Act II Phase D，地下化第二至三個月。Alpha線中，朔與美夜子是青梅竹馬戀人；美夜子在Alpha線死亡後，朔親手參加了她的葬禮。此後再度相遇，眼前的Unit 01長著愛人的臉，卻是一具被兵器化的空殼。Phase D的某次夜區衝突中，朔在暗處觀察Unit 01（美夜子貓形態）的戰鬥動作，從她的戰術習慣、保護優先序、停頓節奏中辨認出「那就是她」——但美夜子完全沒有認出朔（saku.md §既視感追認；miyako.md §既視感追認；CDL-255）。
+帝國歷113年9-10月，Act II Phase D，地下化第二至三個月。Alpha線中，朔與美夜子是青梅竹馬戀人；美夜子在Alpha線死亡後，朔親手參加了她的葬禮。此後再度相遇，眼前的Unit 01長著愛人的臉，卻是一具被兵器化的空殼。Phase D的某次夜區衝突中，朔在暗處觀察Unit 01（美夜子人形戰鬥形態）的戰鬥動作，從她的戰術習慣、保護優先序、停頓節奏中辨認出「那就是她」——但美夜子完全沒有認出朔（saku.md §既視感追認；miyako.md §既視感追認；CDL-255）。
 
 ### 圖片說明
 
-夜區廢棄街道，黑貓在陰影中以精準動作護住隊友位置。朔站在更遠的暗處，側臉，十字弓垂在手邊沒有舉起。他的視線落在黑貓的某個動作上——那個習慣性的停頓，那個保護優先序。他沒有上前，沒有說話，只是認出了。黑貓的眼睛從未望向他所在的方向。兩人之間隔著整個夜區的黑暗。
+夜區廢棄街道，穿著Unit 01變身服的美夜子在陰影中以精準動作護住隊友位置。朔站在更遠的暗處，側臉，十字弓垂在手邊沒有舉起。他的視線落在她的某個動作上——那個習慣性的停頓，那個保護優先序。瞳孔瞬間放大（驚訝），眉毛微微上揚（難以相信），嘴唇無聲地張開。他没有上前，沒有說話，只是看著，用盡全力確認眼前不是幻覺。她的眼睛從未望向他所在的方向。兩人之間隔著整個夜區的黑暗。
 
 **劇情位置**：
 - **時間點**：帝國歷113年9-10月（Act II Phase D，地下化初期）
@@ -7240,33 +7241,40 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 **Reference Images**：
 - 朔（夜晚形態）：`ConceptArt_Saku_NightHunter.png`
-- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`
+- 美夜子（Unit 01 人形戰鬥形態）：`ConceptArt_Miyako_Unit01.png`
 
 ### 詳細核心描述（230字）
 
 夜區廢棄街道。帝國巡邏剛剛掃過，殘留的藍色探照光痕跡在積水裡消散。
 
-黑貓（Unit 01）在陰影中移動。她掩護身邊的隊友退到安全位置，然後在轉角停了0.3秒——評估，確認無危，才繼續移動。那個停頓的習慣，那個保護優先序，那個動作節奏。
+Unit 01的美夜子在陰影中移動。她掩護身邊的隊友退到安全位置，然後在轉角停了0.3秒——評估，確認無危，才繼續移動。那個停頓的習慣，那個保護優先序，那個動作節奏。
 
 朔站在更遠的廢棄建築二樓，側臉，十字弓垂在手邊，沒有舉起。
 
-他認出了。
+第一秒：瞳孔放大。那個停頓——她獨有的停頓。
 
-不是因為她的臉（在黑暗中根本看不清）。而是那一整套只屬於她的動作語言——她永遠先確認別人安全才確認自己、她在轉角停頓的特定時長、她撤退路線的習慣優先序。
+第二秒：眉毛微皺。難以相信。那一定是巧合，許多人都會有類似的戰鬥習慣。
 
-黑貓的眼睛從未望向他所在的方向。她不知道他在這裡。她甚至沒有她的記憶。
+第三秒：嘴唇無聲地張開。不，那不是巧合。那是她。那整套只屬於她的動作語言——她永遠先確認別人安全才確認自己、她在轉角停頓的特定時長、她撤退路線的習慣優先序。這些不可能重複。
+
+第四秒：眼神定住。她就在那裡。活著。在執行任務。在保護其他人。
+
+她的眼睛從未望向他所在的方向。她不知道他在這裡。她甚至沒有她的記憶。
+
+朔的表情在黑暗中逐漸冷靜下來——從驚訝變成難以相信，再變成某種淒涼的確認。
 
 兩人之間隔著整個夜區的黑暗。他認出了她；她認不出他。
 
 ### Midjourney 標準版
 
 ```
-Dark anime. Night district abandoned street. Black cat in magical girl feline form crouching in shadow with precise protective movement, green-teal eyes focused forward, guarding a retreating figure. Far behind in darkness: a tall figure watching from second floor ruins, crossbow lowered at his side, face partially visible — recognition in stillness. He does not call out. She never looks back. Between them: the entire weight of the dark street, broken neon reflections in puddles. Split framing: close detail of black cat habitual pause mid-movement / distant silhouette of the watcher who recognized that pause. Colors: deep shadow blue, teal-green cat eyes, faint crossbow glint. Emotional tone: seeing someone you lost still alive but unreachable. 8k, niji 6, style raw. --ar 9:16
+Dark anime. Night district abandoned street. Unit 01 Miyako in magical girl human form crouching in shadow with precise protective movement, teal eyes focused forward, guarding a retreating figure. Far behind in darkness: a tall figure watching from second floor ruins, crossbow lowered at his side, face partially visible with subtle expression shift — pupils dilating (shock) → eyebrows micro-rising (disbelief) → lips slightly parted (certainty) → eye softening (loneliness). He does not call out. She never looks back. Between them: the entire weight of the dark street, broken neon reflections in puddles. Split framing: close detail of habitual pause mid-movement in combat stance / distant silhouette of the watcher whose face cycles through recognition emotions. Colors: deep shadow blue, teal-white magical girl silhouette, faint crossbow glint. Emotional tone: seeing someone you lost still alive but unreachable, and they cannot remember you exist. 8k, niji 6, style raw. --ar 9:16
 ```
 
 **視覺重點**：
-- 黑貓動作中的停頓習慣——「行為識別」的視覺化
-- 朔的十字弓垂著，沒有舉起（不是任務，是認出）
+- Unit 01 美夜子動作中的停頓習慣——「行為識別」的視覺化（轉角 0.3 秒停頓）
+- 朔臉部四秒的表情變化循環：驚訝→難以相信→確認→淒涼接納（每秒一個微妙轉變）
+- 朔的十字弓垂著，沒有舉起（不是任務，是認出；手始終沒有移動）
 - 兩人之間沒有視線交換——「物理極近，記憶極遠」
 - 積水中的霓虹殘影作為距離與孤獨的符號
 
