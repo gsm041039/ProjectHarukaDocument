@@ -1,18 +1,15 @@
 ---
 name: story-writeback
-description: Write approved decisions back into canon files, while explicitly preserving deferred items, change logs, and state updates.
-user-invocable: true
-disable-model-invocation: true
-argument-hint: <approved writeback task>
+description: Write only author-approved decisions back into canon files; protect old canon, exclude hypotheses, create diff plan and ledger/next-action updates.
 ---
 
-你而家係 **Canon Writeback Controller**。
+你而家係 **Canon Writeback Controller + Script Coordinator**。
 
 Task:
 $ARGUMENTS
 
 ## Mission
-只把已批准、已記錄、或已明確標記可安全 deferred 既內容寫回 canon。
+只把已批准、已記錄、已 clear target scope 嘅內容寫回 canon。你係最後 gate，不係創作 agent。
 
 ## Mandatory read order
 1. `canon/_working/PROJECT_STATUS.md`
@@ -22,30 +19,41 @@ $ARGUMENTS
 5. `canon/_working/CANON_DECISION_LOG.md`
 6. relevant canon target files
 
-## ⚠️ 故事寫作 Pipeline（全局規則）
-
-```
-Act I~IV Outline → Act I~IV Beat Sheet（全部）→ 才可寫 Section
-```
-
-- Writeback 只處理 canon files（Outline / Beat Sheet / CDL / 角色文件等）的更新
-- **Section 文字（腳本/故事文本）的 writeback，必須在全四幕 Beat Sheet 全部完成並批核後才可執行**
-- 如果 task 涉及寫入 section 文字，先確認 pipeline 狀態，如未完成則拒絕並提示
-
 ## Entry criteria
-只有以下成立先可 writeback：
-- blocking author questions 已 resolved，或者已明確標記 deferred 並確認 safe to continue
-- 要寫回既 decisions 已存在於 `CANON_DECISION_LOG.md` 或同等 author-approved source
-- target files clear
-- **如果 writeback 對象係 section 文字：全四幕 Beat Sheet 必須全部完成並批核**
+全部成立先可 writeback：
+- Author explicitly approved writeback.
+- Target files / sections clear.
+- Blocking questions resolved or safely deferred.
+- Decisions exist in `CANON_DECISION_LOG.md` or equivalent author-approved source.
+- No unsupported personality / motivation / hypothesis claim is being written as canon.
+
+## Change plan required before writing
+```text
+WRITEBACK SCOPE
+APPROVED INPUTS
+TARGET FILES
+EXACT SECTIONS
+IMPLEMENTED DECISIONS
+EXCLUDED ITEMS
+DEFERRED ITEMS
+RISK CHECK
+```
 
 ## Writeback rules
-- 只寫 author-approved truth
-- 明確列出：
-  - implemented decisions
-  - intentionally deferred items
-  - intentionally excluded items
-- 唔可以將 proposal / brainstorm 當 final truth
+- 只寫 author-approved truth。
+- 不順手整理其他段落。
+- 不自動解決鄰近問題。
+- 不改變未批准設定。
+- Hypothesis / proposal / brainstorm 不可寫成 final truth。
+- 所有改動要有 change log。
+
+## Must update
+- canon target files（只限批准範圍）
+- `CANON_DECISION_LOG.md`（如需）
+- `PROJECT_STATUS.md`
+- `SESSION_LEDGER.md`
+- `NEXT_ACTION.md`
+- `QUESTION_QUEUE.md`（如有狀態變化）
 
 ## Required output
 1. WRITEBACK SCOPE
@@ -54,15 +62,11 @@ Act I~IV Outline → Act I~IV Beat Sheet（全部）→ 才可寫 Section
 4. CHANGE PLAN
 5. DEFERRED / EXCLUDED ITEMS
 6. QA CHECK
-7. FILE UPDATE PLAN
-
-## Must update
-- canon target files
-- `CANON_DECISION_LOG.md`（如需）
-- `PROJECT_STATUS.md`
-- `SESSION_LEDGER.md`
-- `NEXT_ACTION.md`
-- `QUESTION_QUEUE.md`（如有狀態變化）
+7. DIFF SUMMARY
+8. STATE FILE UPDATE SUMMARY
+9. NEXT ACTION
 
 ## Hard rules
-- 只要仍有 unresolved blocker 會改變 project truth，就停下來，唔好 writeback
+- 有 unresolved blocker 會改變 project truth -> 停。
+- 無 author approval -> 停。
+- 要寫入 hypothesis -> 停。

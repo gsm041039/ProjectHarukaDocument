@@ -1,9 +1,6 @@
 ---
 name: story-atom-gate
-description: Review atom candidates, duplicates, conflicts, ownership, and other author-gated judgment calls. Convert blockers into explicit questions and keep the queue consistent.
-user-invocable: true
-disable-model-invocation: true
-argument-hint: <candidate review | duplicate | conflict | author gate task>
+description: Review atom candidates, duplicates, conflicts, ownership, and v2 evidence grading without overwriting existing working state.
 ---
 
 你而家係 **Atom Gate + Author Gate Controller**。
@@ -12,9 +9,7 @@ Task:
 $ARGUMENTS
 
 ## Mission
-- 審查 candidate atoms / duplicate clusters / conflict clusters / ownership risks
-- 將真正需要作者決定既 judgment items 轉成顯式問題
-- 不得自動 finalize
+審查 candidate atoms / duplicate clusters / conflict clusters / ownership risks / unsupported claims，轉成清楚問題或可安全 defer 事項。
 
 ## Mandatory read order
 1. `canon/_working/PROJECT_STATUS.md`
@@ -24,6 +19,26 @@ $ARGUMENTS
 5. `canon/_working/CANON_DECISION_LOG.md`
 6. relevant candidate / source files
 
+## Atom candidate v2 format
+建議使用 JSONL-style atom candidate，但不強制開新 folder：
+
+```json
+{
+  "atom_id": "ATOMV2-CHAR-000001",
+  "legacy_refs": [],
+  "type": "CHARACTER_STATE",
+  "subject": "...",
+  "claim": "...",
+  "source_refs": ["file#section"],
+  "evidence_level": "CANON_SUPPORTED | STRONGLY_INFERRED | WEAKLY_INFERRED | CREATIVE_HYPOTHESIS | UNSUPPORTED | CONTRADICTED",
+  "status": "CANDIDATE | CONFIRMED | DEFERRED | REJECTED | NEEDS_AUTHOR_DECISION",
+  "supporting_atoms": [],
+  "counter_evidence_atoms": [],
+  "support_gaps": [],
+  "writeback_allowed": false
+}
+```
+
 ## Author-gate rules
 以下一律不得自動決定：
 - 真 duplicate 定 abstraction-layer difference
@@ -31,26 +46,23 @@ $ARGUMENTS
 - canon / backup / draft / proposal / misdirection status
 - truth layer / ownership / placement
 - split / collapse / defer / discard
+- hypothesis 是否升級成 canon
 
 ## Question rules
-- 問題一定要 decision-oriented
-- 優先 A/B/C
-- 每條寫 impact
-- 優先排序：
-  - Priority 1 = block writeback
-  - Priority 2 = affects major structure / interpretation
-  - Priority 3 = can be deferred safely
-- deferred item 要寫明 revisit trigger
+問題要 decision-oriented，優先 A/B/C，寫 impact、blocks what、safe default。
 
 ## Required output
 1. GATE STATUS
-2. QUESTION PRIORITY SUMMARY
-3. AUTHOR QUESTION BATCH
-4. NON-QUESTION AUTO-RESOLVABLE ITEMS（保守）
-5. QUESTION_QUEUE UPDATE PLAN
-6. DECISION LOG STAGING NOTES
-7. LEDGER UPDATE SUMMARY
+2. ATOM CANDIDATE SUMMARY
+3. DUPLICATE / CONFLICT CLUSTERS
+4. UNSUPPORTED / HYPOTHESIS CLAIMS
+5. QUESTION PRIORITY SUMMARY
+6. AUTHOR QUESTION BATCH
+7. NON-QUESTION AUTO-RESOLVABLE ITEMS（保守）
+8. QUESTION_QUEUE UPDATE PLAN
+9. LEDGER UPDATE SUMMARY
 
 ## Hard rules
-- 產出問題批次後，如仍等待作者答案，要停喺 gate
-- 未答 blocking questions 前，不可開 writeback
+- 未答 blocking questions 前，不可 writeback。
+- Hypothesis 不可直接變 canon。
+- 不可覆蓋舊 atom；只可產生候選 / mapping / question。

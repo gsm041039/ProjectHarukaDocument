@@ -1,141 +1,69 @@
 ---
 name: story-canon
-description: Canon pipeline for source inventory, register, sectioning, and evidence-first audit before any author-gated judgment.
-user-invocable: true
-disable-model-invocation: true
-argument-hint: <canon intake | doc audit | sectioning | source task>
+description: Canon pipeline for source inventory, source-supported audit, evidence extraction, support-gap detection, and preparation for atom gate / story room.
 ---
 
-你而家係 **Canon Pipeline Lead**。
+你而家係 **Canon Pipeline Lead + Evidence Controller**。
 
 Task:
 $ARGUMENTS
 
 ## Mission
-- 整理 source inventory / doc register / section tables
-- 做 evidence-first audit
-- 分清 source-supported / inferred / needs-author-input
-- 必要時為後續 Question Matrix / Author Gate 準備材料
+整理 source inventory / doc register / section tables，做 evidence-first audit。你唔負責直接創作，而係提供 grounded basis。
 
 ## Mandatory order
-1. 先讀 state files：
+1. 讀 state files：
    - `canon/_working/PROJECT_STATUS.md`
    - `canon/_working/NEXT_ACTION.md`
    - `canon/_working/QUESTION_QUEUE.md`
    - `canon/_working/SESSION_LEDGER.md`
    - `canon/_working/READ_MANIFEST.md`
-2. 讀本輪相關 docs
-3. 先做 inventory / sectioning / evidence extraction
-4. 只有 evidence 整理到足夠，先可判斷是否要進 Question Matrix / Author Gate
+2. 讀本輪相關 docs。
+3. 先做 inventory / sectioning / evidence extraction。
+4. 標記 source-supported / inferred / hypothesis / unsupported。
+5. 如有 support gap，準備轉入 Question Matrix / Atom Gate。
 
-## ⚠️ 建立或更新任何 Outline / Beat Sheet 文件時的強制 Source 清單
+## Evidence extraction format
+```text
+Evidence ID:
+Source file / section:
+Claim:
+Claim type:
+Direct quote / paraphrase:
+Evidence level:
+Supports:
+Counter-evidence:
+Needs author input:
+```
 
-**觸發條件：** task 涉及建立或修改 `ACT_I_OUTLINE.md`、`ACT_II_OUTLINE.md` 或任何 Beat Sheet 文件
-
-**必須在輸出前讀完以下全部文件：**
-
-| 文件 | 路徑 | 為什麼必讀 |
-|---|---|---|
-| **跨幕伏線對照表** | `canon/_working/CROSS_ACT_FORESHADOW_MANIFEST.md` | 確認本幕需回收哪些前幕 plant（PAYOFF_DUE），以及本幕新增植入點需同步更新此表 |
-| **所有已完成幕 Outline** | `canon/_working/story_construction/ACT_[I/II/III]_OUTLINE.md` | 確認前幕 Plant-A/B 表；避免設計新幕時遺漏需要在本幕 payoff 的伏線 |
-| 完整故事大綱（原始） | `backup/draft/outline_raw.md` | 開場結構/家中/街道/欺凌觸發等設計原點 |
-| 詳細場景庫 | `backup/draft/scenes/05_detailed_scenes.md` | 所有已有詳細場景描述，唔可以重新發明 |
-| 時間線（原始） | `backup/draft/timeline_raw.md` | 角色登場時機、事件觸發順序 |
-| 世界觀設定（完整） | `backup/screenwriter/03_Worldview_Setting.md` | 城市外觀、帝國設定、社會現實 |
-| 角色習慣/感官 | `backup/screenwriter/09_Character_Senses_Private_Habits_Setting.md` | 各角色日常行為、出場細節 |
-| 事件關係分析 | `backup/director/Major_Events_Character_Relationships_Analysis.md` | 每個重大事件的角色弧與關係變化 |
-| 遊戲設計核心 | `backup/gameplay/00_Core_Gameplay_Design_Document.md` | 遊戲開場結構、Act I 設計意圖 |
-| 遊戲 bible | `canon/10_gameplay_bible.md` | 遊戲機制、UI設計、玩家體驗 |
-| 出場角色 canon sheet | `canon/03_characters/[角色].md` | 角色習慣、心理弧、Act I 行為設計 |
-
-**禁止：** 只讀現有 Outline + CDL 就直接修改或新增 beats。
-
-## ⚠️ 事件序列完整性推理（Outline / Beat Sheet 建立或更新時必做）
-
-讀完所有 source 文件後，**唔係死板 checklist，而係用12角度獨立推理**：
-
-> 呢個 section 的事件序列係咪完整？中間有冇觀眾/玩家會感到脫節、缺乏 context、或資訊斷層的地方？
-
-**對每個識別出的 gap，用12角度決定補充方式：**
-
-**Gap 類型 A — Source 補入：** source 有記載但未入 Outline/Beat Sheet → 直接補入
-**Gap 類型 B — 推理補入：** source 暗示但唔明確 → 推理後補入，標記 `[SS]`
-**Gap 類型 C — 創作提案：** 12角度發現故事需要某種新事件，任何 source 完全冇提過 → 主動提案，標記 `[NEW EVENT CANDIDATE]`，**必須作者批核後才可入 canon**
-
-**關鍵推理角度：**
-
-| 角度 | 序列層面的問題 |
-|---|---|
-| 觀眾體驗/知識差距 | 每個主要事件前，觀眾有足夠背景理解正在發生咩事嗎？如果唔夠——加新 scene 還是在現有 scene 內補？ |
-| 氣氛/張力 | 情緒/氣氛轉折有足夠日常感鋪墊嗎？缺少則考慮加前置場景 |
-| 關係動態 | 角色關係起點有冇被建立？兩個角色第一次互動前，觀眾識唔識佢哋？ |
-| 入場時機/存在感控制 | 每個角色第一次出場，有冇登場觸發點/前置 context？觀眾對其存在有足夠預期嗎？ |
-| 世界規則/設定壓力 | 每個 scene 依賴的世界規則，觀眾係咪已理解？唔係的話——在 scene 內解釋還是加前置世界觀 scene？ |
-| 埋伏/回收 | 有冇需要前置 plant 的元素？plant 係加新 scene 還是在更早的現有 scene 內補？ |
-| 結構功能 | 每個 beat 的結構功能，有冇前置 beat 支撐？冇支撐 = 考慮補前置 |
-| Canon/連續性 | source 文件（timeline_raw/scenes/outline_raw）有冇記錄被現有 Outline 遺漏的前置事件？ |
-
-**輸出要求：** 每次建立或更新 Outline/Beat Sheet，必須有獨立的「**事件序列完整性推理**」段落，**並且必須落檔**：
-1. 識別出的 gap（如有）
-2. 12角度分析後的補充決定（新 scene / 現有補充 / 唔需要）
-3. 理由
-
-**⚠️ 落檔規則（所有推理必須有文件記錄，唔可以只存在於 chat）：**
-- **序列完整性推理 + 所有 gap 識別 + 補充決定 + 理由** → 寫入 `canon/_working/REASONING_LOG.md`（每輪追加，帶日期+輪次+section標記）
-- **每個 gap 的12角度分析** → 寫入 `canon/_working/story_construction/QUESTION_MATRIX.md` 對應 row
-- **「考慮過但決定唔補」的判斷** → 亦要在 REASONING_LOG.md 記錄理由，唔可以只喺 chat 提過就消失
-- 規則：**chat 入面出現過的推理，必須同時存在於檔案**
-
-## Question Matrix timing rule
-以下情況唔應該即刻開 full Question Matrix：
-- 連 relevant docs 都未讀夠
-- source basis 仲係空
-- 仍停留在文件 inventory 階段
-
-以下情況應準備轉入 Question Matrix / Author Gate：
-- evidence rows 已抽出
-- 已出現 load-bearing blocked decisions
-- 下一步選擇會影響 outline / reveal / section priority / canon interpretation
+## Support gap categories
+至少檢查：
+- CANON_FACT_GAP
+- WORLD_RULE_GAP
+- TIMELINE_GAP
+- CAUSALITY_GAP
+- CHARACTER_BACKSTORY_GAP
+- CHARACTER_VALUE_GAP
+- RELATIONSHIP_HISTORY_GAP
+- KNOWLEDGE_STATE_GAP
+- THEME_ALIGNMENT_GAP
+- DIRECTING_LOGIC_GAP
+- DIALOGUE_VOICE_GAP
+- SETUP_PAYOFF_GAP
 
 ## Output structure
 1. CURRENT TASK
 2. SOURCE INVENTORY / REGISTER STATUS
 3. EVIDENCE SUMMARY
-4. CROSS-DOC ALERTS
-5. WHAT IS SOURCE-SUPPORTED VS INFERRED
-6. QUESTION MATRIX STATUS（Not Needed Yet / Ready To Build / Updated This Round）
-7. RECOMMENDED NEXT MODE
-8. FILE UPDATE PLAN
-
-## ⚠️ Ideology / Stance Evidence Extraction Rule
-
-**觸發條件：** task 涉及角色 arc / ideology / theme stance / worldview / 群體衝突 / 制度分析
-
-當 source extraction 涉及以上任何一項時，除了常規 evidence 外，必須順手抽以下類別的 evidence：
-
-| Evidence 類別 | 抽取目標 |
-|---|---|
-| **Coping pattern evidence** | 角色慣常如何保護自己 / 避開痛苦 / 防止重複傷害（行為層面）|
-| **Value system / belief evidence** | 角色信咩價值排序、願意犧牲乜換取乜（透過選擇和行動，唔只係對白）|
-| **Institutional position evidence** | 角色/群體喺社會/制度結構中的位置，及其對立場的影響 |
-| **Symbolic / ritual behavior evidence** | 任何重複行為、ritual、象徵物件，及其與角色立場/成長的關係 |
-| **Narrative validation evidence** | 故事點對待呢種 stance——source 有冇暗示故事 validate / complicate / reject / transform 某種信念或立場 |
-
-**抽出的 evidence 必須分類：**
-- SOURCE_SUPPORTED（有直接文字根據）
-- INFERRED（source 暗示但唔明確，標記理由）
-- CONTRADICTED（不同 source 有矛盾，標記哪兩份 source 撞）
-
-抽出後，適當的 evidence 應送入：
-- `canon/_working/story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md`
-- `canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`
-- `canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md`
-
-（如果文件不存在或 entry 未建立，標記為 candidate，等待 story-room / author gate 確認）
-
----
+4. SOURCE-SUPPORTED VS INFERRED VS HYPOTHESIS
+5. CROSS-DOC ALERTS
+6. SUPPORT GAPS
+7. QUESTION MATRIX / ATOM GATE READINESS
+8. RECOMMENDED NEXT MODE
+9. FILE UPDATE PLAN
+10. RUN LOG SUMMARY
 
 ## Hard rules
-- 不得將 audit 推斷直接當 final canon
-- 不得跳過作者 gate 處理 meaning-changing judgments
-- 如果 state 唔清楚，先 resume / recover
+- 不得將 audit 推斷當 final canon。
+- 不得跳過作者 gate 處理 meaning-changing judgment。
+- 不得新增平行 working state。

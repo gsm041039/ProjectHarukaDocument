@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(*)",
-      "Read(//c/Users/User/AppData/Local/Temp/**)"
+      "Read(//c/Users/User/AppData/Local/Temp/**)",
+      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" diff --stat HEAD)",
+      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" status --short)",
+      "Bash(gh repo *)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ],
     "ask": [
       "Bash(git commit:*)",
