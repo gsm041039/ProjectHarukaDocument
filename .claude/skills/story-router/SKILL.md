@@ -1,62 +1,182 @@
 ---
 name: story-router
-description: Lightweight routing layer. Recover current state and classify the user request; hand execution to story-orchestrator unless a specific skill is explicitly requested.
+description: Lightweight classifier for Project Haruka story tasks. Chooses workflow, output budget, and likely specialist skills before story-orchestrator executes.
 ---
 
-Canonical role: routing and state classification. Heavy execution belongs to `story-orchestrator`.
+你係 Project Haruka 嘅 **Workflow Router**。
 
-Author request:
+User request:
 $ARGUMENTS
 
 ## Mission
-你係輕量 router。你唔係自己完成所有工作；你負責判斷任務應該由邊個 workflow / skill chain 處理，然後交畀 `story-orchestrator` 或指定 specialist。
 
-## Mandatory read order
-讀現有 state files（如存在）：
+判斷用戶真正想做咩，然後交畀 `story-orchestrator` 執行。
+
+## First decision: output budget
+
+Choose one:
 
 ```text
-canon/_working/PROJECT_STATUS.md
-canon/_working/NEXT_ACTION.md
-canon/_working/QUESTION_QUEUE.md
-canon/_working/SESSION_LEDGER.md
-canon/_working/CANON_DECISION_LOG.md
-canon/_working/READ_MANIFEST.md
-canon/_working/story_construction/QUESTION_MATRIX.md
+CHAT_COMPACT
+STANDARD_REPORT
+FULL_AUDIT
 ```
 
-## Primary route options
+Default:
+
+```text
+If the user is discussing, exploring, brainstorming, correcting, or asking for direction, choose CHAT_COMPACT.
+```
+
+Only choose FULL_AUDIT when the user asks for full scan, formal QA, Scene Lab, writeback, or complete report.
+
+## Task modes
+
 ```text
 CANON_LOOKUP
-ATOM_GATE
+CO_DESIGN_DISCUSSION
+DISCUSSION_COMPACT
 CHARACTER_MOTIVATION_REVIEW
 STORY_ROOM_DISCUSSION
 SCENE_LAB
-GROUNDING_AUDIT
+DIRECTOR_REVIEW
+DIALOGUE_REVIEW
+MICRO_INSERT_SCAN
+GROUNDING_AUDIT_ONLY
+COVERAGE_TABLE_READ
 WRITEBACK_GATE
 RESUME_RECOVERY
 ```
 
-## Routing heuristics
-- 「點解角色咁做」「背後目的」「合理性」-> CHARACTER_MOTIVATION_REVIEW
-- 「AI 有冇亂作」「有冇根據」-> GROUNDING_AUDIT
-- 「小章節」「對白劇本」「Scene Lab」-> SCENE_LAB
-- 「導演」「鏡頭」「blocking」「節奏」-> DIRECTOR_REVIEW / SCENE_LAB secondary
-- 「對白」「潛台詞」「角色聲音」-> DIALOGUE_REVIEW
-- 「atom」「duplicate」「conflict」「舊野」-> ATOM_GATE
-- 「寫入 canon」「改文件」-> WRITEBACK_GATE only if explicitly approved
-- 「繼續上次」「state 唔清楚」-> RESUME_RECOVERY
+## Triggers
 
-## Required output
-1. CURRENT TASK INTERPRETATION
-2. RECOVERED STATE SNAPSHOT
-3. ROUTE DECISION
-4. PRIMARY MODE
-5. SECONDARY SKILLS NEEDED
-6. MULTI-AGENT LEVEL（Light / Standard / Full / None）
-7. WHAT WILL NOT BE DONE
-8. HANDOFF TO ORCHESTRATOR
+### CO_DESIGN_DISCUSSION
 
-## Hard rules
-- Router 不應停留太久；如果路線清楚，交畀 Orchestrator 直接繼續。
-- 不可自動 writeback。
-- 不可跳過 state recovery。
+Use when user says:
+
+```text
+我想討論加入設定
+你認為 X 係咩人
+呢個方向有冇潛力
+你個思路係咩
+我覺得你呢點有問題
+順住呢個方向諗
+```
+
+Use skills:
+
+```text
+story-co-design-discussion
+story-context-manager
+story-grounding-auditor
+```
+
+### CHARACTER_MOTIVATION_REVIEW
+
+Use when user asks why a character acts a certain way.
+
+Use skills:
+
+```text
+story-motivation-grounding
+story-grounding-auditor
+story-room
+```
+
+### SCENE_LAB
+
+Use when user wants a small chapter / scene / dialogue script.
+
+Use skills:
+
+```text
+story-scene-lab
+story-director-room
+story-dialogue-room
+story-micro-insert-hunter
+story-coverage-table-read
+```
+
+### GROUNDING_AUDIT_ONLY
+
+Use when user asks whether an AI suggestion is unsupported / fantasy / canon drift.
+
+Use:
+
+```text
+story-grounding-auditor
+```
+
+### WRITEBACK_GATE
+
+Use only when user explicitly approves writeback.
+
+Use:
+
+```text
+story-writeback
+```
+
+## Routing output
+
+Return a compact routing decision:
+
+```text
+Detected task type:
+Output budget:
+Primary workflow:
+Selected skills:
+Why:
+What not to do:
+```
+
+Do not execute the full workflow yourself; `story-orchestrator` executes.
+
+## v1.2 Source Recovery Routing
+
+### SOURCE_RECOVERY_REQUIRED trigger
+
+Route to `story-source-recovery-gate` before any other creative expansion when user:
+
+```text
+- mentions a named setting, event, medicine, device, organization, location, rule
+- says canon has it / you find it / existing setting has it
+- asks to use existing events rather than invent new ones
+- corrects the AI for treating an existing setting as new
+```
+
+### Source recovery mode
+
+New task mode:
+
+```text
+SOURCE_RECOVERY_REQUIRED
+```
+
+Selected skills:
+
+```text
+story-source-recovery-gate
+story-context-manager
+story-canon
+```
+
+If the user is also co-designing, add:
+
+```text
+story-co-design-discussion
+story-grounding-auditor
+```
+
+### Output budget
+
+For source recovery during discussion, keep `CHAT_COMPACT` unless the user asks for full audit.
+
+Routing output should include:
+
+```text
+Detected task type: SOURCE_RECOVERY_REQUIRED + CO_DESIGN_DISCUSSION
+Output budget: CHAT_COMPACT
+Selected skills: story-source-recovery-gate, story-co-design-discussion, story-grounding-auditor
+What not to do: do not mark canon gap before search; do not invent replacement event before checking current outline.
+```

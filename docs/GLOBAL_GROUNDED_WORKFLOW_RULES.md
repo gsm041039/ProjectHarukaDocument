@@ -1,16 +1,40 @@
-# GLOBAL_GROUNDED_WORKFLOW_RULES
+# Global Grounded Workflow Rules
 
-## Purpose
-本文件係 Project Haruka 所有 story workflow / skill 嘅共用規則。目標係：
+## Core purpose
 
-1. AI 唔需要等作者手動揀十幾個 skill，而係由 `story-orchestrator` 自動判斷。
-2. 每次任務都要有 log、checklist、pending / blocked / skipped 狀態。
-3. 每個角色性格、動機、心理、對白、導演判斷都要有根據；可以創作，但必須標記為 hypothesis。
-4. 不開平行 working state；沿用現有 `canon/_working/` 檔案。
-5. 不自動 writeback；所有 canon 改動必須 author-approved。
+Project Haruka workflows exist to let AI help with canon, character, scene, dialogue, and directing design without hallucinating unsupported personality/backstory and without damaging existing working files.
 
-## Existing working files to use
-所有 workflow 要優先沿用以下現有檔案；除非作者明確要求，唔好另開一套 working folder：
+## Golden rules
+
+```text
+Every claim must be grounded, graded, and traceable.
+Creative hypotheses are allowed, but they must be isolated, labelled, and converted into author questions or required-support proposals before use.
+```
+
+```text
+Internal thoroughness does not require external verbosity.
+For discussion tasks, think broadly, log compactly, and answer narrowly.
+```
+
+## Master entry rule
+
+Every task should start through `story-orchestrator`, unless the user explicitly calls a specialist skill.
+
+The orchestrator must decide:
+
+```text
+Task type
+Output budget
+Workflow
+Selected skills
+Whether multi-agent is needed
+Whether temp scratchpad is needed
+What not to do
+```
+
+## Existing working state rule
+
+Use existing working files:
 
 ```text
 canon/_working/PROJECT_STATUS.md
@@ -22,121 +46,243 @@ canon/_working/READ_MANIFEST.md
 canon/_working/story_construction/QUESTION_MATRIX.md
 ```
 
-## Universal start rule
-每次任務開始，必須先做：
+Do not create a parallel permanent working system.
+
+Temporary scratchpad is allowed:
 
 ```text
-1. Recover state from existing working files.
-2. Interpret user request.
-3. Route to the correct workflow.
-4. Select required skills / agent passes.
-5. Create a run checklist.
-6. State what will NOT be done.
+canon/_working/.tmp/current_run.md
+canon/_working/.tmp/current_run_checklist.md
+canon/_working/.tmp/current_run_evidence.md
+canon/_working/.tmp/current_run_agent_notes.md
 ```
 
-除非任務係純粹簡短答覆，否則唔可以跳過 routing / checklist。
+`.tmp` is temporary, overwrite-safe, non-canon.
 
-## Universal end rule
-每次任務結束，必須輸出：
+## Output budget rule
+
+Choose one:
 
 ```text
-Completed:
-- ...
-
-Pending / Still Needed:
-- ...
-
-Blocked:
-- ...
-
-Skipped:
-- ...
-
-Open Questions:
-- ...
-
-Next Recommended Action:
-- ...
+CHAT_COMPACT
+STANDARD_REPORT
+FULL_AUDIT
 ```
 
-如果有 repo/file write access，應同步更新：
+Default to `CHAT_COMPACT` for ordinary discussion and co-design.
+
+Only use `FULL_AUDIT` when explicitly requested or before canon-critical writeback.
+
+## Co-design discussion rule
+
+When the user is exploring new ideas, use `CO_DESIGN_DISCUSSION`.
+
+Required:
 
 ```text
-SESSION_LEDGER.md
-NEXT_ACTION.md
-QUESTION_QUEUE.md（如有新問題）
-PROJECT_STATUS.md（如 active topic / phase 改變）
+現有支撐
+新增假設
+風險
+建議最小版本
+下一步要確認
+Mini Log
 ```
-
-如果只係 chat 內回覆，至少要以同一格式輸出 log summary。
-
-## Every claim must be grounded, graded, and traceable
-任何判斷都必須分級：
-
-```text
-CANON_SUPPORTED       = 有直接 source atom / canon text 支持
-STRONGLY_INFERRED    = 多個現有事件 / 行為 pattern 強力支持
-WEAKLY_INFERRED      = 有少量支持，但仍需標記風險
-CREATIVE_HYPOTHESIS  = 創作候選，必須隔離
-UNSUPPORTED          = 不可用作正式解釋 / 不可寫入 canon
-CONTRADICTED         = 有明顯反證或衝突
-```
-
-所有建議、解釋、劇本行為、角色語氣、導演處理都要至少標記 evidence level。
 
 ## No Free Personality Rule
-AI 不可憑空賦予角色新的：
+
+AI 不可憑空賦予角色新的核心性格、價值觀、創傷、慾望、恐懼、癖好、語氣或關係態度。
+
+Any such claim must have support from:
 
 ```text
-核心性格、價值觀、創傷、慾望、恐懼、癖好、語氣、關係態度、道德立場、行為 pattern。
+source atom
+event
+relationship history
+dialogue
+repeated behavior pattern
+world rule
+directing note
 ```
 
-如果無 source atom / 事件 / 關係 / 對白 / 重複行為支持，只能放入 Hypothesis Sandbox，不可當成角色真相。
+If unsupported, it belongs in Hypothesis Sandbox only.
 
-## Hypothesis Sandbox Rule
-創作假說可以提出，但必須隔離：
+## Evidence levels
 
 ```text
-Hypothesis:
-- Claim
-- Why it might help
-- Required support / backstory needed
-- Risk to canon / character
-- Minimal-change version
-- Whether it can be used in Scene Lab
-- Whether it is banned from writeback
+CANON_SUPPORTED
+STRONGLY_INFERRED
+WEAKLY_INFERRED
+CREATIVE_HYPOTHESIS
+AUTHOR_INTERESTED_CANDIDATE
+NEEDS_CANON_SUPPORT
+UNSUPPORTED_DO_NOT_USE
 ```
 
-Hypothesis 不得直接進入 canon、official character state、正式劇本核心動機，除非作者批准並補足支撐。
+## Hypothesis Promotion Ladder
+
+```text
+UNSUPPORTED
+CREATIVE_HYPOTHESIS
+AUTHOR_INTERESTED_CANDIDATE
+NEEDS_CANON_SUPPORT
+APPROVED_CANDIDATE
+CANON_WRITEBACK_READY
+```
+
+Do not skip stages.
+
+Author interest does not equal canon approval.
+
+## New Assumption Flag
+
+Every new candidate idea must be labelled:
+
+```text
+新增假設候選：...
+現有支撐：...
+風險：...
+需要確認：...
+狀態：Candidate only，不可當 canon。
+```
+
+## Correction Assimilation Rule
+
+When the author corrects the AI, the next answer must first state:
+
+```text
+更新後限制：
+1. ...
+2. ...
+下一步推演會避開：...
+```
+
+## Minimum Viable Canon Expansion Rule
+
+For major new settings, present:
+
+```text
+最小版
+中版
+大版
+推薦
+```
+
+Default to the smallest version that solves the dramatic problem.
+
+## Existing Canon Impact Check
+
+For major candidates, check:
+
+```text
+Characters affected
+Acts affected
+Reveals affected
+World rules affected
+Antagonist-function risk
+Potential payoff
+```
 
 ## Active Support Gap Detection
-任何 workflow 都要主動問：
+
+Every workflow should detect support gaps, including:
 
 ```text
-我而家嘅推論需要咩支持？
-現有資料有冇？
-支撐係直接、間接、弱推論、定無？
-如果無，係邊一類 support gap？
-呢個 gap 會 block 今次工作嗎？
-需要問作者嗎？
-有冇 safe default？
+CANON_FACT_GAP
+WORLD_RULE_GAP
+TIMELINE_GAP
+CAUSALITY_GAP
+CHARACTER_BACKSTORY_GAP
+CHARACTER_TRAUMA_GAP
+CHARACTER_VALUE_GAP
+CHARACTER_DESIRE_GAP
+CHARACTER_FEAR_GAP
+CHARACTER_HABIT_GAP
+CHARACTER_SPEECH_PATTERN_GAP
+CHARACTER_GROWTH_STAGE_GAP
+RELATIONSHIP_HISTORY_GAP
+RELATIONSHIP_POWER_DYNAMIC_GAP
+KNOWLEDGE_STATE_GAP
+MOTIVATION_SUPPORT_GAP
+BEHAVIOR_PATTERN_GAP
+EMOTIONAL_LOGIC_GAP
+THEME_ALIGNMENT_GAP
+SYMBOLISM_SUPPORT_GAP
+DIRECTING_LOGIC_GAP
+SCENE_FUNCTION_GAP
+AUDIENCE_INTERPRETATION_GAP
+PAYOFF_SETUP_GAP
+COUNTER_EVIDENCE_GAP
+TROPE_LEAKAGE_RISK
 ```
 
-## Stop Rules
-- 只係審查：不可自動重寫。
-- 只係討論：不可自動寫劇本。
-- 只係 Scene Lab：不可 writeback。
-- 未經作者批准：不可改 canon truth。
-- 有 unresolved blocker：不可進入 writeback。
-- 任務完成 requested output + log + checklist 後要停，不可無限擴展。
+## Log and checklist rule
 
-## Multi-agent safety
-多 agent 可以喺同一次任務內自動運行，但：
+Every task must have an internal checklist.
+
+For compact discussion, show only:
 
 ```text
-- 不可背景長期運行。
-- 不可無限 loop。
-- 不可自己開下一個大階段。
-- 不可自己 writeback。
-- 必須由 Orchestrator 收束成 one answer + log summary。
+Mini Log:
+Done: ...
+Pending: ...
+Blocked: ...
+Next: ...
 ```
+
+For formal work, update or output a `SESSION_LEDGER` style summary:
+
+```text
+Task
+Mode
+Selected Skills
+Completed
+Pending
+Blocked
+Skipped
+Open Questions
+Next Recommended Action
+```
+
+## Writeback rule
+
+No automatic writeback.
+
+Writeback requires:
+
+```text
+Author Approved: YES
+Approved Items
+Writeback Scope
+Diff Plan
+Change Log
+```
+
+Hypotheses and unsupported claims cannot be written back.
+
+## Stop rule
+
+After the requested task, log/checklist/open questions/next action are produced, stop. Do not automatically enter the next major phase.
+
+## v1.2 Global Rule: Source Recovery Before Gap
+
+Every claim must be grounded, graded, traceable — and searched before being called missing.
+
+```text
+Unknown is not missing.
+Unsearched is not unsupported.
+Not remembered is not non-canon.
+```
+
+Before declaring any canon/world/character/detail gap, run source recovery.
+
+If the user says「canon 有」「你自己搵」「之前講過」, stop creative expansion and recover source.
+
+Output should stay compact:
+
+```text
+Source Recovery: FOUND / PARTIAL / NOT_FOUND
+Impact: ...
+Next: ...
+```
+
+Full search details belong in scratchpad or full audit, not normal discussion.

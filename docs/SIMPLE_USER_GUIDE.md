@@ -1,108 +1,189 @@
-# SIMPLE_USER_GUIDE
+# Simple User Guide
 
 ## Core idea
-你唔需要記十幾個 skill 名。日常只要直接講你想做咩，`story-orchestrator` 會自動揀合適 workflow、skill、agent passes，並自動產生 log / checklist。
 
-## 常用講法
+你唔需要記十幾個 skill 名。平時直接講你想做咩，`story-orchestrator` 會自動判斷要用邊啲 skill。
 
-### 1. 想審角色行為
-```text
-幫我審 [角色] 點解會做 [行為]，要根據現有內容，唔好無根據幻想。
-```
-Orchestrator 會用：
-- story-motivation-grounding
-- story-room
-- story-grounding-auditor
-- story-multi-agent-room（Standard）
+## Daily usage
 
-### 2. 想深化角色動機
-```text
-幫我深化 [角色] 做 [事件] 背後目的，但所有性格/動機都要有背景故事或現有事件支撐。
-```
-輸出會有：
-- Conservative explanation
-- Minimal additive explanation
-- Major reframe explanation
-- Required backstory support
+### 1. 討論新設定 / 一齊諗
 
-### 3. 想寫一個小章節劇本
-```text
-用 Scene Lab 幫我將 [場景] 做成 experimental screenplay draft，不可 writeback。
-```
-Orchestrator 會自動跑：
-- story-scene-lab
-- director room
-- dialogue room
-- micro insert hunter
-- coverage + table read
-- grounding auditor
-
-### 4. 想純粹查 canon
-```text
-幫我查 [設定/角色/事件] 現有 canon 係點，唔好作新內容。
-```
-會用：
-- story-canon
-- story-resume（如 state unclear）
-
-### 5. 想重新整理 atom
-```text
-幫我重新 atom 化呢一批資料，但沿用現有 working files，不要開新 working folder，不要 writeback。
-```
-會用：
-- story-atom-gate
-- story-canon
-- grounding auditor
-
-### 6. 想把已批准內容寫返 canon
-```text
-使用 writeback gate，只將以下 author-approved decisions 寫入指定 section：[列出]
-```
-會用：
-- story-writeback
-- script coordinator rules
-
-## Light / Standard / Full
+Use natural language:
 
 ```text
-Light：快速討論，3–5 agent，短 checklist。
-Standard：日常預設，8–12 agent，24-angle snapshot。
-Full：重大事件 / scene lab / writeback 前，15–25 agent，blind + debate + judge。
+我想同你討論加入操母親設定，你認為佢係咩人？
 ```
 
-你可以直接加一句：
+The system should use:
 
 ```text
-用 Light / Standard / Full。
+CO_DESIGN_DISCUSSION + CHAT_COMPACT
 ```
 
-無指定時：
-- 普通問答用 Light
-- 角色動機 / 事件目的用 Standard
-- Scene Lab / canon writeback 前用 Full
-
-## 每次結尾你會見到
+Expected output:
 
 ```text
-Completed:
-- ...
-Pending / Still Needed:
-- ...
-Blocked:
-- ...
-Skipped:
-- ...
-Open Questions:
-- ...
-Next Recommended Action:
-- ...
+現有支撐
+新增假設
+風險
+建議最小版本
+下一步問題
+Mini Log
 ```
 
-如果無呢段，即係 workflow 未完整。
+### 2. 糾正 AI 假設
 
-## 最重要安全規則
-- AI 可以提出新想法，但要標記 Hypothesis。
-- AI 不可憑空創造角色性格。
-- AI 不可自己 writeback。
-- AI 不可用未支撐設定當成 canon。
-- AI 要主動提出未清楚問題。
+Say:
+
+```text
+呢點唔啱，唔應該係 X，而係 Y。
+```
+
+The AI must respond with:
+
+```text
+更新後限制：...
+下一步推演會避開：...
+```
+
+### 3. 問角色點解咁做
+
+```text
+幫我分析操點解會被迫報串，但唔好寫到幼稚。
+```
+
+The AI should use:
+
+```text
+story-motivation-grounding
+story-grounding-auditor
+story-room
+```
+
+### 4. 審 AI 建議有冇亂作
+
+```text
+用 Grounding Auditor 檢查以下建議有冇 unsupported personality / canon drift。
+```
+
+### 5. 寫一個小章節劇本
+
+```text
+用 Scene Lab，將呢個小章節寫成 experimental dialogue script，不可 writeback。
+```
+
+### 6. 正式寫回 canon
+
+Only say this when you really mean it:
+
+```text
+使用 writeback gate。Approved items: ... Writeback scope: ...
+```
+
+## Output levels
+
+### Chat Compact — default
+
+用於討論。短輸出。
+
+```text
+判斷 + 2–4 個方向 + 風險 + 下一步 + Mini Log
+```
+
+### Standard Report
+
+用於較正式審查。
+
+```text
+壓縮 evidence + checklist + gap + recommendation
+```
+
+### Full Audit
+
+用於重大 scene / writeback 前。
+
+```text
+完整 24-angle + multi-agent + grounding audit + QA
+```
+
+## Important commands
+
+### Compact discussion
+
+```text
+用 compact discussion，同我一齊諗，唔好出 full report。
+```
+
+### Full audit
+
+```text
+今次要 full audit，完整列 checklist 同 multi-agent notes。
+```
+
+### Context saving
+
+```text
+用 temp scratchpad 記中間 notes，chat 只畀我決策摘要。
+```
+
+### Resume
+
+```text
+根據 SESSION_LEDGER / NEXT_ACTION resume 上次工作。
+```
+
+## Mini Log example
+
+```text
+Mini Log:
+Done: 收斂操母親設定為「活體人偶」候選
+Pending: 決定父親與 EMB 關係強度
+Blocked: EMB 當時是否能監控操身份未定
+Next: 先定最小版 / 中版 / 大版
+```
+
+## Rules you can rely on
+
+- AI 可以創作，但新假設要標記。
+- 作者覺得有潛力 ≠ canon approved。
+- 普通討論預設短輸出。
+- Full checklist 只在你要求或 writeback 前出。
+- 每次仍要有 mini log / pending / next。
+- 不會自動 writeback。
+- 不會開 parallel permanent working folder。
+- `.tmp` scratchpad 可以用，但只係臨時 cache。
+
+## v1.2 User Guide: When AI misses existing canon
+
+If AI treats an existing setting as new, say:
+
+```text
+canon 有，你自己搵。用 source recovery，唔好當新設定。
+```
+
+Expected behavior:
+
+```text
+1. AI stops the current assumption.
+2. AI reclassifies the issue as SOURCE_RECOVERY_REQUIRED.
+3. AI searches term + aliases + likely files.
+4. AI returns compact found/partial/not-found result.
+5. AI resumes discussion using existing canon.
+```
+
+You should not need to re-explain the whole setting unless source recovery fails.
+
+### Prompt template
+
+```text
+/story-orchestrator
+用 compact discussion。
+先 source recovery [term/event]，用現有 canon 討論，唔好未查就話係新設定。
+```
+
+### Example
+
+```text
+/story-orchestrator
+情緒毒品 canon 有，你自己搵。我要用現有情緒毒品危機討論秋穗退場，唔好另開新事件。
+```
