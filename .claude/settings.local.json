@@ -2,16 +2,19 @@
   "permissions": {
     "allow": [
       "Bash(*)",
-      "Read(//c/Users/User/AppData/Local/Temp/**)",
-      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" diff --stat HEAD)",
-      "Bash(git -C \"c:/Projects/ProjectHarukaDocument\" status --short)",
-      "Bash(gh repo *)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Grep(*)",
+      "Glob(*)",
+      "WebFetch(*)",
+      "WebSearch",
+      "PowerShell(*)"
     ],
     "ask": [
       "Bash(git commit:*)",
       "Bash(git push:*)"
     ],
-    "defaultMode": "bypassPermissions"
+    "defaultMode": "auto"
   }
 }

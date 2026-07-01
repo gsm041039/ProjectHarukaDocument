@@ -40,6 +40,26 @@
 | QQ-18 | 操+紫音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；紫音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 紫音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 紫音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
 | QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
+## Round 047 Questions（2026-06-30 — 操心理深化 + E-13機制更新 + 平庸之惡討論）
+
+> **已整合至 canon（本輪 CanonFileIntegrator Writeback）**：Q1 CDL-145 操不出手動機三層混疊更新 / Q2 E-13 無名男孩死亡機制（欺凌→魔法屍骸吸引→帝國清剿交叉火力）/ Q3 操「不配被愛」根源段落新增至 ayakomoji_misao.md §無名男孩 / Q5 「自癒作為奪回詮釋權」新增至 00_series_bible.md §Dark Healing。
+
+| QID | Topic | Status | Author Answer | CDL Ref |
+|---|---|---|---|---|
+| QQ-111 | 維多利亞之淚 × 平庸之惡「社會情緒濾網」機制 — 是否升格 canon？ | **DEFERRED** | B — 暫不升格；等攻塔動機完整設計前重新討論。現有「情緒抽水泵/光幕濾鏡」設定維持（作者確認 2026-06-30） | — |
+
+---
+
+## Round 048 Questions（2026-06-30 — 魔法屍骸設定補完）
+
+> 來源：temp2.txt 設定補完討論記錄。Q1/Q3/Q4/Q5/Q6 已確認 canon，本輪 CanonFileIntegrator writeback 完成（07_entities_and_devices.md / 02_glossary.md / 01_world_rules_and_costs.md 三份文件）。以下項目待作者進一步決定。
+
+| QID | Topic | Status | A/B/C Summary | Author Answer | Revisit Trigger | Last Updated |
+|---|---|---|---|---|---|---|
+| QQ-112 | 情緒共鳴式感染（屍骸蔓延邏輯）——「長期暴露在屍骸哀痛迴響中，自身防線薄弱者開始共振，心之器出現裂痕，進而屍骸化」 | **DEFERRED** | A=確認 canon，加入 `rule-corpseification` / B=暫存，待確認係否削弱 Act I「屍骸化源於個體崩壞」的單一因果性 / C=唔使用 | **B**（作者決定暫不升格；擔憂稀釋 Act I 單一因果性，待進一步討論） | Act I 屍骸化設計定稿前；或 Act III 屍骸蔓延場景設計討論時 | 2026-06-30 |
+
+---
+
 ## Round 042 Questions（2026-06-15 — 記憶/靈魂「無法遺忘」設定整合 CanonFileIntegrator — ✅ 全部 RESOLVED + WRITEBACK 完成）
 > 來源：作者提出 4 個設定原子（N1 記憶存集體潛意識·凡人有防火牆可遺忘·魔法少女焊接無法遺忘 / N2 遺忘須切除一部分靈魂 / N3 夕拒絕自殘式遺忘 / N4 美夜子被秋穗復活時靈魂一部分被破壞失憶·神經元式刺激可重連）。現有設定強力支持。CDL-293/294/295 落檔；5 處 canon writeback 完成。
 

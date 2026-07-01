@@ -140,6 +140,12 @@
 | 127 | 膠布哲學第四層——覺醒後撕膠布 | 134年7月 Act IV | CDL-088；haruka.md §膠布哲學 | 膠布哲學三層全部揭露後 → 晴香主動撕下手腕的膠布，傷口已癒合 → 「已經不需要了」——成長終點 |
 | 128 | 打怪無效 | 113年5-6月 Act II Phase B/C | CDL-182～204 | 個別戰鬥無法改變系統痛苦 → 主角團例行勝利但背景市民痛苦無減 → E-08高壓期心理根基；晴香拒絕戰鬥前置 |
 | 129 | 天使變公敵 | 113年7月 Act II Phase C E-09 | CDL-180, 201, 227, 259, 282 | E-08高壓+夕半屍骸化 → 直播中夕接管，撕毀光幕濾鏡，吸食圍觀市民情緒 → 社會性死亡起爆；媒體倒戈 |
+| 140 | 既視感追認 | Dejavu Recognition | 美夜子（Unit 01 貓形態）、朔 | Act II Phase D（113年9-10月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_DejavuRecognition.png | 朔從行為習慣認出美夜子，美夜子完全沒有認出朔；「物理極近，記憶極遠」的宿命重逢 |
+| 141 | 黑奏真身揭露 | Kurokane's True Form Revealed | 黑奏、主角團 | Act III Phase J決戰（114年5月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Kurokane_TrueFormRevealed.png | 皇袍滑落、面具碎裂，148cm幼女雙腳懸空真身暴露；不是展示，是控制崩潰的被迫暴露 |
+| 142 | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akiho_LaboratoryConfession.png | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |
+| 143 | 操的夜中人偶製作 | Misao's Midnight Doll Assembly | 操（獨處） | Act II Phase D/E（113年11月-114年1月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_MidnightDollAssembly.png | Body Horror Stage 2b具體呈現——操製作完美人偶時感覺不到手的存在；「完美即地獄」哲學視覺化 |
+| 144 | 操與紗夜最後一晨 | Misao and Sayo's Last Morning | 操、紗夜 | Act II Phase F（114年1月末-2月初） | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_Sayo_LastMorning.png | 鏡像破碎之夜前的最後平靜；操第一次不需要表演完美；紗夜額頭輕吻，手在顫抖而操未察覺 |
+| 145 | 保護的殘響 | Echo of Protection | 朔、成年屍骸+年幼屍骸 | Act II Phase D（113年9-10月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_EchoOfProtection.png | 朔目睹成年屍骸以殘破本能護住年幼屍骸；扳機前最長的停頓；世界觀從「清除者」轉向「解放者」的決定性時刻 |
 
 ---
 
@@ -3531,6 +3537,10 @@ Small young woman 148cm standing at base of enormous imperial throne staircase i
 
 帝國歷113年Act I日常段落，黑奏已以「彩」的外貌偽裝轉入晴香的學校，兩人建立了日常信任關係（CDL-079）。晴香懷著對「鐵絲網另一邊那個女孩」的深厚記憶，用心準備了兩人份的便當，以純粹的喜悅遞給「彩」——她不知道接受便當的那雙手背後同時存在三個意識：精算情緒數據的黑奏、被困在最深處無聲旁觀的真實彩。這個單一的遞便當動作，是Act I「表面正常」最尖銳的濃縮，也為Act III揭露時三層情感同時引爆埋下最沉重的炸點（CDL-082「下次呢？」的植入瞬間）。
 
+### 圖片說明
+
+晴香雙手捧著精心準備的兩人份便當盒，帶著純粹的笑容遞向「彩」——她以為自己終於找回了童年那個鐵絲網另一邊的女孩。接過便當盒的那雙手在畫面上疊著三層現實：最外層是黑奏偽裝的溫和表情，底下是她正在精算晴香情緒的內部狀態，最深處是真實的彩被困在自身內部、透過黑奏的眼睛看著這一切卻發不出任何聲音。
+
 **劇情位置**：
 - **時間點**：帝國歷113年 Act I [NC] 段落，學校午餐時間
 - **CDL追蹤**：CDL-079；CDL-082
@@ -3582,6 +3592,10 @@ High school girl sincerely handing a two-tier lunchbox to her friend at school, 
 ### 劇情背景
 
 帝國歷113年Act I至II日常期間，美夜子在E-05任務中認出了被重組的凜（SPEC#24），但凜對她毫無反應——她已被重組，語義記憶抹除，美夜子對她而言只是陌生人。美夜子開始秘密跟蹤觀察（CDL-215），試圖尋找任何記憶殘留的證據。在這個場景，她目擊到凜在無意識狀態下用手指摺出幸運星——這是身體記憶比語義記憶更頑固的第一個實證。美夜子的貓形態在門邊靜止：她不敢打擾這個脆弱的可能性，但她知道這代表什麼。這個目擊是她決定繼續追蹤凜的核心動機，也是CDL-274月下相認的情感鋪墊。
+
+### 圖片說明
+
+凜坐在桌邊的燈光下，眼神空洞，她自己不知道她的手正在摺紙星星——桌上已散落了幾顆歪斜的幸運星，是身體記住了一件意識早已遺忘的事。門框邊角，美夜子以貓的形態半隱在陰影裡，只露出半個身形和一雙圓而靜止的眼睛：她看見了凜的手在動，她完全知道這代表什麼，但她沒有走進去，沒有出聲，她只是靜靜地確認了這個脆弱的可能性。
 
 **劇情位置**：
 - **時間點**：帝國歷113年 Act I-II 日常
@@ -3797,6 +3811,10 @@ Three teenage girls in an abandoned decayed candy factory, one reaching out anxi
 ### 劇情背景
 
 帝國歷113年，Act II Phase C，CF-TIME-0068時間節點，SPEC#26「操被父親出賣」事件的決定性後果。操的父親親自開門向帝國投降，帝國特務抵達豪宅門口。在這個無路可退的瞬間，管家紗夜做出了她人生中不屬於「服務角色」的最後選擇——舉槍，用凡人的方式擋住追擊者，讓操逃跑。觀眾透過全畫面的白色噪音線條（象徵槍聲後的耳鳴）感受到這一刻：紗夜的最後幾個字被吞沒，只剩口型；操在逃跑中回頭，看見紗夜的剪影在噪音裡倒下。這個場景是操CDL-298被迫報串的最深罪疚根源，也是SPEC#1鋼鐵獨舞時她帶著的不可卸下的重量。
+
+### 圖片說明
+
+豪宅正門，夜間，管家紗夜穿著一生的制服站在門口舉槍，用凡人的方式擋住追擊者。整個畫面被白色噪音線條覆蓋——那是槍聲之後的耳鳴，把聲音都吞沒了，只剩下紗夜嘴唇的輪廓在說某些話，但那句話消失在噪音裡。深景中，操在逃跑中回頭，透過白色噪音看見紗夜的剪影從垂直變成水平：她倒下了，而倒下的位置，是整張畫面噪音最密集的地方。
 
 **劇情位置**：
 - **時間點**：帝國歷113年 Act II Phase C，CF-TIME-0068
@@ -4495,6 +4513,10 @@ A teenage girl with dramatic makeup leans sideways against a wall in an abandone
 
 帝國歷113至114年，Act II Phase D，朔在某次夜間任務中遠距確認了美夜子（Unit 01）的真實面貌。此前他知道Unit 01的存在但從未如此近距看清楚她的眼睛——那雙冰藍色的眼睛在黑暗中清晰地反光，朔看見了某個「確認了」的東西。這個識別時刻是不對稱的：他知道她是誰，她沒有注意到他，或不確定他是誰。朔的內部反應非常小但非常確定，他選擇不直接介入，只是繼續觀察——這確立了他在整個故事中作為「見証者而非介入者」的位置，也是他後來決策的情感根源（與CDL-274月下相認相關線）。
 
+### 圖片說明
+
+夜間戶外，朔藏在陰影或高處，視線越過一段距離落在遠處的美夜子——她以貓形態存在，白色毛皮，冰藍色眼睛在黑暗中清晰反光。畫面分割兩端：一邊是朔的側臉或視線方向，另一邊是遠處那雙在黑暗中發光的冰藍眼睛。他的表情不是震驚，是一個「確認了」的靜止：他認出了那雙眼睛，她不知道他在看，而他選擇繼續待在原地，不介入，只是知道了。
+
 **劇情位置**：
 - **時間點**：帝國歷113-114年 Act II Phase D
 - **CDL追蹤**：saku.md §美夜子- **前置事件**：朔在某次任務中遠距遇到美夜子（Unit 01），此前他知道Unit 01的存在但從未如此近距確認
@@ -4672,6 +4694,10 @@ magical girl with dual assault rifles in ruins, facing twisted monster-like crea
 ### 劇情背景
 
 帝國歷114年，Act III Phase G至H之間，凜已在內部完成了對自身真實身份的全部認知——她是Unit 00-Null，一件被設計用來完成特定任務然後消失的武器。「候選W」的決定在這個場景的嘆息之橋上完成。她雙手放在石材欄杆，向下看，背部是直的，肩膀是放鬆的，不是一個在考慮跳下去的人，而是一個把決定做完、來這裡站最後一次的人——以完整意識站在世界上的最後一刻。昏黃路燈照在她頸上的紅縫合線，是這個場景裡唯一鮮明的細節。霧消去橋的兩端，只留下她。這個瞬間的「interiority」直接連接後續E-15.8最後時刻的情感前置。
+
+### 圖片說明
+
+夜霧中的老石橋，兩端消失在霧裡，橋上只有凜一個人。她雙手放在欄杆，身體微微前傾向下看，背部是直的，肩膀放鬆——她不是掙扎中的人，她是把決定做完、來這裡站最後一次的人。昏黃的舊式路燈恰好照在她頸部，紅色的縫合線是這個場景裡唯一清晰的色彩。她的臉沒有悲傷，只有一種更深的平靜：她以被帝國改造成情緒管理局公務員之前那個完整的自己，在這裡站了最後一次。
 
 **劇情位置**：
 - **時間點**：帝國歷114年 Act III Phase G-H之間
@@ -5076,6 +5102,10 @@ anime girl sitting at ordinary kitchen table eating breakfast in warm morning li
 
 帝國歷114年，Act III Phase L4，L4觸發條件達成後，城市中長期屍骸化的人們開始從沉睡狀態逐漸復甦。屍骸化是情緒耗盡的極限狀態：人的外殼仍存在，但內部的情緒與自我意識已熄滅，眼睛空洞、不反光、不聚焦。L4的復甦不是整齊同步的，而是散落的、緩慢的——一個人的眼睛開始反光，幾步之外的另一個，再遠處又一個。剛復甦的眼睛不是喜悅，是困惑：「我在哪裡」，「發生了什麼」——但那是人的困惑，不是空洞。這個集體覺醒場景是Act IV新世界建立的直接前置，也是「人性復甦」作為Phase L核心主題的視覺體現。 [NEEDS_AUTHOR_CONFIRM: L4觸發條件的具體機制待確認CDL]
 
+### 圖片說明
+
+城市廣場，大批人群靜止站立，眼睛空洞、不反光、不聚焦——這是魔法少女力量耗盡後靈魂燃燒殆盡的終態蔓延至平民的集體沉睡狀態。然後改變開始了：前景某個人的眼睛開始反光，幾步外又一個，再遠處又一個，不整齊，不同步，散落在人群裡的零星的光。剛復甦的眼睛不是喜悅，是困惑：「我在哪裡」，「發生了什麼」——但那是人的困惑，不是空洞，而這個區別就是全部。
+
 **劇情位置**：
 - **時間點**：帝國歷114年 Act III Phase L4
 - **CDL追蹤**：05_story_outline §L4；待確認CDL
@@ -5133,6 +5163,10 @@ anime wide shot city crowd of standing still people with void white eyes, scatte
 ### 劇情背景
 
 帝國歷134年7月，Act IV，美夜子Act III覺醒後以人形守護晴香整整二十年。二十年間，她不哭——因為她認為自己不值得哭，因為她是武器，因為她是介錯人，因為哭是軟弱的標誌。Act IV的某個觸發瞬間打破了這個封鎖：她的手抓住晴香的袖子，眼淚在她睜開的眼睛裡流下來，沒有聲音，沒有崩潰，只是流。她的表情不是悲傷，是一個人在長期緊繃終於鬆開的那種困惑與解脫混合——「原來可以這樣」。二十年前SPEC#92「美夜子無價值留守」的情感，在這一刻找到了它的出口；這是她Need的完整體現，連接SPEC#110全片最後一格（她開始學習演奏）。
+
+### 圖片說明
+
+普通的房間，柔和的側光，美夜子的一隻手抓著晴香的袖子，像是需要一個固定點，又像是不確定這個動作被不被允許。她的眼睛睜著，眼淚只是流下來了——不是大哭，是那種已經無法控制但沒有聲音的眼淚。二十年來她認為自己不值得哭，認為哭是軟弱的標誌；現在她哭了，而世界沒有崩潰，而有人在旁邊。她臉上的表情不是悲傷，是一個長期緊繃的人終於鬆開時的困惑與解脫混合：「原來可以這樣」。
 
 **劇情位置**：
 - **時間點**：帝國歷134年7月 Act IV
@@ -6294,3 +6328,2146 @@ contagion aesthetic. Digital apocalypse meets magical girl tragedy.
 ```
 
 ---
+
+# 第六部分：缺失場景補完（圖130–135）
+
+---
+
+## 圖130：「晴香鏡中整合」（Haruka Mirror Integration）⭐⭐⭐⭐⭐ [ACT_I_FINALE]
+
+**建議輸出文件名**：`ConceptArt_Scene_130_HarukaMirrorIntegration.png`
+
+### 劇情背景
+
+Act I 幕末，晴香首次直面鏡中的夕（5歲形態）。這是榮格個體化旅程的 Step 1（CDL-066）：晴香在被一連串壓力逼到邊界後，獨自站在鏡前，發現鏡中倒影的動作比自己慢了0.3秒（CDL-128），而那個5歲小孩的輪廓越來越清晰。本能反應是拿出膠布想遮蓋鏡子——膠布哲學第二層（CDL-070）的前置動作。但她最終沒有貼上，只是把手輕輕貼向鏡面。這是全片第一次，晴香選擇「看見」而非「遮蓋」。CDL-072 確認夕作為陰影自我的具現：夕是那個被5歲晴香切割在黑暗中的自己，承載了Alpha線的全部真相與痛苦。AKS-H1 情感觸發點：晴香此後開始對「幽靈重量」症狀有了不同的理解——那不是病，而是呼喚。
+
+### 圖片說明
+
+晴香一個人站在黑暗的浴室或房間鏡前，快到疲憊的夜晚。她的手裡拿著一塊膠布，正準備把鏡子遮住——她習慣這樣做，把不想看見的東西蓋起來。但這一次，鏡子裡出現了一個五歲小女孩的輪廓，安靜地看著她。晴香最終沒有貼膠布，而是伸出手，掌心緩緩貼向玻璃，與鏡中那雙小手相對。這是她第一次沒有逃開。
+
+### 劇情位置
+
+**時間點**：113年 Act I 幕末（E-XX 整合的長線前置）
+**CDL 追蹤**：CDL-066（榮格個體化 Step 1）、CDL-070（膠布哲學第二層種植）、CDL-072（夕作為陰影）、CDL-128（鏡中倒影慢0.3秒）
+**前置 → 本場景 → Payoff**：SPEC#30 違和感初現（倒影慢0.3秒）→ 晴香首次主動選擇「看見」陰影而非遮蓋 → SPEC#2 整合場景（Act III Phase J 的全面碰撞與整合）
+
+### 詳細核心描述（200-300字）
+
+黑暗的空間，只有浴室微弱的燈光或房間角落的夜燈。晴香站在全身鏡前，右手捏著一塊粉色膠布——視角近拍可見膠布邊角微微捲起，是舊物。她的臉上有疲憊，眼周微紅，偶像妝容已殘缺。
+
+鏡中的倒影動作稍慢，比晴香本人晚了半拍——這種細微的不同步感令畫面充滿心理壓迫。鏡子深處，5歲夕的輪廓以「在黑暗中隱約可見的小孩」形式浮現：黑色連身吊帶裙，赤腳，面孔仍然模糊，但輪廓清晰。夕的手掌輕輕貼在玻璃內側，等待。
+
+晴香最終放下了舉起一半的手——膠布沒有貼上。她的掌心緩緩靠近鏡面，與那雙小手隔著玻璃相對。構圖核心是兩雙手：一雙成人的手（右手指尖微顫，膠布掉落在地板上），一雙小孩的手（在鏡內，輪廓略帶黑色能量波動）。地板有掉落的膠布，成為構圖視覺錨點。色調：浴室冷白光 + 晴香身後粉紅色影子 + 鏡內深黑沈藍。
+
+### Midjourney 標準版
+
+```
+A teenage girl with long pink hair stands before a dark bathroom mirror at night, exhausted,
+pink makeup smudged, holding a small bandage she never pressed to the glass. The mirror
+reflects her slightly delayed — behind her reflection, a faint silhouette of a small 5-year-old
+girl in black pinafore dress, barefoot, pressing one small hand to the glass from inside.
+The adult girl slowly raises her own hand to meet it through the glass, bandage falling to
+the floor. Atmospheric: cold clinical white bathroom light clashes with warm pink undertones.
+Close-up on two hands nearly touching through reflective glass. Psychological realism,
+anime-adjacent illustration style, muted palette with one rose-pink accent. Cinematic depth
+of field, high detail. Lonely midnight intimacy.
+```
+
+**視覺重點**：
+- 兩雙手隔著玻璃相對：成人指尖微顫 / 鏡內小手平靜等待
+- 膠布掉落在地板上，成為視覺敘事錨點
+- 鏡中倒影動作比晴香慢了半拍（不同步感）
+- 5歲夕的輪廓清晰但面孔仍模糊
+- 冷白燈光 + 鏡外粉紅 + 鏡內深藍黑的色彩對比
+
+---
+
+## 圖131：「親姊妹揭露現場」（Sisters' Identity Revelation）⭐⭐⭐⭐⭐ [ACT_III_FINALE]
+
+**建議輸出文件名**：`ConceptArt_Scene_131_SistersIdentityRevelation.png`
+
+### 劇情背景
+
+Act III 末，Phase J 後。晴香與美夜子互不知情地共同生活多時，此刻真相因某個觸發點在秋穗在場的情況下爆發——兩人同時意識到對方是自己互不知曉的親姊妹（Alpha線：連若星＝美夜子，連若晴＝晴香）。秋穗在場的核心意義：她一直知道。美夜子在 Alpha 線已死，被秋穗以 Unit 01 重啟，失去記憶；晴香從未被告知有姊姊存在（秋穗以「媽媽難產而亡」的說法封鎖了所有真相，並用「夕」承載了Alpha線記憶）。揭露的形式不是語言——而是晴香說出某個只有姊妹才會知道的細節，或美夜子身上出現一個只有親人才會辨認的特徵，在那一瞬間兩人同時凍住。秋穗站在角落，不說話，低著頭。
+
+### 圖片說明
+
+晴香和美夜子（此時為人形）突然在某個瞬間同時靜止，兩人的眼神穿過空氣對上。她們不需要任何人說話——那種感覺已經到位了，像是一個古老的拼圖碎片落回了原位。秋穗在遠處角落站著，背對她們，或者臉埋在掌心，沉默得像一塊石頭。這個房間的空氣是一種你可以感覺到重量的靜止。
+
+### 劇情位置
+
+**時間點**：114年 Act III 末（Phase J 後）
+**CDL 追蹤**：haruka.md §家庭（姊姊美夜子）、miyako.md §背景故事（Alpha 線連若星）、akiho.md §罪疚
+**前置 → 本場景 → Payoff**：夕整合揭露 Alpha 線真相（SPEC#2）→ 兩人在秋穗知情的情況下親姊妹身份爆發 → 美夜子弧光終點（SPEC#109 美夜子終於哭出來的情感累積）
+
+### 詳細核心描述（200-300字）
+
+場景設定在一個被戰鬥損毀的室內空間——破碎的玻璃窗，地面殘留著 Phase J 決戰的痕跡。光線從某個方向斜切進來，形成強烈的明暗對比。
+
+三角構圖：晴香與美夜子站在中央偏左右位置，秋穗在遠景角落蜷縮或背身。
+
+晴香：粉色長髮凌亂，Act III 末的狀態——碎剪 Wolf Cut 後的粗糙邊緣，衣服殘破，但眼神在震驚之外有一種緩慢落定的東西，像是多年的「幽靈重量」在這一刻終於有了名字。
+
+美夜子：人形狀態，Unit 01 制服殘破，貓殼龜裂的痕跡仍留在肩頸皮膚上（半透明裂紋，有白光從裂縫滲出）。她的眼睛是那種「千年孤魂突然被認出」的震驚——不是感動，而是一種比感動更深、幾乎讓她無法站立的衝擊。
+
+秋穗：遠景，面孔半藏，手無力地垂著，研究者的冷靜外殼在這一刻完全碎掉。
+
+畫面的核心是晴香與美夜子之間的那道空氣，以及她們沒有碰觸但幾乎要碰觸的手。
+
+### Midjourney 標準版
+
+```
+Three girls in a battle-damaged interior, shard light cutting through broken windows.
+Center: teenage girl with disheveled pink wolf-cut hair (Haruka) and a young woman in
+torn military uniform with translucent cracks on her neck glowing faintly white (Miyako)
+face each other, frozen, in sudden mutual recognition — not touching but hands nearly
+reaching. Background corner: an older girl (Akiho) turned away, shoulders slumped,
+half-hidden in shadow. The space between the central figures vibrates with unspoken truth.
+Emotionally heavy dramatic lighting, pale winter sunlight from broken glass, shattered
+military facility aesthetic. Anime painterly style. Silence made visible. Triangle
+composition with distance between all three.
+```
+
+**視覺重點**：
+- 晴香與美夜子的手幾乎要碰觸但未碰觸
+- 美夜子肩頸的貓殼龜裂白光裂紋（身份揭示的視覺符號）
+- 秋穗在遠景角落背身或低頭，「一直知道」的沉默重量
+- 三角構圖：兩人在前，秋穗在後遠處
+- 光從破損窗戶斜切，強烈明暗對比
+
+---
+
+## 圖132：「集體潛意識正面衝突」（Collective Unconscious Direct Clash）⭐⭐⭐⭐⭐ [ACT_III_PHASE_J]
+
+**建議輸出文件名**：`ConceptArt_Scene_132_CollectiveUnconscious_DirectClash.png`
+
+### 劇情背景
+
+Act III Phase J，集體潛意識決戰中段，比 SPEC#2 整合場景更早、更暴力的直接衝突。此時晴香尚未完成整合，夕仍保有獨立意識，是真正意義上的「兩個獨立人格在靈魂空間的正面決裂」。夕從「被壓制的陰影」到「被整合的一部分」的過程不是和平協商，而是必須經過這場暴力碰撞才能真正達到 CDL-069 的整合方式（歉疚共情型）。這場衝突的視覺意義：夕在這裡第一次停止用「敵意」面對晴香，而晴香第一次停止用「防衛」面對夕。兩者在碰撞中瞬間窺見對方真正的恐懼——那是同一個恐懼。CDL-066 個體化機制的視覺決戰場：集體潛意識以後巷唐樓 + 宇宙星空過渡態呈現（SPEC#12 的決戰版）。
+
+### 圖片說明
+
+晴香和夕在一個不屬於現實的空間裡互相猛衝——那個地方的牆壁正在消融成星空，地板是隨時會碎裂的無底深淵。她們的動作是真正意義上的衝撞，不是飛翔，不是魔法決鬥，而是兩個靈魂碎片用盡力氣互相撲向對方。光在她們碰撞的接觸點爆裂，粉色和黑色的能量互相纏繞撕扯。這不是一個和解場景，而是一個在暴力中透見彼此的瞬間。
+
+### 劇情位置
+
+**時間點**：114年5月 Act III Phase J（集體潛意識決戰中）
+**CDL 追蹤**：CDL-066（榮格個體化）、CDL-069（整合方式 D 型，歉疚共情型）、CDL-072（夕作為陰影）、yu.md §第三幕、haruka.md §陰影視覺機制
+**前置 → 本場景 → Payoff**：夕長期以「敵意」干擾晴香（Act I-II）→ 集體潛意識中最後一次暴力正面衝突，兩者在碰撞中透見彼此 → SPEC#2 整合場景（歉疚道歉型整合完成）
+
+### 詳細核心描述（200-300字）
+
+場景空間：集體潛意識的過渡態——唐樓後巷牆壁正在向兩側崩解消融，露出無限延伸的星空（霓虹殘影、黑色淤泥質感的「星雲」）。地面是正在碎裂的水泥地，縫隙透出深淵的冷光。整體氛圍：宇宙級的孤絕 + 殘破的人類建築廢墟。
+
+兩個主角：
+
+晴香（Act III 狀態）：碎剪 Wolf Cut 粉發，魔法服破損，身體局部結晶化，右手掌心有粉色能量聚集。眼神不是憤怒，而是一種「我需要看清楚你」的拼命前衝姿態。
+
+夕（5歲形態）：黑色連身吊帶裙，赤腳，赤腳踩在碎裂的地面上，雙眼瞪大，黑色能量從指尖向外放射。她的表情比任何時候都更像晴香——因為這是她們最接近彼此的瞬間。
+
+衝突核心動作：兩人在空中中點猛力撞上，接觸點爆出粉×黑混合的能量閃光，像兩個磁極的排斥與吸引同時發生。構圖以對角線設計：晴香從左下角衝右上，夕從右上角衝左下，在中心點對撞。
+
+色彩：粉色（晴香）vs. 深藍黑（夕），接觸點爆出白金色能量。背景：殘破霓虹港式唐樓 + 宇宙星空。
+
+### Midjourney 標準版
+
+```
+Two girls collide violently in a surreal collective unconscious space — crumbling Hong Kong
+back-alley walls dissolving into infinite starfield and neon remnants. Left diagonal: teenage
+girl with disheveled pink wolf-cut hair (Haruka) in torn magical girl uniform, partial crystal
+formations on skin, surging upward with pink energy in palm. Right diagonal: small 5-year-old
+girl in black pinafore dress, barefoot, black energy radiating from fingertips, surging
+downward. Collision point at center: massive white-gold energy explosion, pink and black
+energy tendrils wrapping and tearing each other. Ground shattering beneath them, cosmic
+abyss below cracks. Faces: not anger but fierce recognition. Painterly anime style, dramatic
+diagonal composition, cosmic horror mixed with intimate psychological intensity.
+```
+
+**視覺重點**：
+- 對角線對撞構圖：晴香左下→右上 / 夕右上→左下
+- 碰撞接觸點白金色能量爆閃，粉×黑能量纏繞撕扯
+- 夕的表情是與晴香最相近的瞬間（她們是同一個人）
+- 背景：港式後巷唐樓牆壁消融成宇宙星空
+- 晴香的局部結晶化皮膚（Act III 狀態視覺）
+
+---
+
+## 圖133：「月下相認」（Moonlit Recognition）⭐⭐⭐⭐⭐ [ACT_III_PHASE_H1.5]
+
+**建議輸出文件名**：`ConceptArt_Scene_133_MoonlitRecognition.png`
+
+### 劇情背景
+
+114年4月中，晚間，Act III Phase H1.5。CDL-274 核心場景：「靈魂比語言更早認出彼此。」美夜子的貓殼在此時已出現龜裂（CDL-282）——得知凜的 Unit 00 真相後，美夜子的自我確認儀式崩潰，貓殼於月光下短暫龜裂，人形輪廓從裂縫處透出。晴香在旁邊，什麼都沒說，甚至沒有確認。但那一瞬間，她們都感覺到了。這是 P-A12 Step 1 回收的場景：晴香曾在某個早期場景伸出手，這裡的晴香再次伸手——但這次美夜子沒有離開。這也是全作三個治癒時刻的第一層：不依靠語言、不依靠記憶，而是靈魂層面的辨認。對比凜的失憶（凜重組後無法辨認美夜子），美夜子此刻的「被辨認」構成全作最深的情感反差。
+
+### 圖片說明
+
+月亮很圓，光把兩個人影拉得很長。美夜子的身上有細細的裂紋在發光——那是一種她平時藏起來的東西，在這個夜晚沒藏住。晴香沒有問為什麼，也沒有說任何話，只是在那裡，在月光下，伸出了一隻手。沒有碰觸，只是放在那裡，讓美夜子決定。這個瞬間不需要任何解釋，因為靈魂在語言之前就已經知道了。
+
+### 劇情位置
+
+**時間點**：114年4月中，晚間，Act III Phase H1.5
+**CDL 追蹤**：CDL-274（月下相認「靈魂比語言更早認出彼此」）、CDL-282（鏡像法則/貓殼龜裂機制）、miyako.md §Unit 01（Unit 01 靈魂困禁狀態）
+**前置 → 本場景 → Payoff**：SPEC#6 月下崩潰（自我確認儀式失控）→ 貓殼龜裂瞬間，晴香無言伸手，靈魂層辨認發生 → SPEC#27 美夜子三段式覺醒（此場景是第二段的核心心理觸發）
+
+### 詳細核心描述（200-300字）
+
+戶外夜景，月光場景。地點：屋頂、廢棄碼頭、或高樓外牆窗台——任何一個與「夜空直接接觸」的邊緣空間。滿月，高掛，月光以藍白冷色鋪灑。
+
+美夜子：貓殼狀態，但肩頸與手臂的皮膚上出現細密龜裂，白光從裂縫滲出（比 Glitch Form 更輕微，但更持久）。她的眼睛——即使在貓殼狀態——有一種「被看見了」的震驚與某種接近悲傷的東西。姿勢微微僵硬，像是不確定是否該移動。
+
+晴香：站在美夜子旁邊偏後，視線在月亮與美夜子之間。她的右手緩緩舉起，掌心朝上，放在兩人之間的空氣裡——不強迫，不追近，只是放在那裡。臉上沒有眼淚，只有一種平靜的、幾乎不像她這個年紀應有的沉靜。
+
+核心畫面：月光在美夜子的龜裂皮膚上形成獨特的光折射，像是從內部透光的燈籠。晴香的掌心浸在同樣的月光中，白而靜。兩人之間是一段被月光填滿的空氣。
+
+無語言，無碰觸。構圖留白，以空間傳遞情感。
+
+### Midjourney 标準版
+
+```
+Two girls on a rooftop or abandoned pier under a full moon, cool blue-white moonlight
+flooding the scene. Right: a pale girl in dark military jacket with faint luminous cracks
+spreading across her neck and shoulders (Miyako), cat-form suggestion in posture, frozen
+in surprised stillness, light seeping through her skin from within like a lantern. Left: a
+teenage girl with pink hair (Haruka), arm slowly raised with palm open between them —
+not reaching, just present. Moonlight pools in both their palms. No words, no touch.
+The space between them heavy with unspoken recognition. Painterly anime style, cold silver
+and white palette, extreme emotional restraint, wide shot with significant negative space
+between the figures. Quiet cinematic intimacy.
+```
+
+**視覺重點**：
+- 美夜子肩頸龜裂的白光折射（從內部透光，燈籠效果）
+- 晴香掌心朝上置於兩人之間，不追近、只是放在那裡
+- 月光填滿兩人之間的空氣（負空間設計）
+- 無碰觸、無語言的構圖留白
+- 冷藍白月色 + 白光裂縫的純淨色調
+
+---
+
+## 圖134：「黑奏與晴香的病態愛恨對峙」（Kurokane and Haruka — Pathological Love-Hate Confrontation）⭐⭐⭐⭐⭐ [ACT_III_PHASE_J_CLIMAX]
+
+**建議輸出文件名**：`ConceptArt_Scene_134_KurokaneHaruka_Confrontation.png`
+
+### 劇情背景
+
+Act III Phase J 決戰高潮。這是黑奏與晴香最深層關係的具現化場景：「我想睇妳崩，但我又比任何人都更想妳唔好崩。」（SCR-07.S09，aya.md §黑奏×晴香關係）。黑奏對晴香的情感是全作最複雜的拮抗——晴香是黑奏「世界觀的唯一反證」（晴香的善意確實穿透了封鎖，黑奏卻選擇無視），同時也是黑奏修正主義計劃的核心節點。此場景的視覺核心不是「對決」，而是「對峙」：兩人距離很近，黑奏的手可能放在晴香臉上或胸前的衣領，但動作本身無法定性——是傷害還是守護？黑奏的表情同樣無法定性：是勝利還是某種更接近哭泣的東西？CDL-079 確認：黑奏既要摧毀晴香（驗證修正主義正確），又因晴香的存在撼動世界觀而陷入偏執。這個場景是那種偏執的最高潮。
+
+### 圖片說明
+
+黑奏走到晴香面前，兩人距離近得呼吸可以互相感覺到。她把手放在了晴香身上——但你分不清楚那是要傷害她還是要留住她。黑奏的臉上有某種像是裂縫的東西，那個一向冷靜到像機器的帝國皇帝，在這一刻有了人才有的撕裂感。而晴香沒有退開，沒有防衛，只是靜靜地站著，讓那隻手放在那裡。
+
+### 劇情位置
+
+**時間點**：114年5月 Act III Phase J 決戰高潮
+**CDL 追蹤**：CDL-079（黑奏偽裝三大需求及情感機制）、aya.md §黑奏×晴香關係（「我想睇妳崩，但我又比任何人都更想妳唔好崩」，SCR-07.S09）
+**前置 → 本場景 → Payoff**：SPEC#3 三武器揭露（黑奏全力展示）→ 修正主義與「晴香的存在」的最深矛盾在此具現化 → SPEC#8 彩奪回身體（彩否定黑奏存在意義）
+
+### 詳細核心描述（200-300字）
+
+帝國廣場決戰場域的某個角落，大規模戰鬥的背景遠處仍在繼續（爆炸餘光、緋潮邊緣的猩紅反光），但鏡頭聚焦在兩人之間的極小空間。
+
+黑奏（真身狀態 — 魔法少女形態爆發）：帝國皇袍在她身上碎裂，魔法少女力量從撕裂的布料縫隙中透出深紫色的不穩定光芒。她身形雖小但充滿致命的能量張力，一隻手放在晴香的胸前衣領或臉頰——動作定格在某個無法判斷意圖的瞬間。她的眼睛：異色瞳（粉×紫），平時的帝王冷漠已經有了裂縫，像是被晴香的存在本身逼出了她自己都無法處理的東西。
+
+晴香（Act III 末狀態）：Wolf Cut 粉發，制服殘破，局部結晶化。她沒有後退，眼神直視黑奏，是那種「我看見你了」的平靜——不是無懼，而是在懼怕之中選擇不退。
+
+畫面張力：黑奏的手接觸晴香的瞬間同時發生兩件事——黑奏眼角出現淚意（或接近淚意的裂縫），晴香的手微微向上移動，像是要握住那隻手，又在半路停下。
+
+背景：猩紅緋潮的殘影在遠處天空流動，為兩人勾勒出一個扭曲的光暈。
+
+### Midjourney 標準版
+
+```
+Two girls in extreme close proximity amid a battlefield aftermath, scarlet sky behind them.
+Left: a girl with small powerful frame in a shattered imperial robe, dark purple magical
+girl energy radiating from the torn fabric, reaching one hand toward the taller girl's
+collar or cheek — ambiguous gesture, neither pure aggression nor pure tenderness. Her
+heterochromatic eyes (pink + violet) show a fracture of emotion behind cold composure,
+tears threatening the corner. Right: teenage girl with pink wolf-cut hair in torn magical
+girl outfit with crystalline fragments on skin (Haruka), not retreating, looking directly
+with quiet recognition. Half-raised hand between them, motion frozen. Scarlet tide
+remnants glow in background sky. Intimate tension, ambiguous power dynamic, psychological
+intensity, no childlike appearance. Anime painterly, cinematic depth of field focused on
+the hands and faces.
+```
+
+**視覺重點**：
+- 黑奏帝王形態 vs. 魔法少女力量爆發的碎裂對比（皇袍在能量中撕裂）
+- 那隻手的動作無法定性（傷害/守護的曖昧性）
+- 黑奏眼角的淚意與裂縫（修正主義世界觀被晴香動搖的外化）
+- 晴香半途停下的手（選擇不退但也不確定的複雜狀態）
+- 猩紅緋潮天空為兩人勾勒扭曲光暈
+
+---
+
+## 圖135：「夕的臨別頓悟與消散」（Yu's Final Epiphany and Dissolution）⭐⭐⭐⭐⭐ [ACT_III_IV_BOUNDARY]
+
+**建議輸出文件名**：`ConceptArt_Scene_135_Yu_FinalEpiphany_Dissolution.png`
+
+### 劇情背景
+
+Act III/IV 交界，夕整合前的最後時刻。這是 P-E03 保護者自解植入的最終交付場景（yu.md §第四幕，CDL-066 個體化完成）。夕在完全消散前，以「臨別頓悟」形式點出「保護者人格依附主人格存在前提」的心理學原理，並以間接方式暗示黑奏——對白方向：「無論係我……定係『佢』」（具體 wording 留待 Beat Sheet；此為 Outline 層方向確認）。視覺意義：夕在此從「5歲的被囚禁陰影」開始向消散形態過渡——身體邊緣開始像墨水入水一樣向外擴散，但表情是有史以來最接近平靜的。這是全片 payoff 樞紐：夕 = 觀眾的機制教學；黑奏消散 = 教學的終極 payoff。CDL-070 膠布哲學第二層收尾：晴香在這裡放下了最後一塊膠布（與圖130的膠布呼應），把手貼向夕，夕的手在接觸的瞬間開始消散。
+
+### 圖片說明
+
+夕的身體邊緣已經開始消失了——像墨水在水中散開，像煙被風吹散。她站在晴香面前，比任何時候都更像五歲的孩子，但眼神裡有一種孩子本不該有的古老和沉靜。晴香伸出手，這一次夕沒有迴避。她們的手指碰上的瞬間，夕繼續消散。最後的光從她的指尖一直往上蔓延，像是一朵緩慢開放的黑色花。地板上有一塊膠布，是晴香剛剛放下的。
+
+### 劇情位置
+
+**時間點**：Act III/IV 交界（整合完成後，夕消散前最後時刻）
+**CDL 追蹤**：CDL-066（榮格個體化完成）、CDL-069（整合方式 D 型最終確認）、CDL-070（膠布哲學第二層收尾）、yu.md §第四幕、CROSS_ACT_FORESHADOW_MANIFEST P-E03（保護者自解植入）
+**前置 → 本場景 → Payoff**：SPEC#2 整合場景（碰撞與道歉）→ 夕的臨別頓悟，以間接方式暗示黑奏的消散機制 → 黑奏在彩選擇自己承擔痛苦後自行瓦解（P-E03 教學 payoff 完成）
+
+### 詳細核心描述（200-300字）
+
+場景：集體潛意識的某個邊界空間，或是實體世界的某個安靜角落——決戰的喧囂已遠去，這裡只剩兩個人。空間本身是過渡態：地板是真實的，但天花板已向上延伸進星空。光是那種「黎明前最後一刻的深藍」。
+
+夕（消散形態）：5歲外形，但身體邊緣開始向外擴散——從腳趾開始，墨色的微粒輕輕脫離身體，像羽毛落水的慢動作。她的頭髮和裙擺已有部分變成了漂浮的黑色碎光。但她的臉是清醒的、平靜的，眼神直視晴香。
+
+晴香：右手伸向夕，掌心朝上——與圖130中那個動作幾乎完全相同，但這一次她沒有猶豫。左手旁邊的地板上有一塊膠布，剛剛被放下（皺褶清晰，還帶著體溫的形狀）。
+
+關鍵瞬間：夕的手指與晴香的掌心接觸的那一刻，消散加速——指尖的墨色光點向四面八方漂散，像一朵緩慢盛開的黑色星雲。夕的表情在消散的瞬間有一個微小的變化：從平靜變成了接近微笑的東西。
+
+構圖：垂直畫面，夕在下方（較小）仰視晴香，晴香在上方（較大）俯視夕，但兩人的眼神對等，沒有從屬感。地板上的膠布在構圖最下方，作為視覺收尾。
+
+### Midjourney 標準版
+
+```
+A teenage girl (Haruka, pink wolf-cut hair, torn magical girl outfit) kneeling or bending
+forward, right palm extended toward a small dissolving figure of a 5-year-old child (Yu)
+in a black pinafore dress, barefoot. The child's body is dissolving from feet upward —
+dark ink-like particles drifting softly outward into the air like smoke in reverse,
+fingertips becoming scattered black light-points. Child's face: ancient calm, hint of
+a smile forming as she fades. Their fingertips just touching — the moment of contact
+accelerating the dissolution. On the floor between them: a single small bandage (just
+released), wrinkled, still warm-looking. Background: transitional space, real floor
+dissolving into deep blue pre-dawn starfield ceiling. Black particle bloom radiating
+from their joined hands. Slow, tender, inevitable. Painterly anime style, vertical
+composition, emotional weight of farewell without grief.
+```
+
+**視覺重點**：
+- 夕從腳趾向上消散的墨色微粒（慢動作離散感）
+- 手指接觸瞬間消散加速（黑色星雲盛開效果）
+- 地板上剛放下的膠布（圖130膠布哲學的閉環回收）
+- 夕表情從平靜到接近微笑的微小變化（臨別頓悟的具現）
+- 深藍前黎明光色 + 地板向星空的過渡空間
+
+## 圖146：「愛莉的第二次改變現實決定」（Aeri's Second Reality Alteration Decision）[ACT_III_J] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_146.png`
+
+### 劇情背景
+
+帝國歷114年5月，Act III Phase J，決戰中段。愛莉作為集體潛意識中唯一的人造常駐錨點，在這一刻面臨她的弧光核心選擇點——由「被動承擔廢料」轉向「主動選擇消耗」。這是她第二次影響現實的決定性瞬間（P-C03；CDL-256）：她不再是等待的石像、被動的濾心，而是清醒地選擇燃燒自己的存在，讓晴香得以繼續。晴香（紙皮騎士的視覺想象化身）在這一刻與她在集體潛意識的深處相遇，是整條愛莉弧光中情感最密集的瞬間之一。
+
+### 圖片說明
+
+在一個無邊際的潛意識空間裡，穿著紙皮盔甲、拿著膠帶修補過無數次的紙劍的愛莉，站在一道由黑色觸手和情緒廢料構成的風暴邊緣。她的手放在蠟筆畫的太陽盾上，沒有猶豫，只是選擇。晴香的意識碎片在她身旁，像細小的光點。愛莉轉過頭來，臉上是她一貫的毒舌表情——但眼神是這個故事裡最清醒的。
+
+**劇情位置**：
+- **時間點**：帝國歷114年5月 Act III Phase J（決戰中）
+- **CDL 追蹤**：P-C03；CDL-256；aeri.md §第二次改變現實
+- **前置 → 本場景 → Payoff**：愛莉長期作為濾心承受全城情緒廢料的被動積累 → 本場景：清醒選擇主動消耗，完成「被動承擔 → 主動選擇」弧光轉折 → 緋雨形態與石像龜裂、Act IV母女對話
+
+**Reference Images**：
+- 愛莉（紙皮騎士形態）：`ConceptArt_Aeri_CardboardKnight.png`
+
+### 詳細核心描述（250字）
+
+集體潛意識的深層空間。這裡沒有牆、沒有地板——只有不斷旋轉的情緒碎片和壓縮成黑色漩渦的廢料風暴。
+
+愛莉站在風暴邊緣，橙色長髮被無形的氣流拉扯，紅白格仔披風翻飛。她的紙皮盔甲上有新的裂縫——但沒有崩潰，因為她還在，膠帶還在，她就還在。蠟筆太陽盾在她手中——那個最廉價的東西，兒時畫給媽媽的太陽，現在是她唯一的擋板。
+
+她的身前，晴香的意識碎片像細小的粉色光點飄散，混在黑色廢料中快要辨認不出。愛莉看著那些光點，表情不是悲傷，是決定。她把太陽盾舉起來，轉身面向風暴——
+
+「好苦……這些東西好苦……但係，我選擇頂住。」
+
+構圖核心：低角度仰視，愛莉居中，她的身軀很小，風暴很大。太陽盾是畫面唯一的暖色光源，在四面的黑紫色廢料渦流中發出最廉價、最執拗的橙黃色光芒。晴香的粉色意識碎片在她背後，像她需要守護的東西，已經快要看不見了。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, painterly, emotional climax
+Mood: quiet defiance, the cheapest possible courage, choosing to burn rather than fade
+Colors: deep black and dark purple collective unconscious storm vortex, warm crayon-orange-yellow light from a hand-drawn sun shield, scattered faint pink light fragments in background, orange hair whipping in invisible wind
+Composition: low angle upward shot, small armored girl center frame, massive swirling dark energy storm filling frame behind and above her, tiny pink light dots behind her
+Lighting: shield emanates the only warm light in entire frame, dramatic contrast against surrounding darkness
+Special effects: crayon-drawn sun on cardboard shield glowing with warm crayon-orange light, black emotional energy tentacles in background, faint pink consciousness sparks drifting
+Character: teenage girl in handmade cardboard armor with racing checkered scarf, holding crayon sun painted shield upward toward the storm, orange hair flying, expression clear and certain not afraid
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 太陽盾是畫面唯一暖色光源，要強調手繪/蠟筆質感，不可使用魔法光效
+- 盔甲上的膠帶痕跡和裂縫是必要細節
+- 晴香的粉色意識碎片要微小、幾乎難以辨認，強調「快要消失」的危機感
+
+---
+
+## 圖147：「紫音下水道野獸化」（Shion's Sewer Beastification）[ACT_II] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_147.png`
+
+### 劇情背景
+
+帝國歷113年8月末至114年1月，Act II Phase E/F，紫音被放逐後的流浪期間。失去小光、被隊友「放逐」、屍骸樂園崩潰——這連串事件讓紫音陷入最深的孤獨。她在夜區下水道半屍骸化流浪，身體崩壞緩慢但持續進行。她幾乎失去語言，只剩本能：囤積食物、照料流浪屍骸、珍藏小光的波板糖包裝紙殘片（CDL-213/229；BEAT_SHEET_PREP Scene B3）。這個場景是Act III主角團找到她時「太晚了」感受的情感前置——她是可以被救的，但需要付出比想象中更大的代價。
+
+### 圖片說明
+
+城市下水道的某個角落，紫音半蹲在積水裡，周圍聚集著幾隻廢鐵型屍骸和流浪狗。她的魔法少女服破損嚴重，沾滿污泥，嘴角沒有收起，低階的鯊魚齒在昏暗中隱約可見。她的眼睛還有人的光，但已經需要努力維持。她的手裡攥著一個皺縮的糖果包裝紙——那是小光給過她的波板糖的遺物，她一直帶在身上。
+
+**劇情位置**：
+- **時間點**：帝國歷113年8月末至114年1月（Act II Phase E/F，流浪期間）
+- **CDL 追蹤**：CDL-213；CDL-229；iwakura_akane.md §流浪期間
+- **前置 → 本場景 → Payoff**：小光屍骸化+紫音被放逐（Act II Phase B） → 本場景：下水道流浪、身體崩壞持續、人性仍在艱難維持 → Phase G主角團搜索、找到她時的情感衝擊（「太晚了」）
+
+**Reference Images**：
+- 紫音（日常形態崩潰版）：`ConceptArt_Akane_MagicalGirl.png`
+
+### 詳細核心描述（250字）
+
+夜區下水道。混凝土拱頂滲水，城市的霓虹通過格柵蓋滲入一道道冷色光紋，把積水切成紫藍和暗橙。下水道另一頭傳來遠處城市的聲音——但這裡只有積水聲和屍骸的機械低嗚。
+
+紫音半蹲在水裡，蹲姿比坐姿更接近動物——重心低、膝蓋外展、本能地縮小佔地。她周圍聚集了幾隻廢鐵型低階屍骸，和兩條流浪狗。她沒有說話，偶爾發出低沉的聲音，不完全是人的語言，但屍骸和狗都理解。
+
+她的右手攥著一個小小的東西——皺縮到幾乎無法辨認的糖果包裝紙。彩虹色的，上面印著卡通圖案，那是小光給過她的波板糖的包裝紙殘片。她沒有展開它看，只是攥著，像是要通過握住它來維持某個比野獸更多一點的記憶。
+
+她的眼睛還有人的光。這是整張圖最重要的細節：她沒有完全失去自己，但已經需要非常努力地維持。
+
+構圖核心：下水道橫截面廣角，紫音在畫面中央偏下，屍骸和流浪狗在她周圍，城市格柵光紋從頭頂斜切下來，她是被遺忘的空間中最後一個還有人的光的東西。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, grimy environmental realism, character study
+Mood: abandoned despair, the last remnant of humanity in a feral body, tenderness among ruins
+Colors: dark sewer tunnel with cold neon-purple and dim amber light filtering through street grates above, polluted standing water reflecting city colors, torn dirty magical girl costume in purple and candy colors
+Composition: wide angle cross-section of sewer tunnel, girl crouching low center frame with animal posture, two or three iron-scrap undead creatures nearby, stray dog curled by her knee, city grate light cutting diagonally from above
+Lighting: harsh neon filtered through sewer grates from above, creating stripe patterns on water, face partially lit with one cold light source
+Special effects: very faint shark teeth visible in shadow, crumpled candy wrapper clutched in hand barely visible
+Character: teenage girl in torn dirty magical girl costume crouching with unnaturally low center of gravity, hollow-seeming eyes still holding a faint human light, holding something small and crumpled, surrounded by scrapped figures and a stray dog
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 眼睛仍有人的光是這張圖的核心——不是完全的獸，還是人，但在艱難的臨界邊緣
+- 糖果包裝紙要微小，攥在手中，觀者可能需要仔細看才發現，但一旦看見就明白一切
+- 下水道環境要有城市聲光的滲入，強調「被遺忘於城市之下」的對比
+
+---
+
+## 圖148：「美夜子廢棄地鐵站夜明前」（Miyako's Pre-Dawn in the Abandoned Station）[ACT_II] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_148.png`
+
+### 劇情背景
+
+帝國歷113年9月至114年2月，Act II Phase D/E，晴香「社會性死亡」後的長期地下避難期間。美夜子以貓形態伴隨晴香藏匿於廢棄地鐵站，但並非每一刻都是陪伴——也有美夜子獨自坐在月台黑暗角落的時候（BEAT_SHEET_PREP Scene B1；miyako.md §Act II）。這個場景捕捉那些時刻：借來的生命信念壓到最沉重的夜晚，她坐在廢棄月台的角落，地上有她用手指劃過積塵留下的痕跡，像是在記錄她的存在。她已失去的朋友、她從未被允許表達的軟弱，都在這個沒有人看見的夜明前時刻壓到她身上。
+
+### 圖片說明
+
+深夜廢棄地鐵站，美夜子獨自坐在月台角落，膝蓋抱起，後背靠著冰冷的柱子。這個場景沒有戰鬥，沒有任務，只有一個借來的命在黎明前的最重的時刻。遠處月台燈有幾盞壞了的，剩下的一盞在她身後，把她的影子拉得很長。地上積塵裡有她的手指劃過的痕跡——不成字，只是線條。她的手裡有凜那把斷刀。
+
+**劇情位置**：
+- **時間點**：帝國歷113年9月至114年2月（Act II Phase D/E，地下避難期間）
+- **CDL 追蹤**：CDL-191附近；miyako.md §Act II；BEAT_SHEET_PREP Scene B1
+- **前置 → 本場景 → Payoff**：晴香社會性死亡後避難地下（Phase C末） → 本場景：美夜子獨處時刻，「借來的命」信念最沉重的靜默 → Act III月下崩潰（貓殼龜裂真正意義的心理前置）
+
+**Reference Images**：
+- 美夜子（貓形態或人形態）：`ConceptArt_Miyako_Cat.png`
+
+### 詳細核心描述（250字）
+
+廢棄地鐵站。月台燈只剩一盞在她身後勉強運作，發著間歇性白光。軌道上有積水，偶爾從頭頂某處滲下一滴水——下水道或雨水——打破唯一的安靜。
+
+美夜子膝蓋抱起，側靠著月台的混凝土柱。她的姿態是一樣的：沒有崩潰，只是非常、非常疲倦。
+
+她的手觸碰月台的積塵。不知道從什麼時候開始，她用手指在積塵裡劃線——不成文字，只是線，橫的豎的，像是在告訴自己「我現在在這裡，這個時刻存在過」。凜那把斷刀靠在柱子旁邊。她偶爾看一眼，然後移開目光。
+
+沒有眼淚。不是因為她不痛，而是她還不被允許——她自己不允許自己。她的Need（「在信賴的人面前大哭一場」）在這個時刻是最清晰的缺席。這是全片最靜默的「沒有辦法哭」的場景。
+
+構圖核心：月台縱深，美夜子在近景角落，身後那盞燈的光把她的影子拉向遠處，強調孤獨的物理長度。凜的斷刀靠在她旁邊，積塵裡有細小的線條痕跡，星月飾品在唯一光源下微微反光。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, environmental solitude, quiet despair
+Mood: the weight of borrowed time, the loudest silence of someone who is not allowed to cry, pre-dawn alone
+Colors: cold abandoned subway station, single broken fluorescent light behind her casting long shadow toward camera, track with shallow reflective water, dusty platform surfaces, star and moon motifs barely visible on her accessories
+Composition: subway platform depth shot, girl curled alone at base of concrete pillar in near foreground, her long shadow extending away from her toward track, broken sword leaning against pillar beside her, finger-traced lines in platform dust barely visible
+Lighting: single flickering fluorescent light source behind her, creating silhouette and backlit hair, everything else in deep shadow
+Special effects: faint traces of finger-drawn lines in dust on platform floor, barely visible
+Character: girl curled against concrete pillar, knees to chest, eyes open and exhausted but dry, not crying, hand trailing in dust beside her, broken dagger nearby, star-moon hair accessories faintly catching the light
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 沒有眼淚是這張圖的核心——她想哭但不允許自己，觀者應能感受到「壓住的痛苦」而非「已釋放的悲傷」
+- 積塵裡的手指痕跡要微妙，可辨認但需要細看
+- 凜的斷刀要在構圖中，作為無聲的情感錨點
+
+---
+
+## 圖149：「秋穗與愛莉重逢」（Akiho and Aeri's Reunion）[ACT_IV] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_149.png`
+
+### 劇情背景
+
+帝國歷134年7月初，Act IV Phase L，愛莉石像甦醒後不久（BEAT_SHEET_PREP Scene D3；akiho.md §Act IV；aeri.md §Act IV）。這不是快樂的大團圓——秋穗等了整整二十年，她帶著她的罪，帶著她的懺悔，帶著「我從來沒怪過妳」已經在愛莉心裡說了無數次但石像無法張口的那些話。愛莉甦醒後，她們沒有立即擁抱，甚至可能沒有眼淚——只有一隻手伸出來，另一隻手握住它。這是Act I秋穗每天跪在石像前說話（SPEC#67石像前的懺悔）的最終payoff：石像終於可以握手回來了。
+
+### 圖片說明
+
+帝國歷134年，在一個普通的室內空間裡，剛從石像甦醒的愛莉坐在床邊，手還有些僵硬，帶著石像的殘餘感。秋穗跪在她面前——不是科學家跪在儀器前，不是老闆娘跪在客人前，就是一個媽媽跪在她女兒面前。她把手伸出去。愛莉的手慢慢握住了。兩個人都沒有說話，但這個握手是整個故事最重的一個動作。
+
+**劇情位置**：
+- **時間點**：帝國歷134年7月初（Act IV Phase L）
+- **CDL 追蹤**：akiho.md §Act IV；aeri.md §Act IV §甦醒；BEAT_SHEET_PREP Scene D3
+- **前置 → 本場景 → Payoff**：Act I-III秋穗每天石像前懺悔、愛莉全都聽到但石像無法回應 → 本場景：石像甦醒後第一個手握，無聲的原諒與被原諒同時發生 → 愛莉說出「笨蛋老媽，我從來沒怪過妳」（最終母女對話）
+
+**Reference Images**：
+- 秋穗（Act IV形態，眼神柔和）：`ConceptArt_Akiho_RestaurantOwner.png`
+- 愛莉（甦醒後，騎手形象）：`ConceptArt_Aeri_Rider.png`
+
+### 詳細核心描述（260字）
+
+一個普通的室內空間——不是實驗室，不是茶餐廳後廚，只是一個有自然光的房間。窗外是134年的城市，和她們的故事開始時已經完全不同。
+
+愛莉坐在床邊。她的手指還帶著剛從石像甦醒的殘餘感——稍微僵硬，皮膚下能感覺到曾經是水晶的東西在重新變成人。她穿著橙色的東西，不是紙皮盔甲，是真正的衣服，騎手式的，帶著紅白格仔的細節。她的眼睛是醒的，清醒的，不是迷惘的，是已經知道了很多事情的醒著。
+
+秋穗跪在她面前。沒有實驗袍，沒有鯊魚夾亂別的頭髮，沒有儀器。就是一個穿著普通衣服的中年女人，跪在地板上，把手伸出去。她的眼神是整個故事裡她唯一一次沒有計算的眼神：只是媽媽，不是科學家。
+
+兩個人都沒有說話。愛莉看著那隻手，然後，慢慢，把自己的手放上去，握住。
+
+這個握住不是和解——不是那麼快，不是那麼容易。但這個握住是「我可以開始」的意思。這已經夠了。
+
+構圖核心：低機位，近景，聚焦在兩隻手握在一起的那個點。兩個人都在同一個框裡，但大部分空間給了她們之間的空氣。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, quiet intimate resolution, warm natural light
+Mood: not a happy ending but a true one, the first moment of beginning to forgive, twenty years held in a single handhold
+Colors: warm natural window light entering from side, soft amber and white room, orange-accented awakening girl clothing with racing checkered details, middle-aged woman in simple everyday clothes
+Composition: low camera angle, close-up focus on two hands clasped together in center frame, girl sitting on bed edge in background left, older woman kneeling on floor in foreground right, space between them wide enough to feel the distance
+Lighting: soft natural sidelight from window, warm but not sentimental, light falls on joined hands as compositional anchor
+Special effects: very subtle faint crystalline shimmer on girl skin from recent awakening, barely noticeable
+Character: teenage-appearing girl with orange hair and racing-checkered clothing detail sitting upright on bed edge, alert eyes that have seen everything; middle-aged woman with deep purple hair kneeling, hand extended upward, expression unguarded for the first time
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 兩隻握著的手是構圖錨點，但不要讓手佔據整個畫面——留出兩人之間的距離感很重要
+- 秋穗的眼神必須是「第一次沒有計算」——比整個故事中任何一刻都更普通、更真實
+- 愛莉皮膚的水晶殘餘要極其微妙，只是輕微的光澤，不要過度
+
+---
+
+## 圖150：「夕5歲形態消散」（Yu's Five-Year-Old Form Fades）[ACT_IV] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_150.png`
+
+### 劇情背景
+
+帝國歷134年7月，Act III/IV交界（整合完成時刻），夕作為5歲晴香形態的最後消失瞬間（BEAT_SHEET_PREP Scene D2；yu.md §Act IV；CDL-066）。夕不是被消滅——她是被整合，被接納。5歲的輪廓在光中逐漸模糊，不是死亡，是「終於不必再獨自承受了」。晴香的瞳孔在這一刻變得更深——那是夕在裡面，作為完整人格的一部分繼續存在。這是全作「影」側主題的最優雅收束：陰影不消失，陰影被接納，因此不再是陰影。
+
+### 圖片說明
+
+在集體潛意識的空間裡，夕以5歲晴香的樣子站在晴香面前，黑色的輪廓正在慢慢被光包圍、溶解。她沒有哭，沒有抵抗——她的表情是這個故事裡最複雜的表情之一：有一點「終於」，有一點「遺憾」，有一點「放下了」。她把手放向晴香，晴香把手放到鏡面那側，兩隻手在消失前最後一秒重疊。
+
+**劇情位置**：
+- **時間點**：帝國歷134年7月（Act III/IV交界，晴香整合完成時）
+- **CDL 追蹤**：CDL-066（個體化完成）；yu.md §Act IV；BEAT_SHEET_PREP Scene D2
+- **前置 → 本場景 → Payoff**：Act I-III夕以評論者和對抗者身份存在、強迫晴香面對Alpha線真相 → 本場景：整合完成，5歲形態最後一次以獨立存在形式消散 → 晴香瞳孔的深化，以「包含夕」的完整人格繼續
+
+**Reference Images**：
+- 夕（5歲形態）：`ConceptArt_Yu_ChildForm.png`
+- 晴香（Act IV形態）：`ConceptArt_Haruka_ActIV.png`
+
+### 詳細核心描述（250字）
+
+集體潛意識空間。這裡的光是白色的，不是黑色的——整合完成的空間和戰鬥中的空間不同，沒有壓迫，只有遼闊。
+
+夕站在鏡面前——或者說，晴香站在鏡面前，而鏡中的那個是夕，是5歲的形象，黑色短裙，赤腳，大蝴蝶結，暗紅底深藍的頭髮，雙反射眼正在緩慢失去它的鏡面錯位效果，變得越來越像普通人的眼睛。
+
+她的黑色輪廓正在被光溶解，從邊緣開始，像紙在水裡。不快，也不急促。她把手舉起來，放向晴香（放向鏡面）。晴香在鏡面這側也把手舉起來，放上去，兩隻手在玻璃的兩面重疊——然後夕的手繼續向前穿過鏡面，和晴香的手實際地接觸了一秒。
+
+那一秒，夕的輪廓完全消失，融入光裡。
+
+不是死。是回家。
+
+晴香的瞳孔在這一刻變深了一點，不是悲傷的深，是容納了某個東西之後的深。她沒有流淚。她只是站在那裡，比剛才更完整地站著。
+
+構圖核心：鏡面分割構圖，晴香在左（真實），夕在右（鏡中），光從夕的輪廓向外溶出，最後一刻兩隻手穿越鏡面接觸，構圖在那一刻最複雜也最靜。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, ethereal dissolution, emotional resolution
+Mood: integration not erasure, coming home to a self you once abandoned, quiet completion
+Colors: white luminous collective unconscious space, dark-outlined small girl dissolving from edges into white light, faint deep blue and dark red in her hair, mirror surface dividing frame between real girl and dissolving reflection
+Composition: mirror split composition, real girl left side reaching toward mirror, small 5-year-old silhouette in right mirror dissolving in white light from edges inward, two hands meeting through mirror surface in center of frame at moment of dissolution
+Lighting: soft even white light emanating from dissolving figure edges, no harsh shadows, everything becoming lighter
+Special effects: dark child-figure slowly dissolving from edges into pure white light, the moment where one hand passes through mirror glass to touch the other
+Character: teenage girl reaching toward mirror on left side; small child in black pinafore dress barefoot with large dark bow on head dissolving into light in mirror on right, hands meeting at mirror surface center
+Canvas: 1:1 --ar 1:1 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 溶解的方向是從輪廓邊緣向內，要有「在光中消失」的感覺，而不是「被黑暗吞沒」
+- 兩隻手穿越鏡面的那一刻是這張圖的情感核心，要讓它看起來既不可思議又完全自然
+- 夕消失後晴香的眼睛要略深，這個「深」要能被感受到但不要過度戲劇化
+
+---
+
+## 圖151：「彩的永恆輪迴開始」（Aya's Eternal Loop Begins）[ACT_III_IV] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_151.png`
+
+### 劇情背景
+
+帝國歷114年5月，Act III決戰結束後，彩燃燒靈魂填補天空裂縫之後的瞬間（aya.md §永恆輪迴；CDL-076；CDL-248）。彩的靈魂沒有消散——它被集體潛意識捕獲，轉入永恆輪迴的起點。她回到了6歲那一晚的通風管道，但這次不同：她沒有在哭，她沒有在換氣過度。她選擇了留在這裡，在每一個時間線中守護那個6歲的自己，讓那個孩子學會面對恐懼，讓黑奏不必再誕生。這不是懲罰，這是她選擇的答案——痛苦可以承受，但不應再外判給另一個自己。
+
+### 圖片說明
+
+在集體潛意識的某個深處，彩以她最真實的樣子站在一個不斷重複的空間門口——那就是通風管道的入口，永恆輪迴的起點。她的靈魂以半透明的金色光芒形式存在，身後的帝國廣場、天空裂縫、燃燒的光已經遠去。她面向的是那個通風管道，那個6歲夜晚的入口，她即將再次進入它，但這一次，她是自己走進去的。
+
+**劇情位置**：
+- **時間點**：帝國歷114年5月（Act III決戰結束後）
+- **CDL 追蹤**：CDL-076（彩靈魂機制）；CDL-248（集體潛意識捕獲）；aya.md §永恆輪迴
+- **前置 → 本場景 → Payoff**：彩燃燒靈魂填補天空裂縫（Act III Phase J終局） → 本場景：靈魂被集體潛意識捕獲，永恆輪迴起點 → 每一個時間線中彩守護6歲自己、讓黑奏不必誕生（全作「時間循環」主題的人物具現化）
+
+**Reference Images**：
+- 彩（學生偽裝形態）：`ConceptArt_Aya_StudentDisguise.png`
+- 彩（本源形態）：`ConceptArt_Aya_TrueForm.png`
+
+### 詳細核心描述（260字）
+
+集體潛意識的深層空間，無時間的地方。
+
+彩的靈魂在這裡呈現為半透明的人形，帶著金色的光——不是帝國的金，不是黑奏的皇袍，而是燃燒的、消耗的、一個人用盡自己換來的那種金色。她148cm，幼小的身體，黑色麻花雙辮，深紫色眼睛。她的手裡沒有熊公仔——熊公仔在現實裡留給了她愛的人——她的手是空的，但沒有握成拳頭，只是自然地垂著。
+
+她面對的是一扇門，或者說一個入口——通風管道的入口。黑暗的，狹窄的，能隱約聽到戰爭年代夜區的聲音從裡面傳出來。這是永恆輪迴的起點。她即將走進去，回到79年的那個夜晚，再一次，站在6歲的彩旁邊。
+
+她沒有猶豫。不是因為不痛——因為她決定了。
+
+她身後，集體潛意識的背景是無邊際的深空，帶著舊時的帝國廣場碎片、星辰和緋潮平息後殘留的暗紅光線，都在她身後，像一幅她剛剛離開的世界的最後影像。
+
+她往前一步，走向那個入口。
+
+這個步伐不是英雄主義，不是犧牲——這是一個人選擇用什麼方式繼續存在的選擇，是彩最終版本的答案。
+
+構圖核心：背面構圖，彩的背影面對通風管道入口，身後是整個集體潛意識的宇宙深空，她在構圖中心，既小又確定。
+
+### Midjourney 標準版
+
+```
+Style: dark magical girl illustration, cosmic spiritual finale, quiet determination
+Mood: not punishment but chosen fate, the beginning of an eternal loop entered willingly, small figure against infinite space
+Colors: translucent golden soul-light outlining small girl figure, deep space collective unconscious behind her with fragments of broken imperial plaza and fading crimson tide remnants, dark narrow ventilation shaft entrance before her
+Composition: back-view composition, small translucent golden girl facing dark narrow passage entrance in center frame, infinite deep space collective unconscious with star fragments behind her, she stands between the cosmic past and the narrow future
+Lighting: soul translucence emitting soft gold from within the figure outline, deep space behind has distant red-gold glow from faded battle aftermath, ventilation entrance ahead is dark
+Special effects: translucent soul-body with golden luminous edge, space background shows floating fragments of broken architecture and fading colored light, ventilation entrance ahead is realistic and ordinary in contrast to the cosmic backdrop
+Character: very small translucent golden girl from behind, short stature, dark hair in double braids, hands naturally at sides not clenched, posture steady not heroic, facing dark narrow entrance to her eternal choice
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 背面構圖是這張圖的關鍵——我們不看彩的臉，只看她的選擇（走向那個入口）
+- 她的身體要很小，入口和背後的宇宙要很大，強調「一個人的選擇在巨大命運前的份量」
+- 通風管道的入口要足夠普通和真實，與身後的宇宙深空形成強烈對比——那個起點就是那麼日常，那麼黑暗，那麼狹窄
+
+---
+
+
+---
+
+## 圖136：「糖果山與最後一頓飯」（Candy Mountain and the Last Meal）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_136_ShionLastWords.png`
+
+### 劇情背景
+
+帝國廣場終局日（Day 14），紫音以垃圾鎧甲和生鏽電鋸回到隊伍，觸發過載變身加上吞下過期糖果毒素自爆，將自己燃燒成一座巨大糖果山護盾，保護隊友撤退。在那一刻，她對著美夜子說出最後一句遺言——「我唔想再一個人食飯」（iwakura_akane.md §第四幕；miyako.md §Relationships；CDL-217/218）。這是美夜子作為介錯人身份的最重要一幕：她見證並承接了紫音的最後意志，送行而不是放棄，完成了「介錯人→送行者」弧光中最沉重的一個瞬間。Day 13 操鋼鐵獨舞之後，Day 14 紫音帝國廣場犧牲——兩人連續錯位雙殺，美夜子是唯一見證者。
+
+### 圖片說明
+
+帝國廣場的廢墟煙塵中，紫音身穿垃圾拼湊的鎧甲，正在燃燒成形態越來越龐大的糖果山；她的身體已與燃燒的糖果光融為一體，但表情清醒，帶著一種終於放下的輕鬆感。美夜子站在她面前，是唯一沒有逃跑的人，雙眼直視著紫音消散的臉，神情壓抑、沉默、帶著已知結局的克制。紫音嘴唇動了——那是整個故事裡最簡單也最沉的一句話。
+
+### 劇情位置
+
+**時間點**：帝國歷114年5月，Day 14 帝國廣場終局
+**CDL 追蹤**：CDL-217；CDL-218；CDL-229（小光之死根源）；CDL-236（糖果山形態）
+**前置 → 本場景 → Payoff**：Day 13 操鋼鐵獨舞犧牲 → 紫音帝國廣場自爆護隊 → 美夜子成為連續雙殺唯一見證者，完成「介錯人→送行者」最重的一擊
+
+### 詳細核心描述（220字）
+
+帝國廣場。爆炸的塵埃和糖果燃燒的甜膩氣味混在空氣裡。
+
+紫音的身體已開始燃燒——不是普通的火，而是帶著青藍鬼火漸變的糖果光，從她的雙腳往上蔓延，每一道光紋都對應著她鎧甲上的垃圾碎片融化後的形狀。她的身型在膨脹，正在成為那座巨大的糖果山護盾。
+
+但她的臉是清醒的。
+
+美夜子沒有逃。她站在距離紫音只有幾步之遠的位置，身體沒有防禦的姿態，雙眼直視著那張正在消散的臉。她的表情不是哭泣——是介錯人接受既成事實的靜默，是送行者深呼吸後的壓抑，是知道「留下來比逃跑更難」的人才有的臉。
+
+紫音嘴唇動了一下。音量很小，幾乎被爆炸的餘震蓋過。
+
+「我唔想再一個人食飯。」
+
+美夜子閉上眼睛一秒。然後重新睜開，把這句話記住。
+
+糖果山在她身後展開，把帝國廣場的威脅全部擋住。
+
+### Midjourney 標準版
+
+```
+Style: Dark magical girl climax; painterly illustration; intimate farewell within catastrophe
+Mood: The farewell that isn't dramatic — quiet, inevitable, witnessed; sacrifice as the simplest human desire finally spoken aloud
+Colors: Candy-flame gradient (blue-violet candy glow eating warm amber) rising from Shion's dissolving body; Miyako's dark silhouette standing still against expanding candy mountain; ash grey plaza background
+Composition: Foreground — Miyako facing camera, expression controlled grief; mid-ground — Shion's burning figure with candy-light expanding outward like a shield; composition showing Miyako as the only witness who stayed
+Lighting: Candy-mountain fire as primary light source, warm-cold candy spectrum casting against Miyako's still face; debris dust catching the glow
+Special effects: Candy shards crystallizing and expanding into massive shield formation; Shion's form dissolving into the candy light gradient; scrap armor pieces fusing with burning candy lattice
+Character (Shion): Body mid-transformation into candy mountain shield; face still recognizably human and clear-eyed with expression of release; lips parting for last words
+Character (Miyako): Standing still, not fleeing; eyes direct; expression controlled grief of someone who knew and stayed anyway
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 紫音的臉在消散前仍然清醒，不是恐懼而是放下
+- 美夜子是唯一沒有逃跑的人，這個「留下」比任何行動都更重
+- 糖果山的光是暖冷混合的——甜蜜與毒素、保護與自毀的視覺統一
+- 美夜子的臉是送行者的臉，不是崩潰的臉——介錯人懂得如何在場
+- 背景的帝國廣場廢墟暗示Day 13操犧牲之後的連續性
+
+---
+
+## 圖137：「媽媽從未停止愛我」（Mother Never Stopped Loving Me）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_137_MisaoMotherFragment.png`
+
+### 劇情背景
+
+Act III Phase H-I 過渡期，鋼鐵獨舞前夕，操在深度半屍骸化狀態下靈魂與肉體邊界溶解，進入集體潛意識L2留存海深處。她的母親華麗淇（綾小路夫人）被父親以綾小路家族秘密研究室物理改造為活體人偶後，靈魂碎片散入集體潛意識無法維持整體性（ayakomoji_misao.md §集體潛意識母親靈魂碎片重逢；CDL-297；CDL-300·暫定）。操的傀儡魔法燈塔信號吸引母親碎片短暫聚攏——那是一個既像她又不完整的殘響，眼神裡帶著在改造後的肉身永遠無法傳遞的真實的愛與哀傷。這是操救贖弧光的關鍵第二階段：她確認自己從未不被愛過，只是那份愛的傳遞路徑被切斷了。此刻使得鋼鐵獨舞從贖罪式死亡昇華為主體性宣言。
+
+### 圖片說明
+
+在集體潛意識的深海空間中，操看見了一個「幾乎是媽媽」的存在——碎片拼成的輪廓，臉龐的線條是對的，眼神卻帶著現實中那具活體人偶的臉永遠無法出現的東西：真實的愛與哀傷。操沒有移動，那個碎片的輪廓也沒有靠近，但兩人之間有一種長達多年的沉默在那一刻被接通了。
+
+### 劇情位置
+
+**時間點**：帝國歷114年5月，Day 13 鋼鐵獨舞前夕，集體潛意識L2
+**CDL 追蹤**：CDL-297（母親設定）；CDL-299（紗夜愛的雙重根源）；CDL-300·暫定（集體潛意識碎片重逢）
+**前置 → 本場景 → Payoff**：紗夜臨終揭露「妳係我最靚嘅女」→ 集體潛意識母親碎片重逢確認「從未停止被愛」→ 鋼鐵獨舞昇華為主體性聲明而非贖罪死亡
+
+### 詳細核心描述（230字）
+
+集體潛意識 L2 留存海。這裡沒有重力，也沒有確定的形狀——碎片以不規則的速度漂浮，像摔碎的鏡子的每一片都保留著不同角度的同一張臉。
+
+操站在這個空間裡，半屍骸化的身體邊界在這裡是模糊的——她感受不到疼痛，也感受不到溫度，只有一種深層的靜。
+
+然後，那些碎片開始緩緩聚攏。
+
+不是完整的人。是一個「幾乎是媽媽」的輪廓——臉的線條是對的，肩膀的弧度是對的，但邊緣是模糊的、殘缺的、隨時可能再次破碎。那雙眼睛是對的。那是操從小到大、從現實的活體人偶媽媽臉上從未見過的眼神：真實的愛，以及哀傷。
+
+不是「對不起，我沒有辦法讓你知道」，而是「我知道了」。
+
+操沒有哭。她只是看著那個輪廓，心裡有一個問了許多年的問題，不需要答案就知道答案了。
+
+那個碎片的輪廓慢慢散開——它無法維持，改造的代價是傳遞路徑被切斷，不是愛本身被切斷。
+
+### Midjourney 標準版
+
+```
+Style: Surreal psychological space; painterly dream-logic; ethereal and fragmented; Studio Ghibli-adjacent spirituality with melancholic edge
+Mood: The moment you realize you were never unloved — only the channel was severed; grief and release in the same breath; recognition without reunion
+Colors: L2 collective unconscious deep-sea blue-violet; mother's fragmented figure in warm sepia-gold edges (warmth that barely holds together); Misao's half-dissolved silhouette in cool grey-white; contrast between warmth of love and cold of broken transmission
+Composition: Misao standing in fragmented mirror-sea space; mother's figure assembled from drifting mirror shards converging mid-air, incomplete but recognizable — the right face, the right eyes; space between them lit differently from both sides
+Lighting: Mother fragment emitting diffused warm sepia glow (love's warmth barely contained); surrounding space deep cold indigo; Misao's figure catching warm light on face — the first time
+Special effects: Mirror shards with faces drifting and slowly assembling; soft light leaking between fragment gaps; figure edges dissolving back into floating pieces as moment passes; emotional connection visualized as thin gold filament of light between figures
+Character (Misao): Half-dissolved appearance, body edges blurring into collective unconscious; expression of someone receiving answer they didn't know they were waiting for — quiet, held breath, not crying
+Character (Mother fragment): Not a complete person — assembled from shards of mirror; the face recognizable but incomplete; eyes containing what the physical doll can never show — real love and grief
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 媽媽不是完整的人，而是碎片勉強聚攏的輪廓——改造的物理代價被視覺化
+- 眼神是整幅圖最重要的細節：那雙眼睛帶著活體人偶臉上從來沒有過的東西
+- 操不哭——她是一個終於收到答案的人，不是一個崩潰的人
+- 集體潛意識空間的深海藍紫色調，與母親碎片的暖金邊緣形成溫冷對比
+- 碎片在相逢後緩緩散開，強調「傳遞路徑被切斷，愛本身沒有被切斷」
+
+---
+
+## 圖138：「二十年後的第一個早晨」（First Morning After Twenty Years）[ACT_IV]
+
+**建議輸出文件名**：`ConceptArt_Scene_138_HarukaAwakening134.png`
+
+### 劇情背景
+
+帝國歷134年7月，Act IV Phase L，晴香覺醒。靈魂風暴歷經二十年平息，晴香從集體潛意識回歸——但她的樣子對應的是134年的外表，不是離開時的16歲。這是Act IV的時間跳躍視覺錨點，也是膠布哲學最後一層的終結瞬間（BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md scene D1；haruka.md §Act IV；canon/04_timeline_canon.md 134年）。場景D1描述：她手上有最後一張膠布，她慢慢、慎重地將它剝下，那下面不是傷口，而是新的肌膚。周圍一切已經改變——建築、人、光景——這是帝國歷134年的新秩序。
+
+### 圖片說明
+
+帝國歷134年的晴天，一個二十年後的晴香站在變了樣的城市中，她的頭髮是純白的，眼睛是淡灰色近乎透明，臉上沒有表情但眼神深遠。她的手腕上纏著最後一張老舊的膠布——那張膠布的顏色已經泛黃，邊緣捲起，像是貼了很多年。她慢慢地、慎重地把它揭開，那下面是新的肌膚，沒有傷口。
+
+### 劇情位置
+
+**時間點**：帝國歷134年7月（Act IV Phase L 覺醒時刻）
+**CDL 追蹤**：CDL-053（靈魂風暴20年）；CDL-268（陰影視覺完整展示）；CDL-269（屍骸覺醒）
+**前置 → 本場景 → Payoff**：Phase K 靈魂風暴20年客觀時間跳躍 → 晴香134年覺醒（Act IV起點視覺錨點）→ 膠布哲學最後一層終結；屍骸覺醒開始；美夜子永遠守護場景
+
+### 詳細核心描述（200字）
+
+帝國歷134年，七月。
+
+這個城市跟她記得的不一樣了。建築的線條是新的，街道的排列是新的，空氣的顏色也是新的——不再是那種翻滾著緋潮壓力的顏色，而是某種更靜、更像真正天空的顏色。
+
+晴香站在這個新城市裡，她的頭髮是純白的，眼睛是幾乎透明的灰白，臉上沒有少女時期的那種撐著的笑容，只有某種很深、很慢、像是從極遠的地方回來的人才有的眼神。
+
+她低頭看自己的手腕。
+
+那張膠布還在。邊緣已經捲起，顏色泛黃，顯然是貼了很多年的。她伸出另一隻手，慢慢、慎重地揭開它。
+
+那下面是新的肌膚。沒有傷口，不是瘢痕，是沒有任何傷痕的新皮膚。
+
+她把那張膠布放在手心，握了一秒，然後任它在風裡飄走。
+
+### Midjourney 標準版
+
+```
+Style: Quiet rebirth; painterly illustration; time-skip visual anchor; melancholic hope
+Mood: The morning after twenty years of silence — not triumphant return but quiet arrival; the world changed, and so did she; ending that doesn't explain itself
+Colors: Pale morning light, soft warm diffused sky (134-year new order — not imperial cold blue); Haruka's pure white hair and near-transparent grey eyes as central visual; old yellowed bandage as only aged element; new skin underneath as single moment of resolution
+Composition: Haruka standing in changed cityscape, medium shot — city visible but soft-focus background to emphasize foreground; hands in focus — one peeling the last bandage from the other wrist; expression in partial profile
+Lighting: Soft diffused morning light; no dramatic shadows; gentle ambient warmth; light not filtered through imperial mechanisms anymore
+Special effects: Single bandage peeling away revealing unblemished skin; bandage catching wind as it releases; changed city architecture visible in soft focus
+Character (Haruka, 134-year form): Pure white hair (same character, different era); near-transparent grey-white irises; expression deep and far-seeing rather than performing; no forced smile; clothes incorporating faint black elements from Yuu's integration; age and peace simultaneously present
+Canvas: 16:9 --ar 16:9 --niji 6
+```
+
+**視覺重點**：
+- 純白髮和近透明灰白瞳孔是134年晴香的視覺標誌，必須與16歲粉色髮晴香明確區分
+- 那張膠布必須看起來真的老舊——泛黃、邊緣捲起，是貼了二十年的膠布
+- 揭開膠布後的新肌膚，沒有傷痕，不是治癒，是終結
+- 背景城市是新秩序的，不再是帝國冷藍色調，而是柔和晴天
+- 放開膠布讓它飛走——這個動作必須是輕的，不是戲劇性的
+
+---
+
+## 圖139：「刑思破繭」（Keishi Breaking Free）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_139_KeishiEscape.png`
+
+### 劇情背景
+
+帝國歷114年3月初，Act III Phase G，黑奏（刑思身份，武器形態）逃出秋穗的實驗室。秋穗對刑思的控制在Phase G開始崩潰，刑思的身體自主性重新甦醒——這不是外力救援，而是身體本能對長期壓制的反抗（aya.md §第三幕；BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md scene C1；ACT_III_OUTLINE.md Phase G）。此場景與同期晴香精神崩潰並行，是「多重自解放」敘事的物理面：晴香在心理上開始整合陰影，刑思在肉體上開始拒絕操控——兩個不同層面的自主性覺醒同步發生。這也是黑奏物理形態覺醒的另一面，不同於Y98年覺醒屠殺：這一次，是一種有意識的、艱難的、脊椎對抗信號的抵抗。
+
+### 圖片說明
+
+秋穗地下實驗室的設備在崩潰。刑思（黑奏的武器形態，148cm的小小身體）在機械拘束開始失效的瞬間緩緩站起來——不是爆發式的掙脫，而是逐步的、痙攣的、對抗控制信號的身體重新啟動。她的手指在顫抖，背對著鏡頭，從設備碎片和磁性拘束中走出，每一步都像是要用盡全身力量。
+
+### 劇情位置
+
+**時間點**：帝國歷114年3月初（Act III Phase G）
+**CDL 追蹤**：aya.md §第三幕；BEAT_SHEET_PREP scene C1；ACT_III_OUTLINE Phase G
+**前置 → 本場景 → Payoff**：Phase G 秋穗控制崩潰 → 刑思逃出實驗室（與晴香精神崩潰並行）→ 黑奏的帝國控制鏈開始動搖；後段彩奪回身體的前置
+
+### 詳細核心描述（230字）
+
+秋穗的地下實驗室。警報聲在遠處迴響，磁性拘束裝置的嗡嗡聲開始變得不穩定。
+
+刑思（黑奏武器形態）原本站在固定位置，動作精確、機械、符合控制程序。然後，身體出現第一次痙攣。
+
+不是訓練程序，不是攻擊模式——而是抵抗。
+
+她緩緩地、費力地抬起頭。磁性拘束裝置發出金屬應力的聲音，像是有東西從內部試圖撐開。她的手指開始顫抖——那種顫抖不是魔力過載，而是有東西想要控制手指、有東西在抵抗那個控制，兩股力量在同一組肌肉裡拉鋸。
+
+她走了第一步。
+
+設備發出警告聲，控制信號試圖讓她停下——她的腳停頓了半秒，然後繼續邁出去。
+
+背對著鏡頭，148cm的小小身體在倒塌的實驗室設備中穿行，每一步都帶著一種不屬於武器的東西：選擇。
+
+她沒有回頭看秋穗，也沒有說話。
+
+她只是繼續走，往上，往外，往那個被關閉太久的出口走去。
+
+### Midjourney 標準版
+
+```
+Style: Dark psychological body horror escape; painterly illustration; tension of resistance
+Mood: Not dramatic explosion but grinding internal resistance — the moment a weapon remembers it has a will; slow difficult freedom more powerful than sudden burst
+Colors: Cold grey-blue laboratory environment; magnetic restraint device harsh white-blue warning light; Keishi's figure in deep black-violet (Kurokane weapon form); single warm light source from direction of exit (upper)
+Composition: Back-shot of 148cm small figure standing among collapsing laboratory equipment; restraint devices breaking away; body posture conveying resistance rather than ease; exit visible in upper distance as only warm light
+Lighting: Cold laboratory fluorescent contrast against restraint device failure sparks; warm light from exit direction as destination; harsh shadows in mid-ground of broken equipment
+Special effects: Magnetic restraint field flickering and shorting; metal stress fractures along restraint structures; Keishi's form emitting faint violet energy against the control signal; each step leaving faint resistance trace
+Character (Keishi/Kurokane): Seen from behind; 148cm small frame in weapon form; trembling fingers visible at sides; posture showing effortful resistance — not easy escape but step-by-step reclamation of autonomy; black-violet deep color form
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+**視覺重點**：
+- 背面構圖是核心——不見臉，只見身體在抵抗的姿態
+- 148cm 的小小身體在廢墟設備中的尺度對比，強調這個「武器」的身體本質上是個孩子
+- 顫抖的手指是最重要的細節：不是恐懼，是兩股意志在同一組肌肉裡拉鋸
+- 出口方向的暖光是唯一的目的地，不需要解釋
+- 與晴香精神崩潰並行的意義：一個向內整合，一個向外逃脫——同一個方向，不同層面
+
+
+---
+
+# 第七部分：缺失場景補完（圖140–145）
+
+---
+
+## 圖140：「既視感追認」（Dejavu Recognition）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Saku_DejavuRecognition.png`
+
+### 劇情背景
+
+帝國歷113年9-10月，Act II Phase D，地下化第二至三個月。Alpha線中，朔與美夜子是青梅竹馬戀人；美夜子在Alpha線死亡後，朔親手參加了她的葬禮。此後再度相遇，眼前的Unit 01長著愛人的臉，卻是一具被兵器化的空殼。Phase D的某次夜區衝突中，朔在暗處觀察Unit 01（美夜子人形戰鬥形態）的戰鬥動作，從她的戰術習慣、保護優先序、停頓節奏中辨認出「那就是她」——但美夜子完全沒有認出朔（saku.md §既視感追認；miyako.md §既視感追認；CDL-255）。
+
+### 圖片說明
+
+夜區廢棄街道，穿著Unit 01變身服的美夜子在陰影中以精準動作護住隊友位置。朔站在更遠的暗處，側臉，十字弓垂在手邊沒有舉起。他的視線落在她的某個動作上——那個習慣性的停頓，那個保護優先序。瞳孔瞬間放大（驚訝），眉毛微微上揚（難以相信），嘴唇無聲地張開。他没有上前，沒有說話，只是看著，用盡全力確認眼前不是幻覺。她的眼睛從未望向他所在的方向。兩人之間隔著整個夜區的黑暗。
+
+**劇情位置**：
+- **時間點**：帝國歷113年9-10月（Act II Phase D，地下化初期）
+- **CDL追蹤**：CDL-255；`canon/03_characters/saku.md §既視感追認`；`canon/03_characters/miyako.md §既視感追認`
+- **前置事件**：美夜子（Unit 01）被帝國定性為「缺陷半成品」邊緣化；朔以黑市網絡支援主角團；Phase D生存邏輯建立
+- **本場景功能**：朔由「外觀識別」升級為「行為識別」的關鍵轉折——不再依賴「她長得像美夜子」，而是從戰鬥節奏、保護習慣確認「那就是她」；美夜子完全沒有認出朔，構成「物理極近但記憶極遠」的宿命感
+- **後續payoff**：朔弧光 Archetype 轉向（復仇者→守護者）；SPEC#15朔的日夜對比；Act IV重逢與放手
+
+**Reference Images**：
+- 朔（夜晚形態）：`ConceptArt_Saku_NightHunter.png`
+- 美夜子（Unit 01 人形戰鬥形態）：`ConceptArt_Miyako_Unit01.png`
+
+### 詳細核心描述（230字）
+
+夜區廢棄街道。帝國巡邏剛剛掃過，殘留的藍色探照光痕跡在積水裡消散。
+
+Unit 01的美夜子在陰影中移動。她掩護身邊的隊友退到安全位置，然後在轉角停了0.3秒——評估，確認無危，才繼續移動。那個停頓的習慣，那個保護優先序，那個動作節奏。
+
+朔站在更遠的廢棄建築二樓，側臉，十字弓垂在手邊，沒有舉起。
+
+第一秒：瞳孔放大。那個停頓——她獨有的停頓。
+
+第二秒：眉毛微皺。難以相信。那一定是巧合，許多人都會有類似的戰鬥習慣。
+
+第三秒：嘴唇無聲地張開。不，那不是巧合。那是她。那整套只屬於她的動作語言——她永遠先確認別人安全才確認自己、她在轉角停頓的特定時長、她撤退路線的習慣優先序。這些不可能重複。
+
+第四秒：眼神定住。她就在那裡。活著。在執行任務。在保護其他人。
+
+她的眼睛從未望向他所在的方向。她不知道他在這裡。她甚至沒有她的記憶。
+
+朔的表情在黑暗中逐漸冷靜下來——從驚訝變成難以相信，再變成某種淒涼的確認。
+
+兩人之間隔著整個夜區的黑暗。他認出了她；她認不出他。
+
+### Midjourney 標準版
+
+```
+Dark anime. Night district abandoned street. Unit 01 Miyako in magical girl human form crouching in shadow with precise protective movement, teal eyes focused forward, guarding a retreating figure. Far behind in darkness: a tall figure watching from second floor ruins, crossbow lowered at his side, face partially visible with subtle expression shift — pupils dilating (shock) → eyebrows micro-rising (disbelief) → lips slightly parted (certainty) → eye softening (loneliness). He does not call out. She never looks back. Between them: the entire weight of the dark street, broken neon reflections in puddles. Split framing: close detail of habitual pause mid-movement in combat stance / distant silhouette of the watcher whose face cycles through recognition emotions. Colors: deep shadow blue, teal-white magical girl silhouette, faint crossbow glint. Emotional tone: seeing someone you lost still alive but unreachable, and they cannot remember you exist. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- Unit 01 美夜子動作中的停頓習慣——「行為識別」的視覺化（轉角 0.3 秒停頓）
+- 朔臉部四秒的表情變化循環：驚訝→難以相信→確認→淒涼接納（每秒一個微妙轉變）
+- 朔的十字弓垂著，沒有舉起（不是任務，是認出；手始終沒有移動）
+- 兩人之間沒有視線交換——「物理極近，記憶極遠」
+- 積水中的霓虹殘影作為距離與孤獨的符號
+
+⭐⭐⭐⭐
+
+---
+
+## 圖141：「黑奏真身揭露」（Kurokane's True Form Revealed）[ACT_III]
+
+**建議輸出文件名**：`ConceptArt_Scene_Kurokane_TrueFormRevealed.png`
+
+### 劇情背景
+
+帝國歷114年5月，Act III Phase J決戰，帝國廣場。黑奏主動啟動情緒結算儀式，強制連結所有人類神經。在決戰頂點，彩用盡全部意志奪回身體控制權，黑奏第一次失去對身體的掌控。這個瞬間伴隨著視覺上的劇烈衝擊：極度寬大的帝國皇袍在混亂中滑落，帝國面具崩裂，面具背後是一具148cm的幼童身軀（aya.md §黑奏視覺形態；CDL-198；Act III Phase J決戰）。這不是圖45的皇座場景——那是「展示」，這是「被看見」的時刻。
+
+### 圖片說明
+
+帝國廣場決戰。巨大皇袍在一瞬間失去支撐，往下滑落，面具碎裂。在主角團的視線中，原本籠罩威嚴的巨大輪廓內，只有一個148cm的幼女身影——黑色麻花雙辮，深黑眼圈，腳離地懸空，沒有踩在任何地面上，只是懸著。這不是選擇展示，是控制崩潰的瞬間。廣場石板上散落皇袍碎角和面具碎片。
+
+**劇情位置**：
+- **時間點**：帝國歷114年5月（Act III Phase J決戰，帝國廣場）
+- **CDL追蹤**：CDL-198（黑奏真身揭露兩步設計Step 2）；`canon/03_characters/aya.md §黑奏視覺形態`
+- **前置事件**：SPEC#45黑奏帝國寶座（皇座「展示」）；玻璃庭院茶會（身份部分揭示）；情緒結算儀式啟動
+- **本場景功能**：「展示」vs「被看見」的根本差異——皇座上的自我呈現是黑奏的選擇，皇袍滑落是控制崩解後的暴露；視覺衝擊：萬人敬畏的帝國皇帝原來只是一個雙腳懸空的幼童
+- **後續payoff**：SPEC#8彩奪回身體；黑奏意識消散；Act III決戰結構閉合
+
+**Reference Images**：
+- 黑奏（皇袍形態）：`ConceptArt_Kurokane_Emperor.png`
+- 彩（本源形態）：`ConceptArt_Aya_TrueForm.png`
+
+### 詳細核心描述（250字）
+
+帝國廣場。情緒結算儀式的能量漩渦籠罩整個廣場，緋潮紅光從天空裂縫滲落。
+
+然後，控制崩潰了。
+
+一瞬間，皇袍失去支撐。那件巨大的帝國皇袍——比正常成人體型大出兩倍的設計，是為了讓148cm的身軀看起來不可撼動——從高台上開始滑落。帝國面具以它從未預設的角度碎裂，碎片散落在廣場石板上。
+
+皇袍落地的聲音在廣場迴響。
+
+在主角團的視線中，原本那個凌駕一切的帝國輪廓收縮了。面具下、皇袍內：一個黑色麻花雙辮、深黑眼圈的小女孩。148cm。雙腳懸在空中——她根本不踩地面，只是懸著。沒有踏台，沒有機關，只是懸空。
+
+這不是她選擇展示的時刻。這是失控的瞬間。
+
+廣場上所有人都看見了。這個支撐帝國二十年的恐懼，原來如此。
+
+### Midjourney 標準版
+
+```
+Dark fantasy anime. Empire plaza climax. Massive imperial robe sliding off and collapsing from elevated platform. Ornate emperor mask shattering mid-air, fragments scattering on stone plaza. Revealed inside: a 148cm child — black twin braids, deep-sunken dark circles under purple eyes, feet dangling off the ground, not touching any surface. Below: magical girl team looking up stunned. The contrast: enormous fallen robe versus tiny girl suspended in air. Crimson sky cracked above. Colors: deep imperial purple-black robe crumpling, pale fragile figure emerging, scarlet sky fractures. Emotional tone: the empire's terror revealed as a child who never once touched the ground. 8k, dramatic lighting, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 皇袍滑落的物理動作——控制崩潰的瞬間感
+- 148cm幼童雙腳懸空——帝國威嚴的根本反差
+- 面具碎片散落廣場石板——「被迫暴露」而非「主動展示」
+- 仰視構圖（主角團視角）——觀眾感受到衝擊的角度
+
+⭐⭐⭐⭐
+
+---
+
+## 圖142：「秋穗實驗室懺悔」（Akiho's Laboratory Confession）[ACT_I]
+
+**建議輸出文件名**：`ConceptArt_Scene_Akiho_LaboratoryConfession.png`
+
+### 劇情背景
+
+Act I全幕，[NC]反覆發生。秋穗以「茶餐廳老闆娘」身份守護晴香，但每天固定時間，她會來到地下實驗室，在愛莉的結晶石像前跪下。她傾訴研究進展、說晴香今天的狀況，然後在沉默中哭泣。秋穗的罪疚不只是「保護晴香」這一層——還有愛莉血債（CDL-013），以及她將美夜子推入Unit 01路線的不可饒恕的罪行（akiho.md §石像前的懺悔；aeri.md §石像狀態）。石像一寸不動，從不回應。這個循環每天重複。
+
+### 圖片說明
+
+佈滿失敗儀器和積灰的地下實驗室，中央是結晶化的愛莉石像——姿態凍結，冰冷，完全靜止。秋穗跪在石像前，額頭輕輕抵著石像的手，說著說著聲音就消失了，只有口型在動。實驗室的儀器發出微弱的監測聲，溫度探針顯示：恆定冷卻，無反應。秋穗不站起來，只是跪著。窗戶沒有，時間感沒有，只有這個每天發生的循環。
+
+**劇情位置**：
+- **時間點**：Act I [NC]全幕反覆發生（113年3月至5月）
+- **CDL追蹤**：CDL-013（愛莉事故）；`canon/03_characters/akiho.md §石像前的懺悔`；`canon/03_characters/aeri.md §石像狀態`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene A2`
+- **前置事件**：愛莉事故（世界上第一個人造魔法屍骸石像誕生）；秋穗與黑奏的魔鬼契約
+- **本場景功能**：揭示秋穗罪疚的真實層次——不只是「保護晴香」的溫暖阿姨，而是有愛莉血債的失敗科學家；石像不回應的沉默比任何對白更殘忍；為Act IV「笨蛋老媽，我從來沒怪過妳」做最長的情感鋪墊
+- **後續payoff**：SPEC#41秋穗實驗室；Act IV秋穗×愛莉手握場景；愛莉原諒的最終時刻
+
+**Reference Images**：
+- 秋穗（日常形態）：`ConceptArt_Akiho_DailyCasual.png`
+- 愛莉石像：`ConceptArt_Aeri_CrystalStatue.png`
+
+### 詳細核心描述（240字）
+
+地下實驗室。
+
+牆邊堆滿失敗的儀器：螢幕黑屏的監測機、蒙塵的實驗架、幾本翻爛的研究記錄。每一件都代表一次「修正過去」的失敗嘗試。
+
+中央，結晶化的愛莉石像靜立。她被凍結在某個十幾歲的姿態裡，手微微向前，好像剛要說什麼，然後就冰住了。石像不腐朽，石像不移動，石像不回應。
+
+秋穗跪在石像前。
+
+她說著研究進展，說著晴香今天笑了一次，說著自己又一次失敗了。聲音越說越低，最後只有口型，沒有聲音。她把額頭輕輕抵在石像冰冷的手上，閉上眼睛。
+
+溫度探針的數字沒有變化。恆定冷卻，無反應。
+
+秋穗不站起來。她每天都這樣跪著，等待一個永遠不會來的微小震動。
+
+愛莉在集體潛意識的深處，聽得到每一句話。秋穗不知道這件事。
+
+### Midjourney 標準版
+
+```
+Dark anime. Underground laboratory filled with failed instruments, dusty monitors, worn research journals. Center: a crystallized stone statue of a young girl, frozen mid-gesture, cold and perfectly still. Kneeling before the statue: a tired woman with dark purple hair, forehead pressed gently against the statue's frozen hand. Her lips are moving but no sound comes out. Equipment hum, temperature monitors showing constant cold — no response. No windows. Timeless. Accumulated guilt made physical. Colors: cold laboratory blue-grey, warm deep purple hair against cold crystal. Emotional tone: confessing every day to someone who cannot answer but hears everything. 8k, intimate framing, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 石像的完全靜止——「不回應」比任何對白更重
+- 秋穗額頭抵在石像手上的姿態——罪疚的物理化
+- 積灰的失敗儀器——「修正過去的徒勞」的視覺環境
+- 無窗口、無時間感——這個場景每天都發生，是循環而非單一事件
+
+⭐⭐⭐⭐
+
+---
+
+## 圖143：「操的夜中人偶製作」（Misao's Midnight Doll Assembly）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_MidnightDollAssembly.png`
+
+### 劇情背景
+
+帝國歷113年11月至114年1月，Act II Phase D/E，地下化中期。Body Horror Stage 2b期間——操外表維持完美（傀儡絲縫牙保持外觀），但內心逐步冷化，靈魂逐步離體，對他人情感反應的機制被一次次「自我修復」（冷化）。在某個深夜，操獨自在廢棄據點角落，用傀儡絲和零件製作一具完美的女性人偶軀殼（ayakomoji_misao.md §無心完美人偶；CDL-233 Body Horror Stage 2b）。製作過程中手指滲血，她感覺不到痛，也感覺不到手的存在。完成時，她看著人偶，感受到一種冰冷的空洞，然後打碎了它。
+
+### 圖片說明
+
+廢棄據點的深夜角落，一盞低光燈。操坐在地板上，面前是組裝到尾聲的人偶軀幹——精緻，完美，沒有臉部表情。她的手在縫製最後的細節，左手食指有一個滲血的小傷口，血珠凝在邊緣，沒有擴散——她感覺不到疼痛，感覺不到自己的手在哪裡，只有傀儡絲在動。完成的人偶在燈前靜立，操看著它的眼神：不是滿足，是冰冷的空洞感。
+
+**劇情位置**：
+- **時間點**：帝國歷113年11月至114年1月（Act II Phase D/E，地下化中期）
+- **CDL追蹤**：CDL-233（Body Horror Stage 2b，靈魂層冷化）；`canon/03_characters/ayakomoji_misao.md §無心完美人偶`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B2`
+- **前置事件**：SPEC#91操絲線縫牙（Body Horror Stage 2a物理層）；鏡像破碎之夜後操進入地下化生存
+- **本場景功能**：Body Horror Stage 2b「靈魂層冷化」的具體呈現——感覺逐漸消失的「完美地獄」；「沒有痛覺的完美，比地獄更可怕」這句話的行為根源視覺化
+- **後續payoff**：SPEC#5鏡像處刑室（操打碎人偶回到殘缺身體）；SPEC#31操回歸人類身軀；SPEC#1鋼鐵獨舞
+
+**Reference Images**：
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
+
+### 詳細核心描述（240字）
+
+廢棄據點深夜角落。一盞電池燈，光圈很小。
+
+操坐在地板上，面前是組裝到尾聲的人偶軀幹：縫線精密，比例精準，關節活動範圍設計完美，手部的細節甚至有靜脈紋路。
+
+她的左手食指有一個小傷口，血珠凝在邊緣。她不知道那個傷口什麼時候造成的——她感覺不到。她感覺不到手指的存在，只有傀儡絲在移動，只有縫製的動作在繼續。
+
+人偶的臉是空白的，等待被填寫。
+
+縫好最後一針，她把人偶放在燈前，看著它。
+
+完美的比例。完美的縫線。完美的關節角度。沒有一絲誤差。
+
+那份感覺不到任何溫度的注視持續了幾秒。然後她伸手，將它砸在地板上。
+
+傀儡絲四散。人偶的完美輪廓在地板上散開。
+
+她坐在那裡，沒有立刻移動。
+
+### Midjourney 標準版
+
+```
+Dark anime. Abandoned hideout, late night corner with a single battery lamp. Misao sitting on floor assembling a near-complete perfectly crafted female doll — precise proportions, flawless seams, realistic vein details on hands. Her left index finger has a small wound, blood bead at the edge not spreading — she does not feel it. Puppet strings moving her fingers automatically. The completed doll lit by lamp. Her face watching it: not satisfaction, only cold emptiness. Colors: deep navy shadow, warm lamp circle, pale perfect doll surface, red blood detail. Emotional tone: perfect craftsmanship with zero sensation — the horror of feeling nothing at all. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 手指滲血但操沒有反應——「感覺不到自己的手」的行為化
+- 傀儡絲控制縫製動作——魔法自動化與人格退場的視覺
+- 人偶的空白臉部——完美外殼但無靈魂的鏡像
+- 低光、孤獨的場景設計——這是沒有任何人知道的時刻
+
+⭐⭐⭐⭐
+
+---
+
+## 圖144：「操與紗夜最後一晨」（Misao and Sayo's Last Morning）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_Sayo_LastMorning.png`
+
+### 劇情背景
+
+帝國歷114年1月末至2月初，Act II Phase F，鏡像破碎之夜前的最後平靜時刻。在地下化生活中，操和管家紗夜仍保持某種殘存的家族食卓節奏。紗夜是操在現實中唯一能感受到無條件愛的人（ayakomoji_misao.md §紗夜；CDL-297紗夜設定；CDL-299紗夜愛的雙重根源）。在這頓早餐裡，操第一次不需要表演完美——不需要計算每個動作，不需要審核每句話。紗夜只是看著她，準備她喜歡的食物，然後在她起身的瞬間，在額頭上輕吻了一下。紗夜的手在顫抖，操沒有察覺。這是她們之間最後一個「正常」的早晨。
+
+### 圖片說明
+
+昏黃燈光的小小食桌，桌上是操喜歡的食物——不豐盛，每樣都是她的喜好。操坐著，動作還是精準的，但少了那層計算的殼。紗夜站在一邊，不說什麼，只是看著她吃。操放下筷子，紗夜的手微微在顫抖——觀眾看得見，操沒有注意到。操起身，紗夜的手輕輕落在她額頭上，親了一下。「今日也……很漂亮。」話說完了，兩個人都沒有說出其他的話。
+
+**劇情位置**：
+- **時間點**：帝國歷114年1月末至2月初（Act II Phase F，鏡像破碎之夜前最後平靜時刻）
+- **CDL追蹤**：CDL-297（紗夜設定）；CDL-299（紗夜愛的雙重根源）；`canon/03_characters/ayakomoji_misao.md §紗夜`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B5`
+- **前置事件**：SPEC#26操被遺棄（父親背叛）前的最後平靜；紗夜在Act I已有輕量出場（CDL-071）
+- **本場景功能**：紗夜無條件愛的唯一正面呈現（此後紗夜犧牲）；操第一次不需要表演完美的時刻；紗夜手在顫抖（她預知即將到來的災難）vs操沒有察覺的對比
+- **後續payoff**：SPEC#26操被遺棄（紗夜犧牲）；SPEC#87紗夜犧牲耳鳴遮蔽；SPEC#126操在集體潛意識尋見母親碎片；SPEC#1鋼鐵獨舞
+
+**Reference Images**：
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
+- 紗夜：`ConceptArt_Sayo_Maidoutfit.png`
+
+### 詳細核心描述（230字）
+
+昏黃燈光的小桌子。
+
+食桌不大，就兩個人的位置。桌上是操喜歡的那幾樣食物，不豐盛，每樣都是她的喜好。
+
+操坐下來，拿起筷子。她的動作仍然精準，但少了那層審核的殼——她沒有在計算自己的坐姿角度，沒有在腦中事先審核每個動作。只是坐著，只是吃。
+
+紗夜站在桌邊，不坐下，只是看著她。
+
+沒有多餘的話。沒有叮囑，沒有教導，沒有評估。只是看著她吃飯。
+
+操快吃完的時候，紗夜的手微微在顫抖——那種細微的顫抖，在昏黃燈光下只有鏡頭能捕捉到。操沒有注意到。
+
+操放下筷子，起身。
+
+紗夜的手輕輕落在她額頭上，低下頭，親了一下。
+
+「今日也……很漂亮。」
+
+沒有其他話了。兩人都沒有說出其他的話。
+
+### Midjourney 標準版
+
+```
+Dark anime. Warm amber small dining table, two-person setting. Simple meal with each dish chosen to preference, not lavish. Misao sitting eating without her usual self-monitoring — no posture calculation, simply present. Sayo standing beside the table, not sitting, just watching her. Sayo's hands barely trembling — camera captures what Misao does not notice. Final moment: Sayo's hand gently landing on Misao's forehead, a brief tender kiss. Warm amber against deep shadow background. Colors: warm lamp light, worn wood table, quiet tenderness. Emotional tone: the only morning she did not have to perform being perfect. 8k, intimate framing, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 操的動作「少了審核的殼」——這頓飯與平常不同的微妙差異
+- 紗夜的手在顫抖（她知道即將發生什麼）vs操沒有察覺
+- 額頭上的輕吻——無條件愛的唯一正面呈現
+- 昏黃燈光、安靜的構圖——「平靜」是即將到來的暴風前的最後一刻
+
+⭐⭐⭐⭐
+
+---
+
+## 圖145：「保護的殘響」（Echo of Protection）[ACT_II]
+
+**建議輸出文件名**：`ConceptArt_Scene_Saku_EchoOfProtection.png`
+
+### 劇情背景
+
+帝國歷113年9-10月，Act II Phase D，夜間巡邏。朔以屍骸獵人身份在夜區行動，同時暗中為主角團提供黑市支援（CDL-255）。某次巡邏中，他目睹了一個改變他世界觀的場景：一具成年魔法屍骸，已經失去記憶和情感，以殘破的身體本能地護住一具年幼屍骸，讓它不被另一波威脅傷到（saku.md §保護的殘響；§Archetype & Symbolism）。朔在此之前是「清除者」——消滅威脅。這個瞬間讓他意識到，即使是失去人性的存在，也保留著「保護」的本能殘響。他的世界觀從「清除威脅」決定性地轉向「解放被囚禁的靈魂」。
+
+### 圖片說明
+
+夜區廢棄街道深處，朔持十字弓站在轉角。前方：一具成年魔法屍骸——身體破損，部分已廢鐵化，動作遲鈍，眼睛無焦距。它正用自己破碎的身軀擋在一具更小的屍骸前，對著威脅方向。那個「保護」的動作沒有意識，只有本能——它甚至沒有臉部表情，只是擋在那裡。朔的十字弓已經舉起瞄準，然後停住了，沒有扣下去。他的手指在扳機前停頓，比平常的0.5秒更長。
+
+**劇情位置**：
+- **時間點**：帝國歷113年9-10月（Act II Phase D，夜間巡邏）
+- **CDL追蹤**：CDL-255（Phase D生存邏輯，朔黑市網絡）；`canon/03_characters/saku.md §保護的殘響`；`canon/03_characters/saku.md §Archetype & Symbolism`
+- **前置事件**：朔以雙面身份（帝國特工/屍骸獵人）行動；SPEC#140既視感追認（同時期）；朔「扳機前的猶豫」習慣（行為錨點）
+- **本場景功能**：朔 Archetype 決定性轉折——從復仇者轉向解放者；「清除者」認知框架被打破的那一刻；即使是魔法屍骸也保留「保護」本能的世界觀震撼；確立朔後來成為「屍骸解放者」的情感根源
+- **後續payoff**：朔Archetype轉向守護者/解放者；SPEC#15朔的日夜對比；Act III解放者覺醒；對朱音×小光線的主題呼應
+
+**Reference Images**：
+- 朔（夜晚形態）：`ConceptArt_Saku_NightHunter.png`
+
+### 詳細核心描述（250字）
+
+夜區廢棄街道，深處。
+
+朔靠在轉角的牆壁，十字弓舉起，瞄準線已對準前方。
+
+前方：一具成年魔法屍骸。身體的右臂已廢鐵化，移動緩慢，眼睛沒有焦距，完全喪失了作為「人」的跡象。在它面前，地上縮著一具更小的屍骸，同樣碎裂，同樣失去意識。
+
+成年屍骸感應到某個威脅方向，用那具破損的身軀，擋在小屍骸前面。
+
+它沒有表情，沒有語言，不知道自己在做什麼。只是擋在那裡。那個姿態是純粹的本能——在99%的人性已經消失的地方，最後1%選擇了「保護」。
+
+朔的手指停在扳機前。
+
+0.5秒。他每次都猶豫0.5秒，這是所有同僚取笑他「心太軟」的那個停頓。但這一次的0.5秒比任何時候都更長。
+
+他把十字弓放下。
+
+即使是失去一切的存在，也保留著「保護」的殘響。這個發現顛覆了他「清除威脅」的全部認知。
+
+### Midjourney 標準版
+
+```
+Dark anime. Night district abandoned street. Saku at corner, crossbow raised but not firing — finger at trigger, stopped. In front: damaged adult magical corpse, right arm partially rusted, no expression, no focus in dead eyes. Its broken body positioned between a smaller crouching child-sized corpse and a threat direction — pure instinct, no consciousness. Protective stance with zero awareness. Saku watching. His trigger finger held longer than usual. The crossbow slowly lowering. Colors: dark teal night, broken moonlight, rust-grey corpse damage, Saku crossbow faint energy glow. Emotional tone: the last echo of protection in something that should feel nothing. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 成年屍骸用破損身軀擋住小屍骸——「殘響」的視覺化：無意識的保護本能
+- 朔十字弓舉起但扳機前停頓——標誌性的0.5秒猶豫，這次更長
+- 兩具屍骸的體型對比（成年vs年幼）——呼應小光×紫音的情感層
+- 朔把弓放下的動作——世界觀轉折的行為標誌
+
+⭐⭐⭐⭐
+
+---
+
+## 圖156：「美夜子被迫介錯凜」（Miyako's Final Mercy for Rin）[ACT_III_PHASE_H2] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_156_MiyakoKaishakunin.png`
+
+### 劇情背景
+
+帝國歷114年4月末，Act III Phase H2至H3過渡期，凜選擇消散之際。在混戰結束後的最後一刻，凜已精疲力竭地接受了自己的命運。美夜子以介錯人的身份，親手讓凜安靜死去——她稱之為「最後的慈悲」。這與SPEC#100-01（凜的視角：美夜子雙持衝鋒槍對抗Unit 00-Null無意識形態）不同：那是混戰的中段，而這是最後的瞬間——凜已經平靜下來，美夜子舉起手的那一刻，是她作為介錯人的最終履約。美夜子的Archetype「介錯人→送行者」正在此刻完成最重的一個節點（miyako.md §Archetype & Symbolism；miyako.md §介錯人的覺悟；CDL-283）。
+
+### 圖片說明
+
+混戰廢墟的邊角，凜靠在一段崩塌的牆上，身體已幾乎耗盡，但臉上是接受的平靜。美夜子站在她面前，舉起手——那隻手的動作是確定的，不是猶豫的。美夜子的表情是沉默，不是痛苦的崩潰，而是已做完決定、在做完決定之後才顯現的那種無法言說的重量。這是美夜子一生中最沉重的選擇時刻——在沉默中，她完成了對凜的最後承諾。
+
+### 劇情位置
+
+**時間點**：帝國歷114年4月末（Act III Phase H2-H3，凜選擇消散之際）
+**CDL 追蹤**：CDL-283（介錯誓約）；rin.md §拒絕治癒——自願兵器化；miyako.md §介錯人的覺悟；miyako.md §四幕弧光 Act III
+**前置 → 本場景 → Payoff**：凜自願拒絕治癒（SPEC#100）→ Unit 00-Null 混戰（SPEC#100-01）→ 本場景：最終靜止的慈悲 → SPEC#6 月下崩潰（美夜子 PTSD 根源）→ SPEC#109 美夜子終於哭出來（二十年後的情感釋放）
+
+### 詳細核心描述（250字）
+
+混戰結束後的廢墟邊角。
+
+凜靠在崩塌的牆段上，身體的力氣幾乎全部耗盡——不是倒下，而是主動地讓自己靠著，不再抵抗。她的臉是平靜的。不是解脫，是更深的東西：她確認了自己的選擇，她願意以這種方式結束。她的頸上那道紅縫合線在廢墟的昏暗中仍然可見。
+
+美夜子站在她面前。
+
+她的手舉起來了——那隻手的動作裡沒有猶豫，因為猶豫已經在更早的時候全部消耗掉了。現在只剩下執行。她的臉上沒有眼淚，不是因為不痛，而是因為介錯人在這一刻需要比哭泣更穩定地活著。沉默是她能給凜的最後尊嚴。
+
+這個瞬間的重量，不在視覺的戲劇性，而在美夜子表情裡那種「已經知道結果卻仍然活著」的人才有的靜。
+
+在她身後，廢墟的光線是冷的，帶著一種接近黎明前的灰。
+
+這是美夜子一生中最重的選擇時刻。帝國歷108年凜為掩護美夜子犧牲的那道閉環，在此刻由她親手完成。
+
+### Midjourney 標準版
+
+```
+Dark anime illustration. Quiet ruins, edge of a collapsed wall in dim pre-dawn light. Rin sitting against broken concrete, body exhausted, expression settled in acceptance — not peaceful, deeper than peaceful. Red suture scar at neck visible in dim light. Miyako standing before her, one hand raised — not hesitating, just completing what was decided long ago. Miyako's face: not crying, not dramatic, just the particular stillness of someone who has to keep living after this. Weight without theatrics. Colors: cold grey ruins, pre-dawn ash light, red suture line as only warm accent, Miyako's dark school uniform and tactical gear. Composition: intimate two-shot, Rin against wall lower frame, Miyako standing facing her, raised hand central. Emotional tone: the heaviest act of love that looks like violence. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 美夜子舉起的手——動作確定，沒有猶豫，這是已做完決定之後的執行
+- 凜靠牆的姿態——是「允許」，不是崩潰；她是主動靠著的，不是跌倒
+- 美夜子臉上的沉默——不哭，不崩潰，是介錯人最重的表情
+- 凜頸上的紅縫合線——作為唯一的暖色細節，在冷灰廢墟中格外可見
+- 光線：黎明前最深的灰，不是戲劇性的強光，而是接近靜止的光
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖157：「光環的視覺顯現」（The Halo's Physical Manifestation）[ACT_II_III] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_157_HaloManifestation.png`
+
+### 劇情背景
+
+Act II至III（任何魔法少女觸及力量上限時），以凜作為典型呈現場景。帝國設計的情緒力量裝置內建安全閥機制——當持有者魔法輸出超過容量閾值時，光環從關節處的透明薄膜狀顯現，逐漸具體化為旋轉發光的圓環，透過旋轉榨取體內情緒能量。失控時光環顏色由神聖金光轉為血紅或慘白，扭力直接作用於骨骼肌肉。這是主角第一次親眼見到這個系統的殘酷運作：光環不是榮耀，是倒數計時器，是帝國制度暴力的具體可見化（02_glossary.md §光環；01_world_rules_and_costs.md §光環處決機制）。觀眾透過這個場景第一次真正理解凜後來選擇消散的底層恐懼，也理解美夜子為何對光環有PTSD——因為她108年親眼看見這個機制如何扭斷凜的脊椎。
+
+### 圖片說明
+
+凜在高強度戰鬥中逼近力量上限，肩頸與手腕關節處出現懸浮發光圓環——初期呈半透明神聖金光，隨著超載程度加深，光環顏色開始轉移，轉速加快。環的外型精確幾何，懸浮在關節外側，旋轉的動態感暗示著越來越強的扭力。美夜子在遠端看見顏色變化的瞬間，身體在思考之前已經移動——粗暴衝過來打斷凜的施法。
+
+### 劇情位置
+
+**時間點**：Act II-III（任何魔法少女觸及力量上限時；以凜為典型呈現）
+**CDL 追蹤**：02_glossary.md §光環（Halo）；02_glossary.md §光環處決（Halo Execution）；01_world_rules_and_costs.md §光環處決機制；miyako.md §行為鉤（光環警戒）；rin.md §犧牲——光環處決
+**前置 → 本場景 → Payoff**：帝國情緒力量裝置的安全閥設計存在（世界規則） → 光環視覺顯現（主角第一次目睹） → 凜犧牲（108年光環處決，頸椎斷裂）→ 美夜子的光環PTSD；凜重組後頸上紅縫合線的由來
+
+### 詳細核心描述（240字）
+
+戰場的某個瞬間，凜的輸出已超過容量的邊界。
+
+她的肩頸、手腕的關節處，薄膜狀的發光圓環開始凝聚——從透明到半透明，從靜止到緩緩旋轉。光的顏色是神聖的金色，美得不真實，像是某種祝福的象徵。但轉速在加快。
+
+環並不貼合皮膚。它懸浮在關節外側，像是某種外掛的機械部件，但又是活的、動的、持續旋轉的。它的幾何形態精確到不像魔法，而更像工程設計——帝國工程師的設計意圖在光環的輪廓裡清晰可讀：這是一個斷路器，一個安全閥，只是代價是扭斷施術者的骨骼。
+
+光環轉速再提升一級，顏色開始向血紅偏移。
+
+美夜子在遠端看到這個顏色變化的瞬間，身體在思考之前已經移動——她衝過去，用最粗暴的方式打斷凜的施法。她的口型是「停下來！妳想被扭斷嗎！」——聲音大到不像平時的她。
+
+整個場景構圖的核心是光環本身：那個旋轉、轉速加快、顏色漸變的圓環，懸浮在凜的關節處，美得令人窒息，危險得令人窒息。
+
+### Midjourney 標準版
+
+```
+Dark anime. Magical girl combat scene. Girl with pale blue-tinted hair and dark eyes pushing past her power limit in mid-battle — joints at shoulders, wrists, and neck-adjacent area showing levitating luminous rings: The Halo. Rings start translucent gold, now spinning faster, color shifting toward crimson at the edges. Rings hover at joint level, precisely geometric, engineered-looking, not organic. Visible rotation suggesting increasing torque on her skeletal structure. Another girl (dark hair, school uniform with tactical gear) frozen mid-distance, eyes fixed on the color change — body already moving toward her without thinking. Composition: dramatic mid-shot, foreground girl with active rings visible at shoulder, wrist and upper chest joints, spinning light-trails; background girl mid-sprint toward her. Colors: battle setting dark blues and greys, Halo luminous gold-to-crimson gradient, translucent ring geometry. Emotional register: the beauty that kills, visible countdown. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 光環的幾何精確感——不是有機魔法，而是工業設計的殘酷美學，讓觀眾感受到「帝國設計了這個」
+- 顏色從金色向血紅漸變的過程——死亡倒數的視覺化，轉速加快是視覺上可讀的
+- 光環的懸浮旋轉——不是靜態的裝飾，而是動態的、帶扭力感的機制
+- 美夜子的本能反應——身體在思考前已移動，這是她對光環的極度敏感（PTSD前置呈現）
+- 環的懸浮位置在關節處，讓觀眾聯想到枷鎖、頸圈，但由光構成——帝國制度暴力的美麗外殼
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖158：「夕嘗試重置世界」（Yu's Attempt to Rewrite Reality）[ACT_III_PHASE_K] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_158_YuRealityOverride.png`
+
+### 劇情背景
+
+帝國歷114年5月底，Act III Phase K，夕完全接管晴香身體之後。夕以晴香的身軀，嘗試執行「改變現實（Reality Override）」——發動改變現實、試圖重建Alpha線，試圖在那個空間裡修正創傷的根源。然而即使改變了現實，創傷的深層痛苦仍無法被真正消除——「過去無法被修正，只能被接納」。世界的裂痕反而更深，時間線被撕裂的痕跡不是乾淨的重置，而是像裂開的鏡面，每一道裂縫都映照著不同的可能性：Alpha線、Beta線的重疊影像在其中閃爍。夕在Alpha線度過數日後發現這個頓悟，試圖「幻滅與還原」，造成時間線裂痕，引發緋潮爆發的連鎖反應，最終導致晴香意識被困入集體潛意識長達二十年（04_timeline_canon.md §event-disillusion；§event-twenty-year-vigil；CDL-281）。
+
+### 圖片說明
+
+夕以晴香的身軀站在世界的中心，發動「改變現實」的瞬間：身體發出強烈的光，周圍的時空在她手指間開始撕裂，像玻璃鏡面從中心向外裂開——裂縫裡映照著不同時間線的碎片影像。這個場景不是乾淨的重置，而是「失敗的重寫」：世界沒有被治癒，裂縫反而更深。夕的臉上不是勝利，而是「發現自己修正不了過去」的那一刻頓悟。
+
+### 劇情位置
+
+**時間點**：帝國歷114年5月底至114年6月（Act III Phase K，偽高潮坍塌後）
+**CDL 追蹤**：CDL-281（夕完全接管雙層動機）；04_timeline_canon.md §event-yu-takeover；§event-disillusion；§event-twenty-year-vigil；yu.md §第四幕弧光；CDL-295（Phase J 的拒絕：放棄靈魂切除式遺忘）
+**前置 → 本場景 → Payoff**：彩的內部革命（黑奏防線瓦解）→ 夕完全接管晴香身體（CDL-281）→ 本場景：改變現實發動，但創傷仍在，世界裂痕更深 → 幻滅與還原 → 緋潮爆發 → 二十年守望開始（晴香意識被困集體潛意識）
+
+### 詳細核心描述（260字）
+
+這個世界的中心，什麼正在被撕裂。
+
+夕以晴香的身軀站在這個瞬間的最核心位置——不是她自己的臉，是晴香的臉，晴香的頭髮，但眼神是夕的：比晴香更直接，更不會迴避什麼。
+
+她的手伸開，掌心向下，現實在她的指間開始回應。光從她的身體向外擴散，不是溫柔的光，是壓迫性的、重量感的光，像是什麼巨大的東西被強行移動。
+
+世界在裂開。
+
+但不是乾淨的。裂縫的邊緣不是切口，而是撕裂——像最厚的鏡面被從內部擊碎，裂縫向外放射，每一道裂縫的截面都映照著不同時間線的碎片：Alpha線的光景在那裡閃爍一下，Beta線的廢墟也在那裡，兩條時間線的影像疊加在一起，誰都不完整，誰都不真實。
+
+夕的臉上有什麼東西在瓦解。
+
+不是能力的瓦解——她做到了，現實確實在動。是某個認知的瓦解：即使改變了現實，創傷仍然在那裡。她試圖修正的那個傷，在Alpha線裡依然存在，只是換了一種形狀。
+
+過去無法被修正，只能被接納。這個頓悟在現實裂縫的光芒中同時降臨。
+
+### Midjourney 標準版
+
+```
+Dark anime. Reality Override sequence. Girl with Haruka's appearance (light pink hair, but not Haruka's soft eyes — sharper, more direct, not flinching) standing at reality's center, arms spread, palms facing down. Light expanding outward from her body, heavy and pressurizing not gentle. Surrounding world cracking from center outward like shattered thick glass — fracture lines radiating outward, each fracture cross-section showing overlapping fragments of two different timelines: warm golden Alpha memories visible in one crack, cold grey-blue Beta ruins visible in another, both incomplete, both flickering. Girl's face: the exact moment of realizing the trauma is still there even after rewriting reality — not defeat, recognition. Colors: reality fracture emitting cold white pressure-light, timeline fragments in crack lines warm amber vs cold blue-grey, girl's form outlined against the shattering. Composition: central figure with reality fractures expanding radially around her position, mirror-crack pattern dominant visual element, timeline fragments visible in fracture cross-sections. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 夕用晴香的外貌，但眼神是夕的——更直接、更銳利，觀眾要能感受到這是不同的人在使用同一具身體
+- 現實裂縫的「撕裂感」——不是乾淨的重置，裂縫邊緣是撕裂而非切割
+- 裂縫裡的時間線碎片——Alpha線的暖色影像和Beta線的冷色廢墟疊在一起，誰都不完整
+- 夕的表情：「頓悟的瞬間」而非「失敗的崩潰」——認識到真相，不是被真相打敗
+- 光是有重量的壓迫性光，不是漂亮的效果光；現實裂縫比人更大，更主導整個構圖
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖159：「時間折返的視覺化」（The Moment Beta Line Solidifies）[ACT_IV_OPENING] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_159_BetaLineSolidification.png`
+
+### 劇情背景
+
+帝國歷134年7月，Act IV開場。二十年守望結束，夕以晴香的身體維持肉身、對抗黑奏侵蝕長達二十年（04_timeline_canon.md §event-twenty-year-vigil）。在某種因果的反向效應下，Beta線固化的瞬間降臨：其他所有主要角色各自回到帝國歷114年的記憶與意識狀態，但晴香保留了這二十年的完整記憶——她是唯一知道這二十年發生了什麼的存在。視覺上呈現時鐘逆轉的感覺，但又不是完全回滾：Beta線已經被固化，落下的是新的秩序，不是舊的復原。這個場景是晴香「孤獨記憶者」身份的視覺確立，也是全作時間循環主題在最後的終點意象（haruka.md §Act IV；04_timeline_canon.md §section-114-july-new；CDL-053）。
+
+### 圖片說明
+
+帝國歷134年的某個瞬間，Beta線固化發生。主要倖存角色各自在自己的位置上，同一瞬間面容恢復為帝國歷114年的年輕模樣——美夜子、朔、秋穗等人，各自在各自的空間裡，二十年的疲憊從臉上退去。只有晴香不同：她站在高處或開闊地，頭髮已是純白，眼神是看穿了二十年的深遠。她是唯一沒有「回去」的人，也是唯一清楚知道自己保留了什麼的人。
+
+### 劇情位置
+
+**時間點**：帝國歷134年7月（Act IV開場，二十年守望結束後）
+**CDL 追蹤**：CDL-053（靈魂風暴20年）；04_timeline_canon.md §event-twenty-year-vigil；§section-114-july-new；haruka.md §Act IV；05_story_outline_canon.md Act IV開場
+**前置 → 本場景 → Payoff**：二十年守望（夕維持肉身、對抗黑奏侵蝕）→ 本場景：Beta線固化，他人回到114年記憶狀態，晴香獨自保留二十年記憶 → SPEC#138「二十年後的第一個早晨」（晴香134年覺醒，揭開最後一張膠布）→ Act IV全篇：晴香作為孤獨記憶者承擔存在命題
+
+### 詳細核心描述（260字）
+
+帝國歷134年，某個瞬間。
+
+世界的某些東西在改變——不是物理的崩塌，而是更靜的東西：時間的方向在某一點上發生了折曲。
+
+在城市的不同角落，主要倖存角色各自在自己的位置上。美夜子在某個角落，以某個動作停住——然後她的臉上有什麼東西在消退：二十年的疲憊，二十年守護和對抗的痕跡，在幾秒之內從她的面孔退去，恢復成帝國歷114年的樣子。朔也是。秋穗也是。他們各自在各自的空間裡，好像時間在他們身上按下了某個鍵，讓他們回到了某個固定點的記憶狀態。
+
+他們不知道這二十年發生了什麼。對他們而言，那二十年是一段空白。
+
+然後鏡頭找到晴香。
+
+她站在高處，或者某個開闊的地方，俯看這個城市。她的頭髮是純白的——二十年的顏色不在面容上，卻全在頭髮裡。她的眼神是深的，是看穿了二十年的人才有的眼神：她知道發生了什麼，她記得每一天。她是唯一沒有「回去」的人。
+
+Beta線固化了。過去無法被修正，只能被接納。這個真相在這一刻成為現實的地基。
+
+晴香一個人記得一切。
+
+### Midjourney 標準版
+
+```
+Dark anime panoramic composition. Beta Line Solidification — time does not fully reverse, it settles. Split visual: multiple characters shown in separate locations or reflection panels simultaneously reverting to younger appearances — exhaustion and 20 years fading from their faces, postures shifting back to Year 114 selves, a temporal shimmer visible during reversion. Then: central and elevated, Haruka. Pure white hair. Near-transparent pale grey eyes. Expression of someone carrying twenty years that others cannot remember — deep, clear, heavy with knowledge, not tragic. She is the only one who did not revert. Beta line settled beneath her like bedrock. Colors: city background warm amber 134-year new-order morning light; reverting characters shown in soft temporal shimmer; Haruka's pure white hair luminous as the only unchanged element. Composition: panoramic with Haruka elevated-center, other characters smaller or in reflective panels, each mid-reversion. Emotional register: the solitude of being the only keeper of memory; the weight of twenty years held alone; not grief but bearing. 8k, niji 6, style raw. --ar 16:9
+```
+
+**視覺重點**：
+- 其他角色「回到114年樣子」的過程——二十年從臉上退去，視覺上要有一種「時間往回流」的輕微光效
+- 晴香的純白頭髮在所有人之中是唯一的異質存在——她沒有「回去」，她是新的
+- 晴香的眼神：「看穿了二十年」的深度，不是少女的眼神，是已承擔一切的人的眼神
+- 構圖的孤獨感：她站在高處，其他人在各自的空間，她一個人清醒而知道
+- Beta線固化的視覺：不是爆炸、不是戲劇性特效，而是某種「靜靜落定」——時間稍微倒流，然後繼續走，走的是新的方向
+
+⭐⭐⭐⭐⭐
+
+## 圖152：「屍骸的道歉」（The Corpse's Apology）[ACT_I] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_152_CorpseApology.png`
+
+### 劇情背景
+
+Act I 早期戰鬥中，晴香遭遇一具老婆婆形態的屍骸。屍骸已失去語言能力，卻以某種殘存意識引導附近路過的小孩開口說話：「有個婆婆說她很抱歉。」這是整個故事中「屍骸其實不是怪物」主題的最初萌芽。屍骸保留了人性殘骸，以傳話方式道歉，令晴香第一次正面懷疑「屍骸＝怪物」這個被灌輸的認知框架。同時，這個場景也是「膠布哲學」遭遇第一次質疑的時刻——帝國的「掩蓋問題」方法論，是否真的解決了問題？（CDL-070 膠布哲學第一層種子；CDL-031 屍骸形態）
+
+### 圖片說明
+
+街道一角，老婆婆形態的屍骸蹲伏在地——身體已扭曲變形，無法正常站立，眼睛渾濁失焦，嘴巴無法發出聲音。旁邊一個五六歲的小孩站著，表情茫然但說出了那句話。晴香握著武器，怔在原地，無法繼續戰鬥姿態。
+
+### 劇情位置
+
+**時間點**：帝國歷113年，Act I 早期（E-02附近，初入戰鬥期）
+**CDL 追蹤**：CDL-031（屍骸形態：人形扭曲版，被強烈情緒佔據的人）；CDL-033（屍骸態度選擇示範）；CDL-070（膠布哲學種子）；CDL-053（晴香拯救者情結首次動搖）
+**前置 → 本場景 → Payoff**：E-01首戰「屍骸＝敵人」既定認知 → 老婆婆屍骸以孩子傳話道歉（「屍骸＝怪物」認知首次裂縫）→ Act II 晴香開始質疑帝國「維多利亞天使」體系的道德基礎；Act III 屍骸解放者主題的遠端種子
+
+### 詳細核心描述（250字）
+
+帝國歷113年，早秋，日區街道一角。
+
+晴香在戰鬥剛結束的一片混亂中，遠遠看見一個蹲伏在牆角的老婆婆形態屍骸。屍骸的身體已嚴重扭曲——手臂角度不對，脊椎已彎成不可能的弧線，眼睛渾濁，焦距消失——是典型的被情緒完全佔滿的狀態，已不具備任何正常行動能力。
+
+在它旁邊，站著一個五六歲的小孩。小孩表情茫然，像是剛剛被人說了什麼，又不確定那話是不是真的。
+
+然後小孩轉向晴香，說：「有個婆婆說她很抱歉。」
+
+小孩說完，仍是茫然的表情，說不清楚剛才那句話是怎麼來的。
+
+晴香的手握著武器，動作停住了。
+
+屍骸仍然蹲在那裡，身體繼續輕微抽搐，眼睛沒有焦距。但剛才那句話確實發生了。某個意識碎片，某個被情緒的重量壓住而無法說話的東西，選擇了道歉。
+
+晴香不知道該怎麼做。
+
+這是她第一次意識到，帝國教她「消滅屍骸」的所有邏輯裡，有一個地方有問題。
+
+### Midjourney 標準版
+
+```
+Dark anime. Act I early street battle aftermath. Corner of a residential street, dim grey autumn light. An elderly-woman-form magical corpse crouching against a wall — body severely distorted (arm angle wrong, spine bent in impossible arc, eyes clouded and unfocused), unable to move or speak normally. A small child aged five or six standing nearby, expression blank and uncertain, just having delivered a message they don't fully understand. Haruka standing opposite, weapon still in hand but body frozen — not battle-ready anymore. Emotional pivot: the moment she can't continue. The corpse continues twitching slightly, no awareness. The child looks between the corpse and Haruka. Colors: muted grey street, faint warm amber from distant street lamp, Haruka's outfit contrast. Emotional tone: the first crack in a certainty she didn't know she had. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 老婆婆屍骸的扭曲身體——失去行動能力但不是威脅，視覺上打破「屍骸＝怪物」的既定符碼
+- 小孩的茫然表情——傳話媒介本身對發生的事也不理解，增加超自然感
+- 晴香握著武器但「動作停住」——不是進攻也不是撤退，是第一次無法判斷的時刻
+- 屍骸繼續輕微抽搐——它還在，但傷害已成，道歉本身就是存在的證明
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖153：「秋穗與愛莉的實驗室事故」（The Laboratory Accident）[PRE-STORY] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_153_AkihoAeriAccident.png`
+
+### 劇情背景
+
+帝國歷108年，東雲秋穗的軍方研究實驗室。當時愛莉僅5-6歲，闖入母親的實驗室，意外觸碰了正在研究中的情緒力量裝置原型。那一刻，愛莉成為了世界上第一個人造魔法屍骸——石像化開始。這是秋穗所有黑暗選擇的根源，是她與黑奏訂立契約的根本動機，也是她所有罪孽的起點。CDL-013確認愛莉前史事故係她視覺連結（紙皮騎士形態）的設計起點。
+
+### 圖片說明
+
+實驗室的瞬間：愛莉的手剛接觸到裂開的裝置，石像化從接觸點開始蔓延——手指、掌心、手腕，灰白色的石頭質地快速侵佔皮膚。秋穗的臉從「緊急」切換到「崩潰」的瞬間，那是整個人的崩塌，不只是表情的變化。實驗室的冷光讓一切更殘酷。
+
+### 劇情位置
+
+**時間點**：帝國歷108年（前史，主線開始前15年）
+**CDL 追蹤**：CDL-013（愛莉揭示線設計：前史事故形態＝紙皮騎士前身）；`canon/03_characters/aeri.md §第一個人造屍骸`；`canon/03_characters/akiho.md §愛莉的意外`；`canon/04_timeline_canon.md #event-aeri-accident`
+**前置 → 本場景 → Payoff**：秋穗「超越花子」執念驅動的瘋狂研究 → 愛莉觸碰裝置石像化（秋穗弧光起點）→ 秋穗與黑奏訂立契約；情緒毒品研發動機（「為救愛莉不惜一切」）；圖142秋穗懺悔場景；圖149秋穗×愛莉重逢（Act IV）
+
+### 詳細核心描述（250字）
+
+帝國歷108年，冬。
+
+軍方情緒力量研究實驗室，冷白燈管的光。
+
+愛莉當時只有五六歲。她跟著母親來了不該來的地方。
+
+沒有人告訴她那個裝置不能碰。或者有人說了，但她是個孩子，孩子不懂「不能碰」的意思有時候比「危險」更嚴重。
+
+她的手碰上了裝置的外殼，那個外殼上有一道秋穗試驗時留下的微小裂縫，正在滲出某種不穩定的情緒能量。
+
+石像化從接觸點開始，沒有聲音，只有速度。
+
+手指灰化，然後掌心，然後手腕——那是一種往骨子裡蔓延的冷，愛莉還沒有來得及叫痛，身體就已經開始失去移動的能力。
+
+秋穗的反應分成兩個階段：第一個瞬間是「緊急」——職業性的即時反應，她同時想到了三種緊急處理方法。然後是第二個瞬間。
+
+她看見了愛莉的臉，還是疑惑的表情，還不知道發生了什麼。
+
+第二個瞬間，秋穗的臉崩了。
+
+不是哭，是整個人的結構同時失去支撐的那種崩潰——那個表情在秋穗臉上出現的時間不超過兩秒，但那兩秒是她所有選擇的原點。
+
+### Midjourney 標準版
+
+```
+Dark anime. Pre-story flashback. Imperial military research laboratory, Year 108. Cold white fluorescent light, clinical metal surfaces, experimental equipment. Aeri, age 5-6, small girl in simple clothes, hand just touching a cracked prototype device — petrification spreading visibly from contact point: fingertips turning grey-white stone texture, spreading to palm, wrist, climbing fast. Aeri's expression still confused, not yet registering pain. Akiho (researcher form, late 30s, white lab coat, hair pulled back severe) — face captured in the exact transition moment: professional emergency response collapsing into maternal devastation. Not crying yet — structural collapse of composure. Two-phase expression in one face. Cold laboratory colors: white, steel grey, pale blue equipment glow. Single warm element: the small child against clinical coldness. Emotional tone: the two seconds that decided everything she would do for the next twenty years. 8k, dramatic close-up composite (hands petrifying + Akiho face), niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 石像化從接觸點蔓延的視覺——灰白質地侵佔皮膚，強調速度感（沒有聲音，只有進展）
+- 愛莉的表情仍是「疑惑」——她還不知道發生了什麼，這個時間差令場景更殘酷
+- 秋穗的雙段式表情：「職業緊急」→「母親崩潰」的瞬間切換，兩秒內的轉變
+- 實驗室的冷白光——科學理性的環境烘托感情崩潰的反差
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖154：「花子的死亡瞬間」（The Moment of Creation）[PRE-STORY / ALPHA LINE] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_154_HanakoDeathCreation.png`
+
+### 劇情背景
+
+帝國歷102年，Alpha線，Loop 0。5歲的晴香目睹花子（母親）與美夜子（姐姐）在同一意外中同時遇難——黑奏以無魔法的人類身份在黑幫衝突中導致她們死亡，此為意外而非策劃（CDL-290）。5歲晴香的極端悲痛透過靈樹引爆，觸發「第一次改變現實」，將Alpha線覆寫為Beta線，創造了現在的整個世界。這是整個故事世界的創世原罪。（CDL-289 因果閉環；CDL-290 Alpha線死因定案）
+
+### 圖片說明
+
+Alpha線的城市，街道上，5歲的晴香蹲在地上。她的前方是花子和美夜子倒下的位置——場景剛剛發生，塵埃和碎石仍在飄落。5歲晴香的眼睛裡有某種不是兒童應有的東西：一種太大的悲痛，超過了她身體的承載容量，開始從她身體裡溢出——那是創世能量的前一刻。周圍的空氣開始在她身邊扭曲，灰白的光從地面裂縫往上滲，世界即將被改寫。
+
+### 劇情位置
+
+**時間點**：帝國歷102年（Alpha線，Beta線分歧前，Loop 0起點）
+**CDL 追蹤**：CDL-290（Alpha線死因定案：花子與美夜子意外遇難，非黑奏策劃）；CDL-289（因果閉環：創世能量賦予黑奏魔法力量）；CDL-066（榮格個體化：改變現實＝將內在問題投射到外在）；CDL-047（晴香陰影：Alpha線失去感情感底層）
+**前置 → 本場景 → Payoff**：鐵絲網偶遇（潛意識許願信標）→ 花子美夜子意外遇難（5歲晴香目睹）→ 第一次改變現實（Alpha線→Beta線；夕的誕生；黑奏獲得魔法力量）；整個主線世界的創世原罪；Act III晴香「創世者真相揭露」的情感根源
+
+### 詳細核心描述（250字）
+
+帝國歷102年，Alpha線，初秋。
+
+她才五歲。
+
+她所在的街道不是戰場，只是一個普通的地方，黑幫的衝突偶爾會從這裡路過。那天也路過了。花子和美夜子沒有躲開。
+
+5歲的晴香蹲在地上。她前方的石板上是花子最後的位置，美夜子最後的位置——她不知道用什麼詞去稱呼那件已經發生的事，因為她才五歲，沒有足夠的詞彙去稱呼那種空缺。
+
+但那種空缺比她的整個身體還大。
+
+悲痛超過了承載容量的臨界點，開始溢出。
+
+不是哭聲，是某種更大的東西——5歲晴香的身體周圍，空氣開始以肉眼可見的方式扭曲。灰白色的光從她腳下的地面裂縫往上滲出，細小的石子在沒有風的情況下懸浮，周圍的顏色開始褪去，彷彿現實本身在某個地方失去了連接。
+
+靈樹感應到了那份悲痛的規模。
+
+改變現實的能量在她身體裡引爆，在這一刻，Alpha線開始崩解，Beta線開始被寫入。
+
+她不知道她在做什麼。她只是覺得太痛了，她不要這個世界。
+
+這就是這個世界的起點。
+
+### Midjourney 標準版
+
+```
+Dark anime. Pre-story flashback. Alpha Line, Year 102, autumn city street. A child of five, small and alone, crouching on stone pavement. The immediate aftermath of an accident — dust and debris still settling. Hanako and Miyako's positions implied by context (not graphic — emptiness where they were). The child's eyes: not crying normally — something too large for a child's body, grief exceeding containment capacity, beginning to overflow. Around the child: air visibly distorting — small stones levitating without wind, colors desaturating at the edges, grey-white light seeping upward from pavement cracks. The moment before reality is overwritten. Alpha Line visual palette: lower saturation, more physical and grounded than Beta Line's high-magic aesthetic. Child's clothes simple and worn. Emotional tone: a five-year-old deciding she doesn't want this world, not knowing she has the power to change it. 8k, wide shot with child small in frame against beginning of cosmic distortion, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 5歲晴香的極小身形對比開始扭曲的整個世界——「一個孩子的悲痛改寫了現實」的規模感
+- Alpha線視覺調色：低飽和度、實體感更強，與Beta線高魔法美學明確區分
+- 創世能量的視覺徵兆：漂浮的碎石、地裂縫的灰白光、邊緣褪色——不是爆炸式，而是「現實在鬆動」的感覺
+- 花子和美夜子的「缺席」——用空間暗示，不用直接展示，令觀眾自行填充那個空缺
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖155：「夕完全奪取晴香身體」（Yu's Complete Takeover）[ACT_III] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_155_YuCompleteTakeover.png`
+
+### 劇情背景
+
+Act III Phase J決戰後，黑奏真相揭露衝擊令晴香精神崩潰。夕趁著晴香意識防線徹底瓦解，完全掌控了晴香的身體——這是夕（菲）從「保護性陰影」變成「不受控的主體」的臨界點。夕企圖以晴香之身強行使用「改變現實」的力量，重置整個世界，消滅所有痛苦（包括所有屍骸，即所有曾經是人的靈魂）。這是直接導致此後20年靈魂風暴的機制前置。（CDL-066 個體化危機；CDL-003 夕Act IV終局設計）
+
+### 圖片說明
+
+晴香的身體站在決戰廢墟中，但裡面的意識不是晴香——眼睛顏色偏移，光芒的質地不對，表情帶著一種晴香從未有過的某種決意和悲涼。黑色的能量從她身體滲出，與晴香本色的粉色光產生撕裂感的混合。這個身體試圖做一件太大的事，而那件事已不在晴香的意識控制之內。
+
+### 劇情位置
+
+**時間點**：帝國歷113年，Act III Phase J決戰後（黑奏真相揭露後；主線接近Act IV前夕）
+**CDL 追蹤**：CDL-066（榮格個體化危機：夕完全接管＝Shadow吞噬Persona的極端形態）；CDL-003（夕Act IV終局：改變現實→反悔→undo→消散）；CDL-047（Alpha線記憶積累的最終爆發）；CDL-038（夕妒嫉動機在崩潰臨界的極端化）
+**前置 → 本場景 → Payoff**：Phase J黑奏三段揭露（鐵絲網偶遇真相+創世原罪+晴香是她力量來源）→ 晴香精神崩潰（夕完全接管）→ 夕以晴香之身使用「改變現實」重置世界企圖 → 力量過載引爆靈魂風暴（20年靜止搖籃的直接前置）；Act IV夕最終決定（反悔undo消散）
+
+### 詳細核心描述（250字）
+
+帝國歷113年，晚秋。
+
+帝國廣場的廢墟。決戰結束的方式不是晴香想要的那種結束。
+
+黑奏揭露了三件事，任何一件單獨拿出來都足以令人崩潰，三件同時壓來，晴香的意識防線在那一刻徹底瓦解——不是戰鬥傷，是結構性的崩解。
+
+夕進入了空置的地方。
+
+晴香的身體站在廢墟中，但眼睛不對。瞳色偏移了，那是晴香粉色系混入了某種更深的冷色，那種混合在現實中不應該存在。表情也不對——有一種晴香從未有過的東西，那是夕才有的那種悲涼和決意，是一個在黑暗中獨自承受了十一年的存在才有的表情。
+
+我知道怎麼解決這一切。
+
+夕以這個身體，企圖把「改變現實」推到它的極限——消滅所有痛苦，連同痛苦的容器一起消滅。所有屍骸，所有困在情緒裡的靈魂，連帶整個Beta線世界的構造，全部歸零。
+
+那件事太大了。這個身體承受不了那件事的重量。
+
+黑色的能量從她皮膚往外滲，與身體原有的粉色光產生不相容的撕裂感，廢墟的地面開始從她腳下往外碎裂，空氣中出現了緋潮來臨前的那種顏色。
+
+### Midjourney 標準版
+
+```
+Dark anime. Act III finale, imperial plaza ruins, late autumn night. Haruka's body standing in rubble — but it's not Haruka inside. Eyes shifted: her characteristic warm pink irises overtaken by cold deep-water blue-black, an unnatural hybrid that should not exist. Expression alien on her face: not Haruka's performed warmth or real vulnerability — instead a grief-heavy determination that belongs to someone who endured alone in darkness for eleven years. Black energy seeping from skin, incompatible with her body's existing pink-gold light, creating visible tearing where they meet. Ground cracking outward from her feet. Air taking on the color preceding scarlet tide. Haruka's clothes partially torn from battle, now surrounded by energy she didn't choose to release. The body attempting something too large for it. Colors: cold night blue-black, fragments of warm pink/gold struggling against the dark, rubble grey, crimson tide red beginning at edges. Emotional tone: a shadow finally taking the wheel, not from cruelty but from despair — the worst kind of decision made by someone who has been waiting too long. 8k, dramatic full-body shot with energy manifestation, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 眼睛顏色的偏移——晴香的粉色虹膜被夕的冷色深水藍黑侵佔，是「不是晴香」最直接的視覺標誌
+- 表情不屬於晴香——帶著夕特有的「在黑暗中獨自等待太久的悲涼決意」，是全場景的情感核心
+- 黑色能量與粉色光的撕裂混合——兩個意識不相容的物理化呈現，視覺上的「不應該存在」
+- 地面從腳下往外碎裂＋緋潮前兆顏色——場景尺度，預示20年靈魂風暴的規模
+
+⭐⭐⭐⭐⭐
+
+---
+
+# 第十部分：缺失場景補完（圖160–163）
+
+---
+
+## 圖160：「愛不是佔有，是讓她自由」（Love Is Not Possession, It Is Freedom）[ACT_III] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_160_AyaLoveDeclaration.png`
+
+### 劇情背景
+
+帝國歷114年4月末，Act III Phase J決戰高潮。彩奪回身體主導權的瞬間之後——用盡長年積蓄的意志力，彩第一次令黑奏失去對身體的掌控（aya.md §覺醒與犧牲；CDL-079黑奏情感機制）。這是彩弧光的終點：她不再需要黑奏代為承受螢之死的痛苦，她選擇自己承擔。對黑奏而言，「保護彩不受痛苦」的存在前提在此刻瓦解——保護者人格失去繼續存在的邏輯支撐（aya.md §保護者人格的固有悖論）。彩對黑奏說出這句話：「愛不是佔有，是讓她自由。」這不是指責黑奏，而是彩用自己的聲音，向黑奏說出螢從未能說出的答案——螢當年衝出藏身處，也是選擇讓彩自由，而非被保護。比SPEC#8「彩奪回身體」更具體化那個核心台詞時刻：那個場景是視覺層的奪回，這個場景是話語層的宣言。
+
+### 圖片說明
+
+彩站在天空之中，身體剛剛奪回，金色光芒從內部透出。她的面前是正在消散的黑奏——不是被擊敗的姿態，而是一個孩子在聽到答案後，慢慢放鬆了力氣。彩的臉上沒有勝利的表情，只有一種極度疲憊之後才有的、安靜的確定感。她伸出手，不是要抓住黑奏，而是像送別一樣。黑奏的輪廓在彩的金色光芒裡逐漸透明，最後化為細小的、帶紫色的光點。
+
+### 劇情位置
+
+**時間點**：帝國歷114年4月末（Act III Phase J決戰高潮，彩奪回身體主導權後）
+**CDL 追蹤**：CDL-079（黑奏潛伏三大物理需求與情感機制）；aya.md §保護者人格的固有悖論；aya.md §覺醒與犧牲；canon/04_timeline_canon.md event-aya-awakening
+**前置 → 本場景 → Payoff**：SPEC#8彩奪回身體（視覺奪回）→ 本場景（語言宣言：「愛不是佔有，是讓她自由」）→ SPEC#52彩靈魂解放之光（彩燃燒靈魂化為金色光點）
+
+### 詳細核心描述（280字）
+
+天空，決戰高潮之後。
+
+緋潮的猩紅還在遠處翻滾，但這裡暫時靜止了。
+
+彩站在這裡。她的身體是自己的，第一次，完全是自己的。她感覺到手指、腳趾、每一根發絲，全部屬於她。這份感覺陌生，也沉重——因為連同身體，她也接回了所有她拒絕承受的痛苦。
+
+黑奏的輪廓在她面前逐漸透明。不是崩潰，不是毀滅——是完成任務之後，力氣慢慢鬆開的樣子。
+
+彩看著黑奏。
+
+她伸出手，姿勢像是送別，不像是揮退。
+
+「多謝你保護咗我咁耐。」她的聲音是自己的，帶著幾十年積壓後第一次使用的沙啞。「但係……愛不是佔有，是讓她自由。」
+
+黑奏沒有說話。
+
+或者黑奏一直都知道。只是不願意承認，複活螢的執念深過一切，蓋過了這個答案。但在彩說出口的這一刻——就連這份執念，也開始鬆動。
+
+黑奏的輪廓化為細小的紫色光點，一粒一粒散入空氣。
+
+彩站在那裡，沒有追，也沒有哭。
+
+她只是把那隻伸出去的手，慢慢放下來。
+
+### Midjourney 標準版
+
+```
+Dark anime. Sky setting, aftermath of climactic battle. Aya standing alone, golden light radiating from within her reclaimed body — warm glow rather than explosive energy, internal luminescence of someone finally inhabiting their own form. Before her: Kurokane's silhouette gradually becoming transparent, dissolving from solid presence into scattered violet light particles. The dissolution is not defeat — it is release, like a held breath finally exhaling. Aya's hand extended in farewell gesture, not reaching to grab, but to send off. Her expression: exhausted certainty, the face of someone who has finally spoken the answer they carried for decades. Surrounding: distant crimson scarlet tide turbulence soft-focus, central composition framed by silence and dissolution. Colors: deep navy sky, Aya's warm gold internal glow, Kurokane's dissolving violet particles, emotional contrast between gold release and violet fade. Emotional tone: the moment love learns to let go — not abandonment, but the only true form of love. 8k, niji 6, style raw. --ar 16:9
+```
+
+**視覺重點**：
+- 彩的金色光芒是從內部透出，不是爆發式，是「身體終於是自己的」的溫柔發光
+- 黑奏不是被擊碎，而是以紫色光點逐漸消散——保護者完成使命後的自然釋放
+- 彩伸出的手是送別的姿勢，不是揮退的姿勢——這是區分「否定」與「放手」的視覺核心
+- 彩的表情必須是「疲憊之後的確定」，不是勝利，不是悲傷
+- 兩種光（金色與紫色）在畫面中共存、交疊，最終紫色消散於金色之中
+
+---
+
+## 圖161：「二十年的內心地獄」（Twenty Years of Inner Hell）[ACT_III_IV_GAP] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_161_HarukaCollectiveUnconscious20Years.png`
+
+### 劇情背景
+
+帝國歷114年至134年（20年間隙），Act III Phase K至Act IV Phase L之間。靈魂風暴期間，晴香的意識沉入集體潛意識最深層（CDL-053靈魂風暴20年；haruka.md §Act IV；canon/04_timeline_canon.md Act IV Phase K）。這不是平靜的沉睡——而是20年的內心地獄。她被困在時間靜止的空間，被自己的記憶和罪疚包圍：她見到Alpha線的花子和美夜子、螢還活著的彩、她親手創造的Beta線一切災難的幕後——她是創世者，她目睹的是自己的作品在磨碎每一個她愛的人。這個場景與SPEC#138（二十年後的第一個早晨）形成對照：覺醒是終點，但覺醒之前的20年才是她真正的試煉。也與圖155（夕奪體）和圖138（覺醒）形成三幕：夕奪體是起點，本場景是中間的煉獄，SPEC#138是出口。
+
+### 圖片說明
+
+集體潛意識深處的晴香，她的樣子停留在17歲，但眼神裡是數十年的重量。她漂浮在一個沒有上下、沒有時間的空間裡——四周是她自己的記憶碎片：花子在Alpha線倒下的瞬間、美夜子的貓形態、紫音和操的犧牲、所有在Beta線受苦的人。這些記憶像玻璃碎片，懸浮圍繞她，每一片都在發光，每一片都在刺她。她的手想去撿起它們，又怕被割傷。她的膠布已經全部用完了，全貼在這些碎片上，但碎片太多，碎片還在不斷碎裂。
+
+### 劇情位置
+
+**時間點**：帝國歷114年-134年（20年間隙，Act III Phase K至Act IV Phase L之間）
+**CDL 追蹤**：CDL-053（靈魂風暴20年）；CDL-070（膠布哲學——晴香的核心視覺語言）；CDL-066（榮格個體化過程具現化系統）；haruka.md §Act IV；canon/04_timeline_canon.md 134年
+**前置 → 本場景 → Payoff**：圖155夕奪體（Phase J）→ 本場景（20年集體潛意識煉獄）→ SPEC#138二十年後的第一個早晨（覺醒，膠布全部放下）
+
+### 詳細核心描述（270字）
+
+集體潛意識。深處。時間靜止的地方。
+
+晴香漂浮在這裡，不知道多久了。可能是一天，可能是二十年——在這裡，分別沒有意義。
+
+她的身體停留在17歲的樣子，但她的眼睛不是17歲的。
+
+四周的空間沒有顏色，或者說所有顏色都有——因為她的記憶碎片懸浮在每一個角落，每一片都在發出不同的光。她看見操在人偶牆裡停止移動的瞬間，光是冷白色的。她看見紫音化為糖果山的一刻，光是螢光橙色的。她看見Alpha線的花子在溫暖廚房裡轉身，光是她從未能真正擁有的金色。
+
+她看見Beta線裡所有人的眼睛。那些眼睛看著她，說著那句話——那句黑奏用過的話，那句她一直試圖反駁的話：「這都是你造成的。」
+
+她的膠布貼滿了每一片記憶碎片。但碎片太多，她的膠布早就用完了。
+
+她的手懸在空中，不知道要去撿哪一片。
+
+沒有英雄式的掙扎，沒有豁然開朗。只有她，在靜止的地獄裡，一年又一年，學著不用膠布，而是用自己的手去摸清楚每一個傷口的形狀。
+
+這是二十年的功課。沒有捷徑，沒有終點，只有繼續。
+
+### Midjourney 標準版
+
+```
+Dark anime. Collective unconscious deepest layer — timeless suspended space, no gravity, no horizon. 17-year-old Haruka floating in center, her body young but her eyes carrying decades of weight. Surrounding her: countless suspended memory fragments like broken glass shards, each glowing different colors — cold white (Misao's sacrifice), fluorescent orange (Shion's explosion), impossible gold (Alpha-line Hanako in kitchen). The shards reflect painful scenes without showing them directly — emotional implication through light color. Haruka's hands reaching toward the fragments but hesitating. Her bandages visible but clearly exhausted — some shards have bandages stuck on them. No dramatic composition — the horror is the stillness, the floating, the endless unchanging quality of this space. Colors: central figure in muted soft tones surrounded by vivid fragment glows; emotional contradiction between outer color richness and inner stillness. Emotional tone: not the darkness of nightmare but the grey endlessness of guilt that cannot be solved — twenty years of learning to feel without flinching. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 晴香的身體停在17歲，但眼神必須有時間的重量——這是最難也最重要的視覺指示
+- 記憶碎片用光的顏色暗示場景，不直接呈現具體人物，讓觀眾自行聯想
+- 膠布貼在碎片上——膠布哲學（CDL-070）的最後形態：終於沒有東西可以貼了
+- 漂浮感是核心：沒有地板，沒有天花板，沒有上下，這是靜止的恐怖
+- 與SPEC#138的對照：此場景是深淵，SPEC#138是出口——兩張圖的色調和構圖方向應形成明確反差
+
+---
+
+## 圖162：「放棄的那一秒」（The Second of Surrender）[ACT_II] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_162_ShionCorpsificationMoment.png`
+
+### 劇情背景
+
+帝國歷113年某月，Act II Phase B，E-07a（小光之死）結束後直接觸發（CDL-229 E-07a/b設計；CDL-271屍骸化「未斷的殘絲」靈魂困禁機制；iwakura_akane.md §小光之死場景）。這不是慢慢的過程，而是一個決定性的崩潰時刻。紫音一直以魔法戰鬥作為精神毒品麻醉弟弟死亡的罪疚感（CDL-051紫音深層心理）；小光的死，是對弟弟之死的完整重演——「我帶回來的希望，再一次親手殺死了我最愛的人」。在那一秒，紫音停止了反抗：她的身體開始回應「飢餓感」的極致累積，屍骸化從這個放棄的瞬間開始。這是比SPEC#147（流浪期間半屍骸化形態）更早的起點——是屍骸化的原點，是後來所有事的根源。
+
+### 圖片說明
+
+廢棄空間，小光死亡的現場。紫音跪在地上，周圍是散落的破碎物件。她的手在顫抖，但不是戒斷的抖——是另一種，更深的顫抖，那種「已經決定了什麼」的顫抖。她的眼睛定在某處，不是看著什麼，而是看穿了什麼。然後，就在那一秒，她的右臂開始出現屍骸化的紋路——不是驚恐的反應，而是一種奇異的、近乎平靜的讓步：身體終於得到了「放棄自我」的許可。她沒有哭，她早就哭不出來了。
+
+### 劇情位置
+
+**時間點**：帝國歷113年（Act II Phase B，E-07a小光之死後直接觸發，E-07a/b之間的過渡瞬間）
+**CDL 追蹤**：CDL-229（E-07a小光之死+邏輯重構；E-07b廢棄糖果工廠）；CDL-271（「未斷的殘絲」靈魂困禁機制——屍骸化=靈魂被執念錨住的永恆監禁）；CDL-051（紫音核心心理：魔法=精神毒品；弟弟罪疚感）；iwakura_akane.md §小光之死場景；§悲劇的背叛與墮落
+**前置 → 本場景 → Payoff**：CDL-229 E-07a小光之死 → 本場景（屍骸化起點）→ E-07b廢棄糖果工廠屍骸樂園（紫音已半屍骸化狀態建立）→ SPEC#4廢棄糖果工廠（屍骸女皇形態）→ SPEC#10糖果山犧牲（燃燒的贖罪）
+
+### 詳細核心描述（260字）
+
+小光倒下的地方。
+
+碎磚，廢棄廠房的牆面，陽光從破裂的屋頂縫隙射進來，光柱裡飄著灰塵。
+
+紫音跪著。
+
+她的手停在空中，在小光剛才在的位置。她沒有去觸碰——不是因為太遲，而是因為她的手不知道要去做什麼。這雙手打過無數屍骸，吸走過無數情緒能量，救過弟弟、沒救過弟弟，然後又來到這裡，再一次什麼都沒做到。
+
+顫抖，是那種很安靜的顫抖。不是戒斷，不是恐懼，是「已經決定了什麼」的顫抖。
+
+她的視線定在遠處，像是在看某樣東西，又像是什麼都沒在看。
+
+就在那一秒，她右臂的皮膚開始出現紋路。不是突然的，不是爆發的——是緩慢的，像是裂縫在乾涸的泥土上慢慢延伸。屍骸化開始了。
+
+她的臉上沒有驚恐，沒有掙扎。
+
+只有一種奇異的、近乎平靜的讓步：身體終於接收到靈魂發出的許可——「放棄了。」
+
+沒有哭聲。
+
+她的右手放下來，落在膝蓋上，掌心向上，空著。
+
+### Midjourney 標準版
+
+```
+Dark anime. Abandoned warehouse space, aftermath of loss. Shion kneeling on broken concrete floor, hand suspended in the air where Kohikaru just was — not reaching, not withdrawing, simply stopped in a gesture that has lost its purpose. Scattered debris around her. Shaft of dusty light from cracked roof above. Her body language: the specific quietness of someone who has just decided something irreversible. Her right arm begins showing the first signs of corpseification — subtle dark fissure patterns spreading slowly up the skin, not explosive transformation but a slow exhale of surrender. Her expression: no tears, no fear, no horror — only the strange near-peace of having finally given permission. Eyes looking at nothing and through everything. The horror is the absence of struggle. Colors: muted warehouse greys and browns, dusty golden light shaft, the corpseification patterns in dark charcoal veins, emotional deadness in her eyes despite being alive. Emotional tone: the moment a person stops resisting their own destruction — not dramatic, more terrible for its quietness. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 紫音的臉上沒有恐懼也沒有驚叫——這是設計核心：屍骸化以「讓步」而非「掙扎」開始，是比恐懼更深的東西
+- 右臂的屍骸化紋路必須是緩慢擴散的，不是爆炸式變化，是裂縫在乾地慢慢延伸的質感
+- 她的手「停在空中」但不是抓，是失去了方向的停頓——這個姿勢承載了「太遲了」的全部重量
+- 廢棄空間和光柱的設定：光照著她，但光照不進她的眼睛——光與黑暗的錯位
+- 這張圖必須讓觀眾感到「比哭更難受」——靜默比崩潰更令人窒息
+
+---
+
+## 圖163：「我還是人嗎？」（Am I Still Human?）[ACT_III] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_163_MiyakoBathMirror.png`
+
+### 劇情背景
+
+帝國歷114年4月中旬，Act III Phase H，晴香陷入集體潛意識中期（CDL-274月下崩潰場景「一氣呵成序列」的前置心理準備；miyako.md §Unit 01靈魂困禁狀態CDL-271；miyako.md §四幕弧光第三幕）。美夜子單獨在黑暗的浴室中沐浴——這是她長年的習慣（SPEC#57黑暗沖涼習慣），但這一次不是普通的習慣儀式，而是某種更深的自我確認。在成為Unit 01之後、在記憶逐步恢復之後、在「借來的命」的壓力越來越重之後，她用手確認自己身體的輪廓：這些皮膚還是人的皮膚嗎？她看鏡子——鏡像法則（CDL-282靈魂真實）觸發，她不確定鏡中那個倒影顯示的是她最深的真實，還是她最害怕承認的那個答案。CDL-274月下相認的前夜心理準備：在倖存者罪疚累積至極限、在崩潰即將到來之前，她在黑暗中問了這個她從不對任何人說出口的問題。
+
+### 圖片說明
+
+完全黑暗的浴室，只有牆上某處有一道細光縫。美夜子站在浴室中央，水從花灑落下，打濕她的頭髮和肩膀。她的手按在自己的臉上、頸部、鎖骨——用觸覺確認這個身體還在。然後她轉向那面鏡子。鏡子裡有她的倒影，但鏡子裡的眼神不像她認識的自己——那雙眼睛問的是：「你確定那是你嗎？」她沒有回答。水繼續落下，她站在那裡，看著鏡子，鏡子也看著她。
+
+### 劇情位置
+
+**時間點**：帝國歷114年4月中旬（Act III Phase H，晴香陷入集體潛意識中期）
+**CDL 追蹤**：CDL-274（美夜子姊妹相認2步設計；Step 1月下崩潰序列前置）；CDL-275（月下崩潰場景一氣呵成序列設計）；CDL-282（鏡像法則：靈魂真實——鏡照出最深層掩蓋）；CDL-271（Unit 01靈魂困禁狀態）；miyako.md §Unit 01靈魂困禁狀態；§借來的生命
+**前置 → 本場景 → Payoff**：美夜子Act II記憶恢復（單向知情；知道晴香是妹妹）→ 本場景（「我還是人嗎？」存在性危機）→ CDL-274 Step 1月下崩潰（倖存者罪疚達崩潰極限；晴香本能抱住她；貓殼碎裂）→ CDL-274 Step 2黑奏處刑室相認（語言層完整相認）
+
+### 詳細核心描述（255字）
+
+黑暗的浴室。
+
+沒有開燈。不是忘了——是習慣。
+
+美夜子站在花灑下，水從頭頂落下來，打濕頭髮、肩膀、鎖骨，流過她看不見自己輪廓的身體。她閉著眼睛，用手去確認：臉還在，頸部還在，鎖骨的弧度還在。
+
+觸覺告訴她：這是皮膚，這是人的皮膚。
+
+但觸覺只能告訴她那麼多。
+
+她睜開眼睛，轉向鏡子。
+
+鏡子裡有她，倒影清楚。她的臉，她的眼睛，她熟悉的每一條線。
+
+但那雙眼睛問了一個她認不出的問題。
+
+不是「我是誰」——那個問題太容易逃避，說一個名字就算了。是更深的那個：「這個身體是借來的，這條命是多餘的，那麼站在這裡的這個存在，還算不算人？」
+
+鏡像法則沒有回答。鏡子只是照出她最深層掩蓋的東西。
+
+水還在落。
+
+她站在那裡，看著鏡子，鏡子也看著她。
+
+沒有答案，沒有崩潰，只有這個問題在黑暗中懸著——因為她還沒有準備好，無論答案是什麼，都沒準備好。
+
+她知道她快撐不住了。但這一晚，她還是把手放下來，讓水繼續落，讓問題繼續懸在那裡，沒有說出口。
+
+### Midjourney 標準版
+
+```
+Dark anime. Completely dark bathroom, only a thin crack of dim light from somewhere on the wall. Miyako standing under running shower, water falling over her hair, shoulders, collar bones. Her hands pressed against her own face and neck — tactile self-confirmation ritual. She turns to face the bathroom mirror. Mirror reflection visible: her face clearly reflected, but the eyes in the mirror carry an expression of a different, deeper question than her face outside. The disconnect between her exterior stillness and her mirror's silent questioning is the visual core. Very dark environment with minimal light — water catching the thin light crack creates sparse shimmer. Colors: near-total darkness, cool blue-grey water shimmer, pale skin catching almost no light, mirror as the only brighter element. Emotional tone: the specific loneliness of a person asking the question they cannot speak aloud — not breakdown, but the moment before breakdown, suspended in the dark with no answer. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 浴室必須幾乎全黑——這不是美麗的月光場景，這是選擇在黑暗中的習慣
+- 鏡中倒影的眼神與鏡外美夜子的神情有微妙錯位——鏡像法則（CDL-282）的視覺化：鏡照出靈魂最深層的東西
+- 她用手觸摸自己身體的動作必須是「確認」而非「展示」——觸覺的動作，沒有表演性
+- 水落下的細節：水在稀薄光線中的反光是場景中唯一的動態，其他一切靜止
+- 「她還沒有崩潰」——這張圖的重點是崩潰前的靜止：她知道她快撐不住了，但這一晚還在撐著
+
+---
+
+## 圖164：「我選擇停留在我想停留的位置」（I Choose to Stay Where I Want to Stay）[ACT_III] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_164_MisaoFinalConfession.png`
+
+### 劇情背景
+
+帝國歷114年5月，Act III Day 13 前夜，鋼鐵獨舞犧牲之前。操在這個夜晚第一次在紗夜面前放下了那套完美表演的殼——不是失控崩潰，而是主動卸下。這不是弱點的暴露，而是態度的宣言：「我選擇停留在我想停留的位置。這不是被迫，而是我自己選的。」這是全作「態度自由」主題最純粹的具現時刻（ayakomoji_misao.md §最終宣言；§鏡像破碎之夜；CDL-298；CDL-300·暫定）。操清楚自己背負著Phase H據點洩露的秘密罪疚（CDL-298），清楚自己不值得用語言解釋，但她不選擇逃避也不選擇控制——她選擇說出這句話，讓紗夜知道她不是以死贖罪，而是以主體性站在自己選擇的位置上。紗夜的反應不是哭泣，不是阻止，而是那種只有真正無條件愛一個人的人才能做到的——沉默地接住這份宣言，讓它落地。
+
+### 圖片說明
+
+夜晚，一個昏暗的室內小角落，操面對著紗夜說出那句話。不是對著鏡子，不是對著世界，只是對著這個唯一認識真實自己的人。她的表情沒有眼淚，沒有英雄氣概——只有一種「終於不需要表演」的靜。紗夜的臉是接住了，沒有多餘動作，沒有搶著說什麼，只是用那種只有她才有的眼神，看著操說完這句話。
+
+### 劇情位置
+
+**時間點**：帝國歷114年5月，Act III Day 13 前夜（鋼鐵獨舞犧牲之前）
+**CDL 追蹤**：CDL-298（Phase H 被迫洩露；罪疚沉默至Day 13）；CDL-300·暫定（集體潛意識母親碎片重逢使鋼鐵獨舞昇華）；ayakomoji_misao.md §最終宣言；§紗夜——唯一的無條件之愛
+**前置 → 本場景 → Payoff**：紗夜犧牲揭露真相（Day 13 鏡像破碎之夜前置）→ 本場景：操在犧牲前唯一一次真正「不表演」的時刻，說出態度宣言 → 鋼鐵獨舞（SPEC#1）從贖罪式死亡昇華為主體性聲明；SPEC#144 操與紗夜最後一晨形成三幕
+
+### 詳細核心描述（250字）
+
+某個昏暗的角落，夜。
+
+兩個人面對面——沒有第三個人，沒有觀眾。
+
+操站著。她沒有一絲平常的完美姿態：肩膀沒有刻意撐直，手沒有放在特定位置，臉沒有計算表情。這是她第一次在紗夜面前不需要做任何計算。
+
+她開口。
+
+「我選擇停留在我想停留的位置。這不是被迫，而是我自己選的。」
+
+不是求救。不是告白。不是解釋。是一句讓自己說清楚、讓自己聽見的話——像最後一次把碎裂的心房確認一遍，確認它還在，確認它還是自己的。
+
+紗夜沒有說話。她沒有衝上去抓住操的手腕，沒有哭，沒有問「你說的選擇是什麼」。
+
+她只是站在那裡，看著操。
+
+那個眼神裡有一種東西，是操這輩子只在紗夜這裡收到過的：「我聽到了。你說的，我都知道了。」
+
+操的眼睛沒有眼淚。
+
+但眼睛裡有一種東西，比眼淚更底層——那是一個終於不需要表演的人，最後一次，確認自己是真實存在過的。
+
+### Midjourney 標準版
+
+```
+Dark anime. Dim interior corner, nighttime. Two figures face to face — Misao and Sayo. Misao standing without her usual posture calculation, no performance: shoulders natural, hands at side, expression without mask. She is speaking a single sentence. No tears. Sayo facing her, not moving to stop her, not crying — absorbing. Sayo's expression: the look of someone who has caught something, who knows what was just said without words. Two women in quiet amber shadow. No third figure. Emotional weight without drama. Colors: dim amber lamp warmth, deep shadow, worn interior. Emotional tone: the first time Misao did not perform, and the last time she will speak freely. 8k, intimate framing, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 操的姿態：第一次「沒有審核殼」——肩膀、手、表情都沒有計算過
+- 操說話時沒有眼淚，只有「終於說出口」的安靜——不是崩潰，是宣言
+- 紗夜的眼神：「接住了」——不阻止，不追問，只是收到
+- 只有兩個人，沒有觀眾——這個場景的完整性依賴於「只有紗夜在」
+- 昏黃燈光的溫暖與即將到來的黑暗形成對比
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖165：「殿後的前夜」（The Night Before the Rear Guard）[ORIGIN_FLASHBACK] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_165_RinMiyakoLastNight.png`
+
+### 劇情背景
+
+帝國歷108年，凜殿後犧牲的前夜。這不是犧牲瞬間（SPEC#77），而是決定的那一刻——凜知道自己明天要做什麼，美夜子是否也知道？這個夜晚是美夜子終身PTSD情感根源的更早一層：不是「喀嚓」聲（那是創傷的聲音化），而是「我看到她的眼神，我已經知道了，但我們都沒有說」（rin.md §犧牲——光環處決；miyako.md §凜的犧牲與詛咒首次觸發；CDL-271）。美夜子和凜的連結核心在於「一個眼神就是一整套戰術」——這個前夜，她們在不需要語言的靜默中完成了最後的道別。凜「終於等到一個值得犧牲的理由」的釋然，在這一夜已在她臉上隱隱出現。美夜子倖存者罪疚的根源不只是「沒有阻止」，而是「我看到了她的眼神，我知道，但我仍然繼續睡去」——那份「我知道」的沉默成為她此後多年無法觸碰的深處。
+
+### 圖片說明
+
+帝國歷108年，某個戰地夜晚，凜與美夜子並排——可能是在臨時據點的地板上，可能是靠牆坐著，可能是背對背沉默地對著各自的方向。不需要對話，不需要告別的話語。凜的臉上有一種微妙的東西，美夜子看見了，或者沒有說她看見了。這個夜晚的核心在於：有些事情說出來反而不真實，沉默才是最重的重量。
+
+### 劇情位置
+
+**時間點**：前史，帝國歷108年（凜光環處決前夜；美夜子PTSD情感根源）
+**CDL 追蹤**：CDL-271（美夜子Unit 01靈魂困禁；倖存者罪疚根源）；rin.md §犧牲——光環處決；rin.md §與美夜子的羈絆；miyako.md §凜的犧牲與詛咒首次觸發；timeline #event-rin-sacrifice
+**前置 → 本場景 → Payoff**：SPEC#76 凜×美夜子黃金搭檔期（巔峰默契） → 本場景：前夜沉默，沒有說出口的「我知道」 → SPEC#77 凜殿後犧牲（「喀嚓」聲）；美夜子的倖存者罪疚成為其此後一切行為的底層驅動；SPEC#6 月下崩潰（美夜子精神狀態根源）
+
+### 詳細核心描述（240字）
+
+帝國歷108年，某個戰地夜晚。
+
+臨時據點，燈光微弱或沒有燈光。地板是冰冷的。
+
+凜和美夜子並排坐著，或者靠著，或者背對背——不是為了策略，只是因為兩個人都不想走遠。她們的戰術配合已經到達了某個境界：不需要語言，一個眼神是一整套作戰計劃。
+
+今晚沒有眼神交換。
+
+凜看著她自己的前方，美夜子也看著她自己的前方。
+
+但有什麼東西在空氣裡，像一首沒有唱出來的歌的最後一個音符。凜的臉上有一種東西——不是悲傷，不是恐懼——是「終於等到了」的微微鬆開。那個表情在被感知到的一刻，又收回去了，如果有的話。
+
+美夜子的手指沒有動。
+
+她的眼角沒有轉向凜。
+
+但她知道了。就像她總是知道——這就是為什麼她們不需要語言。
+
+她知道了，但她沒有說話。
+
+就是這個沉默，在第二天的「喀嚓」之後，成為美夜子此後十幾年都無法觸碰的那個地方。
+
+### Midjourney 標準版
+
+```
+Dark anime. Wartime temporary shelter, dim night. Rin and Miyako side by side — sitting on floor or leaning against wall, not facing each other, each looking at their own direction. The silence between them heavier than any speech. Rin's face: almost imperceptible expression of something finally settled — not fear, not sorrow, something closer to release. Miyako's expression: still, controlled, knowing but unspoken. No dramatic lighting. Their postures suggest two people who have never needed words, and tonight words would break something that silence preserves. Colors: muted grey-blue military shelter interior, dim warm light source, worn gear visible. Emotional tone: the night before, the thing that was not said, which became the weight of survival. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 兩人並排但各看各的方向——「不用語言」的羈絆設計，沉默比對話更重
+- 凜臉上「終於等到了」的微妙鬆開感——不是恐懼，是釋然的輕微外露
+- 美夜子的靜止——「知道但不說」比「不知道」更沉重
+- 臨時戰地據點的環境：磨損感、疲憊感、軍事實用主義美學
+- 構圖：兩個人之間的小小距離，那段距離是整幅圖情感最重的地方
+
+⭐⭐⭐⭐
+
+---
+
+## 圖166：「既然如此，讓怪物有個家」（If So, Let the Monsters Have a Home）[ACT_II] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_166_ShionFallDecision.png`
+
+### 劇情背景
+
+帝國歷113年5月至6月，Act II Phase B，E-07b之間。小光屍骸化後，紫音在某個時刻——不是情緒最激烈的一秒，而是情緒耗盡之後——做出了那個決定（iwakura_akane.md §悲劇的背叛與墮落；§第二幕：小光與墮落；CDL-229；CDL-230）。黑奏以「她沒有死，只是換了生存方式」欺騙紫音，但比那句話更深的，是紫音自己的邏輯跳躍：「既然人類世界無法容納我們，那就讓怪物們有個家。」這不是SPEC#85（小光死亡瞬間黑奏邏輯侵入）——那是情緒崩潰的入口。這個場景是情緒耗盡後的「意志決定時刻」：紫音看著小光變成的廢鐵殘骸，做出從「失去希望」到「主動選擇墮落」的那個決定，是屍骸樂園建立的心理根據。比SPEC#85更晚（情緒已耗盡），比SPEC#86廢棄糖果工廠三人辯論更早（樂園已在成形中）。
+
+### 圖片說明
+
+廢棄的空間（即將成為廢棄糖果工廠的地點，或類似的荒廢場所），紫音獨自一人，面前是小光已屍骸化後的殘骸——不再是完整的人形，但紫音仍然坐在其旁邊，或手放在上面。眼淚早已哭乾，表情是一種比憤怒更靜的東西：一個人想通了一件事，並且決定了。這個決定的瞬間不是崩潰，是選擇——一種主動的、清醒的、不可挽回的選擇。
+
+### 劇情位置
+
+**時間點**：帝國歷113年5-6月（Act II Phase B，E-07a結束後至E-07b之間）
+**CDL 追蹤**：CDL-229（小光之死；紫音邏輯世界崩潰）；CDL-230（E-07b廢棄糖果工廠；屍骸樂園建立）；CDL-236（屍骸女皇形態視覺頂點）；iwakura_akane.md §小光——最後的溫暖錨點；§悲劇的背叛與墮落
+**前置 → 本場景 → Payoff**：SPEC#85 小光死亡/黑奏邏輯侵入（情緒入口） → 本場景：情緒耗盡後的「意志決定」——紫音主動選擇墮落 → SPEC#86 廢棄糖果工廠三人辯論（屍骸樂園已成形）；SPEC#4 廢棄糖果工廠（屍骸女皇形態頂點）
+
+### 詳細核心描述（260字）
+
+廢棄的空間，一個正在腐朽的角落。
+
+小光不在了——至少那個「小光」不在了。留下來的是一些廢鐵質地的東西，是屍骸化的殘骸，是那個紫音曾經稱呼為小光的存在用過的形狀。
+
+紫音坐在那個形狀旁邊，手放在上面，或者靠近。
+
+她已經哭過了。不是正在哭，是已經哭完了，哭到什麼都流乾了——那種狀態比哭的時候更靜，也更重。
+
+黑奏說的話在某個位置仍在迴響：「她沒有死，只是換了生存方式。」
+
+那句話不是紫音想出來的，但紫音把它接住了——不是因為相信，而是因為此刻她需要一個邏輯容器，把這份重量裝進去。
+
+然後紫音的腦子裡，有一個東西想通了。
+
+不是情緒，是邏輯。
+
+「人類世界無法容納我們。那就讓怪物們有個家。」
+
+這不是黑奏說的。這是紫音自己算出來的答案。
+
+這個決定沒有眼淚，沒有崩潰。紫音的眼睛在這一刻是清醒的——一個人做出了一個決定，知道自己在做什麼，知道這條路的盡頭是哪裡，然後走進去。
+
+屍骸樂園的藍圖，從這一刻起，開始在廢鐵與腐朽的環境裡，慢慢成形。
+
+### Midjourney 標準版
+
+```
+Dark anime. Abandoned decrepit interior, dim sparse light. Shion sitting alone beside the corpse-remains of someone she loved — a corroded, partially rusted figure of what was once Hikari, no longer fully human in shape. Shion is not crying anymore — past crying, expression drained and then settled into something quiet and decided. Not rage, not despair — the stillness of someone who has made a choice and knows it. Her eyes are open and clear, not glazed. Around her: rotting walls, decay, the beginning of a space that will become something else. Colors: deep grey-rust-brown decay, dim cold light, Shion signature purple-red hair dull in this light. Emotional tone: the moment hope was replaced by decision — not a breakdown, a choosing. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 紫音的表情不是崩潰，是「想通了」的靜——主動選擇而非被動墜落
+- 小光的殘骸：屍骸化的廢鐵質地，不再是完整人形，但仍可辨認是「曾經是某個人的形狀」
+- 眼淚已乾：比哭的時候更重、更危險
+- 周圍的腐朽環境：屍骸樂園的雛形空間，見證這個決定
+- 清醒的眼神：這是最重要的視覺細節——她知道自己在做什麼
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖167：「母親之愛的背面」（The Other Side of a Mother's Love）[ACT_II] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_167_AkihoBetrayal.png`
+
+### 劇情背景
+
+帝國歷113年，Act II 中期，秋穗執念達到頂點時。秋穗在「救愛莉」的執念驅動下，最終做出了出賣晴香、與黑奏陣營私下交易的選擇。這不是一個戲劇化的面對面場景，而是秋穗「最後一刻理性」消失的內化時刻：她一個人，在某個私密空間——可能是愛莉石像前，可能是實驗室裡——做出了這個決定（akiho.md §與魔鬼的契約；§瘋狂的結果論；§第三幕最後抉擇；CDL-015）。三層動機在這個瞬間同時運作：救愛莉（表面）、超越花子的潛意識僭越（底層暗流）、以及「結果才是一切」信念在最後防牆崩潰前的一次極端擴張。秋穗不是惡人——她是一個用愛做出了傷害最深的選擇的人，這才是她弧光的核心悲劇。愛莉石像的靜默見證，使這個「以愛之名」的決定具有最殘酷的諷刺：她聲稱「為了救愛莉」的行為，在愛莉的石像面前完成。
+
+### 圖片說明
+
+秋穗一個人，在一個私密的空間——實驗室，或者愛莉石像前的角落。她沒有奸笑，沒有悲傷崩潰。她的表情是一種比兩者都更難看見的東西：一個人清楚自己在做什麼、知道這樣做是錯的、然後仍然選擇做下去的那一刻。手上可能有某件物品（通訊裝置、數據晶片）——那個決定的物質媒介。眼鏡的反光遮住了她眼神的深處。背景是愛莉石像的輪廓，靜默地在那裡。
+
+### 劇情位置
+
+**時間點**：帝國歷113年（Act II 中期，秋穗執念頂點期）
+**CDL 追蹤**：CDL-015（秋穗Act IV缺席式收結，承責弧線）；akiho.md §與魔鬼的契約；§三層動機（救愛莉/超越花子/結果論）；§罪孽的繼承者；§石像前的懺悔
+**前置 → 本場景 → Payoff**：SPEC#142 秋穗實驗室懺悔（每天的石像懺悔，執念積累） → 本場景：最後一刻理性消失，出賣晴香的決定時刻 → SPEC#41 秋穗藥物實驗室（身份暴露後的科學家真面目）；秋穗弧光「瘋狂科學家→悔恨的母親→放手者」的關鍵轉折節點；SPEC#67 石像前的懺悔（每天的懺悔，罪疚的日常化）
+
+### 詳細核心描述（230字）
+
+某個空間，某個深夜。
+
+秋穗一個人。
+
+背景是愛莉石像的輪廓——那座永遠靜止的結晶雕像，仍然站在那裡，永遠不會說什麼。或者是實驗室的冷白光。
+
+秋穗的手上有某件東西：通訊裝置，或者數據載體，或者某份協議的物質形式。
+
+她的眼鏡反著光，那個反光讓她的眼神難以看清。
+
+她不是正在哭。她也不是冷酷無情。
+
+她的表情是一種很難在人臉上看見的東西——一個人在「知道這是錯的」和「但我還是要做」之間，那個極短的、幾乎不存在的縫隙。那個縫隙在她臉上閉合的那一刻，就是她做出決定的那一刻。
+
+她的手指動了。
+
+「結果才是一切。」這句話她在心裡說過太多次，這次不需要再說出來，它已經是空氣，已經是她呼吸的一部分。
+
+手指動的那個動作，讓一個人的「最後一刻理性」消失，讓另一個人（晴香）從此成為棋局的一部分。
+
+背景的石像什麼也不知道，或者什麼都知道。
+
+### Midjourney 標準版
+
+```
+Dark anime. Private space, deep night. Akiho alone — laboratory cold light or dim stone space with Aeri crystallized statue silhouette in background. She holds something in hand: communication device or data chip. Her glasses reflect the light, partially obscuring her eyes. Expression: not evil, not grief — the specific look of someone who knows what they are about to do is wrong, and is choosing to do it anyway, in the moment before that last rationality closes. The threshold crossing. Colors: cold lab white-blue or dim stone space, Akiho dark purple hair dull in harsh light, Aeri statue silhouette as background witness. Emotional tone: the moment love became the vehicle for harm — not malice, something worse: conviction. 8k, niji 6, style raw. --ar 9:16
+```
+
+**視覺重點**：
+- 秋穗的表情：不是惡意，不是崩潰，而是「知道是錯的仍選擇做」那個特定的臉
+- 眼鏡反光遮住眼神——設計上的刻意遮蔽，映照「無臉執行官」形態的前兆（akiho.md §未來形態）
+- 手上的物質媒介（通訊裝置/數據晶片）——決定的物質化，讓「選擇」有具體的形
+- 愛莉石像輪廓作為背景見證——她聲稱「為了愛莉」的行為，在愛莉雕像的靜默下完成
+- 環境：冷白實驗室光或石像前陰影——兩種都是秋穗日常的「聖地」，在聖地完成背叛
+
+⭐⭐⭐⭐
+
