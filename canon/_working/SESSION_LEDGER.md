@@ -1,6 +1,24 @@
 # SESSION_LEDGER
 
 ## Current Phase
+- Phase 15 (Act III Outline 設計) — **Round 049（2026-07-02）彩(黑奏)角色深度 co-design 討論 + 恐怖家家酒受困機制落檔；CDL-301 新增；00_Story_Brief.html 過時內容修正；主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
+
+## Completed This Round (Round 049 — 2026-07-02 彩(黑奏) co-design + 恐怖家家酒機制)
+- [x] **READ_FIRST** PROJECT_STATUS/NEXT_ACTION/QUESTION_QUEUE + aya.md/akiho.md/iwakura_akane.md/rin.md + 04_timeline_canon.md + ACT_III_OUTLINE.md + 00_Story_Brief.html + .story_dashboard_work（DIR-004/contradiction_log）
+- [x] **CO_DESIGN_DISCUSSION**（未落 canon，記於 `temp3.txt`）：彩單薄根源分析（結構性缺乏獨立關係線）；黑奏×秋穗/紫音/凜三條關係深化方向（秋穗=同類惡鬼共鳴已批准方向；紫音=執念欣賞待因果順序；凜=科學實驗心態，性價比最高建議優先）；彩「兔仔咬人」Behavior Hook 3 升級版演出構思；操×無名男孩死亡演出強化（平庸之惡細節）方向
+- [x] **CONTRADICTION_FOUND（未解決，需作者另定）**：黑奏 98 年政變 vs 102 年鐵絲網偶遇「被帝國拘束」時序矛盾——作者提出修正方向（戰爭後被收養+做實驗→之後先政變上位），但具體修正年份未拍板，98年政變日期需要更新但未落 CDL
+- [x] **CONTRADICTION_FOUND_AND_PARTIALLY_FIXED**：00_Story_Brief.html「恐怖家家酒」誤標為 Act II 假家庭潛入任務，與 04_timeline_canon.md（Act III 揭露後兩週）矛盾；已移除該處錯誤 claim 並加註待校對警語，未做全文件同步（該檔案仲有「刑思/語彩」舊名未更新，屬更大範圍另案）
+- [x] **CDL-301 落檔**：恐怖家家酒（Day1-12）受困機制 + 人質地點確認（學校內隱蔽區域 + 外部漸進蠶食 + 彩溫柔阻攔雙機制 + 美夜子/操私人危機交叉 + 彩本人「有意識但無力阻止」層）
+- [x] **ACT_III_OUTLINE.md** 新增 §E-III-H3（Phase I 前置，填補「Day1-12點解唔逃走」outline缺口）
+- [x] **CDL-302 落檔**：黑奏「情感辨識缺失」Actual belief + 螢金魚教訓起源（金魚象徵扣連晴香既有符號）+ 共振地獄動機重定性 + 對晴香扭曲情感——寫入 aya.md（§金魚與第一課／§與晴香的連結補充／§Actual belief新subsection）+ IDEOLOGY_THEME_STANCE_MATRIX.md（彩/黑奏 entry 三個 BK 欄填滿）
+- [x] **CDL-303 落檔**：黑奏×秋穗「當年嘅標本」宿怨（同類惡鬼共鳴深化，Plant Act II/Payoff Act III）+ 黑奏×紫音（執念欣賞，因果順序btd）+ 黑奏×凜（活體實驗心態）——寫入 aya.md（新增§與秋穗的宿怨；Relationships表三行更新）+ akiho.md（Relationships表黑奏行更新）
+- [x] **CDL-304 落檔**：紫音被捕機制最低限度確認（被晴香打敗、敗走後離線被捕）——寫入 ACT_III_OUTLINE.md Phase I 開首注記
+- [x] **CDL-305 落檔**：黑奏政變年份修正 98年→103年（作者授權「年份你決定」）——04_timeline_canon.md 98年條目移除政變+加註解，103年新增政變條目（錨點ID保留，aya.md連結無需改動）
+- [x] **STATE_FILES** PROJECT_STATUS / SESSION_LEDGER / NEXT_ACTION 更新
+- [x] **CDL-306 落檔**：黑奏心態轉變弧線——螢遺體回收具體原因+Emo-Visor起源自作自受閉環+情感辨識缺失雙重根源+晴香創世之罪罪責分散——寫入01_world_rules_and_costs.md/02_glossary.md(Emo-Visor)/aya.md(新增§被囚禁的廿四年)/04_timeline_canon.md(79年新增彩被捕條目)
+- [x] **CDL-307 落檔**：Stage 0/1/2起源統一——黑奏親自搜尋螢靈魂容器(Stage1)+無意識魔法少女現象+凜/美夜子護甲例外+修正rin.md舊有「潘朵拉協議」時序矛盾（凜108年死，潘朵拉協議109年先啟動）——寫入01_world_rules_and_costs.md/aya.md(新增§Stage 1)/rin.md(章節修正)/04_timeline_canon.md(103-108年條目更新+108年新增Stage1廢止)
+- [ ] **UNRESOLVED（留待下輪）**：黑奏×紫音關係因果順序未定案（btd）；temp3.txt 可作廢（內容已全部落 canon，或改作下輪新討論用）
+
 - Phase 15 (Act III Outline 設計) — **Round 047（2026-06-30）操心理深化 + 無名男孩 E-13 機制更新（CanonFileIntegrator）；Q1～Q5 作者確認；4 處 canon writeback 完成；QQ-111 DEFERRED 落檔。主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
 
 ## Completed This Round (Round 047 — 2026-06-30 操心理深化 + E-13機制更新)

@@ -34,9 +34,11 @@
 | **76** | <a id="event-miyako-birth"></a>[美夜子](03_characters/miyako.md)誕生（東雲花子的大女兒） | 未來晴香的姊姊 |
 | **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始（Alpha/Beta 共享歷史；Alpha 線因低魔能量不足，設施停滯為廢棄金屬結構；Beta 線創世後才活化為功能性設施，見 CDL-286） |
 | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |
+| **79** | <a id="event-aya-captured"></a>**彩被捕（CDL-306）**：戰場魔法殘留物回收隊在螢死亡現場偵測到異常高讀數，連同螢遺體一併回收研究；彩因而被捕獲作活體樣本，展開長達24年嘅研究囚禁 | Stage 0「原型體」研究起點；早期情緒壓抑/測量技術原型於彩身上測試 |
 | **97** | <a id="event-haruka-birth"></a>[雨宮晴香](03_characters/haruka.md)誕生 | 創世者誕生 |
-| **98** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變**：黑奏殺死帝國皇帝，奪取最高權力 | 黑奏掌權 |
 | **98** | <a id="event-aeri-accident"></a>**愛莉事故**：[愛莉](03_characters/aeri.md)闖入[秋穗](03_characters/akiho.md)實驗室 | 第一個人造[魔法屍骸](02_glossary.md#term-magical-corpse)誕生 |
+
+> ⚠️ **黑奏政變年份修正（CDL-305）**：黑奏政變原定 98 年，與 102 年鐵絲網偶遇「被帝國拘束」矛盾（98年已政變奪權，102年點解仲被自己帝國拘束？）。修正後政變移至 **103 年**（見下方 §III Beta 線前史表），即黑奏攞到創世因果力量之後。79-102 年間彩／黑奏實為**被帝國收養並秘密作研究對象**（見 CDL-303 與秋穗宿怨），並非已掌權。
 
 ---
 
@@ -67,12 +69,14 @@
 
 | 年份 | 事件 | 影響 |
 |------|------|------|
+| **103** | <a id="event-kurokanae-coup"></a><a id="event-kurokana-usurp"></a>**黑奏政變（CDL-305 年份修正，原 98 年）**：黑奏憑鐵絲網偶遇（102年）獲得的創世因果力量，殺死收養自己多年、並暗中將其當研究對象的帝國皇帝，奪取最高權力 | 黑奏掌權；79-102年被收養兼作研究對象的空白期正式結束 |
 | **103** | <a id="event-singer-origin"></a>**歌手身份起源**：[秋穗](03_characters/akiho.md)決定讓晴香成為歌手以合法釋放情緒能量 | 晴香偶像生涯開始 |
 | **103** | <a id="event-miyako-revival"></a>**美夜子復活**：秋穗利用[集體潛意識](02_glossary.md#term-collective-unconscious)技術強行復活美夜子（Q-004 A 定案：103 年復活，冰封期 92-103 年，共 11 年） | 美夜子成為 Unit 01 |
-| **103-108** | <a id="event-unit01"></a>**Unit 01 服役期**：復活後的美夜子被編入軍方，成為階段一兵器；與[凜](03_characters/rin.md)並肩作戰約 5 年，至 108 年凜犧牲止 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
+| **103-108** | <a id="event-unit01"></a>**Unit 01 服役期（CDL-307）**：復活後的美夜子被編入軍方，成為階段一兵器；與[凜](03_characters/rin.md)並肩作戰約 5 年，至 108 年凜犧牲止。Stage 1 由黑奏親自主導，目標係搵到可承載螢靈魂碎片嘅肉身容器，反覆失敗意外產生大量「無意識魔法少女」；美夜子/凜因帶晴香五歲奇蹟印記（護甲效應）保留完整人性 | 軍方[魔法少女](02_glossary.md#term-magical-girl)系統建立 |
 | **103-108** | <a id="event-saku-discovery"></a>**[朔](03_characters/saku.md)的發現**：朔在戰場上目睹 Unit 01，發現那是他死去的愛人 | 朔與美夜子的連結 |
 | **108** | <a id="event-rin-sacrifice"></a>**[凜](03_characters/rin.md)的犧牲**：凜為掩護美夜子撤離而犧牲，頸部被強行扭斷 | 凜死亡 |
 | **108** | <a id="event-shelter-curse-trigger"></a>**美夜子逃亡 / 詛咒首次觸發**：目睹凜犧牲後，[避難所詛咒](02_glossary.md#term-sanctuary-curse)啟動，靈魂壓縮進黑貓體內 | 黑貓美夜子誕生 |
+| **108** | <a id="event-stage1-abandoned"></a>**Stage 1 廢止（CDL-307）**：凜犧牲後，黑奏判定徵召兵器計劃「人性不可控」，正式廢止搜尋螢靈魂容器嘅軍事化路線 | 策略轉向 Stage 2（潘朵拉協議，109年啟動）|
 | **109** | <a id="event-rin-reconstruction"></a>**凜的重組**：黑奏將凜重新具現化為情緒管理局公務員，記憶被改寫 | Unit 00 原型 |
 | **109** | <a id="event-akane-trauma"></a>**紫音創傷事件**：14 歲的[紫音](03_characters/iwakura_akane.md)的弟弟誤食[情緒結晶](02_glossary.md#term-emotion-crystal)而死 | 紫音的創傷種子 |
 | **109** | <a id="event-pandora-protocol"></a>**潘朵拉協議**：黑奏開始「放養實驗」，等待晴香再次成熟 | 黑奏計劃啟動 |

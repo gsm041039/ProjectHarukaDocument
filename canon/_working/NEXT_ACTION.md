@@ -4,7 +4,7 @@
 **作者批核 ACT_III_OUTLINE.md v0.4** → 批核通過 → 進 Act IV Outline 設計
 （Semantic Audit Auto-Loop COMPLETE — 全14類覆蓋；15項修正；0開放語意矛盾）
 
-> ℹ️ Round 047（2026-06-30）旁支完成：操心理深化 + E-13 機制更新（CanonFileIntegrator）。Q1~Q5 RESOLVED；4 處 canon writeback（ayakomoji_misao.md / ACT_II_OUTLINE.md Beat E-13 / 00_series_bible.md / QUESTION_QUEUE.md QQ-111 DEFERRED）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
+> ℹ️ Round 049（2026-07-02～03）旁支完成：彩(黑奏) co-design 討論全面落檔。CDL-301（恐怖家家酒受困機制）+ CDL-302（黑奏Actual belief情感辨識缺失+螢金魚教訓+對晴香扭曲情感）+ CDL-303（黑奏×秋穗當年標本宿怨+紫音/凜關係深化）+ CDL-304（紫音被捕最低限度確認）全部落檔，寫入 aya.md/akiho.md/IDEOLOGY_THEME_STANCE_MATRIX.md/ACT_III_OUTLINE.md。00_Story_Brief.html「恐怖家家酒」過時 Act II claim 已清走（該檔案「刑思/語彩」舊名未同步，另案）。CDL-305/306/307 補充：政變年份103年；黑奏心態轉變弧線（螢遺體回收原因+Emo-Visor自作自受起源+情感辨識缺失+晴香創世之罪深化）；Stage 0/1/2起源統一（黑奏親自搜尋螢靈魂容器+無意識魔法少女+凜/美夜子護甲例外，順道修正rin.md舊有潘朵拉協議時序矛盾）。全部已落檔（見CANON_DECISION_LOG.md）。**未解事項**：黑奏×紫音關係因果順序未定案（btd）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
 > ℹ️ Round 046（2026-06-25）旁支完成：操母親設定 + 被迫報串整合（CanonFileIntegrator）。Q-母01～11 RESOLVED；CDL-297/298 落檔；7 處 canon writeback 完成。ACT_III_OUTLINE 升至 v0.4（新增 E-III-H-操 Phase H 暗線 beat）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
 > ℹ️ Round 042（2026-06-15）旁支完成：記憶/靈魂「無法遺忘」設定整合（CanonFileIntegrator）。QQ-105~110 RESOLVED；CDL-293/294/295 落檔；5 處 canon writeback 完成（01_world_rules / 04_timeline / miyako.md / yu.md / 00_series_bible）。**衍生待辦**：夕「拒絕靈魂切除式遺忘」beat 已在 yu.md 角色弧光層確認，具體 Act IV beat 留待 Act IV Outline（守 pipeline）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
 > ℹ️ Round 041（2026-06-09）旁支完成：情緒具現化設定整合（Shadow's Surreal Passion，CDL-292）——已寫入 06_visual_bible / 01_world_rules / rin.md / ayakomoji_misao.md。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
