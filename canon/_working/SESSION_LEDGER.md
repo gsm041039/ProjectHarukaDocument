@@ -17,7 +17,8 @@
 - [x] **STATE_FILES** PROJECT_STATUS / SESSION_LEDGER / NEXT_ACTION 更新
 - [x] **CDL-306 落檔**：黑奏心態轉變弧線——螢遺體回收具體原因+Emo-Visor起源自作自受閉環+情感辨識缺失雙重根源+晴香創世之罪罪責分散——寫入01_world_rules_and_costs.md/02_glossary.md(Emo-Visor)/aya.md(新增§被囚禁的廿四年)/04_timeline_canon.md(79年新增彩被捕條目)
 - [x] **CDL-307 落檔**：Stage 0/1/2起源統一——黑奏親自搜尋螢靈魂容器(Stage1)+無意識魔法少女現象+凜/美夜子護甲例外+修正rin.md舊有「潘朵拉協議」時序矛盾（凜108年死，潘朵拉協議109年先啟動）——寫入01_world_rules_and_costs.md/aya.md(新增§Stage 1)/rin.md(章節修正)/04_timeline_canon.md(103-108年條目更新+108年新增Stage1廢止)
-- [x] **00_Story_Brief.html 新增「深層動機」collapsible 區塊**（7個有角色卡的主角：晴香/美夜子/彩黑奏/操/紫音/凜/秋穗，各含「心底的傷/佢揀咗/點樣逃避」三段白話文字，重用現有 `.char-design` CSS class，冇加新樣式；夕喺呢份Brief冇獨立角色卡，未加）
+- [x] **00_Story_Brief.html 角色卡內容審查同修正**——作者澄清「葉語彩/刑思」先係正式名，「彩/黑奏」淨係canon工作文件簡稱（見05_naming_and_psychology_system.md），已撤回7個錯誤嘅collapsible「深層動機」block（果啲用錯名向）；改為直接檢查每個角色主段落文字，搵到彩/黑奏、操兩張卡有「已有概念圖但文字冇解釋」嘅缺口（彩/黑奏：實驗室囚禁/覺醒屠殺圖冇文字對應；操：被迫報串圖冇文字對應），已用清晰白話（非collapsible、直接可見）補寫段落：彩/黑奏加咗研究囚禁起源+Emo-Visor自作自受+情感辨識缺失三段；操加咗母親活人偶警示+父親EMB背叛+紗夜遺言雙重根源三段。
+- [x] **其餘5個角色卡（晴香/美夜子/紫音/秋穗/凜）都補寫前因後果段落**（跟黑奏同一深度）：晴香加靈樹/集體潛意識機制解釋（點解佢嘅悲慟可以創世）；美夜子加「變成貓仔」詛咒同晴香原話願望嘅具體扣連；紫音加弟弟死後已有雛形嘅餵養屍骸習慣（解釋點解墮落做屍骸首領而唔係其他反應）；秋穗加CDL-303/306新內容（年輕秋穗曾研究被囚黑奏，裝置研發根基建於此）；凜加CDL-307新內容（Stage 1搜尋螢靈魂容器計劃候選人，護甲效應保住人性）。全部直接可見、非collapsible
 - [ ] **UNRESOLVED（留待下輪）**：黑奏×紫音關係因果順序未定案（btd）；temp3.txt 可作廢（內容已全部落 canon，或改作下輪新討論用）
 
 - Phase 15 (Act III Outline 設計) — **Round 047（2026-06-30）操心理深化 + 無名男孩 E-13 機制更新（CanonFileIntegrator）；Q1～Q5 作者確認；4 處 canon writeback 完成；QQ-111 DEFERRED 落檔。主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
