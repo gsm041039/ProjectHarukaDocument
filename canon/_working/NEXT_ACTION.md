@@ -1,8 +1,8 @@
 # NEXT_ACTION
 
 ## Immediate Next Step（單一步）
-**作者批核 ACT_III_OUTLINE.md v0.4** → 批核通過 → 進 Act IV Outline 設計
-（Semantic Audit Auto-Loop COMPLETE — 全14類覆蓋；15項修正；0開放語意矛盾）
+**作者批核 ACT_III_OUTLINE.md v0.5**（範圍已收斂為 Phase G-J，結尾 J9；原 Phase K/L 移至文末附錄待 Act IV Outline 處理，CDL-312）→ 批核通過 → 進 Act IV Outline 設計（需先處理附錄材料嘅時序矛盾：20年 vs yu.md「數日」）
+（Semantic Audit Auto-Loop COMPLETE — 全14類覆蓋；15項修正；0開放語意矛盾；2026-07-05 5-agent 審查 + CDL-312 邊界重劃後再次確認 0 矛盾級問題）
 
 > ℹ️ Round 052（2026-07-05）旁支完成：屍骸樂園「幻象破滅」屍骸外流事件 co-design 落檔（CDL-311）。起因：作者質疑 IMAGE_PROMPT_SPEC 冇「屍骸女王攻擊城市」畫面；source check 確認 canon 原本冇此事（CDL-237 已作廢帝國部署攻擊框架）；經多輪討論收斂為「工廠冇獵物→飢餓屍骸外流城市→紫音跟隨不阻止」，兌現 CDL-241/257「完美的幻象」伏筆。已寫入 ACT_II_OUTLINE.md v0.10 + IMAGE_PROMPT_SPEC 圖168。**未解事項**：外流範圍夜區 only 定係波及日區 = tbd（QQ-118，OPEN）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。
 > ℹ️ Round 050（2026-07-04）旁支完成：集體潛意識強制進入機制 + 心之器碎裂終末視覺系統統一。CDL-308（廢棄夢境進入CF-T22+靈魂潛航）+ CDL-308-B（新增集體潛意識強制進入機制，解決CDL-300 Q3.1）+ **CDL-309**（發現06_visual_bible.md歌德尖刺體系 vs 情緒結晶積累量表GAP-27兩套矛盾終末視覺系統，作者裁決歌德尖刺勝出，量表退役，紫音/彩狀態遷移，心匣裝置起源用詞改「凝鑄成形」）。「結晶化」全canon清理已完成（非13檔案全動，真正矛盾範圍已處理，其餘確認獨立概念保留）。**CDL-310**（屍骸化「靈魂困禁」+「無主容器」統一為同一光譜兩端點，唔擴展新感知類型）。**不改變主阻塞點**（仍為 Act III v0.4 批核）。

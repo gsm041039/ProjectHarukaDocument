@@ -1,6 +1,55 @@
 # SESSION_LEDGER
 
+## Completed This Round (Round 059 — 2026-07-05 CDL-315：補回凜介錯 beat)
+- [x] **深挖 I4 新增之後嘅連鎖影響，搵到真實缺口**：凜嘅介錯（美夜子槍擊Unit00核心）雖然喺 `04_timeline_canon.md`/`miyako.md` 都有記錄，但成個 Act III Outline 由頭到尾冇任何 beat 描述佢，Gate A 表凜嗰行都漏咗呢個終局
+- [x] **同時發現 `04_timeline_canon.md` 對美夜子覺醒嘅原始設計係三段式**（貓殼碎裂→存在確認測試→晴香擁抱痛哭），比我上一輪寫嘅 I4 單一化版本更細緻——已補回中間「存在確認測試」呢一段落入 I4，冇再簡化漏走
+- [x] **CDL-315 落檔 + 新增 E-III-I5「凜的最終戰——遲來的介錯」**：Day14深夜末、Phase J前夕；美夜子完成I4三段式覺醒後執行血之約定；視覺沿用rin.md已確立設計（C型金屬扣）；Gate A 表美夜子/凜兩行同步更新終局狀態
+
+## Completed This Round (Round 058 — 2026-07-05 CDL-314：貓殼碎裂順序推翻)
+- [x] **CDL-314 落檔**：作者明確推翻 CDL-274（2026-05-08）原有嘅貓殼碎裂/P-A12 Step1位置（原喺H1.5，操紫音死之前）。查證 CANON_DECISION_LOG 冇搵到任何支持「操紫音死先、貓殼先碎」嘅舊決定——確認呢係作者今次新嘅明確推翻，唔係我之前搞錯
+- [x] **ACT_III_OUTLINE.md 修正**：H1.5 改為只完成心理層身份震撼（美夜子維持貓形態崩潰）；新增 **E-III-I4「貓殼完全碎裂與無語言相認」**（Day14紫音死後，凜介錯之前），觸發改為「凜真相+操死+紫音死」三重累積；P-A01/P-A12 Step1 payoff表更新指向I4；確認I4發生喺凜「遲來介錯」（`04_timeline_canon.md` event-rin-final-battle）之前
+
+## Completed This Round (Round 057 — 2026-07-05 CDL-313：Phase G/H3 雙重生活矛盾解決)
+- [x] **CDL-313 落檔**：作者發現 Phase G「地下突圍」（匿藏抵抗）同 H3「恐怖家家酒」（表面正常返學）之間有未解釋嘅結構矛盾——地下逃犯點解可以返學。作者提出兩個選項，選咗 Option B：黑奏（=彩本人，100%知情，非「懷疑」）刻意執行 `Villain_Master_Plan.md` 已確立嘅「放養」策略，容許雙重生活假象維持，為 H3 兩星期人質局鋪路
+- [x] **ACT_III_OUTLINE.md 修正**：Phase G 開首新增「雙重生活定性」段落；H3「彩溫柔阻攔」一句補充 cross-reference，明確呢個局面係黑奏全程知情嘅策略執行，非臨時起意
+- [x] **確認**：E-III-H-操被迫報串嘅具體時序（H1.5之後、H2之前，操自己Day13死之前）；貓殼碎裂（H1.5）喺canon（miyako.md CDL-108/243）本身已確認發生喺操/紫音犧牲之前，用戶提出嘅相反順序需再確認定係接受現有canon——**留待用戶下次回應，本輪未定案**
+
+## Completed This Round (Round 056 — 2026-07-05 夕整合時序三方核實 + 文字精度修正)
+- [x] **夕整合時序覆核**：查證後發現原以為嘅「三方矛盾」實際只有一條真矛盾——`haruka.md` 陰影視覺觸發條件寫「夕整合完成後」，同 `ACT_II_OUTLINE.md` E-15「部分融合」（未完成）字面打交；CDL-268「HSP兩段漸進」同陰影視覺其實係同一機制延伸，唔算獨立矛盾
+- [x] **haruka.md 修正**：觸發條件改為「夕部分融合後（Act II E-15）」，移除「完成」字眼嘅誤導
+- [x] **yu.md 修正**：原「第三幕：美夜子引導集體潛意識面對夕」呢個喺 Act II/III 都搵唔到對應beat嘅描述，已改為對齊實際落實嘅 Act II E-15（直接鏡中對話機制）；並新增「三級整合進程」說明（Act I E-XX暫時初裂 → Act II E-15部分融合 → Act IV完全整合），明確呢三個唔係互相矛盾嘅重複設計，而係遞進
+- [x] **CDL-069/070 Act I/II 雙重引用**：查證 ACT_I_OUTLINE.md 自己嘅 Plant/Payoff 表已經將 E-XX 標示為「暫時」並指向 Act IV，設計上本身已經係多級進程，唔需要額外修正beat內容，已喺 yu.md 加返 cross-reference 講明
+- [x] **確認 ACT_III_OUTLINE.md 本身已冇再搵到問題**——本輪搵到嘅3項全部屬於 `haruka.md`/`yu.md` 呢兩個角色檔案嘅文字精度問題，唔涉及 ACT_III_OUTLINE.md 內容本身要改
+- [ ] **未處理，低優先**：P-A14/P-A15 兩條 Manifest Plant 喺 Act III 回收清單搵唔到明確落點；紫音 Phase I「被晴香打敗」細節未有支撐（outline 已自行標 btd）
+
+## Completed This Round (Round 055 — 2026-07-05 IMAGE_PROMPT_SPEC 補漏：悲鳴女妖首戰)
+- [x] Source recovery：作者延伸問 IMAGE_PROMPT_SPEC 有冇晴香等人 vs 無臉執行官（秋穗）戰鬥圖——search 確認 canon 已有完整 Act I beat（E-04「悲鳴女妖首戰」，ACT_I_OUTLINE.md Beat 5，CDL-019/043/068/136/140/151/184），但72圖從未覆蓋，只有圖167帶過一句提及
+- [x] **Writeback**：IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md 新增圖169「悲鳴女妖首戰」（戰鬥本身，無臉執行官造型對應 `art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png`）+ 圖170「情緒管理局的遠望」（戰後遠景彩蛋，凜+朔剪影）
+- [x] 純圖像補完，未涉及新 CDL（E-04 本身已係完整落檔 canon）
+- [ ] **不阻塞主線**（Act III v0.5 批核仍為主阻塞點，不受本輪影響）
+
+## Completed This Round (Round 054 — 2026-07-05 5-agent 深度覆查 v0.5 重組 + 全篇角色/Plant/夕整合審查)
+- [x] **5-AGENT_REVIEW（第二輪）**：夕整合時序 / v0.5 重組完整性 / Phase G-J 全篇新鮮再讀 / 6位主角弧線交叉檢查 / Plant-Payoff完整度
+- [x] **修正 3 處我自己上輪重組漏低嘅殘留**：J5 stale「L6」引用改標移交Act IV；**J9（Act III新結尾beat本身）仍寫住「20年靈魂風暴/114年7月世界重置」**——已改寫，Act III結尾唔再預先定案時長/客觀現實，全部移交Act IV；H2 尾段「凜=追殺者」舊講法殘留句已移除
+- [x] **修正 Gate A 表 + 角色弧線簽名嘅晴香/美夜子終局狀態描述**——原文借用咗已移去Act IV嘅L10/L11內容（「永恆守護者」「唯一保留記憶嘅倖存者」），已改為只描述Act III內（J9）實際達到嘅狀態，Act IV部分明確標註
+- [x] **修正凜 Unit 00-Null 終局視覺描述**：原「陶瓷面具/控制管」查 rin.md 搵唔到支撐（UNSUPPORTED_INVENTION），已改用 rin.md 已確立視覺（C型金屬扣+鐵鏈）
+- [x] **CROSS_ACT_FORESHADOW_MANIFEST.md 同步**：P-A24、P-C10 兩條 Payoff 標記由 Act III 更正為 Act IV（同 ACT_III_OUTLINE.md 自己表格一致）
+- [ ] **搵到但未修正，需作者判斷**：
+  1. **夕整合時序三方矛盾**：陰影視覺（shadow-sight）起源喺 ACT_II_OUTLINE（E-15，CDL-197/228/235）、ACT_III_OUTLINE（「Act III首次展示，不完整版」CDL-268）、haruka.md（「觸發條件=夕整合完成後」即Act IV）三份文件講法唔一致，未reconcile
+  2. **yu.md「第三幕：美夜子引導喺集體潛意識面對夕」呢個具體設計，喺 ACT_II/ACT_III_OUTLINE 都搵唔到對應 beat**——真實缺口，唔係mislabel
+  3. **CDL-069/070（夕部分整合/膠布哲學）同時被 ACT_I_OUTLINE.md（原設計，E-XX幕末）同 CDL-285（後來reassign去Act II E-15）引用，兩個Act都用緊同一組CDL編號描述唔同beat，從未正式reconcile**
+  4. P-A14（熊公仔=螢遺物）、P-A15（「下次呢？」）兩條 Manifest 有記錄嘅 Plant，喺 ACT_III_OUTLINE.md 主要 Plant Payoff 清單搵唔到明確落點——非隱藏bug，但值得作者關注
+  5. 紫音 Phase I「被晴香打敗」呢件事本身喺 iwakura_akane.md/haruka.md 都未有支撐（outline自己已標btd，非新發現，重複確認）
+
 ## Current Phase
+- Phase 15 (Act III Outline 設計) — **Round 053（2026-07-05）CDL-312 落檔：Act III/IV 邊界重劃，Phase K/L 移出 Act III scope，正式結尾定於 J9；ACT_III_OUTLINE.md v0.4→v0.5。主阻塞點更新為 ACT_III **v0.5**（範圍縮小為 Phase G-J）作者最終批核**
+
+## Completed This Round (Round 053 — 2026-07-05 Act III/IV 邊界重劃)
+- [x] **CDL-312 落檔**：source check 發現 `yu.md` 四幕弧光將「夕接管→整合」明定為 Act IV 內容且時長「數日」，同 ACT_III_OUTLINE.md 原 Phase K/L「20年/134年」嚴重不符；CDL-295 本身都已註明留待 Act IV Outline
+- [x] **ACT_III_OUTLINE.md v0.4→v0.5**：Phase K/L（K1+L1-L11）全部移至文末「⏸️ 移出 Act III scope」附錄；Act III 正式結尾定於 J9；連帶修正 Plant/Payoff表（P-A24/P-C10/P-E03標移交）、Gate B/C表、開放項#5/6/7/9（標移交）、完成狀態摘要、版本歷史、宏觀結構描述全部同步更新
+- [x] **原 Phase L「晴香明確覺醒/演講/決戰」寫法 vs 2026-03-24「唔可以明寫覺醒」決定嘅張力問題** —— 隨 Phase K/L 移交 Act IV 而自然解決（Act III 批核範圍已不包含呢部分內容，留返 Act IV Outline 正式設計時處理）
+- [x] **State files updated**：CANON_DECISION_LOG（CDL-312）+ SESSION_LEDGER（本輪）
+
 - Phase 15 (Act III Outline 設計) — **Round 052（2026-07-05）屍骸樂園「幻象破滅」屍骸外流事件 co-design 落檔（CDL-311）；起因於作者質疑 IMAGE_PROMPT_SPEC 冇「屍骸女王攻擊城市」畫面；source check 確認 canon 原本冇此事（CDL-237 已作廢「帝國部署攻擊」框架），經多輪 co-design 收斂為「工廠冇獵物→飢餓屍骸外流城市→紫音跟隨不阻止」新設計，兌現 CDL-241/257「完美的幻象」伏筆；範圍（夜區/日區）= tbd（QQ-118）；主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
 
 ## Completed This Round (Round 052 — 2026-07-05 屍骸樂園幻象破滅事件)

@@ -8527,5 +8527,111 @@ Dark anime. Night district street/alley, panicked residents fleeing. A swarm of 
 - 遠景城市燈光冷靜對比前景混亂——強化「幻象破滅」嘅諷刺感
 - 範圍（夜區局部 / 波及日區）：本圖以夜區街道為準，日區波及範圍留待作者確認後再調整構圖
 
+---
+
+## 圖169：「悲鳴女妖首戰」（First Battle Against the Banshee）[ACT_I] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_169_BansheeFirstBattle.png`
+
+### 劇情背景
+
+帝國歷113年4月，Act I Beat 5，E-04。晴香團隊（晴香、美夜子、紫音、操；彩在場）遭遇「無臉執行官」——帝國高階執行體，代號「悲鳴女妖」（ACT_I_OUTLINE.md Beat 5；CDL-019/043/068/136/140/151/184）。呢個敵人純功能暴力+精神攻擊，壓倒性強大；主角團完全唔知呢個敵人嘅底層真相係「未來失敗時間線嘅秋穗」（呢刻淨係黑奏同玩家知道）。戰鬥中晴香等人不敵，紫音被逼到嘗試超載（CDL-043），美夜子強硬阻止，紫音肢體扭曲受傷——**手臂留下嘅傷口就係 Act II E-12「三重癱瘓」第三重觸發器嘅伏筆**（CDL-240 payoff）。晴香喺呢刻對呢個敵人有一種講唔清嘅直覺熟悉感（無意識認出秋穗執念/靈魂層共鳴），但無人察覺、無人指出。呢場係「偽英雄旅程」第一個系統性裂縫——體制壓迫感首次取代咗「隨機怪物」嘅質感。
+
+### 圖片說明
+
+夜區某處戰場（廢墟/工業區），無臉執行官以角色設定（ConceptArt_Akiho_Boss.png）為準：177cm 高挑身形，純白緊身戰鬥服（銀白束帶結構，背部脊椎核心裝置發出紫藍光），深紫色長髮部分遮蓋臉部，臉部完全溶解為星空/星雲質感（無眼無鼻無嘴），雙手化為紫藍能量長刃。佢單方面壓制主角團——晴香狼狽招架，美夜子強硬拉住紫音（阻止超載），紫音嘅手臂已經扭曲變形、流血。彩喺場邊（攻擊即將波及佢嗰下有極短暫嘅卡頓/軌跡偏移，幾乎唔可見）。整體氣氛係「打唔贏嘅絕望」，唔係熱血戰鬥爽感。
+
+### 劇情位置
+
+**時間點**：帝國歷113年4月（Act I Beat 5，E-04）
+**CDL 追蹤**：CDL-136（無臉執行官身份+晴香熟悉感）；CDL-019/043（紫音超載衝動+美夜子阻止）；CDL-140（凜PTSD前史種子）；CDL-151（戰後彩留低幫手）；CDL-184（主角團認知=未知恐怖，完全唔知帝國背景）；CDL-240（紫音手臂傷口=Act II P-A09 payoff伏筆）；akiho.md §未來形態（無臉執行官視覺設定）
+**前置 → 本場景 → Payoff**：E-1.5彩/黑奏切換初感知（本場景前）→ 本場景：悲鳴女妖首戰，紫音受傷+晴香直覺熟悉感埋種 → SPEC#170 情緒管理局遠景彩蛋（戰後同一場景延伸）→ Act II E-12 三重癱瘓第三重（傷疤payoff，CDL-240）→ Act III/IV 無臉執行官真相揭露（04_timeline_canon.md event-faceless-truth）
+
+### 詳細核心描述（250字）
+
+夜區廢墟戰場。
+
+一個純白色嘅身影，安靜到唔似戰鬥中應有嘅動態。
+
+佢嘅臉——本來應該係臉嘅位置——係一片深邃嘅星空，冇眼冇鼻冇嘴，只有星光喺深紫色嘅虛空入面閃爍。長髮垂落，半遮住呢個「非臉」。
+
+雙手化成咗紫藍色嘅能量長刃，每一下揮動都帶住冷靜到殘忍嘅精準——冇怒氣，冇殺意嘅興奮，只有純粹嘅執行。
+
+晴香喺度硬撐，招架住每一下攻擊，但明顯已經跟唔上。
+
+美夜子一手拉住紫音——紫音想超載，眼神已經開始失控，手臂喺對抗中扭曲變形，滲出血。
+
+彩喺後方，某一下攻擊軌跡本應波及佢，卻在極短嘅瞬間偏移咗——冇人留意到呢個唔對勁。
+
+晴香望向敵人「面孔」嘅時候，心入面掠過一絲講唔出嘅熟悉感——像見過，又肯定未見過。
+
+呢場仗，佢哋輸緊。
+
+### Midjourney 標準版
+
+```
+Dark anime. Night district ruins/industrial battleground. The Faceless Executor: tall (177cm) humanoid figure in a skin-tight pure white bodysuit with silver-white harness straps and a glowing purple-blue energy core line down the spine, dark purple long wavy hair partially covering the face, face completely dissolved into a deep starfield/nebula void — no eyes, no nose, no mouth, just scattered starlight in dark violet space. Both hands transformed into long blades of purple-blue crackling energy. She moves with cold, precise, almost gentle violence — no rage, no bloodlust, pure execution. Haruka struggling to block attacks, clearly overwhelmed. Miyako forcibly restraining Akane, whose arm is twisting unnaturally from an overload attempt, bleeding. Aya standing slightly apart in the background, unnoticed. Colors: stark white armor against dark rubble, deep violet-black night sky, cold blue-purple energy glow, desperate exhausted character expressions. Emotional tone: overwhelming, hopeless first encounter with an unbeatable enemy — not a triumphant fight, a crushing one. 8k, niji 6, style raw. --ar 16:9
+```
+
+**視覺重點**：
+- 無臉執行官造型嚴格對應 `art/ConceptArt/Characters/Akiho/ConceptArt_Akiho_Boss.png`：純白緊身戰鬥服+銀白束帶、背脊發光核心線、深紫長髮半遮「無臉」星空面、雙手能量長刃
+- 主角團狼狽感：晴香招架唔住、美夜子強硬拉住紫音、紫音手臂扭曲流血——三個人物各自嘅崩潰細節
+- 彩嘅極短暫卡頓：唔可以太明顯，觀眾初讀應該完全睇唔出異樣
+- 晴香嘅表情要帶一絲講唔出嘅熟悉感/困惑——為二周目「原來係秋穗」埋伏筆
+- 氣氛：絕望嘅一戰，唔係熱血爽感——呼應「偽英雄旅程第一個系統性裂縫」
+
+⭐⭐⭐⭐⭐
+
+---
+
+## 圖170：「情緒管理局的遠望」（The Bureau's Distant Watch）[ACT_I] ⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_170_BureauDistantWatch.png`
+
+### 劇情背景
+
+帝國歷113年4月，Act I Beat 5，E-04 戰後（ACT_I_OUTLINE.md Beat 5；CDL-140）。悲鳴女妖首戰結束後，情緒管理局（凜+朔）暗中出手輕微干預令執行官退場——晴香等人誤以為係管理局逼退咗怪物，實情係黑奏保護彩嘅指令生效。戰鬥結束、主角團狼狽收拾之際，夜區高處嘅廢墟陰影中，兩個純白緊身西裝剪影俯視住呢個場面，睇唔清樣貌，零對話。凜嘅手指無意識咁撫摸頸上被遮住嘅位置（紅線習慣，凜身份嘅早期伏筆）。美夜子喺遠處感受到一絲講唔清嘅熟悉感，唔明所以。兩個剪影轉身消失。
+
+### 圖片說明
+
+高處廢墟邊緣，逆光剪影構圖。兩個穿住純白緊身西裝嘅人影並排企喺廢墟頂，俯視住遠處戰鬥剛結束嘅現場（主角團嘅身影渺小咁喺下方）。前景/中景嘅剪影樣貌因為逆光同距離而完全睇唔清——只見輪廓：一高一略矮，衣著俐落冷峻。其中一個（凜）手指無意識咁觸碰自己頸側，好似掩住啲乜嘢。冷靜、疏離、旁觀者嘅氣場，同下方戰場嘅狼狽混亂形成強烈對比。無對話、無動作，純粹靜態嘅監視感。下一刻，兩人轉身，消失喺陰影入面。
+
+### 劇情位置
+
+**時間點**：帝國歷113年4月（Act I Beat 5，E-04 戰後）
+**CDL 追蹤**：CDL-140（凜前史種子+情緒管理局遠景彩蛋）；CDL-136（誤導退場——晴香誤以為管理局逼退執行官，實情係黑奏保護彩）；CDL-022（美夜子孤獨感建立+熟悉感）
+**前置 → 本場景 → Payoff**：SPEC#169 悲鳴女妖首戰（戰鬥本身）→ 本場景：戰後遠景彩蛋，情緒管理局身份未知嘅第一次感知 → 後續凜身份逐步揭露線（Act II/III）；美夜子「熟悉感」伏筆同凜嘅關係前置
+
+### 詳細核心描述（200字）
+
+戰鬥聲已經停歇。
+
+夜區嘅高處，一片廢墟嘅邊緣，兩個人影靜靜企喺度。
+
+純白色嘅緊身西裝，喺遠處嘅光源逆光下只剩輪廓——睇唔清樣貌，睇唔出表情，只有兩個乾淨、冷峻嘅剪影，並排俯視住下面。
+
+下面，主角團嘅身影顯得渺小、狼狽——啱啱先經歷咗一場打唔贏嘅仗。
+
+其中一個剪影嘅手指，無意識咁移到頸側，輕輕觸碰住一個被衣領遮住嘅位置。呢個動作冇被下面任何人睇見，甚至冇被自己察覺。
+
+冇對話。冇任何表示佢哋做過乜嘢嘅動作。
+
+然後，兩個剪影轉身，一齊步入更深嘅陰影，消失。
+
+美夜子喺下面偶然抬頭嘅一瞬，見到咗呢兩個身影嘅背影——一種講唔出嘅熟悉感掠過心頭，然後又消失。
+
+### Midjourney 標準版
+
+```
+Dark anime. High ruins overlooking a battlefield at night, backlit silhouette composition. Two figures in sleek pure-white fitted suits standing side by side atop rubble, their faces and details completely obscured by backlighting and distance — only clean, cold, composed silhouettes visible, one slightly taller than the other. One figure's fingers unconsciously touch the side of their own neck, half-hidden by a collar, an absent-minded gesture. Below, small and distant, the exhausted protagonist group recovers from a losing battle. No dialogue, no dramatic gesture — pure quiet surveillance atmosphere, detached and clinical, in sharp contrast to the chaos below. Colors: deep indigo night sky, cold silver-white suit silhouettes against warm distant battlefield embers, strong rim-light separation. Emotional tone: an unexplained, unsettling watchfulness — observers who were never supposed to be seen. 8k, niji 6, style raw. --ar 16:9
+```
+
+**視覺重點**：
+- 兩個剪影必須睇唔清樣貌——刻意嘅視覺懸念，呼應「身份未知」設計意圖
+- 其中一人觸碰頸側嘅細節動作：細微但關鍵，係凜身份伏筆嘅視覺錨點
+- 構圖對比：高處冷靜嘅剪影 vs 低處狼狽嘅主角團
+- 唔可以流露任何表情或動作透露呢兩人係敵係友——維持「情緒管理局」呢個第三方勢力嘅神秘感
+- 整體氣氛：靜態、疏離、監視感，同SPEC#169嘅激烈戰鬥形成強烈節奏對比
+
 ⭐⭐⭐⭐⭐
 
