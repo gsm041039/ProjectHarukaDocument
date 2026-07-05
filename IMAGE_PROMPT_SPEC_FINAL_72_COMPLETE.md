@@ -8471,3 +8471,61 @@ Dark anime. Private space, deep night. Akiho alone — laboratory cold light or 
 
 ⭐⭐⭐⭐
 
+---
+
+## 圖168：「幻象破滅——屍骸外流城市」（The Illusion Shatters: The Corpses Flood the City）[ACT_II] ⭐⭐⭐⭐⭐
+
+**建議輸出文件名**：`ConceptArt_Scene_168_AkaneCorpseFloodCity.png`
+
+### 劇情背景
+
+帝國歷113年11月至12月，Act II Phase D 末，E-12「屍骸女王討伐」前夕（CDL-311；呼應 CDL-241/257「王國邊緣的盛宴」已埋嘅「完美的幻象」伏筆）。紫音喺廢棄糖果工廠建立嘅「屍骸樂園」表面上係一個「冇傷害」嘅收容所——但工廠本身早已廢棄，冇任何人類居民或獵物。佢收容嘅屍骸群飢餓本能（情緒侵蝕）持續累積，終於到達臨界，循住連接工廠與夜區嘅下水道/暗巷邊緣（CDL-241 已確立嘅王國邊界）湧向城市覓食。紫音冇阻止佢哋，甚至跟隨屍骸群一齊行動——唔係主動指揮或利用屍骸作攻擊武器（呢一點不違反 CDL-236 佢自立為王、非帝國兵器嘅設定），而係扭曲母性嘅伴隨姿態：佢哋要去邊，佢都跟住去。呢個事件成為帝國「衛生行動」最終將屍骸樂園列入清剿名單嘅具體治安理由，同時亦係晴香得知消息後罪疚感全面爆發、強行帶隊出擊（E-12 主動機 B）嘅直接導火線。
+
+### 圖片說明
+
+夜間嘅城市邊緣（夜區街道），一大群失控嘅魔法屍骸從暗巷/下水道湧出，形態各異（廢鐵型、扭曲人形、殘破軀體），居民驚慌逃竄。紫音**企喺一輛被撞翻/棄置嘅車輛頂上**，居高臨下俯視住呢場混亂——姿態借用咗「王座」嘅構圖邏輯（呼應糖果王座嘅視覺母題，但呢次冇糖果，只有金屬同灰塵），一隻手可能高舉或攤開，像係女王喺檢閱自己嘅子民，但佢嘅表情係**瘋狂**：嘴角扯開嘅笑或喊，眼神失焦但異常明亮。呢個構圖刻意將「女王氣派」同「精神崩潰」焊接埋一齊——**瘋狂女王**：居高臨下嘅姿勢同瘋狂嘅表情同時存在，先係全劇最駭人嘅一幕視覺矛盾。呢種瘋狂唔係惡意嘅征服狂喜，而係「調停失敗——被理解恐懼的反彈」（iwakura_akane.md）嘅極端延伸：被看見等於威脅，於是佢用最後嘅崩潰姿態把自己同呢個世界嘅關係徹底燒斷，同時仍然無意識咁保留住「我係呢班孩子嘅女王」嘅本能姿態。遠處城市燈光同眼前嘅混亂形成強烈對比。
+
+### 劇情位置
+
+**時間點**：帝國歷113年11月～12月（Act II Phase D 末，E-12 前夕）
+**CDL 追蹤**：CDL-311（屍骸外流事件；紫音跟隨不阻止）；CDL-241/257（王國邊緣的盛宴——完美的幻象伏筆）；CDL-236（紫音自立為王，非帝國兵器）；CDL-238（E-12 觸發 B+D）；ko_hikaru.md §第三幕：屍骸樂園（屍骸開始對紫音以外嘅人伸手撕扯）
+**前置 → 本場景 → Payoff**：SPEC#166 既然如此讓怪物有個家（決定建立樂園）→ [NC] 王國邊緣的盛宴（自以為冇傷害嘅幻象）→ 本場景：幻象破滅，屍骸外流城市 → SPEC#10 糖果山犧牲（E-12 討伐，紫音燃燒贖罪）
+
+### 詳細核心描述（240字）
+
+夜區嘅暗巷同下水道口，一個接一個，湧出扭曲嘅身影。
+
+金屬碎片拼湊嘅軀體，殘破嘅人形輪廓，本應早已死去嘅嘢，正朝住有燈光、有人聲嘅方向爬去、走去、衝去。
+
+居民嘅尖叫聲斷斷續續地響起，然後被更多嘅腳步聲同刮擦聲蓋過。
+
+紫音企喺一輛翻側或者棄置嘅車頂上，比周圍嘅屍骸群、比逃竄嘅居民都高。
+
+呢個位置唔係佢揀嘅戰略高地——係佢身體本能記得嘅嘢：喺糖果王座度坐慣咗嘅人，去到邊都會揾一個高過人嘅位置企。
+
+一隻手可能攤開向前，好似女王喺檢閱自己嘅子民，好似佢真係喺度指揮緊呢場混亂——但佢冇下過一句命令，佢哋自己就識得點去。
+
+佢嘅表情係瘋狂：嘴角扯開，眼神失焦但發亮，可能喺笑，可能喺喊，甚至兩樣同時。呢個唔係得意嘅狂笑，係一個人終於冇力氣再扮「我掌控緊」之後，將呢半年嚟嘅崩潰一次過爆晒出嚟。
+
+女王嘅姿勢，瘋子嘅臉——兩樣嘢揸手揸埋一齊，冇一樣蓋過另一樣。
+
+遠處城市嘅燈光仍然亮住，冷靜地，同眼前呢場混亂完全唔搭調。
+
+呢個唔係一場侵略。呢個係一個幻象終於撐唔住，連同紫音自己嘅理智一齊垮咗嘅瞬間。
+
+### Midjourney 標準版
+
+```
+Dark anime. Night district street/alley, panicked residents fleeing. A swarm of feral magical corpses — mismatched rusted-metal and distorted humanoid forms — flooding out from a sewer/alley opening toward the lit city beyond. Shion standing on top of an overturned/abandoned car, elevated above the corpse swarm and the fleeing residents like a queen on a throne of scrap metal, one hand possibly raised or open as if surveying/commanding her subjects — but her expression is manic: mouth stretched into a broken laugh or scream (possibly both at once), eyes unfocused yet unnervingly bright. A deliberate visual collision of regal composure and total mental collapse — a Mad Queen. Not gleeful conquest — the sound of half a year of suppressed collapse finally breaking loose, fused with an unconscious instinct to still stand above her "children." Distant city lights calm and indifferent against the chaos in the foreground. Colors: cold night blues and sickly streetlamp orange, rusted corpse textures, Shion's purple-red hair wild and disheveled. Emotional tone: not an invasion — the moment a fragile illusion of control collapses along with her own sanity, while the posture of a queen remains. 8k, niji 6, style raw. --ar 16:9
+```
+
+**視覺重點**：
+- 紫音嘅位置：企喺翻側/棄置車輛頂上，高於屍骸群同居民——構圖借用「王座」邏輯（呼應糖果王座母題），但呢次冇糖果，只有廢鐵
+- 姿態：一隻手可能攤開/高舉，似係檢閱子民嘅女王姿勢，但佢從未下過命令——屍骸自己識行
+- 表情：瘋狂——嘴角扯開嘅笑或喊，眼神失焦但發亮；**女王姿勢 + 瘋子表情同時存在，冇一樣蓋過另一樣**，呼應「調停失敗——被理解恐懼的反彈」嘅心理設計
+- 屍骸群形態多樣：呼應現有屍骸樂園收容「無主屍骸」嘅設定，唔止得小光一個
+- 遠景城市燈光冷靜對比前景混亂——強化「幻象破滅」嘅諷刺感
+- 範圍（夜區局部 / 波及日區）：本圖以夜區街道為準，日區波及範圍留待作者確認後再調整構圖
+
+⭐⭐⭐⭐⭐
+

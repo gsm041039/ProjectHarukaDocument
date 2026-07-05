@@ -1,7 +1,51 @@
 # SESSION_LEDGER
 
 ## Current Phase
-- Phase 15 (Act III Outline 設計) — **Round 049（2026-07-02）彩(黑奏)角色深度 co-design 討論 + 恐怖家家酒受困機制落檔；CDL-301 新增；00_Story_Brief.html 過時內容修正；主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
+- Phase 15 (Act III Outline 設計) — **Round 052（2026-07-05）屍骸樂園「幻象破滅」屍骸外流事件 co-design 落檔（CDL-311）；起因於作者質疑 IMAGE_PROMPT_SPEC 冇「屍骸女王攻擊城市」畫面；source check 確認 canon 原本冇此事（CDL-237 已作廢「帝國部署攻擊」框架），經多輪 co-design 收斂為「工廠冇獵物→飢餓屍骸外流城市→紫音跟隨不阻止」新設計，兌現 CDL-241/257「完美的幻象」伏筆；範圍（夜區/日區）= tbd（QQ-118）；主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
+
+## Completed This Round (Round 052 — 2026-07-05 屍骸樂園幻象破滅事件)
+- [x] **READ_FIRST**：PROJECT_STATUS/NEXT_ACTION（無須重讀 QUESTION_QUEUE 全文，直接處理新議題）
+- [x] **Source recovery**：作者問 IMAGE_PROMPT_SPEC 冇「屍骸女王攻擊城市」畫面——search 確認 canon 原本冇呢件事，CDL-237 已明確作廢「帝國部署屍骸女皇針對主角團」框架，E-12「屍骸女王討伐」係主角團主動出擊（CDL-238/239），非紫音主動攻城
+- [x] **CO_DESIGN_DISCUSSION**（多輪收斂）：①局限喺屍骸樂園內部失控（非主動攻城）→ ②紫音對失控屍骸「都冇去阻止」→ ③因工廠冇人類獵物，飢餓屍骸群必然外流入城市（範圍夜區/日區 tbd）→ ④紫音同屍骸一齊沖去城市（跟隨同行，非主動指揮攻擊）
+- [x] **發現伏筆吻合**：新設計正好兌現「王國邊緣的盛宴」（CDL-241/257）已埋嘅「完美的幻象」伏筆——紫音自以為建立咗「冇傷害」樂園，實際上因無法持續供養屍骸群而幻滅
+- [x] **CDL-311 落檔**：屍骸樂園「幻象破滅」——飢餓屍骸群外流城市事件；紫音跟隨同行不加阻止亦不主動指揮（不違反CDL-236自立為王/非帝國兵器設定）；同時作為 E-12「D帝國衛生行動」計時器嘅具體治安理由
+- [x] **WRITEBACK（2處）**：ACT_II_OUTLINE.md v0.9→v0.10（新增 [NC] 暗線「幻象破滅——屍骸外流事件」；E-12觸發D段落補充引用CDL-311）；IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md（新增圖168「幻象破滅——屍骸外流城市」）
+- [x] **QQ-118 新增（OPEN，作者標示tbd）**：範圍夜區only定係波及日區，留待作者後續確認
+- [ ] **不阻塞主線**（ACT_III v0.4 作者批核仍為主阻塞點，不受本輪影響）
+
+## Completed This Round (Round 051b — 2026-07-05 愛莉風暴角色扣連 co-design + 凜/秋穗身份修正)
+- [x] **確認愛莉風暴（E-11）本身冇再搵到其他邏輯問題**：起因（14日恐怖家家酒積累+帝國衛生行動雙觸發，CDL-252）、過程（盾牌碎裂→集體潛意識戰場→晴香深潛見愛莉記憶回放）、扣連角色（秋穗母女線核心 + 晴香目擊 + 黑奏利用）全部核實一致
+- [x] **操母親線兩步式 Plant/Payoff 落檔**：Act II E-11（愛莉風暴期間，操喺集體潛意識戰場一閃即逝瞥見母親碎片殘影，唔搶焦點）→ Act III I1 鋼鐵獨舞（CDL-300 完整重逢）；重用現有機制（CDL-308-B + CDL-308「愛莉係已知集體潛意識匯聚節點」），冇發明新概念，呼應 CDL-274 兩步相認手法。已寫入 ACT_II_OUTLINE.md E-11 + ACT_III_OUTLINE.md I1
+- [x] **重大修正：Phase G 神秘追捕者身份由「凜」改為「秋穗」**——作者指出原設計錯誤（「Phase G追捕者=凜（第二次轉變後嘅Unit 00原型），延遲揭露至H2」）：凜嘅第二次轉變（推開晴香隻手→Unit 00-Null）同「遲來介錯」（美夜子槍擊，`04_timeline_canon.md` event-rin-final-battle）係兩個分開好耐嘅事件，後者實際發生喺廣場決戰前夕，唔係Phase G。作者指定改為秋穗——source check 確認 akiho.md 已有完整支撐：「秋穗與黑奏嘅談判橫跨整個第三幕早期至中期」+ 科學家形態「髮髻+眼鏡臉部遮蔽」明確伏筆「無臉執行官」形態；此修正同時解決咗開放項#10「秋穗Act III具體出場方式」呢個長期缺口。已修正 ACT_III_OUTLINE.md G2/H1/H2/補丁1（共4處），凜嘅原有情節（H2推手拒癒、成為Unit 00-Null）保留但移除同「Phase G追捕者」嘅錯誤連結
+- [ ] **待跟進（非本輪阻塞）**：Phase G 秋穗追捕者身份嘅具體 Act III 中段揭露場景設計 = btd Beat Sheet；`CANON_DECISION_LOG.md` CDL-300 原文標「Act IV 鋼鐵獨舞前夕」但鋼鐵獨舞實為 Act III I1，屬歷史記錄小標籤誤差，未修正（不影響已用嘅內容）
+
+## Completed This Round (Round 051 — 2026-07-05 多 sub-agent 審查 + 命名誤判澄清)
+- [x] **5-AGENT_REVIEW** 並行審查 ACT_III_OUTLINE.md v0.4 全篇（Phase G+H / Phase I / Phase J / Phase K-L+跨幕表格 / 全篇結構節奏），對照 CANON_DECISION_LOG（CDL-212~310）、角色檔案、Manifest、series bible、world rules、consequence-driven-progression.md
+- [x] **結果**：0 矛盾級發現；Phase G/H/I/K-L 大致乾淨；Phase J 因黑奏最新設定（CDL-302/306/307，7月先落檔）令現有台詞語氣/J8起源深度顯得過時（非矛盾）；結構節奏發現 J3/J4 張力標籤同實際內容不符、L5/L9 缺乏外部Cost Signal（違反Consequence-Driven Law）、L8 Payoff表聲稱P-A24/P-C10但beat文字未見
+- [x] **命名誤判澄清並落檔**：本輪其中一個 agent 誤將 00_Story_Brief.html「刑思」標記為「舊名/待同步」——作者澄清「刑思」先係正式帝國法號，「彩/黑奏」只係 `canon/_working/` 工作簡稱（05_naming_and_psychology_system.md 已有完整定義，2026-05-04 落檔）。已喺 `canon/05_naming_and_psychology_system.md` 加註 ⚠️ 澄清段落（settled，之後唔再重新討論；HTML 唔需要修改）
+- [x] **作者回應**：黑奏台詞語氣深度（J2/J3/J5）= 屬 Scene/Script 層具體台詞，Outline 層唔應該加入/討論，DEFERRED 至 Beat Sheet；J2.5 秋穗連結缺口 = 可以依家討論（進行中）
+- [x] **技術性修正已直接落實**：`04_timeline_canon.md` 強制索回日期統一為134年9月；Phase J 張力波浪圖重新對應實際beat內容（加J2.5標籤）；L8 Payoff表 P-A24/P-C10 加`[btd]`註記（非刪除，留Beat Sheet補內容）；共振地獄階數加對照註（第一階段=Emo-Visor推廣，Act II已鋪墊）；Phase H-操 beat 措辭精確化（美夜子+晴香）
+- [x] **FEEDBACK**：作者要求今後唔好用編號 Q1/Q2 + A/B/C 選項式問答格式（難以閱讀），改用自由form建議再討論
+- [x] **作者回應**：J2.5 秋穗連結——確認唔加入 J2.5，留待開放項#10「秋穗Act III出場方式」自然接口；J8 黑奏起源深度——留 Beat Sheet
+- [x] **追溯發現（本輪新增）**：追查作者問「愛莉情緒風暴有冇問題」時，發現 `conflict_resolution/MULTI_AGENT_REVIEW.md`（2026-05-19 CR-002）曾識別 4 條問題（C-07/C-12/C-13/C-15）並草擬 Q-005~Q-008，但呢 4 條從未寫入 QUESTION_QUEUE.md——即從未真正問過作者。已補記為 QQ-115（愛莉Act III「核心陣列/系統終端」囚禁機制無CDL錨點，同佢自己角色檔案Act III描述唔一致）/ QQ-116（黑奏「摧毀晴香」vs「需要佢崩潰達成目的」邏輯，可能已被後加嘅J6系統排斥機制解決但未確認）/ QQ-117（L9態度吸收 vs L10強制索回關係未明）。P-C10/L8 payoff不符（C-07）今日 5-agent 審查獨立重複發現，確認係真實遺留，非誤判，已併入技術修正清單
+- [x] **QQ-115 RESOLVED（source check）**：讀 `backup/draft/outline_raw.md`（第二幕高潮段落）+ `backup/screenwriter/Villain_Master_Plan.md`（黑奏計劃三階段表）確認：愛莉潛意識風暴係 **Act II 事件**（黑奏計劃第二階段，「最終被彩阻止」）；風暴後愛莉持續石像+紙皮騎士/濾心雙重狀態，全部 backup 文獻搵唔到「肉身被囚禁做系統終端」呢個設定。確認係 Round 033c（2026-05-10）起草 Outline v0.1 時嘅無支撐發明。已喺 `ACT_III_OUTLINE.md` K/L 段移除「核心陣列/系統終端」兩句，保留有支撐嘅「K/L 期最後守護」（對應 `Villain_Master_Plan.md` 第三階段：集體潛意識決戰）
+- [x] **QQ-116 RESOLVED（source check）**：讀 `backup/screenwriter/Villain_Master_Plan.md` 全文，確認黑奏真實目標係跨時間線能量收割（吸收晴香絕望期最純粹情感能量、逼佢再次「改變現實」畀佢重奪力量），「摧毀晴香自我防禦」正正就係佢收割能量嘅手法，同「需要佢繼續存在/配合」冇矛盾——兩者係同一機制。舊 C-12（2026-05-19，HIGH）純粹因為未查證呢份 backup 文件先被標記做矛盾
+- [x] **QQ-117 重大發現**：追查 L9/L10 關係時，喺 `canon/04_timeline_canon.md` 搵到內部日期矛盾（「強制索回」事件 line 298 header寫134年9月 vs line 348寫114年9月，源自 Round 037 廿年空白時序修訂未完全傳播）；更重要係搵到 `13_major_events_relationship_impact.md` E-22 記錄嘅作者 2026-03-24 決定——結局「覺醒」與否必須刻意唔明寫，劇本層唔可以明確標示——呢點同 ACT_III_OUTLINE.md Phase L 而家非常具體咁描寫晴香醒返/演講/決戰嘅寫法，存在方向性張力，需要作者表態係咪仍然適用
+
+- Phase 15 (Act III Outline 設計) — **Round 050（2026-07-04）集體潛意識強制進入機制 + 心之器碎裂終末視覺系統統一 + 屍骸化靈魂距離光譜落檔（CDL-308/308-B/309/310）；廢棄夢境進入(CF-T22)+靈魂潛航+情緒結晶積累量表(GAP-27)三條世界規則；CDL-300 Q3.1 正式解決；歌德尖刺體系正式定為終末視覺標準；屍骸化「靈魂困禁」與「無主容器」統一為同一光譜兩端點；主阻塞點仍為 ACT_III v0.4 作者批核（不受影響）**
+
+## Completed This Round (Round 050 — 2026-07-04 集體潛意識進入機制 + 世界規則廢棄 + 終末視覺系統統一 + 屍骸化光譜統一)
+- [x] **CDL-310 落檔**：統一「靈魂困禁」（CDL-271，1%控制力對抗99%情緒廢料）與「無主容器」（Alpha/Beta死亡對照表，靈魂完全離體肉體被強制封裝）為同一條「靈魂-肉體連結強度」光譜嘅兩個端點——0.1秒決定時刻執念錨點強度決定停喺邊個位；兩者外顯封裝機制一致，分別在於靈魂殘留與否。作者明確排除新增「寂靜空殼」感知類型，haruka.md陰影視覺機制維持不變，純粹底層規則講清楚
+- [x] **CDL-309 落檔**：發現並解決 `06_visual_bible.md` 兩套獨立矛盾嘅心之器碎裂終末視覺系統（歌德尖刺體系 vs 情緒結晶積累量表GAP-27，含紫音3.7級/彩1.5-2.0級具體數值）——作者裁決歌德尖刺體系勝出（A），情緒結晶積累量表全套WITHDRAWN，角色狀態遷移為尖刺體系描述；「虹膜封印」（source recovery確認零依賴嘅舊backup殘留詞）連同「結晶剝落」一併移除
+- [x] **連鎖修正 5 檔案**：06_visual_bible.md（標題/進程描述/光環鈣化/量表退役）、00_series_bible.md（靈魂碎裂Law定義）、haruka.md（Act III外觀段落+四幕表）、miyako.md（心之器龜裂例外說明）、01_world_rules_and_costs.md+02_glossary.md（心匣裝置起源「結晶化」→「凝鑄成形」，解決誕生/死亡雙重意涵撞義問題）
+- [x] **確認保留、唔受影響**：情緒結晶（term-emotional-crystal戰鬥殘渣機制，紫音backstory主動引用）+ 愛莉完全結晶化（個人獨有特例，非一般進程）——兩者經確認屬獨立概念，非本次矛盾範圍
+- [x] **READ_FIRST** PROJECT_STATUS/NEXT_ACTION/QUESTION_QUEUE + 01_world_rules_and_costs.md（集體潛意識/心匣/CF-T13）+ 02_glossary.md + 06_visual_bible.md + ayakomoji_misao.md（CDL-300 段落）+ CANON_DECISION_LOG.md（CDL-297~300 全文）
+- [x] **CO_DESIGN_DISCUSSION**（起因：討論「操見母親靈魂」用愛莉情緒風暴做載體是否合理）——經多輪逐步收斂：先發現同 CDL-300（Act III/IV 鋼鐵獨舞前夕）時序/焦點衝突 → 建議 Plant/Payoff 兩段式 → 作者要求純粹由底層設定推導入口邏輯，唔要「共鳴牽引」呢類額外新概念
+- [x] **CDL-308 落檔**：廢棄「夢境進入集體潛意識」（CF-T22）+「靈魂潛航」（Soul Dive）兩條世界規則——source recovery 確認零劇情依賴；心房（Heart-Chamber）概念本身保留（彩自身心理空間用法獨立）
+- [x] **CDL-308-B 落檔**：正式新增「集體潛意識強制進入機制」（`01_world_rules_and_costs.md` §rule-collective-unconscious-forced-entry）——與晴香5歲奇蹟同源（局部/暫時/可逆版本）；心匣限定（凡人無關）；觸發=心匣情緒負荷超臨界；技術呈現=侵蝕式局部重疊（同Act IV L3同機制縮小版，非傳送）；感知差異（凡人模糊環境徵狀 vs 心匣持有者完整具現化）；深度=心之器裂痕程度（CDL-271應用）；特定訊號辨識=未斷的殘絲+燈塔效應疊加
+- [x] **CDL-300 Q3.1 正式解決**：操見母親觸發機制 = 上述新規則嘅具體應用（半屍骸化裂痕加深感知+執念錨點+燈塔效應）；ayakomoji_misao.md 移除「暫定」標記（兩處），世界規則錨點段落重寫
+- [x] **WRITEBACK（6處）**：01_world_rules_and_costs.md（新增forced-entry規則+WITHDRAWN dream-entry/soul-dive+集體潛意識入口窗口句修訂）；02_glossary.md（term-soul-dive移除+term-heart-chamber修訂）；06_visual_bible.md（See-also移除Soul Dive引用）；ayakomoji_misao.md（3處：CDL-300標題/錨點/多層動機確認段落移除暫定）；CANON_DECISION_LOG.md（CDL-308+CDL-308-B）
+- [ ] **UNRESOLVED（懸置，非本輪議題）**：E-11 愛莉風暴入面「操母親殘響片段」Plant 內容——作者未最終確認是否要加入 ACT_II_OUTLINE.md，純機制討論已完成但敘事內容決策懸置
 
 ## Completed This Round (Round 049 — 2026-07-02 彩(黑奏) co-design + 恐怖家家酒機制)
 - [x] **READ_FIRST** PROJECT_STATUS/NEXT_ACTION/QUESTION_QUEUE + aya.md/akiho.md/iwakura_akane.md/rin.md + 04_timeline_canon.md + ACT_III_OUTLINE.md + 00_Story_Brief.html + .story_dashboard_work（DIR-004/contradiction_log）

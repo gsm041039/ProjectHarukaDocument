@@ -168,27 +168,16 @@ Beta 線建立的曆法標準。
 
 個體心之器及其核心信念、被壓抑情感的具現化。空間佈局映射主人的心理防禦層次，從對外界線（前門/鐵閘）、社交面具（客廳）、情感滋養狀態（廚房）、私密自我與心之器所在（臥室）、被壓抑陰影（地下室），至高層幻想與逃避（天台/閣樓）。各空間形態因人而異；此框架係設計參考，唔係絕對結構，可以有空間缺失、扭曲或異化。
 
-進入他人心房的行為稱為「靈魂潛航」（見下條）。當外人試圖進入時，心理防禦機制會自動攻擊；潛航者持續承受目標內心世界的環境傷害，包括創傷錨點污染、意識迷航，或人格同化風險。
+> **注**：「靈魂潛航」（第三方入侵他人心房嘅機制）已於 2026-07-04 WITHDRAWN，見 [World Rules](01_world_rules_and_costs.md#rule-soul-dive-stages)。心房本身作為角色自身心理空間嘅概念維持（如彩被黑奏封鎖於自己心房最深層）。
 
-**See also**: [Heart-Vessel](#term-heart-vessel) | [Collective Unconscious](#term-collective-unconscious) | [Soul Dive](#term-soul-dive) | [Visual Bible: 心房室內視覺設計語言](06_visual_bible.md#section-heart-chamber-interior)
-
----
-
-### <a id="term-soul-dive"></a>靈魂潛航（Soul Dive）
-進入他人心房內部空間的行為。
-
-潛航者從集體潛意識的唐樓走廊出發，手持「共鳴門匙」（一件與目標有深刻情感連結的信物）在千篇一律的鐵門中尋找對應門牌。前門/鐵閘代表目標的對外防禦程度：對方清醒且抗拒時絕對無法強行進入；對方虛弱、昏迷或主動渴望被救時，鐵閘可能虛掩或因特定觸發自動打開。進入後逐層穿越各心理空間，真正的治癒或最危險的對決永遠在地下室發生。
-
-機制規則見 [World Rules](01_world_rules_and_costs.md#rule-soul-dive-stages)；空間視覺設計語言見 [Visual Bible](06_visual_bible.md#section-heart-chamber-interior)。
-
-**See also**: [Heart-Chamber](#term-heart-chamber) | [Collective Unconscious](#term-collective-unconscious) | [Heart-Vessel](#term-heart-vessel)
+**See also**: [Heart-Vessel](#term-heart-vessel) | [Collective Unconscious](#term-collective-unconscious) | [Visual Bible: 心房室內視覺設計語言](06_visual_bible.md#section-heart-chamber-interior)
 
 ---
 
 ### <a id="term-heart-container"></a>心匣（Heart Casket / The Lock）
 魔法少女心之器在現實世界中的物理延伸。
 
-當少女與力量建立連結時，一部分靈魂本質在現實世界「結晶化」，形成獨一無二、能捧在手心的小盒子/墜飾。材質、雕花、紋路反映少女靈魂特質。是通往力量的「鎖」。每次戰鬥後留下不可抹滅的物理傷痕。
+當少女與力量建立連結時，一部分靈魂本質在現實世界「凝鑄成形」，形成獨一無二、能捧在手心的小盒子/墜飾。材質、雕花、紋路反映少女靈魂特質。是通往力量的「鎖」。每次戰鬥後留下不可抹滅的物理傷痕。
 
 **See also**: [Entities](07_entities_and_devices.md#section-heart-container) | [Mirror Promise](#term-mirror-promise) | [Emotional Power Device](#term-emotional-power-device)
 

@@ -40,6 +40,37 @@
 | QQ-18 | 操+紫音 入隊場景在 Act I beats 中的位置 | CDL-050/052；ACT_I_OUTLINE.md | High | RESOLVED（我決定）| — | 作者授權自行決定；決定：B — E-02（首戰）= 同時係操入隊 beat（大型屍骸戰鬥末，晴香擋攻擊）；紫音搶怪黨行為在 E-01~E-02 建立；新增 E-02.5 = 紫音珍寶珠 scene（安靜親密 beat，獨立空間）| B（自行決定）| E-02 = 首戰+操入隊；E-02.5 = 紫音珍寶珠（新 beat）| 解鎖 Act I outline 結構；E-02.5 為新 beat | — | 2026-03-29 |
 | QQ-15 | 美夜子是否知道晴香係細妹 | CDL-059~062；文件有記錄 + AC 2026-03-29 | Medium | RESOLVED | — | C→A 三階段進程：Act I = C（靈魂本能殘留，大腦說工具，身體本能守護）；Act II 後期（114年4月中旬）= A（記憶恢復，單向知情）；Act III 嘆息之橋 = 雙向揭露（「無視嘅罪」）| C→A 三階段 | **三階段設計確立**，文件有記錄（CDL-059~062）| 解鎖美夜子 Act I [NC] 場景設計原則；Act II 後期記憶恢復節點設計；Act III 嘆息之橋設計 | — | 2026-03-29 |
 
+## Round 051 Questions（2026-07-05 — 多 sub-agent 審查 ACT_III_OUTLINE.md v0.4）
+
+| QID | Topic | Status | Author Answer | Revisit Trigger |
+|---|---|---|---|---|
+| QQ-113 | J2/J3/J5 黑奏台詞語氣深度——CDL-302「情感辨識缺失」呢層脆弱底層未反映喺依家嘅自信操控者語氣 | **DEFERRED** | 台詞具體語氣屬 Scene/Script 層，唔應該喺 Outline 層加入/討論 | Beat Sheet 黑奏台詞設計時 |
+| QQ-114 | J2.5 鐵絲網偶遇——是否加入 CDL-303 黑奏×秋穗宿怨連結 | OPEN（討論中）| — | — |
+
+> 命名誤判澄清（非 QID，已直接落檔）：本輪審查一度誤將 00_Story_Brief.html「刑思」標記為待同步舊名；已於 `canon/05_naming_and_psychology_system.md` 加註釐清——刑思係正式帝國法號，彩/黑奏只係工作簡稱，HTML 不需修改，settled 不再重議。
+> J8 黑奏起源深度（CDL-306/307 完整因果 vs Outline 現有「6歲保護本能分裂」簡化版本）作者回應：留返 Beat Sheet 先處理，唔喺 Outline 層加深。
+> J2.5 秋穗連結：作者確認方向——唔加入 J2.5（避免分散晴香罪疚焦點），留意開放項#10「秋穗 Act III 出場方式」作為未來自然接口。
+
+> **⚠️ 追溯發現：舊 conflict-resolution 記錄有 4 條問題從未進入本檔案，等於從未真正問過作者**（來源：`canon/_working/conflict_resolution/MULTI_AGENT_REVIEW.md` Session CR-2026-05-19-002，草擬咗 Q-005~Q-008 但冇落檔）。今次一併追加：
+
+| QID | Topic | Status | Note |
+|---|---|---|---|
+| QQ-115 | 愛莉 Act III 物理狀態——Outline K/L 段講愛莉「被帝國系統封印於核心陣列」、係主角團 J 期要解救/摧毀嘅「系統終端」；但呢個設定喺 CDL log 完全搵唔到錨點，佢自己嘅角色檔案（aeri.md）Act III 描述淨係「喺晴香夢中出現，交俾佢真相碎片」，冇提過核心陣列/系統終端呢件事 | **RESOLVED（2026-07-05）** | Source check 確認：`backup/draft/outline_raw.md`（第二幕高潮段）+ `backup/screenwriter/Villain_Master_Plan.md`（黑奏計劃第二階段）均將愛莉潛意識風暴定位為 **Act II** 事件，風暴後「最終被彩阻止」；風暴後愛莉持續以石像+紙皮騎士/濾心/活體黑盒雙重狀態存在，backup 全文獻搵唔到任何「肉身被囚禁做系統終端」設定。確認呢句係 Outline v0.1（2026-05-10）起草時嘅無支撐發明，非作者決策。已從 ACT_III_OUTLINE.md 移除；K/L 期最後守護段落（有 `Villain_Master_Plan.md`「第三階段：集體潛意識決戰」支撐）保留 | — |
+| QQ-116 | 黑奏整體策略邏輯——佢想摧毀晴香嘅自我防衛（三武器/J2.5），但終局又需要靠佢引發嘅精神崩潰去逼夕接管、彩奪回——「想摧毀佢」同「需要佢崩潰嚟達成目的」呢兩層邏輯清唔清楚 | **RESOLVED（source check，2026-07-05）** | Source: `backup/screenwriter/Villain_Master_Plan.md`。冇矛盾——「摧毀晴香嘅自我防衛/否認」本身就係佢收割能量嘅手段（絕望期產生嘅情感能量最純粹），佢需要嘅係晴香繼續受苦咁存在（唔係毀滅晴香），仲要逼佢再發動一次「改變現實」畀佢重奪力量。「摧毀防禦」同「需要佢配合/存在」係同一個機制嘅兩面，唔係矛盾。舊記錄 C-12（2026-05-19）評級 HIGH 但當時未查證 Villain_Master_Plan.md 呢層設定 |
+| QQ-117 | L9「態度吸收/活的平衡點」同 L10「強制索回創世者代價」兩個機制關係未講清；同埋時序問題 | **PARTIALLY RESOLVED，發現更大件事（2026-07-05）** | 查 `canon/04_timeline_canon.md` 發現該檔案內部自相矛盾：line 298 section header寫「134年9月：最終決戰」，但line 348（永劫回歸小節）同一件事「強制索回」寫「帝國歷114年9月」——兩個日期對唔上。推斷 header 果個「134年9月」先啱（配合 Round 037 已確認嘅「Act IV timestamp 114年7-9月→134年7月-（20年空白CDL確認）」修訂），line 348 個「114年9月」係嗰次修訂漏改嘅殘留舊日期。**仲有更嚴重一層**：`13_major_events_relationship_impact.md` E-22 記錄咗作者 2026-03-24 嘅明確決定——結局係咪有「晴香清醒覺醒」呢件事**刻意唔明寫**，劇本/分鏡層唔可以明確標示任何形式嘅覺醒；但 ACT_III_OUTLINE.md Phase L（L1對峙/L2二十年後覺醒/L7主題演講/L8決戰）成段都非常明確咁描寫緊晴香醒返、行動、企出嚟打大決戰、發表演講——呢個做法本身係咪已經違反咗嗰條 2026-03-24 嘅「覺醒必須保持模糊」決定，需要作者親自表態 |
+
+## Round 052 Questions（2026-07-05 — 屍骸樂園幻象破滅事件 co-design，CDL-311）
+
+| QID | Topic | Status | Note |
+|---|---|---|---|
+| QQ-118 | CDL-311「屍骸外流事件」範圍——飢餓屍骸群衝入嘅係夜區 only，定係波及日區？ | **OPEN（作者標示 tbd）** | 作者已確認事件本身（工廠冇獵物→屍骸外流→紫音跟隨不阻止），但範圍未定案；影響 ACT_II_OUTLINE.md 新增暗線嘅場景設定描述，以及 SPEC#168 image 構圖（夜區局部街景 vs 日區/跨區大規模畫面）；日區係帝國精英居住區，若波及日區將加大事件嘅政治/社會衝擊層級，需另評估 Angle 15（社會/制度位置）同 Q9=B「全城動員」嘅呼應程度 |
+
+
+
+> P-C10/P-A24 payoff 表聲稱喺 L8 但 L8 文字冇對應內容——呢個舊記錄 C-07（2026-05-19）同今日 5-agent 審查獨立地又搵到同一個問題，確認係真實遺留，非掃描誤判，已列入本輪純技術修正清單（唔需要另開 QID，屬核對更新）。
+
+---
+
 ## Round 047 Questions（2026-06-30 — 操心理深化 + E-13機制更新 + 平庸之惡討論）
 
 > **已整合至 canon（本輪 CanonFileIntegrator Writeback）**：Q1 CDL-145 操不出手動機三層混疊更新 / Q2 E-13 無名男孩死亡機制（欺凌→魔法屍骸吸引→帝國清剿交叉火力）/ Q3 操「不配被愛」根源段落新增至 ayakomoji_misao.md §無名男孩 / Q5 「自癒作為奪回詮釋權」新增至 00_series_bible.md §Dark Healing。

@@ -3489,6 +3489,34 @@
       scroll-margin-top: 32px
     }
 
+    /* v17 — pending-author-approval marker for Act III-sourced timeline content (ACT_III_OUTLINE.md v0.4 未最終批核) */
+    .pending-approval {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      background: #f59e0b;
+      color: #1a0842;
+      font-size: 9px;
+      font-weight: 900;
+      line-height: 1;
+      margin-left: 4px;
+      cursor: help;
+      vertical-align: middle;
+    }
+
+    .pending-approval-note {
+      display: block;
+      margin-top: 8px;
+      padding: 6px 10px;
+      border-left: 2px solid #f59e0b;
+      background: rgba(245, 158, 11, .08);
+      color: #fcd34d;
+      font-size: 10.5px;
+    }
+
     .timeline-event:target>div:last-child>div,
     .timeline-event.target-flash>div:last-child>div {
       animation: timelineTargetPulse 1.45s ease-out 1;
@@ -5250,25 +5278,6 @@
                         </div>
                       </div>
                     </div>
-                    <div>
-                      <div
-                        style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin-bottom:8px;text-transform:uppercase">
-                        心理狀態</div>
-                      <div style="display:flex;flex-direction:column;gap:6px;font-size:12px">
-                        <div
-                          style="padding:7px 10px;background:rgba(59,130,246,.08);border-radius:5px;border-left:2px solid rgba(59,130,246,.6)">
-                          <strong>求救型</strong> — 渴望被理解；藍色星空微光；低聲嗚咽「…好痛…」；靈魂主動伸手，可解脫
-                        </div>
-                        <div
-                          style="padding:7px 10px;background:rgba(185,28,28,.08);border-radius:5px;border-left:2px solid rgba(185,28,28,.6)">
-                          <strong>拒絕型</strong> — 躲在怪物外殼裡；深紅閃爍；咆哮「走開！別看我！」；核心被黑鐵荊棘封死，抵抗強烈
-                        </div>
-                        <div
-                          style="padding:7px 10px;background:rgba(255,255,255,.03);border-radius:5px;font-size:11.5px;color:var(--muted);margin-top:2px">
-                          玩家面對的不只是敵人——是被系統榨乾的人。
-                        </div>
-                      </div>
-                    </div>
                   </div>
                   <div
                     style="background:rgba(30,10,5,.6);border:1px solid rgba(146,64,14,.5);border-radius:7px;padding:11px 14px;margin-top:12px;font-size:11.5px">
@@ -6520,6 +6529,10 @@
                   <img alt="晴香 魔法少女服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_MagicalGirl.png" />
                   <div class="char-img-cap">魔法少女服</div>
                 </div>
+                <div class="char-img-item" style="grid-column:1/-1">
+                  <img alt="晴香 幼年日常服" src="art/ConceptArt/Characters/Haruka/ConceptArt_Haruka_CasualWear_Young.png" />
+                  <div class="char-img-cap">幼年日常服</div>
+                </div>
               </div>
               <div style="display:flex;gap:16px;align-items:flex-start">
                 <div class="char-body" style="flex:1;min-width:0">
@@ -6802,6 +6815,10 @@
                 <div class="char-img-item">
                   <img alt="魔法少女服 2" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_MagicalGirl_2.png" />
                   <div class="char-img-cap">魔法少女服 2</div>
+                </div>
+                <div class="char-img-item" style="grid-column:1/-1">
+                  <img alt="葉語彩 校服" src="art/ConceptArt/Characters/Aya/ConceptArt_Aya_SchoolUnifrom.png" />
+                  <div class="char-img-cap">校服</div>
                 </div>
               </div>
               <div style="display:flex;gap:16px;align-items:flex-start">
@@ -7177,7 +7194,7 @@
                   <img alt="紫音 魔法少女服" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicalGirl.png" />
                   <div class="char-img-cap">魔法少女服</div>
                 </div>
-                <div class="char-img-item">
+                <div class="char-img-item" style="grid-column:1/-1">
                   <img alt="紫音 屍骸女皇形態" src="art/ConceptArt/Characters/Akane/ConceptArt_Akane_MagicCorpse.png" />
                   <div class="char-img-cap">屍骸女皇形態</div>
                 </div>
@@ -7219,8 +7236,27 @@
                     style="margin-top:10px;font-size:12.5px;background:var(--surf2);padding:7px 10px;border-radius:6px;border-left:3px solid var(--acc)">
                     <strong>主題關聯</strong>：子主題 A（力量的代價）+ 子主題 C（身份的本質）。她的墮落是「以戰鬥麻醉罪惡感」的代價鏈——情感越迴避，代價越重。
                   </p>
-                  <div style="margin-top:12px">
-                                        <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Akane_MagicalGirl_Action.png" alt="紫音 魔法少女形態" style="width:100%;max-height:140px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">魔法少女形態——完全加入管理局後的紫音，甜品師武裝，笑容已成面具</figcaption></figure>
+                  <div style="display:grid;grid-template-columns:1fr;gap:8px;margin-top:12px;max-width:220px">
+                                        <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Akane_MagicalGirl_Action.png" alt="紫音 魔法少女形態" style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">魔法少女形態</figcaption></figure>
+                                        <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_168_AkaneCorpseFloodCity.png" alt="紫音 屍骸潮水淹城" style="cursor:pointer;width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block" class="scene-desc-btn" data-title="屍骸潮水淹城——紫音站在車頂上如女王閱兵，理智崩潰的瞬間" data-desc="夜區嘅暗巷同下水道口，一個接一個，湧出扭曲嘅身影。
+
+金屬碎片拼湊嘅軀體，殘破嘅人形輪廓，本應早已死去嘅嘢，正朝住有燈光、有人聲嘅方向爬去、走去、衝去。
+
+居民嘅尖叫聲斷斷續續地響起，然後被更多嘅腳步聲同刮擦聲蓋過。
+
+紫音企喺一輛翻側或者棄置嘅車頂上，比周圍嘅屍骸群、比逃竄嘅居民都高。
+
+呢個位置唔係佢揀嘅戰略高地——係佢身體本能記得嘅嘢：喺糖果王座度坐慣咗嘅人，去到邊都會揾一個高過人嘅位置企。
+
+一隻手可能攤開向前，好似女王喺檢閱自己嘅子民，好似佢真係喺度指揮緊呢場混亂——但佢冇下過一句命令，佢哋自己就識得點去。
+
+佢嘅表情係瘋狂：嘴角扯開，眼神失焦但發亮，可能喺笑，可能喺喊，甚至兩樣同時。呢個唔係得意嘅狂笑，係一個人終於冇力氣再扮「我掌控緊」之後，將呢半年嚟嘅崩潰一次過爆晒出嚟。
+
+女王嘅姿勢，瘋子嘅臉——兩樣嘢揸手揸埋一齊，冇一樣蓋過另一樣。
+
+遠處城市嘅燈光仍然亮住，冷靜地，同眼前呢場混亂完全唔搭調。
+
+呢個唔係一場侵略。呢個係一個幻象終於撐唔住，連同紫音自己嘅理智一齊垮咗嘅瞬間。" /><figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">屍骸潮水淹城——紫音站在車頂上如女王閱兵，理智崩潰的瞬間</figcaption></figure>
                   </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
@@ -7290,6 +7326,10 @@
                   <img alt="凜 魔法少女服 2" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicalGirl_2.png" />
                   <div class="char-img-cap">魔法少女服 2</div>
                 </div>
+                <div class="char-img-item" style="grid-column:1/-1">
+                  <img alt="凜 屍骸形態" src="art/ConceptArt/Characters/Rin/ConceptArt_Rin_MagicCorpse.png" />
+                  <div class="char-img-cap">屍骸形態</div>
+                </div>
               </div>
               <div style="display:flex;gap:16px;align-items:flex-start">
                 <div class="char-body" style="flex:1;min-width:0">
@@ -7341,6 +7381,11 @@
 
 <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">半首旋律——習慣性哼唱，中途戛然而止</figcaption>
 </figure>
+                    <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Miyako_Kaishakunin.png"
+                        alt="廢墟戰場介錯"
+                        style="cursor:pointer;width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block"  class="scene-desc-btn" data-title="廢墟戰場介錯——美夜子親手為凜介錯" data-desc="帝國歷114年，凜完全失去意識，成為一件由傀儡絲驅動的純粹無意識兵器，四肢以非人類的角度扭曲，空洞眼神，攻擊不止。美夜子雙持衝鋒槍面對著這個已不再是凜的軀殼，一次次扣下扳機——不是為了勝利，而是為了讓她「不以怪物的身份死去」。每一槍都像殺死一部分自己。這場戰鬥是美夜子一生中最沉重的事，也是她二十年守護和最終哭出來的那一刻的最深起點。" />
+                      <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">廢墟戰場介錯——美夜子親手為凜介錯</figcaption>
+                    </figure>
                     <figure style="margin:0"><img src="art/ConceptArt/Scene/ConceptArt_Scene_Rin_RedLineCompulsion.png"
                         alt="凜 紅線強迫症"
                         style="cursor:pointer;width:100%;max-height:130px;object-fit:cover;object-position:top;border-radius:5px;display:block"  class="scene-desc-btn" data-title="紅線強迫症——強迫性標記牆壁，尋求秩序感" data-desc="凜的房間一角，牆壁上用深紅色細線進行著強迫性的標記。這不是隨意的塗鴉，而是精確的、有規律的、不斷重複的行為——每條線都必須直、必須等距、必須染滿整個空間。
@@ -7644,7 +7689,8 @@
                   </p>
                   <p>在故事後期，她的魔法少女（聖女騎士）形態由<a href="#c-haruka">晴香</a>發動奇蹟所觸發，從石像具現為魔法少女；當<a
                       href="#c-haruka">晴香</a>最終接受「改變現實是錯的」，願望消失，她的形態隨之化為光點消散。</p>
-                  <figure style="margin:12px 0 0"><img
+                  <div style="display:grid;grid-template-columns:1fr;gap:8px;margin-top:12px;max-width:220px">
+                  <figure style="margin:0"><img
                       src="art/ConceptArt/Scene/ConceptArt_Scene_Aeri_NurseryRhymeWorld.png" alt="愛莉 童謠世界"
                       style="cursor:pointer;width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block"  class="scene-desc-btn" data-title="童謠世界——被困石像期間，愛莉存在的精神空間" data-desc="愛莉第2次改變現實——她以魔法少女形態出現在晴香面前。穿著紅紫色的魔法少女服裝，握著銀色長劍，長橙色頭髮在光芒中飄揚，她穩穩地站在晴香前面，架起劍作戰鬥姿態。
 
@@ -7654,6 +7700,7 @@
 
 <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">童謠世界——被困石像期間，愛莉存在的精神空間</figcaption>
 </figure>
+                  </div>
                 </div><!-- /char-body -->
               </div><!-- /outer flex -->
               <details class="char-design">
@@ -8914,6 +8961,64 @@
               <div style="flex:1;padding-left:24px;border-left:1px solid rgba(120,113,108,.25);padding-bottom:8px">
                 故事事件 →<br /><span style="font-size:9px;font-weight:400;opacity:.7">Beta 線中真實發生的事</span></div>
             </div>
+            <!-- 73年 ← LEFT + Alpha -->
+            <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1;text-align:right;padding-right:8px">
+                <div
+                  style="background:#031f2e;border:1px solid #0e7490;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:4px">Alpha 線
+                  </div>
+                  <div style="color:#a5f3fc;font-size:13px">共通前史——此事件在 Alpha/Beta 分歧前均存在，兩條線共享同一段歷史。</div>
+                </div>
+              </div>
+              <div style="flex:1;text-align:right;padding-right:24px">
+                <div
+                  style="background:#1c1917;border:1px solid #44403c;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#78716c;margin-bottom:4px">Beta
+                    線回填歷史</div>
+                  <div style="color:#d6d3d1;font-size:13px">
+                    <strong style="display:block;font-size:11px;color:#a8a29e;margin-bottom:5px">▸ 彩誕生</strong>
+                    <a href="#c-keishi">彩</a>於夜區出生，成為戰爭孤兒。</div>
+                </div>
+              </div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#57534e;border:2px solid #78716c;box-shadow:0 0 0 3px rgba(87,83,78,.15)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#78716c;margin-top:4px;white-space:nowrap">73年</div>
+              </div>
+              <div style="flex:1"></div>
+            </div>
+            <!-- 76年 ← LEFT + Alpha -->
+            <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1;text-align:right;padding-right:8px">
+                <div
+                  style="background:#031f2e;border:1px solid #0e7490;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:4px">Alpha 線
+                  </div>
+                  <div style="color:#a5f3fc;font-size:13px">共通前史——此事件在 Alpha/Beta 分歧前均存在，兩條線共享同一段歷史。</div>
+                </div>
+              </div>
+              <div style="flex:1;text-align:right;padding-right:24px">
+                <div
+                  style="background:#1c1917;border:1px solid #44403c;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#78716c;margin-bottom:4px">Beta
+                    線回填歷史</div>
+                  <div style="color:#d6d3d1;font-size:13px">
+                    <strong style="display:block;font-size:11px;color:#a8a29e;margin-bottom:5px">▸ 美夜子誕生</strong>
+                    <a href="#c-miyako">美夜子</a>出生，為<a href="#c-hanako">花子</a>的大女兒。</div>
+                </div>
+              </div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#57534e;border:2px solid #78716c;box-shadow:0 0 0 3px rgba(87,83,78,.15)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#78716c;margin-top:4px;white-space:nowrap">76年</div>
+              </div>
+              <div style="flex:1"></div>
+            </div>
             <!-- 79年 ← LEFT + Alpha -->
             <div style="display:flex;align-items:flex-start;margin-bottom:12px">
               <div style="flex:1;text-align:right;padding-right:8px">
@@ -8949,6 +9054,35 @@
                   style="width:14px;height:14px;border-radius:50%;background:#57534e;border:2px solid #78716c;box-shadow:0 0 0 3px rgba(87,83,78,.15)">
                 </div>
                 <div style="font-size:9px;font-weight:700;color:#78716c;margin-top:4px;white-space:nowrap">79年</div>
+              </div>
+              <div style="flex:1"></div>
+            </div>
+            <!-- 97年 ← LEFT + Alpha -->
+            <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1;text-align:right;padding-right:8px">
+                <div
+                  style="background:#031f2e;border:1px solid #0e7490;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#0e7490;margin-bottom:4px">Alpha 線
+                  </div>
+                  <div style="color:#a5f3fc;font-size:13px">共通前史——此事件在 Alpha/Beta 分歧前均存在，兩條線共享同一段歷史。</div>
+                </div>
+              </div>
+              <div style="flex:1;text-align:right;padding-right:24px">
+                <div
+                  style="background:#1c1917;border:1px solid #44403c;border-radius:8px;padding:10px 14px;display:inline-block;text-align:left;max-width:100%">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#78716c;margin-bottom:4px">Beta
+                    線回填歷史</div>
+                  <div style="color:#d6d3d1;font-size:13px">
+                    <strong style="display:block;font-size:11px;color:#a8a29e;margin-bottom:5px">▸ 晴香誕生</strong>
+                    <a href="#c-haruka">晴香</a>誕生——創世者誕生。</div>
+                </div>
+              </div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#57534e;border:2px solid #78716c;box-shadow:0 0 0 3px rgba(87,83,78,.15)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#78716c;margin-top:4px;white-space:nowrap">97年</div>
               </div>
               <div style="flex:1"></div>
             </div>
@@ -9044,6 +9178,12 @@
                       <a href="#c-akiho" style="color:#bfdbfe">秋穗</a>秘密動用軍方改變現實技術，令集體潛意識中的<a href="#c-miyako"
                         style="color:#bfdbfe">美夜子</a>靈魂復活為魔法少女兵器 Unit 01。同年，秋穗安排<a href="#c-haruka"
                         style="color:#bfdbfe">晴香</a>以偶像歌手身份公開露面——以合法方式定期釋放晴香積累的創世情緒能量，防止其失控。</span>
+                    <span
+                      style="display:block;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08)"><strong
+                        style="font-size:11px;color:#7dd3fc">▸ Unit 01/04 並肩作戰（103-108年）</strong><br />
+                      <a href="#c-miyako" style="color:#bfdbfe">美夜子</a>（Unit 01，掩護／收割）與<a href="#c-rin"
+                        style="color:#bfdbfe">凜</a>（Unit 04，精密打擊）搭檔作戰近 5 年——一個眼神已足夠傳達全部戰術，是凜當時唯一被容許嘅「人性連結」；<a
+                        href="#c-saku" style="color:#bfdbfe">朔</a>在戰場上目睹 Unit 01，認出她是自己已死的戀人。</span>
                   </div>
                 </div>
               </div>
@@ -9063,10 +9203,43 @@
                 <div style="background:#0c1e3a;border:1px solid #1e3a8a;border-radius:8px;padding:10px 14px">
                   <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#60a5fa;margin-bottom:4px">前史
                   </div>
-                  <div style="color:#bfdbfe;font-size:13px"><a href="#c-rin" style="color:#bfdbfe">凜</a>在戰場犧牲（第一次死亡）；<a
-                      href="#c-miyako" style="color:#bfdbfe">美夜子</a>目睹後退化為黑貓逃亡；<a href="#c-airi"
-                      style="color:#bfdbfe">愛莉</a>成為第一具人造魔法屍骸；<a href="#c-keishi" style="color:#bfdbfe">刑思</a>將<a
-                      href="#c-rin">凜</a>復活為無記憶的情緒管理局成員</div>
+                  <div style="color:#bfdbfe;font-size:13px"><a href="#c-rin" style="color:#bfdbfe">凜</a>為掩護<a
+                      href="#c-miyako" style="color:#bfdbfe">美夜子</a>撤離，主動引開一枚 L3 光環，頸部被強行扭斷（「喀嚓」一聲）——這道聲音成為<a
+                      href="#c-miyako">美夜子</a>終身的創傷觸發點；目睹凜死亡的瞬間，美夜子心理防線徹底崩潰，觸發晴香 5 歲時刻在她靈魂上的「避難所詛咒」首次啟動，靈魂壓縮進黑貓體內，流落夜區；同年，<a
+                      href="#c-airi" style="color:#bfdbfe">愛莉</a>成為第一具人造魔法屍骸</div>
+                </div>
+              </div>
+            </div>
+            <!-- 109年 → RIGHT -->
+            <div style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#2563eb;border:2px solid #3b82f6;box-shadow:0 0 0 3px rgba(37,99,235,.15)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#60a5fa;margin-top:4px;white-space:nowrap">109年</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#0c1e3a;border:1px solid #1e3a8a;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#60a5fa;margin-bottom:4px">前史
+                  </div>
+                  <div style="color:#bfdbfe;font-size:13px">
+                    <strong style="display:block;font-size:11px;color:#7dd3fc;margin-bottom:5px">▸ 紫音的創傷事件</strong>
+                    14 歲的<a href="#c-akane" style="color:#bfdbfe">紫音</a>目睹弟弟誤食情緒結晶死亡——此後成為她對「屍骸／被拋棄者」抱持異常同情心的根源。
+                    <span
+                      style="display:block;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08)"><strong
+                        style="font-size:11px;color:#7dd3fc">▸ 潘朵拉協議進入放養階段</strong><br />
+                      <a href="#c-keishi" style="color:#bfdbfe">刑思</a>開始長期「放養實驗」，靜待<a href="#c-haruka"
+                        style="color:#bfdbfe">晴香</a>力量再次成熟到可用的臨界點。</span>
+                    <span
+                      style="display:block;margin-top:8px;padding-top:8px;border-top:1px solid rgba(255,255,255,.08)"><strong
+                        style="font-size:11px;color:#7dd3fc">▸ 凜的重組</strong><br />
+                      <a href="#c-keishi" style="color:#bfdbfe">刑思</a>將<a href="#c-rin"
+                        style="color:#bfdbfe">凜</a>的身體以現實覆寫技術完整還原，重塑為情緒管理局公務員——記憶被抹去，正面情感（喜悅／溫暖／希望）全部麻木，只剩語意層面理解；但身體記憶殘留：靠近<a
+                        href="#c-miyako" style="color:#bfdbfe">美夜子</a>時手指仍會不自主收緊，見到冰藍色仍心跳失序。</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -9093,6 +9266,32 @@
                     <li><span class="from-tag">from 被迫入局</span>晴香唔係主動選擇成為英雄，而係被屍骸事件、美夜子同變身裝置推入魔法少女系統。</li>
                     <li><span class="from-tag">from 第一次變身</span>表面係英雄起點，底層係五歲奇蹟造成嘅世界系統再次啟動。</li>
                     <li><span class="from-tag">from 四人組隊</span>操帶入秩序與戰術，紫音帶入夜區、棄置者同暴力保護欲視角。</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- 113年4月初 → RIGHT -->
+            <div id="tl-misao-shion-join" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="team-formation misao-line shion-line">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:12px;height:12px;border-radius:50%;background:#7c3aed;border:2px solid #8b5cf6;box-shadow:0 0 0 3px rgba(124,58,237,.16)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">113年4月初</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    操與紫音各自入隊</div>
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-sou" style="color:#e9d5ff">操</a>原為獨行俠魔法少女（紗夜黑市買裝置），戰鬥中被<a
+                      href="#c-haruka">晴香</a>擋下一擊，為還人情勉強加入；<a href="#c-akane"
+                      style="color:#e9d5ff">紫音</a>原是搶食隊友戰果的「搶怪黨」，戒斷發作時獲晴香一顆珍寶珠安撫，從此跟隨</div>
+                  <ul class="timeline-mini-points">
+                    <li><span class="from-tag">from 操線</span>操嘅「完美」係燈塔效應同形式主義嘅雙重強迫，唔係天生優越感。</li>
+                    <li><span class="from-tag">from 紫音線</span>紫音對「被馴服」嘅渴望，早於呢一刻已埋下佢日後護犢式暴力保護欲嘅根源。</li>
                   </ul>
                 </div>
               </div>
@@ -9203,6 +9402,27 @@
                 </div>
               </div>
             </div>
+            <!-- 113年6月中 → RIGHT -->
+            <div id="tl-shion-exile" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="shion-fall corpse-system exile">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:12px;height:12px;border-radius:50%;background:#7c3aed;border:2px solid #8b5cf6;box-shadow:0 0 0 3px rgba(124,58,237,.16)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">113年6月中</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-haruka" style="color:#e9d5ff">晴香</a>團隊討伐屍骸樂園（廢棄糖果工廠）；<a
+                      href="#c-akane" style="color:#e9d5ff">紫音</a>抱著屍骸化的<a href="#c-hikaru"
+                      style="color:#e9d5ff">小光</a>質問人類與屍骸的生存權，晴香無法回答；屍骸化小光失控，晴香無法下手；<a
+                      href="#c-akane" style="color:#e9d5ff">紫音</a>被放逐，躲入下水道</div>
+                </div>
+              </div>
+            </div>
             <!-- 113–114年 → RIGHT -->
             <div id="tl-public-collapse" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
@@ -9245,6 +9465,52 @@
                 </div>
               </div>
             </div>
+            <!-- 113年7-8月 → RIGHT -->
+            <div id="tl-misao-mirror-night" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="misao-line family-betrayal">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#7c3aed;border:2px solid #8b5cf6;box-shadow:0 0 0 3px rgba(124,58,237,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">113年7-8月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    鏡像破碎之夜<span class="pending-approval" title="來源：Act III Outline v0.4，尚待作者最終批核">!</span></div>
+                  <div style="color:#e9d5ff;font-size:13px">帝國軍隊包圍<a href="#c-sou" style="color:#e9d5ff">操</a>的家族大宅，父親親自開門將她交給帝國回收；管家紗夜拔槍反抗，為操製造逃生機會後犧牲；<a
+                      href="#c-sou">操</a>投奔<a href="#c-haruka" style="color:#e9d5ff">晴香</a>團隊，雙重背叛推向崩潰邊緣</div>
+                </div>
+              </div>
+            </div>
+            <!-- 113年11月-114年1月 → RIGHT -->
+            <div id="tl-akiho-confession" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="akiho-line misao-line saku-line">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#7c3aed;border:2px solid #8b5cf6;box-shadow:0 0 0 3px rgba(124,58,237,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">113年11月-114年1月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    秋穗三層坦白與守恆定律揭露</div>
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-saku" style="color:#e9d5ff">朔</a>截獲<a
+                      href="#c-akiho" style="color:#e9d5ff">秋穗</a>手錶後門數據，<a href="#c-haruka"
+                      style="color:#e9d5ff">晴香</a>當面對質——秋穗三層坦白監控真相、守恆定律、<a href="#c-airi"
+                      style="color:#e9d5ff">愛莉</a>犧牲動機；同期<a href="#c-saku">朔</a>從<a
+                      href="#c-miyako" style="color:#e9d5ff">美夜子</a>戰鬥習慣認出「舊世界殘響」；<a
+                      href="#c-sou" style="color:#e9d5ff">操</a>目睹無名男孩遭帝國清剿波及身亡而未出手，種下「永遠之罪」</div>
+                </div>
+              </div>
+            </div>
             <!-- 114年春 → RIGHT -->
             <div id="tl-emotion-drug-crisis" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
@@ -9267,9 +9533,97 @@
                 </div>
               </div>
             </div>
+            <!-- 114年3月 → RIGHT -->
+            <div id="tl-act2-ending" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="haruka-yu-integration act2-act3-transition">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#6d28d9;border:2px solid #7c3aed;box-shadow:0 0 0 3px rgba(109,40,217,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">114年3月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    Act II 幕末三段式——由和解到絕境</div>
+                  <div style="color:#e9d5ff;font-size:13px">黑貓<a href="#c-miyako" style="color:#e9d5ff">美夜子</a>引導<a
+                      href="#c-haruka" style="color:#e9d5ff">晴香</a>與<a href="#c-fei" style="color:#e9d5ff">夕</a>部分融合，獲陰影視覺、剪髮明志；虛假黎明的玻璃庭院茶會隨即被黑奏詛咒切斷；情緒管理局鐵桶式包圍封堵出口，故事強制進入 Act III</div>
+                </div>
+              </div>
+            </div>
+            <!-- 114年3-4月 → RIGHT -->
+            <div id="tl-rin-recognition-collapse" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="rin-line recognition collapse">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#7c3aed;border:2px solid #8b5cf6;box-shadow:0 0 0 3px rgba(124,58,237,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">114年3-4月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    凜的相認與最終崩潰<span class="pending-approval" title="來源：Act II/III Outline，尚待作者最終批核">!</span></div>
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-miyako" style="color:#e9d5ff">美夜子</a>向<a
+                      href="#c-haruka" style="color:#e9d5ff">晴香</a>坦白凜早於 108 年已死、被重組並改寫記憶——美夜子仍抱虛假希望；同月<a
+                      href="#c-rin" style="color:#e9d5ff">凜</a>推開晴香的手，自願要求挖走感情，變成 Unit 00 - Null</div>
+                </div>
+              </div>
+            </div>
             <!-- 114年5月 → RIGHT -->
             <div id="tl-liberation-battle" class="timeline-event"
               style="display:flex;align-items:flex-start;margin-bottom:12px">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#6d28d9;border:2px solid #7c3aed;box-shadow:0 0 0 3px rgba(109,40,217,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">114年5月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    恐怖家家酒——2 週假性和平<span class="pending-approval" title="來源：Act III Outline v0.4，尚待作者最終批核">!</span></div>
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-keishi" style="color:#e9d5ff">刑思</a>強迫眾人扮返學形成恐怖平衡；第 13 天，<a
+                      href="#c-sou" style="color:#e9d5ff">操</a>擺脫傀儡控制，於<strong style="color:#f472b6">學校人偶牆</strong>犧牲；第
+                      14 天，<a href="#c-akane" style="color:#e9d5ff">紫音</a>回歸戰場，於<strong
+                      style="color:#f472b6">帝國廣場</strong>自爆化為糖果山——兩人犧牲刻意錯位，非同一戰役</div>
+                  <div class="pending-approval-note">⚠ 以上 Day13/Day14 細節出自 ACT_III_OUTLINE.md v0.4，全書主阻塞點——作者最終批核後將回來更新此節。</div>
+                </div>
+              </div>
+            </div>
+            <!-- 114年5月・詛咒打破 → RIGHT -->
+            <div id="tl-curse-broken" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px"
+              data-phase="miyako-line curse-broken">
+              <div style="flex:1"><!-- ALPHA_COL --></div>
+              <div style="flex:1"><!-- beta-back --></div>
+              <div
+                style="width:80px;display:flex;flex-direction:column;align-items:center;position:relative;z-index:1;padding-top:11px;flex-shrink:0">
+                <div
+                  style="width:14px;height:14px;border-radius:50%;background:#6d28d9;border:2px solid #7c3aed;box-shadow:0 0 0 3px rgba(109,40,217,.2)">
+                </div>
+                <div style="font-size:9px;font-weight:700;color:#a78bfa;margin-top:4px;white-space:nowrap">114年5月</div>
+              </div>
+              <div style="flex:1;padding-left:24px">
+                <div style="background:#1a0842;border:1px solid #4c1d95;border-radius:8px;padding:10px 14px">
+                  <div style="font-size:9px;font-weight:700;letter-spacing:.1em;color:#a78bfa;margin-bottom:4px">▶
+                    美夜子的三段式覺醒與凜的最終戰<span class="pending-approval" title="來源：Act III Outline v0.4，尚待作者最終批核">!</span></div>
+                  <div style="color:#e9d5ff;font-size:13px"><a href="#c-miyako" style="color:#e9d5ff">美夜子</a>強行打破「避難所詛咒」，貓殼碎裂——<a
+                      href="#c-haruka" style="color:#e9d5ff">晴香</a>發現黑貓就是姊姊；翌晨，美夜子單獨應戰 Unit 00 - Null（<a
+                      href="#c-rin" style="color:#e9d5ff">凜</a>），槍擊核心完成遲來的介錯</div>
+                </div>
+              </div>
+            </div>
+            <!-- 114年5月・解放之戰 → RIGHT -->
+            <div id="tl-liberation-battle-2" class="timeline-event" style="display:flex;align-items:flex-start;margin-bottom:12px">
               <div style="flex:1"><!-- ALPHA_COL --></div>
               <div style="flex:1"><!-- beta-back --></div>
               <div
@@ -9303,7 +9657,7 @@
                       href="#c-fei" style="color:#e9d5ff">菲</a>完全奪取身體並重置世界。重點不是「重置失敗」，而是重置確實成功，但成功本身造成新的時間線分支。</div>
                   <figure style="margin:10px 0 0"><img
                       src="art/ConceptArt/Scene/ConceptArt_Scene_Haruka_Integration.png" alt="晴香與夕整合"
-                      style="cursor:pointer;width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9"  class="scene-desc-btn" data-title="整合場景——晴香與夕在夢境空間痛苦碰撞，花子顫抖守護" data-desc="晴香的明亮與陰影形態在痛苦中碰撞，花子顫抖著試圖保護她們，背景色彩暴力破碎。" />
+                      style="cursor:pointer;width:100%;max-height:150px;object-fit:contain;border-radius:5px;display:block;opacity:.9"  class="scene-desc-btn" data-title="整合場景——晴香與夕在夢境空間痛苦碰撞，花子顫抖守護" data-desc="晴香的明亮與陰影形態在痛苦中碰撞，花子顫抖著試圖保護她們，背景色彩暴力破碎。" />
 
 <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">整合場景——晴香與夕在夢境空間痛苦碰撞，花子顫抖守護</figcaption>
 </figure>
@@ -9349,27 +9703,49 @@
                     <div class="tl-follow-card"
                       style="background:#3b0a1e;border:1px solid #9f1239;border-radius:8px;padding:11px 14px">
                       <div style="font-size:9.5px;font-weight:800;letter-spacing:.1em;color:#fda4af;margin-bottom:6px">▸
-                        最終決戰</div>
-                      <div style="color:#ffe4e6;font-size:12.8px;line-height:1.75">世界時間重置；<a href="#c-haruka"
-                          style="color:#ffe4e6">晴香</a>帶著二十年記憶甦醒；<a href="#c-airi" style="color:#ffe4e6">愛莉</a>與<a
-                          href="#c-keishi" style="color:#ffe4e6">葉語彩</a>最後對決，彩犧牲；<a href="#c-haruka"
-                          style="color:#ffe4e6">晴香</a>承接所有痛苦，化身永恆守護者。</div>
-                      <figure style="margin:10px 0 0"><img
-                          src="art/ConceptArt/Scene/ConceptArt_Scene_AfterEmotionLink_Crisis.png" alt="情緒連結危機後"
-                          style="width:100%;max-height:150px;object-fit:cover;object-position:top;border-radius:5px;display:block;opacity:.9" />
-                        <figcaption style="font-size:10px;color:var(--muted);text-align:center;padding:3px 0">
-                          決戰後——一切結束後的殘局，晴香化身永恆守護者沉睡</figcaption>
-                      </figure>
+                        134年7月——時間重置與甦醒<span class="pending-approval" title="來源：Act IV Outline 尚未開始設計，僅為現有草稿方向，未經作者最終批核">!</span></div>
+                      <div style="color:#ffe4e6;font-size:12.8px;line-height:1.75">世界時間重置回 114 年 7 月；<a
+                          href="#c-haruka" style="color:#ffe4e6">晴香</a>意識開始甦醒，但甦醒過程並非瞬間清醒，而是先要通過集體潛意識中的一道內在關卡（見下）；同期<a href="#c-airi"
+                          style="color:#ffe4e6">愛莉</a>成為魔法少女，<a href="#c-saku" style="color:#ffe4e6">朔</a>轉變為「解放者」。</div>
+                    </div>
+
+                    <div class="tl-follow-card"
+                      style="background:#3b0a1e;border:1px solid #9f1239;border-radius:8px;padding:11px 14px">
+                      <div style="font-size:9.5px;font-weight:800;letter-spacing:.1em;color:#fda4af;margin-bottom:6px">▸
+                        134年7-8月——母愛的琥珀（甦醒前的內在關卡）<span class="pending-approval" title="來源：Act IV Outline 尚未開始設計，僅為現有草稿方向，未經作者最終批核">!</span></div>
+                      <div style="color:#ffe4e6;font-size:12.8px;line-height:1.75">甦醒途中，<a href="#c-haruka"
+                          style="color:#ffe4e6">晴香</a>意識暫留在集體潛意識一個「過度溫柔」嘅完美世界幻象——<a href="#c-hanako"
+                          style="color:#ffe4e6">花子</a>仍在生，美夜子是普通少女；晴香選擇離開幻象，將對母愛的渴望收回心中（花子融入晴香），完成自我整合，正式回到現實甦醒</div>
+                    </div>
+
+                    <div class="tl-follow-card"
+                      style="background:#3b0a1e;border:1px solid #9f1239;border-radius:8px;padding:11px 14px">
+                      <div style="font-size:9.5px;font-weight:800;letter-spacing:.1em;color:#fda4af;margin-bottom:6px">▸
+                        134年9月——最終決戰<span class="pending-approval" title="來源：Act IV Outline 尚未開始設計，僅為現有草稿方向，未經作者最終批核">!</span></div>
+                      <div style="color:#ffe4e6;font-size:12.8px;line-height:1.75"><a href="#c-haruka"
+                          style="color:#ffe4e6">晴香</a>匯聚眾人「態度」的力量；<a href="#c-airi" style="color:#ffe4e6">愛莉</a>以聖女騎士之姿正式登場參戰；<a
+                          href="#c-keishi" style="color:#ffe4e6">彩</a>用靈魂填補世界裂痕，還清因果債務，黑奏人格消散；<a href="#c-haruka"
+                          style="color:#ffe4e6">晴香</a>被強行轉化為「三位一體的永恆守護者」，魔法少女系統、屍骸、情緒毒品全部失效。</div>
+                    </div>
+
+                    <div class="tl-follow-card"
+                      style="background:rgba(245,158,11,.08);border:1px solid rgba(245,158,11,.3);border-radius:8px;padding:9px 12px;color:#fcd34d;font-size:11px;line-height:1.6">
+                      ⚠ 以上 134 年 7-9 月（Act IV）三段內容出自 <code>backup/draft/timeline_raw.md</code> 與
+                      <code>backup/director/Story_Structure_Atmosphere_Design.md</code>
+                      嘅草稿方向，成熟度遠低於 Act I-III——因為 <strong>Act IV Outline 全書仲未開始正式設計</strong>（硬性規則：全四幕 Outline
+                      完成先可以入 Beat Sheet；現時主阻塞點仍為 Act III Outline v0.4 批核）。此節內容僅供讀者理解故事走向，唔應視為定案。
                     </div>
 
                     <div class="tl-follow-card"
                       style="background:rgba(124,58,237,.12);border:1px solid rgba(196,181,253,.3);border-radius:8px;padding:11px 14px;color:#ddd6fe;font-size:12.8px;line-height:1.75">
-                      <strong style="color:#e9d5ff">同步犧牲：</strong><a href="#c-airi"
-                        style="color:#ddd6fe">愛莉</a>以聖女騎士現身；<span id="tl-shion-self-destruct"
-                        class="timeline-anchor"></span><a href="#c-akane" style="color:#ddd6fe">紫音</a>廣場自爆犧牲；<span
-                        id="tl-sou-doll-wall" class="timeline-anchor"></span><a href="#c-sou"
-                        style="color:#ddd6fe">操</a>以人偶牆封印通道犧牲；<a href="#c-haruka"
-                        style="color:#ddd6fe">晴香</a>意識沉入靈魂空間，沉睡 20 年。
+                      <strong style="color:#e9d5ff">終局沉睡：</strong><a href="#c-airi"
+                        style="color:#ddd6fe">愛莉</a>以聖女騎士現身參與最終戰；<a href="#c-haruka"
+                        style="color:#ddd6fe">晴香</a>意識沉入靈魂空間，沉睡 20 年。<span id="tl-shion-self-destruct"
+                        class="timeline-anchor"></span><span id="tl-sou-doll-wall" class="timeline-anchor"></span>
+                      <span class="pending-approval-note" style="margin-top:6px">⚠
+                        校訂：<a href="#c-akane" style="color:#ddd6fe">紫音</a>廣場自爆與<a href="#c-sou"
+                          style="color:#ddd6fe">操</a>人偶牆犧牲已對齊 CDL-217/218「錯位雙殺」設計，實際發生在 114 年 5 月恐怖家家酒 Day13/14（見上方時間線節點），並非與此處 20
+                        年後的最終戰同時發生，故從本卡移除以免時序矛盾。</span>
                     </div>
                   </div>
                 </div>
@@ -9501,7 +9877,7 @@
                     <li><strong>M3 多重威脅</strong> — ThreatGroup + ThreatResolutionProfile</li>
                     <li><strong>M4 演出升級</strong> — 敵人攻擊三拍化（宣告→逼近→出手）、AT 暫停下 anime cut-in、雙敵同框</li>
                   </ul>
-                  <p style="margin:8px 0 0;font-size:11.5px;color:var(--muted)">技術細節見 code repo 的 <code>Doc/Architecture/CombatPacing_DesignIntent.md</code>；迴歸測試 <code>Tools/Run_CombatBeatPacing_Regression.bat</code></p>
+                  <p style="margin:8px 0 0;font-size:11.5px;color:var(--muted)">技術細節見 code repo 的 <code>Doc/Architecture/CombatPacing_DesignIntent.md</code>；
                 </div>
               </div>
             </article>
