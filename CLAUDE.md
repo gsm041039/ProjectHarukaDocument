@@ -64,11 +64,10 @@ Scene / Script（執行細節：對白/鏡頭/timing）
 - `QUESTION_MATRIX.md`（如本輪建立或更新 angle rows）
 
 ## User interaction style
-- 優先用 A/B/C 問法
-- 但可容許作者自由補充
-- 每輪 8–15條最高價值問題（問題多 = source check token 減少）
-- 每條問題必須列出 12角度分析（RELEVANT/NOT_RELEVANT）及所有選項 impact
-- **白話文描述問題**：唔好直接用技術編號（例如「E-03 Plant-A chain」需解釋係咩），除非只有該詞才能準確表達，且需在問題內加解釋
+- **唔用編號 Q1/Q2 + A/B/C 選項式問答格式**（作者明確表示難以閱讀，2026-07-06 確認）——改用自由form：直接講清楚呢個位有咩要決定、點解要決定、有咩考慮方向，容許作者自由回應
+- 每輪只問真正需要決定嘅嘢，唔堆砌問題數量
+- 每條問題背後必須有 12角度分析支撐（RELEVANT/NOT_RELEVANT），但唔需要將呢個分析攤晒出嚟畀作者睇，除非佢要求
+- **對話入面唔用內部追蹤編號**（QQ-xxx、CDL-xxx、E-xx、M0xx 等）——呢啲編號只可以喺寫入 state files（QUESTION_QUEUE.md / CANON_DECISION_LOG.md 等）時使用，同作者對話時一律用白話直接講返件事本身係咩，唔可以假設作者記得個編號代表咩（2026-07-06 確認，比之前「白話文描述問題」規則更嚴格：唔止解釋，係根本唔好提編號）
 - 唔得問 filler 問題
 
 @.claude/story_system/angle-system.md

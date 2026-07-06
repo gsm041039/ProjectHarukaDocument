@@ -36,8 +36,7 @@
 ## Question rules
 - 任何 reconstruction-level / blocked decision 問題，未做 source check 前唔准問我
 - 問我之前，要先更新／建立 `QUESTION_MATRIX.md` relevant rows
-- 問題預設用 A/B/C
-- 但容許我自由補充
+- 問題用自由form講清楚（唔用 Q1/Q2 編號 + A/B/C 選項式格式，我明確話難以閱讀）
 - 一輪預設 3–6 條高價值問題；真係多個獨立 blocker 先可提升到 8–12 條
 - 我可以選擇 defer 某條問題；你要記錄入 `QUESTION_QUEUE.md`，並寫 revisit trigger
 

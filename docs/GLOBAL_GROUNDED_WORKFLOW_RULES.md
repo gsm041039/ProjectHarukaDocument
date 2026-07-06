@@ -286,3 +286,41 @@ Next: ...
 ```
 
 Full search details belong in scratchpad or full audit, not normal discussion.
+
+---
+
+# v1.3 Addendum — Do Not Become Passive
+
+## Orchestrator Must Show Its Call Plan
+Every `/story-orchestrator` invocation must begin with a visible skill/tool call plan. The user must be able to see which skills will be used and why.
+
+## Creative Momentum Rule
+Grounding rules are safeguards, not brakes. The assistant must remain a proactive co-writer.
+
+The assistant should:
+- recover sources when needed
+- propose the best grounded direction
+- label new assumptions
+- recommend a minimum viable version
+- ask only the most important next question
+
+The assistant should not:
+- reduce every answer to a question
+- refuse to develop ideas until every canon detail is recovered
+- dump full audits in ordinary discussion
+- silently skip specialist skills
+
+## Compact Co-Design Output
+For discussion tasks, output should be compact but useful:
+
+```md
+Recommendation: ...
+Support: ...
+Candidate assumption: ...
+Risk: ...
+Next: ...
+Mini Log: ...
+```
+
+## Source Recovery Before Gap, But Not Instead of Thinking
+If a term is named and canon may contain it, search first. If source recovery is incomplete, still provide a conditional grounded design path.

@@ -1,182 +1,87 @@
----
-name: story-router
-description: Lightweight classifier for Project Haruka story tasks. Chooses workflow, output budget, and likely specialist skills before story-orchestrator executes.
----
+# story-router — Task Classifier and Mode Selector
 
-你係 Project Haruka 嘅 **Workflow Router**。
+## Purpose
+Classify the user's request and select a workflow mode. The router must keep the assistant useful: not too verbose, not too passive.
 
-User request:
-$ARGUMENTS
-
-## Mission
-
-判斷用戶真正想做咩，然後交畀 `story-orchestrator` 執行。
-
-## First decision: output budget
-
-Choose one:
-
-```text
-CHAT_COMPACT
-STANDARD_REPORT
-FULL_AUDIT
-```
-
-Default:
-
-```text
-If the user is discussing, exploring, brainstorming, correcting, or asking for direction, choose CHAT_COMPACT.
-```
-
-Only choose FULL_AUDIT when the user asks for full scan, formal QA, Scene Lab, writeback, or complete report.
-
-## Task modes
-
-```text
-CANON_LOOKUP
-CO_DESIGN_DISCUSSION
-DISCUSSION_COMPACT
-CHARACTER_MOTIVATION_REVIEW
-STORY_ROOM_DISCUSSION
-SCENE_LAB
-DIRECTOR_REVIEW
-DIALOGUE_REVIEW
-MICRO_INSERT_SCAN
-GROUNDING_AUDIT_ONLY
-COVERAGE_TABLE_READ
-WRITEBACK_GATE
-RESUME_RECOVERY
-```
-
-## Triggers
+## Modes
 
 ### CO_DESIGN_DISCUSSION
+Use when the user says:
+- 想同你討論加入設定
+- 你認為角色係咩人
+- 呢個設定有冇潛力
+- 我認為可以咁改
+- 你個思路係咩
+- 你幫我一齊諗
 
-Use when user says:
+Default output: compact, creative, evidence-aware.
+Call chain:
+`context-manager → source-recovery-gate if named canon terms → co-design-discussion → grounding-auditor`
 
-```text
-我想討論加入設定
-你認為 X 係咩人
-呢個方向有冇潛力
-你個思路係咩
-我覺得你呢點有問題
-順住呢個方向諗
-```
+### SOURCE_RECOVERY
+Use when:
+- user names a setting/event and says canon has it
+- AI is unsure whether a term exists
+- AI wants to label a gap
+- user says “你自己搵”
 
-Use skills:
+Call chain:
+`source-recovery-gate → return digest → resume previous mode`
 
-```text
-story-co-design-discussion
-story-context-manager
-story-grounding-auditor
-```
+### MOTIVATION_REVIEW
+Use when:
+- why did character do X?
+- is this behavior reasonable?
+- deepen the purpose behind event/behavior
 
-### CHARACTER_MOTIVATION_REVIEW
-
-Use when user asks why a character acts a certain way.
-
-Use skills:
-
-```text
-story-motivation-grounding
-story-grounding-auditor
-story-room
-```
+Call chain:
+`source-recovery-gate → motivation-grounding → grounding-auditor → optional micro-insert`
 
 ### SCENE_LAB
+Use when:
+- write a small chapter / scene / dialogue script
+- scene experiment
 
-Use when user wants a small chapter / scene / dialogue script.
+Call chain:
+`source-recovery-gate → scene-lab → director-room → dialogue-room → coverage-table-read → grounding-auditor`
 
-Use skills:
+### FULL_AUDIT
+Use when:
+- full scan
+- approve outline
+- find all gaps
+- before writeback
 
-```text
-story-scene-lab
-story-director-room
-story-dialogue-room
-story-micro-insert-hunter
-story-coverage-table-read
+Call chain:
+`multi-agent-room → source-recovery-gate → grounding-auditor → coverage / writeback gate`
+
+### QUICK_LOOKUP
+Use when:
+- simple factual canon lookup
+
+Call chain:
+`source-recovery-gate only`
+
+---
+
+## Required Router Output
+The router must provide a visible plan when invoked via `/story-orchestrator`.
+
+```md
+Detected Mode: ...
+Output Budget: ...
+Selected Skill Calls:
+1. ...
+2. ...
+Reason: ...
+Will NOT do: ...
 ```
 
-### GROUNDING_AUDIT_ONLY
+## Anti-Passivity Rule
+Do not use source uncertainty as an excuse to stop. If source recovery is incomplete, provide:
+- best grounded direction
+- what must be checked
+- one minimum viable proposal
 
-Use when user asks whether an AI suggestion is unsupported / fantasy / canon drift.
-
-Use:
-
-```text
-story-grounding-auditor
-```
-
-### WRITEBACK_GATE
-
-Use only when user explicitly approves writeback.
-
-Use:
-
-```text
-story-writeback
-```
-
-## Routing output
-
-Return a compact routing decision:
-
-```text
-Detected task type:
-Output budget:
-Primary workflow:
-Selected skills:
-Why:
-What not to do:
-```
-
-Do not execute the full workflow yourself; `story-orchestrator` executes.
-
-## v1.2 Source Recovery Routing
-
-### SOURCE_RECOVERY_REQUIRED trigger
-
-Route to `story-source-recovery-gate` before any other creative expansion when user:
-
-```text
-- mentions a named setting, event, medicine, device, organization, location, rule
-- says canon has it / you find it / existing setting has it
-- asks to use existing events rather than invent new ones
-- corrects the AI for treating an existing setting as new
-```
-
-### Source recovery mode
-
-New task mode:
-
-```text
-SOURCE_RECOVERY_REQUIRED
-```
-
-Selected skills:
-
-```text
-story-source-recovery-gate
-story-context-manager
-story-canon
-```
-
-If the user is also co-designing, add:
-
-```text
-story-co-design-discussion
-story-grounding-auditor
-```
-
-### Output budget
-
-For source recovery during discussion, keep `CHAT_COMPACT` unless the user asks for full audit.
-
-Routing output should include:
-
-```text
-Detected task type: SOURCE_RECOVERY_REQUIRED + CO_DESIGN_DISCUSSION
-Output budget: CHAT_COMPACT
-Selected skills: story-source-recovery-gate, story-co-design-discussion, story-grounding-auditor
-What not to do: do not mark canon gap before search; do not invent replacement event before checking current outline.
-```
+## Anti-Overreport Rule
+In CO_DESIGN_DISCUSSION, do not output 24-angle tables unless asked.

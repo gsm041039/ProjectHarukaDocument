@@ -187,3 +187,66 @@ You should not need to re-explain the whole setting unless source recovery fails
 /story-orchestrator
 情緒毒品 canon 有，你自己搵。我要用現有情緒毒品危機討論秋穗退場，唔好另開新事件。
 ```
+
+---
+
+# v1.3 Usage Notes
+
+## To force the orchestrator to show its calls
+Use:
+
+```text
+/story-orchestrator show call plan, then answer compactly
+```
+
+Expected output starts with:
+
+```text
+ORCHESTRATOR CALL PLAN
+Mode: ...
+Tool / Skill Calls:
+1. story-router ...
+2. story-context-manager ...
+3. story-source-recovery-gate ...
+...
+```
+
+## To keep creative discussion alive
+Use:
+
+```text
+/story-orchestrator co-design mode. 唔好只問我問題；先搵 canon，再畀最小可行方案。
+```
+
+## To stop the AI from becoming too conservative
+Use:
+
+```text
+保留創作推演，但標記邊啲係 canon、邊啲係 candidate。
+```
+
+## To fix “canon has it, you find it” moments
+Use:
+
+```text
+用 source recovery。未查唔好當 gap。
+```
+
+## Preferred discussion answer shape
+
+```text
+ORCHESTRATOR CALL PLAN
+...
+
+我建議...
+現有支撐...
+新增候選...
+風險...
+下一步...
+
+Mini Log
+Done: ...
+Pending: ...
+Blocked: ...
+Next: ...
+```

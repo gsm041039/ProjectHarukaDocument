@@ -1,151 +1,102 @@
-# Project Haruka Grounded Workflow v1.2
+# Project Haruka Grounded Workflow v1.3
 
-This package contains the upgraded Project Haruka story workflow and skill set.
+This package updates the grounded writers' room workflow for Project Haruka.
 
-v1.2 adds a retrieval safety layer after the v1.1 context-saving / co-design update.
+## v1.3 Goal
+Fix the over-conservative behavior introduced in v1.2. The AI must remain a proactive co-writer while still respecting canon, evidence, source recovery, and no-writeback rules.
 
-## New in v1.2
+## Key Principles
 
 ```text
-Added:
-- story-source-recovery-gate/SKILL.md
-- docs/SOURCE_RECOVERY_BEFORE_GAP_RULE.md
-- docs/CANON_SEARCH_INDEX_SPEC.md
-
-Updated:
-- story-orchestrator/SKILL.md
-- story-router/SKILL.md
-- story-context-manager/SKILL.md
-- story-co-design-discussion/SKILL.md
-- story-grounding-auditor/SKILL.md
-- docs/GLOBAL_GROUNDED_WORKFLOW_RULES.md
-- docs/SIMPLE_USER_GUIDE.md
+Creative, but grounded.
+Proactive, but not canon-sloppy.
+Compact, but still useful.
+Source recovery before gap, but not instead of thinking.
 ```
 
-## Core v1.2 fix
-
-The AI must not treat an unsearched term as missing canon.
+## Most Important Skill
 
 ```text
-UNKNOWN_UNSEARCHED ≠ MISSING
-NOT_YET_SEARCHED ≠ NEEDS_CANON_SUPPORT
+.agents/skills/story-orchestrator/SKILL.md
 ```
 
-Before saying a named setting is new, missing, unsupported, or needs canon support, the AI must run Source Recovery.
+Use this as the single entry point. It now must show a visible call plan:
 
-## Key design goals
-
-```text
-AI can be creative, but every new claim must be grounded, graded, and traceable.
-Discussion should be compact by default.
-Detailed checks can run internally or in scratchpad.
-Named canon terms must be searched before being treated as gaps.
-The chat should show decisions, risks, blockers, and next steps — not every internal note.
+```md
+ORCHESTRATOR CALL PLAN
+Mode: ...
+Output Budget: ...
+Tool / Skill Calls:
+1. story-router — ...
+2. story-context-manager — ...
+3. story-source-recovery-gate — ...
+4. selected specialist skill — ...
+5. story-grounding-auditor — ...
+Will NOT do: ...
 ```
 
-## Folder layout
+## Core Skills
 
 ```text
-ProjectHaruka_GroundedWorkflow_v1_2/
-├─ README.md
-├─ docs/
-│  ├─ GLOBAL_GROUNDED_WORKFLOW_RULES.md
-│  ├─ 24_ANGLE_SUPPORT_CHECKLIST.md
-│  ├─ SIMPLE_USER_GUIDE.md
-│  ├─ CONTEXT_SAVING_DISCUSSION_MODE.md
-│  ├─ CO_DESIGN_DISCUSSION_MODE.md
-│  ├─ SOURCE_RECOVERY_BEFORE_GAP_RULE.md
-│  └─ CANON_SEARCH_INDEX_SPEC.md
-└─ .agents/skills/
-   ├─ story-orchestrator/SKILL.md
-   ├─ story-router/SKILL.md
-   ├─ story-source-recovery-gate/SKILL.md
-   ├─ story-context-manager/SKILL.md
-   ├─ story-co-design-discussion/SKILL.md
-   ├─ story-multi-agent-room/SKILL.md
-   ├─ story-room/SKILL.md
-   ├─ story-canon/SKILL.md
-   ├─ story-atom-gate/SKILL.md
-   ├─ story-writeback/SKILL.md
-   ├─ story-resume/SKILL.md
-   ├─ story-grounding-auditor/SKILL.md
-   ├─ story-motivation-grounding/SKILL.md
-   ├─ story-director-room/SKILL.md
-   ├─ story-dialogue-room/SKILL.md
-   ├─ story-micro-insert-hunter/SKILL.md
-   ├─ story-scene-lab/SKILL.md
-   └─ story-coverage-table-read/SKILL.md
+.agents/skills/story-orchestrator/SKILL.md
+.agents/skills/story-router/SKILL.md
+.agents/skills/story-context-manager/SKILL.md
+.agents/skills/story-source-recovery-gate/SKILL.md
+.agents/skills/story-co-design-discussion/SKILL.md
+.agents/skills/story-multi-agent-room/SKILL.md
+.agents/skills/story-grounding-auditor/SKILL.md
 ```
 
-## Existing working-state policy
+## Discussion Mode
+For ordinary discussion, the AI should not dump full reports. It should answer compactly but still offer a real recommendation.
 
-This package does not create a new permanent working system. It expects the existing files to remain the source of project state:
+Expected shape:
 
-```text
-canon/_working/PROJECT_STATUS.md
-canon/_working/NEXT_ACTION.md
-canon/_working/QUESTION_QUEUE.md
-canon/_working/SESSION_LEDGER.md
-canon/_working/CANON_DECISION_LOG.md
-canon/_working/READ_MANIFEST.md
-canon/_working/story_construction/QUESTION_MATRIX.md
-```
+```md
+ORCHESTRATOR CALL PLAN
+...
 
-Temporary scratchpad is allowed only as transient cache:
+我建議...
+現有支撐...
+新增候選...
+風險...
+下一步...
 
-```text
-canon/_working/.tmp/current_run.md
-canon/_working/.tmp/current_run_checklist.md
-canon/_working/.tmp/current_run_evidence.md
-canon/_working/.tmp/current_run_agent_notes.md
-```
-
-`.tmp` is overwrite-safe, non-canon, and not a new working state.
-
-## Optional narrative retrieval aid
-
-v1.2 defines an optional:
-
-```text
-canon/_working/CANON_SEARCH_INDEX.jsonl
-```
-
-This is a retrieval index, not a new canon source. See `docs/CANON_SEARCH_INDEX_SPEC.md`.
-
-## Recommended merge order
-
-1. `docs/GLOBAL_GROUNDED_WORKFLOW_RULES.md`
-2. `docs/SOURCE_RECOVERY_BEFORE_GAP_RULE.md`
-3. `.agents/skills/story-source-recovery-gate/SKILL.md`
-4. `.agents/skills/story-orchestrator/SKILL.md`
-5. `.agents/skills/story-router/SKILL.md`
-6. `.agents/skills/story-context-manager/SKILL.md`
-7. `.agents/skills/story-co-design-discussion/SKILL.md`
-8. `.agents/skills/story-grounding-auditor/SKILL.md`
-
-## Normal use
-
-Say:
-
-```text
-/story-orchestrator
-用 compact discussion，同我一齊諗，唔好出 full report。
-```
-
-If AI misses existing canon:
-
-```text
-canon 有，你自己搵。用 source recovery，唔好當新設定。
-```
-
-## Mini Log standard
-
-Every compact discussion should end with:
-
-```text
-Mini Log:
+Mini Log
 Done: ...
 Pending: ...
 Blocked: ...
 Next: ...
 ```
+
+## Source Recovery
+If a named setting or event appears, the assistant must search before calling it missing. But after searching, it must resume creative discussion.
+
+## New v1.3 Doc
+
+```text
+docs/ORCHESTRATOR_CALL_PLAN_AND_CREATIVE_MOMENTUM.md
+```
+
+## Existing Working State
+This package does not create a new long-term working system. It continues to use:
+
+```text
+canon/_working/SESSION_LEDGER.md
+canon/_working/NEXT_ACTION.md
+canon/_working/QUESTION_QUEUE.md
+canon/_working/PROJECT_STATUS.md
+```
+
+Temporary scratchpads may use:
+
+```text
+canon/_working/.tmp/current_run.md
+```
+
+These are not canon.
+
+## Changelog
+- v1.1: Added context-saving and co-design discussion.
+- v1.2: Added source recovery before gap.
+- v1.3: Restored proactive creative behavior and required visible orchestrator call plans.

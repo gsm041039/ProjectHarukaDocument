@@ -49,7 +49,7 @@ $ARGUMENTS
 - hypothesis 是否升級成 canon
 
 ## Question rules
-問題要 decision-oriented，優先 A/B/C，寫 impact、blocks what、safe default。
+問題要 decision-oriented，用自由form講清楚（唔用 Q1/Q2 編號 + A/B/C 選項式格式，作者明確話難以閱讀），寫 impact、blocks what、safe default。
 
 ## Required output
 1. GATE STATUS

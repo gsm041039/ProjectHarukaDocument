@@ -40,7 +40,7 @@ $ARGUMENTS
 對 reconstruction-level / blocked decision / reveal-order / theme / relationship / outline-function 問題：
 - 不可直接問作者一堆散問題。
 - 必須先做 angle scan。
-- 壓縮成少量高價值 A/B/C 問題。
+- 壓縮成少量高價值問題，用自由form講清楚（唔用 Q1/Q2 編號 + A/B/C 選項式格式，作者明確話難以閱讀）。
 - 每題要有 impact / downstream unlocked / why AI cannot decide。
 
 ## Required response structure
