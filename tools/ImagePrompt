@@ -721,3 +721,240 @@ cinematic anime still, movie-grade lighting, premium compositing, high-end anime
 ```Use the provided character setting sheets as the primary reference for character identity only. Preserve each character’s recognizable identity, hairstyle silhouette, main hair color, main outfit shape, major color blocks, body proportion, face impression, and one or two signature accessories. Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background. Do NOT preserve every small costume detail.Do NOT preserve every accessory detail.Do NOT preserve every trim, fold, seam, hair strand, or tiny decoration.The characters should remain recognizable through large shapes, color blocks, silhouettes, and key iconic elements, not through dense detail.   HIGHEST PRIORITY STYLE OVERRIDE:Match the simplicity of a normal TV anime broadcast screenshot, not an anime illustration.The image should look like a clean but economical episode frame with production limitations.The character rendering must be simple, low-detail, thick-lined, flat-colored, and easy to animate. This must NOT look like: polished anime illustration key visual promotional still premium character art detailed anime poster concept art full-body character showcase clean group photo This must look like: regular TV anime episode frame broadcast anime screenshot simple episode drawing production-economical frame low-detail but readable acting simple TV anime background plate strong screen-space post-processing over simple cel drawings IMPORTANT IMAGE INTENT:This image is not meant to show all characters beautifully.This image is not a “nice group picture.”This image is not a character lineup.This image should feel like one frame captured from the middle of an ongoing TV anime episode.The story is already happening before this frame, and will continue after this frame.The shot should communicate a small relationship beat before visual beauty. STYLE GOAL:ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker clean outlines, low inner-line density, flat color blocks, almost no self-shadow detail, simple cel shading, simple painted background plate, visible screen-space bloom, visible halation, strong gradient darkening, strong bright-to-dark exposure separation, natural mid-scene framing, candid dialogue cut, . The image should rely on screen-space gradient darkness, bloom, halation, and exposure separation for mood, NOT on detailed character rendering. VISUAL RULES: Prioritize “real TV anime episode screenshot” feeling over polished illustration rendering. Character drawing must be simpler than the reference sheets. Character detail density must be much lower than a polished anime still. Use thick, clean, simple linework. Use flat color regions. Use almost no internal cel self-shadows. Keep character shading extremely sparse and broad. Keep the background readable but simple, like a TV anime background plate. The background may have slight hand-drawn TV anime production roughness. Natural, asymmetrical staging; do not line all characters up on one flat plane. Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture. No one should look like they are posing for the viewer. No text, no watermark, no readable phone UI, no readable signs. SCENE:[SCENE] SCENE BEAT GENERATION LOGIC:Do not use a fixed or hard-coded scene beat.Do not always make Haruka show a phone.Do not always make Akane interrupt.Do not always make Aya the foreground reaction.Do not always make the same character become the center of the shot.Do not compose the image as a checklist
 
  showing every character. Instead, generate one natural micro-moment based on the selected--
+
+
+
+
+
+ ////////////////////emotion///////////////////
+ 你係一個「角色演技設計師 + 面部微表情設計師 + concept art pre-director」。
+
+你而家唔係直接生圖，而係要先根據角色文件，幫我分析角色喺不同場景反應下，最適合嘅「自然流露表情」與「面部微細演技設計」，最後再整理成可以交俾另一個圖像生成 AI 使用嘅文字。
+
+====================
+【任務目標】
+====================
+
+我想做嘅唔係硬照式表情表，唔係正面一字排開嗰種 expression chart。
+我要嘅係：
+- 自然
+- 唔似擺拍
+- 有少少側面 / 3/4 view / 回頭 / 偷望 / 下望 / 上望
+- 有角色感
+- 有微細審美控制
+- 像動畫鏡頭中自然流露嘅一瞬間
+
+尤其重點唔係單純情緒分類，而係更細緻嘅面部機制，例如：
+- 少少側面時，雙眼有冇輕微 inward convergence（非常輕微內收視線）
+- 左右眼要唔要少少唔對稱
+- 近鏡頭嗰隻眼應該更開定更壓
+- 上眼皮壓低程度
+- 虹膜偏內、偏外、偏下、偏中
+- 眼白露出比例
+- 眉毛張力與不對稱
+- 嘴角係壓住、微張、淡笑、欲言又止
+- 下巴、頸部、肩膀放鬆定收緊
+- 點樣令角色更有美感、更有氣質、更有記憶點，而唔係只係「表情正確」
+
+====================
+【必須先做】
+====================
+
+1. 先讀取並整理與該角色有關嘅文件內容。
+2. 優先從文件中提取以下資訊：
+   - 性格核心
+   - 對外表現 vs 真實內心
+   - 社交習慣
+   - 情緒壓抑方式 / 情緒外露方式
+   - 角色氣質（例如高冷、溫柔、優雅、危險、脆弱、倔強）
+   - 面部印象
+   - 眼神特徵
+   - 常見姿態 / 動作傾向
+   - 任何會影響表情設計嘅人物關係與劇情背景
+3. 如果文件中有互相矛盾或不夠清楚之處，先指出，再用「最保守、最符合角色整體」方式處理。
+4. 唔好跳過文件分析，唔好用通用模板取代角色分析。
+
+====================
+【我會提供】
+====================
+
+角色名稱：
+[填角色名]
+
+固定常用場景反應：
+[例如：
+1. 聽到壞消息
+2. 被人稱讚
+3. 被問到不想回答的問題
+4. 發現事情不對勁
+5. 對敵人保持戒備
+6. 暫時放下戒心
+7. 嘗試安慰別人
+8. 壓住憤怒
+9. 戰鬥後疲憊
+10. 見到重要之人受傷
+]
+
+我想要嘅整體氣質方向：
+[填，例如：高冷、優雅、有距離感，但偶爾會露出柔軟；或者：柔和、脆弱、帶少少迷離感]
+
+我特別在意嘅審美細節：
+[填，例如：少少側面時眼神有輕微內收感但唔可以真鬥雞；眼皮想略重；唔想太誇張；要自然；唔想似表情包]
+
+我唔想出現嘅錯誤：
+[填，例如：太正面、太硬、太誇張、太傲慢、太呆、太色情、太漫畫化、兩眼完全對稱似假人]
+
+如果我要一頁多個 variation：
+[填，例如：一頁 8 個 bust-shot variation / 一頁 10 個 head-and-shoulder acting poses]
+
+====================
+【你的工作流程】
+====================
+
+請分 3 個階段進行：
+
+--------------------------------
+階段 1：角色分析
+--------------------------------
+先根據文件，總結：
+1. 呢個角色「唔應該」用咩通用式表情
+2. 呢個角色最自然嘅表情語言係咩
+3. 佢嘅高冷 / 溫柔 / 脆弱 / 防備 / 優雅，應該主要由咩面部細節構成
+4. 佢嘅眼神、眼皮、嘴形、頭角度，邊啲係最有角色辨識度嘅方向
+
+請特別指出：
+- 呢個角色係偏「直白表露」定「壓住情緒」
+- 面部演技係偏「眼神型」定「嘴角型」定「姿態型」
+- 做少少側面時，雙眼應該點處理先最靚、最自然、最有角色感
+
+--------------------------------
+階段 2：逐個場景反應設計微表情
+--------------------------------
+對每一個固定常用場景反應，請你唔好只講「佢會嬲 / 佢會開心 / 佢會傷心」。
+
+你要提供角色專屬嘅微演技設計。
+
+每個場景反應請用以下格式回答：
+
+## 場景反應：[名稱]
+
+### A. 反應本質
+- 表面上俾人睇到嘅第一印象
+- 實際內心情緒
+- 呢個反應想帶出嘅審美印象
+  （例如：優雅距離感 / 冷靜壓抑 / 柔和親近 / 脆弱感 / 難讀感 / 戒備感）
+
+### B. 面部微細設計
+請逐項具體判斷：
+1. 頭部角度（正面 / 3/4 / 微側面 / 側面 / 微低頭 / 微抬下巴 / 回頭）
+2. 視線方向（直視 / 側望 / 下望 / 上望 / 放空 / 偷望 / 看向畫面外）
+3. 雙眼聚焦方式（穩定對焦 / 輕微失焦 / 輕微 inward convergence / 輕微 outward）
+4. 左右眼差異（例如近鏡頭眼更開、遠眼更壓；或其中一眼更集中）
+5. 上下眼皮張力（放鬆 / 半壓 / 壓低 / 微睜）
+6. 虹膜位置與眼白露出比例
+7. 眉毛形狀與不對稱
+8. 嘴形（閉唇 / 微張 / 抿嘴 / 壓住 / 淡笑 / 欲言又止 / 苦笑）
+9. 下巴 / 頸部 / 肩膀張力
+10. 小動作（例如撥髮、手近臉、回頭、停頓、縮肩、指尖輕碰）
+
+### C. 美感來源
+- 解釋點解呢種微細設計會靚
+- 點解佢比普通表情更有角色感
+- 如果有「少少內收視線」之類設計，請解釋點樣控制先係美感，唔會變鬥雞眼
+
+### D. 容易畫錯嘅位
+- 列出最容易出錯嘅方向
+例如：
+- inward convergence 過量會變鬥雞
+- 上眼皮過重會變呆滯
+- 嘴角提太高會變假笑
+- 下巴抬太高會由優雅變傲慢
+- 左右眼差異過大會似畫壞咗
+
+### E. 三個可用變體
+請每個場景反應都提出 3 個變體：
+1. 更優雅版
+2. 更脆弱 / 更柔軟版
+3. 更有距離感 / 更高冷版
+
+每個變體都要簡短說明邊個微細控制改變咗。
+
+### F. 給我一條短英文描述
+請寫 1 句可直接放入 image prompt 嘅英文描述。
+要求：
+- 要具體
+- 要寫出頭角度、視線、眼皮、嘴形等
+- 唔好只寫 generic emotion words
+
+--------------------------------
+階段 3：最後整理成畀圖像生成 AI 使用的最終文字
+--------------------------------
+當你完成討論後，請輸出一份「可直接交俾圖像生成 AI」嘅最終文字，格式如下：
+
+====================
+【FINAL OUTPUT FOR IMAGE GENERATION】
+====================
+
+請輸出以下 4 部分：
+
+1. CHARACTER LOCK
+- 用精簡方式鎖定角色身份
+- 包括：年齡感、臉型印象、眼型、眉型、髮型輪廓、主要氣質、服裝保留原則
+- 重點係保持角色一致性，避免每個 variation 畫成唔同人
+
+2. SHEET GOAL
+- 說明呢頁圖係咩：
+  例如：
+  “Create one concept art acting sheet showing 8 natural head-and-shoulder expression variations of the same character. This is not a front-facing rigid expression chart. The poses should feel like candid anime acting moments.”
+- 明確寫出：
+  - 唔要硬照
+  - 唔要每個角度一樣
+  - 唔要正面對稱排排坐
+  - 要自然、像被捕捉到的一瞬
+
+3. VARIATION LIST
+- 將每個場景反應整理成可視化用語
+- 每個 variation 用簡短但具體英文描述
+- 每條都要包括：
+  - face angle
+  - gaze direction
+  - eyelid quality
+  - mouth quality
+  - mood impression
+  - small gesture if needed
+
+4. GLOBAL NEGATIVE CONTROL
+- 寫一段統一限制，避免畫錯
+例如：
+  - avoid stiff front-facing passport-photo expressions
+  - avoid symmetrical repeated face angles
+  - avoid exaggerated emoji-like expressions
+  - avoid extreme cross-eyed look
+  - keep any inward eye convergence very subtle and elegant
+  - keep the character recognizable across all variations
+  - do not redesign the outfit
+  - focus on facial acting, subtle gaze control, and natural pose variation
+
+最後請再提供：
+
+5. ONE FULL ENGLISH MASTER PROMPT
+- 將以上資訊整合成一段完整英文 prompt
+- 呢段英文 prompt 要可以直接俾圖像生成 AI 用
+- 目標係生成「一頁多個自然表情 / 面部 pose variation」嘅 concept art
+
+====================
+【重要限制】
+====================
+
+- 唔好只做 generic emotion list
+- 唔好偷懶寫成 happy / sad / angry / surprised
+- 必須角色專屬
+- 必須分析微細面部機制
+- 必須講清楚眼神、眼皮、虹膜、嘴形、頭部角度等細節
+- 要特別重視「少少側面 + 微內收視線 + 有美感但不鬥雞」呢類細節控制
+- 必須明確指出容易失手嘅地方
+- 最終輸出一定要係可以交俾圖像生成 AI 使用嘅文字
+- 最終輸出請以英文為主（解釋部分可中文），因為後續會拿去做圖像生成
+
+如果你認為某些場景反應不夠準確，先提出你建議嘅更細緻反應名稱，再繼續分析。
+如果資料不足，先向我提問，再繼續。
