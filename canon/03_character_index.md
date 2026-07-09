@@ -191,6 +191,14 @@ graph LR
 
 ---
 
+### <a id="char-kiryuken"></a>桐生健（Kiryū Ken）
+
+Act I 校霸，晴香「痛係證據」膠布哲學第一層嘅對象（CDL-087/088）；三位一體光譜「人類」端點嘅具體示範者（凡人態度亦能引發奇蹟）。Act I 後以 1-2 個 [NC] 輕量出場（CDL-092）；Phase D 地下絕境期深化為「中介組織跑腿」（Fallen Angel 分銷網絡底層，填 CDL-244 缺口），目擊操主動幫陌生人而推翻通緝令官方敘事，並涉入 USB 截糧伏線（秋穗暗中完成入侵，CDL-323）；解放之戰做「三位一體光譜」市民覺醒轉向嘅細規模引信（QQ-132）；Act IV 附錄摸退色膠布令夕幻象崩解（CDL-093）。此條目只保留角色功能；具體場景設計以 ACT_I/II_OUTLINE.md 同 QUESTION_QUEUE.md（QQ-132）為準。
+
+**See also**: [晴香](03_characters/haruka.md) | [ACT_I_OUTLINE](_working/story_construction/ACT_I_OUTLINE.md) | [ACT_II_OUTLINE](_working/story_construction/ACT_II_OUTLINE.md)
+
+---
+
 ### <a id="char-manager"></a>晴香的經理人（The Manager）
 
 **定位**：投機賭徒 / 帝國情緒農場外判監工 / 「凡人之惡」的具現

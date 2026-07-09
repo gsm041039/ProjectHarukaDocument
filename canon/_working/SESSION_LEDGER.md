@@ -1,5 +1,28 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 072 — 2026-07-09 正式CDL落檔：解放之戰機制/操操E-02種子/桐生健Phase D+USB伏線/無法遺忘鏡像戲全部確認，4個新CDL + 8個檔案writeback）
+- [x] **CDL-321 落檔**：解放之戰位置（維多利亞之淚/帝國廣場）+ Day1/Day2結構 + 市民支持轉敵視改用「直接經歷」取代媒體反轉（避免同E-14重複）。寫入ACT_III_OUTLINE.md（新增E-III-J0 beat）、07_entities_and_devices.md（維多利亞之淚地理位置備註）
+- [x] **CDL-322 落檔**：操E-02入隊戰新增「意外救人+多重解讀」層，解決操「唔會自動因世界有事而幫人」嘅性格邏輯缺口，用現有事件唔開新beat。寫入ayakomoji_misao.md、ACT_I_OUTLINE.md
+- [x] **CDL-323 落檔**：桐生健Phase D「中介組織跑腿」身份（填CDL-244 btd缺口）+ USB截糧伏線（秋穗暗中完成入侵，Act II末身份揭露後可回收）。寫入ACT_II_OUTLINE.md、ayakomoji_misao.md、akiho.md、03_character_index.md（新增桐生健minor entry）、07_entities_and_devices.md
+- [x] **CDL-324 落檔**：晴香/桐生健「無法遺忘」鏡像戲cost signal確認（衛生行動第二階段）+ 心匣連結（查證CDL-293原文已用呢個術語，唔使新增設定）。寫入haruka.md、ACT_II_OUTLINE.md
+- [x] **⚠️ 重大發現（未CDL，仍OPEN）**：落實紫音/小光局部緋潮候選（QQ-135）時，寫入人物doc前核查`iwakura_akane.md`發現「遇見小光」明確定位喺第二幕，同原計劃「折入Act I E-02.5」有時序矛盾——已擱置，未silent覆蓋，改記錄於QQ-130/QQ-135待作者決定新落點（Act II「遇見小光」後、E-07a小光之死前）
+- [x] **State files updated**：CANON_DECISION_LOG.md（新增CDL-321~324）；QUESTION_QUEUE.md（QQ-129/132/136 RESOLVED；QQ-130/135 記錄操部分RESOLVED+紫音部分時序修正待決）
+- [ ] **仍OPEN**：紫音/小光局部緋潮beat落點（QQ-130/135）；SQ-01反被唾棄戲classmate/stranger揀選（QQ-121，作者未答）；維多利亞之淚起源具體用詞（QQ-137a）；緋潮(a)具體演出（QQ-137b，作者要求mark TBD）
+- [ ] **不改變主阻塞點**（仍為 Act III v0.5 批核）
+
+## Completed This Round（Round 071 — 2026-07-09 緋潮Act I雙層理由/維多利亞之淚起源 + 側任務文件化 + 桐生健USB伏線 + 多項QQ-129~136收尾，未落CDL）
+- [x] **QQ-129解放之戰位置 RESOLVED**：作者確認解放之戰＝維多利亞之淚，座落帝國廣場（隔離範圍）；source check無衝突，仲同CDL-217/218紫音處決場地形成地理閉環
+- [x] **QQ-121填實第一步候選**：晴香Phase C/D想幫市民反被唾棄（認得佢係通緝犯而拒絕）——填返「晴香揀留低面對命運」三步結構嘅第一步缺口，同SQ-01做payoff反差對照
+- [x] **QQ-131路徑B文件化**：具體化為SQ-01（晴香用CDL-111絕對共感視界幫陌生市民），正式移入新建文件`SIDE_QUESTS_AND_OPTIONAL_CONTENT.md`；三段payoff鏈（SQ-01善意→QQ-121反被唾棄→解放之戰市民認得返佢）
+- [x] **QQ-132桐生健Phase D深化**：確立「中介組織跑腿」身份（填CDL-244「中介組織/經理人」btd缺口），目擊隊友暗中幫陌生人；新增**USB+秋穗暗中完成**伏線設計（桐生健插USB截糧表面失敗，秋穗透過已確立嘅CDL-110/114暗中監控行為模式遠端完成，團隊不知情，Act II末秋穗身份揭露後可回收）
+- [x] **QQ-135澄清**：確認「緋潮局部影響隊員」嘅真正重點係「有具體目標解釋點解揀同晴香一齊作戰」，紫音/小光候選完全貼合
+- [x] **QQ-136 cost signal收斂**：晴香/桐生健無法遺忘鏡像戲觸發點，建議重用CDL-254衛生行動三階段第二階段（Emo-Visor全城標記）
+- [x] **新增QQ-137**：緋潮應該喺Act I已有少少存在，成為晴香答應繼續做魔法少女嘅第二層理由（同CDL-053/055心理操控層並存）；同時扣連維多利亞之淚起源官方敘事（表面阻止緋潮＝成功，真相＝只係壓抑延後）——直接支撐QQ-129解放之戰嘅停電後果機制。擺位建議CDL-103天台使命說明場
+- [x] **新增QQ-138 RESOLVED**：建立`SIDE_QUESTS_AND_OPTIONAL_CONTENT.md`，日後遊戲支線/副任務內容統一寫入呢度，唔再散落主線文件
+- [x] **State files updated**：QUESTION_QUEUE.md（QQ-121/129/131/132/135/136 note深化；QQ-137新增IN PROGRESS；QQ-138新增RESOLVED）；新文件 SIDE_QUESTS_AND_OPTIONAL_CONTENT.md 建立
+- [ ] **仍未落實**：QQ-137維多利亞之淚起源敘事具體用詞未寫入世界觀文件；QQ-132 USB伏線嘅來源/目標終端細節；QQ-136 cost signal最終確認
+- [ ] **不改變主阻塞點**（仍為 Act III v0.5 批核）
+
 ## Completed This Round（Round 070 — 2026-07-08 QQ-129~133 逐點詳細深化 + 新增 QQ-134~136，未落CDL）
 - [x] **QQ-129解放之戰**：市民支持理由由「單一轉念」改做扣連QQ-131四階段表嘅全劇動脈節點（英雄期虛假形象→質疑期分裂→敵視期谷底→揭穿真相→覺醒期）
 - [x] **QQ-130緋潮**：局部版本現成宿主候選確立——Act II Phase D E-11愛莉潛意識風暴（本身已係集體潛意識物理入口撐開時刻，世界觀本質貼合）；並確立「for晴香團隊成員」層——應直接局部影響紫音或操其中一人嘅心之器狀態，邊個未定案

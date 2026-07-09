@@ -121,6 +121,8 @@
 秋穗在第二幕失去「善意監護人」的道德位置。  
 她從保護者翻轉為加害鏈節點，與晴香的關係由信任轉為審判。規則與機制內容統一回指 [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)。
 
+**USB 暗中完成入侵伏線（CDL-323）**：Phase D（身份揭露前），[桐生健](../03_character_index.md#char-kiryuken)因「中介組織跑腿」身份，經朔嘅黑市網絡輾轉攞到一支 USB，插入一個 Fallen Angel 零售終端試圖截糧/攞情報，表面失敗；實際上秋穗透過已確立嘅「暗中守護+監控」行為模式（CDL-110/114 CGM 後門邏輯一致）遠端暗中完成入侵，桐生健同團隊都唔知道成功背後嘅真正原因，只留低一個睇唔明嘅系統異常記錄（時間戳唔對板）做二周目伏線。此舉同秋穗一貫「有用時保護」嘅行事模式吻合——喺身份揭露前，佢仍然透過技術手段暗中扶助晴香團隊。
+
 **See also**: [守恆定律揭露](../04_timeline_canon.md#event-conservation-revealed)
 
 ### [第三幕](../05_story_outline_canon.md#section-act-3)：最後抉擇
