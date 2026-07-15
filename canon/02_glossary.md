@@ -941,12 +941,12 @@ Beta 線本質的核心敘事隱喻。
 
 ---
 
-### <a id="term-scarlet-tide-anchor"></a>緋潮錨點（Scarlet Tide Anchor）
-愛莉的特殊狀態。
+### <a id="term-scarlet-tide-anchor"></a>愛莉嘅屍骸化狀態（CDL-334 修正，2026-07-15）
+> ⚠️ 舊詞條「緋潮錨點（Scarlet Tide Anchor）」已退役——同「執念錨點」重複造字，作者要求去除獨立命名機制。內容併入 [靈魂距離光譜](01_world_rules_and_costs.md#rule-corpseification)。
 
-僅發生於愛莉——第一個因人工實驗而與緋潮產生連結的個體。秋穗實驗試圖人工擷取集體潛意識情緒力量，愛莉接觸裝置時無意成為緋潮第一個人類「錨點」。她靈魂被「釘」在兩條時間線交節點上。身體完全結晶化為半透明橙色水晶，姿態安詳如沉睡雕塑。
+愛莉屍骸化嗰刻，同其他人一樣經歷心之器碎裂；但佢對母親嘅愛、對「守護」呢個責任嘅認同強得離譜，接近 100%（一般屍骸淨係 1% 殘留）。因為咁滿，佢冇淪為困獸／空殼，停喺光譜最極端一端——清醒、完整、唔被集體潛意識扭曲力場污染，成為「未被覆寫嘅目擊者」。身體呈半透明橙色水晶質感，安詳如沉睡雕塑——秋穗實驗（人工擷取集體潛意識情緒力量）意外觸發嘅結果，非獨立機制。
 
-**See also**: [Aeri](03_characters/aeri.md) | [Scarlet Tide](#term-scarlet-tide)
+**See also**: [Aeri](03_characters/aeri.md) | [Scarlet Tide](#term-scarlet-tide) | [靈魂距離光譜](01_world_rules_and_costs.md#rule-corpseification)
 
 ---
 
