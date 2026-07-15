@@ -9,7 +9,9 @@
       "Glob(*)",
       "WebFetch(*)",
       "WebSearch",
-      "PowerShell(*)"
+      "PowerShell(*)",
+      "PowerShell(git -C D:\\\\Projects\\\\ProjectHarukaDocument status --short)",
+      "PowerShell(git -C D:\\\\Projects\\\\ProjectHarukaDocument diff --stat)"
     ],
     "defaultMode": "auto"
   }

@@ -81,7 +81,7 @@
 | 68 | 儀器掃描愛莉遺物 | Instrument Scanning Ritual | 秋穗 | 日常 | 實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_InstrumentScanningRitual.png | 秋穗用儀器反覆掃描愛莉遺物，試圖重建 |
 | 69 | 熊公仔囤積 | Bear Hoarding Compulsion | 彩 | 日常 | 房間 | ⭐⭐⭐ | ConceptArt_Scene_Aya_BearHoardingCompulsion.png | 彩房間被熊公仔填滿，緩衝與虛假安全 |
 | 70 | 病態無痕修補 | Compulsive Seamless Mending Habit | 操 | 日常 | 房間工作區 | ⭐⭐⭐ | ConceptArt_Scene_Misao_SeamlessMendingHabit.png | 操對破損物件病態執著，修補但無法癒合靈魂 |
-| 71 | K房唱歌傷痕 | Karaoke Scar Singing | 美夜子 | 日常 | 廢棄 K 房 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_KaraokeScarSinging.png | 美夜子在廢棄 K 房尖叫唱歌，喉嚨流血 |
+| 71 | K房唱歌——雨天 | Karaoke Rain Song | 美夜子＋隊伍 | 日常 | K 房 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_KaraokeRainSong.png | 隊伍K房日常；美夜子縮沙發角落唱悲傷情歌，意外地痛且好聽（CDL-330修正） |
 | 72 | 長泳窒息習慣 | Drowning Swim Habit | 美夜子 | 日常 | 水域 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_DrowningSwimHabit.png | 美夜子潛水延遲浮起，體驗死亡邊界 |
 | 73 | 家長日大作戰 | Parents' Day Infiltration | 紫音、操 | 113年 Act II前期 | 學校 | ⭐⭐⭐ | ConceptArt_Scene_ParentsDay_Infiltration.png | 操偽裝成熟高貴家長假扮紫音的家長，紫音以學生身份參加家長日 |
 | 74 | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | 日常 | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_DessertToothDrop.png | 操在開心食甜品時悄悄掉牙，左手掌托著2-3隻帶血的牙齒，其他人渾然不覺仍歡笑食甜品 |
@@ -300,7 +300,7 @@
 | 68 | 儀器掃描愛莉遺物 | 113-114年 日常 | `akiho.md`；`aeri.md §石像` | 秋穗實驗室事故（98年）→ 每日反覆掃描愛莉遺物試圖重建 → Act III秋穗罪疚爆發 |
 | 69 | 熊公仔囤積 | 113年 Act I 日常 | CDL-129；CDL-076 | 黑奏偽裝「彩」時的出門確認儀式 → 房間被熊公仔填滿（螢遺物的代替品）→ Act III揭露時熊公仔的意義 |
 | 70 | 病態無痕修補 | 113-114年 日常 | CDL-233 Stage 1 | 操屍骸化早期 → 對破損物件病態執著修補 → SPEC#5鏡像處刑室（「完美外表」執念的根源）|
-| 71 | K房唱歌傷痕 | 113-114年 日常 | `miyako.md §習慣` | 避難所詛咒觸發後 → 廢棄K房尖叫唱歌至喉嚨流血 → SPEC#57黑暗沖涼（同一個「身體確認」機制）|
+| 71 | K房唱歌——雨天 | 113-114年 日常 | `miyako.md §習慣 habit #11`（CDL-153/330） | 隊伍K房日常 → 美夜子唱失去主題情歌意外地痛 → 「失去的感覺是通用的」→ Alpha線揭露後回溯（歌聲=創傷重量非天份）|
 | 72 | 長泳窒息習慣 | 113-114年 日常 | `miyako.md §習慣` | 貓殼詛咒後 → 潛水延遲浮起，體驗死亡邊界 → SPEC#6月下崩潰（「我是人類嗎」的日常版）|
 | 73 | 家長日大作戰 | 113年 Act II前期 | saku.md；CDL-025（朔出現） | 操加入主角團初期 → 操偽裝成紫音高貴家長出席家長日，輕鬆喘息段落 → 反差前置後段沉重 |
 | 74 | 甜品局掉牙 | 113-114年 日常 | CDL-233 Stage 2b；SPEC#74→N | 操Body Horror積累 → 甜品局悄悄掉牙，完美笑容遮蔽恐懼 → 候選N「操絲線縫牙」（同一強迫症升級）|
@@ -2793,74 +2793,62 @@ at emotional repair or control.
 
 ---
 
-## 圖 71：「K房唱歌傷痕」（美夜子 / Karaoke Scar Singing）[PRIVATE_INTIMATE_MOMENT]
+## 圖 71：「K房唱歌——雨天」（美夜子＋隊伍 / Karaoke Rain Song）[DAILY_WARMTH]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_KaraokeScarSinging.png`
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_KaraokeRainSong.png`
+
+> ⚠️ **CDL-330 修正（2026-07-14）**：本圖舊版「廢棄K房獨自尖叫唱到喉嚨流血」係本 spec 自行扭曲嘅版本，同 canon（miyako.md habit #11 / CDL-153 / `backup/screenwriter/10_Girl_Daily_Social_Interaction_Setting.md` §4.1 / 00_Story_Brief.html）不符，作者確認流血版唔存在，已按 canon 重寫。
 
 ### 劇情背景
 
-軍方訓練將「情緒是弱點」深植為美夜子的條件反射，她作為Unit 01的靈魂困禁狀態（CDL-271）令99%的情緒廢料漫流在靈魂深處，卻永遠無法正常宣洩。K房是她唯一的「合法宣洩口」——廢棄空間、無觀眾、無後果（CDL-153）。她選的歌永遠關於「失去」與「被留下來的人」，因為她的聲音已被死亡→冰封→Unit 01改造→目睹凜被光環處決的所有創傷層疊為重量，那是創傷的重量發出的聲音，不是天份，是代價。此習慣連接Act I晴香「觀察美夜子很有故事」的觀眾體驗，並在Act IV Alpha線揭露後獲得回溯性理解：美夜子的歌聲之所以能擊穿人，是晴香創世者原罪刻在姊姊靈魂上的傷痕。
+隊伍日常出行嘅 K 房場景（CDL-153，作者確認 2026-04-08）。晴香啱啱又唱又跳完自己嘅《Happy Sugar Magic》，桌上堆滿飲料零食，氣氛熱烈。輪到美夜子，她切掉歡快伴奏，縮在沙發角落，雙手握著麥克風，點了一首關於失去與被留下來的人的情歌（暫代表曲：《雨天》，最終為原創歌，情感對標）——聲音低沉、乾淨，帶著讓人想哭的壓抑感，全場靜下來。晴香問「妳係咪受過好重嘅情傷」，美夜子答：「我沒有談過戀愛。……『失去』的感覺是通用的。不管是失去戀人、失去戰友，或者是失去自己原本應該有的人生。」她拒唱晴香建議的快樂歌：「太亮了。對一直待在陰影裡的人來說，那種光是刺眼的。」**情緒設定根據**：她唱得好不是天份——Alpha線未經折磨的美夜子歌聲平凡；Beta線的她，死亡→冰封→改造→目睹凜被處決的創傷疊加成靈魂的重量，灌入了聲音。**AKS 埋位**：Act I 觀眾只見「這個前輩很有故事」；Alpha 線揭露後回溯：那份心碎的歌聲，是晴香創世者原罪刻在姊姊靈魂上的傷痕。
 
 ### 圖片說明
 
-軍方訓練將「情緒是弱點」深植為美夜子的條件反射，她作為以拼接式技術復活的角色，其靈魂的大量情緒廢料永遠無法正常宣洩。廢棄卡拉OK包廂是她唯一的「合法宣洩口」——她選擇關於失去與被留下來的歌，用盡全力尖叫直到喉嚨流血，在無觀眾的空間裡把聲音摧毀，再沙啞著嗓子回到日常，讓所有人以為她本來就不愛說話。
+熱鬧的 K 房包廂裡，晴香等人圍坐，桌上堆滿飲料零食。美夜子縮在沙發角落，雙手握著麥克風唱一首悲傷的情歌，聲音低沉乾淨、壓抑得讓人想哭。剛才還在鬧的隊友們安靜下來看著她。在其他人眼中，這個沒有戀愛經驗的前輩，竟然能把地獄情歌唱得如此之痛。
 
 ### 詳細 Prompt（內核描述）
 
-美夜子會在廢棄的 K 房唱歌——不是享受，而是一種自我摧毀的儀式。她會走進一間已經被遺棄、沒人使用的 KTV 房間，選擇那些令她痛楚的歌詞（通常是悲傷的、關於失去的、關於背叛的歌曲），並用全力尖叫。唱歌時，她的喉嚨會逐漸變得沙啞、疼痛、發炎，最後可能會流血，但她無法停止。
+畫面核心係對比：包廂前一秒仲係晴香式嘅熱鬧（散落嘅麥克風、飲品、零食、閃燈），下一秒被美夜子嘅歌聲改變咗空氣。美夜子唔企出嚟，縮喺沙發角落，膝頭微收，雙手握米，眼望螢幕歌詞，唱得極投入——彷彿每一個字都在咀嚼自己的命運。冇眼淚、冇嘶叫、冇任何自毀元素——力量全部收喺壓抑入面。隊友反應各異：晴香瞪大眼聽到入神（想喊），操放低咗手機，紫音咬住零食停咗。螢幕藍光打喺美夜子面上，同包廂暖色燈形成「雨天/陽光」對比。
 
-她會用盡全力唱，直到喉嚨徹底破裂、聲音完全消失。有時她會唱到吐血。整個過程中，她會看著麥克風、看著空蕩蕩的房間，彷彿在向一個無人的觀眾進行最後的告別演奏。
-
-這是她用聲音來宣洩內心黑暗的唯一途徑。在無人的 K 房裡，她可以尖叫到喉嚨流血而無人知曉。她甚至會在唱完後檢查自己有沒有吐血，彷彿吐血是證明她真正哭出來了的證據。K房房間裡會留下她的血跡、唾液、眼淚，但沒人會知道那是誰的。
-
-之後，她會沙啞著嗓子回到日常，在學校保持沉默，讓所有人都以為她本來就不愛說話。沙啞的聲音是她對傷害的記錄。
-
-**視覺重點**：廢棄 K 房的霓虹環境、麥克風、美夜子張大嘴唱歌的表情、喉嚨的血跡或傷害跡象、情感激烈的動作、燈光營造的氛圍。
+**視覺重點**：正常營業嘅 K 房包廂（非廢棄）、沙發角落縮起嘅美夜子、雙手握麥克風、螢幕悲傷歌詞、桌上飲料零食、隊友安靜聽住嘅反應、冷暖光對比。
 
 ### Midjourney 標準版
 
 ```
-A young woman alone in a abandoned karaoke room,
-singing with full destructive force into a microphone.
-The small room is bathed in flickering neon light—
-faded reds, purples, and blues from old LED panels still barely functioning.
-Her mouth is wide open, face contorted with raw emotional release,
-eyes squeezed shut or staring into nothing.
-Visible signs of vocal strain: reddened throat,
-faint blood at her lips or on the microphone,
-throat veins standing prominent from force.
-Her expression shows neither joy nor entertainment,
-but rather anguished catharsis—this is destruction, not performance.
-The karaoke screen still displays lyrics: tragic, bitter, heartbreaking words
-that fuel her desperate singing.
-The room shows decay: peeling wallpaper, dust,
-abandoned drink bottles, disconnected equipment suggesting years of abandonment.
-Her body language suggests intensity:
-hands clenched, body rigid or shaking, every muscle engaged in the scream.
-The single microphone is a portal for pain transformed into sound.
-Color palette: sickly neon colors, her pale skin,
-reds from throat strain, the cold glow of the screen.
-Emotional tone: vocal self-harm,
-sound as substitute for words of grief,
-destruction of body as proof of authentic feeling,
-isolation in abandoned spaces enabling unfiltered breakdown.
+A cozy karaoke room scene: a group of teenage girls on sofas,
+table crowded with drinks and snacks, warm party lighting.
+In the corner of the sofa, one silver-blue haired girl curls up,
+holding the microphone with both hands, singing a sad ballad—
+eyes fixed on the lyric screen, posture withdrawn but voice deeply felt.
+No tears, no theatrics: restrained, quiet intensity,
+as if chewing her own fate with every word.
+Her friends have gone silent mid-celebration—
+one bright pink-haired girl leans in, eyes wide and glistening,
+another lowers her phone, another stops mid-snack.
+Cold blue light from the lyric screen washes over the singer's face,
+contrasting with the warm amber party lights around her friends—
+a visual of "rain versus sunshine" in one room.
+Color palette: warm karaoke neon, scattered snack colors,
+the singer isolated in a pool of cool blue screen light.
+Emotional tone: an unexpectedly devastating love song
+sung by someone who has never been in love—
+grief that is universal, loss poured into borrowed lyrics,
+a rare quiet moment of ordinary girlhood shared by the team.
 -- ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A young person alone in an abandoned karaoke room,
-singing intensely into a microphone. Flickering neon lights
-cast colored shadows throughout the small space.
-Their expression shows deep emotional intensity and cathartic release,
-not entertainment. The lyrics displayed on screen are tragic and melancholic.
-Signs of vocal strain are visible—flushed neck, intense physical effort,
-eyes closed in emotional absorption. The room shows signs of age and abandonment.
-Their body posture conveys full emotional engagement in the singing.
-The atmosphere emphasizes the function of singing as emotional outlet
-rather than entertainment, and the healing (or harming) power of
-giving voice to pain in isolated spaces.
+A group of teenage girls in a karaoke room, drinks and snacks on the table.
+One girl curls up in the sofa corner singing a melancholic ballad
+into a microphone with both hands, restrained and deeply moving.
+The others, previously partying, now listen in silence.
+Cool light from the lyric screen on her face contrasts
+with the warm room lighting. The mood is bittersweet:
+an ordinary teenage hangout pierced by an unexpectedly
+heartfelt performance about loss.
 -- ar 16:9 --niji 6
 ```
 
