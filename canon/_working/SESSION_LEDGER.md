@@ -1,5 +1,97 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 101 — 2026-07-18 00_Story_Brief.html 同步CDL-336鏡像法則擴展，順手修正CDL-335已退役嘅美夜子誘捕機制殘留）
+- [x] **同步CDL-336（鏡像法則全劇擴展）落brief**：①鏡像法則卡新增兩個範圍限制（維多利亞之淚覆蓋範圍外先生效、塔摧毀後永久解除；魔法使用者先睇到完整映照）；②Phase 2新增story-node「2.2 夕鏡前攤牌」——放逐紫音當晚，夕控訴晴香從未真正接住自己（「跟住呢？」「淨係一次得唔得？」），確立為E-09直播失控嘅心理引信，同飢渴機制獨立；③美夜子鏡像處刑室段落補返凜遺留斷刃匕首嘅視覺細節，帶出「不安→裂開→接納真身」三段式弧線
+- [x] **順手搵到並修正2處已退役嘅美夜子誘捕機制殘留**：CDL-335（2026-07-15，早CDL-336兩日）已經取消咗「情緒管理局偽造凜頻率訊號誘捕美夜子獨自查案」呢個機制，改做更簡單嘅「團隊戰鬥中為保護隊友受傷、傲慢唔求救累事」版本——但brief兩處（113年5月鏡像卡+114年4月Emo-Visor危機卡）都仲用緊舊嘅「感應到凜的頻率/獨自調查/陷阱」講法，已經全部改正
+- [x] **sub-agent覆核confirm**：兩輪驗證全部PASS，退役術語全文0殘留，HTML完整；順帶確認canon自己嘅`04_timeline_canon.md` line 243（event-miyako-missing）都仲未同步CDL-335，屬canon本身缺口，唔喺brief修正範圍內
+- [x] **確認QQ-169/QQ-170（image-spec pipeline審計搵到嘅canon內部矛盾——花子死因/凜PTSD場景Act歸屬）仍未經作者確認，冇寫入brief**
+- [ ] **平行session持續高速進行（已到Round 100）**：下次sync前應該再check有冇新CDL
+
+## Completed This Round（Round 100 — 2026-07-18 Image Spec Pipeline：Act IV根基canon修正K1-L11草稿，QQ-174 RESOLVED）
+- [x] **讀取正式Act IV根基canon**：`haruka.md`（CDL-327晴香結局）、`miyako.md`（CDL-327美夜子結局）、`04_timeline_canon.md`、`01_world_rules_and_costs.md`（CDL-325/326）、`CANON_DECISION_LOG.md`
+- [x] **L10正式改寫**：「強制索回與創世者代價」→「主動融合與創世者代價」，情緒基調由刻意留白改為confirmed嘅「清醒、主動、平靜接受」；⭐⭐⭐→⭐⭐⭐⭐
+- [x] **QQ-174正式RESOLVED**（引用CDL-327）
+- [x] **L11修正**：移除未confirm嘅「唯一連結」字眼，改用CDL-327實際字句「有限人生入面保持連結」；美夜子結局序列修正
+- [x] **K1/L2降級**：「20年vs數日」矛盾由「機制未confirm」降級為「機制已confirm，具體數字未定」（CDL-326其實有正式時間分裂機制，之前誤判冇）
+- [x] **L6-L9地點收窄**：用CDL-326「只有晴香/黑奏/夕可到L3」規則收窄地點層級猜測
+- [x] **QQ-139同步更新**：反映機制已confirm嘅新狀態
+- [x] **冇發現新canon內部矛盾**：CDL-325/326/327互相一致，只係working draft（Act III文末附錄）本身有一處錯誤陳述（L2話CDL-326冇覆蓋時間分裂，其實有）已一併修正
+- [ ] **下一步（需要作者input）**：過目Act I+II+III全部spec；QQ-172/173仍待確認；`ACT_III_OUTLINE.md`文末附錄文字本身重寫屬Act IV Outline正式工作範圍
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計
+
+## Completed This Round（Round 099 — 2026-07-18 Image Spec Pipeline：Act III全部37beat已生成，Act I/II/III全線完成，累計103張圖spec）
+- [x] **Act III分5組完成**：G1~H操（7beat→9圖）、H2~I5（7beat→12圖）、J0~J5（6beat→11圖+J5佔位）、J6~L2（7beat→9圖+J9佔位）、L3~L11（9beat→8圖+L5佔位）
+- [x] **累計總數**：Act I 22張 + Act II 32張 + Act III 49張 = **103張圖spec**
+- [x] **輸出檔案**：`canon/_working/image_spec_pipeline/output/IMAGE_SPEC_ACT_III.md`
+- [x] **3個`[btd]`未定案beat**（J5/J9/L5）只留placeholder，符合規則未自行作實
+- [x] **⚠️重大發現QQ-174**：Act III文末未批核附錄（Phase K/L草稿）E-III-L10原文「強制轉化」vs CDL-326/327正式canon「主動選擇」直接矛盾，outline自己都承認草稿未重寫——**呢個發現直接關係到Act IV Outline主阻塞點**，下次啟動Act IV Outline時應優先處理（整段L1-L11草稿都要用新canon精神重寫）
+- [x] **過程中session limit中斷一次**（Act III group 2 Agent B），已確認冇留低爛尾檔案，成功retry完成
+- [x] **並行session協作**：過程中發現另一條並行session（鏡像法則CDL-336落檔）同時修改緊canon檔案，兩條線冇互相干擾；亦發生過一次同批Agent B之間嘅檔案寫入順序碰撞（Act III group 4），agent自行偵測並修正咗結構
+- [ ] **下一步（需要作者input）**：過目Act I+II+III spec格式；QQ-172/173/174確認；Act IV等outline完成先可以生成剩餘beat
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計（本線係旁支，但QQ-174係一個直接相關嘅根基矛盾發現）
+
+## Completed This Round（Round 098 — 2026-07-17 Image Spec Pipeline：Act II全部18beat已生成，54張圖spec累計）
+- [x] **Act II分3組完成**：E-05~E-08（6beat→11圖）、E-09~E-11a（6beat→11圖）、E-12~E-16+Act II-XX（6beat→10圖），共32張
+- [x] **累計總數**：Act I 22張 + Act II 32張 = 54張圖spec
+- [x] **輸出檔案**：`canon/_working/image_spec_pipeline/output/IMAGE_SPEC_ACT_II.md`
+- [x] **兩個digest錯誤已入QUESTION_QUEUE**（QQ-172秋穗AK-ALT狀態代號矛盾、QQ-173紫音A-S3 Act歸屬矛盾，均未silent resolve，等作者確認）
+- [x] **Agent自我糾錯**：兩次由我提供嘅reference image假設（E-09a原假設圖5、E-11a原假設圖97）被Agent A核實後推翻並換用正確reference，證明雙agent核對機制有效運作
+- [x] **沿用階段1已審計結論**：圖11玻璃庭院茶會（彩自身外觀主持非黑奏皇袍）、圖44晴香夕鏡前和解（接納非壓制）、圖26操被遺棄等，避免重複查證
+- [ ] **下一步（需要作者input）**：過目Act I+II spec格式；或授權繼續推Act III（37beat，Act IV等outline）
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計（本線係旁支）
+
+## Completed This Round（Round 097 — 2026-07-17 Image Spec Pipeline 階段2：Act I全部beat已生成新格式spec）
+- [x] **作者要求精簡輸出格式**：改 PIPELINE_INSTRUCTIONS.md §4 做 v2 模板——只保留圖片說明/Reference Images/Midjourney prompt，劇情背景/劇情位置/詳細描述長文刪走；考證過程留喺Agent A事實清單，唔寫入最終spec
+- [x] **雙agent流程改batch制**：一組beat（5-9個）用一對Agent A/B call處理，唔再一個beat一對agent，減省token
+- [x] **Act I全部完成**：19個beat標題→22張圖spec（BEAT 0、E-01其餘9beat展開13張、E-02六個scene+3個NC日常場景）；1個btd（奪舍示範場景CDL-118）未定案，只留placeholder未生成
+- [x] **輸出檔案**：`canon/_working/image_spec_pipeline/output/IMAGE_SPEC_ACT_I.md`
+- [x] **搵到嘅矛盾全部標記未silent resolve**：SCENE4「血vs泥」（Beat Sheet新版vs舊圖121矛盾）、天台美夜子貓形態vs人形站姿描述矛盾、彩服裝文字描述vs reference image出入、屍骸型號/裝置外觀等冇canon支撐嘅設計元素
+- [ ] **下一步（需要作者input）**：過目IMAGE_SPEC_ACT_I.md格式同內容，確認後續推Act II/III
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計（本線係旁支）
+
+## Completed This Round（Round 096 — 2026-07-17 Image Spec Pipeline 階段1完成：135場景全審計+直接修正）
+- [x] **作者授權免逐項批准**：改動 PIPELINE_INSTRUCTIONS.md §6，改刪唔使逐項問，但保留 change list 記錄做可追溯性
+- [x] **14個批次 sub-agent 逐一審計並直接修正**（每批約10場景，涵蓋圖1-129 + 圖140-145，共135場景）
+- [x] **總結論**：27 ACCURATE / 8 OUTDATED / 99 WRONG / 1 DELETE_CANDIDATE
+- [x] **搵到嘅重大系統性問題模式**（18項精簡清單見CHANGE_LIST_EXISTING_SPEC.md）：CDL引用錯配/堆砌（最頻密）、彩/黑奏形態混淆、核心情緒/機制被寫反（例：屍骸化=靈魂消失錯誤→實際係靈魂被困1%抵抗CDL-271；美夜子哭泣強度被寫錯；紫音被捕狀態被寫錯）、角色專屬視覺語言換成通用魔法少女描述（凜/愛莉/彩熊公仔永遠潔淨規則違反2次）、Act III未批核附錄（Phase K/L）當已confirm、「靜止搖籃消散結局」已被CDL-326取代但舊spec仍用
+- [x] **3個canon本身/working file矛盾已恰當escalate，未silent resolve**：QQ-169（花子死因Alpha/Beta線混淆）、QQ-170（凜遇見美夜子事件Act歸屬rin.md vs ACT_III_OUTLINE矛盾）、QQ-171（BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md日期過時導致圖143/144時序錯誤）
+- [x] **Digest維護提醒**：DIGEST_CHARACTER_STATES.md嘅MY-S2 row本身過時（CDL-335之前版本），後續使用要直接查miyako.md
+- [ ] **下一步（唔使作者input）**：跨批次覆核清單（圖13/50/圖126同137/164疑似重複）；開始階段2 Act I試做
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計（本線係旁支，唔阻塞）
+
+## Completed This Round（Round 095 — 2026-07-17 CDL-336 落檔：鏡像法則全劇擴展正式寫入 world rules/glossary/ACT_II/ACT_III_OUTLINE.md，作者 explicit confirm）
+- [x] **作者 explicit confirm** QQ-168 全部方向，並提出範圍限制時間分界修正（塔摧毀後永久解除，非只喺解放之戰停電暫時性），確認合理後一併落檔
+- [x] **Canon writeback 完成（5檔）**：`01_world_rules_and_costs.md`（§rule-mirror-law 新增兩個範圍限制段，含塔摧毀後永久解除條款）；`02_glossary.md`（term-mirror-law 補範圍限制註）；`ACT_II_OUTLINE.md`（新增 Beat E-07d 鏡前攤牌完整場景；E-06 新增斷刃扣連段；E-09 新增心理引信段；開放設計項新增操/彩/紫音跨角色鏡像場景）；`ACT_III_OUTLINE.md`（I4 新增斷刃第三步接納段）
+- [x] **CDL-336 落檔**；QQ-168 更新做 RESOLVED
+- [ ] **仍 OPEN（留 Beat Sheet）**：操/彩黑奏/紫音具體鏡像場景設計；美夜子鏡像弧線第一步（Act I）具體擺位
+- [ ] **仍 OPEN（另一條線 QQ-165b）**：E-09 爪擊事件同見証之夜合併方案仍待確認，本輪只補咗心理引信層唔動核心機制
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計
+
+## Completed This Round（Round 094 — 2026-07-17 鏡像法則全劇擴展 co-design：晴香/夕鏡前戲完整設計+操/彩/紫音批准+美夜子改用凜斷刃麥高芬+塔範圍/魔法使用者兩個硬限制，全部IN PROGRESS未落CDL）
+- [x] **晴香/夕鏡前對手戲完整定案**：擺位放逐紫音嗰晚返屋企後；「積咗好耐嘅酸」用返左手攔截已有機制+具體事件證據鏈（保護彩/剝糖畀紫音/補熊公仔線）；「對夕好」定義做同一套動作掉轉方向；「轉身走開」重新定性做自我保護（承受唔到同一晚兩次同款真相）非單純攰；期望落差具體化做夕直接講出想要嘅卑微要求
+- [x] **鏡像法則全劇擴展方向收斂**：操/彩黑奏/紫音三個角色鏡像關係已獲批准；**美夜子方向大改**——AI原提案（鏡揭露維多利亞之淚陰謀，美夜子做偵探）被作者否決，指出淺化咗鏡子規則本身（應顯示自己嘅真相，唔係外部陰謀）；改用凜斷刃麥高芬做美夜子鏡像載體，三幕遞進（第一幕不安一閃→第二幕Glitch Form裂開放大→第三幕主動接納），維多利亞之淚發現機制正式同鏡子分開，維持用QQ-166已批准嘅愛莉風暴感應+技術對號
+- [x] **鏡像法則兩個硬限制新增**：只喺塔覆蓋範圍外先現真身（解釋解放之戰全城鏡爆嘅機制根據）；只有魔法使用者先見到（套用現有CDL-308-B感知差異規則，避免凡人日日見鬼漏洞）
+- [x] **日常/普遍使用位確認**：唔綁單一物件/角色，隨第二幕地下化時期團隊活動範圍自然變得常見，機制頻率同故事氣氛同步加深
+- [x] **全部落檔 QQ-168**
+- [ ] **等作者最終確認**：①-⑨ explicit confirm 先落實入 ACT_I/II/III_OUTLINE.md；操/彩/紫音具體鏡像場景未動筆
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計
+
+## Completed This Round（Round 093 — 2026-07-17 旁支新線：Image Spec Pipeline 建立）
+- [x] **作者需求確認**：為所有 beat 生成 image spec（格式對齊 `IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md`，每個 beat 含建議輸出文件名/劇情背景/圖片說明/Reference Images 等）；同時審計現有 135 場景 spec，改/刪不準確條目
+- [x] **現況統計**：現存可 loop beat 約 75 個（Act I beat sheet 19 個標題、Act II outline ~19 beat、Act III outline 37 beat；Act IV 等 outline）；現有 spec 文件場景清單 135 條、109 個完整 spec 區塊
+- [x] **做法設計並獲作者批核**：三階段（digest → 審計現有 spec → 逐 beat 生成）；雙 agent 分工制（Agent A 資料員只搵證據出事實清單、Agent B 撰寫+逐項核對，冇支持內容標 [INFERRED]）；刪除/大改要 change list author gate；每批 5 個 beat，批後抽查審計
+- [x] **作者特別指示（2026-07-17）**：spec 內外觀唔好寫完整描述，只寫「外觀狀態/變化」（例：Body Horror stage 標記），因為外觀 canon 文件可能未更新；基準外觀交 reference image 承載
+- [x] **檔案建立**：`canon/_working/image_spec_pipeline/PIPELINE_INSTRUCTIONS.md`（v1.0 唯一指令來源）+ `MANIFEST.md`（進度表骨架）
+- [ ] **下一步（唔使作者 input）**：階段 0——建三個 digest + 填 MANIFEST beat 清單；然後 Act I 頭 3–5 個 beat 試做畀作者過目格式
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計（本線係旁支，唔阻塞）
+
+## Completed This Round（Round 092 — 2026-07-15 CDL-335 落檔：紫音心理深化全部寫入 ACT_II_OUTLINE.md，作者 explicit confirm）
+- [x] **作者 explicit confirm** QQ-167 全部五點方向
+- [x] **Canon writeback 完成（ACT_II_OUTLINE.md）**：Beat E-06 全段簡化重寫（取消美夜子鏡室陷阱局，退返護隊受傷觸發 Glitch Form 版本，保留「傲慢保護慾累事」教訓）；Beat E-07a 新增細佬vs小光死心理分野段+小光斷氣即場崩壞演出段（發癲殺屍骸→徒手打到骨折→歌德尖刺浮現）；Beat E-07b 新增「撩到晴香最痛」對白方向段（方向定，逐字留Beat Sheet）+「餵糖冇反應」重新定性段（絕望嘅盼望儀式）
+- [x] **CDL-335 落檔**；QQ-167 更新做 RESOLVED
+- [ ] **仍 OPEN（未落實，屬另一條線 QQ-165b/166）**：晴香/夕鏡前攤牌場景擺位；E-09 觸發設計；維多利亞之淚/愛莉揭露機制具體 beat
+- [ ] **主阻塞點不變**：Act IV Outline 正式設計
+
 ## Completed This Round（Round 091 — 2026-07-15 紫音心理深化 co-design：細佬vs小光死分野、小光死後崩壞演出、最痛對白方向、美夜子鏡室戲取消，全部IN PROGRESS未落CDL）
 - [x] **紫音兩次死亡心理分野設計**：細佬死＝麻醉自己捱住痛（求生非逃避）；小光死＝重複補償嘅第二次同款悲劇，證明咗「用心可以改變結果」係假嘅，先係佢崩壞轉信黑奏「痛苦是選擇」呢套嘢嘅真正心理裂口
 - [x] **小光斷氣即場崩壞演出定案**：紫音發癲殺附近其他屍骸→武器打爛→徒手繼續打到手骨折仍狂笑→打死晒回頭望，其他人見到佢血肉模糊嘅手仲笑緊→身上開始浮現歌德尖刺（心之器第一次裂痕，扣連現有CDL-309視覺系統）——AI原提「安靜溫柔」方向被作者否決，改用呢個更癲、更肉體自毀嘅版本

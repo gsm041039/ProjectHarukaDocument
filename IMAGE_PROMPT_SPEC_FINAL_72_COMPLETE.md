@@ -11,135 +11,135 @@
 
 | # | 場景名稱（中文）| 場景名稱（英文）| 主要角色 | Act | 時段/階段 | ⭐ | 建議文件名 | 簡要描述 |
 |---|---|---|---|---|---|---|---|---|
-| 1 | 鋼鐵獨舞 | Steel Solitude Dance | 操 | Act II-III | 廢棄工廠夜晚 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_SteelSolitude.png | 操在廢棄工廠中半屍骸狀態下獨舞，身體被發光傀儡絲控制 |
-| 2 | 整合場景 | Integration Scene | 晴香、夕、花子 | Act III | 夢境空間 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_Integration.png | 晴香與夕在痛苦中碰撞，花子顫抖著守護 |
-| 3 | 三武器揭露 | Three Weapons Revelation | 黑奏（彩容器） | Act III | 帝國廣場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_BlackSong_Revelation.png | 黑奏以小女孩真身展露三種力量同時顯現 |
-| 4 | 廢棄糖果工廠 | Abandoned Candy Factory | 朱音 | Act III | 糖果工廠 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyFactory.png | 朱音以屍骸女皇形態坐在自製糖果王座 |
-| 5 | 鏡像處刑室 | Mirror Execution Chamber | 操 | Act III | 鏡子房間 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_MirrorChamber.png | 操在鏡像完美中無法感受溫度，最終砸碎鏡子 |
+| 1 | 鋼鐵獨舞 | Steel Solitude Dance | 操 | Act III | 學校瓦礫（Day 13） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_SteelSolitude.png | 操在學校瓦礫中 Body Horror Stage 3 狀態下獨舞，黑奏撬開口腔揭露縫牙全貌，紗夜遺言回流，最終化為人偶牆 |
+| 2 | 整合場景 | Integration Scene | 晴香、夕 | Act IV（暫定） | 夢境空間 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_Integration.png | 晴香與夕在三武器揭露/夕接管/彩奪回之後正面碰撞，花子在場與否待確認 |
+| 3 | 三重道德處刑 | Triple Moral Execution | 黑奏（彩容器） | Act III | 帝國廣場（處刑室化） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_BlackSong_MoralExecution.png | 黑奏以三重回憶投影（社會剝奪/身份背叛/創世原罪）逐層刺穿晴香心理防線，非物理武器 |
+| 4 | 廢棄糖果工廠 | Abandoned Candy Factory | 朱音 | Act II | 糖果工廠 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyFactory.png | 朱音以屍骸女皇形態坐在自製糖果王座（113年5-6月，E-07b/E-12） |
+| 5 | 操的鏡前獨白 | Misao's Mirror Monologue | 操 | Act II | 鏡台（E-09a夜） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_MirrorMonologue.png | 父親背叛+紗夜犧牲同一夜，操在鏡前用傀儡絲縫牙自我修補（Stage 2a起點） |
 | 6 | 月下崩潰 | Moonlight Breakdown | 美夜子 | Act II | 窗台/滿月夜 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_MoonlightBreakdown.png | 美夜子貓殼龜裂，進行自我確認測試 |
-| 7 | Fallen Angel 街道 | Fallen Angel Street | 晴香、彩 | Act II | 日區城市街道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_FallenAngel.png | 晴香遇見淪為傀儡的彩，光幕濾鏡破碎 |
+| 7 | Fallen Angel 街道 | Fallen Angel Street | 晴香、彩 | Act II | 日區城市街道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_FallenAngel.png | 晴香遇見彩短暫「卡頓」空白瞬間（P-C06，E-05[NC]），光幕濾鏡破碎 |
 | 8 | 彩奪回身體 | Aya Regains Control | 彩 | Act III | 天空/決戰現場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Aya_BodyReclaim.png | 彩從黑奏掌控中奪回身體，用金色光輝燃燒自己 |
 | 9 | 變身場景 | Transformation Scene | 晴香 | Act I | 金魚旗環境 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_FirstTransform.png | 晴香首次變身，金魚旗元素與魔法光芒包覆 |
-| 10 | 糖果山犧牲 | Candy Mountain Sacrifice | 朱音、小光 | Act III | 嘆息之橋/糖果山 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyMountain.png | 朱音過載變身化為糖晶，成為紀念碑 |
-| 11 | 玻璃庭院茶會 | Glass Garden Tea Party | 彩、黑奏、晴香 | Act II | 帝國塔頂溫室 | ⭐⭐⭐⭐ | ConceptArt_Scene_GlassGarden_TeaParty.png | 帝國塔頂透明溫室，黑奏皇袍掩蓋幼女真身 |
-| 12 | 集體潛意識之城 | Collective Unconscious City | 紙皮騎士、隊伍 | Act II-III | 超現實夢境 | ⭐⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_Storm.png | 後巷唐樓扭曲成超現實，黑色淤泥與痛苦人臉浮現 |
-| 13 | 靜止搖籃終局 | Static Cradle Final | 晴香 | Act IV | 新世界基礎 | ⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_StaticCradle.png | 晴香粒子化為光點，成為新世界的錨點 |
+| 10 | 糖果山犧牲 | Candy Mountain Sacrifice | 朱音、小光 | Act III | 帝國廣場（刑場） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyMountain.png | 朱音過載變身化為糖晶，成為帝國廣場刑場內的紀念碑 |
+| 11 | 玻璃庭院茶會 | Glass Garden Tea Party | 彩（黑奏操控）、主角團 | Act II 幕末 | 帝國塔頂溫室 | ⭐⭐⭐⭐ | ConceptArt_Scene_GlassGarden_TeaParty.png | 彩以自身外觀主持茶會，黑奏聲線滲出宣告虛假黎明破碎（彩/黑奏尚未確認同一人） |
+| 12 | 集體潛意識之城 | Collective Unconscious City | 紙皮騎士、隊伍 | Act II Phase D | 超現實夢境 | ⭐⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_Storm.png | 後巷唐樓扭曲成超現實，黑色淤泥與痛苦人臉浮現（E-11風暴） |
+| 13 | 三位一體永恆守護者終局 `[跨批次覆核修正]` | Eternal Trinity Guardian Final | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_TrinityGuardian.png | **[概念已被CDL-326取代]** 晴香保留意識記憶，主動融合成三位一體永恆守護者，非粒子化消散（同圖50/54/56同一修正） |
 | 14 | 凜的雙面形態 | Rin's Dual Forms | 凜 | Act II-III | 日夜區交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_DualForms.png | 凜孔雀飛行員（光鮮官方）vs. 烏鴉形態（暗巷真實） |
 | 15 | 朔的日夜對比 | Saku's Day-Night Duality | 朔 | Act II-III | 日夜區 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_DayNightDuality.png | 朔白色特務形態（日區）vs. 綠松石獵人（夜區） |
 | 16 | 操的形式主義廢墟 | Misao's Formalism Ruins | 操 | Act II-III | 廢棄工廠 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_FormalismRuins.png | 操在廢棄工廠獨舞，傀儡絲纏繞身體 |
 | 17 | 膠布哲學三層 | Bandaid Philosophy Triptych | 晴香 | Act I-III | 多時段 | ⭐⭐⭐⭐ | ConceptArt_Scene_BandaidPhilosophy_Triptych.png | 三場景並置：個人習慣→系統隱喻→存在論批判 |
 | 18 | 首次情緒連結危機 | First Emotion Link Crisis | 晴香、美夜子、朱音、凜 | Act II | 意識連結空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmotionLink_Crisis.png | 四人情緒連結失控，創傷記憶亂竄 |
 | 19 | 帝國廣場決戰崩塌 | Empire Plaza Collapse | 晴香、黑奏 | Act III | 帝國廣場 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_Collapse.png | 決戰頂點瞬間崩塌，偽勝利假象碎裂 |
-| 20 | 紙皮騎士防禦 | Cardboard Knight Defense | 愛莉 | Act III | 集體潛意識 | ⭐⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_Defense.png | 愛莉穿紙盔甲守護隊友對抗潛意識風暴 |
-| 21 | 光幕濾鏡破碎 | Light Veil Shattered | 晴香 | Act II-III | 日區公開場所 | ⭐⭐⭐ | ConceptArt_Scene_LightVeil_Shattered.png | 完美魔法少女形象在直播中崩塌，露出滿臉淚水的真實晴香 |
+| 20 | 紙皮騎士防禦 | Cardboard Knight Defense | 愛莉 | Act II Phase D | 集體潛意識（現實裂縫瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_Defense.png | 愛莉紙皮騎士單次擋刀，盔甲崩碎大半，石像同步裂痕（E-10b，E-11風暴前數日）|
+| 21 | 光幕濾鏡破碎 | Light Veil Shattered | 晴香 | Act II | 日區公開場所 | ⭐⭐⭐ | ConceptArt_Scene_LightVeil_Shattered.png | 完美魔法少女形象在直播中崩塌，露出滿臉淚水的真實晴香 |
 | 22 | 小光死亡與屍骸化 | Hikari's Death and Corpse Transformation | 小光、朱音 | Act II | 犠牲地點 | ⭐⭐⭐ | ConceptArt_Scene_KoHikaru_Death.png | 小光在朱音面前被屍骸襲擊，身體轉化為廢鐵 |
-| 23 | 恐怖家家酒（學校） | Horrific House Play School | 晴香、彩 | Act I | 校園空間 | ⭐⭐⭐ | ConceptArt_Scene_HorrificHouse_School.png | 晴香與彩維持致命平衡，表面日常卻充滿暗流 |
+| 23 | 恐怖家家酒（學校） | Horrific House Play School | 晴香、彩 | Act II | 校園空間 | ⭐⭐⭐ | ConceptArt_Scene_HorrificHouse_School.png | 晴香與彩維持致命平衡，表面日常卻充滿暗流 |
 | 24 | 凜的人性消磨 | Rin's Humanity Erased | 凜 | Act II | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_Rin_HumanityErased.png | 凜穿制服，體制執行機器，個體特異性被消除 |
 | 25 | 朱音的背叛與真相 | Akane's Betrayal Truth | 朱音 | Act II | 後巷 | ⭐⭐⭐ | ConceptArt_Scene_Akane_BetrawalTruth.png | 朱音在後巷注射情緒毒品，對希望發出冷漠嘲笑 |
-| 26 | 操被遺棄 | Misao's Abandonment | 操、父親、紗夜 | Act II | 大宅夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Misao_Abandoned.png | 父親親自開門投降，紗夜犧牲掩護女兒逃離 |
+| 26 | 操被遺棄 | Misao's Abandonment | 操、父親、紗夜 | Act II Phase C | 大宅夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Misao_Abandoned.png | 父親親自開門投降，紗夜犧牲掩護女兒逃離 |
 | 27 | 美夜子的三段式覺醒 | Miyako's Three-Stage Awakening | 美夜子 | Act II-III | 多時段 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_ThreeStageAwakening.png | 貓殼龜裂→月下測試→溫柔擁抱，重生過程 |
-| 28 | 緋潮反噬 | Scarlet Tide Backlash | 晴香、彩 | Act III | 時間線交界 | ⭐⭐⭐ | ConceptArt_Scene_ScarletTide_Backlash.png | 時間線被撕裂，Alpha 與 Beta 線衝突爆發 |
+| 28 | 緋潮反噬 | Scarlet Tide Backlash | 晴香、彩 | Act IV（草稿） | 時間線交界 | ⭐⭐⭐ | ConceptArt_Scene_ScarletTide_Backlash.png | 時間線被撕裂，Alpha 與 Beta 線衝突爆發 |
 | 29 | 花子的溫柔牢籠 | Mother's Gentle Cage | 花子、晴香 | Act I/IV | 家中/循環 | ⭐⭐⭐ | ConceptArt_Scene_Mother_GentleCage.png | 永遠循環的晨間，母愛的溫暖同時是囚禁 |
-| 30 | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_Dissonance_Confrontation.png | 鏡中倒影顯露傷痕戰士，與溫柔形象對比 |
-| 31 | 操回歸人類身軀 | Misao Returns to Humanity | 操 | Act III | 廢棄工廠 | ⭐⭐⭐ | ConceptArt_Scene_Misao_ReturnHumanity.png | 操砸碎人偶鏡子，決定回歸殘缺真實 |
-| 32 | 美夜子的貓殼復原 | Miyako's Cat Shell Recovery | 美夜子 | Act II | 治療房間 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_CatShellRecovery.png | 美夜子在鏡前看到腐爛透視的真實自我 |
+| 30 | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_Dissonance_Confrontation.png | 鏡中倒影延遲0.3秒，隱約疊著模糊小孩身影，與溫柔形象間的微妙違和 |
+| 31 | 操回歸人類身軀 | Misao Returns to Humanity | 操 | Act II Phase C（E-09a後插曲） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_ReturnHumanity.png | 操砸碎人偶鏡子，決定回歸殘缺真實 |
+| 32 | 美夜子的貓殼復原 | Miyako's Cat Shell Recovery | 美夜子 | Act III Phase H（H1.5後） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Miyako_CatShellRecovery.png | 美夜子在鏡前看到腐爛透視的真實自我，已知真相仍選擇沉默 |
 | 33 | 晴香的城市獨行 | Haruka's Solitary Urban Walk | 晴香 | Act I-II | 日區街道 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_SolitaryUrbanWalk.png | 晴香獨自行走日區城市，試圖融入卻被隔離 |
-| 34 | 美夜子與小光的對話 | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_Hikari_Conversation.png | 貓形態美夜子與年幼小光進行對話 |
-| 35 | 凜的情報蒐集現場 | Rin's Intelligence Gathering | 凜 | Act I-II | 黑暗後巷 | ⭐⭐⭐ | ConceptArt_Scene_Rin_IntelligenceGathering.png | 凜以烏鴉形態潛伏，無聲監視與蒐集 |
+| 34 | 美夜子與小光的對話`[INFERRED]` | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_Hikari_Conversation.png | 貓形態美夜子與年幼小光進行對話（此互動canon未見直接記錄） |
+| 35 | 凜的情報蒐集現場 | Rin's Intelligence Gathering | 凜 | Act I（108年重組後背景狀態） | 黑暗後巷 | ⭐⭐⭐ | ConceptArt_Scene_Rin_IntelligenceGathering.png | 凜以情緒管理局公務員身份執行職務（非烏鴉形態，見內文修正） |
 | 36 | 朔與黑市網絡 | Saku and the Black Market Network | 朔 | Act II | 地下室/廢棄地下道 | ⭐⭐⭐ | ConceptArt_Scene_Saku_BlackMarketNetwork.png | 朔與黑市線人交易，維持日夜身份平衡 |
 | 37 | 彩的日常表演 | Aya's Daily Performance | 彩 | Act I | 學校/公開場所 | ⭐⭐⭐ | ConceptArt_Scene_Aya_DailyPerformance.png | 彩表演完美學生角色，笑容精致眼神空洞 |
-| 38 | 操的獨舞冥想 | Misao's Solitary Dance Meditation | 操 | Act I-II | 舞蹈室 | ⭐⭐⭐ | ConceptArt_Scene_Misao_DanceMeditation.png | 操在空曠舞蹈室獨舞，動作優雅卻充滿悲傷 |
+| 38 | 操的獨舞冥想`[INFERRED]` | Misao's Solitary Dance Meditation | 操 | Act I-II操屍骸化前 | 舞蹈室`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_DanceMeditation.png | 操獨舞（舞蹈習慣本身canon未支持，人物心理基礎有依據） |
 | 39 | 朱音的糖果成癮 | Akane's Candy Addiction | 朱音 | Act I-II | 房間/密閉空間 | ⭐⭐⭐ | ConceptArt_Scene_Akane_CandyAddiction.png | 朱音房間被糖果包圍，無法自拔沉溺逃避 |
-| 40 | 愛莉的童謠救贖 | Aeri's Nursery Rhyme Salvation | 愛莉、晴香 | Act III | 現實與童話交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_Aeri_NurseryRhymeSalvation.png | 愛莉改變現實第2次，以魔法少女形象出現救晴香 |
-| 41 | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act II | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_DrugLab.png | 秋穗進行祕密實驗，CGM 血糖手錶誕生 |
-| 42 | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_Hanako_WarmKitchen.png | 晨間廚房，金色陽光透窗，母愛溫暖但漸淡 |
-| 43 | 朱音的糖果王國展覽 | Akane's Candy Kingdom Exhibition | 朱音 | Act III | 糖果王座全景 | ⭐⭐⭐ | ConceptArt_Scene_Akane_CandyKingdomExhibit.png | 糖果王座全景展示，腐爛融化跡象處處可見 |
-| 44 | 晴香與影子的雙舞 | Haruka and Shadow Dual Dance | 晴香、夕 | Act III | 扭曲世界 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ShadowDualDance.png | 晴香與陰影夕進行詭異雙人舞，動作同步反向 |
+| 40 | 愛莉的童謠救贖 | Aeri's Nursery Rhyme Salvation | 愛莉、晴香 | Act II Phase D（E-10b，`[NEEDS_FACT]`：本場景戲劇規模是否同一事件） | 現實與童話交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_Aeri_NurseryRhymeSalvation.png | 愛莉以紙皮騎士形態（非魔法少女服裝）具現化守護晴香 |
+| 41 | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act I（`[NEEDS_FACT]`具體時點） | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_DrugLab.png | 秋穗進行祕密實驗，CGM 血糖手錶誕生（早於Act I派發） |
+| 42 | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I（記憶碎片，`[INFERRED]`） | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_Hanako_WarmKitchen.png | 記憶碎片中的母愛幻影，非物理現實持續場景 |
+| 43 | 朱音的糖果王國展覽 | Akane's Candy Kingdom Exhibition | 朱音 | Act II Phase B，113年5-6月 | 廢棄糖果工廠（糖果王座全景） | ⭐⭐⭐ | ConceptArt_Scene_Akane_CandyKingdomExhibit.png | 糖果王座全景展示，腐爛融化跡象處處可見（同圖4互補） |
+| 44 | 晴香與影子的雙舞 | Haruka and Shadow Dual Dance | 晴香、夕 | Act II 末，E-15 | 鏡面/夢境空間 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ShadowDualDance.png | 晴香放下膠布、伸手貼向夕，動作同步反向的鏡像雙舞 |
 | 45 | 黑奏的帝國寶座 | Kuroshio's Empire Throne | 黑奏 | Act III | 帝國中心 | ⭐⭐⭐ | ConceptArt_Scene_BlackSong_EmpireThrone.png | 黑奏以幼女身軀坐在紫黑色巨大寶座 |
-| 46 | 凜的孔雀之翼 | Rin's Peacock Wings | 凜 | Act II-III | 天空/日區 | ⭐⭐⭐ | ConceptArt_Scene_Rin_PeacockWings.png | 凜展開金藍色孔雀羽翼，映照市民痛苦 |
-| 47 | 操的摔碎時刻 | Misao's Breaking Moment | 操 | Act III | 廢棄工廠 | ⭐⭐⭐ | ConceptArt_Scene_Misao_BreakingMoment.png | 操姿態崩潰跌落，傀儡絲全數斷裂 |
-| 48 | 集體潛意識的淤泥深海 | Collective Unconscious Muddy Deep | 無名者 | Act III | 超現實深海 | ⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_MuddyDeep.png | 視角下沉到無底深海，無數扭曲臉孔糾纏 |
-| 49 | 帝國廣場的市民凝滯 | Empire Plaza Citizens Frozen | 市民眾 | Act III | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_CitizensFrozen.png | 數百市民凝滯，表情定格於恐懼無語 |
-| 50 | 晴香的最終抉擇瞬間 | Haruka's Final Choice Moment | 晴香 | Act IV | 分岐點 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_FinalChoiceMoment.png | 晴香於分岐點，現實戰鬥 vs. 夢境循環 |
-| 51 | 紙皮騎士的最後一擊 | Cardboard Knight's Last Stand | 愛莉 | Act III-IV | 潛意識戰場 | ⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_LastStand.png | 愛莉以紙裝備對抗不可抗力，決心不退 |
-| 52 | 彩的靈魂解放之光 | Aya's Soul Liberation Light | 彩 | Act IV | 天空/星辰 | ⭐⭐⭐ | ConceptArt_Scene_Aya_SoulLiberationLight.png | 彩身體化為金色光點，升起成千萬星辰 |
-| 53 | 朔的雙刃生存 | Saku's Double-Edged Survival | 朔 | Act III-IV | 日夜交界 | ⭐⭐⭐ | ConceptArt_Scene_Saku_DoubleEdgedSurvival.png | 朔同現日夜交界，兩身份合體 |
-| 54 | 靜止搖籃的粒子化進程 | Static Cradle Particularization Process | 晴香 | Act IV | 新世界形成 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ParticularizationProcess.png | 晴香逐漸粒子化，自我消融與世界重生 |
-| 55 | 美夜子的靈魂雙線 | Miyako's Soul Dual Line | 美夜子 | Act III-IV | 靈魂空間 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_SoulDualLine.png | 美夜子靈魂分裂為兩線，最終交織 |
-| 56 | 新世界的搖籃曲 | Lullaby of the New World | 晴香、全角色 | Act IV | 新世界 | ⭐⭐⭐ | ConceptArt_Scene_NewWorld_LullabySong.png | 晴香化身新世界，無窮循環溫暖與寂靜 |
+| 46 | 凜的孔雀之翼 | Rin's Peacock Wings | 凜 | `[NEEDS_FACT]`（非嚴格幕別鎖定） | 天空/日區 | ⭐⭐⭐ | ConceptArt_Scene_Rin_PeacockWings.png | 凜展開孔雀綠孔雀羽翼——殘留Alpha線偶像明亮一面 |
+| 47 | 操的摔碎時刻 | Misao's Breaking Moment | 操 | Act II Phase C，E-09a，113年7-8月 | `[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_BreakingMoment.png | 操姿態崩潰跌落，傀儡絲斷裂（Stage 2a） |
+| 48 | 集體潛意識的淤泥深海 | Collective Unconscious Muddy Deep | 無名者 | `[NEEDS_FACT]`（Act III後段-IV推斷） | 超現實深海（L2/L3） | ⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_MuddyDeep.png | 視角下沉到無底深海，無數扭曲臉孔糾纏 |
+| 49 | 帝國廣場的市民凝滯 | Empire Plaza Citizens Frozen | 市民眾 | Act III Phase J | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_CitizensFrozen.png | 數百市民凝滯，表情定格於恐懼無語 |
+| 50 | 晴香的融合抉擇瞬間 `[跨批次覆核修正]` | Haruka's Fusion Choice Moment | 晴香 | Act IV（`[NEEDS_FACT]`具體視覺分鏡待Act IV Outline） | 抉擇點 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_FusionChoiceMoment.png | **[概念已被CDL-326取代]** 晴香清醒抉擇是否主動融合成三位一體永恆守護者，非「沉睡消融 vs 現實戰鬥」二選一（同圖13/54/56同一修正） |
+| 51 | 紙皮騎士的最後一擊 | Cardboard Knight's Last Stand | 愛莉 | Act IV（`[NEEDS_FACT]`未批核草稿） | 潛意識戰場 | ⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_LastStand.png | 愛莉以紙裝備對抗不可抗力，決心不退（同SPEC#20非同一CDL-256事件） |
+| 52 | 彩的靈魂解放之光 | Aya's Soul Liberation Light | 彩 | Act III Phase J（E-III-J8，緊接SPEC#8） | 天空/帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_Aya_SoulLiberationLight.png | 彩的靈魂燃燒填補天空裂痕，金光與緋潮猩紅交織（「千萬星辰」意象為`[INFERRED]`延伸） |
+| 53 | 朔的雙刃生存 | Saku's Double-Edged Survival | 朔 | Act III（SA-S3融合形態） | 日夜交界 | ⭐⭐⭐ | ConceptArt_Scene_Saku_DoubleEdgedSurvival.png | 朔同現日夜交界，兩身份合體（Act IV為另一獨立視覺，非同一形態） |
+| 54 | 靜止搖籃的粒子化進程 `[SUPERSEDED_CONCEPT]` | Static Cradle Particularization Process | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ParticularizationProcess.png | **[概念已被CDL-326取代]** 晴香保留意識記憶主動融合成三位一體永恆守護者，非粒子化消散 |
+| 55 | 美夜子的靈魂雙線`[INFERRED]` | Miyako's Soul Dual Line | 美夜子 | Act IV | 靈魂空間`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Miyako_SoulDualLine.png | 美夜子靈魂狀態意象（雙線交織裝置本身canon未支持，底層依據CDL-271） |
+| 56 | 新世界的搖籃曲`[SUPERSEDED_CONCEPT]` | Lullaby of the New World | 晴香、美夜子、全角色 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_NewWorld_LullabySong.png | **[概念已被CDL-326取代]** 晴香保留意識記憶成為三位一體永恆守護者；美夜子完成心願後回歸凡人 |
 | 57 | 黑暗沖涼習慣 | Dark Shower Habit | 美夜子 | 日常 | 黑暗浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_DarkShowerHabit.png | 美夜子習慣性在黑暗中淋浴，自我確認儀式 |
-| 58 | 紅線強迫症 | Red Line Compulsion Habit | 凜 | 日常 | 房間角落 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_RedLineCompulsion.png | 凜用深紅細線強迫性標記牆壁，尋求秩序 |
+| 58 | 紅線強迫症`[核心概念已修正]` | Red Line Compulsion Habit | 凜 | 日常 | 私人獨處空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_RedLineCompulsion.png | 凜反覆挑起頸上紅色縫合線疤痕至滲血，非「牆上畫紅線」（原文誤解「紅線」術語） |
 | 59 | 研磨凜的斷刃 | Grinding Rin's Broken Blade | 美夜子 | 日常 | 祕密隱蔽處 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_GrindingBrokenBlade.png | 美夜子無人知曉地研磨凜的斷刃，銷毀執著 |
-| 60 | 半首旋律停頓 | Phantom Melody Habit | 凜 | 日常 | 無人時刻 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_PhantomMelodyHabit.png | 凜習慣性哼唱殘缺旋律，中途戛然而止 |
-| 61 | 強迫清洗儀式 | Compulsive Washing Ritual | 操 | 日常 | 浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_CompulsiveWashingRitual.png | 操進行強迫清洗，試圖洗淨靈魂罪惡感 |
+| 60 | 半首旋律停頓 | Phantom Melody Habit | 凜 | 日常（108年重組後） | 無人時刻 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_PhantomMelodyHabit.png | 凜習慣性哼唱殘缺旋律，中途戛然而止（Reference Image已修正為日常/公務員形態） |
+| 61 | 強迫清洗儀式`[根源已修正]` | Compulsive Washing Ritual | 操 | 日常（Phase H疊加期尤烈） | 浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_CompulsiveWashingRitual.png | 操以滾燙熱水擦洗全身，試圖洗去父親觸碰/被改造身體/性別認同混亂（CDL-155），非「洗手去背叛罪」 |
 | 62 | 透明物執著 | Transparency Obsession Habit | 晴香 | 日常 | 房間角落 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_TransparencyObsession.png | 晴香蒐集透明物件，透過它觀察背景 |
-| 63 | 睡前熱可可成癮 | Hot Cocoa Ritual | 晴香 | 日常 | 房間/夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_HotCocoaRitual.png | 晴香每晚必喝溫度恰好熱可可，召喚虛假童年 |
+| 63 | 睡前熱可可成癮`[CDL已修正]` | Hot Cocoa Ritual | 晴香 | 日常 | 房間/夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_HotCocoaRitual.png | 晴香每晚必喝溫度恰好熱可可，召喚虛假童年（CDL-123，非CDL-112） |
 | 64 | 嚼冰塊危機 | Crisis Ice Chewing | 晴香 | 日常 | 焦慮時刻 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_CrisisIceChewing.png | 焦慮時晴香嚼冰塊，用痛楚確認存在 |
-| 65 | 破弦自傷 | Broken Guitar String Self-Harm | 晴香 | 日常 | 私密時刻 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_BrokenGuitarStringSelfHarm.png | 晴香用破弦在手臂造成割痕，代替言語 |
+| 65 | 破弦自傷`[部位已修正]` | Broken Guitar String Self-Harm | 晴香 | 日常（危機期） | 私密時刻 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_BrokenGuitarStringSelfHarm.png | 晴香反覆彈斷弦致指尖出血、以膠布遮蓋，非「手臂割痕」（原文誤植部位） |
 | 66 | 摺紙星星 | Paper Star Folding Habit | 凜 | 日常 | 失眠夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Rin_PaperStarFolding.png | 凜房間堆積數千摺紙星星，冥想逃避 |
-| 67 | 石像前的懺悔 | Statue Confession Ritual | 秋穗 | 日常 | 廢棄地點 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_StatueConfession.png | 秋穗在石像前傾訴罪惡感，尋求虛假救贖 |
-| 68 | 儀器掃描愛莉遺物 | Instrument Scanning Ritual | 秋穗 | 日常 | 實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_InstrumentScanningRitual.png | 秋穗用儀器反覆掃描愛莉遺物，試圖重建 |
-| 69 | 熊公仔囤積 | Bear Hoarding Compulsion | 彩 | 日常 | 房間 | ⭐⭐⭐ | ConceptArt_Scene_Aya_BearHoardingCompulsion.png | 彩房間被熊公仔填滿，緩衝與虛假安全 |
-| 70 | 病態無痕修補 | Compulsive Seamless Mending Habit | 操 | 日常 | 房間工作區 | ⭐⭐⭐ | ConceptArt_Scene_Misao_SeamlessMendingHabit.png | 操對破損物件病態執著，修補但無法癒合靈魂 |
+| 67 | 石像前的懺悔`[視覺已修正]` | Statue Confession Ritual | 秋穗 | 日常 | 秋穗實驗室（塔地底） | ⭐⭐⭐ | ConceptArt_Scene_Akiho_StatueConfession.png | 秋穗在半透明橙色水晶石像前傾訴罪惡感，非「風化石雕/廢棄地點」（原文違反愛莉石像視覺定義） |
+| 68 | 儀器掃描愛莉遺物 | Instrument Scanning Ritual | 秋穗 | 日常 | 實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_InstrumentScanningRitual.png | 秋穗用儀器反覆掃描愛莉遺物，試圖重建（具體遺物項目`[INFERRED]`） |
+| 69 | 出門確認儀式`[核心概念已重寫]` | Daily Bear Confirmation Ritual | 彩／黑奏 | 113年 Act I 日常 | 玄關/門口 | ⭐⭐⭐ | ConceptArt_Scene_Aya_DailyBearConfirmation.png | 出門前確認袋中螢遺物熊公仔，熊「永遠潔淨」；非「囤積多隻新舊破損熊公仔」（原文與canon「永遠潔淨」規則直接矛盾） |
+| 70 | 病態無痕修補`[根源已修正]` | Compulsive Seamless Mending Habit | 操 | 日常 | 房間工作區 | ⭐⭐⭐ | ConceptArt_Scene_Misao_SeamlessMendingHabit.png | 操對破損物件病態執著修補，根源係掩蓋自身手術縫線（CDL-155/156），非「恐懼變成母親」（CDL-297） |
 | 71 | K房唱歌——雨天 | Karaoke Rain Song | 美夜子＋隊伍 | 日常 | K 房 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_KaraokeRainSong.png | 隊伍K房日常；美夜子縮沙發角落唱悲傷情歌，意外地痛且好聽（CDL-330修正） |
 | 72 | 長泳窒息習慣 | Drowning Swim Habit | 美夜子 | 日常 | 水域 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_DrowningSwimHabit.png | 美夜子潛水延遲浮起，體驗死亡邊界 |
-| 73 | 家長日大作戰 | Parents' Day Infiltration | 紫音、操 | 113年 Act II前期 | 學校 | ⭐⭐⭐ | ConceptArt_Scene_ParentsDay_Infiltration.png | 操偽裝成熟高貴家長假扮紫音的家長，紫音以學生身份參加家長日 |
-| 74 | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | 日常 | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_DessertToothDrop.png | 操在開心食甜品時悄悄掉牙，左手掌托著2-3隻帶血的牙齒，其他人渾然不覺仍歡笑食甜品 |
-| 75 | 刑思殺出實驗室 | Keishi's Awakening Massacre | 刑思（黑奏） | 前史/閃回 | 帝國實驗室 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Keishi_AwakeningMassacre.png | 黑奏（帝國法號刑思）在實驗室中覺醒魔法少女力量，殺光所有實驗人員，滿地鮮血，這是她走向帝國統治的起點 |
-| 76 | 凜×美夜子黃金搭檔 | Rin and Miyako's Golden Partnership | 凜、美夜子 | 前史/閃回（108年前） | 軍方戰場 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png | 兩人作為軍方魔法少女的默契巔峰——凜精準打擊，美夜子掩護收割，一個眼神就是一套戰術 |
+| 73 | 家長日大作戰 | Parents' Day Infiltration | 小光、紫音、操 | Act II Phase B | 學校 | ⭐⭐⭐ | ConceptArt_Scene_ParentsDay_Infiltration.png | 小光家長日：紫音以「家姐」身份出席，操扮「媽媽」（原文誤植為操扮紫音的家長，已修正） |
+| 74 | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | Act II Phase C（E-09a起） | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_DessertToothDrop.png | 操Body Horror Stage 2a（原文誤標Stage 2b）悄悄掉牙，左手掌托著帶血牙齒，其他人渾然不覺仍歡笑食甜品 |
+| 75 | 刑思殺出實驗室 | Keishi's Awakening Massacre | 刑思（黑奏） | 前史 103年（原文誤標98年） | 帝國實驗室 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Keishi_AwakeningMassacre.png | 黑奏在實驗室中覺醒魔法少女力量（102年鐵絲網偶遇獲得），殺光所有實驗人員，這是她走向帝國統治的起點 |
+| 76 | 凜×美夜子黃金搭檔 | Rin and Miyako's Golden Partnership | 凜、美夜子 | 前史/閃回（103-108年） | 軍方戰場 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png | 兩人作為軍方魔法少女的默契巔峰——凜精準打擊，美夜子以琉璃緞帶+能量冰刀掩護收割（原文誤植雙槍，已修正）|
 | 77 | 凜殿後最終犧牲 | Rin's Final Rear Guard Sacrifice | 凜、美夜子 | 前史/閃回（108年） | 戰場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FinalSacrifice.png | 凜主動引開L3光環掩護美夜子撤退，頸椎被扭斷180度，死亡瞬間眼神是釋然而非恐懼——成為美夜子終身PTSD的聲音 |
-| 78 | 鐵絲網偶遇 | 前史 102年 | CDL-288/289；CF-TIME-0013 | 黑奏篡位，彩被困 → 5歲晴香透過鐵絲網看見被困的彩 → 晴香許願（創世根源） |
-| 79 | 通風管道那夜（螢の犧牲） | 前史 79年 | aya.md §螢；02_glossary.md #hotaru | 帝國對螢進行最終處置 → 螢在通風管道犧牲，把熊公仔交給黑奏 → 黑奏整個人生動力根源 |
-| 80 | 帝國實驗室：黑奏作為活體樣本 | 前史 98年前後 | aya.md §數據養殖；01_world_rules §實驗鏈 | 帝國發現黑奏是魔法少女 → 心匣被強制解析數據化 → SPEC#75覺醒屠殺（同一實驗室，不同瞬間） |
-| 81 | 黑奏弒父篡位 | 前史（覺醒後） | aya.md §篡位；01_world_rules §帝國歷史 | SPEC#75覺醒屠殺後 → 148cm幼童弒殺養父 → 帝國「刑思」法號確立；黑奏對螢的永恆追求的開始 |
-| 82 | 晴香遞便當（三層交疊） | 113年 Act I [NC] | CDL-079；CDL-082 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當，黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
-| 83 | 凜不自知摺星星（美夜子目擊） | 113年 Act I-II 日常 | CDL-215；rin.md §記憶殘留 | 重組後凜日常 → 美夜子無意目擊凜無意識摺星星 → 美夜子第一個希望：身體記憶比語義記憶頑固 |
-| 84 | 美夜子Glitch Form首次 | 113年4-5月 Act II Phase A | CDL-282；E-05a；miyako.md §Unit 01 | E-05美夜子認出凜（PTSD觸發）→ 貓殼龜裂，0.5秒閃現人形 → SPEC#6月下崩潰（貓殼龜裂三段第一段） |
-| 85 | 小光之死＋黑奏邏輯侵入 | 113年5月 Act II Phase B | E-07a；aya.md §數據養殖 | 小光死亡（SPEC#22）同時 → 紫音防衛崩潰，黑奏文字滲入畫面邊緣 → 紫音被黑奏邏輯說服的心理入口 |
-| 86 | 廢棄糖果工廠三人辯論 | 113年5-6月 Act II Phase B | E-07b | E-07b紫音被放逐後 → 晴香、紫音、操三種哲學在腐爛糖果空間對峙 → 各人弧光的中間衝突 |
-| 87 | 紗夜犧牲——耳鳴遮蔽 | 113年 Act II Phase C | CF-TIME-0068；CDL-233 | SPEC#26操被遺棄 → 紗夜開槍犧牲，白色噪音淹沒聲音 → 操CDL-298報串罪疚最深根源 |
-| 88 | 困獸的慈悲——朔見証之夜 | 113年9月 Act II Phase D | CDL-191附近；saku.md §見証 | 晴香「社會性死亡」後最低點 → 晴香半屍骸，朔在場見証 → 朔決定站在主角團這邊 |
-| 89 | 愛莉具現化擋刀＋石像龜裂 | Act II Phase D | CDL-256；aeri.md §紙皮騎士 | 愛莉以石像形式存在 → 具現化擋刀，遠景石像同時龜裂 → SPEC#40童謠救贖；SPEC#20紙皮騎士防禦 |
-| 90 | 王國邊緣的盛宴（紫音獨處） | Act II Phase D E-11前 | akane.md §嘆息之橋前 | E-07b被放逐、小光已死 → 紫音在帝國廣告光下獨自餵食流浪貓，攝取腐爛糖果 → SPEC#10犧牲情感前置 |
-| 91 | 操絲線縫牙 | Act II Phase A-B | CDL-233 Stage 2a | 操Body Horror Stage 1→2a轉換 → 鏡前用傀儡絲縫鬆動牙齒，外表完美/內部恐怖 → SPEC#74甜品掉牙的前置 |
-| 92 | 美夜子無價值留守 | 113年7月 Act II Phase C E-09後 | CDL-191；miyako.md §羈絆 | SPEC#21光幕破碎，晴香「社會性死亡」→ 美夜子推開手機，遞一罐沒氣可樂 → 從「義務守護」轉「無條件羈絆」 |
-| 93 | 凜重組後第一次遇見美夜子 | 113年4-5月 Act II Phase A E-05 | CDL-215；rin.md §被重組 | E-05美夜子追蹤凜 → 凜對美夜子毫無反應，美夜子伸手，凜繼續走 → 美夜子PTSD最大化；CDL-274前置 |
-| 94 | 晴香感應到「彩不在」（茶會） | Act II Phase B E-08周圍 | CDL-079；SPEC#11茶會同時 | SPEC#11玻璃庭院茶會某一刻 → 晴香0.5秒感應到空洞，手凍住 → Act III黑奏揭露「她一直就是這樣看我」 |
-| 95 | 飢餓的天使——直播失控（半屍骸） | 113年7月 Act II Phase C E-09 | E-09；CDL-180；夕接管 | E-08恐怖家家酒高壓 → 半屍骸左手在直播戰場吸取情緒，夕接管瞬間 → SPEC#21光幕破碎（同一事件不同鏡頭） |
-| 96 | 黑奏農場觀察 | Act II Phase B E-08 | CDL-211；CDL-079 | SPEC#11茶會 → 黑奏精算晴香情緒增幅器的農場視角 → 黑奏「情緒農場」意識形態的視覺化 |
-| 97 | 鏡像相簿異變 | Act II Phase B [NC] | 08_narrative §P-C10鏡像相簿 | SPEC#30違和感（倒影慢0.3秒）→ 晴香看見玻璃反射中的藍色馬尾殘影 → SPEC#2整合場景（殘影真正身份） |
-| 98 | 操の虛榮告白 | Act II Phase A E-05a後 | misao.md §隊伍融入 | 操被迫加入主角團初期 → 完美妝容下眼眶微紅，第一次放下傲慢 → 操弧光「從形式主義到真實」第一步 |
-| 99 | 朔看見Unit 01的臉 | Act II Phase D | saku.md §美夜子 | 朔過去與美夜子的關聯 → Unit 01任務中，朔認出美夜子的臉 → 朔的動機和CDL-274相關線 |
-| 100 | 凜的最終選擇（Unit 00-Null揭露） | 114年4月 Act III Phase H2 | E-15a（凜拒絕治癒）；CDL-215 | 凜發現自己頸部角度異常→自我認知 → 晴香伸手，凜推開，「我選擇Unit 00」→ 美夜子終極PTSD觸發 |
-| 101 | 嘆息之橋——凜獨角 | 114年 Act III Phase G-H之間 | rin.md §嘆息之橋；04_timeline §嘆息之橋 | 凜已知自己是重組體，尚未揭露 → 橋上獨處，她已決定 → 候選W最終選擇（她在這裡就決定好了） |
-| 102 | 操の被迫報串 | 114年 Act III Phase H | CDL-298；misao.md | SPEC#26被遺棄；SPEC#J紗夜犧牲 → 傀儡絲手指在通訊器上懸停，最深罪疚 → SPEC#1鋼鐵獨舞（帶著罪疚的最後一舞） |
-| 103 | 糖果唐樓交易 | 114年3月 Act III Phase G3 | CDL-213/214；07_entities §糖果唐樓 | Phase G主角團尋找紫音 → 黑市巴洛克空間，情緒結晶如品酒 → SPEC#4廢棄糖果工廠（繼續找） |
-| 104 | 下水道無聲重逢 | 114年3月 Act III Phase G4 | CDL-214 | Phase G主角團找到紫音蹤跡 → 晴香放下糖果+藥品悄悄離開，不被看見 → SPEC#4廢棄糖果工廠（正式找到） |
-| 105 | 公告夜（紫音作為清剿目標） | 114年5月 Act III Phase I Day 13夜 | CDL-217；05_outline §Phase I | Day 13操犧牲後 → 被迫直播紫音作為清剿目標，靜止的死刑等待感 → Day 14 SPEC#10糖果山犧牲 |
-| 106 | 彩在心房中摸熊公仔 | Act III（被囚狀態） | aya.md §葉語彩；CDL-076 | 黑奏全力鎮壓彩的主人格 → 透明牆外晴香笑聲，彩摸到牆壁找熊公仔 → SPEC#8彩奪回身體 |
-| 107 | 蜜月困境——K期靈魂監獄 | 114年5-6月 Act III Phase K1 | CDL-053；05_outline §Phase K | SPEC#13靜止搖籃選擇後 → 溫暖廚房+窗玻璃倒影中的遍體鱗傷（K期代價）→ Act IV Phase L晴香覺醒 |
-| 108 | 屍骸覺醒——L4 | 114年 Act III Phase L4 | 05_outline §L4 | Phase L4觸發條件 → 空洞眼睛逐一亮起人類的光 → Act IV新世界建立 |
-| 109 | 美夜子終於哭出來 | 134年7月 Act IV | miyako.md §Need；08_bible §Dark Healing | Act III覺醒→Act IV守護晴香20年 → 一生第一次真正哭泣，抓住晴香袖子 → Act IV美夜子弧光終點 |
-| 110 | 美夜子笨拙演奏（全片最後一幕） | 134年7月 Act IV Phase L | miyako.md §終局；05_outline §Act IV | 全片所有積累 → 同一段旋律第四遍，還在學，還在彈 → （全片結束） |
-| 111 | 維多利亞之淚：人造太陽剖面圖 | 世界觀設定 | 07_entities §維多利亞之淚 | — → 「人造太陽」地面/地底雙層結構 → 全片能量來源的視覺根基 |
-| 112 | 集體潛意識空間：後巷過渡狀態 | 世界觀設定 | 01_world_rules §集體潛意識；06_visual_bible | — → 唐樓牆面湮滅成宇宙星空，霓虹殘影 → SPEC#12、SPEC#48、SPEC#2等潛意識場景的視覺基礎 |
-| 113 | 心防內化裝置：製造過程 | 世界觀設定 | 07_entities §心防內化裝置；02_glossary #trauma-cage | — → 心匣被撬開+焊死，情緒注入，表情從恐懼到空白 → CDL-233操的Body Horror；rin.md §感官剝奪 |
-| 114 | 情緒管理局：局內辦公空間 | 世界觀設定 | 06_visual_bible §情緒管理局；07_entities | — → 純白啞光制服，有機流體情緒波形牆 → SPEC#14凜雙面形態；SPEC#24凜人性消磨的場景設定 |
-| 115 | 靈樹：平時狀態 | 世界觀設定 | 02_glossary #spirit-tree；01_world_rules | — → 夜區谷地老樹，普通感是伏筆 → Act III Phase J決戰中靈樹作用 |
-| 116 | 帝國廣場：常態 | 世界觀設定 | 06_visual_bible §帝國廣場；07_entities | — → 非戰鬥展示秩序空間，麻木市民 → SPEC#19決戰崩塌；SPEC#49市民凝滯的對比 |
-| 117 | Emo-Visor Gen 3：日區市民集體成癮 | 世界觀設定 | 02_glossary #emo-visor | — → 日區咖啡廳，全城Emo-Visor過濾版幸福感 → Act II光幕體系的日常具現；SPEC#21破碎的前置 |
-| 118 | 屍骸化：心之器燃盡時刻 | 世界觀設定 | 01_world_rules §心之器；02_glossary #magical-corpse | — → 靜止恐怖，最後動作無限重複的完整外殼 → SPEC#22小光屍骸化；SPEC#10糖果山犧牲的視覺語境 |
-| 119 | 彩的心房：通風管道永恆空間 | 世界觀設定 | aya.md §葉語彩；CDL-076 | 候選B通風管道（螢犧牲）→ 彩被困內心的通風管道永恆空間，情緒結晶苔 → 候選CC彩摸熊公仔；SPEC#8心理空間 |
-| 120 | 珍寶珠入隊——朱音加入主角團 | 113年4月 Act I | CDL-170；akane.md §入隊 | 朱音仇視晴香 → 珍寶珠事件，晴香以身體護她 → 朱音加入主角團，仇恨開始轉化 |
-| 121 | 操入隊——晴香以身體擋攻擊 | 113年3-4月 Act I | CDL-162；misao.md §入隊 | 操作為對手出現 → 晴香以身體擋攻擊，不還手 → 操被迫重新評估晴香，入隊前置 |
-| 122 | 軟接觸——美夜子廢棄地鐵站遞水 | 113年 Act II Phase A-B | CDL-191；miyako.md §羈絆 | 美夜子以「義務」自我定義 → 廢棄地鐵站，遞水，不說話 → 羈絆轉型的日常具現 |
-| 123 | 死前願望清單 | 113-114年 Act II-III | haruka.md §膠布哲學；CDL-088 | 晴香意識到自己可能死去 → 在便利店收據背面寫願望清單 → Act IV「你還有一個未完成」 |
-| 124 | 美夜子鏡像反映 | 114年 Act III-IV | miyako.md §鏡像；CDL-274 | 美夜子每次在水面/玻璃看見的都是貓 → 某一刻看見自己的人臉 → 貓殼詛咒鬆動；CDL-274相認 |
-| 125 | 無名男孩速寫簿 | 113年 Act II | 08_narrative §無名男孩 | 城市日常角落 → 速寫簿記錄「維多利亞天使」的消失過程 → 普通人視角見証社會性死亡 |
-| 126 | 操在集體潛意識尋見母親碎片 | 114年 Act III | misao.md §紗夜；CDL-298 | 操帶著罪疚進入集體潛意識 → 找到紗夜的記憶碎片，無法觸碰 → 操放下執念，SPEC#1鋼鐵獨舞 |
-| 127 | 膠布哲學第四層——覺醒後撕膠布 | 134年7月 Act IV | CDL-088；haruka.md §膠布哲學 | 膠布哲學三層全部揭露後 → 晴香主動撕下手腕的膠布，傷口已癒合 → 「已經不需要了」——成長終點 |
-| 128 | 打怪無效 | 113年5-6月 Act II Phase B/C | CDL-182～204 | 個別戰鬥無法改變系統痛苦 → 主角團例行勝利但背景市民痛苦無減 → E-08高壓期心理根基；晴香拒絕戰鬥前置 |
-| 129 | 天使變公敵 | 113年7月 Act II Phase C E-09 | CDL-180, 201, 227, 259, 282 | E-08高壓+夕半屍骸化 → 直播中夕接管，撕毀光幕濾鏡，吸食圍觀市民情緒 → 社會性死亡起爆；媒體倒戈 |
+| 78 | 鐵絲網偶遇 | Wire Fence Encounter | 晴香、彩 | 前史 102年 | 帝國研究設施外圍 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_WireFenceEncounter.png | 5歲晴香目睹渾身傷痕、被守衛拖行嘅彩（此時29歲，非5歲，原文誤植），潛意識許願埋下創世因果信標（CDL-288）|
+| 79 | 通風管道那夜（螢的犧牲） | The Night in the Ventilation Shaft | 彩、螢 | 前史 79年 | 夜區建築通風管道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_HotaruSacrifice_VentilationShaft.png | 靈樹戰爭期間躲避帝國軍搜索（原文誤植「黑奏」在場及「帝國設施處置」，此時應為6歲彩，黑奏人格於此夜誕生）；螢犧牲把熊公仔交給彩 |
+| 80 | 帝國實驗室：黑奏作為活體樣本 | The Empire Lab: Kurokane as Living Specimen | 彩 | 前史 79-102年間（原文「12-15歲/95-98年」與出生年矛盾，已修正） | 帝國實驗室 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmpireLab_KurokaneSpecimen.png | 彩被囚禁研究期間（此時尚未擁有魔法力量），接受早期情緒壓抑/測量技術測試（原文誤植為「收集魔法輸出數據」）|
+| 81 | 黑奏弒父篡位 | Kurokane Usurps the Emperor | 黑奏 | 前史 103年（原文誤標98年） | 帝國皇宮 | ⭐⭐⭐⭐ | ConceptArt_Scene_KurokaneUsurpation.png | 148cm幼童身軀弒殺養父，帝國「刑思」法號確立（CDL-305修正年份） |
+| 82 | 晴香遞便當（三層交疊） | Haruka's Lunchbox: Three-Layer Overlap | 晴香、黑奏、彩 | 113年 Act I [NC] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_Lunchbox_ThreeLayers.png | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（對鐵絲網事件本身無有意識記憶），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
+| 83 | 凜不自知摺星星（美夜子目擊） | Rin Folds Stars Without Knowing, Miyako Watches | 凜、美夜子 | Act I-II | 日常（具體beat待Beat Sheet確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FoldingStars_MiyakoWatches.png | 凜以殘影速度摺出幾何完美星星再面無表情掃入垃圾桶，美夜子門邊目擊「身體記憶比語義記憶更頑固」 |
+| 84 | 美夜子Glitch Form首次 | Miyako's First Glitch Form | 美夜子 | Act II | Phase A，E-06 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_FirstGlitch.png | 護隊受傷（非PTSD）觸發貓殼首次功能性崩裂，凜的斷刃鏡面反光同步映出人形殘影 |
+| 85 | 小光之死＋黑奏邏輯侵入 | Hikari's Death + Kurokane's Logic Invasion | 紫音、黑奏 | Act II | Phase B，E-07a | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Hikari_Death_KurokaneInvasion.png | 小光斷氣後紫音發癲徒手打崩其他屍骸，骨頭外露仍狂笑，歌德尖刺初現，黑奏邏輯緊接植入 |
+| 86 | 廢棄糖果工廠三人辯論 | Three-Way Debate in the Abandoned Candy Factory | 晴香、操、紫音 | Act II | Phase B，E-07b | ⭐⭐⭐ | ConceptArt_Scene_CandyFactory_ThreeWayDebate.png | 操調停失敗後晴香趕到，三種哲學立場正面交鋒，直接導致紫音被放逐 |
+| 87 | 紗夜犧牲——耳鳴遮蔽 | Sayo's Sacrifice: Tinnitus Veil | 紗夜、操 | Act II | Phase C，E-09a | ⭐⭐⭐⭐ | ConceptArt_Scene_Sayo_Sacrifice_TinnitusVeil.png | 紗夜豪宅門口舉槍掩護操逃跑，白色噪音吞沒槍聲與遺言，操只看見她倒下的剪影 |
+| 88 | 困獸的慈悲——朔見証之夜 | Trapped Beast's Mercy: Saku's Witness Night | 晴香、朔 | Act II | Phase D中期，[NC]見証之夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_WitnessNight.png | 下水道外圍，晴香自傷式壓制被夕黑色能量異化的左手，再溫柔陪伴屍骸消散至光塵，朔以狙擊鏡遠距目擊 |
+| 89 | 愛莉具現化擋刀＋石像龜裂 | Aeri's Materialized Shield + Statue Cracks | 愛莉、晴香 | Act II | Phase D，E-10b | ⭐⭐⭐⭐ | ConceptArt_Scene_Aeri_PaperKnight_StatueCracks.png | 雙格分鏡：紙皮騎士擋刀碎裂 vs 秋穗家石像同步出現第一道細裂縫 |
+| 90 | 王國邊緣的盛宴 | Feast at the Kingdom's Edge | 紫音、小光（屍骸）、朔 | Act II | Phase D，E-11風暴前夕 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akane_FeastAtEdge.png | 紫音王座上餵食發霉糖果予屍骸化嘅小光，自以為建立「冇傷害樂園」，朔遠遠目擊 |
+| 91 | 操絲線縫牙 | Misao Sews Her Teeth with Puppet Strings | 操 | Act II | Phase C，E-09a起 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_PuppetStringTeeth.png | 鏡像破碎之夜後Body Horror Stage 2a，鏡前用傀儡絲縫合鬆動牙齒，工匠式自我維護 |
+| 92 | 美夜子無價值留守 | Miyako's Worthless Vigil | 晴香、美夜子 | Act II | Phase C，E-09 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_WorthlessVigil.png | 晴香社會性死亡後躲藏地鐵站，美夜子貓形態遞沒氣可樂靜靜留守，「義務守護」轉為「無條件羈絆」 |
+| 93 | 凜重組後第一次遇見美夜子 | Rin's First Encounter with Miyako After Reassembly | 凜、美夜子 | Act II | Phase D，E-11附近（beat歸屬待QQ-170確認）| ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_MiyakoFirstEncounter.png | 美夜子貓形態近距離擦身而過重組後的凜，凜語義無反應但手指無意識微收緊——單向認出的創傷 |
+| 94 | 彩「卡頓」——黑奏系統困惑（第二次） | Aya's "Glitch": Kurokane's System Confusion, Second Occurrence | 晴香、彩（黑奏） | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_Aya_SystemGlitch_Second.png | 晴香無意間的溫暖小動作觸發黑奏系統第二次短暫困惑，眼神紫色閃爍0.5秒+身體輕微僵直 |
+| 95 | 飢餓的天使——直播失控（半屍骸） | Hungry Angel: Live Broadcast Out of Control | 晴香（夕接管） | Act II | Phase C，E-09 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_LiveBroadcastBreak.png | 夕接管晴香身體吸取圍觀者正面情緒並撕破光幕濾鏡，SPEC#21光幕破碎前一幀 |
+| 96 | 黑奏農場觀察 | Kurokane's Farm Observation | 黑奏（彩） | Act II | Phase B，E-08高壓期 | ⭐⭐⭐⭐ | ConceptArt_Scene_Kurokane_FarmObservation.png | 晴香陷入恐怖家家酒高壓痛苦時刻，黑奏在暗處冷靜評估的特寫 |
+| 97 | 鏡像相簿異變 | Mirror Photo Album Anomaly | 晴香、美夜子 | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_Haruka_PhotoAlbumAnomaly.png | 玻璃反射中美夜子身旁出現模糊異象（手/藍色馬尾影子），Red Herring機制啟動，身份不明 |
+| 98 | 操の虛榮告白 | Misao's Vanity Confession | 操 | Act I | E-02入隊後 | ⭐⭐⭐ | ConceptArt_Scene_Misao_VanityConfession.png | 操入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫 |
+| 99 | 朔看見Unit 01的臉 | Saku Sees Miyako's Face on Unit 01 | 朔、美夜子 | Act II | Phase D，E-11風暴期間 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_SeesUnit01.png | 朔破例現身介入風暴，近距離認出美夜子左耳星形飾物，懷疑升級接近確信但未100%確認 |
+| 100 | 凜的最終選擇——Unit 00-Null揭露 | Rin's Final Choice: Unit 00-Null Revelation | 凜、晴香 | Act III | Phase H2，E-III-H2 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FinalChoiceUnit00.png | 凜推開晴香伸出的手，主動回到帝國實驗室要求黑奏挖走所有感情，自願成為Unit 00-Null |
+| 101 | 嘆息之橋——凜獨角 | Sigh Bridge: Rin's Solo Moment | 凜 | Act III | Phase G-H之間（`[btd 未定案]`）| ⭐⭐ | ConceptArt_Scene_Rin_SighBridgeSolo.png | `[NEEDS_FACT]` 整個beat canon未設計（地點/內容均btd），暫以推測性獨處場景演繹 |
+| 102 | 操の被迫報串 | Misao's Forced Betrayal Report | 操 | Act III | Phase H暗線 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_ForcedBetrayalReport.png | 父親以「送返研究室重組變成母親那樣」為最後通牒，操被迫在通訊器前交出隊友坐標 |
+| 103 | 糖果唐樓交易 | Candy Tower Block Transaction | 晴香、隊員（具體未指定） | Act III | Phase G3，114年3月，糖果唐樓 | ⭐⭐⭐ | ConceptArt_Scene_CandyTowerBlockTransaction.png | 主角團潛入黑市據點搜尋紫音下落，護士長形態中間人如品酒師展示情緒結晶（原文誤植紫音在場已移除） |
+| 104 | 下水道無聲重逢 | Silent Reunion in the Sewers | 晴香、紫音（隱約存在，半屍骸化野獸狀態） | Act III | Phase G4，114年3月，下水道【Fake Climax】 | ⭐⭐⭐⭐ | ConceptArt_Scene_SilentReunionSewers.png | 晴香找到已半屍骸化嘅紫音但選擇不打擾，留下糖果藥品默默離開；**非最終團圓**，Day14帝國廣場才正式相見（原文誤植payoff為「糖果工廠正面相遇」已修正） |
+| 105 | 公告夜（紫音作為處決目標） | Announcement Night: Akane as Execution Target | 紫音（已被捕拘束）、主角團 | Act III | Phase I，114年5月Day13夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png | **核心機制已修正**：黑奏公開廣播嘅係已被捕紫音嘅「Day14正午帝國廣場公開處決」公告（落戰書），非通緝仍在逃嘅「危險生物」（原文方向相反） |
+| 106 | 彩在心房中摸熊公仔 | Aya Touches the Teddy Bear in Her Heart Chamber | 彩（6歲真身，被囚） | Act III | 貫穿，心房（通風管道那夜重構空間） | ⭐⭐⭐ | ConceptArt_Scene_Aya_TeddyBear_HeartChamber.png | 6歲彩（原文誤植7歲已修正）緊抱螢遺物熊公仔（違反「永遠潔淨」規則的老舊描述已修正），安靜等待；心房空間已修正為「通風管道那夜」重構定義 |
+| 107 | 蜜月困境——K期靈魂監獄 | Honeymoon Trap: Phase K Soul Prison | 晴香 | Act IV（暫定草稿，**非Act III**——2026-07-05已移出Act III scope） | Phase K1，時長`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png | 溫暖日常循環囚禁，窗玻璃反射洩漏真相；Act歸屬已修正，CDL-053誤引已移除，「20年」時長待Act IV Outline確認 |
+| 108 | 屍骸覺醒——L4 | Corpse Awakening: L4 Phase | 屍骸群（人偶型/廢鐵型） | Act IV（暫定草稿，**非Act III**——同107同屬已移出範圍嘅Phase K/L） | Phase L4，觸發條件未確認 | ⭐⭐⭐ | ConceptArt_Scene_CorpseAwakening_L4.png | 城市屍骸集體從沉睡復甦，眼睛逐一亮起人類的光；Act歸屬已修正 |
+| 109 | 美夜子終於哭出來 | Miyako Finally Cries | 美夜子、晴香 | Act IV | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_FinallyCries.png | **核心情緒已修正**：美夜子一生第一次「痛哭失聲」（依miyako.md§第四幕；原文誤寫「無聲眼淚」方向相反已修正）；檔名西里爾字元「С」已修正為標準「C」 |
+| 110 | 美夜子笨拙演奏（全片最後一幕） | Miyako's Clumsy Playing: The Final Shot | 美夜子 | Act IV Phase L | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_ClumzyFinalShot.png | CDL-326「尋回自己之後」，美夜子學彈晴香未完成曲目，全片最後一幕（已補CDL-326引用） |
+| 111 | 維多利亞之淚：人造太陽剖面圖 | Victoria's Tear: Artificial Sun Cross-Section | 無角色 | WORLD_BUILDING | 維多利亞之淚 | ⭐⭐⭐⭐ | ConceptArt_Scene_VictoriasTear_CrossSection.png | 三層剖面：發光蜂巢外殼、情緒廣播管道、深紅汲取核心；日夜區光線差異根本解釋（核對後準確） |
+| 112 | 集體潛意識空間：後巷過渡狀態 | Collective Unconscious: Back Alley Transition | 無角色（魔法少女輪廓） | WORLD_BUILDING | 集體潛意識／夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_BackAlleyTransition.png | 唐樓後巷磚牆漸變宇宙星空，倒影揭示異空間，集體潛意識視覺語言基礎（核對後準確） |
+| 113 | 心防內化裝置：製造過程 | Trauma Cage: Manufacturing Process | 無角色（The Unlinked，通用） | WORLD_BUILDING | 帝國醫療設施 | ⭐⭐⭐ | ConceptArt_Scene_TraumaCage_Manufacturing.png | 三格：心匣撬開→鳥籠裝置植入→表情歸零；已修正為The Unlinked（解離兵器）通用機制，非凜（原文誤植已移除） |
+| 114 | 情緒管理局：局內辦公空間 | Emotion Management Bureau: Interior | 凜 | WORLD_BUILDING | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_EMB_OfficeInterior.png | 純白啞光制服，有機流體情緒波形牆，凜與同事完全一致（核對後準確） |
+| 115 | 靈樹：平時狀態 | Spirit Tree: Normal State | 無角色 | WORLD_BUILDING | 靈樹（夜區谷地） | ⭐⭐⭐ | ConceptArt_Scene_SpiritTree_NormalState.png | 老樹平常無異狀，普通感是後段伏筆（核對後準確） |
+| 116 | 帝國廣場：常態 | Empire Plaza: Normal Day | 無角色（市民群） | WORLD_BUILDING | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_NormalDay.png | 非戰鬥展示秩序空間，麻木市民；配色已修正為深淵黑+皇家金+紫水晶（原文誤用白色大理石+帝國藍，違反06_visual_bible帝國皇室美學已修正） |
+| 117 | Emo-Visor Gen 3：日區市民集體成癮 | Emo-Visor Gen 3: Day District Citizens' Collective Addiction | 無角色（市民群） | WORLD_BUILDING | 日區咖啡廳 | ⭐⭐⭐ | ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png | 已補回安普膠囊消耗品+30分鐘崩潰循環核心機制（原文遺漏成癮主題最重要視覺錨點已修正） |
+| 118 | 屍骸化：心之器燃盡時刻 | Magical Corpse: The Moment the Soul Vessel Burns Out | 無角色（通用） | WORLD_BUILDING | 日區超市 | ⭐⭐⭐⭐ | ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png | 核心機制已修正：靈魂被困以1%控制力掙扎，非「靈魂已離體、空殼繼續動」（CDL-271已取代舊描述，原文方向錯誤已修正） |
+| 119 | 彩的心房：通風管道永恆空間 | Aya's Heart Chamber: Eternal Ventilation Space | 彩（6歲真身，被囚） | WORLD_BUILDING | 彩的心房（通風管道那夜重構） | ⭐⭐⭐ | ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png | Reference Image已修正為[NO_REF]（原文誤用便服/偽裝形態reference）；基調已修正為黑暗創傷重演空間，非純美麗夢幻空間 |
+| 120 | 珍寶珠入隊——朱音加入主角團 | The Lollipop Recruitment | 朱音、晴香 | ACT_I | 夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akane_LollipopRecruitment.png | 已補全CDL-052完整台詞；地點由「街角」修正為「後巷」；payoff鏈補正至SPEC#104下水道無聲重逢 |
+| 121 | 操入隊——晴香以身體擋攻擊 | The Skirt Question | 操、晴香 | ACT_I | 屍骸戰場（戰鬥收尾瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_SkirtQuestion.png | 已補全CDL-050完整台詞；已修正「屍骸已清除」時序誤植（實際發生於戰鬥收尾而非戰後平靜殘局） |
+| 122 | 軟接觸——美夜子廢棄地鐵站遞水 | Worthless Vigil: The Underground Station | — | `[DELETE_CANDIDATE]` | — | — | — | **已停用**：與SPEC#92為同一beat（CDL-191）但形態/物件/對白互相矛盾，已標記DELETE_CANDIDATE，內容詳見詳細段落說明 |
+| 123 | 死前願望清單 | 113年7-10月 Act II Phase D 地下化 | 05_story_outline_canon.md §生死態度章⑤；Q-DECIDE-1 | 地下避難喘息窗口 → 美夜子/紫音/操/凜各自說出死前願望（自然死/食頓飽/完美線稿/再見某人一次）→ 各人弧光完成後回看對比 |
+| 124 | 美夜子鏡像反映 | 全程恆常背景規則（非Act II後才觸發） | miyako.md §鏡像反映規格；CDL-282 | 美夜子走過反光面 → 鏡中恆常映照Alpha線11年冰封死亡真身（紫黑凍傷/死眸）→ 貫穿全程嘅日常詛咒視覺化 |
+| 125 | 無名男孩速寫簿 | 114年1月 Act II Phase E（E-13） | ayakomoji_misao.md §無名男孩與速寫簿；CDL-143/144/145/147 | 男孩因操未出手介入而死（E-13）→ 操於遺物速寫簿見自己「不完美卻被珍視」的日常樣貌 → 操「永遠之罪」誕生，Day13鋼鐵獨舞三層動機之一 |
+| 126 | 操在集體潛意識尋見母親碎片 | 114年5月 Act III E-III-I1（Day13鋼鐵獨舞前夕） | ayakomoji_misao.md §集體潛意識母親靈魂碎片重逢；CDL-297/299/300 | 操半屍骸化邊界進入集體潛意識 → 見紗夜靈魂碎片聚攏近似人形，確認從未被母親遺棄 → 鋼鐵獨舞昇華為主體性聲明（2026-07-17跨批次覆核：與圖137確認重複，圖137已標記DELETE_CANDIDATE並保留本場景為唯一版本；圖164經核實非重複，另屬獨立beat） |
+| 127 | 膠布哲學第四層——覺醒後撕膠布 | `[INFERRED]` Act III E-III-L3（Phase L歸屬待Act IV Outline確認） | ACT_III_OUTLINE.md E-III-L3；CDL-269 | 膠布哲學前三層揭露後 → 晴香主動撕開層層膠布直視舊傷「好痛，但係依份痛係我自己既」→ 從遮蓋者成為直視者，弧光終點 |
+| 128 | 打怪無效 | 113年5月末-6月中旬 Act II Phase B-C過渡，E-07b-E-08 | CDL-199（唯一經核實相關） | 紫音放逐後主角團例行戰鬥 → 個別勝利無法改變市民背景痛苦 → 晴香偽王道傲慢高潮，E-08高壓期心理根基 |
+| 129 | 天使變公敵 | 113年7月中旬 Act II Phase C，E-09（與E-09a平行發生） | CDL-259（唯一經核實相關，取代已廢棄CDL-227） | E-08高壓+夕半屍骸化情緒飢渴 → 直播中夕接管晴香身體，撕毀光幕濾鏡，吸食圍觀市民情緒 → 社會性死亡起爆；媒體倒戈 |
 | 140 | 既視感追認 | Dejavu Recognition | 美夜子（Unit 01 貓形態）、朔 | Act II Phase D（113年9-10月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_DejavuRecognition.png | 朔從行為習慣認出美夜子，美夜子完全沒有認出朔；「物理極近，記憶極遠」的宿命重逢 |
 | 141 | 黑奏真身揭露 | Kurokane's True Form Revealed | 黑奏、主角團 | Act III Phase J決戰（114年5月） | ⭐⭐⭐⭐ | ConceptArt_Scene_Kurokane_TrueFormRevealed.png | 皇袍滑落、面具碎裂，148cm幼女雙腳懸空真身暴露；不是展示，是控制崩潰的被迫暴露 |
 | 142 | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akiho_LaboratoryConfession.png | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |
@@ -230,83 +230,128 @@
 
 | SPEC# | 場景名 | 帝國歷/Act Phase | CDL/事件 | 前置 → 本場景 → Payoff |
 |-------|--------|-----------------|---------|----------------------|
-| 1 | 鋼鐵獨舞 | 114年5月 Act III Phase I Day 13 | CDL-218；CDL-233 Stage 2b；CF-EVT-0045 | SPEC#5鏡像處刑室後，操接受真實 → 決戰前一個人最後一支舞 → Day 13化為人偶牆犧牲 |
-| 2 | 整合場景 | 114年5月 Act III Phase J | CDL-249；夕整合 | 夕一直以陰影存在（SPEC#30）→ 晴香強行與夕碰撞整合 → SPEC#3三武器揭露 |
-| 3 | 三武器揭露 | 114年5月 Act III Phase J | CDL-076；CDL-185 | SPEC#2整合完成 → 黑奏以彩身軀展示三種力量 → SPEC#8彩奪回身體 |
-| 4 | 廢棄糖果工廠 | 114年3月 Act III Phase G4 | CDL-213/214；E-07b後 | 紫音被放逐後獨自生存多月 → 晴香找到紫音的腐爛王國 → SPEC#10糖果山犧牲 |
-| 5 | 鏡像處刑室 | 114年4月 Act III Phase H | CDL-233 Stage 2a；CDL-282（鏡像法則） | SPEC#26被遺棄（紗夜犧牲）→ 操被傀儡絲纏繞的人偶化身體在無窮鏡面中映現，每塊鏡子映照不同Stage的她——流血牙齦、縫合絲線、空洞靈魂——直到她放棄完美砸碎最後一面鏡子 → SPEC#31回歸真實 |
+| 1 | 鋼鐵獨舞 | 114年5月 Act III Phase I Day 13，學校瓦礫 | CDL-218；CDL-231/232/233 Stage 3 | CDL-298被迫報串（罪疚）→ 黑奏撬開口腔揭露縫牙全貌，紗夜遺言回流 → Day 13化為人偶牆犧牲 |
+| 2 | 整合場景 | Act IV（暫定，待Act IV Outline） | `yu.md`三級整合進程；ACT_III_OUTLINE.md附錄（未批核） | SPEC#3三重道德處刑 → 夕完全接管執行改變現實(J7) → SPEC#8彩奪回身體(J8) → 晴香主動醒返，與夕最終整合 |
+| 3 | 三重道德處刑 | 114年5月 Act III Phase J | CDL-266；CDL-264；CDL-244；CDL-259 | 三重回憶處刑：社會剝奪(CDL-244)→身份背叛(CDL-259)→創世原罪(P-C11，全新揭露) → SPEC#8彩奪回身體 |
+| 4 | 廢棄糖果工廠 | 113年5-6月 Act II（E-07b/E-12） | CDL-236；CDL-237~242 | 小光之死(E-07a)+三位一體辯論(E-07b) → 紫音放逐自立屍骸首領 → 屍骸女王討伐(E-12)；日後Day14帝國廣場糖果山犧牲(圖10) |
+| 5 | 操的鏡前獨白 | Act II E-09a（113年） | CDL-233 Stage 2a；CDL-231/232 | 父親啟動最後勒索，紗夜開槍犧牲掩護 → 操鏡前用傀儡絲縫牙自我修補，紗夜遺言被創傷性耳鳴封印 → Stage 2b摔碎時刻；Stage 3鋼鐵獨舞(圖1) |
 | 6 | 月下崩潰 | 114年4月 Act III Phase H1.5 | CDL-274；CDL-282；CF-TIME-0274 | 得知凜Unit 00真相（CDL-215）→ 美夜子自我確認儀式失控 → CDL-274月下相認 |
-| 7 | Fallen Angel街道 | 113年4-5月 Act II Phase A | E-05 | Act I建立晴香×彩友誼 → 第一次看到淪為傀儡的彩 → SPEC#8彩奪回身體的情感前置 |
+| 7 | Fallen Angel街道 | 113年4-5月 Act II Phase A | P-C06（CDL-207）；E-05[NC] | Act I建立晴香×彩友誼 → 彩短暫「卡頓」空白瞬間（非完整眼神空洞揭露，beat歸屬待確認） → SPEC#8彩奪回身體的情感前置 |
 | 8 | 彩奪回身體 | 114年5月 Act III Phase J | CDL-076；CDL-185 | SPEC#3三武器（黑奏全力）→ 彩突破掌控奪回身軀 → SPEC#52靈魂解放之光 |
 | 9 | 變身場景 | 113年3月 Act I E-01/E-02 | CDL-164〜168；E-01；E-02 | Beat 0c欺凌事件→屍骸攻入 → 晴香第一次變身 → SPEC#21光幕破碎的反差前置 |
-| 10 | 糖果山犧牲 | 114年5月 Act III Phase I Day 14 | E-12；CF-EVT-0046 | SPEC#4廢棄糖果工廠，主角團找到紫音 → 紫音以小光和弟弟雙重代價過載 → Act IV糖晶紀念碑 |
-| 11 | 玻璃庭院茶會 | 113年5-6月 Act II Phase B | CDL-079；E-08周圍 | Act I晴香×「彩」友誼加深 → 黑奏皇袍在彩服下精密偽裝茶會 → Act III揭露時「她一直這樣看我」 |
-| 12 | 集體潛意識之城 | 114年 Act II-III | CDL-066（榮格個體化）；CDL-208（真情緒承接）；E-11 | E-11潛意識風暴觸發 → 後巷唐樓扭曲為牆面湮滅宇宙星空，黑色淤泥象徵被壓抑共同創傷，無數扭曲人臉浮現哭喊 → SPEC#20紙皮騎士防禦 |
-| 13 | 靜止搖籃終局 | 114年5-6月 Act III-IV交界 Phase K | CDL-001/002（Alpha/Beta揭示）；CDL-003（夕終局）；[機制確認待作者] | SPEC#19帝國廣場崩塌；SPEC#50最終抉擇 → 晴香在靜止搖籃前放下英雄身份，粒子化成新世界無限溫暖循環的錨點，所有生命在她無意識搖籃曲中永恆迴圈 → Act IV Phase L（20年後）|
+| 10 | 糖果山犧牲 | 114年5月 Act III Phase I Day 14，帝國廣場（非嘆息之橋——見DIGEST_LOCATIONS §13） | CDL-218（E-III-I3）；CF-EVT-0046 | 公告夜清剿令 → 主角團冒死進入帝國廣場刑場救援，紫音以小光和弟弟雙重代價過載 → Act IV糖晶紀念碑 |
+| 11 | 玻璃庭院茶會 | 114年3月 Act II 幕末（Beat Act II-XX） | CDL-202；CDL-246 | E-15晴香×夕和解+剪髮 → 彩邀主角團赴茶會，黑奏聲線詛咒型切斷「虛假的黎明」 → E-16 EMB鐵桶包圍，Cut to Black入Act III |
+| 12 | 集體潛意識之城 | 113年9-10月 Act II Phase D | CDL-188；CDL-209；CDL-252；E-11 | E-10b紙皮騎士單次擋刀鋪墊（SPEC#20）→ 帝國衛生行動觸發最後一根稻草，愛莉盾牌全面碎裂 → 潛意識風暴爆發，後巷唐樓扭曲，紙皮騎士持續守護隊伍 |
+| 13 | 三位一體永恆守護者終局 `[跨批次覆核修正]` | 114年5-6月 Act III-IV交界 Phase K | CDL-001/002（Alpha/Beta揭示）；`haruka.md`§第四幕（CDL-326，取代原引用嘅CDL-003——該CDL係夕嘅Act IV終局定義） | SPEC#19帝國廣場崩塌；SPEC#50融合抉擇 → 晴香保留清醒意識同記憶，主動同集體潛意識源頭融合，成為「三位一體永恆守護者」，永久守護仍存在嘅魔法屍骸（非粒子化消散） → Act IV Phase L（20年後，美夜子記憶迷霧期後尋回自己並回歸凡人）|
 | 14 | 凜的雙面形態 | 113年4-5月 Act II Phase A | CDL-215；E-05 | 108年凜犧牲→黑奏重組→E-05美夜子認出 → 孔雀vs烏鴉雙面日常 → Act III H2 Unit 00揭露 |
 | 15 | 朔的日夜對比 | 113-114年 Act II-III | saku.md；CDL-079（三大需求）；CDL-191（困獸慈悲） | 朔白色特務（日區）與綠松石獵人（夜區）雙重身份在交界線達臨界點，日夜兩身份在同軀殼撕裂融合 → 朔選擇完全投身晴香希望，日夜雙身份合體 → Act III朔正式加入主角團 |
-| 16 | 操的形式主義廢墟 | 113-114年 Act II-III | CDL-233 Stage 1-2 | SPEC#38獨舞冥想（健康態）→ 屍骸化後同一個廢棄工廠 → SPEC#1鋼鐵獨舞（最終態）|
+| 16 | 操的形式主義廢墟 | Act II Phase D（113年地下化六個月間反覆） | CDL-233 Stage 2b | SPEC#38獨舞冥想（健康態）→ Phase D 六個月地下化期間反覆麻木化獨舞（Stage 2b，過程性非終局）→ **非**同一場景，Act III Day13 Stage 3 終局見 SPEC#1（學校瓦礫人偶牆，非廢棄工廠）|
 | 17 | 膠布哲學三層 | 113-114年 Act I-III | CDL-088；膠布Layer 1/2/3 | SPEC#65破弦自傷→膠布覆蓋傷口（Layer 1）→ 三幀並置呈現進化 → Act III最終剝掉所有膠布 |
 | 18 | 首次情緒連結危機 | 113年5-6月 Act II Phase B | E-08 | E-08恐怖家家酒高壓 → 四人情緒連結失控，創傷記憶亂竄 → 各人崩潰的情感前置 |
-| 19 | 帝國廣場決戰崩塌 | 114年5月 Act III Phase J | E-15系列 | SPEC#2整合＋SPEC#3揭露 → 勝利瞬間崩塌，偽勝利幻象碎裂 → SPEC#13靜止搖籃 |
-| 20 | 紙皮騎士防禦 | 114年5月 Act III Phase J | CDL-256；`aeri.md §紙皮騎士` | 愛莉Act I起作為石像→潛意識空間以紙皮騎士活動 → 脆弱但不倒的守護 → SPEC#51最後一擊 |
+| 19 | 帝國廣場決戰崩塌 | 114年5月 Act III Phase J（Day14） | CDL-217/218；CDL-266（見SPEC#3） | SPEC#1操死亡(Day13)+SPEC#10紫音死亡(Day14) → SPEC#3三重道德處刑，廣場崩塌 → SPEC#8彩奪回身體 → （Act IV，暫定）SPEC#2整合 → SPEC#13靜止搖籃 |
+| 20 | 紙皮騎士防禦 | 113年9月 Act II Phase D（E-11前數日，Sub-beat E-10b） | CDL-256；`aeri.md §紙皮騎士` | 愛莉Act I起作為石像→潛意識空間以紙皮騎士活動 → 單次現實裂縫擋刀，盔甲崩碎大半+石像同步裂痕 → SPEC#12 E-11全面風暴 → SPEC#51最後一擊 |
 | 21 | 光幕濾鏡破碎 | 113年7月 Act II Phase C | E-09；CDL-180 | E-08高壓積累→晴香精神邊界到臨界 → 直播中完美形象公開崩潰 → CDL-191美夜子無價值留守 |
 | 22 | 小光死亡與屍骸化 | 113年5月 Act II Phase B | E-07a | 紫音與小光短暫溫柔期 → 小光在紫音面前被屍骸化 → 紫音全面崩潰（E-07b被放逐）|
-| 23 | 恐怖家家酒 | 113年4月 Act I | CDL-082；E-03 | Beat 0c彩（黑奏）接近晴香 → 黑奏精密測試晴香情緒邊界 → Act III揭露時「她一直在利用我的善意」 |
-| 24 | 凜的人性消磨 | 113年4-5月 Act II Phase A | CDL-215；E-05 | 108年犧牲→黑奏重組→E-05美夜子認出 → 凜作為制度執行機器，頸上紅線痕跡 → Act III H2拒絕治癒 |
-| 25 | 朱音的背叛與真相 | 113年5-6月 Act II Phase B | E-07b | 弟弟死亡（前史）；小光死亡（SPEC#22）→ 後巷注射毒品，冷漠嘲笑希望 → SPEC#10犧牲根源 |
-| 26 | 操被遺棄 | 113年 Act II Phase C | CDL-233 Stage 1；CF-TIME-0068 | 帝國施壓操家族 → 父親出賣女兒，紗夜犧牲掩護 → SPEC#5鏡像處刑室；CDL-298報串罪疚 |
+| 23 | 恐怖家家酒 | 113年5-6月 Act II Phase B | CDL-188；E-08 | Beat 0c彩（黑奏）接近晴香（Act I前置）→ 恐怖家家酒14天校園高壓，黑奏精密測試晴香情緒邊界 → Act III揭露時「她一直在利用我的善意」 |
+| 24 | 凜的人性消磨 | 108年重組（背景狀態，貫穿Act I全程）| CDL-215 | 108年犧牲→黑奏重組→Act I全程以此形態存在 → 凜作為制度執行機器，頸上紅線痕跡 → Act II E-11美夜子近距離身體反應（無自覺）→ Act III H2拒絕治癒 |
+| 25 | 朱音的背叛與真相 | 113年5月 Act II Phase B | E-07a | 弟弟死亡（前史）；小光死亡（SPEC#22，同一beat）→ 後巷注射毒品，冷漠嘲笑希望 → SPEC#10犧牲根源 |
+| 26 | 操被遺棄 | 113年7-8月 Act II Phase C，E-09a | CDL-231/232/233/234；CF-TIME-0067/0068 | 帝國施壓操家族 → 父親出賣女兒，紗夜犧牲掩護 → SPEC#5操的鏡前獨白；SPEC#1鋼鐵獨舞（Act III耳鳴解封）；CDL-298報串罪疚（另一獨立Act III事件） |
 | 27 | 美夜子三段式覺醒 | 114年4月 Act III Phase H1.5-H2 | CDL-274；避難所詛咒 | SPEC#6月下崩潰最後一刻 → 晴香說出「姊姊」→擁抱→貓殼碎落 → 美夜子人形覺醒守護至Act IV |
-| 28 | 緋潮反噬 | 114年4月末 Act III Phase H-I | CDL-001/002（Alpha/Beta機制）；TEMP_FULL_OUTLINE | 晴香多次改變現實因果代價爆發 → 時間線膜破裂，Alpha與Beta線現實物理衝撞形成緋紅色撕裂，兩個歷史同時存在矛盾流血 → SPEC#50最終抉擇 |
-| 29 | 花子的溫柔牢籠 | Act I開場 + Act IV | CDL-126；CDL-123；Beat 0 | 花子已死（102年），秋穗模仿花子語調 → 看似溫馨家庭的虛假日常 → Act II秋穗身份揭露反差 |
-| 30 | 違和感與對峙 | 113年3月 Act I Beat 0 | CDL-128（幽靈重量Stage 1）| Beat 0家中日常 → 鏡中倒影慢0.3秒（夕的初現）→ SPEC#2整合場景的長線伏筆 |
-| 31 | 操回歸人類身軀 | 114年4月 Act III Phase H | CDL-233 Stage 2a轉折 | SPEC#5砸碎鏡子那刻 → 選擇接受殘缺真實身軀 → SPEC#1鋼鐵獨舞（接受後的最後舞蹈）|
-| 32 | 美夜子的貓殼復原 | 113-114年 Act II | CDL-282（鏡像法則）；CDL-061（Act II記憶恢復） | 避難所詛咒觸發後日常 → 美夜子在鏡前看到貓殼透視腐爛，本應完整獸化形態暴露腐肉破裂關節，同時被壓抑記憶碎片閃現：「我不應該是這樣的」 → SPEC#6月下崩潰 |
+| 28 | 緋潮反噬 | Act IV（暫定草稿，待Act IV Outline正式化）| CDL-001/002（Alpha/Beta機制）；ACT_III_OUTLINE附錄 | SPEC#8彩奪回身體（Act III J8，獨立已confirm事件）→ SPEC#2晴香夕最終整合 → 夕嘗試撥回Beta線 → 時間線膜破裂，緋紅色撕裂 → SPEC#50最終抉擇 |
+| 29 | 花子的溫柔牢籠 | Act I開場（CDL-126 confirmed）＋ Act IV「永遠循環」意象（`[INFERRED]`草稿） | CDL-126；CDL-036 | 花子已死，秋穗聲音模仿花子語調（僅聞其聲，Act I Beat 0）→ Act II秋穗身份揭露反差 → 「永遠循環早餐」意象部分未有直接canon支持，見內文NEEDS_FACT說明 |
+| 30 | 違和感與對峙 | 113年3月 Act I Beat 0 | CDL-128（幽靈重量Stage 1）；CDL-072/077/094（夕噪訊視覺型） | Beat 0家中日常 → 鏡中倒影慢0.3秒，模糊小孩身影初現（夕的初現，非戰士形態）→ SPEC#2整合場景的長線伏筆 |
+| 31 | 操回歸人類身軀 | **[修正]** 113年7-8月 Act II Phase C，E-09a後插曲（M-S6a，非Act III） | `ayakomoji_misao.md` §無心完美人偶；CDL-233 Stage 2a同期 | SPEC#5操的鏡前獨白（同期心理狀態）→ 砸碎鏡子那刻，選擇接受殘缺真實身軀 → SPEC#1鋼鐵獨舞（Day13終局，Act III，非同一事件）|
+| 32 | 美夜子的貓殼復原 | **[修正]** 114年4月 Act III Phase H（E-III-H1.5之後，I3完全碎殼之前；具體beat`[NEEDS_FACT]`） | CDL-274（兩步相認，非CDL-282鏡像法則）；CDL-271（Unit01靈魂困禁機制） | SPEC#6月下崩潰（H1.5，得知真相起點）→ 美夜子在鏡前看到貓殼透視腐爛，已知自己是晴香親姊姊卻選擇沉默 → SPEC#100-01介錯之刃/I3貓殼完全碎裂 |
 | 33 | 晴香的城市獨行 | 113年3月 Act I Beat 0 | CDL-131/171/180 | Beat 0家中出發 → 日區街道廣告牌，隔著玻璃的疏離 → SPEC#21光幕破碎（同一城市，完全相反）|
-| 34 | 美夜子與小光的對話 | 113年3-4月 Act I | miyako.md；CDL-040（非功利行為）；CDL-060（靈魂本能殘留） | Act I初期輕鬆段落 → 貓形態美夜子與小光在溫暖室內自然互動（舔手、餵飼料、靠近），沒有戰術只有靈魂本能親近，但隨後冷淡否認意義 → SPEC#22小光死亡的情感反差 |
-| 35 | 凜的情報蒐集現場 | 113年 Act I-II | CDL-215；重組後公務員 | SPEC#24人性消磨 → 以烏鴉形態監視主角團（她不知道自己在監視前「家人」）→ Act III Phase G追捕揭露 |
-| 36 | 朔與黑市網絡 | 113年9月-114年1月 Act II Phase D-E | saku.md；CDL-025（朔出現設定）；CDL-191（困獸慈悲） | 朔雙重身份背景 → 在廢棄地下道與黑市線人交易，用日區身份掩護故事換物資情報，直到最後交易看清對方眼裡人性才開始動搖 → Act III朔正式加入；困獸的慈悲（候選K）|
-| 37 | 彩的日常表演 | 113年3-4月 Act I | CDL-079；CDL-129 | 黑奏偽裝「彩」轉入晴香學校 → 完美轉校生表演，熊公仔確認儀式 → Act III揭露時「這一切都是表演」|
-| 38 | 操的獨舞冥想 | Act I-II操屍骸化前 | CDL-233 Stage 1前 | Alpha線偶像夢→Beta線武器化 → 空曠舞蹈室獨舞，無痛感的自我麻醉 → SPEC#1鋼鐵獨舞（最終形態）|
-| 39 | 朱音的糖果成癮 | 113年初 Act I-II | akane.md；CDL-051（精神毒品） | 弟弟誤食情緒結晶死亡（前史）→ 糖果堆滿房間的逃避日常，成癮與罪疚並存 → SPEC#4廢棄糖果工廠（成癮升級）|
-| 40 | 愛莉的童謠救贖 | 114年5月 Act III | CDL-256；`aeri.md` | 愛莉從Act I以石像存在 → 以魔法少女形象第二次改變現實 → SPEC#20紙皮騎士防禦；SPEC#51最後一擊 |
-| 41 | 秋穗的藥物實驗室 | 113年 Act II | CDL-110；CDL-114 | E-01/E-02晴香首次變身 → CGM血糖手錶誕生（實為帝國監控後門）→ CDL-164帝國監控；Act III秋穗罪疚 |
-| 42 | 花子的溫暖廚房 | 113年3月 Act I Beat 0 | CDL-126；CDL-123；CDL-128 | 花子已死，秋穗模仿語調維持假家庭 → 晨間廚房金色陽光溫暖幻象 → Act IV K期靈魂監獄（同一個廚房，20年）|
-| 43 | 朱音的糖果王國展覽 | 114年3月 Act III Phase G4 | CDL-213/214 | SPEC#4廢棄糖果工廠（發現時）→ 糖果王座全景，腐爛跡象 → SPEC#10糖果山犧牲 |
-| 44 | 晴香與影子的雙舞 | 114年5月 Act III Phase J | CDL-249；夕 | SPEC#2整合場景前後 → 晴香×夕詭異雙人舞，動作同步反向 → 整合完成的過程圖 |
-| 45 | 黑奏的帝國寶座 | Act III | CDL-076（黑奏誕生原因）；aya.md完整前史 | 黑奏幼童身軀坐紫黑巨大王座（高度遠超頭頂），每根帝國權力觸角都為螢構築無限牢籠 → 她用國家規模力量積累足夠情緒能量試圖翻轉時間救螢 → 三武器揭露（SPEC#3）的形態前置 |
-| 46 | 凜的孔雀之翼 | 113年 Act II-III | CDL-215；`rin.md §孔雀` | 凜重組後被分配孔雀形態 → 金藍色孔雀翼展翔日區 → Act III H2揭露凜=Unit 00的衝擊 |
-| 47 | 操的摔碎時刻 | 114年4-5月 Act III Phase H-I | CDL-233 Stage 2b | SPEC#31回歸真實後 → 傀儡絲在某個瞬間全數斷裂，操崩潰跌落 → SPEC#1鋼鐵獨舞前的黑暗 |
-| 48 | 集體潛意識的淤泥深海 | 114年 Act III | E-11 | 集體潛意識風暴啟動 → 無底深海，無數扭曲臉孔 → SPEC#20紙皮騎士防禦；SPEC#2整合 |
-| 49 | 帝國廣場的市民凝滯 | 114年5月 Act III Phase J | E-15系列 | SPEC#19決戰 → 數百市民表情定格於恐懼 → 「偽勝利」環境呈現 |
-| 50 | 晴香的最終抉擇瞬間 | 114年5-6月 Act IV分歧點 | CDL-003（夕終局）；CDL-069（夕整合）；ACT_IV大綱 | SPEC#28緋潮反噬後 → 晴香放下英雄身份，決定消融自己成無限搖籃讓所有痛苦在永恆溫暖中循環而非解決 → SPEC#13靜止搖籃（選擇後）|
-| 51 | 紙皮騎士的最後一擊 | 114年5月 Act III-IV | CDL-256 | SPEC#20紙皮騎士防禦 → 愛莉以紙裝備對抗不可抗力的最後站立 → SPEC#13晴香靜止搖籃的條件 |
-| 52 | 彩的靈魂解放之光 | 134年7月 Act IV Phase L | CDL-076 | SPEC#8彩奪回身體 → 彩以靈魂燃燒黑奏殘影，化為金色星辰 → Act IV新世界（螢在其中留白）|
-| 53 | 朔的雙刃生存 | 113-114年 Act III-IV | saku.md；CDL-025 | 朔雙重身份全片積累 → 日夜交界，兩個身份合體自我整合 → Act IV朔的終局 |
-| 54 | 靜止搖籃的粒子化進程 | 114年5-6月 Act IV | CDL-003；[機制視覺細節待補] | SPEC#13靜止搖籃（決定瞬間）→ 晴香逐漸粒子化成新世界基礎的過程圖 → SPEC#56新世界搖籃曲 |
-| 55 | 美夜子的靈魂雙線 | 114年 Act III-IV | miyako.md；CDL-274（月下相認） | 美夜子Act III覺醒 → 靈魂分裂為人類線×貓殼線最終交織 → SPEC#FF哭泣（候選）|
-| 56 | 新世界的搖籃曲 | 134年7月 Act IV Phase L | `05_story_outline_canon.md §Phase L` | 所有場景的積累 → 晴香化身新世界規則，角色各自繼續 → （故事結束）|
-| 57 | 黑暗沖涼習慣 | 113-114年 日常 | miyako.md §私密習慣；CDL-282 | 避難所詛咒觸發後日常 → 完全黑暗淋浴，觸覺確認身體存在 → SPEC#6月下崩潰（「我還是人嗎」）|
-| 58 | 紅線強迫症 | 113年 重組後凜 日常 | `rin.md §感官剝奪`；`rin.md §痛覺信徒` | 靈魂冰封期（108年）→ 深紅細線強迫標記牆壁，痛覺作為存在確認 → 凜選擇Unit 00（最後一次以痛覺確認存在）|
-| 59 | 研磨凜的斷刃 | 113-114年 日常 | `miyako.md §凜之死PTSD`；CDL-215 | E-05美夜子認出凜 → 無人知曉地研磨凜的斷刃，無法割捨 → CDL-274月下相認後才能放下 |
-| 60 | 半首旋律停頓 | 113年 重組後凜 日常 | `rin.md §私密音樂連結` | 108年犧牲→靈魂記憶消失 → 無意識哼唱到同一音符戛然停下（美夜子的接續聲消失了）→ 候選F「凜摺星星」同機制 |
-| 61 | 強迫清洗儀式 | 113-114年 日常 | misao.md §強迫清洗；CDL-298（被迫報串） | SPEC#26被遺棄（父親出賣）→ 強迫清洗手洗去罪惡感，無法洗淨的日常具現 → SPEC#5鏡像處刑室（無法洗淨的根源）|
-| 62 | 透明物執著 | 113-114年 日常 | `haruka.md §習慣` | Act I開始 → 蒐集透明物，透過觀察他人 → 晴香「看不透自己」主題的日常具現 |
-| 63 | 睡前熱可可成癮 | 113-114年 日常 | CDL-123；CDL-128 | CDL-123設定 → 每晚精確熱可可，召喚虛假童年 → Act IV K期靈魂監獄（同樣的儀式，20年重複）|
-| 64 | 嚼冰塊危機 | 113-114年 日常 | `haruka.md §習慣` | 焦慮積累 → 嚼冰塊以痛確認存在 → SPEC#65破弦自傷（同機制的升級）|
-| 65 | 破弦自傷 | 113-114年 日常 | CDL-088（膠布Layer 1）| 無法以語言表達的痛 → 破弦割痕，再用膠布貼上 → SPEC#17膠布哲學三層 |
-| 66 | 摺紙星星 | 113年 重組後凜 日常 | CDL-215；`rin.md §記憶殘留` | 重組後身體記憶殘留 → 無意識摺紙星星，房間堆積數千顆 → 候選F「凜不自知摺星星（美夜子目擊）」的靜態版 |
-| 67 | 石像前的懺悔 | 113-114年 日常 | CDL-110；CDL-126；`akiho.md §罪疚` | 秋穗得知自己的CGM手錶是帝國後門 → 石像前每日傾訴 → 候選場景「秋穗懺悔愛莉聽到（雙層視角）」|
-| 68 | 儀器掃描愛莉遺物 | 113-114年 日常 | `akiho.md`；`aeri.md §石像` | 秋穗實驗室事故（98年）→ 每日反覆掃描愛莉遺物試圖重建 → Act III秋穗罪疚爆發 |
-| 69 | 熊公仔囤積 | 113年 Act I 日常 | CDL-129；CDL-076 | 黑奏偽裝「彩」時的出門確認儀式 → 房間被熊公仔填滿（螢遺物的代替品）→ Act III揭露時熊公仔的意義 |
-| 70 | 病態無痕修補 | 113-114年 日常 | CDL-233 Stage 1 | 操屍骸化早期 → 對破損物件病態執著修補 → SPEC#5鏡像處刑室（「完美外表」執念的根源）|
+| 34 | 美夜子與小光的對話`[INFERRED]` | 113年3-4月 Act I（互動本身canon未見直接記錄，僅時序脈絡有依據） | `ko_hikaru.md`；CDL-060（靈魂本能殘留，miyako.md）| Act I初期輕鬆段落 → 貓形態美夜子與小光在溫暖室內互動（此具體畫面待補證據）→ SPEC#22小光死亡（Act II Phase B，E-07a，113年5月，時序已confirm）的情感反差 |
+| 35 | 凜的情報蒐集現場 | **[修正]** Act I 全程（108年重組後背景狀態，非「以烏鴉形態監視」） | CDL-215（第一次轉變）；重組後情緒管理局公務員身份（見圖24已confirm修正） | SPEC#24人性消磨 → 以公務員制服身份執行職務（她不知道自己身邊有「家人」；具體任務內容`[NEEDS_FACT]`）→ Act III Phase G追捕揭露（見圖24修正） |
+| 36 | 朔與黑市網絡 | 113年9月-114年1月 Act II Phase D-E | `saku.md`；CDL-191（困獸慈悲）；**[移除]** CDL-025（該CDL指向已於圖15審計確認嘅錯誤「Act I校霸身份」設定，同本場景無關） | 朔雙重身份背景 → 在廢棄地下道與黑市線人交易，用日區身份掩護故事換物資情報，直到最後交易看清對方眼裡人性才開始動搖 → Act III朔正式加入；困獸的慈悲（候選K）|
+| 37 | 彩的日常表演 | 113年3-4月 Act I | CDL-079（黑奏潛伏三大物理需求）；CDL-129 | 黑奏偽裝「彩」轉入晴香學校 → 完美轉校生表演，熊公仔確認儀式 → Act III揭露時「這一切都是表演」|
+| 38 | 操的獨舞冥想`[INFERRED]` | Act I-II操屍骸化前（舞蹈習慣本身canon未支持，僅心理背景CDL-063/155有依據） | CDL-063（形式主義悲劇核心）；CDL-155（性別重置手術） | Alpha線偶像夢→Beta線武器化 → 空曠舞蹈室獨舞（舞蹈意象為延伸演繹）→ SPEC#1鋼鐵獨舞（Day13終局，非同一事件的漸進版本）|
+| 39 | 朱音的糖果成癮 | 113年初 Act I-II | `iwakura_akane.md`；CDL-229（小光之死+紫音Cascade） | 弟弟誤食情緒結晶死亡（前史）→ 糖果堆滿房間的逃避日常，成癮與罪疚並存 → SPEC#4廢棄糖果工廠（成癮升級，Act II 113年5-7月，見圖4已confirm修正）|
+| 40 | 愛莉的童謠救贖 | **[修正]** Act II Phase D，E-10b附近（113年9月；本場景戲劇規模是否同一事件`[NEEDS_FACT]`，非「114年5月Act III」） | CDL-256（E-10b，見圖20已confirm）；`aeri.md` §紙皮騎士守護 | 愛莉從Act I以石像存在 → 以紙皮騎士形態（非魔法少女服裝）具現化守護 → SPEC#20紙皮騎士防禦（同CDL，規模需核實是否重複）；SPEC#51最後一擊 |
+| 41 | 秋穗的藥物實驗室 | Act I（`[NEEDS_FACT]`具體時點，須早於CGM派發） | CDL-110；CDL-114 | 秋穗實驗室秘密研發 → CGM血糖手錶誕生（實為帝國監控後門）→ Act I派發（CDL-110）→ Act II末 E-11a身份揭露 |
+| 42 | 花子的溫暖廚房 | Act I，記憶碎片形式（`[INFERRED]`） | CDL-126（confirmed聲音層）；CDL-036（confirmed記憶碎片層） | 花子已死，Beta線晴香從未實際見過花子 → 透過夕感知到嘅零碎記憶片段（非持續現實）→ 同圖29「花子的溫柔牢籠」為同一虛構裝置嘅重複演繹，須合併處理 |
+| 43 | 朱音的糖果王國展覽 | Act II Phase B，113年5-6月 | CDL-229（E-07a小光屍骸化）；CDL-236（自立為王） | SPEC#4廢棄糖果工廠（同一時期同一地點，互補鏡頭）→ 糖果王座全景，腐爛跡象 → SPEC#10糖果山犧牲（Day14，不同地點） |
+| 44 | 晴香與影子的雙舞 | Act II 末，E-15（部分融合） | CDL-066（榮格個體化）；CDL-069/070（膠布哲學/放下膠布） | E-XX幕末初裂 → E-15鏡中對話，放下膠布、伸手貼向夕（非壓制對戰）→ Act IV完全整合 |
+| 45 | 黑奏的帝國寶座 | Act III | CDL-076（黑奏誕生原因）；aya.md §篡位（event-kurokana-usurp） | 黑奏幼童身軀坐紫黑巨大王座（高度遠超頭頂），每根帝國權力觸角都為螢構築無限牢籠 → 她用國家規模力量積累足夠情緒能量試圖翻轉時間救螢 → 三重道德處刑（SPEC#3）的形態前置 |
+| 46 | 凜的孔雀之翼 | `[NEEDS_FACT]`（R-MG1/R-MG2使用時機非嚴格幕別鎖定） | CDL-215；`rin.md §魔法少女形態一（孔雀/飛行員）` | 凜重組後其中一種魔法少女形態 → 孔雀綠孔雀翼，殘留Alpha線偶像明亮自信一面（非監視工具）→ 與R-MG2烏鴉/痛苦化身形態形成對比 |
+| 47 | 操的摔碎時刻 | Act II Phase C，E-09a，113年7-8月 | CDL-233 Stage 2a（非2b）；CDL-231/232 | 同SPEC#5/26/31為同一夜事件群（鏡像破碎之夜）→ 傀儡絲斷裂，操崩潰跌落（Stage 2a）→ 距Day13鋼鐵獨舞終局（Stage 3）尚有大半年Stage 2b過渡期，不可視為緊接 |
+| 48 | 集體潛意識的淤泥深海 | `[NEEDS_FACT]`（推斷Act III後段-Act IV，配合H-S6深潛能力） | `02_glossary.md` CF-T13三層結構 | 三層結構L1/L2/L3 → 本場景=L2/L3最深層（非E-11，E-11屬L1過渡狀態，見SPEC#12/#20）→ 靜止搖籃前置理解（`[NEEDS_FACT]`草稿） |
+| 49 | 帝國廣場的市民凝滯 | Act III Phase J（決戰終局） | `02_glossary.md` §term-resonance-hell；`99_decision_log.md` | SPEC#19決戰崩塌、SPEC#3三重道德處刑、SPEC#45黑奏帝國寶座同屬終局場景群 → 數百市民表情定格於恐懼 → 情緒結算儀式最終階段 |
+| 50 | 晴香的融合抉擇瞬間 `[跨批次覆核修正]` | Act IV（`[NEEDS_FACT]`具體視覺分鏡待Act IV Outline） | CDL-066（個體化完成）；`haruka.md`§第四幕（CDL-326） | SPEC#28緋潮反噬後 → 晴香清醒面對抉擇：主動融合成三位一體永恆守護者（非「沉睡消融」舊稿）→ SPEC#13三位一體永恆守護者終局（同一弧光嘅後續時刻）|
+| 51 | 紙皮騎士的最後一擊 | **[修正]** Act IV（`[NEEDS_FACT]`未批核Act IV草稿，源自ACT_III_OUTLINE.md移出附錄K/L期） | `[NEEDS_FACT]`（非CDL-256，該CDL屬E-10b單次擋刀，見SPEC#20/40）；`aeri.md`§緋雨 | SPEC#20紙皮騎士防禦（Act II Phase D，不同事件）→ 愛莉以紙裝備對抗不可抗力的最後站立（Act IV草稿）→ SPEC#13晴香靜止搖籃的條件（同屬未批核草稿，見SPEC#13/50） |
+| 52 | 彩的靈魂解放之光 | **[修正]** Act III Phase J，E-III-J8（緊接SPEC#8同一事件延續，非「134年7月Act IV」） | `aya.md`§覺醒與犧牲（非CDL-076，該CDL屬黑奏誕生原因，張冠李戴已移除）；§永恆輪迴 | SPEC#8彩奪回身體 → 彩靈魂燃燒填補天空裂痕，金光與緋潮交織、風暴平息 → `[INFERRED]`其後被集體潛意識捕獲投入永恆輪迴（回到通風管道那夜，非同一畫面）|
+| 53 | 朔的雙刃生存 | **[修正]** Act III（SA-S3融合形態，非「Act III-IV」籠統標記） | `saku.md`視覺演變表（**移除**CDL-025——已於圖15/36確認屬錯誤「Act I校霸身份」殘留引用，與本場景無關） | 朔雙重身份全片積累 → 日夜交界，兩個身份合體自我整合（Act III SA-S3） → Act IV朔的終局（SA-S4，放棄制服回歸夜區傳統服飾，另一獨立視覺，非同一形態延續） |
+| 54 | 靜止搖籃的粒子化進程 `[SUPERSEDED_CONCEPT]` | Act IV | `haruka.md`§第四幕（CDL-326，**非CDL-003**——該CDL係夕嘅Act IV終局定義，張冠李戴已移除） | `[重大發現]`「粒子化/自我消融」概念已被CDL-326正式取代——晴香保留意識記憶，主動融合成「三位一體永恆守護者」（世界情緒濾網），非失去自我嘅光點迴圈；此發現同時影響SPEC#13/#50（見內文說明，建議後續覆核） |
+| 55 | 美夜子的靈魂雙線`[INFERRED]` | **[修正]** Act IV | `miyako.md` CDL-271（1%意志/99%廢料機制；**非CDL-274**——該CDL係美夜子姊妹相認2步設計，同「靈魂雙線」意象無關，張冠李戴已移除） | 美夜子Act III覺醒 → 靈魂狀態意象（雙線交織裝置`[INFERRED]`，底層機制CDL-271有依據） → SPEC#109美夜子終於哭出來（同一弧線，confirmed Need達成時刻）|
+| 56 | 新世界的搖籃曲`[SUPERSEDED_CONCEPT]` | Act IV | `haruka.md`§第四幕 CDL-326（**取代原引用嘅CDL-248「靜止搖籃」舊稿**） | 所有場景的積累 → 晴香保留意識記憶成為三位一體永恆守護者，美夜子完成心願回歸凡人 → （故事結束，同SPEC#54同一概念修正） |
+| 57 | 黑暗沖涼習慣 | **[修正]** 113-114年 日常 | `miyako.md`§私密習慣 habit-dark-shower（**移除**CDL-282——該CDL係鏡像法則定義，同本習慣無關，張冠李戴） | 避難所詛咒觸發後日常 → 完全黑暗淋浴，觸覺確認身體存在 → SPEC#6月下崩潰（「我還是人嗎」）|
+| 58 | 紅線強迫症`[核心概念已修正]` | 113年 重組後凜 日常 | `rin.md` habit-red-line；§感官剝奪核心創傷 | `[修正]`「紅線」= 凜自己頸上嘅紅色縫合線疤痕（非牆上畫線）→ 靈魂冰封期（108年）後，用指甲反覆挑起頸上疤痕至滲血，痛覺作為存在確認 → 凜選擇Unit 00（最後一次以痛覺確認存在）|
+| 59 | 研磨凜的斷刃 | **[修正]** 108年凜犧牲後起，貫穿至Act III「凜的最終戰」前 日常 | `miyako.md` habit-blade-grinding；§介錯人的覺悟；`04_timeline_canon.md` event-rin-sacrifice / event-rin-final-battle（CDL-215關聯薄弱已弱化，主要依據改為時間線事件錨點） | event-rin-sacrifice（108年，凜為掩護美夜子犧牲）→ 無人知曉地研磨凜的斷刃，介錯人身份為死後自我承接嘅悼念儀式（非事前失職）→ event-rin-final-battle（Act III「遲來的介錯」，美夜子親手終結凜方能放下）|
+| 60 | 半首旋律停頓 | 113年 重組後凜 日常 | `rin.md` habit-half-melody；§私密音樂連結的遺失感 | 108年犧牲→感官剝奪期無法聽到任何聲音（含音樂）→ 重組後無意識哼唱到同一音符戛然停下（美夜子是唯一知道旋律如何接續嘅人）→ 候選F「凜摺星星」同機制（Reference Image已修正為日常/公務員形態，非MG2戰鬥形態） |
+| 61 | 強迫清洗儀式`[根源已修正]` | Act I-III 日常，Phase H疊加期尤烈 | `ayakomoji_misao.md` habit-compulsive-washing（CDL-155）；CDL-298（被迫報串，同期疊加語境） | 物理性別重置手術創傷（CDL-155）持續存在 → 強迫清洗全身洗去父親觸碰/性別認同混亂 → Phase H CDL-298罪疚疊加 → SPEC#5操的鏡前獨白/SPEC#70病態無痕修補（同源CDL-155創傷的兩種外化）|
+| 62 | 透明物執著 | 113-114年 日常 | `haruka.md §習慣 habit-transparency-obsession` | Act I開始 → 蒐集透明物，透過觀察他人 → 晴香「看不透自己」主題的日常具現 |
+| 63 | 睡前熱可可成癮`[CDL已修正]` | 113-114年 日常 | CDL-123（`ACT_I_BEAT_SHEET.md` BEAT 0d，非CDL-112） | CDL-123設定（E-01當晚新增）→ 每晚精確熱可可，召喚虛假童年 → Act IV K期靈魂監獄（同樣的儀式，20年重複）|
+| 64 | 嚼冰塊危機 | 113-114年 日常 | `haruka.md §習慣 habit-ice-chewing` | 焦慮積累 → 嚼冰塊以痛確認存在 → SPEC#65破弦自傷（同機制的升級）|
+| 65 | 破弦自傷`[部位已修正]` | 113-114年 日常（危機期限定） | `haruka.md §習慣 habit-broken-guitar` | 無法以語言表達的痛 → 反覆彈斷弦致指尖出血，再用膠布貼上（外觀「只是貼膠布的手」）→ SPEC#17膠布哲學三層（身體化版本）|
+| 66 | 摺紙星星`[速查表CDL已修正]` | 113年 重組後凜 日常 | CDL-154（作者確認2026-04-08，非CDL-215）；`rin.md §記憶殘留` | 重組後身體記憶殘留 → 無意識摺紙星星，房間堆積數千顆 → 候選F「凜不自知摺星星（美夜子目擊）」的靜態版 |
+| 67 | 石像前的懺悔`[CDL/視覺已修正]` | Act I起全程日常 | `akiho.md §石像前的懺悔`（無獨立CDL；非CDL-013/110/126） | 愛莉意外屍骸化（塔地底實驗室事故）→ 石像前每日傾訴（Act I起持續，非CGM後門揭露觸發）→ Act IV「愛莉原諒」的弧光終點 |
+| 68 | 儀器掃描愛莉遺物 | 113-114年 日常 | `akiho.md §關鍵習慣2`；`aeri.md §石像` | 秋穗實驗室事故（98年）→ 每日反覆掃描愛莉遺物試圖重建 → Act III秋穗罪疚爆發 |
+| 69 | 出門確認儀式`[核心概念已重寫]` | 113年 Act I 日常 | `aya.md §出門確認儀式`（habit-daily-confirmation）；CDL-076 | 螢死亡熊公仔成為遺物 → 黑奏偽裝「彩」出門前無意識確認袋中熊（永遠潔淨）→ Act III彩奪回身體時再次主動握住熊的呼應 |
+| 70 | 病態無痕修補`[根源已修正]` | 113-114年 日常 | `ayakomoji_misao.md §關鍵習慣7 habit-seamstress`（CDL-155/156，非CDL-233/CDL-297） | 物理性別重置手術留下縫合痕跡（CDL-155）→ 對破損物件病態執著修補、絕不留痕 → SPEC#5操的鏡前獨白/SPEC#61強迫清洗儀式（同源CDL-155創傷的三種外化）|
 | 71 | K房唱歌——雨天 | 113-114年 日常 | `miyako.md §習慣 habit #11`（CDL-153/330） | 隊伍K房日常 → 美夜子唱失去主題情歌意外地痛 → 「失去的感覺是通用的」→ Alpha線揭露後回溯（歌聲=創傷重量非天份）|
-| 72 | 長泳窒息習慣 | 113-114年 日常 | `miyako.md §習慣` | 貓殼詛咒後 → 潛水延遲浮起，體驗死亡邊界 → SPEC#6月下崩潰（「我是人類嗎」的日常版）|
-| 73 | 家長日大作戰 | 113年 Act II前期 | saku.md；CDL-025（朔出現） | 操加入主角團初期 → 操偽裝成紫音高貴家長出席家長日，輕鬆喘息段落 → 反差前置後段沉重 |
-| 74 | 甜品局掉牙 | 113-114年 日常 | CDL-233 Stage 2b；SPEC#74→N | 操Body Horror積累 → 甜品局悄悄掉牙，完美笑容遮蔽恐懼 → 候選N「操絲線縫牙」（同一強迫症升級）|
-| 75 | 刑思殺出實驗室 | 前史 98年前後 | `aya.md §數據養殖`；`01_world_rules §實驗鏈` | 黑奏長期作為活體實驗品，螢已犧牲 → 覺醒力量，屠殺所有實驗人員 → 黑奏弒父篡位（候選D）；SPEC#3三武器根源 |
-| 76 | 凜×美夜子黃金搭檔 | 前史 103-108年 | `rin.md §羈絆`；CF-TIME-rin-pre | 兩人被軍方武器化 → 默契巔峰，back-to-back，不需語言的信任 → SPEC#77犧牲的情感重量 |
+| 72 | 長泳窒息習慣 | 113-114年 日常 | `miyako.md §習慣 habit-long-swim` | 貓殼詛咒後 → 潛水延遲浮起，體驗死亡邊界 → SPEC#6月下崩潰（「我是人類嗎」的日常版）|
+| 73 | 家長日大作戰 | Act II Phase B（原文誤標「113年Act II前期」+ saku.md/CDL-025，兩者均與本場景無關，已修正） | `ACT_II_OUTLINE.md` E-07c（CDL-319，時間待Beat Sheet精確排定） | 小光在學 → 紫音扮「家姐」、操扮「媽媽」出席家長日，輕鬆喘息段落 → 直接導致小光屍骸化（E-07a）的前置 |
+| 74 | 甜品局掉牙 | Act II Phase C（E-09a起，原文誤標CDL-233 Stage 2b已修正為Stage 2a） | CDL-233 Stage 2a；SPEC#74→N | 操Body Horror Stage 2a積累 → 甜品局悄悄掉牙，完美笑容遮蔽恐懼 → 候選N「操絲線縫牙」（同一強迫症升級）|
+| 75 | 刑思殺出實驗室 | 前史 103年（原文誤標98年，CDL-305修正） | CDL-305；CDL-288；`aya.md §黑奏誕生根源` | 102年鐵絲網偶遇獲得力量 → 覺醒力量，屠殺所有實驗人員 → 黑奏弒父篡位（SPEC#81，同期）；SPEC#3三重道德處刑根源 |
+| 76 | 凜×美夜子黃金搭檔 | 前史 103-108年 | `rin.md §羈絆`；CF-TIME-rin-pre | 兩人被軍方武器化 → 默契巔峰，back-to-back，美夜子用琉璃緞帶+能量冰刀（原文誤植雙槍，已修正）→ SPEC#77犧牲的情感重量 |
 | 77 | 凜殿後最終犧牲 | 前史 108年 | `rin.md §犧牲`；CF-TIME-0068 | SPEC#76黃金搭檔（黃金態）→ 凜主動引開L3光環，頸椎被扭斷，眼神釋然非恐懼 → 美夜子終身PTSD；Act III H2凜拒絕治癒 |
+| 78 | 鐵絲網偶遇 | 前史 102年（原文遺漏本行，已補） | CDL-288；CF-EVT-0047 | 彩自79年起被囚禁23年 → 5歲晴香目睹渾身傷痕的彩（29歲）被守衛拖行，潛意識許願 → 三年後成為創世因果信標，賦予黑奏力量 |
+| 79 | 通風管道那夜（螢的犧牲） | 前史 79年（原文遺漏本行，已補） | `aya.md §夜區創傷`；`04_timeline` #event-hotaru-death | 靈樹戰爭帝國軍搜索夜區 → 螢犧牲引開追兵，把熊公仔交給6歲彩，彩目睹螢死亡 → 黑奏保護者人格於此夜誕生 |
+| 80 | 帝國實驗室：黑奏作為活體樣本 | 前史 79-102年間（原文遺漏本行，年齡數字已修正） | CDL-306；`04_timeline` line 37 | 彩因螢死亡現場異常讀數被捕 → 24年囚禁期內接受情緒壓抑/測量原型測試（此時未有魔法）→ SPEC#75覺醒屠殺（102年獲力量後） |
+| 81 | 黑奏弒父篡位 | 前史 103年（原文遺漏本行，CDL-305修正） | CDL-305；`aya.md §篡位` | SPEC#75覺醒屠殺 → 148cm幼童弒殺養父 → 帝國「刑思」法號確立 |
+| 82 | 晴香遞便當（三層交疊） | 113年 Act I [NC]（原文遺漏本行，已補） | CDL-079；CDL-082 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（潛意識層面，非有意識記憶鐵絲網事件），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
+| 83 | 凜不自知摺星星（美夜子目擊） | Act I-II 日常（原文誤引E-05/CDL-215，已修正為`[NEEDS_FACT]`具體beat待Beat Sheet確認） | CDL-154；`rin.md §摺紙星星` | 凜108年重組後以公務員身份存在 → 凜以殘影速度摺出幾何完美星星再面無表情掃入垃圾桶（原文誤植為「歪斜手摺、散落桌面」，已修正），美夜子門邊目擊 → `rin.md` CDL-274月下相認的情感鋪墊 |
+| 84 | 美夜子Glitch Form首次 | 113年5月 Act II Phase A，E-06（原文誤引已取消的E-05a，已修正） | CDL-206；CDL-243／CDL-108；CDL-336 | 團隊戰鬥中美夜子為保護隊友獨自硬扛攻擊（非PTSD觸發，已修正）→ 貓殼首次功能性崩裂，受傷瞬間握住凜的斷刃匕首，刀身鏡面反光同步映出人形殘影（CDL-336新增細節） → SPEC#6月下崩潰（貓殼龜裂三段第一段）；美夜子鏡像三段式弧線第二步 |
+| 85 | 小光之死＋黑奏邏輯侵入 | 113年5月 Act II Phase B，E-07a | E-07a；CDL-335；CDL-309 | 小光在戒斷發作意外中斷氣 → 紫音發癲徒手打崩其他屍骸、骨頭外露仍狂笑，歌德尖刺初現（原文誤植為「安靜懷抱小光崩潰」，已修正）；黑奏台詞改回canon原句「他沒有死，只是換了生存方式」/「痛苦是一種選擇」（原文虛構台詞已移除）→ 紫音被黑奏邏輯說服的心理入口 |
+| 86 | 廢棄糖果工廠三人辯論 | 113年5-6月 Act II Phase B，E-07b（操調停失敗後、放逐前，原文誤植「E-07b事件後」已修正） | CDL-229；CDL-230 | 操調停失敗受傷 → 晴香趕到，三種哲學立場正面交鋒 → 直接導致晴香放逐紫音（本場景先於放逐，非事後尋回） |
+| 87 | 紗夜犧牲——耳鳴遮蔽 | 113年7-8月 Act II Phase C，E-09a（新增beat編號以對齊SPEC#1/5/26） | E-09a；CF-TIME-0068；CDL-233 | SPEC#26操被遺棄（同一晚） → 紗夜開槍犧牲，白色噪音淹沒聲音 → 操CDL-298報串罪疚最深根源 |
+| 88 | 困獸的慈悲——朔見証之夜 | 113年8月中旬 Act II Phase D中期（原文誤植為「廢棄地鐵站帶食物」場景，內容錯誤挪用SPEC#92，已全面修正） | CDL-260（原文誤引CDL-191，已修正——CDL-191屬SPEC#92美夜子留守） | 下水道外圍遭遇衰弱屍骸 → 晴香自傷式壓制被夕黑色能量異化的左手，再溫柔陪伴屍骸消散，朔以狙擊鏡遠距目擊 → 朔從「冷血獵人」升級為「心理盟友」 |
+| 89 | 愛莉具現化擋刀＋石像龜裂 | Act II Phase D，E-10b | CDL-256；`aeri.md §紙皮騎士` | 愛莉以石像形式存在 → 具現化擋刀，遠景石像同時龜裂 → SPEC#40童謠救贖；SPEC#20紙皮騎士防禦 |
+| 90 | 王國邊緣的盛宴 | 113年9月 Act II Phase D，E-11風暴前夕（原文跨年「113至114年」已收緊） | CDL-241／CDL-257（原文誤引「akane.md§嘆息之橋前」已修正） | E-07b被放逐、小光已死並屍骸化 → 紫音王座上餵食發霉糖果予屍骸化的小光（原文誤植為「流浪貓」，已修正，強化扭曲母性主題），朔遠遠目擊 → SPEC#10犧牲情感前置；「幻象破滅——屍骸外流事件」（113年11-12月）將戳破此幻象 |
+| 91 | 操絲線縫牙 | Act II Phase C，E-09a起（原文誤植「Phase A-B，E-08後」已修正） | CDL-233 Stage 2a | 鏡像破碎之夜（E-09a父親背叛+紗夜犧牲）後 → 鏡前用傀儡絲縫鬆動牙齒，外表完美/內部恐怖 → SPEC#74甜品掉牙的同期場景 |
+| 92 | 美夜子無價值留守 | 113年7月 Act II Phase C，E-09 | CDL-191；`miyako.md §羈絆` | SPEC#21光幕破碎，晴香「社會性死亡」→ 美夜子推開手機，遞一罐沒氣可樂 → 從「義務守護」轉「無條件羈絆」 |
+| 93 | 凜重組後第一次遇見美夜子 | 113年9-10月 Act II Phase D，E-11附近（原文誤引E-05/CDL-215已修正；具體beat歸屬待QQ-170確認） | `ACT_II_OUTLINE.md`行572-573；`rin.md`§中段踏腳石 | 凜108年重組後以公務員身份存在 → 美夜子貓形態近距離擦身而過，凜語義無反應但手指無意識微收緊（原文誤植「凜完全無反應」已修正）→ 美夜子PTSD弧光鋪墊；CDL-274月下相認前置 |
+| 94 | 彩「卡頓」——黑奏系統困惑（第二次） | 113年5-6月 Act II Phase B，E-08[NC]（原文誤引CDL-079/誤植為晴香的直覺已修正） | CDL-207（P-C06彩卡頓第二次） | SPEC#7已覆蓋第一次卡頓（E-05）→ 晴香惶惶不安中仍下意識做溫暖小動作，黑奏系統第二次困惑（眼神紫色閃爍+身體僵直，非晴香察覺異狀）→ 黑奏「算了最多卻算錯最關鍵一步」伏筆 |
+| 95 | 飢餓的天使——直播失控（半屍骸） | 113年7月中旬 Act II Phase C，E-09 | CDL-203；CDL-259（原文誤引CDL-180已修正——CDL-180屬維多利亞之淚鏡頭設計，與本場景無關） | E-08恐怖家家酒高壓+夕刻意讓晴香遭屍骸爪擊 → 半屍骸左手在直播現場吸取圍觀者正面情緒，夕接管瞬間，撕破光幕濾鏡 → SPEC#21光幕破碎（同一事件不同鏡頭） |
+| 96 | 黑奏農場觀察 | 113年5-6月 Act II Phase B，E-08高壓期間（原文誤植為咖啡廳日常已修正） | CDL-211（原文誤引CDL-079已修正） | 晴香陷入「恐怖家家酒」極度痛苦與自我懷疑的高壓時刻 → 黑奏在暗處給出零同情的冷靜評估特寫，非咖啡廳窗邊平靜觀察 → 黑奏「農場視角」讀不到凡人真暖，算錯最關鍵一步的伏筆 |
+| 97 | 鏡像相簿異變 | 113年5-6月 Act II Phase B，E-08[NC]（原文「113-114年」過寬已收緊） | CDL-283（P-C10鏡像相簿；原引用「08_narrative_design」籠統格式已修正） | 113年5月相簿創建（Stage 1）→ 玻璃反射中**美夜子**手臂旁（原文誤植為「彩」所在位置已修正）出現模糊異象（手/藍色馬尾影子），Red Herring機制啟動、身份不予確認 → 鏡像相簿機制完整payoff（Act III） |
+| 98 | 操の虛榮告白 | 113年3-5月 Act I，E-02入隊戰後（原文「Act II Phase A，E-05a後」已修正——E-05a已被CDL-317移除，操實際於Act I E-02入隊） | CDL-322；`ayakomoji_misao.md`§入隊前的獨行俠心理 | 操被迫加入主角團（自認被降格）→ 完美妝容下眼眶微紅，第一次承認「我不如我以為的那麼好」（具體對話`[NEEDS_FACT]`）→ 操弧光「從形式主義到真實」第一步；SPEC#5操的鏡前獨白 |
+| 99 | 朔看見Unit 01的臉 | 113年9-10月 Act II Phase D，E-11風暴期間（原文「遠距離、憑眼睛認出」已修正） | `ACT_II_OUTLINE.md`行568-571；`saku.md`§既視感追認 | 愛莉潛意識風暴爆發，朔破例現身介入 → 近距離目擊美夜子（貓形態，原文誤用人形戰鬥形態已修正）左耳星形飾物，對應自己月亮耳環，懷疑升級接近確信但未100%確認（非完全確認）→ 114年4月正式既視感追認（行為辨識） |
+| 100 | 凜的最終選擇——Unit 00-Null揭露 | 114年4月底 Act III Phase H2，E-III-H2（原文「E-15a」為無效beat編號已修正） | CDL-215（E-III-02） | H1美夜子得知凜108年已死並被重組 → 凜看晴香伸出的手半秒後推開，主動回帝國實驗室要求黑奏挖走所有感情/痛覺/回憶，自願成為Unit 00-Null（原文「晴香找到治癒方法」標`[INFERRED]`）→ E-III-I5遲來的介錯（SPEC#100-01） |
+| 101 | 嘆息之橋——凜獨角 | 114年3-4月 Act III Phase G-H之間（`[btd 未定案]`，`04_timeline_canon.md#event-bridge-of-sighs`明確標記地點/內容全部待Beat Sheet確認） | `[NEEDS_FACT]`（原文將整個btd beat寫成既定事實已修正標記） | 凜已知自己是重組體，尚未揭露 → `[INFERRED]`推測性獨處演繹（實體橋樑構圖為暫定，日後Beat Sheet層若確認非實體橋樑需整體重做）→ `[NEEDS_FACT]`後續payoff未定案 |
+| 102 | 操の被迫報串 | 114年4月中 Act III Phase H暗線，H1.5後最孤獨時刻 | CDL-298；CDL-297（母親——完美的活體人偶，原文遺漏此核心威脅內容已補回） | 父親EMB監控系統偵測操心匣污染達屍骸化臨界，以「送返研究室重組變成母親那樣」為最後通牒（原文籠統「無從抵抗的威脅」已具體化）→ 傀儡絲手指懸停通訊器按鍵上方，交出隊友坐標 → SPEC#1鋼鐵獨舞（帶著罪疚的最後一舞） |
+| 103 | 糖果唐樓交易 | 114年3月 Act III Phase G3，糖果唐樓 | CDL-213/214 | Phase G地下抵抗期開始 → 主角團潛入黑市據點尋找紫音下落，情緒結晶如品酒陳列 → SPEC#104下水道無聲重逢（線索追蹤成功，非「繼續找糖果工廠」） |
+| 104 | 下水道無聲重逢 | 114年3月 Act III Phase G4，下水道【Fake Climax標記】 | CDL-214 | SPEC#103糖果唐樓獲得線索 → 主角團找到已半屍骸化嘅紫音（獨力守護流浪狗與低階無名屍骸），晴香選擇不打擾，放下糖果+藥品悄悄離開 → 接下來一個月透過朔黑市網絡收到「防線未破」情報，罪疚感累積至Day14；**原文誤植payoff為「SPEC#4糖果工廠正式找到」已修正**——正確payoff為SPEC#10帝國廣場救援（Day14才正式相見） |
+| 105 | 公告夜（紫音作為處決目標） | 114年5月 Act III Phase I，Day 13夜 | CDL-217（E-III-I2）；CDL-216（紫音為處刑目標，非操）；CDL-320 | Day 13操化為人偶牆犧牲；紫音已於Phase I開首離線被捕 → **核心機制已修正**：黑奏廣播「Day14正午帝國廣場公開處決」公告，展示已被拘束嘅紫音，作為逼主角團救援的落戰書（原文誤寫為「危險生物通緝令」，方向相反）→ SPEC#10帝國廣場救援＋糖果山犧牲 |
+| 106 | 彩在心房中摸熊公仔 | Act III（貫穿，彩被囚狀態） | aya.md §被囚禁的孩子；§螢的遺物——殘舊熊公仔；CDL-076 | 黑奏長期以彩身體作容器，彩（6歲真身，原文誤植7歲已修正）被困於心房——重構為「通風管道那夜」的凍結空間（原文泛用「通風管道+地下室混合」已修正）→ 緊抱螢遺物熊公仔（永遠潔淨，原文「歲月褪色/歪耳」違反此規則已修正），安靜等待 → SPEC#8彩奪回身體 |
+| 107 | 蜜月困境——K期靈魂監獄 | `[NEEDS_FACT]` Act IV暫定草稿（原標Act III Phase K1已修正——Phase K已於2026-07-05移出Act III scope，見附錄） | `ACT_III_OUTLINE.md`附錄E-III-K1；QQ-139~145（主觀/客觀時間分裂方向未落CDL）；原引CDL-053為誤植已移除 | SPEC#13靜止搖籃選擇（本身亦為未批核草稿）→ 溫暖廚房日常循環囚禁，窗玻璃倒影洩漏裂縫真相（K期代價）→ `[NEEDS_FACT]`Act IV晴香覺醒（具體時長機制待確認） |
+| 108 | 屍骸覺醒——L4 | `[NEEDS_FACT]` Act IV暫定草稿（原標Act III Phase L4已修正——Phase L同Phase K一併移出Act III scope） | `ACT_III_OUTLINE.md`附錄Phase L草稿；L4觸發條件未落CDL | Phase L4觸發條件（機制未confirm）→ 城市長期屍骸化人群空洞眼睛逐一散落亮起人類的光，困惑而非空洞 → Act IV新世界建立 |
+| 109 | 美夜子終於哭出來 | `[NEEDS_FACT]` Act IV（時長「20年」同`yu.md`「數日」主觀/客觀分裂方向未落CDL） | CDL-326；miyako.md §第四幕「美夜子的大哭」；02_glossary §Dark Healing | 美夜子Act III覺醒後守護晴香 → **核心情緒已修正**：一生第一次「痛哭失聲」（依canon明文；原文誤寫「無聲眼淚、不是大哭」方向相反已修正）→ SPEC#110美夜子笨拙演奏（CDL-326「尋回自己」之後） |
+| 110 | 美夜子笨拙演奏（全片最後一幕） | `[NEEDS_FACT]` Act IV Phase L（時長同SPEC#109） | CDL-326（記憶迷霧期與笨拙演奏，已補引用） | SPEC#109美夜子痛哭失聲 → 依CDL-326，須先經歷並走出記憶迷霧期，「尋回自己之後」獨自學結他彈奏晴香未完成曲目 → （全片結束） |
+| 111 | 維多利亞之淚：人造太陽剖面圖 | 世界觀設定（無特定時間點） | 07_entities_and_devices §維多利亞之淚；01_world_rules §能量來源 | — → 三層剖面結構（發光外殼/情緒廣播管道/深紅汲取核心）→ Act III決戰崩潰視覺；日夜區光線差異根本解釋 |
+| 112 | 集體潛意識空間：後巷過渡狀態 | 世界觀設定（無特定時間點） | 01_world_rules §集體潛意識；06_visual_bible §夜區視覺 | — → 唐樓後巷磚牆漸變宇宙星空，倒影揭示異空間 → SPEC#12集體潛意識之城、SPEC#48淤泥深海、SPEC#2整合場景等潛意識系列視覺基礎 |
+| 113 | 心防內化裝置：製造過程 | 世界觀設定（無特定時間點） | 07_entities_and_devices §section-trauma-cage；02_glossary §term-armor-protection | — → The Unlinked（解離兵器，非凜）被三層機制強制格式化：心匣熔焊/創傷反芻注射/成癮性代償回饋 → CDL-233操Body Horror（僅美學呼應，非同一系統） |
+| 114 | 情緒管理局：局內辦公空間 | 世界觀設定（無特定時間點） | 06_visual_bible §section-art-imperial；rin.md §被重組 | — → 純白啞光制服，有機流體情緒波形牆，凜與同事完全一致 → SPEC#14凜雙面形態；SPEC#24凜人性消磨場景設定 |
+| 115 | 靈樹：平時狀態 | 世界觀設定（無特定時間點） | 02_glossary §term-spirit-tree；01_world_rules 行697 | — → 夜區谷地老樹，刻意「普通感」為伏筆 → Act III Phase J決戰中靈樹作用（具體CDL待確認） |
+| 116 | 帝國廣場：常態 | 世界觀設定（無特定時間點） | 06_visual_bible §section-art-imperial；DIGEST_LOCATIONS §1 | — → 深淵黑+皇家金+紫水晶秩序展示空間，麻木市民（配色已修正，原文誤用白色大理石+帝國藍） → SPEC#19決戰崩塌；SPEC#49市民凝滯的對比基準 |
+| 117 | Emo-Visor Gen 3：日區市民集體成癮 | 世界觀設定（無特定時間點） | 02_glossary §term-emo-visor；07_entities_and_devices §section-emo-visor（Gen 3） | — → 日區咖啡廳，安普膠囊消耗品+30分鐘崩潰循環（已補回原文遺漏的核心成癮機制） → Act II光幕體系的日常具現；SPEC#21破碎的前置 |
+| 118 | 屍骸化：心之器燃盡時刻 | 世界觀設定（無特定時間點） | 01_world_rules §rule-corpseification（CDL-271）；02_glossary §magical-corpse | — → 靈魂被困以1%控制力對抗99%情緒廢料，非靈魂已離體空殼（核心機制已修正） → SPEC#22小光屍骸化（有執念錨點案例）；SPEC#10紫音過載（另一套不可逆死亡機制，不可混用） |
+| 119 | 彩的心房：通風管道永恆空間 | 世界觀設定（無特定時間點） | aya.md §葉語彩；CDL-076 | 候選B通風管道（螢犧牲）→ 彩6歲真身被困內心的通風管道永恆空間，黑暗創傷重演（基調已修正，非純美麗夢幻空間；Reference Image已修正為[NO_REF]） → SPEC#106彩摸熊公仔；SPEC#8彩奪回身體 |
+| 120 | 珍寶珠入隊——朱音加入主角團 | 113年3-4月 Act I，E-02.5 | CDL-052；`05_story_outline_canon.md §Act I E-02` | 朱音戒斷症狀發作於夜區後巷（原文誤植「街角」已修正）→ 晴香遞珍寶珠：「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」（完整台詞已補全）→ 朱音入隊；直接payoff為SPEC#104下水道無聲重逢（原文誤植Act III糖果山犧牲為唯一payoff已修正） |
+| 121 | 操入隊——晴香以身體擋攻擊 | 113年3-4月 Act I，E-02 | CDL-050；`ACT_I_BEAT_SHEET.md` SCENE 3-5 | 操中屍骸陷阱（戰鬥進行中，非戰後，原文「屍骸已清除」時序已修正）→ 晴香擋攻擊問：「好彩趕得切！妳條裙無整污糟呀嘛？」（完整台詞已補全）→ 操傲嬌入隊（SCENE 5） |
+| 122 | 軟接觸——美夜子廢棄地鐵站遞水 | `[DELETE_CANDIDATE]` | CDL-191 | **已停用**：與SPEC#92（美夜子無價值留守）為同一beat，但形態（貓vs人）/物件（可樂vs水）/對白（無vs有）互相矛盾，已標記刪除候選，詳見詳細段落 |
 
 ---
 
@@ -316,19 +361,19 @@
 |-------|--------|--------|---------|----------------------|------|
 | A | 鐵絲網偶遇（5歲晴香×被困彩）| 前史 102年 | CDL-288/289；CF-TIME-0013 | Y102 Loop 0 時彩被帝國守衛拘押拖走（黑奏此時仍以彩的形式存在，尚未掌握魔法力量）→ 5歲晴香透過鐵絲網看見被困的彩 → 晴香許願（創世的根源）| ★★★★★ |
 | B | 通風管道那夜（螢的犧牲）| 前史 79年 | `aya.md §螢`；`02_glossary.md #hotaru` | 螢主動衝出藏身處引開帝國士兵保護彩 → 螢犧牲，把熊公仔交給彩（黑奏於此夜從彩的創傷分裂誕生）→ 黑奏整個人生的動力根源 | ★★★★★ |
-| C | 帝國實驗室：黑奏作為活體樣本 | 前史 98年前後 | `aya.md §數據養殖`；`01_world_rules §實驗鏈` | 帝國發現黑奏是魔法少女 → 心匣被強制解析、數據化 [NEEDS_AUTHOR_CONFIRM: 黑奏作為活體樣本的具體 canon 依據待確認] → SPEC#75覺醒屠殺（同一個實驗室，不同瞬間）| ★★★★ |
-| D | 黑奏弒父篡位 | 前史（覺醒後）| `aya.md §篡位`；`01_world_rules §帝國歷史` | SPEC#75覺醒屠殺後 → 148cm幼童站在巨大王宮弒殺養父 → 帝國最高統治權確立（「刑思」法號待作者確認是否為正式 canon 術語）；黑奏對螢的永恆追求的開始 | ★★★★★ |
+| C | 帝國實驗室：彩作為活體樣本 | 前史 79-102年間（**2026-07-17修正**：原「98年前後/12-15歲」與73年出生年矛盾，已移除具體年齡） | CDL-306；`04_timeline` line 37 | 螢死亡現場異常讀數 → 彩被捕，24年囚禁期內接受早期情緒壓抑/測量原型測試（**此時尚未有魔法**，非「收集魔法輸出數據」）→ SPEC#75覺醒屠殺（102年獲力量後）| ★★★★ |
+| D | 黑奏弒父篡位 | 前史 **103年**（**2026-07-17修正**：CDL-305明確政變年份由98年修正為103年，緊接102年鐵絲網偶遇獲得力量之後）| CDL-305；`aya.md §篡位` | SPEC#75覺醒屠殺後 → 148cm幼童站在巨大王宮弒殺養父 → 帝國最高統治權確立；「刑思」法號已於 `00_Story_Brief.html` 確認為正式 canon（非待確認）；黑奏對螢的永恆追求的開始 | ★★★★★ |
 | E | 晴香遞便當（三層交疊）| 113年 Act I [NC] | CDL-079；CDL-082 | 黑奏偽裝「彩」接近晴香（SPEC#37）→ 晴香真心遞便當，黑奏精算接受，彩（被困內心）看著 → Act III揭露的三層情感炸彈 | ★★★★★ |
-| F | 凜不自知摺星星（美夜子目擊）| 113年 Act I-II 日常 | CDL-215；`rin.md §記憶殘留` | 重組後的凜日常（SPEC#66靜態版）→ 美夜子無意中目擊凜無意識地摺星星 → 美夜子的第一個希望：身體記憶比語義記憶更頑固 | ★★★★★ |
-| G | 美夜子Glitch Form首次 | 113年4-5月 Act II Phase A | CDL-243；E-05a；`miyako.md §Unit 01` | E-05a總部被襲，美夜子身受重傷，物理破壞超越詛咒維持極限 → 貓殼龜裂，0.5秒閃現人形 → SPEC#6月下崩潰（貓殼龜裂三段第一段）| ★★★★★ |
-| H | 小光之死+黑奏邏輯侵入 | 113年5月 Act II Phase B | E-07a；`aya.md §數據養殖` | 小光死亡（SPEC#22）的同時 → 紫音防衛崩潰，黑奏文字滲入畫面邊緣 → 紫音被黑奏邏輯說服的心理入口 | ★★★★★ |
-| I | 廢棄糖果工廠三人辯論 | 113年5-6月 Act II Phase B | E-07b | E-07b紫音被放逐後 → 晴香、紫音、操三種哲學在腐爛糖果空間對峙 → 各人弧光的中間衝突 | ★★★★★ |
-| J | 紗夜犧牲——耳鳴遮蔽 | 113年 Act II Phase C | CF-TIME-0068；CDL-233 | SPEC#26操被遺棄（同一夜？）→ 紗夜開槍犧牲，白色噪音淹沒聲音 → 操CDL-298報串罪疚的最深根源 | ★★★★★ |
-| K | 困獸的慈悲——朔見証之夜 | 113年9月 Act II Phase D | CDL-191附近；`saku.md §見証` | 晴香「社會性死亡」後最低點 → 晴香半屍骸狀態，朔在場見証，同一雙手壓制自己+溫柔撫摸 → 朔決定站在主角團這邊 | ★★★★★ |
-| L | 愛莉具現化擋刀+石像龜裂 | Act II Phase D | CDL-256；`aeri.md §紙皮騎士` | 愛莉以石像形式存在 → 具現化擋刀，同時遠景石像龜裂 → SPEC#40童謠救贖；SPEC#20紙皮騎士防禦 | ★★★★★ |
-| M | 王國邊緣的盛宴（紫音獨處）| Act II Phase D E-11前 | `akane.md §嘆息之橋前` | E-07b被放逐、小光已死 → 紫音在帝國廣告光下獨自餵食流浪貓，攝取腐爛糖果 → SPEC#10犧牲情感前置 | ★★★★★ |
-| N | 操絲線縫牙 | Act II Phase C（E-09a 後，113年7-8月）| CDL-233 Stage 2a | 操Body Horror Stage 1→2a轉換 → 鏡前用傀儡絲縫鬆動牙齒，外表完美/內部恐怖 → SPEC#74甜品掉牙的前置（還未掉只是縫）| ★★★★★ |
-| O | 美夜子無價值留守 | 113年7月 Act II Phase C E-09後 | CDL-191；`miyako.md §羈絆` | SPEC#21光幕破碎，晴香「社會性死亡」→ 美夜子推開手機，遞一罐沒氣可樂，不說安慰話 → 美夜子×晴香關係從「義務守護」轉「無條件羈絆」| ★★★★★ |
+| F | 凜不自知摺星星（美夜子目擊）| Act I-II 日常（`[NEEDS_FACT]`具體beat；原文誤引CDL-215已移除） | CDL-154；`rin.md §摺紙星星` | 重組後的凜日常 → 美夜子無意中目擊凜以殘影速度摺出幾何完美星星再面無表情掃入垃圾桶（原文誤植「歪斜手摺」已修正）→ 美夜子的第一個希望：身體記憶比語義記憶更頑固 | ★★★★★ |
+| G | 美夜子Glitch Form首次 | 113年5月 Act II Phase A，E-06（原文誤引已取消的E-05a「總部被襲」，已修正） | CDL-206；CDL-243／CDL-108；CDL-336 | 團隊戰鬥中美夜子為保護隊友獨自硬扛攻擊，物理傷勢惡化超越詛咒維持極限（非「總部被襲」）→ 貓殼龜裂，0.5秒閃現人形，凜的斷刃刀身鏡面反光同步映出（CDL-336）→ SPEC#6月下崩潰（貓殼龜裂三段第一段）| ★★★★★ |
+| H | 小光之死+黑奏邏輯侵入 | 113年5月 Act II Phase B | E-07a；CDL-335；CDL-309 | 小光斷氣 → 紫音發癲徒手打崩其他屍骸、骨頭外露仍狂笑，歌德尖刺初現（原文誤植「安靜懷抱小光」已修正）；黑奏台詞改回canon原句 → 紫音被黑奏邏輯說服的心理入口 | ★★★★★ |
+| I | 廢棄糖果工廠三人辯論 | 113年5-6月 Act II Phase B，E-07b（操調停失敗後、放逐前，原文「放逐後」時序已修正） | CDL-229；CDL-230 | 操調停失敗受傷 → 晴香趕到，三種哲學立場正面交鋒 → 直接導致紫音被放逐 | ★★★★★ |
+| J | 紗夜犧牲——耳鳴遮蔽 | 113年7-8月 Act II Phase C，E-09a | E-09a；CF-TIME-0068；CDL-233 | SPEC#26操被遺棄（同一夜）→ 紗夜開槍犧牲，白色噪音淹沒聲音 → 操CDL-298報串罪疚的最深根源 | ★★★★★ |
+| K | 困獸的慈悲——朔見証之夜 | 113年8月中旬 Act II Phase D中期（原文內容誤挪用SPEC#92「美夜子留守」，已全面修正） | CDL-260（原文誤引CDL-191已修正） | 下水道外圍遭遇衰弱屍骸 → 晴香自傷式壓制被夕黑色能量異化的左手，再溫柔陪伴屍骸消散，朔以狙擊鏡遠距目擊 → 朔決定站在主角團這邊 | ★★★★★ |
+| L | 愛莉具現化擋刀+石像龜裂 | Act II Phase D，E-10b | CDL-256；`aeri.md §紙皮騎士` | 愛莉以石像形式存在 → 具現化擋刀，同時遠景石像龜裂 → SPEC#40童謠救贖；SPEC#20紙皮騎士防禦 | ★★★★★ |
+| M | 王國邊緣的盛宴 | 113年9月 Act II Phase D，E-11風暴前夕（原文跨年「113至114年」已收緊） | CDL-241／CDL-257（原文誤引「akane.md§嘆息之橋前」已修正） | E-07b被放逐、小光已死並屍骸化 → 紫音王座上餵食發霉糖果予屍骸化的小光（原文誤植「流浪貓」已修正）→ SPEC#10犧牲情感前置 | ★★★★★ |
+| N | 操絲線縫牙 | Act II Phase C（E-09a起，113年7-8月）| CDL-233 Stage 2a | 鏡像破碎之夜（E-09a）後Body Horror Stage 2a → 鏡前用傀儡絲縫鬆動牙齒，外表完美/內部恐怖 → SPEC#74甜品掉牙的同期場景 | ★★★★★ |
+| O | 美夜子無價值留守 | 113年7月 Act II Phase C，E-09 | CDL-191；`miyako.md §羈絆` | SPEC#21光幕破碎，晴香「社會性死亡」→ 美夜子推開手機，遞一罐沒氣可樂，不說安慰話 → 美夜子×晴香關係從「義務守護」轉「無條件羈絆」| ★★★★★ |
 | P | 凜重組後第一次遇見美夜子 | 113年4-5月 Act II Phase A E-05 | CDL-215；`rin.md §被重組` | E-05美夜子追蹤凜 → 凜對美夜子毫無反應，美夜子伸手，凜繼續走 → 美夜子PTSD最大化；CDL-274月下相認的情感鋪墊 | ★★★★★ |
 | Q | 晴香感應到「彩不在」（茶會）| Act II Phase B E-08周圍 | CDL-079；SPEC#11茶會同時 | SPEC#11玻璃庭院茶會某一刻 → 晴香在茶會中0.5秒感應到空洞，手凍住 → Act III黑奏揭露「她一直就是這樣看我」| ★★★★★ |
 | R | 飢餓的天使——直播失控（半屍骸）| 113年7月 Act II Phase C E-09 | E-09；CDL-259；夕接管 | E-08恐怖家家酒高壓 → 半屍骸左手在直播舞台吸取情緒，夕接管瞬間 → SPEC#21光幕破碎（同一事件不同鏡頭）| ★★★★★ |
@@ -423,41 +468,42 @@
 ## 圖1：「鋼鐵獨舞」（操 / Steel Solitude Dance）
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SteelSolitude.png`
+**依據版本**：`05_story_outline_canon.md` 行232（CDL-231/232/233，event-steel-solo）；`ACT_III_OUTLINE.md` E-III-I1；`ayakomoji_misao.md` §Body Horror 分層設計（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖1項）
 
 ### 劇情背景
 
-114年5月 Act III Phase I Day 13。操在此前的 Phase H 已被父親以「變成母親那樣的活體人偶」作威脅，被迫向帝國交出隊伍藏身據點坐標（CDL-298，被迫報串）。她帶著這個無人知曉的秘密，在屍骸化 Stage 2b 的狀態下獨自走進廢棄工廠——身體被發光傀儡絲半控制，但靈魂意志仍然在抵抗。這支舞是她在 Day 13 化為人偶牆犧牲前的最後行動，既是「我選擇停留在我想停留的位置」的主體性宣言，也是對一個永遠無法開口承認的罪孽所能做的唯一贖罪。
+114年5月 Act III Phase I，Day 13 下午，地點：**學校瓦礫**（非廢棄工廠——操最終將殘軀縫入嘅係彩同晴香就讀嗰間學校嘅瓦礫，同 Day13 操解救人質、人偶牆封鎖大門地理一致，CDL-231/232/233）。此前操已在 Phase H 被父親以「變成母親那樣的活體人偶」威脅，被迫向帝國交出隊伍藏身據點坐標（CDL-298，被迫報串）。此刻，黑奏強行撬開操的口腔，揭露絲線縫牙的全貌——身體崩壞正式進入 **Body Horror Stage 3**（並非 Stage 2b；Stage 2b 屬更早的「摔碎時刻」）。生理暴露的同一瞬間，封印多時的創傷性耳鳴解鎖，紗夜臨終遺言「妳係我最靚嘅女」清晰回流（CDL-231/232，Double-hit 設計）。操在「被無條件原諒」的衝擊下完成覺醒，主動選擇「停留在我想停留的位置」，最終以傀儡絲將殘軀與學校瓦礫縫合成死寂的「人偶牆」，封鎖大門結界，為隊友爭取逃生時間。這支舞是她帶著被迫報串的罪疚、卻在真正被愛過的記憶回流後，完成的主體性宣言與最後贖罪。
 
 ### 圖片說明
 
-操是一個以芭蕾和完美外表定義自身的魔法少女，但此刻她的身體已被魔法的副作用慢慢侵蝕——發光的傀儡絲纏繞她的四肢，讓她像個被操控的人偶般移動。她獨自走進廢棄工廠，跳起生命中的最後一支舞，帶著一個只有她自己知道的秘密，無法向任何人開口。這支舞既是告別，也是她能給自己的唯一救贖。
+操是一個以芭蕾和完美外表定義自身的魔法少女，此刻她的身體已被魔法副作用侵蝕到 Stage 3——口腔剛被強行撬開，絲線縫牙全貌暴露，但同一瞬間紗夜遺言的記憶回流貫穿全身。她在學校瓦礫之間跳起生命中的最後一支舞，帶著背叛隊友的罪疚，卻也第一次感受到「自己一直被愛著」。這支舞既是告別，也是她主動選擇的贖罪與宣言，舞蹈的終點是她把自己縫進瓦礫、化為封鎖大門的人偶牆。
 
 **Reference Images**：
-- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`（`[NOTE]` 原標記 `ConceptArt_Misao_MagicalGirl_Action.png` 依 `DIGEST_REFERENCE_IMAGES.md` 為 `UNVERIFIED`，repo 內只有無 `_Action` 後綴版本，暫改用已存在檔案；`[NEEDS_FACT: 是否需另外產出 Action 版本或 Stage 3 專屬 reference，待確認]`）
 
 **Creative Enhancements**：
-- Replace magical girl suit with transitioning doll-like appearance (porcelain aesthetic)
-- Emphasize puppet strings as iridescent violet-blue glowing threads (primary motif)
-- Transform background to abandoned industrial factory (broken skylights, hanging chains)
-- Adjust mood from active battle to suspended solitude moment
+- Replace magical girl suit with Body Horror Stage 3 appearance: jaw forced open, puppet-string dental stitching fully exposed
+- Emphasize puppet strings as iridescent violet-blue glowing threads (primary motif), now fusing her body into the rubble itself
+- Background: school ruins/rubble (broken classroom walls, twisted rebar, chalk dust), NOT an industrial factory
+- Mood: from "suspended solitude" to "the moment memory returns"—overlay a faint warm afterimage of Sayo's voice/presence
 - Enhance gold braid as single warmth element against cold palette
 
 **簡化核心描述**：
-操在廢棄工廠中半屍骸狀態下獨舞，身體被發光的傀儡絲控制，背景冷色工業感強烈，唯一的溫暖來自於金色髮辮。此刻她既美麗又悲劇，既自由又被控制。
+操在學校瓦礫之間、Body Horror Stage 3 狀態下獨舞——口腔剛被撬開揭露縫牙全貌，紗夜遺言的溫暖記憶同時回流。背景冷色瓦礫感強烈，唯一的溫暖來自金色髮辮與若隱若現的紗夜殘影。此刻她既崩壞又清醒，既背負罪疚又終於被愛過。
 
 **所需原圖資源**：
 - 操的魔法少女形態（作為過渡基礎）
 - 芭蕾舞者跳躍瞬間照片（身體姿態參考）
-- 廢棄工廠的建築細節照片（垂直感、冷色系）
+- 學校瓦礫/教室廢墟建築細節照片（非工廠，垂直感、冷色系）
 
 **生成提示**：
 ```
-Style: Photorealistic illustration with ethereal magical elements; porcelain doll aesthetic meets industrial gothic
-Mood: Haunting beauty; solitude and acceptance; the tragedy of losing humanity
-Colors: Cold palette dominated by grays, purples, and steely blues; single gold accent on hair braid
-Composition: Vertical portrait; suspended figure; strings creating leading lines and geometric patterns
-Lighting: Moonlight through broken skylights; soft violet-blue glow from puppet strings; volumetric shadows
-Special effects: Subsurface scattering on strings; dust particles in light beams; soft vignette edges
+Style: Photorealistic illustration with ethereal magical elements; porcelain doll aesthetic meets school-ruin gothic
+Mood: Haunting beauty; forced revelation followed by acceptance; the tragedy of losing humanity intertwined with a memory of being loved
+Colors: Cold palette dominated by grays, purples, and steely blues; single gold accent on hair braid; faint warm afterimage where Sayo's memory surfaces
+Composition: Vertical portrait; suspended figure amid broken school rubble; strings creating leading lines and geometric patterns, some strings fusing her into the rubble
+Lighting: Moonlight through broken classroom walls/skylights; soft violet-blue glow from puppet strings; volumetric shadows
+Special effects: Subsurface scattering on strings; dust particles in light beams; soft vignette edges; faint translucent figure/echo suggesting Sayo's presence
 Canvas: 3:4 portrait ratio; high definition
 ```
 
@@ -466,14 +512,17 @@ Canvas: 3:4 portrait ratio; high definition
 ## 圖2：「整合場景」（晴香 × 夕 / Integration Scene）
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_Integration.png`
+**依據版本**：`yu.md` §三級整合進程；`ACT_III_OUTLINE.md` 文末「移出 Act III scope — Act IV 草稿材料」附錄（行617-660，⚠️ 未經作者最終批核）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖2項）
 
 ### 劇情背景
 
-114年5月 Act III Phase J。夕是晴香在 5 歲 Alpha 線創世時，將所有無法承受的創傷——失去母親花子與姊姊美夜子的喪親之痛——從靈魂強行切割出去所凝聚的陰影人格（CDL-066，榮格個體化具現化系統）。整合場景是晴香在帝國廣場決戰期間正視這個被遺棄在黑暗中的自己，不再試圖「淨化」或「對抗」，而是向那個 5 歲的陰影道歉：「對唔住，我應該早啲面對你。」（CDL-069）花子的幽靈形象在場，以顫抖的雙臂試圖守護兩者，因為這份整合若失敗，晴香將無法成為新世界的錨點。整合完成後，夕黑色與晴香粉色混合內化，為 SPEC#3 三武器揭露的決戰提供情感基礎。
+`[TIME_REVISED — Act IV（暫定），待 Act IV Outline 正式化]`。原稿將此場景定位為「Act III Phase J 帝國廣場決戰期間，為 SPEC#3 三武器揭露提供情感基礎」，即發生喺三武器揭露**之前**——此因果順序有誤。依 `yu.md`「三級整合進程」：Act I 幕末（CDL-069/070，暫時性初裂）→ Act II E-15（部分融合，非完全整合）→ **Act IV（夕完全接管 Phase J 後，於 Alpha 線度過數日，執行「改變現實」並頓悟「過去無法被修正，只能被接納」，繼而與晴香完成真正的整合）**。即：黑奏三武器揭露（J2）→ 夕完全接管、執行改變現實（J7）→ 彩奪回身體（J8）→ 晴香陷入集體潛意識風暴（K1，主觀「20年」/客觀「數日」，機制仍待 Act IV Outline 核實）→ 晴香主動選擇「醒返」，與夕完成最終整合，這場整合發生在三武器揭露、夕接管、彩奪回**之後**，而非之前。
+
+`[NEEDS_FACT]`：原稿描繪「花子的幽靈形象以顫抖雙臂守護兩者」——目前 Act IV 草稿材料中，「花子化為光芒融入晴香」屬於 E-III-L1「對峙與選擇」場景（整合的是「對母愛的渴望」「想被保護的軟弱」「不想長大的恐懼」），與「晴香×夕整合」是否為同一場景、抑或兩個先後發生的獨立整合時刻，草稿未明確區分，需等 Act IV Outline 正式設計時確認。本場景暫按「晴香與夕的整合」為主軸描繪，花子在場與否、以何種形式在場標記為待確認。
 
 ### 圖片說明
 
-晴香從小就把無法承受的痛苦切割出去，形成了另一個自己：陰暗的「夕」。此刻她終於不再逃避，在決戰的混沌中正面撞上那個被她遺棄了多年的另一半，兩個靈魂在痛苦中激烈碰撞。母親花子的幻影顫抖著試圖抱住兩個正在撕裂的她們，希望用最後的母愛讓她們合而為一。
+晴香從小就把無法承受的痛苦切割出去，形成了另一個自己：陰暗的「夕」。決戰過後、夕已完全接管過身體並發現「改變現實」無法真正修正過去，晴香終於不再逃避，正面撞上那個被她遺棄了多年的另一半，兩個靈魂在痛苦中激烈碰撞。`[NEEDS_FACT]` 母親花子的幻影是否在此刻同時在場守護，草稿材料未明確——花子形象目前見於另一個相近但可能獨立的整合時刻（E-III-L1），暫按可能共存處理，待 Act IV Outline 正式化後核實。
 
 **Reference Images**：
 - 晴香：`ConceptArt_Haruka_MagicalGirl.png`
@@ -507,44 +556,56 @@ Canvas: Wide aspect ratio (16:9) for duality
 
 ---
 
-## 圖3：「三武器揭露」（黑奏 / Three Weapons Revelation）
+## 圖3：「三重道德處刑」（黑奏 / Triple Moral Execution）
 
-**建議輸出文件名**：`ConceptArt_Scene_BlackSong_Revelation.png`
+`[CONCEPT_REVISED — 2026-07-17]` 原標題「三武器揭露」及其「三種物理超能力同時顯現」概念已整段廢棄，改用 `ACT_III_OUTLINE.md` E-III-J2（CDL-266）現行設計「三重道德處刑」重寫，詳見 `CHANGE_LIST_EXISTING_SPEC.md` 圖3項。
+
+**建議輸出文件名**：`ConceptArt_Scene_BlackSong_MoralExecution.png`（原檔名 `ConceptArt_Scene_BlackSong_Revelation.png` 建議棄用，因概念已根本改變；若已生成圖檔請重新產出）
+**依據版本**：`ACT_III_OUTLINE.md` E-III-J2（CDL-266）§黑奏三武器揭露序列；CDL-264（三武器序列確認）；CDL-244；CDL-259；P-C11（晨間斷層原罪）
 
 ### 劇情背景
 
-114年5月 Act III Phase J，帝國廣場決戰高峰。黑奏是從彩（神樂彩）的極端創傷中分裂出來的保護者人格，誕生於 79 年螢死亡當夜，為了「不再讓彩感到恐懼」而存在（CDL-076）。整個帝國統治格局、情緒農場系統、以及黑奏長年偽裝為「彩」潛伏在晴香身邊收集能量的三大物理需求（CDL-079），全都是為了積累足夠情緒能量以復活螢。此時 SPEC#2 整合場景完成，晴香獲得完整的創世意志，黑奏決定以彩的身軀展示其積蓄了數十年的全部力量：重力扭曲、情感控制觸手、現實碎裂，三種武器同時顯現——這是「悲劇工程師」最後一次以幼童身軀俯瞰她親手建造的世界。
+114年5月 Act III Phase J，帝國廣場決戰高峰。這不是一場「武力對決」，而是一場**道德處刑（Moral Execution）**——黑奏不再展示物理力量，而是以逐層回憶回放的方式，將「受害者的絕望回饋」直接倒灌入晴香與觀眾心裡，剝洋蔥式由外到內刺穿晴香的心理防線：
+
+1. **武器②（首擊：社會剝奪）**——黑奏展示「Fallen Angel 商品化」回放：晴香的痛苦被物化成一門生意、被人消費（CDL-244）。話語方向：「妳的痛苦只是一門生意，妳的犧牲被徹底物化。」
+2. **武器①（次擊：身份背叛）**——黑奏展示「夕的直播失控」（社死事件）完整回放，並強行轉換視角：「這不是意外，這是妳最信任的人對妳的背叛。」（CDL-259）
+3. **武器③（致命第三擊：創世原罪，全新揭露）**——黑奏揭露「晨間斷層原罪」：晴香創造的 Beta 線世界，令她的朋友每朝早都要在晨間斷層中短暫接觸 Alpha 線死亡真相；「妳以為妳在救她們？妳的『愛』，才是最殘忍的酷刑。」（P-C11 Payoff）——這是唯一真正的新信息，摧毀晴香「至少我的意圖是好的」的最後自我防禦。
+
+序列意義：社會層 → 身份層 → 信念核心，最後貫穿晴香「想保護大家」的根本信念。帝國廣場的物理環境在此過程中被黑奏的力量扭曲/封鎖，形成一個概念上的「處刑室（Execution Room）」——這裡沒有物理武器，只有記憶投影與被迫直視的真相。
 
 ### 圖片說明
 
-黑奏是一個由創傷中誕生的保護者，她花了數十年秘密建立帝國、偽裝成普通女孩潛伏在晴香身邊，只為積累足夠的力量去救回已死去的摯友螢。此刻她不再偽裝，以幼童的身軀在帝國廣場同時展示三種毀滅性的力量——她掌控著整座城市，卻始終是那個六歲時就失去了最重要的人的孩子。
+黑奏是一個由創傷中誕生的保護者，她花了數十年秘密建立帝國、偽裝成普通女孩潛伏在晴香身邊，只為積累足夠的力量去救回已死去的摯友螢。此刻她不再偽裝，以幼童的身軀站在被自己力量扭曲封鎖的帝國廣場中央，周圍懸浮著三重回憶投影——不是武器，是逐一攤開的真相：晴香被物化消費的痛苦、夕失控的社死現場、晨間斷層中反覆死亡的朋友們。她沒有揮動任何攻擊，只是平靜地讓晴香直視這一切，語言與記憶本身就是刑具。她掌控著整座城市，卻始終是那個六歲時就失去了最重要的人的孩子。
 
 **Reference Images**：
-- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
+- 彩（第二形態，黑奏容器）：`ConceptArt_Aya_MagicalGirl_2.png`
+- 晴香（回憶投影中出現）：`ConceptArt_Haruka_MagicalGirl.png`
+- 夕（回憶投影中出現）：`ConceptArt_Yu_CasualWear.png`
 
 **Creative Enhancements**：
-- Transform to show Kuroshio's true form: small 7-year-old body with overwhelming cosmic presence
-- Manifest three weapons simultaneously: gravity distortion (pressure waves), emotion tendrils (liquid light), reality fractures (broken glass)
-- Include heterochromatic eyes (pink + violet)
-- Empire Plaza background with citizens trapped in various states of corruption
-- Emphasize power disparity: tiny physical body vs. overwhelming supernatural scale
+- Kuroshio's true form: small child body, calm/neutral expression, NO physical weapon manifestation
+- Three floating memory-projection panels/fragments arranged around her in a semi-circle, each showing a different "execution layer": (1) Haruka's suffering being commodified/consumed by crowds, (2) Yu's broadcast breakdown replaying, (3) a fractured "morning gap" vision of friends dying at dawn
+- Empire Plaza environment visually warped/sealed into a conceptual "execution chamber"—architecture bending inward, light behaving like a courtroom/interrogation space rather than a battlefield
+- Emphasize psychological horror over physical spectacle: no gravity distortion, no tendrils, no shattering reality—replace all three with memory/projection imagery
+- Include heterochromatic eyes (pink + violet) as the only "supernatural" marker on Kuroshio herself
+- Power disparity: tiny physical body vs. the overwhelming weight of what she is forcing Haruka to witness
 
 **簡化核心描述**：
-黑奏以小女孩的身軀展露真身，周圍三種力量同時顯現：重力扭曲、情感控制、現實碎裂。帝國廣場在她的力量下崩潰，市民在三種武器中失控。她的中性表情顯示絕對統治。
+黑奏以小女孩的身軀站在被扭曲封鎖成處刑室的帝國廣場中央，周圍懸浮三重回憶投影——社會剝奪、身份背叛、創世原罪——逐層刺穿晴香的心理防線。這不是武力展示，是語言與記憶的處刑，她的中性表情顯示絕對的精算與克制。
 
 **所需原圖資源**：
 - 彩的魔法少女形態（作為黑奏容器基礎）
-- 帝國廣場的建築參考
-- 重力場、能量流的視覺效果參考
+- 帝國廣場的建築參考（扭曲/封鎖成處刑室的變體）
+- 記憶投影/全息回放的視覺效果參考（非武器特效）
 
 **生成提示**：
 ```
-Style: Photorealistic with cosmic magical elements; intimidating scale
-Mood: Absolute power; cosmic horror; reality breaking
-Colors: Deep purple-black (#2F0854), violet (#6B2C7D), white pressure waves, sickly green emotion tendrils
-Composition: Kuroshio centered; three weapons arranged geometrically around her; citizens in background
-Lighting: Multiple contradictory light sources; violet magical glow; silver light from reality cracks
-Special effects: Gravitational lensing; emotion tendrils with neural connections; reality fractures with chromatic aberration
+Style: Photorealistic with psychological-horror magical elements; courtroom/interrogation atmosphere rather than battle spectacle
+Mood: Cold, deliberate cruelty; moral execution rather than physical combat; the horror of memory used as a weapon
+Colors: Deep purple-black (#2F0854), violet (#6B2C7D) dominant on Kuroshio; each memory projection carries its own desaturated palette (commodification=sickly gold, betrayal=harsh broadcast-white/red, morning gap=pale dawn grey-blue)
+Composition: Kuroshio centered, calm and small; three memory-projection panels arranged in a semi-circle around her like evidence displays; Empire Plaza architecture warping inward to frame the scene as an execution chamber
+Lighting: Courtroom-like directional light on Kuroshio; each projection self-lit like a screen/hologram
+Special effects: Translucent memory-projection panels with slight chromatic aberration/static at the edges (representing recollection, not destruction); no gravitational lensing, no energy tendrils, no reality fractures
 Canvas: 3:4 portrait or 16:9 widescreen
 ```
 
@@ -553,10 +614,13 @@ Canvas: 3:4 portrait or 16:9 widescreen
 ## 圖4：「廢棄糖果工廠」（朱音 / Abandoned Candy Factory）
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyFactory.png`
+**依據版本**：`05_story_outline_canon.md` §Act II 關鍵節點1（CDL-236）、§英雄の刑場（CDL-237~242，E-12屍骸女王討伐）；`DIGEST_LOCATIONS.md` §2（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖4項）
 
 ### 劇情背景
 
-114年3月 Act III Phase G4。紫音（方曉彤）在 E-07b 事件後被主角團放逐，在廢棄糖果工廠獨自生活多月。她的心理狀態已進入屍骸女皇形態的中期——魔法戰鬥作為精神毒品的依賴（CDL-051）與因弟弟誤食情緒結晶而死的罪惡感（akane.md §甜蜜的屍體）共同扭曲了她對「甜蜜」的認知。她把整座工廠改造成自己的腐爛王國，糖晶硬殼從身體外溢，成為對童年失落的極端紀念物。晴香在 SPEC#103-104（糖果唐樓交易、下水道無聲重逢）的一連串努力後找到這裡，是 SPEC#10 糖果山犧牲前的最後一次相遇。
+`[TIME_REVISED]` 原稿標「114年3月 Act III Phase G4」有誤——依 canon，紫音放逐後自立為屍骸首領（廢棄糖果工廠+糖果王座）同「三位一體辯論」（E-07b）發生喺 **Act II 113年5-6月**；「屍骸女王討伐」（E-12，三重癱瘓矩陣道德拷問，主角團主動攻入廢棄糖果工廠）亦屬 **Act II** 事件，唔係 Act III Phase G4——Phase G4 實際地點係下水道（現有圖104 `ConceptArt_Scene_SilentReunionSewers.png` 已覆蓋）。
+
+正確時間點：**Act II 113年5-6月**。紫音（方曉彤）在小光之死（E-07a）與三位一體辯論（E-07b）後被主角團放逐，在廢棄糖果工廠自立為屍骸首領，開始獨自生活。她的心理狀態進入屍骸女皇形態——魔法戰鬥作為精神毒品的依賴（CDL-051）與因弟弟誤食情緒結晶而死的罪惡感（akane.md §甜蜜的屍體）共同扭曲了她對「甜蜜」的認知。她把整座工廠改造成自己的腐爛王國，懷抱屍骸化的小光（Type B 廢鐵型）作為存在宣言，糖晶硬殼從身體外溢，成為對童年失落的極端紀念物。此場景亦是後續「屍骸女王討伐」（E-12）——主角團主動攻入、三重癱瘓矩陣道德拷問令晴香徹底失語崩潰撤退——嘅同一物理地點。此場景與 Day14 帝國廣場糖果山犧牲（圖10）為同一角色弧光嘅前後兩個階段，但物理地點不同，不可混同。
 
 ### 圖片說明
 
@@ -591,41 +655,48 @@ Canvas: 3:4 portrait ratio
 
 ---
 
-## 圖5：「鏡像處刑室」（操 / Mirror Execution Chamber）
+## 圖5：「操的鏡前獨白」（操 / Misao's Mirror Monologue）
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_MirrorChamber.png`
+`[RENAMED — 2026-07-17]` 原標題「鏡像處刑室」棄用：此術語目前屬於 `ACT_II_OUTLINE.md`（CDL-317/CDL-335）美夜子 E-06 一度規劃使用嘅陷阱局名稱（⚠️ 2026-07-15 CDL-335 已將該陷阱局設計整個取消簡化，術語現時喺 canon 內其實冇任何 beat 在正式使用；但為避免歷史歧義/未來重新引用時撞名，操的場景仍改用新命名）。詳見 `CHANGE_LIST_EXISTING_SPEC.md` 圖5項。
+
+**建議輸出文件名**：`ConceptArt_Scene_Misao_MirrorMonologue.png`（原檔名 `ConceptArt_Scene_Misao_MirrorChamber.png` 建議棄用）
+**依據版本**：`ayakomoji_misao.md` §Body Horror 傀儡絲線縫牙分層設計（CDL-233 Stage 2a）、§鏡中層 Shadow Passion；CDL-231/232（紗夜遺言延遲呈現機制）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖5項）
 
 ### 劇情背景
 
-114年4月 Act III Phase H。SPEC#26（操被遺棄）的同一夜：父親啟動最後勒索，紗夜開槍犧牲掩護操逃離，雙重打擊令操進入半屍骸化狀態。屍骸化 CDL-233 Stage 2a 的核心症狀就是「形式執念的最終裂變」——操無心完美人偶的身體能擺出絕對正確的姿勢，卻無法感受冷暖，無法流淚。鏡像處刑室是這一心理狀態的物理具現：每塊鏡子映照她身體的一個完美切面（流血牙齦、縫合絲線、空洞靈魂），而她唯一確認「自己仍然是人」的方式，就是砸碎那面映照出「完美」的最後一塊鏡子，選擇回到殘缺但真實的身軀（SPEC#31），為 SPEC#1 鋼鐵獨舞做出最後決定。
+`[TIME_REVISED — Act II E-09a，非 Act III Phase H]` 原稿將「父親背叛+紗夜犧牲」（操被遺棄之夜）錯誤安放喺 114年4月 Act III Phase H，並與 CDL-298「被迫報串」（操向帝國交出隊伍坐標）混為同一夜。依 `ayakomoji_misao.md`，呢兩件事係完全不同時間、不同內容嘅事件：
+- **Act II 中期 E-09a（鏡像破碎之夜）**：父親啟動最後勒索、紗夜開槍犧牲掩護操逃離，雙重打擊令操進入半屍骸化 **Stage 2a**——操在巨大情感創傷中用傀儡絲把鬆動的牙縫回，強行維持外觀完整，是「形式執念」肉體層嘅起點；同一瞬間，紗夜臨終遺言被創傷性耳鳴封印（CDL-231/232）。本場景屬於呢一晚。
+- **Act III Phase H（114年4月，CDL-298 被迫報串）**：是另一件事——帝國以黑材料脅迫操交出隊友情報，冇紗夜、冇鏡子場景，見圖1「鋼鐵獨舞」劇情背景引用。
+
+操獨自面對鏡子，Stage 2a 的身體開始從內部崩壞卻仍保持無懈可擊的外表——冷靜地用絲線縫合鬆動的牙齒，鏡中浮現當晚破碎的片段：父親的背叛、紗夜倒下的剪影。她唯一能確認「自己仍在」的方式，就是繼續這個近乎儀式的自我修補動作。此場景是操「形式主義作為自我控制」弧光嘅肉體層起點，為後續 Stage 2b（摔碎時刻）、Stage 3（鋼鐵獨舞，圖1）鋪墊。
 
 ### 圖片說明
 
-操的身體因長期使用魔法而開始從內部崩壞，卻仍然保持著無懈可擊的外表。她獨自困在一個滿是鏡子的空間裡，每一面鏡子都映照出她完美形象下的真實——流血的牙齦、縫合的絲線、失去感覺的四肢。無法感受冷暖的她，最終選擇砸碎最後一面映出「完美」的鏡子，決定回到那個有缺陷但仍屬於她自己的身體。
+操的身體因這一夜的雙重創傷開始從內部崩壞，卻仍然保持著無懈可擊的外表——她獨自面對鏡子，用傀儡絲冷靜地把鬆動的牙齒縫回牙齦，妝容完整，嘴角滲血也不擦。鏡子的邊緣浮現當晚破碎的片段：父親轉身背叛的剪影、紗夜倒下的殘影。她無法讓自己崩潰，只能繼續這個近乎儀式性的自我修補動作，把死亡管理成一道可以繼續完成的工序。
 
 **Reference Images**：
-- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`（`[NOTE]` 原標記 `_Action` 後綴版本依 `DIGEST_REFERENCE_IMAGES.md` 為 `UNVERIFIED`，暫改用已存在檔案）
 
 **Creative Enhancements**：
-- Create impossible mirror chamber (multiple reflecting surfaces)
-- Show Misao as perfect doll-like reflection vs. broken reality beneath
-- Incorporate shadow figures (father, Sayo) as distorted reflections
-- Temperature contrast: cold mirror perfection vs. warm human desperation
-- Include shattered mirror moment (climax of breaking illusion)
+- Single bedroom/bathroom mirror scene (NOT an impossible multi-mirror chamber — that "shatter the final mirror" climax belongs to a later, separate scene: 操回歸人類身軀／SPEC#31)
+- Show Misao mid-stitching: puppet-string thread through gum line, calm/composed expression, doll-like precision in the ritual
+- Incorporate faint distorted echoes of father and Sayo at the mirror's edge (memory intrusion, not literal figures in the room)
+- Temperature contrast: cold mirror-lit precision vs. the raw wound of that night's betrayal, still fresh
+- `[NOTE]` 呢個場景**唔包含**「砸碎鏡子」嘅結局動作——嗰個屬於後續獨立場景（操回歸人類身軀），此處操仍處於「用完美修補逃避崩潰」嘅階段
 
 **簡化核心描述**：
-操在自己創造的鏡像完美中無法感受溫度與真實，四周都是扭曲的鏡像映照。最終她砸碎鏡子，選擇回歸殘缺的真實身體，而非完美的虛假人偶。
+操在鏡前用傀儡絲冷靜地縫合鬆動的牙齒，鏡子邊緣浮現父親背叛與紗夜倒下的破碎殘影。她無法讓自己崩潰，只能繼續這個近乎儀式性的自我修補動作——這是 Stage 2a「形式主義作為自我控制」的起點，不是终局。
 
 **所需原圖資源**：
-- 操的魔法少女形態與人偶形態對比
-- 鏡子房間的建築幻想參考
+- 操的魔法少女形態（過渡到 Stage 2a 半屍骸樣態）
+- 家居鏡台/浴室鏡子場景參考（非多鏡幻想房間）
 
 **生成提示**：
 ```
-Style: Surreal mirror-filled chamber; psychological horror; doll aesthetics
-Mood: Isolation in perfection; the desperate search for warmth; rejection of false ideals
-Colors: Cold silver mirrors, pale porcelain, distorted flesh tones in reflections
-Composition: Central figure surrounded by mirror frames; multiple reflections at different angles
+Style: Intimate mirror-side scene; psychological horror; doll aesthetics; restrained ritual rather than surreal chamber
+Mood: Isolation in precision; suppressed grief; the desperate maintenance of composure
+Colors: Cold silver mirror light, pale porcelain skin, faint warm-toned distorted echoes at mirror's edge (father/Sayo)
+Composition: Misao centered at a single mirror, mid-stitching gesture; faint ghostly reflections bleeding at the mirror's periphery
 Lighting: Harsh artificial light from nowhere; cold white glow
 Canvas: 1:1 square (mirrors) or 3:4 portrait
 ```
@@ -635,6 +706,7 @@ Canvas: 1:1 square (mirrors) or 3:4 portrait
 ## 圖6：「月下崩潰」（美夜子 / Moonlight Breakdown）
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_MoonlightBreakdown.png`
+**依據版本**：`DIGEST_CHARACTER_STATES.md` MY-S3；`ACT_III_OUTLINE.md` Phase H1.5 月下崩潰（2026-07-17 修正 reference 檔名，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖6項）
 
 ### 劇情背景
 
@@ -645,7 +717,7 @@ Canvas: 1:1 square (mirrors) or 3:4 portrait
 美夜子曾經真正死過，被人拼接復活後以貓的形態存在，99%的靈魂深處充滿無法宣洩的恐懼與哀痛。在這個滿月的夜晚，她坐在破碎的窗台邊，強迫自己直視「我還算是一個人嗎」的問題——月光照亮她身上每一道傷口，讓她無處可藏。她既不完全是人，也不完全是貓，只是一個被囚禁在自己身體裡的倖存者，在臨界點上孤獨地搖晃。
 
 **Reference Images**：
-- 美夜子（現成參考圖）：`gdffgfgfg.jpg`
+- 美夜子：`ConceptArt_Scene_Miyako_MoonlightBreakdown.png`（`[FIXED]` 原檔名 `gdffgfgfg.jpg` 為亂碼佔位檔名，已改用 `DIGEST_REFERENCE_IMAGES.md` 記錄嘅正式已存在檔案）
 
 **Creative Enhancements**：
 - Broken window frame with jagged shattered glass reflecting moonlight
@@ -692,10 +764,13 @@ Canvas: 16:9 landscape; high definition
 ## 圖7：「Fallen Angel 街道」（晴香 / Fallen Angel Street）
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_FallenAngel.png`
+**依據版本**：`ACT_II_OUTLINE.md` v0.11（CDL-317/CDL-335 changelog）；P-C06 彩「卡頓」plant（CDL-207）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖7項）
 
 ### 劇情背景
 
-113年4-5月 Act II Phase A，E-05 期間。Act I 期間晴香已與她以為是「彩」的轉校生建立了真摯友誼（CDL-082，「下次呢？」行為植入），完全不知道對方 90% 的時間是黑奏在控制身體（CDL-079，三大物理需求）。E-05 事件令美夜子認出重組後的凜，情緒衝擊波及整個主角團。就在這段高壓期間，晴香第一次在公開街道目睹「彩」的眼神變得完全空洞——傀儡式的空白，黑奏的掌控沒有掩飾完全。這是晴香首次被迫直視「彩不在了」的可能性，光幕濾鏡在她眼前開始破碎。這個場景是 SPEC#8 彩奪回身體的最遙遠的情感前置——晴香在這裡種下了「一定要把彩帶回來」的執念。
+`[CAUSAL_REVISED]` 原稿因果掛勾已過時：(1) 原本嘅 E-05a（總部被襲）已於 CDL-317 整個被移除；(2) 「美夜子認出重組後的凜」嘅觸發源後來一度改喺 E-06，但 CDL-335（2026-07-15）已將該陷阱局設計整個取消簡化，E-06 現時只係「美夜子護隊受傷——Glitch Form首次呈現」，同美夜子認凜、同晴香目睹彩眼神空洞都無關。E-05 本身（偽王道二戰）內容係假情緒承接第一段弧、傲慢種子、彩「卡頓」，冇提及美夜子認凜。
+
+`[NEEDS_FACT]`：晴香目睹「彩眼神空洞」呢個具體畫面，現行 outline 冇獨立成 beat，最接近嘅是 P-C06「彩卡頓」plant（CDL-207，黑奏系統讀不到非魔法愛而產生的短暫困惑/停頓）——標記位置為 **E-05[NC] + E-08[NC]**（未定案具體場景，僅為 plant 節點），非傀儡式空白眼神嘅完整揭露。本場景暫按「E-05 附近，彩卡頓 plant 的其中一次」處理，具體 beat 歸屬待 Beat Sheet 層設計確認。時代/地點（113年4-5月 Act II Phase A，日區街道）本身不變。Act I 期間晴香已與她以為是「彩」的轉校生建立了真摯友誼（CDL-082），完全不知道對方 90% 的時間是黑奏在控制身體（CDL-079）；晴香第一次在公開街道目睹「彩」出現短暫的空白/停頓，是她首次被迫直視「彩不對勁」的可能性，光幕濾鏡在她眼前開始破碎。這個場景是 SPEC#8 彩奪回身體的最遙遠的情感前置。
 
 ### 圖片說明
 
@@ -820,14 +895,17 @@ Canvas: 3:4 portrait ratio
 ## 圖10：「糖果山犧牲」（朱音 / Candy Mountain Sacrifice）
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyMountain.png`
+**依據版本**：`ACT_III_OUTLINE.md` E-III-I3（CDL-218）；`DIGEST_LOCATIONS.md` §1/§13（2026-07-17 修正地點，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖10項）
 
 ### 劇情背景
 
-114年5月 Act III Phase I Day 14，嘆息之橋。Day 13 操化為人偶牆犧牲後，帝國以公開廣播宣佈紫音（方曉彤）為清剿目標（CDL-217，SPEC#BB 公告夜）——那是一夜靜止的死刑等待感。Day 14，紫音在雙重代價的重壓下——弟弟誤食結晶的罪惡感、以及守護小光這個「弟弟替代」的最後執念——選擇以過載變身的方式讓心之器燃盡（akane.md §魔法即病症）。她的身體在能量爆發中化為糖晶，在嘆息之橋旁形成永久的糖果山地標，成為 Act IV 新世界的一部分。小光的安全是她能以「我終於用力量做了一件對的事」作結的唯一支撐點。
+`[LOCATION_REVISED]` 原稿地點「嘆息之橋」有誤——依 `DIGEST_LOCATIONS.md` §13，「嘆息之橋」係 Act III 雙重代價事件（操+紫音雙殺）嘅**隱喻總稱**，唔係實體橋樑。紫音 Day14 犧牲場景嘅實際物理地點是**帝國廣場**（主角團冒死進入刑場救援）；糖果山是帝國廣場刑場內因紫音過載而形成嘅結晶化地標，非獨立橋樑場景。
+
+114年5月 Act III Phase I Day 14，**帝國廣場**。Day 13 操化為人偶牆犧牲後，帝國以公開廣播宣佈紫音（方曉彤）為清剿目標（CDL-217，公告夜）——那是一夜靜止的死刑等待感。Day 14，主角團冒死進入帝國廣場刑場救援，紫音見證自己被無條件拯救後主動過載——在雙重代價的重壓下（弟弟誤食結晶的罪惡感、守護小光這個「弟弟替代」的最後執念），選擇讓心之器燃盡（akane.md §魔法即病症）。她的身體在能量爆發中化為糖晶，在帝國廣場刑場內形成永久的糖果山地標，成為 Act IV 新世界的一部分。遺言「我唔想再一個人食飯」；小光的安全是她能以「我終於用力量做了一件對的事」作結的唯一支撐點。
 
 ### 圖片說明
 
-朱音背負著弟弟因為她的錯而死去的罪惡感，又在眼前再次失去了她當成弟弟般守護的小光。此刻她選擇燃盡自己最後的魔法力量，讓身體在爆發的能量中化為永久的糖晶地標——不是因為她想死，而是因為她終於找到了一件「用自己的力量做對的事」，可以帶著這個心情離開了。她的犧牲在嘆息之橋旁永遠留下一座糖果山，成為這座城市的一部分。
+朱音背負著弟弟因為她的錯而死去的罪惡感，又在眼前再次失去了她當成弟弟般守護的小光。在帝國廣場刑場，她見證主角團冒死趕來救她，此刻她選擇燃盡自己最後的魔法力量，讓身體在爆發的能量中化為永久的糖晶地標——不是因為她想死，而是因為她終於找到了一件「用自己的力量做對的事」，可以帶著這個心情離開了。她的犧牲在帝國廣場刑場永遠留下一座糖果山，成為這座城市的一部分。
 
 **Reference Images**：
 - 朱音（過載前）：`ConceptArt_Akane_MagicalGirl.png`
@@ -838,22 +916,22 @@ Canvas: 3:4 portrait ratio
 - Energy explosion creating candy mountain terrain beneath her
 - Hikari's safety visible at cost of Akane's self-destruction
 - Color transition: warm human pink CRYSTALLIZING into brittle candy amber
-- Background: Sigh Bridge location becoming candy landmark
+- Background: Empire Plaza execution ground becoming candy landmark (black+gold imperial architecture, NOT a bridge)
 
 **簡化核心描述**：
-朱音過載變身，身體在能量爆發中化為糖晶硬殼，壯麗而悲劇地成為嘆息之橋旁的糖果山紀念碑。這是她為了保護小光而付出的最終代價。
+朱音過載變身，身體在能量爆發中化為糖晶硬殼，壯麗而悲劇地成為帝國廣場刑場內的糖果山紀念碑。這是她為了保護小光而付出的最終代價。
 
 **所需原圖資源**：
 - 朱音的過載變身形態
 - 結晶化/糖果化的視覺轉變參考
-- 嘆息之橋的環境背景
+- 帝國廣場（黑金主色調、皇家刑場）的環境背景
 
 **生成提示**：
 ```
 Style: Explosive transformation; crystallization effect; tragic monument
 Mood: Sacrifice; overload; the price of love; beautiful ending
-Colors: Warm pink transitioning to amber, honey, and translucent candy gold; warm sunlight
-Composition: Figure at center; energy explosion creating mountain shape; bridge visible in background
+Colors: Warm pink transitioning to amber, honey, and translucent candy gold against Empire Plaza's black-and-gold palette; warm sunlight breaking through imperial gloom
+Composition: Figure at center; energy explosion creating mountain shape; Empire Plaza execution ground architecture visible in background
 Lighting: Golden sunlight catching crystalline surfaces; backlit glow
 Special effects: Crystallization spreading effect; energy particles; light refraction through crystal
 Canvas: 3:4 portrait or widescreen to show landscape
@@ -871,22 +949,21 @@ Canvas: 3:4 portrait or widescreen to show landscape
 
 ### 劇情背景
 
-玻璃庭院茶會係 Act II 幕末最後一個 beat（CDL-202）。晴香完成與夕的和解、完成儀式性剪髮之後，主角團短暫以為迎來轉機。黑奏透過彩的身體邀請眾人赴帝國塔頂溫室茶會，表面溫柔精緻，卻在場中強行滲出冰冷聲線（萬花筒法則觸發，CDL-246），以詛咒型超現實宣告切斷虛假希望——「偽三幕黎明」在此碎裂，直墜 Act III。此場景亦是黑奏精密節點校準計劃的最後一步（CDL-079），黑奏以 148 cm 幼童真身潛伏於帝國精緻美學之下，「以美麗包裝制度性碾壓」的終極形象在此凝固（CDL-198）。
+玻璃庭院茶會係 Act II 幕末最後一個 beat（Beat Act II-XX，CDL-202），114年3月，「虛假的黎明」三段序列（E-15→Act II-XX→E-16）中段。晴香完成與夕的和解、完成儀式性剪髮之後（E-15），主角團短暫以為迎來轉機。彩邀請主角團赴茶會，表面溫柔精緻，卻在場中被黑奏強行滲出冰冷聲線（詛咒型切斷機制，CDL-246），以超現實宣告切斷虛假希望——「偽三幕黎明」在此碎裂，直墜 Act III（緊接 E-16 EMB 鐵桶包圍）。此時「彩/黑奏同一人」尚未向觀眾/主角團正式確認（AKS 進程 P1 仍在積累階段，要到 Act III 前才確認），故此場景中在場的仍是「彩」這個人物身份，由黑奏在背後操控／透過彩的身體滲出聲線，唔係黑奏以自己嘅「皇袍/全覆蓋帝國面具」真身現身——ACT_II_OUTLINE 原文冇提及任何「皇袍」或「幼童身軀暴露」描寫，呢個係本次審計發現嘅角色形態誤植（見下方修正說明）。
 
 ### 圖片說明
 
-主角們以為終於迎來了喘息的機會，受邀參加帝國塔頂溫室的精緻茶會，玻璃構造映照著整座城市，光線優雅卻冷漠。黑奏偽裝成彩坐在桌邊，皇袍掩蓋著一個幼童的身軀，她的笑容完美得令人不安。這場茶會是友善假象的最後一幕，裂縫將隨時出現。
+主角們以為終於迎來了喘息的機會，受邀參加帝國塔頂精緻茶會，玻璃構造映照著整座城市，光線優雅卻冷漠。彩坐在桌邊招待眾人，笑容溫柔得體——直到某一刻，一把不屬於彩的冰冷聲線從她口中滲出，宣告一切根本沒有結束。這場茶會是友善假象的最後一幕，裂縫瞬間拆穿。
 
 **Reference Images**：
-- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
-- 環境參考：帝國塔頂溫室
+- 彩（第一形態／被控制形態）：`ConceptArt_Aya_MagicalGirl_1.png`（本場景彩仍以自身外觀出現，黑奏尚未真身現身，故不應使用「第二形態／真身覺醒後」）
 
 **簡化描述**（150-200字）：
-帝國塔頂的透明溫室，Kuroshio 以皇袍遮掩的幼女真身現身。玻璃構造映照三人與城市，光線冷漠而壓抑。這場茶會是最後的虛偽友善，暴露將至。
+帝國塔頂的透明溫室茶會，彩以自身外觀待客，玻璃構造映照三人與城市，光線冷漠而壓抑。黑奏聲線突然從彩口中滲出宣告一切未完——這場茶會是最後的虛偽友善，暴露將至。
 
 **所需原圖資源**：
-- 彩的魔法少女形態
-- 玻璃建築的透明感參考
+- 彩的魔法少女形態（被控制形態）
+- 玻璃建築的透明感參考——帝國塔頂溫室具體空間造型 canon 未落實，`[NEEDS_FACT: 見 DIGEST_LOCATIONS.md §5，黑金+紫水晶美學延伸屬合理推斷但非confirm canon]`
 
 ---
 
@@ -917,31 +994,32 @@ Canvas: Widescreen to emphasize landscape scope
 
 ---
 
-### 圖13：「靜止搖籃終局」（Static Cradle Final）
+### 圖13：「三位一體永恆守護者終局」（Eternal Trinity Guardian Final）`[跨批次覆核修正 2026-07-17]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_StaticCradle.png`
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_TrinityGuardian.png`
+**依據版本**：`haruka.md`§第四幕（CDL-326）（2026-07-17 跨批次覆核修正，見 CHANGE_LIST_EXISTING_SPEC.md「圖13/50 跨批次覆核修正」項）
 
 ### 劇情背景
 
-Act IV 高潮，晴香主動摧毀變身裝置（CDL-187），以「不再逃避的承擔」切斷黑奏以逃避能量為基礎的力量來源。當黑奏計劃瓦解、世界從緋潮裂縫邊緣退場，晴香選擇以粒子化的方式成為新世界的物理錨點——不是英雄式的終結，而是榮格個體化過程（CDL-066）的最終具現：曾經「改變現實以逃避痛苦」的晴香，此刻以自我消散的方式承接世界、不再投射。此場景是全作「態度 vs 命運」主題的最深層體現：命運賦予的是粒子化，晴香的選擇是如何粒子化。前置事件為夕達成和解消散（CDL-003）、彩放下復活螢執念（CDL-186）。
+`[重大概念修正]` 本場景原依據 `ACT_III_OUTLINE.md` 文末「移出 Act III scope」附錄嘅「粒子化消散、失去自我」舊稿概念，僅標記草稿性質但未完全覆核。跨批次覆核（批次6審計圖54時）發現：`haruka.md`§第四幕原文明確寫「覺醒且保留全部記憶（**CDL-326，取代舊稿『覺醒但失去記憶』嘅靜止搖籃版本**）」——即係「粒子化消散、失去自我邊界成為世界本身」呢個舊結局框架已被正式取代，並非只係「未批核草稿」，而係已有更新版本嘅確認結論。CDL-326 確認嘅第四幕終局：晴香主動選擇同集體潛意識源頭（L3冥河）完全融合，成為「三位一體永恆守護者」——世界的情緒濾網，承接並轉化集體潛意識的負面情緒，溫柔守護仍然存在嘅魔法屍骸（唔強行令佢哋變返原狀，而係陪住佢哋），**但意識清醒、保留全部記憶，選擇仍在**。前置事件為夕達成和解消散（CDL-003屬夕本人終局，非晴香）、彩放下復活螢執念（CDL-186）。「態度 vs 命運」主題嘅最深層體現改為：命運賦予嘅係永久失去普通人生活嘅資格，晴香嘅選擇係以清醒意志撐住呢個永恆狀態——而非被動消融。`[NEEDS_FACT]`：具體轉化過程嘅視覺分鏡（是否仍有階段性漸進呈現）canon 未細述，待 Act IV Outline / Beat Sheet 正式設計。
 
 ### 圖片說明
 
-晴香曾經是那個不斷改變現實去逃避痛苦的少女，但此刻她做出了截然相反的選擇——不再逃避，而是讓自己的意識消融、化為承載所有人情緒的錨點，讓世界在她無意識的搖籃曲中永恆循環。她的身體化為無數光點飄散，不再是一個人，而是成為了世界本身的一部分。
+晴香曾經是那個不斷改變現實去逃避痛苦的少女，但此刻她做出了截然相反的選擇——不是消融自我、失去意識，而是**保留完整意識與記憶**，主動選擇同集體潛意識源頭完全融合，成為「三位一體永恆守護者」——世界的情緒濾網，永久承接並轉化所有人的負面情緒，溫柔守護仍然存在嘅魔法屍骸。純白髮，近乎透明的灰白瞳孔，服裝融合了夕的黑色元素。情感徹底耗損後的「空殼感」蛻變為神性嘅承載，但眼神/姿態始終保有清醒意識——這是她主動選擇撐住的永恆狀態，不是被命運消融的終結。
 
 **Reference Images**：
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`（轉變參考）
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`（轉變參考，`[NO_REF — 三位一體守護者形態暫無專屬 reference，基準外觀以最新 canon 為準，生成時另查]`）
 
 **簡化描述**（150-200字）：
-晴香在最終時刻化身靜止搖籃，身體粒子化為光點，成為新世界的錨點與基礎。她不再是主角，而是世界本身——一個永遠循環播放的搖籃曲。
+晴香在最終時刻主動選擇同集體潛意識源頭融合，成為保留意識同記憶嘅「三位一體永恆守護者」——世界的情緒濾網，永久守護仍存在嘅魔法屍骸。她不再是主角，而是世界的情緒濾網本身，但選擇、意志、清醒始終都在。
 
 **生成提示**：
 ```
-Style: Transcendent moment; particle dissolution; cosmic becoming
-Mood: Transcendence; sacrifice of individual to become universal; farewell
-Colors: Soft gold, cyan, white particles; fading warmth
-Composition: Figure dissolving into particles; light trailing upward
-Special effects: Particle dissolution; light trails; cosmic scale
+Style: Transcendent moment; conscious sublimation, not dissolution; cosmic becoming
+Mood: Transcendence with retained awareness; deliberate eternal vigil; farewell with clarity, not loss of self
+Colors: Pure white hair, near-transparent pale grey eyes, black accents (fused with Yu's aesthetic); soft gold and cyan ambient glow
+Composition: Figure standing/anchored in cosmic space, eyes open and aware, posture of deliberate choice rather than dissolving particles
+Special effects: Faint particle-like light at edges (transformation, not disintegration); light trails; cosmic scale
 Canvas: 3:4 portrait or square (world-forming)
 ```
 
@@ -983,11 +1061,11 @@ Canvas: Widescreen (16:9) for side-by-side comparison
 
 ### 劇情背景
 
-朔（白銀朔）在 Act I 以校霸身份出現（CDL-025），Act II 起逐步升級為主角團的夜區無聲盟友（CDL-255）。日區白色特務身份係帝國情緒管理局制度面具，夜區綠松石獵人係在制度縫隙中維持人性的真實角色。Act II Phase D 期間，朔在夜區暗中為主角團提供黑市物資補給路線（CDL-255），同時親眼目睹晴香在半屍骸化壓力下的真實掙扎（CDL-260 「見証之夜」），完成從「冷血獵人」到「心理認可者」的不可逆轉點。此場景所呈現的雙重身份，是帝國制度如何逼迫個體在合謀與反抗之間維持生存均衡的最直接視覺化。
+`[WRONG，已修正]` 原文標「朔在 Act I 以校霸身份出現（CDL-025）」，同 canon 直接矛盾——`saku.md`（CDL-086/090）明確：「Act I 出場方式：學校場景完全無朔（避免資訊過載）。Act I 後段夜區（E-03前後）：朔以純『屍骸獵人』姿態短暫影子過場——無身份說明，無對話，觀眾只知道有一個神秘戰鬥者。帝國特工白西裝身份、既視感追認全部推至 Act II 正式引爆。」即 Act I 完全冇「校霸」呈現，日區特工身份要到 Act II 先正式揭露。Act II 起，朔逐步升級為主角團的夜區無聲盟友：Phase D 期間暗中為主角團提供黑市物資補給路線（CDL-255），亦曾在愛莉潛意識風暴（E-11）中例外破例現身介入危機（見 rin.md §中段踏腳石），親眼目睹晴香在半屍骸化壓力下的真實掙扎（「困獸的慈悲——見証之夜」，圖88場景），完成從「冷血復仇者」到「心理認可者」的不可逆轉點。日區白色特務身份係帝國情緒管理局制度面具，夜區綠松石獵人係在制度縫隙中維持人性的真實角色——此雙重身份對比本身無誤，只係「Act I 已出現」嘅時間點錯誤，須改為「Act II 正式揭露，Act I 僅有無身份神秘剪影」。
 
 ### 圖片說明
 
-朔白天以帝國特工的身份出現——白色制服、冷靜的眼神；夜晚則換上綠松石色的獵人裝備，在城市陰暗處以另一套規則生存。這兩個身份都是她在帝國制度下為了活下去而必須維持的面具，但當日與夜的交界出現，兩個自己撕裂又共存的代價，就沒有辦法再藏起來了。
+朔在 Act II 起逐漸向觀眾展開她的雙重身份——日間以帝國特工姿態出現，白色制服、冷靜的眼神；夜晚則換上綠松石色的獵人裝備，在城市陰暗處以另一套規則生存（Act I 她只以無名神秘戰鬥者剪影短暫掠過，冇人知道呢係同一個人）。這兩個身份都是她在帝國制度下為了活下去而必須維持的面具，但當日與夜的交界出現，兩個自己撕裂又共存的代價，就沒有辦法再藏起來了。
 
 **Reference Images**：
 - 朔：`ConceptArt_Saku_CasualWear.png`
@@ -1012,17 +1090,17 @@ Canvas: Widescreen or square
 
 ### 劇情背景
 
-操的形式主義強迫症根源（CDL-063）：既然被魔法少女身份定義，消滅怪物就係必須遵守的全套戲碼，否則恐慌假身份穿崩。燈塔效應（CDL-064）令操啟動裝置後無法不戰鬥，廢棄工廠遂成孤身演出的舞台。此時期操已進入 Body Horror Stage 2b「人偶化狀態」（CDL-233）——Act II Phase D 六個月地下化期間，外表依然完美（傀儡絲縫牙保持），靈魂卻逐步冷化離體，每次與晴香的衝突後都選擇進一步「自我修復」成人偶。獨舞的完美和孤獨對應的正是操深層心理：「存在本身是表演，需要觀眾和明確規則，獨處時崩潰」（CDL-050）。Act III Day 13 鋼鐵獨舞係此弧線的最終 payoff。
+操的形式主義強迫症根源（CDL-063）：既然被魔法少女身份定義，消滅怪物就係必須遵守的全套戲碼，否則恐慌假身份穿崩。燈塔效應（CDL-064）令操啟動裝置後無法不戰鬥。此時期操已進入 Body Horror Stage 2b「人偶化狀態」（CDL-233）——Act II Phase D 六個月地下化期間，外表依然完美（傀儡絲縫牙保持），靈魂卻逐步冷化離體，每次與晴香的衝突後都選擇進一步「自我修復」成人偶。獨舞的完美和孤獨對應的正是操深層心理：「存在本身是表演，需要觀眾和明確規則，獨處時崩潰」（CDL-050）。**與圖1「鋼鐵獨舞」區分**：圖1係 Act III Day13 學校瓦礫嘅 Stage 3 終局場景（黑奏撬嘴揭露+紗夜遺言回流+縫入人偶牆）；本場景係 Phase D 地下化六個月間反覆發生嘅 Stage 2b 麻木化獨舞，屬過程性場景非終局，兩者唔係同一事件。`[NEEDS_FACT]` 具體獨舞場地——canon（`ayakomoji_misao.md`）未明確指定 Phase D 獨舞地點係「廢棄工廠」，此為沿用舊 spec 描述、未見 canon 明確支持，生成時應視為合理推斷而非已confirm事實。
 
 ### 圖片說明
 
 操從小被教導必須以完美表演換取安全，魔法少女的身份也成了她必須照本宣科演出的另一套戲碼。她在廢棄工廠裡獨舞，傀儡絲纏繞著身體，動作精確卻空洞——她的身體知道怎麼跳，但靈魂已經不在了。她需要觀眾、需要規則才能存在，而此刻沒有人看她，只有冷色的工業廢墟見證著她的孤獨。
 
 **Reference Images**：
-- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`（原引用 `ConceptArt_Misao_MagicalGirl_Action.png` 依 `DIGEST_REFERENCE_IMAGES.md` 標 `UNVERIFIED`，repo 內搵唔到，改用已存在版本；如需獨舞動作專屬圖仍待另行產出）
 
 **簡化描述**（150-200字）：
-操在廢棄工廠中獨舞，傀儡絲綾麗而危險地纏繞身體。她的舞蹈完美但詭異，控制與自由的邊界已然模糊。背景冷色工業感襯托孤獨的芭蕾。
+操在工廠廢墟中獨舞（Phase D 地下化期間反覆發生，非圖1嘅 Day13 終局場景），傀儡絲綾麗而危險地纏繞身體。她的舞蹈完美但詭異，控制與自由的邊界已然模糊。背景冷色工業感襯托孤獨的芭蕾。
 
 **生成提示**：
 ```
@@ -1105,17 +1183,17 @@ Canvas: Square or widescreen
 
 ### 劇情背景
 
-帝國廣場決戰係 Act III Day 14 的核心事件（CDL-217/218）。紫音在此被帝國以「終極變異體」名義公開處刑（CDL-216），晴香與美夜子殺入刑場救援——卻在紫音自爆化為糖果山犧牲之後，面對比想象中更龐大的崩塌：黑奏在場中開始三武器揭露（CDL-266），帝國廣場的「決戰」轉為對晴香的精神審判。場景崩塌係緋潮裂縫具現（CDL-289 因果閉環開始運行）、亦是晴香「偽王道覺醒」被徹底摧毀（CDL-199）的視覺表達。連失操（Day 13）與紫音（Day 14）的極端悲痛、黑奏攤牌的邏輯屠殺，令決戰假象在頂點瞬間碎裂。
+`[WRONG，已修正]` 原文「黑奏在場中開始三武器揭露（CDL-266）」概念錯誤，已依圖3審計結果同步修正——canon 設計係「三重道德處刑」（語言/回憶攻擊：武器②社會剝奪→武器①身份背叛→武器③創世原罪），唔係物理力量展示，詳見圖3條目。帝國廣場決戰係 Act III Day 14 的核心事件（CDL-217/218）。紫音在此被帝國以「終極變異體」名義公開處刑（CDL-216），晴香與美夜子殺入刑場救援——卻在紫音自爆化為糖果山犧牲之後，面對比想象中更龐大的崩塌：黑奏在場中對晴香展開三重道德處刑（CDL-266，見圖3），帝國廣場的「決戰」轉為對晴香的精神審判。場景崩塌係緋潮裂縫具現（CDL-289 因果閉環開始運行）、亦是晴香「偽王道覺醒」被徹底摧毀（CDL-199）的視覺表達。連失操（Day 13，學校瓦礫人偶牆，見圖1）與紫音（Day 14，帝國廣場糖果山，見圖10）的極端悲痛、黑奏攤牌的道德處刑，令決戰假象在頂點瞬間碎裂。此刻「彩/黑奏同一人」尚未由彩本人奪回控制（彩奪回身體屬後續 E-III-J8，見圖8），本場景中執行處刑嘅係黑奏操控下嘅身體，非彩本人清醒狀態。
 
 ### 圖片說明
 
-兩天之內晴香連續失去了隊友，帶著這份極端悲痛衝進帝國廣場的她以為迎來了最終決戰，卻發現眼前的「勝利」是一場謊言——廣場在她們腳下崩塌，建築扭曲，市民凝滯，黑奏攤開了一切底牌。真正的戰鬥從來不是她以為的那樣，而這個認識，比任何物理打擊都要致命。
+兩天之內晴香連續失去了隊友，帶著這份極端悲痛衝進帝國廣場的她以為迎來了最終決戰，卻發現眼前的「勝利」是一場謊言——廣場在她們腳下崩塌，建築扭曲，市民凝滯，黑奏透過回憶投影逐層攤開了一切底牌。真正的戰鬥從來不是她以為的那樣，而這個認識，比任何物理打擊都要致命。
 
 **Reference Images**：
-- 彩（第二形態）：`ConceptArt_Aya_MagicalGirl_2.png`
+- 彩（第一形態／被控制形態）：`ConceptArt_Aya_MagicalGirl_1.png`（本場景彩仍未奪回身體控制權，唔應使用「第二形態／真身覺醒後」；如需呈現黑奏操控者面貌，另見黑奏相關 reference，`ConceptArt_Kurokane_Emperor.png` 為 `UNVERIFIED`）
 
 **簡化描述**（150-200字）：
-帝國廣場決戰頂點瞬間崩塌——偽勝利的假象碎裂，色彩消失，寂靜地震。晴香隊伍發現真正的敵人不是想像的那樣，世界的邏輯完全改變。建築扭曲，市民凝滯。
+帝國廣場決戰頂點瞬間崩塌——偽勝利的假象碎裂，色彩消失，寂靜地震。黑奏對晴香展開三重道德處刑（回憶/真相投影，非物理武器），晴香隊伍發現真正的敵人不是想像的那樣，世界的邏輯完全改變。建築扭曲，市民凝滯。
 
 **生成提示**：
 ```
@@ -1136,11 +1214,11 @@ Canvas: Widescreen to show epic scale
 
 ### 劇情背景
 
-愛莉的紙皮騎士形態係前史事故遺留的靈魂形態，亦是紙皮騎士→魔法少女騎士形態的唯一視覺連結（CDL-013）。在集體潛意識風暴（CDL-188/252）中，愛莉石像在日區實驗室同步出現深裂痕流出深紅色液體（CDL-256），潛意識空間中的紙皮騎士在絕命關頭具現化一瞬、以紙劍強行擋下攻擊——代價係盔甲崩碎一大半。此場景讓晴香首次將「夢中守護者+石像裂痕」連成一線（CDL-256 Layer 2 揭示前置），是守恆定律代價可見化的最直接情感爆發點：這個孩子一直用靈魂之盾保護著眾人，而所有人直到此刻才知道。
+`[OUTDATED，已修正]` 原文將本場景籠統標為「集體潛意識風暴（CDL-188/252）」，同 E-11 全面風暴（圖12「集體潛意識之城」）混淆。依 `ACT_II_OUTLINE.md` Sub-beat E-10b（CDL-256，113年9月，E-11 前數日），本場景實際係一個獨立、更早、更短暫嘅單一時刻，唔係 E-11 嘅持續性風暴守護：夢中一直沉默的紙皮騎士（愛莉）突然在現實裂縫中具現化一瞬，用紙劍強行擋下攻擊——盔甲崩碎一大半；同一瞬間，愛莉石像在日區實驗室同步出現深裂痕、流出深紅色液體。此為晴香首次將「夢中守護者+石像裂痕」連成一線，為數日後 E-11 風暴全面爆發做最後情感鋪墊。愛莉的紙皮騎士形態係前史事故遺留的靈魂形態（CDL-013）。**與圖12區分**：圖12「集體潛意識之城」係 E-11 本身（113年9-10月，全面風暴、紙皮騎士持續守護隊伍）；本場景係 E-11 前數日嘅單一防禦瞬間（E-10b），規模同性質都唔同，唔可以互相替代。
 
 ### 圖片說明
 
-愛莉是一個以石像形式存在的小女孩，長期默默承受著整座城市所有被壓抑的情緒，沒有任何人知道她為此付出了多大的代價。在眾人陷入最絕望的夢境暴風之中，她以紙板盔甲和紙劍出現，用一個孩子所能給予的最大力量擋住了攻擊——代價是盔甲崩碎大半，而在她存在的地方，石像也同時出現了深深的裂縫。
+愛莉是一個以石像形式存在的小女孩，長期默默承受著整座城市所有被壓抑的情緒，沒有任何人知道她為此付出了多大的代價。在一次現實裂縫的瞬間，她以紙板盔甲和紙劍具現化，用一個孩子所能給予的最大力量擋住了攻擊——代價是盔甲崩碎大半，而在她存在的地方，石像也同時出現了深深的裂縫。這是全面風暴爆發前的最後一次獨自守護。
 
 **簡化描述**（150-200字）：
 穿著紙盔甲的愛莉（小女孩形態），手持紙盾守護隊友對抗集體潛意識風暴。紙盔甲看起來脆弱但堅定，這是夢境中愛莉能提供的最大保護——希望本身。
@@ -1195,7 +1273,7 @@ Canvas: 16:9 portrait
 
 ### 劇情背景
 
-小光（Ko Hikaru）係紫音在夜區遇到的流浪少年，成為她情感腐化弧中唯一真心連結者。E-07a 事件（CDL-229）：小光在戒斷發作中意外死亡，紫音目睹。此係紫音 cascade 的起點——黑奏立刻介入「誘導解讀」，從情感創傷缺口滲入，令紫音的情緒毒品 Coping 策略面臨崩潰。小光屍骸化後，紫音在 E-07b 進入廢棄糖果工廠建立屍骸樂園，長期懷抱已屍骸化的小光坐在糖果王座上（CDL-236）。E-12「屍骸女王討伐」時，小光在紫音懷中徹底最終消散（CDL-242），成為引爆紫音三位一體終極問題的導火線，亦是整個紫音悲劇弧中最深的珍寶珠符號回收節點（CDL-226）。
+小光（Ko Hikaru）係紫音在夜區遇到的流浪少年，成為她情感腐化弧中唯一真心連結者。E-07a 事件（113年5月，CDL-229）：小光在戒斷發作中意外死亡，紫音目睹。此係紫音 cascade 的起點——黑奏立刻介入「誘導解讀」，從情感創傷缺口滲入，令紫音的情緒毒品 Coping 策略面臨崩潰。**本場景視覺化的正是 E-07a 呢一刻本身**（小光死亡瞬間、身體轉化為廢鐵型屍骸）。小光屍骸化後，紫音在 E-07b 進入廢棄糖果工廠建立屍骸樂園，長期懷抱已屍骸化的小光坐在糖果王座上（CDL-236）——此為另一獨立時刻，見 SPEC#4。到 113年12月-114年1月 E-12「屍骸女王討伐」時，小光在紫音懷中徹底最終消散（CDL-242）——此為第三個、時間上分開好幾個月嘅獨立時刻（目前 130 場景清單未有專屬 spec 覆蓋），成為引爆紫音三位一體終極問題的導火線，亦是整個紫音悲劇弧中最深的珍寶珠符號回收節點（CDL-226）。呢三個時刻（E-07a死亡→E-07b屍骸樂園棲身→E-12最終消散）唔可以喺 spec 撰寫時混為同一場景。
 
 ### 圖片說明
 
@@ -1222,7 +1300,7 @@ Canvas: 3:4 portrait or widescreen
 
 ### 劇情背景
 
-Act II Phase C（帝國歷 113 年 9 月），黑奏以彩的身份滲透晴香身邊已久，校園成為長達 14 天「恐怖家家酒」的主要場域（CDL-188）。黑奏的策略是將學校轉化為情緒壓力爐——令數千師生在強制壓抑的恐懼中持續生產情緒廢料，同時作為採集晴香情緒數據的近距離節點（CDL-079 三大需求之「節點校準」與「挖礦」）。晴香與「彩」（黑奏主導）在校園裡維持表面日常，但每一次互動底下都是黑奏精密的計算（CDL-081 天台午餐場景）。此場景是恐怖家家酒高壓期的環境縮影，payoff 於 Act III 彩覺醒——觀眾回看所有「日常」，原來都是精密偽裝。
+**[已修正 2026-07-17]** Act II Phase B（帝國歷 113 年 5-6 月），黑奏以彩的身份滲透晴香身邊已久，校園成為長達 14 天「恐怖家家酒」（Beat E-08，CDL-188 G2=A）的主要場域——原文誤標「Act I，113年4月，CDL-082/E-03」，依 `ACT_II_OUTLINE.md` E-08（行251）「恐怖家家酒」14天高壓事件明確屬 Act II Phase B，CDL-082/E-03 為 Act I 另一件事，同本場景無關，已更正。黑奏的策略是將學校轉化為情緒壓力爐——令數千師生在強制壓抑的恐懼中持續生產情緒廢料，同時作為採集晴香情緒數據的近距離節點（CDL-079 三大需求之「節點校準」與「挖礦」）。晴香與「彩」（黑奏主導）在校園裡維持表面日常，但每一次互動底下都是黑奏精密的計算（CDL-081 天台午餐場景）。此場景是恐怖家家酒高壓期的環境縮影，payoff 於 Act III 彩覺醒——觀眾回看所有「日常」，原來都是精密偽裝。
 
 ### 圖片說明
 
@@ -1253,7 +1331,7 @@ Canvas: Widescreen to show full classroom space
 
 ### 劇情背景
 
-Act II-III 期間，凜以黑奏重組後的「Unit 00」形態出現——靈魂碎片被冰封於 EMB 裝置，記憶語義被清除，只剩身體記憶殘痕（rin.md §被重組段落，CDL-215）。她被作為情緒管理局公務員重新具現化，在制度框架下執行魔法少女回收任務，個體特異性被徹底抹除。她不記得美夜子，不記得犧牲，只剩下脖子上淡淡的紅線縫痕，以及在接觸冰藍色魔法時心跳短暫停頓的身體反應。此場景展示了帝國對一個人完整人格的系統性消化：凜曾是溫柔偶像，最終成為制度的執行面孔。payoff 於 Act III 凜拒絕治癒（CDL-215 E-III-02）——她見過一切，仍主動選擇清除感情。
+**[已修正 2026-07-17]** 凜以黑奏重組後的「情緒管理局公務員」形態出現——靈魂碎片被冰封於 EMB 裝置，記憶語義被清除，只剩身體記憶殘痕（rin.md §被重組段落，CDL-215）。**時間點澄清**：依 `DIGEST_CHARACTER_STATES.md` R-S1 及 `rin.md`，凜嘅重組發生於 108 年（死亡後），**Act I 開場時已經完成**，此形態貫穿 Act I 全程，並非「Act II Phase A，E-05」嘅事件——E-05（113年4月，偽王道二戰）內容同凜完全無關，原文引用 CDL-215/E-05 屬誤植，已更正為背景狀態描述，唔綁定單一 beat。她被作為情緒管理局公務員重新具現化，在制度框架下執行魔法少女回收任務，個體特異性被徹底抹除。她不記得美夜子，不記得犧牲，只剩下脖子上淡淡的紅線縫痕，以及在接觸冰藍色魔法時心跳短暫停頓的身體反應（此身體反應實際觸發於 Act II E-11 愛莉風暴期間近距離接觸美夜子時，見 `ACT_II_OUTLINE.md` 行572）。此場景展示了帝國對一個人完整人格的系統性消化：凜曾是溫柔偶像，最終成為制度的執行面孔。payoff 於 Act III 凜拒絕治癒（CDL-215 E-III-H2）——她見過一切，仍主動選擇清除感情。
 
 ### 圖片說明
 
@@ -1283,7 +1361,7 @@ Canvas: 3:4 portrait (ID photo style)
 
 ### 劇情背景
 
-Act II Phase B-C（CDL-200 紫音腐化見證節點），晴香親眼目睹紫音在後巷對自己注射情緒抑制劑——魔法對紫音而言早已從「戰鬥工具」蛻變為麻醉弟弟死亡罪惡感的精神毒品（CDL-051）。此刻的注射是紫音徹底妥協的物理呈現：她笑不出「希望」，也不相信晴香那套天真善意有任何效用。她的「背叛」並非惡意，而是一個在極度絕望中選擇用毒品繼續存活的人，對任何救贖論述發出的本能嘲諷（CDL-200 C：崩潰中嘲諷）。這一幕令晴香的偽王道覺醒動搖（CDL-199），同時埋下 Act III 紫音最終以自爆回歸的情感對比。
+**[已修正 2026-07-17]** Act II Phase B，Beat E-07a（113年5月，小光之死當晚，非E-07b）：依 `ACT_II_OUTLINE.md` 行165「P-A21 PAYOFF：晴香目睹紫音在後巷/秘密空間自行注射情緒抑制劑」明確屬 E-07a（小光死亡→紫音崩壞→黑奏邏輯介入之後），原文標記 E-07b 屬誤植，已更正。晴香親眼目睹紫音在後巷對自己注射情緒抑制劑——魔法對紫音而言早已從「戰鬥工具」蛻變為麻醉弟弟死亡罪惡感的精神毒品（CDL-051）。晴香試圖用 E-05 同一招「發光/給糖」安撫紫音（假情緒承接失效，CDL-208第二段），卻被強烈排斥和嘲諷（台詞方向：「妳以為貼張貼紙就會好？」）。她的「背叛」並非惡意，而是一個在極度絕望中選擇用毒品繼續存活的人，對任何救贖論述發出的本能嘲諷。這一幕令晴香的偽王道覺醒動搖（CDL-199），同時埋下 Act III 紫音最終以自爆回歸的情感對比。
 
 ### 圖片說明
 
@@ -1313,14 +1391,14 @@ Canvas: 3:4 portrait or widescreen alley view
 
 ### 劇情背景
 
-Act III Phase E-F（CDL-218，鏡像破碎之夜），父親判定操的心匣污染指數達到臨界，啟動「廢品交出」程序——親自打開大宅大門，將操移交情緒管理局。這是兩層背叛同時爆發的夜晚：父親用「最後的生產力轉化」完成對女兒的清算，而管家紗夜選擇以身相護，掩護操逃離並犧牲（ayakomoji_misao.md §鏡像破碎之夜）。紗夜在臨終時揭露真相「妳根本唔係少爺……妳係我最靚嘅女」——此遺言因創傷衝擊被封印為耳鳴，在 Act III 後段操面臨抉擇時才逐步解鎖（CDL-231/232）。此場景是操從「完美表演」走向「殘缺真實」的心理斷裂點，直接觸發後續的半屍骸化危機與 Day 13 鋼鐵獨舞的隱含贖罪層。
+**[已修正 2026-07-17]** Act II Phase C，Beat E-09a（113年7-8月，CDL-231/232/233/234；CF-TIME-0067/0068），鏡像破碎之夜——原文誤標「Act III Phase E-F，CDL-218」：CDL-218 實際係另一件事（紫音/操 Act III 錯位雙殺嘅CDL編號，同本場景無關），已更正為 CDL-231/232/233/234。父親判定操的心匣污染指數達到臨界，啟動「廢品交出」程序——親自打開大宅大門，將操移交帝國軍（此為與 E-09「飢餓的天使」平行發生的雙線災難之一，CDL-250/253）。這是兩層背叛同時爆發的夜晚：父親用「最後的生產力轉化」完成對女兒的清算，而管家紗夜選擇以身相護，掩護操逃離並犧牲（ayakomoji_misao.md §鏡像破碎之夜）。紗夜在臨終時揭露真相「妳根本唔係少爺……妳係我最靚嘅女」——此遺言因創傷衝擊被封印為耳鳴，在 Act III Day13 鋼鐵獨舞（學校瓦礫，見SPEC#1）操面臨抉擇時才逐步解鎖（CDL-231/232）。此場景是操從「完美表演」走向「殘缺真實」的心理斷裂點，直接觸發後續的半屍骸化危機（Body Horror Stage 2a 首次觸發）與 Day 13 鋼鐵獨舞的隱含贖罪層。
 
 ### 圖片說明
 
 操的父親親自打開大宅的門，把她交給外面等候的人——這是一個父親親手清算自己女兒的夜晚。而管家紗夜在這一刻站出來，用自己的身體掩護操逃離，在臨終前說出一句從未說過的話。操帶著這個沒有來得及消化的背叛和犧牲逃走了，那個「家」，在那一夜，徹底不再存在。
 
 **Reference Images**：
-- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`（原引用之 `_Action` 版本 repo 內未找到實際檔案，已改用已存在版本；`[NEEDS_FACT]` 待確認是否需另產出 Stage 2a 專屬圖）
 
 **簡化描述**（150-200字）：
 操的父親親自打開大門投降，紗夜犧牲掩護女兒逃離。大宅在夜晚化為監獄，最親密的人成為最深的背刺。操在此刻失去對「家」與「父愛」的最後幻想。
@@ -1343,7 +1421,7 @@ Canvas: Widescreen to show spatial separation
 
 ### 劇情背景
 
-此三聯畫跨越 Act II Phase A 至 Act III，呈現美夜子靈魂困禁狀態（CDL-271）逐步崩裂的完整過程。第一階段：113 年 4-5 月，美夜子在 E-05a 因 PTSD 觸發（認出凜）導致貓殼龜裂，人形 Glitch Form 閃現 0.5 秒（CDL-243/282）——支撐靈魂 1% 意志的鎖鏈首次公開顯露。第二階段：月下窗台自我確認測試（CDL-282），是 1% 意志逼近臨界極限的外化，體現「不是強，是在無法倒下的結構中撐著」的悲劇本質。第三階段：晴香溫柔擁抱，美夜子第一次在信賴的人面前鬆開防禦——這是她深層 Need「在信賴的人面前大哭一場」（miyako.md §故作堅強）的部分實現，為 Act III 嘆息之橋揭露姊妹關係（CDL-062）奠定情感基礎。
+**[已修正 2026-07-17]** 此三聯畫跨越 Act II Phase A 至 Act III，呈現美夜子靈魂困禁狀態（CDL-271）逐步崩裂的完整過程。第一階段：**113 年 5 月，Beat E-06**，美夜子為保護隊友（擋落一擊本應落在隊友身上的攻擊）主動硬頂受重傷，觸發貓殼龜裂、人形 Glitch Form 閃現 0.5 秒（CDL-243/CDL-108，依 2026-07-15 CDL-335 定案：觸發源為「物理護隊受傷」，非舊版「PTSD 觸發／認出凜」——原 E-05a「總部被襲＋鏡像處刑室誘捕」設計已於 CDL-317/CDL-335 整個取消，原文引用已過時，已更正）——支撐靈魂 1% 意志的鎖鏈首次公開顯露。第二階段：Act III Phase H1.5 月下窗台自我確認測試（見SPEC#6），是 1% 意志逼近臨界極限的外化，體現「不是強，是在無法倒下的結構中撐著」的悲劇本質。第三階段：晴香溫柔擁抱，美夜子第一次在信賴的人面前鬆開防禦——這是她深層 Need「在信賴的人面前大哭一場」（miyako.md §故作堅強）的部分實現，為 Act III 揭露姊妹關係（CDL-062）奠定情感基礎。
 
 ### 圖片說明
 
@@ -1373,7 +1451,7 @@ Canvas: Triptych or widescreen progression
 
 ### 劇情背景
 
-Act IV，夕在重建的 Alpha 線度過數日後發現「過去無法被修正，只能被接納」，嘗試撥回 Beta 線，造成時間線裂痕（04_timeline_canon.md event-disillusion）。緋潮爆發正是此裂痕的副產品——Alpha 線與 Beta 線的因果能量在同一時空撞擊，天空被撕裂成血紅與深紫的交界（04_timeline_canon.md event-resonance-hell-2）。此場景是黑奏情緒結算儀式（共振地獄）與夕 Alpha 線干預共同引發的雙重因果崩潰的視覺頂點。彩在此刻奪回身體控制權，以燃燒靈魂填補天空裂縫（aya.md §覺醒與犧牲），實現「不是為了贖罪，是因為這是我自己選擇的」的終局答案。
+**[已修正 2026-07-17，標記草稿性質]** 原文時間點自相矛盾——劇情位置速查表標「Act III Phase H-I」，本段落卻標「Act IV」，且將本場景與 SPEC#8「彩奪回身體」（Act III E-III-J8，已confirm）錯誤合併成同一時刻。依 `ACT_III_OUTLINE.md` 文末 Act IV 草稿附錄，「夕在重建的 Alpha 線度過數日後發現『過去無法被修正，只能被接納』，嘗試撥回 Beta 線」屬於 **Act IV**（彩奪回身體、晴香/夕最終整合**之後**的事件，見SPEC#2已修正時序），與 SPEC#8 彩奪回身體（Act III J8，燃燒靈魂填補天空裂痕）係兩個時間上分開嘅**不同事件**，不應合併描繪。緋潮爆發是 Act IV 時間線裂痕的副產品——Alpha 線與 Beta 線的因果能量在同一時空撞擊，天空被撕裂成血紅與深紫的交界（04_timeline_canon.md event-resonance-hell-2）。**`[NEEDS_FACT]`**：本場景全部細節源自 `ACT_III_OUTLINE.md` 文末未經作者最終批核的 Act IV 草稿材料，待 Act IV Outline 正式設計後重新核實；核心方向暫時保留。
 
 ### 圖片說明
 
@@ -1405,7 +1483,7 @@ Canvas: Widescreen to show cosmic scope
 
 ### 劇情背景
 
-花子是晴香與美夜子的母親，同時是秋穗的妹妹（CDL-044）。在 Alpha 線，花子與美夜子同時意外遇難，晴香在場目睹，創世因果能量在極致悲痛中爆發（04_timeline_canon.md event-sisters-execution）。Beta 線設定中花子為難產身亡——晴香的改變現實抹去了這段記憶，她從未真正認識過自己的母親。此場景以永遠循環的晨間早餐呈現花子的形象：溫暖是真實的，但晴香卻在這份溫暖中感到無從接觸的陌生（CDL-036 AKS-H1：見到夕記憶碎片中的花子，晴香不認識她）。母愛的循環同時是囚禁——晴香被自己的改變現實鎖在一個缺失了真正連結的「完整家庭假象」中，payoff 於 Act IV 晴香接納 Alpha 線真相與夕的整合。
+**`[NEEDS_FACT]` 概念釐清（2026-07-17）**：原速查表將本場景註為「秋穗模仿花子語調」（CDL-126，Act I Beat 0 confirmed 事件），但本段落實際描繪嘅係「花子本人」以永遠循環早餐姿態物理在場——呢兩件事係唔同層次，唔應該混為一談：(1) **CDL-126（confirmed，Act I Beat 0）**：秋穗（阿姨偽裝）在廚房方向叮囑聲，聲音刻意模仿已故花子語調，晴香全程未見花子本人，只聞其聲；Act II 揭露為秋穗扮演。(2) **CDL-036（confirmed，AKS-H1）**：晴香透過夕嘅記憶碎片「見到」花子/美夜子/夕一齊生活嘅片段，晴香不認識花子——呢個係短暫記憶碎片閃回，唔係持續循環早餐場景。(3) 本段落描述嘅「花子端住熱湯、永遠循環嘅晨早」呢個獨立敘事裝置，canon 未見直接支持，可能係作者對 Phase K「蜜月困境靈魂監獄」（見SPEC#107 `PhaseK_SoulPrisonKitchen`）概念嘅延伸演繹，屬 Act IV 草稿範疇，並非現行確認場景。花子是晴香與美夜子的母親，同時是秋穗的妹妹（CDL-044）。在 Alpha 線，花子與美夜子同時意外遇難，晴香在場目睹（04_timeline_canon.md event-sisters-execution）。Beta 線設定中花子為難產身亡——晴香從未真正認識過自己的母親。生成時建議以 (1) CDL-126 confirmed 版本為準（僅聞其聲、不見其人，或以模糊剪影呈現），如需保留「永遠循環早餐囚禁」意象，須標記為 `[INFERRED — 待Act IV Outline/作者確認是否落實此裝置]`。
 
 ### 圖片說明
 
@@ -1436,26 +1514,26 @@ Canvas: 3:4 portrait or square (cyclic framing)
 
 ### 劇情背景
 
-Act I 早期，晴香在接觸魔法少女契約之前已有「幽靈重量」症狀——記憶空白、低語聲、有時醒來發現身處陌生位置（haruka.md §締約前症狀）。此刻鏡中顯露的戰士形象，是夕（Alpha 線創傷記憶的凝聚體）透過鏡子滲漏的存在壓力（CDL-072 夕噪訊視覺型：鏡中多人影）。晴香的直覺反應是嘗試以「幽靈重量」的後遺症解釋，但視覺衝突令她第一次意識到自己的內在分裂：鏡中形象不是幻覺，而是她用完美面具長期壓抑的戰鬥創傷自我（CDL-030 晴香問了彩之前，她先問過了鏡子）。此場景是 Act I 播下的「覺醒種子」，payoff 於 Act I 幕末 E-XX 整合場景，晴香向 5 歲的自己道歉（CDL-077）。
+**[已修正 2026-07-17]** Act I 開場 Beat 0，晴香在接觸魔法少女契約之前已有「幽靈重量」症狀 Stage 1——依 `ACT_I_OUTLINE.md`（CDL-128）具體症狀係「照鏡倒影慢 0.3 秒」，晴香揉眼歸因「琴晚夜瞓，眼花添」，係一個極度細微、可否認嘅日常異常，並非明顯的「戰士形象」。**視覺概念修正**：原文「鏡中顯露滿身傷痕的戰士形態」同 canon 對夕嘅鏡中顯現規格矛盾——依 `DIGEST_CHARACTER_STATES.md` Y-S1 及 QQ-23（RESOLVED，CDL-094）確認，夕 Act I 隱匿期嘅鏡中顯現係「**特定姿勢/動作可辨識但面目模糊嘅小孩身影**」（5歲兒童視覺年齡），唔係戰士／傷痕成人形態——戰士感嘅具現化屬於後段（Act III H-S5 晴香自己嘅視覺演變，非夕本身）。原文引用嘅 CDL-030 亦誤植：CDL-030 實際對應 Beat 4.5「彩/黑奏切換目睹」場景（`ACT_I_OUTLINE.md` 行124），同本鏡前場景無關；正確引用應為 CDL-072/077/094（夕噪訊視覺型）。此場景是 Act I 播下的「覺醒種子」，payoff 於 Act I 幕末 E-XX 整合場景，晴香向 5 歲的自己道歉（CDL-077）。
 
 ### 圖片說明
 
-在成為魔法少女之前，晴香就已經察覺到奇怪的事——有時鏡子裡的倒影會慢了一點點，或者映出一個不同的自己。這一次鏡中出現了一個滿身傷痕的戰士形態，與她站在鏡前的溫柔形象形成劇烈的衝突。那個形象不是幻覺，而是她一直壓抑著、不敢面對的另一半自己，在用唯一可能的方式對她喊話。
+在成為魔法少女之前，晴香就已經察覺到奇怪的事——鏡子裡的倒影會慢了0.3秒，讓她揉眼睛歸咎於「琴晚夜瞓」。這一次她定睛細看，鏡中彷彿疊著一個模糊的小孩身影——姿勢、動作依稀可辨，面目卻看不真切，一閃即逝。那個身影不是幻覺，而是她一直未曾察覺、被自己遺忘的另一半自己，用唯一可能的方式對她投下第一絲存在的痕跡。
 
 **Reference Images**：
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 晴香（便服/家居）：`ConceptArt_Haruka_CasualWear.png`（原引用 MagicalGirl 形態不符——本場景為 Act I Beat 0 家中日常，晴香此刻未變身，已更正）
 
 **簡化描述**（150-200字）：
-鏡中倒影開始顯露滿身傷痕的戰士形態，與晴香在鏡前的溫柔形象形成極端對比。這是覺醒的第一步——認識到自己被分裂，被遺忘的另一半在鏡中呼喊。
+鏡中倒影延遲0.3秒，隱約疊著一個面目模糊、動作可辨的小孩身影，與晴香在鏡前的溫柔形象形成微妙但不安的違和感。這是覺醒的第一步——極細微、可否認的異常，被遺忘的另一半在鏡中留下第一絲痕跡。
 
 **生成提示**：
 ```
-Style: Mirror duality; psychological confrontation
-Mood: Dissonance between self-image and truth; awakening to fragmentation
-Colors: Soft reflection (false) vs. harsh scar detail (true); mirror frame emphasized
-Composition: Central mirror; two versions of Haruka on either side
-Lighting: Soft interior light on one side; harsh shadow on reflection
-Special effects: Scar tissue detail; mirror distortion at edges
+Style: Mirror duality; subtle psychological unease (not overt horror)
+Mood: Faint dissonance between self-image and truth; the first deniable crack
+Colors: Soft reflection (false) vs. faint cold blue-tinged shadow silhouette (true); mirror frame emphasized
+Composition: Central mirror; Haruka in front, a small blurred child-shaped silhouette barely visible layered within the reflection
+Lighting: Soft interior light on Haruka; the silhouette barely catches any light, near-invisible
+Special effects: 0.3-second reflection delay implied; mirror distortion at edges; silhouette recognizable only by posture/motion, face indistinct
 Canvas: 3:4 portrait or square (mirror centered)
 ```
 
@@ -1467,14 +1545,14 @@ Canvas: 3:4 portrait or square (mirror centered)
 
 ### 劇情背景
 
-鏡像破碎之夜後，操在極度崩潰狀態中製作了一具完美的女性人偶軀殼，將意識注入其中——她終於「擁有」了沒有性別焦慮、沒有厭食症代價的完美肉體（ayakomoji_misao.md §無心完美人偶）。然而人偶無法感受冷暖、無法流淚、無法觸碰任何事物：「沒有痛覺的完美，比地獄更可怕。」砸碎人偶的選擇是操全作最硬的 Body Horror 轉折點（CDL-233 §傀儡絲線縫牙分層設計關聯場景）——她放棄了一生追求的「形式完美」，主動回到殘缺但真實的身體。此決定直接連通 Day 13 鋼鐵獨舞：操選擇停留在「真實的自我」，而非用完美人偶逃避痛苦。砸碎的鏡片是全作「鏡」意象最明確的實體化之一（CDL-187 呼應）。
+**[時間點修正 2026-07-17]**：Act II Phase C，E-09a「鏡像破碎之夜」（父親背叛+紗夜犧牲，113年7-8月）之後的插曲（`ayakomoji_misao.md` M-S6a，非獨立主線時序節點）。操在極度崩潰狀態中製作了一具完美的女性人偶軀殼，將意識注入其中——她終於「擁有」了沒有性別焦慮、沒有厭食症代價的完美肉體（ayakomoji_misao.md §無心完美人偶：「紗夜死後，操製作了一具完美的女性人偶軀殼」）。然而人偶無法感受冷暖、無法流淚、無法觸碰任何事物：「沒有痛覺的完美，比地獄更可怕。」砸碎人偶的選擇是操全作最硬的 Body Horror 轉折點——她放棄了一生追求的「形式完美」，主動回到殘缺但真實的身體。此決定直接連通 Day 13 鋼鐵獨舞：操選擇停留在「真實的自我」，而非用完美人偶逃避痛苦。**地點 `[NEEDS_FACT]`**：canon 未明確此場景的物理地點（唔可以假設為「廢棄工廠」——呢個地點名已喺圖1/圖16審計中確認同操嘅其他場景搞混，本場景地點需另行 source check，生成時暫以中性室內空間處理）。
 
 ### 圖片說明
 
 操曾經製造出一具完美的人偶軀殼，把自己的意識注入其中，終於擁有了她一生渴望的完美形體——但沒有痛覺的完美，比地獄更可怕。感受不到冷暖、無法流淚的她，最終選擇砸碎那個完美的人偶，回到那個有缺陷、會痛、但確確實實屬於她自己的身體。殘缺，比完美更真實。
 
 **Reference Images**：
-- 操：`ConceptArt_Misao_MagicalGirl_Action.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`（原引用 `_Action` 版依 `DIGEST_REFERENCE_IMAGES.md` 標 `UNVERIFIED`，repo 內搵唔到，改用已存在版本）
 
 **簡化描述**（150-200字）：
 操砸碎完美人偶鏡子，決定回歸殘缺的真實身體。碎裂的鏡片反射著廢棄工廠，完美的虛假在此刻化為利刃。殘缺比完美更真實，更珍貴。
@@ -1483,9 +1561,9 @@ Canvas: 3:4 portrait or square (mirror centered)
 ```
 Style: Breaking the illusion; rejection of perfection
 Mood: Liberation through imperfection; choosing authenticity
-Colors: Mirror shatter silver-white; factory grays; warm flesh tones emerging
+Colors: Mirror shatter silver-white; neutral cold interior tones [NEEDS_FACT: exact location undetermined]; warm flesh tones emerging
 Composition: Figure among mirror fragments; choosing broken reality
-Lighting: Breaking light through shattered pieces; industrial cold mixed with flesh warmth
+Lighting: Breaking light through shattered pieces; cold interior light mixed with flesh warmth
 Special effects: Glass breaking effect; debris floating; light refraction
 Canvas: 3:4 portrait
 ```
@@ -1498,7 +1576,7 @@ Canvas: 3:4 portrait
 
 ### 劇情背景
 
-Act II Phase A-B（CDL-282，貓殼龜裂三段第一至二段後的穩定期），美夜子在治療房間的鏡前直視自己貓形態內的真實狀態。Unit 01 靈魂困禁機制（CDL-271）令她的貓殼之下是「被無數細小靈魂碎鏈束縛、99% 情緒廢料漫流」的永恆監禁——腐爛紅色透視的視覺是此機制的外化呈現。她不是強，是在無法倒下的結構中撐著。此刻的「貓殼復原」並非真正的療癒，而是 1% 意志再次將外殼縫合，繼續履行介錯人職責。Scene 的情感底層是：美夜子已在 114 年 4 月記起自己是晴香親姊姊（CDL-061），此刻她知道一切，卻選擇繼續保持沉默，讓自己在隱瞞的重量中貓殼龜裂又復原、復原又龜裂。
+**[時間點與CDL修正 2026-07-17]**：原文標「Act II Phase A-B（CDL-282）」與內文「美夜子已記起自己是晴香親姊姊」自相矛盾——依 `ACT_III_OUTLINE.md` E-III-H1.5（CDL-274，114年4月中～末，舊宅地下室），美夜子要到 Act III Phase H「月下崩潰」一刻才第一次意識到自己是晴香的親姊姊（此刻仍維持貓形態，肉身未完全破殼，見 `DIGEST_CHARACTER_STATES.md` MY-S3 前置狀態）；Act II Phase A-B 期間美夜子根本未知悉此事實，場景與後段情感底層互相矛盾。另外 CDL-282 實際係「鏡像法則」世界規則定義（`ACT_II_OUTLINE.md` v0.8→v0.9 changelog），同「貓殼龜裂三段」無關，屬 CDL 張冠李戴。**已修正**：本場景時間點改為 **Act III Phase H，E-III-H1.5 之後、貓殼完全碎裂（E-III-I3）之前**（114年4月，具體 beat `[NEEDS_FACT]`——canon 未見獨立 beat 覆蓋呢個「已知真相但選擇沉默」嘅中段時刻，暫以此區間定位）。美夜子在鏡前直視自己貓形態內的真實狀態：Unit 01 靈魂困禁機制（CDL-271）令她的貓殼之下是「被無數細小靈魂碎鏈束縛、99% 情緒廢料漫流」的永恆監禁——腐爛紅色透視的視覺是此機制的外化呈現。她不是強，是在無法倒下的結構中撐著。此刻的「貓殼復原」並非真正的療癒，而是 1% 意志再次將外殼縫合，繼續履行介錯人職責——此刻她已知自己是晴香的親姊姊（CDL-274），卻選擇繼續保持沉默，讓自己在隱瞞的重量中貓殼龜裂又復原、復原又龜裂。地點「治療房間」`[NEEDS_FACT]`——canon 未見專門描述，建議對照 Phase H「舊宅地下室」等已有 Act III 據點空間。
 
 ### 圖片說明
 
@@ -1551,7 +1629,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ### 劇情背景
 
-Act I 中期，美夜子以黑貓形態守護晴香身邊，因靈魂本能殘留而將晴香視為唯一的熟悉錨點（CDL-060）。小光是紫音的溫暖錨點，也是隊伍非正式成員中最年幼的存在（ko_hikaru.md）。美夜子雖無法以人類語言開口，卻以貓形態陪伴小光——這是她在「口裡說功利、身體本能守護」底層動機（CDL-040）的另一個體現：保護晴香周遭的每一個人。此場景的溫暖顏色逐漸褪去，預示著小光的屍骸化命運（SPEC#22），以及這份溫暖將在 Act II Phase B 被徹底終結（ko_hikaru.md §悲劇的背叛與轉變），成為紫音墮落為屍骸首領的直接起因。
+**[NEEDS_FACT 2026-07-17]**：`ko_hikaru.md` §關係網絡只列出小光與紫音、黑奏、晴香、操四者的關係，並無美夜子與小光直接互動的記錄；`miyako.md` 亦未見同小光相關段落。「美夜子以貓形態陪伴小光」呢個具體互動場景 canon 未有直接支持，屬舊72圖檔自行延伸嘅推測畫面，生成時應標 `[INFERRED]`。以下時間點/主題脈絡有 canon 依據，可保留：Act I 中期，美夜子以黑貓形態守護晴香身邊，因靈魂本能殘留而將晴香視為唯一的熟悉錨點（`miyako.md` CDL-060：「大腦說『晴香是工具』，但靈魂本能殘留令晴香成為……唯一感到熟悉與安全的錨點」，Act I 寫法 = 口裡說不身體本能守護）。小光是紫音的溫暖錨點，也是隊伍非正式成員中最年幼的存在（`ko_hikaru.md`）。此場景的溫暖顏色逐漸褪去，預示著小光的屍骸化命運（SPEC#22），這份溫暖確實喺 **Act II Phase B，Beat E-07a（113年5月）**被徹底終結（`ko_hikaru.md` §悲劇的背叛與轉變；`ACT_II_OUTLINE.md` Phase B = E-07a～E-07b～E-08，113年5-6月），成為紫音墮落為屍骸首領的直接起因——呢部分時間點準確，只係「美夜子在場陪伴小光」呢個具體畫面待補證據。
 
 ### 圖片說明
 
@@ -1570,16 +1648,18 @@ Act I 中期，美夜子以黑貓形態守護晴香身邊，因靈魂本能殘�
 
 ### 劇情背景
 
-Act I-II 早期，凜被重組為情緒管理局公務員後（rin.md §被重組段落），以烏鴉形態作為監視功能的外勤執行形式。記憶語義被清除的她不記得任何過去，但靈魂印痕殘留——她不記得美夜子，卻在見到特定戰術移動節奏時，手指會無意識地收緊（rin.md §被重組段落末段）。烏鴉形態的潛伏監視是重組後凜在制度框架下「精準高效」個性的延伸，也是她在感官剝奪期後以「接收訊息」確認存在感的一種形式（rin.md §核心創傷—感官剝奪）。此場景是 CDL-212（地下救援積累 beat）中凜作為追捕者、交錯介入主角團行動的前史縮影。
+**[角色形態修正 2026-07-17]**：原文將凜嘅「烏鴉形態」用於 Act I-II 早期日常監視職務，但依 `DIGEST_CHARACTER_STATES.md` R-MG2 同 `rin.md` §魔法少女形態二（痛苦化身/烏鴉），呢個形態明確對應「痛覺信仰達到頂點……Unit 00 自願兵器化前後」——即 **Act III** 心理狀態極端化嘅產物（C型金屬扣插肉身連鐵鏈嘅痛覺儀式化造型），唔係 Act I-II 凜以情緒管理局公務員身份執行監視職務時嘅形態。canon 亦未見凜有「烏鴉外勤監視」呢個具體職務設計（`rin.md` 冇「監視／外勤」相關段落）。**已修正**：時間點同角色狀態改為 Act I 全程（108年重組後貫穿背景狀態，見圖24審計已confirm），凜以**情緒管理局公務員制服身份**（`ConceptArt_Rin_TheAdministrationBureau.png`，R-S1）執行職務，非烏鴉魔法少女形態；「見到特定戰術節奏手指無意識收緊」呢個身體記憶反應本身有 canon 支持（`rin.md` §核心創傷—感官剝奪），予以保留。
+
+Act I 全程，凜被重組為情緒管理局公務員後（`rin.md` R-S1，108年死後重組完成），以制服公務員身份執行職責。記憶語義被清除的她不記得任何過去，但靈魂印痕殘留——她不記得美夜子，卻在見到特定戰術移動節奏時，手指會無意識地收緊（`rin.md` §核心創傷—感官剝奪）。此場景是凜作為體制執行者、與主角團尚未正式交會前嘅背景狀態縮影，具體任務內容 `[NEEDS_FACT]`。
 
 ### 圖片說明
 
-凜失去了所有的記憶，以烏鴉的形態潛伏在黑暗後巷，無聲地監視和蒐集情報——這是帝國給她的職責，也是她在失去感官之後確認自己還存在的方式。她不記得曾有過的一切，但那隻在特定節奏出現時會無意識收緊的手，仍然保留著靈魂最深處的印記。
+凜失去了所有的記憶，以情緒管理局公務員的身份在暗處執行職責——這是帝國給她的職責，也是她在失去感官之後確認自己還存在的方式。她不記得曾有過的一切，但那隻在特定節奏出現時會無意識收緊的手，仍然保留著靈魂最深處的印記。
 
 **簡化核心描述**：
-黑暗後巷，凜以烏鴉形態潛伏，監視不知情的市民或組織。陰影中只有眼睛閃爍，她是無聲的見證者與蒐集者。
+黑暗後巷或監控據點，凜以情緒管理局公務員制服身份執行職務，神情統一規格化。陰影中她是無聲的執行者，具體職務內容 `[NEEDS_FACT]`。
 
-**所需資源**：凜的角色形態設計
+**所需資源**：凜的角色形態設計（情緒管理局公務員制服形態，參考 `ConceptArt_Rin_TheAdministrationBureau.png`，非烏鴉魔法少女形態）
 
 ---
 
@@ -1627,7 +1707,7 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ### 劇情背景
 
-操的舞蹈不是藝術表達，而是她「恐懼露出破綻的人」這一核心創傷的強迫症逃避機制（CDL-063）。父親以男性繼承人名義強行重塑她的身份，母親被改造成無情感的活體人偶作為「破綻的代價」的活生生警告，令操從小學會以完美表演換取不被改造的生存空間。舞蹈室的鏡子是她自我審查系統的物理化——每個動作都在被鏡中的「父親視角」評判，必須精確到毫無人性才算合格。在這段時期，真正的突破契機尚未到來：紗夜仍在守護她，但她還未能接受「被不完美的自己接納」的可能。重複而機械的獨舞同時是她精神向 Body Horror 邊緣靠近的早期訊號。
+**[NEEDS_FACT 2026-07-17]**：`ayakomoji_misao.md` 全文未見「舞蹈室」「跳舞」相關描述——操嘅表演型逃避機制 canon 明確落於「魔法少女傀儡師戰鬥」「24小時完美女性表演」（CDL-063「恐懼露出破綻的人」），並無獨立「日常舞蹈冥想」呢個習慣設定；本場景嘅「舞蹈」意象屬舊72圖檔自行延伸，同已confirm嘅「鋼鐵獨舞」（Day13終局，`DIGEST_LOCATIONS.md` §3 學校瓦礫）亦係唔同性質嘅事件，唔可以混用。生成時「舞蹈」呢個具體行為須標 `[INFERRED]`。以下角色心理背景本身有 canon 支持，可保留：操「恐懼露出破綻的人」這一核心創傷驅使 24 小時完美表演（CDL-063）——父親以男性繼承人名義強行重塑她的身份並安排物理性別重置手術（CDL-155），母親被改造成無情感的活體人偶作為「破綻的代價」的活生生警告（`ayakomoji_misao.md` §母親——完美的活體人偶），令操從小學會以完美表演換取不被改造的生存空間。此時期紗夜仍在守護她，但她還未能接受「被不完美的自己接納」的可能。
 
 ### 圖片說明
 
@@ -1636,7 +1716,7 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 **簡化核心描述**：
 操在空曠的舞蹈室內獨舞，姿態優雅卻充滿悲傷感。鏡子映照出她無數次重複的動作，完美但機械化。舞蹈成為逃避真實的手段。
 
-**所需資源**：操的形態，舞蹈室環境
+**所需資源**：操的形態；舞蹈室環境 `[INFERRED — canon 未見此習慣設定]`
 
 ---
 
@@ -1665,24 +1745,26 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ### 劇情背景
 
-愛莉原本是石像，現實中毫無行動能力；然而當晴香在精神世界陷入最深的絕境時，愛莉以集體潛意識守門人身份具現出守護形態，以童謠世界的規則打開一條通道（CDL-256）。這是愛莉第2次真正改變現實的時刻——她用兒時親手為母親畫的蠟筆太陽盾（「給媽媽的太陽」在精神世界具現化為盾牌）和廉價紙裝備，以最脆弱的材料擋住最無法承受的力量。這一幕的前置是晴香已遍體鱗傷、光幕濾鏡的最後防護即將碎裂；愛莉的出現不是奇蹟降臨，而是她長期作為情緒廢料濾心、每一道新裂縫每一圈新膠帶積累的代價，在最關鍵一刻爆發成守護。她的持續消耗是後段情緒颱風失控而消失的視覺預言。
+**[CDL/規模修正 2026-07-17]**：本場景引用嘅 CDL-256，依已於圖20審計確認嘅結論（`ACT_II_OUTLINE.md` Sub-beat E-10b，113年9月，Act II Phase D），實際對應嘅係一次**單一防禦瞬間**——「紙皮騎士現實裂縫具現化擋刀一瞬，盔甲崩碎大半，石像同步深裂痕流血」，唔係本場景描述嘅「全副魔法少女形態揮劍力戰、救晴香於遍體鱗傷絕境」呢種大規模場面。兩者規模明顯唔夾，重複引用同一 CDL 描繪唔同尺度嘅事件（同圖20/圖12曾經出現嘅「CDL重用致規模混淆」屬同一類問題）。另外「愛莉第2次真正改變現實」呢個講法，`aeri.md` 同 timeline 只見「紙皮騎士守護（一）（二）」兩個錨點（分別對應美夜子噩夢場域、紫音崩潰期），並無明確嘅「晴香深度絕境全副武裝救援」場景記錄。**已標記**：本場景嘅具體戲劇規模（全副魔法少女形態、揮劍救晴香）`[NEEDS_FACT]`，只有「愛莉以有限材料（紙裝備/蠟筆太陽盾）換取沉重守護代價、持續消耗最終走向緋雨消失」呢個主題方向有 canon 依據（`aeri.md` §紙皮騎士守護、§緋雨）。以下敘述若生成時使用，須降低戲劇規模以貼近 canon 已confirm 嘅「紙皮盔甲擋刀」尺度，或明確標示為超出 canon 嘅戲劇化演繹：愛莉原本是石像，現實中毫無行動能力；然而當晴香陷入絕境時，愛莉以集體潛意識守門人身份具現出守護形態，用兒時親手為母親畫的蠟筆太陽盾（「給媽媽的太陽」在精神世界具現化為盾牌）和廉價紙裝備，以最脆弱的材料擋住最無法承受的力量。愛莉的出現不是奇蹟降臨，而是她長期作為情緒廢料濾心、每一道新裂縫每一圈新膠帶積累的代價，在關鍵一刻爆發成守護。她的持續消耗是後段緋雨（Crimson Storm）失控而消失的視覺預言（`aeri.md` §緋雨）。
 
 ### 圖片說明
 
 愛莉長期以石像形式存在，默默承受著整座城市所有被壓抑的情緒廢料，每一道裂縫都是她為別人付出的代價。在晴香陷入最深絕境的瞬間，她用自己積累已久的全部代價化為守護——穿著廉價紙裝備，手握一把孩子的劍，站在遍體鱗傷的晴香面前。她知道自己用完這份力量後就會消失，仍然選擇站出來。
 
 **詳細核心描述**（300-400字）：
-愛莉第2次改變現實——她以魔法少女形態出現在晴香面前。穿著紅紫色的魔法少女服裝，握著銀色長劍，長橙色頭髮在光芒中飄揚，她穩穩地站在晴香前面，架起劍作戰鬥姿態。
+**[視覺形態修正 2026-07-17]**：原文「紅紫色魔法少女服裝、銀色長劍」與 canon 確立嘅愛莉「紙皮騎士」視覺設計直接矛盾——`aeri.md` §紙皮騎士形態同 `DIGEST_CHARACTER_STATES.md` AE-S3 明確定義為「瓦楞紙箱盔甲+膠帶纏繞紙劍+蠟筆笑臉太陽紙盾（馬克筆寫『最強』）」，隨戰鬥損耗膠帶痕跡累積，唔係華麗長劍魔法少女服。已修正如下：
 
-對比鮮明的是地上的晴香——滿面傷痕、瘡痍，衣衫破碎，整個身體都是戰鬥的痕跡。她舉起頭，眼神中充滿絕望與哀求，望向前方穩穩挺立的愛莉。在這一刻，愛莉成為了唯一的光——用魔法之劍破開光幕濾鏡的最後牢籠，用堅定的身軀為晴香築起防線。
+愛莉具現化守護——她以紙皮騎士形態出現在晴香面前。穿著瓦楞紙箱盔甲，手握膠帶纏繞的紙劍，另一手持蠟筆畫笑臉太陽紙盾（盾上馬克筆寫著歪歪斜斜的「最強」），紙裝備上佈滿累積的膠帶修補痕跡，她穩穩地站在晴香前面，架起紙劍作戰鬥姿態。
 
-童謠世界已碎裂，現實與魔法的界線模糊。愛莉的出現象徵著最後的救贖與希望，但同時也預示著她將付出最終的代價。這一幕成為整個故事的視覺轉折——從絕望到救贖的最後瞬間。
+對比鮮明的是地上的晴香——滿面傷痕、瘡痍，衣衫破碎，整個身體都是戰鬥的痕跡。她舉起頭，眼神中充滿絕望與哀求，望向前方穩穩挺立的愛莉。在這一刻，愛莉成為了唯一的光——用最廉價的紙裝備擋住最無法承受的力量，為晴香築起防線。
+
+童謠世界已碎裂，現實與魔法的界線模糊。愛莉的出現象徵著最後的救贖與希望，但同時也預示著她將付出最終的代價（緋雨消散）。呢種「以脆弱材料對抗巨大力量」嘅反差是愛莉角色設計嘅核心，唔應該用華麗魔法少女形態取代。**本場景嘅具體戲劇規模同對應 beat 仍 `[NEEDS_FACT]`（見上方劇情背景說明）。**
 
 **Reference Images**：
-- 愛莉（魔法少女形態）：`ConceptArt_Aeri_MagicalGirl.png`
+- 愛莉（紙皮騎士形態）：`ConceptArt_Aeri_CardboardKnight.png`（依 `DIGEST_REFERENCE_IMAGES.md` 標 `UNVERIFIED`，repo 內未搵到，需另行產出；原引用嘅 `ConceptArt_Aeri_MagicalGirl.png` 雖 `EXISTS` 但對應嘅係「魔法少女形態」命名，同紙皮騎士視覺設計是否一致待核實，`[NEEDS_FACT]`）
 
 **所需資源**：
-- 愛莉的魔法少女形態（參考圖）
+- 愛莉的紙皮騎士形態（瓦楞紙盔甲/膠帶紙劍/蠟筆太陽盾，非魔法少女服裝）
 - 地上傷痕累累的晴香形態
 - 破碎的光幕濾鏡視覺效果
 - 現實與童話世界衝突的環境
@@ -1692,10 +1774,11 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖41：「秋穗的藥物實驗室」（Akiho's Drug Experiment Laboratory）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Akiho_DrugLab.png`
+**依據版本**：`akiho.md` §與魔鬼的契約；CDL-110/114（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖41項）
 
 ### 劇情背景
 
-秋穗與黑奏的魔鬼契約要求她以科學服務帝國，換取復活愛莉的資源與特權（CDL-114）。
+秋穗與黑奏的魔鬼契約（`akiho.md` §與魔鬼的契約）要求她以科學服務帝國，換取繼續研究復活愛莉的資源與特權；CGM 血糖手錶正是這份契約的具體產物（CDL-110/114）。`[TIME_REVISED]` 原速查表標「113年 Act II」有誤——血糖手錶已於 **Act I**（CDL-110，E-01/E-02後[NC]秋穗茶餐廳場景）以「健康監測儀器」名義交予晴香，本場景（裝置研發/後門植入的實驗室工作現場）邏輯上須發生於 Act I 派發之前或同期，唔可以標喺 Act II；具體研發時間點 canon 未落實，標 `[NEEDS_FACT]`。
 
 ### 圖片說明
 
@@ -1711,33 +1794,39 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖42：「花子的溫暖廚房」（Hanako's Warm Kitchen）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Hanako_WarmKitchen.png`
+**依據版本**：`ACT_I_OUTLINE.md`（CDL-126）；`ayakomoji`—誤；正確為 `haruka.md` CDL-036/047；`CHANGE_LIST_EXISTING_SPEC.md` 圖29/42項（2026-07-17 審計修正）
 
 ### 劇情背景
 
-花子的晨間廚房是 Act I 的核心感情錨點，也是全作最殘酷的悖論之一（CDL-112）。Beta 線的設定中，花子在難產中去世，所以這個廚房場景本質上是晴香記憶、夢境循環或集體潛意識重建中「母愛的永恆幻影」——溫暖真實，卻永遠停留在同一個早晨，沒有任何時間真正前進。每一次循環的晨間，都讓晴香相信母親仍在，但每一次循環的晨間，也讓晴香更深地陷入無法面對現實的防衛機制。花子代表的「給予而不要求回報的愛」是晴香拯救者情結的起源，也是她無意識地以「被需要的英雄」來填補母親缺位的根因。廚房邊角開始淡出的視覺設計，正是循環本質的暗示：這不是真實的早晨，而是無法放手的永恆監獄。
+`[WRONG→已修正]` 原文引用「CDL-112」作為本場景依據，但 CDL-112 實際內容係「haruka.md habit #6『規律節拍控制』DROPPED（刪除）」，同花子/廚房完全無關，屬張冠李戴誤植。
+
+`[NEEDS_FACT]` 本場景「花子永遠停留在同一個早晨、循環監獄」嘅具體意象，同已於圖29（花子的溫柔牢籠）審計確認嘅結論屬**同一類未落實推演**——canon 已確認嘅事實只有兩層：**CDL-126**（confirmed，聲音層：秋穗喺廚房方向模仿花子語調叮囑，晴香只聞其聲，Beta 線晴香從未真正見過花子本人在廚房）與 **CDL-036**（confirmed，記憶碎片層：晴香透過夕見到夕/美夜子/花子一起生活嘅片段，晴香不認識花子，觸發 AKS-H1 記憶矛盾型感知）。「花子本人物理在場、永遠循環的溫暖早晨」呢個具體場景設定，canon 未見直接支持，屬舊72圖檔自行延伸嘅創作意象，同圖29 為同一虛構裝置嘅重複演繹，並非兩個獨立場景。
 
 ### 圖片說明
 
-花子是晴香記憶中永遠存在的母親形象，每個清晨在廚房為女兒準備早餐，金色陽光透窗照入，一切都是溫暖與安全的象徵。然而花子其實在晴香出生時已經離世，這個廚房場景是晴香無法放手的記憶幻影——母愛的溫暖真實存在，卻被困在永遠無法前進的同一個早晨。廚房邊角隱約淡出，暗示這份無可替代的愛，同時也是一座無形的囚籠。
+`[INFERRED]` 花子是晴香記憶中的母親形象——但依 CDL-126，Beta 線晴香實際上從未真正在廚房見過花子本人，只聽過秋穗刻意模仿嘅語調叮囑聲；依 CDL-036，晴香透過夕見到嘅係花子/美夜子一起生活嘅零碎記憶片段，並非持續存在嘅晨間場景。若要以視覺化方式呈現「母愛的溫暖幻影」，須明確標示呢個係晴香透過陰影/記憶碎片感知到嘅片段畫面（而非物理現實中反覆發生嘅場景），廚房邊角淡出可保留作為「記憶碎片非完整現實」嘅視覺暗示。
 
 **簡化核心描述**：
-晨間廚房，花子在此準備早餐，金色陽光透窗照入。一切都透著母愛的溫暖，但邊角開始淡出——這是循環的起點，也是永恆的監獄。
+晨間廚房記憶碎片，花子的身影模糊浮現，金色陽光透窗照入。邊角開始淡出——暗示這只是晴香透過夕感知到的破碎記憶，不是持續存在的現實。
 
-**所需資源**：花子的角色設計，廚房環境
+**所需資源**：花子的角色設計，廚房環境（`[NEEDS_FACT]`：實體家居場景 canon 未有視覺定義，見 `DIGEST_LOCATIONS.md` §12）
 
 ---
 
 ### 圖43：「紫音的糖果王國展覽」（Akane's Candy Kingdom Exhibition）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Akane_CandyKingdomExhibit.png`
+**依據版本**：`05_story_outline_canon.md` §Act II 關鍵節點1（CDL-236）；`iwakura_akane.md` §屍骸女王完全形態（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖43項）
 
 ### 劇情背景
 
-在小光屍骸化並消散（CDL-229）、黑奏以「她沒有死，只是換了生存方式」欺騙紫音之後
+`[WRONG→已修正]` 原文標「小光屍骸化並消散（CDL-229）」自相矛盾——CDL-229 對應嘅係 E-07a「小光屍骸化」（113年5月，小光轉化為 Type B 廢鐵型屍骸，紫音仍懷抱著他），並非「消散」；小光嘅最終消散實際發生於 **CDL-242（E-12，113年12月-114年1月）**，時間上遠晚於紫音自立為王嘅時刻——若小光已消散，紫音不可能仍雙臂環抱其屍骸。原文將兩個相隔半年以上嘅事件（屍骸化 vs 消散）錯誤合併為同一觸發點。
+
+正確時間點：**Act II 113年5-6月**（E-07a 小光屍骸化 + E-07b 三位一體辯論/放逐之後），同圖4「廢棄糖果工廠」為同一時期同一地點——本場景可作為圖4嘅全景/展覽式建置鏡頭（wide establishing shot），聚焦糖果王座全貌同四周腐爛建築，圖4則聚焦朱音坐像本身；兩者互補而非重複。黑奏誘惑台詞正確引用（`ko_hikaru.md`）為「**他**沒有死，只是換了生存方式」（小光為代詞「他」，非「她」）。
 
 ### 圖片說明
 
-朱音在失去最重要的人之後，用魔法少女殘存的力量建立起自己的糖果王國，自封為守護所有流浪屍骸的女皇，高坐在閃爍糖晶的巨大王座上。童話般的糖果宮殿看似壯麗甜蜜，但四周的建築已悄悄腐爛融化，透露出她其實是在用一個正在毒化自己的逃避來掩蓋她無法承認的哀傷。她選擇做守護者，只是因為她不知道如何面對失去。，紫音建立了「屍骸樂園」，自封為屍骸首領。糖果王國是這個樂園的極端視覺化——她以屍骸女皇身份坐在自製的糖晶王座上，收容所有無主屍骸，試圖以「飢餓孩子的守護者」形象，彌補她無力保護弟弟與小光的遺憾。然而糖果建築的腐爛痕跡正是這個補償機制的真相：她用「守護」包裝了「無法接受失去」的逃避，用「強大」掩蓋了戰鬥成癮與罪惡感。糖果既是甜蜜的慰藉，也是她一直以來最深恐懼的象徵——弟弟正是死於糖果般的情緒結晶。腐爛象徵她的補償從一開始就是毒藥，終點是帝國廣場的自爆犧牲。
+朱音在失去最重要的人之後，用魔法少女殘存的力量建立起自己的糖果王國，自封為守護所有流浪屍骸的女皇，高坐在閃爍糖晶的巨大王座上，雙臂環抱屍骸化嘅小光（Type B 廢鐵型）。童話般的糖果宮殿看似壯麗甜蜜，但四周的建築已悄悄腐爛融化，透露出她其實是在用一個正在毒化自己的逃避來掩蓋她無法承認的哀傷。她以屍骸女皇身份坐在自製的糖晶王座上，收容所有無主屍骸，試圖以「飢餓孩子的守護者」形象，彌補她無力保護弟弟與小光的遺憾。然而糖果建築的腐爛痕跡正是這個補償機制的真相：她用「守護」包裝了「無法接受失去」的逃避，用「強大」掩蓋了戰鬥成癮與罪惡感。糖果既是甜蜜的慰藉，也是她一直以來最深恐懼的象徵——弟弟正是死於糖果般的情緒結晶。腐爛象徵她的補償從一開始就是毒藥，終點是帝國廣場的自爆犧牲（圖10）。
 
 **簡化核心描述**：
 糖果王座的全景展示，朱音以屍骸女皇形態坐立王座，被糖晶硬殼包圍。四周的糖果建築如童話宮殿，但腐爛、融化、毒化的跡象處處可見。
@@ -1749,14 +1838,17 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖44：「晴香與影子的雙舞」（Haruka and Shadow Dual Dance）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_ShadowDualDance.png`
+**依據版本**：`12_philosophy_and_systems.md` §七 榮格個體化過程具現化系統（CDL-066）；`yu.md` §第二幕末：部分融合（CDL-069/070）（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖44項）
 
 ### 劇情背景
 
-晴香的潛意識人格「夕」在5歲時創世的那一夜從晴香靈魂分裂而出，承載了所有晴香無法面對的 Alpha 線創傷記憶與黑暗情感（CDL-066）。她們的關係是榮格「個體化過程」的具現化：Persona（魔法少女變身）對抗 Shadow（夕），但真正的治癒只能透過整合而非擊敗。雙舞場景發生在 Act III 的心理整合危機時刻——晴香嘗試用魔法力量壓制夕，夕以「你逃避的一切才是你真正的力量」反擊，兩個意識在夢境空間形成動作同步卻方向相反的詭異鏡像。這不是戰鬥，而是一個靈魂在試圖與自己的陰影面達成和解。雙舞的幾何對稱從上往下俯瞰，暗示她們本質上是同一個存在——只是一個朝光，一個朝暗。
+`[WRONG→已修正]` 晴香的潛意識人格「夕」在5歲創世那夜從靈魂分裂而出，兩者關係確為榮格「個體化過程」具現化：Persona（魔法少女變身）對抗 Shadow（夕）（CDL-066，`12_philosophy_and_systems.md` §七）——呢部分依據正確。但原文將雙舞場景放喺「**Act III** 心理整合危機」，並描述「晴香嘗試用魔法力量壓制夕」，同 canon 已確立嘅**三級整合進程**矛盾：Act I 幕末 E-XX（暫時性初裂，CDL-069/070）→ **Act II E-15（部分融合，本場景最貼近的原型）** → Act IV（完全整合）——**冇獨立嘅「Act III」整合階段**。更關鍵嘅係，原文「晴香壓制夕、夕以力量反擊」嘅對戰式框架，同 `12_philosophy_and_systems.md` §七明確主張嘅治癒機制**直接相反**：「晴香的『改變現實』= 將內在問題投射到外在，問題無法被解決。真正的治癒只能向內接納陰影（夕整合，CDL-069）」——即「壓制/戰勝陰影」正正係故事否定嘅偽解法，唔係整合本身嘅正確描繪。
+
+建議修正為 **Act II E-15（部分融合）**場景：依 CDL-070，晴香整合高潮時本想用膠布蓋住鏡子/傷口，最終放下膠布、主動把手貼向鏡面/夕的手——以「伸手貼近/接納」取代「壓制/對戰」，並移除虛構台詞「你逃避的一切才是你真正的力量」（yu.md 未見此句，標 `[INFERRED]`，如保留須註明為演繹對白非原文引用）。「動作同步方向相反」嘅雙舞視覺構圖可保留作為鏡像對稱嘅藝術化演繹（`[INFERRED]`，構圖層面唔涉及劇情事實）。
 
 ### 圖片說明
 
-晴香在扭曲的夢境空間裡與自己內心深處的陰影人格進行一場詭異的雙人舞，兩人動作完全同步，方向卻完全相反，彷如鏡中鏡。這不是對戰，而是一個靈魂試圖與自己逃避已久的黑暗面達成和解——從正上方俯瞰，兩個身影形成對稱的幾何圖案，揭示她們本質上是同一個人。
+`[TIME_REVISED]` 晴香在鏡面/夢境空間中與自己內心深處的陰影人格「夕」相對而立，兩人動作同步、方向相反，彷如鏡中鏡——但這不是對戰或壓制，而是晴香主動放下防衛（膠布哲學：放下膠布），伸手貼向鏡面/夕的手，象徵接納而非戰勝。從正上方俯瞰，兩個身影形成對稱的幾何圖案，揭示她們本質上是同一個人。
 
 **簡化核心描述**：
 晴香與自己的陰影夕進行詭異的雙人舞，動作同步卻方向相反。從上往下俯瞰，兩個身影形成對稱幾何，背景世界在其旋轉中扭曲。
@@ -1768,10 +1860,13 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖45：「黑奏的帝國寶座」（Kuroshio's Empire Throne）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_BlackSong_EmpireThrone.png`
+**依據版本**：`aya.md` §篡位——從保護者到獨裁者（CDL-076/305）（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖45項）
 
 ### 劇情背景
 
-黑奏在弒殺養父帝國皇帝後篡位，以彩的身體坐上帝國最高權位（CDL-198）。然而真正的黑奏是148cm的幼童身軀——巨大皇袍和全覆蓋面具的設計，正是為了讓帝國的臣民以為皇帝是一個高大威嚴的統治者，而非一個被創傷囚禁在6歲的孩子。坐在王座上時，她的雙腳根本碰不到地，必須單手托腮讓另一隻手在袖中摸螢的熊公仔耳朵——「保護者變獨裁者」這個弧光的荒誕與哀傷，在這個細節中得到最完整的具現。她在此發號施令推動情緒結算儀式三階段計劃，卻始終坐在一個遠大於她身體的寶座上：她掌控著一切，卻從未擁有任何東西。
+`[WRONG→已修正]` 原文引用「CDL-198」作為篡位依據，但 CDL-198 實際內容係「黑奏動機揭示兩步設計（Act II/Act III 兩階段揭露節奏）」，同「弒殺養父篡位」呢個具體事件無關，屬張冠李戴誤植（本文件速查表同一行反而正確引用咗 CDL-076，證明本段內文同速查表曾分開編輯冇同步核對）。正確依據：黑奏弒殺養父帝國皇帝並篡位事件見 `aya.md` §篡位——從保護者到獨裁者，篡位動機根源見 CDL-076（螢死亡當夜6歲彩人格分裂誕生黑奏）；篡位事件本身另見 `04_timeline_canon.md#event-kurokana-usurp`。
+
+黑奏在弒殺養父帝國皇帝後篡位，以彩的身體坐上帝國最高權位。然而真正的黑奏是148cm的幼童身軀——巨大皇袍和全覆蓋面具的設計，正是為了讓帝國的臣民以為皇帝是一個高大威嚴的統治者，而非一個被創傷囚禁在6歲的孩子。坐在王座上時，她的雙腳根本碰不到地，必須單手托腮讓另一隻手在袖中摸螢的熊公仔耳朵——「保護者變獨裁者」這個弧光的荒誕與哀傷，在這個細節中得到最完整的具現。她在此發號施令推動情緒結算儀式三階段計劃，卻始終坐在一個遠大於她身體的寶座上：她掌控著一切，卻從未擁有任何東西。
 
 ### 圖片說明
 
@@ -1787,17 +1882,20 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖46：「凜的孔雀之翼」（Rin's Peacock Wings）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_PeacockWings.png`
+**依據版本**：`rin.md` §魔法少女形態一（孔雀/飛行員）；`DIGEST_CHARACTER_STATES.md` R-MG1（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖46項）
 
 ### 劇情背景
 
-被黑奏以殘存靈魂碎片重組後，凜失去記憶，成為情緒管理局的公務員；而在戰鬥任務中，她以 Unit 00 飛行員形態執行日區管控任務（CDL-215）。孔雀羽翼形態是黑奏重組工程的美學設計——華麗的羽毛令市民望而生畏卻又難以抵抗，正是「帝國以美麗掩蓋暴力」機制的具現化。每根羽毛映照出市民的痛苦表情，是「情緒監視延伸」的視覺隱喻：凜的存在本身成為了收割情緒數據的移動節點。諷刺的是，Alpha 線的凜原本是用歌聲保護粉絲的溫柔偶像，Beta 線的她的魔法卻成了令市民恐懼服從的工具。她不記得美夜子的臉，但見到她的瞬間手指會無意識收緊——身體仍保留著最後一絲靈魂印記。
+`[WRONG→已修正]` 被黑奏以殘存靈魂碎片重組後，凜失去記憶，成為情緒管理局的公務員（CDL-215）；孔雀/飛行員形態（`rin.md` R-MG1）是凜嘅其中一種魔法少女形態。原文將呢個形態詮釋為「帝國以美麗掩蓋暴力／收割恐懼情緒的移動監視工具」，但依 `rin.md` §魔法少女形態一，孔雀語言嘅設計意圖係「開屏／舞台上被看見」，同凜 **Alpha 線偶像身份殘留**互相呼應——代表凜「較明亮、自信、可愛」嘅一面，同 R-MG2（烏鴉／痛苦化身，Unit 00 自願兵器化前後嘅極端化狀態）形成對比。原文「監視/收割恐懼」嘅詮釋方向同呢個形態嘅實際設計意義相反，屬過度演繹，未見 canon 支持，標 `[INFERRED]` 移除。主色亦有誤：canon（`rin.md` 行184/198）明確為「**孔雀綠**為主色；金 + 粉紅 + 白」，非原文「金藍色」。
+
+R-MG1/R-MG2 兩種形態具體使用時機，依 `DIGEST_CHARACTER_STATES.md` 註記為「非嚴格幕別鎖定，canon 未明確鎖定順序」，本場景 Act 標籤維持寬鬆處理，標 `[NEEDS_FACT]`。
 
 ### 圖片說明
 
-凜是一位被帝國改造成情緒管理局公務員的前魔法少女，在執行日區管控任務時展開金藍色的孔雀羽翼飛翔，羽翼華美卻令市民望而生畏，每根羽毛上映照著下方市民的痛苦表情，成為收割恐懼情緒的移動工具。她已不記得自己曾是一位以歌聲守護粉絲的溫柔偶像，但見到美夜子的瞬間，手指仍會無意識收緊。
+凜是一位被帝國改造成情緒管理局公務員的前魔法少女，展開孔雀綠為主、金/粉紅/白點綴的孔雀羽翼飛翔——這是她殘留 Alpha 線偶像身份「開朗、自信、被看見」的一面之具現化，與她另一種烏鴉/痛苦化身形態形成強烈對比。她已不記得自己曾是一位以歌聲守護粉絲的溫柔偶像，但見到美夜子的瞬間，手指仍會無意識收緊（`[NEEDS_FACT]`：此無意識反應依 `DIGEST_CHARACTER_STATES.md` R-S2 實際觸發於 Act II E-11 附近，非本場景必然同時發生，如需呈現須另核實時序）。
 
 **簡化核心描述**：
-凜以飛行員形態展開金藍色孔雀羽翼，每根羽毛上映照著市民的痛苦表情。華麗的羽毛實則是制度監視的延伸，美與控制共存。
+凜以飛行員形態展開孔雀綠主色、金粉紅白點綴的羽翼，X 型輪廓向外展開，讀作開朗自信——這是她殘留的 Alpha 線偶像身份一面，與她的烏鴉/痛苦化身形態形成對比。
 
 **所需資源**：凜的飛行員形態，孔雀視覺元素
 
@@ -1806,17 +1904,22 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖47：「操的摔碎時刻」（Misao's Breaking Moment）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_Misao_BreakingMoment.png`
+**依據版本**：`ayakomoji_misao.md` §Body Horror 傀儡絲線縫牙分層設計 CDL-233 Stage 2a（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖47項）
 
 ### 劇情背景
 
-父親背叛（以EMB技術向帝國出賣操的藏身據點）與紗夜犧牲（CDL-231/232）在同一夜發生，將操推入半屍骸化邊緣狀態（CDL-233）。在這個終極崩潰時刻，操長期以「完美表演換取不被改造」的生存策略徹底失效——父親的背叛證明了完美表演從來無法換來真正的安全，只是延後了被丟棄的時機。傀儡絲的斷裂是雙重意義的：她的身體機制崩潰，同時也是她與「必須控制一切才能存活」的執念徹底決裂的瞬間。這一幕緊接在操選擇「停留」守護隊友的鋼鐵獨舞之前（CDL-233），是她從「被動崩潰」轉向「主動選擇以殘缺之身留在自己定義的位置」的心理轉折，也是她為自己無法開口認罪的秘密（據點洩露，CDL-298）所做的無言贖罪的序幕。
+`[WRONG→已修正]` 父親背叛（以EMB技術向帝國出賣操的藏身據點）與紗夜犧牲在同一夜發生，將操推入半屍骸化邊緣狀態——此為 **Stage 2a**（`ayakomoji_misao.md` CDL-233），發生於 **Act II Phase C，E-09a，113年7-8月**，同已於圖5/圖26/圖31 審計確認嘅「鏡像破碎之夜」屬同一事件（同一批次已修正嘅事件群）。原文標「廢棄工廠」為地點，canon 未見對此夜嘅具體地點描述支持，標 `[NEEDS_FACT]`。
+
+原文稱「這一幕緊接在操選擇『停留』守護隊友的鋼鐵獨舞之前」——依 canon Stage 弧線（Stage 2a → Phase D 六個月嘅 Stage 2b → Act III Day13 嘅 Stage 3「停留」選擇），呢兩個時刻中間相隔**大半年**（Stage 2b 過渡期），並非「緊接」，容易誤導為同一夜或相鄰場景。原文引用嘅「CDL-298被迫報串」屬 **Act III Phase H** 另一件完全獨立事件（父親以「醫療回收」脅迫操交出隊伍坐標，冇紗夜、冇鏡子場景），同本場景（E-09a夜）唔屬同一時刻，只能作為同一角色弧線嘅後續呼應，不可暗示因果緊鄰。
+
+在這個終極崩潰時刻，操長期以「完美表演換取不被改造」的生存策略徹底失效——父親的背叛證明了完美表演從來無法換來真正的安全，只是延後了被丟棄的時機。傀儡絲的斷裂是雙重意義的：她的身體機制崩潰，同時也是她與「必須控制一切才能存活」的執念徹底決裂的瞬間。
 
 ### 圖片說明
 
-父親的背叛與母親的犧牲在同一夜摧毀了操維持多年的完美表演，她長期依賴的傀儡絲在這個終極崩潰時刻全數斷裂，身體崩潰跌落在廢棄工廠的地上。這不僅是身體機制的失控，更是她從被動崩潰轉向主動選擇以殘缺之身留守原位的心理轉折，是她為一個永遠無法開口承認的秘密所做的無言贖罪的前夕。
+父親的背叛與紗夜的犧牲在同一夜（Act II，E-09a）摧毀了操維持多年的完美表演，她長期依賴的傀儡絲在這個崩潰時刻大量斷裂、斷牙鬆動（Stage 2a），身體崩潰跌落。這不僅是身體機制的失控，更是她開始以殘缺之身面對自己嘅心理轉折起點——距離她 Act III Day13 主動選擇「停留」嘅鋼鐵獨舞終局，仍有大半年嘅麻木化過渡期（Stage 2b）。
 
 **簡化核心描述**：
-操終於承受不住，完美的姿態崩潰，身體跌落。傀儡絲在此刻全數斷裂，她的尖叫聲（無聲）象徵著靈魂的解放與死亡。工廠在此刻倒塌。
+操終於承受不住，完美的姿態崩潰，身體跌落。傀儡絲在此刻大量斷裂，她的尖叫聲（無聲）象徵著靈魂防衛的初步崩解。地點 `[NEEDS_FACT]`，不預設「工廠倒塌」畫面。
 
 **所需資源**：操的形態與表情變化
 
@@ -1825,10 +1928,15 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖48：「集體潛意識的淤泥深海」（Collective Unconscious Muddy Deep）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_CollectiveUnconscious_MuddyDeep.png`
+**依據版本**：`02_glossary.md` §term-collective-unconscious（CF-T13三層結構）；`DIGEST_LOCATIONS.md` §16（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖48項）
 
 ### 劇情背景
 
-集體潛意識在此故事中是一個可物理進入的超現實空間，分為 L1（表層，魔法少女可達的夢境走廊）、L2（留存海，死者意識碎片漂浮的深處）、L3（冥河，近乎不可返回的創傷核心）三層（CDL-053）。淤泥深海場景呈現的是 L2/L3 交界——無數市民長期受情緒農場機制剝削後，被 Emo-Visor 抽走的情緒廢料沉積在集體潛意識最深層，形成濃稠的創傷淤泥。每一張浮現的臉都是一個在現實中被麻木的個體靈魂的最後掙扎。當紙皮騎士（愛莉）帶領晴香下潛至此，需要面對的不只是具體的敵人，而是整個城市的集體創傷在這裡以物理形式凝聚的重量。這個場景是後段晴香選擇以自身成為世界情緒濾網（靜止搖籃）的前置必要理解——她需要先看見最深的黑暗，才能理解自己要承擔什麼。
+`[WRONG→已修正]` 集體潛意識在此故事中是一個可物理進入的超現實空間，三層結構正確依據為 `02_glossary.md` §term-collective-unconscious（CF-T13），非原文引用嘅「CDL-053」（CDL-053 實際內容係「Beta修正機制＝絕境許願先觸發覺醒」，同集體潛意識三層結構無關，屬張冠李戴誤植）：**L1回聲層**（表層情緒殘留，做夢即入）／**L2留存海**（沉澱記憶存檔，魔法少女可達）／**L3冥河**（未處理哀傷終點，市井稱「陰渠水/苦水井」，僅晴香/黑奏/夕等最深潛者可達）。
+
+`[WRONG→已修正]` 原文將本場景嘅觸發歸因為「E-11」，但依已於圖12/圖20 審計確認結論，E-11（113年9-10月，Act II Phase D）對應嘅係集體潛意識**過渡狀態**（後巷唐樓向內剝落，接通星空——`DIGEST_LOCATIONS.md` §16「過渡狀態」），屬 L1/表層事件，並非本場景描繪嘅 L2/L3「淤泥深海」最深層——兩者深度層級不同，唔應共用同一觸發點。淤泥深海嘅具體觸發時機 canon 未落實，標 `[NEEDS_FACT]`；較合理嘅推斷方向係晴香掌握「陰影視覺雙層感知」（H-S6，CDL-268，Act III後段–Act IV）之後嘅深潛能力，但呢個推斷本身亦未經作者確認。
+
+無數市民長期受情緒農場機制剝削後，被 Emo-Visor 抽走的情緒廢料沉積在集體潛意識最深層，形成濃稠的創傷淤泥。每一張浮現的臉都是一個在現實中被麻木的個體靈魂的最後掙扎。這個場景是後段晴香選擇以自身成為世界情緒濾網（「三位一體永恆守護者」，CDL-326，見圖13/圖50 2026-07-17跨批次覆核修正）的前置必要理解——她需要先看見最深的黑暗，才能理解自己要承擔什麼。
 
 ### 圖片說明
 
@@ -1844,10 +1952,15 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 ### 圖49：「帝國廣場的市民凝滯」（Empire Plaza Citizens Frozen）[BEAT_SHEET_PREP]
 
 **建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_CitizensFrozen.png`
+**依據版本**：`02_glossary.md` §term-resonance-hell 情緒結算儀式；`99_decision_log.md`（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖49項）
 
 ### 劇情背景
 
-帝國情緒農場制度長期透過 Emo-Visor 系統收割市民的情緒能量（CDL-211），令大量市民陷入情感耗盡的慢性麻木狀態。在帝國廣場決戰日，黑奏啟動情緒結算儀式第三階段，強制連結所有人類神經系統，試圖把全城的情感貨幣一次性導向集體潛意識情緒總帳——換回螢的靈魂。凝滯場景正是儀式開始的瞬間：市民被強行「介入」，意識被凍結在恐懼與無法出聲的中間地帶，成為黑奏修正主義「消滅選擇等於消滅人性」邏輯的最恐怖具現。他們的眼睛仍在動，說明意識未被消滅，只是選擇權被完全剝奪——這正是觀眾理解為什麼晴香必須做出最終抉擇的視覺前置。
+`[WRONG→已修正]` 原文引用「CDL-211」作為情緒農場/Emo-Visor 收割機制依據，但 CDL-211 實際內容係「黑奏『只能計算數值，無法計算愛』——農場觀察視角嘅反諷設計」，並非情緒收割機制本身嘅定義依據，屬張冠李戴誤植。「情緒結算儀式」（前稱「共振地獄」，已廢棄）正確依據為 `02_glossary.md` §term-resonance-hell：機制為同頻共振、城市規模情感強制萃取，目的係積累情感貨幣、向集體潛意識情緒總帳換回螢的靈魂（`99_decision_log.md`）——此部分描述本身同 canon 一致，只係引用編號錯誤。
+
+原速查表將本場景標記為「E-15系列」，但 E-15（晴香與夕鏡中對話部分融合）屬 **Act II 末**事件，同本場景描繪嘅**帝國廣場決戰終局**（情緒結算儀式最終階段）時序上明顯不符——本場景應歸屬 **Act III Phase J** 決戰序列（同圖3三重道德處刑、圖19帝國廣場決戰崩塌、圖45黑奏帝國寶座屬同一終局場景群）。
+
+帝國情緒農場制度長期透過 Emo-Visor 系統收割市民的情緒能量，令大量市民陷入情感耗盡的慢性麻木狀態。在帝國廣場決戰日，黑奏啟動情緒結算儀式最終階段，強制連結所有人類神經系統，試圖把全城的情感貨幣一次性導向集體潛意識情緒總帳——換回螢的靈魂。凝滯場景正是儀式啟動的瞬間：市民被強行「介入」，意識被凍結在恐懼與無法出聲的中間地帶。他們的眼睛仍在動，說明意識未被消滅，只是選擇權被完全剝奪——這正是觀眾理解為什麼晴香必須做出最終抉擇的視覺前置。
 
 ### 圖片說明
 
@@ -1860,32 +1973,35 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ---
 
-### 圖50：「晴香的最終抉擇瞬間」（Haruka's Final Choice Moment）[BEAT_SHEET_PREP]
+### 圖50：「晴香的融合抉擇瞬間」（Haruka's Fusion Choice Moment）[BEAT_SHEET_PREP] `[跨批次覆核修正 2026-07-17]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_FinalChoiceMoment.png`
+**建議輸出文件名**：`ConceptArt_Scene_Haruka_FusionChoiceMoment.png`
+**依據版本**：`haruka.md`§第四幕（CDL-326）；`12_philosophy_and_systems.md` §七（CDL-066）（2026-07-17 跨批次覆核修正，見 CHANGE_LIST_EXISTING_SPEC.md「圖13/50 跨批次覆核修正」項）
 
 ### 劇情背景
 
-帝國廣場決戰後，晴香面對 Act IV 最關鍵的分岐點（CDL-066/247）：她可以選擇繼續在現實世界以人類身份戰鬥，接受一切代價無法完全消除的殘缺；或者她可以選擇成為「靜止搖籃」——讓意識沉睡，以自身成為世界的情緒濾網，在夢境循環中永恆承載所有人的負面情緒。這個選擇不是「犧牲 vs. 生存」的英雄式二選一，而是「承擔創世者債務的方法論」的最終確定——她是創世者，她改寫了現實，代價必須由她承擔；但如何承擔，是她唯一能主導的事。掌心中光與暗相爭，是晴香整合了夕（陰影）之後、第一次能夠真正同時持有矛盾情緒而不崩潰的視覺具現，也是「承擔者」Archetype 最終確立的瞬間。
+`[重大概念修正]` 本場景原描繪「靜止搖籃（沉睡消融）vs 繼續以人類身份戰鬥」呢個分岐點，同圖13視為同一未落實草稿材料，僅標記草稿性質未完全覆核。跨批次覆核發現：`haruka.md`§第四幕明確寫「CDL-326，取代舊稿『覺醒但失去記憶』嘅靜止搖籃版本」——即係「意識沉睡、失去自我」呢個選項本身已被取代，唔再係一個仍然存在嘅分岐選項。CDL-326 確認嘅結局係晴香**保留清醒意識同記憶**，主動選擇同集體潛意識源頭完全融合，成為「三位一體永恆守護者」。故本場景嘅分岐點性質須改寫：唔係「沉睡消融 vs 現實戰鬥」二選一，而係晴香在整合夕（陰影）之後，**清醒地**選擇主動承擔——以完整意識同記憶，永久成為世界嘅情緒濾網，同時放棄普通人生活嘅資格。CDL-066（榮格個體化系統）為真實 canon 依據，此刻正是個體化完成後、能夠同時持有矛盾情緒而不崩潰嘅具現化。原文引用嘅「CDL-247」關聯薄弱，維持已移除嘅結論。
+
+帝國廣場決戰後，晴香面對關鍵抉擇：是否要主動選擇同集體潛意識源頭完全融合，永久成為「三位一體永恆守護者」——世界的情緒濾網，承接並轉化所有人的負面情緒，代價係永久失去普通人生活嘅資格，但意識、記憶、選擇始終清醒存在。掌心中光與暗相爭，是晴香整合了內心陰影之後、第一次能夠真正同時持有矛盾情緒而不崩潰的視覺具現——是她作為創世者以清醒意志主動承擔代價，而非被動消融或犧牲。`[NEEDS_FACT]`：呢個抉擇瞬間嘅具體視覺分鏡、觸發條件，canon 未細述，待 Act IV Outline / Beat Sheet 正式設計。
 
 ### 圖片說明
 
-最終決戰後，晴香站在命運的分岔點——一邊是繼續以人類身份在現實世界戰鬥，一邊是讓自我沉睡、化為承載所有人情緒痛苦的永恆濾網。她舉起雙手，光與暗在掌心相爭，這是她整合了內心陰影之後第一次能夠同時持有矛盾而不崩潰，是她作為創世者主動承擔代價、而非被動犧牲的最終一刻。
+最終決戰後，晴香站在抉擇的關鍵時刻——是否主動選擇以清醒意識同記憶，永久融合成為世界的情緒濾網、守護仍存在嘅魔法屍骸，代價是永久失去普通人生活的資格。她舉起雙手，光與暗在掌心相爭，這是她整合了內心陰影之後第一次能夠同時持有矛盾而不崩潰，是她作為創世者以清醒意志主動承擔代價的關鍵一刻——意識全程清醒，沒有沉睡或消融。
 
 **簡化核心描述**：
-晴香在兩條路的分岐點，一邊是現實世界的戰鬥，一邊是夢境中的永恆循環。她舉起手，光與暗在掌心中相爭，選擇此刻定義了世界的未來。
+晴香在關鍵抉擇時刻，舉起手，光與暗在掌心中相爭——選擇是否清醒地永久融合成為世界的情緒濾網。這一刻定義了世界的未來，但她的意識、記憶、選擇始終都在。
 
-**所需資源**：晴香的形態，二元分岐視覺
+**所需資源**：晴香的形態，光暗交爭視覺，`[NO_REF — 融合前夕形態暫無專屬 reference，基準外觀以最新 canon 為準，生成時另查]`
 
 ---
 
-### 圖51：「紙皮騎士的最後一擊」（Cardboard Knight's Last Stand）[BEAT_SHEET_PREP]
+### 圖51：「紙皮騎士的最後一擊」（Cardboard Knight's Last Stand）[BEAT_SHEET_PREP] `[NEEDS_FACT]`
 
 **建議輸出文件名**：`ConceptArt_Scene_CardboardKnight_LastStand.png`
 
 ### 劇情背景
 
-愛莉的「最後一擊」發生在她作為集體潛意識守門人長期承受濾心廢料積累、情緒颱風即將失控的臨界點（CDL-256）。她的瓦楞紙箱盔甲已經歷無數道裂縫、無數圈膠帶的修補——每一道裂縫都是有人借道集體潛意識、讓她代為承受情緒重量的代價。這一刻，她用最廉價的材料對抗最不可抗拒的力量，不是因為她夠強，而是因為她選擇繼續。愛莉的 Truth 在此得到最完整的具現化：「用最廉價的紙皮也能擋住命運」不是關於材質，而是關於態度（Attitude vs. Fate）。她知道自己會因情緒颱風失控而消失，仍然選擇頂住——讓晴香有足夠時間做出最終選擇，讓母親秋穗有機會在她消失之前聽見她想說的話。
+`[TIME_REVISED][NEEDS_FACT]`：本場景原引用 CDL-256，但 CDL-256 依已於圖20/40 審計確認結論，實際對應 **E-10b 單次現實裂縫擋刀**（Act II Phase D，113年9月，規模為單一瞬間防禦），同本場景描述嘅「因情緒颱風失控而消失」屬完全唔同規模嘅事件——後者係愛莉最終消失嘅機制本身（`aeri.md` §緋雨 Crimson Storm：「愛莉最終消失的直接機制——不是戰鬥傷亡，而是被所守護的痛苦從內部引爆」），CDL-256 唔應再被引用於此。此外，「愛莉在晴香最迷失時出現，用最後力量為晴香擋低精神衝擊」呢個具體情節，來源實際係 `ACT_III_OUTLINE.md`「⏸️ 移出 Act III scope — Act IV 草稿材料」附錄（Phase K/L，未經批准，時序待 Act IV Outline 正式設計時重新核實）——「愛莉的行蹤與最後守護」小節原文：「K/L 期最後守護：當晴香陷入『20年靈魂風暴（集體潛意識）』時...愛莉會在晴香最迷失的時候出現，用最後的力量為晴香擋低精神衝擊，然後靜靜等待Act IV的最終消散」。本場景核心方向（紙裝備對抗不可抗力、態度戰勝命運嘅 Truth 具現化）保留，但時間點同觸發機制均為**未批核 Act IV 草稿**，唔可以當已confirm事實處理。愛莉的「Truth」本身（「用最廉價的紙皮也能擋住命運」係關於態度而非材質）有 `aeri.md` 支持。
 
 ### 圖片說明
 
@@ -1904,14 +2020,14 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ### 劇情背景
 
-帝國廣場決戰高潮，黑奏啟動情緒結算儀式、緋潮反噬即將撕裂天空的瞬間，長期被囚禁在心房深處的彩主人格用盡全部積蓄的意志，奪回對身體的控制權（CDL-076）。黑奏第一次真正失去對身體的掌控。彩沒有說任何英雄台詞，只是抬起手，燃燒自己的靈魂填補天空裂痕（CDL-079）——不是為了贖罪，不是為了英雄式的結局，而是因為：「這是我自己選擇的。」靈魂燃燒後並未消散，而是被集體潛意識捕獲，投入永恆時間迴圈，在每個時間線中回到通風管道那夜阻止黑奏的誕生。金色光點化為星辰，是「囚徒→見證者→救贖者」Archetype 弧光的終點視覺化，也是她對螢說的最後承諾：這次，我不再讓你為我犧牲。
+`[修正]` 帝國廣場決戰高潮（**Act III Phase J，E-III-J8，緊接 SPEC#8 彩奪回身體同一事件延續**，非另立獨立時空），黑奏啟動情緒結算儀式、緋潮反噬即將撕裂天空的瞬間，長期被囚禁在心房深處的彩主人格用盡全部積蓄的意志，奪回對身體的控制權（見 SPEC#8，`aya.md` §覺醒與犧牲，event-aya-awakening）。黑奏第一次真正失去對身體的掌控。彩沒有說任何英雄台詞，只是抬起手，燃燒自己的靈魂填補天空裂痕——不是為了贖罪，不是為了英雄式的結局，而是因為：「這是我自己選擇的。」靈魂在燃燒中散發金色光芒，與緋潮的猩紅交織，風暴平息（`aya.md` §覺醒與犧牲原文）。**此後**（同一事件之延續，非同一畫面）靈魂燃燒後並未消散，而是被集體潛意識捕獲，投入永恆時間迴圈，在每個時間線中回到通風管道那夜阻止黑奏的誕生（`aya.md` §永恆輪迴）——此為「第四幕：永恆輪迴」的起點，但「靈魂填補天空裂痕」呢個視覺畫面本身屬 Act III J8，唔應標成 Act IV。原文引用嘅 CDL-076 實際係「黑奏誕生原因」定義，同彩嘅靈魂解放無關，屬張冠李戴，已移除。「囚徒→見證者→救贖者」Archetype 弧光終點、對螢嘅最後承諾等敘事意義保留，符合 `aya.md` 設計。
 
 ### 圖片說明
 
-彩在長年被囚禁在自己意識深處之後，終於用盡全部積蓄的意志奪回身體的控制權，隨即燃燒自己的靈魂填補天空的裂痕——不是為了英雄式的結局，只是因為這是她自己選擇的。她的身體化為純金色光點升向天空，逐漸成為千萬星辰，是她從被守護者轉為守護者的完整旅程的終點。
+彩在長年被囚禁在自己意識深處之後，終於用盡全部積蓄的意志奪回身體的控制權（Act III J8，緊接彩奪回身體同一事件），隨即燃燒自己的靈魂填補天空的裂痕——不是為了英雄式的結局，只是因為這是她自己選擇的。她的靈魂在燃燒中散發出金色光芒，與緋潮的猩紅交織，風暴平息；`[INFERRED]` 燃燒後續被集體潛意識捕獲、投入永恆時間迴圈（回到通風管道那夜）為後續發展，屬同一弧光但非同一畫面。
 
 **簡化核心描述**：
-彩的身體化為純金色光點，從黑奏的束縛中解放。光點向天空升起，逐漸變成千萬星辰，照亮黑夜。犧牲在此成為救贖的視覺形式。
+彩的靈魂在燃燒中散發金色光芒，與緋潮的猩紅交織，天空裂痕被填補，風暴平息。犧牲在此成為救贖的視覺形式（`[INFERRED]`：光點化為「千萬星辰」升空的具體意象為延伸演繹，canon 原文僅確認「金色光芒與緋潮猩紅交織」）。
 
 **所需資源**：彩的形態，光點與星辰視覺
 
@@ -1923,7 +2039,7 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ### 劇情背景
 
-為了接近 Unit 01（美夜子）的真相，朔加入情緒管理局成為雙面特工——白天以純白西裝的冷酷特工身份執行清剿屍骸任務，夜晚以綠松石獵裝在夜區巡邏並暗中收集情報（CDL-255）。這種雙重生活在 Act III/IV 達到臨界，因為兩個身份的要求越來越直接衝突：白天的「清除任務」要求他以屍骸為敵，夜晚的「保護殘響」覺醒卻讓他明白屍骸是需要被解放的靈魂。日夜交界場景是他最誠實的存在狀態——在沒有制服偽裝的瞬間，兩個身份並存而相互撕裂。後段他選擇放棄「找回記憶中的美夜子」，接受「眼前已改變的美夜子」，是這份生存代價最終換來的唯一回報。
+`[修正]` 為了接近 Unit 01（美夜子）的真相，朔加入情緒管理局成為雙面特工——白天以純白西裝的冷酷特工身份執行清剿屍骸任務，夜晚以綠松石獵裝在夜區巡邏並暗中收集情報（CDL-255）。**注意**：原文引用嘅 CDL-025 已於圖15/36審計確認屬完全錯誤嘅「Act I校霸身份」設定殘留，同朔嘅日夜雙重身份無關，已移除。依 `saku.md` 視覺演變表，兩套形態嘅正式融合（日側制服+夜側綠松石飾品同時呈現）發生喺 **Act III（SA-S3）**——「保護的殘響」理念徹底覺醒、解放者身份確立之時；Act IV（SA-S4）則係另一個唔同嘅視覺狀態：「放棄制服，穿回夜區傳統服飾——回歸真實自我」，唔再係日夜合體嘅交界形象。呢種雙重生活喺 Act III 達到臨界，因為兩個身份的要求越來越直接衝突：白天的「清除任務」要求他以屍骸為敵，夜晚的「保護殘響」覺醒卻讓他明白屍骸是需要被解放的靈魂。日夜交界場景是他最誠實的存在狀態——在沒有制服偽裝的瞬間，兩個身份並存而相互撕裂。此為 Act III 融合形態，Act IV 朔的終局為另一獨立視覺（見內文修正）。
 
 ### 圖片說明
 
@@ -1936,58 +2052,58 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ---
 
-### 圖54：「靜止搖籃的粒子化進程」（Static Cradle Particularization Process）[BEAT_SHEET_PREP]
+### 圖54：「靜止搖籃的粒子化進程」（Static Cradle Particularization Process）[BEAT_SHEET_PREP] `[SUPERSEDED_CONCEPT — 見下方說明]`
 
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_ParticularizationProcess.png`
 
 ### 劇情背景
 
-晴香在 Act IV 最終做出選擇——成為「靜止搖籃」（CDL-066/247）。這不是被動的犧牲，而是她作為創世者承擔因果債務的主動選擇：她改寫了現實，製造了 Beta 線，那份代價必須由她來承載。粒子化進程是靜止搖籃機制的視覺呈現：她的自我邊界逐步消融，意識從「個體容器」轉化為「集體情緒濾網」，吸收並轉化集體潛意識中的負面情緒，讓整個城市的創傷有一個出口而非繼續積壓。每一個階段（完整人形→半透明→粒子雲→光點迴圈）對應她「拯救者→殉道者→承擔者」Archetype 弧光的最終一步。背景世界在同步重生，是因果平衡的視覺化：她的自我消融，是新世界建立的代價與基礎（CDL-248）。
+`[重大概念錯誤]` **原文引用嘅 CDL-003 實際內容係「夕 Act IV 終局：消散（改變現實→反悔→用自身力量undo改變現實→力量耗盡消散）」，講嘅係夕嘅結局，同晴香嘅結局完全無關，屬張冠李戴。** 更關鍵嘅係，`haruka.md` §第四幕原文明確寫：「覺醒且保留全部記憶（**CDL-326，取代舊稿『覺醒但失去記憶』嘅靜止搖籃版本**）」——即係本場景所依據嘅「靜止搖籃／粒子化／失去自我邊界成為世界本身」呢個概念**已經被 CDL-326 正式取代**，唔單止係「未批核草稿」（同 SPEC#13/50 先前標記一致），而係**已有更新版本嘅確認結論**。CDL-326 確認嘅第四幕終局：晴香「主動選擇同集體潛意識源頭（L3冥河）完全融合，成為『三位一體永恆守護者』——世界的情緒濾網，承接並轉化集體潛意識的負面情緒，溫柔守護仍然存在嘅魔法屍骸」，**但意識清醒、保留記憶、選擇仍在**——唔係「粒子化、失去個體邊界、光點迴圈」呢種被動消融意象。視覺上對應：純白髮、近乎透明的灰白瞳孔、服裝融合夕的黑色元素，「情感徹底耗損後的『空殼感』蛻變為神性嘅承載——但意識仍在，選擇仍在」。建議本場景嘅視覺方向徹底改用 CDL-326 嘅「三位一體永恆守護者」轉化過程，而非「粒子化消失」意象；若要保留漸進式視覺呈現，應該係「意識/形態逐步轉化為情緒濾網角色」而非「自我邊界消融、失去個體性」。**此發現同時影響 SPEC#13（靜止搖籃終局）同 SPEC#50（晴香的最終抉擇瞬間）——兩者於先前批次只標記為「未批核Act IV草稿」，現確認實際已被 CDL-326 取代，建議下一輪覆核時一併修正。**
 
 ### 圖片說明
 
-晴香做出最終選擇後，她的身體開始逐步粒子化：從完整人形到半透明，到散開的粒子雲，最後成為光點迴圈融入世界本身。每個階段都意味著她作為獨立個體的自我邊界在消融，同時世界的基礎正在被重建——她的消失，是所有人得以喘息的代價。
+`[概念修正]` 依 CDL-326，晴香最終形態並非「粒子化消散、失去自我」，而是**保留完整意識與記憶**、主動選擇與集體潛意識源頭融合成為「三位一體永恆守護者」——世界的情緒濾網。視覺進程建議改為：純白髮、近乎透明的灰白瞳孔逐漸顯現、服裝融合夕的黑色元素；情感耗損後的「空殼感」蛻變為神性承載，但眼神/姿態始終保有清醒意識，非全然消融的粒子雲。`[NEEDS_FACT]`：具體轉化過程嘅視覺分鏡（是否仍有階段性漸進呈現）canon 未細述，待 Act IV Outline / Beat Sheet 正式設計。
 
 **簡化核心描述**：
-晴香逐漸粒子化的視覺進程：從完整人形→半透明→粒子雲→光點迴圈。每一階段顯示她的自我消融與世界基礎的建立。背景世界在同步重生。
+晴香主動選擇同集體潛意識融合，成為保留意識同記憶嘅「三位一體永恆守護者」（CDL-326）——純白髮、灰白透明瞳孔、服裝融合夕嘅黑色元素；唔係失去自我嘅粒子化消散，而係清醒狀態下嘅神性承載轉化。
 
 **所需資源**：晴香的形態，粒子效果
 
 ---
 
-### 圖55：「美夜子的靈魂雙線」（Miyako's Soul Dual Line）[BEAT_SHEET_PREP]
+### 圖55：「美夜子的靈魂雙線」（Miyako's Soul Dual Line）[BEAT_SHEET_PREP] `[INFERRED]`
 
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_SoulDualLine.png`
 
 ### 劇情背景
 
-美夜子是全作唯一在 Alpha 線真正死亡的角色，被秋穗以拼接式復活技術重啟為 Unit 01（CDL-271）。她的靈魂在徹底崩裂時本能欲切斷因果線逃入虛無，但對「陪伴晴香」的執念作為物理錨點，強行將靈魂最後1%殘片鎖住肉體。軍方重啟後，這個錨點轉化為心之器碎片嵌入神經組織的鎖鏈——99%情緒廢料在靈魂深處漫流，1%意志在鎖鏈中維持清醒。靈魂雙線解除場景（CDL-271）發生在 Act IV 凜斷喀聲 PTSD 的最後掙扎之後，美夜子終於允許自己在晴香面前大哭——這是她「借來的命不許軟弱」謊言崩潰的瞬間。兩條線的交織是「死亡主體」與「清醒選擇者」的和解：她不再是 Unit 01，而是選擇留下守護妹妹的那個人。
+`[修正]` **「靈魂雙線」呢個具體視覺化裝置（兩條靈魂線交織）喺 `miyako.md` 全文搵唔到直接支持**，屬舊72圖檔自行延伸嘅演繹；原文引用嘅 CDL-274 實際係「美夜子姊妹相認2步設計」（Step 1 月下崩潰貓殼碎裂／Step 2 黑奏處刑室語言相認），同「靈魂雙線」呢個意象無關，屬張冠李戴，已移除。有 canon 支持嘅底層機制係 CDL-271「靈魂困禁層：99%情緒廢料在靈魂深處漫流，1%意志在鎖鏈中維持清醒——呢個唔係強，係喺無法倒下嘅結構中撐著」（`miyako.md`）——呢個「1%清醒意志 vs 99%情緒廢料」嘅比例關係可以作為「兩種狀態並存」視覺意象嘅依據，但「靈魂分裂為兩條線、最終交織」呢個具體敘事裝置本身未confirm。美夜子「終於允許自己大哭」呢個真正 confirm 嘅 Need 達成時刻，係獨立場景（見圖109「美夜子終於哭出來」[ACT_IV]，非本場景），`miyako.md` §第四幕標題正正就係「美夜子的大哭」（Dark Healing 三大治癒時刻之一）——本場景若要保留，建議明確定位為圖109嘅前置/同一弧線嘅視覺化演繹，並標記核心裝置本身為`[INFERRED]`。
 
 ### 圖片說明
 
-美夜子是全作唯一真正死亡過的角色，被拼接式技術復活後靈魂徹底碎裂，卻以對「陪伴晴香」的執念作為物理錨點強行維持清醒。她的靈魂在此刻分裂為兩條線——被囚禁在死亡狀態中的那條，與清醒選擇守護的那條——兩條線最終交織，代表她終於接受自己不只是被強制復活的工具，而是一個主動選擇留下的人。
+`[INFERRED]` 美夜子是全作唯一真正死亡過的角色，被拼接式技術復活後靈魂徹底碎裂，長年以「99%情緒廢料在深處漫流、1%清醒意志在鎖鏈中維持」（CDL-271）嘅結構撐著。本場景以「兩種靈魂狀態並存最終和解」嘅視覺意象呈現呢個機制——具體「雙線交織」裝置為延伸演繹，非canon直接描述。
 
 **簡化核心描述**：
-美夜子的靈魂在此刻分裂為兩條線——Unit 01 時期被困的靈魂（半透明虛弱）與現在清醒的靈魂（實心鮮活）並存於一體。兩條線最終交織。
+`[INFERRED]` 依CDL-271「1%清醒意志 vs 99%情緒廢料」機制延伸嘅視覺意象：美夜子的靈魂狀態分裂為兩層——被困的沉重層與清醒撐著的意志層——最終走向和解（同SPEC#109美夜子終於哭出來為同一弧線）。
 
 **所需資源**：美夜子的形態，靈魂視覺化設計
 
 ---
 
-### 圖56：「新世界的搖籃曲」（Lullaby of the New World）[BEAT_SHEET_PREP]
+### 圖56：「新世界的搖籃曲」（Lullaby of the New World）[BEAT_SHEET_PREP] `[SUPERSEDED_CONCEPT — 見下方說明]`
 
 **建議輸出文件名**：`ConceptArt_Scene_NewWorld_LullabySong.png`
 
 ### 劇情背景
 
-晴香完成粒子化、成為靜止搖籃後（CDL-248），她所化身的新世界是整個故事的終局狀態：沒有線性時間流向、沒有痛苦遞進，只有她作為情緒濾網持續吸收並轉化集體潛意識負面情緒的永恆循環。花子的搖籃曲在此具現為波紋擴散——它既是母愛的溫暖，也是晴香從未能從母親那裡真正獲得、卻選擇將其化為世界底色的愛的遺願。這個場景的雙重性是全作最後的主題問句：這是救贖（所有人終於得到一個喘息的世界），還是永恆囚禁（晴香的意識永遠沉睡、再也無法做出新的選擇）？美夜子在旁守護的身影確認了一件事：即使在這樣的終局，仍然有人記得晴香不只是「世界的容器」，而是一個曾經存在過的人。
+`[重大概念錯誤]` 原文引用嘅 CDL-248 同「晴香化身成為世界本身」嘅前提，同 SPEC#54 已確認嘅結論一樣，係基於已被 `haruka.md`§第四幕明確標註「取代」嘅舊稿「靜止搖籃」版本（CDL-326：「覺醒且保留全部記憶...取代舊稿『覺醒但失去記憶』嘅靜止搖籃版本」）。晴香並非「化身成為世界本身、意識永遠沉睡」，而是**保留清醒意識與完整記憶**，主動選擇同集體潛意識源頭融合，成為「三位一體永恆守護者」——世界的情緒濾網，但「意識仍在，選擇仍在」。因此本場景原有「救贖 vs 永恆囚禁」嘅曖昧兩難提問，依CDL-326已有明確答案傾向：唔係被動嘅意識沉睡囚禁，而係主動選擇嘅承擔（雖然代價係永久失去普通人生活嘅資格）。美夜子在旁守護嘅設計方向有 canon 支持——`haruka.md`§第四幕：「美夜子經歷一段記憶迷霧期後尋回自己，親手完成晴香未竟嘅心願（見miyako.md『笨拙演奏』），其後回歸凡人，以有限嘅人生保持連結直至自然終老」。花子搖籃曲嘅具體視覺化（波紋擴散）canon 未見直接支持，標`[INFERRED]`。**此為同SPEC#54相同嘅概念性問題，建議兩場景一併重新設計以對齊CDL-326。**
 
 ### 圖片說明
 
-這是全作的終局圖像：晴香化身成為世界本身，沒有線性時間、沒有痛苦遞進，只有永恆循環的溫暖與寂靜，花子的搖籃曲化為波紋向外擴散，所有角色在此得到各自形式的安放。美夜子仍然守候在旁，因為她記得晴香不只是世界的容器，而是一個曾經真實存在的人。
+`[概念修正]` 依CDL-326，這是全作終局圖像之一：晴香**保留清醒意識與記憶**，主動選擇同集體潛意識融合成為「三位一體永恆守護者」——純白髮、灰白透明瞳孔、服裝融合夕的黑色元素，溫柔守護仍然存在嘅魔法屍骸（唔強行令佢哋變返原狀，而係陪住佢哋）。美夜子經歷記憶迷霧期後尋回自己，完成晴香未竟嘅心願（笨拙演奏），其後回歸凡人以有限人生保持連結直至自然終老——呢個係美夜子在旁守護嘅 canon 依據。花子搖籃曲化為波紋擴散嘅具體視覺意象為`[INFERRED]`延伸演繹。
 
 **簡化核心描述**：
-最後的圖像：晴香化身的新世界，沒有時間流向、沒有痛苦遞進、只有無窮循環的溫暖與寂靜。花子的搖籃曲視覺化為波紋擴散，所有人物在此獲得救贖（或永恆囚禁）。
+`[概念修正]` 終局圖像：晴香保留意識同記憶，主動選擇成為守護集體潛意識嘅「三位一體永恆守護者」（CDL-326），非被動意識沉睡的「世界容器」。美夜子完成晴香心願後回歸凡人，以有限人生保持連結。花子搖籃曲視覺化為波紋擴散為`[INFERRED]`。
 
 **所需資源**：超越性視覺設計，音樂化視覺效果
 
@@ -2047,42 +2163,42 @@ Canvas: 3:4 portrait; intimate framing; high definition
 
 ---
 
-### 圖58：「紅線強迫症」（凜 / Red Line Compulsion Habit）[PRIVATE_INTIMATE_MOMENT]
+### 圖58：「紅線強迫症」（凜 / Red Line Compulsion Habit）[PRIVATE_INTIMATE_MOMENT] `[核心視覺概念已修正]`
 
 **建議輸出文件名**：`ConceptArt_Scene_Rin_RedLineCompulsion.png`
 
 ### 劇情背景
 
-凜在帝國歷108年犧牲後，靈魂碎片被黑奏冰封於情緒管理局裝置中，在完全感官剝奪的狀態下維持意識清醒（無視覺、無聽覺、無觸覺）。被重組為公務員後，初次感知到的感覺信號就是痛覺——痛覺因此成為她確認「我還存在」的唯一不可替代橋樑（CDL核心創傷：感官剝奪期）。紅線強迫症是這份痛覺依存的具現化：她不是愛好痛苦，而是「任何感覺都比無感覺更接近活著」的倖存本能。此習慣連接Act II美夜子認出重組凜的場景——紅線縫合的脖子是凜作為「斷頸屍體被縫回來」的物理痕跡，也是美夜子PTSD的視覺觸發點之一。
+`[重大概念錯誤]` **原文將「紅線」誤解為「用紅色細線/簽字筆在牆壁上畫線」嘅強迫性塗鴉行為，但依 `rin.md`（habit-red-line，§感官剝奪核心創傷）明確定義，「紅線」實際係凜自己頸上嘅紅色縫合線疤痕**——108年戰場中被光環處決、頸部強行扭斷後留下嘅「頭顱被縫回去的痕跡」，平時被高領遮蓋，關鍵場景中暴露（`rin.md` 視覺演變表）。習慣本身係「用指甲挑頸上紅色縫合線到出血——『痛……我係度……』每次挑開都是對存在的確認」（`rin.md` habit-red-line 原文），唔係喺牆壁上畫線。凜在帝國歷108年犧牲後，靈魂碎片被黑奏冰封於情緒管理局裝置中，在完全感官剝奪的狀態下維持意識清醒（無視覺、無聽覺、無觸覺）。被重組為公務員後，初次感知到的感覺信號就是痛覺——痛覺因此成為她確認「我還存在」的唯一不可替代橋樑（`rin.md` §感官剝奪核心創傷）。紅線強迫症是這份痛覺依存的具現化：她不是愛好痛苦，而是「任何感覺都比無感覺更接近活著」的倖存本能。此習慣連接Act II美夜子認出重組凜的場景——紅線縫合的脖子是凜作為「斷頸屍體被縫回來」的物理痕跡，也是美夜子PTSD的視覺觸發點之一。
 
 ### 圖片說明
 
-凜在108年死亡後靈魂碎片被冰封，在完全喪失一切感覺的狀態下維持意識；被重組回來後，痛覺成為她確認「我還存在」的唯一橋樑。她在房間角落用深紅細線強迫性地在牆壁上描繪密密層層的直線，指尖因長期摩擦滲血卻無法停止——不是愛好痛苦，而是「任何感覺都比無感覺更接近活著」的倖存本能。
+`[概念修正]` 凜在108年死亡後靈魂碎片被冰封，在完全喪失一切感覺的狀態下維持意識；被重組回來後，痛覺成為她確認「我還存在」的唯一橋樑。她獨自一人時，會用指甲反覆挑起頸上那圈紅色縫合線疤痕（平時被高領遮蓋）直到滲血——不是愛好痛苦，而是「任何感覺都比無感覺更接近活著」的倖存本能，每次挑開都是一次無聲的「我還在」。
 
 **Reference Images**：
-- 凜：`ConceptArt_Rin_MagicalGirl_1.png`（需調整為日常狀態）
+- 凜（便服/日常）：`ConceptArt_Rin_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
-凜的房間一角，牆壁上用深紅色細線進行著強迫性的標記。這不是隨意的塗鴉，而是精確的、有規律的、不斷重複的行為——每條線都必須直、必須等距、必須染滿整個空間。
+凜獨自一人時，手指會不自覺移向頸後那圈紅色縫合線疤痕——那是108年頭顱被強行扭斷後、被縫回去的痕跡，平時以高領或圍巾遮蓋。她用指甲一遍又一遍挑起結痂，直到滲出血絲。這不是隨意的自傷，而是精確的、儀式化的、不斷重複的行為——手指總是回到同一個位置。
 
-她用細紅色簽字筆一遍遍地在同一個位置上描繪，已經有數十層線條重疊。指尖因長期摩擦已滲出細微的傷口，但她無法停止。這個強迫行為源於對「秩序」的病態追求——這是她在無法掌控的現實中，唯一能夠完全支配的東西。
+這個強迫行為源於感官剝奪期後嘅倖存本能：完全喪失一切感覺的那段時間後，痛覺是她重組後第一個能接收到的感覺信號，因此成為不可替代嘅存在確認方式。指尖因反覆摩擦已滲出細微的血痕，但她無法停止。
 
-紅色深度隨著層數增加而加深，最終形成類似血跡的視覺效果。她每次進行這個儀式時，都會陷入近乎冥想的狀態，時間流逝對她而言變得不存在。這一刻她既是施虐者，也是受虐者——通過傷害自己的指尖，她確認自己仍擁有控制力。
+紅色疤痕在反覆挑動下時而滲血、時而結痂，形成層層疊疊的痕跡。她每次進行這個儀式時，都會陷入近乎冥想的沉默狀態——「痛……我係度……」。這一刻她既是施虐者，也是受虐者——通過傷害自己頸上的疤痕，她確認自己仍然存在。
 
 **所需原圖資源**：
-- 凜的日常或休息狀態形態
-- 牆壁紅線標記的密集視覺參考
-- 手指傷口與疲憊細節
+- 凜的日常/休息狀態形態（便服，高領/圍巾局部拉開露出頸部）
+- 頸部紅色縫合線疤痕的細節視覺參考
+- 手指與頸部互動的姿態設計
 
 **生成提示**：
 ```
 Style: Intimate obsession; psychological compulsion visualization; self-harm documentation
-Mood: Compulsive control; the paradox of mastery through self-damage; numbed repetition
-Colors: Deep crimson red (#8B0000) layered and overlapping; pale skin with minor bleeding; neutral wall tones
-Composition: Figure's hand prominent in foreground; wall with layered red lines as focal point
-Lighting: Harsh direct light revealing texture and damage detail; shadows emphasizing repetition
-Special effects: Layered line texture; subtle blood highlights; worn-out visual fatigue
-Canvas: 3:4 portrait focusing on hand and wall interface
+Mood: Compulsive control; the paradox of mastery through self-damage; numbed repetition; existential confirmation through pain
+Colors: Deep crimson red (#8B0000) scar tissue against pale neck skin; muted background tones
+Composition: Close-up on hand reaching toward neck scar; collar/scarf partially pulled aside; face turned away or downcast
+Lighting: Harsh direct light revealing scar texture and damage detail; shadows emphasizing isolation
+Special effects: Scar tissue texture; subtle fresh blood highlights; worn-out visual fatigue
+Canvas: 3:4 portrait focusing on hand-neck interface
 ```
 
 ---
@@ -2093,7 +2209,7 @@ Canvas: 3:4 portrait focusing on hand and wall interface
 
 ### 劇情背景
 
-凜在帝國歷108年主動引開L3光環殉道後，美夜子的介錯人身份徹底破碎——她最深的職責是確保戰友能以「人類身份」死去，而凜的死亡恰恰是她在場卻未能阻止的。研磨那把刻有凜名字的斷刃，是美夜子「無出口的愛」的唯一形式（miyako.md §私密習慣 habit-blade-grinding）：刀刃已斷、無法再戰，她的指紋被磨平、手指破皮，卻把刀身磨至鏡面——那鏡面映照出她憔悴的臉，是介錯人失職的永恆指控。此儀式與後來Act III凜以Unit 00身份重組、卻不記得美夜子的情節形成殘酷呼應：美夜子一直在用身體記憶守護一個已不再記得她的人。
+`[修正]` 凜在帝國歷108年為掩護美夜子撤離而犧牲（頸部被強行扭斷，`04_timeline_canon.md` event-rin-sacrifice），美夜子自此把「活著」理解為「欠下來的時間」，並以「介錯人」角色壓住崩潰——呢個身份係凜死後**自我承接**嘅結構性創傷反應，而非事前已存在嘅職責失守（`miyako.md` §介錯人的覺悟：「她要做的，是成為『最後的保險栓』——確保當她們走向終點時，能夠以『人類』身份死去，而不是變成怪物」）。研磨那把刻有凜名字的斷刃，是美夜子「無出口的愛」的唯一形式（`miyako.md` §私密習慣 habit-blade-grinding）：刀刃已斷、無法再戰，她的指紋被磨平、手指破皮，卻把刀身磨至鏡面——那鏡面映照出她憔悴的臉，是「介錯人護衛失敗的永恆指控」（habit-blade-grinding 原文）。**注意時序**：真正嘅「介錯」動作（美夜子親手終結凜——「以人類戰士身份履行血之約定，槍擊Unit 00核心」）發生喺 **Act III「凜的最終戰：遲來的介錯」**（`04_timeline_canon.md` event-rin-final-battle），並非108年犧牲當刻；本習慣貫穿108年至Act III前，係長期嘅悼念/自我懲罰儀式。此儀式與凜以Unit 00身份重組、卻不記得美夜子的情節形成殘酷呼應：美夜子一直在用身體記憶守護一個已不再記得她的人。
 
 ### 圖片說明
 
@@ -2140,7 +2256,7 @@ Canvas: 3:4 portrait or close-up focusing on hand-blade-sparks interaction
 凜死亡後被重組，語義記憶已被抹除，但身體記憶殘留：她的嘴會在放空時無意識地哼出一段旋律，而在同一個音符上停住——那個音符之後應該有另一個聲音接續，那個聲音是美夜子的，永遠不再出現。這段反覆出現的停頓是她最克制的悼念，也是身體比頭腦更忠實地記憶著一段已被奪走的情感的痕跡。
 
 **Reference Images**：
-- 凜（第二形態）：`ConceptArt_Rin_MagicalGirl_2.png`
+- 凜（`[修正]`日常/公務員形態，非戰鬥形態）：`ConceptArt_Rin_TheAdministrationBureau.png` 或 `ConceptArt_Rin_CasualWear.png`（原引用嘅 `ConceptArt_Rin_MagicalGirl_2.png` 為「烏鴉/痛苦化身」Unit 00極端化戰鬥形態，同本場景「重組後日常邊行邊哼歌」情境不符——同已於圖35/46審計確認嘅「角色專屬視覺語言誤用」屬同一模式，已修正）
 
 **詳細核心描述**（300-400字）：
 凜進行著一項令人不安的強迫行為——她習慣性地開始哼唱某首旋律，卻在中途戛然而止。這首旋律沒有名字，沒有歌詞，只是一段殘缺的片段。她會重複進行這個動作：開始→停頓→沉默→再次開始。
@@ -2173,38 +2289,38 @@ Canvas: 3:4 portrait; intimate psychological focus
 
 ### 劇情背景
 
-Act III Phase H期間，操被父親以「醫療回收」（將她改造成如母親一樣的無意志活體人偶）作威脅，在PTSD崩潰中以震顫的手輸入了隊伍的藏身據點坐標（CDL-298「被迫報串」）。沒有任何人知道這件事，隊伍將突襲歸咎於帝國新型偵測技術。強迫清洗儀式是操獨自背負這份無人知曉的罪疚感的外化：她清洗的不是物理污垢，而是出賣隊友的道德污點——那是永遠洗不乾淨的。此場景連接「鋼鐵獨舞」（Day 13）的深層動機：她用身體封鎖通道保護隊友，是對一個永遠無法開口認罪的秘密唯一能做的事。
+`[WRONG→已修正 2026-07-17]` 原文將本習慣嘅根源歸因於「CDL-298被迫報串」嘅出賣隊友罪疚感（洗手=洗去道德污點），但依 `ayakomoji_misao.md` §關鍵習慣 habit-compulsive-washing（CDL-155/156 源頭）明確定案：呢個強迫清洗儀式係「每天長時間以滾燙熱水擦洗**全身**，直到皮膚擦破滲血」，試圖洗去嘅係「父親的觸碰、被篡改的身體、性別認同的混亂」——即父親安排嘅物理性別重置手術（CDL-155）留下嘅創傷，唔係出賣隊友嘅道德污點；洗嘅亦係全身而非單純雙手。呢個習慣由創傷發生後（Act I-II）已持續存在，Act III Phase H（114年4月中）CDL-298「被迫報串」發生後，呢份既有創傷疊加多一層新罪疚感，兩者同時存在但唔應該將後者講成唯一根源。此場景連接「鋼鐵獨舞」（Day 13）：操長期以「清洗掉被改造嘅身體」對抗存在恐懼，Phase H 嘅新罪疚只係疊加在舊創傷之上。
 
 ### 圖片說明
 
-操因恐懼父親的威脅，在顫抖中輸入了隊伍的藏身據點坐標，沒有任何人知道這件事。強迫清洗儀式是她獨自背負這份無人知曉的罪疚感的外化：她清洗的不是物理污垢，而是出賣隊友的道德污點——以精確的水溫、特定品牌的肥皂、規定次數的清洗動作，重複又重複清洗一雙永遠洗不乾淨的手。
+操每天以滾燙熱水長時間擦洗全身，直到皮膚擦破滲血——她試圖洗去的不是物理污垢，而是父親的觸碰、被強行改造的身體、性別認同的混亂（物理性別重置手術 CDL-155 留下的創傷）。Act III Phase H 期間，她被迫在PTSD崩潰中洩露隊伍據點坐標（CDL-298「被迫報串」），這份新罪疚疊加在原有創傷之上，令清洗儀式更加激烈，但精神污漬依然永遠洗不掉。
 
 **Reference Images**：
 - 操（便服）：`ConceptArt_Misao_CasualWear.png`
 
 **詳細核心描述**（300-400字）：
-操的浴室，白色磁磚被她每日的強迫清洗行為侵蝕得泛黃。她已經洗手 347 次今天——她計數著每一次。雙手因頻繁清洗而開裂、泛紅、甚至滲血，但她無法停止。
+操的浴室，白色磁磚被她長期的強迫清洗行為侵蝕得泛黃。她以滾燙熱水長時間擦洗全身，反覆清洗同一部位直至皮膚潰爛滲血，但她無法停止。
 
-清洗的動作已經變成一種儀式，有著嚴格的順序與次數要求。她用溫度恰好 42°C 的水、特定品牌的肥皂、21 次擦洗動作、11 次沖洗週期。任何偏差都會觸發焦慮，迫使她重新開始。
+清洗的動作已經變成一種儀式，有著嚴格的順序與次數要求。任何偏差都會觸發焦慮，迫使她重新開始——這是創傷後清潔強迫症的典型表現。
 
-這個強迫行為的根源是對「骯髒」的病態恐懼——但這裡的「骯髒」不是物理意義上的，而是道德與心理層面的。她在試圖清洗掉自己靈魂深處的「污垢」——那些無法原諒的選擇、無法挽回的傷害、無法消除的罪惡感。
+這個強迫行為的根源，是操身體上物理性別重置手術（CDL-155）留下的痕跡，以及父親觸碰造成的性別認同混亂——她清洗的不是外在污垢，而是試圖抹去那具「不是她選擇的身體」。Act III Phase H 期間，她因被迫洩露隊伍據點坐標（CDL-298）而背負的新罪疚感，令這份既有的清洗強迫症進一步加劇，兩層創傷在此刻疊加。
 
-鏡子中映照出她已經支離破碎的手，但她的眼神依然堅定地專注於下一次洗滌。這已不再是清潔，而是一種自我懲罰的儀式。
+鏡子中映照出她已經支離破碎的身體，但她的眼神依然堅定地專注於下一次洗滌。這已不再是清潔，而是一種自我懲罰的儀式。
 
 **所需原圖資源**：
 - 操的日常形態（脆弱版）
-- 浴室白色磁磚與水流的細節
-- 受損的雙手特寫
+- 浴室白色磁磚與熱水蒸氣細節
+- 受損的身體（肩頸/手臂為主，非單純雙手）特寫
 
 **生成提示**：
 ```
 Style: Psychological compulsion; ritualistic self-punishment; obsessive detail focus
-Mood: Cleanliness as moral absolution; futile repetition; self-harm through "care"
-Colors: Stark white bathroom; raw red damaged skin; warm water steam; cold faucet metal
-Composition: Figure at sink; hands prominent and detailed; repetitive visual patterns in tile background
+Mood: Scrubbing away an unchosen body; futile repetition; self-harm through "care"
+Colors: Stark white bathroom; raw red damaged skin; scalding hot water steam; cold tile
+Composition: Figure under harsh shower/bath, scrubbing shoulders and arms with visible intensity; repetitive visual patterns in tile background
 Lighting: Harsh bathroom fluorescent light revealing skin damage; water cascade illumination
-Special effects: Water flow emphasis; skin texture damage detail; soap bubble particles; steam effects
-Canvas: 3:4 portrait or wider to include sink installation; intimate and clinical
+Special effects: Water flow emphasis; skin texture damage detail; steam effects
+Canvas: 3:4 portrait or wider to include bathroom installation; intimate and clinical
 ```
 
 ---
@@ -2275,7 +2391,7 @@ and the objects of their focus.
 
 ### 劇情背景
 
-晴香的母親花子在Beta線難產而亡，晴香從未真正擁有過有母親陪伴的童年（haruka.md §誕生的悲劇與祝福）。熱可可儀式是她試圖召喚一個「被保護、被愛、被完全掌控」的虛假童年記憶的方式（CDL-112）——溫度、味道、特定的杯子，必須與「那個她從未實際擁有過的記憶」完全吻合。這份執著的本質是：如果一切都相同，那個已逝的「花子陪在身邊的感覺」就還存在。此習慣連接晴香Act I「膠布哲學」——她用儀式感的重複封蓋一個從未能癒合的缺口，與膠布蓋住傷口的邏輯如出一轍：問題被遮住，但傷口仍在。
+`[WRONG→已修正 2026-07-17]` 原文引用「CDL-112」，但依 `canon/_working/story_construction/ACT_I_BEAT_SHEET.md` BEAT 0d 同 `PROJECT_STATUS.md`，CDL-112 實際係 haruka.md 已刪除嘅舊 habit #6「規律節拍控制」（DROPPED），同熱可可習慣無關；睡前熱可可儀式正確引用應為 **CDL-123**（BEAT 0d，E-01當晚新增，前置 Act II 可樂失味呼應）。晴香的母親花子在Beta線難產而亡，晴香從未真正擁有過有母親陪伴的童年（haruka.md §誕生的悲劇與祝福）。熱可可儀式是她試圖召喚一個「被保護、被愛、被完全掌控」的虛假童年記憶的方式（CDL-123）——溫度、味道、特定的杯子，必須與「那個她從未實際擁有過的記憶」完全吻合。這份執著的本質是：如果一切都相同，那個已逝的「花子陪在身邊的感覺」就還存在。此習慣連接晴香Act I「膠布哲學」——她用儀式感的重複封蓋一個從未能癒合的缺口，與膠布蓋住傷口的邏輯如出一轍：問題被遮住，但傷口仍在。
 
 ### 圖片說明
 
@@ -2397,53 +2513,52 @@ without explicit harm depiction.
 
 ### 劇情背景
 
-晴香的核心謊言是「我的真實情感是一把失控且致命的武器」——她相信自己的情緒一旦真正釋放，就會傷害周圍所有人（因為情緒增幅器的能力本身就可能做到這件事）。在所有情緒出口都被封閉的時刻，破弦自傷是她「讓痛楚有一個出口」的扭曲解決方案：不是求死，而是「我需要被感受到，但我沒有安全的方式表達它」。這份無法言說的情緒以身體為出口，疤痕成為她對自己的秘密語言。此習慣連接「膠布哲學」的深層邏輯：膠布是她蓋住問題的方式，破弦是她讓問題「透出來一點點」的方式——兩者都不是真正的治癒，都在等待Act IV整合夕、學會「被愛不需要完美」的那一刻。
+`[WRONG→已修正 2026-07-17]` 原文將傷口位置寫成「手臂內側割痕」，但依 `haruka.md` §關鍵習慣 habit-broken-guitar（habit #9）明確定案：呢個習慣係「反復彈奏一根刻意弄斷的吉他弦，持續直到弦割破**指尖**出血」——傷口喺**手指/指尖**（彈弦動作造成），唔係用弦當刀片喺手臂上劃割痕；遮蓋方式係「手指上的細小傷口被膠布遮掩，外觀『只是貼膠布的手』」，呢個「貼膠布的手」嘅偽裝正正同「膠布哲學」（habit #1）直接呼應，比「手臂割痕」更貼近 canon 原意。晴香的核心謊言是「我的真實情感是一把失控且致命的武器」——她相信自己的情緒一旦真正釋放，就會傷害周圍所有人（因為情緒增幅器的能力本身就可能做到這件事）。在所有情緒出口都被封閉的時刻，破弦自傷是她「讓痛楚有一個出口」的扭曲解決方案：不是求死，而是「我需要被感受到，但我沒有安全的方式表達它」。此習慣連接「膠布哲學」的深層邏輯：兩者都不是真正的治癒，都在等待Act IV整合夕、學會「被愛不需要完美」的那一刻；危機解除後此習慣停止。
 
 ### 圖片說明
 
-晴香相信自己的情緒一旦真正釋放，就會傷害周圍所有人，因此在所有表達出口都被封閉時，她用一根廢棄的吉他弦在手臂內側造成細微的割痕——不是求死，而是讓痛楚代替那些無法說出口的話，讓身體成為她唯一的秘密語言。每道疤痕代表一個被吞下去的眼淚，之後她用膠布仔細蓋住，回到「正常的晴香」。
+晴香相信自己的情緒一旦真正釋放，就會傷害周圍所有人，因此在危機期獨處時，她反覆彈奏一根刻意弄斷的吉他弦，直到弦割破指尖出血——不是求死，而是讓痛楚代替那些無法說出口的話。傷口很小，很快被膠布遮住，外觀「只是貼膠布的手」不會引發旁人追問，與她日常的膠布哲學融為一體。
 
 ### 詳細 Prompt（內核描述）
 
-晴香保留著一根破損的吉他弦——不知道來自哪把吉他，可能她自己也不記得了。當她無法言說痛楚時，當所有的言語都變得蒼白無力時，她會拿出這根弦，用它在自己的手臂上造成細微的割痕。這不是尋死，而是在聲稱「我感受到痛楚，因此我存在」。
+晴香保留著一根刻意弄斷的吉他弦。當她無法言說痛楚時，當所有的言語都變得蒼白無力時，她會在危機期獨處時反覆彈奏這根弦——手指一次次撥過斷裂的弦口，直到指尖被割破出血。這不是尋死，而是在聲稱「我感受到痛楚，因此我存在」。
 
-外人可能看不到這些割痕——它們很細、很淺、總是在同一個位置（手臂內側），彷彿她想讓這些傷口被隱藏。但她知道它們在那裡。這根弦已經割傷了她無數次，手臂上的細線疤痕如同編碼般紀錄著她的創傷——一道傷痕代表一個無法說出的秘密、一個被吞下去的淚水、一個被迫忍受的時刻。
+外人幾乎看不出異常——指尖的傷口很小，總是很快被膠布蓋住，彷彿只是「貼膠布的手」，不會引發任何人追問。這正是她隱密性的來源：同一種膠布哲學語言，掩蓋著截然不同的傷口。
 
-她用疤痕來代替言語，用血液來代替眼淚。每次割傷時，她會看著血珠出現，感受到微微的釋放——彷彿那些被囚禁在身體內部的痛楚終於有了一個出口。之後，她會仔細地清理傷口，並用膠布或衣物遮蓋住，回到「正常的晴香」。
+她用指尖的痛楚來代替言語，用血珠來代替眼淚。每次彈弦時，她會感受到微微的釋放——彷彿那些被囚禁在身體內部的痛楚終於有了一個出口。之後，她會仔細清理傷口，貼上膠布，回到「正常的晴香」。危機解除後，這個習慣便會停止。
 
-**視覺重點**：晴香的手臂、密密麻麻的細線疤痕、破損的吉他弦、出血時的細節、她凝視傷口時的表情（既恐懼又滿足）、光線照射在疤痕上的陰影。
+**視覺重點**：晴香的手指與指尖、刻意弄斷的吉他弦、指尖出血與貼膠布的細節、她凝視傷口時的表情（既恐懼又滿足）、光線照射在指尖上的陰影。
 
 ### Midjourney 標準版
 
 ```
-A close-up of a teenage girl's pale forearm,
-resting on a dark surface. Her skin shows numerous fine, parallel scars—
-evidence of repeated self-harm with meticulous precision.
-A broken guitar string lies across her arm, glinting slightly.
-In her trembling fingers, she holds the string delicately,
-as if about to make another mark. A single drop of fresh blood
-catches light on her skin—raw, immediate, real.
-Her face is partially visible above the arm—
+A close-up of a teenage girl's trembling fingers,
+plucking a deliberately broken guitar string held taut in her other hand.
+Her fingertips show small, fresh cuts from repeated plucking—
+evidence of a private, repeated ritual rather than a single act.
+A few strips of colorful bandage lie nearby on the surface,
+ready to conceal the marks afterward.
+A single drop of fresh blood catches light on a fingertip—raw, immediate, real.
+Her face is partially visible above her hands—
 expression shows quiet desperation and strange calm,
 as if this ritual brings paradoxical peace.
-The scars form almost a pattern, like secret writing only she understands.
 Atmospheric: intimate trauma, coded language of pain,
-solitary communication through the body.
-Color palette: pale skin, deep red of blood, dark shadow, metallic glint of string.
-Lighting: soft focus on the marks, slight highlights on the fresh wound.
+solitary communication through the body, hidden in plain sight as "just a bandaged hand."
+Color palette: pale skin, deep red of blood, dark shadow, metallic glint of string, colorful bandage strips.
+Lighting: soft focus on the fingertips, slight highlights on the fresh wound.
 Emotional tone: self-harm as language, pain as proof of feeling,
-scars as testament to invisible suffering.
+a wound easily disguised as an ordinary bandaged hand.
 -- ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Close-up of a young person's arm showing visible scarring patterns.
-A broken string lies across the skin. Their trembling fingers
-suggest emotional distress. Faint marks and old scars tell a story
-of repeated difficult coping. Their face is partially visible above,
-showing a mixture of calm focus and internal pain.
+Close-up of a young person's hand and fingertips showing small marks.
+A broken string is held taut between their fingers. Their trembling grip
+suggests emotional distress. Faint marks tell a story
+of repeated difficult coping, easily hidden by bandages nearby.
+Their face is partially visible above, showing a mixture of calm focus and internal pain.
 The intimate composition conveys psychological struggle
 and non-verbal communication through the body.
 Atmosphere emphasizes the personal meaning of physical markers
@@ -2521,44 +2636,42 @@ Soft natural lighting creates depth through the layered stars.
 
 ### 劇情背景
 
-秋穗的女兒愛莉在她主導的情緒力量裝置實驗中意外屍骸化，成為石像——這是秋穗「結果論」行事方式產生的第一個直接代價，也是她此後所有罪行的起點（akiho.md §愛莉的意外；CDL-013）。她每天到愛莉石像前說話，傾訴研究進展、哭訴罪孽——而她不知道的是，愛莉在集體潛意識深處仍能聽見一切（「愛莉的濾心機制」）。石像前的懺悔是秋穗試圖用儀式性自我懲罰代替真正和解的心理機制：石像不評判、不原諒，她因此可以無限重複懺悔，卻永遠不必面對真正的赦罪——或者被拒絕。此場景連接Act IV秋穗弧光的終點：真正的救贖不是修正過去，而是接受愛莉說出「我原諒你」。
+`[WRONG→已修正 2026-07-17]` 原文將石像描述為「廢棄公園/建築內的風化石雕，missing fingers, weathered」，但依 `aeri.md` §石像形態（現實世界）明確定案：愛莉的石像係「**半透明橙色水晶寶石質感**，雙手交疊安詳沉睡；陽光照射時散發暖橙色光芒；特定光線角度下可見水晶內部流動的橙紅色脈紋，如心跳般緩慢搏動」——唔係普通風化石雕（無缺損、無苔蘚、無missing fingers），姿態亦「不像普通屍骸的扭曲凝固」。石像位置依 `DIGEST_LOCATIONS.md` §8a 應為**秋穗實驗室（塔地底）**，唔係公園/廢棄建築等不明地點。另外原文引用「CDL-013」實際係「愛莉揭示線設計（AKS-A1，紙皮騎士外形→魔法少女騎士形態嘅視覺連續性設計）」，同石像前懺悔呢個日常習慣無關，屬張冠李戴——正確依據應為 `akiho.md` §石像前的懺悔（habit-statue-confession，無獨立CDL編號）。秋穗的女兒愛莉在她主導的情緒力量裝置實驗中意外屍骸化，成為石像——這是秋穗「結果論」行事方式產生的第一個直接代價，也是她此後所有罪行的起點（akiho.md §愛莉的意外）。她每天到愛莉石像前說話，傾訴研究進展、哭訴罪孽——而她不知道的是，愛莉在集體潛意識深處仍能聽見一切（「愛莉的濾心機制」）。石像前的懺悔是秋穗試圖用儀式性自我懲罰代替真正和解的心理機制：石像不評判、不原諒，她因此可以無限重複懺悔，卻永遠不必面對真正的赦罪——或者被拒絕。此場景連接Act IV秋穗弧光的終點：真正的救贖不是修正過去，而是接受愛莉說出「我原諒你」。
 
 ### 圖片說明
 
-秋穗的女兒愛莉在她主導的實驗中意外變成石像，這是她此後所有罪行的起點；她每天到廢棄石像前說話、傾訴、懺悔，在石像腳下放置各種祭品。石像不評判、不原諒，她因此可以無限重複懺悔，卻永遠不必面對真正的赦罪——或被拒絕，而她不知道的是，愛莉在集體潛意識深處仍能聽見一切。
+秋穗的女兒愛莉在她主導的實驗中意外變成半透明橙色水晶質感石像，雙手交疊安詳沉睡，陽光下散發暖橙光芒——這是秋穗此後所有罪行的起點。在秋穗實驗室（塔地底）深處，她每天到石像前說話、傾訴、懺悔，在石像腳下放置各種祭品。石像不評判、不原諒，她因此可以無限重複懺悔，卻永遠不必面對真正的赦罪——或被拒絕，而她不知道的是，愛莉在集體潛意識深處仍能聽見一切。
 
 ### 詳細 Prompt（內核描述）
 
-秋穗經常在一座廢棄的石像前進行獨白——可能是公園裡被遺忘的石像、可能是廢棄建築內的雕塑、可能是某個被拆除的紀念碑的殘骸。她向這個無生命的雕像傾訴她的罪惡感——她用情緒毒品傷害了朱音、她用科技控制了無數人的心理與決定、她用精神疾病的標籤化了人類的多樣性、她曾經是一個無情的執行者。
+秋穗經常在秋穗實驗室（塔地底）深處，於愛莉的水晶石像前進行獨白。石像呈半透明橙色水晶寶石質感，雙手交疊安詳沉睡，光線照射時散發暖橙色光芒，特定角度下可見水晶內部流動的橙紅色脈紋如心跳般緩慢搏動——她不像普通屍骸般扭曲凝固，而是安詳完整。秋穗向這座水晶石像傾訴她的罪惡感——她用情緒毒品傷害了朱音、她用科技控制了無數人的心理與決定、她曾經是一個無情的執行者。
 
 石像聆聽但不評判，這給了她一種虛假的救贖感。她在石像前進行的懺悔帶著一種自我中心的哀痛——不是真正為傷害過的人哀痛，而是為自己曾經做過的事而感到羞愧。石像成為了她的告解神父，儘管它無法真正寬恕她。
 
 每次懺悔後，她都會在石像前留下某樣物品——一張寫著「對不起」的紙條、一朵白色花朵（象徵純潔，她永遠不會擁有的）、一滴血（象徵她的虧欠）、甚至她親手製造的毒品（象徵她的罪)。這已成為她尋求原諒的唯一方式，儘管她知道這是徒勞的。石像永遠不會原諒她，所以她必須一遍遍地懺悔。
 
-**視覺重點**：廢棄的石像、石像上的祭祀物品、秋穗的面部表情（既虔誠又絕望）、光線照亮她的臉和石像、周圍的廢棄環境、她跪或站在石像前的姿勢。
+**視覺重點**：半透明橙色水晶質感石像（非風化石雕）、水晶內部橙紅色脈紋、實驗室地下環境、石像上的祭祀物品、秋穗的面部表情（既虔誠又絕望）、光線照亮她的臉和水晶石像、她跪或站在石像前的姿勢。
 
 ### Midjourney 標準版
 
 ```
-A crumbling stone statue in an abandoned space—
-weathered, partially eroded, missing fingers or features.
-A young woman kneels before it, hands pressed to its cold surface,
+A translucent orange crystal statue of a young girl, deep in an underground laboratory beneath a tower—
+hands folded peacefully, sleeping serenely, not contorted like a typical corpse.
+Warm amber-orange light glows softly from within the crystal itself;
+at certain angles, faint red-orange veins pulse slowly inside, like a heartbeat.
+A middle-aged woman in a lab coat kneels before it, hands pressed to its warm-glowing surface,
 face tilted upward in an expression of anguished confession.
-Her lips move, words forming in the silence of the abandoned place.
+Her lips move, words forming in the quiet of the laboratory.
 At the statue's base, offerings accumulate:
 crumpled handwritten notes, wilted white flowers, dried blood drops,
-small vials or objects suggesting guilt-offerings.
-The statue shows signs of repeated visits—
-worn patches where hands have touched,
-faint chalk marks from previous ritual,
-accumulated dust and decay.
-Atmospheric lighting: dim, filtered through broken architecture,
+small vials suggesting guilt-offerings, alongside failed scientific prototypes.
+Atmospheric lighting: dim laboratory light mixed with the statue's own warm glow,
 casting long shadows that emphasize isolation and penance.
 Her face shows profound shame, desperation for forgiveness,
 and the knowledge that redemption is impossible.
-Color palette: grey stone, pale skin, faded white flowers,
+Color palette: warm translucent orange crystal, cool clinical lab tones, pale skin, faded white flowers,
 deep shadows. Atmosphere: ritualized guilt,
-seeking absolution from the inanimate,
+seeking absolution from the sleeping crystal figure,
 performative penance that changes nothing.
 -- ar 16:9 --niji 6 --style raw
 ```
@@ -2566,16 +2679,17 @@ performative penance that changes nothing.
 ### 替代版本（若被拒絕）
 
 ```
-An eroded stone statue in an abandoned space, weathered by time and neglect.
-A young woman kneels before it with an expression of deep contrition.
-Her hands touch the cold stone surface. At the base,
+A translucent amber crystal statue of a sleeping young girl in an underground laboratory space,
+hands folded peacefully, glowing faintly from within.
+A woman kneels before it with an expression of deep contrition.
+Her hands touch the statue's warm, glowing surface. At the base,
 various offerings are placed: flowers, notes, other symbolic objects
 suggesting a ritual of confession and penance.
-The statue shows signs of repeated visits through worn patches and markings.
-Dim, atmospheric lighting emphasizes the solemnity and isolation of the moment.
+Dim, atmospheric laboratory lighting mixed with the crystal's inner glow
+emphasizes the solemnity and isolation of the moment.
 Her face expresses shame and desperate seeking for forgiveness.
 The composition suggests a ritualized attempt at redemption
-through communication with the inanimate.
+through communication with the sleeping figure.
 -- ar 16:9 --niji 6
 ```
 
@@ -2587,7 +2701,7 @@ through communication with the inanimate.
 
 ### 劇情背景
 
-秋穗是頂尖生命機械學家，是情緒力量裝置的原型研發者——她唯一真正精通的語言是科學與數據。愛莉屍骸化後，秋穗無法以母親的方式靠近失去，只能以科學家的方式靠近：用儀器掃描遺物、記錄數據、嘗試生成3D模型（akiho.md §石像前的懺悔）。這是科學家用她僅有的工具試圖對抗她無法接受的現實——她比任何人都更清楚死亡是終局，卻仍然重複掃描、記錄、保存，給自己一種「還在做某事」的假象。此場景與圖67（石像懺悔）形成一對：石像前的懺悔是情感出口，儀器掃描是理智防衛，兩者都是同一份無法放手的執念的不同表達，共同指向Act IV秋穗必須學會「放手讓愛莉走」的弧光終點。
+`[INFERRED]`：具體遺物項目（頭髮膠囊、布娃娃、金屬盒、字條）canon 未逐一列出，屬合理延伸演繹；核心概念（秋穗以科學儀器嘗試「修正過去」）有 `akiho.md` §關鍵習慣 2「科學儀器修復嘗試」支持。秋穗是頂尖生命機械學家，是情緒力量裝置的原型研發者——她唯一真正精通的語言是科學與數據。面對愛莉屍骸化為（仍存在、仍有意識的）水晶石像，秋穗無法以母親的方式靠近失去，只能以科學家的方式靠近：用儀器嘗試新方案、記錄數據、企圖「修正過去」（akiho.md §關鍵習慣 2；§石像前的懺悔）。這是科學家用她僅有的工具試圖對抗她無法接受的現實——她比任何人都更清楚死亡是終局，卻仍然重複掃描、記錄、保存，給自己一種「還在做某事」的假象。此場景與圖67（石像懺悔）形成一對：石像前的懺悔是情感出口，儀器掃描是理智防衛，兩者都是同一份無法放手的執念的不同表達，共同指向Act IV秋穗必須學會「放手讓愛莉走」的弧光終點。
 
 ### 圖片說明
 
@@ -2653,70 +2767,63 @@ between emotional content and rational process.
 
 ---
 
-## 圖 69：「熊公仔囤積」（彩 / Bear Hoarding Compulsion）[PRIVATE_INTIMATE_MOMENT]
+## 圖 69：「出門確認儀式」（彩／黑奏 / Daily Bear Confirmation Ritual）[PRIVATE_INTIMATE_MOMENT] `[核心概念已重寫 2026-07-17，原標題「熊公仔囤積」與canon「永遠潔淨」規則矛盾，已更名]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_BearHoardingCompulsion.png`
+**建議輸出文件名**：`ConceptArt_Scene_Aya_DailyBearConfirmation.png`（原檔名 `ConceptArt_Scene_Aya_BearHoardingCompulsion.png` 已棄用，見下方修正說明）
 
 ### 劇情背景
 
-帝國歷79年，螢在通風管道替6歲的彩引開敵人前，將一隻熊公仔塞進彩懷裡說「有牠陪著妳，就等於我陪著妳」（aya.md §螢的遺物）。螢被殺的那一刻，彩的靈魂被鎖入心房最深層，身體控制權轉移給黑奏。主人格彩長年被困在自己的意識深處，那隻殘舊的熊公仔是她與螢之間唯一的物理連結——也是她對「被守護、被愛、被留下來」的唯一記憶。囤積熊公仔是被困心房的彩透過黑奏身體洩漏出的執念：每一隻新的熊都試圖重建那個「有螢在身邊」的感覺（CDL-076）。此習慣連接Act III彩奪回身體的場景——彩能再次主動握住那隻殘舊的熊，是她從「被保護者」回歸「可承擔者」的象徵起點。
+`[WRONG→已修正 2026-07-17，概念性重寫]` 原文「囤積數百至數千隻熊公仔、新舊有別、最舊嘅磨損破舊」呢個核心概念，喺 `aya.md` 全文搵唔到支持，屬舊72圖檔自行延伸創作；更嚴重嘅係，原文「最舊嘅熊已破損不堪、matted fur、missing eyes」直接違反 `aya.md` §學生偽裝（日常）明文規定嘅「**熊公仔『永遠潔淨』動態規則**」——「無論彩摔倒、弄髒衣服、在泥水中奔跑或哭泣時擁壓，熊公仔的絨毛**永遠保持完全潔淨**——沒有污漬，沒有壓痕，沒有任何使用痕跡。此屬性是揭示『熊是被精心以魔法維護的神器』的首要視覺線索」。canon 明確只有**一隻**熊公仔（螢的遺物，彩與黑奏共享的契約信物），唔存在「多隻新舊熊公仔囤積」呢個設計。已改為 canon 確認嘅「出門確認儀式」（habit-daily-confirmation）：帝國歷79年，螢在通風管道替6歲的彩引開敵人前，將這隻熊公仔塞進彩懷裡說「有牠陪著妳，就等於我陪著妳」（aya.md §螢的遺物）。螢被殺的那一刻，彩的靈魂被鎖入心房最深層，身體控制權轉移給黑奏。每次「彩」要出門，被困心房的彩在意識深處都會確認袋中有這隻熊公仔——這份確認穿透黑奏的控制，讓她偶爾在門口停留幾秒，做出「確認袋子」的動作卻說不出理由（aya.md §出門確認儀式）。此習慣連接Act III彩奪回身體的場景——彩能再次主動握住這隻熊，是她從「被保護者」回歸「可承擔者」的象徵起點。
 
 ### 圖片說明
 
-彩的靈魂長年被困在自己意識最深處，只有一隻舊熊公仔連接著她與那個最後守護她的人的記憶；她在靈魂被困期間無法主動行動，只能透過身體某些無意識的衝動囤積熊公仔，每一隻都試圖重建那個「有人守護自己」的感覺。房間裡從舊到新的熊公仔是時間的印記，也是一個被困在自己內心深處的人唯一能做的事。
+彩的靈魂長年被困在自己意識最深處，只有螢留下的那一隻熊公仔連接著她與最後守護她的人的記憶。每次「彩」要出門，黑奏操控下的身體都會不自覺地在門口停留幾秒，確認袋中有這隻熊——這份確認穿透黑奏的控制，是彩唯一能主動發起的行為。無論經歷任何弄髒、摔倒、擁壓的情境，這隻熊的絨毛永遠保持完全潔淨，是「熊被精心以魔法維護」的視覺線索。
 
 ### 詳細 Prompt（內核描述）
 
-彩的房間被柔軟的熊公仔填滿——數百個，可能數千個。布熊、毛絨熊、軟體熊、舊熊、新熊、大熊、小熊，堆積在床上、地板上、衣櫃裡、甚至牆壁上。每個熊都代表著一個試圖自我保護的時刻——每當彩感到無助、被傷害、被遺棄時，她就會買一個新的熊，彷彿多一個熊就能多一份安全感。
+彩／黑奏準備出門前，在玄關停下腳步。她（黑奏操控下的身體）的手伸進背包，觸碰到那隻殘舊卻異常潔淨的熊公仔——寒酸的外表下藏著頂級深紅絲絨、真寶石眼睛、金線縫線，愛的真實形態不在表面，在縫線裡。這個動作看似隨意，實則是每次出門前不可省略的確認儀式。
 
-她無法扔掉任何一個熊，因為扔掉熊就等同於扔掉那段時期的自己，扔掉曾經發生過的痛楚。每個熊都是一段記憶的容器——按時間順序，她可以追蹤自己的崩潰。最早的熊已經破損不堪，但她仍然保留著，有時會緊抱著它。
+黑奏的表情帶著一絲困惑——她不明白自己為何要做這個動作，只知道不確認就無法離開。這正是被困在心房深處的彩，唯一能穿透黑奏控制、主動發起的行為：確認熊還在，就等於確認螢還在她身邊。
 
-這些熊已經成為她與現實世界的唯一緩衝。她會蜷縮在這些熊之間，尋找一種虛假的安全感，用它們的柔軟與溫暖來代替人類的擁抱。整個房間聞起來像是玩具店和哀痛的混合——甜膩的新玩具味和陳舊棉布的味道。在這個由熊組成的世界裡，她可以暫時忘記外面的世界有多冷漠。
+無論這隻熊經歷過幾多年、幾多次的貼身攜帶，牠的絨毛依然完全潔淨——沒有污漬，沒有壓痕，沒有任何使用痕跡。這份不自然的潔淨本身就是線索：這不是普通玩偶，而是被精心以魔法維護的神器，是彩與黑奏共享的契約信物。
 
-**視覺重點**：堆積的玩偶填滿房間、彩蜷縮在熊之間、溫暖的照明、不同年代的熊（從破舊到嶄新）、彩抱著熊的姿勢與表情。
+**視覺重點**：玄關/門口場景、伸進背包觸碰熊公仔的手、熊公仔本身（**必須完全潔淨**，寒酸外表但質感高級、真寶石眼睛、金線縫線）、黑奏臉上困惑而停頓的表情、彩的意識殘留於這個動作中的暗示。
 
 ### Midjourney 標準版
 
 ```
-A bedroom completely filled with stuffed bears of all sizes and ages—
-hundreds, possibly thousands, piled on bed, floor, shelves,
-cascading from closets, covering walls.
-Soft, worn bears mixed with newer pristine ones
-suggest years of accumulation and compulsive purchase.
-The oldest bears show significant wear—matted fur, missing eyes,
-fabric tears—but are positioned with care, not discarded.
-A young woman sits nested deep within the bear collection,
-almost hidden, curled into a protective posture.
-She cradles one of the oldest, most worn bears against her chest,
-face pressed against its soft surface. Her expression combines
-comfort and desperation—these bears are her world,
-her emotional anchors, her substitutes for human warmth.
-The room is dimly lit with soft, warm amber light
-that emphasizes the plush, cozy prison she's created.
-Textural emphasis on the different fabric types, worn vs. new,
-creating a visual timeline of accumulation and compulsion.
-Color palette: warm browns, soft creams, shadows between plush forms.
-Emotional tone: hoarding as love-substitute,
-compulsive accumulation as grief response,
-fortress of stuffed comfort against a cold world.
+A girl pausing at a doorway, one hand reaching into her school bag,
+fingers touching a single worn-looking teddy bear—
+yet despite its shabby, modest appearance, the bear's fur is
+completely spotless, pristine, without a single stain or crease,
+hinting at something unnaturally well-preserved beneath its humble look.
+Faint glimpses of deep red velvet lining and a tiny gem-like eye
+suggest hidden quality beneath the shabby exterior.
+Her expression shows a flicker of confusion—
+as if performing a ritual she cannot explain to herself,
+her body pausing for a few seconds before she can leave.
+The doorway framing suggests a threshold moment, private and unnoticed by others.
+Color palette: soft indoor light, warm brown bear fur (spotless),
+deep red velvet glimpse, muted school-uniform tones.
+Lighting: soft ambient light at the doorway, gentle focus on the hand-and-bear contact.
+Emotional tone: an unconscious ritual of confirmation,
+love surviving in a single object, quietly defying control,
+purity preserved against all odds.
 -- ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A bedroom filled with an extensive collection of stuffed bears
-in various sizes, colors, and conditions. Some appear well-worn
-while others seem newer. The bears fill every available space—
-beds, floors, shelves, cascading from storage areas.
-A young person sits nestled within the collection,
-holding an older, more worn bear close to their body.
-Their expression conveys comfort mixed with isolation.
-Warm, soft lighting emphasizes the cozy yet overwhelming nature
-of the space. The accumulation suggests a long-term,
-compulsive collecting pattern. Atmosphere emphasizes
-how comfort objects can become a substitute for human connection
-and how accumulation can represent emotional processing.
+A young girl pausing at a doorway before leaving, her hand reaching
+into her bag to touch a single small teddy bear. Despite its modest,
+worn appearance, the bear looks oddly clean and well-cared-for.
+Her expression shows brief confusion, as if compelled by habit
+she doesn't understand. The moment is quiet and private,
+suggesting an unconscious ritual repeated many times before.
+Soft indoor lighting emphasizes the intimacy of the small gesture.
+Atmosphere emphasizes a hidden, protected attachment
+surviving beneath an otherwise controlled exterior.
 -- ar 16:9 --niji 6
 ```
 
@@ -2728,21 +2835,21 @@ and how accumulation can represent emotional processing.
 
 ### 劇情背景
 
-操的核心恐懼是「露出破綻就會被丟棄」——因為她親眼目睹母親因「產品出現無法自我修復的損傷」而被父親改造成活體人偶（ayakomoji_misao.md §母親——完美的活體人偶，CDL-297）。傀儡魔法的象徵根源正是此處：母親是被扯線的人偶，操選擇成為揸住絲線的那方以自保（CDL-063）。病態無痕修補是這份核心恐懼的日常儀式：她能把物件修補到「從未被破壞過」的完美，卻無法修補自己被強制改造的身體、被父親否定的身份、被迫出賣隊友的靈魂。此習慣連接Act III「無心完美人偶」段落——操製作了完美的女性人偶殼卻無法感受冷暖，最終打碎它：「沒有痛覺的完美比地獄更可怕」，是她對這份修補強迫症的最終清醒。
+`[WRONG→已修正 2026-07-17]` 原文將呢個修補習慣嘅根源歸因於「目睹母親因無法自我修復而被改造成活體人偶」（CDL-297，恐懼變成母親）。但依 `ayakomoji_misao.md` §關鍵習慣 habit-seamstress（**CDL-155/156**）明確定案，「病態無痕修補」嘅真正心理根源係操自己身體上嘅創傷：父親安排嘅物理性別重置手術（CDL-155）在她身體上留下縫合痕跡——她的身體像被強行剪開又醜陋縫合的科學怪人；對修補「絕對不能留縫線痕跡」的病態執著，是潛意識試圖掩蓋自身肉體那些手術縫線的心理投射。AKS 埋位設計明確：「那雙靈巧的手，不是貴族教養，而是一個拼命掩蓋自己身體傷口的重症患者的手」——即修補習慣嘅根源係「掩蓋自己嘅傷口」，唔係「恐懼變成母親」（CDL-297 母親創傷雖然真實存在，且同傀儡魔法的象徵根源相關，但唔係呢個特定修補習慣嘅主要驅動源）。病態無痕修補是這份自身創傷的日常儀式：她能把物件修補到「從未被破壞過」的完美，卻無法修補自己身體上真正的手術縫線、被父親否定的身份、被迫出賣隊友的靈魂。此習慣連接Act III「無心完美人偶」段落——操製作了完美的女性人偶殼卻無法感受冷暖，最終打碎它：「沒有痛覺的完美比地獄更可怕」，是她對這份修補強迫症的最終清醒。
 
 ### 圖片說明
 
-操的核心恐懼是「露出破綻就會被丟棄」，因為她親眼目睹母親因無法自我修復而被改造成無意志的活體人偶。她能把任何破損物件修補到「從未被破壞過」的完美程度，卻無法修補自己被強制改造的身體和靈魂——她用一顆針、最細的線、放大鏡檢查每一個針腳，對外部的完美執著，正是她對內部無法修補的事物的無聲哀悼。
+操隨身攜帶細針與絲線，對破損的東西有不可抑制的修補衝動——隊友撕裂的戰鬥服、任何出現裂縫的布料，她補過的東西連縫合痕跡都看不見，完美得如同從未破裂。Act I 觀眾初讀為「千金大小姐教養極好」；但這雙靈巧的手真正的根源，是她潛意識試圖掩蓋自己身體上那些手術縫線（父親安排的物理性別重置手術，CDL-155）——衣服上的裂縫和線頭喚起「被改造的不正確身體」的羞恥感，她必須將它們全部抹去。
 
 ### 詳細 Prompt（內核描述）
 
-操對破損的東西有著病態的執著。她的房間裡堆積著需要修補的物品——破洞的襪子、撕裂的衣物、斷裂的書頁、破損的玩具、裂開的陶器。她必須修補每一根斷裂的線、每一道裂縫、每一個缺口，用針線進行著近乎藝術級別的修補，目標是讓被破壞的東西看起來從未被破壞過。
+操對破損的東西有著病態的執著。她的房間裡堆積著需要修補的物品——隊友撕裂的戰鬥服、任何出現裂縫的布料、破損的玩具。她必須修補每一根斷裂的線、每一道裂縫、每一個缺口，用針線進行著近乎藝術級別的修補，目標是讓被破壞的東西看起來從未被破壞過——連縫合痕跡都看不見。
 
-她可以花費數小時修補一件衣物，使用最細的線、最小的針跡，直到修補處幾乎不可見。她甚至會用放大鏡檢查，確保沒有任何「差不多」的地方——一切必須完美。這不是為了實用性，而是純粹為了追求完美的表面。
+她可以花費數小時修補一件衣物，使用最細的線、最小的針跡，直到修補處完全不可見。這不是為了實用性，而是絕對不能留下縫線痕跡的病態執著。
 
-但這只是表面的修補。內部的傷害永遠無法癒合——她的身體曾被強制改造、被父親侵犯過、被用做傀儡。她知道這一點，但她無法停止修補外部的東西。她的這個行為象徵著她對「完美」的病態追求——在無法修補靈魂的情況下，她只能執著於修補物體。
+這份執著的真正根源，是操自己身體上物理性別重置手術（CDL-155）留下的縫合痕跡——她的身體像被強行剪開又醜陋縫合的科學怪人。她無法修補自己身體上真正的傷口，只能將這份潛意識的羞恥感投射到外部物件上：衣服上的裂縫和線頭喚起「被改造的不正確身體」的羞恥感，她必須將它們全部抹去。
 
-修補變成了一種冥想，也是一種逃避。當她在修補時，她可以假裝內部的傷害也能被修復。她甚至會修補本來已經修好的東西，尋找那些不存在的缺陷，重複修補，直到線變得模糊、顏色變淡為止。
+修補變成了一種冥想，也是一種逃避。當她在修補時，她可以假裝身體上的傷口也能被同樣無痕地修復。她甚至會修補本來已經修好的東西，尋找那些不存在的缺陷，重複修補，直到線變得模糊、顏色變淡為止。那雙靈巧的手，不是貴族教養，而是一個拼命掩蓋自己身體傷口的重症患者的手。
 
 **視覺重點**：操坐著修補、周圍堆積的待修補物品、細緻的針線工作細節（放大鏡視角）、操的臉上專注與哀痛的混合表情、燈光照在工作上。
 
@@ -2970,36 +3077,40 @@ seeking escape while maintaining connection to life.
 
 ## 圖73：「家長日大作戰」（Parents' Day Infiltration）[BEAT_SHEET_PREP]
 
+**⚠️ 2026-07-17 批次8審計修正**：原文誤植為「操偽裝成紫音的家長」，並宣稱操以「傀儡魔法」變身成人外貌——兩點均與 canon 矛盾，已修正（見下）。
+
 **建議輸出文件名**：`ConceptArt_Scene_ParentsDay_Infiltration.png`
 
 ### 劇情背景
 
-Act II前期（113年），操與紫音仍在以魔法少女身份維持「普通學生」的日常偽裝，同時面對情緒管理局的追查壓力。操的傀儡魔法允許她變身成不同外貌，因此她得以扮演紫音的「家長」出席家長日——這是兩人奇特夥伴關係的縮影：操以「完美高貴形象」維持一切表演，紫音則在身旁盡力撐起「正常學生」的日常。此場景發生於隊伍內部矛盾激化前，仍有相對輕盈的喜劇張力；連接後續Act II「據點洩露事件」（操的第一次破綻坦白）——家長日的「完美偽裝」與後來操承認失誤形成反差，標誌著她從「絕不露破綻」到「第一次被接納真實缺陷」的弧光起點。
+依 `ACT_II_OUTLINE.md` Beat E-07c（CDL-319，時間**待 Beat Sheet 層精確排定**，暫定 Act II Phase B）：家長日的對象係**小光**（小光係在學學生本人）——**紫音以「家姐」身份出席，操扮「媽媽」**，唔係操扮紫音嘅家長。此場景屬 E-07c「悲鳴女妖二戰→家長日作戰」因果鏈的前段輕鬆喘息，最終導致小光屍骸化（E-07a）的前置日常。操心理層：扮「媽媽」= 渴望被人公開承認做媽媽（紗夜俾佢無條件愛但身份只係管家，紗夜此時未死）；反諷核心——呢日俾咗小光僅有嘅一日「正常家庭」幻象，直接帶出跟住嘅悲劇。**操變裝成年女性外貌嘅具體機制 canon 未明確支持**——`ayakomoji_misao.md` 明確操嘅魔法少女能力係「傀儡師——操控精緻人偶戰鬥」（操控外部人偶，非自身變身/易容），此場景嘅「扮演大人」應理解為非魔法性質嘅完美偽裝演技，標 `[NEEDS_FACT: 操的成人偽裝具體機制——魔法變身定純演技/化妝，canon未明確]`。
 
 ### 圖片說明
 
-操每次偽裝成紫音監護人出席學校活動，都需要精確計算行走角度、握手力度、微笑持續時長，把「正常父母」的行為當成一套需要完美執行的任務——她真正的情緒完全被鎖在面具之後。這個場景的核心不是歡笑，而是操在歡樂場合之下不斷計算距離，用完美的表演掩蓋她終究無法承認自己根本不知道「家長」應該是什麼感覺。
+小光就讀嘅學校舉行家長日，紫音以「家姐」身份出席，操則扮演「媽媽」——這是隊伍為咗俾小光一日完整「正常家庭」幻象嘅集體演出。操以完美高貴形象維持整場表演，精確計算行走角度、握手力度、微笑持續時長，把「母親」的行為當成一套需要完美執行的任務；紫音在旁盡力撐起「家姐」的日常感。這個場景的核心不是純粹歡笑，而是三人（操、紫音、小光）在歡樂場合之下各自壓抑真實身份，用完美的表演換取小光僅有的一日安穩——而觀眾知道，這份「樂極」正直接導向跟住嘅「生悲」（小光屍骸化）。
 
 **詳細核心描述**（300-400字）：
-113年 Act II前期 時間設定（Act II 前期或中期，早於身份曝露）
+時間設定：Act II Phase B（113年，具體月份待 Beat Sheet 層精確排定，CDL-319）
 
-學校教室內的家長日面談場景。紫音和變身後的操並排坐在教室中間，兩人之間隔著一張學生桌子。他們面對著班主任和另一位老師，坐在講台邊的椅子上。
+學校教室或禮堂內的家長日場景。小光作為在學學生坐在座位上，紫音（「家姐」身份）與操（「媽媽」身份）並排出席，面對班主任等教職人員。
 
-操穿著高貴的黑色連身裙，搭配黑色長手套，舉止端莊優雅，完全看不出是剛才還在戰鬥的魔法少女。她的姿態沉著自信，戴著長手套的雙手優雅地交疊在腿上，眼神平靜而威嚴地看向兩位老師。黑色連身裙與長手套的組合散發著成熟、高貴且略帶神祕的氣質。紫音則盡力保持普通學生的樣子，坐姿端正但略顯拘束，時不時瞥向身邊的「家長」。
+操穿著高貴的黑色連身裙，搭配黑色長手套，舉止端莊優雅。她的姿態沉著自信，戴著長手套的雙手優雅地交疊在腿上，眼神平靜而威嚴地看向老師——那股高貴的氣場讓在場教職人員略感不適。紫音則以「家姐」身份，語氣比平時收斂，時不時看向小光確認他是否自在。小光本人難得露出屬於這個年紀的、單純的緊張與期待。
 
-老師們正在詢問紫音的學習情況和近期表現。操用成熟、溫柔卻又帶著威嚴的語調回應老師的問題，彷彿在無言地展示著她作為「家長」的關切與掌控。每當老師開口時，操都會輕輕點頭，表情既溫柔又不可冒犯，那股高貴的氣場讓兩位老師略感不適。
+老師們正在詢問小光的學習情況和近期表現。操用成熟、溫柔卻又帶著威嚴的語調回應，彷彿在無言地展示著她作為「家長」的關切與掌控。
 
-中間那張學生桌子成了一道微妙的分界線——將普通的家長日面談分隔成兩個世界。一邊是紫音努力維持的「正常學生」身份，一邊是操散發出的成熟高貴「家長」形象。既日常輕鬆，又充滿荒誕的喜劇張力。
+整個場景既日常溫馨，又因為三人各自真實身份（魔法少女/屍骸獵人相關人物）與眼前扮演的「正常家庭」角色之間的落差，充滿荒誕的喜劇張力與不易察覺的悲劇伏筆。
 
 **所需資源**：
-- 操的成熟高貴家長形態（魔法少女變身）
-- 紫音的學生身份
-- 學校家長日環境（禮堂、走廊等）
-- 113年 Act II前期 場景背景或活動設定
+- 操的成熟高貴「母親」偽裝形態（機制 `[NEEDS_FACT]`）
+- 紫音的「家姐」偽裝
+- 小光本人（在學學生）
+- 學校家長日環境（教室/禮堂）
 
-**主題功能**：113年 Act II前期
-
-**視覺重點**：113年 Act II前期
+**視覺重點**：
+- 三人（操/紫音/小光）並排出席，構成臨時「家庭」
+- 操的完美貴婦偽裝與其精密計算的肢體語言
+- 小光難得的、屬於孩子的單純情緒
+- 場景整體溫馨表象下的伏筆張力
 
 ---
 
@@ -3011,7 +3122,9 @@ Act II前期（113年），操與紫音仍在以魔法少女身份維持「普�
 
 ### 劇情背景
 
-操因**長期使用魔法少女變身**積累了嚴重的**身體崩壞（Body Horror CDL-233 Stage 2b）**。這是變身的代價——她的身體正在從內部分解，牙齒開始脫落只是表徵之一。此時她已進入「日常生活中突然發作」的階段：在任何平凡時刻，身體就會無預警地毀損。她必須維持「完美公務員」的笑容與舉止，但內部的崩壞與恐懼正在吞沒她的理智。這一刻，她在歡樂的社交場合中突然掉牙，象徵著**她無法再控制自己的身體，死亡正在一點點奪走她的完整性**。
+**⚠️ 2026-07-17 批次8審計修正**：原文標「Body Horror Stage 2b」，但依 `ayakomoji_misao.md` CDL-233，Stage 2b（Phase D地下化六個月）明確定義為「外表依然維持完美（縫牙保持不變），**外觀無新增破損**」——牙齒鬆動/脫落屬於 **Stage 2a**（Act II中期，E-09a，父親背叛+紗夜犧牲期間高壓魔法使用觸發）。本場景描繪嘅正正係牙齒「剛剛從牙槽脫落不久，仍然濕潤」嘅新鮮脫落瞬間，屬 Stage 2a 症狀，已修正如下。
+
+操因**長期使用魔法少女變身**積累了嚴重的**身體崩壞（Body Horror CDL-233 Stage 2a）**。這是變身的代價——她的身體正在從內部分解，牙齒開始鬆動脫落只是表徵之一。此時她已進入「日常生活中突然發作」的階段：在任何平凡時刻，身體就會無預警地毀損。她必須維持「完美公務員」的笑容與舉止，但內部的崩壞與恐懼正在吞沒她的理智。這一刻，她在歡樂的社交場合中突然掉牙，象徵著**她無法再控制自己的身體，死亡正在一點點奪走她的完整性**。
 
 ### 圖片說明
 
@@ -3101,18 +3214,20 @@ creates a deeply isolating emotional atmosphere.
 
 ### 劇情背景
 
-帝國歷98年前後，黑奏（本名刑思）長期作為帝國活體實驗品，心匣被強制解析——螢已於79年犧牲，黑奏此時已無任何情感錨點（aya.md §黑奏 CDL-198）。在徹底感官剝奪與情感清空的狀態下，某次實驗中黑奏的魔法力量第一次以無法控制的方式爆發，摧毀了整個地下實驗室。這一刻是黑奏從「帝國受害者」轉為「主動力量」的起點——她發現自己比任何人預計的都要強大，但力量的根源是痛苦而非意志。此場景連接Act III「三武器揭露」（SPEC #3）及黑奏「痛苦是死亡噪音」意識形態的根源：她後來建構整個帝國的力量，是從這個實驗室的血泥地板上站起來的那一刻開始的。
+**⚠️ 2026-07-17 批次8審計修正**：原文標「帝國歷98年前後」，同引用「CDL-198」——兩者均與 canon 矛盾，已修正。(1) 依 `04_timeline_canon.md` CDL-305（黑奏政變年份修正說明）：黑奏嘅魔法力量係 102年「鐵絲網偶遇」（CDL-288）晴香許願觸發嘅因果信標，喺創世能量逆流時精準賦予；**102年之前黑奏完全冇魔法力量**（79-102年僅為被囚禁研究對象），故「力量第一次爆發」不可能發生在98年，必然喺 **102年之後**——CDL-305 明確政變（緊接呢次爆發）修正為 **103年**，本場景應同步改為 103年。(2) `aya.md` 全文檢索無 CDL-198 條目，此引用屬張冠李戴（同已知圖45審計發現嘅 CDL-198 誤用同一模式），已移除。
+
+帝國歷103年，黑奏（本名刑思）長期作為帝國活體實驗品，心匣被強制解析——螢已於79年犧牲，黑奏此時已無任何情感錨點（`aya.md` §黑奏誕生根源）。前一年（102年）鐵絲網偶遇因果信標賦予嘅創世力量，在徹底感官剝奪與情感清空的狀態下，於某次實驗中第一次以無法控制的方式爆發，摧毀了整個地下實驗室。這一刻是黑奏從「帝國受害者」轉為「主動力量」的起點——她發現自己比任何人預計的都要強大，但力量的根源是痛苦而非意志。此場景連接Act III「三重道德處刑」（SPEC #3）及黑奏「痛苦是死亡噪音」意識形態的根源；亦緊接 SPEC #81「黑奏弒父篡位」（同一時期，103年）。
 
 ### 圖片說明
 
 黑奏在帝國地下實驗室以活體實驗品身份被囚禁多年，靈魂容器被強制解析，所有情感錨點已在十九年前隨著螢的犧牲消失；在一次實驗中，她積壓的魔法力量首次以無法控制的方式爆發，整個地下實驗室在一瞬間被摧毀。這不是勝利，而是痛苦找到了第一個出口——她就是從這個廢墟中站起來，決定讓整個帝國感受到同樣的代價。
 
 **劇情位置**：
-- **時間點**：前史（帝國歷98年前後，具體年份待確認）
-- **CDL追蹤**：；`canon/01_world_rules_and_costs.md §實驗鏈演進`；`canon/03_characters/aya.md §數據養殖計劃`
-- **前置事件**：黑奏長期作為帝國活體實驗品（心匣被強制解析）；螢已犧牲（帝國歷79年），黑奏已無情感錨點
+- **時間點**：前史，帝國歷**103年**（CDL-305 修正——緊接102年鐵絲網偶遇獲得力量之後）
+- **CDL追蹤**：CDL-305（政變/覺醒年份修正）；CDL-288（鐵絲網偶遇力量賦予）；`canon/03_characters/aya.md §黑奏誕生根源`
+- **前置事件**：黑奏長期作為帝國活體實驗品（心匣被強制解析）；螢已犧牲（帝國歷79年），黑奏已無情感錨點；102年鐵絲網偶遇獲得創世因果力量
 - **本場景功能**：黑奏從「受害者」轉為「主動力量」的起點；展示她的力量根源是痛苦而非意志；篡位帝國的動機前置
-- **後續payoff**：Act III Phase J 三武器揭露（SPEC #3）；黑奏「痛苦是死亡噪音」意識形態的根源；與「黑奏弒父篡位」（候選場景 D）接續
+- **後續payoff**：Act III Phase J 三重道德處刑（SPEC #3）；黑奏「痛苦是死亡噪音」意識形態的根源；與「黑奏弒父篡位」（SPEC #81，同一時期）接續
 
 **Reference Images**：
 - `art/ConceptArt/Scene/ConceptArt_Aya_MagicalGirl_Action_2.jpg`（廢墟哥德空間、鎖鏈、壓迫性能量爆發）
@@ -3177,15 +3292,17 @@ Canvas: 3:4 portrait ratio --ar 3:4 --niji 6 --style raw
 - **本場景功能**：確立「失去後才可見的黃金時代」——觀眾在 SPEC #77 凜犧牲和 Act III Unit 00 揭露時，能回望此刻感受失去的重量
 - **後續payoff**：SPEC #77 凜犧牲（同一對角色的悲劇終局）；Act III Phase H2 Unit 00 揭露的情感衝擊；美夜子的終身 PTSD 根源
 
+**⚠️ 2026-07-17 批次8審計修正**：原文將美夜子嘅武器寫成「雙槍/雙持衝鋒槍」，但依 `DIGEST_CHARACTER_STATES.md` MY-S5/MY-S6，美夜子雙持 HK MP7A1 衝鋒槍係**凜犧牲後（Act II中段起）**因光環PTSD、刻意減少魔法依賴先出現嘅武裝轉變；**凜存活時期（本場景，103-108年）美夜子應使用琉璃緞帶（可硬化為刀刃）+ 能量冰刀**，非槍械——已修正。另，Reference Image `ConceptArt_Miyako_MagicalGirl_Action_1.jpg` 依 `DIGEST_REFERENCE_IMAGES.md` 未見收錄（UNVERIFIED），已改用已存在嘅 `ConceptArt_Miyako_MagicalGirl.png`。
+
 **Reference Images**：
 - 凜：`ConceptArt_Rin_MagicalGirl_1.png`（聖耀之翼・艾莉西亞，綠金色天使翼形態）
-- 美夜子：`ConceptArt_Miyako_MagicalGirl_Action_1.jpg`（雙槍、冰晶、深藍色戰鬥形態）
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`（凜存活期武裝：琉璃緞帶+能量冰刀，非後期雙槍形態）
 
 **Creative Enhancements**：
 - 場景：帝國歷108年前的軍方戰場，非個人情感場景——這是她們的巔峰配合，pure combat efficiency
 - 構圖：Back-to-back 或 V字型夾擊陣形，各自朝向不同方向的威脅
 - 凜（前景右側）：天使翼展開，冰藍色精準打擊，姿勢優雅、零多餘動作
-- 美夜子（前景左側）：雙槍掃射，彈殼飛濺，白翼、冷色调，攻防一體
+- 美夜子（前景左側）：琉璃緞帶硬化為刀刃＋能量冰刀掩護收割，冰晶碎片飛濺、白翼、冷色調，攻防一體（**非雙槍**——雙槍係凜犧牲後嘅PTSD武裝轉變，此刻尚未發生）
 - 兩人之間：**不需要任何語言或對視**——她們背對彼此卻完全同步，這才是視覺重點
 - 背景：戰場廢墟，但整體畫面有一種「軍事芭蕾」的美感——混亂中的絕對默契
 
@@ -3193,11 +3310,11 @@ Canvas: 3:4 portrait ratio --ar 3:4 --niji 6 --style raw
 
 這是她們最好的時刻，也是唯一的好時刻。
 
-帝國歷108年，軍方戰場。凜與美夜子在人群的戰鬥中形成完美的作戰陣形：背對背，各覆蓋180度，360度無死角。
+帝國歷108年前，軍方戰場。凜與美夜子在人群的戰鬥中形成完美的作戰陣形：背對背，各覆蓋180度，360度無死角。
 
 凜（右側）以冰藍色精準能量打擊遠端目標，動作優雅得像舞蹈——每一個姿勢都是最小化的、最有效率的。她的天使翼（綠金色）展開作為視覺錨點，卻不帶任何裝飾目的，只是飛行推進器。
 
-美夜子（左側）雙槍並進，白色彈殼在空氣中劃出拋物線，冰晶碎片從槍口向外擴散充當護盾同時傷害近端敵人。她的動作比凜粗糲，但準確度是相同的絕對精準。
+美夜子（左側）以琉璃緞帶硬化為刀刃、配合能量冰刀近身掩護，冰晶碎片充當護盾同時傷害近端敵人。她的動作比凜粗糲，但準確度是相同的絕對精準。
 
 她們從未對視。這不是因為關係冷淡，而是因為她們對彼此的位置和動向有完全的信任——不需要確認，因為另一個人一定在那裡。
 
@@ -3205,7 +3322,7 @@ Canvas: 3:4 portrait ratio --ar 3:4 --niji 6 --style raw
 
 **所需資源**：
 - 凜魔法少女全身圖（已有：`ConceptArt_Rin_MagicalGirl_1.png`）
-- 美夜子魔法少女全身圖（已有：`ConceptArt_Miyako_MagicalGirl_Action_1.jpg`）
+- 美夜子魔法少女全身圖（已有：`ConceptArt_Miyako_MagicalGirl.png`）
 
 **生成提示（Midjourney）**：
 ```
@@ -3214,7 +3331,7 @@ Mood: Perfect partnership; no words needed; trust expressed through physical syn
 Colors: Warm green-gold (Rin, right) contrasting cold blue-white (Miyako, left); battle debris neutral gray
 Composition: Back-to-back formation; both facing outward; implied threats at frame edges
 Lighting: Battle scene lighting; magical glow from both characters; debris dust catching light
-Special effects: Ice crystal shield particles (Miyako); precision energy beams (Rin); golden angel wings spread; spent bullet casings mid-air
+Special effects: Ice crystal shield particles and hardened ribbon-blade (Miyako, NOT firearms); precision energy beams (Rin); golden angel wings spread
 Character sync: Both in motion but perfectly mirrored in discipline and precision; no eye contact needed
 Canvas: 16:9 widescreen --ar 16:9 --niji 6
 ```
@@ -3240,9 +3357,11 @@ Canvas: 16:9 widescreen --ar 16:9 --niji 6
 - **本場景功能**：凜弧光的最終一幕——「終於完成任務」的釋然；美夜子 PTSD（「喀嚓」聲觸發）的視覺原點；凜的選擇是主動的，不是被迫的
 - **後續payoff**：Act II Phase A（E-05）美夜子認出重組的凜（SPEC #24）；Act III Phase H2 凜拒絕治癒（候選場景 W）；SPEC #6 月下崩潰（美夜子精神狀態根源）；Act IV 美夜子終於哭出來（候選場景 FF）
 
+**⚠️ 2026-07-17 批次8審計修正**：Reference Image `ConceptArt_Miyako_MagicalGirl_Action_1.jpg` 依 `DIGEST_REFERENCE_IMAGES.md` 未見收錄（UNVERIFIED），已改用已存在嘅 `ConceptArt_Miyako_MagicalGirl.png`。
+
 **Reference Images**：
 - 凜：`ConceptArt_Rin_MagicalGirl_1.png`
-- 美夜子：`ConceptArt_Miyako_MagicalGirl_Action_1.jpg`
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
 
 **Creative Enhancements**：
 - 這是#76「黃金搭檔」的直接悲劇反轉——同一戰場，同樣的兩個人，但一切都在終結
@@ -3297,55 +3416,55 @@ Canvas: 16:9 widescreen --ar 16:9 --niji 6 --style raw
 
 ## 圖78：「鐵絲網偶遇」（Wire Fence Encounter）[ORIGIN_FLASHBACK]
 
+**⚠️ 2026-07-17 批次8審計修正（核心概念錯誤）**：原文將彩描繪成「同樣5歲」、同晴香平靜地隔網對視伸手——呢個描述同 canon 有兩個根本性矛盾，已重寫。(1) **年齡錯誤**：依 `04_timeline_canon.md`「73年 澄川彩誕生」，102年鐵絲網偶遇當時彩應為 **29歲**（102-73=29），唔係5歲小孩；「彩=5歲」呢個講法喺全 canon（`04_timeline_canon.md`、`00_Story_Brief.html`、`aya.md`）都搵唔到支持，只有晴香被明確標為5歲。(2) **場景性質錯誤**：canon 明確呢一刻係「彩正被守衛拖走」（`04_timeline_canon.md` line 53；`00_Story_Brief.html` line 8723；canon_fact_map CF-EVT-0047：「Haruka glimpses **bloodied** Aya being **dragged**」）——彩處於被強制拖行、渾身傷痕嘅受難狀態，並有帝國守衛在場，唔係一個平靜嘅隔網對視/伸手场面。已按 canon 事實重寫。
+
 **建議輸出文件名**：`ConceptArt_Scene_WireFenceEncounter.png`
 
 ### 劇情背景
 
-帝國歷102年，黑奏篡位後，5歲的彩（葉語彩）被帝國關押在嚴密管制的設施區域——作為黑奏的宿主容器，她的存在本身是帝國的機密。同年，5歲的晴香在梅雨天偶然靠近管制區圍欄，透過鏽蝕的鐵絲網，兩人目光相遇。這是整個故事最深的因果根源：晴香後來許下的「希望彩能自由」這個願望，正是從這次目光誕生的；那個願望觸發了創世，也創造了Alpha/Beta平行線，決定了四幕所有角色的命運。彩此後被黑奏逐步佔奪身體，而那個5歲的目光始終是她在心房中等待的理由。
+帝國歷102年，5歲的晴香路過帝國研究設施外圍的鐵絲網，偶然目睹鐵絲網另一邊、渾身傷痕、被帝國守衛強行拖行嘅**彩**（此時彩已 29歲，自79年起已被囚禁研究長達23年——CDL-306）。晴香在潛意識中許下天真願望：「如果有一個好強的人可以永遠保護佢就好了。」（`04_timeline_canon.md` #event-fence-encounter）此善意、幼稚、完全無辜嘅一念，在三年後（102年創世能量爆發那一刻）成為因果信標，精準賦予黑奏人格魔法力量（CDL-288）——是整個故事最深的因果根源，Act III 由黑奏親口揭露（三重道德處刑最後一擊）。此事件**敘事上扣留至 Act III 結尾**，不提前披露。
 
 ### 圖片說明
 
-帝國歷102年，五歲的晴香在梅雨天無意間走到管制區圍欄邊，透過鏽蝕的鐵絲網看見同樣五歲的彩被困在另一側。兩雙手同時往對方方向伸出，卻被鐵絲網的刺擋在中間。這個目光相遇的瞬間，是晴香後來許下「希望彩能自由」那個願望的最初根源，也是彩在身體最深處一直等待的理由。
+帝國歷102年，五歲的晴香路過帝國研究設施外圍，透過鏽蝕的鐵絲網目睹渾身傷痕的彩被帝國守衛強行拖走。晴香當下並不理解眼前發生的事，只在潛意識裡許下一個天真的願望——希望有一個好強的人可以永遠保護她。這個看似無關痛癢的念頭，三年後成為創世能量精準賦予黑奏力量的因果信標，是全劇最深、最遲揭露的因果根源。
 
 **劇情位置**：
 - **時間點**：前史，帝國歷102年
-- **CDL追蹤**：CDL-288/289；CF-TIME-0013
-- **前置事件**：黑奏篡位帝國後，彩（葉語彩）被關押於管制區域
-- **本場景功能**：5歲晴香偶然走到管制區鐵絲網前，透過生鏽鐵絲網看見同齡的彩被關在內側，兩人對視——整個故事的因果根源瞬間
-- **後續payoff**：晴香許願「希望彩能自由」→ 創世觸發；彩/黑奏身份複數的情感底層；晴香對「彩」的執念貫穿全四幕
+- **CDL追蹤**：CDL-288（鐵絲網偶遇因果信標）；CDL-306（彩79年起被囚禁研究）；CF-EVT-0047
+- **前置事件**：彩自79年（螢死亡當夜）起已被帝國捕獲作活體研究樣本，此時已囚禁23年
+- **本場景功能**：5歲晴香偶然目睹渾身傷痕、被守衛拖行嘅彩（29歲），潛意識許願——整個故事的因果根源瞬間；**此揭露屬 Act III 結尾專用，前置生成時須留意不可提前用於Act I/II情境**
+- **後續payoff**：晴香許願「希望有人永遠保護她」→ 創世能量因果信標；三年後（102年創世覆寫）能量逆流精準賦予黑奏魔法力量；Act III 三重道德處刑最後一擊嘅核心揭示
 
 **詳細核心描述**（200-350字）：
 
-梅雨季節的傍晚，天空低沉，細雨持續落下。管制區外緣是一段生鏽的鐵絲網，網格已被歲月扭曲，部分刺尖朝外彎折。
+灰濛濛的天色，帝國研究設施外圍是一段生鏽的高鐵絲網，網格已被歲月扭曲，部分刺尖朝外彎折。
 
-畫面構圖以鐵絲網為中軸線，左右對稱但質地迥異：鐵絲網外側，5歲晴香站在泥濘的野草地上，穿著淡黃色的日常便服，雨水打濕了她的頭髮，她的眼睛是乾淨的、好奇的，沒有恐懼。她的右手慢慢伸出，指尖朝向鐵絲網——她不知道那是禁區，她只是看見了一個小女孩。
+畫面構圖以鐵絲網為中軸線：鐵絲網外側，5歲晴香站在路邊，穿著日常便服，眼神是乾淨的、困惑的好奇——她不明白眼前發生的事，只是本能地停下腳步。
 
-鐵絲網內側，5歲彩蹲在水泥地上，穿著統一的灰色機構服，膝蓋上有擦傷的痕跡。她的眼神與晴香完全不同——不是恐懼，而是一種比恐懼更深的東西：她已經不知道恐懼是什麼了。她的指尖慢慢朝晴香的方向伸出，但停在了鐵絲網幾公分之前。
+鐵絲網內側，一名29歲的女性（彩）正被兩名帝國守衛強行拖行——她渾身傷痕，衣衫破損，步伐踉蹌，懷裡緊抱著一隻破舊的熊公仔（螢的遺物）不肯鬆手。她的眼神空洞、疲憊到近乎麻木，早已越過了恐懼本身。
 
-兩雙手之間，鐵絲網的刺橫亙其中。
+兩人的視線隔著鐵絲網短暫交會——不是伸手觸碰的溫情畫面，而是一個天真的孩子，第一次目睹了她完全無法理解的、成人世界的殘酷。
 
-雨水沿著鐵絲網的菱形網格流下，把每一個格子都變成了一個模糊的窗口。晴香的臉透過其中一個格子出現在彩的視野裡——是這個世界上第一個主動靠近她的人。
+背景是灰色水泥研究設施建築，氣氛壓抑、冷硬。晴香的位置是畫面中唯一柔軟的存在，同鐵絲網內側嘅暴力形成尖銳對比。
 
-背景是管制區的灰色水泥建築，霧氣將遠景模糊化。只有兩個孩子的位置是清晰的，像兩個被困在不同世界的人，被一道鐵絲隔開了命運。
-
-整個畫面的色調是冷藍灰——雨、鐵鏽、水泥——唯獨晴香的黃色便服是唯一的暖色，像一個誤入禁區的光源。
+整個畫面色調冷灰、壓抑，鐵鏽的橙棕色與守衛制服的深色形成沉重基調，唯獨晴香作為觀察者的位置帶著一絲不合時宜的柔和光線。
 
 **生成提示（Midjourney）**：
 ```
 Style: dark magical girl origin story, painterly illustration, Studio Ghibli-adjacent melancholy with edge, watercolor texture over digital line
-Mood: quiet tragedy, two children separated by fate, the moment before everything changes, longing without language
-Colors: cold blue-grey rain, rust-orange wire, single warm yellow (Haruka's clothing) against grey cement, muted palette with one emotional accent
-Composition: wire fence as central vertical axis, split-frame left-right, two 5-year-old girls reaching toward each other through diamond wire mesh, close-up on fingertips almost touching, mid-rain
-Lighting: overcast diffused rain light, no direct shadows, slight backlight on Haruka from open sky side
-Special effects: rain streaks across glass-like wire fence, water droplets distorting the mesh into small lenses, mist on cement background
-Character: Haruka (5yo, yellow clothes, wet black hair, curious open expression, right hand extended); Aya (5yo, grey institutional clothes, scraped knees, expression beyond fear — empty acceptance, left hand extended but stopping short of wire)
+Mood: quiet horror witnessed through a child's uncomprehending eyes; the innocent seed of a catastrophic wish
+Colors: cold grey-blue overcast palette, rust-orange wire fence, dull institutional guard uniforms, single soft warm accent on Haruka as the only gentle presence in frame
+Composition: wire fence as central vertical axis; foreground 5-year-old Haruka watching quietly outside the fence; background a bloodied 29-year-old woman (Aya) being forcibly dragged by two imperial guards, clutching a worn teddy bear
+Lighting: overcast diffused light, no direct shadows, institutional starkness inside the fence
+Special effects: rust and grime texture on wire mesh, mud and drag-marks on the ground inside the facility
+Character: Haruka (5yo, ordinary clothes, quiet confused gaze, standing still); Aya (29yo, bloodied and disheveled, guards gripping her arms, clutching a worn teddy bear, exhausted hollow expression beyond fear)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Two young girls age 5 on opposite sides of a wire fence in the rain, reaching toward each other but not touching, one in yellow clothes outside, one in grey clothes inside a facility, melancholy mood, painterly anime style, cold blue-grey rain atmosphere, rust orange wire fence, single warm color accent
+A 5-year-old girl standing outside a rusted wire fence, watching quietly as a bloodied adult woman is forcibly dragged by two guards on the other side, the woman clutching a worn teddy bear, cold grey overcast atmosphere, painterly anime style, melancholy and horror witnessed through a child's eyes
 --ar 16:9 --niji 6
 ```
 
@@ -3353,57 +3472,59 @@ Two young girls age 5 on opposite sides of a wire fence in the rain, reaching to
 
 ## 圖79：「通風管道那夜（螢的犧牲）」（The Night in the Ventilation Shaft）[ORIGIN_FLASHBACK]
 
+**⚠️ 2026-07-17 批次8審計修正（核心角色/事件錯誤）**：原文將躲藏兒童寫成「黑奏」，並將事件框架寫成「帝國判定螢無研究價值下令最終處置，兩人躲在帝國設施通風管道」——兩點均同 canon 直接矛盾，已重寫。(1) **人物錯誤**：依 `aya.md`（§夜區創傷——螢的死亡；§黑奏誕生）同 `04_timeline_canon.md`（79年「黑奏創傷事件」條目），**「黑奏」呢個保護者人格正正係喺呢一夜、目擊螢犧牲之後先誕生**——事件發生時仍係「彩」，唔可能係已存在嘅「黑奏」躲喺管道入面。(2) **場景設定錯誤**：canon 明確係「靈樹戰爭末期，6歲的彩和螢藏在夜區建築的通風管道中躲避**帝國軍搜索**」（`aya.md` line 63），唔係「帝國判定螢無研究價值下令最終處置」呢個機構化處決敘事；地點係**夜區建築**，唔係「帝國設施」。已按 canon 事實重寫。
+
 **建議輸出文件名**：`ConceptArt_Scene_HotaruSacrifice_VentilationShaft.png`
 
 ### 劇情背景
 
-帝國歷79年，帝國判定8歲的螢已無研究價值，下令最終處置。螢與6歲的黑奏一同躲藏在帝國設施的通風管道中，帝國搜查人員正在掃蕩。在最危急的時刻，螢將她唯一的熊公仔塞進黑奏懷裡，然後轉身朝搜查者方向爬去——用自身作餌，換黑奏一線生機。她回頭的最後一個微笑，是因為她已做了決定，而那個決定讓她感到輕。這個熊公仔此後貫穿全作，是黑奏所有行動的情感錨點，也是「思螢」與帝國法號「刑思」真正含義的起源。
+帝國歷79年，靈樹戰爭末期，6歲的彩和螢（彩無血緣的姊姊）藏在夜區建築的通風管道中躲避帝國軍搜索。彩因恐懼過度換氣，無法控制呼吸，哭聲穿透薄弱管壁引來士兵腳步聲。螢沒有猶豫，把熊公仔塞進彩懷裡，低聲說「有牠陪著妳，就等於我陪著妳」，然後衝出藏身處引開敵人。彩透過管壁縫隙目睹螢被殺——那一刻，彩的心認定「是我的軟弱殺了螢」，這個 Lie 成為保護者人格「黑奏」誕生的基石（`aya.md` §夜區創傷）。這隻熊公仔此後貫穿全作，是黑奏所有行動的情感錨點；「思螢」（廣東話）亦是後來帝國法號「刑思」真正含義的起源。
 
 ### 圖片說明
 
-帝國歷79年，帝國決定對八歲的螢進行最終處置，螢和六歲的黑奏一起躲在設施的通風管道裡。危急關頭，螢把她唯一的熊公仔塞進黑奏懷裡，然後轉身朝追蹤者爬去，用自己作餌讓黑奏逃脫。她在管道裡最後一次回頭，臉上帶著一種已做決定後的輕盈笑容。這隻熊公仔此後跟隨黑奏走過她人生所有的選擇，是她每一個行動的情感底線。
+帝國歷79年，靈樹戰爭末期，6歲的彩和螢一起躲在夜區建築的通風管道裡，躲避帝國軍的搜索。彩因極度恐懼而過度換氣，哭聲引來了搜索的腳步聲。危急關頭，螢把她唯一的熊公仔塞進彩懷裡，低聲說「有牠陪著妳，就等於我陪著妳」，然後轉身衝出藏身處引開敵人。彩透過管壁縫隙目睹螢被殺——這個瞬間，成為彩心中「保護者人格」誕生的起點。這隻熊公仔此後跟隨黑奏走過她人生所有的選擇，是她每一個行動的情感底線。
 
 **劇情位置**：
-- **時間點**：前史，帝國歷79年
-- **CDL追蹤**：aya.md §螢；02_glossary.md §hotaru
-- **前置事件**：帝國決定對螢進行最終處置，她已被判定無研究價值
-- **本場景功能**：螢（約8歲）和黑奏（約6歲）躲在通風管道，螢將熊公仔塞入黑奏懷中，轉身爬向追蹤者方向——以自身為餌保護黑奏逃脫，最後一個回眸微笑
-- **後續payoff**：黑奏整個人生動力的根源；熊公仔作為螢符號物（SPEC#37/#69）貫穿全作；「思螢」——帝國法號「刑思」真正含義的情感錨點
+- **時間點**：前史，帝國歷79年，靈樹戰爭末期
+- **CDL追蹤**：`04_timeline_canon.md` #event-hotaru-death（79年黑奏創傷事件）；`aya.md` §夜區創傷——螢的死亡
+- **前置事件**：靈樹戰爭爆發，帝國軍搜索夜區；6歲彩因恐懼過度換氣暴露藏身位置
+- **本場景功能**：螢（無血緣姊姊）將熊公仔塞入6歲彩懷中，轉身衝出引開帝國軍——以自身為餌保護彩逃脫；彩透過管壁縫隙目睹螢被殺，「黑奏」保護者人格於此夜誕生（螢死亡的同一時刻，非事後）
+- **後續payoff**：黑奏（保護者人格）誕生根源；熊公仔作為螢符號物（SPEC#37/#69）貫穿全作；「思螢」——帝國法號「刑思」真正含義的情感錨點；彩其後被帝國回收隊捕獲（SPEC#80前情，CDL-306）
 
 **詳細核心描述**（200-350字）：
 
-狹窄的金屬通風管道，只有兩個小孩子能勉強爬行的寬度。管壁是冷金屬的暗灰色，隔著薄薄的金屬板能感受到外面走廊的腳步聲與燈光——帝國搜查人員的手電筒光從通風格柵的縫隙間掃入，每掃一次，管道內就亮一瞬，然後重回黑暗。
+狹窄的金屬通風管道，只有兩個小孩子能勉強爬行的寬度，位於夜區某建築內部。管壁是冷金屬的暗灰色，隔著薄薄的金屬板能感受到外面帝國軍搜索的腳步聲與燈光——手電筒光從通風格柵的縫隙間掃入，每掃一次，管道內就亮一瞬，然後重回黑暗。
 
-螢在前，黑奏在後。兩人都爬著，都屏住呼吸。
+螢在前，6歲的彩在後，因過度換氣而肩膀顫抖，努力屏住呼吸。
 
-關鍵瞬間：螢停下來，轉過身。她用兩隻手捧著一個破舊的小熊公仔——縫線已經鬆脫，棉花從一隻耳朵邊露出——她把它塞進黑奏的懷裡，動作輕，但確定，像一個不需要語言的交付。
+關鍵瞬間：螢停下來，轉過身。她用兩隻手捧著一個熊公仔——她把它塞進彩的懷裡，動作輕，但確定，像一個不需要語言的交付。
 
-黑奏的小手指環住熊公仔，指節發白。
+彩的小手指環住熊公仔，指節發白。
 
-螢轉回身，繼續往相反的方向——朝搜查者的方向——爬去。她爬了幾格之後，停頓，回頭。
+螢轉回身，繼續往相反的方向——朝帝國軍搜索的方向——爬去，用自己作餌引開敵人。她爬了幾格之後，停頓，回頭。
 
 那個回頭是整張畫的核心。螢的臉在金屬管道的黑暗裡，只有一道從格柵透入的細光照在她的眼睛和嘴角。她在笑。不是為了安慰，是她自己決定了某件事，決定之後的那種輕。
 
-黑奏抱著熊公仔，不動，也不哭。只是看著螢的背影越爬越遠，消失在管道轉角的黑暗裡。
+彩抱著熊公仔，透過管壁縫隙的視角，目睹螢的背影消失在管道轉角，隨後聽見外面傳來的聲響——這個瞬間，是「黑奏」誕生的起點。
 
-畫面用的是極窄的縱深透視，管道像一條壓縮的隧道通往遠方。螢在遠端，黑奏在近端，兩者之間的距離是物理的，也是命運的。
+畫面用的是極窄的縱深透視，管道像一條壓縮的隧道通往遠方。螢在遠端，彩在近端，兩者之間的距離是物理的，也是命運的。
 
 **生成提示（Midjourney）**：
 ```
-Style: dark magical girl origin trauma, ultra-detailed painterly illustration, cramped perspective, institutional horror with childhood grief
-Mood: quiet sacrifice, a child who has decided, the last look before disappearing, grief without tears
+Style: dark magical girl origin trauma, ultra-detailed painterly illustration, cramped perspective, wartime horror with childhood grief
+Mood: quiet sacrifice, a child who has decided, the last look before disappearing, grief without tears, the birth of a protector personality in the same instant as loss
 Colors: deep metal grey, shadow black, single streak of cold yellow-white light through ventilation grate, warm brown of worn teddy bear as only warm accent
-Composition: narrow ventilation shaft tunnel perspective, two young girls crawling, Hotaru (8yo) turning back to look with soft smile, Kurokane (6yo) in foreground clutching teddy bear with white-knuckled fingers, extreme depth compression
-Lighting: near-total darkness, one thin strip of cold institutional light through vent grate slashing diagonally across Hotaru's face — eyes and lips only
-Special effects: dust motes in light shaft, condensation on metal walls, distant blur of institutional corridor visible through grate slots
-Character: Hotaru (8yo, short hair, thin frame, tattered clothes, calm smile with certainty — the smile of someone who has decided); Kurokane (6yo, slightly smaller, expression frozen — not crying, not moving, just watching)
+Composition: narrow ventilation shaft tunnel perspective inside a Night District building, two young girls crawling, Hotaru turning back to look with soft smile, young Aya (6yo, NOT Kurokane) in foreground clutching teddy bear with white-knuckled fingers, extreme depth compression
+Lighting: near-total darkness, one thin strip of light through vent grate slashing diagonally across Hotaru's face — eyes and lips only
+Special effects: dust motes in light shaft, condensation on metal walls, distant blur of Night District rooftops visible through grate slots
+Character: Hotaru (young, non-blood elder sister figure, thin frame, tattered clothes, calm smile with certainty — the smile of someone who has decided); Aya (6yo, slightly smaller, expression frozen — not crying, not moving, just watching; this is Aya, the "Kurokane" protector personality has not yet split off)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Two young girls in a dark narrow ventilation shaft, older girl age 8 turning back with a gentle smile handing a worn teddy bear to younger girl age 6, quiet emotional moment of farewell, cramped metal tunnel, single streak of light, painterly dark anime style, melancholy sacrifice theme, no graphic content
+Two young girls in a dark narrow ventilation shaft inside a night-district building, older girl turning back with a gentle smile handing a worn teddy bear to a younger girl age 6, quiet emotional moment of farewell, cramped metal tunnel, single streak of light, painterly dark anime style, melancholy sacrifice theme, no graphic content
 --ar 16:9 --niji 6
 ```
 
@@ -3413,51 +3534,53 @@ Two young girls in a dark narrow ventilation shaft, older girl age 8 turning bac
 
 **建議輸出文件名**：`ConceptArt_Scene_EmpireLab_KurokaneSpecimen.png`
 
+**⚠️ 2026-07-17 批次8審計修正（年齡數學矛盾 + 實驗性質錯誤）**：原文標「12至15歲」發生於「帝國歷95至98年前後」——但依 `04_timeline_canon.md`「73年 澄川彩誕生」，95-98年時彩應為 **22-25歲**，同「12-15歲」直接數學矛盾（無論如何調整年份都無法同時滿足二者，因為彩79年（6歲）已被捕，103年（30歲）獲釋，全段囚禁期內年齡與「12-15歲」對唔上）。另，`04_timeline_canon.md` line 37 明確呢段囚禁初期（79年起）嘅實驗性質係「早期情緒壓抑/測量技術原型」，**唔係「收集魔法輸出數據」**——因為彩嘅魔法力量要到 **102年鐵絲網偶遇因果信標**先賦予（CDL-288），79-102年呢段長達23年嘅囚禁期內佢根本未有魔法可供收集。已移除具體錯誤年齡數字並修正實驗性質；場景改標為囚禁期內某個未明確年份嘅代表性片段，年齡標 `[NEEDS_FACT: 具體年份/年齡]`。
+
 ### 劇情背景
 
-螢犧牲後（帝國歷79年），帝國確認黑奏是天生魔法少女，隨即啟動「數據養殖計劃」，將她從同伴轉化為活體實驗樣本。帝國歷95至98年前後，12至15歲的黑奏被長期固定在實驗台上，心匣位置插入分析探針以收集魔法輸出數據。多年的實驗早已令她習得「解離」作為首要生存技能——人在場但意識出走，是她保護自己的唯一辦法。這段時期積累的「被當作數據而非人」的恨意，是她後來對帝國「情緒農場」制度深層憎惡的根源，也是SPEC#75覺醒屠殺的直接前置。
+螢犧牲後（帝國歷79年），帝國回收隊在螢死亡現場偵測到異常高讀數，連同螢遺體一併回收研究，年僅6歲的彩因而被捕獲作活體樣本（CDL-306），展開長達24年（79-103年）的研究囚禁。囚禁初期，帝國以彩做「原型體」測試早期情緒壓抑/測量技術（此時彩尚未擁有魔法力量，真正的力量要到102年鐵絲網偶遇因果信標先被賦予）。長年實驗令她習得「解離」作為首要生存技能——人在場但意識出走，是她保護自己的唯一辦法。這段時期積累的「被當作數據而非人」的恨意，是她（及後來誕生的保護者人格黑奏）對帝國「情緒農場」制度深層憎惡的根源，也是SPEC#75覺醒屠殺的間接前置。
 
 ### 圖片說明
 
-帝國在螢犧牲後發現黑奏是天生的魔法少女，隨即啟動數據養殖計劃，把十二至十五歲的黑奏固定在實驗台上，將探針插入她的靈魂容器位置採集魔法數據。研究員只看儀器上的波形，不看她的臉——她不是人，是一個數據來源。為了保護自己，她學會了讓意識出走：身體還在台上，但她已經不在那裡了。這段被當作數據物件的年月，是她日後對帝國收割市民情緒能量的制度深層憎恨的根源。
+螢犧牲後，帝國回收隊在死亡現場偵測到異常讀數，將年幼的彩一併捕獲送入實驗室，展開長達24年的活體研究囚禁。囚禁期間，研究人員以她做早期情緒壓抑/測量技術的「原型體」測試——此時她尚未擁有魔法力量。研究員只看儀器上的讀數，不看她的臉——她不是人，是一個數據來源。為了保護自己，她學會了讓意識出走：身體還在台上，但她已經不在那裡了。這段被當作數據物件的年月，是她日後對帝國收割市民情緒能量的制度深層憎恨的根源。
 
 **劇情位置**：
-- **時間點**：前史，帝國歷95-98年前後（SPEC#75覺醒屠殺之前數年）
-- **CDL追蹤**：aya.md §數據養殖計劃；01_world_rules §實驗鏈演進
-- **前置事件**：螢犧牲後（帝國歷79年），帝國發現黑奏是天生魔法少女，開始「數據養殖計劃」
-- **本場景功能**：黑奏（約12-15歲）被綁在實驗台上，心匣位置有分析探針插入，面無表情與眼神的空洞展示了長年實驗後的心理解離狀態
-- **後續payoff**：SPEC#75覺醒屠殺（同一個實驗室，她爆發的那一天）；黑奏對「數據化生命」的深層憎恨根源
+- **時間點**：前史，帝國歷79-102年間（24年囚禁期內，`[NEEDS_FACT: 具體年份]`；102年之前，彩尚未擁有魔法力量）
+- **CDL追蹤**：CDL-306（彩被捕/24年囚禁）；`04_timeline_canon.md` line 37（Stage 0原型體研究）
+- **前置事件**：螢犧牲（帝國歷79年），彩因回收隊偵測異常讀數而被捕獲作活體樣本
+- **本場景功能**：彩被綁在實驗台上，接受早期情緒壓抑/測量技術測試，面無表情與眼神的空洞展示了長年實驗後的心理解離狀態
+- **後續payoff**：SPEC#75覺醒屠殺（同一系列囚禁的最終爆發，102年獲得力量之後）；黑奏對「數據化生命」的深層憎恨根源
 
 **詳細核心描述**（200-350字）：
 
 帝國研究設施的白色實驗室。不是恐怖電影的那種髒亂，而是更令人不安的——整潔、有條理、高效。一切都有標籤，一切都有記錄，一切都是程序。
 
-畫面中央是一張可調節角度的實驗台，黑奏（148cm，約12-15歲）以45度角斜躺其上，上半身略微抬起。她的雙手腕被束縛裝置固定在台邊，手腕皮膚下能隱約看見壓迫痕跡——不是新傷，是已經習慣的舊痕。
+畫面中央是一張可調節角度的實驗台，彩（148cm身形，具體年齡`[NEEDS_FACT]`）以45度角斜躺其上，上半身略微抬起。她的雙手腕被束縛裝置固定在台邊，手腕皮膚下能隱約看見壓迫痕跡——不是新傷，是已經習慣的舊痕。
 
-她的胸口正中央（心匣位置）有三根細長的分析探針插入，探針另一端連接著細線電纜，延伸向畫面右側的儀器群。儀器上的螢幕顯示波形圖表，記錄著她的魔法輸出數據。
+她的胸口正中央（心匣位置）連接著早期情緒壓抑/測量裝置的探針，探針另一端連接著細線電纜，延伸向畫面右側的儀器群。儀器上的螢幕顯示波形圖表，記錄著情緒壓抑測試數據——此時她尚未擁有魔法力量。
 
-黑奏的眼睛是整張畫的重心。她在看天花板。不是看向某個具體的點，而是那種徹底切斷當下感受的眼神——她人在這裡，但她不在這裡。解離是她學會的第一種生存技術。
+她的眼睛是整張畫的重心。她在看天花板。不是看向某個具體的點，而是那種徹底切斷當下感受的眼神——她人在這裡，但她不在這裡。解離是她學會的第一種生存技術。
 
 畫面邊緣出現了研究人員白袍的局部：一隻握著記錄板的手，一個側面的下顎。他們不看她的臉，他們看數據。她不是人，她是數據來源。
 
-整個場景的色調是冷白色和機構藍，唯一的例外是黑奏頸邊掉落的一縷黑髮。
+整個場景的色調是冷白色和機構藍，唯一的例外是她頸邊掉落的一縷黑髮。
 
 **生成提示（Midjourney）**：
 ```
 Style: clinical horror, dark magical girl tragedy, hyper-clean institutional setting conveying coldness through order not chaos, painterly illustration
 Mood: dissociation as survival, the horror of becoming a data point, numbness that is worse than pain
 Colors: cold clinical white, institutional pale blue, steel grey equipment, muted flesh tones — no warm colors anywhere
-Composition: central figure on adjustable examination table at 45-degree recline, 148cm teenage girl, foreground shows researcher's white coat sleeve and clipboard hand only (no face), analysis probes attached to chest area
+Composition: central figure on adjustable examination table at 45-degree recline, 148cm figure (Aya, age unconfirmed within captivity period), foreground shows researcher's white coat sleeve and clipboard hand only (no face), emotion-suppression measurement probes attached to chest area (NOT magic-output probes — she has no magic yet at this point)
 Lighting: flat cold overhead fluorescent institutional lighting, no shadows, no warmth, everything equally visible and equally indifferent
-Special effects: monitor screens in background showing waveform readouts, subtle glow from analysis equipment
-Character: Kurokane (age 12-15, 148cm, black hair spread on table, wrist restraints, eyes open staring at ceiling — completely vacant dissociation expression)
+Special effects: monitor screens in background showing waveform readouts, subtle glow from measurement equipment
+Character: Aya (age within 79-102 captivity range, unconfirmed, 148cm, black hair spread on table, wrist restraints, eyes open staring at ceiling — completely vacant dissociation expression)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Teenage girl approximately age 13 lying on a clinical research table with wrist restraints, staring blankly at ceiling, surrounded by medical monitoring equipment, researcher's white coat visible at frame edge, cold institutional white and blue palette, dissociation mood, dark anime painterly style
+A young woman lying on a clinical research table with wrist restraints, staring blankly at ceiling, surrounded by medical monitoring equipment, researcher's white coat visible at frame edge, cold institutional white and blue palette, dissociation mood, dark anime painterly style
 --ar 16:9 --niji 6
 ```
 
@@ -3467,20 +3590,22 @@ Teenage girl approximately age 13 lying on a clinical research table with wrist 
 
 **建議輸出文件名**：`ConceptArt_Scene_KurokaneUsurpation.png`
 
+**⚠️ 2026-07-17 批次8審計修正**：原文標「帝國歷98年」，但依 `04_timeline_canon.md` CDL-305（黑奏政變年份修正說明）：「黑奏政變原定98年，與102年鐵絲網偶遇『被帝國拘束』矛盾（98年已政變奪權，102年點解仲被自己帝國拘束？）。修正後政變移至**103年**（即黑奏攞到創世因果力量之後）」——已同步修正為103年。另，原「所需資源」提及嘅「7歲外表帝國君主」係 Act III 講法，本場景（篡位當刻）身體年齡應對齊103年（彩73年出生，103年應為30歲，惟其身軀因長期實驗停留在148cm「幼童身軀」——身高定格但非7歲外表，年齡表述標`[NEEDS_FACT: 篡位當刻具體外觀年齡]`。
+
 ### 劇情背景
 
-帝國歷98年，SPEC#75覺醒屠殺後不久，黑奏獲得完整魔法力量，殺出實驗室，穿越帝國皇宮，以148cm的身軀終結了養父皇帝的統治，令宮廷衛兵全部倒地。這不是黑奏渴望的勝利，而是達到目的的起點——她需要帝國的全部資源去做一件事：找到螢。她的站姿沒有昂揚，只有「終於抵達，但路才剛開始」的了結。她在此建立帝國法號「刑思」，啟動靈魂農場計劃，開始幾十年後SPEC#3三武器積累的漫長布局。
+帝國歷103年，SPEC#75覺醒屠殺後不久，黑奏憑102年鐵絲網偶遇（CDL-288）獲得的創世因果力量，殺出實驗室，穿越帝國皇宮，以148cm的身軀終結了收養並暗中將她當研究對象多年的養父皇帝，令宮廷衛兵全部倒地（CDL-305）。這不是黑奏渴望的勝利，而是達到目的的起點——她需要帝國的全部資源去做一件事：找到螢。她的站姿沒有昂揚，只有「終於抵達，但路才剛開始」的了結。她在此建立帝國法號「刑思」，啟動靈魂農場計劃，開始幾十年後SPEC#3三重道德處刑積累的漫長布局。
 
 ### 圖片說明
 
-帝國歷98年，黑奏獲得完整魔法力量之後，以148公分的身軀終結了養父皇帝的統治，讓宮廷所有衛兵倒地。她站在御座台階底部，沒有昂頭，也沒有勝利者的姿態——她只是抵達了一個起點。她需要整個帝國的資源去做一件事：找到螢。她的沉默不是因為冷血，而是因為她知道路才剛剛開始。
+帝國歷103年，黑奏憑鐵絲網偶遇獲得的創世因果力量，以148公分的身軀終結了收養並暗中將她當研究對象多年的養父皇帝的統治，讓宮廷所有衛兵倒地。她站在御座台階底部，沒有昂頭，也沒有勝利者的姿態——她只是抵達了一個起點。她需要整個帝國的資源去做一件事：找到螢。她的沉默不是因為冷血，而是因為她知道路才剛剛開始。
 
 **劇情位置**：
-- **時間點**：前史，帝國歷98年前後（SPEC#75覺醒屠殺後不久）
-- **CDL追蹤**：aya.md §篡位——從保護者到獨裁者；01_world_rules §帝國歷史
-- **前置事件**：SPEC#75覺醒屠殺後，黑奏獲得魔法力量，殺出實驗室，穿越帝國皇宮
+- **時間點**：前史，帝國歷**103年**（CDL-305修正，SPEC#75覺醒屠殺同期/緊接發生）
+- **CDL追蹤**：CDL-305（政變年份修正）；`aya.md` §篡位——從保護者到獨裁者
+- **前置事件**：102年鐵絲網偶遇獲得創世因果力量；SPEC#75覺醒屠殺，黑奏殺出實驗室，穿越帝國皇宮
 - **本場景功能**：148cm的黑奏站在巨大的帝國皇宮御座前，養父皇帝倒下，宮廷衛兵全部倒地，她的表情是空洞的平靜——不是勝利，而是目的
-- **後續payoff**：帝國法號「刑思」確立；靈魂農場計劃啟動；SPEC#3三武器積累的幾十年跨度由此開始
+- **後續payoff**：帝國法號「刑思」確立；靈魂農場計劃啟動；SPEC#3三重道德處刑積累的幾十年跨度由此開始
 
 **詳細核心描述**（200-350字）：
 
@@ -3504,7 +3629,7 @@ Colors: black marble and gold palace architecture, cold imperial gold and deep s
 Composition: extreme scale contrast — 148cm girl figure from behind standing at base of massive twelve-step imperial throne dais, fallen emperor on mid-stairs, scattered fallen guards in background
 Lighting: high angled light from tall palace windows creating long geometric shadows on black marble floor, violet energy glow as secondary light source
 Special effects: dark violet-purple magical energy flickering unstably around Kurokane's silhouette, hair floating slightly, energy edges shifting between wing shapes and fracture patterns
-Character: Kurokane (age ~18, back to viewer, 148cm standing straight but not triumphant, unstable purple energy aura, black hair floating)
+Character: Kurokane (age unconfirmed — 148cm childlike frozen physique despite chronological adulthood, back to viewer, standing straight but not triumphant, unstable purple energy aura, black hair floating)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
@@ -3523,11 +3648,13 @@ Small young woman 148cm standing at base of enormous imperial throne staircase i
 
 ### 劇情背景
 
-帝國歷113年Act I日常段落，黑奏已以「彩」的外貌偽裝轉入晴香的學校，兩人建立了日常信任關係（CDL-079）。晴香懷著對「鐵絲網另一邊那個女孩」的深厚記憶，用心準備了兩人份的便當，以純粹的喜悅遞給「彩」——她不知道接受便當的那雙手背後同時存在三個意識：精算情緒數據的黑奏、被困在最深處無聲旁觀的真實彩。這個單一的遞便當動作，是Act I「表面正常」最尖銳的濃縮，也為Act III揭露時三層情感同時引爆埋下最沉重的炸點（CDL-082「下次呢？」的植入瞬間）。
+**⚠️ 2026-07-17 批次8審計核對**：三層意識並存機制（黑奏精算/彩被困旁觀）同 `aya.md` §彩的囚禁機制一致，CDL-079（黑奏三大潛伏物理需求）核實存在且內容相符。惟「晴香懷著對『鐵絲網另一邊那個女孩』的深厚記憶」呢句——依已核實嘅 CDL-288，鐵絲網偶遇對晴香而言係**潛意識許願**，且事件本身「敘事上扣留至Act III結尾」，晴香本人**不應在Act I對此事有任何有意識記憶**（願望係無意識埋下，非記得的往事）；此句用詞需標 `[NEEDS_FACT: 晴香對鐵絲網記憶的意識層級——應為潛意識層面而非有意識記憶]`，避免同 CDL-288「敘事扣留」設計矛盾。「便當」本身呢個具體 vignette canon 未見逐字記載，機制合理，標 `[NEEDS_FACT: 具體遞便當情節]`。
+
+帝國歷113年Act I日常段落，黑奏已以「彩」的外貌偽裝轉入晴香的學校，兩人建立了日常信任關係（CDL-079）。晴香用心準備了兩人份的便當，以純粹的喜悅遞給「彩」——她不知道接受便當的那雙手背後同時存在三個意識：精算情緒數據的黑奏、被困在最深處無聲旁觀的真實彩。這個單一的遞便當動作，是Act I「表面正常」最尖銳的濃縮，也為Act III揭露時三層情感同時引爆埋下最沉重的炸點（CDL-082「下次呢？」的植入瞬間）。
 
 ### 圖片說明
 
-晴香雙手捧著精心準備的兩人份便當盒，帶著純粹的笑容遞向「彩」——她以為自己終於找回了童年那個鐵絲網另一邊的女孩。接過便當盒的那雙手在畫面上疊著三層現實：最外層是黑奏偽裝的溫和表情，底下是她正在精算晴香情緒的內部狀態，最深處是真實的彩被困在自身內部、透過黑奏的眼睛看著這一切卻發不出任何聲音。
+晴香雙手捧著精心準備的兩人份便當盒，帶著純粹的笑容遞向「彩」——單純出於對眼前這個朋友的真心喜悅（此刻晴香對鐵絲網偶遇本身並無有意識記憶，那是深埋在潛意識裡的願望）。接過便當盒的那雙手在畫面上疊著三層現實：最外層是黑奏偽裝的溫和表情，底下是她正在精算晴香情緒的內部狀態，最深處是真實的彩被困在自身內部、透過黑奏的眼睛看著這一切卻發不出任何聲音。
 
 **劇情位置**：
 - **時間點**：帝國歷113年 Act I [NC] 段落，學校午餐時間
@@ -3579,53 +3706,55 @@ High school girl sincerely handing a two-tier lunchbox to her friend at school, 
 
 ### 劇情背景
 
-帝國歷113年Act I至II日常期間，美夜子在E-05任務中認出了被重組的凜（SPEC#24），但凜對她毫無反應——她已被重組，語義記憶抹除，美夜子對她而言只是陌生人。美夜子開始秘密跟蹤觀察（CDL-215），試圖尋找任何記憶殘留的證據。在這個場景，她目擊到凜在無意識狀態下用手指摺出幸運星——這是身體記憶比語義記憶更頑固的第一個實證。美夜子的貓形態在門邊靜止：她不敢打擾這個脆弱的可能性，但她知道這代表什麼。這個目擊是她決定繼續追蹤凜的核心動機，也是CDL-274月下相認的情感鋪墊。
+**⚠️ 2026-07-17 批次9審計修正**：原文「美夜子在E-05任務中認出了被重組的凜（SPEC#24）」同「CDL-215」引用均為錯誤——E-05（偽王道二戰）同凜完全無關，已於SPEC#24/27審計確認；CDL-215實際係「凜三連爆兩個Outline beat設計」（E-III-01/02，Unit 00揭露，Act III），同本場景（凜無意識摺星星）無關，屬張冠李戴。核心視覺概念亦有誤：依`rin.md` habit-paper-stars（CDL-154）明確定案，凜被軍方植入頂級精細操作能力後，摺星星係「以殘影般的速度，單手摺出幾何比例完美的星星，然後面無表情地全部掃入垃圾桶（『不具備戰術價值的無意義行為』）」——原文「歪歪的、不均」嘅摺法同「散落在桌面」嘅結局同canon完全相反：真正嘅悲劇核心係「速度完美、成品完美，但她自己毫無所覺，亦不會留下任何一顆」。
+
+帝國歷113年，凜（108年犧牲、黑奏重組後）以情緒管理局公務員身份存在（Act I全程背景狀態，見SPEC#24已confirm修正）。美夜子在日常追蹤觀察凜嘅過程中（具體任務內容`[NEEDS_FACT]`，見SPEC#35已confirm修正），目擊到凜在放空狀態下雙手不受控地高速摺出一堆完美星星，然後面無表情地全部掃入垃圾桶。凜自己不記得呢個習慣嘅來源。美夜子的貓形態在門邊靜止：她看見嘅唔係「破綻」，而係「一個失去愛的能力的人，身體依然記得愛的形狀」——這是身體記憶比語義記憶更頑固的第一個實證，也是`rin.md` CDL-274月下相認的情感鋪墊（AKS埋位：Act I旁觀者初讀=「冷血特工在炫耀恐怖的手指靈活度」；Act II/III凜前史揭露後回溯=「原來她不受控的雙手，一直在追尋當年通宵摺星星的自己」）。
+
+**[NEEDS_FACT：具體beat歸屬]** `rin.md`原文只標「第二幕：紅線觸發」段落內描述呢個習慣，`ACT_II_OUTLINE.md`未見獨立beat編號記載本場景，唔可以假設掛喺任何已知beat（E-05/E-06/E-07等）之下——時間點暫標「Act I-II日常」，具體歸屬留待Beat Sheet層確認。
 
 ### 圖片說明
 
-凜坐在桌邊的燈光下，眼神空洞，她自己不知道她的手正在摺紙星星——桌上已散落了幾顆歪斜的幸運星，是身體記住了一件意識早已遺忘的事。門框邊角，美夜子以貓的形態半隱在陰影裡，只露出半個身形和一雙圓而靜止的眼睛：她看見了凜的手在動，她完全知道這代表什麼，但她沒有走進去，沒有出聲，她只是靜靜地確認了這個脆弱的可能性。
+凜坐在桌邊的燈光下，眼神空洞放空，她自己不知道她的雙手正以超乎常人的速度摺著紙——單手，殘影般的動作，幾何比例完美無瑕的星星一顆接一顆成形。摺完，她面無表情地將整把星星掃進垃圾桶，沒有一顆留下。門框邊角，美夜子以貓的形態半隱在陰影裡，只露出半個身形和一雙圓而靜止的眼睛：她看見的不是笨拙的痕跡，而是完美到近乎可怕的手藝，同凜整個人的漠然形成最尖銳的對比——一個失去愛的能力的人，身體依然記得愛的形狀。她沒有走進去，沒有出聲，只是靜靜地確認了這個脆弱的可能性。
 
 **劇情位置**：
-- **時間點**：帝國歷113年 Act I-II 日常
-- **CDL追蹤**：CDL-215；rin.md §記憶殘留；miyako.md §PTSD
-- **前置事件**：E-05美夜子認出重組的凜（SPEC#24），凜對她毫無反應，美夜子開始秘密跟蹤觀察
-- **本場景功能**：凜無意識地摺紙星星（身體記憶殘留），她自己不知道；美夜子在門邊目擊，這是她第一次看見「身體記憶比語義記憶更頑固」的實證
-- **後續payoff**：美夜子決定繼續跟蹤凜的核心動機；CDL-274月下相認的情感鋪墊
+- **時間點**：帝國歷113年 Act I-II 日常（`[NEEDS_FACT]` 具體beat歸屬待Beat Sheet層確認）
+- **CDL追蹤**：CDL-154（摺紙星星習慣定案）；`rin.md` §摺紙星星（武器化的溫柔）；`miyako.md` §PTSD／跟蹤觀察（具體任務內容`[NEEDS_FACT]`，見SPEC#35）
+- **前置事件**：凜108年重組後以情緒管理局公務員身份存在；美夜子日常追蹤觀察凜（見SPEC#35已confirm修正，非源自E-05）
+- **本場景功能**：凜無意識地以殘影速度摺出幾何完美的星星，再面無表情掃入垃圾桶——她自己毫無所覺；美夜子在門邊目擊，這是她第一次看見「身體記憶比語義記憶更頑固」的實證
+- **後續payoff**：美夜子持續關注凜的核心動機之一；`rin.md` CDL-274月下相認的情感鋪墊
 
 **詳細核心描述**（200-350字）：
 
 辦公室或宿舍的一個不起眼的角落。夜間，只有一盞桌燈或走廊透進來的細光。
 
-凜坐在桌邊或窗台旁，沒有在做任何「有意義」的事。她的手指自己在動。
+凜坐在桌邊，眼神空洞放空，沒有看手，沒有看任何地方。她的雙手卻在以超乎常人的速度動作——這是被軍方改造植入的頂級精細操作能力，殘影般的速度，單手就能摺出幾何比例完美無瑕的星星，邊角精準、對稱到近乎機械。
 
-一張小紙，在她不知道的情況下，被她的手指折出了形狀——幸運星。她的眼神空洞，沒有看手，沒有看任何地方，她只是坐著，而她的手記得一件她的意識已經忘記的事。紙星星已經摺了幾顆，歪歪的，不均，因為她不知道她在做，但身體的慣性仍在。
+一顆接一顆，桌面上短暫堆起一小疊完美的星星。然後她面無表情地伸手，將整把星星一次掃進垃圾桶——沒有猶豫，沒有留戀，像是清理一份「不具備戰術價值的無意義行為」的殘餘。
 
-這是身體的記憶。
+這是身體的記憶，也是身體記憶最殘忍的地方：速度和精準都還在，但溫柔的意義已經被清空。
 
-門縫旁，美夜子貓形態（半透明白貓）擠在門框邊角，只露出半個身形。她的貓眼是圓的，是靜止的，是那種看見了某件重要事情的靜止——不是突破，是可能性，是第一個數據點。
+門縫旁，美夜子貓形態（半透明白貓）擠在門框邊角，只露出半個身形。她的貓眼是圓的，是靜止的——她看見的不是笨拙，而是完美到令人心碎的手藝，同凜整個人的麻木漠然形成最尖銳的對比。
 
-美夜子沒有走進去。沒有出聲。她在看凜的手。
+美夜子沒有走進去。沒有出聲。她在看凜的手，直到最後一顆星星被掃進垃圾桶。
 
-整個場景的重量在於對比：凜的漠然（她不知道自己在做什麼）和美夜子的張力（她完全知道這代表什麼）。前景的凜在燈光下是清晰的，她的手和紙星星是焦點；美夜子在門框邊緣是半隱的，只有眼睛捕捉光線。
-
-散落在桌面的幾顆歪斜的紙星星，每一顆都是一個無意識的記憶碎片。
+整個場景的重量在於對比：凜的漠然（她不知道自己在做什麼，也不會留下任何痕跡）和美夜子的張力（她完全知道這代表什麼）。
 
 **生成提示（Midjourney）**：
 ```
 Style: quiet emotional revelation, dark magical girl intimate moment, observer and observed composition, painterly soft atmosphere
-Mood: body memory as hope, the weight of recognition, holding still so as not to disturb something fragile
-Colors: warm single lamp light on Rin's figure and hands, cold corridor blue on Miyako's position, small golden origami stars as warm accent
-Composition: foreground center — Rin sitting at desk, hands unconsciously folding lucky stars, gaze vacant; background at door frame edge — semi-transparent white cat form, only half-body visible, large still eyes catching light
+Mood: body memory as hope, perfection without meaning, the weight of recognition, holding still so as not to disturb something fragile
+Colors: warm single lamp light on Rin's figure and hands, cold corridor blue on Miyako's position, small golden origami stars as fleeting warm accent before being swept away
+Composition: foreground center — Rin sitting at desk, hands moving at inhuman speed folding geometrically perfect lucky stars, gaze vacant; background at door frame edge — semi-transparent white cat form, only half-body visible, large still eyes catching light
 Lighting: single warm desk lamp on Rin's hands as focus, cold corridor light edge-lighting Miyako, deep shadow filling rest of space
-Special effects: subtle translucency of Miyako's cat form, soft glow catching small golden origami stars
-Character: Rin (blank expression, hands moving automatically — folding, she does not know she is doing this); Miyako (semi-transparent white cat at door edge, round unblinking eyes, completely still)
+Special effects: subtle motion-blur afterimage on Rin's hands showing superhuman speed, perfect geometric paper stars briefly visible before being swept into a wastebasket, subtle translucency of Miyako's cat form
+Character: Rin (blank expression, hands moving at inhuman speed folding flawless stars then sweeping them away without hesitation); Miyako (semi-transparent white cat at door edge, round unblinking eyes, completely still)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Young woman sitting alone at night absentmindedly folding small paper lucky stars without realizing it, blank vacant expression, small white semi-transparent cat watching from the doorway with large still eyes, warm lamp light on hands, scattered golden stars on desk, quiet intimate atmosphere, dark anime painterly style
+Young woman sitting alone at night, blank vacant expression, her hands moving at inhuman blurred speed folding geometrically perfect small paper lucky stars without realizing it, then sweeping them all into a wastebasket with no hesitation, small white semi-transparent cat watching from the doorway with large still eyes, warm lamp light on hands, quiet intimate atmosphere, dark anime painterly style
 --ar 16:9 --niji 6
 ```
 
@@ -3637,47 +3766,51 @@ Young woman sitting alone at night absentmindedly folding small paper lucky star
 
 ### 劇情背景
 
-帝國歷113年4至5月，Act II Phase A，E-05任務中遭遇凜相關刺激後，美夜子的PTSD觸發，貓殼開始出現維持困難（CDL-282鏡像法則）。這個場景捕捉的是貓殼的第一次「裂縫」——毛皮在0.5秒內出現龜裂，人形輪廓從裂縫透出，真實的手與臉短暫顯現，隨即被強行壓回去。美夜子的眼睛在那0.5秒同時閃過貓的縱瞳與人的瞳孔，是「自我壓制失敗的第一個徵兆」。這個初次Glitch直接連接SPEC#6月下崩潰（貓殼龜裂三段式第一段），也是SPEC#27三段式覺醒弧光的長線起點。
+**⚠️ 2026-07-17 批次9審計修正**：原文「E-05任務中遭遇凜相關刺激後，美夜子PTSD觸發」同「CDL-282（鏡像法則）」引用均為錯誤。E-05a（總部被襲／舊版「鏡像處刑室」誘捕設計）已被CDL-317（2026-07-06）正式移除，CDL-335（2026-07-15）進一步簡化重寫，確認Glitch Form首次呈現嘅正式觸發源係**E-06「美夜子護隊受傷」**（113年5月）——團隊戰鬥中，美夜子為保護隊友獨自硬扛本應落在隊友身上的攻擊，因自己「將隊友當細路、傾向獨自扛住」的傲慢保護慾累事，傷勢惡化到極限的**生理衝擊**（非PTSD心理刺激）觸發貓殼「功能性崩裂（Glitch）」。CDL-282實際係鏡像法則嘅世界規則終極定義，同本場景觸發機制無直接因果關係，屬張冠李戴。
+
+帝國歷113年5月，Act II Phase A，E-06。美夜子的貓形態外殼在傷勢衝擊下短暫「功能性崩裂」——冰藍色人類少女殘影閃現約0.5秒後恢復貓形態。**CDL-336新增細節（鏡像法則扣連——凜嘅斷刃）**：美夜子受傷嗰刻，手上正握著她的日常習慣道具——每日打磨、刻有凜個名嘅斷刃匕首（磨到近乎鏡面反光）。Glitch Form的裂開特登發生喺她握住這把刀的瞬間，刀身反光放大並捕捉了這次裂開，令人形殘影在刀面清晰映出（受鏡像法則地理限制，此場景需確認擺喺塔覆蓋範圍外）。這是美夜子鏡像三段式弧線的第二步（第一步Act I未擺實位置；第三步Act III覺醒場景主動接納刀身反光）。這個初次Glitch直接連接SPEC#6月下崩潰（貓殼龜裂三段式第一段），也是SPEC#27三段式覺醒弧光的長線起點。
 
 ### 圖片說明
 
-帝國歷113年，美夜子以貓形態存在，在任務中遭遇凜相關刺激後，她的貓殼開始出現第一道裂縫。毛皮在零點五秒內從左肩開始碎裂，人形輪廓從裂縫透出，一隻人的手、她真實的臉局部短暫顯現，然後被強行壓回去。那半秒，她的眼睛同時閃過貓的縱瞳和人的瞳孔形狀。她用盡全身的力量把自己壓回去，但那道裂縫出現過，就不算沒有出現過。
+帝國歷113年5月，團隊戰鬥中，美夜子為保護隊友獨自硬扛一擊本應落在隊友身上的攻擊，傷勢惡化到極限的生理衝擊下，她的貓殼開始出現第一道裂縫。毛皮在零點五秒內從左肩開始碎裂，人形輪廓從裂縫透出，一隻人的手、她真實的臉局部短暫顯現，然後被強行壓回去。她受傷那一刻，手上正握著每日打磨、刻有凜名字的斷刃匕首——裂開特登發生在她握刀的瞬間，近乎鏡面反光的刀身把這次裂開放大映出，令人形殘影在刀面上格外清晰。那半秒，她的眼睛同時閃過貓的縱瞳和人的瞳孔形狀。她用盡全身的力量把自己壓回去，但那道裂縫出現過，就不算沒有出現過。
 
 **劇情位置**：
-- **時間點**：帝國歷113年4-5月 Act II Phase A，E-05a前後
-- **CDL追蹤**：CDL-282（鏡像法則）；E-05a；miyako.md §Unit 01
-- **前置事件**：E-05任務中遭遇凜相關刺激，美夜子PTSD觸發，貓殼開始無法完全維持
-- **本場景功能**：美夜子貓形態在0.5秒內出現裂縫——毛皮下透出人形輪廓，人臉、手、真實形態從裂縫中短暫顯現，隨即被壓回去
-- **後續payoff**：SPEC#6月下崩潰（貓殼龜裂三段式第一段）；SPEC#27三段式覺醒的長線埋伏
+- **時間點**：帝國歷113年5月 Act II Phase A，E-06
+- **CDL追蹤**：CDL-206（beat本體）；CDL-243／CDL-108（Glitch機制）；CDL-336（凜嘅斷刃鏡像扣連）；miyako.md §Unit 01
+- **前置事件**：團隊戰鬥中美夜子為保護隊友獨自硬扛攻擊，傷勢惡化到觸發後續裂痕
+- **本場景功能**：美夜子貓形態在0.5秒內出現裂縫——毛皮下透出人形輪廓，人臉、手、真實形態從裂縫中短暫顯現並被斷刃刀身鏡面反光放大映出，隨即被壓回去
+- **後續payoff**：SPEC#6月下崩潰（貓殼龜裂三段式第一段）；SPEC#27三段式覺醒的長線埋伏；美夜子鏡像三段式弧線第二步（第三步見Act III覺醒場景）
 
 **詳細核心描述**（200-350字）：
 
-某個任務現場或室內空間。半透明白貓的形態在這一瞬間出現了問題。
+某個團隊戰鬥現場。半透明白貓的形態在這一瞬間出現了問題——她剛剛獨自扛下一擊本應落在隊友身上的攻擊。
 
-裂縫從她的左肩開始，像瓷器碎裂一樣向外延伸——但裂縫的內部是另一個光源。從裂縫裡透出來的是人形的輪廓，一個被壓制在貓殼之下的真實身體的形狀。裂縫最寬的地方，能短暫看見一隻人的手的輪廓——手指是人形的，不是貓爪——以及她的臉的局部：不是貓臉，是美夜子真正的人臉，從縫隙中透出0.5秒，像一個被關在玻璃後面的人用手掌貼住玻璃，然後玻璃又重新封閉。
+裂縫從她的左肩開始，像瓷器碎裂一樣向外延伸——但裂縫的內部是另一個光源。從裂縫裡透出來的是人形的輪廓，一個被壓制在貓殼之下的真實身體的形狀。裂縫最寬的地方，能短暫看見一隻人的手的輪廓——手指是人形的，不是貓爪——以及她的臉的局部：不是貓臉，是美夜子真正的人臉，從縫隙中透出0.5秒。
+
+她受傷那一刻，爪間或身側仍緊握著一把斷刃匕首——磨得近乎鏡面反光，刀身上刻著「凜」的名字，是她每日打磨的日常習慣道具。裂開的瞬間恰好發生在她握住這把刀的時候，刀身的鏡面反光把這道裂縫放大又清晰地映照出來，人形殘影在刀面上比在她身上更加清楚——像是刀本身也在見證這道裂縫。
 
 整個事件是0.5秒。但那0.5秒的密度是無限的。
 
 美夜子的眼睛在那一瞬間閃爍：先是貓的縱瞳，然後是人的瞳孔形狀，然後重新縮回縱瞳。她的身體是靜止的——她在用所有力量把自己壓回去。
 
-畫面的構圖是凝固的一瞬：就是那個裂縫最大、人形透出最清楚的0.5秒。裂縫的邊緣有一種不自然的光——白色的、近乎冷靜的，像是從一個密封空間突然漏出的壓縮光源。
+畫面的構圖是凝固的一瞬：裂縫最大、人形透出最清楚，同時刀面反光同步捕捉這一切的0.5秒。
 
 **生成提示（Midjourney）**：
 ```
 Style: supernatural body horror light, dark magical girl identity fracture, 0.5-second frozen moment, painterly with glitch-art visual vocabulary
-Mood: the self breaking containment, suppression failing for a fraction of a second, pressure from inside
-Colors: white semi-transparent cat form, crack edges glowing cold white-blue from within, brief human form visible as warm-toned silhouette through fractures
-Composition: medium close-up on white cat form, fractures spreading from left shoulder, widest crack revealing human hand outline and partial human face pressing from inside, cat eyes mid-flicker between vertical slit pupil and human pupil
-Lighting: cold light source emanating from within cracks as primary, secondary ambient low light
-Special effects: ceramic-crack fracture lines on cat fur surface, inner human form as warm translucent layer through cracks at 40% opacity, pupil shape caught mid-transformation
-Character: Miyako (semi-transparent white cat form, fracture lines visible, human hand silhouette pressing through widest crack, human face partially visible, eyes mid-flicker between cat and human)
+Mood: the self breaking containment under physical injury, suppression failing for a fraction of a second, a mirror bearing witness
+Colors: white semi-transparent cat form, crack edges glowing cold white-blue from within, brief human form visible as warm-toned silhouette through fractures, mirror-polished blade reflecting the same fracture in cold silver
+Composition: medium close-up on white cat form mid-battle, fractures spreading from left shoulder, widest crack revealing human hand outline and partial human face pressing from inside, a mirror-polished dagger engraved with a name held near the injury reflecting the fracture clearly, cat eyes mid-flicker between vertical slit pupil and human pupil
+Lighting: cold light source emanating from within cracks as primary, secondary battlefield ambient light, sharp reflective highlight on blade surface
+Special effects: ceramic-crack fracture lines on cat fur surface, inner human form as warm translucent layer through cracks at 40% opacity, mirrored fracture image duplicated on blade surface, pupil shape caught mid-transformation
+Character: Miyako (semi-transparent white cat form, fracture lines visible, human hand silhouette pressing through widest crack, human face partially visible, eyes mid-flicker between cat and human, gripping a mirror-polished engraved dagger)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-White semi-transparent magical cat form with crack lines appearing on surface, glimpse of human figure visible as translucent warm silhouette through the cracks, cat eyes flickering between animal and human pupil, cold white-blue inner glow from cracks, body horror supernatural identity theme, dark anime painterly style
+White semi-transparent magical cat form with crack lines appearing on surface after taking a hit while protecting a teammate, glimpse of human figure visible as translucent warm silhouette through the cracks, the same fracture reflected clearly on a mirror-polished engraved dagger held nearby, cat eyes flickering between animal and human pupil, cold white-blue inner glow from cracks, body horror supernatural identity theme, dark anime painterly style
 --ar 16:9 --niji 6
 ```
 
@@ -3689,52 +3822,56 @@ White semi-transparent magical cat form with crack lines appearing on surface, g
 
 ### 劇情背景
 
-帝國歷113年5月，Act II Phase B，E-07a事件——小光在紫音面前被屍骸侵蝕，身體開始不可逆轉地廢鐵化（SPEC#22同一事件的另一視角）。紫音跪在廢棄建築的瓦礫上，抱著屍骸化中的小光，防衛已完全崩潰，已經過了大哭的節點，只剩乾涸的麻木。就在這個最脆弱的時刻，黑奏的意識以學術論文字體從畫面邊緣滲入：「你帶回來的希望殺死了她」——不是紫音的思考，是精準找到入口的外來邏輯侵蝕。紫音的眼神在這個瞬間開始從「我無能為力」向「也許這是真的」位移，是她被黑奏說服的心理入口，也是她後來走向屍骸女皇形態的意識形態根源（SPEC#4）。
+**⚠️ 2026-07-17 批次9審計修正**：原文核心畫面（紫音安靜跪地懷抱逐漸屍骸化的小光、防衛崩潰陷入乾涸麻木）遺漏咗CDL-335新增嘅「小光斷氣即場崩壞演出」——canon確認嘅事件順序係：小光**先斷氣死亡**（非「局部屍骸化過程中被懷抱」），紫音隨即**發癲，衝去殺附近其他屍骸**（唔止一隻）→武器打爛→唔理，用手繼續打→手打到骨折都唔停，一路狂笑→打死晒之後停低回頭望，其他人聞聲趕到，先見到佢隻手血肉模糊、骨頭外露，但佢仲喺度笑緊→呢一刻佢身上開始浮現歌德尖刺（心之器第一次出現裂痕，紫音自己屍骸化進程嘅起點）。「黑奏邏輯介入」係緊接呢個崩壞演出之後先發生，唔係紫音安靜跪地嗰刻。另外，原文引用嘅黑奏台詞「你帶回來的希望殺死了她」「你的愛是凶器」canon搵唔到依據，屬虛構台詞——canon確認嘅實際台詞係：「他沒有死，只是換了生存方式。」「痛苦是一種選擇，你可以選擇不再感受。」
+
+帝國歷113年5月，Act II Phase B，E-07a事件。小光在戒斷發作意外中死亡，紫音目睹。斷氣即場，紫音發癲衝去殺附近其他屍骸，武器打爛後徒手繼續打，手打到骨折都不停，一路狂笑，打死晒之後停低回頭望——其他人聞聲趕到，見到她的手血肉模糊、骨頭外露，但她仍在笑。就在這一刻，她身上開始浮現歌德尖刺（心之器第一次出現裂痕）。緊接住呢個崩壞演出，黑奏的意識以學術論文字體從畫面邊緣滲入：「他沒有死，只是換了生存方式。」「痛苦是一種選擇，你可以選擇不再感受。」——從紫音剛剛崩壞、防衛機制徹底破裂的缺口直接植入。這是紫音被黑奏邏輯說服的心理入口，也是她後來走向屍骸女皇形態的意識形態根源（SPEC#4）。
 
 ### 圖片說明
 
-帝國歷113年，紫音抱著魔法力量耗盡後正在身體廢棄過程中的小光，已經過了大哭的節點，只剩下乾涸的麻木。就在這個防衛完全崩潰的時刻，黑奏的意識以冷靜的學術論文字體從畫面邊緣滲入：「你帶回來的希望殺死了她。」那句話不是紫音自己的想法，但它找到了最精準的入口，紫音的眼神開始從「我無能為力」向「也許這是真的」位移。
+帝國歷113年，小光在戒斷發作意外中斷氣死亡後，紫音當場發癲，衝向附近其他屍骸展開近乎自毀式的攻擊——武器打爛後她徒手繼續打，手打到骨折仍不停，一路狂笑。打死晒之後她停低回頭望，隊友聞聲趕到，看見她的手血肉模糊、骨頭外露，但她仍笑著。就在這一刻，她身上開始浮現黑色的歌德尖刺——心之器第一次出現裂痕。緊接住，黑奏的意識以冷靜的學術論文字體從畫面邊緣滲入：「他沒有死，只是換了生存方式。」「痛苦是一種選擇，你可以選擇不再感受。」那些字不是紫音自己的想法，但它們找到了最精準的入口。
 
 **劇情位置**：
 - **時間點**：帝國歷113年5月 Act II Phase B，E-07a
-- **CDL追蹤**：E-07a；aya.md §數據養殖計劃
-- **前置事件**：SPEC#22小光被屍骸侵蝕（同一事件的不同角度），紫音無力阻止
-- **本場景功能**：紫音抱著屍骸化中的小光，防衛崩潰；黑奏的「邏輯」以畫面邊緣黑色文字段落的形式滲入，紫音的眼神開始從悲傷轉向接受
-- **後續payoff**：紫音被黑奏說服的心理入口；SPEC#4廢棄糖果工廠「屍骸女皇」形態的意識形態根源
+- **CDL追蹤**：E-07a；CDL-335（小光斷氣即場崩壞演出）；CDL-309（歌德尖刺屍骸化視覺系統）；aya.md §數據養殖計劃
+- **前置事件**：小光在戒斷發作意外中死亡（SPEC#22同一事件的不同角度）；紫音當場發癲攻擊附近其他屍骸
+- **本場景功能**：紫音崩壞演出的高潮瞬間——手血肉模糊、骨頭外露仍在笑，歌德尖刺初次浮現；黑奏的「邏輯」以畫面邊緣黑色文字段落的形式滲入，紫音的眼神開始從瘋狂轉向被說服
+- **後續payoff**：紫音被黑奏說服的心理入口；SPEC#4廢棄糖果工廠「屍骸女皇」形態的意識形態根源；紫音自己屍骸化進程的起點
 
 **詳細核心描述**（200-350字）：
 
-廢棄建築或昏暗空間。地面是破碎的水泥或瓦礫。
+廢棄建築或昏暗空間，地面散落著已經被打爛的屍骸殘骸。
 
-紫音跪在地面上，懷裡抱著小光。小光的身體局部已開始屍骸化——手臂或側腹有黑色的侵蝕痕跡，像黑色的墨水在皮膚下擴散，邊緣是不規則的，是失控的。紫音的防衛姿態已經完全放棄了：她沒有在戰鬥，她只是在抱著她。
+紫音站在畫面中央，剛剛停下來，回頭望向鏡頭外——她的攻擊已經結束。她的右手是整個畫面最刺眼的焦點：血肉模糊，骨頭外露，指節不成形，是徒手打穿武器打爛之後仍不停手造成的傷。但她的臉上，是笑的——那種一路狂笑到停下來還沒收回去的表情，眼神帶著失控後的空茫。
 
-她的臉是那種超過了哭泣極限的表情——不是放聲大哭，而是在大哭的另一邊，一種乾涸的、麻木的正在發生的崩潰。
+她身上，尤其是肩頸與手臂交界處，開始浮現黑色的歌德尖刺——細小、剛剛破皮而出，這是她心之器第一次出現裂痕，是她自己屍骸化進程的起點。
+
+四周散落著已被打爛的屍骸殘骸碎片，證明剛剛發生過一場近乎自毀的屠殺。
 
 然後，畫面邊緣出現了黑色的文字——不是字幕，不是旁白，是那種「從不屬於這個畫面的地方滲進來」的文字。字體是細的、均等的，像學術論文，像帝國公文：
 
-「你帶回來的希望殺死了她。」
-「你的愛是凶器。」
+「他沒有死，只是換了生存方式。」
+「痛苦是一種選擇，你可以選擇不再感受。」
 
-字行從畫面右側邊緣生長進來，佔據空間，覆蓋部分背景，但不覆蓋紫音和小光的身體——它們繞開那個核心，從邊緣侵入。這不是紫音的思考，是黑奏的意識，在精準時機找到了入口。
+字行從畫面邊緣生長進來，佔據空間，但不覆蓋紫音的身體——它們繞開那個核心，從邊緣侵入。這不是紫音的思考，是黑奏的意識，在她防衛徹底破裂的缺口精準植入。
 
-紫音的眼神在這個瞬間開始轉變。從「我無能為力」開始向「也許這是真的」移動。這是整個轉變的第一個微度位移。
+紫音的眼神在這個瞬間開始轉變，從瘋狂的空茫向「也許這是真的」移動——這是整個轉變的第一個微度位移。
 
 **生成提示（Midjourney）**：
 ```
-Style: dark magical girl psychological horror, ideology as visual infection, painterly with typographic intrusion element
-Mood: grief at its most exploitable, the moment someone begins to believe something terrible, precise emotional violence
-Colors: dark rubble environment near-monochrome, warm skin tones of two figures, spreading black corruption marks, cold black stark text intruding from frame edges
-Composition: Shion kneeling holding Hikari whose arm shows spreading dark corruption, center frame untouched by text, black text fragments intruding from right frame edge wrapping around background
-Lighting: single cold overhead light, deep shadow in corners, warm ambient from figures against dark background
-Special effects: black corruption spreading in organic irregular patterns on skin, clean black text appearing to intrude into visual space from frame edge, slight blur on text edges
-Character: Shion (kneeling, holding Hikari, expression past crying — dry hollow grief turning toward believing something); Hikari (partially visible, dark spreading corruption marks)
+Style: dark magical girl psychological horror, ideology as visual infection, violent aftermath composition, painterly with typographic intrusion element
+Mood: grief exploding into self-destructive frenzy, a smile that should not exist, precise emotional violence exploiting the freshest wound
+Colors: dark rubble environment near-monochrome, harsh red of raw exposed hand wound, black gothic spikes emerging from skin, cold black stark text intruding from frame edges
+Composition: Shion standing center frame having just stopped mid-turn, ruined bloody hand with exposed bone as focal point, still smiling, scattered destroyed corpse fragments around her, black text fragments intruding from frame edge
+Lighting: single cold overhead light, deep shadow in corners, harsh highlight on the wounded hand
+Special effects: black gothic spikes breaking through skin at shoulder/neck, clean black text appearing to intrude into visual space from frame edge, slight blur on text edges
+Character: Shion (standing, having just stopped a killing frenzy, ruined bloody hand with exposed bone, still smiling with a hollow unraveling expression, small black gothic spikes emerging from skin)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Young woman kneeling holding an unconscious friend in dark ruins, expression of grief turning toward hollow acceptance, black text fragments appearing at the edges of the image like intrusive external logic, dark corruption marks spreading on the unconscious girl's arm, painterly dark anime style
+Young woman standing amid destroyed debris having just stopped a violent frenzy, her hand bloodied with visible bone injury from fighting bare-handed, still smiling with a hollow unraveling expression, small black spikes emerging from her skin at the shoulder, black text fragments appearing at the edges of the image like intrusive external logic, painterly dark anime style
 --ar 16:9 --niji 6
 ```
 
@@ -3746,17 +3883,20 @@ Young woman kneeling holding an unconscious friend in dark ruins, expression of 
 
 ### 劇情背景
 
-帝國歷113年5至6月，Act II Phase B，E-07b事件後紫音被主角團放逐——因為她的行為令小光喪失生命，她與晴香之間第一次產生無法彌合的裂痕。晴香和操追蹤到廢棄糖果工廠與她相遇，但三人站在三個完全不相容的哲學立場：晴香仍然伸手、操以輕蔑為盔甲、紫音用高度和迴避維持距離。腐爛糖果地面上沒有人能說服任何人，這個三角對峙是三人各自弧光的中間衝突點，也是SPEC#10糖果山犧牲的情感根源——紫音選擇燃燒自己之前，她與這兩個人之間的裂痕從未真正癒合過。
+**⚠️ 2026-07-17 批次9審計修正**：原文「E-07b事件後」嘅時間框架有誤——依`ACT_II_OUTLINE.md` Beat E-07b原文，「操主動前往調停（失敗）→三位一體辯論（晴香趕到）→放逐」係同一beat內連續發生嘅事件鏈，本場景（三人在糖果工廠對峙辯論）正正係放逐**之前**嘅最後對峙時刻，唔係紫音已被放逐後晴香操「追蹤到」她相遇——放逐係呢場對峙嘅**結果**，唔係前提。另原文出現格式錯漏（「CDL追蹤：E-07b- 前置事件」缺換行），已修正。
+
+帝國歷113年5至6月，Act II Phase B，E-07b事件中段。操主動前往廢棄糖果工廠試圖帶紫音回來，調停失敗並受傷（操Body Horror Stage 1觸發），晴香隨後趕到，三人站在三個完全不相容的哲學立場正面交鋒：黑奏邏輯（借紫音/屍骸樂園體現，「感受是痛苦的根源」）、晴香王道（「妳值得被感受，被在乎，被撐起」）、紫音的身體選擇（直指晴香對人好根本係自私，係唔使面對自己嘅藉口）。腐爛糖果地面上沒有人能說服任何人，這場對峙最終導致晴香說出「滾」，紫音正式被放逐、自立為屍骸首領。這個三角對峙是三人各自弧光的中間衝突點，也是SPEC#10糖果山犧牲的情感根源——紫音選擇燃燒自己之前，她與這兩個人之間的裂痕從未真正癒合過。
 
 ### 圖片說明
 
-帝國歷113年，紫音被主角團放逐後，晴香和操在廢棄糖果工廠找到她。三個人站在腐爛糖果的地面上，各自守著三個完全不相容的立場：晴香仍然伸出那隻手，操以輕蔑做盔甲，紫音坐在更高的位置看向別處。沒有人說服任何人，沒有人離開。腐爛的粉紅和壞掉的黃色牆紙在背景裡默默說著「這裡曾經試圖是快樂的」。
+帝國歷113年，操調停失敗受傷後，晴香趕到廢棄糖果工廠。三個人站在腐爛糖果的地面上，各自守著三個完全不相容的立場：晴香仍然伸出那隻手，操以輕蔑做盔甲，紫音坐在更高的位置看向別處。沒有人說服任何人，沒有人離開——但這場對峙即將以晴香的放逐告終。腐爛的粉紅和壞掉的黃色牆紙在背景裡默默說著「這裡曾經試圖是快樂的」。
 
 **劇情位置**：
-- **時間點**：帝國歷113年5-6月 Act II Phase B，E-07b後
-- **CDL追蹤**：E-07b- **前置事件**：紫音被放逐（E-07b），晴香和操試圖找到她，在廢棄糖果工廠相遇
-- **本場景功能**：三人在腐爛糖果堆中各持不同立場——晴香伸手、操輕蔑、紫音迴避——三種哲學在同一個腐爛空間正面相撞，但沒有人能說服任何人
-- **後續payoff**：三人各自弧光的中間衝突點；SPEC#10糖果山犧牲的情感根源
+- **時間點**：帝國歷113年5-6月 Act II Phase B，E-07b（操調停失敗後、晴香放逐紫音前）
+- **CDL追蹤**：CDL-229；CDL-230
+- **前置事件**：操主動前往廢棄糖果工廠調停失敗並受傷，晴香隨後趕到
+- **本場景功能**：三人在腐爛糖果堆中各持不同立場——晴香伸手、操輕蔑、紫音迴避——三種哲學在同一個腐爛空間正面相撞，直接導致緊接住的放逐
+- **後續payoff**：晴香放逐紫音；三人各自弧光的中間衝突點；SPEC#10糖果山犧牲的情感根源
 
 **詳細核心描述**（200-350字）：
 
@@ -3805,8 +3945,8 @@ Three teenage girls in an abandoned decayed candy factory, one reaching out anxi
 豪宅正門，夜間，管家紗夜穿著一生的制服站在門口舉槍，用凡人的方式擋住追擊者。整個畫面被白色噪音線條覆蓋——那是槍聲之後的耳鳴，把聲音都吞沒了，只剩下紗夜嘴唇的輪廓在說某些話，但那句話消失在噪音裡。深景中，操在逃跑中回頭，透過白色噪音看見紗夜的剪影從垂直變成水平：她倒下了，而倒下的位置，是整張畫面噪音最密集的地方。
 
 **劇情位置**：
-- **時間點**：帝國歷113年 Act II Phase C，CF-TIME-0068
-- **CDL追蹤**：CF-TIME-0068；CDL-233
+- **時間點**：帝國歷113年7-8月 Act II Phase C，E-09a（CF-TIME-0068交叉確認事件日期為Y113-07-08，與SPEC#1/5/26已confirm嘅E-09a「鏡像破碎之夜」為同一晚，2026-07-17批次9審計新增此beat編號以統一全文件跨場景引用）
+- **CDL追蹤**：E-09a；CF-TIME-0068；CDL-233
 - **前置事件**：SPEC#26操被父親出賣，紗夜選擇開槍掩護操逃跑
 - **本場景功能**：紗夜在豪宅門口舉槍那一瞬間；畫面被白色噪音線條覆蓋象徵耳鳴，觀者只能看口型，操在逃跑中回頭只看見紗夜倒下的剪影
 - **後續payoff**：操CDL-298被迫報串的最深罪疚根源；SPEC#1鋼鐵獨舞時操帶著這份罪疚起舞
@@ -3854,48 +3994,49 @@ Woman in formal service uniform at mansion gate at night, holding a gun protecti
 
 ### 劇情背景
 
-帝國歷113年9月，Act II Phase D，CDL-191附近。SPEC#21直播失控事件後，晴香被全城定性為「失控殺手」，被追殺中躲入廢棄地鐵站，左手已開始半屍骸化。朔在某次追蹤中找到了她的藏身地點，但他沒有強行介入——他把方便食品放在她身旁然後在幾步之外側坐，給她留下臉的私隱，然後就只是在那裡。這個「不試圖拯救，只是不讓她一個人」的選擇，是朔決定站在主角團這邊的情感根源；對晴香而言，這個無聲陪伴成為她在最孤立的時刻仍能繼續存在的一個支點。
+**⚠️ 2026-07-17 批次9審計修正（核心概念全面重寫）**：原文將本場景寫成「朔帶食物到廢棄地鐵站陪伴躲藏中嘅晴香」——呢個內容完全係錯誤挪用咗SPEC#92「美夜子無價值留守」（CDL-191，美夜子帶沒氣可樂陪伴晴香）嘅情節結構，再將主角由美夜子換成朔、地點沿用同一個廢棄地鐵站。但canon（`ACT_II_OUTLINE.md` [NC]暗線「見証之夜」，CDL-260）明確定義嘅「困獸的慈悲——朔見証之夜」係完全不同嘅內容：**地點係下水道外圍**（主角團秘密活動區域邊界），唔係廢棄地鐵站；**朔嘅視角係透過狙擊鏡遠距觀察**，唔係到場遞食物；核心事件係晴香遭遇夕嘅黑色能量從地面逆流纏住她左半身、異化為黑色爪子準備掠食性吸取一隻衰弱屍骸，晴香用右手死命叉住自己左手手腕、以自傷般的痛楚強行壓制掠食本能，壓制成功後再用那雙流血的手爬向屍骸溫柔安慰陪伴直至它化為光塵消散——朔目睹嘅係「自殘式的殘暴」與「溫柔的照顧」同時發生在同一雙手上，因而由「視晴香為異常個體/監控獵物」轉變為「心理盟友」。CDL-191（美夜子留守遞可樂）係另一個獨立場景，已由SPEC#92正確覆蓋，唔應該同本場景混用。
+
+帝國歷113年8月中旬，Act II Phase D中期，[NC]暗線「見証之夜」（CDL-260）。主角團在下水道外圍遭遇一隻衰弱屍骸。法則·熵增的黑色能量從地面逆流纏住晴香左半身，將她的左手異化為黑色爪子，準備對屍骸進行掠食性吸取。關鍵時刻，晴香的右手死命叉住自己的左手手腕，用自傷般的痛楚強行壓制黑色爪子的掠食本能——滿頭大汗、渾身顫抖、血液滲出、呼吸急促，完全的物理對抗。完成壓制後，她用那雙流血的手爬向屍骸，溫柔地撫摸、安慰、陪伴它，直到它化為光塵消散。朔透過狙擊鏡在遠處目擊了這一切：不是主動的善良，而是被強制進行的選擇——壓制自己的怪物本能與保護他者的溫柔，兩種相反的衝動同時生效在同一雙手上。朔由此意識到「晴香的溫柔不是天生天性，而是每一次都在深淵邊緣用鮮血與意志力強行扼殺自己的惡意」——這是朔從「冷血獵人」變成「死忠盟友」的不可逆轉點。
 
 ### 圖片說明
 
-帝國歷113年，晴香被全城定性為「失控殺手」，躲在廢棄地鐵站，左手已開始黑化。朔找到她，但他沒有強行介入——他只是把方便食品放在她身旁，然後在幾步之外側坐，看著鐵軌方向，給她留住臉的私隱，然後就只是在那裡。他沒有試圖拯救，只是不讓她一個人。那袋食品放在兩人之間的地面上，是整個場景的情感核心。
+帝國歷113年8月中旬，下水道外圍。晴香的左半身被黑色能量纏繞，左手異化成黑色的爪，正準備向一隻衰弱屍骸掠食性撲去。她用右手死命叉住自己的左手手腕，指節因用力而發白，血從指縫滲出，滿頭大汗、渾身顫抖——那是一場只靠自傷痛楚才能壓下的物理對抗。壓制成功後，她用那雙流血的手緩緩爬向屍骸，溫柔地撫摸它，陪伴它直到化為光塵消散。遠處，朔透過狙擊鏡的圓形視野注視著這一切——他看見的是同一雙手，既是自殘的兇器，也是溫柔的照顧。
 
 **劇情位置**：
-- **時間點**：帝國歷113年9月 Act II Phase D，CDL-191附近
-- **CDL追蹤**：CDL-191附近；saku.md §見証
-- **前置事件**：SPEC#21光幕破碎，晴香「社會性死亡」，被追殺中躲藏，半屍骸狀態
-- **本場景功能**：廢棄地鐵站，晴香蜷縮在牆角，左手發黑半屍骸化；朔在幾步之外坐下，不說話，不靠近，只是帶了方便食品放在她身邊然後保持在場——「不試圖拯救，只是不讓她一個人」
-- **後續payoff**：朔決定站在主角團這邊的情感根源；無聲陪伴對晴香日後心理韌性的影響
+- **時間點**：帝國歷113年8月中旬 Act II Phase D中期，[NC]暗線「見証之夜」
+- **CDL追蹤**：CDL-260；saku.md §見証
+- **前置事件**：主角團在下水道外圍遭遇衰弱屍骸；夕的黑色能量從地面逆流纏住晴香左半身
+- **本場景功能**：晴香以自傷式壓制對抗自己被異化的黑色爪子，成功後溫柔陪伴屍骸消散至光塵；朔透過狙擊鏡遠距目擊「自殘的殘暴」與「溫柔的照顧」同時發生在同一雙手上
+- **後續payoff**：朔從「冷血獵人」升級為「心理盟友」的不可逆轉點；Phase D隱形支援升級的心理錨點；Act III倖存者身份確認前置
 
 **詳細核心描述**（200-350字）：
 
-廢棄地鐵站。是那種停用了很久的地鐵站，月台上有積塵，牆上貼著已經剝落的舊廣告，地面是老式的水泥月台板。一側是廢棄的鐵軌，深入黑暗隧道。
+下水道外圍，主角團秘密活動區域邊界。潮濕陰暗，管道與磚牆交錯，遠處有滴水聲。
 
-晴香蜷縮在月台最角落的牆邊，就是那種「能放進去最小空間」的蜷縮方式——膝蓋拉到胸前，背靠牆，頭微微低下。她的左手是黑的：屍骸侵蝕在手背和前臂上擴散，邊緣不規則，像一種正在生長的東西。她的右手壓在左手手腕上，用體重和意志力壓制那個正在發生的東西。她在顫抖，但她沒有哭——她已經過了哭的那個節點。
+畫面中心，晴香跪在地上，她的左手已經異化——不再是人的手，是黑色的、帶著獸性尖爪的形狀，正伸向一隻蜷縮在角落、明顯衰弱的屍骸，一種掠食性的姿態。她的右手死命叉住自己的左手手腕，指節因用力泛白，皮膚被自己的指甲掐出血痕。她滿頭大汗，渾身在顫抖，呼吸急促——這是一場純粹的、物理性的自我對抗。
 
-朔在距離她三步的位置坐下，背靠另一塊水泥柱。他沒有面對她，他是側坐的，看向鐵軌方向，給她留了臉的私隱。他的面前（晴香身旁）有一個方便杯麵或飯糰，是已經放下的，他放完就移開了手，沒有堅持，沒有「你要吃嗎」。
+壓制成功後（或畫面呈現壓制剛剛完成的瞬間），她的雙手已沾血，卻緩緩伸向那隻屍骸，輕輕撫摸它的殘破軀體。她的表情從對抗的猙獰轉為近乎母性的溫柔。屍骸開始在她的觸碰下化為微光的塵粒，緩緩消散。
 
-他只是在那裡。
+遠景，畫面邊緣或一角，能看見一個圓形的狙擊鏡視野暗角——朔正透過鏡頭觀察這一切，距離遙遠，他的表情藏在鏡頭之外，但那個圓形取景本身就在訴說「他在看，但他沒有靠近」。
 
-整個畫面是廢棄地鐵的藍灰色調，老式燈光昏黃，照度不足。晴香左手的黑色侵蝕痕跡在昏黃燈光下顯得特別清晰。朔的位置是稍微後退的、模糊的——他刻意不是焦點，他刻意是「背景裡的存在」。
-
-方便食品的小包裝放在兩人之間的地面上，在昏黃燈光下幾乎被陰影淹沒，但它在那裡。
+整個畫面的色調是下水道的濕冷藍灰，唯一的暖色是晴香手上的血與屍骸消散時的微光。
 
 **生成提示（Midjourney）**：
 ```
-Style: dark magical girl emotional aftermath, quiet witness composition, abandoned urban space as shelter, painterly with deliberate focus-depth manipulation
-Mood: the mercy of simply being present, accompaniment without rescue, not looking directly to preserve dignity
-Colors: blue-grey abandoned station desaturation, old dim yellow-amber station lighting, black corruption marks on Haruka's left hand contrasting sharply, instant food packaging as small warm focal accent
-Composition: Haruka curled in far corner — knees to chest, back to wall, right hand pressing down on dark-corrupted left arm; Saku seated 3 steps away against pillar — side profile facing away giving her face-privacy; instant food placed on ground between them; Haruka sharp focus, Saku intentionally softer
-Lighting: old dim amber station fluorescents at low intensity, deep blue-grey shadow filling gaps, corruption marks at highest visual contrast
-Character: Haruka (trembling curled posture, left arm black corruption, right hand pressing over it, past crying); Saku (side-seated facing away, present but not intruding)
+Style: dark magical girl body horror + tenderness duality, sniper-scope framing device, painterly with cinematic distance
+Mood: self-inflicted violence as the only way to protect others, mercy earned through pain, being watched without being saved
+Colors: cold damp sewer blue-grey, harsh black corruption on Haruka's left arm, red blood at wrist, faint warm dissolving light from the dying corpse, distant cold scope-vignette
+Composition: Haruka center, right hand clawing down on her own black-clawed left arm, blood visible, trembling; corpse creature crouched nearby beginning to dissolve into light particles under her other tender touch; circular sniper-scope vignette at frame edge implying distant observer
+Lighting: dim sewer ambient, single distant light source, faint warm glow from dissolving corpse as contrast
+Special effects: black clawed corruption on left arm with sharp irregular edges, blood at wrist, soft dissolving light particles rising from the corpse, circular scope-vignette darkening frame corners
+Character: Haruka (kneeling, left arm transformed into a black claw reaching toward a corpse, right hand clawing her own wrist to suppress it, sweating, trembling, blood visible, expression shifting from feral struggle to tenderness); distant corpse creature (weak, dissolving into light); Saku (implied only through distant sniper-scope vignette, not directly visible)
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Girl curled against wall in abandoned subway station, right hand pressing down on her left arm which shows dark spreading marks, trembling but not crying; young man seated a few steps away against a pillar facing the other direction, instant food placed on ground between them, dim amber station lighting, quiet witness mood, dark anime painterly style
+A girl kneeling in a damp sewer tunnel, her left arm transformed into a black clawed monstrous shape reaching toward a weak corpse creature, her other hand clawing at her own wrist in bloody self-restraint, sweating and trembling; the corpse creature beginning to dissolve into soft light particles under her other tender touch; a circular sniper-scope vignette at the frame edge suggesting a distant hidden observer, cold damp blue-grey palette, painterly dark anime style
 --ar 16:9 --niji 6
 ```
 
@@ -3973,52 +4114,56 @@ Split-panel composition: left two-thirds shows cardboard shield-shape stopping a
 
 ### 劇情背景
 
-帝國歷113至114年，Act II Phase D，E-11前。E-07b事件後紫音被主角團放逐，小光已死，紫音在夜區的廢棄後巷獨自生存多月。她的屍骸女皇形態尚未完整，皇袍已污漬斑斑，但她仍在廢棄之中保有一種奇特的照料本能——把僅剩的腐爛波板糖遞給身旁的流浪貓。貓拒絕了，她把糖放回袋子，像是存著留作下次。朔在陰影中遠遠目擊這一切，不靠近、不介入，但看見了「一個人在被廢棄之後仍然需要可以照料的對象」的本質。這個場景是SPEC#10糖果山犧牲前的最後平靜，也是朔「見証者」角色的正式確立。
+**⚠️ 2026-07-17 批次9審計修正**：原文將紫音照料嘅對象寫成「流浪貓」，但canon（`ACT_II_OUTLINE.md` [NC]暗線「王國邊緣的盛宴」，CDL-241/257）明確定義呢個場景嘅照料對象係**屍骸化後嘅小光**（Type B廢鐵型），唔係流浪貓——紫音「給變成廢鐵屍骸的『小光』餵食發霉糖果，以為自己『掌控』局面，建立了一個『冇傷害』的樂園（主題B：完美的幻象）」，呢個「扭曲母性」意象係E-07b已confirm嘅核心設計（「永遠懷抱屍骸化小光」），本場景將對象換成流浪貓會削弱呢條主題線嘅連貫性。時間點亦已精確化為「113年9月，E-11風暴前夕」（非跨年嘅「113至114年」），且屬平行剪接結構嘅一部分——同期主角團正經歷夜區絕望躲藏、剛經歷愛莉具現化擋刀嘅罪疚衝擊。
+
+帝國歷113年9月，Act II Phase D，E-11風暴前夕。E-07b事件後紫音被主角團放逐，坐在廢棄糖果工廠自製嘅王座上，周圍是順從的屍骸群，給變成廢鐵屍骸嘅「小光」餵食發霉糖果——她以為自己「掌控」了局面，建立了一個「冇傷害」的樂園。這是同「幻象破滅——屍骸外流事件」（113年11-12月，E-12前夕）形成因果鏈嘅前段：本場景嘅「完美的幻象」將在數月後徹底破滅。白銀朔在夜區巡邏中遠遠目擊這一切，不靠近、不介入，但看見了「一個人在墮落為王之後，本質依然是暗巷餵食者」的悲劇底色。這個場景是SPEC#10糖果山犧牲前嘅情感蓄壓前置，也是「嘆息之橋」情感蓄壓的一部分。
 
 ### 圖片說明
 
-帝國歷113年至114年，紫音被放逐後在夜區廢棄後巷獨自生存多月，皇袍已污漬斑斑，魔法少女力量耗盡後的終態尚未完整。她從皺縮的糖果袋裡取出一根腐爛的波板糖遞給蹲在她膝旁的流浪貓，貓退開了，她把糖放回袋子，像是存起來留作下次。朔在陰影的遠端目擊這一切，看見了一個人在被廢棄之後仍然需要某個可以照料的對象，但他沒有靠近。
+帝國歷113年9月，紫音被放逐後盤踞在廢棄糖果工廠自製的王座上，周圍是順從她的屍骸群。她從皺縮的糖果紙袋裡取出一顆發霉的糖果，餵向懷中或身旁廢鐵屍骸化的小光——空洞的紅色眼窩微光、生鏽金屬拼湊的軀體仍保留兒童比例，右手仍握著發黑發霉、糖棍已鏽蝕嵌入手指無法放下的舊波板糖。紫音的神情是滿足的、平靜的，她以為自己建立了一個「冇傷害」的樂園。遠處，白銀朔站在陰影裡目擊這一切，沒有靠近。
 
 **劇情位置**：
-- **時間點**：帝國歷113-114年 Act II Phase D，E-11前
-- **CDL追蹤**：akane.md §嘆息之橋前- **前置事件**：E-07b紫音被放逐、小光已死；紫音在夜區獨自生存多月
-- **本場景功能**：展示紫音作為屍骸女皇的雛形狀態——形態尚不完整，但已被廢棄，在廢棄之中仍保有對更弱小生命的照料。朔作為遠距見証者，確立其「旁觀者」角色。
-- **後續payoff**：SPEC#10糖果山犧牲的情感前置（她燃燒前的最後平靜）；朔「見証者」角色的建立
+- **時間點**：帝國歷113年9月 Act II Phase D，E-11風暴前夕
+- **CDL追蹤**：CDL-241／CDL-257（王國邊緣的盛宴，位置精確化）
+- **前置事件**：E-07b紫音被放逐、小光已死並屍骸化（Type B廢鐵型）；紫音在廢棄糖果工廠建立屍骸樂園
+- **本場景功能**：展示紫音自以為「掌控」局面、建立「冇傷害樂園」的幻象頂點——餵食對象是屍骸化的小光而非流浪貓，強化「扭曲母性」主題；白銀朔作為遠距見証者，平行剪接同期主角團的絕望躲藏
+- **後續payoff**：SPEC#10糖果山犧牲的情感前置（她燃燒前的最後平靜）；「幻象破滅——屍骸外流事件」（113年11-12月）將徹底戳破本場景嘅「完美的幻象」
 
 **Reference Images**：
 - 朱音：`ConceptArt_Akane_MagicalGirl.png`
 - 朔：`ConceptArt_Saku_CasualWear.png`
+- 小光（屍骸形態）：`[NO_REF — 需另查ko_hikaru.md屍骸形態Type B廢鐵型描述]`
 
 **詳細核心描述**（200-350字）：
 
 
-夜區某條被遺忘的窄巷。帝國秩序的LED廣告屏在遠端轉角處閃爍——不是照亮這裡，而是從巷子盡頭射進一道冷白光柱，把地面切成兩塊：帝國的光與被放逐的陰影。
+廢棄糖果工廠深處，紫音自製的「糖果王座」——融化糖果與屍骸碎片堆成，四周有幾具順從的屍骸靜靜佇立。遠端一道冷白LED光柱從工廠破窗射入，把地面切成兩塊：帝國的光與被放逐的陰影。
 
-紫音坐在地上，背靠牆，皇袍裙擺拖在積水邊緣。這套袍子曾是白色的，現在是——不知道什麼顏色，糖漬的黃、灰塵的褐、夜區濕氣的黑，混在一起。她的屍骸女皇狀態尚未完整，皮膚沒有完全碎裂，但嘴角有乾涸的糖漬。
+紫音坐在王座上，皇袍裙擺拖在地面糖漬邊緣。這套袍子曾是白色的，現在混雜著糖漬的黃、灰塵的褐、夜區濕氣的黑。她的屍骸女皇狀態尚未完整，皮膚沒有完全碎裂，但嘴角有乾涸的糖漬。
 
-她從一個皺縮的糖果紙袋裡取出一根腐爛的波板糖——棒子已經彎了，糖面融化了一半再重新凝固，形狀已無法辨認。她沒有吃，把它遞給蹲在她膝蓋旁邊的流浪貓。貓用舌頭舔了一下，退開了。紫音盯著那根棒棒糖看了一秒，然後把它放回袋子裡，像是存起來留作下次。
+她從一個皺縮的糖果紙袋裡取出一顆發霉的糖果，動作溫柔地餵向懷中的小光——100-120cm的廢鐵型屍骸，生鏽金屬碎片拼湊但保留兒童比例，空洞眼窩透出紅色微光，依然掛著破爛紅書包，右手握著發黑發霉、糖棍已鏽蝕嵌入手指無法放下的波板糖。糖果自然不會被「吃下」，但紫音的神情是滿足而平靜的，彷彿這個儀式本身已經足夠。
 
-巷子另一端，朔遠遠站在陰影裡。他沒有靠近。他看見這一幕，看見一個人如何在自己已被廢棄之後，仍在照料一隻貓——不是因為貓接受了她，而是因為她還需要某個可以照料的對象。
+工廠另一端，朔遠遠站在陰影裡，沒有靠近。他看見這一幕，看見一個人如何在墮落為王之後，本質依然是暗巷餵食者——一個自以為「冇傷害」卻終將破滅的幻象。
 
-構圖核心：低角度仰視，紫音在畫面中央偏下，LED光柱在後景斜切，朔的剪影在遠端右側，幾乎融入陰影。靜止。沒有風。
+構圖核心：低角度仰視，紫音與懷中小光在畫面中央偏下，LED光柱在後景斜切，朔的剪影在遠端，幾乎融入陰影。靜止。沒有風。
 
 
 **生成提示（Midjourney）**：
 ```
 Style: dark magical girl illustration, painterly ink wash, cinematic still
-Mood: desolate tenderness, quiet devastation, the last warmth before extinction
-Colors: cold LED white light from far end of alley, deep shadow blues and grays, faint amber from old candy wrapper, desaturated purple robe stained with brown and black
-Composition: low angle, wide shot, girl sitting against wall in lower center, distant male silhouette barely visible at alley entrance right side, light column cutting diagonally across mid-ground
-Lighting: harsh cold LED ambient from afar, no warmth at foreground, slight rim light on girl's shoulder
-Special effects: none, stillness is the effect
-Character: teenage girl in ruined white-purple robe covered in dried sugar and grime, hollow eyes, slight smile, holding a melted lollipop stick, stray cat crouched near her knee turning away
+Mood: desolate tenderness turned into distorted maternal ritual, quiet devastation, the last warmth before extinction, a perfect illusion about to shatter
+Colors: cold LED white light from far end of factory, deep shadow blues and grays, faint amber from old candy wrapper, desaturated purple robe stained with brown and black, rusted red-orange of the corpse child
+Composition: low angle, wide shot, girl seated on a throne of melted candy and corpse fragments in lower center, cradling a rusted scrap-metal child-corpse and feeding it moldy candy, distant male silhouette barely visible at factory entrance, light column cutting diagonally across mid-ground
+Lighting: harsh cold LED ambient from afar, no warmth at foreground, slight rim light on girl's shoulder and the corpse's rusted surface
+Special effects: faint red glow from the corpse child's hollow eye sockets
+Character: teenage girl in ruined white-purple robe covered in dried sugar and grime, hollow eyes, content faint smile, holding moldy candy toward a rusted scrap-metal child corpse with red-glowing eye sockets held in her arms, distant male silhouette watching from the shadows
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A teenage girl in a torn princess dress sits alone in a dark alley at night, holding a melted lollipop, a stray cat beside her. Distant city lights. A lone figure watches from far away. Melancholy. No gore. Painterly anime style.
+A teenage girl in a torn stained robe sits on a throne made of melted candy and scrap metal in an abandoned factory, tenderly feeding moldy candy to a small rusted scrap-metal child corpse with faintly glowing red eye sockets cradled in her arms. Distant cold LED light. A lone male figure watches silently from far away in the shadows. Melancholy, distorted maternal tenderness. No gore. Painterly dark anime style.
 --ar 16:9 --niji 6
 ```
 
@@ -4030,18 +4175,20 @@ A teenage girl in a torn princess dress sits alone in a dark alley at night, hol
 
 ### 劇情背景
 
-帝國歷113年，Act II Phase A至B，E-08後，操的身體崩壞（Body Horror）已進入Stage 2a——長期使用魔法少女變身的代價累積到牙齒開始鬆動、失去固著的階段（CDL-233）。操對身體崩壞的態度不是恐懼，而是工匠式的自我維護：她用傀儡絲把鬆動的牙縫合回牙齦，面對鏡子，妝容完整，嘴角滲血也不擦，繼續進行下一針。這是「形式主義作為自我控制」的最純粹表達——她無法阻止死亡，但她可以把死亡管理成一個可以繼續完成的工序。這個場景直接連接SPEC#74甜品局掉牙（Stage 2b，縫也縫不住了）以及SPEC#1鋼鐵獨舞（最終接受身體崩壞）。
+**⚠️ 2026-07-17 批次9審計修正**：原文時間點「Act II Phase A至B，E-08後」有誤——依`DIGEST_CHARACTER_STATES.md` M-S3同`ACT_II_OUTLINE.md`，Body Horror Stage 2a（牙齒鬆動乃至脫落，操以傀儡絲縫回）嘅明確觸發點係**E-09a「鏡像破碎之夜」**（父親背叛判定為廢品交予帝國+紗夜犧牲同時發生，Act II Phase C，113年7-8月），唔係E-08（Phase A-B，「恐怖家家酒」高壓事件）——E-08後、E-09a前操只處於Stage 1（牙齦滲血，外表仍完美壓制）。此修正同SPEC#47「操的摔碎時刻」、SPEC#74「甜品局掉牙」已confirm嘅Stage 2a／E-09a時間點對齊。
+
+帝國歷113年7-8月，Act II Phase C，E-09a起，操的身體崩壞（Body Horror）已進入Stage 2a——父親背叛+紗夜犧牲（鏡像破碎之夜）後，操開始出現牙齒鬆動乃至脫落。操對身體崩壞的態度不是恐懼，而是工匠式的自我維護：她用傀儡絲把鬆動的牙縫合回牙齦，面對鏡子，妝容完整，嘴角滲血也不擦，繼續進行下一針。這是「形式主義作為自我控制」的最純粹表達——她無法阻止死亡，但她可以把死亡管理成一個可以繼續完成的工序。這個場景直接連接SPEC#74甜品局掉牙（Stage 2a同期，縫也縫不住了）以及SPEC#1鋼鐵獨舞（Stage 3，最終接受身體崩壞）。
 
 ### 圖片說明
 
-帝國歷113年，操的身體因長期使用魔法而開始崩壞，牙齒鬆動是這個過程的表徵之一。她站在鏡前，用傀儡絲把鬆動的牙縫合回牙齦，妝容完整，嘴角滲血也不擦，繼續進行下一針。她的表情是工作中的人的表情，不是恐懼，是計算——就像在修補一件複雜的衣物。她無法阻止身體的損耗，但她可以把損耗管理成一個可以繼續完成的工序。
+帝國歷113年7-8月，鏡像破碎之夜（父親背叛+紗夜犧牲）後，操的身體開始崩壞，牙齒鬆動乃至脫落是這個過程的表徵之一。她站在鏡前，用傀儡絲把鬆動的牙縫合回牙齦，妝容完整，嘴角滲血也不擦，繼續進行下一針。她的表情是工作中的人的表情，不是恐懼，是計算——就像在修補一件複雜的衣物。她無法阻止身體的損耗，但她可以把損耗管理成一個可以繼續完成的工序。
 
 **劇情位置**：
-- **時間點**：帝國歷113年 Act II Phase A-B（E-08後，Body Horror Stage 2a初期）
+- **時間點**：帝國歷113年7-8月 Act II Phase C，E-09a起（Body Horror Stage 2a）
 - **CDL追蹤**：CDL-233 Stage 2a；misao.md §Body Horror
-- **前置事件**：操的Body Horror Stage 1結束，開始Stage 2a：牙齒開始鬆動，失去固著
+- **前置事件**：E-09a鏡像破碎之夜（父親背叛判定為廢品交予帝國、紗夜犧牲），操的Body Horror由Stage 1（牙齦滲血）轉入Stage 2a：牙齒開始鬆動、失去固著
 - **本場景功能**：視覺化操面對身體崩壞的核心態度——不是恐懼，是工匠式的自我維護。這是她「形式主義作為自我控制」最純粹的表達：用能力去縫合自己正在失去的東西。
-- **後續payoff**：SPEC#74甜品局掉牙（Stage 2b，縫也縫不住了）；SPEC#1鋼鐵獨舞（最終接受身體崩壞）
+- **後續payoff**：SPEC#74甜品局掉牙（Stage 2a同期，縫也縫不住了）；SPEC#1鋼鐵獨舞（Stage 3，最終接受身體崩壞）
 
 **Reference Images**：
 - 操：`ConceptArt_Misao_MagicalGirl.png`
@@ -4147,18 +4294,22 @@ A girl hiding alone in an abandoned subway station with knees pulled up. A small
 
 ### 劇情背景
 
-帝國歷113年4至5月，Act II Phase A，E-05任務中，美夜子在機構走廊認出了被重組的凜（CDL-215）——那個人，用同一張臉，走在同一條走廊，但她的語義記憶已被全部抹除。美夜子以貓形態擋在走廊裡，爪子向前伸出，不是攻擊，是「你認得我嗎」的本能姿勢。凜掃了她一眼，評估，排除威脅，繼續走，背影筆直，腳步沒有停頓。美夜子的爪子懸在空中，抓空。這個「單向認出」的創傷是她PTSD最集中的視覺化，也是CDL-274月下相認才能真正彌合的傷口——兩者之間的距離就是整條凜×美夜子弧光的跨度。
+`[已修正 2026-07-17]` 原文時間/CDL引用錯誤：CDL-215 實際係「凜三連爆兩個Outline beat設計」（E-III-01/02，Unit 00-Null 揭露，Act III），同凜/美夜子重逢完全無關（張冠李戴，全文件已知累計最高頻誤用編號之一）；E-05（偽王道二戰）內容亦同凜無關。
+
+依 `ACT_II_OUTLINE.md` 行572-573 及 `rin.md` 行144，凜重組後同美夜子隊伍嘅接觸實際分兩層：**第一次**（Act I，普通交戰，「未有相認跡象」——雙方均無反應，非本場景描繪嘅「單向認出」）；**第二次**（Act II Phase D，E-11 愛莉潛意識風暴期間，「中段踏腳石」）——凜以管理局人員身份近距離接觸美夜子，觸發一次**無意識生理反應**（手指無意識收緊/見冰藍色心跳短暫停頓），冇對白冇自覺認知，純粹身體記憶碎片。至於「美夜子見到紅線、『喀嚓』記憶回潮、PTSD全面爆發」呢個完整揭露場景，`rin.md` 本身標為「第二幕」，但 `ACT_III_OUTLINE.md` E-III-H1（CDL-215 E-III-01）將「觀眾知道凜已死並被重組」明確安排喺 **Act III Phase H（114年4月）**——rin.md 同 ACT_III_OUTLINE.md 對呢件事嘅 Act 歸屬有直接矛盾，已入 QUESTION_QUEUE（QQ-170），唔可以自行判斷邊個先啱。
+
+本場景原文「凜評估、排除威脅、繼續走，毫無反應」呢個設計，同任何一個版本嘅canon都唔夾——canon 三個版本（Act I 首次交戰、E-11踏腳石、rin.md紅線觸發）全部都有凜嘅身體無意識反應（手指收緊/短暫失神），冇一個版本係「凜完全冇反應、乾脆利落走過」。
 
 ### 圖片說明
 
-帝國歷113年，美夜子以貓形態在機構走廊裡認出了被帝國改造成情緒管理局公務員的凜——同一張臉，同一條走廊，但她的記憶已被全部抹除。美夜子的爪子往前伸出，不是攻擊，是「你認得我嗎」的本能姿勢。凜掃了她一眼，評估，排除威脅，繼續走，背影筆直，腳步沒有停頓。美夜子的爪子懸在空中，什麼都沒抓到，看著凜的背影縮小消失在走廊盡頭。
+`[NEEDS_FACT：具體beat歸屬待QQ-170解決，暫按E-11「中段踏腳石」處理，場景細節按此收斂]` 帝國歷113年，美夜子以貓形態在機構走廊裡近距離接觸被帝國改造成情緒管理局公務員的凜——同一張臉，但記憶已被全部抹除。美夜子的爪子往前伸出，不是攻擊，是「你認得我嗎」的本能姿勢。凜的語義記憶對此毫無反應，但她的手指在美夜子擦身而過的瞬間無意識地微微收緊——她自己都察覺不到，這是身體比大腦更早「知道」某件事的痕跡。她繼續走，背影筆直，腳步沒有停頓，只有那個瞬間的手指洩露了一切。美夜子的爪子懸在空中，什麼都沒抓到，看著凜的背影縮小消失在走廊盡頭。
 
 **劇情位置**：
-- **時間點**：帝國歷113年4-5月 Act II Phase A，E-05
-- **CDL追蹤**：CDL-215；rin.md §被重組；miyako.md §凜之死PTSD
-- **前置事件**：E-05美夜子在任務中認出重組後的凜（SPEC#24是凜的視角，本場景是美夜子的視角）
-- **本場景功能**：以美夜子的視角展示「她認出了她，但她不認識我」的單向創傷。凜的無反應不是冷漠，是字面意義上的「空白」——她沒有可以觸發的記憶。這一幕是美夜子PTSD最集中的視覺化。
-- **後續payoff**：美夜子PTSD最大化的觸發場景；CDL-274月下相認才能彌合的傷口
+- **時間點**：帝國歷113年9-10月 Act II Phase D，E-11「中段踏腳石」附近（`[NEEDS_FACT]`：確切beat歸屬待QQ-170——rin.md標「第二幕」/ACT_III_OUTLINE.md標Act III Phase H，兩者矛盾未解決）
+- **CDL追蹤**：`ACT_II_OUTLINE.md` 行572-573（凜嘅無意識反應Plant）；rin.md §被重組、§中段踏腳石；miyako.md §凜之死PTSD（CDL-215 已移除，實際屬 Act III Unit 00-Null 揭露，與本場景無關）
+- **前置事件**：凜108年重組為情緒管理局公務員；此為凜同美夜子隊伍第二次近距離接觸（第一次為Act I普通交戰，未有相認跡象）
+- **本場景功能**：以美夜子的視角展示「她認出了她，但她不認識我」的單向創傷。凜並非完全無反應——她有一絲自己都無法解讀的無意識生理反應（手指收緊），但沒有語義層面嘅認知。這一幕是美夜子PTSD弧光其中一個關鍵鋪墊點。
+- **後續payoff**：美夜子PTSD弧光鋪墊；`rin.md`「紅線觸發」完整PTSD爆發場景（beat歸屬待QQ-170）；CDL-274月下相認才能彌合的傷口
 
 **Reference Images**：
 - 凜（情緒管理局制服）：`ConceptArt_Rin_TheAdministrationBureau.png`
@@ -4173,7 +4324,7 @@ A girl hiding alone in an abandoned subway station with knees pulled up. A small
 
 美夜子（貓形態，白色毛，冰藍眼睛）從側面的角落走出來，擋在走廊裡。她的爪子向前伸出——這個姿勢是什麼？不是攻擊，不是阻攔，更像是「我在這裡，你認得我嗎」。她的貓毛在肩線處微微豎起，不是威脅的豎毛，是身體自己反應了某個東西，她控制不了。
 
-凜看了她一眼。一眼，評估，排除威脅，繼續走。繞過美夜子，繼續前進。背影筆直，腳步沒有停頓。
+凜的視線幾乎沒有落在她身上——語義層面完全沒有反應。但繞過美夜子的瞬間，她的手指有一絲極輕微的收緊，一閃即逝，連她自己都不會意識到。繼續前進。背影筆直，腳步沒有停頓。
 
 美夜子的爪子懸在空中，什麼都沒抓到。她沒有追，沒有叫，她只是停在那裡，爪子還停在空中，看著凜的背影縮小消失在走廊盡頭。
 
@@ -4201,61 +4352,61 @@ A white cat in a hallway extends its paw toward a girl in a dark uniform who wal
 
 ---
 
-## 圖94：「晴香感應到『彩不在』」（Haruka Senses "Aya Isn't Here"）[ACT_II]
+## 圖94：「彩『卡頓』——黑奏系統困惑（第二次）」（Aya's "Glitch": Kurokane's System Confusion, Second Occurrence）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_AyaAbsenceSense.png`
+**建議輸出文件名**：`ConceptArt_Scene_Aya_SystemGlitch_Second.png`（原檔名 `ConceptArt_Scene_Haruka_AyaAbsenceSense.png` 棄用）
 
 ### 劇情背景
 
-帝國歷113年5至6月，Act II Phase B，E-08期間，黑奏仍以「彩」的身份與晴香維持日常互動（CDL-079）。在某次咖啡廳的日常對話中，晴香的手在伸向茶杯的途中突然靜止了0.5秒——不是劇烈的停頓，是直覺閃現：「彩的微笑完美到有些不對」。她的手繼續移動，把杯子放下，繼續說話，以為是錯覺。這個0.5秒的靜止是晴香整個故事中最接近真相的瞬間，也是她在Act III揭露後會回想的那一刻——「原來我那時就知道了，只是我沒讓自己知道」。畫面邊緣的輕微扭曲暗示感知短路，但它太細微，以至於讀者和晴香都無法確認。
+`[已修正 2026-07-17，核心機制倒轉]` 原文核心概念錯誤：CDL-079 實際係「黑奏 Act I 潛伏三大物理需求」（充電線/挖礦/節點校準），係 Act I 潛伏理由的統稱，唔係任何具體「0.5秒異狀」場景嘅依據。而原文描繪嘅「晴香手凍住、感應到彩不對勁」，同canon已確立嘅 **P-C06「彩卡頓」plant（CDL-207）** 機制完全相反——canon 版本係**黑奏（控制彩身體嗰個系統）自己短暫困惑/當機**，因為佢嘅「魔法波動讀取值/情感響應值」計算唔到晴香非交易性嘅真誠溫暖，唔係晴香察覺到彩有問題。「彩」眼神0.5秒紫色閃爍+身體輕微僵直，觀眾初讀＝神經質習慣，回頭睇先明白係黑奏系統困惑。
+
+P-C06 在 Act II 出現兩次：第一次（E-05[NC]，已由 SPEC#7 Fallen Angel街道覆蓋，晴香幫彩縫熊公仔線/記住彩喜歡的口味）；**第二次（E-08[NC]，即本場景）**——「恐怖家家酒」14天高壓期間，晴香在惶惶不安中做了某個微小溫暖動作，彩「卡頓」再次出現，且維持時間更長（黑奏困惑程度加深）。本場景核心已改寫為第二次卡頓，時間框架（Act II Phase B，E-08）不變。
 
 ### 圖片說明
 
-帝國歷113年，在一次日常的咖啡廳對話中，晴香手持茶杯的動作在空中靜止了零點五秒——彩的微笑完美得有點不對。她的手繼續移動，把杯子放下，繼續說話，以為是錯覺。那個零點五秒的靜止是她整個故事中最接近真相的瞬間，也是後來揭露之後她會回想的那一刻：原來那時候她就知道了，只是她沒讓自己知道。
+帝國歷113年，「恐怖家家酒」高壓期間，晴香在惶惶不安中仍下意識做了一個微小的溫暖動作（例如記住彩喜歡的口味、幫她做一件小事）。「彩」的眼神有0.5秒的紫色閃爍，身體輕微僵直，維持的時間比第一次更長。晴香完全沒有察覺，以為只是彩的神經質小習慣，繼續說話。這個瞬間不是晴香的直覺，而是黑奏這套系統第一次真正計算不出「非交易性的愛」——它讀不到魔法波動，也讀不到任何可量化的情感回報。
 
 **劇情位置**：
-- **時間點**：帝國歷113年5-6月 Act II Phase B，E-08期間（某次SPEC#11茶會或日常互動）
-- **CDL追蹤**：CDL-079；SPEC#11茶會場景時
-- **前置事件**：晴香和「彩」（黑奏偽裝）在進行某個日常互動，表面完全正常
-- **本場景功能**：捕捉晴香最接近真相的瞬間——一個0.5秒的直覺閃現，隨即被理性壓下。這個瞬間的視覺化必須是模糊的、不確定的，因為晴香自己也不確定。「彩」的微笑完美到不正常，但只有我們（讀者）知道。
-- **後續payoff**：Act III揭露「她一直就是這樣看我」時，晴香會回想這一幕；這是她最接近真相的時刻
+- **時間點**：帝國歷113年5-6月 Act II Phase B，E-08「恐怖家家酒」高壓期間 [NC]
+- **CDL追蹤**：CDL-207（P-C06 彩卡頓第二次）
+- **前置事件**：SPEC#7（Fallen Angel街道）已覆蓋P-C06第一次卡頓；本場景為同一機制的第二次出現，發生於E-08高壓期
+- **本場景功能**：黑奏系統困惑的第二次、加深版本——不是晴香的直覺閃現，而是黑奏（操控彩身體嘅系統）自己短暫當機。觀眾初讀＝彩的神經質小習慣，回頭看＝黑奏「算了最多卻在最關鍵的地方算錯」的伏筆。
+- **後續payoff**：黑奏「情緒農場」意識形態最終在關鍵處失算的伏筆（CDL-185 死穴B）；SPEC#8彩奪回身體的最遙遠情感前置
 
 **Reference Images**：
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
-- 彩（便服）：`ConceptArt_Aya_CasualWear.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 彩（黑奏操控，被控制形態）：`ConceptArt_Aya_MagicalGirl_1.png`（日常便服場景亦可用 `ConceptArt_Aya_CasualWear.png`，唯眼睛紫色閃爍為本場景關鍵細節，需另行標註）
 
 **詳細核心描述**（200-350字）：
 
 
-咖啡廳或某個日常場所的室內座位。下午光線，暖色系，普通而溫柔——這個場景的恐怖正在於它的普通。
+室內日常場所，下午光線，暖色系，普通而溫柔——「恐怖家家酒」高壓期中一個罕有的鬆弛片刻。
 
-對話進行中。「彩」在對面，姿態輕鬆，微笑，正在說或正在聽什麼。她的微笑是完美的，角度正確，眼角有輕微弧度。如果你只看她，你會說她很正常。
+晴香在說話或做著什麼，即使自己也處於長期恐懼壓抑之中，仍下意識做了一個微小的溫暖動作——記住「彩」喜歡的口味、幫她處理一件小事。這個動作完全出於本能，晴香自己甚至不會意識到這是「善意」，只是她一直以來待人的方式。
 
-晴香正在說話，手拿著茶杯，動作在半空中——凍住了。不是劇烈的停頓，是0.5秒的靜止。她的手杯停在嘴巴和桌面之間的某個位置，手指輕微鬆弛。她的眼睛稍微失焦，不是看著「彩」，而是看著「彩」和「彩」後面的某個位置之間。
+「彩」的反應是這張圖的核心：眼神有0.5秒的紫色閃爍，身體輕微僵直——這不是彩的情緒反應，是黑奏這套系統短暫的「當機」。它讀不到魔法波動，讀不到任何可量化的情感回報，只讀到一個無法計算的變數。這次維持的時間比第一次更長，困惑程度更深。
 
-這個瞬間非常小，小到「彩」沒有注意到，或者說，「彩」注意到了但沒有反應，因為她不需要反應。
+晴香完全沒有察覺這個異狀，她的視線甚至沒有落在「彩」臉上，繼續說著自己的話。這個瞬間小到只有觀眾看得見。
 
-然後晴香的手繼續移動，把杯子放下，繼續說話。以為是錯覺。
-
-構圖核心：採用主觀視角或半主觀視角——畫面呈現晴香的手（前景，略虛焦）凍住，「彩」在中景對面，微笑。重點在景深的拉伸：晴香的手在前景是靜止的異常，「彩」的微笑在中景是完美的假象。可加入非常輕微的畫面扭曲或邊緣虛焦，暗示感知短路。
+構圖核心：晴香在前景或中景，專注於自己的動作/話語，沒有看向彩；「彩」在另一側，眼神有輕微的紫色光閃，身體有一絲不自然的僵硬，這個細節必須克制、幾乎不可見，觀眾初讀應完全看不出異樣。
 
 
 **生成提示（Midjourney）**：
 ```
 Style: dark magical girl illustration, intimate scene, subtle psychological horror
-Mood: uncanny valley of friendship, half-second gap in perception, the truth that almost surfaces
-Colors: warm afternoon cafe tones, golden light, but slightly desaturated at edges, subtle wrongness in color temperature near the smiling girl
-Composition: semi-subjective POV, girl's hand holding teacup frozen mid-motion in foreground slightly blurred, smiling girl in midground looking natural, depth of field creates unease
-Lighting: soft warm window light, pleasant, makes the wrongness harder to name
-Special effects: very subtle edge distortion or focal aberration around the smiling figure, imperceptible unless looked for
-Character: foreground hand frozen mid-lift with teacup; across table a girl with blue ponytail smiling perfectly, eyes slightly too still
+Mood: a system quietly failing to compute unconditional warmth, wrongness the audience alone perceives
+Colors: warm interior daylight tones, but a faint violet flicker in one girl's eyes breaks the palette for a fraction of a second
+Composition: girl in foreground/midground absorbed in a small warm gesture, unaware; second girl beside her with a barely perceptible violet eye-flicker and slight bodily stiffness
+Lighting: soft warm ambient light, pleasant, makes the wrongness harder to name
+Special effects: extremely subtle violet flicker in one eye, barely visible, almost imperceptible unless looked for; faint stiffness in posture
+Character: foreground girl absorbed in a small kind gesture, unaware; beside her a girl with a perfect practiced smile, eyes catching a brief violet glint, shoulders very slightly tense
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Two girls having tea in a cafe. One girl's hand freezes mid-motion holding a teacup, her eyes slightly unfocused. The other girl smiles perfectly across the table. Warm lighting with subtle unease. Anime style.
+Two girls in a warm-lit room. One is absorbed in a small kind gesture. The other, beside her, has a barely visible violet flicker in her eyes and a faint stiffness in her posture, unnoticed by the first girl. Quiet uncanny wrongness. Anime style.
 --ar 16:9 --niji 6
 ```
 
@@ -4267,15 +4418,17 @@ Two girls having tea in a cafe. One girl's hand freezes mid-motion holding a tea
 
 ### 劇情背景
 
-帝國歷113年7月，Act II Phase C，E-09直播失控事件，SPEC#21光幕破碎的前一幀。E-08「恐怖家家酒」高壓積累至極限，晴香在帝國授權的公開戰鬥直播中精神邊界崩潰，「夕」在這0.5秒接管了她的身體（CDL-180）。夕接管的第一個動作不是對準屍骸，而是把晴香的半屍骸化左掌轉向封鎖線外的圍觀市民，強行抽取他們的情緒能量。這個0.5秒的接管瞬間建立了「夕」的視覺語言（雙重曝光眼睛：右眼仍是天使的光，左眼已開始黑化），也是直播後光幕濾鏡破碎、晴香「社會性死亡」的直接觸發點。
+`[已修正 2026-07-17，CDL誤引]` 原文引用「CDL-180」實際係「維多利亞之淚特寫鏡頭設計（Beat 0b神聖幻象+E-04後遠景工業現形）」，同本場景完全無關（張冠李戴）；正確依據為 `ACT_II_OUTLINE.md` Beat E-09（CDL-203；CDL-259）。
+
+帝國歷113年7月中旬，Act II Phase C，Beat E-09「飢餓的天使」直播失控事件，SPEC#21光幕破碎的前一幀。前置危機：E-08末期夕在失控中刻意讓晴香遭屍骸爪擊，晴香進入「半屍骸化」狀態，對正面情緒產生近乎成癮的飢渴（CDL-259）。E-09主體：直播進行中，「夕」突然接管晴香的身體，晴香因半屍骸身份的飢渴而失控，開始吸食舞台周圍圍觀者（粉絲+一般民眾）的正面情緒（崇拜/恐懼/期待的反向吸取）；夕在失控瞬間物理撕破/摧毀保護直播畫面的「光幕濾鏡」裝置，圍觀者看到無濾鏡版本的失控場景——晴香左手化為黑色爪子、眼睛發出屍骸死寂光芒。這個瞬間建立了「夕」接管時的視覺語言（雙重曝光眼睛：右眼仍是天使的光，左眼已開始黑化），也是直播後光幕濾鏡破碎、晴香「社會性死亡」（帝國藉此推動反魔法少女法案，CDL-203）的直接觸發點。
 
 ### 圖片說明
 
 帝國歷113年，晴香在帝國授權的公開戰鬥直播中精神邊界崩潰，另一個人格在這零點五秒接管了她的身體。她的左手——已開始黑化的那隻手——轉向封鎖線外的圍觀市民，強行抽取他們的情緒能量，受害者感到突然的空洞與無故悲傷。她的右眼仍帶著原本的光，左眼已開始黑化，兩種狀態同時存在，不是切換，是閃爍。接管的那個人格的表情：飢餓，冷靜，沒有任何掩飾。
 
 **劇情位置**：
-- **時間點**：帝國歷113年7月 Act II Phase C，E-09（直播失控事件，SPEC#21前一秒）
-- **CDL追蹤**：E-09；CDL-180；夕接管瞬間
+- **時間點**：帝國歷113年7月中旬 Act II Phase C，E-09（直播失控事件，SPEC#21前一秒）
+- **CDL追蹤**：CDL-203；CDL-259；`ACT_II_OUTLINE.md` Beat E-09（原引用「CDL-180」為誤植，已修正——CDL-180實屬維多利亞之淚鏡頭設計，與本場景無關）
 - **前置事件**：E-08恐怖家家酒高壓，晴香在直播戰鬥，精神邊界臨界
 - **本場景功能**：視覺化「夕」接管的0.5秒——這是SPEC#21「光幕破碎」的前一幀，比破碎更原始的那一刻。「維多利亞天使」身份和半屍骸狀態之間的重疊閃爍，是整個Act II最危險的視覺時刻。
 - **後續payoff**：直接接入SPEC#21光幕濾鏡破碎；夕接管的視覺語言建立，為後續出現奠定識別基礎
@@ -4324,54 +4477,52 @@ A magical girl in a city plaza during a battle, one hand extended toward the wat
 
 ### 劇情背景
 
-帝國歷113年，Act II Phase B，E-08前後，黑奏長期以「彩」的身份與晴香維持「友誼」，這是她情緒農場計劃的核心環節（CDL-079/CDL-211）。在這個場景，7歲外表的黑奏坐在咖啡廳窗邊，透過玻璃觀察在街道上的晴香——她的眼神不是惡意，而是農場主評估一株快成熟作物的冷靜計算。晴香在玻璃折射中輕微疊在她的影像上，讓「友誼的主觀體驗」和「農場的客觀評估」同時可見。這個場景視覺化了整段「友誼」的本質，也是SPEC#11玻璃庭院茶會深層含義的視覺鋪墊。
+`[已修正 2026-07-17，場景設定/氣氛錯誤]` 原文將本場景設定為咖啡廳窗邊的平靜日常觀察，但依 `ACT_II_OUTLINE.md` E-08「黑奏農場觀察視角（CDL-211）」原文：「當晴香陷入極度痛苦/自我懷疑的高壓時刻，給一個彩（黑奏）在暗處冷靜觀察的特寫」——正確語境是 Act II Phase B「恐怖家家酒」14天高壓事件期間，黑奏在**晴香最痛苦的高壓時刻**於暗處觀察，不是咖啡廳裡的閒適日常。CDL-079（黑奏Act I潛伏三大物理需求）與本場景無直接對應，正確CDL僅為CDL-211。
+
+帝國歷113年5-6月，Act II Phase B，Beat E-08「恐怖家家酒」14天高壓事件期間，黑奏長期以「彩」的身份潛伏在晴香身邊，這是她情緒農場計劃的核心環節。在這個場景，當晴香陷入極度痛苦與自我懷疑的高壓時刻，「彩」（黑奏）在暗處給出一個冷靜觀察的特寫——她的眼神零同情，只有「評估與計算」，彷彿在看一個即將蓄滿電的電池。這個場景視覺化了整段「友誼」的本質：觀眾初讀＝冷血反派，回頭看＝黑奏的「農場視角」恰恰因為只能計算魔法數值、讀不到「凡人真暖」，所以算了最多、在最關鍵的地方算錯了。
 
 ### 圖片說明
 
-帝國歷113年，黑奏以七歲外表的彩的形象坐在咖啡廳窗邊，透過玻璃觀察街道上的晴香。她的眼神不是惡意，而是農場主評估一株快成熟作物的冷靜計算。玻璃把前景的她和背景的晴香放在同一個平面，讓「友誼的主觀體驗」和「農場的客觀評估」同時可見。她的微笑完美，但眼睛裡的溫度是另一種東西。
+帝國歷113年，「恐怖家家酒」高壓期間，晴香正陷入極度痛苦與自我懷疑的時刻。「彩」（黑奏操控）躲在暗處的陰影裡，隔著一段距離冷靜地觀察她——不是關心，是農場主評估一株快成熟作物的計算。她的眼神零同情，沒有絲毫波動，彷彿在看一個即將蓄滿電的電池。這個視角本身就是揭穿——如果觀眾此刻能看清這雙眼睛，就會知道這段「友誼」從一開始就是精密的計算。
 
 **劇情位置**：
-- **時間點**：帝國歷113年 Act II Phase B，E-08前後
-- **CDL追蹤**：CDL-211；CDL-079
-- **前置事件**：黑奏長期以「彩」身份與晴香建立「友誼」，這是她長期農場計畫的一部分
-- **本場景功能**：視覺化黑奏「情緒農場」意識形態——不是惡意，是冷靜的商業評估。「彩」的微笑和農場主看作物的視線之間的重疊，讓觀眾理解整段「友誼」的本質。
-- **後續payoff**：揭示黑奏「情緒農場」意識形態的視覺化；SPEC#11玻璃庭院茶會的深層含義
+- **時間點**：帝國歷113年5-6月 Act II Phase B，Beat E-08「恐怖家家酒」14天高壓事件期間
+- **CDL追蹤**：CDL-211（原引用CDL-079為誤植，已修正——CDL-079屬Act I潛伏三大需求總論，非本場景直接依據）
+- **前置事件**：帝國策劃校園強制恐懼事件，晴香陷入14天高壓；黑奏長期以「彩」身份潛伏在她身邊
+- **本場景功能**：視覺化黑奏「情緒農場」意識形態——在晴香最痛苦的時刻給出一個冷血計算的特寫。「彩」的微笑面具與暗處觀察者的冷靜評估形成對照，讓觀眾理解整段「友誼」的本質。
+- **後續payoff**：黑奏「算了最多卻在最關鍵一步算錯」的諷刺前置（CDL-185死穴B）；SPEC#11玻璃庭院茶會的深層含義
 
 **Reference Images**：
-- 黑奏：`ConceptArt_Kurosou_CasualWear.png`
+- 黑奏（彩的偽裝形態）：`ConceptArt_Aya_MagicalGirl_1.png`
 
 **詳細核心描述**（200-350字）：
 
 
-咖啡廳。前景和背景之間有一塊清晰的玻璃——咖啡廳的落地窗。
+校園高壓事件現場，或其邊緣的陰影處。晴香在畫面某處正經歷極度痛苦與自我懷疑——具體事件按E-08「恐怖家家酒」的壓抑氛圍處理，不需完整呈現她的臉，重點在觀察者這一側。
 
-前景（室內）：「彩」（黑奏以7歲外表偽裝的形態，148cm，深色頭髮，稚嫩臉孔）坐在窗邊的位置，面向觀眾，或者說，面向窗外。她的表情是完美的平和微笑，眼角輕微上揚，像一個孩子在看天空。她手邊有杯飲料，姿態輕鬆。
+「彩」（黑奏操控，148cm，深色頭髮，稚嫩臉孔）站在或蹲在暗處，被陰影半掩，觀察著晴香的方向。她的表情不是同情，也不是興奮，是一種完全脫離情境的、冷靜到近乎機械的評估神情——如果放大細看，那雙眼睛裡沒有任何波動，只有計算。
 
-背景（透過玻璃，室外）：晴香在街道上，沒有注意到咖啡廳，也沒有注意到自己正在被看。她可能在走路，可能在看手機，是普通的街上路人狀態。
+這張圖的關鍵不是表情的「惡意」，而是「評估距離的合理性」——一個農場主看一顆快成熟的蔬菜，不帶恨意，就是計算。這個計算視角同晴香當下承受嘅巨大痛苦形成最尖銳的反差。
 
-玻璃把前景和背景分成兩個世界。「彩」的反射輕微疊在晴香身上，或者說，玻璃讓她們的影像輕微重疊，形成一個奇特的雙重曝光：「彩」的臉和晴香的身影，在玻璃的折射下被放在同一個平面。
-
-這張圖的關鍵不是表情的「惡意」，而是「評估距離的合理性」——一個農場主看一顆快成熟的蔬菜，不帶恨意，就是計算。「彩」的眼神不是殺氣，是一種安靜的、超出年齡的評估冷靜。
-
-構圖核心：前景「彩」的臉大且清晰，背景晴香在玻璃後略為虛焦，玻璃反射製造輕微重疊，兩者同時可見但層次分明。
+構圖核心：暗處的「彩」佔畫面前景或中景，被陰影切割，只有部分臉/眼睛清晰可見；晴香在遠景/背景中處於痛苦狀態，構圖刻意製造「被監視」的窺視感，而非平視的日常對話構圖。
 
 
 **生成提示（Midjourney）**：
 ```
-Style: dark magical girl illustration, glass reflection composition, quiet menace
-Mood: cold assessment disguised as warmth, the farmer watching the harvest, distance as power
-Colors: warm cafe interior amber against cool street exterior blue-gray, glass creating temperature separation, girl's smile warm but eyes temperature-neutral
-Composition: cafe window scene, foreground small girl with child-like appearance smiling facing viewer at window, background through glass teenage girl on street unaware, glass reflection creates slight overlay of both
-Lighting: warm interior cafe light on foreground, cool overcast daylight on background figure, glass creates visual separation
-Special effects: glass reflection lightly overlapping foreground girl's face with background figure, creates double-exposure effect
-Character: foreground child-bodied girl with adult stillness in eyes, composed smile, hands around drink; background figure unaware teenage girl on street
+Style: dark magical girl illustration, shadow observation composition, quiet menace
+Mood: cold assessment disguised as friendship, the farmer watching the harvest at its most painful moment, predation without malice
+Colors: desaturated oppressive school-event palette in background, observer half-swallowed by deep shadow, only eyes catching a sliver of light
+Composition: shadowed child-bodied girl in foreground/midground partially obscured by shadow, watching off-frame toward a distant suffering figure, voyeuristic distance emphasized
+Lighting: harsh directional light on the distant suffering figure, observer remains mostly unlit except a thin rim catching her eyes
+Special effects: none needed, the stillness itself is the horror
+Character: foreground child-bodied girl half in shadow, expression flat and calculating, eyes catching a cold sliver of light; background figure in visible distress, out of focus
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A small girl with child appearance sits at a cafe window smiling calmly toward the glass. Through the window behind her a teenage girl walks on the street unaware. Glass reflection overlaps them slightly. Warm interior, cool exterior. Dark anime style.
+A small child-like girl half-hidden in shadow watches a distant suffering figure with a flat, calculating expression, eyes catching a cold sliver of light. Voyeuristic distance, oppressive atmosphere. Dark anime style.
 --ar 16:9 --niji 6
 ```
 
@@ -4383,35 +4534,39 @@ A small girl with child appearance sits at a cafe window smiling calmly toward t
 
 ### 劇情背景
 
-帝國歷113至114年，Act II Phase B，[NC] 日常段落。夕的存在仍未向晴香揭露，但SPEC#30「違和感」事件後（鏡中倒影慢0.3秒），晴香已開始積累無法命名的不安。某天她拿著與「彩」的合照，在玻璃相框的反射層中，突然看見「彩」所在的位置出現了一道藍色馬尾的殘影——夕的頭髮顏色，半透明，邊緣不清晰，像長時間曝光的殘像。晴香湊近，角度改變，殘影消失了，相框重新透明，照片只是照片。這是夕存在感在物理世界的第一次洩漏，連接SPEC#2整合場景（那道殘影最終被面對的時刻）。
+`[已修正 2026-07-17]` 依 `ACT_II_OUTLINE.md` [NC] Phase A/B之間「相簿創建」（CDL-283，113年5月，美夜子失蹤救援後）及 E-08[NC]「鏡像相簿首次異變」段落，時間應收緊為 **113年5-6月，Act II Phase B，E-08附近**（原文「113至114年」過於寬泛）；正確CDL為CDL-283，非籠統嘅「08_narrative_design」引用。相簿本身首頁是「三人或四人的日常照」（美夜子進入晴香生活後的記錄），非單純「晴香和彩」的兩人合照。
+
+**核心細節修正**：canon原文明確——異變出現喺「**美夜子手臂旁**多了一隻手、或者一條模糊的藍色馬尾影子」，即異象疊在**美夜子**身上/身旁，唔係疊在「彩」所在的位置。P-C10被定性為「Alpha線殘影系統的靜默前置」同「Red Herring機制」，呢一刻邊個人物先係真正嘅殘影來源，canon刻意唔畀出答案（Red Herring設計本意）——原文將殘影直接定性為「夕」、直接疊在「彩」身上，屬於提早自行解答咗一個canon刻意留白嘅謎題，屬 `[INFERRED]` 過度具體化，已收斂為保留謎題本身。
 
 ### 圖片說明
 
-帝國歷113至114年，晴香拿著和彩的合照，玻璃相框的反射層中突然出現了一道藍色馬尾的殘影——晴香體內另一個人格的頭髮顏色，半透明，邊緣不清晰，疊在照片中彩所在的位置。她湊近，角度一變，殘影消失，玻璃重新透明，照片只是照片。她不確定她看見了什麼，但她確實看見了什麼。這個零點五秒的「幾乎看見」比完整的看見更令人不安。
+帝國歷113年5-6月，晴香翻閱剛開始整理的實體相簿（同期IG更新是公開表演性記憶，相簿是私人真實生活記錄），相簿放在書桌玻璃台面上。某一頁的合照裡有美夜子在場，晴香無意中在玻璃反射面看到相片有異——美夜子手臂旁多了一隻模糊的手，或者一條若隱若現的藍色馬尾影子。她湊近，角度一變，異象消失，玻璃重新透明，照片只是照片。她以為是光線問題或眼花，沒有多想——這個異象在此刻完全未被任何角色識別，真正原因（鏡面反射觸發Alpha線殘影）仍是觀眾不具備解讀工具的Red Herring。
 
 **劇情位置**：
-- **時間點**：帝國歷113-114年 Act II Phase B，[NC] 段落
-- **CDL追蹤**：08_narrative_design §P-C10鏡像相簿- **前置事件**：SPEC#30違和感（鏡中倒影慢0.3秒）；夕的存在仍未揭露，晴香不知道她的多重身份
-- **本場景功能**：夕的存在感第一次物理顯現。合照中出現的殘影引入了「誰才是彩」的視覺謎題，同時暗示玻璃、鏡面、反射作為這個故事的核心意象系統。
-- **後續payoff**：夕存在感的第一次物理顯現；SPEC#2整合場景（殘影最終被面對）
+- **時間點**：帝國歷113年5-6月 Act II Phase B，E-08[NC]附近（原文「113-114年」已收緊）
+- **CDL追蹤**：CDL-283（P-C10鏡像相簿；原引用「08_narrative_design」為籠統誤植，已修正）
+- **前置事件**：113年5月，美夜子失蹤獲救後，晴香開始整理實體相簿（Stage 1 Plant）；此為相簿建立後的首次異變（Stage 2）
+- **本場景功能**：Alpha線殘影系統的靜默前置，Red Herring機制正式啟動——異象具體身份（是否為夕、是否為其他Alpha線人物）此刻刻意不予確認，任何角色都無法識別，觀眾亦無解讀工具。
+- **後續payoff**：鏡像相簿機制完整payoff（Act III）；音樂盒墜Alpha/Beta線物理矛盾證據平行架構
 
 **Reference Images**：
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`（相片中人物，非本場景主體）
 
 **詳細核心描述**（200-350字）：
 
 
-室內，可以是臥室或普通房間。晴香手持一張合照，照片是她和「彩」的，普通的紀念合照，背景可能是某次外出場景。
+室內，晴香的房間或書桌前。晴香翻閱一本剛開始整理的實體相簿，某一頁是隊伍的日常合照，美夜子在照片中清晰可見。
 
-相框是玻璃覆蓋的（或者是放在玻璃台面上的相片）。晴香低頭看照片，角度讓玻璃產生反射。
+相簿放在書桌玻璃台面上，或相框本身有玻璃覆蓋。晴香低頭看照片，角度讓玻璃產生反射。
 
-在玻璃反射層裡，在照片中「彩」所在的位置，出現了一道藍色馬尾的殘影——是夕的頭髮顏色，帶輕微半透明感，邊緣不清晰，像是被遮住的光源透過來，或是長時間曝光留下的殘像。這個殘影不替換「彩」，而是疊在她的上方，就像透過水看一個倒影。
+在玻璃反射層裡，在照片中美夜子所在的位置附近，出現了一道模糊的異象——一隻多出來的手，或一條若隱若現的藍色馬尾影子，帶輕微半透明感，邊緣不清晰，像是長時間曝光留下的殘像。這個異象疊在美夜子的旁邊，不是替換她，也不清楚是誰的殘影。
 
-晴香湊近玻璃，角度改變，反射的條件改變——殘影消失了。玻璃重新透明，照片只是照片。
+晴香湊近玻璃，角度改變，反射的條件改變——異象消失了。玻璃重新透明，照片只是照片。
 
-畫面中最重要的是晴香的眼神：她不確定她看到了什麼，但她確實看到了什麼。這個0.5秒的「幾乎看見」比完整的看見更令人不安，因為它讓她（和讀者）都無法確認。
+畫面中最重要的是晴香的眼神：她不確定她看到了什麼，甚至沒有多想，以為是眼花或光線問題。這個0.5秒的「幾乎看見」比完整的看見更令人不安，因為它連晴香自己都沒有意識到有異樣，異象的真正身份此刻對觀眾也是謎。
 
-構圖核心：俯拍或中近景，晴香的手持著相框，玻璃的反射帶有藍色殘影，但角度很微妙，就像光線錯覺，隨時可能消失。照片正面清晰可見，反射殘影在玻璃層上是半透明的干擾。
+構圖核心：俯拍或中近景，晴香的手持著相框，照片中可見美夜子在內的合照，玻璃的反射帶有模糊的異象（手或馬尾影子），角度微妙，像光線錯覺，隨時可能消失。
 
 
 **生成提示（Midjourney）**：
@@ -4441,17 +4596,20 @@ Close shot of hands holding a framed photo of two girls. In the glass reflection
 
 ### 劇情背景
 
-帝國歷113年，Act II Phase A，E-05a後，操剛被迫加入主角團，內心視之為被降格的恥辱。在某次任務後的空檔，她靠牆側身，不看人，用一種仍然帶著驕傲尾音的語氣說出了她人生中第一次「我不如我以為的那麼好」——眼眶微紅，但妝容完整，因為她絕對不會在說這種話的時候同時讓自己看起來「不行」。這個場景是操弧光從「形式主義作為全部」向「接受真實自我」的第一個真正轉折，也是後續SPEC#5鏡像處刑室（下一個轉折點）的情感前置——操在形式完美的鏡中看見空洞，這場坦白是她第一次允許那個空洞被另一個人看見一點點。
+`[已修正 2026-07-17]` 原文「E-05a後，操剛被迫加入主角團」有雙重錯誤：(1) E-05a（總部被襲）已於CDL-317正式移除，全文件此前已多次發現殘留引用（圖27/84等）；(2) 依 `ayakomoji_misao.md` CDL-322，操實際係喺 **Act I Beat E-02**（入隊戰混戰中）已經加入隊伍——「晴香擋攻擊+問裙子」係佢入隊嘅衝擊點，唔係 Act II Phase A 先加入。「misao.md §隊伍融入」亦非有效CDL引用格式。本場景若定位為「入隊初期」，時間應改為 **Act I，E-02後**；具體是否有這場「虛榮告白」對話，canon未見逐字記載，屬合理延伸，標 `[NEEDS_FACT]`。
+
+帝國歷113年3-5月，Act I，Beat E-02入隊戰後，操剛以「被降格的恥辱」心態加入主角團。在某次任務後的空檔，她靠牆側身，不看人，用一種仍然帶著驕傲尾音的語氣說出了她人生中第一次「我不如我以為的那麼好」——眼眶微紅，但妝容完整，因為她絕對不會在說這種話的時候同時讓自己看起來「不行」。這個場景是操弧光從「形式主義作為全部」向「接受真實自我」的第一個真正轉折，也是後續SPEC#5操的鏡前獨白（下一個轉折點）的情感前置——操在形式完美的鏡中看見空洞，這場坦白是她第一次允許那個空洞被另一個人看見一點點。
 
 ### 圖片說明
 
 帝國歷113年，操加入主角團初期，在某次任務後的空檔，她靠著牆，側身，不看人，用一種仍然帶著驕傲尾音的語氣說出了她人生中第一次「我不如我以為的那麼好」。眼眶微紅，但妝容完整——她永遠不會在說這種話的時候同時讓自己看起來不行。這份說法的方式仍然帶著她的稜角，但那個稜角已經有了一條細微的裂縫，是她第一次讓人看見一點點真實的自己。
 
 **劇情位置**：
-- **時間點**：帝國歷113年 Act II Phase A，E-05a後（操加入主角團初期）
-- **CDL追蹤**：misao.md §隊伍融入- **前置事件**：操被迫加入主角團（她認為自己是被降格了），在某次任務後的空檔
-- **本場景功能**：操弧光的第一個真正轉折——她第一次說出「我不如我以為的那麼好」，但說出口的方式仍然是操式的：驕傲的、側身的、不看人的。這是放下傲慢但不放棄尊嚴的微妙平衡。
-- **後續payoff**：操弧光從形式主義到真實的第一步；SPEC#5鏡像處刑室（下一個轉折點）
+- **時間點**：帝國歷113年3-5月 Act I，Beat E-02入隊戰後（操加入主角團初期；原文「E-05a後」已修正——E-05a已被CDL-317移除，且操實際於Act I E-02入隊）
+- **CDL追蹤**：CDL-322（入隊戰意外救人/多重解讀）；`ayakomoji_misao.md` §入隊前的獨行俠心理
+- **前置事件**：操被迫加入主角團（她認為自己是被降格了），CDL-322入隊戰意外救人事件後的某個空檔
+- **本場景功能**：操弧光的第一個真正轉折——她第一次說出「我不如我以為的那麼好」，但說出口的方式仍然是操式的：驕傲的、側身的、不看人的。這是放下傲慢但不放棄尊嚴的微妙平衡。具體對話內容 `[NEEDS_FACT]`：canon未見逐字記載此場景，屬合理延伸演繹。
+- **後續payoff**：操弧光從形式主義到真實的第一步；SPEC#5操的鏡前獨白（下一個轉折點）
 
 **Reference Images**：
 - 操（便服）：`ConceptArt_Misao_CasualWear.png`
@@ -4499,56 +4657,55 @@ A teenage girl with dramatic makeup leans sideways against a wall in an abandone
 
 ### 劇情背景
 
-帝國歷113至114年，Act II Phase D，朔在某次夜間任務中遠距確認了美夜子（Unit 01）的真實面貌。此前他知道Unit 01的存在但從未如此近距看清楚她的眼睛——那雙冰藍色的眼睛在黑暗中清晰地反光，朔看見了某個「確認了」的東西。這個識別時刻是不對稱的：他知道她是誰，她沒有注意到他，或不確定他是誰。朔的內部反應非常小但非常確定，他選擇不直接介入，只是繼續觀察——這確立了他在整個故事中作為「見証者而非介入者」的位置，也是他後來決策的情感根源（與CDL-274月下相認相關線）。
+`[已修正 2026-07-17，核心細節錯誤]` 原文以「眼睛」作為識別錨點、以「遠距離」構圖，同canon不符。依 `ACT_II_OUTLINE.md` 行568-571（2026-07-06 co-design）：朔嘅識別依據係**近距離**目擊黑貓（美夜子）打鬥/護人一刻，見到佢**左耳的星形飾物**——同自己一直隨身戴住嘅月亮耳環對應（「星月相隨」約定），呢一刻令佢懷疑由「懷疑」升級到「接近確信」，但**未到100%確認**；真正嘅既視感追認完整Payoff留返114年4月正式發生（Act III）。事件本身發生喺 **E-11 愛莉潛意識風暴**嘅混亂現場（朔為咗貼近黑貓求證而破例現身介入危機處理），唔係一次獨立、平靜嘅遠距離監視任務；美夜子此刻仍為**貓形態**（人形戰鬥形態Unit 01要到Act III先穩定出現），Reference Image需相應修正。
+
+帝國歷113年9-10月，Act II Phase D，E-11愛莉潛意識風暴期間，朔一反常態破例現身直接介入危機處理，藉機貼近黑貓求證自己一直懷疑的事。近距離目擊美夜子（黑貓形態）打鬥/護人一瞬，見到她左耳的星形飾物——同自己一直隨身戴著的月亮耳環對應。這一刻朔的懷疑由「懷疑」升級到「接近確信」，但未到100%確認；真正的既視感追認留待114年4月正式發生。風暴平息後，朔繼續退返暗中觀察模式，不向隊伍表露身份。
 
 ### 圖片說明
 
-夜間戶外，朔藏在陰影或高處，視線越過一段距離落在遠處的美夜子——她以貓形態存在，白色毛皮，冰藍色眼睛在黑暗中清晰反光。畫面分割兩端：一邊是朔的側臉或視線方向，另一邊是遠處那雙在黑暗中發光的冰藍眼睛。他的表情不是震驚，是一個「確認了」的靜止：他認出了那雙眼睛，她不知道他在看，而他選擇繼續待在原地，不介入，只是知道了。
+Act II Phase D，愛莉潛意識風暴的混亂現場，朔破例現身介入危機處理。近距離目擊黑貓（美夜子）打鬥護人的一瞬，他的視線落在她左耳一枚小小的星形飾物上——同自己耳上那枚月亮耳環對應。他的表情不是震驚，是一個「懷疑升級到接近確信」的靜止，但仍未到百分之百確定。風暴平息後，他不動聲色地退回暗處，繼續他一直以來的觀察模式，不向任何人表露身份。
 
 **劇情位置**：
-- **時間點**：帝國歷113-114年 Act II Phase D
-- **CDL追蹤**：saku.md §美夜子- **前置事件**：朔在某次任務中遠距遇到美夜子（Unit 01），此前他知道Unit 01的存在但從未如此近距確認
-- **本場景功能**：朔單方面認出美夜子的瞬間。這是一個不對稱的識別時刻：他知道了她是誰，她不知道他是誰（或不確定）。這確立了朔作為旁觀者/見証者的位置，以及他選擇不直接介入但持續追蹤的動機。
-- **後續payoff**：朔的動機和CDL-274月下相認相關線；朔決定不直接介入但持續觀察的決策根源
+- **時間點**：帝國歷113年9-10月 Act II Phase D，E-11愛莉潛意識風暴期間（原文「Act II Phase D」大方向不變，具體事件已收斂為E-11）
+- **CDL追蹤**：`ACT_II_OUTLINE.md` 行568-571（朔嘅證據Plant：星形耳飾/月亮耳環對應）；`saku.md` §既視感追認——從臉孔辨識到行為辨識（原引用「saku.md §美夜子」格式無效，已修正）
+- **前置事件**：愛莉潛意識風暴爆發，朔以外勤特工身份破例現身直接介入危機處理，藉機貼近黑貓求證
+- **本場景功能**：朔嘅識別Plant——近距離目擊星形耳飾，懷疑升級到接近確信，但非100%確認。這確立了朔作為「見証者」而非「介入者」的位置，也是他114年4月正式既視感追認的鋪墊。
+- **後續payoff**：114年4月正式既視感追認（行為辨識，非外觀辨識）；CDL-274月下相認相關線
 
 **Reference Images**：
 - 朔：`ConceptArt_Saku_CasualWear.png`
-- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+- 美夜子（貓形態）：`ConceptArt_Miyako_Cat.png`（原引用MagicalGirl人形戰鬥形態有誤——此階段美夜子應為貓形態）
 
 **詳細核心描述**（200-350字）：
 
 
-戶外任務場景，夜間或黃昏。某個過渡空間——廢棄廣場、屋頂、橋上，有一定距離感。
+E-11愛莉潛意識風暴的混亂現場——扭曲的後巷唐樓、崩塌的建材、慌亂的人群與屍骸交戰的痕跡。朔難得地破例現身，直接介入危機處理。
 
-美夜子（Unit 01，貓形態，白色毛皮，冰藍眼睛）在執行任務，她的狀態是專注、警戒的工作狀態。她可能在追蹤什麼，或剛完成什麼，靜止在一個位置。
+美夜子（貓形態，白色毛皮，冰藍眼睛）正在打鬥或護人，動作迅捷。她左耳上有一枚不起眼的小小星形飾物，在混亂中隨著動作偶爾閃現。
 
-朔在距離她一段距離的另一個位置——高處，或者側面陰影，他的位置讓他能看見她但她不容易注意到他。他的視線聚焦在美夜子的眼睛上。
+朔貼近她的距離很近——這是他長期以來刻意保持距離之後罕有的例外。他的視線精準地落在那枚星形飾物上，不是她的臉，不是她的眼睛，而是那個具體的、對應著他自己耳上月亮耳環的細節。
 
-這張圖的核心是一個跨越距離的視線連接——畫面構圖要讓觀眾同時看見朔的眼神（或他的視線方向）和美夜子的眼睛。她的冰藍眼睛在夜色中很清晰，是可以跨越距離被看見的那種清晰。
+他的表情是一種混合了震動與克制的靜止——不是完全的確認，是「懷疑被大幅推進」的那種顫動。他沒有說話，沒有伸手，風暴平息後他便退回暗處，繼續他一直以來的觀察者姿態。
 
-朔的表情不是震驚，不是情緒波動，是一種「確認了」的靜止——他在這一刻的內部反應非常小，但非常確定。他認出了她眼睛裡的某個人。
-
-美夜子沒有看向他，或者只是掃過他的方向而沒有停留，因為她不認識他（或不確定），而她有任務在身。
-
-構圖核心：分割視角——畫面一邊是朔的側臉（視線方向清晰），另一邊是較遠處的美夜子（冰藍眼睛在黑暗中發光），兩組視線形成一條不相交的連接線。
+構圖核心：近景或中近景，美夜子（貓形態）在動態打鬥/護人姿勢中，左耳星形飾物是畫面的視覺焦點之一；朔在稍遠但仍屬近距離的位置，視線精準對準那枚飾物，背景是風暴造成的混亂場景。
 
 
 **生成提示（Midjourney）**：
 ```
-Style: dark magical girl illustration, night operation, distant recognition
-Mood: one-way identification, the weight of knowing without being known, surveillance as grief
-Colors: night blues and grays, white cat fur luminous against dark, ice blue eyes catching light, observer figure in deep shadow
-Composition: split distant composition, shadowed male figure side profile in foreground right watching, white cat with glowing ice-blue eyes in far left background, distance visible between them, implied sight line
-Lighting: night ambient, cat's eyes catch available light and glow slightly, observer figure mostly in shadow
-Special effects: cat's ice-blue eyes hold a slight glow, one precise detail in an otherwise dark scene
-Character: shadowed male observer with quiet certain expression; white cat in distance with unnaturally clear luminous ice-blue eyes, mid-task posture
+Style: dark magical girl illustration, chaotic urban unconscious-storm backdrop, close-range recognition
+Mood: recognition through a single specific detail, doubt escalating toward near-certainty but not confirmed, restraint amid chaos
+Colors: storm-distorted back-alley palette (collective unconscious erosion), white cat fur catching stray light, a tiny star-shaped ear ornament as the one precise focal detail
+Composition: close-to-mid distance, white cat mid-motion in combat/protective stance with star-shaped ear ornament clearly visible, male figure close by with focused gaze locked on the ornament, chaotic storm debris in background
+Lighting: harsh fragmented light from the collective-unconscious storm, ornament catches a distinct glint
+Special effects: star-shaped ear ornament rendered as the single sharpest, most detailed element in the frame
+Character: white cat with ice-blue eyes in dynamic action pose, small star-shaped ornament on left ear; nearby male figure with quiet trembling-restrained expression, eyes fixed on the ornament, not her face
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A man stands in shadow watching a white cat with glowing ice-blue eyes in the distance at night. The cat is unaware of being watched. Silent recognition across distance. Dark anime style.
+A white cat with ice-blue eyes fights in a chaotic storm-torn back alley, a small star-shaped ornament visible on its ear. A young man stands close by, his gaze fixed intently on that ornament rather than the cat's face — quiet, trembling recognition amid chaos. Dark anime style.
 --ar 16:9 --niji 6
 ```
 
@@ -4560,23 +4717,24 @@ A man stands in shadow watching a white cat with glowing ice-blue eyes in the di
 
 ### 劇情背景
 
-帝國歷114年4月，Act III Phase H2，E-15a。晴香在整個Act III找遍方法，終於找到了靈魂複原術，可以治癒被重組的凜，讓她的記憶與身份完整回歸。凜此時已完全知道自己的真實身份（Unit 00-Null，一件武器）。晴香向她伸出手，手心向上，「我找到了辦法」。凜看了那隻手半秒，做了最後的確認，然後輕輕把它推開——不是冷漠，而是已做決定的平靜：她知道Unit 00是一件必須在這個時刻被使用的武器，她需要以這個身份完成某件事，然後以這個身份結束。拒絕是主動的選擇，直接導向E-15.8凜×美夜子的最後時刻，以及SPEC#100-01美夜子的介錯之刃。
+`[已修正 2026-07-17，Beat ID錯誤]` 原文「E-15a」非有效beat編號——E-15屬 `ACT_II_OUTLINE.md`（晴香×夕和解，114年2-3月），同凜的最終選擇無關；正確依據為 `ACT_III_OUTLINE.md` **E-III-H2（CDL-215 E-III-02）**。另，「晴香找到靈魂複原術可以治癒凜」呢個具體機制canon未見逐字記載——CDL-215原文只講「凜推開晴香伸出的手，回到帝國實驗室，要求黑奏挖走所有感情/痛覺/回憶，自願坐上手術椅」，冇提及「治癒方法」嘅具體性質，標 `[INFERRED]`。
+
+帝國歷114年4月底，Act III Phase H2，E-III-H2（CDL-215 E-III-02）。晴香向凜伸出手，象徵性地表達「我想帶妳回來」（具體方法 `[INFERRED]`，canon未定義為何種手段）。凜此時已完全知道自己的真實身份（108年已死並被重組，見H1）。她看了那隻手半秒，做了最後的確認，然後輕輕把它推開——不是冷漠，而是已做決定的平靜。隨後她主動回到帝國實驗室，要求黑奏挖走所有感情、痛覺、回憶，自願在清醒狀態下坐上手術椅見證自己「死亡」，變成Unit 00-Null。拒絕是主動的選擇，直接導向E-III-I5凜的最終戰——遲來的介錯，以及SPEC#100-01美夜子的介錯之刃。
 
 ### 圖片說明
 
 帝國歷114年，晴香終於找到了可以治癒凜的方法，向她伸出手心向上的手說「我找到了辦法」。凜看著那隻手停了半秒——不是猶豫，是最後的確認——然後用一個非常輕、非常確定的動作把那隻手推開。她的頸上的紅色縫合線在光線下清晰可見。她不是冷漠，她是已做了決定的平靜：她知道自己是一件武器，她需要以這個身份完成某件事，然後以這個身份結束。
 
 **劇情位置**：
-- **時間點**：帝國歷114年4月 Act III Phase H2，E-15a（凜拒絕治癒）
-- **CDL追蹤**：E-15a；CDL-215；rin.md §最終選擇
-- **前置事件**：晴香終於找到了「治癒凜」的方法（靈魂複原術）；凜自己已經知道自己的真實身份
-- **本場景功能**：凜拒絕被救的瞬間。這不是悲劇性的崩潰，而是已做決定的平靜——她知道Unit 00是一件武器，她需要用這件武器完成某件事。拒絕是主動的選擇，不是被動的接受命運。
-- **後續payoff**：直接導向E-15.8凜×美夜子的最後時刻；SPEC#77凜犧牲（前史）的現代回響
+- **時間點**：帝國歷114年4月底 Act III Phase H2，E-III-H2（原文「E-15a」為無效beat編號，已修正）
+- **CDL追蹤**：CDL-215（E-III-02）；rin.md §最終選擇
+- **前置事件**：H1（美夜子得知凜108年已死並被重組）之後；凜自己已經知道自己的真實身份；晴香向凜伸出手，具體提案內容 `[INFERRED]`
+- **本場景功能**：凜拒絕被救的瞬間。這不是悲劇性的崩潰，而是已做決定的平靜——她推開手後，主動回到帝國實驗室要求黑奏挖走所有感情/痛覺/回憶，自願坐上手術椅。拒絕是主動的選擇，不是被動的接受命運。
+- **後續payoff**：直接導向E-III-I5凜的最終戰——遲來的介錯（SPEC#100-01）；SPEC#77凜犧牲（前史）的現代回響
 
 **Reference Images**：
-- 凜：`ConceptArt_Rin_MagicalGirl_1.png`
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
-- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
+- 凜（情緒管理局制服/日常形態）：`ConceptArt_Rin_TheAdministrationBureau.png`（原引用MagicalGirl_1魔法少女形態有誤——此為私密對峙場景，非戰鬥形態）
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
 
 **詳細核心描述**（200-350字）：
 
@@ -4681,18 +4839,22 @@ magical girl with dual assault rifles in ruins, facing twisted monster-like crea
 
 ### 劇情背景
 
-帝國歷114年，Act III Phase G至H之間，凜已在內部完成了對自身真實身份的全部認知——她是Unit 00-Null，一件被設計用來完成特定任務然後消失的武器。「候選W」的決定在這個場景的嘆息之橋上完成。她雙手放在石材欄杆，向下看，背部是直的，肩膀是放鬆的，不是一個在考慮跳下去的人，而是一個把決定做完、來這裡站最後一次的人——以完整意識站在世界上的最後一刻。昏黃路燈照在她頸上的紅縫合線，是這個場景裡唯一鮮明的細節。霧消去橋的兩端，只留下她。這個瞬間的「interiority」直接連接後續E-15.8最後時刻的情感前置。
+`[已修正 2026-07-17，重大標記：整個beat未定案]` 依 `04_timeline_canon.md#event-bridge-of-sighs` 及 `rin.md` 行100，「嘆息之橋——凜獨立場景」明確標為 **[btd — 具體設計待Beat Sheet確認]**：事件內容、情感意義、與主角團的關係、甚至物理地點本身，canon全部未定案，只確認時間窗口大致落喺 Phase G或H（114年3-4月）某處。原文將「候選W的決定在此完成」「霧中石橋」「以完整意識站在世界上的最後一刻」等具體敘事全部寫成既定事實，係將一個canon明確標記為留白嘅beat自行填滿內容，違反pipeline「冇依據支撐嘅內容須標NEEDS_FACT」規則。
+
+另需注意：`DIGEST_LOCATIONS.md` §13 已明確警告「嘆息之橋」在canon中有雙重用法容易混淆——(1) Act III紫音+操雙殺嘅隱喻總稱（物理地點已改為帝國廣場/學校瓦礫，唔係實體橋樑）；(2) 凜的獨立場景代稱（物理地點未定案）。原文將本場景畫成實體「老石橋」，若果日後Beat Sheet層確認凜嘅版本唔係實體橋樑，呢個構圖方向需要整個重做。
+
+本場景暫按digest既有提示（Phase G/H，114年3-4月某處，物理地點未定案）處理，核心情緒方向（凜獨處、已知真相但未揭露、內心已有決定的平靜）保留作為`[INFERRED]`合理演繹，但所有具體細節（實體橋樑造型、霧、路燈、「候選W」措辭）標記為未經Beat Sheet確認的推測內容，待Act III Beat Sheet層正式設計後可能需要整體重做甚至更換地點。
 
 ### 圖片說明
 
-夜霧中的老石橋，兩端消失在霧裡，橋上只有凜一個人。她雙手放在欄杆，身體微微前傾向下看，背部是直的，肩膀放鬆——她不是掙扎中的人，她是把決定做完、來這裡站最後一次的人。昏黃的舊式路燈恰好照在她頸部，紅色的縫合線是這個場景裡唯一清晰的色彩。她的臉沒有悲傷，只有一種更深的平靜：她以被帝國改造成情緒管理局公務員之前那個完整的自己，在這裡站了最後一次。
+`[NEEDS_FACT：地點/內容均未定案，見04_timeline_canon.md#event-bridge-of-sighs]` 凜獨自一人，在Phase G或H某處（114年3-4月，具體地點待Beat Sheet確認），已在內心完成了對自身真實身份的認知，但尚未向其他人揭露。她的姿態沒有掙扎的成分——不是平靜，是更深的東西：了結。昏黃的光源恰好照在她頸部，紅色的縫合線是這個場景裡唯一清晰的色彩。她的臉沒有悲傷，只有一種安靜的確認。（以下沿用原文「霧中石橋」構圖作為暫定演繹，待Beat Sheet層確認具體地點後可能需要更換）
 
 **劇情位置**：
-- **時間點**：帝國歷114年 Act III Phase G-H之間
-- **CDL追蹤**：rin.md §嘆息之橋；04_timeline §嘆息之橋
-- **前置事件**：凜已知自己是重組體（自我認知已完成），尚未向其他人揭露；候選W的決定在此完成
-- **本場景功能**：凜在揭露前的最後「interiority」瞬間。她不哭，不掙扎，她已經決定好了。這個場景是她作為一個「自己知道自己會消失的人」的最後獨處，是最後一次以完整意識站在世界上的時刻。
-- **後續payoff**：候選W凜的最終選擇（她在這裡就決定了）；E-15.8最後時刻的情感前置
+- **時間點**：帝國歷114年3-4月 Act III Phase G-H之間（`[NEEDS_FACT]`：具體beat歸屬、內容、地點全部待Beat Sheet層設計確認）
+- **CDL追蹤**：`04_timeline_canon.md#event-bridge-of-sighs`；`rin.md` §嘆息之橋獨立場景（btd，未設計）
+- **前置事件**：凜已知自己是重組體（自我認知已完成），尚未向其他人揭露；具體觸發事件、與主角團的關係canon未定義
+- **本場景功能**：`[INFERRED]` 凜在揭露前可能的最後獨處瞬間演繹——她不哭，不掙扎，已有決定的平靜。此功能定位為合理推測，非canon confirmed，待Beat Sheet層正式設計後可能整體調整。
+- **後續payoff**：`[NEEDS_FACT]`——canon未明確此beat連接到哪個後續場景；暫時參考推測連接E-III-H2凜的最終選擇
 
 **Reference Images**：
 - 凜：`ConceptArt_Rin_MagicalGirl_1.png`
@@ -4740,18 +4902,20 @@ A girl in a dark uniform stands alone on an old stone bridge at night in the fog
 
 ### 劇情背景
 
-帝國歷114年，Act III Phase H，帝國以操無從抵抗的威脅或黑材料強迫她透露主角團情報（CDL-298）。操站在通訊器前，傀儡絲從手指延伸到按鍵——但絲是鬆的，沒有張力，她還沒按下去。這個「懸在按鍵上方三四厘米」的靜止，不是猶豫，是一個已知道結局、讓自己在罪疚正式確立前再存在片刻的人。桌角有紗夜的遺物，不在焦點裡，但它在那裡。這個場景的後果是SPEC#1鋼鐵獨舞——她在廢棄工廠中帶著這份背叛起舞，把選擇犧牲作為「用死亡贖回背叛」的個人審判，是她整條弧光最沉重的一格。
+`[已修正 2026-07-17，核心動機缺失]` 原文將觸發機制寫成籠統的「無從抵抗的威脅或黑材料」，遺漏咗CDL-298最關鍵、最具體嘅設計核心：父親透過EMB供應商系統**監測到操心匣污染指數達屍骸化臨界**（Cost Signal，非父親主動聯絡/操主動洩露），以「**醫療回收（送返綾小路研究室重組，即變成CDL-297母親的下場——一具有心跳但再無法感受任何情感的活體人偶）**」作最後通牒，要求交出Phase H據點坐標。呢個「變成母親那樣」嘅具體威脅，正正係操整條弧光最核心嘅存在恐懼（CDL-297），原文完全冇提及，令呢個場景失去咗最重的一層心理壓力。發生時機亦有補充：喺H1.5美夜子PTSD爆發、晴香連番崩潰之後，無人察覺操的個人通訊器有任何異動的最孤獨時刻。
+
+帝國歷114年4月中，Act III Phase H暗線，CDL-298。操的父親透過EMB供應商系統監測到她心匣污染指數已達屍骸化臨界，以「醫療回收——送返綾小路研究室重組，變成母親那樣一具有心跳但再無法感受任何情感的活體人偶」作最後通牒，要求交出Phase H據點坐標。操站在通訊器前，傀儡絲從手指延伸到按鍵——但絲是鬆的，沒有張力，她還沒按下去。這個「懸在按鍵上方三四厘米」的靜止，不是猶豫，是一個已知道結局、在「變成母親」與「背叛隊友」之間別無選擇的人，讓自己在罪疚正式確立前再存在片刻。桌角有紗夜的遺物，不在焦點裡，但它在那裡。她單獨洩露坐標後，隊伍將被迫轉移，隊友只會歸咎EMB新偵測技術，無人懷疑她——這個秘密她會一直帶到Day 13鋼鐵獨舞，帶著死去，認罪從未發生。這個場景的後果是SPEC#1鋼鐵獨舞（學校瓦礫）——她在其中帶著這份背叛起舞，把選擇犧牲作為「用死亡贖回背叛」的個人審判，是她整條弧光最沉重的一格。
 
 ### 圖片說明
 
-帝國歷114年，帝國以操無從抵抗的威脅強迫她透露主角團情報。她站在通訊器前，傀儡絲從手指延伸到按鍵，但絲是鬆的，垂著，沒有張力——她還沒按下去。她的手指懸在按鍵上方三四厘米的距離，不是在猶豫，是一個已知道結局的人在最後一格靜止裡，讓自己再存在片刻。桌角放著管家紗夜的遺物，不在焦點裡，但它在那裡，讓她背負的重量更具體。
+帝國歷114年，操的父親透過監控系統偵測到她瀕臨屍骸化，以「送返研究室重組，變成母親那樣的活體人偶」作最後通牒，要求她交出隊友的坐標。她站在通訊器前，傀儡絲從手指延伸到按鍵，但絲是鬆的，垂著，沒有張力——她還沒按下去。她的手指懸在按鍵上方三四厘米的距離，不是在猶豫，是一個在「變成母親」與「出賣隊友」之間別無選擇的人，在最後一格靜止裡讓自己再存在片刻。桌角放著管家紗夜的遺物，不在焦點裡，但它在那裡，讓她背負的重量更具體。
 
 **劇情位置**：
-- **時間點**：帝國歷114年 Act III Phase H
-- **CDL追蹤**：CDL-298；misao.md §報串；misao.md §罪疚
-- **前置事件**：帝國以威脅或黑材料強迫操透露主角團情報，操面對無從抵抗的處境
-- **本場景功能**：展示操在被迫背叛的瞬間——她的手懸在通訊器上，傀儡絲連著她的手指，但她沒有移動。不是抵抗，是已知道自己沒有選擇的人在按下之前最後的靜止。紗夜遺物在場，強化她背負的重量。
-- **後續payoff**：SPEC#1鋼鐵獨舞（帶著這份罪疚起舞）；操選擇犧牲作為「用死亡贖回背叛」的個人審判
+- **時間點**：帝國歷114年4月中 Act III Phase H暗線，H1.5美夜子PTSD爆發、晴香連番崩潰後的最孤獨時刻
+- **CDL追蹤**：CDL-298（被迫報串+父親EMB供應商知情設定）；CDL-297（母親——完美的活體人偶，威脅的具體內容）
+- **前置事件**：父親監控系統偵測到操心匣污染指數達屍骸化臨界，以「變成母親那樣」為最後通牒
+- **本場景功能**：展示操在被迫背叛的瞬間——她的手懸在通訊器上，傀儡絲連著她的手指，但她沒有移動。不是抵抗，是已知道自己在「變成母親」與「背叛隊友」之間別無選擇的人在按下之前最後的靜止。紗夜遺物在場，強化她背負的重量。
+- **後續payoff**：SPEC#1鋼鐵獨舞（帶著這份罪疚起舞）；操選擇犧牲作為「用死亡贖回背叛」的個人審判；此秘密至死未被隊友發現
 
 **Reference Images**：
 - 操：`ConceptArt_Misao_MagicalGirl.png`
@@ -4761,7 +4925,7 @@ A girl in a dark uniform stands alone on an old stone bridge at night in the fog
 
 昏暗的小房間，操一個人站在簡陋的通訊器台前。台面上只有通訊器，舊型號，按鍵上有磨損痕跡。
 
-傀儡絲從她的五根手指延伸出去，細如蛛網，連著通訊器的幾個按鍵——但絲是鬆的，垂著，沒有張力。這是關鍵：絲在，但她還沒按下去。
+傀儡絲從她的五根手指延伸出去，細如蛛網，連著通訊器的幾個按鍵——但絲是鬆的，垂著，沒有張力。這是關鍵：絲在，但她還沒按下去。`[INFERRED]`：以傀儡絲連接按鍵作為「報串」的具體傳遞手法，canon冇明文規定她如何洩露坐標，此為視覺化演繹，非confirmed機制。
 
 她的手指懸在按鍵上方三、四厘米的距離。不是在猶豫，猶豫是一種還存有選擇幻覺的狀態。她的姿勢是一個已經知道結局的人最後的停頓——不為改變什麼，只是在最後一格靜止裡，讓自己還存在片刻。
 
@@ -4815,8 +4979,8 @@ anime girl standing alone before old communication device in dim room, hand hove
 - **後續payoff**：CDL-214下水道無聲重逢（線索追蹤成功）；世界觀中地下經濟的視覺具象化
 
 **Reference Images**：
-- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
-- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`（潛入黑市非變身狀態，宜用便服參考）
+- `[NEEDS_FACT]`：紫音此時已自我放逐至下水道半屍骸化野獸狀態（見 SPEC#104），並非本場景在場角色——主角團在 Phase G3 潛入糖果唐樓是為咗**尋找**紫音下落，唔係同紫音一齊交易；具體邊幾位隊員在場 canon 未指定，原文引用「朱音：ConceptArt_Akane_MagicalGirl.png」屬誤植，已移除
 
 **詳細核心描述**（200-350字）：
 
@@ -4859,7 +5023,7 @@ anime interior Hong Kong old apartment room, baroque worn velvet chairs, dusty c
 
 ### 劇情背景
 
-帝國歷114年3月，Act III Phase G4，糖果唐樓情報交易後，主角團追蹤線索找到紫音的藏匿地點附近（CDL-214）。晴香知道紫音在下水道裡，但她沒有走進去，沒有呼喚，沒有強迫接觸——她只是把一袋糖果和藥品放在下水道入口前的地面，然後轉身離開，留下足夠的空間和尊嚴。這個「放下東西然後離去」的選擇，是晴香「懂得怎樣愛人」的無聲示範，也是紫音在SPEC#4廢棄糖果工廠最終願意走出來的情感根基。場景的主角是那袋被遺留的東西，和下水道黑暗中隱約可感覺到的存在——紫音在看，她收到了，但她不需要被看見。
+帝國歷114年3月，Act III Phase G4（**Fake Climax 標記**），糖果唐樓情報交易後，主角團追蹤線索找到紫音的藏匿地點（CDL-214）。依 `ACT_III_OUTLINE.md` E-III-G4，此刻紫音已處於「半屍骸化野獸狀態」，用殘破身軀護著流浪狗與低階無名屍骸自建秩序；晴香原本準備「拯救或介錯」，但見到紫音已有自己的存在方式，選擇不打擾——她沒有走進去，沒有呼喚，沒有強迫接觸，只是把一袋糖果和藥品放在下水道入口前的地面，然後轉身離開，留下足夠的空間和尊嚴。**這不是最終團圓**：outline 明確此後「接下來一個月（Phase G/H），晴香透過朔的黑市網絡定時收到『防線未破』情報，每一次『紫音還活著』都是『紫音在替我哋死』的罪疚感疊加」，直到 Day 14 才在帝國廣場正式相見（SPEC#10）。場景的主角是那袋被遺留的東西，和下水道黑暗中隱約可感覺到的存在——紫音在看，她收到了，但她不需要被看見。
 
 ### 圖片說明
 
@@ -4870,11 +5034,11 @@ anime interior Hong Kong old apartment room, baroque worn velvet chairs, dusty c
 - **CDL追蹤**：CDL-214；05_story_outline §Phase G
 - **前置事件**：糖果唐樓獲得線索，主角團找到紫音藏匿地點附近
 - **本場景功能**：展示晴香對紫音的照顧方式——她不強迫接觸，她放下東西，然後離開，給紫音保留空間和尊嚴。這是一種「懂得怎樣愛人」的無聲示範。場景的主角是那袋被遺留的東西，不是人。
-- **後續payoff**：SPEC#4廢棄糖果工廠正面相遇（紫音願意走出來的情感根基）；紫音接受幫助的第一步
+- **後續payoff**：**已修正**——原文誤植「SPEC#4廢棄糖果工廠正面相遇」，但紫音自 Act II 已放逐至糖果工廠（SPEC#4為Act II事件），Act III此刻藏身地點係下水道，並非糖果工廠。正確payoff：接下來一個月晴香透過朔的黑市網絡收到「防線未破」情報，罪疚感持續累積 → 直到 Day 14 SPEC#10帝國廣場救援（I3，紫音見證被無條件拯救後主動過載化為糖果山），呢個先係二人「正式相見」嘅場景，唔係走出來團圓
 
 **Reference Images**：
 - 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
-- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+- 紫音：`[NO_REF]`——此刻紫音為「半屍骸化野獸狀態」，同已有嘅 `ConceptArt_Akane_MagicalGirl.png`（標準魔法少女形態）唔對應，且本場景刻意只呈現隱約存在感（陰影中一雙眼睛反光），唔需要完整形態reference；如需具體野獸狀態設計待另行 source check
 
 **詳細核心描述**（200-350字）：
 
@@ -4911,58 +5075,58 @@ anime sewer entrance urban night, small cloth bundle left on wet ground, girl si
 
 ---
 
-## 圖105：「公告夜（紫音作為清剿目標）」（Announcement Night: Akane as Purge Target）[ACT_III]
+## 圖105：「公告夜（紫音作為處決目標）」（Announcement Night: Akane as Execution Target）[ACT_III]
 
 **建議輸出文件名**：`ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png`
 
 ### 劇情背景
 
-帝國歷114年5月，Act III Phase I，Day 13夜。同日，操在決定性戰鬥中選擇化為人偶牆犧牲，帝國在當晚即發布清剿令，正式將紫音定性為「危險生物」（CDL-217）。主角團在城市街道上看到全息屏幕，上面是帝國記錄中紫音的「危險形態」輪廓，旁邊是冷靜的官僚化公告文字。他們站在屏幕前，背對觀者，沒有人說話，每個人獨自面對：他們的朋友剛剛犧牲了，而明天（Day 14）就是倒數的最後一格。這個公告是紫音選擇主動化為糖晶（而非被清剿）的背景之一——她知道公告的存在，她選擇了自己的結局方式（SPEC#10）。
+帝國歷114年5月，Act III Phase I，Day 13夜。同日，操在決定性戰鬥中選擇化為人偶牆犧牲。**〔已修正核心機制〕**：依 `ACT_III_OUTLINE.md` E-III-I2（CDL-217）+ CDL-216（「紫音為處刑目標，非操」），紫音此刻**已被捕**（其被捕機制見 Phase I 開首注記：被晴香打敗、敗走後離線被捕），黑奏當晚全城廣播嘅唔係「懸賞追緝仍然在逃嘅危險生物」，而係**「公開處刑公告」**——宣佈 Day 14 正午在帝國廣場公開處決紫音，並展示紫音已被拘束、半屍骸化的淒慘模樣。呢個公告嘅心理功能係「落戰書」：逼主角團直面恐懼，中間一晚的「死亡倒數」讓 Day 14 嘅救援成為主動選擇，唔係被動追蹤逃犯。原文將紫音寫成「仍在逃嘅危險生物被通緝」，方向完全相反——canon 版本入面紫音已經喺帝國手上，公告本身就係死刑通知書。
 
 ### 圖片說明
 
-帝國歷114年，操犧牲的當晚，帝國即發布清剿令，在全城全息屏幕上把紫音定性為「危險生物」，以官僚化的冷靜格式公告。主角團在城市街道上看到那個屏幕，背對觀者，沒有人說話，身體語言閉合，每個人獨自面對：他們的朋友剛剛犧牲了，而她的臉正以「清剿目標」的方式被展示。明天是倒數的最後一格。
+帝國歷114年，操犧牲的當晚，黑奏透過維多利亞之淚或全城螢幕強制廣播「公開處刑公告」：畫面中央是已被拘束、呈半屍骸化淒慘模樣的紫音本人（不是模糊的「危險生物」剪影），周圍是官僚化的處刑公告文字——「Day 14 正午，帝國廣場，公開處決」。主角團在城市街道上看到那個屏幕，背對觀者，沒有人說話，身體語言閉合，每個人獨自面對：他們的朋友剛剛犧牲了，而現在他們看著的，是另一個朋友明天將被處死的宣判畫面，一整晚的死亡倒數逼他們做出救或不救的選擇。
 
 **劇情位置**：
 - **時間點**：帝國歷114年5月 Act III Phase I，Day 13夜
-- **CDL追蹤**：CDL-217；05_story_outline §Phase I
-- **前置事件**：Day 13操化為人偶牆犧牲；帝國即夜宣布清剿令
-- **本場景功能**：展示帝國如何將紫音定性為「危險生物」加以公告，以及主角團目睹公告時的無言。明天（Day 14）就是決定性的一天，這個公告就是倒數的最後一格。
-- **後續payoff**：Day 14 SPEC#10糖果山犧牲（紫音選擇主動化為糖晶而非被清剿，這個公告是她做出選擇的背景之一）
+- **CDL追蹤**：CDL-217（E-III-I2）；CDL-216（紫音為處刑目標，非操）；CDL-320（制度理由深化）
+- **前置事件**：Day 13操化為人偶牆犧牲；紫音已於Phase I開首離線被捕
+- **本場景功能**：「落戰書」——黑奏公開展示已被拘束嘅紫音，宣告Day 14正午帝國廣場公開處決；逼主角團在一整晚嘅死亡倒數中，將Day 14嘅救援行動變成主動選擇而非被動追蹤。**核心修正**：紫音是已被捕、待處決的囚犯，不是仍在逃的通緝目標
+- **後續payoff**：Day 14 SPEC#10帝國廣場救援＋糖果山犧牲（主角團冒死進入刑場救援，紫音見證被無條件拯救後主動過載）
 
 **Reference Images**：
-- 朱音：`ConceptArt_Akane_MagicalGirl.png`
+- 朱音：`[NO_REF]`——此刻紫音已被拘束、半屍骸化，同標準嘅 `ConceptArt_Akane_MagicalGirl.png` 形態唔對應，需另行設計被拘束狀態visual
 
 **詳細核心描述**（200-350字）：
 
 
-城市街道或某個廣場一角，夜晚。一個大型全息投影屏幕或舊式街頭公告板（帝國風格的官方通知形式），畫面上顯示紫音（屍骸女王形態）的輪廓影像——不是她真正的臉，是帝國記錄中她的「危險形態」，邊緣失焦，帶著明顯的官方標記感。
+城市街道或某個廣場一角，夜晚。一個大型全息投影屏幕或舊式街頭公告板（帝國風格的官方通知形式），畫面上顯示的是**已被拘束的紫音本人**——雙手/身軀被某種帝國制式拘束具固定，半屍骸化的痕跡清晰可見，不是模糊剪影，而是刻意讓觀者確認「這是她，她已經被抓了」的清晰畫面。
 
-屏幕上的文字：「危險生物出沒警報」、「清剿令第×號」，或類似的官僚化語言，字體冷靜，格式標準。如果加上倒計時，或「即時生效」的字樣，效果更強。屏幕的光把附近的一切都照成藍白色。
+屏幕上的文字：「Day 14 正午，帝國廣場，公開處決」、「危害公共安全罪」等官僚化處刑公告語言，字體冷靜，格式標準，可加入倒數計時字樣強化「死亡倒數」的心理壓迫。屏幕的光把附近的一切都照成藍白色。
 
 屏幕前方，主角團的三四個人站著或坐著，背對觀者，面向屏幕。他們的身形距離不一——有人靠在牆上，有人站直，但沒有人說話。身體語言是閉合的：沒有轉向彼此，沒有交流，每個人都獨自面對這個畫面。
 
-畫面設計的關鍵：紫音不在這個場景裡。但她的臉（或她的形態的輪廓）佔據了屏幕的大部分空間，以「清剿目標」的方式被展示。那個落差——她本來是一個人，現在是一個公告——是整個場景想說的東西。
+畫面設計的關鍵：紫音的臉/被拘束的身影佔據屏幕的大部分空間，以「即將被處決的囚犯」而非「在逃的怪物」被展示——這是一份死刑判決書，不是通緝令。這個落差——她本來是一個人，現在是一則明天將被公開處死的宣判——是整個場景想說的東西。
 
 整個畫面：屏幕的藍白冷光、黑夜背景、幾個背影，沉默。
 
 
 **生成提示（Midjourney）**：
 ```
-Style: dark sci-fi magical girl anime, dystopian public announcement aesthetic
-Mood: condemned verdict, heavy pre-dawn silence, complicit institutional coldness
+Style: dark sci-fi magical girl anime, dystopian public execution announcement aesthetic
+Mood: death sentence verdict, heavy pre-dawn silence, complicit institutional coldness, countdown to execution
 Colors: cold blue-white holographic light, deep night black, muted figure silhouettes, harsh official text contrast
-Composition: large holographic announcement screen filling upper half of frame, blurred dangerous-creature portrait with official warning text, four back-view figures in lower half watching in silence, scattered spacing, no clusters
+Composition: large holographic execution announcement screen filling upper half of frame, restrained half-corpse figure with official execution notice text, four back-view figures in lower half watching in silence, scattered spacing, no clusters
 Lighting: cold blue-white screen light as sole source, harsh face-front shadows on figures, deep background darkness
-Special effects: holographic screen scan lines, official watermark textures, countdown element optional
-Character: back-view only figures, varied postures (leaning on wall, standing, crouching), no faces shown
+Special effects: holographic screen scan lines, official execution warrant watermark textures, countdown timer element
+Character: restrained captive figure clearly visible on screen (not a blurred silhouette), back-view only figures below, varied postures (leaning on wall, standing, crouching), no faces shown
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-anime dystopian city night, large holographic warning screen showing silhouette creature designation with official text, four young people watching from behind in silence, cold blue screen light, dark urban environment, back view only, no faces
+anime dystopian city night, large holographic screen showing a restrained captive figure with official execution notice text and countdown, four young people watching from behind in silence, cold blue screen light, dark urban environment, back view only, no faces
 --ar 16:9 --niji 6
 ```
 
@@ -4974,75 +5138,79 @@ anime dystopian city night, large holographic warning screen showing silhouette 
 
 ### 劇情背景
 
-帝國歷114年，Act III貫穿。黑奏長期使用彩（葉語彩）的身體作容器，彩被困在身體最深處的心房空間——一個像通風管道與廢棄地下室混合的狹小壓縮空間（CDL-076/aya.md §葉語彩）。外面的世界在Act III的所有事件中繼續發生，彩什麼都看得見但什麼都觸摸不到。在這個等待中，她的懷裡有一隻舊熊公仔——跨越了「界線」留下來的遺留物，她不知道為什麼它在這裡，但她用手指輕輕觸摸它的一隻耳朵，像在確認它存在，或者問它問題。那個安靜的等待，是她對Act III最後時刻（SPEC#8彩奪回身體）的全部準備。
+帝國歷114年，Act III貫穿。黑奏長期使用彩（葉語彩）的身體作容器，彩被困在身體最深處的心房空間。**〔已修正〕**依 `aya.md` §被囚禁的孩子：彩的心房被黑奏重構為「一個永遠停留在通風管道那夜的空間——黑暗、狹窄、充滿螢的血腥氣味」，即她 6 歲時螢犧牲當晚的通風管道本身，唔係泛用嘅「通風管道+廢棄地下室混合」空間，亦冇canon支持嘅苔蘚/情緒結晶生長描述（已標`[INFERRED]`）。外面的世界在Act III的所有事件中繼續發生，彩什麼都看得見但什麼都觸摸不到。在這個等待中，她的懷裡有螢的遺物——那隻殘舊熊公仔，係彩與黑奏共享的契約信物（心匣條目），她用手指輕輕觸摸它的一隻耳朵，像在確認它存在，或者問它問題。那個安靜的等待，是她對Act III最後時刻（SPEC#8彩奪回身體）的全部準備。
 
 ### 圖片說明
 
-帝國歷114年，黑奏長期使用彩的身體作容器，彩被困在身體最深處一個像通風管道與廢棄地下室混合的狹小空間。她七歲的身體蜷縮在牆角，懷裡有一隻舊熊公仔，她不知道它為什麼在這裡，但她用手指輕輕觸摸它的一隻耳朵，像是確認它存在，或者問它問題。外面的世界繼續發生，彩什麼都看得見但什麼都觸摸不到。她在等待，她知道要等，她不知道要等多久。
+帝國歷114年，黑奏長期使用彩的身體作容器，彩被困在身體最深處——一個被黑奏重構為永遠停留在「通風管道那夜」的空間，黑暗、狹窄。她 6 歲的身體蜷縮在牆角，懷裡緊抱著螢的遺物熊公仔（永遠潔淨如新，不見任何使用痕跡——這是熊被精心以魔法維護的神器嘅視覺線索），用手指輕輕觸摸它的一隻耳朵，像是確認它存在，或者問它問題。外面的世界繼續發生，彩什麼都看得見但什麼都觸摸不到。她在等待，她知道要等，她不知道要等多久。
 
 **劇情位置**：
 - **時間點**：帝國歷114年 Act III，彩被囚禁狀態（貫穿Act III）
-- **CDL追蹤**：aya.md §葉語彩；CDL-076
-- **前置事件**：黑奏長期使用彩的身體作容器，彩被困在身體最深處的心房空間，Act III所有事件在外面進行
-- **本場景功能**：展示彩的囚禁狀態、她在等待中的堅持，以及熊公仔這個跨越了「界線」的遺留物所帶來的奇特溫度。她不知道為什麼它在這裡，但她在觸摸它。
-- **後續payoff**：SPEC#8彩奪回身體（她一直在等待，這一刻是等待的具象化）；候選PP彩的心房空間
+- **CDL追蹤**：aya.md §被囚禁的孩子；§螢的遺物——殘舊熊公仔；CDL-076
+- **前置事件**：黑奏長期使用彩的身體作容器，彩被困在心房（通風管道那夜的重構空間），Act III所有事件在外面進行
+- **本場景功能**：展示彩的囚禁狀態、她在等待中的堅持，以及熊公仔這個螢的遺物所帶來的奇特溫度——她的懷裡有螢，她在觸摸它。
+- **後續payoff**：SPEC#8彩奪回身體（她一直在等待，這一刻是等待的具象化）；候選B通風管道那夜（螢的犧牲）場景的主題呼應
 
 **Reference Images**：
-- 彩：`ConceptArt_Aya_MagicalGirl_1.png`
+- 彩：**已修正**——原文引用 `ConceptArt_Aya_MagicalGirl_1.png`（學生偽裝/被控制形態），但本場景是彩 6 歲真身在心房被囚狀態，並非「彩」偽裝形態，用學生偽裝reference屬形態混淆。改為 `[NO_REF]`——彩的本源真正形態（惡夢/囚牢）暫無confirmed exists的reference image（`ConceptArt_Aya_TrueForm.png`為`UNVERIFIED`），生成時需另查或參照aya.md§本源變身/真正形態文字描述
 
 **詳細核心描述**（200-350字）：
 
 
-心房空間：狹窄，像通風管道與廢棄地下室的混合體，天花板低，磚縫間長著青苔與細小的情緒結晶，晶體顏色暗淡，有些已經破碎，邊緣磨損。空間本身有一種長期被壓縮的感覺，不是整潔的囚室，是一個被遺忘的、勉強能存在的地方。
+心房空間：黑暗、狹窄，被黑奏重構為永遠停留在「通風管道那夜」的空間，空氣中隱約殘留著那夜的血腥氣味（象徵性視覺化，非直接畫出血跡）。管壁狹窄壓迫，天花板低。空間本身有一種長期被壓縮、被凍結在同一個創傷時刻的感覺，不是整潔的囚室，是一個被遺忘的、勉強能存在的地方。`[INFERRED]`：具體磚縫苔蘚/情緒結晶生長細節canon未有直接支持，如需要視覺豐富度可保留但應知悉為演繹而非confirmed事實。
 
-彩（葉語彩，7歲外表，小小的身體）蜷縮在牆角。她坐在地上，膝蓋靠近胸口，懷裡抱著一隻舊熊公仔——體型不算大，顏色因為歲月而稍微褪色，但縫線還在，耳朵稍微歪了一點。
+彩（葉語彩，**6歲**外表，小小的身體——原文誤植「7歲」已修正，canon明確「6歲起被困」）蜷縮在牆角。她坐在地上，膝蓋靠近胸口，懷裡抱著螢的遺物熊公仔——**〔已修正〕**：依「永遠潔淨」動態規則，熊公仔絨毛永遠保持完全潔淨，沒有污漬、沒有壓痕、沒有任何歲月磨損痕跡（原文「顏色因歲月褪色、耳朵歪了」直接違反此規則，已移除）；寒酸外表下藏著頂級深紅絲絨、真寶石眼睛、金線縫線——愛的真實形態不在表面，在縫線裏。
 
 她的手指正在輕輕觸摸熊公仔的一隻耳朵。不是擁抱，是輕觸。像是確認它存在，或者在問它問題。她的表情沒有哭，沒有恐懼，是一種非常小的孩子才有的、安靜的等待——她在等，她知道要等，她不知道要等多久。
 
-畫面的右側或後方：透過半透明的心房壁（像泡泡或薄膜一樣的質感），隱約可以看見外面的光和形狀——晴香在外面的笑聲沒有辦法用視覺呈現，但可以用光影暗示：外面有溫暖的光，模糊的人影，但彩觸摸不到那面牆，或者她已經不再嘗試觸摸。
+畫面的右側或後方`[INFERRED]`：半透明心房壁透出外面模糊光影嘅設計canon未直接支持，屬合理演繹而非confirmed視覺規格，可保留作構圖手法但生成時不應視為既定事實。
 
-整體：小小的彩，舊熊公仔，狹小的空間，透明牆外的遙遠光。
+整體：小小的 6 歲彩，永遠潔淨的螢的遺物熊公仔，通風管道那夜的凍結空間。
 
 
 **生成提示（Midjourney）**：
 ```
 Style: dark magical girl anime, claustrophobic surreal interior, muted emotional palette
 Mood: quiet endurance, isolated waiting, small warmth in constriction
-Colors: grey-green damp stone, dark moss, dim crystalline growths in pale violet and grey, warm amber only from beyond the membrane wall, old teddy bear in faded beige
-Composition: small child figure curled in lower left corner hugging teddy bear, semi-transparent membrane wall right side showing blurred warmth beyond, low ceiling, crystal-veined walls
-Lighting: no direct source, ambient dim light from crystal growth and membrane wall glow, warm light bleeding through from outside but not reaching the child
-Special effects: semi-transparent membrane wall with impressionistic warm shapes beyond it, faint crystal fragment glow along walls
-Character: small girl approximately 7 years old, dark simple dress, hugging worn stuffed bear, fingertips touching bear's ear, calm enduring expression
+Colors: dark cramped ventilation shaft tones, deep shadow, muted greys, pristine dark red velvet teddy bear with gold thread stitching and gem eyes standing out immaculate against the grime
+Composition: small child figure curled in lower left corner hugging a pristine, clearly well-preserved teddy bear, narrow ventilation-shaft-like walls, low ceiling, claustrophobic framing
+Lighting: no direct source, ambient dim light, oppressive darkness with minimal relief
+Special effects: none — the bear's untouched pristine condition against the decayed space is the key visual contrast, no membrane wall or crystal glow (unconfirmed embellishment removed)
+Character: small girl approximately 6 years old, dark simple dress, hugging an immaculately clean dark red velvet teddy bear with gold stitching and gem eyes, fingertips touching bear's ear, calm enduring expression
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-anime small girl child in dark cramped underground space with mossy crystal walls, hugging worn teddy bear in corner, semi-transparent glowing wall on side showing warm light beyond, quiet isolated mood, muted grey and green palette with faint warm glow
+anime small 6-year-old girl child in dark cramped ventilation-shaft-like space, hugging a pristine immaculate dark red velvet teddy bear with gold stitching, no dirt or wear on the bear, quiet isolated mood, muted dark grey palette
 --ar 9:16 --niji 6
 ```
 
 ---
 
-## 圖107：「蜜月困境——K期靈魂監獄」（Honeymoon Trap: Phase K Soul Prison）[ACT_III]
+## 圖107：「蜜月困境——K期靈魂監獄」（Honeymoon Trap: Phase K Soul Prison）[ACT_IV — 暫定草稿，非Act III正式範圍]
 
 **建議輸出文件名**：`ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png`
 
 ### 劇情背景
 
-帝國歷114年5至6月，Act III Phase K1，SPEC#13靜止搖籃後，晴香選擇粒子化成為新世界的錨點，靈魂進入K期特殊空間（CDL-053）。這個「溫暖監獄」不以恐怖呈現，而以完美正常、幾乎過於溫暖的日常重複呈現：每天同樣的廚房早晨，同樣的麵包，同樣的光線，門打不開，或者門後是虛空。晴香知道這是循環，但她繼續吃早餐——不是因為她希望，而是因為這是今天，而今天和昨天一樣。唯一說真話的地方是窗玻璃的反射：反射裡的她臉上有裂縫狀的傷口，光從裂縫滲出。這個K期的囚禁持續20年，直到Act IV Phase L晴香覺醒逃出。
+`[NEEDS_FACT]` **〔已修正Act歸屬〕**：原文標「Act III Phase K1」，但依 `ACT_III_OUTLINE.md`（2026-07-05更新）「Outline層架構完整性」明確：「原Phase K/L已移出Act III scope，見文末附錄」——Phase K/L屬**未經批准嘅Act IV草稿材料**，並非Act III正式範圍，本場景應標為Act IV暫定內容。
+
+另外，CDL引用「CDL-053」為誤植——CDL-053實際係晴香「拯救者情結+公主女武神渴望」總論（Act I 心理設計），同K期靈魂監獄機制完全無關，已移除。
+
+時長方面：outline原始草稿假設「20年/134年」，但`yu.md`四幕弧光明確夕接管執行改變現實後「數日內完成最終整合」，兩者嚴重不符。2026-07-09 co-design 已收斂出方向性共識——**主觀/客觀時間分裂**：夕嗰邊客觀時間「數日」不變，晴香自己意識沉落集體潛意識L3冥河，主觀經歷「20年」作為成為「三位一體永恆守護者」的必經試煉——但呢個方向**全部未落實成CDL**（詳見`QUESTION_QUEUE.md` Round 074 QQ-139~145），下面內容按此方向暫時保留演繹，唔代表已confirm。晴香選擇成為新世界錨點嘅前置場景（SPEC#13靜止搖籃），本身亦已標記為未批核草稿。這個「溫暖監獄」不以恐怖呈現，而以完美正常、幾乎過於溫暖的日常重複呈現：每天同樣的廚房早晨，同樣的麵包，同樣的光線，門打不開，或者門後是虛空。晴香知道這是循環，但她繼續吃早餐——不是因為她希望，而是因為這是今天，而今天和昨天一樣。唯一說真話的地方是窗玻璃的反射：反射裡的她臉上有裂縫狀的傷口，光從裂縫滲出。
 
 ### 圖片說明
 
 帝國歷114年，晴香的靈魂進入一個以「溫暖日常」為形式的囚禁空間。每天同樣的廚房早晨，同樣的麵包，同樣的光線，門後是虛空。她知道這是循環，但她繼續吃早餐——不是因為希望，而是因為這是今天，而今天和昨天一樣。唯一說出真相的地方是窗玻璃的反射：反射裡的她臉上佈滿裂縫，光從裂縫滲出。溫暖是囚籠，正常是刑罰，這個循環持續了二十年。
 
 **劇情位置**：
-- **時間點**：帝國歷114年5-6月 Act III Phase K1（20年靈魂風暴開始）
-- **CDL追蹤**：CDL-053；05_story_outline §Phase K
-- **前置事件**：SPEC#13靜止搖籃後，晴香選擇粒子化成為新世界錨點，靈魂進入K期特殊空間
+- **時間點**：`[NEEDS_FACT]` Act IV暫定草稿（原標「114年5-6月Act III Phase K1」已修正——Phase K已於2026-07-05正式移出Act III scope；具體時間標記待Act IV Outline正式設計）
+- **CDL追蹤**：`ACT_III_OUTLINE.md`附錄E-III-K1（未批核草稿）；主觀/客觀時間分裂方向討論見`QUESTION_QUEUE.md` QQ-139~145（原引用CDL-053為誤植，已移除——CDL-053實際為晴香Act I拯救者情結總論）
+- **前置事件**：`[NEEDS_FACT]`SPEC#13三位一體永恆守護者終局（CDL-326，2026-07-17已修正，唔再係「粒子化」舊稿）後，晴香靈魂進入K期特殊空間，性質為晴香主觀意識沉落集體潛意識（方向性討論，未落CDL）
 - **本場景功能**：「溫暖監獄」的視覺具象化——K期的囚禁不是以恐怖形式呈現，而是以完美正常、幾乎過於溫暖的日常形式呈現，而真相只在反射面洩漏。每一天都是同樣的早晨，她知道，但她繼續吃早餐。
-- **後續payoff**：Act IV Phase L晴香覺醒（20年後逃出K期）；「溫暖作為囚籠」的主題表達
+- **後續payoff**：`[NEEDS_FACT]`Act IV晴香覺醒（具體時長/機制待Act IV Outline確認）；「溫暖作為囚籠」的主題表達
 
 **Reference Images**：
 - 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
@@ -5082,21 +5250,23 @@ anime girl sitting at ordinary kitchen table eating breakfast in warm morning li
 
 ---
 
-## 圖108：「屍骸覺醒——L4」（Corpse Awakening: L4 Phase）[ACT_III]
+## 圖108：「屍骸覺醒——L4」（Corpse Awakening: L4 Phase）[ACT_IV — 暫定草稿，非Act III正式範圍]
 
 **建議輸出文件名**：`ConceptArt_Scene_CorpseAwakening_L4.png`
 
 ### 劇情背景
 
-帝國歷114年，Act III Phase L4，L4觸發條件達成後，城市中長期屍骸化的人們開始從沉睡狀態逐漸復甦。屍骸化是情緒耗盡的極限狀態：人的外殼仍存在，但內部的情緒與自我意識已熄滅，眼睛空洞、不反光、不聚焦。L4的復甦不是整齊同步的，而是散落的、緩慢的——一個人的眼睛開始反光，幾步之外的另一個，再遠處又一個。剛復甦的眼睛不是喜悅，是困惑：「我在哪裡」，「發生了什麼」——但那是人的困惑，不是空洞。這個集體覺醒場景是Act IV新世界建立的直接前置，也是「人性復甦」作為Phase L核心主題的視覺體現。 [NEEDS_AUTHOR_CONFIRM: L4觸發條件的具體機制待確認CDL]
+`[NEEDS_FACT]` **〔已修正Act歸屬〕**：原文標「Act III Phase L4」，但依 `ACT_III_OUTLINE.md`（2026-07-05更新）確認「原Phase K/L已移出Act III scope，見文末附錄」——Phase L（包含L4）同Phase K一樣屬**未經批准嘅Act IV草稿材料**，唔係Act III正式範圍，已修正標籤。L4觸發條件本身canon仍未有confirmed CDL（原文已自行標記`[NEEDS_AUTHOR_CONFIRM]`，此輪保留該標記並升級為`[NEEDS_FACT]`）。
+
+L4觸發條件達成後，城市中長期屍骸化的人們開始從沉睡狀態逐漸復甦。屍骸化是情緒耗盡的極限狀態：人的外殼仍存在，但內部的情緒與自我意識已熄滅，眼睛空洞、不反光、不聚焦。L4的復甦不是整齊同步的，而是散落的、緩慢的——一個人的眼睛開始反光，幾步之外的另一個，再遠處又一個。剛復甦的眼睛不是喜悅，是困惑：「我在哪裡」，「發生了什麼」——但那是人的困惑，不是空洞。這個集體覺醒場景是Act IV新世界建立的直接前置，也是「人性復甦」作為Phase L核心主題的視覺體現。
 
 ### 圖片說明
 
 城市廣場，大批人群靜止站立，眼睛空洞、不反光、不聚焦——這是魔法少女力量耗盡後靈魂燃燒殆盡的終態蔓延至平民的集體沉睡狀態。然後改變開始了：前景某個人的眼睛開始反光，幾步外又一個，再遠處又一個，不整齊，不同步，散落在人群裡的零星的光。剛復甦的眼睛不是喜悅，是困惑：「我在哪裡」，「發生了什麼」——但那是人的困惑，不是空洞，而這個區別就是全部。
 
 **劇情位置**：
-- **時間點**：帝國歷114年 Act III Phase L4
-- **CDL追蹤**：05_story_outline §L4；待確認CDL
+- **時間點**：`[NEEDS_FACT]` Act IV暫定草稿（原標「114年Act III Phase L4」已修正——Phase L已於2026-07-05正式移出Act III scope）
+- **CDL追蹤**：`ACT_III_OUTLINE.md`附錄Phase L草稿；待確認CDL（L4觸發條件未落實）
 - **前置事件**：Phase L4觸發條件後，城市中屍骸化的人們開始從沉睡狀態復甦
 - **本場景功能**：展示集體復甦的瞬間——不是立刻的，是一個一個的、緩慢的、每一雙眼睛各自亮起人類的光。這是「死物重新成為人」的過程，以視覺的方式展示。
 - **後續payoff**：Act IV新世界建立的前置；「人性復甦」作為Phase L的核心主題體現
@@ -5146,22 +5316,24 @@ anime wide shot city crowd of standing still people with void white eyes, scatte
 
 ## 圖109：「美夜子終於哭出來」（Miyako Finally Cries）[ACT_IV]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_FinallyСries.png`
+**建議輸出文件名**：`ConceptArt_Scene_Miyako_FinallyCries.png`（**已修正**：原檔名含西里爾字母「С」非標準英文「C」，屬複製貼上錯誤，已改正）
 
 ### 劇情背景
 
-帝國歷134年7月，Act IV，美夜子Act III覺醒後以人形守護晴香整整二十年。二十年間，她不哭——因為她認為自己不值得哭，因為她是武器，因為她是介錯人，因為哭是軟弱的標誌。Act IV的某個觸發瞬間打破了這個封鎖：她的手抓住晴香的袖子，眼淚在她睜開的眼睛裡流下來，沒有聲音，沒有崩潰，只是流。她的表情不是悲傷，是一個人在長期緊繃終於鬆開的那種困惑與解脫混合——「原來可以這樣」。二十年前SPEC#92「美夜子無價值留守」的情感，在這一刻找到了它的出口；這是她Need的完整體現，連接SPEC#110全片最後一格（她開始學習演奏）。
+`[NEEDS_FACT]` Act IV，美夜子Act III覺醒後以人形守護晴香。二十年間，她不哭——因為她認為自己不值得哭，因為她是武器，因為她是介錯人，因為哭是軟弱的標誌。`[NEEDS_FACT]`「守護晴香整整二十年」呢個具體時長未落實：依`ACT_III_OUTLINE.md`附錄2026-07-09更新，「20年」方向嘅共識係「晴香主觀意識喺集體潛意識沉落20年」，而客觀時間（其他人經歷嘅時間，包括美夜子）依`yu.md`四幕弧光原為「數日」，兩者主觀/客觀分裂方向仍未落實成CDL（`QUESTION_QUEUE.md` QQ-139~145），美夜子實際「守護」跨度待Act IV Outline確認，此處保留原時長演繹但標記不確定性。
+
+**〔已修正核心矛盾〕**：依`miyako.md`§第四幕「美夜子的大哭」明文：「美夜子終於允許自己脆弱——在信賴的人面前**痛哭失聲**」，係[Dark Healing](../02_glossary.md#term-dark-healing)三大治癒時刻之一（CDL-326）。原文將呢一刻寫成「不是大哭，沒有聲音的眼淚」，同canon明確嘅「痛哭失聲」直接矛盾——canon 要嘅係一次真正、有聲音、失控嘅大哭，唔係克制嘅無聲落淚。已修正場景描述，改為忠於canon嘅「痛哭失聲」版本。她的手抓住晴香的袖子，這是她Need的完整體現，連接SPEC#110全片最後一格（她開始學習演奏，發生在CDL-326「尋回自己」之後）。
 
 ### 圖片說明
 
-普通的房間，柔和的側光，美夜子的一隻手抓著晴香的袖子，像是需要一個固定點，又像是不確定這個動作被不被允許。她的眼睛睜著，眼淚只是流下來了——不是大哭，是那種已經無法控制但沒有聲音的眼淚。二十年來她認為自己不值得哭，認為哭是軟弱的標誌；現在她哭了，而世界沒有崩潰，而有人在旁邊。她臉上的表情不是悲傷，是一個長期緊繃的人終於鬆開時的困惑與解脫混合：「原來可以這樣」。
+普通的房間，柔和的側光，美夜子的一隻手抓著晴香的袖子，像是需要一個固定點，又像是不確定這個動作被不被允許。她**痛哭失聲**——聲音終於衝破了長年的壓抑，不是克制的、無聲的落淚，而是真正失控的、帶著哭聲的大哭。二十年來她認為自己不值得哭，認為哭是軟弱的標誌；現在她哭出聲了，而世界沒有崩潰，而有人在旁邊。她臉上的表情不是純粹的悲傷，而是長期緊繃的人終於徹底鬆開時嘅混合情緒——困惑、解脫、失控交織：「原來可以這樣」。
 
 **劇情位置**：
-- **時間點**：帝國歷134年7月 Act IV
-- **CDL追蹤**：miyako.md §Need；08_narrative_design §Dark Healing三大治癒
-- **前置事件**：美夜子Act III覺醒後以人形守護晴香20年，Act IV某個觸發瞬間令她第一次真正哭泣
-- **本場景功能**：展示美夜子弧光的決定性時刻——她一生第一次真正哭泣。不是崩潰，是軟化，是放下。她終於允許自己成為一個需要被安慰的人。她的眼淚不是悲傷的標誌，是解脫的標誌。
-- **後續payoff**：圖110美夜子笨拙演奏（弧光的最終一格）；美夜子Need的完整體現
+- **時間點**：`[NEEDS_FACT]` Act IV（具體時長「20年」與`yu.md`「數日」嘅主觀/客觀分裂方向未落CDL，見上）
+- **CDL追蹤**：CDL-326（美夜子記憶迷霧期與笨拙演奏，含「大哭」直接依據）；miyako.md §Need；§第四幕「美夜子的大哭」；02_glossary §Dark Healing
+- **前置事件**：美夜子Act III覺醒後以人形守護晴香，Act IV某個觸發瞬間令她第一次真正**痛哭失聲**
+- **本場景功能**：展示美夜子弧光的決定性時刻——她一生第一次真正、有聲嘅大哭。不是崩潰，是軟化，是放下。她終於允許自己成為一個需要被安慰的人。她的眼淚（同哭聲）不是悲傷的標誌，是解脫的標誌。
+- **後續payoff**：圖110美夜子笨拙演奏（CDL-326「尋回自己」之後，弧光的最終一格）；美夜子Need的完整體現
 
 **Reference Images**：
 - 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
@@ -5174,9 +5346,9 @@ anime wide shot city crowd of standing still people with void white eyes, scatte
 
 美夜子（人形，成年女性外表，但有一種貓科動物的姿態殘留在她的持身方式上）站著或坐著，距離晴香很近。她的一隻手抓著晴香的袖子——不是緊握，是抓著，像是需要固定點，又像是不確定這個行為被不被允許。
 
-她在哭。眼淚在臉上，不是大哭，是那種已經無法控制但沒有聲音的眼淚——眼睛睜著，眼淚只是流下來了。她不是在哭泣的動作中，她只是在哭泣的狀態中。
+她在哭——**痛哭失聲**（依`miyako.md`§第四幕明文修正，非原文「無聲眼淚」）。她的肩膀因哭聲而輕微顫動，呼吸不穩，這是一次真正失控的、有聲音的大哭，不是克制的落淚。
 
-她的表情：這是整個場景最難也最重要的部分。她的表情不是悲傷，是一個人在長期的緊繃終於鬆開的瞬間——一種像是「原來可以這樣」的困惑與解脫混合的表情。她20年來不哭，因為她認為自己不值得哭；現在她哭了，而世界沒有崩潰，而有人在旁邊。
+她的表情：這是整個場景最難也最重要的部分。她的表情不是純粹的悲傷，是一個人在長期的緊繃終於鬆開的瞬間——一種困惑、解脫與失控交織的表情，「原來可以這樣」。她長年不哭，因為她認為自己不值得哭；現在她哭出聲了，而世界沒有崩潰，而有人在旁邊。
 
 她沒有看晴香，或者她的視線落在很遠的地方。晴香的存在可以只是袖子，不需要晴香的臉在鏡頭裡。
 
@@ -5186,19 +5358,19 @@ anime wide shot city crowd of standing still people with void white eyes, scatte
 **生成提示（Midjourney）**：
 ```
 Style: quiet healing anime, soft realism, Act IV emotional resolution
-Mood: first release after 20 years of suppression, confused relief, soft unburdening, not tragedy but opening
+Mood: first release after years of suppression, sobbing openly, confused relief, cathartic unburdening, not tragedy but opening
 Colors: warm late afternoon side light, pale skin, tears catching light, muted earth tones, gentle fabric textures
-Composition: close to medium shot, woman in center-right frame, one hand gripping sleeve at frame left edge (person implied but not shown), face in soft side light, tears on cheek, eyes open and unfocused
+Composition: close to medium shot, woman in center-right frame, one hand gripping sleeve at frame left edge (person implied but not shown), face in soft side light, tears streaming, mouth slightly open with audible crying, shoulders trembling
 Lighting: warm diffused side light as primary, soft fill, no harsh shadows, light catches tear tracks on face
 Special effects: none — just the quality of light on tears and the expression
-Character: young adult woman with subtle feline quality in posture, dark hair, plain clothes, open eyes with tears flowing, expression of confused release rather than grief, hand gripping fabric at frame edge
+Character: young adult woman with subtle feline quality in posture, dark hair, plain clothes, openly sobbing with visible emotion (not silent tears), expression of confused release rather than pure grief, hand gripping fabric at frame edge, trembling shoulders
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-anime young woman close up with tears on face, warm side lighting, one hand gripping someone's sleeve at frame edge, open eyes unfocused, expression of relief and release rather than sadness, soft afternoon light, quiet emotional healing moment
+anime young woman close up sobbing openly with tears on face, warm side lighting, one hand gripping someone's sleeve at frame edge, trembling shoulders, expression of relief and release rather than sadness, soft afternoon light, quiet emotional healing moment with audible crying
 --ar 9:16 --niji 6
 ```
 
@@ -5217,10 +5389,10 @@ anime young woman close up with tears on face, warm side lighting, one hand grip
 美夜子第一次拿起吉他，手指放在琴弦上，姿勢是初學者的姿勢，音不一定準。她臉上是一個人在認真學一件還不會的事情的樣子——微微蹙眉，在專注。房間普通，光線普通，沒有任何戲劇性。她只是在學，她只是在這裡，她只是繼續。
 
 **劇情位置**：
-- **時間點**：帝國歷134年7月 Act IV Phase L（全片最後一幕）
-- **CDL追蹤**：miyako.md §終局；05_story_outline §Act IV
-- **前置事件**：圖109美夜子哭泣；Act IV所有事件完成
-- **本場景功能**：全片最後一幕。美夜子第一次嘗試演奏，笨拙的，不準確的，但她在繼續。這段旋律全片出現過四次，在不同角色身上以碎片形式出現；這是第四次，也是最後一次，由美夜子用不熟練的手指彈出。意義不在於演奏得好，而在於她在學，她在這裡，她繼續。
+- **時間點**：`[NEEDS_FACT]` Act IV Phase L（全片最後一幕）；具體時間標記「134年7月」沿用圖109同一假設，同樣受「20年主觀/客觀分裂」方向未落CDL影響，待Act IV Outline確認
+- **CDL追蹤**：CDL-326（記憶迷霧期與笨拙演奏，直接依據——「尋回自己之後」美夜子獨自找到晴香生前最後創作的未完成曲目）；miyako.md §第四幕；04_timeline_canon.md「美夜子笨拙演奏」
+- **前置事件**：圖109美夜子痛哭失聲；依CDL-326，美夜子須先經歷並走出「記憶迷霧期」（最終決戰衝擊令CDL-294舊傷復發），「尋回自己之後」才做出本場景嘅舉動——呢個先後順序係呢一幕份量嘅來源，唔係一直清醒噉做
+- **本場景功能**：全片最後一幕。美夜子第一次嘗試演奏，笨拙的，不準確的，但她在繼續。這段旋律`[NEEDS_FACT]`出現次數（原文稱「四次」，canon具體出現次數/角色未逐一核實，此輪未展開全文排查，如需精確引用建議下次專項source check）以碎片形式在不同角色身上出現；由美夜子用不熟練的手指彈出。意義不在於演奏得好，而在於她在學，她在這裡，她繼續。
 - **後續payoff**：（全片結束）
 
 **Reference Images**：
@@ -5373,7 +5545,9 @@ A dark urban back alley in a dystopian city at night, one brick wall partially d
 **建議輸出文件名**：`ConceptArt_Scene_TraumaCage_Manufacturing.png`
 ### 劇情背景
 
-心防內化裝置（Trauma Cage）是帝國強制植入心匣的標準化程序，用於「情緒合規化」——令人從生理層面無法感受特定情緒。心匣是魔法少女的靈魂容器，Trauma Cage植入後在容器內壁形成鳥籠骨架，永久限制情緒頻率的出入（07_entities_and_devices §心防內化裝置）。凜被重建後植入此裝置，造成感官剝奪創傷。這個程序是帝國最核心的社會控制技術，恐怖之處在於它是完全日常化的標準醫療流程。
+`[已修正 2026-07-17]` 原文將本裝置錯誤關聯到「凜」，屬角色/系統張冠李戴——依 `rin.md`（§身份、§被重組）明確記載，凜係**黑奏借維多利亞之淚集體潛意識深層讀寫功能重組**為情緒管理局公務員（記憶被改寫），其核心創傷「感官剝奪」源自呢個重組過程，同心防內化裝置完全係兩套獨立機制，凜全篇canon都未見同 Trauma Cage 有任何關聯。心防內化裝置（Trauma Cage）依 `07_entities_and_devices.md §section-trauma-cage` 明確定位係軍方「人型兵器計劃 Phase 1」廢棄後，針對 **The Unlinked（解離兵器——不在晴香五歲願望護甲範圍內、心之器結構性毀滅的普通少女）** 研發嘅第三代強制改造硬件，唔係用於凜呢類主角團成員（主角團因 Alpha 線因果牽連而有「護甲」保護，唔會被心防內化裝置處理）。
+
+核心機制實際為三層（非單純「植入一個籠子」）：① 心匣熔焊——暴力撬開並熔斷心匣物理介面，令持有者永久鎖死變身狀態；② 創傷反芻注射——與維多利亞之淚逆向連接，向大腦持續化學式注入原初創傷情緒；③ 成癮性代償回饋——戰鬥造成傷害時系統短暫回饋快樂幻覺，形成「只有摧毀時才能暫停痛苦」的病理驅動。三格構圖嘅「鳥籠骨架被植入」屬呼應裝置命名嘅象徵化視覺演繹 `[INFERRED]`，非逐字canon描述；如需更貼近三層機制本身，可考慮以「發光管線連接」取代單一鳥籠物件，但核心「情緒合規化」恐怖日常化主題方向不變。
 
 ### 圖片說明
 
@@ -5382,9 +5556,9 @@ A dark urban back alley in a dystopian city at night, one brick wall partially d
 **劇情位置**：
 - **時間點**：世界觀設定（無特定時間點，適用全片）
 - **CDL追蹤**：07_entities_and_devices §心防內化裝置（Trauma Cage）；02_glossary §trauma-cage
-  世界功能：帝國強制植入心匣的標準化程序，用於「情緒合規化」——令人從生理層面無法感受特定情緒，是帝國最核心的社會控制技術。
-  視覺功能：建立帝國「情緒工程」的恐怖日常化視覺；解釋相關角色體驗到的感官剝奪創傷來源；強調這不是例外，而是制度的標準作業。
-- **後續payoff**：凜相關的感官剝奪創傷；Body Horror機制的制度根源；Act III體制崩潰的視覺對應；角色情緒麻木的具體成因。
+  世界功能：帝國強制格式化 The Unlinked（解離兵器）的標準化程序，令持有者永久鎖死變身狀態並被迫陷入創傷反芻的成癮性驅動循環，是帝國最核心的社會控制/兵器製造技術。
+  視覺功能：建立帝國「情緒工程」的恐怖日常化視覺；解釋 The Unlinked 呢類無名兵器角色體驗到的痛苦驅動來源；強調這不是例外，而是制度的標準作業。
+- **後續payoff**：The Unlinked（解離兵器）機制的制度根源；Body Horror機制的制度對照（非同一系統，僅美學呼應）；Act III體制崩潰的視覺對應。`[NOTE]` 凜的感官剝奪創傷成因為黑奏/維多利亞之淚重組，非本裝置，唔應交叉引用。
 
 **詳細核心描述**（約320字）：
 
@@ -5535,11 +5709,13 @@ A massive ancient tree in a dark urban valley at night in a dystopian city. Enor
 **建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_NormalDay.png`
 ### 劇情背景
 
+`[已修正 2026-07-17]` 原文配色「白色大理石+帝國藍」直接違反canon已確立的帝國皇室美學規格——依 `06_visual_bible.md §section-art-imperial`「帝國皇室（The Imperial Court）」表，核心概念為「黑暗的威權 & 停滯的奢華」，配色明確定義為「深淵黑（基底）+ 皇家金（刺繡）+ 紫水晶（點綴）」，並非白色+藍色；`DIGEST_LOCATIONS.md §1 帝國廣場`亦已預先標註帝國廣場適用同一套「黑+金主色調，深淵黑基底配皇家金刺繡與紫水晶點綴」規格。原文全篇（詳細描述/Midjourney prompt/替代版本）配色已同步修正。
+
 帝國廣場是帝國秩序的展示空間與政治表演舞台，「帝國美好生活」的對外形象核心地點（06_visual_bible §帝國廣場）。日常狀態下的廣場是帝國情緒控制最集中的物理呈現——人造太陽的均勻照射、Emo-Visor的集體佩戴、步伐與情緒被同步校準的市民。朱音在Act III在此引爆自己（CDL-218，Day 14），廣場從「秩序展示空間」變為「尊嚴取回的地點」；此場景是對比基準。
 
 ### 圖片說明
 
-白天，大型廣場，中央是幾何精準的大理石地面圖案，向四周放射。修剪成完全相同形狀的樹木，間距完全一致地排列。廣場中央有一塊大屏幕，播放著笑臉和上升的光。市民穿著相似的素色衣服，步伐有節奏，保持恰好的間距——沒有人停下來，沒有人看手機，沒有人看旁邊的人。仔細看才會發現：這不是一個廣場，而是一場排練。
+白天，大型廣場，中央是幾何精準的黑色磨光石材地面圖案，鑲嵌皇家金色線條向四周放射。修剪成完全相同形狀的樹木，間距完全一致地排列。廣場中央有一塊大屏幕，播放著笑臉和上升的光。市民穿著相似的深色/黑色素色衣服，步伐有節奏，保持恰好的間距——沒有人停下來，沒有人看手機，沒有人看旁邊的人。仔細看才會發現：這不是一個廣場，而是一場排練。
 
 **劇情位置**：
 - **時間點**：世界觀設定（無特定時間點，適用全片）
@@ -5551,9 +5727,9 @@ A massive ancient tree in a dark urban valley at night in a dystopian city. Enor
 **詳細核心描述**（約300字）：
 
 
-白天，維多利亞之淚的光線從高空均勻投下，照亮帝國廣場每一個角落。廣場面積極大，中央有幾何精準的大理石地面拼圖，白色和帝國藍相間，從中心放射。周邊種植著完全對稱修剪的樹木（每一棵形狀相同，間距相同）。
+白天，維多利亞之淚的光線從高空均勻投下，照亮帝國廣場每一個角落。廣場面積極大，中央有幾何精準的深淵黑石材地面拼圖，鑲嵌皇家金色線條與紫水晶點綴，從中心放射。周邊種植著完全對稱修剪的樹木（每一棵形狀相同，間距相同）。
 
-帝國旗幟沿廣場四周高桅懸掛，旗幟靜止——沒有風，或者說帝國廣場有防風設計，一切都是被計算的秩序。建築立面是帝國標準的白色大理石，線條簡潔而宏偉，有一種刻意塑造的「永恆感」。
+帝國旗幟沿廣場四周高桅懸掛，旗幟靜止——沒有風，或者說帝國廣場有防風設計，一切都是被計算的秩序。建築立面是帝國標準的深淵黑基底配皇家金色線條，線條簡潔而宏偉，有一種刻意塑造的「永恆感」（依06_visual_bible §帝國皇室：黑暗的威權 & 停滯的奢華）。
 
 廣場中央設有一塊巨型屏幕（有機弧面設計，與建築融合），正在播放帝國公告或「維多利亞天使」的正能量廣播：畫面中是笑臉，是上升的光，是幸福的家庭圖像。屏幕光芒在陽光下依然可見。
 
@@ -5566,18 +5742,18 @@ A massive ancient tree in a dark urban valley at night in a dystopian city. Enor
 ```
 Style: dark anime illustration, painterly, architectural grandeur, subtly uncanny
 Mood: controlled beauty with underlying wrongness, the performance of happiness, eerie perfection
-Colors: white marble and imperial blue geometric ground pattern, clean white building facades, warm artificial sunlight from above, muted clothing in limited color palette
+Colors: abyssal black and royal gold geometric ground pattern with amethyst purple accents, dark stone building facades with gold trim, warm artificial sunlight from above contrasting against the dark palette, muted dark-toned clothing
 Composition: wide establishing shot of vast plaza, perfectly symmetrical tree rows, central large curved display screen, ordered human figures in mid-ground maintaining precise spacing
 Lighting: uniform warm artificial sunlight from Victoria's Tear above, no harsh shadows, everything evenly lit in a way natural sunlight never achieves
 Special effects: large central display screen showing smiling faces and light imagery, subtly synchronized pedestrian movement patterns
-Details: identical trimmed trees at exact intervals, stationary flags despite open space, citizens in coordinated muted colours, perfectly blank facial expressions, geometric marble ground pattern radiating from center
+Details: identical trimmed trees at exact intervals, stationary flags despite open space, citizens in coordinated dark muted colours, perfectly blank facial expressions, geometric abyssal-black-and-gold ground pattern radiating from center with amethyst accents
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A grand imperial plaza in a dystopian city on a bright day. Perfect white marble geometry, symmetrical trimmed trees, imperial flags, large display screen showing happy imagery. Citizens in matching muted clothes walking in synchronized orderly patterns with blank calm expressions. Uncanny perfection, dark anime style.
+A grand imperial plaza in a dystopian city on a bright day. Abyssal black and royal gold geometric stonework with amethyst accents, symmetrical trimmed trees, imperial flags, large display screen showing happy imagery. Citizens in matching dark muted clothes walking in synchronized orderly patterns with blank calm expressions. Dark opulent authority, uncanny perfection, dark anime style.
 --ar 16:9 --niji 6
 ```
 
@@ -5588,11 +5764,13 @@ A grand imperial plaza in a dystopian city on a bright day. Perfect white marble
 **建議輸出文件名**：`ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png`
 ### 劇情背景
 
-Emo-Visor Gen 3 是帝國情緒管理局向日區市民推廣的第三代情緒過濾頭戴裝置，通過過濾負面情緒頻率使「快樂」成為強制的生理狀態（02_glossary §emo-visor；07_entities §Emo-Visor）。使用者逐漸對過濾後的感覺產生依賴，無法回到未過濾的感官狀態。帝國情緒農場通過Emo-Visor批量收集日區市民的表層情緒能量（L1回聲層損耗，01_world_rules §三層連動）。此設定是「光幕破碎」場景（圖21）的視覺前提。
+`[已修正 2026-07-17]` 原文完全遺漏 Gen 3 Emo-Visor 最核心嘅硬體機制：依 `02_glossary.md §term-emo-visor` 同 `07_entities_and_devices.md §section-emo-visor`（Gen 3小節），裝置實際使用「安普膠囊（透明子彈狀發光彈夾）」作消耗品，一支膠囊只維持 **30 分鐘**，效力過後使用者會「突然跌回殘酷現實」——呢個「必須不斷補充膠囊、用完即墜落」嘅成癮循環，正正係「Emo-Visor Gen 3：集體成癮」呢個標題想表達嘅核心視覺重點，原文卻只畫咗一個靜態、持續佩戴嘅頭戴裝置，完全冇畫出膠囊消耗品同崩潰週期，令「成癮」主題失去咗最重要嘅物件錨點。已補上膠囊細節同暗示落差感嘅視覺線索。
+
+Emo-Visor Gen 3 是帝國情緒管理局向日區市民推廣的第三代情緒過濾頭戴裝置，通過過濾負面情緒頻率使「快樂」成為強制的生理狀態（02_glossary §emo-visor；07_entities §Emo-Visor）。使用者逐漸對過濾後的感覺產生依賴，無法回到未過濾的感官狀態。裝置搭配透明發光「安普膠囊」作消耗品，一支維持30分鐘，膠囊耗盡瞬間使用者會毫無緩衝地跌回未過濾的殘酷現實，此落差正是驅動下一支膠囊消費的成癮機制。帝國情緒農場通過Emo-Visor批量收集日區市民的表層情緒能量（L1回聲層損耗，01_world_rules §三層連動）。此設定是「光幕破碎」場景（圖21）的視覺前提。
 
 ### 圖片說明
 
-日區一家咖啡廳，早上，陽光過度完美。所有坐著的客人都戴著同款頭戴式裝置，覆蓋眼睛周圍，邊緣有微弱的藍色光點。每個人臉上都有幅度完全一致的微笑——不是開心的笑，是被校準的笑。他們喝咖啡、看報紙，動作流暢但整個場景有一種電視廣告的溫度。外賣員走進來，也戴著一樣的裝置，遞交包裹，表情和所有人一樣。畫面右側邊緣，有一個裝置邊緣有一個細小缺口，光膜略有破損。
+日區一家咖啡廳，早上，陽光過度完美。所有坐著的客人都戴著同款頭戴式裝置，覆蓋眼睛周圍，邊緣有微弱的藍色光點，太陽穴側面插著透明發光的安普膠囊，作為消耗品可見。每個人臉上都有幅度完全一致的微笑——不是開心的笑，是被校準的笑。他們喝咖啡、看報紙，動作流暢但整個場景有一種電視廣告的溫度。外賣員走進來，也戴著一樣的裝置，遞交包裹，表情和所有人一樣。畫面一角，一個客人的膠囊剛好耗盡熄滅，那一瞬間他臉上的微笑正在崩裂剝落，眼神暴露出底下未經過濾的疲憊與痛苦——這是全場唯一一個「真實」的表情，也是30分鐘循環即將重新開始（換上新膠囊）的訊號。畫面右側邊緣，有一個裝置邊緣有一個細小缺口，光膜略有破損。
 
 **劇情位置**：
 - **時間點**：世界觀設定（無特定時間點，適用全片）
@@ -5606,13 +5784,15 @@ Emo-Visor Gen 3 是帝國情緒管理局向日區市民推廣的第三代情緒�
 
 日區咖啡廳，早上。陽光透過大落地窗投入（維多利亞之淚的人造陽光，均勻、金黃、幾乎過於完美）。咖啡廳裝潢是帝國風格的簡潔現代感：白色、木色、幾何形。
 
-所有坐著的顧客都佩戴著Emo-Visor Gen 3：設計為一種頭戴式設備，覆蓋眼部周圍和太陽穴位置（類似大型滑雪護目鏡的形態，但薄而貼面），材質半透明，邊緣有微弱的帝國藍光點。佩戴後，使用者眼部周圍有一層幾乎看不見的光膜。
+所有坐著的顧客都佩戴著Emo-Visor Gen 3：設計為一種頭戴式設備，覆蓋眼部周圍和太陽穴位置（類似大型滑雪護目鏡的形態，但薄而貼面），材質半透明，邊緣有微弱的帝國藍光點，太陽穴側面插著一支透明子彈狀的發光安普膠囊，作為看得見的消耗品部件。佩戴後，使用者眼部周圍有一層幾乎看不見的光膜。
 
 每個人臉上都有「恰好合適」的微笑——幅度精確，持續穩定，完全一致。這不是開心的笑，是被校準的笑。他們喝咖啡、看報、低頭看桌面設備，動作自然流暢，但整個場景有一種被校準的溫度，像電視廣告的場景。
 
 一個外賣員走進門，也戴著Emo-Visor，遞交包裹，表情和所有人一樣。
 
-畫面右側邊緣，一個座位。空的，或者說，那個座位上的人的Emo-Visor有一個細節不同——一個微小的、似乎是手動修改過的缺口在邊緣，光膜的均勻度略有破損。這個人的臉不在畫面中心，是一個可以忽略的細節。
+畫面中景一角，一位顧客的膠囊光芒剛好熄滅——那一瞬間，他臉上校準的微笑正在如面具般剝落崩裂，眼神暴露出底下真實的疲憊與空洞。這是全場唯一「未過濾」的表情，暗示 30 分鐘循環即將重新開始：他即將換上新的安普膠囊，重新跌回「完美」。
+
+畫面右側邊緣，另一個座位。空的，或者說，那個座位上的人的Emo-Visor有一個細節不同——一個微小的、似乎是手動修改過的缺口在邊緣，光膜的均勻度略有破損。這個人的臉不在畫面中心，是一個可以忽略的細節。
 
 色調：全圖過度飽和的暖色（金黃、米白、咖啡褐），「太美好了」的視覺感。
 
@@ -5624,8 +5804,8 @@ Mood: uncanny happiness, the texture of mandatory joy, collective addiction dres
 Colors: oversaturated warm gold, cream, and coffee brown throughout, faint imperial blue edge glow on visor devices, everything too warm and too bright
 Composition: interior cafe scene, multiple customers at tables all wearing matching head-mounted visor devices, delivery worker entering with same device, far edge detail of slightly different modified visor
 Lighting: perfect uniform warm artificial sunlight through floor-to-ceiling windows, no harsh shadows, commercial-quality warmth
-Special effects: thin barely-visible light film around eyes of all wearers, precisely identical smile expressions across all faces
-Details: semi-transparent head-mounted eye visor with faint blue edge lights covering eye area and temples, calibrated identical smile expressions, natural fluid movements that feel subtly rehearsed, one barely-visible modified visor in far edge of frame
+Special effects: thin barely-visible light film around eyes of all wearers, precisely identical smile expressions across all faces, one figure mid-ground with capsule light extinguished and calibrated smile visibly cracking apart to reveal raw exhaustion underneath
+Details: semi-transparent head-mounted eye visor with faint blue edge lights covering eye area and temples, visible glowing bullet-shaped ampoule capsule inserted at the temple as a consumable component, calibrated identical smile expressions, natural fluid movements that feel subtly rehearsed, one figure's capsule just burned out marking the mandatory 30-minute crash-and-refill cycle, one barely-visible modified visor in far edge of frame
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
@@ -5643,35 +5823,35 @@ A bright café in a dystopian city where every customer wears matching semi-tran
 **建議輸出文件名**：`ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png`
 ### 劇情背景
 
-屍骸化（Magical Corpse）是魔法少女面對的最終命運威脅：心匣（靈魂容器）燃盡後，人失去意識主體，身體繼續執行最後記住的動作，直至物理崩解（01_world_rules §三位一體光譜；02_glossary §magical-corpse）。三位一體光譜顯示人類、魔法少女、魔法屍骸是同一條情感耗損光譜上的不同狀態，屍骸化是光譜的最終端。此場景的核心恐怖是：從外面完全看不出任何異常——身體繼續動，但靈魂已經不在了。
+`[已修正 2026-07-17，核心機制方向錯誤]` 原文核心視覺前提（「人失去意識主體」「靈魂已經不在了」「有眼睛但沒有人在後面」）依 `01_world_rules_and_costs.md §rule-corpseification`（CDL-271）已被明確取代——canon 舊描述（靈魂已離體、新軀殼填入）已作廢，現行機制係「**靈魂困禁**」：屍骸化不是靈魂永久離體，而是靈魂因執念被困肉體，仍以 1% 控制力對抗 99% 情緒廢料，「屍骸是被困在地獄中的靈魂，不是無意識的空殼」。canon 明確容許嘅唯一「靈魂完全離開、肉體變無主容器」情況（§corpseification「靈魂距離光譜」段），前提係當事人「執念不足／全無執念」——但呢個 spec 嘅後續 payoff 明確指向 SPEC#22 小光屍骸化，而小光屍骸化嘅執念錨點正正係紫音（canon §corpseification 例子直接點名「小光想起紫音」），即小光屬於「有執念錨點」嘅困禁案例，唔係「靈魂完全離開」嘅無主容器案例。故本場景作為「屍骸化」通用視覺語言基礎，核心視覺必須改為「靈魂被困、微弱掙扎」，而非「靈魂已經消失」。原文全篇（詳細描述/Midjourney prompt/替代版本）已同步修正。
+
+屍骸化（Magical Corpse）是魔法少女面對的最終命運威脅：長期高壓創傷令靈魂本能地想扯斷因果線逃入集體潛意識深海，但0.1秒決定時刻，對某人某事的執念會強行扣住即將斷裂的因果線，令靈魂被困於已被情緒廢料倒灌、異化成怪物的肉體內——只能控制1%的動作，其餘99%被怪物本能主導（01_world_rules §rule-corpseification，CDL-271）。三位一體光譜顯示人類、魔法少女、魔法屍骸是同一條情感耗損光譜上的不同狀態，屍骸化是光譜的最終端。此場景的核心恐怖不是「靈魂已經不在了」，而是相反——靈魂仍在，仍清醒，卻只能以1%的力量困在自己已經失控的身體裡，從外面完全看不出這場無聲的囚禁。
 
 ### 圖片說明
 
-普通超市，日光燈白色照明，背景音樂，一切日常。一個女人正在推購物車，伸手拿貨架上的商品——動作完全普通。她胸腔有一個極微弱的光點，正在最後熄滅：邊緣光暈已消散，中心只剩一粒針尖大的暖光。然後光點熄滅了。她的手繼續拿起商品，放進購物車，購物車繼續前進。但她的眼睛空了——瞳孔在，眼白正常，眼神方向正確，只是那個使眼神成為眼神的東西，消失了。周圍所有人繼續購物，沒有人注意到。
+普通超市，日光燈白色照明，背景音樂，一切日常。一個女人正在推購物車，伸手拿貨架上的商品——動作完全普通。她胸腔有一個極微弱的光點，正在劇烈地明滅掙扎：光點試圖維持，卻一次次被更強大的黑暗拉扯壓下，最終被壓縮到只剩針尖大小，穩定在一個極度微弱但沒有完全熄滅的狀態。她的手繼續拿起商品，放進購物車，購物車繼續前進，動作是怪物本能的自動導航。但她的眼睛裡有一瞬間的違和——不是完全空洞，而是像隔著厚重毛玻璃仍能看到裡面有人在用盡全力凝視、卻無法讓身體停下來的絕望眼神，隨即那道目光又被壓回深處。周圍所有人繼續購物，沒有人注意到。
 
 **劇情位置**：
 - **時間點**：世界觀設定（無特定時間點，適用全片）
-- **CDL追蹤**：01_world_rules §心之器；02_glossary §magical-corpse；SPEC#22小光死亡視覺語境
-  世界功能：屍骸化（Magical Corpse）是心之器燃盡後的必然結果——人失去意識主體，身體繼續執行最後記住的動作，直至物理崩解。這是故事世界中魔法少女面對的最終命運威脅。
-  視覺功能：建立「屍骸化」的靜止恐怖視覺語言；呈現這個過程的核心恐怖：從外面完全看不出任何異常；為故事中多個屍骸化角色的場景提供視覺定義。
-- **後續payoff**：SPEC#22小光屍骸化；SPEC#10紫音過載（她主動燃盡，以此對比被動屍骸化的意義）。
+- **CDL追蹤**：01_world_rules §rule-corpseification（CDL-271 靈魂困禁機制）；02_glossary §magical-corpse；SPEC#22小光死亡視覺語境
+  世界功能：屍骸化（Magical Corpse）是靈魂因執念被困肉體的悲劇結果——靈魂僅存1%控制力對抗99%情緒廢料主導的怪物本能，並非意識完全消失。這是故事世界中魔法少女面對的最終命運威脅。
+  視覺功能：建立「屍骸化」的靜止恐怖視覺語言；呈現這個過程的核心恐怖：靈魂仍在，仍清醒，卻被困無法喊停自己的身體，從外面完全看不出任何異常；為故事中多個屍骸化角色（尤其有執念錨點者）的場景提供視覺定義。
+- **後續payoff**：SPEC#22小光屍骸化（小光的執念錨點為紫音，屬於「有執念、靈魂被困」案例，非靈魂已離體）；SPEC#10紫音過載（她是主動靈魂抽離／過載消散，屬於另一套「不可逆死亡」機制，同本場景的「靈魂困禁」明確區分，不可混用）。
 
-**詳細核心描述**（約310字）：
+**詳細核心描述**（約330字）：
 
 
 日區一家普通超市，日光燈的白色照明，貨架整齊，有背景音樂。這是日常生活中最普通的場景。
 
-畫面中央：一個女性（面目中性化，不具體呈現某角色）正在推購物車，手伸向貨架，準備拿一件商品。這個動作完全普通，完全日常。
+畫面中央：一個女性（面目中性化，不具體呈現某角色）正在推購物車，手伸向貨架，準備拿一件商品。這個動作完全普通，完全日常，但帶著一絲肉眼難以言明的機械感——像是身體在自動導航，而不是「她」在決定拿哪件商品。
 
-她的胸腔位置有一個光點，極微弱，用散焦的方式呈現——不是清晰可見的發光，而是「如果你仔細看才會發現的微弱暖光」。在畫面的時間軸上，這個光點正在最後的熄滅過程中：邊緣的光暈已經消散，中心只剩下一個針尖大的光粒。
+她的胸腔位置有一個光點，極微弱，用散焦的方式呈現——不是清晰可見的發光，而是「如果你仔細看才會發現的微弱暖光」。在畫面的時間軸上，這個光點正在進行一場無聲的拉鋸：光點試圖維持存在，邊緣被更巨大的黑暗情緒廢料侵蝕、拉扯、壓縮，最終被壓制到僅剩針尖大小——但沒有完全熄滅，仍在1%的微光裡頑強閃動。
 
-然後：光點完全熄滅。
+她的手繼續伸向貨架，拿起商品，放入購物車。動作流暢，節奏機械，是怪物本能的99%在主導。
 
-她的手繼續伸向貨架，拿起商品，放入購物車。動作流暢，節奏和熄滅前完全一樣。購物車繼續前進。
+但她的眼睛裡，有一瞬間的違和。
 
-但她的眼睛空了。
-
-這是整張圖最核心的視覺細節：眼睛的空。不是閉上，不是白眼，不是任何誇張的表現——是「有眼睛，但沒有人在後面」。瞳孔存在，眼白正常，眼神的方向正確，但那個使眼神成為眼神的東西，消失了。
+這是整張圖最核心的視覺細節：不是「空洞」，而是「被困」。瞳孔存在，眼白正常，眼神方向正確——但在那一瞬間，觀眾能感覺到，隔著一層厚重的毛玻璃，裡面仍有一個人用盡全力在凝視、在掙扎，卻連讓自己的手停下來這麼簡單的事都做不到。隨即，那道目光的重量又被壓回深處，恢復成表面上「正常購物」的平靜。
 
 周圍超市的其他顧客繼續購物，完全沒有注意到任何異常。收銀員在遠處掃描商品。一切如常。
 
@@ -5681,19 +5861,19 @@ A bright café in a dystopian city where every customer wears matching semi-tran
 **生成提示（Midjourney）**：
 ```
 Style: dark anime illustration, painterly, quiet horror, hyper-realistic mundane setting
-Mood: still horror, the terror of unnoticeable death, the uncanny valley of continued motion without presence
-Colors: cold white fluorescent supermarket lighting, ordinary product colours, the fading soul vessel as the only warm colour point — barely visible dying amber pinprick at chest
-Composition: medium close-up slightly off-center, female figure reaching for shelf with shopping cart, chest area in focus showing the last moment of light extinction, other customers and cashier visible in background continuing normally
-Lighting: flat cold fluorescent retail lighting throughout, tiny dying warm glow at sternum visible only on careful inspection
-Special effects: soul vessel light at the moment of final extinction — a single pinpoint of warmth gone cold, the precise moment eyes become empty without any visible physical change
-Details: completely ordinary supermarket interior, ordinary groceries, normal clothing, other shoppers and staff unaware, the emptiness is only in the eyes — pupils present, direction correct, but no one behind them
+Mood: still horror, a trapped soul screaming in silence behind a body on autopilot, the terror of consciousness with no control
+Colors: cold white fluorescent supermarket lighting, ordinary product colours, the struggling soul vessel as the only warm colour point — a faint amber pinprick at chest flickering against encroaching darkness
+Composition: medium close-up slightly off-center, female figure reaching for shelf with shopping cart, chest area in focus showing the soul light straining against suppression, other customers and cashier visible in background continuing normally
+Lighting: flat cold fluorescent retail lighting throughout, tiny struggling warm glow at sternum visible only on careful inspection
+Special effects: soul vessel light locked in a losing struggle against dark corruption, a fleeting instant where the eyes show someone still awake and pleading behind glass, then the look sinks back beneath the surface
+Details: completely ordinary supermarket interior, ordinary groceries, normal clothing, other shoppers and staff unaware, the horror is a trapped consciousness glimpsed for a split second — not emptiness, but imprisonment
 Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-A woman in an ordinary supermarket reaching for items on a shelf. At her sternum, a tiny dying light just extinguished. Her hand continues the motion, but her eyes are empty — physically unchanged yet completely vacant. Other shoppers continue normally, unaware. Still horror, ordinary setting, dark anime style, no graphic content.
+A woman in an ordinary supermarket reaching for items on a shelf. At her sternum, a tiny warm light flickers, straining against encroaching darkness but not extinguished. Her hand continues the motion on autopilot, but for one fleeting instant her eyes show someone still trapped inside, aware and pleading, before the look sinks away again. Other shoppers continue normally, unaware. Still horror, ordinary setting, dark anime style, no graphic content.
 --ar 16:9 --niji 6
 ```
 
@@ -5704,7 +5884,9 @@ A woman in an ordinary supermarket reaching for items on a shelf. At her sternum
 **建議輸出文件名**：`ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png`
 ### 劇情背景
 
-彩的主意識被黑奏人格囚禁在自身身體的深層意識空間，以通風管道形態呈現——源自Y079年彩六歲時、螢被殺害那夜躲藏的通風管道的創傷記憶（aya.md §葉語彩；CDL-076；候選B通風管道場景）。彩在這個空間能透過縫隙觀察外界——看到黑奏的行動，聽到晴香的笑聲——但無法干預，無法接觸。這個空間既是她的監獄，也是她的保護殼，直到Act III她奪回身體（圖8）。
+`[已修正 2026-07-17]` 原文 Reference Image 用 `ConceptArt_Aya_CasualWear.png`（彩學生偽裝/便服形態，屬黑奏操控下嘅少女外觀）套用喺一個「非常小的女孩」（6歲真身）身上——同批次11圖106已確認嘅同類錯誤（彩/黑奏真身vs偽裝形態混淆）同一模式，已修正為 `[NO_REF]`。另外原文將呢個空間定調為「美麗與囚禁同在」「如夢似幻」，但依 `aya.md`（§葉語彩）明文，彩嘅心房「被黑奏重構為一個永遠停留在通風管道那夜的空間——**黑暗、狹窄、充滿螢的血腥氣味**」——呢個係一個創傷重演空間，唔係一個客觀上美麗嘅囚牢；已補回呢層核心基調，情緒結晶苔嘅視覺點綴（沿用批次11圖106已接受嘅 `[INFERRED]` 演繹）保留但降低「夢幻」比重，強化「創傷現場」定性。
+
+彩的主意識被黑奏人格囚禁在自身身體的深層意識空間，以通風管道形態呈現——源自Y079年彩六歲時、螢被殺害那夜躲藏的通風管道的創傷記憶，空間本身重構自「螢死去那夜」，黑暗狹窄，帶著揮之不去的血腥氣味殘留（aya.md §葉語彩；CDL-076；候選B通風管道場景）。彩在這個空間能透過縫隙觀察外界——看到黑奏的行動，聽到晴香的笑聲——但無法干預，無法接觸。這個空間既是她的監獄，也是創傷記憶的永恆重演，直到Act III她奪回身體（圖8）。
 
 ### 圖片說明
 
@@ -5718,40 +5900,40 @@ A woman in an ordinary supermarket reaching for items on a shelf. At her sternum
 - **後續payoff**：SPEC#106彩在心房中摸熊公仔；SPEC#8彩奪回身體（從這裡突破出去）；候選B通風管道場景的主題共鳴。
 
 **Reference Images**：
-- 彩（便服）：`ConceptArt_Aya_CasualWear.png`
+- 彩（6歲真身，被囚狀態）：`[NO_REF — 本場景為彩的6歲真身在心房被囚狀態，非黑奏操控下的少女偽裝形態，暫無對應reference image]`
 
 **詳細核心描述**（約330字）：
 
 
-狹窄的通風管道，但「永恆化」了。
+狹窄的通風管道，但「永恆化」了——這是螢死去那夜的空間，被強行凝固、重複播放。
 
-管道的基本形態是舊式工業通風管：金屬壁，螺釘，矩形截面，管道轉彎，分叉。這些都是真實的通風管道元素，可以辨認，有質感，有鏽跡，有歲月感。這個空間的根基是真實的記憶，不是夢境的隨機生成。
+管道的基本形態是舊式工業通風管：金屬壁，螺釘，矩形截面，管道轉彎，分叉。這些都是真實的通風管道元素，可以辨認，有質感，有鏽跡，有歲月感。空間整體基調黑暗、狹窄、壓迫，帶著揮之不去的血腥氣味殘留感——這個空間的根基是一場真實的創傷記憶，不是夢境的隨機生成，也不是一個純粹供人欣賞的美麗囚牢。
 
-然而，管道壁上、角落、接縫處——情緒結晶在生長。不是入侵性的生長，而是緩慢的、有機的積累，像苔蘚在石縫中生長一樣自然。這些結晶呈半透明，有淡淡的顏色（每種顏色對應一種被壓制的情緒：淡紫羅蘭是悲傷，暗玫瑰是憤怒，冰藍是恐懼，暗金是渴望），它們在沒有光源的情況下自發地微微發光，令整個管道空間有一種幽微的彩光。
+管道壁上、角落、接縫處——情緒結晶隱約在生長`[INFERRED]`。不是入侵性的生長，而是緩慢的、有機的積累，像苔蘚在石縫中生長一樣自然。這些結晶呈半透明，帶著壓抑的暗色調（淡紫羅蘭是悲傷，暗玫瑰是憤怒，冰藍是恐懼，暗金是渴望），只微微發出幽暗的光——不是浪漫化的裝飾，而是長期壓抑情緒的沉澱物，與周遭的黑暗和壓迫感並存，而非蓋過它。
 
-彩的身影蜷縮在一個管道轉彎的角落，非常小——她在這個空間中的身體尺度是縮小的，或者說管道是她生命中某個特定時刻的尺度，而她在這裡永遠是那個小孩的大小。她抱著膝蓋，臉朝著管道的縫隙方向，但我們看不到她的臉——只有她的背影和蜷縮的輪廓。
+彩的身影蜷縮在一個管道轉彎的角落，非常小——這是她6歲時的真身尺度，她在這裡永遠是那個小孩的大小。她抱著膝蓋，臉朝著管道的縫隙方向，但我們看不到她的臉——只有她的背影和蜷縮的輪廓。
 
 管道的縫隙（金屬板之間的接縫）透出外面世界的光：隱約可見黑奏在做什麼（日常行為的影像，模糊，像隔著霧玻璃），或者可以聽到晴香的笑聲（用視覺化的聲波紋理表達），但這些光和聲音在縫隙邊緣就停住了，進不來，彩也出不去。
 
-美麗與囚禁同在：這個空間客觀上是美的，情緒結晶的光讓人覺得如夢似幻；但每一道縫隙都在提醒彩，外面的世界觸手可及卻永遠不屬於她。
+囚禁與殘留創傷同在：情緒結晶的微光沒有洗去這個空間的黑暗與壓迫本質，每一道縫隙都在提醒彩，外面的世界觸手可及卻永遠不屬於她，而身後的黑暗，永遠是那一夜。
 
 
 **生成提示（Midjourney）**：
 ```
-Style: dark anime illustration, painterly, surreal psychological space, intimate claustrophobic beauty
-Mood: beautiful imprisonment, the ache of witnessing but not touching, crystallised grief in a confined eternal space
-Colors: industrial metal grey and rust as base, overlaid with softly glowing translucent crystals in muted violet, rose, ice blue, and dark gold, light seeping through seams from outside world in warm gold fragments
-Composition: narrow industrial ventilation duct interior, tight perspective showing the confined space extending into darkness, small figure of a girl curled in a corner bend, crystal growth on walls catching and refracting faint internal glow, shaft of outside-world light through seam cracks
-Lighting: no external light source — only the faint organic glow of emotion crystals on walls, warm gold seam light from outside visible but contained
-Special effects: translucent crystalline growth in multiple emotional colours emerging organically from metal seams and corners, blurred impressions of outside world visible through seam gaps, implied sound visualised as gentle waveform texture near gaps
-Details: weathered industrial metal ventilation duct with visible screws and joints, aged texture, crystal formations growing like moss in corners, a very small girl figure curled facing away toward a seam gap, outside world impressions fragmented and unreachable
+Style: dark anime illustration, painterly, surreal psychological space, claustrophobic trauma-space
+Mood: a trauma frozen and replayed forever, imprisonment without beauty to soften it, the ache of witnessing but not touching
+Colors: industrial metal grey and rust as dominant base, muted dark violet/rose/ice-blue/dark-gold crystal glow kept subdued and secondary, light seeping through seams from outside world in distant warm gold fragments
+Composition: narrow industrial ventilation duct interior, tight oppressive perspective showing the confined space extending into darkness, very small girl figure curled in a corner bend, faint crystal growth on walls barely catching light, shaft of outside-world light through seam cracks staying distant and unreachable
+Lighting: overwhelmingly dark, only the faint organic glow of emotion crystals barely visible on walls, warm gold seam light from outside visible but contained and small
+Special effects: translucent crystalline growth in muted emotional colours emerging organically from metal seams and corners as sediment not decoration, blurred impressions of outside world visible through seam gaps, implied sound visualised as gentle waveform texture near gaps
+Details: weathered industrial metal ventilation duct with visible screws and joints, aged texture, dominant darkness and oppressive tightness, faint crystal formations growing like moss in corners, a very small 6-year-old girl figure curled facing away toward a seam gap, outside world impressions fragmented and unreachable
 Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 ```
 
 ### 替代版本（若被拒絕）
 
 ```
-Interior of an old industrial ventilation duct, narrow and confined. Crystalline growths in soft violet, rose, and blue glow faintly from the metal walls like bioluminescent moss. A very small girl curled up in a corner, facing away, looking toward a thin crack of light from outside. Beautiful and imprisoning. Surreal psychological space, dark anime style.
+Interior of an old industrial ventilation duct, narrow, dark, and oppressively confined. Faint crystalline growths in muted violet, rose, and blue glow barely visible on the metal walls like sediment, not decoration. A very small child curled up in a corner, facing away, looking toward a thin crack of light from outside that never reaches her. Imprisonment and frozen trauma, not beauty. Surreal psychological space, dark anime style.
 --ar 9:16 --niji 6
 ```
 
@@ -5766,33 +5948,35 @@ Interior of an old industrial ventilation duct, narrow and confined. Crystalline
 
 ### 圖片說明
 
-夜區街角，潮濕青石板地面，路燈昏黃。朱音蜷縮在牆根，斷癮症狀讓她四肢痙攣、冷汗滲出，但她的脊背仍以某種荒謬的倔強保持弧度，像一隻試圖裝作不虛弱的受傷貓。晴香蹲在她前面，直視著她，表情認真、有點笨拙——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦」。朱音的手接過去那一刻，臉上是大腦當機的樣子——第一次有人對她做出毫無目的的善意，她算不出來。
+`[已修正 2026-07-17]` 原文台詞「食粒糖先啦」為 CDL-052 原句嘅截斷版，canon完整台詞為「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」——已補全。地點原文「夜區街角」，canon（CDL-052）明確係「後巷」，已修正。「後續payoff」原文只點名Act III糖果山犧牲，但依`ACT_III_OUTLINE.md`（E-III-G4，行143）記載，珍寶珠意象嘅直接文本呼應係Phase G4「下水道無聲重逢」（晴香「留下一包糖與醫療物資，呼應入隊時的珍寶珠」），糖果山犧牲屬更後段嘅廣義情感收束，已補正確payoff鏈次序。
+
+夜區後巷，潮濕青石板地面，路燈昏黃。朱音蜷縮在牆根，斷癮症狀讓她四肢痙攣、冷汗滲出，但她的脊背仍以某種荒謬的倔強保持弧度，像一隻試圖裝作不虛弱的受傷貓。晴香蹲在她前面，直視著她，表情認真、有點笨拙——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」朱音的手接過去那一刻，臉上是大腦當機的樣子——第一次有人對她做出毫無目的的善意，她算不出來。
 
 **劇情位置**：
-- **時間點**：113年3-4月 Act I，E-02 系列後段
+- **時間點**：113年3-4月 Act I，E-02 系列後段（E-02.5）
 - **CDL追蹤**：CDL-052；`05_story_outline_canon.md §Act I E-02`
 - **前置事件**：朱音加入帝國體制作為清剿魔法少女的工具，但長期情緒毒品使用令她陷入反復斷癮循環
 - **本場景功能**：朱音弧光起點——「入隊」不是因為信念，而是因為一粒糖。微小善意突破了她最堅硬的防線。展示晴香「食粒糖先」的行事邏輯。
-- **後續payoff**：朱音對主角團的奇特忠誠（不是信仰式，而是流浪動物式）；Act III 糖果山犧牲的情感重量
+- **後續payoff**：朱音對主角團的奇特忠誠（不是信仰式，而是流浪動物式）；直接文本呼應為 Act III Phase G4「下水道無聲重逢」（晴香留下一包糖與醫療物資，明確呼應本場景的珍寶珠）；再延伸至 Act III Day14 帝國廣場糖果山犧牲的情感重量
 
 **Reference Images**：
 - 朱音：`ConceptArt_Akane_MagicalGirl.png`
 - 晴香：`ConceptArt_Haruka_MagicalGirl.png`
 
 **Creative Enhancements**：
-- 場景：夜區街道路邊，潮濕地面，昏暗路燈
-- 朱音蜷縮在街角牆根，因斷癮症狀渾身顫抖（冷汗、痙攣），腿收縮，表情扭曲但仍保持某種僵硬的驕傲
+- 場景：夜區後巷，潮濕地面，昏暗路燈
+- 朱音蜷縮在後巷牆根，因斷癮症狀渾身顫抖（冷汗、痙攣），腿收縮，表情扭曲但仍保持某種僵硬的驕傲
 - 晴香蹲在她面前，拿著一根剝好包裝紙的珍寶珠（波板糖），神情認真地遞給她
 - 朱音接過糖的手微微顫抖，神情是「大腦當機」——第一次有人對她做出毫無目的的善意之舉
 - 構圖焦點：兩人之間的高度差（晴香蹲下，朱音坐在更低的地面），那一根糖在畫面中心
 
 **詳細核心描述**（250字）：
 
-夜區街角，潮濕的青石板地面，路燈燈光幽黃。
+夜區後巷，潮濕的青石板地面，路燈燈光幽黃。
 
 朱音蜷縮在牆根——情緒毒品戒斷症狀令她無法站立，四肢痙攣，額頭滲出冷汗，但她的脊背仍以某種荒謬的倔強保持著弧度，像一隻試圖裝作不虛弱的受傷貓。
 
-晴香蹲在她前面，直視她，表情不是憐憫，不是焦慮，是認真的、有點笨拙的誠懇——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦」。
+晴香蹲在她前面，直視她，表情不是憐憫，不是焦慮，是認真的、有點笨拙的誠懇——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」
 
 就這樣。沒有說教，沒有解救，沒有要求。只是一粒糖。
 
@@ -5816,11 +6000,13 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SkirtQuestion.png`
 ### 劇情背景
 
+`[已修正 2026-07-17]` 原文台詞「你條裙有無整污糟？」為 CDL-050 原句嘅意譯簡化版，canon完整台詞為「好彩趕得切！妳條裙無整污糟呀嘛？」——已補全。另外，依 `ACT_I_BEAT_SHEET.md` SCENE 3-6，操中陷阱、晴香擋攻擊（SCENE 4）發生喺屍骸戰鬥**進行中途**，屍骸要到 SCENE 6（戰鬥結束）先被合力消滅——原文「戰場殘跡，屍骸已清除」誤將呢一刻放喺戰鬥結束後嘅平靜殘局，時序有誤，已修正為戰鬥仍在收尾、屍骸剛倒下但現場仍有餘波嘅緊張瞬間。
+
 帝國歷113年3-4月，Act I E-02 屍骸大型戰。操在戰場陷阱中被圍，主角團突然出現介入。晴香以自身擋住了攻擊，滿臉是血，回頭後問了操一句令整個功效主義邏輯系統短路的問題（CDL-050；05_story_outline_canon §Act I E-02）。操第一次無法以任何「同伴」或「戰場邏輯」模型計算眼前這個人——這是她加入主角團的弧光起點，也是Act III犧牲的情感根源。
 
 ### 圖片說明
 
-戰場殘跡，碎石和焦痕遍布地面。晴香回頭，血從額頭流下，打溼了半邊臉——她用自己的身體擋住了那一擊，沒有技術計算，就是直接站在前面。她看著操，神情認真，問出了讓操整個邏輯系統短路的問題：「你條裙有無整污糟？」不是「你有無受傷」，不是「你能繼續打嗎」，是「你條裙」。操站在她身後，尚未反應，傲慢防線出現裂縫——不是被強大打動，而是被「她在乎的是我的裙」打動。
+戰鬥收尾瞬間，剛擊退嘅巨爪屍骸仍在畫面邊緣倒下、碎石和焦痕遍布地面，戰鬥的煙塵未散。晴香回頭，血從額頭流下，打溼了半邊臉——她用自己的身體擋住了那一擊，沒有技術計算，就是直接站在前面。她看著操，神情認真，問出了讓操整個邏輯系統短路的問題：「好彩趕得切！妳條裙無整污糟呀嘛？」不是「你有無受傷」，不是「你能繼續打嗎」，是「你條裙」。操站在她身後，尚未反應，傲慢防線出現裂縫——不是被強大打動，而是被「她在乎的是我的裙」打動。
 
 **劇情位置**：
 - **時間點**：113年3-4月 Act I，E-02 屍骸大型戰
@@ -5836,19 +6022,19 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **Creative Enhancements**：
 - 場景：大型屍骸戰後，戰場廢墟殘跡
 - 晴香在前方擋住了攻擊，滿臉是血，但她回過頭問操
-- 晴香的笑：不是英雄式微笑，是真的有點傻的、帶血卻真誠的問話「條裙有無整污糟？」
+- 晴香的笑：不是英雄式微笑，是真的有點傻的、帶血卻真誠的問話「好彩趕得切！妳條裙無整污糟呀嘛？」
 - 操的表情：傲慢防線在那一刻出現裂縫——不是被強大打動，而是被「她在乎的是我的裙」打動
 - 視覺對比：滿臉鮮血的晴香 vs. 問裙子這個荒謬問題的認真神情
 
 **詳細核心描述**（250字）：
 
-戰場殘跡。屍骸已清除，碎石與焦痕遍布地面。
+戰鬥收尾瞬間。剛被擊退嘅屍骸仍在畫面邊緣，碎石與焦痕遍布地面，煙塵未散。
 
 晴香回頭，血從額頭流下，打溼了半邊臉。她擋住了那一擊——用自己的身體，沒有任何技術計算，就是直接站在前面。
 
 操站在她身後，尚未反應。
 
-晴香看了她一眼，神情認真——不是擔心操，而是問出了那句讓操整個邏輯系統短路的問題：「你條裙有無整污糟？」
+晴香看了她一眼，神情認真——不是擔心操，而是問出了那句讓操整個邏輯系統短路的問題：「好彩趕得切！妳條裙無整污糟呀嘛？」
 
 不是「你有無受傷」，不是「你有無繼續戰鬥的能力」，是「你條裙」。
 
@@ -5867,61 +6053,19 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ---
 
-## 圖122：「軟接觸——美夜子廢棄地鐵站遞水」（Worthless Vigil: The Underground Station）[ACT_II]
+## 圖122：「軟接觸——美夜子廢棄地鐵站遞水」（Worthless Vigil: The Underground Station）[ACT_II] `[DELETE_CANDIDATE — 已停用，與 SPEC#92 重複衝突]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_WorthlessVigil2.png`
-### 劇情背景
+`[已修正 2026-07-17，DELETE_CANDIDATE]` 本場景同 **SPEC#92「美夜子無價值留守」完全係同一個 beat**——相同 CDL（CDL-191）、相同時間點（113年7月 Act II Phase C，E-09後）、相同地點（廢棄地鐵站）、相同「後續payoff」（美夜子三段式覺醒/終於哭出來），但兩者對同一場戲嘅具體演繹**互相矛盾**：
 
-帝國歷113年7月，Act II Phase C。晴香因光幕破碎事件（夕劫持身體直播屍骸殺戮影片，CDL-244）導致社會性死亡，跌至人生最低點，幾乎到達半屍骸化邊緣。美夜子在廢棄地鐵站找到她，沒有給予安慰或鼓勵，只是遞出一杯常溫水，說了不到十個字（CDL-191；miyako.md §羈絆）。這是美夜子從「功利性守護」轉為「無條件羈絆」的絕對分水嶺，也是她後來Act III覺醒（圖27）的情感基礎。
+| 項目 | SPEC#92（已核實ACCURATE） | 本場景（原文） |
+|---|---|---|
+| 美夜子形態 | 貓形態（`ConceptArt_Miyako_Cat.png`） | 人形態（`ConceptArt_Miyako_MagicalGirl.png`）——依`DIGEST_CHARACTER_STATES.md` MY-S1/S2，Act II Phase C此刻美夜子人形戰鬥形態仍未穩定（要到Act III MY-S3先穩定），人形態reference有誤 |
+| 遞出物件 | 沒氣可樂罐（叼來） | 常溫水（塑料杯） |
+| 對白 | 全程無對白（純沉默陪伴） | 「妳依家確實係一件廢物。但係，我唔會走。」 |
 
-### 圖片說明
+依 `ACT_II_OUTLINE.md`（E-09，CDL-191原文）：「美夜子拿走手機關機，遞沒氣可樂...核心台詞：『妳依家確實係一件廢物。但係，我唔會走。我哋邊度都唔去。』」——canon 原文其實**同時包含遞可樂嘅動作同呢句台詞**，兩個spec各自只擷取咗一半，互相矛盾地各自宣稱另一半唔存在。保留兩個各執一半、互相矛盾嘅spec條目對生成流程有害（AI唔知該用貓定人形、可樂定水、有對白定無對白）。
 
-廢棄地鐵站月台，昏暗角落，遠處有帝國廣播的迴響聲。美夜子遞出一杯水——常溫的，簡單塑料杯，沒有包裝。她說：「妳依家確實係一件廢物。但係，我唔會走。」不是安慰，不是鼓勵，是真話加上留下來的事實。晴香接過水，沒有喝，只是握著，水溫和手心相差不多。美夜子站在旁邊，手機放在地上，不是關掉，是直接放下不看。這就是她們的分水嶺。
-
-**劇情位置**：
-- **時間點**：113年7月 Act II Phase C，SPEC#21 光幕破碎後的最低點
-- **CDL追蹤**：CDL-191；`canon/03_characters/miyako.md §羈絆`
-- **前置事件**：晴香因光幕破碎事件「社會性死亡」，跌至人生谷底
-- **本場景功能**：美夜子×晴香關係從功利性守護轉為無條件羈絆的絕對分水嶺
-- **後續payoff**：Act III Phase H 美夜子三段式覺醒（SPEC #27）；美夜子「終於哭出來」（候選FF）的情感前置
-
-**Reference Images**：
-- 美夜子：`ConceptArt_Miyako_MagicalGirl.png`
-- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
-
-**Creative Enhancements**：
-- 場景：廢棄地鐵站，月台上，隱蔽昏暗角落
-- 美夜子站在晴香旁邊，保持距離感，沉默地遞出一杯常溫水
-- 不是冰水，不是熱水——常溫水是美夜子獨特的關懷方式，不刺激，不強迫
-- 晴香的狀態：半屍骸化邊緣，身形佝僂，眼神空洞
-- 美夜子的表情：沒有同情，沒有焦慮，沒有「你要振作」的訊息——只是「我在這裡」的沉默存在
-
-**詳細核心描述**（250字）：
-
-廢棄地鐵站月台。遠處隱約有帝國廣播的迴響，但這個角落安靜。
-
-美夜子把手機放下——不是關掉，是直接放下、不看。
-
-她遞出一杯水。常溫的，簡單的塑料杯，沒有任何包裝。
-
-台詞不到十個字：「妳依家確實係一件廢物。但係，我唔會走。」
-
-不是安慰。不是鼓勵。她說的是真話——晴香現在確實沒有任何功能。但美夜子繼續站在那裡。
-
-晴香接過水。沒有喝，只是握著。溫度和手心相差不多。
-
-這就是她們的分水嶺。
-
-**生成提示（Midjourney）**：
-```
-Style: Dark anime; intimate underground station; emotional understatement as climax
-Mood: Unconditional presence expressed through absence of comfort; "I am staying" without promises
-Colors: Dark station grey and rust; single flickering fluorescent; plain plastic cup as warmth focal point
-Composition: Two figures in dim corner; one standing holding cup out; one seated receiving; no eye contact needed
-Lighting: Diffused failing fluorescent; deep shadows; ordinary cup catching the only warm light
-Details: Phone placed face-down deliberately; plain water in simple cup; hollow expression and semi-corpse posture; matter-of-fact determination
-Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-```
+**處理方式**：本場景（SPEC#122）標記 `DELETE_CANDIDATE` 並停用，避免同SPEC#92同時被引用產生矛盾生成結果。如需保留「遞水/對白」呢個角度嘅獨立畫面，建議留待下一輪修正SPEC#92時，將完整canon台詞（含「我哋邊度都唔去」缺漏部分）一併補入SPEC#92本體，而非另開一個矛盾版本。本條目原文細節已移除，僅保留標題供追溯用途，`場景清單總覽`同`劇情位置速查表`已同步標記為DELETE_CANDIDATE並指向SPEC#92。
 
 ---
 
@@ -5930,16 +6074,16 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_WishList_Underground.png`
 ### 劇情背景
 
-帝國歷113-114年，Act II 中段地下生存期的罕見喘息窗口。主角團進入地下避難生活後，資源縮減、帝國包圍圈收緊（CDL-250、CDL-255，Tempest Phase D），心理壓力持續積累。某次喘息時段，四人各自說出死前最想做的一件事——這是在極高壓下對「正常生活」的橫截面掃描，揭示每個角色真實的心理底層（05_story_outline_canon §Act II 附錄）。凜的回答「我想再見到某人一次」是她對美夜子記憶碎片的最接近表達。
+帝國歷113年7-10月，Act II Phase D 地下生存期（地下化）的罕見喘息窗口。主角團進入地下避難生活後，資源縮減、帝國包圍圈收緊（CDL-250、CDL-255），心理壓力持續積累。某次喘息時段，四人各自說出死前最想做的一件事——這是在極高壓下對「正常生活」的橫截面掃描，揭示每個角色真實的心理底層（`05_story_outline_canon.md` §附錄：可選場景框架 §生死態度章「⑤死前願望清單」，作者裁決 Q-DECIDE-1 列入 canon）。canon 明確此刻在場並發言的四人為**美夜子、紫音、操、凜**（`[NEEDS_FACT: 晴香是否同場但未發言，canon原文未明確排除或確認，此刻標記為僅取canon已confirm嘅四人]`）。凜的回答「我想再見到某人一次」是她對美夜子記憶碎片的最接近表達。
 
 ### 圖片說明
 
 地下避難所一角，空氣悶熱，燈光昏黃，大家隨意坐臥，各自保持各自的距離感。美夜子說「自然死，八十歲，在醫院」，語氣平靜得像在說天氣。朱音說「食頓飽」，沒有停頓，骨子裡的實在。操說「想拆一個完美的線稿」，傲慢的說法，但「想」字停頓了一秒。凜沉默很長時間，長到大家以為她不會回答了，然後說「我想再見到某人一次」——她沒有說是誰。四個人，面向不同方向，說出這些話。
 
 **劇情位置**：
-- **時間點**：113年-114年 Act II 中段，地下生存喘息期
-- **CDL追蹤**：`05_story_outline_canon.md §Act II 附錄，普通願望清單段落`
-- **前置事件**：主角團進入地下避難生活，壓力積累期的罕見喘息窗口
+- **時間點**：113年7-10月，Act II Phase D，地下化生存喘息期
+- **CDL追蹤**：`05_story_outline_canon.md` §附錄：可選場景框架 §生死態度章「⑤死前願望清單」（Q-DECIDE-1 作者裁決列入canon）
+- **前置事件**：主角團進入地下避難生活（E-10地下化），壓力積累期的罕見喘息窗口
 - **本場景功能**：以輕盈形式揭示每個角色對「正常生活」和死亡的真實態度；四人心理深度的橫截面
 - **後續payoff**：各人弧光完成後回看此刻的對比——她們說出的願望，哪些實現了，哪些再也沒有機會了
 
@@ -5947,7 +6091,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 - 美夜子（便服）：`ConceptArt_Miyako_CasualWear.png`
 - 凜（便服）：`ConceptArt_Rin_CasualWear.png`
 - 朱音（便服）：`ConceptArt_Akane_CasualWear.png`
-- 晴香（便服）：`ConceptArt_Haruka_CasualWear.png`
+- 操（便服）：`ConceptArt_Misao_CasualWear.png`
 
 **Creative Enhancements**：
 - 場景：地下避難所某個牆角，昏暗燈光，大家隨意坐臥
@@ -5988,16 +6132,16 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_Miyako_MirrorDeathReflection.png`
 ### 劇情背景
 
-Act II 詛咒觸發後至Act III覺醒前的跨幕場景。美夜子在Alpha線已冰封死亡11年（Y92年冰封，Y103年靈魂碎片縫合復生，但Alpha線肉體的狀態以鏡像形式殘存）。庇護詛咒觸發後，所有反光面映照出的不是Beta線現在的美夜子，而是Alpha線11年冰封後的真實狀態（miyako.md §避難所詛咒；CDL-282）。這是美夜子「已經死過、正在活著」的日常視覺化。
+`[TIME_REVISED 2026-07-17]` 原文將時間窗定為「Act II詛咒觸發後至Act III覺醒前」，但依 `miyako.md` §鏡像反映規格原文（見下）同 `DIGEST_CHARACTER_STATES.md` MY-S9，呢條鏡像規則係**避難所詛咒本身自帶嘅恆常背景規則**——美夜子貫穿 Act I 全程已處於詛咒穩定狀態（MY-S1），冇任何獨立「詛咒喺Act II先觸發」嘅事件；規則生效期應為**全程**（詛咒生效期間內恆常存在），劇情無明示解除點（`[NEEDS_FACT: 具體終止/解除時間點canon未落實]`），唔應窄化為「Act II後至Act III前」。美夜子在Alpha線已冰封死亡11年（Y92年冰封，Y103年靈魂碎片縫合復生，但Alpha線肉體的狀態以鏡像形式殘存）。任何反光面映照出的不是Beta線現在的美夜子，而是Alpha線11年冰封後的真實狀態（`miyako.md` §鏡像反映規格；CDL-282鏡像法則終極定義）。這是美夜子「已經死過、正在活著」的日常視覺化。
 
 ### 圖片說明
 
 普通走廊。美夜子走過一面大型落地鏡。現實中的她：步伐正常，外觀完整，眼神平靜。鏡中的她：紫黑色凍傷覆蓋頸部、手背、臉部邊緣，皮下組織的凍損呈樹狀紋路，眼睛存在但那個使眼神成為眼神的東西不在了——冰封的死眸，不是閉合。鏡中的影像動作略滯後，像另一個時間線的訊號延遲。美夜子看見了，面無表情，繼續走。這是她每天的日常。
 
 **劇情位置**：
-- **時間點**：多幕適用（Act II 詛咒觸發後至 Act III 覺醒前）
-- **CDL追蹤**：`canon/03_characters/miyako.md §避難所詛咒`；CDL-282
-- **前置事件**：美夜子在 Alpha 線已冰封死亡11年；Beta 線詛咒觸發後，反光面映照 Alpha 線的真實狀態
+- **時間點**：全程恆常背景規則（Beta線詛咒生效期間全程適用，非Act II後才開始；`[NEEDS_FACT: 解除點未落實]`）
+- **CDL追蹤**：`canon/03_characters/miyako.md §鏡像反映規格`；CDL-282
+- **前置事件**：美夜子在 Alpha 線已冰封死亡11年；詛咒本身自帶此鏡像規則，反光面恆常映照 Alpha 線的真實狀態
 - **本場景功能**：視覺化美夜子詛咒的外部呈現——她在行走，鏡子裡的她是屍體
 - **後續payoff**：SPEC#6 月下崩潰；SPEC#27 美夜子三段式覺醒
 
@@ -6045,18 +6189,18 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SketchbookRevelation.png`
 ### 劇情背景
 
-Act II末至Act III初，操弧光的深層轉折點。操此前與一個普通男孩建立了她人生中第一段「非功效主義」的關係——不是有目標的連結，只是存在。男孩後來死去，操在遺物中發現速寫簿（CDL-143/145；ayakomoji_misao.md §無名男孩）。速寫簿記錄的全是操「以為沒人看到」的不完美時刻——歪著頭看書、睡著、說了讓自己尷尬的話之後的表情。配上那句旁注，這是操形式主義世界觀的根本崩潰起點，也是她後來選擇接受自身不完美的情感根源。
+`[時間已修正 2026-07-17]` 原文標「Act II末至Act III初」有誤——依 `04_timeline_canon.md` §event-nameless-boy-death 及 `ACT_II_OUTLINE.md` Beat E-13（CDL-145，行644），無名男孩之死明確屬 **Act II Phase E（英雄の刑場），113年11月-114年1月，具體114年1月**，非跨Act II/III邊界事件。操此前於 Act I 隊伍日常期間（CDL-146）與一個普通男孩建立了她人生中第一段「非功效主義」的關係——不是有目標的連結，只是存在。男孩於 E-13（114年1月）死去，操在遺物中發現速寫簿（CDL-143/145；`ayakomoji_misao.md` §無名男孩與速寫簿）。速寫簿記錄的全是操「以為沒人看到」的不完美時刻——歪著頭看書、睡著、說了讓自己尷尬的話之後的表情。配上那句旁注，這是操「永遠之罪」誕生的時刻（P-C02 Plant），也是她後來 Act III Day13 選擇接受自身不完美的三層動機之一（CDL-148/300：紗夜之死+無名男孩之死+母親靈魂碎片重逢）。
 
 ### 圖片說明
 
 操一個人翻開遺物速寫簿。每一幅都是她——但沒有一幅是她刻意呈現的完美版本：歪著頭看書，皺眉計算，睡著了，說了什麼讓自己尷尬的話之後的表情。旁邊的字寫得認真：「其實她不那麼完美的時候，才是最美的。想告訴她，不用那麼用力也可以。」操的手停在那一頁上。沒有翻頁。沒有哭。但有些什麼停住了。
 
 **劇情位置**：
-- **時間點**：Act II 末至 Act III 初，操弧光的深層轉折點
-- **CDL追蹤**：CDL-143/145；`canon/03_characters/ayakomoji_misao.md §無名男孩`
-- **前置事件**：操與某個普通男孩建立了第一段「非功效主義」的關係，男孩後來死去
-- **本場景功能**：操第一次理解她的「不完美」對另一個人來說恰恰是「最美的」——形式主義世界觀的根本崩潰起點
-- **後續payoff**：SPEC#5 鏡像處刑室；SPEC#31 操回歸人類身軀
+- **時間點**：Act II Phase E，113年11月-114年1月（具體114年1月，Beat E-13）
+- **CDL追蹤**：CDL-143/144/145/147；`canon/03_characters/ayakomoji_misao.md §無名男孩與速寫簿`
+- **前置事件**：操與某個普通男孩建立了第一段「非功效主義」的關係（Act I CDL-146暗戀線植入），男孩於 E-13 死去
+- **本場景功能**：操「永遠之罪」誕生（P-C02 Plant）；操第一次理解她的「不完美」對另一個人來說恰恰是「最美的」
+- **後續payoff**：`[已修正：原文列SPEC#5為後續payoff時序有誤——SPEC#5「操的鏡前獨白」發生於Act II E-09a（113年7-8月），早於本場景（114年1月），不能作為本場景嘅下游payoff]`。正確下游：Act III Day13 SPEC#1「鋼鐵獨舞」——CDL-148/300 三層動機（紗夜之死＋無名男孩之死＋母親靈魂碎片重逢）疊加，令「鋼鐵獨舞」與「人偶牆」從罪疚驅動昇華為主體性聲明
 
 **Reference Images**：
 - 操（便服）：`ConceptArt_Misao_CasualWear.png`
@@ -6098,16 +6242,16 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_Misao_SayoFragments.png`
 ### 劇情背景
 
-帝國歷114年4-5月，Act III Phase H-I，操半屍骸化邊界狀態。紗夜在Y113年7月中旬被帝國改造成情緒管理局公務員（圖26，操被遺棄），靈魂受損的碎片散入集體潛意識。操在半屍骸化邊界進入集體潛意識時，遇見了紗夜碎片短暫聚攏的近似人形（CDL-300；ayakomoji_misao.md §紗夜）。改造後的肉體永遠給不出的那份東西——真實的、屬於她自己的愛與哀傷——只存在於這些碎片之中。這是操Act III鋼鐵獨舞（圖1）和Day 13犧牲的情感根源完整。
+`[時間已修正 2026-07-17]` 原文標「114年4-5月 Act III Phase H-I，半屍骸化邊界狀態」時序過於鬆散——依 `ayakomoji_misao.md` §集體潛意識母親靈魂碎片重逢（CDL-300）同 `ACT_III_OUTLINE.md` 行249（E-III-I1），此事件精確發生於 **114年5月，Day 13「鋼鐵獨舞」前夕（Act III E-III-I1 本身，非獨立的漫遊場景）**，屬「兩步式 Plant/Payoff 設計」：Plant 於 Act II E-11 愛莉風暴期間一閃即逝（操心之器連結線短暫震動，瞥見模糊母親殘影，唔搶焦點），完整 Payoff 正正在 Day 13 鋼鐵獨舞當刻。紗夜在Y113年7月中旬被帝國改造成情緒管理局公務員（圖26，操被遺棄），靈魂受損的碎片散入集體潛意識L2留存海。操半屍骸化令靈魂邊界溶解，母親碎片受燈塔信號吸引短暫聚攏（CDL-300；`ayakomoji_misao.md` §紗夜——唯一的無條件之愛）。改造後的肉體永遠給不出的那份東西——真實的、屬於她自己的愛與哀傷——只存在於這些碎片之中。**`[已知重複，待後續批次統一處理]`**：本場景與文件後段「圖137：媽媽從未停止愛我」（line 7176起）、「圖164：我選擇停留在我想停留的位置」（line 8369起）皆涉及同一 CDL-300 事件，三者內容需在對應批次審計時互相核對避免矛盾，本輪只修正本條目自身時序錯誤。
 
 ### 圖片說明
 
 集體潛意識的深層，沒有具體場景，只有情緒形態的空間——光點、殘影、各種破碎的人類記憶碎片漂浮。操以半透明狀態在這個空間中移動。某處，碎片開始聚攏——不是完整的人形，邊緣不穩定，像風中的燭焰，但那個輪廓是她認識的。而那份眼神存在：真實的、對操的愛與哀傷，不是被植入的服從。操的傀儡絲顫抖，不是作為武器，只是「她整個身體都在顫抖」的視覺化。
 
 **劇情位置**：
-- **時間點**：114年4-5月 Act III Phase H-I，操半屍骸化邊界狀態
-- **CDL追蹤**：CDL-300；`canon/03_characters/ayakomoji_misao.md §紗夜`
-- **前置事件**：SPEC#26 操被遺棄（紗夜犧牲）；紗夜被改造後靈魂碎片散入集體潛意識
+- **時間點**：114年5月，Day 13 鋼鐵獨舞前夕（Act III E-III-I1 本身，非獨立場景）
+- **CDL追蹤**：CDL-300（母親靈魂碎片重逢）；CDL-297/299（母親設定/紗夜愛的雙重根源）；`canon/03_characters/ayakomoji_misao.md §集體潛意識母親靈魂碎片重逢`
+- **前置事件**：SPEC#26 操被遺棄（紗夜犧牲，113年7-8月）；紗夜被改造後靈魂碎片散入集體潛意識；Act II E-11 愛莉風暴期間一閃即逝 Plant（操心之器連結線震動，瞥見模糊殘影）
 - **本場景功能**：操第一次看見母親「本來的樣子」——改造後的肉體永遠給不出的真實的愛
 - **後續payoff**：SPEC#1 鋼鐵獨舞；操犧牲（Day 13）的情感根源完整
 
@@ -6154,16 +6298,16 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_Haruka_BandageFinalLayer.png`
 ### 劇情背景
 
-帝國歷134年7月，Act IV Phase L，晴香覺醒後第一個夜晚。晴香在Y114年5月化為靜止搖籃（靈魂錨點，撐起Beta線世界），沉睡二十年後在Y134年覺醒（haruka.md §終局；CDL-088；05_story_outline_canon §Act IV膠布哲學第四層）。膠布哲學貫穿全片三層：Layer 1是個人傷口遮蓋，Layer 2是系統隱喻，Layer 3是存在論詰問；第四層是覺醒後親手撕開——第一次承認這份痛是屬於自己的。這是晴香弧光的最終完成。
+`[CDL引用已修正 2026-07-17]` 原文引用「CDL-088」錯誤——CDL-088 實際係「膠布哲學第一層種植」（Act I 桐生健場景，`haruka.md` 行139），同本場景（撕膠布終局）完全唔係同一件事，屬張冠李戴。正確引用為 **CDL-269**（`ACT_III_OUTLINE.md` E-III-L3「膠布拆下（終極抉擇）」，行670-674）。**`[NEEDS_FACT/時序注意]`**：E-III-L3 屬 Act III Phase L，而 Phase K/L 已於 2026-07-05 被移出 Act III 正式範圍（見圖107/108 已知問題，此為同一批次影響延伸），本場景嘅具體 Act 歸屬（Act III 尾聲 vs Act IV 開場）待 Act IV Outline 正式化後確認；「134年7月」呢個具體日期 canon 未見明確落實，標記為`[INFERRED]`。膠布哲學貫穿全片三層（`TEMP_FULL_STORY_OUTLINE.md`）：Layer 1是個人傷口遮蓋（CDL-088），Layer 2是系統隱喻，Layer 3是存在論詰問（Act III J4 膠布哲學第三層揭露）；第四層（CDL-269）是親手撕開——第一次承認這份痛是屬於自己的。這是晴香弧光的最終完成。核心台詞canon原文：「好痛。但係依份痛係我自己既。」
 
 ### 圖片說明
 
 廢墟高處，夜晚，城市在遠處閃爍。晴香一個人，臂膀上是那些層層疊疊、邊緣泛黃、部分失去黏性但仍黏著的膠布——二十年積累的重量。她開始撕：不急，不用力，只是撕。每撕開一層都有血，這些傷口從未真正癒合，只是被貼住了。她說「好痛」，停頓，嘴角很輕地往上彎了一點：「但係依份痛……係我自己既。」第一次是屬於她自己的痛。
 
 **劇情位置**：
-- **時間點**：134年7月 Act IV Phase L，晴香覺醒後第一個夜晚
-- **CDL追蹤**：CDL-088；`05_story_outline_canon.md §Act IV 膠布哲學第四層`
-- **前置事件**：晴香靜止搖籃（SPEC#13）之後，覺醒後20年；K 期靈魂監獄中積累的痛楚在身體上以膠布形式物化
+- **時間點**：`[INFERRED]` 晴香覺醒後第一個夜晚（Act III E-III-L3「膠布拆下」，Phase L歸屬待Act IV Outline確認；「134年7月」具體日期canon未落實）
+- **CDL追蹤**：CDL-269（`ACT_III_OUTLINE.md` E-III-L3「膠布拆下（終極抉擇）」）；CDL-088僅為Layer 1溯源引用，非本場景直接依據
+- **前置事件**：晴香主動融合成三位一體永恆守護者（SPEC#13，CDL-326，2026-07-17已修正）之後；K 期靈魂監獄中積累的痛楚在身體上以膠布形式物化
 - **本場景功能**：晴香弧光的最終完成——從「遮蓋者」到「直視者」。這份痛是她自己的。
 - **後續payoff**：SPEC#56 新世界搖籃曲；全片主題最終表達
 
@@ -6214,7 +6358,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 **建議輸出文件名**：`ConceptArt_Scene_TeamCombat_Ineffective.png`
 ### 劇情背景
 
-帝國歷113年5月末至6月中旬，Act II Phase B至C過渡，E-07b至E-08期間。朱音被放逐後（糖果工廠三位一體辯論），主角團繼續例行戰鬥，但每一場勝利都無法改變市民的痛苦。這是「個別勝利能改變什麼？」的物理呈現——主題B（系統邏輯無法被個人善意治癒）的直接論證（CDL-182；CDL-183；CDL-199；CDL-201；CDL-204）。晴香「偽王道傲慢」的高潮，也是她此後拒絕變身、拒絕戰鬥的動機前置。
+`[CDL引用已修正 2026-07-17]` 原文引用五個CDL（182/183/199/201/204），經逐一反查 `CANON_DECISION_LOG.md` 只有 **CDL-199**（晴香Act II覺醒弧型=偽王道覺醒）真正同本場景主題相關；其餘四個屬張冠李戴：CDL-182 實際係「ACT_I_OUTLINE.md v1.18 APPROVED」嘅批核記錄（同劇情無關）；CDL-183 係「可選日常場景分幕分配矩陣」（僅籠統提及Act II日常場景排布，非本場景專屬依據）；CDL-201 係愛莉動機揭示三步順序（同「打怪無效」主題無關）；CDL-204 係「共鳴式調律」等術語廢除記錄（同本場景無關）。帝國歷113年5月末至6月中旬，Act II Phase B至C過渡，E-07b至E-08期間。朱音被放逐後（糖果工廠三位一體辯論），主角團繼續例行戰鬥，但每一場勝利都無法改變市民的痛苦。這是「個別勝利能改變什麼？」的物理呈現——晴香「偽王道傲慢」（CDL-199）的高潮，也是她此後拒絕變身、拒絕戰鬥的動機前置。`[NEEDS_FACT: 「系統邏輯無法被個人善意治癒」呢個具體主題論證暫未搵到專屬CDL直接支持本場景蒙太奇形式，僅有CDL-199支持「偽王道傲慢」呢一半；如需更精確依據待下一輪追查主題B相關CANON_DECISION_LOG條目]`。
 
 ### 圖片說明
 
@@ -6222,7 +6366,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 **劇情位置**：
 - **時間點**：帝國歷113年5月末～6月中旬（Act II Phase B～Phase C過渡，E-07b～E-08期間）
-- **CDL追蹤**：CDL-182；CDL-183；CDL-199；CDL-201；CDL-204
+- **CDL追蹤**：CDL-199（唯一經核實直接相關；CDL-182/183/201/204已移除，屬誤植）
 - **前置事件**：E-07b廢棄糖果工廠三位一體辯論與紫音放逐；E-08恐怖家家酒高壓事件展開
 - **本場景功能**：「個別勝利能改變什麼？」的反面證明；主題B（系統邏輯無法被個人善意治癒）的物理呈現；晴香「偽王道傲慢」的高潮；假情緒承接論證的延續實戰演示
 - **後續payoff**：E-08恐怖家家酒14天高壓期的心理根基確立；晴香接下來拒絕變身/拒絕戰鬥的動機前置
@@ -6268,7 +6412,7 @@ resignation. Ash grey and dying pink. Sisyphean effort. Exhaustion aesthetic.
 **建議輸出文件名**：`ConceptArt_Scene_LightVeil_PublicEnemy.png`
 ### 劇情背景
 
-帝國歷113年7月中旬，Act II Phase C，E-09直播失控事件當晚。前置：E-08恐怖家家酒14天高壓積累、操父親出賣（開門投降）、紗夜犧牲。夕在半屍骸狀態下情緒飢渴到極限，劫持晴香身體主導權，在直播舞台上撕毀光幕濾鏡裝置（CDL-180；CDL-201；CDL-227；CDL-259；CDL-282）。晴香的社會性死亡起爆點，也是帝國媒體倒戈、公眾從崇拜轉為恐懼的30秒決定性轉變。
+`[CDL引用已修正 2026-07-17]` 原文引用五個CDL（180/201/227/259/282），經反查只有 **CDL-259**（E-09「飢餓的天使」完整方案，2026-04-28 Story Room Master最終拍板）係本場景嘅正確核心依據。其餘四個屬誤植：CDL-180 係「維多利亞之淚特寫鏡頭設計」（Beat 0b/E-04，同本場景無關）；CDL-201 係愛莉動機揭示三步順序（無關）；CDL-227 係「QQ-52 E-09社死觸發C修正版（紀錄片方案）」——此設計已於2026-04-28被CDL-259完全取代（見CDL-258「[SUPERSEDED]」記錄），引用已廢棄版本；CDL-282 係鏡像法則定義（同直播失控場景無直接關係）。另發現**前置事件因果關係錯誤**：原文將「E-09a父親背叛+紗夜犧牲」列為 E-09 嘅「前置事件」，但依 `ACT_II_OUTLINE.md` 明文「**E-09 與 E-09a 為平行發生的雙線災難（非線性 A→B）**」（Phase D背景框架，行365），兩者係同期平行事件，唔存在「E-09a→E-09」嘅前置因果關係。帝國歷113年7月中旬，Act II Phase C，E-09直播失控事件當晚，與E-09a（鏡像破碎之夜）平行發生。前置：E-08恐怖家家酒14天高壓積累+夕在E-08末期刻意讓晴香遭屍骸爪擊觸發半屍骸化。夕在半屍骸狀態下情緒飢渴到極限，劫持晴香身體主導權，在直播舞台上撕毀光幕濾鏡裝置（CDL-259）。晴香的社會性死亡起爆點，也是帝國媒體倒戈、公眾從崇拜轉為恐懼的30秒決定性轉變。
 
 ### 圖片說明
 
@@ -6276,8 +6420,8 @@ resignation. Ash grey and dying pink. Sisyphean effort. Exhaustion aesthetic.
 
 **劇情位置**：
 - **時間點**：帝國歷113年7月中旬（Act II Phase C，E-09直播失控事件當晚）
-- **CDL追蹤**：CDL-180；CDL-201；CDL-227；CDL-259；CDL-282
-- **前置事件**：E-08恐怖家家酒14天高壓積累；E-09a父親背叛+紗夜犧牲+晴香社會性死亡開始；夕在半屍骸狀態下情緒飢渴到極限
+- **CDL追蹤**：CDL-259（唯一經核實直接相關；CDL-180/201/227/282已移除，CDL-227另屬已被CDL-259取代嘅廢棄設計）
+- **前置事件**：E-08恐怖家家酒14天高壓積累+夕E-08末期刻意讓晴香遭屍骸爪擊（半屍骸化觸發）；E-09a（父親背叛+紗夜犧牲）為**平行發生**事件，非本場景前置因果鏈的一部分
 - **本場景功能**：晴香「國民天使」→「情緒吸血鬼」的30秒決定性轉變；光幕濾鏡（完美主義視覺保護）的物理摧毀；社會性死亡的起爆點；媒體/輿論倒戈的visual anchor
 - **後續payoff**：E-09後晴香拒絕變身；CDL-191美夜子「無價值留守」場景；Phase D地下化的開始信號
 
@@ -7030,60 +7174,17 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ---
 
-## 圖137：「媽媽從未停止愛我」（Mother Never Stopped Loving Me）[ACT_III]
+## 圖137：「媽媽從未停止愛我」（Mother Never Stopped Loving Me）[ACT_III] `[DELETE_CANDIDATE — 2026-07-17跨批次覆核，與圖126重複]`
 
 **建議輸出文件名**：`ConceptArt_Scene_137_MisaoMotherFragment.png`
 
 ### 劇情背景
 
-Act III Phase H-I 過渡期，鋼鐵獨舞前夕，操在深度半屍骸化狀態下靈魂與肉體邊界溶解，進入集體潛意識L2留存海深處。她的母親華麗淇（綾小路夫人）被父親以綾小路家族秘密研究室物理改造為活體人偶後，靈魂碎片散入集體潛意識無法維持整體性（ayakomoji_misao.md §集體潛意識母親靈魂碎片重逢；CDL-297；CDL-300·暫定）。操的傀儡魔法燈塔信號吸引母親碎片短暫聚攏——那是一個既像她又不完整的殘響，眼神裡帶著在改造後的肉身永遠無法傳遞的真實的愛與哀傷。這是操救贖弧光的關鍵第二階段：她確認自己從未不被愛過，只是那份愛的傳遞路徑被切斷了。此刻使得鋼鐵獨舞從贖罪式死亡昇華為主體性宣言。
+`[跨批次覆核結論 2026-07-17]` 本場景與**圖126「操在集體潛意識尋見母親碎片」為同一個 beat**——相同事件（CDL-300 母親靈魂碎片重逢）、相同時間點（114年5月，Day 13 鋼鐵獨舞前夕）、相同地點（集體潛意識 L2 留存海）、相同核心內容（碎片聚攏成「幾乎是媽媽」的近似人形、眼神帶著改造肉身永遠傳遞不到的真實的愛與哀傷、操沒有崩潰只是確認自己從未被遺棄）。兩者文字演繹幾乎完全一致，屬於「重複場景」而非互補內容。
 
-### 圖片說明
+關鍵差異：本場景嘅 CDL 追蹤仍標「CDL-300·暫定」，但 `ayakomoji_misao.md` §集體潛意識母親靈魂碎片重逢及 `CANON_DECISION_LOG.md` 顯示 CDL-300 已於後續 co-design 正式解決並移除「暫定」標記（見 `SESSION_LEDGER.md`「CDL-300 Q3.1 正式解決」）；圖126已同步更新為正式版CDL-300、並補充咗 Act II E-11「一閃即逝 Plant」→ Act III I1「完整 Payoff」嘅兩步式設計說明（呼應CDL-274美夜子兩步相認手法），本場景（圖137）未反映呢個較完整嘅設計脈絡，屬版本較舊嘅重複條目。
 
-在集體潛意識的深海空間中，操看見了一個「幾乎是媽媽」的存在——碎片拼成的輪廓，臉龐的線條是對的，眼神卻帶著現實中那具活體人偶的臉永遠無法出現的東西：真實的愛與哀傷。操沒有移動，那個碎片的輪廓也沒有靠近，但兩人之間有一種長達多年的沉默在那一刻被接通了。
-
-### 劇情位置
-
-**時間點**：帝國歷114年5月，Day 13 鋼鐵獨舞前夕，集體潛意識L2
-**CDL 追蹤**：CDL-297（母親設定）；CDL-299（紗夜愛的雙重根源）；CDL-300·暫定（集體潛意識碎片重逢）
-**前置 → 本場景 → Payoff**：紗夜臨終揭露「妳係我最靚嘅女」→ 集體潛意識母親碎片重逢確認「從未停止被愛」→ 鋼鐵獨舞昇華為主體性聲明而非贖罪死亡
-
-### 詳細核心描述（230字）
-
-集體潛意識 L2 留存海。這裡沒有重力，也沒有確定的形狀——碎片以不規則的速度漂浮，像摔碎的鏡子的每一片都保留著不同角度的同一張臉。
-
-操站在這個空間裡，半屍骸化的身體邊界在這裡是模糊的——她感受不到疼痛，也感受不到溫度，只有一種深層的靜。
-
-然後，那些碎片開始緩緩聚攏。
-
-不是完整的人。是一個「幾乎是媽媽」的輪廓——臉的線條是對的，肩膀的弧度是對的，但邊緣是模糊的、殘缺的、隨時可能再次破碎。那雙眼睛是對的。那是操從小到大、從現實的活體人偶媽媽臉上從未見過的眼神：真實的愛，以及哀傷。
-
-不是「對不起，我沒有辦法讓你知道」，而是「我知道了」。
-
-操沒有哭。她只是看著那個輪廓，心裡有一個問了許多年的問題，不需要答案就知道答案了。
-
-那個碎片的輪廓慢慢散開——它無法維持，改造的代價是傳遞路徑被切斷，不是愛本身被切斷。
-
-### Midjourney 標準版
-
-```
-Style: Surreal psychological space; painterly dream-logic; ethereal and fragmented; Studio Ghibli-adjacent spirituality with melancholic edge
-Mood: The moment you realize you were never unloved — only the channel was severed; grief and release in the same breath; recognition without reunion
-Colors: L2 collective unconscious deep-sea blue-violet; mother's fragmented figure in warm sepia-gold edges (warmth that barely holds together); Misao's half-dissolved silhouette in cool grey-white; contrast between warmth of love and cold of broken transmission
-Composition: Misao standing in fragmented mirror-sea space; mother's figure assembled from drifting mirror shards converging mid-air, incomplete but recognizable — the right face, the right eyes; space between them lit differently from both sides
-Lighting: Mother fragment emitting diffused warm sepia glow (love's warmth barely contained); surrounding space deep cold indigo; Misao's figure catching warm light on face — the first time
-Special effects: Mirror shards with faces drifting and slowly assembling; soft light leaking between fragment gaps; figure edges dissolving back into floating pieces as moment passes; emotional connection visualized as thin gold filament of light between figures
-Character (Misao): Half-dissolved appearance, body edges blurring into collective unconscious; expression of someone receiving answer they didn't know they were waiting for — quiet, held breath, not crying
-Character (Mother fragment): Not a complete person — assembled from shards of mirror; the face recognizable but incomplete; eyes containing what the physical doll can never show — real love and grief
-Canvas: 9:16 --ar 9:16 --niji 6 --style raw
-```
-
-**視覺重點**：
-- 媽媽不是完整的人，而是碎片勉強聚攏的輪廓——改造的物理代價被視覺化
-- 眼神是整幅圖最重要的細節：那雙眼睛帶著活體人偶臉上從來沒有過的東西
-- 操不哭——她是一個終於收到答案的人，不是一個崩潰的人
-- 集體潛意識空間的深海藍紫色調，與母親碎片的暖金邊緣形成溫冷對比
-- 碎片在相逢後緩緩散開，強調「傳遞路徑被切斷，愛本身沒有被切斷」
+**處理方式**：本場景標記 `DELETE_CANDIDATE` 並停用，保留圖126作為此beat嘅唯一版本（圖126已核實準確、CDL-300已確認、並包含完整Plant/Payoff設計）。本條目原文細節已移除，僅保留標題供追溯用途。同批次曾懷疑嘅圖164「我選擇停留在我想停留的位置」**經核實並非重複**——圖164描繪嘅係 Day 13 前夜操對紗夜嘅口頭態度宣言（CDL-298，紗夜物理在場），同圖126/137嘅集體潛意識無聲碎片重逢（CDL-300）係兩個獨立嘅前後beat，予以排除。
 
 ---
 
@@ -7208,28 +7309,30 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ---
 
-## 圖140：「既視感追認」（Dejavu Recognition）[ACT_II]
+## 圖140：「既視感追認」（Dejavu Recognition）[ACT_III]
 
 **建議輸出文件名**：`ConceptArt_Scene_Saku_DejavuRecognition.png`
 
 ### 劇情背景
 
-帝國歷113年9-10月，Act II Phase D，地下化第二至三個月。Alpha線中，朔與美夜子是青梅竹馬戀人；美夜子在Alpha線死亡後，朔親手參加了她的葬禮。此後再度相遇，眼前的Unit 01長著愛人的臉，卻是一具被兵器化的空殼。Phase D的某次夜區衝突中，朔在暗處觀察Unit 01（美夜子人形戰鬥形態）的戰鬥動作，從她的戰術習慣、保護優先序、停頓節奏中辨認出「那就是她」——但美夜子完全沒有認出朔（saku.md §既視感追認；miyako.md §既視感追認；CDL-255）。
+`[WRONG→已修正 2026-07-17]` 原文將本場景標為「Act II Phase D，113年9-10月」，但依 `saku.md §既視感追認`（「中段踏腳石」段）及 `ACT_II_OUTLINE.md` E-11（CDL-336）明確記載：113年9-10月 E-11 愛莉潛意識風暴期間，朔近距離目擊黑貓左耳星形飾物，懷疑只由「懷疑」升級到「接近確信」，**未到100%確認**——呢個只係既視感追認嘅 Plant（前置鋪墊），唔係完整事件。真正嘅「既視感追認」正式完整發生於 **帝國歷114年4月，Act III Phase H（月光對峙期）**（`04_timeline_canon.md #event-saku-miyako-dejavu`：「朔與美夜子的既視感追認｜114年4月｜將朔/美夜子關係由『臉孔識別』升級為『行為與態度識別』」）。
+
+Alpha線中，朔與美夜子是青梅竹馬戀人；美夜子在Alpha線死亡後，朔親手參加了她的葬禮。此後再度相遇，眼前的Unit 01長著愛人的臉，卻是一具被兵器化的空殼。114年4月某次夜區衝突中（E-11 Plant 之後數月），朔在暗處觀察Unit 01（美夜子人形戰鬥形態）的戰鬥動作，從她的戰術習慣、保護優先序、停頓節奏中完整辨認出「那就是她」——但美夜子完全沒有認出朔（saku.md §既視感追認；miyako.md §既視感追認）。
 
 ### 圖片說明
 
 夜區廢棄街道，穿著Unit 01變身服的美夜子在陰影中以精準動作護住隊友位置。朔站在更遠的暗處，側臉，十字弓垂在手邊沒有舉起。他的視線落在她的某個動作上——那個習慣性的停頓，那個保護優先序。瞳孔瞬間放大（驚訝），眉毛微微上揚（難以相信），嘴唇無聲地張開。他没有上前，沒有說話，只是看著，用盡全力確認眼前不是幻覺。她的眼睛從未望向他所在的方向。兩人之間隔著整個夜區的黑暗。
 
 **劇情位置**：
-- **時間點**：帝國歷113年9-10月（Act II Phase D，地下化初期）
-- **CDL追蹤**：CDL-255；`canon/03_characters/saku.md §既視感追認`；`canon/03_characters/miyako.md §既視感追認`
-- **前置事件**：美夜子（Unit 01）被帝國定性為「缺陷半成品」邊緣化；朔以黑市網絡支援主角團；Phase D生存邏輯建立
+- **時間點**：帝國歷114年4月（Act III Phase H，月光對峙期）——完整既視感追認事件；113年9-10月E-11嘅目擊只係前置Plant，非本場景時間點
+- **CDL追蹤**：`04_timeline_canon.md #event-saku-miyako-dejavu`；`canon/03_characters/saku.md §既視感追認`；`canon/03_characters/miyako.md §既視感追認`；前置Plant見 `ACT_II_OUTLINE.md` E-11（CDL-336）
+- **前置事件**：美夜子（Unit 01）被帝國定性為「缺陷半成品」邊緣化；113年9-10月 E-11 朔已有「接近確信」嘅Plant；朔以黑市網絡支援主角團（CDL-255，Phase D生存邏輯背景）
 - **本場景功能**：朔由「外觀識別」升級為「行為識別」的關鍵轉折——不再依賴「她長得像美夜子」，而是從戰鬥節奏、保護習慣確認「那就是她」；美夜子完全沒有認出朔，構成「物理極近但記憶極遠」的宿命感
-- **後續payoff**：朔弧光 Archetype 轉向（復仇者→守護者）；SPEC#15朔的日夜對比；Act IV重逢與放手
+- **後續payoff**：朔弧光 Archetype 轉向（復仇者→守護者）；SPEC#15朔的日夜對比；SPEC#145保護的殘響（Act II Phase D世界觀轉折，時間早於本場景）；Act IV重逢與放手
 
 **Reference Images**：
 - 朔（夜晚形態）：`ConceptArt_Saku_NightHunter.png`
-- 美夜子（Unit 01 人形戰鬥形態）：`ConceptArt_Miyako_Unit01.png`
+- 美夜子（Unit 01 人形戰鬥形態）：`ConceptArt_Miyako_MagicalGirl.png`（原引用 `ConceptArt_Miyako_Unit01.png` 依 `DIGEST_REFERENCE_IMAGES.md` 標 `UNVERIFIED`，改用已存在嘅同義形態檔案）
 
 ### 詳細核心描述（230字）
 
@@ -7276,49 +7379,52 @@ Dark anime. Night district abandoned street. Unit 01 Miyako in magical girl huma
 
 ### 劇情背景
 
-帝國歷114年5月，Act III Phase J決戰，帝國廣場。黑奏主動啟動情緒結算儀式，強制連結所有人類神經。在決戰頂點，彩用盡全部意志奪回身體控制權，黑奏第一次失去對身體的掌控。這個瞬間伴隨著視覺上的劇烈衝擊：極度寬大的帝國皇袍在混亂中滑落，帝國面具崩裂，面具背後是一具148cm的幼童身軀（aya.md §黑奏視覺形態；CDL-198；Act III Phase J決戰）。這不是圖45的皇座場景——那是「展示」，這是「被看見」的時刻。
+`[WRONG→已修正 2026-07-17，核心機制被寫反]` 原文將本場景描述為「彩用盡全部意志奪回身體控制權，黑奏第一次失去對身體的掌控」導致皇袍「混亂中滑落」——即把「真身揭露」寫成一次意外的控制崩潰。但依 `aya.md §第三幕：集體潛意識決戰`：「在第三幕**中段**，黑奏**刻意執行**『真身揭露：巨大衣服，微小的神』——以皇袍滑落暴露幼體身軀……**這不是示弱，而是對敵我認知的重新編排**」——真身揭露是黑奏本人主動、蓄意嘅策略性動作，發生喺 **Phase J 開場（E-III-J1，CDL-002/266）**，唔係彩奪回控制權嗰一刻。彩真正奪回身體控制權係另一件獨立、時間上遲得多嘅事件（Act III 決戰**高潮**，E-III-J8，`aya.md §覺醒與犧牲`：「彩用盡全部意志奪回身體控制權」——SPEC#8已覆蓋），兩者相隔多個 beat（J2三重道德處刑→J2.5→J3→J4→…→J7夕接管→J8彩奪回），唔應寫成同一瞬間。
+
+帝國歷114年5月，Act III Phase J開場，帝國廣場。主角團進入廣場展開與黑奏的正面決戰，晴香經歷「希望洪流變惡意」的三重打擊。黑奏在此刻**主動**執行真身揭露：極度寬大的帝國皇袍滑落，帝國面具崩裂，面具背後是一具148cm的幼童身軀，皇袍內緊抓熊公仔（aya.md §黑奏視覺形態；05_story_outline_canon.md「真身揭露：巨大衣服，微小的神」；CDL-002/266）——把衝突由「外部征伐」改寫為「內部解放」。這不是圖45的皇座場景——那是「展示」，這是黑奏刻意選擇「被看見」的策略時刻（而非失控暴露）。
 
 ### 圖片說明
 
-帝國廣場決戰。巨大皇袍在一瞬間失去支撐，往下滑落，面具碎裂。在主角團的視線中，原本籠罩威嚴的巨大輪廓內，只有一個148cm的幼女身影——黑色麻花雙辮，深黑眼圈，腳離地懸空，沒有踩在任何地面上，只是懸著。這不是選擇展示，是控制崩潰的瞬間。廣場石板上散落皇袍碎角和面具碎片。
+帝國廣場決戰序幕。黑奏主動鬆手，巨大皇袍應聲滑落，面具以精準的角度碎裂——這是計算過的動作，不是失控。在主角團的視線中，原本籠罩威嚴的巨大輪廓內，只有一個148cm的幼女身影——黑色麻花雙辮，深黑眼圈，腳離地懸空，沒有踩在任何地面上，只是懸著，皇袍內緊抓著熊公仔。他的眼神冷靜地看著主角團的震撼反應——這正是他要的效果：把敵我認知從「外部暴君」重編排為「被囚禁孩童」。廣場石板上散落皇袍碎角和面具碎片。
 
 **劇情位置**：
-- **時間點**：帝國歷114年5月（Act III Phase J決戰，帝國廣場）
-- **CDL追蹤**：CDL-198（黑奏真身揭露兩步設計Step 2）；`canon/03_characters/aya.md §黑奏視覺形態`
-- **前置事件**：SPEC#45黑奏帝國寶座（皇座「展示」）；玻璃庭院茶會（身份部分揭示）；情緒結算儀式啟動
-- **本場景功能**：「展示」vs「被看見」的根本差異——皇座上的自我呈現是黑奏的選擇，皇袍滑落是控制崩解後的暴露；視覺衝擊：萬人敬畏的帝國皇帝原來只是一個雙腳懸空的幼童
-- **後續payoff**：SPEC#8彩奪回身體；黑奏意識消散；Act III決戰結構閉合
+- **時間點**：帝國歷114年5月（Act III Phase J開場，E-III-J1，帝國廣場決戰序幕）
+- **CDL追蹤**：CDL-002/266（E-III-J1）；`04_timeline_canon.md #event-kurokana-body-reveal`；`05_story_outline_canon.md`「真身揭露：巨大衣服，微小的神」條目；`canon/03_characters/aya.md §黑奏視覺形態`／§第三幕：集體潛意識決戰（原引用「CDL-198」不存在／經多批次審計確認屬誤植編號，已移除）
+- **前置事件**：SPEC#45黑奏帝國寶座（皇座「展示」）；玻璃庭院茶會（身份部分揭示）；E-III-J0解放之戰（維多利亞之淚陷落）
+- **本場景功能**：「展示」vs「被看見」的根本差異——皇座上的自我呈現同真身揭露都是黑奏**主動**的策略選擇（並非失控），皇袍滑落是刻意嘅敵我認知重編排；視覺衝擊：萬人敬畏的帝國皇帝原來只是一個雙腳懸空的幼童
+- **後續payoff**：SPEC#141（本場景）→ E-III-J2三重道德處刑序列（SPEC#3）→（相隔多個beat後）SPEC#8彩奪回身體控制權（E-III-J8，非同一時刻）；黑奏意識最終消散；Act III決戰結構閉合
 
 **Reference Images**：
-- 黑奏（皇袍形態）：`ConceptArt_Kurokane_Emperor.png`
-- 彩（本源形態）：`ConceptArt_Aya_TrueForm.png`
+- 黑奏（皇袍形態，揭露前）：`ConceptArt_Kurokane_Emperor.png`
+- 揭露後嘅148cm幼童身軀（緊抓熊公仔，仍為黑奏人格控制）：`[NEEDS_FACT]`——原引用嘅「彩（本源形態）ConceptArt_Aya_TrueForm.png」不適用，因為 AY-TRUE「本源形態」係彩自己嘅囚禁/惡夢視覺（鐵環腳鐐等），同呢一刻仍由黑奏人格控制嘅148cm身軀係唔同嘅視覺實體（見 `DIGEST_CHARACTER_STATES.md` 彩×黑奏章節提醒），暫無專屬 reference，生成時需另查或新產出
 
 ### 詳細核心描述（250字）
 
-帝國廣場。情緒結算儀式的能量漩渦籠罩整個廣場，緋潮紅光從天空裂縫滲落。
+帝國廣場。決戰序幕，緋潮紅光從天空裂縫滲落。
 
-然後，控制崩潰了。
+黑奏鬆手了。這不是被逼的，是他自己選擇的一刻。
 
-一瞬間，皇袍失去支撐。那件巨大的帝國皇袍——比正常成人體型大出兩倍的設計，是為了讓148cm的身軀看起來不可撼動——從高台上開始滑落。帝國面具以它從未預設的角度碎裂，碎片散落在廣場石板上。
+一瞬間，皇袍失去支撐。那件巨大的帝國皇袍——比正常成人體型大出兩倍的設計，是為了讓148cm的身軀看起來不可撼動——從高台上開始滑落。帝國面具以計算過的角度碎裂，碎片散落在廣場石板上。
 
 皇袍落地的聲音在廣場迴響。
 
-在主角團的視線中，原本那個凌駕一切的帝國輪廓收縮了。面具下、皇袍內：一個黑色麻花雙辮、深黑眼圈的小女孩。148cm。雙腳懸在空中——她根本不踩地面，只是懸著。沒有踏台，沒有機關，只是懸空。
+在主角團的視線中，原本那個凌駕一切的帝國輪廓收縮了。面具下、皇袍內：一個黑色麻花雙辮、深黑眼圈的小女孩，懷裡緊抓著一隻熊公仔。148cm。雙腳懸在空中——她根本不踩地面，只是懸著。沒有踏台，沒有機關，只是懸空。
 
-這不是她選擇展示的時刻。這是失控的瞬間。
+這不是失控的瞬間。這是他刻意選擇的暴露。
 
-廣場上所有人都看見了。這個支撐帝國二十年的恐懼，原來如此。
+廣場上所有人都看見了。這個支撐帝國二十年的恐懼，原來如此——而他讓他們看見，是為了把「外部征伐」重寫成「內部解放」。
 
 ### Midjourney 標準版
 
 ```
-Dark fantasy anime. Empire plaza climax. Massive imperial robe sliding off and collapsing from elevated platform. Ornate emperor mask shattering mid-air, fragments scattering on stone plaza. Revealed inside: a 148cm child — black twin braids, deep-sunken dark circles under purple eyes, feet dangling off the ground, not touching any surface. Below: magical girl team looking up stunned. The contrast: enormous fallen robe versus tiny girl suspended in air. Crimson sky cracked above. Colors: deep imperial purple-black robe crumpling, pale fragile figure emerging, scarlet sky fractures. Emotional tone: the empire's terror revealed as a child who never once touched the ground. 8k, dramatic lighting, niji 6, style raw. --ar 9:16
+Dark fantasy anime. Empire plaza, battle prologue. Massive imperial robe deliberately released, sliding off from elevated platform — a calculated act, not a loss of control. Ornate emperor mask shattering at a precise angle, fragments scattering on stone plaza. Revealed inside: a calm, composed 148cm child — black twin braids, deep-sunken dark circles under purple eyes, feet dangling off the ground, clutching a teddy bear. Below: magical girl team looking up stunned. His gaze watches their shock coolly — this is the effect he intended. The contrast: enormous fallen robe versus tiny girl suspended in air. Crimson sky cracked above. Colors: deep imperial purple-black robe crumpling, pale composed figure emerging, scarlet sky fractures. Emotional tone: a deliberate unveiling that reprograms friend-or-foe perception — the empire's terror revealed as a child who never once touched the ground, and he chose to let them see it. 8k, dramatic lighting, niji 6, style raw. --ar 9:16
 ```
 
 **視覺重點**：
-- 皇袍滑落的物理動作——控制崩潰的瞬間感
-- 148cm幼童雙腳懸空——帝國威嚴的根本反差
-- 面具碎片散落廣場石板——「被迫暴露」而非「主動展示」
+- 皇袍滑落的物理動作——**刻意鬆手**的策略性揭露，唔係控制崩潰
+- 148cm幼童雙腳懸空、緊抓熊公仔——帝國威嚴的根本反差
+- 面具碎片散落廣場石板——「主動揭露」而非單純「被迫暴露」
+- 黑奏冷靜注視主角團震撼反應嘅眼神——強調呢一刻由佢主導，敵我認知重編排嘅策略意圖
 - 仰視構圖（主角團視角）——觀眾感受到衝擊的角度
 
 ⭐⭐⭐⭐
@@ -7331,22 +7437,22 @@ Dark fantasy anime. Empire plaza climax. Massive imperial robe sliding off and c
 
 ### 劇情背景
 
-Act I全幕，[NC]反覆發生。秋穗以「茶餐廳老闆娘」身份守護晴香，但每天固定時間，她會來到地下實驗室，在愛莉的結晶石像前跪下。她傾訴研究進展、說晴香今天的狀況，然後在沉默中哭泣。秋穗的罪疚不只是「保護晴香」這一層——還有愛莉血債（CDL-013），以及她將美夜子推入Unit 01路線的不可饒恕的罪行（akiho.md §石像前的懺悔；aeri.md §石像狀態）。石像一寸不動，從不回應。這個循環每天重複。
+Act I全幕，[NC]反覆發生。秋穗以「茶餐廳老闆娘」身份守護晴香，但每天固定時間，她會來到秋穗實驗室（塔地底），在愛莉的結晶石像前跪下。她傾訴研究進展、說晴香今天的狀況，然後在沉默中哭泣。秋穗的罪疚不只是「保護晴香」這一層——還有愛莉血債（CDL-013）；`[INFERRED]`「她將美夜子推入Unit 01路線」呢層罪疚 canon 確有支持（`akiho.md §黑貓詛咒Bug的利用與棄守`：「有用時保護，無用時放手」），但秋穗係咪會喺呢個specific石像前嘅懺悔場景中提及美夜子，canon 未見直接描寫，屬合理延伸（akiho.md §石像前的懺悔；aeri.md §石像形態）。石像一寸不動，從不回應。這個循環每天重複。
 
 ### 圖片說明
 
-佈滿失敗儀器和積灰的地下實驗室，中央是結晶化的愛莉石像——姿態凍結，冰冷，完全靜止。秋穗跪在石像前，額頭輕輕抵著石像的手，說著說著聲音就消失了，只有口型在動。實驗室的儀器發出微弱的監測聲，溫度探針顯示：恆定冷卻，無反應。秋穗不站起來，只是跪著。窗戶沒有，時間感沒有，只有這個每天發生的循環。
+佈滿失敗儀器和積灰的秋穗實驗室（塔地底，無窗口），中央是愛莉的結晶石像——半透明橙紅色水晶質感（依 `aeri.md §石像形態`，非灰色石雕），雙手交疊安詳沉睡，姿態凍結，完全靜止。因為地底無陽光照射，石像此刻沒有canon描述嘅「陽光下暖橙光芒」，呈現冷卻嘅暗紅水晶色澤，但仍隱約可見內部緩慢搏動嘅橙紅色脈紋。秋穗跪在石像前，額頭輕輕抵著石像的手，說著說著聲音就消失了，只有口型在動。實驗室的儀器發出微弱的監測聲，溫度探針顯示：恆定冷卻，無反應。秋穗不站起來，只是跪著。窗戶沒有，時間感沒有，只有這個每天發生的循環。
 
 **劇情位置**：
 - **時間點**：Act I [NC]全幕反覆發生（113年3月至5月）
-- **CDL追蹤**：CDL-013（愛莉事故）；`canon/03_characters/akiho.md §石像前的懺悔`；`canon/03_characters/aeri.md §石像狀態`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene A2`
+- **CDL追蹤**：CDL-013（愛莉事故）；`canon/03_characters/akiho.md §石像前的懺悔`；`canon/03_characters/aeri.md §石像形態`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene A2`
 - **前置事件**：愛莉事故（世界上第一個人造魔法屍骸石像誕生）；秋穗與黑奏的魔鬼契約
 - **本場景功能**：揭示秋穗罪疚的真實層次——不只是「保護晴香」的溫暖阿姨，而是有愛莉血債的失敗科學家；石像不回應的沉默比任何對白更殘忍；為Act IV「笨蛋老媽，我從來沒怪過妳」做最長的情感鋪墊
 - **後續payoff**：SPEC#41秋穗實驗室；Act IV秋穗×愛莉手握場景；愛莉原諒的最終時刻
 
 **Reference Images**：
-- 秋穗（日常形態）：`ConceptArt_Akiho_DailyCasual.png`
-- 愛莉石像：`ConceptArt_Aeri_CrystalStatue.png`
+- 秋穗（日常形態）：`ConceptArt_Akiho_CasualWear.png`（原引用 `ConceptArt_Akiho_DailyCasual.png` 依 `DIGEST_REFERENCE_IMAGES.md` 標 `UNVERIFIED`，改用已存在檔案）
+- 愛莉石像：`ConceptArt_Aeri_CrystalStatue.png`（`UNVERIFIED`，生成時須依 `aeri.md §石像形態` 半透明橙紅水晶質感描述，不可用通用灰石雕）
 
 ### 詳細核心描述（240字）
 
@@ -7369,11 +7475,11 @@ Act I全幕，[NC]反覆發生。秋穗以「茶餐廳老闆娘」身份守護�
 ### Midjourney 標準版
 
 ```
-Dark anime. Underground laboratory filled with failed instruments, dusty monitors, worn research journals. Center: a crystallized stone statue of a young girl, frozen mid-gesture, cold and perfectly still. Kneeling before the statue: a tired woman with dark purple hair, forehead pressed gently against the statue's frozen hand. Her lips are moving but no sound comes out. Equipment hum, temperature monitors showing constant cold — no response. No windows. Timeless. Accumulated guilt made physical. Colors: cold laboratory blue-grey, warm deep purple hair against cold crystal. Emotional tone: confessing every day to someone who cannot answer but hears everything. 8k, intimate framing, niji 6, style raw. --ar 9:16
+Dark anime. Underground laboratory (no windows) filled with failed instruments, dusty monitors, worn research journals. Center: a translucent amber-red crystal statue of a young girl, hands folded in sleep, frozen mid-gesture, perfectly still — dormant without sunlight, faint slow-pulsing red-orange veins barely visible inside the crystal. Kneeling before the statue: a tired woman with dark purple hair, forehead pressed gently against the statue's crystal hand. Her lips are moving but no sound comes out. Equipment hum, temperature monitors showing constant cold — no response. Timeless. Accumulated guilt made physical. Colors: cold laboratory blue-grey environment, dormant translucent amber-red crystal statue, warm deep purple hair. Emotional tone: confessing every day to someone who cannot answer but hears everything. 8k, intimate framing, niji 6, style raw. --ar 9:16
 ```
 
 **視覺重點**：
-- 石像的完全靜止——「不回應」比任何對白更重
+- 石像半透明橙紅水晶質感（非灰石雕）——無陽光時呈冷卻暗紅色澤，隱約可見內部脈紋——「不回應」比任何對白更重
 - 秋穗額頭抵在石像手上的姿態——罪疚的物理化
 - 積灰的失敗儀器——「修正過去的徒勞」的視覺環境
 - 無窗口、無時間感——這個場景每天都發生，是循環而非單一事件
@@ -7388,25 +7494,27 @@ Dark anime. Underground laboratory filled with failed instruments, dusty monitor
 
 ### 劇情背景
 
-帝國歷113年11月至114年1月，Act II Phase D/E，地下化中期。Body Horror Stage 2b期間——操外表維持完美（傀儡絲縫牙保持外觀），但內心逐步冷化，靈魂逐步離體，對他人情感反應的機制被一次次「自我修復」（冷化）。在某個深夜，操獨自在廢棄據點角落，用傀儡絲和零件製作一具完美的女性人偶軀殼（ayakomoji_misao.md §無心完美人偶；CDL-233 Body Horror Stage 2b）。製作過程中手指滲血，她感覺不到痛，也感覺不到手的存在。完成時，她看著人偶，感受到一種冰冷的空洞，然後打碎了它。
+`[WRONG→已修正 2026-07-17，時序+重複場景衝突]` 原文將本場景標為「113年11月至114年1月，Act II Phase D/E」，但依 `ayakomoji_misao.md §無心完美人偶`：「**紗夜死後**，操製作了一具完美的女性人偶軀殼……她親手打碎人偶，選擇回到殘缺但真實的身體」——紗夜死於「鏡像破碎之夜」（父親背叛+紗夜犧牲同一夜，E-09a，**Act II Phase C，113年7-8月**）；同一件事（人偶製作+打碎）在圖31「操回歸人類身軀」已於前一批次審計確認時間點為「Act II Phase C，E-09a後插曲，113年7-8月」——本場景時間應與圖31對齊，唔應標到數月後的Phase D/E。另外，原文「打碎人偶」結局動作同圖31 100%重複（同一事件、同一動作），造成兩個 spec 覆蓋同一高潮瞬間的重複問題；本場景收窄聚焦「製作」過程，打碎動作交由圖31專屬承載。
+
+帝國歷113年7-8月，Act II Phase C，鏡像破碎之夜（父親背叛+紗夜犧牲）後的插曲。紗夜死後，操獨自在據點角落，用傀儡絲和零件製作一具完美的女性人偶軀殼，將自己的意識注入其中（ayakomoji_misao.md §無心完美人偶）。製作過程中手指滲血，她感覺不到痛，也感覺不到手的存在——這是Body Horror縫牙傷痛麻木化嘅延伸具現，唔嚴格對應CDL-233分期表入面嘅任何單一Stage（CDL-233主要描述牙齒/縫線階段，「無心完美人偶」屬另一條獨立嘅「插曲」，`DIGEST_CHARACTER_STATES.md` M-S6a 標記為非嚴格對應主線時序嘅事件）。完成時，她看著人偶，感受到一種冰冷的空洞——她終於擁有「完美的身體」，卻無法感受冷暖、無法流淚、無法觸碰（「沒有痛覺的完美，比地獄更可怕」）。→ 打碎人偶回到殘缺身體嘅動作見圖31「操回歸人類身軀」。
 
 ### 圖片說明
 
-廢棄據點的深夜角落，一盞低光燈。操坐在地板上，面前是組裝到尾聲的人偶軀幹——精緻，完美，沒有臉部表情。她的手在縫製最後的細節，左手食指有一個滲血的小傷口，血珠凝在邊緣，沒有擴散——她感覺不到疼痛，感覺不到自己的手在哪裡，只有傀儡絲在動。完成的人偶在燈前靜立，操看著它的眼神：不是滿足，是冰冷的空洞感。
+廢棄據點的深夜角落，一盞低光燈。操坐在地板上，面前是組裝到尾聲的人偶軀幹——精緻，完美，沒有臉部表情。她的手在縫製最後的細節，左手食指有一個滲血的小傷口，血珠凝在邊緣，沒有擴散——她感覺不到疼痛，感覺不到自己的手在哪裡，只有傀儡絲在動。完成的人偶在燈前靜立，操看著它的眼神：不是滿足，是冰冷的空洞感。她的手懸在人偶肩上，尚未動作——下一刻（見圖31）她將親手打碎它。
 
 **劇情位置**：
-- **時間點**：帝國歷113年11月至114年1月（Act II Phase D/E，地下化中期）
-- **CDL追蹤**：CDL-233（Body Horror Stage 2b，靈魂層冷化）；`canon/03_characters/ayakomoji_misao.md §無心完美人偶`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B2`
-- **前置事件**：SPEC#91操絲線縫牙（Body Horror Stage 2a物理層）；鏡像破碎之夜後操進入地下化生存
-- **本場景功能**：Body Horror Stage 2b「靈魂層冷化」的具體呈現——感覺逐漸消失的「完美地獄」；「沒有痛覺的完美，比地獄更可怕」這句話的行為根源視覺化
-- **後續payoff**：SPEC#5鏡像處刑室（操打碎人偶回到殘缺身體）；SPEC#31操回歸人類身軀；SPEC#1鋼鐵獨舞
+- **時間點**：帝國歷113年7-8月（Act II Phase C，E-09a鏡像破碎之夜後插曲，與圖31同期對齊）
+- **CDL追蹤**：`canon/03_characters/ayakomoji_misao.md §無心完美人偶`（主要依據）；CDL-233（Body Horror總體框架，僅作背景參照，唔直接對應本場景任何單一Stage）；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B2`（來源文件本身標「Phase D/E 113年11月-114年1月」與canon對照後確認過時，已依`ayakomoji_misao.md`原文修正，未同步修改來源working檔）
+- **前置事件**：SPEC#91操絲線縫牙（Body Horror Stage 2a物理層，同夜稍早）；鏡像破碎之夜（父親背叛+紗夜臨終揭露真相）
+- **本場景功能**：「無心完美人偶」插曲的製作階段——感覺逐漸消失的「完美地獄」；「沒有痛覺的完美，比地獄更可怕」這句話的行為根源視覺化；同圖31構成同一事件嘅「製作」與「打碎」兩個階段，不重複覆蓋打碎瞬間
+- **後續payoff**：圖31操回歸人類身軀（打碎人偶回到殘缺身體，本場景直接續接）；SPEC#1鋼鐵獨舞（同一角色弧線終局）
 
 **Reference Images**：
 - 操（便服）：`ConceptArt_Misao_CasualWear.png`
 
 ### 詳細核心描述（240字）
 
-廢棄據點深夜角落。一盞電池燈，光圈很小。
+廢棄據點深夜角落。一盞電池燈，光圈很小。紗夜剛死去不久。
 
 操坐在地板上，面前是組裝到尾聲的人偶軀幹：縫線精密，比例精準，關節活動範圍設計完美，手部的細節甚至有靜脈紋路。
 
@@ -7418,22 +7526,21 @@ Dark anime. Underground laboratory filled with failed instruments, dusty monitor
 
 完美的比例。完美的縫線。完美的關節角度。沒有一絲誤差。
 
-那份感覺不到任何溫度的注視持續了幾秒。然後她伸手，將它砸在地板上。
+那份感覺不到任何溫度的注視持續了幾秒。她的手懸在人偶肩上。
 
-傀儡絲四散。人偶的完美輪廓在地板上散開。
-
-她坐在那裡，沒有立刻移動。
+她坐在那裡，沒有立刻移動——下一刻她會伸手打碎它（見圖31）。
 
 ### Midjourney 標準版
 
 ```
-Dark anime. Abandoned hideout, late night corner with a single battery lamp. Misao sitting on floor assembling a near-complete perfectly crafted female doll — precise proportions, flawless seams, realistic vein details on hands. Her left index finger has a small wound, blood bead at the edge not spreading — she does not feel it. Puppet strings moving her fingers automatically. The completed doll lit by lamp. Her face watching it: not satisfaction, only cold emptiness. Colors: deep navy shadow, warm lamp circle, pale perfect doll surface, red blood detail. Emotional tone: perfect craftsmanship with zero sensation — the horror of feeling nothing at all. 8k, niji 6, style raw. --ar 9:16
+Dark anime. Abandoned hideout, late night corner with a single battery lamp, shortly after Sayo's death. Misao sitting on floor, having just finished assembling a perfectly crafted female doll — precise proportions, flawless seams, realistic vein details on hands. Her left index finger has a small wound, blood bead at the edge not spreading — she does not feel it. Puppet strings moving her fingers automatically. The completed doll lit by lamp. Her hand hovering at the doll's shoulder, not yet moving. Her face watching it: not satisfaction, only cold emptiness — the moment right before she will shatter it (continued in a separate scene). Colors: deep navy shadow, warm lamp circle, pale perfect doll surface, red blood detail. Emotional tone: perfect craftsmanship with zero sensation — the horror of feeling nothing at all, poised on the edge of destroying it. 8k, niji 6, style raw. --ar 9:16
 ```
 
 **視覺重點**：
 - 手指滲血但操沒有反應——「感覺不到自己的手」的行為化
 - 傀儡絲控制縫製動作——魔法自動化與人格退場的視覺
 - 人偶的空白臉部——完美外殼但無靈魂的鏡像
+- 手懸在人偶肩上、尚未打碎——本場景停在「製作完成」瞬間，打碎動作交由圖31承載，避免重複
 - 低光、孤獨的場景設計——這是沒有任何人知道的時刻
 
 ⭐⭐⭐⭐
@@ -7446,18 +7553,20 @@ Dark anime. Abandoned hideout, late night corner with a single battery lamp. Mis
 
 ### 劇情背景
 
-帝國歷114年1月末至2月初，Act II Phase F，鏡像破碎之夜前的最後平靜時刻。在地下化生活中，操和管家紗夜仍保持某種殘存的家族食卓節奏。紗夜是操在現實中唯一能感受到無條件愛的人（ayakomoji_misao.md §紗夜；CDL-297紗夜設定；CDL-299紗夜愛的雙重根源）。在這頓早餐裡，操第一次不需要表演完美——不需要計算每個動作，不需要審核每句話。紗夜只是看著她，準備她喜歡的食物，然後在她起身的瞬間，在額頭上輕吻了一下。紗夜的手在顫抖，操沒有察覺。這是她們之間最後一個「正常」的早晨。
+`[WRONG→已修正 2026-07-17，時序不可能]` 原文將本場景標為「114年1月末至2月初，Act II Phase F，鏡像破碎之夜前」——但依已於多批次審計確認嘅結論（圖5/圖26/圖31/圖47），「鏡像破碎之夜」（父親背叛+紗夜犧牲）發生於 **Act II Phase C，E-09a，113年7-8月**；Phase F（母愛の琥珀）依 `ACT_II_OUTLINE.md` Phase 表係 **114年1月-3月**，時序上遠遠**遲於**113年7-8月——一件「發生在鏡像破碎之夜前」嘅事件，唔可能標喺比鏡像破碎之夜遲成半年嘅 Phase F。呢個時序矛盾同其來源 `BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B5` 標註嘅日期一致，證明錯誤源自該working檔本身未同步 `ACT_II_OUTLINE.md` Phase 表；本次以outline為準修正。
+
+帝國歷113年6月末至7月初，Act II Phase B末／Phase C初，鏡像破碎之夜前夕。在地下化前的家族生活中，操和管家紗夜仍保持某種殘存的家族食卓節奏。紗夜是操在現實中唯一能感受到無條件愛的人（ayakomoji_misao.md §紗夜——唯一的無條件之愛）。在這頓早餐裡，操第一次不需要表演完美——不需要計算每個動作，不需要審核每句話。紗夜只是看著她，準備她喜歡的食物，然後在她起身的瞬間，在額頭上輕吻了一下。紗夜的手在顫抖，操沒有察覺。這是她們之間最後一個「正常」的早晨——數日/數週後即為鏡像破碎之夜（E-09a）。
 
 ### 圖片說明
 
 昏黃燈光的小小食桌，桌上是操喜歡的食物——不豐盛，每樣都是她的喜好。操坐著，動作還是精準的，但少了那層計算的殼。紗夜站在一邊，不說什麼，只是看著她吃。操放下筷子，紗夜的手微微在顫抖——觀眾看得見，操沒有注意到。操起身，紗夜的手輕輕落在她額頭上，親了一下。「今日也……很漂亮。」話說完了，兩個人都沒有說出其他的話。
 
 **劇情位置**：
-- **時間點**：帝國歷114年1月末至2月初（Act II Phase F，鏡像破碎之夜前最後平靜時刻）
-- **CDL追蹤**：CDL-297（紗夜設定）；CDL-299（紗夜愛的雙重根源）；`canon/03_characters/ayakomoji_misao.md §紗夜`；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B5`
-- **前置事件**：SPEC#26操被遺棄（父親背叛）前的最後平靜；紗夜在Act I已有輕量出場（CDL-071）
+- **時間點**：帝國歷113年6月末至7月初（Act II Phase B末／Phase C初，鏡像破碎之夜〔E-09a，113年7-8月〕前夕）
+- **CDL追蹤**：`canon/03_characters/ayakomoji_misao.md §紗夜——唯一的無條件之愛`；CDL-299（紗夜之死與坦白為操最終救贖第一階段依據，相關但非本場景直接內容）；原引用「CDL-297」實際係「母親——完美的活體人偶」條目（`ayakomoji_misao.md` 第70行），同紗夜無關，屬CDL誤植已移除；`BEAT_SHEET_PREP_UNMAPPED_VISUAL_SCENES.md Scene B5`（來源日期已確認過時，見上方說明）
+- **前置事件**：紗夜在Act I已有輕量出場（CDL-071）；操以完美表演加入隊伍
 - **本場景功能**：紗夜無條件愛的唯一正面呈現（此後紗夜犧牲）；操第一次不需要表演完美的時刻；紗夜手在顫抖（她預知即將到來的災難）vs操沒有察覺的對比
-- **後續payoff**：SPEC#26操被遺棄（紗夜犧牲）；SPEC#87紗夜犧牲耳鳴遮蔽；SPEC#126操在集體潛意識尋見母親碎片；SPEC#1鋼鐵獨舞
+- **後續payoff**：鏡像破碎之夜（父親背叛+紗夜犧牲，E-09a）；SPEC#26操被遺棄；SPEC#87紗夜犧牲耳鳴遮蔽；SPEC#126操在集體潛意識尋見母親碎片；SPEC#1鋼鐵獨舞
 
 **Reference Images**：
 - 操（便服）：`ConceptArt_Misao_CasualWear.png`

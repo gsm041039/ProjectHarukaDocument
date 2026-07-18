@@ -700,7 +700,7 @@ Emo-Visor 的核心運作原理，實現「痛苦隱形化」的關鍵機制。
 ### <a id="term-mirror-law"></a>鏡像法則（The Mirror Law）
 鏡子是唯一不受 Beta 線覆寫影響的物質。
 
-在術語層，鏡像法則只指「反光介面可揭示被覆寫前的真實與內在主導狀態」。完整條文、適用邊界與例外情境見 [World Rules](01_world_rules_and_costs.md#rule-mirror-law)；演出語法見 [Visual Bible](06_visual_bible.md#section-law-mirror-visual)。
+在術語層，鏡像法則只指「反光介面可揭示被覆寫前的真實與內在主導狀態」。**僅喺維多利亞之淚覆蓋範圍外、對魔法使用者生效**（塔摧毀後範圍限制永久解除，CDL-336）。完整條文、適用邊界與例外情境見 [World Rules](01_world_rules_and_costs.md#rule-mirror-law)；演出語法見 [Visual Bible](06_visual_bible.md#section-law-mirror-visual)。
 
 **See also**: [World Rules](01_world_rules_and_costs.md#rule-mirror-law) | [Inverse Reflection](#term-inverse-reflection)
 
