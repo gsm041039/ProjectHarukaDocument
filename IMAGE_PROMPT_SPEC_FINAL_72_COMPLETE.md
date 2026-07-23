@@ -45,7 +45,7 @@
 | 30 | 121 | Act I | 操入隊——晴香以身體擋攻擊 | The Skirt Question | 操、晴香 | ACT_I | 屍骸戰場（戰鬥收尾瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_30_Misao_SkirtQuestion.png | ❌ 未有圖 | 已補全CDL-050完整台詞；已修正「屍骸已清除」時序誤植（實際發生於戰鬥收尾而非戰後平靜殘局） |
 | 31 | 142 | Act I | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | — | ⭐⭐⭐⭐ | ConceptArt_Scene_31_Akiho_LaboratoryConfession.png | ❌ 未有圖 | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |
 | 32 | 130 | Act I | 晴香鏡中整合 | Haruka Mirror Integration | 晴香、夕、彩 | ACT_I_FINALE | 113年 Act I 幕末（E-XX 整合的長線前置） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_32_HarukaMirrorIntegration.png | ✅ 有圖 | 晴香一個人站在黑暗的浴室或房間鏡前，快到疲憊的夜晚。 |
-| 33 | 84 | Act II | 美夜子Glitch Form首次 | Miyako's First Glitch Form | 美夜子 | Act II | Phase A，E-06 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_33_Miyako_FirstGlitch.png | ❌ 未有圖 | 護隊受傷（非PTSD）觸發貓殼首次功能性崩裂，凜的斷刃鏡面反光同步映出人形殘影 |
+| 33 | 84 | Act II | 美夜子Glitch Form首次 | Miyako's First Glitch Form | 美夜子 | Act II | Phase A，E-06 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_33_Miyako_FirstGlitch.png | ✅ 有圖 | 護隊受傷（非PTSD）觸發貓殼首次功能性崩裂，凜的斷刃鏡面反光同步映出人形殘影 |
 | 34 | 162 | Act II | 放棄的那一秒 | The Second of Surrender | 紫音、小光 | ACT_II | 帝國歷113年（Act II Phase B，E-07a小光之死後直接觸發，E-07a/b之間的過渡瞬間） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_34_ShionCorpsificationMoment.png | ❌ 未有圖 | 廢棄空間，小光死亡的現場。 |
 | 35 | 166 | Act II | 既然如此，讓怪物有個家 | If So, Let the Monsters Have a Home | 紫音、黑奏、小光 | ACT_II | 帝國歷113年5-6月（Act II Phase B，E-07a結束後至E-07b之間） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_35_ShionFallDecision.png | ❌ 未有圖 | 廢棄的空間（即將成為廢棄糖果工廠的地點，或類似的荒廢場所），紫音獨自一人，面前是小光已屍骸化後的殘骸——不再是完整的人形，但紫音仍然坐在其旁邊，或手放在上面。 |
 | 36 | 43 | Act II | 朱音的糖果王國展覽 | Akane's Candy Kingdom Exhibition | 朱音 | Act II Phase B，113年5-6月 | 廢棄糖果工廠（糖果王座全景） | ⭐⭐⭐ | ConceptArt_Scene_36_Akane_CandyKingdomExhibit.png | ❌ 未有圖 | 糖果王座全景展示，腐爛融化跡象處處可見（同圖73互補） |

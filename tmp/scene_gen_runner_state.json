@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23 23:41:43",
+  "updated_at": "2026-07-23 23:42:53",
   "jobs": [
     {
       "spec": {
@@ -30,7 +30,7 @@
       "tab_id": "1542073925248",
       "downloaded_file": null,
       "sent_at": 1784821183.5809152,
-      "next_check_at": 1784821308.8681107,
+      "next_check_at": 1784821359.773113,
       "attempts": 1,
       "last_error": null,
       "notes": [
@@ -38,7 +38,9 @@
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0"
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=True failed=False image=True width=941"
       ]
     },
     {
@@ -72,7 +74,7 @@
       "tab_id": "1542077161840",
       "downloaded_file": null,
       "sent_at": 1784821207.9071403,
-      "next_check_at": 1784821308.8731036,
+      "next_check_at": 1784821359.7786193,
       "attempts": 1,
       "last_error": null,
       "notes": [
@@ -80,7 +82,9 @@
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0"
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=True failed=False image=True width=1672",
+        "poll generating=True intermediate=True failed=False image=True width=1672"
       ]
     },
     {
@@ -97,7 +101,7 @@
       "tab_id": "1542077168656",
       "downloaded_file": null,
       "sent_at": 1784821216.3071585,
-      "next_check_at": 1784821308.8766177,
+      "next_check_at": 1784821359.7826211,
       "attempts": 1,
       "last_error": null,
       "notes": [
@@ -105,7 +109,9 @@
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0"
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=True failed=False image=True width=941"
       ]
     },
     {
@@ -117,19 +123,21 @@
         "references": []
       },
       "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_32_HarukaMirrorIntegration.png",
-      "status": "waiting_result",
+      "status": "completed",
       "latest_url": "https://chatgpt.com/c/6a6235e2-2160-83ec-85eb-87e0d0c254d3",
       "tab_id": "1542077820224",
-      "downloaded_file": null,
+      "downloaded_file": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_32_HarukaMirrorIntegration.png",
       "sent_at": 1784821244.2454057,
-      "next_check_at": 1784821314.9134533,
+      "next_check_at": null,
       "attempts": 1,
       "last_error": null,
       "notes": [
         "scene entered generating on attempt 1",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=True width=1536"
+        "poll generating=True intermediate=False failed=False image=True width=1536",
+        "poll generating=False intermediate=False failed=False image=True width=1536",
+        "overview update skipped: no unchecked row found for ConceptArt_Scene_32_HarukaMirrorIntegration.png"
       ]
     },
     {
@@ -141,19 +149,21 @@
         "references": []
       },
       "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_33_Miyako_FirstGlitch.png",
-      "status": "waiting_result",
+      "status": "completed",
       "latest_url": "https://chatgpt.com/c/6a6235fe-15dc-83ec-83ec-5a04b1f23e41",
       "tab_id": "1542078155312",
-      "downloaded_file": null,
+      "downloaded_file": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_33_Miyako_FirstGlitch.png",
       "sent_at": 1784821248.8202622,
-      "next_check_at": 1784821318.8669326,
+      "next_check_at": null,
       "attempts": 1,
       "last_error": null,
       "notes": [
         "scene entered generating on attempt 1",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0"
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=True width=1672",
+        "overview table updated to has-image for ConceptArt_Scene_33_Miyako_FirstGlitch.png"
       ]
     },
     {
@@ -182,15 +192,17 @@
         ]
       },
       "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_34_ShionCorpsificationMoment.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/WEB:5d811d2f-c17f-410c-9cdd-08a06334e269",
+      "tab_id": "1542078352112",
       "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
+      "sent_at": 1784821344.7671154,
+      "next_check_at": 1784821369.7671154,
+      "attempts": 1,
       "last_error": null,
-      "notes": []
+      "notes": [
+        "scene entered generating on attempt 1"
+      ]
     },
     {
       "spec": {

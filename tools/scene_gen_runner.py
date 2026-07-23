@@ -115,6 +115,14 @@ APOLOGY_REASON_MARKERS = [
     "failed to generate",
 ]
 
+RATE_LIMIT_MODAL_SELECTOR = '[data-testid="modal-conversation-history-rate-limit"], [id="modal-conversation-history-rate-limit"]'
+
+RATE_LIMIT_DISMISS_BUTTON_NAMES = [
+    "知道了",
+    "Got it",
+    "OK",
+]
+
 POLICY_BLOCK_TEXT_PATTERNS = [
     "內容政策",
     "content policy",
@@ -504,9 +512,20 @@ class ChatGPTImageAutomation:
         while pending_jobs or active_runs:
             while pending_jobs and len(active_runs) < max_tabs:
                 job = pending_jobs.pop(0)
-                active_run = self._start_job_until_generating(context, job)
-                active_runs.append(active_run)
+                try:
+                    active_run = self._start_job_until_generating(context, job)
+                    active_runs.append(active_run)
+                except Exception as exc:
+                    job.status = "failed"
+                    job.last_error = str(exc)
+                    job.notes.append(f"failed to start: {exc}")
+                    emit_text(
+                        f"WARNING: Scene {job.spec.scene_number} could not be started: {exc} "
+                        "(continuing with remaining scenes)"
+                    )
                 self._write_state(jobs)
+                if pending_jobs and len(active_runs) < max_tabs:
+                    time.sleep(4)
 
             if not active_runs:
                 break
@@ -564,14 +583,15 @@ class ChatGPTImageAutomation:
                 job.status = "waiting_result"
                 job.notes.append(f"scene entered generating on attempt {attempt}")
                 return ActiveRun(job=job, page=page, started_at=time.time())
-            except SceneRunnerError as exc:
+            except (SceneRunnerError, self.PlaywrightTimeoutError) as exc:
                 last_error = str(exc)
                 job.last_error = last_error
                 job.notes.append(f"attempt {attempt} failed before generating: {last_error}")
                 self._safe_close_page(page)
-                if "BROKEN_HOMEPAGE_UPLOAD_TAB" in last_error and attempt < 2:
+                if attempt < 2:
+                    time.sleep(5)
                     continue
-                raise
+                raise SceneRunnerError(last_error)
 
         raise SceneRunnerError(last_error or f"Scene {job.spec.scene_number} failed before generating")
 
@@ -663,15 +683,38 @@ class ChatGPTImageAutomation:
         context = browser.new_context(accept_downloads=True)
         return context, context.pages
 
+    def _dismiss_rate_limit_modal(self, page) -> bool:
+        try:
+            modal = page.locator(RATE_LIMIT_MODAL_SELECTOR)
+            if modal.count() == 0:
+                return False
+        except Exception:
+            return False
+        try:
+            dismiss = first_visible_locator(page, RATE_LIMIT_DISMISS_BUTTON_NAMES)
+            if dismiss is not None:
+                dismiss.click()
+            else:
+                page.keyboard.press("Escape")
+        except Exception:
+            pass
+        try:
+            page.wait_for_selector(RATE_LIMIT_MODAL_SELECTOR, state="hidden", timeout=5000)
+        except Exception:
+            pass
+        return True
+
     def _ensure_homepage_ready(self, page) -> None:
         page.goto(self.chatgpt_url, wait_until="domcontentloaded")
         page.wait_for_load_state("networkidle", timeout=30000)
+        self._dismiss_rate_limit_modal(page)
 
         composer = first_visible_selector(page, COMPOSER_SELECTORS)
         if composer is None:
             raise SceneRunnerError("Composer not found. Login may be required.")
 
     def _upload_references(self, page, job: SceneJob) -> None:
+        self._dismiss_rate_limit_modal(page)
         plus_button = None
         test_id_locator = page.get_by_test_id(PLUS_BUTTON_TEST_ID)
         if test_id_locator.count() > 0:
@@ -708,21 +751,25 @@ class ChatGPTImageAutomation:
 
         self._wait_for_attachment_count(page, len(file_paths))
 
+    def _count_attachments(self, page) -> int:
+        return page.evaluate(
+            """
+            () => {
+              const composer = document.querySelector('#prompt-textarea') || document.querySelector('[contenteditable="true"]');
+              const scope = composer ? (composer.closest('form') || composer.closest('[class*="composer"]') || composer.parentElement) : document;
+              const candidates = [
+                ...scope.querySelectorAll('img[src^="blob:"], img[alt*="uploaded"], img[alt*="上載"]'),
+                ...scope.querySelectorAll('[data-testid*="attachment"], [aria-label*="附件"], [aria-label*="attachment"]')
+              ];
+              return candidates.length;
+            }
+            """
+        )
+
     def _wait_for_attachment_count(self, page, expected_count: int) -> None:
         deadline = time.time() + 60
         while time.time() < deadline:
-            actual = page.evaluate(
-                """
-                () => {
-                  const candidates = [
-                    ...document.querySelectorAll('img[src^="blob:"], img[alt*="uploaded"], img[alt*="上載"]'),
-                    ...document.querySelectorAll('[data-testid*="attachment"], [aria-label*="附件"], [aria-label*="attachment"]')
-                  ];
-                  return candidates.length;
-                }
-                """
-            )
-            if actual >= expected_count:
+            if self._count_attachments(page) >= expected_count:
                 return
             time.sleep(2)
         raise SceneRunnerError(
@@ -761,6 +808,16 @@ class ChatGPTImageAutomation:
             raise SceneRunnerError("Prompt fill verification failed")
 
     def _submit_prompt(self, page, job: SceneJob) -> None:
+        expected_refs = len([ref for ref in job.spec.references if ref.resolved_path])
+        if expected_refs > 0:
+            actual_refs = self._count_attachments(page)
+            if actual_refs < expected_refs:
+                raise SceneRunnerError(
+                    f"Attachment count mismatch before send: expected {expected_refs}, found {actual_refs}. "
+                    "Refusing to send without all reference images."
+                )
+
+        self._dismiss_rate_limit_modal(page)
         send_button = None
         test_id_locator = page.get_by_test_id(SEND_BUTTON_TEST_ID)
         if test_id_locator.count() > 0:
