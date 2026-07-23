@@ -27,20 +27,20 @@
 | 12 | 37 | Act I | 彩的日常表演 | Aya's Daily Performance | 彩 | Act I | 學校/公開場所 | ⭐⭐⭐ | ConceptArt_Scene_12_Aya_DailyPerformance.png | ❌ 未有圖 | 彩表演完美學生角色，笑容精致眼神空洞 |
 | 13 | 35 | Act I | 凜的情報蒐集現場 | Rin's Intelligence Gathering | 凜 | Act I（108年重組後背景狀態） | 黑暗後巷 | ⭐⭐⭐ | ConceptArt_Scene_13_Rin_IntelligenceGathering.png | ❌ 未有圖 | 凜以情緒管理局公務員身份執行職務（非烏鴉形態，見內文修正） |
 | 14 | 69 | Act I | 出門確認儀式`[核心概念已重寫]` | Daily Bear Confirmation Ritual | 彩／黑奏 | 113年 Act I 日常 | 玄關/門口 | ⭐⭐⭐ | ConceptArt_Scene_14_Aya_DailyBearConfirmation.png | ❌ 未有圖 | 出門前確認袋中螢遺物熊公仔，熊「永遠潔淨」；非「囤積多隻新舊破損熊公仔」（原文與canon「永遠潔淨」規則直接矛盾） |
-| 15 | 82 | Act I | 晴香遞便當（三層交疊） | Haruka's Lunchbox: Three-Layer Overlap | 晴香、黑奏、彩 | 113年 Act I [NC] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png | ❌ 未有圖 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（對鐵絲網事件本身無有意識記憶），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
+| 15 | 82 | Act I | 晴香遞便當（三層交疊） | Haruka's Lunchbox: Three-Layer Overlap | 晴香、黑奏、彩 | 113年 Act I [NC] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png | ✅ 有圖 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（對鐵絲網事件本身無有意識記憶），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
 | 16 | 169 | Act I | 悲鳴女妖首戰 | First Battle Against the Banshee | 晴香、美夜子、操 | ACT_I | 帝國歷113年4月（Act I Beat 5，E-04） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_16_BansheeFirstBattle.png | ✅ 有圖 | 夜區某處戰場（廢墟/工業區），無臉執行官以角色設定（ConceptArt_Akiho_Boss.png）為準：177cm 高挑身形，純白緊身戰鬥服（銀白束帶結構，背部脊椎核心裝置發出紫藍光），深紫色長髮部分遮蓋臉部，臉部完全溶解為星空/星雲質感（無眼無鼻無嘴），雙手化為紫藍能量長刃。 |
-| 17 | 170 | Act I | 情緒管理局的遠望 | The Bureau's Distant Watch | 晴香、美夜子、凜 | ACT_I | 帝國歷113年4月（Act I Beat 5，E-04 戰後） | ⭐⭐⭐⭐ | ConceptArt_Scene_17_BureauDistantWatch.png | ❌ 未有圖 | 高處廢墟邊緣，逆光剪影構圖。 |
-| 18 | 98 | Act I | 操の虛榮告白 | Misao's Vanity Confession | 操 | Act I | E-02入隊後 | ⭐⭐⭐ | ConceptArt_Scene_18_Misao_VanityConfession.png | ❌ 未有圖 | 操入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫 |
+| 17 | 170 | Act I | 情緒管理局的遠望 | The Bureau's Distant Watch | 晴香、美夜子、凜 | ACT_I | 帝國歷113年4月（Act I Beat 5，E-04 戰後） | ⭐⭐⭐⭐ | ConceptArt_Scene_17_BureauDistantWatch.png | ✅ 有圖 | 高處廢墟邊緣，逆光剪影構圖。 |
+| 18 | 98 | Act I | 操の虛榮告白 | Misao's Vanity Confession | 操 | Act I | E-02入隊後 | ⭐⭐⭐ | ConceptArt_Scene_18_Misao_VanityConfession.png | ✅ 有圖 | 操入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫 |
 | 19 | 9 | Act I | 變身場景 | Transformation Scene | 晴香 | Act I | 金魚旗環境 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_19_Haruka_FirstTransform.png | ❌ 未有圖 | 晴香首次變身，金魚旗元素與魔法光芒包覆 |
-| 20 | 17 | Act I | 膠布哲學三層 | Bandaid Philosophy Triptych | 晴香 | Act I-III | 多時段 | ⭐⭐⭐⭐ | ConceptArt_Scene_20_BandaidPhilosophy_Triptych.png | ❌ 未有圖 | 三場景並置：個人習慣→系統隱喻→存在論批判 |
-| 21 | 29 | Act I | 花子的溫柔牢籠 | Mother's Gentle Cage | 花子、晴香 | Act I/IV | 家中/循環 | ⭐⭐⭐ | ConceptArt_Scene_21_Mother_GentleCage.png | ❌ 未有圖 | 永遠循環的晨間，母愛的溫暖同時是囚禁 |
-| 22 | 30 | Act I | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_22_Dissonance_Confrontation.png | ❌ 未有圖 | 鏡中倒影延遲0.3秒，隱約疊著模糊小孩身影，與溫柔形象間的微妙違和 |
-| 23 | 33 | Act I | 晴香的城市獨行 | Haruka's Solitary Urban Walk | 晴香 | Act I-II | 日區街道 | ⭐⭐⭐ | ConceptArt_Scene_23_Haruka_SolitaryUrbanWalk.png | ❌ 未有圖 | 晴香獨自行走日區城市，試圖融入卻被隔離 |
-| 24 | 34 | Act I | 美夜子與小光的對話`[INFERRED]` | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_24_Miyako_Hikari_Conversation.png | ❌ 未有圖 | 貓形態美夜子與年幼小光進行對話（此互動canon未見直接記錄） |
-| 25 | 38 | Act I | 操的獨舞冥想`[INFERRED]` | Misao's Solitary Dance Meditation | 操 | Act I-II操屍骸化前 | 舞蹈室`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_25_Misao_DanceMeditation.png | ❌ 未有圖 | 操獨舞（舞蹈習慣本身canon未支持，人物心理基礎有依據） |
-| 26 | 39 | Act I | 朱音的糖果成癮 | Akane's Candy Addiction | 朱音 | Act I-II | 房間/密閉空間 | ⭐⭐⭐ | ConceptArt_Scene_26_Akane_CandyAddiction.png | ❌ 未有圖 | 朱音房間被糖果包圍，無法自拔沉溺逃避 |
-| 27 | 41 | Act I | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act I（`[NEEDS_FACT]`具體時點） | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_27_Akiho_DrugLab.png | ❌ 未有圖 | 秋穗進行祕密實驗，CGM 血糖手錶誕生（早於Act I派發） |
-| 28 | 42 | Act I | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I（記憶碎片，`[INFERRED]`） | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_28_Hanako_WarmKitchen.png | ❌ 未有圖 | 記憶碎片中的母愛幻影，非物理現實持續場景 |
+| 20 | 17 | Act I | 膠布哲學三層 | Bandaid Philosophy Triptych | 晴香 | Act I-III | 多時段 | ⭐⭐⭐⭐ | ConceptArt_Scene_20_BandaidPhilosophy_Triptych.png | ✅ 有圖 | 三場景並置：個人習慣→系統隱喻→存在論批判 |
+| 21 | 29 | Act I | 花子的溫柔牢籠 | Mother's Gentle Cage | 花子、晴香 | Act I/IV | 家中/循環 | ⭐⭐⭐ | ConceptArt_Scene_21_Mother_GentleCage.png | ✅ 有圖 | 永遠循環的晨間，母愛的溫暖同時是囚禁 |
+| 22 | 30 | Act I | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_22_Dissonance_Confrontation.png | ✅ 有圖 | 鏡中倒影延遲0.3秒，隱約疊著模糊小孩身影，與溫柔形象間的微妙違和 |
+| 23 | 33 | Act I | 晴香的城市獨行 | Haruka's Solitary Urban Walk | 晴香 | Act I-II | 日區街道 | ⭐⭐⭐ | ConceptArt_Scene_23_Haruka_SolitaryUrbanWalk.png | ✅ 有圖 | 晴香獨自行走日區城市，試圖融入卻被隔離 |
+| 24 | 34 | Act I | 美夜子與小光的對話`[INFERRED]` | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_24_Miyako_Hikari_Conversation.png | ✅ 有圖 | 貓形態美夜子與年幼小光進行對話（此互動canon未見直接記錄） |
+| 25 | 38 | Act I | 操的獨舞冥想`[INFERRED]` | Misao's Solitary Dance Meditation | 操 | Act I-II操屍骸化前 | 舞蹈室`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_25_Misao_DanceMeditation.png | ✅ 有圖 | 操獨舞（舞蹈習慣本身canon未支持，人物心理基礎有依據） |
+| 26 | 39 | Act I | 朱音的糖果成癮 | Akane's Candy Addiction | 朱音 | Act I-II | 房間/密閉空間 | ⭐⭐⭐ | ConceptArt_Scene_26_Akane_CandyAddiction.png | ✅ 有圖 | 朱音房間被糖果包圍，無法自拔沉溺逃避 |
+| 27 | 41 | Act I | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act I（`[NEEDS_FACT]`具體時點） | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_27_Akiho_DrugLab.png | ✅ 有圖 | 秋穗進行祕密實驗，CGM 血糖手錶誕生（早於Act I派發） |
+| 28 | 42 | Act I | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I（記憶碎片，`[INFERRED]`） | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_28_Hanako_WarmKitchen.png | ✅ 有圖 | 記憶碎片中的母愛幻影，非物理現實持續場景 |
 | 29 | 120 | Act I | 珍寶珠入隊——朱音加入主角團 | The Lollipop Recruitment | 朱音、晴香 | ACT_I | 夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_29_Akane_LollipopRecruitment.png | ❌ 未有圖 | 已補全CDL-052完整台詞；地點由「街角」修正為「後巷」；payoff鏈補正至SPEC#104下水道無聲重逢 |
 | 30 | 121 | Act I | 操入隊——晴香以身體擋攻擊 | The Skirt Question | 操、晴香 | ACT_I | 屍骸戰場（戰鬥收尾瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_30_Misao_SkirtQuestion.png | ❌ 未有圖 | 已補全CDL-050完整台詞；已修正「屍骸已清除」時序誤植（實際發生於戰鬥收尾而非戰後平靜殘局） |
 | 31 | 142 | Act I | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | — | ⭐⭐⭐⭐ | ConceptArt_Scene_31_Akiho_LaboratoryConfession.png | ❌ 未有圖 | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |

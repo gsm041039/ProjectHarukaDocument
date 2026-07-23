@@ -35,25 +35,36 @@ COMPOSER_SELECTORS = [
 ]
 
 PLUS_BUTTON_NAMES = [
+    "新增檔案和更多內容",
     "加入檔案及更多內容",
     "附加相片及檔案",
     "Attach",
     "Add photos & files",
 ]
 
+PLUS_BUTTON_TEST_ID = "composer-plus-btn"
+
 UPLOAD_MENU_NAMES = [
+    "新增照片和檔案",
+    "從電腦上傳",
     "從電腦上載",
     "Upload from computer",
+    "Add photos & files",
 ]
 
 SEND_BUTTON_NAMES = [
+    "傳送提示詞",
     "傳送訊息",
     "Send message",
     "Send prompt",
 ]
 
+SEND_BUTTON_TEST_ID = "send-button"
+
 DOWNLOAD_BUTTON_NAMES = [
+    "儲存",
     "下載",
+    "Save",
     "Download",
 ]
 
@@ -83,6 +94,25 @@ INTERMEDIATE_TEXT_PATTERNS = [
 FAILURE_TEXT_PATTERNS = [
     "圖片生成失敗",
     "Image generation failed",
+]
+
+APOLOGY_MARKERS = [
+    "抱歉",
+    "很遺憾",
+    "sorry",
+]
+
+APOLOGY_REASON_MARKERS = [
+    "出錯",
+    "未能成功",
+    "未能產生",
+    "無法產生",
+    "無法生成",
+    "失敗",
+    "unable to",
+    "couldn't generate",
+    "could not generate",
+    "failed to generate",
 ]
 
 POLICY_BLOCK_TEXT_PATTERNS = [
@@ -183,6 +213,25 @@ def emit_text(text: str) -> None:
     except UnicodeEncodeError:
         safe_text = text.encode("ascii", errors="backslashreplace").decode("ascii")
         sys.stdout.write(safe_text + "\n")
+
+
+def mark_scene_has_image(output_filename: str, notes: list[str]) -> None:
+    try:
+        spec_text = read_text(SCENE_SPEC_PATH)
+    except OSError as exc:
+        notes.append(f"overview update skipped: cannot read spec file ({exc})")
+        return
+
+    pattern = re.compile(
+        r"(\|\s*" + re.escape(output_filename) + r"\s*\|\s*)❌ 未有圖(\s*\|)"
+    )
+    updated_text, count = pattern.subn(r"\1✅ 有圖\2", spec_text, count=1)
+    if count == 0:
+        notes.append(f"overview update skipped: no unchecked row found for {output_filename}")
+        return
+
+    SCENE_SPEC_PATH.write_text(updated_text, encoding="utf-8")
+    notes.append(f"overview table updated to has-image for {output_filename}")
 
 
 def normalize_whitespace(text: str) -> str:
@@ -484,8 +533,9 @@ class ChatGPTImageAutomation:
                 elif result == "failed":
                     active_runs.remove(active_run)
                     self._safe_close_page(active_run.page)
-                    raise SceneRunnerError(
-                        f"Scene {active_run.job.spec.scene_number} failed: {active_run.job.last_error or active_run.job.status}"
+                    emit_text(
+                        f"WARNING: Scene {active_run.job.spec.scene_number} failed: "
+                        f"{active_run.job.last_error or active_run.job.status} (continuing with remaining scenes)"
                     )
 
     def _start_job_until_generating(self, context, job: SceneJob) -> ActiveRun:
@@ -556,11 +606,18 @@ class ChatGPTImageAutomation:
             job.last_error = "Image generation failed without retry button"
             return "failed"
 
+        if status.get("apology_failure"):
+            job.status = "failed"
+            job.last_error = f"Assistant reported failure: {status.get('last_assistant_text', '').strip()}"
+            job.notes.append(job.last_error)
+            return "failed"
+
         if status["result_ready"]:
             job.status = "downloading"
             downloaded_path = self._download_generated_image(page, job)
             final_path = self._copy_to_repo(downloaded_path, job.final_output_path)
             job.downloaded_file = final_path
+            mark_scene_has_image(job.spec.output_filename, job.notes)
             job.status = "completed"
             job.latest_url = page.url
             job.next_check_at = None
@@ -615,7 +672,12 @@ class ChatGPTImageAutomation:
             raise SceneRunnerError("Composer not found. Login may be required.")
 
     def _upload_references(self, page, job: SceneJob) -> None:
-        plus_button = first_visible_locator(page, PLUS_BUTTON_NAMES)
+        plus_button = None
+        test_id_locator = page.get_by_test_id(PLUS_BUTTON_TEST_ID)
+        if test_id_locator.count() > 0:
+            plus_button = test_id_locator.first
+        if plus_button is None:
+            plus_button = first_visible_locator(page, PLUS_BUTTON_NAMES)
         if plus_button is None:
             raise SceneRunnerError("Could not find plus/upload button")
         plus_button.click()
@@ -623,6 +685,12 @@ class ChatGPTImageAutomation:
         upload_button = first_visible_locator(page, UPLOAD_MENU_NAMES, role="menuitem")
         if upload_button is None:
             upload_button = first_visible_locator(page, UPLOAD_MENU_NAMES)
+        if upload_button is None:
+            for name in UPLOAD_MENU_NAMES:
+                text_locator = page.get_by_text(name, exact=False)
+                if text_locator.count() > 0:
+                    upload_button = text_locator.first
+                    break
         if upload_button is None:
             raise SceneRunnerError("Could not find upload from computer action")
 
@@ -693,7 +761,12 @@ class ChatGPTImageAutomation:
             raise SceneRunnerError("Prompt fill verification failed")
 
     def _submit_prompt(self, page, job: SceneJob) -> None:
-        send_button = first_visible_locator(page, SEND_BUTTON_NAMES)
+        send_button = None
+        test_id_locator = page.get_by_test_id(SEND_BUTTON_TEST_ID)
+        if test_id_locator.count() > 0:
+            send_button = test_id_locator.first
+        if send_button is None:
+            send_button = first_visible_locator(page, SEND_BUTTON_NAMES)
         if send_button is None:
             raise SceneRunnerError("Send button not found")
         send_button.click()
@@ -737,7 +810,7 @@ class ChatGPTImageAutomation:
     def _poll_generation_state(self, page) -> dict:
         return page.evaluate(
             """
-            ({ generatingTexts, intermediateTexts, failureTexts, policyTexts, stopNames }) => {
+            ({ generatingTexts, intermediateTexts, failureTexts, policyTexts, stopNames, apologyMarkers, apologyReasonMarkers }) => {
               const bodyText = document.body?.innerText || '';
               const generating = generatingTexts.some(text => bodyText.includes(text)) ||
                 stopNames.some(name => {
@@ -748,6 +821,15 @@ class ChatGPTImageAutomation:
               const failed = failureTexts.some(text => bodyText.includes(text));
               const policyBlocked = policyTexts.some(text => bodyText.toLowerCase().includes(text.toLowerCase()));
               const retryAvailable = [...document.querySelectorAll('button')].some(b => ['重試', 'Retry'].includes((b.innerText || b.getAttribute('aria-label') || '').trim()));
+
+              const assistantMessages = [...document.querySelectorAll('[data-message-author-role="assistant"]')];
+              const lastAssistantText = assistantMessages.length
+                ? (assistantMessages[assistantMessages.length - 1].innerText || '')
+                : '';
+              const lastAssistantLower = lastAssistantText.toLowerCase();
+              const apologyFailure = !generating &&
+                apologyMarkers.some(m => lastAssistantText.includes(m) || lastAssistantLower.includes(m.toLowerCase())) &&
+                apologyReasonMarkers.some(m => lastAssistantText.includes(m) || lastAssistantLower.includes(m.toLowerCase()));
 
               const imageCandidates = [...document.querySelectorAll('img')].map((img, index) => ({
                 index,
@@ -782,6 +864,8 @@ class ChatGPTImageAutomation:
                 generated_image_found: !!best,
                 natural_width: best ? best.naturalWidth : 0,
                 result_ready: resultReady,
+                apology_failure: apologyFailure,
+                last_assistant_text: lastAssistantText.slice(0, 800),
               };
             }
             """,
@@ -791,6 +875,8 @@ class ChatGPTImageAutomation:
                 "failureTexts": FAILURE_TEXT_PATTERNS,
                 "policyTexts": POLICY_BLOCK_TEXT_PATTERNS,
                 "stopNames": STOP_BUTTON_NAMES,
+                "apologyMarkers": APOLOGY_MARKERS,
+                "apologyReasonMarkers": APOLOGY_REASON_MARKERS,
             },
         )
 
@@ -824,7 +910,13 @@ class ChatGPTImageAutomation:
 
         target.click()
 
-        download_button = first_visible_locator(page, DOWNLOAD_BUTTON_NAMES)
+        download_button = None
+        deadline = time.time() + 10
+        while time.time() < deadline:
+            download_button = first_visible_locator(page, DOWNLOAD_BUTTON_NAMES)
+            if download_button is not None:
+                break
+            page.wait_for_timeout(500)
         if download_button is None:
             raise SceneRunnerError("Download button not found")
 
@@ -902,7 +994,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     run_parser.add_argument("--downloads-dir", type=Path, default=REPO_ROOT / "tmp" / "scene_downloads")
     run_parser.add_argument("--state-path", type=Path, default=DEFAULT_RUN_STATE_PATH)
     run_parser.add_argument("--chatgpt-url", default="https://chatgpt.com/")
-    run_parser.add_argument("--max-tabs", type=int, default=1)
+    run_parser.add_argument("--max-tabs", type=int, default=5)
     run_parser.add_argument("--headless", action="store_true")
     run_parser.add_argument("--user-data-dir", type=Path)
     run_parser.add_argument("--chrome-executable", type=Path)

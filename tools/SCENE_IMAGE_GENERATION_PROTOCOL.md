@@ -197,6 +197,14 @@ Do not use a fixed or hard-coded scene beat. Do not always make the same charact
 - 如果嗰個檔名已經存在（即總覽表「有圖」欄顯示 ✅），生成前應先確認係咪要覆蓋定係另存副本待人手篩選——**唔好靜默覆蓋已有嘅圖**。
 - 每次生成完，應該去 `IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md` 總覽表將該行「有圖」欄由 ❌ 更新做 ✅（保持文件同資料夾狀態同步）。
 
+### 自動化執行時（`tools/scene_gen_runner.py`）
+
+- 用 `scene_gen_runner.py run` 執行時，呢個工具本身已經自動完成以下兩件事，**唔使人手再做**：
+  1. 下載完成後，直接以步驟2嘅建議輸出文件名 copy 入 `art/ConceptArt/Scene/`（即已經係「正名」，唔係 ChatGPT 網頁原始下載檔名）。
+  2. Copy 完成即時去 `IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md` 總覽表搵返該建議輸出文件名嗰行，將「有圖」欄由 `❌ 未有圖` 更新做 `✅ 有圖`。
+- 呢個更新用嘅係精準逐行 regex 比對（以建議輸出文件名做 anchor），唔會誤改其他行；如果嗰行搵唔到（例如總覽表檔名同 scene block 建議檔名唔一致、或者早已經係 ✅），會喺 `tmp/scene_gen_runner_state.json` 對應 job 嘅 `notes` 記低跳過原因，唔會靜默失敗亦唔會報錯中斷 batch。
+- 只有喺**唔係**用呢個 runner（例如人手用網頁版逐張生成）嘅情況下，先需要跟返上面舊有嘅人手更新總覽表步驟。
+
 ---
 
 ## 完整範例（圖1：通風管道那夜）
