@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23 23:41:33",
+  "updated_at": "2026-07-23 23:41:43",
   "jobs": [
     {
       "spec": {
@@ -122,13 +122,14 @@
       "tab_id": "1542077820224",
       "downloaded_file": null,
       "sent_at": 1784821244.2454057,
-      "next_check_at": 1784821299.8949723,
+      "next_check_at": 1784821314.9134533,
       "attempts": 1,
       "last_error": null,
       "notes": [
         "scene entered generating on attempt 1",
         "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0"
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=True width=1536"
       ]
     },
     {
@@ -145,11 +146,12 @@
       "tab_id": "1542078155312",
       "downloaded_file": null,
       "sent_at": 1784821248.8202622,
-      "next_check_at": 1784821303.8510425,
+      "next_check_at": 1784821318.8669326,
       "attempts": 1,
       "last_error": null,
       "notes": [
         "scene entered generating on attempt 1",
+        "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0",
         "poll generating=True intermediate=False failed=False image=False width=0"
       ]
