@@ -401,6 +401,62 @@ output_filename: ConceptArt_Scene_XXX.png
   - downloaded file：`C:\Users\User\Downloads\d639406a-482b-4be5-90ac-a0bb4e1a0b82.png`
   - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_10_RinMiyakoLastNight.png`
   - repo size：`1726913 bytes`
+- Scene 11 `ConceptArt_Scene_11_CorpseApology.png`
+  - temporary route：`https://chatgpt.com/c/WEB:f4063c8b-1c5b-4642-9dca-fdc8995bb7ff`
+  - normalized route：`https://chatgpt.com/c/6a620691-3c38-83ec-b9bd-af804c6cbcce`
+  - final title：`New chat`（生成完成時 title 未自動更新，route 已固定）
+  - downloaded file：`C:\Users\User\Downloads\950ee4ea-c687-4518-9e24-98f082312cfe.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_11_CorpseApology.png`
+  - repo size：`1778749 bytes`
+- Scene 12 `ConceptArt_Scene_Aya_DailyPerformance.png`
+  - temporary route：`https://chatgpt.com/c/WEB:37df803f-0c7f-43bc-8aef-e9cdc473881b`
+  - normalized route：`https://chatgpt.com/c/6a6206c9-0da4-83ec-a9e3-9b5da1ffc52c`
+  - final title：`彩的日常表演`
+  - downloaded file：`C:\Users\User\Downloads\fa496890-2d5c-4463-a01d-b34b31acbb44.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_Aya_DailyPerformance.png`
+  - repo size：`1487435 bytes`
+- Scene 13 `ConceptArt_Scene_Rin_IntelligenceGathering.png`
+  - temporary route：`https://chatgpt.com/c/WEB:a009d3ae-2508-4a04-9c2c-80f514904065`
+  - normalized route：`https://chatgpt.com/c/6a6206d6-09a0-83ec-bec1-7315e3fb7a19`
+  - final title：`凜的角色設計`
+  - downloaded file：`C:\Users\User\Downloads\f3a5d389-15ca-4a69-af01-6a65de252226.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_Rin_IntelligenceGathering.png`
+  - repo size：`1453159 bytes`
+- Scene 14 `ConceptArt_Scene_Aya_DailyBearConfirmation.png`
+  - temporary route：`https://chatgpt.com/c/WEB:3d09fd53-092d-4352-a98a-fe2c83826650`
+  - normalized route：`https://chatgpt.com/c/6a6206df-80f0-83ec-a0b3-a0ed63435ac6`
+  - final title：`New chat`（生成完成時 title 未自動更新，route 已固定）
+  - downloaded file：`C:\Users\User\Downloads\623b1773-43ac-45f2-8850-813bc4b81fe1.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_Aya_DailyBearConfirmation.png`
+  - repo size：`1606274 bytes`
+- Scene 15 `ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png`
+  - temporary route：`https://chatgpt.com/c/WEB:8ea9148e-f70c-405d-a420-45f61bb3e0e5`
+  - normalized route：`https://chatgpt.com/c/6a620cd9-74b0-83ec-b9bb-4f9aeec0939d`
+  - final title：`三層交疊心理畫`
+  - downloaded file：`C:\Users\User\Downloads\368c8cbf-3660-497b-baf2-846d6349acf7.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png`
+  - repo size：`1970289 bytes`
+- Scene 16 `ConceptArt_Scene_16_BansheeFirstBattle.png`
+  - temporary route：`https://chatgpt.com/c/WEB:2bfcfb98-d4bf-4e55-85be-c5319548fe81`
+  - normalized route：`https://chatgpt.com/c/6a620d39-a7d8-83ec-a239-6df76093556a`
+  - final title：`悲鳴女妖首戰`
+  - downloaded file：`C:\Users\User\Downloads\d35d2dc6-617d-4e06-8b33-203b574033ad.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_16_BansheeFirstBattle.png`
+  - repo size：`2146068 bytes`
+- Scene 17 `ConceptArt_Scene_17_BureauDistantWatch.png`
+  - temporary route：`https://chatgpt.com/c/WEB:760038aa-5086-4730-881e-4b69bf2bffc4`
+  - normalized route：`https://chatgpt.com/c/6a620d5c-a3a4-83ec-873b-b83f3063ac6e`
+  - final title：`情緒管理局遠望`
+  - downloaded file：`C:\Users\User\Downloads\8f8b13c7-9a0a-40dc-a0a9-e3f6a55d66dd.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_17_BureauDistantWatch.png`
+  - repo size：`1646690 bytes`
+- Scene 18 `ConceptArt_Scene_18_Misao_VanityConfession.png`
+  - temporary route：`https://chatgpt.com/c/WEB:22e219a3-85dd-479d-8a8e-8851b616195c`
+  - normalized route：`https://chatgpt.com/c/6a620d6a-2a64-83ec-9243-492cc185a03b`
+  - final title：`New chat`（生成完成時 title 未自動更新，route 已固定）
+  - downloaded file：`C:\Users\User\Downloads\84f9c3fd-241f-492c-92d1-818d06ac536b.png`
+  - copied to repo：`art/ConceptArt/Scene/ConceptArt_Scene_18_Misao_VanityConfession.png`
+  - repo size：`1524588 bytes`
 
 執行硬規則：
 
@@ -612,6 +668,100 @@ for each active scene:
 - 其餘 scene 先唔讀 full DOM，等第一張 ready 或到自己預計時間窗先檢查
 
 呢個做法比起對每個 generating tab 密集 snapshot，token 會低好多。
+
+#### 8.1.2 DOM-first / low-token 執行規則（2026-07-23 定案）
+
+以下規則屬於預設低 token workflow，後續 batch 應直接跟：
+
+1. **唔用 full `domSnapshot()` 做常規巡檢主工具**
+   - 常規巡檢優先用細範圍 DOM / `evaluate()` 直接讀：
+     - 當前 URL
+     - 是否仍見到 `正在產生圖像` / `停止回應` / `停止生成`
+     - 是否存在 generated image element
+     - generated image `naturalWidth > 0`
+   - 只有以下情況先升級做 full `domSnapshot()`：
+     - locator 壞咗
+     - upload / send 狀態矛盾
+     - 需要重建 selector
+     - recovery / debugging
+
+2. **upload 前唔預設做大段 DOM dump**
+   - 如果 ChatGPT 首頁版面與已驗證 layout 相同，直接沿用既有穩定 path：
+     - fresh tab
+     - `加入檔案及更多內容`
+     - `從電腦上載`
+     - upload refs
+   - 只有 upload chooser 冇彈出，先讀 menu DOM / input state 做 fallback
+
+3. **每個 generating tab 自己有 `next_check_at`**
+   - 唔做 global full sweep
+   - 每張圖 send 成功後記：
+     - `sent_at`
+     - `next_check_at = sent_at + 25s`
+   - scheduler 每輪只檢查：
+     - 已到 `next_check_at` 嘅 tab
+     - 或當前 batch 最早應檢查嗰張
+   - 未 ready → `next_check_at += 15s`
+
+4. **poll 只做最小必要讀取**
+   - 常規 poll 唔應包含：
+     - open tabs 全列表重印
+     - page 全文
+     - 大段 snapshot tail
+   - 常規 poll 應只回傳：
+     - `scene_id`
+     - `tab_id`
+     - `url`
+     - `generating=true/false`
+     - `generated_image_found=true/false`
+     - `naturalWidth`
+
+5. **download 後默認唔做人眼 QA**
+   - 預設流程：
+     - download
+     - 檔案 baseline 差異確認
+     - `.crdownload` 消失
+     - 檔案可 decode
+     - copy 入 repo
+   - `view_image` / screenshot 只喺以下情況先做：
+     - 高風險 scene
+     - 下載檔大小異常
+     - DOM 顯示結果同 scene 預期明顯可能唔符
+     - 使用者明確要求核圖
+
+6. **tab inventory 只喺 recovery 時先查**
+   - 唔好每批 / 每輪 poll 都重新列出全部 open tabs
+   - 正常 batch 只維持本輪最少 state：
+     - `scene_id -> tab_id`
+     - `tab_id -> latest_url`
+     - `sent_at`
+     - `next_check_at`
+   - 只有 tab 遺失、route 對唔上、或 chooser 壞咗，先重新查 `openTabs()`
+
+7. **固定成功模板優先，現場分析後置**
+   - 已驗證穩定 workflow：
+     - new tab
+     - open homepage
+     - `+`
+     - upload refs
+     - paste full prompt
+     - send
+     - 見到 `/c/WEB:` 即 keep
+     - normalize 後記正式 `/c/...`
+   - 之後 batch 預設先走呢條固定 path
+   - 只有失敗先進入現場分析 / DOM 深挖
+
+8. **最少 token batch 原則**
+   - 預設：
+     - 不重讀 protocol
+     - 不重印大段 source
+     - 不做全頁 snapshot 巡檢
+     - 不做每張圖人工核對
+   - 只保留：
+     - prompt 組裝
+     - send 驗證
+     - 到鐘 tab poll
+     - download / copy / writeback
 
 #### 8.2 POLICY_BLOCKED 條件
 

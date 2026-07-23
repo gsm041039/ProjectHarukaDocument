@@ -13,175 +13,175 @@
 
 | 劇情順序 | # | 區塊 | 場景名稱（中文）| 場景名稱（英文）| 主要角色 | Act | 時段/階段 | ⭐ | 建議文件名 | 有圖 | 簡要描述 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 1 | 79 | 前史／源起閃回 | 通風管道那夜（螢的犧牲） | The Night in the Ventilation Shaft | 彩、螢 | 前史 79年 | 夜區建築通風管道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_HotaruSacrifice_VentilationShaft.png | ❌ 未有圖 | 靈樹戰爭期間躲避帝國軍搜索（原文誤植「黑奏」在場及「帝國設施處置」，此時應為6歲彩，黑奏人格於此夜誕生）；螢犧牲把熊公仔交給彩 |
-| 2 | 78 | 前史／源起閃回 | 鐵絲網偶遇 | Wire Fence Encounter | 晴香、彩 | 前史 102年 | 帝國研究設施外圍 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_WireFenceEncounter.png | ❌ 未有圖 | 5歲晴香目睹渾身傷痕、被守衛拖行嘅彩（此時29歲，非5歲，原文誤植），潛意識許願埋下創世因果信標（CDL-288） |
-| 3 | 80 | 前史／源起閃回 | 帝國實驗室：黑奏作為活體樣本 | The Empire Lab: Kurokane as Living Specimen | 彩 | 前史 79-102年間（原文「12-15歲/95-98年」與出生年矛盾，已修正） | 帝國實驗室 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmpireLab_KurokaneSpecimen.png | ✅ 有圖 | 彩被囚禁研究期間（此時尚未擁有魔法力量），接受早期情緒壓抑/測量技術測試（原文誤植為「收集魔法輸出數據」） |
+| 1 | 79 | 前史／源起閃回 | 通風管道那夜（螢的犧牲） | The Night in the Ventilation Shaft | 彩、螢 | 前史 79年 | 夜區建築通風管道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_1_HotaruSacrifice_VentilationShaft.png | ❌ 未有圖 | 靈樹戰爭期間躲避帝國軍搜索（原文誤植「黑奏」在場及「帝國設施處置」，此時應為6歲彩，黑奏人格於此夜誕生）；螢犧牲把熊公仔交給彩 |
+| 2 | 78 | 前史／源起閃回 | 鐵絲網偶遇 | Wire Fence Encounter | 晴香、彩 | 前史 102年 | 帝國研究設施外圍 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_2_WireFenceEncounter.png | ❌ 未有圖 | 5歲晴香目睹渾身傷痕、被守衛拖行嘅彩（此時29歲，非5歲，原文誤植），潛意識許願埋下創世因果信標（CDL-288） |
+| 3 | 80 | 前史／源起閃回 | 帝國實驗室：黑奏作為活體樣本 | The Empire Lab: Kurokane as Living Specimen | 彩 | 前史 79-102年間（原文「12-15歲/95-98年」與出生年矛盾，已修正） | 帝國實驗室 | ⭐⭐⭐⭐ | ConceptArt_Scene_3_EmpireLab_KurokaneSpecimen.png | ✅ 有圖 | 彩被囚禁研究期間（此時尚未擁有魔法力量），接受早期情緒壓抑/測量技術測試（原文誤植為「收集魔法輸出數據」） |
 | 4 | 154 | 前史／源起閃回 | 花子的死亡瞬間 | The Moment of Creation | 花子、晴香、美夜子 | PRE-STORY / ALPHA LINE | 帝國歷102年（Alpha線，Beta線分歧前，Loop 0起點） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_4_HanakoDeathCreation.png | ❌ 未有圖 | Alpha線的城市，街道上，5歲的晴香蹲在地上。 |
-| 5 | 75 | 前史／源起閃回 | 刑思殺出實驗室 | Keishi's Awakening Massacre | 刑思（黑奏） | 前史 103年（原文誤標98年） | 帝國實驗室 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Keishi_AwakeningMassacre.png | ✅ 有圖 | 黑奏在實驗室中覺醒魔法少女力量（102年鐵絲網偶遇獲得），殺光所有實驗人員，這是她走向帝國統治的起點 |
-| 6 | 81 | 前史／源起閃回 | 黑奏弒父篡位 | Kurokane Usurps the Emperor | 黑奏 | 前史 103年（原文誤標98年） | 帝國皇宮 | ⭐⭐⭐⭐ | ConceptArt_Scene_KurokaneUsurpation.png | ❌ 未有圖 | 148cm幼童身軀弒殺養父，帝國「刑思」法號確立（CDL-305修正年份） |
-| 7 | 76 | 前史／源起閃回 | 凜×美夜子黃金搭檔 | Rin and Miyako's Golden Partnership | 凜、美夜子 | 前史/閃回（103-108年） | 軍方戰場 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png | ✅ 有圖 | 兩人作為軍方魔法少女的默契巔峰——凜精準打擊，美夜子以琉璃緞帶+能量冰刀掩護收割（原文誤植雙槍，已修正） |
-| 8 | 77 | 前史／源起閃回 | 凜殿後最終犧牲 | Rin's Final Rear Guard Sacrifice | 凜、美夜子 | 前史/閃回（108年） | 戰場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FinalSacrifice.png | ❌ 未有圖 | 凜主動引開L3光環掩護美夜子撤退，頸椎被扭斷180度，死亡瞬間眼神是釋然而非恐懼——成為美夜子終身PTSD的聲音 |
+| 5 | 75 | 前史／源起閃回 | 刑思殺出實驗室 | Keishi's Awakening Massacre | 刑思（黑奏） | 前史 103年（原文誤標98年） | 帝國實驗室 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_5_Keishi_AwakeningMassacre.png | ✅ 有圖 | 黑奏在實驗室中覺醒魔法少女力量（102年鐵絲網偶遇獲得），殺光所有實驗人員，這是她走向帝國統治的起點 |
+| 6 | 81 | 前史／源起閃回 | 黑奏弒父篡位 | Kurokane Usurps the Emperor | 黑奏 | 前史 103年（原文誤標98年） | 帝國皇宮 | ⭐⭐⭐⭐ | ConceptArt_Scene_6_KurokaneUsurpation.png | ❌ 未有圖 | 148cm幼童身軀弒殺養父，帝國「刑思」法號確立（CDL-305修正年份） |
+| 7 | 76 | 前史／源起閃回 | 凜×美夜子黃金搭檔 | Rin and Miyako's Golden Partnership | 凜、美夜子 | 前史/閃回（103-108年） | 軍方戰場 | ⭐⭐⭐⭐ | ConceptArt_Scene_7_Rin_Miyako_GoldenPartnership.png | ✅ 有圖 | 兩人作為軍方魔法少女的默契巔峰——凜精準打擊，美夜子以琉璃緞帶+能量冰刀掩護收割（原文誤植雙槍，已修正） |
+| 8 | 77 | 前史／源起閃回 | 凜殿後最終犧牲 | Rin's Final Rear Guard Sacrifice | 凜、美夜子 | 前史/閃回（108年） | 戰場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_8_Rin_FinalSacrifice.png | ❌ 未有圖 | 凜主動引開L3光環掩護美夜子撤退，頸椎被扭斷180度，死亡瞬間眼神是釋然而非恐懼——成為美夜子終身PTSD的聲音 |
 | 9 | 153 | 前史／源起閃回 | 秋穗與愛莉的實驗室事故 | The Laboratory Accident | 秋穗、愛莉、黑奏 | PRE-STORY | 帝國歷108年（前史，主線開始前15年） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_9_AkihoAeriAccident.png | ❌ 未有圖 | 實驗室的瞬間：愛莉的手剛接觸到裂開的裝置，石像化從接觸點開始蔓延——手指、掌心、手腕，灰白色的石頭質地快速侵佔皮膚。 |
 | 10 | 165 | 前史／源起閃回 | 殿後的前夜 | The Night Before the Rear Guard | 美夜子、凜 | ORIGIN_FLASHBACK | 前史，帝國歷108年（凜光環處決前夜；美夜子PTSD情感根源） | ⭐⭐⭐⭐ | ConceptArt_Scene_10_RinMiyakoLastNight.png | ❌ 未有圖 | 帝國歷108年，某個戰地夜晚，凜與美夜子並排——可能是在臨時據點的地板上，可能是靠牆坐著，可能是背對背沉默地對著各自的方向。 |
 | 11 | 152 | Act I | 屍骸的道歉 | The Corpse's Apology | 晴香 | ACT_I | 帝國歷113年，Act I 早期（E-02附近，初入戰鬥期） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_11_CorpseApology.png | ❌ 未有圖 | 街道一角，老婆婆形態的屍骸蹲伏在地——身體已扭曲變形，無法正常站立，眼睛渾濁失焦，嘴巴無法發出聲音。 |
-| 12 | 37 | Act I | 彩的日常表演 | Aya's Daily Performance | 彩 | Act I | 學校/公開場所 | ⭐⭐⭐ | ConceptArt_Scene_Aya_DailyPerformance.png | ❌ 未有圖 | 彩表演完美學生角色，笑容精致眼神空洞 |
-| 13 | 35 | Act I | 凜的情報蒐集現場 | Rin's Intelligence Gathering | 凜 | Act I（108年重組後背景狀態） | 黑暗後巷 | ⭐⭐⭐ | ConceptArt_Scene_Rin_IntelligenceGathering.png | ❌ 未有圖 | 凜以情緒管理局公務員身份執行職務（非烏鴉形態，見內文修正） |
-| 14 | 69 | Act I | 出門確認儀式`[核心概念已重寫]` | Daily Bear Confirmation Ritual | 彩／黑奏 | 113年 Act I 日常 | 玄關/門口 | ⭐⭐⭐ | ConceptArt_Scene_Aya_DailyBearConfirmation.png | ❌ 未有圖 | 出門前確認袋中螢遺物熊公仔，熊「永遠潔淨」；非「囤積多隻新舊破損熊公仔」（原文與canon「永遠潔淨」規則直接矛盾） |
-| 15 | 82 | Act I | 晴香遞便當（三層交疊） | Haruka's Lunchbox: Three-Layer Overlap | 晴香、黑奏、彩 | 113年 Act I [NC] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_Lunchbox_ThreeLayers.png | ❌ 未有圖 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（對鐵絲網事件本身無有意識記憶），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
+| 12 | 37 | Act I | 彩的日常表演 | Aya's Daily Performance | 彩 | Act I | 學校/公開場所 | ⭐⭐⭐ | ConceptArt_Scene_12_Aya_DailyPerformance.png | ❌ 未有圖 | 彩表演完美學生角色，笑容精致眼神空洞 |
+| 13 | 35 | Act I | 凜的情報蒐集現場 | Rin's Intelligence Gathering | 凜 | Act I（108年重組後背景狀態） | 黑暗後巷 | ⭐⭐⭐ | ConceptArt_Scene_13_Rin_IntelligenceGathering.png | ❌ 未有圖 | 凜以情緒管理局公務員身份執行職務（非烏鴉形態，見內文修正） |
+| 14 | 69 | Act I | 出門確認儀式`[核心概念已重寫]` | Daily Bear Confirmation Ritual | 彩／黑奏 | 113年 Act I 日常 | 玄關/門口 | ⭐⭐⭐ | ConceptArt_Scene_14_Aya_DailyBearConfirmation.png | ❌ 未有圖 | 出門前確認袋中螢遺物熊公仔，熊「永遠潔淨」；非「囤積多隻新舊破損熊公仔」（原文與canon「永遠潔淨」規則直接矛盾） |
+| 15 | 82 | Act I | 晴香遞便當（三層交疊） | Haruka's Lunchbox: Three-Layer Overlap | 晴香、黑奏、彩 | 113年 Act I [NC] | 學校 | ⭐⭐⭐ | ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png | ❌ 未有圖 | 黑奏偽裝「彩」接近晴香 → 晴香真心遞便當（對鐵絲網事件本身無有意識記憶），黑奏精算接受，彩（被困內心）看著 → Act III揭露三層情感炸彈 |
 | 16 | 169 | Act I | 悲鳴女妖首戰 | First Battle Against the Banshee | 晴香、美夜子、操 | ACT_I | 帝國歷113年4月（Act I Beat 5，E-04） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_16_BansheeFirstBattle.png | ✅ 有圖 | 夜區某處戰場（廢墟/工業區），無臉執行官以角色設定（ConceptArt_Akiho_Boss.png）為準：177cm 高挑身形，純白緊身戰鬥服（銀白束帶結構，背部脊椎核心裝置發出紫藍光），深紫色長髮部分遮蓋臉部，臉部完全溶解為星空/星雲質感（無眼無鼻無嘴），雙手化為紫藍能量長刃。 |
 | 17 | 170 | Act I | 情緒管理局的遠望 | The Bureau's Distant Watch | 晴香、美夜子、凜 | ACT_I | 帝國歷113年4月（Act I Beat 5，E-04 戰後） | ⭐⭐⭐⭐ | ConceptArt_Scene_17_BureauDistantWatch.png | ❌ 未有圖 | 高處廢墟邊緣，逆光剪影構圖。 |
-| 18 | 98 | Act I | 操の虛榮告白 | Misao's Vanity Confession | 操 | Act I | E-02入隊後 | ⭐⭐⭐ | ConceptArt_Scene_Misao_VanityConfession.png | ❌ 未有圖 | 操入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫 |
-| 19 | 9 | Act I | 變身場景 | Transformation Scene | 晴香 | Act I | 金魚旗環境 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_FirstTransform.png | ❌ 未有圖 | 晴香首次變身，金魚旗元素與魔法光芒包覆 |
-| 20 | 17 | Act I | 膠布哲學三層 | Bandaid Philosophy Triptych | 晴香 | Act I-III | 多時段 | ⭐⭐⭐⭐ | ConceptArt_Scene_BandaidPhilosophy_Triptych.png | ❌ 未有圖 | 三場景並置：個人習慣→系統隱喻→存在論批判 |
-| 21 | 29 | Act I | 花子的溫柔牢籠 | Mother's Gentle Cage | 花子、晴香 | Act I/IV | 家中/循環 | ⭐⭐⭐ | ConceptArt_Scene_Mother_GentleCage.png | ❌ 未有圖 | 永遠循環的晨間，母愛的溫暖同時是囚禁 |
-| 22 | 30 | Act I | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_Dissonance_Confrontation.png | ❌ 未有圖 | 鏡中倒影延遲0.3秒，隱約疊著模糊小孩身影，與溫柔形象間的微妙違和 |
-| 23 | 33 | Act I | 晴香的城市獨行 | Haruka's Solitary Urban Walk | 晴香 | Act I-II | 日區街道 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_SolitaryUrbanWalk.png | ❌ 未有圖 | 晴香獨自行走日區城市，試圖融入卻被隔離 |
-| 24 | 34 | Act I | 美夜子與小光的對話`[INFERRED]` | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_Hikari_Conversation.png | ❌ 未有圖 | 貓形態美夜子與年幼小光進行對話（此互動canon未見直接記錄） |
-| 25 | 38 | Act I | 操的獨舞冥想`[INFERRED]` | Misao's Solitary Dance Meditation | 操 | Act I-II操屍骸化前 | 舞蹈室`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_DanceMeditation.png | ❌ 未有圖 | 操獨舞（舞蹈習慣本身canon未支持，人物心理基礎有依據） |
-| 26 | 39 | Act I | 朱音的糖果成癮 | Akane's Candy Addiction | 朱音 | Act I-II | 房間/密閉空間 | ⭐⭐⭐ | ConceptArt_Scene_Akane_CandyAddiction.png | ❌ 未有圖 | 朱音房間被糖果包圍，無法自拔沉溺逃避 |
-| 27 | 41 | Act I | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act I（`[NEEDS_FACT]`具體時點） | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_DrugLab.png | ❌ 未有圖 | 秋穗進行祕密實驗，CGM 血糖手錶誕生（早於Act I派發） |
-| 28 | 42 | Act I | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I（記憶碎片，`[INFERRED]`） | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_Hanako_WarmKitchen.png | ❌ 未有圖 | 記憶碎片中的母愛幻影，非物理現實持續場景 |
-| 29 | 120 | Act I | 珍寶珠入隊——朱音加入主角團 | The Lollipop Recruitment | 朱音、晴香 | ACT_I | 夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akane_LollipopRecruitment.png | ❌ 未有圖 | 已補全CDL-052完整台詞；地點由「街角」修正為「後巷」；payoff鏈補正至SPEC#104下水道無聲重逢 |
-| 30 | 121 | Act I | 操入隊——晴香以身體擋攻擊 | The Skirt Question | 操、晴香 | ACT_I | 屍骸戰場（戰鬥收尾瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_SkirtQuestion.png | ❌ 未有圖 | 已補全CDL-050完整台詞；已修正「屍骸已清除」時序誤植（實際發生於戰鬥收尾而非戰後平靜殘局） |
-| 31 | 142 | Act I | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Akiho_LaboratoryConfession.png | ❌ 未有圖 | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |
+| 18 | 98 | Act I | 操の虛榮告白 | Misao's Vanity Confession | 操 | Act I | E-02入隊後 | ⭐⭐⭐ | ConceptArt_Scene_18_Misao_VanityConfession.png | ❌ 未有圖 | 操入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫 |
+| 19 | 9 | Act I | 變身場景 | Transformation Scene | 晴香 | Act I | 金魚旗環境 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_19_Haruka_FirstTransform.png | ❌ 未有圖 | 晴香首次變身，金魚旗元素與魔法光芒包覆 |
+| 20 | 17 | Act I | 膠布哲學三層 | Bandaid Philosophy Triptych | 晴香 | Act I-III | 多時段 | ⭐⭐⭐⭐ | ConceptArt_Scene_20_BandaidPhilosophy_Triptych.png | ❌ 未有圖 | 三場景並置：個人習慣→系統隱喻→存在論批判 |
+| 21 | 29 | Act I | 花子的溫柔牢籠 | Mother's Gentle Cage | 花子、晴香 | Act I/IV | 家中/循環 | ⭐⭐⭐ | ConceptArt_Scene_21_Mother_GentleCage.png | ❌ 未有圖 | 永遠循環的晨間，母愛的溫暖同時是囚禁 |
+| 22 | 30 | Act I | 違和感與對峙 | Dissonance and Confrontation | 晴香 | Act I | 鏡前 | ⭐⭐⭐ | ConceptArt_Scene_22_Dissonance_Confrontation.png | ❌ 未有圖 | 鏡中倒影延遲0.3秒，隱約疊著模糊小孩身影，與溫柔形象間的微妙違和 |
+| 23 | 33 | Act I | 晴香的城市獨行 | Haruka's Solitary Urban Walk | 晴香 | Act I-II | 日區街道 | ⭐⭐⭐ | ConceptArt_Scene_23_Haruka_SolitaryUrbanWalk.png | ❌ 未有圖 | 晴香獨自行走日區城市，試圖融入卻被隔離 |
+| 24 | 34 | Act I | 美夜子與小光的對話`[INFERRED]` | Miyako and Hikari Conversation | 美夜子、小光 | Act I | 室內溫馨空間 | ⭐⭐⭐ | ConceptArt_Scene_24_Miyako_Hikari_Conversation.png | ❌ 未有圖 | 貓形態美夜子與年幼小光進行對話（此互動canon未見直接記錄） |
+| 25 | 38 | Act I | 操的獨舞冥想`[INFERRED]` | Misao's Solitary Dance Meditation | 操 | Act I-II操屍骸化前 | 舞蹈室`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_25_Misao_DanceMeditation.png | ❌ 未有圖 | 操獨舞（舞蹈習慣本身canon未支持，人物心理基礎有依據） |
+| 26 | 39 | Act I | 朱音的糖果成癮 | Akane's Candy Addiction | 朱音 | Act I-II | 房間/密閉空間 | ⭐⭐⭐ | ConceptArt_Scene_26_Akane_CandyAddiction.png | ❌ 未有圖 | 朱音房間被糖果包圍，無法自拔沉溺逃避 |
+| 27 | 41 | Act I | 秋穗的藥物實驗室 | Akiho's Drug Experiment Laboratory | 秋穗 | Act I（`[NEEDS_FACT]`具體時點） | 冷色實驗室 | ⭐⭐⭐ | ConceptArt_Scene_27_Akiho_DrugLab.png | ❌ 未有圖 | 秋穗進行祕密實驗，CGM 血糖手錶誕生（早於Act I派發） |
+| 28 | 42 | Act I | 花子的溫暖廚房 | Hanako's Warm Kitchen | 花子、晴香 | Act I（記憶碎片，`[INFERRED]`） | 晨間廚房 | ⭐⭐⭐ | ConceptArt_Scene_28_Hanako_WarmKitchen.png | ❌ 未有圖 | 記憶碎片中的母愛幻影，非物理現實持續場景 |
+| 29 | 120 | Act I | 珍寶珠入隊——朱音加入主角團 | The Lollipop Recruitment | 朱音、晴香 | ACT_I | 夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_29_Akane_LollipopRecruitment.png | ❌ 未有圖 | 已補全CDL-052完整台詞；地點由「街角」修正為「後巷」；payoff鏈補正至SPEC#104下水道無聲重逢 |
+| 30 | 121 | Act I | 操入隊——晴香以身體擋攻擊 | The Skirt Question | 操、晴香 | ACT_I | 屍骸戰場（戰鬥收尾瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_30_Misao_SkirtQuestion.png | ❌ 未有圖 | 已補全CDL-050完整台詞；已修正「屍骸已清除」時序誤植（實際發生於戰鬥收尾而非戰後平靜殘局） |
+| 31 | 142 | Act I | 秋穗實驗室懺悔 | Akiho's Laboratory Confession | 秋穗（獨處）、愛莉石像 | Act I [NC]全幕反覆 | — | ⭐⭐⭐⭐ | ConceptArt_Scene_31_Akiho_LaboratoryConfession.png | ❌ 未有圖 | 秋穗每天跪在石像前傾訴，石像從不回應；失敗科學家向沉默見證者的循環懺悔 |
 | 32 | 130 | Act I | 晴香鏡中整合 | Haruka Mirror Integration | 晴香、夕、彩 | ACT_I_FINALE | 113年 Act I 幕末（E-XX 整合的長線前置） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_32_HarukaMirrorIntegration.png | ✅ 有圖 | 晴香一個人站在黑暗的浴室或房間鏡前，快到疲憊的夜晚。 |
-| 33 | 84 | Act II | 美夜子Glitch Form首次 | Miyako's First Glitch Form | 美夜子 | Act II | Phase A，E-06 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_FirstGlitch.png | ❌ 未有圖 | 護隊受傷（非PTSD）觸發貓殼首次功能性崩裂，凜的斷刃鏡面反光同步映出人形殘影 |
+| 33 | 84 | Act II | 美夜子Glitch Form首次 | Miyako's First Glitch Form | 美夜子 | Act II | Phase A，E-06 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_33_Miyako_FirstGlitch.png | ❌ 未有圖 | 護隊受傷（非PTSD）觸發貓殼首次功能性崩裂，凜的斷刃鏡面反光同步映出人形殘影 |
 | 34 | 162 | Act II | 放棄的那一秒 | The Second of Surrender | 紫音、小光 | ACT_II | 帝國歷113年（Act II Phase B，E-07a小光之死後直接觸發，E-07a/b之間的過渡瞬間） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_34_ShionCorpsificationMoment.png | ❌ 未有圖 | 廢棄空間，小光死亡的現場。 |
 | 35 | 166 | Act II | 既然如此，讓怪物有個家 | If So, Let the Monsters Have a Home | 紫音、黑奏、小光 | ACT_II | 帝國歷113年5-6月（Act II Phase B，E-07a結束後至E-07b之間） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_35_ShionFallDecision.png | ❌ 未有圖 | 廢棄的空間（即將成為廢棄糖果工廠的地點，或類似的荒廢場所），紫音獨自一人，面前是小光已屍骸化後的殘骸——不再是完整的人形，但紫音仍然坐在其旁邊，或手放在上面。 |
-| 36 | 43 | Act II | 朱音的糖果王國展覽 | Akane's Candy Kingdom Exhibition | 朱音 | Act II Phase B，113年5-6月 | 廢棄糖果工廠（糖果王座全景） | ⭐⭐⭐ | ConceptArt_Scene_Akane_CandyKingdomExhibit.png | ❌ 未有圖 | 糖果王座全景展示，腐爛融化跡象處處可見（同圖73互補） |
-| 37 | 128 | Act II | 打怪無效 | Monster Fighting Proves Ineffective | 晴香、朱音、愛莉 | ACT_II | 帝國歷113年5月末～6月中旬（Act II Phase B～Phase C過渡，E-07b～E-08期間） | `[NEEDS_FACT]` | ConceptArt_Scene_TeamCombat_Ineffective.png | ❌ 未有圖 | 主角團在廣場與魔法屍骸戰鬥，晴香以耀眼光芒消滅屍骸，操以精密傀儡絲斬擊，美夜子以黑貓形態敏捷補刀——表面上連貫勝利，屍骸一隻一隻倒下。 |
-| 38 | 85 | Act II | 小光之死＋黑奏邏輯侵入 | Hikari's Death + Kurokane's Logic Invasion | 紫音、黑奏 | Act II | Phase B，E-07a | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Hikari_Death_KurokaneInvasion.png | ❌ 未有圖 | 小光斷氣後紫音發癲徒手打崩其他屍骸，骨頭外露仍狂笑，歌德尖刺初現，黑奏邏輯緊接植入 |
-| 39 | 86 | Act II | 廢棄糖果工廠三人辯論 | Three-Way Debate in the Abandoned Candy Factory | 晴香、操、紫音 | Act II | Phase B，E-07b | ⭐⭐⭐ | ConceptArt_Scene_CandyFactory_ThreeWayDebate.png | ❌ 未有圖 | 操調停失敗後晴香趕到，三種哲學立場正面交鋒，直接導致紫音被放逐 |
-| 40 | 94 | Act II | 彩「卡頓」——黑奏系統困惑（第二次） | Aya's "Glitch": Kurokane's System Confusion, Second Occurrence | 晴香、彩（黑奏） | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_Aya_SystemGlitch_Second.png | ❌ 未有圖 | 晴香無意間的溫暖小動作觸發黑奏系統第二次短暫困惑，眼神紫色閃爍0.5秒+身體輕微僵直 |
-| 41 | 96 | Act II | 黑奏農場觀察 | Kurokane's Farm Observation | 黑奏（彩） | Act II | Phase B，E-08高壓期 | ⭐⭐⭐⭐ | ConceptArt_Scene_Kurokane_FarmObservation.png | ❌ 未有圖 | 晴香陷入恐怖家家酒高壓痛苦時刻，黑奏在暗處冷靜評估的特寫 |
-| 42 | 97 | Act II | 鏡像相簿異變 | Mirror Photo Album Anomaly | 晴香、美夜子 | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_Haruka_PhotoAlbumAnomaly.png | ❌ 未有圖 | 玻璃反射中美夜子身旁出現模糊異象（手/藍色馬尾影子），Red Herring機制啟動，身份不明 |
-| 43 | 73 | Act II | 家長日大作戰 | Parents' Day Infiltration | 小光、紫音、操 | Act II Phase B | 學校 | ⭐⭐⭐ | ConceptArt_Scene_ParentsDay_Infiltration.png | ✅ 有圖 | 小光家長日：紫音以「家姐」身份出席，操扮「媽媽」（原文誤植為操扮紫音的家長，已修正） |
-| 44 | 47 | Act II | 操的摔碎時刻 | Misao's Breaking Moment | 操 | Act II Phase C，E-09a，113年7-8月 | `[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_BreakingMoment.png | ❌ 未有圖 | 操姿態崩潰跌落，傀儡絲斷裂（Stage 2a） |
-| 45 | 129 | Act II | 天使變公敵 | Angel Becomes Public Enemy | 晴香、愛莉、夕 | ACT_II | 帝國歷113年7月中旬（Act II Phase C，E-09直播失控事件當晚） | `[NEEDS_FACT]` | ConceptArt_Scene_LightVeil_PublicEnemy.png | ❌ 未有圖 | 直播舞台，晴香以完美的粉紅白色變身出現——然後在同一個畫面，左手變成黑色爪子，眼睛失去人的光芒變成空洞死寂，身體開始本能吸食圍觀者的正面情緒。 |
-| 46 | 31 | Act II | 操回歸人類身軀 | Misao Returns to Humanity | 操 | Act II Phase C（E-09a後插曲） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Misao_ReturnHumanity.png | ❌ 未有圖 | 操砸碎人偶鏡子，決定回歸殘缺真實 |
-| 47 | 74 | Act II | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | Act II Phase C（E-09a起） | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_DessertToothDrop.png | ✅ 有圖 | 操Body Horror Stage 2a（原文誤標Stage 2b）悄悄掉牙，左手掌托著帶血牙齒，其他人渾然不覺仍歡笑食甜品 |
-| 48 | 87 | Act II | 紗夜犧牲——耳鳴遮蔽 | Sayo's Sacrifice: Tinnitus Veil | 紗夜、操 | Act II | Phase C，E-09a | ⭐⭐⭐⭐ | ConceptArt_Scene_Sayo_Sacrifice_TinnitusVeil.png | ❌ 未有圖 | 紗夜豪宅門口舉槍掩護操逃跑，白色噪音吞沒槍聲與遺言，操只看見她倒下的剪影 |
-| 49 | 91 | Act II | 操絲線縫牙 | Misao Sews Her Teeth with Puppet Strings | 操 | Act II | Phase C，E-09a起 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_PuppetStringTeeth.png | ✅ 有圖 | 鏡像破碎之夜後Body Horror Stage 2a，鏡前用傀儡絲縫合鬆動牙齒，工匠式自我維護 |
-| 50 | 92 | Act II | 美夜子無價值留守 | Miyako's Worthless Vigil | 晴香、美夜子 | Act II | Phase C，E-09 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_WorthlessVigil.png | ✅ 有圖 | 晴香社會性死亡後躲藏地鐵站，美夜子貓形態遞沒氣可樂靜靜留守，「義務守護」轉為「無條件羈絆」 |
-| 51 | 95 | Act II | 飢餓的天使——直播失控（半屍骸） | Hungry Angel: Live Broadcast Out of Control | 晴香（夕接管） | Act II | Phase C，E-09 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_LiveBroadcastBreak.png | ✅ 有圖 | 夕接管晴香身體吸取圍觀者正面情緒並撕破光幕濾鏡，SPEC#21光幕破碎前一幀 |
-| 52 | 26 | Act II | 操被遺棄 | Misao's Abandonment | 操、父親、紗夜 | Act II Phase C | 大宅夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Misao_Abandoned.png | ❌ 未有圖 | 父親親自開門投降，紗夜犧牲掩護女兒逃離 |
-| 53 | 123 | Act II | 死前願望清單 | The Before-Death Wish List | 晴香、美夜子、操 | ACT_II | 113年7-10月，Act II Phase D，地下化生存喘息期 | `[NEEDS_FACT]` | ConceptArt_Scene_WishList_Underground.png | ❌ 未有圖 | 地下避難所一角，空氣悶熱，燈光昏黃，大家隨意坐臥，各自保持各自的距離感。 |
-| 54 | 140 | Act II | 既視感追認 | Dejavu Recognition | 美夜子（Unit 01 貓形態）、朔 | Act II Phase D（113年9-10月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_DejavuRecognition.png | ✅ 有圖 | 朔從行為習慣認出美夜子，美夜子完全沒有認出朔；「物理極近，記憶極遠」的宿命重逢 |
-| 55 | 145 | Act II | 保護的殘響 | Echo of Protection | 朔、成年屍骸+年幼屍骸 | Act II Phase D（113年9-10月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_EchoOfProtection.png | ❌ 未有圖 | 朔目睹成年屍骸以殘破本能護住年幼屍骸；扳機前最長的停頓；世界觀從「清除者」轉向「解放者」的決定性時刻 |
-| 56 | 148 | Act II | 美夜子廢棄地鐵站夜明前 | Miyako's Pre-Dawn in the Abandoned Station | 美夜子、晴香、凜 | ACT_II | 帝國歷113年9月至114年2月（Act II Phase D/E，地下避難期間） | ⭐⭐⭐⭐ | ConceptArt_Scene_56.png | ❌ 未有圖 | 深夜廢棄地鐵站，美夜子獨自坐在月台角落，膝蓋抱起，後背靠著冰冷的柱子。 |
+| 36 | 43 | Act II | 朱音的糖果王國展覽 | Akane's Candy Kingdom Exhibition | 朱音 | Act II Phase B，113年5-6月 | 廢棄糖果工廠（糖果王座全景） | ⭐⭐⭐ | ConceptArt_Scene_36_Akane_CandyKingdomExhibit.png | ❌ 未有圖 | 糖果王座全景展示，腐爛融化跡象處處可見（同圖73互補） |
+| 37 | 128 | Act II | 打怪無效 | Monster Fighting Proves Ineffective | 晴香、朱音、愛莉 | ACT_II | 帝國歷113年5月末～6月中旬（Act II Phase B～Phase C過渡，E-07b～E-08期間） | `[NEEDS_FACT]` | ConceptArt_Scene_37_TeamCombat_Ineffective.png | ❌ 未有圖 | 主角團在廣場與魔法屍骸戰鬥，晴香以耀眼光芒消滅屍骸，操以精密傀儡絲斬擊，美夜子以黑貓形態敏捷補刀——表面上連貫勝利，屍骸一隻一隻倒下。 |
+| 38 | 85 | Act II | 小光之死＋黑奏邏輯侵入 | Hikari's Death + Kurokane's Logic Invasion | 紫音、黑奏 | Act II | Phase B，E-07a | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_38_Hikari_Death_KurokaneInvasion.png | ❌ 未有圖 | 小光斷氣後紫音發癲徒手打崩其他屍骸，骨頭外露仍狂笑，歌德尖刺初現，黑奏邏輯緊接植入 |
+| 39 | 86 | Act II | 廢棄糖果工廠三人辯論 | Three-Way Debate in the Abandoned Candy Factory | 晴香、操、紫音 | Act II | Phase B，E-07b | ⭐⭐⭐ | ConceptArt_Scene_39_CandyFactory_ThreeWayDebate.png | ❌ 未有圖 | 操調停失敗後晴香趕到，三種哲學立場正面交鋒，直接導致紫音被放逐 |
+| 40 | 94 | Act II | 彩「卡頓」——黑奏系統困惑（第二次） | Aya's "Glitch": Kurokane's System Confusion, Second Occurrence | 晴香、彩（黑奏） | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_40_Aya_SystemGlitch_Second.png | ❌ 未有圖 | 晴香無意間的溫暖小動作觸發黑奏系統第二次短暫困惑，眼神紫色閃爍0.5秒+身體輕微僵直 |
+| 41 | 96 | Act II | 黑奏農場觀察 | Kurokane's Farm Observation | 黑奏（彩） | Act II | Phase B，E-08高壓期 | ⭐⭐⭐⭐ | ConceptArt_Scene_41_Kurokane_FarmObservation.png | ❌ 未有圖 | 晴香陷入恐怖家家酒高壓痛苦時刻，黑奏在暗處冷靜評估的特寫 |
+| 42 | 97 | Act II | 鏡像相簿異變 | Mirror Photo Album Anomaly | 晴香、美夜子 | Act II | Phase B，E-08[NC] | ⭐⭐⭐ | ConceptArt_Scene_42_Haruka_PhotoAlbumAnomaly.png | ❌ 未有圖 | 玻璃反射中美夜子身旁出現模糊異象（手/藍色馬尾影子），Red Herring機制啟動，身份不明 |
+| 43 | 73 | Act II | 家長日大作戰 | Parents' Day Infiltration | 小光、紫音、操 | Act II Phase B | 學校 | ⭐⭐⭐ | ConceptArt_Scene_43_ParentsDay_Infiltration.png | ✅ 有圖 | 小光家長日：紫音以「家姐」身份出席，操扮「媽媽」（原文誤植為操扮紫音的家長，已修正） |
+| 44 | 47 | Act II | 操的摔碎時刻 | Misao's Breaking Moment | 操 | Act II Phase C，E-09a，113年7-8月 | `[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_44_Misao_BreakingMoment.png | ❌ 未有圖 | 操姿態崩潰跌落，傀儡絲斷裂（Stage 2a） |
+| 45 | 129 | Act II | 天使變公敵 | Angel Becomes Public Enemy | 晴香、愛莉、夕 | ACT_II | 帝國歷113年7月中旬（Act II Phase C，E-09直播失控事件當晚） | `[NEEDS_FACT]` | ConceptArt_Scene_45_LightVeil_PublicEnemy.png | ❌ 未有圖 | 直播舞台，晴香以完美的粉紅白色變身出現——然後在同一個畫面，左手變成黑色爪子，眼睛失去人的光芒變成空洞死寂，身體開始本能吸食圍觀者的正面情緒。 |
+| 46 | 31 | Act II | 操回歸人類身軀 | Misao Returns to Humanity | 操 | Act II Phase C（E-09a後插曲） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_46_Misao_ReturnHumanity.png | ❌ 未有圖 | 操砸碎人偶鏡子，決定回歸殘缺真實 |
+| 47 | 74 | Act II | 甜品局掉牙 | Dessert Party Tooth Drop | 操、晴香、眾人 | Act II Phase C（E-09a起） | 甜品店/餐桌 | ⭐⭐⭐⭐ | ConceptArt_Scene_47_Misao_DessertToothDrop.png | ✅ 有圖 | 操Body Horror Stage 2a（原文誤標Stage 2b）悄悄掉牙，左手掌托著帶血牙齒，其他人渾然不覺仍歡笑食甜品 |
+| 48 | 87 | Act II | 紗夜犧牲——耳鳴遮蔽 | Sayo's Sacrifice: Tinnitus Veil | 紗夜、操 | Act II | Phase C，E-09a | ⭐⭐⭐⭐ | ConceptArt_Scene_48_Sayo_Sacrifice_TinnitusVeil.png | ❌ 未有圖 | 紗夜豪宅門口舉槍掩護操逃跑，白色噪音吞沒槍聲與遺言，操只看見她倒下的剪影 |
+| 49 | 91 | Act II | 操絲線縫牙 | Misao Sews Her Teeth with Puppet Strings | 操 | Act II | Phase C，E-09a起 | ⭐⭐⭐⭐ | ConceptArt_Scene_49_Misao_PuppetStringTeeth.png | ✅ 有圖 | 鏡像破碎之夜後Body Horror Stage 2a，鏡前用傀儡絲縫合鬆動牙齒，工匠式自我維護 |
+| 50 | 92 | Act II | 美夜子無價值留守 | Miyako's Worthless Vigil | 晴香、美夜子 | Act II | Phase C，E-09 | ⭐⭐⭐⭐ | ConceptArt_Scene_50_Miyako_WorthlessVigil.png | ✅ 有圖 | 晴香社會性死亡後躲藏地鐵站，美夜子貓形態遞沒氣可樂靜靜留守，「義務守護」轉為「無條件羈絆」 |
+| 51 | 95 | Act II | 飢餓的天使——直播失控（半屍骸） | Hungry Angel: Live Broadcast Out of Control | 晴香（夕接管） | Act II | Phase C，E-09 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_51_Haruka_LiveBroadcastBreak.png | ✅ 有圖 | 夕接管晴香身體吸取圍觀者正面情緒並撕破光幕濾鏡，SPEC#21光幕破碎前一幀 |
+| 52 | 26 | Act II | 操被遺棄 | Misao's Abandonment | 操、父親、紗夜 | Act II Phase C | 大宅夜晚 | ⭐⭐⭐ | ConceptArt_Scene_52_Misao_Abandoned.png | ❌ 未有圖 | 父親親自開門投降，紗夜犧牲掩護女兒逃離 |
+| 53 | 123 | Act II | 死前願望清單 | The Before-Death Wish List | 晴香、美夜子、操 | ACT_II | 113年7-10月，Act II Phase D，地下化生存喘息期 | `[NEEDS_FACT]` | ConceptArt_Scene_53_WishList_Underground.png | ❌ 未有圖 | 地下避難所一角，空氣悶熱，燈光昏黃，大家隨意坐臥，各自保持各自的距離感。 |
+| 54 | 140 | Act II | 既視感追認 | Dejavu Recognition | 美夜子（Unit 01 貓形態）、朔 | Act II Phase D（113年9-10月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_54_Saku_DejavuRecognition.png | ✅ 有圖 | 朔從行為習慣認出美夜子，美夜子完全沒有認出朔；「物理極近，記憶極遠」的宿命重逢 |
+| 55 | 145 | Act II | 保護的殘響 | Echo of Protection | 朔、成年屍骸+年幼屍骸 | Act II Phase D（113年9-10月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_55_Saku_EchoOfProtection.png | ❌ 未有圖 | 朔目睹成年屍骸以殘破本能護住年幼屍骸；扳機前最長的停頓；世界觀從「清除者」轉向「解放者」的決定性時刻 |
+| 56 | 148 | Act II | 美夜子廢棄地鐵站夜明前 | Miyako's Pre-Dawn in the Abandoned Station | 美夜子、晴香、凜 | ACT_II | 帝國歷113年9月至114年2月（Act II Phase D/E，地下避難期間） | ⭐⭐⭐⭐ | ConceptArt_Scene_56_56.png | ❌ 未有圖 | 深夜廢棄地鐵站，美夜子獨自坐在月台角落，膝蓋抱起，後背靠著冰冷的柱子。 |
 | 57 | 168 | Act II | 幻象破滅——屍骸外流城市 | The Illusion Shatters: The Corpses Flood the City | 晴香、紫音、夕 | ACT_II | 帝國歷113年11月～12月（Act II Phase D 末，E-12 前夕） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_57_AkaneCorpseFloodCity.png | ✅ 有圖 | 夜間嘅城市邊緣（夜區街道），一大群失控嘅魔法屍骸從暗巷/下水道湧出，形態各異（廢鐵型、扭曲人形、殘破軀體），居民驚慌逃竄。 |
-| 58 | 143 | Act II | 操的夜中人偶製作 | Misao's Midnight Doll Assembly | 操（獨處） | Act II Phase D/E（113年11月-114年1月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_MidnightDollAssembly.png | ❌ 未有圖 | Body Horror Stage 2b具體呈現——操製作完美人偶時感覺不到手的存在；「完美即地獄」哲學視覺化 |
-| 59 | 40 | Act II | 愛莉的童謠救贖 | Aeri's Nursery Rhyme Salvation | 愛莉、晴香 | Act II Phase D（E-10b，`[NEEDS_FACT]`：本場景戲劇規模是否同一事件） | 現實與童話交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_Aeri_NurseryRhymeSalvation.png | ✅ 有圖（檔名不同：`ConceptArt_Scene_Aeri_NurseryRhymeWorld.png`） | 愛莉以紙皮騎士形態（非魔法少女服裝）具現化守護晴香 |
-| 60 | 89 | Act II | 愛莉具現化擋刀＋石像龜裂 | Aeri's Materialized Shield + Statue Cracks | 愛莉、晴香 | Act II | Phase D，E-10b | ⭐⭐⭐⭐ | ConceptArt_Scene_Aeri_PaperKnight_StatueCracks.png | ❌ 未有圖 | 雙格分鏡：紙皮騎士擋刀碎裂 vs 秋穗家石像同步出現第一道細裂縫 |
-| 61 | 90 | Act II | 王國邊緣的盛宴 | Feast at the Kingdom's Edge | 紫音、小光（屍骸）、朔 | Act II | Phase D，E-11風暴前夕 | ⭐⭐⭐⭐ | ConceptArt_Scene_Akane_FeastAtEdge.png | ❌ 未有圖 | 紫音王座上餵食發霉糖果予屍骸化嘅小光，自以為建立「冇傷害樂園」，朔遠遠目擊 |
-| 62 | 93 | Act II | 凜重組後第一次遇見美夜子 | Rin's First Encounter with Miyako After Reassembly | 凜、美夜子 | Act II | Phase D，E-11附近（beat歸屬待QQ-170確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_MiyakoFirstEncounter.png | ✅ 有圖 | 美夜子貓形態近距離擦身而過重組後的凜，凜語義無反應但手指無意識微收緊——單向認出的創傷 |
-| 63 | 99 | Act II | 朔看見Unit 01的臉 | Saku Sees Miyako's Face on Unit 01 | 朔、美夜子 | Act II | Phase D，E-11風暴期間 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_SeesUnit01.png | ❌ 未有圖 | 朔破例現身介入風暴，近距離認出美夜子左耳星形飾物，懷疑升級接近確信但未100%確認 |
-| 64 | 12 | Act II | 集體潛意識之城 | Collective Unconscious City | 紙皮騎士、隊伍 | Act II Phase D | 超現實夢境 | ⭐⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_Storm.png | ❌ 未有圖 | 後巷唐樓扭曲成超現實，黑色淤泥與痛苦人臉浮現（E-11風暴） |
-| 65 | 20 | Act II | 紙皮騎士防禦 | Cardboard Knight Defense | 愛莉 | Act II Phase D | 集體潛意識（現實裂縫瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_Defense.png | ❌ 未有圖 | 愛莉紙皮騎士單次擋刀，盔甲崩碎大半，石像同步裂痕（E-10b，E-11風暴前數日） |
-| 66 | 88 | Act II | 困獸的慈悲——朔見証之夜 | Trapped Beast's Mercy: Saku's Witness Night | 晴香、朔 | Act II | Phase D中期，[NC]見証之夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_WitnessNight.png | ❌ 未有圖 | 下水道外圍，晴香自傷式壓制被夕黑色能量異化的左手，再溫柔陪伴屍骸消散至光塵，朔以狙擊鏡遠距目擊 |
-| 67 | 147 | Act II | 紫音下水道野獸化 | Shion's Sewer Beastification | 紫音、小光、彩 | ACT_II | 帝國歷113年8月末至114年1月（Act II Phase E/F，流浪期間） | ⭐⭐⭐⭐ | ConceptArt_Scene_67.png | ❌ 未有圖 | 城市下水道的某個角落，紫音半蹲在積水裡，周圍聚集著幾隻廢鐵型屍骸和流浪狗。 |
-| 68 | 125 | Act II | 無名男孩速寫簿 | The Anonymous Boy's Sketchbook | 操 | ACT_II_III | Act II Phase E，113年11月-114年1月（具體114年1月，Beat E-13） | `[NEEDS_FACT]` | ConceptArt_Scene_Misao_SketchbookRevelation.png | ❌ 未有圖 | 操一個人翻開遺物速寫簿。 |
-| 69 | 21 | Act II | 光幕濾鏡破碎 | Light Veil Shattered | 晴香 | Act II | 日區公開場所 | ⭐⭐⭐ | ConceptArt_Scene_LightVeil_Shattered.png | ✅ 有圖 | 完美魔法少女形象在直播中崩塌，露出滿臉淚水的真實晴香 |
-| 70 | 144 | Act II | 操與紗夜最後一晨 | Misao and Sayo's Last Morning | 操、紗夜 | Act II Phase F（114年1月末-2月初） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_Sayo_LastMorning.png | ❌ 未有圖 | 鏡像破碎之夜前的最後平靜；操第一次不需要表演完美；紗夜額頭輕吻，手在顫抖而操未察覺 |
+| 58 | 143 | Act II | 操的夜中人偶製作 | Misao's Midnight Doll Assembly | 操（獨處） | Act II Phase D/E（113年11月-114年1月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_58_Misao_MidnightDollAssembly.png | ❌ 未有圖 | Body Horror Stage 2b具體呈現——操製作完美人偶時感覺不到手的存在；「完美即地獄」哲學視覺化 |
+| 59 | 40 | Act II | 愛莉的童謠救贖 | Aeri's Nursery Rhyme Salvation | 愛莉、晴香 | Act II Phase D（E-10b，`[NEEDS_FACT]`：本場景戲劇規模是否同一事件） | 現實與童話交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_59_Aeri_NurseryRhymeSalvation.png | ✅ 有圖（檔名不同：`ConceptArt_Scene_Aeri_NurseryRhymeWorld.png`） | 愛莉以紙皮騎士形態（非魔法少女服裝）具現化守護晴香 |
+| 60 | 89 | Act II | 愛莉具現化擋刀＋石像龜裂 | Aeri's Materialized Shield + Statue Cracks | 愛莉、晴香 | Act II | Phase D，E-10b | ⭐⭐⭐⭐ | ConceptArt_Scene_60_Aeri_PaperKnight_StatueCracks.png | ❌ 未有圖 | 雙格分鏡：紙皮騎士擋刀碎裂 vs 秋穗家石像同步出現第一道細裂縫 |
+| 61 | 90 | Act II | 王國邊緣的盛宴 | Feast at the Kingdom's Edge | 紫音、小光（屍骸）、朔 | Act II | Phase D，E-11風暴前夕 | ⭐⭐⭐⭐ | ConceptArt_Scene_61_Akane_FeastAtEdge.png | ❌ 未有圖 | 紫音王座上餵食發霉糖果予屍骸化嘅小光，自以為建立「冇傷害樂園」，朔遠遠目擊 |
+| 62 | 93 | Act II | 凜重組後第一次遇見美夜子 | Rin's First Encounter with Miyako After Reassembly | 凜、美夜子 | Act II | Phase D，E-11附近（beat歸屬待QQ-170確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_62_Rin_MiyakoFirstEncounter.png | ✅ 有圖 | 美夜子貓形態近距離擦身而過重組後的凜，凜語義無反應但手指無意識微收緊——單向認出的創傷 |
+| 63 | 99 | Act II | 朔看見Unit 01的臉 | Saku Sees Miyako's Face on Unit 01 | 朔、美夜子 | Act II | Phase D，E-11風暴期間 | ⭐⭐⭐⭐ | ConceptArt_Scene_63_Saku_SeesUnit01.png | ❌ 未有圖 | 朔破例現身介入風暴，近距離認出美夜子左耳星形飾物，懷疑升級接近確信但未100%確認 |
+| 64 | 12 | Act II | 集體潛意識之城 | Collective Unconscious City | 紙皮騎士、隊伍 | Act II Phase D | 超現實夢境 | ⭐⭐⭐⭐ | ConceptArt_Scene_64_CollectiveUnconscious_Storm.png | ❌ 未有圖 | 後巷唐樓扭曲成超現實，黑色淤泥與痛苦人臉浮現（E-11風暴） |
+| 65 | 20 | Act II | 紙皮騎士防禦 | Cardboard Knight Defense | 愛莉 | Act II Phase D | 集體潛意識（現實裂縫瞬間） | ⭐⭐⭐⭐ | ConceptArt_Scene_65_CardboardKnight_Defense.png | ❌ 未有圖 | 愛莉紙皮騎士單次擋刀，盔甲崩碎大半，石像同步裂痕（E-10b，E-11風暴前數日） |
+| 66 | 88 | Act II | 困獸的慈悲——朔見証之夜 | Trapped Beast's Mercy: Saku's Witness Night | 晴香、朔 | Act II | Phase D中期，[NC]見証之夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_66_Saku_WitnessNight.png | ❌ 未有圖 | 下水道外圍，晴香自傷式壓制被夕黑色能量異化的左手，再溫柔陪伴屍骸消散至光塵，朔以狙擊鏡遠距目擊 |
+| 67 | 147 | Act II | 紫音下水道野獸化 | Shion's Sewer Beastification | 紫音、小光、彩 | ACT_II | 帝國歷113年8月末至114年1月（Act II Phase E/F，流浪期間） | ⭐⭐⭐⭐ | ConceptArt_Scene_67_67.png | ❌ 未有圖 | 城市下水道的某個角落，紫音半蹲在積水裡，周圍聚集著幾隻廢鐵型屍骸和流浪狗。 |
+| 68 | 125 | Act II | 無名男孩速寫簿 | The Anonymous Boy's Sketchbook | 操 | ACT_II_III | Act II Phase E，113年11月-114年1月（具體114年1月，Beat E-13） | `[NEEDS_FACT]` | ConceptArt_Scene_68_Misao_SketchbookRevelation.png | ❌ 未有圖 | 操一個人翻開遺物速寫簿。 |
+| 69 | 21 | Act II | 光幕濾鏡破碎 | Light Veil Shattered | 晴香 | Act II | 日區公開場所 | ⭐⭐⭐ | ConceptArt_Scene_69_LightVeil_Shattered.png | ✅ 有圖 | 完美魔法少女形象在直播中崩塌，露出滿臉淚水的真實晴香 |
+| 70 | 144 | Act II | 操與紗夜最後一晨 | Misao and Sayo's Last Morning | 操、紗夜 | Act II Phase F（114年1月末-2月初） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_70_Misao_Sayo_LastMorning.png | ❌ 未有圖 | 鏡像破碎之夜前的最後平靜；操第一次不需要表演完美；紗夜額頭輕吻，手在顫抖而操未察覺 |
 | 71 | 167 | Act II | 母親之愛的背面 | The Other Side of a Mother's Love | 晴香、黑奏、花子 | ACT_II | 帝國歷113年（Act II 中期，秋穗執念頂點期） | ⭐⭐⭐⭐ | ConceptArt_Scene_71_AkihoBetrayal.png | ❌ 未有圖 | 秋穗一個人，在一個私密的空間——實驗室，或者愛莉石像前的角落。 |
-| 72 | 5 | Act II | 操的鏡前獨白 | Misao's Mirror Monologue | 操 | Act II | 鏡台（E-09a夜） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_MirrorMonologue.png | ❌ 未有圖 | 父親背叛+紗夜犧牲同一夜，操在鏡前用傀儡絲縫牙自我修補（Stage 2a起點） |
-| 73 | 4 | Act II | 廢棄糖果工廠 | Abandoned Candy Factory | 朱音 | Act II | 糖果工廠 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyFactory.png | ❌ 未有圖 | 朱音以屍骸女皇形態坐在自製糖果王座（113年5-6月，E-07b/E-12） |
-| 74 | 6 | Act II | 月下崩潰 | Moonlight Breakdown | 美夜子 | Act II | 窗台/滿月夜 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_MoonlightBreakdown.png | ✅ 有圖 | 美夜子貓殼龜裂，進行自我確認測試 |
-| 75 | 7 | Act II | Fallen Angel 街道 | Fallen Angel Street | 晴香、彩 | Act II | 日區城市街道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_FallenAngel.png | ❌ 未有圖 | 晴香遇見彩短暫「卡頓」空白瞬間（P-C06，E-05[NC]），光幕濾鏡破碎 |
-| 76 | 14 | Act II | 凜的雙面形態 | Rin's Dual Forms | 凜 | Act II-III | 日夜區交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_DualForms.png | ✅ 有圖（檔名不同：`ConceptArt_Scene_Rin_PeacockVsRaven_.png`） | 凜孔雀飛行員（光鮮官方）vs. 烏鴉形態（暗巷真實） |
-| 77 | 15 | Act II | 朔的日夜對比 | Saku's Day-Night Duality | 朔 | Act II-III | 日夜區 | ⭐⭐⭐⭐ | ConceptArt_Scene_Saku_DayNightDuality.png | ❌ 未有圖 | 朔白色特務形態（日區）vs. 綠松石獵人（夜區） |
-| 78 | 16 | Act II | 操的形式主義廢墟 | Misao's Formalism Ruins | 操 | Act II-III | 廢棄工廠 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_FormalismRuins.png | ❌ 未有圖 | 操在廢棄工廠獨舞，傀儡絲纏繞身體 |
-| 79 | 18 | Act II | 首次情緒連結危機 | First Emotion Link Crisis | 晴香、美夜子、朱音、凜 | Act II | 意識連結空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmotionLink_Crisis.png | ✅ 有圖 | 四人情緒連結失控，創傷記憶亂竄 |
-| 80 | 22 | Act II | 小光死亡與屍骸化 | Hikari's Death and Corpse Transformation | 小光、朱音 | Act II | 犠牲地點 | ⭐⭐⭐ | ConceptArt_Scene_KoHikaru_Death.png | ❌ 未有圖 | 小光在朱音面前被屍骸襲擊，身體轉化為廢鐵 |
-| 81 | 23 | Act II | 恐怖家家酒（學校） | Horrific House Play School | 晴香、彩 | Act II | 校園空間 | ⭐⭐⭐ | ConceptArt_Scene_HorrificHouse_School.png | ❌ 未有圖 | 晴香與彩維持致命平衡，表面日常卻充滿暗流 |
-| 82 | 24 | Act II | 凜的人性消磨 | Rin's Humanity Erased | 凜 | Act II | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_Rin_HumanityErased.png | ❌ 未有圖 | 凜穿制服，體制執行機器，個體特異性被消除 |
-| 83 | 25 | Act II | 朱音的背叛與真相 | Akane's Betrayal Truth | 朱音 | Act II | 後巷 | ⭐⭐⭐ | ConceptArt_Scene_Akane_BetrawalTruth.png | ❌ 未有圖 | 朱音在後巷注射情緒毒品，對希望發出冷漠嘲笑 |
-| 84 | 27 | Act II | 美夜子的三段式覺醒 | Miyako's Three-Stage Awakening | 美夜子 | Act II-III | 多時段 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_ThreeStageAwakening.png | ❌ 未有圖 | 貓殼龜裂→月下測試→溫柔擁抱，重生過程 |
-| 85 | 36 | Act II | 朔與黑市網絡 | Saku and the Black Market Network | 朔 | Act II | 地下室/廢棄地下道 | ⭐⭐⭐ | ConceptArt_Scene_Saku_BlackMarketNetwork.png | ❌ 未有圖 | 朔與黑市線人交易，維持日夜身份平衡 |
-| 86 | 124 | Act II | 美夜子鏡像反映 | Miyako's Mirror Death | 美夜子 | MULTI_ACT | 全程恆常背景規則（Beta線詛咒生效期間全程適用，非Act II後才開始；`[NEEDS_FACT: 解除點未落實]`） | `[NEEDS_FACT]` | ConceptArt_Scene_Miyako_MirrorDeathReflection.png | ❌ 未有圖 | 普通走廊。 |
+| 72 | 5 | Act II | 操的鏡前獨白 | Misao's Mirror Monologue | 操 | Act II | 鏡台（E-09a夜） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_72_Misao_MirrorMonologue.png | ❌ 未有圖 | 父親背叛+紗夜犧牲同一夜，操在鏡前用傀儡絲縫牙自我修補（Stage 2a起點） |
+| 73 | 4 | Act II | 廢棄糖果工廠 | Abandoned Candy Factory | 朱音 | Act II | 糖果工廠 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_73_Akane_CandyFactory.png | ❌ 未有圖 | 朱音以屍骸女皇形態坐在自製糖果王座（113年5-6月，E-07b/E-12） |
+| 74 | 6 | Act II | 月下崩潰 | Moonlight Breakdown | 美夜子 | Act II | 窗台/滿月夜 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_74_Miyako_MoonlightBreakdown.png | ✅ 有圖 | 美夜子貓殼龜裂，進行自我確認測試 |
+| 75 | 7 | Act II | Fallen Angel 街道 | Fallen Angel Street | 晴香、彩 | Act II | 日區城市街道 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_75_Haruka_FallenAngel.png | ❌ 未有圖 | 晴香遇見彩短暫「卡頓」空白瞬間（P-C06，E-05[NC]），光幕濾鏡破碎 |
+| 76 | 14 | Act II | 凜的雙面形態 | Rin's Dual Forms | 凜 | Act II-III | 日夜區交界 | ⭐⭐⭐⭐ | ConceptArt_Scene_76_Rin_DualForms.png | ✅ 有圖（檔名不同：`ConceptArt_Scene_Rin_PeacockVsRaven_.png`） | 凜孔雀飛行員（光鮮官方）vs. 烏鴉形態（暗巷真實） |
+| 77 | 15 | Act II | 朔的日夜對比 | Saku's Day-Night Duality | 朔 | Act II-III | 日夜區 | ⭐⭐⭐⭐ | ConceptArt_Scene_77_Saku_DayNightDuality.png | ❌ 未有圖 | 朔白色特務形態（日區）vs. 綠松石獵人（夜區） |
+| 78 | 16 | Act II | 操的形式主義廢墟 | Misao's Formalism Ruins | 操 | Act II-III | 廢棄工廠 | ⭐⭐⭐⭐ | ConceptArt_Scene_78_Misao_FormalismRuins.png | ❌ 未有圖 | 操在廢棄工廠獨舞，傀儡絲纏繞身體 |
+| 79 | 18 | Act II | 首次情緒連結危機 | First Emotion Link Crisis | 晴香、美夜子、朱音、凜 | Act II | 意識連結空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_79_EmotionLink_Crisis.png | ✅ 有圖 | 四人情緒連結失控，創傷記憶亂竄 |
+| 80 | 22 | Act II | 小光死亡與屍骸化 | Hikari's Death and Corpse Transformation | 小光、朱音 | Act II | 犠牲地點 | ⭐⭐⭐ | ConceptArt_Scene_80_KoHikaru_Death.png | ❌ 未有圖 | 小光在朱音面前被屍骸襲擊，身體轉化為廢鐵 |
+| 81 | 23 | Act II | 恐怖家家酒（學校） | Horrific House Play School | 晴香、彩 | Act II | 校園空間 | ⭐⭐⭐ | ConceptArt_Scene_81_HorrificHouse_School.png | ❌ 未有圖 | 晴香與彩維持致命平衡，表面日常卻充滿暗流 |
+| 82 | 24 | Act II | 凜的人性消磨 | Rin's Humanity Erased | 凜 | Act II | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_82_Rin_HumanityErased.png | ❌ 未有圖 | 凜穿制服，體制執行機器，個體特異性被消除 |
+| 83 | 25 | Act II | 朱音的背叛與真相 | Akane's Betrayal Truth | 朱音 | Act II | 後巷 | ⭐⭐⭐ | ConceptArt_Scene_83_Akane_BetrawalTruth.png | ❌ 未有圖 | 朱音在後巷注射情緒毒品，對希望發出冷漠嘲笑 |
+| 84 | 27 | Act II | 美夜子的三段式覺醒 | Miyako's Three-Stage Awakening | 美夜子 | Act II-III | 多時段 | ⭐⭐⭐ | ConceptArt_Scene_84_Miyako_ThreeStageAwakening.png | ❌ 未有圖 | 貓殼龜裂→月下測試→溫柔擁抱，重生過程 |
+| 85 | 36 | Act II | 朔與黑市網絡 | Saku and the Black Market Network | 朔 | Act II | 地下室/廢棄地下道 | ⭐⭐⭐ | ConceptArt_Scene_85_Saku_BlackMarketNetwork.png | ❌ 未有圖 | 朔與黑市線人交易，維持日夜身份平衡 |
+| 86 | 124 | Act II | 美夜子鏡像反映 | Miyako's Mirror Death | 美夜子 | MULTI_ACT | 全程恆常背景規則（Beta線詛咒生效期間全程適用，非Act II後才開始；`[NEEDS_FACT: 解除點未落實]`） | `[NEEDS_FACT]` | ConceptArt_Scene_86_Miyako_MirrorDeathReflection.png | ❌ 未有圖 | 普通走廊。 |
 | 87 | 157 | Act II | 光環的視覺顯現 | The Halo's Physical Manifestation | 美夜子、凜 | ACT_II_III | Act II-III（任何魔法少女觸及力量上限時；以凜為典型呈現） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_87_HaloManifestation.png | ❌ 未有圖 | 凜在高強度戰鬥中逼近力量上限，肩頸與手腕關節處出現懸浮發光圓環——初期呈半透明神聖金光，隨著超載程度加深，光環顏色開始轉移，轉速加快。 |
-| 88 | 44 | Act II | 晴香與影子的雙舞 | Haruka and Shadow Dual Dance | 晴香、夕 | Act II 末，E-15 | 鏡面/夢境空間 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ShadowDualDance.png | ❌ 未有圖 | 晴香放下膠布、伸手貼向夕，動作同步反向的鏡像雙舞 |
-| 89 | 11 | Act II | 玻璃庭院茶會 | Glass Garden Tea Party | 彩（黑奏操控）、主角團 | Act II 幕末 | 帝國塔頂溫室 | ⭐⭐⭐⭐ | ConceptArt_Scene_GlassGarden_TeaParty.png | ❌ 未有圖 | 彩以自身外觀主持茶會，黑奏聲線滲出宣告虛假黎明破碎（彩/黑奏尚未確認同一人） |
-| 90 | 103 | Act III | 糖果唐樓交易 | Candy Tower Block Transaction | 晴香、隊員（具體未指定） | Act III | Phase G3，114年3月，糖果唐樓 | ⭐⭐⭐ | ConceptArt_Scene_CandyTowerBlockTransaction.png | ❌ 未有圖 | 主角團潛入黑市據點搜尋紫音下落，護士長形態中間人如品酒師展示情緒結晶（原文誤植紫音在場已移除） |
-| 91 | 104 | Act III | 下水道無聲重逢 | Silent Reunion in the Sewers | 晴香、紫音（隱約存在，半屍骸化野獸狀態） | Act III | Phase G4，114年3月，下水道【Fake Climax】 | ⭐⭐⭐⭐ | ConceptArt_Scene_SilentReunionSewers.png | ❌ 未有圖 | 晴香找到已半屍骸化嘅紫音但選擇不打擾，留下糖果藥品默默離開；**非最終團圓**，Day14帝國廣場才正式相見（原文誤植payoff為「糖果工廠正面相遇」已修正） |
+| 88 | 44 | Act II | 晴香與影子的雙舞 | Haruka and Shadow Dual Dance | 晴香、夕 | Act II 末，E-15 | 鏡面/夢境空間 | ⭐⭐⭐ | ConceptArt_Scene_88_Haruka_ShadowDualDance.png | ❌ 未有圖 | 晴香放下膠布、伸手貼向夕，動作同步反向的鏡像雙舞 |
+| 89 | 11 | Act II | 玻璃庭院茶會 | Glass Garden Tea Party | 彩（黑奏操控）、主角團 | Act II 幕末 | 帝國塔頂溫室 | ⭐⭐⭐⭐ | ConceptArt_Scene_89_GlassGarden_TeaParty.png | ❌ 未有圖 | 彩以自身外觀主持茶會，黑奏聲線滲出宣告虛假黎明破碎（彩/黑奏尚未確認同一人） |
+| 90 | 103 | Act III | 糖果唐樓交易 | Candy Tower Block Transaction | 晴香、隊員（具體未指定） | Act III | Phase G3，114年3月，糖果唐樓 | ⭐⭐⭐ | ConceptArt_Scene_90_CandyTowerBlockTransaction.png | ❌ 未有圖 | 主角團潛入黑市據點搜尋紫音下落，護士長形態中間人如品酒師展示情緒結晶（原文誤植紫音在場已移除） |
+| 91 | 104 | Act III | 下水道無聲重逢 | Silent Reunion in the Sewers | 晴香、紫音（隱約存在，半屍骸化野獸狀態） | Act III | Phase G4，114年3月，下水道【Fake Climax】 | ⭐⭐⭐⭐ | ConceptArt_Scene_91_SilentReunionSewers.png | ❌ 未有圖 | 晴香找到已半屍骸化嘅紫音但選擇不打擾，留下糖果藥品默默離開；**非最終團圓**，Day14帝國廣場才正式相見（原文誤植payoff為「糖果工廠正面相遇」已修正） |
 | 92 | 139 | Act III | 刑思破繭 | Keishi Breaking Free | 刑思、晴香、操 | ACT_III | 帝國歷114年3月初（Act III Phase G） | `[NEEDS_FACT]` | ConceptArt_Scene_92_KeishiEscape.png | ❌ 未有圖 | 秋穗地下實驗室的設備在崩潰。 |
-| 93 | 101 | Act III | 嘆息之橋——凜獨角 | Sigh Bridge: Rin's Solo Moment | 凜 | Act III | Phase G-H之間（`[btd 未定案]`） | ⭐⭐ | ConceptArt_Scene_Rin_SighBridgeSolo.png | ❌ 未有圖 | `[NEEDS_FACT]` 整個beat canon未設計（地點/內容均btd），暫以推測性獨處場景演繹 |
+| 93 | 101 | Act III | 嘆息之橋——凜獨角 | Sigh Bridge: Rin's Solo Moment | 凜 | Act III | Phase G-H之間（`[btd 未定案]`） | ⭐⭐ | ConceptArt_Scene_93_Rin_SighBridgeSolo.png | ❌ 未有圖 | `[NEEDS_FACT]` 整個beat canon未設計（地點/內容均btd），暫以推測性獨處場景演繹 |
 | 94 | 133 | Act III | 月下相認 | Moonlit Recognition | 晴香、美夜子、凜 | ACT_III_PHASE_H1.5 | 114年4月中，晚間，Act III Phase H1.5 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_94_MoonlitRecognition.png | ❌ 未有圖 | 月亮很圓，光把兩個人影拉得很長。 |
 | 95 | 156 | Act III | 美夜子被迫介錯凜 | Miyako's Final Mercy for Rin | 美夜子、凜 | ACT_III_PHASE_H2 | 帝國歷114年4月末（Act III Phase H2-H3，凜選擇消散之際） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_95_MiyakoKaishakunin.png | ✅ 有圖（檔名不同：`ConceptArt_Scene_Miyako_Kaishakunin.png`） | 混戰廢墟的邊角，凜靠在一段崩塌的牆上，身體已幾乎耗盡，但臉上是接受的平靜。 |
 | 96 | 163 | Act III | 我還是人嗎？ | Am I Still Human? | 晴香、美夜子、黑奏 | ACT_III | 帝國歷114年4月中旬（Act III Phase H，晴香陷入集體潛意識中期） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_96_MiyakoBathMirror.png | ❌ 未有圖 | 完全黑暗的浴室，只有牆上某處有一道細光縫。 |
-| 97 | 100 | Act III | 凜的最終選擇——Unit 00-Null揭露 | Rin's Final Choice: Unit 00-Null Revelation | 凜、晴香 | Act III | Phase H2，E-III-H2 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FinalChoiceUnit00.png | ✅ 有圖 | 凜推開晴香伸出的手，主動回到帝國實驗室要求黑奏挖走所有感情，自願成為Unit 00-Null |
-| 98 | 32 | Act III | 美夜子的貓殼復原 | Miyako's Cat Shell Recovery | 美夜子 | Act III Phase H（H1.5後） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Miyako_CatShellRecovery.png | ❌ 未有圖 | 美夜子在鏡前看到腐爛透視的真實自我，已知真相仍選擇沉默 |
-| 99 | 102 | Act III | 操の被迫報串 | Misao's Forced Betrayal Report | 操 | Act III | Phase H暗線 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_ForcedBetrayalReport.png | ✅ 有圖 | 父親以「送返研究室重組變成母親那樣」為最後通牒，操被迫在通訊器前交出隊友坐標 |
-| 100 | 105 | Act III | 公告夜（紫音作為處決目標） | Announcement Night: Akane as Execution Target | 紫音（已被捕拘束）、主角團 | Act III | Phase I，114年5月Day13夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png | ❌ 未有圖 | **核心機制已修正**：黑奏公開廣播嘅係已被捕紫音嘅「Day14正午帝國廣場公開處決」公告（落戰書），非通緝仍在逃嘅「危險生物」（原文方向相反） |
+| 97 | 100 | Act III | 凜的最終選擇——Unit 00-Null揭露 | Rin's Final Choice: Unit 00-Null Revelation | 凜、晴香 | Act III | Phase H2，E-III-H2 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_97_Rin_FinalChoiceUnit00.png | ✅ 有圖 | 凜推開晴香伸出的手，主動回到帝國實驗室要求黑奏挖走所有感情，自願成為Unit 00-Null |
+| 98 | 32 | Act III | 美夜子的貓殼復原 | Miyako's Cat Shell Recovery | 美夜子 | Act III Phase H（H1.5後） | 地點`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_98_Miyako_CatShellRecovery.png | ❌ 未有圖 | 美夜子在鏡前看到腐爛透視的真實自我，已知真相仍選擇沉默 |
+| 99 | 102 | Act III | 操の被迫報串 | Misao's Forced Betrayal Report | 操 | Act III | Phase H暗線 | ⭐⭐⭐⭐ | ConceptArt_Scene_99_Misao_ForcedBetrayalReport.png | ✅ 有圖 | 父親以「送返研究室重組變成母親那樣」為最後通牒，操被迫在通訊器前交出隊友坐標 |
+| 100 | 105 | Act III | 公告夜（紫音作為處決目標） | Announcement Night: Akane as Execution Target | 紫音（已被捕拘束）、主角團 | Act III | Phase I，114年5月Day13夜 | ⭐⭐⭐⭐ | ConceptArt_Scene_100_AnnouncementNight_AkanePurgeTarget.png | ❌ 未有圖 | **核心機制已修正**：黑奏公開廣播嘅係已被捕紫音嘅「Day14正午帝國廣場公開處決」公告（落戰書），非通緝仍在逃嘅「危險生物」（原文方向相反） |
 | 101 | 131 | Act III | 親姊妹揭露現場 | Sisters' Identity Revelation | 晴香、美夜子、秋穗 | ACT_III_FINALE | 114年 Act III 末（Phase J 後） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_101_SistersIdentityRevelation.png | ❌ 未有圖 | 晴香和美夜子（此時為人形）突然在某個瞬間同時靜止，兩人的眼神穿過空氣對上。 |
 | 102 | 160 | Act III | 愛不是佔有，是讓她自由 | Love Is Not Possession, It Is Freedom | 彩、黑奏、螢 | ACT_III | 帝國歷114年4月末（Act III Phase J決戰高潮，彩奪回身體主導權後） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_102_AyaLoveDeclaration.png | ❌ 未有圖 | 彩站在天空之中，身體剛剛奪回，金色光芒從內部透出。 |
 | 103 | 132 | Act III | 集體潛意識正面衝突 | Collective Unconscious Direct Clash | 晴香、夕、彩 | ACT_III_PHASE_J | 114年5月 Act III Phase J（集體潛意識決戰中） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_103_CollectiveUnconscious_DirectClash.png | ❌ 未有圖 | 晴香和夕在一個不屬於現實的空間裡互相猛衝——那個地方的牆壁正在消融成星空，地板是隨時會碎裂的無底深淵。 |
 | 104 | 134 | Act III | 黑奏與晴香的病態愛恨對峙 | Kurokane and Haruka — Pathological Love-Hate Confrontation | 晴香、黑奏、彩 | ACT_III_PHASE_J_CLIMAX | 114年5月 Act III Phase J 決戰高潮 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_104_KurokaneHaruka_Confrontation.png | ❌ 未有圖 | 黑奏走到晴香面前，兩人距離近得呼吸可以互相感覺到。 |
-| 105 | 141 | Act III | 黑奏真身揭露 | Kurokane's True Form Revealed | 黑奏、主角團 | Act III Phase J決戰（114年5月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_Kurokane_TrueFormRevealed.png | ❌ 未有圖 | 皇袍滑落、面具碎裂，148cm幼女雙腳懸空真身暴露；不是展示，是控制崩潰的被迫暴露 |
-| 106 | 146 | Act III | 愛莉的第二次改變現實決定 | Aeri's Second Reality Alteration Decision | 愛莉、晴香 | ACT_III_J | 帝國歷114年5月 Act III Phase J（決戰中） | ⭐⭐⭐⭐ | ConceptArt_Scene_106.png | ❌ 未有圖 | 在一個無邊際的潛意識空間裡，穿著紙皮盔甲、拿著膠帶修補過無數次的紙劍的愛莉，站在一道由黑色觸手和情緒廢料構成的風暴邊緣。 |
-| 107 | 52 | Act III | 彩的靈魂解放之光 | Aya's Soul Liberation Light | 彩 | Act III Phase J（E-III-J8，緊接SPEC#8） | 天空/帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_Aya_SoulLiberationLight.png | ❌ 未有圖 | 彩的靈魂燃燒填補天空裂痕，金光與緋潮猩紅交織（「千萬星辰」意象為`[INFERRED]`延伸） |
-| 108 | 49 | Act III | 帝國廣場的市民凝滯 | Empire Plaza Citizens Frozen | 市民眾 | Act III Phase J | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_CitizensFrozen.png | ❌ 未有圖 | 數百市民凝滯，表情定格於恐懼無語 |
+| 105 | 141 | Act III | 黑奏真身揭露 | Kurokane's True Form Revealed | 黑奏、主角團 | Act III Phase J決戰（114年5月） | — | ⭐⭐⭐⭐ | ConceptArt_Scene_105_Kurokane_TrueFormRevealed.png | ❌ 未有圖 | 皇袍滑落、面具碎裂，148cm幼女雙腳懸空真身暴露；不是展示，是控制崩潰的被迫暴露 |
+| 106 | 146 | Act III | 愛莉的第二次改變現實決定 | Aeri's Second Reality Alteration Decision | 愛莉、晴香 | ACT_III_J | 帝國歷114年5月 Act III Phase J（決戰中） | ⭐⭐⭐⭐ | ConceptArt_Scene_106_106.png | ❌ 未有圖 | 在一個無邊際的潛意識空間裡，穿著紙皮盔甲、拿著膠帶修補過無數次的紙劍的愛莉，站在一道由黑色觸手和情緒廢料構成的風暴邊緣。 |
+| 107 | 52 | Act III | 彩的靈魂解放之光 | Aya's Soul Liberation Light | 彩 | Act III Phase J（E-III-J8，緊接SPEC#8） | 天空/帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_107_Aya_SoulLiberationLight.png | ❌ 未有圖 | 彩的靈魂燃燒填補天空裂痕，金光與緋潮猩紅交織（「千萬星辰」意象為`[INFERRED]`延伸） |
+| 108 | 49 | Act III | 帝國廣場的市民凝滯 | Empire Plaza Citizens Frozen | 市民眾 | Act III Phase J | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_108_EmpirePlaza_CitizensFrozen.png | ❌ 未有圖 | 數百市民凝滯，表情定格於恐懼無語 |
 | 109 | 158 | Act III | 夕嘗試重置世界 | Yu's Attempt to Rewrite Reality | 夕、晴香、彩 | ACT_III_PHASE_K | 帝國歷114年5月底至114年6月（Act III Phase K，偽高潮坍塌後） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_109_YuRealityOverride.png | ❌ 未有圖 | 夕以晴香的身軀站在世界的中心，發動「改變現實」的瞬間：身體發出強烈的光，周圍的時空在她手指間開始撕裂，像玻璃鏡面從中心向外裂開——裂縫裡映照著不同時間線的碎片影像。 |
-| 110 | 126 | Act III | 操在集體潛意識尋見母親碎片 | Misao Finds Sayo's Fragments in the Collective Unconscious | 操、愛莉、夕 | ACT_III | 114年5月，Day 13 鋼鐵獨舞前夕（Act III E-III-I1 本身，非獨立場景） | `[NEEDS_FACT]` | ConceptArt_Scene_Misao_SayoFragments.png | ❌ 未有圖 | 集體潛意識的深層，沒有具體場景，只有情緒形態的空間——光點、殘影、各種破碎的人類記憶碎片漂浮。 |
+| 110 | 126 | Act III | 操在集體潛意識尋見母親碎片 | Misao Finds Sayo's Fragments in the Collective Unconscious | 操、愛莉、夕 | ACT_III | 114年5月，Day 13 鋼鐵獨舞前夕（Act III E-III-I1 本身，非獨立場景） | `[NEEDS_FACT]` | ConceptArt_Scene_110_Misao_SayoFragments.png | ❌ 未有圖 | 集體潛意識的深層，沒有具體場景，只有情緒形態的空間——光點、殘影、各種破碎的人類記憶碎片漂浮。 |
 | 111 | 164 | Act III | 我選擇停留在我想停留的位置 | I Choose to Stay Where I Want to Stay | 操 | ACT_III | 帝國歷114年5月，Act III Day 13 前夜（鋼鐵獨舞犧牲之前） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_111_MisaoFinalConfession.png | ❌ 未有圖 | 夜晚，一個昏暗的室內小角落，操面對著紗夜說出那句話。 |
-| 112 | 1 | Act III | 鋼鐵獨舞 | Steel Solitude Dance | 操 | Act III | 學校瓦礫（Day 13） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Misao_SteelSolitude.png | ✅ 有圖 | 操在學校瓦礫中 Body Horror Stage 3 狀態下獨舞，黑奏撬開口腔揭露縫牙全貌，紗夜遺言回流，最終化為人偶牆 |
-| 113 | 3 | Act III | 三重道德處刑 | Triple Moral Execution | 黑奏（彩容器） | Act III | 帝國廣場（處刑室化） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_BlackSong_MoralExecution.png | ❌ 未有圖 | 黑奏以三重回憶投影（社會剝奪/身份背叛/創世原罪）逐層刺穿晴香心理防線，非物理武器 |
-| 114 | 8 | Act III | 彩奪回身體 | Aya Regains Control | 彩 | Act III | 天空/決戰現場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Aya_BodyReclaim.png | ❌ 未有圖 | 彩從黑奏掌控中奪回身體，用金色光輝燃燒自己 |
-| 115 | 10 | Act III | 糖果山犧牲 | Candy Mountain Sacrifice | 朱音、小光 | Act III | 帝國廣場（刑場） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Akane_CandyMountain.png | ❌ 未有圖 | 朱音過載變身化為糖晶，成為帝國廣場刑場內的紀念碑 |
-| 116 | 19 | Act III | 帝國廣場決戰崩塌 | Empire Plaza Collapse | 晴香、黑奏 | Act III | 帝國廣場 | ⭐⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_Collapse.png | ❌ 未有圖 | 決戰頂點瞬間崩塌，偽勝利假象碎裂 |
-| 117 | 45 | Act III | 黑奏的帝國寶座 | Kuroshio's Empire Throne | 黑奏 | Act III | 帝國中心 | ⭐⭐⭐ | ConceptArt_Scene_BlackSong_EmpireThrone.png | ❌ 未有圖 | 黑奏以幼女身軀坐在紫黑色巨大寶座 |
-| 118 | 48 | Act III | 集體潛意識的淤泥深海 | Collective Unconscious Muddy Deep | 無名者 | `[NEEDS_FACT]`（Act III後段-IV推斷） | 超現實深海（L2/L3） | ⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_MuddyDeep.png | ❌ 未有圖 | 視角下沉到無底深海，無數扭曲臉孔糾纏 |
-| 119 | 53 | Act III | 朔的雙刃生存 | Saku's Double-Edged Survival | 朔 | Act III（SA-S3融合形態） | 日夜交界 | ⭐⭐⭐ | ConceptArt_Scene_Saku_DoubleEdgedSurvival.png | ❌ 未有圖 | 朔同現日夜交界，兩身份合體（Act IV為另一獨立視覺，非同一形態） |
-| 120 | 106 | Act III | 彩在心房中摸熊公仔 | Aya Touches the Teddy Bear in Her Heart Chamber | 彩（6歲真身，被囚） | Act III | 貫穿，心房（通風管道那夜重構空間） | ⭐⭐⭐ | ConceptArt_Scene_Aya_TeddyBear_HeartChamber.png | ✅ 有圖 | 6歲彩（原文誤植7歲已修正）緊抱螢遺物熊公仔（違反「永遠潔淨」規則的老舊描述已修正），安靜等待；心房空間已修正為「通風管道那夜」重構定義 |
+| 112 | 1 | Act III | 鋼鐵獨舞 | Steel Solitude Dance | 操 | Act III | 學校瓦礫（Day 13） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_112_Misao_SteelSolitude.png | ✅ 有圖 | 操在學校瓦礫中 Body Horror Stage 3 狀態下獨舞，黑奏撬開口腔揭露縫牙全貌，紗夜遺言回流，最終化為人偶牆 |
+| 113 | 3 | Act III | 三重道德處刑 | Triple Moral Execution | 黑奏（彩容器） | Act III | 帝國廣場（處刑室化） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_113_BlackSong_MoralExecution.png | ❌ 未有圖 | 黑奏以三重回憶投影（社會剝奪/身份背叛/創世原罪）逐層刺穿晴香心理防線，非物理武器 |
+| 114 | 8 | Act III | 彩奪回身體 | Aya Regains Control | 彩 | Act III | 天空/決戰現場 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_114_Aya_BodyReclaim.png | ❌ 未有圖 | 彩從黑奏掌控中奪回身體，用金色光輝燃燒自己 |
+| 115 | 10 | Act III | 糖果山犧牲 | Candy Mountain Sacrifice | 朱音、小光 | Act III | 帝國廣場（刑場） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_115_Akane_CandyMountain.png | ❌ 未有圖 | 朱音過載變身化為糖晶，成為帝國廣場刑場內的紀念碑 |
+| 116 | 19 | Act III | 帝國廣場決戰崩塌 | Empire Plaza Collapse | 晴香、黑奏 | Act III | 帝國廣場 | ⭐⭐⭐⭐ | ConceptArt_Scene_116_EmpirePlaza_Collapse.png | ❌ 未有圖 | 決戰頂點瞬間崩塌，偽勝利假象碎裂 |
+| 117 | 45 | Act III | 黑奏的帝國寶座 | Kuroshio's Empire Throne | 黑奏 | Act III | 帝國中心 | ⭐⭐⭐ | ConceptArt_Scene_117_BlackSong_EmpireThrone.png | ❌ 未有圖 | 黑奏以幼女身軀坐在紫黑色巨大寶座 |
+| 118 | 48 | Act III | 集體潛意識的淤泥深海 | Collective Unconscious Muddy Deep | 無名者 | `[NEEDS_FACT]`（Act III後段-IV推斷） | 超現實深海（L2/L3） | ⭐⭐⭐ | ConceptArt_Scene_118_CollectiveUnconscious_MuddyDeep.png | ❌ 未有圖 | 視角下沉到無底深海，無數扭曲臉孔糾纏 |
+| 119 | 53 | Act III | 朔的雙刃生存 | Saku's Double-Edged Survival | 朔 | Act III（SA-S3融合形態） | 日夜交界 | ⭐⭐⭐ | ConceptArt_Scene_119_Saku_DoubleEdgedSurvival.png | ❌ 未有圖 | 朔同現日夜交界，兩身份合體（Act IV為另一獨立視覺，非同一形態） |
+| 120 | 106 | Act III | 彩在心房中摸熊公仔 | Aya Touches the Teddy Bear in Her Heart Chamber | 彩（6歲真身，被囚） | Act III | 貫穿，心房（通風管道那夜重構空間） | ⭐⭐⭐ | ConceptArt_Scene_120_Aya_TeddyBear_HeartChamber.png | ✅ 有圖 | 6歲彩（原文誤植7歲已修正）緊抱螢遺物熊公仔（違反「永遠潔淨」規則的老舊描述已修正），安靜等待；心房空間已修正為「通風管道那夜」重構定義 |
 | 121 | 135 | Act III | 夕的臨別頓悟與消散 | Yu's Final Epiphany and Dissolution | 夕、晴香、黑奏 | ACT_III_IV_BOUNDARY | Act III/IV 交界（整合完成後，夕消散前最後時刻） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_121_Yu_FinalEpiphany_Dissolution.png | ❌ 未有圖 | 夕的身體邊緣已經開始消失了——像墨水在水中散開，像煙被風吹散。 |
 | 122 | 137 | Act III | 媽媽從未停止愛我 `[DELETE_CANDIDATE]` | Mother Never Stopped Loving Me | 操 | ACT_III | — | — | — | — | **已停用**：2026-07-17跨批次覆核確認與圖110「操在集體潛意識尋見母親碎片」為同一beat重複，原文細節已移除，保留圖110為唯一版本 |
 | 123 | 136 | Act III | 糖果山與最後一頓飯 | Candy Mountain and the Last Meal | 美夜子、操、紫音 | ACT_III | 帝國歷114年5月，Day 14 帝國廣場終局 | `[NEEDS_FACT]` | ConceptArt_Scene_123_ShionLastWords.png | ❌ 未有圖 | 帝國廣場的廢墟煙塵中，紫音身穿垃圾拼湊的鎧甲，正在燃燒成形態越來越龐大的糖果山；她的身體已與燃燒的糖果光融為一體，但表情清醒，帶著一種終於放下的輕鬆感。 |
-| 124 | 151 | Act III | 彩的永恆輪迴開始 | Aya's Eternal Loop Begins | 彩、黑奏 | ACT_III_IV | 帝國歷114年5月（Act III決戰結束後） | ⭐⭐⭐⭐ | ConceptArt_Scene_124.png | ❌ 未有圖 | 在集體潛意識的某個深處，彩以她最真實的樣子站在一個不斷重複的空間門口——那就是通風管道的入口，永恆輪迴的起點。 |
+| 124 | 151 | Act III | 彩的永恆輪迴開始 | Aya's Eternal Loop Begins | 彩、黑奏 | ACT_III_IV | 帝國歷114年5月（Act III決戰結束後） | ⭐⭐⭐⭐ | ConceptArt_Scene_124_124.png | ❌ 未有圖 | 在集體潛意識的某個深處，彩以她最真實的樣子站在一個不斷重複的空間門口——那就是通風管道的入口，永恆輪迴的起點。 |
 | 125 | 155 | Act III-IV 交界 | 夕完全奪取晴香身體 | Yu's Complete Takeover | 晴香、夕、黑奏 | ACT_III | 帝國歷113年，Act III Phase J決戰後（黑奏真相揭露後；主線接近Act IV前夕） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_125_YuCompleteTakeover.png | ❌ 未有圖 | 晴香的身體站在決戰廢墟中，但裡面的意識不是晴香——眼睛顏色偏移，光芒的質地不對，表情帶著一種晴香從未有過的某種決意和悲涼。 |
 | 126 | 161 | Act III-IV 交界 | 二十年的內心地獄 | Twenty Years of Inner Hell | 晴香、美夜子、彩 | ACT_III_IV_GAP | 帝國歷114年-134年（20年間隙，Act III Phase K至Act IV Phase L之間） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_126_HarukaCollectiveUnconscious20Years.png | ❌ 未有圖 | 集體潛意識深處的晴香，她的樣子停留在17歲，但眼神裡是數十年的重量。 |
-| 127 | 107 | Act III-IV 交界 | 蜜月困境——K期靈魂監獄 | Honeymoon Trap: Phase K Soul Prison | 晴香 | Act IV（暫定草稿，**非Act III**——2026-07-05已移出Act III scope） | Phase K1，時長`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png | ❌ 未有圖 | 溫暖日常循環囚禁，窗玻璃反射洩漏真相；Act歸屬已修正，CDL-053誤引已移除，「20年」時長待Act IV Outline確認 |
-| 128 | 108 | Act III-IV 交界 | 屍骸覺醒——L4 | Corpse Awakening: L4 Phase | 屍骸群（人偶型/廢鐵型） | Act IV（暫定草稿，**非Act III**——同107同屬已移出範圍嘅Phase K/L） | Phase L4，觸發條件未確認 | ⭐⭐⭐ | ConceptArt_Scene_CorpseAwakening_L4.png | ❌ 未有圖 | 城市屍骸集體從沉睡復甦，眼睛逐一亮起人類的光；Act歸屬已修正 |
-| 129 | 127 | Act III-IV 交界 | 膠布哲學第四層——覺醒後撕膠布 | Bandage Philosophy Layer 4: After Awakening | 晴香 | ACT_IV | `[INFERRED]` 晴香覺醒後第一個夜晚（Act III E-III-L3「膠布拆下」，Phase L歸屬待... | `[NEEDS_FACT]` | ConceptArt_Scene_Haruka_BandageFinalLayer.png | ❌ 未有圖 | 廢墟高處，夜晚，城市在遠處閃爍。 |
-| 130 | 150 | Act III-IV 交界 | 夕5歲形態消散 | Yu's Five-Year-Old Form Fades | 夕、晴香 | ACT_IV | 帝國歷134年7月（Act III/IV交界，晴香整合完成時） | ⭐⭐⭐⭐ | ConceptArt_Scene_130.png | ❌ 未有圖 | 在集體潛意識的空間裡，夕以5歲晴香的樣子站在晴香面前，黑色的輪廓正在慢慢被光包圍、溶解。 |
+| 127 | 107 | Act III-IV 交界 | 蜜月困境——K期靈魂監獄 | Honeymoon Trap: Phase K Soul Prison | 晴香 | Act IV（暫定草稿，**非Act III**——2026-07-05已移出Act III scope） | Phase K1，時長`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_127_PhaseK_SoulPrisonKitchen.png | ❌ 未有圖 | 溫暖日常循環囚禁，窗玻璃反射洩漏真相；Act歸屬已修正，CDL-053誤引已移除，「20年」時長待Act IV Outline確認 |
+| 128 | 108 | Act III-IV 交界 | 屍骸覺醒——L4 | Corpse Awakening: L4 Phase | 屍骸群（人偶型/廢鐵型） | Act IV（暫定草稿，**非Act III**——同107同屬已移出範圍嘅Phase K/L） | Phase L4，觸發條件未確認 | ⭐⭐⭐ | ConceptArt_Scene_128_CorpseAwakening_L4.png | ❌ 未有圖 | 城市屍骸集體從沉睡復甦，眼睛逐一亮起人類的光；Act歸屬已修正 |
+| 129 | 127 | Act III-IV 交界 | 膠布哲學第四層——覺醒後撕膠布 | Bandage Philosophy Layer 4: After Awakening | 晴香 | ACT_IV | `[INFERRED]` 晴香覺醒後第一個夜晚（Act III E-III-L3「膠布拆下」，Phase L歸屬待... | `[NEEDS_FACT]` | ConceptArt_Scene_129_Haruka_BandageFinalLayer.png | ❌ 未有圖 | 廢墟高處，夜晚，城市在遠處閃爍。 |
+| 130 | 150 | Act III-IV 交界 | 夕5歲形態消散 | Yu's Five-Year-Old Form Fades | 夕、晴香 | ACT_IV | 帝國歷134年7月（Act III/IV交界，晴香整合完成時） | ⭐⭐⭐⭐ | ConceptArt_Scene_130_130.png | ❌ 未有圖 | 在集體潛意識的空間裡，夕以5歲晴香的樣子站在晴香面前，黑色的輪廓正在慢慢被光包圍、溶解。 |
 | 131 | 138 | Act IV | 二十年後的第一個早晨 | First Morning After Twenty Years | 晴香、美夜子 | ACT_IV | 帝國歷134年7月（Act IV Phase L 覺醒時刻） | `[NEEDS_FACT]` | ConceptArt_Scene_131_HarukaAwakening134.png | ❌ 未有圖 | 帝國歷134年的晴天，一個二十年後的晴香站在變了樣的城市中，她的頭髮是純白的，眼睛是淡灰色近乎透明，臉上沒有表情但眼神深遠。 |
-| 132 | 149 | Act IV | 秋穗與愛莉重逢 | Akiho and Aeri's Reunion | 秋穗、愛莉 | ACT_IV | 帝國歷134年7月初（Act IV Phase L） | ⭐⭐⭐⭐ | ConceptArt_Scene_132.png | ❌ 未有圖 | 帝國歷134年，在一個普通的室內空間裡，剛從石像甦醒的愛莉坐在床邊，手還有些僵硬，帶著石像的殘餘感。 |
-| 133 | 110 | Act IV | 美夜子笨拙演奏（全片最後一幕） | Miyako's Clumsy Playing: The Final Shot | 美夜子 | Act IV Phase L | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_ClumzyFinalShot.png | ❌ 未有圖 | CDL-326「尋回自己之後」，美夜子學彈晴香未完成曲目，全片最後一幕（已補CDL-326引用） |
-| 134 | 2 | Act IV | 整合場景 | Integration Scene | 晴香、夕 | Act IV（暫定） | 夢境空間 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_Integration.png | ✅ 有圖 | 晴香與夕在三武器揭露/夕接管/彩奪回之後正面碰撞，花子在場與否待確認 |
-| 135 | 13 | Act IV | 三位一體永恆守護者終局 `[跨批次覆核修正]` | Eternal Trinity Guardian Final | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐⭐ | ConceptArt_Scene_Haruka_TrinityGuardian.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶，主動融合成三位一體永恆守護者，非粒子化消散（同圖137/139/141同一修正） |
-| 136 | 28 | Act IV | 緋潮反噬 | Scarlet Tide Backlash | 晴香、彩 | Act IV（草稿） | 時間線交界 | ⭐⭐⭐ | ConceptArt_Scene_ScarletTide_Backlash.png | ❌ 未有圖 | 時間線被撕裂，Alpha 與 Beta 線衝突爆發 |
-| 137 | 50 | Act IV | 晴香的融合抉擇瞬間 `[跨批次覆核修正]` | Haruka's Fusion Choice Moment | 晴香 | Act IV（`[NEEDS_FACT]`具體視覺分鏡待Act IV Outline） | 抉擇點 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_FusionChoiceMoment.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香清醒抉擇是否主動融合成三位一體永恆守護者，非「沉睡消融 vs 現實戰鬥」二選一（同圖135/139/141同一修正） |
-| 138 | 51 | Act IV | 紙皮騎士的最後一擊 | Cardboard Knight's Last Stand | 愛莉 | Act IV（`[NEEDS_FACT]`未批核草稿） | 潛意識戰場 | ⭐⭐⭐ | ConceptArt_Scene_CardboardKnight_LastStand.png | ❌ 未有圖 | 愛莉以紙裝備對抗不可抗力，決心不退（同SPEC#20非同一CDL-256事件） |
-| 139 | 54 | Act IV | 靜止搖籃的粒子化進程 `[SUPERSEDED_CONCEPT]` | Static Cradle Particularization Process | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_ParticularizationProcess.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶主動融合成三位一體永恆守護者，非粒子化消散 |
-| 140 | 55 | Act IV | 美夜子的靈魂雙線`[INFERRED]` | Miyako's Soul Dual Line | 美夜子 | Act IV | 靈魂空間`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_Miyako_SoulDualLine.png | ❌ 未有圖 | 美夜子靈魂狀態意象（雙線交織裝置本身canon未支持，底層依據CDL-271） |
-| 141 | 56 | Act IV | 新世界的搖籃曲`[SUPERSEDED_CONCEPT]` | Lullaby of the New World | 晴香、美夜子、全角色 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_NewWorld_LullabySong.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶成為三位一體永恆守護者；美夜子完成心願後回歸凡人 |
-| 142 | 109 | Act IV | 美夜子終於哭出來 | Miyako Finally Cries | 美夜子、晴香 | Act IV | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_FinallyCries.png | ❌ 未有圖 | **核心情緒已修正**：美夜子一生第一次「痛哭失聲」（依miyako.md§第四幕；原文誤寫「無聲眼淚」方向相反已修正）；檔名西里爾字元「С」已修正為標準「C」 |
+| 132 | 149 | Act IV | 秋穗與愛莉重逢 | Akiho and Aeri's Reunion | 秋穗、愛莉 | ACT_IV | 帝國歷134年7月初（Act IV Phase L） | ⭐⭐⭐⭐ | ConceptArt_Scene_132_132.png | ❌ 未有圖 | 帝國歷134年，在一個普通的室內空間裡，剛從石像甦醒的愛莉坐在床邊，手還有些僵硬，帶著石像的殘餘感。 |
+| 133 | 110 | Act IV | 美夜子笨拙演奏（全片最後一幕） | Miyako's Clumsy Playing: The Final Shot | 美夜子 | Act IV Phase L | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐ | ConceptArt_Scene_133_Miyako_ClumzyFinalShot.png | ❌ 未有圖 | CDL-326「尋回自己之後」，美夜子學彈晴香未完成曲目，全片最後一幕（已補CDL-326引用） |
+| 134 | 2 | Act IV | 整合場景 | Integration Scene | 晴香、夕 | Act IV（暫定） | 夢境空間 | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_134_Haruka_Integration.png | ✅ 有圖 | 晴香與夕在三武器揭露/夕接管/彩奪回之後正面碰撞，花子在場與否待確認 |
+| 135 | 13 | Act IV | 三位一體永恆守護者終局 `[跨批次覆核修正]` | Eternal Trinity Guardian Final | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐⭐ | ConceptArt_Scene_135_Haruka_TrinityGuardian.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶，主動融合成三位一體永恆守護者，非粒子化消散（同圖137/139/141同一修正） |
+| 136 | 28 | Act IV | 緋潮反噬 | Scarlet Tide Backlash | 晴香、彩 | Act IV（草稿） | 時間線交界 | ⭐⭐⭐ | ConceptArt_Scene_136_ScarletTide_Backlash.png | ❌ 未有圖 | 時間線被撕裂，Alpha 與 Beta 線衝突爆發 |
+| 137 | 50 | Act IV | 晴香的融合抉擇瞬間 `[跨批次覆核修正]` | Haruka's Fusion Choice Moment | 晴香 | Act IV（`[NEEDS_FACT]`具體視覺分鏡待Act IV Outline） | 抉擇點 | ⭐⭐⭐ | ConceptArt_Scene_137_Haruka_FusionChoiceMoment.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香清醒抉擇是否主動融合成三位一體永恆守護者，非「沉睡消融 vs 現實戰鬥」二選一（同圖135/139/141同一修正） |
+| 138 | 51 | Act IV | 紙皮騎士的最後一擊 | Cardboard Knight's Last Stand | 愛莉 | Act IV（`[NEEDS_FACT]`未批核草稿） | 潛意識戰場 | ⭐⭐⭐ | ConceptArt_Scene_138_CardboardKnight_LastStand.png | ❌ 未有圖 | 愛莉以紙裝備對抗不可抗力，決心不退（同SPEC#20非同一CDL-256事件） |
+| 139 | 54 | Act IV | 靜止搖籃的粒子化進程 `[SUPERSEDED_CONCEPT]` | Static Cradle Particularization Process | 晴香 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_139_Haruka_ParticularizationProcess.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶主動融合成三位一體永恆守護者，非粒子化消散 |
+| 140 | 55 | Act IV | 美夜子的靈魂雙線`[INFERRED]` | Miyako's Soul Dual Line | 美夜子 | Act IV | 靈魂空間`[NEEDS_FACT]` | ⭐⭐⭐ | ConceptArt_Scene_140_Miyako_SoulDualLine.png | ❌ 未有圖 | 美夜子靈魂狀態意象（雙線交織裝置本身canon未支持，底層依據CDL-271） |
+| 141 | 56 | Act IV | 新世界的搖籃曲`[SUPERSEDED_CONCEPT]` | Lullaby of the New World | 晴香、美夜子、全角色 | Act IV | 集體潛意識融合 | ⭐⭐⭐ | ConceptArt_Scene_141_NewWorld_LullabySong.png | ❌ 未有圖 | **[概念已被CDL-326取代]** 晴香保留意識記憶成為三位一體永恆守護者；美夜子完成心願後回歸凡人 |
+| 142 | 109 | Act IV | 美夜子終於哭出來 | Miyako Finally Cries | 美夜子、晴香 | Act IV | 時長`[NEEDS_FACT]` | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_142_Miyako_FinallyCries.png | ❌ 未有圖 | **核心情緒已修正**：美夜子一生第一次「痛哭失聲」（依miyako.md§第四幕；原文誤寫「無聲眼淚」方向相反已修正）；檔名西里爾字元「С」已修正為標準「C」 |
 | 143 | 159 | Act IV | 時間折返的視覺化 | The Moment Beta Line Solidifies | 晴香、黑奏、夕 | ACT_IV_OPENING | 帝國歷134年7月（Act IV開場，二十年守望結束後） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_143_BetaLineSolidification.png | ❌ 未有圖 | 帝國歷134年的某個瞬間，Beta線固化發生。 |
-| 144 | 46 | 日常／未定 | 凜的孔雀之翼 | Rin's Peacock Wings | 凜 | `[NEEDS_FACT]`（非嚴格幕別鎖定） | 天空/日區 | ⭐⭐⭐ | ConceptArt_Scene_Rin_PeacockWings.png | ❌ 未有圖 | 凜展開孔雀綠孔雀羽翼——殘留Alpha線偶像明亮一面 |
-| 145 | 57 | 日常／未定 | 黑暗沖涼習慣 | Dark Shower Habit | 美夜子 | 日常 | 黑暗浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_DarkShowerHabit.png | ✅ 有圖 | 美夜子習慣性在黑暗中淋浴，自我確認儀式 |
-| 146 | 58 | 日常／未定 | 紅線強迫症`[核心概念已修正]` | Red Line Compulsion Habit | 凜 | 日常 | 私人獨處空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_RedLineCompulsion.png | ✅ 有圖 | 凜反覆挑起頸上紅色縫合線疤痕至滲血，非「牆上畫紅線」（原文誤解「紅線」術語） |
-| 147 | 59 | 日常／未定 | 研磨凜的斷刃 | Grinding Rin's Broken Blade | 美夜子 | 日常 | 祕密隱蔽處 | ⭐⭐⭐⭐ | ConceptArt_Scene_Miyako_GrindingBrokenBlade.png | ❌ 未有圖 | 美夜子無人知曉地研磨凜的斷刃，銷毀執著 |
-| 148 | 60 | 日常／未定 | 半首旋律停頓 | Phantom Melody Habit | 凜 | 日常（108年重組後） | 無人時刻 | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_PhantomMelodyHabit.png | ✅ 有圖 | 凜習慣性哼唱殘缺旋律，中途戛然而止（Reference Image已修正為日常/公務員形態） |
-| 149 | 61 | 日常／未定 | 強迫清洗儀式`[根源已修正]` | Compulsive Washing Ritual | 操 | 日常（Phase H疊加期尤烈） | 浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_Misao_CompulsiveWashingRitual.png | ❌ 未有圖 | 操以滾燙熱水擦洗全身，試圖洗去父親觸碰/被改造身體/性別認同混亂（CDL-155），非「洗手去背叛罪」 |
-| 150 | 62 | 日常／未定 | 透明物執著 | Transparency Obsession Habit | 晴香 | 日常 | 房間角落 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_TransparencyObsession.png | ❌ 未有圖 | 晴香蒐集透明物件，透過它觀察背景 |
-| 151 | 63 | 日常／未定 | 睡前熱可可成癮`[CDL已修正]` | Hot Cocoa Ritual | 晴香 | 日常 | 房間/夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_HotCocoaRitual.png | ❌ 未有圖 | 晴香每晚必喝溫度恰好熱可可，召喚虛假童年（CDL-123，非CDL-112） |
-| 152 | 64 | 日常／未定 | 嚼冰塊危機 | Crisis Ice Chewing | 晴香 | 日常 | 焦慮時刻 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_CrisisIceChewing.png | ❌ 未有圖 | 焦慮時晴香嚼冰塊，用痛楚確認存在 |
-| 153 | 65 | 日常／未定 | 破弦自傷`[部位已修正]` | Broken Guitar String Self-Harm | 晴香 | 日常（危機期） | 私密時刻 | ⭐⭐⭐ | ConceptArt_Scene_Haruka_BrokenGuitarStringSelfHarm.png | ❌ 未有圖 | 晴香反覆彈斷弦致指尖出血、以膠布遮蓋，非「手臂割痕」（原文誤植部位） |
-| 154 | 66 | 日常／未定 | 摺紙星星 | Paper Star Folding Habit | 凜 | 日常 | 失眠夜晚 | ⭐⭐⭐ | ConceptArt_Scene_Rin_PaperStarFolding.png | ❌ 未有圖 | 凜房間堆積數千摺紙星星，冥想逃避 |
-| 155 | 67 | 日常／未定 | 石像前的懺悔`[視覺已修正]` | Statue Confession Ritual | 秋穗 | 日常 | 秋穗實驗室（塔地底） | ⭐⭐⭐ | ConceptArt_Scene_Akiho_StatueConfession.png | ❌ 未有圖 | 秋穗在半透明橙色水晶石像前傾訴罪惡感，非「風化石雕/廢棄地點」（原文違反愛莉石像視覺定義） |
-| 156 | 68 | 日常／未定 | 儀器掃描愛莉遺物 | Instrument Scanning Ritual | 秋穗 | 日常 | 實驗室 | ⭐⭐⭐ | ConceptArt_Scene_Akiho_InstrumentScanningRitual.png | ❌ 未有圖 | 秋穗用儀器反覆掃描愛莉遺物，試圖重建（具體遺物項目`[INFERRED]`） |
-| 157 | 70 | 日常／未定 | 病態無痕修補`[根源已修正]` | Compulsive Seamless Mending Habit | 操 | 日常 | 房間工作區 | ⭐⭐⭐ | ConceptArt_Scene_Misao_SeamlessMendingHabit.png | ❌ 未有圖 | 操對破損物件病態執著修補，根源係掩蓋自身手術縫線（CDL-155/156），非「恐懼變成母親」（CDL-297） |
-| 158 | 71 | 日常／未定 | K房唱歌——雨天 | Karaoke Rain Song | 美夜子＋隊伍 | 日常 | K 房 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_KaraokeRainSong.png | ❌ 未有圖 | 隊伍K房日常；美夜子縮沙發角落唱悲傷情歌，意外地痛且好聽（CDL-330修正） |
-| 159 | 72 | 日常／未定 | 長泳窒息習慣 | Drowning Swim Habit | 美夜子 | 日常 | 水域 | ⭐⭐⭐ | ConceptArt_Scene_Miyako_DrowningSwimHabit.png | ❌ 未有圖 | 美夜子潛水延遲浮起，體驗死亡邊界 |
-| 160 | 83 | 日常／未定 | 凜不自知摺星星（美夜子目擊） | Rin Folds Stars Without Knowing, Miyako Watches | 凜、美夜子 | Act I-II | 日常（具體beat待Beat Sheet確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_Rin_FoldingStars_MiyakoWatches.png | ✅ 有圖 | 凜以殘影速度摺出幾何完美星星再面無表情掃入垃圾桶，美夜子門邊目擊「身體記憶比語義記憶更頑固」 |
-| 161 | 111 | 世界觀設定 | 維多利亞之淚：人造太陽剖面圖 | Victoria's Tear: Artificial Sun Cross-Section | 無角色 | WORLD_BUILDING | 維多利亞之淚 | ⭐⭐⭐⭐ | ConceptArt_Scene_VictoriasTear_CrossSection.png | ❌ 未有圖 | 三層剖面：發光蜂巢外殼、情緒廣播管道、深紅汲取核心；日夜區光線差異根本解釋（核對後準確） |
-| 162 | 112 | 世界觀設定 | 集體潛意識空間：後巷過渡狀態 | Collective Unconscious: Back Alley Transition | 無角色（魔法少女輪廓） | WORLD_BUILDING | 集體潛意識／夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_CollectiveUnconscious_BackAlleyTransition.png | ❌ 未有圖 | 唐樓後巷磚牆漸變宇宙星空，倒影揭示異空間，集體潛意識視覺語言基礎（核對後準確） |
-| 163 | 113 | 世界觀設定 | 心防內化裝置：製造過程 | Trauma Cage: Manufacturing Process | 無角色（The Unlinked，通用） | WORLD_BUILDING | 帝國醫療設施 | ⭐⭐⭐ | ConceptArt_Scene_TraumaCage_Manufacturing.png | ❌ 未有圖 | 三格：心匣撬開→鳥籠裝置植入→表情歸零；已修正為The Unlinked（解離兵器）通用機制，非凜（原文誤植已移除） |
-| 164 | 114 | 世界觀設定 | 情緒管理局：局內辦公空間 | Emotion Management Bureau: Interior | 凜 | WORLD_BUILDING | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_EMB_OfficeInterior.png | ❌ 未有圖 | 純白啞光制服，有機流體情緒波形牆，凜與同事完全一致（核對後準確） |
-| 165 | 115 | 世界觀設定 | 靈樹：平時狀態 | Spirit Tree: Normal State | 無角色 | WORLD_BUILDING | 靈樹（夜區谷地） | ⭐⭐⭐ | ConceptArt_Scene_SpiritTree_NormalState.png | ❌ 未有圖 | 老樹平常無異狀，普通感是後段伏筆（核對後準確） |
-| 166 | 116 | 世界觀設定 | 帝國廣場：常態 | Empire Plaza: Normal Day | 無角色（市民群） | WORLD_BUILDING | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_EmpirePlaza_NormalDay.png | ❌ 未有圖 | 非戰鬥展示秩序空間，麻木市民；配色已修正為深淵黑+皇家金+紫水晶（原文誤用白色大理石+帝國藍，違反06_visual_bible帝國皇室美學已修正） |
-| 167 | 117 | 世界觀設定 | Emo-Visor Gen 3：日區市民集體成癮 | Emo-Visor Gen 3: Day District Citizens' Collective Addiction | 無角色（市民群） | WORLD_BUILDING | 日區咖啡廳 | ⭐⭐⭐ | ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png | ❌ 未有圖 | 已補回安普膠囊消耗品+30分鐘崩潰循環核心機制（原文遺漏成癮主題最重要視覺錨點已修正） |
-| 168 | 118 | 世界觀設定 | 屍骸化：心之器燃盡時刻 | Magical Corpse: The Moment the Soul Vessel Burns Out | 無角色（通用） | WORLD_BUILDING | 日區超市 | ⭐⭐⭐⭐ | ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png | ❌ 未有圖 | 核心機制已修正：靈魂被困以1%控制力掙扎，非「靈魂已離體、空殼繼續動」（CDL-271已取代舊描述，原文方向錯誤已修正） |
-| 169 | 119 | 世界觀設定 | 彩的心房：通風管道永恆空間 | Aya's Heart Chamber: Eternal Ventilation Space | 彩（6歲真身，被囚） | WORLD_BUILDING | 彩的心房（通風管道那夜重構） | ⭐⭐⭐ | ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png | ❌ 未有圖 | Reference Image已修正為[NO_REF]（原文誤用便服/偽裝形態reference）；基調已修正為黑暗創傷重演空間，非純美麗夢幻空間 |
+| 144 | 46 | 日常／未定 | 凜的孔雀之翼 | Rin's Peacock Wings | 凜 | `[NEEDS_FACT]`（非嚴格幕別鎖定） | 天空/日區 | ⭐⭐⭐ | ConceptArt_Scene_144_Rin_PeacockWings.png | ❌ 未有圖 | 凜展開孔雀綠孔雀羽翼——殘留Alpha線偶像明亮一面 |
+| 145 | 57 | 日常／未定 | 黑暗沖涼習慣 | Dark Shower Habit | 美夜子 | 日常 | 黑暗浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_145_Miyako_DarkShowerHabit.png | ✅ 有圖 | 美夜子習慣性在黑暗中淋浴，自我確認儀式 |
+| 146 | 58 | 日常／未定 | 紅線強迫症`[核心概念已修正]` | Red Line Compulsion Habit | 凜 | 日常 | 私人獨處空間 | ⭐⭐⭐⭐ | ConceptArt_Scene_146_Rin_RedLineCompulsion.png | ✅ 有圖 | 凜反覆挑起頸上紅色縫合線疤痕至滲血，非「牆上畫紅線」（原文誤解「紅線」術語） |
+| 147 | 59 | 日常／未定 | 研磨凜的斷刃 | Grinding Rin's Broken Blade | 美夜子 | 日常 | 祕密隱蔽處 | ⭐⭐⭐⭐ | ConceptArt_Scene_147_Miyako_GrindingBrokenBlade.png | ❌ 未有圖 | 美夜子無人知曉地研磨凜的斷刃，銷毀執著 |
+| 148 | 60 | 日常／未定 | 半首旋律停頓 | Phantom Melody Habit | 凜 | 日常（108年重組後） | 無人時刻 | ⭐⭐⭐⭐ | ConceptArt_Scene_148_Rin_PhantomMelodyHabit.png | ✅ 有圖 | 凜習慣性哼唱殘缺旋律，中途戛然而止（Reference Image已修正為日常/公務員形態） |
+| 149 | 61 | 日常／未定 | 強迫清洗儀式`[根源已修正]` | Compulsive Washing Ritual | 操 | 日常（Phase H疊加期尤烈） | 浴室 | ⭐⭐⭐⭐ | ConceptArt_Scene_149_Misao_CompulsiveWashingRitual.png | ❌ 未有圖 | 操以滾燙熱水擦洗全身，試圖洗去父親觸碰/被改造身體/性別認同混亂（CDL-155），非「洗手去背叛罪」 |
+| 150 | 62 | 日常／未定 | 透明物執著 | Transparency Obsession Habit | 晴香 | 日常 | 房間角落 | ⭐⭐⭐ | ConceptArt_Scene_150_Haruka_TransparencyObsession.png | ❌ 未有圖 | 晴香蒐集透明物件，透過它觀察背景 |
+| 151 | 63 | 日常／未定 | 睡前熱可可成癮`[CDL已修正]` | Hot Cocoa Ritual | 晴香 | 日常 | 房間/夜晚 | ⭐⭐⭐ | ConceptArt_Scene_151_Haruka_HotCocoaRitual.png | ❌ 未有圖 | 晴香每晚必喝溫度恰好熱可可，召喚虛假童年（CDL-123，非CDL-112） |
+| 152 | 64 | 日常／未定 | 嚼冰塊危機 | Crisis Ice Chewing | 晴香 | 日常 | 焦慮時刻 | ⭐⭐⭐ | ConceptArt_Scene_152_Haruka_CrisisIceChewing.png | ❌ 未有圖 | 焦慮時晴香嚼冰塊，用痛楚確認存在 |
+| 153 | 65 | 日常／未定 | 破弦自傷`[部位已修正]` | Broken Guitar String Self-Harm | 晴香 | 日常（危機期） | 私密時刻 | ⭐⭐⭐ | ConceptArt_Scene_153_Haruka_BrokenGuitarStringSelfHarm.png | ❌ 未有圖 | 晴香反覆彈斷弦致指尖出血、以膠布遮蓋，非「手臂割痕」（原文誤植部位） |
+| 154 | 66 | 日常／未定 | 摺紙星星 | Paper Star Folding Habit | 凜 | 日常 | 失眠夜晚 | ⭐⭐⭐ | ConceptArt_Scene_154_Rin_PaperStarFolding.png | ❌ 未有圖 | 凜房間堆積數千摺紙星星，冥想逃避 |
+| 155 | 67 | 日常／未定 | 石像前的懺悔`[視覺已修正]` | Statue Confession Ritual | 秋穗 | 日常 | 秋穗實驗室（塔地底） | ⭐⭐⭐ | ConceptArt_Scene_155_Akiho_StatueConfession.png | ❌ 未有圖 | 秋穗在半透明橙色水晶石像前傾訴罪惡感，非「風化石雕/廢棄地點」（原文違反愛莉石像視覺定義） |
+| 156 | 68 | 日常／未定 | 儀器掃描愛莉遺物 | Instrument Scanning Ritual | 秋穗 | 日常 | 實驗室 | ⭐⭐⭐ | ConceptArt_Scene_156_Akiho_InstrumentScanningRitual.png | ❌ 未有圖 | 秋穗用儀器反覆掃描愛莉遺物，試圖重建（具體遺物項目`[INFERRED]`） |
+| 157 | 70 | 日常／未定 | 病態無痕修補`[根源已修正]` | Compulsive Seamless Mending Habit | 操 | 日常 | 房間工作區 | ⭐⭐⭐ | ConceptArt_Scene_157_Misao_SeamlessMendingHabit.png | ❌ 未有圖 | 操對破損物件病態執著修補，根源係掩蓋自身手術縫線（CDL-155/156），非「恐懼變成母親」（CDL-297） |
+| 158 | 71 | 日常／未定 | K房唱歌——雨天 | Karaoke Rain Song | 美夜子＋隊伍 | 日常 | K 房 | ⭐⭐⭐ | ConceptArt_Scene_158_Miyako_KaraokeRainSong.png | ❌ 未有圖 | 隊伍K房日常；美夜子縮沙發角落唱悲傷情歌，意外地痛且好聽（CDL-330修正） |
+| 159 | 72 | 日常／未定 | 長泳窒息習慣 | Drowning Swim Habit | 美夜子 | 日常 | 水域 | ⭐⭐⭐ | ConceptArt_Scene_159_Miyako_DrowningSwimHabit.png | ❌ 未有圖 | 美夜子潛水延遲浮起，體驗死亡邊界 |
+| 160 | 83 | 日常／未定 | 凜不自知摺星星（美夜子目擊） | Rin Folds Stars Without Knowing, Miyako Watches | 凜、美夜子 | Act I-II | 日常（具體beat待Beat Sheet確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_160_Rin_FoldingStars_MiyakoWatches.png | ✅ 有圖 | 凜以殘影速度摺出幾何完美星星再面無表情掃入垃圾桶，美夜子門邊目擊「身體記憶比語義記憶更頑固」 |
+| 161 | 111 | 世界觀設定 | 維多利亞之淚：人造太陽剖面圖 | Victoria's Tear: Artificial Sun Cross-Section | 無角色 | WORLD_BUILDING | 維多利亞之淚 | ⭐⭐⭐⭐ | ConceptArt_Scene_161_VictoriasTear_CrossSection.png | ❌ 未有圖 | 三層剖面：發光蜂巢外殼、情緒廣播管道、深紅汲取核心；日夜區光線差異根本解釋（核對後準確） |
+| 162 | 112 | 世界觀設定 | 集體潛意識空間：後巷過渡狀態 | Collective Unconscious: Back Alley Transition | 無角色（魔法少女輪廓） | WORLD_BUILDING | 集體潛意識／夜區後巷 | ⭐⭐⭐⭐ | ConceptArt_Scene_162_CollectiveUnconscious_BackAlleyTransition.png | ❌ 未有圖 | 唐樓後巷磚牆漸變宇宙星空，倒影揭示異空間，集體潛意識視覺語言基礎（核對後準確） |
+| 163 | 113 | 世界觀設定 | 心防內化裝置：製造過程 | Trauma Cage: Manufacturing Process | 無角色（The Unlinked，通用） | WORLD_BUILDING | 帝國醫療設施 | ⭐⭐⭐ | ConceptArt_Scene_163_TraumaCage_Manufacturing.png | ❌ 未有圖 | 三格：心匣撬開→鳥籠裝置植入→表情歸零；已修正為The Unlinked（解離兵器）通用機制，非凜（原文誤植已移除） |
+| 164 | 114 | 世界觀設定 | 情緒管理局：局內辦公空間 | Emotion Management Bureau: Interior | 凜 | WORLD_BUILDING | 情緒管理局 | ⭐⭐⭐ | ConceptArt_Scene_164_EMB_OfficeInterior.png | ❌ 未有圖 | 純白啞光制服，有機流體情緒波形牆，凜與同事完全一致（核對後準確） |
+| 165 | 115 | 世界觀設定 | 靈樹：平時狀態 | Spirit Tree: Normal State | 無角色 | WORLD_BUILDING | 靈樹（夜區谷地） | ⭐⭐⭐ | ConceptArt_Scene_165_SpiritTree_NormalState.png | ❌ 未有圖 | 老樹平常無異狀，普通感是後段伏筆（核對後準確） |
+| 166 | 116 | 世界觀設定 | 帝國廣場：常態 | Empire Plaza: Normal Day | 無角色（市民群） | WORLD_BUILDING | 帝國廣場 | ⭐⭐⭐ | ConceptArt_Scene_166_EmpirePlaza_NormalDay.png | ❌ 未有圖 | 非戰鬥展示秩序空間，麻木市民；配色已修正為深淵黑+皇家金+紫水晶（原文誤用白色大理石+帝國藍，違反06_visual_bible帝國皇室美學已修正） |
+| 167 | 117 | 世界觀設定 | Emo-Visor Gen 3：日區市民集體成癮 | Emo-Visor Gen 3: Day District Citizens' Collective Addiction | 無角色（市民群） | WORLD_BUILDING | 日區咖啡廳 | ⭐⭐⭐ | ConceptArt_Scene_167_EmoVisorGen3_DayDistrictAddiction.png | ❌ 未有圖 | 已補回安普膠囊消耗品+30分鐘崩潰循環核心機制（原文遺漏成癮主題最重要視覺錨點已修正） |
+| 168 | 118 | 世界觀設定 | 屍骸化：心之器燃盡時刻 | Magical Corpse: The Moment the Soul Vessel Burns Out | 無角色（通用） | WORLD_BUILDING | 日區超市 | ⭐⭐⭐⭐ | ConceptArt_Scene_168_MagicalCorpse_SoulVesselBurnout.png | ❌ 未有圖 | 核心機制已修正：靈魂被困以1%控制力掙扎，非「靈魂已離體、空殼繼續動」（CDL-271已取代舊描述，原文方向錯誤已修正） |
+| 169 | 119 | 世界觀設定 | 彩的心房：通風管道永恆空間 | Aya's Heart Chamber: Eternal Ventilation Space | 彩（6歲真身，被囚） | WORLD_BUILDING | 彩的心房（通風管道那夜重構） | ⭐⭐⭐ | ConceptArt_Scene_169_Aya_HeartChamber_VentilationEternal.png | ❌ 未有圖 | Reference Image已修正為[NO_REF]（原文誤用便服/偽裝形態reference）；基調已修正為黑暗創傷重演空間，非純美麗夢幻空間 |
 | 170 | 122 | 已停用 | 軟接觸——美夜子廢棄地鐵站遞水 | Worthless Vigil: The Underground Station | — | `[DELETE_CANDIDATE]` | — | — | — | — | **已停用**：與SPEC#92為同一beat（CDL-191）但形態/物件/對白互相矛盾，已標記DELETE_CANDIDATE，內容詳見詳細段落說明 |
 
 ---
@@ -291,7 +291,7 @@
 
 **⚠️ 2026-07-17 批次8審計修正（核心角色/事件錯誤）**：原文將躲藏兒童寫成「黑奏」，並將事件框架寫成「帝國判定螢無研究價值下令最終處置，兩人躲在帝國設施通風管道」——兩點均同 canon 直接矛盾，已重寫。(1) **人物錯誤**：依 `aya.md`（§夜區創傷——螢的死亡；§黑奏誕生）同 `04_timeline_canon.md`（79年「黑奏創傷事件」條目），**「黑奏」呢個保護者人格正正係喺呢一夜、目擊螢犧牲之後先誕生**——事件發生時仍係「彩」，唔可能係已存在嘅「黑奏」躲喺管道入面。(2) **場景設定錯誤**：canon 明確係「靈樹戰爭末期，6歲的彩和螢藏在夜區建築的通風管道中躲避**帝國軍搜索**」（`aya.md` line 63），唔係「帝國判定螢無研究價值下令最終處置」呢個機構化處決敘事；地點係**夜區建築**，唔係「帝國設施」。已按 canon 事實重寫。
 
-**建議輸出文件名**：`ConceptArt_Scene_HotaruSacrifice_VentilationShaft.png`
+**建議輸出文件名**：`ConceptArt_Scene_1_HotaruSacrifice_VentilationShaft.png`
 
 ### 劇情背景
 
@@ -355,7 +355,7 @@ Two young girls in a dark narrow ventilation shaft inside a night-district build
 
 **⚠️ 2026-07-17 批次8審計修正（核心概念錯誤）**：原文將彩描繪成「同樣5歲」、同晴香平靜地隔網對視伸手——呢個描述同 canon 有兩個根本性矛盾，已重寫。(1) **年齡錯誤**：依 `04_timeline_canon.md`「73年 澄川彩誕生」，102年鐵絲網偶遇當時彩應為 **29歲**（102-73=29），唔係5歲小孩；「彩=5歲」呢個講法喺全 canon（`04_timeline_canon.md`、`00_Story_Brief.html`、`aya.md`）都搵唔到支持，只有晴香被明確標為5歲。(2) **場景性質錯誤**：canon 明確呢一刻係「彩正被守衛拖走」（`04_timeline_canon.md` line 53；`00_Story_Brief.html` line 8723；canon_fact_map CF-EVT-0047：「Haruka glimpses **bloodied** Aya being **dragged**」）——彩處於被強制拖行、渾身傷痕嘅受難狀態，並有帝國守衛在場，唔係一個平靜嘅隔網對視/伸手场面。已按 canon 事實重寫。
 
-**建議輸出文件名**：`ConceptArt_Scene_WireFenceEncounter.png`
+**建議輸出文件名**：`ConceptArt_Scene_2_WireFenceEncounter.png`
 
 ### 劇情背景
 
@@ -414,7 +414,7 @@ A 5-year-old girl standing outside a rusted wire fence, watching quietly as a bl
 
 ## 圖3：「帝國實驗室：黑奏作為活體樣本」（The Empire Lab: Kurokane as Living Specimen）[ORIGIN_FLASHBACK]
 
-**建議輸出文件名**：`ConceptArt_Scene_EmpireLab_KurokaneSpecimen.png`
+**建議輸出文件名**：`ConceptArt_Scene_3_EmpireLab_KurokaneSpecimen.png`
 
 **⚠️ 2026-07-17 批次8審計修正（年齡數學矛盾 + 實驗性質錯誤）**：原文標「12至15歲」發生於「帝國歷95至98年前後」——但依 `04_timeline_canon.md`「73年 澄川彩誕生」，95-98年時彩應為 **22-25歲**，同「12-15歲」直接數學矛盾（無論如何調整年份都無法同時滿足二者，因為彩79年（6歲）已被捕，103年（30歲）獲釋，全段囚禁期內年齡與「12-15歲」對唔上）。另，`04_timeline_canon.md` line 37 明確呢段囚禁初期（79年起）嘅實驗性質係「早期情緒壓抑/測量技術原型」，**唔係「收集魔法輸出數據」**——因為彩嘅魔法力量要到 **102年鐵絲網偶遇因果信標**先賦予（CDL-288），79-102年呢段長達23年嘅囚禁期內佢根本未有魔法可供收集。已移除具體錯誤年齡數字並修正實驗性質；場景改標為囚禁期內某個未明確年份嘅代表性片段，年齡標 `[NEEDS_FACT: 具體年份/年齡]`。
 
@@ -539,7 +539,7 @@ Dark anime. Pre-story flashback. Alpha Line, Year 102, autumn city street. A chi
 
 ## 圖5：「刑思殺出實驗室」（Keishi's Awakening Massacre）[ORIGIN_FLASHBACK]
 
-**建議輸出文件名**：`ConceptArt_Scene_Keishi_AwakeningMassacre.png`
+**建議輸出文件名**：`ConceptArt_Scene_5_Keishi_AwakeningMassacre.png`
 
 ### 劇情背景
 
@@ -604,7 +604,7 @@ Canvas: 3:4 portrait ratio --ar 3:4 --niji 6 --style raw
 
 ## 圖6：「黑奏弒父篡位」（Kurokane Usurps the Emperor）[ORIGIN_FLASHBACK]
 
-**建議輸出文件名**：`ConceptArt_Scene_KurokaneUsurpation.png`
+**建議輸出文件名**：`ConceptArt_Scene_6_KurokaneUsurpation.png`
 
 **⚠️ 2026-07-17 批次8審計修正**：原文標「帝國歷98年」，但依 `04_timeline_canon.md` CDL-305（黑奏政變年份修正說明）：「黑奏政變原定98年，與102年鐵絲網偶遇『被帝國拘束』矛盾（98年已政變奪權，102年點解仲被自己帝國拘束？）。修正後政變移至**103年**（即黑奏攞到創世因果力量之後）」——已同步修正為103年。另，原「所需資源」提及嘅「7歲外表帝國君主」係 Act III 講法，本場景（篡位當刻）身體年齡應對齊103年（彩73年出生，103年應為30歲，惟其身軀因長期實驗停留在148cm「幼童身軀」——身高定格但非7歲外表，年齡表述標`[NEEDS_FACT: 篡位當刻具體外觀年齡]`。
 
@@ -664,7 +664,7 @@ Small young woman 148cm standing at base of enormous imperial throne staircase i
 
 ## 圖7：「凜×美夜子黃金搭檔」（Rin and Miyako's Golden Partnership）[ORIGIN_FLASHBACK]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_Miyako_GoldenPartnership.png`
+**建議輸出文件名**：`ConceptArt_Scene_7_Rin_Miyako_GoldenPartnership.png`
 
 ### 劇情背景
 
@@ -730,7 +730,7 @@ Canvas: 16:9 widescreen --ar 16:9 --niji 6
 
 ## 圖8：「凜殿後最終犧牲」（Rin's Final Rear Guard Sacrifice）[ORIGIN_FLASHBACK]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_FinalSacrifice.png`
+**建議輸出文件名**：`ConceptArt_Scene_8_Rin_FinalSacrifice.png`
 
 ### 劇情背景
 
@@ -995,7 +995,7 @@ Dark anime. Act I early street battle aftermath. Corner of a residential street,
 
 ## 圖12：「彩的日常表演」（Aya's Daily Performance）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_DailyPerformance.png`
+**建議輸出文件名**：`ConceptArt_Scene_12_Aya_DailyPerformance.png`
 
 ### 劇情背景
 
@@ -1018,7 +1018,7 @@ Act I 期間，黑奏以「彩」的身份潛伏在晴香身邊執行三重任�
 
 ## 圖13：「凜的情報蒐集現場」（Rin's Intelligence Gathering）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_IntelligenceGathering.png`
+**建議輸出文件名**：`ConceptArt_Scene_13_Rin_IntelligenceGathering.png`
 
 ### 劇情背景
 
@@ -1043,7 +1043,7 @@ Act I 全程，凜被重組為情緒管理局公務員後（`rin.md` R-S1，108�
 
 ## 圖14：「出門確認儀式」（彩／黑奏 / Daily Bear Confirmation Ritual）[PRIVATE_INTIMATE_MOMENT] `[核心概念已重寫 2026-07-17，原標題「熊公仔囤積」與canon「永遠潔淨」規則矛盾，已更名]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_DailyBearConfirmation.png`（原檔名 `ConceptArt_Scene_Aya_BearHoardingCompulsion.png` 已棄用，見下方修正說明）
+**建議輸出文件名**：`ConceptArt_Scene_14_Aya_DailyBearConfirmation.png`（原檔名 `ConceptArt_Scene_Aya_BearHoardingCompulsion.png` 已棄用，見下方修正說明）
 
 ### 劇情背景
 
@@ -1111,7 +1111,7 @@ surviving beneath an otherwise controlled exterior.
 
 ## 圖15：「晴香遞便當（三層交疊）」（Haruka's Lunchbox: Three-Layer Overlap）[ACT_I]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_Lunchbox_ThreeLayers.png`
+**建議輸出文件名**：`ConceptArt_Scene_15_Haruka_Lunchbox_ThreeLayers.png`
 
 ### 劇情背景
 
@@ -1298,7 +1298,7 @@ Dark anime. High ruins overlooking a battlefield at night, backlit silhouette co
 
 ## 圖18：「操の虛榮告白」（Misao's Vanity Confession）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_VanityConfession.png`
+**建議輸出文件名**：`ConceptArt_Scene_18_Misao_VanityConfession.png`
 
 ### 劇情背景
 
@@ -1360,7 +1360,7 @@ A teenage girl with dramatic makeup leans sideways against a wall in an abandone
 
 ## 圖19：「變身場景」（晴香 / Transformation Scene）
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_FirstTransform.png`
+**建議輸出文件名**：`ConceptArt_Scene_19_Haruka_FirstTransform.png`
 
 ### 劇情背景
 
@@ -1404,7 +1404,7 @@ Canvas: 3:4 portrait ratio
 
 ## 圖20：「膠布哲學三層」（Bandaid Philosophy Triptych）
 
-**建議輸出文件名**：`ConceptArt_Scene_BandaidPhilosophy_Triptych.png`
+**建議輸出文件名**：`ConceptArt_Scene_20_BandaidPhilosophy_Triptych.png`
 
 ### 劇情背景
 
@@ -1434,7 +1434,7 @@ Canvas: Widescreen triptych (3×square or one wide panel)
 
 ## 圖21：「花子的溫柔牢籠」（Mother's Gentle Cage）
 
-**建議輸出文件名**：`ConceptArt_Scene_Mother_GentleCage.png`
+**建議輸出文件名**：`ConceptArt_Scene_21_Mother_GentleCage.png`
 
 ### 劇情背景
 
@@ -1467,7 +1467,7 @@ Canvas: 3:4 portrait or square (cyclic framing)
 
 ## 圖22：「違和感與對峙」（Dissonance and Confrontation）
 
-**建議輸出文件名**：`ConceptArt_Scene_Dissonance_Confrontation.png`
+**建議輸出文件名**：`ConceptArt_Scene_22_Dissonance_Confrontation.png`
 
 ### 劇情背景
 
@@ -1499,7 +1499,7 @@ Canvas: 3:4 portrait or square (mirror centered)
 
 ## 圖23：「晴香的城市獨行」（Haruka's Solitary Urban Walk）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_SolitaryUrbanWalk.png`
+**建議輸出文件名**：`ConceptArt_Scene_23_Haruka_SolitaryUrbanWalk.png`
 
 ### 劇情背景
 
@@ -1522,7 +1522,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖24：「美夜子與小光的對話」（Miyako and Hikari Conversation）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_Hikari_Conversation.png`
+**建議輸出文件名**：`ConceptArt_Scene_24_Miyako_Hikari_Conversation.png`
 
 ### 劇情背景
 
@@ -1546,7 +1546,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖25：「操的獨舞冥想」（Misao's Solitary Dance Meditation）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_DanceMeditation.png`
+**建議輸出文件名**：`ConceptArt_Scene_25_Misao_DanceMeditation.png`
 
 ### 劇情背景
 
@@ -1569,7 +1569,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖26：「朱音的糖果成癮」（Akane's Candy Addiction）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_CandyAddiction.png`
+**建議輸出文件名**：`ConceptArt_Scene_26_Akane_CandyAddiction.png`
 
 ### 劇情背景
 
@@ -1592,7 +1592,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖27：「秋穗的藥物實驗室」（Akiho's Drug Experiment Laboratory）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akiho_DrugLab.png`
+**建議輸出文件名**：`ConceptArt_Scene_27_Akiho_DrugLab.png`
 **依據版本**：`akiho.md` §與魔鬼的契約；CDL-110/114（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖27項）
 
 ### 劇情背景
@@ -1616,7 +1616,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖28：「花子的溫暖廚房」（Hanako's Warm Kitchen）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Hanako_WarmKitchen.png`
+**建議輸出文件名**：`ConceptArt_Scene_28_Hanako_WarmKitchen.png`
 **依據版本**：`ACT_I_OUTLINE.md`（CDL-126）；`ayakomoji`—誤；正確為 `haruka.md` CDL-036/047；`CHANGE_LIST_EXISTING_SPEC.md` 圖21/28項（2026-07-17 審計修正）
 
 ### 劇情背景
@@ -1643,7 +1643,7 @@ Act I-II 過渡期（帝國歷 113 年），晴香以「維多利亞天使」偶
 
 ## 圖29：「珍寶珠入隊——朱音加入主角團」（The Lollipop Recruitment）[ACT_I]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_LollipopRecruitment.png`
+**建議輸出文件名**：`ConceptArt_Scene_29_Akane_LollipopRecruitment.png`
 ### 劇情背景
 
 帝國歷113年3-4月，Act I E-02 系列後段。朱音此前被帝國體制招募為清剿魔法少女的工具，同時長期情緒毒品成癮令她陷入反復斷癮循環。晴香在夜區街角遇到斷癮症狀發作的朱音，沒有說教，沒有救援方案，只是遞出一粒糖（CDL-052；05_story_outline_canon §Act I E-02）。這是朱音加入主角團的弧光起點——她習慣了一切善意都有代價，無法計算這個舉動的意圖，於是系統暫時停止運作。
@@ -1700,7 +1700,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ## 圖30：「操入隊——晴香以身體擋攻擊」（The Skirt Question）[ACT_I]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_SkirtQuestion.png`
+**建議輸出文件名**：`ConceptArt_Scene_30_Misao_SkirtQuestion.png`
 ### 劇情背景
 
 `[已修正 2026-07-17]` 原文台詞「你條裙有無整污糟？」為 CDL-050 原句嘅意譯簡化版，canon完整台詞為「好彩趕得切！妳條裙無整污糟呀嘛？」——已補全。另外，依 `ACT_I_BEAT_SHEET.md` SCENE 3-6，操中陷阱、晴香擋攻擊（SCENE 4）發生喺屍骸戰鬥**進行中途**，屍骸要到 SCENE 6（戰鬥結束）先被合力消滅——原文「戰場殘跡，屍骸已清除」誤將呢一刻放喺戰鬥結束後嘅平靜殘局，時序有誤，已修正為戰鬥仍在收尾、屍骸剛倒下但現場仍有餘波嘅緊張瞬間。
@@ -1759,7 +1759,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖31：「秋穗實驗室懺悔」（Akiho's Laboratory Confession）[ACT_I]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akiho_LaboratoryConfession.png`
+**建議輸出文件名**：`ConceptArt_Scene_31_Akiho_LaboratoryConfession.png`
 
 ### 劇情背景
 
@@ -1874,7 +1874,7 @@ of field, high detail. Lonely midnight intimacy.
 
 ## 圖33：「美夜子Glitch Form首次」（Miyako's First Glitch Form）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_FirstGlitch.png`
+**建議輸出文件名**：`ConceptArt_Scene_33_Miyako_FirstGlitch.png`
 
 ### 劇情背景
 
@@ -2065,7 +2065,7 @@ Dark anime. Abandoned decrepit interior, dim sparse light. Shion sitting alone b
 
 ## 圖36：「紫音的糖果王國展覽」（Akane's Candy Kingdom Exhibition）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_CandyKingdomExhibit.png`
+**建議輸出文件名**：`ConceptArt_Scene_36_Akane_CandyKingdomExhibit.png`
 **依據版本**：`05_story_outline_canon.md` §Act II 關鍵節點1（CDL-236）；`iwakura_akane.md` §屍骸女王完全形態（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖36項）
 
 ### 劇情背景
@@ -2091,7 +2091,7 @@ Dark anime. Abandoned decrepit interior, dim sparse light. Shion sitting alone b
 
 ## 圖37：「打怪無效」（Monster Fighting Proves Ineffective）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_TeamCombat_Ineffective.png`
+**建議輸出文件名**：`ConceptArt_Scene_37_TeamCombat_Ineffective.png`
 ### 劇情背景
 
 `[CDL引用已修正 2026-07-17]` 原文引用五個CDL（182/183/199/201/204），經逐一反查 `CANON_DECISION_LOG.md` 只有 **CDL-199**（晴香Act II覺醒弧型=偽王道覺醒）真正同本場景主題相關；其餘四個屬張冠李戴：CDL-182 實際係「ACT_I_OUTLINE.md v1.18 APPROVED」嘅批核記錄（同劇情無關）；CDL-183 係「可選日常場景分幕分配矩陣」（僅籠統提及Act II日常場景排布，非本場景專屬依據）；CDL-201 係愛莉動機揭示三步順序（同「打怪無效」主題無關）；CDL-204 係「共鳴式調律」等術語廢除記錄（同本場景無關）。帝國歷113年5月末至6月中旬，Act II Phase B至C過渡，E-07b至E-08期間。朱音被放逐後（糖果工廠三位一體辯論），主角團繼續例行戰鬥，但每一場勝利都無法改變市民的痛苦。這是「個別勝利能改變什麼？」的物理呈現——晴香「偽王道傲慢」（CDL-199）的高潮，也是她此後拒絕變身、拒絕戰鬥的動機前置。`[NEEDS_FACT: 「系統邏輯無法被個人善意治癒」呢個具體主題論證暫未搵到專屬CDL直接支持本場景蒙太奇形式，僅有CDL-199支持「偽王道傲慢」呢一半；如需更精確依據待下一輪追查主題B相關CANON_DECISION_LOG條目]`。
@@ -2146,7 +2146,7 @@ resignation. Ash grey and dying pink. Sisyphean effort. Exhaustion aesthetic.
 
 ## 圖38：「小光之死＋黑奏邏輯侵入」（Hikari's Death + Kurokane's Logic Invasion）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Hikari_Death_KurokaneInvasion.png`
+**建議輸出文件名**：`ConceptArt_Scene_38_Hikari_Death_KurokaneInvasion.png`
 
 ### 劇情背景
 
@@ -2212,7 +2212,7 @@ Young woman standing amid destroyed debris having just stopped a violent frenzy,
 
 ## 圖39：「廢棄糖果工廠三人辯論」（Three-Way Debate in the Abandoned Candy Factory）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_CandyFactory_ThreeWayDebate.png`
+**建議輸出文件名**：`ConceptArt_Scene_39_CandyFactory_ThreeWayDebate.png`
 
 ### 劇情背景
 
@@ -2273,7 +2273,7 @@ Three teenage girls in an abandoned decayed candy factory, one reaching out anxi
 
 ## 圖40：「彩『卡頓』——黑奏系統困惑（第二次）」（Aya's "Glitch": Kurokane's System Confusion, Second Occurrence）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_SystemGlitch_Second.png`（原檔名 `ConceptArt_Scene_Haruka_AyaAbsenceSense.png` 棄用）
+**建議輸出文件名**：`ConceptArt_Scene_40_Aya_SystemGlitch_Second.png`（原檔名 `ConceptArt_Scene_Haruka_AyaAbsenceSense.png` 棄用）
 
 ### 劇情背景
 
@@ -2334,7 +2334,7 @@ Two girls in a warm-lit room. One is absorbed in a small kind gesture. The other
 
 ## 圖41：「黑奏農場觀察」（Kurokane's Farm Observation）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Kurokane_FarmObservation.png`
+**建議輸出文件名**：`ConceptArt_Scene_41_Kurokane_FarmObservation.png`
 
 ### 劇情背景
 
@@ -2392,7 +2392,7 @@ A small child-like girl half-hidden in shadow watches a distant suffering figure
 
 ## 圖42：「鏡像相簿異變」（Mirror Photo Album Anomaly）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_PhotoAlbumAnomaly.png`
+**建議輸出文件名**：`ConceptArt_Scene_42_Haruka_PhotoAlbumAnomaly.png`
 
 ### 劇情背景
 
@@ -2457,7 +2457,7 @@ Close shot of hands holding a framed photo of two girls. In the glass reflection
 
 **⚠️ 2026-07-17 批次8審計修正**：原文誤植為「操偽裝成紫音的家長」，並宣稱操以「傀儡魔法」變身成人外貌——兩點均與 canon 矛盾，已修正（見下）。
 
-**建議輸出文件名**：`ConceptArt_Scene_ParentsDay_Infiltration.png`
+**建議輸出文件名**：`ConceptArt_Scene_43_ParentsDay_Infiltration.png`
 
 ### 劇情背景
 
@@ -2502,7 +2502,7 @@ Close shot of hands holding a framed photo of two girls. In the glass reflection
 
 ## 圖44：「操的摔碎時刻」（Misao's Breaking Moment）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_BreakingMoment.png`
+**建議輸出文件名**：`ConceptArt_Scene_44_Misao_BreakingMoment.png`
 **依據版本**：`ayakomoji_misao.md` §Body Horror 傀儡絲線縫牙分層設計 CDL-233 Stage 2a（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖44項）
 
 ### 劇情背景
@@ -2530,7 +2530,7 @@ Close shot of hands holding a framed photo of two girls. In the glass reflection
 
 ## 圖45：「天使變公敵」（Angel Becomes Public Enemy）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_LightVeil_PublicEnemy.png`
+**建議輸出文件名**：`ConceptArt_Scene_45_LightVeil_PublicEnemy.png`
 ### 劇情背景
 
 `[CDL引用已修正 2026-07-17]` 原文引用五個CDL（180/201/227/259/282），經反查只有 **CDL-259**（E-09「飢餓的天使」完整方案，2026-04-28 Story Room Master最終拍板）係本場景嘅正確核心依據。其餘四個屬誤植：CDL-180 係「維多利亞之淚特寫鏡頭設計」（Beat 0b/E-04，同本場景無關）；CDL-201 係愛莉動機揭示三步順序（無關）；CDL-227 係「QQ-52 E-09社死觸發C修正版（紀錄片方案）」——此設計已於2026-04-28被CDL-259完全取代（見CDL-258「[SUPERSEDED]」記錄），引用已廢棄版本；CDL-282 係鏡像法則定義（同直播失控場景無直接關係）。另發現**前置事件因果關係錯誤**：原文將「E-09a父親背叛+紗夜犧牲」列為 E-09 嘅「前置事件」，但依 `ACT_II_OUTLINE.md` 明文「**E-09 與 E-09a 為平行發生的雙線災難（非線性 A→B）**」（Phase D背景框架，行365），兩者係同期平行事件，唔存在「E-09a→E-09」嘅前置因果關係。帝國歷113年7月中旬，Act II Phase C，E-09直播失控事件當晚，與E-09a（鏡像破碎之夜）平行發生。前置：E-08恐怖家家酒14天高壓積累+夕在E-08末期刻意讓晴香遭屍骸爪擊觸發半屍骸化。夕在半屍骸狀態下情緒飢渴到極限，劫持晴香身體主導權，在直播舞台上撕毀光幕濾鏡裝置（CDL-259）。晴香的社會性死亡起爆點，也是帝國媒體倒戈、公眾從崇拜轉為恐懼的30秒決定性轉變。
@@ -2586,7 +2586,7 @@ contagion aesthetic. Digital apocalypse meets magical girl tragedy.
 
 ## 圖46：「操回歸人類身軀」（Misao Returns to Humanity）
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_ReturnHumanity.png`
+**建議輸出文件名**：`ConceptArt_Scene_46_Misao_ReturnHumanity.png`
 
 ### 劇情背景
 
@@ -2618,7 +2618,7 @@ Canvas: 3:4 portrait
 
 ## 圖47：「甜品局掉牙」（操、晴香、眾人 / Dessert Party Tooth Drop）[PRIVATE_BODY_HORROR_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_DessertToothDrop.png`
+**建議輸出文件名**：`ConceptArt_Scene_47_Misao_DessertToothDrop.png`
 
 ### 劇情背景
 
@@ -2716,7 +2716,7 @@ creates a deeply isolating emotional atmosphere.
 
 ## 圖48：「紗夜犧牲——耳鳴遮蔽」（Sayo's Sacrifice: Tinnitus Veil）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Sayo_Sacrifice_TinnitusVeil.png`
+**建議輸出文件名**：`ConceptArt_Scene_48_Sayo_Sacrifice_TinnitusVeil.png`
 
 ### 劇情背景
 
@@ -2777,7 +2777,7 @@ Woman in formal service uniform at mansion gate at night, holding a gun protecti
 
 ## 圖49：「操絲線縫牙」（Misao Sews Her Teeth with Puppet Strings）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_PuppetStringTeeth.png`
+**建議輸出文件名**：`ConceptArt_Scene_49_Misao_PuppetStringTeeth.png`
 
 ### 劇情背景
 
@@ -2837,7 +2837,7 @@ A teenage girl with perfect makeup calmly sews glowing golden threads through he
 
 ## 圖50：「美夜子無價值留守」（Miyako's Worthless Vigil）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_WorthlessVigil.png`
+**建議輸出文件名**：`ConceptArt_Scene_50_Miyako_WorthlessVigil.png`
 
 ### 劇情背景
 
@@ -2898,7 +2898,7 @@ A girl hiding alone in an abandoned subway station with knees pulled up. A small
 
 ## 圖51：「飢餓的天使——直播失控（半屍骸）」（Hungry Angel: Live Broadcast Out of Control）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_LiveBroadcastBreak.png`
+**建議輸出文件名**：`ConceptArt_Scene_51_Haruka_LiveBroadcastBreak.png`
 
 ### 劇情背景
 
@@ -2959,7 +2959,7 @@ A magical girl in a city plaza during a battle, one hand extended toward the wat
 
 ## 圖52：「操被遺棄」（Misao's Abandonment）
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_Abandoned.png`
+**建議輸出文件名**：`ConceptArt_Scene_52_Misao_Abandoned.png`
 
 ### 劇情背景
 
@@ -2990,7 +2990,7 @@ Canvas: Widescreen to show spatial separation
 
 ## 圖53：「死前願望清單」（The Before-Death Wish List）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_WishList_Underground.png`
+**建議輸出文件名**：`ConceptArt_Scene_53_WishList_Underground.png`
 ### 劇情背景
 
 帝國歷113年7-10月，Act II Phase D 地下生存期（地下化）的罕見喘息窗口。主角團進入地下避難生活後，資源縮減、帝國包圍圈收緊（CDL-250、CDL-255），心理壓力持續積累。某次喘息時段，四人各自說出死前最想做的一件事——這是在極高壓下對「正常生活」的橫截面掃描，揭示每個角色真實的心理底層（`05_story_outline_canon.md` §附錄：可選場景框架 §生死態度章「⑤死前願望清單」，作者裁決 Q-DECIDE-1 列入 canon）。canon 明確此刻在場並發言的四人為**美夜子、紫音、操、凜**（`[NEEDS_FACT: 晴香是否同場但未發言，canon原文未明確排除或確認，此刻標記為僅取canon已confirm嘅四人]`）。凜的回答「我想再見到某人一次」是她對美夜子記憶碎片的最接近表達。
@@ -3049,7 +3049,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖54：「既視感追認」（Dejavu Recognition）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_DejavuRecognition.png`
+**建議輸出文件名**：`ConceptArt_Scene_54_Saku_DejavuRecognition.png`
 
 ### 劇情背景
 
@@ -3114,7 +3114,7 @@ Dark anime. Night district abandoned street. Unit 01 Miyako in magical girl huma
 
 ## 圖55：「保護的殘響」（Echo of Protection）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_EchoOfProtection.png`
+**建議輸出文件名**：`ConceptArt_Scene_55_Saku_EchoOfProtection.png`
 
 ### 劇情背景
 
@@ -3173,7 +3173,7 @@ Dark anime. Night district abandoned street. Saku at corner, crossbow raised but
 
 ## 圖56：「美夜子廢棄地鐵站夜明前」（Miyako's Pre-Dawn in the Abandoned Station）[ACT_II] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_56.png`
+**建議輸出文件名**：`ConceptArt_Scene_56_56.png`
 
 ### 劇情背景
 
@@ -3287,7 +3287,7 @@ Dark anime. Night district street/alley, panicked residents fleeing. A swarm of 
 
 ## 圖58：「操的夜中人偶製作」（Misao's Midnight Doll Assembly）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_MidnightDollAssembly.png`
+**建議輸出文件名**：`ConceptArt_Scene_58_Misao_MidnightDollAssembly.png`
 
 ### 劇情背景
 
@@ -3380,7 +3380,7 @@ Dark anime. Abandoned hideout, late night corner with a single battery lamp, sho
 
 ## 圖60：「愛莉具現化擋刀＋石像龜裂」（Aeri's Materialized Shield + Statue Cracks）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aeri_PaperKnight_StatueCracks.png`
+**建議輸出文件名**：`ConceptArt_Scene_60_Aeri_PaperKnight_StatueCracks.png`
 
 ### 劇情背景
 
@@ -3452,7 +3452,7 @@ Split-panel composition: left two-thirds shows cardboard shield-shape stopping a
 
 ## 圖61：「王國邊緣的盛宴」（Feast at the Kingdom's Edge）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_FeastAtEdge.png`
+**建議輸出文件名**：`ConceptArt_Scene_61_Akane_FeastAtEdge.png`
 
 ### 劇情背景
 
@@ -3514,7 +3514,7 @@ A teenage girl in a torn stained robe sits on a throne made of melted candy and 
 
 ## 圖62：「凜重組後第一次遇見美夜子」（Rin's First Encounter with Miyako After Reassembly）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_MiyakoFirstEncounter.png`
+**建議輸出文件名**：`ConceptArt_Scene_62_Rin_MiyakoFirstEncounter.png`
 
 ### 劇情背景
 
@@ -3579,7 +3579,7 @@ A white cat in a hallway extends its paw toward a girl in a dark uniform who wal
 
 ## 圖63：「朔看見Unit 01的臉」（Saku Sees Miyako's Face on Unit 01）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_SeesUnit01.png`
+**建議輸出文件名**：`ConceptArt_Scene_63_Saku_SeesUnit01.png`
 
 ### 劇情背景
 
@@ -3640,7 +3640,7 @@ A white cat with ice-blue eyes fights in a chaotic storm-torn back alley, a smal
 
 ## 圖64：「集體潛意識之城」（Collective Unconscious City）
 
-**建議輸出文件名**：`ConceptArt_Scene_CollectiveUnconscious_Storm.png`
+**建議輸出文件名**：`ConceptArt_Scene_64_CollectiveUnconscious_Storm.png`
 
 ### 劇情背景
 
@@ -3671,7 +3671,7 @@ Canvas: Widescreen to emphasize landscape scope
 
 ## 圖65：「紙皮騎士防禦」（Cardboard Knight Defense）
 
-**建議輸出文件名**：`ConceptArt_Scene_CardboardKnight_Defense.png`
+**建議輸出文件名**：`ConceptArt_Scene_65_CardboardKnight_Defense.png`
 
 ### 劇情背景
 
@@ -3702,7 +3702,7 @@ Canvas: 3:4 portrait ratio
 
 ## 圖66：「困獸的慈悲——朔見証之夜」（Trapped Beast's Mercy: Saku's Witness Night）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_WitnessNight.png`
+**建議輸出文件名**：`ConceptArt_Scene_66_Saku_WitnessNight.png`
 
 ### 劇情背景
 
@@ -3761,7 +3761,7 @@ A girl kneeling in a damp sewer tunnel, her left arm transformed into a black cl
 
 ## 圖67：「紫音下水道野獸化」（Shion's Sewer Beastification）[ACT_II] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_67.png`
+**建議輸出文件名**：`ConceptArt_Scene_67_67.png`
 
 ### 劇情背景
 
@@ -3814,7 +3814,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖68：「無名男孩速寫簿」（The Anonymous Boy's Sketchbook）[ACT_II_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_SketchbookRevelation.png`
+**建議輸出文件名**：`ConceptArt_Scene_68_Misao_SketchbookRevelation.png`
 ### 劇情背景
 
 `[時間已修正 2026-07-17]` 原文標「Act II末至Act III初」有誤——依 `04_timeline_canon.md` §event-nameless-boy-death 及 `ACT_II_OUTLINE.md` Beat E-13（CDL-145，行644），無名男孩之死明確屬 **Act II Phase E（英雄の刑場），113年11月-114年1月，具體114年1月**，非跨Act II/III邊界事件。操此前於 Act I 隊伍日常期間（CDL-146）與一個普通男孩建立了她人生中第一段「非功效主義」的關係——不是有目標的連結，只是存在。男孩於 E-13（114年1月）死去，操在遺物中發現速寫簿（CDL-143/145；`ayakomoji_misao.md` §無名男孩與速寫簿）。速寫簿記錄的全是操「以為沒人看到」的不完美時刻——歪著頭看書、睡著、說了讓自己尷尬的話之後的表情。配上那句旁注，這是操「永遠之罪」誕生的時刻（P-C02 Plant），也是她後來 Act III Day13 選擇接受自身不完美的三層動機之一（CDL-148/300：紗夜之死+無名男孩之死+母親靈魂碎片重逢）。
@@ -3868,7 +3868,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ## 圖69：「光幕濾鏡破碎」（Light Veil Shatters）
 
-**建議輸出文件名**：`ConceptArt_Scene_LightVeil_Shattered.png`
+**建議輸出文件名**：`ConceptArt_Scene_69_LightVeil_Shattered.png`
 
 ### 劇情背景
 
@@ -3899,7 +3899,7 @@ Canvas: 16:9 portrait
 
 ## 圖70：「操與紗夜最後一晨」（Misao and Sayo's Last Morning）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_Sayo_LastMorning.png`
+**建議輸出文件名**：`ConceptArt_Scene_70_Misao_Sayo_LastMorning.png`
 
 ### 劇情背景
 
@@ -4029,7 +4029,7 @@ Dark anime. Private space, deep night. Akiho alone — laboratory cold light or 
 
 `[RENAMED — 2026-07-17]` 原標題「鏡像處刑室」棄用：此術語目前屬於 `ACT_II_OUTLINE.md`（CDL-317/CDL-335）美夜子 E-06 一度規劃使用嘅陷阱局名稱（⚠️ 2026-07-15 CDL-335 已將該陷阱局設計整個取消簡化，術語現時喺 canon 內其實冇任何 beat 在正式使用；但為避免歷史歧義/未來重新引用時撞名，操的場景仍改用新命名）。詳見 `CHANGE_LIST_EXISTING_SPEC.md` 圖72項。
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_MirrorMonologue.png`（原檔名 `ConceptArt_Scene_Misao_MirrorChamber.png` 建議棄用）
+**建議輸出文件名**：`ConceptArt_Scene_72_Misao_MirrorMonologue.png`（原檔名 `ConceptArt_Scene_Misao_MirrorChamber.png` 建議棄用）
 **依據版本**：`ayakomoji_misao.md` §Body Horror 傀儡絲線縫牙分層設計（CDL-233 Stage 2a）、§鏡中層 Shadow Passion；CDL-231/232（紗夜遺言延遲呈現機制）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖72項）
 
 ### 劇情背景
@@ -4076,12 +4076,12 @@ Canvas: 1:1 square (mirrors) or 3:4 portrait
 
 ## 圖73：「廢棄糖果工廠」（朱音 / Abandoned Candy Factory）
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_CandyFactory.png`
+**建議輸出文件名**：`ConceptArt_Scene_73_Akane_CandyFactory.png`
 **依據版本**：`05_story_outline_canon.md` §Act II 關鍵節點1（CDL-236）、§英雄の刑場（CDL-237~242，E-12屍骸女王討伐）；`DIGEST_LOCATIONS.md` §2（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖73項）
 
 ### 劇情背景
 
-`[TIME_REVISED]` 原稿標「114年3月 Act III Phase G4」有誤——依 canon，紫音放逐後自立為屍骸首領（廢棄糖果工廠+糖果王座）同「三位一體辯論」（E-07b）發生喺 **Act II 113年5-6月**；「屍骸女王討伐」（E-12，三重癱瘓矩陣道德拷問，主角團主動攻入廢棄糖果工廠）亦屬 **Act II** 事件，唔係 Act III Phase G4——Phase G4 實際地點係下水道（現有圖91 `ConceptArt_Scene_SilentReunionSewers.png` 已覆蓋）。
+`[TIME_REVISED]` 原稿標「114年3月 Act III Phase G4」有誤——依 canon，紫音放逐後自立為屍骸首領（廢棄糖果工廠+糖果王座）同「三位一體辯論」（E-07b）發生喺 **Act II 113年5-6月**；「屍骸女王討伐」（E-12，三重癱瘓矩陣道德拷問，主角團主動攻入廢棄糖果工廠）亦屬 **Act II** 事件，唔係 Act III Phase G4——Phase G4 實際地點係下水道（現有圖91 `ConceptArt_Scene_91_SilentReunionSewers.png` 已覆蓋）。
 
 正確時間點：**Act II 113年5-6月**。紫音（方曉彤）在小光之死（E-07a）與三位一體辯論（E-07b）後被主角團放逐，在廢棄糖果工廠自立為屍骸首領，開始獨自生活。她的心理狀態進入屍骸女皇形態——魔法戰鬥作為精神毒品的依賴（CDL-051）與因弟弟誤食情緒結晶而死的罪惡感（akane.md §甜蜜的屍體）共同扭曲了她對「甜蜜」的認知。她把整座工廠改造成自己的腐爛王國，懷抱屍骸化的小光（Type B 廢鐵型）作為存在宣言，糖晶硬殼從身體外溢，成為對童年失落的極端紀念物。此場景亦是後續「屍骸女王討伐」（E-12）——主角團主動攻入、三重癱瘓矩陣道德拷問令晴香徹底失語崩潰撤退——嘅同一物理地點。此場景與 Day14 帝國廣場糖果山犧牲（圖115）為同一角色弧光嘅前後兩個階段，但物理地點不同，不可混同。
 
@@ -4121,7 +4121,7 @@ Canvas: 3:4 portrait ratio
 
 ## 圖74：「月下崩潰」（美夜子 / Moonlight Breakdown）
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_MoonlightBreakdown.png`
+**建議輸出文件名**：`ConceptArt_Scene_74_Miyako_MoonlightBreakdown.png`
 **依據版本**：`DIGEST_CHARACTER_STATES.md` MY-S3；`ACT_III_OUTLINE.md` Phase H1.5 月下崩潰（2026-07-17 修正 reference 檔名，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖74項）
 
 ### 劇情背景
@@ -4133,7 +4133,7 @@ Canvas: 3:4 portrait ratio
 美夜子曾經真正死過，被人拼接復活後以貓的形態存在，99%的靈魂深處充滿無法宣洩的恐懼與哀痛。在這個滿月的夜晚，她坐在破碎的窗台邊，強迫自己直視「我還算是一個人嗎」的問題——月光照亮她身上每一道傷口，讓她無處可藏。她既不完全是人，也不完全是貓，只是一個被囚禁在自己身體裡的倖存者，在臨界點上孤獨地搖晃。
 
 **Reference Images**：
-- 美夜子：`ConceptArt_Miyako_CasualWear.png`（原檔名 `ConceptArt_Scene_Miyako_MoonlightBreakdown.png` 不存在，已自動替換為現有檔案）
+- 美夜子：`ConceptArt_Miyako_CasualWear.png`（原檔名 `ConceptArt_Scene_74_Miyako_MoonlightBreakdown.png` 不存在，已自動替換為現有檔案）
 
 **Creative Enhancements**：
 - Broken window frame with jagged shattered glass reflecting moonlight
@@ -4180,7 +4180,7 @@ Canvas: 16:9 landscape; high definition
 
 ## 圖75：「Fallen Angel 街道」（晴香 / Fallen Angel Street）
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_FallenAngel.png`
+**建議輸出文件名**：`ConceptArt_Scene_75_Haruka_FallenAngel.png`
 **依據版本**：`ACT_II_OUTLINE.md` v0.11（CDL-317/CDL-335 changelog）；P-C06 彩「卡頓」plant（CDL-207）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖75項）
 
 ### 劇情背景
@@ -4227,7 +4227,7 @@ Canvas: Widescreen (16:9) to emphasize street depth
 
 ## 圖76：「凜的雙面形態」（Rin's Dual Forms）
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_DualForms.png`
+**建議輸出文件名**：`ConceptArt_Scene_76_Rin_DualForms.png`
 
 ### 劇情背景
 
@@ -4258,7 +4258,7 @@ Canvas: Widescreen (16:9) for side-by-side comparison
 
 ## 圖77：「朔的日夜對比」（Saku's Day-Night Duality）
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_DayNightDuality.png`
+**建議輸出文件名**：`ConceptArt_Scene_77_Saku_DayNightDuality.png`
 
 ### 劇情背景
 
@@ -4288,7 +4288,7 @@ Canvas: Widescreen or square
 
 ## 圖78：「操的形式主義廢墟」（Misao's Formalism Ruins）
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_FormalismRuins.png`
+**建議輸出文件名**：`ConceptArt_Scene_78_Misao_FormalismRuins.png`
 
 ### 劇情背景
 
@@ -4319,7 +4319,7 @@ Canvas: 3:4 portrait
 
 ## 圖79：「首次情緒連結危機」（First Emotion Link Crisis）
 
-**建議輸出文件名**：`ConceptArt_Scene_EmotionLink_Crisis.png`
+**建議輸出文件名**：`ConceptArt_Scene_79_EmotionLink_Crisis.png`
 
 ### 劇情背景
 
@@ -4354,7 +4354,7 @@ Canvas: Square or widescreen
 
 ## 圖80：「小光死亡與屍骸化」（Ko Hikaru's Death）
 
-**建議輸出文件名**：`ConceptArt_Scene_KoHikaru_Death.png`
+**建議輸出文件名**：`ConceptArt_Scene_80_KoHikaru_Death.png`
 
 ### 劇情背景
 
@@ -4386,7 +4386,7 @@ Canvas: 3:4 portrait or widescreen
 
 ## 圖81：「恐怖家家酒（學校）」（Horrific House Play）
 
-**建議輸出文件名**：`ConceptArt_Scene_HorrificHouse_School.png`
+**建議輸出文件名**：`ConceptArt_Scene_81_HorrificHouse_School.png`
 
 ### 劇情背景
 
@@ -4418,7 +4418,7 @@ Canvas: Widescreen to show full classroom space
 
 ## 圖82：「凜的人性消磨」（Rin's Humanity Erased）
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_HumanityErased.png`
+**建議輸出文件名**：`ConceptArt_Scene_82_Rin_HumanityErased.png`
 
 ### 劇情背景
 
@@ -4449,7 +4449,7 @@ Canvas: 3:4 portrait (ID photo style)
 
 ## 圖83：「朱音的背叛與真相」（Akane's Betrayal Truth）
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_BetrawalTruth.png`
+**建議輸出文件名**：`ConceptArt_Scene_83_Akane_BetrawalTruth.png`
 
 ### 劇情背景
 
@@ -4480,7 +4480,7 @@ Canvas: 3:4 portrait or widescreen alley view
 
 ## 圖84：「美夜子的三段式覺醒」（Miyako's Three-Stage Awakening）
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_ThreeStageAwakening.png`
+**建議輸出文件名**：`ConceptArt_Scene_84_Miyako_ThreeStageAwakening.png`
 
 ### 劇情背景
 
@@ -4511,7 +4511,7 @@ Canvas: Triptych or widescreen progression
 
 ## 圖85：「朔與黑市網絡」（Saku and the Black Market Network）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_BlackMarketNetwork.png`
+**建議輸出文件名**：`ConceptArt_Scene_85_Saku_BlackMarketNetwork.png`
 
 ### 劇情背景
 
@@ -4534,7 +4534,7 @@ Act II 期間，朔以雙面身份運作：白天是情緒管理局冷酷外勤�
 
 ## 圖86：「美夜子鏡像反映」（Miyako's Mirror Death）[MULTI_ACT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_MirrorDeathReflection.png`
+**建議輸出文件名**：`ConceptArt_Scene_86_Miyako_MirrorDeathReflection.png`
 ### 劇情背景
 
 `[TIME_REVISED 2026-07-17]` 原文將時間窗定為「Act II詛咒觸發後至Act III覺醒前」，但依 `miyako.md` §鏡像反映規格原文（見下）同 `DIGEST_CHARACTER_STATES.md` MY-S9，呢條鏡像規則係**避難所詛咒本身自帶嘅恆常背景規則**——美夜子貫穿 Act I 全程已處於詛咒穩定狀態（MY-S1），冇任何獨立「詛咒喺Act II先觸發」嘅事件；規則生效期應為**全程**（詛咒生效期間內恆常存在），劇情無明示解除點（`[NEEDS_FACT: 具體終止/解除時間點canon未落實]`），唔應窄化為「Act II後至Act III前」。美夜子在Alpha線已冰封死亡11年（Y92年冰封，Y103年靈魂碎片縫合復生，但Alpha線肉體的狀態以鏡像形式殘存）。任何反光面映照出的不是Beta線現在的美夜子，而是Alpha線11年冰封後的真實狀態（`miyako.md` §鏡像反映規格；CDL-282鏡像法則終極定義）。這是美夜子「已經死過、正在活著」的日常視覺化。
@@ -4647,7 +4647,7 @@ Dark anime. Magical girl combat scene. Girl with pale blue-tinted hair and dark 
 
 ## 圖88：「晴香與影子的雙舞」（Haruka and Shadow Dual Dance）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_ShadowDualDance.png`
+**建議輸出文件名**：`ConceptArt_Scene_88_Haruka_ShadowDualDance.png`
 **依據版本**：`12_philosophy_and_systems.md` §七 榮格個體化過程具現化系統（CDL-066）；`yu.md` §第二幕末：部分融合（CDL-069/070）（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖88項）
 
 ### 劇情背景
@@ -4674,7 +4674,7 @@ Dark anime. Magical girl combat scene. Girl with pale blue-tinted hair and dark 
 
 ## 圖89：「玻璃庭院茶會」（Glass Garden Tea Party）
 
-**建議輸出文件名**：`ConceptArt_Scene_GlassGarden_TeaParty.png`
+**建議輸出文件名**：`ConceptArt_Scene_89_GlassGarden_TeaParty.png`
 
 ### 劇情背景
 
@@ -4701,7 +4701,7 @@ Dark anime. Magical girl combat scene. Girl with pale blue-tinted hair and dark 
 
 ## 圖90：「糖果唐樓交易」（Candy Tower Block Transaction）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_CandyTowerBlockTransaction.png`
+**建議輸出文件名**：`ConceptArt_Scene_90_CandyTowerBlockTransaction.png`
 
 ### 劇情背景
 
@@ -4760,7 +4760,7 @@ anime interior Hong Kong old apartment room, baroque worn velvet chairs, dusty c
 
 ## 圖91：「下水道無聲重逢」（Silent Reunion in the Sewers）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_SilentReunionSewers.png`
+**建議輸出文件名**：`ConceptArt_Scene_91_SilentReunionSewers.png`
 
 ### 劇情背景
 
@@ -4884,7 +4884,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ## 圖93：「嘆息之橋——凜獨角」（Sigh Bridge: Rin's Solo Moment）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_SighBridgeSolo.png`
+**建議輸出文件名**：`ConceptArt_Scene_93_Rin_SighBridgeSolo.png`
 
 ### 劇情背景
 
@@ -5132,7 +5132,7 @@ Dark anime. Completely dark bathroom, only a thin crack of dim light from somewh
 
 ## 圖97：「凜的最終選擇——Unit 00-Null揭露」（Rin's Final Choice: Unit 00-Null Revelation）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_FinalChoiceUnit00.png`
+**建議輸出文件名**：`ConceptArt_Scene_97_Rin_FinalChoiceUnit00.png`
 
 ### 劇情背景
 
@@ -5197,7 +5197,7 @@ Two girls facing each other in a dim hallway. One extends her hand palm-up offer
 
 ## 圖98：「美夜子的貓殼復原」（Miyako's Cat Shell Recovery）
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_CatShellRecovery.png`
+**建議輸出文件名**：`ConceptArt_Scene_98_Miyako_CatShellRecovery.png`
 
 ### 劇情背景
 
@@ -5228,7 +5228,7 @@ Canvas: 3:4 portrait (mirror focus)
 
 ## 圖99：「操の被迫報串」（Misao's Forced Betrayal Report）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_ForcedBetrayalReport.png`
+**建議輸出文件名**：`ConceptArt_Scene_99_Misao_ForcedBetrayalReport.png`
 
 ### 劇情背景
 
@@ -5292,7 +5292,7 @@ anime girl standing alone before old communication device in dim room, hand hove
 
 ## 圖100：「公告夜（紫音作為處決目標）」（Announcement Night: Akane as Execution Target）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_AnnouncementNight_AkanePurgeTarget.png`
+**建議輸出文件名**：`ConceptArt_Scene_100_AnnouncementNight_AkanePurgeTarget.png`
 
 ### 劇情背景
 
@@ -5601,7 +5601,7 @@ the hands and faces.
 
 ## 圖105：「黑奏真身揭露」（Kurokane's True Form Revealed）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Kurokane_TrueFormRevealed.png`
+**建議輸出文件名**：`ConceptArt_Scene_105_Kurokane_TrueFormRevealed.png`
 
 ### 劇情背景
 
@@ -5660,7 +5660,7 @@ Dark fantasy anime. Empire plaza, battle prologue. Massive imperial robe deliber
 
 ## 圖106：「愛莉的第二次改變現實決定」（Aeri's Second Reality Alteration Decision）[ACT_III_J] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_106.png`
+**建議輸出文件名**：`ConceptArt_Scene_106_106.png`
 
 ### 劇情背景
 
@@ -5713,7 +5713,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖107：「彩的靈魂解放之光」（Aya's Soul Liberation Light）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_SoulLiberationLight.png`
+**建議輸出文件名**：`ConceptArt_Scene_107_Aya_SoulLiberationLight.png`
 
 ### 劇情背景
 
@@ -5736,7 +5736,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖108：「帝國廣場的市民凝滯」（Empire Plaza Citizens Frozen）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_CitizensFrozen.png`
+**建議輸出文件名**：`ConceptArt_Scene_108_EmpirePlaza_CitizensFrozen.png`
 **依據版本**：`02_glossary.md` §term-resonance-hell 情緒結算儀式；`99_decision_log.md`（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖108項）
 
 ### 劇情背景
@@ -5824,7 +5824,7 @@ Dark anime. Reality Override sequence. Girl with Haruka's appearance (light pink
 
 ## 圖110：「操在集體潛意識尋見母親碎片」（Misao Finds Sayo's Fragments in the Collective Unconscious）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_SayoFragments.png`
+**建議輸出文件名**：`ConceptArt_Scene_110_Misao_SayoFragments.png`
 ### 劇情背景
 
 `[時間已修正 2026-07-17]` 原文標「114年4-5月 Act III Phase H-I，半屍骸化邊界狀態」時序過於鬆散——依 `ayakomoji_misao.md` §集體潛意識母親靈魂碎片重逢（CDL-300）同 `ACT_III_OUTLINE.md` 行249（E-III-I1），此事件精確發生於 **114年5月，Day 13「鋼鐵獨舞」前夕（Act III E-III-I1 本身，非獨立的漫遊場景）**，屬「兩步式 Plant/Payoff 設計」：Plant 於 Act II E-11 愛莉風暴期間一閃即逝（操心之器連結線短暫震動，瞥見模糊母親殘影，唔搶焦點），完整 Payoff 正正在 Day 13 鋼鐵獨舞當刻。紗夜在Y113年7月中旬被帝國改造成情緒管理局公務員（圖52，操被遺棄），靈魂受損的碎片散入集體潛意識L2留存海。操半屍骸化令靈魂邊界溶解，母親碎片受燈塔信號吸引短暫聚攏（CDL-300；`ayakomoji_misao.md` §紗夜——唯一的無條件之愛）。改造後的肉體永遠給不出的那份東西——真實的、屬於她自己的愛與哀傷——只存在於這些碎片之中。**`[已知重複，待後續批次統一處理]`**：本場景與文件後段「圖122：媽媽從未停止愛我」（line 7176起）、「圖111：我選擇停留在我想停留的位置」（line 8369起）皆涉及同一 CDL-300 事件，三者內容需在對應批次審計時互相核對避免矛盾，本輪只修正本條目自身時序錯誤。
@@ -5945,7 +5945,7 @@ Dark anime. Dim interior corner, nighttime. Two figures face to face — Misao a
 
 ## 圖112：「鋼鐵獨舞」（操 / Steel Solitude Dance）
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_SteelSolitude.png`
+**建議輸出文件名**：`ConceptArt_Scene_112_Misao_SteelSolitude.png`
 **依據版本**：`05_story_outline_canon.md` 行232（CDL-231/232/233，event-steel-solo）；`ACT_III_OUTLINE.md` E-III-I1；`ayakomoji_misao.md` §Body Horror 分層設計（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖112項）
 
 ### 劇情背景
@@ -5992,7 +5992,7 @@ Canvas: 3:4 portrait ratio; high definition
 
 `[CONCEPT_REVISED — 2026-07-17]` 原標題「三武器揭露」及其「三種物理超能力同時顯現」概念已整段廢棄，改用 `ACT_III_OUTLINE.md` E-III-J2（CDL-266）現行設計「三重道德處刑」重寫，詳見 `CHANGE_LIST_EXISTING_SPEC.md` 圖113項。
 
-**建議輸出文件名**：`ConceptArt_Scene_BlackSong_MoralExecution.png`（原檔名 `ConceptArt_Scene_BlackSong_Revelation.png` 建議棄用，因概念已根本改變；若已生成圖檔請重新產出）
+**建議輸出文件名**：`ConceptArt_Scene_113_BlackSong_MoralExecution.png`（原檔名 `ConceptArt_Scene_BlackSong_Revelation.png` 建議棄用，因概念已根本改變；若已生成圖檔請重新產出）
 **依據版本**：`ACT_III_OUTLINE.md` E-III-J2（CDL-266）§黑奏三武器揭露序列；CDL-264（三武器序列確認）；CDL-244；CDL-259；P-C11（晨間斷層原罪）
 
 ### 劇情背景
@@ -6046,7 +6046,7 @@ Canvas: 3:4 portrait or 16:9 widescreen
 
 ## 圖114：「彩奪回身體」（彩 / Aya Regains Control）
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_BodyReclaim.png`
+**建議輸出文件名**：`ConceptArt_Scene_114_Aya_BodyReclaim.png`
 
 ### 劇情背景
 
@@ -6089,7 +6089,7 @@ Canvas: 3:4 portrait with sky visible above
 
 ## 圖115：「糖果山犧牲」（朱音 / Candy Mountain Sacrifice）
 
-**建議輸出文件名**：`ConceptArt_Scene_Akane_CandyMountain.png`
+**建議輸出文件名**：`ConceptArt_Scene_115_Akane_CandyMountain.png`
 **依據版本**：`ACT_III_OUTLINE.md` E-III-I3（CDL-218）；`DIGEST_LOCATIONS.md` §1/§13（2026-07-17 修正地點，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖115項）
 
 ### 劇情背景
@@ -6137,7 +6137,7 @@ Canvas: 3:4 portrait or widescreen to show landscape
 
 ## 圖116：「帝國廣場決戰崩塌」（Empire Plaza Collapse）
 
-**建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_Collapse.png`
+**建議輸出文件名**：`ConceptArt_Scene_116_EmpirePlaza_Collapse.png`
 
 ### 劇情背景
 
@@ -6169,7 +6169,7 @@ Canvas: Widescreen to show epic scale
 
 ## 圖117：「黑奏的帝國寶座」（Kuroshio's Empire Throne）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_BlackSong_EmpireThrone.png`
+**建議輸出文件名**：`ConceptArt_Scene_117_BlackSong_EmpireThrone.png`
 **依據版本**：`aya.md` §篡位——從保護者到獨裁者（CDL-076/305）（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖117項）
 
 ### 劇情背景
@@ -6195,7 +6195,7 @@ Canvas: Widescreen to show epic scale
 
 ## 圖118：「集體潛意識的淤泥深海」（Collective Unconscious Muddy Deep）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_CollectiveUnconscious_MuddyDeep.png`
+**建議輸出文件名**：`ConceptArt_Scene_118_CollectiveUnconscious_MuddyDeep.png`
 **依據版本**：`02_glossary.md` §term-collective-unconscious（CF-T13三層結構）；`DIGEST_LOCATIONS.md` §16（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖118項）
 
 ### 劇情背景
@@ -6223,7 +6223,7 @@ Canvas: Widescreen to show epic scale
 
 ## 圖119：「朔的雙刃生存」（Saku's Double-Edged Survival）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Saku_DoubleEdgedSurvival.png`
+**建議輸出文件名**：`ConceptArt_Scene_119_Saku_DoubleEdgedSurvival.png`
 
 ### 劇情背景
 
@@ -6246,7 +6246,7 @@ Canvas: Widescreen to show epic scale
 
 ## 圖120：「彩在心房中摸熊公仔」（Aya Touches the Teddy Bear in Her Heart Chamber）[ACT_III]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_TeddyBear_HeartChamber.png`
+**建議輸出文件名**：`ConceptArt_Scene_120_Aya_TeddyBear_HeartChamber.png`
 
 ### 劇情背景
 
@@ -6451,7 +6451,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖124：「彩的永恆輪迴開始」（Aya's Eternal Loop Begins）[ACT_III_IV] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_124.png`
+**建議輸出文件名**：`ConceptArt_Scene_124_124.png`
 
 ### 劇情背景
 
@@ -6636,7 +6636,7 @@ Dark anime. Collective unconscious deepest layer — timeless suspended space, n
 
 ## 圖127：「蜜月困境——K期靈魂監獄」（Honeymoon Trap: Phase K Soul Prison）[ACT_IV — 暫定草稿，非Act III正式範圍]
 
-**建議輸出文件名**：`ConceptArt_Scene_PhaseK_SoulPrisonKitchen.png`
+**建議輸出文件名**：`ConceptArt_Scene_127_PhaseK_SoulPrisonKitchen.png`
 
 ### 劇情背景
 
@@ -6698,7 +6698,7 @@ anime girl sitting at ordinary kitchen table eating breakfast in warm morning li
 
 ## 圖128：「屍骸覺醒——L4」（Corpse Awakening: L4 Phase）[ACT_IV — 暫定草稿，非Act III正式範圍]
 
-**建議輸出文件名**：`ConceptArt_Scene_CorpseAwakening_L4.png`
+**建議輸出文件名**：`ConceptArt_Scene_128_CorpseAwakening_L4.png`
 
 ### 劇情背景
 
@@ -6763,7 +6763,7 @@ anime wide shot city crowd of standing still people with void white eyes, scatte
 
 ## 圖129：「膠布哲學第四層——覺醒後撕膠布」（Bandage Philosophy Layer 4: After Awakening）[ACT_IV]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_BandageFinalLayer.png`
+**建議輸出文件名**：`ConceptArt_Scene_129_Haruka_BandageFinalLayer.png`
 ### 劇情背景
 
 `[CDL引用已修正 2026-07-17]` 原文引用「CDL-088」錯誤——CDL-088 實際係「膠布哲學第一層種植」（Act I 桐生健場景，`haruka.md` 行139），同本場景（撕膠布終局）完全唔係同一件事，屬張冠李戴。正確引用為 **CDL-269**（`ACT_III_OUTLINE.md` E-III-L3「膠布拆下（終極抉擇）」，行670-674）。**`[NEEDS_FACT/時序注意]`**：E-III-L3 屬 Act III Phase L，而 Phase K/L 已於 2026-07-05 被移出 Act III 正式範圍（見圖127/128 已知問題，此為同一批次影響延伸），本場景嘅具體 Act 歸屬（Act III 尾聲 vs Act IV 開場）待 Act IV Outline 正式化後確認；「134年7月」呢個具體日期 canon 未見明確落實，標記為`[INFERRED]`。膠布哲學貫穿全片三層（`TEMP_FULL_STORY_OUTLINE.md`）：Layer 1是個人傷口遮蓋（CDL-088），Layer 2是系統隱喻，Layer 3是存在論詰問（Act III J4 膠布哲學第三層揭露）；第四層（CDL-269）是親手撕開——第一次承認這份痛是屬於自己的。這是晴香弧光的最終完成。核心台詞canon原文：「好痛。但係依份痛係我自己既。」
@@ -6824,7 +6824,7 @@ Canvas: 9:16 --ar 9:16 --niji 6 --style raw
 
 ## 圖130：「夕5歲形態消散」（Yu's Five-Year-Old Form Fades）[ACT_IV] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_130.png`
+**建議輸出文件名**：`ConceptArt_Scene_130_130.png`
 
 ### 劇情背景
 
@@ -6946,7 +6946,7 @@ Canvas: 16:9 --ar 16:9 --niji 6
 
 ## 圖132：「秋穗與愛莉重逢」（Akiho and Aeri's Reunion）[ACT_IV] ⭐⭐⭐⭐
 
-**建議輸出文件名**：`ConceptArt_Scene_132.png`
+**建議輸出文件名**：`ConceptArt_Scene_132_132.png`
 
 ### 劇情背景
 
@@ -7002,7 +7002,7 @@ Canvas: 16:9 --ar 16:9 --niji 6 --style raw
 
 ## 圖133：「美夜子笨拙演奏（全片最後一幕）」（Miyako's Clumsy Playing: The Final Shot）[ACT_IV]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_ClumzyFinalShot.png`
+**建議輸出文件名**：`ConceptArt_Scene_133_Miyako_ClumzyFinalShot.png`
 
 ### 劇情背景
 
@@ -7060,7 +7060,7 @@ anime young woman sitting in ordinary lived-in room holding acoustic guitar with
 
 ## 圖134：「整合場景」（晴香 × 夕 / Integration Scene）
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_Integration.png`
+**建議輸出文件名**：`ConceptArt_Scene_134_Haruka_Integration.png`
 **依據版本**：`yu.md` §三級整合進程；`ACT_III_OUTLINE.md` 文末「移出 Act III scope — Act IV 草稿材料」附錄（行617-660，⚠️ 未經作者最終批核）（2026-07-17 修正，見 `CHANGE_LIST_EXISTING_SPEC.md` 圖134項）
 
 ### 劇情背景
@@ -7108,7 +7108,7 @@ Canvas: Wide aspect ratio (16:9) for duality
 
 ## 圖135：「三位一體永恆守護者終局」（Eternal Trinity Guardian Final）`[跨批次覆核修正 2026-07-17]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_TrinityGuardian.png`
+**建議輸出文件名**：`ConceptArt_Scene_135_Haruka_TrinityGuardian.png`
 **依據版本**：`haruka.md`§第四幕（CDL-326）（2026-07-17 跨批次覆核修正，見 CHANGE_LIST_EXISTING_SPEC.md「圖135/137 跨批次覆核修正」項）
 
 ### 劇情背景
@@ -7140,7 +7140,7 @@ Canvas: 3:4 portrait or square (world-forming)
 
 ## 圖136：「緋潮反噬」（Scarlet Tide Backlash）
 
-**建議輸出文件名**：`ConceptArt_Scene_ScarletTide_Backlash.png`
+**建議輸出文件名**：`ConceptArt_Scene_136_ScarletTide_Backlash.png`
 
 ### 劇情背景
 
@@ -7173,7 +7173,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖137：「晴香的融合抉擇瞬間」（Haruka's Fusion Choice Moment）[BEAT_SHEET_PREP] `[跨批次覆核修正 2026-07-17]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_FusionChoiceMoment.png`
+**建議輸出文件名**：`ConceptArt_Scene_137_Haruka_FusionChoiceMoment.png`
 **依據版本**：`haruka.md`§第四幕（CDL-326）；`12_philosophy_and_systems.md` §七（CDL-066）（2026-07-17 跨批次覆核修正，見 CHANGE_LIST_EXISTING_SPEC.md「圖135/137 跨批次覆核修正」項）
 
 ### 劇情背景
@@ -7199,7 +7199,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖138：「紙皮騎士的最後一擊」（Cardboard Knight's Last Stand）[BEAT_SHEET_PREP] `[NEEDS_FACT]`
 
-**建議輸出文件名**：`ConceptArt_Scene_CardboardKnight_LastStand.png`
+**建議輸出文件名**：`ConceptArt_Scene_138_CardboardKnight_LastStand.png`
 
 ### 劇情背景
 
@@ -7222,7 +7222,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖139：「靜止搖籃的粒子化進程」（Static Cradle Particularization Process）[BEAT_SHEET_PREP] `[SUPERSEDED_CONCEPT — 見下方說明]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_ParticularizationProcess.png`
+**建議輸出文件名**：`ConceptArt_Scene_139_Haruka_ParticularizationProcess.png`
 
 ### 劇情背景
 
@@ -7245,7 +7245,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖140：「美夜子的靈魂雙線」（Miyako's Soul Dual Line）[BEAT_SHEET_PREP] `[INFERRED]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_SoulDualLine.png`
+**建議輸出文件名**：`ConceptArt_Scene_140_Miyako_SoulDualLine.png`
 
 ### 劇情背景
 
@@ -7268,7 +7268,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖141：「新世界的搖籃曲」（Lullaby of the New World）[BEAT_SHEET_PREP] `[SUPERSEDED_CONCEPT — 見下方說明]`
 
-**建議輸出文件名**：`ConceptArt_Scene_NewWorld_LullabySong.png`
+**建議輸出文件名**：`ConceptArt_Scene_141_NewWorld_LullabySong.png`
 
 ### 劇情背景
 
@@ -7292,7 +7292,7 @@ Canvas: Widescreen to show cosmic scope
 
 ## 圖142：「美夜子終於哭出來」（Miyako Finally Cries）[ACT_IV]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_FinallyCries.png`（**已修正**：原檔名含西里爾字母「С」非標準英文「C」，屬複製貼上錯誤，已改正）
+**建議輸出文件名**：`ConceptArt_Scene_142_Miyako_FinallyCries.png`（**已修正**：原檔名含西里爾字母「С」非標準英文「C」，屬複製貼上錯誤，已改正）
 
 ### 劇情背景
 
@@ -7416,7 +7416,7 @@ Dark anime panoramic composition. Beta Line Solidification — time does not ful
 
 ## 圖144：「凜的孔雀之翼」（Rin's Peacock Wings）[BEAT_SHEET_PREP]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_PeacockWings.png`
+**建議輸出文件名**：`ConceptArt_Scene_144_Rin_PeacockWings.png`
 **依據版本**：`rin.md` §魔法少女形態一（孔雀/飛行員）；`DIGEST_CHARACTER_STATES.md` R-MG1（2026-07-17 審計修正，見 CHANGE_LIST_EXISTING_SPEC.md 圖144項）
 
 ### 劇情背景
@@ -7442,7 +7442,7 @@ R-MG1/R-MG2 兩種形態具體使用時機，依 `DIGEST_CHARACTER_STATES.md` �
 
 ## 圖145：「黑暗沖涼習慣」（美夜子 / Dark Shower Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_DarkShowerHabit.png`
+**建議輸出文件名**：`ConceptArt_Scene_145_Miyako_DarkShowerHabit.png`
 
 ### 劇情背景
 
@@ -7493,7 +7493,7 @@ Canvas: 3:4 portrait; intimate framing; high definition
 
 ## 圖146：「紅線強迫症」（凜 / Red Line Compulsion Habit）[PRIVATE_INTIMATE_MOMENT] `[核心視覺概念已修正]`
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_RedLineCompulsion.png`
+**建議輸出文件名**：`ConceptArt_Scene_146_Rin_RedLineCompulsion.png`
 
 ### 劇情背景
 
@@ -7534,7 +7534,7 @@ Canvas: 3:4 portrait focusing on hand-neck interface
 
 ## 圖147：「研磨凜的斷刃」（美夜子 / Grinding Rin's Broken Blade）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_GrindingBrokenBlade.png`
+**建議輸出文件名**：`ConceptArt_Scene_147_Miyako_GrindingBrokenBlade.png`
 
 ### 劇情背景
 
@@ -7575,7 +7575,7 @@ Canvas: 3:4 portrait or close-up focusing on hand-blade-sparks interaction
 
 ## 圖148：「半首旋律停頓」（凜 / Phantom Melody Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_PhantomMelodyHabit.png`
+**建議輸出文件名**：`ConceptArt_Scene_148_Rin_PhantomMelodyHabit.png`
 
 ### 劇情背景
 
@@ -7616,7 +7616,7 @@ Canvas: 3:4 portrait; intimate psychological focus
 
 ## 圖149：「強迫清洗儀式」（操 / Compulsive Washing Ritual）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_CompulsiveWashingRitual.png`
+**建議輸出文件名**：`ConceptArt_Scene_149_Misao_CompulsiveWashingRitual.png`
 
 ### 劇情背景
 
@@ -7659,7 +7659,7 @@ Canvas: 3:4 portrait or wider to include bathroom installation; intimate and cli
 
 ## 圖150：「透明物執著」（晴香 / Transparency Obsession Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_TransparencyObsession.png`
+**建議輸出文件名**：`ConceptArt_Scene_150_Haruka_TransparencyObsession.png`
 
 ### 劇情背景
 
@@ -7722,7 +7722,7 @@ and the objects of their focus.
 
 ## 圖151：「睡前熱可可成癮」（晴香 / Hot Cocoa Ritual）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_HotCocoaRitual.png`
+**建議輸出文件名**：`ConceptArt_Scene_151_Haruka_HotCocoaRitual.png`
 
 ### 劇情背景
 
@@ -7787,7 +7787,7 @@ Atmosphere: introspective, habitual, seeking comfort through routine.
 
 ## 圖152：「嚼冰塊危機」（晴香 / Crisis Ice Chewing）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_CrisisIceChewing.png`
+**建議輸出文件名**：`ConceptArt_Scene_152_Haruka_CrisisIceChewing.png`
 
 ### 劇情背景
 
@@ -7854,7 +7854,7 @@ without explicit harm depiction.
 
 ## 圖153：「破弦自傷」（晴香 / Broken Guitar String Self-Harm）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Haruka_BrokenGuitarStringSelfHarm.png`
+**建議輸出文件名**：`ConceptArt_Scene_153_Haruka_BrokenGuitarStringSelfHarm.png`
 
 ### 劇情背景
 
@@ -7920,7 +7920,7 @@ as records of internal suffering. Lighting is soft and focused.
 
 ## 圖154：「摺紙星星」（凜 / Paper Star Folding Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_PaperStarFolding.png`
+**建議輸出文件名**：`ConceptArt_Scene_154_Rin_PaperStarFolding.png`
 
 ### 劇情背景
 
@@ -7987,7 +7987,7 @@ Soft natural lighting creates depth through the layered stars.
 
 ## 圖155：「石像前的懺悔」（秋穗 / Statue Confession Ritual）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akiho_StatueConfession.png`
+**建議輸出文件名**：`ConceptArt_Scene_155_Akiho_StatueConfession.png`
 
 ### 劇情背景
 
@@ -8057,7 +8057,7 @@ through communication with the sleeping figure.
 
 ## 圖156：「儀器掃描愛莉遺物」（秋穗 / Instrument Scanning Ritual）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Akiho_InstrumentScanningRitual.png`
+**建議輸出文件名**：`ConceptArt_Scene_156_Akiho_InstrumentScanningRitual.png`
 
 ### 劇情背景
 
@@ -8134,7 +8134,7 @@ between emotional content and rational process.
 
 ## 圖157：「病態無痕修補」（操 / Compulsive Seamless Mending Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Misao_SeamlessMendingHabit.png`
+**建議輸出文件名**：`ConceptArt_Scene_157_Misao_SeamlessMendingHabit.png`
 
 ### 劇情背景
 
@@ -8210,7 +8210,7 @@ at emotional repair or control.
 
 ## 圖158：「K房唱歌——雨天」（美夜子＋隊伍 / Karaoke Rain Song）[DAILY_WARMTH]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_KaraokeRainSong.png`
+**建議輸出文件名**：`ConceptArt_Scene_158_Miyako_KaraokeRainSong.png`
 
 > ⚠️ **CDL-330 修正（2026-07-14）**：本圖舊版「廢棄K房獨自尖叫唱到喉嚨流血」係本 spec 自行扭曲嘅版本，同 canon（miyako.md habit #11 / CDL-153 / `backup/screenwriter/10_Girl_Daily_Social_Interaction_Setting.md` §4.1 / 00_Story_Brief.html）不符，作者確認流血版唔存在，已按 canon 重寫。
 
@@ -8276,7 +8276,7 @@ heartfelt performance about loss.
 
 ## 圖159：「長泳窒息習慣」（美夜子 / Drowning Swim Habit）[PRIVATE_INTIMATE_MOMENT]
 
-**建議輸出文件名**：`ConceptArt_Scene_Miyako_DrowningSwimHabit.png`
+**建議輸出文件名**：`ConceptArt_Scene_159_Miyako_DrowningSwimHabit.png`
 
 ### 劇情背景
 
@@ -8364,7 +8364,7 @@ seeking escape while maintaining connection to life.
 
 ## 圖160：「凜不自知摺星星（美夜子目擊）」（Rin Folds Stars Without Knowing, Miyako Watches）[ACT_II]
 
-**建議輸出文件名**：`ConceptArt_Scene_Rin_FoldingStars_MiyakoWatches.png`
+**建議輸出文件名**：`ConceptArt_Scene_160_Rin_FoldingStars_MiyakoWatches.png`
 
 ### 劇情背景
 
@@ -8431,7 +8431,7 @@ Young woman sitting alone at night, blank vacant expression, her hands moving at
 
 ## 圖161：「維多利亞之淚：人造太陽剖面圖」（Victoria's Tear: Artificial Sun Cross-Section）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_VictoriasTear_CrossSection.png`
+**建議輸出文件名**：`ConceptArt_Scene_161_VictoriasTear_CrossSection.png`
 
 ### 劇情背景
 
@@ -8489,7 +8489,7 @@ A massive artificial sun floating above a dystopian city, cross-section view rev
 
 ## 圖162：「集體潛意識空間：後巷過渡狀態」（Collective Unconscious: Back Alley Transition）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_CollectiveUnconscious_BackAlleyTransition.png`
+**建議輸出文件名**：`ConceptArt_Scene_162_CollectiveUnconscious_BackAlleyTransition.png`
 ### 劇情背景
 
 集體潛意識是故事世界中靈魂存在的底層維度，由億萬個靈魂的共同意志具現化而成（CDL-248，唯識宇宙第一公理）。屍骸化後意識碎片的去向、超自然戰場的本質、夜區某些特定場所成為臨界入口的世界規則，都在這個設定中得到物理解釋。集體潛意識空間在Act II E-11首次成為戰場，並貫穿Act III決戰——主角必須進入這個空間尋找靈魂碎片、對抗黑奏的集體共鳴地獄計畫。01_world_rules §集體潛意識。
@@ -8546,7 +8546,7 @@ A dark urban back alley in a dystopian city at night, one brick wall partially d
 
 ## 圖163：「心防內化裝置：製造過程」（Trauma Cage: Manufacturing Process）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_TraumaCage_Manufacturing.png`
+**建議輸出文件名**：`ConceptArt_Scene_163_TraumaCage_Manufacturing.png`
 ### 劇情背景
 
 `[已修正 2026-07-17]` 原文將本裝置錯誤關聯到「凜」，屬角色/系統張冠李戴——依 `rin.md`（§身份、§被重組）明確記載，凜係**黑奏借維多利亞之淚集體潛意識深層讀寫功能重組**為情緒管理局公務員（記憶被改寫），其核心創傷「感官剝奪」源自呢個重組過程，同心防內化裝置完全係兩套獨立機制，凜全篇canon都未見同 Trauma Cage 有任何關聯。心防內化裝置（Trauma Cage）依 `07_entities_and_devices.md §section-trauma-cage` 明確定位係軍方「人型兵器計劃 Phase 1」廢棄後，針對 **The Unlinked（解離兵器——不在晴香五歲願望護甲範圍內、心之器結構性毀滅的普通少女）** 研發嘅第三代強制改造硬件，唔係用於凜呢類主角團成員（主角團因 Alpha 線因果牽連而有「護甲」保護，唔會被心防內化裝置處理）。
@@ -8605,7 +8605,7 @@ Three-panel sequence in a sterile white medical facility. Panel 1: person lying 
 
 ## 圖164：「情緒管理局：局內辦公空間」（Emotion Management Bureau: Interior）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_EMB_OfficeInterior.png`
+**建議輸出文件名**：`ConceptArt_Scene_164_EMB_OfficeInterior.png`
 ### 劇情背景
 
 情緒管理局（EMB）是帝國情緒監控與鎮壓的行政核心，表面是公務機構，實質是情緒農場收割體制的執行基地。凜在Y108犧牲後被黑奏重建、植入假記憶，成為EMB公務員——她的職位是帝國制度抹除個人記憶與身份的最直接體現（rin.md §公務員身份；CDL-154記憶狀態）。局內空間的設計美學是「壓迫感不來自恐怖，而來自完美的標準化」——這是制度暴力在視覺上的日常化呈現。
@@ -8662,7 +8662,7 @@ Vast open-plan government office in a dystopian empire. Pure white and cold grey
 
 ## 圖165：「靈樹：平時狀態」（Spirit Tree: Normal State）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_SpiritTree_NormalState.png`
+**建議輸出文件名**：`ConceptArt_Scene_165_SpiritTree_NormalState.png`
 ### 劇情背景
 
 靈樹是夜區的古老神聖節點，不屬於帝國管轄的獨立自然力量殘留，亦是帝國無法完全控制夜區的核心原因之一（02_glossary §spirit-tree；07_entities §靈樹）。靈樹在平時完全不顯現任何超自然力量——這種「沉默」本身是世界觀設定的一部分，也是視覺伏筆的核心：必須令觀眾在前期完全忽略它，才能在Act III靈樹作用的關鍵時刻產生最大衝擊。
@@ -8719,7 +8719,7 @@ A massive ancient tree in a dark urban valley at night in a dystopian city. Enor
 
 ## 圖166：「帝國廣場：常態」（Empire Plaza: Normal Day）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_EmpirePlaza_NormalDay.png`
+**建議輸出文件名**：`ConceptArt_Scene_166_EmpirePlaza_NormalDay.png`
 ### 劇情背景
 
 `[已修正 2026-07-17]` 原文配色「白色大理石+帝國藍」直接違反canon已確立的帝國皇室美學規格——依 `06_visual_bible.md §section-art-imperial`「帝國皇室（The Imperial Court）」表，核心概念為「黑暗的威權 & 停滯的奢華」，配色明確定義為「深淵黑（基底）+ 皇家金（刺繡）+ 紫水晶（點綴）」，並非白色+藍色；`DIGEST_LOCATIONS.md §1 帝國廣場`亦已預先標註帝國廣場適用同一套「黑+金主色調，深淵黑基底配皇家金刺繡與紫水晶點綴」規格。原文全篇（詳細描述/Midjourney prompt/替代版本）配色已同步修正。
@@ -8778,7 +8778,7 @@ A grand imperial plaza in a dystopian city on a bright day. Abyssal black and ro
 
 ## 圖167：「Emo-Visor Gen 3：日區市民集體成癮」（Emo-Visor Gen 3: Day District Citizens' Collective Addiction）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_EmoVisorGen3_DayDistrictAddiction.png`
+**建議輸出文件名**：`ConceptArt_Scene_167_EmoVisorGen3_DayDistrictAddiction.png`
 ### 劇情背景
 
 `[已修正 2026-07-17]` 原文完全遺漏 Gen 3 Emo-Visor 最核心嘅硬體機制：依 `02_glossary.md §term-emo-visor` 同 `07_entities_and_devices.md §section-emo-visor`（Gen 3小節），裝置實際使用「安普膠囊（透明子彈狀發光彈夾）」作消耗品，一支膠囊只維持 **30 分鐘**，效力過後使用者會「突然跌回殘酷現實」——呢個「必須不斷補充膠囊、用完即墜落」嘅成癮循環，正正係「Emo-Visor Gen 3：集體成癮」呢個標題想表達嘅核心視覺重點，原文卻只畫咗一個靜態、持續佩戴嘅頭戴裝置，完全冇畫出膠囊消耗品同崩潰週期，令「成癮」主題失去咗最重要嘅物件錨點。已補上膠囊細節同暗示落差感嘅視覺線索。
@@ -8841,7 +8841,7 @@ A bright café in a dystopian city where every customer wears matching semi-tran
 
 ## 圖168：「屍骸化：心之器燃盡時刻」（Magical Corpse: The Moment the Soul Vessel Burns Out）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_MagicalCorpse_SoulVesselBurnout.png`
+**建議輸出文件名**：`ConceptArt_Scene_168_MagicalCorpse_SoulVesselBurnout.png`
 ### 劇情背景
 
 `[已修正 2026-07-17，核心機制方向錯誤]` 原文核心視覺前提（「人失去意識主體」「靈魂已經不在了」「有眼睛但沒有人在後面」）依 `01_world_rules_and_costs.md §rule-corpseification`（CDL-271）已被明確取代——canon 舊描述（靈魂已離體、新軀殼填入）已作廢，現行機制係「**靈魂困禁**」：屍骸化不是靈魂永久離體，而是靈魂因執念被困肉體，仍以 1% 控制力對抗 99% 情緒廢料，「屍骸是被困在地獄中的靈魂，不是無意識的空殼」。canon 明確容許嘅唯一「靈魂完全離開、肉體變無主容器」情況（§corpseification「靈魂距離光譜」段），前提係當事人「執念不足／全無執念」——但呢個 spec 嘅後續 payoff 明確指向 SPEC#22 小光屍骸化，而小光屍骸化嘅執念錨點正正係紫音（canon §corpseification 例子直接點名「小光想起紫音」），即小光屬於「有執念錨點」嘅困禁案例，唔係「靈魂完全離開」嘅無主容器案例。故本場景作為「屍骸化」通用視覺語言基礎，核心視覺必須改為「靈魂被困、微弱掙扎」，而非「靈魂已經消失」。原文全篇（詳細描述/Midjourney prompt/替代版本）已同步修正。
@@ -8906,7 +8906,7 @@ A woman in an ordinary supermarket reaching for items on a shelf. At her sternum
 
 ## 圖169：「彩的心房：通風管道永恆空間」（Aya's Heart Chamber: Eternal Ventilation Space）[WORLD_BUILDING]
 
-**建議輸出文件名**：`ConceptArt_Scene_Aya_HeartChamber_VentilationEternal.png`
+**建議輸出文件名**：`ConceptArt_Scene_169_Aya_HeartChamber_VentilationEternal.png`
 ### 劇情背景
 
 `[已修正 2026-07-17]` 原文 Reference Image 用 `ConceptArt_Aya_CasualWear.png`（彩學生偽裝/便服形態，屬黑奏操控下嘅少女外觀）套用喺一個「非常小的女孩」（6歲真身）身上——同批次11圖120已確認嘅同類錯誤（彩/黑奏真身vs偽裝形態混淆）同一模式，已修正為 `[NO_REF]`。另外原文將呢個空間定調為「美麗與囚禁同在」「如夢似幻」，但依 `aya.md`（§葉語彩）明文，彩嘅心房「被黑奏重構為一個永遠停留在通風管道那夜的空間——**黑暗、狹窄、充滿螢的血腥氣味**」——呢個係一個創傷重演空間，唔係一個客觀上美麗嘅囚牢；已補回呢層核心基調，情緒結晶苔嘅視覺點綴（沿用批次11圖120已接受嘅 `[INFERRED]` 演繹）保留但降低「夢幻」比重，強化「創傷現場」定性。
