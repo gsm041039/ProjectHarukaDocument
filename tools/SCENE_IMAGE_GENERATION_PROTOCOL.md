@@ -522,6 +522,30 @@ FAILED
 
 禁止直接 click 隱藏嘅 `input[type=file]`。
 
+#### 5.2.1 Homepage chooser 壞 tab 即棄規則（2026-07-23 實戰定案）
+
+首頁 upload path 有一種常見壞態：
+
+- `+` menu 開到
+- `從電腦上載` 睇到
+- DOM 入面亦見到 hidden `input[type=file]`
+- 但一按 upload，`filechooser` 永遠唔觸發
+
+呢種情況**唔應該繼續喺同一個首頁 tab 深挖**。正確處理係：
+
+1. 判定為 `BROKEN_HOMEPAGE_UPLOAD_TAB`
+2. 立即 abandon 該 tab
+3. 為同一 scene 開一個全新 fresh tab
+4. 重新走已驗證成功 upload route
+
+禁止做法：
+
+- 喺同一個壞 homepage tab 反覆開關 `+` menu
+- 反覆試 click hidden input
+- 喺同一個壞 tab 做多輪 chooser debug
+
+實戰上，**brand-new tab 嘅成功率高過原地修 tab**；預設應直接重開，唔好浪費 token 同操作次數。
+
 #### 5.3 Upload 完成判定
 
 `setFiles` 成功唔等於 upload 完成。必須等 UI 入面出現預期附件數量／縮圖，並確認：
@@ -669,6 +693,37 @@ for each active scene:
 
 呢個做法比起對每個 generating tab 密集 snapshot，token 會低好多。
 
+#### 8.1.1.1 Generated image download target fallback 次序
+
+生成完成後，generated image 嘅 `alt` 並唔穩定；可能見到：
+
+- `生成圖像：...`
+- `已產生圖像`
+- 空 `alt`，但實際上有一張新嘅大圖已經 load 完
+
+所以 download target 唔可以只靠單一 `alt` 值。預設 fallback 次序應為：
+
+1. 優先搵最新一張 `alt^="生成圖像："` 且 `naturalWidth > 0` 嘅大圖
+2. 如無，再搵最新一張 `alt="已產生圖像"` 且 `naturalWidth > 0` 嘅大圖
+3. 如仍無，再用「最後一張已載入、非 reference thumbnail、尺寸明顯較大」嘅 generated image element
+
+換言之，**download selector 係多層 fallback 規則，唔係單 selector**。
+
+#### 8.1.1.2 `預覽` / `Mapped characters to settings` 只屬中間態
+
+見到以下訊號時，**只可以判定為 `POST_SEND_INTERMEDIATE`，唔可以判定 `RESULT_READY`**：
+
+- `預覽`
+- `Mapped characters to settings`
+- conversation title 已更新
+- 頁面已有 message/result 容器，但未見實際 loaded generated image
+
+真正 `RESULT_READY` 仍然必須同時滿足：
+
+1. generated image element 已存在
+2. `naturalWidth > 0`
+3. generating UI 已消失，或頁面已有明確完成態
+
 #### 8.1.2 DOM-first / low-token 執行規則（2026-07-23 定案）
 
 以下規則屬於預設低 token workflow，後續 batch 應直接跟：
@@ -692,6 +747,7 @@ for each active scene:
      - `從電腦上載`
      - upload refs
    - 只有 upload chooser 冇彈出，先讀 menu DOM / input state 做 fallback
+   - 如果確認屬於 `BROKEN_HOMEPAGE_UPLOAD_TAB`，**直接開新 tab 重做**，唔好喺同一 tab 做多輪 debug
 
 3. **每個 generating tab 自己有 `next_check_at`**
    - 唔做 global full sweep
@@ -715,6 +771,7 @@ for each active scene:
      - `generating=true/false`
      - `generated_image_found=true/false`
      - `naturalWidth`
+   - `預覽` / `Mapped characters to settings` / title update 只記做中間態，唔升格做 ready
 
 5. **download 後默認唔做人眼 QA**
    - 預設流程：
@@ -751,7 +808,41 @@ for each active scene:
    - 之後 batch 預設先走呢條固定 path
    - 只有失敗先進入現場分析 / DOM 深挖
 
-8. **最少 token batch 原則**
+8. **generated image selector 要容忍 alt 漂移**
+   - download 前優先用 DOM 判斷：
+     - 最新 `生成圖像：...`
+     - 次選 `已產生圖像`
+     - 再次選「最後一張已 loaded 嘅大圖」
+   - 唔可以寫死成只接受單一 alt 值
+
+9. **`圖片生成失敗` 先用頁內 `重試`**
+   - 如果頁面明確出現：
+     - `圖片生成失敗`
+     - 同場可見 `重試`
+   - 預設流程係：
+     1. click 頁內 `重試`
+     2. 等 8–15 秒
+     3. 再走最小 poll
+   - 只有 retry 後仍失敗，先升級為 scene resend / brand-new tab recovery
+
+10. **scene-level recovery 次序固定**
+   - upload chooser 壞 → brand-new tab
+   - send 後中間態未完成 → 繼續低頻 poll
+   - 明確 `圖片生成失敗` → 先頁內 retry
+   - retry 都唔得 → 同 scene brand-new tab resend
+   - 禁止一開始就做最重 recovery
+
+11. **title 只係弱訊號**
+   - `New chat` 唔代表失敗
+   - title 漂移去其他摘要亦唔代表 scene 對錯
+   - scene 身份應以：
+     - route
+     - output filename
+     - generated image 結果
+     - download/copy 寫回紀錄
+     做最終對位
+
+12. **最少 token batch 原則**
    - 預設：
      - 不重讀 protocol
      - 不重印大段 source
