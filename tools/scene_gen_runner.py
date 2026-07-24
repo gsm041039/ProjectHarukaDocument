@@ -23,7 +23,7 @@ OUTPUT_FILENAME_RE = re.compile(
     r"\*\*建議輸出文件名\*\*：\s*`(?P<filename>[^`]+)`"
 )
 REFERENCE_LINE_RE = re.compile(
-    r"^\s*-\s*(?P<label>[^：:]+)\s*[：:]\s*`(?P<filename>[^`]+)`\s*$",
+    r"^\s*-\s*(?P<label>[^：:]+)\s*[：:]\s*`(?P<filename>[^`]+)`",
     re.MULTILINE,
 )
 
@@ -216,11 +216,21 @@ def write_json(path: Path, payload: dict) -> None:
 
 
 def emit_text(text: str) -> None:
+    # Write raw UTF-8 bytes directly so console codepage limitations never corrupt
+    # structured output (e.g. JSON) with a backslashreplace fallback — that fallback
+    # produces `\xNN` sequences that are not valid JSON escapes and break re-parsing.
+    buffer = getattr(sys.stdout, "buffer", None)
+    if buffer is not None:
+        try:
+            buffer.write((text + "\n").encode("utf-8"))
+            buffer.flush()
+            return
+        except Exception:
+            pass
     try:
         sys.stdout.write(text + "\n")
     except UnicodeEncodeError:
-        safe_text = text.encode("ascii", errors="backslashreplace").decode("ascii")
-        sys.stdout.write(safe_text + "\n")
+        sys.stdout.write(text.encode("utf-8", errors="replace").decode("utf-8") + "\n")
 
 
 def mark_scene_has_image(output_filename: str, notes: list[str]) -> None:
@@ -371,8 +381,27 @@ def extract_anime_template(protocol_text: str) -> str:
     return protocol_text[start + 3 : end].strip()
 
 
-def build_prompt(scene_block: str, template: str, scene_summary: str) -> str:
-    return f"{scene_block}\n\n{template.replace('[SCENE]', scene_summary)}".strip()
+def build_reference_mapping(references: list["ReferenceImage"]) -> str:
+    # Uploaded attachments carry no visible filename/label in the composer, so
+    # without this the model has no way to tell which uploaded image is which
+    # character — it has to guess. Index must match the exact upload order in
+    # _upload_references (same filtered, in-order list), or the mapping lies.
+    lines = [
+        f"圖{index} = {ref.label}（{ref.requested_filename}）"
+        for index, ref in enumerate(references, start=1)
+    ]
+    return "\n".join(lines)
+
+
+def build_prompt(
+    scene_block: str,
+    template: str,
+    scene_summary: str,
+    references: list["ReferenceImage"],
+) -> str:
+    mapping = build_reference_mapping(references)
+    mapping_block = f"【參考圖片對應】\n{mapping}\n\n" if mapping else ""
+    return f"{mapping_block}{scene_block}\n\n{template.replace('[SCENE]', scene_summary)}".strip()
 
 
 def load_scene_spec(scene_number: int, source_text: str, protocol_text: str) -> SceneSpec:
@@ -383,6 +412,10 @@ def load_scene_spec(scene_number: int, source_text: str, protocol_text: str) -> 
 
     references: list[ReferenceImage] = []
     for label, filename in reference_lines:
+        if filename.strip().startswith("["):
+            # Intentional placeholder (e.g. `[NO_REF]`, `[NEEDS_FACT ...]`, `[INFERRED ...]`) —
+            # not a real file, nothing to upload, and must not block the scene from running.
+            continue
         resolved_path, notes = resolve_reference_path(filename)
         references.append(
             ReferenceImage(
@@ -412,7 +445,8 @@ def build_jobs(scene_numbers: Iterable[int]) -> list[SceneJob]:
     jobs: list[SceneJob] = []
     for scene_number in scene_numbers:
         spec = load_scene_spec(scene_number, source_text, protocol_text)
-        prompt = build_prompt(spec.scene_block, template, spec.scene_summary)
+        uploadable_refs = [ref for ref in spec.references if ref.resolved_path]
+        prompt = build_prompt(spec.scene_block, template, spec.scene_summary, uploadable_refs)
         jobs.append(
             SceneJob(
                 spec=spec,
@@ -967,36 +1001,115 @@ class ChatGPTImageAutomation:
 
         target.click()
 
+        # Hover over the enlarged image first: ChatGPT's media-viewer toolbar
+        # (download/save icon) is revealed only on pointer movement over the
+        # image in some UI variants, so a plain click-then-scan can miss it
+        # entirely even though the control exists in the DOM.
+        try:
+            page.mouse.move(400, 400)
+            page.wait_for_timeout(300)
+        except Exception:
+            pass
+
         download_button = None
         deadline = time.time() + 10
         while time.time() < deadline:
             download_button = first_visible_locator(page, DOWNLOAD_BUTTON_NAMES)
             if download_button is not None:
                 break
+            try:
+                page.mouse.move(500, 300)
+                page.mouse.move(500, 450)
+            except Exception:
+                pass
             page.wait_for_timeout(500)
-        if download_button is None:
-            raise SceneRunnerError("Download button not found")
 
-        with page.expect_download(timeout=20000) as download_info:
-            download_button.click()
-        download = download_info.value
-        suggested_name = download.suggested_filename
-        destination = self.downloads_dir / suggested_name
-        download.save_as(str(destination))
+        if download_button is not None:
+            with page.expect_download(timeout=20000) as download_info:
+                download_button.click()
+            download = download_info.value
+            suggested_name = download.suggested_filename
+            destination = self.downloads_dir / suggested_name
+            download.save_as(str(destination))
 
-        deadline = time.time() + 30
-        while time.time() < deadline:
-            current = {item.name for item in self.downloads_dir.glob("*")}
-            new_names = sorted(current - before)
-            if destination.exists():
-                return destination
-            if new_names:
-                candidate = self.downloads_dir / new_names[-1]
-                if candidate.exists() and candidate.suffix.lower() == ".png":
-                    return candidate
-            time.sleep(1)
+            deadline = time.time() + 30
+            while time.time() < deadline:
+                current = {item.name for item in self.downloads_dir.glob("*")}
+                new_names = sorted(current - before)
+                if destination.exists():
+                    return destination
+                if new_names:
+                    candidate = self.downloads_dir / new_names[-1]
+                    if candidate.exists() and candidate.suffix.lower() == ".png":
+                        return candidate
+                time.sleep(1)
 
-        raise SceneRunnerError("Downloaded file could not be verified")
+            raise SceneRunnerError("Downloaded file could not be verified")
+
+        # Fallback: no UI download control was ever found (icon-only control
+        # not exposed via role/aria-label, or hover-only rendering that the
+        # synthetic mouse events above didn't trigger). Bypass the UI entirely
+        # by reading the enlarged image's own src straight out of the DOM and
+        # fetching the bytes with the browser's authenticated request context
+        # — this needs no button at all and is immune to UI/label changes.
+        image_src = page.evaluate(
+            """
+            () => {
+              const imgs = Array.from(document.querySelectorAll('img'));
+              let best = null;
+              for (const img of imgs) {
+                if (img.naturalWidth >= 512 && (!best || img.naturalWidth > best.naturalWidth)) {
+                  best = img;
+                }
+              }
+              return best ? (best.currentSrc || best.src) : null;
+            }
+            """
+        )
+
+        if not image_src:
+            import os
+            debug_dir = os.environ.get("SCENE_RUNNER_DEBUG_DIR")
+            if debug_dir:
+                try:
+                    page.screenshot(path=os.path.join(debug_dir, "download_fail.png"), full_page=False)
+                    items = page.evaluate(
+                        """
+                        () => {
+                          const nodes = document.querySelectorAll('[role="button"], button, [aria-label]');
+                          const seen = new Set();
+                          const out = [];
+                          nodes.forEach(n => {
+                            const label = n.getAttribute('aria-label') || n.textContent || '';
+                            const t = label.trim();
+                            if (t && t.length < 60 && !seen.has(t)) { seen.add(t); out.push(t); }
+                          });
+                          return out;
+                        }
+                        """
+                    )
+                    with open(os.path.join(debug_dir, "download_fail_buttons.txt"), "w", encoding="utf-8") as f:
+                        for it in items:
+                            f.write(it + "\n")
+                except Exception:
+                    pass
+            raise SceneRunnerError("Download button not found and no image src available for fallback fetch")
+
+        response = page.context.request.get(image_src)
+        if not response.ok:
+            raise SceneRunnerError(
+                f"Fallback image fetch failed: HTTP {response.status} for {image_src[:120]}"
+            )
+        body = response.body()
+
+        suffix = ".png"
+        for ext in (".png", ".jpg", ".jpeg", ".webp"):
+            if ext in image_src.lower().split("?", 1)[0]:
+                suffix = ext
+                break
+        destination = self.downloads_dir / f"scene{job.spec.scene_number}_{int(time.time())}{suffix}"
+        destination.write_bytes(body)
+        return destination
 
     def _copy_to_repo(self, downloaded_path: Path, final_output_path: Path) -> Path:
         final_output_path.parent.mkdir(parents=True, exist_ok=True)

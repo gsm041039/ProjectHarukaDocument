@@ -11,7 +11,14 @@
       "WebSearch",
       "PowerShell(*)",
       "PowerShell(git -C D:\\\\Projects\\\\ProjectHarukaDocument status --short)",
-      "PowerShell(git -C D:\\\\Projects\\\\ProjectHarukaDocument diff --stat)"
+      "PowerShell(git -C D:\\\\Projects\\\\ProjectHarukaDocument diff --stat)",
+      "Bash(grep -E \"\\\\.\\(md|json|txt\\)$\")",
+      "Bash(awk '/^## 圖90:|^## 圖61:|^## 圖64:|^## 圖12:|^## 圖79:|^## 圖18:/,/^## 圖[0-9]/' \"d:\\\\Projects\\\\ProjectHarukaDocument\\\\IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md\")",
+      "Bash(python tools/scene_gen_runner.py --scenes 29-39 --dry-run)",
+      "Bash(python tools/scene_gen_runner.py run --help)",
+      "Bash(python tools/scene_gen_runner.py run 29-39 --dry-run)",
+      "Bash(python tools/scene_gen_runner.py run 29-39 --headless)",
+      "Bash(tee tmp/scene_gen_run.log)"
     ],
     "defaultMode": "auto"
   }
