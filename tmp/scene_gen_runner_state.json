@@ -1,395 +1,72 @@
 {
-  "updated_at": "2026-07-24 22:37:58",
+  "updated_at": "2026-07-25 22:34:19",
   "jobs": [
     {
       "spec": {
-        "scene_number": 29,
-        "title_line": "## 圖29：",
-        "output_filename": "ConceptArt_Scene_29_Akane_LollipopRecruitment.png",
-        "scene_summary": "`[已修正 2026-07-17]` 原文台詞「食粒糖先啦」為 CDL-052 原句嘅截斷版，canon完整台詞為「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」——已補全。地點原文「夜區街角」，canon（CDL-052）明確係「後巷」，已修正。「後續payoff」原文只點名Act III糖果山犧牲，但依`ACT_III_OUTLINE.md`（E-III-G4，行143）記載，珍寶珠意象嘅直接文本呼應係Phase G4「下水道無聲重逢」（晴香「留下一包糖與醫療物資，呼應入隊時的珍寶珠」），糖果山犧牲屬更後段嘅廣義情感收束，已補正確payoff鏈次序。 夜區後巷，潮濕青石板地面，路燈昏黃。朱音蜷縮在牆根，斷癮症狀讓她四肢痙攣、冷汗滲出，但她的脊背仍以某種荒謬的倔強保持弧度，像一隻試圖裝作不虛弱的受傷貓。晴香蹲在她前面，直視著她，表情認真、有點笨拙——她剝好一根珍寶珠的包裝紙，遞過去，說「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎。」朱音的手接過去那一刻，臉上是大腦當機的樣子——第一次有人對她做出毫無目的的善意，她算不出來。",
+        "scene_number": 158,
+        "title_line": "## 圖158：",
+        "output_filename": "ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
+        "scene_summary": "熱鬧的 K 房包廂裡，晴香等人圍坐，桌上堆滿飲料零食。美夜子（貓形態）站起身，全情投入地唱一首悲傷的情歌，聲音低沉乾淨、極具感染力。剛才還在鬧的隊友們瞬間被吸引，個個眼前一亮，深深被打動。在其他人眼中，這個沒有戀愛經驗的前輩，竟然能把地獄情歌唱得如此動人。",
         "references": [
-          {
-            "label": "朱音",
-            "requested_filename": "ConceptArt_Akane_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_MagicalGirl.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "晴香",
-            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_29_Akane_LollipopRecruitment.png",
-      "status": "failed",
-      "latest_url": null,
-      "tab_id": "2052511271472",
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 2,
-      "last_error": "Timeout 30000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-      "notes": [
-        "attempt 1 failed before generating: Timeout 30000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-        "attempt 2 failed before generating: Timeout 30000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================",
-        "failed to start: Timeout 30000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================"
-      ]
-    },
-    {
-      "spec": {
-        "scene_number": 30,
-        "title_line": "## 圖30：",
-        "output_filename": "ConceptArt_Scene_30_Misao_SkirtQuestion.png",
-        "scene_summary": "戰鬥收尾瞬間，剛擊退嘅巨爪屍骸仍在畫面邊緣倒下、碎石和焦痕遍布地面，戰鬥的煙塵未散。晴香回頭，滿身泥濘，臉頰和頭髮沾滿塵土與泥漬——她用自己的身體擋住了那一擊，沒有技術計算，就是直接站在前面。她看著操，神情認真，問出了讓操整個邏輯系統短路的問題：「好彩趕得切！妳條裙無整污糟呀嘛？」不是「你有無受傷」，不是「你能繼續打嗎」，是「你條裙」。操站在她身後，尚未反應，傲慢防線出現裂縫——不是被強大打動，而是被「她在乎的是我的裙」打動。",
-        "references": [
-          {
-            "label": "操",
-            "requested_filename": "ConceptArt_Misao_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png",
-            "exists": true,
-            "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png"
-            ]
-          },
-          {
-            "label": "晴香",
-            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_30_Misao_SkirtQuestion.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 31,
-        "title_line": "## 圖31：",
-        "output_filename": "ConceptArt_Scene_31_Akiho_LaboratoryConfession.png",
-        "scene_summary": "佈滿失敗儀器和積灰的秋穗實驗室（塔地底，無窗口），中央是愛莉的結晶石像——半透明橙紅色水晶質感（依 `aeri.md §石像形態`，非灰色石雕），雙手交疊安詳沉睡，姿態凍結，完全靜止。因為地底無陽光照射，石像此刻沒有canon描述嘅「陽光下暖橙光芒」，呈現冷卻嘅暗紅水晶色澤，但仍隱約可見內部緩慢搏動嘅橙紅色脈紋。秋穗跪在石像前，額頭輕輕抵著石像的手，說著說著聲音就消失了，只有口型在動。實驗室的儀器發出微弱的監測聲，溫度探針顯示：恆定冷卻，無反應。秋穗不站起來，只是跪著。窗戶沒有，時間感沒有，只有這個每天發生的循環。",
-        "references": [
-          {
-            "label": "秋穗（日常形態）",
-            "requested_filename": "ConceptArt_Akiho_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akiho\\ConceptArt_Akiho_CasualWear.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "愛莉石像",
-            "requested_filename": "ConceptArt_Aeri_CrystalStatue.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aeri\\ConceptArt_Aeri_CrystalStatue.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_31_Akiho_LaboratoryConfession.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 32,
-        "title_line": "## 圖32：",
-        "output_filename": "ConceptArt_Scene_32_HarukaMirrorIntegration.png",
-        "scene_summary": "晴香一個人站在黑暗的浴室或房間鏡前，快到疲憊的夜晚。她的手裡拿著一塊膠布，正準備把鏡子遮住——她習慣這樣做，把不想看見的東西蓋起來。但這一次，鏡子裡出現了一個五歲小女孩的輪廓，安靜地看著她。晴香最終沒有貼膠布，而是伸出手，掌心緩緩貼向玻璃，與鏡中那雙小手相對。這是她第一次沒有逃開。",
-        "references": [
-          {
-            "label": "晴香",
-            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_32_HarukaMirrorIntegration.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 33,
-        "title_line": "## 圖33：",
-        "output_filename": "ConceptArt_Scene_33_Miyako_FirstGlitch.png",
-        "scene_summary": "帝國歷113年5月，團隊戰鬥中，美夜子為保護隊友獨自硬扛一擊本應落在隊友身上的攻擊，傷勢惡化到極限的生理衝擊下，她的貓殼開始出現第一道裂縫。毛皮在零點五秒內從左肩開始碎裂，人形輪廓從裂縫透出，一隻人的手、她真實的臉局部短暫顯現，然後被強行壓回去。她受傷那一刻，手上正握著每日打磨、刻有凜名字的斷刃匕首——裂開特登發生在她握刀的瞬間，近乎鏡面反光的刀身把這次裂開放大映出，令人形殘影在刀面上格外清晰。那半秒，她的眼睛同時閃過貓的縱瞳和人的瞳孔形狀。她用盡全身的力量把自己壓回去，但那道裂縫出現過，就不算沒有出現過。",
-        "references": [
-          {
-            "label": "美夜子",
-            "requested_filename": "ConceptArt_Miyako_Cat.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_Cat.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_33_Miyako_FirstGlitch.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 34,
-        "title_line": "## 圖34：",
-        "output_filename": "ConceptArt_Scene_34_ShionCorpsificationMoment.png",
-        "scene_summary": "廢棄空間，小光死亡的現場。紫音跪在地上，周圍是散落的破碎物件。她的手在顫抖，但不是戒斷的抖——是另一種，更深的顫抖，那種「已經決定了什麼」的顫抖。她的眼睛定在某處，不是看著什麼，而是看穿了什麼。然後，就在那一秒，她的右臂開始出現屍骸化的紋路——不是驚恐的反應，而是一種奇異的、近乎平靜的讓步：身體終於得到了「放棄自我」的許可。她沒有哭，她早就哭不出來了。",
-        "references": [
-          {
-            "label": "紫音",
-            "requested_filename": "ConceptArt_Akane_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
-            "exists": true,
-            "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
-            ]
-          },
-          {
-            "label": "小光",
-            "requested_filename": "ConceptArt_Ko_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Ko\\ConceptArt_Ko_CasualWear.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_34_ShionCorpsificationMoment.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 35,
-        "title_line": "## 圖35：",
-        "output_filename": "ConceptArt_Scene_35_ShionFallDecision.png",
-        "scene_summary": "廢棄的空間（即將成為廢棄糖果工廠的地點，或類似的荒廢場所），紫音獨自一人，面前是小光已屍骸化後的殘骸——不再是完整的人形，但紫音仍然坐在其旁邊，或手放在上面。眼淚早已哭乾，表情是一種比憤怒更靜的東西：一個人想通了一件事，並且決定了。這個決定的瞬間不是崩潰，是選擇——一種主動的、清醒的、不可挽回的選擇。",
-        "references": [
-          {
-            "label": "紫音",
-            "requested_filename": "ConceptArt_Akane_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
-            "exists": true,
-            "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
-            ]
-          },
-          {
-            "label": "黑奏",
-            "requested_filename": "ConceptArt_Kurosou_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Kurosou_CasualWear.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "小光（屍骸殘骸）",
-            "requested_filename": "ConceptArt_MagicCorpse_Scrap_Action.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\MagicCorpse\\ConceptArt_MagicCorpse_Scrap_Action.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_35_ShionFallDecision.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 36,
-        "title_line": "## 圖36：",
-        "output_filename": "ConceptArt_Scene_36_Akane_CandyKingdomExhibit.png",
-        "scene_summary": "朱音在失去最重要的人之後，用魔法少女殘存的力量建立起自己的糖果王國，自封為守護所有流浪屍骸的女皇，高坐在閃爍糖晶的巨大王座上，雙臂環抱屍骸化嘅小光（Type B 廢鐵型）。童話般的糖果宮殿看似壯麗甜蜜，但四周的建築已悄悄腐爛融化，透露出她其實是在用一個正在毒化自己的逃避來掩蓋她無法承認的哀傷。她以屍骸女皇身份坐在自製的糖晶王座上，收容所有無主屍骸，試圖以「飢餓孩子的守護者」形象，彌補她無力保護弟弟與小光的遺憾。然而糖果建築的腐爛痕跡正是這個補償機制的真相：她用「守護」包裝了「無法接受失去」的逃避，用「強大」掩蓋了戰鬥成癮與罪惡感。糖果既是甜蜜的慰藉，也是她一直以來最深恐懼的象徵——弟弟正是死於糖果般的情緒結晶。腐爛象徵她的補償從一開始就是毒藥，終點是帝國廣場的自爆犧牲（圖115）。",
-        "references": [
-          {
-            "label": "朱音",
-            "requested_filename": "ConceptArt_Akane_MagicCorpse.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_MagicCorpse.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_36_Akane_CandyKingdomExhibit.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 37,
-        "title_line": "## 圖37：",
-        "output_filename": "ConceptArt_Scene_37_TeamCombat_Ineffective.png",
-        "scene_summary": "主角團在廣場與魔法屍骸戰鬥，晴香以耀眼光芒消滅屍骸，操以精密傀儡絲斬擊，美夜子以黑貓形態敏捷補刀——表面上連貫勝利，屍骸一隻一隻倒下。但背景中，市民的痛苦沒有減少：有人還在哭泣，有人在角落蜷縮，有人互相指責，一個被救的市民轉身逃跑，彷彿也把主角團視為威脅。晴香最後一擊時手臂在顫抖，她的光芒在勝利瞬間顯得死板、機械、失去溫度。這場勝利像一個被重複的動作，無限迴圈。",
-        "references": [
-          {
-            "label": "晴香",
-            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
-            "exists": true,
-            "notes": []
-          },
           {
             "label": "美夜子（貓形態）",
             "requested_filename": "ConceptArt_Miyako_Cat.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_Cat.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_Cat.png",
             "exists": true,
             "notes": []
           },
           {
-            "label": "操（傀儡形態）",
-            "requested_filename": "ConceptArt_Misao_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png",
+            "label": "晴香（便服）",
+            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
             "exists": true,
-            "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png"
-            ]
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_37_TeamCombat_Ineffective.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 38,
-        "title_line": "## 圖38：",
-        "output_filename": "ConceptArt_Scene_38_Hikari_Death_KurokaneInvasion.png",
-        "scene_summary": "帝國歷113年，紫音戒斷惡化到冇反應能力，未能及時保護小光，小光在屍骸襲擊中斷氣死亡後，紫音當場發癲，衝向附近其他屍骸展開近乎自毀式的攻擊——武器打爛後她徒手繼續打，手打到骨折仍不停，一路狂笑。打死晒之後她停低回頭望，隊友聞聲趕到，看見她的手血肉模糊、骨頭外露，但她仍笑著。就在這一刻，她身上開始浮現黑色的歌德尖刺——心之器第一次出現裂痕。緊接住，黑奏的意識以冷靜的學術論文字體從畫面邊緣滲入：「他沒有死，只是換了生存方式。」「痛苦是一種選擇，你可以選擇不再感受。」那些字不是紫音自己的想法，但它們找到了最精準的入口。",
-        "references": [
+            "notes": []
+          },
           {
-            "label": "紫音",
+            "label": "操（便服）",
+            "requested_filename": "ConceptArt_Misao_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "彩（便服）",
+            "requested_filename": "ConceptArt_Aya_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "紫音（便服）",
             "requested_filename": "ConceptArt_Akane_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
             "exists": true,
             "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
             ]
-          },
-          {
-            "label": "黑奏",
-            "requested_filename": "ConceptArt_Kurosou_CasualWear.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Kurosou_CasualWear.png",
-            "exists": true,
-            "notes": []
           }
         ]
       },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_38_Hikari_Death_KurokaneInvasion.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "completed",
+      "latest_url": "https://chatgpt.com/c/6a64c90d-ff18-83ec-aef8-f0bb7e705b9a",
+      "tab_id": "1229404964704",
+      "downloaded_file": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
+      "sent_at": 1784989973.3269129,
       "next_check_at": null,
-      "attempts": 0,
+      "attempts": 1,
       "last_error": null,
-      "notes": []
-    },
-    {
-      "spec": {
-        "scene_number": 39,
-        "title_line": "## 圖39：",
-        "output_filename": "ConceptArt_Scene_39_CandyFactory_ThreeWayDebate.png",
-        "scene_summary": "帝國歷113年，操調停失敗受傷後，晴香趕到廢棄糖果工廠。三個人站在腐爛糖果的地面上，各自守著三個完全不相容的立場：晴香仍然伸出那隻手，操以輕蔑做盔甲，紫音坐在更高的位置看向別處。沒有人說服任何人，沒有人離開——但這場對峙即將以晴香的放逐告終。腐爛的粉紅和壞掉的黃色牆紙在背景裡默默說著「這裡曾經試圖是快樂的」。",
-        "references": [
-          {
-            "label": "晴香",
-            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "操",
-            "requested_filename": "ConceptArt_Misao_MagicalGirl.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png",
-            "exists": true,
-            "notes": [
-              "multiple matches found; using first: D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png"
-            ]
-          },
-          {
-            "label": "紫音",
-            "requested_filename": "ConceptArt_Akane_MagicCorpse.png",
-            "resolved_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_MagicCorpse.png",
-            "exists": true,
-            "notes": []
-          }
-        ]
-      },
-      "final_output_path": "D:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_39_CandyFactory_ThreeWayDebate.png",
-      "status": "pending",
-      "latest_url": null,
-      "tab_id": null,
-      "downloaded_file": null,
-      "sent_at": null,
-      "next_check_at": null,
-      "attempts": 0,
-      "last_error": null,
-      "notes": []
+      "notes": [
+        "scene entered generating on attempt 1",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=True width=1672",
+        "overview update skipped: no unchecked row found for ConceptArt_Scene_158_Miyako_KaraokeRainSong.png"
+      ]
     }
   ]
 }

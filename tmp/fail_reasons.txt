@@ -1,0 +1,5 @@
+28 Timed out waiting for generated image re
+26 BrowserContext.new_page: Target page, co
+1 Prompt was blocked by content policy (in
+1 Locator.click: Timeout 30000ms exceeded.
+1 Page.evaluate: Target page, context or b

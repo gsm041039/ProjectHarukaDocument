@@ -204,6 +204,7 @@ Do not use a fixed or hard-coded scene beat. Do not always make the same charact
   2. Copy 完成即時去 `IMAGE_PROMPT_SPEC_FINAL_72_COMPLETE.md` 總覽表搵返該建議輸出文件名嗰行，將「有圖」欄由 `❌ 未有圖` 更新做 `✅ 有圖`。
 - 呢個更新用嘅係精準逐行 regex 比對（以建議輸出文件名做 anchor），唔會誤改其他行；如果嗰行搵唔到（例如總覽表檔名同 scene block 建議檔名唔一致、或者早已經係 ✅），會喺 `tmp/scene_gen_runner_state.json` 對應 job 嘅 `notes` 記低跳過原因，唔會靜默失敗亦唔會報錯中斷 batch。
 - 只有喺**唔係**用呢個 runner（例如人手用網頁版逐張生成）嘅情況下，先需要跟返上面舊有嘅人手更新總覽表步驟。
+- 如果一個場景最終未能生成（例如內容政策拒絕、逾時、或者開 tab 失敗），runner 會將總覽表嗰行「有圖」欄由 `❌ 未有圖` 改做 `❌ 生成失敗（原因摘要）`，方便一眼分辨「未試過」同「試過但失敗咗」。呢個標記唔會阻止之後再重跑同一場景——重跑成功時 `mark_scene_has_image` 會直接將呢個欄位覆蓋做 `✅ 有圖`。
 
 ---
 

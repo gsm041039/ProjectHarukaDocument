@@ -94,6 +94,10 @@ INTERMEDIATE_TEXT_PATTERNS = [
 FAILURE_TEXT_PATTERNS = [
     "圖片生成失敗",
     "Image generation failed",
+    "發生錯誤",
+    "請再試一次",
+    "Something went wrong",
+    "An error occurred",
 ]
 
 APOLOGY_MARKERS = [
@@ -115,6 +119,17 @@ APOLOGY_REASON_MARKERS = [
     "failed to generate",
 ]
 
+QUOTA_EXHAUSTED_MARKERS = [
+    "hit the plus plan limit",
+    "hit the free plan limit",
+    "plan limit for image generation",
+    "limit for image generations",
+    "無法呼叫影像生成工具",
+    "無法呼叫圖像生成工具",
+    "圖像生成請求已達上限",
+    "影像生成請求已達上限",
+]
+
 RATE_LIMIT_MODAL_SELECTOR = '[data-testid="modal-conversation-history-rate-limit"], [id="modal-conversation-history-rate-limit"]'
 
 RATE_LIMIT_DISMISS_BUTTON_NAMES = [
@@ -128,10 +143,24 @@ POLICY_BLOCK_TEXT_PATTERNS = [
     "content policy",
     "edit your prompt",
     "修改提示詞",
+    "編輯你的提示詞",
+    "編輯提示詞",
+    "防範機制",
+    "違反了我們關於",
+    "此判定有誤",
 ]
+
+SAFETY_ADAPTED_SUFFIX = """
+
+SAFETY-ADAPTED DELIVERY NOTE (for web moderation only, does not change canon):
+non-graphic, implied danger only, aftermath tension without visible injury, protective separation moment, emotion-first dramatic frame. No blood, no gore, no visible injury, no abuse depiction, no graphic restraint, no on-screen violence detail. Keep the same characters, setting, relationships, and emotional beat, but depict the moment through mood, framing, and implication rather than explicit physical detail."""
 
 
 class SceneRunnerError(RuntimeError):
+    pass
+
+
+class QuotaExhaustedError(SceneRunnerError):
     pass
 
 
@@ -182,11 +211,15 @@ class SceneJob:
     attempts: int = 0
     last_error: Optional[str] = None
     notes: list[str] = field(default_factory=list)
+    safety_retry_used: bool = False
+    policy_inplace_retry_used: bool = False
 
     def to_dict(self) -> dict:
         return {
             "spec": self.spec.to_dict(),
             "final_output_path": str(self.final_output_path),
+            "safety_retry_used": self.safety_retry_used,
+            "policy_inplace_retry_used": self.policy_inplace_retry_used,
             "status": self.status,
             "latest_url": self.latest_url,
             "tab_id": self.tab_id,
@@ -250,6 +283,31 @@ def mark_scene_has_image(output_filename: str, notes: list[str]) -> None:
 
     SCENE_SPEC_PATH.write_text(updated_text, encoding="utf-8")
     notes.append(f"overview table updated to has-image for {output_filename}")
+
+
+def mark_scene_failed(output_filename: str, reason_tag: str, notes: list[str]) -> None:
+    try:
+        spec_text = read_text(SCENE_SPEC_PATH)
+    except OSError as exc:
+        notes.append(f"overview failure-mark skipped: cannot read spec file ({exc})")
+        return
+
+    safe_reason = reason_tag.replace("|", "/").replace("\n", " ").strip()
+    marker = f"❌ 生成失敗（{safe_reason}）" if safe_reason else "❌ 生成失敗"
+
+    pattern = re.compile(
+        r"(\|\s*" + re.escape(output_filename) + r"\s*\|\s*)❌ 未有圖(\s*\|)"
+    )
+    updated_text, count = pattern.subn(lambda m: m.group(1) + marker + m.group(2), spec_text, count=1)
+    if count == 0:
+        notes.append(
+            f"overview failure-mark skipped: no plain unchecked row found for {output_filename} "
+            "(already has-image, already marked failed, or filename mismatch)"
+        )
+        return
+
+    SCENE_SPEC_PATH.write_text(updated_text, encoding="utf-8")
+    notes.append(f"overview table marked as generation-failed ({safe_reason}) for {output_filename}")
 
 
 def normalize_whitespace(text: str) -> str:
@@ -549,10 +607,19 @@ class ChatGPTImageAutomation:
                 try:
                     active_run = self._start_job_until_generating(context, job)
                     active_runs.append(active_run)
+                except QuotaExhaustedError:
+                    pending_jobs.insert(0, job)
+                    self._write_state(jobs)
+                    emit_text(
+                        "STOPPED: Image-generation quota exhausted. Halting batch; unattempted "
+                        "scenes remain queued (❌ 未有圖 unchanged) — rerun once the quota resets."
+                    )
+                    return
                 except Exception as exc:
                     job.status = "failed"
                     job.last_error = str(exc)
                     job.notes.append(f"failed to start: {exc}")
+                    mark_scene_failed(job.spec.output_filename, str(exc)[:60], job.notes)
                     emit_text(
                         f"WARNING: Scene {job.spec.scene_number} could not be started: {exc} "
                         "(continuing with remaining scenes)"
@@ -577,7 +644,20 @@ class ChatGPTImageAutomation:
                 continue
 
             for active_run in list(due_runs):
-                result = self._advance_active_run(active_run)
+                try:
+                    result = self._advance_active_run(active_run)
+                except QuotaExhaustedError as exc:
+                    self._write_state(jobs)
+                    emit_text(
+                        f"STOPPED: {exc} Halting batch; unattempted/in-progress scenes remain "
+                        "❌ 未有圖 — rerun once the quota resets."
+                    )
+                    return
+                except Exception as exc:
+                    active_run.job.status = "failed"
+                    active_run.job.last_error = str(exc)
+                    active_run.job.notes.append(f"advance_active_run crashed: {exc}")
+                    result = "failed"
                 self._write_state(jobs)
                 if result == "completed":
                     active_runs.remove(active_run)
@@ -586,9 +666,13 @@ class ChatGPTImageAutomation:
                 elif result == "failed":
                     active_runs.remove(active_run)
                     self._safe_close_page(active_run.page)
+                    failed_job = active_run.job
+                    reason_tag = (failed_job.last_error or failed_job.status or "")[:60]
+                    mark_scene_failed(failed_job.spec.output_filename, reason_tag, failed_job.notes)
+                    self._write_state(jobs)
                     emit_text(
-                        f"WARNING: Scene {active_run.job.spec.scene_number} failed: "
-                        f"{active_run.job.last_error or active_run.job.status} (continuing with remaining scenes)"
+                        f"WARNING: Scene {failed_job.spec.scene_number} failed: "
+                        f"{failed_job.last_error or failed_job.status} (continuing with remaining scenes)"
                     )
 
     def _start_job_until_generating(self, context, job: SceneJob) -> ActiveRun:
@@ -644,9 +728,39 @@ class ChatGPTImageAutomation:
             f"poll generating={status['generating']} intermediate={status['intermediate']} failed={status['failed']} image={status['generated_image_found']} width={status['natural_width']}"
         )
 
+        if status.get("quota_exhausted"):
+            job.status = "waiting_result"
+            raise QuotaExhaustedError(
+                f"Account image-generation quota exhausted: {status.get('last_assistant_text', '').strip()[:200]}"
+            )
+
         if status["policy_blocked"]:
+            if status["retry_available"] and not job.policy_inplace_retry_used:
+                job.policy_inplace_retry_used = True
+                job.status = "retrying"
+                job.notes.append("policy blocked; clicking in-page retry (regenerate, same prompt) first")
+                try:
+                    self._click_retry(page)
+                except SceneRunnerError:
+                    pass
+                job.next_check_at = time.time() + 15
+                return "active"
+
+            if not job.safety_retry_used:
+                job.safety_retry_used = True
+                job.status = "policy_retry"
+                job.notes.append("policy blocked; retrying once with safety-adapted delivery prompt")
+                try:
+                    self._retry_with_safety_prompt(page, job)
+                    job.next_check_at = time.time() + 25
+                    job.status = "waiting_result"
+                    return "active"
+                except (SceneRunnerError, self.PlaywrightTimeoutError) as exc:
+                    job.status = "failed"
+                    job.last_error = f"Safety-adapted retry failed: {exc}"
+                    return "failed"
             job.status = "policy_blocked"
-            job.last_error = "Prompt was blocked by content policy"
+            job.last_error = "Prompt was blocked by content policy (in-page retry and safety-adapted retry also blocked)"
             return "failed"
 
         if status["failed"] and status["retry_available"]:
@@ -736,6 +850,10 @@ class ChatGPTImageAutomation:
             page.wait_for_selector(RATE_LIMIT_MODAL_SELECTOR, state="hidden", timeout=5000)
         except Exception:
             pass
+        # This rate limit is account-wide and typically needs a few minutes to clear.
+        # Dismissing the modal alone does not lift the restriction, so back off before
+        # the caller retries the same action, instead of hammering it again immediately.
+        time.sleep(90)
         return True
 
     def _ensure_homepage_ready(self, page) -> None:
@@ -841,9 +959,9 @@ class ChatGPTImageAutomation:
         if entered_length < max(100, len(prompt) // 2):
             raise SceneRunnerError("Prompt fill verification failed")
 
-    def _submit_prompt(self, page, job: SceneJob) -> None:
+    def _submit_prompt(self, page, job: SceneJob, require_attachments: bool = True) -> None:
         expected_refs = len([ref for ref in job.spec.references if ref.resolved_path])
-        if expected_refs > 0:
+        if require_attachments and expected_refs > 0:
             actual_refs = self._count_attachments(page)
             if actual_refs < expected_refs:
                 raise SceneRunnerError(
@@ -901,16 +1019,16 @@ class ChatGPTImageAutomation:
     def _poll_generation_state(self, page) -> dict:
         return page.evaluate(
             """
-            ({ generatingTexts, intermediateTexts, failureTexts, policyTexts, stopNames, apologyMarkers, apologyReasonMarkers }) => {
+            ({ generatingTexts, intermediateTexts, failureTexts, policyTexts, stopNames, apologyMarkers, apologyReasonMarkers, quotaMarkers }) => {
               const bodyText = document.body?.innerText || '';
+              const bodyTextLower = bodyText.toLowerCase();
+              const quotaExhausted = quotaMarkers.some(m => bodyText.includes(m) || bodyTextLower.includes(m.toLowerCase()));
               const generating = generatingTexts.some(text => bodyText.includes(text)) ||
                 stopNames.some(name => {
                   const btn = [...document.querySelectorAll('button')].find(b => (b.innerText || b.getAttribute('aria-label') || '').trim() === name);
                   return !!btn;
                 });
               const intermediate = intermediateTexts.some(text => bodyText.includes(text));
-              const failed = failureTexts.some(text => bodyText.includes(text));
-              const policyBlocked = policyTexts.some(text => bodyText.toLowerCase().includes(text.toLowerCase()));
               const retryAvailable = [...document.querySelectorAll('button')].some(b => ['重試', 'Retry'].includes((b.innerText || b.getAttribute('aria-label') || '').trim()));
 
               const assistantMessages = [...document.querySelectorAll('[data-message-author-role="assistant"]')];
@@ -918,6 +1036,12 @@ class ChatGPTImageAutomation:
                 ? (assistantMessages[assistantMessages.length - 1].innerText || '')
                 : '';
               const lastAssistantLower = lastAssistantText.toLowerCase();
+              const failed = !generating && (
+                failureTexts.some(text => bodyText.includes(text)) ||
+                (retryAvailable && failureTexts.some(text => lastAssistantText.includes(text) || lastAssistantLower.includes(text.toLowerCase())))
+              );
+              const policyBlocked = !generating &&
+                policyTexts.some(text => lastAssistantText.includes(text) || lastAssistantLower.includes(text.toLowerCase()));
               const apologyFailure = !generating &&
                 apologyMarkers.some(m => lastAssistantText.includes(m) || lastAssistantLower.includes(m.toLowerCase())) &&
                 apologyReasonMarkers.some(m => lastAssistantText.includes(m) || lastAssistantLower.includes(m.toLowerCase()));
@@ -957,11 +1081,13 @@ class ChatGPTImageAutomation:
                 result_ready: resultReady,
                 apology_failure: apologyFailure,
                 last_assistant_text: lastAssistantText.slice(0, 800),
+                quota_exhausted: quotaExhausted,
               };
             }
             """,
             {
                 "generatingTexts": GENERATING_TEXT_PATTERNS,
+                "quotaMarkers": QUOTA_EXHAUSTED_MARKERS,
                 "intermediateTexts": INTERMEDIATE_TEXT_PATTERNS,
                 "failureTexts": FAILURE_TEXT_PATTERNS,
                 "policyTexts": POLICY_BLOCK_TEXT_PATTERNS,
@@ -976,6 +1102,11 @@ class ChatGPTImageAutomation:
         if retry is None:
             raise SceneRunnerError("Retry was expected but not found")
         retry.click()
+
+    def _retry_with_safety_prompt(self, page, job: SceneJob) -> None:
+        safety_prompt = job.prompt + SAFETY_ADAPTED_SUFFIX
+        self._fill_prompt(page, safety_prompt)
+        self._submit_prompt(page, job, require_attachments=False)
 
     def _download_generated_image(self, page, job: SceneJob) -> Path:
         before = {item.name for item in self.downloads_dir.glob("*")}
@@ -999,6 +1130,7 @@ class ChatGPTImageAutomation:
         if target is None:
             raise SceneRunnerError("No generated image candidate matched download rules")
 
+        self._dismiss_rate_limit_modal(page)
         target.click()
 
         # Hover over the enlarged image first: ChatGPT's media-viewer toolbar
@@ -1025,6 +1157,7 @@ class ChatGPTImageAutomation:
             page.wait_for_timeout(500)
 
         if download_button is not None:
+            self._dismiss_rate_limit_modal(page)
             with page.expect_download(timeout=20000) as download_info:
                 download_button.click()
             download = download_info.value
@@ -1146,6 +1279,20 @@ def parse_scene_range(values: list[str]) -> list[int]:
     return ordered
 
 
+def find_remaining_scene_numbers(include_previously_failed: bool = False) -> list[int]:
+    spec_text = read_text(SCENE_SPEC_PATH)
+    numbers: list[int] = []
+    for line in spec_text.splitlines():
+        row_match = re.match(r"^\|\s*(\d+)\s*\|", line)
+        if not row_match:
+            continue
+        if "❌ 未有圖" in line:
+            numbers.append(int(row_match.group(1)))
+        elif include_previously_failed and "❌ 生成失敗" in line:
+            numbers.append(int(row_match.group(1)))
+    return numbers
+
+
 def build_arg_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         description="Automate Project Haruka ChatGPT web scene image generation."
@@ -1170,6 +1317,27 @@ def build_arg_parser() -> argparse.ArgumentParser:
     run_parser.add_argument("--chrome-executable", type=Path)
     run_parser.add_argument("--connect-cdp-url")
     run_parser.add_argument("--dry-run", action="store_true")
+
+    remaining_parser = subparsers.add_parser(
+        "run-remaining",
+        help="Auto-scan the overview table for all scenes still marked as missing an image, and run them all "
+        "(rolling tab pool, keeps refilling a finished slot with the next pending scene until none are left).",
+    )
+    remaining_parser.add_argument("--downloads-dir", type=Path, default=REPO_ROOT / "tmp" / "scene_downloads")
+    remaining_parser.add_argument("--state-path", type=Path, default=DEFAULT_RUN_STATE_PATH)
+    remaining_parser.add_argument("--chatgpt-url", default="https://chatgpt.com/")
+    remaining_parser.add_argument("--max-tabs", type=int, default=5)
+    remaining_parser.add_argument("--headless", action="store_true")
+    remaining_parser.add_argument("--user-data-dir", type=Path)
+    remaining_parser.add_argument("--chrome-executable", type=Path)
+    remaining_parser.add_argument("--connect-cdp-url")
+    remaining_parser.add_argument("--dry-run", action="store_true")
+    remaining_parser.add_argument(
+        "--include-previously-failed",
+        action="store_true",
+        help="Also re-attempt scenes already marked '❌ 生成失敗（…）' (skipped by default so known-blocked "
+        "scenes like content-policy hangs don't retry forever unattended).",
+    )
 
     return parser
 
@@ -1217,6 +1385,39 @@ def command_run(args) -> int:
     return 0
 
 
+def command_run_remaining(args) -> int:
+    scene_numbers = find_remaining_scene_numbers(
+        include_previously_failed=args.include_previously_failed
+    )
+    if not scene_numbers:
+        emit_text(json.dumps({"message": "No remaining scenes found in overview table.", "jobs": []}, ensure_ascii=False))
+        return 0
+
+    jobs = build_jobs(scene_numbers)
+    if args.dry_run:
+        payload = {
+            "scene_numbers": scene_numbers,
+            "jobs": [job.to_dict() for job in jobs],
+            "downloads_dir": str(args.downloads_dir),
+            "state_path": str(args.state_path),
+        }
+        emit_text(json.dumps(payload, ensure_ascii=False, indent=2))
+        return 0
+
+    automation = ChatGPTImageAutomation(
+        downloads_dir=args.downloads_dir,
+        state_path=args.state_path,
+        chatgpt_url=args.chatgpt_url,
+        headless=args.headless,
+        user_data_dir=args.user_data_dir,
+        chrome_executable=args.chrome_executable,
+        connect_cdp_url=args.connect_cdp_url,
+    )
+    automation.run(jobs, max_tabs=max(1, min(args.max_tabs, len(jobs))))
+    emit_text(json.dumps({"jobs": [job.to_dict() for job in jobs]}, ensure_ascii=False, indent=2))
+    return 0
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = build_arg_parser()
     args = parser.parse_args(argv)
@@ -1227,6 +1428,8 @@ def main(argv: Optional[list[str]] = None) -> int:
             return command_build_prompt(args.scene, args.output)
         if args.command == "run":
             return command_run(args)
+        if args.command == "run-remaining":
+            return command_run_remaining(args)
         parser.error(f"Unknown command: {args.command}")
     except SceneRunnerError as exc:
         print(f"ERROR: {exc}", file=sys.stderr)
