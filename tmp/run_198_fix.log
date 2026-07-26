@@ -1,0 +1,78 @@
+WARNING: Scene 198 failed: Timeout 20000ms exceeded while waiting for event "download"
+=========================== logs ===========================
+waiting for event "download"
+============================================================ (continuing with remaining scenes)
+{
+  "jobs": [
+    {
+      "spec": {
+        "scene_number": 198,
+        "title_line": "## 圖198：",
+        "output_filename": "ConceptArt_Scene_198_Miyako_LivingOrdinarilyOnward.png",
+        "scene_summary": "一個普通、非魔法嘅日常場景——美夜子獨自一人身處平凡嘅生活空間（例如公寓窗邊、街角、日常街景），冇任何魔法特效或戰鬥痕跡。她的外貌依然是十幾歲少女嘅樣子（歲月冇喺佢臉上留低痕跡——呢個係佢狀態嘅一部分，唔係老化），但姿態、眼神帶住遠超外表年齡嘅沉澱同平靜。畫面重點唔係戲劇性事件，而係一種「獨自繼續生活」嘅平淡質感——一個人靜靜過日常嘅瞬間。",
+        "references": [
+          {
+            "label": "美夜子",
+            "requested_filename": "ConceptArt_Miyako_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png"
+            ]
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_198_Miyako_LivingOrdinarilyOnward.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "failed",
+      "latest_url": "https://chatgpt.com/c/6a660f63-31fc-83ec-b998-3bd0be443314",
+      "tab_id": "1822154697952",
+      "downloaded_file": null,
+      "sent_at": 1785073511.092128,
+      "next_check_at": 1785074046.4736269,
+      "attempts": 1,
+      "last_error": "Timeout 20000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================",
+      "notes": [
+        "scene entered generating on attempt 1",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=True intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=False width=0",
+        "poll generating=False intermediate=False failed=False image=True width=1672",
+        "advance_active_run crashed: Timeout 20000ms exceeded while waiting for event \"download\"\n=========================== logs ===========================\nwaiting for event \"download\"\n============================================================",
+        "overview failure-mark skipped: no plain unchecked row found for ConceptArt_Scene_198_Miyako_LivingOrdinarilyOnward.png (already has-image, already marked failed, or filename mismatch)"
+      ]
+    }
+  ]
+}

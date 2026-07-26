@@ -93,6 +93,9 @@ ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker cl
 VISUAL RULES:
 Prioritize "real TV anime episode screenshot" feeling over polished illustration rendering. Character drawing must be simpler than the reference sheets. Character detail density must be much lower than a polished anime still. Use thick, clean, simple linework. Use flat color regions. Use almost no internal cel self-shadows. Keep character shading extremely sparse and broad. Keep the background readable but simple, like a TV anime background plate. The background may have slight hand-drawn TV anime production roughness. Natural, asymmetrical staging; do not line all characters up on one flat plane. Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture. No one should look like they are posing for the viewer. No text, no watermark, no readable phone UI, no readable signs.
 
+MAGIC CORPSE STYLE RULE:
+Whenever this scene depicts a "magical corpse" (屍骸), it is a stylized fictional creature design unique to this world — gothic architectural spikes fused with rusted/scrap metal plating and crystal core elements, per the world's official magical-corpse reference sheets. It is NOT a realistic human corpse, NOT a photorealistic skeleton, and must NOT include realistic anatomical gore, exposed real bone, or decomposing human tissue. Render it as an ornate broken-machine/gothic-relic creature silhouette, consistent with the simple flat TV-anime rendering style used for everything else in the frame.
+
 SCENE:
 [SCENE]
 

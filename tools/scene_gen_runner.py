@@ -138,6 +138,19 @@ RATE_LIMIT_DISMISS_BUTTON_NAMES = [
     "OK",
 ]
 
+CONVERSATION_OPTIONS_TEST_ID = "conversation-options-button"
+
+MOVE_TO_PROJECT_MENU_TEXT_FRAGMENTS = [
+    "移至專案",
+    "移至項目",
+    "加入專案",
+    "加入項目",
+    "Move to project",
+    "Add to project",
+]
+
+TARGET_PROJECT_NAME = "魔法少女晴香物語"
+
 POLICY_BLOCK_TEXT_PATTERNS = [
     "內容政策",
     "content policy",
@@ -273,12 +286,15 @@ def mark_scene_has_image(output_filename: str, notes: list[str]) -> None:
         notes.append(f"overview update skipped: cannot read spec file ({exc})")
         return
 
+    # Match either the plain "not yet attempted" marker or a leftover "generation
+    # failed" marker from an earlier attempt — a later successful generation must
+    # be able to overwrite a stale failure marker, not just the untried state.
     pattern = re.compile(
-        r"(\|\s*" + re.escape(output_filename) + r"\s*\|\s*)❌ 未有圖(\s*\|)"
+        r"(\|\s*" + re.escape(output_filename) + r"\s*\|\s*)❌ (?:未有圖|生成失敗（[^）]*）)(\s*\|)"
     )
     updated_text, count = pattern.subn(r"\1✅ 有圖\2", spec_text, count=1)
     if count == 0:
-        notes.append(f"overview update skipped: no unchecked row found for {output_filename}")
+        notes.append(f"overview update skipped: no unchecked/failed row found for {output_filename}")
         return
 
     SCENE_SPEC_PATH.write_text(updated_text, encoding="utf-8")
@@ -728,6 +744,21 @@ class ChatGPTImageAutomation:
             f"poll generating={status['generating']} intermediate={status['intermediate']} failed={status['failed']} image={status['generated_image_found']} width={status['natural_width']}"
         )
 
+        # A valid, already-rendered image takes priority over any failure/policy/quota
+        # text also present on the page (e.g. leftover error text from an earlier
+        # retry attempt that then succeeded) — never discard a completed result.
+        if status["result_ready"]:
+            job.status = "downloading"
+            downloaded_path = self._download_generated_image(page, job)
+            final_path = self._copy_to_repo(downloaded_path, job.final_output_path)
+            job.downloaded_file = final_path
+            mark_scene_has_image(job.spec.output_filename, job.notes)
+            self._move_conversation_to_project(page, job.notes)
+            job.status = "completed"
+            job.latest_url = page.url
+            job.next_check_at = None
+            return "completed"
+
         if status.get("quota_exhausted"):
             job.status = "waiting_result"
             raise QuotaExhaustedError(
@@ -779,17 +810,6 @@ class ChatGPTImageAutomation:
             job.last_error = f"Assistant reported failure: {status.get('last_assistant_text', '').strip()}"
             job.notes.append(job.last_error)
             return "failed"
-
-        if status["result_ready"]:
-            job.status = "downloading"
-            downloaded_path = self._download_generated_image(page, job)
-            final_path = self._copy_to_repo(downloaded_path, job.final_output_path)
-            job.downloaded_file = final_path
-            mark_scene_has_image(job.spec.output_filename, job.notes)
-            job.status = "completed"
-            job.latest_url = page.url
-            job.next_check_at = None
-            return "completed"
 
         job.status = "waiting_result"
         job.next_check_at = time.time() + 15
@@ -855,6 +875,27 @@ class ChatGPTImageAutomation:
         # the caller retries the same action, instead of hammering it again immediately.
         time.sleep(90)
         return True
+
+    def _click_with_rate_limit_retry(self, page, locator, attempts: int = 3, timeout_ms: int = 30000) -> None:
+        # The rate-limit modal can appear in the gap between a pre-click dismiss check
+        # and the click itself (it isn't always present a moment earlier), so a single
+        # dismiss-then-click is not enough — retry the click itself, dismissing again
+        # each time the modal is what's actually intercepting the pointer.
+        last_exc: Optional[Exception] = None
+        for attempt in range(attempts):
+            try:
+                locator.click(timeout=timeout_ms)
+                return
+            except Exception as exc:
+                last_exc = exc
+                if self._dismiss_rate_limit_modal(page):
+                    continue
+                if attempt < attempts - 1:
+                    page.wait_for_timeout(1000)
+                    continue
+                raise
+        if last_exc is not None:
+            raise last_exc
 
     def _ensure_homepage_ready(self, page) -> None:
         page.goto(self.chatgpt_url, wait_until="domcontentloaded")
@@ -1036,10 +1077,8 @@ class ChatGPTImageAutomation:
                 ? (assistantMessages[assistantMessages.length - 1].innerText || '')
                 : '';
               const lastAssistantLower = lastAssistantText.toLowerCase();
-              const failed = !generating && (
-                failureTexts.some(text => bodyText.includes(text)) ||
-                (retryAvailable && failureTexts.some(text => lastAssistantText.includes(text) || lastAssistantLower.includes(text.toLowerCase())))
-              );
+              const failed = !generating &&
+                failureTexts.some(text => lastAssistantText.includes(text) || lastAssistantLower.includes(text.toLowerCase()));
               const policyBlocked = !generating &&
                 policyTexts.some(text => lastAssistantText.includes(text) || lastAssistantLower.includes(text.toLowerCase()));
               const apologyFailure = !generating &&
@@ -1098,10 +1137,106 @@ class ChatGPTImageAutomation:
         )
 
     def _click_retry(self, page) -> None:
-        retry = first_visible_locator(page, RETRY_BUTTON_NAMES)
+        # The retry button can vanish between the poll that reported it and this
+        # click (page re-render, or ChatGPT briefly re-flowing the message) — retry
+        # the lookup itself for a couple of seconds before giving up.
+        retry = None
+        deadline = time.time() + 3
+        while time.time() < deadline:
+            retry = first_visible_locator(page, RETRY_BUTTON_NAMES)
+            if retry is not None:
+                break
+            time.sleep(0.3)
         if retry is None:
             raise SceneRunnerError("Retry was expected but not found")
         retry.click()
+
+    def _move_conversation_to_project(self, page, notes: list[str]) -> None:
+        try:
+            self._dismiss_rate_limit_modal(page)
+            # The fullscreen image viewer opened during download can still be covering
+            # the page header, which would intercept clicks on the options button below.
+            try:
+                page.keyboard.press("Escape")
+                page.wait_for_timeout(300)
+                close_viewer = first_visible_locator(page, ["關閉全螢幕檢視", "Close fullscreen"])
+                if close_viewer is not None:
+                    close_viewer.click()
+                    page.wait_for_timeout(300)
+            except Exception:
+                pass
+            options_button = page.get_by_test_id(CONVERSATION_OPTIONS_TEST_ID)
+            if options_button.count() == 0:
+                notes.append("move-to-project skipped: conversation options button not found")
+                return
+            options_button.first.click()
+            page.wait_for_timeout(400)
+
+            move_item = None
+            for fragment in MOVE_TO_PROJECT_MENU_TEXT_FRAGMENTS:
+                candidate = page.get_by_text(fragment, exact=False)
+                if candidate.count() > 0:
+                    move_item = candidate.first
+                    break
+            if move_item is None:
+                notes.append("move-to-project skipped: 'move to project' menu item not found")
+                page.keyboard.press("Escape")
+                return
+            move_item.click()
+            page.wait_for_timeout(400)
+
+            project_item = None
+            for role in ("menuitem", "menuitemradio", "option", "button"):
+                candidate = page.get_by_role(role, name=TARGET_PROJECT_NAME, exact=False)
+                if candidate.count() > 0 and candidate.first.is_visible():
+                    project_item = candidate.first
+                    break
+            if project_item is None:
+                # Fall back to text search, but scoped to an open menu/dialog/listbox
+                # container only — a page-wide text search can match unrelated sidebar
+                # items (e.g. a pinned chat whose title happens to contain this substring).
+                for container_selector in ('[role="menu"]', '[role="dialog"]', '[role="listbox"]'):
+                    container = page.locator(container_selector).last
+                    if container.count() == 0:
+                        continue
+                    candidate = container.get_by_text(TARGET_PROJECT_NAME, exact=False)
+                    if candidate.count() > 0 and candidate.first.is_visible():
+                        project_item = candidate.first
+                        break
+            if project_item is None:
+                notes.append(f"move-to-project skipped: project '{TARGET_PROJECT_NAME}' not found in list")
+                page.keyboard.press("Escape")
+                return
+            try:
+                project_item.click(timeout=5000)
+                notes.append(f"conversation moved to project '{TARGET_PROJECT_NAME}'")
+            except Exception as click_exc:
+                # A successful click that closes the menu can still make Playwright's
+                # post-click DOM-stability check throw (the element it just clicked no
+                # longer exists to verify against). Distinguish that from a real failure
+                # by checking, immediately and without waiting, whether a matching menu
+                # item is still present — if it is gone, the click almost certainly
+                # already registered before the menu closed.
+                still_present = 0
+                for role in ("menuitem", "menuitemradio", "option", "button"):
+                    try:
+                        still_present += page.get_by_role(role, name=TARGET_PROJECT_NAME, exact=False).count()
+                    except Exception:
+                        pass
+                if still_present == 0:
+                    notes.append(
+                        f"conversation likely moved to project '{TARGET_PROJECT_NAME}' "
+                        "(menu item disappeared after click; could not verify further)"
+                    )
+                else:
+                    notes.append(f"move-to-project click failed: {click_exc}")
+            page.wait_for_timeout(600)
+        except Exception as exc:
+            notes.append(f"move-to-project failed (non-fatal): {exc}")
+            try:
+                page.keyboard.press("Escape")
+            except Exception:
+                pass
 
     def _retry_with_safety_prompt(self, page, job: SceneJob) -> None:
         safety_prompt = job.prompt + SAFETY_ADAPTED_SUFFIX
@@ -1131,7 +1266,7 @@ class ChatGPTImageAutomation:
             raise SceneRunnerError("No generated image candidate matched download rules")
 
         self._dismiss_rate_limit_modal(page)
-        target.click()
+        self._click_with_rate_limit_retry(page, target)
 
         # Hover over the enlarged image first: ChatGPT's media-viewer toolbar
         # (download/save icon) is revealed only on pointer movement over the
@@ -1158,6 +1293,13 @@ class ChatGPTImageAutomation:
 
         if download_button is not None:
             self._dismiss_rate_limit_modal(page)
+            # If the rate-limit modal is what's covering the download button, dismiss
+            # it up front before ever entering expect_download — a click that never
+            # fires (modal in the way) would otherwise just make expect_download time
+            # out with no useful signal about why.
+            for _ in range(3):
+                if not self._dismiss_rate_limit_modal(page):
+                    break
             with page.expect_download(timeout=20000) as download_info:
                 download_button.click()
             download = download_info.value
@@ -1311,7 +1453,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     run_parser.add_argument("--downloads-dir", type=Path, default=REPO_ROOT / "tmp" / "scene_downloads")
     run_parser.add_argument("--state-path", type=Path, default=DEFAULT_RUN_STATE_PATH)
     run_parser.add_argument("--chatgpt-url", default="https://chatgpt.com/")
-    run_parser.add_argument("--max-tabs", type=int, default=5)
+    run_parser.add_argument("--max-tabs", type=int, default=3)
     run_parser.add_argument("--headless", action="store_true")
     run_parser.add_argument("--user-data-dir", type=Path)
     run_parser.add_argument("--chrome-executable", type=Path)
@@ -1326,7 +1468,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     remaining_parser.add_argument("--downloads-dir", type=Path, default=REPO_ROOT / "tmp" / "scene_downloads")
     remaining_parser.add_argument("--state-path", type=Path, default=DEFAULT_RUN_STATE_PATH)
     remaining_parser.add_argument("--chatgpt-url", default="https://chatgpt.com/")
-    remaining_parser.add_argument("--max-tabs", type=int, default=5)
+    remaining_parser.add_argument("--max-tabs", type=int, default=3)
     remaining_parser.add_argument("--headless", action="store_true")
     remaining_parser.add_argument("--user-data-dir", type=Path)
     remaining_parser.add_argument("--chrome-executable", type=Path)
