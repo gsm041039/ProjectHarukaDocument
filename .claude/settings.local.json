@@ -18,7 +18,12 @@
       "Bash(python tools/scene_gen_runner.py run --help)",
       "Bash(python tools/scene_gen_runner.py run 29-39 --dry-run)",
       "Bash(python tools/scene_gen_runner.py run 29-39 --headless)",
-      "Bash(tee tmp/scene_gen_run.log)"
+      "Bash(tee tmp/scene_gen_run.log)",
+      "Bash(python3 -)",
+      "Bash(python3)",
+      "Bash(git checkout *)",
+      "Skill(update-config)",
+      "Skill(update-config:*)"
     ],
     "defaultMode": "auto"
   }

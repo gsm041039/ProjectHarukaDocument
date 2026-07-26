@@ -183,6 +183,32 @@
 | 168 | 118 | 世界觀設定 | 屍骸化：心之器燃盡時刻 | Magical Corpse: The Moment the Soul Vessel Burns Out | 無角色（通用） | WORLD_BUILDING | 日區超市 | ⭐⭐⭐⭐ | ConceptArt_Scene_168_MagicalCorpse_SoulVesselBurnout.png | ❌ 生成失敗（BrowserContext.new_page: Target page, context or browser has） | 核心機制已修正：靈魂被困以1%控制力掙扎，非「靈魂已離體、空殼繼續動」（CDL-271已取代舊描述，原文方向錯誤已修正） |
 | 169 | 119 | 世界觀設定 | 彩的心房：通風管道永恆空間 | Aya's Heart Chamber: Eternal Ventilation Space | 彩（6歲真身，被囚） | WORLD_BUILDING | 彩的心房（通風管道那夜重構） | ⭐⭐⭐ | ConceptArt_Scene_169_Aya_HeartChamber_VentilationEternal.png | ❌ 生成失敗（BrowserContext.new_page: Target page, context or browser has） | Reference Image已修正為[NO_REF]（原文誤用便服/偽裝形態reference）；基調已修正為黑暗創傷重演空間，非純美麗夢幻空間 |
 | 170 | 122 | 已停用 | 軟接觸——美夜子廢棄地鐵站遞水 | Worthless Vigil: The Underground Station | — | `[DELETE_CANDIDATE]` | — | — | — | — | **已停用**：與SPEC#92為同一beat（CDL-191）但形態/物件/對白互相矛盾，已標記DELETE_CANDIDATE，內容詳見詳細段落說明 |
+| 171 | 171 | Act II | 朔洩密 | Saku Leaks the Tip-Off | 朔、晴香、紫音、操 | ACT_II | Act II Phase B，E-07c 前段（CDL-319） | ⭐⭐⭐ | ConceptArt_Scene_171_Saku_LeaksInfo.png | ✅ 有圖 | 朔暗中知情軍方高層將到訪小光讀嘅學校，向團隊透露此消息，觸發家長日潛入計劃 |
+| 172 | 172 | Act II | 秋穗第二次相遇——無臉執行官 | Akiho's Second Encounter as the Faceless Executor | 晴香、秋穗（無臉執行官） | ACT_II | Act II Phase B，E-07c（CDL-319） | ⭐⭐⭐⭐ | ConceptArt_Scene_172_Akiho_SecondEncounter_FacelessExecutor.png | ✅ 有圖 | 無意識兵器秋穗第二次與晴香相遇，執念促動但無自主認知，可能有微妙行為洩露 |
+| 173 | 173 | Act II | 晴香拖長行動 | Haruka Prolongs the Operation | 晴香、紫音 | ACT_II | Act II Phase B，E-07c（CDL-223 Plausible Deniability） | ⭐⭐⭐ | ConceptArt_Scene_173_Haruka_ProlongsOperation.png | ✅ 有圖 | 晴香因想攞多啲物資／想留耐啲享受呢日快樂而拖長家長日行動，善意/貪玩嘅代價被溫馨包裝，直接導致紫音困耐咗、戒斷惡化 |
+| 174 | 174 | Act I | 被迫入局 | Forced Into the Game | 晴香、美夜子 | ACT_I | Act I 開場（時序待Beat Sheet層確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_174_Haruka_ForcedIntoTheGame.png | ❌ 未有圖 | 晴香只是普通學生，意外看見魔法少女戰鬥後，被美夜子交出變身裝置，正式被拖入不能回頭的世界 |
+| 175 | 175 | Act I | 四人組隊 | The Four-Girl Team Forms | 晴香、紫音、操、彩 | ACT_I | Act I 早期（時序待Beat Sheet層確認） | ⭐⭐⭐⭐ | ConceptArt_Scene_175_FourGirlTeam_Forms.png | ❌ 未有圖 | 晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊 |
+| 176 | 176 | Act I | 膠布哲學第二層——紫音撕開偶像形象 | Bandaid Philosophy Layer 2: Akane Tears the Idol Mask | 晴香、紫音 | ACT_I | Act I（時序待Beat Sheet層確認） | ⭐⭐⭐ | ConceptArt_Scene_176_BandaidPhilosophy_Layer2.png | ❌ 未有圖 | 紫音第一次正面撕開晴香的偶像形象——「妳以為貼住張貼紙，個傷口就會好？」系統批判同時揭露自己的迴避 |
+| 177 | 177 | Act II | 秋穗暗線——與刑思交易的起點 | Akiho's Secret Deal Begins | 秋穗、黑奏 | ACT_II | Act II（時序待Beat Sheet層確認） | ⭐⭐⭐ | ConceptArt_Scene_177_Akiho_SecretDealBegins.png | ❌ 未有圖 | 秋穗表面是可靠技術支援，暗中卻為救女兒愛莉，開始與刑思交易，埋下背叛伏線 |
+| 178 | 178 | Act II | 帝國清算 | The Empire's Reckoning | 晴香 | ACT_II | Act II（E-09後） | ⭐⭐⭐ | ConceptArt_Scene_178_Empire_Reckoning.png | ❌ 未有圖 | 帝國把直播失控影像當成證據，推動反魔法少女輿論，將晴香塑造成必須被清除的社會威脅 |
+| 179 | 179 | Act II | 形象商品化 | Image Commodified | 晴香、經理人 | ACT_II | Act II（E-09後） | ⭐⭐⭐ | ConceptArt_Scene_179_Image_Commodified.png | ❌ 未有圖 | 晴香的經理人沒有保護她，反而把她的怪物形象包裝成上癮商品「Fallen Angel」，連她的崩潰都被拿去賺錢 |
+| 180 | 180 | Act II | 愛莉地底抵消 | Aeri's Quiet Counteraction Underground | 愛莉（紙皮騎士形態） | ACT_II | Act II（時序待Beat Sheet層確認） | ⭐⭐⭐ | ConceptArt_Scene_180_Aeri_QuietCounteraction.png | ❌ 未有圖 | 愛莉雖然被困成石像，仍在精神世界中替母親收拾後果，像紙皮騎士一樣默默斬斷毒品侵蝕 |
+| 181 | 181 | Act II | 秋穗毒品擴散 | Akiho's Drug Spreads | 秋穗 | ACT_II | Act II（時序待Beat Sheet層確認） | ⭐⭐⭐ | ConceptArt_Scene_181_Akiho_DrugSpreads.png | ❌ 未有圖 | 秋穗為了換回女兒愛莉，繼續研究Emo-Visor；帝國利用這種毒品，把全城痛苦變成可管理的資源 |
+| 182 | 182 | Act III | 彩/刑思同體——晴香發現真相 | Haruka Discovers Aya and Keishi Share a Body | 晴香、彩 | ACT_III | Act III 開場 | ⭐⭐⭐⭐ | ConceptArt_Scene_182_Haruka_DiscoversAyaKeishi.png | ❌ 未有圖 | 晴香以為身邊的葉語彩只是同班同學，真相卻是她與暴君刑思共用同一個身體，親近感變成威脅 |
+| 183 | 183 | Act III | 共痛計劃 | The Shared Pain Plan | 黑奏／刑思 | ACT_III | Act III 早段 | ⭐⭐⭐ | ConceptArt_Scene_183_SharedPainPlan.png | ❌ 未有圖 | 刑思提出把全人類神經連起來：任何人傷害別人，自己也會同樣痛，表面上是終結暴力 |
+| 184 | 184 | Act III | 自由被取消 | Freedom Revoked | 無角色（市民群） | ACT_III | Act III 早段 | ⭐⭐⭐ | ConceptArt_Scene_184_Freedom_Revoked.png | ❌ 未有圖 | 共痛計劃真正可怕之處，是它用「不再有人受傷」做理由，剝奪所有人的隱私、選擇與自我邊界 |
+| 185 | 185 | Act III | 秋穗交出弱點 | Akiho Hands Over Haruka's Weakness | 秋穗、黑奏／刑思 | ACT_III | Act III 中段 | ⭐⭐⭐⭐ | ConceptArt_Scene_185_Akiho_HandsOverWeakness.png | ❌ 未有圖 | 刑思要求秋穗交出晴香的能力資料與弱點；秋穗必須在保護晴香與拯救愛莉之間作選擇 |
+| 186 | 186 | Act III | 母親墜落 | The Mother's Fall | 秋穗 | ACT_III | Act III 中段 | ⭐⭐⭐⭐ | ConceptArt_Scene_186_Mother_Fall.png | ❌ 未有圖 | 秋穗最後選擇出賣晴香，因為她相信只要能救回愛莉，其他人的代價都可以被犧牲 |
+| 187 | 187 | Act III | 回到學校——兩週人質恐怖事件 | Back to School: The Two-Week Hostage Terror | 晴香、紫音、操、彩 | ACT_III | Act III，Day 1-14前段 | ⭐⭐⭐⭐ | ConceptArt_Scene_187_BackToSchool_HostageTerror.png | ❌ 未有圖 | 帝國策劃校園恐懼事件，強迫主角群在死亡威脅下繼續扮演普通同學，令安全的校園變成心理刑場（注意：與圖81「恐怖家家酒」為Act II另一事件，兩者不同時期不可混淆） |
+| 188 | 188 | Act III | 恐怖扮家家——魔法代價升級 | Horrific House Play: The Cost Escalates | 晴香、紫音、操、彩 | ACT_III | Act III，兩週人質事件中段 | ⭐⭐⭐ | ConceptArt_Scene_188_HousePlay_CostEscalates.png | ❌ 未有圖 | 長達兩週，越普通的場景越顯得不正常；魔法代價悄悄升級，隊員的身體開始計息，晨間意識斷層從兩秒拉長至半分鐘 |
+| 189 | 189 | Act III | 解放之戰——維多利亞之淚陷落 | The Liberation Battle: Victoria's Tears Falls | 晴香 | ACT_III | Act III，Day 14前（E-III-J0） | ⭐⭐⭐⭐⭐ | ConceptArt_Scene_189_LiberationBattle_VictoriasTearsFalls.png | ❌ 未有圖 | 隊伍攻入維多利亞之淚，摧毀當年鑄造美夜子做Unit 01兵器嘅裝置；Day 2電力停止，局部屍骸化在地下管道區爆發，市民親身目睹恐懼直接轉為敵視 |
+| 190 | 190 | Act III | 夕鏡前攤牌 | Yu's Confrontation in the Mirror | 晴香、夕 | ACT_III | Act III，放逐紫音當晚 | ⭐⭐⭐⭐ | ConceptArt_Scene_190_Yu_MirrorConfrontation.png | ❌ 未有圖 | 放逐紫音當晚，夕喺鏡中現身，控訴晴香一直為彩補漏、為紫音送糖，卻從未真正接住自己 |
+| 191 | 191 | Act III | 晴香崩潰 | Haruka's Breakdown | 晴香 | ACT_III | Act III，Phase J三重道德處刑後 | ⭐⭐⭐⭐ | ConceptArt_Scene_191_Haruka_Breakdown.png | ❌ 未有圖 | 晴香得知自己是整場災難的起源後，精神徹底崩潰 |
+| 192 | 192 | Act IV | 愛莉現身 | Aeri Appears as the Saint Knight | 愛莉 | ACT_IV | Act IV，晴香甦醒後 | ⭐⭐⭐⭐ | ConceptArt_Scene_192_Aeri_SaintKnightAppears.png | ❌ 未有圖 | 晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局 |
+| 193 | 193 | Act IV | 不同態度 | A Different Attitude | 愛莉 | ACT_IV | Act IV | ⭐⭐⭐ | ConceptArt_Scene_193_Aeri_DifferentAttitude.png | ❌ 未有圖 | 愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種 |
+| 194 | 194 | Act IV | 愛莉對彩 | Aeri Confronts Aya | 愛莉、彩 | ACT_IV | Act IV | ⭐⭐⭐⭐ | ConceptArt_Scene_194_Aeri_ConfrontsAya.png | ❌ 未有圖 | 愛莉與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞 |
+| 195 | 195 | Act IV | 彩填補裂縫 | Aya Fills the Cracks | 彩 | ACT_IV | Act IV | ⭐⭐⭐⭐ | ConceptArt_Scene_195_Aya_FillsTheCracks.png | ❌ 未有圖 | 刑思的保護者人格因自身意義耗盡而退場，原本被壓抑的彩重新浮現——她選擇主動承受螺旋痛苦，填補世界裂縫 |
+| 196 | 196 | Act IV | 魔法系統終結 | The Magic System Ends | 無角色（世界觀） | ACT_IV | Act IV 終局 | ⭐⭐⭐ | ConceptArt_Scene_196_MagicSystem_Ends.png | ❌ 未有圖 | 晴香的承擔終止了魔法少女、屍骸與Emo-Visor的生產管線，剝削人的魔法系統停止運作 |
 
 ---
 
@@ -2179,7 +2205,7 @@ resignation. Ash grey and dying pink. Sisyphean effort. Exhaustion aesthetic.
 **劇情位置**：
 - **時間點**：帝國歷113年5月 Act II Phase B，E-07a
 - **CDL追蹤**：E-07a；CDL-335（小光斷氣即場崩壞演出）；CDL-309（歌德尖刺屍骸化視覺系統）；aya.md §數據養殖計劃；`04_timeline_canon.md #event-ko-hikaru-death`（死因：屍骸攻擊，非小光自身戒斷發作）
-- **前置事件**：紫音戒斷惡化至冇反應能力，小光在屍骸攻擊中死亡（SPEC#22同一事件的不同角度）；紫音當場發癲攻擊附近其他屍骸
+- **前置事件**：SPEC#173 晴香拖長家長日行動 → 紫音被迫困耐咗更長時間、戒斷惡化至冇反應能力 → 紫音返去趁空隙睇小光先發現戒斷已到緊要關頭，未能及時保護小光 → 小光在屍骸攻擊中死亡（SPEC#22同一事件的不同角度）；紫音當場發癲攻擊附近其他屍骸
 - **本場景功能**：紫音崩壞演出的高潮瞬間——手血肉模糊、骨頭外露仍在笑，歌德尖刺初次浮現；黑奏的「邏輯」以畫面邊緣黑色文字段落的形式滲入，紫音的眼神開始從瘋狂轉向被說服
 - **後續payoff**：紫音被黑奏說服的心理入口；SPEC#4廢棄糖果工廠「屍骸女皇」形態的意識形態根源；紫音自己屍骸化進程的起點
 
@@ -2481,6 +2507,10 @@ Close shot of hands holding a framed photo of two girls. In the glass reflection
 ### 劇情背景
 
 依 `ACT_II_OUTLINE.md` Beat E-07c（CDL-319，時間**待 Beat Sheet 層精確排定**，暫定 Act II Phase B）：家長日的對象係**小光**（小光係在學學生本人）——**紫音以「家姐」身份出席，操扮「媽媽」**，唔係操扮紫音嘅家長。此場景屬 E-07c「悲鳴女妖二戰→家長日作戰」因果鏈的前段輕鬆喘息，最終導致小光屍骸化（E-07a）的前置日常。操心理層：扮「媽媽」= 渴望被人公開承認做媽媽（紗夜俾佢無條件愛但身份只係管家，紗夜此時未死）；反諷核心——呢日俾咗小光僅有嘅一日「正常家庭」幻象，直接帶出跟住嘅悲劇。**操變裝成年女性外貌嘅具體機制 canon 未明確支持**——`ayakomoji_misao.md` 明確操嘅魔法少女能力係「傀儡師——操控精緻人偶戰鬥」（操控外部人偶，非自身變身/易容），此場景嘅「扮演大人」應理解為非魔法性質嘅完美偽裝演技，標 `[NEEDS_FACT: 操的成人偽裝具體機制——魔法變身定純演技/化妝，canon未明確]`。
+
+**劇情位置**：
+- **前置事件**：SPEC#171 朔洩密（得知軍方高層將到訪小光學校，觸發本計劃）
+- **後續payoff**：SPEC#173 晴香拖長行動（家長日結束後晴香貪心拖長時間）→ 紫音戒斷惡化 → SPEC#38/80 小光之死＋黑奏邏輯侵入 / 小光死亡與屍骸化
 
 ### 圖片說明
 
@@ -4398,11 +4428,15 @@ Canvas: Square or widescreen
 
 ### 劇情背景
 
-小光（Ko Hikaru）係紫音在夜區遇到的流浪少年，成為她情感腐化弧中唯一真心連結者。E-07a 事件（113年5月，CDL-229）：小光在戒斷發作中意外死亡，紫音目睹。此係紫音 cascade 的起點——黑奏立刻介入「誘導解讀」，從情感創傷缺口滲入，令紫音的情緒毒品 Coping 策略面臨崩潰。**本場景視覺化的正是 E-07a 呢一刻本身**（小光死亡瞬間、身體轉化為廢鐵型屍骸）。小光屍骸化後，紫音在 E-07b 進入廢棄糖果工廠建立屍骸樂園，長期懷抱已屍骸化的小光坐在糖果王座上（CDL-236）——此為另一獨立時刻，見 SPEC#4。到 113年12月-114年1月 E-12「屍骸女王討伐」時，小光在紫音懷中徹底最終消散（CDL-242）——此為第三個、時間上分開好幾個月嘅獨立時刻（目前 130 場景清單未有專屬 spec 覆蓋），成為引爆紫音三位一體終極問題的導火線，亦是整個紫音悲劇弧中最深的珍寶珠符號回收節點（CDL-226）。呢三個時刻（E-07a死亡→E-07b屍骸樂園棲身→E-12最終消散）唔可以喺 spec 撰寫時混為同一場景。
+`[已對照canon修正 2026-07-25，同步SPEC#38已confirm嘅修正]` 原文「小光在戒斷發作中意外死亡」誤將死因歸咎於小光自身嘅戒斷發作——依 `04_timeline_canon.md #event-ko-hikaru-death` 同 `ACT_II_OUTLINE.md` E-07c 因果鏈，小光嘅死因係**屍骸攻擊**，唔係佢自己嘅戒斷發作：SPEC#173 晴香拖長家長日行動 → 紫音被迫困耐咗更長時間、戒斷惡化至冇反應能力 → 紫音返去趁空隙睇小光先發現戒斷已到緊要關頭，未能及時保護小光 → 小光在屍骸攻擊中死亡，紫音目睹。此係紫音 cascade 的起點——黑奏立刻介入「誘導解讀」，從情感創傷缺口滲入，令紫音的情緒毒品 Coping 策略面臨崩潰。**本場景視覺化的正是小光死亡瞬間、身體轉化為廢鐵型屍骸嘅一刻**。小光屍骸化後，紫音在 E-07b 進入廢棄糖果工廠建立屍骸樂園，長期懷抱已屍骸化的小光坐在糖果王座上（CDL-236）——此為另一獨立時刻，見 SPEC#4。到 113年12月-114年1月 E-12「屍骸女王討伐」時，小光在紫音懷中徹底最終消散（CDL-242）——此為第三個、時間上分開好幾個月嘅獨立時刻（目前 130 場景清單未有專屬 spec 覆蓋），成為引爆紫音三位一體終極問題的導火線，亦是整個紫音悲劇弧中最深的珍寶珠符號回收節點（CDL-226）。呢三個時刻（死亡→E-07b屍骸樂園棲身→E-12最終消散）唔可以喺 spec 撰寫時混為同一場景。
 
 ### 圖片說明
 
-小光是朱音在一片絕望中遇到的孩子，她把對弟弟的愧疚和對守護某人的渴望都投射在這個小女孩身上。然而小光就在朱音眼前死去，身體在崩潰中轉化為廢鐵般的形態——那一刻，朱音內心最後一點相信「我能保護重要之人」的希望也隨之破碎，她滑入了更深的黑暗。
+小光是朱音在一片絕望中遇到的孩子，她把對弟弟的愧疚和對守護某人的渴望都投射在這個小女孩身上。紫音因戒斷惡化到冇反應能力，未能及時保護小光，小光在屍骸攻擊中就在朱音眼前死去，身體在崩潰中轉化為廢鐵般的形態——那一刻，朱音內心最後一點相信「我能保護重要之人」的希望也隨之破碎，她滑入了更深的黑暗。
+
+**劇情位置**：
+- **前置事件**：SPEC#171 朔洩密 → SPEC#43 家長日大作戰 → SPEC#173 晴香拖長行動 → 紫音戒斷惡化冇反應能力，未能及時保護小光
+- **後續payoff**：SPEC#38 小光之死＋黑奏邏輯侵入（同一事件另一焦段）；SPEC#4 廢棄糖果工廠屍骸樂園
 
 **Reference Images**：
 - 小光：`ConceptArt_Ko_CasualWear.png`
@@ -9045,6 +9079,967 @@ Interior of an old industrial ventilation duct, narrow, dark, and oppressively c
 
 **處理方式**：本場景（SPEC#122）標記 `DELETE_CANDIDATE` 並停用，避免同SPEC#92同時被引用產生矛盾生成結果。如需保留「遞水/對白」呢個角度嘅獨立畫面，建議留待下一輪修正SPEC#92時，將完整canon台詞（含「我哋邊度都唔去」缺漏部分）一併補入SPEC#92本體，而非另開一個矛盾版本。本條目原文細節已移除，僅保留標題供追溯用途，`場景清單總覽`同`劇情位置速查表`已同步標記為DELETE_CANDIDATE並指向SPEC#92。
 
+
+---
+
+## 圖171：「朔洩密」（Saku Leaks the Tip-Off）[ACT_II] `[新增缺失場景 2026-07-25]`
+
+**建議輸出文件名**：`ConceptArt_Scene_171_Saku_LeaksInfo.png`
+
+### 劇情背景
+
+依 `ACT_II_OUTLINE.md` Beat E-07c（CDL-319）：「悲鳴女妖二戰→家長日作戰」因果鏈嘅起始步驟。朔（暗中觀察美夜子/屍骸相關事務期間）知情軍方高層會去小光讀嘅學校，向團隊透露此消息——呢個消息直接觸發咗跟住嘅「家長日潛入」計劃（SPEC#43）。依 CDL-319 設計，本次朔淨係一個人出場（唔帶凜），以純「屍骸獵人」影子過場姿態暗中協助，扣連朔本身漸進式身份揭露設計（CDL-090）；凜留返 E-11 愛莉風暴先首次聯合現身。
+
+### 圖片說明
+
+朔以慣常嘅陰影過場姿態現身，向晴香、紫音、操等人低調透露一個情報：軍方高層即將到訪小光讀嘅學校。他冇多加解釋、冇久留，交低消息就準備退返暗處——呢個係佢「屍骸獵人」身份嘅一貫做法：出手相助但唔介入、唔求任何回報或感激。團隊聽到消息後神情各異，一個原本平凡嘅日常計劃（家長日潛入）就此展開，最終卻走向意想不到嘅悲劇。
+
+**劇情位置**：
+- **時間點**：帝國歷113年，Act II Phase B，E-07c 前段（CDL-319）
+- **CDL追蹤**：CDL-319（悲鳴女妖二戰→家長日作戰因果鏈）；CDL-090（朔漸進式身份揭露設計）
+- **前置事件**：朔暗中觀察美夜子/屍骸相關事務期間得知軍方行程
+- **本場景功能**：觸發「家長日潛入」計劃嘅情報起點；朔以「屍骸獵人」身份單獨出場暗中協助嘅其中一例
+- **後續payoff**：SPEC#43 家長日大作戰（潛入計劃本身）；SPEC#173 晴香拖長行動；SPEC#38/80 小光死亡與屍骸化（因果鏈終點）
+
+**Reference Images**：
+- 朔：`ConceptArt_Saku_CasualWear.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 紫音：`ConceptArt_Akane_CasualWear.png`
+- 操：`ConceptArt_Misao_CasualWear.png`
+
+**簡化核心描述**：
+朔以陰影過場姿態現身，低調向晴香、紫音、操等人透露軍方高層將到訪小光學校嘅消息。他交低情報就準備退返暗處，冇久留冇多言——這是他一貫「出手相助但不介入」嘅屍骸獵人作風。團隊聽到消息後神情各異，一個看似平常嘅計劃就此展開。
+
+**生成提示**：
+```
+Style: dark urban shadow figure, brief covert exchange, understated tension
+Mood: quiet tip-off, information passed without fanfare, a helper who never lingers
+Colors: dim alley or rooftop tones, muted urban palette, cool shadow contrast against the group's daylight tones
+Composition: Saku at the edge of shadow/frame, already half-turned to leave; the group reacting to the news in the foreground
+Lighting: low-key backlit silhouette for Saku, natural light on the listening group
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖172：「秋穗第二次相遇——無臉執行官」（Akiho's Second Encounter as the Faceless Executor）[ACT_II] `[新增缺失場景 2026-07-25]`
+
+**建議輸出文件名**：`ConceptArt_Scene_172_Akiho_SecondEncounter_FacelessExecutor.png`
+
+### 劇情背景
+
+依 `ACT_II_OUTLINE.md` Beat E-07c（CDL-319）：「悲鳴女妖二戰→家長日作戰」因果鏈嘅一部分。無臉執行官（未來失敗時間線嘅秋穗，SPEC#16已建立嘅同一存在）第二次與晴香相遇。此刻秋穗狀態為「無意識兵器」——執念促動但無自主認知，唔知道自己嘅真實身份，亦唔知道晴香係邊個。呢次相遇可能有微妙行為洩露（對晴香嘅傾向？），但唔構成任何自覺嘅接觸或對話。視覺形態同 SPEC#16「悲鳴女妖首戰」一致：177cm 高挑身形，純白緊身戰鬥服，深紫色長髮部分遮蓋臉部，臉部完全溶解為星空/星雲質感（無眼無鼻無嘴），雙手化為紫藍能量長刃。
+
+### 圖片說明
+
+無臉執行官再次出現在晴香面前——同 SPEC#16 首戰時一樣嘅純白戰鬥服身影，臉部溶解為星空質感。但呢一次冇正面戰鬥嘅緊迫感，反而係一個更加曖昧、令人不安嘅片刻：執行官嘅動作/視線有一瞬間嘅遲疑或偏移，彷彿有啲乜嘢喺佢嘅執念底下微微浮動，然後又隨即被功能性嘅冷漠覆蓋。晴香再一次感受到嗰種講唔清嘅直覺熟悉感，但依然無人察覺、無人指出。
+
+**劇情位置**：
+- **時間點**：帝國歷113年，Act II Phase B，E-07c（CDL-319）
+- **CDL追蹤**：CDL-319（因果鏈）；CDL-136（無臉執行官身份+晴香熟悉感，沿用自SPEC#16）；akiho.md §未來形態
+- **前置事件**：SPEC#16 悲鳴女妖首戰（第一次相遇，建立視覺形態同晴香嘅直覺熟悉感）
+- **本場景功能**：第二次相遇，強化「秋穗執念促動但無自主認知」呢個設定，並留下「可能有微妙行為洩露」嘅伏筆，唔構成自覺接觸
+- **後續payoff**：Act III/IV 無臉執行官真相揭露（`04_timeline_canon.md #event-faceless-truth`）
+
+**Reference Images**：
+- 秋穗（無臉執行官形態）：`ConceptArt_Akiho_Boss.png`
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+
+**簡化核心描述**：
+無臉執行官（純白緊身戰鬥服、臉部溶解為星空質感）再次出現在晴香面前。冇正面戰鬥嘅緊迫感，反而係一個曖昧、令人不安嘅片刻——執行官嘅動作有一瞬間嘅遲疑，彷彿執念底下有啲乜嘢微微浮動，隨即又被功能性冷漠覆蓋。晴香再次感受到講唔清嘅直覺熟悉感。
+
+**生成提示**：
+```
+Style: dark magical girl illustration, unsettling ambiguous encounter, restrained tension
+Mood: not a battle — an uncanny pause; something flickers beneath cold functional programming, then is suppressed
+Colors: cold industrial night palette, faceless executor's stark white suit against dark ruins, faint purple-blue energy glow
+Composition: the faceless executor at mid-distance, a subtle hesitation in posture; Haruka in foreground with a confused, searching expression
+Lighting: cold moonlight and residual energy glow, no combat flash
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖173：「晴香拖長行動」（Haruka Prolongs the Operation）[ACT_II] `[新增缺失場景 2026-07-25]`
+
+**建議輸出文件名**：`ConceptArt_Scene_173_Haruka_ProlongsOperation.png`
+
+### 劇情背景
+
+依 `ACT_II_OUTLINE.md` Beat E-07c（CDL-223「Plausible Deniability」）：家長日潛入（SPEC#43）順利進行之後，晴香因想攞多啲物資、亦想留耐啲享受呢日難得嘅快樂而拖長咗行動時間——呢個善意/貪玩嘅決定，代價被溫馨嘅表象包裝住，令紫音（以「家姐」身份出席、同時仍要應付自己嘅戒斷狀態）被迫困耐咗更長時間。呢個場景係跟住嘅悲劇（紫音戒斷惡化、返去趁空隙睇小光先發現戒斷已到緊要關頭、小光死於屍骸襲擊）嘅直接前因——反諷核心係「呢日俾咗小光僅有嘅一日正常家庭幻象」，但同一日嘅「樂極」正正直接導致跟住嘅「生悲」。
+
+### 圖片說明
+
+家長日行動已經順利完成，但晴香唔捨得咁快結束——佢想多攞啲物資、想再多留一陣享受呢種難得嘅、近乎正常嘅快樂日子。佢拉住紫音或者操，用開心、撒嬌或者滿不在乎嘅語氣提議「再留一陣」。紫音嘅表情開始出現一絲不易察覺嘅緊繃——佢自己心知肚明時間拖得太長，但喺呢個溫馨嘅氣氛下，佢冇辦法直接拒絕或解釋原因。晴香完全冇意識到呢個提議背後嘅代價。
+
+**劇情位置**：
+- **時間點**：帝國歷113年，Act II Phase B，E-07c（CDL-223 Plausible Deniability）
+- **CDL追蹤**：CDL-223（Plausible Deniability——善意/貪玩包裝代價）；CDL-319（因果鏈）
+- **前置事件**：SPEC#43 家長日大作戰（潛入行動本身已完成）
+- **本場景功能**：善意驅動嘅「拖長」決定，令紫音被迫困耐咗更長時間，直接埋下跟住戒斷惡化嘅伏筆；反諷核心「樂極生悲」嘅具現化
+- **後續payoff**：紫音返去趁空隙睇小光先發現戒斷已到緊要關頭 → SPEC#38 小光之死＋黑奏邏輯侵入；SPEC#80 小光死亡與屍骸化
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 紫音：`ConceptArt_Akane_CasualWear.png`
+
+**簡化核心描述**：
+家長日行動已完成，晴香卻捨不得結束，開心地提議「再留一陣」，想多攞啲物資、多享受呢種難得嘅正常日子。紫音表情浮現一絲不易察覺嘅緊繃——她心知時間拖得太長，但喺溫馨氣氛下無法解釋原因。晴香完全冇意識到呢個提議背後嘅代價。
+
+**生成提示**：
+```
+Style: warm daily-life slice, subtle dramatic irony beneath a cozy surface
+Mood: innocent happiness on one side, quietly mounting tension on the other — a kindness with a hidden cost
+Colors: warm afternoon school/street tones, soft golden light contrasting with a faint cold undertone in Shion's expression
+Composition: Haruka mid-gesture (playful, persuasive), Shion slightly turned away or hand clenched subtly, the happy scene continuing around them
+Lighting: warm natural daylight, soft and inviting
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖174：「被迫入局」（Forced Into the Game）[ACT_I] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#1]`
+
+**建議輸出文件名**：`ConceptArt_Scene_174_Haruka_ForcedIntoTheGame.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「1. 被迫入局」：晴香只是普通學生，意外看見魔法少女戰鬥後，被美夜子交出變身裝置，正式被拖入不能回頭的世界。此為 Act I 開場種子 beat，具體時序（喺 E-01 首戰之前定同期）待 Beat Sheet 層精確排定。
+
+### 圖片說明
+
+晴香一個普通學生，意外目擊咗一場魔法少女戰鬥——美夜子喺硝煙同破壞之中戰鬥。戰後，美夜子將變身裝置交到晴香手上，眼神帶住一種「呢一步冇得返轉頭」嘅重量。晴香望住手上呢件陌生嘅物件，表情混雜住震撼、疑惑、同一絲講唔清嘅命定感。
+
+**劇情位置**：
+- **時間點**：Act I 開場（時序待 Beat Sheet 層確認）
+- **CDL追蹤**：待 Beat Sheet 層正式編配 CDL
+- **本場景功能**：Act I 開場種子——晴香由普通學生被動拖入魔法少女世界嘅起點
+- **後續payoff**：SPEC#175 四人組隊；SPEC#19 變身場景
+
+**Reference Images**：
+- 晴香（校服）：`ConceptArt_Haruka_SchoolUnifrom.png`
+- 美夜子：`ConceptArt_Miyako_CasualWear.png`
+
+**簡化核心描述**：
+晴香意外目擊美夜子戰鬥後的殘局，美夜子將變身裝置交到她手上，眼神帶著一種不可逆的重量。晴香望著手中陌生的物件，表情混雜著震撼、疑惑與一絲說不清的命定感。
+
+**生成提示**：
+```
+Style: quiet aftermath of battle, ordinary girl meets extraordinary world
+Mood: irreversible threshold moment, awe mixed with unease
+Colors: smoke-tinged dusk light, contrast between Haruka's ordinary school uniform and Miyako's battle-worn magical girl form
+Composition: Miyako handing over a small device, Haruka's hands slowly reaching to accept it, battle debris in background
+Lighting: dim post-battle haze with a single shaft of light on the device
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖175：「四人組隊」（The Four-Girl Team Forms）[ACT_I] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#2]`
+
+**建議輸出文件名**：`ConceptArt_Scene_175_FourGirlTeam_Forms.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「2. 四人組隊」：晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊。此為 Act I 早期建隊 beat，具體時序待 Beat Sheet 層確認。
+
+### 圖片說明
+
+四人（晴香、紫音、操、彩）並非因為友誼行埋一齊，而係因為屍骸危機同魔法少女制度嘅安排被迫組隊。畫面捕捉呢個「被迫依賴」嘅微妙氣氛——四人企埋一齊，肢體語言各自保持距離，眼神交流帶住互相試探、唔完全信任，但同時因為共同處境而產生嘅初步默契。
+
+**劇情位置**：
+- **時間點**：Act I 早期（時序待 Beat Sheet 層確認）
+- **本場景功能**：四人小隊正式成形——強調「被迫依賴」而非「自然友誼」呢個核心設定
+- **後續payoff**：SPEC#37 打怪無效；四人日後嘅羈絆同衝突發展基礎
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 紫音：`ConceptArt_Akane_MagicalGirl.png`
+- 操：`ConceptArt_Misao_MagicalGirl.png`
+- 彩：`ConceptArt_Aya_MagicalGirl_1.png`
+
+**簡化核心描述**：
+四人（晴香、紫音、操、彩）因屍骸危機與制度安排被迫組隊，而非自然成為朋友。四人並排而立，肢體語言各自保持微妙距離，眼神帶著試探與不完全信任，但因共同處境而有初步默契。
+
+**生成提示**：
+```
+Style: uneasy alliance formation, four distinct personalities forced together
+Mood: cautious proximity, not friendship yet — a functional necessity
+Colors: cool urban backdrop, each character's signature color kept distinct rather than harmonized
+Composition: four figures loosely grouped, body language showing subtle distance between them
+Lighting: overcast neutral daylight, no warm unifying glow
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖176：「膠布哲學第二層——紫音撕開偶像形象」（Bandaid Philosophy Layer 2: Akane Tears the Idol Mask）[ACT_I] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#8]`
+
+**建議輸出文件名**：`ConceptArt_Scene_176_BandaidPhilosophy_Layer2.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「8. 膠布哲學第二層」：紫音第一次正面撕開晴香的偶像形象——不是攻擊，而是拒絕讓她繼續用完美表演覆蓋傷口：「妳以為貼住張貼紙，個傷口就會好？」這是系統批判，也是第二層膠布：用他人的直接衝擊去揭露自己的迴避。此場景同 SPEC#20「膠布哲學三層」並置場景為互補關係，SPEC#20 係三場景並置嘅整體呈現，本場景聚焦呢一句對白嘅具體對峙時刻。
+
+### 圖片說明
+
+紫音正面直視晴香，講出咗一句令晴香愣住嘅說話：「妳以為貼住張貼紙，個傷口就會好？」呢一刻唔係惡意攻擊，而係紫音拒絕再睇住晴香用完美偶像表演掩蓋內在傷口。晴香嘅笑容第一次僵住，眼神中閃過一絲被戳中嘅震動。
+
+**劇情位置**：
+- **時間點**：Act I（時序待 Beat Sheet 層確認）
+- **CDL追蹤**：CDL-070（膠布哲學種子）延伸
+- **本場景功能**：膠布哲學第二層——用他人嘅直接衝擊揭露自己嘅迴避
+- **後續payoff**：SPEC#20 膠布哲學三層並置；Act IV 膠布哲學第四層（SPEC#129）嘅前置種子
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 紫音：`ConceptArt_Akane_CasualWear.png`
+
+**簡化核心描述**：
+紫音正面直視晴香，說出「妳以為貼住張貼紙，個傷口就會好？」——不是攻擊，而是拒絕讓晴香繼續用完美表演覆蓋傷口。晴香的笑容第一次僵住，眼神閃過被戳中的震動。
+
+**生成提示**：
+```
+Style: quiet confrontation, one line of dialogue cutting through a practiced smile
+Mood: uncomfortable truth breaking through a performance
+Colors: muted daily-life palette, sudden emotional coldness in Haruka's expression
+Composition: Shion facing Haruka directly, close framing on Haruka's cracking smile
+Lighting: flat ordinary daylight, no dramatic flair — the mundane setting makes the line land harder
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖177：「秋穗暗線——與刑思交易的起點」（Akiho's Secret Deal Begins）[ACT_II] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#6]`
+
+**建議輸出文件名**：`ConceptArt_Scene_177_Akiho_SecretDealBegins.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「6. 秋穗暗線」：秋穗表面是可靠技術支援，暗中卻為救女兒愛莉，開始與刑思交易，埋下背叛伏線。呢個係秋穗與刑思交易關係嘅**起點**，同 SPEC#71（Act II中期血糖手錶後門偷數據）係唔同時間點嘅獨立事件——本場景聚焦交易關係嘅建立本身。
+
+### 圖片說明
+
+秋穗喺一個隱密嘅空間同黑奏（刑思）會面——表面上佢仍然係晴香信任嘅溫暖阿姨、可靠技術支援，但呢一刻嘅她做緊一個冇人知道嘅決定：以科學服務換取繼續研究復活愛莉嘅資源。她嘅表情混雜住職業性嘅冷靜同深藏嘅母親執念，兩者喺呢個交易時刻融合為一。
+
+**劇情位置**：
+- **時間點**：Act II（時序待 Beat Sheet 層確認）
+- **CDL追蹤**：`akiho.md` §與魔鬼的契約
+- **本場景功能**：秋穗與黑奏交易關係嘅建立起點，埋下後續背叛伏線
+- **後續payoff**：SPEC#71 母親之愛的背面（Act II中期偷數據）；SPEC#185/186 秋穗交出弱點／母親墜落（Act III）
+
+**Reference Images**：
+- 秋穗：`ConceptArt_Akiho_CasualWear.png`
+- 黑奏：`ConceptArt_Kurosou_CasualWear.png`
+
+**簡化核心描述**：
+秋穗在隱密空間與黑奏會面，表面仍是溫暖可靠的技術支援，暗中卻在為救女兒愛莉展開交易。她的表情混雜職業冷靜與深藏的母親執念，兩者在此刻融合。
+
+**生成提示**：
+```
+Style: quiet clandestine meeting, professional facade masking a mother's desperation
+Mood: the first compromise, made with clear eyes and no turning back
+Colors: cold clinical tones with a faint warm undertone hinting at maternal motive
+Composition: Akiho and Kurokane facing each other in a dim private space, documents or a device between them
+Lighting: single overhead light, harsh shadows emphasizing the secrecy
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖178：「帝國清算」（The Empire's Reckoning）[ACT_II] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#5]`
+
+**建議輸出文件名**：`ConceptArt_Scene_178_Empire_Reckoning.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「5. 帝國清算」：帝國把失控影像當成證據，推動反魔法少女輿論，將晴香塑造成必須被清除的社會威脅。此場景緊接住 SPEC#51「飢餓的天使——直播失控」之後發生。
+
+### 圖片說明
+
+城市各處嘅螢幕反覆播放住晴香直播失控嘅片段，帝國透過官方媒體渠道將呢段影像包裝成「證據」，推動反魔法少女嘅輿論浪潮。市民嘅表情由崇拜轉為恐懼、由恐懼轉為敵視，官方宣傳畫面同民眾反應交織，呈現一個「國民天使」如何被制度性咁塑造成「必須被清除嘅威脅」。
+
+**劇情位置**：
+- **時間點**：Act II（E-09後）
+- **本場景功能**：帝國利用失控影像操控輿論，將晴香定性為社會威脅
+- **前置事件**：SPEC#51 飢餓的天使——直播失控
+- **後續payoff**：SPEC#179 形象商品化；Act II後續帝國對晴香嘅追捕/清算行動
+
+**Reference Images**：
+- 晴香（直播失控畫面）：`ConceptArt_Haruka_MagicalGirl.png`
+
+**簡化核心描述**：
+城市螢幕反覆播放晴香直播失控的片段，帝國官方媒體將其包裝成「證據」，推動反魔法少女輿論。市民表情由崇拜轉為恐懼再轉為敵視，官方宣傳與民眾反應交織。
+
+**生成提示**：
+```
+Style: dystopian media propaganda, public opinion manipulation
+Mood: cold institutional menace disguised as public safety messaging
+Colors: harsh screen-blue glow across a crowded public space, red warning graphics overlaid
+Composition: multiple large screens replaying the same footage, crowd silhouettes reacting below
+Lighting: cold screen light dominating the scene, night cityscape background
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖179：「形象商品化」（Image Commodified）[ACT_II] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#6]`
+
+**建議輸出文件名**：`ConceptArt_Scene_179_Image_Commodified.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「6. 形象商品化」，並依 `canon/03_characters/haruka.md`：晴香的經理人沒有保護她，反而把她的怪物形象包裝成上癮商品出售——她戰鬥中記錄的最私密絕望情緒數據，被賣給毒品公司製成限量版「Fallen Angel（墮落天使）」安普膠囊。經理人以「首席宣傳顧問」身份加入情緒管理局，親手關閉直播光幕濾鏡、操縱鏡頭策劃晴香的社死。**`[NEEDS_FACT]`：經理人角色暫未有專屬 concept art reference，標 `[NO_REF]`。**
+
+### 圖片說明
+
+晴香嘅崩潰畫面被製成商品陳列——「Fallen Angel」限量版安普膠囊嘅包裝上印住晴香扭曲、痛苦嘅畫面，經理人喺背景中冷靜咁監督緊呢盤生意。晴香嘅痛苦，已經被完全封裝成消費品出售，而佢對此毫不知情。
+
+**劇情位置**：
+- **時間點**：Act II（E-09後）
+- **CDL追蹤**：CDL-159/160/161（`haruka.md` §經理人背叛）
+- **前置事件**：SPEC#178 帝國清算
+- **本場景功能**：晴香的痛苦被制度性商品化嘅視覺具現
+- **後續payoff**：晴香社會性死亡嘅完整脈絡；Act III晴香對制度嘅徹底幻滅
+
+**Reference Images**：
+- 晴香（商品包裝畫面）：`ConceptArt_Haruka_MagicalGirl.png`
+- 經理人：`[NO_REF — canon未見專屬concept art，暫無法核對外觀]`
+
+**簡化核心描述**：
+晴香的崩潰畫面被製成「Fallen Angel」限量版商品，包裝上印著她扭曲痛苦的畫面。經理人在背景中冷靜監督這盤生意，晴香的痛苦已被完全封裝成消費品，而她對此毫不知情。
+
+**生成提示**：
+```
+Style: dystopian commercial product design, dark commentary on commodified suffering
+Mood: cold corporate exploitation, dissonance between packaging aesthetics and the pain depicted
+Colors: sleek dark packaging with glossy highlights, Haruka's image in distress printed on the product
+Composition: product display in foreground, a shadowy manager figure overseeing in the background
+Lighting: showroom-style product lighting, artificial and clinical
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖180：「愛莉地底抵消」（Aeri's Quiet Counteraction Underground）[ACT_II] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#9]`
+
+**建議輸出文件名**：`ConceptArt_Scene_180_Aeri_QuietCounteraction.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「9. 愛莉地底抵消」：愛莉雖然被困成石像，仍在精神世界中替母親收拾後果，像紙皮騎士一樣默默斬斷毒品侵蝕。此場景同 SPEC#59/60/65（紙皮騎士守護隊友）為相關但不同焦點嘅場景——嗰幾個聚焦「保護隊友」，本場景聚焦「默默抵消母親造成嘅傷害」。
+
+### 圖片說明
+
+喺精神世界深處，愛莉以紙皮騎士形態獨自面對住由 Emo-Visor 毒品侵蝕擴散而成嘅黑色觸手/污染。冇任何人知道佢喺度做緊呢件事——佢默默用紙劍斬斷一條又一條侵蝕嘅根源，替母親秋穗嘅罪孽默默收拾殘局，紙裝備上累積住新舊交疊嘅膠帶修補痕跡。
+
+**劇情位置**：
+- **時間點**：Act II（時序待 Beat Sheet 層確認）
+- **前置事件**：SPEC#181 秋穗毒品擴散
+- **本場景功能**：愛莉默默替母親收拾後果，強化「愛莉一直喺度但無人知道」嘅悲劇性
+- **後續payoff**：SPEC#59/60/65 紙皮騎士守護系列；SPEC#106 愛莉的第二次改變現實決定
+
+**Reference Images**：
+- 愛莉（紙皮騎士形態）：`ConceptArt_Aeri_CasualWear_Child.png`
+
+**簡化核心描述**：
+愛莉以紙皮騎士形態獨自在精神世界深處，面對由Emo-Visor毒品侵蝕擴散而成的黑色污染，默默用紙劍斬斷一條又一條侵蝕根源，替母親秋穗的罪孽默默收拾殘局，無人知曉。
+
+**生成提示**：
+```
+Style: solitary quiet heroism, cardboard-armor knight against abstract corruption
+Mood: unseen sacrifice, a child cleaning up an adult's sin with no witness or reward
+Colors: dark corrupted tendrils in sickly purple-black, Aeri's cardboard armor warm brown against the cold void
+Composition: small lone figure cutting through spreading dark tendrils in a vast empty mental space
+Lighting: faint ambient glow from Aeri herself, otherwise near-total darkness
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖181：「秋穗毒品擴散」（Akiho's Drug Spreads）[ACT_II] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#8]`
+
+**建議輸出文件名**：`ConceptArt_Scene_181_Akiho_DrugSpreads.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「8. 秋穗毒品擴散」：秋穗為了換回女兒愛莉，繼續研究Emo-Visor；帝國利用這種毒品，把全城痛苦變成可管理的資源。此場景同 SPEC#27（Act I血糖手錶研發）、SPEC#167（Emo-Visor Gen 3世界觀設定圖）為相關但不同焦點——本場景聚焦秋穗喺 Act II 主動選擇繼續研究嘅決定時刻。
+
+### 圖片說明
+
+秋穗喺實驗室繼續深化 Emo-Visor 嘅研究，四周擺滿數據螢幕同裝置原型。畫面同時呈現帝國方面將呢項技術大規模部署到日區各處嘅場景——市民日常配戴住 Emo-Visor 裝置，痛苦被轉化為可管理、可收割嘅資源。秋穗嘅專注神情同帝國嘅規模化利用形成強烈對比。
+
+**劇情位置**：
+- **時間點**：Act II（時序待 Beat Sheet 層確認）
+- **前置事件**：SPEC#177 秋穗暗線
+- **本場景功能**：秋穗主動選擇繼續研究，帝國同時將技術規模化利用嘅雙線並置
+- **後續payoff**：SPEC#167 Emo-Visor Gen 3世界觀設定；SPEC#180 愛莉地底抵消
+
+**Reference Images**：
+- 秋穗：`ConceptArt_Akiho_CasualWear.png`
+
+**簡化核心描述**：
+秋穗在實驗室繼續深化Emo-Visor研究，四周佈滿數據螢幕與裝置原型。畫面同時呈現帝國將技術規模化部署到日區的場景，市民痛苦被轉化為可管理的資源，與秋穗的專注神情形成對比。
+
+**生成提示**：
+```
+Style: split narrative — solitary research vs mass deployment
+Mood: a mother's singular focus enabling a citywide exploitation system
+Colors: cold clinical lab blue on one side, populated urban daylight on the other
+Composition: split or layered composition — Akiho at her workstation, faint overlay of citizens wearing Emo-Visor devices in the city beyond
+Lighting: lab fluorescent light contrasted with hazy daylight cityscape
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖182：「彩/刑思同體——晴香發現真相」（Haruka Discovers Aya and Keishi Share a Body）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#1]`
+
+**建議輸出文件名**：`ConceptArt_Scene_182_Haruka_DiscoversAyaKeishi.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「1. 彩/刑思同體」（Act III開場）：晴香以為身邊的葉語彩只是同班同學，真相卻是她與暴君刑思共用同一個身體，親近感變成威脅。此場景同 SPEC#105（黑奏刻意執行嘅公開真身揭露，帝國廣場，Phase J開場）為唔同事件——本場景聚焦晴香個人層面初次發現真相嘅私密衝擊時刻。
+
+### 圖片說明
+
+晴香得知一直當成同班同學嘅彩，同佢一直以為係外部敵人嘅暴君刑思，原來共用同一個身體。呢一刻，晴香面對嘅唔係「打低敵人」咁簡單，而係「原來一直喺我身邊嘅溫柔朋友，同殺人如麻嘅暴君係同一個人」呢個令人窒息嘅認知崩塌。親近感喺呢一刻直接轉化為威脅感。
+
+**劇情位置**：
+- **時間點**：Act III 開場
+- **本場景功能**：晴香個人層面初次發現彩/刑思同體真相嘅衝擊時刻
+- **後續payoff**：SPEC#105 黑奏真身揭露（帝國廣場公開場合）；SPEC#104 黑奏與晴香的病態愛恨對峙
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 彩：`ConceptArt_Aya_CasualWear.png`
+
+**簡化核心描述**：
+晴香得知一直當成同班同學的彩，與她以為的外部暴君刑思原來共用同一個身體。親近感在這一刻直接轉化為威脅感，認知崩塌的震撼取代了單純的戰鬥恐懼。
+
+**生成提示**：
+```
+Style: intimate psychological horror, betrayal through revelation not violence
+Mood: the ground giving way beneath a trusted friendship
+Colors: Haruka's world momentarily desaturating around Aya's still-familiar face
+Composition: close two-shot, Haruka's stunned expression, Aya's face rendered ambiguous between friend and threat
+Lighting: harsh single-source light creating a divide across Aya's face
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖183：「共痛計劃」（The Shared Pain Plan）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#2]`
+
+**建議輸出文件名**：`ConceptArt_Scene_183_SharedPainPlan.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「2. 共痛計劃」：刑思提出把全人類神經連起來：任何人傷害別人，自己也會同樣痛，表面上是終結暴力。
+
+### 圖片說明
+
+刑思（黑奏）以帝國統治者姿態，向晴香或者向全城宣告「共痛計劃」——一個將全人類神經連結嘅宏大構想，表面上崇高、以終結暴力為名。畫面呈現刑思冷靜、近乎理性演講者嘅姿態，背景可能有全息投影展示緊呢個計劃嘅概念圖，同刑思一貫嘅冷酷形成矛盾嘅「拯救者」姿態。
+
+**劇情位置**：
+- **時間點**：Act III 早段
+- **本場景功能**：刑思提出「共痛計劃」嘅宣告時刻，表面崇高實質恐怖嘅意識形態揭示起點
+- **後續payoff**：SPEC#184 自由被取消
+
+**Reference Images**：
+- 黑奏／刑思：`ConceptArt_Kurosou_CasualWear.png`
+
+**簡化核心描述**：
+刑思以帝國統治者姿態宣告「共痛計劃」——將全人類神經連結，任何人傷害別人自己也會同樣痛，表面上以終結暴力為名。冷靜近乎理性演講者的姿態，背景或有全息投影展示計劃概念圖。
+
+**生成提示**：
+```
+Style: cold authoritarian proclamation, utopian rhetoric masking horror
+Mood: calm, reasonable delivery of a terrifying idea
+Colors: imperial dark purple and gold, holographic blue projection accents
+Composition: Keishi centered in a commanding pose, holographic diagram of interconnected neural network behind
+Lighting: dramatic uplighting emphasizing authority
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖184：「自由被取消」（Freedom Revoked）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#3]`
+
+**建議輸出文件名**：`ConceptArt_Scene_184_Freedom_Revoked.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「3. 自由被取消」：共痛計劃真正可怕之處，是它用「不再有人受傷」做理由，剝奪所有人的隱私、選擇與自我邊界。
+
+### 圖片說明
+
+城市市民嘅日常生活被「共痛計劃」全面監控滲透——每個人嘅私人空間、選擇、自我邊界都被以「保護」之名剝奪。畫面呈現一種表面秩序井然、實質令人窒息嘅監控日常：市民行為被規範化、情緒被監測、個體性逐漸消失喺集體「安全」嘅假象之下。
+
+**劇情位置**：
+- **時間點**：Act III 早段
+- **前置事件**：SPEC#183 共痛計劃
+- **本場景功能**：共痛計劃真正代價嘅具現——以安全之名嘅全面自由剝奪
+
+**Reference Images**：
+- 無角色（世界觀/市民群像）：`[NO_REF — 世界觀設定圖，冇特定角色]`
+
+**簡化核心描述**：
+城市市民的日常生活被「共痛計劃」全面監控滲透，私人空間、選擇、自我邊界都被以「保護」之名剝奪。表面秩序井然、實質令人窒息的監控日常，個體性逐漸消失在集體「安全」的假象之下。
+
+**生成提示**：
+```
+Style: dystopian surveillance daily life, oppressive order disguised as safety
+Mood: quiet suffocation beneath a veneer of utopian order
+Colors: sterile uniform tones, cold institutional lighting
+Composition: wide shot of uniformly behaving citizens under monitoring devices/screens
+Lighting: even, shadowless institutional lighting — no warmth anywhere
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖185：「秋穗交出弱點」（Akiho Hands Over Haruka's Weakness）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#4]`
+
+**建議輸出文件名**：`ConceptArt_Scene_185_Akiho_HandsOverWeakness.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「4. 秋穗交出弱點」：刑思要求秋穗交出晴香的能力資料與弱點；秋穗必須在保護晴香與拯救愛莉之間作選擇。此場景係 Act III 嘅直接對抗要求時刻，同 SPEC#71（Act II中期偷數據）為時序上分開嘅獨立事件。
+
+### 圖片說明
+
+刑思（黑奏）直接向秋穗攤牌，要求佢交出晴香嘅能力資料同弱點分析。秋穗企喺呢個抉擇嘅十字路口——手上可能拎住一份數據文件或者裝置，面對刑思冷靜而具威脅性嘅要求，內心喺「保護晴香」同「拯救愛莉」之間激烈拉扯。
+
+**劇情位置**：
+- **時間點**：Act III 中段
+- **前置事件**：SPEC#177 秋穗暗線
+- **本場景功能**：刑思正式攤牌要求，逼秋穗做出最終抉擇
+- **後續payoff**：SPEC#186 母親墜落
+
+**Reference Images**：
+- 秋穗：`ConceptArt_Akiho_CasualWear.png`
+- 黑奏／刑思：`ConceptArt_Kurosou_CasualWear.png`
+
+**簡化核心描述**：
+刑思直接向秋穗攤牌，要求交出晴香的能力資料與弱點分析。秋穗站在抉擇的十字路口，手中或拿著數據文件，面對刑思冷靜而具威脅性的要求，內心在保護晴香與拯救愛莉之間激烈拉扯。
+
+**生成提示**：
+```
+Style: tense ultimatum, quiet psychological pressure
+Mood: an impossible choice being forced into the open
+Colors: cold clinical setting, Akiho's anxious warmth against Keishi's icy composure
+Composition: Keishi extending a demand (gesture toward a data device), Akiho gripping documents, visible internal conflict
+Lighting: harsh single overhead light isolating the two figures
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖186：「母親墜落」（The Mother's Fall）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#5]`
+
+**建議輸出文件名**：`ConceptArt_Scene_186_Mother_Fall.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「5. 母親墜落」：秋穗最後選擇出賣晴香，因為她相信只要能救回愛莉，其他人的代價都可以被犧牲。
+
+### 圖片說明
+
+秋穗獨自一人做出最終決定——將晴香嘅資料交出去。呢一刻冇任何戲劇化嘅掙扎表演，只有一個母親清醒咁選擇「其他人嘅代價都可以被犧牲」呢個信念嘅具現。她嘅表情平靜得可怕，手上完成緊最後嘅背叛動作（傳送資料/簽署文件/交出裝置）。
+
+**劇情位置**：
+- **時間點**：Act III 中段
+- **前置事件**：SPEC#185 秋穗交出弱點
+- **本場景功能**：秋穗弧光嘅道德墜落時刻——「結果才是一切」信念嘅終極實踐
+- **後續payoff**：後續劇情嘅晴香資料外洩/被利用；秋穗最終救贖弧光嘅對照起點
+
+**Reference Images**：
+- 秋穗：`ConceptArt_Akiho_CasualWear.png`
+
+**簡化核心描述**：
+秋穗獨自完成最終的背叛決定——交出晴香的資料。沒有戲劇化的掙扎表演，只有一個母親清醒地選擇「其他人的代價都可以被犧牲」這個信念的具現，表情平靜得可怕。
+
+**生成提示**：
+```
+Style: quiet moral collapse, chilling calm rather than dramatic anguish
+Mood: a decision made with full awareness of its cost, and made anyway
+Colors: cold desaturated palette, single harsh light on Akiho's hands completing the act
+Composition: close on hands finalizing the betrayal (transmitting data / signing / handing over a device), Akiho's face calm in the background
+Lighting: stark, isolating single-source light
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖187：「回到學校——兩週人質恐怖事件」（Back to School: The Two-Week Hostage Terror）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#1]`
+
+**建議輸出文件名**：`ConceptArt_Scene_187_BackToSchool_HostageTerror.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「1. 回到學校」：帝國策劃校園恐懼事件，強迫主角群在死亡威脅下繼續扮演普通同學，令安全的校園變成心理刑場。**⚠️ 命名衝突提醒**：本場景（Act III）同 SPEC#81「恐怖家家酒（學校）」（Act II，黑奏/彩滲透期）雖然中文標題相似，但依 00_Story_Brief.html 原文明確係兩個唔同時期嘅獨立事件——SPEC#81 係 Act II E-08「黑奏長期滲透晴香身邊」嘅高壓期；本場景係 Act III 「帝國以隱藏人質(被抓嘅同學/老師)脅持主角群」嘅兩週恐怖倒數。兩者唔可以混為一談。
+
+### 圖片說明
+
+主角群被迫返回學校，表面上繼續扮演普通同學上課，但校園每一個角落都潛藏住死亡威脅——被抓嘅同學/老師其實一直被藏喺學校內一處隱密角落。「彩」（黑奏操控）以柔弱關切嘅語氣不斷勸退晴香嘅突圍念頭，令逃走從未被真正嘗試。表面日常同底層恐怖形成極端反差。
+
+**劇情位置**：
+- **時間點**：Act III，兩週人質事件 Day 1-14 前段
+- **本場景功能**：帝國以隱藏人質脅持主角群，將校園轉化為心理刑場
+- **後續payoff**：SPEC#188 恐怖扮家家——魔法代價升級；SPEC#111/112 操人偶牆（Day 13）；SPEC#115 紫音自爆（Day 14）
+
+**Reference Images**：
+- 晴香（校服）：`ConceptArt_Haruka_SchoolUnifrom.png`
+- 彩（校服/便服）：`ConceptArt_Aya_CasualWear.png`
+- 紫音：`ConceptArt_Akane_CasualWear.png`
+- 操：`ConceptArt_Misao_CasualWear.png`
+
+**簡化核心描述**：
+主角群被迫返回學校扮演普通同學，但校園暗藏死亡威脅——被抓的同學老師被藏在隱密角落。「彩」以柔弱關切的語氣勸退晴香的突圍念頭，逃走從未被真正嘗試。表面日常與底層恐怖形成極端反差。
+
+**生成提示**：
+```
+Style: uncanny normalcy, dread beneath a school-day surface
+Mood: forced performance of the ordinary while death looms unseen
+Colors: bright deceptively cheerful school daylight undercut by subtle wrongness
+Composition: students in an ordinary classroom setting, one figure (Aya) subtly restraining another (Haruka) with a gentle gesture
+Lighting: overly bright, saccharine daylight that feels wrong
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖188：「恐怖扮家家——魔法代價升級」（Horrific House Play: The Cost Escalates）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#2]`
+
+**建議輸出文件名**：`ConceptArt_Scene_188_HousePlay_CostEscalates.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「2. 恐怖扮家家」：長達兩週，越普通的場景越顯得不正常；魔法代價悄悄升級，隊員的身體開始計息，晨間意識斷層從兩秒拉長至半分鐘。
+
+### 圖片說明
+
+兩週人質事件中段，隊員嘅身體代價開始悄悄升級——手震、意識斷層由兩秒拉長至半分鐘，呢啲細節喺日常校園場景中若隱若現。畫面對比住「越嚟越普通嘅表面」同「越嚟越沉重嘅身體代價」，例如某人喺課堂中突然嘅短暫失神，或者手部不自控嘅震顫，周圍同學/隊友嘅擔憂目光。
+
+**劇情位置**：
+- **時間點**：Act III，兩週人質事件中段
+- **前置事件**：SPEC#187 回到學校
+- **本場景功能**：魔法代價升級嘅具現化，倒數壓力持續累積
+- **後續payoff**：SPEC#111/112 操人偶牆；SPEC#115 紫音自爆
+
+**Reference Images**：
+- 晴香（校服）：`ConceptArt_Haruka_SchoolUnifrom.png`
+- 操（校服/便服）：`ConceptArt_Misao_CasualWear.png`
+- 紫音：`ConceptArt_Akane_CasualWear.png`
+
+**簡化核心描述**：
+兩週人質事件中段，隊員身體代價悄悄升級——手震、意識斷層由兩秒拉長至半分鐘，在日常校園場景中若隱若現。越普通的表面與越沉重的身體代價形成對比。
+
+**生成提示**：
+```
+Style: creeping physical deterioration beneath mundane routine
+Mood: quiet escalating dread, bodies keeping a secret ledger of cost
+Colors: ordinary classroom palette with a subtle sickly undertone
+Composition: a character mid-tremor or momentary blank stare in an otherwise normal classroom scene, others noticing with concern
+Lighting: standard classroom lighting, slightly too flat and clinical
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖189：「解放之戰——維多利亞之淚陷落」（The Liberation Battle: Victoria's Tears Falls）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#5，正式代號 E-III-J0]`
+
+**建議輸出文件名**：`ConceptArt_Scene_189_LiberationBattle_VictoriasTearsFalls.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「5. 解放之戰」：隊伍攻入維多利亞之淚（座落帝國廣場）。Day 1 電力未斷，市民仍憑先前已建立的信任支持隊伍；Day 2 電力終於停止，長期被壓抑的負面情緒失去出口，局部屍骸化在地下管道區爆發——市民親身目睹爆發，恐懼直接轉為敵視，並非單靠刑思的輿論操控。摧毀維多利亞之淚，同時摧毀咗當年鑄造美夜子做Unit 01兵器嘅裝置——對佢「工具性→信賴」嘅成長弧，係最後一層心理鬆綁。此事件正式代號 **E-III-J0**（見 SPEC#105 前置事件引用），為 Phase J（帝國廣場決戰）嘅前置事件。維多利亞之淚嘅結構參考 SPEC#161「人造太陽剖面圖」。
+
+### 圖片說明
+
+隊伍攻入維多利亞之淚——巨大人造太陽懸浮嘅核心設施。Day 1 電力仍未斷，市民仍然支持緊隊伍嘅行動；Day 2 電力終於停止，地下管道區爆發局部屍骸化，市民親眼目睹呢個爆發，恐懼瞬間轉為敵視。設施崩塌之際，美夜子望住呢座曾經鑄造佢做 Unit 01 兵器嘅裝置徹底摧毀，眼神中有一種心理鬆綁嘅複雜情緒。
+
+**劇情位置**：
+- **時間點**：Act III，Day 14 前（正式代號 E-III-J0）
+- **CDL追蹤**：`07_entities_and_devices.md §section-org-victoria`（維多利亞之淚結構）；`04_timeline_canon.md #event-kurokana-body-reveal`（後續SPEC#105引用本場景為前置）
+- **本場景功能**：摧毀維多利亞之淚同鑄造美夜子兵器嘅裝置，市民信任崩潰轉向敵視
+- **前置事件**：SPEC#187/188 兩週人質恐怖事件
+- **後續payoff**：SPEC#105 黑奏真身揭露（帝國廣場決戰序幕）；美夜子「工具性→信賴」成長弧嘅最後鬆綁
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+- 美夜子：`ConceptArt_Miyako_CasualWear.png`
+- 維多利亞之淚結構參考：見 SPEC#161 剖面圖設定
+
+**簡化核心描述**：
+隊伍攻入維多利亞之淚，Day 2電力停止後地下管道區爆發局部屍骸化，市民親眼目睹恐懼瞬間轉為敵視。設施崩塌之際，美夜子望著曾鑄造她做Unit 01兵器的裝置徹底摧毀，眼神帶著複雜的心理鬆綁情緒。
+
+**生成提示**：
+```
+Style: large-scale infrastructure collapse, turning point in public perception
+Mood: from fragile trust to sudden mass fear, a facility's fall as psychological liberation
+Colors: artificial sun's fading golden glow against emerging red corpse-eruption light from underground vents
+Composition: the massive artificial sun structure crumbling above, panicked citizens below, Miyako watching a specific mechanism collapse
+Lighting: dramatic collapsing light source, harsh red glow rising from below
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖190：「夕鏡前攤牌」（Yu's Confrontation in the Mirror）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#2.2]`
+
+**建議輸出文件名**：`ConceptArt_Scene_190_Yu_MirrorConfrontation.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「2.2 夕鏡前攤牌」：放逐紫音當晚，夕喺鏡中現身，控訴晴香一直為彩補漏、為紫音送糖，卻從未真正接住自己——「跟住呢？」呼應Act I幕末晴香許下但一直冇兌現嘅承諾，「淨係一次得唔得？」講出咗積壓已久嘅落差。晴香轉身走開，唔係單純攰，而係承受唔到同一晚兩次結構相同嘅真相。呢場戲係E-09直播失控嘅心理引信，同飢渴嘅生理機制各自獨立。
+
+### 圖片說明
+
+放逐紫音當晚，晴香獨自面對鏡子，夕喺鏡中現身——同一具身體，兩種截然不同嘅自我直接對話。夕控訴晴香一直為身邊嘅人（彩、紫音）補漏、付出，卻從未真正接住自己嘅陰影人格：「跟住呢？」「淨係一次得唔得？」晴香承受唔住呢個直視，轉身走開。
+
+**劇情位置**：
+- **時間點**：Act III，放逐紫音當晚
+- **本場景功能**：夕鏡前攤牌——心理引信，直接觸發跟住嘅 E-09 直播失控
+- **前置事件**：SPEC#39 廢棄糖果工廠三人辯論（放逐紫音）
+- **後續payoff**：SPEC#51 飢餓的天使——直播失控
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+- 夕：`ConceptArt_Yu_CasualWear.png`
+
+**簡化核心描述**：
+放逐紫音當晚，晴香獨自面對鏡子，夕在鏡中現身控訴晴香一直為身邊人補漏付出，卻從未真正接住自己：「跟住呢？」「淨係一次得唔得？」晴香承受不住，轉身走開。
+
+**生成提示**：
+```
+Style: intimate mirror confrontation, two selves in one body
+Mood: accumulated resentment finally surfacing, a plea disguised as an accusation
+Colors: cold bathroom/bedroom mirror light, Yu's reflection subtly desaturated or shadow-toned compared to Haruka
+Composition: Haruka facing the mirror, Yu's reflection not matching her posture — speaking independently
+Lighting: single dim source, mirror surface catching a cold highlight
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖191：「晴香崩潰」（Haruka's Breakdown）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#1（Act IV開場前）]`
+
+**建議輸出文件名**：`ConceptArt_Scene_191_Haruka_Breakdown.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「1. 晴香崩潰」：晴香得知自己是整場災難的起源後，精神徹底崩潰。此場景緊接 SPEC#113「三重道德處刑」之後、SPEC#109「夕嘗試重置世界」之前，係兩者之間嘅過渡時刻——目前多個場景（#113、#109）將呢個崩潰當成 payoff 引用，但未有場景直接視覺化崩潰本身呢一刻。
+
+### 圖片說明
+
+晴香喺經歷刑思三重道德處刑之後，終於得知自己五歲時嘅願望正正係整場災難嘅起源——魔法、屍骸、帝國制度，一切都源自佢想逃避痛苦嘅那一刻。呢個認知令佢精神徹底崩潰：跪地、雙手掩面或者呆滯咁望向虛空，周圍嘅崩塌廣場同佢內心嘅崩潰互相呼應。
+
+**劇情位置**：
+- **時間點**：Act III，Phase J 三重道德處刑後
+- **前置事件**：SPEC#113 三重道德處刑
+- **本場景功能**：崩潰本身嘅視覺化——由「三重處刑」到「夕接管」之間嘅必要過渡
+- **後續payoff**：SPEC#109 夕嘗試重置世界（夕強行奪取身體）
+
+**Reference Images**：
+- 晴香：`ConceptArt_Haruka_MagicalGirl.png`
+
+**簡化核心描述**：
+晴香得知自己五歲時的願望正是整場災難的起源後，精神徹底崩潰——跪地、雙手掩面或呆滯望向虛空，周圍崩塌的廣場與她內心的崩潰互相呼應。
+
+**生成提示**：
+```
+Style: total psychological collapse, the moment truth becomes unbearable
+Mood: devastation beyond words, the world crumbling both literally and internally
+Colors: desaturating color palette, Haruka's usual bright tones draining to grey
+Composition: Haruka collapsed to her knees amid crumbling plaza debris, isolated in the frame despite chaos around her
+Lighting: harsh directionless light, no warmth left
+Canvas: 9:16 --ar 9:16 --niji 6 --style raw
+```
+
+---
+
+## 圖192：「愛莉現身」（Aeri Appears as the Saint Knight）[ACT_IV] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#3]`
+
+**建議輸出文件名**：`ConceptArt_Scene_192_Aeri_SaintKnightAppears.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「3. 愛莉現身」：晴香醒來後，愛莉以聖女騎士形態正式現身——她在晴香沉睡的二十年間一直守護著靈魂空間，如今走出來面對最後的戰局。`[NEEDS_FACT]`：「聖女騎士形態」具體視覺設計 canon 未見專屬 concept art，暫用 `ConceptArt_Aeri_MagicalGirl.png` 做最接近嘅參考，實際設計待另行確認。
+
+### 圖片說明
+
+晴香喺二十年後嘅第一個早晨甦醒，愛莉以一種比紙皮騎士更成熟、更莊嚴嘅「聖女騎士」形態正式現身喺佢面前。呢個形態揭示咗愛莉喺晴香沉睡嘅二十年間，一直默默守護住靈魂空間——佢終於由守護者嘅陰影中走出來，準備面對最後嘅戰局。
+
+**劇情位置**：
+- **時間點**：Act IV，晴香甦醒後
+- **前置事件**：SPEC#131 二十年後的第一個早晨
+- **本場景功能**：愛莉由「紙皮騎士」升格為「聖女騎士」嘅正式現身，二十年守護嘅揭示
+- **後續payoff**：SPEC#193 不同態度；SPEC#194 愛莉對彩
+
+**Reference Images**：
+- 愛莉（聖女騎士形態，`[NEEDS_FACT]` 暫用最接近參考）：`ConceptArt_Aeri_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+
+**簡化核心描述**：
+晴香甦醒後，愛莉以比紙皮騎士更莊嚴的「聖女騎士」形態正式現身，揭示她在晴香沉睡的二十年間一直默默守護靈魂空間，如今走出陰影準備面對最後戰局。
+
+**生成提示**：
+```
+Style: solemn heroic reveal, quiet dignity after two decades of unseen vigilance
+Mood: a guardian finally stepping into the light
+Colors: soft radiant gold and white, contrasting with the muted world around
+Composition: Aeri standing tall and composed, Haruka looking up at her with recognition and relief
+Lighting: gentle divine backlight on Aeri
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖193：「不同態度」（A Different Attitude）[ACT_IV] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#4]`
+
+**建議輸出文件名**：`ConceptArt_Scene_193_Aeri_DifferentAttitude.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「4. 不同態度」：愛莉以自身為證：同樣的創傷，可以選擇不同的面對方式——這是點燃晴香最後希望的火種，也是愛莉走向對決的起點。
+
+### 圖片說明
+
+愛莉向晴香展示緊自己嘅例子——同樣經歷過創傷同被囚禁，佢揀咗一條唔同嘅路：唔係逃避或者重寫現實，而係默默承受、默默守護。呢個對話式嘅場景，愛莉嘅平靜姿態本身就係一種無聲嘅論證，令晴香心中重新燃起一絲希望嘅火種。
+
+**劇情位置**：
+- **時間點**：Act IV
+- **前置事件**：SPEC#192 愛莉現身
+- **本場景功能**：愛莉以身作則展示「不同態度」，點燃晴香最後嘅希望
+- **後續payoff**：SPEC#194 愛莉對彩
+
+**Reference Images**：
+- 愛莉：`ConceptArt_Aeri_MagicalGirl.png`
+- 晴香：`ConceptArt_Haruka_CasualWear.png`
+
+**簡化核心描述**：
+愛莉向晴香展示同樣經歷創傷卻選擇不同面對方式——不逃避也不重寫現實，而是默默承受與守護。這份平靜姿態本身是無聲的論證，重新點燃晴香心中的希望火種。
+
+**生成提示**：
+```
+Style: quiet philosophical exchange, one character's calm as a form of argument
+Mood: a small ember of hope reignited through example rather than words
+Colors: soft warm light on Aeri contrasting with Haruka's still-dim emotional state
+Composition: Aeri and Haruka facing each other, Aeri's posture calm and grounded
+Lighting: gentle warm light gradually spreading from Aeri's side of the frame
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖194：「愛莉對彩」（Aeri Confronts Aya）[ACT_IV] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#5]`
+
+**建議輸出文件名**：`ConceptArt_Scene_194_Aeri_ConfrontsAya.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「5. 愛莉對彩」：愛莉與葉語彩正面交鋒——兩個同樣被創傷塑造的靈魂，用各自選擇的態度對撞。**注意**：本場景屬 Act IV，同 SPEC#107/114（Act III彩奪回身體、靈魂解放）為唔同時空嘅獨立事件——本場景係愛莉現身後嘅 Act IV 對決，唔係 Act III 高潮嘅延續。
+
+### 圖片說明
+
+愛莉同彩正面對峙——兩個同樣被創傷深深塑造嘅靈魂，喺呢一刻用各自截然不同嘅態度對撞。愛莉代表「默默承受、選擇守護」嘅態度，彩則承載住被囚禁、被壓抑多年嘅複雜情感。呢場交鋒唔一定係物理戰鬥，更似係兩種生存哲學嘅正面碰撞。
+
+**劇情位置**：
+- **時間點**：Act IV
+- **前置事件**：SPEC#193 不同態度
+- **本場景功能**：兩個創傷靈魂嘅態度對撞，為 SPEC#195 彩填補裂縫做前置
+- **後續payoff**：SPEC#195 彩填補裂縫
+
+**Reference Images**：
+- 愛莉：`ConceptArt_Aeri_MagicalGirl.png`
+- 彩：`ConceptArt_Aya_MagicalGirl_2.png`
+
+**簡化核心描述**：
+愛莉與彩正面對峙——兩個同樣被創傷深深塑造的靈魂，用各自截然不同的態度對撞。愛莉代表默默承受與守護，彩承載著被囚禁多年的複雜情感，這場交鋒更似兩種生存哲學的碰撞。
+
+**生成提示**：
+```
+Style: philosophical confrontation between two trauma-shaped souls
+Mood: tension not of violence but of contrasting survival philosophies
+Colors: Aeri's warm grounded tones against Aya's more fractured, conflicted color palette
+Composition: two figures facing each other at a distance, neither in an aggressive stance
+Lighting: split lighting emphasizing their contrasting inner states
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖195：「彩填補裂縫」（Aya Fills the Cracks）[ACT_IV] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#6]`
+
+**建議輸出文件名**：`ConceptArt_Scene_195_Aya_FillsTheCracks.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「6. 彩填補裂縫」：刑思的保護者人格因自身意義耗盡而退場，原本被壓抑的彩重新浮現——她選擇主動承受螺旋痛苦，填補世界裂縫，讓晴香有機會走向最後的承擔。（刑思從未消滅彩，只是長期壓制她；彩一直都在。）此場景屬 Act IV，同 SPEC#107/114（Act III彩奪回身體奪回身體、燃燒靈魂填補天空裂痕）為唔同時空嘅獨立事件——本場景係 Act IV 愛莉對峙之後嘅第二次「填補裂縫」行動。
+
+### 圖片說明
+
+刑思嘅保護者人格因為自身意義耗盡而靜靜退場，原本一直被壓抑喺深處嘅彩重新浮現。佢冇說任何英雄式嘅台詞，只係主動選擇承受螺旋痛苦，用自己嘅靈魂填補世界嘅裂縫——呢個選擇令晴香有機會走向佢自己最後嘅承擔。
+
+**劇情位置**：
+- **時間點**：Act IV
+- **前置事件**：SPEC#194 愛莉對彩
+- **本場景功能**：彩第二次主動填補裂縫嘅行動，為晴香最後嘅承擔鋪路
+- **後續payoff**：SPEC#135 三位一體永恆守護者終局
+
+**Reference Images**：
+- 彩：`ConceptArt_Aya_MagicalGirl_2.png`
+
+**簡化核心描述**：
+刑思的保護者人格意義耗盡後靜靜退場，被長期壓抑的彩重新浮現。她沒有說任何英雄式台詞，只是主動選擇承受螺旋痛苦，用自己的靈魂填補世界的裂縫，讓晴香有機會走向最後的承擔。
+
+**生成提示**：
+```
+Style: quiet self-sacrifice, a suppressed self finally choosing to act
+Mood: calm resolve rather than heroic fanfare
+Colors: soft golden light emerging from Aya, spreading into surrounding cracks of darkness
+Composition: Aya alone, reaching toward or standing within a visible crack in reality, light emanating from her
+Lighting: gentle emanating glow from Aya herself
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
+
+---
+
+## 圖196：「魔法系統終結」（The Magic System Ends）[ACT_IV] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#8]`
+
+**建議輸出文件名**：`ConceptArt_Scene_196_MagicSystem_Ends.png`
+
+### 劇情背景
+
+依 `00_Story_Brief.html` 故事卡「8. 魔法系統終結」：晴香的承擔終止了魔法少女、屍骸與Emo-Visor的生產管線，剝削人的魔法系統停止運作。
+
+### 圖片說明
+
+城市各處，曾經支撐住魔法少女制度、屍骸生產、Emo-Visor 剝削系統嘅裝置同設施同時靜止、熄滅。維多利亞之淚嘅殘骸唔再運作，Emo-Visor 裝置嘅紫光逐一熄滅，屍骸化嘅過程停止。呢個唔係爆炸式嘅終結，而係一種安靜、近乎溫柔嘅系統性停機——世界喺呢一刻卸低咗成個剝削鏈條嘅重量。
+
+**劇情位置**：
+- **時間點**：Act IV 終局
+- **前置事件**：SPEC#135 三位一體永恆守護者終局
+- **本場景功能**：魔法系統終結嘅具體視覺化——剝削鏈條嘅全面停機
+- **後續payoff**：SPEC#142 美夜子終於哭出來；SPEC#131 普通地活下去嘅世界狀態
+
+**Reference Images**：
+- 無角色（世界觀終局）：`[NO_REF — 世界觀設定圖，冇特定角色]`
+
+**簡化核心描述**：
+城市各處曾支撐魔法少女制度、屍骸生產、Emo-Visor剝削系統的裝置同時靜止熄滅。這不是爆炸式的終結，而是一種安靜、近乎溫柔的系統性停機——世界在此刻卸下整個剝削鏈條的重量。
+
+**生成提示**：
+```
+Style: quiet systemic shutdown, the end of an exploitative machine
+Mood: gentle relief rather than destruction — a held breath finally released
+Colors: fading purple-violet Emo-Visor glow going dark, natural daylight gradually reclaiming the city
+Composition: wide cityscape shot, multiple dimming light sources across different locations
+Lighting: transition from artificial glow to soft natural light
+Canvas: 16:9 --ar 16:9 --niji 6 --style raw
+```
 
 ---
 

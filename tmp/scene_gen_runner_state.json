@@ -1,43 +1,119 @@
 {
-  "updated_at": "2026-07-25 22:34:19",
+  "updated_at": "2026-07-26 02:28:58",
   "jobs": [
     {
       "spec": {
-        "scene_number": 158,
-        "title_line": "## 圖158：",
-        "output_filename": "ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
-        "scene_summary": "熱鬧的 K 房包廂裡，晴香等人圍坐，桌上堆滿飲料零食。美夜子（貓形態）站起身，全情投入地唱一首悲傷的情歌，聲音低沉乾淨、極具感染力。剛才還在鬧的隊友們瞬間被吸引，個個眼前一亮，深深被打動。在其他人眼中，這個沒有戀愛經驗的前輩，竟然能把地獄情歌唱得如此動人。",
+        "scene_number": 174,
+        "title_line": "## 圖174：",
+        "output_filename": "ConceptArt_Scene_174_Haruka_ForcedIntoTheGame.png",
+        "scene_summary": "晴香一個普通學生，意外目擊咗一場魔法少女戰鬥——美夜子喺硝煙同破壞之中戰鬥。戰後，美夜子將變身裝置交到晴香手上，眼神帶住一種「呢一步冇得返轉頭」嘅重量。晴香望住手上呢件陌生嘅物件，表情混雜住震撼、疑惑、同一絲講唔清嘅命定感。",
         "references": [
           {
-            "label": "美夜子（貓形態）",
-            "requested_filename": "ConceptArt_Miyako_Cat.png",
-            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_Cat.png",
+            "label": "晴香（校服）",
+            "requested_filename": "ConceptArt_Haruka_SchoolUnifrom.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_SchoolUnifrom.png",
             "exists": true,
             "notes": []
           },
           {
-            "label": "晴香（便服）",
+            "label": "美夜子",
+            "requested_filename": "ConceptArt_Miyako_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png"
+            ]
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_174_Haruka_ForcedIntoTheGame.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/6a65001d-6e4c-83ec-81bc-1863fc0560e1",
+      "tab_id": "2294150184048",
+      "downloaded_file": null,
+      "sent_at": 1785004067.8109999,
+      "next_check_at": 1785004092.8109999,
+      "attempts": 1,
+      "last_error": null,
+      "notes": [
+        "scene entered generating on attempt 1",
+        "poll generating=False intermediate=False failed=False image=False width=0"
+      ]
+    },
+    {
+      "spec": {
+        "scene_number": 175,
+        "title_line": "## 圖175：",
+        "output_filename": "ConceptArt_Scene_175_FourGirlTeam_Forms.png",
+        "scene_summary": "四人（晴香、紫音、操、彩）並非因為友誼行埋一齊，而係因為屍骸危機同魔法少女制度嘅安排被迫組隊。畫面捕捉呢個「被迫依賴」嘅微妙氣氛——四人企埋一齊，肢體語言各自保持距離，眼神交流帶住互相試探、唔完全信任，但同時因為共同處境而產生嘅初步默契。",
+        "references": [
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "紫音",
+            "requested_filename": "ConceptArt_Akane_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "操",
+            "requested_filename": "ConceptArt_Misao_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_MagicalGirl.png"
+            ]
+          },
+          {
+            "label": "彩",
+            "requested_filename": "ConceptArt_Aya_MagicalGirl_1.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_MagicalGirl_1.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_MagicalGirl_1.png"
+            ]
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_175_FourGirlTeam_Forms.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/WEB:53400e06-f281-4cdd-8ead-31fcee9844ea",
+      "tab_id": "2294161905248",
+      "downloaded_file": null,
+      "sent_at": 1785004088.3508396,
+      "next_check_at": 1785004113.3508396,
+      "attempts": 1,
+      "last_error": null,
+      "notes": [
+        "scene entered generating on attempt 1"
+      ]
+    },
+    {
+      "spec": {
+        "scene_number": 176,
+        "title_line": "## 圖176：",
+        "output_filename": "ConceptArt_Scene_176_BandaidPhilosophy_Layer2.png",
+        "scene_summary": "紫音正面直視晴香，講出咗一句令晴香愣住嘅說話：「妳以為貼住張貼紙，個傷口就會好？」呢一刻唔係惡意攻擊，而係紫音拒絕再睇住晴香用完美偶像表演掩蓋內在傷口。晴香嘅笑容第一次僵住，眼神中閃過一絲被戳中嘅震動。",
+        "references": [
+          {
+            "label": "晴香",
             "requested_filename": "ConceptArt_Haruka_CasualWear.png",
             "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
             "exists": true,
             "notes": []
           },
           {
-            "label": "操（便服）",
-            "requested_filename": "ConceptArt_Misao_CasualWear.png",
-            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_CasualWear.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "彩（便服）",
-            "requested_filename": "ConceptArt_Aya_CasualWear.png",
-            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_CasualWear.png",
-            "exists": true,
-            "notes": []
-          },
-          {
-            "label": "紫音（便服）",
+            "label": "紫音",
             "requested_filename": "ConceptArt_Akane_CasualWear.png",
             "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
             "exists": true,
@@ -47,26 +123,685 @@
           }
         ]
       },
-      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_176_BandaidPhilosophy_Layer2.png",
       "safety_retry_used": false,
       "policy_inplace_retry_used": false,
-      "status": "completed",
-      "latest_url": "https://chatgpt.com/c/6a64c90d-ff18-83ec-aef8-f0bb7e705b9a",
-      "tab_id": "1229404964704",
-      "downloaded_file": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_158_Miyako_KaraokeRainSong.png",
-      "sent_at": 1784989973.3269129,
-      "next_check_at": null,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/WEB:40589120-2657-4a1f-b89f-cf2b7b2fec31",
+      "tab_id": "2294161908080",
+      "downloaded_file": null,
+      "sent_at": 1785004106.6265814,
+      "next_check_at": 1785004131.6265814,
       "attempts": 1,
       "last_error": null,
       "notes": [
-        "scene entered generating on attempt 1",
-        "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=True intermediate=False failed=False image=False width=0",
-        "poll generating=False intermediate=False failed=False image=True width=1672",
-        "overview update skipped: no unchecked row found for ConceptArt_Scene_158_Miyako_KaraokeRainSong.png"
+        "scene entered generating on attempt 1"
       ]
+    },
+    {
+      "spec": {
+        "scene_number": 177,
+        "title_line": "## 圖177：",
+        "output_filename": "ConceptArt_Scene_177_Akiho_SecretDealBegins.png",
+        "scene_summary": "秋穗喺一個隱密嘅空間同黑奏（刑思）會面——表面上佢仍然係晴香信任嘅溫暖阿姨、可靠技術支援，但呢一刻嘅她做緊一個冇人知道嘅決定：以科學服務換取繼續研究復活愛莉嘅資源。她嘅表情混雜住職業性嘅冷靜同深藏嘅母親執念，兩者喺呢個交易時刻融合為一。",
+        "references": [
+          {
+            "label": "秋穗",
+            "requested_filename": "ConceptArt_Akiho_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akiho\\ConceptArt_Akiho_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "黑奏",
+            "requested_filename": "ConceptArt_Kurosou_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Kurosou_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_177_Akiho_SecretDealBegins.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/WEB:faa6c187-79c7-48ce-9bb9-90084d3f03c7",
+      "tab_id": "2294162648240",
+      "downloaded_file": null,
+      "sent_at": 1785004122.9804614,
+      "next_check_at": 1785004147.9804614,
+      "attempts": 1,
+      "last_error": null,
+      "notes": [
+        "scene entered generating on attempt 1"
+      ]
+    },
+    {
+      "spec": {
+        "scene_number": 178,
+        "title_line": "## 圖178：",
+        "output_filename": "ConceptArt_Scene_178_Empire_Reckoning.png",
+        "scene_summary": "城市各處嘅螢幕反覆播放住晴香直播失控嘅片段，帝國透過官方媒體渠道將呢段影像包裝成「證據」，推動反魔法少女嘅輿論浪潮。市民嘅表情由崇拜轉為恐懼、由恐懼轉為敵視，官方宣傳畫面同民眾反應交織，呈現一個「國民天使」如何被制度性咁塑造成「必須被清除嘅威脅」。",
+        "references": [
+          {
+            "label": "晴香（直播失控畫面）",
+            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_178_Empire_Reckoning.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "waiting_result",
+      "latest_url": "https://chatgpt.com/c/WEB:1bdd189c-f4d3-4208-8415-f95eee0d955f",
+      "tab_id": "2294161914944",
+      "downloaded_file": null,
+      "sent_at": 1785004138.6012907,
+      "next_check_at": 1785004163.6012907,
+      "attempts": 1,
+      "last_error": null,
+      "notes": [
+        "scene entered generating on attempt 1"
+      ]
+    },
+    {
+      "spec": {
+        "scene_number": 179,
+        "title_line": "## 圖179：",
+        "output_filename": "ConceptArt_Scene_179_Image_Commodified.png",
+        "scene_summary": "晴香嘅崩潰畫面被製成商品陳列——「Fallen Angel」限量版安普膠囊嘅包裝上印住晴香扭曲、痛苦嘅畫面，經理人喺背景中冷靜咁監督緊呢盤生意。晴香嘅痛苦，已經被完全封裝成消費品出售，而佢對此毫不知情。",
+        "references": [
+          {
+            "label": "晴香（商品包裝畫面）",
+            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_179_Image_Commodified.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 180,
+        "title_line": "## 圖180：",
+        "output_filename": "ConceptArt_Scene_180_Aeri_QuietCounteraction.png",
+        "scene_summary": "喺精神世界深處，愛莉以紙皮騎士形態獨自面對住由 Emo-Visor 毒品侵蝕擴散而成嘅黑色觸手/污染。冇任何人知道佢喺度做緊呢件事——佢默默用紙劍斬斷一條又一條侵蝕嘅根源，替母親秋穗嘅罪孽默默收拾殘局，紙裝備上累積住新舊交疊嘅膠帶修補痕跡。",
+        "references": [
+          {
+            "label": "愛莉（紙皮騎士形態）",
+            "requested_filename": "ConceptArt_Aeri_CasualWear_Child.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aeri\\ConceptArt_Aeri_CasualWear_Child.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_180_Aeri_QuietCounteraction.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 181,
+        "title_line": "## 圖181：",
+        "output_filename": "ConceptArt_Scene_181_Akiho_DrugSpreads.png",
+        "scene_summary": "秋穗喺實驗室繼續深化 Emo-Visor 嘅研究，四周擺滿數據螢幕同裝置原型。畫面同時呈現帝國方面將呢項技術大規模部署到日區各處嘅場景——市民日常配戴住 Emo-Visor 裝置，痛苦被轉化為可管理、可收割嘅資源。秋穗嘅專注神情同帝國嘅規模化利用形成強烈對比。",
+        "references": [
+          {
+            "label": "秋穗",
+            "requested_filename": "ConceptArt_Akiho_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akiho\\ConceptArt_Akiho_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_181_Akiho_DrugSpreads.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 182,
+        "title_line": "## 圖182：",
+        "output_filename": "ConceptArt_Scene_182_Haruka_DiscoversAyaKeishi.png",
+        "scene_summary": "晴香得知一直當成同班同學嘅彩，同佢一直以為係外部敵人嘅暴君刑思，原來共用同一個身體。呢一刻，晴香面對嘅唔係「打低敵人」咁簡單，而係「原來一直喺我身邊嘅溫柔朋友，同殺人如麻嘅暴君係同一個人」呢個令人窒息嘅認知崩塌。親近感喺呢一刻直接轉化為威脅感。",
+        "references": [
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "彩",
+            "requested_filename": "ConceptArt_Aya_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_182_Haruka_DiscoversAyaKeishi.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 183,
+        "title_line": "## 圖183：",
+        "output_filename": "ConceptArt_Scene_183_SharedPainPlan.png",
+        "scene_summary": "刑思（黑奏）以帝國統治者姿態，向晴香或者向全城宣告「共痛計劃」——一個將全人類神經連結嘅宏大構想，表面上崇高、以終結暴力為名。畫面呈現刑思冷靜、近乎理性演講者嘅姿態，背景可能有全息投影展示緊呢個計劃嘅概念圖，同刑思一貫嘅冷酷形成矛盾嘅「拯救者」姿態。",
+        "references": [
+          {
+            "label": "黑奏／刑思",
+            "requested_filename": "ConceptArt_Kurosou_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Kurosou_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_183_SharedPainPlan.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 184,
+        "title_line": "## 圖184：",
+        "output_filename": "ConceptArt_Scene_184_Freedom_Revoked.png",
+        "scene_summary": "城市市民嘅日常生活被「共痛計劃」全面監控滲透——每個人嘅私人空間、選擇、自我邊界都被以「保護」之名剝奪。畫面呈現一種表面秩序井然、實質令人窒息嘅監控日常：市民行為被規範化、情緒被監測、個體性逐漸消失喺集體「安全」嘅假象之下。",
+        "references": []
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_184_Freedom_Revoked.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 185,
+        "title_line": "## 圖185：",
+        "output_filename": "ConceptArt_Scene_185_Akiho_HandsOverWeakness.png",
+        "scene_summary": "刑思（黑奏）直接向秋穗攤牌，要求佢交出晴香嘅能力資料同弱點分析。秋穗企喺呢個抉擇嘅十字路口——手上可能拎住一份數據文件或者裝置，面對刑思冷靜而具威脅性嘅要求，內心喺「保護晴香」同「拯救愛莉」之間激烈拉扯。",
+        "references": [
+          {
+            "label": "秋穗",
+            "requested_filename": "ConceptArt_Akiho_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akiho\\ConceptArt_Akiho_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "黑奏／刑思",
+            "requested_filename": "ConceptArt_Kurosou_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Kurosou_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_185_Akiho_HandsOverWeakness.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 186,
+        "title_line": "## 圖186：",
+        "output_filename": "ConceptArt_Scene_186_Mother_Fall.png",
+        "scene_summary": "秋穗獨自一人做出最終決定——將晴香嘅資料交出去。呢一刻冇任何戲劇化嘅掙扎表演，只有一個母親清醒咁選擇「其他人嘅代價都可以被犧牲」呢個信念嘅具現。她嘅表情平靜得可怕，手上完成緊最後嘅背叛動作（傳送資料/簽署文件/交出裝置）。",
+        "references": [
+          {
+            "label": "秋穗",
+            "requested_filename": "ConceptArt_Akiho_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akiho\\ConceptArt_Akiho_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_186_Mother_Fall.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 187,
+        "title_line": "## 圖187：",
+        "output_filename": "ConceptArt_Scene_187_BackToSchool_HostageTerror.png",
+        "scene_summary": "## 圖187：「回到學校——兩週人質恐怖事件」（Back to School: The Two-Week Hostage Terror）[ACT_III] `[新增缺失場景 2026-07-26，來源：00_Story_Brief.html 故事卡#1]` **建議輸出文件名**：`ConceptArt_Scene_187_BackToSchool_HostageTerror.png` ### 劇情背景 依 `00_Story_Brief.html` 故事卡「1. 回到學校」：帝國策劃校園恐懼事件，強迫主角群在死亡威脅下繼續扮演普通同學，令安全的校園變成心理刑場。**⚠️ 命名衝突提醒**：本場景（Act III）同 SPEC#81「恐怖家家酒（學校）」（Act II，黑奏/彩滲透期）雖然中文標題相似，但依 00_Story_Brief.html 原文明確係兩個唔同時期嘅獨立事件——SPEC#81 係 Act II E-08「黑奏長期滲透晴香身邊」嘅高壓期；本場景係 Act III 「帝國以隱藏人質(被抓嘅同學/老師)脅持主角群」嘅兩週恐怖倒數。兩者唔可以混為一談。",
+        "references": [
+          {
+            "label": "晴香（校服）",
+            "requested_filename": "ConceptArt_Haruka_SchoolUnifrom.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_SchoolUnifrom.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "彩（校服/便服）",
+            "requested_filename": "ConceptArt_Aya_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "紫音",
+            "requested_filename": "ConceptArt_Akane_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
+            ]
+          },
+          {
+            "label": "操",
+            "requested_filename": "ConceptArt_Misao_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_187_BackToSchool_HostageTerror.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 188,
+        "title_line": "## 圖188：",
+        "output_filename": "ConceptArt_Scene_188_HousePlay_CostEscalates.png",
+        "scene_summary": "兩週人質事件中段，隊員嘅身體代價開始悄悄升級——手震、意識斷層由兩秒拉長至半分鐘，呢啲細節喺日常校園場景中若隱若現。畫面對比住「越嚟越普通嘅表面」同「越嚟越沉重嘅身體代價」，例如某人喺課堂中突然嘅短暫失神，或者手部不自控嘅震顫，周圍同學/隊友嘅擔憂目光。",
+        "references": [
+          {
+            "label": "晴香（校服）",
+            "requested_filename": "ConceptArt_Haruka_SchoolUnifrom.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_SchoolUnifrom.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "操（校服/便服）",
+            "requested_filename": "ConceptArt_Misao_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Misao\\ConceptArt_Misao_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "紫音",
+            "requested_filename": "ConceptArt_Akane_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Akane\\ConceptArt_Akane_CasualWear.png"
+            ]
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_188_HousePlay_CostEscalates.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 189,
+        "title_line": "## 圖189：",
+        "output_filename": "ConceptArt_Scene_189_LiberationBattle_VictoriasTearsFalls.png",
+        "scene_summary": "隊伍攻入維多利亞之淚——巨大人造太陽懸浮嘅核心設施。Day 1 電力仍未斷，市民仍然支持緊隊伍嘅行動；Day 2 電力終於停止，地下管道區爆發局部屍骸化，市民親眼目睹呢個爆發，恐懼瞬間轉為敵視。設施崩塌之際，美夜子望住呢座曾經鑄造佢做 Unit 01 兵器嘅裝置徹底摧毀，眼神中有一種心理鬆綁嘅複雜情緒。",
+        "references": [
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "美夜子",
+            "requested_filename": "ConceptArt_Miyako_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png",
+            "exists": true,
+            "notes": [
+              "multiple matches found; using first: C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Miyako\\ConceptArt_Miyako_CasualWear.png"
+            ]
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_189_LiberationBattle_VictoriasTearsFalls.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 190,
+        "title_line": "## 圖190：",
+        "output_filename": "ConceptArt_Scene_190_Yu_MirrorConfrontation.png",
+        "scene_summary": "放逐紫音當晚，晴香獨自面對鏡子，夕喺鏡中現身——同一具身體，兩種截然不同嘅自我直接對話。夕控訴晴香一直為身邊嘅人（彩、紫音）補漏、付出，卻從未真正接住自己嘅陰影人格：「跟住呢？」「淨係一次得唔得？」晴香承受唔住呢個直視，轉身走開。",
+        "references": [
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "夕",
+            "requested_filename": "ConceptArt_Yu_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Yu\\ConceptArt_Yu_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_190_Yu_MirrorConfrontation.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 191,
+        "title_line": "## 圖191：",
+        "output_filename": "ConceptArt_Scene_191_Haruka_Breakdown.png",
+        "scene_summary": "晴香喺經歷刑思三重道德處刑之後，終於得知自己五歲時嘅願望正正係整場災難嘅起源——魔法、屍骸、帝國制度，一切都源自佢想逃避痛苦嘅那一刻。呢個認知令佢精神徹底崩潰：跪地、雙手掩面或者呆滯咁望向虛空，周圍嘅崩塌廣場同佢內心嘅崩潰互相呼應。",
+        "references": [
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_191_Haruka_Breakdown.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 192,
+        "title_line": "## 圖192：",
+        "output_filename": "ConceptArt_Scene_192_Aeri_SaintKnightAppears.png",
+        "scene_summary": "晴香喺二十年後嘅第一個早晨甦醒，愛莉以一種比紙皮騎士更成熟、更莊嚴嘅「聖女騎士」形態正式現身喺佢面前。呢個形態揭示咗愛莉喺晴香沉睡嘅二十年間，一直默默守護住靈魂空間——佢終於由守護者嘅陰影中走出來，準備面對最後嘅戰局。",
+        "references": [
+          {
+            "label": "愛莉（聖女騎士形態，`[NEEDS_FACT]` 暫用最接近參考）",
+            "requested_filename": "ConceptArt_Aeri_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aeri\\ConceptArt_Aeri_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_192_Aeri_SaintKnightAppears.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 193,
+        "title_line": "## 圖193：",
+        "output_filename": "ConceptArt_Scene_193_Aeri_DifferentAttitude.png",
+        "scene_summary": "愛莉向晴香展示緊自己嘅例子——同樣經歷過創傷同被囚禁，佢揀咗一條唔同嘅路：唔係逃避或者重寫現實，而係默默承受、默默守護。呢個對話式嘅場景，愛莉嘅平靜姿態本身就係一種無聲嘅論證，令晴香心中重新燃起一絲希望嘅火種。",
+        "references": [
+          {
+            "label": "愛莉",
+            "requested_filename": "ConceptArt_Aeri_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aeri\\ConceptArt_Aeri_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "晴香",
+            "requested_filename": "ConceptArt_Haruka_CasualWear.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Haruka\\ConceptArt_Haruka_CasualWear.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_193_Aeri_DifferentAttitude.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 194,
+        "title_line": "## 圖194：",
+        "output_filename": "ConceptArt_Scene_194_Aeri_ConfrontsAya.png",
+        "scene_summary": "愛莉同彩正面對峙——兩個同樣被創傷深深塑造嘅靈魂，喺呢一刻用各自截然不同嘅態度對撞。愛莉代表「默默承受、選擇守護」嘅態度，彩則承載住被囚禁、被壓抑多年嘅複雜情感。呢場交鋒唔一定係物理戰鬥，更似係兩種生存哲學嘅正面碰撞。",
+        "references": [
+          {
+            "label": "愛莉",
+            "requested_filename": "ConceptArt_Aeri_MagicalGirl.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aeri\\ConceptArt_Aeri_MagicalGirl.png",
+            "exists": true,
+            "notes": []
+          },
+          {
+            "label": "彩",
+            "requested_filename": "ConceptArt_Aya_MagicalGirl_2.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_MagicalGirl_2.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_194_Aeri_ConfrontsAya.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 195,
+        "title_line": "## 圖195：",
+        "output_filename": "ConceptArt_Scene_195_Aya_FillsTheCracks.png",
+        "scene_summary": "刑思嘅保護者人格因為自身意義耗盡而靜靜退場，原本一直被壓抑喺深處嘅彩重新浮現。佢冇說任何英雄式嘅台詞，只係主動選擇承受螺旋痛苦，用自己嘅靈魂填補世界嘅裂縫——呢個選擇令晴香有機會走向佢自己最後嘅承擔。",
+        "references": [
+          {
+            "label": "彩",
+            "requested_filename": "ConceptArt_Aya_MagicalGirl_2.png",
+            "resolved_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Characters\\Aya\\ConceptArt_Aya_MagicalGirl_2.png",
+            "exists": true,
+            "notes": []
+          }
+        ]
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_195_Aya_FillsTheCracks.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
+    },
+    {
+      "spec": {
+        "scene_number": 196,
+        "title_line": "## 圖196：",
+        "output_filename": "ConceptArt_Scene_196_MagicSystem_Ends.png",
+        "scene_summary": "城市各處，曾經支撐住魔法少女制度、屍骸生產、Emo-Visor 剝削系統嘅裝置同設施同時靜止、熄滅。維多利亞之淚嘅殘骸唔再運作，Emo-Visor 裝置嘅紫光逐一熄滅，屍骸化嘅過程停止。呢個唔係爆炸式嘅終結，而係一種安靜、近乎溫柔嘅系統性停機——世界喺呢一刻卸低咗成個剝削鏈條嘅重量。",
+        "references": []
+      },
+      "final_output_path": "C:\\Projects\\ProjectHarukaDocument\\art\\ConceptArt\\Scene\\ConceptArt_Scene_196_MagicSystem_Ends.png",
+      "safety_retry_used": false,
+      "policy_inplace_retry_used": false,
+      "status": "pending",
+      "latest_url": null,
+      "tab_id": null,
+      "downloaded_file": null,
+      "sent_at": null,
+      "next_check_at": null,
+      "attempts": 0,
+      "last_error": null,
+      "notes": []
     }
   ]
 }
