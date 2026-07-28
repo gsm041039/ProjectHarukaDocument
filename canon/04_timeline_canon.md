@@ -301,9 +301,9 @@
 - <a id="event-resonance-hell-3"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第三階段**：黑奏試圖開啟全人類的[情緒視覺](02_glossary.md#term-emotional-qualia)；晴香做出第三選擇——既不開啟也不完全關閉，守護「不確定中的信任」
 - <a id="event-soul-resonance"></a>**[靈魂共鳴](02_glossary.md#term-soul-resonance)**：操、紫音的態度殘響穿透生死界限，為晴香注入最後的力量
 - <a id="event-aya-awakening"></a>**彩的覺醒與犧牲**：彩用靈魂填補裂痕，償還[因果債務](02_glossary.md#term-causal-debt)，黑奏人格消散
-- <a id="event-forced-ascension"></a>**主動融合與代價（CDL-326，取代舊稿「強制索回」）**：晴香喺完成試煉後，主動選擇同集體潛意識源頭（L3冥河）完全融合，成為「[三位一體](02_glossary.md#term-trinity-spectrum)的永恆守護者」——呢個選擇嘅代價超越佢可以預想嘅程度：永久失去普通人生活嘅資格，但意志同態度並未消失，反而成為支撐呢個永恆狀態嘅力量本身
+- <a id="event-forced-ascension"></a>**主動融合與代價（CDL-326/344，取代舊稿「強制索回」）**：晴香喺完成試煉後，主動選擇同集體潛意識源頭（L3冥河）完全融合，成為「[三位一體](02_glossary.md#term-trinity-spectrum)的永恆守護者」——呢個選擇嘅代價超越佢可以預想嘅程度：永久失去普通人生活嘅資格；「選擇」本身確定係清醒、主動嘅，但融合之後佢意識係咪仍然以可辨認嘅形式存在（定係只剩意志/態度嘅結構性殘留支撐住呢個永恆狀態），故事刻意唔明確交代，留白處理（CDL-344）
 - <a id="event-magic-system-end"></a>**魔法系統終結**：[魔法少女](02_glossary.md#term-magical-girl)系統、屍骸、[情緒毒品](02_glossary.md#term-emotion-drug)全部失效（機制見`01_world_rules_and_costs.md` CDL-326）
-- <a id="event-bittersweet-ending"></a>**悲劇但有意義的結局——三位一體永恆守護者（CDL-326，取代舊稿「靜止搖籃/Static Cradle」意識永久沉睡版本）**：晴香整合所有 Alpha 線真相後，**保留全部記憶、意識清醒**，肉身轉化為世界情緒濾網，持續承接並轉化集體潛意識中的負面情緒，永久守護仍然存在嘅魔法屍骸（唔強行令佢哋變返原狀，而係陪住佢哋）。[美夜子](03_characters/miyako.md)經歷一段記憶迷霧期後尋回自己（見下），其後回歸凡人，**在有限嘅人生入面**保持同晴香嘅連結，直至自然終老（80歲，見`miyako.md`§Happy Ending 精確定義）。<!-- CDL-326; 見 03_characters/haruka.md#status-static-cradle -->
+- <a id="event-bittersweet-ending"></a>**悲劇但有意義的結局——三位一體永恆守護者（CDL-326/344，取代舊稿「靜止搖籃/Static Cradle」意識永久沉睡版本）**：晴香整合所有 Alpha 線真相後，**清醒地主動選擇**同集體潛意識源頭完全融合，肉身轉化為世界情緒濾網，持續承接並轉化集體潛意識中的負面情緒，永久守護仍然存在嘅魔法屍骸（唔強行令佢哋變返原狀，而係陪住佢哋）。**融合之後，佢意識係咪仍然以可辨認嘅形式存在，故事刻意唔明確交代，留白處理（CDL-344）**——唯一確定嘅係呢個選擇嘅主動性從未被剝奪。[美夜子](03_characters/miyako.md)經歷一段記憶迷霧期後尋回自己（見下），其後回歸凡人，**在有限嘅人生入面**保持同晴香嘅連結，直至自然終老（80歲，見`miyako.md`§Happy Ending 精確定義）。<!-- CDL-326/344; 見 03_characters/haruka.md#status-static-cradle -->
 - <a id="event-miyako-guitar-inheritance"></a>**美夜子「笨拙演奏」（精神繼承者的定義）**：美夜子經歷一段記憶迷霧期、尋回自己之後的某一天（CDL-326，非「晴香進入靜止搖籃後」），獨自找到晴香生前最後創作的未完成曲目。她從未學過吉他；用雙手笨拙地按弦，左手指被弦切出紅痕；音符不準確，節奏不穩定，開頭同一段反覆彈奏。沒有說任何話，也沒有哭泣。繼承的不是技術，而是意志——以自己笨拙的方式觸碰晴香未完成的事；呢個舉動嘅重量嚟自佢係捱返、重新揀返記憶之後先做呢件事。**導演鐵律：禁止插入技巧漸增蒙太奇；笨拙必須維持至場景結束。**<!-- CDL-326; 見 05_story_outline_canon.md#scene-miyako-guitar-inheritance -->
 
 ---

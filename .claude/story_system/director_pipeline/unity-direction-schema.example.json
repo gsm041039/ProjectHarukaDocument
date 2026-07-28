@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "0.1-draft",
+  "sceneId": "SCN-EXAMPLE",
+  "sourceDocuments": [],
+  "status": "APPROVED_PROVISIONAL",
+  "sequences": [
+    {
+      "sequenceId": "SEQ-EXAMPLE-01",
+      "beats": [
+        {
+          "beatId": "BEAT-EXAMPLE-01",
+          "gameplayStateId": null,
+          "dependencyId": "DEP-GAMEPLAY-01",
+          "status": "DEPENDENCY_PENDING",
+          "entryTriggerId": "TRG-EXAMPLE-01",
+          "exitCondition": null,
+          "playerControlMode": "FULL_CONTROL",
+          "cameraOwnership": "PLAYER",
+          "allowedInputs": [],
+          "shots": [],
+          "dialogueIds": [],
+          "audioCueIds": [],
+          "variants": [],
+          "fallbackId": null
+        }
+      ]
+    }
+  ]
+}

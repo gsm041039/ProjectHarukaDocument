@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "StoryProductionPackage",
+  "type": "object",
+  "required": [
+    "sceneId",
+    "status",
+    "sourceRevision",
+    "contracts"
+  ],
+  "properties": {
+    "sceneId": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "EXPLORATORY",
+        "PROVISIONAL",
+        "POLISHED_DRAFT",
+        "TABLE_READ_READY",
+        "RECORDING_READY",
+        "IMPLEMENTATION_READY",
+        "FINAL_APPROVED"
+      ]
+    },
+    "sourceRevision": {
+      "type": "string"
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "state"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "RESOLVED",
+              "GAMEPLAY_DEPENDENCY_PENDING",
+              "CO_DESIGN_REQUIRED",
+              "AUTHOR_DECISION_REQUIRED",
+              "CONTRADICTION_REQUIRES_RESOLUTION"
+            ]
+          },
+          "owner": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "contracts": {
+      "type": "object",
+      "properties": {
+        "scenePurpose": {
+          "type": "string"
+        },
+        "characterStates": {
+          "type": "array"
+        },
+        "arcPositions": {
+          "type": "array"
+        },
+        "psychology": {
+          "type": "array"
+        },
+        "knowledgeStates": {
+          "type": "array"
+        },
+        "relationships": {
+          "type": "array"
+        },
+        "voiceProfiles": {
+          "type": "array"
+        },
+        "dialogueBeats": {
+          "type": "array"
+        },
+        "performanceBeats": {
+          "type": "array"
+        },
+        "deliveryContracts": {
+          "type": "array"
+        },
+        "dialogueLines": {
+          "type": "array"
+        },
+        "shots": {
+          "type": "array"
+        }
+      }
+    },
+    "stableIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "invalidatedArtifacts": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

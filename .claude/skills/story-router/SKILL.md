@@ -45,6 +45,30 @@ Use when:
 Call chain:
 `source-recovery-gate → scene-lab → director-room → dialogue-room → coverage-table-read → grounding-auditor`
 
+
+### DIRECTING_PIPELINE
+Use when the user asks for any combination of:
+- game directing / 導演方案
+- location and staging
+- character performance direction
+- complete dialogue script
+- storyboard / shot list / camera language
+- montage / editing / audio direction
+- gameplay-cinematic integration
+- cross-department Markdown specs or Unity-ready JSON
+
+The router must classify the requested depth:
+- `DIRECTOR_ANALYSIS` — analyze and propose
+- `SPECIALIST_ARTIFACT` — create one specialist deliverable
+- `FULL_DIRECTOR_PACKAGE` — produce separated directing files
+- `DIRECTING_AUDIT` — review existing material
+
+Base call chain:
+`source-recovery-gate → game-director → selected specialists → directing-language-auditor → grounding-auditor`
+
+Add `director-delivery-builder` only when the user requests files, schemas, or implementation handoff.
+Do not assume branching or gameplay variants; derive them from gameplay documents or mark dependencies.
+
 ### FULL_AUDIT
 Use when:
 - full scan
