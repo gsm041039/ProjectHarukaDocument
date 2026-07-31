@@ -1,10 +1,14 @@
 ---
 name: story-static-site-sync
-version: v1.0-canon-decision-full-sync
+version: v1.1-canon-decision-full-sync-integrated
 summary: Synchronize all approved story canon and author decisions into a structurally stable static HTML reference website, preserving content truth, repairing dependent summaries and navigation, and allowing controlled design adjustments only when they improve accurate presentation.
 ---
 
 # Story Static Site Sync — Canon + Decision Full-Site Synchronizer
+
+## Integration Status
+
+This skill is directly callable through `/story-static-site-sync` and is also registered as the `STATIC_SITE_SYNC` route in `story-router` and `story-orchestrator`.
 
 ## Purpose
 

@@ -69,6 +69,48 @@ Base call chain:
 Add `director-delivery-builder` only when the user requests files, schemas, or implementation handoff.
 Do not assume branching or gameplay variants; derive them from gameplay documents or mark dependencies.
 
+
+### HOLISTIC_SUPERVISION
+Use only when the user explicitly asks to:
+- 深化／專業化佢提出嘅問題
+- 做宏觀、全面、跨層或 IP 級檢查
+- 檢查有冇做到指定 feeling
+- 找出漏做角度、根因或跨部門衝突
+- 用完整作品角度挑戰現有方案
+
+Depth:
+- `FOCUSED` — only deepen the exact local question
+- `CONNECTED` — inspect direct upstream/downstream layers; default
+- `SYSTEMIC` — whole-work, IP, gameplay, direction and production system
+
+Call chain:
+`context-manager → source-recovery-gate → story-holistic-supervisor → dynamically selected specialists → grounding-auditor when factual claims require it`
+
+Rules:
+- This route is manual only; never make it a default completion gate.
+- Preserve the original question before reframing it.
+- Specialists return to the supervisor; they must not independently question the author.
+- The supervisor may ask at most three author questions after local evidence recovery.
+- Output must include a best current answer, root causes, repair routes and validation needs—not only a checklist.
+
+
+### STATIC_SITE_SYNC
+Use when the user asks to:
+- update the static Story Brief or other canon reference website
+- synchronize website content after canon or decision-record changes
+- add, remove, reorder or revise story cards, character information, emotional rules, timelines or other canon-bearing site content
+- preserve the site's overall structure while allowing controlled layout improvements
+
+Call chain:
+`context-manager → source-recovery-gate → canon-sync-gate → story-static-site-sync → grounding-auditor`
+
+Rules:
+- Treat the website as a downstream reader artifact, never as the highest canon authority.
+- Canon + explicit author decision records jointly arbitrate current truth.
+- Default to full affected-site synchronization, not only the single paragraph named by the user.
+- Permit local design changes required by new content, but gate global redesign.
+- Continue safe updates even when unrelated claims remain blocked by author decisions.
+
 ### FULL_AUDIT
 Use when:
 - full scan

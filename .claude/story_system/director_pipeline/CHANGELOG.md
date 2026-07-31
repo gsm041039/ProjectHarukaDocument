@@ -1,3 +1,28 @@
+
+## v0.7 — 2026-07-29 — Holistic Supervision and Question Deepening
+
+### Added
+- New `story-holistic-supervisor` skill and `/story-holistic-supervisor` command.
+- Manual-only whole-work review route in `/story-orchestrator`.
+- Question Deepening protocol: preserve original question, identify hidden assumptions, create a professional reframe, and separate adjacent findings.
+- Three review depths: FOCUSED, CONNECTED and SYSTEMIC.
+- Evidence classes: FACT, STRONG_INFERENCE, WEAK_INFERENCE, TASTE, NEEDS_TEST, CONFLICT and MISSING_DESIGN.
+- Resolution buckets: AUTO-RESOLVABLE, NEEDS-VALIDATION and AUTHOR-DECISION.
+- Question Gate, maximum-three-question budget and upstream-to-downstream question ordering.
+- Dynamic specialist orchestration with supervisor-owned synthesis.
+- Root-cause categories, cross-layer tests, repair routes and validation planning.
+- Decision propagation into Decision Records, affected files and rerun skills.
+
+### Changed
+- `story-router` now recognizes explicit holistic supervision and question-professionalization requests.
+- `story-orchestrator` now routes those requests without making holistic review a mandatory production gate.
+
+### Safety / Quality Rules
+- Local project evidence must be searched before asking the author.
+- The professional reframe may deepen but may not replace the author's original question.
+- Specialist skills may not independently interrogate the author during holistic supervision.
+- Audience-feeling claims that cannot be proven from documents must become validation hypotheses.
+
 # Director Pipeline Change Log
 
 ## v0.1

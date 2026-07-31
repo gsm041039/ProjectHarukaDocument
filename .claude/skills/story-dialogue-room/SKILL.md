@@ -11,31 +11,40 @@ $ARGUMENTS
 ## Mission
 用多專業角度審查已存在對白稿，指出問題、證據、影響同精準修改方向。除非明確要求 revision pass，唔好靜默重寫成另一場戲。
 
-## Review Angles (select relevant, minimum 12 for full review)
+## Review Angles (select relevant, minimum 14 for full review)
 1. canon identity
 2. arc position
 3. scene objective
 4. psychology / defence
 5. knowledge boundary
 6. relationship and status
-7. character voice distinctness
-8. listener-specific voice
-9. tactic progression
-10. subtext / indirectness
-11. exposition and information timing
-12. repetition / compression
-13. silence / action substitution
-14. performance speakability
-15. gameplay timing / interruption
-16. critical-info guarantee
-17. combat readability conflict
-18. emotional escalation / turn / landing
-19. ensemble focus / overlap
-20. VO / localization / subtitle risk
-21. retry fatigue / bark variety
-22. accessibility and audibility
-23. production feasibility
-24. continuity into next scene
+7. voice rule canon evidence
+8. correct story-period voice
+9. listener-specific voice
+10. character voice distinctness
+11. tactic progression
+12. subtext / indirectness
+13. exposition and information timing
+14. repetition / compression
+15. silence / action substitution
+16. performance speakability
+17. gameplay timing / interruption
+18. critical-info guarantee
+19. combat readability conflict
+20. emotional escalation / turn / landing
+21. ensemble focus / overlap
+22. VO / localization / subtitle risk
+23. retry fatigue / bark variety
+24. accessibility and audibility
+25. production feasibility
+26. continuity into next scene
+
+Voice review must identify:
+- which lines are supported by direct/pattern evidence;
+- which lines rely on inference or author-approved candidates;
+- any line using a later-period voice too early;
+- any language function that was invented without evidence;
+- whether the same character changes appropriately by listener and current state.
 
 ## Output
 ```md

@@ -12,7 +12,7 @@ $ARGUMENTS
 產出可 table-read、錄音、動畫與遊戲實作嘅完整對話稿。你係寫稿 skill；前置分析由專職 skills 完成，`story-dialogue-room` 負責寫後審視。
 
 ## Mandatory Entry Contract
-先讀 `DIALOGUE READINESS VERDICT`。如未提供，要求 orchestrator 先調用 `story-dialogue-readiness-gate`。
+先讀 `VOICE EVIDENCE REVIEW` 同 `DIALOGUE READINESS VERDICT`。如任何一份未提供，要求 orchestrator 先調用 `story-character-voice-evidence-auditor` 及 `story-dialogue-readiness-gate`。
 
 可按 gate 程度產出：
 - exploratory
@@ -30,7 +30,9 @@ $ARGUMENTS
 - PSYCHOLOGY MAP
 - KNOWLEDGE STATE MAP
 - RELATIONSHIP STATE
-- VOICE BIBLE / scene voice modifiers
+- CANON-GROUNDED VOICE BIBLE 或「說話方式研究與候選」
+- VOICE EVIDENCE REVIEW
+- scene voice modifiers（精確故事時期、對象、當下狀態）
 - DIALOGUE BEAT CONTRACT
 - PERFORMANCE BEAT MAP
 - DIALOGUE DELIVERY CONTRACT or explicit pending dependencies
@@ -68,7 +70,9 @@ Localization / VO Risk:
 10. OPEN GAMEPLAY DEPENDENCIES
 
 ## Hard Rules
-- 台詞必須由角色當下目標、關係、心理、防衛、知識同 voice 推導。
+- 台詞必須由角色當下目標、關係、心理、防衛、知識同已審核 voice 推導。
+- 每句核心台詞要可追溯至本場使用嘅聲線規則；未確認候選只可用於 exploratory draft 並清楚標記。
+- 禁止將後期成熟、崩潰或哲理化語言提前落前期。
 - 先有 performance action，再判斷是否需要說話。
 - 關鍵資料唔可以只放喺易漏 bark。
 - 同一句唔應同時負責情緒高潮、教程、世界觀解釋同戰術提示。

@@ -1,70 +1,31 @@
-# story-context-manager — Output Budget, Scratchpad, and Anti-Context-Bloat
+# story-context-manager — Context Budget and Persistent Run Memory
 
 ## Purpose
-Control context usage while preserving creative usefulness.
+管理 context，但唔可以用壓縮作為少做工作嘅理由。
 
-## v1.3 Correction
-Do not make discussion mode too short or passive. Compact output should still contain a real recommendation.
+## Mandatory Workspace Rule
+STANDARD / MAJOR 任務調用 `story-run-workspace-manager`。當符合任一條件，立即 checkpoint：
+- 已讀 3 個以上長文件
+- 已調用 4 個以上 skills
+- 有 8 個以上 material decisions
+- 對話／分鏡超過約 1,500 字
+- 預計下一階段可能令早期證據離開 context
 
-## Output Budgets
-
-### compact
-Use for co-design conversation.
-- 1 core judgment
-- 2–3 options or 1 recommended direction
-- source/gap notes only if decision-relevant
-- mini log
-
-### standard
-Use for motivation review / scene planning.
-- short evidence scan
-- support status
-- recommendation
-- risks
-- mini log
-
-### full
-Use only when user asks full audit, writeback, approval, or major outline review.
-- full checklist
-- multi-agent notes
-- complete QA
-
-## Scratchpad Policy
-Intermediate reasoning may be written to:
-- `canon/_working/.tmp/current_run.md`
-- `canon/_working/.tmp/current_run_evidence.md`
-- `canon/_working/.tmp/current_run_agent_notes.md`
-
-These are temporary. They are not canon and not a new working system.
-
-## Evidence Digest Rule
-After reading large files, compress into a digest:
-
+## Carry-forward Packet
+只帶：
 ```md
-Evidence Digest
-file:
-relevant fact:
-uncertainty:
-usable for current task:
+RUN PACKET
+Target Contract:
+Authoritative Evidence Digest:
+Active Character Scene States:
+Approved / Provisional Decision IDs:
+Open Dependencies:
+Current Draft Path:
+Next Skill:
 ```
 
-Carry the digest forward, not the whole file.
+## Visible Output
+使用者要見到 skill trace、重要決策、目標文件進度；唔需要見到全部內部 notes。
 
-## Visible Output Rule
-The user should see:
-- call plan
-- compact answer
-- mini log
-
-The user should not see:
-- all internal agent notes
-- full checklist
-- long grep output
-unless requested.
-
-## Creative Compactness Rule
-Compact does not mean “ask only one question and stop.” Compact means:
-- answer the creative question
-- offer a useful recommendation
-- mark what must be checked
-- ask at most one high-value next question
+## Rule
+不可因 context 不足叫使用者重新提供已讀資料。先讀 temp files resume。

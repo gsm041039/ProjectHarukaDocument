@@ -1,3 +1,7 @@
+# Story Director Orchestrator v0.7
+
+This version is experience-first: audience/player feeling is defined before scene execution. It adds proactive character-foundation planning, reusable performance/decision/memory systems, scene expression ownership, runtime dialogue variants, and change-impact maintenance. See `CHARACTER_FOUNDATION_SYSTEM_v0.7.md`, `CHANGELOG_v0.7.md`, and `REGRESSION_TESTS_v0.7.md`.
+
 # Game Director Skill Pipeline
 
 ## Goal
