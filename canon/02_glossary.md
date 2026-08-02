@@ -736,7 +736,9 @@ Beta 線本質的核心敘事隱喻。
 
 膠布不能治癒傷口只能遮蓋。整個 Beta 魔法世界是晴香貼在 Alpha 線傷口上的「巨大膠布」。二十年後這塊膠布發炎了——緋潮爆發。痛苦不能被消滅只能被疏導。越壓抑（用魔法）反撲（緋潮）就越兇猛。
 
-**See also**: [Beta Line](#term-beta-line) | [Scarlet Tide](#term-scarlet-tide) | [Series Bible](00_series_bible.md#section-core-theme)
+**個體層面嘅同一邏輯（CDL-362）**：呢個「蓋住唔等於醫好」嘅邏輯，喺個體肉身層面亦有對應——[奇蹟簡易療傷](01_world_rules_and_costs.md#rule-miracle-quick-heal)可以即時修補表面肉體損傷，但代價直接匯入角色自己嘅 Body Horror 崩壞線，唔係真正治癒。
+
+**See also**: [Beta Line](#term-beta-line) | [Scarlet Tide](#term-scarlet-tide) | [Series Bible](00_series_bible.md#section-core-theme) | [奇蹟簡易療傷](01_world_rules_and_costs.md#rule-miracle-quick-heal)
 
 ---
 

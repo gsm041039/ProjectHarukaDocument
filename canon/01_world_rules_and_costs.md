@@ -623,7 +623,17 @@ Alpha 線的「可信度」建立在**共享印證**上：
 
 Layer 4 及以後仍在後幕（Act III/IV）。
 
-**See also**: [Glossary: Emotion Conservation](02_glossary.md#term-emotion-conservation) | [Band-Aid Philosophy](02_glossary.md#term-band-aid-philosophy)
+### <a id="rule-miracle-quick-heal"></a>奇蹟簡易療傷——貼膠布式修復（CDL-362）
+
+**定義**：魔法少女可以用奇蹟功能性咁修補返表面肉體損傷（骨折、瘀傷、撕裂傷一類）——即時企得返起身、可以繼續戰鬥，但呢個唔係「真係醫好咗」，本質上同[膠布哲學](02_glossary.md#term-band-aid-philosophy)係同一種邏輯：蓋住個傷口，唔係抹走個傷口。
+
+**代價去咗邊——同 Body Horror 係同一份代價，唔係兩件獨立嘅事**：情緒守恆定律要求代價一定要有出口，貼膠布式療傷都唔例外。呢份代價唔會憑空消失，而係直接匯入嗰個角色已有嘅「身體/靈魂逐漸崩壞」線（例如[操](03_characters/ayakomoji_misao.md)嘅牙齒鬆動→絲線縫牙→靈魂層冷化）——每一次用奇蹟走捷徑療傷，就係提早攞用緊嗰條唔可逆嘅崩壞額度。即係話 Body Horror 從來唔淨係「用魔法戰鬥」嘅代價，仲包括「用奇蹟走捷徑療傷」嘅代價——呢個先解釋咗點解嗰條線一直冇得逆轉：由頭到尾都唔係普通損耗，而係「呃咗」情緒守恆定律嘅利息，遲早要還。
+
+**選擇嘅重量**：呢個機制唔係背景設定，而係逼角色做返一個真實嘅取捨——即時療傷、睇落冇事、可以即刻頂番上（代價係加快自己嗰條崩壞線），定係捱時間等身體自然康復（冇額外代價，但呢段時間內真係弱咗，可能幫唔到手）。兩個選擇背後嘅心理動機、同角色自己點解揀邊一樣，係角色層面嘅設計課題，唔喺呢條世界規則度寫死。
+
+**個別角色嘅額外呈現（CDL-363示例）**：對某啲角色嚟講，透支呢份代價唔止加快崩壞線，仲可以表現做其他形式嘅暫時性代價——例如[操](03_characters/ayakomoji_misao.md)連續透支代價會令心之器暫時唔穩定到冇辦法維持變身狀態，被迫用返未變身嘅身體一段時間；具體呈現形式因角色嘅力量結構而異，唔強制套用落全部角色。
+
+**See also**: [Glossary: Emotion Conservation](02_glossary.md#term-emotion-conservation) | [Band-Aid Philosophy](02_glossary.md#term-band-aid-philosophy) | [Body Horror（操）](03_characters/ayakomoji_misao.md)
 
 ### <a id="rule-scarlet-tide"></a>緋潮
 
