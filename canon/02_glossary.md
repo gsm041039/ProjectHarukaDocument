@@ -309,7 +309,7 @@ Beta 線建立的曆法標準。
 
 三層用法並存唔矛盾：口語上乜嘢都可以叫「奇蹟」；技術上細規模操控殘餘嘅局部應用都算「奇蹟」（Layer 4）但唔係「巨大奇蹟」；「巨大奇蹟」先係全劇僅得兩次嘅自行原生、世界級事件。
 
-**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation) | [奇蹟反應（統治局術語）](#term-miracle-response) | [Tears of Victoria](#term-tears-of-victoria)
+**See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation) | [奇蹟反應（統治局術語）](#term-miracle-response) | [Tears of Victoria](#term-tears-of-victoria) | [奇蹟販賣所（黑市盜用案例，CDL-364）](07_entities_and_devices.md#section-miracle-vending-house)
 
 ---
 
