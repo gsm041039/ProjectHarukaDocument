@@ -96,6 +96,26 @@
 
 ---
 
+## 凜（拒絕安慰派，CDL-374 新增，2026-08-08）
+
+**Entity type:** 主要角色
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 態度 vs 命運（自由唔保證解脫）／被剝奪嘅自主權／溫柔長期冇合理回應 | AC |
+| **Stated belief**（Lie）| 「只有痛覺能證明存在」「我的溫柔冇意義，甚至有害」「我是美夜子的污點」 | SS |
+| **Actual belief** | 她從未真正放棄過溫柔本身——只是放棄咗相信呢件事仲有意義；自願兵器化係佢有記憶以嚟第一次由自己決定自己會變成咩，即使揀嘅係黑暗嘅嘢 | AC | CDL-348/353 |
+| **Method of dealing with pain** | 情緒凍結/絕對理性→面具即本我（CDL-349）；痛覺依存（紅線強迫症）；被動語態自述→自願兵器化嗰刻轉做主動語態（CDL-349） | SS |
+| **What this stance promises** | 一個「保證會有人搵到佢、放佢走」嘅深淵（美夜子介錯人誓言），唔再係獨自面對虛無 | AC | CDL-351 |
+| **What this stance hides** | 意識清零前極短嘅一扇窗，凜可能悔恨過自己嘅選擇，但嚟唔切講出嚟，亦冇人（包括觀眾）聽到——連佢自己都未必攞到肯定答案（CDL-374）| AC | CDL-374 |
+| **What this stance costs** | 佢一直殘存嘅真實溫柔（連自己都控制唔到嘅摺紙衝動）被自己主動掐死；連「呢個選擇啱唔啱」都冇機會攞到答案 | AC | CDL-348/374 |
+| **Mirror** | 紫音（self-definition through giving，姊妹設計，方向相反——一個畀出，一個拒絕被給予）| SS |
+| **Oppose** | 操（自己講得出口「這是我的態度」，故事同佢一齊肯定；凜連自己都未必聽到自己嘅答案，故事亦刻意唔代佢肯定）| AC | CDL-374 |
+| **Where it appears** | 第三幕拒絕治癒；第四幕態度即自由（或者，一扇冇人聽到嘅窗）；E-III-I5 凜的最終戰——遲來的介錯 | SS |
+| **Story's treatment** | **Complicates**——故事保留凜自願選擇嘅份量（唔否定佢有資格揀），但拒絕代佢肯定呢個選擇最終帶嚟解脫；同操（Validates）、紫音（Rejects方法但validates底層痛苦）三者受到嘅故事「回報」刻意唔一致，呢個不一致本身係全作對「態度vs命運」最誠實嘅答案 | **AC** | CDL-374，正式取代原「BK」狀態 |
+
+---
+
 ## 操（形式主義派）
 
 **Entity type:** 主要角色
@@ -137,8 +157,18 @@
 
 ---
 
+## 已知缺口（Round 134，根因四探索，記錄缺口不落定案）
+
+- **操／紫音「Story's treatment」欄仍標 BK（未確認）**，但 `canon/12_philosophy_and_systems.md` §六曾經斷言「態度的自由是否還有可能？答案是肯定的——紫音、操的最終選擇證明了這一點」——即係bible層已寫低結論，但支撐呢個結論嘅正式Gate B判定表格自己都未確認。呢個落差本身係根因四（主題喺bible層預判贏）嘅額外佐證。**（2026-08-08更新：呢句bible斷言已經由CDL-374修正為「答案並非單方向肯定」，操/紫音自己嘅Story's treatment欄仍待另一輪獨立確認，唔喺CDL-374範圍內）**
+- **朔／秋穗完全冇 entity row，愛莉／夕同樣冇**。**凜嘅entity row已經喺2026-08-08（CDL-374）新增並確認（AC），唔再屬於呢個缺口**——根因四嘅「角色承載」問題最終並非起用愛莉或者新角色，而係修正凜自己嘅Truth欄框架，詳見`QUESTION_QUEUE.md` QQ-204同`CANON_DECISION_LOG.md` CDL-374。朔/秋穗/愛莉/夕依然冇entity row，如果未來有獨立需要先再處理，並同 `INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` 嘅 Gate A 表同步（愛莉現時連Gate A row都冇）。
+- 呢兩點純屬記錄缺口，詳見 `REASONING_LOG.md` Round 134／Round 135。
+
+---
+
 ## 更新記錄
 
 | 日期 | 更新內容 | 根據 |
 |---|---|---|
 | 2026-04-14 | Round 023 首次填入：18-angle Act I 掃描結果 + 作者確認；帝國/晴香/美夜子/紫音/操/彩黑奏 entries 建立 | 作者確認 2026-04-14 + CDL references |
+| 2026-08-08 | Round 134：新增「已知缺口」段落，記錄操/紫音Story's treatment仍BK同bible層斷言嘅落差、朔/秋穗/愛莉/夕entity缺口；未新增或修改任何entity row本身 | `REASONING_LOG.md` Round 134；`QUESTION_QUEUE.md` QQ-204 |
+| 2026-08-08 | Round 135：新增凜（拒絕安慰派）entity row，Story's treatment定為Complicates（AC）——根因四「角色承載」問題最終解法；更新已知缺口段落反映凜已解決 | `REASONING_LOG.md` Round 135；`CANON_DECISION_LOG.md` CDL-374；`QUESTION_QUEUE.md` QQ-204 |

@@ -231,6 +231,8 @@
 - 姿態：表情麻木，儀態優雅但僵硬
 - 細節：遵循「無鏡之城」原則——服飾配飾刻意避免高反光金屬或鏡面材料
 
+**主觀信念 vs 客觀症狀（CDL-366，已確認）**：日區居民**主觀上真心相信自己幸福、滿足、活得穩定**——呢層唔係表演，係佢哋真實嘅自我認知。但同時上述「表情麻木、儀態僵硬、被過濾掉活力」嘅客觀描寫維持不變——**兩者同時為真，但居民自己接唔埋呢兩件事**。麻木唔係佢哋自己察覺得到嘅嘢，係[身體代價×債務](11_directing_playbook.md#section-body-debt-axis)主軸喺佢哋身上滲漏出嚟嘅症狀（同主角團嘅「情緒滲漏」tell同一種手法，由角色規模擴展去全體市民）——佢哋每分每秒都寫緊代價喺自己塊面度，但完全唔認得呢個同「幸福」有關。
+
 #### <a id="section-sun-shielding-failure"></a>遮蔽失效效應（Shielding Failure Visuals）
 
 > 觸發條件：[維多利亞之淚](07_entities_and_devices.md)進入過負載態或破碎態時。詳見 [§section-victoria-tears-visual](#section-victoria-tears-visual)。

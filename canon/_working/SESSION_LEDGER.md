@@ -1,5 +1,160 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 137 — 2026-08-11 舞台×傷口×觀眾×直播×奇蹟討論record入檔前grounding check，QQ-209）
+- [x] **背景**：作者要求將`2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md`全部內容入檔，並明確要求有問題矛盾先問
+- [x] 讀齊討論record全文（480行）+ 最新CDL/QQ編號現狀（最高CDL-377／QQ-208）
+- [x] 派2個獨立sub-agent平行grounding check：①直播/奇蹟規則 vs CDL-321/203/244/333/364；②陰影/觀眾心理框架 vs CDL-358/365/haruka.md/aya.md
+- [x] 綜合搵到5個需要作者拍板嘅張力位（直播基建接替系統/術語統一/奇蹟分級相容確認/未sourced舉例標記/單一犧牲者guardrail同晴香結局共存）
+- [x] **落檔**：`QUESTION_QUEUE.md`（QQ-209，BLOCKED）；`PROJECT_STATUS.md` Round 137；`NEXT_ACTION.md`
+- [x] **未寫入任何canon檔案**——等作者回應先正式writeback
+
+## Completed This Round（Round 136 — 2026-08-09 秋穗「無臉執行官」定性做情緒守恆定律懲罰機制，CDL-376）
+- [x] **背景**：延續CDL-375，作者追問「秋穗被情緒守恆定律懲罰」係咪即係話呢個世界機制令佢變成無臉執行官
+- [x] **AI先查證搵唔到具體場景，回問作者澄清**——作者答「因為佢做太多破壞情緒平衡既事」
+- [x] **AI查證發現內部矛盾**：`akiho.md`話呢個係「失敗時間線」先發生嘅事，但`ACT_II_OUTLINE.md` E-04/E-07c明確秋穗主線Act II已經兩次出現過無臉執行官形態
+- [x] **AI提出解決方向**：兩條時間線同一機制，分別在可逆性（主線暫時、失敗時間線永久）——作者確認「OK」
+- [x] **落實**：`01_world_rules_and_costs.md`（新增§自我消解世界規則）；`akiho.md`（Archetype表無臉執行官行改寫，修正矛盾）；`CANON_DECISION_LOG.md`（CDL-376）
+- [x] **確認唔改變CDL-375結論**——秋穗唔取代凜（CDL-374）做root cause 4正式解法
+- [x] **落檔**：`REASONING_LOG.md` Round 136
+
+## Completed This Round（Round 135 — 2026-08-08 根因四「角色承載」由作者拍板解決：凜Truth欄修正CDL-374/秋穗補充CDL-375）
+- [x] **背景**：延續Round 134三條獨立問題，作者針對①角色承載直接反問，唔跟AI原有四候選建議
+- [x] **作者第一問**：點解一定要有呢個案例？AI答craft trade-off，非mandate，由作者判斷
+- [x] **作者第二問**：凜唔算係咩？——AI拆解凜兩層死亡（光環處決唔算；Unit00-Null先係關鍵），查證`rin.md`原文「凜自己可能冇意識承認，但觀眾睇得到」，確認凜同操結構上唔同（操自己肯定；凜連自己都未必聽到答案）
+- [x] **作者第三問**：秋穗更啱因為佢係無臉執行官——AI查證修正上一輪不完整判斷（無臉執行官確實喺主線Act II出現，E-04/E-07c），但成條弧線最終仍被Act IV「笨蛋老媽」救贖收尾，唔啱做解法；作者提議「秋穗唔知愛莉最後點」獨立成立
+- [x] **作者第四問（具體提案）**：凜揀咗Unit00-Null後有後悔但已冇感情感受唔切——AI評估方向啱，成本最低，直接拆穿現有Truth欄安慰性斷言
+- [x] **作者確認**：「落實」
+- [x] **落實**：`rin.md`（Truth欄/Archetype表/第四幕修正+新增§遲來的悔意）；`akiho.md`（新增§未完成嘅閉環）；`12_philosophy_and_systems.md`（§六「答案是肯定的」修正做「答案並非單方向肯定」）；`CANON_DECISION_LOG.md`（CDL-374/375）；`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`（凜Ending/Growth type欄）；`IDEOLOGY_THEME_STANCE_MATRIX.md`（新增凜entity row，Story's treatment=Complicates）；`QUESTION_QUEUE.md`（QQ-204①RESOLVED，②③仍待回應）
+- [x] **落檔**：`REASONING_LOG.md` Round 135完整推理
+
+## Completed This Round（Round 134 — 2026-08-08 根因四〔主題預判贏〕獨立session：3-agent探索+兩輪交叉質疑）
+- [x] **背景**：回應`ROOT_CAUSE_SESSION_PROMPTS.md`根因四交接prompt（作者選定，開始根因四探索）；讀齊指定背景順序（PROJECT_STATUS Round 131／`12_philosophy_and_systems.md`／`IDEOLOGY_THEME_STANCE_MATRIX.md`／`THEME_CONFLICT_EXPRESSION_TABLE.md`／`ACT_III_OUTLINE.md`態度殘響段／操/紫音/凜死亡設計）
+- [x] **派3個獨立sub-agent平行探索**：Agent 1（朔/秋穗/愛莉/全新角色四個候選承載可行性評估）、Agent 2（Act II完整879行掃描，搵立場衝突beat候選）、Agent 3（Act IV未批核附錄「態度殘響...完成最後一擊」修正方向）
+- [x] **Agent 1結論**：朔可行性低（撞已批核「重逢」圓滿結局）、秋穗極低（角色存在意義就係「有罪求原諒」，同「滿分態度」正面矛盾）、愛莉thematic fit最強但撞正CDL-004消散因果解釋+母女和解場景、全新角色冇canon collision但要新投入戲份；建議排序愛莉>全新角色>朔>秋穗
+- [x] **Agent 2結論**：5個Act II候選，3個（E-07b三位一體辯論/E-08黑奏農場觀察vs彩卡頓/E-12屍骸女王邏輯癱瘓）幾乎零成本可直接落表；候選2/4風險較高；意外發現夕完全冇Gate B entry
+- [x] **Agent 3結論**：發現`02_glossary.md`/`04_timeline_canon.md`已有「靈魂共鳴」正式詞條講「令晴香企穩」，同草稿「完成最後一擊」本身有出入，仲撞正CF-T07已否決嘅「態度=並列法則」講法；4個修正候選，建議方向D（打開選擇可能性，唔係保證贏）
+- [x] **主session兩輪交叉質疑**：發現若揀愛莉承載，其摧毀必須明確排除喺態度殘響/靈魂共鳴慰藉機制之外，否則問題只係搬咗地方；愛莉Act II已有出場（E-11，CDL-360彩嘅確認事件）令佢兩次都係「為咗令其他嘢有意義而存在」嘅張力需要畀作者知；三個方向風險/獨立性唔同，決定分開包裝成三條獨立問題，唔綁死一齊問
+- [x] **落檔**：`REASONING_LOG.md`新增Round 134完整段落；`QUESTION_QUEUE.md` QQ-204由單一BLOCKED更新為三條獨立問題；`THEME_CONFLICT_EXPRESSION_TABLE.md`新增Act II三行CANDIDATE；`IDEOLOGY_THEME_STANCE_MATRIX.md`新增「已知缺口」段落。全程未落CDL、未改任何`03_characters/*.md`或01-13號主文件本身
+- [x] **同作者用自由form討論三條問題**（唔一次過問晒，分優先序）
+
+## Completed This Round（Round 133 延伸 — 2026-08-07 全劇性稽核：pattern唔止情緒守恆定律一個）
+- [x] **背景**：作者連續三次追問將討論由單一beat擴展做全劇性問題——①Beat 0既有材料（秋穗把聲扮亡母）可唔可以直接承載規則暗示（查證CDL-126確認可行）；②執行mandatory 19角度掃描（Pool 1全12+Pool 2 relevance check），搵到「關係動態」「形式必要性」兩個未開角度；③查證`KNOWLEDGE_DEPENDENCY_MAP.md`發現螢/彩揭示線（R-5）撞緊完全同一種病
+- [x] **作者最終指示**：一次過用sub agent搵到晒所有類似位，列出嚟寫成文檔
+- [x] **派3個sub-agent平行查證**：Agent 1核九條主要揭示鏈現況（R-1/2/4/5/6/7/C-1/C-2）；Agent 2全面grep三份outline世界規則類「未定案/擺位建議/btd」標記（32項）；Agent 3查證七條核心世界規則早期線索vs正式揭盅時間差
+- [x] **Agent 1結論**：R-5（螢/彩「多謝你」）係全表最明確嘅同類案例，CDL已鎖但場景零字；R-6/C-1(Stage3)受`ACT_IV_OUTLINE.md`不存在拖累；`KNOWLEDGE_DEPENDENCY_MAP.md`本身R-2/R-7段落內部自相矛盾（技術債，AUTO-RESOLVABLE）
+- [x] **Agent 2結論**：32項世界規則類標記，最高優先8項（AKS-S1螢身份/黑奏伏筆二選一/奇蹟販賣所位置未定等），Act III後段五個高潮beat（J5/J6/J9/L5/L9）連CDL編號都未登記
+- [x] **Agent 3結論**：改變現實/三位一體/光環/Alpha-Beta線四條有清晰staircase；**屍骸化機制**現象有暗示但運作原理從未有正式揭盅beat；**緋潮Act II完全斷層**；**世界免疫系統理論**幾乎完全冇早期線索亦冇正式揭盅beat，比情緒守恆定律更嚴重
+- [x] **收斂做三級分類**：A類（冇問題）／B類（同情緒守恆定律同病）／C類（更嚴重）
+- [x] **落檔**：新建`canon/_working/story_construction/LATE_REVEAL_SEEDING_AUDIT.md`（v1.0）；`QUESTION_QUEUE.md`新增QQ-208；`PROJECT_STATUS.md`／`NEXT_ACTION.md`已同步
+- [x] **確認一個結構性連結**：呢個稽核證實根因三（角色外化）嘅病灶唔止影響角色心理tell，仲影響緊主要揭示鏈本身同世界規則
+- [x] **未改動任何canon/outline檔案**——純粹查證，未提方案
+- [ ] **待作者回應**：QQ-207三項提案 + QQ-208優先次序
+
+## Completed This Round（Round 133 — 2026-08-07 根因二「觀眾認知」獨立session：3-agent探索+兩輪交叉質疑收斂）
+- [x] **背景**：讀`ROOT_CAUSE_SESSION_PROMPTS.md`根因二段落開場（QQ-207落檔參考）
+- [x] **先讀齊背景**：`PROJECT_STATUS.md` Round 131／`SUFFERING_CHOICE_BREATHING_SCAN.md`（完整逐幕掃描，Round 083）／`09_information_design.md`五段式揭露結構／`08_narrative_design_bible.md` CDL-330／`KNOWLEDGE_DEPENDENCY_MAP.md` R-3+R-2／`QUESTION_QUEUE.md` QQ-207原文（用PowerShell抽取，因QUESTION_QUEUE.md表格為單一巨行）
+- [x] **澄清一個關鍵既有事實**：R-3五層並非「E-11a純屬空降」——Layer1（Act I觀察層）→Layer2（Act II系統）→Layer3（Act II末，E-11a正式命名，CDL-247），真正缺口係Layer1冇方向性暗示
+- [x] **派3個獨立sub-agent各自深挖一個方向**（第一輪）：Agent A規則揭露時機／Agent B CDL-330執行稽核／Agent C純粹喘息新候選
+- [x] **Agent A結論**：建議E-03加純視覺/聲音氛圍暗示（唔講機制/唔指去向），理據＝shock同suspense唔互斥+project已有T15先例
+- [x] **Agent B結論**：操/晴香/美夜子低配選擇鏈已完整存在（AUTO-RESOLVABLE補標註）；凜/秋穗係真正缺口；Beat級檢驗問題抽測操E-07b/I1/夕整合PASS；SUFFERING六項建議分類完成
+- [x] **Agent C結論**：Phase D/Act III G-H1冇一個現存beat乾淨可升格（查證`CROSS_ACT_FORESHADOW_MANIFEST.md`後全部已掛Plant或者係苦難），淘汰Phase G「日頭返學」框架（已被canon定性做黑奏放養策略一部分），改建議兩個全新獨立小片段
+- [x] **兩輪交叉質疑**（第二輪）：①Agent B質疑E-03密度風險，Agent B自己覆核建議分流去`[NC]`附屬衛星場景；②Agent B提出借Agent C位置畀凜/秋穗出場，Agent C明確拒絕（純粹性+世界觀邏輯雙重理由），Agent B覆核同意分開處理；③Agent A覆核監控/黑奏視覺混淆風險，判斷可控但收緊執行約束
+- [x] **收斂做三個提案**（全部NEEDS_AUTHOR_INPUT）：①E-03氛圍暗示；②兩個新純粹喘息小片段；③凜/秋穗角色外化缺口獨立處理與否
+- [x] **落檔**：`REASONING_LOG.md`新增Round 133段落（完整記錄三個agent結論+三輪交叉質疑）；`QUESTION_QUEUE.md` QQ-207由DEFERRED改AWAITING AUTHOR DECISION；`PROJECT_STATUS.md`／`NEXT_ACTION.md`已同步
+- [x] **未改動任何canon檔案或outline檔案**——全部提案停留喺分析層，等作者回應
+- [ ] **待作者回應**：三項提案（詳見chat回覆同`NEXT_ACTION.md`）
+
+## Completed This Round（Round 132 — 2026-08-07 根因一「敘事引擎/主角能動性」獨立session：3-agent結構方向+兩輪交叉質疑+作者co-design深化）
+- [x] **背景**：延續Round 131五角度診斷嘅QQ-205，讀`ROOT_CAUSE_SESSION_PROMPTS.md`根因一段落開場
+- [x] **主session先讀齊**`ACT_I_OUTLINE.md`／`ACT_II_OUTLINE.md`／`ACT_III_OUTLINE.md`（全份）／`08_Story_Engine_and_Conflict_Pressure_Map.md`／`consequence-driven-progression.md`，確認證據同Round 131原有數字冇出入
+- [x] **派3個獨立sub-agent各自深挖一個結構方向**（第一輪）：①Act II Phase D操主導截糧行動；②Act III Phase I/J晴香能動性重分佈；③黑奏側觀眾專屬隱藏倒數
+- [x] **兩輪交叉質疑**（第二輪）：三個agent互相質疑、指出衝突、判斷方向點組合，方向③被三方（包括自己）一致同意降格做方案A嘅條件性附加層；方案A/B確認時序唔重疊、可獨立批核
+- [x] **衍生新發現**：如果方案A+B同時落地，美夜子會係四個深挖角色入面唯一冇「自己揀時機主動出手」材料嘅一個——記錄做需要作者判斷嘅新author-decision
+- [x] **向作者presentation（用戶指出AI初時只顧寫檔案冇真正討論，即時修正）**：用自由form（唔提內部編號）將方案A/B/降格後嘅方向③、美夜子新發現，同3條author-decision講返晒俾作者
+- [x] **作者逐輪co-design深化**：
+  - [x] 作者要求：唔想直接保留放養，但要求AI先搵到原有設定原因，再喺solve問題之餘唔好影響原因——查證`backup/screenwriter/Villain_Master_Plan.md`原始反派設計文件，確認放養＝數據養殖經濟理性+痛楚公有化核心哲學+黑奏死穴根源；發現`ACT_II_OUTLINE.md`原文其實已寫明帝國「消化緊痛苦」（主動掠奪只係未搬上台面），方案A本身就係將呢個已存在嘅掠奪過程首次可見化，唔需要改動核心機制
+  - [x] 作者糾正美夜子「自己選擇搵晴香」唔純粹係本能（CDL-060），佢知道晴香有力量幫佢變返人但揀咗搵晴香，反映「太多責任上身」性格；查證`miyako.md`（Want「履行姊姊的責任」/E-06「傲慢的業力迴力鏢」）確認呢個判斷成立
+  - [x] AI提議Phase I/J都畀美夜子一個「為自己」時刻，**作者否決**：呢個心要到Act IV大哭（CDL-354）先發芽，提早加會撞期破壞人物；佢揀唔同朔生活用新身份已經係「為自己」弧線嘅完整答案，唔使加新設計——美夜子衍生問題正式收尾
+  - [x] 作者修正無臉執行官方向兩次：AI原提議「執行帝國自己嘅篩選其他學童生產線」（保住放養但顯示唔到黑奏自己嘅主動性）→ 作者要求要強化**黑奏對主角團**嘅主動性唔係帝國嘅→ 定案：黑奏親自喺**遠處**現身，因為無臉執行官淨係聽黑奏本體指令，每次現身都要求彩有藉口缺席，加強現有AKS-P1「彩/黑奏行為積累」設計（新增第二條積累渠道），必須保持含糊
+  - [x] 方案B（晴香Phase I/J，核心J6重寫）向作者完整解釋（由「試但零結果嘅系統排斥」改做「壓抑稅擠出微小有效行動，代價轉嫁做肉體癱瘓」），作者要求AI用白話重講機制兩次（「系統排斥」係咩／改法同原設計嘅分別），**最終confirm核心邏輯「佢自己一路嘅性格（壓抑）令佢嘅努力反過嚟摧毀自己」**——方案B正式confirm
+- [x] **落檔**：`REASONING_LOG.md`新增Round 132／Round 132續／Round 132續2三個段落、`QUESTION_QUEUE.md` QQ-205完整更新（方案A同方案B兩個方向均標記已confirm）、`PROJECT_STATUS.md`／`NEXT_ACTION.md`／本檔同步更新
+- [x] **明確冇做**：冇由AI單方面揀方案落CDL；冇改動任何已批核beat／角色卡；冇寫入`ACT_II_OUTLINE.md`／`ACT_III_OUTLINE.md`／`aya.md`（方案A/B全部仍屬outline層方向確認，未到精確beat擺位階段）；冇擅自修改`consequence-driven-progression.md`
+
+## Completed This Round（Round 131 續3 — 2026-08-07 根因五「製作現實」獨立跟進session：E-01場景劇本草稿+3個角色聲音守門人交叉校對）
+- [x] **範圍修正（協調者中途介入）**：作者明確講明本session任務係圍繞「根因五：製作現實」呢個診斷現象本身探索（規劃內容遠遠拋離戲劇內容/Act IV Outline掛56輪未寫過一場戲/guardrail從未返落生產），唔係窄化去回答`QUESTION_QUEUE.md` QQ-203嗰句預先寫死嘅問法；QQ-203只係落檔追蹤編號，唔係任務定義
+- [x] **讀齊背景材料**：`ACT_I_BEAT_SHEET.md` Beat 0c/SCENE 1-4/[SQ-A]、`character-voice-bibles/{haruka,miyako,kohei}.md`三份正式voice bible/聲音研究文件、`.tmp/story_runs/haruka_first_transform_school/`入面之前一次試跑遺留嘅`02_kohei_grounding_draft.md`同`03_voice_bible_draft.md`兩份準備稿
+- [x] **實際寫出E-01場景（組隊·初次變身·膠布哲學第一層）完整劇本草稿**：由Beat 0c欺凌僵局寫到[SQ-A]桐生健戰後尾聲，用【CANON】（逐字沿用已批核台詞）/【EXT】（依voice bible規則延伸，未經作者確認）/【風險】（寫作過程中撞到嘅具體問題）三種標籤，落檔`canon/_working/.tmp/story_runs/haruka_first_transform_school/04_scene_script_draft.md`，全文`[DRAFT ONLY — NOT CANON]`
+- [x] **派3個獨立sub-agent做角色聲音守門人交叉校對**（各自只讀自己角色嘅voice bible，唔互相參考）：晴香守門人＝基本一致（4句canon零偏差，唯一延伸句落喺已知證據真空但唔違反任何規則）；美夜子守門人＝局部有偏差，**搵到一個實質錯誤**（草稿假設[SQ-A]美夜子切人形態做記憶縫合，同voice bible「Act I全程貓形態」GLOBAL_STABLE規則直接矛盾，已修正返貓形態全程執行）；桐生健守門人＝基本一致局部有偏差，**搵到一個流程瑕疵**（開場欺凌對白有未標籤嘅canon竄改「，唔覺得羞㗎？」，已刪走還原純canon原句）
+- [x] **兩個發現都已即場修正落草稿**，並喺草稿入面新增一段交叉校對總結，指出「寫作」同「聲音校對」分開由唔同pass/agent做可以攔截真實錯誤，呢個本身值得成為未來Scene/Script層標準做法
+- [x] **誠實評估邊條根因先係真正病灶**：唔係單一根因——根因三（角色外化，QQ-206）最直接命中（心理設計未落到可執行嘅具體擺位，例如美夜子「非計劃保護動作」冇指定係邊一個具體動作，令對應語言規則用唔出嚟）；根因二（觀眾認知，QQ-207）喺Scene3「雙層現實」段有意外印證（核心手法全靠UI/視覺完成，冇一句對白承載，可能係文字劇本測試本身嘅結構性盲點而唔一定係缺陷）；根因一（敘事引擎，QQ-205）喺呢場戲冇痕跡，E-01本身已經係全劇少數角色主動觸發嘅beat，係一個反例；根因四（主題，QQ-204）完全冇觸及，呢個位置本身唔應該扛呢個責任
+- [x] **原本冇預期、寫完先浮現嘅觀察**：canon嘅`[AC]`標記代表「決定唔會變」，但唔代表「決定已具體到可以直接寫對白」——成套CDL/QQ/`[AC]`狀態管理系統擅長追蹤「決定咗未」，完全冇追蹤「決定夠唔夠具體可執行」，呢個可能係56輪產出全部係心理側支、一場戲都未寫過嘅結構性成因之一
+- [x] **平行任務：獨立grep覆核CDL-330守則落地率**（唔信賴Round 131診斷原有講法，親自重新查證）：搜`canon/_working/story_construction/`全目錄「低配選擇」「低配排練」等關鍵字，確認真係零命中，獨立印證Round 131診斷屬實；但同時發現條文自帶嘅示範例子（操順手救路人/晴香幫陌生市民）喺outline入面實質內容係存在嘅，只係從未被標記/核對過——即係話唔係完全零實踐，而係「有實踐但冇被系統性追蹤」，呼應上面嘅結構性觀察
+- [x] **落檔**：草稿本身（非canon）、`REASONING_LOG.md`新增Round 131續3完整段落、`QUESTION_QUEUE.md` QQ-203狀態由「BLOCKED問方向」更新為「測試已執行完成，有具體結果」、`PROJECT_STATUS.md`／`NEXT_ACTION.md`／本檔同步更新
+- [x] **明確冇做**：冇碰QQ-204/205/206/207 四條根因嘅實際設計討論，全部維持原狀等作者揀；冇將草稿入面任何內容writeback入任何`03_characters/*.md`或Outline檔案
+
+## Completed This Round（Round 131 — 2026-08-06 5-agent 全作宏觀創作診斷，QQ-203/204/205 BLOCKED — story-holistic-supervisor）
+- [x] **作者原問題保留**：總係覺得依家個故事同其他優秀作品差緊D嘢，但唔知差咩，要求用5個sub-agent由唔同角度討論
+- [x] **派出五個獨立、唔重疊角度嘅agent**：①敘事引擎/主角能動性；②觀眾認知/體驗負載；③角色外化/差異度；④主題對標優秀作品（Madoka/FMA/40K/Eva/Made in Abyss/Persona/NieR）；⑤製作現實/流程健康
+- [x] **每份報告人手抽查verify**：agent 1（敘事引擎）全部claim verify通過；agent 2（觀眾認知）verify通過，同`SUFFERING_CHOICE_BREATHING_SCAN.md`獨立互相印證；agent 3（角色外化）發現一個引用錯誤（`ko_hikaru.md`實際係小光/紫音細佬嘅檔案，唔係桐生健，桐生健根本冇獨立角色檔），核心claim（對白稀缺）獨立重新抽查後仍然成立；agent 4（主題對標）兩個最關鍵quote逐字verify通過；agent 5（製作現實）兩個最關鍵數字（Round131連續56輪阻塞點不變、CONTROL_OBJECTIVES_MASTER.md全空）verify通過
+- [x] **根因一（引擎）**：Act I+II 36個beat入面20個由制度/世界觸發，得5個由角色選擇觸發（3個仲係同一條紫音支線）；晴香全劇最後三分一連續15+beat純受體零主動選擇；反派黑奏canon策略明文「放養/冷血等候」令全故事冇deadline逼隊伍
+- [x] **根因二（觀眾）**：Act I前60%冇一條可預測嘅規則落地（情緒守恆定律遲到E-11a先正式講明），觀眾要帶住約50個未解釋概念行完大半幕；Act I十個「喘息」場面入面八個底層係陷阱，全劇未被工具化嘅純粹喘息淨返「兩個半」（便利店作戰+相簿創建半個）
+- [x] **根因三（角色）**：49個設計好嘅心理tell得12個（24%）擺入任何outline，鎖定咗嘅＝0個；7/9主要角色以「表演/偽裝」做coping，操/紫音/凜/彩四個係同一個「傷口→面具→Lie→剝落→死」模版嘅變奏；全repo最長連續對白6行，11個角色得晴香/美夜子有樣本通過盲測
+- [x] **根因四（主題）**：`12_philosophy_and_systems.md`直接斷言「答案是肯定的——紫音、操嘅選擇證明咗」，主題結論bible層已預判贏；操/紫音/凜三個死亡全部帶道德背書，冇「攞晒滿分態度依然被摧毀、故事唔俾解釋」嘅個案；Act II（94KB）「態度」「命運」兩詞出現次數為零；情緒守恆定律嘅「一句講晒」測試只係半過關（可理解但唔可預測，因為代價轉移嘅對象/時間刻意唔講）
+- [x] **根因五（製作現實，串連晒上面四條）**：全repo規劃:戲劇內容比例約397:1；Act IV Outline由Round074掛到Round130，56輪「唔改變主阻塞點」但實際產出全部係角色心理側支；`CONTROL_OBJECTIVES_MASTER.md`（全作最高層控制表）自2026-04-16起全空；作者已經診斷過呢個病灶兩次（QQ-162 Round083苦難美化／QQ-175 Round093正面特質缺口），兩次都寫落guardrail（CDL-330）但驗證確認guardrail從未套用返Act I/II Outline（「低配選擇排練原則」喺兩份outline搜索結果為零）——診斷同修正停喺doctrine層冇再入返生產流程
+- [x] **競爭優勢（必須保留，唔喺呢輪改動）**：淡淡的感謝機制／「機器冇痛所以有人難過嘅工序一定要有真身體」（未落CDL）／制度民間兩欄荒誕／CDL-330嘅beat級測試問題（設計啱，只係未套用）／便利店作戰／晴香冇童年創傷嘅結構性例外（CDL-355）／plant-payoff工程（長伏筆質素高）
+- [x] **三項author-decision已落`QUESTION_QUEUE.md` QQ-203/204/205**（自由form，非A/B/C選項式）：①要唔要並行寫一場已批核場景做真正劇本測試，唔等Act IV Outline完成；②Act II六個月空窗要唔要改寫做角色驅動追擊戰；③要唔要起用一個角色承載「態度依然唔夠、故事唔俾解釋」嘅功能
+- [x] **明確冇做**：冇由AI單方面揀方向落CDL；冇改動任何已批核角色死亡設計；冇觸碰Act IV Outline本身
+
+## Completed This Round（Round 131 續 — 2026-08-07 五條根因全部落檔追蹤 + 五個獨立session交接prompt已寫入`ROOT_CAUSE_SESSION_PROMPTS.md`）
+- [x] 補開 `QQ-206`（角色外化：tell鎖定/模版差異化/對白稀缺）／`QQ-207`（觀眾認知：規則命名時機/喘息工具化），令五條根因全部有獨立可追蹤QID（QQ-203流程／QQ-205引擎／QQ-204主題／QQ-206角色／QQ-207觀眾），狀態全部DEFERRED或BLOCKED，唔喺呢輪由AI搶答
+- [x] 為五條根因各寫一份自足式（fresh session零記憶都可以直接用）discussion prompt，已寫入 `canon/_working/ROOT_CAUSE_SESSION_PROMPTS.md`，每份包含：根因摘要+證據錨點／建議sub-agent陣型／硬性約束（唔可以silent resolve、唔可以跳author gate、建議寫幾個方案唔係一個、只喺真正author-decision點先問）／落檔位置
+- [x] 明確冇做：冇喺呢輪展開任何一條根因嘅實際設計討論，五個都留返畀作者揀嘅獨立session
+
+## Completed This Round（Round 130 — 2026-08-06 「現實中荒誕但故事內合理」設定生成法則診斷，未落CDL，QQ-202 BLOCKED — story-holistic-supervisor）
+- [x] **作者原問題保留**：主題設計可以生出「現實中荒誕但故事內合理」嘅設定（例：用船推動一個島），而家主軸係身體代價×債務，點樣用現有全部設定深入處理呢類設定
+- [x] **作者中途補充例子**：WH40K用人腦代替電腦做運算，因為喺嗰個世界人係唔值錢資源
+- [x] **證據掃描**：`11_directing_playbook.md`（主軸公式＋十輪精修＋兩條guardrail＋核心感覺聲明）／`01_world_rules_and_costs.md`（情緒守恆定律、情緒資本主義、情感經濟循環、緋潮、膠布哲學）／`02_glossary.md`（食罪者／睡夢紡織工／情緒美食家／愛莉濾心／潘朵拉協議／情緒結算儀式／日夜區）／`07_entities_and_devices.md`（維多利亞之淚／Emo-Visor三代／心防內化裝置／奇蹟販賣所／五件低科技生存裝置）／`REASONING_LOG.md`十輪完整推理（確認唔重提已否決候選）
+- [x] **發現一（核心）**：本作唔可以用40K「人命平過機器」做正當化理由（純經濟、同主題無關、撞死核心感覺聲明）；改用現有情緒守恆定律推出嘅更強法則——「機器冇痛，所以任何需要有人難過嘅工序，一定要有副真身體喺入面」（唔係人平過機器，係機器根本做唔到）
+- [x] **發現二**：canon已有六件同類資產（睡夢紡織工＝已寫咗嘅cogitator／食罪者／愛莉濾心／金魚雷達／無意識兵器／膠囊原料），缺口係佢哋全部係flavour或機密、互相唔對話
+- [x] **發現三**：可見性——機密只做到reveal，做唔到簽名；「公開×制度」四格幾乎空白（只有身份證明辦公室），「隱藏×制度」超載
+- [x] **發現四**：本作核心感覺要求荒誕分兩欄（制度荒誕 vs 民間荒誕），同一法則兩種預算；40K冇呢欄，呢個先係贏返嘅位
+- [x] **三個候選提出（未批核，零新機制）**：出世紙用母親嘅痛做墨水／白房開放日／喪禮＝債務轉名手續（第三個有撞黑奏痛楚公有化嘅未查證風險）
+- [x] **明確唔好做清單**：消費級轉痛商品（食咗黑奏終極計劃）／結晶做貨幣同認名黑市（十輪已否決）／人命平做理由（撞核心感覺）
+- [x] **作者中途兩次修正**：①唔係要抄WH40K，40K只係「設定用得好」嘅例子，要嘅係扣死主題＋突出本作獨有vibe，特別係由**情緒設定**本身長出嚟嘅設定；②必須落主線或分線，並且同角色有關係，唔可以停留喺世界觀背景flavour
+- [x] **按修正方向重做**：定位本作register為「潮濕街坊民俗」（金魚街/唐樓/花露水/樹窿電話亭），區別於40K教堂機械同抽象宇宙類故事；由五條現有情緒規則（生存情緒不可收割／情緒燃料極性分類／黑色眼淚不蒸發／執念飽和度／微弱的感謝）直接推導五個設定：①希望係農作物（扣晴香/經理人/凜/黑奏/風評系統重讀）；②鮮貨同罐頭（扣晴香毒轉繃帶能力，令晴香被消費線有機制支撐）；③洗地（扣美夜子黑暗沖涼/操嘔吐/紫音黑市，可做全劇固定收尾節拍）；④分心習俗（扣紫音餵野狗habit升格做街坊保命術）；⑤微弱的感謝＝唯一硬通貨（扣黑奏中心反諷，⚠️有淪為收集機制嘅風險，建議刻意留白）
+- [x] **舊版40K框架降級**：機器冇痛法則/四格可見性盤點/出世紙/白房/喪禮三候選保留做內部分析工具，唔再係主要輸出
+- [x] **落檔**：`REASONING_LOG.md`（Round 130完整推理+修正記錄）、`QUESTION_QUEUE.md`（QQ-202更新，BLOCKED）、`PROJECT_STATUS.md`、`NEXT_ACTION.md`、本ledger
+- [ ] **BLOCKED，需要作者揀**：五個候選揀邊個/邊幾個推進；①②屬改動帝國動機層/風評讀法嘅定義級決定，需要格外確認
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計，本輪係主題/導演語言根基診斷）
+
+## Completed This Round（Round 129 — 2026-08-06 操父親「政治聯姻陷阱」完整設計並整合，CDL-368/370/371落檔，QQ-200）
+- [x] **作者提出**：想加深操父親呢條已有線，令佢好意噁心到似性剝削嘅羞辱程度但唔係性剝削本身
+- [x] **多輪候選淘汰**：身體檢查（太奇怪，否決）→政治聯姻式公開展示（採納）→賓客反應由「取笑誤會」修正做「歧視語言」（唔男唔女）→加深三層（母親眼神/永久記錄/自我否認）
+- [x] **永久記錄機制兩輪精修**：食物條件反射版本→實體觀察檔案文件版本→最終定案用操已有嘅「影相恐懼→影相珍惜」正面成長線做武器（CDL-370），加甜品雙重體貼陷阱
+- [x] **拆穿機制簡化**：移除「聯姻對象都係女性」reveal，改用父親出台介紹時直接用操登記在案嘅男性繼承人身份（CDL-371），解決咗聯姻對象角色設計懸空問題
+- [x] **正式整合操成長弧線**：政治聯姻陷阱定性做「試真實換嚟毀滅性懲罰」嘅關鍵轉折，直接觸發Stage 2a/2b/無心完美人偶（逃避型債務加碼），令鏡像破碎之夜/鋼鐵獨舞更得來不易
+- [x] **同E-09a因果連接、同被迫報串setup-payoff、紗夜臨終真相前置伏筆**全部confirm並整合
+- [x] **Writeback完成**：`ayakomoji_misao.md`（§政治聯姻陷阱大段整合）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`（操Act II/III/IV/Growth type欄全部由BK補齊）、`CANON_DECISION_LOG.md`（CDL-368/370/371）、`QUESTION_QUEUE.md`（QQ-200）
+- [x] **同輪延伸——修正CDL編號撞號**：「身體代價×債務十輪壓力測試」entry原誤標CDL-367，同並行session2026-08-05落嘅CDL-367（晴香二十年守望）撞號，已更正做CDL-369，跨7個文件同步修正
+- [x] **同輪延伸5——晴香×經理人本質重新定位（CDL-372，QQ-201）**：作者指出「溫暖變公關內容」方向仍撞「長輩剝削後輩」pattern→查證經理人已有豐富設定（投機賭徒/Fallen Angel毒品背叛/「化學反應的錯覺」reveal/「賭徒滿盤皆輸」結局）→定案起點倒轉：晴香喺經理人賭徒性格輸清光嘅低潮期主動畀機會（扣連歌手身份起源）；經理人氣場＝本身有力但因性格中落；晴香依戀根源由「渴望父親」改做「拯救=被需要」核心欲望最早示範；背叛雙重殺傷力（跌落嚟同背叛佢係同一種性格）
+- [x] **Writeback完成**：`haruka.md`（新增§經理人起源）、`03_character_index.md`（Pre-Act I起源段）、`10_gameplay_bible.md`（措辭精修注解）、`CANON_DECISION_LOG.md`（CDL-372）、`QUESTION_QUEUE.md`（QQ-201）
+- [x] **同輪延伸6——晴香拆穿經理人「命運vs態度」分層設計（CDL-373，QQ-201）**：AI初稿「機制冇畀佢慢慢逃避嘅本錢」被作者明確否決（否定角色選擇，撞中態度vs命運核心原則）→修正做「命運=時限（壓抑稅/夕加速殼爆）、態度=方向（主動揀拆穿經理人，唔係被迫）」→作者定性呢個action代表晴香「主動想做好人」嘅自我定義，扣連CDL-357道德立場光譜waypoint
+- [x] **Writeback完成**：`haruka.md`（新增§拆穿經理人——一個action）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`（晴香Act II狀態由BK補齊）、`CANON_DECISION_LOG.md`（CDL-373）、`QUESTION_QUEUE.md`（QQ-201更新）
+- [ ] **DEFERRED**：操父親線/經理人線具體對白wording、精確beat ID、拆穿經理人具體受害者人選留待Beat Sheet層；奇蹟販賣所QQ-197四項執行細節仍未拍板
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計，本輪係角色心理深化）
+
+## Completed This Round（Round 128 — 2026-08-05 晴香二十年守望第三階段「為自己喊」具體場景，CDL-367落檔，補完QQ-142）
+- [x] **作者提出討論題目**：「晴香為自己自私一次係成長」成唔成立、點深化
+- [x] **查證現狀**：確認拯救者情結自私核心（CDL-355）同接納解答（CDL-356/357）已係canon，但解答全部停留心理層面，冇具現化場景——講法底層邏輯成立，具現化係空白
+- [x] **派Explore sub-agent查證二十年守望期間邊個有能動性**：搵到晴香意識同夕分屬唔同主體，晴香困L3純屬主觀、冇其他真實角色在場；一度建議用「無臉執行官」做見證人
+- [x] **直接查證 `00_Story_Brief.html`（已更正版本）推翻上述建議**：確認客觀世界喺夕維持身體期間只過咗數日，「二十年」純屬晴香一個人主觀L3經歷——呢個「主觀/客觀時間分裂」機制本身已係CDL-326正式canon，但`04_timeline_canon.md`舊文字未同步（已知缺口QQ-161，本輪冇處理）
+- [x] **同作者逐輪共同設計場景**：確認由晴香自己嚟做/講（唔要夕代做）天然成立；作者提出「知道出面人為佢戰鬥、突破好痛、試極放棄」雛形；AI提議「掙扎會拖累出面嘅人」呢層機制式理由被作者明確否決——**作者要求動機必須乾淨，純粹想令自己好過啲，任性但合情合理，唔可以夾雜「其實為佢哋好」嘅潛台詞**
+- [x] **扣連現成世界規則**：`01_world_rules_and_costs.md`已有「連結線張力機制」（CDL-326）——掙扎加速斷裂、停止先會自然返回穩定——為「自私選擇」提供咗Consequence-Driven外部觸發（每次強行突破有真實耗損代價），亦令選擇客觀上順帶（非動機）令返去有條件成立，呢層因果刻意留白唔明講
+- [x] **定案具體場景**：為自己喊（同CDL-347「為人哋喊，為自己唔喊」不對稱完整對照）；擺位自己揀甦醒之前唔耐，迷糊咁表達；甦醒時眼角一滴淚水已流落做visual token
+- [x] **Writeback完成**：`haruka.md`（§接納過程二十年守望段落大幅擴充做三階段具現化）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`（晴香Act IV/Ending欄）、`QUESTION_QUEUE.md`（QQ-142第三階段標記RESOLVED）、`CANON_DECISION_LOG.md`（CDL-367）
+- [ ] **DEFERRED**：QQ-142第一/二階段（對抗/崩潰）具體場景數量、同夕「數日」時間點交錯設計未落實；`04_timeline_canon.md`舊文字同步缺口（QQ-161）未處理
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計，本輪係角色心理深化嘅具現化場景設計）
+
 ## Completed This Round（Round 127 — 2026-08-04 全劇導演語言/世俗概念主軸長篇討論收斂為「情緒×債務」+新增「奇蹟販賣所」黑市概念，CDL-364落檔，QQ-197）
 - [x] **作者提出**：主題未夠強烈成為導演語言，想搵一個似WH40K「血肉+信仰」咁嘅世俗概念fusion，令作品有獨特、易分辨嘅表演/導演方式
 - [x] **多輪候選淘汰**（用director-room/holistic-supervisor/多個sub-agent平行評估）：心匣（否決，虛構物非世俗概念）→醫療/急救（作者否決）→畜牧管理（作者想要更多alternatives）→契約/合約→囚犯/監獄（sub-agent評估有WH40K式潛力但覆蓋唔到靈魂本體論層）→認證/資格審核（作者指出太抽象冇WH40K嗰種肉緊）→血肉（心之器龜裂/歌德尖刺/情緒結晶，現成機制）+殉道信仰（獻祭已有canon文字支撐）→偶像×債務（sub-agent平行評估發現「債務」原來已經係canon現成嘅情緒經濟系統，「偶像」淨係魔法少女專屬表層）
@@ -10,6 +165,8 @@
 - [ ] **DEFERRED**：奇蹟販賣所四項執行細節（受害人人選/紫音查案手法/Act I定II擺位/同E-07c精確時序）留待下一輪或Beat Sheet層
 - [x] **同輪延伸（CDL-365，QQ-198）**：作者質疑「情緒實體物質」太依賴魔法詞彙，追問係咪走回頭路→逐輪查證普通人/魔法屍骸/日區市民/人格面具嘅債務體現→最終收斂做「身體代價（現有代價上鏡原則）×債務（現有維多利亞之淚央行/潘朵拉協議）」，明確標記**暫定**，情緒結晶/心之器降格做解釋機制，偶像維持最窄表層；新增逃避型/成癮型兩種債務生成機制+個人vs社會對稱結構（Persona/Shadow/屍骸化 vs 日夜區迷思/緋潮）
 - [x] **Writeback完成**：`11_directing_playbook.md`（新增§身體代價×債務——全劇世俗概念主軸大段落）、`CANON_DECISION_LOG.md`CDL-365、`QUESTION_QUEUE.md`QQ-198
+- [x] **同輪延伸2（CDL-367，QQ-199）**：開獨立discussion partner agent做十輪自動來回討論，深挖CDL-365遺留三缺口（未真正焊合/冇肉身儀式/未證明道具建築規模）；六候選砍剩三核心（公式不變+個人社會fractal確認為唯一贏WH40K比較嘅部分+新增身份證明辦公室做道具規模錨點）；新增兩條checkable production guardrail；作者要求「成個對話有用內容」全部補寫落`REASONING_LOG.md`（包括全部否決候選嘅具體理由）
+- [x] **Writeback完成**：`11_directing_playbook.md`（新增§十輪壓力測試後嘅精修版）、`REASONING_LOG.md`（Round 127續完整十輪推理）、`CANON_DECISION_LOG.md`CDL-369、`QUESTION_QUEUE.md`QQ-199
 - [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計，本輪係主題/導演語言根基討論，屬動筆前根基補充）
 
 ## Completed This Round（Round 126 — 2026-08-01 黑奏「情緒能量收割」機制重寫+彩自身同理心限制+P-C07落地暗線，CDL-358落檔，QQ-191）
