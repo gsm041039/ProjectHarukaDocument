@@ -4,6 +4,13 @@
 
 - 日期：2026-08-10
 - 狀態：已整合至 2026-08-11；底層規則及顯式導演語言方向已確認，跨 Canon writeback 仍須按多代理審核流程處理
+- **2026-08-11 9-agent審核後writeback狀態**（完整報告見`canon/_working/2026-08-11_STAGE_WOUND_MULTI_AGENT_AUDIT_REPORT.md`）：
+  - ✅ **已writeback**：§2舞台命題、§6.2三重疊材料、§6.5身體凝視限制、§8奇蹟連接命題 → `canon/11_directing_playbook.md`§舞台×傷口（CDL-378，後併入CDL-380）、`canon/02_glossary.md` term-reality-override④（CDL-379）
+  - ✅ **2026-08-11同輪追加writeback（作者拍板QQ-210/QQ-211）**：§6.1底層規則鏈（收編入「身體代價×債務」做債務半心理機制，唔升格獨立doctrine）、§6.4三拍grammar（成形→裂口→結算/取回，第三拍改名）、§3觀眾taxonomy（正式改稱「劇內觀看位置」）→ `canon/11_directing_playbook.md`§全劇導演語言層級圖／§身體代價×債務§債務嘅心理運作鏈／§舞台×傷口（CDL-380）；§6.3「維持≠面具」→ `canon/05_naming_and_psychology_system.md`第二層創傷性面具晴香項修正（CDL-381，保留CDL-356做Act I定案，5歲創傷重新定性做「生存框架」）
+  - ✅ **2026-08-12全部QQ-209五點由作者拍板並writeback**：①②後期直播時序分段+術語統一 → `07_entities_and_devices.md`§摧毀後果、`11_directing_playbook.md`§兩個時期dialect、`02_glossary.md`term-light-veil（CDL-382）；③奇蹟分級維持CDL-379不變；④「彩笑容背後嘅唔舒服」例子正式棄用，唔補新例子（CDL-383）；⑤晴香三位一體結局加兩層誠實性 → `haruka.md`§三位一體結局——非乾淨嘅結算、`IDEOLOGY_THEME_STANCE_MATRIX.md`晴香entity（CDL-384）
+  - **本輪額外**：作者直接要求刪除光幕濾鏡「機械體」外觀選項同「聲音被強制轉換為標準化電子音」描述 → `02_glossary.md`term-light-veil（CDL-385）
+  - ⛔ **仍未處理（低優先，唔阻塞，非author-decision blocker）**：「彩把信藏入熊公仔」（NOT_FOUND，如日後想用需標新設計）、凜「自願兵器化」例子引用CDL-374前舊版本（如日後寫入相關內容時順手換新版本措辭）
+  - **本討論record至此已全部處理完畢**——所有author-level問題（QQ-210/211/209）均已解決並writeback，冇任何遺留BLOCKED問題
 - 關聯主題：面對不可控命運時，態度是唯一的自由
 - 關聯導演語言：身體代價 × 債務；維持／承接／埋單；舞台 × 傷口
 - 主要關聯角色／系統：晴香、夕、紫音、操、彩、美夜子、秋穗、凜、黑奏、魔法少女直播、奇蹟、維多利亞之淚、帝國公開觀看系統

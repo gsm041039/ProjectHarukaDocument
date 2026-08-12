@@ -309,6 +309,8 @@ Beta 線建立的曆法標準。
 
 三層用法並存唔矛盾：口語上乜嘢都可以叫「奇蹟」；技術上細規模操控殘餘嘅局部應用都算「奇蹟」（Layer 4）但唔係「巨大奇蹟」；「巨大奇蹟」先係全劇僅得兩次嘅自行原生、世界級事件。
 
+**④ 舞台化奇蹟——被看見的不可能（CDL-379，暫定）**：口語層本身已經係「被公眾看見並命名為奇蹟」嘅機制，天然支援「觀眾期待令一次例外變成責任」呢個讀法，唔違反上面三層分級同三項硬限制。「奇蹟成立所需的代價，未必會在同一個鏡頭內被看見」同上面「因果債必須歸還——改變越大，反噬越強；被消除的痛苦將以等量代價在時間軸的其他節點回歸」係同一條規則；[奇蹟販賣所](07_entities_and_devices.md#section-miracle-vending-house)（CDL-364，「花錢買一次假嘅解脫，代價會慢慢返嚟搵你」）已經係呢個命題嘅具體案例。此點只確認概念相容，唔改動任何現有分級或硬限制，亦唔涉及Act IV「後期直播」方向本身（該方向另有討論，見`QUESTION_QUEUE.md` QQ-209）。
+
 **See also**: [Tuning](#term-tuning) | [Reality Stitching](#term-reality-stitching) | [情緒守恆定律](#term-emotion-conservation) | [奇蹟反應（統治局術語）](#term-miracle-response) | [Tears of Victoria](#term-tears-of-victoria) | [奇蹟販賣所（黑市盜用案例，CDL-364）](07_entities_and_devices.md#section-miracle-vending-house)
 
 ---
@@ -830,7 +832,9 @@ Beta 線本質的核心敘事隱喻。
 ### <a id="term-light-veil"></a>光幕濾鏡（The Light Veil / Cognitive Override）
 維多利亞之淚的認知覆寫功能。
 
-永晝之光照射範圍內，魔法少女變身時被光幕處理成「模糊的發光的完美無瑕的天使/機械體」。聲音被強制轉換為標準化電子音。僅限日區。夜區居民一直看到魔法少女真實面貌。當維多利亞之淚受損，光幕瞬間全城熄滅。
+永晝之光照射範圍內，魔法少女變身時被光幕處理成「模糊的發光的完美無瑕的天使」。僅限日區。夜區居民一直看到魔法少女真實面貌。當維多利亞之淚受損，光幕瞬間全城熄滅（摧毀後果同硬限制見[維多利亞之淚](07_entities_and_devices.md#section-org-victoria)，CDL-382）。
+
+> **正式術語（CDL-382）**：本系統正式名稱為「光幕系統」／「[維多利亞之淚](#term-tears-of-victoria)」。「帝國公開觀看系統」非正式canon術語，僅見於討論記錄，唔寫入正式文件。
 
 **See also**: [Tears of Victoria](#term-tears-of-victoria) | [Sun District](#term-sun-district)
 

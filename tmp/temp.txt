@@ -1,0 +1,359 @@
+AGENT_GOAL
+Mission：檢查discussion log §11「拒絕/保留/改名/停止提供自己」同§4.3「取回觀看權」呢兩條規則，喺現有Gameplay/Combat/UI/直播介面設計上有冇實際落地證據；並檢查CDL-333/CDL-362兩個奇蹟機制同discussion log「奇蹟是舞台上被看見的不可能」講法是否相容。
+Files scanned：canon/10_gameplay_bible.md（全文）、canon/_working/CANON_DECISION_LOG.md（CDL-333/362全文段落）、canon/07_entities_and_devices.md（維多利亞之淚/奇蹟販賣所段）、canon/01_world_rules_and_costs.md（光幕濾鏡/Reality Show段）、canon/02_glossary.md（term-light-veil/term-tears-of-victoria/term-reality-override）
+Stop condition：已完成gameplay_bible全文掃描+關鍵詞交叉檢索（拒絕/停止/取回/觀看權/直播/光環/打賞/賠率），並確認discussion log提出嘅「拒絕權/停止權/解釋權/觀看權」呢組詞彙喺全個canon目錄裡面除咗討論記錄本身，只有一個.tmp scene draft用過（非gameplay/UI文件），因此判定為evidence-complete，停止搜索。
+Evidence Table
+EVIDENCE_ID	file	line/section	quote/摘要	authority level	interpretation	confidence
+EV-01	10_gameplay_bible.md	§Boss 設計倫理 L448-457	「最終勝利條件可不是擊殺，而是中止循環、解除控制或完成抽離」；黑奏Boss需先喚醒彩、否則系統拒絕（UI提示「她還沒準備好」）	Canon（gameplay bible）	呢個係「屍骸/敵人」層面嘅拒絕機制（拒絕俾人抽離），唔係discussion log講嘅「少女角色本人拒絕/停止提供自己嘅表演」機制。功能唔同：一個係戰鬥門檻，一個係表演/觀看主體性	高
+EV-02	10_gameplay_bible.md	§社交系統 L110-134	風評三階段：光幕濾鏡→濾鏡穿幫→濾鏡破碎，玩家「只看到被美化後的社會回饋」	Canon（gameplay bible）	呢個系統模擬「觀眾點睇少女」，但完全係被動NPC反應/風評數值，玩家冇任何「代表少女拒絕被觀看/停止表演」嘅操作選項	高
+EV-03	10_gameplay_bible.md	§IG敘事線 L138-159	四階段（強行營業→閃耀日常→數位墓碑→結局迴響），對照社會風評	Canon（gameplay bible）	純敘事flavor系統，記錄少女「被觀看狀態」嘅變化，但玩家唔可以透過IG互動主動「拒絕/取回」觀看權——只係被動閱讀式呈現	高
+EV-04	10_gameplay_bible.md	全文	全文搜尋「直播」「光環」「打賞」「賠率」= 0 match	Canon（gameplay bible）	Gameplay bible完全冇將「直播」轉化做任何UI/玩法元素；社交系統只用「風評」數值同IG貼文模擬，唔係discussion log講嘅公開觀看/直播interface	高（NOT_FOUND確認）
+EV-05	01_world_rules_and_costs.md	L171-177	「戰鬥以直播形式公開，市民歡呼、打賞、討論賠率」「透過維多利亞之淚光幕系統收割觀眾崇拜情緒」	Canon（world rules）	直播/打賞/賠率呢啲元素已經係world-rule層面嘅敘事設定，但完全未被轉譯落gameplay bible做玩家可操作嘅UI/機制——呢個係典型「概念存在於世界觀，未落地做玩法」嘅缺口	高
+EV-06	02_glossary.md	term-light-veil L830-836	光幕濾鏡＝維多利亞之淚嘅「認知覆寫功能」，令市民（非玩家角色）睇到「模糊發光完美天使」形象；夜區居民一直睇到真實面貌	Canon（glossary）	呢個機制係NPC認知層，唔係玩家介面；同discussion log講嘅「城市螢幕、光環、公共儀式」有主題呼應（都係「掩蓋真相」嘅公共觀看裝置），但冇任何UI/Gameplay Bible條目將光幕濾鏡轉化做玩家可見/可互動嘅系統	高
+EV-07	_working/CANON_DECISION_LOG.md	CDL-333 (L448)	「奇蹟」三層：口語層（市民隨口讚嘆任何魔法展示）／技術層（細規模操控殘餘）／巨大奇蹟（自行原生、世界級，全劇僅兩次）	Canon（AC 2026-07-14）	同discussion log「奇蹟是舞台上被看見的不可能」相容：口語層本身就係「被公眾看見並命名為奇蹟」嘅機制，天然支援「觀眾期待令例外變成責任」呢層邏輯；但CDL-333本身係世界規則定義，未有對應gameplay/UI條目具現化呢個「觀眾期待」壓力	高
+EV-08	_working/CANON_DECISION_LOG.md	CDL-362 (L21)	奇蹟簡易療傷＝「貼膠布式修復」，代價匯入Body Horror崩壞線，唔係獨立機制；製造「即時療傷（加快崩壞）vs 捱時間自然康復（暫時弱）」嘅真實選擇	Canon（AC 2026-08-02）	呢個係角色私下/個人層面嘅代價機制，唔係discussion log講嘅「舞台上被公眾看見嘅奇蹟」——兩者範疇唔同、唔矛盾。但CDL-362完全冇處理「呢個療傷選擇有冇被觀眾睇到」呢層——即係話CDL-362同「舞台化奇蹟」概念冇被連結，兩條線目前平行存在	中高
+EV-09	07_entities_and_devices.md	奇蹟販賣所 L325-337	黑市盜用維多利亞之淚做「細規模奇蹟」買賣，買家「以為買咗奇蹟，實際買到嘅只係一次代價會轉移返嚟嘅暫時假象」	Canon（CDL-364）	同discussion log「代價未必喺同一個鏡頭內被看見」高度相容，甚至已經具現化咗「奇蹟代價被隱藏」呢層命題；但呢個仍然係劇情事件（一集案件），未轉化做玩家可操作嘅gameplay/UI系統	高
+EV-10	全canon目錄 grep	—	「拒絕權」「停止權」「解釋權」「觀看權」呢組discussion log核心詞彙，喺canon全目錄搜尋，只喺討論記錄本身同一個.tmp scene draft（02_kohei_grounding_draft.md，L65講桐生健「自己冇拒絕權」）出現過，冇任何一次出現喺gameplay/UI/combat正式canon文件	NOT_FOUND	呢組詞彙目前完全未進入gameplay bible、world rules嘅UI/機制章節。討論記錄提出嘅「拒絕/保留/改名/停止提供自己」規則，喺玩法/UI層係空白	高（NOT_FOUND確認）
+Gameplay覆蓋判斷
+已有支撐（部分相容，但未落地做玩法）：
+
+CDL-333「奇蹟三層」同discussion log「奇蹟是舞台上被看見的不可能」概念相容——口語層本身已經係「公眾看見並命名」嘅機制。
+奇蹟販賣所（CDL-364）已具現化「代價被隱藏在表演之外」呢層命題，但停留喺劇情事件層，未轉玩法。
+「光幕濾鏡」「維多利亞之淚光幕系統」已經係world-rule層嘅公共觀看裝置，同discussion log講嘅「城市螢幕、光環、公共儀式」主題呼應，但零UI/gameplay bible條目。
+CDL-362「奇蹟簡易療傷」同discussion log嘅「傷口/舞台」冇直接矛盾（範疇不同：個人身體代價 vs 公眾表演代價），但兩者目前完全冇被連結——即係話「療傷選擇會唔會被觀眾睇到」呢層完全未設計。
+IMPLEMENTATION_GAP（完全冇玩法/UI支撐）：
+
+玩家/角色可以「拒絕、保留、改名或停止提供自己」嘅具體操作——gameplay bible全文冇任何一個系統讓玩家代表角色做呢類選擇（EV-01嘅Boss拒絕抽離係敵方屍骸單方面拒絕，性質完全唔同）。
+「取回觀看權」嘅玩法轉譯——discussion log §4.3要求嘅「少女如何開始監視自己或重新取回觀看權」，喺現有UI（絕對共感視界、社交風評、IG敘事線）裡面完全搵唔到對應機制；呢啲系統全部係單向被動呈現（玩家睇到風評數字、睇到IG貼文），冇任何一處俾玩家「代表角色行使拒絕/取回」嘅互動。
+直播/城市螢幕/光環/公共儀式作為gameplay或UI元素——完全NOT_IMPLEMENTED，「直播」呢個詞喺gameplay bible出現次數為零；worldrules層有「戰鬥以直播形式公開」嘅敘事設定（EV-05），但未轉化做任何gameplay bible章節。
+「每次直播/奇蹟必須實際改變關係/代價分配」（§4.3六項checklist）——現有系統入面最接近呢個原則嘅係社交風評三階段同IG四階段，但兩者都係敘事flavor+數值懲罰，唔係discussion log要求嘅「觀眾期待→少女選擇停止/取回」互動迴圈。
+結論：discussion log提出嘅「觀看權/停止權」核心規則，喺目前canon入面停留喺主題／世界觀層，未有任何gameplay/Combat/UI章節將其轉化做玩家可感知嘅操作或選擇。CDL-333/CDL-362兩個既有奇蹟機制同「舞台×傷口」方向唔矛盾，甚至局部相容，但兩者之間（奇蹟代價 ↔ 舞台公開觀看 ↔ 玩家停止/取回操作）目前係三條未接合嘅平行線，需要author gate決定係咪、以及點樣將呢層轉化做具體玩法（例如：戰術視窗新增「拒絕介入/停止表演」選項、絕對共感視界新增「觀眾期待值」讀取、或風評系統新增「主動拒絕曝光」分支）——呢啲全部屬於未定案設計方向，唔可以假設已經存在。
+
+Grep "二十年守望|時間重置|只過幾日|reality.override|改變現實" (in d:\Projects\ProjectHarukaDocument\canon\02_glossary.md)
+99 lines of output
+Grep "CDL-345|CDL-326|連結線" (in d:\Projects\ProjectHarukaDocument\canon\_working\CANON_DECISION_LOG.md)
+7 lines of output
+
+AGENT_GOAL
+- Mission: 檢查 discussion log（舞台×傷口×身體凝視方向）與現有 canon（服裝/變身/招式/怪物/代價上鏡原則）之間有冇既有敘事功能證據，辨認性感化/空泛黑暗/裂痕符號化/冇代價落點嘅風險。Read-only，無編輯。
+- Files scanned: canon/06_visual_bible.md（全掃）、canon/11_directing_playbook.md（§身體代價×債務、§代價上鏡原則、§不安氣氛總方針）、canon/01_world_rules_and_costs.md（Grep代價相關）、canon/_working/CANON_DECISION_LOG.md（CDL-365/366/368/369/370）
+- Stop condition: 完成三項任務問題嘅證據收集，冇再發現新關聯章節
+EVIDENCE_ID	file	line/section	quote（節錄）	authority level	interpretation	confidence
+E1	11_directing_playbook.md	L346-353 §代價上鏡原則	"第一層（主）身體代價 常見：喉嚨乾、手震、失焦、牙齦出血、耳鳴、嘔心、嘔吐、掉牙"；"身體代價不應一開始就最重；必須累積"	AC（既有正式章節）	呢個先於discussion log存在嘅原則已含log §6.5 checklist要用嘅材料（手震等），且自帶「必須累積」紀律，天然防止空泛黑暗	高
+E2	11_directing_playbook.md	L45-53 §身體代價×債務（CDL-365）	"血肉半＝身體代價……已有嘅代價上鏡原則……信仰半＝債務……維多利亞之淚/潘朵拉協議……索取權"	AC 2026-08-04	代價上鏡原則＝「身體代價」半；身體凝視限制＝同一半嘅「邊個有權解讀/索取呢個身體」問題，兩者係同一套原則嘅唔同角度（前者管「出現咩」，後者管「邊個有權用嚟做咩」）	高
+E3	CANON_DECISION_LOG.md	CDL-369 entry	"個人/社會fractal任何一場戲須通過「邊個最終埋單，佢當初有冇得揀」check（置換+延遲+非自願三者缺一不可）"	AC 2026-08-04	呢條production guardrail結構上幾乎對應log §6.5「拒絕權/解釋權/保留私隱權/停止提供自己權利」——「非自願」=失去拒絕權，「置換」=被人重新命名/解讀。可直接援引現有guardrail，唔使開新checklist	高
+E4	06_visual_bible.md	L364-379 §不安氣氛總方針	"重覆變奏、延遲與錯位，令角色的溫柔、功能、崩壞與姿態，永遠差半步同步"；"她仍然在笑／笑得不對"	AC（既有正式章節）	呢個已經係log「怪物仍然漂亮、招式仍然完成、服裝仍然完整，但身體或影子已經出現不可修補的錯位」嘅既有canon表達，只係未限定喺怪物/舞台語境——log方向可視為既有原則嘅場景延伸，唔係新命題	高
+E5	06_visual_bible.md	L546-548 §Trinity Visualization	"屍骸相：輪廓硬化、光澤金屬化、音色乾裂，但保留一個「人性殘響」細節，避免扁平怪物化"	AC	已有明確防呆規則對抗「空泛黑暗/純符號化怪物」——「怪物仍然漂亮」呢個意象必須連住呢條「人性殘響」規則先安全，否則流於美術炫技	高
+E6	06_visual_bible.md	L975-987 §裝置使用者屍骸複合視覺規則（GAP-56）	"前裝置使用者屍骸的視覺必須同時包含兩層……不是替代關係，而是疊加……複合視覺禁忌：不可只呈現一層"	AC	呢個係「多重材料必須疊加、不可只揀一層」嘅既有兩層先例（尖刺=靈魂碎裂／齒輪=裝置印記），可直接作為log §6.2 三重疊（完整美學/傷口/怪物）嘅結構範本	高
+E7	06_visual_bible.md	L37-41, 431-432 §破碎的美學／§心之器碎裂	"最高美學追求不是「完美」，而是不完整性、傷痕與裂痕本身蘊含的淒涼美感"；"黑鐵尖刺完全包裹的瞬間往往是最視覺上「完美」的時刻，但那種完美正是靈魂喪失的證明"	AC	呢個已經係「完整美學＝代價本身」嘅既有先例——log §2.2「傷口壓成花」命題大部分已隱含喺呢節，寫作時應扣連呢個章節而非另立新美學系統	高
+E8	06_visual_bible.md	L434-446 §服裝的失控顯化	"常態元素原地變異，不是被替換，而是在同樣位置崩壞……落差越大，糖衣撕裂時的衝擊越強"	AC	服裝已有「完整美學同一位置被傷口取代」嘅具體機制（蕾絲→哥德刺繡等），係「花與傷口同一物」命題嘅安全落地案例，唔涉及身體暴露	高
+E9	06_visual_bible.md	L936-939（GAP-76，操角色）	"脫去日常服裝的瞬間——1 幀的臨床白底出現，像在手術室燈光下被檢視……每一次變身都是操重新「選擇進入囚籠」的視覺複述"	AC	全份 canon 中最直接對應log §6.5「身體成為被判斷/檢視的證據」嘅既有案例——用「1幀閃光＋臨床/手術室語境」做到「身體被凝視」而唔靠停留鏡頭或性感化，係安全範本	高
+E10	06_visual_bible.md	L951（GAP-76，凜角色）	"凜的變身每次都重演「她的身體不完全是她的身體」這一事實"	AC	幾乎逐字對應log §6.5 核心句「角色發現自己的身體不再由自己定義」，證明呢個命題已局部存在於既有角色設計，唔係全新方向	高
+E11	06_visual_bible.md	L402 §著裝過程	"基礎服裝先以半透明能量布料貼合身體輪廓，避免「瞬間完成」造成廉價感"	AC	RISK ITEM——半透明布料貼身輪廓本身中性，但若配合log §6.5 嘅「身體凝視」鏡頭語言（停留、特寫），冇明確鏡頭時長/角度節制會有性感化滑坡風險；需援引E9嘅「1幀閃光」紀律做節制範本	中
+E12	01_world_rules_and_costs.md	L378, 389	"代價：靈魂延遲、嘔吐、感官錯位、短暫解離"；"反噬期：手抖、嘔吐、視聽錯位、動作延遲"	AC	World Rules 層同 Directing Playbook 嘅代價上鏡原則一致，確認身體代價係跨檔案已鎖定嘅底層機制，唔係本輪新提案	高
+視覺/身體風險清單
+已有具體代價落點、可安全採用（唔使重新設計）：
+
+代價上鏡原則（E1/E2/E12）本身已係身體凝視限制嘅「材料庫」，且自帶「必須累積、唔可以一開始最重」紀律。
+CDL-369 嘅「置換+延遲+非自願」guardrail（E3）已結構性對應log嘅拒絕權/解釋權checklist，寫作時應直接援引呢條guardrail，唔使另開一套新checklist（避免重複定義同一件事）。
+操（GAP-76，E9）嘅「臨床白光1幀」變身設計，係「身體被凝視＝證據」而非性感化嘅安全示範，可作為擴展直播/舞台身體凝視鏡頭語言嘅唯一已驗證範本。
+破碎的美學＋服裝失控顯化（E7/E8）已經係「完整美學同傷口同一物」嘅既定機制，log §2.2「傷口壓成花」命題應寫成呢兩節嘅延伸，而唔係新美學系統，否則會出現雙重定義嘅canon衝突風險。
+有性感化/空泛黑暗/符號化風險，需要收窄先可以落實：
+
+§著裝過程「半透明能量布料貼身」（E11）若配合log嘅身體凝視鏡頭（手震/呼吸/站姿長時間特寫），冇明確「唔可以停留」規則會滑向性感展示——現有canon冇對呢個位設鏡頭時長上限，屬於缺口，需要author gate 决定要唔要新增節制規則。
+Log §6.2 三重疊材料（完整美學/傷口/怪物）如果被套用成每場戲機械checkbox，會流於符號化裂痕——log自己都話「唔係每場都要一次過展示」，但呢個自我節制未落成可check嘅canon規則（相對GAP-56兩層疊加已有明確「不可只呈現一層」嘅硬規則，三重疊仲未有對應嘅硬規則版本）。
+「怪物仍然漂亮」呢個意象本身若脫離E5「人性殘響、避免扁平怪物化」呢條既有防呆規則獨立使用，可能滑向純美術炫技嘅空泛黑暗——冇具體代價落點（邊個身體、幾耐、換嚟咩）就只係畫面對比，唔係主題表達。
+結論： discussion log 嘅方向大部分（§6.2/§6.4/§6.5 核心命題）已經有具體既有canon先例支撐（尤其E4/E7/E8/E9/E10），並非全新發明；主要缺口在於「身體凝視鏡頭嘅時長/角度節制」未落成可check嘅硬規則（E11風險），以及「三重疊材料」未有GAP-56咁明確嘅「不可只呈現一層」式硬規則版本。呢兩點屬於author-gate級別嘅新增規則，唔應該由AI單方面補齊。
+
+Agent G（Gameplay/UI）已完成，其餘7個仍在運行。等全部返回後會一次過做Phase 3統合，暫不逐個匯報。
+
+Grep "QQ-142|出面.{0,15}幾日|客觀時間|L3經歷" (in d:\Projects\ProjectHarukaDocument\canon\_working\QUESTION_QUEUE.md)
+5 lines of output
+Grep "QQ-142|客觀時間|幾日" (in d:\Projects\ProjectHarukaDocument\canon\_working\REASONING_LOG.md)
+1 line of output
+AGENT_GOAL
+Mission：驗證 2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md 提到嘅角色觀看/陰影/tell 例子，係咪同 canon/03_characters/*.md 一致；特別重新核查「晴香看見彩笑容背後的不舒服」呢個候選例子。
+Files scanned：discussion log 全文；haruka.md（全文兩段）、yu.md、iwakura_akane.md（紫音）、ayakomoji_misao.md（操，1-359行）、aya.md（彩/黑奏，全文）、akiho.md、rin.md、miyako.md；另 grep 01_world_rules_and_costs.md／02_glossary.md（「裂口」術語）、ACT_I_OUTLINE.md（彩早段接觸）、SESSION_LEDGER.md（「沉睡二十年」修訂記錄）。
+Stop condition：完成全部9個角色+ 黑奏 + 4個交叉檢查項目，證據不足處明確標 NOT_FOUND，唔補完。本次為 read-only 研究，未作任何檔案修改。
+EVIDENCE_ID 表
+ID	File	Line/Section	Quote/內容摘要	Authority	Interpretation	Confidence
+E-01	haruka.md	§77-85「幸運嘅一個——Act I 冇面具」CDL-355	「Act I 嘅晴香對人好、幫人，係真心、冇任何表演成份」	AC (CDL-355)	直接確認：Act I 善良=真心，非天生假面。呢個係硬限制，唔可以被discussion log倒寫	高
+E-02	ACT_I_OUTLINE.md	62行 CDL-130	「晴香看到彩『習慣了被忽略』的空白表情（非正義感，係心理創傷共鳴）」	AC (CDL-130)	呢個係「晴香睇穿彩」最接近嘅canon beat，但講嘅係「空白表情/創傷共鳴」，唔係「笑容背後的不舒服」	中（相關但非同一內容）
+E-03	haruka.md / aya.md	全文搜尋	「彩笑容背後的不舒服」呢個具體措辭	—	NOT_FOUND——全部角色檔冇呢句對應嘅具體場景/台詞	高（否定性證據）
+E-04	yu.md	61行	「她在敘事上的核心用途不是直接推動戰鬥，而是擔任『真相評論者』」	AC	「觀眾」框架同canon已有「評論者」框架方向一致，術語唔同但概念相容	高
+E-05	yu.md	§wnlt Lie	「我是晴香的敵人」——實際上她是晴香最忠實的守護者	AC	discussion log「陰影可以係最早最清楚嘅觀眾」同呢個Lie/Truth結構方向一致，唔矛盾	高
+E-06	yu.md	250-252行 CDL-341	「陰影一直都係最可靠嘅事實來源」	AC	進一步支持discussion log嘅「陰影=見證者」框架，屬合理延伸	高
+E-07	ayakomoji_misao.md	311行 habit-grievance-leak CDL-347	「委屈式崩喊／公主病爆發（情緒滲漏）」	AC (CDL-347)	操嘅「tell」已confirm，同discussion log嘅「操拍下別人的痛苦」係唔同項目	高
+E-08	ayakomoji_misao.md	313行 habit-photo-arc CDL-347/352	操對「被影相」由恐懼變珍惜，主體係「自己被拍」	AC	discussion log §10「操影相成長線」講嘅「記錄可以保存真實/商品化」大方向CONFIRMED對應habit-photo-arc + CDL-370父親攝影陷阱；但log §3.2「操拍下別人的痛苦」講操做拍攝者，呢個方向喺canon搵唔到，屬新框架/未confirm	中（主線CONFIRMED，細節PARTIAL）
+E-09	ayakomoji_misao.md	112-136行 CDL-368/370	政治聯姻陷阱——父親安排攝影師刻意影低操崩潰嗰刻，摧毀操對影相嘅正面聯繫	AC (CDL-370)	直接對應discussion log「父親的攝影陷阱直接摧毀其正面成長」，逐字對應	高
+E-10	iwakura_akane.md	215行 habit-laugh-instead-of-cry CDL-347	紫音「嗤笑彈開（笑代替喊）」	AC (CDL-347)	直接對應discussion log「紫音嗤笑遮痛」	高
+E-11	akiho.md	172行 habit-hand-tremor CDL-347	秋穗「手震——穩手嘅出賣」	AC (CDL-347)	直接對應discussion log「秋穗手震」，含義（良心穿透結果論防牆）完全吻合	高
+E-12	miyako.md	269行 habit-lip-bite CDL-347	美夜子「咬嘴唇（跨形態通用）」	AC (CDL-347)	discussion log冇明確點名美夜子tell，但同一CDL-347 tell系統成員，術語一致	高
+E-13	aya.md	209行 habit-letter-ritual CDL-348	彩將信塞入熊公仔隱藏縫隙，「揀一個連黑奏都唔敢碰嘅角落」	AC (CDL-348)	直接對應discussion log「彩把信藏入熊公仔=保留私人傷口」	高
+E-14	aya.md	89-95行 CDL-358	彩「窄而深嘅同理心」——對熟悉嘅人（螢、晴香）極深，對廣泛陌生人苦難薄弱	AC (CDL-358)	同「保留私人傷口」框架相容：彩選擇性保留（熊公仔信件）同選擇性同理心（窄而深）係同一種「有限但真」嘅心理結構，唔矛盾	高
+E-15	01_world_rules_and_costs.md	361行；02_glossary.md 610行	「裂口」= 皮膚裂口/關節縫隙，哥德尖刺萌生嘅物理位置	AC（世界規則）	discussion log嘅「裂口」（三拍grammar第二拍，泛指身體/情緒/矛盾穿過形式露出）係更廣義嘅導演語言用法，同世界規則嘅「裂口」係窄義身體恐怖術語——同一漢字詞兩種用法並存，需留意術語範圍區分，非內容矛盾	中（術語風險，非設定矛盾）
+E-16	SESSION_LEDGER.md	686行	「移除timeline table入面自相矛盾嘅重複『終局沉睡20年』card」——「暗示結局後再瞓多20年，同新結局『意識清醒』直接矛盾」	AC（作者已決議刪除）	discussion log §4.2/§9/§13 提到「晴香沉睡二十年與夕代行」作為「既有主題...脈絡」，但呢個講法已被作者正式移除/取代	高（CONTRADICTION）
+E-17	haruka.md	27行 status-static-cradle CDL-326/344	晴香Act IV=「三位一體永恆守護者」，主動選擇融合，意識存續狀態刻意留白；唔係沉睡	AC (CDL-326/344)	同E-16一致：現行canon嘅Act IV結局係「清醒融合」，唔係「沉睡二十年」	高
+E-18	yu.md	155-167行 CDL-069	夕E-XX整合場景：「融合：夕黑色 + 晴香粉色混合，夕消失並內化為晴香更深沉的眼神」	AC (CDL-069)	夕早已喺Act IV前完全融合/消失入晴香人格入面，唔係一個仍然獨立存在、可以「代行」晴香人生嘅實體	高
+角色一致性判斷
+CONFIRMED（直接對應現有canon，可放心沿用）
+
+紫音嗤笑遮痛（E-10）
+秋穗手震（E-11）
+彩把信藏入熊公仔=保留私人傷口（E-13，同CDL-358窄而深同理心相容）
+操影相恐懼→珍惜嘅成長線（E-08主線部分、E-09攝影陷阱摧毀成長）
+膠布哲學（晴香偶像/直播失控相關，haruka.md已有完整種植/回收設計）
+「陰影可以係最早最清楚嘅觀眾」對夕嘅重新定位（E-04/E-05/E-06，方向一致，唔矛盾Act I冇面具設定）
+PARTIAL（大方向相容，但具體措辭/細節喺canon搵唔到，需要author進一步確認先可以用嚟寫beat）
+
+「晴香看見彩笑容背後的不舒服」——維持上一輪grounding check嘅判斷：NOT_FOUND（逐字）。最接近嘅canon beat係CDL-130（晴香見到彩「空白表情」，創傷共鳴），但講嘅係「表情空白」而非「笑容背後不舒服」，唔可以直接當成已confirm嘅例子使用，若要落實需要author決定係咪要新增/修改呢個beat嘅具體描述。
+「操拍下別人的痛苦，可能是保存者/剝削者」——canon入面操嘅影相線係佢「自己被拍」嘅成長弧，冇「操主動拍攝他人痛苦」呢條線，屬新框架，未confirm。
+CONTRADICTION（需要author gate，唔可以直接沿用discussion log講法）
+
+「晴香沉睡二十年與夕代行」（discussion log §4.2/§9 Act IV表/§13來源說明）——此概念已被作者於SESSION_LEDGER.md明確移除，因為同現行Act IV結局（晴香意識清醒、主動選擇融合，CDL-326/344）直接矛盾；且夕早已喺CDL-069完全融合消失，唔存在一個可以獨立「代行」晴香人生嘅夕。呢個係discussion log入面唯一發現嘅實質性canon矛盾，屬discussion log可能誤引舊backup材料（backup/screenwriter/06_Character_Psychology_Analysis.md仍有「二十年後從沉睡中醒來」舊講法），需要author gate決定係咪要喺Act IV重新設計一條「代行者」機制，定係完全放棄呢個方向。
+術語風險（非設定矛盾，但需留意）
+
+「裂口」一詞喺discussion log三拍grammar（成形→裂口→埋單/取回）中係廣義導演語言，喺01_world_rules_and_costs.md/02_glossary.md中係窄義身體恐怖術語（皮膚裂口=哥德尖刺萌生位置）。兩者可以並存唔互斥，但寫入正式導演語言文件時建議明確區分範圍，避免讀者誤將「裂口」直接等同於身體侵蝕警報。
+其他角色（美夜子咬嘴唇、凜、黑奏）discussion log冇具體點名對應tell/觀眾例子，只作為系統成員在CDL-347 tell 詞彙表下確認一致（E-12），無矛盾。
+
+Grep "自願|Unit00-Null|遲來的悔意|我自己|態度|Truth" (in d:\Projects\ProjectHarukaDocument\canon\03_characters\rin.md)
+25 lines of output
+Agent E（Visual/Body）已完成，2/8。繼續等餘下6個。
+
+Agent D（Character/Voice）已完成，3/8。⚠️ 搵到一個要留意嘅新矛盾：discussion log提到嘅「晴香沉睡二十年與夕代行」呢個講法，同現行canon（Act IV結局＝清醒融合、夕早已完全融合消失）有直接衝突——會喺Phase 3詳細列出。繼續等餘下5個。
+
+Grep "二十年守望|夕代行|夕維持身體|對抗黑奏侵蝕" (in d:\Projects\ProjectHarukaDocument\canon\03_characters\haruka.md)
+7 lines of output
+Grep "二十年|夕維持身體|對抗黑奏侵蝕" (in d:\Projects\ProjectHarukaDocument\canon\05_story_outline_canon.md)
+17 lines of output
+Grep "Persona|人格面具" (in d:\Projects\ProjectHarukaDocument\canon\05_naming_and_psychology_system.md)
+1 line of output
+Grep "希望" (in d:\Projects\ProjectHarukaDocument\canon\02_glossary.md)
+3 lines of output
+Read d:\Projects\ProjectHarukaDocument\canon\05_naming_and_psychology_system.md (lines 2-91)
+Theme / Philosophy Audit — 舞台×傷口×觀眾×直播×奇蹟 討論記錄
+
+AGENT_GOAL
+- Mission: 檢查 2026-08-10/11 討論記錄（舞台×傷口×觀眾×直播×奇蹟）嘅新方向是否仍然服務「態度 vs 命運」核心主題、代價非指定犧牲者、希望非消除傷口三條既有底線；重點深挖 §7 已知張力位（三位一體 vs 犧牲者guardrail）。
+- Files scanned: 討論log全文；00_series_bible.md；02_glossary.md；01_world_rules_and_costs.md；12_philosophy_and_systems.md；IDEOLOGY_THEME_STANCE_MATRIX.md；THEME_CONFLICT_EXPRESSION_TABLE.md；CANON_DECISION_LOG.md（CDL-321/244/333/357/358/374/375/376）；QUESTION_QUEUE.md（QQ-209）；11_directing_playbook.md（三動詞/七儀式）
+- Stop condition: Read-only 研究已完成，證據足以支持風險判斷；未編輯任何檔案。
+證據表
+EVIDENCE_ID	file	line/section	quote（節錄）	authority	interpretation	confidence
+EV-B01	00_series_bible.md	L97-99 §總主題	「在不可控的、殘酷的命運面前，唯有態度是個體最後的、最珍貴的自由」	Bible（最高）	核心主題文本仍在，討論log §1.1明確重申唔取代	HIGH
+EV-B02	00_series_bible.md	L105 子主題A	「任何超凡力量伴隨對人性的侵蝕與獻祭｜所有魔法少女」	Bible	「獻祭」原本已係全體魔法少女共通代價，非指定單一犧牲者	HIGH
+EV-B03	00_series_bible.md	L307-311 敘事承諾	「不美化痛苦」「不把角色工具化：每個死亡或犧牲必須保留角色主體性與選擇性」	Bible（硬約束，「不可稀釋」）	直接係「代價非指定犧牲者」guardrail嘅上位條文	HIGH
+EV-B04	02_glossary.md	L970-975	態度vs命運「事實不可回滾時，個體仍可選擇面對方式」	Glossary	討論log用嚟做「舞台」底層命題嘅上位主題，定義一致	HIGH
+EV-B05	01_world_rules_and_costs.md	L675-711	情緒採集（三級源）→品質分級→Emo-Visor膠囊化→市民販售消費	World Rules（AC）	討論log §6.1「傷口→需要→交換→債務→索取權」底層規則同呢條既有機制係同一結構嘅換講法，非新增設定	HIGH
+EV-B06	01_world_rules_and_costs.md	L638	奇蹟簡易療傷「蓋住個傷口，唔係抹走個傷口」同膠布哲學同邏輯	World Rules（AC）	支持§8奇蹟連接命題「奇蹟唔會自動取消代價」	HIGH
+EV-B07	02_glossary.md	L734-739 term-band-aid-philosophy	「膠布不能治癒傷口只能遮蓋…痛苦不能被消滅只能被疏導」	Glossary	討論log §10膠布哲學種子直接對應	HIGH
+EV-B08	IDEOLOGY_THEME_STANCE_MATRIX.md	L28/30/34（帝國entity）	「把痛苦轉化為娛樂資本（Reality Show直播）」「虛假舞台（CDL-167/168）」SS，來源CDL-057/163/168	Stance Matrix（SS）	「直播/舞台=痛苦商品化」呢個命題本身已係canon，非新方向	HIGH
+EV-B09	THEME_CONFLICT_EXPRESSION_TABLE.md	L26（Reality Show直播 beat）	「英雄形象的光鮮背後有一台正在運作的剝削機器——而被剝削的人以為自己在自由選擇」EVENT_CARRIED	Conflict Table	同討論log §5.1「失去解釋權」核心命題一致，且已有具體beat承載（非抽象意象）	HIGH
+EV-B10	CANON_DECISION_LOG.md CDL-357	L26	「故事道德立場——唔判斷晴香揀嘅內容啱唔啱，只判斷揀嘅方式（自由 vs 逼於形勢）」	CDL（AC）	討論log§2.3「態度=如何交出/命名/保留/拒絕傷口」同呢條既有道德立場結構一致	HIGH
+EV-B11	CANON_DECISION_LOG.md CDL-374	L9	凜Truth欄改做「連凜自己都未必嚟得切確認答案」；同步改12_philosophy_and_systems §六做「答案並非單方向肯定」	CDL（AC）	顯示作品已有前例：唔會用「佢自己揀嘅」一句就完結討論，會追問到「連當事人都攞唔到乾淨答案」嘅深度	HIGH
+EV-B12	CANON_DECISION_LOG.md CDL-375	L8	秋穗「未完成嘅閉環」——永遠冇機會見證愛莉最終消散	CDL（AC）	同上，root cause 4修正模式：唔畀角色完整安慰式收尾	HIGH
+EV-B13	CANON_DECISION_LOG.md CDL-376	L7	秋穗受刑期間「冇任何安慰，甚至冇自主意識去感受」，原諒係好耐之後嘅事	CDL（AC）	進一步證明作品願意寫「代價當刻冇解釋、冇安慰」嘅誠實度	HIGH
+EV-B14	12_philosophy_and_systems.md	L185	「態度永遠屬於自己，但故事唔承諾佢會帶嚟安慰」	Philosophy（AC）	呢句正正係討論log新guardrail應該對齊嘅既有bible層語言	HIGH
+EV-B15	IDEOLOGY_THEME_STANCE_MATRIX.md	L33/43（晴香entity）	三位一體代價：「成為世界的痛苦容器，永久失去普通人生活資格（融合後意識存續狀態故事刻意不明寫）」	Stance Matrix	呢個張力本身已經落表——「刻意不明寫」意識狀態，本質上係作品自己都未解決嘅懸而未決點	HIGH
+EV-B16	QUESTION_QUEUE.md QQ-209	L12	張力位⑤原文：「代價唔係指定一個犧牲者」同晴香Act IV結局（三位一體、長期做世界痛苦容器）放埋一齊有少少張力…需要作者確認呢個guardrail同晴香結局點樣共存	QQ（BLOCKED）	呢個張力已被上一輪grounding check標記並排入author queue，本輪唔重問，純補充哲學角度深度	HIGH
+EV-B17	02_glossary.md	全文搜尋「性剝削/親密權/解釋權」	NOT_FOUND	—	討論log §5.2「心靈/性剝削」「親密權」係提議新詞彙，非現存canon術語，需作者拍板命名（QQ-209②已記錄）	HIGH
+EV-B18	11_directing_playbook.md	L148/302-316	「全作導演語言統一在三個動詞：維持/承接/埋單」；七儀式表「設計鐵則：每個儀式場景必須清楚標示狀態切換」——冇條文寫明每場必須完整跑七態	Playbook（AC）	討論log §6.4「三拍grammar取代七狀態強制執行」冇撞到任何現存硬規則，屬合法壓縮	HIGH
+主題風險清單
+1. §2 舞台命題（傷口壓成花）— 風險：低，建議保留
+同EV-B02（獻祭=全體魔法少女共通代價）、EV-B03（不美化痛苦但不迴避）、EV-B08/EV-B09（直播/虛假舞台已係canon）高度吻合。討論記錄自己喺§2.3已經清楚將問題定位在「誰壓花/誰解釋/誰埋單」而非「花靚唔靚」，避開咗「美化痛苦」嘅陷阱。無偷換主題風險。
+
+2. §6.4 三拍grammar（成形→裂口→埋單/取回）— 風險：低，建議保留
+EV-B18確認現存七儀式冇被寫成「每場必須完整執行」嘅硬規則，三動詞（維持/承接/埋單）本身已係「全作統一語言」。三拍屬合法壓縮/上位抽象，七狀態降格做細部工具，屬技術整理非主題改動。
+
+3. §8 奇蹟連接命題 — 風險：低至中，建議保留但落實時要覆核CDL-333邊界
+討論記錄自己有self-check（§7.3列明5條「不要」），同EV-B06/EV-B07（膠布哲學同邏輯延伸到奇蹟）方向一致。QQ-209已確認呢個方向淨係落喺口語/技術層唔會撞現有「巨大奇蹟全劇限兩次」嘅硬限制。主要風險在執行層（會唔會下意識滑向「觀眾打賞=奇蹟燃料」嘅資源遊戲感），非主題偷換。
+
+4. §9 Act級方向表，尤其Act IV「即使晴香沉睡二十年、夕代行…世界仍要求晴香出現」— 風險：中至高，需要作者決定（延伸QQ-209⑤，非新blocker但補充深度分析）
+
+呢個係全份討論記錄入面唯一真正逼近主題偷換嘅位置，分析如下：
+
+EV-B15已顯示「三位一體＝晴香永久做世界痛苦容器」呢個代價本身喺Stance Matrix入面已經係「刻意不明寫意識存續狀態」——即係話張力並非討論記錄製造出嚟，而係討論記錄令一個原本已經曖昧、未被逼視嘅張力，變得具體可見：一旦「後期直播持續、世界持續要求『晴香』出現、代替者維持佢身份」呢層新機制加落去，「晴香係咪被制度／觀眾指定做永遠冇得落場嘅單一容器」呢個讀法會被大幅強化。
+
+「佢係自己不斷嘅選擇」呢個講法喺目前canon（EV-B10 CDL-357立場C：唔判斷內容只判斷方式）確實成立，程序上滿足「非強逼」門檻。但EV-B11/EV-B12/EV-B13（凜/秋穗root cause 4嘅修正模式）顯示，作品近期嘅自我修正方向係唔滿足於「佢揀嘅所以冇問題」呢種扁平安慰，會進一步追問「連當事人自己都未必攞到肯定答案」。如果晴香嘅三位一體結局唔跟返呢個追問深度，只停留喺「佢揀嘅」呢一層，會形成雙重標準：凜/秋穗嘅選擇被故事拆穿到底、唔畀乾淨答案（EV-B14「故事唔承諾安慰」）；但晴香被永久設定做「世界仍然要求佢出現」嘅角色時，卻用「呢係佢嘅選擇」一句帶過，客觀上正正係討論記錄自己喺§11 rule 5/6想避免嘅結構——「感動唔會自動產生索取權」但世界對晴香嘅索取從未真正停止過。
+
+亦直接觸及§1.3「希望非消除傷口」定義（「有人看見你受傷，卻不要求你把傷口變成…別人的財產」）：如果Act IV冇一個明確俾返晴香嘅「停止舞台/停止被索取」時刻（哪怕只係象徵性、部分性），呢個角色就成為全作唯一一個冇機會用到「希望」定義嘅人，同EV-B03敘事承諾#3（唔工具化角色，保留主體性與選擇性）產生實質摩擦。
+
+建議：唔需要重新問QQ-209⑤（已排隊等作者），但寫入author queue時應該加一句哲學層補充：「佢自己不斷嘅選擇」呢個講法係咪足夠，定係應該跟返凜/秋穗嘅模式，喺晴香嘅三位一體結局都保留一個「連佢自己都未必有乾淨答案」嘅誠實層，或者至少喺Act IV/尾聲俾返佢一個明確嘅「停止被索取」時刻——呢個唔係要推翻三位一體嘅設計，而係決定佢嘅「態度」係咪需要同全劇其他角色一樣，接受同一套「唔簡單肯定」嘅誠實度處理。
+
+5. §5.2 心靈/性剝削命名 — 風險：低（純命名問題，非主題問題）
+EV-B17確認呢個係新提議詞彙。概念本身（親密權/解釋權/停止權被公眾索取）同EV-B08/EV-B09（觀眾把痛苦當娛樂資本）一致，唔違反底線，只需作者決定正式術語（QQ-209②已排隊）。
+
+總結：討論記錄整體上冇偷換核心主題，大部分內容係現有canon（情緒經濟、Reality Show直播、膠布哲學、道德立場C）嘅換講法或合法延伸；三拍grammar係合法壓縮。唯一實質風險集中喺Act IV「晴香被持續索取」嘅具體化會否令三位一體結局嘅「態度」讀成事後包裝式辯護——呢點已經係QQ-209 BLOCKED嘅張力位⑤，本次補充咗「應該對齊凜/秋穗嗰種唔簡單肯定嘅誠實度」呢個具體緩解方向，供作者決定時參考。
+
+AGENT_GOAL
+Mission：為 2026-08-10「舞台×傷口×觀眾×直播×奇蹟」討論記錄嘅 7 個核心命題，喺 canon 全域搵出現存定義、決策紀錄、暫定討論同 downstream consumers，建立 source-of-truth map，標明邊個概念已有 SSOT、邊份文件係主定義、有冇跨文件重複/衝突定義。
+Files scanned：14 份主 canon 文件全部（00/01/02/04/05/06/07/08/09/10/11/12/13/99）+ canon/_working/CANON_DECISION_LOG.md（用關鍵字 grep，非全讀）+ 少量 downstream 工作文件（ACT_I/II_OUTLINE.md、IDEOLOGY_THEME_STANCE_MATRIX.md、角色檔）作 cross-check，唔係本次覆蓋重點。
+Stop condition met：14 份主文件關鍵字全掃完成，關鍵概念（舞台三拍/七儀式/直播/奇蹟/維多利亞之淚/情緒守恆/觀眾）已各自搵到至少一個決定性 SSOT 或確認 NOT_FOUND，足夠判斷 source-of-truth 分布。未逐行讀 CANON_DECISION_LOG.md 全文（檔案過大），已用關鍵字掃描覆蓋主題相關條目。
+EVIDENCE_ID 表
+EVIDENCE_ID	file	line/section	quote / exact match（摘要）	authority level	interpretation	confidence
+E01	canon/11_directing_playbook.md	L148	「全作導演語言統一在三個動詞：維持 / 承接 / 埋單」	Canon SSOT	專用概念。呢個已經係 canon 正式嘅三動詞系統，同討論log嘅「三拍：成形→裂口→埋單/取回」用字部分重疊（埋單）但結構唔同	高
+E02	canon/11_directing_playbook.md	L150-190	維持=「明明快散，仍然要整理成可以被看見、被依賴、被使用嘅樣子」；承接=「幫佢撐多一下」；埋單=「最後總有人要承受後果」	Canon SSOT	呢個「維持」定義同討論log 6.3「維持係整理成可接受形式」幾乎一致——即係話討論log嘅「維持≠人格面具」區分，其實已經隱含喺呢個定義入面（維持=動作，人格面具=CDL-365獨立定義嘅另一概念），唔係新方向	高
+E03	canon/11_directing_playbook.md	L308-314	表格：入場儀式/維持儀式/失衡儀式/承接儀式/交接儀式/退場儀式/埋單儀式	Canon SSOT	專用概念。呢個就係討論log話要「保留做細部工具」嘅七狀態，字眼幾乎一模一樣（入場/維持/失衡/承接/交接/退場/埋單），已經係現存 canon，唔係討論log新提出嘅嘢	高
+E04	canon/11_directing_playbook.md	L51, L85, L88-90	「血肉半＝身體代價」；「觀眾/粉絲共犯化：候選方向」；§十輪壓力測試後嘅精修版（CDL-369）	Canon SSOT（playbook 本體）+ 決策紀錄源頭	「身體代價×債務」已經係 playbook 正式全劇導演語言主軸，「觀眾/粉絲共犯化」已標記為候選方向（未升格）	高
+E05	canon/_working/CANON_DECISION_LOG.md	CDL-365（約L18）	人格面具＝借債動作本身；陰影＝未還本金；緋潮＝社會規模嘅集體債務違約，同個人規模屍骸化對稱	決策紀錄（AC 作者暫定確認）	呢個 fractal 結構（個人↔社會對稱）已經同討論log嘅底層規則（傷口→需要→交換→債務→索取權→自我剝奪）高度重疊，但用字系統唔同（債務本金/利息 vs 索取權/解釋權），未見完全等同	高
+E06	canon/01_world_rules_and_costs.md	L603 rule-emotion-conservation	「情緒守恆定律」；「痛苦不會消失，只會轉移」	Canon SSOT（World Rules）	專用概念。呢個係世界物理法則層級嘅 SSOT，係討論log底層規則嘅世界觀根基，但law本身冇涵蓋「索取權/解釋權/自我監視」呢層人際/制度機制	高
+E07	canon/01_world_rules_and_costs.md	L636-640 rule-miracle-quick-heal	奇蹟簡易療傷＝貼膠布式修復，代價匯入 Body Horror 崩壞線，「蓋住個傷口，唔係抹走個傷口」	Canon SSOT	同[膠布哲學]同一邏輯，已明文連結	高
+E08	canon/02_glossary.md	L734-741 term-band-aid-philosophy	膠布哲學＝Beta 線核心敘事隱喻；「膠布不能治癒傷口只能遮蓋」	Canon SSOT	呢個就係討論log「希望不是治好傷口」命題嘅既有 canon 根基，唔係新命題	高
+E09	canon/02_glossary.md	L126-151 term-tears-of-victoria	維多利亞之淚＝情緒抽水泵；市民誤信「偽永動機」；「主題映射：世界規模的膠布哲學」	Canon SSOT	專用概念。已經係「私人痛苦被制度化收割再重新包裝」嘅世界級 SSOT	高
+E10	canon/01_world_rules_and_costs.md	L165-179 rule-pandora-protocol-mechanics	潘朵拉協議：命運偶遇假象/市民認知框架/Reality Show 社會定位（戰鬥直播公開，市民歡呼打賞討論賠率）/監控後門/晴香IG線	Canon SSOT	專用概念。呢個已經係「私人痛苦→公共觀看→交換→代價」機制嘅制度層 SSOT，直播/觀眾/賠率/打賞全部已存在	高
+E11	canon/02_glossary.md	L830-833 term-light-veil	光幕濾鏡＝將少女變身處理成「模糊發光完美無瑕嘅天使」；夜區居民睇到真相	Canon SSOT	專用概念。呢個就係討論log「甜美係黑暗嘅包裝」命題嘅既有視覺機制 SSOT	高
+E12	canon/04_timeline_canon.md L183；canon/05_story_outline_canon.md L133；canon/03_characters/yu.md L143；canon/03_characters/haruka.md L161	event-yu-betrayal	E-09「飢餓的天使」：夕接管晴香身體，直播中撕破光幕濾鏡，圍觀者目睹無濾鏡失控畫面，直播完整記錄無法刪除，導致社會性死亡	Canon SSOT（跨 4 份文件同步）	專用概念。呢個已經係「直播令個人痛苦變公共消費、代價送返某人身上」嘅完整既有事件，同討論log §4「直播重新定位」命題幾乎完全對應	高
+E13	canon/_working/CANON_DECISION_LOG.md	CDL-161/163/164/165/166/167/168（約L248-257）	經理人＝光幕濾鏡控制者+社死主謀；戰鬥直播（Reality Show）vs 獨立偶像演出雙線剝削；「三明治壓迫結構」	決策紀錄（AC 已確認，並已 writeback 落 03_character_index.md L213）	已有完整「觀眾要求續演/身體代價換觀眾崇拜」機制，包含「後台化妝遮戰損=為維持謊言」呢類討論log 5.1 講嘅「失去解釋權」原型	高
+E14	canon/08_narrative_design_bible.md	L171-178	T-SHAME 原則：「被觀看的悖論——觀眾（市民）越歡呼，佢哋嘅恥辱感越深」	Canon SSOT	專用概念，但範圍窄過討論log嘅完整觀眾分層（消費式/審判式/理解式/陪伴式/見證式）——現存 SSOT 只覆蓋「羞辱」單一面向	中高
+E15	canon/13_major_events_relationship_impact.md	L7-537（AKS系統全文）	「觀眾知識狀態（AKS）」——追蹤讀者/觀眾對劇情嘅認知進度（AKS-H/S/A）	Canon SSOT	同字唔同義：呢個「觀眾」係戲外讀者/玩家嘅敘事認知狀態系統，同討論log講嘅「劇情內觀眾（市民/隊友/自己/陰影）」係完全唔同概念，容易撞名	高
+E16	canon/09_information_design.md	L13-446 多處	「觀眾認知弧線」「觀眾狀態」「觀眾感受」	Canon SSOT	同 E15 一樣，全部係戲外讀者嘅資訊揭露節奏術語，唔係討論log嘅劇內觀看位置	高
+E17	canon/06_visual_bible.md	全文（L25, L32, L53, L109, L248, L315, L412, L761, L770, L810, L1022）	「觀眾」出現11次，全部係戲外觀眾（引發「憐惜」「不安」「心碎」等觀眾情緒反應）	Canon SSOT	冇「舞台」作為視覺語言專用詞出現；「直播」完全 NOT_FOUND	高
+E18	canon/02_glossary.md L288-312 term-reality-override；canon/07_entities_and_devices.md L325 section-miracle-vending-house	—	奇蹟三層用法（口語/技術層/巨大奇蹟）+三大硬限制（含「因果債必須歸還」）；奇蹟販賣所＝黑市盜用技術層奇蹟嘅騙局，「花錢買一次假嘅解脫，代價會慢慢返嚟搵你」	Canon SSOT	專用概念。討論log §8「奇蹟成立所需代價未必同一鏡頭內被看見」呢句，同「因果債必須歸還」（唔一定即場顯現，會喺時間軸其他節點回歸）已經係同一邏輯；奇蹟販賣所已完整示範「觀眾期待令例外變成責任」呢個危險	高
+E19	canon/_working/story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md	L28, L34	帝國 Method of dealing with pain：「把痛苦轉化為娛樂資本（Reality Show 直播）」；Where it appears：「虛假舞台（CDL-167/168）」	工作文件（story_construction Gate B 分析）	Gate B 已經對「帝國」呢個 entity 做咗「舞台/直播作為剝削手段」嘅立場分析，同討論log嘅方向一致，唔係空白	中
+E20	全 canon 掃描（索取權／解釋權／自我監視／接近權）	—	呢四個詞只出現喺 2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md 本身	NOT_FOUND（全 canon）	討論log嘅底層規則（需要→交換→債務→索取權→自我監視）用字係全新詞彙，未見喺任何 canon 文件出現過，即使概念上同 E05/E06 情緒守恆定律精神相通	高
+E21	canon/07_entities_and_devices.md（全文）及 canon/06_visual_bible.md（全文）	—	直接搜「直播」喺 07_entities_and_devices.md 無命中	NOT_FOUND	「魔法少女直播」機制本身（Reality Show）冇獨立 entity/device 條目，只散落喺 01_world_rules_and_costs.md 嘅潘朵拉協議機制內同角色檔（haruka.md/yu.md/經理人）之間，未有單一集中定義處	高
+SOURCE-OF-TRUTH MAP
+概念	主定義（SSOT）	其他文件重複/援引	狀態評估
+三個導演動詞（維持/承接/埋單）	canon/11_directing_playbook.md L148-190	無重複定義，其他文件只係援引	已有 SSOT。討論log「三拍：成形→裂口→埋單/取回」係一套新結構，同呢個現存三動詞用字部分撞名（都用「埋單」）但唔係同一分類軸——三動詞係「動作類型」，三拍係「事件節奏階段」。兩者關係（取代/並存/改名）未經作者確認，屬命名衝突風險
+七儀式（入場/維持/失衡/承接/交接/退場/埋單）	canon/11_directing_playbook.md L308-314	無重複定義	已有 SSOT，且已經係討論log話要保留嘅「細部工具」本身——討論log冇新增內容，只係重申現狀（降格做次要工具嘅方向未經 writeback）
+身體代價×債務（全劇世俗導演語言主軸）	canon/11_directing_playbook.md（十輪壓力測試精修版節，CDL-369）+ canon/_working/CANON_DECISION_LOG.md CDL-365/369	觀眾/粉絲共犯化候選方向已寫入 playbook	已有 SSOT。討論log嘅底層規則鏈同呢個 fractal（人格面具=借債/陰影=未還本金）精神一致，但用字系統唔同（債務本金 vs 索取權/解釋權），未經任何 writeback 整合成同一套詞彙
+情緒守恆定律	canon/01_world_rules_and_costs.md L603 rule-emotion-conservation	02_glossary.md（維多利亞之淚/情緒承接/緋潮條目）、11_directing_playbook.md、角色檔多處援引	已有強 SSOT，係討論log底層規則嘅世界觀根基，冇衝突
+奇蹟（三層定義+三大硬限制）	canon/02_glossary.md L288-312 term-reality-override	00_series_bible.md、01_world_rules_and_costs.md（奇蹟簡易療傷）、07_entities_and_devices.md（奇蹟販賣所）	已有強 SSOT。討論log §8「奇蹟連接舞台」命題唔係新增，而係現存「因果債必須歸還」規則+奇蹟販賣所案例嘅重新表述，方向一致冇矛盾
+維多利亞之淚 / 光幕濾鏡 / 潘朵拉協議 Reality Show	canon/02_glossary.md（維多利亞之淚、光幕濾鏡）+ canon/01_world_rules_and_costs.md（潘朵拉協議社會機制）	10_gameplay_bible.md、角色檔（經理人相關 CDL-161/163-168）、ACT_I_OUTLINE.md	已有強 SSOT。討論log「舞台把私人傷口加工成公共可見形式」命題，本質上係現存呢套機制嘅重新命名／抽象化，唔係新內容
+E-09「飢餓的天使」直播失控事件	canon/04_timeline_canon.md L183（event-yu-betrayal）	05_story_outline_canon.md、03_characters/yu.md、03_characters/haruka.md、CANON_DECISION_LOG CDL-259（取代CDL-258）	已有強 SSOT，四份文件同步一致。討論log §4.2「後期繼續直播」係全新方向——現存 canon 呢個事件係「直播終結點」（光幕破碎→身份矯正裝置失效→社會性死亡），討論log提出後期仍要延續直播，同現存事件功能定位有方向性張力，需要author gate（唔係矛盾，係未決）
+膠布哲學	canon/02_glossary.md L734-741 term-band-aid-philosophy	01_world_rules_and_costs.md（奇蹟簡易療傷）、維多利亞之淚條目	已有強 SSOT，係討論log「希望不是治好傷口」命題嘅既有根基
+身體凝視/羞辱（T-SHAME）	canon/08_narrative_design_bible.md L171-178	無	已有 SSOT 但範圍較窄——只覆蓋「羞辱」單一效果，討論log 6.5 提出嘅完整限制清單（失去拒絕權/解釋權/保留私人部分權利/停止提供權利）係新增細節，未見於現存 T-SHAME 定義，屬擴充非衝突
+觀眾（劇內觀看位置：消費式/審判式/理解式/陪伴式/見證式）	NOT_FOUND（全 canon 冇呢個分類系統）	—	全新概念，冇 SSOT。現存 canon 用「觀眾」一詞時，絕大多數（09_information_design.md、06_visual_bible.md、13_major_events_relationship_impact.md AKS系統）係指戲外讀者/玩家嘅敘事認知狀態，同討論log嘅劇內市民/隊友/自己/陰影觀看位置係兩個完全唔同概念但共用同一個中文詞——高風險詞彙碰撞，寫入 canon 時必須明確區分「敘事觀眾（讀者）」vs「劇內觀眾（市民/角色）」，否則會同 AKS 系統嘅既有用法互相污染
+索取權／解釋權／自我監視／接近權	NOT_FOUND（全 canon 未見呢四個詞）	—	全新詞彙，概念上同情緒守恆定律/CDL-365 fractal 相通，但字面未有對應 canon 條目，屬 discussion-log-only 措辭
+奇蹟販賣所	canon/07_entities_and_devices.md L325 section-miracle-vending-house	02_glossary.md（奇蹟 cross-ref）、03_characters/iwakura_akane.md、CANON_DECISION_LOG CDL-364	已有 SSOT，已經係討論log §8「奇蹟被制度化成固定職責」命題嘅具體案例，唔使重新設計
+舞台（作為全作顯式導演語言/三種重疊材料：完整美學/傷口/怪物）	NOT_FOUND（06_visual_bible.md 冇「舞台」做視覺語言專用詞；07_entities_and_devices.md 冇獨立條目）	散落用法：11_directing_playbook.md L262「舞台燈光甜美，但人正在功能性活著」（表象與內在不同步嘅例子之一，非獨立系統）；13_major_events_relationship_impact.md L46「舞台少女的日常」（普通字詞用法，非專用概念）	全新命題，冇集中 SSOT。現存零散用法只係比喻性文字，未升格為獨立導演系統。討論log提出嘅「舞台」統合框架係本輪最大嘅空白待填位，唔會同現存內容衝突，但需要決定佢同已有「身體代價×債務」主軸（E04/E05）嘅層級關係（討論log §6.1 自己都提出咗呢個三層結構：主題→底層規則→舞台化，但呢個分層本身都未經 writeback）
+總結：三種文件狀態分類
+已有強 SSOT、討論log只係重新表述/命名，冇新增內容：七儀式、三個動詞、情緒守恆定律、奇蹟三層定義、維多利亞之淚、光幕濾鏡、潘朵拉協議、膠布哲學、奇蹟販賣所。
+已有 SSOT 但討論log提出方向性延伸或張力，需要 author gate：E-09直播事件（後期是否延續直播 vs 現存「直播終結」定位）、身體代價×債務 fractal（同「索取權/解釋權」新詞彙嘅整合）、T-SHAME（範圍擴充）。
+全新、冇 SSOT，亦冇明顯矛盾，純粹係空白：舞台作為統合系統、觀眾分層taxonomy（但要小心同 AKS 系統嘅「觀眾」撞名）、索取權/解釋權/自我監視詞彙本身、三拍「成形→裂口→埋單/取回」（要小心同現存三動詞「維持/承接/埋單」嘅命名衝突）。
+最高優先級風險：「觀眾」一詞喺 09_information_design.md + 13_major_events_relationship_impact.md（AKS系統）同討論log裡面係兩個唔同概念，若果 writeback 時唔做術語區分，會令現有 AKS 系統文件出現語義混淆。「三拍」同「三個動詞」共用「埋單」呢個字，亦需要作者明確表態係兩套並存工具定係其中一套要改名。
+
+Agent B（Theme/Philosophy）已完成，4/8。它對已知的QQ-209張力位⑤提供咗有用嘅補充角度（建議晴香結局應該同凜/秋穗一樣，接受「連佢自己都未必有乾淨答案」嘅誠實度處理，而唔係停留喺「佢揀嘅」就帶過），會併入Phase 3。繼續等餘下4個。
+
+Grep "熊公仔|藏入熊" (in d:\Projects\ProjectHarukaDocument\canon)
+44 lines of output
+Grep "觀眾" (in d:\Projects\ProjectHarukaDocument\canon\_working\story_construction\ACT_III_OUTLINE.md)
+13 lines of output
+Agent A（Canon Cartographer）已完成，5/8。搵到兩個新嘅命名衝突風險（唔屬於QQ-209已知5點）：①「觀眾」呢個詞喺現有09_information_design.md/13_major_events_relationship_impact.md（AKS系統）指嘅係戲外讀者認知狀態，同討論log講嘅劇內觀看位置係完全唔同概念，共用同一個字會有語義污染風險；②討論log嘅「三拍：成形→裂口→埋單/取回」同現有「三個導演動詞：維持/承接/埋單」共用「埋單」呢個字，兩者關係（並存/取代/改名）未經確認。會併入Phase 3統合。繼續等餘下3個。
+
+Grep "手震" (in d:\Projects\ProjectHarukaDocument\canon\03_characters\akiho.md)
+1 line of output
+Grep "熊公仔" (in d:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md)
+20 lines of output
+Grep "熊公仔|藏入熊" (in d:\Projects\ProjectHarukaDocument\canon\03_characters\aya.md)
+90 lines of output
+AGENT_GOAL
+Mission：審核 discussion log（舞台×傷口×直播×奇蹟重新分層方案）同 11_directing_playbook.md 現有 grammar 之間嘅相容性，重點查「身體代價×債務」（CDL-365/369）同新底層規則（傷口→需要→救援→交換→債務→索取權→自我剝奪）係咪同一條規則嘅唔同講法；同埋三拍/七狀態降格喺 outline/beat sheet 層有冇實際落地/依賴證據。
+Files scanned：2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md（全讀）、canon/11_directing_playbook.md（全讀，401行）、canon/06_visual_bible.md（Grep）、canon/_working/CANON_DECISION_LOG.md（CDL-358~377段落）、ACT_I_OUTLINE.md／ACT_II_OUTLINE.md／ACT_III_OUTLINE.md／ACT_I_BEAT_SHEET.md（Grep+定位讀取）。
+Stop condition：已覆蓋任務要求嘅三條問題（分層方案相容性／身體代價×債務同底層規則關係／三拍七狀態落地證據），證據足夠支持判斷，停止。
+Evidence Table
+ID	File	Line/Section	Quote（節錄）	Authority	Interpretation	Confidence
+E1	11_directing_playbook.md	L45-47 §身體代價×債務	「本節係作者同AI長篇討論嘅收斂結果...兩個唔使解釋、人人已經識嘅世俗概念，喺個人同社會兩個規模同時運作」	AC (CDL-365, 暫定)	現有主軸定位為「顯式導演語言」層級嘅核心公式，非純解釋性 prose——已扣連具體制度（維多利亞之淚/潘朵拉協議/身份證明文件）	HIGH
+E2	11_directing_playbook.md	L96-101 §CDL-369保留三件事	「核心公式...個人／社會規模對稱...強制續期身份證明文件」	AC (CDL-369)	十輪壓力測試後，body-debt axis已有自己嘅「生成機制」（逃避型/成癮型）+「規模對稱鏈」（面具→陰影→屍骸化 對稱 集體迷思→吸收→總崩潰），呢條鏈已經接近discussion log嘅底層規則	HIGH
+E3	11_directing_playbook.md	L148-190 §三個導演主詞	「全作導演語言統一在三個動詞：維持／承接／埋單」	AC	現有canon明文將呢三個動詞定性為「全作統一」grammar，同discussion log提出嘅「三拍做主要跨場景grammar」構成同一層級嘅競爭聲明	HIGH
+E4	11_directing_playbook.md	L302-316 §共同儀式框架	七狀態表：入場→維持→失衡→承接→交接→退場→埋單	AC	現有canon冇明文規定「每場必須跑齊七態」，只要求「儀式場景」標示緊邊個狀態切換——同discussion log「降格做細部工具」嘅提法唔算硬性推翻，較似追認現狀	MEDIUM
+E5	2026-08-10 log	§6.4 三拍表	「成形→裂口→埋單／取回」	討論記錄（未writeback）	「成形」「裂口」係全新詞彙，playbook完全未用過；「取回」（拒絕/停止提供自己嘅權利）亦係新增語意，現有「埋單」定義（L179-190）冇呢層	HIGH
+E6	2026-08-10 log	§7	「三個導演動詞仍然有效，但層級要分清...七狀態仍可...但它是可選的事件節點」	討論記錄	log冇明講「承接」喺新三拍入面對應邊一拍——三拍表冇「承接」欄位，出現結構性空隙	MEDIUM
+E7	CANON_DECISION_LOG.md	L16-18（CDL-365/366/369）	CDL-365「暫定確認...作者明確表示『暫時用』」	AC (暫定)	身體代價×債務本身都仲係「暫定」狀態，非不可逆——降低咗「同新方案硬碰」嘅風險層級，但都代表呢個位而家有兩個同層級嘅暫定/半確認框架並存	HIGH
+E8	2026-08-10 log	§12 Pending 最後一項	「11_directing_playbook.md嘅既有七狀態、三動詞及『身體代價×債務』要如何在不推翻既有...前提下重新分層」	討論記錄自身承認	log自己都未解決呢個問題，明文列為Pending，唔係Done	HIGH
+E9	ACT_I_OUTLINE.md / ACT_II_OUTLINE.md / ACT_III_OUTLINE.md	全文Grep	搜尋「入場儀式/失衡儀式/承接儀式/交接儀式/退場儀式/埋單儀式/維持儀式」「導演讀法/導演功能」	—	NOT_FOUND — 三份 outline 完全冇引用七狀態或三動詞做正式beat tag	HIGH
+E10	ACT_I_BEAT_SHEET.md	L33,43,83-100,163,182	「直播人數↑／打賞+900」「晴香的真實視角｜旁觀者/直播視角」「觀眾不知的底層」	AC	Act I Beat Sheet層已經有「舞台真實vs直播視角錯位」嘅具體落地（UI數值化、觀眾盲視），呢個先係「舞台×傷口」構想嘅實際先例，早於discussion log存在	HIGH
+E11	ACT_II_OUTLINE.md	L303-353 Beat E-09	「舞台設置：城市中心廣場直播舞台...光幕破碎...直播鏡頭完整記錄整個過程（無法刪除、無法修飾）」	AC (CDL-203/259)	現有canon已有一個完整嘅「直播失控」beat，具備舞台/觀眾/代價/強制可見性全部要素，同log §5.1（傷者失去解釋權）、§4.1（直播=公共觀看系統）精神完全一致	HIGH
+E12	ACT_III_OUTLINE.md	L358-360	「黑奏展示『夕的直播失控』（社死事件完整回放）...道德處刑機制」	AC	E-09嘅直播片段喺Act III被重新武器化/重播，同log §4.1「舊直播片段...仍可延續被觀看狀態」構想直接吻合，證明log方向係延伸現有素材而非新增矛盾	HIGH
+E13	06_visual_bible.md	L821-825	「偶像粉全飽和...配色退場規則...記錄晴香偶像形象被逐漸磨損嘅過程」	AC	視覺系統已有「退場」語彙（呼應七狀態「退場儀式」）同偶像舞台形象崩壞嘅漸進視覺化，支持log方向有既有視覺基礎，非憑空	MEDIUM
+E14	06_visual_bible.md	全文Grep「身體凝視/凝視/性感/裸露/暴露」	—	—	NOT_FOUND — 現有canon完全未定義身體凝視限制規則，log §6.5係淨新增，唔存在同既有規則矛盾	HIGH
+E15	CANON_DECISION_LOG.md	L15-16 CDL-368	「作者明確要求賓客反應唔應該係...而係直接用返現實存在嘅歧視語言...扣落操核心恐懼」	AC	現有CDL已有「羞辱/暴露非主體性」而非「性感展示」嘅執行先例（操被公開否認事件），同log §6.5核心主張同向	MEDIUM
+導演語言層級判斷
+1. 三層重新分層方案（主題→底層規則→顯式舞台語言）本身：CONFIRMED相容。 冇任何一條現有canon被推翻，且Act I Beat Sheet（E10）同Act II E-09（E11/E12）已經提供咗實際先例，證明「舞台×傷口」唔係憑空構想，而係現有素材嘅自然延伸同命名。
+
+2.「身體代價×債務」（CDL-365/369）vs 新底層規則（傷口→需要→救援→交換→債務→索取權→自我剝奪）：NEEDS_AUTHOR_DECISION，唔可以私自判CONFIRMED或CONTRADICTION。
+理由：
+
+兩者結構高度重疊（E2）——都係「傷口／代價 → 被制度/關係轉化 → 累積成債 → 被索取/追討」嘅同一種因果邏輯，差異主要在顆粒度同錨定對象：CDL-365/369 係「兩半世俗概念+個人/社會規模對稱」嘅具體世界系統公式（已綁定維多利亞之淚/身份證明文件/情緒守恆定律），新底層規則係一條更抽象、聲稱可套用去任何場域（家庭/戰鬥/UI/玩家互動）嘅七步心理鏈。
+discussion log自己喺§12 Pending明文承認呢個問題未解決（E8），唔係已經整合完成嘅方向——即係話呢份log本身都仲停留喺「識別咗有兩個框架要調和」嘅階段，未做調和。
+兩者若不調和直接writeback，會出現同一份文件裡有兩套「本作獨有標誌性導演語言」同時claim做「非WH40K式比喻唔可、全劇底層」（CDL-369明文「non-negotiable」；新規則明文「必須能套用於...唔可以只依賴魔法少女制度」）——呢個唔係表面矛盾，但係權威層級衝突：邊一個先係「底層規則」、邊一個係「底層規則喺魔法少女/直播場域嘅具體顯化」，需要作者明確拍板邊個做主、邊個做屬，先可以安全writeback，唔可以由AI自行判定。
+3. 三拍/七狀態降格方案：安全，但有兩個未覆蓋嘅小缺口。
+
+Downstream依賴風險：低——E9確認三份Act outline完全冇引用七狀態或三動詞做正式beat標籤，E4確認playbook本身都冇強制「每場跑齊七態」，所以降格唔會令任何已批核outline「失去所依賴嘅流程」，可以安全執行。
+唯一風險：playbook L148明文「全作導演語言統一在三個動詞」（E3）呢句陳述本身要被正式改寫先可以反映新層級（而家淨係喺討論記錄入面講「層級要分清」，冇改到canon原句）；同埋新三拍表（E5）冇「承接」對應位（E6），呢個空隙如果唔喺writeback時處理，會令「幫你撐一下」呢個現有全作最重要治癒語言（L175：「呢個係本作最重要嘅治癒語言」）喺新grammar入面冇明確落點，建議作者確認之後點安置。
+三拍/七狀態現階段只停留喺解釋性prose——新三拍完全未喺任何outline/beat sheet出現過（合理，因為呢份log先兩日前先落檔，Beat Sheet層仲淨返Act I做咗），唔算異常，但都代表暫時未經場景級驗證，同log §12 Next第4點（「以一個具體事件驗證三拍」）仍待進行一致。
+建議下一步：唔應該直接writeback新底層規則落11_directing_playbook.md，應該先由作者決定 CDL-365/369「身體代價×債務」同新七步鏈嘅主從關係（邊個係另一個嘅世界化具現、定係要合併做一條鏈），呢個係最大結構性缺口；三拍/七狀態降格可以相對放心進行，但要順手改埋playbook L148嗰句「統一在三個動詞」嘅陳述，並補「承接」喺三拍入面嘅落點。
+
+Agent C（Directing-Language）已完成，6/8。搵到最大一個結構性缺口：discussion log嘅新底層規則（傷口→需要→救援→交換→債務→索取權→自我剝奪）同現有「身體代價×債務」主軸（CDL-365/369，已定性做全劇non-negotiable嘅世俗導演語言）高度重疊但顆粒度唔同——邊個做主、邊個做屬，log自己都未解決（仲寫喺Pending），需要作者拍板先可以writeback，唔可以由AI自行判斷邊個蓋邊個。另外新三拍「成形→裂口→埋單/取回」冇「承接」呢個現有全劇最重要治癒語言嘅對應位，係個缺口。餘下2個agent。
+
+Agent H — Adversarial Contradiction Review 報告
+
+AGENT_GOAL
+- Mission：刻意搵QQ-209五點已知張力位以外嘅新矛盾/風險，唔重複做窄grounding check，專門搵其他agent因為keyword scan角度窄而漏低嘅位。
+- Files scanned：2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md（全文）；canon/03_characters/aya.md、haruka.md、ayakomoji_misao.md、rin.md、akiho.md；canon/03_character_index.md；canon/05_naming_and_psychology_system.md；canon/02_glossary.md；canon/01_world_rules_and_costs.md；canon/11_directing_playbook.md；canon/_working/PROJECT_STATUS.md（Round 137/135）；canon/_working/CANON_DECISION_LOG.md（部分）。
+- Stop condition：搵到4項有具體證據支撐嘅新矛盾/風險後停止，未再展開低確信度嘅身體凝視場景逐個對照（超出read-only agent合理篇幅）。
+EVIDENCE_ID 表
+ID	file	line/section	quote（節錄）	authority level	interpretation	confidence
+E-H1a	2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md	L147	「晴香看見彩笑容背後的不舒服，成為彩的觀眾」	討論記錄（暫定）	將「笑容」同「不舒服」直接歸屬俾「彩」呢個名	high
+E-H1b	canon/03_characters/aya.md	L171	「黑奏模仿自己的笑容、用自己的聲音說謊」（真正的彩被囚禁喺心房深處觀看）	Canon（角色檔）	笑容嘅表演者係黑奏，唔係彩；彩無出面行為能力	high
+E-H1c	canon/03_characters/haruka.md	L102	「①彩（黑奏偽裝）早段輕聲試探」	Canon（角色檔，CDL編號段落）	haruka.md原本已用「彩（黑奏偽裝）」呢個標籤明確消歧義	high
+E-H2a	canon/05_naming_and_psychology_system.md	L5	「本文件是所有涉及『中文真名 vs 日文包裝名』決策的唯一權威參考」	Canon（宣告唯一權威）	呢份文件對「名字＝面具」議題有最高優先權	high
+E-H2b	canon/05_naming_and_psychology_system.md	L67-68	「連若晴 ➡️ 春日井晴香：無法接受『我害死了家姐』的罪疚，她催眠自己成為『帶給全世界希望的太陽』」（第二層：創傷性面具 Traumatic Persona）	Canon（唯一權威文件）	「晴香」呢個身份本身，由Beta線誕生一刻（5歲）已經定性為創傷防衛面具，唔係後期先固化	high
+E-H2c	2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md	L350	「因此 Act I 晴香真心照顧人，不應被倒寫成一開始已經虛假表演。當『可靠、永遠照顧別人』由真心逐漸變成她不能停止的義務時，才形成面具」	討論記錄（暫定，明文6.3節）	主張面具係後期固化結果，Act I唔係面具	high
+E-H2d	canon/03_characters/haruka.md	L85 附近（CDL-356段落）	「Act I 嘅晴香除咗真心、冇面具，仲應該有盲點」	Canon（角色檔，CDL-356確認）	haruka.md本身企喺「Act I冇面具」呢一邊，同05_naming_and_psychology_system.md已經有內部分歧	medium-high
+E-H3a	2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md	L469（§10表）	「凜自願兵器化 | 『我自己選擇』與『我被利用成可用之物』同時成立」	討論記錄（暫定，標「既有種子」）	將凜嘅自願兵器化講成兩層同時成立嘅乾淨結構	high
+E-H3b	canon/03_characters/rin.md	L162	「Unit 00 | 徹底切除情感的終極選擇——曾經被視為『不是失敗，是態度』；CDL-374修正：連凜自己都未必嚟得切確認呢個答案」	Canon（作者2026-08-08親自拍板修正）	呢個修正明確拆穿「呢係佢自己嘅態度」嘅安慰性讀法，時間上就喺discussion log兩日前	high
+E-H4	canon/03_characters/aya.md	全文（熊公仔相關段落 L57-71, 159, 202, 215, 245-248, 446, 496-497）	熊公仔功能：螢遺物／心匣契約信物／安慰物／偽裝道具，冇任何「藏信」設定	Canon（角色檔）	「熊公仔」有豐富canon內容，但「藏一封信入去」呢個具體細節搵唔到出處	high
+E-H4b	2026-08-10_STAGE_WOUND_LIVESTREAM_MIRACLE_DISCUSSION_LOG.md	L466（§10表頭）	「這些是現有設定中的種子，不代表本輪新增事件」（表頭聲明）＋「彩把信藏入熊公仔」	討論記錄（暫定，自稱引用現有設定）	表頭聲明呢張表全部係「現有元素」，但「藏信」呢格搵唔到canon依據，屬於自稱已落地實際未落地	medium
+新發現矛盾清單（QQ-209 五點以外）
+① 彩／黑奏身份倒置——「彩笑容背後的不舒服」唔止冇出處，仲喺機制層面歸屬錯咗人（CONTRADICTION：高）
+討論記錄第3.2節將「笑容」同「不舒服」直接掛喺「彩」呢個名度，但根據aya.md，喺晴香面前笑同講嘢嘅係黑奏（偽裝彩），真正嘅彩由頭到尾被囚禁喺心房深處，只有「觀察」能力，冇任何出面行為（包括笑）。haruka.md原本自己已經用「彩（黑奏偽裝）」呢個標籤精準消歧義。討論記錄如果就咁被writeback，會令未來場景執行者將「彩」讀成一個有能力笑、有能力隱藏不適嘅表演者，實際上係將黑奏（反派、收割者）嘅行為偷換做彩（受害者、被囚禁主人格）嘅內在狀態——呢個正正係任務要求搵嘅「角色人格被倒寫」類別。其他角度嘅agent可能漏低嘅原因：已知issue④只查咗「有冇canon出處」呢一層（結論：搵唔到），冇再深一層查「彩」呢個名喺canon入面實際指邊個身體/邊個能力主體——單純keyword grep「彩」+「不舒服」會停喺「NOT_FOUND」就收工，冇比對雙重人格機制本身。
+
+② 6.3節「維持≠人格面具」規則同05_naming_and_psychology_system.md（唯一權威參考）嘅「創傷性面具」定義正面衝突（CONTRADICTION：高）
+討論記錄6.3節主張：Act I晴香嘅照顧係真心、冇面具，面具係「可靠、永遠照顧別人」呢個義務長期固化之後先形成。但05_naming_and_psychology_system.md（文件自稱係名字/面具議題嘅唯一權威參考）第二層「創傷性面具」明文將「春日井晴香」呢個身份本身，定性為5歲連若晴喺姊姊死後催眠自己變成嘅防衛機制（「帶給全世界希望的太陽」）——即係話「晴香」呢個身份、呢個「照顧人」嘅太陽人格，由Beta線誕生一刻已經係一個面具，唔係後期先固化出嚟。討論記錄完全冇引用或者處理呢份文件，而haruka.md自己（CDL-356）又企喺「Act I冇面具」嗰邊——即係話依家canon入面已經有兩份文件（05_naming_and_psychology_system.md vs haruka.md）對「晴香呢個身份幾時開始係面具」呢條問題講緊唔同答案，討論記錄嘅新規則喺完全冇意識到呢個既有SSOT分裂嘅情況下，直接企咗喺其中一邊，有機會將分裂再深化落directing playbook層面。其他角度嘅agent可能漏低嘅原因：討論記錄嘅「主要關聯角色/系統」清單冇列出「命名系統」/「動漫濾鏡」/「創傷性面具」，做「陰影/觀眾框架對照CDL-358/365」嘅agent好可能完全冇掃到05_naming_and_psychology_system.md呢份文件。
+
+③ 凜「自願兵器化」例子引用咗CDL-374修正前嘅舊講法（CONTRADICTION：中）
+討論記錄§10將凜寫做「『我自己選擇』與『我被利用成可用之物』同時成立」嘅乾淨雙層結構，但rin.md喺2026-08-08（討論記錄兩日前）已經被作者親自拍板修正（CDL-374），加咗一句明確拆穿：「曾經被視為『不是失敗，是態度』；CDL-374修正：連凜自己都未必嚟得切確認呢個答案」——即係話作者岩岩先推翻咗「凜自己認呢個係佢嘅態度」呢個講法（詳見PROJECT_STATUS.md Round 135），改做「凜可能有遲來嘅悔意，但嚟唔切感受到」。討論記錄嘅引用冇反映呢個好新嘅修正，如果直接writeback，會令凜嘅例子退返去作者兩日前先推翻嗰個舊版本。其他角度嘅agent可能漏低嘅原因：呢個唔係「搵唔到出處」（凜自願兵器化本身係有出處嘅），而係「出處喺兩日前先被修正」——純keyword grep對比通常唔會發現引用嘅係「舊版本」定「新版本」，需要對照PROJECT_STATUS嘅時序先睇得出。
+
+④ 「彩把信藏入熊公仔」——具體細節喺canon入面搵唔到出處（CONTRADICTION：低）
+討論記錄§10表頭聲明呢張表「這些是現有設定中的種子，不代表本輪新增事件」，但「彩把信藏入熊公仔」呢項具體細節，喺aya.md熊公仔相關全部段落（螢遺物、心匣契約信物、安慰物、永遠潔淨嘅視覺線索、偽裝道具）都搵唔到「藏信」呢個功能。呢個同已知issue④（彩笑容嘅唔舒服冇出處）係表10入面另一格獨立嘅新問題，唔係同一項。severity評低係因為呢個只係一個小細節例子，唔似①②咁牽動角色機制或者理論SSOT，但一樣屬於「文件聲稱已落地但證據不足」類別，值得同issue④一併處理標記。
+
+冇搵到嘅：直播/光幕系統/維多利亞之淚/身體凝視相關嘅其他新矛盾，喺本輪掃描範圍內未搵到超出QQ-209五點嘅具體證據——呢啲位既有grounding check（Round 137）已經覆蓋得幾完整，我冇為咗交數而砌多啲出嚟。
+
+Agent H（Adversarial）已完成，7/8，搵到兩個高嚴重度嘅新問題（QQ-209五點以外）：
+
+①角色身份倒置——討論log話「晴香看見彩笑容背後的不舒服」，但按aya.md，喺晴香面前笑同講嘢嗰個其實係黑奏偽裝彩，真正嘅彩全程被囚禁、冇出面行為能力；haruka.md原本已經用「彩（黑奏偽裝）」標籤區分開，討論log呢個例子將反派嘅行為錯誤歸咗俾受害者本人。
+
+②面具定義正面衝突——討論log話Act I晴香嘅照顧係真心冇面具，面具係後期先固化；但canon「唯一權威」文件05_naming_and_psychology_system.md明文將「晴香」呢個身份本身定性做5歲創傷後催眠自己形成嘅「創傷性面具」——即係話討論log完全冇意識到之下已經有兩份canon文件（呢份 vs haruka.mdCDL-356）對「幾時開始係面具」講緊唔同答案，佢直接企咗喺一邊。
+
+仲有凜「自願兵器化」引用咗兩日前已被CDL-374推翻嘅舊講法。餘下1個agent（Narrative/Act）。
+
+AGENT_GOAL
+Mission：檢查討論記錄（2026-08-10 舞台×傷口×直播×奇蹟）§9 暫定 Act 級方向表，同 Act I–IV outline／timeline／CDL 既有設定做事件順序、知識、後果一致性核對；聚焦三點——①後期繼續直播 vs 維多利亞之淚/光幕摧毀（CDL-321）+通緝地下化（CDL-203）嘅場景級衝突；②晴香二十年守望/夕代行（CDL-367）嘅時間線是否對得住討論記錄 Act IV 描述；③現有 Act I–III beat 有無隱含「舞台化觀看」但未標記。
+Files scanned：discussion log 全文；CANON_DECISION_LOG.md（CDL-321/203/367/227/228/330/331/338/369）；04_timeline_canon.md；02_glossary.md（光幕濾鏡條目）；07_entities_and_devices.md；ACT_I_OUTLINE.md／ACT_II_OUTLINE.md／ACT_III_OUTLINE.md；05_story_outline_canon.md；03_characters/aya.md；QUESTION_QUEUE.md；REASONING_LOG.md。
+Stop condition：三個問題都已搵到直接、可引用嘅 canon 證據並互相對照完，冇必要逐行掃晒三個 outline 全文（已用關鍵詞鎖定所有相關 beat）。
+EVIDENCE_ID 表
+ID	File	Line/Section	Quote（精簡）	Authority	Interpretation	Confidence
+E1	CANON_DECISION_LOG.md	L47 CDL-321	「解放之戰位置＝維多利亞之淚…Day1未即時停電/Day2停電」	AC 2026-07-09	維多利亞之淚陷落係 Phase J 開場（Act III 最尾），非漸進	高
+E2	ACT_III_OUTLINE.md	L317-323 E-III-J0	「解放之戰——維多利亞之淚陷落」Day1/Day2 結構	AC（作者暫定批核）	Beat 層面確認：全城基建摧毀＝Act III 尾單一事件，之前一直運作	高
+E3	02_glossary.md	L830-833 term-light-veil	「光幕濾鏡＝維多利亞之淚的認知覆寫功能…當維多利亞之淚受損，光幕瞬間全城熄滅」	已確立 glossary	光幕唔係獨立系統，係維多利亞之淚嘅子功能；一摧毀即全城即時熄滅，冇「殘存/漸弱」設計空間	高
+E4	ACT_I_OUTLINE.md	L141	「維多利亞之淚：群體情緒催眠（光幕濾鏡+快樂波長）…戰鬥被作為 Reality Show 直播」	AC	Act I 全程戰鬥直播依賴呢套基建，證明「直播」由頭到尾都掛靠喺維多利亞之淚上	高
+E5	ACT_II_OUTLINE.md	L303-325 E-09	「直播失控與光幕破碎…整個直播受『光幕濾鏡』保護…帝國以直播記錄作法理依據推動法案」	AC（CDL-203/259）	E-09嘅「光幕破碎」係單場直播嘅局部濾鏡被夕撕破，唔係全城基建摧毀（全城摧毀要等 E-III-J0）；呢件事本身觸發 CDL-203 通緝法案	高
+E6	04_timeline_canon.md	L195 event-team-isolation	「魔法少女被全面通緝，躲藏在夜區廢棄地鐵站」（113年7-8月「鏡像破碎之夜」section）	已確立	團隊由 113年7-8月已通緝/地下化，直到 114年5月（Act III尾）維多利亞之淚先陷落——即匿藏咗約 9-10 個月，光幕/直播基建先崩潰	高
+E7	ACT_II_OUTLINE.md	L326	「主角團從『非法但默許』變成『公開通緝』」	AC（CDL-203）	確認通緝機制細節同時序	高
+E8	04_timeline_canon.md	L185 event-manager-betrayal	「經理人…轉售黑奏體系製造『晴香版情緒毒品』，把公共形象反轉為成癮商品」	已確立	呢個 precedent 證明：團隊地下化期間，晴香舊形象/素材仍然被商品化流通 ——同討論記錄「舊片段/二創/城市螢幕」softer延續版本方向一致，非新矛盾，反而係現成支撐	中高（詮釋）
+E9	CANON_DECISION_LOG.md	L10 CDL-367	「查證話出面客觀時間只過幾日,唔係20年,20年純屬晴香主觀L3經歷」	AC 2026-08-05	二十年守望期間，外面客觀世界只過幾日，20年係晴香主觀經歷	高
+E10	REASONING_LOG.md	L240	「同晴香『二十年主觀／外面幾日』係同一個機制」	支撐 CDL-367	再確認「外面幾日」機制（並用嚟類比白房開放日設計）	高
+E11	04_timeline_canon.md	L276-288	Section header「114年6月-134年6月：二十年守望」；「時間重置：世界重置回114年7月」	已確立（較舊）	Calendar 標籤字面暗示客觀世界真係經歷咗 20 年先 reset	高（矛盾標記）
+E12	05_story_outline_canon.md	L268	「晴香意識沉入集體潛意識；客觀世界時間跳躍至帝國歷134年7月」	已確立（較舊，先於CDL-367）	明文寫「客觀世界時間跳躍」，直接同 CDL-367（較新、AC）嘅「只過幾日」結論矛盾	高——確認矛盾
+E13	CANON_DECISION_LOG.md	L10 CDL-367 主文	「晴香…感知到出面嘅人為佢戰鬥（連結線洩漏,CDL-345…集體發噩夢/情緒感染）」	AC	二十年守望期間外面連結者係「集體發噩夢/情緒感染」，唔係持續直播觀看——冇支持「世界透過直播持續要求晴香出現」呢個具體機制	中
+E14	03_characters/aya.md	L55-71	熊公仔設定（螢遺物/心匣契約信物），冇提及「信」	已確立	討論記錄 §10「彩把信藏入熊公仔」入面嘅「信」呢個細節，現有 canon 搵唔到；熊公仔本身已經係心匣契約信物，「藏信」係新提議，非既有隱含 beat	NOT_FOUND（信）／高（熊公仔本身）
+E15	ACT_III_OUTLINE.md	L262	「利用維多利亞之淚或全城螢幕強制廣播；展示紫音被拘束、半屍骸化的淒慘模樣」	AC	呢個已經係現成、已落beat嘅「舞台化觀看」場景（公開處決/展示），唔係未標記案例	高
+E16	CANON_DECISION_LOG.md	CDL-369（見L16全文）	「tell固定文法（咬嘴唇/嗤笑彈開/手震…唔加新手勢）」	AC 2026-08-04	討論記錄 §6.4「成形→裂口→埋單」三拍 grammar 想用嘅身體 tell，已經有 2026-08-04 CDL-369 precedent（早於討論記錄），兩者需要對齊而非重新發明	高
+敘事時序／一致性判斷
+① 後期繼續直播 vs 維多利亞之淚/通緝：唔係字面上就撞板，但兩件事时序差好遠，要分開處理。E-09（Act II，113年7月中）嘅「光幕破碎」只係單場直播嘅局部濾鏡被夕撕破，唔等於全城光幕基建停；全城光幕真正「全城熄滅」要等到 E-III-J0（Act III 尾，114年5月，CDL-321）維多利亞之淚被摧毀先發生（E3/E11）。而團隊由 113年7-8月（E-09後幾星期）已經全面通緝地下化（E6/E7），即係話：團隊匿藏咗成9-10個月，全城光幕/直播基建都仲運作緊——呢段期間佢哋唔係主動上鏡，但基建本身冇壞。所以「後期繼續直播」呢個方向如果指嘅係 Act III尾之前（團隊已匿藏但光幕未毀嗰9個月），完全冇矛盾，甚至已經有 precedent（E8：晴香形象被經理人繼續商品化流通）。真正嘅場景級衝突發生喺 E-III-J0之後——如果 Act IV「後期直播」被理解為「同一套光幕/Reality Show 基建原班運作」，就同「光幕瞬間全城熄滅」（E3）硬碰；但討論記錄自己都已經寫明後期可以係「舊片段/二創/城市螢幕/其他人重演」（討論記錄§4.1），呢個 softer 版本同 E3/E11「熄滅」唔矛盾——熄滅嘅係即時濾鏡覆寫功能，唔代表冇螢幕/唔可以重播舊素材。呢點原本QQ-209已標記BLOCKED，本次補充嘅係：衝突嘅精確時間窗係 E-III-J0 之後，唔係通緝地下化開始（113年7-8月）嗰刻。
+
+② 二十年守望/夕代行 時間線：搵到一個未經協調嘅內部矛盾，同討論記錄本身無直接關係，但直接決定 Act IV 呢個方向是否成立。CDL-367（2026-08-05，作者確認，較新）明文「出面客觀時間只過幾日,唔係20年」（E9/E10/E13）；但 04_timeline_canon.md（E11）將「二十年守望」列為 114年6月-134年6月嘅 calendar section，而 05_story_outline_canon.md（E12，較舊）直接寫「客觀世界時間跳躍至帝國歷134年7月」——兩者字面上都暗示咗客觀世界真係經歷咗20年。呢個係 CDL-367 落實時未回頭同步舊 outline/timeline 文字造成嘅矛盾，唔係本次討論記錄製造，但直接影響討論記錄 Act IV 前提「世界繼續要求晴香出現」呢句話喺邊個時間尺度上成立：如果按 CDL-367「只過幾日」，「世界持續要求佢出現」呢件事得幾日窗口做，撐唔起「持續咗好耐嘅直播文化」語感；如果按 E11/E12 舊文字「真係20年」，先真正有時間畀「世界持續要求」呢個敘事發生。呢個矛盾建議提出畀作者，唔應該由 AI 自行揀邊個版本先算數。
+
+③ 未標記嘅隱含「舞台化觀看」：Act III 其實已經有明確 beat 做緊呢件事（E15，紫音公開處決/全城螢幕強制廣播），唔係遺漏，只係未用「舞台×傷口」呢套語言重新命名。討論記錄 §10 舉嘅其他種子（操影相/紫音嗤笑/秋穗手震）底層 tell 文法本身已經有 2026-08-04 CDL-369 precedent（E16），比討論記錄 2026-08-11 嘅「三拍 grammar」更早確立，兩者需要對齊而非重複發明。「彩把信藏入熊公仔」入面嘅「信」呢個具體細節喺現有 canon 搵唔到（E14，NOT_FOUND）——熊公仔本身已經係彩同黑奏嘅心匣契約信物，非常豐富，但「藏信」係討論記錄新加嘅提議，唔係現有隱含未標記嘅 beat，寫入 writeback 時要註明呢係新增而非既有種子確認。
+
+建議 next step（唔係本次任務要做，只係觀察）：E11/E12 vs CDL-367 嘅矛盾應該獨立起一條 QUESTION_QUEUE 項（唔使用內部編號同作者講，但落檔要用），因為佢阻住 Act IV 整個「後期直播」方向嘅時間尺度判斷。
