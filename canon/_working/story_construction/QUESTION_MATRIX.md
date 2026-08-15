@@ -207,6 +207,7 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 | M-049 | 膠布哲學 vs 陰影治癒結構對比雙場景 | 埋伏回收/角色成長/象徵行為 | CDL-120（膠布第二層已在E-04後[NC]）；Act III對比場景=完全新提案；需確認Outline層還是Beat Sheet層決定 | CDL-120（植入側已有基礎）；Act III對比場景=提案 | **SOURCE_SUPPORTED（CDL-269）** | QQ-84=A RESOLVED：兩場均入Outline層（[對比錨點A：膠布掩蓋]+[對比錨點B：直面傷口]）| Act I/II加[對比錨點A]標記；Act III加[對比錨點B]功能性beat | QQ-84 ✅ |
 | M-050 | 晨間形式必要性（角度19）——為何係早晨 | 形式必要性/世界規則 | Alpha/Beta線睡眠機制解釋已在本輪提出，但01_world_rules_and_costs.md尚未補充相關條目 | 本輪聊天提案；01_world_rules_and_costs.md現無睡眠機制段落 | **SOURCE_SUPPORTED（CDL-265）** | QQ-85=A RESOLVED：現有解釋足夠，無需補充世界觀段落 | 無writeback需求 | QQ-85 ✅ |
 | M-051 | 若通過，Outline修訂範圍與優先次序 | 結構功能/寫作可執行性 | Act I v1.21 [APPROVED]修改風險最高；Act II v0.8 [DRAFT]尚未批核=修改成本最低；Act III=尚未起稿=可直接整合 | 現有Outline狀態快照 | **SOURCE_SUPPORTED（CDL-267）** | QQ-86=A RESOLVED：先起草Act III，之後回補Act I/II | 工作序列確定：Act II v0.8加錨點→批核→Act III v0.1起稿→回補 | QQ-86 ✅ |
+| M-052 | 凜心理詮釋深化——努力/放棄定位、勇敢定性、憤怒有無、自我認知程度 | 角色成長／Coping防禦／意識形態／道德代償／敘事驗證層級／形式必要性 | 起始提案（一直努力/全劇最勇敢/撐唔住放棄/對美夜子憤怒/認知高）同CDL-348自願重量、CDL-374 Complicates留白、CDL-340殘忍只指向自己三條AC決定有方向性張力；作者其後提出三段式時間結構（想治癒→放棄→太遲先想返）+高認知但有放棄期，解決咗大部分張力 | rin.md（現有全段）；INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md凜row；IDEOLOGY_THEME_STANCE_MATRIX.md凜entity row；CDL-348/374/340（現有） | **SOURCE_SUPPORTED（CDL-391）** | QQ-218 RESOLVED：三段式落實，Complicates／殘忍只指向自己兩條AC決定明確保留未推翻；「全劇最勇敢」定性為作者詮釋透鏡非故事定論 | rin.md／Growth Tracker／Ideology Matrix三份文件已同步更新 | QQ-218 ✅ |
 
 ---
 

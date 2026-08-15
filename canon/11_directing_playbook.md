@@ -195,6 +195,8 @@
 
 同一個角色可以同時處於多個觀看位置（例如舞台上嘅表演者、同時係觀看隊友嘅人）；自己可以係自己嘅觀眾，陰影可以係最早最清楚嘅觀眾。
 
+> 「見證式」觀看位置嘅完整心法、四個變質陷阱同beat級檢驗問題，見[Narrative Design Bible§見證守則（CDL-392）](08_narrative_design_bible.md#section-witness-principle)。
+
 ### 兩個時期dialect——即時直播 vs 殘留影像（CDL-382，正式）
 
 > 作者2026-08-12就QQ-209①正式拍板，解決「後期繼續直播」同[維多利亞之淚摧毀](07_entities_and_devices.md#section-org-victoria)（CDL-321）+隊伍匿藏（CDL-203）嘅表面衝突。完整硬限制見[維多利亞之淚§摧毀後果](07_entities_and_devices.md#section-org-victoria)。

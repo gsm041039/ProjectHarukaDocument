@@ -1,5 +1,90 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 147 — 2026-08-15 「見證守則」正式落檔，CDL-392，QQ-217延伸）
+- [x] **背景**：延續Round 145「見證努力而非認同傷痛」候選方向，作者拉高討論層級——呢個唔係服務主題嘅導演語言技巧，係「黑暗治癒系嘅風格導演嘅善意」
+- [x] **Grounding check**：搜尋`08_narrative_design_bible.md`確認已有正式命名嘅「黑暗療癒系統」同基調「溫柔的殘酷（Gentle Cruelty）」，但欠具體操作方法
+- [x] **三輪定義收緊**：①見證對象係態度、唔係傷口本身；②唔可以跳過痛苦本身重量、唔可以因應對唔漂亮就寫冷漠；③最終定調「唔帶批判嘅陪伴在場感」
+- [x] **落檔（作者confirm「呢個版本ok，你可以落canon」）**：`08_narrative_design_bible.md`新增§見證守則（CDL-392）；`11_directing_playbook.md`§劇內觀看位置加cross-reference；`QUESTION_QUEUE.md` QQ-217補充；`CANON_DECISION_LOG.md`（CDL-392）
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 147
+- [ ] **待處理**：作者提出Madoka Magica「圓環之理」啟發嘅候選落地方向（用愛莉承載，理由：劇情份量少、一直同集體潛意識有連結），未查證愛莉現有canon狀態，需要source check
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 146 — 2026-08-14 操魔法少女服 Stage×Wound 第一輪多角度審視，QQ-219，BLOCKED）
+- [x] **背景**：作者用 `/stage-wound-character-design-orchestrator` 明確要求由操嘅魔法少女服（蜘蛛+rose傀儡師）開始試審視改善
+- [x] **Phase 0-1**：確認範圍（只審魔法少女形態服裝本身，REVIEW_ONLY，Canon write=NO），建立evidence ledger（`ayakomoji_misao.md`§視覺要點、`06_visual_bible.md` Alpha線簽名、`11_directing_playbook.md`舞台×傷口/身體凝視限制、settei圖同動態戰鬥參考圖）
+- [x] **Phase 2**：派9個獨立read-only sub-agent（A身份地圖/B主題傷口/C舞台表演/D心理關係/E輪廓結構/F色彩圖案/G TV製作/H身體安全/I對抗矛盾），全部平行完成
+- [x] **Phase 2b（Integration）**：主session整合9份報告，落檔 `canon/_working/character_design_audit/2026-08-14_MISAO_MAGICAL_GIRL_COSTUME_REVIEW.md`
+- [x] **兩個身份級發現核實**：①官方動態戰鬥參考圖（Action_1/2）冇畫眼罩，同文字「核心心理符號非裝飾」定義矛盾——已用Read工具親眼核實；②操舊設定（CDL-049/178嚴重厭食）同新設定（CDL-350美食係私密享受）之間身體狀態張力從未處理——已用Grep直接核對兩條CDL全文
+- [x] **Reviewer I 額外風險清單10項，等待期間逐一補做核實**：7項已透過直接讀原文/圖確認屬實（眼罩缺席/厭食vs美食/settei舊名不一致/GAP-76被引用做全劇通則/「覆蓋」vs「脫去」用字出入/操晴香Act IV白髮撞色/木偶符文烙印文字vs settei「無五官」矛盾），3項（量尺冇喺settei標示/GAP-76冇實際分鏡對照/淑女木偶美化風險）維持「可信但未逐字覆核」
+- [x] **落檔**：`QUESTION_QUEUE.md` QQ-219（BLOCKED）；已向作者提出兩個問題（想推邊個reviewer方向做主修改／想唔想先處理兩個身份級發現）
+- [x] **未修改任何confirmed canon檔案**，本輪為REVIEW_ONLY，冇寫入`ayakomoji_misao.md`或任何settei圖
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計，本輪為作者主動開啟嘅獨立角色設計審視）；等作者回應
+
+## Completed This Round（Round 145 — 2026-08-14 「見證努力而非認同傷痛」候選設計原則提出，QQ-217延伸討論，BLOCKED）
+- [x] **背景**：作者提出候選原則——角色嘅苦即使劇情上冇被解決，都應該有氣氛係「有人（劇中人物或觀眾）見到咗佢哋面對傷痛時嘅努力」，但唔係直接認同傷痛本身，定性做「黑暗中一點希望」／「黑暗治癒系」意識型態嘅其中一種
+- [x] **Grounding check**：搜尋canon確認三個現存呼應設計——「微弱的感謝」世界規則（`02_glossary.md`，靈魂真正被見證/理解/自願離開先產生世界觀唯一無毒燃料）、「淡淡的感謝」道具系統（`10_gameplay_bible.md`）、晴香二十年守望「為自己喊」（CDL-367，全劇唯一「理解舊傷」具現化場景，`08_Story_Engine_and_Conflict_Pressure_Map.md` E-18獨立標記「壓力嘅靜止沉澱」）
+- [x] **提出結構性理由**：「微弱的感謝」產生條件要求真正見證＝呢個世界剝削經濟入面帝國/黑奏結構性攞唔到嘅嘢，令「見到努力」唔止係觀眾安慰，本身就係對抗反派邏輯
+- [x] **提出界線風險**：同CDL-374「答案並非單方向肯定」／唔畀乾淨安慰式答案既有紀律相關，寫得太滿會滑落做「所以佢哋做啱咗」
+- [x] **提出操嘅具體張力**：操嘅心理設計（CDL-390連獨處都冇安全感）令「即時在場見證」對佢可能係威脅而非治癒，建議參考凜/美夜子（CDL-386）已有嘅「事後、遲來嘅見證」模型
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 145；`QUESTION_QUEUE.md` QQ-217未改動（仍BLOCKED，同一條主問題）
+- [x] **未修改任何confirmed canon檔案**，純屬候選方向討論
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；等作者回應三項開放問題（套用範圍／見證者有冇在場／要唔要具體象徵物）
+
+## Completed This Round（Round 144 — 2026-08-14 凜「想治癒→放棄→太遲先想返」三段式心理架構正式落檔，CDL-391/QQ-218）
+- [x] **背景**：作者用`/story-orchestrator`開場，中途轉入`story-room`自由form討論凜嘅心理詮釋——想令佢更立體：一直努力想解決自己嘅心理問題、喺咁嘅處境仍然揀溫柔（全劇最勇敢嗰批之一）、世界喺佢想變好嗰刻不斷拖佢落深淵、最終放棄係捱到盡頭嘅遺憾式崩潰、對美夜子有少少真實人性憤怒、高自我覺醒
+- [x] **Grounding check**：讀`rin.md`全文、`24_ANGLE_SUPPORT_CHECKLIST.md`、`IDEOLOGY_THEME_STANCE_MATRIX.md`凜entity row、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`凜row
+- [x] **搵到完全支持嘅部分**：溫柔一路殘存到自願兵器化先俾自己主動掐死；世界唔止運氣衰，第二次生母重逢係黑奏刻意安排嘅「畀希望然後粉碎」收割機制
+- [x] **搵到同已拍板決定有方向性張力**：「一直努力」vs CDL-349「已放棄搵返自己/面具即本我」；「全劇最勇敢」vs CDL-374 Complicates刻意留白；「撐唔住放棄」vs CDL-348「自願＝第一次由自己揀」嘅重量；「對美夜子憤怒」vs CDL-340「殘忍只指向自己」
+- [x] **提出craft建議並同作者逐輪co-design**：作者提出三段式時間結構（Alpha線想治癒→重組後放棄→意識清零前太遲先想返）+高認知同放棄期唔矛盾（睇得清楚但郁唔到自己）
+- [x] **落實三段式**：①Alpha原傷=第一次努力治癒；②重組後放棄=高認知但郁唔到自己（非唔知道），紅線隱藏動機做少數具體盲點；③遲來的悔意措辭修正做「想返治癒但已冇能力改變結局」
+- [x] **新增**：痛覺依存嘅神經科學根據（心理苦難同肉體痛楚大腦同一條處理路徑）；「捱到盡頭」同「自願揀」定性做同一動作兩個同時真相
+- [x] **明確保留未推翻**：Complicates刻意留白唔變；殘忍只指向自己唔變（未新增任何對美夜子嘅負面行為/言語）；「全劇最勇敢」留返作者自己詮釋透鏡，唔要求故事明講定論
+- [x] **落檔**：`rin.md`（新增§想治癒→放棄→太遲先想返；修訂§Alpha原傷/§理性面具/§紅線強迫症隱藏動機/§遲來的悔意/§WNLT）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`、`IDEOLOGY_THEME_STANCE_MATRIX.md`、`CANON_DECISION_LOG.md`（CDL-391）、`QUESTION_QUEUE.md`（QQ-218，RESOLVED）、`story_construction/QUESTION_MATRIX.md`（M-052）、`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 144
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；QQ-217（用新創傷代替理解舊創傷）仍BLOCKED未受本輪影響
+
+## Completed This Round（Round 143 — 2026-08-14 story-holistic-supervisor全作掃描：「用新創傷代替理解舊創傷」系統性缺口，QQ-217 BLOCKED）
+- [x] **背景**：作者提出「而家所有角色劇情都欠缺深入了解自己創傷嘅過程，只係用新創傷帶過，好似個個都係用新創傷了了解自己舊創傷」，觸發`/story-holistic-supervisor`
+- [x] **證據掃描**：讀`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`全表，逐一核對每個角色「Change trigger」欄；核對`ayakomoji_misao.md`§父親陰影相關段落；核對`rin.md`§背景故事/§拒絕治癒全段；核對`08_Story_Engine_and_Conflict_Pressure_Map.md`；核對`IDEOLOGY_THEME_STANCE_MATRIX.md`凜entity row
+- [x] **確認pattern屬實**：紫音（trigger係操死訊非自己面對阿媽/細佬原傷）、操（父親陰影核心傷口追蹤表仍寫「未展開」，但已疊多輪新創傷：政治聯姻陷阱/廢品判決/鏡碎之夜/母親技術黑市生意）、秋穗（純外部後果連鎖，未拆解花子情意結）、朔（trigger係目擊第三者非直面美夜子變兵器）四個最明顯；彩/夕多欄仍BK未能判斷
+- [x] **正面反例（保留）**：晴香二十年守望「為自己喊」——故事引擎圖獨立標記做「壓力嘅靜止沉澱」，證明呢種拍呢部戲做得到
+- [x] **需分辨嘅特例**：凜「遲來的悔意」（CDL-374）查證後屬作者已拍板嘅刻意設計（操/紫音/凜三人故意有唔一致「回報」），未必算落呢個缺口，需作者確認
+- [x] **根因判斷**：`consequence-driven-progression.md`要求外部Cost Signal先可以推進劇情（合理），但操作上「加新創傷」係達成門檻最快嘅做法；Gate A成長追蹤表冇獨立追蹤「理解舊傷」一項，令逐輪深化預設行咗呢條路
+- [x] **落檔**：`QUESTION_QUEUE.md`（QQ-217，BLOCKED）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 143
+- [x] **未修改任何confirmed canon檔案**（`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`本身未加欄，等作者拍板）
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；建議呢個缺口可以直接編入Act IV Outline設計（操/紫音/秋穗結局大部分擺喺Act IV）
+
+## Completed This Round（Round 142 — 2026-08-14 操委屈式崩喊新增「連獨處都冇安全感」心理層，CDL-390/QQ-216）
+- [x] **背景**：作者問操委屈崩喊時仍然驚因為喊而唔再被人愛，係咪一個好真實嘅心理描寫
+- [x] **AI初步分析**：確認合理——呢種恐懼更貼近羞恥（shame）嘅運作方式而非普通社交恐懼，唔需要實際觀眾先會發作；同現有崩喊habit（CDL-347）「好似驚俾人聽到」原文吻合，只係未被明確講成「喊緊嗰下都仲驚唔再被愛」
+- [x] **作者要求深化**：想做到操連哭泣呢個私人行為都停唔到監控思考嘅可悲感
+- [x] **AI初稿**：提出「會拋棄佢嘅審判者已經內化搬入自己個腦度」嘅概念性講法解釋機制
+- [x] **作者反饋「over咗」**：要求改用更直接、唔使中間解讀機制、純粹身體反應/場景本身帶出「毫無安全感」嘅寫法
+- [x] **AI修訂版**：深夜獨處、確定冇任何人可能見到聽到嘅場景下，崩喊時肩膊/聲量反應不變，唔解釋點解，純粹用「佢從未試過絕對安全係咩感覺，個身體唔識點樣放低」呈現
+- [x] **作者確認「ok」**
+- [x] **落檔**：`ayakomoji_misao.md`（Behavior Hook #8 委屈式崩喊新增段落，同步扣連habit-food-refuge做安全區分級對比）；`CANON_DECISION_LOG.md`（CDL-390）；`QUESTION_QUEUE.md`（QQ-216，RESOLVED）
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 141 — 2026-08-14 操父親對母親嘅技術定性為獨立技術線+家族黑市生意，CDL-389/QQ-215）
+- [x] **背景**：作者問操父親對母親用嘅改造技術可唔可以講成同離解兵器有關，想討論下呢個方向
+- [x] **Grounding check**：AI搜尋canon發現直接撞兩條已有規則——「所有技術的源頭」（黑奏係唯一源頭）／「Alpha線因果牽連原則」（冇Alpha牽連被兵器化只會死亡或失敗，母親冇Alpha牽連紀錄）
+- [x] **AI建議維持CDL-297原有分界**：家族科學獨立於EMB外，呢個分界本身已自然解釋母親點解永遠冚唔起做兵器
+- [x] **作者反方向提出**：家族原本就有依個技術，帝國攞去改良；AI指出呢個方向同「所有技術的源頭」+ 79-103年黑奏逆向工程時序衝突更直接
+- [x] **作者接受修改「所有技術的源頭」一句**，並要求：①技術概念唔一定係字面離解兵器；②技術要令家族發達
+- [x] **AI指出「令家族發達」撞操Beta修正財富解釋**（Beta修正=名門財富社會地位全數回歸靠晴香個願）
+- [x] **作者反駁**：技術本身都係因為晴香創世先可能存在，同Beta修正係同一條因果鏈非競爭關係——AI確認冇實質衝突
+- [x] **最終定案**：世界規則「所有技術的源頭」收窄做「帝國軍用情緒技術體系」嘅源頭；家族技術線獨立、唔涉心之器故母親永遠冚唔起做兵器；父親憑呢套技術做家族黑市生意致富做財閥（獨立於Beta修正嘅「名門」之外）；母親係第一個/唯一留喺屋企嘅成品；父親EMB供應商觀察者身份源於帝國留意到呢盤生意
+- [x] **落檔**：`01_world_rules_and_costs.md`（零：原型體row）；`ayakomoji_misao.md`（新增§技術源頭與家族生意；See also更新）；`CANON_DECISION_LOG.md`（CDL-389）；`QUESTION_QUEUE.md`（QQ-215，RESOLVED）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 141
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 140 延伸2 — 2026-08-12 「唔知道」設計理由確認+CDL-384延後到三位一體專屬討論，CDL-388）
+- [x] **背景**：作者追問點解AI認為晴香唔知道夕出面做緊咩好過知道，並質疑CDL-384停止權時刻應唔應該留返去三位一體結局討論先傾
+- [x] **AI三層理由**：動機純淨度（知情會摻埋「唔可以辜負夕」邏輯，同核心Lie矛盾）／夕自身Need完整落實（被整合唔係被感激，唔知情先真正示範CDL-355鍾意自由）／唔知道唔係永久（最終整合後記憶會歸入晴香，淨係嗰一刻要純粹）
+- [x] **作者接受**理由，確認「唔知道」做正式設計
+- [x] **CDL-384延後**：作者指出CDL-384應該由三位一體結局嗰場戲整體設計決定，AI同意正式延後，唔喺本輪拍板場次歸屬
+- [x] **落檔**：`CANON_DECISION_LOG.md`（CDL-388，純理由記錄，`yu.md`/`haruka.md`原有寫法已經係「唔知道」版本唔需要再改）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 140延伸2
+- [x] **下一步已知**：作者表示之後想深化直播/維多利亞天使起源設定令佢更落地更實在（回到QQ-213）
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
 ## Completed This Round（Round 140 延伸 — 2026-08-12 Act IV climax蒙太奇（夕/晴香）正式落檔，CDL-387/QQ-214，覆蓋CDL-367因果留白）
 - [x] **背景**：延續同輪直播起源討論（QQ-213），話題轉向Act IV結局設計——AI提議「重開重播」做CDL-384停止權時刻嘅載體，作者指出時序唔啱（晴香仲困喺集體潛意識）
 - [x] **作者提出正確方向**：夕（出面現實世界維持身體）/晴香（入面集體潛意識掙扎）嘅蒙太奇——晴香一度想放棄，夕（已完成CDL-295 Phase J弧線）主動唔畀晴香放棄；定性做晴香自我整合儀式+夕成長後嘅救贖+全劇高潮
