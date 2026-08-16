@@ -1,5 +1,29 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 149 — 2026-08-16 `00_Story_Brief.html` 全面 canon 同步（跨5個commit）+ 意外發現並修正 `iwakura_akane.md` 內部矛盾，CDL-393／QQ-220）
+- [x] **背景**：作者透過 `/story-orchestrator` 要求用 static-site-sync skill 將 `00_Story_Brief.html` 同步返最近一個 git commit（dd3d0d5）
+- [x] **第一輪（單一commit）**：同步 CDL-389（操家族技術獨立性）／CDL-390（操連獨處都冇安全感）／CDL-391（凜三段式心理）／CDL-392（見證守則新卡），派3個sub-agent做style／sync-completeness／factual-grounding審查，逐項修正（誤入嘅CDL編號、風格切換問題、母親/父親卡漏改、凜嘅曖昧性遺失）
+- [x] **作者追問「有冇睇晒上次更新同今次之間全部嘢」**：查證發現 `00_Story_Brief.html` 最後一次真正同步係 2026-08-02（commit 3a08f1a），中間仲有4個未同步嘅commit（1269f8c/539184c/777b98a/05dff8a），累積咗39個canon檔案改動
+- [x] **派6個平行sub-agent**逐一研究：晴香+大綱+時間線／操+世界規則（補早期漏改）／凜（補早期漏改）／紫音+美夜子+夕／導演手冊（新增199行）／glossary+entities+秋穗等雜項，各自產出具體edit建議
+- [x] **全部edit已落實**：`00_Story_Brief.html` 新增186行，包括操4段新內容、凜2段+主題關聯修正、美夜子2段、紫音1段、菲/夕1段、秋穗2段、經理人1段、世界觀新增2張導演原則卡（身體代價×債務／舞台×傷口）+奇蹟販賣所條目+多項世界規則補充
+- [x] **重大修正（非新增，係推翻舊講法）**：晴香三位一體結局原本寫「意識清醒、清醒抉擇嘅英雄式犧牲」，而家canon（CDL-384）已改成刻意留白、唔保證係乾淨自由嘅選擇——全站7處講法（角色卡/故事線/時間線/結局頁）已改；時間線114年3月已刪走取消咗嘅「玻璃庭院茶會」情節
+- [x] **HTML結構驗證**：tag balance（div/article/p）同編輯前基線一致，冇新增imbalance；grep確認冇CDL內部編號漏入新增嘅reader-facing文字
+- [x] **意外發現**：作者質問小光死因/家長日幕有冇同步，查證確認Brief本身冇問題（已配合CDL-343，早喺sync gap之前已存在），但喺追查過程中發現 `canon/03_characters/iwakura_akane.md` 檔案自己內部有矛盾——§「小光——最後的溫暖錨點」（CDL-343正確版本）vs §「第二幕：小光與墮落」E-07a（殘留CDL-343之前嘅CDL-229舊版本：「高強度戰鬥中小光過載崩解」），冇silent resolve，兩個版本直接列俾作者揀
+- [x] **作者確認**：「小光——最後的溫暖錨點」（CDL-343）先係正確
+- [x] **Canon writeback**：`iwakura_akane.md` E-07a段落已修正統一去返CDL-343版本；`CANON_DECISION_LOG.md`新增CDL-393；`QUESTION_QUEUE.md`新增QQ-220（RESOLVED）
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md`／`SESSION_LEDGER.md` Round 149
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計；Round 148愛莉母女對話矛盾仍BLOCKED未答）——本輪純屬網站同步+canon hygiene修正，冇觸碰故事設計主線
+
+## Completed This Round（Round 148 — 2026-08-16 愛莉「唔具名見證者」設計討論落檔＋grounding check，BLOCKED）
+- [x] **背景**：延續CDL-392落地應用討論，作者提出參考（非抄）Madoka Magica「圓環之理」，用愛莉承載呢種陪伴質感
+- [x] **共同設計**：基礎機制（愛莉已有嘅常駐閘口/未被覆寫的目擊者/感知夕先例/濾心機制）、候選操/朔新連結（濾心殘留/屍骸遺願）、視覺執行（模糊背影/早期埋位/力量純淨度而非累積量/高潮打破模糊慣例）
+- [x] **重要修正**：作者中途指出愛莉Act IV母女重逢場戲而家唔存在，秋穗見唔返愛莉
+- [x] **落檔**：`canon/_working/2026-08-16_AERI_UNIVERSAL_WITNESS_DESIGN_DISCUSSION_LOG.md`（完整討論記錄，含§4未解決問題）
+- [x] **派sub-agent做read-only grounding check**：確認愛莉現有設定引用全部CONFIRMED；操/朔連結全部NOT_FOUND（純新構思）；力量規則CONFIRMED冇矛盾；母女對話矛盾規模比預期大（牽涉AC-confirmed嘅E-20+五份文件，仲搵到獨立嘅aeri.md vs akiho.md描述唔一致）；額外發現E-20confirm咗愛莉Act IV會以魔法少女身份正式現視，可做視覺設計現成錨點
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 148
+- [x] **未寫入任何confirmed canon檔案**
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；等作者拍板母女對話矛盾三個情況（a/b/c）同操/朔連結去留
+
 ## Completed This Round（Round 147 — 2026-08-15 「見證守則」正式落檔，CDL-392，QQ-217延伸）
 - [x] **背景**：延續Round 145「見證努力而非認同傷痛」候選方向，作者拉高討論層級——呢個唔係服務主題嘅導演語言技巧，係「黑暗治癒系嘅風格導演嘅善意」
 - [x] **Grounding check**：搜尋`08_narrative_design_bible.md`確認已有正式命名嘅「黑暗療癒系統」同基調「溫柔的殘酷（Gentle Cruelty）」，但欠具體操作方法

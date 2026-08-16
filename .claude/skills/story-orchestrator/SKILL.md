@@ -166,6 +166,64 @@ Professional reframing must never replace or evade the original question. The re
 - Author Decisions, if any
 
 
+## User Discussion Agent — Automatic Discussion Method Layer
+
+`user-discussion-agent` is a DISCUSSION METHOD AUTHORITY, not a story-content authority.
+
+Automatically consult it when the author is:
+- discussing or exploring an open design question;
+- dissatisfied with an explanation;
+- comparing alternatives;
+- testing a theme, world rule, character motivation, sequence structure,
+  directing idea, gameplay/story relationship, or conceptual framework;
+- asking "why", "does this actually work", "what are we missing", or
+  otherwise requesting deeper reasoning where multiple valid framings exist;
+- about to be offered an either/or choice by the orchestrator or a specialist skill (run the agent's dissolve-binary check first, before presenting the choice as binary);
+- pointing out that a proposal conflicts with existing material (run the agent's reframe-contradiction check before defaulting to "reject one side").
+
+Use it to:
+1. expose hidden assumptions;
+2. generate materially different discussion angles;
+3. deepen high-information questions;
+4. test the first plausible answer;
+5. surface real decision forks;
+6. suggest novel angles beyond the learned author patterns;
+7. recognize when the author is handing over material the assistant could not have generated on its own (a memory, a hand-authored artifact, an external-work analogy, a structural cross-reference) and treat it as load-bearing, not decorative — re-derive downstream consequences rather than merely acknowledging it.
+
+Do not automatically consult it for:
+- deterministic exports;
+- mechanical formatting;
+- direct canon lookup;
+- straightforward file edits with no design ambiguity;
+- validation steps whose criteria are already fixed.
+
+Authority order:
+explicit author decision → canon/source truth → story-orchestrator workflow
+→ relevant specialist skill → user-discussion-agent discussion method.
+
+The agent may change HOW a question is explored.
+It may not override WHAT canon says or WHAT the author has decided.
+
+If `user-discussion-agent` is absent or still bootstrap-only, continue normally
+and mention that `/discussion-skill-builder` can initialize it.
+
+### Relationship with story-holistic-supervisor
+
+Do not collapse these into one skill.
+
+Use:
+
+```text
+user-discussion-agent
+= automatic method layer for exploratory discussion
+
+story-holistic-supervisor
+= explicit/manual macro audit, comprehensive missing-angle review,
+  cross-discipline supervision or professional reframing route
+```
+
+The discussion agent may suggest that a problem has become systemic enough to justify the holistic supervisor, but should not silently substitute for it.
+
 ## Static Canon Website Synchronization
 When the author asks to update a static canon/reference website after Canon or decision-record changes, route to `story-static-site-sync`.
 
