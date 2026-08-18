@@ -1,5 +1,25 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 151 — 2026-08-16 魔法少女變身正式確認為通用「鏡中承諾」陰影人格化光譜，CDL-395，愛莉守門人角色落地扣連）
+- [x] **背景**：延續愛莉討論，作者想為CDL-392「見證式陪伴」補多啲落地情緒設定
+- [x] **記憶核實**：作者記憶「夕同黑奏都係陰影」同一份未落CDL嘅舊筆記（黑奏＝保護者人格）有出入，如實話俾作者知；作者堅持推翻，查證`STORY_BASE_RECONSTRUCTION.md`確認黑奏起源本身已符合陰影定義，冇撞板，正式confirm
+- [x] **中途一個提案被拒絕並撤回**：「愛莉天生有陰影視覺」——作者明確話唔要，已撤回，未落任何檔案
+- [x] **核心提案source check**：「其他魔法少女變身其實同夕/黑奏一樣，只係未成形」——搵到`term-magical-girl`／`term-mirror-promise`兩條全體通用術語＋鏡像法則「美夜子、夕、操在高壓段落出現反向映照」記錄，完全支持
+- [x] **落實做正式CDL（作者confirm）**：夕/黑奏＝通用機制完全人格化嘅兩個已知案例；其餘魔法少女理論上一樣有得成形，只係創傷未夠極端；愛莉守門人／濾心角色定性為保護全隊未成形陰影
+- [x] **落檔**：`02_glossary.md`（term-mirror-promise／term-magical-girl）、`12_philosophy_and_systems.md`（新增§陰影人格化光譜）、`aeri.md`（§核心用途二／四）、`CANON_DECISION_LOG.md`（CDL-395）
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 151
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；Round 148遺留部分（操/朔連結、溫柔感/第四面牆設計）待作者主動再開
+
+## Completed This Round（Round 150 — 2026-08-16 秋穗永久困於無臉執行官循環正式落檔，CDL-394，「終點就係冇終點」）
+- [x] **背景**：延續Round 148愛莉「唔具名見證者」討論，作者三輪收緊決定——「秋穗見唔返愛莉」→「連把聲都冇」→「連把聲都拆走，秋穗嘅終點就係冇終點，永遠做無臉執行官」
+- [x] **用`/user-discussion-agent`學習方法做自我質疑**：precedent check（確認呢個結局比操/紫音/凜更純粹對應核心主旋律）；點解-chain（搵到「加害者vs受害者」債務區分做「點解係佢」嘅精準理由）；subtraction test（確認機制必須寫得機械唔帶判斷，否則撞CDL-392）
+- [x] **派sub-agent做blast-radius查證**：搵到規模比預期大——牽涉10份文件，包括`akiho.md`自己Archetype第三站「放手者」呢個已寫低嘅完成式終局
+- [x] **核心機制定案**：拆走「秋穗的循環」原有「冇晴香介入嘅失敗時間線」限定，令呢個永恆循環正式成為主線實際結局，兩條時間線終局匯合；Act II兩次暫時發作保留；Archetype第三站改做「永劫懺悔者」
+- [x] **派4個平行sub-agent執行writeback**：`akiho.md`／`aeri.md`；世界規則+時間線+重大事件表；CDL新entry+追蹤檔案
+- [x] **中途發現並修正CDL編號撞號**：全部agent原本被指示用CDL-393，中途發現CDL-393已被並行session（`iwakura_akane.md`修正，QQ-220）用咗，即時SendMessage通知四個agent改用CDL-394，逐一confirm，grep全repo核實冇殘留錯誤
+- [x] **落檔**：11份文件全部完成writeback（見PROJECT_STATUS.md Round 150完整列表）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 150
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；Round 148餘下部分（操/朔連結去留、視覺畫面設計）待繼續
+
 ## Completed This Round（Round 149 — 2026-08-16 `00_Story_Brief.html` 全面 canon 同步（跨5個commit）+ 意外發現並修正 `iwakura_akane.md` 內部矛盾，CDL-393／QQ-220）
 - [x] **背景**：作者透過 `/story-orchestrator` 要求用 static-site-sync skill 將 `00_Story_Brief.html` 同步返最近一個 git commit（dd3d0d5）
 - [x] **第一輪（單一commit）**：同步 CDL-389（操家族技術獨立性）／CDL-390（操連獨處都冇安全感）／CDL-391（凜三段式心理）／CDL-392（見證守則新卡），派3個sub-agent做style／sync-completeness／factual-grounding審查，逐項修正（誤入嘅CDL編號、風格切換問題、母親/父親卡漏改、凜嘅曖昧性遺失）

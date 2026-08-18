@@ -192,7 +192,9 @@ Beta 線建立的曆法標準。
 
 與「理想化的自我倒影」達成的浮士德式協議，核心是「自我對自我的放逐」。當少女瀕臨崩潰時，鏡中倒影變得冷靜強大，向她承諾：「把痛苦交給我」。少女觸碰鏡面簽訂契約，心匣具現化。
 
-**See also**: [Heart Casket](#term-heart-container) | [Entities](07_entities_and_devices.md#section-heart-container)
+**人格化光譜（CDL-395新增）**：契約成立嘅嗰一刻，「鏡中倒影」本質上就係一個攞走咗使用者攞唔到嘅痛苦嘅陰影雛形——[夕](03_characters/yu.md)（晴香）同[黑奏](03_characters/aya.md#section-kurokane)（彩）唔係獨立機制，係呢個通用儀式行到極端、完全人格化、完全自主嘅兩個已知案例。絕大部分魔法少女嘅「鏡中倒影」理論上一樣有得完全成形，決定成形程度嘅唯一因素係創傷嘅極端程度（原始創傷有幾深、契約用得有幾密/耐）——大部分人未去到咁極端，「鏡中倒影」停留喺未成形／半潛伏狀態，但唔係唔存在。詳見[Jung Individuation System](12_philosophy_and_systems.md#section-jung-individuation)。
+
+**See also**: [Heart Casket](#term-heart-container) | [Entities](07_entities_and_devices.md#section-heart-container) | [Mirror Law](#term-mirror-law)
 
 ---
 
@@ -547,6 +549,8 @@ Emo-Visor 的核心運作原理，實現「痛苦隱形化」的關鍵機制。
 與自己鏡中倒影簽訂浮士德式協議的悲劇少女。
 
 並非天選幸運兒，而是精神創傷的活體隱喻、逃避內在陰影的悲劇選擇。成為魔法少女的契約儀式本質是人格解離。那個冷酷高效的「魔法少女」是從主人格分裂出去的「創傷性面具」。處於[三位一體光譜](#term-trinity-spectrum)的耗損過程。
+
+呢個「人格解離」嘅另一半去咗邊——鏡中承諾攞走嘅痛苦最終流向邊——見[鏡中的承諾§人格化光譜](#term-mirror-promise)同[愛莉 Canon Sheet](03_characters/aeri.md)。
 
 **See also**: [Trinity Spectrum](#term-trinity-spectrum) | [Mirror Promise](#term-mirror-promise) | [Entities](07_entities_and_devices.md#section-heart-container)
 

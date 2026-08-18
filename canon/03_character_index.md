@@ -47,7 +47,7 @@
 | 角色 | 定位 | Archetype 變遷 | 存活狀態 | Canon Sheet |
 |------|------|----------------|----------|-------------|
 | [白銀朔](03_characters/saku.md) | 屍骸獵人 / 雙面特工 | 復仇者→守護者→解放者 | 存活 | [saku.md](03_characters/saku.md) |
-| [東雲秋穗](03_characters/akiho.md) | 瘋狂科學家 / 罪孽的母親 | 瘋狂科學家→悔恨的母親→放手者 | 存活 | [akiho.md](03_characters/akiho.md) |
+| [東雲秋穗](03_characters/akiho.md) | 瘋狂科學家 / 罪孽的母親 | 瘋狂科學家→悔恨的母親→永劫懺悔者 | 存活 | [akiho.md](03_characters/akiho.md) |
 | [東雲愛莉](03_characters/aeri.md) | 紙皮騎士 / 精神守門人 | 受難聖徒→無名守門人→紙皮騎士 | 石像（精神存活） | [aeri.md](03_characters/aeri.md) |
 
 ### 反派與特殊存在

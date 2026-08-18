@@ -278,7 +278,7 @@
 - <a id="event-alpha-days"></a>**Alpha 線的幾日**：夕在重建的 Alpha 線度過數日，發現內心創傷無法被治癒——證明「過去無法被修正，只能被接納」
 - <a id="event-disillusion"></a>**幻滅與還原**：夕試圖撥回 Beta 線，造成時間線裂痕
 - <a id="event-resonance-hell-2"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第二階段**：[緋潮](02_glossary.md#term-scarlet-tide)爆發——時間線裂痕的副產品
-- <a id="event-faceless-truth"></a>**[無臉執行官](02_glossary.md#term-faceless-executor)真相**：揭露無臉執行官是失敗時間線的[秋穗](03_characters/akiho.md)
+- <a id="event-faceless-truth"></a>**[無臉執行官](02_glossary.md#term-faceless-executor)真相**：揭露無臉執行官就是[秋穗](03_characters/akiho.md)嘅命運，全句——唔分主線定失敗時間線，呢個都係佢最終會變成嘅嘢（CDL-394）
 - <a id="event-twenty-year-vigil"></a>**二十年守望**：晴香意識被困於[集體潛意識](02_glossary.md#term-collective-unconscious)；夕維持身體機能，對抗黑奏侵蝕
 
 <!-- ═══ 二十年守望結束 / ACT IV 開始 ═══ -->
@@ -340,8 +340,8 @@
 ### <a id="event-akiho-time-loop"></a>秋穗的循環（Time Loop Omega-Autumn）
 
 - **循環起點**：帝國歷 98 年（愛莉成為魔法屍骸）
-- **循環終點**：時空夾縫（靈魂被囚禁）
-- **核心**：在沒有晴香的時間線中，秋穗重複「為救女兒而製造悲劇」的循環，最終成為[無臉執行官](02_glossary.md#term-faceless-executor)
+- **循環終點**：時空夾縫（靈魂被囚禁）——冇真正終點，只有不斷重複
+- **核心（CDL-394 更新）**：秋穗重複「為救女兒而製造悲劇」的循環——一次又一次試圖救返愛莉、失控、變成[無臉執行官](02_glossary.md#term-faceless-executor)、被吞噬，然後循環重新開始，永遠冇到達過解脫或聽到女兒嘅原諒。此循環**唔再局限於「冇晴香介入嘅失敗時間線」**——呢個係秋穗喺任何時間線嘅最終命運，主線同失敗時間線嘅結局喺佢身上匯聚成同一個永劫狀態。「終點就係冇終點」：佢唔係一次性被抹除，而係被困喺一個永遠冇出口嘅循環入面。
 
 ### <a id="event-haruka-ascension"></a>晴香的命運（Forced Ascension）
 
