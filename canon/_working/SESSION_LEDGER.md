@@ -1,5 +1,86 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 159 — 2026-08-27 三階段榮格框架（未分裂→分裂→個體化）+ 解離兵器/魔法屍骸重新定性做分裂失敗模式 + 鏡中承諾「鏡」澄清做純心理意象（CDL-407）— 冇遺留BLOCKED問題）
+- [x] **背景**：延續同輪CDL-401至CDL-406心之器/護甲/魔法屍骸/解離兵器/靈樹retcon討論，作者直接指示補最後一段——三階段榮格框架
+- [x] **Task 1 — 三階段框架**：未分裂（普通人）→分裂（鏡中的承諾＝Persona形成，明確防衛性創傷非成就）→個體化（有意識主動整合陰影，晴香/夕係唯一confirm完整案例，cross-link CDL-357壓抑稅、CDL-367/387二十年守望蒙太奇，唔重複描述）
+- [x] **Task 2 — 失敗模式重定性**：解離兵器/魔法屍骸重新定性做階段二分裂出錯嘅失敗模式，同已confirm嘅靈魂距離光譜（CDL-406）係同一件事兩種講法，純框架/命名層，唔改動機制內容
+- [x] **Task 3 — 鏡中承諾「鏡」澄清**：明確純屬心理/隱喻意象，唔受鏡像法則約束，兩套獨立機制共用意象純屬主題呼應；補充拉岡鏡像階段/治療性鏡像練習現實對照
+- [x] **Task 4 — 唔使開新場景**：任何角色已confirm嘅第一次力量啟動時刻本身就同時係鏡中承諾成立嘅嗰一刻，外部/內部兩個角度描述同一事件
+- [x] **落檔**：`12_philosophy_and_systems.md`（section-jung-individuation新增§三階段榮格框架、§解離兵器/魔法屍骸＝分裂失敗模式）；`02_glossary.md`（term-mirror-promise新增兩段）；`CANON_DECISION_LOG.md`（CDL-407）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 159
+- [x] **總結**：至此Round 140起延伸嘅心之器/護甲/魔法屍骸/解離兵器/靈樹能量/榮格框架成套討論全部落檔完成
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 158 — 2026-08-27 執正Part 1/Part 2撞號（CDL-401），成套心之器/護甲/魔法屍骸/解離兵器/靈樹retcon討論正式落檔完成）
+- [x] **背景**：兩個並行sub-agent（Part 1心之器/護甲/光譜統一；Part 2靈樹retcon/操父親科技）各自完成，orchestrator核對報告時發現兩者獨立claim咗CDL-401
+- [x] **執正**：Part 2嘅CDL-401維持；Part 1改用CDL-406（跳過已知歷史phantom嘅CDL-405）；補齊Part 1其餘三項正式log entry（CDL-402護甲代價補償／CDL-403情緒病毒改寫／CDL-404心匣心之器同一化）
+- [x] **落檔**：`CANON_DECISION_LOG.md`（CDL-402/403/404/406）；`01_world_rules_and_costs.md`第1136行編號修正；`CDL_NUMBERING_AUDIT.md`（撞號事故記錄+未來多agent並行寫canon嘅建議）；`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 158
+- [x] **總結**：由Round 140（2026-08-12）一路延伸嘅直播起源→心之器/護甲/魔法屍骸/解離兵器/靈樹能量討論線，正式全部落檔完成
+- [x] **未解決，留待日後**：晴香出身改夜區之後，Act I「日區＝麻木/幸運」性格讀法需要重新扎根；Round 156涼薄/見證守則問題仍BLOCKED
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 157 — 2026-08-27 Canon consolidation PART 2：靈樹能量殘留retcon（CDL-401）+ 操父親技術重新定性做純心理鎖 — 冇遺留BLOCKED問題）
+- [x] **任務性質**：作者授權嘅大型canon consolidation，本session為PART 2（另一位協作者並行負責PART 1：心之器/護甲/屍骸光譜統一命名，唔喺呢度重複記錄）
+- [x] **Task A — 靈樹能量殘留retcon**：查證確認「夜區居民因靈樹能量殘留天生有魔法」呢句斷言主要存在於`00_Story_Brief.html`，markdown canon三處輕量引用只描述戰爭本身，唔需要修正；靈樹戰爭本身/帝國侵佔動機保持不變；「點解夜區居民有魔法」呢層因果重新定性做世界性誤解，真身係晴香102年「改變現實」透過靈樹樞紐回填歷史嘅護甲效應，authorial-level hidden truth，故事內冇角色知情
+- [x] **Task A**：晴香Alpha線童年出身由日區改做夜區（`00_Story_Brief.html` 6906行）
+- [x] **Task A**：檢查`haruka.md`「日區偶像私服」（319行）——確認只係後期idol造型細節，唔涉童年原生家庭district claim，唔改動
+- [x] **Task A**：flag follow-up——`11_directing_playbook.md`~94/103/110「日區=麻木/幸運」主題讀法扣連CDL-355，出身改夜區後可能需要重新扎根，本輪未處理
+- [x] **Task B — 操父親技術重新定性**：CDL-389既有定案保持不變，新增澄清技術本質係純心理/意識壓制鎖（非魔法軸），補充前瞻性機制筆記——side-effect可以凍結獨立經歷緊嘅解離狀態滑落，純機制推演非已發生事件
+- [x] **已寫入canon**：`00_Story_Brief.html`（3處）、`ayakomoji_misao.md`、`01_world_rules_and_costs.md`、`CANON_DECISION_LOG.md`（CDL-401）
+- [x] **已更新state files**：`PROJECT_STATUS.md`／`NEXT_ACTION.md`／`SESSION_LEDGER.md`（本entry）
+- [ ] **⚠️ CDL編號collision風險**：全repo查證最高CDL為CDL-400，本轮用CDL-401，但因與並行Part-1 session同時進行，需要作者/orchestrator快速sanity check確認最終編號冇撞
+- [x] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## In Progress This Round（Round 156 — 2026-08-26 新導演語言題目：「總有人唔會體諒、話人玻璃心」嘅真實感 — BLOCKED 等作者拍板）
+- [x] **作者指示**：`/story-orchestrator`，「唔好理會 working on 緊嘅嘢，獨立討論」——想要導演語言令「見證守則（CDL-392）嘅溫柔」唔飄成童話，同時放入「現實上總有人唔會體諒、話人玻璃心」嘅噁心真實感
+- [x] **作者 injection**：具體想做「原生家庭好嘅人對原生家庭唔好嗰種人特別唔體諒」嘅 feel；提議用「一開始嘅晴香」承載
+- [x] **Skills used**：story-orchestrator、user-discussion-agent（discussion-method 層：拆隱藏假設、dissolve-binary、reframe-contradiction、grounding audit）
+- [x] **Source check**：見證守則四陷阱已含「冷漠評分態度」＝已預咗反面，但守則只管敘事／鏡頭姿態、唔管戲內角色；晴香「討好型＝拒絕深層連結防護罩」（`haruka.md`）＝現成機制；Act I「冇面具、幸運嘅一個」（CDL-355）；世界規則已有「風評崩盤／外部敵意內化為 Alpha 必然命運」
+- [x] **發現撞 canon（未 silent resolve）**：`rin.md`／`ayakomoji_misao.md` CDL-065「晴香擋攻擊＋問裙子」＝操第一次「有人在乎我呢個人而非戰果」；關係表「晴香的善意是操卸下偽裝的契機之一」——若一開始嘅晴香係涼薄角色、對象係操，正面撞
+- [x] **AI 提出（未批核）**：①核心機制＝兩條同時響嘅聲道（戲內角色出「玻璃心」聲，鏡頭／剪接／敘事姿態留喺受傷者度，個 gap＝導演語言本身）；②reframe＝乾淨傷口（晴香：阿媽難產亡、社會收貨）vs 骯髒傷口（操：講唔出口）——保留 CDL-065 gesture 真、加「framework 接得住 moment、接唔住 wound」層
+- [x] **落檔**：`NEXT_ACTION.md`／`SESSION_LEDGER.md`／`QUESTION_QUEUE.md`（QQ-221）／`QUESTION_MATRIX.md`（M-053）Round 156
+- [ ] **未寫入任何 confirmed canon**（REVIEW/DISCUSSION ONLY）
+- [ ] **BLOCKED 等作者**：①涼薄對象用操（要 reframe CDL-065）定紫音；②接唔接受 reframe 讀法；③晴香成長環境要唔要定；④要唔要「安慰即傷」認清 beat
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 155 — 2026-08-26「解離兵器（The Unlinked）」重新定位為通用結果分類，刪除「心防內化裝置」具體三層機制，CDL-400）
+- [x] **背景**：延續Round 154（CDL-399）「查證舊機制有冇實際套用喺角色身上」嘅同一種verification方法，本輪範圍擴展去`07_entities_and_devices.md`「心防內化裝置（Trauma Cage System）」段——一套具體三層強制改造硬件（心匣熔焊/創傷反芻注射/成癮性代償回饋），產生「解離兵器（The Unlinked）」呢個結果
+- [x] **查證確認外部Story Brief錯誤掛勾**：`00_Story_Brief.html`曾試圖將呢部具體機制掛勾去凜同秋穗兩名已命名角色，但兩人各自角色檔案已有完全獨立、已confirm嘅機制——凜：自願兵器化（Unit 00，CDL-348/374）+ 黑奏經維多利亞之淚重組，凜由頭到尾帶Alpha線因果牽連（護甲），根本唔符合路線2「無護甲」前提；秋穗：欠債型自我消解／「無臉執行官」，機制係`rule-debt-dissolution`（CDL-376/394），源於佢自己主動加害於人，同樣唔涉及Trauma Cage硬件
+- [x] **作者最終指示**：保留「解離兵器」一詞，重新定位做通用結果分類（人格徹底喪失、淪為無意識工具嘅終局狀態分類名，唔綁定單一硬件）；不同角色可經由不同、獨立嘅因果機制走到呢個表面相似嘅終局
+- [x] **`07_entities_and_devices.md`修正**：①「心防內化裝置」段刪除具體三層機制表，改為刪除狀態說明，cross-reference路線2作為現存最清晰嘅純粹機制路徑；②「The Unlinked」定義段重寫為通用結果分類，保留成立條件/技術前身段落，新增凜/秋穗「機制不同、結果類似」防混淆段落；③連動修正解離狀態表戰鬥驅動欄、與魔法屍骸區別表起源欄、Emo-Visor Gen 2流派B描述對已刪除機制嘅直接引用
+- [x] **`11_directing_playbook.md`修正**：「成癮型」心理機制例證原引用已刪除嘅心防內化裝置第三層，改引用仍有效嘅Emo-Visor成癮機制（紫音活人示範保留不變）
+- [x] **明確排除**：查證確認`rin.md`、`akiho.md`兩份角色檔案本身冇任何地方將解離兵器/Trauma Cage/心匣熔焊講成自己literal機制，唔需要修正
+- [x] **落檔**：`CANON_DECISION_LOG.md`（CDL-400）、`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 155
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 154 — 2026-08-26 修正CDL-398錯誤前提——刪除軍方改造四步驟流程同記憶改造，CDL-399）
+- [x] **背景**：CDL-398（2026-08-25）將原四步流程合併為三步並新增Route-1-only cross-reference，但保留咗成套流程本身，亦未修正「代表人物：美夜子、紫音、操」呢句舊混合分類——本輪為對呢兩點嘅正式修正，非新設計
+- [x] **多重sub-agent verification確認四步流程/記憶改造從未實際套用**：美夜子復活時心之器已碎裂，「軍方無需額外強制手段即可完成 Unit 01 鑄造」；操裝置係黑市購買（CDL-071）；紫音裝置係拾獲遺棄裝置自動激活（CDL-051）；凜（`rin.md`）全文只確認「其中一名容器候選」，冇強制轉化場面；「記憶改造」全canon僅得呢一處提及，已知記憶消除案例（美夜子、凜）均由各自獨立機制解釋
+- [x] **確認角色分類錯誤**：`01_world_rules_and_costs.md`Stage table（line 162，CDL-307）同`00_Story_Brief.html`三路線比較表均已將美夜子/凜歸做Stage 1軍方路線（已廢棄）、操/紫音歸做Stage 2潘朵拉協議路線，但`07_entities_and_devices.md`「代表人物」一句一路殘留舊混合分類
+- [x] **`07_entities_and_devices.md`修正**：刪除四步驟編號流程，換成誠實留白備註；保留候選人搜尋/工業化管理邏輯描述；新增「已廢棄狀態」段落cross-reference Stage table；「代表人物」改正為「美夜子、凜」，新增段落明確操/紫音屬於獨立裝置路線/潘朵拉協議機制
+- [x] **`01_world_rules_and_costs.md`修正**：`rule-alpha-qualification`新增「跨路線適用範圍澄清」段落，明確Alpha線因果牽連（護甲/路線1）前提同時適用於Stage 1（美夜子/凜）同Stage 2潘朵拉協議（晴香/紫音/操）；路線1/2/3標記系統本身完全不受影響
+- [x] **`06_visual_bible.md`修正**：刪除「靈魂之刺收割過程」視覺方向備註一句（專指已刪除步驟，非更廣泛視覺清單一部分，判斷移除比留低加註更乾淨）
+- [x] **落檔**：`CANON_DECISION_LOG.md`（CDL-399）、`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 154
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 153 — 2026-08-25 直播/魔法少女偶像起源最終落檔，CDL-397，QQ-213 RESOLVED，收尾Round 140起始嘅多輪延伸討論）
+- [x] **背景**：延續QQ-213（直播/維多利亞天使起源方向，自Round 140／2026-08-12起BLOCKED）；同輪曾一度轉向Act IV climax蒙太奇（CDL-387/388，屬另一分支，唔可以撞埋一齊），QQ-213本身遲遲未落實，本輪重新拾起收斂
+- [x] **最終定案**：帝國冇「官方魔法少女偶像認證制度」，預設態度全程都係捕獵/兵器化（既有衛生行動／軍方魔法少女改造計劃機制不變）；晴香經理人正式定性為帝國刻意經營嘅個別例外，方法係利用晴香締約前已有嘅平民歌手身份（CDL-372既有事件）將佢戰鬥嘅傷一併塞入直播，唔係「魔法少女身份本身」令佢做偶像；美夜子/操/紫音/彩唔係偶像，戰鬥被睇到純粹係全民監控系統／採集端自動結果，唔需要同意亦唔涉制度關係
+- [x] **意外揭露**：凜生前（Stage 1活體兵器期，帝國歷103-108年，佢死前嘅原本自己）喺監控範圍內私下流露過偶像式小動作，當時仍係首席科學家嘅秋穗喺例行審閱片段時見過但揀咗冇上報，係一個罕有嘅良心舉動；呢段片段喺凜死後被經理人（早有帝國檔案庫存取權）挖出、未經同意挪用做晴香品牌素材，凜同晴香雙方都唔知道，凜冇得到credit
+- [x] **落檔**：`haruka.md`（新增§廣播起源——冇制度化系統／§舊拍檔——凜嘅監控片段）、`rin.md`（新增§私下嘅偶像殘影）、`akiho.md`（新增§一個未上報嘅片段）、`CANON_DECISION_LOG.md`（CDL-397）、`QUESTION_QUEUE.md`（QQ-213，RESOLVED）
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 153
+- [x] **編號更正**：任務原指示用CDL-389，落檔時發現CDL-389至CDL-396已被本session其他並行討論依序用晒（綾小路家族技術線／小光死因矛盾修正／凜三段式心理／操委屈崩喊/見證守則／愛莉見證者+陰影人格化光譜／秋穗永劫循環／意識層演出規則），改用CDL-397
+- [ ] **另一位協作者同步處理中**：§維多利亞之淚範圍drainage規則（`01_world_rules_and_costs.md`）同Route 1/2/3標記機制cross-reference，編號暫定CDL-TBD，需由orchestrator整合reconcile最終CDL編號
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）
+
+## Completed This Round（Round 152 — 2026-08-16「意識層演出規則」正式落檔，CDL-396，紫音死前地下室和解）
+- [x] **背景**：延續CDL-392三種見證形式，「自己接住自己」一直冇具體畫面，作者要求補落地表演規則
+- [x] **前置查證（3個sub-agent，L1/愛莉）**：確認愛莉閘口定義明確限定L2/L3唔包括L1；確認擴展會撞返CDL-395岩岩收窄嘅負擔範圍；改用「集體發噩夢範圍擴大做全城」方案，唔郁愛莉本身
+- [x] **核心source check**：`06_visual_bible.md`已有心房室內語言（地下室＝潛意識與陰影、被壓抑創傷記憶化戰鬥體；臥室＝鏡子反映錯誤形象）；操自己已有「母親靈魂碎片重逢」（CDL-300）完全符合「死前獨立和解、估唔到會死」結構，唔使新加
+- [x] **落實做正式CDL（CDL-396）**：同自己陰影和解定位喺心房地下室；表演語法＝唔打唔逃留低直視；紫音新增死前地下室和解場面（面對阿媽/細佬原傷，補完QQ-217缺口，唔取代操死訊做外部觸發）；操現有beat確認符合同一原則
+- [x] **落檔**：`11_directing_playbook.md`（新增§意識層演出規則）、`iwakura_akane.md`（新增§死前意識——地下室嘅和解）、`ayakomoji_misao.md`（確認註）、`CANON_DECISION_LOG.md`（CDL-396）
+- [x] **落檔**：`PROJECT_STATUS.md`／`NEXT_ACTION.md` Round 152
+- [ ] **不改變主阻塞點**（仍為 Act IV Outline 正式設計）；Round 148遺留部分（第四面牆接住玩家具體beat、愛莉cutaway手法場次、全城集體噩夢機制未正式落CDL）待作者主動再開
+
 ## Completed This Round（Round 151 — 2026-08-16 魔法少女變身正式確認為通用「鏡中承諾」陰影人格化光譜，CDL-395，愛莉守門人角色落地扣連）
 - [x] **背景**：延續愛莉討論，作者想為CDL-392「見證式陪伴」補多啲落地情緒設定
 - [x] **記憶核實**：作者記憶「夕同黑奏都係陰影」同一份未落CDL嘅舊筆記（黑奏＝保護者人格）有出入，如實話俾作者知；作者堅持推翻，查證`STORY_BASE_RECONSTRUCTION.md`確認黑奏起源本身已符合陰影定義，冇撞板，正式confirm

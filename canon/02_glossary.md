@@ -178,12 +178,14 @@ Beta 線建立的曆法標準。
 
 ---
 
-### <a id="term-heart-container"></a>心匣（Heart Casket / The Lock）
-魔法少女心之器在現實世界中的物理延伸。
+### <a id="term-heart-container"></a>心匣（Heart Casket / The Lock）[REVISED CDL-404]
+心之器嘅外顯／具現化形態——同心之器係同一件嘢嘅兩個名，唔係兩件連接住嘅獨立物件。
 
-當少女與力量建立連結時，一部分靈魂本質在現實世界「凝鑄成形」，形成獨一無二、能捧在手心的小盒子/墜飾。材質、雕花、紋路反映少女靈魂特質。是通往力量的「鎖」。每次戰鬥後留下不可抹滅的物理傷痕。
+**修正定義（CDL-404，取代舊版「心之器嘅物理延伸」框架）**：心匣唔係心之器之外另一件「連接住」嘅物體，亦唔係心之器伸出嚟嘅一部分——心匣就係心之器本身，分別純粹在於你指緊邊一面：講緊靈魂內在嗰份本質嗰陣，叫佢做心之器；講緊佢喺現實世界具現化、捧得喺手心嗰個形態嗰陣，叫佢做心匣。一件嘢，兩個名，由觀察角度決定用邊個字，唔係機制上嘅兩個階段或兩個部件。
 
-**See also**: [Entities](07_entities_and_devices.md#section-heart-container) | [Mirror Promise](#term-mirror-promise) | [Emotional Power Device](#term-emotional-power-device)
+當少女與力量建立連結時，心之器嘅本質在現實世界「凝鑄成形」，形成獨一無二、能捧在手心的小盒子/墜飾——呢個「凝鑄成形」嘅過程，就係心之器由內在狀態轉向外顯狀態嘅過程，唔係另一件物件被獨立創造出嚟。材質、雕花、紋路反映少女靈魂特質。是通往力量的「鎖」。每次戰鬥後留下不可抹滅的物理傷痕，而呢啲傷痕同樣直接反映心之器本體嘅損耗程度——傷害心匣就係傷害心之器，兩者冇獨立損耗軌跡（所有既有嘅損毀／龜裂／完整度機制維持不變，本次修正純屬框架/命名層，唔改動任何既有代價機制）。
+
+**See also**: [Heart-Vessel](#term-heart-vessel) | [Entities](07_entities_and_devices.md#section-heart-container) | [Mirror Promise](#term-mirror-promise) | [Emotional Power Device](#term-emotional-power-device)
 
 ---
 
@@ -192,7 +194,11 @@ Beta 線建立的曆法標準。
 
 與「理想化的自我倒影」達成的浮士德式協議，核心是「自我對自我的放逐」。當少女瀕臨崩潰時，鏡中倒影變得冷靜強大，向她承諾：「把痛苦交給我」。少女觸碰鏡面簽訂契約，心匣具現化。
 
-**人格化光譜（CDL-395新增）**：契約成立嘅嗰一刻，「鏡中倒影」本質上就係一個攞走咗使用者攞唔到嘅痛苦嘅陰影雛形——[夕](03_characters/yu.md)（晴香）同[黑奏](03_characters/aya.md#section-kurokane)（彩）唔係獨立機制，係呢個通用儀式行到極端、完全人格化、完全自主嘅兩個已知案例。絕大部分魔法少女嘅「鏡中倒影」理論上一樣有得完全成形，決定成形程度嘅唯一因素係創傷嘅極端程度（原始創傷有幾深、契約用得有幾密/耐）——大部分人未去到咁極端，「鏡中倒影」停留喺未成形／半潛伏狀態，但唔係唔存在。詳見[Jung Individuation System](12_philosophy_and_systems.md#section-jung-individuation)。
+**人格化光譜（CDL-395新增）**：契約成立嘅嗰一刻，「鏡中倒影」本質上就係一個攞走咗使用者攞唔到嘅痛苦嘅陰影雛形——[夕](03_characters/yu.md)（晴香）同[黑奏](03_characters/aya.md#section-kurokane)（彩）唔係獨立機制，係呢個通用儀式行到極端、完全人格化、完全自主嘅兩個已知案例。絕大部分魔法少女嘅「鏡中倒影」理論上一樣有得完全成形，決定成形程度嘅唯一因素係創傷嘅極端程度（原始創傷有幾深、契約用得有幾密/耐）——大部分人未去到咁極端，「鏡中倒影」停留喺未成形／半潛伏狀態，但唔係唔存在。詳見[Jung Individuation System](12_philosophy_and_systems.md#section-jung-individuation)，本儀式對應嗰度嘅[三階段框架（CDL-407）](12_philosophy_and_systems.md#section-jung-three-stage)「階段二——分裂」。
+
+**「鏡」係心理意象，唔受鏡像法則約束（CDL-407新增）**：呢個儀式名入面嘅「鏡」，純屬**心理／隱喻層面**嘅講法——一個角色向內自我對峙嘅意象，唔係聲稱現場一定要有一塊真實反光物件存在，亦唔受[鏡像法則](01_world_rules_and_costs.md#rule-mirror-law)（管轄現實世界入面實體反光面／表面點樣顯示畀觀測者睇嘅外部規則，有覆蓋範圍、感知限制等一整套獨立機制）約束。兩者係完全獨立嘅兩套機制，唔係一個依賴另一個：鏡中的承諾係一件純粹內在、私密嘅心理事件，發生喺[心之器](#term-heart-container)入面；鏡像法則管嘅係外部世界嘅實體物件會唔會現出真身俾其他人睇。兩者共用「鏡」呢個意象，純粹因為呢個世界本身已經有「鏡＝睇穿覆蓋、見到真相」呢層文化/機制聯想（由鏡像法則提供），呢層聯想自然咁供應咗形容「內在自我對峙」呢個動作嘅詞彙——係主題上嘅呼應，唔係機制上嘅依附關係。現實世界對照：呢種「純心理鏡像」唔需要實體鏡都可以成立，係有先例嘅——拉岡鏡像階段理論、治療性「鏡像練習（mirror work）」等心理學入面嘅自我對峙意象，本身都唔要求一塊真實鏡子在場。
+
+**唔需要獨立場景（CDL-407新增）**：鏡中的承諾唔係一場需要另外編排嘅獨立儀式場面。任何魔法少女 canon 已confirm嘅「第一次成功啟動力量」時刻——例如操第一次成功使用黑市買嚟嘅裝置、紫音嘅裝置初次接觸自動啟動——**本身就同時係**鏡中的承諾成立嘅嗰一刻，只係由兩個角度描述同一件事（外部：劇情層面嘅力量啟動事件；內部：心理層面嘅自我放逐/契約）。唔使亦唔應該為呢個儀式另外設計一場專屬場景。後續喺呢啲時刻嘅具體舞台化演出入面，會唔會出現一塊實體反光面純屬 Beat Sheet/Scene 層嘅執行細節，本條不預先鎖定。
 
 **See also**: [Heart Casket](#term-heart-container) | [Entities](07_entities_and_devices.md#section-heart-container) | [Mirror Law](#term-mirror-law)
 
@@ -359,14 +365,18 @@ Beta 線建立的曆法標準。
 
 ---
 
-### <a id="term-emotion-virus"></a>情緒病毒（Emotion Virus）
-集體潛意識流出嘅可傳染扭曲情緒體。
+### <a id="term-emotion-virus"></a>情緒病毒（Emotion Virus）[REVISED CDL-403]
+唔係獨立傳染病原體——係「未處理情緒債務由內侵蝕心之器」呢個過程嘅詩意講法。
 
-並非傳統病毒，而是從集體潛意識流出嘅可傳染扭曲情緒體，接觸後會破壞心之器。**與魔法系統層無直接關聯**——可以攻擊任何人嘅心之器，唔需要經過魔法少女階段；普通人受情緒病毒侵蝕、心之器被徹底擊碎，可以直接屍骸化。
+**修正定義（CDL-403，取代舊版「集體潛意識流出嘅可傳染扭曲情緒體」框架）**：情緒病毒唔係一種外來、獨立、喺人與人之間傳染嘅實體病原。佢實際上係一個人自己嘅[情緒債務](01_world_rules_and_costs.md#rule-emotion-conservation)——長期累積、未經處理、未經承接嘅負面情緒殘留——喺自己嘅心之器內部逐步侵蝕嘅可見／可感效果。「病毒」呢個講法係比喻性嘅：呢種侵蝕本質上由內而外，唔係由外部感染源攻入身體。
 
-> **注**：舊版「黑奏將彩嘅靈魂滲漏武器化製造情緒病毒」框架已於 2026-07-14 作廢（CDL-329），以 `00_Story_Brief.html` 現行系統級定義為準。
+**普通人一樣食到，呢一點維持不變**：魔法系統層嘅門檻依然唔存在——任何人（魔法少女定普通人）只要長期累積夠多未處理嘅情緒債務，都有心之器被侵蝕嘅風險；分別純粹在於：唔係「畀外來病毒感染」，而係「自己嘅債務長期冇出口，侵蝕咗自己個心之器」。普通人心之器被徹底侵蝕擊碎，一樣可以直接屍骸化。
 
-**See also**: [Collective Unconscious](#term-collective-unconscious) | [Magical Corpse](#term-magical-corpse)
+**同[魔法屍骸](#term-magical-corpse)「情緒病毒攻擊」講法嘅一致性**：[魔法屍骸](#term-magical-corpse)詞條入面「情緒病毒攻擊」呢個字面講法維持不變，其他文件引用呢個講法時唔使改；但依家嘅準確讀法係——嗰種「攻擊」嘅來源係心之器自己承受住嘅未處理債務侵蝕，唔係外來獨立病原體發動嘅攻擊。兩處講法現在互相一致，唔再係兩套機制。
+
+> **注**：舊版「黑奏將彩嘅靈魂滲漏武器化製造情緒病毒」框架已於 2026-07-14 作廢（CDL-329）。CDL-403（本次修正）進一步取代「集體潛意識流出嘅可傳染扭曲情緒體」呢個獨立病原框架，改以債務侵蝕框架為準——本 session 已核實冇其他文件依賴呢個獨立病原講法，呢次改動安全。
+
+**See also**: [Collective Unconscious](#term-collective-unconscious) | [Magical Corpse](#term-magical-corpse) | [情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)
 
 ---
 
@@ -456,28 +466,30 @@ Beta 線建立的曆法標準。
 
 **不可逆**：護甲一旦確立，無法人為移除或改變。
 
-**See also**: [Alpha 線因果牽連原則](01_world_rules_and_costs.md#rule-alpha-qualification) | [無意識兵器](#term-unconscious-weapon) | [World Rules](01_world_rules_and_costs.md)
+**護甲嘅真正本質（CDL-402）**：護甲唔係恩賜或祝福——佢係[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)冷酷、機械、強制性嘅代價補償，欠俾每一個俾晴香帝國歷 102 年「改變現實」波及嘅少女。完整定義見 [World Rules：護甲的真正本質——情緒守恆定律的強制代價補償](01_world_rules_and_costs.md#rule-armor-debt-compensation)。同一份「執念錨點強度」機制下，護甲亦係令帶護甲者長期穩定停喺[靈魂距離光譜](01_world_rules_and_costs.md#rule-soul-distance-spectrum)高控制力一端嘅外部加固。
+
+**See also**: [Alpha 線因果牽連原則](01_world_rules_and_costs.md#rule-alpha-qualification) | [護甲＝情緒守恆定律嘅代價補償](01_world_rules_and_costs.md#rule-armor-debt-compensation) | [無意識兵器](#term-unconscious-weapon) | [World Rules](01_world_rules_and_costs.md)
 
 ---
 
-### <a id="term-unconscious-weapon"></a>無意識兵器 / 離解兵器（Unconscious Weapon）[NEW]
-被帝國強制改造的少女（缺乏護甲保護）的兵器化形態。
+### <a id="term-unconscious-weapon"></a>無意識兵器 / 離解兵器（Unconscious Weapon）[REVISED CDL-399/400]
+被帝國強制改造、缺乏護甲保護嘅少女嘅兵器化終局——一個通用結果分類，唔綁定單一機器。
 
-定義：不在晴香五歲願望波及範圍內、因此缺乏護甲保護的普通少女，被帝國軍方或秋穗研究團隊強制開啟[心防內化裝置](07_entities_and_devices.md#section-trauma-cage)時，心之器結構性毀滅，碎片被 Emo-Visor 化學與物理手段強行黏合於「生肉裝甲」。意識與肉體分離，淪為帝國戰爭工具。
+**修正定義（CDL-400，通用結果分類）**：不在晴香五歲願望波及範圍內、因此缺乏護甲保護的普通少女，被帝國強行推入[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)嘅**路線 2**（心之器結構性毀滅，碎片強行黏合於「生肉裝甲」）之後嘅結果。呢個係一個**通用結果分類名**，唔係由單一一部硬件產生嘅單一產物——舊版「心防內化裝置」呢部具體三層強制改造硬件，經 CDL-400 verification 確認從未實際套用喺任何已命名角色身上，已正式刪除（詳見 [07_entities_and_devices.md：心防內化裝置——已刪除嘅特定硬件機制](07_entities_and_devices.md#section-trauma-cage)）。意識與肉體分離，淪為帝國戰爭工具。
 
 **外觀特徵**：
 - 關節處有明顯的硬件熔焊痕跡
 - 動作機械化、非人類的關節活動方式
 - 無個人風格或表情變化
 
-**代表人物**：愛莉、美夜子（Unit 01 時期——強制改造的過渡版本）、凜（重組後的單層殘留型）
+**代表人物（CDL-399/400 修正）**：舊版列出嘅愛莉、美夜子、凜三人經核實均唔啱作為代表例子——美夜子、凜實際上帶護甲（Alpha 線因果牽連者），屬路線 1，唔係路線 2（見[Alpha 線因果牽連原則跨路線適用範圍澄清](01_world_rules_and_costs.md#rule-alpha-qualification)）；愛莉喺現存 canon 入面只確認做「路線 2 兵器最早原型嘅燃料來源」（帝國歷 98 年，秋穗以佢靈魂溢出嘅原初痛苦強行製造第一批無自主意識魔法少女原型），並非佢本人係一個已命名嘅路線 2 案例本身。**冇已命名嘅純粹路線 2 案例，屬概念性分類**——同[07_entities_and_devices.md 定義段](07_entities_and_devices.md#section-unlinked-definition)嘅講法一致。
 
 **與路線 1 / 路線 2 的系統分類**：
 - **路線 1**：有護甲的真正魔法少女（被晴香標記）→ 保有自我、能選擇
 - **路線 2**：無護甲的無意識兵器 → 此項
 - **路線 3**：無護甲的普通人 → 魔法屍體 → 提煉為毒品原料
 
-**See also**: [心防內化裝置](07_entities_and_devices.md#section-trauma-cage) | [The Unlinked](07_entities_and_devices.md#section-unlinked) | [Emo-Visor](#term-emo-visor) | [World Rules](01_world_rules_and_costs.md)
+**See also**: [The Unlinked：定義](07_entities_and_devices.md#section-unlinked-definition) | [心防內化裝置——已刪除嘅特定硬件機制](07_entities_and_devices.md#section-trauma-cage) | [Emo-Visor](#term-emo-visor) | [World Rules：三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)
 
 ---
 

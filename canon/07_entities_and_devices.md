@@ -236,13 +236,22 @@
 
 > **視覺設計待作者另議。** 本節只建立設定定義、技術因果與敘事功能，不包含形像描述。
 
-### <a id="section-unlinked-definition"></a>定義：沒有因果護甲的人
+### <a id="section-unlinked-definition"></a>定義：一個通用結果分類，唔綁定單一機器（CDL-400 修正）
+
+**「解離兵器」係咩**：一種人格徹底喪失、淪為無意識工具嘅終局狀態嘅**通用結果分類名**——唔係由單一一部硬件產生嘅單一產物。唔同角色可以經由唔同、獨立嘅因果機制，走到呢個表面相似（人格剝離、無意識、被驅動）嘅終局，但佢哋嘅實際路徑唔一定完全相同，唔應該假設所有「解離兵器」式結果都係同一部機器造成。
+
+**最清晰嘅「純粹」機械路徑**：[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)嘅**路線 2**（無護甲、非因果牽連者 → 心之器結構性毀滅、碎片強行黏合於生肉裝甲 → 無意識兵器）係現存 canon 入面對「點樣行到呢個結果」描寫得最單一、最直接嘅機制版本，適用於下文「成立條件」段所講嘅、Beta 線出生但從未被五歲晴香原初願望波及嘅普通少女。
 
 **成立條件**：在 Beta 線出生或生活，但從未被五歲晴香在 Alpha 線許願時的「原初願望投射」所波及的普通少女。
 
-主角團（晴香、美夜子、紫音、操、凜）之所以在變身後仍保有主體意識，是因為她們在 Alpha 線本即是晴香身邊的人——晴香的創世願望客觀上為她們的[心之器](02_glossary.md#term-heart-vessel)「預設了意識錨點」。The Unlinked 則無此錨點，系統找不到可供主人格附著的創世編碼，當[心防內化裝置](#section-trauma-cage)強行格式化時，意識直接被剝離，產生徹底的「解離」狀態。
+主角團（晴香、美夜子、紫音、操、凜）之所以在變身後仍保有主體意識，是因為她們在 Alpha 線本即是晴香身邊的人——晴香的創世願望客觀上為她們的[心之器](02_glossary.md#term-heart-vessel)「預設了意識錨點」。The Unlinked 則無此錨點，系統找不到可供主人格附著的創世編碼，強行改造時（路線 2 機制）意識直接被剝離，產生徹底的「解離」狀態。
 
 **技術前身**：帝國歷 98 年，秋穗以[愛莉](03_characters/aeri.md)靈魂溢出的原初痛苦為燃料，強行製造了第一批無自主意識的魔法少女原型。現代主線（帝國歷 113–114 年）的 The Unlinked，是該早期實驗的去個人化、批量化成熟版本：力量來源已由愛莉的單一靈魂，升級為整個民用 Emo-Visor 網絡每天收割的全城集體情緒廢料。當年壓榨愛莉的方式，在 20 年後以工業規模壓榨全城的無辜普通女孩。
+
+**其他走到類似終局、但機制唔同嘅案例（唔係「解離兵器」本身，只係結果上有得比較）**：
+- **凜**：終局係自願兵器化（Unit 00），機制係凜自己嘅選擇 + 黑奏借[維多利亞之淚](#section-org-victoria)集體潛意識深層讀寫功能做嘅重組，唔涉及路線 2 嘅「強行格式化」——凜由頭到尾都帶 Alpha 線因果牽連（護甲），佢嘅終局係自願行向一個類似「人格清零」嘅結果，唔係被機器強行剝離。詳見[Rin Canon Sheet](03_characters/rin.md)。
+- **秋穗**：終局係欠債型自我消解（「無臉執行官」），機制係[自我消解世界規則](01_world_rules_and_costs.md#rule-debt-dissolution)（CDL-376/394）——長期主動加害於人導致嘅靈魂裂縫，被帝國技術（維多利亞之淚深層讀寫介面）趁機重編寫，同樣唔涉及路線 2 嘅硬件。詳見[Akiho Canon Sheet](03_characters/akiho.md#section-archetype)。
+- 兩者同「解離兵器」共享嘅只係表面結果特徵（人格喪失／淪為無意識工具狀態），唔係共享機制——**唔應該話凜或秋穗「用緊解離兵器嗰套機」**，佢哋各自嘅角色檔案先係佢哋真正機制嘅準確描述。
 
 ### <a id="section-unlinked-state"></a>解離狀態（Dissociated State）
 
@@ -250,14 +259,14 @@
 |------|------|
 | 情緒波形 | Flatline（晴香的「情緒視覺」UI 顯示為空，無任何情緒圖標）|
 | 主人格 | 完全剝離，無法透過任何方式觸及 |
-| 戰鬥驅動 | 純機械：[成癮性代償回饋（假甜膠囊）](#section-trauma-cage)強制驅動，非意志驅動 |
+| 戰鬥驅動 | 純機械：路線 2 強制改造狀態驅動，非意志驅動（具體神經/化學層次不做細節規定，見[心防內化裝置——已刪除嘅特定硬件機制](#section-trauma-cage)） |
 | 痛覺反應 | 有生理反應，無精神反應 |
 
 ### <a id="section-unlinked-vs-corpse"></a>與魔法屍骸的區別
 
 | 維度 | [魔法屍骸](#section-magical-corpse) | The Unlinked |
 |------|---------|-------------|
-| 起源 | 心之器自然耗損後崩潰 | 軍方強制格式化（心防內化裝置） |
+| 起源 | 心之器自然耗損後崩潰 | 軍方強制格式化（路線 2 機制，見[心防內化裝置——已刪除嘅特定硬件機制](#section-trauma-cage)） |
 | 情緒殘餘 | 有（鎖定於單一負面情緒） | 無（Flatline）|
 | 靈魂抽離可行性 | 可嘗試（求救型 / 拒絕型均有反應） | 不適用（無靈魂可抽）|
 | 晴香情緒視覺 | 有血條、有情緒圖標 | UI 全空，讀取到的是「不存在的對象」|
@@ -349,33 +358,27 @@
 
 **目標**：將情緒力量武器化，創造「人型兵器」
 
-**改造流程**：
-1. **精神推至極限**：使【心之器】產生裂痕
-2. **靈魂之刺收割**：剝落的【情緒結晶】碎片刺穿皮膚，被血淋淋地收割下來
-3. **裝置鑄造**：以收割的「靈魂之刺」為核心，鑄造專屬「情緒力量裝置」（鑰匙）
-4. **記憶改造**：植入虛假記憶，抹除不利於控制的過去
+**已廢棄狀態**：本節描述嘅係 Stage 1「徵召兵器」（帝國歷103-108年）——呢條路線本身作為帝國持續進行中嘅計劃，已經正式廢止（CDL-307，見[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)同[實驗鏈演進](01_world_rules_and_costs.md#rule-empire)表格：「一：徵召兵器（廢棄）」）。廢止原因：候選人凜與美夜子因帶有晴香五歲奇蹟願望嘅殘留印記（護甲效應）而保留完整人性，「人性不可控」令軍方放棄呢條直接搜索容器嘅路線，轉向[潘朵拉協議](01_world_rules_and_costs.md#rule-pandora-protocol-mechanics)（Stage 2，見下）。本節內容屬歷史/背景性質，並非現行機制。
 
-**代表人物**：美夜子、紫音、操（皆為改造魔法少女）
+**適用前提（Route-1-only）**：整套改造流程只能施加喺已經帶有 Alpha 線因果牽連（晴香五歲奇蹟殘留印記／護甲）嘅候選少女身上——即[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)入面嘅路線 1。對未帶印記嘅候選人強行施加同一流程，唔會產生「人型兵器」，而係跌落路線 2（[The Unlinked 解離兵器](#section-unlinked)）或路線 3（無心之器／死亡），詳細條文見[魔法少女資質：Alpha 線因果牽連原則](01_world_rules_and_costs.md#rule-alpha-qualification)同[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)。
 
-### <a id="section-trauma-cage"></a>心防內化裝置（Trauma Cage System）
+**候選人搜尋邏輯（維持不變）**：黑奏親自主導搜尋螢「靈魂容器」，本質係對「不可控魔法定時炸彈」嘅工業化管理——目標係搵到可承載螢靈魂碎片嘅肉身容器（見[實驗鏈演進](01_world_rules_and_costs.md#rule-empire)）。
 
-**裝置定位**：軍方「人型兵器計劃 Phase 1（徵召兵器）」廢棄後，針對[The Unlinked（解離兵器）](#section-unlinked)研發的第三代強制改造核心硬件。Phase 1 失敗原因是「人性羈絆導致數據污染」；心防內化裝置的設計目標，是從硬件層徹底切除這個可能性。
+**改造流程**：具體轉化機制唔喺呢一層詳細描寫，故意留白（CDL-399，2026-08-26）——本session多重sub-agent verification確認，舊版四步驟流程（精神推至極限使心之器產生裂痕 → 強行開鎖鑄造裝置 → 記憶改造）喺任何已命名角色身上都從未實際發生過：美夜子復活時心之器已徹底碎裂，「軍方無需額外強制手段即可完成 Unit 01 鑄造」；凜（[凜 Canon Sheet](03_characters/rin.md)）只確認佢係「其中一名容器候選」，冇描寫過任何強制轉化場面；操嘅裝置係黑市購買（CDL-071）；紫音嘅裝置係拾獲遺棄裝置自動激活（CDL-051）——四人皆唔適用呢個流程。「記憶改造」全 canon 亦僅得呢一處提及、從未實際套用——已知嘅記憶消除案例（美夜子、凜）均由各自獨立機制解釋（復活/心之器碎裂；黑奏經維多利亞之淚嘅個體靈魂碎片重組），唔需要呢一步。故刪除四步驟流程，唔補新機制。
 
-**技術前身**：帝國歷 98 年，秋穗以[愛莉](03_characters/aeri.md)靈魂溢出的原初痛苦作為燃料，強行製造第一批無自主意識的魔法少女原型。現代的 Trauma Cage System 是該早期實驗的去個人化、批量化版本：力量來源已由愛莉的單一靈魂，升級為整個民用 Emo-Visor 網絡每天收割的全城集體情緒廢料。
+> **範圍備註**：呢個刪除只影響本節「裝置鑄造流程」嘅描述本身；作為更廣泛世界現象嘅[情緒結晶](02_glossary.md#term-emotion-crystal)概念（例如[緋潮](02_glossary.md#term-scarlet-tide)、[未斷的殘絲](02_glossary.md#term-unsevered-thread)等處使用）唔受影響，維持原有定義。
 
-**核心機制（三層）**：
+**代表人物**：美夜子、凜（Stage 1「徵召兵器」路線嘅候選人，見[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)表格）。**紫音、操唔屬於呢個軍方改造流程**——佢哋嘅裝置來源分別係黑市購買（操，CDL-071）同拾獲遺棄裝置自動激活（紫音，CDL-051），機制上屬於獨立嘅[裝置路線／潘朵拉協議](01_world_rules_and_costs.md#rule-pandora-protocol-mechanics)，唔係本節呢個流程（CDL-399 修正舊版「代表人物：美夜子、紫音、操」嘅錯誤分類）。
 
-| 層次 | 名稱 | 機制說明 |
-|------|------|---------|
-| 1 | **心匣熔焊** | 暴力撬開並熔斷[心匣](02_glossary.md#term-heart-container)物理介面，切斷主人格與肉體的自發調律；持有者被永久鎖死在變身（超頻）狀態，無法自發回歸平民形態 |
-| 2 | **創傷反芻注射** | 與[維多利亞之淚](#section-org-victoria)逆向連接，精確、高頻地向大腦「化學式注射」持有者的原初創傷情緒；令肉體陷入「無限反芻最深層痛苦」的強制閉環，以維持持續的情緒輸出（燃料） |
-| 3 | **成癮性代償回饋（假甜膠囊）** | 當解離兵器釋放魔法或在戰鬥中造成傷害時，創傷反芻短暫中斷，系統回饋極致快樂幻覺；此機制令兵器產生「只有在摧毀時才能暫停痛苦」的成癮性強制驅動，形成病理代償循環 |
+### <a id="section-trauma-cage"></a>心防內化裝置——已刪除嘅特定硬件機制（CDL-400）
 
-**與 B. 科技捷徑的關係**：係[B. 科技捷徑（裝置的鑰匙與強行洗滌式覆寫）](#section-hc-device)的極端化形式——後者係「強行開鎖」，前者係「熔死鎖孔使其無法關閉」，代價不可逆。
+**已刪除狀態**：本節原本描述一套具體嘅「心防內化裝置（Trauma Cage System）」三層強制改造核心硬件（心匣熔焊／創傷反芻注射／成癮性代償回饋）。經 CDL-400（2026-08-26）本session多重verification確認，呢部具體機器從未喺任何已命名角色身上實際使用過——外部 `00_Story_Brief.html` 曾經誤將凜、秋穗兩人嘅結局掛勾去呢部機器，但兩人實際運作嘅係佢哋各自獨立、已確立嘅機制（凜：自願兵器化 + 黑奏經維多利亞之淚做嘅重組，見[Rin Canon Sheet](03_characters/rin.md)；秋穗：欠債型自我消解／無臉執行官，見[自我消解世界規則](01_world_rules_and_costs.md#rule-debt-dissolution)同[Akiho Canon Sheet](03_characters/akiho.md#section-archetype)），兩者都唔係經呢部機器。故正式刪除呢個具體三層機制描述，唔補新硬件——同[軍方改造流程四步驟（CDL-399）](#section-org-military)刪除嘅係同一種情況：曾經寫落canon但從未實際套用喺任何角色身上嘅具體機制。
 
-**敘事主題**：帝國把人類「逃避痛苦」的本能，工業化改裝成不可撤除的暴力驅動器。解離兵器並非因為恨怪物而戰鬥，而是因為唯有在摧毀的瞬間，大腦的創傷反芻才會被強制暫停 0.5 秒。
+**「解離兵器」一詞保留，但重新定位**：呢個詞唔再綁定呢一部（已刪除嘅）機器，改為通用結果分類——見[The Unlinked（解離兵器）新定義](#section-unlinked-definition)。
 
-**See also**: [The Unlinked](#section-unlinked) | [B. 科技捷徑](#section-hc-device) | [Emo-Visor Gen 2（流派 B）](#section-emo-visor) | [愛莉 Canon Sheet](03_characters/aeri.md) | [情緒資料農場框架](12_philosophy_and_systems.md#section-emotion-farm)
+**唯一保留嘅「純粹」機械描述**：[三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways)嘅**路線 2**（無護甲 → 心之器結構性毀滅，碎片強行黏合於生肉裝甲 → 無意識兵器）係現存 canon 入面，去到「解離兵器」呢種結果狀態最清晰、最單一嘅其中一條機制路徑；唔代表所有走到呢個結果嘅角色都經歷緊完全同一個流程。
+
+**See also**: [The Unlinked](#section-unlinked-definition) | [三路線心之器改造體系](01_world_rules_and_costs.md#rule-three-pathways) | [B. 科技捷徑](#section-hc-device) | [Emo-Visor Gen 2（流派 B）](#section-emo-visor) | [Rin Canon Sheet](03_characters/rin.md) | [Akiho Canon Sheet](03_characters/akiho.md#section-archetype)
 
 ### <a id="section-org-sanitation"></a>衛生行動 (Sanitation Operations)
 
@@ -437,7 +440,7 @@
 
 **流派 B：大腦格式化防禦阻斷流（軍方秘密分支）—— 核心研發動機**
 - 專為[The Unlinked（解離兵器）](#section-unlinked)研發的**大腦穩定與透析過濾器**。
-- **作用機制**：The Unlinked 被[心防內化裝置](#section-trauma-cage)熔焊後，大腦因無限反芻原初創傷而面臨極速內爆與 Flatline 死亡。流派 B 的 Emo-Visor 負責不間斷抽走、隔離這些溢出的極限絕望大腦數據，維持兵器肉身的最低限度可使用壽命。
+- **作用機制**：The Unlinked 經路線 2 機制強行改造後（見[心防內化裝置——已刪除嘅特定硬件機制](#section-trauma-cage)），大腦因無限反芻原初創傷而面臨極速內爆與 Flatline 死亡。流派 B 的 Emo-Visor 負責不間斷抽走、隔離這些溢出的極限絕望大腦數據，維持兵器肉身的最低限度可使用壽命。
 - **情緒守恆的惡性副產品**：被抽走的絕望數據須根據[情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation)轉移至他處——此即流派 A 商業膠囊的原材料來源。
 
 **See also**: [The Unlinked](#section-unlinked) | [心防內化裝置](#section-trauma-cage) | [情緒守恆定律](01_world_rules_and_costs.md#rule-emotion-conservation) | [Glossary：情緒毒品 / Emo-Visor](02_glossary.md#term-emo-visor)
