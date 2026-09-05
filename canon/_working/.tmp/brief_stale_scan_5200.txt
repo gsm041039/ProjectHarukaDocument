@@ -1,0 +1,555 @@
+Total lines: 12249
+Hits in 1-5200: 49
+
+L4481 [愛莉]: <a class="sub" href="#c-airi">東雲愛莉</a>
+L4536 [夜區|日區]: <a class="dash-card" href="#world"><strong>02 世界與系統</strong><span>日區/夜區、七法則、隱藏機制、名字系統、魔法少女制度。</span></a>
+L4616 [留白|意識]: <p>玩家的選擇不會創造完美快樂結局，但會影響角色如何理解自己、他人如何記憶死者、以及<a href="#c-haruka">晴香</a>最終以什麼態度面對無法逃避的代價。融合之後她的意識是否仍可辨認、那一步算不算完全自由的選擇，故事刻意留白。</p>
+L4657 [見證]: <p>這個故事服務於一個核心情感必要性：讓玩家透過見證角色在絕望中選擇態度，獲得「我也可以這樣面對困境」的力量。</p>
+L4673 [意識]: 本作選擇把創傷心理學的核心概念——陰影、理想我、集體潛意識、情緒守恆——直接具現成世界規則和可見事物，而非依靠對白說教或內心獨白解釋。</p>
+L4675 [意識]: 觀眾會先在劇情裡感受到：魔法讓人失去自己、鏡子照出內心最黑暗的部分、情緒怪物用真實身體攻擊、痛苦無法憑空消失——然後才後知後覺地意識到，這些超現實現象對應的其實是自己也會有的心理結構。這樣才能同時保住奇幻氛圍，又讓心理真相直接擊中人。具體對應關係見「<a
+L4699 [意識]: <td>痛苦消不掉，殺斺屍骸只是轉移到集體潛意識</td>
+L4724 [官方偶像|偶像制度]: 世界先呈現它迷人、繁華、夢幻的一面。魔法少女、戰鬥直播被光幕美化成英雄畫面、據點的日常溫暖——讓人想探索、想停留、想再多看一眼。那不是官方偶像制度，只是市民誤讀同個別品牌。</p>
+L4738 [身體代價]: 甜美時刻突然裂開，露出底下真正存在的黑暗、身體代價、羞恥與心理恐怖。甜與黑不是分開存在——它們疊在一起。</p>
+L4760 [身體代價|債務]: <h3>身體代價 × 債務（Body Cost × Debt）——全劇導演語言的核心公式</h3>
+L4762 [身體代價|債務]: 本作的殘酷不靠魔法詞彙才講得通——用兩個不用解釋、人人已經懂的世俗概念，在個人與社會兩個規模同時運作：<strong>身體代價</strong>與<strong>債務</strong>。這兩個字是全劇導演語言的共同度量單位，其他一切手法（溫柔的殘酷、膠布哲學、舞台上的表演）都是在這條軸線上運作的。</p>
+L4765 [身體代價]: <h4 style="color:#fcd34d;margin-bottom:7px">身體代價——不用懂魔法都感受得到</h4>
+L4769 [債務]: <h4 style="color:#fbbf24;margin-bottom:7px">債務——一聽就懂的世俗邏輯</h4>
+L4792 [日區]: <td>「一切受控，交給帝國」的集體迷思（日區）</td>
+L4793 [夜區]: <td>夜區承受的集體創傷侵蝕</td>
+L4802 [日區]: <p id="law-day-happiness" style="font-size:12.5px;color:var(--muted);margin:14px 0 0">日區市民主觀上真心相信自己幸福、滿足、活得穩定——這不是表演，是他們真實的自我認知。與此同時，他們表情麻木、儀態僵硬，代價每一刻都寫在自己臉上——但他們自己認不出來。兩者同時為真。</p>
+L4803 [債務]: <p style="font-size:13px;line-height:1.8;margin:12px 0 0">債務在心理上常走這條鏈：傷口 → 需要 → 救援／交換 → 債務 → 索取權 → 自我剝奪。兩種常見借法：<strong>逃避型</strong>（把承受不住的自己交給表演／變身）與<strong>成癮型</strong>（主動再借一筆頂痛）。成長記得的是「態度屬於她」，不是「她好慘」——苦難不是成長貨幣；故事亦不把態度寫成保證安慰的單向勝利。</p>
+L4842 [見證]: <tr><td>見證式</td><td>記得事情發生過，但不把記錄變成擁有權</td></tr>
+L4846 [見證守則|見證]: <p style="font-size:12.5px;color:var(--muted);margin:0 0 16px">同一個角色可以同時處於多個觀看位置（例如舞台上的表演者，同時是觀看隊友的人）；自己可以是自己的觀眾，內心最幽暗的部分，往往是最早、最清楚的那個觀眾。「見證式」的完整心法見下方「見證守則」。</p>
+L4883 [見證守則|見證]: <h3>見證守則（Witness Principle）</h3>
+L4885 [見證]: 黑暗療癒系統的具體操作方法：見證的底層感覺，是一種<strong>不帶任何批判的陪伴在場感</strong>——「我在你身邊陪著你」。痛苦本身必須先被承認、被看見、被記住；角色如何應對（逃避／崩潰／自毀／沉默）會被看見，但不會被評分——溫柔不只保留給「撐得漂亮」的角色。</p>
+L4898 [見證]: <p style="margin:0 0 8px">見證者可以是另一個角色（在場，或事後拼湊出真相，如凜／美夜子的紅線真相），也可以是敘事／鏡頭本身——停留多久、剪不剪走、給不給完整的空間，本身就是「有沒有陪著」的答案。</p>
+L4948 [留白]: 膠布開始滲漏（無法遮蓋）→ 親手撕開繃帶（面對）→ 用自己的存在去承接傷口（第四層）。確定的是融合是主動、不是被剝奪；算不算完全自由的「整合勝利」，故事刻意留白——唔再讀成「從此不再需要膠布＝乾淨收束」。
+L5038 [夜區|日區]: <p class="category-desc">日區/夜區、七法則、隱藏機制、魔法少女制度。</p>
+L5047 [意識]: 「奇蹟」是這個世界裡一個有物理意義的詞：用強烈的情緒力量，直接改寫集體潛意識的底層代碼，強行讓本來發生的事情，變成另一個樣子。不是比喻——是字面上的現實覆寫。晴香五歲時做的那件事，就是一次「奇蹟」，也是整個故事世界的起點。
+L5054 [意識]: <li><strong>情緒承接</strong> — 共情他人的痛苦，讓集體潛意識流通。通道必須經菲：世界免疫排斥嘅係大人式「直接覆寫」防衛；菲凍結喺五歲、未經社會化包裝嘅原始頻率，同屍骸體內 1% 殘留意識同屬「童頻」，先繞得過排斥——唔係任何陰影都得</li>
+L5082 [意識]: <td>改寫成功卻填不上空洞；再改造成時間線裂痕與緋潮；客觀世界只過數日，晴香意識困在集體潛意識主觀二十年</td>
+L5093 [意識]: <li><strong>不能真正復活死者</strong> — 意識已消散的靈魂不可逆，「復活」只是複製外殼</li>
+L5117 [意識]: href="#c-haruka">晴香</a>五歲時目睹了最不可能承受的事。她的情緒崩潰了——崩潰到一個程度，令她在無意識之間許下了一個願望：<strong>「讓這一切不是真的。」</strong>
+L5145 [夜區|日區|靈樹|意識]: 雖然魔法存在是公開事實，但能親自使用的人極少。世界自己的歷史記錄寫：夜區居民因靈樹能量殘留，天生具備輕微自發魔法——足以點燈、感知他人情緒、短暫觸碰集體潛意識，但無法戰鬥。日區居民完全沒有這種能力。對絕大多數市民來說，魔法是「別人的事」，只能透過直播遠遠旁觀。帝國發動靈樹戰爭的真實動機是奪取靈樹資源，不是「為了這批天生有魔法的人口」。<br /><span
+L5146 [夜區|靈樹|意識]: style="font-size:11.5px;color:var(--muted)">〔作者注／隱藏真相，故事內任何人（包括帝國史官）都不知情——「靈樹能量殘留」是這個世界連同它自己的歷史記錄都深信不疑的解釋，彷彿夜區居民的魔法親和力自古已存在。真正的機制是晴香帝國歷102年「改變現實」的回填效應之一：這次奇蹟不只覆寫現實，還透過靈樹（現實與集體潛意識之間的樞紐）將一段前後自洽的歷史回溯編織進去，於是她自己的護甲效應，在被回填之後的版本裡，變成了看似自古有之的「靈樹能量殘留」。靈樹戰爭本身、帝國侵佔夜區奪取靈樹資源的動機，全部維持不變、依然真實——改變的只是更深一層的因果：夜區居民的天賦不是靈樹自身的古老力量，而是晴香後來的願望透...
+L5149 [官方偶像|偶像認證|日區]: title="光幕濾鏡自動套在日區公開戰鬥畫面上的美化標籤，與「魔女狩獵」並為兩大輿論工具——不是官方魔法少女偶像認證制度；市民誤讀成英雄／偶像，帝國預設仍是捕獵／兵器化">維多利亞天使</abbr>。粉絲打賞、送禮、留言「你是我們的希望」。委託與上傳看起來像真人秀——那是市民誤讀。制度上從未有官方偶像認證；只有<a
+L5152 [夜區|日區]: style="font-size:11.5px;color:var(--muted)">夜區居民從未見過「天使」。濾鏡只覆蓋日區（維多利亞之淚照射範圍）。夜區看到的一直是真相：滿身傷痕、在廢墟中發抖的孩子。</span>
+L5155 [偶像認證]: style="font-size:11.5px;color:var(--muted)">〔作者注：帝國從未設立過任何制度化嘅「官方魔法少女偶像認證系統」——帝國對魔法少女嘅預設態度自始至終都係捕獵／兵器化，光幕濾鏡只係將任何公開戰鬥畫面自動美化嘅通用效果，唔等於將人包裝做個人品牌。晴香係帝國刻意個別經營、獨一無二嘅例外——經理人利用嘅係佢締約前已存在嘅平民歌手身份，倒轉方向將戰鬥塞入原本純粹關於音樂嘅頻道，而唔係因為佢係魔法少女先捧佢做偶像。美夜子、操、紫音、彩全部唔係偶像，佢哋嘅戰鬥被市民睇到純粹係全民監控系統自動採集任何公開戰鬥畫面嘅結果，唔涉及任何制度性包裝。〕</span>
+L5161 [夜區|日區]: <p>類似老香港的中西交匯城市，分為「日區」和「夜區」。</p>
+L5165 [日區]: <div class="char-name">日區</div>
+L5170 [日區]: <img alt="日區街道概念圖"
+L5172 [日區]: <div class="char-img-cap">日區街道</div>
+L5176 [意識]: href="#world-victoria">維多利亞之淚</a>在背後統一過濾所有人感知到的現實：鏡子照到的，永遠只有帝國希望你相信的那個自己。體現「修正」意識形態：拒絕承認不完美，用完美幻象蓋住一切痛苦。
+L5178 [日區]: 客觀症狀：日區居民主觀上其實真心相信自己活得幸福、滿足、穩定——呢層唔係表演，係佢哋真實嘅自我認知；但同時佢哋嘅表情麻木、儀態優雅但僵硬，早已被過濾走活力。兩者同時為真，居民自己接唔埋呢兩件事——佢哋每分每秒都寫緊代價喺自己塊面度，卻完全唔認得呢個同「幸福」有關。</span>
+L5183 [夜區]: <div class="char-name">夜區</div>
+L5184 [靈樹]: <div class="char-real">原名靈樹谷 · 又稱霧港</div>
+L5188 [夜區]: <img alt="夜區街道概念圖"
+L5190 [夜區]: <div class="char-img-cap">夜區街道</div>
+L5194 [靈樹]: 原名靈樹谷（又稱霧港），被帝國侵佔。天空被廢氣籠罩，潮濕街道永遠積著水窪，老舊玻璃幕牆處處映照真實。居民被迫與真實共存，被帝國剝削但更真實、堅韌。體現「接納」態度：面對真實之城。<br />
+L5196 [夜區]: style="font-size:11.5px;color:var(--muted)">歌德侵蝕：歌德元素在夜區並非裝飾風格，而是像活體細胞一樣慢慢入侵、覆蓋、改寫香港元素的異質存在——尖拱窗、蕾絲花邊、維多利亞齒輪裝飾出現的密度，直接反映
+L5197 [意識]: Beta 線真相於該區域的滲透程度。歌德滲透愈深，Beta 集體潛意識的能量洩漏愈難壓制。</span><br />
+L5199 [夜區|日區|靈樹|意識]: 線獨有：世界自己的歷史記錄寫「靈樹能量殘留令夜區居民具有輕微自發魔法」——無法戰鬥，但足以點燈、感知情緒、短暫接觸集體潛意識。日區居民無此能力。帝國發動靈樹戰爭、強行吞併夜區的真實動機是奪取靈樹資源；「為了這批天生有魔法的人口」是世界內對戰爭的常見誤解，不是真正誘因。</span><br /><span
+L5200 [靈樹]: style="font-size:11.5px;color:var(--muted)">〔作者注／隱藏真相，故事內無人知情：「靈樹能量殘留」是世界（連帝國自己的歷史記錄）對這個現象的誤解——真身是晴香102年「改變現實」透過靈樹此一樞紐回填歷史時，順道向後延伸的護甲效應，偽裝成自古已存在的古老力量。靈樹戰爭的動機與史實不變，只有「魔法親和力從何而來」這一層因果是暗中被改寫過的。〕</span>
+
+
+===== RAW INTRO BLOCKS =====
+
+
+----- 4550-4655 -----
+
+        <section class="sec" id="what">
+          <h2>這是什麼故事？</h2>
+          <div class="section-lead">
+            <p><strong>類型</strong>：黑暗魔法少女 × 心理驚悚 × 存在主義成長劇<br />
+              <strong>調性</strong>：黑暗療癒（Dark Healing）/ 心理寓言
+            </p>
+            <blockquote>
+              <p>
+                用「魔法少女」的外殼，包裝一個關於「創傷、解離、自我整合」的心理寓言。整個故事的結構由一個核心問題驅動：<strong>一個五歲小孩用「奇蹟」造出了整個世界，但奇蹟改不了她真正失去的東西——那筆債，最終由誰來還？</strong>
+              </p>
+            </blockquote>
+          </div>
+          <div class="subsection-grid">
+            <article class="subcard flow-feature feature-title-explain">
+              <h3>為什麼叫「奇蹟魔法少女<a href="#c-haruka">晴香</a>」？</h3>
+              <div class="callout-ab">
+                <p>在這個故事的世界裡，「<a
+                    href="#world-miracle"><strong>奇蹟</strong></a>」是一個有特定含義的詞：它指的是用強大的情緒力量強行改寫現實的行為——讓本來發生的事情，變成另一個樣子。<a
+                    href="#c-haruka">晴香</a>五歲時做的那件事，就是一次「奇蹟」。</p>
+                <p style="grid-column:2/-1;font-weight:600;opacity:.9">所以這個標題有兩層意思，頭尾截然不同：</p>
+                <p><strong>你第一次看到標題時</strong>：「奇蹟魔法少女」聽起來是一個靠著奇蹟、帶來希望的少女英雄。市民也是這樣理解的——<a
+                    href="#c-haruka">晴香</a>每次爆發力量，大家都讚嘆「奇蹟出現了」。</p>
+                <p><strong>你看完故事後</strong>：這個標題的真正意思是「那個用奇蹟改變了現實的魔法少女<a
+                    href="#c-haruka">晴香</a>」——不是她帶來了奇蹟，而是她本身就是那個改變了整個世界的奇蹟的源頭。她引以為傲的詞，最終成為刺穿她的那把刀。</p>
+
+              </div>
+            </article>
+            <article class="subcard flow-table flow-short">
+              <h3>玩家實際在做什麼</h3>
+              <table style="width:100%;border-collapse:collapse;font-size:13.5px;margin:10px 0 16px">
+                <thead>
+                  <tr style="background:var(--surf2)">
+                    <th style="padding:8px 10px;text-align:left;border-bottom:2px solid var(--border);width:16%">軌道</th>
+                    <th style="padding:8px 10px;text-align:left;border-bottom:2px solid var(--border);width:46%">內容</th>
+                    <th style="padding:8px 10px;text-align:left;border-bottom:2px solid var(--border)">主題承載</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)"><strong>主線戰鬥</strong></td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">對抗魔法屍骸與帝國勢力；靈魂抽離儀式 vs 暴力清除的選擇
+                    </td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">痛苦的轉移 vs 真正的面對</td>
+                  </tr>
+                  <tr style="background:var(--surf2)">
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)"><strong>日常互動</strong></td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">據點對話、IG Chronicle、便利店小確幸</td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">在高壓中保有人性的微小時刻</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)"><strong>社會風評系統</strong></td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">任務來源與道德品質隨幕次質變（救人→鎮壓→公審）</td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">「正義」的幻象如何被系統利用</td>
+                  </tr>
+                  <tr style="background:var(--surf2)">
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)"><strong>Side Quest</strong></td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">副角色完整弧光、世界灰色地帶、道德兩難選擇</td>
+                    <td style="padding:7px 10px;border-bottom:1px solid var(--border)">誰值得被拯救？拯救者有沒有資格決定？</td>
+                  </tr>
+                  <tr>
+                    <td style="padding:7px 10px"><strong>態度選擇</strong></td>
+                    <td style="padding:7px 10px">關鍵時刻以什麼方式面對不可改變的結果</td>
+                    <td style="padding:7px 10px">「態度」的具體重量</td>
+                  </tr>
+                </tbody>
+              </table>
+              <p>玩家的選擇不會創造完美快樂結局，但會影響角色如何理解自己、他人如何記憶死者、以及<a href="#c-haruka">晴香</a>最終以什麼態度面對無法逃避的代價。融合之後她的意識是否仍可辨認、那一步算不算完全自由的選擇，故事刻意留白。</p>
+            </article>
+            <article class="subcard flow-feature feature-logline">
+              <h3>Logline</h3>
+              <blockquote class="bq-dark">
+                <p>在一座被帝國管控情緒的城市，偶像<a href="#c-haruka">晴香</a>變身魔法少女、清剿情緒怪物。但她不知道：這個世界是她五歲時在恐懼中親手造出來的。</p>
+                <p>她體內住著五歲幼童<a href="#c-fei">菲</a>——被切割出去的陰影，獨自承載最痛的記憶。她的隊友<a href="#c-keishi">葉語彩</a>，其實與帝國暴君<a
+                    href="#c-keishi">刑思</a>同用一個身體。</p>
+                <p>
+                  帝國把所有少女的情緒拿來賣。而這一切剝削的根基，是晴香五歲時發動的「奇蹟」——一次改寫現實的行為，造出了整個魔法世界，也造出了所有剝削的來源。奇蹟可以改寫世界，但無法真正復活死者、無法消除痛苦、無法免除因果債。最後的問題只有一個：態度屬唔屬於自己——即使唔保證安慰、亦唔係單向勝利。
+                </p>
+              </blockquote>
+              <div class="dual" style="margin-top:20px">
+                <div class="box box-green">
+                  <h4>這個故事 IS</h4>
+                  <ul style="margin:0;padding-left:16px">
+                    <li>解構魔法少女類型的存在主義寓言——以甜美包裝殘酷，再反覆刺穿</li>
+                    <li>心理學的具現化：變身＝逃避 / 心理疾病，鏡子＝被壓抑的陰影</li>
+                    <li>最終訊息：態度永遠屬於自己；故事不保證它帶來解脫或安慰——面對同一種痛，有人講得出承擔，有人連自己都確認不到</li>
+                  </ul>
+                </div>
+                <div class="box box-red">
+                  <h4>這個故事 IS NOT</h4>
+                  <ul style="margin:0;padding-left:16px">
+                    <li>傳統熱血魔法少女（變身→打怪→勝利）</li>
+                    <li>單純的黑暗獵奇（為虐而虐）</li>
+                    <li>虛無主義（一切無意義）</li>
+                    <li>靠「打倒大反派」解決根本問題的故事</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="bq-tip">
+            <p>閱讀提示：本文會先用情感與世界直覺建立理解，再逐步解釋 Alpha / Beta 線、魔法少女系統、角色關係與結局。第一次閱讀時，不需要先記住所有術語；每個關鍵概念會在首次出現時即場解釋。</p>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 為何創作 -->
+        <section class="sec" id="why">
+          <h2>為何創作這個故事？</h2>
+
+
+----- 4700-4920 -----
+
+                      <td>情絪守恆定律：痛苦不會消失，只會轉移</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 導演節奏設計 -->
+        <section class="sec" id="directing">
+          <h2>導演設計原則</h2>
+          <div class="section-lead">
+            <p>以下係本作在敘事、視覺、情感節奏上最核心的設計決策——唔係偶然形成的風格，而係主動選擇的武器。每一條原則都決定了故事的某種特定殺傷力。</p>
+          </div>
+          <div class="subsection-grid">
+            <article class="subcard flow-long" style="border-left:4px solid #db2777">
+              <h3>觀眾情緒體驗曲線（五步）——甜是武器，唔係裝飾</h3>
+              <div
+                style="display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:0 0 18px">
+                <div style="padding:14px 16px;background:#1a1425;border-right:1px solid var(--border)">
+                  <div
+                    style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:6px">
+                    ① 先被吸引</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">Beta
+                    世界先呈現它迷人、繁華、夢幻的一面。魔法少女、戰鬥直播被光幕美化成英雄畫面、據點的日常溫暖——讓人想探索、想停留、想再多看一眼。那不是官方偶像制度，只是市民誤讀同個別品牌。</p>
+                </div>
+                <div style="padding:14px 16px;background:#1c1230;border-right:1px solid var(--border)">
+                  <div
+                    style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:6px">
+                    ② 再感到不安</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">
+                    慢慢察覺：這個世界雖然美，但美得不自然。魔法雖然迷人，但本身帶有不合理與異質的裂縫。某些東西對唔埋。</p>
+                </div>
+                <div style="padding:14px 16px;background:#1e1030;border-right:1px solid var(--border)">
+                  <div
+                    style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:6px">
+                    ③ 甜下見黑</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">
+                    甜美時刻突然裂開，露出底下真正存在的黑暗、身體代價、羞恥與心理恐怖。甜與黑不是分開存在——它們疊在一起。</p>
+                </div>
+                <div style="padding:14px 16px;background:#1e0e2e;border-right:1px solid var(--border)">
+                  <div
+                    style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:6px">
+                    ④ 理解角色痛苦</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">
+                    不只是理解設定，而是理解角色為何逃避、為何羞恥、為何需要糖衣、為何難以面對自己。同情建立在理解上，唔係憐憫。</p>
+                </div>
+                <div style="padding:14px 16px;background:#1e0d2a">
+                  <div
+                    style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#db2777;text-transform:uppercase;margin-bottom:6px">
+                    ⑤ 苦中有暖</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">
+                    不提供廉價的完美希望。離開時帶著一種苦中有暖的力量感：即使帶傷、即使無法被完全拯救，人仍然可以繼續行下去。</p>
+                </div>
+              </div>
+              <div class="box box-amber" style="font-size:13.5px">
+                <strong>「甜下見黑」是全作重覆節奏語法</strong>——唔只是整個故事的宏觀弧線，而是在每一個情感甜蜜時刻之後都會重覆出現的局部節奏。一幕溫柔結束，裂縫隨即出現。這種語法讓觀眾無法習慣「安全」，令每一次的暖都帶著提心吊膽的重量。
+              </div>
+            </article>
+            <article class="subcard flow-long" style="border-left:4px solid #b45309">
+              <h3>身體代價 × 債務（Body Cost × Debt）——全劇導演語言的核心公式</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                本作的殘酷不靠魔法詞彙才講得通——用兩個不用解釋、人人已經懂的世俗概念，在個人與社會兩個規模同時運作：<strong>身體代價</strong>與<strong>債務</strong>。這兩個字是全劇導演語言的共同度量單位，其他一切手法（溫柔的殘酷、膠布哲學、舞台上的表演）都是在這條軸線上運作的。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#fcd34d;margin-bottom:7px">身體代價——不用懂魔法都感受得到</h4>
+                  <p style="margin:0">牙齦出血、手震、掉牙、嘔吐、失焦、耳鳴——全部是純粹的肉身現象。觀眾不需要理解任何魔法機制，一眼就知道這個角色正在付出代價。</p>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#fbbf24;margin-bottom:7px">債務——一聽就懂的世俗邏輯</h4>
+                  <p style="margin:0"><a href="#world-victoria">維多利亞之淚</a>是「情緒經濟體系的中央銀行」，剝削被包裝成表演義舉。這個世界的人隨口一句「這期未清」「利息算埋」，觀眾就立刻明白這筆數怎麼算。</p>
+                </div>
+              </div>
+              <div class="tw table-wrap-ok" style="margin:0 0 14px">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>規模</th>
+                      <th>借債（表演／偽裝）</th>
+                      <th>未還本金</th>
+                      <th>逃避太久的強制執行</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>個人</strong></td>
+                      <td>變身、表演型的自己</td>
+                      <td>未處理的創傷</td>
+                      <td>魔法屍骸化——尤其是懷著未完成心願的屍骸，死後被迫不斷重複同一個未完成的還債動作</td>
+                    </tr>
+                    <tr>
+                      <td><strong>社會</strong></td>
+                      <td>「一切受控，交給帝國」的集體迷思（日區）</td>
+                      <td>夜區承受的集體創傷侵蝕</td>
+                      <td>緋潮——社會規模的「膠布發炎」</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="box box-amber" style="font-size:13.5px">
+                <strong>制度的具體錨點——強制續期的身份證明文件</strong>：市民定期用自己收割下來的痛苦當墨水，簽署、續領身份文件——必須是自己的痛苦寫進自己的文件，不能被替換成他人代工的原料。窮區居民全額付款而且痛；富區居民有補貼、幾乎無痛——同一件官僚道具，同時是社會不公的具體證據。
+              </div>
+              <p id="law-day-happiness" style="font-size:12.5px;color:var(--muted);margin:14px 0 0">日區市民主觀上真心相信自己幸福、滿足、活得穩定——這不是表演，是他們真實的自我認知。與此同時，他們表情麻木、儀態僵硬，代價每一刻都寫在自己臉上——但他們自己認不出來。兩者同時為真。</p>
+              <p style="font-size:13px;line-height:1.8;margin:12px 0 0">債務在心理上常走這條鏈：傷口 → 需要 → 救援／交換 → 債務 → 索取權 → 自我剝奪。兩種常見借法：<strong>逃避型</strong>（把承受不住的自己交給表演／變身）與<strong>成癮型</strong>（主動再借一筆頂痛）。成長記得的是「態度屬於她」，不是「她好慘」——苦難不是成長貨幣；故事亦不把態度寫成保證安慰的單向勝利。</p>
+            </article>
+            <article class="subcard flow-long" style="border-left:4px solid #0f766e">
+              <h3>舞台 × 傷口（Stage × Wound）——顯式導演語言</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 14px">
+                這不是新增系統，而是將已經存在的機制——戰鬥直播、光幕濾鏡、<a href="#world-victoria">維多利亞之淚</a>、膠布哲學——用同一套鏡頭與表演語言講出來：</p>
+              <p class="box box-dark" style="font-size:13.5px;margin:0 0 16px">
+                私人傷口被看見 → 被解讀 → 被加工成美麗／希望／榮耀／娛樂 → 被交換、重播、記錄或使用 → 產生新期待 → 代價回到某個人身上。</p>
+              <div
+                style="display:grid;grid-template-columns:repeat(3,1fr);gap:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin:0 0 16px">
+                <div style="padding:14px 16px;background:#1a1425;border-right:1px solid var(--border)">
+                  <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#2dd4bf;text-transform:uppercase;margin-bottom:6px">成形</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">誰整理出可觀看、可使用的形式？</p>
+                </div>
+                <div style="padding:14px 16px;background:#1c1230;border-right:1px solid var(--border)">
+                  <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#2dd4bf;text-transform:uppercase;margin-bottom:6px">裂口</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">傷口、矛盾怎樣穿過形式露出來？</p>
+                </div>
+                <div style="padding:14px 16px;background:#1e0d2a">
+                  <div style="font-size:10px;font-weight:700;letter-spacing:.1em;color:#2dd4bf;text-transform:uppercase;margin-bottom:6px">結算／取回</div>
+                  <p style="font-size:12.5px;line-height:1.7;margin:0;color:#d1d5db">代價落在誰身上？表演者能否取回停止權？</p>
+                </div>
+              </div>
+              <div class="box box-amber" style="font-size:13.5px;margin:0 0 16px">
+                核心問題不是「這個表演美不美」，而是：誰整理出這個形式？誰有權觀看、解讀、使用、保留或重新命名它？代價最後落在誰身上？表演者有沒有取回停止權？
+              </div>
+              <div class="tw table-wrap-ok" style="margin:0 0 12px">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>劇內觀看位置</th>
+                      <th>可能的態度</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr><td>消費式</td><td>因為我被你感動，所以我有權要求你再給我一次</td></tr>
+                    <tr><td>審判式</td><td>不斷檢查自己夠不夠好、夠不夠自然、值不值得被愛</td></tr>
+                    <tr><td>理解式</td><td>看見痛苦，但不急於替對方定義</td></tr>
+                    <tr><td>陪伴式</td><td>知道對方受傷，卻不要求對方把傷口變成表演</td></tr>
+                    <tr><td>見證式</td><td>記得事情發生過，但不把記錄變成擁有權</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p style="font-size:12.5px;color:var(--muted);margin:0 0 16px">同一個角色可以同時處於多個觀看位置（例如舞台上的表演者，同時是觀看隊友的人）；自己可以是自己的觀眾，內心最幽暗的部分，往往是最早、最清楚的那個觀眾。「見證式」的完整心法見下方「見證守則」。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#5eead4;margin-bottom:7px">舞台的兩個時期</h4>
+                  <p style="margin:0 0 6px"><strong>摧毀前</strong>：光幕系統仍運作，即時直播與即時觀看並存。</p>
+                  <p style="margin:0"><strong>摧毀後</strong>：不再有即時直播，改由舊片段回放、二次創作、帝國重新解讀延續「被觀看」的狀態——表演者不需要親身在場，傷口仍然持續被加工、被交換、被索取。</p>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#2dd4bf;margin-bottom:7px">畫面的三重疊材料</h4>
+                  <p style="margin:0 0 6px"><strong>完整美學</strong>——華麗、精準、神聖，像成功演出的表面。</p>
+                  <p style="margin:0 0 6px"><strong>傷口</strong>——被壓住、遮掩、滲出或突然暴露的個人代價。</p>
+                  <p style="margin:0"><strong>怪物</strong>——傷口被外化、放大，或被制度／命運塑造成可攻擊的形體。</p>
+                </div>
+              </div>
+              <p style="font-size:13px;line-height:1.8;margin:16px 0 0">三重疊不可只做「靚外表＋突然黑暗」的符號對比——三層必須同時落到具體代價：誰在付、付在身體哪裡、觀眾用什麼位置在看。</p>
+              <p style="font-size:13px;line-height:1.8;margin:16px 0 0;padding-top:14px;border-top:1px solid var(--border)">
+                <strong>身體凝視的界線</strong>：凡涉及角色身體成為他人凝視對象的場面，核心必須是「角色發現自己的身體不再由自己定義，而是成為別人判斷、解釋、使用及要求的證據」——用失控呼吸、手震、疲勞、想遮住卻被看見的反應去呈現，<strong>絕不會用性感展示取代這層心理描寫</strong>。</p>
+            </article>
+            <article class="subcard flow-medium" style="border-left:4px solid #7c3aed">
+              <h3>溫柔的殘酷（Tender Cruelty）</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                本作的核心視覺信條：<strong>用最唯美、最詩意的視覺語言，呈現最殘酷的命運。</strong> 美麗唔係用來遮蓋痛苦，而係讓痛苦更深地刺進去——「美麗」是「痛苦」的放大器。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#c4b5fd;margin-bottom:7px">畫面範例</h4>
+                  <p style="margin:0 0 8px">
+                    同朋友仔係甜品店，開開心心一齊食甜品，笑聲不斷——然後咬到某一口，<strong>掉了一顆牙</strong>。甜係真的，痛也係真的，而且就係同一口裡面。</p>
+                  <p style="margin:0;color:var(--muted)">最慘烈的戰鬥中，背景音樂是<strong>溫柔的童謠色彩鋼琴曲</strong>。</p>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#a78bfa;margin-bottom:7px">設計原則</h4>
+                  <p style="margin:0 0 8px">絕不使用廉價驚嚇或純粹感官刺激的血腥。所有殘酷的視覺呈現都必須被悲劇性美感包裹，引發「憐惜」、「不安」與「心碎」。</p>
+                  <p style="margin:0;color:var(--muted)">美麗感越強，落差越大，痛苦越難以消化。</p>
+                </div>
+              </div>
+            </article>
+            <article class="subcard flow-medium" style="border-left:4px solid #0891b2">
+              <h3>見證守則（Witness Principle）</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                黑暗療癒系統的具體操作方法：見證的底層感覺，是一種<strong>不帶任何批判的陪伴在場感</strong>——「我在你身邊陪著你」。痛苦本身必須先被承認、被看見、被記住；角色如何應對（逃避／崩潰／自毀／沉默）會被看見，但不會被評分——溫柔不只保留給「撐得漂亮」的角色。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#67e8f9;margin-bottom:7px">四個令陪伴變質的陷阱</h4>
+                  <ul style="margin:0;padding-left:18px;line-height:1.9">
+                    <li><strong>背書痛苦</strong>——「她選對了」，陪伴變成打分</li>
+                    <li><strong>美化痛苦</strong>——將傷口說成勳章，陪伴變成消費</li>
+                    <li><strong>否定痛苦</strong>——「其實沒那麼慘」，陪伴變成催促</li>
+                    <li><strong>冷漠評判態度</strong>——應對得不夠漂亮就寫得冷漠，陪伴變成有條件</li>
+                  </ul>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#0e7490;margin-bottom:7px">執行方式</h4>
+                  <p style="margin:0 0 8px">見證者可以是另一個角色（在場，或事後拼湊出真相，如凜／美夜子的紅線真相），也可以是敘事／鏡頭本身——停留多久、剪不剪走、給不給完整的空間，本身就是「有沒有陪著」的答案。</p>
+                  <p style="margin:0;color:var(--muted)">不要求每一拍都做齊，但全劇必須有真實、可指認的存在，而非僅止於修辭層面的宣稱。</p>
+                </div>
+              </div>
+              <p style="font-size:13px;line-height:1.8;margin:14px 0 0">「自己接住自己」落在心房地下室：唔打、唔逃、留低直視——和解不是打敗陰影。另有純粹喘息：必須存在不為任何情節服務的連結場面，否則溫柔只會變成下一場苦難的前奏。</p>
+            </article>
+            <article class="subcard flow-medium" style="border-left:4px solid #6d28d9">
+              <h3>破碎的美學（Aesthetics of the Flawed）</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 14px">
+                本作的最高美學追求不是「完美」，而是<strong>不完整性、傷痕與裂痕本身蘊含的淒涼美感</strong>。完美無瑕的存在在這個故事裡是可疑的，是虛假的。</p>
+              <div class="box box-dark" style="font-size:13.5px;margin-bottom:14px">
+                <strong>哲學參照：哥窯「開片」× 日本「金繼」</strong>
+                <p style="margin:8px 0 0">
+                  心之器龜裂的過程，視覺上參考哥窯瓷器龜裂——裂痕蔓延如冬日冰花或水墨渲染。當角色開始接納創傷，裂痕中透出微光：如金繼修復中填入裂縫的金漆。<strong>傷口不被遮蓋，反而被金填滿——那才是完整的形狀。</strong>
+                </p>
+              </div>
+              <p style="font-size:13px;color:var(--muted);margin:0">裂痕蔓延 = 崩潰的過程　/　裂痕透光 = 接納的開始　/　金繼 = 帶傷繼續存在，不是修復成原樣
+              </p>
+            </article>
+            <article class="subcard flow-long" style="border-left:4px solid #db2777">
+              <h3>膠布哲學（Band-Aid Philosophy）</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                貫穿全作的核心視覺隱喻：<strong>膠布不能治癒傷口，只能「遮蓋」傷口，並提供一種「正在好轉」的假象。</strong> 整個 Beta 世界，本質上就是晴香當年貼係 Alpha
+
+
+----- 4960-5035 -----
+
+              </figure>
+            </article>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 主題 -->
+        <section class="sec dashboard-heavy" id="theme">
+          <h2>主題</h2>
+          <div class="section-lead">
+            <blockquote class="bq-dark">
+              <p><strong>主題句</strong>：「命運強加於你，無從逃避——態度永遠屬於自己，但故事唔承諾佢會帶嚟安慰。」</p>
+            </blockquote>
+            <div class="box box-amber" style="margin:16px 0;font-size:13.5px">
+              <strong>「態度」的精確定義</strong>：在本作中，「態度」不是樂觀口號，而是面對不可改變的痛苦時，一個人選擇逃避、控制、轉嫁，還是承認、承擔、繼續活下去的方式。它不保證好結果，但它是痛苦中僅存的主體性。
+            </div>
+          </div>
+          <div class="subsection-grid">
+            <article class="subcard flow-long" style="border-left:4px solid #7c3aed">
+              <h3>假甜 vs 真暖——本作最核心的情感矛盾</h3>
+              <p style="font-size:13.5px;line-height:1.85;margin:0 0 16px">
+                角色與觀眾要在故事中慢慢學識分辨：什麼是甜，什麼是真；什麼是逃避，什麼是真正能支撐人活下去的力量。這不是一道非此即彼的題——兩者都可以同時是真實的，但只有一種能讓人在痛苦中繼續行下去。</p>
+              <div class="dual">
+                <div class="box box-dark">
+                  <h4 style="color:#f9a8d4;margin-bottom:8px">假甜</h4>
+                  <p style="margin:0 0 10px;font-size:13.5px">魔法少女的夢幻形象、情緒商品、偶像光環、都市繁華——往往是好看、舒服、令人想依賴，甚至有一部份真實情感寄託的存在。
+                  </p>
+                  <p style="margin:0;font-size:13px;color:var(--muted)">
+                    它危險的地方在於：它會讓人活下去，但同時阻止人真正面對痛苦。它是一種甜美的延緩，一種有代價的逃避。</p>
+                </div>
+                <div class="box box-light">
+                  <h4 style="color:#a78bfa;margin-bottom:8px">真暖</h4>
+                  <p style="margin:0 0 10px;font-size:13.5px">
+                    永遠不是宏大、神聖、拯救式的。往往非常小、非常廉價、非常日常——一塊膠布、一粒糖、一句真正承認對方痛苦的話、一個可以暫時坐低呼吸的地方。</p>
+                  <p style="margin:0;font-size:13px;color:var(--muted)">
+                    它不立即改變世界，也不消除痛苦。但它讓人明白：自己不是完全孤立的，自己仍然值得被看見——而這份被承認，足以成為重新前進的火種。</p>
+                </div>
+              </div>
+            </article>
+            <article class="subcard flow-table flow-short">
+              <h3>四大子主題</h3>
+              <div class="tw table-wrap-ok">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>子主題</th>
+                      <th>核心命題</th>
+                      <th>代表角色</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>A：力量的代價</strong></td>
+                      <td>任何超凡力量都伴隨對人性的侵蝕</td>
+                      <td>所有魔法少女</td>
+                    </tr>
+                    <tr>
+                      <td><strong>B：完美的幻象</strong></td>
+                      <td>追求「無痛苦、無瑕疵」的非人道本質</td>
+                      <td>操、<a href="#c-keishi">刑思</a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>C：身份的本質</strong></td>
+                      <td>內在態度比外在形態更能定義存在</td>
+                      <td>紫音、<a href="#c-miyako">美夜子</a></td>
+                    </tr>
+                    <tr>
+                      <td><strong>D：連結的價值</strong></td>
+                      <td>共情與守望是抵抗絕望的終極力量</td>
+                      <td>晴香、<a href="#c-saku">朔</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 02 世界與系統 -->
+
+
+----- 5120-5200 -----
+
+                在這個世界，極端的情緒可以影響現實。而晴香的情緒，遠超任何人類曾有過的強度。她的願望沒有停在心裡——它改變了世界。這就是<strong>奇蹟</strong>：一次情緒強大到足以<strong>重新改寫現實規則</strong>的意外事件。
+              </p>
+              <p style="font-size:14px;line-height:1.85">
+                那個奇蹟創造了你現在閱讀到的一切：魔法少女、怪物、帝國的情緒剝削系統——全部都是從她五歲的崩潰裡長出來的後果。她沒有選擇這件事。她只是太痛了。但這件事，成為了整個故事所有悲劇的<strong>原罪</strong>。
+              </p>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0">
+                <div class="box box-dark"><strong style="color:#a78bfa">Alpha 線（命運層）</strong>
+                  <p style="font-size:13px;margin:8px 0 0">
+                    那件事<strong>真正發生</strong>的世界。低魔世界，沒有魔法少女，沒有屍骸。是無法被改變的現實——它沒有消失，只是被奇蹟蓋住了，像一道疤，從底層不斷滲漏。</p>
+                </div>
+                <div class="box box-light"><strong style="color:#6d28d9">Beta 線（態度層 / 故事舞台）</strong>
+                  <p style="font-size:13px;margin:8px 0 0">晴香的奇蹟所創造的世界。<strong>整個故事發生在這裡。</strong>
+                    魔法少女、屍骸、帝國的情緒剝削——全部都是從她那一刻的崩潰裡長出來的後果。</p>
+                </div>
+              </div>
+              <p style="font-size:12px;color:var(--muted)">兩條線不是「真世界 vs 假世界」。Alpha 線是事件，Beta
+                線是那個人面對事件的方式——兩者同時都是真實的。詳細說明見下方「Alpha 線與 Beta 線」章節。</p>
+            </article>
+            <article class="subcard flow-short" style="grid-column:1/-1">
+              <h3>市民眼中的世界</h3>
+              <div style="columns:2;column-gap:28px;column-rule:1px solid rgba(255,255,255,.07)">
+                <p style="margin-top:0">
+                  這是一個情緒力量公開存在的世界。人們知道魔法是真實的，也知道城市裡有怪物——被稱為「魔法屍骸」的存在：曾經是人，情感徹底耗盡後轉化，徘徊在街道廢墟中，對周圍的人造成威脅。這是市民日常生活的一部分，如同洪水或罪案一樣，是需要被處理的社會問題。
+                </p>
+                <p id="world-spirit-tree-misread">
+                  雖然魔法存在是公開事實，但能親自使用的人極少。世界自己的歷史記錄寫：夜區居民因靈樹能量殘留，天生具備輕微自發魔法——足以點燈、感知他人情緒、短暫觸碰集體潛意識，但無法戰鬥。日區居民完全沒有這種能力。對絕大多數市民來說，魔法是「別人的事」，只能透過直播遠遠旁觀。帝國發動靈樹戰爭的真實動機是奪取靈樹資源，不是「為了這批天生有魔法的人口」。<br /><span
+                    style="font-size:11.5px;color:var(--muted)">〔作者注／隱藏真相，故事內任何人（包括帝國史官）都不知情——「靈樹能量殘留」是這個世界連同它自己的歷史記錄都深信不疑的解釋，彷彿夜區居民的魔法親和力自古已存在。真正的機制是晴香帝國歷102年「改變現實」的回填效應之一：這次奇蹟不只覆寫現實，還透過靈樹（現實與集體潛意識之間的樞紐）將一段前後自洽的歷史回溯編織進去，於是她自己的護甲效應，在被回填之後的版本裡，變成了看似自古有之的「靈樹能量殘留」。靈樹戰爭本身、帝國侵佔夜區奪取靈樹資源的動機，全部維持不變、依然真實——改變的只是更深一層的因果：夜區居民的天賦不是靈樹自身的古老力量，而是晴香後來的願望透過同一個樞紐向歷史深處延伸的結果，與真正的古代歷史難以分辨。〕</span>
+                </p>
+                <p>帝國的「解決方案」是<strong>魔法少女</strong>。在市民眼中，她們是命運選中的民間英雄：戰鬥在直播鏡頭前公開進行，光幕濾鏡把滿身血污、忍痛作戰的畫面，過濾成優雅揮劍的<abbr
+                    title="光幕濾鏡自動套在日區公開戰鬥畫面上的美化標籤，與「魔女狩獵」並為兩大輿論工具——不是官方魔法少女偶像認證制度；市民誤讀成英雄／偶像，帝國預設仍是捕獵／兵器化">維多利亞天使</abbr>。粉絲打賞、送禮、留言「你是我們的希望」。委託與上傳看起來像真人秀——那是市民誤讀。制度上從未有官方偶像認證；只有<a
+                    href="#c-haruka">晴香</a>經經理人被個別經營成個人品牌（平民歌手頻道倒轉塞入戰鬥）。其餘人被看見，只因為監控自動採集。</p>
+                <p>真相是：帝國透過維多利亞之淚，在市民觀看直播時收割觀眾的崇拜情緒作為能源；通過裝置後門，實時監控和提取撿到裝置嘅少女每次戰鬥嘅情緒燃燒數據——呢啲使用者通常毫不知情。秋穗造嘅血糖錶係另一條線：後門她一早知情，同一數據亦回傳帝國。少女越熱血，帝國的數據越豐富。<br /><span
+                    style="font-size:11.5px;color:var(--muted)">夜區居民從未見過「天使」。濾鏡只覆蓋日區（維多利亞之淚照射範圍）。夜區看到的一直是真相：滿身傷痕、在廢墟中發抖的孩子。</span>
+                </p>
+                <p><span
+                    style="font-size:11.5px;color:var(--muted)">〔作者注：帝國從未設立過任何制度化嘅「官方魔法少女偶像認證系統」——帝國對魔法少女嘅預設態度自始至終都係捕獵／兵器化，光幕濾鏡只係將任何公開戰鬥畫面自動美化嘅通用效果，唔等於將人包裝做個人品牌。晴香係帝國刻意個別經營、獨一無二嘅例外——經理人利用嘅係佢締約前已存在嘅平民歌手身份，倒轉方向將戰鬥塞入原本純粹關於音樂嘅頻道，而唔係因為佢係魔法少女先捧佢做偶像。美夜子、操、紫音、彩全部唔係偶像，佢哋嘅戰鬥被市民睇到純粹係全民監控系統自動採集任何公開戰鬥畫面嘅結果，唔涉及任何制度性包裝。〕</span>
+                </p>
+              </div>
+            </article>
+            <article class="subcard flow-visual flow-short">
+              <h3>地理設定：維多利亞城</h3>
+              <p>類似老香港的中西交匯城市，分為「日區」和「夜區」。</p>
+              <div style="display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0">
+                <article class="char-card district-card">
+                  <div class="char-head" style="background:linear-gradient(135deg,#78350f,#b45309)">
+                    <div class="char-name">日區</div>
+                    <div class="char-real">「無鏡之城」· 帝國核心領土</div>
+                  </div>
+                  <div class="char-imgs">
+                    <div class="char-img-item">
+                      <img alt="日區街道概念圖"
+                        src="art/ConceptArt/Environment/DayDistrict/ConceptArt_DayDistrict_Street_1.png" />
+                      <div class="char-img-cap">日區街道</div>
+                    </div>
+                  </div>
+                  <div class="char-body">帝國領土，人造太陽 24 小時照耀，富裕但情緒被壓抑。玻璃幕牆處處可見——因為帝國有<a
+                      href="#world-victoria">維多利亞之淚</a>在背後統一過濾所有人感知到的現實：鏡子照到的，永遠只有帝國希望你相信的那個自己。體現「修正」意識形態：拒絕承認不完美，用完美幻象蓋住一切痛苦。
+                    <br /><span style="font-size:11.5px;color:var(--muted)">主觀信念 vs
+                      客觀症狀：日區居民主觀上其實真心相信自己活得幸福、滿足、穩定——呢層唔係表演，係佢哋真實嘅自我認知；但同時佢哋嘅表情麻木、儀態優雅但僵硬，早已被過濾走活力。兩者同時為真，居民自己接唔埋呢兩件事——佢哋每分每秒都寫緊代價喺自己塊面度，卻完全唔認得呢個同「幸福」有關。</span>
+                  </div>
+                </article>
+                <article class="char-card district-card">
+                  <div class="char-head" style="background:linear-gradient(135deg,#1e1b4b,#4c1d95)">
+                    <div class="char-name">夜區</div>
+                    <div class="char-real">原名靈樹谷 · 又稱霧港</div>
+                  </div>
+                  <div class="char-imgs">
+                    <div class="char-img-item">
+                      <img alt="夜區街道概念圖"
+                        src="art/ConceptArt/Environment/NightDistrict/ConceptArt_NightDistrict_Street_1.png" />
+                      <div class="char-img-cap">夜區街道</div>
+                    </div>
+                  </div>
+                  <div class="char-body">
+                    原名靈樹谷（又稱霧港），被帝國侵佔。天空被廢氣籠罩，潮濕街道永遠積著水窪，老舊玻璃幕牆處處映照真實。居民被迫與真實共存，被帝國剝削但更真實、堅韌。體現「接納」態度：面對真實之城。<br />
+                    <span
+                      style="font-size:11.5px;color:var(--muted)">歌德侵蝕：歌德元素在夜區並非裝飾風格，而是像活體細胞一樣慢慢入侵、覆蓋、改寫香港元素的異質存在——尖拱窗、蕾絲花邊、維多利亞齒輪裝飾出現的密度，直接反映
+                      Beta 線真相於該區域的滲透程度。歌德滲透愈深，Beta 集體潛意識的能量洩漏愈難壓制。</span><br />
+                    <span style="font-size:11.5px;color:var(--muted)">Beta
+                      線獨有：世界自己的歷史記錄寫「靈樹能量殘留令夜區居民具有輕微自發魔法」——無法戰鬥，但足以點燈、感知情緒、短暫接觸集體潛意識。日區居民無此能力。帝國發動靈樹戰爭、強行吞併夜區的真實動機是奪取靈樹資源；「為了這批天生有魔法的人口」是世界內對戰爭的常見誤解，不是真正誘因。</span><br /><span
+                      style="font-size:11.5px;color:var(--muted)">〔作者注／隱藏真相，故事內無人知情：「靈樹能量殘留」是世界（連帝國自己的歷史記錄）對這個現象的誤解——真身是晴香102年「改變現實」透過靈樹此一樞紐回填歷史時，順道向後延伸的護甲效應，偽裝成自古已存在的古老力量。靈樹戰爭的動機與史實不變，只有「魔法親和力從何而來」這一層因果是暗中被改寫過的。〕</span>

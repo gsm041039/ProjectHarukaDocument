@@ -1,0 +1,20 @@
+total_lines=12250
+
+weapon_chain: 4
+  lines: 11514, 11515, 11529, 11534
+grief_architect: 0
+kaleidoscope: 0
+keishi_dissolve: 0
+old_slogan: 0
+lab_send: 0
+until_death: 0
+glass_garden: 0
+cradle: 0
+idol_system: 9
+  lines: 4724, 5149, 5155, 5340, 6871, 9337, 9378, 12047, 12061
+virus_black: 0
+override_rin: 0
+hanako_surname: 1
+  lines: 4478
+pending_act4: 10
+  lines: 3495, 3512, 10732, 10835, 10857, 10866, 10886, 10990, 11001, 11020
