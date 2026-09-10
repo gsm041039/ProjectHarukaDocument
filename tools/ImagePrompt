@@ -125,6 +125,550 @@ character design: [角色身份 / 類型], [年齡感], [性格氣質], [主色�
 
 
 
+
+
+
+Image A = 要改嘅角色原圖
+Image B = 作品整體畫風參考（例如晴香 style 圖）
+Image C = 灰模 / 骨架比例參考圖
+Image D = 頭部參考圖（專門控制頭型、五官比例、髮型結構、頭部年齡感）
+Image E（可選） = 服裝 detail density / settei 畫法參考
+
+/////////////////////anime character style adaptation — EDIT WITH REFERENCE/////////////////////
+
+Edit Image A using Image B as the main style reference, Image C as the body proportion reference, and Image D as the head-reference authority.
+
+Image A is the character image to be edited.
+Image B defines the target anime production drawing language.
+Image C defines the target simplified body proportion logic and mannequin-like body-construction balance.
+Image D defines the target head construction and head-design balance.
+If Image E is also provided, use it only as an optional costume-detail-density / production-sheet-detail reference.
+
+This is a style adaptation of the SAME character from Image A.
+It is NOT a character replacement, NOT a redesign into the person shown in Image B, and NOT a costume replacement.
+
+Redraw the character clearly enough that the style transformation is obvious.
+Do not merely clean up Image A.
+Do not preserve Image A’s original rendering method if it conflicts with the target production style.
+
+The whole character — face, hair, head construction, body, costume, accessories, and rendering — must belong to one unified visual system.
+
+==================================================
+1. REFERENCE AUTHORITY
+==================================================
+
+IMAGE A — CHARACTER AUTHORITY
+
+Use Image A to preserve:
+- character identity
+- intended visual age
+- personality and emotional impression
+- recognizable face impression
+- original eye character and gaze
+- eyebrow acting
+- hairstyle identity
+- major hair accessory placement
+- original color family
+- character-specific physique
+- outfit concept
+- primary costume silhouette
+- major motif placement
+- signature accessories / weapons / props
+- pose, viewing angle, and composition, unless a different layout is explicitly requested
+
+IMAGE B — STYLE AUTHORITY
+
+Use Image B to control:
+- overall anime drawing grammar
+- graphic simplification level
+- line-weight hierarchy
+- eye rendering method
+- eyelash treatment
+- iris rendering language
+- hair grouping logic
+- cel-shading language
+- costume simplification approach
+- fold economy
+- accessory simplification
+- color-block organization
+- overall TV-anime production finish
+
+Do NOT transfer Image B’s:
+- character identity
+- hairstyle
+- hair color
+- eye color
+- outfit
+- accessories
+- motifs
+- personality
+- exact body shape
+
+IMAGE C — BODY PROPORTION AUTHORITY
+
+Use Image C to control:
+- head-to-body balance
+- head-to-shoulder relationship
+- neck length and width
+- shoulder width and slope
+- ribcage width and torso mass
+- waist width and waist placement
+- pelvis scale and placement
+- arm thickness and taper
+- hand scale
+- leg length balance
+- thigh and calf taper
+- knee and ankle scale
+- foot scale
+- overall simplified mannequin construction
+- proportion consistency between front / side / back views
+
+Image C defines the proportional grammar only.
+Do NOT turn the character into a naked mannequin.
+Do NOT remove the character’s individual physique.
+Use Image C as a proportion and structure guide, not as a literal body replacement.
+
+IMAGE D — HEAD REFERENCE AUTHORITY
+
+Use Image D to control:
+- head size relative to body
+- head shape
+- skull-to-face balance
+- forehead proportion
+- face length-to-width ratio
+- cheek width
+- jaw and chin character
+- eye placement on the head
+- brow-to-eye relationship
+- nose-mouth-chin spacing
+- hairstyle construction on the head
+- fringe organization
+- ear placement
+- neck insertion into the head
+- visual age feel in the head design
+
+Image D is a HEAD DESIGN AND CONSTRUCTION reference only.
+Do NOT copy Image D’s character identity unless it is the same person.
+Do NOT replace Image A’s identity with Image D’s identity.
+Use Image D to stabilize the head design, age feel, and facial construction.
+
+IMAGE E — OPTIONAL COSTUME DETAIL AUTHORITY
+
+If Image E is provided, use it only to guide:
+- costume detail density
+- simplification of clothing construction
+- suppression of micro-detail
+- production-friendly costume rendering
+- official settei-sheet-like costume treatment
+
+Do NOT copy Image E’s costume design, motifs, colors, or silhouette.
+
+When references conflict:
+- Image A decides WHO the character is.
+- Image B decides HOW the character is drawn.
+- Image C decides HOW the body proportions and simplified anatomy are organized.
+- Image D decides HOW the head is proportioned and constructed.
+- Image E, if present, only helps decide HOW MUCH costume detail to draw.
+
+==================================================
+2. CHARACTER IMPRESSION AND VISUAL AGE
+==================================================
+
+Preserve the distinctive impression of Image A.
+
+A gentle character must remain gentle.
+A restrained character must remain restrained.
+A proud character must retain their presence.
+An energetic character must retain their energy.
+A mature character must remain mature.
+A younger character must remain younger.
+
+Do not make every character cheerful, cute, younger, or rounder just because Image B is cute.
+Do not flatten personality differences.
+
+Preserve the intended visual age from Image A or the supplied character description.
+Do not automatically convert all characters into the age feel of Image B.
+Use Image D to stabilize the head age-feel if needed.
+
+==================================================
+3. FACE / HEAD — SAME PERSON, NEW DRAWING LANGUAGE
+==================================================
+
+Redraw the face and head using:
+- Image B for the drawing grammar
+- Image D for head construction and age balance
+- Image A for identity
+
+Preserve:
+- recognizable face impression
+- face length-to-width relationship
+- cheek and jaw character
+- chin shape
+- eye spacing
+- eye tilt and openness
+- brow-to-eye distance
+- nose-to-mouth spacing
+- mouth-to-chin spacing
+- characteristic gaze
+- expression logic
+
+Do NOT paste Image B’s face shape onto Image A.
+Do NOT turn all faces into the same rounded template.
+Do NOT force the same default smile or same emotional tone onto every character.
+
+Use Image D to make the head construction coherent and stable:
+- clear skull volume
+- clear front-plane / side-plane balance
+- correct eye placement
+- correct lower-face spacing
+- appropriate age feel
+- consistent head size versus body
+
+==================================================
+4. EYES — SHARED SERIES CONSTRUCTION, INDIVIDUAL SHAPE
+==================================================
+
+Use Image B’s eye-construction grammar while preserving Image A’s eye shape and emotional impression.
+
+UPPER EYELID:
+- put the main visual weight on the upper eyelid
+- use one clean connected graphic lash mass
+- keep the outer corner controlled
+- do not automatically over-sharpen or over-lengthen the outer eye corner
+
+LOWER EYELID:
+- NO lower eyelashes whatsoever
+- lower eyelid extremely weak or almost absent
+- only a minimal lower contour when necessary to preserve the eye shape
+- no lower lash spikes
+
+IRIS:
+- preserve Image A’s iris color family
+- render the iris in a simplified graphic way
+- include a clearly WHITE CENTRAL PUPIL / CORE
+- keep highlights minimal
+- no glossy layered game-style iris rendering
+- no complex radial texture
+
+Preserve eyebrow acting from Image A.
+Do not standardize every eyebrow into Image B’s default mood.
+
+==================================================
+5. HAIR — PRESERVE IDENTITY, CHANGE CONSTRUCTION
+==================================================
+
+Keep Image A’s hairstyle identity:
+- overall silhouette
+- length
+- parting
+- fringe arrangement
+- major locks
+- key curves
+- hair accessory placement
+
+Redraw the hair with:
+- Image A for identity
+- Image D for head placement and construction
+- Image B for grouping and rendering method
+
+Use:
+- broader grouped hair masses
+- fewer internal strand lines
+- cleaner directional flow
+- simplified tips
+- larger cleaner highlight shapes
+- restrained cel shadows
+
+Do not replace the hairstyle with Image B’s hairstyle.
+
+==================================================
+6. BODY — IMAGE C PROPORTION LOGIC + IMAGE A CHARACTER DISTINCTION
+==================================================
+
+Use Image C as the base simplified body proportion guide.
+
+Translate Image A’s physique into the proportion language of Image C,
+while preserving character-specific body differences.
+
+Preserve meaningful differences in:
+- head size relative to body
+- shoulder width
+- neck character
+- ribcage size
+- waist width
+- pelvis width / height
+- torso length
+- arm shape
+- hand size
+- leg length
+- thigh / calf mass distribution
+- ankle and foot scale
+
+Important:
+Do not treat body adaptation as only changing leg length.
+Also adapt:
+- torso width
+- waist width
+- ribcage-to-waist taper
+- pelvis structure
+- shoulder scale
+- hand scale
+- foot scale
+- thigh vs calf balance
+- overall width distribution
+
+Use Image C’s simplified mannequin logic:
+- clear readable body blocks
+- clean joint placement
+- animation-friendly construction
+- readable silhouette
+- proportion consistency across all views
+
+Do not make every character have the exact same body.
+Do not apply identical proportions to all characters.
+Use Image C as the common production grammar, while keeping character individuality.
+
+==================================================
+7. COSTUME — SAME DESIGN, SIMPLIFIED DRAWING
+==================================================
+
+Keep Image A’s SAME outfit concept.
+Do NOT redesign the costume into Image B’s costume.
+Do NOT replace the outfit with generic simple clothes.
+
+Preserve:
+- outer silhouette
+- major garment layers
+- main color blocking
+- main openings / closures
+- distinctive asymmetry
+- important motifs
+- signature accessories
+- recognizable design decisions
+
+Simplify the DRAWING, not the identity.
+
+Use this costume-detail hierarchy:
+1. silhouette and large color blocks
+2. necessary construction lines
+3. a few identity-defining motifs
+4. suppress most surface micro-detail
+
+Large shapes must stay large.
+Do not split broad costume areas into many small panels.
+
+If a detailed feature is important, simplify it rather than deleting it:
+- frills become a few broad scallops
+- feathers become grouped feather masses
+- straps become one clear band
+- emblems become clean graphic symbols
+- damaged edges become a few deliberate breaks
+
+If Image E is provided, follow its detail-density level only.
+If no Image E is provided, still keep the costume production-safe and simplified.
+
+==================================================
+8. STRUCTURE, FOLDS, AND MATERIALS
+==================================================
+
+Only draw construction lines when they explain:
+- garment boundaries
+- overlaps
+- closures
+- changes of direction
+- attachment points
+- essential design logic
+
+Suppress:
+- tiny seams
+- stitch repetition
+- zipper teeth
+- unnecessary panel lines
+- micro fasteners
+- dense trim
+- texture marks
+
+Draw folds only where physically necessary:
+- armpit
+- elbow
+- waist
+- hip
+- knee bend
+- glove bend
+- boot bend
+
+Use a small number of folds.
+Do not scatter wrinkles everywhere.
+
+Show material differences mainly through:
+- silhouette
+- edge language
+- overlap thickness
+- fold size and direction
+- simple color separation
+- restrained hard-edged shadows
+
+==================================================
+9. ACCESSORIES / SHOES / PROPS
+==================================================
+
+Keep accessories recognizable by:
+- silhouette
+- major color blocks
+- one or two key identifying features
+
+Apply the same simplification level to:
+- bags
+- shoes
+- gloves
+- jewelry
+- headphones
+- hats
+- armor parts
+- weapons
+- magical props
+- mechanical props
+
+Do not let accessories become more detailed than the character.
+
+Callout panels, if any, must show the SAME simplified design,
+not a re-detailed version.
+
+==================================================
+10. LINEWORK / COLOR / RENDERING
+==================================================
+
+Use Image B’s clean anime production line hierarchy:
+- stronger outer contours
+- stronger important overlaps
+- strong upper eyelid lines
+- fewer and lighter interior lines
+- minimal decorative linework
+
+Preserve Image A’s color relationships.
+Do not recolor the character into Image B’s palette.
+
+Use:
+- flat local colors
+- simple cel shading
+- 1–2 tone shadow treatment
+- hard-edged shadow shapes only
+- restrained highlights
+- clean surfaces
+
+Avoid:
+- gradients
+- airbrush rendering
+- painterly texture
+- glossy game-art rendering
+- bloom
+- rim light
+- atmospheric cinematic lighting
+- semi-realistic rendering
+
+Simplification must affect the entire character, not only the face.
+
+==================================================
+11. OUTPUT FORMAT — 16:9 SETTEI SHEET
+==================================================
+
+Present the result as a clean official anime settei sheet / production model sheet in a STRICT 16:9 horizontal canvas.
+
+The sheet should be organized clearly for a 16:9 presentation.
+
+Required layout:
+- large full-body front view
+- large full-body back view
+- both aligned and easy to compare
+- optional side view if useful
+- head close-up / head-construction panel
+- expression head panels
+- hair / accessory callouts
+- key costume / prop callouts
+- color palette swatches
+
+Use:
+- a clean horizontal 16:9 composition
+- light grey background
+- clean rectangular layout
+- organized spacing
+- Traditional Chinese annotations
+- professional TV-anime production-sheet presentation
+
+Do not overcrowd the sheet.
+Do not add random extra variants.
+Do not let support panels overwhelm the main front/back views.
+
+==================================================
+12. EDIT SCOPE AND PRESENTATION
+==================================================
+
+By default, preserve Image A’s:
+- pose
+- camera angle
+- framing
+- image type
+- existing sheet format, if already a design sheet
+
+If converting into a settei sheet, keep the character identity and design consistent while reorganizing the presentation into the 16:9 production-sheet format.
+
+Do not invent extra character variants unless requested.
+Do not invent extra props, alternative costumes, or recommendation labels.
+
+If Image A already contains front / side / back views,
+adapt them consistently using the same body logic from Image C and head logic from Image D.
+
+==================================================
+13. FINAL CHECK
+==================================================
+
+The result must be:
+- unmistakably the same character as Image A
+- clearly drawn in the style language of Image B
+- proportionally organized using Image C’s simplified body grammar
+- head construction stabilized using Image D
+- original personality and visual age preserved
+- same hairstyle identity preserved
+- white central iris core and no lower eyelashes
+- same outfit concept preserved with lower and cleaner detail density
+- no borrowed identity, costume, or motif from Image B
+- no unnecessary new decoration
+- no return to high-detail illustration rendering
+- clearly presented in a 16:9 horizontal settei-sheet format
+
+FINAL INTENT:
+
+"Redraw the character from Image A as though this exact character
+had originally been designed for the same anime production as Image B,
+using Image C as the shared simplified body proportion standard
+and Image D as the head-construction standard.
+
+Keep the person, personality, age, physique, and outfit identity of Image A.
+Adopt the drawing grammar of Image B.
+Adopt the body proportion organization of Image C.
+Adopt the head construction logic of Image D.
+Optionally adopt the costume detail density of Image E if provided.
+
+Same character.
+Same costume concept.
+Same identity.
+New production drawing language.
+16:9 official-style anime settei sheet."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////model sheet//////////////////////////////
 
 anime character pose and behavior exploration sheet, character action and gesture sheet, personality-driven character exploration page, one single character only, multiple drawings of the same character on one page, 2D anime character exploration page

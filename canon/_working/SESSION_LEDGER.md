@@ -1,5 +1,29 @@
 # SESSION_LEDGER
 
+## Completed This Round（Round 184 — 2026-09-10 美夜子「八千代型底色」reframe canon writeback）
+- [x] **性質**：作者明確確認（非 exploratory），canon writeback sub-agent。延續 QQ-224 D／Round 183 討喜度討論嘅美夜子部分。參照《魔法紀錄》七海八千代質感（非照抄）。
+- [x] **影響掃描**（做喺改之前）：grep `canon/` + `canon/_working/` 搵「解離性麻木／真冷漠／排他性忠誠／圈外冷淡」。**需要跟住 reframe 微調嘅 load-bearing 位（已改）**：`miyako.md` §故作堅強 CDL-337 忠誠段、`character-voice-bibles/miyako.md`（3 處：第 2 節忠誠段／第 3 節忠誠規則/第 5 節圈外候選句式）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` 正面特質欄、`iwakura_akane.md` 習慣 #12 一句。**核對後確認唔使改（描述「防衛姿態／情緒隔離」，reframe 保留呢層）**：`02_glossary.md` L795「美夜子的冷漠」＋L1154「美夜子冷漠（情緒隔離）」、CDL-195「美夜子＝冷漠/情緒切斷（隔離法）」、CDL-068/095「功能性冷漠」（Act I exposition 語氣）、`ACT_I_OUTLINE.md`/`ACT_III_OUTLINE.md`「冷漠解說／冷漠隊長」（語氣/弧線起點，同 reframe 兼容）、`TEMP_FULL_STORY_OUTLINE.md`「冷漠但可信任嘅引導者」（皇道敘事表象）、`miyako.md` §存在確認測試「重度解離」（明確 acute、貓殼碎裂後）。**冇 flag 任何未決位——全部落點清晰。**
+- [x] **改 `canon/03_characters/miyako.md`**：§故作堅強 CDL-337 忠誠段軟化（圈外「真係冷漠」→「防備姿態、唔等於唔關心」，保留「唔主動熱情／保持距離」）＋新增「解離性麻木唔屬於日常底色」註＋七海八千代質感參考註；新增 Behavior Hook #14「扮唔理，暗地執手尾」。
+- [x] **改其他 canon**：`iwakura_akane.md` 習慣 #12（「美夜子的『解離性麻木』」→「美夜子頂唔順時的解離抽離（急性創傷反應期，非其日常底色）」）。
+- [x] **改 working**：`character-voice-bibles/miyako.md`（3 處校準）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`（美夜子 正面特質欄）。
+- [x] **CDL-408** 新增（`CANON_DECISION_LOG.md` 頂，CDL-407 之上）。
+- [x] **QQ-224** 標 PARTIALLY RESOLVED（美夜子八千代底色部分 = CDL-408；A–G 其餘全部仍 OPEN）＋答案摘要。
+- [x] **`2026-09-09_..._DISCUSSION_LOG.md`** A–G 清單加 2026-09-10 部分更新註（D 美夜子框架問題＋張力 #2 美夜子半 resolved；其餘 OPEN）。
+- [x] **REASONING_LOG.md** append Round 184 段。
+- **保留未郁**：凜死＝人格防線起點／光環 PTSD；K 房唱歌全套；融合後 Ambiguous Loss（CDL-345，獨立）；修復路徑「允許被愛與被承接」；忠誠遞進線 CDL-083→043→191；「功能性兵器殘骸」核心恐懼；Alpha 線美夜子平凡無特色（CDL-153）。
+- **唔掂**：心理具現化總表（未起）、紫音討喜元素（未設計）、晴香任何框架、任何同本次美夜子改動無關嘅嘢。
+- **Blocked / handoff**：主阻塞點（Act IV Outline 正式設計）不變。Round 183 A–G 其餘全部仍 OPEN。作者可再定：美夜子要唔要加 wit／幽默（D 剩低部分）、美夜子 pre-trauma 核心要唔要加厚（張力 #3）。
+
+## Completed This Round（Round 183 — 2026-09-09 「把心理學具現化」×角色討喜度 探索討論 + canon 一致性核對）
+- [x] **性質**：作者 `/story-orchestrator` 開獨立討論（明示「唔好理現有 blocker」）。story-orchestrator + user-discussion-agent。全部 EXPLORATORY，作者未確認任何嘢。
+- [x] **canon 一致性核對**：讀 `haruka.md` `miyako.md` `iwakura_akane.md` `rin.md` `ko_hikaru.md` `aya.md` `yu.md` + `12_philosophy_and_systems.md` + `05_naming_and_psychology_system.md`。DIGEST 第 3/7/10 點事實 claim 全 SOURCE_SUPPORTED；第 8 點部分（美夜子 Alpha 核心薄、紫音 Alpha 核心缺口真實）。
+- [x] **八個心理學概念逐個 canon 評級**：C1 具現化SUPPORTED/標籤INFERRED｜C2 重演SUPPORTED/理解NOT_PRESENT(=QQ-217)｜C3 SUPPORTED｜C4 INFERRED｜C5 NOT_PRESENT(近新設計)｜C6 SUPPORTED｜C7 SUPPORTED已canon化｜C8 SUPPORTED。
+- [x] **搵到 6 個張力，照列未 resolve**（A 部分已存在 / 紫音+美夜子「冇魅力」絕對版被推翻 / 美夜子 pre-trauma 核心薄 / C2＝QQ-217 / yu.md Relationships 表 pre-existing 小矛盾 / 「晴香＝健康基準線」略過度）。
+- [x] **新增** `canon/_working/2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md`（完整 DIGEST + 核對表 + 評級 + 張力 + A–G 開放決定清單）。
+- [x] **更新 working state**：`QUESTION_QUEUE.md`（QQ-224 grouped OPEN 涵蓋 A–G）、`QUESTION_MATRIX.md`（topic summary row + M-PSY-EMB 12-angle scan + matrix row）、`NEXT_ACTION.md`（Round 183 頂條目）、`PROJECT_STATUS.md`（Round 183 快照）、`REASONING_LOG.md`（Round 183 段）。
+- [x] **冇修改任何 `canon/*.md` 真 canon。**
+- **Blocked / handoff**：等作者回應 A–G 七條開放決定（QQ-224）。主阻塞點（Act IV Outline 正式設計）不變。G 條（重新分配紫音悲傷 beat 份額）係 Outline 層工作，同主阻塞點同層。
+
 ## Completed This Round（Round 182 — 2026-09-05 百科 Goal 完成）
 - [x] **作者收窄完成標準**：逐條 CDL 全檔證明唔做；修完已確認 STALE 即算 Goal complete
 - [x] **世界法則圖**（~L11509）：「刑思武器鏈」→「刑思操控奇蹟鏈」——L3 殘餘／操控層／局部應用／硬限制；補屍骸非刑思製造、情緒病毒＝債務侵蝕

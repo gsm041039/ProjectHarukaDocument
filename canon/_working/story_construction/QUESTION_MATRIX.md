@@ -14,6 +14,7 @@
 | QM-05 美夜子 soft pivot | Relationship Dynamics, Structural Beat Function | Direction confirmed | 具體場景 | 具體場景設計 | QQ-05 |
 | QM-06 操三位一體視覺化 | Character Growth, Writing Execution | 方向 [AC] | 視覺化具體方案 | 視覺化方案 | QQ-06 |
 | 「話人玻璃心」噁心真實感 vs 見證守則溫柔（導演語言，2026-08-26）| Baseline 1–12 全 relevant + 13/14/15/16/18/19 relevant（17 not relevant）| Coping（晴香討好型現成機制）, Theme Expression, Structural Beat Function | Relationship Dynamics（撞 CDL-065）, Canon/Continuity, Narrative Validation, Method Necessity | 對象用操定紫音 / 接唔接受乾淨-骯髒傷口 reframe / 晴香成長環境定唔定 / 要唔要認清 beat | QQ-221 |
+| 「把心理學具現化」×角色討喜度（探索討論，2026-09-09）| Baseline 1–12 全 relevant + 13/14/16/17/18/19 relevant（15 部分 relevant）| Theme Expression（榮格骨幹已 canon）, Character Growth（各角色 WNLT 已建）, Coping/Defense（八概念大部分＝coping 具現化）, Canon/Continuity（八概念逐個評級完成） | Audience Experience（airlessness 風險 vs 討喜度）, Writing Execution/Draftability（C5 近新設計；F 紫音 Alpha 核心）, Method Necessity（point 9「描寫紀律唔係加機制」）, Narrative Validation（健康參照點夠唔夠）| A：立/擴具現化原則｜B：世界觀 reframe＋兩護欄｜C：八概念採邊個綁邊個｜D：紫音/美夜子好玩｜E：帶疤活得好嘅在場角色｜F：紫音 Alpha 核心｜G：紫音悲傷 beat 份額 | QQ-224 |
 
 ## Matrix Rows
 | Matrix ID | Topic / Keyword | Topic Type | Angle | Current Interpretation | Source Basis | Status | Why This Angle Matters | Risk If Assumed Wrong | Question Needed? | Draft Question for Author | Candidate A | Candidate B | Candidate C | Impact of A | Impact of B | Impact of C | Downstream Work Affected | Priority |
@@ -257,6 +258,42 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 |---|---|---|---|---|---|---|---|---|
 | M-061 | 無鏡之城設定存廢——是否移除日區「無鏡之城」設定，因維多利亞之淚已遮蓋真相 | 世界規則壓力、主題表達、形式必要性、Canon 連續性 | 作者提出移除，理由=維多利亞之淚已有遮真相功能。但分析顯示兩者遮不同層次真相（政治 vs 靈魂）。移除可能製造 Mirror Law 世界規則漏洞。 | canon/06_visual_bible.md（Environmental Manifestation）；canon/02_glossary.md（無鏡之城）；canon/01_world_rules_and_costs.md；art/02_Advanced_Narrative_Design.md；backup/screenwriter/03_Worldview_Setting.md；backup/screenwriter/08_Emotion_Setting_Overview.md；CAN-19-S06 | **NEEDS_AUTHOR_INPUT（QQ-98~101 OPEN）** | Mirror Law 日常觸發漏洞；夜區名稱失去對立意義；主題修正 vs 接納物理落地削弱；無鏡之城移除但 Mirror Law 仍存在之世界規則不一致 | Yes（Q1~Q4，見 QQ-98~101）| QQ-98, QQ-99, QQ-100, QQ-101 |
 | M-062 | Beta 世界三層風格構成法則（老香港＝真實宿主／日系動漫＝願望投射／黑暗哥德＝恐懼投射，三者同源於 5 歲晴香心智）| Baseline 1–12 全 relevant + 13/14/15/16/17/18/19 全 relevant | **作者已確認 AC-1~AC-11（2026-08-29）**：三層構成＋主題對位（宿主＝凡人集體記憶固化＝真暖／願望＝晴香寫入想要嘅嘢＝假甜／恐懼＝晴香寫入驚嘅嘢＝恐怖）；哥德淨喺 Beta；恐懼層正名「哥德侵蝕」，維多利亞拆開（in-world 論據：CDL-286 兩線共享 vs :202 Alpha 鐵律）；架空世界紀律（美術參考語域 ≠ in-world 事實，例外＝中日文語言）；文化軸 vs 美術軸拆開；日式＝動漫淺層固定印象＋生成規矩「動畫會拍嘅 Beta 有」；有畫面冇制度；家長日＝蓋唔到唔係填上去；哥德三重身份；**統一具現化法則＝地方本身冇樣、樣係人心寫入具現化，晴香 5 歲直接寫咗魔法少女同哥德落去，力量大所以一直維持並蓋過其他人寫入**；魔法少女變身同屬同一次寫入。**已作廢**：AI「晴香係支筆/filter」講法（作者否決）、「帝國宣傳片」理論、「帝國工業化 Beta」問題、用現實香港做論據 | `06_visual_bible.md`:194-212,:200,:202,:555-582；`05_naming_and_psychology_system.md`:27-31,46-53；`00_series_bible.md`:122,:206-210,§真暖vs假甜；`01_world_rules_and_costs.md` CDL-286/CDL-288；`04_timeline_canon.md`§event-alpha-divergence；`ACT_II_OUTLINE.md` CDL-183；`akiho.md`；`miyako.md` CDL-222 | **PARTIALLY RESOLVED — AC-1~AC-11 已確認；D-1~D-8 仍 NEEDS_AUTHOR_INPUT（QQ-222）** | 決定成套世界視覺語言同主題表達嘅對位關係；決定 Act III 鐵絲網揭示嘅載重；決定日常線／side quest 生成規則 | 若「維多利亞」同「哥德」唔拆開，downstream 會把 Alpha 已存在嘅殖民建築誤當 Beta 投射，違反 Alpha 鐵律；若膠布哲學時序唔對齊，緋潮成因敘述會前後矛盾；若三層無主次，融合會退化成布景板風味搭配 | Yes（8 條未答 D-1~D-8，見記錄檔第六節）| 見 `canon/_working/2026-08-29_BETA_WORLD_LAYERS_AND_REIFICATION_DISCUSSION_LOG.md` §六 | QQ-222 |
+
+---
+
+## M-PSY-EMB — 「把心理學具現化」×角色討喜度 探索討論（2026-09-09，Round 183，QQ-224）
+
+> 探索討論，作者未確認任何嘢。完整記錄：`canon/_working/2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md`
+
+### 12-angle（+13–19）relevance scan
+
+| Angle | 判斷 | 理由 / 展開 |
+|---|---|---|
+| 1. Character Growth | RELEVANT（展開）| 八概念（C1–C8）大部分係角色 coping/defense 嘅具現化；C2「以理解代替重演」直接扣各角色 Change trigger 缺口（＝QQ-217）；F（紫音 Alpha 核心）改嘅係起點狀態欄；E（帶疤活得好嘅人）＝一個全新成長終點示範。若 A–G 落地，`INDIVIDUAL_CHARACTER_GROWTH_TRACKER` 多個角色 row 要動 |
+| 2. Relationship Dynamics | RELEVANT | C1 內在小孩溝通＝晴香↔夕關係；C3 依附創傷＝美夜子關係模式（排他性忠誠 CDL-337）；D（紫音/美夜子好玩）會改佢哋同隊友嘅日常互動質感 |
+| 3. Information / Reveal Control | NOT_RELEVANT | 討論係設計語言/角色層，唔涉觀眾/角色資訊時序。（八概念嘅 AKS 埋位已各自有 canon，本討論唔改）|
+| 4. Atmosphere / Tension | RELEVANT | AI 指出核心風險係 airlessness（冇語氣落差）——護欄①「語氣落差要求」直接管氣氛/呼吸位 |
+| 5. Theme Expression | RELEVANT（展開）| 榮格個體化＝「全作心理骨幹」已 canon（CDL-066）；`12_philosophy` §七已有「具現化心理學」方法論。A 係將呢個原則由「限榮格概念」擴到「任何心理學概念」——直接改主題表達嘅範圍同顯性度。B 將佢由角色指令升做世界觀立場。主題風險：如果劇情離開心理讀法就企唔住＝主題壓過故事 |
+| 6. Structural Beat Function | RELEVANT | G（重新分配紫音悲傷 beat 份額）＝Outline 層 beat 功能改動，同主阻塞點（Act IV Outline）同層；E（新副角）可能要新 beat |
+| 7. Entry Timing / Presence Control | RELEVANT（弱）| E 條若設新「帶疤活得好」副角，要決定佢幾時出場、幾密——但依賴 E 先答 |
+| 8. World Rule / Mechanic Pressure | RELEVANT | B「世界奇幻物理＝心靈物理」直接係世界規則層陳述；C7（解離＝靈魂距離）已係 canon 世界規則（CDL-406/407），採用唔會加壓；C5（情緒命名）若採用會觸 黑奏 CDL-302 力量機制 |
+| 9. Setup / Payoff | NOT_RELEVANT | 唔涉具體埋位/回收設計（八概念各自嘅 AKS 埋位已 canon，本討論唔動）|
+| 10. Audience Experience / Knowledge Gap | RELEVANT（展開）| 討論核心後半＝討喜度＝觀眾體驗。作者直覺 read（操最想睇/紫音離地/凜非主角團/美夜子遠）。AI「有力角色」模型＝觀眾睇到主動搏 + coping 下面嗰個真人。風險：個個都心理個案＝觀眾攰、痛苦變廉價。護欄②「世界要有健康人口」＝直接回應。**canon 核對發現**：紫音/美夜子「冇魅力/善意時刻」絕對版被 canon 推翻（美夜子 CDL-342 反差、紫音 崩潰雷達細心）；精準版（無 wit；善意未被角色見證命名）準確 |
+| 11. Canon / Continuity / Ownership | RELEVANT（展開）| 本輪已做八概念逐個 canon 評級 + 6 個張力核對。關鍵：①A 部分已存在（§七方法論限榮格）②C2＝已 open 嘅 QQ-217③美夜子 Alpha 核心 canon 材料單薄（CDL-350 明寫「借嚟嘅命」＝創傷後）④pre-existing yu.md Relationships 表小矛盾（題外）|
+| 12. Writing Execution / Draftability | RELEVANT（展開）| C5（情緒命名先處理到）＝NOT_PRESENT，採用＝近乎新設計（要落場寫、要同 黑奏 CDL-302 協調）；F（紫音 Alpha 核心）canon 現況極薄，要由零寫一個 pre-trauma 自我，同時唔可以撞 CDL-337「Act I 唔畀自覺正面特質」同 CF-008 餓死根因——draftability 有實際難度。AI meta 原則：「太 sad/角色軟」嘅修法＝描寫紀律 + 導演紀律，唔係加更多機制（＝低 draftability 成本方向）|
+| 13. Coping / Defense Mechanism | RELEVANT（展開）| 八概念幾乎全部係 coping 嘅具現化：C1（晴香切割陰影＝逃避 individuation）、C2（重演＝強迫性重複防衛）、C3（依附創傷→美夜子解離性麻木 + 排他性忠誠）、C4（內攝→美夜子「情緒是弱點」、凜「當面具做本我」CDL-349）、C6（哀傷卡階段→黑奏否認式哀傷 CDL-302、紫音屍骸樂園拒認失去）、C8（軀體化→晴香壓抑稅、凜痛覺依存）。C7 解離＝靈魂距離已 canon 化 |
+| 14. Ideology / Value System | RELEVANT | B 將「具現化心理學」升做世界觀立場＝一個 in-world ideology claim（「呢個世界嘅奇幻物理就係心靈物理」）；扣「態度 vs 命運」主題 |
+| 15. Social / Institutional Position | 部分 RELEVANT | E（帶疤活得好嘅人）需要定佢喺日區/夜區邊個位置、對帝國情緒資本主義嘅立場（Gate B）。其餘討論唔涉制度位置 |
+| 16. Moral Tradeoff | RELEVANT | point 10 第七點「唔攞苦難換同情」＝一個道德/尊嚴 tradeoff（討同情令慘變賤 vs 忍住令慘有重量）；G（減紫音悲傷份額）＝敘事資源 tradeoff |
+| 17. Symbolic / Ritual Behavior | RELEVANT | C1 具現化＝晴香放膠布/貼鏡面（膠布哲學 ritual）；C8 軀體化＝嚼冰/破弦/長泳窒息/咀嚼香口膠（存在確認 ritual）——八概念大量透過已有 ritual/symbol 物化 |
+| 18. Narrative Validation Level | RELEVANT（展開）| 關鍵區分：故事對一種 coping 嘅處理 ≠ 角色本人對佢嘅理解。八概念大部分故事 treatment ＝ complicate/reject（晴香切割陰影＝逃避、黑奏否認式哀傷＝rejected、紫音創傷重演＝墮落）；healthy counter（螢教彩接受失去、彩終點接受失去、美夜子「被愛與被承接」、晴香整合＝唯一完成個體化）提供 validate 嘅一端。護欄②「健康人口」＝擔心 validate 端太弱（全部靠已死/backstory 角色承載）|
+| 19. Method Necessity / Form Meaning | RELEVANT（展開）| 「點解一定要用『具現化』呢種形式去做心理學」——AI 已答方向：呢個世界嘅唯識底層邏輯本身就令心理＝物理（唔係比喻選擇，係世界規則），所以具現化唔係「一種呈現手法」而係世界本身點運作。替代形式（純對白心理化、旁白、蒙太奇象徵）會失去「字面意義上穿越潛意識空間」呢種 medium-specific 交付（`12_philosophy` §七方法論原則已明寫）。AI meta 原則亦係一個 form 判斷：討喜度問題唔靠加機制（形式）解決，靠描寫/導演紀律 |
+
+### Matrix Row
+
+| Matrix ID | Topic | 主要角度 | 當前詮釋 | Source 基礎 | Status | 關鍵風險 | 需要作者輸入？ | QQ |
+|---|---|---|---|---|---|---|---|---|
+| M-PSY-EMB-01 | 「把心理學具現化」立唔立明寫原則 + 八概念綁定 + 討喜度修復方向（A–G）| Theme Expression, Character Growth, Coping/Defense, Audience Experience, Canon/Continuity, Writing Execution, Method Necessity | 探索討論，作者未確認。canon 核對：DIGEST 第 3/7/10 點事實 claim 全 SOURCE_SUPPORTED；第 8 點部分（美夜子 Alpha 核心薄、紫音 Alpha 核心缺口真實）。八概念評級：C1 具現化 SUPPORTED/標籤 INFERRED｜C2 重演 SUPPORTED/理解 NOT_PRESENT(=QQ-217)｜C3 SUPPORTED｜C4 INFERRED｜C5 NOT_PRESENT｜C6 SUPPORTED｜C7 SUPPORTED 已canon化｜C8 SUPPORTED。6 個張力照列未 resolve | `2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md`；`12_philosophy` §七 CDL-066／§三階段 CDL-407；`haruka.md` CDL-355/356；`05_naming` CDL-381；`miyako.md` CDL-337/350/153/271/345；`iwakura_akane.md` CF-T20/CDL-337/157；`rin.md` CDL-391/353/349/386；`aya.md` CDL-302；`yu.md` CDL-077/295；`01_world_rules` CDL-406；`12_philosophy` CDL-407 | **NEEDS_AUTHOR_INPUT（QQ-224 OPEN，A–G 全部未答）** | ①A 若當全新原則會忽略 §七已有方法論（範圍衝突）②C2 若當新題會同 QQ-217 重複做嘢③F 紫音 Alpha 核心由零寫，易撞 CDL-337/CF-008④G 係 Outline 層改動，唔可以當細設定⑤護欄②「健康人口」若唔落地，validate 端全靠已死/backstory 角色 | Yes（A–G 七條）| QQ-224 |
 
 ---
 

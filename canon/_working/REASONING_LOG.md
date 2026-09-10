@@ -1525,3 +1525,84 @@ Agent建議排序：D > A > B > C。D同A都只需要改L5/L8字眼，對L1-L4/L
 - `CANON_DECISION_LOG.md`：新增CDL-376
 
 **不改變主阻塞點（仍為 Act IV Outline 正式設計）。QQ-204②③仍待作者回應。**
+
+---
+
+## Round 183 — 2026-09-09 — 「把心理學具現化」× 角色討喜度 探索討論 + canon 一致性核對（EXPLORATORY，冇 writeback）
+
+### 任務背景
+
+作者用 `/story-orchestrator` 開獨立討論（明確講「唔好理現有 blocker」）。story-orchestrator + user-discussion-agent 傾咗兩個題：①將「每個人睇世界都唔同」由情緒 canon 推導 + 昇華成導演語言，作者澄清真正目標係「具現化心理學」（將心理治療概念變成世界入面睇得到摸得到嘅嘢，唔止魔法少女、普通人都係）；②角色討喜度（作者直覺 read：操最想睇 / 紫音離地太 sad / 凜好睇但非主角團 / 美夜子感覺遠）。本輪 sub-agent 只做 canon 一致性核對 + 建記錄檔 + 更新 working state，冇改任何真 canon。
+
+### 推理過程
+
+**1. 核對 DIGEST 事實 claim（第 3/7/8/10 點）**——讀 `haruka.md` `miyako.md` `iwakura_akane.md` `rin.md` `ko_hikaru.md` `aya.md` `yu.md` + `12_philosophy_and_systems.md` + `05_naming_and_psychology_system.md`：
+
+- 第 3 點（七主角臨床心理結構 / 榮格骨幹 / 健康參照點）**全部 SOURCE_SUPPORTED**：
+  - 榮格個體化＝「全作心理骨幹」＝逐字（haruka.md §Archetype CDL-066；`12_philosophy` §七「本作故事核心 ＝ 晴香的個體化過程」+「具現化心理學方法論：心理概念成為物理真實，唔係隱喻」）。
+  - 晴香健康基準線＝CDL-355/356 + `05_naming` CDL-381（「生存性自我框架 ≠ Act I 面具」）；但「基準線」係討論用詞，canon 精準框架＝「最幸運嘅起點」+「唯一 confirm 嘅完整個體化終點」，晴香仍帶拯救者情結/自私核心/雙帳號分裂/危機期自傷（張力 #6）。
+  - 螢教彩「健康接受失去」＝逐字（aya.md CDL-302），但螢係已死 backstory 副角唔係在場示範。
+  - 美夜子修復路徑「被愛與被承接」＝逐字（miyako.md §存在確認測試）。
+  - 晴香整合＝「全劇唯一 confirm 完整個體化案例」＝逐字（`12_philosophy` §三階段榮格框架 CDL-407）。
+
+- 第 7 點**全部 SOURCE_SUPPORTED**：紫音 CF-T20 五步模板 + CDL-337「Act I 唔畀自覺正面特質標籤」+ 崩潰雷達 CDL-157「血淚履歷」；美夜子 CDL-337 排他性忠誠 + 解離性麻木；Alpha 線美夜子「歌聲平凡無特色…不是天份，是代價」＝逐字（CDL-153）。
+
+- 第 8 點**部分**：美夜子「Alpha 討厭貓/討厭依附」＝逐字（miyako.md §五歲的詛咒）；「戰士式驕傲獨立」＝INFERRED；CDL-350 物質淡漠明寫根源係「借嚟嘅命」＝創傷後（張力 #3，Alpha 線美夜子 canon 材料實際單薄）。紫音 Alpha 核心缺口確實存在（＝F 條）。
+
+- 第 10 點＝討論綜合非 canon claim；第七點「唔攞苦難換同情」同 CDL-347 / CDL-392 / 「我唔想再一個人食飯」同向。
+
+**2. 八個概念逐個評級（C 條）**：
+- C1 內在小孩溝通：具現化形式 SOURCE_SUPPORTED（yu.md CDL-077 5 歲晴香鏡中 + 道歉 + 放膠布；鏡中對話習慣），臨床標籤 INFERRED（canon 框架係榮格 Shadow 整合 +「被遺棄的童年自我」，冇用「inner child」）。
+- C2 創傷重演 vs 理解舊創傷：重演 SOURCE_SUPPORTED（養死植物循環「強迫性重複」、rin.md「模版在自動重演」）；「以理解代替重演」做設計原則 NOT_PRESENT ＝ 直接就係已 open 嘅 BLOCKED QQ-217 缺口（作者已知、已 acknowledge、未解決）。
+- C3 依附創傷（美夜子）：SOURCE_SUPPORTED（討厭依附 + Need 大哭 + 修復路徑 + CDL-354 因果鏈 + 私密習慣＝存在確認；晴香亦有「拒絕深層連結防護罩」）。
+- C4 內攝：INFERRED（美夜子「情緒是弱點」軍方洗腦條件反射、凜 CDL-353「溫柔＝值得存在」CDL-349「當面具做本我」、晴香「劇毒信念」、彩 Lie；多角色機制存在但術語未命名、冇單一 canon 化 beat）。
+- C5 情緒命名先處理到：NOT_PRESENT（做具現化概念）——冇 canon 機制講「命名情緒先處理到」；最接近係 黑奏 CDL-302 情感辨識缺失（以缺席/反面存在）同 `05_naming` 說出真名（身份名唔係情緒名）。要採用＝近乎新設計。
+- C6 哀傷卡階段：SOURCE_SUPPORTED（黑奏否認式哀傷 CDL-302、紫音屍骸樂園拒認失去、美夜子「欠下來的時間」、夕 Alpha 幻象至 CDL-295；螢/彩做健康對照；全 cast ＝ arrested vs completed grief 光譜）。
+- C7 解離＝靈魂距離：SOURCE_SUPPORTED 已 canon 化（`01_world_rules` §rule-soul-distance-spectrum CDL-406；`12_philosophy` §解離兵器＝分裂失敗模式 CDL-407；miyako.md CDL-271 + 明引「人格解體/情感解離」臨床描述；rin.md Unit 00）。
+- C8 軀體化：SOURCE_SUPPORTED（晴香 幽靈重量 + 壓抑稅 CDL-357「侵蝕身體感官」；rin.md CDL-391「心理苦難同肉體痛楚同一條神經路徑…痛覺係佢心理苦難最誠實嘅具體化」＝近臨床陳述；美夜子 無體溫/怕冷/長泳窒息；紫音 咀嚼香口膠。作者舉例「胸口有舊石壓住」直接對應）。
+
+**3. 搵到 6 個張力（照列，NOT RESOLVED）**：
+- ① A 條部分已存在——`12_philosophy` §七「具現化心理學」方法論已 canon 化（CDL-066），但範圍限榮格概念；擴到「任何心理學概念」＝範圍擴闊決定。
+- ② 紫音/美夜子「冇機智/魅力/善意時刻」——絕對版被 canon 推翻（美夜子 追光點/貓舌/偷食棒棒糖反差 CDL-342、K 房歌聲；紫音 崩潰雷達細心/小狗偽裝/味覺通感金句）；精準版（無 wit/幽默；善意存在但未自覺 + 未被角色見證命名為善意）＝canon 準確。討論自己第 8 點比第 6 點更貼 canon。
+- ③ 美夜子 pre-trauma 核心比 digest 想像薄（CDL-350 明寫根源係「借嚟嘅命」＝創傷後）。
+- ④ C2 缺口＝QQ-217，A–G 有答要 check QQ-217/QQ-221 merge。
+- ⑤ pre-existing canon 內部小矛盾（題外）：yu.md Relationships 表仍寫「美夜子引導晴香…促成整合」，同 yu.md §E-15 修正說明（已撤回、實際＝鏡中對話）撞。
+- ⑥「晴香＝健康基準線」略過度（見上）。
+
+### 落檔記錄（全部喺 `canon/_working/`，冇掂真 canon）
+
+- 新增 `canon/_working/2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md`（完整 DIGEST + 八概念逐個評級 + 一致性核對表 + 6 個張力 + A–G 開放決定清單）
+- `QUESTION_QUEUE.md`：新增 QQ-224（grouped OPEN，涵蓋 A–G）
+- `story_construction/QUESTION_MATRIX.md`：新增 topic summary row + 12-angle relevance rows（M-PSY-EMB-01 系列）
+- `NEXT_ACTION.md`：頂加 Round 183 條目
+- `PROJECT_STATUS.md`：頂加 Round 183 快照
+- `SESSION_LEDGER.md`：頂加 Round 183 section
+- `REASONING_LOG.md`：本段
+
+**冇修改任何 `canon/*.md`。討論全部 exploratory，作者未確認任何嘢。不改變主阻塞點（Act IV Outline 正式設計）。唯一安全下一步＝等作者回應 A–G。**
+
+---
+
+## Round 184（2026-09-10）美夜子「八千代型底色」reframe canon writeback（CDL-408）
+
+### 性質
+作者明確確認（非 exploratory）。延續 QQ-224 D／Round 183 討喜度討論嘅美夜子部分。作者參照《魔法紀錄》七海八千代：清高、難親近、外殼拮手，但一直暗地關心人；失去過隊友先豎起刺，唔係真係冷；受咗傷只係退後半步，唔係熄機／封閉自己。
+
+### 推理
+- **問題根**：Round 183 張力 #2 美夜子半——canon 將「解離性麻木＋排他性忠誠」寫到近乎美夜子身份底色，令觀眾入唔到佢，主題上係承重牆但角色討喜度受損。
+- **作者裁定**：麻木唔係本性，係急性創傷反應期狀態；canon 其實多數已經係咁用（凜死打穿人格防線、貓殼碎裂後重度解離都係明確事件觸發嘅 acute 狀態）。唯一將麻木寫成「機制／日常」嘅位＝`miyako.md` CDL-337 忠誠段「呢種忠誠靠壓抑自我先撐得住（同佢嘅解離性麻木機制緊貼）」呢句 parenthetical。
+- **「真係冷漠」一句**：CDL-340 當初加呢句係為咗防止「口硬心軟通用溫暖」誤讀。作者本次要求保留「唔主動熱情、保持距離」嘅排他感，只拆走「唔關心」呢一層——即圈外層由「真空冷漠」改為「怕再痛而收埋關心嘅防備姿態」。呢個唔削弱 CDL-340 嘅原意圖（依然唔係通用溫暖、依然有明確邊界），只係將邊界由「有無關心」移到「擺唔擺出嚟」。
+- **修復路徑兼容性 check**：`miyako.md` §存在確認測試「修復路徑＝允許被愛與被承接」——八千代型底色（暖但拮手、要學肯靠人）同呢個完全兼容，甚至更貼（「返去溫暖但拮手嘅底」比「由零學識連結」更符合一個本來就暗地關心人嘅角色）。
+- **影響掃描判斷準則**：「將麻木/冷漠當身份」＝改；「描述防衛姿態／情緒隔離／exposition 語氣／弧線起點」＝保留（reframe 冇推翻佢對圈外人保持距離、對情緒輻射用隔離法自保呢層）。據此 `02_glossary` L795/L1154、CDL-195、CDL-068/095、兩份 Outline「冷漠解說/冷漠隊長」全部判定唔使改。
+
+### 落檔記錄
+- `canon/03_characters/miyako.md`：§故作堅強 CDL-337 忠誠段軟化 + 兩條校準註；新增 Behavior Hook #14「扮唔理，暗地執手尾」
+- `canon/03_characters/iwakura_akane.md`：習慣 #12 成癮崩潰雷達一句（「美夜子的『解離性麻木』」→「美夜子頂唔順時的解離抽離（急性創傷反應期，非其日常底色）」）
+- `canon/_working/character-voice-bibles/miyako.md`：3 處校準（第 2 節忠誠段／第 3 節忠誠規則／第 5 節圈外候選句式）
+- `canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`：美夜子 正面特質欄
+- `CANON_DECISION_LOG.md`：新增 CDL-408
+- `QUESTION_QUEUE.md`：QQ-224 → PARTIALLY RESOLVED（美夜子八千代底色部分；A–G 其餘 OPEN）
+- `2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md`：A–G 清單加 2026-09-10 部分更新註
+- `NEXT_ACTION.md` / `PROJECT_STATUS.md` / `SESSION_LEDGER.md`：頂加 Round 184 條目
+
+**保留未郁**：凜死＝人格防線起點／光環 PTSD；K 房唱歌全套；融合後 Ambiguous Loss（CDL-345，獨立）；修復路徑「允許被愛與被承接」；忠誠遞進線 CDL-083→043→191；「功能性兵器殘骸」核心恐懼；Alpha 線美夜子平凡無特色。不改變主阻塞點（Act IV Outline 正式設計）。
