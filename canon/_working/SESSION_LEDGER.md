@@ -1,5 +1,172 @@
 # SESSION_LEDGER
 
+## Brief Refactor Task（2026-09-15）— Prompt 1 審核，獨立 track
+- [x] 建 WORKDIR `canon/_working/brief_refactor/`，記錄 Baseline A（HEAD `e4c5743`，兩份 Brief 檔 SHA256）
+- [x] 判定來源權威：`00_Story_Brief.html` 手工維護／`00_Story_Brief.md` 落後兩個月非權威
+- [x] 兩個唯讀 subagent 平行審核：(a) canon 同步缺口（checkpoint=Round164/`cc67165`）(b) 全頁內容盤點/去重/表達方式
+- [x] 產出 `WORK_SPEC.md`／`AUDIT.md`／`CONTENT_LEDGER.json`／`PROGRESS.md`
+- [x] 發現：S1（HTML:7051 美夜子「真冷漠」）STALE 待修；7 個語義重複群（A-E 建議處理，F/G 保留）
+- [x] 冇改任何 `00_Story_Brief.html`／Canon 檔案
+- [x] 更新 `PROJECT_STATUS.md`／`NEXT_ACTION.md` 最小 pointer（唔動 Round 計數）
+- **下一步**：等作者過目，授權 Prompt 2
+
+## Completed This Round（Round 197 — 2026-09-12 Directing Language v0.5 Minimum Viable Baseline）
+- [x] **性質**：導演語言基建 architecture 任務（story-directing-language-architect skill 觸發），獨立於 Sequence/Scene 生產 track，唔受 Round 196 freeze 約束但都唔違反佢。
+- [x] **必讀完成**：`11_directing_playbook.md`（全文）、`08_narrative_design_bible.md`（章節標題+四牆分類/場景四拍模板/世界敘事四大角色服務管道/三層日常穿插法/三層恐怖平衡全文）、`06_visual_bible.md`（章節標題+進階敘事視覺設計全文）、`10_gameplay_bible.md`（章節標題+Level Design/Mission Architecture 全文）。
+- [x] **分類結果**：A-I 九個 priority area 入面，七個已 `STABLE_ENOUGH_FOR_ACT_I`（情緒代價/角色演出/被觀看/重覆母題/Gameplay交接/恐怖遞進/創傷揭示），負空間視覺層 STABLE、敘事謎團層 PROVISIONAL，真正 MISSING 淨係 Information Hierarchy 一項。
+- [x] **新增三條 DRAFT 原則**（DEFAULT/BREAK WHEN/DO NOT USE WHEN/AVOID/EXAMPLE/CONFIDENCE 格式）：4.1 資訊層級/知情落差、4.2 安靜/呼吸戲文法、4.3 Beat→Scene 壓力交接明文化。
+- [x] **Gap Map + Freeze Line + Director-facing 摘要**：全部寫入新檔。
+- [x] **寫入**：新建 `canon/_working/DIRECTING_LANGUAGE_V0.5_BASELINE_DRAFT.md`。**未改任何正式 canon 檔案**（四份 bible 一字未動）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 197 快照）、`NEXT_ACTION.md`（Round 197 條目）、本檔。
+- **VERDICT = `DIRECTING_LANGUAGE_ACT_I_READINESS = READY_FOR_BEAT_EVENT_WORK`**。
+- **Blocked / handoff**：無 blocker。建議下一步：作者過目 DRAFT 三條新原則，認同即可 merge 入 `11_directing_playbook.md` + 開新 CDL。Round 196 Sequence-layer freeze 完全不變，本輪冇觸碰任何 Scene/Dialogue/Script 檔案。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 196 — 2026-09-11 作者範圍收窄：停喺 Sequence 層，刪除下游材料）
+作者見到 production 已經行到 Scene Architecture→Dialogue Blueprint→Script→Coverage Review（SEQ1/3/4 全套、SEQ5 半套），表示唔係佢想要嘅進度，指示「淨係 Sequence 層，其他唔做住」+ 確認刪除已生成嘅下游檔案。已刪除 16 個檔案（SEQ1-6 嘅 SCENE_ARCHITECTURE/DIALOGUE_BLUEPRINT/SCRIPT/COVERAGE_REVIEW，見 `NEXT_ACTION.md` Round 196 完整清單）。保留：Outline v1.22、Beat Sheet（13 beat）、Sequence Map（6 sequence）。**未停被叫停前，唔會自動再向 Scene 層或以下推進**——呢個係本輪最重要嘅流程教訓：Progressive Mode 嘅「continue-by-default」只喺冇撞到 AUTHOR_DECISION 先適用，但作者對「生產推進速度／範圍」本身嘅偏好，可以隨時凌駕呢條規則主動叫停，唔一定要等到 AUTHOR_DECISION 先可以叫停。
+
+## Completed This Round（Round 195 — 2026-09-11 Act I SEQ4「代價浮現與疏離感」全條 pipeline 完成）
+- [x] **性質**：Dialogue Architect + Script Writer + Coverage Reader 生產任務（`RUN_MODE=PRODUCTION`）——SEQ4 四場戲冇 SCENE REFERENCE 材料，純靠 Beat Sheet 欄位 + CDL 原文獨立設計，跟 SEQ1/SEQ3 已驗證嘅三步生產模式。
+- [x] **必讀完成**：`ACT_I_SEQ4_SCENE_ARCHITECTURE.md`（4場骨架）→ `ACT_I_SEQ1_DIALOGUE_BLUEPRINT.md`／`ACT_I_SEQ3_DIALOGUE_BLUEPRINT.md`（格式範本）→ `ACT_I_BEAT_SHEET.md` Beat 3(E-03)／Beat 4.5(E-1.5) 完整欄位 → 角色 Canon Sheet（haruka.md 相關段/miyako.md/iwakura_akane.md/aya.md 全文含黑奏）→ `CANON_DECISION_LOG.md` grep CDL-029/030/034/048/067/078/079/080。
+- [x] **關鍵發現**：CDL-080 明確標示 E-1.5 為「圖書館幽靈場景」，同 Scene Architecture 原建議「校園一角/放學後休憩處」有出入——依 CDL 較高權威（AC 已批核）修正落實為圖書館舊翼+維修露台+「禁止進入」告示，令「唔好…再行前啦。會死架」有真實物理落點支撐，純執行細節層面決定，已喺 Blueprint 記錄。
+- [x] **Dialogue Blueprint**：4 場全部完整拆段（場1後遺症現象層3段／場2慶功對比3段／場3切換目睹4段／場4不安沉澱3段）。CDL-080 兩句台詞保留唔推翻。
+- [x] **Script**：4 場全寫足完整劇本。場1零對白純動作+表情（晴香生理崩潰、美夜子/操/紫音各自最壞情緒側面）；場2「可樂失味」用道具+表情呈現，CDL-224 執行語法（迴避視線/反胃乾嘔感/拒絕觸碰）克制執行；場3 CDL-080 原句保留（彩「唔好…再行前啦。會死架。」／黑奏「講笑咋。盡情掙扎啦，偶像小姐。」），黑奏首次可聞登場，語氣對照（語速慢/字間冷）呼應 aya.md 雙人格設定；場4 晴香誤判歸因，內心過程外化為沉默行為。SEQ3 遺留嘅場景銜接 MINOR 提示已喺場1開場處理（加時間/空間過渡拍）。
+- [x] **Coverage Review**：逐場審七角度。**發現：BLOCKING 0、IMPORTANT 1（場3地點修正，已於 Blueprint 階段處理，此輪確認一致）、MINOR 1（場1最壞情緒只歸向恐懼側，記錄不修改）、COSMETIC 1（場2藉口台詞措辭重複，屬刻意設計，記錄不修改）**。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。場3地點修正屬跟隨已批核 CDL-080 嘅執行細節，唔構成新決定。
+- [x] **寫入**：新建 `ACT_I_SEQ4_DIALOGUE_BLUEPRINT.md`／`ACT_I_SEQ4_SCRIPT.md`／`ACT_I_SEQ4_COVERAGE_REVIEW.md`。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 195 快照）、`NEXT_ACTION.md`（Round 195 條目）、本檔。
+- **VERDICT = `READY_TO_SCALE`——SEQ1/SEQ3 生產模式喺完全冇 SCENE REFERENCE 支撐嘅 SEQ4 套用結果依然穩定，證明呢套模式對「純 Beat Sheet + CDL」嘅場次都可靠。**
+- **Blocked / handoff**：無 blocker。建議下一步：作者過目 SEQ4 verdict；認同後繼續 SEQ5「體制壓迫初現」全條 pipeline。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 194 — 2026-09-11 SEQ2 核實 + Act I SEQ3「偽亮色隊伍組建期」全條 pipeline 完成）
+- [x] **性質**：Dialogue Architect + Script Writer + Coverage Reader 生產任務（`RUN_MODE=PRODUCTION`）——先核實 SEQ2 實際剩返幾多內容未做，再一次過做完 SEQ3 全條 Blueprint→Script→Coverage Review pipeline。
+- [x] **SEQ2 核實**：讀 `ACT_I_SEQUENCE_MAP.md` SEQ2 定義（Beat 0d 夜晚獨處+天台使命說明）、對照 `ACT_I_SEQ1_SCENE_ARCHITECTURE.md`／`ACT_I_SEQ1_SCRIPT.md`／`ACT_I_SEQ1_DIALOGUE_BLUEPRINT.md`，確認 SEQ2 兩個 beat 已經完整寫成 SEQ1 場景 7（夜晚獨處，無台詞純視覺）同場景 8（天台使命說明，完整對白+三段式 blueprint），SEQ1 文件本身已註明呢個跨 sequence 邊界安排。**結論：SEQ2 冇剩返任何內容，唔開獨立 `ACT_I_SEQ2_DIALOGUE_BLUEPRINT.md`／`SCRIPT.md`／`COVERAGE_REVIEW.md`**，已喺 `ACT_I_SEQUENCE_MAP.md` SEQ2 段加註核實結果。
+- [x] **必讀完成（SEQ3）**：`ACT_I_SEQ3_SCENE_ARCHITECTURE.md`（7場骨架）→ `ACT_I_BEAT_SHEET.md` Beat 2／2.5／2.6 + 「E-02 [SCENE REFERENCE]」SCENE 1-6（已有具體對白）→ 角色 Canon Sheet（ayakomoji_misao.md 全文、iwakura_akane.md 相關段）→ `CANON_DECISION_LOG.md` grep CDL-031/032/050/052/063/064/065/071/083/084/108/141/158/322/323。
+- [x] **Dialogue Blueprint**：5 場完整（情緒連結首次啟動／操亂入與陷阱／晴香擋攻擊·操傲嬌入隊／戰鬥結算·紫音首現／紫音珍寶珠入隊），2 場簡化處理（大型屍骸戰鬥爆發／秘密基地建立任務）。已有 canon 對白（CDL-084/050/052）全部原句保留。
+- [x] **Script**：7 場全寫足完整劇本。場1補咗美夜子非計劃保護動作嘅咬嘴唇 tell（呼應 CDL-083/347，同 SEQ1 場5 同一機制）；場3-4 操登場對白（CDL-050/063/064/065「真難看……呢隻獵物歸我」/「好彩趕得切！妳條裙無整污糟呀嘛？」/「為咗還呢份人情，我勉強答應暫時指導妳哋呢啲庶民」/「唔係入隊。係臨時指導。」）原句保留；場5「那是什麼人？」/「不重要。」（CDL-052）原句保留；場6「食粒糖先啦，雖然無魔法咁好味，但係會飽肚㗎」（CDL-052）原句保留；場7 四人分工新生成短促交叉對白（AI_PROPOSED_CANDIDATE，語氣延伸唔涉身份/主題）。
+- [x] **Coverage Review**：逐場審 Character/Dialogue/Structure/Pacing/Tone/Grounding/Canon Risk。**發現：BLOCKING 0、IMPORTANT 1（場1——美夜子非計劃保護動作缺咬嘴唇 tell，違反 CDL-083/347 已批核機制，已直接修正）、MINOR 1（場7——紫音入隊後首句台詞同場6零對白設計之間缺過渡交代，記錄不修改）、COSMETIC 0**。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。全程冇撞到主題/角色身份/reveal 策略/Act 架構級決定。
+- [x] **寫入**：修正 `ACT_I_SEQUENCE_MAP.md`（SEQ2 核實註記）；新建 `ACT_I_SEQ3_DIALOGUE_BLUEPRINT.md`／`ACT_I_SEQ3_SCRIPT.md`／`ACT_I_SEQ3_COVERAGE_REVIEW.md`。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 194 快照）、`NEXT_ACTION.md`（Round 194 條目）、本檔。
+- **VERDICT = `READY_TO_SCALE`——SEQ1 生產模式喺 SEQ3（角色最多、首次完整登場操+紫音）套用結果穩定，coverage 步驟成功複製並攔截咗 SEQ1 同類機制性遺漏。**
+- **Blocked / handoff**：無 blocker。建議下一步：作者過目 SEQ3 verdict；認同後繼續 SEQ4「代價浮現與疏離感」全條 pipeline。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 193 — 2026-09-11 Act I SEQ1 正式 Script Coverage Review 完成）
+- [x] **性質**：Coverage / Table Read 審稿任務（`RUN_MODE=PRODUCTION`）——審 `ACT_I_SEQ1_SCRIPT.md`（8場正式劇本），決定呢套生產模式跟唔跟落 SEQ2-6。
+- [x] **必讀完成**：`ACT_I_SEQ1_SCRIPT.md`（審稿對象）→ `ACT_I_SEQ1_DIALOGUE_BLUEPRINT.md`（對話結構對照）→ `ACT_I_SEQ1_SCENE_ARCHITECTURE.md`（scene purpose/dramatic question 對照）→ `ACT_I_BEAT_SHEET.md` Beat 0/0c/1/0d/天台使命說明 + E-01 SCENE REFERENCE（obligation 逐條核對）→ 角色 Canon Sheet（haruka.md 全文、miyako.md/akiho.md/aya.md 相關段落，包括 CDL-083/347 咬嘴唇 tell 機制）。
+- [x] **逐場審**：8 場全部過（Character/Dialogue/Structure/Pacing/Tone/Grounding/Canon Risk 七個角度），每個發現標 BLOCKING/IMPORTANT/MINOR/COSMETIC。
+- [x] **發現總數**：BLOCKING 0；IMPORTANT 1（場景5——美夜子非計劃保護動作後缺咬嘴唇 tell + 功利掩飾台詞，違反 Beat Sheet Beat 1 明文 obligation + miyako.md CDL-083/347 已批核機制）；MINOR 1（場景7「IG強行營業」冇完整呈現「得晴香一個人High」集體反差）；COSMETIC 1（場景3三段視線收尾對象同 Blueprint 字面建議有出入，屬改良性偏離）。
+- [x] **IMPORTANT 已直接修正**：`ACT_I_SEQ1_SCRIPT.md` 場景5加咬嘴唇 tell（「貓形態嘅美夜子有半拍不受控咁咬一咬下唇」）+ 功利掩飾台詞（「……戰局仲需要妳，唔准喺度倒低」）+ 一句晴香冇聽出底層意思嘅資訊落差延續句。純屬補齊已批核角色機制忠實度，唔算新創作，唔算 AUTHOR_DECISION。
+- [x] **MINOR/COSMETIC 記錄不修改**：兩項已寫入 coverage review 文件同 Rewrite Priority List，建議 SEQ2-6 寫作時留意，唔強制此輪修改（避免過度加工小段落）。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。
+- [x] **寫入**：新建 `canon/_working/story_construction/ACT_I_SEQ1_COVERAGE_REVIEW.md`（含逐場發現、整體 pacing/tone/canon risk 觀察、Rewrite Priority List、verdict）；修正 `ACT_I_SEQ1_SCRIPT.md` 場景5。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 193 快照）、`NEXT_ACTION.md`（Round 193 條目）、本檔。
+- **VERDICT = `READY_TO_SCALE`——SEQ1 生產模式（Beat Sheet→Blueprint→Scene Architecture→Script、canon 對白保留原則、AI_PROPOSED_CANDIDATE 標註紀律、對白量高低取捨原則）可以直接套用去 SEQ2-6，唔需要結構性調整。**
+- **Blocked / handoff**：無 blocker。建議下一步：作者過目 coverage review verdict；認同後直接開始 SEQ2-6 Script 層生產（優先 SEQ3）。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 192 — 2026-09-11 Act I SEQ1 正式 Script 層完成）
+- [x] **性質**：Script 層生產任務（落一層，喺 Dialogue Blueprint 之下——全條 pipeline 最終一層）——對 SEQ1 全部 8 場戲寫足正式劇本，`RUN_MODE=PRODUCTION`。
+- [x] **必讀完成**：`ACT_I_SEQ1_SCENE_ARCHITECTURE.md`（8 場戲骨架）→ `ACT_I_SEQ1_DIALOGUE_BLUEPRINT.md`（對話結構+已有 canon 對白）→ `ACT_I_BEAT_SHEET.md` 對應 Beat 條目 + 「E-01 [SCENE REFERENCE]」BEAT 0/0c/SCENE1-4/[SQ-A]/[NC]/BEAT 0d/天台使命說明 → 角色 Canon Sheet（haruka/miyako/aya/akiho 全文）→ `CANON_DECISION_LOG.md` grep CDL-087/088/100/113/192/270/272（桐生健四層功能 + 音樂盒墜物件邏輯修正）。
+- [x] **Readiness 自我檢查先行**：角色 voice 支撐（晴香/美夜子/桐生健 CDL 充足；彩/黑奏 SEQ1 全程刻意沉默屬設計本身）、場景/心理/關係具體度、gameplay 交付部分全部足夠，冇 `[RISK: VOICE_UNDERSUPPORTED]` 場次。
+- [x] **8 場戲全部寫足**：場景 1 破曉日常（家中→街道一鏡到底，兩句自我嘀咕 canon 原句）；場景 2 走廊欺凌與僵局（CDL-129/130「你係咩人？關你事？」/「你知我係咩人囉」原句保留）；場景 3 屍骸攻入與裝置交付（CDL-109「用它。現在。」/「這係——？」原句保留，按 CDL-272 修正裝置交付動作為「美夜子觸碰晴香已佩戴嘅盒墜、強行啟動」）；場景 4 初次變身雙層現實（晴香真實視角 vs 直播視角雙欄對照）；場景 5 戰鬥·笨拙的英雄（桐生健撿椅子砸屍骸，晴香冇睇見·觀眾睇見嘅資訊差設計原樣保留）；場景 6 膠布哲學第一層（CDL-100/088/091/113「等等——」/「記憶同真相，唔可以咁輕易被抹走」/「痛係證據。咁先知道自己係真實嘅」原句保留）；場景 7 日常蒙太奇（CDL-082「下次一齊去食嘢吧」/「下次係幾時？」原句保留）+ 夜晚熱可可儀式（Beat 0d，無台詞純視覺，鏡頭推遠）；場景 8 天台使命說明（CDL-103/055「妳點解會被選中」/「裝置已綁定妳」/「妳就係大眾嘅鎮靜劑」/「咁我要點做？」原句保留，美夜子回應句「跟住我做就得」為新生成 AI_PROPOSED_CANDIDATE）。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。已有 canon 對白全部原句使用，未改一字，未推翻任何已批核角色設定/CDL；唯一新生成對白（天台場景美夜子回應句）屬安全範圍內嘅執行細節，唔涉及角色核心身份/主題立場改變，`QUESTION_QUEUE.md` 冇更新。
+- [x] **Housekeeping 修正**：CDL-272（2026-05-08 已作者確認）修訂 CDL-109「裝置緊急交予」描述為「緊急啟動/授權活化」，Scene Architecture/Dialogue Blueprint 兩份上游文件沿用舊描述未同步更新；本劇本場景 3 已按 CDL-272 修正物件邏輯（音樂盒墜由頭到尾都係晴香本人裝置），動作/台詞骨架不變，純屬物件邏輯修正、唔改動戲劇骨架。
+- [x] **寫入**：新建 `canon/_working/story_construction/ACT_I_SEQ1_SCRIPT.md`（全份標 `[DRAFT / 暫定 — pending full-story beat lock]`，含文末完整 Readiness 自我檢查記錄）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 192 快照）、`NEXT_ACTION.md`（Round 192 條目）、本檔。
+- **VERDICT = `ACT_I_SEQ1_SCRIPT_DRAFT_COMPLETE`——Act I 第一段戲（開場到天台使命說明）已經有齊 Outline→Beat Sheet→Sequence→Scene→Dialogue Blueprint→Script 全條 pipeline。**
+- **Blocked / handoff**：無 blocker。建議下一步：作者過目 SEQ1 示範 Script 定風格（篇幅/對白節奏/方向性提示詳略度是否合意），批核後再繼續 SEQ2-6 嘅 Script 層（優先 SEQ3，角色最多）；或直接跟住做落去。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 191 — 2026-09-11 Act I SEQ1 Dialogue Blueprint 層設計）
+- [x] **性質**：Dialogue Blueprint 層設計任務（落一層，喺 Scene Architecture 之下、Script 之上）——對 SEQ1 有實質對話/角色互動嘅場戲設計對話結構，唔寫最終對白 wording。
+- [x] **必讀完成**：`ACT_I_SEQ1_SCENE_ARCHITECTURE.md`（8 場戲場景骨架，本文件直接建基於此）→ `ACT_I_BEAT_SHEET.md` 正式 Beat Sheet 層 Beat 0/0c/1/0d/天台使命說明 五個條目 + 下方「E-01 [SCENE REFERENCE]」已有具體對白段（CDL-129/130/109/100/088/091/113/103/055/082）→ 角色 Canon Sheet（haruka 全文 + miyako/aya 語氣相關段）→ `CANON_DECISION_LOG.md` CDL-087/088/100/113（桐生健 Act I 功能）。
+- [x] **四場完整 Dialogue Blueprint**：場景 2 走廊欺凌與僵局（3 段：桐生健嘲弄彩→晴香介入→僵局懸空被打斷）；場景 3 屍骸攻入與裝置交付（2 段：屍骸破門動作段→美夜子急令交付裝置）；場景 6 膠布哲學第一層[SQ-A]桐生健尾聲（3 段：美夜子準備SOP→晴香阻止核心轉折→貼膠布桐生健低語收結）；場景 8 天台使命說明（3 段：空間確立沉默開場→使命解說半真半假核心段→晴香主動接受權力轉移）。每段完成 conversation section／who drives／各自想要咩／隱瞞緊咩／權力轉移／打斷沉默設計／subtext／escalation／戲劇功能。
+- [x] **已有 canon 對白全部保留**：CDL-129/130（「你係咩人？關你事？」/「你知我係咩人囉」）、CDL-109（「用它。現在。」/「這係——？」）、CDL-100/088/091/113（「等等——」/「記憶同真相，唔可以咁輕易被抹走」/「痛係證據」）、CDL-103/055（「妳點解會被選中」/「裝置已綁定妳」/「妳就係大眾嘅鎮靜劑」/「咁我要點做？」）、CDL-082（「下次一齊去食嘢吧」/「下次係幾時？」）全部直接引用標明來源，未推翻一字。
+- [x] **四場簡化處理**（對白量低）：場景 1 破曉日常（兩句自我嘀咕已有 canon）、場景 4 初次變身（UI/彈幕非角色對白）、場景 5 戰鬥（動作為主，美夜子掩飾對白留 Script 層）、場景 7 日常蒙太奇（「下次呢？」單拍式已有 canon；Beat 0d「無台詞純視覺」）。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。全部已有對白嚟自已批核 Beat Sheet/CDL；本文件只做結構組織（分段/權力轉移/subtext 標註），未新創任何具重大主題份量嘅台詞內容；唯一新增執行細節（晴香接裝置前三段式視線動作）純 AI_PROPOSED_CANDIDATE，`QUESTION_QUEUE.md` 冇更新。
+- [x] **寫入**：新建 `canon/_working/story_construction/ACT_I_SEQ1_DIALOGUE_BLUEPRINT.md`（全部標 `[DRAFT — AI_PROPOSED_CANDIDATE，待作者過目]`）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 191 快照）、`NEXT_ACTION.md`（Round 191 條目）、本檔。
+- **VERDICT = `ACT_I_SEQ1_DIALOGUE_BLUEPRINT_DRAFT_COMPLETE`。**
+- **Blocked / handoff**：無 blocker。建議下一步：跑 `story-dialogue-readiness-gate` 檢視 SEQ1 係咪已夠料寫正式 Script（四場核心對話已有結構+已有台詞基礎）；或作者過目 blueprint 先。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 190 — 2026-09-11 Act I SEQ2-6 場景架構 / Scene 層設計完成）
+- [x] **性質**：Scene 層架構設計任務，延續 Round 189（SEQ1 示範）——對 SEQ2 到 SEQ6（Act I 剩餘 5 個 sequence）逐場戲定義場景骨架，跟 SEQ1 同一格式同深度，未寫對白。
+- [x] **必讀完成**：`ACT_I_SEQ1_SCENE_ARCHITECTURE.md`（格式範本）→ `ACT_I_SEQUENCE_MAP.md`（SEQ2-6 完整定義）→ `ACT_I_BEAT_SHEET.md`「正式 BEAT SHEET 層」SEQ2-6 涵蓋嘅全部 beat 條目（天台使命說明／Beat 4.5(E-1.5)／Beat 2(E-02)／Beat 2.5(E-02.5)／Beat 2.6([NC]秘密基地)／Beat 3(E-03)／Beat 4.2(彩正式入隊)／Beat 5(E-04)／Beat 6(E-XX)，跟修正後次序 Beat 3→4.5→5→4.2）→ 同一份檔案「E-01/E-02 [SCENE REFERENCE]」E-02 SCENE 1-6 執行細節 → 角色 Canon Sheet（haruka/miyako/aya含黑奏/ayakomoji_misao/iwakura_akane/yu）→ `10_gameplay_bible.md`。
+- [x] **SEQ2「消化與承諾」**：拆 1 場（天台使命說明）——Beat 0d 夜晚段落已於 SEQ1 場景 7 完整呈現，本文件唔重複，只做天台對話呢個獨立收尾場景。
+- [x] **SEQ3「偽亮色隊伍組建期」**：拆 7 場（大型屍骸戰鬥爆發／情緒連結首次啟動／操亂入與陷阱／晴香擋攻擊·操傲嬌入隊／戰鬥結算·紫音首現／紫音珍寶珠入隊／秘密基地建立任務）——跟 E-02 SCENE REFERENCE 既有 6 場切分 + Beat 2.5/2.6 細化，Scene 3-4 合併操亂入/陷阱/入隊嘅因果連續段落。
+- [x] **SEQ4「代價浮現與疏離感」**：拆 4 場（後遺症現象層展示／慶功對比·可樂失味／日常互動中嘅切換目睹／若無其事·不安沉澱）——場景 3 開首加時間過場提示，回應 Beat Sheet Layer-Completion Review 對 Beat 3→Beat 4.5 非 causal bridge 嘅建議。
+- [x] **SEQ5「體制壓迫初現」**：拆 5 場（悲鳴女妖壓倒性攻勢／紫音超載衝動·美夜子阻止／情緒管理局暗中干預·凜前史閃回／戰後脆弱恢復期／彩正式入隊）——新增場景 4「戰後脆弱恢復期」作為 Beat 5→Beat 4.2 因果鏈（全員重傷→彩提出幫手）嘅 Scene 層橋接。
+- [x] **SEQ6「幕末：夕的顯現」**：拆 3 場（雙重夾擊·觸發前獨處／鏡中夕顯現·道歉與融合／回歸隊伍·偽溫暖收結）——跟足 Beat Sheet 已確認嘅 D 型歉疚共情整合設計，冇新創心理判斷。
+- [x] **每場完成全部要求欄位**：同 SEQ1 一致（scene boundary/purpose/dramatic question/objectives-obstacles-stakes/turn/subtext/entry-exit value/blocking/expression carriers/player control/gameplay consequence）。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項，全部 5 個 sequence。全部場景架構決定屬純組織/邊界揀選（AI_PROPOSED_CANDIDATE），冇涉及主題/角色身份/reveal 策略改動，`QUESTION_QUEUE.md` 冇更新。
+- [x] **寫入**：新建 5 個檔——`ACT_I_SEQ2_SCENE_ARCHITECTURE.md`、`ACT_I_SEQ3_SCENE_ARCHITECTURE.md`、`ACT_I_SEQ4_SCENE_ARCHITECTURE.md`、`ACT_I_SEQ5_SCENE_ARCHITECTURE.md`、`ACT_I_SEQ6_SCENE_ARCHITECTURE.md`，全部標 `[DRAFT — AI_PROPOSED_CANDIDATE，待作者過目]`。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 190 快照）、`NEXT_ACTION.md`（Round 190 條目）、本檔。
+- **VERDICT = `ACT_I_SEQ2_TO_6_SCENE_ARCHITECTURE_DRAFT_COMPLETE`——Act I 全部 6 個 sequence 嘅 Scene 架構層已完成。**
+- **Blocked / handoff**：無 blocker。等作者過目 SEQ2-6（連同已有 SEQ1），批核後 Act I 進入 Dialogue Blueprint 層。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 189 — 2026-09-11 Act I SEQ1 場景架構 / Scene 層設計）
+- [x] **性質**：Scene 層架構設計任務（落一層，喺 Sequence Boundary 之下、Dialogue Blueprint 之上）——對 SEQ1「破曉與命運闖入」逐場戲定義場景骨架，未寫對白。
+- [x] **必讀完成**：`ACT_I_SEQUENCE_MAP.md`（SEQ1 定義）→ `ACT_I_BEAT_SHEET.md`「正式 BEAT SHEET 層」Beat 0／Beat 0c／Beat 1／Beat 0d／天台使命說明五個條目 → 同一份檔案「E-01 [SCENE REFERENCE]」執行細節段 → 角色 Canon Sheet（haruka/miyako/aya含黑奏/akiho）+ CDL-087/088/100/192/262（桐生健 Act I 功能同膠布哲學第一層）→ `10_gameplay_bible.md`（player control/UI 相關段落）。
+- [x] **場景切分**：跟 Sequence Map「7-8 場」粗估同 E-01 SCENE REFERENCE 既有切分，拆成 **8 場戲**：①破曉日常（家中→街道）②走廊欺凌與僵局③屍骸攻入與裝置交付④初次變身：雙層現實⑤戰鬥：笨拙的英雄⑥膠布哲學第一層（[SQ-A]）⑦日常蒙太奇與夜晚獨處（[NC]日常組+Beat0d合併）⑧天台使命說明。
+- [x] **每場完成全部要求欄位**：scene boundary／scene purpose／dramatic question／objectives（跟 Beat Sheet 已有 participant intentions）／obstacles／stakes／turn／subtext／entry-exit value／blocking 邏輯／expression carriers（對話/動作/沉默/環境/gameplay 分配，避免重複解說）／player control／gameplay consequence。全部以 Beat Sheet 已批核內容做基礎，冇自行新創情節。
+- [x] **記錄一項 Scene 層邊界差異**：場景 7 將 [NC] 日常場景組（屬 SEQ1）同 Beat 0d 夜晚段落（Sequence Map 定義屬 SEQ2 開端）合併做同一場戲，純屬 Scene 層執行彈性安排，已喺文件內明確標註呢個合併唔改變 Sequence Map 嘅 Beat 歸屬定義，Script 層如需嚴格對齊可拆返兩段。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。全部場景架構決定屬純組織/邊界揀選（AI_PROPOSED_CANDIDATE），冇涉及主題/角色身份/reveal 策略改動，`QUESTION_QUEUE.md` 冇更新。
+- [x] **寫入**：新建 `canon/_working/story_construction/ACT_I_SEQ1_SCENE_ARCHITECTURE.md`（8 場戲完整場景架構 + 邊界差異說明 + author-decision 檢查，全部標 `[DRAFT — AI_PROPOSED_CANDIDATE，待作者過目]`）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 189 快照）、`NEXT_ACTION.md`（Round 189 條目）、本檔。
+- **VERDICT = `ACT_I_SEQ1_SCENE_ARCHITECTURE_DRAFT_COMPLETE`。**
+- **Blocked / handoff**：無 blocker。等作者過目 SEQ1 場景架構示範，批核後決定繼續 SEQ2-6 場景架構，定係先停喺呢度。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 188 — 2026-09-11 Act I Sequence Boundary 設計）
+- [x] **性質**：Sequence Boundary 設計任務（落一層，喺 Beat Sheet 之下、Scene 之上）——決定 13 個已完成 beat 應該點樣組織成連續戲劇段落。
+- [x] **必讀完成**：`ACT_I_OUTLINE.md` 全文（v1.22）→ `ACT_I_BEAT_SHEET.md`「正式 BEAT SHEET 層」全部 13 個 beat 條目 → `CROSS_ACT_FORESHADOW_MANIFEST.md`。
+- [x] **提出 3 個分段方案**：方案 A（跟場景地點分，8 sequence）、方案 B（戲劇單元/cost-signal-bounded，6 sequence，**推薦**）、方案 C（純戰鬥次數分，4-5 巨型 sequence）。AI 自行揀選方案 B——純結構決定，屬 AI_PROPOSED_CANDIDATE，唔設 author-choice 提問。
+- [x] **完成推薦方案 6 個 sequence**：SEQ1 破曉與命運闖入（Beat0+0c+1/E-01+SQ-A+NC，7-8場）／SEQ2 消化與承諾（Beat0d+天台使命，2-3場）／SEQ3 偽亮色隊伍組建期（Beat2/E-02+2.5+2.6NC，6-7場）／SEQ4 代價浮現與疏離感（Beat3/E-03+4.5/E-1.5，4場）／SEQ5 體制壓迫初現（Beat5/E-04+4.2彩入隊，4-5場）／SEQ6 幕末：夕的顯現（Beat6/E-XX，3場）。每個都落齊開始事件、結束事件、核心戲劇問題、場景數量粗估、同下一 sequence 銜接方式（無縫/時間跳躍/場景轉換）。
+- [x] **⚠️ 過程中發現文件內部矛盾並修正**：設計 sequence 邊界時發現 `ACT_I_BEAT_SHEET.md` 頭述行 + Beat 4.5／Beat 3／天台使命三個條目嘅 exit state 欄位，將 Beat 4.5（E-1.5）錯放喺 Beat 2 之前、Beat 4.2（彩入隊）錯放喺 Beat 5 之前。三方證據（Beat 4.5 自己 entry state 引 CDL-138「E-03後」；Beat 4.2 自己觸發條件引 CDL-151「E-04後」；`ACT_I_OUTLINE.md` v1.22 已批核頭述行本身就係 Beat3→4.5→5 順序）一致指向排序錯誤。已修正 `ACT_I_BEAT_SHEET.md` 4 處（頭述行、天台使命/Beat 4.5/Beat 3 嘅 exit state 及 pressure into next beat 欄位、Missing bridges 表列），全部加 housekeeping correction 註記，同 Outline v1.22 / Round 186 嗰種修正同一性質。**純標示錯誤，唔涉及任何 beat 內容改動，0 個 AUTHOR_DECISION**。
+- [x] **Cross-Act Foreshadow 落點檢查**：對照 `CROSS_ACT_FORESHADOW_MANIFEST.md` 全部 Act I plant（P-A01~P-A25）確認冇一個需要跨 sequence 邊界先完成植入。
+- [x] **AUTHOR_DECISION 撞擊檢查**：0 項。上面嘅排序錯誤屬結構性 housekeeping，唔算 AUTHOR_DECISION，**`QUESTION_QUEUE.md` 冇更新**。
+- [x] **寫入**：新建 `canon/_working/story_construction/ACT_I_SEQUENCE_MAP.md`（推薦方案 + 方案比較 + 6 個完整 sequence + foreshadow 檢查 + author-decision 檢查，全部標 `[DRAFT — AI_PROPOSED_CANDIDATE，待作者過目]`）；`canon/_working/story_construction/ACT_I_BEAT_SHEET.md`（4 處 housekeeping correction）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 188 快照）、`NEXT_ACTION.md`（Round 188 條目）、本檔。
+- **VERDICT = `ACT_I_SEQUENCE_MAP_DRAFT_COMPLETE`。**
+- **Blocked / handoff**：無 blocker。等作者過目 6 個 sequence 分段方案，批核後進入 Scene 層設計。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 187 — 2026-09-11 Act I Beat Sheet 正式生產，RUN_MODE=PRODUCTION）
+- [x] **性質**：正式 Beat Sheet 層生產任務（唔係 housekeeping、唔係 exploratory discussion）——將已批核嘅 `ACT_I_OUTLINE.md` v1.22 內容拆解落 13 個 beat 嘅抽象欄位。
+- [x] **必讀順序完成**：`BEAT_SHEET_SOURCE_MANIFEST.md`（Tier分層規則）→ `ACT_I_OUTLINE.md` 全文（v1.22，兩頁）→ 現有 `ACT_I_BEAT_SHEET.md`（E-01/E-02 SCENE REFERENCE）→ `CROSS_ACT_FORESHADOW_MANIFEST.md`（Act I plant 清單 P-A01~P-A25）→ 7 個角色 Canon Sheet（haruka/miyako/aya含黑奏/akiho/iwakura_akane即紫音/ayakomoji_misao即操/yu）→ `consequence-driven-progression.md`（Cost Signal 分類準則）。
+- [x] **完成 13 個 beat**（次序：Beat 0 → 0c → 1(E-01) → 0d → 天台使命說明 → 4.5(E-1.5) → 2(E-02) → 2.5(E-02.5) → 2.6([NC]秘密基地) → 3(E-03) → 4.2(彩正式入隊) → 5(E-04) → 6(E-XX)），每個 beat 完成全部 18 個抽象欄位 + Cost Signal applicability 分類（`COST_SIGNAL_REQUIRED`/`OPTIONAL`/`NOT_APPLICABLE`，附理由）+ 9 軸 Obligation Pass（character arc/relationship/knowledge-reveal/theme-stance三態/setup-payoff/world rule/gameplay/directing grammar/cross-act dependency）+ DOWNSTREAM REFERENCES。
+- [x] **決策分類統計**：全部 13 beat 均屬 AUTO_RESOLVABLE（Outline 已有內容直接拆解）或 AI_PROPOSED_CANDIDATE（Outline 冇明講但可安全推導嘅抽象細節，已標 provisional 於各欄位敘述中）。**0 個 AUTHOR_DECISION**——冇涉及主題/道德立場改動、角色身份不可逆改變、重大關係意義改寫、reveal策略改動或 Act 架構級改動；純粹係已批核 Outline 內容嘅結構化拆解。
+- [x] **輕量 Layer-completion review 執行**（13 beat 完成後）：掃 causal flow／character progression／relationship progression／knowledge-reveal progression／theme progression／setup-payoff／world-rule exposure／gameplay progression／tonal progression／breathing room／duplicate carriers／missing bridges／cross-act obligations 13 個檢查軸。結果：AUTO_FIX 1 項（誘惑三線種子——彩CDL-355/夕CDL-355/紫音CDL-356——落點喺對應beat嘅setup/payoff欄位標明）；AI_PROPOSED_REVISION 1 項（Beat 3→Beat 4.2、Beat 4.5→Beat 2 之間純屬時間推進嘅敘事銜接，非 causal bridge，已喺對應 beat「pressure into next beat」欄位註明「純敘事銜接」，畀 Scene 層留意需加時間流逝提示）；AUTHOR_DECISION 0 項。全部 CROSS_ACT_FORESHADOW_MANIFEST.md 已知 Act I plant（P-A01~P-A25）覆蓋核對完成，包括 P-A09（紫音手臂傷口）已按最新 CDL-240 PAID 狀態沿用，冇重新 plant。
+- [x] **順手修正**：`ACT_I_BEAT_SHEET.md` 頭述 stale label（「依據 ACT_I_OUTLINE.md v1.8」→「v1.22」；「正式 Beat Sheet 工作將在 Outline 修訂完成後重新開始」→ 更新現況說明已完成）——屬 AUTO_RESOLVABLE stale label 修正，唔涉及創作判斷。
+- [x] **寫入**：`canon/_working/story_construction/ACT_I_BEAT_SHEET.md`（頭部新增「正式 BEAT SHEET 層（2026-09-11 生產）」完整章節，原 E-01/E-02 SCENE REFERENCE 一字不改保留喺下面）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 187 快照）、`NEXT_ACTION.md`（Round 187 條目 + 下一步）、本檔。**`QUESTION_QUEUE.md` 冇更新**——本輪冇產生任何新 open/deferred/resolved 問題（0 AUTHOR_DECISION）。
+- **VERDICT = `ACT_I_BEAT_SHEET_DRAFT_COMPLETE`。**
+- **Blocked / handoff**：無 blocker。等作者過目 13 個 DRAFT beat（尤其「亮 vs 不安」情感比例分佈是否符合預期），批核後進入 Sequence/Scene 層。主阻塞點不變（Act IV Outline 正式設計）。
+
+## Completed This Round（Round 186 — 2026-09-11 小型 housekeeping 修正 pass）
+- [x] **性質**：作者明確要求「小型 housekeeping correction pass」——唔係故事改動、唔係新架構，純修正已證實嘅 stale label / ordering 錯誤。
+- [x] **掃描範圍（narrow，per 作者指示）**：`ACT_I_OUTLINE.md`、`ACT_I_BEAT_SHEET.md`、`QUESTION_QUEUE.md`、`QUESTION_MATRIX.md`、`CANON_DECISION_LOG.md`、`REASONING_LOG.md`、`PROJECT_STATUS.md`、`NEXT_ACTION.md`。
+- [x] **Fix 1**：`ACT_I_OUTLINE.md` header「正確敘事順序」Beat 0d/Beat 1 次序錯誤（`LOCAL_ORDERING_ERROR`，證據 CDL-123 + CDL-103 + REASONING_LOG）→ 改做 `...Beat 1（E-01）→ Beat 0d（E-01當晚）...`；加 dated correction 註；version v1.21→v1.22 + changelog。**Beat 0d/Beat 1 本身內容全部不變。**
+- [x] **Fix 2**：開放項表「AKS-S1 植入位置」stale「BLOCKED pending QQ-03」（QQ-03 其實已 RESOLVED CDL-190）→ 改做「RESOLVED（QQ-03/CDL-190）：Act II末期/Text Prop型/不阻 Act I」。
+- [x] **評估但冇改**：`SUFFERING_CHOICE_BREATHING_SCAN.md`（同類次序但唔喺允許掃描範圍內，OUT_OF_SCOPE）；`ACT_I_BEAT_SHEET.md`／`QUESTION_MATRIX.md`／`PROJECT_STATUS.md`／`REASONING_LOG.md`／`CANON_DECISION_LOG.md`（ALREADY_CORRECT，冇 stale claim）。
+- [x] **0 個 `AUTHOR_DECISION_REQUIRED`**——兩個 fix 都有 conclusive 既有證據支持，冇涉及創作判斷。
+- [x] **審計記錄**：`canon/_working/.tmp/story_runs/housekeeping_2026-09-11/00_housekeeping_audit.md`（candidate 分類表 + writeback record + validation checklist）。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 186 快照）、`NEXT_ACTION.md`（Round 186 條目）、本檔。
+- **VERDICT = `HOUSEKEEPING_CLEAN`。**
+- **Blocked / handoff**：無。Repo 對正式 Act I Beat Sheet production（獨立 run，`RUN_MODE=PRODUCTION`）已冇已知 bookkeeping 障礙。主阻塞點不變（Act IV Outline）。第一條導演問題不變（Act I 亮 vs 不安比例）。
+
+## Completed This Round（Round 185 — 2026-09-10 Progressive Preproduction Pack 全流程執行 — workflow 基建 retrofit）
+- [x] **性質**：作者提供 full execution prompt（`tools/ProjectHaruka_Progressive_Preproduction_Pack`），授權 continuous run + Local Vertical Refinement Policy + C3/C4 resolution。非故事 canon 改動。Active agent = Claude（`.claude/` = 主系統，`.agents/` = secondary reference only）。
+- [x] **Stage 0（revalidated, Claude-authoritative）**：第一版錯用 `.agents` 缺乜做 gap；作者更正後重評。26 能力：22 KEEP、2 PATCH（stale）、0 PORT、真 gap 得 2（G1 Beat Sheet 層無 owner；G2 無 progressive orchestration mode）。
+- [x] **Stage 1**：current-truth baseline（Round 184 / CDL-408）+ Fact Map delta scoped（baseline 2026-06-22 → CDL-200→408，impacted domains 列咗，未 rebuild = non-blocking）。author-gate conflicts：AG-1 Act IV Outline、AG-2 Round 183 A–G、AG-3 Round 156 涼薄、AG-4 Act I Outline stale label、AG-5 操父親陰影種子。全部唔阻 Act I Beat Sheet。
+- [x] **Stage 2**：7 個 control file 加 FRESHNESS banner（`CONTROL_OBJECTIVES_MASTER` + `GROUP_WORLDVIEW_CONFLICT_MAP` = STALE；`CROSS_ACT_CONTROL_LAYERS` / `HARD_CONSTRAINTS_TABLE` / `KNOWLEDGE_DEPENDENCY_MAP` / `RELEVANT_FILES_TABLE` / `CONSIDERATIONS_REGISTER` = PARTIALLY_STALE）+ `BEAT_SHEET_SOURCE_MANIFEST` 註。深度重建 = non-blocking follow-up。
+- [x] **Stage 3**：foundation readiness —— 所有 foundation（character / directing / gameplay / voice / temp workspace / sequence→scene handoff）有 owner。0 new。
+- [x] **Stage 4（核心）**：改 `CLAUDE.md` pipeline 段（Local Vertical Refinement Policy，解 C2 內部規則自撞）；`story-orchestrator`（+ Progressive Coarse-to-Fine Authoring Mode + 三分類 decision classes 解 C3 + first-question rule）；`story-router`（+ PROGRESSIVE_AUTHORING mode + C4 sync-skill ownership）；`story-room`（+ Beat Sheet Production Mode = G1 正式 owner，EXTEND 解）；`story-dialogue-readiness-gate`（對齊 policy）。**新 skill/file/folder = 0。**
+- [x] **Stage 5**：resume / trace / change-impact —— walkthrough PASS；1 個 micro-field（`NEXT_ACTION.md` 加 `Layer:` + `Run workspace:`）待第一個 progressive round 落。
+- [x] **Stage 6**：regression A–J 10/10 PASS（walkthrough against patched skills）。
+- [x] **Stage 7**：Act I readiness dry run（real data）—— 最高未完成層 = **Act I Beat Sheet**（Outline v1.21 APPROVED；E-01/E-02 = SCENE_REFERENCE）。第一條真導演問題 = Act I「亮 vs 不安」情感比例。
+- [x] **Run record**：`canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/`（00–14）。
+- [x] **Traceability Closure Pass（2026-09-11，作者追加要求）**：Fact Map 真 baseline ≈ CDL-290（BUILD_LEDGER + Git，非 FACT_MAP_FINAL_STATUS）。CDL-291→408 = 119 entry，~110 material，全部已入 canon `*.md`（writeback discipline 守住，8/8 spot-check pass 含完整 provenance chain），**0 入 Fact Map**。Primary provenance chain（canon inline CDL → CANON_DECISION_LOG → 作者決定+日期）獨立於 Fact Map、CLOSED。Fact Map 每個 domain stale，`STALE_FACTS_MARKED_CURRENT > 0`。已加 banner（唔改 canon）：`canon_fact_map/BUILD_LEDGER.md`（+ delta status + 已知 superseded 值清單）／`FACT_MAP_FINAL_STATUS.md`／`CLAIM_INDEX.md`／`DOC_REGISTER.md`（freshness column stale）。**冇建新 Fact Map / registry。** 報告 = `14_traceability_closure_report.md`。**VERDICT = `CURRENT_CANON_TRACEABILITY_PARTIAL`**（2/4 hard target green；stale-facts target 要 delta rebuild 先 zero）。Remedy = `story-canon-fact-map-builder` INCREMENTAL（baseline CDL-290 → HEAD）。唔阻 Act I Beat Sheet。
+- [x] **更新 durable state**：`PROJECT_STATUS.md`（Round 185 快照）、`NEXT_ACTION.md`（Round 185 條目 + 下一步）、本檔。
+- **READINESS = PARTIALLY_READY_WITH_NONBLOCKING_GAPS。**
+- **Blocked / handoff**：等作者回應第一條 Act I Beat Sheet 導演問題（亮 vs 不安比例）。主阻塞點（Act IV Outline）不變，但 Local Vertical Refinement Policy 之下唔再阻 Act I。**Non-blocking follow-up**：6 stale 戰略 doc 深度重建 vs CDL-200→408；Fact Map incremental delta；Act I Outline line 367 stale label（QQ-03 已 RESOLVED CDL-190）待 gate。
+
 ## Completed This Round（Round 184 — 2026-09-10 美夜子「八千代型底色」reframe canon writeback）
 - [x] **性質**：作者明確確認（非 exploratory），canon writeback sub-agent。延續 QQ-224 D／Round 183 討喜度討論嘅美夜子部分。參照《魔法紀錄》七海八千代質感（非照抄）。
 - [x] **影響掃描**（做喺改之前）：grep `canon/` + `canon/_working/` 搵「解離性麻木／真冷漠／排他性忠誠／圈外冷淡」。**需要跟住 reframe 微調嘅 load-bearing 位（已改）**：`miyako.md` §故作堅強 CDL-337 忠誠段、`character-voice-bibles/miyako.md`（3 處：第 2 節忠誠段／第 3 節忠誠規則/第 5 節圈外候選句式）、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` 正面特質欄、`iwakura_akane.md` 習慣 #12 一句。**核對後確認唔使改（描述「防衛姿態／情緒隔離」，reframe 保留呢層）**：`02_glossary.md` L795「美夜子的冷漠」＋L1154「美夜子冷漠（情緒隔離）」、CDL-195「美夜子＝冷漠/情緒切斷（隔離法）」、CDL-068/095「功能性冷漠」（Act I exposition 語氣）、`ACT_I_OUTLINE.md`/`ACT_III_OUTLINE.md`「冷漠解說／冷漠隊長」（語氣/弧線起點，同 reframe 兼容）、`TEMP_FULL_STORY_OUTLINE.md`「冷漠但可信任嘅引導者」（皇道敘事表象）、`miyako.md` §存在確認測試「重度解離」（明確 acute、貓殼碎裂後）。**冇 flag 任何未決位——全部落點清晰。**

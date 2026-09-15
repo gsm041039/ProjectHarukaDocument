@@ -1,5 +1,7 @@
 # Group Worldview Conflict Map
 
+> ⚠️ **FRESHNESS: STALE as-of 2026-09-10.** 最後實質更新 ≈ 2026-04-15。Round 120–184 群體 / 制度 / 世界機制立場 reframe（Beta 三層世界、帝國採集端、見證守則、操控奇蹟鏈）未反映。用之前對 `CANON_DECISION_LOG.md`（至 CDL-408）+ `IDEOLOGY_THEME_STANCE_MATRIX.md`（較新，2026-08-16）revalidate。深度重建見 `06_control_reconciliation_ledger.md`。
+
 **Layer: 群體層**
 **Purpose:** 記錄故事中各個群體/勢力/制度的世界觀及其衝突關係。角色是個人，但群體是意識型態的集體承載者。
 

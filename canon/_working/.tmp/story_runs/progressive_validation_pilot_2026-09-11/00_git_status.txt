@@ -1,0 +1,38 @@
+ M .claude/skills/story-dialogue-readiness-gate/SKILL.md
+ M .claude/skills/story-orchestrator/SKILL.md
+ M .claude/skills/story-room/SKILL.md
+ M .claude/skills/story-router/SKILL.md
+ M CLAUDE.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/00_target_and_constraints.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/01_system_ownership_audit.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/02_workflow_contradictions.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/03_stale_control_map.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/13_run_manifest.md
+ M canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md
+ M canon/_working/NEXT_ACTION.md
+ M canon/_working/PROJECT_STATUS.md
+ M canon/_working/SESSION_LEDGER.md
+ M canon/_working/canon_fact_map/BUILD_LEDGER.md
+ M canon/_working/canon_fact_map/CLAIM_INDEX.md
+ M canon/_working/canon_fact_map/DOC_REGISTER.md
+ M canon/_working/canon_fact_map/FACT_MAP_FINAL_STATUS.md
+ M canon/_working/story_construction/CONSIDERATIONS_REGISTER.md
+ M canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md
+ M canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md
+ M canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md
+ M canon/_working/story_construction/HARD_CONSTRAINTS_TABLE.md
+ M canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md
+ M canon/_working/story_construction/RELEVANT_FILES_TABLE.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/04_source_freshness_and_factmap_delta.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/05_author_gate_conflicts.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/06_control_reconciliation_ledger.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/07_foundation_readiness.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/08_progressive_routing_design.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/09_implementation_ledger.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/10_resume_trace_impact_test.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/11_regression_results.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/12_act_i_readiness_dry_run.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/14_traceability_closure_report.md
+?? canon/_working/.tmp/story_runs/progressive_validation_pilot_2026-09-11/
+---HEAD---
+e4c5743aeba67c57c74178d2b896f8d508617922

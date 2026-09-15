@@ -1,6 +1,8 @@
 # KNOWLEDGE DEPENDENCY MAP
 Built: 2026-03-25 | 基於 FULL_STORY_ROUGH_OUTLINE_AUDIT + CROSS_ACT_CONTROL_LAYERS
 
+> ⚠️ **FRESHNESS: PARTIALLY_STALE as-of 2026-09-10** (last real edit 2026-06-19). 概念 / 揭示層核心對事件移位有抗性、大致仍可用。缺 Round 120–184 新增 reveal 線（Beta 世界真相層、榮格框架、操控奇蹟鏈、晴香＝寫語言者）。狀態欄（AUDIENCE KNOWS / CHARACTER BELIEVES / OBJECTIVE TRUTH / DEFERRED / BLOCKED / RESOLVED）逐條用前對 `CANON_DECISION_LOG.md` + `QUESTION_QUEUE.md` revalidate。唔可以憑本表發明未解決嘅 reveal timing。
+
 對每個重要揭示/概念/事件，記錄四類依賴：
 - **A. 術語前置**（觀眾需要先知道哪些術語/概念）
 - **B. 世界規則前置**（需要先理解哪條世界規則）

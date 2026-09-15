@@ -1,5 +1,10 @@
 # Control Objectives Master
 
+> ⚠️ **FRESHNESS: STALE as-of 2026-09-10.** 本表主體最後一次實質更新 ≈ 2026-04-15，落後約 5 個月 / ~CDL-160→CDL-408。
+> Beta 世界三層、榮格三階段框架、操控奇蹟鏈、哥德形態導演語言、見證守則、心理具現化、美夜子八千代型 reframe 等 Round 120–184 決定**未反映**。
+> **使用規則**：呢表現時只可當「Act I–III 控制骨架的歷史 baseline」。任何 control-line 目標狀態 / 進度 / 承載媒介欄，用之前必須對 `CANON_DECISION_LOG.md`（至 CDL-408）+ `PROJECT_STATUS.md`（至 Round 184）revalidate。
+> 深度重建 = 已排入 follow-up（見 `canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/06_control_reconciliation_ledger.md`）。
+
 **Layer: 全作控制層（最高層）**
 **Purpose:** 全作控制任務總表。記錄每條 control line 的目標狀態、當前進度、承載媒介、及是否已有事件承載。
 

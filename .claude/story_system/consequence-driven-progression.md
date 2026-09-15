@@ -23,9 +23,19 @@
 
 ---
 
+## Cost Signal Applicability Classification（2026-09-11 新增）
+
+**唔係每個 Beat 都需要 Cost Signal。** 寫每個 Beat 之前，先分類：
+
+- **`COST_SIGNAL_REQUIRED`** —— 呢個 beat 嘅戲劇功能係推進劇情：有意義嘅行動改變狀態／角色喺壓力下揀擇／勝負有後果／關係轉變／新力量或行動產生代價／故事因為發生咗嘢而向前郁。
+- **`COST_SIGNAL_OPTIONAL`** —— 有都得，冇都唔違反本法則；beat 功能可以兩種寫法都通。
+- **`COST_SIGNAL_NOT_APPLICABLE`** —— beat 功能係純底色建立／氣氛或世界日常感鋪陳／事件前嘅語調基準／單純為對比後面而設嘅過渡。**必須連埋理由記錄**（例：「純底色建立 beat，冇需要外部觸發」）。
+
+只有 `COST_SIGNAL_REQUIRED` 缺可識別 Cost Signal，先標 `[RISK: INTENTION-DRIVEN]`。`COST_SIGNAL_NOT_APPLICABLE` 嘅 beat **唔可以**因為冇 Cost Signal 就被標呢個 risk——嗰係誤用本法則。
+
 ## 風險標記協議
 
-任何 Beat 缺乏可識別的 Cost Signal：
+任何 `COST_SIGNAL_REQUIRED` 嘅 Beat 缺乏可識別的 Cost Signal：
 
 - 標記：`[RISK: INTENTION-DRIVEN]`
 - 唔可以 silent accept

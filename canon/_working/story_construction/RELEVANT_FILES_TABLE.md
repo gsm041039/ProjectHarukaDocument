@@ -1,6 +1,8 @@
 # RELEVANT FILES TABLE
 Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 
+> ⚠️ **FRESHNESS: PARTIALLY_STALE as-of 2026-09-10.** 呢表係**永久 source catalogue**（「呢個檔對呢類工作可能重要」），唔係 per-session read state。**Status 欄（READ / PARTIAL / UNREAD）已失效** —— 唔可以因為某 AI 喺 3 月讀過就當 9 月 session 已讀。每次 run 嘅實際已讀狀態放喺該 run 嘅 temp evidence（`story-run-workspace-manager` workspace），唔係呢度。檔案清單本身大致仍有效，但缺 Round 120–184 新增討論記錄檔（Beta 世界、哥德形態、心理具現化等，見 `canon/_working/2026-*_*.md`）。
+
 > 本表收錄所有與四幕結構大綱建立直接相關的文件。
 > Priority 欄：Critical = 必須讀完才能動筆 / High = 重要補充 / Medium = 驗證用
 > Status 欄：READ = 已完整讀取 / PARTIAL = 部分讀取 / UNREAD = 尚未讀取

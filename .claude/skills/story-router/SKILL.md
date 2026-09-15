@@ -3,6 +3,9 @@
 ## Purpose
 Classify the user's request and select a workflow mode. The router must keep the assistant useful: not too verbose, not too passive.
 
+## Default Entry (Patch 3)
+Ordinary natural-language story requests route into `story-orchestrator` first — the user should never need to know which specialist skill to invoke manually. Direct specialist invocation is only for the AI's own internal routing after the orchestrator (or a mode below) has already classified the task.
+
 ## Modes
 
 ### CO_DESIGN_DISCUSSION
@@ -45,6 +48,29 @@ Use when:
 Call chain:
 `source-recovery-gate → scene-lab → director-room → dialogue-room → coverage-table-read → grounding-auditor`
 
+
+### PROGRESSIVE_AUTHORING
+Use when the user wants coarse-to-fine story development across layers, e.g.:
+- 由 Act I 開始由粗到幼做 / 由大綱一路拆到 Scene
+- 逐步做 Act II / 繼續上次 Act I
+- 唔好直接寫對白，一層一層嚟
+- 改返上游決定再推落去
+
+Route to `story-orchestrator` **Progressive Coarse-to-Fine Authoring Mode**.
+
+Call chain:
+`story-resume → context-manager → source-recovery-gate → story-orchestrator (progressive mode) → layer-specific skill → grounding-auditor`
+
+Layer → skill:
+`Act = outline-synthesis-gate | Sequence = sequence-boundary-designer | Beat Sheet = story-room (Beat Sheet Production Mode) | Scene = scene-objective-architect + scene-lab | Dialogue = dialogue-architect + dialogue-readiness-gate + dialogue-script`
+
+Material (LEVEL_2/LEVEL_3) problem within any layer → `story-orchestrator` calls `story-solution-space-designer` for candidate divergence before committing a carrier; findings return to the orchestrator, never decided by the specialist itself.
+
+Rules:
+- Do not restart at Act from zero; detect the highest genuinely-incomplete layer first.
+- Do not immediately call Scene Lab; do not demand all four Acts' Beat Sheets first.
+- Honour `CLAUDE.md` Local Vertical Refinement Policy: target Act may go deep while later Acts stay at outline; downstream artifacts carry a draft/provisional status stamp.
+- Only `AUTHOR_DECISION`-class questions stop the flow (see orchestrator decision classes).
 
 ### DIRECTING_PIPELINE
 Use when the user asks for any combination of:
@@ -151,3 +177,10 @@ Do not use source uncertainty as an excuse to stop. If source recovery is incomp
 
 ## Anti-Overreport Rule
 In CO_DESIGN_DISCUSSION, do not output 24-angle tables unless asked.
+
+## Sync / Reconciliation Skill Ownership (C4 resolved 2026-09-10)
+Do not create another synchronization skill. Ownership:
+- **`story-canon-sync-gate`** — PRIMARY owner for current-truth reconciliation, source freshness, authority comparison, safe stale working-file correction, canon ↔ working synchronization. Default for freshness/baseline work.
+- **`story-conflict-resolution-gate`** — specialist escalation only: genuine hard contradiction analysis, multi-document contradiction hunting, deep semantic conflict verification. NOT the default owner of routine synchronization.
+- **`story-canon-fact-map-builder`** — owns Fact Map construction, incremental maintenance, validation. Does NOT own prose synchronization or creative design.
+- `story-document-synthesis-gate` — legacy overlap with `story-canon-sync-gate`; prefer `story-canon-sync-gate`. Use `story-document-synthesis-gate` only if explicitly invoked.

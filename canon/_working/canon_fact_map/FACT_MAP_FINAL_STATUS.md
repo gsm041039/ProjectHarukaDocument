@@ -1,5 +1,17 @@
 # FACT_MAP_FINAL_STATUS.md — Completion & Authority Declaration
 
+> ⚠️ **NO LONGER "FINAL" as-of 2026-09-11.** This declaration reflects the 2026-05-20/21 build only.
+> Last CDL incorporated ≈ **CDL-290**. Current `CANON_DECISION_LOG.md` head = **CDL-408** (~119 post-baseline
+> decisions, ~110 materially change fictional truth, **0 propagated into this Fact Map** — they ARE in canon `*.md`).
+> Every fact domain is stale relative to current canon. Known superseded values likely still held here:
+> 黑奏 政變年份 (CDL-305: 98→103), 貓殼碎裂順序 (CDL-314 supersedes CDL-274), 情緒病毒 framing (CDL-403),
+> 心匣/心之器 relation (CDL-404), 萬花筒體系 (CDL-329 作廢), 晴香結局 (CDL-327/344/384).
+> **Provenance is NOT lost** — current canon claims are traceable via inline CDL tags + `CANON_DECISION_LOG.md`
+> independently of this Fact Map. See `canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/14_traceability_closure_report.md`.
+> **Remedy:** `story-canon-fact-map-builder` INCREMENTAL, baseline CDL-290 → HEAD, affected domains only, preserve CF IDs.
+> Traceability verdict 2026-09-11: `CURRENT_CANON_TRACEABILITY_PARTIAL`.
+
+
 **Date**: 2026-05-21 (Loop 13 sync verification)  
 **Status**: ✅ **FACT_MAP_BUILT_READY_FOR_USE_PENDING_LIMITATIONS** → **FACT_MAP_SYNCED_AFTER_CONFLICT_LOOP**  
 **Authority**: Phase 4 Final Completeness Audit complete (2026-05-20) + Loop 13 Verification Sync (2026-05-21) — all HIGH gaps resolved; remaining MEDIUM gaps are DESIGN_GAP_ONLY items; zero new contradictions found post-conflict-resolution verification

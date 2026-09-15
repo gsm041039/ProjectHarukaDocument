@@ -1,6 +1,8 @@
 # HARD CONSTRAINTS TABLE
 Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 
+> ⚠️ **FRESHNESS: PARTIALLY_STALE as-of 2026-09-10** (last real edit 2026-06-19). 結構鐵則（HC-1 偽三幕真四幕等）慢變、大致仍有效。**但**：結局意義 / 晴香最終狀態 / Alpha-Beta 規則 / 角色生死 / 時間線 major ordering / 直播基建 / Act III→IV 轉場 / reveal 限制 等重大真相，Round 120–184（Beta 三層世界 CDL~AC-1~11、操控奇蹟鏈、黑奏＝同一枝筆化身、刑思退場、榮格個體化＝心理骨幹、見證守則、美夜子八千代型）**可能已 supersede 本表對應行**。做 Act 工作前必須逐項對 `CANON_DECISION_LOG.md`（至 CDL-408）核。深度 patch 見 `06_control_reconciliation_ledger.md`。
+
 > 本表收錄所有「寫作時不可違反」的硬性限制。
 > 標記：[AC] = AUTHOR_CONFIRMED | [DC] = DECISION_LOG_CONFIRMED | [CR] = CANON_RULE（已入 canon 的世界規則）
 > 違反任何 Critical 級約束 = 必須返工。

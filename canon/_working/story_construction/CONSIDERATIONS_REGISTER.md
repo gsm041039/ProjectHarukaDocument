@@ -1,5 +1,7 @@
 # CONSIDERATIONS REGISTER
-Built: 2026-03-25 | Agent B (Screenwriter Side) 整合
+Built: 2026-03-25 | Agent B (Screenwriter Side) 整合 | Freshness touch 2026-07-15
+
+> ⚠️ **FRESHNESS: PARTIALLY_STALE as-of 2026-09-10.** 維度清單本質慢變、大致仍有效。缺 Round 150–184 新增 consideration（見證守則的溫柔／涼薄雙聲道、心理具現化世界物理、美夜子八千代型底色、紫音討喜度缺口）。做重大場景設計前對 `PROJECT_STATUS.md`（Round 184）補掃。
 
 必須在故事建構中考慮的所有維度。每條標記來源文件。
 

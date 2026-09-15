@@ -1,8 +1,9 @@
 # ACT I OUTLINE
-**[v1.21 — 2026-04-25 補入CDL-249：E-XX外部Cost Signal設計]**（v1.18 APPROVED 2026-04-09；v1.19 補入CDL-219/220；v1.20 補入QA-01~06全部決策；v1.21 E-XX觸發條件加入雙重外部Cost Signal D方案）
+**[v1.22 — 2026-09-11 housekeeping：修正 Beat 0d/Beat 1 敘事順序標示錯誤]**（v1.18 APPROVED 2026-04-09；v1.19 補入CDL-219/220；v1.20 補入QA-01~06全部決策；v1.21 E-XX觸發條件加入雙重外部Cost Signal D方案；v1.22 見下方 housekeeping 註）
 
 **正確敘事順序：**
-`Beat 0（開場）→ Beat 0c（欺凌）→ Beat 0d（E-01當晚）→ Beat 1（E-01）→ Beat 2（E-02）→ Beat 2.5（E-02.5）→ Beat 2.6（秘密基地[NC]）→ Beat 3（E-03）→ Beat 4.5（E-1.5）→ Beat 5（E-04）→ [NC]+[SQ-A] → Beat 6（E-XX）`
+`Beat 0（開場）→ Beat 0c（欺凌）→ Beat 1（E-01）→ Beat 0d（E-01當晚）→ Beat 2（E-02）→ Beat 2.5（E-02.5）→ Beat 2.6（秘密基地[NC]）→ Beat 3（E-03）→ Beat 4.5（E-1.5）→ Beat 5（E-04）→ [NC]+[SQ-A] → Beat 6（E-XX）`
+> ⚠️ **Housekeeping correction（2026-09-11）**：呢行之前寫「Beat 0d → Beat 1」，但 Beat 0d 本身內容（CDL-123：「E-01當晚（晴香回家後那一夜）」，功能係「呈現E-01極大心理衝擊後的情緒消化空間」）明確發生喺 Beat 1（E-01 事件本身）之後，亦係 Beat 1 段落內「天台使命說明（次日）」場景之前嘅一夜（CDL-103「有一晚消化後主動赴約」）。原順序屬 `LOCAL_ORDERING_ERROR`（純標示錯誤，唔涉及劇情改動）。已按 CDL-123 + CDL-103 證據修正為 `Beat 1 → Beat 0d`。**Beat 0d／Beat 1 本身內容全部不變**，下面段落順序亦不變（純頭述順序行修正）。
 Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author gate answers + backup/draft/outline_raw.md + backup/draft/timeline_raw.md + backup/director/Major_Events_Character_Relationships_Analysis.md
 三層結構：Layer 1 主 beats / Layer 2 媒介標籤 / Layer 3 跨幕埋位
 
@@ -364,7 +365,7 @@ Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author g
 | [NC] 具體 section 設計（不安感 vs 日常感分布）| DEFERRED | Act I Beat Sheet |
 | E-02 屍骸態度選擇示範具體場景 | `[SS]` 可接受，細節 | Act I Beat Sheet |
 | E-04 凜前史呈現方式 | **RESOLVED**：主線強制 beat；凜前史透過美夜子回憶；媒介 = 主線（CDL-020）| — |
-| AKS-S1 植入位置 | BLOCKED pending QQ-03 | Act II Outline 前 |
+| AKS-S1 植入位置 | **RESOLVED（QQ-03 / CDL-190）**：Act II末期（E-11a附近）；Text Prop 型（朔搵到螢死亡報告+熊公仔修復圖紙）；不阻 Act I | — |
 | 操 Act I 父親陰影具體暗示形式 | DEFERRED | Act I Beat Sheet |
 | **凜 Act I 存在形式** | **RESOLVED（CDL-140/169）**：只有E-04靜態閃回+遠景彩蛋；CDL-154辦公室場景移入Act II | — |
 
@@ -374,5 +375,6 @@ Built: 2026-03-28 | Phase 12 | Source: V2 + STORY_BASE_RECONSTRUCTION + Author g
 *Major updates v1.7: 美夜子E-01緊急裝置交付（CDL-109）；E-02貓形態魔法防護說明（CDL-108）；秋穗茶餐廳[NC]+血糖手錶道具（CDL-110）；晴香GameUI視界日常首次出現（CDL-111）*
 *Round 013 Layer 3 新增: 血糖手錶CGM三段Payoff Plant（CDL-114/115）；[SQ-A]晴香阻止邏輯=B視覺提示推斷（CDL-113）；CDL-116（幽靈症狀+夕噪訊混成一層）；CDL-117（彩「下次呢？」共2次植入）*
 *Major updates v1.21: E-XX觸發條件加入雙重外部Cost Signal D方案（CDL-249）：CGM有聲警報+戰損裂鏡；黑奏介入度=零；QUESTION_MATRIX M021 RESOLVED*
+*Major updates v1.22（2026-09-11，housekeeping，非故事決定）：修正「正確敘事順序」頭述行 Beat 0d/Beat 1 次序標示錯誤（LOCAL_ORDERING_ERROR，證據=CDL-123+CDL-103，Beat 0d/1 內容本身不變）；「開放項」表 AKS-S1 一行由 stale「BLOCKED pending QQ-03」更新為「RESOLVED（QQ-03/CDL-190）」*
 *Major updates v1.6: [SQ-A]桐生健=E-01 Immediate Epilogue（CDL-100）；天台使命說明=次日放學後（CDL-103）；E-XX觸發條件=E-04後[NC]緩衝獨處崩潰（CDL-101）；E-XX收結=偽溫暖隊伍畫面（CDL-102）；[NC]靈活框架（CDL-104）；美夜子[NC]對話裂縫（CDL-105）；朔夜區=[SQ]可選（CDL-106）；紗夜=電話形式（CDL-107）*
 *上一層：FULL_STORY_ROUGH_OUTLINE_V2.md | 下一層：Act I Beat Sheet*

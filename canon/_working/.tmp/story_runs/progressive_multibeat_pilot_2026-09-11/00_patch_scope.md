@@ -1,0 +1,17 @@
+# 00 — Patch Scope (Part A)
+
+Minimal patches to the exact responsible owner for each of the 7 weaknesses named in the task. No architecture change, no new permanent file, no folder restructuring.
+
+| Patch | Weakness | Owner patched | Not touched (why) |
+|---|---|---|---|
+| A — Strict beat-grain boundary | Inherited Scene/Directing timing (e.g. ~10s pan, ~0.3s lag) was allowed into the Beat Sheet body merely because it pre-existed in approved material | `.claude/skills/story-room/SKILL.md` — added `BEAT_LEVEL / SCENE_REFERENCE / DIALOGUE_REFERENCE / DIRECTING_REFERENCE / GAMEPLAY_IMPLEMENTATION_REFERENCE` classification + mandatory `DOWNSTREAM REFERENCES` sub-section | `story-scene-lab` (Scene layer, not in scope — the leak was at Beat Sheet layer) |
+| B — Cost Signal applicability | Risk of flagging every trigger-less beat `[RISK: INTENTION-DRIVEN]` even when the beat is pure baseline/atmosphere | `.claude/story_system/consequence-driven-progression.md` — added `COST_SIGNAL_REQUIRED / OPTIONAL / NOT_APPLICABLE` classification, narrowed the risk flag to `REQUIRED` only | `CLAUDE.md` (only `@`-includes this file; the law itself lives here) |
+| C — Target-specific source retrieval | No formal tier system; risk of blind full-backup sweeps or of citing stale Fact Map rows | `canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md` (Beat-Sheet-specific) + `.claude/skills/story-source-recovery-gate/SKILL.md` (general) — both now state Tier 1 (always-current)/Tier 2 (target-specific)/Tier 3 (conditional legacy) explicitly, with the Fact-Map-stale→canon-fallback rule and the no-blind-backup-sweep rule | none further — this was already the de facto behavior observed in the single-Beat pilot; patch formalizes it, doesn't invent new sources |
+| D — No silent obligation skip | Obligation categories (esp. theme/stance) could be silently omitted rather than marked `NOT_RELEVANT_WITH_REASON` | `.claude/skills/story-room/SKILL.md` — added explicit 9-category Obligation Pass with mandatory reason for `NOT_RELEVANT_WITH_REASON` | `IDEOLOGY_THEME_STANCE_MATRIX.md` / `THEME_CONFLICT_EXPRESSION_TABLE.md` (content unchanged — they're read, not owners of this rule) |
+| E — Continue-by-default | Risk of stopping after every Beat to ask "continue?" | `.claude/skills/story-orchestrator/SKILL.md` Progressive Mode — added explicit "Continue-by-Default" sub-section naming the only 5 legitimate stop conditions | `story-router` (routing unaffected; this is orchestrator's execution-loop behavior) |
+| F — Pilot/experiment state safety | No declared run-mode; nothing mechanically distinguished PILOT output from production truth beyond task-level instructions | `.claude/skills/story-orchestrator/SKILL.md` — added "Run Mode" sub-section (`PRODUCTION`/`PILOT`/`EXPERIMENT`) gating writes to the 5 durable files + approved Act/Beat Sheet/CDL files | `story-run-workspace-manager` (workspace file mechanics unchanged; orchestrator is the layer that decides *whether* to call durable-state writes at all) |
+| G — User-facing compactness | Risk of ending no-question turns with "想唔想我繼續？" | `.claude/skills/story-orchestrator/SKILL.md` Completion Rule — added explicit compactness rule with a model closing sentence | none further |
+
+**CLAUDE.md not modified.** None of the 7 patches required a change to global pipeline law (the Local Vertical Refinement Policy already covers draft/canon distinction); all 7 are skill-procedural fixes.
+
+**No new permanent file created.** All 5 touched files are pre-existing owners.

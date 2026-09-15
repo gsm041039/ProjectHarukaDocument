@@ -40,6 +40,11 @@ For narrative canon, likely files include:
 - `canon/_working/CANON_DECISION_LOG.md`
 - `canon/_working/story_construction/*.md`
 
+## Retrieval Tiers (2026-09-11, formalizing existing behavior — not a new search order for every task)
+- **Tier 1 — Always Current Authority**: durable state files, `CANON_DECISION_LOG.md`, the target Act's current Outline/Beat Sheet, story-control obligation tables. If a Fact Map domain is known-stale (see `canon_fact_map/BUILD_LEDGER.md` delta status), use the canon `*.md` file directly instead of the stale Fact Map row.
+- **Tier 2 — Target-Specific Required**: character sheets, relationship/knowledge state, gameplay bible, directing playbook, visual bible, habit/sensory material — read when the specific task names them (character in scene, beat type, etc.), not by default for every task.
+- **Tier 3 — Conditional Legacy/Backup** (`backup/*`): read only when triggered — current source cross-references it, provenance is incomplete, a legacy Scene Reference may hold reusable execution detail, current source lacks execution context, or a historical alternative needs comparison. **Do not blind-sweep the entire `backup/` tree for routine work; backup content never silently overrides current truth.**
+
 ## Output Digest
 Do not dump full search output. Return a digest:
 

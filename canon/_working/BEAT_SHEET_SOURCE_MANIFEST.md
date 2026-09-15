@@ -1,7 +1,13 @@
 # BEAT SHEET SOURCE MANIFEST
 **用途：** 任何 Beat Sheet 或 Outline 設計工作開始前，必須讀完本 manifest 所列文件。
 **規則：** 唔可以靠現有 Outline 或 CDL 單獨設計 beat / 更新 Outline——Outline 只係結構骨架，Beat Sheet 同 Outline 更新都需要世界觀、角色習慣、詳細場景庫全部到位。
-**對應 skill 規則：** story-room skill（Beat Sheet模式）+ story-canon skill（Outline建立/更新模式）均已引用本 manifest。
+**對應 skill 規則：** story-room skill（**Beat Sheet Production Mode**，2026-09-10 正式寫入 story-room SKILL.md）+ story-canon skill（Outline建立/更新模式）均已引用本 manifest。
+**Local Vertical Refinement（2026-09-10）：** Beat Sheet 可逐 Act 推進並批核，唔需要等全四幕；依賴未解後幕真相嘅 beat 標 `[PROVISIONAL]` + revisit trigger。
+
+**Tier 分層讀取規則（2026-09-11 新增，正式化實際已行嘅行為）：** 下面「第一層／第二層／第三層」對應：
+- **Tier 1 — Always Current Authority**（每次都讀）：current durable state（PROJECT_STATUS/NEXT_ACTION/QUESTION_QUEUE）、current `CANON_DECISION_LOG.md`、目標 Act 現有 Outline/Beat Sheet、story-control obligation 表；**Fact Map 已知 stale 嗰啲 domain（見 `canon_fact_map/BUILD_LEDGER.md` delta status）一律用 canon `*.md` 代替，唔可以引用過時 Fact Map row**。
+- **Tier 2 — Target-Specific Required**（跟出場角色/beat 類型讀）＝下面第二層/第三層（角色 sheet、關係、知識/reveal、gameplay bible、directing playbook、visual bible、habit/感官材料）。
+- **Tier 3 — Conditional Legacy/Backup**（`backup/` 系列）＝**只喺有觸發先讀**：current source 交叉引用佢／provenance 唔完整／Scene Reference 可能有可用執行細節／current source 缺執行 context／要對比歷史版本。**唔可以逢 beat 都 blind sweep 成個 `backup/` 目錄**；backup 內容唔可以靜靜蓋過 current truth。
 
 ---
 

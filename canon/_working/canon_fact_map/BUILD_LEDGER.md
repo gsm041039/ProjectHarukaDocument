@@ -611,3 +611,37 @@ This command will:
 **Ledger Status (Post-Phase-4b)**: 🟡 FM-BUILD-001 + Phases 1-4 + TIER_1_TRIAGE COMPLETE
 
 **Status Declaration**: Fact map extraction is COMPLETE with 585+ atomic facts and ZERO contradictions verified. Tier 1 triage confirms no missing canon truth or author-decision bottlenecks. Fact map is BLOCKED by parallel agent table-creation work (not author input). Ready for REMEDIATE_COMPLETENESS_GAPS workflow.
+
+---
+
+## DELTA STATUS — Traceability Closure Pass (2026-09-11)
+
+**This ledger's "COMPLETE" declaration above applies to the 2026-05-20/21 build only.**
+
+- Last CDL incorporated into any fact table: **≈ CDL-290**
+- Current `CANON_DECISION_LOG.md` head: **CDL-408**
+- Post-baseline delta: **CDL-291 → CDL-408** — 119 table-format entries; ~110 materially change fictional truth or a durable narrative constraint; ~10 are directing-constraint-only or process/presentation (excludable from Fact Map scope).
+- Propagation status of the delta:
+  - into canon `*.md`: **~119 / 119** (writeback discipline held — verified by spot-check, `14_traceability_closure_report.md`)
+  - into this Fact Map: **0 / ~110**
+- Consequence: every fact domain (CHARACTER / STATE / NAME / KNOWLEDGE / WORLD_RULE / EVENT / TIMELINE / RELATIONSHIP / THEME / TERMINOLOGY) is stale relative to current canon. `STALE_FACTS_MARKED_CURRENT > 0` (systemic).
+- Provenance is NOT lost: current canon claims carry inline CDL tags and are traceable via `CANON_DECISION_LOG.md` independently of this Fact Map.
+
+**Unblocking path (single focused follow-up, existing tool — NOT a blind rebuild):**
+```
+/story-canon-fact-map-builder Mode: INCREMENTAL_UPDATE
+Baseline: CDL-290
+Target: HEAD (CDL-408)
+Rule: affected domains only; preserve stable CF IDs; do not renumber; then re-run VALIDATION_REPORT.md
+```
+
+Known superseded values likely still held in current tables (fix during delta):
+- 黑奏 帝國政變年份: 98年 → **103年** (CDL-305)
+- 貓殼碎裂順序: CDL-274 Step 1 partially **SUPERSEDED** by CDL-314
+- 情緒病毒: independent-pathogen framing → **債務侵蝕框架** (CDL-403; old CDL-329 framing 作廢)
+- 心匣 ↔ 心之器: "延伸物" → **同一樣嘢兩個名** (CDL-404)
+- 萬花筒體系: **作廢** (CDL-329) → 操控奇蹟 + 歌德尖刺體系 (CDL-309/329)
+- 晴香 Act IV 結局: 3 contradictory versions → unified (CDL-327/344/384)
+- Act III 結尾: → J9; Phase K/L moved to Act IV (CDL-312)
+
+Traceability verdict 2026-09-11: **`CURRENT_CANON_TRACEABILITY_PARTIAL`** (primary CDL chain closed; Fact Map delta pending).

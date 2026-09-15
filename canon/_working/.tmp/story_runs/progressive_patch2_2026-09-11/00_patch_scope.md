@@ -1,0 +1,14 @@
+# 00 — Patch 2 Scope
+
+Semantic Consistency + Runtime Safety. Small, targeted. No architecture redesign, no Act I content change, no new skill.
+
+| Weakness | Owner patched | What changed |
+|---|---|---|
+| Approved parent artifacts assumed infallible (Beat 0d/E-01 ordering not challenged) | `.claude/skills/story-orchestrator/SKILL.md` (Progressive Mode, new step 3) + `.claude/skills/story-room/SKILL.md` (Entry, new step 3) | Added Parent Artifact Semantic Consistency Gate: chronology/causality/character-state/knowledge-state/audience-knowledge/setup-payoff/gameplay-state checks before any downstream derivation; classification ladder; auto-resolution-first policy; `RESOLVED_FOR_DERIVATION` downstream-safety mechanism; explicit ban on silently patching the approved parent. |
+| Current-level detection trusted remembered summaries | `.claude/skills/story-orchestrator/SKILL.md` (Progressive Mode step 1) + `.claude/skills/story-resume/SKILL.md` (new hard rule) | Added Fresh Target Verification: durable state is for navigation only; the target Act's current Outline + current Beat Sheet/child artifact must be freshly read before declaring current level. |
+| Visual/design reference not mechanically triggered | `.claude/skills/story-room/SKILL.md` (Obligation Pass) | Added an explicit trigger list (visual tier/motif/city visual state/transformation visual rule/costume narrative/lighting-language/visual contrast/environmental storytelling) → read the relevant `06_visual_bible.md` section; else `VISUAL_AUTHORITY = NOT_RELEVANT_WITH_REASON`. |
+| Theme obligation too binary | `.claude/skills/story-room/SKILL.md` (Obligation Pass) | Split into `THEME_EXPLICIT` / `THEME_SEEDED` / `THEME_NOT_RELEVANT_WITH_REASON`. |
+| Pilot safety was natural-language only | `.claude/skills/story-writeback/SKILL.md` (new entry criterion, first-checked) + `.claude/skills/story-run-workspace-manager/SKILL.md` (RUN_MODE label) + `.claude/skills/story-orchestrator/SKILL.md` (cross-ref to the mechanical gate) | `story-writeback` — the actual durable-write gate — now refuses (`WRITE_BLOCKED_BY_RUN_MODE`) unless `RUN_MODE = PRODUCTION`, regardless of what any upstream skill "intends." This makes the block mechanical (enforced at the one place writes actually happen) rather than only textual self-restraint upstream. |
+| Reporting integrity (miscounted weaknesses) | `.claude/skills/story-orchestrator/SKILL.md` (Compact Skill Log rules) | Added: counts in any validation summary must be derived by counting the actual table rows, not restated from memory. |
+
+**No new skill created.** 5 existing owners patched: `story-orchestrator`, `story-room`, `story-resume`, `story-writeback`, `story-run-workspace-manager`. `CLAUDE.md` and `consequence-driven-progression.md` not touched — neither weakness required a global-law change.

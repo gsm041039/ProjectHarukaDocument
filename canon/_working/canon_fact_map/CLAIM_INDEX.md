@@ -1,5 +1,10 @@
 # CLAIM_INDEX.md — Complete Fact Registry
 
+> ⚠️ **STALE as-of 2026-09-11** — index reflects the 2026-05-20 build (last CDL ≈ CDL-290). Current CDL head = CDL-408.
+> ~110 material post-baseline decisions are in canon `*.md` but not indexed here. Also: this file says "280+ claims",
+> `BUILD_LEDGER.md` says "585+" — internal count inconsistency predates this note. Do not treat absence of a claim
+> here as "not canon". Remedy = `story-canon-fact-map-builder` INCREMENTAL (baseline CDL-290 → HEAD).
+
 **Purpose**: Index all 280+ extracted atomic claims with full traceability.
 
 **Build Date**: 2026-05-20  

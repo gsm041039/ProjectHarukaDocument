@@ -4,6 +4,12 @@
 
 **Last Updated**: 2026-05-20 (automated extraction)
 
+> ⚠️ **Freshness column is STALE as-of 2026-09-11.** The "Freshness" dates below (mostly "2026-05-15") predate
+> many rounds of canon writeback — actual canon file git-mod dates run through 2026-08-28 (Round 184 / CDL-408).
+> The file list, types, authority levels and hierarchy are still valid; the per-file freshness dates and
+> "(CDL-XXX integrated)" notes are not. Authoritative current state: `CANON_DECISION_LOG.md` (CDL-408) +
+> `PROJECT_STATUS.md` (Round 184). Rebuild the freshness column during the Fact Map INCREMENTAL delta pass.
+
 ---
 
 ## Canon Document Registry

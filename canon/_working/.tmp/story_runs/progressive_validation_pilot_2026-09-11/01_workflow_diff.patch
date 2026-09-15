@@ -1,0 +1,188 @@
+diff --git a/.claude/skills/story-dialogue-readiness-gate/SKILL.md b/.claude/skills/story-dialogue-readiness-gate/SKILL.md
+index 679bf91..362aed6 100644
+--- a/.claude/skills/story-dialogue-readiness-gate/SKILL.md
++++ b/.claude/skills/story-dialogue-readiness-gate/SKILL.md
+@@ -28,4 +28,4 @@ $ARGUMENTS
+ - READY_FOR_RECORDING_PREP
+ - NOT_READY
+ 
+-未完成全劇 Beat Sheet 不等於 NOT_READY；只影響正式批准狀態。
++未完成全劇 Beat Sheet 不等於 NOT_READY；只影響正式批准狀態（見 `CLAUDE.md` Local Vertical Refinement Policy）。目標 Act 夠穩定即可 READY_FOR_EXPLORATORY_DRAFT / POLISHED_DRAFT。凡全故事 Beat Sheet 未全部批核，產出帶 `[DRAFT / 暫定 — pending full-story beat lock]`，唔 writeback canon。任何 check 若依賴未解決嘅後幕真相 → 該項標 `BLOCKED_AT_THIS_DEPENDENCY`，其餘 check 可繼續。
+diff --git a/.claude/skills/story-orchestrator/SKILL.md b/.claude/skills/story-orchestrator/SKILL.md
+index b7c66cd..ddbbb33 100644
+--- a/.claude/skills/story-orchestrator/SKILL.md
++++ b/.claude/skills/story-orchestrator/SKILL.md
+@@ -46,7 +46,41 @@ $ARGUMENTS
+ 1. 使用者未同意開始前置工作。
+ 2. 已完成客觀回收與第一輪方案，去到高影響共同設計點。
+ 
+-唔可以因為全劇 Beat Sheet 未完成而停止。只可將成品標成草稿／暫定。
++唔可以因為全劇 Beat Sheet 未完成而停止（見 `CLAUDE.md` Local Vertical Refinement Policy）。目標 Act 夠穩定就可以逐層做落 Scene / Dialogue；成品帶狀態章 `[DRAFT / 暫定 — pending full-story beat lock]`，唔 writeback canon。依賴未解後幕真相嘅點要標 `PROVISIONAL` / `REVALIDATE_REQUIRED` / `BLOCKED_AT_THIS_DEPENDENCY`。
++
++## Progressive Coarse-to-Fine Authoring Mode
++當作者講類似「由 Act I 開始由粗到幼做」「逐步做 Act II」「由大綱一路拆到 Scene」「唔好直接寫對白」「繼續上次 Act I」「改返上游決定再推落去」時，行呢個 mode。
++
++### Layer ladder
++```
++全作 / 跨幕 baseline → 目標 Act outline → Sequence / Event → Beat Sheet
++→ Sequence boundary → Scene architecture → Dialogue blueprint → Script → Review
++```
++
++### Steps
++1. **唔好由零自動由 Act 開始。** 先 `story-resume` + 讀現有該 Act 材料。
++2. **Current-level detection**：將現有材料逐件分類 `APPROVED / STABLE / PROVISIONAL / PARTIAL / STALE / WRONG_LAYER_REFERENCE / MISSING / BLOCKED`。由「最高層而又真係未完成」嗰層開始做。
++   - Act I Outline 仲大致可用 → 保留，唔重寫。
++   - Beat Sheet 檔淨係 Scene Reference（例 `ACT_I_BEAT_SHEET.md` E-01/E-02）→ 保留做 reference，另起真正 Beat 抽象層。
++3. **Narrative obligation pass**（每次落多一層之前）：對 `CONTROL_OBJECTIVES_MASTER` / `CROSS_ACT_CONTROL_LAYERS` / `KNOWLEDGE_DEPENDENCY_MAP` / `HARD_CONSTRAINTS_TABLE` / `CONSIDERATIONS_REGISTER` / Fact Map / 目標 artifact，逐條 obligation 標 `COVERED / PARTIAL / MISSING / DEFERRED / CONFLICT / NOT_RELEVANT`。
++   - MISSING 先試：重用既有事件 → 擴既有 Beat → 併入既有 Scene → micro-scene → aftermath → 環境/動作/gameplay carrier → 先至考慮新 major event。**唔好直接問作者「你想加咩場」——帶住設計好嘅建議先。**
++4. **Layer routing**：
++   - Act → `story-outline-synthesis-gate`（act outline mode）
++   - Sequence / Event → `story-sequence-boundary-designer`（+ 既有 outline 的 event grouping）
++   - Beat Sheet → `story-room`（Beat Sheet Production Mode，見該 skill）
++   - Scene → `story-scene-objective-architect` → `story-scene-lab`
++   - Dialogue → `story-dialogue-architect` → `story-dialogue-readiness-gate` → `story-dialogue-script`
++   - 全程 `story-run-workspace-manager` 存檔；上游改動 → `story-character-change-impact-manager` / `story-downstream-consistency-auditor`
++5. **AUTO_RESOLVABLE vs AI_PROPOSED_CANDIDATE vs AUTHOR_DECISION**（見下）— 只有 AUTHOR_DECISION 先停低問，而且要先 research → 試 reconcile → 出 recommendation → 講 consequence → 一條自然語言問題。
++6. 每層做完：更新 workspace + `PROJECT_STATUS` / `NEXT_ACTION` / `SESSION_LEDGER`（+ `QUESTION_QUEUE` 如問題有變）。
++
++### Decision classes（C3 resolved 2026-09-10）
++- **AUTO_RESOLVABLE**（Claude 自己做，唔問）：回收證據；明確 supersession 揀新源；改 stale label；認 sequence 邊界；認缺失 causal bridge；提小 transition；判資訊可唔可以入既有 beat；避免重複 exposition；揀低風險 carrier;拆過大材料;保留既有 detailed reference;routine 結構診斷;明顯 setup/payoff 維護。
++- **AI_PROPOSED_CANDIDATE**（Claude 自己設計首選方案，安全就 provisional 繼續，唔要求作者由零諗）：加小連接 beat；擴既有 scene；加 aftermath；加 breathing room；加環境資訊 carrier；搬非 canon 呈現細節；提小關係 bridge。
++- **AUTHOR_DECISION**（只有呢啲先中斷）：道德/主題立場；不可逆角色身份；重大關係意義；結局意義；重大 reveal 策略；重大 Act 重構；兩個都好但不相容嘅方向；兩個都 active 而不能調和嘅高權威真相；改變戲劇骨架嘅 gameplay/story 決定。
++
++### First real author question rule
++揀問題之前必須：source check → obligation check → 既有決定 check → AI 試解 → downstream 影響分析。拒絕：已答；後期呈現細節；routine AI 設計；stale 檔混淆；叫作者自己搵 repo；filler。揀「最上游、真正影響目標 Act 下一 refinement 層」嗰條。
+ 
+ ## First Response to “要做咩前置？”
+ 必須完成以下動作：
+diff --git a/.claude/skills/story-room/SKILL.md b/.claude/skills/story-room/SKILL.md
+index 3aa4ddc..4d74501 100644
+--- a/.claude/skills/story-room/SKILL.md
++++ b/.claude/skills/story-room/SKILL.md
+@@ -67,3 +67,34 @@ $ARGUMENTS
+ - 未做 source check，不准問 reconstruction-level 問題。
+ - 未標 evidence level，不准提出角色核心性格結論。
+ - 未經作者批准，不准 canonize / writeback。
++
++---
++
++## Beat Sheet Production Mode（正式 Beat Sheet 層 owner）
++
++`BEAT_SHEET_SOURCE_MANIFEST.md` 早已指定 story-room 為 Beat Sheet 模式 owner。呢個 mode 同一般討論分開：目標係產出／更新 `canon/_working/story_construction/ACT_[I/II/III/IV]_BEAT_SHEET.md`，喺**真正 Beat 抽象層**，唔係 Scene Script。
++
++### Entry
++1. 讀 `BEAT_SHEET_SOURCE_MANIFEST.md` 全部第一層必讀 + 按出場角色的 Per-Character 必讀 + 按 beat 類型的 Beat-Specific 必讀。
++2. 讀對應 Act 既有 Outline（已批核先可以做該 Act 的 Beat Sheet）+ 既有 Beat Sheet 檔（確認進度、避免重複）。
++3. Narrative obligation pass（見 orchestrator Progressive Mode step 3）。
++4. `CROSS_ACT_FORESHADOW_MANIFEST.md`：認本 Act 要落地嘅 plant（PAYOFF_DUE）+ 新植入點同步更新。
++
++### 每個 Beat 至少定義（Beat 抽象層，唔要對白 wording / 鏡頭角度 / Xsec timing / 最終走位）
++purpose｜trigger（外部 Cost Signal，跟 consequence-driven-progression.md）｜participant state｜action｜reaction｜turn｜consequence｜emotional value shift｜relationship delta｜audience info delta｜character knowledge delta｜setup｜payoff｜broad gameplay form｜exit condition｜next-beat pressure。
++
++### 硬性
++- 缺可識別 Cost Signal 的 beat → 標 `[RISK: INTENTION-DRIVEN]` + 入 author questions。
++- 既有 Scene 級細節（例 `ACT_I_BEAT_SHEET.md` E-01/E-02）→ 保留、標 `SCENE_REFERENCE` / `DOWNSTREAM_REFERENCE`，唔刪、唔當已批核 Beat 抽象。
++- 每 beat 狀態：`[DRAFT]` / `[WIP]` / `[APPROVED — 日期]` / `[PROVISIONAL — 依賴未解後幕真相]`。
++- 全故事 Beat Sheet 未全部批核時，Beat Sheet 本身可以逐 Act 推進並批核（Local Vertical Refinement Policy），但依賴後幕未解真相嘅 beat 要 `PROVISIONAL` + revisit trigger。
++
++### Output（此 mode 覆寫上面 Required response structure）
++1. CURRENT FOCUS（邊個 Act、邊段 sequence、邊幾個 beat）
++2. SOURCE / MANIFEST READ THIS ROUND（逐檔為何相關）
++3. OBLIGATION PASS（COVERED / PARTIAL / MISSING / DEFERRED / CONFLICT / NOT_RELEVANT）
++4. BEAT TABLE（上面欄位）
++5. RISKS（INTENTION-DRIVEN / 依賴衝突 / setup 無 payoff）
++6. CONSOLIDATED AUTHOR QUESTIONS（自由form，只問 AUTHOR_DECISION 級）
++7. FILE UPDATE PLAN（寫入邊個 BEAT_SHEET 檔 + CROSS_ACT_FORESHADOW_MANIFEST + state files）
++8. RUN LOG SUMMARY
+diff --git a/.claude/skills/story-router/SKILL.md b/.claude/skills/story-router/SKILL.md
+index a43e7c7..66b4866 100644
+--- a/.claude/skills/story-router/SKILL.md
++++ b/.claude/skills/story-router/SKILL.md
+@@ -46,6 +46,27 @@ Call chain:
+ `source-recovery-gate → scene-lab → director-room → dialogue-room → coverage-table-read → grounding-auditor`
+ 
+ 
++### PROGRESSIVE_AUTHORING
++Use when the user wants coarse-to-fine story development across layers, e.g.:
++- 由 Act I 開始由粗到幼做 / 由大綱一路拆到 Scene
++- 逐步做 Act II / 繼續上次 Act I
++- 唔好直接寫對白，一層一層嚟
++- 改返上游決定再推落去
++
++Route to `story-orchestrator` **Progressive Coarse-to-Fine Authoring Mode**.
++
++Call chain:
++`story-resume → context-manager → source-recovery-gate → story-orchestrator (progressive mode) → layer-specific skill → grounding-auditor`
++
++Layer → skill:
++`Act = outline-synthesis-gate | Sequence = sequence-boundary-designer | Beat Sheet = story-room (Beat Sheet Production Mode) | Scene = scene-objective-architect + scene-lab | Dialogue = dialogue-architect + dialogue-readiness-gate + dialogue-script`
++
++Rules:
++- Do not restart at Act from zero; detect the highest genuinely-incomplete layer first.
++- Do not immediately call Scene Lab; do not demand all four Acts' Beat Sheets first.
++- Honour `CLAUDE.md` Local Vertical Refinement Policy: target Act may go deep while later Acts stay at outline; downstream artifacts carry a draft/provisional status stamp.
++- Only `AUTHOR_DECISION`-class questions stop the flow (see orchestrator decision classes).
++
+ ### DIRECTING_PIPELINE
+ Use when the user asks for any combination of:
+ - game directing / 導演方案
+@@ -151,3 +172,10 @@ Do not use source uncertainty as an excuse to stop. If source recovery is incomp
+ 
+ ## Anti-Overreport Rule
+ In CO_DESIGN_DISCUSSION, do not output 24-angle tables unless asked.
++
++## Sync / Reconciliation Skill Ownership (C4 resolved 2026-09-10)
++Do not create another synchronization skill. Ownership:
++- **`story-canon-sync-gate`** — PRIMARY owner for current-truth reconciliation, source freshness, authority comparison, safe stale working-file correction, canon ↔ working synchronization. Default for freshness/baseline work.
++- **`story-conflict-resolution-gate`** — specialist escalation only: genuine hard contradiction analysis, multi-document contradiction hunting, deep semantic conflict verification. NOT the default owner of routine synchronization.
++- **`story-canon-fact-map-builder`** — owns Fact Map construction, incremental maintenance, validation. Does NOT own prose synchronization or creative design.
++- `story-document-synthesis-gate` — legacy overlap with `story-canon-sync-gate`; prefer `story-canon-sync-gate`. Use `story-document-synthesis-gate` only if explicitly invoked.
+diff --git a/CLAUDE.md b/CLAUDE.md
+index 0b50537..b66ad40 100644
+--- a/CLAUDE.md
++++ b/CLAUDE.md
+@@ -23,23 +23,35 @@
+ ## ⚠️ 故事寫作 Pipeline（全局不可違反）
+ 
+ ```
+-Outline（幕結構 + beat 功能 + 大方向）
+-        ↓ [作者批核]
+-Beat Sheet（每個 beat 的大方向決定）    ← 全四幕全部完成並批核
+-        ↓ [全四幕全部批核]
+-Scene / Script（執行細節：對白/鏡頭/timing）
++全作 / 跨幕 baseline（主題、四幕 job、跨幕 obligation、hard constraint）
++        ↓
++目標 Act 夠穩定（outline 大方向確認）
++        ↓ [作者批核 outline]
++目標 Act 的 Sequence / Beat Sheet 工作
++        ↓ [該 Beat / Sequence 夠穩定]
++Scene 開發
++        ↓
++Dialogue blueprint
++        ↓
++Script（對白 / 鏡頭 / timing）
+ ```
+ 
+ **三層分工：**
+ - **Outline 層：** Act結構、beat功能、AKS進程、埋位設計、大方向確認。唔包含具體對白或執行細節。
+ - **Beat Sheet 層：** 每beat發生咩、情感弧、關鍵設計決定（A/B/C）、CDL錨點。唔包含具體對白/鏡頭/timing。
+-- **Scene/Script 層：** 具體對白、鏡頭設計、動作細節。**全四幕 Beat Sheet 完成後才開始。**
++- **Scene/Script 層：** 具體對白、鏡頭設計、動作細節。
++
++**Local Vertical Refinement Policy（2026-09-10 作者授權）：**
++- **舊硬解已撤銷**：唔再要求「全四幕 Beat Sheet 全部批核完先可以做任何 Scene / Dialogue」。
++- 目標 Act（例如 Act I）夠穩定就可以逐層向下做到 Scene / Dialogue，Acts II–IV 唔需要先鎖死 Beat Sheet。
++- **但 Global Dependency Protection 仍然強制**：如果某個 Scene 依賴一個未解決嘅後幕真相，該點必須標 `PROVISIONAL` / `REVALIDATE_REQUIRED` / `BLOCKED_AT_THIS_DEPENDENCY`，唔可以由 local scene 靜靜決定一個未解決嘅全局真相。
++- **Draft ≠ Canon**：downstream artifact 可以喺全故事結構鎖死之前存在，狀態用 `DRAFT` / `PROVISIONAL` / `SCENE_REFERENCE` / `REVALIDATE_REQUIRED` / `CANDIDATE` / `APPROVED_AT_THIS_LAYER`。Scene 唔可以靜靜變 canon；dialogue 唔可以靜靜鎖死未解決 plot 結構；正式 canon writeback 仍走既有 author / canon gate；上層改動可令下層 work 失效或需 revalidate。
+ 
+ **硬性規則：**
+-- 唔可以跳層——Outline未批核不做Beat Sheet；Beat Sheet未全部完成不做Scene
++- 唔可以跳層——Outline未批核不做Beat Sheet；同一段 Beat / Sequence 未夠穩定不做該段 Scene
+ - AI 必須主動判斷當前層級，唔可以「是但」跳去下一層
+-- 出現「具體對白wording / 鏡頭角度 / Xsec timing」= 已跳入 Scene 層，須退回
+-- 唯一例外：作者明確說「我想試寫草稿看感覺」→ 標記 `[DRAFT ONLY — NOT CANON]`，不進入任何 canon 文件
++- 出現「具體對白wording / 鏡頭角度 / Xsec timing」而該段仲喺 Beat 層 = 跳咗層，須退回（除非已正式進入該段 Scene 層並有 draft 狀態標記）
++- 任何 Scene / Dialogue 產出，只要全故事 Beat Sheet 未全部批核，一律帶狀態章 `[DRAFT / 暫定 — pending full-story beat lock]`，唔可以 writeback 入 canon
+ 
+ ## Primary durable files
+ - `PROJECT_STATUS.md` = 主 resume anchor / current truth snapshot

@@ -1,0 +1,8 @@
+RUN_MODE = PILOT
+QUESTION_CLASS = DIRECTOR_DECISION
+DIRECTOR_DECISION_STATE = WAITING_FOR_DIRECTOR
+BLOCK_DOWNSTREAM = YES
+TRANSITION_ALLOWED = NO
+USER_RESPONSE_REQUIRED = YES
+
+No durable production writeback. Run halts here until the Director answers the question posed in chat.

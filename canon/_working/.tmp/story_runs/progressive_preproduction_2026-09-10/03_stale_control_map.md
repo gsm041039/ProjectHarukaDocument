@@ -1,5 +1,11 @@
 # 03 — Control-File Freshness Map (Stage 0)
 
+> **Correction note (2026-09-10):** runtime reframe to Claude-primary does not change this file.
+> Control artifacts under `canon/_working/` are agent-neutral; freshness classifications and the
+> Stage-2 refresh priority stand as written. All refresh is PATCH-in-place via `.claude` skills
+> (`story-canon-sync-gate`, `story-canon-fact-map-builder`, `story-room` for the Gate A/B/C tables).
+
+
 Reference point: latest canon decision = **CDL-408** (Round 184, 2026-09-10).
 "Behind by" = rough gap between file's last real edit and current workflow state.
 NO CHANGES MADE. Classification only.

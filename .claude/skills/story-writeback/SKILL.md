@@ -21,6 +21,7 @@ $ARGUMENTS
 
 ## Entry criteria
 全部成立先可 writeback：
+- **RUN_MODE = `PRODUCTION`**（2026-09-11 新增，強制、機械化檢查——唔係自然語言自律）。如果來源任務／orchestrator 宣告咗 `RUN_MODE = PILOT` 或 `RUN_MODE = EXPERIMENT`，一律 **`WRITE_BLOCKED_BY_RUN_MODE`**，唔可以寫入任何 durable production state（`PROJECT_STATUS.md` / `NEXT_ACTION.md` / `QUESTION_QUEUE.md` / `CANON_DECISION_LOG.md` / 已批核 Act 檔 / 已批核 Beat Sheet / canon 檔 / production decision ledger）——**除非作者事後明確講「Promote this pilot result into production」／「將呢個結果 promote 做正式」**，先可以將 RUN_MODE 改返 `PRODUCTION` 再走呢個 gate。冇宣告 RUN_MODE 嘅任務，預設 `PRODUCTION`（即正常故事工作照舊）。
 - Author explicitly approved writeback.
 - Target files / sections clear.
 - Blocking questions resolved or safely deferred.

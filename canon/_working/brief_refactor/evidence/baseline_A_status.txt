@@ -1,0 +1,75 @@
+ M .claude/skills/story-dialogue-readiness-gate/SKILL.md
+ M .claude/skills/story-orchestrator/SKILL.md
+ M .claude/skills/story-resume/SKILL.md
+ M .claude/skills/story-room/SKILL.md
+ M .claude/skills/story-router/SKILL.md
+ M .claude/skills/story-run-workspace-manager/SKILL.md
+ M .claude/skills/story-source-recovery-gate/SKILL.md
+ M .claude/skills/story-writeback/SKILL.md
+ M .claude/story_system/consequence-driven-progression.md
+ M CLAUDE.md
+ M art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png
+ D art/ConceptArt/Characters/Misao/f69d7699-dd0f-4a57-9cc4-d78044b442d4.png
+ D "art/ConceptArt/Characters/Rin/22521b47-adef-489a-81e9-2d716f92baca - Copy.jpg"
+ D art/ConceptArt/Characters/Rin/28b5b7b2-8541-4c7c-b641-eee3c861aff7.png
+ D art/ConceptArt/Characters/Rin/44528a96-ed36-46b9-8607-79498232a293.png
+ D art/ConceptArt/Characters/Rin/7aa6819f-ffcf-4737-a0a6-e01d8d898ae7.png
+ D art/ConceptArt/Characters/Rin/d3557a3b-f6ea-4879-9512-2e29ac4e5619.png
+ D art/ConceptArt/Characters/Rin/dc134503-8251-4a5c-b112-1045065a7331.png
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/00_target_and_constraints.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/01_system_ownership_audit.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/02_workflow_contradictions.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/03_stale_control_map.md
+ M canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/13_run_manifest.md
+ M canon/_working/BEAT_SHEET_SOURCE_MANIFEST.md
+ M canon/_working/NEXT_ACTION.md
+ M canon/_working/PROJECT_STATUS.md
+ M canon/_working/SESSION_LEDGER.md
+ M canon/_working/canon_fact_map/BUILD_LEDGER.md
+ M canon/_working/canon_fact_map/CLAIM_INDEX.md
+ M canon/_working/canon_fact_map/DOC_REGISTER.md
+ M canon/_working/canon_fact_map/FACT_MAP_FINAL_STATUS.md
+ M canon/_working/story_construction/ACT_I_BEAT_SHEET.md
+ M canon/_working/story_construction/ACT_I_OUTLINE.md
+ M canon/_working/story_construction/CONSIDERATIONS_REGISTER.md
+ M canon/_working/story_construction/CONTROL_OBJECTIVES_MASTER.md
+ M canon/_working/story_construction/CROSS_ACT_CONTROL_LAYERS.md
+ M canon/_working/story_construction/GROUP_WORLDVIEW_CONFLICT_MAP.md
+ M canon/_working/story_construction/HARD_CONSTRAINTS_TABLE.md
+ M canon/_working/story_construction/KNOWLEDGE_DEPENDENCY_MAP.md
+ M canon/_working/story_construction/RELEVANT_FILES_TABLE.md
+?? .claude/skills/story-solution-space-designer/
+?? art/ConceptArt/Characters/Misao/_BAK/1cab4ae1-aa2a-429c-a19f-660f691cd478.png
+?? art/ConceptArt/Characters/Misao/_BAK/2364d9c7-d402-4697-a4c6-e654f8fa2beb.png
+?? art/ConceptArt/Characters/Misao/_BAK/97643114-0aa8-4fe9-84a9-ad4d3f4ee715.png
+?? "art/ConceptArt/Characters/Misao/_BAK/ChatGPT Image 2026\345\271\2649\346\234\21014\346\227\245 \344\270\213\345\215\21004_33_47.png"
+?? art/ConceptArt/Characters/Misao/_BAK/afasfSED.png
+?? art/ConceptArt/Characters/Misao/_BAK/c5dd8802-f49a-4829-9317-cb9a30591aba.png
+?? art/ConceptArt/Characters/Misao/_BAK/f69d7699-dd0f-4a57-9cc4-d78044b442d4.png
+?? "art/ConceptArt/Characters/Rin/_BAK/22521b47-adef-489a-81e9-2d716f92baca - Copy.jpg"
+?? art/ConceptArt/Characters/Rin/_BAK/28b5b7b2-8541-4c7c-b641-eee3c861aff7.png
+?? art/ConceptArt/Characters/Rin/_BAK/44528a96-ed36-46b9-8607-79498232a293.png
+?? art/ConceptArt/Characters/Rin/_BAK/7aa6819f-ffcf-4737-a0a6-e01d8d898ae7.png
+?? art/ConceptArt/Characters/Rin/_BAK/d3557a3b-f6ea-4879-9512-2e29ac4e5619.png
+?? art/ConceptArt/Characters/Rin/_BAK/dc134503-8251-4a5c-b112-1045065a7331.png
+?? canon/_working/.tmp/story_runs/director_decision_waiting_state_test_2026-09-12/
+?? canon/_working/.tmp/story_runs/director_display_format_live_retest_2026-09-12/
+?? canon/_working/.tmp/story_runs/housekeeping_2026-09-11/
+?? canon/_working/.tmp/story_runs/live_problem_driven_pilot_2026-09-11/
+?? canon/_working/.tmp/story_runs/problem_driven_patch3_final_2026-09-11/
+?? canon/_working/.tmp/story_runs/progressive_multibeat_pilot_2026-09-11/
+?? canon/_working/.tmp/story_runs/progressive_patch2_2026-09-11/
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/04_source_freshness_and_factmap_delta.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/05_author_gate_conflicts.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/06_control_reconciliation_ledger.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/07_foundation_readiness.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/08_progressive_routing_design.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/09_implementation_ledger.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/10_resume_trace_impact_test.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/11_regression_results.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/12_act_i_readiness_dry_run.md
+?? canon/_working/.tmp/story_runs/progressive_preproduction_2026-09-10/14_traceability_closure_report.md
+?? canon/_working/.tmp/story_runs/progressive_validation_pilot_2026-09-11/
+?? canon/_working/DIRECTING_LANGUAGE_V0.5_BASELINE_DRAFT.md
+?? canon/_working/brief_refactor/
+?? canon/_working/story_construction/ACT_I_SEQUENCE_MAP.md

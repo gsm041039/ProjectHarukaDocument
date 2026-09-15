@@ -1,6 +1,8 @@
 # CROSS-ACT CONTROL LAYERS
 Built: 2026-03-25 | Agent C (Director) 整合
 
+> ⚠️ **FRESHNESS: PARTIALLY_STALE as-of 2026-09-10** (last real edit 2026-06-19). Act I–III 控制線骨架大致仍可用作 baseline；「Stable / Unstable」標籤同 Act IV 行（Act IV Outline 仍未存在＝主阻塞點）多數已過期。逐條用前對 `PROJECT_STATUS.md`（Round 184）+ `CANON_DECISION_LOG.md`（CDL-408）revalidate；end-state 唔可以因為「文件舊 + 標 Stable」就當真。
+
 每條控制線逐幕追蹤。格式：狀態 = Stable / Unstable / Blocked / Needs Author Input
 
 ---

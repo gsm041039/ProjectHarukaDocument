@@ -35,6 +35,12 @@ READY test (must pass with a plain author operation):
   - ACT_II/III/IV_BEAT_SHEET: **missing**
 - Per pipeline law: since not all four Act Beat Sheets are approved, **no Scene layer work is legal yet** — but scene-level runs already exist (`.tmp/story_runs/haruka_first_transform_school*`). See 02_workflow_contradictions.md.
 
+## Runtime frame (author correction, 2026-09-10)
+- **Active production agent = Claude. Authoritative workflow = `.claude/` + `CLAUDE.md` + `.claude/story_system/`.**
+- `.agents/` (Codex) = secondary compatibility reference only. NOT this run's implementation target.
+- Do not classify a capability as MISSING / needing PORT just because `.agents/` lacks it.
+- Stage 4 patch targets, if any, are `.claude/skills/*` + `CLAUDE.md`, not `.agents/`.
+
 ## What this pack must NOT become
 - A new "NarrativeProduction/" tree
 - 10 new skills

@@ -1,0 +1,153 @@
+{
+  "ledger_version": "1.0",
+  "baseline": "e4c5743aeba67c57c74178d2b896f8d508617922",
+  "target_file": "00_Story_Brief.html",
+  "entries": [
+    {
+      "id": "SYNC-S1",
+      "type": "sync_gap",
+      "original_location": "00_Story_Brief.html:7051 (#c-miyako, 忠誠邊界段)",
+      "excerpt": "信任圈外（未信任的隊友、市民、未認定的血親）是真冷漠，不是口硬心軟。",
+      "claim": "美夜子對信任圈外人士是真冷漠",
+      "source_path": "canon/03_characters/miyako.md",
+      "source_revision": "commit e4c5743 (CDL-408, 2026-09-10)",
+      "confirmation_status": "CONFIRMED_SUPERSEDED",
+      "concept_group": "美夜子日常底色",
+      "recommended_action": "REPLACE",
+      "destination": "same location, rewritten",
+      "supersede_basis": "CDL-408 author-confirmed 2026-09-10",
+      "verification_status": "VERIFIED_STALE_DIRECT_CONTRADICTION",
+      "old_value": "是真冷漠，不是口硬心軟",
+      "new_value": "係防備姿態，唔等於唔關心；仍會暗地留意、默默照住（否認得到）"
+    },
+    {
+      "id": "SYNC-S2",
+      "type": "sync_gap",
+      "original_location": "N/A (absence)",
+      "excerpt": null,
+      "claim": "解離性麻木係急性創傷反應期限定狀態，唔係美夜子日常底色",
+      "source_path": "canon/03_characters/miyako.md",
+      "source_revision": "commit e4c5743 (CDL-408)",
+      "confirmation_status": "CONFIRMED",
+      "concept_group": "美夜子日常底色",
+      "recommended_action": "NO_ACTION_COVERED_BY_S1",
+      "destination": null,
+      "verification_status": "VERIFIED_NOT_PRESENT_NOT_CONTRADICTED"
+    },
+    {
+      "id": "SYNC-S3",
+      "type": "sync_gap",
+      "original_location": "N/A (missing)",
+      "excerpt": null,
+      "claim": "Behavior Hook #14 扮唔理，暗地執手尾",
+      "source_path": "canon/03_characters/miyako.md",
+      "source_revision": "commit e4c5743 (CDL-408)",
+      "confirmation_status": "CONFIRMED",
+      "concept_group": "美夜子日常底色",
+      "recommended_action": "AUTHOR_JUDGMENT_CALL",
+      "destination": "fold into S1 rewrite, or standalone (undecided)",
+      "verification_status": "VERIFIED_MISSING"
+    },
+    {
+      "id": "SYNC-S4",
+      "type": "sync_gap",
+      "original_location": "00_Story_Brief.html:7906, :9438",
+      "excerpt": null,
+      "claim": "紫音成癮崩潰雷達例子改措辭（移除美夜子引用）",
+      "source_path": "canon/03_characters/iwakura_akane.md",
+      "source_revision": "commit e4c5743 (CDL-408)",
+      "confirmation_status": "CONFIRMED",
+      "concept_group": "紫音崩潰雷達",
+      "recommended_action": "NO_ACTION",
+      "destination": null,
+      "verification_status": "VERIFIED_NOT_APPLICABLE"
+    },
+    {
+      "id": "DEDUP-A",
+      "type": "semantic_duplicate_group",
+      "original_location": "00_Story_Brief.html:5870-5942 (#laws) & :11362-11761 (附錄A)",
+      "excerpt": "痛苦不能被消除，只能被轉移 / 痛苦不會消失，只會轉移",
+      "concept_group": "情緒系統三層解釋",
+      "duplicate_classification": "DRAFT_INCREMENT",
+      "recommended_action": "MERGE_HEADER_KEEP_INCREMENT",
+      "destination": "#laws stays reader entry; Appendix A keeps only CDL-numbered technical increments (靈魂距離/可逆時限/唯識宇宙公理)",
+      "nuance_at_risk": "CDL traceability (Appendix A) and reader-friendly narrative (#laws) both needed; do not delete either wholesale",
+      "verification_status": "VERIFIED_VIA_FULL_READ"
+    },
+    {
+      "id": "DEDUP-B",
+      "type": "semantic_duplicate_group",
+      "original_location": "00_Story_Brief.html:5148-5156, :5277-5278, :12043 + 3 more sites",
+      "excerpt": "維多利亞天使唔係官方偶像認證制度，係光幕濾鏡美化標籤",
+      "concept_group": "維多利亞天使/偶像起源",
+      "duplicate_classification": "EXACT_OR_NEAR_DUPLICATE",
+      "recommended_action": "MERGE",
+      "destination": "#world-idol-origin (:5276-5307) keeps full explanation; other 5 sites become short pointer + anchor link",
+      "nuance_at_risk": "none — every repetition is verbatim-equivalent",
+      "verification_status": "VERIFIED_VIA_FULL_READ",
+      "sub_note": "internal duplicate within same subcard at :5145-5147 and :5154-5156, two 作者注 blocks saying the same thing"
+    },
+    {
+      "id": "DEDUP-C",
+      "type": "semantic_duplicate_group",
+      "original_location": "00_Story_Brief.html:5439-5441, :6158-6163, :6208-6216, :6258-6272, :6276-6309, :12052, :12069",
+      "excerpt": "解離兵器係結果分類，唔係無標記嘅出廠商品",
+      "concept_group": "魔法少女起源：解離兵器路線",
+      "duplicate_classification": "PATCH_RESIDUE_NOT_DESIGNED",
+      "recommended_action": "MERGE",
+      "destination": "keep full explanation only in 「解離兵器：結果分類」subcard (:6276-6309); other 6 sites become short anchor pointer",
+      "nuance_at_risk": "lane-compare's concrete character examples (秋穗無臉執行官/凜Unit 00) must be preserved, only the abstract warning sentence should be trimmed",
+      "verification_status": "VERIFIED_VIA_FULL_READ",
+      "evidence_of_non_design": "line 6301 self-documents a deleted prior hardware-mechanism setting, indicating repeated warnings are patch residue from past revisions"
+    },
+    {
+      "id": "DEDUP-D",
+      "type": "semantic_duplicate_group",
+      "original_location": "00_Story_Brief.html:6871,6893-6894,6901,4948,9951,9996,10035,10042-10070,11007,10075-10126 (15+ sites)",
+      "excerpt": "融合是主動、不是被剝奪；算唔算完全自由揀擇，故事刻意留白",
+      "concept_group": "晴香融合結局／自由意志留白",
+      "duplicate_classification": "REASONABLE_REPETITION_OVER_DENSITY",
+      "recommended_action": "COMPRESS_KEEP_FIRST_FULL",
+      "destination": "first full statement at :4948 (膠布哲學第四層); subsequent sites use short variant pointer; especially compress the 4x back-to-back repetition between Story Phase 6 (:9951-10070) and #ending (:10075-10126)",
+      "nuance_at_risk": "middle-of-doc occurrence at :6893-6894 adds unique angle ('唔係祭品' framing) not present elsewhere — must be preserved verbatim, not just linked",
+      "verification_status": "VERIFIED_VIA_FULL_READ"
+    },
+    {
+      "id": "DEDUP-E",
+      "type": "technical_duplicate_group",
+      "original_location": "00_Story_Brief.html:12037-12069 (TERMS array) & :12123-12137 (characterTooltips object)",
+      "excerpt": null,
+      "concept_group": "角色 tooltip 資料源",
+      "duplicate_classification": "EXACT_DUPLICATE_SYSTEM_CODE_LAYER",
+      "recommended_action": "FLAG_FOR_SCOPE_DECISION",
+      "destination": "unresolved — needs author/main-agent decision on whether JS-layer fix is in scope for this content refactor",
+      "nuance_at_risk": "two independent tooltip data sources give differently-worded blurbs for same 14 characters; hover text is inconsistent depending on trigger site",
+      "verification_status": "VERIFIED_VIA_FULL_READ",
+      "additional_bug": "TERMS array has internal duplicate entry '心之器' at :12038 and :12046"
+    },
+    {
+      "id": "NODUP-F",
+      "type": "not_duplicate",
+      "original_location": "character cards + #rels (:8944-9244)",
+      "concept_group": "角色關係多視角",
+      "duplicate_classification": "PERSPECTIVE_DIFFERENCE",
+      "recommended_action": "KEEP_AS_IS",
+      "verification_status": "VERIFIED_VIA_FULL_READ"
+    },
+    {
+      "id": "NODUP-G",
+      "type": "not_duplicate",
+      "original_location": "scene-figure data-desc across all character cards",
+      "concept_group": "無障礙/美術指導文字",
+      "duplicate_classification": "ACCESSIBILITY_ART_DIRECTION_FUNCTION",
+      "recommended_action": "KEEP_AS_IS_MOSTLY",
+      "caveat": "操/美夜子 data-desc reaches 700-900 chars, approaching script-level duplication of body prose — worth a closer look if it adds no new visual info",
+      "verification_status": "VERIFIED_VIA_FULL_READ"
+    }
+  ],
+  "unread_scope": [
+    "00_Story_Brief.html lines 10650-10900 (timeline mid-section, sampled not exhaustive)",
+    "美夜子↔浩然/美夜子↔凜 relationship-detail bodies, headers checked only",
+    "QUESTION_MATRIX.md / SESSION_LEDGER.md cross-check vs CANON_DECISION_LOG.md not independently verified"
+  ]
+}
