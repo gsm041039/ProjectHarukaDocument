@@ -1,153 +1,211 @@
 {
-  "ledger_version": "1.0",
+  "ledger_version": "3.0-closure-final",
   "baseline": "e4c5743aeba67c57c74178d2b896f8d508617922",
   "target_file": "00_Story_Brief.html",
-  "entries": [
+  "note": "This file indexes and summarizes the full preservation ledger. Full per-entry detail (source_location, short_factual_payload, semantic_role, primary_home, duplicate_locations, classification, refactor_risk, proposed_treatment, destination) is authoritative in the three evidence files listed below — not duplicated here in full to avoid two copies drifting apart. ~260 stable-ID entries total.",
+  "full_ledger_files": [
+    {
+      "file": "evidence/ledger_part1_world_rules_appendix_gameplay_js.md",
+      "id_prefix": "P1-",
+      "scope": "lines 1-6797 (head/CSS/六大讀者章) + 11041-12246 (遊戲系統/附錄A+B/全部script)",
+      "entry_count_approx": 60,
+      "coverage": "100%, no sampling, all <details> expansions opened"
+    },
+    {
+      "file": "evidence/ledger_part2_characters_relationships.md",
+      "id_prefix": "P2-",
+      "scope": "lines 6798-9244 (20 character cards + relationship map/cards)",
+      "entry_count_approx": 140,
+      "coverage": "100%, verbatim read; author-flagged 美夜子↔浩然 and 美夜子↔凜 passages explicitly re-verified verbatim"
+    },
+    {
+      "file": "evidence/ledger_part3_story_timeline_ending.md",
+      "id_prefix": "P3-",
+      "scope": "lines 9251-11034 (six story phases + ending + full timeline)",
+      "entry_count_approx": 60,
+      "coverage": "100%, line-by-line; author-flagged 10650-10900 section fully re-read line-by-line, not sampled"
+    },
+    {
+      "file": "evidence/source_authority_crosscheck.md",
+      "id_prefix": "N/A (narrative report)",
+      "scope": "canon/ diff since Round 164 checkpoint + durable state files (CANON_DECISION_LOG/QUESTION_QUEUE/QUESTION_MATRIX/SESSION_LEDGER/PROJECT_STATUS/NEXT_ACTION)",
+      "coverage": "two-layer crosscheck complete for all confirmed concepts since checkpoint"
+    }
+  ],
+  "sync_entries": [
     {
       "id": "SYNC-S1",
       "type": "sync_gap",
-      "original_location": "00_Story_Brief.html:7051 (#c-miyako, 忠誠邊界段)",
-      "excerpt": "信任圈外（未信任的隊友、市民、未認定的血親）是真冷漠，不是口硬心軟。",
+      "original_location": "00_Story_Brief.html:7051",
       "claim": "美夜子對信任圈外人士是真冷漠",
-      "source_path": "canon/03_characters/miyako.md",
-      "source_revision": "commit e4c5743 (CDL-408, 2026-09-10)",
       "confirmation_status": "CONFIRMED_SUPERSEDED",
-      "concept_group": "美夜子日常底色",
+      "two_layer_match": true,
       "recommended_action": "REPLACE",
-      "destination": "same location, rewritten",
-      "supersede_basis": "CDL-408 author-confirmed 2026-09-10",
-      "verification_status": "VERIFIED_STALE_DIRECT_CONTRADICTION",
       "old_value": "是真冷漠，不是口硬心軟",
       "new_value": "係防備姿態，唔等於唔關心；仍會暗地留意、默默照住（否認得到）"
     },
     {
       "id": "SYNC-S2",
       "type": "sync_gap",
-      "original_location": "N/A (absence)",
-      "excerpt": null,
-      "claim": "解離性麻木係急性創傷反應期限定狀態，唔係美夜子日常底色",
-      "source_path": "canon/03_characters/miyako.md",
-      "source_revision": "commit e4c5743 (CDL-408)",
+      "claim": "解離性麻木係急性創傷反應期限定狀態",
       "confirmation_status": "CONFIRMED",
-      "concept_group": "美夜子日常底色",
-      "recommended_action": "NO_ACTION_COVERED_BY_S1",
-      "destination": null,
-      "verification_status": "VERIFIED_NOT_PRESENT_NOT_CONTRADICTED"
+      "two_layer_match": true,
+      "recommended_action": "NO_ACTION_COVERED_BY_S1"
     },
     {
       "id": "SYNC-S3",
       "type": "sync_gap",
-      "original_location": "N/A (missing)",
-      "excerpt": null,
       "claim": "Behavior Hook #14 扮唔理，暗地執手尾",
-      "source_path": "canon/03_characters/miyako.md",
-      "source_revision": "commit e4c5743 (CDL-408)",
       "confirmation_status": "CONFIRMED",
-      "concept_group": "美夜子日常底色",
-      "recommended_action": "AUTHOR_JUDGMENT_CALL",
-      "destination": "fold into S1 rewrite, or standalone (undecided)",
-      "verification_status": "VERIFIED_MISSING"
+      "two_layer_match": true,
+      "recommended_action": "AUTHOR_JUDGMENT_CALL"
     },
     {
       "id": "SYNC-S4",
       "type": "sync_gap",
-      "original_location": "00_Story_Brief.html:7906, :9438",
-      "excerpt": null,
-      "claim": "紫音成癮崩潰雷達例子改措辭（移除美夜子引用）",
-      "source_path": "canon/03_characters/iwakura_akane.md",
-      "source_revision": "commit e4c5743 (CDL-408)",
+      "claim": "紫音成癮崩潰雷達措辭",
       "confirmation_status": "CONFIRMED",
-      "concept_group": "紫音崩潰雷達",
-      "recommended_action": "NO_ACTION",
-      "destination": null,
-      "verification_status": "VERIFIED_NOT_APPLICABLE"
-    },
-    {
-      "id": "DEDUP-A",
-      "type": "semantic_duplicate_group",
-      "original_location": "00_Story_Brief.html:5870-5942 (#laws) & :11362-11761 (附錄A)",
-      "excerpt": "痛苦不能被消除，只能被轉移 / 痛苦不會消失，只會轉移",
-      "concept_group": "情緒系統三層解釋",
-      "duplicate_classification": "DRAFT_INCREMENT",
-      "recommended_action": "MERGE_HEADER_KEEP_INCREMENT",
-      "destination": "#laws stays reader entry; Appendix A keeps only CDL-numbered technical increments (靈魂距離/可逆時限/唯識宇宙公理)",
-      "nuance_at_risk": "CDL traceability (Appendix A) and reader-friendly narrative (#laws) both needed; do not delete either wholesale",
-      "verification_status": "VERIFIED_VIA_FULL_READ"
-    },
-    {
-      "id": "DEDUP-B",
-      "type": "semantic_duplicate_group",
-      "original_location": "00_Story_Brief.html:5148-5156, :5277-5278, :12043 + 3 more sites",
-      "excerpt": "維多利亞天使唔係官方偶像認證制度，係光幕濾鏡美化標籤",
-      "concept_group": "維多利亞天使/偶像起源",
-      "duplicate_classification": "EXACT_OR_NEAR_DUPLICATE",
-      "recommended_action": "MERGE",
-      "destination": "#world-idol-origin (:5276-5307) keeps full explanation; other 5 sites become short pointer + anchor link",
-      "nuance_at_risk": "none — every repetition is verbatim-equivalent",
-      "verification_status": "VERIFIED_VIA_FULL_READ",
-      "sub_note": "internal duplicate within same subcard at :5145-5147 and :5154-5156, two 作者注 blocks saying the same thing"
-    },
-    {
-      "id": "DEDUP-C",
-      "type": "semantic_duplicate_group",
-      "original_location": "00_Story_Brief.html:5439-5441, :6158-6163, :6208-6216, :6258-6272, :6276-6309, :12052, :12069",
-      "excerpt": "解離兵器係結果分類，唔係無標記嘅出廠商品",
-      "concept_group": "魔法少女起源：解離兵器路線",
-      "duplicate_classification": "PATCH_RESIDUE_NOT_DESIGNED",
-      "recommended_action": "MERGE",
-      "destination": "keep full explanation only in 「解離兵器：結果分類」subcard (:6276-6309); other 6 sites become short anchor pointer",
-      "nuance_at_risk": "lane-compare's concrete character examples (秋穗無臉執行官/凜Unit 00) must be preserved, only the abstract warning sentence should be trimmed",
-      "verification_status": "VERIFIED_VIA_FULL_READ",
-      "evidence_of_non_design": "line 6301 self-documents a deleted prior hardware-mechanism setting, indicating repeated warnings are patch residue from past revisions"
-    },
-    {
-      "id": "DEDUP-D",
-      "type": "semantic_duplicate_group",
-      "original_location": "00_Story_Brief.html:6871,6893-6894,6901,4948,9951,9996,10035,10042-10070,11007,10075-10126 (15+ sites)",
-      "excerpt": "融合是主動、不是被剝奪；算唔算完全自由揀擇，故事刻意留白",
-      "concept_group": "晴香融合結局／自由意志留白",
-      "duplicate_classification": "REASONABLE_REPETITION_OVER_DENSITY",
-      "recommended_action": "COMPRESS_KEEP_FIRST_FULL",
-      "destination": "first full statement at :4948 (膠布哲學第四層); subsequent sites use short variant pointer; especially compress the 4x back-to-back repetition between Story Phase 6 (:9951-10070) and #ending (:10075-10126)",
-      "nuance_at_risk": "middle-of-doc occurrence at :6893-6894 adds unique angle ('唔係祭品' framing) not present elsewhere — must be preserved verbatim, not just linked",
-      "verification_status": "VERIFIED_VIA_FULL_READ"
-    },
-    {
-      "id": "DEDUP-E",
-      "type": "technical_duplicate_group",
-      "original_location": "00_Story_Brief.html:12037-12069 (TERMS array) & :12123-12137 (characterTooltips object)",
-      "excerpt": null,
-      "concept_group": "角色 tooltip 資料源",
-      "duplicate_classification": "EXACT_DUPLICATE_SYSTEM_CODE_LAYER",
-      "recommended_action": "FLAG_FOR_SCOPE_DECISION",
-      "destination": "unresolved — needs author/main-agent decision on whether JS-layer fix is in scope for this content refactor",
-      "nuance_at_risk": "two independent tooltip data sources give differently-worded blurbs for same 14 characters; hover text is inconsistent depending on trigger site",
-      "verification_status": "VERIFIED_VIA_FULL_READ",
-      "additional_bug": "TERMS array has internal duplicate entry '心之器' at :12038 and :12046"
-    },
-    {
-      "id": "NODUP-F",
-      "type": "not_duplicate",
-      "original_location": "character cards + #rels (:8944-9244)",
-      "concept_group": "角色關係多視角",
-      "duplicate_classification": "PERSPECTIVE_DIFFERENCE",
-      "recommended_action": "KEEP_AS_IS",
-      "verification_status": "VERIFIED_VIA_FULL_READ"
-    },
-    {
-      "id": "NODUP-G",
-      "type": "not_duplicate",
-      "original_location": "scene-figure data-desc across all character cards",
-      "concept_group": "無障礙/美術指導文字",
-      "duplicate_classification": "ACCESSIBILITY_ART_DIRECTION_FUNCTION",
-      "recommended_action": "KEEP_AS_IS_MOSTLY",
-      "caveat": "操/美夜子 data-desc reaches 700-900 chars, approaching script-level duplication of body prose — worth a closer look if it adds no new visual info",
-      "verification_status": "VERIFIED_VIA_FULL_READ"
+      "two_layer_match": true,
+      "recommended_action": "NO_ACTION_NOT_APPLICABLE"
     }
   ],
-  "unread_scope": [
-    "00_Story_Brief.html lines 10650-10900 (timeline mid-section, sampled not exhaustive)",
-    "美夜子↔浩然/美夜子↔凜 relationship-detail bodies, headers checked only",
-    "QUESTION_MATRIX.md / SESSION_LEDGER.md cross-check vs CANON_DECISION_LOG.md not independently verified"
-  ]
+  "conflicts_not_silently_resolved": [
+    {
+      "id": "CONFLICT-QM-01",
+      "description": "QUESTION_MATRIX.md M-PSY-EMB-01 row not updated after CDL-408; contradicts QUESTION_QUEUE.md/CANON_DECISION_LOG.md (same date 2026-09-10); SESSION_LEDGER.md Round 186 housekeeping incorrectly certified this file as not stale",
+      "scope": "repo state-file layer, NOT HTML content — outside Brief refactor task scope",
+      "resolution": "left open for author/maintainer, not silently patched"
+    },
+    {
+      "id": "CONFLICT-TIMELINE-01",
+      "description": "愛莉成為第一具人造魔法屍骸年份矛盾：98年節點 vs 108年節點皆聲稱是事故發生年",
+      "scope": "00_Story_Brief.html timeline content",
+      "resolution": "SOURCE_RESOLVED — STALE_TEXT, high confidence. Four independent canon sources (04_timeline_canon.md anchor event-aeri-accident + its own 循環起點 restatement, aeri.md, 07_entities_and_devices.md, akiho.md) all confirm 98. The 108 line is a single HTML-only occurrence, structurally attached to an unrelated 凜死亡/美夜子避難所詛咒 passage via '同年', with no supporting CDL. No author choice needed.",
+      "recommended_html_fix": "Delete or rewrite '同年，愛莉成為第一具人造魔法屍骸' in the 108-year node; may reference the 98-year event instead if a timing pointer is wanted",
+      "evidence_file": "evidence/source_recovery_aeri_and_lighting.md"
+    },
+    {
+      "id": "CONFLICT-LIGHTING-01",
+      "description": "秋穗石像場景光照矛盾：「實驗室懺悔」明確標註無陽光，「石像前的懺悔」寫陽光下暖橙光芒",
+      "scope": "00_Story_Brief.html scene-figure data-desc, lines 8370-8377 vs 8384",
+      "resolution": "SOURCE_RESOLVED — STALE_TEXT, high confidence. The repo's own canon/_working/image_spec_pipeline/CHANGE_LIST_EXISTING_SPEC.md audit log documents this exact drift: image 142's revision added the '地底無陽光→冷卻色澤' logic when its location was pinned to 秋穗實驗室/塔地底; image 67's revision pinned the same location but never carried the lighting-logic fix, leaving the pre-revision '陽光下暖橙光芒' text stranded. The log itself (line 738) flags this exact class of cross-scene visual-language drift as a known recurring pattern. No author choice needed.",
+      "recommended_html_fix": "Align '石像前的懺悔' (Scene_155) lighting description with '實驗室懺悔' (Scene_31) — 地底無陽光/冷卻暗紅色澤",
+      "evidence_file": "evidence/source_recovery_aeri_and_lighting.md"
+    }
+  ],
+  "approval_stability_records": {
+    "note": "Full per-event three-layer (event_core/beat_sequence/scene_execution) stability records in evidence/source_recovery_approval_status.md. Summary below.",
+    "events": [
+      {"event": "操父親出賣/紗夜犧牲", "event_core": "CONFIRMED (CDL-231/232/234, AC 2026-04-16)", "beat_sequence": "DRAFT (Act II Outline未批核)", "scene_execution": "DRAFT", "timeline_marker_validity": "PARTIALLY — over-broad for 'will it happen', valid for execution detail", "phase_missing_marker": true},
+      {"event": "操人偶牆", "event_core": "CONFIRMED (CDL-217/218 AC 2026-04-13 + 場地addendum AC 2026-05-19)", "beat_sequence": "DRAFT (Act III暫定批核, 無Beat Sheet)", "scene_execution": "DRAFT (死因機制已AC[CDL-330], 逐字遺言/鏡頭語言未鎖)", "timeline_marker_validity": "PARTIALLY", "phase_missing_marker": true},
+      {"event": "紫音自爆", "event_core": "CONFIRMED (CDL-216/218 AC)", "beat_sequence": "DRAFT", "scene_execution": "DRAFT (遺言方向定, 逐字未鎖)", "timeline_marker_validity": "PARTIALLY", "phase_missing_marker": true},
+      {"event": "凜相認與崩潰", "event_core": "CONFIRMED (CDL-215/219/274 AC)", "beat_sequence": "DRAFT (Step1位置2026-07-05仍在修正)", "scene_execution": "DRAFT", "timeline_marker_validity": "PARTIALLY + 相認過程本身係STRUCTURAL_GAP", "phase_missing_marker": "partial — 介錯有寫冇標記；相認過程完全冇寫"},
+      {"event": "美夜子三段式覺醒", "event_core": "CONFIRMED (Plant/Payoff位置2026-07-05修正確認)", "beat_sequence": "DRAFT", "scene_execution": "DRAFT", "timeline_marker_validity": "PARTIALLY + 同樣STRUCTURAL_GAP", "phase_missing_marker": "主要係漏事件非單純漏標"},
+      {"event": "晴香甦醒（主觀二十年結束）", "event_core": "UNCONFIRMED — 只有CDL-327定咗結局性質；主觀二十年具體機制(QQ-139~147)全部未落CDL，相關材料標'⏸️移出scope — Act IV草稿材料'", "beat_sequence": "UNCONFIRMED — 不存在於任何已批核Outline", "scene_execution": "UNCONFIRMED — 連Beat層都未存在", "timeline_marker_validity": "YES, fully valid — most accurate marker of all 8 events", "phase_missing_marker": true, "severity": "critical — Phase6+Ending以完全定案語氣（含'全篇最後一個鏡頭'收尾定位聲明）敘述建基於仍未存在嘅Act IV Outline"},
+      {"event": "最終決戰", "event_core": "CONFIRMED (大方向, CDL-002/006/007/266/288/321/185/076)", "beat_sequence": "DRAFT (J0-J8部分beat如J5/J6/J9標'btd')", "scene_execution": "DRAFT (J6內容QQ-176討論中, 明確'唔好當定案')", "timeline_marker_validity": "PARTIALLY", "phase_missing_marker": true},
+      {"event": "Act II幕末二段", "event_core": "CONFIRMED (個別CDL: E-15[CDL-197/228/235] + E-16[CDL-285/359])", "beat_sequence": "DRAFT — 8事件中唯一連暫定批核都未達到（Act II Outline v0.11從未收過任何形式批核）", "scene_execution": "DRAFT", "timeline_marker_validity": "PARTIALLY-TO-NO", "phase_missing_marker": false, "note": "NOT a missing-marker issue — event simply absent from any Story Phase, see structural_gap_final below"}
+    ],
+    "summary": "6/8 events = CORE CONFIRMED / EXECUTION PENDING; 1/8 (晴香甦醒) = event core itself UNCONFIRMED, most severe finding; 1/8 (Act II幕末二段) = not a marker mismatch, event is entirely absent from Story Phase (structural gap)",
+    "evidence_file": "evidence/source_recovery_approval_status.md"
+  },
+  "structural_gap_final_classification": [
+    {"gap": "Act II幕末二段", "classification": "STRUCTURAL_GAP", "reason": "Phase3自述觸發（秋穗訊號被截獲）同timeline嘅轉場機制（鐵桶包圍強制突圍）係兩件唔同事；晴香/菲融合狀態變化呢個角色基線轉變完全缺席"},
+    {"gap": "凜的相認與最終崩潰", "classification": "STRUCTURAL_GAP", "reason": "Phase5直接由介錯開場，'凜自願放棄自我'嘅道德/情感前因完全缺席，介錯戲失去核心情感結構"},
+    {"gap": "秋穗最終結局(永久無臉循環)", "classification": "TIMELINE_ONLY_DETAIL — INTENTIONAL", "reason": "屬敘事收束/情感閉合問題，Phase6任何節點因果理解不需要知道秋穗結局；值得標記為未來角色頁面可補充項"},
+    {"gap": "操永遠之罪支線", "classification": "TIMELINE_ONLY_DETAIL — INTENTIONAL", "reason": "連timeline自己內部都未回收，屬孤立伏筆完整度問題，非Phase/Timeline粒度缺口，需另行確認伏線去向"}
+  ],
+  "story_phase_granularity_finding": "「故事六階段」section設計意圖確認為宏觀六幕結構總覽（每Phase 8-14個濃縮節點，一節點可覆蓋數日至數週），非完整事件流程表。判斷缺口成立標準：冇呢個節點，讀者理解下一個Phase節點嘅因果會唔會斷裂——而唔係timeline有嘅細節Phase冇覆述就算漏。",
+  "mega_clusters_cross_section": [
+    {
+      "id": "MEGA-1",
+      "topic": "膠布哲學四層符號系統",
+      "spans": ["Part1 (P1-LAW-09, root abstract definition)", "Part2 (P2-LEUNG-02 Layer1 origin; P2-HARUKA-06/10 mechanism)", "Part3 (P3-PHASE1-08/09 Layer1/2; P3-PHASE4-14 Layer3; P3-PHASE6-04 Layer4)"],
+      "classification": "intentional_reminder — legitimate preview-then-payoff structure, NOT duplication",
+      "treatment": "KEEP_AS_IS all instances; add cross-ref from P1-LAW-09 to the four payoff locations"
+    },
+    {
+      "id": "MEGA-2",
+      "topic": "融合是否自由選擇留白（Cluster D擴展版，實際9處）",
+      "spans": ["Part1 (P1-LAW-09, earliest root statement)", "Part2 (P2-HARUKA-02, P2-HARUKA-07 unique 'not a scapegoat' angle)", "Part3 (6 locations: P3-PHASE6-04/09, P3-ENDING-04/06x2, P3-TIMELINE-23)"],
+      "classification": "intentional_reminder over-density",
+      "treatment": "canonical full definition should live at P1-LAW-09 (earliest, most authoritative); P2-HARUKA-02/07 kept (unique angles); Phase6→Ending 4x back-to-back repetition compress to 1-2 full + short pointers"
+    },
+    {
+      "id": "MEGA-3",
+      "topic": "痛苦轉移/情緒守恆定律（世界規則→遊戲機制→角色應用→結局收束，四層貫穿）",
+      "spans": ["Part1 (P1-LAW-04 director principle, P1-LAW-11 law-conservation, P1-APPENDIX-05 creditor metaphor, P1-GAME-04 mechanical embodiment)", "Part2 (P2-AKIHO-10 character application)", "Part3 (P3-ENDING-05 final payoff)"],
+      "classification": "intentional_reminder — full lifecycle of a world law across depth layers",
+      "treatment": "KEEP_AS_IS all; cross-ref rather than merge"
+    },
+    {
+      "id": "MEGA-4",
+      "topic": "晴香五歲創世/鐵絲網偶遇因果鏈",
+      "spans": ["Part1 (P1-WORLD-01/12 abstract mechanism, P1-CHAR-01 comparison table, P1-WORLD-05 spirit tree definition)", "Part2 (P2-HARUKA-04, RESOLVED via cross-check — no longer FLAG_FOR_AUTHOR, reclassified incremental_explanation)", "Part3 (P3-PHASE4-13 scene narrative, P3-TIMELINE-06/07 canonical timing)"],
+      "classification": "incremental_explanation across 4 depth layers",
+      "treatment": "KEEP_AS_IS all"
+    }
+  ],
+  "resolved_via_reconciliation": [
+    {"item": "P2-HARUKA-04 靈樹機制", "was": "FLAG_FOR_AUTHOR (needs cross-check with world section, out of Part2's read range)", "now": "RESOLVED — primary_home = P1-WORLD-05 (世界觀 spirit tree definition), Haruka's card = viewpoint_specific application, classification incremental_explanation, no author input needed"},
+    {"item": "P2-AKANE-07 紫音搗破奇蹟販賣所", "was": "unique, flagged only within Part2", "now": "RESOLVED — cross-referenced against P1-WORLD-14 (奇蹟販賣所 faction card, which independently mentions 'Akane investigated/broke this ring'), classification viewpoint_specific (world-faction-level vs character-level), not duplicate, not contradiction"},
+    {"item": "Part1-Cluster7 JS-only concern for 紗夜/小光", "was": "flagged as possibly JS-only character facts", "now": "RESOLVED — Part2 confirmed both have full visible character cards; only 螢's soul-dispersal fact remains genuinely JS-only (see critical_findings JS-ONLY-FACT-HOTARU-SOUL)"}
+  ],
+  "still_flagged_after_reconciliation": [
+    {"item": "P2-SOU-06 操背叛隊友嘅秘密 payoff", "status": "STILL FLAG_FOR_AUTHOR — Part3's full Story Phase coverage shows no node recovering this secret, same pattern as 操永遠之罪 (both appear to be dangling/unresolved subplot threads); recommend merging into one author question covering both of 操's two hidden subplot threads"}
+  ],
+  "critical_findings": [
+    {
+      "id": "CLUSTER-G-STABILITY-MISMATCH",
+      "severity": "critical",
+      "description": "Story Phase 4-6 narrative text carries NO pending/draft markers for Act III/IV events (操人偶牆, 紫音自爆, 凜相認崩潰, 美夜子三段式覺醒, 晴香甦醒, 最終決戰), while the same events in the Timeline section explicitly carry `pending-approval` tags and, for the ending sequence, an explicit warning box stating 'Act IV Outline全書仲未開始正式設計...此節僅供理解走向，唔應視為定案'. A reader who only reads Story Phase / Ending sections has no indication this content is draft-status.",
+      "affected_locations": ["9701-9837 (Phase4)", "9930-10127 (Phase6+Ending)", "10716-10745, 10842-11034 (Timeline pending-approval nodes)"],
+      "recommended_action": "AUTHOR_DECISION_REQUIRED before Prompt 3 cluster work on these sections — three options laid out in AUDIT.md section 5",
+      "relates_to_project_policy": "Local Vertical Refinement Policy (CLAUDE.md) — Global Dependency Protection requires PROVISIONAL/REVALIDATE_REQUIRED/BLOCKED_AT_THIS_DEPENDENCY marking when content depends on an unresolved later-act truth"
+    },
+    {
+      "id": "STRUCTURAL-GAP-ACT2-END",
+      "severity": "medium",
+      "description": "114年3月「Act II幕末二段」(晴香菲部分融合/剪髮明志/情緒管理局鐵桶包圍/強制進入Act III) has NO corresponding node in any Story Phase — exists only in Timeline",
+      "recommended_action": "CONFIRMED STRUCTURAL_GAP via source recovery (see structural_gap_final_classification) — flag for author whether Story Phase should gain a node"
+    },
+    {
+      "id": "STRUCTURAL-GAP-RIN-REUNION",
+      "severity": "medium",
+      "description": "114年3-4月「凜的相認與最終崩潰」has no Story Phase node before Phase5's highly-compressed 「0.5凜介錯」",
+      "recommended_action": "CONFIRMED STRUCTURAL_GAP via source recovery — same as above"
+    },
+    {
+      "id": "STRUCTURAL-GAP-AKIHO-ENDING",
+      "severity": "medium",
+      "description": "秋穗's final fate (\"永久無臉循環\", Airi's forgiveness never reaching her) appears ONLY in the Timeline's closing card — no Story Phase (3/4/5/6) narrates her ending; a reader following only Story Phase sees no resolution to her arc",
+      "recommended_action": "CONFIRMED TIMELINE_ONLY_DETAIL — INTENTIONAL via source recovery (not a causal gap) — flag for author as optional future addition, not a deletion/merge concern"
+    },
+    {
+      "id": "JS-ONLY-FACT-HOTARU-SOUL",
+      "severity": "high",
+      "description": "螢's soul being fully dispersed (not recoverable, not a corpse) exists ONLY in the characterTooltips JS object — cross-checked against her full main-body character card (P2-HOTARU-01~04) and scene-figure (通風管道那夜), confirmed absent from both. This is a load-bearing world-mechanics fact (determines whether she could ever return) invisible to a page-reading audience.",
+      "cross_team_resolution": "Part 1 also flagged 紗夜 and 小光 as possibly JS-only; Part 2 confirmed both have full visible character cards, so those two flags are RESOLVED (not JS-only). Only 螢's soul-dispersal fact remains genuinely JS-only.",
+      "recommended_action": "RELOCATE candidate — promote to visible card content in Prompt 3"
+    }
+  ],
+  "duplication_clusters_master_list": [
+    {"cluster": "A", "topic": "情緒系統三層解釋（七法則/隱藏機制/附錄A）", "class": "DRAFT_INCREMENT", "action": "MERGE_HEADER_KEEP_INCREMENT"},
+    {"cluster": "B", "topic": "維多利亞天使≠官方偶像制度警告句", "class": "EXACT_OR_NEAR_DUPLICATE", "action": "MERGE"},
+    {"cluster": "C", "topic": "解離兵器＝結果分類警告句", "class": "PATCH_RESIDUE_NOT_DESIGNED", "action": "MERGE"},
+    {"cluster": "D", "topic": "融合是否自由選擇留白refrain（含timeline，至少6處）", "class": "REASONABLE_REPETITION_OVER_DENSITY", "action": "COMPRESS_KEEP_FIRST_FULL"},
+    {"cluster": "E(orig)/Cluster7", "topic": "角色描述三重源：主卡/TERMS/characterTooltips", "class": "EXACT_DUPLICATE_SYSTEM_CODE_LAYER", "action": "FLAG_FOR_SCOPE_DECISION"},
+    {"cluster": "F(orig)", "topic": "角色關係多視角", "class": "PERSPECTIVE_DIFFERENCE", "action": "KEEP_AS_IS"},
+    {"cluster": "G(orig)", "topic": "scene-figure data-desc accessibility text", "class": "ACCESSIBILITY_ART_DIRECTION_FUNCTION", "action": "KEEP_AS_IS_MOSTLY", "correction": "第一輪判斷操/美夜子data-desc'接近重複'已被本輪推翻——大部分係唯一symptom描寫來源，非重複"},
+    {"cluster": "Part1-2", "topic": "唯識宇宙CDL-248 + Alpha/Beta access table三處重述", "class": "near_duplicate", "action": "MERGE_KEEP_UNIQUE_SUBFACTS"},
+    {"cluster": "Part1-3", "topic": "CDL-271靈魂困禁機制兩處", "class": "near_duplicate", "action": "MERGE_BASE_KEEP_APPENDIX_UNIQUE_MECHANICS（可逆轉時限/越掙扎越易斷/靈魂走咗幾遠 must survive）"},
+    {"cluster": "Part2-1", "topic": "操/宗一郎/華麗淇「家族黑市技術」三重複製", "class": "exact_duplicate", "action": "MERGE_extract_world_entry"},
+    {"cluster": "Part2-2", "topic": "操↔紗夜遺言雙重來源分析", "class": "exact_duplicate", "action": "MERGE"},
+    {"cluster": "Part2-3", "topic": "花子死亡瞬間scene-figure", "class": "exact_duplicate", "action": "COMPRESS_one_side"},
+    {"cluster": "Part2-4", "topic": "凜意識清零最後一拔（美夜子卡vs凜卡）", "class": "exact_duplicate_but_intentional", "action": "KEEP_AS_IS_both_sides"},
+    {"cluster": "Part3-E", "topic": "菲蒙太奇推晴香返嚟外因refrain，5處", "class": "near_duplicate_refrain", "action": "MERGE_keep_one_full"},
+    {"cluster": "Part3-F", "topic": "客觀數日vs主觀二十年時間雙軌，7處（全文最高密度）", "class": "intentional_reminder", "action": "COMPRESS_keep_1_2_full"},
+    {"cluster": "Part3-G", "topic": "Story Phase vs Timeline穩定性標籤不一致", "class": "STRUCTURAL_NOT_DUPLICATE", "action": "SEE_CRITICAL_FINDINGS", "severity": "critical"},
+    {"cluster": "Part3-H", "topic": "Timeline內部解放之戰兩節點", "class": "complementary_not_duplicate", "action": "NO_ACTION"}
+  ],
+  "unread_scope": []
 }
