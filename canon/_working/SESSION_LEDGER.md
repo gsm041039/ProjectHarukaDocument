@@ -1,5 +1,16 @@
 # SESSION_LEDGER
 
+## Foundation Audit（2026-09-18~19）— 主動全作缺口審查 + CDL-409 writeback
+- [x] 作者要求主動 Foundation Audit：唔答指定問題，揾未問過但影響故事/gameplay/production 嘅缺口
+- [x] 四個 research agent 並行：既有 gap 清單盤點、世界機制模型、社會/日常生活模型、故事引擎/Act結構 → `FOUNDATION_AUDIT_GAP_MAP.md`（ROOT-A/B/C 三條）
+- [x] 作者指示改用 backward/forward dependency trace（Canon Completion & Narrative Dependency Audit），四個新 agent → `CANON_COMPLETION_GAP_MAP.md`（9條，P0×2：螢reveal冇地基+HC-2b死因矛盾、秋穗身份揭露錯位）
+- [x] 作者指示再改用 world/system scale 審查（唔落 scene 層），四個新 agent → `WORLD_SYSTEM_SCALE_GAP_MAP.md`（10條，P0×1：緋潮循環vs終結）
+- [x] 討論緋潮循環問題延伸出屍骸化死亡機制可行性討論，作者提出「唔係無差別死咗都屍骸化，只有情緒極強冇人接住先會」嘅修正模型
+- [x] 核實發現呢個模型同 2026-08-29 討論記錄 AC-10（已 author-confirmed 但未寫入正式 canon 檔）高度吻合，屍骸屬邊層候選答案今日正式拍板
+- [x] `/story-orchestrator` → `story-solution-space-designer` 做咗世界規則可行性嘅 LEVEL_3 方案比較（完全字面 vs 日夜區分佈 vs 分級），作者傾向後者
+- [x] 作者確認寫入 canon，`/story-writeback` 執行：`01_world_rules_and_costs.md`（第69行+§section-death-comparison整段）、`CANON_DECISION_LOG.md`（CDL-409）、`QUESTION_QUEUE.md`（QQ-222）、2026-08-29 討論記錄（屍骸屬邊層行標記已確認）、兩份 Gap Map（GAP-02 補充線索、GAP-03 標 RESOLVED）
+- [ ] 待作者揀下一條缺口討論，或回到主阻塞點
+
 ## Brief Refactor Task（2026-09-15 第四階段）— Master Task Completion Audit，推翻上輪「完成」宣稱
 - [x] 作者質疑上一輪「Master Task完成」宣稱，要求嚴格completion audit
 - [x] 7個唯讀subagent（4頂層：IA+Story/Timeline、Reader Experience、Visual+Disclosure、Character+Appendix；後者再派6個子agent覆蓋全文）
