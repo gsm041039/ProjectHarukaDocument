@@ -539,6 +539,18 @@
 
 ---
 
+## <a id="section-tone-contrast-guardrail"></a>語氣落差護欄（CDL-410，2026-09-20 作者確認）
+
+「具現化心理學」（見 [Philosophy §世界觀立場](12_philosophy_and_systems.md#section-world-stance-mind-physics)）最大嘅風險唔係概念本身，而係**令整個作品透唔到氣**：每場戲都用同一種壓抑、同一種心理讀法，劇情一離開心理讀法就企唔住。
+
+**護欄**：作品要有**真正嘅呼吸位（語氣落差）**——導演層唔可以令全作維持同一個語氣濃度，要留位畀觀眾同角色可以真正喘一口氣。
+
+- 呼吸位必須係**真**嘅：同 [真暖 vs 假甜](00_series_bible.md#section-true-warmth-vs-false-sweetness)、[治癒敘事的禁忌](00_series_bible.md#section-creative-execution)（禁止虛假希望／強制正向）一致，唔係為咗鬆一鬆而加嘅假甜。
+- 同[見證守則（CDL-392）](08_narrative_design_bible.md#section-witness-principle)、CDL-374 紀律並列，屬導演紀律層。
+- **未決**：具體幾多個呼吸位、擺喺邊啲 beat、用咩形式（日常／幽默／靜默／環境等），留 Beat Sheet／導演層。
+
+---
+
 ## <a id="section-see-also"></a>See also
 
 - [Narrative Design Bible](08_narrative_design_bible.md) — 敘事結構規則、場景執行語法、代價設計完整機制

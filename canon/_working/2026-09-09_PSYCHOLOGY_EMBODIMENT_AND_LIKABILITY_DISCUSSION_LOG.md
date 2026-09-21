@@ -146,6 +146,7 @@ Round：183（2026-09-09）
 - 答完影響：`canon/12_philosophy_and_systems.md`（§七擴寫）、可能新 canon 表或 working 表、`CANON_DECISION_LOG.md`（新 CDL）、`CONTROL_OBJECTIVES_MASTER.md`（新控制項）
 
 ### B. Reframe 做「世界奇幻物理＝心靈物理」世界觀立場 + 兩條護欄（語氣落差要求；世界要有健康人口）—— 接唔接受？
+> **【2026-09-20 作者已確認接受（CDL-410）】**：立場寫入 `12_philosophy_and_systems.md`、語氣落差護欄寫入 `11_directing_playbook.md`、健康人口護欄寫入 `00_series_bible.md`。
 - 要決定：①接唔接受將原則由「角色病理指令」reframe 做世界觀立場；②接唔接受兩條護欄寫入；③護欄擺 `11_directing_playbook.md`（導演紀律）定 `08_narrative_design_bible.md` 定 `00_series_bible.md`？
 - 答完影響：`canon/01_world_rules_and_costs.md` 或 `12_philosophy`（世界觀立場層）、`11_directing_playbook.md`（語氣落差護欄，同見證守則 CDL-392 / CDL-374 紀律並列）、`00_series_bible.md`（健康人口護欄）、`CANON_DECISION_LOG.md`
 
@@ -155,6 +156,7 @@ Round：183（2026-09-09）
 - 答完影響：各角色檔（視綁定）、`11_directing_playbook.md`、`INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md`、`QUESTION_MATRIX.md`、可能同 QQ-217 merge
 
 ### D. 紫音同美夜子可唔可以好玩、有魅力、識講嘢？定係一好玩就唔係佢哋？
+> **【2026-09-20 作者確認方向＝可以（CDL-410）】**：只係方向准許；「加 wit／幽默定純加描寫密度」未指定，具體形式留 voice bible／Beat Sheet／Script 層。已喺 `miyako.md`／`iwakura_akane.md` 加註。
 - Canon 現況：兩人都已有部分 —— 美夜子（追光點/貓舌/偷食棒棒糖反差 CDL-342、K 房歌聲）；紫音（崩潰雷達細心、小狗偽裝、味覺通感金句）。兩人真正缺嘅係 wit／幽默。
 - 要決定：要唔要加多；加嘅係 wit／幽默 定純加描寫密度；會唔會撞 美夜子解離麻木/排他性忠誠（CDL-337）同 紫音「Act I 唔畀自覺正面特質標籤」（CDL-337）。
 - 答完影響：`miyako.md` / `iwakura_akane.md`（Behavior Hooks、視覺反差、voice）、`character-voice-bibles/`、可能 change-impact

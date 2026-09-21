@@ -9,6 +9,8 @@
 - [x] 核實發現呢個模型同 2026-08-29 討論記錄 AC-10（已 author-confirmed 但未寫入正式 canon 檔）高度吻合，屍骸屬邊層候選答案今日正式拍板
 - [x] `/story-orchestrator` → `story-solution-space-designer` 做咗世界規則可行性嘅 LEVEL_3 方案比較（完全字面 vs 日夜區分佈 vs 分級），作者傾向後者
 - [x] 作者確認寫入 canon，`/story-writeback` 執行：`01_world_rules_and_costs.md`（第69行+§section-death-comparison整段）、`CANON_DECISION_LOG.md`（CDL-409）、`QUESTION_QUEUE.md`（QQ-222）、2026-08-29 討論記錄（屍骸屬邊層行標記已確認）、兩份 Gap Map（GAP-02 補充線索、GAP-03 標 RESOLVED）
+- [x] 2026-09-20：作者要求逐條畀建議（16 條新發現＋舊 backlog），其後採納舊 backlog 五條並確認落 canon → `/story-writeback`：CDL-410（QQ-224 B＋D：`12_philosophy` 新增世界觀立場小節、`11_directing_playbook` 新增語氣落差護欄、`00_series_bible` 新增健康人口護欄、`iwakura_akane.md`／`miyako.md` 各加魅力機智方向准許註）、CDL-411（QQ-164 否決帝國量度指標，無 canon 正文改動）、CDL-412（QQ-222 D-1＋D-3：`06_visual_bible.md` 新增「時間行為」段）；`QUESTION_QUEUE.md`（QQ-164 RESOLVED、QQ-224／QQ-222 更新）、兩份討論記錄標註已同步
+- [x] Head writer 對舊 backlog 嘅建議係基於較低 context（已同作者講明），落 canon 前已重讀原始討論記錄核對 B／D 定義、QQ-164 候選方案原文；B 按原定義「reframe＋兩條護欄」package 寫入（已喺 CDL-410 註明）
 - [ ] 待作者揀下一條缺口討論，或回到主阻塞點
 
 ## Brief Refactor Task（2026-09-15 第四階段）— Master Task Completion Audit，推翻上輪「完成」宣稱
