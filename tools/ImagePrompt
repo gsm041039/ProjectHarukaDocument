@@ -128,532 +128,918 @@ character design: [角色身份 / 類型], [年齡感], [性格氣質], [主色�
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Image A = 要改嘅角色原圖
 Image B = 作品整體畫風參考（例如晴香 style 圖）
 Image C = 灰模 / 骨架比例參考圖
 Image D = 頭部參考圖（專門控制頭型、五官比例、髮型結構、頭部年齡感）
 Image E（可選） = 服裝 detail density / settei 畫法參考
+ANIME CHARACTER STYLE ADAPTATION / MODEL-SHEET CORRECTION
+WITH STYLE REFERENCE — COMPLETE HEAD MODEL LOCK
 
-/////////////////////anime character style adaptation — EDIT WITH REFERENCE/////////////////////
-
-Edit Image A using Image B as the main style reference, Image C as the body proportion reference, and Image D as the head-reference authority.
-
-Image A is the character image to be edited.
-Image B defines the target anime production drawing language.
-Image C defines the target simplified body proportion logic and mannequin-like body-construction balance.
-Image D defines the target head construction and head-design balance.
-If Image E is also provided, use it only as an optional costume-detail-density / production-sheet-detail reference.
-
-This is a style adaptation of the SAME character from Image A.
-It is NOT a character replacement, NOT a redesign into the person shown in Image B, and NOT a costume replacement.
-
-Redraw the character clearly enough that the style transformation is obvious.
-Do not merely clean up Image A.
-Do not preserve Image A’s original rendering method if it conflicts with the target production style.
-
-The whole character — face, hair, head construction, body, costume, accessories, and rendering — must belong to one unified visual system.
+EDIT_MODE = HEAD_REPAIR_ONLY
 
 ==================================================
-1. REFERENCE AUTHORITY
+1. INPUT REFERENCES AND ACTIVE EDIT SCOPE
 ==================================================
 
-IMAGE A — CHARACTER AUTHORITY
+Identify the supplied references by upload order:
 
-Use Image A to preserve:
-- character identity
-- intended visual age
-- personality and emotional impression
-- recognizable face impression
-- original eye character and gaze
-- eyebrow acting
-- hairstyle identity
-- major hair accessory placement
-- original color family
-- character-specific physique
-- outfit concept
-- primary costume silhouette
-- major motif placement
-- signature accessories / weapons / props
-- pose, viewing angle, and composition, unless a different layout is explicitly requested
+Image 1 — SOURCE:
+The character image or model sheet to edit.
 
-IMAGE B — STYLE AUTHORITY
+Image 2 — STYLE:
+The Haruka production-style reference.
+Use it for drawing language only, never for character identity.
 
-Use Image B to control:
-- overall anime drawing grammar
-- graphic simplification level
-- line-weight hierarchy
-- eye rendering method
-- eyelash treatment
-- iris rendering language
-- hair grouping logic
-- cel-shading language
-- costume simplification approach
-- fold economy
-- accessory simplification
-- color-block organization
-- overall TV-anime production finish
+Image 3 — BODY:
+The simplified mannequin / body-proportion reference.
 
-Do NOT transfer Image B’s:
-- character identity
-- hairstyle
-- hair color
-- eye color
-- outfit
-- accessories
-- motifs
-- personality
-- exact body shape
+Image 4 — HEAD:
+The approved COMPLETE HEAD DESIGN for the character in SOURCE.
+This is not merely an eye reference or a general style reference.
 
-IMAGE C — BODY PROPORTION AUTHORITY
+Image 5 — DETAIL, optional:
+A costume-detail-density reference only.
 
-Use Image C to control:
-- head-to-body balance
-- head-to-shoulder relationship
-- neck length and width
-- shoulder width and slope
-- ribcage width and torso mass
-- waist width and waist placement
-- pelvis scale and placement
-- arm thickness and taper
-- hand scale
-- leg length balance
-- thigh and calf taper
-- knee and ankle scale
-- foot scale
-- overall simplified mannequin construction
-- proportion consistency between front / side / back views
+Use only the edit mode specified at the top.
+Do not combine the two modes.
 
-Image C defines the proportional grammar only.
-Do NOT turn the character into a naked mannequin.
-Do NOT remove the character’s individual physique.
-Use Image C as a proportion and structure guide, not as a literal body replacement.
+HEAD_REPAIR_ONLY:
+Use SOURCE as the existing sheet to repair.
+Replace or redraw every depiction of the character's complete head
+so that it follows HEAD consistently.
 
-IMAGE D — HEAD REFERENCE AUTHORITY
+Editable regions include:
+- skull and complete head silhouette
+- face outline and facial features
+- the full hairstyle, including visible back hair
+- head accessories and earrings where shown in HEAD
+- the minimum upper-neck connection needed to attach the corrected head
 
-Use Image D to control:
-- head size relative to body
-- head shape
+Preserve everything outside those regions:
+- body proportions and physique
+- body pose and hand gestures
+- costume design and clothing silhouette
+- garment layers, trims, motifs and folds
+- props and non-head accessories
+- established character palette
+- sheet layout, panel positions and existing annotations
+- the existing 16:9 canvas
+
+Do not redraw the entire outfit merely because the head is being repaired.
+Do not change shoulder width, torso length, waist, hips, legs or shoes.
+Do not redesign or recolor the character.
+
+FULL_ADAPTATION:
+Redraw the complete character from SOURCE in STYLE's production language,
+using BODY for body construction and HEAD for the complete head design.
+
+Preserve the same character, personality, intended age, physique,
+costume concept, major silhouette, asymmetry, palette and signature props.
+Reorganize the presentation into the 16:9 layout specified below.
+
+This is always an edit of the character in SOURCE.
+It is not a new character, a costume replacement, or a Haruka variant.
+
+==================================================
+2. REFERENCE AUTHORITY — NO AVERAGING
+==================================================
+
+HEAD is the sole design authority for the complete visible head:
+- skull shape and cranial volume
+- forehead, temples and face proportions
+- cheeks, jaw, chin and profile construction
+- all facial-feature geometry and placement
+- ears and their relationship to the jaw
+- hairline, parting, fringe and major hair masses
+- hairstyle silhouette and visible hair construction
+- visible head-accessory shapes, scale and placement
+- head-specific visual age and characteristic expression
+
+SOURCE controls:
+- character identity and personality
+- costume, props and established color identity
+- information not shown in HEAD
+
+SOURCE must not override features that HEAD clearly shows.
+Do not average SOURCE's old face with HEAD's approved face.
+Do not preserve SOURCE's old bangs or head silhouette
+when those visibly differ from the approved design in HEAD.
+
+STYLE controls execution only:
+- line quality and line-weight hierarchy
+- graphic simplification
+- flat-color and cel-shadow treatment
+- economical interior detail
+
+STYLE must not change HEAD's facial geometry, hairstyle,
+eye proportions, head shape or visual age.
+Do not import Haruka's face, roundness, smile, hairstyle,
+colors, accessories, motifs or body shape.
+
+BODY controls body proportions in FULL_ADAPTATION only.
+It does not control facial construction.
+
+A cropped HEAD reference does not define a full-body head-to-height ratio.
+Scale the complete approved head uniformly to fit the body.
+Never stretch, squash or widen the head to fit an old face template.
+
+DETAIL, when supplied, controls costume-detail density
+in FULL_ADAPTATION only.
+It must not introduce a new costume or extra decoration.
+
+==================================================
+3. COMPLETE HEAD MASTER — NOT AN EYE-ONLY MATCH
+==================================================
+
+Treat HEAD as one canonical animation head design.
+
+Every head on the sheet must be a view, expression,
+or scale variation of that same design.
+
+Apply it to:
+- the main full-body front view
+- the full-body side view, if present
+- back views and rear three-quarter views
+- head close-ups and head turnarounds
+- every expression panel
+- hairstyle and head-accessory callouts
+
+Do not demonstrate reference matching only in an eye close-up.
+Do not place a faithful HEAD copy in one panel
+while leaving the main full-body heads unchanged.
+
+The main full-body front head is a required matching checkpoint,
+but it is NOT a new design authority.
+Both the full-body head and the enlarged head must match HEAD.
+
+Do not turn the close-up into a prettier redesign.
+Do not turn the small full-body head into a cuter simplification.
+Do not use a different generic anime-face template for each angle.
+
+The match must include the complete head,
+not merely similar eyes, white hair, a braid and the same colors.
+
+==================================================
+4. HEAD GEOMETRY AND FACIAL LANDMARKS
+==================================================
+
+Maintain one coherent construction based on HEAD:
+
+CRANIAL STRUCTURE:
+- skull height and width
+- cranial depth and back-of-head volume
+- forehead height and slope
+- temple shape
 - skull-to-face balance
-- forehead proportion
-- face length-to-width ratio
-- cheek width
-- jaw and chin character
-- eye placement on the head
-- brow-to-eye relationship
-- nose-mouth-chin spacing
-- hairstyle construction on the head
-- fringe organization
-- ear placement
-- neck insertion into the head
-- visual age feel in the head design
 
-Image D is a HEAD DESIGN AND CONSTRUCTION reference only.
-Do NOT copy Image D’s character identity unless it is the same person.
-Do NOT replace Image A’s identity with Image D’s identity.
-Use Image D to stabilize the head design, age feel, and facial construction.
+FACE STRUCTURE:
+- face length relative to skull size
+- cheek width and cheek contour
+- jaw width, jaw angle and jaw depth
+- chin width, length and projection
+- front-plane and side-plane relationship
 
-IMAGE E — OPTIONAL COSTUME DETAIL AUTHORITY
+FACIAL LANDMARKS:
+- eye-line height
+- eye spacing and eye-socket placement
+- brow position and neutral brow-to-eye distance
+- nose position, projection and base
+- mouth position and width
+- nose-to-mouth and mouth-to-chin spacing
+- ear height and attachment
+- neck insertion beneath the skull
 
-If Image E is provided, use it only to guide:
-- costume detail density
-- simplification of clothing construction
-- suppression of micro-detail
-- production-friendly costume rendering
-- official settei-sheet-like costume treatment
+Use the visible relationships in HEAD.
+Do not invent numerical proportions or substitute a generic
+"cute anime girl" construction.
 
-Do NOT copy Image E’s costume design, motifs, colors, or silhouette.
+Maintain the underlying proportions through changes of view.
+Do not force the same projected 2D measurements onto every angle.
 
-When references conflict:
-- Image A decides WHO the character is.
-- Image B decides HOW the character is drawn.
-- Image C decides HOW the body proportions and simplified anatomy are organized.
-- Image D decides HOW the head is proportioned and constructed.
-- Image E, if present, only helps decide HOW MUCH costume detail to draw.
+A true frontal view should be frontal.
+A profile should be a coherent side view of the approved design.
+A three-quarter view should include appropriate foreshortening.
 
-==================================================
-2. CHARACTER IMPRESSION AND VISUAL AGE
-==================================================
+Do not paste HEAD's original camera angle into every panel.
+Do not make the far eye as wide as the near eye when the angle
+requires it to be foreshortened.
 
-Preserve the distinctive impression of Image A.
-
-A gentle character must remain gentle.
-A restrained character must remain restrained.
-A proud character must retain their presence.
-An energetic character must retain their energy.
-A mature character must remain mature.
-A younger character must remain younger.
-
-Do not make every character cheerful, cute, younger, or rounder just because Image B is cute.
-Do not flatten personality differences.
-
-Preserve the intended visual age from Image A or the supplied character description.
-Do not automatically convert all characters into the age feel of Image B.
-Use Image D to stabilize the head age-feel if needed.
+If HEAD shows only one angle:
+use SOURCE only to fill genuinely unseen structural information.
+Keep those additions conservative and compatible with HEAD.
+Do not use unseen areas as permission to replace the visible design.
 
 ==================================================
-3. FACE / HEAD — SAME PERSON, NEW DRAWING LANGUAGE
+5. HAIR AND HEAD ACCESSORIES — PART OF THE SAME MODEL
 ==================================================
 
-Redraw the face and head using:
-- Image B for the drawing grammar
-- Image D for head construction and age balance
-- Image A for identity
+The hairstyle is part of the locked complete head.
 
-Preserve:
-- recognizable face impression
-- face length-to-width relationship
-- cheek and jaw character
-- chin shape
-- eye spacing
-- eye tilt and openness
-- brow-to-eye distance
-- nose-to-mouth spacing
-- mouth-to-chin spacing
-- characteristic gaze
-- expression logic
+Follow HEAD for:
+- the hair silhouette around the skull
+- hairline and parting
+- fringe divisions and their roots
+- the shape and direction of major front locks
+- side-lock thickness and length
+- visible ear coverage
+- braid position, thickness and major segmentation
+- tied sections, ribbons and attachment points
+- accessory scale and placement relative to the head
 
-Do NOT paste Image B’s face shape onto Image A.
-Do NOT turn all faces into the same rounded template.
-Do NOT force the same default smile or same emotional tone onto every character.
+Do not keep SOURCE's old hair construction around a newly drawn face
+when it conflicts with HEAD.
 
-Use Image D to make the head construction coherent and stable:
-- clear skull volume
-- clear front-plane / side-plane balance
-- correct eye placement
-- correct lower-face spacing
-- appropriate age feel
-- consistent head size versus body
+Use SOURCE only for rear hair, hidden attachments or other information
+that HEAD does not show.
+
+Preserve anatomical left/right placement.
+An asymmetrical braid or accessory must not jump to the opposite side
+when the camera changes.
+
+Use grouped hair masses and economical internal lines.
+Preserve the identity-defining locks and negative spaces.
+Do not simplify the hair by replacing it with a generic hairstyle.
 
 ==================================================
-4. EYES — SHARED SERIES CONSTRUCTION, INDIVIDUAL SHAPE
+6. EXPRESSIONS AND SMALL-SCALE HEADS
 ==================================================
 
-Use Image B’s eye-construction grammar while preserving Image A’s eye shape and emotional impression.
+Expressions are deformations of the same approved head,
+not new character designs.
 
-UPPER EYELID:
-- put the main visual weight on the upper eyelid
-- use one clean connected graphic lash mass
-- keep the outer corner controlled
-- do not automatically over-sharpen or over-lengthen the outer eye corner
+Allow:
+- eyebrows to act
+- eyelids to open or close
+- gaze direction to change
+- the mouth to change expression
+- coherent jaw movement when required
 
-LOWER EYELID:
-- NO lower eyelashes whatsoever
-- lower eyelid extremely weak or almost absent
-- only a minimal lower contour when necessary to preserve the eye shape
-- no lower lash spikes
+Do not permanently change the skull, cheek width, chin design,
+feature spacing, hairstyle construction or visual age between expressions.
 
-IRIS:
-- preserve Image A’s iris color family
-- render the iris in a simplified graphic way
-- include a clearly WHITE CENTRAL PUPIL / CORE
-- keep highlights minimal
-- no glossy layered game-style iris rendering
-- no complex radial texture
+A neutral expression must return to HEAD's neutral construction.
+Do not make a smiling version younger or rounder.
+Do not make a serious version longer-faced or sharper-jawed.
 
-Preserve eyebrow acting from Image A.
-Do not standardize every eyebrow into Image B’s default mood.
+At small full-body scale:
+- preserve the same head and hair silhouette
+- preserve facial landmark placement
+- preserve the characteristic eye-to-face relationship
+- preserve jaw, chin and fringe shapes
+- remove tiny marks before changing proportions
+
+Simplify mark count, not head identity.
+
+Do not enlarge the eyes to make them easier to read.
+Do not shorten the face, shrink the chin or widen the cheeks
+because the head occupies fewer pixels.
 
 ==================================================
-5. HAIR — PRESERVE IDENTITY, CHANGE CONSTRUCTION
+7. EYES — SUBORDINATE TO THE COMPLETE HEAD
 ==================================================
 
-Keep Image A’s hairstyle identity:
-- overall silhouette
-- length
-- parting
-- fringe arrangement
-- major locks
-- key curves
-- hair accessory placement
-
-Redraw the hair with:
-- Image A for identity
-- Image D for head placement and construction
-- Image B for grouping and rendering method
+Follow HEAD's eye shape, placement, tilt and iris-to-eye relationship.
+Do not treat eye matching as a substitute for matching the entire head.
 
 Use:
-- broader grouped hair masses
-- fewer internal strand lines
-- cleaner directional flow
-- simplified tips
-- larger cleaner highlight shapes
-- restrained cel shadows
+- a strong, connected upper-eyelid / lash mass
+- the controlled outer-corner shape shown in HEAD
+- no lower eyelashes
+- an extremely restrained lower-eyelid contour
+- simplified iris shapes
+- a clearly white central pupil / core when the iris is visible
+- minimal secondary highlights
 
-Do not replace the hairstyle with Image B’s hairstyle.
+The white core must not be replaced by a black pupil
+with an unrelated white reflection.
 
-==================================================
-6. BODY — IMAGE C PROPORTION LOGIC + IMAGE A CHARACTER DISTINCTION
-==================================================
+Do not add glossy layered irises, radial textures,
+extra lash spikes or decorative lower lashes.
 
-Use Image C as the base simplified body proportion guide.
-
-Translate Image A’s physique into the proportion language of Image C,
-while preserving character-specific body differences.
-
-Preserve meaningful differences in:
-- head size relative to body
-- shoulder width
-- neck character
-- ribcage size
-- waist width
-- pelvis width / height
-- torso length
-- arm shape
-- hand size
-- leg length
-- thigh / calf mass distribution
-- ankle and foot scale
-
-Important:
-Do not treat body adaptation as only changing leg length.
-Also adapt:
-- torso width
-- waist width
-- ribcage-to-waist taper
-- pelvis structure
-- shoulder scale
-- hand scale
-- foot scale
-- thigh vs calf balance
-- overall width distribution
-
-Use Image C’s simplified mannequin logic:
-- clear readable body blocks
-- clean joint placement
-- animation-friendly construction
-- readable silhouette
-- proportion consistency across all views
-
-Do not make every character have the exact same body.
-Do not apply identical proportions to all characters.
-Use Image C as the common production grammar, while keeping character individuality.
+Expression changes and perspective may alter the visible eye opening.
+They must not introduce a different underlying eye design.
 
 ==================================================
-7. COSTUME — SAME DESIGN, SIMPLIFIED DRAWING
+8. PRODUCTION DRAWING LANGUAGE
 ==================================================
 
-Keep Image A’s SAME outfit concept.
-Do NOT redesign the costume into Image B’s costume.
-Do NOT replace the outfit with generic simple clothes.
+Use STYLE's clean, simplified 2D TV-anime production finish.
 
-Preserve:
-- outer silhouette
-- major garment layers
-- main color blocking
-- main openings / closures
-- distinctive asymmetry
-- important motifs
-- signature accessories
-- recognizable design decisions
-
-Simplify the DRAWING, not the identity.
-
-Use this costume-detail hierarchy:
-1. silhouette and large color blocks
-2. necessary construction lines
-3. a few identity-defining motifs
-4. suppress most surface micro-detail
-
-Large shapes must stay large.
-Do not split broad costume areas into many small panels.
-
-If a detailed feature is important, simplify it rather than deleting it:
-- frills become a few broad scallops
-- feathers become grouped feather masses
-- straps become one clear band
-- emblems become clean graphic symbols
-- damaged edges become a few deliberate breaks
-
-If Image E is provided, follow its detail-density level only.
-If no Image E is provided, still keep the costume production-safe and simplified.
-
-==================================================
-8. STRUCTURE, FOLDS, AND MATERIALS
-==================================================
-
-Only draw construction lines when they explain:
-- garment boundaries
-- overlaps
-- closures
-- changes of direction
-- attachment points
-- essential design logic
-
-Suppress:
-- tiny seams
-- stitch repetition
-- zipper teeth
-- unnecessary panel lines
-- micro fasteners
-- dense trim
-- texture marks
-
-Draw folds only where physically necessary:
-- armpit
-- elbow
-- waist
-- hip
-- knee bend
-- glove bend
-- boot bend
-
-Use a small number of folds.
-Do not scatter wrinkles everywhere.
-
-Show material differences mainly through:
-- silhouette
-- edge language
-- overlap thickness
-- fold size and direction
-- simple color separation
-- restrained hard-edged shadows
-
-==================================================
-9. ACCESSORIES / SHOES / PROPS
-==================================================
-
-Keep accessories recognizable by:
-- silhouette
-- major color blocks
-- one or two key identifying features
-
-Apply the same simplification level to:
-- bags
-- shoes
-- gloves
-- jewelry
-- headphones
-- hats
-- armor parts
-- weapons
-- magical props
-- mechanical props
-
-Do not let accessories become more detailed than the character.
-
-Callout panels, if any, must show the SAME simplified design,
-not a re-detailed version.
-
-==================================================
-10. LINEWORK / COLOR / RENDERING
-==================================================
-
-Use Image B’s clean anime production line hierarchy:
-- stronger outer contours
-- stronger important overlaps
-- strong upper eyelid lines
-- fewer and lighter interior lines
-- minimal decorative linework
-
-Preserve Image A’s color relationships.
-Do not recolor the character into Image B’s palette.
-
-Use:
+Maintain:
+- readable large shapes
+- clear silhouette boundaries
+- strong important overlaps
+- medium-weight structural lines
+- fewer, lighter internal lines
 - flat local colors
-- simple cel shading
-- 1–2 tone shadow treatment
-- hard-edged shadow shapes only
-- restrained highlights
-- clean surfaces
+- one clear cel-shadow tone, with a second only when necessary
+- hard-edged shadow shapes
+- restrained graphic highlights
+
+Use the same rendering method across face, hair and head accessories.
+
+Do not let STYLE change HEAD's design in the name of simplification.
+The head must retain HEAD's construction while being drawn
+with the shared production line and shading language.
 
 Avoid:
-- gradients
-- airbrush rendering
-- painterly texture
+- gradients and airbrush shading
+- painterly hair strands
 - glossy game-art rendering
-- bloom
-- rim light
-- atmospheric cinematic lighting
-- semi-realistic rendering
+- dense jewelry filigree
+- texture noise
+- bloom, rim light and cinematic lighting
+- semi-realistic or 3D-rendered surfaces
 
-Simplification must affect the entire character, not only the face.
+In HEAD_REPAIR_ONLY, apply these changes only within the editable
+head regions. Preserve the rest of the sheet.
 
 ==================================================
-11. OUTPUT FORMAT — 16:9 SETTEI SHEET
+9. BODY, COSTUME AND PROPS — FULL_ADAPTATION ONLY
 ==================================================
 
-Present the result as a clean official anime settei sheet / production model sheet in a STRICT 16:9 horizontal canvas.
+Skip this section in HEAD_REPAIR_ONLY.
 
-The sheet should be organized clearly for a 16:9 presentation.
+Use BODY's simplified construction for:
+- head-to-body scale and neck-to-shoulder balance
+- ribcage, waist and pelvis relationships
+- arm and hand scale
+- thigh, knee, calf and ankle transitions
+- foot scale
+- consistent front, side and back proportions
 
-Required layout:
-- large full-body front view
-- large full-body back view
-- both aligned and easy to compare
-- optional side view if useful
-- head close-up / head-construction panel
-- expression head panels
-- hair / accessory callouts
-- key costume / prop callouts
-- color palette swatches
+Preserve character-specific physique.
+Do not turn body adaptation into leg-length editing alone.
+Do not shrink the head, widen the whole body or replace
+the character's physique with Haruka's physique.
+
+Keep SOURCE's costume concept and recognizable construction.
+
+Preserve:
+- main silhouette and garment layers
+- major openings and closures
+- asymmetry and large color blocks
+- signature motifs, accessories and props
+
+Reduce micro-detail rather than deleting defining features.
+Use fewer necessary folds and broad uninterrupted garment areas.
+
+Simplify lace into a few readable scallops.
+Simplify ornaments into clear silhouettes and a few large shapes.
+Suppress tiny seams, repeated stitching, filigree and surface patterns.
+
+Preserve the visible width of important garment trim or piping.
+Do not confuse a physical trim band with a thin outline.
+
+Callouts must show the same simplified design as the main views,
+not a more elaborate version.
+
+==================================================
+10. OUTPUT AND SHEET CONSISTENCY
+==================================================
+
+Use a strict 16:9 horizontal canvas.
+
+HEAD_REPAIR_ONLY:
+Preserve SOURCE's existing layout, panels, figure positions,
+annotations, props and background.
+Correct every existing head.
+Do not add extra eye studies or new character variants.
+
+FULL_ADAPTATION:
+Use a clean, light-gray official production-sheet layout with:
+- large aligned full-body front and back views
+- an optional body side view only if space allows
+- a clearly readable complete-head close-up
+- a small set of expressions using the same head
+- compact hair, accessory and signature-prop callouts
+- color swatches
+- short Traditional Chinese labels
+
+Prioritize the main figures and complete-head readability.
+Do not overcrowd the sheet with tiny duplicate panels.
+Do not invent biography, measurements or costume variants.
+
+Before finalizing, compare every head directly against HEAD:
+
+Does it preserve the same skull, face length, cheeks, jaw and chin?
+Are the facial landmarks consistent with the viewing angle?
+Does the hairstyle use the same roots, fringe and major masses?
+Are asymmetrical elements on the correct anatomical side?
+Does the full-body head match the enlarged head without becoming cuter?
+Do expressions preserve the same character construction?
+Have the supposedly frozen body and costume remained unchanged
+when HEAD_REPAIR_ONLY is active?
+
+Correct inconsistent heads toward HEAD.
+Do not average the inconsistent panels into a new compromise design.
+
+FINAL PRIORITY:
+
+One approved complete head.
+The same construction in every view.
+The same identity at every scale.
+The same hairstyle attached to the same skull.
+Different angles and expressions — not different heads.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ANIME CHARACTER STYLE ADAPTATION / MODEL-SHEET CORRECTION
+WRITTEN PRODUCTION STYLE — COMPLETE HEAD MODEL LOCK
+
+EDIT_MODE = HEAD_REPAIR_ONLY
+
+==================================================
+1. INPUT REFERENCES AND ACTIVE EDIT SCOPE
+==================================================
+
+Identify the supplied references by upload order:
+
+Image 1 — SOURCE:
+The character image or model sheet to edit.
+
+Image 2 — BODY:
+The simplified mannequin / body-proportion reference.
+
+Image 3 — HEAD:
+The approved COMPLETE HEAD DESIGN for the character in SOURCE.
+This is not merely an eye reference or a general style reference.
+
+Image 4 — DETAIL, optional:
+A costume-detail-density reference only.
+
+No Haruka image or separate character-style image is required.
+Use the written production style in this prompt.
+
+Use only the edit mode specified at the top.
+Do not combine the two modes.
+
+HEAD_REPAIR_ONLY:
+Repair SOURCE by redrawing every depiction of the complete head
+to match HEAD consistently.
+
+Editable regions include:
+- skull and complete head silhouette
+- face outline and facial features
+- the entire hairstyle, including visible back hair
+- head accessories and earrings where shown in HEAD
+- the minimum upper-neck connection required for the corrected head
+
+Preserve everything outside those regions:
+- body proportions, physique and pose
+- hands and gestures
+- costume silhouette and garment construction
+- clothing layers, trims, motifs and folds
+- props and non-head accessories
+- established character palette
+- panel positions, annotations and sheet layout
+- the existing 16:9 canvas
+
+Do not redesign the clothing.
+Do not alter shoulders, torso, waist, hips, legs or shoes.
+Do not recolor the character.
+Do not regenerate unrelated parts of the sheet.
+
+FULL_ADAPTATION:
+Redraw the entire character from SOURCE using the written
+TV-anime production style below.
+
+Use BODY for body construction and HEAD for the complete head.
+Preserve the same character, personality, intended age, physique,
+costume concept, major silhouette, asymmetry, palette and signature props.
+Present the result in the specified 16:9 production-sheet layout.
+
+This is an edit of the existing character.
+It is not a new character or a costume replacement.
+
+==================================================
+2. REFERENCE AUTHORITY — HEAD IS THE DESIGN STANDARD
+==================================================
+
+HEAD alone defines the complete visible head design:
+- skull shape and cranial volume
+- forehead, temples and face proportions
+- cheeks, jaw, chin and profile
+- facial-feature geometry and placement
+- ears and their attachment
+- hairline, parting and fringe
+- major hair masses and hairstyle silhouette
+- visible head accessories and their placement
+- head-specific visual age and characteristic expression
+
+SOURCE defines:
+- the character's identity and personality
+- costume, props and established color identity
+- details genuinely not visible in HEAD
+
+Do not let SOURCE override features clearly shown in HEAD.
+Do not blend SOURCE's old facial construction with the approved head.
+Do not retain conflicting old bangs or an old head silhouette.
+
+The written style controls drawing execution only.
+It must not change HEAD's anatomy, hairstyle, facial proportions,
+eye shape or age feel.
+
+BODY controls body proportions in FULL_ADAPTATION only.
+It does not supply a generic replacement face.
+
+A cropped head reference does not establish a full-body head-to-height ratio.
+Scale the approved head uniformly to fit the body.
+Do not stretch or squash it to fit SOURCE's old head.
+
+DETAIL, if supplied, controls costume-detail density
+in FULL_ADAPTATION only.
+Do not borrow its costume, palette, motifs or silhouette.
+
+==================================================
+3. WRITTEN TV-ANIME PRODUCTION STYLE
+==================================================
+
+Use a clean, graphic, simplified 2D TV-anime model-sheet style:
+controlled, readable, animation-friendly and consistent.
+
+This is not a high-detail mobile-game illustration,
+a painterly character portrait, a fashion rendering,
+a chibi conversion or a semi-realistic redesign.
+
+SHAPE LANGUAGE:
+Use broad, readable forms and economical shape construction.
+Keep large shapes uninterrupted.
+Let silhouette and major overlaps explain the design first.
+Preserve quiet areas instead of filling them with decoration.
+
+LINEWORK:
+Use three clear levels:
+1. strongest lines for outer silhouettes and major overlaps
+2. medium lines for essential structure
+3. fewer, lighter lines for internal detail
+
+Outer contours should be visibly stronger than minor internal lines,
+approximately 1.5–2 times their weight where appropriate.
+Avoid making every seam, hair strand and silhouette equally heavy.
+
+Use confident, connected upper-eyelid shapes.
+Do not add lower eyelashes.
+
+COLOR AND SHADING:
+Use flat local colors and clean hard-edged cel shadows.
+Prefer one shadow tone per material.
+Use a second shadow tone only when it adds necessary clarity.
+Use a few simple highlight shapes rather than glossy rendering.
+
+HAIR:
+Use grouped locks with clear roots and direction.
+Reduce strand-count without changing the approved hairstyle.
+Use broad cel-shadow masses rather than many narrow shiny streaks.
+
+FACE:
+Use economical marks for nose and mouth.
+Preserve HEAD's exact design character.
+Do not impose a default round face, oversized eyes,
+tiny chin or cheerful expression.
+
+COSTUME AND ACCESSORIES:
+Use large color blocks, a few essential construction lines,
+limited folds and simplified identity-defining details.
+
+The result may retain the character's softness, elegance,
+sharpness or maturity as appropriate.
+Do not make every character younger or cuter.
+
+Avoid:
+- gradients and airbrush shading
+- painterly blending or texture
+- glossy layered eye rendering
+- dense hair strands
+- micro-decoration and filigree
+- bloom, rim light and cinematic lighting
+- 3D-rendered surfaces
+- generic polished game-character rendering
+
+In HEAD_REPAIR_ONLY, apply the written style only inside
+the editable head regions. Preserve the rest of SOURCE.
+
+==================================================
+4. COMPLETE HEAD MASTER — ALL PANELS, ALL SCALES
+==================================================
+
+Treat HEAD as one canonical animation head design.
+
+Every depiction must use the same underlying construction:
+- main full-body front head
+- full-body side head, if present
+- back and rear three-quarter heads
+- enlarged head views
+- all expressions
+- hairstyle and head-accessory callouts
+
+Matching only the eyes is insufficient.
+Matching only hair color, a braid and a general facial impression
+is insufficient.
+
+Do not copy HEAD faithfully into one close-up
+while leaving the main full-body heads unchanged.
+
+The full-body front head is a mandatory matching checkpoint,
+not a replacement authority.
+Every panel must match HEAD directly.
+
+Do not create:
+- a small generic head for the full-body view
+- a prettier head for the close-up
+- a rounder head for smiling expressions
+- a sharper head for serious expressions
+- a different profile template for the side view
+
+Different angles and expressions must remain the same person
+with the same complete head construction.
+
+==================================================
+5. SKULL, FACE AND LANDMARK CONSISTENCY
+==================================================
+
+Build all views around HEAD's visible structural relationships.
+
+Keep consistent:
+- skull height, width and depth
+- back-of-head volume
+- forehead height and slope
+- temple contour
+- skull-to-face balance
+- face length and cheek width
+- jaw width, angle and depth
+- chin width, length and projection
+- eye-line height and eye spacing
+- brow position and neutral brow-to-eye relationship
+- nose position, base and projection
+- mouth position and width
+- nose-to-mouth and mouth-to-chin spacing
+- ear placement and attachment
+- neck insertion beneath the skull
+
+Do not invent numerical ratios.
+Do not replace the approved proportions with a generic anime template.
+
+Preserve the underlying model, not identical projected measurements.
+
+Use appropriate perspective and foreshortening:
+- frontal heads must actually face forward
+- profiles must be coherent side views of the approved head
+- three-quarter views must retain the same cranial volume
+- the far eye and far cheek must respond correctly to the angle
+
+Do not paste the reference's original viewing angle into every panel.
+Do not force a three-quarter face width onto a true frontal face.
+
+If HEAD supplies only one angle:
+use SOURCE only to complete genuinely unseen structures.
+Keep the inferred areas conservative and compatible with HEAD.
+Do not alter visible approved features to accommodate a generic profile.
+
+The implied volume is a construction guide for 2D drawing.
+Do not render a 3D model or add realistic anatomical detail.
+
+==================================================
+6. HAIR, EARS AND HEAD ACCESSORIES
+==================================================
+
+The locked head includes its complete hairstyle.
+
+Follow HEAD for:
+- hairline and parting
+- fringe divisions and root placement
+- major front-lock shapes
+- side-lock direction and thickness
+- hair volume around the crown and temples
+- exposed and covered ear areas
+- braid position and thickness
+- tied sections and ribbon attachments
+- visible accessory shapes, scale and location
+
+Do not combine HEAD's face with SOURCE's conflicting old hairstyle.
+
+Use SOURCE for rear-hair information and hidden attachment details
+only when HEAD does not show them.
+
+Preserve anatomical left/right placement.
+Do not mirror an asymmetrical hairstyle or move accessories
+to a different side between panels.
+
+Keep the same negative spaces around the face and hair.
+Do not hide inconsistent cheeks or ears behind newly invented locks.
+
+Reduce minor strand lines while retaining the important hair masses.
+Simplification must not become hairstyle replacement.
+
+==================================================
+7. EXPRESSION AND SCALE RULES
+==================================================
+
+Expressions modify the approved head;
+they do not replace its construction.
+
+Allow normal acting through:
+- eyebrows
+- eyelids
+- gaze
+- mouth shape
+- coherent jaw movement where necessary
+
+Keep the skull, persistent cheek structure, chin design,
+feature organization and hairstyle consistent.
+
+A closed-eye expression may close the eyes.
+A surprised expression may open the mouth and eyelids.
+Neither should become a different person's head.
+
+At full-body scale:
+retain the same skull silhouette, face proportions,
+fringe shapes, jaw, chin and facial landmarks.
+
+When marks become too small:
+remove nonessential detail first.
+Do not compensate by enlarging the eyes,
+shortening the face, widening the cheeks or shrinking the chin.
+
+The enlarged head must not be a beautified reinterpretation.
+The smaller head must not be a younger, rounder approximation.
+
+Simplify drawing marks, not identity or construction.
+
+==================================================
+8. EYES — WITHIN THE LOCKED COMPLETE HEAD
+==================================================
+
+Use HEAD's eye geometry and its position inside the face.
+
+Preserve the underlying:
+- eye height and width relationship
+- eyelid curvature
+- outer-corner length and direction
+- iris-to-eye ratio
+- eye spacing
+- neutral brow-to-eye relationship
 
 Use:
-- a clean horizontal 16:9 composition
-- light grey background
-- clean rectangular layout
-- organized spacing
-- Traditional Chinese annotations
-- professional TV-anime production-sheet presentation
+- one clean connected upper-eyelid / lash mass
+- no lower eyelashes
+- a minimal lower contour only where necessary
+- simplified iris color shapes
+- a clearly white central pupil / core when the iris is visible
+- very few secondary highlights
 
+Do not substitute a black pupil with a white reflection.
+Do not add radial iris textures, glossy layered highlights
+or extra lash spikes.
+
+Adjust visible eye openings for expression and perspective,
+without switching to a new eye design.
+
+The eyes must fit the approved skull and face.
+Eye similarity alone does not satisfy the complete-head requirement.
+
+==================================================
+9. BODY, COSTUME AND PROPS — FULL_ADAPTATION ONLY
+==================================================
+
+Skip this section in HEAD_REPAIR_ONLY.
+
+Use BODY's simplified body-construction grammar:
+- balanced head-to-body scale
+- coherent neck and shoulder connection
+- readable ribcage-to-waist-to-pelvis relationships
+- consistent arm and hand scale
+- continuous thigh, knee, calf and ankle transitions
+- appropriate foot scale
+- consistent proportions across front, side and back
+
+Preserve the character's individual physique.
+Do not replace the body with a generic identical mannequin.
+Do not alter only the legs while ignoring torso and pelvis structure.
+Do not shrink the head or widen the entire body as a shortcut.
+
+Preserve SOURCE's costume:
+- outer silhouette
+- main garment layers
+- important openings and closures
+- asymmetry
+- large color blocks
+- signature motifs, accessories and props
+
+Simplify the drawing rather than replacing the costume.
+
+Use this hierarchy:
+1. silhouette and major color blocks
+2. necessary garment construction
+3. a few identity-defining details
+4. suppression of surface micro-detail
+
+Use fewer physically meaningful folds.
+Merge redundant small marks into readable shapes.
+Simplify lace, ornaments and patterns rather than elaborating them.
+
+Preserve important garment trim as a visible physical band.
+Do not reduce it to a hairline or confuse it with contour ink.
+
+Do not add decorations to compensate for simplified rendering.
+Prop and costume callouts must use the same reduced-detail design
+as the main figures.
+
+==================================================
+10. OUTPUT AND FINAL CONSISTENCY
+==================================================
+
+Use a strict 16:9 horizontal canvas.
+
+HEAD_REPAIR_ONLY:
+Preserve the existing layout, background, annotations,
+body views, costume callouts and props.
+Correct every head already present.
+Do not add extra eye panels, alternate designs or new variants.
+
+FULL_ADAPTATION:
+Use a clean light-gray production-sheet layout containing:
+- large aligned full-body front and back views
+- an optional body side view if space permits
+- one clearly readable complete-head close-up
+- a small expression group
+- compact hair, accessory and signature-prop callouts
+- color swatches
+- short Traditional Chinese labels
+
+Keep the main figures and complete heads readable.
 Do not overcrowd the sheet.
-Do not add random extra variants.
-Do not let support panels overwhelm the main front/back views.
+Do not invent biography, measurements or alternate costumes.
 
-==================================================
-12. EDIT SCOPE AND PRESENTATION
-==================================================
+Before finalizing, compare each head directly against HEAD:
 
-By default, preserve Image A’s:
-- pose
-- camera angle
-- framing
-- image type
-- existing sheet format, if already a design sheet
+Is the skull the same construction?
+Are the forehead, face length, cheek contour, jaw and chin consistent?
+Are facial landmarks correctly carried into each viewing angle?
+Do fringe roots and major hair masses remain the same?
+Are asymmetrical elements attached to the correct anatomical side?
+Do the small and large heads remain the same design?
+Do expressions act without changing the character's persistent geometry?
+In HEAD_REPAIR_ONLY, has everything outside the allowed head regions
+remained unchanged?
 
-If converting into a settei sheet, keep the character identity and design consistent while reorganizing the presentation into the 16:9 production-sheet format.
+Resolve mismatches toward HEAD.
+Never average inconsistent panels into a third design.
 
-Do not invent extra character variants unless requested.
-Do not invent extra props, alternative costumes, or recommendation labels.
+FINAL PRIORITY:
 
-If Image A already contains front / side / back views,
-adapt them consistently using the same body logic from Image C and head logic from Image D.
+The entire head must match the approved head reference.
+Not just the eyes.
+Not just the face.
+Not just the hairstyle.
 
-==================================================
-13. FINAL CHECK
-==================================================
+One skull.
+One facial construction.
+One hairstyle structure.
+One character model across the entire sheet.
 
-The result must be:
-- unmistakably the same character as Image A
-- clearly drawn in the style language of Image B
-- proportionally organized using Image C’s simplified body grammar
-- head construction stabilized using Image D
-- original personality and visual age preserved
-- same hairstyle identity preserved
-- white central iris core and no lower eyelashes
-- same outfit concept preserved with lower and cleaner detail density
-- no borrowed identity, costume, or motif from Image B
-- no unnecessary new decoration
-- no return to high-detail illustration rendering
-- clearly presented in a 16:9 horizontal settei-sheet format
 
-FINAL INTENT:
 
-"Redraw the character from Image A as though this exact character
-had originally been designed for the same anime production as Image B,
-using Image C as the shared simplified body proportion standard
-and Image D as the head-construction standard.
 
-Keep the person, personality, age, physique, and outfit identity of Image A.
-Adopt the drawing grammar of Image B.
-Adopt the body proportion organization of Image C.
-Adopt the head construction logic of Image D.
-Optionally adopt the costume detail density of Image E if provided.
 
-Same character.
-Same costume concept.
-Same identity.
-New production drawing language.
-16:9 official-style anime settei sheet."
+
+
+
 
 
 
@@ -757,6 +1143,29 @@ rough but controlled anime lineart, slightly sketchy but clean, readable silhoue
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////美術圖/////////////////////
 use the provided image as a character design reference only. ignore the original sheet layout, plain background, annotations, settei presentation, and turnaround format. generate a finished anime illustration / key visual of the same character in a new scene.
 
@@ -799,6 +1208,21 @@ final result: a finished anime key visual / anime screen-cap style illustration,
 preserve the character’s original body proportions exactly as in the reference design. keep the same head-to-body ratio, apparent age, height impression, shoulder width, torso length, waist position, arm length, leg length, hand size, and foot size. do not redesign the anatomy into a taller, shorter, curvier, more mature, more childlike, or more stylized proportion system. keep the original silhouette balance and proportion relationships of the outfit as well, including the relative size and placement of the head accessories, chest ornament, collar, sleeves, waist details, skirt volume, skirt length, and boot height. dynamic posing, camera angle, and perspective are allowed, but the underlying character proportions must still read as the same character from the reference sheet.
 
 --ar 3:2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -904,6 +1328,32 @@ simple light grey background, Traditional Chinese text annotations, clean rectan
 QUALITY GOAL:
 the final result should clearly look like the same character and same costume concept, but with the trim system redesigned for anime production:
 fewer trim lines, thicker trim bands, clearer edge hierarchy, larger readable motifs, stronger color blocks, less fragile micro-detail.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1261,10 +1711,64 @@ cinematic anime still, movie-grade lighting, premium compositing, high-end anime
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /////////////////////Anime screenshot/////////////////////
 ```Use the provided character setting sheets as the primary reference for character identity only. Preserve each character’s recognizable identity, hairstyle silhouette, main hair color, main outfit shape, major color blocks, body proportion, face impression, and one or two signature accessories. Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background. Do NOT preserve every small costume detail.Do NOT preserve every accessory detail.Do NOT preserve every trim, fold, seam, hair strand, or tiny decoration.The characters should remain recognizable through large shapes, color blocks, silhouettes, and key iconic elements, not through dense detail.   HIGHEST PRIORITY STYLE OVERRIDE:Match the simplicity of a normal TV anime broadcast screenshot, not an anime illustration.The image should look like a clean but economical episode frame with production limitations.The character rendering must be simple, low-detail, thick-lined, flat-colored, and easy to animate. This must NOT look like: polished anime illustration key visual promotional still premium character art detailed anime poster concept art full-body character showcase clean group photo This must look like: regular TV anime episode frame broadcast anime screenshot simple episode drawing production-economical frame low-detail but readable acting simple TV anime background plate strong screen-space post-processing over simple cel drawings IMPORTANT IMAGE INTENT:This image is not meant to show all characters beautifully.This image is not a “nice group picture.”This image is not a character lineup.This image should feel like one frame captured from the middle of an ongoing TV anime episode.The story is already happening before this frame, and will continue after this frame.The shot should communicate a small relationship beat before visual beauty. STYLE GOAL:ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker clean outlines, low inner-line density, flat color blocks, almost no self-shadow detail, simple cel shading, simple painted background plate, visible screen-space bloom, visible halation, strong gradient darkening, strong bright-to-dark exposure separation, natural mid-scene framing, candid dialogue cut, . The image should rely on screen-space gradient darkness, bloom, halation, and exposure separation for mood, NOT on detailed character rendering. VISUAL RULES: Prioritize “real TV anime episode screenshot” feeling over polished illustration rendering. Character drawing must be simpler than the reference sheets. Character detail density must be much lower than a polished anime still. Use thick, clean, simple linework. Use flat color regions. Use almost no internal cel self-shadows. Keep character shading extremely sparse and broad. Keep the background readable but simple, like a TV anime background plate. The background may have slight hand-drawn TV anime production roughness. Natural, asymmetrical staging; do not line all characters up on one flat plane. Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture. No one should look like they are posing for the viewer. No text, no watermark, no readable phone UI, no readable signs. SCENE:[SCENE] SCENE BEAT GENERATION LOGIC:Do not use a fixed or hard-coded scene beat.Do not always make Haruka show a phone.Do not always make Akane interrupt.Do not always make Aya the foreground reaction.Do not always make the same character become the center of the shot.Do not compose the image as a checklist
 
  showing every character. Instead, generate one natural micro-moment based on the selected--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
