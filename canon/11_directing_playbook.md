@@ -294,7 +294,7 @@ Beta 空間進入「舞台感」時，優先改：
 **核心讀法**：
 > 日常空間本來服務生活；舞台化時，空間開始服務「呢一刻點樣被看見」。
 
-### 2. Stage Grammar Library（正式可用語彙；具體強度按場景）
+### 2. Stage Grammar Library（visual-development 語彙庫；正式清單未鎖）
 
 | 語彙 | 定義 | 例 |
 |---|---|---|
@@ -310,7 +310,7 @@ Beta 空間進入「舞台感」時，優先改：
 | **Practical Focus** | 合理存在嘅光源形成舞台 focus | 窗光、交通燈、雪櫃燈、百葉光等；來源要先成立 |
 | **Living Timing** | 環境原本運作節奏參與演出 | 閘門、簾、車、燈、廣播、機械節拍剛好改變畫面節奏 |
 
-> **護欄**：以上係 grammar library，唔係 checklist。單場通常揀少量主語彙，唔好九樣齊出。
+> **狀態護欄**：作者本輪已明確肯定嘅 test anchors 係 **Wrong Orientation（反轉坐位）／Distance Extension／Zoning Misalignment／focus / spotlight 作重要方向**。表內其餘項目係由舞台×傷口既有語言派生嘅 **visual-development 候選語彙**，保存供測試，**未逐項升格做全劇固定反覆 grammar**；QQ-225 仍要決定邊啲正式化。呢個 library 唔係 checklist，單場亦唔應全部齊出。
 
 ### 3. Environmental Choreography：世界參與演出，但唔照抄「巧合幫手」
 
