@@ -603,6 +603,102 @@
 
 > **夕的聲音滲出**與音頻語法的關係：夕的評語在 Act I–II 只存在晴香內心（不進入主音軌），Act III–IV 才作為獨立音頻層滲出——這是本表 Alpha 音頻語法的角色化體現。完整三階段規格見 [夕：§section-voice-stage-spec](03_characters/yu.md#section-voice-stage-spec)。
 
+
+---
+
+### <a id="section-beta-environment-response"></a>Beta 環境反應語言（Beta Environmental Response Language）— CDL-413
+
+> **範圍**：本節係視覺／環境設計語言，唔新增「角色一有情緒就必然改變物理世界」嘅硬機制。真正物理異常仍須服從 [World Rules](01_world_rules_and_costs.md)。本節負責回答：**Beta 平時點樣已經唔同 Alpha、強烈情感場面點樣令願望／恐懼／舞台三套語言同時進入畫面。**
+>
+> 完整 visual-development 討論記錄見 `canon/_working/2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`。
+
+#### 1. Alpha / Beta 環境邊界
+
+- **Alpha 線**：未受五歲晴香創世意志改寫，城市交通／公共設備維持正常物理與功能語言；不可預設 Beta 專屬嘅仿生交通、準有機公共基建、願望化動畫 staging。
+- **Beta 線**：創世後先容許出現下述「活世界」視覺：仿生交通、準有機公共設備、城市設備帶群體節律／呼吸感，以及少量 Alpha 不會存在、但 Beta 居民完全視為日常嘅 ambient weirdness。
+- 呢個差異屬 **Beta 世界本身嘅 baseline**，唔係等角色情緒爆發先臨時加上去。
+
+#### 2. Beta baseline：香港宿主層 + location-dependent 願望覆層
+
+Beta 第一眼仍然應該係**偏香港生活感**，唔係 literal Japan。晴香五歲由日系魔法少女／學園動畫得到嘅固定印象，以「願望覆層」形式**不均勻**落喺唔同場所：
+
+| 場所 | 願望覆層濃度 | 執行方向 |
+|---|---|---|
+| **學校／課室、公園** | 高 | 最容易出現「青春應該喺呢度發生」嘅過度整理：窗邊光、座位節奏、入口／出口、人物 framing 比現實更像動畫場面 |
+| **糖水舖等生活店舖** | 低～中 | 宿主生活層優先：擠、有人情、真係有人使用；願望層只輕微整理出可坐低、可相處、可望街嘅位置 |
+| **一般城市空間** | 中 | 保留香港密度與生活功能，間中滲入 Beta-only ambient weirdness／仿生基建 |
+
+> **設計護欄**：願望覆層係「畫面／事件印象」，唔代表真日本社會制度；與 [名字系統](05_naming_and_psychology_system.md#section-core-premise) 嘅「動漫濾鏡」口徑一致。
+
+#### 3. Ambient Weirdness：日常就可以有少量「唔應該存在但人人當正常」嘅嘢
+
+- Beta establishing shot **可以**有一至兩件 Alpha 根本唔會有、但 Beta 居民完全當正常嘅元素；呢個係 default visual freedom，**唔係每鏡硬 quota**。
+- 呢啲元素唔一定逐件負責心理學象徵；其中一部分只負責證明「呢個世界真係有自己生活」。
+- 為避免依賴其他作品嘅「奇怪路人／拼貼異物」語言，Haruka 優先使用：
+  - 仿生交通
+  - 準有機公共設備
+  - 奇怪但 functional 嘅城市基建
+  - 會休眠／喚醒／避讓／群體同步嘅都市物件
+  - 與香港生活空間共存嘅 Beta-only infrastructure
+
+#### 4. 仿生交通／公共設備（Beta-only）
+
+Beta 仿生系統可以同時使用三個層次，但程度視物件而異：
+
+1. **結構仿生**：接駁似脊椎、門件似鰓／眼瞼、承重似骨架。
+2. **外形仿生**：整體 silhouette 帶種子、魚、甲殼、器官等生命形態暗示。
+3. **行為仿生**：開合、停靠、群體避讓、喚醒／休眠有準生物節奏。
+
+**常態 default**：quasi-organic but non-conscious——有生命感，但唔視作有完整自主意識。
+
+**後期方向准許**：當故事中世界本體／規則進入足夠重大嘅改變時，可以升格至近似 soul-like response；**具體觸發、時期、機制仍 btd**，未定之前唔可將「交通工具有靈魂」當日常硬設定。
+
+#### 5. Familiar Object / Different Rule
+
+Beta 異常優先改「規則／關係」，唔係先加陌生物件。
+
+常用變項：
+- 距離延長或壓縮
+- 座位／人群分區開始帶角色分配感
+- 朝向失配（Wrong Orientation）
+- public / private 關係改變
+- 入口／出口功能改變
+- 某位置由日常用途變成 frontstage / witness / backstage
+- 熟悉設備維持身份，但按另一套節奏／分類／功能運作
+
+> **例**：課室仍然係課室，椅仍然係椅；但晴香反轉坐、兩個人之間距離不合理地延長、同學位置開始像觀看陣列。怪來自「關係變咗」，唔係突然塞入 unrelated 奇物。
+
+#### 6. Dual Overexposure：願望與恐懼同步過曝
+
+**核心方向（作者確認）**：當一個場面嘅世界反應被推到極強，畫面唔一定由甜跌落黑；可以係**願望側與恐懼側同時升到極端**。
+
+- **願望側**：更可愛、更漂亮、更像祝福、更像「幸福應該發生嘅畫面」、更精準地整理人物與光。
+- **恐懼側**：更無退路、更被看見、更被固定、更被觀看／處理；歌德、對稱、封存、吸光等語言可升高。
+- 兩者**唔互相取消**；甜仍然甜，恐怖仍然恐怖。正因甜保留，殘酷被放大。
+- 呢條係場景視覺反應語言，**唔取代全劇資訊曲線「甜下見黑」**：揭露節奏可以先甜後黑；某些高強度單場亦可以同步過曝。
+
+#### 7. 三種「甜」不可混為一談
+
+| 類型 | 來源 | 讀法 |
+|---|---|---|
+| **真暖（Host Warmth）** | 人與人真實生活／承接 | 分享食物、坐低、留低、照顧；**唔可以被反轉成「其實全部係假」** |
+| **願望甜（Wish Sweetness）** | 五歲晴香對幸福／動畫日常嘅投射 | 可以無害；學校／公園等區域更濃 |
+| **過曝甜（Overexposed Sweetness）** | 強烈世界反應令願望層失去節制 | 可愛、幸福、祝福、構圖精準到開始令人不安；可同恐懼同步升高 |
+
+#### 8. Motif Dialects：motif 係口音，唔係 trigger
+
+**設計鐵則**：先定「世界做緊咩」，再揀用邊套 visual dialect；唔可以用 recurring icon 代替機制。
+
+- **金魚／水感／柔軟生命**：重要願望側語言之一。包括金魚街燈等城市 motif；同晴香金魚母題可形成回聲。**重要，但唔係每次願望／Dual Overexposure 必出。**
+- **哥德／黑鐵／固化**：Fear-side 語言之一。特別適合固定、封存、過度對稱、囚禁、吸光、移除退路；遵守 [歌德式侵蝕](#section-gothic-erosion) 既有規則。**唔係每個異常都要長黑鐵。**
+- **舞台／觀看／focus**：跨願望與恐懼兩側嘅共用 grammar，負責「點樣被放到可觀看位置」；詳見 [Directing Playbook](11_directing_playbook.md#section-beta-environmental-staging)。
+- **仿生城市／準有機基建**：Beta baseline life-language，優先負責 ambient weirdness，唔等於每次都有象徵。
+- **甜品／糖果／少女幸福物件**：可作願望甜語彙，但唔應無條件塞入所有場景。
+
+一句製作口徑：
+> **「金魚係重要口音，不係答案；歌德係恐懼口音，不係所有異常；真正嘅核心係世界點樣重新安排一個場面。」**
+
+
 ---
 
 ## <a id="section-scene-visual"></a>Scene Visual Language（場景視覺語法）
