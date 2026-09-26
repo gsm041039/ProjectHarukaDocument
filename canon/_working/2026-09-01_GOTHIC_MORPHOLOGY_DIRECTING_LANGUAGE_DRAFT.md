@@ -94,3 +94,19 @@
 | `11_directing_playbook.md` | 新增「哥德形態對照表」+「層級切換文法」+「見證反面 tell」 | 新增 |
 | `02_glossary.md` 金繼 / 破碎的美學 | 接返哥德變質 | 補充 |
 | `00_series_bible.md`:122 | 膠布時序（視 D-6） | 視決定 |
+
+---
+
+## 2026-09-27 CDL-413 對本草稿嘅影響
+
+本檔仍然係 **DRAFT — NOT CANON**；CDL-413 冇自動確認第二節五種 morphology。
+
+CDL-413 新增嘅上層定位：
+- 歌德正式被放入 Beta Environment Response System 嘅 **Fear-side motif dialect**。
+- 歌德唔係每個異常必出；異常可以先由距離／朝向／分區／舞台觀看等 grammar 成立。
+- 高強度場面可出現 **願望甜 + 歌德恐懼同步過曝**，唔再只係「甜層跌落黑層」。
+- 「一款黑鐵行天下」嘅問題更加明確，但**具體『拒絕方式→形態』對照仍屬 QQ-222 D-5，未拍板**。
+- 金魚／願望甜、歌德、舞台、仿生城市等係並列 dialect；唔可以用單一 motif 代替世界反應機制。
+
+完整新討論：`2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`。
+
