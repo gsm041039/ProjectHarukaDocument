@@ -264,6 +264,114 @@
 
 > See also: [見證守則](08_narrative_design_bible.md#section-witness-principle) | [心房室內視覺設計語言](06_visual_bible.md#section-heart-chamber-interior) | [陰影人格化光譜](12_philosophy_and_systems.md#section-jung-individuation)
 
+
+---
+
+## <a id="section-beta-environmental-staging"></a>Beta 環境舞台化語法（Environmental Staging）— CDL-413
+
+> 呢節係 [舞台×傷口](#section-stage-language) 嘅**環境／空間 dialect**：唔新增平行底層規則，亦唔代表每次角色情緒升高都物理改場。物理變形仍受 World Rules 限制；本節負責導演點樣利用 Beta 已有嘅活世界、願望覆層、空間關係與光線，令「被看見／被安排成一幕」成為可讀語法。
+>
+> 視覺層規格見 [Visual Bible：Beta 環境反應語言](06_visual_bible.md#section-beta-environment-response)。
+
+### 1. 舞台唔等於劇院裝飾
+
+Beta 空間進入「舞台感」時，優先改：
+- 人物朝向
+- 前台／後台
+- 出入口
+- 人群分區
+- 距離
+- witness position
+- focus / visibility
+- 退場可能性
+
+而唔係先加：
+- 紅幕
+- literal 觀眾席
+- 舞台台口
+- 每次都一盞硬 spotlight
+
+**核心讀法**：
+> 日常空間本來服務生活；舞台化時，空間開始服務「呢一刻點樣被看見」。
+
+### 2. Stage Grammar Library（正式可用語彙；具體強度按場景）
+
+| 語彙 | 定義 | 例 |
+|---|---|---|
+| **Wrong Orientation** | 人物朝向同空間原功能失配 | 課室人人面向黑板，晴香反轉坐，身體自然成為另一個方向中心 |
+| **Distance Extension** | 物件身份不變，但人物／功能點之間距離失真 | 同一課室內兩人明明隔幾排，畫面卻令「行過去」變成不合理地遠 |
+| **Zoning Misalignment** | 秩序仍在，但分區開始替人 assign role | 某人被獨立出一條空帶，後排自然讀成 witness zone |
+| **Frontstage Pocket** | 普通空間內出現被自然挑出嘅可見區 | 一張枱／一排窗邊位變成情感焦點，但未必有真 spotlight |
+| **Witness Background** | 背景人／物由純背景轉成「在場目光」 | 同學位置保持日常，但構圖開始像觀看陣列 |
+| **Backstage Margin** | 邊角仍容許退下、整理、暫停被看見 | 課室後門、店舖側位、半開門後 |
+| **No Backstage** | 空間將所有退路／私密位置取消 | 每個出口仍可見，但冇一個位置真正離開目光 |
+| **Entrance / Exit Cue** | 原有動線突然有「出場／退場」節奏 | 門、走廊、樓梯自然成為 cue path |
+| **Role-casting Layout** | 空間配置似將人物分成焦點／配角／旁觀／被排除者 | 唔需要角色知道自己被「cast」 |
+| **Practical Focus** | 合理存在嘅光源形成舞台 focus | 窗光、交通燈、雪櫃燈、百葉光等；來源要先成立 |
+| **Living Timing** | 環境原本運作節奏參與演出 | 閘門、簾、車、燈、廣播、機械節拍剛好改變畫面節奏 |
+
+> **護欄**：以上係 grammar library，唔係 checklist。單場通常揀少量主語彙，唔好九樣齊出。
+
+### 3. Environmental Choreography：世界參與演出，但唔照抄「巧合幫手」
+
+作者鍾意「世界好似活住、會參與情感場面」嘅效果，但 Haruka 唔將「背景剛好幫你打燈」本身當 signature。
+
+Haruka 嘅方向係：
+- Beta 日常本身已經有少量「太適合一幕」嘅空間偏差；
+- 情感壓力升高時，呢種 staging 傾向可以變得可讀；
+- 最終重點唔係「好巧」，而係**人物／空間／觀看位置開始被整理成一個可見形式**。
+
+因此 practical light / 環境 timing 可以用，但要服務本作「被看見、被整理、被使用、能否退場」嘅核心問題。
+
+### 4. Dual Overexposure：甜與恐怖可以同場同步過曝
+
+高強度場面唔需要永遠遵守「甜 → 黑」單向切換。
+
+當場景採用 Dual Overexposure：
+- **願望側**同時提高：畫面更可愛、更漂亮、更似祝福／青春動畫高潮、更「應該幸福」；
+- **恐懼側**同時提高：被 focus、被固定、被觀看、被封存、無 backstage、無退場；
+- 舞台 grammar 將兩者整理到同一個可見場面入面。
+
+導演目標唔係粉紅＋黑色撞色，而係令觀眾同時讀到：
+1. 「呢一幕真係靚。」
+2. 「呢個人真係冇位可以收埋自己。」
+
+### 5. Spotlight / Focus 嘅雙重倫理
+
+同一個「被光照中」可以有完全唔同觀看位置：
+
+- **陪伴／見證式 focus**：我見到你，但唔要求你表演；仍保留 backstage / 停止權。
+- **消費／審判／制度式 focus**：被照中即等於被鎖定、被公開、被要求交代；backstage 被取消。
+
+所以 spotlight 唔應單獨等同「善」或「惡」；要問：
+- 邊個控制光？
+- 被照者可唔可以離開？
+- 有冇 backstage？
+- 被看見之後，對方有冇取得解釋權／使用權？
+
+### 6. 敏感剝削場面：甜可以放大殘酷，但唔靠性化未成年角色
+
+當故事要表達極端主體性剝奪，可以利用「過曝甜＋舞台 focus＋制度處理」放大痛感，但核心要落喺：
+- 拒絕權
+- 私密權
+- 身體定義權
+- 停止權
+- 解釋自己傷口嘅權利
+
+唔靠將少女角色性化去換取衝擊。呢條同上方 [身體凝視限制](#section-stage-language) 同一方向。
+
+### 7. 黑奏／帝國：目前確認邊界
+
+**已 source-check**：
+- 黑奏嘅錯誤方法係強制透明／強制共振，唔係簡單「消滅情緒」。
+- 情緒管理局同帝國已經將情緒量化、監控、管理、抽取。
+
+**仍屬 DRAFT、未升格硬規則**：
+> 帝國可能將 Beta 原本自由、含糊、私人嘅「活世界反應」**利用＋馴化**成可讀、可管理、可展示、可強制共感嘅秩序。
+
+呢個方向同黑奏哲學相容，但具體落到基建、光幕、交通、城市設備之前要再做 source/impact check。
+
+
 ---
 
 ## <a id="section-director-reading"></a>導演層角色閱讀
