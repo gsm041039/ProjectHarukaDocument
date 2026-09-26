@@ -231,3 +231,20 @@ canon 形容哥德材料係「黑色鐵花／黑鐵圍欄」；CDL-288 鐵絲網
 5. 全部答完先寫「三邊合一條文草案」（世界／情緒／導演唔分開），草案仍然唔入 canon，畀作者過目後先做 writeback
 
 **相關 state files**：`QUESTION_QUEUE.md` QQ-222｜`story_construction/QUESTION_MATRIX.md` M-062｜`SESSION_LEDGER.md` Round 160
+
+---
+
+## 2026-09-27 延伸：Beta 環境反應語言（CDL-413）
+
+> 呢輪冇取代 AC-1~AC-11／D-1／D-3；係將「三層世界構成」向**環境導演語言**推進。完整記錄見 `2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`。
+
+**已正式 writeback（CDL-413）**：
+- Beta-only 仿生交通／準有機公共設備；Alpha 唔預設呢套。
+- Beta 第一眼偏香港，願望覆層 location-dependent（學校／公園較重；糖水舖較宿主）。
+- Ambient Weirdness 可作日常 baseline，唔要求逐件 symbolic。
+- 強烈場景可採 **願望／恐懼 Dual Overexposure**：甜與恐怖同步升高，唔一定只做「願望層跌落恐懼層」。
+- 金魚街燈＝重要願望側 motif dialect，但非 default trigger；歌德＝Fear-side dialect，但非所有異常。
+- 舞台／觀看 grammar 成為跨兩側嘅環境組織語言。
+
+**仍然唔代表 QQ-222 D-2／D-4／D-5／D-6／D-7／D-8 已解決。** 特別係 D-5「哥德 morphology 跟心理拒絕方式」仍係另一條更細嘅問題；CDL-413 只確立「歌德係 Fear-side dialect、唔應一款黑鐵行天下」嘅上層位置。
+
