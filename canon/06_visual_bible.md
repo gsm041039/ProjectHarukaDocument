@@ -571,7 +571,9 @@
 
 ### Beta 線視覺標誌
 
-**核心美學**：黑暗維多利亞（帝國加工的殖民遺產）——秩序、壓迫、人工完美。
+> **CDL-413 校準（2026-09-27）**：舊版「Beta＝黑暗維多利亞」唔再可以讀成**整條 Beta 世界嘅單一 baseline**。Beta 全局 baseline 係「偏香港宿主生活 + location-dependent 願望覆層 + Beta-only ambient weirdness／仿生基建」；黑暗維多利亞／哥德語彙保留做**帝國主導空間／恐懼側／侵蝕狀態**嘅重要 dialect。完整規格見 [§ Beta 環境反應語言](#section-beta-environment-response)。
+
+**帝國主導／恐懼側核心美學**：黑暗維多利亞（帝國加工的殖民遺產）——秩序、壓迫、人工完美。
 
 | 元素 | 規格 |
 |------|------|
@@ -580,19 +582,21 @@
 | 光線 | 人造燈光為主；帝國建築以強光從高處垂照，強調壓迫感 |
 | 色調 | 黑 + 金（帝國主色）；暗紫點綴；整體上重下輕（頂部壓迫） |
 
-### Alpha/Beta 視覺侵蝕識別規則
+### 視覺層級識別規則（CDL-413 校準）
 
 | 視覺線索 | 解讀 |
 |---------|------|
-| Alpha 空間出現蕾絲 / 尖拱 / 齒輪裝飾 | **Beta 意識形態侵蝕**正在發生 |
-| Beta 建築出現破裂老香港磚牆紋理 | Alpha 線真相「滲出」——壓不住了 |
-| 兩種元素完全融合、無法區分 | 時間線邊界嚴重薄化（高危場景） |
+| Alpha 空間出現 Beta-only 哥德／仿生／願望覆層語彙 | **Beta 影響或時間線污染警告**；Alpha 本身唔應自然擁有呢套 |
+| Beta 出現唐樓、石屎、老香港生活材質 | **可以係正常宿主層**，唔再自動等於 Alpha 真相滲出 |
+| Beta 學校／公園等出現較強動畫理想化 arrangement | 願望覆層較重，屬 location-dependent baseline，未必係異常 |
+| Beta 哥德黑鐵／過度對稱／吸光等顯著升高 | Fear-side／歌德侵蝕加劇；強度與時間行為仍按 CDL-412 |
+| Alpha 真相真正「滲出」 | 應由已確立嘅 Alpha 記憶／身份／事件 signature 共同證明，**唔可以單靠香港材質判定** |
 
 **See also**: [Worldview Art Direction](#section-worldview-art) | [World Rules: Alpha/Beta](01_world_rules_and_costs.md#section-alpha-beta)
 
-### <a id="section-alpha-beta-grammar-table"></a>Alpha/Beta 四維視覺語法對照表（GAP-34/35）
+### <a id="section-alpha-beta-grammar-table"></a>Alpha / 帝國主導 Beta 四維視覺語法對照表（GAP-34/35；CDL-413 校準）
 
-> 本表補充以上美學描述的精確操作規格，供動畫/遊戲製作使用。
+> **適用範圍修正**：下表原本將「冷色高對比／黑金／機械秩序」當成全 Beta 通則；CDL-413 後，呢欄只應讀做**帝國主導／高度遮蔽／恐懼側 Beta dialect**，唔代表糖水舖、學校、公園等所有 Beta 日常。Beta 全局 baseline 與多層覆寫見 [§ Beta 環境反應語言](#section-beta-environment-response)。表內舊有 production cues 暫保留，等 visual-development pipeline P01/P03 完成後再決定要唔要全面重做。
 
 | 維度 | Alpha 線 | Beta 線 | 過渡信號 |
 |-----|---------|---------|---------|
