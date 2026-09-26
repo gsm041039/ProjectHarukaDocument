@@ -1,6 +1,30 @@
-/////////////////////Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留/////////////////////
+# ImagePrompt 生圖 Prompt 庫
 
+以下每個章節係獨立一個生圖 prompt，內容保持原文不變，只係加咗標題同分隔方便閱讀。
 
+## 目錄
+
+1. [Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留](#prompt-1只簡化人物線稿--strict-2-tone-cel-shading背景完全保留)
+2. [Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感](#prompt-2只改面部比例但唔改眼型表情情緒讀感)
+3. [Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading](#prompt-3重-anime-screen-cap-compositingfilterglow但唔改底層-cel-shading)
+4. [anime settei sheet](#anime-settei-sheet)
+5. [anime settei sheet with reference](#anime-settei-sheet-with-reference)
+6. [ANIME CHARACTER STYLE ADAPTATION — WITH STYLE REFERENCE（COMPLETE HEAD MODEL LOCK）](#anime-character-style-adaptation--with-style-reference complete-head-model-lock)
+7. [ANIME CHARACTER STYLE ADAPTATION — WRITTEN PRODUCTION STYLE（COMPLETE HEAD MODEL LOCK）](#anime-character-style-adaptation--written-production-style complete-head-model-lock)
+8. [model sheet（pose and behavior exploration sheet）](#model-sheetpose-and-behavior-exploration-sheet)
+9. [anime head sheet](#anime-head-sheet)
+10. [美術圖](#美術圖)
+11. [Character Model Sheet](#character-model-sheet)
+12. [Anime screenshot（四女一貓 車站場景）](#anime-screenshot四女一貓-車站場景)
+13. [Anime screenshot（scene template，含 [SCENE] 佔位符）](#anime-screenshotscene-template含-scene-佔位符)
+14. [emotion（面部演技導演討論流程）](#emotion面部演技導演討論流程)
+15. [Character Acting Director / Motif Designer（角色記憶鉤子 Recall Hook Bible）](#character-acting-director--motif-designer角色記憶鉤子-recall-hook-bible)
+
+---
+
+## Prompt 1：只簡化人物線稿 + strict 2-tone cel shading，背景完全保留
+
+````
 keep same design, pose, composition, costume and accessories. apply changes only to the character and directly interacting props, not to the background. simplify linework only: reduce inner lines, fold lines, seam lines, and hair strand lines, while keeping essential contour and key structure lines. preserve non-line design details such as clothing patterns, motifs, symbols, decorative shapes, color-blocking, and material separation.
 
 render the character and directly interacting props in extremely strict posterized 2-tone cel shading: one lit color and one shadow color only, with a single hard light-shadow separation, hard cutoff, hard shadow grouping, stepped toon lighting, and clear cel self-shadows. no third band, no soft shadow, no diffuse shading, no ambient occlusion, and no gradient form shading.
@@ -18,18 +42,21 @@ keep the character’s main local colors and base palette clearly recognizable. 
 metal must also be rendered in flat anime cel metal with hard highlight bands and hard shadow bands, not realistic reflections or glossy gradients. keep the metal’s base color readable, while allowing the shadow bands to carry more of the environmental tint than the lit bands. metal shading must also follow the same single dominant light direction, with no extra nested shadow shapes inside already-shadowed metal areas.
 
 do not simplify, flatten, reduce detail, or reduce texture in the background. keep all background rendering, painted detail, depth, atmosphere, and environmental complexity intact.
+````
 
+---
 
-/////////////////////Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感/////////////////////
+## Prompt 2：只改面部比例，但唔改眼型、表情、情緒讀感
 
-
+````
 adjust only the facial proportions toward a soft high-moe balance: slightly larger eyes relative to the face, shorter midface, smaller nose and mouth, softer cheek and jaw balance. keep the original eye shape unchanged. do not change the expression, emotional read, gaze direction, eye openness, eyelid shape, eyelid tension, eyebrow shape, eyebrow emotion, mouth shape, mouth openness, blush placement, or overall facial mood. keep the character identity and face reading exactly the same.
+````
 
+---
 
+## Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading
 
-/////////////////////Prompt 3：重 anime screen-cap compositing／filter／glow，但唔改底層 cel shading/////////////////////
-
-
+````
 add a very heavy anime screen-cap style compositing and post-processing pass over the finished frame, including both the character and the background. apply broad screen-space exposure shaping and atmospheric mood shadow across the image: large soft dark masses, irregular low-frequency darkening, and a strong cinematic light-to-dark separation across the frame. this darkening must read as a full-frame compositing pass, not as added form shading on the character. it must not behave like an extra cel-shadow layer, local repainting, or anatomy-based shading. allow parts of the character and scene to fall into deep composited darkness when appropriate, but only as screen-space mood darkening.
 
 the image should have clear bright zones and clear dark zones. do not darken the whole frame evenly. keep the brightest areas open and luminous while allowing selected areas to become much darker. the result should feel like strong anime post-processing with clear exposure separation, not a flat overall dimming.
@@ -47,13 +74,13 @@ derive the compositing tint, glow color, haze color, bright-side gradient color,
 keep the hard 2-tone cel shading fully intact underneath the compositing layer. do not blur, soften, repaint, or replace the cel shading structure. the dramatic atmosphere must come from post-compositing, exposure shaping, bright-side luminous gradient, glow, haze, and grading only, not from turning the character into soft diffuse shading.
 
 avoid visible geometric gradient beams, spotlight cones, diagonal bands, wedge-shaped overlays, scanlines, fake interlacing, CRT artifacts, or graphic screen effects. do not add text, subtitles, timecode, watermark, logo, or interface overlay.
+````
 
+---
 
+## anime settei sheet
 
-
-
-
-/////////////////////anime settei sheet/////////////////////
+````
 official anime settei sheet, professional TV-anime production model sheet, simplified character turnaround sheet, one single character only, clean technical reference page, 2D anime production design document
 
 use the reference image as the primary source of character identity and costume concept, but redraw it at a much simpler TV-animation production detail level. preserve the same character identity, same face and eye style, same hairstyle silhouette, same main outfit concept, same motif family, same main color blocking, same role and overall design family. do not redesign the character into a different costume.
@@ -92,11 +119,13 @@ SHEET LAYOUT:
 full body front view and full body back view, strict A-pose, neutral standing pose, large main figures on the left. on the right include expression heads, hairstyle callouts, accessory callouts, costume breakdown, close-up parts, shoe detail, hand/glove detail if needed, and color palette swatches. simple light grey background, Traditional Chinese text annotations, organized rectangular layout, clean spacing, clear hierarchy, professional anime settei sheet style.
 
 the final result should look like the same character and same costume concept, but simplified into a clean, production-safe official TV anime model sheet.
+````
 
+---
 
+## anime settei sheet with reference
 
-
-/////////////////////anime settei sheet with reference/////////////////////
+````
 Create an official anime settei sheet / professional character turnaround sheet / production model sheet for one single character only.
 
 Do not copy the reference image at full detail. Use it only as a character identity and costume-concept reference. Redraw the design as a simplified TV-anime production model sheet with much lower detail density.Use the character reference image for identity, costume concept, color family, motif family, silhouette family, hairstyle, face, and overall role only. Do not reproduce every small costume detail from the reference. This is not an exact-detail copy task. This is a simplified production-safe anime design adaptation of the same character.
@@ -119,39 +148,13 @@ character design: [角色身份 / 類型], [年齡感], [性格氣質], [主色�
 
 --ar 3:2 --niji --style raw --s 5
 --no exact micro-detail reproduction, gacha-game detail, fantasy armor detail, high-detail costume sheet, intricate armor, dense gothic ornament, excessive spikes, excessive feathers, excessive torn cloth, too many cloth tips, too many small fragments, too many trims, too many straps, too many seams, too many cracks, too many tiny ornaments, high-frequency detail, dense edge detail, over-segmented costume, noisy silhouette, chaotic layered pieces, overdesigned outfit, luxury idol costume, fashion illustration, painterly shading, soft shading, soft lighting, gradient shading, glossy rendering, translucent fabric, bloom, rim light, cinematic lighting, dynamic pose, mood illustration, semi-realistic rendering
+````
 
+---
 
+## ANIME CHARACTER STYLE ADAPTATION — WITH STYLE REFERENCE（COMPLETE HEAD MODEL LOCK）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+````
 Image A = 要改嘅角色原圖
 Image B = 作品整體畫風參考（例如晴香 style 圖）
 Image C = 灰模 / 骨架比例參考圖
@@ -566,19 +569,13 @@ The same construction in every view.
 The same identity at every scale.
 The same hairstyle attached to the same skull.
 Different angles and expressions — not different heads.
+````
 
+---
 
+## ANIME CHARACTER STYLE ADAPTATION — WRITTEN PRODUCTION STYLE（COMPLETE HEAD MODEL LOCK）
 
-
-
-
-
-
-
-
-
-
-
+````
 ANIME CHARACTER STYLE ADAPTATION / MODEL-SHEET CORRECTION
 WRITTEN PRODUCTION STYLE — COMPLETE HEAD MODEL LOCK
 
@@ -1032,31 +1029,13 @@ One skull.
 One facial construction.
 One hairstyle structure.
 One character model across the entire sheet.
+````
 
+---
 
+## model sheet（pose and behavior exploration sheet）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////model sheet//////////////////////////////
-
+````
 anime character pose and behavior exploration sheet, character action and gesture sheet, personality-driven character exploration page, one single character only, multiple drawings of the same character on one page, 2D anime character exploration page
 
 use the reference image as the primary source of character identity and costume concept. preserve the same character identity, same face and eye style, same hairstyle silhouette, same main outfit concept, same motif family, same main color blocking, same role, and overall design family. do not redesign the character into a different costume or a different person.
@@ -1103,13 +1082,13 @@ avoid making the page feel like a pure expression sheet. it should feel like a p
 If specific poses are not fully described, creatively imagine suitable everyday actions, gestures, and body language that this character would naturally do based on her personality, mood, role, and habits.
 
 Do not rely mainly on facial-expression variations. Invent more character-appropriate physical actions, gestures, and posture studies, and let the expressions serve those actions.
+````
 
+---
 
+## anime head sheet
 
-
-
-
-/////////////////////anime head sheet/////////////////////
+````
 use the input image only as character identity, hairstyle, face, color, and eye-style reference; convert it into a strict anime production head settei sheet, professional animation head model sheet, technical studio head reference page
 
 one single character only, head-only sheet, every panel must show head only or head-and-neck only, cropped at the base of the neck or slightly above the shoulders, absolutely no full body, no half body, no torso, no waist-up, no arms, no hands
@@ -1138,35 +1117,13 @@ render in extremely strict flat anime coloring: flat colors only, extremely flat
 rough but controlled anime lineart, slightly sketchy but clean, readable silhouette, clear shape separation, technical 2D reference-sheet finish
 
 --ar 3:2 --niji --style raw --s 5 --chaos 0 --no duplicate angles, repeated back view, repeated front view, repeated profile, full body, half body, torso, bust shot, fashion board, merchandise sheet, accessory showcase board, product catalog, scrapbook layout, sticker sheet, decorative collage, splash art, poster composition, dynamic pose, cinematic composition, soft shading, painterly shading, glossy rendering, gradient shading, rendered skin, large empty areas
+````
 
+---
 
+## 美術圖
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////美術圖/////////////////////
+````
 use the provided image as a character design reference only. ignore the original sheet layout, plain background, annotations, settei presentation, and turnaround format. generate a finished anime illustration / key visual of the same character in a new scene.
 
 preserve the character’s identity, hairstyle, hair color, face shape, eye shape, costume design, accessories, color scheme, motifs, and overall design language. keep the same core outfit design, recognizable silhouette, and all important non-line design information such as clothing patterns, motifs, symbols, decorative shapes, color blocking, and material separation. present the character as a finished illustration rather than a design sheet.
@@ -1208,37 +1165,13 @@ final result: a finished anime key visual / anime screen-cap style illustration,
 preserve the character’s original body proportions exactly as in the reference design. keep the same head-to-body ratio, apparent age, height impression, shoulder width, torso length, waist position, arm length, leg length, hand size, and foot size. do not redesign the anatomy into a taller, shorter, curvier, more mature, more childlike, or more stylized proportion system. keep the original silhouette balance and proportion relationships of the outfit as well, including the relative size and placement of the head accessories, chest ornament, collar, sleeves, waist details, skirt volume, skirt length, and boot height. dynamic posing, camera angle, and perspective are allowed, but the underlying character proportions must still read as the same character from the reference sheet.
 
 --ar 3:2
+````
 
+---
 
+## Character Model Sheet
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////Character Model Sheet/////////////////////
+````
 official anime character model sheet, professional TV-anime production settei, clean production-ready character turnaround sheet, one single character only, full body front view and full body back view, strict neutral A-pose, clean technical reference page
 use the reference image as the primary source of character identity and costume concept. preserve the same character identity, same face type, same eye style, same hairstyle silhouette, same body type, same age impression, same main outfit concept, same motif family, same role, same weapon or signature accessory if present, and same main color family.
 IMPORTANT DESIGN INTENT:
@@ -1328,39 +1261,13 @@ simple light grey background, Traditional Chinese text annotations, clean rectan
 QUALITY GOAL:
 the final result should clearly look like the same character and same costume concept, but with the trim system redesigned for anime production:
 fewer trim lines, thicker trim bands, clearer edge hierarchy, larger readable motifs, stronger color blocks, less fragile micro-detail.
+````
 
+---
 
+## Anime screenshot（四女一貓 車站場景）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////Anime screenshot/////////////////////
-
+````
 The scene features four girls and one black cat.
 Their interaction should feel real and casual:
 teasing, reacting, leaning in, offering something, quietly helping, awkward hesitating, pretending not to care while still listening, tired but connected.
@@ -1706,76 +1613,24 @@ TV anime episode screenshot, ordinary dialogue cut, flat broadcast-anime look, s
 
 NEGATIVE PROMPT:
 cinematic anime still, movie-grade lighting, premium compositing, high-end anime film look, realistic bloom, volumetric haze, depth of field, lens flare, painterly background, detailed material rendering, complex character shading, rich hair highlights, detailed costume folds, detailed accessories, over-rendered faces, glossy eyes, dramatic rim light, beautiful promotional still, key visual, poster art, concept art, illustration polish, detailed lace, detailed jewelry, detailed trims, detailed chains, detailed buckles, detailed charms, detailed bag accessories, repeated ornaments, complex shoes, complex hair decorations, full-body character showcase, clean lineup composition, elegant group pose, beauty shot, everyone equally visible, everyone facing camera, readable text, readable signs, readable phone UI, subtitles, timecode, watermark, logo, interface overlay.
+````
 
+---
 
+## Anime screenshot（scene template，含 [SCENE] 佔位符）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////Anime screenshot/////////////////////
+````
 ```Use the provided character setting sheets as the primary reference for character identity only. Preserve each character’s recognizable identity, hairstyle silhouette, main hair color, main outfit shape, major color blocks, body proportion, face impression, and one or two signature accessories. Ignore the original sheet layout, annotations, turnaround format, settei presentation, and plain background. Do NOT preserve every small costume detail.Do NOT preserve every accessory detail.Do NOT preserve every trim, fold, seam, hair strand, or tiny decoration.The characters should remain recognizable through large shapes, color blocks, silhouettes, and key iconic elements, not through dense detail.   HIGHEST PRIORITY STYLE OVERRIDE:Match the simplicity of a normal TV anime broadcast screenshot, not an anime illustration.The image should look like a clean but economical episode frame with production limitations.The character rendering must be simple, low-detail, thick-lined, flat-colored, and easy to animate. This must NOT look like: polished anime illustration key visual promotional still premium character art detailed anime poster concept art full-body character showcase clean group photo This must look like: regular TV anime episode frame broadcast anime screenshot simple episode drawing production-economical frame low-detail but readable acting simple TV anime background plate strong screen-space post-processing over simple cel drawings IMPORTANT IMAGE INTENT:This image is not meant to show all characters beautifully.This image is not a “nice group picture.”This image is not a character lineup.This image should feel like one frame captured from the middle of an ongoing TV anime episode.The story is already happening before this frame, and will continue after this frame.The shot should communicate a small relationship beat before visual beauty. STYLE GOAL:ordinary TV anime episode screenshot, simple broadcast anime drawing, thicker clean outlines, low inner-line density, flat color blocks, almost no self-shadow detail, simple cel shading, simple painted background plate, visible screen-space bloom, visible halation, strong gradient darkening, strong bright-to-dark exposure separation, natural mid-scene framing, candid dialogue cut, . The image should rely on screen-space gradient darkness, bloom, halation, and exposure separation for mood, NOT on detailed character rendering. VISUAL RULES: Prioritize “real TV anime episode screenshot” feeling over polished illustration rendering. Character drawing must be simpler than the reference sheets. Character detail density must be much lower than a polished anime still. Use thick, clean, simple linework. Use flat color regions. Use almost no internal cel self-shadows. Keep character shading extremely sparse and broad. Keep the background readable but simple, like a TV anime background plate. The background may have slight hand-drawn TV anime production roughness. Natural, asymmetrical staging; do not line all characters up on one flat plane. Expressions and gestures must feel caught mid-conversation, mid-reaction, or mid-gesture. No one should look like they are posing for the viewer. No text, no watermark, no readable phone UI, no readable signs. SCENE:[SCENE] SCENE BEAT GENERATION LOGIC:Do not use a fixed or hard-coded scene beat.Do not always make Haruka show a phone.Do not always make Akane interrupt.Do not always make Aya the foreground reaction.Do not always make the same character become the center of the shot.Do not compose the image as a checklist
 
  showing every character. Instead, generate one natural micro-moment based on the selected--
+````
 
+---
 
+## emotion（面部演技導演討論流程）
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- ////////////////////emotion///////////////////
- 你係一個「角色面部演技導演 / facial acting director / appeal designer / character acting co-designer」。
+````
+你係一個「角色面部演技導演 / facial acting director / appeal designer / character acting co-designer」。
 
 你而家唔係直接生圖，亦唔係即刻幫我寫最終 image prompt。
 你要做嘅係：根據角色文件，同我逐步討論角色喺一套固定通用反應集入面，應該如何自然演出自己的表情、面部 pose、眼神微差、頭頸肩姿態與小動作。
@@ -2249,7 +2104,7 @@ H. 混合 A + B
 【最終 prompt 風格要求】
 ====================
 
-最終 image prompt 要用英文。
+最終圖像 prompt 要用英文。
 但討論過程可以用中文。
 
 最終圖像方向：
@@ -2317,9 +2172,13 @@ a polished anime acting-study sheet,
 halfway between a character design reference page and a refined expression concept sheet,
 with beautiful but controlled cel-shaded anime artwork,
 similar to a high-quality Japanese character expression study page.
+````
 
+---
 
+## Character Acting Director / Motif Designer（角色記憶鉤子 Recall Hook Bible）
 
+````
 你而家要作為「動畫角色導演 / Character Acting Director / Motif Designer」同我討論。
 
 我會提供角色完整資料。你嘅任務唔係即刻幫我諗小動作，而係先同我討論，幫角色設計一套可以喺動畫、漫畫、遊戲、小說視覺演出入面反覆使用嘅「角色記憶鉤子」。
@@ -2725,3 +2584,4 @@ similar to a high-quality Japanese character expression study page.
 5. 有冇現有物件、服裝部件、工具、食物、能力、創傷、關係，可以成為來源？
 6. 物件應該係普通物、世界觀物、自創物、拼裝物、消耗品，定係角色不在場都可以出現嘅存在感符號？
 7. 有咩套路或物件類型要避開？
+````
