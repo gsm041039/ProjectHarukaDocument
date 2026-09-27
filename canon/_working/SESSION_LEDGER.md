@@ -1,5 +1,18 @@
 # SESSION_LEDGER
 
+## Visual Development Track（2026-09-27）— Beta Environment Response / Stage Language / Dual Overexposure writeback
+- [x] 作者要求先完整讀 repo 再 writeback 本 session；按 AGENTS read order 核對 durable state，並重讀 `00_series_bible.md`／`01_world_rules_and_costs.md`／`05_naming_and_psychology_system.md`／`06_visual_bible.md`／`11_directing_playbook.md`／`12_philosophy_and_systems.md`／`03_characters/aya.md`／`07_entities_and_devices.md` 等相關 canon。
+- [x] 新建 `canon/_working/2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`，以 [AC]/[DRAFT]/[REJECTED] 保存本 session 全部關鍵內容、研究參考、失敗 image-study lesson、未決問題。
+- [x] 新建 `canon/_working/BETA_VISUAL_DEVELOPMENT_PIPELINE_DRAFT.md`，保存 P00-P07 pipeline 骨架；明確標記下一輪先傾細節，唔自動向下生產。
+- [x] **CDL-413 正式確認並 writeback**：Beta-only 仿生／Ambient Weirdness、偏香港＋location-dependent wish filter、仿生常態B後期可C但trigger btd、熟悉物件改規則、Dual Overexposure、舞台環境 grammar、三種甜、金魚／歌德／舞台／仿生城市 motif hierarchy、敏感剝削場景主體性護欄、魔法少女察覺 Beta 唔對嘅 Alpha 夢境記憶作者澄清。
+- [x] `06_visual_bible.md` 新增 §Beta 環境反應語言。
+- [x] `11_directing_playbook.md` 新增 §Beta 環境舞台化語法。
+- [x] `00_series_bible.md` 新增 §願望／恐懼雙向過曝頂層視覺口徑。
+- [x] `QUESTION_QUEUE.md` 新增 QQ-225，保留未定案：最終 statement、Dual Overexposure trigger、仿生 B→C、黑奏／帝國利用＋馴化、Stage Grammar 正式清單、金魚／歌德密度與 pipeline gate。
+- [x] 明確唔升格：黑奏／帝國「利用＋馴化活世界反應」仍係 source-compatible DRAFT；P00-P07 細節仍 DRAFT。
+- [ ] 下一步：作者逐層討論 visual pipeline；唔自動生圖／唔向 Scene Architecture 或以下推進。
+
+
 ## Foundation Audit（2026-09-18~19）— 主動全作缺口審查 + CDL-409 writeback
 - [x] 作者要求主動 Foundation Audit：唔答指定問題，揾未問過但影響故事/gameplay/production 嘅缺口
 - [x] 四個 research agent 並行：既有 gap 清單盤點、世界機制模型、社會/日常生活模型、故事引擎/Act結構 → `FOUNDATION_AUDIT_GAP_MAP.md`（ROOT-A/B/C 三條）
