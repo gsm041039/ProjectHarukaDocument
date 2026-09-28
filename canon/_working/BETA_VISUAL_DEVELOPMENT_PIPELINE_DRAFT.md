@@ -265,6 +265,16 @@ Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]�
 
 前面 modules 通過後先做完整自然 Beta response：
 
+### Parked high-intensity benchmark — Empire Square Floating Chandelier
+作者提出一個之後先正式判定因果嘅高強度 visual benchmark：
+- 帝國廣場上空出現**完全無鋼索／無吊架／無天花支撐、直接浮於半空**嘅超巨型 chandelier；
+- **唔屬於普通帝國 baseline 建築**，否則會荒謬過頭；
+- 候選方向係高情緒／高世界反應下，廣場被「舞台／宴會廳」式功能直覺重新詮釋；
+- 到時先判斷係世界自然生成、黑奏主導、定黑奏借世界反應生成；
+- 暫時只當 P11/P12 World Response × Black Kanade composite benchmark，**唔回寫成 canon、唔污染 P01 baseline**。
+
+
+
 - Spatial Language
 - Lighting
 - Atmosphere
@@ -307,6 +317,6 @@ Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]�
 
 - P01A Scale / Compression 第一輪方向已粗測；
 - P01B Programmatic / Functional Spatial Logic 已記錄並插入 pipeline，但作者要求**之後先深入討論，暫時唔做 taxonomy**；
-- Orientation 灰模研究已開始；下一個 P01 priority 係 **Distance**，之後先係 **Exit / Boundary**。
+- Orientation 灰模研究已完成第一輪；Distance 灰模研究亦已完成第一輪；下一個 P01 priority 係 **Exit / Boundary**。
 - 作者另補充：**鏡係重要到接近獨立 visual system，層級高於金魚等一般 motif**。已插入 P08 Mirror / Reflective Interface Language；暫時唔混入 P01 測試。
 - 下一步應繼續 P01 主線，而唔跳去完整 classroom、Mirror composite 或 World Response。
