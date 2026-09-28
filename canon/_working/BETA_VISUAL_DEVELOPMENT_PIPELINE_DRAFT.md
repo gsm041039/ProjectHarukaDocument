@@ -317,6 +317,7 @@ Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]�
 
 - P01A Scale / Compression 第一輪方向已粗測；
 - P01B Programmatic / Functional Spatial Logic 已記錄並插入 pipeline，但作者要求**之後先深入討論，暫時唔做 taxonomy**；
-- Orientation 灰模研究已完成第一輪；Distance 灰模研究亦已完成第一輪；下一個 P01 priority 係 **Exit / Boundary**。
+- P01 Spatial Language 第一輪已完成：Scale / Compression、Zoning、Orientation、Distance、Exit / Boundary 均已有灰模探索；Programmatic / Functional Spatial Logic 已插入並保留作後續深化。
+- 下一步正式進入 **P02 — Lighting Language**。
 - 作者另補充：**鏡係重要到接近獨立 visual system，層級高於金魚等一般 motif**。已插入 P08 Mirror / Reflective Interface Language；暫時唔混入 P01 測試。
 - 下一步應繼續 P01 主線，而唔跳去完整 classroom、Mirror composite 或 World Response。
