@@ -205,7 +205,30 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
-## P08 — Motif Dialects
+## P08 — Mirror / Reflective Interface Language
+
+**目的**：獨立研究「鏡／反光介面」作為高階視覺系統點樣參與空間、身份、真實、觀看與構圖；**唔將鏡降格成一般 motif**。
+
+Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]（Visual Bible）作核心規則／核心視覺支柱；本 phase **唔新增世界規則**，只發展佢作為 art-direction / directing language 嘅可重複使用方式。
+
+研究時至少要分清：
+- **普通反射的空間功能**：擴張／複製／折返視線、製造 second front、改變 orientation / zoning；
+- **鏡像法則啟動時的真實介面**：反光面繞過 Beta 覆寫、顯示底層真實；
+- **觀看／舞台功能**：角色可同時成為 actor / witness，鏡面可建立額外觀眾位或背後視線；
+- **Identity / self relation**：本人、倒影、缺席、錯位之間嘅構圖關係；
+- **強度控制**：日常存在、輕微異樣、高情緒法則觸發、後期 rule-collapse anomaly 要分層。
+
+**重要限制**：
+- 鏡係高階 cross-cutting system，重要性高於一般 Goldfish 等 motif dialect；
+- 唔可以為「有 feel」而每場亂放鏡；
+- P01 空間測試暫時唔加入鏡，避免 reflection 同 orientation / zoning 混成同一變因；
+- 「鏡中承諾」中的「鏡」仍係心理／隱喻意象，唔等於此 phase 必須有實體鏡面。
+
+**交付**：Mirror Language Study / reflective-interface sheet；先做 spatial/compositional use，再做 Mirror Law activation，最後先測同其他系統合成。
+
+---
+
+## P09 — Motif Dialects
 
 逐套獨立測：
 - Goldfish / water / soft life
@@ -221,7 +244,7 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
-## P09 — Benchmark Location Synthesis
+## P10 — Benchmark Location Synthesis
 
 到呢度先正式用具體地點驗證前面規則。
 
@@ -238,7 +261,7 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
-## P10 — Natural World Response
+## P11 — Natural World Response
 
 前面 modules 通過後先做完整自然 Beta response：
 
@@ -260,7 +283,7 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
-## P11 — Imperial Processing
+## P12 — Imperial Processing
 
 **目的**：將天然 Beta 情緒機制與帝國制度化處理分開研究。
 
@@ -284,4 +307,6 @@ Orientation 下一輪優先意圖已確認：
 
 - P01A Scale / Compression 第一輪方向已粗測；
 - P01B Programmatic / Functional Spatial Logic 已記錄並插入 pipeline，但作者要求**之後先深入討論，暫時唔做 taxonomy**；
-- 下一步應繼續 P01 主線，而唔跳去完整 classroom 或 World Response。
+- Orientation 灰模研究已開始；下一個 P01 priority 係 **Distance**，之後先係 **Exit / Boundary**。
+- 作者另補充：**鏡係重要到接近獨立 visual system，層級高於金魚等一般 motif**。已插入 P08 Mirror / Reflective Interface Language；暫時唔混入 P01 測試。
+- 下一步應繼續 P01 主線，而唔跳去完整 classroom、Mirror composite 或 World Response。
