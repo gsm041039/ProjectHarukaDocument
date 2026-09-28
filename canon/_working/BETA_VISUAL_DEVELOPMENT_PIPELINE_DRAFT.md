@@ -67,6 +67,18 @@ Scale / Compression 情感優先：
 
 **注意**：以上係 study directions，未係固定 grammar dictionary。
 
+### P01A-2 — Zoning / Orientation progression
+
+Zoning 已以課室灰模做過第二輪強化研究，方向包括更強 level split、structural strips / beam-floor extreme 等；作者指出「No Floor / In the Air」只係**極端範圍例子**，唔係新 category。
+
+Orientation 下一輪優先意圖已確認：
+1. **舞台感（D）**
+2. **空間有另一個真正前方（B）**
+3. **個人／局部不屬於原本方向系統（A）**
+4. **生活邏輯侵蝕官方秩序（C）**
+
+工作理解：方向錯位首先應服務「某區自然成為被觀看的場」，其次係 official front 與 true front 分裂；個人錯向係局部工具，而「生活侵蝕制度方向」唔係目前主感受。
+
 ### P01B — Programmatic / Functional Spatial Logic（已記錄，稍後再展開）
 
 研究一種更通用嘅 Beta 空間特性：
@@ -74,6 +86,8 @@ Scale / Compression 情感優先：
 > **熟悉建築／城市系統仍然存在，但「用途配置、樓層關係、動線、服務空間、公共／私人功能」會出現不合理但被居民日常化接受嘅規劃。**
 
 重點：
+- 作者已確認一個核心方向：**Beta 空間可按「人怎樣生活、流動、聚集、感受」重新組織，而唔只服從工程／規劃理性。**
+- 作者亦確認：**功能直覺可以凌駕規劃邏輯**；五歲晴香式理解可偏向「需要買嘢所以附近應該有舖、需要去某處所以應該有車、需要傾偈所以應該有可停留空間」等直覺，而唔係 zoning-code 思維。
 - 研究「功能與空間關係本身錯位／異常嫁接」呢個普遍原則；
 - **暫時唔拆成固定候選類型、唔建立四種或任何封閉 taxonomy**；
 - 可由高密度香港／山城式城市經驗出發，但要發展成 Project Haruka 自己嘅通用空間邏輯；
