@@ -1,5 +1,7 @@
 # Character Voice Bible — 水無月美夜子（雨宮美夜子）
 
+> ⚠️ **2026-09-29 狀態提示（Demo 試點 D-12）**：本檔由 2026-07 舊 workflow 產生（未做粵語自然化、說話心理分析、自稱／稱呼表、語料對照），頂部「正式版」標示暫時失效；Demo 使用前一律按新 workflow 重做。本檔暫只當 EVIDENCE INPUT（canon 原句可用，舊候選／規則＝VOICE CANDIDATE）。
+
 > 文件用途：全劇通用角色說話方式。不可綁定單一場景。
 > 狀態：Voice Bible（正式版 — 證據覆蓋全劇四幕，含多句逐字台詞、心理弧光文件、CDL-337/340/342/347 等多輪心理精修，證據密度高於同批 haruka.md 初版）
 > Canon 截止版本：`canon/03_characters/miyako.md`（本檔全文，含 CDL-354/350/345/344/338/337/340/342/347）、`canon/03_character_index.md`、`ACT_I_OUTLINE.md`／`ACT_I_BEAT_SHEET.md`／`ACT_II_OUTLINE.md`／`ACT_III_OUTLINE.md`（2026-07-29 CDL-354 為止）、`CANON_DECISION_LOG.md`（CDL-337/338/340/342/345/347/350/351/354 全文）、`canon/_working/character-voice-bibles/haruka.md` §6（對美夜子嘅相關 cross-reference）

@@ -1,5 +1,48 @@
 # SESSION_LEDGER
 
+## Demo Pilot Track — Stage 5 對白方法支線（2026-09-29）
+
+- **更正（2026-09-29 較後）**：作者質疑聲線聖經未按新 workflow 處理。核實：舊 `haruka.md`／`miyako.md`（標「正式版」）冇任何自然化／說話分析／自稱表／語料對照；Stage 4 誤標 HAVE。已記 D-12、gap audit D-2／D-3 改 REDO、兩檔頂部加提示、tracker Stage 5 加重做清單。
+
+- [x] 作者糾正：對白要慢速工作坊；舊 voice／表演 bible 降級 CANDIDATE。
+- [x] skill `story-character-voice-designer` 升級：§3.1 慢速協議、§8B 說話心理分析、§8C 粵語配音稿對白參考（曾誤解為配音技術，已更正）、§8D drafting-language 規則＋語料基準。
+- [x] 跨語言研究（日文脚本／アフレコ台本／役割語、翻譯 vs 直接寫、粵語 LLM）＋語料（CantoCaptions：Hattori 配音、Another World）分析；決定 D-10（粵語直接落筆，PROVISIONAL）、D-11。研究落 `character-voice-workshops/_CANTONESE_DIALOGUE_RESEARCH.md`。
+- [x] tracker 新增 §1.5 大局錨點（支線界線、Stage 5 退出條件、微場景清單）；操 M1 加語料對照。
+- [x] （第十五次）操 M1–M5＋收尾完成（P1／S2／T1／U1／M5 暫定零台詞，PROVISIONAL）；起草 `miyako_voice_discovery.md`、`haruka_voice_discovery.md`；存 feedback：問題要 Loop 完先一次過問。
+- [x] auditor 已跑（VOICE_EVIDENCE_REVIEW.md）
+- [ ] 待：合併問題 → Stage 5 夠用版 → Stage 6。
+- [ ] （舊）待：作者答 Q-4（M1 殺氣／距離感）、Q-5（D-10 確認／偏好作品）；M1 Speech Analysis Card；M2。
+- Handoff：resume 先讀 tracker，唔好擴大研究；按 §1.5 退出條件收 Stage 5，Stage 6 可並行。
+
+## Theme Discussion Track（2026-09-28）— 局部死亡框架（動作留低，信念死咗）writeback
+- [x] 作者用 `/story-orchestrator` 提出「大難關後有一部分自己死咗、永久改變」講法，討論可否套落角色、同主題扣唔扣到。
+- [x] 掃 `PROJECT_STATUS.md`／`NEXT_ACTION.md`／角色成長表／世界規則／主題文件，確認同[結痂](../01_world_rules_and_costs.md#rule-scab-vs-heal)、「態度 vs. 命運」總主題嘅扣連。
+- [x] 精煉框架：動作層（態度）／信念層（命運）兩層拆解，「動作留低、信念死咗」為最戲劇化組合。
+- [x] 檢視 `rin.md`，確認凜係基準案例（canon 原文 CDL-353 已有精準表述），並確認凜嘅「太遲」窗（CDL-374/391）唔可以套用去其他角色。
+- [x] 作者要求寫入 canon，正式落 **CDL-414**。
+- [x] `12_philosophy_and_systems.md` 新增 §八「局部死亡框架——動作留低，信念死咗」。
+- [x] `rin.md` 主題關聯段加 cross-reference。
+- [x] `CANON_DECISION_LOG.md`、`PROJECT_STATUS.md`、`NEXT_ACTION.md` 同步更新。
+- [ ] 下一步：其他角色（操／紫音／美夜子／晴香）嘅具體套用方式仍屬 exploratory 候選，未確認，留待作者指定是否要逐一討論。
+
+## MVP Demo 選段討論（2026-09-28）— 獨立討論 track，唔屬 Round 計數
+- [x] 作者問：15-20 分鐘 MVP demo（日常／對話／小 cutscene／魔法少女戰鬥／靚景）應揀邊段。
+- [x] 重讀 `ACT_I_SEQUENCE_MAP.md`、`ACT_I_BEAT_SHEET.md`（正式 Beat 層 + E-01/E-02 Scene Reference）、`FULL_STORY_ROUGH_OUTLINE_v2_LITE.md`、`10_gameplay_bible.md` 目錄。
+- [x] 比較 Act I 六段：推薦 SEQ1「破曉與命運闖入」（開場→走廊欺凌→屍骸入侵＋初次變身→戰鬥→膠布尾聲→彩「下次呢？」→熱可可→天台）作主候選；SEQ3（E-02 操入隊＋秘密基地）作戰鬥向後備；SEQ5／SEQ6 唔建議做首個 demo（依賴前文／劇透重）。
+- [x] **冇生產任何 Scene／Dialogue／Script**——Round 196 Sequence 層 freeze 仍然有效；demo 選段只係討論結果，未有作者決定。
+- [ ] 待作者答：demo 主要用途（對外 pitch／眾籌 vs 內部驗證戰鬥手感），決定主候選同後備。
+- [x] 作者回應：開場段嘅日常細節（照鏡／膊頭重／秋穗叮囑）未穩，秋穗角色未 develop 完，傾向操入隊＋秘密基地；**作者授權為選定段落開始由粗到幼 workflow 一路做到有對白劇本**（解除 Round 196 freeze，只限此試點段）。
+- [x] 資料回收：操（ayakomoji_misao.md）、紫音（iwakura_akane.md）canon sheet 充足；E-02 場景參考已有作者確認原句；操／紫音**冇全劇 voice bible**（只有 haruka／miyako／kohei）；秘密基地觸發＝葡萄糖注射槍耗盡，血糖手錶由秋穗派發（茶餐廳場屬另一組日常，可排除）；操 E-02 前有無前置仍 open。
+- [x] 出兩段好壞比較，head writer 推薦操入隊＋秘密基地。
+- [x] 2026-09-29 作者追加：gameplay 只做到課室戰鬥；可 cut；秋穗等未定元素可唔出；要由冇到有準備缺件（說話方式／動作／art direction 補件，後者之後再講）；要完整可追溯 workflow。
+- [x] 新建 `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md`（14 stage checklist、限制、決定紀錄、產出索引、resume protocol）。
+- [x] 2026-09-29 作者揀操入隊＋去紫音＋街景＋魔法屍骸戰鬥（晴香＋美夜子已足夠）；C-1 修訂；新建 `demo_pilot/SCOPE_AND_CUT_LIST.md`（三個範圍方案、三欄 cut list、去紫音影響核查〔Beat 2 exit／Beat 2.5／2.6／據點洩露 payoff 標 REVALIDATE_REQUIRED〕、完整版補返清單）。
+- [x] 2026-09-29 作者揀方案 3，尾巴改為操掉牙暗示、唔係晴香（D-09）；Source check：操牙齒 canon＝Stage 1 牙齦滲血（Act II 前期）／Stage 2a 真掉牙（E-09a）→ demo 暗示限 Stage 1 級，標 REVALIDATE_REQUIRED；`SCOPE_AND_CUT_LIST.md` 加場 8、補返清單第 7/8 項；Q-3 RESOLVED；Stage 2 DONE。
+- [x] 2026-09-29 Stage 3 DONE（`demo_pilot/FACT_AND_KNOWLEDGE_STATE.md`）＋Stage 4 DONE（`demo_pilot/PRODUCTION_GAP_AUDIT.md`）；核實塔覆蓋範圍規則：場 8 唔撞，須寫成操個人崩壞起點。
+- [x] 2026-09-29 作者更正：gameplay 本身就喺街上（C-1 作廢、G-1＝HAVE）。
+- [x] 2026-09-29 Stage 5 第一版完成：`character-voice-bibles/misao.md`（Discovery Workshop：5 個 Voice Engine 候選、M1–M5、6 項待作者確認）＋`character-performance-bibles/{misao,haruka,miyako}.md`（DRAFT；場 8 限 Stage 1 級隱藏症狀；晴香 CDL-357 兩個 Act II+ 動作唔用；美夜子貓形態為主）；tracker 清走過期課室字眼。
+- [ ] 下一步：同作者逐項執 Stage 5 高影響候選，然後 Stage 6 場景設計。
+
 ## Visual Development Track（2026-09-27）— Beta Environment Response / Stage Language / Dual Overexposure writeback
 - [x] 作者要求先完整讀 repo 再 writeback 本 session；按 AGENTS read order 核對 durable state，並重讀 `00_series_bible.md`／`01_world_rules_and_costs.md`／`05_naming_and_psychology_system.md`／`06_visual_bible.md`／`11_directing_playbook.md`／`12_philosophy_and_systems.md`／`03_characters/aya.md`／`07_entities_and_devices.md` 等相關 canon。
 - [x] 新建 `canon/_working/2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`，以 [AC]/[DRAFT]/[REJECTED] 保存本 session 全部關鍵內容、研究參考、失敗 image-study lesson、未決問題。
@@ -2747,3 +2790,25 @@
 - What was done: Source check（ROUGH_SKELETON + STORY_BASE_RECONSTRUCTION）；L1/L2/L3 定義確認；作者回應 gate 問題；Q-AI-01 LINKED / Q-AI-02 DROPPED / Q-AI-03 DEFERRED；canon correction（鏡中幻象 = Beta線）；state files 更新；Act I Gate OPEN
 - What remained: Act I Outline 建立
 - Next safe action: 建立 Act I Outline 三層結構
+
+- 2026-09-30：晴香工作坊加 §8 粵語對白參考對照（語料逐場對應）；更正「咁咪即係」用例數（29＝咪即係，咁咪即係＝1）。晴香候選待作者揀。
+
+- 2026-09-30：作者揀晴香場1/2/3/4/5/7＋稱呼（見 haruka_voice_discovery §9）。晴香候選階段完成；下一步＝獨立言癖 pass（美夜子／晴香／操）。
+
+- 2026-09-30：言癖 pass V-1 完成（_YANPIK_PASS_V1.md），作者已揀各角色保留項。Stage 5 剩：auditor 覆核 → 夠用版判定。
+
+- 2026-09-30：auditor 覆核完成；作者定操場7 尾句去「唔好亂講」、言癖冇頻率限制。Stage 5 夠用版達成（PROVISIONAL），下一步 Stage 6。
+
+- 2026-09-30：作者指出目標係完整作品由粗到幼。方向重設（第一版誤解為全 Act I 審核）。作者澄清：喺 demo 範圍內由粗到幼傾，試驗方法。已更正：Stage 6 暫停；demo 決定降格 NON_BINDING_REFERENCE；current layer＝demo 範圍粗層；QQ-226 收窄至 demo 段。
+
+- 2026-09-30：作者要求粗層範圍比 demo 大少少。決定粗層＝Act I 六 Sequence，再收窄到 demo 段；首問＝Act I 觀眾感覺曲線。
+
+- 2026-09-30：作者定 demo＝好暖＋少少不安（伏筆），其餘照舊。建 DEMO_BEAT_LAYER.md（8 beat）；Director review PENDING；Stage 6 未准。
+
+- 2026-09-30：作者質疑市民圍觀直播必要性。形式必要性推演落 DEMO_BEAT_LAYER §6（建議：UI 常駐＋人群邊緣三時刻）；待作者答操入隊一刻公開／私密。
+
+- 2026-09-30：作者質疑點解有「市民圍觀」、要求可推導 pipeline。重做 DEMO_BEAT_LAYER §2／§6 為逐級追溯＋證據級別；刪「公眾壓力」（COPY，UNSUPPORTED）；D2 補返美夜子非計劃保護（CDL-083）；上一條「待答公開／私密」撤銷（Scene 舞台選擇，HW 預設私密）。Director review 仍 PENDING。
+
+- 2026-10-01：作者要求由頭推導。建 `demo_pilot/DERIVATION_LEDGER.md`（A1–A3、S1–S4、O1–O12、B0–B11；證據級別＋狀態＋下游依賴）；orchestrator skill 已加 Derivation Trace Discipline（8 條）。DEMO_BEAT_LAYER.md 降格 Reference-only；Reference Audit 結果：與 ledger 一致。待作者：尾鉤操牙去留；批 Beat 層（Director review 仍 PENDING）。Stage 6 仍暫停。
+
+- 2026-10-01（二）：多 agent 質疑輪完成（5 路），DERIVATION_LEDGER 加 §7 質疑結果／§8 Beat v2／§9 偏離登記；orchestrator skill 加規則 9–11；作者定尾鉤真掉牙（偏離，待 REVALIDATE 清單：SCOPE_AND_CUT_LIST、FACT_AND_KNOWLEDGE_STATE、VOICE_EVIDENCE_REVIEW、PRODUCTION_GAP_AUDIT、D-09／D-13）。Director review（Beat 層 v2）PENDING；Stage 6 仍暫停。

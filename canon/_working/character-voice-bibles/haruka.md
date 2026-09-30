@@ -1,5 +1,7 @@
 # Character Voice Bible — 雨宮晴香
 
+> ⚠️ **2026-09-29 狀態提示（Demo 試點 D-12）**：本檔由 2026-07 舊 workflow 產生（未做粵語自然化、說話心理分析、自稱／稱呼表、語料對照），頂部「正式版」標示暫時失效；Demo 使用前一律按新 workflow 重做。本檔暫只當 EVIDENCE INPUT（canon 原句可用，舊候選／規則＝VOICE CANDIDATE）。
+
 > 文件用途：全劇通用角色說話方式。不可綁定單一場景。
 > 狀態：Voice Bible（正式版 — 證據覆蓋全劇四幕，心理弧光已有完整文件支撐）
 > Canon 截止版本：`canon/03_characters/haruka.md`（本檔全文，含 CDL-355/356/357）、`canon/03_character_index.md`、`ACT_I/II/III_OUTLINE.md`（2026-07-14 CDL-330 為止）

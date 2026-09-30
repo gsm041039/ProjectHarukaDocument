@@ -261,6 +261,25 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 - **PILOT / EXPERIMENT**：**唔可以** mutate `PROJECT_STATUS.md` / `NEXT_ACTION.md` / `QUESTION_QUEUE.md` / 已批核 Act 檔 / 已批核 Beat Sheet / `CANON_DECISION_LOG.md`，除非作者事後明確話要 promote。所有輸出寫入獨立 temp pilot run 資料夾，每個決定標 `TEST_ONLY` / `NOT_AUTHOR_APPROVED`。Resume 邏輯（`story-resume`）唔可以將呢啲 test-only 決定當生產真相。
 - **機械化強制（2026-09-11 新增，唔淨係自然語言自律）**：Orchestrator 宣告 RUN_MODE 之後，`story-run-workspace-manager` 喺 manifest 記低，任何實際 durable write 一律經 `story-writeback`——嗰度嘅 entry criteria 第一條就係 `RUN_MODE = PRODUCTION` 先可以寫，`PILOT`/`EXPERIMENT` 直接 `WRITE_BLOCKED_BY_RUN_MODE`。即係話呢個限制唔淨係靠呢份文件叫自己咪咁做，係下游實際寫嘢嗰個 gate 會拒絕。
 
+### Derivation Trace Discipline（2026-10-01 新增——由頭推導、可追溯、可改）
+觸發：Progressive Mode，或作者講「由頭慢慢做」「要可推導」「點解有呢樣」「可以改」。核心：**每一層嘅每個元素都要有上游來源同推導理由；有決定先問作者；作者改上游，下游自動標失效重推。**
+
+1. **由最高未完成層起，唔可以由下游現成材料倒推。** Scene Reference、舊 Beat 表、其他 pilot 產物只可以喺推導完成後做 Reference Audit（比較：邊啲同我推出嚟一致、邊啲係額外），**唔可以當推導嘅來源或起點**。抄下游＝`COPY`，唔算推導。
+2. **Derivation Ledger（每個 run 一份，PILOT 放 pilot 資料夾）**。每個元素一行：
+   `節點 | 層 | 元素 | Derived-from（上游節點／canon 來源）| 推導理由（點解由上游推到呢個）| 證據級別 | 狀態 | 下游依賴`
+   - 證據級別沿用 story-grounding-auditor：CANON_SUPPORTED／STRONGLY_INFERRED／WEAKLY_INFERRED／HEAD_WRITER_DEFAULT／AUTHOR_DECIDED／NEW_CONTENT（冇上游）／COPY。
+   - 狀態：DERIVED／HW_DEFAULT／AUTHOR_DECIDED／OPEN_DECISION／STALE。
+   - `NEW_CONTENT`、`COPY`、`WEAKLY_INFERRED` 必須喺 layer review 逐項列出畀作者否決，唔可以混喺正常元素入面。
+3. **步進迴圈（一個 Sequence／一個 Beat 為單位，唔一次鋪晒全層）**：揀下一個元素 → 列上游 → 推導 → 評級 → 分 decision class → AUTO／AI_PROPOSED 就記錄並繼續 → `AUTHOR_DECISION` 就停低，用 Natural Director Question 問，「發生咗咩」段直接引用呢條推導鏈（上游係咩 → 推到邊 → 邊度推唔落去）。
+4. **冇來源就唔入表**：元素推唔出上游，要麼標 `NEW_CONTENT` 列明係我加，要麼刪。唔可以靜靜保留。
+5. **修改傳遞**：作者改／否決一個節點 → 該節點記 `AUTHOR_DECIDED` 新值 → 所有下游依賴節點標 `STALE／REVALIDATE_REQUIRED` → 按層序重推 → 向作者交代「改咗咩、保留咗咩、邊啲要再問」。唔可以靜靜改下游；相關檔案交 `story-character-change-impact-manager`／`story-downstream-consistency-auditor`。
+6. **作者問「點解有 X」＝要睇推導鏈，唔係要新候選。** 答法：攞 ledger 該節點，講上游→推導→證據級別；冇鏈就坦白承認並當場追溯。**禁止**用候選比較、新 Director 問題代替追溯。
+7. **Layer Review Packet 要附 ledger 摘要**：各證據級別數量、所有 NEW_CONTENT／COPY／WEAKLY_INFERRED／HW_DEFAULT 清單。
+8. 對話用白話：上游 → 推導 → 結果；唔用內部編號（編號只留喺 ledger）。
+9. **Inherited Obligation Challenge（強制，2026-10-01 補）**：上層（Outline／Beat Sheet）寫咗嘅「義務」**唔等於唔可以質疑**。每次由義務推 Beat 之前，要跑一輪 `story-multi-agent-room`（Light，5 個盲審 agent 並行，各自只讀 ledger＋上游檔）：① Canon Evidence（逐條核引用有冇真係咁寫、有冇誤評級、來源係咪 DRAFT）② Character/Relationship Logic（因果次序係咪強制、功能有冇重複、agency）③ Theme/Audience（調性預算、不安載體夠唔夠／過唔過）④ Canon Impact（作者決定同上游嘅衝突、邊啲檔要 REVALIDATE）⑤ Devil's Advocate/Gap Hunter（邊啲義務過載／可移／缺咗咩 beat、有冇更簡單載體）。Agent 只出證據同質疑，**唔批准、唔代答作者問題**；由 orchestrator 自己綜合，改 ledger 評級／節點，再決定邊啲先值得問作者。綜合結果落 ledger「多 agent 質疑輪」節。
+10. **Deviation Register**：作者決定同上游唔同，唔可以靜靜當 AUTHOR_DECIDED 了事；要列入 ledger 偏離登記（偏離咩、燒咗邊個上游「第一次」、邊啲檔要 REVALIDATE、完整版去留分支），Layer Review Packet 必列。作者決定照記照用，唔重問，但要講清代價。
+11. 「NC」同類縮寫先核上游定義（例：Outline 嘅 [NC]＝非戰鬥段，唔係 new content）；唔可以自創縮寫撞咗上游標籤。Scene Reference 來源嘅細節標 `SR`，唔算推導。
+
 ### Decision classes（C3 resolved 2026-09-10）
 - **AUTO_RESOLVABLE**（Claude 自己做，唔問）：回收證據；明確 supersession 揀新源；改 stale label；認 sequence 邊界；認缺失 causal bridge；提小 transition；判資訊可唔可以入既有 beat；避免重複 exposition；揀低風險 carrier;拆過大材料;保留既有 detailed reference;routine 結構診斷;明顯 setup/payoff 維護。
 - **AI_PROPOSED_CANDIDATE**（Claude 自己設計首選方案，安全就 provisional 繼續，唔要求作者由零諗）：加小連接 beat；擴既有 scene；加 aftermath；加 breathing room；加環境資訊 carrier；搬非 canon 呈現細節；提小關係 bridge。
@@ -550,6 +569,7 @@ Progressive Mode 落，呢條規則 = Continue-by-Default（見上）：完成�
 
 ## Failure Conditions
 以下係失敗：
+- 由下游現成材料（Scene Reference／舊 Beat 表）直接當上層產物，推導事後先補；元素冇 ledger 來源；作者問「點解」卻用候選比較代替推導鏈；作者改上游後下游冇標失效（見 Derivation Trace Discipline）。
 - 宏觀檢查只輸出 checklist、分數或 specialist 報告拼貼，冇深化原問題、根因、修改方案同驗證方法。
 - 未掃本地文件就問作者，或者將文件已有答案嘅問題推返畀作者。
 - 將使用者原問題靜靜改成另一條問題，冇分開 Original Question、Professional Reframe 同 Adjacent Findings。

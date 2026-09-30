@@ -1,5 +1,26 @@
 # PROJECT_STATUS
 
+## 🧭 方向重設（2026-09-30）— demo 範圍內由粗到幼重新討論（方法試驗）
+- **2026-10-01（二）更新**：DERIVATION_LEDGER 已經五路質疑輪修正（§7 質疑結果、§8 Beat v2、§9 偏離登記）；DEMO_BEAT_LAYER 降 Reference-only。作者定尾鉤真掉牙（偏離上游，PROVISIONAL）。待作者批 Beat 層 v2。
+- 作者要求（以第二次澄清為準）：**喺 demo 範圍內**由粗到幼傾劇情再落地，用嚟試驗方法 work 唔 work；唔係全 Act I／全作審核。Stage 6 暫停。
+- demo 已有決定（8 場 cut、場8 操縫牙暗示等）＝DOWNSTREAM_EXPERIMENT／NON_BINDING_REFERENCE，於 Sequence／Beat 層重新確認先決定去留；voice workshop 結果保留但可被 Beat 改動 REVALIDATE。
+- Fresh Target Verification：Act I Outline v1.22 APPROVED/STABLE；Beat 2（E-02）為 DRAFT（作者未審）＝目標 Beat；demo 範圍 Sequence 邊界檔 SCOPE_AND_CUT_LIST＝DRAFT。
+- 作者再澄清：粗層範圍要比 demo 大少少。決定：粗層＝Act I 六個 Sequence，再收窄到 demo 段（SEQ3 內 Beat 2）。
+- 作者定 demo＝好暖＋少少不安（伏筆），其餘照舊（D-13）。已建 `demo_pilot/DEMO_BEAT_LAYER.md`（8 個 demo beat，DRAFT）。
+- 作者要求 Beat 層每項有可追溯推導：DEMO_BEAT_LAYER §2 已加「上游來源＋證據級別」欄、§6 為追溯鏈（「市民圍觀」＝Outline 已寫嘅輔助載體，「公眾壓力」係抄 Scene Reference 已刪；D2 真後果＝美夜子非計劃保護）。
+- Goal Stack：PRIMARY_GOAL＝驗證由粗到幼方法；CURRENT_LAYER＝demo Beat 層（Director review PENDING）；NEXT_LAYER＝Scene architecture（未准）。
+
+## Theme Discussion Track（2026-09-28）— 局部死亡框架 writeback（CDL-414）
+- **獨立討論 track，唔屬於故事 Round 計數，唔改變 Round 196 Sequence-layer freeze／主阻塞點。** 作者用 `/story-orchestrator` 提出「大難關後有一部分自己死咗、永久改變」呢個講法，想睇下套落角色度得唔得、同主題扣唔扣到。討論確認同主題嘅扣連（「死係命運，葬禮係態度」，同已有嘅[結痂](../01_world_rules_and_costs.md#rule-scab-vs-heal)世界規則係同一命題嘅心理層版本）；精煉出核心框架「動作留低，信念死咗」（兩層拆解：動作層／信念層）；作者明確指出**凜**係呢個講法最深刻嘅體現，已有 canon 原文（CDL-353「放棄咗相信呢件事仲有意義」）支撐；同時確認凜獨有嘅「臨死前太遲」窗（CDL-374/391）**唔可以**強行套用去其他角色，其他角色嘅死咗結構要個別推導。已正式 writeback **CDL-414**：新增 `12_philosophy_and_systems.md` §八「局部死亡框架」，`rin.md` 加 cross-reference 定為基準案例。**其他角色（操／紫音／美夜子／晴香）嘅具體套用方式全部屬討論中嘅 exploratory 候選，未確認，未落 canon。** 下一步：作者指定新題目，或者揀某個角色試將呢個框架具體套用（需要逐一確認先可以落 Growth Tracker／writeback）；或回到主阻塞點。
+
+## 🎮 Demo Pilot Track（2026-09-29 起）— 試點段由粗到幼做到有對白劇本
+- **唯一進度追蹤檔：`canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md`**（resume 先讀佢；有 checklist、決定紀錄、限制、產出索引、單一下一步）。
+- 已定：試點段＝操入隊（E-02），去掉紫音（cameo／Beat 2.5／2.6 推遲完整版），要街景＋魔法屍骸戰鬥。Stage 1 DONE；Stage 2 DONE：作者揀方案 3（街頭首戰＋尾巴），尾巴改為**操掉牙暗示**（Stage 1 級，唔係晴香症狀；D-09），詳見 `demo_pilot/SCOPE_AND_CUT_LIST.md`。Stage 3（`FACT_AND_KNOWLEDGE_STATE.md`）、Stage 4（`PRODUCTION_GAP_AUDIT.md`）DONE（2026-09-29 更正：晴香／美夜子說話方式原標 HAVE 係錯判，舊 bible 係舊 workflow 產物，三個角色聲線一律按新 workflow 重做，D-12）；gameplay 本身喺街上（作者更正，C-1 作廢）。**Stage 5 進行中（2026-09-29 更新；第十五次）**：操 M1–M5＋收尾（採用句、Voice Engine 候選、自稱表）已寫（M1 P1／M2 S2／M3 T1／M4 U1，M5 暫定零台詞，全 PROVISIONAL）；美夜子（`miyako_voice_discovery.md`）同晴香（`haruka_voice_discovery.md`）已起草；下一步 auditor → 對作者一次過合併問題 → Stage 6。舊 voice／表演 bible 降級 CANDIDATE，改用 `story-character-voice-designer` 慢速微場景工作坊重做（`character-voice-workshops/misao_voice_discovery.md`，M1 作者揀 C）；粵語對白研究＋語料基準＋決定 D-10（對白由粵語直接落筆，PROVISIONAL）已落 `character-voice-workshops/_CANTONESE_DIALOGUE_RESEARCH.md`，skill 新增 §3.1／§8B／§8C／§8D。**大局錨點＋Stage 5 退出條件（Demo 夠用版）＋微場景清單見 tracker §1.5**；Stage 6 可並行。Freeze 只對此段解除。
+
+## MVP Demo 選段討論（2026-09-28）— 獨立討論，未決
+- 作者問 15-20 分鐘 MVP demo 揀邊段。Head writer 推薦 Act I SEQ1（開場到天台）做主候選，SEQ3（操入隊＋秘密基地）做戰鬥向後備。未有決定；Sequence 層 freeze 不變，冇向下生產。等作者講 demo 主要用途。
+- 2026-09-28 更新：作者傾向操入隊＋秘密基地（開場日常細節同秋穗未穩），並授權呢個試點段由粗到幼做到對白劇本。Head writer 同意推薦操段；等作者最後確認揀段，之後先定 demo 範圍。
+
 ## Visual Development Track（2026-09-27）— Beta 環境反應／舞台語言第一層 writeback
 - **獨立 visual-development track，唔屬於故事 Round 計數，唔改變 Round 196 Sequence-layer freeze／主阻塞點。** 作者要求先完整 writeback 今個 session，再慢慢傾 pipeline 細節。已重讀 repo 導覽／世界規則／視覺／導演／哲學／黑奏相關 canon 同 durable state，正式落 **CDL-413**：Beta-only 仿生／Ambient Weirdness、Beta 偏香港＋location-dependent 動畫願望覆層（學校／公園最重、糖水舖偏宿主）、仿生 default = quasi-organic non-conscious（後期可向 soul-like response 升格但 trigger btd）、熟悉物件改規則、願望／恐懼 Dual Overexposure、舞台化空間 grammar、金魚街燈／歌德降格做 motif dialect。已改 `06_visual_bible.md`、`11_directing_playbook.md`、`00_series_bible.md`；新建完整記錄 `2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md` 同 `BETA_VISUAL_DEVELOPMENT_PIPELINE_DRAFT.md`；新增 **QQ-225** 保存未定案細節。**下一步只係逐層討論 pipeline**（P00-P07 deliverable／固定變因／驗收／gate），唔自動生產 P01 或以下。
 

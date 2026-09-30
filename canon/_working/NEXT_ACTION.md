@@ -1,5 +1,14 @@
 # NEXT_ACTION
 
+> 🧭 **方向重設（2026-09-30，作者兩度指示，以第二次為準）——**粗層取比 demo 大少少嘅範圍＝Act I 六個 Sequence（Sequence Map，DRAFT）**，再逐層收窄到 demo 範圍（SEQ3 內 Beat 2／E-02＝街頭首戰＋操入隊）；由粗到幼重新同作者討論劇情，再落地到 Scene／Dialogue；目的＝試驗「由粗到幼」呢個方法 work 唔 work。** 唔係全 Act I／全作 Beat 審核（呢個係第一次誤解，已撤回）。Run mode = PILOT/EXPERIMENT（產出 DRAFT，唔 writeback canon）。**Stage 6 場景設計暫停**：demo 已有嘅決定（8 場 cut、場8 操縫牙暗示、voice 候選）降格為 DOWNSTREAM_EXPERIMENT / NON_BINDING_REFERENCE，喺 Sequence／Beat 層重新過一次先決定保留／改；voice workshop 結果保留，Beat 改動可令佢 REVALIDATE_REQUIRED。上游 Act I Outline v1.22 APPROVED；Beat Sheet 全部 DRAFT，Beat 2 段係本 demo 嘅目標 Beat。RETURN_TARGET = demo 範圍 Sequence／Beat 層。
+> **單一步（2026-10-01 二更新）：** `demo_pilot/DERIVATION_LEDGER.md` §8 Beat v2（經五路質疑輪修正）＋§9 偏離登記（好暖、去紫音、真掉牙）已備；等作者過目 Beat 層 v2 並批（Director review）；批咗先入 Stage 6。尾鉤真掉牙＝作者決定，demo 內 PROVISIONAL／REVALIDATE_REQUIRED。需要作者 input：YES（批 Beat 層，或推翻任何偏離）。
+> （舊單一步，保留作歷史）粗層已定（demo＝好暖＋少少不安伏筆，D-13）；已產出 `demo_pilot/DEMO_BEAT_LAYER.md`（8 beat；2026-09-30 已加上游來源＋證據級別欄，§6 為追溯鏈）。**等作者批 Beat 層（Director review）**；批咗先入 Stage 6 場景設計。作者確認粗層之前唔做 Scene。需要作者 input：YES。
+
+
+> 🎮 **Demo Pilot Track（2026-09-29）**：唯一追蹤檔 `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md`（§1.5 大局錨點、§8 單一步）。**Stage 3、4 DONE；Stage 5 IN_PROGRESS：操 M1–M5＋收尾已寫、美夜子＋晴香已起草（全 PROVISIONAL）。單一步（三人各場＋言癖已揀、auditor 覆核完，2026-09-30）：宣佈 Stage 5 夠用版 → Stage 6 場景設計（操入鏡 CDL-347 等） → Stage 5 夠用版 → Stage 6。** Stage 6 可並行；Stage 7 前需作者答 gap audit 嘅 NEED_AUTHOR 項。已定：範圍＝方案 3（街頭首戰＋尾巴），尾巴＝操掉牙暗示（D-09）；gameplay 喺街上。
+
+> 💀 **Theme Discussion Track（2026-09-28）局部死亡框架討論完成並已 writeback——獨立 track，唔屬於故事 Round 計數，唔改變主阻塞點。** 作者提出「大難關後有一部分自己死咗、永久改變」呢個講法，經 `/story-orchestrator` 討論後確認同主題「態度 vs. 命運」扣連、同[結痂](../01_world_rules_and_costs.md#rule-scab-vs-heal)係同一命題嘅心理層版本，精煉做「動作留低，信念死咗」兩層框架，**凜**確認為基準案例（呼應已有 CDL-353）。已正式落 **CDL-414**，寫入 `12_philosophy_and_systems.md` §八 同 `rin.md` cross-reference。**明確排除**：其他角色（操／紫音／美夜子／晴香）嘅具體套用只係討論中提出嘅 exploratory 候選，未經作者逐一確認，未落 canon，唔可以假設已定案。**唯一安全下一步**：作者指定要唔要將呢個框架套落具體角色（每個角色要個別討論、唔可以套用凜嘅「太遲」結構）；或者回到主阻塞點。
+>
 > 🎨 **Visual Development Track（2026-09-27）——Beta 環境反應／舞台語言第一層已正式 writeback（CDL-413），獨立 track，唔改變故事主阻塞點。** 作者要求「先 read repo，再將今 session 所有內容放最合適位置，之後再慢慢討論 pipeline 細節」。已完成：`06_visual_bible.md` 新增 Beta 環境反應語言、`11_directing_playbook.md` 新增 Beta 環境舞台化語法、`00_series_bible.md` 新增願望／恐懼雙向過曝頂層口徑；新建完整 discussion log + `BETA_VISUAL_DEVELOPMENT_PIPELINE_DRAFT.md`；`CANON_DECISION_LOG.md` 新增 CDL-413；`QUESTION_QUEUE.md` 新增 QQ-225。**唯一安全下一步（本 visual track）**：逐層討論 P00-P07，先定 deliverable／固定變因／驗收標準／gate；唔自動開始 P01 生圖。**未決核心**：最終 environmental statement wording、Dual Overexposure 觸發門檻、仿生 B→C 條件、黑奏／帝國「利用＋馴化」是否升格、Stage Grammar 邊啲正式化、金魚／歌德密度與互動。Round 196 Sequence freeze／Act IV 主阻塞點不變。
 >
 
