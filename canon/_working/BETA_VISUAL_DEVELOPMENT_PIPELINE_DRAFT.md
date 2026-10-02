@@ -112,6 +112,16 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
+## P01.5 — Layout / Cinematography（非核心阻塞）
+
+**狀態：DEFERRED / 非主要美術開發 gate。**
+
+2026-10-02 作者指出：一般 eye-level / wide / tele / over-shoulder 等普通鏡頭比較，對目前 Project Haruka 美術語言開發價值低，唔應該阻塞主 pipeline。只有當未來要設計**真正特殊、可成為作品 signature 的 shot / staging system**時先另開研究。
+
+已生成的 `Layout Study 01 — Camera / Lens / Stage Relationship` 僅作參考，**不列為主線必經驗收項目**。
+
+---
+
 ## P02 — Lighting Language
 
 **目的**：固定空間，只研究光、value、focus、exposure。
@@ -318,6 +328,7 @@ Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]�
 - P01A Scale / Compression 第一輪方向已粗測；
 - P01B Programmatic / Functional Spatial Logic 已記錄並插入 pipeline，但作者要求**之後先深入討論，暫時唔做 taxonomy**；
 - P01 Spatial Language 第一輪已完成：Scale / Compression、Zoning、Orientation、Distance、Exit / Boundary 均已有灰模探索；Programmatic / Functional Spatial Logic 已插入並保留作後續深化。
-- 下一步正式進入 **P02 — Lighting Language**。
+- P02 Lighting 第一輪已完成：3-Value Focus、Stage Angle Grammar、Beam Geometry、Special & Stage Zones。
+- 一般 Layout / Camera comparison 已降級為非核心；**下一步正式進入 P03 — Atmosphere / Emotion-Flow Language**。
 - 作者另補充：**鏡係重要到接近獨立 visual system，層級高於金魚等一般 motif**。已插入 P08 Mirror / Reflective Interface Language；暫時唔混入 P01 測試。
 - 下一步應繼續 P01 主線，而唔跳去完整 classroom、Mirror composite 或 World Response。
