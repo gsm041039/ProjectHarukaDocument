@@ -231,3 +231,19 @@ Stop Rule：
 - 再決定 P03C 是否需要獨立做 Medium / Temporal Contamination。
 
 完成 P03 core definitions 後先做圖。
+
+
+---
+
+## 10. P03B author decision — Non-world physics before literal starfield reveal
+
+作者確認：**先發現空間深度／物理已經唔屬於現世，去到更強先真正見到星空。**
+
+Implications：
+- 星空／Cosmic substrate 唔係第一級異常 icon；
+- 輕至中度先由 depth / parallax / continuity / occlusion / scale / boundary 等現世空間讀法開始失準；
+- 觀眾先感到空間唔再完全屬於現世，但未必知道底下係乜；
+- 更高強度先真正露出星空／Cosmic substrate；
+- 目的之一係避免「一怪就露星空」變 default motif。
+
+下一步：設計 early non-world physics grammar，同時保留 P03A uncanny pressure 嘅獨立性。
