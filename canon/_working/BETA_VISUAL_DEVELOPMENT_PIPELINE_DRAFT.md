@@ -183,6 +183,11 @@ Repo 已有素材要先分清：
 4. 點避免「一怪就露星空」變 default motif；
 5. 除星空外，有冇同等非現世 language 可以同一 system 內共存。
 
+**作者已確認 reveal order（2026-10-02）**：
+> **先發現空間深度／物理已經唔屬於現世，去到更強先真正見到星空。**
+
+因此 P03B 第一層唔應直接露 Cosmic Void；要先設計「非現世物理」——例如 depth、parallax、occlusion、scale、gravity、continuity、boundary 等邏輯點樣先出錯。星空／Cosmic substrate 屬後續更高強度揭示。
+
 ### P03C — Medium / Representation Contamination（候選）
 如 P03A/B 證明需要，再研究：
 - 局部 graphic representation method 改變；
