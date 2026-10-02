@@ -115,6 +115,15 @@ P03B 要真正設計：
 - **Slow Breathing 只係少量次級生命感**：空間可以極慢、極輕微伸縮，但唔應搶走 Static Impossible 作 baseline identity。
 - Observer-dependent / Emotion-dependent depth 暫時唔做第一級；後者留高強度 World Response 再討論。
 
+### P03B local metric consistency（AI working decision, author delegated）
+**Decision = C：Locally Consistent baseline → deeper state becomes metrically inconsistent.**
+
+工作規則：
+- **Baseline non-world physics**：外部尺寸同內部容量可以唔一致，但一入到空間，局部距離／家具／步數／動線仍然可以穩定使用。
+- **Deeper instability**：當現實再薄，先開始出現「內部自己都加唔埋」——步數唔一致、平行關係失準、總長度同局部量度對唔上。
+- 呢個分層保留 Beta「怪但真係住得到」嘅基線，同時畀高強度 escalation 有 headroom。
+- 唔將內部 metric chaos 當日常 baseline，避免世界由第一眼就失去可生活性。
+
 ## 5. Benchmarks（唔係語言分類）
 
 以下只係用嚟壓測語言上限，**唔係新 category**：
