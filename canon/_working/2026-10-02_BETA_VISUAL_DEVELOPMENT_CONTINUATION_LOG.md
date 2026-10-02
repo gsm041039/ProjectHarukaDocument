@@ -261,3 +261,10 @@ Implications：
 - 不可能距離／尺寸可以穩定存在，唔依賴觀察者先改變；
 - 世界可有極慢、極輕微伸縮作生命感，但唔取代穩定不可能空間；
 - Observer-dependent / Emotion-dependent depth 暫時留高強度階段。
+
+
+### P03B local metric consistency — delegated working decision
+作者將 Q17 交由 AI 決定；工作決定採 **C**：
+- baseline：外／內 mismatch，但內部局部 metric 仍穩定、可生活；
+- deeper state：現實進一步變薄先出現內部量度本身失準；
+- 理由：保留「怪但可用」世界基線，並為高強度 non-world physics 留 escalation 空間。
