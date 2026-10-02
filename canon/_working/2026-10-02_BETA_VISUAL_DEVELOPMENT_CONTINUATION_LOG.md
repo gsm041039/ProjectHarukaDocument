@@ -254,3 +254,10 @@ Implications：
 **Depth / Metric > Continuity / Topology > Parallax > Gravity / Up-Down > Scale Without Transition > Occlusion**。
 
 設計含意：先破壞「空間幾深／幾遠／點連接」呢啲世界結構，再逐步破壞視差與重力；Occlusion 最後，避免太早變成視覺 glitch 感。
+
+
+### P03B Depth / Metric behavior — author confirmed
+作者確認第一級 Depth Wrongness 以 **Static Impossible 為底，Slow Breathing 少量**。
+- 不可能距離／尺寸可以穩定存在，唔依賴觀察者先改變；
+- 世界可有極慢、極輕微伸縮作生命感，但唔取代穩定不可能空間；
+- Observer-dependent / Emotion-dependent depth 暫時留高強度階段。
