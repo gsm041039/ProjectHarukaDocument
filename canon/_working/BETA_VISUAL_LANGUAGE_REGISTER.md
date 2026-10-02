@@ -53,7 +53,7 @@
 | VL-002 | Programmatic / Functional Spatial Logic | Structural | AUTHOR-CONFIRMED-VISDEV | P01B | **EXPLORING / DEEP DIVE DEFERRED** | 空間可否按「人點生活、流動、聚集、感受」重新組織，功能直覺凌駕規劃邏輯，同時仍可生活？ |
 | VL-003 | Stage Lighting / Focus Language | Lighting | AUTHOR-CONFIRMED-VISDEV | P02 | **FIRST-PASS COMPLETE** | 光可否建立 focus、stage zone、actor / witness 關係，而唔只係 mood lighting？ |
 | VL-004 | Affective Environment / Uncanny Pressure | Affective | DRAFT / CURRENT NEXT | P03A | **NOT STARTED** | 點樣做到「討厭／窒息／不正常唯美」而唔靠天氣 moodboard 或直接抄魔女結界？ |
-| VL-005 | Collective-Unconscious Substrate / Non-World Language | Substrate | **CANON-EXISTS + VISDEV GAP** | P03B | **NOT STARTED** | 當現實表皮變薄，底層「非現世」究竟點樣出現？星空／Cosmic Fluid／Cosmic Void／後巷唐樓超現實城市景觀之間點分工？ |
+| VL-005 | Collective-Unconscious Substrate / Non-World Language | Substrate | **CANON-EXISTS + AUTHOR-CONFIRMED-VISDEV** | P03B | **EXPLORING** | **已確認 reveal order：先出現非現世嘅空間深度／物理失真，強度再升先真正露出星空／Cosmic substrate。** 下一步：早期 non-world physics 具體用咩視覺 grammar？ |
 | VL-006 | Host Layer / Lived Hong-Kong Memory | Structural / Cultural | CANON-EXISTS + AUTHOR-CONFIRMED-VISDEV | P04 | NOT STARTED | 點樣令地方真係被人生活出嚟，而唔係 generic HK dressing？ |
 | VL-007 | Haruka Wish Overlay | Structural / Affective | CANON-EXISTS + AUTHOR-CONFIRMED-VISDEV | P05 | NOT STARTED | 五歲晴香嘅「幸福／方便／動畫直覺」點樣整理地方，而唔只係加可愛 decoration？ |
 | VL-008 | Living / Biomorphic Environment | Behavioral | AUTHOR-CONFIRMED-VISDEV | P06 | NOT STARTED | quasi-organic non-conscious baseline 點樣可讀？何時可以升到 soul-like selective response？ |
@@ -86,7 +86,8 @@ P03B 要真正設計：
 1. **城市／記憶層** vs **無定義／底層 substrate** 點轉換；
 2. 星空係 literal sky、void、fluid、材質剝落後底色，定其他「非現世」表達；
 3. 何時只係微弱 leakage，何時整個畫面 medium 都變；
-4. 點避免「見怪就露星空」變成另一種廉價 default motif。
+4. 點避免「見怪就露星空」變成另一種廉價 default motif；
+5. **作者已確認 intensity order（2026-10-02）**：早段先讓觀眾感到「空間深度／物理已經唔屬於現世」，唔立即見到星空；去到更強狀態先真正露出星空／Cosmic substrate。即 **non-world physics precedes literal cosmic reveal**。
 
 ---
 
