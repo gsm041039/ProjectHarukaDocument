@@ -106,6 +106,15 @@ P03B 要真正設計：
 
 解讀：Haruka 嘅非現世物理應先由「可量度空間」同「連接關係」出錯開始；之後先到視差／重力；純遮擋錯位放最後，避免太早讀成數碼 glitch／畫面 bug。
 
+### P03B Depth / Metric behavior（作者確認）
+**Baseline = Static Impossible；少量 Slow Breathing。**
+
+工作意思：
+- 第一級 Depth Wrongness 主要係**穩定存在嘅不可能尺寸／距離**；唔需要角色望住先變，亦唔以情緒觸發為預設。
+- 空間可以長期「明明外面只得 8 米，入面實際有 30 米」而居民照常使用。
+- **Slow Breathing 只係少量次級生命感**：空間可以極慢、極輕微伸縮，但唔應搶走 Static Impossible 作 baseline identity。
+- Observer-dependent / Emotion-dependent depth 暫時唔做第一級；後者留高強度 World Response 再討論。
+
 ## 5. Benchmarks（唔係語言分類）
 
 以下只係用嚟壓測語言上限，**唔係新 category**：
