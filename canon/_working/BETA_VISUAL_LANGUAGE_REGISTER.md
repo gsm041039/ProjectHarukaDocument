@@ -91,6 +91,21 @@ P03B 要真正設計：
 
 ---
 
+
+
+### P03B early non-world physics priority（作者確認）
+**A > D > B > E > F > C**
+
+即：
+1. **Depth / Metric Wrongness**
+2. **Continuity / Topology Wrongness**
+3. **Parallax Wrongness**
+4. **Gravity / Up-Down Wrongness**
+5. **Scale Without Transition**
+6. **Occlusion Wrongness**
+
+解讀：Haruka 嘅非現世物理應先由「可量度空間」同「連接關係」出錯開始；之後先到視差／重力；純遮擋錯位放最後，避免太早讀成數碼 glitch／畫面 bug。
+
 ## 5. Benchmarks（唔係語言分類）
 
 以下只係用嚟壓測語言上限，**唔係新 category**：
