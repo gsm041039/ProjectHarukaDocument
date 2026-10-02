@@ -247,3 +247,10 @@ Implications：
 - 目的之一係避免「一怪就露星空」變 default motif。
 
 下一步：設計 early non-world physics grammar，同時保留 P03A uncanny pressure 嘅獨立性。
+
+
+### P03B priority order — author confirmed
+作者確認 early non-world physics 優先順序：
+**Depth / Metric > Continuity / Topology > Parallax > Gravity / Up-Down > Scale Without Transition > Occlusion**。
+
+設計含意：先破壞「空間幾深／幾遠／點連接」呢啲世界結構，再逐步破壞視差與重力；Occlusion 最後，避免太早變成視覺 glitch 感。
