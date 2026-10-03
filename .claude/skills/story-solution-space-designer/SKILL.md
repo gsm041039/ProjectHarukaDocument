@@ -24,6 +24,16 @@ RETURN_TO_ORCHESTRATOR
 ```
 Never `READY_TO_NEXT_LAYER` — that is an authority decision the orchestrator makes, not this skill.
 
+## Proactive Opportunity Mode（2026-10-02 新增）
+平時呢個 skill 係「有問題先出候選」（problem-driven）。作者想要嘅另一種係：**唔等有人報問題，主動掃一份 artifact（Beat／Sequence／Scene）搵可以做得更好嘅新事件、新想法、其他形式。** 現有 `story-micro-insert-hunter` 只做細插入（≤3 個、無全角度掃描）、`story-multi-agent-room` 只有一句 Creativity Rule；兩者都唔夠做呢件事，所以喺度加。
+
+觸發：orchestrator 明確要求「提案掃描」（例如 Beat Layer Completeness Gate 第 7 項嘅提案員；或作者問「有冇更好／新嘅做法」）。
+輸入：被掃 artifact＋已定決定（不可推翻）＋可讀 canon 清單；唔需要預先寫好 Problem Blueprint——**由你自己喺 artifact 入面搵出具體弱點／遺漏功能，再為該弱點寫一個 mini Problem Blueprint**。冇具體弱點就唔提（唔准為提而提）。
+形式唔限於「加場戲」：玩法行為、環境／道具／UI／表演、蒙太奇、aftermath、細事件、刪／併／換序、可選支線、換載體。仍然跑 Existing Carrier First（Step 1）；細事件類可調用 `story-micro-insert-hunter`。
+每個提案必須：人話講清做咩／點解／代價／放棄咗咩／同現有做法分別；上游依據同證據級別；Master Angle Registry（`.claude/story_system/angle-system.md` 28 角度）全掃＋3–5 個決定性角度詳述＋一次「攻擊」；冇 Hard Constraint／Act II–IV obligation 衝突（有就標 REVALIDATE）。
+數量與結構：最多 8 個、按價值排序；至少 1 個激進另類、至少 1 個刪／併類；如真係冇值得提，要寫試過諗咩、點解唔成立。
+所有輸出＝`CANDIDATE`，唔批核、唔代作者決定；結尾照常 `SPECIALIST_WORK_COMPLETE / RETURN_TO_ORCHESTRATOR`。
+
 ## Required Input
 The calling orchestrator must supply the Problem Blueprint:
 ```text

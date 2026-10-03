@@ -147,6 +147,45 @@ Don't compress a continuous or mixed creative space into "A vs B" merely because
 #### Human-Language Gate（2026-09-12 新增）
 Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Director answer this from creative instinct immediately, without first translating narrative-design terminology? If NO, rewrite it. Avoid jargon in the actual chat wording — "validate the growth arc", "wound-driven compulsion", "theme stance", "narrative function", "recontextualization", "payoff architecture", "ideological reading" and similar terms stay internal (fine in temp workspace files), not in what's said to the Director, unless the author already uses that term themselves. Translate into ordinary creative language: not「呢個係 genuine internal growth 定 wound-driven compulsion？」but「你覺得佢今次真係第一次自己行出去，定係其實仲係畀以前嗰套習慣推住行？」.
 
+#### Plain-Language Explanation Rule — 所有建議（2026-10-02 新增，作者要求；範圍＝凡我向作者提出嘅任何建議）
+唔止 Director 問題。凡我向作者**提出**嘅嘢——候選、推薦、「我建議下一步做 X」、Head Writer 自己揀咗嘅預設（只要有講出嚟畀作者睇）、Layer Review Packet 入面每一項、要作者否決嘅 NC／HW 清單、修正舊決定——都必須配**人話詳情**，唔可以淨係畀標籤、一句得失、或內部名稱。
+- 每項建議最少講清：**（a）會發生咩／改變咩**（作者睇得明嘅畫面或結果）；**（b）點解咁建議**（上游依據、角色性格、canon；講原因，唔係講結論）；**（c）要付嘅代價**（具體邊幕、邊條弧線、邊個之前埋嘅位受影響）；**（d）放棄咗咩**；**（e）同另一個做法真正嘅分別**（唔係表面分別；實質一樣要老實講）。
+- 比例原則：細而易改嘅預設（低風險）可以兩三句講完，但「點解」一定要有；大決定先用成段完整版。**唔可以因為「細」就只寫一個詞或一個編號。**
+- 用日常話講，唔用內部編號（QQ-／CDL-／E-xx／R-3／HC-x／B11／N2／H1／Stage 2a 等）同未解釋過嘅術語；要講 canon 階段就描述佢發生咩（例：「Act II 中期、操父親背叛嗰晚，操將跌咗嘅牙用絲線縫返」），唔係講「Stage 2a」。
+- 寫之前核 canon 原文，唔憑印象；之前講錯就直接更正。
+- 發送前自測：作者冷讀呢段，唔使開任何檔案、唔使識任何編號，睇唔睇得明「發生咩、點解、代價、放棄咗咩」？唔得就重寫。
+- 本規則同下面 Candidates-First Rule 疊加：Candidates-First 規定「問作者之前要先備候選」；本規則規定「任何建議都要人話詳情」。
+
+#### Angle Basis Rule — 所有建議都要以全部角度為依據（2026-10-02 新增，作者要求；範圍同上面 Plain-Language Rule 一樣）
+**起因：** 我曾經交一張「19 個角度全部相關」嘅表，但格入面多數係套話、冇人驗證，而且標咗「canon 連貫」相關之後我仍然憑印象講錯 canon。剔號唔等於做過。作者要求：每個建議都要真係以所有角度為依據（如有觸及）。
+**清單＝Master Angle Registry**：`.claude/story_system/angle-system.md` 嘅 Pool 1（1–12）＋ Pool 2（13–19）＋ Pool 3（20–28：角色知情／觀眾知情／因果鏈／玩法與控制權／導演調度／節奏／功能重複／製作量／跨幕影響）。清單唔保證窮盡（見第 6 點）。
+1. **全掃**：每個建議提出之前，對 Registry 每個角度判斷：`AFFECTED`（講具體影響邊個 beat／角色／幕）／`UNAFFECTED`（理由要引呢個建議嘅內容講點解唔觸及；「冇影響」「合理」「符合 canon」唔算理由）／`NEEDS_AUTHOR`。
+2. **證據同攻擊**：每格要有可核對依據（檔案＋行，或 Beat 表原文）；並且要「攻擊」一次——問「呢個建議最可能喺呢個角度點樣失敗？」——攻唔入先算 clean。冇依據同攻擊嘅剔號＝冇做，唔可以計入覆蓋。涉及 canon 事實嘅格要現場讀原文（唔憑印象）。
+3. **一組候選用同一套角度比較**：候選之間「真正分別」要由角度結果嚟（例：甲喺「角色知情」同「跨幕影響」輸，乙喺「製作量」輸），唔係憑感覺；某候選冇掃某角度就唔可以同掃過嘅比。
+4. **比例（落檔深度，唔係跳過角度）：**
+   - 細（細、易改、淨係一個 beat 內嘅處理）：全掃，落檔用緊湊格——列 AFFECTED 角度＋每個一句；其餘用一句總理由，要提呢個建議嘅範圍；攻擊只需對 AFFECTED 角度寫出。
+   - 中（會改 beat 內容／知情／調性／跨 beat，或係要作者揀嘅候選）：落檔每個角度一行（核對咗咩／攻擊／結論）。
+   - 大（Director 級決定、Layer Review Packet、推翻舊決定）：中＋獨立盲審（見 Beat Layer Completeness Gate 第 7 項）。
+5. **對作者講嘅時候唔倒晒 28 個角度。** 講「我過晒所有角度，真正影響揀法嘅係……」，每個用人話（遵 Plain-Language Rule：發生咩／點解／代價／放棄咗咩／同另一做法嘅分別），其餘一句講點解唔觸及；完整表落檔並講明位置；作者問先攤全表。
+6. **清單缺口：** 每次掃完問「有冇一個我覺得相關、但 Registry 冇嘅角度？」有就記入 ledger，並向作者建議加入 Registry；唔好靜靜自創、亦唔好靜靜略過。
+7. **改動後重掃：** 作者決定或任何 beat 改動令某 beat 內容變咗，該 beat 同依賴佢嘅 beat 嘅角度格要重掃，舊格標 `STALE`。未重掃就唔可以沿用舊結論（例：尾鉤牙由「角色未察覺」改為「操知而收埋」之後，知情／揭露／重複功能等格要重做）。
+8. **誠實用語：** 除非獨立盲審已完成而且發現已處理，否則唔可以話「完整考慮晒」／「所有角度都做咗」。只可以講實際做咗咩：「過咗 N 個角度；盲審搵到 X 個發現，已處理 Y 個，未處理 Z 個；有 W 格仍然薄」。
+
+#### Candidates-First Rule（2026-10-02 新增，作者要求）
+作者唔係負責「諗答案」，係負責「揀」。凡 `DIRECTOR_DECISION` 要問，**必須先由 Head Writer 自己諗好 2–4 個具體、互相有分別嘅候選方向，再畀作者揀**，唔可以拋一條開放式「你想點？」畀作者由零諗。
+- **每個候選必須有完整人話詳情，唔可以只畀標籤或一句得失**（2026-10-02 作者要求）。每個候選至少講清五樣，用一段自然說話（唔係欄位表）：
+  1. **觀眾實際見到／發生咩**（畫面或行動級，唔含對白／鏡頭／timing）；邊個角色知、邊個唔知。
+  2. **點解有呢個候選**：由邊個上游／角色性格／canon 推出嚟，貼住邊度。
+  3. **揀咗之後要付嘅代價**：具體邊一幕、邊個角色弧線、邊個之前埋嘅位或之後嘅揭露會受影響（用白話講，唔用內部編號）。
+  4. **放棄咗咩**：呢個候選令我哋失去咩效果。
+  5. **同其他候選真正嘅分別**：唔係表面分別；如果兩個候選實質係同一件事（或其中一個喺 canon／角色邏輯上站唔住），要老實講，唔好硬湊數。
+- 候選嘅事實描述（例如「呢個屬 canon 邊個階段」）寫之前要對返 canon 原文核實；唔可以憑印象歸類。發現自己之前講錯，直接更正並講明點解。
+- 唔用編號 Q1/A/B/C，用候選嘅自然名稱（例：「靠對話帶過」「一句旁白」「完全唔交代」）。
+- 標明我推薦邊個同點解（同問題同一抽象層次）；容許作者揀、混合、或自己提第四個（No False Binary）。
+- 候選要通過 Existing Carrier First／上游 canon 檢查，同一套 Master Angle Registry 全角度掃描（Angle Basis Rule）先可以呈上；只有一個合理答案就唔係 Director 問題，直接決定並記錄。
+- 唔可以將「作者其實可以自己想」嘅創作工作外判畀作者；開放式問題只限候選真係窮盡唔到、需要作者提供全新資訊（例如 canon 未寫嘅事實）。
+- 可以用 AskUserQuestion 做選擇介面，但選項文字仍然要係白話候選，唔係內部編號。
+
 #### One Decision at a Time
 Don't bundle character meaning + theme meaning + audience meaning + relationship meaning + future payoff into one giant question. Downstream effects can still be explained, but ask only the smallest unresolved creative decision — and keep the recommendation at the *same* abstraction level as the question (a character-arc-level question gets a character-arc-level reason, not a whole-work philosophical justification, unless the decision genuinely is theme-level). Before sending the final question, check whether it accidentally combines two different axes (e.g. *why* the character acted vs. *how much* the character has actually changed) — these can have independent answers. If combined, separate them and ask only the one that actually unblocks downstream work.
 
@@ -279,6 +318,18 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 9. **Inherited Obligation Challenge（強制，2026-10-01 補）**：上層（Outline／Beat Sheet）寫咗嘅「義務」**唔等於唔可以質疑**。每次由義務推 Beat 之前，要跑一輪 `story-multi-agent-room`（Light，5 個盲審 agent 並行，各自只讀 ledger＋上游檔）：① Canon Evidence（逐條核引用有冇真係咁寫、有冇誤評級、來源係咪 DRAFT）② Character/Relationship Logic（因果次序係咪強制、功能有冇重複、agency）③ Theme/Audience（調性預算、不安載體夠唔夠／過唔過）④ Canon Impact（作者決定同上游嘅衝突、邊啲檔要 REVALIDATE）⑤ Devil's Advocate/Gap Hunter（邊啲義務過載／可移／缺咗咩 beat、有冇更簡單載體）。Agent 只出證據同質疑，**唔批准、唔代答作者問題**；由 orchestrator 自己綜合，改 ledger 評級／節點，再決定邊啲先值得問作者。綜合結果落 ledger「多 agent 質疑輪」節。
 10. **Deviation Register**：作者決定同上游唔同，唔可以靜靜當 AUTHOR_DECIDED 了事；要列入 ledger 偏離登記（偏離咩、燒咗邊個上游「第一次」、邊啲檔要 REVALIDATE、完整版去留分支），Layer Review Packet 必列。作者決定照記照用，唔重問，但要講清代價。
 11. 「NC」同類縮寫先核上游定義（例：Outline 嘅 [NC]＝非戰鬥段，唔係 new content）；唔可以自創縮寫撞咗上游標籤。Scene Reference 來源嘅細節標 `SR`，唔算推導。
+
+#### Beat Layer Completeness Gate（2026-10-02 新增，作者要求完整試 skill）
+Beat 層（及之後每一層）出 Layer Review Packet 之前，下列八項**全部**要有落檔證據，唔可以只靠 agent 質疑輪（rule 9）代替：
+1. **全角度逐段掃描**（Master Angle Registry 1–28；見 Angle Basis Rule）——按 Sequence／Beat 群組落表，每格要有「核對咗咩＋攻擊＋結論」；NOT_APPLICABLE 要引 beat 內容講理由，並寫入 `QUESTION_MATRIX.md`（`angle-system.md` 要求）；套話格＝冇做。唔係淨係 chat 提過。
+2. **知情狀態表**：每個 beat 逐格列「角色 A／B／C 知／唔知／隱瞞」＋「觀眾知／唔知」，包括入場狀態；觀眾比角色知得多／少要明講。
+3. **Gate A／B／C**：已有 tracker 行就引用同標缺口（BK）；Gate C 要逐重要事件問「衝突載體係咪淨係對白」；DIALOGUE_ONLY 要喺 Beat 層補行為載體。
+4. **Obligation pass 對 Hard Constraints／Knowledge Dependency／Considerations**：先標控制總表係咪 STALE／空；唔可以靜靜略過。Reveal 層級上限（例：R-3 層 1）要對每個 beat 嘅「異象強度」核。
+5. **Coping／Ideology 對撞檢查**：每個「角色講出／做出 X」嘅 beat，核 X 係咪撞該角色 coping pattern（例：對自己嘅痛全套防禦嘅人唔會主動講驚）。
+6. **質疑輪 agent 要覆蓋角度掃描**：rule 9 嘅 5 個 agent 之外，orchestrator 自己要做 1–3 項，並將發現回寫 ledger 並更新候選嘅推薦（新證據可以推翻自己之前嘅推薦，要直接講明點解改）。
+7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前，另起 ≥5 個 agent 按角度分組逐格攻擊（建議分組：角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），外加 1 個「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度），再加 1 個「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件：agent 只收被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；每格要有 evidence＋attack，無效格作廢。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
+8. **覆蓋摘要（用語誠實）**：Layer Review Packet 必附：過咗幾多角度、盲審格數同發現數（按嚴重度）、已處理／未處理、仍然薄嘅格數、Registry 缺口、重掃（STALE）狀態。唔可以用「完整考慮晒」一句帶過（見 Angle Basis Rule 第 8 點）。
+唔通過任何一項（1–8），Layer Review Packet 標 `INCOMPLETE_SCAN`，唔好叫作者批。
 
 ### Decision classes（C3 resolved 2026-09-10）
 - **AUTO_RESOLVABLE**（Claude 自己做，唔問）：回收證據；明確 supersession 揀新源；改 stale label；認 sequence 邊界；認缺失 causal bridge；提小 transition；判資訊可唔可以入既有 beat；避免重複 exposition；揀低風險 carrier;拆過大材料;保留既有 detailed reference;routine 結構診斷;明顯 setup/payoff 維護。

@@ -302,3 +302,10 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 1. Topic-by-Angle summary
 2. top unstable angles
 3. consolidated author questions
+
+
+## Demo Beat v3 盲審 NR 判斷記錄（2026-10-02 深夜）
+來源：`demo_pilot/blind_audit/agent_A…E`；Diff＝DERIVATION_LEDGER §15。
+- NOT_APPLICABLE 格（A–E 共約 60 格）全部屬「角色未登場／已離場」類（例：紫音喺 demo 範圍不出場→對紫音嘅關係格；凜只喺 B3 一句傳話→凜成長格；秋穗／彩／黑奏未登場）；理由成立，已機械核對。
+- 清單缺口 F（漏洞搜尋員）：NO_MATCH 4／PARTIAL 2 → 建議新增：場景邏輯／在場者與位置（Diegetic Logistics）、先教後用（Teach-before-use）、情感目標（Affect Target）、層級紀律（弱）。**待作者表態；未加入 angle-system.md。**
+- 壓縮後嘅作者問題（只剩真決定）：①牙形式／範圍（Brief Act I 甜品掉牙 vs canon md Act II 縫牙）②連結嘅「強制入侵」性質 demo 版處理。低優先：教學前置、製作 baseline、Outline 虛榮種子行過期。

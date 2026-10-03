@@ -1,5 +1,24 @@
 # SESSION_LEDGER
 
+
+## Demo Pilot Track — 盲審 Diff 完成（2026-10-02 深夜）
+- [x] 7 個 agent 輸出全部讀完；無效格機械檢查通過（無須重派）。
+- [x] Diff＋32 問題處理表＋Beat v3.1 patch＝`demo_pilot/DERIVATION_LEDGER.md` §15；`BEAT_LAYER_ANGLE_SCAN.md` 加 §7（banner 改 CORRECTED；Gate C 補行；撤回 N2 擋風）；`QUESTION_MATRIX.md` 加 NR 判斷記錄；`QUESTION_QUEUE.md` 加 QQ-227。
+- 誠實限制：1–19 半盲（CLAUDE.md @import 洩漏）；F／G 有 Grep 命中行暴露（已自報）；角度 5／14／18 Gate B/C 只核一半；B 格數少。
+- Blocker＝作者決定：牙形式／範圍、連結性質。Beat 層批核 PENDING；Stage 6 暫停。Next＝作者回應後重掃牙相關 STALE 格→Beat v3.1 final。
+## Demo Pilot Track — 全角度盲審＋Angle Basis Rule（2026-10-02 晚）
+
+- **起因**：作者質疑「你點知你真係做晒果 10 幾個角度？」。核實：`BEAT_LAYER_ANGLE_SCAN.md` 係事後自寫單次表、格薄、NOT_RELEVANT 理由未入 QUESTION_MATRIX、無獨立覆核、「操知而收埋」決定後 H1 未重掃、CONTROL_OBJECTIVES_MASTER 空／STALE、玩法／導演／節奏／製作等跨角度未跑；已向作者承認「我證明唔到」。作者揀「獨立盲審」，並要求之後每個建議都以所有角度為依據、之後改 skill。
+- [x] 盲審輸入包／協議：`demo_pilot/blind_audit/00_INPUT_BEAT_V3.md`、`01_AUDIT_PROTOCOL.md`（角度 20–28 定義、格式、無效格定義、FINDING 格式）。
+- [x] 派出 6 個 background agent（只准讀輸入包列出嘅 canon，禁讀 orchestrator 分析／ledger／狀態檔）：A 角色（1,2,13–16）、B 資訊（3,9,10,20,21）、C 結構＋canon（6,8,11,22,28）、D 體驗（4,5,17,18,19,25）、E 製作（7,12,23,24,26,27）、F 漏洞搜尋（唔俾角度清單，之後對角度／NO_MATCH）。輸出：`blind_audit/agent_A…F_*.md`。
+- [x] 作者追問「佢哋會唔會主動提新事件／想法／其他形式？」→ 核實：原設計 6 agent 只搵問題＋建議修補，唔含創作提案（設計缺口）。已加第 7 個「提案員」agent G（創作模式；Existing Carrier First；針對具體弱點；全角度掃＋攻擊；≥1 激進另類、≥1 刪併類；全部 CANDIDATE）→ `blind_audit/agent_G_proposals.md`；通用協議加「提案員」角色。提案收齊後經 Diff＋Question Funnel 先決定咩上畀作者。
+- [x] 作者提示「之前有做過呢個 skill，搵下，冇先加」→ 搜尋 `.claude/skills` 全部 70 幾個：`story-micro-insert-hunter`（主動，但只細插入≤3、無全角度掃描）、`story-multi-agent-room`（只一句 Creativity Rule）、`story-solution-space-designer`（有問題先出候選）、`story-downstream-opportunity-planner`（交付後揀下一步）——冇一個做「主動掃 artifact 提新事件／想法／其他形式」。決定唔另開新 skill（避免重複）：喺 `story-solution-space-designer` 加 Proactive Opportunity Mode；orchestrator Gate 第 7 項加提案員；協議指向該 mode。
+- [x] **用量上限中斷（2026-10-02 晚）**：7 個 agent 全部喺跑緊時中斷；只有 F（漏洞搜尋員）已完整寫檔。已用 SendMessage 恢復 A、B、C、D、E、G（要求逐段寫檔）。
+- [x] **F 漏洞搜尋員結果（已讀，Diff 待其他組一齊做；1–19 半盲、20–28 全盲）**：17 個發現＝1 BLOCKS（F-01：Cost Signal 分類缺，N3／N4 冇可識別外部觸發，SEQ3a 無分類欄）＋11 SHOULD_FIX（尾鉤牙上游衝突且 demo 內冇預埋；開場 N1 交代唔到「首戰後驚」；B7b 同 B1 在場者矛盾；變身代價載體未定；葡萄糖槍先用後教；零可玩性標註；B10 同 M4 功能重複；冇製作量標記；跨幕 REVALIDATE 未列等）＋5 NOTE。**NO_MATCH 4 項、PARTIAL 2 項→提議新角度：A Diegetic Logistics（場景／時間／在場者／身體能力連續性）、B Teach-before-use（先教後用）、C Affect Target（想觀眾感到咩）、D Layer Discipline（弱，可能係協議規則）。** 未向作者提議前唔入 registry。F 自報：冇審 Gate B／C 表→角度 5、14、18 係「冇覆蓋」；3／10／21、4／25、12／24 疑高度重疊。輸入包缺陷：v3 無 entry／exit state 欄令角度 20／21／25 難逐 beat 審核（F 未列入角度關注點 #1）。
+- [x] 制度改動：`.claude/story_system/angle-system.md` 加 Pool 3（20–28）＋How to use 證據標準；新 `.claude/story_system/blind-angle-audit-protocol.md`（通用版）；SKILL.md「Angle Basis Rule」＋Beat Layer Completeness Gate 六項→八項（加第 7 項獨立盲審、第 8 項覆蓋摘要）；Candidates-First 加全角度掃描；CLAUDE.md 互動規則加一條；memory `feedback_angle_basis_blind_audit.md`＋MEMORY.md 索引。
+- [ ] **待**：6 個 agent 回報後 → 查無效格 → 對 `BEAT_LAYER_ANGLE_SCAN.md` 做 Diff（盲審搵到我漏咗／我搵到佢哋漏咗／薄格數）→ 處理 FINDING（BLOCKS_BEAT_LAYER 必改或作者否決）→ 受影響角度格標 STALE 重掃（H1／牙尾鉤）→ 漏洞搜尋員 NO_MATCH 提議加角度（要作者知）→ 回寫呢段結果。
+- **狀態不變**：Beat v3 DRAFT；Beat 層批核 PENDING（只有作者可批）；Stage 6 暫停；Draft ≠ Canon。
+
 ## Demo Pilot Track — Stage 5 對白方法支線（2026-09-29）
 
 - **更正（2026-09-29 較後）**：作者質疑聲線聖經未按新 workflow 處理。核實：舊 `haruka.md`／`miyako.md`（標「正式版」）冇任何自然化／說話分析／自稱表／語料對照；Stage 4 誤標 HAVE。已記 D-12、gap audit D-2／D-3 改 REDO、兩檔頂部加提示、tracker Stage 5 加重做清單。
@@ -2812,3 +2831,25 @@
 - 2026-10-01：作者要求由頭推導。建 `demo_pilot/DERIVATION_LEDGER.md`（A1–A3、S1–S4、O1–O12、B0–B11；證據級別＋狀態＋下游依賴）；orchestrator skill 已加 Derivation Trace Discipline（8 條）。DEMO_BEAT_LAYER.md 降格 Reference-only；Reference Audit 結果：與 ledger 一致。待作者：尾鉤操牙去留；批 Beat 層（Director review 仍 PENDING）。Stage 6 仍暫停。
 
 - 2026-10-01（二）：多 agent 質疑輪完成（5 路），DERIVATION_LEDGER 加 §7 質疑結果／§8 Beat v2／§9 偏離登記；orchestrator skill 加規則 9–11；作者定尾鉤真掉牙（偏離，待 REVALIDATE 清單：SCOPE_AND_CUT_LIST、FACT_AND_KNOWLEDGE_STATE、VOICE_EVIDENCE_REVIEW、PRODUCTION_GAP_AUDIT、D-09／D-13）。Director review（Beat 層 v2）PENDING；Stage 6 仍暫停。
+
+- 2026-10-01（三）：作者糾正跳層；改為由 Act I 層逐層重來。已攤開 Act I 層（作者確認）、Sequence 層。作者決定 demo range＝SEQ1＋SEQ2＋SEQ3 頭段（DERIVATION_LEDGER §12）。Beat v2 ON_HOLD；牙掉知唔知 PARKED 到 Beat 層。待作者：確認擴 range 後 Sequence 層讀法（見 NEXT_ACTION）。Stage 6 暫停。
+
+- 2026-10-01（三續）：作者追加基地戲（紫音未入伙）。DERIVATION_LEDGER §12 已更新；「開口式切片」讀法作廢。
+
+- 2026-10-02：作者糾正 demo range（我誤把第一段加入）。改為 SEQ2＋SEQ3（含基地戲，無紫音入隊）＋尾鉤牙；SEQ1 唔入。DERIVATION_LEDGER §12.1。上面（三）／（三續）嘅 range 作廢。待作者：Sequence 層讀法確認、開頭前情處理。
+
+- 2026-10-02：作者追問「Sequence 層係咪完整諗完」——承認未完整；補做 Parent Consistency、義務分配（P1–P14）、Cost Signal 分類、入出場狀態，寫入 DERIVATION_LEDGER §13。等「下一層」。
+
+- 2026-10-02：作者講「快啲做，直到我要決定」→ 入 Beat 層。跑 5 agent 質疑輪（證據／角色邏輯／主題觀眾／canon 衝擊／魔鬼代言人）→ 綜合入 DERIVATION_LEDGER §14（評級修正、義務合併、缺口補、canon 衝擊追加、Beat v3）。待作者：尾鉤牙（§14.5）＋批 Beat 層。
+
+- 2026-10-02：作者追問「有冇考慮其他角度（角色知情、觀眾知情等）」→ 承認首版缺 19 角度逐段掃描／知情表／Gate A-B-C；補做 BEAT_LAYER_ANGLE_SCAN.md，N2/N3 修訂，尾鉤推薦更新；同步補 skill「Beat Layer Completeness Gate」。
+
+- 2026-10-02：作者要求每個候選都要有人話詳情＋原因；skill Candidates-First Rule 加五點詳情要求＋canon 事實核實；memory 同步。核 canon 後更正：Stage 1 牙齦出血＝操本來就知而收埋（canon 已寫）；鬆牙屬 Stage 2a（Act II 中期），所以「出血＋鬆牙」唔係純 Stage 1，原推薦描述有誤。
+
+- 2026-10-02：作者要求「之後所有建議」都要有人話解釋 → skill 加 Plain-Language Explanation Rule（範圍＝任何建議，唔止候選）；project CLAUDE.md 互動風格加一條；memory 同步。作者決定尾鉤牙＝真掉牙、操知而收埋（ledger §14.8）；Beat v3 H1 定稿、BEAT_LAYER_ANGLE_SCAN §2/§5/§6 同步更正；呈 Layer Review Packet 等作者批 Beat 層。
+
+## Demo Pilot Track — 盲審驗證證據包（2026-10-03）
+- [x] 作者要求驗證盲審有冇真係做到（唔新增角度、唔重跑 agent、唔改 skill）。證據包＝`demo_pilot/audit_debug/`（00_README_MANIFEST 起）。「Audit Debug Export Prompt」附件未收到，按作者文字描述做。
+- [x] 發現：盲度 B–G 有路徑暴露、G 有內容暴露；格數 §15.1「約 357」冇存推導、重算 390（B 28 vs 57/60）；無效格欄位基準 0、關鍵字基準 5（4 假陽性、D218 弱）；BLOCKS 3 條核實；**冇獨立 Beat v3.1 表**，APPLIED＝只入 patch 清單；輸入包係 §8＋§14.2 合成，故逐行比對 inconclusive。
+- [x] §15.1 及所有舊檔原狀保留；≤3 項 skill 修正建議喺 09（未改 skill，待作者）。
+- 未做：合併問題（~32）重數、逐 beat 覆蓋、輸入包語義逐行比對。

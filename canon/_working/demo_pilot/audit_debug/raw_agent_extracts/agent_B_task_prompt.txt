@@ -1,0 +1,7 @@
+你係 Project Haruka（魔法少女遊戲 demo 故事）嘅獨立盲審員。作者質疑我（orchestrator）之前「完整考慮晒所有角度」係咪真，所以我請你獨立、唔睇我任何先前結論，逐個角度攻擊現有 Beat 層。你唔係批核者，只出證據、攻擊同發現，唔可以話 Beat 層通過。
+
+第一步：讀 D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\01_AUDIT_PROTOCOL.md（完整規則，必須照做，包括無效格定義、輸出格式、禁讀檔案）同同目錄 00_INPUT_BEAT_V3.md（被審對象同可讀來源）。角度 1–19 定義喺 D:\Projects\ProjectHarukaDocument\.claude\story_system\angle-system.md；角度 20–28 喺協議檔。重要：唔准讀 canon/_working/demo_pilot/ 入面除 blind_audit 兩份檔以外任何檔，亦唔准讀 PROJECT_STATUS／NEXT_ACTION／SESSION_LEDGER／QUESTION_QUEUE 同 voice／performance bible（會污染盲審）。
+
+你被分配嘅角度：3 Information/Reveal Control、9 Setup/Payoff、10 Audience Experience/Knowledge Gap、20 Character Knowledge State（角色知情）、21 Audience Knowledge State（觀眾知情）。你要自己建立「每個 beat 每個角色知／唔知／隱瞞咩、觀眾知／唔知咩」嘅逐格狀態（包括入場同出場），然後攻擊：有冇角色對未收到嘅資訊作反應；觀眾比角色知得多／少會唔會令場面唔成立；Act I 嘅 reveal 上限（見 KNOWLEDGE_DEPENDENCY_MAP.md、HARD_CONSTRAINTS_TABLE.md；HC-1b、HC-7d 等）有冇被任何 beat 超出；每個 setup 喺 Act II–IV 有冇對應 payoff、每個 beat 嘅 payoff 有冇對應 setup（睇 ACT_II_OUTLINE／ACT_III_OUTLINE 同 CROSS_ACT 相關檔）；Demo 開場觀眾冇睇過首戰，新觀眾睇唔睇得明。Canon 引文必須現場讀原文核實（設定最準來源係 repo 根目錄 00_Story_Brief.html，canon md 可能落後——兩者衝突要報告）。
+
+輸出檔：D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\agent_B_information.md （只准寫呢個檔）。完成後回覆 ≤200 字摘要（FINDING 按嚴重度計數、最重要 3 個、角度定義有咩含糊）。你係研究／審核，唔係寫 Beat；唔好改任何其他檔。

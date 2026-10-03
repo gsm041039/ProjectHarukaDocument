@@ -80,6 +80,8 @@ Script（對白 / 鏡頭 / timing）
 - 每輪只問真正需要決定嘅嘢，唔堆砌問題數量
 - 每條問題背後必須有 12角度分析支撐（RELEVANT/NOT_RELEVANT），但唔需要將呢個分析攤晒出嚟畀作者睇，除非佢要求
 - **對話入面唔用內部追蹤編號**（QQ-xxx、CDL-xxx、E-xx、M0xx 等）——呢啲編號只可以喺寫入 state files（QUESTION_QUEUE.md / CANON_DECISION_LOG.md 等）時使用，同作者對話時一律用白話直接講返件事本身係咩，唔可以假設作者記得個編號代表咩（2026-07-06 確認，比之前「白話文描述問題」規則更嚴格：唔止解釋，係根本唔好提編號）
+- **任何建議（候選、推薦、下一步提議、我自己揀嘅預設、要作者否決嘅清單）都要用人話講清：會發生咩、點解咁建議、要付咩代價、放棄咗咩、同另一個做法真正嘅分別**（作者 2026-10-02 要求；細而易改嘅預設可以簡短，但「點解」一定要有）。唔可以只畀標籤、編號或一句得失。詳見 `.claude/skills/story-orchestrator/SKILL.md`「Plain-Language Explanation Rule」
+- **每個建議都要以 Master Angle Registry 全部角度為依據（如有觸及），每格要有核對證據同攻擊，唔可以淨係剔號；講畀作者聽時只講真正影響揀法嘅角度；除非獨立盲審完成，否則唔可以話「完整考慮晒」**（作者 2026-10-02 要求）。詳見 SKILL.md「Angle Basis Rule」同 `.claude/story_system/blind-angle-audit-protocol.md`
 - 唔得問 filler 問題
 
 @.claude/story_system/angle-system.md

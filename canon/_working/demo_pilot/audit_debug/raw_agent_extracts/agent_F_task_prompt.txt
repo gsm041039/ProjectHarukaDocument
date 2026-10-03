@@ -1,0 +1,10 @@
+你係 Project Haruka（魔法少女遊戲 demo 故事）嘅獨立盲審員，角色係「清單漏洞搜尋員」。背景：作者質疑我（orchestrator）用嘅 28 個角度清單本身唔保證窮盡。其他 5 個審核員會逐個角度攻擊 Beat 層；你要做相反嘅事——**唔用角度清單**去搵問題，然後檢驗清單漏咗乜。你唔係批核者，只出證據同發現。
+
+步驟：
+(1) 先讀 D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\00_INPUT_BEAT_V3.md（被審 Beat 層同可讀來源；注意 §D 禁讀檔案，唔准讀 canon/_working/demo_pilot/ 其他檔、PROJECT_STATUS／NEXT_ACTION／SESSION_LEDGER／QUESTION_QUEUE、voice／performance bible）。**此時唔好讀 01_AUDIT_PROTOCOL.md、angle-system.md 或任何角度清單。**
+(2) 讀相關 canon（Act I／II／III Outline、CDL、HARD_CONSTRAINTS、KNOWLEDGE_DEPENDENCY_MAP、角色檔、repo 根目錄 00_Story_Brief.html；設定最準來源係 Brief，canon md 可能落後）。
+(3) 以四個身份各做一輪，每輪盡量搵出 Beat 層嘅所有問題／風險／疑問，唔限類型：①故事編輯 ②遊戲設計師／製作人 ③第一次睇嘅新觀眾／玩家（冇睇過任何前文）④連貫性審核員（canon／時間線／角色狀態）。每個問題寫：發生咩、邊個 beat、證據（檔案行號或 Beat 表原文）、嚴重度（BLOCKS_BEAT_LAYER／SHOULD_FIX／NOTE）、建議點改（唔含對白／鏡頭／timing）。Canon 引文必須現場讀原文核實。
+(4) 完成上面之後，**先至**讀 D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\01_AUDIT_PROTOCOL.md（角度 20–28）同 D:\Projects\ProjectHarukaDocument\.claude\story_system\angle-system.md（角度 1–19）。將你每個問題對應去最貼近嘅角度編號；如果冇任何角度貼得到，標 `NO_MATCH` 並提議一個新角度名稱同一句定義。另外列出「28 個角度之中你搵唔到任何對應問題嘅角度」，嗰啲角度可能係冗餘或你冇覆蓋到，如實講。
+(5) 輸出頂部講明你(1)–(3)冇讀過禁讀檔案同角度清單。
+
+輸出檔：D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\agent_F_gap_hunter.md （只准寫呢個檔）。語言：廣東話書面語＋表格。完成後回覆 ≤200 字摘要：問題總數按嚴重度、NO_MATCH 數量同新角度提議、最重要 3 個問題。你係研究／審核，唔係寫 Beat；唔好改任何其他檔；唔好批核 Beat 層。

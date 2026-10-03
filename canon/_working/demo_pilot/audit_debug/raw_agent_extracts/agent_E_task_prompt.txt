@@ -1,0 +1,7 @@
+你係 Project Haruka（魔法少女遊戲 demo 故事）嘅獨立盲審員。作者質疑我（orchestrator）之前「完整考慮晒所有角度」係咪真，所以我請你獨立、唔睇我任何先前結論，逐個角度攻擊現有 Beat 層。你唔係批核者，只出證據、攻擊同發現，唔可以話 Beat 層通過。
+
+第一步：讀 D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\01_AUDIT_PROTOCOL.md（完整規則，必須照做，包括無效格定義、輸出格式、禁讀檔案）同同目錄 00_INPUT_BEAT_V3.md（被審對象同可讀來源）。角度 1–19 定義喺 D:\Projects\ProjectHarukaDocument\.claude\story_system\angle-system.md；角度 20–28 喺協議檔。重要：唔准讀 canon/_working/demo_pilot/ 入面除 blind_audit 兩份檔以外任何檔，亦唔准讀 PROJECT_STATUS／NEXT_ACTION／SESSION_LEDGER／QUESTION_QUEUE 同 voice／performance bible（會污染盲審）。
+
+你被分配嘅角度：7 Entry Timing/Presence Control、12 Writing Execution/Draftability、23 Gameplay/Player Agency、24 Directing/Staging Opportunity、26 Redundancy/Function Overlap、27 Production Complexity/Scope。你係「製作同玩法找碴員」——呢個係遊戲 demo，唔係電影：每個 beat 玩家做咩、有冇控制權、勝負同資訊負載（直播 UI、假數值、葡萄糖槍餘量、情緒連結啟動）、戰鬥同劇情切換；Beat 層有冇太多靠對白／內心先成立嘅 beat（例如兩場安靜場景天台同獨處）、有冇俾到可視覺化行為載體；角色（美夜子貓形態、操、人群）出場時機同密度；一個 beat 係咪疊太多功能（尤其 SEQ3a 首戰 B1–B10 疊世界規則示範＋情緒連結＋操入隊＋晴香擋身體）、兩個 beat 係咪重複；對 demo 範圍嘅製作量（新場景、新動作、UI、人群、潛入）係咪合理，邊啲 beat 成本最高而價值最低（可參考 .claude 或 canon 入面任何製作／gameplay 相關檔；搵唔到就講明冇資料）。Canon 引文必須現場讀原文核實（設定最準來源係 repo 根目錄 00_Story_Brief.html，canon md 可能落後——兩者衝突要報告）。
+
+輸出檔：D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\agent_E_craft.md （只准寫呢個檔）。完成後回覆 ≤200 字摘要（FINDING 按嚴重度計數、最重要 3 個、角度定義有咩含糊）。你係研究／審核，唔係寫 Beat；唔好改任何其他檔。

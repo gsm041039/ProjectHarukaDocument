@@ -1,0 +1,91 @@
+
+## Agent A
+  reads=13 searches=44 first angle/protocol touch seq=1
+  result lines mentioning forbidden-pattern strings: 0
+
+## Agent B
+  reads=17 searches=65 first angle/protocol touch seq=1
+  result lines mentioning forbidden-pattern strings: 11
+    > canon/_working/SESSION_LEDGER.md
+    > canon/_working/NEXT_ACTION.md
+    > canon/_working/PROJECT_STATUS.md
+    > canon/_working/QUESTION_QUEUE.md
+    > canon/_working/character-voice-workshops/misao_voice_discovery.md
+    > canon/_working/character-voice-workshops/_YANPIK_PASS_V1.md
+    > canon/_working/character-performance-bibles/haruka.md
+    > canon/_working/character-performance-bibles/misao.md
+    > canon/_working/character-voice-bibles/misao.md
+    > ./_working/QUESTION_QUEUE.md
+    > ./_working/SESSION_LEDGER.md
+
+## Agent C
+  SEARCH_TARGETS_FORBIDDEN? seq65 Bash: {"command": "cat > /"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit/agent_C_structure_canon.md/" <<'EOF'/n# 盲審 agent C：結構／規則／canon／因果／下游（角度 6、8、11、22、28）/n/n**[DRAFT / 暫定 — pending full-story bea
+  reads=10 searches=63 first angle/protocol touch seq=1
+  result lines mentioning forbidden-pattern strings: 8
+    > 407:| CDL-259 | E-09「飢餓的天使」—— 直播失控與光幕破碎（完整方案）| **正式確認（2026-04-28 Story Room Master最終拍板）**：**前置危機**：夕在E-08末期刻意讓晴香遭屍骸爪擊，導致「半屍骸化」；晴香靈魂層開始被屍骸規則侵蝕；關鍵副作用為「戒斷反應型情緒飢渴」。**E-09主體（直播失控）**：①Step 1（接管+失控觸發）：直播中夕接管
+    > canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md
+    > canon/_working/demo_pilot/DERIVATION_LEDGER.md
+    > canon/_working/demo_pilot/SCOPE_AND_CUT_LIST.md
+    > canon/_working/NEXT_ACTION.md
+    > canon/_working/PROJECT_STATUS.md
+    > canon/_working/QUESTION_QUEUE.md
+    > canon/_working/SESSION_LEDGER.md
+
+## Agent D
+  reads=17 searches=29 first angle/protocol touch seq=1
+  result lines mentioning forbidden-pattern strings: 6
+    > canon/_working/character-voice-bibles/haruka.md
+    > canon/_working/NEXT_ACTION.md
+    > canon/_working/PROJECT_STATUS.md
+    > canon/_working/SESSION_LEDGER.md
+    > 173:| 2026-08-08 | Round 134：新增「已知缺口」段落，記錄操/紫音Story's treatment仍BK同bible層斷言嘅落差、朔/秋穗/愛莉/夕entity缺口；未新增或修改任何entity row本身 | `REASONING_LOG.md` Round 134；`QUESTION_QUEUE.md` QQ-204 |
+    > 174:| 2026-08-08 | Round 135：新增凜（拒絕安慰派）entity row，Story's treatment定為Complicates（AC）——根因四「角色承載」問題最終解法；更新已知缺口段落反映凜已解決 | `REASONING_LOG.md` Round 135；`CANON_DECISION_LOG.md` CDL-374；`QUESTION_QUEUE.md` 
+
+## Agent E
+  reads=10 searches=45 first angle/protocol touch seq=1
+  result lines mentioning forbidden-pattern strings: 14
+    > NEXT_ACTION.md
+    > NEXT_ACTION_BATCH_AUDIT.md
+    > PROJECT_STATUS.md
+    > QUESTION_QUEUE.md
+    > SESSION_LEDGER.md
+    > character-performance-bibles
+    > character-voice-bibles
+    > character-voice-workshops
+    > story-character-performance-bible-designer
+    > story-character-voice-designer
+    > story-character-voice-evidence-auditor
+    > canon/_working/SESSION_LEDGER.md
+
+## Agent F
+  reads=36 searches=23 first angle/protocol touch seq=37
+  result lines mentioning forbidden-pattern strings: 17
+    > canon/_working/demo_pilot/BEAT_LAYER_ANGLE_SCAN.md
+    > canon/_working/demo_pilot/DERIVATION_LEDGER.md
+    > canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md
+    > canon/_working/SESSION_LEDGER.md
+    > canon/_working/NEXT_ACTION.md
+    > canon/_working/PROJECT_STATUS.md
+    > canon/_working/demo_pilot/DEMO_BEAT_LAYER.md
+    > canon/_working/QUESTION_QUEUE.md
+    > canon/_working/character-voice-workshops/misao_voice_discovery.md
+    > canon/_working/character-voice-workshops/_YANPIK_PASS_V1.md
+    > canon/_working/demo_pilot/VOICE_EVIDENCE_REVIEW.md
+    > canon/_working/demo_pilot/PRODUCTION_GAP_AUDIT.md
+
+## Agent G
+  SEARCH_TARGETS_FORBIDDEN? seq20 Grep: {"pattern": "^//| *(B1|B4|B4b|B6|B6b|B7|B7b|B9|B10|M1|M4|N1|N2|N3|N4|H1)//b", "path": "D://Projects//ProjectHarukaDocument//canon//_working//demo_pilot//blind_audit//00_INPUT_BEAT_V3.md", "output_mode": "content"}
+  reads=9 searches=16 first angle/protocol touch seq=2
+  result lines mentioning forbidden-pattern strings: 20
+    > NEXT_ACTION.md:3:[Omitted long matching line]
+    > NEXT_ACTION.md:4:[Omitted long matching line]
+    > NEXT_ACTION.md:5:[Omitted long matching line]
+    > NEXT_ACTION.md:6:> （上一條，ON_HOLD）`demo_pilot/DERIVATION_LEDGER.md` §8 Beat v2（經五路質疑輪修正）＋§9 偏離登記（好暖、去紫音、真掉牙）已備；等作者過目 Beat 層 v2 並批（Director review）；批咗先入 Stage 6。尾鉤真掉牙＝作者決定，demo 內 PROVISIONAL／REVALIDATE_R
+    > NEXT_ACTION.md:10:> 🎮 **Demo Pilot Track（2026-09-29）**：唯一追蹤檔 `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md`（§1.5 大局錨點、§8 單一步）。**Stage 3、4 DONE；Stage 5 IN_PROGRESS：操 M1–M5＋收尾已寫、美夜子＋晴香已起草（全 PROVISION
+    > NEXT_ACTION.md:192:[Omitted long matching line]
+    > QUESTION_QUEUE.md:12:| QQ-226 | Act I 六段粗層（再收窄 demo 段）：Act I 觀眾感覺曲線（亮 vs 不安）＋呢段觀眾最終感覺／亮 vs 不安比例／場8 操縫牙尾鉤係咪保留（Beat 2 隱含「偽亮高峰」；場8 係 demo 自加，唔喺 Beat Sheet） | ACT_I_BEAT_SHEET Beat 2；SCOPE_AND_CUT_LIST | 
+    > QUESTION_QUEUE.md:65:| QQ-54 | 鏡像破碎之夜（操父親背叛+紗夜犧牲）——Act II beat 還是 Act III | timeline_raw.md（113年7-8月）；CROSS_ACT_FORESHADOW_MANIFEST.md P-A25；ACT_II_OUTLINE.md v0.2 | **Critical** | **RESOLVED（CDL-231）
+    > QUESTION_QUEUE.md:69:| QQ-58 | 紗夜遺言台詞在Act II呈現還是Act III完整呈現 | CDL-231 E-09a設計；CDL-233 Body Horror；ACT_III_OUTLINE.md鋼鐵獨舞 | Medium | **RESOLVED（CDL-232）** | — | 紗夜遺言呈現時機 | C: Act II耳鳴遮蔽+Act III清晰還原 | *
+    > SESSION_LEDGER.md:10:- [ ] **待**：6 個 agent 回報後 → 查無效格 → 對 `BEAT_LAYER_ANGLE_SCAN.md` 做 Diff（盲審搵到我漏咗／我搵到佢哋漏咗／薄格數）→ 處理 FINDING（BLOCKS_BEAT_LAYER 必改或作者否決）→ 受影響角度格標 STALE 重掃（H1／牙尾鉤）→ 漏洞搜尋員 NO_MATCH 提議加角度（
+    > SESSION_LEDGER.md:50:- [x] 2026-09-29 作者揀方案 3，尾巴改為操掉牙暗示、唔係晴香（D-09）；Source check：操牙齒 canon＝Stage 1 牙齦滲血（Act II 前期）／Stage 2a 真掉牙（E-09a）→ demo 暗示限 Stage 1 級，標 REVALIDATE_REQUIRED；`SCOPE_AND_CUT_LIST.md` 
+    > SESSION_LEDGER.md:1034:- [x] **作者自行提出關鍵區分**：療傷似貼膠布，牙齦滲血/絲線縫牙係魔法過度反噬，兩者冇衝突

@@ -1,0 +1,9 @@
+concl duplicate (agent,text) groups: 4
+    2 B **FINDING（F2，SHOULD_FIX）**
+    2 B **FINDING（F3，SHOULD_FIX）**
+    2 B **FINDING（F5，SHOULD_FIX）**
+    2 B **FINDING（F4，SHOULD_FIX）**
+attack duplicate (agent,text) groups: 0
+verify duplicate (agent,text) groups: 1
+    2 C CDL-050（行 143）；CDL-065（行 161）「晴香『擋攻擊+問裙子』」
+cited IDs checked: 56 found: 56 NOT FOUND: []

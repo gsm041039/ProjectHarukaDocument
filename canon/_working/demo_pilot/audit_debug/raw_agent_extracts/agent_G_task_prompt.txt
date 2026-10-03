@@ -1,0 +1,23 @@
+你係一個獨立嘅「提案員」，唔係審核員。背景：Project Haruka（魔法少女故事／遊戲 demo）嘅 Demo Beat 層 v3 已經寫好，另外有 6 個盲審 agent 負責搵問題。你嘅任務唔同：**主動提出新事件、新想法、或者其他形式嘅新嘢**，睇下 Beat v3 有冇更好嘅做法或者遺漏咗嘅機會。作者想知道盲審會唔會有「創作上嘅新提案」，所以你要認真諗，但每個提案都要有根有據。
+
+必讀（順序）：
+1. D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\00_INPUT_BEAT_V3.md（被審對象＋作者已定決定§A＋可讀 canon 清單§C＋禁讀清單§D；嚴格遵守§C／§D，禁讀嘅檔一個都唔准開，包括 canon/_working/demo_pilot 入面除 blind_audit/00_INPUT_BEAT_V3.md 同 01_AUDIT_PROTOCOL.md 以外嘅所有檔，同其他 agent 嘅輸出）
+2. D:\Projects\ProjectHarukaDocument\.claude\story_system\angle-system.md（28 個角度，Pool 1–3）
+3. D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\01_AUDIT_PROTOCOL.md（角度 20–28 定義同證據標準）
+4. 輸入包 §C 列出嘅 canon 來源（ACT_I/II/III outline、HARD_CONSTRAINTS_TABLE、角色檔、00_Story_Brief.html 等），按需要現場讀；canon 引文必須讀原文核實，唔准憑記憶。
+
+作者已定、你唔可以推翻或重問嘅決定：見輸入包 §A（範圍、暖調、真掉牙＋操知而收埋、三人版基地戲、紫音未入隊等）。你可以提出「喺呢啲決定之內」嘅新嘢，亦可以講「呢個決定令某機會冇咗」，但唔可以叫作者改決定。
+
+**提案規則（Existing Carrier First）：** 提新完整事件之前，先試吓用現有 beat 加細擴展、合併、重新分佈、aftermath、玩法行為、環境／道具／UI／表演、細事件（micro-event）、刪減或重排；新完整事件係最後選擇。形式唔限於「加場戲」，包括：玩法行為、環境道具、UI 演出、蒙太奇、刪／併／換序、可選支線、不同載體等等。
+
+**每個提案必須有：**
+- 名稱＋人話講清：會發生咩（具體到邊個 beat 邊度）、點解建議、代價、放棄咗咩、同現有 Beat v3 做法真正分別
+- 針對 Beat v3 入面一個**具體弱點或遺漏功能**（寫明邊個 beat、咩弱點）；冇具體弱點就唔好提（唔准為提而提）
+- 上游依據（canon 檔案＋行／原文），同評估係 CS／SI／WI／HW（canon直接／強推／弱推／自創）
+- 28 角度全掃：逐個角度一句內容具體嘅「受影響／唔受影響＋點解」；之後挑出 3–5 個真正決定性嘅角度詳述，並寫一次「攻擊」（呢個提案最可能點失敗）
+- 同現有 canon／Hard Constraints／Act II–IV obligation 有冇撞；要 REVALIDATE 嘅位
+- 唔包含具體對白／鏡頭／timing（Beat 層）
+
+**數量與結構：** 最多 8 個提案，按價值排序。其中至少有 1 個「激進另類」（例如改變 Sequence 結構、換載體、刪走一個大 beat 都得），明確標「激進」；至少 1 個係「刪或合併」類（令 Beat 更精簡）。如果你真係認為 Beat v3 已經好，冇值得提嘅，都要寫清試過諗咩、點解唔成立（誠實，不要硬造）。最後加：「我未能評估／需要作者喜好先判斷嘅位」。
+
+**禁止：** 批核 Beat 層、宣稱完成、代作者決定、將提案寫成 canon（全部係 CANDIDATE／PROVISIONAL）。只准寫呢個檔：D:\Projects\ProjectHarukaDocument\canon\_working\demo_pilot\blind_audit\agent_G_proposals.md（唔准改任何其他檔）。語言：廣東話書面語＋表格。你嘅回覆只要 ≤200 字：提案數量、最值得作者睇嘅 3 個（一句人話）、有冇讀過禁讀檔（有就講）。

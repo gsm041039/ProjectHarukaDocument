@@ -242,3 +242,15 @@
 - 2026-09-30（第二十六次）：作者指出要有可推導 pipeline，唔係候選比較。承認第二十五次係事後歸納。重做 DEMO_BEAT_LAYER：§2 加「上游來源＋證據級別」欄；§6 改為 L0–L9 追溯鏈。結果：直播 UI＋人群歡呼／求簽名＝Outline 已寫（人群子句標 NC）；「公眾壓力」係抄 Scene Reference（UNSUPPORTED，已刪）；D2 真後果＝美夜子非計劃保護（Beat 2／CDL-083，原表漏咗）；操入隊公開／私密係 Scene 舞台選擇，預設私密、唔開 Director 問題（撤銷第二十五次待答項）。
 - 2026-10-01（第二十七次）：作者要求「由頭慢慢做、有決定先問、過程可推導可改」。orchestrator skill 新增 Derivation Trace Discipline；建 `DERIVATION_LEDGER.md`（Act I 總覽 → SEQ3 → Beat 2 義務 O1–O12 → demo beat B0–B11，每節點有 Derived-from／證據級別／狀態）。舊 DEMO_BEAT_LAYER.md 降格為 Reference-only（事後 audit：D1–D8 與 B0–B11 一致，「公眾壓力」無對應）。NC／HW 待否決：B0 開頭日常、B11 尾鉤操牙（提前 Stage 1）。唯一要作者決定：尾鉤係咪仍用操牙（見 ledger §4 待定 2）。
 - 2026-10-01（第二十八次）：作者追問「硬性義務有冇質疑／有冇多 sub agent 提問 skill」——承認上輪漏咗。跑五路盲審（證據／角色邏輯／主題調性／canon 衝擊／魔鬼代言人）。結果：v1 多處錯評（人群位置、B8 臨時留低、B10 暖收束、O5／O10 用詞）；補 CDL-322（操順手救路人）；B2 併入 B3 因果；加 B4b／B6b／B7b；人群歡呼改戰鬥後安全區。作者定尾鉤真掉牙→登記偏離（提前 Stage 2a、燒 Beat 3 首次代價），demo 內 PROVISIONAL。ledger §7–§11 已更新；orchestrator skill 加規則 9–11（Inherited Obligation Challenge／Deviation Register／縮寫核對）。
+- 2026-10-01（第二十九次）：作者指出我跳層（Beat 層問 Scene 級細節，上兩層冇逐層同作者傾）。改為由 Act I 層重新逐層攤開（canon／我推／真決定位）；Act I 層、Sequence 層已攤開。作者決定 demo range 擴為 SEQ1＋SEQ2＋SEQ3 頭段（AD）。ledger §12 記錄；Beat v2＝ON_HOLD；SCOPE_AND_CUT_LIST／8 場 cut STALE；彩、桐生健入 range，voice／performance 有缺口。
+- 2026-10-01（第二十九次續）：作者追加：加埋基地戲（Beat 2.6），但紫音仍未入伙（Beat 2.5 不取）。range＝SEQ1＋SEQ2＋SEQ3（無紫音）；基地戲三人版，紫音功能缺口 REVALIDATE_REQUIRED。
+
+- 2026-10-02（第三十次）：作者糾正：第一段（破曉闖入）唔入 demo（我誤讀）；range＝SEQ2＋SEQ3（含基地戲，無紫音入隊）＋尾鉤牙。ledger §12.1；彩、桐生健移出 range。上面第二十九次／續嘅 range 描述作廢。待答：開頭要唔要極短前情。
+
+- 2026-10-02（第三十一次）：入 Beat 層；5 agent 質疑輪；Beat v3 寫入 ledger §14；待作者答尾鉤牙並批 Beat 層。Stage 6 仍暫停。
+
+- 2026-10-02（第三十二次）：作者追問角度完整性 → 補 BEAT_LAYER_ANGLE_SCAN.md（19 角度×4 段、知情表、Gate A/B/C、F1–F9 發現）；skill 加 Beat Layer Completeness Gate。
+
+- 2026-10-02（第三十三次）：作者要求所有建議都要人話詳情 → skill／CLAUDE.md／memory 已改。作者決定尾鉤牙＝真掉牙、操知而收埋（ledger §14.8；後果＝Act II 縫牙兩個「第一次」＋Act III 揭露＋操弧線要重排，全部 REVALIDATE）。Beat v3 內部完整，呈 Layer Review Packet；等作者批 Beat 層，Stage 6 仍暫停。
+- 2026-10-02（第三十四次）：作者質疑「10 幾個角度你係咪真係做晒」→ 承認自寫單次表證明唔到；作者揀獨立盲審＋要求之後每個建議都以全部角度為依據。已派 6 個盲審 agent（`blind_audit/`，結果待收）；制度改動：angle-system.md 加 Pool 3（角度 20–28）、新 `.claude/story_system/blind-angle-audit-protocol.md`、SKILL.md Angle Basis Rule＋Completeness Gate 八項、CLAUDE.md 互動規則、memory。Beat 層批核仍 PENDING；Stage 6 暫停；待盲審 Diff＋處理 FINDING＋STALE 重掃。
+- 2026-10-02（第三十五次）：盲審 7 agent 全部完成並 Diff（ledger §15）：原始 106 條發現→約 32 個獨立問題，BLOCKS 3（Cost Signal 分類／教學鏈／牙鏈時序）；已按 Head Writer 權限改入 Beat v3.1（HW／PROVISIONAL，作者已決定嘅範圍＋掉牙＋收埋冇動）；撤回我自己加嘅 N2 擋風。待作者：牙形式／範圍、連結性質；Master Angle Registry 建議加 4 角度。誠實覆蓋：角度 20–28 全盲、1–19 半盲；Gate B/C 部分只核一半；**唔可講「完整考慮晒」**。Beat 層 Director review 仍 PENDING；Stage 6 暫停。

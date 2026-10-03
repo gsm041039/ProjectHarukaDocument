@@ -1,0 +1,1165 @@
+=== #4 Glob {"pattern": "canon/03_characters/**/*", "path": "D:\\Projects\\ProjectHarukaDocument"}
+canon\03_characters\ko_hikaru.md
+canon\03_characters\saku.md
+canon\03_characters\aya.md
+canon\03_characters\yu.md
+canon\03_characters\aeri.md
+canon\03_characters\haruka.md
+canon\03_characters\akiho.md
+canon\03_characters\ayakomoji_misao.md
+canon\03_characters\iwakura_akane.md
+canon\03_characters\miyako.md
+canon\03_characters\rin.md
+
+=== #5 Glob {"pattern": "canon/_working/story_construction/*", "path": "D:\\Projects\\ProjectHarukaDocument"}
+canon\_working\story_construction\BLOCKED_DECISIONS.md
+canon\_working\story_construction\07_Major_Events_Relationship_Impact.md
+canon\_working\story_construction\08_Story_Engine_and_Conflict_Pressure_Map.md
+canon\_working\story_construction\10_Theme_to_Conflict_Expression_Map.md
+canon\_working\story_construction\ACT_I_ANGLE_MAP.md
+canon\_working\story_construction\FULL_STORY_ROUGH_OUTLINE_AUDIT.md
+canon\_working\story_construction\FULL_STORY_ROUGH_OUTLINE_V2.md
+canon\_working\story_construction\FULL_STORY_ROUGH_OUTLINE_v2_LITE.md
+canon\_working\story_construction\STORY_BASE_RECONSTRUCTION.md
+canon\_working\story_construction\SUPPORTING_DOCS_AUDIT.md
+canon\_working\story_construction\SIDE_QUESTS_AND_OPTIONAL_CONTENT.md
+canon\_working\story_construction\SUFFERING_CHOICE_BREATHING_SCAN.md
+canon\_working\story_construction\LATE_REVEAL_SEEDING_AUDIT.md
+canon\_working\story_construction\THEME_CONFLICT_EXPRESSION_TABLE.md
+canon\_working\story_construction\IDEOLOGY_THEME_STANCE_MATRIX.md
+canon\_working\story_construction\ACT_II_OUTLINE.md
+canon\_working\story_construction\ACT_III_OUTLINE.md
+canon\_working\story_construction\QUESTION_MATRIX.md
+canon\_working\story_construction\INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md
+canon\_working\story_construction\CONTROL_OBJECTIVES_MASTER.md
+canon\_working\story_construction\GROUP_WORLDVIEW_CONFLICT_MAP.md
+canon\_working\story_construction\CROSS_ACT_CONTROL_LAYERS.md
+canon\_working\story_construction\KNOWLEDGE_DEPENDENCY_MAP.md
+canon\_working\story_construction\HARD_CONSTRAINTS_TABLE.md
+canon\_working\story_construction\RELEVANT_FILES_TABLE.md
+canon\_working\story_construction\CONSIDERATIONS_REGISTER.md
+canon\_working\story_construction\ACT_I_OUTLINE.md
+canon\_working\story_construction\ACT_I_BEAT_SHEET.md
+canon\_working\story_construction\ACT_I_SEQUENCE_MAP.md
+
+=== #12 Grep {"pattern": "CDL-(103|123|060|055|095|054|053|083|084|064|050|322|141|355|356|337|347|408|350)\\b", "path": "D:\\Projects\\ProjectHarukaDocument\\canon\\_working\\CANON_DECISION_LOG.md", "output_mode": "count"}
+canon\_working\CANON_DECISION_LOG.md:43
+
+Found 43 total occurrences across 1 file.
+
+=== #13 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && wc -l CANON_DECISION_LOG.md story_construction/ACT_I_OUTLINE.md story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md story_construction/HARD_CONSTRAINTS_TABLE.md story_construction/KNOWLEDGE_DEPENDENCY_MAP.md story_construction/CONSIDERATIONS_REGISTER.md story_construction/ACT_II_OUTLINE.md ../../00_Story_Brief.html; grep -n \"CDL-123\\|CDL-103\" CANON_DECISION_LOG.md | head -20", "description": "Count lines and find CDL-123/103 entries"}
+    507 CANON_DECISION_LOG.md
+    380 story_construction/ACT_I_OUTLINE.md
+    213 story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md
+    174 story_construction/IDEOLOGY_THEME_STANCE_MATRIX.md
+    133 story_construction/HARD_CONSTRAINTS_TABLE.md
+    178 story_construction/KNOWLEDGE_DEPENDENCY_MAP.md
+     41 story_construction/CONSIDERATIONS_REGISTER.md
+    878 story_construction/ACT_II_OUTLINE.md
+  12038 ../../00_Story_Brief.html
+  14542 total
+208:| CDL-103 | Q4 天台使命說明時機 = C（次日放學後，非E-01同日）| E-01屍骸攻學校係當日發生；晴香當晚回家消化；次日放學後美夜子約晴香到學校天台，正式說明維多利亞天使使命（CDL-055/095）；「次日主動赴約」強化晴香拯救者情結主動性（CDL-053）：一晚思考後仍選擇了解更多，不是被動接受；天台係E-01 Epilogue（桐生健）後、E-1.5前的獨立銜接節點；天台「孤立感視覺語言」（高處俯視城市，CDL-095）有充分呼吸空間；時間線：E-01當日→次日天台說明→[NC]→E-1.5 | AC Q4:C 2026-03-31 | ACT_I_OUTLINE.md E-01天台說明時機更新（次日）；CDL-095補充；時間線E-01/天台/E-1.5確立 | 2026-03-31 |
+215:| CDL-109 | QQ-37 晴香裝置獲得方式 = B（美夜子 E-01 現場緊急交予）| E-01 屍骸攻學校緊急情況中，美夜子將情緒力量裝置交予晴香（緊急交付，具體交付方式 btd at Beat Sheet）；晴香在完全不了解裝置的情況下，以本能首次觸發（初次觸發）；正式使命說明延至次日天台（CDL-103/095）；秋穗（裝置原型研發者）知情但未在E-01現場；晴香 E-01 前對裝置完全無知 | AC Q2:B 2026-03-31 | ACT_I_OUTLINE.md E-01新增美夜子裝置交付注記；天台次日說明（CDL-103）定位更新為「正式說明」而非首次接觸 | 2026-03-31 |
+220:| CDL-113 | QQ-41 [SQ-A] 晴香阻止美夜子消除桐生健記憶的行為邏輯 = B（視覺提示推斷）| E-01戰鬥尾聲，美夜子準備執行記憶消除SOP（CDL-091）時，**美夜子的動作有視覺提示**（手勢/光效/靠近桐生健頭部方向等）；晴香視覺推斷「她要對他做什麼壞事」→ 本能阻止；不需事先知道能力名稱；台詞「記憶/真相不可被抹走」係直覺+視覺推斷複合後的本能宣洩，而非知識性阻止；邏輯自洽：天台次日說明（CDL-103）是「系統性解說」，E-01現場係晴香先感受到「不對」再被動反應；設計效果：晴香「透過直覺感知到真相」的能力種子在此首次出現（創世者直覺），後來有更大意義 | AC QQ-41:B 2026-04-02 | [SQ-A]場景Beat Sheet設計可執行；「痛係證據」台詞前置邏輯自洽；美夜子動作有視覺提示設計=晴香阻止的視覺邏輯 | 2026-04-02 |
+226:| CDL-118 | QQ-46 奪舍示範場景（HC-2e）時機約束（具體位置 btd）| 奪舍示範場景（老婆婆靈魂透過小孩傳話「有個婆婆說她很抱歉」，HC-2e要求）= **首戰（E-02）之後**某個事件中間的小事件；非E-01期間；不是獨立大場景，而是某個事件進行中間的輕量小事件；具體beat位置 btd Beat Sheet；HC-2e時序約束已滿足（E-02後 < 天台次日說明，CDL-103） | AC QQ-46:tbd 2026-04-02 | E-02後Beat Sheet場景動線；奪舍示範場景具體設計 btd | 2026-04-02 |
+232:| CDL-123 | Q8 E-01當晚輕量beat = A（加入獨立場景）| **E-01當晚**加入獨立輕量beat：家中獨處，無台詞；功能：①視覺+身體雙層幽靈重量症狀（Stage 1夢幻鏡：倒影慢半拍0.3秒 + 身體沉重感）②晴香用「夜瞓」等日常藉口自圓其說（可被否認性原則）③睡前熱可可私密習慣初建（後期可樂失味+冰塊咬碎的對比前置）；符合CDL-103（天台次日=「有一晚消化後主動赴約」，此beat提供「那一晚消化」的質感）；Beat Sheet設計細節btd | AC Q8:A 2026-04-06 | ACT_I_OUTLINE.md v1.8補入Beat 0d；Beat Sheet設計；幽靈重量症狀Act I呈現設計 | 2026-04-06 |
+
+=== #18 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && grep -n \"^| CDL-\\(050\\|053\\|054\\|055\\|060\\|063\\|064\\|065\\|073\\|083\\|084\\|095\\|141\\|176\\|233\\|322\\|323\\|355\\|356\\|357\\|347\\|350\\|408\\|337\\|354\\|397\\|363\\|362\\|371\\) \" CANON_DECISION_LOG.md | cut -c1-2200", "description": "Grep key CDL entries"}
+<persisted-output>
+Output too large (42.8KB). Full output saved to: C:\Users\User\.claude\projects\d--Projects-ProjectHarukaDocument\38738b99-d545-48d4-9752-8d34a840e716\tool-results\bof67f7lv.txt
+
+Preview (first 2KB):
+12:| CDL-408 | 美夜子日常底色由「解離性麻木／真冷漠＝身份」調整為「八千代型底色（面硬話少扮唔理、但暗地關心默默照住人）＋『解離性麻木』降為急性創傷反應期狀態」——參照《魔法紀錄》七海八千代質感（非照抄） | **正式確認（2026-09-10，作者明確確認，非 exploratory，canon writeback）**：延續 QQ-224 D／2026-09-09 討喜度討論嘅美夜子部分。作者參照七海八千代——清高、難親近、外殼拮手，但一直暗地關心人；失去過隊友先豎起刺，唔係真係冷；受咗傷只係退後半步，唔係熄機／封閉自己。**三個輕觸改動**：①**「解離性麻木」重新定框**做「頂唔順嗰陣／急性創傷反應期」狀態（凜死打穿人格防線、貓殼碎裂後重度解離），唔係佢日常底色／本性——canon 其實多數已經係咁用；佢日常底色＝八千代型（面硬、話少、扮唔理，但暗地睇住晒、默默照住人）；康復＝返去呢個溫暖但拮手嘅底，唔係由零學識連結。②**`miyako.md` §故作堅強 CDL-337 忠誠段一句軟化**：原「對信任圈外嘅人美夜子係**真係冷漠**，唔係演出嚟嘅冷淡掩護」→ 改為「唔會主動熱情、保持明顯距離、外殼拮手——但呢個係失去太多之後嘅防備姿態，唔等於唔關心；仍會暗地留意、默默照住（遞返嘢／擋一擋／記細節／執手尾唔認），只係唔擺出嚟」。**保留**「對圈外人唔主動熱情、保持距離」嘅感覺，只拆走「唔關心」呢一層；同段加咗七海八千代質感參考註同「解離性麻木唔屬於日常底色」註。③**新增 Behavior Hook #14「扮唔理，暗地執手尾」**：對信任圈邊緣／圈外嘅人，表面唔瞅唔睬但做細微、事後唔認嘅照顧動作（遞返跌咗嘅彈匣／行位擋一擋／記得邊隻手受過傷／靜靜執手尾），有人問返一律功利藉口帶過（同咬嘴唇 CDL-347 同一截停機制）；係習慣 #5 沉默守護（對圈內人）嘅圈外最低限度版。**必須保留、未郁**：凜死＝人格防線被打穿嘅起點／核心創傷�
+22:| CDL-397 | 直播/魔法少女偶像起源正式定案（QQ-213解決，收尾Round 140起始嘅多輪延伸討論）——冇制度化嘅「官方魔法少女偶像認證系統」，帝國預設態度全程都係捕獵/兵器化；晴香經理人正式定性為帝國刻意經營嘅個別例外，手法係利用晴香締約前已有嘅平民歌手身份塞入戰鬥直播；意外揭露凜生前私下嘅偶像殘影被秋穗悄悄放過、死後被經理人挪用做晴香品牌素材 | **正式確認（2026-08-25，作者story-orchestrator自由form討論，收尾2026-08-12 Round 140起始、橫跨QQ-213多輪延伸嘅完整討論）**：QQ-213 自 Round 140（2026-08-12）起一直 BLOCKED——作者想用直播/魔法少女偶像化制度補完情緒守恆定律、魔法少女設定同政治設定三者關係，要求一個落地嘅起源故事：邊個最初搞公開見證儀式、點解會有、帝國幾時同點樣接管。中途討論一度轉向 Act IV climax蒙太奇設計（另開 CDL-387/388，屬另一分支，唔可以同本entry混淆），QQ-213 本身遲遲未落實。本輪重新拾起，收斂做四點正式定案。**①制度層面**：帝國對魔法少女嘅預設態度自始至終都係捕獵／兵器化（既有[衛生行動](../01_world_rules_and_costs.md)／軍方魔法少女改造計劃機制不變），明確否決「官方認證嘅魔法少女偶像制度」呢個方向（Round 140原提案入面「第一代魔法少女自發、後被帝國接管品牌化」嘅制度化敘事，最終唔採用，改為更窄嘅個案設計）。**②晴香經理人**：正式定性為帝國刻意個別經營、獨一無二嘅例外案例，唔屬於任何更大制度——扣連`haruka.md`已confirm嘅「經理人由 Act I 已係帝國資助嘅戰鬥直播舉辦人」。經理人嘅具體手法唔係「因為晴香係魔法少女所以捧佢做偶像」，而係倒轉方向：利用晴香締約前已經存在、獨立於魔法少女身份嘅平民追夢歌手起點（[歌手身份起源](../04_timeline_canon.md#event-singer-origin)，CDL-372既有事件），將佢戰鬥中嘅傷同崩潰一併塞入呢條原本純粹關於音樂嘅頻道度直播
+...
+</persisted-output>
+
+=== #19 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && grep -n \"^| CDL-\\(050\\|053\\|054\\|055\\|060\\|063\\|064\\|065\\|073\\|083\\|084\\|095\\|141\\) \" CANON_DECISION_LOG.md | cut -c1-1600", "description": "Grep Act I CDL entries trimmed"}
+143:| CDL-050 | 操 入隊契機 + 深層心理 | 入隊前：獨行俠（戰鬥狀態 TBD）；入隊場景：大型屍骸戰鬥，操中陷阱 → 晴香不顧儀態用身體擋攻擊，笑著問「條裙有無整污糟」→ 操第一次見到有人在乎「她」多過戰果 → 傲嬌：勉強答應「暫時指導庶民」；深層心理：存在本身是表演，需要「觀眾」（隊友）和「明確規則」，獨處時崩潰 | AC 2026-03-29 | 操 Act I 入隊場景設計；Plant 操獨處崩潰弧光；Act I 晴香性格呈現（在乎人多過戰果）| 2026-03-29 |
+147:| CDL-053 | 晴香 拯救者情結 + 公主女武神渴望 | 童年雙重失去創傷（Alpha線：家姐+母親；Beta線晴香的潛意識傷痕，見 CDL-047）孕育出極端「拯救者情結」；渴望成為「公主女武神」= 能保護重要之人的英雄；「維多利亞天使」設定完美命中此渴望 → 晴香近乎天真的熱情全盤接受；將每次戰鬥視為「希望的現場演出」| AC 2026-03-29 | 晴香 Act I 性格底層確立；維多利亞天使謊言的心理可信度根源；Plant-A：Act III 謊言揭露 → 晴香「公主女武神」身份崩潰 | 2026-03-29 |
+148:| CDL-054 | 美夜子「共謀誤導」設定 | 美夜子非單純冷血欺騙，而是「共謀誤導」；美夜子見過太多黑暗/同伴犧牲/作為兵器的殘酷過往；見到晴香純粹想幫人的熱情時，美夜子自身也渴望相信那個美好的版本；「說謊者渴望謊言是真實的」= 帶悲劇色彩的溫柔 → 維多利亞天使童話具說服力的根源 | AC 2026-03-29 | 美夜子 Act I 行為底層深化（功利感背後的悲劇溫柔）；Act III 揭露場景情感設計；QQ-15 細妹知情議題底層增強 | 2026-03-29 |
+149:| CDL-055 | 維多利亞天使「半真半假」資訊過濾 | 真實部分：魔法少女的確對抗負面情緒（屍骸）；精心隱藏：情感耗損、變成魔法屍骸的風險、戰鬥的真正代價；包裝：用歌聲和光芒傳遞希望的英雄偶像形象；這是美夜子向晴香解釋魔法少女使命時使用的框架 | AC 2026-03-29 | E-01 美夜子向晴香說明場景設計；QQ-10 RESOLVED；Plant-A Act III 謊言揭露對比 | 2026-03-29 |
+155:| CDL-060 | 美夜子接近晴香的機制 = 靈魂本能殘留 | 美夜子被強行復活後失去記憶；但靈魂殘留令晴香成為「在狂風暴雨中唯一感到熟悉與安全的錨點」；大腦說工具，靈魂本能靠近；Act I 美夜子寫法 = 完全按 Option C：口裡說「有用的工具」，身體本能守護 | AC（文件有記錄）2026-03-29 | 美夜子 Act I 場景質感確立（口裡說不，身體誠實）；功利感 = 大腦對靈魂本能的理智掩蓋；CDL-040（美夜子非功利行為立刻掩蓋）的底層機制確立 | 2026-03-29 |
+159:| CDL-063 | 操「形式主義」悲劇核心 | 打屍骸唔係為咗正義，而係「魔法少女身份的絕對規則」：既然獲得「魔法少女」身份，消滅怪物就係必須遵守的全套戲碼，否則恐慌假身份穿崩；病態地執著於「正確的形式」；孤身戰鬥 = 「冇觀眾的表演」——即使打出完美無傷通關，冇人見證，精神極度空洞疲勞 | AC 2026-03-29 | 操 Act I 行為底層邏輯；CDL-050 深層心理補充；解釋操「啟動裝置」→「被迫成為戰士」的心理過程 | 2026-03-29 |
+160:| CDL-064 | 「燈塔效應」世界規則 | 啟動情緒力量裝置 → 觸發「集體潛意識燈塔效應」→ 持有者在潛意識海洋中如黑暗中燈塔，成為全城魔法屍骸本能獵殺目標；操啟動裝置維持變身後無可避免成為活靶，「冇得唔打」的死循環根源 | AC 2026-03-29 | 世界規則補充（解釋為何操被迫戰鬥）；所有魔法少女「持有裝置的隱性代價」設定基礎；後續屍骸獵殺機制設計 | 2026-03-29 |
+161:| CDL-065 | QQ-16 RESOLVED — 操獨行俠期間有戰鬥記錄（A） | 操有戰鬥記錄；雙重原因：①燈塔效應（啟動裝置就成為獵殺目標，冇得唔打）②形式主義強迫（「魔法少女必須消滅怪物」的絕對規則）；孤身戰鬥但冇觀眾 = 空洞表演，精神疲勞累積 → 晴香「擋攻擊+問裙子」的衝擊感更強：她第一次感到「有人在乎她這個人而非戰果」 | AC QQ-16 answer 2026-03-29 | QQ-16 RESOLVED；操 Act I E-02 入隊場景設計可執行；操入隊前觀眾認知建立（孤獨空洞的獨行俠）| 2026-03-29 |
+171:| CDL-073 | E-02 Reality Show遊戲呈現 = A+B+「假數值系統」綁定 | 戰鬥UI娛樂化（A昇華）：斬殺屍骸彈出「+100 Likes」/「觀眾人數激增」/「打賞特效」，嵌入既有假數值系統（Act I-III適用，Act III後揭露虛假）；NPC圍觀場景（B配合）：戰鬥前後歡呼/求簽名/討論下注；玩家-晴香認知錯位：晴香天真視為希望散播，玩家逐漸對將死亡包裝成「刷數據」感到異常不安；「假數值系統」 = 既有遊戲設計元素（Act III揭露）| AC Q7 answer 2026-03-29 | E-02 戰鬥場景UI設計；世界規則呈現媒介；偽亮色感具體質感；假數值系統與Reality Show深度綁定確立 | 2026-03-29 |
+183:| CDL-083 | 美夜子非功利行為位置 = E-02首戰保護動作（A）| E-02首戰中：美夜子有一個非計劃內的即時保護晴香動作（例如擋住攻擊或拉走晴香）；動作後立刻用功利理由掩蓋（「晴香對戰局有用，不能讓她在這裡倒下」）；晴香若有所感但未深究；設計原則：動作型非語言，比語言型更難被功利邏輯消解；作為Act II soft pivot最自然的前置鋪墊 | AC Q5:A 2026-03-30 | E-02 Beat Sheet場景細節確認；美夜子Act I「口裡說不身體誠實」（CDL-060）首個具體呈現節點；Act II soft pivot前置可信度確立 | 2026-03-30 |
+184:| CDL-084 | E-02凜信息形式 = 極簡一句帶情感色彩（C簡化版）| 美夜子在E-02提出情緒連結時，帶情感色彩地提及凜：一句話之內，有一瞬猶豫或沉默；例：「我以前…同一個人試過。應該有效。」；晴香察覺美夜子的猶豫但沒問；全句不超過一句話（極簡）；目的：讓觀眾記住「美夜子有秘密/過去」，但不給任何具體信息；E-04凜前史出現時，觀眾記起這一瞬猶豫 → 情感衝擊翻倍 | AC Q6:C simplified 2026-03-30 | E-02 Beat Sheet對白設計；E-04凜前史衝擊力前置確立；美夜子「有秘密的孤獨感」Act I種子之一 | 2026-03-30 |
+198:| CDL-095 | QQ-24 RESOLVED — E-01後使命說明場景 = B（學校天台，私下安靜）| 場景：屍骸戰後，學校天台；美夜子向晴香正式說明維多利亞天使使命（非戰場即時info-dump，非催眠環境）；氣氛：安靜但有距離感——美夜子依然保持功能性冷漠（口吻係解說，唔係邀請），晴香仍處於震驚+好奇狀態；天台場景設計意義：「高處俯視城市」的視覺語言隱喻美夜子的孤立感同「局外人」身份 | AC QQ-24:B（學校天台）2026-03-30 | E-01 Beat Sheet使命說明場景確立（天台+美夜子冷漠解說形式）；E-02 Reality Show前的世界觀交代節點確立；天台作為美夜子「孤立感」視覺符號的第一次使用 | 2026-03-30 |
+254:| CDL-141 | Q19 秘密基地/潛入學校 = A修正（資源驅動特殊任務；被迫合作；唔係茶餐廳）| **加入[NC]但大幅修正動機**：唔係「為咗好玩」，而係**補給品嚴重短缺（低血糖/葡萄糖耗盡）**驅動；**遊戲形式 = 特殊任務**：可觸發可唔觸發（條件：血糖補給耗盡+關係未到離隊情節前；故事時間窗口：E-02後到隊員離隊前）；**場景性質**：被迫合作（四人關係未熟）→荒謬生存行動→建立初步化學反應；**角色分工**：美夜子=專業潛行/紫音=暴躁差點暴力破門（被晴香拉住）/操=嫌棄灰塵監控閉路/晴香=把風緊張肚子咕嚕叫；**秘密基地唔係茶餐廳**（茶餐廳=秋穗監控範圍；少女需要「無大人的私密空間」）；**毀滅性對比前置**：此基地之後會因為操虛榮心洩露而被摧毀（據點洩露事件），Act I建立得越溫暖越慘 | AC Q19:A修正 2026-04-06 | ACT_I_OUTLINE.md [NC]段落加入基地任務；遊戲設計特殊任務框架；秘密基地≠茶餐廳確認 | 2026-04-06 |
+
+=== #20 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && grep -n \"^| CDL-\\(322\\|323\\|233\\|355\\|356\\|357\\|347\\|350\\|354\\|337\\|363\\|362\\|371\\|390\\|191\\) \" CANON_DECISION_LOG.md | cut -c1-1800; echo ----; grep -n \"牙\\|Stage 1\\|Stage 2a\\|牙肉\\|縫牙\\|gum\" story_construction/ACT_II_OUTLINE.md | cut -c1-400 | head -40", "description": "Grep CDL entries and Act II tooth/Stage references"}
+<persisted-output>
+Output too large (31KB). Full output saved to: C:\Users\User\.claude\projects\d--Projects-ProjectHarukaDocument\38738b99-d545-48d4-9752-8d34a840e716\tool-results\bhe1swe2v.txt
+
+Preview (first 2KB):
+46:| CDL-371 | 操父親「政治聯姻陷阱」完整整合——簡化拆穿機制（用登記身份取代聯姻對象性別reveal）+ 正式扣連操成長弧線/E-09a因果/被迫報串setup-payoff/紗夜臨終真相伏筆 | **正式確認（2026-08-06 作者決定，story-orchestrator co-design，延續CDL-368/370）**：延續操父親線，逐步整合四個方向。**①拆穿機制簡化**：作者提出移除「聯姻對象都係女性」呢層reveal，改做操出台正式介紹畀政治聯姻家族嗰刻，父親直接用操「登記在案」嘅身份（綾小路家男性繼承人）介紹操——操著住女裝但被介紹做「我個仔」，矛盾即時、赤裸噉擺喺全場面前。呢個修正令父親「幾時講過接納你」嘅冷靜否認更加成立（佢由頭到尾照直講登記身份，冇講大話），同時完全移除咗聯姻對象呢個懸空未解決嘅角色設計問題（唔再需要係新角色定現有角色，純粹背景層面代表）。**②成長弧線正式整合**：作者要求轉向討論操成長角度——調停失敗係操第一次試真實但冇即時被罰；政治聯姻陷阱先係佢因為試真實而俾人狠狠教訓，表面反證操Lie（表演先安全）啱，直接觸發（唔止並行）Stage 2a/2b逐步冷化同無心完美人偶（自我抹殺加碼）；扣返逃避型債務框架——呢件事嘅慘痛後果係借咗嘅「相信父親」呢筆債嘅第一期還款，操跟住做人偶係再借多一筆更大嘅債去頂痛，直到鏡像破碎之夜先停止借新債、選擇面對；令鏡像破碎之夜嘅「選擇真實」同鋼鐵獨舞嘅非完美承擔更加得來不易（明知代價可以幾重都仍然揀）。**③同E-09a嘅因果連接**：政治聯姻失敗（操喺人前崩潰）證明�
+53:| CDL-363 | 操被迫現形嘅避見人時期——療傷代價鎖死變身能力，扣連無名男孩線嘅錯過機會（唔改動死亡當日因果）| **正式確認（2026-08-02 作者決定，story-orchestrator co-design，延續CDL-362）**：作者提出操因為療傷透支，可能一段時間冇法變身、被逼維持未變身嘅身體，令佢唔想見晴香等人；並問可唔可以扣埋無名男孩，例如錯過見佢最後一面、或者冇去救佢。**查證發現「冇去救佢」呢個方向會直接撞正已有、作者2026-06-30確認嘅設定**——操死亡當日「有能力介入卻沒有出手」，佢事後連自己嗰刻靜止嘅真正原因都分唔清（三種恐懼混疊），「連罪疚感嘅來源都無法確認嘅混濁」正正係呢條傷口最痛嘅核心，扣連Act IV「非完美承擔」設計初衷；如果加返「冇法變身」做具體原因，會將一個冇得推卸嘅道德失敗，變成一個有實際藉口嘅意外，削弱成個設計。**作者同意唔改動死亡當日因果**，改為只加一段死亡之前嘅「避見人時期」。**最終設計**：操連續透支奇蹟簡易療傷代價（CDL-360/361/362因果鏈），令心之器暫時唔穩定到冇法維持變身狀態，被迫用返未變身、俾人動過手術嘅身體。呢段時期操會避見晴香等隊友（「表演完美女性」防禦失效，唔想俾人見到）；亦會避返學、唔去見無名男孩（誤以為對方鍾意嘅係「靠魔法變出嚟嘅完美形態」而非真身，驚一旦男孩見到「原型」就會證實自己嘅推斷）——扣連已有「渴望靠近又必須推開」嘅推離模式，加多一次操主動推開親近機會嘅具體例證；男孩死後，操先發現原來對方一早接納咗真實嘅自�
+...
+</persisted-output>
+
+=== #21 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && for n in 322 323 233 355 356 357 347 350 354 337 390 191; do grep -n \"^| CDL-$n \" CANON_DECISION_LOG.md | cut -c1-1500; done; echo ----; grep -n \"牙\\|Stage 1\\|Stage 2a\\|牙肉\" story_construction/ACT_II_OUTLINE.md | cut -c1-500 | head -30", "description": "Grep individual CDL entries trimmed to 1500 chars each"}
+79:| CDL-322 | 操 E-02 入隊戰新增「意外救人+多重解讀」層——動機種子設計 | **正式確認（2026-07-09 作者決定，co-design 討論）**：沿用 CDL-050/098 已確立嘅 E-02 操孤身入隊戰（晴香擋攻擊令操入隊），新增一層設計：混戰之中操順手（非刻意，係求存嘅副作用）擋咗/救咗一個路人。**三重解讀並存**——晴香解讀＝操心地善良（強化揀佢入隊嘅理由）；路人解讀＝呢個神秘強者救咗我；**操自己嘅解讀（新增，私下嘅）**＝表面冷處理/否認呢件事有咩特別，但內心因為路人事後真誠嘅感激而動搖。呢粒未言明嘅種子，喺 Phase D 操主動幫陌生人（桐生健目擊，見 CDL-323）先第一次真正主動、有意識咁重演，形成「由被動意外→主動選擇」嘅完整成長弧——解決操「唔會自動因為世界有事而幫人」嘅性格邏輯缺口，同時填補「操點解揀跟晴香」嘅心理動機補完（用現有 E-02 事件，唔開新 beat）。 | AC 作者確認 2026-07-09（co-design 討論定案） | ayakomoji_misao.md（§入隊前的獨行俠心理 或 §第一幕 新增段落）；ACT_I_OUTLINE.md（E-02 beat 補充） | 2026-07-09 |
+78:| CDL-323 | 桐生健 Phase D「中介組織跑腿」身份 + USB 截糧伏線（秋穗暗中完成入侵） | **正式確認（2026-07-09 作者決定，co-design 討論）**：桐生健（Act I 膠布哲學 CDL-087/088，三位一體光譜人類端點示範者，QQ-132）喺 Phase D 地下絕境期，因 Beta 線普通經濟動機，喺 Fallen Angel 情緒毒品分銷網絡（`07_entities_and_devices.md` 已確立「市場販售」經「日區商業網絡」進行）做底層跑腿——**填補 CDL-244 標記嘅「中介組織/經理人」btd 缺口**。佢喺呢段期間目擊操（或美夜子）暗中幫一個唔相關嘅陌生人（唔攞好處），重新確立對團隊嘅信任，推翻通緝令官方敘事，做返 QQ-131 四階段表嘅微觀質疑期→轉向示範者。**USB 伏線**：桐生健經朔嘅黑市網絡輾轉攞到一支 USB，插入一個 Fallen Angel 零售終端試圖截糧/攞情報，表面失敗；實際上秋穗（透過已確立嘅 CDL-110/114「暗中守護+監控」行為模式）遠端暗中完成入侵，桐生健同團隊都唔知道成功背後嘅真正原因；秋穗留低一個桐生健睇唔明嘅系統異常記錄（時間戳唔對板）做二周目伏線。**時序核實冇矛盾**：呢場戲喺 Phase D，秋穗身份揭露喺 E-11a（Phase D 尾/Phase E 開端），團隊/觀眾嗰陣都仲未知秋穗真身。 | AC 作者確認 2026-07-09（co-design 討論定案） | ACT_II_OUTLINE.md（Phase D 新增桐生健暗線段落）
+369:| CDL-233 | 操掉牙/傀儡絲線縫牙 Body Horror分層設計（魔法過度消耗代價 + 形式主義逃避機制）| **正式確認四個Stage（分層更新2026-04-28）**：**Stage 1（Act II前期，Phase A～B）**：操魔法過度使用後出現牙齦滲血——看似普通，操以「完美外表形式主義」強行壓制，不向任何人提及；觀眾可能初讀為戰鬥受傷；守恆定律Layer 1物理代價具現；**Stage 2a（Act II中期，E-09a時的肉體層）**：E-09a父親背叛+紗夜犧牲期間，某次高壓魔法使用後，操的牙齒開始鬆動甚至脫落；操在巨大情感創傷中（被父親否定為廢品，媽媽被制伏），利用傀儡絲線將斷牙縫回，強行維持外觀的完整——此刻是「物理上的自我修補」，試圖以完美外殼抵禦崩潰；**Stage 2b（Phase D期間的靈魂層）**：地下化六個月中，操逐步進入「人偶化狀態」——外表依然維持完美（絲線縫牙保持），但內心逐步冷化、靈魂逐步離體、對他人情感反應機制不斷被「修復」（冷化）；每一次與晴香的衝突、目睹苦難、無法保護隊友，操都選擇進一步「自我修復」成人偶；Stage 2b是對E-09a創傷的長期麻木化處理；**Stage 3（Act III Day 13，鋼鐵獨舞場景）**：黑奏強行撬開操嘴巴，揭露絲線縫牙；同時觸發記憶封印突破（CDL-231/232）與靈魂回流（人偶外殼最後被撕裂，被無條件原諒意識�
+61:| CDL-355 | 晴香「幸運嘅一個」起點重構（撤走Act I面具設定）+ 拯救者情結自私核心誘惑攤牌 + 夕「鍾意自由」正面特質同共享渴望不削弱獨立性 | **正式確認（2026-07-29 作者決定，story-orchestrator co-design，多輪修正）**：延續美夜子「工具/真身」討論嘅方法，逐步深挖晴香「戴面具」設定，經過幾輪修正（阿姨太忙版本→懷疑秋穗隱瞞版本→全部否決）**最終確立結構性轉向**：晴香Act I**冇童年創傷、冇面具**，係全主角團入面童年最幸運嘅一個（除一出生失去母親呢個未經歷式缺失外），對人好完全真心，唔係防禦表演。心理重量改由**隨劇情逐步累積**——目擊操/紫音等隊友受苦、逐步得知自己係創世者、發現好命係用其他人苦難換嚟——先形成罪疚驅動嘅心理負擔。**拯救者情結自私核心**：晴香已有嘅Lie「拯救=被需要=值得存在」被指出底層有自私核心——被需要先確認自己值得存在。**黑奏/夕誘惑攤牌**（唔改變「黑奏誘惑」呢個早已flag但未落實嘅伏筆，只補完內容）：黑奏（彩偽裝）同夕（獨立、唔知道對方存在）分別喺Act I種低早段種子（彩隨口問「你成日咁幫人唔攰咩」；夕噪訊滲出「妳都想㗎唔好扮唔知」），後段（具體beat未定）由黑奏/夕攤牌戳中晴香呢個自私核心，佢差少少俾說服轉做「淨係救返�
+60:| CDL-356 | 晴香完整誘惑弧線落實——倖存者式唔安/初期盲點/四層遞進種子/Day13-14至Phase J完整時序/雙重身份崩潰/私心（CDL-281）正式解釋/接納過程/三位一體扣連投射論；夕聲音滲出加速機制扣連投射邏輯；Need措辭修正 | **正式確認（2026-07-31 作者決定，story-orchestrator co-design，延續CDL-355深化）**：延續CDL-355，逐輪加深晴香誘惑弧線至完整可落地版本，全部扣連現有材料，零新開場景。**①倖存者式唔安**：Act I晴香雖然真心、冇面具，但喺一班全部捱過創傷嘅隊友之中，會有「我要做多啲先追得上佢哋、先算配得起呢個位置」嘅補償衝動，可能表現做唔自覺揀更危險嘅位。**②初期盲點**：因為幸運而一開始對隊友唔完全理解，會講啲離地嘅說話，製造真實團隊摩擦，形成「善意但離地」→「用血換返嚟嘅真正理解」嘅完整理解成長線，同「為人哋喊」tell嘅演變直接扣連。**③四層遞進種子**：彩（黑奏偽裝）Act I早段試探→夕噪訊獨立滲出→紫音屍骸女王E-12場景新增指控層（「你幫人係咪為咗我哋定係為咗自己」）→Phase J總攤牌，三條線互不知道對方存在，直到Phase J先揭曉係同一真相。**④真實時序**：Day13操死→美夜子三段式覺醒確認姊妹身份→Day14紫音死+凜的最終戰→解放之戰→帝國廣場決戰→美夜子姊妹身份最�
+59:| CDL-357 | 晴香「壓抑稅」機制（可樂失味+夕能量同源）+「絕對共感視界」自我盲點做具現化前因+摸膠布動作+故事道德立場（唔判斷揀嘅內容只判斷方式）+夕整合後殘留疑問 | **正式確認（2026-07-31 作者決定，story-orchestrator co-design，延續CDL-356）**：延續「前後分別」討論，解決「可樂失味係通用魔法少女代價、唔係晴香專屬」嘅精確性問題，並補完「具現化前因」（唔止有後果）。**①壓抑稅**：唔改動守恆定律Layer 1本身（用魔法就有代價，全部魔法少女共通，唔可以豁免），而係補完個人化變數——未處理嘅心理能量必然要搵出口，一部分侵蝕身體感官（可樂失味），一部分餵咗畀夕（CDL-356已有機制）——兩者係同一份能量嘅唔同出口，唔係各自獨立。總代價=守恆定律基本代價（不可豁免）+壓抑稅（變數）。前後對照：接納完成後可樂返返一絲味（唔係完全復原，符合全劇「帶住結痂」一致哲學），因為冇壓抑稅額外負擔，唔係用少咗力量。**②絕對共感視界自我盲點——具現化前因嘅核心設計**：晴香已有嘅創世者特權（睇到人哋嘅遊戲UI）理論上都應該照到自己，但佢每次施力助人前刻意唔望自己嗰格數值（主動、每次重複嘅心理選擇，唔係被動生理反應），呢個「唔望」正正係壓抑稅持續累積嘅視覺化前因
+69:| CDL-347 | 五角色「情緒滲漏型」小動作 tell 設計——操委屈崩喊/公主病爆發+影相恐懼→珍惜成長弧線、晴香為人哋喊為自己唔喊、美夜子咬嘴唇跨形態通用、秋穗手震自我欺騙、紫音嗤笑彈開日常縮小版 | **正式確認（2026-07-28 作者決定，story-orchestrator co-design，「你幫我全部落檔」）**：源起討論操「易喊+公主病爆發+唔鍾意影相變鍾意影相」呢個新設定嘅心理精準度，延伸做全角色掃描，搵到共通模版——「表層行為俾人誤讀，實際係逃避/滲漏底層委屈嘅具體機制」——並進一步收窄做「情緒滲漏型」子類（不受控嘅崩口，區別於紫音已有嘅「儀式型」tell 如香口膠/紅線/摺紙）。**①操**：委屈式崩喊（安靜、壓聲量嘅啜泣）+公主病式憤怒爆發，係同一個崩口嘅兩面，家族Beta線恢復體面後被外人誤讀做「大小姐脾氣」；配影相恐懼（母親CDL-297活體人偶=定格假象嘅恐懼）→影相珍惜（扣連速寫簿真相「唔完美先係最美」）嘅正面特質成長弧線標記。**②晴香**：對自己嘅痛全套膠布防禦，對人哋嘅痛（尤其識穿對方笑住收埋痛楚嗰種訊號）防禦完全唔啟動，即時、冇預警、毫無保留咁喊——同操嘅「安靜委屈崩喊」刻意做相反質感（操=控制失守嘅細裂縫；晴香=控制由頭到尾冇打算介入嘅即時決堤），生理示範CDL-08
+66:| CDL-350 | 美夜子物質淡漠（想要=僭越）+ 操美食熱愛（唯一冇人核實得到嘅私密享受）——同一軸嘅相反變奏 | **正式確認（2026-07-28 作者決定，story-orchestrator co-design）**：作者觀察美夜子對一切（尤其物質）表現到好唔在乎，操就相反鍾意美食，要求深入討論同驗證。**①美夜子物質淡漠**：查證確認冇明文講過但一路細節都指向（IG只記錄存在唔展示品味、私密習慣全部克制型冇一個涉及縱容自己），精準根源係佢深信自己條命係「借嚟」，冇資格擁有未來，「想要」本身就係僭越，唔止物質，對大喊/未來嘅渴望都係同一結構。**②操美食熱愛（新設定）**：操幾乎全身每個域都俾人監控（身體/外表/情緒），淨係得味覺呢個純粹內在、冇人核實得到嘅感官經驗——操鍾意美食唔係普通興趣，而係喺全身俾人監控嘅人生入面揀一個安全角落畀自己「想要」。同美夜子形成精準對照：美夜子連想要都唔畀自己有；操只敢喺冇人睇到嘅域度想要，兩個都係「唔敢完整擁有慾望」嘅變奏，方向岔開。**呈現方式作者未明確選擇嘅部分刻意保守處理**：操品嚐美食方式維持優雅克制，唔加同三圍量度強迫症嘅縱容/補償式張力（呢個更黑暗嘅方向未經作者確認，冇silent預設）。 | AC 作者確認 2026-07-28（story-orchestrator co-design：觀�
+62:| CDL-354 | 美夜子「有用先值得留低」完整因果鏈——凜犧牲起點/操紫音死亡驗證/驚失去晴香終極恐懼/Act IV大喊解答，全部扣連現有事件 | **正式確認（2026-07-29 作者決定，story-orchestrator co-design）**：延續「工具/真身拉扯冇現實連接位」嘅討論，將美夜子核心恐懼翻譯做普世情感入口——「我係咪淨係因為有用先值得留低？如果我做唔到嘢，仲有冇人要我？」——並派source check確認呢條完整因果鏈100%由現有材料構成，唔使新增任何事件。**①起點——凜為咗一個「冇用緊」嘅美夜子而死**：凜犧牲嗰刻正正係為咗掩護撤退中、並非戰力最強一方嘅美夜子——「唔應得」嘅落差解釋咗美夜子之後拼命想令自己有用（想追認自己配得起凜嘅犧牲），非單純軍方洗腦表面。**②中段驗證——操/紫音連續兩日犧牲（Day13/Day14）**：美夜子已盡全力想保護佢哋但兩個都死咗——證明就算幾努力都會失敗，先精準驗證咗恐懼本身，亦令Act IV嗰場大喊帶住「連續失敗兩次」嘅具體重量，唔止抽象罪疚感。**③終極恐懼——連晴香都可能失去**：兩次失敗後，最痛可能性擺喺眼前，呢個先係CDL-345強行闖入L3搵晴香嘅真正驅動力（唔止係捨唔得，係「已經失敗兩次，唔可以再失敗第三次」）。**④終點解答——Act IV大喊（Dark Healing）**：終�
+490:| CDL-337 | 十個主要角色正面特質行動化正式落檔（回應 QQ-175：角色性格設計偏重傷口/coping，缺乏行動先行嘅正面特質） | **正式確認（2026-07-18 作者逐輪 co-design + explicit授權writeback）**：①**晴香＝擇善固執**——表層傻氣天然呆，反差係唔肯轉軚（CDL-088阻止美夜子消除桐生健記憶，唔畀人拎走人哋在乎嘅嘢）；底氣嚟自佢自己嘅核心傷口（膠布哲學蓋自己嘅痛，所以見人哋嘅痛俾人拎走會生理性抗拒），非自信。②**美夜子＝忠誠**——found-family式，起點錨定晴香，E-04（阻止紫音超載）證明擴展到隊友，非單一對象專屬。③**操＝可靠**——同「性格即死因」（CDL-330）係同一枚硬幣兩面：可靠嘅原因（形式主義計到盡）同死嘅原因（同一種偏執令自己剩餘量估算系統性偏高）唔矛盾。④**紫音＝成癮崩潰雷達（表層，已有canon habit#12/CDL-157）+畀出型忠誠（底層，CDL-318 Change Trigger）**——「心軟」正式否決。⑤**彩＝盼望（唔死心嘅盼望），完整三階段弧線**——起點（6歲除罪疚外亦有「想攞返螢」嘅絕望渴望，補入黑奏誕生初衷第三層）→中段（渴望被馴化做「下次呢？」細日常盼望，已有habit）→結局（永恆輪迴入面完全放低逆轉念頭，選擇接受，強化原有Truth「選擇繼續，不
+
+=== #22 Bash {"command": "grep -n \"牙\" 00_Story_Brief.html | cut -c1-260 | head -40; echo ----; grep -n \"操\" 00_Story_Brief.html | cut -c1-200 | head -80", "description": "Grep Brief for tooth and Misao references"}
+4739:                  <p style="margin:0">牙齦出血、手震、掉牙、嘔吐、失焦、耳鳴——全部是純粹的肉身現象。觀眾不需要理解任何魔法機制，一眼就知道這個角色正在付出代價。</p>
+4846:                    同朋友仔係甜品店，開開心心一齊食甜品，笑聲不斷——然後咬到某一口，<strong>掉了一顆牙</strong>。甜係真的，痛也係真的，而且就係同一口裡面。</p>
+6069:                        <td>味覺喪失、入口只嚐到血腥味；牙齦出血；黑色眼淚滲出（星空流體虛無態；與嘔吐同源）——情緒視覺詛咒觸發過載時從眼部排出；情緒視覺詛咒出現——開始無屏障地�
+6075:                          黑鐵哥德尖刺從關節縫隙、皮膚裂口、眼眶處萌生（星空流體暗態外顯；與生理排斥嘔出物同源）；頸部出現「光環」——死亡倒數（<strong>限帝國裝置使用者</strong>）；牙�
+6098:                    <p style="margin:0 0 8px">代價<strong>不在當下爆出，而是被迫延後</strong>。戰鬥中沒事——落台之後才嘔吐；先處理現場才掉牙、失聲。她們連崩潰都沒有權利即刻崩。
+6271:                    演出語法：身體違背意志的反應——角色感到快感，但同時知道這不是自己選擇的。咬牙、迴避視線、快感中帶羞恥的眼神。</p>
+7585:                        src="art/ConceptArt/Scene/ConceptArt_Scene_49_Misao_PuppetStringTeeth.png" alt="操 傀儡絲牙縫"
+7586:                        class="scene-desc-btn" data-title="傀儡絲從牙縫蔓出——魔法失控時絲線穿透自身，控制者成為被控者"
+7587:                        data-desc="帝國歷113年，操的身體因長期使用魔法而開始崩壞，牙齒鬆動是這個過程的表徵之一。她站在鏡前，用傀儡絲把鬆動的牙縫合回牙齦，妝容完整，嘴角滲血也不擦，繼�
+7589:                        傀儡絲從牙縫蔓出——控制者成為被控者</figcaption>
+7594:                        data-desc="父親的背叛與紗夜的犧牲在同一夜（Act II）摧毀了操維持多年的完美表演，她長期依賴的傀儡絲在這個崩潰時刻大量斷裂、斷牙鬆動，身體崩潰跌落。這不僅是身體機�
+7636:                          src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png" alt="操 甜品掉牙"
+7637:                          class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣。" />
+7639:                          甜品掉牙——冇人察覺嘅死亡恐懼</figcaption>
+7670:                          class="scene-desc-btn" data-title="鏡前獨白——父親背叛與紗夜犧牲同一夜，操用傀儡絲縫牙自我修補"
+7671:                          data-desc="父親背叛與紗夜犧牲同一夜，操獨自面對鏡子，用傀儡絲縫牙自我修補，維持完美表演嘅最後一次嘗試。" />
+8770:                    歲、夜區小學生，純真善意的小男孩。</strong>擁有一根彩色波板糖和破爛紅書包，缺牙的笑容是紫音在這個殘酷世界中唯一感受到的溫暖。紫音想脫離黑社會遭伏擊報復，力竭陷�
+9327:                      alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺"
+9328:                      data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣——完整場景細節見上方操角色卡。"
+9462:                    操調停失敗</strong><span>操獨自找到紫音棲身的廢棄糖果工廠，嘗試調停；紫音有偵測到但刻意唔回應（唔係當機麻木），操受傷、被咬牙壓抑，將沉默扭曲解讀為「不當她是朋友�
+9584:                  <p>高壓之下代價同步升級：<a href="#c-sou">操</a>發現牙齒開始鬆動，冇同任何人講，只用傀儡絲線把斷牙一顆顆縫返原位——「假如我讓自己睇落去完整，我就係完整。」同一時期，
+9795:                      data-desc="廢墟戰場，崩塌的混凝土、斷裂的鋼筋，槍聲迴盪，光線冷硬蒼白，滿地彈殼反光。凜已經不是凜了——身體被淡金色傀儡絲徹底改造，四肢以非人類角度扭曲，關節反
+10432:                      data-desc="戰鬥場景中，四人一貓情緒連結失控——四人在地上劇烈抽搐、掙扎，彷彿被無形的力量撕扯著。他們的身體蜷曲、扭動，手臂無力地拍打著地面。創傷記憶在彼此的�
+----
+4476:    <a class="sub" href="#c-sou">綾小路操</a>
+4859:                黑暗療癒系統的具體操作方法：見證的底層感覺，是一種<strong>不帶任何批判的陪伴在場感</strong>——「我在你身邊陪著你」。痛苦本身
+4903:                    每個角色都有自己的「傷口處理方式」：晴香隨身攜帶膠布見血即貼（逃避）；美夜子以緞帶纏繞（被強制包裹的靈魂）；紫音靠戰�
+4993:                      <td>操、<a href="#c-keishi">刑思</a></td>
+5063:                  <p style="margin:0;font-size:12px;color:var(--muted)">帝國發動靈樹戰爭嘅真實動機係奪取資源，唔係「為咗呢批天生有魔法嘅人口」——「靈樹能
+5203:                      href="#world-victoria">維多利亞之淚</a>覆蓋範圍之外生效——市區內嘅反光面被塔嘅集體潛意識介面調節住，唔會現真身；塔被摧毀後�
+5555:                      <td><strong><a href="#c-sou">操</a></strong></td>
+5556:                      <td>綾小路家族破產，操隨父親行乞</td>
+5557:                      <td>財富與名門回歸；但代價是父親強制將操在小時候被性別重置改造成男性繼承人</td>
+5664:                          <td>帝國軍方/皇帝專屬嘅深層讀寫集體潛意識介面——可操控<a
+5665:                              href="#c-haruka">晴香</a>五歲創世時遺落嘅因果能量殘餘，進行局部、技術性嘅靈魂保存/肉體重塑；同市民相信嘅「永動機」神�
+5676:                  <p>並非官方認證嘅魔法少女偶像制度，而係光幕濾鏡自動套用喺任何日區公開戰鬥畫面上嘅美化標籤，帝國兩大輿論操控工具之一（另
+5737:                          <td>操縱社會風評，按需要製造「<abbr
+6229:                      <td style="padding:8px 12px"><a href="#c-akane">紫音</a>（拾獲遺棄裝置）、<a href="#c-sou">操</a>（黑市購買）</td>
+6235:              <p style="font-size:12px;color:var(--muted);margin:10px 0 0">三條路線共通代價：靈魂嘅某一部分被切割、旁路或消耗，換取力量——入口不同，代價相
+6414:                    血糖耗盡，四個人低血糖手震，急需補給。唯一選項：夜晚潛入附近學校。美夜子用軍方潛行技巧開路，紫音暴躁差點直接破門踹進�
+6464:                  <h4><a href="#c-sou">操</a> ↔ 無名男孩</h4>
+6485:                    <h4>操 ↔ 無名男孩——遺物與未問出口的名字</h4>
+6486:                    <p>紫音有弟弟作為活下去嘅意義，晴香有美夜子作為守護對象；操嘅童年從冇一個人單純因為佢係佢自己而愛佢，所以佢從冇問過男�
+6582:              <li><strong>魔法少女系統代價的三種案例</strong>（罪惡感、身份剝奪、情感麻木）：<a href="#c-akane">紫音</a>、<a href="#c-sou">操</a>、<a
+6691:                      <p style="font-size:13px;line-height:1.8;margin:0">呢段羈絆唔係「渴望父親」，係拯救者欲望最早嘅示範——晴香喺經理人賭徒落魄期主動選�
+6872:                    <div class="step-card"><span class="step-k">傷口</span><strong>「有用先值得留低」因果鏈</strong><span>凜為「冇用緊」嘅佢而死，操紫音連續兩日�
+7164:                    <summary style="cursor:pointer;font-size:12.5px;color:#a78bfa;font-weight:600;padding:4px 0">▸ 刑思嘅力量本質——操控奇蹟</summary>
+7166:                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px">刑思嘅力量本質上並非源頭本身，而係L3冥河逸散出嚟嘅殘餘——需要彩持續貼近做「充
+7239:                          data-desc="彩的靈魂長年被困在自己意識最深處，只有螢留下的那一隻熊公仔連接著她與最後守護她的人的記憶。每次「彩」要出�
+7257:                          class="scene-desc-btn" data-title="刑思農場觀察——晴香陷入高壓痛苦時刻，刑思在暗處冷靜評估的特寫" data-desc="帝國歷113年，「恐怖�
+7454:                <img src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear_Head.png" alt="操 頭像"
+7458:                  <div class="char-name">綾小路<a href="#c-sou">操</a></div>
+7464:                  <img alt="操 日常服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_CasualWear.png" />
+7468:                  <img alt="操 魔法少女服" src="art/ConceptArt/Characters/Misao/ConceptArt_Misao_MagicalGirl.png" />
+7513:                      <dl><dd>純粹工具理性嘅加害者——將操嘅身體、價值全部當成家族資產</dd></dl>
+7526:                    <summary style="cursor:pointer;font-size:12.5px;color:#a78bfa;font-weight:600;padding:4px 0">▸ 家庭與父親——點解操咁執著完美</summary>
+7528:                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px">父親視操嘅女性身體為需要被修正嘅瑕疵。母親曾經有一次情緒流露嘅破綻，父親便將�
+7529:                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px"><strong>技術源頭與家族生意</strong>：呢套改造技術獨立於帝國軍用情緒技術體系之外，由
+7530:                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px"><strong>政治聯姻陷阱</strong>：調停剖白後，父親模糊「知悉」操已女性身份生活，提出政
+7532:                        <li>介紹時父親用返操登記在案嘅男性繼承人身份，著女裝嘅操被當眾稱「我個仔」</li>
+7534:                  
+
+=== #23 Bash {"command": "sed -n '4730,4742p;4840,4850p;6092,6102p' 00_Story_Brief.html | cut -c1-900", "description": "Read Brief tooth-drop general passages"}
+              </div>
+            </article>
+            <article class="subcard flow-long" style="border-left:4px solid #b45309">
+              <h3>身體代價 × 債務（Body Cost × Debt）——全劇導演語言的核心公式</h3>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                本作的殘酷不靠魔法詞彙才講得通——用兩個不用解釋、人人已經懂的世俗概念，在個人與社會兩個規模同時運作：<strong>身體代價</strong>與<strong>債務</strong>。這兩個字是全劇導演語言的共同度量單位，其他一切手法（溫柔的殘酷、膠布哲學、舞台上的表演）都是在這條軸線上運作的。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#fcd34d;margin-bottom:7px">身體代價——不用懂魔法都感受得到</h4>
+                  <p style="margin:0">牙齦出血、手震、掉牙、嘔吐、失焦、耳鳴——全部是純粹的肉身現象。觀眾不需要理解任何魔法機制，一眼就知道這個角色正在付出代價。</p>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#fbbf24;margin-bottom:7px">債務——一聽就懂的世俗邏輯</h4>
+              <p style="font-size:14px;line-height:1.85;margin:0 0 16px">
+                本作的核心視覺信條：<strong>用最唯美、最詩意的視覺語言，呈現最殘酷的命運。</strong> 美麗唔係用來遮蓋痛苦，而係讓痛苦更深地刺進去——「美麗」是「痛苦」的放大器。</p>
+              <div class="dual">
+                <div class="box box-dark" style="font-size:13px">
+                  <h4 style="color:#c4b5fd;margin-bottom:7px">畫面範例</h4>
+                  <p style="margin:0 0 8px">
+                    同朋友仔係甜品店，開開心心一齊食甜品，笑聲不斷——然後咬到某一口，<strong>掉了一顆牙</strong>。甜係真的，痛也係真的，而且就係同一口裡面。</p>
+                  <p style="margin:0;color:var(--muted)">最慘烈的戰鬥中，背景音樂是<strong>溫柔的童謠色彩鋼琴曲</strong>。</p>
+                </div>
+                <div class="box box-light" style="font-size:13px">
+                  <h4 style="color:#a78bfa;margin-bottom:7px">設計原則</h4>
+                      <li><strong>手抖、視覺模糊、耳鳴、嘔吐</strong></li>
+                      <li><strong>失聲</strong>：聲帶在高輸出後暫時失效</li>
+                    </ul>
+                  </div>
+                  <div class="box box-dark" style="font-size:13px">
+                    <h4>身體延遲（最關鍵的設計原則）</h4>
+                    <p style="margin:0 0 8px">代價<strong>不在當下爆出，而是被迫延後</strong>。戰鬥中沒事——落台之後才嘔吐；先處理現場才掉牙、失聲。她們連崩潰都沒有權利即刻崩。
+                    </p>
+                    <p style="margin:0 0 8px"><strong>靈魂延遲（Soul Lag）</strong>：高強度變身後靈魂不即時歸位，分兩期：</p>
+                    <div class="chain-steps" style="margin:0">
+                      <div class="step-card"><span class="step-k">1</span><strong>麻痺期</strong><span>靈魂未歸位，肉體感覺麻木——暫時感受唔到代價。</span></div>
+
+=== #24 Bash {"command": "sed -n '7578,7590p;7630,7640p;9580,9590p;7554,7572p' 00_Story_Brief.html | cut -c1-1400", "description": "Read Brief Misao tooth scenes and traits"}
+                    <summary style="cursor:pointer;font-size:12.5px;color:#a78bfa;font-weight:600;padding:4px 0">▸ 完美表演點樣裂開</summary>
+                    <div style="padding:6px 2px 2px">
+                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px"><strong>情緒滲漏</strong>：完美表演唔係無縫。操平時完美克制，但會突然壓聲委屈崩喊，或突然憤怒爆發（俾人讀做「公主病」）——兩種滲漏都係佢從未被容許表達過嘅真正委屈，即使深夜獨處確定冇人，肩膊仍然縮埋，因為個身體從未試過「而家絕對安全」係咩感覺。連結呢個崩口，操亦經歷「影相恐懼→影相珍惜」嘅成長：由母親每日對稱假笑俾人拍照，到操學識鍾意冇擺pose嘅抓拍。</p>
+                      <p style="font-size:13px;line-height:1.8;margin:0 0 8px"><strong>眼罩——避鏡</strong>：父親在房裡堆滿鏡子，要佢「面對自己」。操用眼罩奪走呢層凝視；深夜摘下嚟，鏡裡仍然只見到表演中嘅那個自己。</p>
+                      <p style="font-size:13px;line-height:1.8;margin:0">Act II佢主動去紫音失控據點調停，第一次放下「戰術正確」直接暴露情感，調停失敗並以重傷收場——紫音嘅沉默唔係麻木（崩潰雷達有偵測到操嘅恐懼，但提早介入只會令操以為兩人仲有得救），操將之誤讀為「不當她是朋友」。<strong>與彩之間嘅未解舊怨</strong>：Act II多人混戰中彩（被刑思操控）冇同等反應救操，令操傷得更重，撞正「被忽視/可捨棄」嘅核心傷口；操揀用魔法即時修補頂番上，代價係加快靈魂冷化崩壞線。</p>
+                    </div>
+                  </details>
+                  <details style="margin:0 0 10px">
+                    <summary style="cursor:pointer;font-size:12.5px;color:#a78bfa;font-weight:600;padding:4px 0">▸ 美食——唯一冇人核實得到嘅私密享受</summary>
+                    <div style="padding:6px 2px 2px">
+                      <p style="font-size:13px;line-height:1.8;margin:0">操幾乎全身每一個域都俾人監控緊——身體、外表、情緒，淨係得一樣嘢永遠冇人測量得到、批判得到：味覺呢個純粹內在嘅感官經驗。操因此對精緻美食有真正嘅熱愛——喺全身俾人監控嘅人生入面，揀咗一個冇人核實得到嘅角落，畀自己一個安全嘅「想要」。與<a href="#c-miyako">美夜子</a>相反：美夜子連想要都唔畀自己有，操只敢喺一個冇人睇得到嘅域度想要——兩個都係「唔敢完整咁擁有慾望」嘅變奏，方向岔開。</p>
+                    </div>
+                  </details>
+                  <details style="margin:0 0 10px">
+                    <summary style="cursor:pointer;font-size:12.5px;color:#a78bfa;font-weight:600;padding:4px 0">▸ 最後的選擇——死亡不是目的</summary>
+                    <div style="padding:6px 2px 2px">
+                      <p style="font-size:13px;line-height:1.8;margin:0">鋼鐵獨舞／人偶牆之前，操喺集體潛意識深層同母親靈魂碎片短暫重逢——唔打、唔逃、留低直視。呢場係獨立一拍，當時佢完全估唔到自己會死；死亡係企位守通道嘅後果，唔係呢場和解嘅目標。臨終「我選擇停留在我想停留的位置」講嘅係位置同態度，唔係求死。</p>
+                    </div>
+                  </details>
+                    <figure class="scene-figure"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_18_Misao_VanityConfession.png" alt="操の虛榮告白"
+                        class="scene-desc-btn" data-title="虛榮告白——入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫" data-desc="帝國歷113年，操加入主角團初期，在某次任務後的空檔，她靠著牆，側身，不看人，用一種仍然帶著驕傲尾音的語氣說出了她人生中第一次「我不如我以為的那麼好」。眼眶微紅，但妝容完整——她永遠不會在說這種話的時候同時讓自己看起來不行。這份說法的方式仍然帶著她的稜角，但那個稜角已經有了一條細微的裂縫，是她第一次讓人看見一點點真實的自己。" />
+                      <figcaption>
+                        虛榮告白——驕傲底下第一道裂縫</figcaption>
+                    </figure>
+                    <figure class="scene-figure"><img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_49_Misao_PuppetStringTeeth.png" alt="操 傀儡絲牙縫"
+                        class="scene-desc-btn" data-title="傀儡絲從牙縫蔓出——魔法失控時絲線穿透自身，控制者成為被控者"
+                        data-desc="帝國歷113年，操的身體因長期使用魔法而開始崩壞，牙齒鬆動是這個過程的表徵之一。她站在鏡前，用傀儡絲把鬆動的牙縫合回牙齦，妝容完整，嘴角滲血也不擦，繼續進行下一針。她的表情是工作中的人的表情，不是恐懼，是計算——就像在修補一件複雜的衣物。她無法阻止身體的損耗，但她可以把損耗管理成一個可以繼續完成的工序。" />
+                      <figcaption>
+                        傀儡絲從牙縫蔓出——控制者成為被控者</figcaption>
+                    </figure>
+                          src="art/ConceptArt/Scene/ConceptArt_Scene_43_ParentsDay_Infiltration.png" alt="操 家長日大作戰"
+                          class="scene-desc-btn" data-title="家長日大作戰——操偽裝成紫音的家長" data-desc="操穿著高貴的黑色連身裙，搭配黑色長手套，舉止端莊優雅，完全看不出是剛才還在戰鬥的魔法少女。她與紫音一同應付班主任嘅家長日面談，操用成熟、溫柔卻又帶著威嚴的語調回應，展示著她作為「家長」的關切與掌控。" />
+                        <figcaption>
+                          家長日大作戰——操偽裝成紫音的家長</figcaption>
+                      </figure>
+                      <figure class="scene-figure"><img
+                          src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png" alt="操 甜品掉牙"
+                          class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣。" />
+                        <figcaption>
+                          甜品掉牙——冇人察覺嘅死亡恐懼</figcaption>
+                      </figure>
+              </div>
+              <details class="full-text">
+                <summary>Deep detail（只補strip未覆蓋嘅內容）</summary>
+                <div class="full-text-body">
+                  <p>高壓之下代價同步升級：<a href="#c-sou">操</a>發現牙齒開始鬆動，冇同任何人講，只用傀儡絲線把斷牙一顆顆縫返原位——「假如我讓自己睇落去完整，我就係完整。」同一時期，<a href="#c-keishi">彩</a>喺最黑暗嘅角落冷靜注視<a href="#c-haruka">晴香</a>：每當佢陷入極度痛苦，彩畀出嘅唔係同情，只有評估與計算，好似睇緊一舊快蓄滿電嘅電池。</p>
+                  <p><a href="#c-akiho">秋穗</a>同<a href="#c-airi">愛莉</a>母女從未對話，卻以最殘忍嘅方式相互連結——母親在地上製造傷害，女兒在地底默默吸收後果。<a
+                      href="#c-sou">操</a>父親出賣佢時嘅原句係：「這件製作品存在瑕疵，可以回收重造」——用評估廢件嘅語氣，將親生女交咗出去。</p>
+                  <figure class="scene-figure"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_53_WishList_Underground.png" alt="死前願望清單"
+                      class="scene-desc-btn" data-title="死前願望清單——地下避難所一角，悶熱昏黃燈光下，眾人各自保持距離坐臥喘息" data-desc="地下避難所一角，空氣悶熱，燈光昏黃，大家隨意坐臥，各自保持各自的距離感。美夜子（貓形態）說「自然死，八十歲，在醫院」，語氣平靜得像在說天氣。紫音說「食頓飽」，沒有停頓，骨子裡的實在。操說「想拆一個完美的線稿」，傲慢的說法，但「想」字停頓了一秒。晴香沉默很長時間，長到大家以為她不會回答了，然後說「我想再見到某人一次」——她沒有說是誰。四個人，面向不同方向，說出這些話。呢一刻用輕盈嘅形式，揭示每個角色對「正常生活」同死亡嘅真實態度——值得記住呢啲願望，因為之後回看，會知道邊個實現咗、邊個再冇機會。" />
+                    <figcaption>
+
+=== #25 Bash {"command": "sed -n '9300,9330p' 00_Story_Brief.html | cut -c1-500; echo ======; grep -n \"甜品\" 00_Story_Brief.html | cut -c1-300 | head -30", "description": "Context around dessert tooth drop in Brief"}
+                      href="#c-sou">操</a><a class="char-tag" data-char="akane" href="#c-akane">紫音</a><a class="char-tag"
+                      data-char="keishi" href="#c-keishi">語彩</a></div>
+                  <div style="margin-top:12px;display:flex;justify-content:center;"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_16_BansheeFirstBattle.png" alt="悲鳴女妖首戰"
+                      style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
+                  </div>
+                  <p style="font-size:10px;color:var(--muted);text-align:center;margin:4px 0 0">
+                    悲鳴女妖首戰——帝歷113年4月，主角團首次於夜區廢墟對戰悲鳴女妖</p>
+
+                  <div style="margin-top:12px;display:flex;justify-content:center;"><img src="art/ConceptArt/Scene/ConceptArt_Scene_175_FourGirlTeam_Forms.png" alt="四人組隊——被迫依賴而非自然友誼，晴香紫音操彩並肩而立" class="scene-desc-btn" data-title="四人組隊——被迫依賴而非自然友誼，晴香紫音操彩並肩而立" data-desc="四人（晴香、紫音、操、彩）因屍骸危機與制度安排被迫組隊，而非自然成為朋友。四人並排
+                  </div>
+                </div>
+                <div class="story-node"><strong>3. 連結污染</strong><span>她們戰鬥時要共享情緒力量；代價是彼此會看見對方最深的創傷，靈魂邊界開始變得模糊。</span>
+                  <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
+                      class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou"
+                      href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div>
+                  <div style="margin-top: 12px; display: flex; justify-content: center;">
+                    <img src="art/ConceptArt/Scene/ConceptArt_Scene_79_EmotionLink_Crisis.png" alt="首次情緒連結危機"
+                      style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
+                  </div>
+                </div>
+                <div class="story-node"><strong>4. 日常裂開</strong><span>戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。</span>
+                  <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
+                      class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a><a class="char-tag" data-char="sou"
+                      href="#c-sou">操</a><a class="char-tag" data-char="keishi" href="#c-keishi">語彩</a></div>
+                  <div style="margin-top:12px;display:flex;justify-content:center;"><img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png"
+                      alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺"
+                      data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣——完整場景細節見上方操角色卡。"
+                      style="cursor:pointer;max-width:280px;max-height:200px;border-radius:6px;border:1px solid rgba(124,58,237,0.3);" />
+                  </div>
+======
+4846:                    同朋友仔係甜品店，開開心心一齊食甜品，笑聲不斷——然後咬到某一口，<strong>掉了一顆牙</strong>。甜係真的，痛也係真的，而且就係同一口裡面。</p>
+6402:                    難得的和平時光。逛街、吃甜品、影貼紙相——就是普通少女做的事。貼紙相機前各自選框、搶位置、最後四個人擠在同一格。甜品店點了太多吃不完，結果輪流用湯匙剷掉對方的份量。這是她們之間少數幾�
+6406:                    消失：IG 上有一張大頭貼，後來再沒有類似的相片；甜品店隔壁變成了任務現場</div>
+7537:                      <p style="font-size:13px;line-height:1.8;margin:0"><strong>被摧毀嘅成長線</strong>：操開始學識享受被影相，代表療癒進度；父親刻意安排專業攝影師同操最鍾意嘅甜品，但精準計時令鏡頭正正影住操被拆穿、崩潰嗰一刻�
+7636:                          src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png" alt="操 甜品掉牙"
+7637:                          class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣。" />
+7639:                          甜品掉牙——冇人察覺嘅死亡恐懼</figcaption>
+7938:                    <div class="design-img-cap">魔法少女（甜品師・skull 小狗）</div>
+7941:                    <h4>魔法少女形態（甜品師 × skull 小狗）</h4>
+7948:                      <li><strong>武器</strong>：大型糖果粉碎鎚——甜品師主題 + 鋸齒設計，像用來粉碎硬糖、骨頭與幻想的重型甜品工具</li>
+9327:                      alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺"
+9328:                      data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣——完整場景細節見上方操角色卡。"
+
+=== #26 Bash {"command": "sed -n '9262,9298p' 00_Story_Brief.html | cut -c1-700", "description": "Read Brief Act I story-node chain header"}
+                    href="#c-akiho">秋穗</a>不惜與<a href="#c-keishi">刑思</a>做交易，甚至出賣<a href="#c-haruka">晴香</a>。<a
+                    href="#c-airi">愛莉</a>在精神世界中成為了吸收全城痛苦嘅「濾心」，默默承受母親發明帶嚟嘅折磨。</p>
+                <p style="margin-top:8px">愛莉早已原諒——這份原諒永遠困在集體潛意識，秋穗永遠聽不到、永遠不知道有沒有被原諒。觀眾才是唯一見證者。秋穗主線最終永久困於無臉循環，不是「得到原諒之後帶住放手活落去」。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+        <!-- ═══════════════════════════════════════════════ 04 故事流程 -->
+        <div class="category-section">
+          <h2 class="category-title">04 故事流程</h2>
+          <p class="category-desc">六階段故事、結局解讀、時間線。用來掌握劇情推進。</p>
+        </div>
+
+        <section class="sec reading-heavy" id="story">
+          <h2>故事</h2>
+          <div class="visual-note" style="margin-bottom:14px">
+            <strong>讀故事前，先知呢幾個詞代表咩：</strong>成個故事分四大幕（Act I、II、III、IV），下面再拆做六個階段（第一至六階段）——幕係大分段，階段係故事節奏嘅細分。你會不時見到「Phase J」（一個特定劇情節點嘅代號，晴香雙重支柱倒塌、菲接管身體嗰個時刻）、CDL/E-0x/SPEC#（內部劇情追蹤編號，讀故事時可以完全略過，唔需要理解）。淨係記住：<strong>Act I=虛假起點同隊伍成立，Act II=社會性崩壞同背叛，Act III=真相揭曉同犧牲，Act IV=承接結局</strong>，就夠應付下面全部內容。
+          </div>
+          <div class="subsection-grid">
+            <article class="subcard subcard-wide flow-medium visual-compressed story-phase-card">
+              <h3 id="story-1">第一階段：虛假的英雄起點與日常裂痕</h3>
+              <div class="visual-note"><strong>壓縮閱讀：</strong>這段係 Act I 的「隊伍成立 → 連結代價 → 日常裂痕 → 家長日作戰 → 小光之死 → 紫音崩潰被導向 → 秋穗暗線
+                → 膠布哲學第一/二層 →
+                菲鏡中整合」；先用 beat strip 讀節奏，詳細劇情放入展開。</div>
+
+              <div class="story-strip">
+                <div class="story-node" role="button" tabindex="0" data-jump-to="#tl-113-start"><strong>1.
+                    被迫入局</strong><span>晴香只是普通學生，意外看見魔法少女戰鬥後，被美夜子交出變身裝置，正式被拖入不能回頭的世界。</span>
+                  <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
+                      class="char-tag" data-char="miyako" href="#c-miyako">美夜子</a>
+                  <div style="margin-top:12px;display:flex;justify-content:center;"><img src="art/ConceptArt/Scene/ConceptArt_Scene_174_Haruka_ForcedIntoTheGame.png" alt="被迫入局——晴香意外目擊美夜子戰鬥，接過變身裝置，無法回頭" class="scene-desc-btn" data-title="被迫入局——晴香意外目擊美夜子戰鬥，接過變身裝置，無法回頭" data-desc="晴香意外目擊美夜子（貓形態）戰鬥後的殘局，美夜子將變身裝置交到她手上，眼神帶著一種不可逆的重量。晴香望著手中陌生的物件，表情混雜著震撼、疑惑與一絲說不清的命定感。" style="cursor:pointer;max-width:280px;max-height:200px;borde
+                  </div>
+                </div>
+                </div>
+                <div class="story-node" role="button" tabindex="0" data-jump-to="#tl-first-team-battle"><strong>2.
+                    四人組隊</strong><span>晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊。</span>
+                  <div class="node-chars"><a class="char-tag" data-char="haruka" href="#c-haruka">晴香</a><a
+
+=== #27 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && echo \"=== haruka\" && for r in 75,85 194,211 232,236 289,295 321,321; do echo \"--- $r\"; sed -n \"${r}p\" haruka.md | cut -c1-420; done; echo \"=== miyako\"; for r in 176,178 182,182 192,202 210,210 253,256 278,278 282,282; do echo \"--- $r\"; sed -n \"${r}p\" miyako.md | cut -c1-420; done", "description": "Re-verify key lines in haruka and miyako character files"}
+=== haruka
+--- 75,85
+一出生就失去母親的缺失感，在她潛意識中植入「我無法保護我所愛的人」以及「我害怕再次失去」的劇毒信念。她將自己擺在「拯救者」位置上，發展出極端的討好型人格與拯救者情結。她對所有人都好，本質上是一種拒絕深層連結的防護罩——因為如果不深交，失去時就不會那麼痛。
+
+### 幸運嘅一個——Act I 冇面具、冇隱藏創傷（CDL-355）
+
+**重要澄清**：晴香唔應該讀成「戴住面具、收埋緊童年創傷」——同操/凜等角色唔同，佢冇一個對稱嘅具體童年創傷需要隱藏。除咗一出生就失去母親（未經歷、非目擊式嘅缺失）之外，佢喺秋穗阿姨（雖然成日好忙，但溫暖係真心）撫養下，童年相對嚟講係全個主角團入面**最幸運嘅一個**——冇被逼做手術、冇死
+
+**呢個設計嘅目的**：佢嘅心理重量唔應該由童年創傷提供，而係**隨劇情發展逐步累積**——目擊操/紫音等隊友接連受苦、逐步得知自己就係「創世者」、發現自己嘅好命某程度上係用其他人嘅苦難換嚟——呢啲先係令佢「拯救者情結」由天真嘅助人衝動，慢慢演變做罪疚驅動嘅心理負擔嘅真正過程。**「為人哋喊，�
+
+**倖存者式唔安——「追平差距」嘅補償衝動（CDL-356）**：Act I嘅晴香雖然真心、冇面具，但佢每日相處嘅隊友全部都經歷過佢冇經歷過嘅恐怖（操被逼做手術、美夜子死過復活、紫音癮君子家庭、凜嘅遭遇）。呢種處境本身，就算佢自己完全唔知道背後有創世真相，都已經足以種到一種模糊嘅倖存者式唔安——**「我
+
+**初期嘅盲點——因為幸運而唔完全理解（CDL-356）**：Act I 嘅晴香除咗真心、冇面具，仲應該有盲點——佢會講啲出於好意但其實有啲離地嘅說話，唔係惡意，係佢真係未捱過隊友嗰種級數嘅痛，所以講嘢會拿捏唔到位。呢個可以喺團隊相處入面製造真實嘅摩擦——操/凜/紫音對佢個「太正面」嘅視角，可能會有一閃�
+--- 194,211
+- 拯救所有人，不讓任何人受傷
+- 獲得「被需要」與「被感激」的存在證明
+
+**Need（隱性需求）**：
+- 直面 [Alpha 線](../02_glossary.md#term-alpha-line)真相，接納自己作為「創世者」的責任
+- 整合[夕](yu.md)，承認自己的陰影面
+- 學會「我唔使靠拯救行為都要照顧自己」（措辭修正，CDL-356——原「唔用魔法都要照顧自己」易誤讀做literal魔法依賴，實指拯救行為本身，唔係魔法力量本身；呢個「拐杖」係晴香專屬，唔需要套用落全部角色，操嘅拐杖先係literal嘅身體魔法依賴）——不依賴拯救他人來證明存在價值
+
+**Lie（核心謊言）**：
+- 「我的真實情感是一把失控且致命的武器」
+- 「我必須永遠快樂和有用，才能被愛和接納」
+- 「如果我不再是『有用的英雄』，那個『作為人類的我』就會消失」
+- 「幫人係無私嘅」——實際底層有「被需要先確認自己值得存在」呢個自私核心，承認呢個核心唔等於要放棄幫人（CDL-355）
+
+**Truth（最終真相）**：
+- 無法改變事實（Alpha），只能[改變態度](../02_glossary.md#term-attitude-vs-fate)（Beta）
+- 代價不會憑意志蒸發；她唯一能主導的是「如何承擔」與「為誰承擔」（規則口徑見 [情緒守恆](../02_glossary.md#term-emotion-conservation)）
+- 愛自己不需要魔法——即使不完美，也值得被愛
+--- 232,236
+王道氛圍。晴香相信自己是「希望使者」，以偶像身份散播光明。觀眾與她同步代入——魔法少女 = 正義。粉色長髮、飽和色彩、充滿活力的太陽形象。拯救者 Archetype 全開：對所有人笑、對所有人好、以為自己能拯救世界。
+
+**幽靈症狀 Act I 呈現方式（CDL-096）**：A+B 組合——[NC] 場景中視覺化（晴香獨處時出現重量感/鏡中影子/記憶片段，玩家直接感受）+ 對話中自然輕提（「最近有時聽到啲咩」「感覺身體有點沉重」等，不直接命名）。兩種媒介並用，令症狀存在感多層次積累而不過度強調。
+
+**膠布哲學 Act I 種植（CDL-070）**：[NC] 段落中植入晴香習慣性用膠布蓋住「問題」的行為——逃避/掩蓋行為的具現化。觀眾初讀 = 晴香的小習慣；E-XX 幕末整合高潮時，晴香放下膠布、主動把手貼向鏡面/夕，此習慣性動作形成視覺語言閉環。
+--- 289,295
+1. **[膠布哲學](../02_glossary.md#term-band-aid-philosophy)** — 在手指或手臂貼彩色膠布，「痛是證據」。書包內設專用膠布袋，隨身攜帶各色圖案膠布；手指常疊貼 2-3 層，形成「護甲」。劇情弧：初期（過度貼蓋／逃避）→ 中期（血從縫隙滲出）→ 高潮（撕開直視）→ 結局（不再需要）。**具現化前因補充（CDL-357）**：每�
+2. **鏡中對話** — 經常對著鏡子自言自語，試圖與[夕](yu.md)溝通（早期）或對抗（中期）
+3. **絕對共感視界** — 能看見其他人看不到的「遊戲 UI」（血條、情緒圖標）——實際上是創世者特權，她誤以為是「同理心強」。**自我盲點——具現化前因嘅核心設計（CDL-357）**：呢個UI理論上都應該照到晴香自己嘅狀態，但佢每次要施力助人前，會下意識避開自己嗰格數值——即係話**佢有能力睇到自己嘅警號，
+4. **強制微笑** — 即使痛苦也會強制自己微笑，討好型人格的外在表現
+5. **夜間獨白** — 深夜在無人處對著黑暗說話，釋放白天壓抑的情緒
+6. <a id="habit-transparency-obsession"></a>**透明物執著** — 收集透明文具與飾品，長時間凝視玻璃杯、肥皂泡、晨露，用指尖輕觸表面確認有無瑕疵。透明象徵「沒有秘密」，是對內心黑暗面的無意識否認；透明物出現裂痕時會感到莫名不安（映射對自身不完美的恐懼）
+7. <a id="habit-hot-cocoa"></a>**睡前熱可可成癮** — 每天睡前必喝一杯濃稠至病態程度的熱可可，精心調配糖份，喝完用指尖刮取杯底殘留糖粉。高糖分多巴胺是她的「安全閥」，強行製造虛假幸福感以維持「永遠充滿活力」的假象；隨情感耗損，此習慣被嚼冰塊取代
+--- 321,321
+- **行為 Tells**：焦慮時縮手入袖口；說謊時過度燦爛笑容（面部肌肉僵硬）；疲憊時戴上耳機低頭切斷眼神接觸。
+=== miyako
+--- 176,178
+**Act I 底層心理設計（CDL-060）**：美夜子大腦說「晴香是工具」，但靈魂本能殘留令晴香成為「在狂風暴雨中唯一感到熟悉與安全的錨點」（Alpha 線記憶的潛意識殘響）。Act I 寫法 = 口裡說不，身體本能守護。
+
+**Act I 非功利保護動作（CDL-083）**：E-02 首戰中有一個非計劃內的即時保護晴香動作（擋住攻擊或拉走晴香），立刻用功利理由掩蓋（「晴香對戰局有用，不能讓她在這裡倒下」）。晴香若有所感但未深究。
+--- 182,182
+**凜信息極簡帶猶豫（CDL-084）**：E-02 美夜子提出情緒連結時，帶情感色彩地提及凜：「我以前…同一個人試過。應該有效。」一句話內有一瞬猶豫/沉默，晴香察覺美夜子的猶豫但沒問。目的：讓觀眾記住「美夜子有秘密/過去」，為 E-04 凜前史的情感衝擊做最小前置。
+--- 192,202
+| Act I：全程黑貓 | E-01~E-04 | 詛咒穩定維持，Unit 01身份完全隱藏 | 觀眾只見「黑貓守護者」 |
+| Act II E-06：Glitch Form首次呈現（2026-07-06 觸發源由總部被襲修正為鏡像處刑室）| 鏡像處刑室心理極限衝擊 | 鏡像法則強制映照+PTSD解離雙重夾擊→貓形態功能性崩裂0.5秒→冰藍色人類少女殘影顯現→Unit 01波長Spike外洩→EMB捕捉 | 觀眾首次看見美夜子「真實形態」的碎片（雙層視角設計） |
+| Act III：詛咒徹底破碎 | 貓殼碎裂 | 情緒傷口長期積累最終衝破詛咒結構 | 「借來的生命」面對自身真相的時刻 |
+
+**軟接觸（Soft Pivot，CDL-191）**：113年7月晴香「社會性死亡」後，美夜子的功利守護藉口完全失效——此刻繼續陪伴已無法以「晴香對戰局有用」掩蓋。廢棄地鐵站[NC]中，美夜子不解釋、不出聲，只是關上手機、遞出一杯常溫水，然後留在原地。核心台詞：「妳依家確實係一件廢物。但係，我唔會走。」——兩人關係�
+
+**忠誠——正面特質，有明確排他性邊界（CDL-337，2026-07-18 修正）**：美夜子嘅忠誠唔係「對隊伍全體自動生效」嘅溫馨設定，而係**淨係俾佢信任嘅人**先攞到——起點錨定喺晴香（凜死創傷令佢極度恐懼再一次珍視某個人），CDL-083（E-02本能反應，仲未自覺）→CDL-043（E-04美夜子強硬阻止紫音超載，用同一份本能做咗
+
+**「解離性麻木」唔屬於呢個日常底色（2026-09-10 校準）**：美夜子嘅日常底色 = 面硬、話少、扮唔理，但暗地睇住晒、默默照住人（見 [Behavior Hook #14](#habit-quiet-tending)、[沉默守護](#section-behavior-hooks)）。canon 入面提到嘅「解離性麻木」係佢**頂唔順嗰陣／急性創傷反應期**先出現嘅狀態——凜死打穿人格防線嗰陣、[貓�
+
+**魅力／機智空間（CDL-410，2026-09-20 作者確認方向）**：美夜子容許有魅力、機智、幽默。canon 現有基礎：追光點／貓舌／偷食棒棒糖反差（CDL-342）、K 房歌聲；真正未開發嘅係 wit／幽默。呢條**只係方向准許，唔係具體設計**——具體形式／句式／場景留 voice bible／Beat Sheet／Script 層；同上面八千代底色（CDL-408，已確
+--- 210,210
+**「有用先值得留低」完整因果鏈（CDL-354）**：美夜子最深嘅 [Need](#section-wnlt)——「在信賴的人面前大哭一場，證明即使軟弱也值得被愛」——底下藏住一條完整、全部扣連現有事件嘅因果鏈，唔使新增設定：①**起點——凜為咗一個「冇用緊」嘅美夜子而死**：凜犧牲嗰刻，正正係為咗掩護美夜子撤退——即係話嗰�
+--- 253,256
+2. **無體溫 / 無心跳** — Alpha 線「已死事實」的生理滲漏；[魔法屍骸](../02_glossary.md#term-magical-corpse)的隱喻
+3. **[光環](../02_glossary.md#term-halo)警戒** — 對隊友光環徵兆極度敏感，會粗暴打斷施法：「停下來！妳想被扭斷嗎？！」
+4. **貓形態厭惡** — 強烈抗拒變回貓，視為「失去尊嚴」的象徵
+5. **沉默守護** — 不善言辭，用行動表達關心（偷偷檢查隊友傷勢、準備食物）
+--- 278,278
+13. <a id="habit-lip-bite"></a>**咬嘴唇（跨形態通用）**（CDL-347）— 美夜子每次做完一個非計劃、發自本能嘅保護/關心動作之後，開口講出計算過嘅功利藉口之前，會有半拍不受控咁咬住下唇——真心話已經衝到嘴邊，呢個動作係佢用嚟physical截停自己嘅方法。人形同貓形態做嘅係完全同一個動作、同一個時機（貓有明顯�
+--- 282,282
+14. <a id="habit-quiet-tending"></a>**扮唔理，暗地執手尾**（CDL-408）— 對住信任圈邊緣、甚至圈外嘅人，美夜子表面上唔瞅唔睬，但實際會做啲細微、事後唔認嘅照顧動作：戰鬥後不動聲色遞返隊友跌咗嘅裝備／彈匣；行位時自然卡喺一個新人同屍骸之間擋一擋；記得某個唔算熟嘅人邊隻手受過傷、落指令時避開嗰邊；隊友
+
+=== #28 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && echo \"=== misao\" && for r in 46,60 97,97 244,256 288,292 315,323 365,365 376,376 398,399; do echo \"--- $r\"; sed -n \"${r}p\" ayakomoji_misao.md | cut -c1-420; done", "description": "Re-verify key lines in misao character file"}
+=== misao
+--- 46,60
+操不是完美主義者——她是「恐懼露出破綻的人」。24 小時不間斷地表演「完美女性」，每一個動作、每一句話都經過精密計算。這不是追求卓越，而是恐懼驅動的生存策略：一旦表演崩潰，她相信自己會被丟棄。
+
+### Alpha 原傷五步模板（CF-T21）
+
+| 步驟 | 內容 |
+|------|------|
+| **Alpha 原傷** | 家道中落，綾小路家族在 Alpha 線破產，操隨父親行乞，被人當垃圾對待——「我只是路邊的垃圾，沒有人看我一眼。」 |
+| **童願** | 「我想讓他們有尊嚴。」（幼年的操在父親被人踩踏時許下的意念） |
+| **Beta 修正** | 晴香的大願讓綾小路家族在 Beta 線恢復體面——名門、財富、社會地位全數回歸 |
+| **守恆反噬** | 體面變成枷鎖：名門身份要求以男性繼承人繼位，性別被家族工具化；父親安排物理性別重置手術（CDL-155）強行確保繼承人身份；「尊嚴」被重新定義為「服從家族期望」，操的真實身份再次被消滅 |
+| **態度缺口** | 「我不是想做某個身份，我是想不再被人定義。」她要的不是當男人或女人，而是由自己決定自己是誰。 |
+
+### 核心恐懼
+
+「如果被發現我是假的就會被丟棄——像父親丟棄真正的我。」父親拒絕接納生理女性的操，強制以男性身份養育她作為家族繼承人。操學會了一套完美偽裝：用表演取代真實，用優雅掩蓋恐懼。
+--- 97,97
+**被迫現形嘅避見人時期（CDL-363，扣連CDL-362療傷代價）**：操連續透支「奇蹟簡易療傷」代價（見CDL-360/361/362因果鏈），令佢心之器暫時唔穩定到冇辦法維持變身狀態，被迫用返未變身、俾人動過手術嘅身體一段時間。**呢段時期操會避見晴香等隊友**——變身係操唯一可以擁有返自己真正（女性）身體嘅方式，一旦�
+--- 244,256
+以完美表演的瓷娃娃身份加入隊伍。每一個動作優雅精確，每一句話審慎斟酌。隊友感受到她的距離感，卻無法穿透精密偽裝。強迫性的完美——花數小時整理頭髮衣物、房間一塵不染、物品精確角度——暗示深層的控制焦慮。
+
+**暗戀線 [NC]（CDL-146）**：Act I 隊伍日常期間，操與無名男孩（美術部）發展出隱秘的暗戀情愫。隊友（晴香/紫音/美夜子）各自以笨拙而真實的方式「幫倒忙」介入，構成全幕最具溫度的偽亮色感日常場景。具體場景設計 btd Act I Beat Sheet。
+
+**入隊前的獨行俠心理（CDL-063/064/065）**：
+- **形式主義悲劇核心（CDL-063）**：操打屍骸不是出於正義，而是「魔法少女身份的絕對規則義務」——既然獲得此身份，消滅怪物就是必須遵守的全套戲碼，否則恐慌假身份穿崩。孤身戰鬥但冇觀眾 = 空洞疲勞的精神消耗
+- **燈塔效應的死循環（CDL-064）**：啟動情緒力量裝置 → 觸發集體潛意識燈塔效應 → 持有者成為全城屍骸的獵殺目標；操一旦變身就被迫應戰，「冇得唔打」
+- **獨行俠戰鬥記錄（CDL-065）**：入隊前確有戰鬥記錄（雙重強迫：燈塔效應 + 形式主義）；獨自獲勝卻從無見證 = 精神極度空洞；[晴香](haruka.md)「擋攻擊+問裙子」的衝擊在此背景下才能理解——她第一次感受到「有人在乎她這個人而非戰果」
+
+**可靠——正面特質（CDL-337）**：操嘅形式主義偏執喺日常被讀做龜毛/難搞，但正正係呢種計到盡、絕唔留手嘅性格，令佢成為隊入面最可靠嘅一個——別人未必想過嘅細節，佢一定計過。呢個唔係同「性格即死因」（[鋼鐵獨舞死因機制](#section-four-act-arc)）分開嘅兩件事，而係同一枚硬幣嘅兩面：佢可靠嘅原因（形�
+
+**違反套路預期——過度計算救咗人（CDL-341，方向確認，具體演出留Beat Sheet）**：建議喺Act II Phase D地下絕境期（CDL-322/323既有beat）加一層鋪墊：黑市補給/搜索途中撞到緊急狀況，操堅持行完程序化嘅量度/計時/核對逃生路線先肯行動，隊友或同行陌生人當刻覺得佢反應過慢、太執著形式，質疑「依家仲計乜嘢」（套�
+- **E-02 意外救人+多重解讀（CDL-322）**：入隊戰混戰之中，操順手（非刻意，係求存嘅副作用）擋咗/救咗一個路人。三重解讀並存——晴香解讀＝操心地善良（強化揀佢入隊嘅理由）；路人解讀＝呢個神秘強者救咗我；**操自己嘅解讀（私下，未言明）**＝表面冷處理/否認呢件事有咩特別，但內心因為路人事後真誠嘅�
+--- 288,292
+操的魔法過度消耗代價以「牙齒崩壞→絲線縫牙」形式分四階段展現，完整呈現「完美主義如何吞沒自我」的物理過程。傀儡絲線既是武器，也是補綴工具，雙重意義在此具現化。
+
+**Stage 1（Act II前期，Phase A～B）**：操魔法過度使用後出現牙齦滲血——表面上看似普通，操以「完美外表形式主義」強行壓制，不向任何人提及。觀眾可能初讀為戰鬥受傷；守恆定律Layer 1物理代價的具現。
+
+**Stage 2a（Act II中期，E-09a，肉體層）**：父親背叛+紗夜犧牲期間，高壓魔法使用後操的牙齒開始鬆動乃至脫落。操在巨大情感創傷中（被父親否定為廢品、紗夜被制伏），利用傀儡絲線將斷牙縫回，強行維持外觀完整——「物理上的自我修補」，試圖以完美外殼抵禦崩潰。此刻也是創傷性耳鳴封印紗夜遺言的同一瞬間
+--- 315,323
+7. <a id="habit-seamstress"></a>**病態無痕修補（AKS埋位）**（CDL-155/156）— 操隨身攜帶細針與絲線，對破損的東西有不可抑制的修補衝動：隊友撕裂的戰鬥服、彩的殘舊熊公仔、任何出現裂縫的布料。她補過的東西連縫合痕跡都看不見，完美得如同從未破裂。**觀眾初讀（Act I）**：「千金大小姐教養極好，女子力點滿。」**�
+
+8. <a id="habit-grievance-leak"></a>**委屈式崩喊／公主病爆發（情緒滲漏）**（CDL-347）— 完美表演唔係無縫，佢會滲漏。操平時完美克制，但偶爾（唔可預測、佢自己都攔唔住）會突然細細聲、委屈咁抽泣崩喊——唔係嚎哭，係壓住聲量、肩膊縮埋嗰種啜泣，好似驚俾人聽到但又忍唔住；另一個滲漏方向係突然嘅憤怒爆發，
+
+**連獨處都冇安全感——監控唔止喺人前（CDL-390）**：呢種崩喊唔止喺人前先驚。深夜、房門鎖埋、四野無人、連佢自己都清楚今晚根本冇任何人可能推門入嚟——喊嗰陣，佢肩膊仍然縮埋，聲仍然壓到最細。冇人喺度睇，冇人會用呢個嚟拋棄佢，呢一晚根本冇人可以拋棄佢——但佢個身體都唔會因為冇觀眾而鬆半分�
+
+9. <a id="habit-photo-arc"></a>**影相恐懼→影相珍惜（正面特質成長標記）**（CDL-347）— 起點：操極度抗拒被影相，母親（CDL-297 活體人偶）每日以完全對稱嘅微笑俾客人拍照留念嘅畫面，係操最深嘅恐懼具象——相片＝永遠定格嘅假象，一張相如果影到任何瑕疵，就等於證據確鑿嘅「表演失敗」，所以佢寧願唔留低任何影
+
+10. <a id="habit-food-refuge"></a>**美食——唯一冇人核實得到嘅私密享受（心理精修，CDL-350）**：操幾乎全身每一個域都俾人監控緊——身體（CDL-155手術）、外表（24小時表演完美）、情緒（連易喊都要壓住），淨係得一樣嘢，永遠冇人測量得到、批判得到：味覺呢個純粹內在嘅感官經驗。外貌可以俾人打1mm嘅分數，表演可
+--- 365,365
+- **戰鬥風格**：潔癖的指揮家。手指如彈鋼琴般操控傀儡，**絕對不接觸地面**——永遠以絲線懸吊自身或在空中滑行。**弱點：地面層攻擊**——任何迫使操接觸地面的攻擊方式將打斷她的絲線系統並使傀儡失去控制。
+--- 376,376
+| 第一幕 | 每天測量一次；完美遮蓋 | 任何未被告知的接觸 | 不可見（完美偽裝） |
+--- 398,399
+| 父親 | 原生家庭 / 創傷根源 / EMB 技術供應商（觀察者身份）| 拒絕接納操的真實身份；以家族名聲為由秘密隱瞞其魔法少女身份並錄影戰鬥數據；E-09a 判定操為「廢品」後交給帝國；Phase H 以母親命運作為最後勒索武器（CDL-298）|
+| [晴香](haruka.md) | 隊友 | 映照晴香「完美面具」的另一種形態；晴香的善意是操卸下偽裝的契機之一 |
+
+=== #29 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && echo \"=== BEAT SHEET\" && for r in 147,185 189,227 273,311 357,395 399,437 758,794; do echo \"--- $r\"; sed -n \"${r}p\" ACT_I_BEAT_SHEET.md | cut -c1-360; done", "description": "Re-verify Beat Sheet key ranges"}
+=== BEAT SHEET
+--- 147,185
+### Beat 0d — E-01當晚（晴香回家後那一夜）`[DRAFT]`
+
+| 欄位 | 內容 |
+|---|---|
+| **beat function** | 呈現E-01極大心理衝擊後嘅情緒消化空間；支撐「天台次日主動赴約」嘅心理質感；睡前熱可可儀式建立（Act II可樂失味對比前置） |
+| **entry state** | 晴香剛經歷首次變身+戰鬥+桐生健事件，情緒過載但未崩潰，回到獨處空間 |
+| **pressure/trigger** | `COST_SIGNAL_NOT_APPLICABLE`——純情緒消化底色 beat：功能係內在反應嘅空間，唔涉及新嘅外部行動或揀擇，但呢個內在反應本身係對 Beat 1 已發生嘅外部 Cost Signal（屍骸攻入）嘅延遲反應消化，符合consequence-driven-progression.md「有效例外」條款（內在轉化由先行
+| **participant intentions** | 晴香＝無意識地壓制/正常化當日衝擊，透過儀式重建安全感 |
+| **action** | 晴香獨處；精心調配極甜熱可可；閉眼喝；儀式感動作 |
+| **reaction** | 表情平靜但眼神有掙扎——壓抑而非釋放 |
+| **turn** | 無明顯 turn；beat 本身係一個延遲反應嘅安靜空間，功能係鋪墊而非轉折 |
+| **consequence** | 睡前熱可可習慣正式確立（Behavior Hook）；晴香「強迫自己正常」嘅壓制模式首次具現化 |
+| **emotional value shift** | 高衝擊後嘅人工降溫（虛假幸福感製造），情緒未真正處理，只係被暫時封存 |
+| **relationship delta** | 無——純獨處場景 |
+| **audience info delta** | 觀眾見到晴香嘅應對機制（安全閥/自我安撫），加深角色理解，但唔提供新劇情資訊 |
+| **character knowledge delta** | 無新增——純情緒層 |
+| **setup/payoff obligations** | 睡前熱可可儀式植入，回收於 Act II 可樂失味（味覺喪失）對比，及後段嚼冰塊取代（haruka.md habit-hot-cocoa） |
+| **world-rule exposure** | 無 |
+| **broad gameplay form** | [NC] 質感（雖屬主線強制段落但遊戲形式接近純氛圍呈現）；無台詞，純視覺；玩家操作極簡或純過場 |
+| **exit state** | 晴香情緒暫時封存完畢，進入次日主動赴約嘅心理準備狀態 |
+| **pressure into next beat** | 一夜消化完成，純時間銜接進入「天台使命說明」——非 cost signal |
+| **source/obligation trace** | ACT_I_OUTLINE.md「Beat 0d」段（CDL-123）|
+| **status** | `[DRAFT]` |
+
+**Obligation Pass：**
+
+| 軸 | 判斷 | 說明 |
+|---|---|---|
+| character arc | RELEVANT | 晴香「壓抑稅」機制嘅最早具體行為示範（habit-hot-cocoa，見haruka.md CDL-357） |
+| relationship | NOT_RELEVANT_WITH_REASON | 純獨處場景，冇其他角色參與 |
+| knowledge/reveal | NOT_RELEVANT_WITH_REASON | 呢個beat唔推進 plot 資訊，純心理質感呈現 |
+| theme/stance | THEME_SEEDED | 「假裝製造幸福感嘅安全閥」係後段「為人哋喊，為自己唔喊」不對稱弧線嘅早期身體化種子 |
+| setup/payoff | RELEVANT | 熱可可習慣→Act II可樂失味對比（P-A之外嘅角色專屬習慣線） |
+| world rule | NOT_RELEVANT_WITH_REASON | 純角色心理層，無涉及世界規則 |
+| gameplay | RELEVANT | 定義咗「無台詞純視覺」呢種特殊 beat 嘅遊戲呈現形式 |
+| directing grammar | RELEVANT | 情緒消化空間嘅節奏設計（王道戰鬥後刻意留白，對照後段「快樂假象崩解」） |
+| cross-act dependency | RELEVANT | Act II可樂失味/嚼冰塊/「為自己唔喊」弧線全部由此起錨 |
+
+**DOWNSTREAM REFERENCES：** 下方「E-01 [SCENE REFERENCE]」段 BEAT 0d（已有完整場景設計，含鏡頭推遠描述）
+--- 189,227
+### 天台使命說明（次日）`[DRAFT]`
+
+| 欄位 | 內容 |
+|---|---|
+| **beat function** | 正式交付「維多利亞天使」使命（半真半假）；建立美夜子孤立感嘅空間語言；晴香拯救者情結被制度性命中，全盤接受使命 |
+| **entry state** | 晴香經過一夜消化，主動赴約；美夜子已在天台等候，冷漠疏離姿態 |
+| **pressure/trigger** | `COST_SIGNAL_NOT_APPLICABLE`——純資訊交付/對話 beat，功能係使命說明本身，唔涉及新嘅外部行動改變狀態；純底色/世界觀建立性質嘅對話場景 |
+| **participant intentions** | 美夜子＝執行功利任務（穩固晴香做工具），底層靈魂本能已視晴香為安全錨點（未表露）；晴香＝渴望被需要、渴望確認自己有價值 |
+| **action** | 美夜子背對晴香站在天台邊緣，解說使命同裝置綁定；晴香主動追問「咁我要點做？」 |
+| **reaction** | 晴香全盤接受（拯救者情結命中）；美夜子維持功利語氣，迴避守恆代價嘅提及 |
+| **turn** | 晴香由「被動獲得能力」轉化為「主動接受使命」——身份認同正式確立 |
+| **consequence** | 「維多利亞天使」使命正式交付（半真半假）；晴香日後嘅魔法少女行動獲得敘事正當性框架 |
+| **emotional value shift** | 由不確定的忐忑→被賦予意義嘅安心感（但底層係被隱瞞代價嘅陷阱） |
+| **relationship delta** | 晴香-美夜子＝功利指導關係表層確立；美夜子底層「安全錨點」感受首次出現但未表露（口裡說不，身體本能守護） |
+| **audience info delta** | 觀眾接收到「維多利亞天使」使命嘅官方版本，但同時（透過美夜子迴避守恆代價）暗示資訊唔完整 |
+| **character knowledge delta** | 晴香＝獲得「使命」認知，但唔知係半真半假、唔知守恆代價、唔知帝國幕後操控 |
+| **setup/payoff obligations** | 半真半假使命（CDL-055）埋入，回收於 Act III 維多利亞天使謊言揭露（P-A03）|
+| **world-rule exposure** | 使命框架本身（裝置綁定/「大眾鎮靜劑」定位）——碎片化，未完整解釋守恆代價 |
+| **broad gameplay form** | 主線強制；對話場景，高處俯視城市嘅空間語言（孤立感視覺化）；玩家操作極簡 |
+| **exit state** | 晴香帶著全新身份認同同使命感，進入 Beat 2（E-02）首戰段落（2026-09-11 housekeeping correction：原寫「進入 Beat 4.5」係 LOCAL_ORDERING_ERROR，見章節頂部說明；Beat 4.5 實際位置喺 Beat 3 之後） |
+| **pressure into next beat** | 純敘事銜接（時間推進至日常互動期，銜接下一場戰鬥前置日常）——非 cost signal |
+| **source/obligation trace** | ACT_I_OUTLINE.md「天台使命說明」段（CDL-103/055/060）|
+| **status** | `[DRAFT]` |
+
+**Obligation Pass：**
+
+| 軸 | 判斷 | 說明 |
+|---|---|---|
+| character arc | RELEVANT | 晴香「拯救者情結」正式錨定為身份認同；美夜子底層靈魂本能首次出現（未表露） |
+| relationship | RELEVANT | 晴香-美夜子功利指導關係確立，雙層心理（美夜子口硬心軟）首次示範 |
+| knowledge/reveal | RELEVANT | 「半真半假」資訊落差正式確立——AKS-H0 延續但埋入未來揭露嘅種子 |
+| theme/stance | THEME_EXPLICIT | 使命交付本身＝子主題B「完美的幻象」嘅制度化呈現 |
+| setup/payoff | RELEVANT | P-A03（維多利亞天使信仰）正式錨定 |
+| world rule | RELEVANT | 使命框架/裝置綁定機制碎片化揭示 |
+| gameplay | NOT_RELEVANT_WITH_REASON | 純對話場景，冇特殊機制或戰鬥系統介入 |
+| directing grammar | RELEVANT | 「高處俯視城市」空間語言＝美夜子孤立感第一次以場面調度呈現 |
+| cross-act dependency | RELEVANT | Act III 謊言揭露/身份崩潰直接由此使命交付起錨 |
+
+**DOWNSTREAM REFERENCES：** 下方「E-01 [SCENE REFERENCE]」段「天台使命說明（次日）」（已有完整場景設計）
+--- 273,311
+### Beat 2 — E-02：首戰 + 操入隊 + 情緒連結首戰 `[DRAFT]`
+
+| 欄位 | 內容 |
+|---|---|
+| **beat function** | 情緒連結（empath power）首次使用；操入隊；美夜子非功利保護動作再現；紫音「搶怪黨」初印象建立；Peak Moment of Doubt 前置種子（CDL-224） |
+| **entry state** | 隊伍（晴香+美夜子）延續 Beat 1 後嘅日常運作節奏，尚未擴張 |
+| **pressure/trigger** | `COST_SIGNAL_REQUIRED`——大型屍骸戰鬥（外部威脅規模升級）逼使美夜子提出情緒連結（形勢不利嘅被迫選擇），操因燈塔效應「冇得唔打」被迫入場；兩條角色線都由外部戰鬥壓力驅動，符合consequence-driven-progression.md核心要求 |
+| **participant intentions** | 美夜子＝戰術需要提出情緒連結（帶一瞬猶豫，CDL-084）；操＝獨行俠慣性應戰（燈塔效應+形式主義強迫，CDL-063/064）；紫音＝「搶怪黨」慣性行為，搶奪殘血屍骸情緒核心 |
+| **action** | 大型屍骸戰鬥爆發→情緒連結啟動（力量暴增）→操從高處介入獵殺屍骸→操中陷阱→晴香衝去擋攻擊、笑問裙子有無整污糟→操震驚後傲嬌答應入隊→戰鬥結束，紫音現身搶核心後消失 |
+| **reaction** | 操＝由完全冷漠到「震驚」再到傲嬌接受（第一次感受到有人在乎「她」而非戰果）；晴香＝笨拙但堅持不顧一切保護隊友 |
+| **turn** | 操由「獨行俠冇得唔打嘅義務式戰鬥」轉化為「因被在乎而選擇留低」——核心渴望（被見證嘅存在）首次被命中 |
+| **consequence** | 操正式入隊（隊伍擴至三人）；情緒連結機制正式引入（守恆代價尚未顯現）；紫音正式進入觀眾視野（未入隊） |
+| **emotional value shift** | 戰鬥張力→情緒連結嘅奇異親密感（首次體驗）→操入隊嘅溫暖轉折——偽亮色感高峰，Reality Show氣氛加強正當感 |
+| **relationship delta** | 晴香-操＝由零到隊友（晴香主動關心觸發傲嬌接受）；晴香-美夜子＝情緒連結首次共享，加深信任但埋下「猶豫」伏線（CDL-084）|
+| **audience info delta** | 觀眾首次見證情緒連結機制運作；觀眾首次見到紫音（未知身份）；觀眾接收「屍骸態度選擇」對比示範（正面消散 vs 反面奪舍被阻）雛形 |
+| **character knowledge delta** | 晴香＝獲得「連結他人情緒可增幅力量」嘅新知識，但唔知後遺症（守恆代價）；操＝獲得「有人單純在乎自己」嘅新情感體驗 |
+| **setup/payoff obligations** | 美夜子凜信息極簡帶猶豫（CDL-084）埋入，回收於 E-04 凜前史；操燈塔效應/形式主義背景，回收於全劇操弧線；緋潮視覺Lv.1（CDL-176）埋入 |
+| **world-rule exposure** | 情緒連結首次示範（機制未完整解釋）；維多利亞之淚群體情緒催眠、Reality Show直播、假數值系統延續運作（CDL-056/057/073） |
+| **broad gameplay form** | 主線強制；大型戰鬥關卡；情緒連結特殊機制教學（力量增幅視覺化）；直播UI彈出（+Likes/打賞） |
+| **exit state** | 隊伍擴至三人，偽亮色感達到階段高峰；紫音以「搶怪黨」形象留下伏筆 |
+| **pressure into next beat** | 紫音戒斷症狀（生理狀態惡化）係下一 beat（E-02.5）嘅外部觸發前提，本 beat 結尾嘅「搶怪黨」形象係鋪墊 |
+| **source/obligation trace** | ACT_I_OUTLINE.md「Beat 2」段（CDL-031/032/033/050/056/0
+
+=== #30 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && echo \"=== TRACKER\" && sed -n '18,33p;37,54p;58,76p' INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md | cut -c1-330; echo; echo \"=== MATRIX 操\" ; sed -n '119,135p' IDEOLOGY_THEME_STANCE_MATRIX.md | cut -c1-330", "description": "Re-verify Tracker and Matrix lines"}
+=== TRACKER
+| 欄位 | 內容 | 狀態 | 來源 |
+|---|---|---|---|
+| **起點狀態** | 天真明亮，偶像日常，拯救者情結已種下；強行正常掩蓋不安感；**Act I 冇面具、冇隱藏創傷——全主角團入面童年最幸運嘅一個（CDL-355）**，對人好係真心，唔係防禦表演 | SS | CDL-053/128；CDL-355 |
+| **正面特質** | 擇善固執——表層傻氣天然呆，反差係唔肯轉軚（CDL-088阻止美夜子消除桐生健記憶）；底氣嚟自佢自己嘅核心傷口（膠布哲學蓋自己嘅痛，見人哋嘅痛俾人拎走會生理性抗拒），非自信 | **AC**（作者授權writeback 2026-07-18）| CDL-337 |
+| **核心傷口** | **（CDL-355 更新，取代舊BK）**：一出生就失去母親（未經歷式缺失，非目擊創傷）；**冇第二層童年創傷**——原Growth Tracker「童年雙重失去創傷具體內容btd」正式resolve做「唔存在」，佢係結構上嘅例外；真正嘅心理重量嚟自後段隨劇情
+| **Coping pattern** | 膠布哲學（強行覆蓋困惑）、熱可可儀式（假裝製造幸福感）、拯救者情結（把入隊當英雄使命）、偶像表演（轉化痛苦為表演性）；情緒滲漏不對稱——對自己嘅痛全套防禦，對人哋嘅痛（識穿對方笑住收埋嗰種訊號）即時、無保�
+| **主要欲望** | 連結、拯救他人、成為真正的英雄；被需要 | SS | CDL-053 |
+| **主要恐懼** | 「如果我不再是『有用的英雄』，悲劇就會再次因為我的無能而發生」——最深層恐懼是「停下來就會暴露那個無用且會害死人的真實自我」 | **AC** | 作者確認 2026-04-14 |
+| **False solution** | 變身=解決問題；拯救行為=真正建立連結；笑著面對=感染他人改變世界；**「幫人係無私嘅」**——實際底層係「被需要先確認自己值得存在」呢個自私核心（CDL-355），黑奏/夕誘惑攤牌時戳中，解答係誠實承認自私核心、然後仍然揀�
+| **Change trigger** | 未出現（Act I設計意圖：偽英雄旅程假象，無真實 trigger）| AC（設計意圖）| CDL-102 |
+| **Act I coping 代價** | 喪失真正理解局勢的能力——E-1.5 聽到黑奏聲音卻強行歸因幻聽，主動蒙蔽雙眼；為 Act II 崩潰埋下定時炸彈 | **AC** | 作者確認 2026-04-14；CDL-080 |
+| **Act I 結束狀態** | 帶著「第一個真正的希望」進入 Act II；首個不安種子已種下；可樂失味（主題A代價第一層）| AC | CDL-020/034/102 |
+| **Act II 狀態** | **經理人背叛/形象商品化**（已有，扣連CDL-372 Pre-Act I起源——經理人係晴香喺佢賭徒性格輸清光低潮期主動幫助嘅對象，反骨背叛雙重殺傷力）：命運層面（壓抑稅/夕加速機制，CDL-357）令晴香嘅殼冇得好似操咁長期低耗噉撐，逼佢�
+| **Act III 狀態** | **更新（CDL-356）**：Day13/14操紫音死→美夜子姊妹身份確認→解放之戰→帝國廣場決戰→創世真相揭露（膠布哲學第三層）——雙重身份崩潰（拯救者身份非無私+做極都做唔到），「私心」透過夕被迫接管身體爆發（CDL-281既有「私心�
+| **Act IV / Ending 狀態** | **更新（CDL-356/357/367）**：壓抑稅機制（可樂失味+夕能量同源，Layer 1個人化變數）+絕對共感視界自我盲點做具現化前因+故事道德立場唔判斷揀嘅內容只判斷方式。Alpha線嘅幾日（頓悟「過去無法被修正，只能被接納」）→二十�
+| **Growth type** | Acceptance through hard-won understanding（唔係靠童年創傷驅動，係隨劇情逐步累積罪疚→雙重身份崩潰→接納過程→自由揀擇嘅犧牲，同「攞返自主性」呢個全cast共通命題扣連，但係喺已經健康嘅狀態下做出嘅選擇，唔係補鑊）| SS | CDL-355/356 
+## 美夜子（宵月美夜子）
+
+| 欄位 | 內容 | 狀態 | 來源 |
+|---|---|---|---|
+| **起點狀態** | 冰冷功利感（表層）；靈魂本能守護晴香（底層）——大腦說工具，靈魂卻本能靠近 | SS | CDL-060 |
+| **正面特質** | 忠誠——**外顯**部分有明確排他性邊界，淨係俾佢信任嘅人先攞到（起點錨定晴香，CDL-083→CDL-043→CDL-191遞進線）；對信任圈之外嘅人（未確立信任嘅隊友/市民/未認定嘅親屬）美夜子唔主動熱情、保持距離、外殼拮手，但呢個係防備
+| **核心傷口** | 凜死亡（制度性壓迫所致，PTSD）；「借來的生命」——深信自己沒有資格擁有未來 | **AC** | CDL-022/140；作者確認 2026-04-14 |
+| **Coping pattern** | 功利化一切（用策略語言掩蓋本能守護）；貓形態=保持物理/情感距離；立即用功利理由覆蓋任何非計劃保護動作；咬嘴唇——功利藉口出口前半拍不受控咬唇，人形/貓形態通用，係「渴望大哭」被截停嘅現場證據（CDL-347）；物質淡
+| **主要欲望** | BK（Act I工具視角主導，靈魂層渴望未命名）| BK | — |
+| **主要恐懼** | 「所珍視的連結，最終都會以極度慘烈的方式被奪走（凜的悲劇重演）」——用冰冷功利作防護罩，因為她恐懼一旦對晴香投入真實情感，晴香就會像凜一樣因為她而死；**更深一層（CDL-354）**：「我係咪淨係因為有用先值得留低？如�
+| **False solution** | 功利化=不用受傷；保持距離=不再失去；共謀誤導=保護晴香的正確方式 | INFERRED+SS | CDL-054/060 |
+| **Change trigger** | 「有用先值得留低」完整因果鏈崩塌（CDL-354）：凜犧牲（起點，罪疚驅動）→操/紫音連續兩日犧牲（中段驗證，證明努力都會失敗）→驚失去晴香（終極恐懼，CDL-345強行入L3嘅驅動力）→Act IV大喊（終點解答，發現價值唔取決於有�
+| **Act I coping 代價** | 加深絕對的孤獨——靈魂本能想靠近晴香，卻要用功利藉口推開；「自我割裂」令情感耗損比戰鬥更嚴重 | **AC** | 作者確認 2026-04-14；CDL-060/083 |
+| **Act I 結束狀態** | 孤獨感確立；共謀誤導完成；「有秘密孤獨感」雙層種子種下 | SS | CDL-054/055/105 |
+| **Act II 狀態** | BK | BK | — |
+| **Act III 狀態** | BK | BK | — |
+| **Act IV / Ending 狀態** | BK | BK | — |
+| **Growth type** | BK | BK | — |
+## 操（本庄操）
+
+| 欄位 | 內容 | 狀態 | 來源 |
+|---|---|---|---|
+| **起點狀態** | 獨行俠；形式主義強迫（「魔法少女必須優雅消滅怪物」）；空洞疲勞（精神上的無人見證）| SS | CDL-049/063/064 |
+| **正面特質** | 可靠——同「性格即死因」係同一枚硬幣兩面：可靠嘅原因（形式主義計到盡）同死嘅原因（同一種偏執令自己剩餘量估算系統性偏高）唔矛盾；影相恐懼→影相珍惜——成長弧線可視化標記，扣連速寫簿真相「唔完美先係最美」（CDL
+| **核心傷口** | 父親陰影（[NC]迴避反應暗示，具體內容未展開）| SS（暗示）| CDL-042 |
+| **Coping pattern** | 形式主義規則（規則=存在意義=自我保護框架）；表演性（需要觀眾才能感受到自己存在）；紗夜飲鴆止渴共謀（裝置購買=愛與罪惡感的共謀）；情緒滲漏——委屈式崩喊/公主病式憤怒爆發，完美表演失守嘅崩口，唔喺表演計算之內
+| **主要欲望** | 魔法定義的女性肉體（CDL-049）；被見證（存在感）；規則框架保障的確定性 | SS | CDL-049 |
+| **主要恐懼** | 不被見證；無規則框架時無法確認自己存在；被看穿（偽裝被拆穿）；**（CDL-360新增）**被人忽視/當可捨棄嘅嘢——愛莉潛意識風暴嗰場，彩因窄而深同理心冇同等反應救操，直接撞正呢個核心恐懼。**（CDL-362新增）**操揀咗用奇蹟簡�
+| **False solution** | 優雅規則執行=真實存在；變身=真實的自己；獨行俠=唯一安全的存在形式 | INFERRED | CDL-049/063 |
+| **Act I 關鍵 Moral Tradeoff** | 入隊=獲得觀眾（欲望滿足），代價=「有被看穿破綻的風險」——表演需要觀眾，但有觀眾就意味著可能被看穿；Act I/II 緊繃傲嬌正是在支付這個 tradeoff 的心理壓力 | **AC** | 作者確認 2026-04-14 |
+| **Change trigger** | 晴香 E-02 用身體擋攻擊後笑問裙子——第一次感到「有人在乎她這個人而非戰果」；觸發傲嬌入隊（但非真正的 growth trigger，只係開端）| SS | CDL-050 |
+| **Act I coping 代價** | BK（需要更多 Act II 設計確認後補充）| BK | — |
+| **Act I 結束狀態** | 找到「被在乎這個人本身」的第一次體驗；傲嬌入隊；形式主義框架仍完整 | SS | CDL-050 |
+| **Act II 狀態** | 調停失敗（第一次卸低完美面具，暴露真實脆弱，冇即時被罰）→**政治聯姻陷阱**（父親語言藝術誘操以為被接納，出台介紹用返操登記在案嘅男性身份公開拆穿，賓客歧視語言羞辱，母親眼神/影相珍惜成長線被永久記錄摧毀/自我�
+| **Act III 狀態** | E-09a父親判「廢品」交予帝國 → Body Horror Stage 2a/2b（縫牙/靈魂冷化）→ 無心完美人偶（做冇感受嘅完美軀殼，逃避型債務漩渦嘅頂點）→ 鏡像破碎之夜（父親背叛+紗夜犧牲同夜發生，紗夜臨終真相扣連政治聯姻陷阱之後埋低嘅決心
+| **Act IV / Ending 狀態** | Phase H被迫報串（同政治聯姻陷阱同一套手法嘅第二次升級——政治利益換做軍事情報，同一個「送返研究室重組」威脅，因政治聯姻陷阱已見過母親空洞嘅眼而提前落晒重量；隊伍全程唔知情）→ Day 13鋼鐵獨舞（非完美承擔，
+| **Growth type** | Self-definition through non-perfect commitment（非完美承擔）——弧線核心係「逃避型債務」不斷加碼再突然停止：試真實→被毀滅性懲罰→加碼逃避（人偶）→鏡像破碎之夜停止借新債，選擇殘缺但真實→鋼鐵獨舞非完美承擔。政治聯姻陷阱係
+
+=== MATRIX 操
+## 操（形式主義派）
+
+**Entity type:** 主要角色
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 規則作為自我定義 / 表演性存在 / 被見證的需要 | SS |
+| **Stated belief** | 魔法少女必須優雅消滅怪物；形式和規則是正確的存在方式 | SS | CDL-063 |
+| **Actual belief** | 規則=自我保護框架（沒有規則就不知道自己是誰）；表演=確認自己存在 | INFERRED | CDL-049/063 |
+| **Method of dealing with pain** | 形式主義（規則執行=避免面對真實自我）；表演性（需要觀眾確認存在）；紗夜共謀（依附另一種形式的「確認」）| SS | CDL-049/063/178 |
+| **What this stance promises** | 只要執行規則，就是正確的存在；優雅=有資格 | INFERRED |
+| **What this stance hides** | 她需要的不是規則，而是「不需要規則也能存在」；父親陰影與性別認同之間的未解關係 | INFERRED | CDL-042 |
+| **What this stance costs** | Act I 入隊 Tradeoff：獲得「觀眾」，但代價是「被看穿破綻的風險」——Act I/II 緊繃傲嬌是在支付這個心理壓力 | AC | 作者確認 2026-04-14 |
+| **Mirror** | — | — |
+| **Oppose** | 晴香（形式 vs 天真直覺）| INFERRED |
+| **Where it appears** | Beat 2（入隊）；[NC]全幕形式主義行為；紗夜輕量實體出場（CDL-173/178）| SS |
+| **Story's treatment** | BK（待 Act II/III 設計確認）| BK | — |
+
+=== #31 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && for n in 050 053 054 055 060 063 064 083 084 103 123 141 233 322 323 337 347 355 356 357 363 390 408; do grep -n \"CDL-$n\" CANON_DECISION_LOG.md | head -2 | cut -c1-420; done", "description": "Re-verify CDL entries"}
+79:| CDL-322 | 操 E-02 入隊戰新增「意外救人+多重解讀」層——動機種子設計 | **正式確認（2026-07-09 作者決定，co-design 討論）**：沿用 CDL-050/098 已確立嘅 E-02 操孤身入隊戰（晴香擋攻擊令操入隊），新增一層設計：混戰之中操順手（非刻意，係求存嘅副作用）擋咗/救咗一個路人。**三重解讀並存**——晴香解讀＝操心地�
+143:| CDL-050 | 操 入隊契機 + 深層心理 | 入隊前：獨行俠（戰鬥狀態 TBD）；入隊場景：大型屍骸戰鬥，操中陷阱 → 晴香不顧儀態用身體擋攻擊，笑著問「條裙有無整污糟」→ 操第一次見到有人在乎「她」多過戰果 → 傲嬌：勉強答應「暫時指導庶民」；深層心理：存在本身是表演，需要「觀眾」（隊友）和「明確規則�
+82:| CDL-319 | 「家長日作戰」執行細節：軍方高層出現理由（夾埋用）+ 朔獨自出場（E-07c）| **正式確認（2026-07-07 作者決定，co-design 討論）**：**軍方高層出現理由，①②夾埋用（非二揀一）**：表面理由=帝國例行「關懷貧民學童」公關探訪（呼應CDL-251情緒農場主虛偽本質）；真正制度目的=CDL-307「無意識魔法少女生產
+147:| CDL-053 | 晴香 拯救者情結 + 公主女武神渴望 | 童年雙重失去創傷（Alpha線：家姐+母親；Beta線晴香的潛意識傷痕，見 CDL-047）孕育出極端「拯救者情結」；渴望成為「公主女武神」= 能保護重要之人的英雄；「維多利亞天使」設定完美命中此渴望 → 晴香近乎天真的熱情全盤接受；將每次戰鬥視為「希望的現場演出」
+148:| CDL-054 | 美夜子「共謀誤導」設定 | 美夜子非單純冷血欺騙，而是「共謀誤導」；美夜子見過太多黑暗/同伴犧牲/作為兵器的殘酷過往；見到晴香純粹想幫人的熱情時，美夜子自身也渴望相信那個美好的版本；「說謊者渴望謊言是真實的」= 帶悲劇色彩的溫柔 → 維多利亞天使童話具說服力的根源 | AC 2026-03-29 | 美夜�
+149:| CDL-055 | 維多利亞天使「半真半假」資訊過濾 | 真實部分：魔法少女的確對抗負面情緒（屍骸）；精心隱藏：情感耗損、變成魔法屍骸的風險、戰鬥的真正代價；包裝：用歌聲和光芒傳遞希望的英雄偶像形象；這是美夜子向晴香解釋魔法少女使命時使用的框架 | AC 2026-03-29 | E-01 美夜子向晴香說明場景設計；QQ-10 RESOL
+208:| CDL-103 | Q4 天台使命說明時機 = C（次日放學後，非E-01同日）| E-01屍骸攻學校係當日發生；晴香當晚回家消化；次日放學後美夜子約晴香到學校天台，正式說明維多利亞天使使命（CDL-055/095）；「次日主動赴約」強化晴香拯救者情結主動性（CDL-053）：一晚思考後仍選擇了解更多，不是被動接受；天台係E-01 Epilogue（�
+155:| CDL-060 | 美夜子接近晴香的機制 = 靈魂本能殘留 | 美夜子被強行復活後失去記憶；但靈魂殘留令晴香成為「在狂風暴雨中唯一感到熟悉與安全的錨點」；大腦說工具，靈魂本能靠近；Act I 美夜子寫法 = 完全按 Option C：口裡說「有用的工具」，身體本能守護 | AC（文件有記錄）2026-03-29 | 美夜子 Act I 場景質感確立（口�
+183:| CDL-083 | 美夜子非功利行為位置 = E-02首戰保護動作（A）| E-02首戰中：美夜子有一個非計劃內的即時保護晴香動作（例如擋住攻擊或拉走晴香）；動作後立刻用功利理由掩蓋（「晴香對戰局有用，不能讓她在這裡倒下」）；晴香若有所感但未深究；設計原則：動作型非語言，比語言型更難被功利邏輯消解；作為Act II
+159:| CDL-063 | 操「形式主義」悲劇核心 | 打屍骸唔係為咗正義，而係「魔法少女身份的絕對規則」：既然獲得「魔法少女」身份，消滅怪物就係必須遵守的全套戲碼，否則恐慌假身份穿崩；病態地執著於「正確的形式」；孤身戰鬥 = 「冇觀眾的表演」——即使打出完美無傷通關，冇人見證，精神極度空洞疲勞 | AC 2026-03-
+160:| CDL-064 | 「燈塔效應」世界規則 | 啟動情緒力量裝置 → 觸發「集體潛意識燈塔效應」→ 持有者在潛意識海洋中如黑暗中燈塔，成為全城魔法屍骸本能獵殺目標；操啟動裝置維持變身後無可避免成為活靶，「冇得唔打」的死循環根源 | AC 2026-03-29 | 世界規則補充（解釋為何操被迫戰鬥）；所有魔法少女「持有裝置的�
+468:| CDL-308-B | 集體潛意識強制進入機制正式落檔（心匣限定 + 侵蝕式重疊 + 感知差異 + 深度=心之器裂痕 + 執念錨點/燈塔效應疊加辨識） | **正式確認（2026-07-04 作者 co-design 討論定案，多角度壓力測試後）**：取代 CF-T22/靈魂潛航，成為現時唯一嘅清醒狀態物理進入集體潛意識規則。**與奇蹟同源**：晴香5歲創世 = 情緒�
+12:| CDL-408 | 美夜子日常底色由「解離性麻木／真冷漠＝身份」調整為「八千代型底色（面硬話少扮唔理、但暗地關心默默照住人）＋『解離性麻木』降為急性創傷反應期狀態」——參照《魔法紀錄》七海八千代質感（非照抄） | **正式確認（2026-09-10，作者明確確認，非 exploratory，canon writeback）**：延續 QQ-224 D／2026-09-09
+183:| CDL-083 | 美夜子非功利行為位置 = E-02首戰保護動作（A）| E-02首戰中：美夜子有一個非計劃內的即時保護晴香動作（例如擋住攻擊或拉走晴香）；動作後立刻用功利理由掩蓋（「晴香對戰局有用，不能讓她在這裡倒下」）；晴香若有所感但未深究；設計原則：動作型非語言，比語言型更難被功利邏輯消解；作為Act II
+184:| CDL-084 | E-02凜信息形式 = 極簡一句帶情感色彩（C簡化版）| 美夜子在E-02提出情緒連結時，帶情感色彩地提及凜：一句話之內，有一瞬猶豫或沉默；例：「我以前…同一個人試過。應該有效。」；晴香察覺美夜子的猶豫但沒問；全句不超過一句話（極簡）；目的：讓觀眾記住「美夜子有秘密/過去」，但不給任何具�
+210:| CDL-105 | Q6 美夜子Act I [NC]裂縫 = C（輕量對話場景，晴香問私人問題）| 除E-02首戰保護動作（CDL-083）外，[NC]中有一個輕量對話場景：晴香問了美夜子一個觸碰私人領域的問題（例如凜/過去/情感方向）；美夜子有一刻明顯停頓，才給出功利性轉移回答；晴香察覺有停頓但沒追問；設計意圖：對話型裂縫比行動型（B�
+208:| CDL-103 | Q4 天台使命說明時機 = C（次日放學後，非E-01同日）| E-01屍骸攻學校係當日發生；晴香當晚回家消化；次日放學後美夜子約晴香到學校天台，正式說明維多利亞天使使命（CDL-055/095）；「次日主動赴約」強化晴香拯救者情結主動性（CDL-053）：一晚思考後仍選擇了解更多，不是被動接受；天台係E-01 Epilogue（�
+215:| CDL-109 | QQ-37 晴香裝置獲得方式 = B（美夜子 E-01 現場緊急交予）| E-01 屍骸攻學校緊急情況中，美夜子將情緒力量裝置交予晴香（緊急交付，具體交付方式 btd at Beat Sheet）；晴香在完全不了解裝置的情況下，以本能首次觸發（初次觸發）；正式使命說明延至次日天台（CDL-103/095）；秋穗（裝置原型研發者）知情但未�
+232:| CDL-123 | Q8 E-01當晚輕量beat = A（加入獨立場景）| **E-01當晚**加入獨立輕量beat：家中獨處，無台詞；功能：①視覺+身體雙層幽靈重量症狀（Stage 1夢幻鏡：倒影慢半拍0.3秒 + 身體沉重感）②晴香用「夜瞓」等日常藉口自圓其說（可被否認性原則）③睡前熱可可私密習慣初建（後期可樂失味+冰塊咬碎的對比前置）；符
+254:| CDL-141 | Q19 秘密基地/潛入學校 = A修正（資源驅動特殊任務；被迫合作；唔係茶餐廳）| **加入[NC]但大幅修正動機**：唔係「為咗好玩」，而係**補給品嚴重短缺（低血糖/葡萄糖耗盡）**驅動；**遊戲形式 = 特殊任務**：可觸發可唔觸發（條件：血糖補給耗盡+關係未到離隊情節前；故事時間窗口：E-02後到隊員離隊前�
+367:| CDL-231 | QQ-54 RESOLVED — 鏡像破碎之夜 = C（Act II事件骨架+創傷耳鳴遮蔽台詞；Act III清晰還原Double-hit）| **正式設計**：**Act II骨架（E-09a，113年7-8月）**：父親背叛（確認台詞：「這件『作品』出現了瑕疵，性能開始下降。既然帝國要回收，那就拿去吧。我可以重新製造更好的。」，CDL-234）+ 紗夜犧牲阻擋管理局；操
+369:| CDL-233 | 操掉牙/傀儡絲線縫牙 Body Horror分層設計（魔法過度消耗代價 + 形式主義逃避機制）| **正式確認四個Stage（分層更新2026-04-28）**：**Stage 1（Act II前期，Phase A～B）**：操魔法過度使用後出現牙齦滲血——看似普通，操以「完美外表形式主義」強行壓制，不向任何人提及；觀眾可能初讀為戰鬥受傷；守恆定律Lay
+79:| CDL-322 | 操 E-02 入隊戰新增「意外救人+多重解讀」層——動機種子設計 | **正式確認（2026-07-09 作者決定，co-design 討論）**：沿用 CDL-050/098 已確立嘅 E-02 操孤身入隊戰（晴香擋攻擊令操入隊），新增一層設計：混戰之中操順手（非刻意，係求存嘅副作用）擋咗/救咗一個路人。**三重解讀並存**——晴香解讀＝操心地�
+77:| CDL-324 | 晴香/桐生健「無法遺忘」鏡像戲——cost signal確認 + 心匣連結 | **正式確認（2026-07-09 作者決定，co-design 討論）**：晴香 Phase D 絕境期想遺忘一切，回想 Act I 阻止美夜子清除桐生健記憶（CDL-088「痛係證據」），求美夜子幫自己都清除記憶，先發現魔法少女結構性無法遺忘（CDL-293：心匣將靈魂與集體潛意識�
+78:| CDL-323 | 桐生健 Phase D「中介組織跑腿」身份 + USB 截糧伏線（秋穗暗中完成入侵） | **正式確認（2026-07-09 作者決定，co-design 討論）**：桐生健（Act I 膠布哲學 CDL-087/088，三位一體光譜人類端點示範者，QQ-132）喺 Phase D 地下絕境期，因 Beta 線普通經濟動機，喺 Fallen Angel 情緒毒品分銷網絡（`07_entities_and_devices.md` 已確�
+10:| CDL-410 | QQ-224 B＋D 拍板：接受「世界奇幻物理＝心靈物理」世界觀立場＋兩條護欄（語氣落差／世界要有健康人口）；紫音／美夜子容許有魅力／機智（方向准許） | **正式確認（2026-09-20，作者明確確認，canon writeback）**：作者審視 `2026-09-09_PSYCHOLOGY_EMBODIMENT_AND_LIKABILITY_DISCUSSION_LOG.md` A–G 開放決定後，採納 head writer
+12:| CDL-408 | 美夜子日常底色由「解離性麻木／真冷漠＝身份」調整為「八千代型底色（面硬話少扮唔理、但暗地關心默默照住人）＋『解離性麻木』降為急性創傷反應期狀態」——參照《魔法紀錄》七海八千代質感（非照抄） | **正式確認（2026-09-10，作者明確確認，非 exploratory，canon writeback）**：延續 QQ-224 D／2026-09-09
+12:| CDL-408 | 美夜子日常底色由「解離性麻木／真冷漠＝身份」調整為「八千代型底色（面硬話少扮唔理、但暗地關心默默照住人）＋『解離性麻木』降為急性創傷反應期狀態」——參照《魔法紀錄》七海八千代質感（非照抄） | **正式確認（2026-09-10，作者明確確認，非 exploratory，canon writeback）**：延續 QQ-224 D／2026-09-09
+43:| CDL-367 | 晴香二十年守望第三階段（承接）具體場景——「為自己喊」，補完QQ-142 | **正式確認（2026-08-05 作者決定，story-orchestrator co-design）**：延續「晴香為自己自私一次係成長」討論，設計二十年守望承接階段嘅具體場景，補完QQ-142一直開放嘅第三階段內容。**①觸發**：晴香一路感知到出面嘅人為佢戰鬥（連結�
+28:| CDL-388 | 蒙太奇入面「晴香唔知道夕出面做緊咩」正式確認為較優設計（非曖昧留白，係有理由嘅刻意選擇）；CDL-384停止權時刻嘅場次歸屬問題正式延後到三位一體結局專屬討論 | **正式確認（2026-08-12，作者story-orchestrator自由form討論確認，延續CDL-387）**：作者追問點解AI認為「晴香唔知道夕做緊咩」好過「知道」�
+45:| CDL-372 | 晴香×經理人關係本質重新定位——由「渴望父親」改做「被幫助者嘅反骨」，經理人Pre-Act I起源（賭徒中落+晴香主動給機會） | **正式確認（2026-08-06 作者決定，story-orchestrator co-design）**：延續操父親線之後，作者要求發展晴香×經理人條線，但強調本質要同操父親線分別大——多輪嘗試（溫暖變公關內容
+35:| CDL-381 | 晴香「面具」形成時間點正式定案（QQ-211解決）——採用CDL-356（Act I冇面具），`05_naming_and_psychology_system.md`「創傷性面具」對晴香嗰項修正為「5歲形成生存框架/身份基礎，Act I真心，後期先固化成面具」 | **正式確認（2026-08-11，作者拍板）**：作者同意AI建議方向，保留CDL-356做Act I定案（因為CDL-357誘惑弧線
+59:| CDL-357 | 晴香「壓抑
+
+=== #32 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working && for l in 254 369 143 79 232; do echo \"=== L$l\"; sed -n \"${l}p\" CANON_DECISION_LOG.md | cut -c1-2200; done", "description": "Read full CDL-141, 233, 050, 322, 123 rows"}
+=== L254
+| CDL-141 | Q19 秘密基地/潛入學校 = A修正（資源驅動特殊任務；被迫合作；唔係茶餐廳）| **加入[NC]但大幅修正動機**：唔係「為咗好玩」，而係**補給品嚴重短缺（低血糖/葡萄糖耗盡）**驅動；**遊戲形式 = 特殊任務**：可觸發可唔觸發（條件：血糖補給耗盡+關係未到離隊情節前；故事時間窗口：E-02後到隊員離隊前）；**場景性質**：被迫合作（四人關係未熟）→荒謬生存行動→建立初步化學反應；**角色分工**：美夜子=專業潛行/紫音=暴躁差點暴力破門（被晴香拉住）/操=嫌棄灰塵監控閉路/晴香=把風緊張肚子咕嚕叫；**秘密基地唔係茶餐廳**（茶餐廳=秋穗監控範圍；少女需要「無大人的私密空間」）；**毀滅性對比前置**：此基地之後會因為操虛榮心洩露而被摧毀（據點洩露事件），Act I建立得越溫暖越慘 | AC Q19:A修正 2026-04-06 | ACT_I_OUTLINE.md [NC]段落加入基地任務；遊戲設計特殊任務框架；秘密基地≠茶餐廳確認 | 2026-04-06 |
+=== L369
+| CDL-233 | 操掉牙/傀儡絲線縫牙 Body Horror分層設計（魔法過度消耗代價 + 形式主義逃避機制）| **正式確認四個Stage（分層更新2026-04-28）**：**Stage 1（Act II前期，Phase A～B）**：操魔法過度使用後出現牙齦滲血——看似普通，操以「完美外表形式主義」強行壓制，不向任何人提及；觀眾可能初讀為戰鬥受傷；守恆定律Layer 1物理代價具現；**Stage 2a（Act II中期，E-09a時的肉體層）**：E-09a父親背叛+紗夜犧牲期間，某次高壓魔法使用後，操的牙齒開始鬆動甚至脫落；操在巨大情感創傷中（被父親否定為廢品，媽媽被制伏），利用傀儡絲線將斷牙縫回，強行維持外觀的完整——此刻是「物理上的自我修補」，試圖以完美外殼抵禦崩潰；**Stage 2b（Phase D期間的靈魂層）**：地下化六個月中，操逐步進入「人偶化狀態」——外表依然維持完美（絲線縫牙保持），但內心逐步冷化、靈魂逐步離體、對他人情感反應機制不斷被「修復」（冷化）；每一次與晴香的衝突、目睹苦難、無法保護隊友，操都選擇進一步「自我修復」成人偶；Stage 2b是對E-09a創傷的長期麻木化處理；**Stage 3（Act III Day 13，鋼鐵獨舞場景）**：黑奏強行撬開操嘴巴，揭露絲線縫牙；同時觸發記憶封印突破（CDL-231/232）與靈魂回流（人偶外殼最後被撕裂，被無條件原諒意識流入）；**形式意義（Angle 19）**：縫牙動作從E-09a的「生理自救」→ Phase D的「靈魂自救」→ Act III的「被迫解救」，呈現一條完整的「逃避→麻木→被迫覺醒」弧線；操的傀儡絲線既是武器也是補缀工具，編碼了「完美主義如何吞沒自我」的物理過程；**CDL影響**：強化「完美主義=致命毒藥」；Phase D「四角困獸」構圖中操的人偶化進度與晴香的強迫症儀式形成「鏡像病態對稱」；Act III鋼鐵獨舞犧牲方式（縫合人偶牆）的情感根源在此具體化 | AC/SS 作者確認+Source Supported 2026-04-28 | ACT_II_OUTLINE.md E-08改為Stage 2a說明；Phase D背景框架加
+=== L143
+| CDL-050 | 操 入隊契機 + 深層心理 | 入隊前：獨行俠（戰鬥狀態 TBD）；入隊場景：大型屍骸戰鬥，操中陷阱 → 晴香不顧儀態用身體擋攻擊，笑著問「條裙有無整污糟」→ 操第一次見到有人在乎「她」多過戰果 → 傲嬌：勉強答應「暫時指導庶民」；深層心理：存在本身是表演，需要「觀眾」（隊友）和「明確規則」，獨處時崩潰 | AC 2026-03-29 | 操 Act I 入隊場景設計；Plant 操獨處崩潰弧光；Act I 晴香性格呈現（在乎人多過戰果）| 2026-03-29 |
+=== L79
+| CDL-322 | 操 E-02 入隊戰新增「意外救人+多重解讀」層——動機種子設計 | **正式確認（2026-07-09 作者決定，co-design 討論）**：沿用 CDL-050/098 已確立嘅 E-02 操孤身入隊戰（晴香擋攻擊令操入隊），新增一層設計：混戰之中操順手（非刻意，係求存嘅副作用）擋咗/救咗一個路人。**三重解讀並存**——晴香解讀＝操心地善良（強化揀佢入隊嘅理由）；路人解讀＝呢個神秘強者救咗我；**操自己嘅解讀（新增，私下嘅）**＝表面冷處理/否認呢件事有咩特別，但內心因為路人事後真誠嘅感激而動搖。呢粒未言明嘅種子，喺 Phase D 操主動幫陌生人（桐生健目擊，見 CDL-323）先第一次真正主動、有意識咁重演，形成「由被動意外→主動選擇」嘅完整成長弧——解決操「唔會自動因為世界有事而幫人」嘅性格邏輯缺口，同時填補「操點解揀跟晴香」嘅心理動機補完（用現有 E-02 事件，唔開新 beat）。 | AC 作者確認 2026-07-09（co-design 討論定案） | ayakomoji_misao.md（§入隊前的獨行俠心理 或 §第一幕 新增段落）；ACT_I_OUTLINE.md（E-02 beat 補充） | 2026-07-09 |
+=== L232
+| CDL-123 | Q8 E-01當晚輕量beat = A（加入獨立場景）| **E-01當晚**加入獨立輕量beat：家中獨處，無台詞；功能：①視覺+身體雙層幽靈重量症狀（Stage 1夢幻鏡：倒影慢半拍0.3秒 + 身體沉重感）②晴香用「夜瞓」等日常藉口自圓其說（可被否認性原則）③睡前熱可可私密習慣初建（後期可樂失味+冰塊咬碎的對比前置）；符合CDL-103（天台次日=「有一晚消化後主動赴約」，此beat提供「那一晚消化」的質感）；Beat Sheet設計細節btd | AC Q8:A 2026-04-06 | ACT_I_OUTLINE.md v1.8補入Beat 0d；Beat Sheet設計；幽靈重量症狀Act I呈現設計 | 2026-04-06 |
+
+=== #33 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && sed -n '160,200p;225,232p;238,244p' ACT_I_OUTLINE.md | cut -c1-500; echo ====; sed -n '290,381p' ACT_I_OUTLINE.md | cut -c1-300", "description": "Read Outline Beat 2.6 and remaining tail"}
+| **氣氛** | 安靜、親密、不像英雄敘事的日常溫柔；與 E-02 的 Reality Show 氣氛形成強對比 | `[AC]` |
+| **AKS** | H0 繼續；紫音正式加入 | `[AC]` |
+
+---
+
+### Beat 2.6 — [NC] E-02後：秘密基地建立任務（特殊任務）
+**媒介：[NC]（特殊任務，可觸發可唔觸發）**
+**v1.9新增（CDL-141）；Gap A（timeline_raw.md有記載）**
+
+| 項目 | 內容 | Status |
+|------|------|--------|
+| **觸發條件（CDL-141）** | 血糖補給耗盡（葡萄糖注射槍耗盡）；四人面臨低血糖手震；急需安全據點休整+物資補給 | `[AC]`（CDL-141）|
+| **任務目標** | 夜晚潛入學校：醫療室（葡萄糖針劑/繃帶）+ 化學實驗室（道具原料）+ 備用桌椅沙發（佈置據點）| `[AC]`（CDL-141）|
+| **角色分工** | 美夜子=軍方潛行技巧開路；紫音=暴躁差點暴力破門（被晴香拉住）；操=嫌棄灰塵監控閉路；晴香=把風緊張肚子咕嚕叫差點引來保安 | `[AC]`（CDL-141）|
+| **關係功能** | 四人關係未熟，被迫合作；荒謬生存行動 → 初步化學反應建立；從「戰鬥搭檔」升格為「有共同秘密的夥伴」 | `[AC]`（CDL-141）|
+| **重要說明** | 秘密基地≠秋穗茶餐廳（秋穗監控範圍；少女需要無大人的私密空間）| `[AC]`（CDL-141）|
+| **遊戲形式** | 特殊任務（可觸發可唔觸發）；時間窗口 = E-02後到隊員離隊情節前 | `[AC]`（CDL-141）|
+| **埋伏** | 此基地 → 後期據點洩露事件（操虛榮心）→ 被帝國摧毀；Act I建立越溫暖，毀滅越慘烈 | `[AC]` |
+
+---
+
+### Beat 3 — E-03：情緒連結後遺症
+**媒介：主線（強制）**
+
+| 項目 | 內容 | Status |
+|------|------|--------|
+| **事件** | 情緒連結使用後：守恆定律 Layer 1 觸發（異常疲憊 + **可樂失味**，現象層，無解釋）；**停止機制 = B 確認**：後遺症本身嚇人，令人自然停止，冇正式協議或場景（CDL-048）；**停止節點形式 = A大於C**（CDL-067）：A（主）= **晴香**身體反應最嚴重（暈倒/嘔吐/麻木，CDL-078），其他人目擊後心照不宣停止；C（輔）= 見到對方最壞情緒（恐懼/憤怒）建立更真實羈絆，用於
+| **主題A** | 可樂失味：慶功/聚餐對比場景（A）+ 紫音遞可樂晴香場景（C）| `[AC]`（CDL-034）|
+| **晴香** | 情感耗損開始；不安感加深但仍壓制 | `[AC]` |
+| **隊伍** | 停止機制 = 後遺症自然停止（B）；見到彼此黑暗面建立更真實的羈絆；beat 細節（如何演） btd | `[AC]`（CDL-048）|
+| **氣氛** | 勝利感後緊跟不安（疲憊無解釋）；隱形壓力（機制 BLOCKED 但氛圍 AC）| `[AC]`（氛圍）|
+| **AKS** | 守恆定律 Layer 1 觀眾感知但不理解 | `[SS]` |
+
+**[NC] 附屬**：後遺症期間日常互動；晴香獨處時的異常感細節
+
+---
+
+### Beat 5 — E-04：悲鳴女妖首戰 + 凜前史初建 + 超載阻止 + 紫音肢體扭曲
+**（Beat 4.5 E-1.5 在本 beat 之前）**
+**媒介：主線（強制）**
+**v1.9更新（CDL-136/140）：敵人確認；彩在場伏筆；情緒管理局誤導退場；凜遠景彩蛋**
+|------|------|--------|
+| **目的A** | 偽亮色感補充材料（日常溫暖感；隊伍互動輕鬆感）| `[AC]` |
+| **目的B** | 不安感種子積累（夕潛意識敵意；鏡中感知異常；日常對話細節異常）| `[AC]` |
+| **夕噪訊** | 混用兩種形式，分散於不同[NC]段落（CDL-072）：**視覺型**（鏡中多人影；NPC說話晴香聽到別人聲音；角色說「什麼都沒有」）+ **情緒衝動型B（CDL-085）**：晴香跟彩獨處時感到強烈莫名不安/排斥感；**雙層遮蔽設計**：不安感有雙重來源（①夕對黑奏的敵意感知 ②晴香自身對彩/黑奏的直覺警示），但晴香/觀眾無法分辨，全部歸因為「夕的干擾」→ Act III揭露後：�
+| **偽亮色感核心場景** | A + C：全員一起食飯/活動（A）+ 操意外說了溫暖的話（C）；**少女假日約會**（逛街/拍大頭貼/吃甜品）；**偷睇約會場景（CDL-146）**：E-01/E-02後[NC]；具體btd Beat Sheet；**擺位建議（CDL-347，未定案）**：拍大頭貼環節操本能閃避鏡頭（[影相恐懼](../../../canon/03_characters/ayakomoji_misao.md#habit-photo-arc "操習慣抗拒被影相，母親活體人偶每日展示假笑嘅畫面係佢最�
+| **[可選日常]便利店作戰（CDL-183）** | 位置：E-02.5至E-03之間[NC]；四人合力搶購限量便利店商品/布丁；紫音食物執著/美夜子清單思維/操效率最大化；**功能**：「她們仍然是普通少女」的最強證明；必須在Act I（Act II後無法輕鬆進便利店）；具體設計btd Beat Sheet；**擺位建議（CDL-350，未定案）**：操效率最大化嘅搶購背後，事後獨自品嚐戰利品嗰刻可以帶出[美食熱愛](../../../canon
+| **[可選日常]家長日臥底（CDL-183）** | 位置：E-04前某[NC]；四人偽裝彼此家長出席學校家長日；操不知扮家長是什麼感覺；紫音說錯所有該說的話；晴香不需要家長（家人只有美夜子一隻貓）；**功能**：滑稽包裝「所有人家庭關係缺位」的悲涼；具體設計btd Beat Sheet | `[AC]`（CDL-183）|
+| **[可選日常]情傷委託（CDL-183）** | 位置：E-04後[NC]；一個被甩的普通少女委託她們「幫她搞定前男友」；**功能**：「魔法幫不了人心」=王道神話第一次碰壁；晴香只能陪她哭；過渡到Act II對「魔法萬能論」的質疑；具體設計btd Beat Sheet | `[AC]`（CDL-183）|
+| **低科技生存文化[NC]（CDL-174/179）** | **金夫人花露水**：可購買消耗品；多重使用模式（自身噴灑降仇恨15秒/範圍安全區30秒/投擲瓶裝中斷追擊10秒）；每次上限3瓶；過度使用NPC好感下降；**金魚雷達**：環境物件（被動預警）+隨身道具（主動偵測30秒）；戰術視窗快捷欄位整合；**生存羞恥設計**：觀眾初讀=搞笑；後知=心酸的末日都市生存文化；具體Text Props/系統設計btd Beat S
+| **[NC] 虛假舞台與幕後監工（E-03後，CDL-163/167/168）** | **位置：E-03後**（情緒連結後遺症後，力不從心但要強顏歡笑痛感最強）；**三明治壓迫結構**：死鬥→後台（遮戰損）→登台→強顏歡笑；**後台場景**：晴香低血糖手震，用遮瑕膏遮蓋戰鬥瘀青（唔可以讓偶像粉絲看到戰損→CDL-168雙重秘密）；經理人遞葡萄糖水（知情後的算計，CDL-165）→古典制約（CDL-163）；**登台**：無
+| **密度** | 每個主線 beat 後均有 [NC]；全幕都有不安感（不集中在某段）| `[AC]`（CDL-024）|
+| **框架（CDL-104）** | 遊戲媒介：線性封閉微型箱庭（Act I非自由探索），每個[NC]有1-3個互動點；分佈 = **C靈活框架**：①E-01/E-02後：2-3個微型[NC]（偽亮色感密集）——王道義舉日常+廢戲日常+小確幸道具；②E-03後：1-2個[NC]（裂痕開始顯現）；③E-04後：**1個輕量封閉[NC]**（晴香獨處平靜崩潰空間）→ 無縫銜接E-XX觸發（CDL-101）；[NC]「廢戲」必須感覺無聊/Trivial（讓後來的失去�
+| **美夜子[NC]裂縫** | 除E-02首戰保護動作（CDL-083）外，[NC]有一個輕量對話場景（**C，CDL-105**）：晴香問了私人問題（觸碰凜/過去方向）→ 美夜子有一刻停頓，才給出功利性轉移回答；晴香察覺有停頓但沒追問；與CDL-084（E-02凜信息一句猶豫）呼應，形成美夜子「有秘密孤獨感」雙層種子；**擺位建議（CDL-347，未定案）**：E-02首戰嘅本能保護動作後、同呢度「一刻停頓先功利式
+| **秋穗茶餐廳[NC]（CDL-110）** | 1-2個輕量[NC]出場：晴香放學後/日常去阿姨茶餐廳；秋穗溫暖阿姨形象（模仿花子語調，habit #5a）；道具埋伏 = **血糖手錶**（以「健康監測儀器」名義給晴香；真實功能 = 情緒增幅器監控裝置）；有1個極細微「不像普通阿姨」破綻；秋穗身份定位 = 輔助NPC（暗中守護+監控晴香）；分佈 = E-01或E-02後[NC] | `[AC]`（CDL-110）|
+| **晴香GameUI視界[NC]（CDL-111）** | E-01/E-02後某個日常[NC]中首次出現：晴香與隊友互動時突然「看見」對方頭頂浮現情緒圖標/數值條（血條/情緒圖標）；以為是自身強烈同理心（habit #3，haruka.md確認）；暫不理解係創世者特權；首次出現 = 非戰鬥日常情境（而非初次變身）；觀眾此刻AKS-H0，看到的比晴香更多但同樣不明原因 | `[AC]`（CDL-111）|
+====
+| E-02/E-02.5 | 晴香天真善意建隊（擋攻擊救操；珍寶珠救紫音）；**E-02.5誤導設計（CDL-158）**：紫音倒地=戒斷症狀，初讀以為低血糖；珍寶珠甜味短暫緩解戒斷 | 全作 | 晴香的連結方式=非英雄姿態；Act IV確認「態度」真實意義；*
+| E-1.5 | AKS-S0 彩/黑奏切換（無解釋）| Act III | 彩/黑奏身份揭露（情感核彈 L1+L2+L3）| `[AC]` |
+| E-03 | 守恆定律 Layer 1（可樂失味 / 異常疲憊）| Act II/III/IV | 守恆定律 Layer 2-5 逐步揭露；Layer 4 = 晴香被指為緋潮始作俑者 | `[SS]→[AC]` |
+| E-03 | 情緒連結後遺症（守恆定律首次體驗；停止機制 = 自然停止 B）；**晴香倒下（CDL-078）** | Act II | E-11a 後遺症創造情感脆弱點 → 黑奏利用**晴香**脆弱點，大量屍骸化危機 | `[AC]`（CDL-048/078）|
+| E-04 | 凜前史 / 光環處決機制 | Act III | 凜崩潰 → 拒絕治癒 → Unit 00（E-15a）| `[AC]` |
+| E-04 | 紫音肢體扭曲受傷（手臂傷口，無解釋）| Act II E-12 | 手臂傷口 = E-12情感癱瘓第三重觸發器（紫音曾為保護隊友流血的物理鐵證）→ 晴香失語崩潰撤退 | `[PAID E-12]`（CDL-240；CDL-021廢除）|
+| E-XX | AKS-H1（Alpha/Beta 線存在）| Act III | AKS-H2/H3：創世者揭示（觀眾確認的基礎）| `[AC]` |
+| E-XX | 夕整合（暫時）| Act IV | 夕消散（改變現實→反悔→undo→力量耗盡）| `[AC]` |
+| E-01/[NC] | 美夜子本能靠近晴香（靈魂錨點，口說工具）| Act II 後期 / Act III | Act II 記憶恢復（Stage 2）→ Act III **兩步相認**：Step 1 = H1.5 月下崩潰無語言相認（貓殼碎裂 + 靈魂比語言更早認出彼此）；Step 2 = J2 黑奏處刑室語言確�
+| [NC] 偽亮色感建立 | 日常溫暖感積累 | Act II/III | 嘆息之橋失落對比；Act III 偽高潮崩塌反差 | `[AC by structure]` |
+| E-01/[NC] | 晴香「膠布哲學」：習慣性用膠布蓋住問題（逃避/掩蓋行為的具現化，CDL-070）| E-XX幕末 / Act IV | E-XX：晴香放下膠布→主動把手貼向夕（整合轉折視覺化）；Act IV：膠布全面放下 = 個體化完成 | `[AC]`（CDL-069/070）|
+| E-01/[NC] | 彩殘舊紅絲絨熊公仔（觀眾初讀 = 安心毛公仔，CDL-075）| Act III/IV | 揭露：熊公仔 = 螢的遺物；「彩一直抱著的一直都係螢」；負空間敘事（CDL-074） | `[AC]`（CDL-075）|
+| E-1.5/[NC] | 彩「下次呢？」病態執著行為（CDL-075）| Act III/IV | 揭露螢的死亡+彩/黑奏身份後，觀眾回看「下次」行為 = 最深心痛；「螢的死讓彩永遠失去下次」 | `[AC]`（CDL-075）|
+| E-1.5/[NC] | 黑奏存在本身（Act I無說明誕生原因）| Act III | 黑奏誕生真相揭露：「螢死亡當夜6歲的彩人格分裂，黑奏從彩的創傷中誕生」（CDL-076/099）= 全劇最大情感反轉之一；Act I所有黑奏「高傲保護」行為的意義全面翻轉 | `[A
+| [SQ-A] | 桐生健手臂傷口 + 晴香貼膠布說「痛係證據」+ 退色貓仔膠布（CDL-088）| Act III/IV | 第2次改變現實幻象（CDL-093）：夕沉溺完美Alpha幻象，桐生健摸退色膠布說「痛係證據...醒啦，唔好忘記妳受過嘅傷」→ 幻象崩解；三位�
+
+| [NC] Act I（茶餐廳） | 秋穗以「阿姨維護日常戰鬥裝備」名義改裝血糖手錶 CGM，加裝後門（CDL-114）；Act I觀眾/晴香只看到「溫暖NPC幫換更好的裝置」 | Act II中期→Act II末E-11a附近 | Act II中期：手錶在純情緒崩潰（非物理戰鬥）�
+| E-02.5（紫音珍寶珠入隊） | **珍寶珠符號植入（CDL-
+
+=== #34 Bash {"command": "sed -n '35p' canon/_working/CANON_DECISION_LOG.md | cut -c1-1500; echo =====; grep -n \"掉牙\" 00_Story_Brief.html | cut -c1-260", "description": "CDL-381 and Brief tooth mentions"}
+| CDL-381 | 晴香「面具」形成時間點正式定案（QQ-211解決）——採用CDL-356（Act I冇面具），`05_naming_and_psychology_system.md`「創傷性面具」對晴香嗰項修正為「5歲形成生存框架/身份基礎，Act I真心，後期先固化成面具」 | **正式確認（2026-08-11，作者拍板）**：作者同意AI建議方向，保留CDL-356做Act I定案（因為CDL-357誘惑弧線/道德立場光譜等後續設計已建基於此，改動成本高）；`05_naming_and_psychology_system.md`「創傷性面具」原文對晴香嗰句（「無法接受『我害死了家姐』的罪疚，她催眠自己成為『帶給全世界希望的太陽』」）修正——**5歲創傷催生嘅係一個生存性自我框架／身份基礎，唔等於Act I已存在嘅表演性面具**。時序定案：①5歲＝形成生存框架／身份基礎；②Act I＝真心照顧人，未形成面具；③後期＝真心被制度同關係（例如經理人剝削、拯救者情結被利用）長期固化成不可停止嘅義務，先變成面具，造成心靈性剝奪。**明確排除**：凜、美夜子兩項「創傷性面具」描述唔受此修正影響，佢哋嘅面具仍然係即時防衛機制，唔套用晴香呢個延後時序。 | 作者2026-08-11自由form討論確認（AI提出建議方向→作者「我同意」並補充精確措辭同時序） | `05_naming_and_psychology_system.md`（第二層創傷性面具，晴香項+新增修正段落） | 2026-08-11 |
+=====
+4739:                  <p style="margin:0">牙齦出血、手震、掉牙、嘔吐、失焦、耳鳴——全部是純粹的肉身現象。觀眾不需要理解任何魔法機制，一眼就知道這個角色正在付出代價。</p>
+6098:                    <p style="margin:0 0 8px">代價<strong>不在當下爆出，而是被迫延後</strong>。戰鬥中沒事——落台之後才嘔吐；先處理現場才掉牙、失聲。她們連崩潰都沒有權利即刻崩。
+7636:                          src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png" alt="操 甜品掉牙"
+7637:                          class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣。" />
+7639:                          甜品掉牙——冇人察覺嘅死亡恐懼</figcaption>
+9327:                      alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺"
+9328:                      data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣——完整場景細節見上方操角色卡。"
+
+=== #35 Bash {"command": "sed -n '7578,7588p;7630,7640p;9318,9330p' 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-420 | grep -v '^\\s*$'", "description": "Brief tooth-drop context for H1 conflict"}
+                    <img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_18_Misao_VanityConfession.png" alt="操の虛榮告白"
+                        class="scene-desc-btn" data-title="虛榮告白——入隊初期首次承認「我不如我以為的那麼好」，驕傲底下第一道裂縫" data-desc="帝國歷113年，操加入主角團初期，在某次任務後的空檔，她靠著牆，側身，不看人，用一種仍然帶著驕傲尾音的語氣說出了她人生中第一次「我不如我以為的那麼好」。眼眶微紅，但
+                        虛榮告白——驕傲底下第一道裂縫
+                    <img
+                        src="art/ConceptArt/Scene/ConceptArt_Scene_49_Misao_PuppetStringTeeth.png" alt="操 傀儡絲牙縫"
+                        class="scene-desc-btn" data-title="傀儡絲從牙縫蔓出——魔法失控時絲線穿透自身，控制者成為被控者"
+                        data-desc="帝國歷113年，操的身體因長期使用魔法而開始崩壞，牙齒鬆動是這個過程的表徵之一。她站在鏡前，用傀儡絲把鬆動的牙縫合回牙齦，妝容完整，嘴角滲血也不擦，繼續進行下一針。她的表情是工作中的人的表情，不是恐懼，是計算——就像在修補一件複雜的衣物。她無法阻止身體的損耗，�
+                          src="art/ConceptArt/Scene/ConceptArt_Scene_43_ParentsDay_Infiltration.png" alt="操 家長日大作戰"
+                          class="scene-desc-btn" data-title="家長日大作戰——操偽裝成紫音的家長" data-desc="操穿著高貴的黑色連身裙，搭配黑色長手套，舉止端莊優雅，完全看不出是剛才還在戰鬥的魔法少女。她與紫音一同應付班主任嘅家長日面談，操用成熟、溫柔卻又帶著威嚴的語調回應，展示著她作為「家長」的關切與掌控�
+                          家長日大作戰——操偽裝成紫音的家長
+                      <img
+                          src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png" alt="操 甜品掉牙"
+                          class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣。" />
+                          甜品掉牙——冇人察覺嘅死亡恐懼
+                      style="max-width: 280px; max-height: 200px; border-radius: 6px; border: 1px solid rgba(124, 58, 237, 0.3);" />
+                4. 日常裂開戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。
+                  晴香<a
+                      class="char-tag" data-char="miyako" href="#c-miyako">美夜子<a class="char-tag" data-char="sou"
+                      href="#c-sou">操語彩
+                  <img
+                      src="art/ConceptArt/Scene/ConceptArt_Scene_47_Misao_DessertToothDrop.png"
+                      alt="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺" class="scene-desc-btn" data-title="甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺"
+                      data-desc="操喺甜品局中悄悄掉牙，強忍恐懼繼續假裝正常，冇人察覺異樣——完整場景細節見上方操角色卡。"
+                      style="cursor:pointer;max-width:280px;max-height:200px;border-radius:6px;border:1px solid rgba(124,58,237,0.3);" />
+
+=== #36 Bash {"command": "grep -n \"日常裂開\\|悲鳴女妖\\|帝歷113\" 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-240 | head -25", "description": "Brief node 4 日常裂開 context"}
+8229:                        class="scene-desc-btn" data-title="情緒管理局的遠望——帝歷113年4月戰後，晴香、美夜子、凜在高處廢墟邊緣的遠景"
+8232:                        情緒管理局的遠望——帝歷113年4月戰後，晴香、美夜子、凜在高處廢墟邊緣的遠景
+9303:                      src="art/ConceptArt/Scene/ConceptArt_Scene_16_BansheeFirstBattle.png" alt="悲鳴女妖首戰"
+9307:                    悲鳴女妖首戰——帝歷113年4月，主角團首次於夜區廢墟對戰悲鳴女妖
+9321:                4. 日常裂開戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。
+
+=== #37 Bash {"command": "sed -n '9296,9345p' 00_Story_Brief.html | sed 's/<[^>]*>//g' | grep -v '^\\s*$' | cut -c1-300 | grep -v \"style=\\|src=\\|class=\\|data-\"", "description": "Story-strip nodes 3-5 order in Brief"}
+                2.
+                    四人組隊晴香、紫音、操、彩不是自然成為朋友，而是因屍骸危機與魔法少女制度，被迫組成互相依賴的小隊。
+                  晴香<a
+                  <img
+                    悲鳴女妖首戰——帝歷113年4月，主角團首次於夜區廢墟對戰悲鳴女妖
+                3. 連結污染她們戰鬥時要共享情緒力量；代價是彼此會看見對方最深的創傷，靈魂邊界開始變得模糊。
+                  晴香<a
+                      href="#c-sou">操語彩
+                4. 日常裂開戰鬥後遺症開始入侵校園生活：手震、嘔吐、幻覺，令「平凡日常」慢慢變得不可信。
+                  晴香<a
+                      href="#c-sou">操語彩
+                  <img
+                4.5
+                    家長日作戰紫音想脫離黑社會打手身份，黑社會唔容許，策劃報復伏擊；紫音獨自擊退但力竭陷入嚴重戒斷。同日隊伍照常執行「家長日」潛入——紫音扮家姐、操扮媽媽。晴香經朔嘅情報網聽到報復風聲但揀咗�
+                  紫音<a
+                      href="#c-haruka">晴香
+                5.
+                    紫音崩潰戒斷狀態嘅代價：紫音因伏擊後嚴重戒斷，喺小光遭屍骸襲擊嗰刻完全失去反應能力，只能眼白白睇住小光被殺並屍骸化。小光死後、刑思乘虛而入之前，佢曾獨自一人清洗成個黑社會堂口——崩潰的第�
+                  紫音
+
+=== #38 Bash {"command": "sed -n '6396,6424p' 00_Story_Brief.html | sed 's/<[^>]*>//g' | grep -v '^\\s*$' | cut -c1-400", "description": "Brief daily-life and base passages"}
+                <div
+                  style="grid-column:1/-1;background:rgba(255,255,255,.04);border-radius:8px;padding:13px 15px;border-top:2px solid rgba(255,255,255,.12)">
+                  <div
+                    style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin-bottom:7px;text-transform:uppercase">
+                    少女假日約會
+                    難得的和平時光。逛街、吃甜品、影貼紙相——就是普通少女做的事。貼紙相機前各自選框、搶位置、最後四個人擠在同一格。甜品店點了太多吃不完，結果輪流用湯匙剷掉對方的份量。這是她們之間少數幾次「沒有任何理由」的時刻——沒有任務、沒有目的、純粹就是在。
+                  <div
+                    style="font-size:11.5px;color:var(--muted);border-top:1px solid rgba(255,255,255,.07);padding-top:8px">
+                    消失：IG 上有一張大頭貼，後來再沒有類似的相片；甜品店隔壁變成了任務現場
+                <div
+                  style="grid-column:1/-1;background:rgba(255,255,255,.04);border-radius:8px;padding:13px 15px;border-top:2px solid rgba(255,255,255,.12)">
+                  <div
+                    style="font-size:10.5px;font-weight:700;letter-spacing:.08em;color:var(--muted);margin-bottom:7px;text-transform:uppercase">
+                    潛入學校
+                    血糖耗盡，四個人低血糖手震，急需補給。唯一選項：夜晚潛入附近學校。美夜子用軍方潛行技巧開路，紫音暴躁差點直接破門踹進去（被晴香拉住），操邊嫌棄灰塵邊監控閉路，晴香負責把風——緊張到肚子咕嚕咕嚕，差點引來保安。搬椅子、取針劑、清灰塵，四個彼此陌生的人第一�
+                  <div
+                    style="font-size:11.5px;color:var(--muted);border-top:1px solid rgba(255,255,255,.07);padding-top:8px">
+                    消失：秘密基地建好了。後來有人再也沒有回來。
+                設計原則：小確幸稀缺器
+                  這些輕盈時刻不是節奏調劑，而是讓觀眾建立對她們存在方式的真實依附。越廉價而具體的快樂（不是「友情」，是「一起搶最後一個布丁」），消失時越重。IG
+
+=== #39 Bash {"command": "grep -n \"天台\\|秘密基地\\|熱可可\" 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-220 | head -20", "description": "Brief rooftop, secret base, hot cocoa mentions"}
+6414:                    血糖耗盡，四個人低血糖手震，急需補給。唯一選項：夜晚潛入附近學校。美夜子用軍方潛行技巧開路，紫音暴躁差點直接破門踹進去（被晴香拉住
+6418:                    消失：秘密基地建好了。後來有人再也沒有回來。
+
+=== #40 Bash {"command": "sed -n '6414p' 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-600; echo ----; grep -n \"冷漠\\|黑貓\\|貓形態\" 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-260 | head -14", "description": "Read full base mission line and 美夜子 cat references in Brief"}
+                    血糖耗盡，四個人低血糖手震，急需補給。唯一選項：夜晚潛入附近學校。美夜子用軍方潛行技巧開路，紫音暴躁差點直接破門踹進去（被晴香拉住），操邊嫌棄灰塵邊監控閉路，晴香負責把風——緊張到肚子咕嚕咕嚕，差點引來保安。搬椅子、取針劑、清灰塵，四個彼此陌生的人第一次為同一件蠢事合力做完。任務結束：一個秘密基地，幾個共同持有的荒謬記憶，從「戰鬥搭檔」升格為「有共同秘密的夥伴」。
+----
+4867:                    冷漠評判態度——應對得不夠漂亮就寫得冷漠，陪伴變成有條件
+5547:                      15歲被冰封，被復活為失憶兵器，被詛咒為黑貓，失去以人的姿態光榮死去的權利
+6838:                  
+6839:                  黑貓形態（避難所詛咒）
+6845:                    一句話：晴香死去嘅姊姊，復活後變成兵器同黑貓，一生都深信「冇用就冇資格留低」——連喺信任嘅人面前大哭一場，都覺得係一種僭越。
+6892:                    身份：美夜子嘅靈魂源自Alpha線中26歲死去嘅姊姊連若星——晴香五歲時目睹佢與媽媽同時死去，觸發咗晴香嘅無意識創世。之後秋穗秘密動用軍方技術令佢肉體復活，喺Beta線以15
+6898:                      目睹凜被光環處決嗰刻，晴香5歲許下「變成貓就不會受傷」嘅願望發動，強行將佢肉身轉化為黑貓。詛咒偏偏係「變成貓」而不是別的形態，正是因為晴香五歲當時許願嘅原話�
+6922:                    主題關聯：子主題 C（身份的本質）+ 子主題 D（連結的價值）——她以黑貓身份無法以真實姿態被愛，卻仍在連結中保有連續性。
+6929:貓形態的殼已經龜裂到無法修復的程度，人類形態和貓形態在這一刻同時存在——她既不屬於任何一個，又同時屬於兩個。月光照亮了她身上的每一道傷痕、每一個缺口，讓她無處可藏。" />
+6951:美夜子以貓形態走過來。她用爪子碰了一下手機，把它翻面，屏幕朝地。然後她消失了片刻，再回來，嘴裡叼著一罐可樂——罐身有點凹，是在月台另一端的角落找到的，早就沒氣了。她把它放
+6961:                        alt="美夜子 黑貓形態" />
+6963:                        黑貓形態——晴香5歲願望刻入Beta線，剝奪了她作為人類戰死的權利
+6967:                        class="scene-desc-btn" data-title="首次貓殼功能性崩裂——護隊受傷觸發，凜的斷刃鏡面反光同步映出人形殘影" data-desc="帝國歷113年5月，團隊戰鬥中，美夜子為保護隊友獨自硬扛一�
+7014:                    金色基礎幾何倒三角尖角，銳利直線（攻擊性）貓形態全黑英短 · 左耳金屬星型髮夾
+
+=== #41 Bash {"command": "sed -n '6845p;6967p' 00_Story_Brief.html | sed 's/<[^>]*>//g' | cut -c1-700; grep -n \"天台\" 00_Story_Brief.html | head -3 | cut -c1-200; grep -n \"好驚\\|驚\\b\" 00_Story_Brief.html | sed 's/<[^>]*>//g' | head -0", "description": "Brief lines on 美夜子 value and shell crack"}
+                    一句話：晴香死去嘅姊姊，復活後變成兵器同黑貓，一生都深信「冇用就冇資格留低」——連喺信任嘅人面前大哭一場，都覺得係一種僭越。
+                        class="scene-desc-btn" data-title="首次貓殼功能性崩裂——護隊受傷觸發，凜的斷刃鏡面反光同步映出人形殘影" data-desc="帝國歷113年5月，團隊戰鬥中，美夜子為保護隊友獨自硬扛一擊本應落在隊友身上的攻擊，傷勢惡化到極限的生理衝擊下，她的貓殼開始出現第一道裂縫。毛皮在零點五秒內從左肩開始碎裂，人形輪廓從裂縫透出，一隻人的手、她真實的臉局部短暫顯現，然後被強行壓回去。她受傷那一刻，手上正握著每日打磨、刻有凜名字的斷刃匕首——裂開特登發生在她握刀的瞬間，近乎鏡面反光的刀身把這次
+
+=== #42 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && sed -n '81p;289p;291p' haruka.md | cut -c1-1200", "description": "Read full haruka lines for CDL-357 behaviours"}
+**呢個設計嘅目的**：佢嘅心理重量唔應該由童年創傷提供，而係**隨劇情發展逐步累積**——目擊操/紫音等隊友接連受苦、逐步得知自己就係「創世者」、發現自己嘅好命某程度上係用其他人嘅苦難換嚟——呢啲先係令佢「拯救者情結」由天真嘅助人衝動，慢慢演變做罪疚驅動嘅心理負擔嘅真正過程。**「為人哋喊，為自己唔喊」（CDL-347）呢個唔對稱，唔應該理解做由細個學識嘅生存策略，而係隨呢個罪疚累積過程先逐步形成嘅**——比起人哋嘅苦難（好多都同自己有關），佢會覺得自己嘅痛「唔算得咩」，冇資格擺出嚟，呢個先係佢後段自我剝奪悲傷權利嘅精準成因，時序上要扣返創世真相揭露前後，唔係Act I起點。
+1. **[膠布哲學](../02_glossary.md#term-band-aid-philosophy)** — 在手指或手臂貼彩色膠布，「痛是證據」。書包內設專用膠布袋，隨身攜帶各色圖案膠布；手指常疊貼 2-3 層，形成「護甲」。劇情弧：初期（過度貼蓋／逃避）→ 中期（血從縫隙滲出）→ 高潮（撕開直視）→ 結局（不再需要）。**具現化前因補充（CDL-357）**：每次要施力／挺身助人前半秒，會有一個佢自己都未必意識到嘅小動作——手指觸碰／按一按身上某處嘅膠布，好似確認緊「我自己嗰份先蓋緊」，先敢去接觸人哋嘅痛；接納完成後（三位一體前夕），呢個動作消失，直接扣連本身已有嘅弧線終點「不再需要」
+3. **絕對共感視界** — 能看見其他人看不到的「遊戲 UI」（血條、情緒圖標）——實際上是創世者特權，她誤以為是「同理心強」。**自我盲點——具現化前因嘅核心設計（CDL-357）**：呢個UI理論上都應該照到晴香自己嘅狀態，但佢每次要施力助人前，會下意識避開自己嗰格數值——即係話**佢有能力睇到自己嘅警號，但選擇唔望**。呢個唔係被動嘅生理反應，係一個每次都要重複做嘅主動心理選擇：施力前，畫面/佢視野邊緣會閃一閃自己嗰格UI嘅警示圖標，佢眼神刻意移開，然後先出手——觀眾同晴香一齊睇到嗰格警號，一齊見證佢揀擇唔望。**呢個先係「壓抑稅」（見下）嘅視覺化前因**：冇望自己個UI，等於冇畀機會自己嘅心理狀態被自己承認/處理，未處理嘅能量因此持續累積。**解答**：接納完成後（最終決戰/三位一體前夕），晴香終於第一次用返呢個能力望向自己嗰格——用返一直用嚟睇人哋嘅能力，望返自己一眼
+
+=== #43 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && sed -n '198p;200p;202p' miyako.md | cut -c1-1500", "description": "Read full miyako CDL-337/408 lines"}
+**忠誠——正面特質，有明確排他性邊界（CDL-337，2026-07-18 修正）**：美夜子嘅忠誠唔係「對隊伍全體自動生效」嘅溫馨設定，而係**淨係俾佢信任嘅人**先攞到——起點錨定喺晴香（凜死創傷令佢極度恐懼再一次珍視某個人），CDL-083（E-02本能反應，仲未自覺）→CDL-043（E-04美夜子強硬阻止紫音超載，用同一份本能做咗個改變劇情嘅決定——紫音仍然肢體扭曲受傷，但美夜子依然用功利藉口掩飾自己嘅本能反應）→CDL-191（終於唔再掩飾，直接承認）——三步構成一條完整嘅「特質由隱性變自覺」嘅遞進線。**呢份忠誠嘅「外顯」部分冇跨過信任門檻嘅人就攞唔到**：對信任圈之外嘅人（包括未確立信任嘅隊友、普通市民、甚至有血緣但佢未認定嘅親屬），美夜子唔會主動熱情、會保持明顯距離，外殼拮手——但呢個係失去太多之後嘅**防備姿態，唔等於唔關心**。佢仍然會暗地留意、默默照住啲未放入信任圈嘅人（遞返啲嘢、擋一擋、記得啲細節、幫手執手尾但唔認），只係唔會擺出嚟。即係話呢份忠誠嘅**表達**有明確、排他性嘅邊界，但底層唔係「口硬心軟通用溫暖」嗰種廉價設定，亦唔係真空冷漠——係一個怕再痛而收埋關心嘅人。呢種姿態靠壓抑自我先撐得住，寫嘅時候要留意佢唔係冇代價嘅溫柔，亦唔係普世擺�
+**「解離性麻木」唔屬於呢個日常底色（2026-09-10 校準）**：美夜子嘅日常底色 = 面硬、話少、扮唔理，但暗地睇住晒、默默照住人（見 [Behavior Hook #14](#habit-quiet-tending)、[沉默守護](#section-behavior-hooks)）。canon 入面提到嘅「解離性麻木」係佢**頂唔順嗰陣／急性創傷反應期**先出現嘅狀態——凜死打穿人格防線嗰陣、[貓殼碎裂後重度解離](#section-existence-collapse)——唔係佢平時嘅本性或者底色。佢嘅[修復路徑](#section-existence-collapse)（「允許被愛與被承接」）= 返去呢個溫暖但拮手嘅底，唔係由零學識連結。**質感參考（非照抄）**：《魔法紀錄》七海八千代——清高、難親近、外殼拮手，失去過隊友先豎起刺，但一直暗地關心人；受咗傷只係退後半步，唔係熄機／封閉自己。
+**魅力／機智空間（CDL-410，2026-09-20 作者確認方向）**：美夜子容許有魅力、機智、幽默。canon 現有基礎：追光點／貓舌／偷食棒棒糖反差（CDL-342）、K 房歌聲；真正未開發嘅係 wit／幽默。呢條**只係方向准許，唔係具體設計**——具體形式／句式／場景留 voice bible／Beat Sheet／Script 層；同上面八千代底色（CDL-408，已確認唔撞 CDL-337 忠誠段）兼容。美夜子 pre-trauma 核心偏薄仍未決。
+
+=== #44 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && sed -n '368,380p;353,357p;315p' ayakomoji_misao.md | cut -c1-900", "description": "Read misao OCD table and seamstress habit"}
+7. <a id="habit-seamstress"></a>**病態無痕修補（AKS埋位）**（CDL-155/156）— 操隨身攜帶細針與絲線，對破損的東西有不可抑制的修補衝動：隊友撕裂的戰鬥服、彩的殘舊熊公仔、任何出現裂縫的布料。她補過的東西連縫合痕跡都看不見，完美得如同從未破裂。**觀眾初讀（Act I）**：「千金大小姐教養極好，女子力點滿。」**心理根源**：父親安排的物理性別重置手術（CDL-155）在她身體上留下縫合痕跡——她的身體像被強行剪開又醜陋縫合的科學怪人。對修補「絕對不能留縫線痕跡」的病態執著，是潛意識試圖掩蓋自身肉體那些手術縫線的心理投射；衣服上的裂縫和線頭喚起「被改造的不正確身體」的羞恥感，她必須將它們全部抹去。**AKS埋位**：Alpha/Beta線差異揭露後回溯：「那雙�
+
+- **主題**：蜘蛛 + rose。蜘蛛代表控制、織網、捕食與逃避真實；rose 代表瑰麗、精緻、被觀賞的完美。
+- **眼布**：眼布是核心心理符號，代表操逃避接受自己處於男性身體的事實。它不是單純神秘裝飾，而是「拒絕看見自我」的外化。
+- **肩上蜘蛛網裝飾**：肩部蜘蛛網必須清晰可讀，作為蜘蛛主題入口；絲線即蛛網，操控傀儡即織網捕食。
+- **六處突出布條 / Character Flow**：身上 6 處向外突出的布條形成蜘蛛腳式 flow。雖然蜘蛛是 8 隻腳，但為了美術集中與 silhouette 可讀性，固定採用 6 處突出布條；它們要令角色整體由身體中心向外放射，形成「華麗但危險」的蜘蛛輪廓。
+### 屍骸化過程
+
+測量頻率暴增 → 用絲線對自己進行「整形手術」→ 「鋼鐵獨舞」場景：左手因毒素腫脹 3mm，操以玫瑰金量尺在精確切線位置用絲線自行切斷整隻左手（「這是唯一精準的選擇」）→ 最終「人偶牆」——操以幾何對稱的方式，用絲線將廢墟碎片、傀儡殘骸與自身解體的身體組合成封鎖通道的牆體。操的臉部在人偶牆中保持完整如瓷器，無任何破損。據記錄，人偶牆在事後被部分目擊者誤認為大型藝術裝置。
+
+### 強迫症行為升級時序表
+
+| 幕 | 強迫症行為 | 觸發閾值 | 外部可見程度 |
+|----|----------|---------|-----------|
+| 第一幕 | 每天測量一次；完美遮蓋 | 任何未被告知的接觸 | 不可見（完美偽裝） |
+| 第二幕 | 每天 3–5 次；開始出現小裂痕 | 據點事件後閾值降低 | 偶爾被隊友察覺 |
+| 第三幕 | 每小時測量；絲線自我手術 | 接近連續觸發 | 明顯可見，無法完全掩蓋 |
+| 第四幕 | 完全失控；最後一次「精準」是切斷左手 | 已不需要外部觸發 | 成為鋼鐵獨舞的視覺主體 |
+
+=== #45 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon && sed -n '278p' 03_characters/miyako.md | cut -c1-1100; echo ----; sed -n '242p' _working/story_construction/ACT_I_OUTLINE.md | cut -c1-900; echo ----; sed -n '134,146p' _working/story_construction/ACT_I_OUTLINE.md | cut -c1-420", "description": "Read lip-bite habit and Outline Beat 2 grammar"}
+13. <a id="habit-lip-bite"></a>**咬嘴唇（跨形態通用）**（CDL-347）— 美夜子每次做完一個非計劃、發自本能嘅保護/關心動作之後，開口講出計算過嘅功利藉口之前，會有半拍不受控咁咬住下唇——真心話已經衝到嘴邊，呢個動作係佢用嚟physical截停自己嘅方法。人形同貓形態做嘅係完全同一個動作、同一個時機（貓有明顯嘴唇可以做同一個表情），觀眾唔使解釋都睇得出嗰半拍代表咩。呢個係[渴望大哭](#habit-crying-desire)（佢一生最深嘅願望係喺信任嘅人面前大喊一場但從未被允許）被截停嘅現場證據——美夜子唔會喊，但每次「本應該可以喊」嘅衝動被截停嗰下，都會咬一次嘴唇。
+----
+| **美夜子[NC]裂縫** | 除E-02首戰保護動作（CDL-083）外，[NC]有一個輕量對話場景（**C，CDL-105**）：晴香問了私人問題（觸碰凜/過去方向）→ 美夜子有一刻停頓，才給出功利性轉移回答；晴香察覺有停頓但沒追問；與CDL-084（E-02凜信息一句猶豫）呼應，形成美夜子「有秘密孤獨感」雙層種子；**擺位建議（CDL-347，未定案）**：E-02首戰嘅本能保護動作後、同呢度「一刻停頓先功利式轉移」兩個位，都可以擺[咬嘴唇](../../../canon/03_characters/miyako.md#habit-lip-bite "美夜子每次非計劃保護動作後、開口講功利藉口前嘅半拍不受控咬唇，人形/貓形態通用")嘅半拍動作，戰鬥/日常兩種語境各出現一次先夠「跨形態通用」嘅感覺 | `[AC]`（CDL-105）|
+----
+### Beat 2 — E-02：首戰 + 操入隊 + 情緒連結首戰
+**媒介：主線（強制）**
+**⚠️ Peak Moment of Doubt（CDL-224）**：E-02情緒連結首戰+E-03後遺症 = Act I 最強懷疑觸發點；「友情合體技」→「強制心理入侵/創傷共享」顛覆觀眾類型預期；Beat Sheet執行語法：「勝利後的靜默」（迴避視線/反胃乾嘔/拒絕觸碰）
+
+| 項目 | 內容 | Status |
+|------|------|--------|
+| **事件** | 大型屍骸戰鬥（首次魔法少女戰鬥）；屍骸形態 = 人形扭曲版（被強烈情緒佔據的人）；情緒連結（empath power）首次使用：美夜子提出（唔夠打時），**凜信息 = 極簡一句帶情感色彩**（CDL-084）：「我以前…同一個人試過。應該有效。」帶一瞬猶豫/沉默，晴香察覺但沒問；**美夜子非功利保護動作**（CDL-083�
+| **主題B** | 首次變身的美好謊言（外在光輝感 vs 底層成本）| `[AC]` |
+| **世界規則** | 屍骸態度選擇兩種對比示範（正面選擇消散 + 反面奪舍被阻）；遊戲關卡 NPC 行為表演呈現；**維多利亞之淚：群體情緒催眠**（光幕濾鏡 + 快樂波長 → 市民「集體吸毒」般批判思考喪失，CDL-056）；戰鬥被作為 **Reality Show 直播**（情緒資本主義娛樂化；觀眾賭博/打賞，CDL-057）；**遊戲呈現 = A+B+假數值�
+| **氣氛** | 偽亮色感高峰；勝利感建立；Reality Show 氣氛令一切顯得正當且光榮 | `[AC]` |
+| **緋潮視覺 Lv.1（CDL-176）** | E-02戰場遠景背景：地平線邊緣極難察覺的暗紅色光害；觀眾可解讀為霓虹燈折射/工廠廢氣（GAP-33克制原則）；底層=緋潮第一層積累 | `[AC]`（CDL-176）|
+| **AKS** | H0 繼續；紫音「搶怪黨」行為 = 觀眾對紫音的初印象（野獸感）| `[AC]` |
+
+=== #46 Bash {"command": "grep -n \"本庄\" canon/03_characters/ayakomoji_misao.md | head -3 | cut -c1-160; grep -c \"本庄\" 00_Story_Brief.html; grep -n \"綾小路\" 00_Story_Brief.html | head -2 | sed 's/<[^>]*>//g' | cut -c1-160; sed -n '4,12p' canon/03_characters/ayakomoji_misao.md | cut -c1-200", "description": "Check 操 surname inconsistency"}
+0
+4476:    綾小路操
+4486:    綾小路紗夜
+> 首次閱讀建議先看 [§ Header Table](#char-misao) 與 [§ Want/Need/Lie/Truth](#section-wnlt)，再按需深入。
+> 相關文件：[Character Index](../03_character_index.md) | [Story Outline](../05_story_outline_canon.md) | [Glossary](../02_glossary.md)
+
+<!-- Sources: backup/screenwriter/01_Character_Background_Story.md, backup/screenwriter/06_Character_Psychology_Analysis.md, backup/director/Core_Characters_Symbolism_Analysis.md, backup/director/Stor
+
+---
+
+## <a id="section-char-scope"></a>角色文件職責邊界
+
+=== #47 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && sed -n '39,75p' IDEOLOGY_THEME_STANCE_MATRIX.md | cut -c1-300; sed -n '162p' IDEOLOGY_THEME_STANCE_MATRIX.md | cut -c1-300", "description": "Read Matrix rows for 晴香 and 美夜子"}
+## 晴香（天真連結派）
+
+**Entity type:** 主要角色（主角）
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 連結的價值 / 天真善意 vs 制度壓迫 / 「笑著面對」能否改變命運 | SS |
+| **Stated belief** | 善意和連結可以改變世界；笑著面對才能感染他人；只要維持希望，一切都會好 | SS |
+| **Actual belief**（Act I 揭示）| 相信「拯救=被需要=值得存在」；「笑著面對」實際上係用來壓制自己的恐懼（停下來=暴露無用的真實自我）| AC | 作者確認 2026-04-14 |
+| **Method of dealing with pain / fate** | 膠布哲學（覆蓋/強行正常）；偶像表演（轉化痛苦）；拯救他人（轉移注意力）；拯救者情結（把入隊當英雄使命）| SS | CDL-053/070 |
+| **What this stance promises** | 只要足夠努力/善良/笑著，悲劇不會重演；連結可以彌補失去 | INFERRED |
+| **What this stance hides** | 她自己的痛苦（被強行覆蓋）；她對制度的盲目（被利用而不知）；她的善意本身被帝國設計為武器 | SS | CDL-149/167 |
+| **What this stance costs** | Act I：可樂失味（感知麻木第一層）；主動蒙蔽雙眼的能力（膠布哲學代價）| AC | 作者確認 2026-04-14 |
+| **Mirror** | 帝國（exploits her stance，利用她的天真）| INFERRED |
+| **Oppose** | 美夜子（冷功利）；黑奏（極端方法論）；帝國（利用她）| SS |
+| **Where it appears** | Beat 0c（阻止欺凌 = 拯救者情結無意識觸發）；Beat 1（入隊動機）；Beat 2.5（珍寶珠）；[NC] 全幕日常互動 | SS |
+| **Story's treatment** | **Act I = validates（偽英雄旅程假象）；全作最終 = complicates**（三位一體結局保留，但唔validate做乾淨自由嘅犧牲，加返兩層誠實性：連晴香自己都未必分得清係咪真自由選擇；一個唔可以明講嘅停止權時刻，寫
+
+---
+
+## 美夜子（冰冷功利派 × 靈魂守護矛盾）
+
+**Entity type:** 主要角色
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 連結的代價 / 保護的方式（謊言 vs 真相）/ 孤獨作為自我保護 | SS |
+| **Stated belief** | 存活和功能優先；情感是弱點；晴香是工具 | SS | CDL-054/060 |
+| **Actual belief**（靈魂層）| 晴香係她唯一感到熟悉和安全的錨點；一旦對晴香投入真實情感，晴香就會像凜一樣因她而死——「借來的生命沒資格擁有未來」| AC | 作者確認 2026-04-14；CDL-060 |
+| **Method of dealing with pain** | 功利化（把守護轉化為策略語言）；貓形態（物理/情感距離）；共謀誤導（保護晴香的代價是欺騙她）| SS | CDL-054/060/083/108 |
+| **What this stance promises** | 不再失去；不再受傷；維持控制感 | INFERRED |
+| **What this stance hides** | 她其實極度孤獨；她的「保護」包含不告訴晴香真相的自私成分；她靈魂本能已違反自己的功利邏輯 | AC | CDL-060；作者確認 |
+| **What this stance costs** | Act I：加深絕對的孤獨；自我割裂（靈魂想靠近，大腦用功利推開）；情感耗損比戰鬥更嚴重 | AC | 作者確認 2026-04-14 |
+| **Mirror** | — | — |
+| **Oppose** | 晴香（天真連結）；凜（死亡成為美夜子最大的反面論證）| SS |
+| **Where it appears** | Beat 1（緊急裝置交付）；天台使命說明；E-02非功利保護動作（CDL-083）；[NC]美夜子裂縫場景（CDL-105）| SS |
+| **Story's treatment** | **Complicates**——功利化被揭示為 coping，唔係正確答案；她的「保護」含有欺騙的道德代價（終點 BK）| SS（Act I部分）/ BK（全作終點）|
+- **操／紫音「Story's treatment」欄仍標 BK（未確認）**，但 `canon/12_philosophy_and_systems.md` §六曾經斷言「態度的自由是否還有可能？答案是肯定的——紫音、操的最終選擇證明了這一點」——即係bible層已寫低結論，但支撐呢個結論�
+
+=== #48 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && grep -n \"因被在乎而選擇留低\\|守恆代價尚未顯現\\|表情平靜但眼神有掙扎\\|晴香全盤接受\\|美夜子維持功利語氣\\|不確定的忐忑\\|唔係入隊。係臨時指導\\|人群歡呼，有人求簽名\\|強迫自己正常\\|四人關係未熟\\|紫音現身搶核心\\|操第一次見到有人在乎\" ACT_I_BEAT_SHEET.md ACT_I_OUTLINE.md | cut -c1-200; grep -n \"迴避視線/反胃乾嘔\\|Peak Moment of Doubt（CDL-224）\\|第一幕.*每天測量\" ACT_I_OUTLINE.md | cut -c1-120", "description": "Get exact line numbers for cited quotes"}
+ACT_I_BEAT_SHEET.md:156:| **reaction** | 表情平靜但眼神有掙扎——壓抑而非釋放 |
+ACT_I_BEAT_SHEET.md:158:| **consequence** | 睡前熱可可習慣正式確立（Behavior Hook）；晴香「強迫自己正常」嘅壓制模式首次具現化 |
+ACT_I_BEAT_SHEET.md:198:| **reaction** | 晴香全盤接受（拯救者情結命中）；美夜子維持功利語氣，迴避守恆代價嘅提及 |
+ACT_I_BEAT_SHEET.md:201:| **emotional value shift** | 由不確定的忐忑→被賦予意義嘅安心感（但底層係被隱瞞代價嘅陷阱） |
+ACT_I_BEAT_SHEET.md:281:| **action** | 大型屍骸戰鬥爆發→情緒連結啟動（力量暴增）→操從高處介入獵殺屍骸→操中陷阱→晴香衝去擋攻擊、笑問裙子有無整�
+ACT_I_BEAT_SHEET.md:283:| **turn** | 操由「獨行俠冇得唔打嘅義務式戰鬥」轉化為「因被在乎而選擇留低」——核心渴望（被見證嘅存在）首次被命中 |
+ACT_I_BEAT_SHEET.md:284:| **consequence** | 操正式入隊（隊伍擴至三人）；情緒連結機制正式引入（守恆代價尚未顯現）；紫音正式進入觀眾視野（未入隊） |
+ACT_I_BEAT_SHEET.md:773:- 操第一次見到有人在乎「她」多過在乎「戰果」
+ACT_I_BEAT_SHEET.md:782:- 操：「唔係入隊。係臨時指導。」（轉身，但沒有離開）
+ACT_I_BEAT_SHEET.md:790:- 人群歡呼，有人求簽名
+ACT_I_OUTLINE.md:77:| **設計** | 無台詞，純視覺；晴香獨處；**睡前熱可可私密習慣**（09_Habits：高糖度多巴胺安全閥，「假裝製造幸福感」）；極甜的熱可�
+ACT_I_OUTLINE.md:174:| **關係功能** | 四人關係未熟，被迫合作；荒謬生存行動 → 初步化學反應建立；從「戰鬥搭檔」升格為「有共同秘密的夥伴」 | `[AC]`（
+136:**⚠️ Peak Moment of Doubt（CDL-224）**：E-02情緒連結首戰+E-03後遺症 = Act I 最強懷疑觸發點；
+
+=== #49 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && grep -n \"直播\\|不重要\" miyako.md | head -0; grep -n \"冇面具、冇隱藏創傷\\|強制微笑\\|睡前熱可可成癮\\|說謊時過度燦爛\\|最幸運嘅一個\\|倖存者式唔安\\|初期嘅盲點\" haruka.md | cut -c1-90; grep -n \"唔會自動因為世界有事而幫人\" ../_working/CANON_DECISION_LOG.md | cut -c1-40", "description": "Confirm line numbers in haruka.md"}
+77:### 幸運嘅一個——Act I 冇面具、冇隱藏創傷（CDL-355）
+79:**重要澄清**：晴香唔應該讀成「戴住面具、收埋緊童年創傷」—�
+83:**倖存者式唔安——「追平差距」嘅補償衝動（CDL-356）**：Act I嘅�
+85:**初期嘅盲點——因為幸運而唔完全理解（CDL-356）**：Act I 嘅晴香�
+292:4. **強制微笑** — 即使痛苦也會強制自己微笑，討好型人格的外�
+295:7. <a id="habit-hot-cocoa"></a>**睡前熱可可成癮** — 每天睡前必喝一杯�
+321:- **行為 Tells**：焦慮時縮手入袖口；說謊時過度燦爛笑容（面部�
+79:| CDL-322 | 操 E-02 入隊戰新增�
+
+=== #50 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/03_characters && grep -n \"形式主義悲劇核心（CDL-063）\\|燈塔效應的死循環\\|獨行俠戰鬥記錄\\|可靠——正面特質\\|E-02 意外救人\\|Stage 1（Act II前期\\|Stage 2a（Act II中期\\|核心恐懼\\|CDL-390\\|病態無痕修補\\|委屈式崩喊\\|每天測量一次\\|晴香的善意是操卸下偽裝\\|父親 | 原生家庭\\|絕對不接觸地面\" ayakomoji_misao.md | cut -c1-70; grep -n \"凜信息極簡\\|Act I 底層心理設計\\|Act I 非功利\\|Act I：全程黑貓\\|軟接觸\\|無體溫\\|沉默守護\\|habit-lip-bite\\|habit-quiet-tending\\|有用先值得留低.*完整因果\" miyako.md | cut -c1-70", "description": "Confirm line numbers in misao and miyako"}
+58:### 核心恐懼
+116:**缺愛心理浮現（2026-07-06 co-design）**：紫音當刻已
+126:**賓客反應**：父親呢句公開否認，等於畀在場賓�
+144:**See also**: [調停失敗](#調停失敗完美理性的破產操
+249:- **形式主義悲劇核心（CDL-063）**：操打屍骸不是�
+250:- **燈塔效應的死循環（CDL-064）**：啟動情緒力量�
+251:- **獨行俠戰鬥記錄（CDL-065）**：入隊前確有戰鬥�
+253:**可靠——正面特質（CDL-337）**：操嘅形式主義偏�
+256:- **E-02 意外救人+多重解讀（CDL-322）**：入隊戰混�
+263:**Phase D 主動幫人（CDL-322/323）**：地下絕境期，操�
+290:**Stage 1（Act II前期，Phase A～B）**：操魔法過度使�
+292:**Stage 2a（Act II中期，E-09a，肉體層）**：父親背叛+
+296:**貼膠布式療傷嘅取捨（CDL-362，Stage 2b期間其中一�
+315:7. <a id="habit-seamstress"></a>**病態無痕修補（AKS埋位�
+317:8. <a id="habit-grievance-leak"></a>**委屈式崩喊／公主病�
+319:**連獨處都冇安全感——監控唔止喺人前（CDL-390）
+365:- **戰鬥風格**：潔癖的指揮家。手指如彈鋼琴般操
+376:| 第一幕 | 每天測量一次；完美遮蓋 | 任何未被告�
+398:| 父親 | 原生家庭 / 創傷根源 / EMB 技術供應商（觀
+399:| [晴香](haruka.md) | 隊友 | 映照晴香「完美面具」的
+176:**Act I 底層心理設計（CDL-060）**：美夜子大腦說「�
+178:**Act I 非功利保護動作（CDL-083）**：E-02 首戰中有�
+182:**凜信息極簡帶猶豫（CDL-084）**：E-02 美夜子提出�
+192:| Act I：全程黑貓 | E-01~E-04 | 詛咒穩定維持，Unit 01�
+196:**軟接觸（Soft Pivot，CDL-191）**：113年7月晴香「社�
+200:**「解離性麻木」唔屬於呢個日常底色（2026-09-10 �
+210:**「有用先值得留低」完整因果鏈（CDL-354）**：美�
+253:2. **無體溫 / 無心跳** — Alpha 線「已死事實」的生
+256:5. **沉默守護** — 不善言辭，用行動表達關心（偷
+270:11. <a id="habit-lollipop"></a>**棒棒糖（晴香馴服的證據
+278:13. <a id="habit-lip-bite"></a>**咬嘴唇（跨形態通用）**�
+282:14. <a id="habit-quiet-tending"></a>**扮唔理，暗地執手尾*
+
+=== #52 Bash {"command": "cd \"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit\" && sed -i 's/Sovior/Savior/' agent_A_character.md && cat >> agent_A_character.md <<'EOF'\n\n---\n\n## 2. 角度 2：Relationship Dynamics\n\n攻擊基準：關係嘅權力／依附／親密度進程要有因果支持（Cost Signal → 被迫反應 → 關係後果）；Act I 嘅關係上限（`OL` L174「四人關係未熟」；`miyako` L198 專屬信任圈／忠誠階梯；`miyako` L196 軟接觸只喺 Act II）。\n\n| 角度 | Beat | 呢個角度向呢個 beat 問咩 | 實際核對咗咩 | 攻擊 | 結論 |\n|---|---|---|---|---|---|\n| 2 晴香↔美夜子 | N2 | 到場時兩人權力位置：美夜子高處／功能性、晴香帶驚赴約，係咪建立「指揮者／服從者」而唔係「已有依附」？ | Beat 表 N2；`miyako` L176（CDL-060 Act I 底層）；Tracker L44 摘要 | 攻擊：「冷、功能性」＋「順手擋風」兩個信號打架（冷 vs 護）。結果：「口否認、身體守」正正係 habit #14 型，只係 N2 嘅時序偏早（F7）；權力位置本身一致 | CLEAN_AFTER_ATTACK（時序問題已記 F7） |\n| 2 晴香↔美夜子 | N3–N4 | 半真半假使命說明令兩人之間出現乜資訊不對稱？邊個有權力？ | CDL-055／095／054；Beat 表 N3：「共謀誤導唔講穿」 | 攻擊：不對稱只由美夜子單向持有，晴香嘅「追問」冇後果。結果：N4 嘅「接受得過快」令不對稱變成關係基礎，同 Act II 將要被拆嘅依附（Matrix 美夜子 L59–75 摘要）正好銜接；攻唔入 | CLEAN_AFTER_ATTACK |\n| 2 晴香↔操／美夜子↔操 | N1–N4 | 三人關係喺 SEQ2 有冇進程？ | Beat 表 N1–N4：只有晴香／美夜子 | 操未登場；操相關兩條關係線喺 SEQ2 冇可審內容 | NOT_APPLICABLE |\n| 2 晴香↔美夜子 | B2–B4 | 擋→藉口→連結：親密度由功能升到情緒連結，因果有冇支持？ | CDL-083（`miyako` L178）；CDL-084（L182）；`BS` Beat 2 L283 | 攻擊：「險中招→撲出→連結」係同一個外部觸發鏈（Cost Signal），無「角色突然覺得」。結果：因果鏈齊（屍骸→險中招→被迫反應→關係後果）；攻唔入 | CLEAN_AFTER_ATTACK |\n| 2 晴香↔美夜子 | B5–B10 | 連結後兩人權力／親密度有冇變化？ | Tracker L49；`OL` L136；Beat 表 B5–B10 | 連結後兩人之間完全冇互動 beat；關係進程斷線，直接跳到 B10「暖」。唔係因果支持嘅親密度，係標籤嘅親密度 | FINDING（SHOULD_FIX，並入 F3） |\n| 2 晴香↔操 | B6b–B8 | 晴香救操→操震驚→傲嬌入隊：權力同依附方向？ | CDL-050（L143）、CDL-053（L147）；`misao` L252–253（CDL-337 摘要：操嘅形式主義偏向可靠）；`BS` L283 | 攻擊：操因「被救」而入隊＝欠債式入隊，同「因被在乎」嘅 L283 唔同。結果：Beat 寫「震驚」「傲嬌答應」，兩種讀法都通；NEEDS_AUTHOR 嘅部份係「欠債定被在乎」邊個係主因，canon L283 偏後者 | NEEDS_AUTHOR |\n| 2 美夜子↔操 | B5–B10 | 美夜子同操喺首戰有冇任何互動？（兩人係全劇關鍵二人組） | Beat 表 B5–B10：只寫「操」、「晴香」，無美夜子；`misao` L398–399 摘要（父親相關）；`miyako` L282 | 美夜子↔操呢條線喺 SEQ3a 完全空白；canon 無要求首戰就有，但亦無被放棄，唯有 M 組先有三人合照 | FINDING（NOTE，並入 F3 空白） |\n| 2 晴香↔操 | B9–B10 | 戰後歡呼對兩人關係：歡呼係外部共享敵／共享光，定將兩人分開？ | CDL-073；`BS` L790 | 攻擊：歡呼可能將「操被晴香救」變成「晴香被群眾捧」。結果：Beat 未交代；歸入 F5 | FINDING（NOTE，並入 F5） |\n| 2 三人 | M1–M2 | 戰後低血糖＋夜潛提議：關係由被迫（M1）過渡到提議（M2）有冇因果？ | CDL-141（L254）；Beat 表 M1「被迫要補給同據點」 | 攻擊：「操自己選擇留低」令 M1 嘅被迫斷咗鏈。結果：成立，並入 F2 | FINDING（SHOULD_FIX，並入 F2） |\n| 2 晴香↔操 | M3 | 被迫貼近：關係親密度升級有冇因果？ | CDL-141；`misao` L376 | 攻擊：貼近由保安巡邏（外部隨機）引發，因果齊。但操反應受 OCD 觸發約束，見 F4 | CLEAN_AFTER_ATTACK（行為層問題記 F4） |\n| 2 三人 | M4 | 「有共同秘密嘅三人夥伴」：結果標籤同 Act I 關係上限有冇撞？ | `OL` L174（「四人關係未熟」）；`miyako` L198；L196 | 攻擊：標籤等於 Act II 先有嘅圈內信任。結果：成立，見 F3 | FINDING（SHOULD_FIX，並入 F3） |\n| 2 操↔晴香／美夜子 | H1 | 尾鉤對三人關係嘅影響：操收埋、其餘不知，製造咗乜新資訊不對稱？ | Beat 表 H1「晴香、美夜子不知」；`misao` L319（CDL-390）；L398–399（父親＝觀察者，對應 Act II+） | 攻擊：不對稱令觀眾同操結盟、同其餘兩人拉開距離，可能令 M4 暖峰被「回頭望」污染。結果：作者決定「暖＋少少不安」正正係呢個效果，唔係問題；NEEDS_AUTHOR 無必要 | CLEAN_AFTER_ATTACK |\n\n**角度 2：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗美夜子↔操整條線喺 SEQ3a 空白（F3 補充），同 M4 結果標籤預支 Act I 關係上限；我試過攻擊 N3–N4 嘅資訊不對稱同 B2–B4 嘅因果鏈，兩處都站得住。\nEOF\ntail -3 agent_A_character.md | cut -c1-80", "description": "Append angle 2 section"}
+| 2 操↔晴香／美夜子 | H1 | 尾鉤對三人關係嘅影響：操收埋�
+
+**角度 2：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗美夜�
+
+=== #53 Bash {"command": "cd \"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit\" && sed -i 's/`misao` L252–253（CDL-337 摘要/`misao` L253（CDL-337 摘要/' agent_A_character.md && cat >> agent_A_character.md <<'EOF'\n\n---\n\n## 13. 角度 13：Coping / Defense Mechanism\n\n攻擊基準：各角色 canon 慣常防衛——晴香：笑／熱可可安全閥／強顏（`haruka` L292、L295、L321）；美夜子：功利包裝＋口否認身體守（habit #13／#14，`miyako` L278／L282；CDL-060／083）；操：形式主義、完美遮蓋、連獨處都表演（`misao` L376、L315、L317、L319）。\n\n| 角度 | Beat | 呢個角度向呢個 beat 問咩 | 實際核對咗咩 | 攻擊 | 結論 |\n|---|---|---|---|---|---|\n| 13 晴香 | N1 | 熱可可＋「努力正常」係咪佢 canon 防衛方式？ | `haruka` L295（熱可可＝假幸福安全閥）；L292（強顏笑） | 攻擊：N1 獨處場面無人可演，防衛應無對象。結果：L295 恰係獨處儀式，防衛對象係自己，成立 | CLEAN_AFTER_ATTACK |\n| 13 晴香 | N2 | 「唔主動講驚、被身體出賣」係咪同「過亮笑容係說謊 tell」一致？ | `haruka` L321（過亮笑容＝說謊 tell）；L292；`Matrix` L47 | 攻擊：Beat 冇寫「過亮笑」，只寫「強行正常」，可能欠 tell 嘅載體。結果：「被身體／一句漏口出賣」已有 tell；唯一漏洞係未指定載體係笑；屬 F9 同一語意問題 | FINDING（NOTE，並入 F9） |\n| 13 晴香 | N3–N4 | 追問後接受：防衛係「接受＝逃避驚」，定「接受＝拯救者情結」？ | `haruka` L232；L83（CDL-356 補償衝動）；L85（盲點） | 攻擊：Beat 將「驚＋接受並存」寫成同一個反應，可能混淆兩種防衛。結果：Beat 已明寫「拯救者情結被希望命中」，對應 L83／L232，攻唔入 | CLEAN_AFTER_ATTACK |\n| 13 美夜子 | N2 | 「口否認、身體守」嘅防衛類型 | `miyako` L282（habit #14：扮唔理，暗地執手尾）；L278（habit #13） | 攻擊：N2 擋風係即場而非事後；防衛類型不吻合。成立（輕微） | FINDING（NOTE，並入 F7） |\n| 13 美夜子 | N3 | 半真半假講使命係咪功利包裝防衛？ | `miyako` L176（CDL-060）；L200（CDL-408 底色）；CDL-055／095 | 攻擊：Beat 將「回避視線／位置」當載體，但 canon 底色係「功利包裝」多於「回避」，兩者唔同。結果：「揀講／唔講乜」＝功利式揀選，吻合；回避視線屬補充；攻唔入 | CLEAN_AFTER_ATTACK |\n| 13 美夜子 | B2 | 咬唇＋功利藉口 | `miyako` L278；L178（CDL-083）；`OL` L242 | 攻擊：咬唇暴露內心，同「功利包裝」矛盾。結果：L278 habit #13 跨形態通用，表示洩漏本來就係設計；攻唔入 | CLEAN_AFTER_ATTACK |\n| 13 美夜子 | B3–B4 | 提出連結時嘅防衛：猶豫＋凜信息一句 | `miyako` L182（CDL-084） | 攻擊：「一瞬猶豫」可能令「功利」防衛穿崩。結果：CDL-084 規定帶猶豫；攻唔入 | CLEAN_AFTER_ATTACK |\n| 13 美夜子 | B5–B10／M2／M4 | 連結後嘅防衛有冇延續（habit #14：事後唔認）？ | Beat 表 B5–B10、M2、M4 全無美夜子行為；`miyako` L282 | 攻擊：成立。連結後防衛無處展現，直接去到暖；見 F3 | FINDING（SHOULD_FIX，並入 F3） |\n| 13 美夜子 | H1 | 尾鉤 | Beat 表 H1：「晴香、美夜子不知」 | 美夜子已離場且不知情；無防衛可審 | NOT_APPLICABLE |\n| 13 操 | N1–N4 | SEQ2 操嘅防衛 | Beat 表 N1–N4 無操 | 操未登場 | NOT_APPLICABLE |\n| 13 操 | B5–B6 | 獵殺屍骸＋中陷阱：形式主義防衛（用「冇得唔打」包裝）係咪保持？ | `misao` L249–250（CDL-063／064）；L317（habit #8 委屈式崩喊／公主病） | 攻擊：中陷阱時操無任何委屈／崩喊表現，可能喪失 habit #8。結果：habit #8 屬較後期（缺愛暴露時），Act I 戰鬥層唔需要；攻唔入 | CLEAN_AFTER_ATTACK |\n| 13 操 | B7b–B8 | 順手救人＋震驚＋傲嬌 | `misao` L256（CDL-322）；L376（觸發＝被觸碰／可見度＝不可見） | 攻擊：「震驚」若外顯，違反「不可見（完美偽裝）」。結果：Beat 寫「操震驚」未指明外顯程度；若寫成全可見震驚＝撞；若寫成傲嬌包裝＝合。Beat 層留有空間但無約束 | FINDING（NOTE，見 F12） |\n| 13 操 | B9–B10 | 戰後被群眾圍觀／簽名要求：操嘅表演（完美偽裝）係咪被觸發？ | `misao` L376；L319（CDL-390） | 攻擊：Beat 把歡呼寫成純暖，無任何操嘅偽裝動作。成立：群眾圍觀正正係「被看」場景，canon 防衛（表演）應喺此處出現而非消失 | FINDING（NOTE，並入 F5） |\n| 13 操 | M3 | 被迫貼近晴香 | `misao` L376：Act I 觸發「任何未被告知的接觸」，可見度「不可見（完美偽裝）」 | 攻擊：成立。貼近＝觸發；若反應可見，違反 Act I「不可見」；若無反應，M3 嘅 beat 功能（被迫貼近）變空。canon 夾住兩邊 | FINDING（SHOULD_FIX，見 F4） |\n| 13 操 | M4 | 堅持佈置得好睇 | `misao` L315（habit #7）；CDL-141 | 攻擊：「虛榮」係防衛／表演嘅一種延伸，同「不可見」無衝突。成立（攻唔入） | CLEAN_AFTER_ATTACK |\n| 13 操 | H1 | 獨處牙跌→即時收埋、表面如常 | `misao` L319（CDL-390：連獨處都冇安全感）；L315（habit #7）；L288–292 | 攻擊：「獨處仍表演」會唔會過度？結果：CDL-390 正正規定唔止人前；收埋行為同 L315 habit #7 一致；問題只係時序（F1） | CLEAN_AFTER_ATTACK（時序問題已記 F1） |\n| 13 晴香／美夜子 | H1 | 同上 | Beat 表 H1 | 兩人已離場且不知情 | NOT_APPLICABLE |\n| 13 晴香 | B1–B10／M1–M4 | 戰鬥中同戰後嘅防衛：晴香用笑／裙子笑話（B7）處理痛 | `haruka` L292、L321；CDL-050（L143） | 攻擊：B7「受擊後笑問裙子」可能係「過亮笑」被當戰鬥搞笑。結果：L321 本身指向呢類 tell；且同 B9／M1 手震形成對比；攻唔入 | CLEAN_AFTER_ATTACK |\n\n### 角度 13 嘅 FINDING\n\n**F4（SHOULD_FIX）— M3 被迫貼近同操 Act I「任何未被告知的接觸」觸發相撞。** 上游：`misao` L376（Act I：觸發「任何未被告知的接觸」，可見度「不可見（完美偽裝）」）。問題：M3 要操「被迫貼近晴香」作 beat 功能；如果操反應可見＝違反 canon 可見度；如果完全冇反應＝M3 嘅關係後果（拍 4）消失。建議：保留貼近，但令操嘅反應只係「過度完美嘅鎮定」（觀眾睇得出代價，晴香睇唔出），喺行為層寫成一個過度精確嘅動作而非明顯退縮。代價：需要更細嘅行為設計，讀法依賴觀眾分辨「過度鎮定」；放棄咗明顯嘅喜劇／張力反應；分別係操嘅 canon 偽裝保持，而代價只畀觀眾睇。\n\n**F12（NOTE）— B8「震驚」嘅外顯度冇約束。** 上游：`misao` L376。建議：Beat 層註明「震驚」要以傲嬌包裝形式出現（唔可以全外露）。代價：輕；放棄咗直接情緒反應；分別係同 canon「不可見」一致。\n\n**角度 13：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗 M3 同操 OCD 觸發嘅正面相撞（F4）、美夜子連結後防衛行為消失（F3），同 B9 群眾場景下操偽裝動作缺位（F5）；我亦試過攻擊晴香 N1／B7，搵唔到違反（`haruka` L295／L321 明確支持）。\nEOF\necho ok", "description": "Append angle 13 section"}
+ok
+
+=== #54 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && sed -n '45,50p;62,70p;122,130p' IDEOLOGY_THEME_STANCE_MATRIX.md | cut -c1-260; sed -n '210p' ../../03_characters/miyako.md | cut -c1-300", "description": "Re-verify Matrix stance lines"}
+| **Theme topic** | 連結的價值 / 天真善意 vs 制度壓迫 / 「笑著面對」能否改變命運 | SS |
+| **Stated belief** | 善意和連結可以改變世界；笑著面對才能感染他人；只要維持希望，一切都會好 | SS |
+| **Actual belief**（Act I 揭示）| 相信「拯救=被需要=值得存在」；「笑著面對」實際上係用來壓制自己的恐懼（停下來=暴露無用的真實自我）| AC | 作者確認 2026-04-14 |
+| **Method of dealing with pain / fate** | 膠布哲學（覆蓋/強行正常）；偶像表演（轉化痛苦）；拯救他人（轉移注意力）；拯救者情結（把入隊當英雄使命）| SS | CDL-053/070 |
+| **What this stance promises** | 只要足夠努力/善良/笑著，悲劇不會重演；連結可以彌補失去 | INFERRED |
+| **What this stance hides** | 她自己的痛苦（被強行覆蓋）；她對制度的盲目（被利用而不知）；她的善意本身被帝國設計為武器 | SS | CDL-149/167 |
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 連結的代價 / 保護的方式（謊言 vs 真相）/ 孤獨作為自我保護 | SS |
+| **Stated belief** | 存活和功能優先；情感是弱點；晴香是工具 | SS | CDL-054/060 |
+| **Actual belief**（靈魂層）| 晴香係她唯一感到熟悉和安全的錨點；一旦對晴香投入真實情感，晴香就會像凜一樣因她而死——「借來的生命沒資格擁有未來」| AC | 作者確認 2026-04-14；CDL-060 |
+| **Method of dealing with pain** | 功利化（把守護轉化為策略語言）；貓形態（物理/情感距離）；共謀誤導（保護晴香的代價是欺騙她）| SS | CDL-054/060/083/108 |
+| **What this stance promises** | 不再失去；不再受傷；維持控制感 | INFERRED |
+| **What this stance hides** | 她其實極度孤獨；她的「保護」包含不告訴晴香真相的自私成分；她靈魂本能已違反自己的功利邏輯 | AC | CDL-060；作者確認 |
+
+| 欄位 | 內容 | 狀態 |
+|---|---|---|
+| **Theme topic** | 規則作為自我定義 / 表演性存在 / 被見證的需要 | SS |
+| **Stated belief** | 魔法少女必須優雅消滅怪物；形式和規則是正確的存在方式 | SS | CDL-063 |
+| **Actual belief** | 規則=自我保護框架（沒有規則就不知道自己是誰）；表演=確認自己存在 | INFERRED | CDL-049/063 |
+| **Method of dealing with pain** | 形式主義（規則執行=避免面對真實自我）；表演性（需要觀眾確認存在）；紗夜共謀（依附另一種形式的「確認」）| SS | CDL-049/063/178 |
+| **What this stance promises** | 只要執行規則，就是正確的存在；優雅=有資格 | INFERRED |
+| **What this stance hides** | 她需要的不是規則，而是「不需要規則也能存在」；父親陰影與性別認同之間的未解關係 | INFERRED | CDL-042 |
+**「有用先值得留低」完整因果鏈（CDL-354）**：美夜子最深嘅 [Need](#section-wnlt)——「在信賴的人面前大哭一場，證明即使軟弱也值得被愛」——底下藏住一條完整、全部扣連現有事件嘅因果鏈，唔使新增設定：①**起點——凜為�
+
+=== #55 Bash {"command": "cd /d/Projects/ProjectHarukaDocument/canon/_working/story_construction && grep -n \"Stated belief\\|Actual belief\\|What this stance hides\\|Story's treatment\" IDEOLOGY_THEME_STANCE_MATRIX.md | sed -n '1,40p' | cut -c1-120", "description": "Get exact Matrix line numbers"}
+26:| **Stated belief**（對外宣稱）| 魔法少女係城市保護者；維多利亞天使係希望象徵；帝國維
+27:| **Actual belief**（故事揭示）| 情緒係最高價值資源；人類的幸福和痛苦都是可榨取的資本
+30:| **What this stance hides** | 晴香係鬥狗（24小時情緒榨乾）；觀眾是被情緒麻醉的吸毒者；情
+35:| **Story's treatment** | **Rejects**（全作最清晰，無歧義）；Act I validate 其表象→Act II/III 逐步
+46:| **Stated belief** | 善意和連結可以改變世界；笑著面對才能感染他人；只要維持希望，一�
+47:| **Actual belief**（Act I 揭示）| 相信「拯救=被需要=值得存在」；「笑著面對」實際上係用�
+50:| **What this stance hides** | 她自己的痛苦（被強行覆蓋）；她對制度的盲目（被利用而不知�
+55:| **Story's treatment** | **Act I = validates（偽英雄旅程假象）；全作最終 = complicates**（三位一�
+66:| **Stated belief** | 存活和功能優先；情感是弱點；晴香是工具 | SS | CDL-054/060 |
+67:| **Actual belief**（靈魂層）| 晴香係她唯一感到熟悉和安全的錨點；一旦對晴香投入真實情
+70:| **What this stance hides** | 她其實極度孤獨；她的「保護」包含不告訴晴香真相的自私成分�
+75:| **Story's treatment** | **Complicates**——功利化被揭示為 coping，唔係正確答案；她的「保護」
+86:| **Stated belief** | （無明確表達——行動語言：戰鬥/搶奪/跟隨）| SS |
+87:| **Actual belief** | 魔法核心吸收=麻醉罪惡感；保護晴香=補償死去的細佬（displacement）| INFE
+90:| **What this stance hides** | 她無法真正哀悼細佬；她的「保護晴香」不是為了晴香，是為了�
+95:| **Story's treatment** | **Rejects 其方法（毒品化），但 validates 其底層痛苦**（BK，待 Act II/III 
+106:| **Stated belief**（Lie）| 「只有痛覺能證明存在」「我的溫柔冇意義，甚至有害」「我是�
+107:| **Actual belief** | 她從未真正放棄過溫柔本身——只是放棄咗相信呢件事仲有意義；自願�
+110:| **What this stance hides** | 意識清零前極短嘅一扇窗，凜重新想要返嗰種可以治癒嘅可能性�
+115:| **Story's treatment** | **Complicates**——故事保留凜自願選擇嘅份量（唔否定佢有資格揀），
+126:| **Stated belief** | 魔法少女必須優雅消滅怪物；形式和規則是正確的存在方式 | SS | CDL-063 
+127:| **Actual belief** | 規則=自我保護框架（沒有規則就不知道自己是誰）；表演=確認自己存�
+130:| **What this stance hides** | 她需要的不是規則，而是「不需要規則也能存在」；父親陰影與�
+135:| **Story's treatment** | BK（待 Act II/III 設計確認）| BK | — |
+146:| **Stated belief（彩）** | 怯懦、善意、只想建立連結 | SS |
+147:| **Stated belief（黑奏）** | 冷酷計算，目的導向（三大需求：充電/挖礦/節點校準）| SS | C
+148:| **Actual belief** | 黑奏根本唔知道咩先係「正確」嘅情感——除咗螢，從來冇人教過佢；�
+151:| **What this stance hides** | 對晴香嘅扭曲情感——「我想睇妳崩，但又比任何人都更想妳唔�
+156:| **Story's treatment** | BK（Act III/IV 黑奏揭露後確認）| BK | — |
+162:- **操／紫音「Story's treatment」欄仍標 BK（未確認）**，但 `canon/12_philosophy_and_systems.md` §�
+173:| 2026-08-08 | Round 134：新增「已知缺口」段落，記錄操/紫音Story's treatment仍BK同bible層斷言�
+174:| 2026-08-08 | Round 135：新增凜（拒絕安慰派）entity row，Story's treatment定為Complicates（AC）—�
+
+=== #56 Bash {"command": "cd \"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit\" && cat >> agent_A_character.md <<'EOF'\n\n---\n\n## 14. 角度 14：Ideology / Value System\n\n攻擊基準（`Matrix`）：晴香 L46–55（Stated：善意連結可改變世界；Actual L47 [AC]：「拯救=被需要=值得存在」，「笑著面對」用來壓恐懼）；美夜子 L66–75（Stated L66：「存活和功能優先；情感是弱點；晴香是工具」；Actual L67 [AC]：晴香係唯一錨點，怕投入就害死佢；Treatment L75 Complicates）；操 L126–135（Stated L126：「魔法少女必須優雅消滅怪物；形式和規則是正確的存在方式」；Actual L127 係 INFERRED；Treatment L135 係 BK）。\n\n| 角度 | Beat | 呢個角度向呢個 beat 問咩 | 實際核對咗咩 | 攻擊 | 結論 |\n|---|---|---|---|---|---|\n| 14 晴香 | N1 | 熱可可儀式反映「笑著面對＝能夠維持」定「停低就暴露無用」？ | `Matrix` L47、L50；`haruka` L295 | 攻擊：N1 純獨處，欠一個價值衝突對象，變成只展示情緒。結果：價值排序（正常＞承認驚）可單人展示（強行正常即係排序）；攻唔入 | CLEAN_AFTER_ATTACK |\n| 14 晴香 | N3–N4 | 「拯救＝被需要」被半真半假嘅使命命中；佢願意犧牲乜？ | `Matrix` L47；`haruka` L83（CDL-356 補償衝動）；CDL-053（L147） | 攻擊：Beat 冇寫晴香「放棄咗乜」，只有「接受」。結果：價值排序要有犧牲先見；N4 嘅「驚同接受並存」只展示「驚」被壓過希望，未展示犧牲（日常／安全）。輕微空位 | FINDING（NOTE，見 F13） |\n| 14 美夜子 | N3–N4 | 「功能優先、情感是弱點」 vs 晴香嘅「連結有價值」，兩種排序有冇正面撞？ | `Matrix` L66／L67；`miyako` L176、L210（CDL-354「有用先值得留低」） | 攻擊：Beat 冇寫兩種排序真正交鋒，只寫美夜子單向回避；晴香唔追問＝冇碰撞。結果：碰撞可以係「唔講穿」；Beat 層用視線／位置回避去承載；成立 | CLEAN_AFTER_ATTACK |\n| 14 美夜子 | B3–B4 | 提出連結＝將「情感是弱點」嘅人用「情緒」作武器：價值同行為係咪撞？ | `Matrix` L66／L67；CDL-084（L182）；`miyako` L176 | 攻擊：Beat 將連結寫成功利手段（戰況不利→提出），價值同行為一致，無撞；但「一瞬猶豫」正係靈魂層（L67）嘅漏洞，同 canon 設計一致。攻唔入 | CLEAN_AFTER_ATTACK |\n| 14 美夜子 | B5–B10 | 連結後美夜子價值排序有冇被測試？（功能 vs 對晴香嘅真實投入） | Beat 表 B5–B10 無美夜子 | 攻擊：成立。連結後價值冇再被測試，Act I 最關鍵嘅「功能 vs 保護」排序全段缺席；並入 F3 | FINDING（SHOULD_FIX，並入 F3） |\n| 14 操 | B5 | 「優雅消滅怪物、形式正確」價值排序喺獵殺中展示？ | `Matrix` L126；`misao` L249（CDL-063）、L250（CDL-064） | 攻擊：Beat 只寫「冇得唔打」（被動），欠「優雅／形式」嘅外顯，價值排序（形式＞效率）睇唔到。結果：成立，輕微：燈塔效應（L250）係迫打，但 L249 嘅形式主義悲劇係「儀式化執行」。Beat 層可只註明「形式化」嘅載體 | FINDING（NOTE，見 F14） |\n| 14 操 | B6 | 中陷阱：形式主義 vs 現實衝撞 | `misao` L249；CDL-065（L251） | 攻擊：中陷阱令形式主義失效，係 canon 悲劇核心。結果：外部觸發＝屍骸伏擊，後果＝需要晴香救，形式主義被現實擊穿，正面支持 L249；攻唔入 | CLEAN_AFTER_ATTACK |\n| 14 操 | B7b | 順手救路人：價值排序「形式＞人」被打破？ | `misao` L256（CDL-322）；`Matrix` L126／L127 | 攻擊：順手救人＝形式主義被破＝Act I 過早。結果：CDL-322 明確叫「E-02 意外救人＋多重解讀」，Beat 寫「非刻意」符合；攻唔入。但需要多重解讀留位 | CLEAN_AFTER_ATTACK |\n| 14 操 | B8–B10／M2 | 入隊＋歡呼：操嘅價值（被見證＝存在）係咪被答案化？ | `Matrix` L127（INFERRED）、L135（BK）；`misao` L46–60 | 攻擊：Beat 令操喺 B8 「被在乎」＋B9 「被歡呼」＋M2「主動留低」三重確認，答咗一個 canon 仍標 BK 嘅問題（故事對操嘅價值採咩立場）。canon 無答 | NEEDS_AUTHOR |\n| 14 操 | M4 | 「堅持好睇」＝表演性價值？ | `Matrix` L126／L127；`misao` L315 | 攻擊：虛榮種子可能令操價值被簡化成「愛靚」。結果：「極輕」限定同 CDL-141 埋伏吻合；攻唔入 | CLEAN_AFTER_ATTACK |\n| 14 操 | H1 | 牙跌後收埋：價值排序「被人睇到＝失格」？ | `misao` L319（CDL-390）；L46–60 | 攻擊：收埋行為係咪由價值導出？結果：核心恐懼（被看穿）導出「收埋」，吻合 | CLEAN_AFTER_ATTACK |\n| 14 晴香／美夜子 | H1 | 同上 | Beat 表 H1 | 兩人離場不知情 | NOT_APPLICABLE |\n| 14 操 | N1–N4 | SEQ2 | Beat 表 N1–N4 無操 | 操未登場 | NOT_APPLICABLE |\n| 14 三人 | M1–M3 | 價值排序（資源／形式／功能）喺補給場面有冇衝突？ | CDL-141（L254） | 攻擊：M1–M3 主要係生存資源喜劇，價值衝突隱含（操嫌 vs 晴香放鬆）；屬 M2「晴香想要個可以放鬆嘅地方」對操「形式」嘅輕度碰撞。足夠 | CLEAN_AFTER_ATTACK |\n\n### 角度 14 嘅 FINDING\n\n**F13（NOTE）— N4 晴香「放棄咗乜」冇載體。** 上游：`Matrix` L47、CDL-053。建議：N4 接受嘅同時，留一個晴香放低日常嘅動作（行為）。代價：輕；放棄咗「純接受」嘅簡潔；分別係價值排序有「代價」支撐。\n\n**F14（NOTE）— B5 操嘅「形式化」冇外顯。** 上游：`misao` L249、`Matrix` L126。建議：獵殺嘅執行方式要有一個「過度整齊」嘅行為特徵（唔寫具體動作），令形式主義可睇。代價：增加戰鬥表現要求；放棄咗純功能獵殺；分別係價值排序可視。\n\n**NEEDS_AUTHOR（操嘅故事立場）：** `Matrix` L135 標 BK，L127 係 INFERRED；而 Beat v3 B8／B9／M2 三處令操被「確認」。需作者定：Act I 對操嘅 stance 係咪已經 validate（暫時）定係保持未答。\n\n**角度 14：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗操嘅價值立場喺 canon 仍 BK 而 Beat 連番「確認」佢（NEEDS_AUTHOR），同 B5 形式主義冇外顯（F14）；我亦試過攻擊美夜子 B3–B4 同 B7b 嘅價值一致性，兩處站得住。\nEOF\necho ok", "description": "Append angle 14 section"}
+ok
+
+=== #57 Bash {"command": "cd \"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit\" && cat >> agent_A_character.md <<'EOF'\n\n---\n\n## 15. 角度 15：Social / Institutional Position\n\n攻擊基準：晴香＝被招募嘅新人、善意被帝國設計成武器（`Matrix` L50：「她對制度的盲目（被利用而不知）；她的善意本身被帝國設計為武器」）；美夜子＝帝國派來嘅共謀者／貓形監察者（`Matrix` L66、L70；CDL-054／055）；操＝入隊前已獨自戰鬥（`misao` L251，CDL-065），父親係 EMB 技術供應商兼觀察者（`misao` L398–399）；制度本身＝情緒榨取（`Matrix` L26–30、L35 Rejects）。\n\n| 角度 | Beat | 呢個角度向呢個 beat 問咩 | 實際核對咗咩 | 攻擊 | 結論 |\n|---|---|---|---|---|---|\n| 15 晴香 | N2–N4 | 晴香喺制度入面係「被招募者」：天台會面有冇顯示佢嘅位置（無資訊、無議價）？ | `Matrix` L50；Beat 表 N3：「美夜子半真半假講維多利亞天使」、N4「追問＋接受」 | 攻擊：Beat 有追問但追問無結果＝位置已呈現。結果：「半真半假」本身就係制度對晴香嘅資訊權力，載體足夠；攻唔入 | CLEAN_AFTER_ATTACK |\n| 15 美夜子 | N2–N3 | 美夜子係制度代理：N3 係咪呈現「共謀」而唔係「原創者」？ | `Matrix` L66／L70（共謀誤導）；`miyako` L176；Beat 表 N3「共謀誤導唔講穿」 | 攻擊：N3 可能令觀眾讀成美夜子係計劃主謀。結果：Beat 用「揀講／唔講」去講，主謀感冇被硬寫；canon 位置（共謀、非起源）同 Beat 一致；攻唔入 | CLEAN_AFTER_ATTACK |\n| 15 美夜子 | B3–B4／M2 | 連結＋夜潛開路：「帝國派嚟嘅人」同時幫三個魔法少女搵偷偷據點（有違制度）？ | `miyako` L176、L198（CDL-337）；CDL-141（L254）；Beat 表 M2 | 攻擊：美夜子夜潛開路＝背叛制度？Beat 未講；canon 內制度位置同「有用先值得留低」（L210）並存；NEEDS_AUTHOR：據點係咪制度外（秘密）定制度容許 | NEEDS_AUTHOR |\n| 15 操 | B5–B6 | 操作為獨行者（入隊前已戰鬥）：制度對佢嘅位置（有冇「編制」？直播 UI 對佢係咪都適用）？ | `misao` L251（CDL-065）；CDL-073；Beat 表 B1「直播 UI 彈出」 | 攻擊：B1 直播 UI 令人群／制度視線喺場；操獨行者位置未交代。結果：Beat B5 只寫操「從高處介入」，與「獨行但被觀看」之間嘅關係空白；canon 有（CDL-065）而 Beat 無用 | FINDING（NOTE，見 F15） |\n| 15 操 | B8 | 入隊＝由獨行者轉成有編制：制度身分轉換無交代，只有「傲嬌答應」 | `misao` L251；`BS` L283、L782（「臨時指導」） | 攻擊：「臨時指導」意味非正式編制；Beat 寫「入隊」可能被讀成正式編制，同 L782 嘅「臨時」差。成立（輕微） | FINDING（NOTE，並入 F2） |\n| 15 操 | B9–B10 | 戰後安全區人群歡呼＋簽名＝制度（直播／偶像化）對魔法少女嘅社會位置 | CDL-073；`BS` L790；`Matrix` L26–30、L35（制度＝榨取，Rejects） | 攻擊：Beat 將歡呼當純暖，削弱制度層意義（商品化）。結果：作者決定「好暖，只有少少不安」，歡呼＋簽名可同時成為暖同商品化；Beat 無明說，但亦無排除；留位可讀。需要注意歡呼嘅來源係制度直播（B1）而唔係自發 | FINDING（NOTE，並入 F5） |\n| 15 晴香 | B1／B9 | 晴香喺直播制度下嘅位置：被看＝被榨取 | `Matrix` L50；CDL-073；`haruka` L289／L291（CDL-357 避開自己 UI 圖示） | 攻擊：Beat 無晴香與 UI 關係。結果：CDL-357 屬 UI-vision 預埋，不在 demo 範圍；並入 F10 | FINDING（NOTE，並入 F10） |\n| 15 三人 | M1 | 三人戰後低血糖：魔法少女「冇制度後勤」＝制度壓力表現？ | CDL-141（L254）；Beat 表 M1「槍耗盡」 | 攻擊：M1 可能被讀成純搞笑生存。結果：「被迫要補給同據點」顯示制度未提供後勤，同 `Matrix` L50 嘅「被利用」兼容；攻唔入 | CLEAN_AFTER_ATTACK |\n| 15 三人 | M3 | 保安巡邏＝社會制度（學校）喺世界入面嘅位置：三人係「非法潛入者」 | Beat 表 M3；CDL-141 | 攻擊：保安只係喜劇障礙。結果：有制度壓力載體，但唔係主題制度（帝國）；功能 OK | CLEAN_AFTER_ATTACK |\n| 15 操 | H1 | 操嘅獨處收埋：父親＝EMB 技術供應商兼觀察者，操對「被記錄」嘅位置 | `misao` L398–399；L319（CDL-390） | 攻擊：H1 「冇人睇到」可能同「父親記錄戰鬥」唔一致。結果：L398–399 屬 Act II+ 揭露；Beat 層 H1 保持「冇人睇到」同觀眾視角一致；不是矛盾，但係下游埋位（觀眾睇到＝潛在被記錄位置） | CLEAN_AFTER_ATTACK |\n| 15 晴香／美夜子 | H1 | 同上 | Beat 表 H1 | 兩人離場不知情 | NOT_APPLICABLE |\n| 15 操 | N1–N4 | SEQ2 | Beat 表 N1–N4 無操 | 操未登場 | NOT_APPLICABLE |\n| 15 晴香 | M2／M4 | 晴香「想要個可以放鬆嘅地方」＝受制度壓力嘅普通人需要 | Beat 表 M2；`Matrix` L50 | 攻擊：此為角色動機而非制度位置。結果：兩者相連（制度唔畀放鬆空間→自己搵）；攻唔入 | CLEAN_AFTER_ATTACK |\n\n### 角度 15 嘅 FINDING\n\n**F15（NOTE）— 操嘅「獨行者」身分喺 B5 冇呈現，直播制度視線同獨行者位置冇連結。** 上游：`misao` L251（CDL-065）、CDL-073。建議：B5 介入時帶一個「佢本來係自己一個」嘅行為特徵（例如佢唔等其他人、唔望直播 UI）。代價：輕；放棄咗操純功能登場；分別係 B8「入隊」有真實落差（由獨行到有人）。\n\n**NEEDS_AUTHOR（據點係咪制度外）：** M2／M4 嘅三人據點同美夜子（制度代理）嘅關係，canon 無答。\n\n**角度 15：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗直播制度視線令 B9 歡呼同時係「被榨取」（並入 F5），同操獨行者身分落差（F15），同據點係咪制度外嘅問題（NEEDS_AUTHOR）；我亦試過攻擊 N3 美夜子「主謀化」，搵唔到（Beat 用揀講／唔講承載）。\nEOF\necho ok", "description": "Append angle 15 section"}
+ok
+
+=== #58 Bash {"command": "cd \"D:/Projects/ProjectHarukaDocument/canon/_working/demo_pilot/blind_audit\" && cat >> agent_A_character.md <<'EOF'\n\n---\n\n## 16. 角度 16：Moral Tradeoff\n\n攻擊基準：晴香揀「笑住接受」換走咗「承認驚／追問真相」（`Matrix` L47；CDL-053）；美夜子揀「欺騙保護」換走咗「誠實關係」（`Matrix` L70：「保護包含不告訴晴香真相的自私成分」；CDL-054／083）；操揀「形式／表演」換走咗「真實自我被看見」（`Matrix` L130；`misao` L46–60）。\n\n| 角度 | Beat | 呢個角度向呢個 beat 問咩 | 實際核對咗咩 | 攻擊 | 結論 |\n|---|---|---|---|---|---|\n| 16 晴香 | N2 | 唔講驚＝揀咗「唔拖累美夜子／唔掃興」換走「承認需要」？代價睇唔睇到？ | `Matrix` L47；Beat 表 N2「驚由強行正常被身體出賣」 | 攻擊：代價（身體出賣）係被動出現，晴香冇「揀」。結果：tradeoff 由身體洩漏承擔，屬 coping 而非道德選擇；NOT 嚴格道德 tradeoff，但 Gate 要求處理方式而非口號，符合；攻唔入 | CLEAN_AFTER_ATTACK |\n| 16 晴香 | N4 | 接受使命＝換走咗乜？ | `Matrix` L47；CDL-053（L147）；Beat 表 N4「接受得過快＝觀眾嘅少少不安」 | 攻擊：放棄咗乜冇寫；只有「接受」。與 F13 同源 | FINDING（NOTE，並入 F13） |\n| 16 晴香 | B6b–B7 | 唔理自身衝去擋＝用身體安全換操安全；代價可見（受擊） | CDL-050（L143）；Beat 表 B7「受擊」 | 攻擊：「受擊後笑問裙子」令代價輕描淡寫，tradeoff 被喜劇吞掉。結果：笑問裙子係 `haruka` L321 嘅 tell，而 B9／M1 手震把代價帶返嚟；攻唔入 | CLEAN_AFTER_ATTACK |\n| 16 美夜子 | N3 | 半真半假：保護（令晴香肯參與）換走誠實；代價（欺騙累積）有冇出現？ | `Matrix` L70；CDL-054／055 | 攻擊：N3 只有「揀講／唔講」，代價冇出現喺 beat 內。結果：代價屬延遲（Act II 揭露），Beat 層可唔寫，但 CDL-054「望謊言為真」一半（F11）係唯一可見代價 | CLEAN_AFTER_ATTACK（F11 補充） |\n| 16 美夜子 | B3–B4 | 提出連結＝用晴香情緒換戰力；放棄咗「唔投入」，換咗戰力；風險（`Matrix` L67：投入＝害死佢）有冇顯現？ | `Matrix` L67；CDL-084（L182）；Beat 表 B4「一瞬猶豫、凜信息一句」 | 攻擊：猶豫只一瞬，tradeoff 風險輕。結果：「一瞬」＋凜信息極簡，已係 canon 規定嘅份量（CDL-084）；攻唔入 | CLEAN_AFTER_ATTACK |\n| 16 美夜子 | B5–B10／M2／M4 | 連結後美夜子有冇為「投入」付出代價？ | Beat 表 B5–B10、M2、M4 無美夜子 | 攻擊：成立。連結成效可見（B4b）但代價完全喺晴香／操身上；美夜子嘅 tradeoff 於 B4 後中斷；並入 F3 | FINDING（SHOULD_FIX，並入 F3） |\n| 16 美夜子 | H1 | 尾鉤 | Beat 表 H1 | 美夜子已離場且不知情 | NOT_APPLICABLE |\n| 16 美夜子 | N1 | N1 | Beat 表 N1 只有晴香 | 美夜子未登場 | NOT_APPLICABLE |\n| 16 操 | B5 | 「冇得唔打」＝無選擇，tradeoff 缺位？ | `misao` L250（CDL-064）；L249 | 攻擊：無選擇＝無道德 tradeoff。結果：L250 規定係強迫（燈塔效應）；tradeoff 屬形式主義代價（效率／安全換儀式），Beat 層可唔外顯；攻唔入 | CLEAN_AFTER_ATTACK |\n| 16 操 | B7b | 順手救人：操嘅 tradeoff（形式 vs 人）喺混戰中俾咗人；代價係咪有？ | `misao` L256（CDL-322） | 攻擊：「非刻意」令 tradeoff 消失。結果：CDL-322 本來就係「意外救人＋多重解讀」，非刻意係設計；但種子欠觸發（F6） | CLEAN_AFTER_ATTACK（F6 補充） |\n| 16 操 | B8 | 傲嬌入隊＝換走咗獨行（安全／控制）；換咗晴香嘅在乎 | `BS` L283（「因被在乎而選擇留低」）、L284（「守恆代價尚未顯現」） | 攻擊：L284 明寫守恆代價未顯現，Beat 若寫出代價就提早。結果：B8 只寫「震驚、傲嬌」，未寫代價；符合 L284；攻唔入 | CLEAN_AFTER_ATTACK |\n| 16 操 | B9–B10 | 被歡呼＝換咗「被看見」，放棄咗「唔被看穿」安全；代價（被看穿風險）睇唔睇到？ | `misao` L46–60（核心恐懼）；L376；CDL-073 | 攻擊：Beat 只寫歡呼嘅獲益，風險面（被看穿）不可見。成立 | FINDING（NOTE，並入 F5） |\n| 16 操 | M2 | 「主動留低」＝佢嘅選擇喺邊個代價之上？ | `BS` L283／L782；Tracker L70／L72；`misao` L263 | 攻擊：成立：選擇冇代價（M1 已被迫補給，留低只係順勢），變成免費揀擇；並入 F2 | FINDING（SHOULD_FIX，並入 F2） |\n| 16 操 | M3 | 被迫貼近晴香＝換走咗「保持距離」嘅安全 | `misao` L376 | 同角度 13；tradeoff 即係「保持偽裝 vs 近晴香」，若冇反應則 tradeoff 消失（F4） | FINDING（SHOULD_FIX，並入 F4） |\n| 16 操 | H1 | 收埋牙＝換走咗「求助」，保住「完美」；代價（獨自承受）係咪睇到？ | `misao` L319（CDL-390）；L288–292 | 攻擊：Beat 寫「操即時處理、表面如常」，代價（孤獨承受）由觀眾睇見；觀眾讀法「操身體有事、佢唔畀人知」正正係 tradeoff 可讀；攻唔入（時序問題見 F1） | CLEAN_AFTER_ATTACK |\n| 16 操 | N1–N4 | SEQ2 | Beat 表 N1–N4 無操 | 操未登場 | NOT_APPLICABLE |\n| 16 晴香 | H1 | 尾鉤 | Beat 表 H1 | 晴香已離場且不知情 | NOT_APPLICABLE |\n| 16 晴香／三人 | M3 | 肚子叫差點暴露＝晴香「放鬆」同「保密」嘅輕微取捨 | Beat 表 M3；CDL-141 | 攻擊：純喜劇。結果：道德 tradeoff 不在此 beat 嘅功能內（功能＝資源壓力＋被迫合作）；唔硬凹，標 NOT_APPLICABLE：M3 內容為「保安巡邏險些撞上」「肚子叫差點暴露」「臨時合作躲避」，無價值取捨 | NOT_APPLICABLE |\n\n**角度 16：如果冇呢個角度，Beat 層會漏咗咩？** 會漏咗美夜子連結後 tradeoff 中斷（F3）、M2 「主動留低」係免費揀擇（F2）、B9 歡呼只見獲益不見被看穿風險（F5）；我亦試過攻擊晴香 B7 同操 B8 嘅代價處理，兩處站得住（L284 要求代價未顯現）。\n\n---\n\n## 未列入角度嘅關注點（分配角度以外，睇 beat 時注意到）\n\n1. **Cost Signal 標記**（角度 22）：N2–N4 標 R，但 `BS` 同 canon 天台場面標 N（輸入包 §B 自述「R（外部＝首戰餘波＋美夜子召喚）」）；Beat v3 同 canon 標記唔一致，需作者睇係咪有意改。\n2. **葡萄糖槍／手震 UI 預埋密度**（角度 23／27）：B9 嘅 UI 結算＋預埋、B1 直播 UI、M1 槍耗盡三處 UI，demo 資訊負載同製作量未評。\n3. **下游 REVALIDATE**（角度 28）：H1 牙跌提早令 Act II Stage 1／2a（`ACT_II_OUTLINE` L192、L285）需重驗；M4「三人夥伴」令 Act II 美夜子軟接觸（`miyako` L196）需重驗。\n4. **美夜子貓形態身體**：`miyako` L253–256（無體溫、無心跳）同 M1 「三人手震／疲」——美夜子係貓、冇體溫心跳，M1 嘅「三人」身體疲勞有生理矛盾；需要作者睇係咪「手震」只限晴香／操。\n5. **Brief 嘅「後來有人再也沒有回來」payoff 依賴四人**：三人版基地戲令呢條 payoff 少咗一個人；屬角度 9／28。\n6. **命名不一致**：Brief L4476「綾小路操」vs `Tracker`／`Matrix`「本庄操」。\n7. **H1 觀眾讀法 vs Brief 原意**：Brief L4739 嘅信條（「一眼就知道…付出代價」）同 H1 嘅「唔明講同魔法代價有關」設計相反；屬角度 3／10／21，作者已定，只提示。\n8. **角度定義含糊（供 orchestrator 參考）**：(a) 13 同 14 對操重疊（形式主義係防衛定價值）；(b) 18 同 14 距離近；(c) 13–16 要逐角色定逐 beat 並不明確；(d) 15、16 對短 beat 難以滿足 NOT_APPLICABLE 要求；(e) 「Act I 成長過早／過遲」對操冇基準，因 `Tracker` L71 同 `Matrix` L135 係 BK。\nEOF\ngrep -c \"FINDING\" agent_A_character.md; grep -n \"^\\*\\*F[0-9]*\" agent_A_character.md | cut -c1-60", "description": "Append angle 16 and closing sections; list findings"}
+39
+59:**F1（SHOULD_FIX）— H1 牙跌時序跳過 CDL-233 階
+61:**F8（NOTE）— B2／B4 嘅「若有所感」冇可見�
+63:**F9（NOTE）— 晴香「無面具」同「壓住驚」
+65:**F10（NOTE）— CDL-357 嘅預埋（貼膠布式觸碰
+67:**F11（NOTE）— 美夜子「望謊言為真」一半�
+69:**F7（NOTE）— N2 optional 擋風同 B2「首次」重
+71:**F5（NOTE）— B9／B10 人群歡呼對操嘅 Lie 太�
+73:**F6（NOTE）— B7b 嘅 CDL-322 種子欠觸發。** `m
+75:**F2（SHOULD_FIX）— M2「操主動留低」重複 B8�
+77:**F3（SHOULD_FIX）— 美夜子連結後冇推開 beat�
+79:**F4（SHOULD_FIX）— M3「被迫貼近晴香」撞操 
+136:**F4（SHOULD_FIX）— M3 被迫貼近同操 Act I「�
+138:**F12（NOTE）— B8「震驚」嘅外顯度冇約束�
+167:**F13（NOTE）— N4 晴香「放棄咗乜」冇載體�
+169:**F14（NOTE）— B5 操嘅「形式化」冇外顯。*
+199:**F15（NOTE）— 操嘅「獨行者」身分喺 B5 冇
+

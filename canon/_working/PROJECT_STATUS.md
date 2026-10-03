@@ -1,6 +1,8 @@
 # PROJECT_STATUS
 
 ## 🧭 方向重設（2026-09-30）— demo 範圍內由粗到幼重新討論（方法試驗）
+- **2026-10-02 深夜更新**：盲審完成並 Diff（ledger §15）。Beat v3→v3.1（Cost Signal 補全、教學階梯、B7b／B9／B10 重排、糖量代價線、美夜子圈邊微反應、撤回 N2 擋風）已記為 HW／PROVISIONAL。BLOCKS 3 條：2 條已修，牙鏈時序待作者。待作者：①牙形式／範圍（Brief Act I 甜品掉牙 vs canon md Act II 縫牙）②連結「強制入侵」性質 demo 版處理；另 Master Angle Registry 建議加 4 個角度（唔靜靜加）。Beat 層 Director review＝PENDING；Stage 6 暫停。覆蓋誠實限制：角度 1–19 半盲、Gate B/C 部分只核一半，唔可講「完整考慮晒」。
+- **2026-10-02 晚更新**：Beat v3（range＝SEQ2＋SEQ3 含基地戲三人版＋真掉牙尾鉤、操知而收埋）內部完整但**角度覆蓋未獲證明**——作者質疑後確認先前 19 角度表係自寫單次掃描；已派獨立盲審（6 agent，`demo_pilot/blind_audit/`，結果待收）。制度：Master Angle Registry＝28 角度（angle-system.md Pool 3 新增 20–28）；每個建議須以全部角度為依據＋證據＋攻擊；Beat 層完整性 gate 變八項（含獨立盲審）；通用協議 `.claude/story_system/blind-angle-audit-protocol.md`。Beat 層批核 PENDING（只有作者可批）；Stage 6 暫停。
 - **2026-10-01（二）更新**：DERIVATION_LEDGER 已經五路質疑輪修正（§7 質疑結果、§8 Beat v2、§9 偏離登記）；DEMO_BEAT_LAYER 降 Reference-only。作者定尾鉤真掉牙（偏離上游，PROVISIONAL）。待作者批 Beat 層 v2。
 - 作者要求（以第二次澄清為準）：**喺 demo 範圍內**由粗到幼傾劇情再落地，用嚟試驗方法 work 唔 work；唔係全 Act I／全作審核。Stage 6 暫停。
 - demo 已有決定（8 場 cut、場8 操縫牙暗示等）＝DOWNSTREAM_EXPERIMENT／NON_BINDING_REFERENCE，於 Sequence／Beat 層重新確認先決定去留；voice workshop 結果保留但可被 Beat 改動 REVALIDATE。
@@ -483,3 +485,5 @@ Read in this order:
 4. `canon/_working/SESSION_LEDGER.md`
 5. `canon/_working/CANON_DECISION_LOG.md`
 6. `canon/_working/story_construction/ACT_I_OUTLINE.md`
+
+- **2026-10-03 更新**：盲審驗證證據包已交（`demo_pilot/audit_debug/`）。結論：盲審大致有做（28 角度全有格、BLOCKS 3 核實、56 引用 ID 存在），但「盲度」「格數」「已改入 v3.1」三處有講過頭（B–G 路徑暴露、§15.1 數字無推導、v3.1 只係 patch 清單）。待作者：①揀要唔要採納 09 嘅三項 skill 修正；②牙形式／範圍、連結性質（原有）。Beat 層批核 PENDING；Stage 6 暫停。
