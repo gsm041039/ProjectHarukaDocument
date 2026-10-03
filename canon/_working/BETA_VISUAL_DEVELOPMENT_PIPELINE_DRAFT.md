@@ -3,7 +3,8 @@
 > **狀態：DRAFT / 未拍板細節。**
 > 作者 2026-09-27 起要求建立「一步一步分開測唔同元素、最後先一次過合成」嘅 visual-development pipeline；2026-09-28 再確認：**清楚優先於靚，benchmark location 唔應該早過基礎 visual-language modules。**
 > 本檔只保存目前工作骨架，**未授權自動向下生產**。
-> 關聯討論：`2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`
+> 關聯討論：`2026-09-27_BETA_ENVIRONMENT_RESPONSE_AND_STAGE_LANGUAGE_DISCUSSION_LOG.md`、`2026-10-02_BETA_VISUAL_DEVELOPMENT_CONTINUATION_LOG.md`
+> Visual-language tracker：`BETA_VISUAL_LANGUAGE_REGISTER.md`
 
 ---
 
@@ -112,6 +113,16 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
+## P01.5 — Layout / Cinematography（非核心阻塞）
+
+**狀態：DEFERRED / 非主要美術開發 gate。**
+
+2026-10-02 作者指出：一般 eye-level / wide / tele / over-shoulder 等普通鏡頭比較，對目前 Project Haruka 美術語言開發價值低，唔應該阻塞主 pipeline。只有當未來要設計**真正特殊、可成為作品 signature 的 shot / staging system**時先另開研究。
+
+已生成的 `Layout Study 01 — Camera / Lens / Stage Relationship` 僅作參考，**不列為主線必經驗收項目**。
+
+---
+
 ## P02 — Lighting Language
 
 **目的**：固定空間，只研究光、value、focus、exposure。
@@ -134,20 +145,58 @@ Orientation 下一輪優先意圖已確認：
 
 ---
 
-## P03 — Atmosphere / Emotion-Flow Language
+## P03 — Affective Environment / Uncanny Pressure
 
-**目的**：研究「天然情緒潮汐 → 現實氣壓感」點樣被感受到，而唔急住改建築或做完整 world response。
+**目的**：研究「情緒流過世界時，空間點樣變得令人討厭／窒息／不正常唯美」，而唔將 Atmosphere 簡化成天氣、霧、夜晚、破敗 moodboard。
 
-可研究：
-- air density
-- haze / particulate motion
-- sound-distance impression
-- hanging objects / curtains response
-- motion lag / stillness
-- pressure rise / drop
-- spatial silence
+### P03A — Affective Pressure
+研究：
+- **Semantic Wrongness**：熟悉空間／物件仍然存在，但用途／出現位置／關係唔對；
+- **Sensory Pressure**：空氣重量、低頻、silence、sound-distance mismatch；
+- **Temporal Wrongness**：movement lag、重覆、停住、反應慢半拍；
+- **Normalisation**：觀眾覺得怪，但角色視為日常；
+- **No Release**：不安狀態可持續，唔一定即刻用 action / joke / bright cut 排壓。
 
-**交付**：同一空間 3–6 格 atmosphere studies / behavior thumbnails。
+**護欄**：
+- 唔直接抄《小圓》collage／魔女結界 icon；
+- 唔靠天氣／時間／材質 decay 當核心；
+- 固定 space / lighting / character blocking 時，先測「壓力點樣存在」。
+
+### P03B — Collective-Unconscious Substrate / Non-World Language
+**目的**：獨立設計 Project Haruka 自己嘅底層「非現世」語言；層級高於一般 motif。
+
+Repo 已有素材要先分清：
+- 集體潛意識可具現為「無盡後巷與唐樓」嘅超現實香港城市景觀；
+- **Cosmic Fluid / 星空流體** = 承載情緒物質嘅底層媒介／畫布；
+- **Cosmic Void / 宇宙星空核心** = 靈魂溶解後嘅無定義底層狀態；
+- 認知支撐解體／無人區可露出 cosmic substrate。
+
+作者 2026-10-02 新提出：
+> **星空可作集體潛意識底色，或發展同等強度嘅非現世語言。**
+
+**目前只係 visual-development direction，唔直接 canonize「集體潛意識 = 星空」。**
+
+要回答：
+1. 城市／記憶層 vs 無定義 substrate 點轉換；
+2. 星空係 void、fluid、材質剝落後底色、空間深處，定其他表達；
+3. 乜強度先開始 leakage；
+4. 點避免「一怪就露星空」變 default motif；
+5. 除星空外，有冇同等非現世 language 可以同一 system 內共存。
+
+**作者已確認 reveal order（2026-10-02）**：
+> **先發現空間深度／物理已經唔屬於現世，去到更強先真正見到星空。**
+
+因此 P03B 第一層唔應直接露 Cosmic Void；要先設計「非現世物理」——例如 depth、parallax、occlusion、scale、gravity、continuity、boundary 等邏輯點樣先出錯。星空／Cosmic substrate 屬後續更高強度揭示。
+
+### P03C — Medium / Representation Contamination（候選）
+如 P03A/B 證明需要，再研究：
+- 局部 graphic representation method 改變；
+- movement / timing system 改變；
+- detail density / perspective / shadow logic 局部換語言。
+
+**唔預設必做**；只有當 A/B 無法回答「世界表達媒介本身被侵蝕」先開。
+
+**交付**：先做 mechanism / state diagram；通過定義後先做 controlled image / short-sequence studies。
 
 ---
 
@@ -318,6 +367,9 @@ Repo 既有 Canon 已經有 [鏡像法則]（World Rules）同 [法則·鏡像]�
 - P01A Scale / Compression 第一輪方向已粗測；
 - P01B Programmatic / Functional Spatial Logic 已記錄並插入 pipeline，但作者要求**之後先深入討論，暫時唔做 taxonomy**；
 - P01 Spatial Language 第一輪已完成：Scale / Compression、Zoning、Orientation、Distance、Exit / Boundary 均已有灰模探索；Programmatic / Functional Spatial Logic 已插入並保留作後續深化。
-- 下一步正式進入 **P02 — Lighting Language**。
+- P02 Lighting 第一輪已完成：3-Value Focus、Stage Angle Grammar、Beam Geometry、Special & Stage Zones。
+- 一般 Layout / Camera comparison 已降級為非核心。
+- P03 已由普通 Atmosphere 改為 **Affective Environment / Uncanny Pressure**；2026-10-02 加入 P03B **Collective-Unconscious Substrate / Non-World Language**，星空／Cosmic language 係核心候選，但未等同整個集體潛意識。
+- **下一步唔生圖先**：先定 P03A / P03B 嘅 mechanism、state range、gate。
 - 作者另補充：**鏡係重要到接近獨立 visual system，層級高於金魚等一般 motif**。已插入 P08 Mirror / Reflective Interface Language；暫時唔混入 P01 測試。
-- 下一步應繼續 P01 主線，而唔跳去完整 classroom、Mirror composite 或 World Response。
+- 之後所有新 signature element 用 `BETA_VISUAL_LANGUAGE_REGISTER.md` 追蹤；例子／benchmark 唔自動升格 category。

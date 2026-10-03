@@ -19,6 +19,21 @@
 - [ ] **待**：6 個 agent 回報後 → 查無效格 → 對 `BEAT_LAYER_ANGLE_SCAN.md` 做 Diff（盲審搵到我漏咗／我搵到佢哋漏咗／薄格數）→ 處理 FINDING（BLOCKS_BEAT_LAYER 必改或作者否決）→ 受影響角度格標 STALE 重掃（H1／牙尾鉤）→ 漏洞搜尋員 NO_MATCH 提議加角度（要作者知）→ 回寫呢段結果。
 - **狀態不變**：Beat v3 DRAFT；Beat 層批核 PENDING（只有作者可批）；Stage 6 暫停；Draft ≠ Canon。
 
+## Visual Development Track Continuation（2026-09-28~2026-10-02）— P01/P02 first pass → P03 Uncanny/Substrate
+- [x] P01 Spatial first pass：Scale / Zoning / Orientation / Distance / Exit-Boundary 灰模探索完成。
+- [x] 作者確認 Programmatic Spatial Logic 核心：空間可按「人怎樣生活、流動、聚集、感受」重新組織；**功能直覺凌駕規劃邏輯**。公屋中層商業／後樓梯放大／中層車站／死胡同／No-Floor classroom 全部只係例子，唔做封閉 taxonomy。
+- [x] No-Floor / In-the-Air classroom 定位為 extreme benchmark；baseline 可「怪但用得到」，高情緒可推過 usability threshold。
+- [x] P02 Lighting first pass：3-Value Focus、Stage Angle Grammar、Beam Geometry、Special & Stage Zones；建立 Stop Rule，Cue / Color Cross-light 留 return pass。
+- [x] Generic camera/lens comparison 被作者否決為目前非核心；P01.5 降級 DEFERRED。
+- [x] Mirror 升格獨立 high-level visual system；唔同 Goldfish 一樣只當 motif。
+- [x] Empire Square Floating Chandelier：完全無支撐、浮於露天廣場半空；唔屬 baseline 帝國建築，因果 park 到 P11/P12 World Response × Black Kanade。
+- [x] P03 原 Atmosphere moodboard 方法被否決；重新定向做 **Affective Environment / Uncanny Pressure**，研究 Semantic / Temporal / Sensory Wrongness、Normalisation、No Release。
+- [x] 外部 reference research：Madoka witch-space / Rebellion、Digimon Adventure 02 Hurricane Touchdown、Lain、Utena movie、Angel's Egg、Sonny Boy、Perfect Blue；只抽方法，唔照抄 icon。
+- [x] 作者新增 **星空（集體潛意識底色）／同等非現世語言**。Source check：集體潛意識城市景觀、Cosmic Fluid 底層媒介、Cosmic Void 無定義底層係三組需分工素材；新增 P03B Substrate / Non-World Language，未 canonize「CU=星空」。
+- [x] 新建 `BETA_VISUAL_LANGUAGE_REGISTER.md` 追蹤所有需要設計嘅 visual systems；新建 `2026-10-02_BETA_VISUAL_DEVELOPMENT_CONTINUATION_LOG.md`。
+- [x] 更新 `BETA_VISUAL_DEVELOPMENT_PIPELINE_DRAFT.md`、QQ-225、PROJECT_STATUS、NEXT_ACTION、本 Ledger。
+- [ ] 下一步：先討論 P03A/P03B mechanism + state range + gate，**唔生圖先**。
+
 ## Demo Pilot Track — Stage 5 對白方法支線（2026-09-29）
 
 - **更正（2026-09-29 較後）**：作者質疑聲線聖經未按新 workflow 處理。核實：舊 `haruka.md`／`miyako.md`（標「正式版」）冇任何自然化／說話分析／自稱表／語料對照；Stage 4 誤標 HAVE。已記 D-12、gap audit D-2／D-3 改 REDO、兩檔頂部加提示、tracker Stage 5 加重做清單。
