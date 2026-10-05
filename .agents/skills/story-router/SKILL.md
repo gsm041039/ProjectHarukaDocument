@@ -13,6 +13,8 @@ Use when the user says:
 - 我認為可以咁改
 - 你個思路係咩
 - 你幫我一齊諗
+- 想討論 visual development / art direction / environment / color / lighting / composition / motif / concept-art choices
+- 問「點解要用呢隻色／呢種光／呢個空間表達？」或要求先傾 intent 再出圖
 
 Default output: compact, creative, evidence-aware.
 Call chain:
