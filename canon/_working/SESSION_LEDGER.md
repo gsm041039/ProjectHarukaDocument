@@ -1,5 +1,13 @@
 # SESSION_LEDGER
 
+## Visual Development — Buddhist Cosmology Reference Axis（2026-10-07）
+- [x] 作者新增重大美術方向：因星空／Cosmic substrate + 唯識宇宙，希望加入更多佛教美術 reference，尤其佛教宇宙觀、星空、星塵。
+- [x] Source check：正式 canon 有「唯識宇宙（Consciousness-Centric Universe）」；repo 未見既有已確認佛教美術／宇宙觀 visual-reference system。
+- [x] 外部 research 初步 lanes：Yogācāra/ālayavijñāna concept、cosmological mandala、Japanese Star Mandala、Mount Meru、Huayan/Indra's Net、Kalachakra macrocosm↔body、dust/innumerable-world imagery。
+- [x] 新增 `BETA_VISUAL_LANGUAGE_REGISTER.md` VL-018，狀態 AUTHOR-CONFIRMED VISDEV DIRECTION / EXPLORING；更新 continuation log + NEXT_ACTION。
+- [x] Guardrail：先抽結構再抽 sacred icon；reference ≠ diegetic religion；Yogācāra/Huayan/Esoteric/Kalachakra 唔混教義；唔令所有超自然場面都變 mandala wallpaper。
+- [ ] 下一步：用 intent-level 人話問題討論佛教 reference 第一層到底服務「無量尺度／互依映照／心識生成世界／宇宙層級」邊幾條，同 P03B 星空／非現世語言分工。
+
 
 ## Demo Pilot Track — 盲審 Diff 完成（2026-10-02 深夜）
 - [x] 7 個 agent 輸出全部讀完；無效格機械檢查通過（無須重派）。
