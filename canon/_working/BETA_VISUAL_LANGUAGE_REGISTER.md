@@ -179,6 +179,12 @@ P03B 要真正設計：
 ### 下一輪要先答嘅核心
 > 佛教 reference 對 Project Haruka 最重要嘅第一層 intent，究竟係 **無量宇宙／微塵尺度**、**萬物互相映照／互依**、**心識生成世界**、**宇宙有層級／中心軸**，定係其中幾樣需要同時存在但各自分工？
 
+### 2026-10-07 Author Answers — scope / priority
+- **Q1**：三條都要，但優先次序以 **宇宙結構** 為第一；神聖姿態／儀式動作、文字／圖案系統亦保留為重要分支。
+- **Q2**：sacred script（梵文／悉曇等）**唔做日常滲出**。完整／高密度使用主要屬**高強度底層 reality reveal**；同源語法亦可出現在魔法少女／奇蹟／封印／界面等高階系統。具體密度與分工之後另開 branch 設計。
+- **Q3**：Hunter x Hunter 尼特羅百式觀音 reference 最想要 **D：星空背景下，人體／力量同宇宙對齊嘅超越尺度感**；唔需要把「千手」當必要元素。
+- **流程定位**：VL-018 係 cross-cutting major art-reference branch，**唔阻塞當前 P03B 主線**。本輪記錄完即返回 `Non-World Intent Board 01` / P03B 原本問題繼續。
+
 ## 5. Benchmarks（唔係語言分類）
 
 以下只係用嚟壓測語言上限，**唔係新 category**：
