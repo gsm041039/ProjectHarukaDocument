@@ -282,3 +282,9 @@ Source check：repo 正式 canon 有「唯識宇宙」，但未見正式建立�
 核心 guardrail：**先抽結構再抽 icon；reference ≠ diegetic religion；唔混教義；唔令每次超自然都變 mandala wallpaper。**
 
 已新增 VL-018 `Buddhist Cosmology / Consciousness-Cosmos Reference Axis`。下一步應先用人話討論 intent：佛教 reference 最重要係無量尺度、互依映照、心識生成世界、宇宙層級／中心軸，定幾條分工並存。
+
+### 2026-10-07 follow-up — author priority answers
+- 佛教 reference 三層都要：**宇宙結構第一**；神聖姿態／儀式動作、文字／圖案系統亦要。
+- 梵文／悉曇等 sacred script：唔做普通日常 decoration；完整／高密度主要留高強度底層 reality reveal，同源語法可延伸去魔法少女／奇蹟／封印／界面。
+- 尼特羅百式觀音 reference：作者最重視 **星空背景下，人體／力量與宇宙對齊的超越尺度感**，唔要求千手。
+- 作者明確要求：此 branch 討論完要**返回原本 visual pipeline**，唔畀新 reference 軸劫持 P03B 進度。
