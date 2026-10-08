@@ -66,6 +66,7 @@
 | VL-015 | Natural World Response | Composite | AUTHOR-CONFIRMED-VISDEV FRAMEWORK | P11 | BLOCKED BY MODULES | 前面 subsystem 合起來時，世界點樣由承接／可視化升到過度詮釋？ |
 | VL-016 | Imperial Processing | Institutional | CANON-EXISTS + DRAFT VISDEV MODEL | P12 | NOT STARTED | 天然情緒潮汐點被抽取、整流、量化、能源／訊號化？ |
 | VL-017 | Dual Overexposure | Composite / High Intensity | AUTHOR-CONFIRMED-VISDEV | P11 | BLOCKED BY MODULES | 如何做到「極端甜 + 極端心理恐怖」同時成立，而唔係粉紅＋黑？ |
+| VL-018 | Buddhist Cosmology / Consciousness-Cosmos Reference Axis | Reference / Substrate / Structural | **AUTHOR-CONFIRMED-VISDEV DIRECTION** | Cross-cutting (P03B / P08 / P09 / P11) | **EXPLORING** | 點樣由佛教宇宙觀、唯識相關哲學、星辰／曼荼羅／宇宙層級等抽取結構性美術語言，令 Cosmic substrate 唔再似 generic sci-fi galaxy，同時避免把 Project Haruka 誤讀成現實佛教世界或宗教 cosplay？ |
 
 ---
 
@@ -123,6 +124,66 @@ P03B 要真正設計：
 - **Deeper instability**：當現實再薄，先開始出現「內部自己都加唔埋」——步數唔一致、平行關係失準、總長度同局部量度對唔上。
 - 呢個分層保留 Beta「怪但真係住得到」嘅基線，同時畀高強度 escalation 有 headroom。
 - 唔將內部 metric chaos 當日常 baseline，避免世界由第一眼就失去可生活性。
+
+## 4B. Buddhist Cosmology / Consciousness-Cosmos Reference Axis（VL-018）
+
+**作者 2026-10-07 新增重大美術方向。**
+
+動機：
+- Project Haruka 已有「唯識宇宙」世界本體論；
+- P03B 已確認星空／Cosmic substrate 係高強度底層語言之一；
+- 作者希望進一步把**佛教宇宙觀、星空、星塵、宇宙層級／非現世結構**納入主要 art-reference 軸，而唔只係 generic galaxy aesthetic。
+
+**Repo source check**：
+- 正式 canon 已有「唯識宇宙（Consciousness-Centric Universe）」；
+- 但目前 repo 未見已確認嘅「佛教美術／佛教宇宙觀」visual-reference 規格；
+- 因此本節係 **author-confirmed visual-development direction**，唔等於「Project Haruka 世界內存在佛教宗教制度／寺廟／佛像／經文」。
+
+### 初步 research lanes（REFERENCE ONLY，未拍板用法）
+
+1. **Yogācāra / 唯識概念層**
+   - mind/cognition priority、ālayavijñāna（阿賴耶識／store consciousness）、seed / imprint 等概念可供「底層承載／潛藏／再顯現」嘅視覺思考。
+   - 注意：Project Haruka 嘅「唯識宇宙」係自身世界規則，唔應宣稱等同歷史佛教唯識學說。
+
+2. **Mandala / Cosmological Diagram**
+   - 宇宙唔只係無邊星空，亦可以係**被組織、分層、定向、有中心／環／方位關係嘅宇宙圖**。
+   - 候選用途：集體潛意識層級、world-response composition、空間秩序、超大型事件構圖。
+
+3. **Star Mandala / 星曼荼羅**
+   - 日本密教歷史上有將北斗、九曜、日月、星宿組成同心層級嘅星曼荼羅。
+   - 可研究「星＝關係／位置／秩序」而唔只係粒子背景。
+
+4. **Mount Meru / Cosmological Axis**
+   - 須彌山宇宙圖可提供：中心軸、上下世界、環形海陸、四方世界、倒置／層疊空間等結構參考。
+   - 候選用途係**空間 grammar**，唔係照搬一座佛教神山入世界。
+
+5. **Huayan / Indra's Net（華嚴／因陀羅網）**
+   - 每顆珠互相映照所有其他珠嘅互依 metaphor，與 Project Haruka 嘅真實靈魂網絡、Mirror、Collective Unconscious 有潛在視覺共鳴。
+   - **Huayan ≠ Yogācāra**；只可作鄰近大乘佛教 reference，唔可混成同一教義。
+
+6. **Kalachakra macrocosm ↔ body**
+   - 外宇宙與人體內部有結構對應嘅圖式，可作「人／心之器／世界底層互相映照」嘅 art-direction 研究參考。
+   - 目前只係 reference lane，唔新增身體＝宇宙嘅 canon 規則。
+
+7. **Dust / innumerable worlds imagery**
+   - 佛典常以恆河沙、微塵、無量世界表達不可計量尺度。
+   - 可研究「星塵唔係太空 dust，而係無數世界／記憶／可能性嘅尺度感」；具體等同關係未定。
+
+### Guardrails
+- **先抽結構，再抽 icon。** 優先研究宇宙層級、互相映照、中心／環／方位、微塵尺度、內外宇宙等；唔急住加佛像、蓮花、梵文、法輪、寺廟。
+- **Reference ≠ diegetic religion.** 未經作者另行確認，唔可推論帝國／Beta 市民信佛，亦唔可自動加入佛教制度。
+- **唔混教義。** Yogācāra、Huayan、Esoteric Buddhism、Kalachakra 各有唔同歷史／哲學脈絡；可以並列做 visual reference，但要標清來源。
+- **唔將星空固定化。** 佛教宇宙 reference 係為咗令 Cosmic substrate 更有 Project Haruka 嘅思想同結構，不係令所有超自然場面都出 mandala／星宿。
+- **後續要用 intent-level 問題討論**：例如「點解星塵要有秩序？」「點解宇宙要有中心／冇中心？」「觀眾應感到無量、互相承載，定輪迴壓迫？」而唔係直接問用邊個佛教圖案。
+
+### 下一輪要先答嘅核心
+> 佛教 reference 對 Project Haruka 最重要嘅第一層 intent，究竟係 **無量宇宙／微塵尺度**、**萬物互相映照／互依**、**心識生成世界**、**宇宙有層級／中心軸**，定係其中幾樣需要同時存在但各自分工？
+
+### 2026-10-07 Author Answers — scope / priority
+- **Q1**：三條都要，但優先次序以 **宇宙結構** 為第一；神聖姿態／儀式動作、文字／圖案系統亦保留為重要分支。
+- **Q2**：sacred script（梵文／悉曇等）**唔做日常滲出**。完整／高密度使用主要屬**高強度底層 reality reveal**；同源語法亦可出現在魔法少女／奇蹟／封印／界面等高階系統。具體密度與分工之後另開 branch 設計。
+- **Q3**：Hunter x Hunter 尼特羅百式觀音 reference 最想要 **D：星空背景下，人體／力量同宇宙對齊嘅超越尺度感**；唔需要把「千手」當必要元素。
+- **流程定位**：VL-018 係 cross-cutting major art-reference branch，**唔阻塞當前 P03B 主線**。本輪記錄完即返回 `Non-World Intent Board 01` / P03B 原本問題繼續。
 
 ## 5. Benchmarks（唔係語言分類）
 

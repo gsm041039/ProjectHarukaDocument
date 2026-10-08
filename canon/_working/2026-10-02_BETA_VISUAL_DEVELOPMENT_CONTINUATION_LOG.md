@@ -268,3 +268,23 @@ Implications：
 - baseline：外／內 mismatch，但內部局部 metric 仍穩定、可生活；
 - deeper state：現實進一步變薄先出現內部量度本身失準；
 - 理由：保留「怪但可用」世界基線，並為高強度 non-world physics 留 escalation 空間。
+
+---
+
+## 11. 2026-10-07 — Buddhist cosmology / consciousness-cosmos art-reference axis
+
+作者新增一條**重大美術方向**：因 Project Haruka 已有星空／Cosmic substrate 同「唯識宇宙」本體論，之後視覺開發要主動研究更多**佛教宇宙觀／佛教美術結構／星空星塵** reference。
+
+Source check：repo 正式 canon 有「唯識宇宙」，但未見正式建立佛教美術 reference system；因此本輪只升格為 **AUTHOR-CONFIRMED VISDEV DIRECTION**，唔寫成世界內佛教宗教設定。
+
+初步 research lanes：Yogācāra／阿賴耶識與種子概念（概念層）、Mandala cosmological diagram、Japanese Star Mandala、Mount Meru cosmology、Huayan / Indra's Net、Kalachakra macrocosm↔body、恆河沙／微塵／無量世界尺度語言。
+
+核心 guardrail：**先抽結構再抽 icon；reference ≠ diegetic religion；唔混教義；唔令每次超自然都變 mandala wallpaper。**
+
+已新增 VL-018 `Buddhist Cosmology / Consciousness-Cosmos Reference Axis`。下一步應先用人話討論 intent：佛教 reference 最重要係無量尺度、互依映照、心識生成世界、宇宙層級／中心軸，定幾條分工並存。
+
+### 2026-10-07 follow-up — author priority answers
+- 佛教 reference 三層都要：**宇宙結構第一**；神聖姿態／儀式動作、文字／圖案系統亦要。
+- 梵文／悉曇等 sacred script：唔做普通日常 decoration；完整／高密度主要留高強度底層 reality reveal，同源語法可延伸去魔法少女／奇蹟／封印／界面。
+- 尼特羅百式觀音 reference：作者最重視 **星空背景下，人體／力量與宇宙對齊的超越尺度感**，唔要求千手。
+- 作者明確要求：此 branch 討論完要**返回原本 visual pipeline**，唔畀新 reference 軸劫持 P03B 進度。
