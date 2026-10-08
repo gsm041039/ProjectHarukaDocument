@@ -76,7 +76,7 @@ Specialists return evidence/candidates/criticism/recommendations. They may never
 
 If a specialist is invoked directly (user bypassed the orchestrator): recover the active run → consult this contract → inspect `CURRENT_LAYER`/`RUN_MODE`/Director gate → perform the specialist task only → return findings here. `story-router` should route ordinary natural-language story requests into the orchestrator first; the user should never need to know which skill to invoke manually.
 
-## Scope, Decision Weight and Gap Admission（vNext EXPERIMENT — 規則全文：`.claude/story_system/gap-admission-and-scope.md`；sub-agent 唔會自動載入，brief 入面要俾路徑）
+## Scope, Decision Weight and Gap Admission（規則全文：`.claude/story_system/gap-admission-and-scope.md`；sub-agent 唔會自動載入，brief 入面要俾路徑）
 1. **兩條獨立軸，實質任務開始前兩條都要定：** `SCOPE_SCALE`（WORLD_SYSTEM／ARC_STRUCTURE／SCENE_BEAT／MIXED／UNRESOLVED）同 `DECISION_WEIGHT`（ROUTINE／MATERIAL／DIRECTOR）。下面 `LEVEL_1/2/3` 只係 DECISION_WEIGHT 嘅別名，**從來唔代表** World／Arc／Scene。答案留喺被問嘅 scale；其他 scale 嘅發現記做 side finding，唔取代答案。
 2. **Gap Admission Gate：** 任何東西叫做「gap／缺 canon／矛盾」之前，先做 0 proposition／layer 切分（寫明被測命題同層級：CANON_FACT／PRESENTATION／AUDIENCE_KNOWLEDGE／MECHANISM／TIMING／CAUSALITY／WORLD_STATE／DOCUMENT_SYNC／OTHER；證據只可關閉佢真正講嘅嗰層，其餘命題繼續過後面 gate，唔可以因一層已答就成個 candidate DROP）→ A owner check（FULLY／PARTIALLY／NOT_RESOLVED_BY_OWNER；全答＝RESOLVED_BY_OWNER_DOC／DOCUMENT_SYNC／STALE_SUMMARY，唔再問作者；部分答要記已關命題／剩餘命題／anchor，剩餘部分繼續）→ B status check（TODO／BTD／AUTHOR_PENDING／刻意留白等 status 只可有直接證據先標：明確標記、作者明確裁定、或等同嘅 owner 文字，要引原文；唔可因為「冇答案／似未完成／別處暗示」就推斷；證據含糊＝STATUS_UNVERIFIED，當普通 candidate 繼續）→ C compatible-reading attack（要有「兩句不可能同時成立」嘅證據先叫 VERIFIED_CONFLICT；共存要靠 Canon 未固定嘅詮釋＝INTERPRETATION_DEPENDENT／NEEDS_AUTHOR，唔係自動「冇嘢報」）→ D necessity（只問：未解命題係咪影響現有依賴／一致性責任／詮釋／world-state／故事事件／玩法合約／被問嘅任務？冇＝DROP 或 OPTIONAL_WORLD_COMPLETION；「易改／平改／只係字眼」唔可以決定問題存唔存在，只可影響 PRIORITY／SEVERITY／PATCH_COST）→ E scale（WORLD_SYSTEM gap 要實質影響 ≥2 個大範疇；單場對白／reveal 時序／單一 beat carrier 唔可以做 WORLD_SYSTEM 主發現）。「冇發現 gap」係合法完整答案；唔為有嘢報而造 gap。
 3. **WORLD_SYSTEM 發現＝對現有節點同邊嘅依賴／介面搜索**（介面、狀態轉換、因果鏈、跨系統後果、歷史→現在），唔係 28 角度全掃；唔自創節點。證據：通常 ≥2 個獨立精確 canon 錨點；HIGH 要直接證據；靠解讀＝MEDIUM／NEEDS_AUTHOR；舊 audit 被 agent 重複引用唔升級信心。≥3 個來自不同範疇、需同一個上層決定嘅獨立 gap 先可以升做 root gap，否則解決最細夠用嘅缺失環節。
@@ -170,12 +170,12 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - 發送前自測：作者冷讀呢段，唔使開任何檔案、唔使識任何編號，睇唔睇得明「發生咩、點解、代價、放棄咗咩」？唔得就重寫。
 - 本規則同下面 Candidates-First Rule 疊加：Candidates-First 規定「問作者之前要先備候選」；本規則規定「任何建議都要人話詳情」。
 
-#### Angle Basis Rule — 角度係覆蓋輔助，唔係每個建議嘅必經關卡（2026-10-02 新增；vNext EXPERIMENT 改咗預設模式，見下）
-**vNext 模式（覆蓋下面第 1、4 點嘅「全掃」預設）：** 預設流程＝`problem → relevant lenses → synthesis`。
+#### Angle Basis Rule — 角度係覆蓋輔助，唔係每個建議嘅必經關卡（2026-10-02 新增；2026-10-08 作者批准 TARGETED 預設／FULL 觸發政策，見下）
+**現行政策（2026-10-08 作者批准，覆蓋下面第 1、4 點嘅「全掃」預設）：** 預設流程＝`problem → relevant lenses → synthesis`。
 - `TARGETED`（預設，一般工作）：由問題出發揀相關 lens／角度，每個揀咗嘅都要有證據（檔案＋行）同一次攻擊；唔相關嘅唔使逐個剔。揀 lens 嘅理由要講（呢個問題點解牽涉呢幾個角度）。
 - `FULL`（28 角度全掃）只限：(1) 明確整體審計；(2) milestone／最終審核（例如 Layer Review Packet、Beat Layer Completeness Gate）；(3) 高風險跨領域 artifact；(4) 作者明確要求全面覆蓋（含「完整考慮」）；(5) TARGETED 之後仍有實質漏 lens 風險。
 - `TARGETED` 要簡短記錄：揀咗嘅 lens family＋一句相關理由；跳過嘅 family（family 層級）；點解漏 lens 風險低。
-- **`AUTHOR_POLICY_DECISION_PENDING`：** 呢個係 vNext.2 實驗內嘅政策，唔係正式 project policy；正式 `CLAUDE.md` 未改，仍要求全角度，採用要作者決定。
+- 呢個政策已獲作者批准，並已寫入正式 `CLAUDE.md`。
 - Registry 係覆蓋輔助，永遠唔可以講「所有角度都過咗，所以 ready」。Registry 角色改變，**唔加新角度 ID**。
 - 以下第 2、3、5–8 點照舊適用於被揀嘅角度；第 1、4 點嘅「全掃」只喺 `FULL` 模式適用。
 **起因：** 我曾經交一張「19 個角度全部相關」嘅表，但格入面多數係套話、冇人驗證，而且標咗「canon 連貫」相關之後我仍然憑印象講錯 canon。剔號唔等於做過。作者要求：每個建議都要真係以所有角度為依據（如有觸及）。

@@ -49,7 +49,7 @@ Status 值：`GENERATED / SHORTLIST / SELECTED / SELECTED_SUPPORT / COMBINED / P
 - 任何 `PARKED` 候選必須有 `PARKED_REASON` + `RECONSIDER_WHEN`。
 - Resume（`story-resume`）讀呢個檔嗰陣，`REJECTED`/`PARKED` 候選唔可以喺下一輪被靜靜重新提出，除非 `RECONSIDER_WHEN` 條件已成立。
 
-## Change Ledger（vNext EXPERIMENT；規則：`.claude/story_system/gap-admission-and-scope.md` §10）
+## Change Ledger（規則：`.claude/story_system/gap-admission-and-scope.md` §10）
 工作區要分清六樣嘢，唔可以混喺 candidate board 一個 Status 欄：`candidate issue`／`adjudicated issue`（admission verdict）／`author decision`／`planned patch`／`actual target modification`／`verified resolution`。Candidate Board 嘅 `SELECTED` 唔等於改咗任何檔。
 `12_change_ledger.md` 每行：
 ```text

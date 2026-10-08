@@ -1,4 +1,4 @@
-"""Experiment-only structural validator for STORY_OUTPUT_RECORD (vNext.2.3).
+"""Structural validator for STORY_OUTPUT_RECORD (vNext.2.3).
 
 Structure + internal consistency only; cannot find hidden semantic assumptions (the premise auditor does that).
 Usage: python validate_story_output.py <file.json | file.md>   (md: last json block; text before it is scanned

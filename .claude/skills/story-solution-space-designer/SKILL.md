@@ -32,7 +32,7 @@ Never `READY_TO_NEXT_LAYER` — that is an authority decision the orchestrator m
 觸發：orchestrator 明確要求「提案掃描」（例如 Beat Layer Completeness Gate 第 7 項嘅提案員；或作者問「有冇更好／新嘅做法」）。
 輸入：被掃 artifact＋已定決定（不可推翻）＋可讀 canon 清單；唔需要預先寫好 Problem Blueprint——**由你自己喺 artifact 入面搵出具體弱點／遺漏功能，再為該弱點寫一個 mini Problem Blueprint**。冇具體弱點就唔提（唔准為提而提）。（vNext：呢個弱點只係 `CANDIDATE ISSUE`／改進機會，輸出標 `OPPORTUNITY`，唔標 gap／缺 canon；要當缺陷處理必須由 orchestrator 先過 Gap Admission Gate。提案本身唔算證據。）
 形式唔限於「加場戲」：玩法行為、環境／道具／UI／表演、蒙太奇、aftermath、細事件、刪／併／換序、可選支線、換載體。仍然跑 Existing Carrier First（Step 1）；細事件類可調用 `story-micro-insert-hunter`。
-每個提案必須：人話講清做咩／點解／代價／放棄咗咩／同現有做法分別；上游依據同證據級別；揀同呢個弱點相關嘅 lens（`.claude/story_system/angle-system.md` Registry 係覆蓋輔助，預設 TARGETED；FULL 全掃只喺 orchestrator 指定時，`AUTHOR_POLICY_DECISION_PENDING`）＋3–5 個決定性角度詳述＋一次「攻擊」；冇 Hard Constraint／Act II–IV obligation 衝突（有就標 REVALIDATE）。
+每個提案必須：人話講清做咩／點解／代價／放棄咗咩／同現有做法分別；上游依據同證據級別；揀同呢個弱點相關嘅 lens（`.claude/story_system/angle-system.md` Registry 係覆蓋輔助，預設 TARGETED；FULL 全掃只喺 orchestrator 指定時；政策已獲作者批准）＋3–5 個決定性角度詳述＋一次「攻擊」；冇 Hard Constraint／Act II–IV obligation 衝突（有就標 REVALIDATE）。
 數量與結構：最多 8 個、按價值排序；至少 1 個激進另類、至少 1 個刪／併類；如真係冇值得提，要寫試過諗咩、點解唔成立。
 所有輸出＝`CANDIDATE`，唔批核、唔代作者決定；結尾照常 `SPECIALIST_WORK_COMPLETE / RETURN_TO_ORCHESTRATOR`。
 

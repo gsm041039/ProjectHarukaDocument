@@ -1,6 +1,6 @@
-# Gap Admission, Scope Control and Change-State Rules (vNext EXPERIMENT)
+# Gap Admission, Scope Control and Change-State Rules
 
-STATUS: `EXPERIMENT_COPY` — not a formal skill file. Baseline commit `4fdc76d`. Referenced by orchestrator / solution-space-designer / workspace-manager / holistic-supervisor / blind-angle-audit-protocol in the experiment copy. Sub-agents do not auto-load this file: any agent that needs it must be given the path in its brief.
+STATUS: formal rules file (promoted vNext.2.3). Referenced by orchestrator / solution-space-designer / workspace-manager / holistic-supervisor / blind-angle-audit-protocol. Sub-agents do not auto-load this file: any agent that needs it must be given the path in its brief.
 
 Goal: act like a Head Writer / Story Systems Director. Find gaps that are genuinely needed, reject false gaps, stay at the requested scale, reuse existing material first, know when NOT to add lore, escalate only real Director decisions, and report planned vs applied vs verified changes truthfully. Number of findings / angles / cells / words is NOT a success measure.
 
