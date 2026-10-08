@@ -89,6 +89,7 @@ Specialists return evidence/candidates/criticism/recommendations. They may never
 - **Handback：** 完整分析寫入 workspace；交返主 session 原則上 ≤10 行：任務｜主要發現｜最重要證據｜未解問題｜完整報告路徑。唔好將長報告塞返主 session。
 - **Session／Token：** 大型工作走 `bounded task → checkpoint → concise handback → resume`；唔好一次開多個大型研究；一個階段完成先判斷要唔要下一階段；資源緊張先保存有效成果；讀唔到真實 token 餘額就唔可以捏造數字；停止不必要嘅重複搜尋、反覆派工、自動多輪審核。**同一問題已有足夠證據同作者討論，就直接入創作討論，唔再研究。**
 - **必要例外（唔係禁止 sub-agent）：** 獨立反證、多個大型系統並行查核、專門技術／玩法審核、明確完整 Holistic Audit——照派，但要守上面預算同授權。唔可以犧牲重要分析質素換表面節省。
+- **大型 Beat Sheet 分批（2026-10-08）：** 做 `BEAT_LAYER_DEEP_DESIGN` 呢類大份交付，一次最多處理 2–4 個 beat；每批完成即寫檔＋跑 `validate_beat_layer.py`＋checkpoint，先判斷做唔做下一批；唔喺一個 session 一次做完全份 16 個 beat 嘅逐 beat 分析；raw 分析留喺檔，唔塞晒入主 context。
 
 If a specialist is invoked directly (user bypassed the orchestrator): recover the active run → consult this contract → inspect `CURRENT_LAYER`/`RUN_MODE`/Director gate → perform the specialist task only → return findings here. `story-router` should route ordinary natural-language story requests into the orchestrator first; the user should never need to know which skill to invoke manually.
 
@@ -309,7 +310,7 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 5. **Layer routing**：
    - Act → `story-outline-synthesis-gate`（act outline mode）
    - Sequence / Event → `story-sequence-boundary-designer`（+ 既有 outline 的 event grouping）
-   - Beat Sheet → `story-room`（Beat Sheet Production Mode，見該 skill）
+   - Beat Sheet → `story-room`（Beat Sheet Production Mode；交付前要 `BEAT_LAYER_DEEP_DESIGN` mode，見該 skill）
    - Scene → `story-scene-objective-architect` → `story-scene-lab`
    - Dialogue → `story-dialogue-architect` → `story-dialogue-readiness-gate` → `story-dialogue-script`
    - LEVEL_2/LEVEL_3 candidate 工作 → `story-solution-space-designer`（見 Three Design Levels），結果經 orchestrator synthesis 後先落 candidate board
@@ -658,6 +659,7 @@ Progressive Mode 落，呢條規則 = Continue-by-Default（見上）：完成�
 
 ## Failure Conditions
 以下係失敗：
+- （2026-10-08）將 `PATCH_NOTES`／壓縮 diff 版、或按 beat GROUP 做嘅角度掃描，當成 `FULL_BEAT_LAYER` 或逐 beat 完成嘅 `PER_BEAT_DESIGN_RATIONALE` 交付；`validate_beat_layer.py` 未 PASS 或未做語意抽查就標 `DELIVERY_READY`（見 story-room `BEAT_LAYER_DEEP_DESIGN` mode）。
 - （vNext）未過 Gap Admission Gate 就將 owner doc 已答／刻意留白／可兼容解讀／無下游需要嘅嘢叫做 gap 或「缺 canon」；為有嘢報而造 gap；將 `LEVEL_n` 當 World／Arc／Scene scale 用；WORLD_SYSTEM 任務由單場／單 beat 發現主導答案；以「全部角度都過咗」宣稱 ready；用 solution-space-designer 證明 gap 存在；將只喺 patch list／建議入面嘅改動講成已改入（`PATCH_PLANNED` 當 `APPLIED_TO_TARGET`）；聲稱盲審硬隔離而 harness 冇強制。
 - 由下游現成材料（Scene Reference／舊 Beat 表）直接當上層產物，推導事後先補；元素冇 ledger 來源；作者問「點解」卻用候選比較代替推導鏈；作者改上游後下游冇標失效（見 Derivation Trace Discipline）。
 - 宏觀檢查只輸出 checklist、分數或 specialist 報告拼貼，冇深化原問題、根因、修改方案同驗證方法。

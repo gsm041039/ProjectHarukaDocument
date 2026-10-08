@@ -135,3 +135,80 @@ Tier 1（current durable state + current canon/CDL + 目標 Act Outline/Beat She
 7. CONSOLIDATED AUTHOR QUESTIONS（自由form，只問 AUTHOR_DECISION 級；冇就講明「冇需要拍板」，唔問「要唔要繼續」）
 8. FILE UPDATE PLAN（寫入邊個 BEAT_SHEET 檔 + CROSS_ACT_FORESHADOW_MANIFEST + state files；PILOT/EXPERIMENT run 唔寫呢啲）
 9. RUN LOG SUMMARY
+
+---
+
+## BEAT_LAYER_DEEP_DESIGN Mode（2026-10-08 新增，作者要求；正式交付用，取代「淨交 Diff」當完成）
+
+觸發：要交一份「可以批嘅」Beat Layer（Layer Review Packet 前）；或作者明確要求 deep design。平時改一兩個 beat、討論用舊 Beat Sheet Production Mode 就夠，唔使逢次都開呢個 mode。
+
+### A. Full Beat Field Contract（唔可以刪）
+上面「每個 Beat 至少定義」嗰 19 個欄位（beat function 到 status）**係永久合約，任何版本（新版／修改版／壓縮版）都唔可以刪**。Beat-grain 分類、DOWNSTREAM REFERENCES、硬性規則全部照跟。
+
+**PATCH_NOTES vs FULL_BEAT_LAYER 必須分開：**
+- `PATCH_NOTES` = 呢一輪改咗咩、點解改（只列 diff，可以淨講改動）。
+- `FULL_BEAT_LAYER` = 每個 beat 全部 19 個欄位都齊，唔淨靠「見返上一版」。
+- **除非作者明確話「淨係想睇 diff」，新版 Beat Layer 預設輸出 `FULL_BEAT_LAYER`**，`PATCH_NOTES` 可以另外跟，但唔可以用 `PATCH_NOTES` 取代 `FULL_BEAT_LAYER` 去交付。
+
+### B. Per-Beat Design Rationale（逐 beat，唔係逐組）
+每個 beat 要有獨立嘅 `PER_BEAT_DESIGN_RATIONALE`：由該 beat 嘅具體內容（唔係上一層套話）揀 **10–14 個真正相關**嘅 Master Angle Registry 角度（`.claude/story_system/angle-system.md` Pool 1–3）。每個揀中嘅角度要寫五項，全部指向呢個 beat 嘅具體內容：
+- **DESIGN REQUIREMENT**：呢個角度對呢個 beat 有咩具體要求？
+- **CURRENT DESIGN**：目前用咩設計回應（引用 beat 內容）？
+- **RATIONALE**：點解咁設計、唔用其他做法？
+- **RISK / TRADE-OFF**：有咩風險或犧牲？
+- **DESIGN ACTION**：`KEEP` / `REVISE` / `VERIFY` / `NEEDS_AUTHOR_DECISION`。
+
+**禁止冇實質內容嘅通用句**（例：「符合角色動機」「加強情緒」「提升玩家體驗」「有助故事節奏」），除非寫明具體因果（點樣符合、邊個動機、加強咗咩去到邊個程度）。重點係專業設計推演，唔係填表交數。
+
+**少於 10 個相關角度：** 唔可以為湊數虛構分析。標 `DEPTH_EXCEPTION_NEEDS_REVIEW` 並寫理由（例：純過場銜接 beat，大部分角度 NOT_RELEVANT）；未處理呢個標記前，呢個 beat 唔可以當符合標準。
+
+每個 beat 記錄：Beat ID｜Selected angles（連理由）｜每個角度嘅五項分析｜由分析引出嘅設計決定｜未解風險。
+
+### C. Design 同 Audit 分開（唔可以互代）
+- `BEAT_DESIGN_RATIONALE`（呢個 mode 做嘅）＝解釋設計決策、探索過嘅方案、分析取捨——**正面建構**。
+- `ANGLE_AUDIT`（盲審／質疑輪／自掃做嘅）＝搵問題、反證、查一致性——**負面驗證**。
+兩者唔可以互相代替：有 design rationale 唔等於已經 audit 過；有 audit CLEAN 唔等於已經有 design rationale。**Beat Group Audit（例如按 G1–G4 四組做嘅角度掃描）唔可以冒充逐 beat 分析**——組角度掃描係 ANGLE_AUDIT 嘅一種覆蓋方式，唔滿足 B 項嘅逐 beat 要求。
+
+### D. Angle Coverage（逐 beat，唔係逐組）
+`TARGETED` 仍然可以用（唔使逢 beat 都掃 28 個角度），但 `BEAT_LAYER_DEEP_DESIGN` 下**揀角度嘅單位係 beat，唔係 beat group**。16 個 beat 要有 16 份獨立嘅 `PER_BEAT_DESIGN_RATIONALE`，唔可以用 4 組嘅角度掃描結果去代表 16 個 beat 各自完成。
+
+### Markdown Convention（俾 `validate_beat_layer.py` 解析；`FULL_BEAT_LAYER` 檔要跟）
+```
+## BEAT: <id>
+STATUS: DRAFT|WIP|APPROVED|PROVISIONAL
+
+FIELDS:
+- beat_function: ...
+- entry_state: ...
+- pressure_trigger: ...
+- participant_intentions: ...
+- action: ...
+- reaction: ...
+- turn: ...
+- consequence: ...
+- emotional_value_shift: ...
+- relationship_delta: ...
+- audience_info_delta: ...
+- character_knowledge_delta: ...
+- setup_payoff: ...
+- world_rule_exposure: ...
+- gameplay_form: ...
+- exit_state: ...
+- next_beat_pressure: ...
+- source_obligation_trace: ...
+- downstream_references: ...
+(N/A 嘅欄位寫 "N/A — <理由>"，唔可以淨寫 "N/A")
+
+PER_BEAT_DESIGN_RATIONALE:
+### ANGLE: <角度名或編號>
+- DESIGN_REQUIREMENT: ...
+- CURRENT_DESIGN: ...
+- RATIONALE: ...
+- RISK_TRADEOFF: ...
+- DESIGN_ACTION: KEEP|REVISE|VERIFY|NEEDS_AUTHOR_DECISION
+（重複 10–14 次；少於 10 個就喺 PER_BEAT_DESIGN_RATIONALE 下面加一行 `DEPTH_EXCEPTION_NEEDS_REVIEW: <理由>`）
+```
+檔頭可以加 `DELIVERY_STATUS: DELIVERY_READY|INCOMPLETE_BEAT_LAYER` 俾 validator 核對自報狀態同實際結構結果一致。`PATCH_NOTES` 段（如有）用獨立 `## PATCH_NOTES` 標題，唔跟上面格式，validator 唔當佢係 beat。
+
+### Delivery Gate
+`FULL_BEAT_LAYER` 只有 `validate_beat_layer.py`（見下）structural PASS，**並且 orchestrator 做完語意抽查**（抽幾個 beat 睇 RATIONALE 係咪真有內容，唔係套話），先可以標 `DELIVERY_READY`；否則標 `INCOMPLETE_BEAT_LAYER`，唔可以宣稱完成。Validator 只負責結構（欄位存在、角度數量、五項齊唔齊），**唔能夠單靠欄位存在證明分析質素**——質素要人睇。

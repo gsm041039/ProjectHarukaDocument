@@ -4,6 +4,7 @@
 呢份 Registry 係**覆蓋輔助**，唔係每個問題嘅必經關卡，亦唔可以用「全部角度都過咗，所以 ready」做結論。預設流程：`problem → relevant lenses → synthesis`（`TARGETED`：由問題揀相關 lens，每個揀咗嘅要有證據同攻擊）。`FULL`（下面 28 個全掃）只限：(1) 明確整體審計；(2) milestone／最終審核（例如 Layer Review Packet）；(3) 高風險跨領域 artifact；(4) 作者明確要求全面覆蓋；(5) TARGETED 之後仍有實質漏 lens 風險。`TARGETED` 簡短記錄：揀咗嘅 lens family＋一句相關理由、跳過嘅 family（family 層級）、點解漏 lens 風險低。**此政策已獲作者批准（2026-10-08），已寫入正式 `CLAUDE.md`。**WORLD_SYSTEM 發現用依賴／介面搜索，唔用呢份清單（見 `gap-admission-and-scope.md` §3）。**唔加新角度 ID。** 下面所有「每次全掃／必須掃描／一律全掃」只喺 `FULL` 模式適用；`TARGETED` 模式下只適用於已揀嘅 lens。
 
 **Agent 數量（2026-10-08）：** `TARGETED`／`FULL` 係角度覆蓋模式，**唔係 sub-agent 數量**。FULL 28 角度可以由 orchestrator 或同一個 agent 分階段完成；唔好每個角度／每個 Pool 派一個 agent。派 agent 跟 `story-orchestrator`「Sub-Agent Budget Policy」。
+**正式 Beat Layer 交付（2026-10-08）：** 揀角度嘅單位係**個別 beat**，唔係 beat group；按 beat group 做嘅角度掃描（例如 G1–G4）係 `ANGLE_AUDIT` 嘅一種覆蓋方式，唔等於每個 beat 已經有逐 beat 設計分析。正式交付用 `story-room`「BEAT_LAYER_DEEP_DESIGN mode」嘅 `PER_BEAT_DESIGN_RATIONALE`（每 beat 10–14 個相關角度，五項分析）。
 
 任何 reconstruction-level / blocked decision / outline / reveal / relationship / theme / tone / section 問題，都要先由問題揀相關 angles（`FULL` 模式則全部），再決定邊啲真係需要問作者。
 
