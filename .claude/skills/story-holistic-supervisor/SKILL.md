@@ -403,6 +403,7 @@ Potential calls include:
 Rules:
 - Select skills based on the professional reframe, not keyword matching alone.
 - Do not call every skill for the sake of completeness.
+- Calling a specialist skill ≠ spawning a sub-agent. Run specialist skills/lenses inline by default. Sub-agents follow story-orchestrator "Sub-Agent Budget Policy": normal supervision ≤2 total (counting sequential dispatches); an explicit large Holistic Audit may use 3–4 **only after the author approves**; never >4 automatically. Do not dispatch one agent per specialist or per angle; give agents precise file sections, reuse verified canon findings, and take back ≤10-line summaries + report path.
 - Specialists must return findings to the supervisor.
 - The supervisor merges duplicated symptoms into root causes.
 - Specialist questions must not be sent directly to the author before Question Gate review.

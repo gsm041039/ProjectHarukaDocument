@@ -87,6 +87,7 @@ Script（對白 / 鏡頭 / timing）
   - 「完整考慮」嘅宣稱仍然需要獨立盲審完成先可以講；Registry 唔刪，FULL 審查標準唔降。詳見 SKILL.md「Angle Basis Rule」同 `.claude/story_system/blind-angle-audit-protocol.md`
   - 兩條軸要分開：`SCOPE_SCALE`（WORLD_SYSTEM／ARC_STRUCTURE／SCENE_BEAT／MIXED／UNRESOLVED）同 `DECISION_WEIGHT`（ROUTINE／MATERIAL／DIRECTOR）；LEVEL_1/2/3 只係 decision-weight 概念，唔係 World/Arc/Scene。
   - 輸出驗證：story 設計輸出以 `.claude/story_system/validate_story_output.py` 同檔案存在作完成準則，唔信 subagent 自報 DONE。
+- **Sub-agent 預算（作者 2026-10-08 批准）：** 一般故事討論／人物設計／創作方案＝0；跨文件 Canon 查核≤1；複雜跨 Act／世界系統研究≤2；明確大型 Holistic Audit＝3–4 且先獲作者批准；>4 唔可以自動派。普通任務總數（計先後派出）≤2，要第 3 個先講不可取代嘅理由再攞批准。TARGETED／FULL 係角度覆蓋模式，唔係 agent 數量。派之前過 Delegation Gate；handback ≤10 行＋報告路徑；大工作走 `bounded task → checkpoint → concise handback → resume`；證據夠就直接同作者討論。全文見 `story-orchestrator/SKILL.md`「Sub-Agent Budget Policy」。
 - 唔得問 filler 問題
 
 @.claude/story_system/angle-system.md

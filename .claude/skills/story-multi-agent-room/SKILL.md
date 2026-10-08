@@ -25,15 +25,16 @@ Judge Pass:
 ```
 
 ## Modes
+**Budget（2026-10-08）：** 下面數字係「pass／lens 數量」，**唔係 sub-agent 數量**。預設由 orchestrator 內聯逐個 pass 做；派 sub-agent 跟 `story-orchestrator`「Sub-Agent Budget Policy」（普通任務總數 ≤2；3–4 只限作者批准嘅明確 Holistic Audit；>4 唔可以自動派），一個 agent 可以合併多個 pass。
 
 ### Light
-3–5 agents. Quick discussion.
+3–5 passes. Quick discussion.
 
 ### Standard
-8–12 agents. Default for serious analysis.
+8–12 passes. Serious analysis.
 
 ### Full
-15–25 agents. Use only for full audit, writeback, major outline approval, or user request.
+15–25 passes. Use only for full audit, writeback, major outline approval, or user request.
 
 ## Output Discipline
 Do not show all agent notes in compact discussion. Summarize:

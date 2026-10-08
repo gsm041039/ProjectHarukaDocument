@@ -12,7 +12,9 @@
 - 盲審係 `FULL` 模式／高風險 review 嘅配套；用語見 §3：呢套係 `SCOPED_INPUT_WITH_EXPOSURE_AUDIT`，**唔係硬隔離**。
 
 ## 2. 角色分工
-| 角色 | 人數 | 做咩 |
+**Budget（2026-10-08，凌駕下表人數）：** 下表係「職能」，唔係各派一個 agent。預設＝1 個盲審 agent 用隔離來源包分階段做晒所有分組（逐段寫檔）；需要時第 2 個 agent 合併做漏洞搜尋員＋提案員。每個職能各派一個（3–4 個）只限作者明確批准嘅完整 Holistic Audit；>4 唔可以自動派。見 `story-orchestrator`「Sub-Agent Budget Policy」。
+
+| 角色 | 人數（職能分組） | 做咩 |
 |---|---|---|
 | 分組審核員 | ≥5，按角度分組（角色／資訊／結構＋canon／觀眾體驗／玩法＋導演＋製作） | 對分配到嘅每個角度 × 每組 beat 逐格出：核對＋攻擊＋結論 |
 | 漏洞搜尋員 | 1 | **唔俾角度清單**。用幾個 persona（story editor、遊戲設計／製作人、新觀眾、continuity auditor）搵問題，之後先對返角度；對唔到＝`NO_MATCH`＝清單漏咗 |

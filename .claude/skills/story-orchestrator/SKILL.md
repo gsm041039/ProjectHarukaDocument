@@ -74,6 +74,22 @@ story-solution-space-designer = structured divergence: candidate generation, cro
 ```
 Specialists return evidence/candidates/criticism/recommendations. They may never approve their own work, decide to cross a layer boundary, decide Director review is unnecessary, promote a candidate into story truth, or answer an `AUTHOR_DECISION` on the Director's behalf. Every specialist result returns to the orchestrator ending `SPECIALIST_WORK_COMPLETE / RETURN_TO_ORCHESTRATOR` — never `READY_TO_NEXT_LAYER` as an authority-bearing decision.
 
+## Sub-Agent Budget Policy（2026-10-08 作者批准；凌駕本檔及其他 story skill 任何「派 N 個 agent」條文）
+「specialist」「pass」「lens」「angle」＝分析角色，**唔等於 sub-agent**。預設由 orchestrator 喺主 session 內聯完成；只有通過下面 Delegation Gate 先派 sub-agent。
+| 工作類型 | 預設 sub-agent |
+|---|---|
+| 一般故事討論、人物設計、創作方案 | 0 |
+| 跨文件 Canon 查核 | 最多 1 |
+| 複雜跨 Act／世界系統研究 | 最多 2 |
+| 明確大型 Holistic Audit | 3–4，**先獲作者批准** |
+- **普通任務每次最多 2 個，計先後派出嘅總數**（唔只係同時執行數量）。要第 3 個：先講佢提供咩不可取代嘅分析，再攞作者批准。**超過 4 個唔可以自動派。**
+- **Delegation Gate（每次派之前逐條答）：** ① 主 agent 自己做係咪已足夠？② 呢個 agent 有冇真正獨立任務？③ 會唔會同其他 agent 重複讀同一批 canon？④ 現有結果（來源包、ledger、舊審核）可唔可以重用？⑤ 增益值唔值 token 成本？任何一條答唔出明確增益＝**唔派**。唔好因為有 CHARACTER／THEME／CAUSALITY／GAMEPLAY 等角度就每個角度派一個。
+- **TARGETED／FULL 係角度覆蓋模式，唔係 agent 數量。** FULL 28 角度可以由同一個 agent（或 orchestrator）分階段做。
+- **Canon 閱讀效率：** orchestrator 先定相關文件，派工時畀精準章節／路徑／必要上下文；唔好叫每個 agent 重讀全 repo；已查證嘅 canon 結論附來源重用；真要獨立盲審先用隔離來源包。唔可以為省 token 而省略必要 canon 查核。
+- **Handback：** 完整分析寫入 workspace；交返主 session 原則上 ≤10 行：任務｜主要發現｜最重要證據｜未解問題｜完整報告路徑。唔好將長報告塞返主 session。
+- **Session／Token：** 大型工作走 `bounded task → checkpoint → concise handback → resume`；唔好一次開多個大型研究；一個階段完成先判斷要唔要下一階段；資源緊張先保存有效成果；讀唔到真實 token 餘額就唔可以捏造數字；停止不必要嘅重複搜尋、反覆派工、自動多輪審核。**同一問題已有足夠證據同作者討論，就直接入創作討論，唔再研究。**
+- **必要例外（唔係禁止 sub-agent）：** 獨立反證、多個大型系統並行查核、專門技術／玩法審核、明確完整 Holistic Audit——照派，但要守上面預算同授權。唔可以犧牲重要分析質素換表面節省。
+
 If a specialist is invoked directly (user bypassed the orchestrator): recover the active run → consult this contract → inspect `CURRENT_LAYER`/`RUN_MODE`/Director gate → perform the specialist task only → return findings here. `story-router` should route ordinary natural-language story requests into the orchestrator first; the user should never need to know which skill to invoke manually.
 
 ## Scope, Decision Weight and Gap Admission（規則全文：`.claude/story_system/gap-admission-and-scope.md`；sub-agent 唔會自動載入，brief 入面要俾路徑）
@@ -176,6 +192,7 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - `FULL`（28 角度全掃）只限：(1) 明確整體審計；(2) milestone／最終審核（例如 Layer Review Packet、Beat Layer Completeness Gate）；(3) 高風險跨領域 artifact；(4) 作者明確要求全面覆蓋（含「完整考慮」）；(5) TARGETED 之後仍有實質漏 lens 風險。
 - `TARGETED` 要簡短記錄：揀咗嘅 lens family＋一句相關理由；跳過嘅 family（family 層級）；點解漏 lens 風險低。
 - 呢個政策已獲作者批准，並已寫入正式 `CLAUDE.md`。
+- **TARGETED／FULL 只係覆蓋模式，唔係 sub-agent 數量**（見 Sub-Agent Budget Policy）；FULL 28 角度由 orchestrator 或單一 agent 分階段做。
 - Registry 係覆蓋輔助，永遠唔可以講「所有角度都過咗，所以 ready」。Registry 角色改變，**唔加新角度 ID**。
 - 以下第 2、3、5–8 點照舊適用於被揀嘅角度；第 1、4 點嘅「全掃」只喺 `FULL` 模式適用。
 **起因：** 我曾經交一張「19 個角度全部相關」嘅表，但格入面多數係套話、冇人驗證，而且標咗「canon 連貫」相關之後我仍然憑印象講錯 canon。剔號唔等於做過。作者要求：每個建議都要真係以所有角度為依據（如有觸及）。
@@ -336,7 +353,7 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 6. **作者問「點解有 X」＝要睇推導鏈，唔係要新候選。** 答法：攞 ledger 該節點，講上游→推導→證據級別；冇鏈就坦白承認並當場追溯。**禁止**用候選比較、新 Director 問題代替追溯。
 7. **Layer Review Packet 要附 ledger 摘要**：各證據級別數量、所有 NEW_CONTENT／COPY／WEAKLY_INFERRED／HW_DEFAULT 清單。
 8. 對話用白話：上游 → 推導 → 結果；唔用內部編號（編號只留喺 ledger）。
-9. **Inherited Obligation Challenge（強制，2026-10-01 補）**：上層（Outline／Beat Sheet）寫咗嘅「義務」**唔等於唔可以質疑**。每次由義務推 Beat 之前，要跑一輪 `story-multi-agent-room`（Light，5 個盲審 agent 並行，各自只讀 ledger＋上游檔）：① Canon Evidence（逐條核引用有冇真係咁寫、有冇誤評級、來源係咪 DRAFT）② Character/Relationship Logic（因果次序係咪強制、功能有冇重複、agency）③ Theme/Audience（調性預算、不安載體夠唔夠／過唔過）④ Canon Impact（作者決定同上游嘅衝突、邊啲檔要 REVALIDATE）⑤ Devil's Advocate/Gap Hunter（邊啲義務過載／可移／缺咗咩 beat、有冇更簡單載體）。Agent 只出證據同質疑，**唔批准、唔代答作者問題**；由 orchestrator 自己綜合，改 ledger 評級／節點，再決定邊啲先值得問作者。綜合結果落 ledger「多 agent 質疑輪」節。
+9. **Inherited Obligation Challenge（強制，2026-10-01 補）**：上層（Outline／Beat Sheet）寫咗嘅「義務」**唔等於唔可以質疑**。每次由義務推 Beat 之前，要跑一輪質疑，覆蓋以下五個 lens（**預設由 orchestrator 內聯逐個做；需要獨立反證時按 Sub-Agent Budget 最多派 1–2 個 agent，每個合併多個 lens，只讀 ledger＋上游檔＋已有來源包，唔重讀全 repo**）：① Canon Evidence（逐條核引用有冇真係咁寫、有冇誤評級、來源係咪 DRAFT）② Character/Relationship Logic（因果次序係咪強制、功能有冇重複、agency）③ Theme/Audience（調性預算、不安載體夠唔夠／過唔過）④ Canon Impact（作者決定同上游嘅衝突、邊啲檔要 REVALIDATE）⑤ Devil's Advocate/Gap Hunter（邊啲義務過載／可移／缺咗咩 beat、有冇更簡單載體）。Agent 只出證據同質疑，**唔批准、唔代答作者問題**；由 orchestrator 自己綜合，改 ledger 評級／節點，再決定邊啲先值得問作者。綜合結果落 ledger「多 agent 質疑輪」節。
 10. **Deviation Register**：作者決定同上游唔同，唔可以靜靜當 AUTHOR_DECIDED 了事；要列入 ledger 偏離登記（偏離咩、燒咗邊個上游「第一次」、邊啲檔要 REVALIDATE、完整版去留分支），Layer Review Packet 必列。作者決定照記照用，唔重問，但要講清代價。
 11. 「NC」同類縮寫先核上游定義（例：Outline 嘅 [NC]＝非戰鬥段，唔係 new content）；唔可以自創縮寫撞咗上游標籤。Scene Reference 來源嘅細節標 `SR`，唔算推導。
 
@@ -347,8 +364,8 @@ Beat 層（及之後每一層）出 Layer Review Packet 之前，下列八項**�
 3. **Gate A／B／C**：已有 tracker 行就引用同標缺口（BK）；Gate C 要逐重要事件問「衝突載體係咪淨係對白」；DIALOGUE_ONLY 要喺 Beat 層補行為載體。
 4. **Obligation pass 對 Hard Constraints／Knowledge Dependency／Considerations**：先標控制總表係咪 STALE／空；唔可以靜靜略過。Reveal 層級上限（例：R-3 層 1）要對每個 beat 嘅「異象強度」核。
 5. **Coping／Ideology 對撞檢查**：每個「角色講出／做出 X」嘅 beat，核 X 係咪撞該角色 coping pattern（例：對自己嘅痛全套防禦嘅人唔會主動講驚）。
-6. **質疑輪 agent 要覆蓋角度掃描**：rule 9 嘅 5 個 agent 之外，orchestrator 自己要做 1–3 項，並將發現回寫 ledger 並更新候選嘅推薦（新證據可以推翻自己之前嘅推薦，要直接講明點解改）。
-7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前，另起 ≥5 個 agent 按角度分組逐格攻擊（建議分組：角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），外加 1 個「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度），再加 1 個「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件（vNext：用語係 `SCOPED_INPUT_WITH_EXPOSURE_AUDIT`，唔係「硬隔離」——除非 harness 真係強制，否則唔可以聲稱 agent 睇唔到禁讀內容）：orchestrator 準備 scoped read-only 輸入包，agent 只喺包內搜；包＝被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；要保留 tool-access／exposure 記錄，agent 讀到禁讀內容要申報，orchestrator 記低接觸時間同類型（降低獨立性信心，唔自動令發現作廢）；每格要有 evidence＋attack，無效格作廢（正式多格審核用 machine-readable cell，見 blind-angle-audit-protocol §4）。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
+6. **質疑輪要覆蓋角度掃描**：rule 9 嘅五個質疑 lens 之外，orchestrator 自己要做 1–3 項，並將發現回寫 ledger 並更新候選嘅推薦（新證據可以推翻自己之前嘅推薦，要直接講明點解改）。
+7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前要有獨立盲審。**按 Sub-Agent Budget：預設 1 個盲審 agent，用隔離來源包分階段逐組攻擊全部角度（角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），逐段寫檔；如需要，第 2 個 agent 合併做「清單漏洞搜尋員＋提案員」。分組各派一個 agent（3–4 個）只限作者明確批准嘅完整 Holistic Audit；超過 4 個唔可以自動派。** 各職能：分組審核（逐格攻擊）；「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度）；「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件（vNext：用語係 `SCOPED_INPUT_WITH_EXPOSURE_AUDIT`，唔係「硬隔離」——除非 harness 真係強制，否則唔可以聲稱 agent 睇唔到禁讀內容）：orchestrator 準備 scoped read-only 輸入包，agent 只喺包內搜；包＝被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；要保留 tool-access／exposure 記錄，agent 讀到禁讀內容要申報，orchestrator 記低接觸時間同類型（降低獨立性信心，唔自動令發現作廢）；每格要有 evidence＋attack，無效格作廢（正式多格審核用 machine-readable cell，見 blind-angle-audit-protocol §4）。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
 8. **覆蓋摘要（用語誠實）**：Layer Review Packet 必附：過咗幾多角度、盲審格數同發現數（按嚴重度）、已處理／未處理、仍然薄嘅格數、Registry 缺口、重掃（STALE）狀態。唔可以用「完整考慮晒」一句帶過（見 Angle Basis Rule 第 8 點）。
 唔通過任何一項（1–8），Layer Review Packet 標 `INCOMPLETE_SCAN`，唔好叫作者批。
 

@@ -26,6 +26,8 @@ RETURN_TO_ORCHESTRATOR
 ```
 Never `READY_TO_NEXT_LAYER` — that is an authority decision the orchestrator makes, not this skill.
 
+**Budget（2026-10-08）：** 預設由 orchestrator 內聯執行（0 sub-agent）；cross-lens challenge、Devil's Advocate、PREMISE_AUDIT 都係 lens，唔係每樣派一個 agent。如被派做 sub-agent，計入 orchestrator「Sub-Agent Budget Policy」（普通任務總數 ≤2）；用 orchestrator 畀嘅來源包／精準路徑，唔重讀全 repo；完整候選記錄寫 workspace，handback ≤10 行（任務｜主要發現｜關鍵證據｜未解問題｜報告路徑）。
+
 ## Proactive Opportunity Mode（2026-10-02 新增）
 平時呢個 skill 係「有問題先出候選」（problem-driven）。作者想要嘅另一種係：**唔等有人報問題，主動掃一份 artifact（Beat／Sequence／Scene）搵可以做得更好嘅新事件、新想法、其他形式。** 現有 `story-micro-insert-hunter` 只做細插入（≤3 個、無全角度掃描）、`story-multi-agent-room` 只有一句 Creativity Rule；兩者都唔夠做呢件事，所以喺度加。
 

@@ -11,8 +11,9 @@ $ARGUMENTS
 When a job contains several independent cases, multiple conditions, or large source bundles, run it as: `persistent workspace → bounded phase → checkpoint → fresh context`.
 - At each checkpoint update: RUN_STATE current phase | completed work | unresolved | next action | the phase SUMMARY.
 - vNext.2.3 completion truth: a step is complete only if its output file exists, is non-empty, parses, and (when validation is required) the validator says PASS; otherwise record `TASK_OUTPUT_MISSING_OR_INVALID` here. A subagent saying DONE is not evidence.
-- Raw outputs stay in files. Parent / subagent handback stays short (verdict + file path).
+- Raw outputs stay in files. Parent / subagent handback stays short: ≤10 lines — task | main findings | key evidence | open questions | full report path.
 - Never require one model context to finish a large audit or evaluation.
+- Budget（2026-10-08，見 story-orchestrator「Sub-Agent Budget Policy」）：one bounded phase at a time; decide after each phase whether the next is needed; when resources run tight, checkpoint useful results first; never fabricate token/usage numbers that can't be read; record sub-agent count per run in RUN_STATE (normal tasks ≤2 total, counting sequential dispatches) and stop repeated searches / re-dispatch / automatic multi-round audits.
 
 ## Trigger
 STANDARD / MAJOR 任務必須使用；QUICK 任務若讀取超過 3 個大文件或預計超過 8 個 skill calls 亦要使用。
