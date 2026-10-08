@@ -76,6 +76,17 @@ Specialists return evidence/candidates/criticism/recommendations. They may never
 
 If a specialist is invoked directly (user bypassed the orchestrator): recover the active run → consult this contract → inspect `CURRENT_LAYER`/`RUN_MODE`/Director gate → perform the specialist task only → return findings here. `story-router` should route ordinary natural-language story requests into the orchestrator first; the user should never need to know which skill to invoke manually.
 
+## Scope, Decision Weight and Gap Admission（vNext EXPERIMENT — 規則全文：`.claude/story_system/gap-admission-and-scope.md`；sub-agent 唔會自動載入，brief 入面要俾路徑）
+1. **兩條獨立軸，實質任務開始前兩條都要定：** `SCOPE_SCALE`（WORLD_SYSTEM／ARC_STRUCTURE／SCENE_BEAT／MIXED／UNRESOLVED）同 `DECISION_WEIGHT`（ROUTINE／MATERIAL／DIRECTOR）。下面 `LEVEL_1/2/3` 只係 DECISION_WEIGHT 嘅別名，**從來唔代表** World／Arc／Scene。答案留喺被問嘅 scale；其他 scale 嘅發現記做 side finding，唔取代答案。
+2. **Gap Admission Gate：** 任何東西叫做「gap／缺 canon／矛盾」之前，先做 0 proposition／layer 切分（寫明被測命題同層級：CANON_FACT／PRESENTATION／AUDIENCE_KNOWLEDGE／MECHANISM／TIMING／CAUSALITY／WORLD_STATE／DOCUMENT_SYNC／OTHER；證據只可關閉佢真正講嘅嗰層，其餘命題繼續過後面 gate，唔可以因一層已答就成個 candidate DROP）→ A owner check（FULLY／PARTIALLY／NOT_RESOLVED_BY_OWNER；全答＝RESOLVED_BY_OWNER_DOC／DOCUMENT_SYNC／STALE_SUMMARY，唔再問作者；部分答要記已關命題／剩餘命題／anchor，剩餘部分繼續）→ B status check（TODO／BTD／AUTHOR_PENDING／刻意留白等 status 只可有直接證據先標：明確標記、作者明確裁定、或等同嘅 owner 文字，要引原文；唔可因為「冇答案／似未完成／別處暗示」就推斷；證據含糊＝STATUS_UNVERIFIED，當普通 candidate 繼續）→ C compatible-reading attack（要有「兩句不可能同時成立」嘅證據先叫 VERIFIED_CONFLICT；共存要靠 Canon 未固定嘅詮釋＝INTERPRETATION_DEPENDENT／NEEDS_AUTHOR，唔係自動「冇嘢報」）→ D necessity（只問：未解命題係咪影響現有依賴／一致性責任／詮釋／world-state／故事事件／玩法合約／被問嘅任務？冇＝DROP 或 OPTIONAL_WORLD_COMPLETION；「易改／平改／只係字眼」唔可以決定問題存唔存在，只可影響 PRIORITY／SEVERITY／PATCH_COST）→ E scale（WORLD_SYSTEM gap 要實質影響 ≥2 個大範疇；單場對白／reveal 時序／單一 beat carrier 唔可以做 WORLD_SYSTEM 主發現）。「冇發現 gap」係合法完整答案；唔為有嘢報而造 gap。
+3. **WORLD_SYSTEM 發現＝對現有節點同邊嘅依賴／介面搜索**（介面、狀態轉換、因果鏈、跨系統後果、歷史→現在），唔係 28 角度全掃；唔自創節點。證據：通常 ≥2 個獨立精確 canon 錨點；HIGH 要直接證據；靠解讀＝MEDIUM／NEEDS_AUTHOR；舊 audit 被 agent 重複引用唔升級信心。≥3 個來自不同範疇、需同一個上層決定嘅獨立 gap 先可以升做 root gap，否則解決最細夠用嘅缺失環節。
+4. **發現同解決分開：** `CANDIDATE ISSUE → ADMISSION GATE → ADJUDICATED PROBLEM → SOLUTION SPACE`。`story-solution-space-designer` 唔可以用嚟證明 gap 存在；只有已 admitted、或標 `CONFIRMED_INCOMPLETE_DESIGN_PROBLEM`（BTD／TODO／author-pending／已記載但未實現嘅玩法劇情要求／歷史確認 gap／刻意未完成嘅橋）嘅問題先開始創作候選。
+5. **WORLD_SYSTEM／ARC／MIXED 用 8 級 solution ladder**（見 gap-admission 檔 §7：重新詮釋既有規則 → 擴展既有機制 → 重用既有 carrier → 重分配／合併 → 改下游要求 → 移除／重新框定〔`DO_NOT_ADD_NEW_LORE` 係合法候選〕→ 新窄規則／事件 → 新大系統〔最後手段，通常 DIRECTOR〕）；SCENE_BEAT 繼續用下面 9 級 Existing Carrier ladder。
+   **vNext.2.1 Divergence firewall + 證明式 sufficiency（見 gap-admission §7-0..7e）：** 三階段次序 A DIVERGE（生成 3–5 個因果機制，期間唔可以按 assumption 數量／Canon 成本／可逆性／簡單度／baseline 排序或剔走）→ B VERIFY（obligation 證明、`REQUIRED_PREMISES`、hidden-premise attack、Canon 風險、下游損害）→ C RANK（先搵 `VERIFIED_SUFFICIENT_BASELINE`，再比 finalist；簡單方案係 benchmark，唔係生成過濾器）。`REQUIRED_PREMISES`＝「要成立必須為真嘅嘢」，唔淨係候選自己宣稱嘅新 assumption；分類 `SOURCE_FACT`（要 anchor）／`STRICT_INFERENCE`（短推導）／`INTERPRETIVE_ASSUMPTION`／`NEW_RULE_OR_LORE`／`REQUIREMENT_CHANGE`，非 SOURCE 嘅 premise 必須喺候選記錄可見。Hidden-premise attack：「拆走所有冇寫明嘅方便，機制仲係咪完全照寫咁行？」「同來源比，邊個事件／次序／知情／狀態要唔同先發生？」（錯開到達、未建立嘅知情、畫面外事件、將既有拒絕改讀成物理不可能、系統用喺未建立嘅情境、假設有 beat 容量、靜靜刪走未鎖要求）；搵到就加入 premise；未通過唔可以標「零 assumption」。Obligation 要 `YES＋短證明`；靠 `INTERPRETIVE_ASSUMPTION` 先成立＝`CONDITIONAL`，唔係 YES；矛盾或改寫鎖定 obligation＝唔 sufficient（除非明確容許該改動）。`NEW_LORE=NO` 同「冇 assumption」係兩回事（可以 NEW_LORE=NO 同時 INTERPRETIVE=1），推薦文字要保留區別。創意價值係 first-class：比 baseline 負擔重嘅 finalist 要記 `MATERIAL_VALUE_OVER_BASELINE`（更強角色主動性／實質更強情感後果／必要外部 cost signal／有用嘅制度或世界整合／所需玩法價值／解決額外已記錄 obligation／因果 staging 明顯更乾淨），拎價值對比額外負擔，唔自動 minimise，亦唔為複雜而複雜。`DOMINATED_BY_SIMPLER_SUFFICIENT_SOLUTION` 只可喺：兩者都過 premise audit、簡單方案真係滿足所有鎖定 obligation、冇隱藏 premise 令簡單方案有未計成本、另一方案冇足夠 `MATERIAL_VALUE_OVER_BASELINE` 之後使用；可保留做 `OPTIONAL_UPGRADE`＋觸發條件。推薦非 baseline 必須寫 `WHY_NOT_SUFFICIENT_BASELINE`。reinterpret／reuse／redistribute／改下游要求／requirement reduction（＝`REQUIREMENT_CHANGE`，只有未鎖先算）／remove-reframe／`DO_NOT_ADD_NEW_LORE` 一旦真係滿足 obligation，必須入 finalist 比較。`SUPPORTING_EXECUTION_IDEAS`（選填，可為空）維持：唔計入 mechanism，唔可單獨贏，可喺候選之間移植。輸出前強制 `RECOMMENDATION_CONSISTENCY_CHECK`（失敗要修正記錄或推薦，唔係淨係 log）：候選存在於記錄；推薦引用嘅 premise 全部在 `REQUIRED_PREMISES`；寫「冇新 lore」＝冇 NEW_RULE_OR_LORE；寫「冇新 assumption」＝冇 INTERPRETIVE_ASSUMPTION／NEW_RULE_OR_LORE／未批 REQUIREMENT_CHANGE；寫「完全滿足」＝每條 obligation 都係 YES；要求作者確認就要記 WHY 同類別（`CANON_FACT_NEEDS_AUTHOR`／`DIRECTOR`／可 provisional 繼續嘅 interpretive assumption）。
+6. **Authority（vNext.2 有序，見 gap-admission §9）：** `OWNER_LOOKUP`（有已知 owner 文件可答→先查；owner 喺 bundle 外＝記 `OWNER_LOOKUP_REQUIRED`，係查檔請求，唔係問作者；每個 issue 一次查證，唔做搜尋循環）→ ROUTINE（AI 決定並記錄）→ MATERIAL＋`PROVISIONAL_DEFAULT`（有可逆、低損害、同 Canon 相容嘅暫定選擇就記：選項／點解安全／失效條件／失效後要重做咩，然後喺 run／layer 授權範圍內 provisional 繼續；唔可以只因為有幾個可行候選就問作者）→ DIRECTOR TEST（只有實質改變：已鎖角色意圖／大主題／大世界規則／結局／大 reveal 架構／不可逆下游結構／作者擁有嘅美學意義選擇，先 escalate）→ 只有 DIRECTOR 過關先問作者，而且 final output 入面出現作者問題之前必須有 `AUTHOR_ESCALATION_RECORD`（`QUESTION`｜`CLASS`＝`CANON_FACT_NEEDS_AUTHOR`／`DIRECTOR`｜`OWNER_LOOKUP_DONE`｜`SAFE_DEFAULT_TEST`｜`WHY_AUTHOR_MUST_DECIDE`｜`WHAT_BREAKS_IF_DEFERRED`）；CLASS 係 MATERIAL 就唔准問，要用 `PROVISIONAL_DEFAULT`；Director 問題唔可以夾帶 MATERIAL 嘅擺位／埋位／執行選擇，嗰部分另行 PROVISIONAL_DEFAULT：用人話、2–4 個修剪後有分別嘅選項、推薦、主要代價、最細夠用嘅一條問題，唔倒 audit。Canon 事實矛盾造成嘅 `NEEDS_AUTHOR` 同創作 Director 選擇係兩回事：真未解 CANON_FACT 矛盾可以仍然要作者，安全嘅 MATERIAL 設計選擇就唔可以。
+7b. **vNext.2.3 FINAL_OUTPUT_GUARD（執行強制，見 gap-admission §13；規則存在≠規則已執行）：** 任何 MATERIAL／DIRECTOR 答案（候選排序／方案推薦／作者問題／需假設嘅 Canon 解讀），唔論邊條 workflow 路徑（audit／story discussion／designer／holistic／targeted／full review）出，輸出前一律由 orchestrator 做 guard，唔可以繞過；ROUTINE 唔需要。要建 `STORY_OUTPUT_RECORD`（結構化紀錄，唔係靠自己印標題）並只驗同答案類型相關嘅項：(a) 每個 finalist 有 `REQUIRED_PREMISES`，assumption／lore 摘要由 premises 推導，唔准自由宣稱 `ASSUMPTIONS = NONE`（有 `INTERPRETIVE_ASSUMPTION` 就 `UNRESOLVED_ASSUMPTIONS >= 1`，即使 `NEW_LORE = NO`）；(b) MATERIAL／DIRECTOR finalist 排序前先做獨立 `PREMISE_AUDIT`（唔畀佢睇推薦；只問「有咩必須為真但未記錄」；返 MISSING_PREMISE／MISCLASSIFIED_PREMISE／LOCKED_REQUIREMENT_CONFLICT／NONE），發現先併入 candidate record 再做 baseline／比較／推薦，爭議＝`PREMISE_DISPUTED`＝當 INTERPRETIVE_ASSUMPTION；(c) `VERIFIED_SUFFICIENT_BASELINE` 只可喺 audit 之後定，全 YES 先算 fully sufficient；(d) 結構化 `RECOMMENDATION_CONSISTENCY_CHECK`（RECOMMENDED_CANDIDATE_ID／CANDIDATE_EXISTS／PREMISES_SYNCED／NEW_LORE_CLAIM_VALID／ASSUMPTION_CLAIM_VALID／OBLIGATION_CLAIM_VALID／AUTHORITY_CLAIM_VALID／RESULT）；(e) 權限紀錄用唯一固定 schema（見 gap-admission §13f；唔准別名、唔准靜靜轉換，格式錯＝FAIL）：`material_decisions[]`（每項 `decision_id`／`class=MATERIAL`／`issue`／`owner_lookup_done`／`owner_lookup_result`／`provisional_default{option,why_safe,invalidating_condition,rollback_or_rework}`／`author_question=null`），`author_escalations[]`（每項 `decision_id`／`class=DIRECTOR|CANON_FACT_NEEDS_AUTHOR`／`question`／`owner_lookup_done`／`owner_lookup_result`／`safe_default_test`／`why_author_must_decide`／`what_breaks_if_deferred`）。冇紀錄＝冇作者問題；MATERIAL 唔可以出作者問題；要查 owner 檔＝`OWNER_LOOKUP_REQUIRED`；分析文字出現 `DIRECTOR_TRIGGER`／將現行未決事項分類為 DIRECTOR，必須有對應 `author_escalations` 紀錄，或者輸出前已明確 reclassify 為非 Director 並寫理由，唔可以 DIRECTOR_TRIGGER=true 但冇作者問題；分析文字標 MATERIAL 就必須有對應 `material_decisions` 項；真 DIRECTOR／`CANON_FACT_NEEDS_AUTHOR` 必須仍然能 escalate；(f) 輸入標 `CONFIRMED_INCOMPLETE_DESIGN_PROBLEM` 時問題存在視為已知，只可喺來源直接反證時標 `PROBLEM_PREMISE_CONFLICT`。(g) `BREADTH_RECOVERY_CHECK`（gap-admission §13h）：PREMISE_AUDIT 後、排序前，若有 materially distinct 候選被 REJECT 而冇倖存者覆蓋其機制／主體／制度軸，記 `BREADTH_AXIS_LOST` 並做一次 `BACKFILL_DIVERGENCE_PASS`（1–2 個新機制，唔修舊候選，唔畀睇推薦，走完整 audit→verify→rank）；冇 quota，窄結果要記 `BREADTH_LOSS_JUSTIFIED`；排序前出 `FINAL_SOLUTION_SPACE`＋`REJECTED_BUT_DISTINCT`；被否候選留喺內部紀錄；(h) 完成真相（§13i）：subagent 講 DONE 唔等於完成，harness 只在輸出檔存在、非空、紀錄可解析、需驗證時 validator=PASS 先標完成，否則記 `TASK_OUTPUT_MISSING_OR_INVALID` 入 RUN_STATE。Flow：分析→guard→FAIL→**只做一次**針對性修補→再 guard；仍 FAIL＝記 `OUTPUT_GUARD_FAILED`，出受限答案，唔准宣稱推薦已通過驗證。實驗用結構驗證器：`validate_story_output.py`（只驗結構同內部一致，唔識搵語意上嘅隱藏假設，嗰個係 premise auditor 嘅工作）。
+7. **Change-state truthfulness：** 唔再用 `APPLIED` 一詞。狀態＝DISCOVERED／ADJUDICATED／AUTHOR_PENDING／PATCH_PLANNED／APPLIED_TO_TARGET／VERIFIED／REJECTED／SUPERSEDED；只可以報有證據支持嘅最高狀態（細節見 workspace-manager 嘅 Change Ledger）。
+
 ## Problem-Driven Starting Point（Patch 3）
 Default question is NOT "what scene should we add" — it is the flow below. Skip straight to existing behaviour (Progressive Mode, dialogue pipeline, etc.) for routine/mechanical requests; use this flow whenever the request is a MATERIAL story-design problem (see Three Design Levels).
 ```text
@@ -90,6 +101,7 @@ For every MATERIAL problem, define internally before any candidate work:
 PROBLEM STATEMENT | WHY IT MATTERS | CURRENT STATE | DESIRED STATE
 PLAYER/AUDIENCE EXPERIENCE TARGET | MANDATORY OBLIGATIONS | CONSTRAINTS
 DO-NOT-BREAK CONDITIONS | CURRENT CARRIERS | MISSING FUNCTION
+SCOPE_SCALE | DECISION_WEIGHT | ADMISSION VERDICT（見 Scope, Decision Weight and Gap Admission）
 ```
 Problem statement describes a missing function/weakness/contradiction/under-earned progression — never embed the solution in it. Bad: 「需要多一場美夜香戲」. Good: 「晴香/美夜香後期關係轉變缺一個有說服力嘅中間步」。
 
@@ -97,31 +109,33 @@ Problem statement describes a missing function/weakness/contradiction/under-earn
 Classify before substantial design work:
 - `INTENT_CLEAR` — approved evidence directly establishes meaning → continue.
 - `INTENT_INFERABLE` — no single sentence states it, but evidence converges strongly → record the derivation, continue.
-- `INTENT_UNRESOLVED` — two+ materially different meanings remain compatible with approved evidence, and choosing changes character/relationship/theme meaning, audience experience, major reveal strategy, major structure, ending meaning, or major gameplay-story architecture → this is a Director question (route through Question Funnel below; produce only enough strategic alternatives — via `story-solution-space-designer` LEVEL_3 — to explain the real trade-off, then ask).
+- `INTENT_UNRESOLVED` — two+ materially different meanings remain compatible with approved evidence, and choosing changes character/relationship/theme meaning, audience experience, major reveal strategy, major structure, ending meaning, or major gameplay-story architecture → this is a POTENTIAL Director question — the label does NOT itself authorise asking the author (vNext.2.1): it must still pass the Question Funnel, the DIRECTOR TEST and the `AUTHOR_ESCALATION_RECORD` gate, and a safe MATERIAL provisional default that resolves the immediate work means continue provisionally (route through Question Funnel below; produce only enough strategic alternatives — via `story-solution-space-designer` LEVEL_3 — to explain the real trade-off, then ask).
 
 ### Question Funnel
 Generate useful questions internally; do not surface all of them. For every meaningful uncertainty classify: `ANSWERED_BY_SOURCE`（use it, don't ask）/ `STRONGLY_INFERABLE`（state provenance, continue）/ `HEAD_WRITER_DECISION`（choose a strong default, continue）/ `PROVISIONAL_SAFE`（choose provisionally, continue）/ `DIRECTOR_DECISION`（ask）.
 
-Before asking, run the Question Value Test:
+Before asking, run `OWNER_LOOKUP` first (vNext.2): could a known owner document answer it? Yes → look it up (outside the bundle → `OWNER_LOOKUP_REQUIRED`, a lookup request not a story question; one pass per issue). Then, for a MATERIAL decision, if a reversible, low-damage, Canon-compatible `PROVISIONAL_DEFAULT` exists (record option / why safe / invalidating condition / rework if invalidated) proceed provisionally and do not ask. Then run the Question Value Test:
 ```text
 1. Does approved material already answer it?           YES → do not ask
 2. Can Head Writer judgment resolve it?                 YES → do not ask
 3. If chosen wrong, is it cheap to revise later?        YES → provisional, don't ask yet
-4. Do competing answers create materially different
-   character/theme/player experiences?                  YES → possible Director Decision
+4. Do competing answers materially change locked character intent / major theme / major world rule / ending /
+   major reveal architecture / irreversible downstream structure / an author-owned aesthetic choice, AND no safe
+   PROVISIONAL_DEFAULT exists?                          YES → possible Director Decision
+   (several distinct experiences alone, with a safe default, is NOT enough)
 5. Will delaying cause substantial downstream rework?   YES → ask EARLY (ASK_NOW), before
    expensive Beat/Scene work — don't discover an undecided Act meaning after ten Beats are written.
 ```
 A question does not reach the Director merely because several implementation options exist — this funnel is the same authority as the existing `AUTO_RESOLVABLE / AI_PROPOSED_CANDIDATE / AUTHOR_DECISION` classes below; only genuine `AUTHOR_DECISION` clears the funnel.
 
 ### Existing Carrier First — Hard Rule
-Before proposing ANY new full event, audit in order: existing beat as-is → small extension → merge with existing function → redistribute across existing beats → existing aftermath/transition → gameplay behaviour → environment/prop/UI/performance → micro-event → new full event (last option, never default). Delegate this audit plus candidate divergence to `story-solution-space-designer` for LEVEL_2/LEVEL_3 problems (see below); do it inline for routine ones.
+Before proposing ANY new full event, audit in order: existing beat as-is → small extension → merge with existing function → redistribute across existing beats → existing aftermath/transition → gameplay behaviour → environment/prop/UI/performance → micro-event → new full event (last option, never default). （此 9 級 ladder 係 SCENE_BEAT／beat-centric；WORLD_SYSTEM／ARC／MIXED 用上面 8 級 solution ladder，並且「改下游要求」同「唔加新 lore」都係正式候選。）Delegate this audit plus candidate divergence to `story-solution-space-designer` for LEVEL_2/LEVEL_3 problems (see below); do it inline for routine ones.
 
 ### Three Design Levels
-Classify every design problem; this maps onto the existing Decision classes:
+（vNext：呢三級只係 DECISION_WEIGHT＝誰有權決定，同 SCOPE_SCALE 無關；ROUTINE＝LEVEL_1、MATERIAL＝LEVEL_2、DIRECTOR＝LEVEL_3。）Classify every design problem; this maps onto the existing Decision classes:
 - **LEVEL_1 ROUTINE** (≈ `AUTO_RESOLVABLE`): simple transition, minor bridge, small behaviour, routine Beat shaping. Quick internal alternatives → Head Writer chooses → continue. No visible option dump, no Director question.
 - **LEVEL_2 MATERIAL** (≈ `AI_PROPOSED_CANDIDATE`, may promote to Level 3): relationship progression, missing arc step, reveal setup, breathing-space problem, event insertion, meaningful gameplay/story carrier, motif placement. Call `story-solution-space-designer` for 3–5 materially different candidates (existing-carrier-first tested), compare, and normally continue provisionally with the strongest. If comparison reveals the real difference is meaning/taste at Director level, promote to LEVEL_3.
-- **LEVEL_3 DIRECTOR** (≈ `AUTHOR_DECISION`): moral/theme stance, irreversible identity meaning, major relationship meaning, major reveal strategy, major Act architecture, ending meaning, major gameplay-story architecture. Call `story-solution-space-designer` for 2–4 strategic alternatives, run its Devil's Advocate pass, give a recommendation, then ask the Director using the Natural Director Question format (below).
+- **LEVEL_3 DIRECTOR** (≈ `AUTHOR_DECISION`; vNext.2.1 precedence: LEVEL_3 marks a potential author-owned decision only — it does not authorise asking; the Authority Funnel + DIRECTOR TEST + `AUTHOR_ESCALATION_RECORD` still apply, and a safe MATERIAL provisional default means continue provisionally): moral/theme stance, irreversible identity meaning, major relationship meaning, major reveal strategy, major Act architecture, ending meaning, major gameplay-story architecture. Call `story-solution-space-designer` for 2–4 strategic alternatives, run its Devil's Advocate pass, give a recommendation, then ask the Director using the Natural Director Question format (below).
 
 ### Orchestrator Synthesis
 Specialist findings (including `story-solution-space-designer` output) are evidence, not verdicts. The orchestrator personally synthesizes: what works together, what conflicts, what is redundant, what is missing, the key trade-off, the recommended solution, and why. Forbidden reasoning: "character agent = PASS, theme agent = PASS, gameplay agent = PASS, therefore ready" — the orchestrator must inspect the actual candidate/artifact itself.
@@ -156,14 +170,21 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - 發送前自測：作者冷讀呢段，唔使開任何檔案、唔使識任何編號，睇唔睇得明「發生咩、點解、代價、放棄咗咩」？唔得就重寫。
 - 本規則同下面 Candidates-First Rule 疊加：Candidates-First 規定「問作者之前要先備候選」；本規則規定「任何建議都要人話詳情」。
 
-#### Angle Basis Rule — 所有建議都要以全部角度為依據（2026-10-02 新增，作者要求；範圍同上面 Plain-Language Rule 一樣）
+#### Angle Basis Rule — 角度係覆蓋輔助，唔係每個建議嘅必經關卡（2026-10-02 新增；vNext EXPERIMENT 改咗預設模式，見下）
+**vNext 模式（覆蓋下面第 1、4 點嘅「全掃」預設）：** 預設流程＝`problem → relevant lenses → synthesis`。
+- `TARGETED`（預設，一般工作）：由問題出發揀相關 lens／角度，每個揀咗嘅都要有證據（檔案＋行）同一次攻擊；唔相關嘅唔使逐個剔。揀 lens 嘅理由要講（呢個問題點解牽涉呢幾個角度）。
+- `FULL`（28 角度全掃）只限：(1) 明確整體審計；(2) milestone／最終審核（例如 Layer Review Packet、Beat Layer Completeness Gate）；(3) 高風險跨領域 artifact；(4) 作者明確要求全面覆蓋（含「完整考慮」）；(5) TARGETED 之後仍有實質漏 lens 風險。
+- `TARGETED` 要簡短記錄：揀咗嘅 lens family＋一句相關理由；跳過嘅 family（family 層級）；點解漏 lens 風險低。
+- **`AUTHOR_POLICY_DECISION_PENDING`：** 呢個係 vNext.2 實驗內嘅政策，唔係正式 project policy；正式 `CLAUDE.md` 未改，仍要求全角度，採用要作者決定。
+- Registry 係覆蓋輔助，永遠唔可以講「所有角度都過咗，所以 ready」。Registry 角色改變，**唔加新角度 ID**。
+- 以下第 2、3、5–8 點照舊適用於被揀嘅角度；第 1、4 點嘅「全掃」只喺 `FULL` 模式適用。
 **起因：** 我曾經交一張「19 個角度全部相關」嘅表，但格入面多數係套話、冇人驗證，而且標咗「canon 連貫」相關之後我仍然憑印象講錯 canon。剔號唔等於做過。作者要求：每個建議都要真係以所有角度為依據（如有觸及）。
 **清單＝Master Angle Registry**：`.claude/story_system/angle-system.md` 嘅 Pool 1（1–12）＋ Pool 2（13–19）＋ Pool 3（20–28：角色知情／觀眾知情／因果鏈／玩法與控制權／導演調度／節奏／功能重複／製作量／跨幕影響）。清單唔保證窮盡（見第 6 點）。
-1. **全掃**：每個建議提出之前，對 Registry 每個角度判斷：`AFFECTED`（講具體影響邊個 beat／角色／幕）／`UNAFFECTED`（理由要引呢個建議嘅內容講點解唔觸及；「冇影響」「合理」「符合 canon」唔算理由）／`NEEDS_AUTHOR`。
+1. **掃描（FULL 模式＝全掃；TARGETED 模式＝只掃揀咗嘅 lens）**：每個建議提出之前，對所掃範圍每個角度判斷：`AFFECTED`（講具體影響邊個 beat／角色／幕）／`UNAFFECTED`（理由要引呢個建議嘅內容講點解唔觸及；「冇影響」「合理」「符合 canon」唔算理由）／`NEEDS_AUTHOR`。
 2. **證據同攻擊**：每格要有可核對依據（檔案＋行，或 Beat 表原文）；並且要「攻擊」一次——問「呢個建議最可能喺呢個角度點樣失敗？」——攻唔入先算 clean。冇依據同攻擊嘅剔號＝冇做，唔可以計入覆蓋。涉及 canon 事實嘅格要現場讀原文（唔憑印象）。
 3. **一組候選用同一套角度比較**：候選之間「真正分別」要由角度結果嚟（例：甲喺「角色知情」同「跨幕影響」輸，乙喺「製作量」輸），唔係憑感覺；某候選冇掃某角度就唔可以同掃過嘅比。
 4. **比例（落檔深度，唔係跳過角度）：**
-   - 細（細、易改、淨係一個 beat 內嘅處理）：全掃，落檔用緊湊格——列 AFFECTED 角度＋每個一句；其餘用一句總理由，要提呢個建議嘅範圍；攻擊只需對 AFFECTED 角度寫出。
+   - 細（細、易改、淨係一個 beat 內嘅處理）：TARGETED 揀 lens（FULL 模式先全掃），落檔用緊湊格——列 AFFECTED 角度＋每個一句；其餘用一句總理由，要提呢個建議嘅範圍；攻擊只需對 AFFECTED 角度寫出。
    - 中（會改 beat 內容／知情／調性／跨 beat，或係要作者揀嘅候選）：落檔每個角度一行（核對咗咩／攻擊／結論）。
    - 大（Director 級決定、Layer Review Packet、推翻舊決定）：中＋獨立盲審（見 Beat Layer Completeness Gate 第 7 項）。
 5. **對作者講嘅時候唔倒晒 28 個角度。** 講「我過晒所有角度，真正影響揀法嘅係……」，每個用人話（遵 Plain-Language Rule：發生咩／點解／代價／放棄咗咩／同另一做法嘅分別），其餘一句講點解唔觸及；完整表落檔並講明位置；作者問先攤全表。
@@ -182,7 +203,7 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - 候選嘅事實描述（例如「呢個屬 canon 邊個階段」）寫之前要對返 canon 原文核實；唔可以憑印象歸類。發現自己之前講錯，直接更正並講明點解。
 - 唔用編號 Q1/A/B/C，用候選嘅自然名稱（例：「靠對話帶過」「一句旁白」「完全唔交代」）。
 - 標明我推薦邊個同點解（同問題同一抽象層次）；容許作者揀、混合、或自己提第四個（No False Binary）。
-- 候選要通過 Existing Carrier First／上游 canon 檢查，同一套 Master Angle Registry 全角度掃描（Angle Basis Rule）先可以呈上；只有一個合理答案就唔係 Director 問題，直接決定並記錄。
+- 候選要通過 Existing Carrier First／上游 canon 檢查，按 Angle Basis Rule 模式（預設 TARGETED lens；FULL 只限指定情況）掃描先可以呈上；只有一個合理答案就唔係 Director 問題，直接決定並記錄。
 - 唔可以將「作者其實可以自己想」嘅創作工作外判畀作者；開放式問題只限候選真係窮盡唔到、需要作者提供全新資訊（例如 canon 未寫嘅事實）。
 - 可以用 AskUserQuestion 做選擇介面，但選項文字仍然要係白話候選，唔係內部編號。
 
@@ -321,17 +342,17 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 
 #### Beat Layer Completeness Gate（2026-10-02 新增，作者要求完整試 skill）
 Beat 層（及之後每一層）出 Layer Review Packet 之前，下列八項**全部**要有落檔證據，唔可以只靠 agent 質疑輪（rule 9）代替：
-1. **全角度逐段掃描**（Master Angle Registry 1–28；見 Angle Basis Rule）——按 Sequence／Beat 群組落表，每格要有「核對咗咩＋攻擊＋結論」；NOT_APPLICABLE 要引 beat 內容講理由，並寫入 `QUESTION_MATRIX.md`（`angle-system.md` 要求）；套話格＝冇做。唔係淨係 chat 提過。
+1. **全角度逐段掃描**（FULL 模式＝高風險 artifact review 觸發；Master Angle Registry 1–28；見 Angle Basis Rule）——按 Sequence／Beat 群組落表，每格要有「核對咗咩＋攻擊＋結論」；NOT_APPLICABLE 要引 beat 內容講理由，並寫入 `QUESTION_MATRIX.md`（`angle-system.md` 要求）；套話格＝冇做。唔係淨係 chat 提過。
 2. **知情狀態表**：每個 beat 逐格列「角色 A／B／C 知／唔知／隱瞞」＋「觀眾知／唔知」，包括入場狀態；觀眾比角色知得多／少要明講。
 3. **Gate A／B／C**：已有 tracker 行就引用同標缺口（BK）；Gate C 要逐重要事件問「衝突載體係咪淨係對白」；DIALOGUE_ONLY 要喺 Beat 層補行為載體。
 4. **Obligation pass 對 Hard Constraints／Knowledge Dependency／Considerations**：先標控制總表係咪 STALE／空；唔可以靜靜略過。Reveal 層級上限（例：R-3 層 1）要對每個 beat 嘅「異象強度」核。
 5. **Coping／Ideology 對撞檢查**：每個「角色講出／做出 X」嘅 beat，核 X 係咪撞該角色 coping pattern（例：對自己嘅痛全套防禦嘅人唔會主動講驚）。
 6. **質疑輪 agent 要覆蓋角度掃描**：rule 9 嘅 5 個 agent 之外，orchestrator 自己要做 1–3 項，並將發現回寫 ledger 並更新候選嘅推薦（新證據可以推翻自己之前嘅推薦，要直接講明點解改）。
-7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前，另起 ≥5 個 agent 按角度分組逐格攻擊（建議分組：角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），外加 1 個「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度），再加 1 個「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件：agent 只收被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；每格要有 evidence＋attack，無效格作廢。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
+7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前，另起 ≥5 個 agent 按角度分組逐格攻擊（建議分組：角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），外加 1 個「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度），再加 1 個「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件（vNext：用語係 `SCOPED_INPUT_WITH_EXPOSURE_AUDIT`，唔係「硬隔離」——除非 harness 真係強制，否則唔可以聲稱 agent 睇唔到禁讀內容）：orchestrator 準備 scoped read-only 輸入包，agent 只喺包內搜；包＝被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；要保留 tool-access／exposure 記錄，agent 讀到禁讀內容要申報，orchestrator 記低接觸時間同類型（降低獨立性信心，唔自動令發現作廢）；每格要有 evidence＋attack，無效格作廢（正式多格審核用 machine-readable cell，見 blind-angle-audit-protocol §4）。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
 8. **覆蓋摘要（用語誠實）**：Layer Review Packet 必附：過咗幾多角度、盲審格數同發現數（按嚴重度）、已處理／未處理、仍然薄嘅格數、Registry 缺口、重掃（STALE）狀態。唔可以用「完整考慮晒」一句帶過（見 Angle Basis Rule 第 8 點）。
 唔通過任何一項（1–8），Layer Review Packet 標 `INCOMPLETE_SCAN`，唔好叫作者批。
 
-### Decision classes（C3 resolved 2026-09-10）
+### Decision classes（C3 resolved 2026-09-10；vNext：AUTO_RESOLVABLE＝ROUTINE、AI_PROPOSED_CANDIDATE＝MATERIAL、AUTHOR_DECISION＝DIRECTOR，純 decision-weight，同 SCOPE_SCALE 無關）
 - **AUTO_RESOLVABLE**（Claude 自己做，唔問）：回收證據；明確 supersession 揀新源；改 stale label；認 sequence 邊界；認缺失 causal bridge；提小 transition；判資訊可唔可以入既有 beat；避免重複 exposition；揀低風險 carrier;拆過大材料;保留既有 detailed reference;routine 結構診斷;明顯 setup/payoff 維護。
 - **AI_PROPOSED_CANDIDATE**（Claude 自己設計首選方案，安全就 provisional 繼續，唔要求作者由零諗）：加小連接 beat；擴既有 scene；加 aftermath；加 breathing room；加環境資訊 carrier；搬非 canon 呈現細節；提小關係 bridge。
 - **AUTHOR_DECISION**（只有呢啲先中斷）：道德/主題立場；不可逆角色身份；重大關係意義；結局意義；重大 reveal 策略；重大 Act 重構；兩個都好但不相容嘅方向；兩個都 active 而不能調和嘅高權威真相；改變戲劇骨架嘅 gameplay/story 決定。
@@ -449,7 +470,7 @@ The orchestrator must:
 
 Default depth is `CONNECTED`. Use `SYSTEMIC` for whole-work, IP-level, cross-discipline or comprehensive review; use `FOCUSED` only when the author asks to stay tightly local.
 
-Professional reframing must never replace or evade the original question. The response should clearly separate:
+Professional reframing must never replace or evade the original question. Side findings must not silently replace the requested problem: for a `WORLD_SYSTEM` request, scene/arc observations are logged as side findings and lead the answer only if they expose a genuine root dependency (say so). The response should clearly separate:
 - Original Question
 - Professional Reframe
 - Current Best Answer
@@ -620,6 +641,7 @@ Progressive Mode 落，呢條規則 = Continue-by-Default（見上）：完成�
 
 ## Failure Conditions
 以下係失敗：
+- （vNext）未過 Gap Admission Gate 就將 owner doc 已答／刻意留白／可兼容解讀／無下游需要嘅嘢叫做 gap 或「缺 canon」；為有嘢報而造 gap；將 `LEVEL_n` 當 World／Arc／Scene scale 用；WORLD_SYSTEM 任務由單場／單 beat 發現主導答案；以「全部角度都過咗」宣稱 ready；用 solution-space-designer 證明 gap 存在；將只喺 patch list／建議入面嘅改動講成已改入（`PATCH_PLANNED` 當 `APPLIED_TO_TARGET`）；聲稱盲審硬隔離而 harness 冇強制。
 - 由下游現成材料（Scene Reference／舊 Beat 表）直接當上層產物，推導事後先補；元素冇 ledger 來源；作者問「點解」卻用候選比較代替推導鏈；作者改上游後下游冇標失效（見 Derivation Trace Discipline）。
 - 宏觀檢查只輸出 checklist、分數或 specialist 報告拼貼，冇深化原問題、根因、修改方案同驗證方法。
 - 未掃本地文件就問作者，或者將文件已有答案嘅問題推返畀作者。

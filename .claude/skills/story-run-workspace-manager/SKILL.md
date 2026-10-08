@@ -7,6 +7,13 @@ description: Creates and maintains resumable temporary production files for long
 Task:
 $ARGUMENTS
 
+## Resumable Run Rule (vNext.2 P-1)
+When a job contains several independent cases, multiple conditions, or large source bundles, run it as: `persistent workspace → bounded phase → checkpoint → fresh context`.
+- At each checkpoint update: RUN_STATE current phase | completed work | unresolved | next action | the phase SUMMARY.
+- vNext.2.3 completion truth: a step is complete only if its output file exists, is non-empty, parses, and (when validation is required) the validator says PASS; otherwise record `TASK_OUTPUT_MISSING_OR_INVALID` here. A subagent saying DONE is not evidence.
+- Raw outputs stay in files. Parent / subagent handback stays short (verdict + file path).
+- Never require one model context to finish a large audit or evaluation.
+
 ## Trigger
 STANDARD / MAJOR 任務必須使用；QUICK 任務若讀取超過 3 個大文件或預計超過 8 個 skill calls 亦要使用。
 
@@ -27,6 +34,7 @@ STANDARD / MAJOR 任務必須使用；QUICK 任務若讀取超過 3 個大文件
 - `09_review_findings.md`
 - `10_run_manifest.md`
 - `11_candidate_board.md`（見下 Candidate Board）
+- `12_change_ledger.md`（vNext；見下 Change Ledger）
 
 ## Manifest
 記錄：run id、user request、target artifact、status、files read、skill call sequence、artifacts、open dependencies、next resume action、`CURRENT_LAYER`/`LAYER_STATUS`/`DIRECTOR_REVIEW`/`TRANSITION_ALLOWED`/`NEXT_LAYER`（見下 Director Layer Gate State）。
@@ -40,6 +48,18 @@ Status 值：`GENERATED / SHORTLIST / SELECTED / SELECTED_SUPPORT / COMBINED / P
 - 任何 `REJECTED` 候選必須有 `REJECTED_REASON`。
 - 任何 `PARKED` 候選必須有 `PARKED_REASON` + `RECONSIDER_WHEN`。
 - Resume（`story-resume`）讀呢個檔嗰陣，`REJECTED`/`PARKED` 候選唔可以喺下一輪被靜靜重新提出，除非 `RECONSIDER_WHEN` 條件已成立。
+
+## Change Ledger（vNext EXPERIMENT；規則：`.claude/story_system/gap-admission-and-scope.md` §10）
+工作區要分清六樣嘢，唔可以混喺 candidate board 一個 Status 欄：`candidate issue`／`adjudicated issue`（admission verdict）／`author decision`／`planned patch`／`actual target modification`／`verified resolution`。Candidate Board 嘅 `SELECTED` 唔等於改咗任何檔。
+`12_change_ledger.md` 每行：
+```text
+Item | Source (exact file+anchor/version) | State | Admission verdict | Target path | Anchor/version | Before evidence | Actual diff / quoted after | Verification (vs ORIGINAL problem) | Next action | Unresolved author decision
+```
+State 值：`DISCOVERED / ADJUDICATED / AUTHOR_PENDING / PATCH_PLANNED / APPLIED_TO_TARGET / VERIFIED / REJECTED / SUPERSEDED`。
+- `PATCH_PLANNED`＝只存在於 board／建議／patch list／proposed diff；報告唔可以寫「已改入」「applied」。
+- `APPLIED_TO_TARGET` 必須有 target path、anchor/version、before evidence、實際 diff；缺任何一項就停喺 `PATCH_PLANNED`。
+- `VERIFIED` 必須喺改動後對**原本個問題**重新驗證（唔係淨係確認文字改咗）。
+- Checkpoint 必須帶：exact source/version、next action、未解決嘅作者決定、實際 target 改動（唔係計劃）。呢個 ledger 係 run 記錄，唔係另一個 Canon database；唔寫 durable 檔（仍然由 `story-writeback` + RUN_MODE 擋）。
 
 ## Director Layer Gate State（Patch 3）
 Manifest 必須追蹤：

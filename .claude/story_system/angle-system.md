@@ -1,10 +1,13 @@
 # Story Question Angle System
 
-任何 reconstruction-level / blocked decision / outline / reveal / relationship / theme / tone / section 問題，都要先掃描以下 angles，再決定邊啲真係需要問作者。
+## vNext role note（EXPERIMENT）
+呢份 Registry 係**覆蓋輔助**，唔係每個問題嘅必經關卡，亦唔可以用「全部角度都過咗，所以 ready」做結論。預設流程：`problem → relevant lenses → synthesis`（`TARGETED`：由問題揀相關 lens，每個揀咗嘅要有證據同攻擊）。`FULL`（下面 28 個全掃）只限：(1) 明確整體審計；(2) milestone／最終審核（例如 Layer Review Packet）；(3) 高風險跨領域 artifact；(4) 作者明確要求全面覆蓋；(5) TARGETED 之後仍有實質漏 lens 風險。`TARGETED` 簡短記錄：揀咗嘅 lens family＋一句相關理由、跳過嘅 family（family 層級）、點解漏 lens 風險低。**`AUTHOR_POLICY_DECISION_PENDING`：vNext.2 實驗政策，正式 `CLAUDE.md` 未改。**WORLD_SYSTEM 發現用依賴／介面搜索，唔用呢份清單（見 `gap-admission-and-scope.md` §3）。**唔加新角度 ID。** 下面所有「每次全掃／必須掃描／一律全掃」只喺 `FULL` 模式適用；`TARGETED` 模式下只適用於已揀嘅 lens。
 
-## Pool 1 — Baseline Mandatory Angle Pool（每次全掃，angles 1–12）
+任何 reconstruction-level / blocked decision / outline / reveal / relationship / theme / tone / section 問題，都要先由問題揀相關 angles（`FULL` 模式則全部），再決定邊啲真係需要問作者。
 
-每次遇到任何 topic，都必須掃描以下 12 個角度。
+## Pool 1 — Baseline Mandatory Angle Pool（`FULL` 模式每次全掃，angles 1–12）
+
+`FULL` 模式下，每次遇到任何 topic，都必須掃描以下 12 個角度。
 
 1. **Character Growth**
    - 呢個選擇會點改角色內在轉變、缺陷、傷口、態度？
@@ -35,7 +38,7 @@
 
 ## Pool 2 — Extended Mandatory Relevance Check Pool（angles 13–18）
 
-**唔係 opt-in。每次遇到任何 topic，都必須先判斷 13–18 有冇 relevance。**
+**`FULL` 模式唔係 opt-in：每次遇到任何 topic，都必須先判斷 13–18 有冇 relevance。（`TARGETED` 模式只喺已揀嘅 lens 入面判斷。）**
 
 規則：
 - 唔係全部都要展開
@@ -81,7 +84,7 @@
 
 ## Pool 3 — Production & State Angles（angles 20–28；2026-10-02 新增，作者要求「所有角度」）
 
-來源：`story-solution-space-designer` 嘅 cross-lens（玩法、導演、節奏、功能重複、製作量、跨幕）＋作者明確提過嘅「角色知情、觀眾知情」＋ Consequence-Driven Progression 嘅因果鏈。Pool 1／2 冇獨立列出，之前只喺個別 skill 入面零散出現。同 Pool 2 一樣**必須做 relevance check**；Beat／Sequence 層同任何建議一律要全掃。
+來源：`story-solution-space-designer` 嘅 cross-lens（玩法、導演、節奏、功能重複、製作量、跨幕）＋作者明確提過嘅「角色知情、觀眾知情」＋ Consequence-Driven Progression 嘅因果鏈。Pool 1／2 冇獨立列出，之前只喺個別 skill 入面零散出現。同 Pool 2 一樣，`FULL` 模式**必須做 relevance check**；Beat／Sequence 層嘅高風險 review 用 `FULL`，其他建議由問題揀 lens（見上面 vNext role note）。
 
 20. **Character Knowledge State（角色知情）**：每個 beat，每個角色知／唔知／隱瞞咩；入場同出場狀態；有冇角色對未收到嘅資訊作出反應。
 21. **Audience Knowledge State（觀眾知情）**：每個 beat 觀眾知道咩、比角色知得多／少；同作者想觀眾得到嘅讀法有冇出入。（同 3、10 相關但獨立：3＝何時遮／揭，10＝觀眾體驗，21＝逐 beat 嘅知情狀態表。）
@@ -99,9 +102,10 @@
 
 ## How to use
 
-**Baseline Pool (1–12)：** 每次全掃，逐一標記。
-**Extended Pool (13–19)：** 每次先做 relevance check，RELEVANT 者才展開。
-**Production & State Pool (20–28)：** 每次先做 relevance check；Beat／Sequence 層同任何建議（見 SKILL.md「Angle Basis Rule」）一律全掃。
+**模式：** `TARGETED`（預設）＝由問題揀相關 lens，每個揀咗嘅有證據＋攻擊，講明點解揀呢啲；`FULL` 只限整體審視／全面覆蓋要求／高風險 artifact review／benchmark 或 deep-review。
+**Baseline Pool (1–12)：** `FULL` 模式每次全掃，逐一標記。
+**Extended Pool (13–19)：** `FULL` 模式每次先做 relevance check，RELEVANT 者才展開。
+**Production & State Pool (20–28)：** `FULL` 模式每次先做 relevance check；Beat Layer Completeness Gate（SKILL.md「Angle Basis Rule」）屬高風險 artifact review，用 `FULL`。
 
 **證據標準（所有角度適用）：** 每個標記要有核對依據（檔案＋行／Beat 表原文）同一次「攻擊」（呢個設計最可能喺呢個角度點失敗？）；冇依據同攻擊嘅 RELEVANT／NOT_RELEVANT 剔號唔算做過。NOT_RELEVANT 要引設計內容講理由。
 

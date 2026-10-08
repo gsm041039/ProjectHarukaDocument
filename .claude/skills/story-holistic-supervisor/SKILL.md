@@ -89,6 +89,8 @@ Never overwrite the author's question. Maintain:
 Do not pretend the reframe was the author's original wording.
 Do not use an adjacent issue to avoid answering the original question.
 
+**vNext scale control** (rules: `.claude/story_system/gap-admission-and-scope.md`): establish `SCOPE_SCALE` of the original question before scanning (WORLD_SYSTEM / ARC_STRUCTURE / SCENE_BEAT / MIXED). Side findings must not silently replace the requested problem. For a `WORLD_SYSTEM` request, scene/arc observations are logged under ADJACENT FINDINGS and may lead the answer only if they expose a genuine root dependency (say so explicitly). Every claimed gap passes the Gap Admission Gate (owner check → status check → compatible-reading attack → necessity → scale) before it counts as a finding; `DOCUMENT_SYNC`, `RESOLVED_BY_OWNER_DOC`, `COMPATIBLE_READING`, `INTENTIONAL_OPENNESS`, `OPTIONAL_WORLD_COMPLETION` go in the answer as non-gaps with the anchor, not as defects. A root cause is promoted only from ≥3 independent concrete gaps in different areas that need the same higher-level decision; otherwise name the smallest sufficient missing link.
+
 ## 2. Classify the Question
 Determine whether the author's prompt is mainly asking about:
 - symptom;
@@ -629,6 +631,7 @@ Status:
 The review fails if it:
 - answers only the surface wording of the question;
 - silently replaces the author's question with another one;
+- (vNext) lets side findings or a different scale take over the answer without saying so, or reports a gap that fails the Gap Admission Gate;
 - asks questions before searching local files;
 - asks the author to decide something already settled in Canon or Decision Records;
 - calls every specialist without relevance;

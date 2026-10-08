@@ -81,7 +81,12 @@ Script（對白 / 鏡頭 / timing）
 - 每條問題背後必須有 12角度分析支撐（RELEVANT/NOT_RELEVANT），但唔需要將呢個分析攤晒出嚟畀作者睇，除非佢要求
 - **對話入面唔用內部追蹤編號**（QQ-xxx、CDL-xxx、E-xx、M0xx 等）——呢啲編號只可以喺寫入 state files（QUESTION_QUEUE.md / CANON_DECISION_LOG.md 等）時使用，同作者對話時一律用白話直接講返件事本身係咩，唔可以假設作者記得個編號代表咩（2026-07-06 確認，比之前「白話文描述問題」規則更嚴格：唔止解釋，係根本唔好提編號）
 - **任何建議（候選、推薦、下一步提議、我自己揀嘅預設、要作者否決嘅清單）都要用人話講清：會發生咩、點解咁建議、要付咩代價、放棄咗咩、同另一個做法真正嘅分別**（作者 2026-10-02 要求；細而易改嘅預設可以簡短，但「點解」一定要有）。唔可以只畀標籤、編號或一句得失。詳見 `.claude/skills/story-orchestrator/SKILL.md`「Plain-Language Explanation Rule」
-- **每個建議都要以 Master Angle Registry 全部角度為依據（如有觸及），每格要有核對證據同攻擊，唔可以淨係剔號；講畀作者聽時只講真正影響揀法嘅角度；除非獨立盲審完成，否則唔可以話「完整考慮晒」**（作者 2026-10-02 要求）。詳見 SKILL.md「Angle Basis Rule」同 `.claude/story_system/blind-angle-audit-protocol.md`
+- **角度政策（作者 2026-10-08 批准，取代 2026-10-02 「每個建議都要全角度」）：預設 TARGETED，特定情況先 FULL。**
+  - **TARGETED（預設）**：日常故事工作按問題揀相關嘅 lens families；簡短記錄揀咗邊啲 family、點解相關、（有用時）略過邊啲 family 以及點解缺咗風險低。TARGETED 下**唔可以**話「所有角度都考慮晒」或「完整考慮」。講畀作者聽時只講真正影響揀法嘅角度。
+  - **FULL（用完整 Master Angle Registry，每格要核對證據同攻擊，唔可以淨係剔號）只限**：(1) 明確整體審查（holistic audit）；(2) 里程碑／最終審查；(3) 高風險跨學科成品；(4) 作者明確要求全面覆蓋；(5) TARGETED 之後仍有實質缺漏 lens 風險。
+  - 「完整考慮」嘅宣稱仍然需要獨立盲審完成先可以講；Registry 唔刪，FULL 審查標準唔降。詳見 SKILL.md「Angle Basis Rule」同 `.claude/story_system/blind-angle-audit-protocol.md`
+  - 兩條軸要分開：`SCOPE_SCALE`（WORLD_SYSTEM／ARC_STRUCTURE／SCENE_BEAT／MIXED／UNRESOLVED）同 `DECISION_WEIGHT`（ROUTINE／MATERIAL／DIRECTOR）；LEVEL_1/2/3 只係 decision-weight 概念，唔係 World/Arc/Scene。
+  - 輸出驗證：story 設計輸出以 `.claude/story_system/validate_story_output.py` 同檔案存在作完成準則，唔信 subagent 自報 DONE。
 - 唔得問 filler 問題
 
 @.claude/story_system/angle-system.md

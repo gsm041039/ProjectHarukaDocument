@@ -1,5 +1,7 @@
 # PROJECT_STATUS
 
+- **2026-10-08 Skill 版本：story skills vNext.2.3 已正式 promote**（作者批准；TARGETED 預設／FULL 觸發角度政策已入 CLAUDE.md）。紀錄＋backlog：`canon/_working/PROMOTION_RECORD_vNext_2_3.md`。
+
 ## 🧭 方向重設（2026-09-30）— demo 範圍內由粗到幼重新討論（方法試驗）
 - **2026-10-02 深夜更新**：盲審完成並 Diff（ledger §15）。Beat v3→v3.1（Cost Signal 補全、教學階梯、B7b／B9／B10 重排、糖量代價線、美夜子圈邊微反應、撤回 N2 擋風）已記為 HW／PROVISIONAL。BLOCKS 3 條：2 條已修，牙鏈時序待作者。待作者：①牙形式／範圍（Brief Act I 甜品掉牙 vs canon md Act II 縫牙）②連結「強制入侵」性質 demo 版處理；另 Master Angle Registry 建議加 4 個角度（唔靜靜加）。Beat 層 Director review＝PENDING；Stage 6 暫停。覆蓋誠實限制：角度 1–19 半盲、Gate B/C 部分只核一半，唔可講「完整考慮晒」。
 - **2026-10-02 晚更新**：Beat v3（range＝SEQ2＋SEQ3 含基地戲三人版＋真掉牙尾鉤、操知而收埋）內部完整但**角度覆蓋未獲證明**——作者質疑後確認先前 19 角度表係自寫單次掃描；已派獨立盲審（6 agent，`demo_pilot/blind_audit/`，結果待收）。制度：Master Angle Registry＝28 角度（angle-system.md Pool 3 新增 20–28）；每個建議須以全部角度為依據＋證據＋攻擊；Beat 層完整性 gate 變八項（含獨立盲審）；通用協議 `.claude/story_system/blind-angle-audit-protocol.md`。Beat 層批核 PENDING（只有作者可批）；Stage 6 暫停。

@@ -2868,3 +2868,6 @@
 - [x] 發現：盲度 B–G 有路徑暴露、G 有內容暴露；格數 §15.1「約 357」冇存推導、重算 390（B 28 vs 57/60）；無效格欄位基準 0、關鍵字基準 5（4 假陽性、D218 弱）；BLOCKS 3 條核實；**冇獨立 Beat v3.1 表**，APPLIED＝只入 patch 清單；輸入包係 §8＋§14.2 合成，故逐行比對 inconclusive。
 - [x] §15.1 及所有舊檔原狀保留；≤3 項 skill 修正建議喺 09（未改 skill，待作者）。
 - 未做：合併問題（~32）重數、逐 beat 覆蓋、輸入包語義逐行比對。
+
+## 2026-10-08 skill promotion
+- **2026-10-08 Skill 版本：story skills vNext.2.3 已正式 promote**（作者批准；TARGETED 預設／FULL 觸發角度政策已入 CLAUDE.md）。紀錄＋backlog：`canon/_working/PROMOTION_RECORD_vNext_2_3.md`。
