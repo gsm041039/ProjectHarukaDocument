@@ -17,6 +17,11 @@ Checks (maps to Phase 2 spec):
  8. Diff-only delivery detection: no "## BEAT:" blocks at all => whole file flagged INCOMPLETE_BEAT_LAYER
  9. source_obligation_trace field present and non-empty
 10. Declared DELIVERY_STATUS (if present) matches the structural verdict
+11. ANGLES_SELECTED (if declared) matches the actual count of ANGLE blocks (2026-10-09)
+
+Not checked here (semantic, needs a human/orchestrator per the skill's Delivery Gate): whether
+DESIGN_DECISION_RECORD reflects a real alternatives comparison, whether the core turn's causal
+chain actually holds, or whether a beat problem was wrongly pushed to Scene layer.
 """
 import re
 import sys
@@ -101,6 +106,14 @@ def validate_beat(beat_id, body):
     rationale_body = body[rationale_start:]
     angles = split_angles(rationale_body)
     exception_m = re.search(r"^DEPTH_EXCEPTION_NEEDS_REVIEW:\s*(.*)$", rationale_body, re.M)
+
+    # claimed vs actual angle count (2026-10-09)
+    claimed_m = re.search(r"^ANGLES_SELECTED:\s*(\d+)", rationale_body, re.M)
+    if claimed_m:
+        claimed_n = int(claimed_m.group(1))
+        if claimed_n != len(angles):
+            blocking.append(f"{beat_id}: ANGLES_SELECTED claims {claimed_n} but {len(angles)} "
+                             f"ANGLE block(s) found")
 
     if len(angles) == 0:
         blocking.append(f"{beat_id}: PER_BEAT_DESIGN_RATIONALE has zero ANGLE blocks")

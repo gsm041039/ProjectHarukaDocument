@@ -162,7 +162,10 @@ Tier 1（current durable state + current canon/CDL + 目標 Act Outline/Beat She
 
 **少於 10 個相關角度：** 唔可以為湊數虛構分析。標 `DEPTH_EXCEPTION_NEEDS_REVIEW` 並寫理由（例：純過場銜接 beat，大部分角度 NOT_RELEVANT）；未處理呢個標記前，呢個 beat 唔可以當符合標準。
 
-每個 beat 記錄：Beat ID｜Selected angles（連理由）｜每個角度嘅五項分析｜由分析引出嘅設計決定｜未解風險。
+**唔可以預設分析結果一定係 KEEP（2026-10-09 作者要求）：** 每個角度嘅五項分析，要真正做到至少一樣：撐現有設計、挑戰現有設計、發現新機會、或者指出具體取捨——唔可以十幾個角度逐個換個講法去重複同一個結論（「呢個設計好，因為……」講十二次）。寫完全部角度之後，自己check一次：如果刪走任何三個角度嘅內容，結論會唔會完全冇變？如果會，即係嗰三個角度冇真正做過分析，要重寫或者換其他角度。
+**篇幅控制：** 唔好因為加咗 Creative Challenge Gate／Design Sufficiency Check（見下）就令每個 beat 無限加長。比較過嘅候選方案、取捨結果，集中寫入下面嘅 `DESIGN_DECISION_RECORD`（beat 層級一份，唔係逐角度重複一次）；個別角度嘅五項分析可以引用 `DESIGN_DECISION_RECORD` 嘅結論，唔使重新展開整個比較過程。
+
+每個 beat 記錄：Beat ID｜Selected angles（連理由）｜每個角度嘅五項分析｜由分析引出嘅設計決定｜未解風險｜`DESIGN_DECISION_RECORD`（見 E）。
 
 ### C. Design 同 Audit 分開（唔可以互代）
 - `BEAT_DESIGN_RATIONALE`（呢個 mode 做嘅）＝解釋設計決策、探索過嘅方案、分析取捨——**正面建構**。
@@ -172,10 +175,45 @@ Tier 1（current durable state + current canon/CDL + 目標 Act Outline/Beat She
 ### D. Angle Coverage（逐 beat，唔係逐組）
 `TARGETED` 仍然可以用（唔使逢 beat 都掃 28 個角度），但 `BEAT_LAYER_DEEP_DESIGN` 下**揀角度嘅單位係 beat，唔係 beat group**。16 個 beat 要有 16 份獨立嘅 `PER_BEAT_DESIGN_RATIONALE`，唔可以用 4 組嘅角度掃描結果去代表 16 個 beat 各自完成。
 
+### E. Creative Challenge Gate（2026-10-09 新增；MATERIAL 決策先要過）
+寫呢個 beat 嘅設計之前（或者 revise 嗰刻），先答五條：
+1. 呢個 beat 真正不可取代嘅戲劇功能係咩？
+2. 現有行動係咪足以產生宣稱嘅角色轉變／關係變化／劇情後果（唔係淨係「應該會」）？
+3. 有冇靠角色設定標籤（例如「操係形式主義」）直接跳到結論，中間冇真正嘅因果步驟？
+4. 刪除、合併，或者換一個表現方式，效果會唔會更好？
+5. 現有方案有冇被過早當成唯一解（即係冇認真考慮過第二個機制上真正唔同嘅做法）？
+
+**合理不等於充分；符合 canon 不等於最佳設計**——一個角度格入面答「符合 CDL-xxx」唔等於呢個設計已經係最好嗰個。
+
+**MATERIAL 級創作決策（會改變角色轉變、關係、信息揭露、主題交鋒嘅實質方式）、而且真係有實質疑問存在時**：至少比較兩種**機制上真正唔同**嘅處理方式（唔係同一個做法換皮），寫入 `DESIGN_DECISION_RECORD`。**ROUTINE 決策（細節執行、冇實質爭議）唔需要為湊數創造候選方案**——淨係答上面五條，冇疑問就直接寫結論，唔使砌比較表。
+
+### F. Design Sufficiency Check（2026-10-09 新增；核心轉折必過，唔可以外判）
+每個 beat 要檢查以下因果鏈完整：
+- **意圖→行動**：角色意圖係咪真係推到出嗰個具體行動（唔係意圖同行動之間有跳躍）？
+- **行動→轉折**：呢個行動係咪真係構成 beat_function／turn 欄宣稱嘅戲劇轉折（唔係「做咗件事」就自動等於「有轉折」）？
+- **轉折→後果**：轉折有冇產生可追蹤嘅後果（落入 consequence／relationship_delta／setup_payoff，而唔係轉折完就斷鏈）？
+- **觀眾／玩家資訊**：觀眾／玩家係咪有足夠資訊理解呢個轉折（唔使靠觀眾自己補完）？
+- **前後連貫**：同上一個／下一個 beat 嘅狀態、知情、情緒、因果係咪一致（冇跳格）？
+**如果核心轉折本身唔成立（因果鏈斷咗），唔准淨係寫「留俾 Scene 層處理」就當完成**——呢個係 Beat 層自己要解決嘅問題。**只有真正屬於演出執行層面嘅問題**（鏡頭點擺、台詞點寫、timing 幾耐）**先可以下放 Scene 層**；呢個分界同 Beat-grain 分類（`SCENE_REFERENCE`／`DIRECTING_REFERENCE` 等）一致，唔開新標準。
+
+### G. Premise Audit（強化，2026-10-09）
+每個支撐創作決策嘅關鍵前提，要分類（跟 `.claude/story_system/gap-admission-and-scope.md` §7 既有五級，唔開第二套平行系統）：
+- **CONFIRMED_CANON**（＝`SOURCE_FACT`）：來源直接支持，要有錨點。
+- **INFERENCE**（＝`STRICT_INFERENCE` 或 `INTERPRETIVE_ASSUMPTION`，視推論緊度）：來源可以支持推論，但未正式確立。
+- **NEW_PROPOSAL**（＝`NEW_RULE_OR_LORE` 或 `REQUIREMENT_CHANGE`）：新創作提案，canon 冇對應內容。
+
+**硬性禁止嘅推論跳躍：「某能力具有相關視覺效果」唔可以直接當成「具備另一項物理能力」**（例：canon 寫「貓爪會發魔法光」，唔可以直接推到「貓爪可以用嚟推／托舉實物」——發光係視覺效果，推拿係物理操作能力，兩者冇被證實有因果關係）。遇到呢類跳躍，唔可以直接合理化（例如「光屬於魔法，魔法乜都得」），要提出**最少新增設定**嘅修正方案：例如改用一個已經確認嘅能力去做同一件事、縮窄呢個行動嘅範圍到唔需要新能力、或者明確標 `NEW_PROPOSAL` 交低優先級候選，唔可以靜靜當 CONFIRMED_CANON 用。
+
+
 ### Markdown Convention（俾 `validate_beat_layer.py` 解析；`FULL_BEAT_LAYER` 檔要跟）
 ```
 ## BEAT: <id>
 STATUS: DRAFT|WIP|APPROVED|PROVISIONAL
+
+DESIGN_DECISION_RECORD:（2026-10-09 新增；beat 層級一份，唔係逐角度重複；MATERIAL 決策有實質比較先寫，ROUTINE 可以跳過整個段落）
+- CHALLENGE_GATE: <五條問題嘅簡短答案，或者 "ROUTINE — 冇實質爭議，略過比較">
+- ALTERNATIVES_CONSIDERED: <如有比較，列機制上真正唔同嘅候選＋點解揀／唔揀；冇比較就寫 "N/A — ROUTINE">
+- SUFFICIENCY: <意圖→行動→轉折→後果呢條鏈有冇斷；斷咗要寫點解同點修>
 
 FIELDS:
 - beat_function: ...
@@ -200,6 +238,7 @@ FIELDS:
 (N/A 嘅欄位寫 "N/A — <理由>"，唔可以淨寫 "N/A")
 
 PER_BEAT_DESIGN_RATIONALE:
+ANGLES_SELECTED: <N>（實際數量；validator 會核對同下面 ANGLE 格數一致）
 ### ANGLE: <角度名或編號>
 - DESIGN_REQUIREMENT: ...
 - CURRENT_DESIGN: ...
@@ -210,5 +249,12 @@ PER_BEAT_DESIGN_RATIONALE:
 ```
 檔頭可以加 `DELIVERY_STATUS: DELIVERY_READY|INCOMPLETE_BEAT_LAYER` 俾 validator 核對自報狀態同實際結構結果一致。`PATCH_NOTES` 段（如有）用獨立 `## PATCH_NOTES` 標題，唔跟上面格式，validator 唔當佢係 beat。
 
-### Delivery Gate
-`FULL_BEAT_LAYER` 只有 `validate_beat_layer.py`（見下）structural PASS，**並且 orchestrator 做完語意抽查**（抽幾個 beat 睇 RATIONALE 係咪真有內容，唔係套話），先可以標 `DELIVERY_READY`；否則標 `INCOMPLETE_BEAT_LAYER`，唔可以宣稱完成。Validator 只負責結構（欄位存在、角度數量、五項齊唔齊），**唔能夠單靠欄位存在證明分析質素**——質素要人睇。
+### Delivery Gate（2026-10-09 擴充）
+`FULL_BEAT_LAYER` 只有 `validate_beat_layer.py`（見下）structural PASS，**並且 orchestrator 做完語意抽查**，先可以標 `DELIVERY_READY`；否則標 `INCOMPLETE_BEAT_LAYER`，唔可以宣稱完成。Validator 只負責結構（欄位存在、`ANGLES_SELECTED` 聲稱數量同實際 ANGLE 格數一致、五項齊唔齊），**唔能夠單靠欄位存在證明分析質素**——質素要人睇。
+Orchestrator 嘅語意抽查（除咗原有「RATIONALE 係咪真有內容」）**新增五項**：
+1. 核心轉折（entry_state→action→turn→consequence）係咪因果充分，抽到嘅 beat 冇斷鏈。
+2. 有冇未驗證嘅隱藏前提（Premise Audit §G 嗰類「能力跳躍」）。
+3. MATERIAL 決策有冇真正考慮過較好方案（`DESIGN_DECISION_RECORD` 唔係空殼）。
+4. 跨 beat 銜接（knowledge／emotion／causality）係咪成立，冇同前後beat 矛盾。
+5. 有冇將本應 Beat 層解決嘅問題錯誤推卸去 Scene 層；有冇將 ROUTINE／MATERIAL 問題不必要咁上報作者（只有真係 DIRECTOR 級先應該問作者，見 orchestrator 嘅 Authority Funnel）。
+**有實質阻斷問題（核心轉折斷鏈、隱藏前提冇驗證、本應解決嘅問題被外判）時，唔可以標 `DELIVERY_READY`。** 非阻斷嘅 `PROVISIONAL`／下游驗證事項可以如實保留喺檔入面，唔需要逐項上報作者。
