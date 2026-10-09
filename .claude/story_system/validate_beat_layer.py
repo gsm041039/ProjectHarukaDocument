@@ -18,10 +18,16 @@ Checks (maps to Phase 2 spec):
  9. source_obligation_trace field present and non-empty
 10. Declared DELIVERY_STATUS (if present) matches the structural verdict
 11. ANGLES_SELECTED (if declared) matches the actual count of ANGLE blocks (2026-10-09)
+12. Any closing-text angle-count mention ("已揀 N 個...角度") matches the actual count (2026-10-10)
+13. (NOTE only, heuristic) timing/camera numbers leaking into body fields outside
+    downstream_references (2026-10-10)
 
-Not checked here (semantic, needs a human/orchestrator per the skill's Delivery Gate): whether
-DESIGN_DECISION_RECORD reflects a real alternatives comparison, whether the core turn's causal
-chain actually holds, or whether a beat problem was wrongly pushed to Scene layer.
+Not checked here (semantic, needs a human/orchestrator per the skill's CROSS_RECORD_CONSISTENCY_GATE):
+whether DESIGN_DECISION_RECORD reflects a real (non-strawman) alternatives comparison, whether the
+core turn's causal chain actually holds, whether a beat problem was wrongly pushed to Scene layer,
+whether a decision stated in one place (e.g. an angle's DESIGN_ACTION) is still contradicted by an
+undecided-candidate phrasing elsewhere (e.g. a FIELDS value), or any of the four Design Sufficiency
+sub-checks (Character Motivation / Audience Comprehension / Action-to-Consequence / Player Agency).
 """
 import re
 import sys
@@ -97,6 +103,20 @@ def validate_beat(beat_id, body):
     if trace is not None and trace.strip() in ("", "...", "TBD", "待定"):
         blocking.append(f"{beat_id}.source_obligation_trace: empty/placeholder")
 
+    # heuristic (NOTE only, not a reliable semantic check): timing/camera numbers leaking into
+    # body fields that should stay beat-grain abstract (precise numbers belong in
+    # downstream_references, not e.g. action/reaction/turn). 2026-10-10.
+    TIMING_RE = re.compile(r"~?\d+(\.\d+)?\s*(秒|sec|s\b)")
+    for f in FIELDS:
+        if f == "downstream_references":
+            continue
+        v = get_field(body, f)
+        if v and TIMING_RE.search(v):
+            notes.append(f"{beat_id}.{f}: looks like it may contain a timing number "
+                         f"('{TIMING_RE.search(v).group(0)}') — check it belongs in "
+                         f"downstream_references (DIRECTING_REFERENCE), not the beat body "
+                         f"(heuristic only, may be a false positive)")
+
     # 5/6/7: PER_BEAT_DESIGN_RATIONALE
     if "PER_BEAT_DESIGN_RATIONALE:" not in body:
         blocking.append(f"{beat_id}: no PER_BEAT_DESIGN_RATIONALE block")
@@ -114,6 +134,13 @@ def validate_beat(beat_id, body):
         if claimed_n != len(angles):
             blocking.append(f"{beat_id}: ANGLES_SELECTED claims {claimed_n} but {len(angles)} "
                              f"ANGLE block(s) found")
+
+    # closing-text angle-count mentions (e.g. "已揀 N 個...角度") vs actual count (2026-10-10)
+    for cm in re.finditer(r"已揀\s*(\d+)\s*個", rationale_body):
+        n = int(cm.group(1))
+        if n != len(angles):
+            blocking.append(f"{beat_id}: closing text claims {n} angles ('已揀{n}個...') but "
+                             f"{len(angles)} ANGLE block(s) found — fix the wording or the blocks")
 
     if len(angles) == 0:
         blocking.append(f"{beat_id}: PER_BEAT_DESIGN_RATIONALE has zero ANGLE blocks")
