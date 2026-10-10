@@ -1,0 +1,162 @@
+[
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.33333233333333334,
+    "method": "A",
+    "mother": "control",
+    "max_alpha_difference": 64,
+    "different_pixels": 1456,
+    "area_difference_px": 216.54901960784315,
+    "area_difference_pct": 0.9555418659541921
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.33333233333333334,
+    "method": "A",
+    "mother": "candidate",
+    "max_alpha_difference": 64,
+    "different_pixels": 1503,
+    "area_difference_px": 218.54901960784315,
+    "area_difference_pct": 0.680131305737389
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.33333233333333334,
+    "method": "B",
+    "mother": "control",
+    "max_alpha_difference": 64,
+    "different_pixels": 1456,
+    "area_difference_px": 216.54901960784315,
+    "area_difference_pct": 0.9555418659541921
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.33333233333333334,
+    "method": "B",
+    "mother": "candidate",
+    "max_alpha_difference": 64,
+    "different_pixels": 1503,
+    "area_difference_px": 218.54901960784315,
+    "area_difference_pct": 0.680131305737389
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.3333343333333333,
+    "method": "A",
+    "mother": "control",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.3333343333333333,
+    "method": "A",
+    "mother": "candidate",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.3333343333333333,
+    "method": "B",
+    "mother": "control",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.3333333333333333,
+    "sample": 0.3333343333333333,
+    "method": "B",
+    "mother": "candidate",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333323333333334,
+    "method": "A",
+    "mother": "control",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333323333333334,
+    "method": "A",
+    "mother": "candidate",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333323333333334,
+    "method": "B",
+    "mother": "control",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333323333333334,
+    "method": "B",
+    "mother": "candidate",
+    "max_alpha_difference": 0,
+    "different_pixels": 0,
+    "area_difference_px": 0.0,
+    "area_difference_pct": 0.0
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333343333333333,
+    "method": "A",
+    "mother": "control",
+    "max_alpha_difference": 64,
+    "different_pixels": 1456,
+    "area_difference_px": 216.54901960784315,
+    "area_difference_pct": 0.9555418659541921
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333343333333333,
+    "method": "A",
+    "mother": "candidate",
+    "max_alpha_difference": 64,
+    "different_pixels": 1503,
+    "area_difference_px": 218.54901960784315,
+    "area_difference_pct": 0.680131305737389
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333343333333333,
+    "method": "B",
+    "mother": "control",
+    "max_alpha_difference": 64,
+    "different_pixels": 1456,
+    "area_difference_px": 216.54901960784315,
+    "area_difference_pct": 0.9555418659541921
+  },
+  {
+    "boundary": 0.43333333333333335,
+    "sample": 0.4333343333333333,
+    "method": "B",
+    "mother": "candidate",
+    "max_alpha_difference": 64,
+    "different_pixels": 1503,
+    "area_difference_px": 218.54901960784315,
+    "area_difference_pct": 0.680131305737389
+  }
+]

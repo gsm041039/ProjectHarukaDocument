@@ -1,0 +1,83 @@
+{
+  "gif": {
+    "decoded_frames": 50,
+    "duration_ms": 1000,
+    "each_duration_ms": [
+      20
+    ],
+    "loop": 0
+  },
+  "native_js_geometry_stub_check": [
+    {
+      "time_s": 0,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": true
+    },
+    {
+      "time_s": 0.1,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.2,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.3,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.3333333333333333,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": true,
+      "blank": false
+    },
+    {
+      "time_s": 0.43333333333333335,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": true,
+      "blank": false
+    },
+    {
+      "time_s": 0.4666666666666667,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.6,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.75,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": false
+    },
+    {
+      "time_s": 0.9,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": true
+    },
+    {
+      "time_s": 1,
+      "js_python_max_coordinate_difference": 0.0,
+      "literal_original_unclipped_match": null,
+      "blank": true
+    }
+  ],
+  "browser_validation": {
+    "status": "blocked_not_performed",
+    "observed_error": "Installed headless Chromium startup failed: process singleton socket() Operation not permitted. No bypass attempted.",
+    "limit": "DOM stub verifies the calculation only; it is not browser playback or 1x perception."
+  }
+}
