@@ -1,0 +1,120 @@
+{
+  "method": "Read-only numeric inspection; no image pixels were edited. Luma here is weighted encoded-sRGB, not calibrated luminance. Red-area masks are heuristic and ROI-restricted, not exact segmentation.",
+  "images": {
+    "source": {
+      "file": "C1_body_cosmos_same_tension.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "683e5b41ca98c6060547b5645f968960686aaaf6f7a0abde42803075d02518d9",
+      "mean_srgb_luma": 36.02369220937209,
+      "bright_fraction_y_gt_180": 0.011229527785263564
+    },
+    "C0": {
+      "file": "C0_no_crimson_control.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "509c8e3e5c0c47f53be5cbd70eea394eb4db687a952e0a50b744d3c38355d1d6",
+      "mean_srgb_luma": 36.031742749365684,
+      "bright_fraction_y_gt_180": 0.014078222800746432,
+      "comparison_to": "source",
+      "rgb_mean_absolute_difference": 4.797143720328742,
+      "luma_mean_absolute_difference": 4.805331372254905,
+      "fraction_pixels_any_channel_difference_gt_10": 0.14220721110088524
+    },
+    "C1": {
+      "file": "C1_matte_crimson_cuff.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "f2c00b5c7b8e7bd9814214dec17a4ffe94559bb1684c76f1633e981dbfed2095",
+      "mean_srgb_luma": 35.32328239059028,
+      "bright_fraction_y_gt_180": 0.013206834834162984,
+      "comparison_to": "C0",
+      "rgb_mean_absolute_difference": 3.4849904323169048,
+      "luma_mean_absolute_difference": 3.4511948987893364,
+      "fraction_pixels_any_channel_difference_gt_10": 0.08619431633861971,
+      "red_patch": {
+        "roi_xyxy": [
+          590,
+          532,
+          643,
+          581
+        ],
+        "mask_rule": "R-G>=8 and R>1.35*G and R>1.2*B",
+        "pixel_count": 465,
+        "bbox_xyxy_inclusive": [
+          611,
+          546,
+          635,
+          571
+        ],
+        "centroid_xy": [
+          621.4,
+          558.0258064516129
+        ],
+        "centroid_percent_xy": [
+          37.165071770334926,
+          59.30136094066024
+        ],
+        "mean_rgb": [
+          46.61290322580645,
+          20.593548387096774,
+          22.90967741935484
+        ],
+        "mean_srgb_luma": 26.29248774193548,
+        "control_same_pixels_mean_srgb_luma": 29.02953548387097
+      }
+    },
+    "C2": {
+      "file": "C2_matte_crimson_stone.png",
+      "size": [
+        1672,
+        941
+      ],
+      "sha256": "2fb70bec7afaf230a667d07d4217e82d27dc7a7965a868ccb3f121903cbfd144",
+      "mean_srgb_luma": 35.195608537059734,
+      "bright_fraction_y_gt_180": 0.012755569001723708,
+      "comparison_to": "C0",
+      "rgb_mean_absolute_difference": 3.060651822774984,
+      "luma_mean_absolute_difference": 3.0193840526468323,
+      "fraction_pixels_any_channel_difference_gt_10": 0.07016484550183302,
+      "red_patch": {
+        "roi_xyxy": [
+          750,
+          390,
+          880,
+          510
+        ],
+        "mask_rule": "R-G>=8 and R>1.35*G and R>1.2*B",
+        "pixel_count": 638,
+        "bbox_xyxy_inclusive": [
+          766,
+          404,
+          796,
+          436
+        ],
+        "centroid_xy": [
+          782.576802507837,
+          419.94514106583074
+        ],
+        "centroid_percent_xy": [
+          46.80483268587542,
+          44.6275389017886
+        ],
+        "mean_rgb": [
+          32.03134796238245,
+          7.706896551724138,
+          9.664576802507836
+        ],
+        "mean_srgb_luma": 13.019619435736677,
+        "control_same_pixels_mean_srgb_luma": 14.033911912225705
+      }
+    }
+  },
+  "red_area_ratio_C2_over_C1": 1.3720430107526882
+}

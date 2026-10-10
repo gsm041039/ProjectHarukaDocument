@@ -1,0 +1,36 @@
+{
+  "study": "W07",
+  "date_utc": "2026-10-10",
+  "tool": "built-in image_gen.imagegen",
+  "call_count": 3,
+  "image_editing_after_generation": false,
+  "conditions": [
+    {
+      "condition": "C0",
+      "input_path": "/workspace/scratch/7519b5c48432/haruka_research_v07/cosmic_candidates/C1_body_cosmos_same_tension.png",
+      "prompt_file": "C0_prompt.txt",
+      "saved_output": "C0_no_crimson_control.png",
+      "original_tool_output": "/workspace/scratch/7519b5c48432/generated_images/exec-5640fa20-ebe4-42c7-9598-f8a91354e132.png",
+      "original_copy_verified_identical": true,
+      "sha256": "509c8e3e5c0c47f53be5cbd70eea394eb4db687a952e0a50b744d3c38355d1d6"
+    },
+    {
+      "condition": "C1",
+      "input_path": "/workspace/scratch/7519b5c48432/haruka_research_v12/visual_tests/C0_no_crimson_control.png",
+      "prompt_file": "C1_prompt.txt",
+      "saved_output": "C1_matte_crimson_cuff.png",
+      "original_tool_output": "/workspace/scratch/7519b5c48432/generated_images/exec-d8ea29f7-0807-4823-ac69-6e928cc2b098.png",
+      "original_copy_verified_identical": true,
+      "sha256": "f2c00b5c7b8e7bd9814214dec17a4ffe94559bb1684c76f1633e981dbfed2095"
+    },
+    {
+      "condition": "C2",
+      "input_path": "/workspace/scratch/7519b5c48432/haruka_research_v12/visual_tests/C0_no_crimson_control.png",
+      "prompt_file": "C2_prompt.txt",
+      "saved_output": "C2_matte_crimson_stone.png",
+      "original_tool_output": "/workspace/scratch/7519b5c48432/generated_images/exec-4069c9f3-1473-42b6-b620-ca4d80e7c0bc.png",
+      "original_copy_verified_identical": true,
+      "sha256": "2fb70bec7afaf230a667d07d4217e82d27dc7a7965a868ccb3f121903cbfd144"
+    }
+  ]
+}
