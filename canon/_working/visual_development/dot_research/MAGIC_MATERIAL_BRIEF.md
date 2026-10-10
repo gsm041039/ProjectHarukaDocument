@@ -4,7 +4,7 @@
 
 ## 已有來源
 
-[既有動作圖](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/art/ConceptArt/Scene/ConceptArt_Haruka_MagicalGirl_Action.png) 已實看：前伸拳套周圍有青藍光弧、亮屑，主要似透光薄帶。圖檔存在不等於作者正式採用，也沒有證明黏稠厚液、融玻璃邊或晶體斷面已成立。只借作可見效果／測試色參照，不推定拳路、距離或能力。
+[既有動作圖](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/art/ConceptArt/Scene/ConceptArt_Haruka_MagicalGirl_Action.png) 已實看：前伸拳套周圍有青藍光弧、亮屑，主要似透光薄帶。此為可見參照，只借效果外觀與本輪測試色；它沒有指定完整拳路，也沒有證明黏稠厚液、融玻璃邊或晶體斷面。新動勢提案可在另行標示的研究曲線上作原生向量對照；指定資產是否正式採用，在本次限定來源內仍未確認。可見參照、新動勢提案與已採用資產分別記錄，互不代替；採用未確認不妨礙可撤回試片，但不能把試片當成已批准的角色VFX。
 
 [材料來源](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/06_visual_bible.md#L758-L781) 支持黏稠、發光、星光閃爍及融玻璃質感。[結晶來源](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/06_visual_bible.md#L309-L320) 支持燃燒情緒結晶、流體內發光碎片。具體高光寬度、碎片數量和厚薄明暗均為本次新增美術建議。
 
@@ -21,3 +21,6 @@
 ## 判準及上限
 
 先驗分層守界和製作可重用性，再看是否可辨厚液、內發光、玻璃邊與內含碎片。若只得亮面／泛光，保留為未建立材料辨識的結果。原生SVG試片是可控制製作原型，不能冒充精緻動畫材料、角色VFX、動態燃燒或觀眾驗證。
+
+
+W09的輪廓變體另開形狀比較，不冒稱仍是此同mask材料試驗。

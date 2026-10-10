@@ -1,0 +1,141 @@
+{
+  "method": "Inkscape rendering of individual transparent native SVG masters at 1120x800 (80 px per unit), threshold alpha>=128. 8-connected black and 4-connected white. These are raster-sampled construction checks, not analytic proof, production validation, or final pixel thresholds.",
+  "rows": {
+    "round": {
+      "shared_centerline_file": "round-centerline.json",
+      "A": [
+        12.0,
+        1.0
+      ],
+      "B": [
+        8.0,
+        7.0
+      ],
+      "same_direction": "A to B",
+      "same_centerline_for_both": true,
+      "shapes": {
+        "control": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            161204
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        },
+        "candidate": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            228522
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        }
+      }
+    },
+    "thin": {
+      "shared_centerline_file": "thin-centerline.json",
+      "A": [
+        12.0,
+        3.46
+      ],
+      "B": [
+        8.0,
+        4.54
+      ],
+      "same_direction": "A to B",
+      "same_centerline_for_both": true,
+      "shapes": {
+        "control": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            16160
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        },
+        "candidate": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            24089
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        }
+      }
+    },
+    "hard": {
+      "shared_centerline_file": "hard-centerline.json",
+      "A": [
+        12.0,
+        1.0
+      ],
+      "B": [
+        8.0,
+        7.0
+      ],
+      "same_direction": "A to B",
+      "same_centerline_for_both": true,
+      "shapes": {
+        "control": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            212770
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        },
+        "candidate": {
+          "black_component_count": 1,
+          "black_component_pixels": [
+            262495
+          ],
+          "closed_white_regions": 0,
+          "cavity_probe": [
+            6,
+            4
+          ],
+          "cavity_reaches_exterior": true,
+          "straight_rightward_cavity_corridor_clear": true,
+          "interior_centerline_samples_inside_black": true,
+          "pass": true
+        }
+      }
+    }
+  },
+  "all_pass": true
+}
