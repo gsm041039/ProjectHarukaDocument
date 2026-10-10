@@ -1,0 +1,46 @@
+{
+  "ART_FOUNDATION_BACKLOG.md": {
+    "bytes": 110363,
+    "sha256": "0a7ef45ecab8ac18ed878a1d635e52b5c3cf2bd3bd07d442c2d1b49551b843e3"
+  },
+  "COSMIC_CANDIDATE_RESULTS.md": {
+    "bytes": 2303,
+    "sha256": "b29922d39bf8c1d3c85f1cd0d17c0e03098b2e8f7563decea231fb15fb5eb940"
+  },
+  "STATE.md": {
+    "bytes": 1134,
+    "sha256": "4d5c4e054a1685f1847a7e1dad2dc68488f9904de38e3274bde6e39f041db848"
+  },
+  "body_cosmos_refs/BODY_COSMOS_REFERENCE_BRIEF.md": {
+    "bytes": 7401,
+    "sha256": "77eb0730408256fb901dbf035bc5495b3c2035975bc1d80534e3db76f6d58be5"
+  },
+  "body_cosmos_refs/met_38285_metadata.json": {
+    "bytes": 1897,
+    "sha256": "c8d1e1d84b016294e1499c631c0d6446e07f827b4d243482ce54cbad286f82c4"
+  },
+  "cosmic_candidates/C1_body_cosmos_same_tension.jpg": {
+    "bytes": 402617,
+    "sha256": "43ea1ad55879c0834e168d4ef3d2ba19b72b4df88062ff8ffb6ff7574f5b2082"
+  },
+  "cosmic_candidates/C1_body_cosmos_same_tension.png": {
+    "bytes": 2643401,
+    "sha256": "683e5b41ca98c6060547b5645f968960686aaaf6f7a0abde42803075d02518d9"
+  },
+  "cosmic_candidates/C2_body_world_continuity.jpg": {
+    "bytes": 439178,
+    "sha256": "40e49a03f09a46fb7c7b125a4f930fb5111d907f8359fc4cb306c0fc5956a69e"
+  },
+  "cosmic_candidates/C2_body_world_continuity.png": {
+    "bytes": 2691825,
+    "sha256": "696068076fded29bcfa0f85b6e983b16ed41790d7cfc516a745d976af219d26b"
+  },
+  "cosmic_candidates/INDEPENDENT_VISUAL_REVIEW.md": {
+    "bytes": 4174,
+    "sha256": "dc09f567dc11a168716d921d2a1fe65e01764f44bd06c07c97de6ec4c7aaabe8"
+  },
+  "cosmic_candidates/PROMPTS.json": {
+    "bytes": 5337,
+    "sha256": "8eb045d2f2d6d37fb2224f22909acd848b0c896c11c8db71d0d804da7f89d84b"
+  }
+}
