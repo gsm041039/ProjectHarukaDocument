@@ -1,5 +1,5 @@
 # Haruka 美術研究 checkpoint — v0.1
-日期：2026-10-10 UTC。狀態：RESEARCH_ONLY / 第一批來源校準及文字候選。
+日期：2026-10-10 UTC；補充checkpoint v0.1.1。狀態：RESEARCH_ONLY / 第一批來源校準及文字候選。
 主線：P03B 非現世／集體潛意識／宇宙底層；相鄰題：魔法使用共同筆法。正式 canon、美術採用、skill 部署仍各自待作者批准。
 
 ## 授權與快照
@@ -23,7 +23,7 @@ STOP CONDITION：完成三方向、反駁、最低測試與清單即交作者；
 - 尺度不能以人物無意義作結；小小承接仍有重量。
 - 鏡、一般門洞、宇宙露底不能混作可通行 portal。
 - 腥紅意義／揭示門檻、真實宗教字形、圖面採用仍未決。
-- 兩張 repo 角色 PNG 已真正看圖，但圖內名字與路徑不一致，不能冒認目前批准版本。
+- 兩張 repo 角色 PNG 已真正看圖；當前brief確認角色用途，但圖內名字不一致、exact像素批准未核。另看DailyLife_1與Scene64，觀察／用途限度见ASSET_PROVENANCE。
 
 ## 能力核對
 真實獨立 A/B/C 工作者已作來源、美術、反方研究並互相修正；非盲測，也非審美認證。
@@ -43,6 +43,6 @@ promotion record 的歷史 5 次結果不是本批重現結果；20 新測試沒
 - PROPOSALS.md：融合方向／Foundation Card／母樣 brief／測試及反例。
 - ART_FOUNDATION_BACKLOG.md：去重工作單位、100 seed 映射、top10／first3。
 - REVIEW.md：作者閱讀入口及真正決策。
-下一批不依賴生圖批准：先查兩張候選圖的身份／採用證據與可用母樣；優先恢復明確已批准圖，而非再遍讀全 repo。其次補三故事場合的素材入口。
+本批後續已完成限定圖稿歸屬查核，詳ASSET_PROVENANCE.md；有reference用途但exact批准鏈未閉合。試圖授權待作者答覆。不依賴生圖的腥紅分布／緋潮機制查核亦已完成文字候選，見CRIMSON_STUDY.md。當前R01/R02/R00與筆法均到視覺證據gate；不再用文字輪數假裝變好。作者回覆後先按批准範圍試圖；其他backlog仍可獨立source research，但不全數自動開工。
 任一來源、base 或 scope 更新，列出引用 base v0.1 的圖案母樣、載體、角色差異與尺寸測試需 REVALIDATE；不靜默覆蓋。
 完整 read manifest 見 EVIDENCE；本批不是全 repo 完整缺口審計。
