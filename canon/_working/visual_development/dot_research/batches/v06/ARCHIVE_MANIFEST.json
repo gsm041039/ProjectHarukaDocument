@@ -1,0 +1,54 @@
+{
+  "ART_FOUNDATION_BACKLOG.md": {
+    "bytes": 110243,
+    "sha256": "ca3a9b56051f2b5988b0ac821a38297b2ddeaafac8a60313eae0e3ae2021919d"
+  },
+  "COSMIC_CANDIDATE_BRIEF.md": {
+    "bytes": 8100,
+    "sha256": "b3373e766a1bb41217863dd74e765067b47a78564be6c2652fd45b8db3d7e4af"
+  },
+  "STATE.md": {
+    "bytes": 1051,
+    "sha256": "8ff4f60ad34babc2685717643ad9d6b6090bd7661f488b61cf36343bc8fc1b72"
+  },
+  "cloth_fold/README.md": {
+    "bytes": 3184,
+    "sha256": "5fe0dd4ab778a90547ebace1925626873c343a1493ece6c450dad16cb278491f"
+  },
+  "cloth_fold/build_cloth.py": {
+    "bytes": 13026,
+    "sha256": "8e891aacc51548709d87919dc321a0c188fbfad68fecc7c8ceeb1981a1ca3d4c"
+  },
+  "cloth_fold/cloth_fold_plate.png": {
+    "bytes": 302464,
+    "sha256": "fd52abb352ee0446fbb6a6bc0b33074468b1c47f569211c051a06189944f49c9"
+  },
+  "cloth_fold/cloth_fold_plate.svg": {
+    "bytes": 1563659,
+    "sha256": "9417baf26a7ac20e20ef823459818cc1f86387990211cf70e7c342c83b2206a8"
+  },
+  "cloth_fold/cloth_print_placement.png": {
+    "bytes": 107280,
+    "sha256": "54302e3139a97a4b71df4808cad96fc0fe7ce2c2a98fb315a703e2765a0e6ebf"
+  },
+  "cloth_fold/cloth_print_placement.svg": {
+    "bytes": 3198,
+    "sha256": "a7dc66a49f94bdd9511bd2ae2ef5ce1afac33b47f04c96a835737f5cbf590969"
+  },
+  "cloth_fold/verification.json": {
+    "bytes": 1347,
+    "sha256": "df9760447d36c7025d2d2e1edc5dbdf8334ad394720c78b4350a9ef01da81576"
+  },
+  "source_refs/BORDER_TRANSFER_v021.md": {
+    "bytes": 1672,
+    "sha256": "e99deb5ce60ac84bd6e64f78f558e2c9ed363e60a0832947c796d2e7104a75bb"
+  },
+  "source_refs/PATTERN_GRAMMAR_v05.md": {
+    "bytes": 6825,
+    "sha256": "7ca2b7023f6fe941c16c7ec73b0297c9736c9120aa76e8bdb3fd960c46f5ad9c"
+  },
+  "source_refs/pattern_border_transfer_v021.svg": {
+    "bytes": 2957,
+    "sha256": "b9dc4a78408df55916b4d9ae9d0db985dae0c5e9382dbb8be460310ce1e47904"
+  }
+}

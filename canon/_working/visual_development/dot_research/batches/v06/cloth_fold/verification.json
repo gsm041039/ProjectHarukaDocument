@@ -1,0 +1,41 @@
+{
+  "research_only": true,
+  "source_file": "haruka_research_v06/source_refs/pattern_border_transfer_v021.svg",
+  "source_sha256": "b9dc4a78408df55916b4d9ae9d0db985dae0c5e9382dbb8be460310ce1e47904",
+  "source_path_d_identical": true,
+  "cloth_material_size_u": [
+    40,
+    16
+  ],
+  "source_group_x": [
+    2.8,
+    22.8
+  ],
+  "print_shifts_u": [
+    0,
+    10
+  ],
+  "fold_material_interval_u": [
+    17.2,
+    22.8
+  ],
+  "arch_length_u": 3.1419982545741103,
+  "max_elevation_u": 1.8540820785728853,
+  "projected_x_reversal_exists": true,
+  "reverse_surface_material_u": [
+    20.906,
+    22.236
+  ],
+  "right_cloth_world_x": 36.765702756607546,
+  "final_elevation_u": 3.2693105475566916e-07,
+  "camera_identical": true,
+  "scale_identical": true,
+  "lighting_identical": true,
+  "projection_tessellation_u": 0.025,
+  "material_distance_parametrized_by_arclength": true,
+  "production_or_garment_validation": false,
+  "rendered_visual_inspection": "Passed after one fabrication-only cleanup of subdivision compositing seams; source motif unchanged",
+  "fold_result": "Shifted middle cell narrows and loses part of its hooked/open-mouth reading; no cavity restoration",
+  "right_edge_result": "Independent boundary clipping from +10u print shift, not fold occlusion",
+  "revision_scope": "Single fabrication cleanup only; no motif redesign"
+}

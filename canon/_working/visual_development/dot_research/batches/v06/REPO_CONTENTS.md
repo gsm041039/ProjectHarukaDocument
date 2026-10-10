@@ -1,0 +1,2 @@
+# Repo copy
+完整原生布面SVG與placement預覽PNG在v0.6交付ZIP；此repo副本保留主板PNG、精確placement SVG、來源SVG及可重建腳本。ARCHIVE_MANIFEST.json對應完整ZIP，不宣稱此repo包含其中每個渲染檔。重建請在含NumPy的Python環境執行cloth_fold/build_cloth.py；輸出會落在腳本旁。外部套件未在本輪新增安裝。
