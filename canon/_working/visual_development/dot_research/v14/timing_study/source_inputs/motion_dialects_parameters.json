@@ -1,0 +1,192 @@
+{
+  "status": "RESEARCH_ONLY / NEW MOTION PROPOSAL / UNASSIGNED",
+  "source_shape": "haruka_research_v03/visual_tests/pattern_identity_alpha.svg",
+  "source_grammar": "haruka_research_v02/PATTERN_GRAMMAR.md",
+  "interpretation": "Geometry-only transfer from the source open-core family. The source document has unsupported character-motion assignments; none are carried into this plate.",
+  "comparison": "Each row uses exactly one shared centerline, direction from A to B, and endpoints. The carrier and candidate differ only in ribbon pressure. Black area is deliberately not equalized.",
+  "coordinate_system": "SVG local units, y positive downward. All displays share viewBox 0 -1 14 10. Mothers are 420 px wide. Samples are 128 / 64 px wide at the same geometric scale for the pair.",
+  "construction": "A single ordered path is expanded to left and right boundaries using the given pressure tables. Start and end widths are zero. The boundaries are concatenated into one filled polygon. This is a native SVG path, not a bitmap or generated illustration.",
+  "width_station_s": [
+    0,
+    0.025,
+    0.07,
+    0.13,
+    0.23,
+    0.46,
+    0.63,
+    0.82,
+    0.95,
+    1
+  ],
+  "round": {
+    "centerline_cubics": [
+      [
+        [
+          12,
+          1
+        ],
+        [
+          8.5,
+          0.6
+        ],
+        [
+          5.1,
+          0.6
+        ],
+        [
+          2.4,
+          1.8
+        ]
+      ],
+      [
+        [
+          2.4,
+          1.8
+        ],
+        [
+          0.4,
+          2.7
+        ],
+        [
+          0.45,
+          5.25
+        ],
+        [
+          2.5,
+          6.5
+        ]
+      ],
+      [
+        [
+          2.5,
+          6.5
+        ],
+        [
+          3.4,
+          7.1
+        ],
+        [
+          6.2,
+          7.1
+        ],
+        [
+          8,
+          7
+        ]
+      ]
+    ],
+    "control_half_width": 0.62,
+    "outer_half_width": [
+      0,
+      0.55,
+      0.9,
+      0.95,
+      0.85,
+      1.12,
+      1.02,
+      0.86,
+      0.36,
+      0
+    ],
+    "inner_half_width": [
+      0,
+      0.68,
+      2.35,
+      0.78,
+      0.68,
+      0.85,
+      0.88,
+      0.64,
+      0.32,
+      0
+    ],
+    "interpolation": "PCHIP",
+    "cavity_probe": [
+      6,
+      4
+    ],
+    "gained": "Broad rounded pressure, one inward return, unequal shoulders.",
+    "sacrificed": "More mass and a curled-sign tendency; less thread-like economy."
+  },
+  "thin": {
+    "centerline_transform": "Round centerline; y = 4 + (y - 4) * 0.18; normals recomputed after the transform.",
+    "control_half_width": 0.072,
+    "outer_half_width": [
+      0,
+      0.08,
+      0.12,
+      0.105,
+      0.09,
+      0.155,
+      0.12,
+      0.07,
+      0.035,
+      0
+    ],
+    "inner_half_width": [
+      0,
+      0.08,
+      0.42,
+      0.1,
+      0.075,
+      0.125,
+      0.105,
+      0.065,
+      0.035,
+      0
+    ],
+    "interpolation": "PCHIP",
+    "cavity_probe": [
+      6,
+      4
+    ],
+    "fallback": "Same shared centerline and endpoints, uniform half-width 0.072, no pressure lobe; equals carrier control.",
+    "gained": "One continuous narrow ribbon with a single local pressure lobe; clean fallback is economical.",
+    "sacrificed": "At small displayed sizes the inner return is unstable; the fallback explicitly loses open-core pattern identity. This local test does not limit any character ability."
+  },
+  "hard": {
+    "centerline_description": "A=(12,1) to (5,1), then a 45-degree diagonal to (1.5,4.5); curved recovery to B=(8,7). One angular centerline junction, no repeated serrations.",
+    "control_half_width": 0.85,
+    "outer_half_width": [
+      0,
+      0.95,
+      1.25,
+      1.2,
+      1.2,
+      1.32,
+      1.15,
+      1.02,
+      0.48,
+      0
+    ],
+    "inner_half_width": [
+      0,
+      0.65,
+      2.25,
+      0.92,
+      0.88,
+      1.05,
+      0.92,
+      0.82,
+      0.4,
+      0
+    ],
+    "interpolation": "linear pressure + mitered 45-degree joint",
+    "cavity_probe": [
+      6,
+      4
+    ],
+    "gained": "Weight and one clear angular event while preserving an open cavity.",
+    "sacrificed": "Softer material flow is reduced; the thick inner nib may read as a graphic sign."
+  },
+  "readability_limit": "128 px and 64 px describe the width of the SVG sample viewports on this 1x PNG. They are controlled black-on-white display examples only, not game/TV or final-resolution validation.",
+  "not_claimed": [
+    "character assignment",
+    "actual punch or hammer trajectory",
+    "ability rules",
+    "timing",
+    "adopted VFX",
+    "universal glyph brand",
+    "a final pixel threshold"
+  ]
+}
