@@ -1,0 +1,11 @@
+{
+  "spine_continuous_sampled": true,
+  "three_open_bays_sampled": true,
+  "bounds": [
+    0.0,
+    0,
+    12.0,
+    21.599999999999998
+  ],
+  "limitations": "Sampled geometric assertions only; not supplied DEV cases, not blind or aesthetic validation."
+}

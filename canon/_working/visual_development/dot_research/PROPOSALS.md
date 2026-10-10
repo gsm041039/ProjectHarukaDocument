@@ -1,3 +1,5 @@
+> v0.2 校準：本文保留歷史提案與反例。高強度研究直接啟動，中度灰稿不是gate；中軸、對稱、宗教可辨性不自動否決。研究生圖已獲v4授權。當前推薦和實圖以 HIGH_INTENSITY_BRIEF.md、PATTERN_GRAMMAR.md、VISUAL_RUN_LOG.md 為準。
+
 # 內容融合與可重用基礎 v0.1
 2026-10-10；PROPOSAL / RESEARCH_ONLY。作者未採用。全部新母樣 VISUAL_PENDING；沒有動態／引擎／盲讀測試。
 來源編號 EX1–EX5、repo 版本與矛盾見 EVIDENCE.md。VL 是現有語言 register 索引，本文件只是它的研究附件。
