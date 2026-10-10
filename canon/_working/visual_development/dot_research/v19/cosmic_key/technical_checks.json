@@ -1,0 +1,51 @@
+{
+  "authorship": "AI native-vector authoring; not independent human artist validation",
+  "compositions": 1,
+  "source_viewBox": "0 0 1600 900",
+  "raster_output_size": [
+    1600,
+    900
+  ],
+  "reference_size": [
+    1672,
+    941
+  ],
+  "reference_aspect": 1.7768331562167907,
+  "new_aspect": 1.7777777777777777,
+  "visible_raster_image_nodes": 0,
+  "script_nodes": 0,
+  "total_native_elements": 10114,
+  "top_level_content_groups": [
+    {
+      "id": "deep_field",
+      "label": "00｜深冷黑底",
+      "native_descendants": 191
+    },
+    {
+      "id": "blackmasses_rear",
+      "label": "01｜主要黑形・後方長片",
+      "native_descendants": 12
+    },
+    {
+      "id": "starbands",
+      "label": "02｜集中白星群層帶・可獨立搬動",
+      "native_descendants": 9822
+    },
+    {
+      "id": "blackmasses_foreground",
+      "label": "03｜近場巨黑斜面・截斷中景星帶",
+      "native_descendants": 29
+    },
+    {
+      "id": "person_nearfield",
+      "label": "04｜人物＋近景・側身朝內",
+      "native_descendants": 31
+    }
+  ],
+  "reference_sha256": "509c8e3e5c0c47f53be5cbd70eea394eb4db687a952e0a50b744d3c38355d1d6",
+  "svg_sha256": "532f2a934b94b9fe35561a6a7bc093eba14c8f8672cc7edfc024517341e82899",
+  "png_sha256": "d413622c427801123ea0ebf06e8ad941b4bad2e708386cec3156515385380c9a",
+  "renderer": "pre-installed Inkscape",
+  "comparison": "Both inputs fit independently into equal 800x450 boxes. No crop, warp, mirror, recolour, or write to the reference.",
+  "actual_render_viewed": true
+}
