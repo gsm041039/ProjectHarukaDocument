@@ -1,0 +1,12 @@
+{
+  "date_utc": "2026-10-10",
+  "separate_directory_rebuild": true,
+  "same_environment_existing_dependencies": true,
+  "byte_identical_outputs": {
+    "glove_comparison_XY.svg": true,
+    "glove_comparison_XY.png": true,
+    "glove_comparison_labeled.svg": true,
+    "glove_comparison_labeled.png": true
+  },
+  "scope": "Same-environment replay, not a clean-machine installation or human handoff test."
+}

@@ -1,0 +1,82 @@
+{
+  "source_hash_matches_pinned": true,
+  "source_hash_unchanged": true,
+  "svg_no_raster_image_elements": true,
+  "shared_proxy_use_count_per_board": 2,
+  "same_centerline_endpoints_outer_boundary_depth_rendering": true,
+  "metrics": {
+    "N": {
+      "polygon_area_local_units_sq": 19608.279,
+      "mask_area_px_alpha_ge_128": 19612,
+      "visible_mask_area_px_luminance_lt_128": 19539,
+      "occluded_mask_area_px": 73,
+      "mask_bbox_inclusive_px": [
+        103,
+        123,
+        316,
+        436
+      ],
+      "native_max_normal_thickness": 47.999983,
+      "raster_connected_components_8_connected": 1,
+      "enclosed_background_regions_8_connected": 0,
+      "native_bbox": [
+        103.1955,
+        122.7473,
+        318.0,
+        436.6444
+      ]
+    },
+    "P": {
+      "polygon_area_local_units_sq": 19426.071,
+      "mask_area_px_alpha_ge_128": 19432,
+      "visible_mask_area_px_luminance_lt_128": 19359,
+      "occluded_mask_area_px": 73,
+      "mask_bbox_inclusive_px": [
+        103,
+        123,
+        316,
+        436
+      ],
+      "native_max_normal_thickness": 47.999983,
+      "raster_connected_components_8_connected": 1,
+      "enclosed_background_regions_8_connected": 0,
+      "native_bbox": [
+        103.1955,
+        122.7473,
+        318.0,
+        436.6444
+      ]
+    }
+  },
+  "P_minus_N_visible_area_percent": -0.921,
+  "measurement_scope": "Thresholded 1 local unit / pixel technical masks, plus sampled native polygon area. Glow/highlight excluded from area. No perceptual strength or audience validation.",
+  "rendered_art_area_comparison": {
+    "difference_gt_one_channel_level_pixel_count": 4013,
+    "difference_gt_one_level_bbox_relative_to_art_comparison_region": [
+      144,
+      73,
+      332,
+      253
+    ],
+    "comparison_region_y": [
+      230,
+      798
+    ],
+    "right_of_arc_max_channel_difference": 1,
+    "right_of_arc_nonidentical_pixels": 7,
+    "note": "Compared at the exact 880 px cell translation. All differences greater than one RGB level are in the arc region. Seven body-region pixels differ by one channel level from raster rounding. Native proxy geometry is identical because both cells use the same group."
+  },
+  "xml_proxy_group_definition_count": 1,
+  "xml_proxy_instance_count": 2,
+  "visual_QA": {
+    "inspected_actual_XY_png": true,
+    "inspected_actual_labeled_png": true,
+    "text_overlap_observed": false,
+    "proxy_remains_schematic": true,
+    "first_render_correction": "Corrected the local normal-side sign: the intended P pressure lobe now projects into the open cavity. No pose, proxy, centerline, endpoint, extra cell, or treatment was added.",
+    "common_proxy_pose_revisions": 0,
+    "drawing_studies": 1,
+    "variants_are_labels_only": true
+  },
+  "renderer": "Inkscape 1.4 (e7c3feb100, 2024-10-09)"
+}

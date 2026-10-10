@@ -1,0 +1,174 @@
+{
+  "status": "RESEARCH_ONLY / NEW_LOCAL_COMPOSITION_PROPOSAL / AUTHOR_ADOPTION_ONLY",
+  "original_static_study_count": 1,
+  "cells": [
+    "N full-strength free arc",
+    "P adapted round shoulder, open cavity, one inward return"
+  ],
+  "xy_mapping": {
+    "X": "N",
+    "Y": "P",
+    "randomized": false,
+    "blind_test_claim": false
+  },
+  "source": {
+    "path": "/tmp/haruka_existing_action.png",
+    "git_blob_expected": "613147ad2be4f4b36d7f49cab7922a182a310118",
+    "git_blob_before": "613147ad2be4f4b36d7f49cab7922a182a310118",
+    "git_blob_after": "613147ad2be4f4b36d7f49cab7922a182a310118",
+    "source_raster_modified_embedded_or_cropped": false,
+    "formal_adoption": "not verified"
+  },
+  "source_link": "https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/art/ConceptArt/Scene/ConceptArt_Haruka_MagicalGirl_Action.png",
+  "grammar_inputs": [
+    "haruka_research_v05/PATTERN_GRAMMAR.md",
+    "haruka_research_v05/visual_tests/motion_dialects/motion_dialects_parameters.json",
+    "haruka_research_v05/visual_tests/motion_dialects/build_motion_plate.py"
+  ],
+  "geometry_declaration": "Both arc centerlines and the original proxy are newly drawn local schematics informed by observation. Not the unchanged v05 path, not a contour trace of the PNG, not official Haruka settei.",
+  "proxy": "One reusable body-proxy group: shoulder to continuous sleeve/forearm, cuff and foreshortened articulated glove; minimal torso and transverse plain belt. No face or full costume redesign.",
+  "depth": "Both arcs are drawn before the same opaque proxy, so source-observed local rear/under-fist relationship is represented with a common rear-layer assumption. Flat PNG does not establish recovered 3D depth.",
+  "coordinate_system": "SVG local units; +x right, +y down. Board 1800 x 1040. Both proxy/arc cells at scale 1.04 with identical local origins relative to panel.",
+  "centerline_cubic_beziers": [
+    [
+      [
+        302,
+        124
+      ],
+      [
+        225,
+        151
+      ],
+      [
+        140,
+        213
+      ],
+      [
+        128,
+        284
+      ]
+    ],
+    [
+      [
+        128,
+        284
+      ],
+      [
+        116,
+        354
+      ],
+      [
+        165,
+        405
+      ],
+      [
+        224,
+        419
+      ]
+    ],
+    [
+      [
+        224,
+        419
+      ],
+      [
+        257,
+        427
+      ],
+      [
+        296,
+        418
+      ],
+      [
+        318,
+        393
+      ]
+    ]
+  ],
+  "ordered_endpoints": {
+    "start": [
+      302.0,
+      124.0
+    ],
+    "end": [
+      318.0,
+      393.0
+    ]
+  },
+  "centerline_sample_count": 598,
+  "centerline_length": 531.8622937683723,
+  "width_stations_normalized_arclength": [
+    0.0,
+    0.035,
+    0.11,
+    0.19,
+    0.32,
+    0.49,
+    0.65,
+    0.82,
+    0.94,
+    1.0
+  ],
+  "shared_outer_half_width": [
+    0,
+    8,
+    14,
+    18,
+    21,
+    23,
+    21,
+    16,
+    8,
+    0
+  ],
+  "N_total_width": [
+    0,
+    18,
+    31,
+    40,
+    46,
+    48,
+    46,
+    35,
+    17,
+    0
+  ],
+  "P_total_width": [
+    0,
+    20,
+    48,
+    35,
+    37,
+    48,
+    46,
+    35,
+    17,
+    0
+  ],
+  "interpolation": "PCHIP. Inner width = total minus shared outer width. Tapered endpoints. Single closed polygon per shape.",
+  "shared_rendering": {
+    "gradient_stops": [
+      "#73e4fa",
+      "#40cbe9",
+      "#b6f7ff"
+    ],
+    "opacity": 0.98,
+    "glow_fill": "#24b9e9",
+    "glow_opacity": 0.24,
+    "glow_sigma": 5,
+    "highlight": "same centerline, 3.2 units, #d1fcff, opacity .76"
+  },
+  "intended_differences": "Inner pressure redistributes into one return near the long upper shoulder in P; N is smooth and broad throughout. No axis change, endpoint shift, extra branch, emit source, attack path or foreground cuff stress row.",
+  "not_claimed": [
+    "perceptual single-variable isolation",
+    "unchanged source silhouette",
+    "exact source arc tracing",
+    "exact perceptual brightness or weight matching",
+    "production quality character art",
+    "new mechanism, shield or restraint",
+    "animation or timing validation",
+    "generalized recognition rate",
+    "formal character adoption",
+    "W04 or W09 entire backlog completion"
+  ]
+}
