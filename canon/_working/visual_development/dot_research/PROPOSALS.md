@@ -68,7 +68,7 @@ COST：梵文是語言，悉曇等是書寫系統；文本／讀音／方向／�
 NEXT_EVIDENCE：先选一段具體來源，核原件圖、轉寫、翻譯、用途及允許變形，未完成不進最終圖。
 STATUS：PARTIAL / BACKLOG，無已認證字形。此支線不阻礙非文字 P03B。
 
-## 4. Foundation Card F-MAG-01「液脊／留白」v0.1
+## 4. Foundation Card F-MAG-01「液脊／留白」v0.1.1
 SOURCE：06 L309–330 / L758–781；01 L325–335；已核角色原文。VL005，參考支線 VL018；鏡相關另歸 VL010。
 STATUS：PROPOSAL / TEXT_ONLY / VISUAL_PENDING。三載體全部 PROPOSED_TRANSFER。
 重複問題：不同人物的魔法看似同一世界來源，仍能辨人物、動作方向和現有代價。
@@ -76,7 +76,7 @@ STATUS：PROPOSAL / TEXT_ONLY / VISUAL_PENDING。三載體全部 PROPOSED_TRANSF
 ### 既有母體與適用邊界
 重用 Cosmic Fluid＋燃燒結晶，不換源頭、不新增角色能力。不替換光環／心匣身份／已批角色核心紋樣。
 已看兩張 repo 候選角色 sheet，但圖內姓名與檔案不同；不能當目前採用圖。服裝只做 unattached swatch。VFX素材及心匣原圖仍未看。
-共同基礎只約束可適配的視覺筆法，不強迫全作品全部物件同形。
+共同基礎只約束已有、可適配的可見效果，不強迫全作品全部物件同形。沒有顯形的能力可以完全不套，不為展示共同筆法新增施法線／起手式。v0.1.1只收窄適用範圍，沒有新增母樣。
 
 ### 三個母體比較
 M1 液脊／留白（推薦）：一條厚薄明確的液脊，一側留乾淨負形；必要時有符合既有媒介的碎片。方向最清楚。
@@ -144,3 +144,28 @@ R01追加：“Several differently sized, non-reflective openings enclose dispro
 R02追加：“Three unequal platform strata expand above a narrowing support volume. An off-centre vertical gap orders the strata; body action relates to one negative-space edge but the figure is not a cosmic ruler. No lotus pedestal, mountain icon or symmetrical altar.”
 R00追加：“One finite outer shell contains a single implausibly deep walkway. No nesting, no cosmic axis, no repeating emblem. Preserve the same emotional and visual hierarchy.”
 文字描述不能保證生成器真正鎖住構圖；出圖後須檢查人物／明暗漂移，不能把失控多變因比較叫控制測試。
+
+
+## 7. v0.1.1 相容性補充：彩／黑奏與凜
+這是未出圖期間對W09的限定來源查核。不是讓所有能力看起來同一種液體的批准，也未認證角色VFX。
+
+### 彩／黑奏：先保留「操控既有現象」
+[aya L298–299](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/03_characters/aya.md#L298-L299)、[01 L582–599](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/01_world_rules_and_costs.md#L582-L599)：黑奏操控／改導／污染已有奇蹟級能量，不能自行原生產生；得力路徑與主角團不同。
+[CDL329 L473](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/_working/CANON_DECISION_LOG.md#L473)正式廢止萬花筒體系；不要用本輪佛教宇宙圖式將它換名字復活。
+可選轉譯：只在某個已核實、已可見的既有現象上試邊緣厚薄／留白；不得畫成從黑奏手中發射新的流束。心理操控不需要為共用base而補可見施法痕跡。
+保留：彩／黑奏意識、形態、代價與角色符號不同；不把彩終局金色燃魂當日常技能或黑奏材質。
+不採用：新武器具現、通用召喚陣、萬花筒、共同熊／雲emblem重畫。
+最低測試：先指定已有作用對象與批准效果，停格原版／邊緣微調對照；若讀成製造能量則退回原版。未找到效果資產，記PARTIAL而不是新造一招。
+注意[Brief L11393–11422](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/00_Story_Brief.html#L11393-L11422)的「視覺上與主系統分離」出現在HTML图表註解；不能據此發明「黑奏所有劇內VFX永遠不可同材質」規則。
+
+### 凜：有精準方向，尚無足夠招式母樣
+來源入口rin L26、49–89、263–293；兩形態X／倒V及頸紅線為角色規格。Beta冰藍／精準打擊是既有方向，不等於已核實冰元素能力。
+可選轉譯：找到具體精準打擊資產後，只沿其既有方向試極少量筆壓／負形；不自動加柔軟拖尾。
+不採用：頸紅線變攻擊線、C扣變法陣、紙星變彈藥、由破冰聲新增冰攻擊。
+[06 L1020–1032](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/06_visual_bible.md#L1020-L1032)是特定Alpha簽名／鏡像及出現限制，不可普及成每次攻擊特效。
+[rin L281–287](https://github.com/gsm041039/ProjectHarukaDocument/blob/dd7ecf83afeff3adef24f0a636d9b5dc62a15aec/canon/03_characters/rin.md#L281-L287)真實溫柔與空洞眼神並存；不靠把全部表情機械化來表示同一base。
+最低測試：先鎖時期／形態／既有攻擊，再做同停格微調；若誤讀冰魔法或新束縛線則退回。沒有具體形狀證據，不冒稱已完成凜簽名。
+
+### 版本影響
+F-MAG-01 v0.1.1＝v0.1的適用範圍收窄，不是新物理或新技能。v0.1保留在git前一commit以供回退。
+待重驗名單：晴香拳路、操絲線、紫音鎚路、布樣、心匣浮雕、W10尺寸集，以及後續彩／黑奏／凜應用。它們尚未畫，這是brief重驗清單，不冒稱曾有通過圖樣。

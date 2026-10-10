@@ -1,5 +1,5 @@
 # Haruka 美術研究 checkpoint — v0.1
-日期：2026-10-10 UTC；補充checkpoint v0.1.1。狀態：RESEARCH_ONLY / 第一批來源校準及文字候選。
+日期：2026-10-10 UTC；補充checkpoint v0.1.2。狀態：RESEARCH_ONLY / 第一批來源校準及文字候選。
 主線：P03B 非現世／集體潛意識／宇宙底層；相鄰題：魔法使用共同筆法。正式 canon、美術採用、skill 部署仍各自待作者批准。
 
 ## 授權與快照
@@ -43,6 +43,6 @@ promotion record 的歷史 5 次結果不是本批重現結果；20 新測試沒
 - PROPOSALS.md：融合方向／Foundation Card／母樣 brief／測試及反例。
 - ART_FOUNDATION_BACKLOG.md：去重工作單位、100 seed 映射、top10／first3。
 - REVIEW.md：作者閱讀入口及真正決策。
-本批後續已完成限定圖稿歸屬查核，詳ASSET_PROVENANCE.md；有reference用途但exact批准鏈未閉合。試圖授權待作者答覆。不依賴生圖的腥紅分布／緋潮機制查核亦已完成文字候選，見CRIMSON_STUDY.md。當前R01/R02/R00與筆法均到視覺證據gate；不再用文字輪數假裝變好。作者回覆後先按批准範圍試圖；其他backlog仍可獨立source research，但不全數自動開工。
+本批後續已完成限定圖稿歸屬查核，詳ASSET_PROVENANCE.md；有reference用途但exact批准鏈未閉合。試圖授權待作者答覆。不依賴生圖的腥紅分布／緋潮機制查核亦已完成文字候選，見CRIMSON_STUDY.md。當前R01/R02/R00與筆法均到視覺證據gate；不再用文字輪數假裝變好。另已做W09彩／黑奏／凜兩張相容卡，F-MAG-01升v0.1.1（只收窄到已有可見效果，不增施法痕跡）。作者回覆後先按批准範圍試圖；其他backlog仍可獨立source research，但不全數自動開工。
 任一來源、base 或 scope 更新，列出引用 base v0.1 的圖案母樣、載體、角色差異與尺寸測試需 REVALIDATE；不靜默覆蓋。
 完整 read manifest 見 EVIDENCE；本批不是全 repo 完整缺口審計。
