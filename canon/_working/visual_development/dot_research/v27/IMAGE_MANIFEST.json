@@ -1,0 +1,83 @@
+{
+  "batch": "v27",
+  "status": "EXPLORATORY_VISUAL_COMPARISON_AND_THREE_REVIEWER_DISCUSSION_COMPLETED",
+  "scene": "Two magical-girl proxies reaching across cosmic mirror fractures; near girl holds/turns shard",
+  "not_canon": true,
+  "tool": "built-in image_gen",
+  "generation_calls": 5,
+  "seed": "not exposed",
+  "conditions": [
+    {
+      "condition": "A",
+      "file": "A_stellar_v1.png",
+      "library_file_id": "libfile_fff375d04f5481919d1f7c284e18b0d4",
+      "source_intent": "Buddhist stellar-register derived, not representative of all Buddhist art",
+      "sha256": "1b48fd6c6c294faff50e9336737e1320b5f7c9f3d91e092ec3b679a45acbe976",
+      "bytes": 2466091,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "condition": "B1",
+      "file": "B_devotional_v1.png",
+      "library_file_id": "libfile_3c2fbe6108dc8191bff811c0a752af72",
+      "source_intent": "Christian devotional/tracery derived",
+      "sha256": "231029a66a41ac7dff8ec519c468b7ccef109b6f05c5ebc3d7abfd314b5c563d",
+      "bytes": 2751455,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "condition": "C",
+      "file": "C_hybrid_v1.png",
+      "library_file_id": "libfile_ee6b7a26049481918b97a00d2e9080d6",
+      "source_intent": "Integrated stellar node + articulated sacred frame hybrid",
+      "sha256": "cea729abfef5e75f4392b2812cc1760da2dba047b17ff1e9d68c1129b262a9a3",
+      "bytes": 2479753,
+      "dimensions": [
+        1673,
+        940
+      ]
+    },
+    {
+      "condition": "D",
+      "file": "D_original_v1.png",
+      "library_file_id": "libfile_ae7b131b4a208191b7251ba5982b2466",
+      "source_intent": "Original control without explicit religious motifs; base composition",
+      "sha256": "290c39c18edb67af959bd3e5e2f67604262f3d520fcd064721b9329cb60e3c0d",
+      "bytes": 2418130,
+      "dimensions": [
+        1672,
+        940
+      ]
+    },
+    {
+      "condition": "B2",
+      "file": "B_devotional_v2.png",
+      "library_file_id": "libfile_3b100e61ab388191b00b96c28f58ab38",
+      "source_intent": "Compound execution correction: less tracery plus cooler/lower glow",
+      "sha256": "e09efe2791814440a089f469ad493460be722a7afffe9319ee80826be0ca189d",
+      "bytes": 2441111,
+      "dimensions": [
+        1672,
+        940
+      ]
+    }
+  ],
+  "limitations": [
+    "Not blind",
+    "No human participants",
+    "No statistics",
+    "One original realization per source",
+    "Shared D base limits alternate structural composition",
+    "A/C lost remote crimson fracture kept in B/D",
+    "Lighting/material/density drift",
+    "Still cannot prove action causes world change",
+    "B2 not density-only ablation",
+    "Formal 20T/18C/12V4 NOT_EXECUTED"
+  ]
+}
