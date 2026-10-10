@@ -1,0 +1,54 @@
+{
+  "study": "Project Haruka B06 bounded original composite-portrait comparison",
+  "date": "2026-10-10",
+  "status": "Research only; no formal adoption or canonical role assigned",
+  "generator": "Built-in image_gen.imagegen",
+  "generation_calls": 2,
+  "correction_iterations": 0,
+  "generation_method": "Two independent text-only generations with identical written identity and palette paragraphs; no image-to-image conditioning, seed control, or causal matching",
+  "reference_images_supplied": [],
+  "source_use": "Compositional premises from the delivered B06 candidate brief and artist handoff card. The image-production step did not independently inspect museum images and supplied no museum imagery to the generator. Japanese nine-assembly premise in A; Met Hevajra iconography excluded.",
+  "briefs": [
+    "MANDALA_CANDIDATE_BRIEF.md",
+    "ARTIST_HANDOFF_THREE_CARDS.md"
+  ],
+  "common_identity": "Anonymous adult about 30, androgynous, slim, pale angular oval face, straight black collarbone-length center-parted hair, matte black high-collared upper-shin coat, black trousers and boots, tiny muted crimson binding on left wrist.",
+  "scope_limits": [
+    "No formal adoption",
+    "No named canonical character assignment",
+    "No claim of free will, religious recognition, or doctrine validated",
+    "No new clones, parallel worlds, reincarnation, or character power",
+    "No guarantee of identical face or exactly-three protagonist count",
+    "Not a strict causal comparison"
+  ],
+  "files": [
+    {
+      "label": "A",
+      "image": "A_nine_sacred_assemblies.png",
+      "prompt": "prompt_A_nine_sacred_assemblies.txt",
+      "original_tool_output": "generated_images/exec-a050006a-2bfc-4a40-95a4-4c5483567c03.png",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": 1.7768331562167907,
+      "target_aspect_ratio": "16:9",
+      "aspect_ratio_note": "Original output 1672×941 is approximately 16:9; preserved byte-for-byte without resizing or cropping.",
+      "sha256": "110341989ae38588dc7556b591f47426955b8e7b3b3b1faac7f646acee5fce30",
+      "prompt_sha256": "694eb854e1afa5e087cf0c27fde9d9ba935b4a9764a01c8917bc76af6dd89641",
+      "bytes": 3510450
+    },
+    {
+      "label": "B",
+      "image": "B_three_original_portraits.png",
+      "prompt": "prompt_B_three_original_portraits.txt",
+      "original_tool_output": "generated_images/exec-15b59e16-579d-48a7-ab68-5f5b9cfc2bb8.png",
+      "width": 1672,
+      "height": 941,
+      "aspect_ratio": 1.7768331562167907,
+      "target_aspect_ratio": "16:9",
+      "aspect_ratio_note": "Original output 1672×941 is approximately 16:9; preserved byte-for-byte without resizing or cropping.",
+      "sha256": "d12fe8f093d348533dd227e9627f64031826d97fef23f67268bd01cda0c6bed5",
+      "prompt_sha256": "751d1fbecf26d3428672d776e37ba36871ad7681b9b1c71c5992ee0d13d87870",
+      "bytes": 3071506
+    }
+  ]
+}
