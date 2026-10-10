@@ -1,0 +1,22 @@
+{
+  "source_frame_count": 37,
+  "gif_encoded_frames": 25,
+  "gif_duration_ms": 2010,
+  "fixed_foreground_identical": true,
+  "original_far_stars_identical": true,
+  "near_far_marker_pixels_keyframes": {
+    "6": [
+      108,
+      119
+    ],
+    "18": [
+      0,
+      117
+    ],
+    "30": [
+      0,
+      0
+    ]
+  },
+  "limits": "Declared geometry and rendered pixel consistency only; not independent reader or material realism test."
+}

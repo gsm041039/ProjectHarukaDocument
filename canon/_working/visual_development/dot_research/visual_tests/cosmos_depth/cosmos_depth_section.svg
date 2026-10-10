@@ -1,0 +1,324 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1360" viewBox="0 0 1900 1360"><title>Project Haruka cosmic stage: proposed normalized side construction</title><desc>Native-vector side elevation of the existing 15-group high-intensity candidate. Visible evidence and proposed depth reconstruction are distinguished. No measured dimensions, tested 3D scene, unrestricted camera, canon cosmology or performance claim.</desc><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#c0cad5"/></marker><marker id="gold-arrow" markerWidth="8" markerHeight="8" refX="6.5" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#f5bc69"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="10" stroke="#b7c9da" stroke-width="2" opacity=".35"/></pattern></defs><g font-family="DejaVu Sans, sans-serif">
+<g id="L00_cold_black_and_sheet">
+<rect x="0" y="0" width="1900" height="1360" fill="#0b1017" stroke="none" stroke-width="1" rx="0"/>
+<rect x="40" y="180" width="1370" height="705" fill="#101923" stroke="#334351" stroke-width="1" rx="10"/>
+<rect x="1430" y="180" width="430" height="705" fill="#131c27" stroke="#334351" stroke-width="1" rx="10"/>
+<rect x="40" y="910" width="615" height="362" fill="#111b25" stroke="#334351" stroke-width="1" rx="10"/>
+<rect x="677" y="910" width="610" height="362" fill="#111b25" stroke="#334351" stroke-width="1" rx="10"/>
+<rect x="1309" y="910" width="551" height="362" fill="#111b25" stroke="#334351" stroke-width="1" rx="10"/>
+<line x1="110" y1="790" x2="1375" y2="790" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="724" x2="1375" y2="724" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="658" x2="1375" y2="658" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="592" x2="1375" y2="592" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="526" x2="1375" y2="526" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="460" x2="1375" y2="460" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="394" x2="1375" y2="394" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="328" x2="1375" y2="328" stroke="#243240" stroke-width="1" />
+<line x1="110" y1="262" x2="1375" y2="262" stroke="#243240" stroke-width="1" />
+<line x1="166" y1="220" x2="166" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="354" y1="220" x2="354" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="542" y1="220" x2="542" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="730" y1="220" x2="730" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="918" y1="220" x2="918" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="1106" y1="220" x2="1106" y2="820" stroke="#22313e" stroke-width="1" />
+<line x1="1294" y1="220" x2="1294" y2="820" stroke="#22313e" stroke-width="1" />
+</g>
+<g id="L01_far_star_band">
+<circle cx="1294.0" cy="394.0" r="2.8000000000000003" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1287.6" cy="390.0" r="1.2000000000000002" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1301.2" cy="396.4" r="1.36" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1282.8" cy="398.8" r="0.96" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1306.8" cy="388.4" r="1.6800000000000002" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1297.2" cy="384.4" r="0.96" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1291.6" cy="402.0" r="1.04" fill="#8398c2" stroke="none" stroke-width="1"/>
+<line x1="1286" y1="394.0" x2="1302" y2="394.0" stroke="#8398c2" stroke-width="1.2" />
+<line x1="1294" y1="386.0" x2="1294" y2="402.0" stroke="#8398c2" stroke-width="1.2" />
+<circle cx="1317.5" cy="526.0" r="2.275" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1312.3" cy="522.75" r="0.9750000000000001" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1323.35" cy="527.95" r="1.105" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1308.4" cy="529.9" r="0.78" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1327.9" cy="521.45" r="1.3650000000000002" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1320.1" cy="518.2" r="0.78" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1315.55" cy="532.5" r="0.8450000000000001" fill="#8398c2" stroke="none" stroke-width="1"/>
+<line x1="1309.5" y1="526.0" x2="1325.5" y2="526.0" stroke="#8398c2" stroke-width="1.2" />
+<line x1="1317.5" y1="518.0" x2="1317.5" y2="534.0" stroke="#8398c2" stroke-width="1.2" />
+<circle cx="1284.6000000000001" cy="704.2" r="2.1" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1279.8000000000002" cy="701.2" r="0.8999999999999999" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1290.0000000000002" cy="706.0" r="1.02" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1276.2" cy="707.8000000000001" r="0.72" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1294.2" cy="700.0" r="1.26" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1287.0000000000002" cy="697.0" r="0.72" fill="#8398c2" stroke="none" stroke-width="1"/>
+<circle cx="1282.8000000000002" cy="710.2" r="0.78" fill="#8398c2" stroke="none" stroke-width="1"/>
+<line x1="1276.6000000000001" y1="704.2" x2="1292.6000000000001" y2="704.2" stroke="#8398c2" stroke-width="1.2" />
+<line x1="1284.6000000000001" y1="696.2" x2="1284.6000000000001" y2="712.2" stroke="#8398c2" stroke-width="1.2" />
+</g>
+<g id="L02_middle_back">
+<circle cx="1153.0" cy="361.0" r="3.5" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1145.0" cy="356.0" r="1.5" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1162.0" cy="364.0" r="1.7" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1139.0" cy="367.0" r="1.2" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1169.0" cy="354.0" r="2.1" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1157.0" cy="349.0" r="1.2" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1150.0" cy="371.0" r="1.3" fill="#70baf0" stroke="none" stroke-width="1"/>
+<line x1="1145.0" y1="361.0" x2="1161.0" y2="361.0" stroke="#70baf0" stroke-width="1.2" />
+<line x1="1153.0" y1="353.0" x2="1153.0" y2="369.0" stroke="#70baf0" stroke-width="1.2" />
+<circle cx="1129.5" cy="644.8" r="2.8000000000000003" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1123.1" cy="640.8" r="1.2000000000000002" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1136.7" cy="647.1999999999999" r="1.36" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1118.3" cy="649.5999999999999" r="0.96" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1142.3" cy="639.1999999999999" r="1.6800000000000002" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1132.7" cy="635.1999999999999" r="0.96" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="1127.1" cy="652.8" r="1.04" fill="#70baf0" stroke="none" stroke-width="1"/>
+<line x1="1121.5" y1="644.8" x2="1137.5" y2="644.8" stroke="#70baf0" stroke-width="1.2" />
+<line x1="1129.5" y1="636.8" x2="1129.5" y2="652.8" stroke="#70baf0" stroke-width="1.2" />
+</g>
+<g id="L03_near_back">
+<circle cx="1040.2" cy="301.59999999999997" r="4.55" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1029.8" cy="295.09999999999997" r="1.9500000000000002" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1051.9" cy="305.49999999999994" r="2.21" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1022.0" cy="309.4" r="1.56" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1061.0" cy="292.49999999999994" r="2.7300000000000004" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1045.4" cy="285.99999999999994" r="1.56" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1036.3" cy="314.59999999999997" r="1.6900000000000002" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<line x1="1032.2" y1="301.59999999999997" x2="1048.2" y2="301.59999999999997" stroke="#b6ecf7" stroke-width="1.2" />
+<line x1="1040.2" y1="293.59999999999997" x2="1040.2" y2="309.59999999999997" stroke="#b6ecf7" stroke-width="1.2" />
+<circle cx="1021.4" cy="737.2" r="3.5" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1013.4" cy="732.2" r="1.5" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1030.4" cy="740.2" r="1.7" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1007.4" cy="743.2" r="1.2" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1037.4" cy="730.2" r="2.1" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1025.4" cy="725.2" r="1.2" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="1018.4" cy="747.2" r="1.3" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<line x1="1013.4" y1="737.2" x2="1029.4" y2="737.2" stroke="#b6ecf7" stroke-width="1.2" />
+<line x1="1021.4" y1="729.2" x2="1021.4" y2="745.2" stroke="#b6ecf7" stroke-width="1.2" />
+</g>
+<g id="L04_upper_square_back">
+<rect x="950.9" y="519.4000000000001" width="51.7" height="26.400000000000002" fill="#93afc3" stroke="#d3dfe8" stroke-width="2" rx="0"/>
+<rect x="950.9" y="519.4000000000001" width="51.7" height="26.400000000000002" fill="url(#hatch)" stroke="none" stroke-width="1" rx="0"/>
+</g>
+<g id="L05_lower_square_back">
+<rect x="1021.4" y="638.2" width="61.1" height="26.400000000000002" fill="#b8a4d2" stroke="#d3dfe8" stroke-width="2" rx="0"/>
+<rect x="1021.4" y="638.2" width="61.1" height="26.400000000000002" fill="url(#hatch)" stroke="none" stroke-width="1" rx="0"/>
+</g>
+<g id="L06_central_inverted_mass">
+<path d="M636.0 275.2 L908.6 275.2 L922.7 380.8 L847.5 585.4 L767.6 704.2 L692.4 479.8 Z" fill="#283443" stroke="#a6bccd" stroke-width="2.5"/>
+<path d="M762.9 275.2 L791.1 427.0 L765.7 526.0 L767.6 704.2" fill="none" stroke="#d5e6ef" stroke-width="5"/>
+<path d="M781.7 275.2 L809.0 427.0 L782.6 526.0 L767.6 704.2" fill="none" stroke="#4f697d" stroke-width="10"/>
+</g>
+<g id="L07_middle_front">
+<circle cx="565.5" cy="367.59999999999997" r="2.975" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="558.7" cy="363.34999999999997" r="1.275" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="573.15" cy="370.15" r="1.4449999999999998" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="553.6" cy="372.7" r="1.02" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="579.1" cy="361.65" r="1.785" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="568.9" cy="357.4" r="1.02" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="562.95" cy="376.09999999999997" r="1.105" fill="#70baf0" stroke="none" stroke-width="1"/>
+<line x1="557.5" y1="367.59999999999997" x2="573.5" y2="367.59999999999997" stroke="#70baf0" stroke-width="1.2" />
+<line x1="565.5" y1="359.59999999999997" x2="565.5" y2="375.59999999999997" stroke="#70baf0" stroke-width="1.2" />
+<circle cx="560.8" cy="750.4" r="2.625" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="554.8" cy="746.65" r="1.125" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="567.55" cy="752.65" r="1.275" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="550.3" cy="754.9" r="0.8999999999999999" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="572.8" cy="745.15" r="1.5750000000000002" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="563.8" cy="741.4" r="0.8999999999999999" fill="#70baf0" stroke="none" stroke-width="1"/>
+<circle cx="558.55" cy="757.9" r="0.9750000000000001" fill="#70baf0" stroke="none" stroke-width="1"/>
+<line x1="552.8" y1="750.4" x2="568.8" y2="750.4" stroke="#70baf0" stroke-width="1.2" />
+<line x1="560.8" y1="742.4" x2="560.8" y2="758.4" stroke="#70baf0" stroke-width="1.2" />
+</g>
+<g id="L08_upper_square_front">
+<rect x="603.1" y="519.4000000000001" width="51.7" height="26.400000000000002" fill="#6e8ca2" stroke="#d3dfe8" stroke-width="2.5" rx="0"/>
+<rect x="603.1" y="519.4000000000001" width="51.7" height="26.400000000000002" fill="url(#hatch)" stroke="none" stroke-width="1" rx="0"/>
+</g>
+<g id="L09_near_front">
+<circle cx="466.8" cy="460.0" r="4.55" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="456.40000000000003" cy="453.5" r="1.9500000000000002" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="478.5" cy="463.9" r="2.21" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="448.6" cy="467.8" r="1.56" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="487.6" cy="450.9" r="2.7300000000000004" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="472.0" cy="444.4" r="1.56" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="462.90000000000003" cy="473.0" r="1.6900000000000002" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<line x1="458.8" y1="460.0" x2="474.8" y2="460.0" stroke="#b6ecf7" stroke-width="1.2" />
+<line x1="466.8" y1="452.0" x2="466.8" y2="468.0" stroke="#b6ecf7" stroke-width="1.2" />
+<circle cx="480.90000000000003" cy="605.2" r="3.8500000000000005" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="472.1" cy="599.7" r="1.6500000000000001" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="490.8" cy="608.5" r="1.87" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="465.50000000000006" cy="611.8000000000001" r="1.32" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="498.50000000000006" cy="597.5" r="2.3100000000000005" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="485.3" cy="592.0" r="1.32" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<circle cx="477.6" cy="616.2" r="1.4300000000000002" fill="#b6ecf7" stroke="none" stroke-width="1"/>
+<line x1="472.90000000000003" y1="605.2" x2="488.90000000000003" y2="605.2" stroke="#b6ecf7" stroke-width="1.2" />
+<line x1="480.90000000000003" y1="597.2" x2="480.90000000000003" y2="613.2" stroke="#b6ecf7" stroke-width="1.2" />
+</g>
+<g id="L10_lower_square_front">
+<rect x="504.40000000000003" y="638.2" width="61.1" height="26.400000000000002" fill="#8a74a6" stroke="#dbceed" stroke-width="2.5" rx="0"/>
+<rect x="504.40000000000003" y="638.2" width="61.1" height="26.400000000000002" fill="url(#hatch)" stroke="none" stroke-width="1" rx="0"/>
+</g>
+<g id="L11_walkway">
+<path d="M288.2 790.0 L448.0 790.0 L464.9 801.9 L288.2 801.9 Z" fill="#798894" stroke="#d9e3ec" stroke-width="2"/>
+</g>
+<g id="L12_supporter">
+<circle cx="361.52" cy="717.4" r="6.5" fill="#e0e5ec" stroke="none" stroke-width="1"/>
+<path d="M361.5 725.3 L352.1 753.7 L324.9 790.0 M352.1 753.7 L378.4 760.3 L390.7 790.0 M358.7 733.9 L385.0 743.8 L400.1 745.1" fill="none" stroke="#e0e5ec" stroke-width="7"/>
+</g>
+<g id="L13_supported">
+<circle cx="423.56" cy="742.48" r="6" fill="#e3bdab" stroke="none" stroke-width="1"/>
+<path d="M422.6 750.4 L419.8 772.2 L438.6 790.0 M419.8 772.2 L407.6 790.0 M422.6 755.7 L400.1 745.1" fill="none" stroke="#e3bdab" stroke-width="7"/>
+</g>
+<g id="L14_railing">
+<path d="M295.7 761.0 L295.7 790.0 M444.2 761.0 L444.2 790.0" fill="none" stroke="#bbc6d2" stroke-width="5"/>
+</g>
+<g id="annotations">
+<text x="48" y="58" font-size="34" fill="#f2f6fa" font-weight="700">COSMIC STAGE / MINIMUM DEPTH CONSTRUCTION</text>
+<text x="49" y="94" font-size="20" fill="#b9cad9" font-weight="400">Project Haruka v4  •  15-group high-intensity candidate  •  proposed screen-oriented staging</text>
+<rect x="48" y="120" width="890" height="35" fill="#182533" stroke="none" stroke-width="1" rx="6"/>
+<text x="62" y="144" font-size="17" fill="#f5c681" font-weight="600">All depths below are design coordinates. They are NOT measurements from the artwork.</text>
+
+<text x="981" y="143" font-size="17" fill="#dce4ec" font-weight="400">V label: visible feature</text>
+
+<text x="1256" y="143" font-size="17" fill="#dce4ec" font-weight="400">H label: proposed placement / hidden form</text>
+<text x="62" y="211" font-size="21" fill="#eef4f8" font-weight="700">A / SIDE ELEVATION</text>
+<text x="365" y="211" font-size="16" fill="#a9bccd" font-weight="400">x omitted; solids use centerline sections; off-axis star pieces are projected</text>
+<text x="76" y="796" font-size="15" fill="#7e93a6" font-weight="400">0</text>
+<text x="76" y="664" font-size="15" fill="#7e93a6" font-weight="400">2</text>
+<text x="76" y="532" font-size="15" fill="#7e93a6" font-weight="400">4</text>
+<text x="76" y="400" font-size="15" fill="#7e93a6" font-weight="400">6</text>
+<text x="76" y="268" font-size="15" fill="#7e93a6" font-weight="400">8</text>
+<text x="66" y="243" font-size="17" fill="#d1dde7" font-weight="400">+y</text>
+<line x1="94" y1="287" x2="94" y2="247" stroke="#c0cad5" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="161" y="847" font-size="15" fill="#859bad" font-weight="400">0</text>
+<text x="349" y="847" font-size="15" fill="#859bad" font-weight="400">2</text>
+<text x="537" y="847" font-size="15" fill="#859bad" font-weight="400">4</text>
+<text x="725" y="847" font-size="15" fill="#859bad" font-weight="400">6</text>
+<text x="913" y="847" font-size="15" fill="#859bad" font-weight="400">8</text>
+<text x="1101" y="847" font-size="15" fill="#859bad" font-weight="400">10</text>
+<text x="1289" y="847" font-size="15" fill="#859bad" font-weight="400">12</text>
+<line x1="166" y1="867" x2="1340" y2="867" stroke="#8296a9" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="950" y="859" font-size="15" fill="#a9bfce" font-weight="400">+z = farther from the hero camera</text>
+<path d="M132 692.8 L156 692.8 L156 728.8 L132 728.8 Z" fill="#1f3446" stroke="#d1dce6" stroke-width="2"/>
+<path d="M156 699.8 L166 691.8 L166 729.8 L156 721.8 Z" fill="#1f3446" stroke="#d1dce6" stroke-width="2"/>
+<line x1="166" y1="710.8" x2="1331.6000000000001" y2="255.39999999999998" stroke="#7894aa" stroke-width="1.3" stroke-dasharray="6 7" />
+<line x1="166" y1="710.8" x2="1331.6000000000001" y2="809.8" stroke="#7894aa" stroke-width="1.3" stroke-dasharray="6 7" />
+<text x="87" y="749" font-size="18" fill="#f2f6fa" font-weight="700">C</text>
+<text x="68" y="772" font-size="14" fill="#a5bacb" font-weight="400">(0, 1.2)</text>
+<line x1="166" y1="710.8" x2="603.1" y2="535.4285714285713" stroke="#f5bc69" stroke-width="2.3" marker-end="url(#gold-arrow)"/>
+<line x1="603.1" y1="535.4285714285713" x2="1153.0" y2="314.8" stroke="#f5bc69" stroke-width="1.4" stroke-dasharray="7 6" />
+<circle cx="603.1" cy="535.4285714285713" r="6" fill="#f5bc69" stroke="#172331" stroke-width="2"/>
+<circle cx="1153.0" cy="314.8" r="2.275" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1147.8" cy="311.55" r="0.9750000000000001" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1158.85" cy="316.75" r="1.105" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1143.9" cy="318.7" r="0.78" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1163.4" cy="310.25" r="1.3650000000000002" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1155.6" cy="307.0" r="0.78" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<circle cx="1151.05" cy="321.3" r="0.8450000000000001" fill="#f5bc69" stroke="none" stroke-width="1"/>
+<line x1="1145.0" y1="314.8" x2="1161.0" y2="314.8" stroke="#f5bc69" stroke-width="1.2" />
+<line x1="1153.0" y1="306.8" x2="1153.0" y2="322.8" stroke="#f5bc69" stroke-width="1.2" />
+<text x="298" y="601" font-size="17" fill="#f5bc69" font-weight="700">O1</text>
+<line x1="166" y1="710.8" x2="724.9417040358745" y2="576.9058295964126" stroke="#b7dbca" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="724.9417040358745" y1="576.9058295964126" x2="965.0" y2="519.4000000000001" stroke="#b7dbca" stroke-width="1.4" stroke-dasharray="7 6" />
+<circle cx="724.9417040358745" cy="576.9058295964126" r="5" fill="#b7dbca" stroke="none" stroke-width="1"/>
+<text x="435" y="678" font-size="17" fill="#b7dbca" font-weight="700">O2</text>
+<text x="770" y="244" font-size="19" fill="#dce6ef" font-weight="600">V / L06 inverted mass + fissure</text>
+<text x="770" y="267" font-size="15" fill="#a7baca" font-weight="400">H / wedge thickness + unseen return</text>
+<text x="721" y="500" font-size="20" fill="#c4d6e4" font-weight="700">L06</text>
+<text x="666" y="527" font-size="16" fill="#a7bdce" font-weight="400">opaque</text>
+<text x="607" y="455" font-size="16" fill="#d1dfeb" font-weight="600">L08</text>
+<line x1="621" y1="463" x2="621" y2="514.4000000000001" stroke="#98aec0" stroke-width="1" />
+<text x="960" y="497" font-size="16" fill="#d1dfeb" font-weight="600">L04</text>
+<text x="475" y="675" font-size="16" fill="#d8cbe9" font-weight="600">L10</text>
+<text x="1021" y="623" font-size="16" fill="#d8cbe9" font-weight="600">L05</text>
+<line x1="654.8" y1="510.4000000000001" x2="697.1" y2="510.4000000000001" stroke="#87a6ba" stroke-width="1.4" stroke-dasharray="4 5" />
+<line x1="899.1999999999999" y1="510.4000000000001" x2="950.9" y2="510.4000000000001" stroke="#87a6ba" stroke-width="1.4" stroke-dasharray="4 5" />
+<text x="877" y="570" font-size="15" fill="#a9bccd" font-weight="400">H / rear corner</text>
+<line x1="996" y1="563" x2="966.88" y2="529.3" stroke="#7d97ad" stroke-width="1" />
+<text x="353" y="414" font-size="16" fill="#b6ecf7" font-weight="600">L09 near-front</text>
+<line x1="373" y1="421" x2="466.8" y2="445" stroke="#b6ecf7" stroke-width="1" stroke-dasharray="3 4" />
+<text x="411" y="333" font-size="16" fill="#70baf0" font-weight="600">L07 mid-front</text>
+<line x1="431" y1="340" x2="565.5" y2="352.59999999999997" stroke="#70baf0" stroke-width="1" stroke-dasharray="3 4" />
+<text x="1092" y="281" font-size="16" fill="#b6ecf7" font-weight="600">L03 near-back</text>
+<line x1="1112" y1="288" x2="1040.2" y2="286.59999999999997" stroke="#b6ecf7" stroke-width="1" stroke-dasharray="3 4" />
+<text x="1142" y="405" font-size="16" fill="#70baf0" font-weight="600">L02 mid-back</text>
+<line x1="1162" y1="412" x2="1153.0" y2="346.0" stroke="#70baf0" stroke-width="1" stroke-dasharray="3 4" />
+<text x="1235" y="488" font-size="16" fill="#8398c2" font-weight="600">L01 far</text>
+<line x1="1255" y1="495" x2="1317.5" y2="511" stroke="#8398c2" stroke-width="1" stroke-dasharray="3 4" />
+<circle cx="400.06000000000006" cy="745.12" r="8" fill="none" stroke="#f5bc69" stroke-width="2"/>
+<text x="258" y="815" font-size="16" fill="#dde4ea" font-weight="600">L11–14 / one contact rig + load path</text>
+<line x1="354.0" y1="776.8" x2="354.0" y2="790" stroke="#f5bc69" stroke-width="2" marker-end="url(#gold-arrow)"/>
+<text x="1451" y="214" font-size="18" fill="#f0f5f9" font-weight="700">READ THIS AS A BUILD HYPOTHESIS</text>
+<text x="1451" y="249" font-size="16" fill="#f5c681" font-weight="700">VISIBLE IN THE IMAGES</text>
+<text x="1451" y="276" font-size="15" fill="#c5d2dd" font-weight="400">Two people meet at one hand contact.</text>
+<text x="1451" y="300" font-size="15" fill="#c5d2dd" font-weight="400">The standing figure has a foothold.</text>
+<text x="1451" y="324" font-size="15" fill="#c5d2dd" font-weight="400">An immense inverted mass and crack.</text>
+<text x="1451" y="348" font-size="15" fill="#c5d2dd" font-weight="400">A clearly thick square-like perimeter.</text>
+<text x="1451" y="372" font-size="15" fill="#c5d2dd" font-weight="400">Dense, uneven star clusters / black gaps.</text>
+<text x="1451" y="415" font-size="16" fill="#f5c681" font-weight="700">RECONSTRUCTED HERE</text>
+<text x="1451" y="442" font-size="15" fill="#c5d2dd" font-weight="400">All z positions, y heights and thicknesses.</text>
+<text x="1451" y="466" font-size="15" fill="#c5d2dd" font-weight="400">A second independently solid perimeter.</text>
+<text x="1451" y="490" font-size="15" fill="#c5d2dd" font-weight="400">Back corners, hidden faces and foot locks.</text>
+<text x="1451" y="514" font-size="15" fill="#c5d2dd" font-weight="400">Five star pieces in three depth families.</text>
+<text x="1451" y="557" font-size="16" fill="#f5c681" font-weight="700">OCCLUSION SAMPLES</text>
+<text x="1451" y="584" font-size="15" fill="#c5d2dd" font-weight="400">O1: near beam stops the ray to a star.</text>
+<text x="1451" y="608" font-size="15" fill="#c5d2dd" font-weight="400">O2: mass stops the ray to a rear corner.</text>
+<text x="1451" y="632" font-size="15" fill="#c5d2dd" font-weight="400">Dashed ray portions are hidden from C.</text>
+<text x="1451" y="656" font-size="15" fill="#c5d2dd" font-weight="400">These are designed tests, not image proof.</text>
+<text x="1451" y="699" font-size="16" fill="#f5c681" font-weight="700">STAR ROUTING</text>
+<text x="1451" y="726" font-size="15" fill="#c5d2dd" font-weight="400">Dots mark placement, not star density.</text>
+<text x="1451" y="750" font-size="15" fill="#c5d2dd" font-weight="400">Route pieces through lateral corridors.</text>
+<text x="1451" y="774" font-size="15" fill="#c5d2dd" font-weight="400">Keep L07 off the opaque mass silhouette.</text>
+<text x="1451" y="798" font-size="15" fill="#c5d2dd" font-weight="400">“Front” is relative to its own band only.</text>
+<text x="62" y="944" font-size="20" fill="#f0f4f8" font-weight="700">B / THICK SQUARE PERIMETER</text>
+<text x="62" y="973" font-size="15" fill="#aabecd" font-weight="400">Cutaway corner: top + wall + underside / hidden return</text>
+<path d="M92 1023 L302 995 L573 1055 L369 1115 Z" fill="#7895aa" stroke="#d4e3ed" stroke-width="2"/>
+<path d="M168 1026 L303 1009 L491 1052 L363 1088 Z" fill="#111b25" stroke="#536f82" stroke-width="1.5"/>
+<path d="M92 1023 L369 1115 L369 1163 L92 1071 Z" fill="#3f5b70" stroke="#d4e3ed" stroke-width="2"/>
+<path d="M369 1115 L573 1055 L573 1103 L369 1163 Z" fill="#506c81" stroke="#d4e3ed" stroke-width="2"/>
+<path d="M168 1026 L363 1088 L363 1105 L168 1043 Z" fill="#263f51" stroke="#7f9caf" stroke-width="1"/>
+<line x1="602" y1="1055" x2="602" y2="1103" stroke="#f5bc69" stroke-width="2" />
+<line x1="593" y1="1055" x2="611" y2="1055" stroke="#f5bc69" stroke-width="2" />
+<line x1="593" y1="1103" x2="611" y2="1103" stroke="#f5bc69" stroke-width="2" />
+<text x="583" y="1133" font-size="16" fill="#f5bc69" font-weight="600">t</text>
+<text x="75" y="1201" font-size="16" fill="#cbd8e1" font-weight="400">H: section thickness t = 0.40 U for both tiers.</text>
+<text x="75" y="1228" font-size="16" fill="#cbd8e1" font-weight="400">V: thickness cues. H: these dimensions / full loop.</text>
+<text x="75" y="1255" font-size="15" fill="#a7bdcc" font-weight="400">Side arms sit outside the centerline section in A.</text>
+<text x="699" y="944" font-size="20" fill="#f0f4f8" font-weight="700">C / CONTACT + SUPPORT LOCK</text>
+<text x="699" y="973" font-size="15" fill="#aabecd" font-weight="400">Enlarged rig constraint, not an anatomical pose study</text>
+<path d="M727 1140 L1228 1140 L1228 1167 L727 1167 Z" fill="#526776" stroke="#bac9d5" stroke-width="2"/>
+<circle cx="887" cy="1036" r="13" fill="#e0e5ec" stroke="none" stroke-width="1"/>
+<path d="M887 1052 L870 1087 L825 1140 M870 1087 L905 1103 L924 1140 M883 1067 L955 1070 L1000 1087" fill="none" stroke="#e0e5ec" stroke-width="11"/>
+<circle cx="1092" cy="1081" r="12" fill="#e3bdab" stroke="none" stroke-width="1"/>
+<path d="M1092 1094 L1085 1123 L1133 1140 M1085 1123 L1053 1140 M1090 1105 L1035 1092 L1000 1087" fill="none" stroke="#e3bdab" stroke-width="11"/>
+<circle cx="1000" cy="1087" r="15" fill="none" stroke="#f5bc69" stroke-width="2"/>
+<line x1="1000" y1="1071" x2="1000" y2="1031" stroke="#f5bc69" stroke-width="1.5" />
+<text x="946" y="1016" font-size="16" fill="#f5bc69" font-weight="600">shared contact</text>
+<line x1="825" y1="1119" x2="825" y2="1137" stroke="#f5bc69" stroke-width="2" marker-end="url(#gold-arrow)"/>
+<line x1="924" y1="1119" x2="924" y2="1137" stroke="#f5bc69" stroke-width="2" marker-end="url(#gold-arrow)"/>
+<line x1="1053" y1="1119" x2="1053" y2="1137" stroke="#f5bc69" stroke-width="2" marker-end="url(#gold-arrow)"/>
+<line x1="1133" y1="1119" x2="1133" y2="1137" stroke="#f5bc69" stroke-width="2" marker-end="url(#gold-arrow)"/>
+<text x="715" y="1201" font-size="16" fill="#cbd8e1" font-weight="400">V: contact and visible support. H: exact foot anchors.</text>
+<text x="715" y="1228" font-size="16" fill="#cbd8e1" font-weight="400">Lock L12 + L13 together; attach feet to L11 surface.</text>
+<text x="715" y="1255" font-size="15" fill="#a7bdcc" font-weight="400">L14 occludes locally; reflections stay separate.</text>
+<text x="1331" y="944" font-size="19" fill="#f0f4f8" font-weight="700">NORMALIZED DESIGN COORDINATES</text>
+<text x="1331" y="973" font-size="15" fill="#f5c681" font-weight="400">1 U = schematic standing-figure height; not meters.</text>
+<text x="1331" y="1010" font-size="14" fill="#a7bdce" font-weight="400">C / L11 footprint</text>
+<text x="1539" y="1010" font-size="13" fill="#e0e8ee" font-weight="400">z = 0 / 1.3–3.0</text>
+<line x1="1331" y1="1020" x2="1837" y2="1020" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1041" font-size="14" fill="#a7bdce" font-weight="400">L09 / L03 near family</text>
+<text x="1539" y="1041" font-size="13" fill="#e0e8ee" font-weight="400">z ≈ 3.2 / 9.3</text>
+<line x1="1331" y1="1051" x2="1837" y2="1051" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1072" font-size="14" fill="#a7bdce" font-weight="400">L07 / L02 mid family</text>
+<text x="1539" y="1072" font-size="13" fill="#e0e8ee" font-weight="400">z ≈ 4.2 / 10.5</text>
+<line x1="1331" y1="1082" x2="1837" y2="1082" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1103" font-size="14" fill="#a7bdce" font-weight="400">L01 far band</text>
+<text x="1539" y="1103" font-size="13" fill="#e0e8ee" font-weight="400">z ≈ 12.0</text>
+<line x1="1331" y1="1113" x2="1837" y2="1113" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1134" font-size="14" fill="#a7bdce" font-weight="400">L08 / L04 upper tier</text>
+<text x="1539" y="1134" font-size="13" fill="#e0e8ee" font-weight="400">z = 4.65–5.20 / 8.35–8.90</text>
+<line x1="1331" y1="1144" x2="1837" y2="1144" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1165" font-size="14" fill="#a7bdce" font-weight="400">L10 / L05 lower tier</text>
+<text x="1539" y="1165" font-size="13" fill="#e0e8ee" font-weight="400">z = 3.60–4.25 / 9.10–9.75</text>
+<line x1="1331" y1="1175" x2="1837" y2="1175" stroke="#293946" stroke-width="1" />
+<text x="1331" y="1196" font-size="14" fill="#a7bdce" font-weight="400">L06 inverted mass</text>
+<text x="1539" y="1196" font-size="13" fill="#e0e8ee" font-weight="400">z ≈ 5.0–8.05; y = 1.3–7.8</text>
+<line x1="1331" y1="1206" x2="1837" y2="1206" stroke="#293946" stroke-width="1" />
+<rect x="40" y="1291" width="1820" height="42" fill="#202735" stroke="none" stroke-width="1" rx="6"/>
+<text x="59" y="1318" font-size="17" fill="#d0dce7" font-weight="400">SCOPE: fixed hero view only • no camera range validated • no canon cosmology • no image segmentation • no 3D / engine / performance pass</text>
+</g></g></svg>

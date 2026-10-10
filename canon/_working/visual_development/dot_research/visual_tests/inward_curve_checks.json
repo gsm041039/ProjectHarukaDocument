@@ -1,0 +1,11 @@
+{
+  "source_frame_count": 37,
+  "paired_same_q": true,
+  "both_skin_groups_clipped": true,
+  "initial_stroke_overflow_fixed": true,
+  "gif_encoded_frames": 25,
+  "gif_duration_ms": 2010,
+  "fixed_foreground_identical": true,
+  "paired_starfield_region_identical": true,
+  "limits": "Construction checks only, not material realism or blind reading. Analytic shape clip fixes stroke leakage; edge antialias is normal."
+}

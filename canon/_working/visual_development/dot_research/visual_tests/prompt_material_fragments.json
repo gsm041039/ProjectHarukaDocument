@@ -1,0 +1,10 @@
+{
+  "intent": "三個小區域內建立液體遮在前、非工整寶石碎片在後",
+  "status": "EXECUTED",
+  "tool": "built-in image_gen",
+  "prompt": "Precise local image edit of supplied material_render_v011. Change ONLY the three existing crystal fragments and immediately adjoining liquid in RIGHT B. Keep all three, same approximate centers and size classes: top arm, left bend, bottom arm. Turn their tidy complete gemstone crowns and pointed jewel forms into asymmetric fractured thin chips / broken chunks, with a few legible hard fracture faces and irregular notches. Keep them crystalline, not rounded stones. Following the EXISTING flow, let translucent cyan liquid overlap part of each fragment's front and obscure roughly one quarter to one third of its outer edge; preserve a short sharp broken edge on the other side. Reduce contact shadows that make gems look placed on the surface. No new particles, halos, bubbles, jewelry settings or sparks. Preserve overall perceived brightness; any reduced gem highlight is replaced only by nearby covering liquid, not global exposure. Keep LEFT A, all text, background, silhouette, open cavity, all other flow patterns, crop and layout unchanged. This tests local front-liquid/behind-fragment relationships, not animation or burning. Preserve the accurate RASTER MATERIAL CANDIDATE footer.",
+  "control": "三塊數量/位置級別、A面板、輪廓、其他流紋、文字、整體亮度",
+  "sacrifice": "完整工整珠寶的遠看装饰辨識，換取破片及包覆深度",
+  "output": "material_fragments_v02.png",
+  "model_seed": "not exposed"
+}

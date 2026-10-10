@@ -1,0 +1,25 @@
+{
+  "fps": 30,
+  "frame_count": 37,
+  "projection": "Y = 240 - 200*y*sin35 - 200*q*cos35",
+  "q_curve": "q=-0.82*smoothstep(clamp((t-0.2)/0.8))",
+  "key_frames": [
+    6,
+    18,
+    30
+  ],
+  "q_key": [
+    -0.0,
+    -0.40999999999999986,
+    -0.82
+  ],
+  "moving_layer_rotation": 0,
+  "moving_layer_alpha": 1,
+  "raw_mark_Y": [
+    211.32117818244768,
+    145.93346443842844
+  ],
+  "starfield_seed": 42,
+  "fixed_seam_Y": 240,
+  "limits": "Declared signed-normal geometry; perspective ambiguity remains. No peel/curl, burnt-paper texture or reader result validated. GIF replay resets after final hold."
+}

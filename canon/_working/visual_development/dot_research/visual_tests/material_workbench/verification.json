@@ -1,0 +1,127 @@
+{
+  "source": "haruka_research_v03/visual_tests/pattern_identity_alpha.svg",
+  "source_copy_sha256": "3bf555f1200af840ca677e2d308c048cc055d444dffc7901bcd55b80dd5f09e8",
+  "source_identity_path": "M0 0 C3 -0.6 8 -0.5 12 -1.2 C11 0 10.8 2 9 3.5 C9.5 1.5 9.3 1.2 8.1 1.2 C5.5 1.2 3 2.1 3 4 C3 5.6 4 6 7 6 L8 8 C4.5 7.8 2 8 0 8 C-1 5.5 -1 2.5 0 0 Z",
+  "viewBox": "-1.5 -2 14 11",
+  "width": 840,
+  "height": 660,
+  "renderer": "Inkscape 1.4 (e7c3feb100, 2024-10-09)",
+  "reference_nonzero_alpha_pixels": 212827,
+  "reference_opaque_pixels": 209548,
+  "reference_bbox": [
+    45,
+    48,
+    810,
+    600
+  ],
+  "keepout_probe_pixels_xy": {
+    "C_void": [
+      600,
+      360
+    ],
+    "outside_upper": [
+      420,
+      30
+    ],
+    "outside_right": [
+      810,
+      420
+    ],
+    "outside_lower": [
+      420,
+      630
+    ]
+  },
+  "results": {
+    "A_smooth_cyan": {
+      "size": [
+        840,
+        660
+      ],
+      "unique_svg_ids": true,
+      "raster_images": 0,
+      "filters": 0,
+      "same_viewBox": true,
+      "identity_d_matches_source": true,
+      "all_painted_layers_inside_identity_clip": true,
+      "alpha_bit_identical": true,
+      "alpha_differing_pixels": 0,
+      "max_alpha_difference": 0,
+      "nonzero_alpha_outside_source_support": 0,
+      "lost_nonzero_source_pixels": 0,
+      "changed_fully_opaque_source_pixels": 0,
+      "keepout_probe_alpha": {
+        "C_void": 0,
+        "outside_upper": 0,
+        "outside_right": 0,
+        "outside_lower": 0
+      },
+      "bbox": [
+        45,
+        48,
+        810,
+        600
+      ]
+    },
+    "B_viscous_material": {
+      "size": [
+        840,
+        660
+      ],
+      "unique_svg_ids": true,
+      "raster_images": 0,
+      "filters": 0,
+      "same_viewBox": true,
+      "identity_d_matches_source": true,
+      "all_painted_layers_inside_identity_clip": true,
+      "alpha_bit_identical": true,
+      "alpha_differing_pixels": 0,
+      "max_alpha_difference": 0,
+      "nonzero_alpha_outside_source_support": 0,
+      "lost_nonzero_source_pixels": 0,
+      "changed_fully_opaque_source_pixels": 0,
+      "keepout_probe_alpha": {
+        "C_void": 0,
+        "outside_upper": 0,
+        "outside_right": 0,
+        "outside_lower": 0
+      },
+      "bbox": [
+        45,
+        48,
+        810,
+        600
+      ]
+    },
+    "B_ablated": {
+      "size": [
+        840,
+        660
+      ],
+      "unique_svg_ids": true,
+      "raster_images": 0,
+      "filters": 0,
+      "same_viewBox": true,
+      "identity_d_matches_source": true,
+      "all_painted_layers_inside_identity_clip": true,
+      "alpha_bit_identical": true,
+      "alpha_differing_pixels": 0,
+      "max_alpha_difference": 0,
+      "nonzero_alpha_outside_source_support": 0,
+      "lost_nonzero_source_pixels": 0,
+      "changed_fully_opaque_source_pixels": 0,
+      "keepout_probe_alpha": {
+        "C_void": 0,
+        "outside_upper": 0,
+        "outside_right": 0,
+        "outside_lower": 0
+      },
+      "bbox": [
+        45,
+        48,
+        810,
+        600
+      ]
+    }
+  }
+}

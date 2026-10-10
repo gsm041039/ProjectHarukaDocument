@@ -1,0 +1,9 @@
+{
+  "intent": "固定輪廓中區分厚液內含碎晶與硬玻璃鑲嵌寶石",
+  "control": "A面板、輪廓、開腔、背景、布局",
+  "tool": "built-in image_gen",
+  "status": "EXECUTED",
+  "prompt": "Use case: precise-object-edit. Research-only material study. Edit the supplied A/B material sheet, not a new logo or a different silhouette. LEFT A is the untouched smooth glossy cyan control. Keep the sheet layout, labels, dark background, same two identical C-shaped open silhouettes, size, position, open cavity and pointed ends. Change only the material rendering INSIDE the RIGHT B silhouette. Current B incorrectly reads as carved hard glass / ice with three gems stuck on top. Replace that with visibly thick, viscous self-luminous cyan liquid: irregular broad pools of inner light, rounded connected meniscus volumes following the bend, restrained molten-glass edge highlights that broaden then taper instead of a uniform faceted bevel. No rigid parallel border frames, no carved triangular plates. Embed the same three irregular crystal fragments INSIDE the luminous liquid: partial submersion, interrupted edges and soft depth tint, some sharp fracture planes still visible; not jewelry glued on the surface. Keep dark and light massing legible at small scale, anime VFX material concept with limited graphic highlight groups, no photorealistic noise. Do not fill the large open cavity, change outline, add dripping tails, external sparks, bloom beyond the silhouette, magical symbols, text, characters or ability mechanics. Preserve all other parts. The cyan color is a test color, not a fixed character palette. This is a composite material candidate, not a scientific single-factor proof.",
+  "output": "material_render_v01.png",
+  "model_seed": "not exposed by tool"
+}

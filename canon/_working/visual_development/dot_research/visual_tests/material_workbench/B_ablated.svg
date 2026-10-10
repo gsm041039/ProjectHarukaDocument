@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="840" height="660" viewBox="-1.5 -2 14 11">
+<title>B — layer ablation: thickness, internal-glow, highlights, crystals</title>
+<desc>Controlled native-vector material research. Exact unchanged hook-C candidate mask; cyan is a test color. No character assignment, ability, or canon change. Single shared clip bounds every painted layer. Opaque base preserves source alpha.</desc>
+<defs>
+  <path id="identity-path" d="M0 0 C3 -0.6 8 -0.5 12 -1.2 C11 0 10.8 2 9 3.5 C9.5 1.5 9.3 1.2 8.1 1.2 C5.5 1.2 3 2.1 3 4 C3 5.6 4 6 7 6 L8 8 C4.5 7.8 2 8 0 8 C-1 5.5 -1 2.5 0 0 Z"/>
+  <clipPath id="identity-clip" clipPathUnits="userSpaceOnUse"><use href="#identity-path"/></clipPath>
+  <linearGradient id="body-cyan" x1="0.8" y1="-0.5" x2="7.3" y2="8" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#58d9f0"/><stop offset="0.28" stop-color="#2abbde"/>
+    <stop offset="0.63" stop-color="#127f9f"/><stop offset="1" stop-color="#28c9db"/>
+  </linearGradient>
+  <radialGradient id="smooth-gloss" cx="0.7" cy="0.5" r="8.3" gradientTransform="translate(0 0.3) scale(1 0.55)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ecffff" stop-opacity="0.83"/>
+    <stop offset="0.48" stop-color="#b7ffff" stop-opacity="0.23"/><stop offset="1" stop-color="#afffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="smooth-top-sheen" x1="4" y1="-0.6" x2="4" y2="1.1" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#f3ffff" stop-opacity="0.84"/>
+    <stop offset="1" stop-color="#9af7ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="thickness-band" x1="0" y1="1" x2="5" y2="7.6" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#134f67" stop-opacity="0.7"/><stop offset="0.5" stop-color="#043649" stop-opacity="0.94"/>
+    <stop offset="1" stop-color="#08556b" stop-opacity="0.88"/>
+  </linearGradient>
+  <linearGradient id="outer-thickness" x1="-0.75" y1="4" x2="2.2" y2="4" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#075267" stop-opacity="0.88"/><stop offset="0.5" stop-color="#086c81" stop-opacity="0.45"/>
+    <stop offset="1" stop-color="#49f3ed" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="flow-core" x1="1" y1="0.3" x2="7" y2="7.6" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#aafff3" stop-opacity="0.62"/><stop offset="0.35" stop-color="#64fff0" stop-opacity="0.89"/>
+    <stop offset="0.67" stop-color="#17cddd" stop-opacity="0.6"/><stop offset="1" stop-color="#8fffe9" stop-opacity="0.91"/>
+  </linearGradient>
+  <linearGradient id="flow-ridge" x1="2" y1="0.4" x2="4" y2="7" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#f2fff5" stop-opacity="0.69"/><stop offset="0.42" stop-color="#c0fff2" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#a7ffe9" stop-opacity="0.57"/>
+  </linearGradient>
+  <radialGradient id="pool-left" cx="1.0" cy="3.9" r="2.55" gradientTransform="translate(0.25 -0.9) scale(0.8 1.22)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ddfff1" stop-opacity="0.61"/><stop offset="0.45" stop-color="#72fff1" stop-opacity="0.34"/>
+    <stop offset="1" stop-color="#51ffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="pool-lower" cx="4.5" cy="6.94" r="2.6" gradientTransform="translate(0 4.51) scale(1 0.35)" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#e4fff0" stop-opacity="0.7"/><stop offset="0.58" stop-color="#7bffeb" stop-opacity="0.3"/>
+    <stop offset="1" stop-color="#5cffe9" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="molten-top" x1="1" y1="0" x2="11.7" y2="-0.9" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#ddfff2" stop-opacity="0.58"/><stop offset="0.38" stop-color="#f6fff1"/>
+    <stop offset="0.79" stop-color="#c5fff6" stop-opacity="0.88"/><stop offset="1" stop-color="#c8ffff" stop-opacity="0.15"/>
+  </linearGradient>
+  <linearGradient id="molten-lower" x1="0" y1="7.7" x2="7.5" y2="7" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#d4fff1" stop-opacity="0.19"/><stop offset="0.48" stop-color="#f2fff0" stop-opacity="0.93"/>
+    <stop offset="1" stop-color="#caffec" stop-opacity="0.28"/>
+  </linearGradient>
+  <linearGradient id="crystal-body" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0a586b"/><stop offset="0.42" stop-color="#367f8d"/><stop offset="1" stop-color="#76d6c8"/>
+  </linearGradient>
+  <linearGradient id="crystal-hot" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#55d4c2"/><stop offset="0.56" stop-color="#eaffbf"/><stop offset="1" stop-color="#ffffe9"/>
+  </linearGradient>
+</defs>
+<g id="identity-locked-material" clip-path="url(#identity-clip)">
+<g id="material-base" inkscape:groupmode="layer" inkscape:label="00 — opaque cyan body (retain)">
+  <rect x="-1.5" y="-2" width="14" height="11" fill="url(#body-cyan)"/>
+</g>
+
+</g>
+</svg>
