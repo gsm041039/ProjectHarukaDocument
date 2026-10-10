@@ -1,0 +1,12 @@
+{
+  "same_dimensions": true,
+  "size": [
+    840,
+    660
+  ],
+  "inverse_mask_max_difference": 0,
+  "spine_alpha": 255,
+  "cavity_alpha": 0,
+  "outside_alpha": 0,
+  "scope": "raster mask construction only; not appearance, reader study or supplied DEV suite"
+}
