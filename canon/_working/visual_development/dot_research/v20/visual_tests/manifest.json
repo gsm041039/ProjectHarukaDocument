@@ -1,0 +1,93 @@
+{
+  "unit": "Project Haruka B09 v20 welcome / distributed mutual-care original-image comparison",
+  "status": "research only; not adopted; no canon edits",
+  "date_utc": "2026-10-10",
+  "generation_window_utc": {
+    "started_approximately": "2026-10-10T13:47:14Z",
+    "finished_by": "2026-10-10T13:49:11Z"
+  },
+  "tool": "built-in image_gen.imagegen",
+  "seed": "not exposed by tool",
+  "model_id": "not exposed by tool",
+  "quality_parameter": "not exposed by tool",
+  "transparent_background": false,
+  "requested_aspect_ratio": "16:9 in prompt",
+  "actual_aspect_ratio": "1672:941, approximately 1.776834:1; original output retained",
+  "generation_count": 2,
+  "corrective_iterations": 0,
+  "external_purchases": 0,
+  "comparison_design": "multi-variable whole-intent comparison, not a causal single-variable test",
+  "locked_prompt_text_file": "shared_foreground_identity_palette.txt",
+  "observed_control_failures": [
+    "Foreground visible figure height substantially exceeds requested 18% in both images, approximately A 37%, B 49%, based on top-of-head to lower frame.",
+    "Foreground adults seated on added rocky material rather than the requested standing/back-leaning full-body posture.",
+    "Approximate shared clothing and identity; hairstyles/faces not strictly matched.",
+    "B adds backpack travel cues, children and cloud-rock pathways."
+  ],
+  "sources": [
+    {
+      "title": "Met: Welcoming Descent of Amida Buddha and Twenty-five Bodhisattvas, 1668",
+      "url": "https://www.metmuseum.org/art/collection/search/44602",
+      "use": "Relational textual inspiration only; no source image provided to generator."
+    },
+    {
+      "title": "Kyoto National Museum: Descent of Amida and the Heavenly Multitude, Chion-in, fourteenth century",
+      "url": "https://www.kyohaku.go.jp/eng/collection/meihin/butsuga/item06/",
+      "use": "Relational textual inspiration only; no source image provided to generator."
+    }
+  ],
+  "outputs": [
+    {
+      "label": "A",
+      "image_file": "A_cosmic_welcome.png",
+      "image_sha256": "96341e5e2c7bffb7ae1bb776007d6b83e3dc37340cbdca3307017105de8e873e",
+      "original_returned_filename": "exec-dcd845ac-0d07-41e0-a82d-22c5dc5c7803.png",
+      "original_image_copy_verified_identical": true,
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "color_mode": "RGB",
+      "format": "PNG",
+      "bytes": 2867883,
+      "prompt_file": "prompt_A_cosmic_welcome.txt",
+      "prompt_file_sha256": "9963de13a6c04825269e270965199cc2af0b6ade224ab94584d88b4d1603cf21",
+      "transmitted_prompt_sha256": "a95a407388654c1deb8ec3417f4041865af45b6feee71b7130f83371617680fa",
+      "prompt_text_file_has_terminal_linefeed_not_sent_to_tool": true,
+      "tool_arguments_file": "tool_arguments_A.json",
+      "image_input_count": 0,
+      "generation_calls": 1,
+      "postprocessing": "none",
+      "inspection": "Both actual original PNG files visually inspected at original detail. See B09_actual_image_inspection_zh-Hant.md."
+    },
+    {
+      "label": "B",
+      "image_file": "B_distributed_mutual_care.png",
+      "image_sha256": "44b5c1e72cdf30727aaadaec8d3c659539efad3bcc724a1e9b9d0848ff517e87",
+      "original_returned_filename": "exec-cb4a1cc1-33a1-4411-aa5f-474d0ef0346e.png",
+      "original_image_copy_verified_identical": true,
+      "pixel_dimensions": [
+        1672,
+        941
+      ],
+      "color_mode": "RGB",
+      "format": "PNG",
+      "bytes": 3071717,
+      "prompt_file": "prompt_B_distributed_mutual_care.txt",
+      "prompt_file_sha256": "450da4b140ba91ff7e49b3272a6c103859853fc484b78fbb613708e5cce9ac5e",
+      "transmitted_prompt_sha256": "3b8df27a0d6de7056738824cc330a3669c36ebdcaaa797b80ca07b24ccf668d7",
+      "prompt_text_file_has_terminal_linefeed_not_sent_to_tool": true,
+      "tool_arguments_file": "tool_arguments_B.json",
+      "image_input_count": 0,
+      "generation_calls": 1,
+      "postprocessing": "none",
+      "inspection": "Both actual original PNG files visually inspected at original detail. See B09_actual_image_inspection_zh-Hant.md."
+    }
+  ],
+  "conclusion_limits": [
+    "No audience test conducted.",
+    "No claim of proven psychological horror.",
+    "No inference of viewer refusal, capture, death or cosmic moral guarantees.",
+    "No author adoption."
+  ]
+}
