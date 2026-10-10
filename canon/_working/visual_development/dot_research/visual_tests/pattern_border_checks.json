@@ -1,0 +1,24 @@
+{
+  "strip": [
+    40,
+    16
+  ],
+  "group_bounds": [
+    [
+      2.8,
+      4,
+      17.2,
+      12
+    ],
+    [
+      22.8,
+      4,
+      37.2,
+      12
+    ]
+  ],
+  "seam": 20,
+  "seam_clearance_each_side": 2.8,
+  "counterexample_seam": 10,
+  "status": "construction only; not seam strength, textile production or garment adoption"
+}
