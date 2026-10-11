@@ -3,6 +3,8 @@
 - **2026-10-08 Skill 版本：story skills vNext.2.3 已正式 promote**（作者批准；TARGETED 預設／FULL 觸發角度政策已入 CLAUDE.md）。紀錄＋backlog：`canon/_working/PROMOTION_RECORD_vNext_2_3.md`。
 
 ## 🧭 方向重設（2026-09-30）— demo 範圍內由粗到幼重新討論（方法試驗）
+- **2026-10-08 晚**：作者要求 Beat 層由頭用 skill 重推 → v4（17 beat）完成推導，盲審部分完成；作者叫停大型 audit、定 sub-agent 上限。Checkpoint：`demo_pilot/beat_rederive_v4/CHECKPOINT.md`（10 類未處理 SHOULD_FIX，0 BLOCKS）。v3.2 降為 Reference。Director review PENDING。
+- **2026-10-08 更新**：QQ-227 兩項經 owner lookup 改為暫定，唔再阻塞——牙＝基地補糖甜品局暖峰中悄悄掉後排牙、操收起強忍、冇人察覺（Brief Act I 甜品掉牙圖）；連結＝雙向一瞬滲漏、晴香誤判為緊張（ACT_I_OUTLINE E-02 強制入侵，程度按 D-13 降）。獨立 premise audit 已併入。合併表 `demo_pilot/BEAT_LAYER_V3_2.md`（SEQ2 4＋SEQ3a 11＋SEQ3b 4 節點）。Beat 層 Director review＝PENDING，等作者批；Stage 6 暫停。
 - **2026-10-02 深夜更新**：盲審完成並 Diff（ledger §15）。Beat v3→v3.1（Cost Signal 補全、教學階梯、B7b／B9／B10 重排、糖量代價線、美夜子圈邊微反應、撤回 N2 擋風）已記為 HW／PROVISIONAL。BLOCKS 3 條：2 條已修，牙鏈時序待作者。待作者：①牙形式／範圍（Brief Act I 甜品掉牙 vs canon md Act II 縫牙）②連結「強制入侵」性質 demo 版處理；另 Master Angle Registry 建議加 4 個角度（唔靜靜加）。Beat 層 Director review＝PENDING；Stage 6 暫停。覆蓋誠實限制：角度 1–19 半盲、Gate B/C 部分只核一半，唔可講「完整考慮晒」。
 - **2026-10-02 晚更新**：Beat v3（range＝SEQ2＋SEQ3 含基地戲三人版＋真掉牙尾鉤、操知而收埋）內部完整但**角度覆蓋未獲證明**——作者質疑後確認先前 19 角度表係自寫單次掃描；已派獨立盲審（6 agent，`demo_pilot/blind_audit/`，結果待收）。制度：Master Angle Registry＝28 角度（angle-system.md Pool 3 新增 20–28）；每個建議須以全部角度為依據＋證據＋攻擊；Beat 層完整性 gate 變八項（含獨立盲審）；通用協議 `.claude/story_system/blind-angle-audit-protocol.md`。Beat 層批核 PENDING（只有作者可批）；Stage 6 暫停。
 - **2026-10-01（二）更新**：DERIVATION_LEDGER 已經五路質疑輪修正（§7 質疑結果、§8 Beat v2、§9 偏離登記）；DEMO_BEAT_LAYER 降 Reference-only。作者定尾鉤真掉牙（偏離上游，PROVISIONAL）。待作者批 Beat 層 v2。

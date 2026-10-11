@@ -346,3 +346,14 @@ Cost Signal 欄：N＝NOT_APPLICABLE（理由）／R＝REQUIRED／O＝OPTIONAL�
 3. **低優先（可擱 Scene 前）：** demo 獨立開機有冇教學前置；製作 baseline；Outline 虛榮種子埋伏行過期（canon 房務）。
 4. **註冊表（Master Angle Registry）建議新增，要作者知（唔靜靜加）：** A．場景邏輯／在場者與位置（Diegetic Logistics）；B．先教後用（Teach-before-use）；C．情感目標（Affect Target）；D．層級紀律（弱，同 12／24 重疊）。另建議：「demo 專用偏離」標記規則、「觀眾」定義（零前情新玩家 vs 睇過 SEQ1）、角度 27 製作 baseline。
 G 嘅未採納提案（候選，唔丟）：P2 SEQ2 可操作段（激進）／P3 戰後三合一（會刪 B10）／P4 N1 手機載體／P8 牙微伏筆（併 K3）。
+
+## 16. QQ-227 按 owner lookup 暫定＋Beat v3.2 合併表（2026-10-08；PILOT；Director review 仍＝PENDING）
+**重新分類（vNext.2.3 權限 funnel）：** QQ-227 兩項原列作者決定；今次先做 OWNER_LOOKUP，再試 PROVISIONAL_DEFAULT，兩項都有可逆、低損害、同 canon 相容嘅暫定做法 → 改為 MATERIAL，唔問作者。
+- **牙形式（K3／K4）：** OWNER＝00_Story_Brief.html L7636–7639、L9321–9329（Act I 第一階段「甜品掉牙——開心食甜品時悄悄掉牙，旁人渾然不覺；操強忍恐懼繼續假裝正常」）＋L4846（Tender Cruelty 畫面範例）。PROVISIONAL_DEFAULT：原 H1 獨處尾鉤併入 M4 暖峰補糖（T1）。why_safe：Brief 直接支持、減一個收尾 beat、只改 Beat 層 HW 位置。invalidating_condition：作者要暖→冷獨處尾。rework：還原 H1（T2；應改引 Brief L6098「先處理現場才掉牙」）。
+- **demo 專用 vs canon：** PROVISIONAL_DEFAULT＝demo 專用（PILOT 唔 writeback）。完整版 Brief（Act I 掉牙）vs ACT_II_OUTLINE（Stage 1 L192／Stage 2a L285／E-09a 縫牙 L371）＝CANON_FACT 張力，DEFERRED 到完整版 Act I／II 重排時，唔阻 demo。
+- **連結性質（K17）：** OWNER＝ACT_I_OUTLINE L136（E-02＝「強制心理入侵／創傷共享」，CDL-224 Act I 最強懷疑點）＋Brief L9312（彼此看見）／L9422（四人戰後跨污染最恐怖）。L0（只示範力量）撞 L136 → 否決。PROVISIONAL_DEFAULT＝L1 改良：雙向一瞬滲漏、無記憶內容、晴香誤判為緊張、美夜子認得但唔講。程度刻意低過 Outline＝D-13 好暖延伸（偏離 1）。invalidating_condition：作者要 demo 保留 Outline 嘅「勝利後靜默」強度。rework：B4 加重＋B10 改靜默。
+**獨立 PREMISE_AUDIT（1 agent，唔睇推薦）結果併入：** ①基地喺 E-03 後遺症之前＝食到甜（STRICT_INFERENCE，canon 次序）②美夜子點解冇察覺＝缺 premise → 補把風位 ③口角血「觀眾讀成戰傷」由 SOURCE 改 INTERPRETIVE＋REQUIREMENT_CHANGE ④牙跌後處理＝缺 → 後排牙、收起、demo 外 REVALIDATE ⑤L1 假設應記 SOURCE_TENSION ⑥滲漏要雙向 ⑦T2 誤引 Brief 甜品圖。全部已改入 BEAT_LAYER_V3_2.md Premise 紀錄。
+**BREADTH：** T1／T2、L0／L1 屬兩個獨立軸；L0 被否但其「只示範表面」軸無價值損失（撞 source）＝BREADTH_LOSS_JUSTIFIED。
+**RECOMMENDATION_CONSISTENCY_CHECK：** T1、L1 存在於紀錄；premise 已同步；NEW_LORE＝NO；INTERPRETIVE≥1（口角血讀法、遮蔽）；obligation：掉牙＋操知收埋＋冇人知＝YES；連結入侵本質＝CONDITIONAL（程度降）；作者問題＝無 → PASS。
+**STALE 重掃：** BEAT_LAYER_ANGLE_SCAN §6。
+**產出：** `BEAT_LAYER_V3_2.md`（v3＋v3.1 patch＋本節，第一份獨立合併表）。

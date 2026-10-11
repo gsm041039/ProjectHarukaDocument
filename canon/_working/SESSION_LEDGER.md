@@ -2881,3 +2881,9 @@
 
 ## 2026-10-08 skill promotion
 - **2026-10-08 Skill 版本：story skills vNext.2.3 已正式 promote**（作者批准；TARGETED 預設／FULL 觸發角度政策已入 CLAUDE.md）。紀錄＋backlog：`canon/_working/PROMOTION_RECORD_vNext_2_3.md`。
+
+- 2026-10-08：作者叫繼續 demo。Resume：QQ-227 BLOCKED。按 vNext.2.3 先 owner lookup：Brief L7637（Act I 甜品掉牙）、ACT_I_OUTLINE L136（E-02 強制入侵）→ 兩項改 PROVISIONAL_DEFAULT，唔問作者。獨立 premise audit（1 agent）搵到 7 項缺／誤 premise，全部併入。建 BEAT_LAYER_V3_2.md（第一份獨立合併表）；BEAT_LAYER_ANGLE_SCAN §6 牙／連結 STALE 重掃；ledger §16。呈 Beat 層審閱包，Director review PENDING。
+
+- 2026-10-08 晚：Beat 層 v4 由頭重推（來源包→一致性→質疑輪→方案→premise audit→17 beat）；盲審 7 agent 撞用量上限後重試；作者叫停、定 sub-agent 上限（記憶已存）；取消 2 個重複盲審，保留結構 canon／玩法製作 2 個；checkpoint 已寫。
+
+- 2026-10-08 深夜：作者確認繼續 demo（唔係 Act IV）。orchestrator 自己做盲審 Diff（0 新 agent）→ BEAT_LAYER_V4_1.md（16 beat）＋REFERENCE_AUDIT_V4.md；呈 Beat 層審閱。

@@ -206,6 +206,8 @@
 
 ## 8. Next Action
 
+**單一步（2026-10-08，取代下面）**：作者批 Beat 層 v3.2（`BEAT_LAYER_V3_2.md`）→ 入 Stage 6。見 canon/_working/NEXT_ACTION.md。
+
 **單一步**：auditor 已跑（`VOICE_EVIDENCE_REVIEW.md`：三人＝夠做探索性 demo 草稿；原句實為 Scene 參考）→ 對作者發**一次過合併問題**（貓形態街頭係咪公開講嘢、戰鬥加唔加警告、晴香對貓／操稱呼、場8 零台詞確認）→ 作者答完 Stage 5 夠用版 → Stage 6。
 **回主線提示**：Stage 5 退出條件見 §1.5；Stage 6 場景設計可預設先行、同工作坊並行；Stage 7 前要答 `PRODUCTION_GAP_AUDIT.md` §1 嘅 NEED_AUTHOR 項（貓形態戰鬥、直播 UI、屍骸消散、操腳本化助攻接口）。
 **前置**：無新資料需要；唔需作者額外提供（Q-5 可選）。
@@ -254,3 +256,5 @@
 - 2026-10-02（第三十三次）：作者要求所有建議都要人話詳情 → skill／CLAUDE.md／memory 已改。作者決定尾鉤牙＝真掉牙、操知而收埋（ledger §14.8；後果＝Act II 縫牙兩個「第一次」＋Act III 揭露＋操弧線要重排，全部 REVALIDATE）。Beat v3 內部完整，呈 Layer Review Packet；等作者批 Beat 層，Stage 6 仍暫停。
 - 2026-10-02（第三十四次）：作者質疑「10 幾個角度你係咪真係做晒」→ 承認自寫單次表證明唔到；作者揀獨立盲審＋要求之後每個建議都以全部角度為依據。已派 6 個盲審 agent（`blind_audit/`，結果待收）；制度改動：angle-system.md 加 Pool 3（角度 20–28）、新 `.claude/story_system/blind-angle-audit-protocol.md`、SKILL.md Angle Basis Rule＋Completeness Gate 八項、CLAUDE.md 互動規則、memory。Beat 層批核仍 PENDING；Stage 6 暫停；待盲審 Diff＋處理 FINDING＋STALE 重掃。
 - 2026-10-02（第三十五次）：盲審 7 agent 全部完成並 Diff（ledger §15）：原始 106 條發現→約 32 個獨立問題，BLOCKS 3（Cost Signal 分類／教學鏈／牙鏈時序）；已按 Head Writer 權限改入 Beat v3.1（HW／PROVISIONAL，作者已決定嘅範圍＋掉牙＋收埋冇動）；撤回我自己加嘅 N2 擋風。待作者：牙形式／範圍、連結性質；Master Angle Registry 建議加 4 角度。誠實覆蓋：角度 20–28 全盲、1–19 半盲；Gate B/C 部分只核一半；**唔可講「完整考慮晒」**。Beat 層 Director review 仍 PENDING；Stage 6 暫停。
+
+- 2026-10-08：QQ-227 暫定（牙＝M4 甜品局悄悄掉牙；連結＝雙向一瞬滲漏）；BEAT_LAYER_V3_2.md 建立；呈 Beat 層審閱包。
