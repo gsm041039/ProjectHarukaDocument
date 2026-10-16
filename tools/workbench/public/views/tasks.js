@@ -25,7 +25,7 @@ export function render(el, ctx) {
       ondragend: (e) => e.currentTarget.classList.remove("dragging"),
     },
       asking ? h("div", { class: "ask-flag" }, "🙋 Claude 問緊你嘢") : null,
-      h("div", { class: "ttitle" }, t.task),
+      h("div", { class: "ttitle" }, ctx.plain(t.task)),
       h("div", { class: "tmeta" },
         live ? h("span", { class: "pill " + (live.status === "running" ? "info" : "ok") }, live.status === "running" ? "● Claude 做緊" : "● 對話開住") : null,
         t.needs_author && !asking ? h("span", { class: "pill warn" }, "要你決定") : null,

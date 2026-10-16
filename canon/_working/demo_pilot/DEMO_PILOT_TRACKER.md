@@ -128,7 +128,7 @@
 - ⚠️ **更正（2026-09-29，D-12）**：呢度原本將晴香、美夜子說話方式標 HAVE 係錯判——現有 bible 係舊 workflow 產物，要按新 workflow 重做（見 Stage 5）；動作表演文件亦一樣視為 CANDIDATE
 - 產出：`PRODUCTION_GAP_AUDIT.md`
 
-### Stage 5 — 人物底：說話方式 + 動作表演 ◆ `IN_PROGRESS`（2026-09-29 改為逐微場景慢速工作坊；退出條件＝§1.5「Demo 夠用版」）
+### Stage 5 — 人物底：說話方式 + 動作表演 ◆ `DONE_PROVISIONAL`（2026-10-17 夠用版達成：四人 exploratory，auditor Re-audit #2 見 `VOICE_EVIDENCE_REVIEW.md`；缺口移交 Stage 8；原：逐微場景慢速工作坊；退出條件＝§1.5「Demo 夠用版」）
 - Skill：`story-character-voice-designer`；`story-character-performance-bible-designer`
 - 範圍：操 voice bible＋操／晴香／美夜子動作表演；**2026-10-16 更正（D-14）：紫音已入 demo，加入範圍**（彩、桐生健仍唔喺範圍）
 - [x] 操 voice bible（Discovery Workshop，DRAFT）：5 個 Voice Engine 候選、5 句禁句、M1–M5 微場景、6 項待作者確認（見該檔 §C4）
@@ -137,7 +137,7 @@
 - [ ] **新 workflow 重做聲線（D-12）**：操（M1–M5＋收尾已寫）／美夜子（已起草）／晴香（已起草）各自：①舊 bible 當證據輸入，重新做證據分級（原句 vs 舊候選）②慢速微場景工作坊（每個含 §8B 分析卡、§8D 語料對照、粵語自然化）③自稱／稱呼表 ④`story-character-voice-evidence-auditor` ⑤作者聽感確認。舊 bible 頂部已加「舊 workflow／CANDIDATE」提示
 - [ ] 語音微場景工作坊 M1–M5、MY、MH（進度表見 §1.5）；舊 bible 係 CANDIDATE，唔作定案
 - [ ] 表演文件：作者逐項過目候選（操 4／晴香 2／美夜子 3），可同語音工作坊穿插
-- [ ] **紫音（D-14 新增）**：聲線微場景 1–4 已揀；5（戰鬥搶怪）、6（基地合照）、7（對貓）候選已出待作者；自稱／稱呼表已起草；表演文件第一版已起草（4 項候選待作者）；auditor 未跑
+- [ ] **紫音（D-14 新增）**：聲線微場景 1–7 作者已全部揀（5「仲等乜嘢呀，衝啦！」、6「唉，咁煩㗎。」、7「貓，食唔食。」，PROVISIONAL）；自稱／稱呼表已起草；表演文件 2 項候選已揀（坐近出入口背貼牆、嗤笑整場一次）；**auditor 已跑（2026-10-17）：四人 exploratory**
 - [ ] 退出條件達成（§1.5）→ 入 Stage 6（或並行）
 - 產出：`character-voice-workshops/misao_voice_discovery.md`（工作坊）、`character-voice-workshops/_CANTONESE_DIALOGUE_RESEARCH.md`（研究）；舊 `character-voice-bibles/misao.md`、`character-performance-bibles/{misao,haruka,miyako}.md` 降級 CANDIDATE
 
@@ -263,3 +263,7 @@
 
 - 2026-10-08：QQ-227 暫定（牙＝M4 甜品局悄悄掉牙；連結＝雙向一瞬滲漏）；BEAT_LAYER_V3_2.md 建立；呈 Beat 層審閱包。
 - 2026-10-16：核實 Stage 5 現況——紫音 2026-10-11 已被作者加返入 demo（D-14），tracker 舊寫「去紫音」已更正。補紫音缺件：聲線微場景 6（基地合照）、7（對貓）候選＋語料檢查、自稱／稱呼表、Stage 5 進度對照；新建 `character-performance-bibles/shion.md`（第一版，4 項候選）。微場景 5–7＋表演候選合併問作者。
+- 2026-10-17：作者揀紫音微場景 5「仲等乜嘢呀，衝啦！」（自寫）、6「唉，咁煩㗎。」（自寫）、7「貓，食唔食。」（壓平 canon 句）；表演揀站位＋嗤笑一次。Voice Engine 助詞分流修正（興奮＝帶助詞；物理威脅＝零助詞）。紫音聲線微場景全齊，下一步 auditor（story-character-voice-evidence-auditor）覆核四人 → Stage 5 夠用版。
+- 2026-10-17（第二次）：跑 voice evidence auditor（Re-audit #2，四人）。結論：四人 `VOICE_READY_FOR_EXPLORATORY_DIALOGUE`（美夜子、紫音窄）；Stage 5 夠用版達成（暫定）。發現：「關你咩事」真人 5 行全帶助詞（零助詞推論過度，已更正）；紫音三態引擎被微場景 5 推翻；佳＝佢錯字；測試用句非作者揀；Beat v4.1/V5 有未覆蓋對白位（天台、B8、餵糖、M2、M4 U1 孤兒）→ Stage 8。
+- 2026-10-17（第三次）：Blind Attribution 7/8；補 Beat 層對白缺口候選（`_BEAT_DIALOGUE_GAPS_V1.md`：天台美夜子、交槍、B8 操、晴香餵糖），待作者揀。
+

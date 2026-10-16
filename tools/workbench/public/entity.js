@@ -3,9 +3,15 @@
 // 加新類型：TYPES 加一行＋ACTIONS 加一個函數。
 export const TYPES = {
   question: ["❓", "問題"], decision: ["⚖️", "決定"], matrix: ["🧩", "矩陣題目"], beat: ["🎬", "Beat"], task: ["🗂️", "Task"],
-  visual: ["🎨", "視覺語言"], character: ["👤", "角色"], art: ["🖼️", "美術"], skill: ["🧠", "Skill"], pipeline: ["🛤️", "Pipeline"], todo: ["📝", "待辦"], discussion: ["🤖", "自動討論"], file: ["📄", "文件"],
+  visual: ["🎨", "視覺語言"], character: ["👤", "角色"], art: ["🖼️", "美術"], skill: ["🧠", "Skill"], pipeline: ["🛤️", "Pipeline"], todo: ["📝", "待辦"], discussion: ["🤖", "自動討論"], conversation: ["💬", "對話"], file: ["📄", "文件"],
 };
 const TYPE_ORDER = Object.keys(TYPES);
+// typed, directed relations from the index: kind → [label when this item points out, label when others point at it]
+const KINDS = {
+  derived_from: ["⬆️ 衍生自", "⬇️ 由佢衍生"], supersedes: ["🔁 取代咗", "🔁 被取代"], affects: ["⚡ 影響到", "⚡ 受影響於"],
+  based_on: ["📐 依據", "📐 被用做依據"], answers: ["✅ 答咗", "✅ 被答"], edited: ["✏️ 改過", "✏️ 被改過"], read: ["📖 讀過", "📖 被讀過"],
+  grounded_on: ["📎 以佢為依據", "📎 被討論用做依據"], links_to: ["🔗 連去", "🔗 被連"], cites: ["📌 引用", "📌 被引用"], about: ["👤 講到", "👤 被講到"],
+};
 
 export function createEntityUI(ctx) {
   const { h, md, state, sendIntent, newSession, openFile, switchTab, continueTask, toast, launch, start } = ctx;
@@ -60,6 +66,9 @@ export function createEntityUI(ctx) {
       ["🖼️ 打開圖庫", () => { state.artPick = { group: e.id, old: false }; switchTab("art"); }, true],
       ["💬 同 Claude 傾", () => talk(e, "呢組美術同 canon 視覺設定有冇唔夾？")],
     ],
+    conversation: (e) => [
+      ["▶ 打開對話", () => { document.getElementById("drawer").classList.remove("open"); const live = state.live.find((s) => s.sdkSessionId === e.session); live ? ctx.openLive(live.id) : ctx.openPast(e.session, e.title); }, true],
+    ],
     discussion: (e) => [
       ["🤖 打開討論", () => { state.discuss = { id: e.id.replace(/^DISC:/, ""), draft: null }; switchTab("discuss"); document.getElementById("drawer").classList.remove("open"); }, true],
     ],
@@ -88,6 +97,19 @@ export function createEntityUI(ctx) {
   const drawer = document.getElementById("drawer");
   const history = [];
 
+  function typedSec(e) {
+    const by = {};
+    for (const [kind, dir, other] of e.edges || []) { const o = ent(other); if (o && KINDS[kind]) (by[kind + "|" + dir] ||= []).push(o); }
+    const keys = Object.keys(KINDS).flatMap((k) => [k + "|out", k + "|in"]).filter((k) => by[k]);
+    if (!keys.length) return [];
+    return [h("h3", { style: "margin-top:20px" }, "🧬 關係"), ...keys.map((k) => {
+      const [kind, dir] = k.split("|"), xs = by[k];
+      return h("div", { class: "ent-group" }, h("div", { class: "ent-gh" }, `${KINDS[kind][dir === "out" ? 0 : 1]}（${xs.length}）`),
+        h("div", { class: "ent-chips" }, ...xs.slice(0, 16).map((r) => h("button", { class: "ent-chip", title: r.title, onclick: () => open(r.id) },
+          `${(TYPES[r.type] || ["•"])[0]} `, r.title.slice(0, 40))), xs.length > 16 ? h("span", { class: "small muted" }, `…仲有 ${xs.length - 16} 個`) : null));
+    })];
+  }
+
   function open(id, push = true) {
     const e = ent(id);
     if (!e) return toast("搵唔到：" + id);
@@ -106,7 +128,8 @@ export function createEntityUI(ctx) {
         ...ACTIONS[e.type]?.(e).map(([label, fn, primary]) => h("button", { class: "small" + (primary ? " primary" : ""), onclick: fn }, label)) || []),
       e.summary ? h("div", { class: "card", style: "margin-top:14px" }, h("div", { class: "msg", style: "margin:0;font-size:14px" }, e.summary)) : null,
       e.file && e.type !== "file" ? h("div", { class: "small", style: "margin-top:8px" }, "📄 ", h("a", { href: "#", onclick: (ev) => { ev.preventDefault(); openFile(e.file); } }, e.file)) : null,
-      h("h3", { style: "margin-top:20px" }, `🔗 相關（${rels.length}）`),
+      ...typedSec(e),
+      h("h3", { style: "margin-top:20px" }, `🔗 全部相關（按類型，${rels.length}）`),
       rels.length ? null : h("div", { class: "muted small" }, "未搵到同其他嘢嘅連結（連結係由編號、角色名同檔名自動抽出嚟）"),
       ...groups.map(([t, xs]) => h("div", { class: "ent-group" }, h("div", { class: "ent-gh" }, `${TYPES[t][0]} ${TYPES[t][1]}（${xs.length}）`),
         h("div", { class: "ent-chips" }, ...xs.slice(0, 40).map((r) => h("button", { class: "ent-chip", title: r.title, onclick: () => open(r.id) },
@@ -120,7 +143,7 @@ export function createEntityUI(ctx) {
   const modal = h("div", { class: "search-modal" });
   const input = h("input", { type: "search", placeholder: "搵問題、決定、beat、角色、文件…（Esc 關）" });
   const list = h("div", { class: "search-list" });
-  modal.append(h("div", { class: "search-box card" }, input, list));
+  modal.append(h("div", { class: "search-box card" }, h("div", { style: "display:flex;gap:8px" }, input, h("button", { class: "icon-btn", title: "關閉（Esc）", onclick: () => close() }, "✕")), list));
   document.body.append(modal);
   let hits = [], sel = 0;
   const run = () => {

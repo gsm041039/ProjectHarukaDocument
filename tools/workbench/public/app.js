@@ -5,9 +5,10 @@ import { createEntityUI } from "./entity.js";
 import { createLauncher } from "./launcher.js";
 import { micButton } from "./mic.js";
 import { createSmartStart } from "./smartstart.js";
+import { plain, strip } from "./plain.js";
+import { linkify, fileId } from "./links.js";
 
 // One-click replies so the author rarely needs to type.
-const QUICK_REPLIES = ["好，照你建議做", "繼續", "講詳細啲", "用白話再講一次", "唔啱，再諗過", "畀我睇候選", "總結做到邊", "停一停"];
 const PROTOCOL = 1;
 const $ = (s, el = document) => el.querySelector(s);
 const h = (tag, attrs = {}, ...kids) => {
@@ -25,11 +26,19 @@ const md = (text) => {
   try { div.innerHTML = DOMPurify.sanitize(marked.parse(text || "")); } catch { div.textContent = text; }
   return div;
 };
-const api = async (path, body) => {
-  const r = await fetch(path, body === undefined ? {} : { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
-  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
-  return r.json();
+let busyN = 0, busyT = null;
+const busy = (d) => { busyN = Math.max(0, busyN + d); clearTimeout(busyT); if (busyN) busyT = setTimeout(() => document.body.classList.add("busy"), 150); else document.body.classList.remove("busy"); };
+const loading = (text = "載入緊…") => h("div", { class: "loading" }, h("span", { class: "spinner" }), text);
+const api = async (path, body, { quiet } = {}) => {
+  if (!quiet) busy(1);
+  try {
+    const r = await fetch(path, body === undefined ? {} : { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+    if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || r.statusText);
+    return await r.json();
+  } finally { if (!quiet) busy(-1); }
 };
+// Topic first, skill second: a free-text request without a chosen skill asks Claude to pick the skill and enter its process.
+const ROUTE = "（先由你揀 skill：照 story-router 嘅判斷規則，揀最啱處理呢件事嘅 skill；第一句用白話講「我會用〈skill〉處理，因為…」，然後直接用嗰個 skill 嘅流程開始（要先讀嘅檔照讀）。如果有兩個或以上都合理、而且揀錯代價唔細，先用選項卡問我揀邊個流程。）\n\n";
 const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 2200); };
 const store = { get: (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
 
@@ -58,7 +67,8 @@ async function loadIndex(fresh) {
 
 // ---------------- sessions ----------------
 async function refreshSessions() {
-  try { Object.assign(state, await api("/api/sessions")); } catch { return; }
+  try { Object.assign(state, await api("/api/sessions", undefined, { quiet: true })); } catch { return; }
+  document.title = (state.live.some((s) => s.pending) ? "🙋 " : state.live.some((s) => s.status === "running") ? "⏳ " : "") + "Haruka Workbench";
   const list = $("#session-list");
   list.replaceChildren(
     h("div", { class: "section-title" }, "進行中"),
@@ -78,7 +88,7 @@ async function refreshSessions() {
 
 async function newSession(text, title, task) {
   const t = title || (text ? text.replace(/```[\s\S]*$/, "").trim().slice(0, 28) : "新 task");
-  const { id } = await api("/api/sessions", { title: t, text, task, model: store.get("model", "") || undefined });
+  const { id } = await api("/api/sessions", { title: t, text, task, model: store.get("model", "") || undefined, agentCap: store.get("agentCap", undefined) });
   await refreshSessions();
   openLive(id);
   return id;
@@ -103,6 +113,7 @@ const taskSession = (task) => {
 };
 
 function openLive(id) {
+  if (state.tab === "chat" && state.current?.id === id) return refreshSessions(); // same chat already on screen
   state.current = { id };
   switchTab("chat");
   refreshSessions();
@@ -117,7 +128,7 @@ async function openPast(p) {
 async function sendToClaude(text) {
   if (state.current?.id && state.live.find((s) => s.id === state.current.id && s.status !== "closed")) {
     await api(`/api/sessions/${state.current.id}/message`, { text });
-    switchTab("chat");
+    if (state.tab !== "chat") switchTab("chat"); // already showing this chat: the event stream adds the message, no full re-render
   } else await newSession(text);
 }
 
@@ -129,14 +140,18 @@ async function loadCard(type) {
 }
 
 // Text with ```ui:<type> {json}``` blocks: known types render as cards, unknown ones stay as markdown.
+// long auto-generated openers (paths, instructions) clamp to 3 lines; click to expand
+const userMsg = (t) => (t = t.startsWith(ROUTE) ? "🧭 " + t.slice(ROUTE.length) : t, h("div", { class: "msg user" + (t.length > 160 ? " clamped" : ""), title: t.length > 160 ? "撳一下睇晒" : "", onclick: (e) => e.currentTarget.classList.remove("clamped") }, t));
+
 function renderAssistant(text, ctx) {
   const wrap = h("div", { class: "msg assistant" });
+  const body = h("div", { class: "msg-body" }), cards = h("div");
   const re = /```ui:([\w-]+)\s*\n([\s\S]*?)```/g;
   let last = 0, m;
   while ((m = re.exec(text))) {
-    if (m.index > last) wrap.append(md(text.slice(last, m.index)));
+    if (m.index > last) body.append(md(text.slice(last, m.index)));
     const slot = h("div");
-    wrap.append(slot);
+    cards.append(slot);
     const [type, raw] = [m[1], m[2]];
     loadCard(type).then((mod) => {
       let data;
@@ -146,7 +161,20 @@ function renderAssistant(text, ctx) {
     });
     last = re.lastIndex;
   }
-  if (last < text.length) wrap.append(md(text.slice(last)));
+  if (last < text.length) body.append(md(text.slice(last)));
+  wrap.append(body, cards);
+  if (state.index) linkify(body, state.index, openEntity); // file / character mentions open their drawer
+  // long replies: show the opening (= the conclusion, per protocol) and fold the rest
+  // decide by text size, not layout: measuring every message forces a reflow per message and stalls long chats
+  const prose = text.replace(re, ""), plainLen = prose.length, lines = prose.split("\n").length;
+  if (plainLen > 700 || lines > 16) {
+    body.classList.add("folded");
+    const lead = body.querySelector("p,li")?.textContent || "";
+    const bar = h("div", { class: "fold-bar" },
+      h("button", { class: "small", onclick: () => { const f = body.classList.toggle("folded"); bar.firstChild.textContent = f ? "睇晒 ▾" : "收埋 ▴"; } }, "睇晒 ▾"),
+      lead ? h("button", { class: "small", title: "讀出結論", onclick: () => { const u = new SpeechSynthesisUtterance(lead); u.lang = "zh-HK"; speechSynthesis.cancel(); speechSynthesis.speak(u); } }, "🔊") : null);
+    body.after(bar);
+  }
   return wrap;
 }
 
@@ -191,7 +219,7 @@ function approveCard(ev, sid, answered) {
   };
   const body = ev.tool === "ExitPlanMode" ? md(ev.input.plan || "") : h("pre", {}, ev.input.command || JSON.stringify(ev.input, null, 2));
   const card = h("div", { class: "card approve" + (answered ? " answered" : "") },
-    h("h4", {}, ev.tool === "ExitPlanMode" ? "Claude 想開始執行呢個計劃" : "呢個指令要你批准"), body,
+    h("h4", {}, ev.tool === "ExitPlanMode" ? "Claude 想開始執行呢個計劃" : ev.tool === "Agent" ? "🤖 Claude 想派多一個助手（超出你定嘅上限）" : "呢個指令要你批准"), body,
     h("div", { class: "actions" }, reason, h("button", { onclick: () => decide(false) }, "唔批"), h("button", { class: "primary", onclick: () => decide(true) }, "批准")));
   if (answered) card.querySelectorAll("input,button").forEach((e) => (e.disabled = true));
   return card;
@@ -209,10 +237,17 @@ function chatShell(title, live) {
     head.append(h("button", { onclick: () => api(`/api/sessions/${state.current.id}/interrupt`, {}) }, "停"));
     const quick = (text) => api(`/api/sessions/${state.current.id}/message`, { text }).catch((e) => toast(e.message));
     box.append(h("div", { id: "composer" },
-      h("div", { class: "quick-row" }, ...QUICK_REPLIES.map((q) => h("button", { class: "quick", onclick: () => quick(q) }, q))),
+      h("div", { class: "quick-row" }, ...(state.config?.quick_replies || []).map((q) => h("button", { class: "quick", onclick: () => quick(q) }, q))),
       h("div", { class: "row" }, micButton(h, ta), ta, h("button", { class: "primary", onclick: send }, "送出"))));
   }
   return { box, msgs, head };
+}
+
+function topicBox() {
+  const ta = h("textarea", { rows: 3, placeholder: "例如：「Demo 最尾基地嗰場想再暖啲，但唔想破壞操怕影相嘅設定」" });
+  const go = () => { const t = ta.value.trim(); if (t) newSession(ROUTE + t, t.slice(0, 24)); };
+  ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); go(); } });
+  return h("div", { class: "topic-box card" }, h("div", { style: "display:flex;gap:8px" }, micButton(h, ta), ta), h("div", { class: "actions" }, h("button", { class: "primary", onclick: go }, "🧭 開始（AI 揀 skill）")));
 }
 
 function renderChat(el) {
@@ -222,8 +257,9 @@ function renderChat(el) {
     const tile = (s, onclick, sub) => h("div", { class: "todo-row" + (s.pending ? " orange" : ""), onclick },
       h("span", { class: "ic" }, s.pending ? "🙋" : "💬"), h("div", { class: "tx" }, s.title, h("div", { class: "small muted" }, sub)));
     el.replaceChildren(h("div", { class: "empty" }, h("div", { class: "mascot" }, "🌸"), h("h2", {}, "今日想傾咩？"),
-      h("p", { class: "muted" }, "揀一個 session 繼續，或者開個新 task。"),
-      h("button", { class: "primary", onclick: () => launch() }, "＋ 開新 task"),
+      h("p", { class: "muted" }, "直接講想做咩，Claude 會自己揀用邊個 skill 再開始；或者揀一個 session 繼續。"),
+      topicBox(),
+      h("button", { onclick: () => launch() }, "＋ 自己揀 skill 開新 task"),
       h("div", { class: "sess-tiles" },
         ...state.live.map((s) => tile(s, () => openLive(s.id), s.pending ? "等緊你回覆" : "進行中")),
         ...state.past.slice(0, 8).map((p) => tile(p, () => openPast(p), "以前嘅 session")))));
@@ -231,92 +267,130 @@ function renderChat(el) {
   }
   if (cur.past) return renderPast(el, cur);
   const s = state.live.find((x) => x.id === cur.id) || { title: "" };
-  const { box, msgs, head } = chatShell(s.title, true);
+  const v = chatView(el, { title: s.title, sid: cur.id, model: s.model, taskId: s.taskId, live: true });
+  const es = new EventSource(`/api/sessions/${cur.id}/events`);
+  state.es = es;
+  es.onopen = v.reset;
+  es.onmessage = ({ data }) => v.handle(JSON.parse(data));
+}
+
+// One chat view for live and saved conversations: both are fed the same events (saved ones come from /api/history).
+function chatView(el, { title, sid, model, taskId, live }) {
+  const { box, msgs, head } = chatShell(title, live);
   const ctx = makeCtx();
-  const task = (state.index?.tasks || []).find((t) => t.id === s.taskId || (s.title && t.task.startsWith(s.title.replace(/…$/, ""))));
-  const prog = createProgress({ h, sendToClaude: ctx.sendToClaude, taskName: task?.task, choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
+  const task = (state.index?.tasks || []).find((t) => t.id === taskId || (title && t.task.startsWith(title.replace(/…$/, ""))));
+  const prog = createProgress({ h, sendToClaude: ctx.sendToClaude, taskName: task?.task, openEntity, openFile, openDiscuss, fileId: (p) => fileId(state.index, p), layers: state.config?.layers || [], choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
   const wrap = h("div", { class: "chat-wrap" }, box, prog.el);
-  head.insertBefore(h("button", { class: "pp-toggle", onclick: () => wrap.classList.toggle("show-panel") }, "📍 進度"), head.lastChild);
-  head.insertBefore(h("button", { class: "small", title: "用今次對話改進用過嘅 skill", onclick: () => {
-    const used = prog.skills().join("、") || "（未偵測到，請你自己判斷用過邊啲）";
-    api(`/api/sessions/${cur.id}/message`, { text: `請回顧今次對話，用嚟改進 skill（今次用過：${used}）。搵出：①我要糾正你／重複講嘅位；②你走錯步、問錯問題、或者答得唔夠白話嘅位；③skill 規則冇講清、令你做錯嘅位。每點講清係邊個 skill、邊段、建議點改（附改動前後），同埋點解咁改唔會整爛其他規則。先用選項卡問我批邊幾條，批咗先改 SKILL.md（.claude 同 .agents 兩份都要同步），改完跑相關 validator，再記入 SESSION_LEDGER。` }).catch((e) => toast(e.message));
-  } }, "🛠️ 改進 skill"), head.lastChild);
-  modelSelect(s.model, async (m) => { await api(`/api/sessions/${cur.id}/model`, { model: m }).then(() => toast(m ? `之後用 ${m}` : "之後用預設 model")).catch((e) => toast(e.message)); }).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
+  head.prepend(h("button", { class: "small", title: "返對話列表", onclick: () => { state.current = null; renderTab(); } }, "←"));
+  const before = head.lastChild;
+  head.insertBefore(h("button", { class: "pp-toggle", onclick: () => wrap.classList.toggle("show-panel") }, "📍 進度"), before);
+  head.insertBefore(h("button", { class: "small", title: "將今次對話嘅題目交畀幾個 AI 角色自己傾（先去設定頁，唔會自動開始）", onclick: () => openDiscuss({
+    topic: title || "", from: live ? sid : "", context: `由對話「${title}」帶過嚟`, links: prog.fileIds().map((id) => ({ id, title: state.index.entities[id].title, file: id })),
+  }) }, "🤖 交畀 AI 傾"), before);
+  if (live) {
+    head.insertBefore(h("button", { class: "small", title: "用今次對話改進用過嘅 skill", onclick: () => {
+      const used = prog.skills().join("、") || "（未偵測到，請你自己判斷用過邊啲）";
+      api(`/api/sessions/${sid}/message`, { text: `請回顧今次對話，用嚟改進 skill（今次用過：${used}）。搵出：①我要糾正你／重複講嘅位；②你走錯步、問錯問題、或者答得唔夠白話嘅位；③skill 規則冇講清、令你做錯嘅位。每點講清係邊個 skill、邊段、建議點改（附改動前後），同埋點解咁改唔會整爛其他規則。先用選項卡問我批邊幾條，批咗先改 SKILL.md（.claude 同 .agents 兩份都要同步），改完跑相關 validator，再記入 SESSION_LEDGER。` }).catch((e) => toast(e.message));
+    } }, "🛠️ 改進 skill"), before);
+    const me = state.live.find((x) => x.id === sid) || {};
+    const caps = state.config?.agent_caps || [];
+    const capSel = h("select", { title: "今次對話最多可以派幾多個助手（sub-agent）；超出會彈卡問你", onchange: (e) => api(`/api/sessions/${sid}/agents`, { cap: +e.target.value }).then(() => toast(`助手上限改咗做 ${e.target.value}`)).catch((x) => toast(x.message)) },
+      ...caps.map((c) => h("option", { value: c.cap, title: c.why, selected: c.cap === (me.agentCap ?? state.config?.agent_cap_default) }, `🤖 助手：${c.label}`)));
+    head.insertBefore(capSel, before);
+    modelSelect(model, async (m) => { await api(`/api/sessions/${sid}/model`, { model: m }).then(() => toast(m ? `之後用 ${m}` : "之後用預設 model")).catch((e) => toast(e.message)); }).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
+  }
   el.replaceChildren(wrap);
   let streamEl = null;
   const answered = new Set();
   const cards = {};
+  // 🌸 thinking indicator: always the last thing in the chat while Claude works, with what it is doing and for how long
+  const thinkText = h("span", { class: "think-text" }, "諗緊");
+  const thinkTime = h("span", { class: "think-time" });
+  const thinking = h("div", { class: "msg thinking" }, h("span", { class: "think-dots" }, h("i"), h("i"), h("i")), thinkText, thinkTime);
+  let thinkStart = 0, thinkTimer = null;
+  const think = (on, what) => {
+    if (what) thinkText.textContent = what;
+    if (on && !thinking.isConnected) { thinkStart ||= Date.now(); msgs.append(thinking); thinkTimer ||= setInterval(() => (thinkTime.textContent = ` · ${Math.round((Date.now() - thinkStart) / 1000)} 秒`), 1000); }
+    if (!on) { thinking.remove(); clearInterval(thinkTimer); thinkTimer = null; thinkStart = 0; thinkTime.textContent = ""; thinkText.textContent = "諗緊"; }
+    composer?.classList.toggle("busy", on);
+  };
+  const composer = box.querySelector("#composer");
+  let running = false;
   const atBottom = () => msgs.scrollHeight - msgs.scrollTop - msgs.clientHeight < 80;
-  const add = (node) => { const stick = atBottom(); msgs.append(node); if (stick) msgs.scrollTop = msgs.scrollHeight; };
+  const add = (node) => { const stick = atBottom(); msgs.append(node); if (thinking.isConnected) msgs.append(thinking); if (stick) msgs.scrollTop = msgs.scrollHeight; };
+  const VERB = { Read: "讀緊", Edit: "改緊", Write: "寫緊", Grep: "搜尋緊", Glob: "搵緊檔", Bash: "執行緊", Agent: "派緊助手", WebSearch: "上網搵緊", WebFetch: "讀緊網頁", Skill: "用緊 skill" };
 
-  const es = new EventSource(`/api/sessions/${cur.id}/events`);
-  state.es = es;
-  es.onopen = () => { msgs.replaceChildren(); streamEl = null; answered.clear(); prog.reset(); };
-  es.onmessage = ({ data }) => {
-    const ev = JSON.parse(data);
+  const handle = (ev) => {
     prog.onEvent(ev);
     switch (ev.kind) {
-      case "user": add(h("div", { class: "msg user" }, ev.text)); break;
+      case "user": add(userMsg(ev.text)); break;
       case "delta":
+        thinking.remove();
         if (!streamEl) { streamEl = h("div", { class: "msg assistant streaming" }); add(streamEl); }
         streamEl.textContent += ev.text; if (atBottom()) msgs.scrollTop = msgs.scrollHeight; break;
       case "text": {
         const node = renderAssistant(ev.text, ctx);
         if (streamEl) { streamEl.replaceWith(node); streamEl = null; } else add(node);
+        if (running) think(true, "諗緊");
         break;
       }
       case "tool": {
         streamEl = null;
         const label = ev.input?.file_path || ev.input?.command || ev.input?.pattern || ev.input?.description || ev.input?.skill || "";
-        const line = h("div", {}, `${ev.name} ${String(label).split(/[\\/]/).pop().slice(0, 100)}`);
-        const last = msgs.lastElementChild;
+        const short = String(label).split(/[\\/]/).pop().slice(0, 100);
+        const line = h("div", {}, `${ev.name} ${short}`);
+        const last = [...msgs.children].filter((x) => x !== thinking).pop();
         if (last?.classList.contains("tools")) {
           last._n += 1;
           last.querySelector(".tools-sum").textContent = `🔧 做咗 ${last._n} 步`;
           last.querySelector(".tools-list").append(line);
         } else {
-          const box = h("div", { class: "msg tools", onclick: (e) => e.currentTarget.classList.toggle("open") }, h("span", { class: "tools-sum" }, "🔧 做咗 1 步"), h("div", { class: "tools-list" }, line));
-          box._n = 1;
-          add(box);
+          const tb = h("div", { class: "msg tools", onclick: (e) => e.currentTarget.classList.toggle("open") }, h("span", { class: "tools-sum" }, "🔧 做咗 1 步"), h("div", { class: "tools-list" }, line));
+          tb._n = 1;
+          add(tb);
         }
+        if (running) think(true, `${VERB[ev.name] || ev.name} ${short}`.trim());
         break;
       }
-      case "ask": cards[ev.requestId] = askCard(ev, cur.id, answered.has(ev.requestId)); add(cards[ev.requestId]); break;
-      case "approve": cards[ev.requestId] = approveCard(ev, cur.id, answered.has(ev.requestId)); add(cards[ev.requestId]); break;
+      case "ask": {
+        think(false);
+        const card = (cards[ev.requestId] = askCard(ev, sid, !live || answered.has(ev.requestId)));
+        if (!live) card.querySelector(".note").textContent = "未答——撳上面「繼續呢個 session」再答"; // saved chat: an 'answered' event below flips this to ✔
+        add(card);
+        break;
+      }
+      case "approve": think(false); cards[ev.requestId] = approveCard(ev, sid, !live || answered.has(ev.requestId)); add(cards[ev.requestId]); break;
       case "answered":
         answered.add(ev.requestId);
         cards[ev.requestId]?.classList.add("answered");
         cards[ev.requestId]?.markAnswered?.();
         cards[ev.requestId]?.querySelectorAll("input,textarea,button").forEach((e) => (e.disabled = true));
         break;
-      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); loadIndex(true); break;
+      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) loadIndex(true); break;
       case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message)); break;
-      case "status": refreshSessions(); break;
+      case "status": running = ev.status === "running"; think(running); if (live) refreshSessions(); break;
       case "model": add(h("div", { class: "msg result" }, `🔀 由呢度開始用 ${ev.model || "預設 model"}`)); break;
+      case "note": add(h("div", { class: "msg result" }, ev.text)); break;
+      case "agents": { const sel = head.querySelector("select[title^='今次對話最多']"); if (sel) sel.title = `已派 ${ev.used} 個／上限 ${ev.cap}；超出會彈卡問你`; if (live) add(h("div", { class: "msg result" }, `🤖 派咗第 ${ev.used} 個助手（上限 ${ev.cap}）`)); break; }
     }
   };
+  const reset = () => { msgs.replaceChildren(); streamEl = null; answered.clear(); prog.reset(); think(false); running = false; };
+  return { handle, reset, msgs, head };
 }
 
 async function renderPast(el, cur) {
-  const { box, msgs, head } = chatShell(cur.title, false);
-  head.append(h("button", { class: "primary", onclick: async () => {
+  const v = chatView(el, { title: cur.title, sid: null, live: false });
+  v.head.append(h("button", { class: "primary", onclick: async (e) => {
+    e.currentTarget.disabled = true; e.currentTarget.textContent = "接緊…";
     const { id } = await api("/api/sessions", { title: cur.title, resume: cur.past });
     await refreshSessions(); openLive(id);
   } }, "繼續呢個 session"));
-  el.replaceChildren(box);
-  msgs.append(h("div", { class: "msg result" }, "讀緊紀錄…"));
-  const list = await api(`/api/history/${cur.past}`).catch(() => []);
-  msgs.replaceChildren();
-  const ctx = makeCtx();
-  for (const m of list) {
-    const c = m.message?.content;
-    const texts = typeof c === "string" ? [c] : (c || []).filter((b) => b.type === "text").map((b) => b.text);
-    for (const t of texts) {
-      if (!t.trim() || t.startsWith("<")) continue;
-      msgs.append(m.type === "user" ? h("div", { class: "msg user" }, t) : renderAssistant(t, ctx));
-    }
-  }
-  if (!msgs.children.length) msgs.append(h("div", { class: "msg result" }, "呢個 session 冇可顯示嘅文字。"));
+  v.msgs.append(loading("讀緊對話紀錄…"));
+  const events = await api(`/api/history/${cur.past}`).catch(() => []);
+  if (state.current?.past !== cur.past) return; // switched away while loading
+  v.reset();
+  events.forEach(v.handle);
+  if (!events.length) v.msgs.append(h("div", { class: "msg result" }, "呢個 session 冇可顯示嘅內容。"));
 }
 
 // ---------------- intents (all edits go through Claude) ----------------
@@ -361,12 +435,25 @@ async function openFile(path) {
   $("#drawer-body").replaceChildren(body);
 }
 $("#drawer-close").onclick = () => $("#drawer").classList.remove("open");
+document.addEventListener("keydown", (e) => {
+  if (e.key !== "Escape") return;
+  const lb = [...document.querySelectorAll(".lightbox")].pop();
+  if (lb) return lb.remove();
+  const modal = document.querySelector(".search-modal.show");
+  if (modal) return modal.classList.remove("show");
+  $("#drawer").classList.remove("open");
+});
 $("#drawer-chat").onclick = () => { $("#drawer").classList.remove("open"); newSession(`我想傾 \`${drawerPath}\` 呢份文件。請先讀佢，再話我知佢而家嘅狀態同有咩未決。`); };
 
 // ---------------- views ----------------
 let _entityUI;
 const entityUI = () => (_entityUI ||= createEntityUI(makeCtx()));
 const openEntity = (id) => entityUI().open(id);
+// prefilled auto-discussion setup (from a chat, a ui:next suggestion, or a skill); the author still presses start
+function openDiscuss(draft = {}) {
+  state.discuss = { id: null, draft: { topic: "", range: "", stop: "有 2–3 個成形候選＋推薦", context: "", links: [], skill: "", skillChoice: "", ...draft } };
+  switchTab("discuss");
+}
 let _launcher;
 const launch = (opts) => (_launcher ||= createLauncher(makeCtx())).open(opts);
 let _smart;
@@ -382,7 +469,7 @@ async function modelSelect(current, onchange) {
 }
 
 function makeCtx() {
-  return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, launch, start, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), refresh: async () => { await loadIndex(); renderTab(); } };
+  return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title) => openPast({ sessionId, title }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), refresh: async () => { await loadIndex(); renderTab(); } };
 }
 
 function switchTab(tab) {
@@ -401,17 +488,23 @@ function tidy(box) {
   title.append(h("button", { class: "info-btn", title: "呢頁點用", onclick: () => hints.forEach((x) => x.classList.toggle("hidden-hint")) }, "ⓘ"));
 }
 
+let renderSeq = 0;
 async function renderTab() {
   const el = $("#view");
+  const seq = ++renderSeq;
   if (state.tab === "chat") return renderChat(el);
   state.es?.close();
   const v = state.views.find((x) => x.id === state.tab) || state.views[0];
+  el.replaceChildren(loading(`載入緊「${v.name}」…`));
   if (!state.index) await loadIndex();
   try {
     const mod = await import(`./views/${v.id}.js`);
+    if (seq !== renderSeq) return; // user already moved on
     const box = h("div", { class: "view-pad" });
-    el.replaceChildren(box);
+    const ld = loading(`載入緊「${v.name}」…`);
+    el.replaceChildren(ld, box);
     await mod.render(box, makeCtx());
+    ld.remove();
     tidy(box);
   } catch (e) {
     el.replaceChildren(h("div", { class: "view-pad" }, h("div", { class: "card" }, h("h4", {}, `「${v.name}」畫面出錯`), h("pre", { class: "small" }, String(e.stack || e)))));
@@ -419,6 +512,7 @@ async function renderTab() {
 }
 
 async function init() {
+  state.config = await api("/api/config").catch(() => ({})); // lists that used to be hard-coded (tools/workbench/ui_config.json)
   state.views = (await (await fetch("views.json")).json()).sort((a, b) => a.order - b.order);
   const item = (id, icon, name) => h("button", { class: "nav-item", "data-tab": id, onclick: () => switchTab(id) },
     h("span", { class: "ic" }, icon), h("span", { class: "lbl" }, name), id === "chat" ? h("span", { class: "count", style: "display:none" }) : null);

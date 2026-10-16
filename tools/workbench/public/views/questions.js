@@ -61,8 +61,8 @@ export function render(el, ctx) {
       h("input", { type: "checkbox", checked: sel.has(q.id), style: "margin-top:4px", onchange: (e) => { e.target.checked ? sel.add(q.id) : sel.delete(q.id); rerender(); } }),
       h("div", { style: "flex:1;min-width:0;cursor:pointer", onclick: (e) => { if (e.target.closest("button")) return; more.style.display = more.style.display === "none" ? "block" : "none"; } },
         h("div", {}, h("span", { class: "pill " + ({ BLOCKED: "bad", OPEN: "warn", "IN PROGRESS": "info" }[q.status] || "") }, ZH[q.status] || q.status),
-          " ", h("b", {}, brief(q.topic))),
-        q.summary ? h("div", { class: "small muted clamp2" }, q.summary) : null,
+          " ", h("b", {}, brief(ctx.strip(q.topic) || q.topic))),
+        q.summary ? h("div", { class: "small muted clamp2" }, ctx.plain(q.summary)) : null,
         more),
       h("button", { class: "small brand", title: "揀 skill 開工", onclick: () => start({ type: "question", id: q.id, title: q.topic, file: "canon/_working/QUESTION_QUEUE.md" }) }, "✨"),
       h("button", { class: "small", title: "睇同佢有關嘅決定、矩陣、角色、beat", onclick: () => openEntity(q.id) }, `🔗 ${rel.length}`));

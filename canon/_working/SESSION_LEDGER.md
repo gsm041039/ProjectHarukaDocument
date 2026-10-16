@@ -1,5 +1,40 @@
 # SESSION_LEDGER
 
+## Tooling — Workbench v12：討論設定助手／助手上限／隨時轉／唔 hard code（2026-10-17）
+- [x] 🧭 自動討論設定助手：`/api/discuss/plan`（只讀，跟 story-auto-discussion skill 讀連住文件）→ 白話理解＋2–4 個方向掣＋按話題範圍／停止點（🧭 標記）；由對話／實體帶過嚟自動開始。實測 27 秒，冇內部編號。
+- [x] 助手上限：PreToolUse hook（Agent|Task）——上限內自動批、超出彈卡問作者；對話頂「🤖 助手」選單隨時改；實測上限 0 時彈卡。
+- [x] 隨時轉：討論任何時候「💬 轉去對話」（返原本對話，冇就開新，帶題目＋發言節錄，標 DRAFT）；中途「👥 改角色」「＋1 輪」（discuss.mjs control roles／rounds）。實測通過。
+- [x] 唔 hard code：新 `tools/workbench/ui_config.json`（快速回覆、層級名／顏色／match、討論範圍／停止點後備、通用開工掣、助手上限選項、設定助手 model）；model 選單改讀 `/api/models`；修 roles 儲存會漏 skill 欄。協議 §4D／§5。
+- [x] 刪編號再改良（E-1.5、AKS-S0、「— ：」殘碎）。
+
+## Tooling — Workbench v11：載入提示／退出／諗緊／AI 揀 skill／舊對話空白（2026-10-17）
+- [x] 載入：所有請求頂部有進度條（輪詢唔計）；轉頁即刻出「載入緊…」，舊畫面唔再停留；過時嘅 render 會丟棄。
+- [x] 退出：Esc 關大圖／彈出視窗／詳情面板；Ctrl+K 搜尋加 ✕；對話頂加「←」返列表。
+- [x] 諗緊：對話尾一個「● ● ● 讀緊 xxx · N 秒」泡泡，打字欄上面提示「Claude 做緊嘢」，瀏覽器分頁標題 ⏳／🙋。
+- [x] 講話題 AI 揀 skill：對話首頁加話題框「🧭 開始（AI 揀 skill）」；開新工作冇揀 skill 都會叫 AI 揀；氣泡淨顯示「🧭＋你講嘅嘢」。實測 AI 第一句「我會用 story-resume 處理，因為…」再入流程。協議 §4C 加規則。
+- [x] 舊對話空白：成因①舊紀錄頁略過選項卡同答案（大部分靠選項卡嘅對話就變空白）②「繼續呢個 session」新對話窗唔載以前內容。修：server `historyEvents()` 將 transcript 轉成即時事件（文字、選項卡＋你嘅答案、工具步驟），舊紀錄同「繼續」共用；對話畫面抽成 `chatView()` 即時／舊紀錄共用。實測：「繼續」先載 9 段舊內容＋分隔線。
+
+## Tooling — Workbench v10：對話 ↔ 文件 ↔ 自動討論（2026-10-17）
+- [x] 修：撳選項卡彈去空白位——隱藏 radio 冇定位喺選項入面（`.opt` 加 `position:relative`）。
+- [x] 對話 ↔ 文件：server 記每個對話／自動討論讀過同改過嘅檔（`.tmp/workbench/session_files.json`，已由舊 transcript 補返 21 個對話、290 條連結）；右邊面板「📎 今次涉及」；回覆入面檔名／角色名變連結（`public/links.js`）；文件詳情「💬 相關對話」（撳返對話或者討論）。
+- [x] 自動討論：新 skill `story-auto-discussion`（`.claude`＋`.agents`；幾時建議、`ui:next` 嘅 `discuss` 欄、DRAFT 處理；已加入 smart_start）；對話頂「🤖 交畀 AI 傾」帶題目＋今次涉及文件去設定頁；設定頁「🎯 喺 Beat 板揀範圍」（撳頭尾 beat，自動寫範圍＋連住嗰段 beat）同「👤 連角色」；每個角色發言下面「📖 讀咗」＋頂部「📚 討論用咗嘅文件」（邊幾個角色讀過）。協議 §2／§4C 更新。
+- [x] （作者批「而家做」）索引加有方向／有類型關係：`build_index.py` `typed`（衍生自／依據／取代／影響／答咗／引用／講到／連去／以佢為依據／讀過／改過），3093 條；文件內「衍生自：／取代：／影響：／依據：」關係行自動抽（`REL_LINE`）；對話成為實體（`CONV:`）；`tree`（LAYER_MANIFEST 層＋Beat 文件段落＋beat）。詳情面板「🧬 關係」按類型＋方向；文件地圖彩色線＋類型開關；自動討論範圍揀選改用層級樹（任何有下層嘅節點）。`--check` 加關係同樹自檢，通過。協議 §4B 加關係行寫法。
+- 未有資料：「取代」「影響」暫時 0 條（文件未用呢種寫法），要之後 AI 照協議寫先會出。
+
+## Tooling — 修：撳選項有時變白頁（2026-10-17）
+- [x] 成因：撳建議／進度面板選項 → `sendToClaude`／`openLive` 無論點都 `switchTab("chat")` → 成個對話清空再重播所有事件；長對話重播期間係白頁，加上摺疊逐條量高度（每條強制 reflow）更慢。
+- [x] 修：已經喺同一個對話就唔重畫（`sendToClaude`、`openLive`）；摺疊改用字數／行數判斷，唔量 layout。headless 驗證：撳建議後原有訊息節點保留、新訊息直接加落尾。
+
+## Tooling — Workbench v9：少字（2026-10-17）
+- [x] 人話層：`plain.mjs`（Haiku、冇工具、按原文 hash 存 `.tmp/workbench/plain.json`，每批 15、漏咗嘅下次補）＋`public/plain.js`（先顯示刪走編號／路徑版，AI 版返嚟即換；滑鼠停留睇原文）。接駁：今日焦點卡／進行中、問題摘要、決定立場、Task 卡、未完成事項。截圖確認問題頁由兩行原文變一句人話。
+- [x] 對話：長回覆摺到開頭（`睇晒 ▾`＋🔊 讀第一段），`ui:` 卡移到正文後面一直見到；長開場氣泡夾 3 行，撳開。協議 §2 加「第一段＝結論」。
+- 未做：一次一張「等你決定」專注模式；AI 摘要偶有走意（原文喺滑鼠停留／詳情度）。
+
+## Tooling — 顯示文字唔用編號（2026-10-16）
+- [x] 作者指出另一對話選項卡「M5 合照：Batch 6 同 v4.1 唔同」睇唔明。web-ui-protocol §1 加「顯示文字一律唔用編號」（含 beat 號、盲審格號、文件版本名、Stage／Phase）；orchestrator 白話規則清單補 M5／版本名；memory 更新。
+- [x] `tools/workbench/server.mjs`：AskUserQuestion 含編號（`CODE` regex）即 deny 並叫 AI 用白話重寫；regex 測試真編號全中、Act II／AI／IG 唔誤殺（PS5 會誤中，接受）。要重開 4317 先生效。
+- 註：M5 合照版本矛盾本身由另一對話處理，本對話冇記入問題清單（避免重複）。
+
 ## Tooling — Workbench v8：✨ 開工（一撳揀 skill 開工）（2026-10-16）
 - [x] 參考 AI context menu／意圖路由／Copilot UX：喺任何嘢撳「✨ 開工」→ 按類型本地推薦 skill（smart_start.json＋最常用＋連結）→ 出嗰個 skill 嘅方向掣，一撳開工；可補一句（🎤）、叫 AI 揀 skill、交畀 AI 自己傾。
 - [x] 每頁都有開工掣：詳情面板、問題行、beat 卡、角色卡、場景圖、美術組（ImagePrompt.md 15 套模板）、問題／決定／矩陣「＋ 新」、場景「新 spec／重試全部失敗」、Beat 層空狀態。
@@ -2964,3 +2999,16 @@
 ## 2026-10-16 操 Voice Bible 草稿
 - [x] 將 `misao_voice_discovery.md` 作者已揀選擇整理成 `character-voice-bibles/misao_voice_bible_DRAFT.md`（DRAFT，無新增創作句子；Engine 全為候選）；已登記 LAYER_MANIFEST
 - [ ] 待：M5 無台詞作者確認、evidence-auditor、Blind/Swap 測試
+- [x] 2026-10-17 作者揀紫音微場景 5／6／7＋表演 2 項；已落檔（voice workshop、shion.md、tracker、NEXT_ACTION、TASK_BOARD）
+- [ ] 下一步：auditor 覆核 → Stage 5 夠用版
+- [x] 2026-10-17 voice evidence auditor Re-audit #2（四人）完成：`demo_pilot/VOICE_EVIDENCE_REVIEW.md`；Stage 5 夠用版達成（暫定）；紫音 workshop 加 audit 註並修「佳」錯字
+- [ ] 移交：Stage 8 補對白缺口；V5 Batch 2「佳」錯字；Blind Attribution；Beat 層「下顎擦傷」前後不一致
+- [x] 2026-10-17 Blind Attribution（7/8 認對；操／晴香「噉咪即係入隊囉」撞）；補 Beat 層對白缺口候選 `character-voice-workshops/_BEAT_DIALOGUE_GAPS_V1.md`（G1 天台美夜子／G2 交槍／G3 B8 操／G4 晴香餵糖，各 3 候選，過語料）
+- [ ] 待作者揀 G1–G4（VOICE_CANDIDATE）
+
+
+## 2026-10-17 操×無名男孩「自然感」方向（DRAFT / PROVISIONAL，未 writeback canon）
+- 作者提出：操對其他人警戒，對男孩卻順其自然、似等緊佢。
+- 作者揀：操自己唔知（身體細節出賣：忘記傘子距離、辮鬆、食嘢放鬆），男孩死後睇速寫簿先明白；觀眾早知、操遲知。
+- 設計要點：「似等緊佢」＝熟悉感代替了解，與「從未問名」同源（投射）；需外在觸發（Act I Beat 層落實），唔用對白講明。
+- 下游：Act I 暗戀線 beat 要 REVALIDATE；男孩自身細節（速寫簿、睇人眼）要夠，避免淪為操嘅鏡子。

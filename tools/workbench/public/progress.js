@@ -1,18 +1,18 @@
 // 對話旁邊嘅「而家喺邊」面板：由 session 事件流重建（重連時會由頭 replay，所以唔使另外存）。
 // 來源：Skill 工具（用緊邊個 skill）、TodoWrite／TaskCreate／TaskUpdate（步驟）、ui:progress（層／階段）、ui:next（建議下一步）。
-const LAYERS = [["baseline", "全作"], ["act", "Act"], ["sequence", "Sequence"], ["beat", "Beat"], ["scene", "Scene"], ["dialogue", "對白"], ["script", "劇本"]];
-const ALIAS = [[/全作|baseline|whole/i, "baseline"], [/script|劇本/i, "script"], [/dialogue|對白|voice/i, "dialogue"], [/scene|場/i, "scene"],
-  [/beat/i, "beat"], [/sequence|序列/i, "sequence"], [/act|outline|幕/i, "act"]];
-const layerOf = (s) => (s ? (ALIAS.find(([re]) => re.test(String(s))) || [])[1] : null);
 const STATUS = {
   running: ["🌸", "Claude 做緊嘢…"], waiting: ["🙋", "Claude 等緊你回覆"], idle: ["✅", "到你講嘢"], closed: ["💤", "對話已結束"],
 };
 
-export function createProgress({ h, sendToClaude, taskName, choicesOf = () => [] }) {
+export function createProgress({ h, sendToClaude, taskName, choicesOf = () => [], openEntity = () => {}, openFile = () => {}, fileId = () => null, openDiscuss = () => {}, layers = [] }) {
+  // layers come from tools/workbench/ui_config.json (order = pipeline order; "match" = words that mean that layer)
+  const LAYERS = layers.filter((l) => l.track !== false).map((l) => [l.id, l.name]);
+  const MATCH = [...layers].reverse().map((l) => [new RegExp(l.match || l.id, "i"), l.id]);
+  const layerOf = (s) => (s ? (MATCH.find(([re]) => re.test(String(s))) || [])[1] : null);
   const el = h("aside", { class: "progress-panel" });
   let st;
   const reset = () => {
-    st = { status: "idle", layer: null, stage: "", task: taskName || "", skills: [], activity: "", steps: [], tmp: {}, next: [] };
+    st = { status: "idle", layer: null, stage: "", task: taskName || "", skills: [], activity: "", steps: [], tmp: {}, next: [], files: new Map() };
     paint();
   };
 
@@ -28,6 +28,8 @@ export function createProgress({ h, sendToClaude, taskName, choicesOf = () => []
       case "user": st.next = []; break;
       case "tool": {
         const i = ev.input || {};
+        const fk = { Read: "read", Edit: "edit", Write: "edit", NotebookEdit: "edit" }[ev.name];
+        if (fk && i.file_path && st.files.get(i.file_path) !== "edit") st.files.set(i.file_path, fk);
         if (ev.name === "Skill" && i.skill) { st.skills = [i.skill, ...st.skills.filter((s) => s !== i.skill)].slice(0, 5); st.activity = `用緊 skill：${i.skill}`; }
         else if (ev.name === "TodoWrite" && Array.isArray(i.todos)) st.steps = i.todos.map((t, n) => ({ id: "todo" + n, text: t.content, active: t.activeForm, status: t.status }));
         else if (ev.name === "TaskCreate") st.steps.push({ id: ev.id, text: i.subject, active: i.activeForm, status: "pending" });
@@ -58,6 +60,17 @@ export function createProgress({ h, sendToClaude, taskName, choicesOf = () => []
         break;
     }
     paint();
+  }
+
+  // 📎 files this conversation read / changed — each opens its drawer (relations, other conversations, actions)
+  function filesSec() {
+    const all = [...st.files].map(([p, kind]) => ({ p, kind, id: fileId(p), name: p.split(/[\\/]/).pop() }))
+      .sort((a, b) => (a.kind === b.kind ? 0 : a.kind === "edit" ? -1 : 1));
+    const edits = all.filter((f) => f.kind === "edit").length;
+    return h("div", { class: "pp-sec" }, h("div", { class: "pp-h" }, "📎 今次涉及", h("span", { class: "pp-count" }, edits ? `改咗 ${edits}・讀咗 ${all.length - edits}` : `讀咗 ${all.length}`)),
+      h("div", { class: "pp-files" }, ...all.slice(0, 14).map((f) => h("button", { class: "ent-chip" + (f.kind === "edit" ? " edited" : ""), title: f.p,
+        onclick: () => (f.id ? openEntity(f.id) : openFile(f.p)) }, f.kind === "edit" ? "✏️ " : "📖 ", f.name)),
+        all.length > 14 ? h("span", { class: "small muted" }, `…仲有 ${all.length - 14} 個`) : null));
   }
 
   function draw() {
@@ -94,12 +107,14 @@ export function createProgress({ h, sendToClaude, taskName, choicesOf = () => []
                 h("span", {}, s.status === "in_progress" && s.active ? s.active : s.text))))
           : h("div", { class: "pp-empty" }, "Claude 開始多步驟工作時，步驟會喺度逐步剔")),
 
+      st.files.size ? filesSec() : null,
+
       st.next.length ? h("div", { class: "pp-sec pp-next" }, h("div", { class: "pp-h" }, "💡 建議下一步"),
-        ...st.next.map((s) => h("button", { class: "pp-sugg", disabled: st.status === "running", onclick: () => { st.next = []; paint(); sendToClaude(s.prompt || s.label); } },
-          h("div", { class: "l" }, s.label), s.why ? h("div", { class: "w" }, s.why) : null))) : null,
+        ...st.next.map((s) => h("button", { class: "pp-sugg", disabled: st.status === "running", onclick: () => { if (s.discuss) return openDiscuss(s.discuss); st.next = []; paint(); sendToClaude(s.prompt || s.label); } },
+          h("div", { class: "l" }, s.discuss ? "🤖 " : "", s.label), s.why ? h("div", { class: "w" }, s.why) : null))) : null,
     ].filter(Boolean));
   }
 
   reset();
-  return { el, onEvent, reset, skills: () => st.skills.slice() };
+  return { el, onEvent, reset, skills: () => st.skills.slice(), fileIds: () => [...new Set([...st.files.keys()].map(fileId).filter(Boolean))].slice(0, 12) };
 }

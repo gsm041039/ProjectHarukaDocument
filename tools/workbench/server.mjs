@@ -1,4 +1,5 @@
 // Haruka Workbench server: Agent SDK sessions + SSE + project index. Local only.
+import { createPlain } from "./plain.mjs";
 import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
@@ -20,10 +21,33 @@ const readLinks = () => { try { return JSON.parse(fs.readFileSync(LINKS_FILE, "u
 const saveLink = (task, sid) => { const l = readLinks(); l[task] = sid; fs.mkdirSync(path.dirname(LINKS_FILE), { recursive: true }); fs.writeFileSync(LINKS_FILE, JSON.stringify(l, null, 1)); };
 
 // Commands that always need the author's click, even though everything else runs unattended.
+// internal codes the author can't read: QQ-12, CDL-125, E-09, M5, B7, G4, D-17-G4, v4.1, V5, Batch 6, Stage 2a, Phase 3
+export const CODE = /(?<![A-Za-z])(?:v\d+(?:\.\d+)*|[A-Z]{1,4}-?[A-Z]?\d+(?:\.\d+)?[a-z]?(?:-[A-Z]?\d+)*|batch\s*\d+|stage\s*\d+[a-z]?|phase\s*\d+)(?![A-Za-z0-9])/i;
+const askCodes = (qs) => [...new Set((qs || []).flatMap((q) => [q.header, q.question, ...(q.options || []).flatMap((o) => [o.label, o.description])])
+  .flatMap((x) => String(x || "").match(new RegExp(CODE.source, "gi")) || []))];
 const DANGER = /\brm\s+-\w*[rf]|\bgit\s+(push|reset\s+--hard|clean|checkout\s+--|branch\s+-D)|Remove-Item|\bdel\s|\brmdir\b|\bformat\b/i;
 
 const sessions = new Map(); // local id -> session
-const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions") });
+// which conversation read / changed which file (survives restarts): { sdkSessionId: { title, t, files: { "canon/x.md": "read"|"edit" } } }
+const TOUCHED_FILE = path.join(REPO, "canon/_working/.tmp/workbench/session_files.json");
+let touched = {};
+try { touched = JSON.parse(fs.readFileSync(TOUCHED_FILE, "utf8")); } catch {}
+let touchTimer = null;
+function touch(s, name, input) {
+  const kind = { Read: "read", Edit: "edit", Write: "edit", NotebookEdit: "edit" }[name];
+  const fp = input?.file_path || input?.notebook_path;
+  if (!kind || !fp) return;
+  const rel = path.relative(REPO, path.resolve(REPO, fp)).split(path.sep).join("/");
+  if (rel.startsWith("..")) return;
+  const key = s.sdkSessionId || s.id;
+  const rec = (touched[key] ||= { title: s.title, files: {} });
+  rec.title = s.title; rec.t = Date.now();
+  if (rec.files[rel] !== "edit") rec.files[rel] = kind;
+  touchTimer ||= setTimeout(() => { touchTimer = null; fs.writeFileSync(TOUCHED_FILE, JSON.stringify(touched)); }, 1000);
+}
+const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"));
+const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"),
+  onRead: (d, files) => { for (const f of files) touch({ id: "DISC:" + d.id, title: "🤖 " + d.topic.slice(0, 40) }, "Read", { file_path: path.join(REPO, f) }); } });
 
 function inbox() {
   const buf = [];
@@ -64,11 +88,78 @@ function ask(s, kind, payload, signal) {
   });
 }
 
-function createSession({ title, resume, task, model }) {
+// A saved transcript → the same events a live chat streams, so old conversations (and resumed ones) show
+// everything: text, option cards with the author's answers, and the tool steps (collapsed).
+function historyEvents(msgs) {
+  const ev = [], asks = new Map();
+  const keep = (i = {}) => Object.fromEntries(["file_path", "command", "pattern", "description", "skill", "todos", "subject", "taskId", "status", "activeForm"]
+    .filter((k) => i[k] != null).map((k) => [k, typeof i[k] === "string" ? i[k].slice(0, 300) : i[k]]));
+  const plainText = (c) => (typeof c === "string" ? c : (c || []).map((x) => x.text || "").join(""));
+  for (const m of msgs) {
+    const c = m.message?.content;
+    if (m.type === "user") {
+      for (const b of typeof c === "string" ? [{ type: "text", text: c }] : c || []) {
+        if (b.type === "text" && b.text.trim() && !b.text.startsWith("<")) ev.push({ kind: "user", text: b.text });
+        else if (b.type === "tool_result" && asks.has(b.tool_use_id)) {
+          const requestId = asks.get(b.tool_use_id);
+          ev.push({ kind: "answered", requestId });
+          if (!b.is_error) ev.push({ kind: "user", text: "✔ " + plainText(b.content)
+            .replace(/^(User has answered your questions?|Your questions have been answered)\s*[:：]?\s*/i, "")
+            .replace(/\.?\s*(You can now continue|Read the answers carefully)[\s\S]*$/i, "")
+            .replace(/"([^"]*)"="([^"]*)"/g, "$1 → $2").trim() });
+        }
+      }
+    } else if (m.type === "assistant") {
+      for (const b of c || []) {
+        if (b.type === "text" && b.text.trim()) ev.push({ kind: "text", text: b.text });
+        else if (b.type === "tool_use" && b.name === "AskUserQuestion") { const requestId = "h" + asks.size; asks.set(b.id, requestId); ev.push({ kind: "ask", requestId, questions: b.input?.questions || [] }); }
+        else if (b.type === "tool_use") ev.push({ kind: "tool", id: b.id, name: b.name, input: keep(b.input) });
+      }
+    }
+  }
+  return ev;
+}
+
+const readConfig = () => { try { return JSON.parse(fs.readFileSync(path.join(HERE, "ui_config.json"), "utf8")); } catch { return {}; } };
+
+// 🧭 auto-discussion planner: reads the skill + linked files, says what it understood, proposes 2–4 ready-made set-ups
+async function planDiscussion(seed) {
+  const cfg = readConfig();
+  let roles = [];
+  try { roles = JSON.parse(fs.readFileSync(path.join(HERE, "discuss_roles.json"), "utf8")).map((r) => r.name); } catch {}
+  const links = (Array.isArray(seed.links) ? seed.links : []).slice(0, 12).map((l) => `- ${l.id}｜${l.title || ""}${l.file ? "（" + l.file + "）" : ""}`).join("\n");
+  const prompt = `你係 Haruka Workbench 嘅「自動討論設定助手」。先 Read .claude/skills/story-auto-discussion/SKILL.md，再按需要讀下面連住嘅文件（只讀，唔改任何嘢，最多讀 6 個檔）。
+作者想開一場自動討論。種子：
+【題目／作者講嘅】${String(seed.topic || "").slice(0, 1500) || "（未講，靠連住嘅嘢同背景推斷）"}
+【背景】${String(seed.context || "").slice(0, 800) || "（冇）"}
+【連住嘅嘢】
+${links || "（冇）"}
+可用角色（roles 只可以由呢度揀）：${roles.join("、")}
+
+做三件事：
+1. 用一兩句白話講你理解作者想傾咩、而家卡喺邊（唔准有內部編號 QQ-/CDL-/E-xx/M5/v4.1/Batch 等，作者睇得到）。
+2. 出 2–4 個唔同方向嘅討論設定（例如：比較幾個做法／搵漏洞／壓力測試某段／收窄範圍），每個要真係唔同。
+3. 按呢個話題建議 2–4 句「範圍」同 2–4 句「停止點」畀作者揀。
+只輸出一個 JSON（放喺 \`\`\`json 入面）：
+{"understanding":"…","proposals":[{"label":"≤12字方向名","why":"一句：點解咁傾＋代價（幾多輪／大約幾錢）","topic":"討論題目（白話）","range":"範圍","stop":"停止點","roles":["角色名"],"rounds":3,"links":[{"id":"實體 id","title":"白話名","file":"repo 相對路徑"}]}],"ranges":["…"],"stops":["…"]}
+links 只放你確認存在、真係相關嘅（可以沿用種子嘅）。`;
+  let text = "";
+  for await (const m of query({ prompt, options: {
+    cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, model: cfg.planner_model || undefined,
+    allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12,
+  } })) if (m.type === "result") text = m.result || text;
+  const raw = (text.match(/```json\s*([\s\S]*?)```/) || text.match(/(\{[\s\S]*\})/) || [])[1];
+  const plan = JSON.parse(raw);
+  for (const pr of plan.proposals || []) pr.roles = (pr.roles || []).filter((r) => roles.includes(r));
+  return plan;
+}
+
+function createSession({ title, resume, task, model, agentCap }) {
   const id = Math.random().toString(36).slice(2, 10);
   const s = {
     id, title: title || "新 task", status: "idle", sdkSessionId: resume || null, taskId: task || null, model: model || "",
     events: [], clients: new Set(), pending: new Map(), toolNames: new Map(), inbox: inbox(), q: null,
+    agentCap: Number.isFinite(+agentCap) && agentCap !== "" && agentCap != null ? +agentCap : (readConfig().agent_cap_default ?? 2), agentsUsed: 0,
   };
   sessions.set(id, s);
 
@@ -84,10 +175,21 @@ function createSession({ title, resume, task, model }) {
       },
       permissionMode: "default",
       includePartialMessages: true,
+      hooks: { PreToolUse: [{ matcher: "Agent|Task", hooks: [async (input, _id, { signal }) => {
+        const out = (decision, reason) => ({ hookSpecificOutput: { hookEventName: "PreToolUse", permissionDecision: decision, permissionDecisionReason: reason } });
+        if (s.agentsUsed < s.agentCap) { s.agentsUsed++; emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed }); return out("allow", "within author's sub-agent cap"); }
+        const ti = input.tool_input || {};
+        const r = await ask(s, "approve", { tool: "Agent", input: { command: `已經派咗 ${s.agentsUsed} 個助手（你定嘅上限：${s.agentCap}）。想再派：${ti.description || ""}\n\n${String(ti.prompt || "").slice(0, 600)}` } }, signal);
+        if (r.behavior !== "allow") return out("deny", `作者唔批多派助手（上限 ${s.agentCap}）。自己做，或者講清點解一定要派。${r.message ? "作者講：" + r.message : ""}`);
+        s.agentsUsed++; emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed });
+        return out("allow", "author approved an extra sub-agent");
+      }] }] },
       ...(resume ? { resume } : {}),
       ...(model ? { model } : {}),
       canUseTool: async (toolName, input, { signal }) => {
         if (toolName === "AskUserQuestion") {
+          const codes = askCodes(input.questions);
+          if (codes.length) return { behavior: "deny", message: `選項卡有內部編號／版本名：${codes.join("、")}。作者睇唔明。用白話講返佢係咩（例：「M5」→「demo 最尾大家喺基地嗰場」、「v4.1 vs Batch 6」→「之前修正過嘅版本 vs 後來寫嘅逐場詳細版」），header／question／label／description 全部重寫再問。見 web-ui-protocol §1。` };
           const r = await ask(s, "ask", { questions: input.questions }, signal);
           return r.behavior ? r : { behavior: "allow", updatedInput: { questions: input.questions, ...r } };
         }
@@ -122,6 +224,7 @@ function createSession({ title, resume, task, model }) {
               const step = b.name === "TodoWrite" ? (i.todos || []).find((x) => x.status === "in_progress") : null;
               s.activity = step ? step.activeForm || step.content
                 : b.name === "Skill" ? `用緊 skill：${i.skill}` : `${b.name} ${String(i.description || i.file_path || i.pattern || "").split(/[\\/]/).pop()}`.trim();
+              touch(s, b.name, b.input);
               emit(s, { kind: "tool", id: b.id, name: b.name, input: b.input });
             }
           }
@@ -235,6 +338,10 @@ const server = http.createServer(async (req, res) => {
       }
 
       // ---- tools the author already uses, exposed as one-click helpers ----
+      if (url.pathname === "/api/plain" && req.method === "POST") {
+        const texts = (await readBody(req)).texts;
+        return json(res, 200, Array.isArray(texts) ? await plain.get(texts) : {});
+      }
       if (url.pathname === "/api/corpus/score" && req.method === "POST") {
         const text = String((await readBody(req)).text || "").slice(0, 500);
         if (!text.trim()) return json(res, 400, { error: "empty" });
@@ -263,13 +370,17 @@ const server = http.createServer(async (req, res) => {
       }
 
       // ---- automated discussions ----
+      if (url.pathname === "/api/config") return json(res, 200, readConfig());
+      if (url.pathname === "/api/discuss/plan" && req.method === "POST") {
+        try { return json(res, 200, await planDiscussion(await readBody(req))); } catch (e) { return json(res, 500, { error: "AI 設定助手出錯：" + String(e.message || e).slice(0, 200) }); }
+      }
       if (url.pathname === "/api/discuss/roles") {
         const file = path.join(HERE, "discuss_roles.json");
         if (req.method === "POST") {
           const list = await readBody(req);
           if (!Array.isArray(list) || list.length > 20 || !list.every((r) => r && typeof r.name === "string" && r.name.length <= 30 && typeof r.brief === "string" && r.brief.length <= 600))
             return json(res, 400, { error: "bad roles" });
-          fs.writeFileSync(file, JSON.stringify(list.map(({ name, icon, brief, on }) => ({ name, icon: String(icon || "🤖").slice(0, 4), brief, on: !!on })), null, 2));
+          fs.writeFileSync(file, JSON.stringify(list.map(({ name, icon, brief, on, skill }) => ({ name, icon: String(icon || "🤖").slice(0, 4), brief, on: !!on, ...(skill ? { skill: String(skill).slice(0, 80) } : {}) })), null, 2));
           return json(res, 200, { ok: true });
         }
         try { return json(res, 200, JSON.parse(fs.readFileSync(file, "utf8"))); } catch { return json(res, 200, []); }
@@ -283,7 +394,7 @@ const server = http.createServer(async (req, res) => {
         if (!d) return json(res, 404, { error: "no discussion" });
         if (parts[3] === "events") {
           res.writeHead(200, { "content-type": "text/event-stream", "cache-control": "no-cache", connection: "keep-alive" });
-          res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice })}\n\n`);
+          res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice, from: d.from || "" })}\n\n`);
           for (const ev of d.events) res.write(`data: ${JSON.stringify(ev)}\n\n`);
           d.clients.add(res);
           req.on("close", () => d.clients.delete(res));
@@ -291,7 +402,7 @@ const server = http.createServer(async (req, res) => {
         }
         if (parts[3] === "control" && req.method === "POST") {
           const b = await readBody(req);
-          discussions.control(d, String(b.action || ""), b.text);
+          discussions.control(d, String(b.action || ""), b.text, b);
           return json(res, 200, { ok: true, state: d.state });
         }
         return json(res, 404, { error: "unknown" });
@@ -339,23 +450,31 @@ const server = http.createServer(async (req, res) => {
       }
 
       if (url.pathname === "/api/sessions" && req.method === "GET") {
-        const live = [...sessions.values()].map(({ id, title, status, sdkSessionId, pending, taskId, model, activity }) => ({ id, title, status, sdkSessionId, taskId, model, activity: activity || "", pending: pending.size }));
+        const live = [...sessions.values()].map(({ id, title, status, sdkSessionId, pending, taskId, model, activity, agentCap, agentsUsed }) => ({ id, title, status, sdkSessionId, taskId, model, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
         const past = (await listSessions({ dir: REPO, limit: 40 }).catch(() => []))
           .filter((p) => !live.some((l) => l.sdkSessionId === p.sessionId))
           .map((p) => ({ sessionId: p.sessionId, title: p.customTitle || p.summary || p.sessionId, lastModified: p.lastModified }));
+        // give backfilled file-touch records a readable conversation title
+        let named = false;
+        for (const p of past) if (touched[p.sessionId] && !touched[p.sessionId].title) { touched[p.sessionId].title = p.title.slice(0, 60); named = true; }
+        if (named) fs.writeFileSync(TOUCHED_FILE, JSON.stringify(touched));
         return json(res, 200, { live, past, links: readLinks() });
       }
 
       if (url.pathname === "/api/sessions" && req.method === "POST") {
         const body = await readBody(req);
         const s = createSession(body);
+        if (body.resume) { // show what was said before, then a divider, before anything new streams in
+          const old = historyEvents(await getSessionMessages(body.resume, { dir: REPO }).catch(() => []));
+          if (old.length) s.events.unshift(...old, { kind: "note", text: "── 以上係之前嘅對話，由呢度繼續 ──" });
+        }
         if (body.text) sendMessage(s, body.text);
         return json(res, 200, { id: s.id });
       }
 
       if (parts[1] === "history" && parts[2]) {
         const msgs = await getSessionMessages(parts[2], { dir: REPO }).catch(() => []);
-        return json(res, 200, msgs);
+        return json(res, 200, historyEvents(msgs));
       }
 
       if (parts[1] === "sessions" && parts[2]) {
@@ -372,6 +491,7 @@ const server = http.createServer(async (req, res) => {
         }
         if (req.method !== "POST") return json(res, 405, { error: "POST" });
         const body = await readBody(req);
+        if (action === "agents") { s.agentCap = Math.max(0, Math.min(8, +body.cap || 0)); emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed }); return json(res, 200, { ok: true }); }
         if (action === "message") { sendMessage(s, String(body.text || "")); return json(res, 200, { ok: true }); }
         if (action === "answer") {
           const resolve = s.pending.get(body.requestId);

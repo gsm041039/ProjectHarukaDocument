@@ -16,11 +16,7 @@ export function createSmartStart(ctx) {
   modal.addEventListener("click", (e) => { if (e.target === modal) close(); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
 
-  const GENERIC = [
-    { icon: "▶", label: "直接開始", prompt: "就呢樣嘢開始做，先用白話講你打算點做。" },
-    { icon: "🔍", label: "只核對來源", prompt: "先做 source check：用白話講現有資料講咗咩、缺咩，未做設計；最後用選項卡問我下一步。" },
-    { icon: "🧭", label: "畀我候選", prompt: "諗 2–4 個具體方向，每個講清會發生咩、代價、放棄咗咩，用選項卡問我揀。" },
-  ];
+  const GENERIC = state.config?.generic_choices || []; // tools/workbench/ui_config.json
 
   async function open(item) {
     config ||= await fetch("smart_start.json").then((r) => r.json()).catch(() => ({}));

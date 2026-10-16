@@ -27,10 +27,10 @@ export function render(el, ctx) {
     const people = rel.filter((x) => x.type === "character");
     return h("div", { class: "list-item clickable", onclick: () => openEntity(r.id) },
       h("div", { style: "display:flex;gap:8px;align-items:baseline;flex-wrap:wrap" },
-        h("span", { class: "pill info" }, r.date || "—"), h("b", { style: "flex:1;min-width:200px" }, r.topic.split(/——|；|（/)[0].slice(0, 60)),
+        h("span", { class: "pill info" }, r.date || "—"), h("b", { style: "flex:1;min-width:200px" }, (ctx.strip(r.topic) || r.topic).split(/——|；|（/)[0].slice(0, 60)),
         ...people.slice(0, 4).map((c) => h("span", { class: "pill accent" }, c.title)),
         qs.length ? h("span", { class: "pill" }, `${qs.length} 條相關問題`) : null),
-      h("div", { class: "small muted clamp2", style: "margin-top:4px" }, r.position));
+      h("div", { class: "small muted clamp2", style: "margin-top:4px" }, ctx.plain(r.position)));
   };
 
   el.append(h("div", { class: "toolbar", style: "margin-bottom:4px" }, h("h2", { style: "margin:0;flex:1" }, "決定"),

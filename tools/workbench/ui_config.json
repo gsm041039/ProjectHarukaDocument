@@ -1,0 +1,136 @@
+{
+  "_說明": "網頁所有「預設清單」都喺度，改呢個檔就改到，唔使改程式（儲存後重新載入網頁）。自動討論嘅範圍／停止點建議另外會由 AI 按話題即場出；呢度只係冇 AI 建議時嘅後備。",
+  "layers": [
+    {
+      "id": "baseline",
+      "name": "全作",
+      "match": "全作|baseline|whole",
+      "color": "#7a5ea8"
+    },
+    {
+      "id": "act",
+      "name": "Act",
+      "match": "act|outline|幕",
+      "color": "#3c64a8"
+    },
+    {
+      "id": "sequence",
+      "name": "Sequence",
+      "match": "sequence|序列",
+      "color": "#2f8a8a"
+    },
+    {
+      "id": "beat",
+      "name": "Beat",
+      "match": "beat",
+      "color": "#2f7d55"
+    },
+    {
+      "id": "section",
+      "name": "段落",
+      "match": "段落|section",
+      "track": false,
+      "color": "#2f7d55"
+    },
+    {
+      "id": "scene",
+      "name": "Scene",
+      "match": "scene|場",
+      "color": "#a8892f"
+    },
+    {
+      "id": "dialogue",
+      "name": "對白",
+      "match": "dialogue|對白|voice",
+      "color": "#b4475e"
+    },
+    {
+      "id": "script",
+      "name": "劇本",
+      "match": "script|劇本",
+      "color": "#b4475e"
+    },
+    {
+      "id": "state",
+      "name": "狀態檔",
+      "match": "state|狀態",
+      "color": "#6d6860",
+      "track": false
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "match": "other",
+      "color": "#9c978f",
+      "track": false
+    }
+  ],
+  "quick_replies": [
+    "好，照你建議做",
+    "繼續",
+    "講詳細啲",
+    "用白話再講一次",
+    "唔啱，再諗過",
+    "畀我睇候選",
+    "總結做到邊",
+    "停一停"
+  ],
+  "discuss_ranges": [
+    "只喺 Beat 層討論，唔落對白／鏡頭",
+    "唔可以改已批 canon，只可以提議",
+    "只限 Demo 範圍",
+    "以 00_Story_Brief.html 為準"
+  ],
+  "discuss_stops": [
+    "有 2–3 個成形候選＋推薦",
+    "列晒問題同風險就停（唔使解決）",
+    "大家達成共識",
+    "搵到最大嘅漏洞就停"
+  ],
+  "generic_choices": [
+    {
+      "icon": "▶",
+      "label": "直接開始",
+      "prompt": "就呢樣嘢開始做，先用白話講你打算點做。{goal}"
+    },
+    {
+      "icon": "🔍",
+      "label": "只核對來源",
+      "prompt": "先做 source check：用白話講現有資料講咗咩、缺咩，未做設計；最後用選項卡問我下一步。{goal}"
+    },
+    {
+      "icon": "🧭",
+      "label": "畀我候選",
+      "prompt": "就「{goal}」諗 2–4 個具體方向，每個講清會發生咩、代價、放棄咗咩，用選項卡問我揀。"
+    },
+    {
+      "icon": "🔁",
+      "label": "繼續上次",
+      "prompt": "讀返相關 tracker 同 SESSION_LEDGER，講返上次做到邊，然後繼續。{goal}"
+    }
+  ],
+  "agent_caps": [
+    {
+      "cap": 0,
+      "label": "唔派助手",
+      "why": "一般故事討論／人物設計（CLAUDE.md 預算：0）"
+    },
+    {
+      "cap": 1,
+      "label": "最多 1 個",
+      "why": "跨文件 canon 查核"
+    },
+    {
+      "cap": 2,
+      "label": "最多 2 個",
+      "why": "複雜跨 Act／世界系統研究（預設）"
+    },
+    {
+      "cap": 4,
+      "label": "最多 4 個",
+      "why": "明確大型整體審查（要你批先開）"
+    }
+  ],
+  "agent_cap_default": 2,
+  "planner_model": "sonnet"
+}

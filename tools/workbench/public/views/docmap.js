@@ -1,6 +1,10 @@
 // 文件地圖：按層由左到右排；撳一份文件，上游（佢依據嘅）同下游（依賴佢嘅）會亮起。
-const LAYER_NAME = { baseline: "全作基線", act: "Act", sequence: "Sequence", beat: "Beat", scene: "Scene", dialogue: "對白／Voice", state: "狀態檔", other: "其他" };
-const LAYER_COLOR = { baseline: "#7a5ea8", act: "#3c64a8", sequence: "#2f8a8a", beat: "#2f7d55", scene: "#a8892f", dialogue: "#b4475e", state: "#6d6860", other: "#9c978f" };
+
+// edge kinds (doc_graph): label, colour, line style. 「衍生自」 comes from LAYER_MANIFEST 父層 or a 「衍生自：」 line in the file.
+const KIND = {
+  parent: ["衍生自", "#7a5ea8", "solid", 2.5], derived_from: ["衍生自", "#7a5ea8", "solid", 2.5], supersedes: ["取代", "#d33", "solid", 2],
+  affects: ["影響", "#c27a12", "solid", 2], based_on: ["依據", "#2f8a8a", "solid", 1.5], link: ["連結", "#999", "solid", 1], mention: ["內文提及", "#bbb", "dashed", 1],
+};
 
 function loadCytoscape() {
   if (window.cytoscape) return Promise.resolve();
@@ -15,16 +19,21 @@ function loadCytoscape() {
 export async function render(el, ctx) {
   const { h, state, sendIntent, openFile, newSession, openEntity } = ctx;
   const g = state.index?.doc_graph;
+  // layer names / colours: tools/workbench/ui_config.json
+  const LAYER_NAME = Object.fromEntries((state.config?.layers || []).map((l) => [l.id, l.name]));
+  const LAYER_COLOR = Object.fromEntries((state.config?.layers || []).map((l) => [l.id, l.color || "#9c978f"]));
   if (!g) return el.append(h("div", { class: "card" }, "讀唔到文件資料"));
   const opt = (state.mapOpt ||= { all: false, mentions: false, q: "" });
+  opt.hide ||= {};
   const rerender = () => { el.replaceChildren(); render(el, ctx); };
 
   const visible = g.nodes.filter((n) => opt.all || n.layer !== "other" || n.current);
   const ids = new Set(visible.map((n) => n.id));
-  const edges = g.edges.filter((e) => ids.has(e.from) && ids.has(e.to) && (opt.mentions || e.kind !== "mention"));
+  const edges = g.edges.filter((e) => ids.has(e.from) && ids.has(e.to) && (opt.mentions || e.kind !== "mention") && !opt.hide[KIND[e.kind]?.[0]]);
+  const present = [...new Set(g.edges.filter((e) => e.kind !== "mention").map((e) => KIND[e.kind]?.[0] || e.kind))];
 
   const info = h("div", { class: "card" }, h("h3", {}, "撳一份文件"), h("div", { class: "small muted" },
-    "實線＝明確連結／登記咗嘅父層；虛線＝內文提及（預設收埋）。紅框＝內文有 REVALIDATE_REQUIRED；淡色＝已取代。冇喺 LAYER_MANIFEST 登記嘅檔，層係按檔名估嘅。"),
+    "線嘅顏色＝關係類型（上面可以逐類開關）；箭咀由「依賴嘅一方」指向「被依賴嘅一方」。虛線＝內文提及（預設收埋）。紅框＝內文有 REVALIDATE_REQUIRED；淡色＝已取代。冇喺 LAYER_MANIFEST 登記嘅檔，層係按檔名估嘅。"),
     h("div", { style: "margin-top:10px" }, ...g.layers.map((l) => h("div", { class: "small" }, h("span", { style: `display:inline-block;width:10px;height:10px;border-radius:2px;background:${LAYER_COLOR[l]};margin-right:6px` }), LAYER_NAME[l]))));
   const box = h("div", { id: "graph" });
   const search = h("input", { type: "search", placeholder: "搵檔名…", value: opt.q });
@@ -34,6 +43,11 @@ export async function render(el, ctx) {
     h("label", {}, h("input", { type: "checkbox", checked: opt.all, onchange: (e) => { opt.all = e.target.checked; rerender(); } }), " 顯示全部檔案"),
     h("label", {}, h("input", { type: "checkbox", checked: opt.mentions, onchange: (e) => { opt.mentions = e.target.checked; rerender(); } }), " 顯示內文提及"),
     h("span", { class: "small muted" }, `${visible.length} 份文件 · ${edges.length} 條關係 · 已登記 ${g.manifest_entries}`)),
+    h("div", { class: "chips", style: "margin-bottom:8px" }, h("span", { class: "small", style: "font-weight:800" }, "關係類型："), ...present.map((name) => {
+      const k = Object.values(KIND).find((x) => x[0] === name) || [name, "#999"];
+      return h("button", { class: "chip" + (opt.hide[name] ? "" : " on"), onclick: () => { opt.hide[name] = !opt.hide[name]; rerender(); } },
+        h("span", { style: `display:inline-block;width:14px;height:3px;background:${k[1]};margin-right:6px;vertical-align:middle` }), name);
+    })),
     h("div", { class: "graph-wrap" }, box, info));
 
   try { await loadCytoscape(); } catch (e) { box.replaceChildren(h("div", { class: "view-pad muted" }, e.message)); return; }
@@ -53,15 +67,13 @@ export async function render(el, ctx) {
     elements: [
       ...visible.map((n) => ({ data: { id: n.id, label: n.id.split("/").pop().replace(/\.md$/, ""), color: LAYER_COLOR[n.layer],
         reval: n.status?.REVALIDATE_REQUIRED ? 1 : 0, old: /SUPERSEDED|REFERENCE/.test(n.current) ? 1 : 0 }, position: pos[n.id] })),
-      ...edges.map((e, i) => ({ data: { id: "e" + i, source: e.from, target: e.to, kind: e.kind } })),
+      ...edges.map((e, i) => { const k = KIND[e.kind] || ["", "#aaa", "solid", 1]; return { data: { id: "e" + i, source: e.from, target: e.to, kind: e.kind, color: k[1], line: k[2], w: k[3] } }; }),
     ],
     style: [
       { selector: "node", style: { "background-color": "data(color)", label: "data(label)", "font-size": 10, color: css.getPropertyValue("--text"), "text-valign": "bottom", "text-margin-y": 3, width: 16, height: 16 } },
       { selector: "node[reval = 1]", style: { "border-width": 3, "border-color": "#d33" } },
       { selector: "node[old = 1]", style: { opacity: 0.4 } },
-      { selector: "edge", style: { width: 1, "line-color": "#aaa", "target-arrow-color": "#aaa", "target-arrow-shape": "triangle", "arrow-scale": 0.6, "curve-style": "bezier", opacity: 0.35 } },
-      { selector: "edge[kind = 'mention']", style: { "line-style": "dashed" } },
-      { selector: "edge[kind = 'parent']", style: { width: 2, opacity: 0.6 } },
+      { selector: "edge", style: { width: "data(w)", "line-color": "data(color)", "line-style": "data(line)", "target-arrow-color": "data(color)", "target-arrow-shape": "triangle", "arrow-scale": 0.7, "curve-style": "bezier", opacity: 0.5 } },
       { selector: ".faded", style: { opacity: 0.08 } },
       { selector: ".up", style: { "line-color": "#3c64a8", "target-arrow-color": "#3c64a8", "background-color": "#3c64a8", opacity: 1 } },
       { selector: ".down", style: { "line-color": "#c27a12", "target-arrow-color": "#c27a12", "background-color": "#c27a12", opacity: 1 } },

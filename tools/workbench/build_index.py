@@ -485,6 +485,14 @@ def guess_layer(path: str) -> str:
     return "other"
 
 
+# Lines like 「衍生自：`A.md`」「取代：`B.md`」「影響：`C.md`、`D.md`」 (also English) declare typed relations.
+REL_LINE = re.compile(r"^\s*(?:[>*\-|]\s*)*\**\s*(衍生自|父層|來源|Derived from|Source|依據|基於|Based on|取代|Supersedes|Replaces|影響|改動影響|下游|Affects|Revalidate)\s*\**\s*[:：]\s*(.+)$", re.I | re.M)
+REL_KIND = {"衍生自": "derived_from", "父層": "derived_from", "來源": "derived_from", "derived from": "derived_from", "source": "derived_from",
+            "依據": "based_on", "基於": "based_on", "based on": "based_on",
+            "取代": "supersedes", "supersedes": "supersedes", "replaces": "supersedes",
+            "影響": "affects", "改動影響": "affects", "下游": "affects", "affects": "affects", "revalidate": "affects"}
+
+
 def parse_doc_graph():
     files = [p for p in (REPO / "canon").rglob("*.md")
              if ".tmp" not in p.parts and not re.search(r"(?i)bak|backup", p.name)]
@@ -523,6 +531,12 @@ def parse_doc_graph():
         for parent in m.get("parent", []):
             if parent in by_rel:
                 edges.add((r, parent, "parent"))
+        for word, rest in REL_LINE.findall(t):
+            kind = REL_KIND[word.lower()] if word.lower() in REL_KIND else REL_KIND.get(word, "based_on")
+            for ref in re.findall(r"[\w./-]*?([\w-]+\.md)", rest):
+                cands = by_base.get(ref, [])
+                if len(cands) == 1 and cands[0] != r:
+                    edges.add((r, cands[0], kind))
     return {"nodes": nodes, "edges": [{"from": a, "to": b, "kind": k} for a, b, k in sorted(edges)], "layers": LAYERS,
             "manifest_entries": len(manifest)}
 
@@ -995,6 +1009,7 @@ def link_entities(out: dict) -> dict:
         e["summary"] = (d["title"] + " — " + d["purpose"]).strip(" —")
 
     links = set()
+    typed = set()  # (from, kind, to): directed, typed — what the drawer's 🧬 section and the map's edge filters show
     name_res = [(ch["id"], [alias_re(a) for a in ch["aliases"]]) for ch in chars]
     base_to_file = {}
     for fid in (e for e in ents if ents[e]["type"] == "file"):
@@ -1003,9 +1018,11 @@ def link_entities(out: dict) -> dict:
         for ref in set(ID_RE.findall(text)):
             if ref in ents and ref != eid:
                 links.add(tuple(sorted((eid, ref))))
+                typed.add((eid, "answers" if ents[eid]["type"] == "decision" and ents[ref]["type"] == "question" else "cites", ref))
         for cid, res in name_res:
             if cid != eid and any(r.search(text) for r in res):
                 links.add(tuple(sorted((eid, cid))))
+                typed.add((eid, "about", cid))
         for base in set(re.findall(r"([\w-]+\.md)", text)):
             if len(base_to_file.get(base, [])) == 1 and base_to_file[base][0] != eid:
                 links.add(tuple(sorted((eid, base_to_file[base][0]))))
@@ -1024,6 +1041,27 @@ def link_entities(out: dict) -> dict:
         for target in e.get("links", []) or []:
             if target in ents and target != eid:
                 links.add(tuple(sorted((eid, target))))
+                typed.add((eid, "grounded_on", target))
+    for ed in (out.get("doc_graph") or {}).get("edges", []):
+        kind = {"parent": "derived_from", "link": "links_to"}.get(ed["kind"], ed["kind"])
+        if kind != "mention" and ed["from"] in ents and ed["to"] in ents:
+            links.add(tuple(sorted((ed["from"], ed["to"]))))
+            typed.add((ed["from"], kind, ed["to"]))
+    # conversations / auto-discussions that read or changed files (written by the workbench server)
+    sf = W / ".tmp" / "workbench" / "session_files.json"
+    try:
+        touched = json.loads(read(sf)) if sf.exists() else {}
+    except Exception:
+        touched = {}
+    for sid, rec in touched.items():
+        cid = sid if sid.startswith("DISC:") else "CONV:" + sid
+        if cid not in ents:
+            add(cid, "conversation", rec.get("title") or "以前嘅對話", time.strftime("%Y-%m-%d", time.localtime((rec.get("t") or 0) / 1000)), "", "")
+            ents[cid]["session"] = sid
+        for f, how in (rec.get("files") or {}).items():
+            if f in ents:
+                links.add(tuple(sorted((cid, f))))
+                typed.add((cid, "edited" if how == "edit" else "read", f))
     for ch in chars:  # character ↔ its art folder
         aid = "ART:" + ch["art_folder"]
         if aid in ents:
@@ -1032,9 +1070,38 @@ def link_entities(out: dict) -> dict:
     for a, b in links:
         rel_map.setdefault(a, []).append(b)
         rel_map.setdefault(b, []).append(a)
+    edge_map = {}
+    for a, kind, b in typed:
+        edge_map.setdefault(a, []).append([kind, "out", b])
+        edge_map.setdefault(b, []).append([kind, "in", a])
     for eid, e in ents.items():
         e["rel"] = rel_map.get(eid, [])[:300]
+        e["edges"] = edge_map.get(eid, [])[:300]
+    out["relations"] = {"count": len(typed), "kinds": sorted({k for _, k, _ in typed})}
     return ents
+
+
+def build_tree(out: dict) -> list:
+    """Nodes {id, title, layer, parent, order, current}. Parents come from LAYER_MANIFEST (first parent) and beat-board sections."""
+    nodes = {}
+    docs = {d["id"]: d for d in (out.get("docs") or {}).get("docs", [])}
+    man = read_manifest()
+    for i, (f, m) in enumerate(man.items()):
+        parent = next((x for x in m["parent"] if x in man), None)
+        title = (docs.get(f) or {}).get("title") or f.rsplit("/", 1)[-1]
+        nodes[f] = {"id": f, "title": title, "layer": m["layer"], "parent": parent, "order": i, "current": m["current"]}
+    for b in (out.get("beats") or {}).get("boards", []):
+        if b["file"] not in nodes:
+            nodes[b["file"]] = {"id": b["file"], "title": b["title"], "layer": "beat", "parent": None, "order": 999, "current": b["current"]}
+        else:
+            nodes[b["file"]]["title"] = b["title"]
+        for ci, c in enumerate(b["columns"]):
+            sid = f"SEQ:{b['file']}#{ci}"
+            nodes[sid] = {"id": sid, "title": c["title"], "layer": "section", "parent": b["file"], "order": ci, "current": b["current"]}
+            for bi, x in enumerate(c["beats"]):
+                bid = f"BEAT:{b['file']}#{x['id']}"
+                nodes[bid] = {"id": bid, "title": x["title"], "layer": "beat_item", "parent": sid, "order": bi, "current": b["current"], "code": x["id"]}
+    return list(nodes.values())
 
 
 PARSERS = {
@@ -1072,6 +1139,11 @@ def build() -> dict:
             out[name] = None
             out["errors"][name] = traceback.format_exc(limit=3)
     try:
+        out["tree"] = build_tree(out)
+    except Exception:
+        out["tree"] = []
+        out["errors"]["tree"] = traceback.format_exc(limit=3)
+    try:
         out["entities"] = link_entities(out)
     except Exception:
         out["entities"] = {}
@@ -1098,6 +1170,9 @@ def check(idx: dict):
     assert angles_in("—") == set() and angles_in("全部", base={3, 9}) == {3, 9}
     assert idx["beats"]["boards"] and all(b["columns"] for b in idx["beats"]["boards"]), "no beat boards parsed"
     assert len(idx["doc_graph"]["nodes"]) > 100 and idx["doc_graph"]["edges"], "doc graph too small"
+    assert REL_LINE.search("衍生自：`A.md`") and REL_LINE.search("> **取代**：`B.md`、`C.md`") and not REL_LINE.search("依據唔夠")
+    assert {"derived_from", "cites", "about"} <= set(idx["relations"]["kinds"]), idx["relations"]
+    assert any(n["layer"] == "beat_item" for n in idx["tree"]) and any(n["layer"] == "act" for n in idx["tree"]), "tree missing layers"
     print("check OK:", {k: (len(v) if isinstance(v, list) else "ok") for k, v in idx.items() if k in PARSERS},
           "warnings:", len(idx["warnings"]))
 

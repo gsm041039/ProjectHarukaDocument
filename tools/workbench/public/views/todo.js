@@ -45,7 +45,7 @@ export function render(el, ctx) {
   const row = (id, main, sub) => h("div", { class: "list-item", style: "display:flex;gap:10px;align-items:flex-start" },
     h("input", { type: "checkbox", checked: sel.has(id), onchange: (e) => { e.target.checked ? sel.add(id) : sel.delete(id); rerender(); }, style: "margin-top:3px" }),
     h("div", { style: "flex:1;min-width:0;cursor:pointer", onclick: () => openEntity(id) },
-      h("div", { style: "font-weight:700" }, main), h("div", { class: "small muted" }, sub)));
+      h("div", { style: "font-weight:700" }, ctx.plain(main)), h("div", { class: "small muted" }, sub)));
 
   const search = h("input", { type: "search", placeholder: "搵…", value: f.text });
   search.addEventListener("change", () => { f.text = search.value.trim(); rerender(); });

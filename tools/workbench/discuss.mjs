@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { query } from "@anthropic-ai/claude-agent-sdk";
 
-export function createDiscussions({ REPO, DIR }) {
+export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
   const all = new Map();
   fs.mkdirSync(DIR, { recursive: true });
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
@@ -18,16 +18,26 @@ export function createDiscussions({ REPO, DIR }) {
   const save = (d) => { const { clients, waiter, ...rest } = d; fs.writeFileSync(path.join(DIR, d.id + ".json"), JSON.stringify(rest)); };
   const emit = (d, ev) => { ev.t = Date.now(); d.events.push(ev); for (const r of d.clients) r.write(`data: ${JSON.stringify(ev)}\n\n`); save(d); };
 
-  async function ask(d, prompt) {
+  // returns the reply text; files the agent read go into out.reads (shown per turn, and fed to the file ↔ conversation registry)
+  async function ask(d, prompt, out = {}) {
     let text = "", cost = 0;
+    const reads = new Set();
     for await (const m of query({ prompt, options: {
       cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
       allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 8, ...(d.model ? { model: d.model } : {}),
     } })) {
       if (m.type === "result") { text = m.result || text; cost = m.total_cost_usd || 0; }
-      else if (m.type === "assistant") for (const b of m.message.content) if (b.type === "text") text = b.text;
+      else if (m.type === "assistant") for (const b of m.message.content) {
+        if (b.type === "text") text = b.text;
+        else if (b.type === "tool_use" && b.name === "Read" && b.input?.file_path) {
+          const rel = path.relative(REPO, path.resolve(REPO, b.input.file_path)).split(path.sep).join("/");
+          if (!rel.startsWith("..")) reads.add(rel);
+        }
+      }
     }
     d.cost += cost;
+    out.reads = [...reads];
+    if (reads.size) onRead(d, out.reads);
     emit(d, { kind: "cost", cost: d.cost });
     return text.trim();
   }
@@ -81,13 +91,15 @@ ${transcript(d)}`;
         d.round = round;
         emit(d, { kind: "round", round });
         if (round === 1) {
-          const outs = await Promise.all(d.roles.map((r) => ask(d, rolePrompt(d, r, 1)).then((text) => [r, text])));
-          for (const [r, text] of outs) emit(d, { kind: "turn", round, role: r.name, icon: r.icon, text });
+          const outs = await Promise.all(d.roles.map((r) => { const o = {}; return ask(d, rolePrompt(d, r, 1), o).then((text) => [r, text, o.reads]); }));
+          for (const [r, text, reads] of outs) emit(d, { kind: "turn", round, role: r.name, icon: r.icon, text, reads });
         } else {
           for (const r of d.roles) {
             await gate(d);
             if (d.state === "stopping") break;
-            emit(d, { kind: "turn", round, role: r.name, icon: r.icon, text: await ask(d, rolePrompt(d, r, round)) });
+            const o = {};
+            const text = await ask(d, rolePrompt(d, r, round), o);
+            emit(d, { kind: "turn", round, role: r.name, icon: r.icon, text, reads: o.reads });
           }
         }
         if (d.state === "stopping") { d.stopReason = "作者叫停"; break; }
@@ -127,7 +139,7 @@ ${transcript(d)}`;
       const d = { id: Date.now().toString(36), created: Date.now(), topic: String(cfg.topic).slice(0, 2000), range: String(cfg.range || "").slice(0, 1000),
         stop: String(cfg.stop || "有 2–3 個成形候選＋推薦").slice(0, 300), context: String(cfg.context || "").slice(0, 800), roles,
         links: (Array.isArray(cfg.links) ? cfg.links : []).slice(0, 20).map((l) => ({ id: String(l.id).slice(0, 200), title: String(l.title || "").slice(0, 200), file: String(l.file || "").slice(0, 300) })),
-        skill: String(cfg.skill || "").slice(0, 80), skillChoice: String(cfg.skillChoice || "").slice(0, 600),
+        skill: String(cfg.skill || "").slice(0, 80), skillChoice: String(cfg.skillChoice || "").slice(0, 600), from: String(cfg.from || "").slice(0, 40),
         maxRounds: Math.min(Math.max(+cfg.maxRounds || 3, 1), 6), budget: Math.min(Math.max(+cfg.budget || 5, 0.5), 50), model: cfg.model || "",
         round: 0, cost: 0, focus: "", state: "running", stopReason: "", events: [], clients: new Set() };
       all.set(d.id, d);
@@ -135,10 +147,18 @@ ${transcript(d)}`;
       run(d);
       return d;
     },
-    control(d, action, text) {
+    control(d, action, text, body = {}) {
       if (action === "pause" && d.state === "running") d.state = "paused";
       else if (action === "resume" && d.state === "paused") { d.state = "running"; d.waiter?.(); }
       else if (action === "stop" && ["running", "paused"].includes(d.state)) { d.state = "stopping"; d.waiter?.(); }
+      // change the cast / length mid-way: takes effect from the next turn
+      else if (action === "roles" && Array.isArray(body.roles) && body.roles.length >= 2) {
+        d.roles = body.roles.slice(0, 6).map((r) => ({ name: String(r.name).slice(0, 40), icon: String(r.icon || "🤖").slice(0, 4), brief: String(r.brief || "").slice(0, 600), skill: String(r.skill || "").slice(0, 80) }));
+        emit(d, { kind: "author", text: `（改咗角色：${d.roles.map((r) => r.name).join("、")}，下一個發言開始生效）` });
+      } else if (action === "rounds") {
+        d.maxRounds = Math.min(Math.max(+body.rounds || d.maxRounds, d.round || 1), 8);
+        emit(d, { kind: "author", text: `（最多輪數改做 ${d.maxRounds}）` });
+      }
       else if (action === "say" && text) { emit(d, { kind: "author", text: String(text).slice(0, 2000) }); if (d.state === "paused") { d.state = "running"; d.waiter?.(); } }
       emit(d, { kind: "state", state: d.state });
     },

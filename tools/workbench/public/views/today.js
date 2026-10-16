@@ -20,7 +20,7 @@ export function render(el, ctx) {
   // ---------- ① focus: the single most important thing ----------
   const gatePipe = pipes.find((p) => { const s = curStage(p); return s && (s.status === "AWAITING" || s.author_gate); });
   const focus = waiting[0] ? { ic: "🙋", title: `Claude 喺「${short(waiting[0].title)}」問緊你`, sub: "撳入去揀答案就得", btn: "去答", go: () => openLive(waiting[0].id) }
-    : na?.needs_author ? { ic: "👉", title: "下一步要你決定", sub: short(na.text, 40), btn: "開始", go: () => newSession("請讀 NEXT_ACTION.md 最頂嗰條單一步，用白話講要我決定咩，用選項卡問我。", "下一步") }
+    : na?.needs_author ? { ic: "👉", title: "下一步要你決定", sub: ctx.plain(na.text), btn: "開始", go: () => newSession("請讀 NEXT_ACTION.md 最頂嗰條單一步，用白話講要我決定咩，用選項卡問我。", "下一步") }
     : gatePipe ? { ic: "👑", title: `「${gatePipe.short}」要你批`, sub: `${curStage(gatePipe).code} ${short(curStage(gatePipe).title, 20)}`, btn: "去批", go: () => goPipe(gatePipe) }
     : { ic: "🌸", title: "冇嘢等你", sub: "揀一樣嘢繼續，或者開新工作", btn: "做下一步", go: () => newSession("請讀 NEXT_ACTION.md，然後開始做。", "下一步") };
   const hero = h("div", { class: "hero focus" }, h("div", { class: "mascot" }, focus.ic),
@@ -55,11 +55,11 @@ export function render(el, ctx) {
     const need = cur && (cur.status === "AWAITING" || cur.author_gate);
     row("🛤️", pl.short, need ? "要你批" : cur?.status === "BLOCKED" ? "卡住" : `${pl.done}/${pl.stages.length}`, need ? "warn" : cur?.status === "BLOCKED" ? "bad" : "info",
       h("button", { class: "small primary", onclick: () => goPipe(pl) }, "▶"),
-      [cur ? h("div", { class: "now-line" }, h("b", {}, "做緊 "), `${cur.code} ${cur.title}`) : null, nxt ? h("div", { class: "now-line" }, h("b", {}, "下一步 "), `${nxt.code} ${nxt.title}`) : null]);
+      [cur ? h("div", { class: "now-line" }, h("b", {}, "做緊 "), ctx.plain(cur.title)) : null, nxt ? h("div", { class: "now-line" }, h("b", {}, "下一步 "), ctx.plain(nxt.title)) : null]);
   }
   for (const t of tasks.filter((t) => !live.some((s) => s.taskId === t.id))) {
     row("🗂️", short(t.task, 22), t.needs_author ? "要你決定" : t.status, t.needs_author ? "warn" : "",
-      h("button", { class: "small primary", onclick: () => continueTask(t) }, "▶"), [h("div", { class: "now-line" }, t.task)]);
+      h("button", { class: "small primary", onclick: () => continueTask(t) }, "▶"), [h("div", { class: "now-line" }, ctx.plain(t.task))]);
   }
   const nowCard = h("div", { class: "card now-card" }, h("h3", {}, "進行中"), ...(rows.length ? rows : [h("div", { class: "muted" }, "冇嘢進行緊")]));
 

@@ -14,18 +14,13 @@ export function createLauncher(ctx) {
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
 
   // Skills list their own buttons in SKILL.md "## Workbench Choices"; skills without one get these.
-  const GENERIC = [
-    { icon: "▶", label: "直接開始", prompt: "{goal}" },
-    { icon: "🔍", label: "只做 source check", prompt: "先做 source check：用白話講現有資料講咗咩、缺咩，未做設計；最後用選項卡問我下一步。{goal}" },
-    { icon: "🧭", label: "畀我候選", prompt: "就「{goal}」諗 2–4 個具體候選，每個講清會發生咩、代價、放棄咗咩，用選項卡問我揀。" },
-    { icon: "🔁", label: "繼續上次", prompt: "讀返相關 tracker 同 SESSION_LEDGER，講返上次做到邊，然後繼續。{goal}" },
-  ];
+  const GENERIC = state.config?.generic_choices || []; // tools/workbench/ui_config.json
   const choicesOf = (name) => { const s = skills().find((x) => x.name === name); return s?.choices?.length ? s.choices : GENERIC; };
   const startPrompt = (skill, goal, context, template) => {
     const g = goal || "（未講，請先問我想做咩）";
     const body = template ? template.replaceAll("{goal}", g) : g;
     const ctxLine = context ? `\n\n相關：${context}` : "";
-    return skill ? `請用 \`${skill}\` skill：${body}${ctxLine}` : body + ctxLine;
+    return skill ? `請用 \`${skill}\` skill：${body}${ctxLine}` : (template ? "" : ctx.ROUTE || "") + body + ctxLine;
   };
 
   async function open({ skill = null, context = "", tab = null } = {}) {

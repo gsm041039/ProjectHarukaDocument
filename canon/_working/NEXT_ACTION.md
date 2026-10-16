@@ -4,7 +4,7 @@
 
 > **單一步（2026-10-08 深夜，取代下面）：** Demo Beat 層 v4.1 完成（`demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md`；Reference Audit 已做）。下一步＝作者批 Beat 層（Director review）或指出要改 → 批咗先入 Scene 層。需要作者 input：YES。
 
-> 🎭 **並行線（2026-10-16，Stage 5 人物底）：** 紫音入返 demo（D-14）後，聲線微場景 5–7、自稱／稱呼表、表演文件候選已起草（`shion_voice_discovery.md`、`character-performance-bibles/shion.md`），等作者一次過揀；唔取代上面單一步（Beat 層批核）。需要作者 input：YES。
+> 🎭 **並行線（2026-10-17，Stage 5 人物底）：** auditor 已跑，四人 exploratory，Stage 5 夠用版達成（暫定，見 `demo_pilot/VOICE_EVIDENCE_REVIEW.md` Re-audit #2）；未覆蓋對白位（天台、B8、餵糖、M2、M4 U1）移交 Stage 8。主線仍等 Beat 層批核。需要作者 input：NO（Blind Attribution 聽感待 Stage 8 前做）。
 
 
 > **單一步（2026-10-08 晚，取代下面）：** Demo Beat 層由頭重推（v4）已 checkpoint：`demo_pilot/beat_rederive_v4/CHECKPOINT.md`。下一步＝收結構 canon／玩法製作兩份盲審摘要後，orchestrator 自己 Diff＋修 v4.1（唔再派 agent），再出 Layer Review Packet。作者指示新 sub-agent 上限（記憶 feedback_subagent_budget）。需要作者 input：Layer Review 時 YES。
