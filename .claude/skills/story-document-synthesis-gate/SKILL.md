@@ -325,3 +325,10 @@ Required output after writeback:
 Target sync scope:
 [insert target files or folder]
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 🔄 同步掃描 | 讀晒相關文件，按新舊、權威同證據判斷現行事實並分類風險，先出報告唔寫入。
+- 🩹 列安全修正 | 列出可安全修正嘅項目同 diff 畀我睇，我批准之後先寫入。
+- ❓ 作者關卡問題 | 將高風險衝突整理成白話問題，用選項卡問我。

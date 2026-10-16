@@ -77,3 +77,11 @@ Localization / VO Risk:
 - 關鍵資料唔可以只放喺易漏 bark。
 - 同一句唔應同時負責情緒高潮、教程、世界觀解釋同戰術提示。
 - 禁止作者聲音、as-you-know exposition、過早 arc payoff。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 先查入場合約 | 先檢查聲線證據審核同對白準備判定有冇齊，冇就講清要先補咩，唔寫稿。
+- ✏️ 探索稿 | 為 {goal} 寫探索稿，未確認聲線候選清楚標記，帶 [DRAFT / 暫定 — pending full-story beat lock] 狀態章。
+- 💎 精修稿 | 喺準備判定容許下寫精修稿，每句核心台詞可追溯到聲線規則，帶暫定狀態章，唔寫回 canon。
+- 🎙️ 錄音準備稿 | 只喺 gate 容許時出錄音／table-read 準備稿，包括錄音備註同打斷恢復表；唔夠級就講明。
+- ⚔️ 戰鬥 bark 組 | 只寫戰鬥 bark、失敗反應同重試變體，關鍵資料唔放入易漏 bark。

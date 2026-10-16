@@ -48,3 +48,10 @@ canon/_working/story_construction/QUESTION_MATRIX.md
 - 唔准跳 phase。
 - 唔准略過 author gate。
 - 唔准消失 deferred questions。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- ▶️ 恢復上次進度 | 讀晒 state 檔同 task board，恢復上次完成、待做、卡住、跳過嘅項目同安全下一步，然後交返 orchestrator；唔可以憑記憶估。
+- 🧭 只睇做到邊 | 只用白話總結而家做到邊層、上次停喺邊，唔開始任何工作。
+- ❓ 列未答問題 | 列出所有延後同卡住嘅問題同佢哋重新處理嘅條件，唔可以漏。
+- 🚪 查層級批核狀態 | 恢復層級批核同候選板狀態，講清邊層已批、邊層等緊我批；唔可以由檔案存在推斷已批。

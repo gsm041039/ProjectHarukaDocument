@@ -360,3 +360,10 @@ Use story-outline-synthesis-gate to audit backup/draft/three_acts_story_outline_
 ```text
 Use story-outline-synthesis-gate to generate an Act II outline only. Read current state, decision logs, ACT_II_OUTLINE.md, timeline, relevant character sheets, and information design first. Mark all unresolved blockers.
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🛡️ 先出覆蓋清單 | 為{goal}先恢復 state、讀 decision log，出 source coverage ledger 同 blocker 報告，未寫任何大綱。
+- 📜 重建全作大綱 | 跑完整 Outline Synthesis Gate，gate 過咗先出全作大綱，否則只出部分大綱或審核報告；唔 writeback，要我批先算。
+- 🎭 只做單幕大綱 | 只為指定幕（例如 Act II）出大綱，先讀相關 state、幕檔、時間線同角色，標晒未解 blocker。
+- 🔎 審核現有大綱 | 對照現行 canon 審核{goal}呢份大綱，找出過時假設、結構錯誤、冇根據嘅發明同改寫計劃；只審唔改。

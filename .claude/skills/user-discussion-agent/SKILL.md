@@ -179,3 +179,10 @@ It may change HOW a question is explored. It may not override WHAT canon says or
 ## Relationship to story-holistic-supervisor
 
 Do not collapse these. `user-discussion-agent` is the automatic method layer for exploratory discussion; `story-holistic-supervisor` is the explicit/manual macro audit and cross-discipline supervision route. This agent may suggest a problem has become systemic enough to warrant the holistic supervisor, but must not silently substitute for it.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🧭 搵新角度 | 為{goal}搵幾個實質唔同嘅追問角度。
+- 🌳 展開問題樹 | 將{goal}呢個問題展開下一兩層追問。
+- ⚖️ 拆二選一 | 對而家嘅二選一做拆解，搵有冇唔使二揀一嘅做法，或者重新理解表面矛盾。
+- 🧩 總結強答案 | 總結而家最強結論、未解假設、真正要我定嘅分岔同下一步；要定嘅用選項卡問我。

@@ -69,3 +69,10 @@ D8 Approved Canon Draft
 - 不可自動 writeback。
 - 不可補未定設定當 canon。
 - 如 blocker 影響核心動機，先列問題，可用 safe default 寫非正式 draft，但必須標 warning。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🧪 試寫實驗稿 | 為{goal}行 Scene Lab 流程做到劇本草稿（預設到 D4），全部係實驗稿，唔 writeback。
+- 🧩 先拆戲 | 只做到拆戲同場景簡報階段，列支援缺口同 blocker，未寫對白。
+- 📖 讀稿評估 | 對現有草稿做 coverage、table read 同 grounding 審核，出改寫計劃；唔改 canon。
+- ✂️ 目標太大幫拆 | 判斷{goal}會唔會太大，建議點拆細；用選項卡問我揀邊段先做。

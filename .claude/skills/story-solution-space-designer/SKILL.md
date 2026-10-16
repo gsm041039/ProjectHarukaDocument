@@ -192,3 +192,9 @@ The orchestrator persists this via `story-run-workspace-manager`'s candidate boa
 
 ## User-Facing Visibility (enforced by orchestrator, not this skill)
 Do not dump the full candidate pool into chat. Surface only: selected recommendation, strongest unused alternative, optional wildcard, why each unused option lost. `LEVEL_3` may show all strategic alternatives.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 💡 出候選方案 | 為已確認嘅問題{goal}出幾個實質唔同嘅候選，先睇現有載體，再做多重責任、過載、跨角度挑戰同反方檢查；只交返 orchestrator，唔代我決定。
+- 🚀 主動搵改進 | 用主動機會模式掃{goal}呢份文件，自己搵具體弱點再提最多 8 個改進候選，包括激進另類同刪併類；全部係候選。
+- 😈 反方挑戰 | 對現有推薦方案做反方挑戰同組合檢查，講清最可能點失敗。

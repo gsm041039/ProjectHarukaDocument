@@ -446,3 +446,11 @@ Required output after writeback:
 Target sync scope:
 [insert target files or folder]
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 🔄 同步掃描 | 讀晒相關文件，按新舊、權威同證據判斷現行事實，分類成安全修正、中風險修正、作者關卡同不支持，先出報告唔寫入。
+- 🩹 列安全修正 | 列出可安全修正嘅項目同 diff 畀我睇，我批准之後先寫入。
+- ❓ 作者關卡問題 | 將高風險衝突一次過整理，用白話講清，用選項卡問我。
+- 🔁 連續同步 | 按 loop control 連續推進：安全項列出等我批、作者關卡批量問我，未批准嘅一律唔寫回 canon。

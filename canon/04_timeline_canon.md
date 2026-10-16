@@ -30,7 +30,7 @@
 
 | 年份 | 事件 | 影響 |
 |------|------|------|
-| **73** | <a id="event-aya-birth"></a>澄川彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/aya.md#section-kurokane)的宿主誕生 |
+| **73** | <a id="event-aya-birth"></a>葉語彩誕生於夜區，成為戰爭孤兒 | [黑奏](03_characters/aya.md#section-kurokane)的宿主誕生 |
 | **76** | <a id="event-miyako-birth"></a>[美夜子](03_characters/miyako.md)誕生（東雲花子的大女兒） | 未來晴香的姊姊 |
 | **79** | <a id="event-sacred-tree-war"></a>**靈樹戰爭**：帝國入侵夜區 | [維多利亞之淚](02_glossary.md#term-tears-of-victoria)建造開始（Alpha/Beta 共享歷史；Alpha 線因低魔能量不足，設施停滯為廢棄金屬結構；Beta 線創世後才活化為功能性設施，見 CDL-286） |
 | **79** | <a id="event-kurokanae-trauma"></a><a id="event-hotaru-death"></a>**黑奏創傷事件**：6 歲的彩目睹姊姊螢被帝國軍殺害 | 分裂出保護者人格「[黑奏](02_glossary.md#term-kurokanae)」 |

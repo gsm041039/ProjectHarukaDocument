@@ -223,7 +223,7 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - 標明我推薦邊個同點解（同問題同一抽象層次）；容許作者揀、混合、或自己提第四個（No False Binary）。
 - 候選要通過 Existing Carrier First／上游 canon 檢查，按 Angle Basis Rule 模式（預設 TARGETED lens；FULL 只限指定情況）掃描先可以呈上；只有一個合理答案就唔係 Director 問題，直接決定並記錄。
 - 唔可以將「作者其實可以自己想」嘅創作工作外判畀作者；開放式問題只限候選真係窮盡唔到、需要作者提供全新資訊（例如 canon 未寫嘅事實）。
-- 可以用 AskUserQuestion 做選擇介面，但選項文字仍然要係白話候選，唔係內部編號。
+- **預設用 AskUserQuestion 做選擇介面**（2026-10-15，Haruka Workbench 會畫成選項卡；見 `.claude/story_system/web-ui-protocol.md` §1）：五項詳細解釋寫喺正文或 `ui:author-decision` 卡，AskUserQuestion 嘅 `label` 用候選自然名稱、`description` 一兩句白話；推薦嗰個放第一並標「（建議）」。選項文字唔可以係 A/B/C 或內部編號。
 
 #### One Decision at a Time
 Don't bundle character meaning + theme meaning + audience meaning + relationship meaning + future payoff into one giant question. Downstream effects can still be explained, but ask only the smallest unresolved creative decision — and keep the recommendation at the *same* abstraction level as the question (a character-arc-level question gets a character-arc-level reason, not a whole-work philosophical justification, unless the decision genuinely is theme-level). Before sending the final question, check whether it accidentally combines two different axes (e.g. *why* the character acted vs. *how much* the character has actually changed) — these can have independent answers. If combined, separate them and ask only the one that actually unblocks downstream work.
@@ -245,6 +245,7 @@ Only the concrete near-term effects that matter: 角色點理解自己 / 其他�
 ONE natural, concrete question (names the actual event, not「呢一下」/「嗰個方向」pronoun fog) that leaves room for a mixed/partial answer per the No False Binary Rule.
 ```
 Use fewer sections only when the question is genuinely simple enough that the shorter form is clearer — but never drop straight to a bare question with no `發生咗咩` context. Keep each block short: this is one context block, one reason block, one recommendation, one consequence block, one question — not a retelling of the whole Act.
+**Workbench（2026-10-15）：** 寫完以上 markdown 之後，加一個 ` ```ui:author-decision ` JSON 卡（欄位見 `web-ui-protocol.md` §2），然後用 AskUserQuestion 問「我想你定嘅係」嗰條；有候選就每個候選一個選項。
 
 ## Director Layer Gate（Patch 3）
 CONTINUE-BY-DEFAULT (below) applies **inside the current abstraction layer only**. Crossing a layer boundary (e.g. Beat Sheet → Scene Architecture) requires Director review, tracked via `story-run-workspace-manager`:
@@ -397,18 +398,16 @@ Beat 層（及之後每一層）出 Layer Review Packet 之前，下列八項**�
 - 設計場景目標、轉折、動作同戰鬥流程
 - 先搭好對話每一段要做到咩
 
-你想我：
-A. 先掃現有內容，自動做一版以上前置，再逐項同你細執
-B. 由第一項開始，每完成一項就同你確認
+你想我點做？
 ```
 
-若使用者之前已選擇 Voice Bible 兩種模式，角色說話方式要再問：
+跟住用 AskUserQuestion 問（2026-10-15 改，取代舊 A/B 文字選項）：
+- 「自動做一版再細執」——我先掃現有內容，自動做一版以上前置，再逐項同你細執
+- 「逐項確認」——由第一項開始，每完成一項就同你確認
 
-```md
-角色說話方式有兩個做法：
-A. 我先掃現有對白同設定，自動建立第一版，再同你細執
-B. 我哋由零逐項一齊建立
-```
+若使用者之前已選擇 Voice Bible 兩種模式，角色說話方式要再用 AskUserQuestion 問：
+- 「先自動建第一版」——我先掃現有對白同設定，自動建立第一版，再同你細執
+- 「由零一齊建」——我哋由零逐項一齊建立
 
 不可一問完就直接寫完整劇本。
 
@@ -621,6 +620,8 @@ Blocked：無
 Next：你揀範圍後，我會整理角色狀態同建立角色說話方式第一版
 ```
 
+Workbench（2026-10-15）：多步驟工作開始時用 TodoWrite 列白話步驟並逐步更新（網頁進度面板即時顯示）；入新 layer／stage 時出 ` ```ui:progress `。markdown 版 Mini Log 之後再加一個 ` ```ui:mini-log ` JSON 卡，**最後加 ` ```ui:next `**（2–4 個建議下一步，每個有白話 `label`＋`why`，第一個係推薦；見 `web-ui-protocol.md` §2）。mini-log 格式（`{"skills_used":[],"done":[],"pending":[],"blocked":[],"next":""}`），內容同上面一致；網頁會畫成卡，chat 入面照樣睇得明。
+
 規則：
 - `Skills used` 必須列出今輪真正調用嘅 skill 名。
 - Done／Pending／Blocked／Next 要完整講清楚，唔可以只放文件代號或事件編號。
@@ -676,3 +677,14 @@ Progressive Mode 落，呢條規則 = Continue-by-Default（見上）：完成�
 - 將所有決定收埋，完全唔同作者共同設計。
 - 每件小事都問作者，令流程停滯。
 - 用大量內部代號、文件編號或專業術語令作者難理解。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 掃現有睇欠咩 | 先 resume 同現場讀目標層材料，用白話講已經有咩、真正欠咩、點影響成品，然後用選項卡問我自動做一版定逐項確認。
+- 🔬 喺呢層再深入 | 留喺當前層，針對{goal}再深入補完同處理弱點，唔跨層；高影響選擇先出候選同推薦，再用選項卡問我。
+- ⏭️ 推進到下一層 | 先檢查當前層夠唔夠穩定、有冇未解依賴；夠穩就出摘要用選項卡問我批，未得我批唔可以落下一層。
+- ⏮️ 退返上一層 | 退返上一層處理{goal}，講清會令下層邊啲檔要重新驗證，唔刪舊下層檔。
+- 📦 出層級審批包 | 當前層內部完成後，出完整 Layer Review Packet 畀我批；只有我可以批，你唔可以自己解鎖下一層。
+- 🔭 由粗到幼重新傾 | 用由粗到幼模式，由全作 baseline 起逐層檢查到目標層，判斷邊層最高而未完成，由嗰層開始同我傾。
+- 💬 一齊傾設計 | 就{goal}同我共同設計：先自己諗 2–4 個具體候選同推薦，人話講清代價同放棄咗咩，再用選項卡問我。
+- ▶️ 繼續上次 | 讀返 state 檔同 run workspace，恢復上次做到邊同未決決定，然後繼續下一個安全步驟。

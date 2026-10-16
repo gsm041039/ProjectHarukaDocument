@@ -89,6 +89,7 @@
 | D-11 | 2026-09-29 | 用 CantoCaptions（Hattori 配音、Another World 原創）做粵語對白**自然度基準＋功能對照**；只作分析參考，唔抄句；字幕冇聲調，唔可判斷語氣停頓 | AC（作者提供語料）／用法 AI_PROPOSED_CANDIDATE | 作者 |
 | D-12 | 2026-09-29 | **所有進 demo 嘅角色聲線（操／晴香／美夜子）一律按新 workflow 重做**：舊 `character-voice-bibles/{haruka,miyako}.md`（標「正式版」、2026-07 舊 workflow）只當 EVIDENCE INPUT（canon 原句＋舊候選），唔當已確認聲線；新 workflow＝證據分級 → 慢速微場景工作坊（含 §8B 說話分析卡、§8D 語料對照、粵語自然化）→ 自稱／稱呼表 → `story-character-voice-evidence-auditor` → 作者聽感確認 → Stage 8 先用 `story-scene-speaking-state-builder` 套場景。Stage 4 將晴香／美夜子標 HAVE 係錯判，已更正 | AC（作者要求）／HEAD_WRITER 執行 | 作者 |
 | D-13 | 2026-09-30 | **Demo 段＝好暖，只有少少不安（作為伏筆）；其餘同之前已定（8 場、操牙暗示 Stage 1 級、去紫音）。粗層範圍取 Act I 六 Sequence，再收窄 demo** | AC（作者；解讀：不安只作伏筆，唔改變其餘決定） | 作者 |
+| D-14 | 2026-10-11 | **紫音入返 demo（第四個角色）**，推翻 D-08「去紫音」；V5 Batch 2 加紫音入隊場景（搶尾刀→戒斷倒地→晴香餵糖→跟隨）；demo 擴為四人。紫音 voice／performance 無舊 bible，走新 workflow | AC（作者「ys，就咁樣」，見 V5 Batch 2） | 作者 |
 
 ## 5. Pipeline Checklist
 
@@ -129,13 +130,14 @@
 
 ### Stage 5 — 人物底：說話方式 + 動作表演 ◆ `IN_PROGRESS`（2026-09-29 改為逐微場景慢速工作坊；退出條件＝§1.5「Demo 夠用版」）
 - Skill：`story-character-voice-designer`；`story-character-performance-bible-designer`
-- 範圍：操 voice bible＋操／晴香／美夜子動作表演（紫音、彩、桐生健唔喺 demo 範圍）
+- 範圍：操 voice bible＋操／晴香／美夜子動作表演；**2026-10-16 更正（D-14）：紫音已入 demo，加入範圍**（彩、桐生健仍唔喺範圍）
 - [x] 操 voice bible（Discovery Workshop，DRAFT）：5 個 Voice Engine 候選、5 句禁句、M1–M5 微場景、6 項待作者確認（見該檔 §C4）
 - [x] 操／晴香／美夜子動作表演文件第一版（DRAFT）：各自有待作者確認候選（操 4 項、晴香 2 項、美夜子 3 項）
 - [x] 支線：粵語對白研究＋skill §3.1／§8B／§8C／§8D＋語料基準（`_CANTONESE_DIALOGUE_RESEARCH.md`）
 - [ ] **新 workflow 重做聲線（D-12）**：操（M1–M5＋收尾已寫）／美夜子（已起草）／晴香（已起草）各自：①舊 bible 當證據輸入，重新做證據分級（原句 vs 舊候選）②慢速微場景工作坊（每個含 §8B 分析卡、§8D 語料對照、粵語自然化）③自稱／稱呼表 ④`story-character-voice-evidence-auditor` ⑤作者聽感確認。舊 bible 頂部已加「舊 workflow／CANDIDATE」提示
 - [ ] 語音微場景工作坊 M1–M5、MY、MH（進度表見 §1.5）；舊 bible 係 CANDIDATE，唔作定案
 - [ ] 表演文件：作者逐項過目候選（操 4／晴香 2／美夜子 3），可同語音工作坊穿插
+- [ ] **紫音（D-14 新增）**：聲線微場景 1–4 已揀；5（戰鬥搶怪）、6（基地合照）、7（對貓）候選已出待作者；自稱／稱呼表已起草；表演文件第一版已起草（4 項候選待作者）；auditor 未跑
 - [ ] 退出條件達成（§1.5）→ 入 Stage 6（或並行）
 - 產出：`character-voice-workshops/misao_voice_discovery.md`（工作坊）、`character-voice-workshops/_CANTONESE_DIALOGUE_RESEARCH.md`（研究）；舊 `character-voice-bibles/misao.md`、`character-performance-bibles/{misao,haruka,miyako}.md` 降級 CANDIDATE
 
@@ -191,6 +193,8 @@
 | `canon/_working/character-performance-bibles/misao.md` | 5 | DRAFT 第一版，等作者執 4 項候選 |
 | `canon/_working/character-performance-bibles/haruka.md` | 5 | DRAFT 第一版，等作者執 2 項候選 |
 | `canon/_working/character-performance-bibles/miyako.md` | 5 | DRAFT 第一版（貓形態為主），等作者執 3 項候選 |
+| `canon/_working/character-performance-bibles/shion.md` | 5 | DRAFT 第一版（2026-10-16），等作者執 4 項候選 |
+| `canon/_working/character-voice-workshops/shion_voice_discovery.md` | 5 | IN_PROGRESS：微場景 1–4 已揀；5–7＋稱呼表待作者 |
 
 （所有新產出放 `canon/_working/demo_pilot/`；長期角色文件放各自 bible 資料夾。）
 
@@ -258,3 +262,4 @@
 - 2026-10-02（第三十五次）：盲審 7 agent 全部完成並 Diff（ledger §15）：原始 106 條發現→約 32 個獨立問題，BLOCKS 3（Cost Signal 分類／教學鏈／牙鏈時序）；已按 Head Writer 權限改入 Beat v3.1（HW／PROVISIONAL，作者已決定嘅範圍＋掉牙＋收埋冇動）；撤回我自己加嘅 N2 擋風。待作者：牙形式／範圍、連結性質；Master Angle Registry 建議加 4 角度。誠實覆蓋：角度 20–28 全盲、1–19 半盲；Gate B/C 部分只核一半；**唔可講「完整考慮晒」**。Beat 層 Director review 仍 PENDING；Stage 6 暫停。
 
 - 2026-10-08：QQ-227 暫定（牙＝M4 甜品局悄悄掉牙；連結＝雙向一瞬滲漏）；BEAT_LAYER_V3_2.md 建立；呈 Beat 層審閱包。
+- 2026-10-16：核實 Stage 5 現況——紫音 2026-10-11 已被作者加返入 demo（D-14），tracker 舊寫「去紫音」已更正。補紫音缺件：聲線微場景 6（基地合照）、7（對貓）候選＋語料檢查、自稱／稱呼表、Stage 5 進度對照；新建 `character-performance-bibles/shion.md`（第一版，4 項候選）。微場景 5–7＋表演候選合併問作者。

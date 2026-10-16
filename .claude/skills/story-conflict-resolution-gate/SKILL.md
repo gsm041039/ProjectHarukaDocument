@@ -654,3 +654,11 @@ Workflow correction:
 A design gap is not a stop condition.
 I will continue the conflict loop unless a real content-truth contradiction needs author input.
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只搵矛盾 | 掃 {goal} 範圍搵真正內容／canon 矛盾，分開真矛盾同設計缺口，只出報告唔改檔。
+- 🔁 全面衝突循環 | 用 canon 全面衝突循環模式連續推進，設計缺口入登記冊唔問我，真內容矛盾用選項卡問我。
+- 🩹 列安全修正 | 列出可安全解決嘅矛盾同修改方案畀我睇，我批准後先修改。
+- 🗂️ 設計缺口登記 | 只更新設計缺口登記冊，唔將設計缺口當作者問題。
+- ⏯️ 接返上次 | 讀 skill 內持久狀態，由上次未完成嘅位繼續。

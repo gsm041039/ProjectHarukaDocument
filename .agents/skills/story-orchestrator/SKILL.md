@@ -188,3 +188,14 @@ Full log belongs in `canon/_working/SESSION_LEDGER.md` when file write is availa
 - Do not dump internal full checklist in discussion mode.
 - Do not become passive: offer at least one usable recommendation when enough context exists.
 - Do not treat source recovery as a reason to stop thinking; use it to ground better thinking.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 掃現有睇欠咩 | 先 resume 同現場讀目標層材料，用白話講已經有咩、真正欠咩、點影響成品，然後用選項卡問我自動做一版定逐項確認。
+- 🔬 喺呢層再深入 | 留喺當前層，針對{goal}再深入補完同處理弱點，唔跨層；高影響選擇先出候選同推薦，再用選項卡問我。
+- ⏭️ 推進到下一層 | 先檢查當前層夠唔夠穩定、有冇未解依賴；夠穩就出摘要用選項卡問我批，未得我批唔可以落下一層。
+- ⏮️ 退返上一層 | 退返上一層處理{goal}，講清會令下層邊啲檔要重新驗證，唔刪舊下層檔。
+- 📦 出層級審批包 | 當前層內部完成後，出完整 Layer Review Packet 畀我批；只有我可以批，你唔可以自己解鎖下一層。
+- 🔭 由粗到幼重新傾 | 用由粗到幼模式，由全作 baseline 起逐層檢查到目標層，判斷邊層最高而未完成，由嗰層開始同我傾。
+- 💬 一齊傾設計 | 就{goal}同我共同設計：先自己諗 2–4 個具體候選同推薦，人話講清代價同放棄咗咩，再用選項卡問我。
+- ▶️ 繼續上次 | 讀返 state 檔同 run workspace，恢復上次做到邊同未決決定，然後繼續下一個安全步驟。

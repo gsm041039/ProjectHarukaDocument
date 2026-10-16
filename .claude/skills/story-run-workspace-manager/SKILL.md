@@ -87,5 +87,14 @@ NEXT_LAYER
 ## Safety
 Temp 文件唔係 canon，唔需 writeback approval；不可覆蓋正式文件。若無檔案寫入權限，喺回應中建立可複製嘅 virtual temp bundle，並清楚標示。
 
+**Workbench 追蹤檔（2026-10-15）：** run 開始／轉狀態／完成時更新 `canon/_working/TASK_BOARD.md` 對應行；run 產出新版本 artifact（例如 `BEAT_LAYER_V5_*`）或令舊版降做 Reference 時更新 `canon/_working/LAYER_MANIFEST.md`。呢兩個檔只記「工作狀態同文件關係」，唔承載故事真相，所以 `PILOT`／`EXPERIMENT` run 都可以更新（同 demo tracker 一樣），唔受 `WRITE_BLOCKED_BY_RUN_MODE` 限制。
+
 ## RUN_MODE Label（2026-09-11 新增）
 `00_target_contract.md` / manifest 必須寫低本次 run 嘅 `RUN_MODE`：`PRODUCTION` / `PILOT` / `EXPERIMENT`（由 `story-orchestrator` 宣告）。`PILOT`/`EXPERIMENT` 嘅所有輸出（Beat 候選、decision、trace）一律標 `TEST_ONLY` / `NOT_AUTHOR_APPROVED`，只落呢個 temp workspace，唔傳去 `story-writeback`。任何試圖將 `PILOT`/`EXPERIMENT` 輸出寫入 durable production state（5 個 state 檔 / 已批核 Act/Beat Sheet / canon / CDL）嘅動作，一律由 `story-writeback` 嘅 RUN_MODE 入場條件擋（`WRITE_BLOCKED_BY_RUN_MODE`），呢個 workspace 本身唔負責寫 durable 檔，只係唔應該假裝 PILOT 輸出可以直接生產。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 📁 開新工作區 | 為{goal}開一個可續做嘅臨時工作區，建立目標契約、來源摘要、manifest 等檔，寫低 RUN_MODE。
+- 💾 做進度存檔 | 將而家進度落盤：當前階段、完成咗咩、未解、下一步同摘要。
+- 🗂️ 更新候選板 | 將今輪候選方案記入候選板，揀咗／擱置／否決嘅都要寫理由。
+- 🚪 記層級狀態 | 記錄當前層狀態同批核狀態；只記錄，唔可以代我批准落下一層。

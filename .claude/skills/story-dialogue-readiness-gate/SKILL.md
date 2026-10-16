@@ -29,3 +29,9 @@ $ARGUMENTS
 - NOT_READY
 
 未完成全劇 Beat Sheet 不等於 NOT_READY；只影響正式批准狀態（見 `CLAUDE.md` Local Vertical Refinement Policy）。目標 Act 夠穩定即可 READY_FOR_EXPLORATORY_DRAFT / POLISHED_DRAFT。凡全故事 Beat Sheet 未全部批核，產出帶 `[DRAFT / 暫定 — pending full-story beat lock]`，唔 writeback canon。任何 check 若依賴未解決嘅後幕真相 → 該項標 `BLOCKED_AT_THIS_DEPENDENCY`，其餘 check 可繼續。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- ✅ 完整準備檢查 | 逐項檢查 {goal} 對話場景嘅準備程度，判斷可做探索稿、精修稿、運行變體、錄音準備或未準備，用白話講缺咩。
+- 🎚️ 指定級別檢查 | 只針對我想要嘅稿級別（{goal}）檢查係咪夠，列出最少要補嘅前置。
+- 📋 列缺漏 | 只列未完成嘅檢查項同建議由邊個 skill 補，唔自己寫對白。

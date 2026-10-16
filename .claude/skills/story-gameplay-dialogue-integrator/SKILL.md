@@ -50,3 +50,10 @@ Dependency State:
 
 ## Hard Rules
 Gameplay spec 係 runtime authority。未定就使用 `GAMEPLAY_DEPENDENCY_PENDING` 同 parameterized contract，唔好自行鎖死秒數或分支。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🗣️ 出對白播放契約 | 為{goal}嘅對白逐句／逐 beat 定觸發、優先、打斷、續播、後備同重試規則；未定就用參數化契約，唔鎖死秒數。
+- ⚡ 查打斷與衝突 | 專門查戰鬥中對白會唔會播唔到、互相撞、被打斷後點續，列風險同改法。
+- 🔑 保關鍵資訊 | 檢查關鍵資訊有冇後備傳達，玩家錯過時點補。
+- 🔁 查重試重複 | 設計重試時對白點避免重複、要唔要變體。

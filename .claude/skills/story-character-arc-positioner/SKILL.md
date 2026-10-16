@@ -36,3 +36,10 @@ Permitted Change In This Scene:
 Forbidden Premature Payoff:
 Next Arc Obligation:
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 📍 定位 arc | 為 {goal} 嘅角色出 arc 位置圖：而家信咩、做法、離真相幾近、呢場可以變幾多。
+- 🚫 查過早成長 | 只檢查呢場對白／設計有冇太早領悟、過早 payoff 或重複上一場轉折。
+- 🗣️ 講得同講唔得 | 只列角色而家可以講同仲未可以誠實講嘅嘢，同下一個 arc 責任。

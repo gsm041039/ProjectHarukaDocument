@@ -67,3 +67,11 @@ Needs author input:
 - 不得將 audit 推斷當 final canon。
 - 不得跳過作者 gate 處理 meaning-changing judgment。
 - 不得新增平行 working state。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 📚 來源盤點 | 為 {goal} 整理 source inventory 同 section table，標記來源支持、推斷、假設同不支持。
+- 🧾 證據抽取 | 抽取相關證據條目，列出跨文件警示同 support gap，唔將推斷當 canon。
+- 🕳️ 只搵資料缺口 | 只按 gap 類別檢查缺口，用白話講每個缺口會阻住咩。
+- ➡️ 準備下一步 | 判斷係咪夠資料轉去 atom gate 或 story room，出檔案更新計劃，用選項卡問我下一步。

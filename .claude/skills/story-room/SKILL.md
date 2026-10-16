@@ -280,3 +280,11 @@ Orchestrator 嘅語意抽查（除咗原有「RATIONALE 係咪真有內容」）
 5. 一個位置標 `KEEP`，另一個位置（例如 `RISK_TRADEOFF` 或者另一個角度）仍然講呢樣嘢未解決，但冇交代兩者嘅差別喺邊（例如「機制已定，但供應來源仍未定」就要講清楚呢個分界，唔可以含糊帶過）。
 6. Beat body（19 個欄位）有冇混入已經應該歸類做 `SCENE_REFERENCE`／`DIALOGUE_REFERENCE`／`DIRECTING_REFERENCE`（具體台詞、鏡頭、timing 數字）嘅內容——呢類內容只准留喺 `downstream_references`。
 **結構 Validator PASS 唔等於 Semantic PASS。** 存在未解決嘅核心因果或者理解缺口（上面 1–6 任何一項搵到真問題）時，唔可以標 Semantic Gate PASS，亦唔可以標 `DELIVERY_READY`。非阻斷、已經明確註記嘅 `PROVISIONAL` 可以保留——**唔需要為追求零問題而逼作者決定**，只有真係 DIRECTOR 級嘅先問。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 💬 傾故事方向 | 就{goal}做有證據嘅故事討論（大綱、弧線、揭示、關係、主題），先做 source check，最後用選項卡問我真正要定嘅嘢。
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 📝 出 Beat 表 | 用 Beat Sheet 製作模式為{goal}出 beat 層內容，唔寫對白、鏡頭或秒數；完成後等我批。
+- 🔬 逐拍深度設計 | 用逐 beat 深度設計模式，每個 beat 寫設計理由、相關角度、創意挑戰同設計足夠性檢查。
+- 🧪 試假設 | 將{goal}放入假設沙盒試推演，清楚標明係假設唔係 canon。

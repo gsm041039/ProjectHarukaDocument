@@ -42,3 +42,9 @@ $ARGUMENTS
 
 ## Hard Rule
 未經作者確認範圍，不得進入完整 Dialogue Script；可以繼續做不依賴範圍嘅 source recovery，但唔可以假裝 sequence 已定。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 📐 出範圍方案 | 為{goal}掃現有材料，出 2–3 個開始點同結束點方案，比較得失並推薦一個；用選項卡問我揀。
+- 🔍 只搵可能起止點 | 只列出現有材料入面可能嘅開始點、主要事件同結束點，未比較。
+- ✏️ 改我嘅範圍 | 按我提議嘅範圍{goal}，分析對角色、節奏、gameplay、對白長度同後續文件嘅影響；用選項卡問我定唔定。

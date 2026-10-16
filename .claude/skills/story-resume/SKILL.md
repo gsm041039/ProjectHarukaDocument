@@ -13,6 +13,7 @@ $ARGUMENTS
 
 ```text
 canon/_working/PROJECT_STATUS.md
+canon/_working/TASK_BOARD.md        # 並行 task（2026-10-15，Haruka Workbench）
 canon/_working/NEXT_ACTION.md
 canon/_working/QUESTION_QUEUE.md
 canon/_working/SESSION_LEDGER.md
@@ -56,3 +57,10 @@ canon/_working/story_construction/QUESTION_MATRIX.md
   - 該問題嘅 Director Intent Gate 分類（`INTENT_CLEAR`/`INTENT_INFERABLE`/`INTENT_UNRESOLVED`）同 Question Funnel 狀態（邊啲已答、邊啲仍待答）。
   - `11_candidate_board.md`：已 `SELECTED`/`PARKED`/`REJECTED` 嘅候選同佢哋嘅理由——`REJECTED`/`PARKED` 候選唔可以喺呢輪被靜靜重新提出，除非 `RECONSIDER_WHEN` 已成立。
 - **Goal Stack recovery（2026-09-12 新增）**：如果 manifest 有記錄 `PRIMARY_GOAL`/`CURRENT_TASK`/`TEMPORARY_PREREQUISITE`/`RETURN_TARGET`，原樣交返俾 orchestrator，唔可以自己決定 TEMPORARY_PREREQUISITE 已解決或已過期——嗰個判斷交返 orchestrator 做 Prerequisite Recovery。若 manifest 冇呢啲欄，講明未有記錄，交 orchestrator 現場重建，唔可以由對話記憶杜撰。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- ▶️ 恢復上次進度 | 讀晒 state 檔同 task board，恢復上次完成、待做、卡住、跳過嘅項目同安全下一步，然後交返 orchestrator；唔可以憑記憶估。
+- 🧭 只睇做到邊 | 只用白話總結而家做到邊層、上次停喺邊，唔開始任何工作。
+- ❓ 列未答問題 | 列出所有延後同卡住嘅問題同佢哋重新處理嘅條件，唔可以漏。
+- 🚪 查層級批核狀態 | 恢復層級批核同候選板狀態，講清邊層已批、邊層等緊我批；唔可以由檔案存在推斷已批。

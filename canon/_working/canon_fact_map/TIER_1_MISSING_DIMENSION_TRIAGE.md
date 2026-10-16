@@ -45,8 +45,8 @@
 
 **Classification**: **SOURCE_LOOKUP_REQUIRED**  
 **Remediation**: Add CF-NAME-0XX entries to CHARACTER_NAME_FACTS.md documenting:
-- 原靈魂: 澄川彩 (birth name)
-- 收養名: 神樂彩 (adopted name)
+- 原靈魂: 葉語彩 (birth name；CDL-415)
+- 收養名: ~~神樂彩~~ 冇（CDL-415：冇改名經歷）
 - 人格名: 黑奏 (personality name)
 - 命名因素: 螢死亡創傷（Y79） (naming trigger)
 

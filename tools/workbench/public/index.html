@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Haruka Workbench</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&family=Noto+Sans+HK:wght@400;500;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="styles.css">
+<script defer src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/dompurify@3/dist/purify.min.js"></script>
+</head>
+<body>
+<div id="app">
+  <aside id="sidebar">
+    <div class="brand"><span class="logo">🌸</span><span class="word">haruka</span><button class="icon-btn" id="theme-btn" title="切換深淺色">◐</button></div>
+    <button class="search-btn" id="search-btn">🔍 搵嘢 <kbd>Ctrl K</kbd></button>
+    <nav id="nav"></nav>
+    <button class="btn primary block" id="new-btn">＋ 開新 task</button>
+    <select id="model-default"></select>
+    <div class="section-title">Sessions</div>
+    <div id="session-list"></div>
+  </aside>
+  <main id="main">
+    <div id="banner"></div>
+    <section id="view"></section>
+  </main>
+</div>
+
+<div id="tray" class="card">
+  <div class="tray-head"><span class="tray-icon">📝</span><div><b>待送出嘅改動</b><div class="small muted">網頁唔會直接改檔；送出後由 Claude 按 skill 同 gate 處理。</div></div></div>
+  <ol id="tray-list"></ol>
+  <textarea id="tray-note" rows="2" placeholder="補充說明（可留空）"></textarea>
+  <div class="actions">
+    <button class="btn" id="tray-clear">清除</button>
+    <button class="btn primary" id="tray-send">送出畀 Claude</button>
+  </div>
+</div>
+
+<aside id="drawer">
+  <header><span class="p" id="drawer-path"></span><button class="btn small" id="drawer-chat">💬 同 Claude 傾</button><button class="icon-btn" id="drawer-close">✕</button></header>
+  <div class="body" id="drawer-body"></div>
+</aside>
+<div id="toast"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>

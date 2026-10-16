@@ -60,3 +60,10 @@ Continuity Risk:
 - 不可用「cinematic camera」代替具體 framing 同動機。
 - 關鍵演出必須有 dynamic-position fallback。
 - 未有 gameplay contract 時，不可虛構精確秒數；使用 duration condition 或 range。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🎬 出完整分鏡 | 將已批准嘅導演方案{goal}轉成逐拍逐鏡分鏡表，每鏡有功能、控制權、鏡頭擁有權同後備；未有 gameplay 契約唔寫精確秒數。
+- 🗺️ 只做拍對鏡表 | 只做分鏡主旨同 beat 對鏡頭表，未展開完整鏡頭清單。
+- 🔁 查連貫可讀 | 檢查軸線、視線、畫面方向、戰鬥可讀性同玩家位置變化嘅後備鏡。
+- 🧰 列資產需求 | 列出分鏡需要嘅資產、動畫同技術要求。

@@ -55,6 +55,8 @@ RISK CHECK
 - `SESSION_LEDGER.md`
 - `NEXT_ACTION.md`
 - `QUESTION_QUEUE.md`（如有狀態變化）
+- `LAYER_MANIFEST.md`（如寫入／取代咗某層文件：改佢嘅層、父層、CURRENT／REFERENCE／SUPERSEDED；Haruka Workbench 文件地圖靠佢）
+- `TASK_BOARD.md`（對應 task 轉狀態）
 
 ## Required output
 1. WRITEBACK SCOPE
@@ -71,3 +73,9 @@ RISK CHECK
 - 有 unresolved blocker 會改變 project truth -> 停。
 - 無 author approval -> 停。
 - 要寫入 hypothesis -> 停。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 📋 先出改動計劃 | 為我已批准嘅{goal}出 writeback 計劃：範圍、批准來源、目標檔、確切段落、排除同延後項目；未寫任何檔，用選項卡問我批唔批。
+- ✍️ 按批准寫入 | 我已明確批准，按已批准計劃只寫入批准範圍，更新 state 檔同改動記錄；有未解 blocker 或冇批准就停。
+- 🔍 查可唔可以寫 | 只檢查{goal}係咪符合 writeback 入場條件（批准、範圍、RUN_MODE、冇假設），講結果，唔寫。

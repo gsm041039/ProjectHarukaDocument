@@ -29,3 +29,9 @@ Next Skill:
 
 ## Rule
 不可因 context 不足叫使用者重新提供已讀資料。先讀 temp files resume。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 💾 即刻存檔 | 而家將已讀證據、決定同進度壓縮入 run workspace，出 carry-forward packet。
+- ⏯️ 由暫存續做 | 唔叫我重新提供資料，先讀 temp files 回復進度再繼續。
+- 📊 檢查容量 | 檢查今輪係咪已達 checkpoint 條件，用白話講要唔要先存檔。

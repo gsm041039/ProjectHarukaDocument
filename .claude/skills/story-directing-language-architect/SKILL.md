@@ -1625,3 +1625,11 @@ Specific Design
 呢一刻：
 
 **Directing Language 才真正服務 Theme「態度 vs 命運」。**
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 🏗️ 架構模式 | 用架構模式為 {goal} 建跨部門導演語言：拆軸、抽象維度、候選 operator 同部門矩陣，唔深挖單一角色或場景。
+- 🎬 應用到部門 | 用應用模式將已有 operator 套落 {goal} 指定部門，做跨層呼應、觀眾效果同 canon 檢查。
+- 🧪 壓力測試 | 對現有 grammar 做反陳腔、生成力、獨特性同跨部門一致性測試，報告邊度太泛。
+- 🩹 出修補計劃 | 只出 canon 修補計劃畀我睇，未經我批准唔改 canon。

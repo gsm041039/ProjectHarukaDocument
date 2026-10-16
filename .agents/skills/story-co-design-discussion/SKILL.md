@@ -252,3 +252,10 @@ Stop asking questions and move to a test when:
 - the next image/test can answer a specific remaining uncertainty.
 
 Stop generating variants when new variants would only add style choices without changing the design decision.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🤝 一齊決定 | 為 {goal} 先自動研究同建候選，用白話講清問題、現有資料、每個做法嘅代價同建議，用選項卡問我。
+- 🎯 只揀一個重點 | 由現有工作揀出最高影響嘅一個問題，同我逐步傾，其他低風險細節自動完成並記錄。
+- 🔍 先做研究 | 先掃現有資料同建候選，未問我問題之前用白話講搵到咩。
+- 📒 記錄決定 | 將今輪已同我傾好嘅決定寫入 temp decision record，未批准嘅標暫定，唔寫回 canon。

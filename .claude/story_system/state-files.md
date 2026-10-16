@@ -35,12 +35,26 @@
 - 每個 topic 掃 12-angle relevance
 - 再壓縮成作者問題
 
+## 6. TASK_BOARD.md（2026-10-15 新增，Haruka Workbench）
+並行 task 表：同一時間開緊幾條線（NEXT_ACTION 仍然係唯一單一步）。
+規則：
+- 開 task、轉狀態（進行中／等作者／暫停／完成）、完成嗰一刻即刻更新，唔等收工
+- 網頁 Task board／今日面板直接讀呢個表，欄位格式唔好改
+
+## 7. LAYER_MANIFEST.md（2026-10-15 新增，Haruka Workbench）
+文件屬邊層、由邊份衍生、係咪現行版本（CURRENT／REFERENCE／SUPERSEDED）。
+規則：
+- 產出新版本、降級舊版、writeback 時順手更新
+- 網頁文件地圖靠佢顯示「衍生」關係同新舊版本
+
 ## Mandatory update sequence before stop
 1. 更新 `PROJECT_STATUS.md`
 2. 更新 `SESSION_LEDGER.md`
 3. 更新 `NEXT_ACTION.md`
 4. 如問題變動，更新 `QUESTION_QUEUE.md`
 5. 如有拆題／新 rows，更新 `QUESTION_MATRIX.md`
+6. 如 task 開／轉／完成，更新 `TASK_BOARD.md`
+7. 如有新版本／降級／writeback，更新 `LAYER_MANIFEST.md`
 
 ## Cross-computer rule
 如果係新電腦／新 session：

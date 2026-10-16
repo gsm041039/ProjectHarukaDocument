@@ -67,3 +67,11 @@ $ARGUMENTS
 - 未做 source check，不准問 reconstruction-level 問題。
 - 未標 evidence level，不准提出角色核心性格結論。
 - 未經作者批准，不准 canonize / writeback。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 💬 傾故事方向 | 就{goal}做有證據嘅故事討論（大綱、弧線、揭示、關係、主題），先做 source check，最後用選項卡問我真正要定嘅嘢。
+- 🔍 只核對來源 | 先做 source check，用白話講現有資料講咗咩、缺咩，未做任何設計；最後用選項卡問我下一步。
+- 📝 出 Beat 表 | 用 Beat Sheet 製作模式為{goal}出 beat 層內容，唔寫對白、鏡頭或秒數；完成後等我批。
+- 🔬 逐拍深度設計 | 用逐 beat 深度設計模式，每個 beat 寫設計理由、相關角度、創意挑戰同設計足夠性檢查。
+- 🧪 試假設 | 將{goal}放入假設沙盒試推演，清楚標明係假設唔係 canon。

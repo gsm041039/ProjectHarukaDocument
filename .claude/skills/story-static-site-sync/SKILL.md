@@ -501,3 +501,10 @@ Next: ...
 - Do not modify canon files from this skill.
 - Do not publish/deploy unless explicitly asked and supported.
 - Never finish with broken anchors, duplicate IDs or knowingly stale derived summaries.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔍 先睇要改咩 | 搵網站目標同 canon 來源，出內容清單同改動影響圖，分類邊啲可以安全同步、邊啲要我批；未改任何檔。
+- 🔄 同步安全內容 | 只同步分類為安全嘅內容改動，改之前做快照，改完做驗證。
+- 📄 只出 patch | 只出 patch／diff 計劃，唔直接改網站檔。
+- 🚪 列要我批嘅 | 列出要我批嘅設計或內容改動，每項講清原因；用選項卡問我。

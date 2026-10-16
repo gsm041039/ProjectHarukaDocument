@@ -18,14 +18,14 @@
 | CF-NAME-HARUKA-03 | Haruka | stage_name / idol_alias | 春日井晴香 | Public performances Y103+ | Emotional energy release cover; empire cultural integration | 04_timeline event-singer-origin | SOURCE_SUPPORTED |
 | CF-NAME-HARUKA-04 | Haruka | shadow_name / disembodied_form | 夕 (Yu) | Dissociated consciousness Y102+ | Alpha trauma memory separation | 04_timeline event-yu-birth + yu.md | SOURCE_SUPPORTED |
 
-### Aya — 澄川彩 (Sumikawa Aya) / 神樂彩 (Kagura Aya) / 黒奏 (Kurokane)
+### Aya — 葉語彩（中文名，冇日文名） / 黒奏 (Kurokane)
 
 | Fact ID | Character | Name Type | Name Value | Applies To | Rename/Usage Cause | Source Doc + Claim ID | Status |
 |---------|-----------|-----------|------------|-----------|-------------------|----------------------|--------|
-| CF-NAME-AYA-01 | Aya | birth_name | 澄川彩 | War orphan era; Alpha line original | Night district wartime identity | 04_timeline event-aya-birth + aya.md header | SOURCE_SUPPORTED |
-| CF-NAME-AYA-02 | Aya | adopted_name | 神樂彩 | Post-imperial adoption | Imperial dynasty family name adoption | aya.md §char-aya basic-data | SOURCE_SUPPORTED |
+| CF-NAME-AYA-01 | Aya | birth_name | 葉語彩（CDL-415；原記「澄川彩」已取代） | War orphan era; Alpha line original | Night district wartime identity | 04_timeline event-aya-birth + aya.md header | SOURCE_SUPPORTED |
+| CF-NAME-AYA-02 | Aya | adopted_name | ~~神樂彩~~ SUPERSEDED（CDL-415：冇改名經歷） | Post-imperial adoption | Imperial dynasty family name adoption | aya.md §char-aya basic-data | SOURCE_SUPPORTED |
 | CF-NAME-AYA-03 | Aya | personality_name / split_consciousness | 黒奏 (Kurokane) | Protective alter-ego | Personality born Y079 from sister Hotaru's death trauma; Y79 + 6yo = split personality | 04_timeline event-kurokanae-trauma + aya.md §section-kurokane + CDL-099 | SOURCE_SUPPORTED |
-| CF-NAME-AYA-04 | Aya | school_alias / cover_identity | 神樂彩 (shy version) | School infiltration Y113 | Kurokane impersonating main personality as transfer student | 04_timeline event-aya-appears + aya.md §section-aya | SOURCE_SUPPORTED |
+| CF-NAME-AYA-04 | Aya | school_alias / cover_identity | 葉語彩 (shy version) | School infiltration Y113 | Kurokane impersonating main personality as transfer student | 04_timeline event-aya-appears + aya.md §section-aya | SOURCE_SUPPORTED |
 
 ### Miyako — 水無月美夜子 (Mizunatsuki Miyako) / 雨宮美夜子 (Amemiya Miyako Alpha)
 
@@ -92,11 +92,11 @@
 ## Name Change Summary by Timeline
 
 ### Alpha Line Names (Y73-Y102)
-- Aya: 澄川彩 → (personality split) → 黒奏
+- Aya: 葉語彩 → (personality split) → 黒奏
 - Haruka: 連若晴 → (disassociation) → 夕 (fragmented)
 
 ### Beta Line Name Adoptions (Y102+)
-- Aya: 澄川彩 → 神樂彩 (imperial adoption)
+- Aya: ~~澄川彩 → 神樂彩 (imperial adoption)~~ 冇改名（CDL-415）
 - Haruka: 連若晴 → 春日井晴香 (public identity)
 - Miyako: 水無月美夜子 → 黒猫美夜子 (curse form transformation Y108)
 

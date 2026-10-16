@@ -24,7 +24,7 @@
 |---|---|
 | 雨宮晴香 | [haruka.md](canon/03_characters/haruka.md) |
 | 水無月美夜子 | [miyako.md](canon/03_characters/miyako.md) |
-| 神樂彩 / 黑奏（主人格） | [iroha.md](canon/03_characters/iroha.md) |
+| 葉語彩 / 黑奏（主人格） | [iroha.md](canon/03_characters/iroha.md) |
 | 黑奏（反派面向） | [antagonist.md](canon/03_characters/antagonist.md) |
 | 白銀朔 | [saku.md](canon/03_characters/saku.md) |
 | 東雲秋穗 | [akiho.md](canon/03_characters/akiho.md) |

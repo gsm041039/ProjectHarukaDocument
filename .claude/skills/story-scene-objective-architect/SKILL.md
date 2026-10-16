@@ -26,3 +26,9 @@ $ARGUMENTS
 
 ## Output
 `SCENE PURPOSE CONTRACT` + beat-level objective progression.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🎯 出場景目的契約 | 為{goal}定場景功能、戲劇問題、起止價值、每個角色目標與隱藏目標、阻力、轉折同出場責任。
+- 📈 逐拍目標推進 | 逐 beat 列目標點推進、升級機制同代價。
+- ✂️ 搵可刪部分 | 搵出刪咗都唔影響場景功能嘅部分，同 gameplay 目標同敘事目標有冇對齊。

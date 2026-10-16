@@ -55,7 +55,7 @@
 | CF-STATE-MISAO-04 | Misao | death_state (Y114 Day 13) | Voluntary puppet sacrifice | Y114 Day 13 (school wall) | Accepts puppet nature; transforms into living wall structure; buys team escape time | 03_character_index status + CDL-218 + EVENT_FACTS CF-EVT-0045 | SOURCE_SUPPORTED |
 | CF-STATE-MISAO-05 | Misao | post_death_form (Y114+) | 人偶牆 (Puppet wall) | Y114+ | Physical manifestation embedded in school structure | 05_story_outline + CDL-218 | SOURCE_SUPPORTED |
 
-### Aya — 澄川彩 (Imprisonment → Awakening → Eternal Recurrence)
+### Aya — 葉語彩 (Imprisonment → Awakening → Eternal Recurrence)
 
 | Fact ID | Character | State Type | State Value | Applies When | Cause/Trigger | Source Doc + Claim ID | Status |
 |---------|-----------|-----------|------------|-----------|----------------|----------------------|--------|

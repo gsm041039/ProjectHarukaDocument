@@ -30,7 +30,7 @@ DESIGN_DECISION_RECORD:
   - 觀眾理解成立（Audience Comprehension）：觀眾唔需要知道紫音嘅背景就睇得明呢場戲——表面故事（一個古怪嘅女仔搶尾刀、攰到暈、食糖、跟住走）完整自足，唔靠任何觀眾未見過嘅材料。佳嘅真正問題（毒品戒斷）刻意唔畀觀眾知，呢個係設計意圖（CDL-158），唔係缺口。
   - 行動到後果成立（Action-to-Consequence）：「紫音跟隨」嘅後果直接由「食糖」呢個具體行動產生（canon 原文：「久違的人的微小善意令紫音大腦當機」），唔係憑空宣稱。
   - 玩家能動性成立（Player Agency）：玩家喺呢場戰鬥入面嘅操作同之前（B1–B7）一樣，冇新教學負擔；餵糖嗰下玩家可能只係睇一個過場，呢個記喺下面 Gameplay 角度，誠實標低風險唔係機制問題。
-- 剩餘要作者知道嘅風險（唔係阻斷，但要你知）：**本批內容會令 demo 嘅長度／製作量明顯增加**——加多一場完整戰鬥、加多一個全新角色（紫音，需要獨立嘅模型、動作、表演），對一個原本定位做「方法試驗」嘅 demo 嚎講，係一個唔細嘅範圍擴張。呢個喺下面 Production Complexity 角度詳細講，但喺度先講明：呢個係一個關於 demo 範圍嘅決定，可能值得你諗一諗，而唔係由我自己悄悄吸收咗呢個成本。
+- 範圍／製作量風險：**作者 2026-10-11 已經批准**（「ys，就咁樣」）——demo 長度由三段擴展到四段、加紫音做第四個全新角色，呢個範圍擴張已經確認接受，唔再係未決。
 
 FIELDS:
 - beat_function: 紫音二次出現（戰鬥狂搶尾刀）；戒斷倒地（Act I 只讀做低血糖／攰，真相留 Act II）；晴香餵糖；紫音由此跟隨（入隊）；同時令補給用盡，成為下一步（去學校攞補給）嘅觸發點
@@ -125,8 +125,8 @@ ANGLES_SELECTED: 14
 - DESIGN_REQUIREMENT: 整個 demo 加多一場戰鬥，要評估呢個對成體節奏嘅影響
 - CURRENT_DESIGN: 呢場戰鬥設計得短（見上 Redundancy 角度），功能集中喺紫音登場
 - RATIONALE: 盡量將呢個新增內容對節奏嘅影響壓到最低，但呢個始終係加長咗成個 demo
-- RISK_TRADEOFF: **demo 總長度明顯增加**（原本三段變成四段：消化承諾／街戰操入隊／紫音入隊／基地），呢個係一個範圍決定，已經喺 DESIGN_DECISION_RECORD 開頭標明要你知
-- DESIGN_ACTION: NEEDS_AUTHOR_DECISION（唔係故事邏輯問題，係 demo 範圍／長度決定——你想要完整講紫音入隊，定係想要個更短嘅 demo，呢個真係要你決定，唔係我可以自己揀嘅執行細節）
+- RISK_TRADEOFF: demo 總長度由三段增加到四段（消化承諾／街戰操入隊／紫音入隊／基地）
+- DESIGN_ACTION: KEEP（作者 2026-10-11 已批准呢個範圍擴張）
 
 ### ANGLE: Theme Expression
 - DESIGN_REQUIREMENT: 一粒糖嘅細小善意，壓過一個人成世用暴力壓住嘅痛——要同成個故仔嘅「溫柔的殘酷」美學扣連
@@ -153,7 +153,13 @@ ANGLES_SELECTED: 14
 - DESIGN_REQUIREMENT: 紫音係一個全新角色，需要獨立嘅模型、動作（戰鬥狂嘅誇張打法、戒斷嘅手震抽搐）、同埋呢場新戰鬥嘅場景
 - CURRENT_DESIGN: 未簡化，照原方案做
 - RATIONALE: 呢個係誠實嘅製作成本評估，唔係故事問題
-- RISK_TRADEOFF: 對一個「方法試驗」性質嘅 demo 嚎講，加一個全新角色嘅製作量唔細——呢個同上面 Pacing 角度嘅「範圍決定」係同一件事嘅兩面（一個講時間長度，一個講製作資源），一齊畀你考慮
-- DESIGN_ACTION: NEEDS_AUTHOR_DECISION（同 Pacing 角度嗰條一齊決定）
+- RISK_TRADEOFF: 加一個全新角色嘅製作量唔細（獨立模型、動作、表演）
+- DESIGN_ACTION: KEEP（作者 2026-10-11 已批准，同 Pacing 角度同一個決定）
 
 DEPTH_EXCEPTION_NEEDS_REVIEW: N/A — 已揀14個真正相關角度
+
+---
+
+## SEMANTIC GATE 結果
+兩項 `NEEDS_AUTHOR_DECISION`（demo 範圍擴大、紫音製作成本）已經喺 2026-10-11 由作者直接批准（「ys，就咁樣」）。餘低嘅 `VERIFY` 標記（Information/Reveal Control 嘅誤導紅線、Audience Experience 嘅 B8 鋪墊夠唔夠、Redundancy 嘅戰鬥長度控制）全部屬於 Scene 層執行要留意嘅事項，唔係阻斷 Beat 層交付嘅問題，可以如實保留。
+**結論：M1 結構 validator PASS，語意抽查完成，冇剩餘阻斷問題。`DELIVERY_STATUS` 由 `INCOMPLETE_BEAT_LAYER` 改為 `DELIVERY_READY`。**

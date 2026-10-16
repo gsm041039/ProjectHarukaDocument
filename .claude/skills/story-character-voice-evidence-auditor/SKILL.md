@@ -64,3 +64,10 @@ Required Next Work:
 - 只有一兩句台詞時，不可批準全時期 recording-ready voice。
 - `VOICE_CANDIDATE` 未經作者確認，不可升做 canon rule。
 - 審核結果要提供畀 `story-dialogue-readiness-gate`。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔎 全面證據審核 | 審 {goal} 嘅聲線文件：每條規則證據等級、範圍、時期同關係分隔，先用白話講結論再出完整表；只審唔改。
+- 🎚️ 判斷可用級別 | 只判斷呢份聲線文件夠唔夠支持探索稿、精修稿定錄音稿，講清而家可用同唔可用部分。
+- 📅 時期洩漏 | 只檢查有冇將後期語言提前落前期、時期變化有冇講明觸發事件。
+- 🧱 結構檢查 | 只檢查係咪真正全劇 Voice Bible，定係將單場準備稿誤叫 bible。

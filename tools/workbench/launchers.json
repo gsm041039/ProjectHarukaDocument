@@ -1,0 +1,10 @@
+[
+  { "label": "自由傾劇情", "icon": "💬", "skill": "story-orchestrator", "prompt": "{goal}" },
+  { "label": "做下一步", "icon": "▶️", "skill": "story-resume", "prompt": "恢復進度，然後做 NEXT_ACTION 嗰條單一步。{goal}" },
+  { "label": "加新資料／設定", "icon": "➕", "skill": "story-canon-reconciliation", "prompt": "我有新資料想加入：{goal}。請以 00_Story_Brief.html 為最準，對照現有 canon，分清係補充、改動定矛盾，再用選項卡問我點處理；未批唔好寫入 canon。" },
+  { "label": "一齊設計一個選擇", "icon": "🤝", "skill": "story-co-design-discussion", "prompt": "{goal}" },
+  { "label": "角色說話方式", "icon": "🗣️", "skill": "story-character-voice-designer", "prompt": "{goal}" },
+  { "label": "美術／服裝審查", "icon": "🖼️", "skill": "stage-wound-character-design-orchestrator", "prompt": "{goal}" },
+  { "label": "全作審查", "icon": "🔍", "skill": "story-holistic-supervisor", "prompt": "{goal}" },
+  { "label": "寫入已批決定", "icon": "✍️", "skill": "story-writeback", "prompt": "將以下已批決定寫入 canon：{goal}" }
+]

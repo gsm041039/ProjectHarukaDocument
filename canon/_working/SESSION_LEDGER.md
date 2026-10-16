@@ -1,5 +1,70 @@
 # SESSION_LEDGER
 
+## Tooling — Workbench v8：✨ 開工（一撳揀 skill 開工）（2026-10-16）
+- [x] 參考 AI context menu／意圖路由／Copilot UX：喺任何嘢撳「✨ 開工」→ 按類型本地推薦 skill（smart_start.json＋最常用＋連結）→ 出嗰個 skill 嘅方向掣，一撳開工；可補一句（🎤）、叫 AI 揀 skill、交畀 AI 自己傾。
+- [x] 每頁都有開工掣：詳情面板、問題行、beat 卡、角色卡、場景圖、美術組（ImagePrompt.md 15 套模板）、問題／決定／矩陣「＋ 新」、場景「新 spec／重試全部失敗」、Beat 層空狀態。
+- [x] 對白工作坊列晒 11 個角色：有工作坊＝下一個微場景／自動第一版／交叉測試／整理 voice bible；冇＝開工作坊（照格式建檔）。修：晴香／美夜子工作坊之前因未有候選而被當「冇」，已修正（否則會重建蓋舊檔）。
+
+## Tooling — Workbench v7：分組＋討論連結＋skill 入討論（2026-10-16）
+- [x] 未完成事項／問題／決定可以分組（來源 session／相關文件／角色／task／月份／狀態／出處），每組可收埋；待辦變成實體，撳得、有關係。
+- [x] Bat 搬位都得（找唔到 repo 就用固定路徑）；實測搬咗去第二度喺 4319 開關正常。
+- [x] 自動討論：可以連住問題／決定／beat 等做依據；可揀成場用邊個 skill 嘅方法＋方向掣；可以由 skill 加角色（agent 先讀 SKILL.md）；討論成為實體，喺問題／決定嘅「相關」出現。實測：連住 QQ-227＋grounding-auditor 角色，Haiku 1 輪 US$0.05，QQ-227 詳情見到該討論（測試紀錄已刪）。
+
+## Tooling — Workbench v6：自動討論＋skill 一撳掣（2026-10-15 夜）
+- [x] 列表恢復兩行預覽（唔再收埋到睇唔到內容）。
+- [x] 🤖 自動討論（tools/workbench/discuss.mjs）：參考 multi-agent debate／AutoGen termination／Agents' Room——第 1 輪獨立、之後回應；獨立主持人每輪評共識／停止點／兜圈／要作者拍板（會暫停問）；停止條件：停止點｜共識≥85%｜兜圈｜輪數｜預算｜作者叫停；agent 只讀（dontAsk＋Read/Grep/Glob）；結果 DRAFT。端到端測試：2 角色 1 輪 Haiku US$0.03，暫停問作者→答→總結正常。
+- [x] 🛠️ 每個對話「改進 skill」掣（回顧對話→提出改動前後→選項卡批→改兩份 SKILL.md→validator→ledger）。
+- [x] 72 個 skill 全部加 `## Workbench Choices`（2 個 sub-agent，95 份檔含 .agents 副本；驗證：每份一段、喺檔尾、標籤≤10 字）；orchestrator 8 個掣含層級轉換（深入／推進／退返／審批包／由粗到幼）；網頁喺開新工作同對話面板顯示，對話面板層級亦撳得（一律照 layer gate）。
+- [ ] 待作者：答完 2 個等緊嘅對話後重開 server，新功能先全部生效。
+
+## Tooling — Workbench v5：減字（2026-10-15 夜）
+- [x] 作者：「望落好多字，唔 user friendly」。
+- [x] 全站：頁面說明收埋喺標題旁 ⓘ；導航分組（工作／故事／素材／文件）同縮細；對話入面連續工具步驟合併成「🔧 做咗 N 步」。
+- [x] 今日頁重做：一張「最緊要」焦點卡＋4 個數字＋合併「進行中」清單（短名＋顏色狀態＋▶，撳開先見詳情）＋精簡路線圖；刪走重複卡。
+- [x] 問題／決定清單：一行短標題，全文撳開先見；問題狀態改中文（卡住／未答／傾緊／暫定／押後）。
+
+## Tooling — Workbench v4：少打字＋睇清楚做緊咩（2026-10-15 夜）
+- [x] 作者方向：「更清晰了解依家做緊咩，同埋唔使打咁多字」。
+- [x] 少打字：對話框 🎤 粵語語音輸入（瀏覽器內置）、8 個一撳回覆掣；開新工作目標框都有 🎤。
+- [x] 睇清楚：今日頁頂「📍 而家做緊咩」——每個對話（Claude 即時做緊乜）、每條進行中 pipeline（做緊／下一步／要唔要你批）、每個 task，一行一個 ▶ 掣。
+- [x] 新頁：🎞️ 場景圖（IMAGE_PROMPT_SPEC 198 場：128 有圖／61 失敗連原因／9 未有；複製完整 prompt、複製生成指令、叫 Claude 睇 spec）、🗣️ 對白工作坊（候選句 🔊 朗讀＋📊 語料評分＋撳揀；🧪 試句框）、🕘 改動紀錄（未 commit 改動＋最近 commit，逐檔 diff；叫 Claude 整理 commit）。
+- [x] 修：美術頁漏咗 art/ConceptArt/Scene 本層 135 張圖；索引改 stale-while-revalidate（網頁即開，2.4s 背景重建）、共用 parser cache；縮圖同時 2 張避免搶 CPU。
+
+## Tooling — Workbench v3：文件結構＋pipeline＋skill 入口（2026-10-15 夜）
+- [x] 死圖原因＝舊 server 冇縮圖 API；作者批准即時重開，已修好。
+- [x] 「文件結構」頁：Brief.html 做最頂權威（六大部分＋各自 canon 文件；17 份 canon 主文件未對到 Brief 部分照實列出）；全 repo 597 份文件資料夾樹、用途、層級、現行／可能舊版（按檔名版本號估）／未登記（574）、revalidate、最近改動；批量登記／標取代／同 Brief 對照、「叫 Claude 整理呢個資料夾」。
+- [x] Pipeline 唔再寫死 demo：自動偵測 4 條（Brief 重整、Demo 試點、視覺開發 P00–P12〔狀態由 VL 登記表 owner 補〕、fact map 修正〔已完成〕）；階段撳得，按段內提到嘅 skill 出開工掣、改狀態。
+- [x] 開新工作入口：快捷掣（launchers.json，作者可加刪）＋72 個 skill 自動列出（以後新 skill 自動出現）；skill↔文件／資料夾自動連結；文件／skill／pipeline 詳情面板加開工動作。
+- [x] 「ED」係作者打錯「依D」——即係「加新資料」呢類工作要有專用掣；已由快捷「➕ 加新資料／設定」（story-canon-reconciliation）覆蓋，作者可自行加更多快捷。
+
+## Writeback — 角色全名對齊（CDL-415，2026-10-15）
+- [x] 作者確認全名：綾小路操、春日井晴香、不知火紫音、水無月美夜子、葉語彩。
+- [x] Source check：雨宮＝晴香本姓（雨宮家）、春日井＝藝名（haruka.md L21）→ 唔可以批量取代；彩原有澄川（本名）／神樂（收養後改名）兩層；Brief 用葉語彩做 Alpha 線中文真名。
+- [x] 作者答：彩統一葉語彩、冇改名經歷、係中文名唔加拼音；晴香唔使而家決定（→ QQ-228 DEFERRED）。
+- [x] 改咗 13 份：aya.md、03_character_index、04_timeline、05_naming（澄川彩移出日文名清單、葉語彩加入中文真名清單）、Navigation_Guide、canon_fact_map 4 份（舊名用刪除線保留追溯）、DIGEST_CHARACTER_STATES、成長追蹤表 4 個標題、story-canon-fact-map-builder 兩份 SKILL 例子（改用美夜子做例）；CDL-415 已記。
+- [x] 刻意唔改：_reports／ledger／SESSION_LEDGER／審計備註（歷史紀錄）；「被帝國皇帝收養」劇情未郁（同 Brief 刑思＝皇帝人格嘅出入屬 QQ-163）；「神樂家」標籤移除後家族姓氏未定。
+
+## Tooling — Haruka Workbench v2（2026-10-15 下晝，作者連續要求）
+- [x] UI 改 Duolingo 式（3D 掣、粗邊卡、Nunito/Noto Sans HK、左邊 icon 導航、手機底部 tab bar、深淺色、隱形滾動條）。
+- [x] 今日頁數字卡撳得；角度矩陣熱圖（QUESTION_MATRIX，dataviz validator 驗色；標出 6 行「問題已答但 matrix 未更新」）。
+- [x] Task 卡「▶ 繼續」（task↔session 對應記入 .tmp/workbench/task_sessions.json）。
+- [x] 對話右邊「而家喺邊」面板（層／task／skill／TodoWrite 步驟／ui:next 建議）；協議＋orchestrator 加 ui:next、ui:progress。
+- [x] Beat 板改由 LAYER_MANIFEST 自動生成，按資料夾分 track（正式／Demo 試點），支援 4 種 beat 格式，逐 beat 詳細設計自動對返父層。
+- [x] 全站實體索引＋雙向連結（問題 248／決定 415／矩陣 39／beat 29／角色 11／美術 22 組／視覺語言 18／文件 343；2,700 條連結）；任何實體同一詳情面板＋按類型操作（作廢／已解決／押後／重審／revalidate／取代／改狀態…全部經 Claude）。
+- [x] 新頁：決定、角色（主圖、統計、成長追蹤狀態）、美術（圖庫縮圖＋舊版、視覺語言、美術文件）、未完成事項（SESSION_LEDGER 212 條未剔＋23 條 60 日冇郁問題，可批量完成／作廢）；Ctrl+K 全站搜尋；每個對話可揀 model（新對話預設 model 喺側欄）。
+- [x] 發現（未改，待作者）：成長追蹤表 5 個角色全名同角色檔唔一致（神代彩↔神樂彩、本庄操↔綾小路操、春日井晴香↔雨宮晴香、仁科紫音↔不知火紫音、宵月美夜子↔水無月美夜子）；角色頁有「叫 Claude 核對」。
+- [ ] 待作者：重開 server（Workbench_Stop → Start）令 model 選擇、縮圖、步驟追蹤、▶ 繼續接舊對話生效。
+
+## Tooling — Haruka Workbench 網頁工作環境（2026-10-15）
+- [x] 作者需求：用網頁取代 chat box（即時 output、選項卡回覆、並行 task、文件組織／關係、可拖曳加減移位、一鍵開關、可擴充、所有 AI 識用、配合現有 skill）。
+- [x] Audit（3 個 Explore agent）：state files 太大要精選視圖；QUESTION_QUEUE／DEMO tracker／BEAT V4.1＋V5 可 parse；冇並行 task 表；文件衍生關係多數喺 prose；3 個 skill 仍用 A/B/C。
+- [x] Research：CloudCLI plugin 唔可以送訊息畀 Claude、AskUserQuestion 修正 PR 未 merge → 觸發 plan gate，改用官方 Agent SDK 自寫細 server。
+- [x] 作者決定：網頁所有改動經 Claude 執行（`ui:intent`），網頁唔直接改檔。
+- [x] 建成：`tools/workbench/`（server.mjs、build_index.py＋--check、public/ 5 view＋3 card）、`Workbench_Start/Stop.bat`＋桌面捷徑、`TASK_BOARD.md`、`LAYER_MANIFEST.md`（23 行種子）、`web-ui-protocol.md`。
+- [x] Skill 改動：orchestrator（Candidates-First／Director-Facing／Mini Log／First Response 改用 AskUserQuestion＋ui 卡）、co-design、canon-sync-gate、holistic-supervisor（A/B/C→AskUserQuestion）、resume（讀 TASK_BOARD）、writeback／run-workspace-manager（維護 LAYER_MANIFEST／TASK_BOARD；PILOT 都可更新呢兩個追蹤檔）；state-files.md 加 #6 #7；CLAUDE.md 加規則＋`@`。
+- [x] 驗證：選項題網頁來回成功；全新 session 無提示下自行登記 TASK_BOARD（T-004）＋用白話選項卡；index --check OK（54 條未解問題、14 stage、16 beat、343 文件節點）；host／origin／path traversal 防護；Start 重複開唔會開多個、Stop 清晒 process；validate_beat_layer PASS。
+- [ ] 待作者：試用後反饋；T-004（今日頁加咩資訊）嗰條選項題可喺「以前嘅 session」→「協議實測」繼續答。
+
 ## Visual Development — Buddhist Cosmology Reference Axis（2026-10-07）
 - [x] 作者新增重大美術方向：因星空／Cosmic substrate + 唯識宇宙，希望加入更多佛教美術 reference，尤其佛教宇宙觀、星空、星塵。
 - [x] Source check：正式 canon 有「唯識宇宙（Consciousness-Centric Universe）」；repo 未見既有已確認佛教美術／宇宙觀 visual-reference system。
@@ -2887,3 +2952,15 @@
 - 2026-10-08 晚：Beat 層 v4 由頭重推（來源包→一致性→質疑輪→方案→premise audit→17 beat）；盲審 7 agent 撞用量上限後重試；作者叫停、定 sub-agent 上限（記憶已存）；取消 2 個重複盲審，保留結構 canon／玩法製作 2 個；checkpoint 已寫。
 
 - 2026-10-08 深夜：作者確認繼續 demo（唔係 Act IV）。orchestrator 自己做盲審 Diff（0 新 agent）→ BEAT_LAYER_V4_1.md（16 beat）＋REFERENCE_AUDIT_V4.md；呈 Beat 層審閱。
+
+## Demo Pilot Track — Stage 5 紫音補件（2026-10-16）
+- [x] 核實：紫音 2026-10-11 作者加返入 demo（V5 Batch 2），tracker 舊「去紫音」過期 → 記 D-14、更正 Stage 5 範圍
+- [x] `shion_voice_discovery.md` 加微場景 6（基地合照）、7（對貓）＋語料百分位＋自稱／稱呼表＋夠用版進度
+- [x] 新建 `character-performance-bibles/shion.md`（DRAFT，4 項候選）
+- [ ] 待作者：微場景 5／6／7、表演候選、貓稱呼 → auditor → Stage 5 夠用版
+- Handoff：resume 先讀 tracker §5 Stage 5 + `shion_voice_discovery.md` 尾段
+
+
+## 2026-10-16 操 Voice Bible 草稿
+- [x] 將 `misao_voice_discovery.md` 作者已揀選擇整理成 `character-voice-bibles/misao_voice_bible_DRAFT.md`（DRAFT，無新增創作句子；Engine 全為候選）；已登記 LAYER_MANIFEST
+- [ ] 待：M5 無台詞作者確認、evidence-auditor、Blind/Swap 測試

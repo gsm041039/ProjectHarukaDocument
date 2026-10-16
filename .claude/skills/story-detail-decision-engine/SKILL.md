@@ -75,3 +75,10 @@ Dependencies:
 
 ## Build-forward Rule
 每次推薦後，立即將決定寫入相應 target blueprint / draft。Decision ledger 唔可以同成品分離。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🧩 決定一個細節 | 為 {goal} 呢個重要細節建決策記錄：證據、候選、至少 10 個相關角度審查、取捨同推薦，用選項卡問我揀。
+- 🔬 重大細節深審 | 用重大級別（14–20+ 角度）審 {goal}，講清點解推薦對成場最好。
+- ✍️ 寫入成品 | 將已推薦或已批決定即時寫入對應 blueprint／草稿，標住暫定狀態。
+- 🧹 分辨重唔重要 | 先判斷邊啲細節真係會改變角色、節奏、理解或玩法，其餘唔建記錄。

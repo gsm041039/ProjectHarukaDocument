@@ -371,6 +371,8 @@ Use:
 
 Questions may offer clear options, but must not manipulate the author into accepting the recommendation.
 
+**Workbench delivery (2026-10-15):** render the options above with plain-language names instead of "Option A/B/C", add a ` ```ui:author-decision ` card, then ask the **Question** with AskUserQuestion (one option per real option, recommended first with「（建議）」). See `.claude/story_system/web-ui-protocol.md` §1–2.
+
 # Part IV — Dynamic Specialist Orchestration
 
 The supervisor owns the review. Specialists provide evidence and focused analysis; they do not independently control the author conversation.
@@ -645,3 +647,11 @@ The review fails if it:
 - asks more than three immediate author questions;
 - lets specialist skills independently interrogate the author;
 - becomes a mandatory gate for normal story production.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔎 聚焦深化 | 用 FOCUSED 模式深化{goal}呢個問題本身，唔走遠；先掃本地檔案，最後只問真正改變方向嘅問題，用選項卡問我。
+- 🔗 連上下游查 | 用 CONNECTED 模式，連埋直接上下游層一齊查{goal}，分清客觀缺陷、創作取捨同要驗證嘅假設。
+- 🌐 全作宏觀查 | 用 SYSTEMIC 模式將{goal}放入全作、IP 形象、玩家體驗同製作系統去審視；呢個係手動大審，唔會自動改檔。
+- ✨ 將問題專業化 | 只做問題深化：保留原本問題、重新專業化表述、講點解咁問更有用，未做診斷；最後用選項卡問我用唔用。
+- 🛠️ 出修復方案 | 根據已有診斷出最小修補、較強重設計同可選大膽方案，連驗證計劃；揀邊個用選項卡問我。

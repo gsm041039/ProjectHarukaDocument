@@ -1,0 +1,22 @@
+{
+  "_說明": "「✨ 開工」按住咩嘢推薦邊啲 skill（排先嘅先出）。key＝實體類型或者頁面動作；值＝skill 名。改呢個檔就改到推薦，唔使改程式。作者最常用嘅 skill 會自動排前。",
+  "question": ["story-co-design-discussion", "story-room", "story-solution-space-designer", "story-canon-reconciliation"],
+  "decision": ["story-character-change-impact-manager", "story-downstream-consistency-auditor", "story-co-design-discussion", "story-writeback"],
+  "beat": ["story-orchestrator", "story-room", "story-scene-objective-architect", "story-knowledge-state-mapper"],
+  "matrix": ["story-room", "story-co-design-discussion", "story-solution-space-designer"],
+  "character": ["story-character-voice-designer", "story-character-performance-bible-designer", "story-character-arc-positioner", "story-character-decision-modeler", "story-character-memory-state-manager"],
+  "art": ["stage-wound-character-design-orchestrator"],
+  "scene": ["stage-wound-character-design-orchestrator", "story-location-stage-director", "story-storyboard-designer"],
+  "voice": ["story-character-voice-designer", "story-character-voice-evidence-auditor", "story-dialogue-room"],
+  "file": ["story-canon-sync-gate", "story-grounding-auditor", "story-downstream-consistency-auditor"],
+  "task": ["story-resume", "story-orchestrator"],
+  "todo": ["story-resume", "story-orchestrator"],
+  "pipeline": ["story-orchestrator", "story-resume"],
+  "discussion": ["story-co-design-discussion", "story-writeback"],
+  "visual": ["stage-wound-character-design-orchestrator", "story-directing-language-architect"],
+  "new-question": ["story-room", "story-co-design-discussion"],
+  "new-decision": ["story-co-design-discussion", "story-writeback"],
+  "new-matrix": ["story-room"],
+  "new-beat": ["story-orchestrator", "story-sequence-boundary-designer"],
+  "new-scene": ["stage-wound-character-design-orchestrator", "story-location-stage-director"]
+}

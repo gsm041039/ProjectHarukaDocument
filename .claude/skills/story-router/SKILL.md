@@ -184,3 +184,11 @@ Do not create another synchronization skill. Ownership:
 - **`story-conflict-resolution-gate`** — specialist escalation only: genuine hard contradiction analysis, multi-document contradiction hunting, deep semantic conflict verification. NOT the default owner of routine synchronization.
 - **`story-canon-fact-map-builder`** — owns Fact Map construction, incremental maintenance, validation. Does NOT own prose synchronization or creative design.
 - `story-document-synthesis-gate` — legacy overlap with `story-canon-sync-gate`; prefer `story-canon-sync-gate`. Use `story-document-synthesis-gate` only if explicitly invoked.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🧭 幫我分類任務 | 判斷{goal}屬邊種工作模式、應該行邊條 skill 鏈，用白話講點解，然後交 orchestrator。
+- 💬 共同討論模式 | 將{goal}當共同設計討論處理，簡短、有創意、有證據。
+- 🔍 先搵資料 | 將{goal}當資料回收處理：先搵 canon，出摘要，再返回原本模式。
+- 🔭 由粗到幼模式 | 將{goal}交去 orchestrator 嘅由粗到幼逐層創作模式。
+- ⚡ 快速查詢 | 只做快速查詢，直接答，唔開大流程。

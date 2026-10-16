@@ -59,3 +59,9 @@ HYPOTHESIS_ONLY = 可作實驗，不可 canon
 - 不可把 coverage note 當 canon。
 - 不可重寫除非作者要求。
 - 發現 unsupported motivation 要交畀 grounding auditor。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 📋 完整審讀 | 對 {goal} 做完整 coverage：評級、優點、必改、建議改、唔好改同重寫優先次序；唔重寫。
+- 🗣️ 只做讀稿 | 只做逐句 table read：似唔似角色、過度解說、講咗唔應知嘅嘢、沉默位同節奏。
+- ⚠️ 只查設定風險 | 只列 canon 同 grounding 風險，冇證據支持嘅動機交 grounding 審查。

@@ -988,3 +988,11 @@ Inspect without writing:
 ```
 
 When `dry run` is requested, do not write generated files or patch orchestrators.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- ⚙️ 自動模式 | 用預設 AUTO：有 builder state 就做增量更新，冇就全面重建；完成後用白話報告學到咩、改咗咩。
+- 🔄 增量更新 | 只分析新增或改過嘅對話，更新現有討論模型同 user-discussion-agent；完成後報告新增／合併／退役咗邊啲 pattern。
+- 🧱 全面重建 | 由零重新發掘本 repo 全部對話，重建討論模型同 user-discussion-agent；開始前先用選項卡同我確認真係要全部重來。
+- 📥 加入手動對話 | 我會貼額外對話（{goal}），將佢當補充證據納入模型，只學思考方法唔抄字眼；完成後報告影響咗邊啲 pattern。
+- ✅ 只做驗證 | 唔重新學習，只按 validation checklist 檢查現有 user-discussion-agent 同 builder state 有冇缺漏，用白話列出問題。

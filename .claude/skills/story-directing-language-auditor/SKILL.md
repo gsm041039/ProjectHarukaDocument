@@ -77,3 +77,10 @@ PASS | PASS_WITH_FIXES | REDIRECT_REQUIRED
 - 唔好因個人風格偏好否定有效方案。
 - 每個批評要指出功能損失。
 - 優先修正角色表演、gameplay readability 同 ownership ambiguity。
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🔎 完整導演審查 | 審 {goal}：含糊導演語、無動機鏡頭、表演弱、玩法衝突、剪接弱同實作含糊，每個批評講功能損失同最少修正；只審唔改。
+- 🎮 只查玩法衝突 | 只查有冇阻礙 telegraph／導航、接管控制冇還原規則、關鍵對白被玩法食。
+- 🛠️ 只查實作含糊 | 只查 trigger、入出口、ownership、fallback 同不可測試字眼。
+- ♻️ 陳腔重複 | 只列陳腔濫調同重複情緒捷徑，同要保留嘅強選擇。

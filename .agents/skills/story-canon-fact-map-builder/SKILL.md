@@ -280,8 +280,8 @@ Every claim must be one concrete statement.
 Good examples:
 
 ```text
-彩的原名是澄川彩。
-彩被帝國皇帝收養後改名為神樂彩。
+美夜子的本名是雨宮美夜子。
+美夜子後來改名為水無月美夜子。
 黑奏是彩的另一人格 / 帝國皇帝人格。
 夕在改變現實時成功執行，但結果沒有修復創傷。
 朱音在帝國廣場救援事件中犧牲。
@@ -416,14 +416,14 @@ NAME_CHAIN_INCOMPLETE
 
 in MISSING_FACT_DIMENSIONS.md.
 
-Example for 彩:
+Example for 美夜子:
 
 ```text
-original_name = 澄川彩
-adopted / imperial / current name = 神樂彩
-personality_name = 黑奏
-short display name = 彩
-rename cause = 帝國皇帝收養後改名
+original_name = 雨宮美夜子
+current name = 水無月美夜子
+chinese_true_name = 連若星
+short display name = 美夜子
+rename cause = 改名象徵與過去決裂
 ```
 
 ## CHARACTER_STATE_FACTS.md
@@ -1027,3 +1027,12 @@ Self-correct:
 Workflow correction:
 This skill builds Fact Map only. I will not rewrite story prose.
 ```
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🏗️ 建立事實表 | 用建立模式為 {goal} 範圍建立或刷新 Fact Map，逐條可追溯來源；完成前唔可以宣稱完成。
+- 🔄 增量更新 | 只按改過嘅檔案更新 Fact Map，報告新增同改動咗嘅事實。
+- ✅ 對照驗證 | 用現有 Fact Map 驗證 {goal}，列出矛盾、缺口同要我決定嘅項目，唔自動改 canon。
+- 🕳️ 完整度審查 | 做嚴格完整度審查，搵出漏抽嘅角色名、狀態、事件、時間線、關係同世界規則。
+- 🩹 補完整度缺口 | 按上次完整度審查結果補返缺失嘅事實維度，只寫入 Fact Map 檔，唔升級草稿做 canon。
+- 🧱 由零重建 | 唔用 cache，由零重建全部 Fact Map 檔；開始前先用選項卡同我確認。

@@ -1,5 +1,8 @@
 # PROJECT_STATUS
 
+- **2026-10-15 CDL-415 角色全名對齊**：彩＝葉語彩（中文名、冇改名經歷）；操＝綾小路操、紫音＝不知火紫音、美夜子＝水無月美夜子（成長追蹤表已改）；晴香春日井（藝名）／雨宮（本姓）主名問題押後 QQ-228。
+- **2026-10-15 Workbench v2**：全站實體連結（問題／決定／矩陣／beat／角色／美術／視覺語言／文件）＋按類型操作、新頁（決定／角色／美術／未完成事項）、Ctrl+K 搜尋、每對話揀 model、對話進度面板＋建議下一步、Beat 板由 LAYER_MANIFEST 自動生成。發現成長追蹤表 5 個角色全名同角色檔唔一致（待作者核對）。
+- **2026-10-15 Haruka Workbench 上線（作者批准 plan）**：本機網頁工作環境取代 chat box——`Workbench_Start.bat`／`Workbench_Stop.bat`（桌面有捷徑）→ http://localhost:4317。功能：多 session 對話、AskUserQuestion 選項卡、今日面板、Task board、Beat 板（拖曳排位／加刪合併→經 Claude 執行）、問題清單（連 matrix）、文件地圖（按層＋上下游）。程式 `tools/workbench/`；協議 `.claude/story_system/web-ui-protocol.md`（已 `@` 入 CLAUDE.md）；新 durable 檔 `TASK_BOARD.md`、`LAYER_MANIFEST.md`。故事主線狀態不變（Beat 層 v4.1 仍待 Director review）。
 - **2026-10-08 Skill 版本：story skills vNext.2.3 已正式 promote**（作者批准；TARGETED 預設／FULL 觸發角度政策已入 CLAUDE.md）。紀錄＋backlog：`canon/_working/PROMOTION_RECORD_vNext_2_3.md`。
 
 ## 🧭 方向重設（2026-09-30）— demo 範圍內由粗到幼重新討論（方法試驗）

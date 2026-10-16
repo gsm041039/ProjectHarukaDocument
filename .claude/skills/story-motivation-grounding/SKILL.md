@@ -80,3 +80,10 @@ Mini Log: ...
 - Do not make the character look childish if the author’s goal is forced/tragic action.
 - Do not over-expand worldbuilding before testing minimal version.
 - Do not writeback.
+
+## Workbench Choices
+<!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
+- 🤔 角色點解咁做 | 分析{goal}角色點解咁做：先搵證據，再出動機候選同證據等級，連反證；唔 writeback。
+- 🔭 出三層解釋 | 出保守解釋（只用現有 canon）、最小加料解釋、大改框架解釋三個版本，推薦最細夠用嘅一個；用選項卡問我揀。
+- 💬 簡短傾 | 用簡短討論模式答：排除咩、最穩陣動機、要深入可以加咩、仲未決咩。
+- 🔄 吸收我嘅修正 | 根據我啱啱嘅修正，先列更新後限制，再重新推演。
