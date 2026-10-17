@@ -56,10 +56,11 @@ export function createLauncher(ctx) {
             onclick: () => { st.choice = st.choice === c ? null : c; draw(); } }, `${c.icon} ${c.label}`))) : null, h("div", { style: "display:flex;gap:8px;align-items:flex-start" }, micButton(h, goal), goal),
           h("div", { class: "actions" }, h("button", { onclick: close }, "取消"),
             h("button", { title: "唔使你跟住，交畀幾個 AI 角色自己傾", onclick: () => { close(); state.discuss = { id: null, draft: { topic: goal.value.trim(), range: "", stop: "有 2–3 個成形候選＋推薦", context } }; ctx.switchTab("discuss"); } }, "🤖 交畀 AI 自己傾"),
+            (goal.onEnter = () => modal.querySelector(".launcher .actions .primary")?.click(), null),
             h("button", { class: "primary", onclick: () => {
               const text = startPrompt(st.skill, goal.value.trim(), context, st.choice?.prompt || st.preset?.prompt);
               close();
-              newSession(text, (st.choice?.label || st.preset?.label || st.skill || "新 task") + (goal.value.trim() ? "：" + goal.value.trim().slice(0, 16) : ""));
+              newSession(text, (st.choice?.label || st.preset?.label || st.skill || "新 task") + (goal.value.trim() ? "：" + goal.value.trim().slice(0, 16) : ""), undefined, goal.value.trim());
             } }, "開始")))));
     };
     const addPreset = async () => {

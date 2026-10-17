@@ -1,5 +1,12 @@
 # PROJECT_STATUS
 
+- **2026-10-18 警戒對比自然落差原則（PROVISIONAL）**：作者揀「唔使啟動嘅成本」＋「受控對不受控嘅細節」，並接受「身體先放鬆、腦後追上去推開」時差。原則層，未落場景，未 writeback。見 `MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` §9。
+- **2026-10-18 整體日常溫柔載體取向（PROVISIONAL）**：作者揀外部巧合小善意／環境留餘地／旁人唔講出嚟照顧／玩法慢位；男孩死後暖位繼續存在、痛但仍然真。原則層，未落場景，未 writeback。見 `MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` §8。
+- **2026-10-18 新 setting：夕貓形態×朔「異世界行者」（DRAFT／CANDIDATE）**：作者提案夕變貓、由朔養住；因帶 Alpha 線記憶被稱異世界行者，朔想利用佢搵美夜子真相，令朔前期似壞人。草稿＋撞 canon 表見 `story_construction/YU_CAT_SAKU_ISEKAI_WALKER_DRAFT.md`；QQ-231 OPEN。稍後作者揀：夕貓＝同一個體、貓＝壓抑讀數、夕目的＝揾朔做外面嘅手；「夕代食祝福」只作解讀、唔改詛咒定義（草稿 §3.6）；朔自私底線＝主動試探逼美夜子崩潰＋有時攻擊晴香等人，朔唔知貓係夕（§3.7，PROVISIONAL）。未 writeback canon；唔改主線。
+
+- **2026-10-18 操×無名男孩正題校正（PROVISIONAL）**：作者拉返正題＝「警戒對比自然、似等緊佢」；加「世界整體日常帶少少溫柔、苦盡甘來；就算之後苦，溫柔都係真過」。載體（速寫簿）降為支線。見 `MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` §7。未 writeback。
+- **2026-10-18 操×無名男孩「非講出嚟載體」人物層討論（DRAFT／PROVISIONAL）**：自動討論結果已記入 `story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md`。核對 canon 發現：速寫簿內容係死後先揭露嘅 payoff，討論共識「生前翻速寫簿」同 canon 撞；已記低修正候選（生前只做閉住嘅物件）待作者決定。作者糾正：呢個係人物層，唔係 Act I。未 writeback canon。
+- **2026-10-17 操×無名男孩「自然感」方向（PROVISIONAL，QQ-229）**：操對其他人警戒、對男孩自然，但操自己唔知——身體細節出賣，速寫簿揭露時先明白；觀眾早知。未 writeback canon；待補男孩自身細節、Act I 暗戀線 beat 落實。唔改變主線（Demo Beat 層等作者批）。
 - **2026-10-15 CDL-415 角色全名對齊**：彩＝葉語彩（中文名、冇改名經歷）；操＝綾小路操、紫音＝不知火紫音、美夜子＝水無月美夜子（成長追蹤表已改）；晴香春日井（藝名）／雨宮（本姓）主名問題押後 QQ-228。
 - **2026-10-15 Workbench v2**：全站實體連結（問題／決定／矩陣／beat／角色／美術／視覺語言／文件）＋按類型操作、新頁（決定／角色／美術／未完成事項）、Ctrl+K 搜尋、每對話揀 model、對話進度面板＋建議下一步、Beat 板由 LAYER_MANIFEST 自動生成。發現成長追蹤表 5 個角色全名同角色檔唔一致（待作者核對）。
 - **2026-10-15 Haruka Workbench 上線（作者批准 plan）**：本機網頁工作環境取代 chat box——`Workbench_Start.bat`／`Workbench_Stop.bat`（桌面有捷徑）→ http://localhost:4317。功能：多 session 對話、AskUserQuestion 選項卡、今日面板、Task board、Beat 板（拖曳排位／加刪合併→經 Claude 執行）、問題清單（連 matrix）、文件地圖（按層＋上下游）。程式 `tools/workbench/`；協議 `.claude/story_system/web-ui-protocol.md`（已 `@` 入 CLAUDE.md）；新 durable 檔 `TASK_BOARD.md`、`LAYER_MANIFEST.md`。故事主線狀態不變（Beat 層 v4.1 仍待 Director review）。

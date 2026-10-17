@@ -309,3 +309,11 @@ QQ-46~50 RESOLVED（12角度分析已在本輪答問中呈現）：
 - NOT_APPLICABLE 格（A–E 共約 60 格）全部屬「角色未登場／已離場」類（例：紫音喺 demo 範圍不出場→對紫音嘅關係格；凜只喺 B3 一句傳話→凜成長格；秋穗／彩／黑奏未登場）；理由成立，已機械核對。
 - 清單缺口 F（漏洞搜尋員）：NO_MATCH 4／PARTIAL 2 → 建議新增：場景邏輯／在場者與位置（Diegetic Logistics）、先教後用（Teach-before-use）、情感目標（Affect Target）、層級紀律（弱）。**待作者表態；未加入 angle-system.md。**
 - 壓縮後嘅作者問題（只剩真決定）：①牙形式／範圍（Brief Act I 甜品掉牙 vs canon md Act II 縫牙）②連結嘅「強制入侵」性質 demo 版處理。低優先：教學前置、製作 baseline、Outline 虛榮種子行過期。
+
+## 操×無名男孩「自然感」（2026-10-17，TARGETED）
+來源：`ayakomoji_misao.md` §無名男孩（CDL-143/144/145/147/363）；`00_Story_Brief.html` 操↔無名男孩卡；backup `06_Character_Psychology_Analysis.md` §戀愛遺憾。QQ-229。
+揀咗嘅 lens family：人物成長／防衛機制、關係、資訊與觀眾知情、主題／故事點對待、伏筆與回收、canon 連貫。略過：玩法、製作量、節奏、導演調度（關係前提層，未落 beat；Act I 暗戀線 beat 時再掃）。漏 lens 風險低：冇改任何事件因果。
+
+| Matrix ID | Topic | 主要角度 | 當前詮釋 | Source 基礎 | Status | 關鍵風險 | 需要作者輸入？ | QQ |
+|---|---|---|---|---|---|---|---|---|
+| M-MISAO-BOY-01 | 操對男孩自然、似等緊佢 | Character Growth, Coping/Defense, Relationship Dynamics, Audience Knowledge, Narrative Validation, Setup/Payoff, Canon/Continuity, Method Necessity | 作者已揀：操自己唔知、身體出賣、速寫簿先明白、觀眾早知。「等緊」＝投射（熟悉感代替了解）同「從未問名」同源。放鬆係真，但操相信自在係靠變身外形借返嚟→同 A/B 錯位、避見期唔撞。候選依據：原傷「冇人睇我一眼」↔ 男孩係唯一不停睇住佢嘅人（INFERENCE） | SOURCE_SUPPORTED（backup「唯一令她唔使咁用力」；canon 標題「被偷走的自然靠近」）＋INFERENCE | PROVISIONAL | 太自然會削弱「白白咁唔敢」；男孩淪為操嘅鏡子（冇自己慾望）；前世／舊世界殘響方向會搶朔×美夜子專屬裝置、亦令「愛上幻象→靈魂連結」主題失效（未揀，唔建議） | YES（原傷扣連要唔要入依據；男孩細節） | QQ-229 |

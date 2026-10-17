@@ -1,5 +1,107 @@
 # SESSION_LEDGER
 
+## Tooling — 「流程」專頁（取代頂部 bar）（2026-10-18）
+- [x] 作者唔想頂部長駐 bar → 拆走，改做左邊選單「🛤️ 流程」專頁（`views/flow.js`＋`views/flow_actions.js`）：左＝所有流程（進度點）、中＝逐步（做完／而家／要你批）、右＝揀咗嗰步：要做（tracker 清單）、做完會有（產出）、會用到嘅 skill（白話，撳一個就用佢開對話）、呢步開緊嘅對話、按狀態出掣（未開始：開始／檢查前置條件／押後；做緊：繼續／總結做到邊／標做完／標卡住；等你批：睇要批嘅嘢／批准／要改；卡住：搵解決方法／恢復；押後：恢復；做完：睇產出／重開）＋交畀 AI 傾／記低問題／睇原文。改狀態全部入待送出。網址記低揀咗邊條流程同邊步。
+- [x] 索引加每步 `checks`（清單）同 `outputs`（產出）。headless 測通過，冇 JS error。
+
+## Tooling — （已撤）每頁頂「而家做到邊」流程 bar（2026-10-18）
+- [x] 查證：Demo Beat 層冇任何批核紀錄（Director review 仍 PENDING，Stage 6 前置）。作者揀唔改進度檔，只改 UX。
+- [x] 索引修正（`build_index.py`）：`DONE_PROVISIONAL` 而家當做完；「有做完又有未做」嘅流程算進行中 → Demo 重新喺今日頁出現（6/14）。
+- [x] 新 `public/flow.js`：每頁頂一條 bar——揀跟邊條流程（記住）、◀ ▶ 前後睇、每粒圓點撳得、狀態同「要你批」標記、「▶ 開始呢步」（開一個帶住呢步嘅對話，開咗就變「💬 返去對話」）、「✓ 做完」（入待送出）、撳步驟名展開：做咩＋用到嘅 skill（白話標籤，`ui_config.json` `skill_labels`）＋睇原文。
+- [x] 驗證：headless 測 ◀ ▶、撳圓點、展開、做完入待送出，全部正常，冇 JS error；「開始」未撳（會開真對話）。
+
+## Tooling — 揀咗就自動討論＋討論可以做對應工作（2026-10-18）
+- [x] 未完成事項頁同問題頁：剔幾條 →「🤖 自動討論」，設定頁預填呢幾項同可以做嘅處理（待辦：標完成／作廢；舊問題：作廢／押後；問題頁：作廢／押後／最優先）。
+- [x] 討論總結逐項建議（附一句理由），建議處理預先剔好、「保留」唔剔；作者剔完撳「📤 執行揀咗嘅」→ 放入待送出（同頁面掣一樣嘅 intent），送出先由 Claude 照 gate 改檔。討論 agent 照舊只讀。
+- [x] 驗證：headless 測 剔兩條 → 開討論（顯示「處理 2 項」）；假完成討論 → 2 條建議、1 條預剔、保留唔畀剔、執行後待送出有 1 條；冇 JS error；假資料已刪。未跑真討論（要收費）。
+
+## Tooling — 對話定位／自動討論設定／停掣／Beat 時間線（2026-10-18）
+- [x] 對話頁定位：碌訊息時 chat-head（標題＋掣）同右邊進度面板唔再跟住碌走（`#view:has(.chat-wrap){overflow:hidden}`＋`min-height:0`）。
+- [x] 修正（作者報：碌唔落去）：上一版 grid 冇限行高，對話欄撐到成段對話咁長（4932px），#messages 冇自己嘅捲軸。加 `grid-template-rows: minmax(0,1fr)`、子項 `min-height:0`。實測：對話欄＝視窗高度，訊息可以上下碌，頂部同右邊面板定位。
+- [x] 自動討論設定：移除 US$ 顯示同預算；「最多幾多輪」由拉桿改做直接打數字、冇上限（client＋`discuss.mjs` 都拆咗預算 stop 同輪數 cap）。修一個 TDZ bug（rounds listener 喺 est 定義前引用）。
+- [x] 停掣：每個 live 對話嘅「諗緊」泡泡入面加一個「⏹ 停」掣，隨時停低 AI 做緊嘅嘢（除咗 chat-head 原有嘅「停」）。
+- [x] Beat 時間線：Beat 板加「🗂️ 看板／📈 時間線」切換；時間線將所有 beat 由左到右按 sequence 順序排，色＝狀態、R／N 標記，撳開睇關聯；睇整體節奏。
+- [x] 驗證：headless Chrome 測對話定位、時間線（13 beat）、討論設定（number 輸入冇 max、冇 US$）、全部通過，冇 JS error。要重開 Workbench 生效。
+
+## Tooling — 對話頂「✅ 傾夠，落檔」掣（2026-10-18）
+- [x] 撳一下：AI 照 story-router 揀合適 skill 收尾落檔（入 canon 前用選項卡問批；未確認嘅標 DRAFT；未決問題入 QUESTION_QUEUE；更新進度檔；SESSION_LEDGER 留「下次由呢度繼續」）。對話唔會閂，可以即刻再傾或者之後「繼續呢個 session」。
+- [x] 對話標題自動加「✅」；server `rename` 改用 SDK `renameSession` 寫入對話紀錄，重開 server 之後以前嘅 session 清單都保留標題。
+- [x] 指示文字同掣名喺 `ui_config.json` `wrap_up` 改。驗證：掣出現、冇 JS error；未實際撳（會開始真對話）。
+
+## Tooling — 問法模型一撳更新＋文件操作快捷掣（2026-10-18）
+- [x] 側欄「我嘅問法模型」：顯示已記幾多句、上次幾時更新；撳「🪞 用 N 句新說話更新」＝即刻用上次之後新記錄嘅說話增量更新 `canon/_working/author_voice/AUTHOR_LENS.md`（server `/api/lens`，一次性 agent 只准寫呢一個檔，model 由 `ui_config.json` `lens_model` 定，預設 sonnet；進度記 `lens_state.json`）。實測：首次由 42 句建立模型（11 條慣問角度、6 條否決訊號、3 條深度控制，附行號證據，題外話同粗口已排除）。
+- [x] 對話框多一行「📁 文件」快捷掣（`ui_config.json` `quick_actions`，短標籤＋完整指示）：入 canon（照 writeback gate，先列改動問批）、落檔做草稿、更新進度檔、記低未決問題、開做 task、先讀相關文件、對返 canon、搵返之前講過、下游要重驗、睇改咗咩、commit 今次改動。
+- [ ] 未做：模型未接駁去建議下一步同自動討論（要作者決定）；手機版面同手機連線方式待作者揀。
+
+## 操點解收唔到別人嘅溫柔（2026-10-18）
+- [x] 核對 `ayakomoji_misao.md`（不配被愛、紗夜、母親、調停失敗誤讀、獨處不鬆）；作者揀：主要攔截＝覺得唔係畀「真嘅我」、隊友都慢慢收到。已記 CARRIERS_DRAFT §11（DRAFT／PROVISIONAL）。
+- [ ] 待：隊友邊個先、靠咩外部事件鬆動；失控預期收回同「委屈崩喊」習慣嘅關係。一頁摘要未同步 §10、§11。冇改 canon，冇 writeback。
+
+## 操入戲前準備動作（2026-10-18）
+- [x] 核對 `ayakomoji_misao.md` 關鍵習慣＋表演參考；作者揀：訊號＝屏息半拍再放、頻率＝每次面對外人都有。已記 CARRIERS_DRAFT §10（DRAFT／PROVISIONAL）。
+- [ ] 待：同「Act I 均勻不見喘」寫法對齊；入戲半拍 vs 受壓屏息要唔要區分。一頁摘要 `MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md` 未同步第 10 節。冇改 canon，冇 writeback。
+
+## 操×無名男孩原則一頁摘要（2026-10-18）
+- [x] 作者要求將已傾原則整理成一頁人物層摘要、標 DRAFT。新檔 `story_construction/MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md`（分「作者揀」同「推論」，未新增任何決定）；已登記 LAYER_MANIFEST。冇改 canon，冇 writeback。
+
+## 警戒對比自然落差原則（2026-10-18）
+- [x] 傾原則；作者揀兩條起頭原則並接受身體／頭腦時差。已記 DRAFT §9。旁人第二見證、玩法手感未揀。
+- [ ] 待：男孩自身細節；具體落場景要等作者開 Beat／Scene 層。
+
+## 整體日常溫柔載體取向（2026-10-18）
+- [x] 傾原則（溫柔獨立成立、唔承諾結果、死後唔變冷）；作者揀四類載體＋死後暖位繼續存在。已記 DRAFT §8。
+- [ ] 待：具體份量與位置（要等作者想落場景）；後幕死後處理 PROVISIONAL。
+
+## 新 setting：夕貓形態 × 朔（異世界行者）創作（2026-10-18）
+- [x] 作者提案：朔有隻貓＝夕；夕變貓同美夜子被晴香祝福（避難所詛咒）有關；朔前期似壞人；貓樣夕稱「異世界行者」。作者補充：稱呼因夕有 Alpha 線記憶，朔想利用佢搵美夜子真相。
+- [x] 讀 yu.md／saku.md／miyako.md／glossary 避難所詛咒／單一靈魂原則／Alpha 聲音堵塞規則做 source check。新檔 `story_construction/YU_CAT_SAKU_ISEKAI_WALKER_DRAFT.md`（DRAFT／CANDIDATE，含撞 canon 表）。TASK_BOARD T-007；QUESTION_QUEUE 新增 QQ-231。
+- [x] 作者揀（PROVISIONAL）：夕貓＝分身；朔似壞人＝為自己利益＋同主角群有衝突，唔關貓。已記草稿 §3.5。
+- [x] 作者揀（PROVISIONAL，稍後）：夕貓＝同一個個體（唔係獨立人格）；貓＝壓抑讀數（晴香越壓抑貓越實，承認感受變淡；出場要外部事件觸發）；夕目的重心＝揾朔做外面嘅手。已記草稿 §3.6。
+- [x] 作者新想法：美夜子崩潰變貓嘅祝福對晴香自己都有效，只係夕代食。AI 核對：觸發條件同夕「危及生命奪控」幾乎一樣（SOURCE_SUPPORTED）。作者決定（PROVISIONAL）：只作解讀，唔改詛咒定義。已記草稿 §3.6。
+- [x] 作者決定（PROVISIONAL）：朔自私底線＝隱瞞利用＋主動試探逼美夜子崩潰＋有時攻擊晴香等人（要設計點解）；朔唔知貓係夕。AI 已出「點解」候選＋平反轉捩，記草稿 §3.7。
+- [x] 作者決定（PROVISIONAL）：「夕代食祝福」只作解讀，唔改詛咒定義。
+- [x] 作者決定（PROVISIONAL）：攻擊晴香點解＝驗證槓桿＋局命令；美夜子被試探即時反應＝憎恨＋保護晴香；試探又害又幫（加速記憶重連）。記草稿 §3.7–3.8。
+- [x] 核對情緒守恆法則／壓抑稅（SOURCE_CHECKED）：冇直接撞；貓讀數收窄四點（綁施力時壓抑、唔係額外代價、第四幕消失、第二三幕最實）。記草稿 §3.9。
+- [x] 試探落點核對 Act II Outline：發現美夜子第一二幕本身係貓（逼變貓不成立→改貓殼裂開 Glitch）；朔八月見証之夜已係不可逆盟友轉折，攻擊必須喺前；五月護隊受傷攻擊者未指明可貼合。AI 候選記草稿 §3.10（待作者揀）。
+- [ ] 待作者：平反轉捩場景同試探落點（第二幕邊場）；貓幾時出場；美夜子見夕貓反應；兩隻貓會唔會混淆。冇改任何 canon，冇 writeback。
+
+## Tooling — 用量顯示＋Enter 送出＋作者問法紀錄 skill（2026-10-18）
+- [x] 每頁顯示 Claude 用量：側欄「🧠 深度」下面出 5 小時同本週用量條（撳一下即刻更新；每 2 分鐘同每輪完自動更新）。server `/api/usage` 用 SDK experimental usage 呼叫（有 live 對話就問佢，冇就開一個唔送訊息、唔收費嘅臨時對話），快取 1 分鐘。實測 pro plan 讀到 5h/週百分比。
+- [x] Enter 送出：之前只有主對話框同首頁話題框得。而家選項卡嘅「自己寫」同「其他」、新工作對話框目標、自動討論插話同「答主持人」、對白試句框，Enter 都送出（Shift+Enter 換行，打中文唔會誤送）。通用機制：任何 input 設 `onEnter` 就得。
+- [x] 作者問法紀錄 skill（author-lens）：
+  - 紀錄：`.claude/hooks/log_author_prompt.py`（UserPromptSubmit hook，跳過 SDK＝網頁來源避免重複）＋ `server.mjs` 將作者**親手打嘅字**（新話題／回覆／選項卡自己寫／討論插話）入 `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl`，掣同模板 prompt 唔入（靠 `said` 欄）。log 跟 repo 行，兩部電腦都齊。
+  - 補返舊紀錄：`.claude/skills/author-lens/backfill.py`（本機 transcript 抽作者親手打嘅，去重、濾走系統／掣 prompt、可安全重跑）；已跑，入咗 31 條。
+  - skill：`.claude/skills/author-lens/SKILL.md`（＋`.agents` 同步）歸納作者慣問角度／否決訊號／深度控制，寫 `AUTHOR_LENS.md`，淨係問法層面唔抄措辭；界線同 user-discussion-agent 一致（唔係 canon／決定權威）。
+  - 自動討論加「🪞 作者視角」角色（`discuss_roles.json`，用 author-lens 方法），預設唔開，想要先揀。
+- [x] 驗證：hook pipe-test、backfill dry-run、`/api/usage`、網頁只記親手打嘅字（掣 prompt 唔漏）headless/curl 全部通過；語法檢查齊。要重開 Workbench 先生效。
+
+## 操×無名男孩正題校正（2026-10-18）
+- [x] 作者指出討論偏離原題；確認重傾「似等緊佢」嘅原因，加世界溫柔 feel。
+- [x] 作者揀：範圍＝整體日常都帶少少溫柔；讀法＝之後苦溫柔都係真。已記 DRAFT §7、QQ-229 補註。
+- [ ] 下一步待傾：整體日常溫柔靠邊啲載體；點樣同男孩之死共存。
+
+## 操×無名男孩非講出嚟載體 — 人物層討論落檔（2026-10-18）
+- [x] 收自動討論總結（DRAFT）；作者糾正：人物層討論，唔係 Act I。「Act I 篇幅」問題作廢，「Act I 只讀成同學友好」改寫成「各時期讀法待後幕定，PROVISIONAL」。
+- [x] 作者決定：速寫簿 canon 先核對；結果記落人物層文件標 DRAFT／PROVISIONAL。
+- [x] Canon 核對（`ayakomoji_misao.md` §無名男孩與速寫簿；CDL-143/144/145/147）：速寫簿內容係死後揭露 payoff，生前冇人睇過 → 討論共識「生前翻速寫簿」撞 CDL-144。
+- [x] 新檔 `story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md`（共識、撞位、修正候選［INFERRED］、未答問題、風險）。TASK_BOARD T-005 更新；QUESTION_QUEUE 新增 QQ-230。
+- [ ] 待作者：生前速寫簿只做閉住嘅物件？定改 canon 令生前可睇一部分？其餘三條見 DRAFT 第 5 節。冇改任何 canon，冇 writeback。
+
+## Tooling — 加：網址記低每一頁（上一頁／下一頁）＋討論總結撳得（2026-10-17）
+- [x] 網址路由（`public/app.js`）：頁、對話（用耐用 session id，重開 server 都打得開）、自動討論、篩選／揀咗嘅嘢、右邊詳情面板全部入網址；瀏覽器上一頁／下一頁、重新整理、書籤都還原到同一個畫面。各頁狀態 object 喺 `views.json` `state` 登記（唔 hard code）。修：啟動時 session 清單更新會覆蓋網址。
+- [x] 討論總結：頂部「📋 睇總結」跳去總結；以前嘅討論清單完成嗰啲有「📋 睇總結」；每個候選「👉 揀呢個」、每條要決定嘅「💬 傾呢條」→ 開對話照 gate 落實（DRAFT，唔直接寫 canon）。
+- [x] 驗證：headless Chrome 測 上一頁／下一頁／重新整理／詳情面板／舊對話網址，全部通過；冇 JS error。「揀呢個」會開真對話（收費），只確認掣存在，未實際撳。
+
+## Tooling — 加：思考深度（effort）選單（2026-10-17）
+- [x] 側欄「🧠 預設深度」（新對話預設，存瀏覽器）＋對話頂選單（中途改，`applyFlagSettings({effortLevel})`，對話入面出「🧠 由呢度開始思考深度」）；「繼續」舊對話都帶埋。層級清單喺 `ui_config.json` `effort_levels`（輕／中／深／好深／最深＋白話說明）。
+- [x] 驗證：語法通過；測試 port 開對話帶 low、中途改 high、改返預設都回 ok。要重開 Workbench 先生效。
+
+## Tooling — 修：開新對話後舊對話喺「以前嘅 session」唔見咗（2026-10-17）
+- [x] 成因：自動討論每個角色每輪發言、主持人判斷／總結、討論設定助手，全部用 SDK `query()` 預設存檔，同作者對話存喺同一個 project 資料夾；`/api/sessions` 只攞最新 40 個，傾一兩場討論就將真對話擠出清單（重開網頁先發現）。
+- [x] 修：`discuss.mjs` `ask()` 同 server 設定助手加 `persistSession: false`；`/api/sessions` 改攞 400 個再濾走舊版留低嘅討論／設定助手紀錄（`BACKGROUND_PROMPT`，對第一句），再截 40。
+- [x] 驗證：`node --check` 通過；喺另一個 port 起 server 測 `/api/sessions` 正常；regex 對兩種背景 prompt 命中、對普通訊息唔命中。
+- [ ] 作者要重開 Workbench（關咗舊 server 再開 `Workbench_Start.bat`）先生效；另一部電腦都要 pull 再重開。
+
 ## Tooling — Workbench v12：討論設定助手／助手上限／隨時轉／唔 hard code（2026-10-17）
 - [x] 🧭 自動討論設定助手：`/api/discuss/plan`（只讀，跟 story-auto-discussion skill 讀連住文件）→ 白話理解＋2–4 個方向掣＋按話題範圍／停止點（🧭 標記）；由對話／實體帶過嚟自動開始。實測 27 秒，冇內部編號。
 - [x] 助手上限：PreToolUse hook（Agent|Task）——上限內自動批、超出彈卡問作者；對話頂「🤖 助手」選單隨時改；實測上限 0 時彈卡。
@@ -3012,3 +3114,30 @@
 - 作者揀：操自己唔知（身體細節出賣：忘記傘子距離、辮鬆、食嘢放鬆），男孩死後睇速寫簿先明白；觀眾早知、操遲知。
 - 設計要點：「似等緊佢」＝熟悉感代替了解，與「從未問名」同源（投射）；需外在觸發（Act I Beat 層落實），唔用對白講明。
 - 下游：Act I 暗戀線 beat 要 REVALIDATE；男孩自身細節（速寫簿、睇人眼）要夠，避免淪為操嘅鏡子。
+- [x] 同日第二個對話（作者原本嗰個對話因 Workbench 對話清單 bug 唔見咗，重新問同一條）：story-room 重做 source check（`ayakomoji_misao.md` §無名男孩、CDL-143～148／363、Brief 操↔無名男孩卡、backup `06_Character_Psychology_Analysis.md` §戀愛遺憾）；確認上面方向同 canon 冇撞，冇重新開題。
+- [x] 補記 state：QQ-229（方向已揀，PROVISIONAL）、TASK_BOARD T-005、QUESTION_MATRIX M-MISAO-BOY-01、PROJECT_STATUS、NEXT_ACTION 並行線。
+- [x] 新增 INFERENCE（未批，只係候選依據）：「似等緊佢」可以扣操原傷「冇人睇我一眼」（Alpha 原傷五步）——男孩係全作唯一一個不停睇住佢、畫佢嘅人；Beta 線父親都只睇「繼承人功能」，所以唔使加前世／舊世界殘響新設定。另外機制釐清：放鬆係真，但操相信嗰份自在係靠「變身後嘅完美外形」借返嚟（日常維持變身係 CDL-363 嚴格推論），所以同 A/B 錯位、避見期唔撞。
+- [ ] 待作者：要唔要將原傷扣連寫入設計依據；男孩自身細節（佢自己嘅慾望／煩惱）未設計。
+
+18 Alpha 右旋／Beta 左旋宇宙＋晴香慣用左手（DRAFT / PROVISIONAL，未 writeback canon）
+- 作者提出：Alpha 線＝右旋宇宙、Beta 線＝左旋宇宙，因晴香係左撇子；用現有科學解釋晴香世界觀。
+- [x] source check：canon 無左旋／右旋／慣用手記載；Alpha/Beta 現行定義（事件層 vs 態度層）同提案方向冇撞。
+- 作者揀：「左右仔」＝慣用左手；晴香＝原因（非純象徵）。
+- 漏洞（已向作者講）：Alpha 線幼年晴香同樣存在，若本來左撇子則解釋唔到 Alpha 右旋；候選處理＝改變現實時晴香手性同世界一齊反轉（Alpha 晴香原慣用右手）。人嘅慣用手同分子手性現實冇已知因果，屬魔法層／新規則。
+- [x] 補記 state：QQ-230（PROVISIONAL）。
+- [x] 作者補充：晴香一直係左撇子（含 Alpha 線）；Alpha 原生右旋，Beta 由晴香影響而由右旋變左旋——漏洞已解，晴香＝右旋世界嘅逆手性異數。
+- [x] 作者收窄範圍：只係細伏筆，可能以電視科學解釋節目帶過；唔升級做世界規則。
+- [x] 作者「入canon」：已 writeback 為 CDL-416；改 `02_glossary.md`（Alpha／Beta 線加註）、`03_characters/haruka.md`（Behavior Hooks 第12項）、`CROSS_ACT_FORESHADOW_MANIFEST.md`（P-A26，位置待 Beat 層定）、QQ-230 RESOLVED。
+- [ ] 待：伏筆具體落點（Beat 層時再定）。
+
+19 隊員對晴香創世者身份嘅反應（DRAFT / PROVISIONAL，未 writeback canon）
+- 作者提出：想隊員諒解晴香改變現實，但有隊員早知、先衝突後諒解、昇華主題、唔係 100%。
+- source check：創世者揭示 Act III（黑奏）、Act I 不得明示；操／紫音現設定只知第一層、憤恨離場；美夜子 Act II 後期單向知情。
+- 作者選：美夜子＋紫音早知，操維持；各人諒解程度唔同；此位須引入價值觀衝突；軸＝各有各軸、同一條根（未經同意嘅救贖）。
+- [x] 已記草稿 `story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md`（DRAFT，未改 canon）。
+- [ ] 待作者：紫音點樣早知；是否正式推翻紫音「死前才知第一層、憤恨離場」設定（需走 author gate）。
+
+- [x] 2026-10-18 作者揀紫音早知＝兩段式（先感覺、後黑奏講）：已記草稿 `story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md`（DRAFT／PROVISIONAL）；REVALIDATE 清單同 Premise 標記見草稿。未推翻紫音原設定（仍需 author gate）。
+- [ ] 待：作者確認「感覺」只到「晴香身上有嘢唔對」而唔識名；黑奏講嘅時間點同操死訊分開；Beat 層再定具體場面。
+- [x] 2026-10-18 作者定紫音第一段感覺邊界：只靠睇行為（崩潰雷達）、指控唔講改行為版；已記草稿並加 REVALIDATE（晴香四層種子第三層、紫音 E-12 指控層）。
+- [ ] 待：Beat 層設計行為版指控場面。

@@ -42,6 +42,22 @@ export function render(el, ctx) {
     sel.clear(); rerender();
   };
 
+  // 🤖 hand the ticked items to an auto-discussion; its summary suggests 標完成／作廢／保留 per item, the author ticks and sends
+  const discuss = () => {
+    const ledgerTab = f.tab === "ledger";
+    const items = ledgerTab
+      ? todos.filter((t) => sel.has(t.id)).map((t) => ({ id: t.id, title: t.text, payload: { text: t.text, section: t.section } }))
+      : stale.filter((q) => sel.has(q.id)).map((q) => ({ id: q.id, title: q.title, payload: {} }));
+    if (!items.length) return;
+    ctx.openDiscuss({
+      topic: ledgerTab ? `呢 ${items.length} 條未完成事項：邊啲其實已經做咗、邊啲應該作廢、邊啲要保留繼續做？` : `呢 ${items.length} 條好耐冇郁嘅問題：邊啲應該作廢、邊啲押後、邊啲要保留？`,
+      range: ledgerTab ? "只判斷呢幾條待辦嘅去留，要讀 SESSION_LEDGER 同相關文件核實有冇做咗；唔改故事內容" : "只判斷呢幾條問題嘅去留，要讀 QUESTION_QUEUE 同相關文件核實；唔改故事內容",
+      stop: "每條都有建議（附證據）",
+      items, actions: ledgerTab ? [{ type: "ledger.todo_done", label: "標完成" }, { type: "ledger.todo_drop", label: "作廢" }] : [{ type: "question.drop", label: "作廢" }, { type: "question.defer", label: "押後" }],
+      links: items.filter((x) => ents[x.id]).slice(0, 20).map((x) => ({ id: x.id, title: x.title.slice(0, 80), file: ents[x.id].file || "" })),
+    });
+  };
+
   const row = (id, main, sub) => h("div", { class: "list-item", style: "display:flex;gap:10px;align-items:flex-start" },
     h("input", { type: "checkbox", checked: sel.has(id), onchange: (e) => { e.target.checked ? sel.add(id) : sel.delete(id); rerender(); }, style: "margin-top:3px" }),
     h("div", { style: "flex:1;min-width:0;cursor:pointer", onclick: () => openEntity(id) },
@@ -67,6 +83,7 @@ export function render(el, ctx) {
       sel.size ? h("span", { class: "small muted", style: "font-weight:800" }, `已揀 ${sel.size}`) : null,
       f.tab === "ledger" ? h("button", { disabled: !sel.size, onclick: () => bulk("done") }, "✅ 標完成") : null,
       h("button", { class: "danger", disabled: !sel.size, onclick: () => bulk("drop") }, "🗑️ 作廢"),
+      h("button", { disabled: !sel.size, title: "交畀幾個 AI 角色核實同傾，總結會逐條建議點處理，你剔完先執行", onclick: discuss }, "🤖 自動討論"),
       h("button", { onclick: () => openFile(f.tab === "ledger" ? "canon/_working/SESSION_LEDGER.md" : "canon/_working/QUESTION_QUEUE.md") }, "睇原文")),
     h("div", { class: "card", style: "padding:0" }, ...(body.length ? body : [h("div", { class: "list-item muted" }, "冇嘢 🎉")])));
 }

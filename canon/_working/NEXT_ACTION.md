@@ -4,6 +4,18 @@
 
 > **單一步（2026-10-08 深夜，取代下面）：** Demo Beat 層 v4.1 完成（`demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md`；Reference Audit 已做）。下一步＝作者批 Beat 層（Director review）或指出要改 → 批咗先入 Scene 層。需要作者 input：YES。
 
+> 🐈‍⬛ **並行線（2026-10-18，夕貓×朔新 setting，DRAFT）：** 草稿已記（`story_construction/YU_CAT_SAKU_ISEKAI_WALKER_DRAFT.md`）。下一步＝作者揀夕貓同腦內夕係分身定脫離、朔「似壞人」靠咩；之後核對單一靈魂原則同 Act I 出場收窄。需要作者 input：YES。
+
+> 🐈‍⬛ **並行線更新（2026-10-18 稍後）：** 夕貓＝同一個體、貓＝壓抑讀數、夕目的＝揾朔做外面嘅手（PROVISIONAL，草稿 §3.6）；作者新想法「夕代食美夜子變貓祝福」已核對觸發條件相近，擴展詛咒範圍要走 author gate。作者已決定代食想法只作解讀、唔改詛咒定義。朔自私底線已揀（隱瞞利用＋主動試探逼美夜子崩潰＋有時攻擊晴香等人），朔唔知貓係夕（草稿 §3.7）。攻擊點解已揀＝驗證槓桿＋局命令。美夜子被試探反應已揀（憎恨＋保護晴香；又害又幫，草稿 §3.8）。下一步＝傾平反轉捩場景同試探落點（第二幕邊場）。需要作者 input：YES。
+>
+> 💗 **並行線更新（2026-10-18 稍後）：** 正題已拉返（警戒對比自然＋世界整體日常溫柔、苦後都係真）；載體降支線。下一步＝傾「整體日常溫柔」靠咩載體、點樣同男孩之死共存而唔變假。需要作者 input：YES。
+
+> 💗 **並行線（2026-10-17，操×無名男孩）：** 自然感方向已揀（QQ-229 PROVISIONAL）。下一步＝補男孩自身細節（佢自己想要乜、怕乜），避免淪為操嘅鏡子；或者押後到 Act I 暗戀線 beat。需要作者 input：YES（揀做唔做）。
+
+> 💗 **並行線更新（2026-10-18，操×無名男孩載體，人物層）：** 載體討論已記 DRAFT（`story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md`）；canon 核對發現速寫簿生前冇人睇過內容（死後先揭露），要作者揀：接受「生前只做閉住嘅物件」定改 canon。需要作者 input：YES。
+
+> 💗 **並行線（2026-10-18，隊員諒解創世者，DRAFT）：** 美夜子＋紫音早知、各有價值觀軸已記草稿（`story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md`）。作者已揀紫音兩段式（先感覺、後黑奏講），REVALIDATE 清單已記草稿。感覺邊界已定（只靠睇行為、指控改行為版，見草稿）。下一步＝Beat 層設計紫音 Act II 行為版指控場面；紫音原設定推翻仍要走 author gate。需要作者 input：YES。
+
 > 🎭 **並行線（2026-10-17，Stage 5 人物底）：** auditor 已跑，四人 exploratory，Stage 5 夠用版達成（暫定，見 `demo_pilot/VOICE_EVIDENCE_REVIEW.md` Re-audit #2）；未覆蓋對白位（天台、B8、餵糖、M2、M4 U1）移交 Stage 8。主線仍等 Beat 層批核。需要作者 input：NO（Blind Attribution 聽感待 Stage 8 前做）。
 
 

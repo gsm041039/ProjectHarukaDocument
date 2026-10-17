@@ -82,13 +82,15 @@ async function refreshSessions() {
   );
   const pending = state.live.reduce((n, s) => n + (s.pending || 0), 0);
   document.title = (pending ? `(${pending}) ` : "") + "Haruka Workbench";
+  if (state.tab === "chat") syncURL(false);
   const count = $('[data-tab="chat"] .count');
   if (count) { count.textContent = pending; count.style.display = pending ? "" : "none"; }
 }
 
-async function newSession(text, title, task) {
+// said = only the words the author typed themselves (logged for the author-lens skill); button prompts pass nothing
+async function newSession(text, title, task, said) {
   const t = title || (text ? text.replace(/```[\s\S]*$/, "").trim().slice(0, 28) : "新 task");
-  const { id } = await api("/api/sessions", { title: t, text, task, model: store.get("model", "") || undefined, agentCap: store.get("agentCap", undefined) });
+  const { id } = await api("/api/sessions", { title: t, text, task, said, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined, agentCap: store.get("agentCap", undefined) });
   await refreshSessions();
   openLive(id);
   return id;
@@ -100,7 +102,7 @@ async function continueTask(task) {
   const live = state.live.find((s) => s.status !== "closed" && (s.taskId === task.id || (sid && s.sdkSessionId === sid)));
   if (live) return openLive(live.id);
   if (sid) {
-    const { id } = await api("/api/sessions", { title: task.task.slice(0, 28), resume: sid, task: task.id, model: store.get("model", "") || undefined });
+    const { id } = await api("/api/sessions", { title: task.task.slice(0, 28), resume: sid, task: task.id, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined });
     await refreshSessions();
     return openLive(id);
   }
@@ -185,6 +187,7 @@ function askCard(ev, sid, answered) {
   const getters = ev.questions.map((q, qi) => {
     const name = `q${ev.requestId}-${qi}`;
     const other = h("input", { type: "text", class: "other", placeholder: "其他／自己寫（可留空）" });
+    other.onEnter = () => form.querySelector(".footer .primary")?.click();
     const opts = q.options.map((o, i) => h("label", { class: "opt" },
       h("input", { type: q.multiSelect ? "checkbox" : "radio", name, value: o.label }),
       h("span", { class: "key" }, i + 1),
@@ -204,9 +207,10 @@ function askCard(ev, sid, answered) {
       : { answers: Object.fromEntries(getters.map((g) => g()).filter(([, v]) => v.length)) };
     if (!free.value.trim() && Object.keys(result.answers).length < ev.questions.length) return toast("仲有問題未答（或者喺最底直接講）");
     send.disabled = true;
-    await api(`/api/sessions/${sid}/answer`, { requestId: ev.requestId, result });
+    await api(`/api/sessions/${sid}/answer`, { requestId: ev.requestId, result, said: free.value.trim() || [...form.querySelectorAll("input.other")].map((x) => x.value.trim()).filter(Boolean).join("\n") });
   } }, "送出");
   form.append(h("div", { class: "footer" }, note, send));
+  free.onEnter = () => { if (!send.disabled) send.click(); }; // Enter = 送出 while the card is still open
   form.markAnswered = () => { note.textContent = "✔ 已回覆"; };
   if (answered) form.querySelectorAll("input,textarea,button").forEach((e) => (e.disabled = true));
   return form;
@@ -232,12 +236,15 @@ function chatShell(title, live) {
   box.append(head, msgs);
   if (live) {
     const ta = h("textarea", { rows: 2, placeholder: "回覆 Claude…（Enter 送出，Shift+Enter 換行）" });
-    const send = async () => { const t = ta.value.trim(); if (!t) return; ta.value = ""; await api(`/api/sessions/${state.current.id}/message`, { text: t }).catch((e) => toast(e.message)); };
+    const send = async () => { const t = ta.value.trim(); if (!t) return; ta.value = ""; await api(`/api/sessions/${state.current.id}/message`, { text: t, said: t }).catch((e) => toast(e.message)); };
     ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
     head.append(h("button", { onclick: () => api(`/api/sessions/${state.current.id}/interrupt`, {}) }, "停"));
     const quick = (text) => api(`/api/sessions/${state.current.id}/message`, { text }).catch((e) => toast(e.message));
     box.append(h("div", { id: "composer" },
       h("div", { class: "quick-row" }, ...(state.config?.quick_replies || []).map((q) => h("button", { class: "quick", onclick: () => quick(q) }, q))),
+      // 📁 file / canon actions: short label, full gate-respecting instruction (ui_config.json quick_actions)
+      (state.config?.quick_actions || []).length ? h("div", { class: "quick-row" }, h("span", { class: "quick-tag" }, "📁 文件"),
+        ...state.config.quick_actions.map((a) => h("button", { class: "quick file", title: a.prompt, onclick: () => quick(a.prompt) }, a.label))) : null,
       h("div", { class: "row" }, micButton(h, ta), ta, h("button", { class: "primary", onclick: send }, "送出"))));
   }
   return { box, msgs, head };
@@ -245,7 +252,7 @@ function chatShell(title, live) {
 
 function topicBox() {
   const ta = h("textarea", { rows: 3, placeholder: "例如：「Demo 最尾基地嗰場想再暖啲，但唔想破壞操怕影相嘅設定」" });
-  const go = () => { const t = ta.value.trim(); if (t) newSession(ROUTE + t, t.slice(0, 24)); };
+  const go = () => { const t = ta.value.trim(); if (t) newSession(ROUTE + t, t.slice(0, 24), undefined, t); };
   ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); go(); } });
   return h("div", { class: "topic-box card" }, h("div", { style: "display:flex;gap:8px" }, micButton(h, ta), ta), h("div", { class: "actions" }, h("button", { class: "primary", onclick: go }, "🧭 開始（AI 揀 skill）")));
 }
@@ -267,7 +274,7 @@ function renderChat(el) {
   }
   if (cur.past) return renderPast(el, cur);
   const s = state.live.find((x) => x.id === cur.id) || { title: "" };
-  const v = chatView(el, { title: s.title, sid: cur.id, model: s.model, taskId: s.taskId, live: true });
+  const v = chatView(el, { title: s.title, sid: cur.id, model: s.model, effort: s.effort, taskId: s.taskId, live: true });
   const es = new EventSource(`/api/sessions/${cur.id}/events`);
   state.es = es;
   es.onopen = v.reset;
@@ -275,7 +282,7 @@ function renderChat(el) {
 }
 
 // One chat view for live and saved conversations: both are fed the same events (saved ones come from /api/history).
-function chatView(el, { title, sid, model, taskId, live }) {
+function chatView(el, { title, sid, model, effort, taskId, live }) {
   const { box, msgs, head } = chatShell(title, live);
   const ctx = makeCtx();
   const task = (state.index?.tasks || []).find((t) => t.id === taskId || (title && t.task.startsWith(title.replace(/…$/, ""))));
@@ -292,12 +299,21 @@ function chatView(el, { title, sid, model, taskId, live }) {
       const used = prog.skills().join("、") || "（未偵測到，請你自己判斷用過邊啲）";
       api(`/api/sessions/${sid}/message`, { text: `請回顧今次對話，用嚟改進 skill（今次用過：${used}）。搵出：①我要糾正你／重複講嘅位；②你走錯步、問錯問題、或者答得唔夠白話嘅位；③skill 規則冇講清、令你做錯嘅位。每點講清係邊個 skill、邊段、建議點改（附改動前後），同埋點解咁改唔會整爛其他規則。先用選項卡問我批邊幾條，批咗先改 SKILL.md（.claude 同 .agents 兩份都要同步），改完跑相關 validator，再記入 SESSION_LEDGER。` }).catch((e) => toast(e.message));
     } }, "🛠️ 改進 skill"), before);
+    // ✅ wrap-up: Claude picks the right skill to file this topic; the chat stays open and can carry on later
+    const wrap = state.config?.wrap_up;
+    if (wrap?.prompt) head.insertBefore(h("button", { class: "small", title: "呢個題目傾夠：AI 揀合適 skill 落檔（入 canon 前會問你），對話唔會閂，可以再繼續", onclick: async () => {
+      await api(`/api/sessions/${sid}/message`, { text: wrap.prompt }).catch((e) => toast(e.message));
+      const cur = state.live.find((x) => x.id === sid);
+      if (cur && wrap.mark && !cur.title.startsWith(wrap.mark)) await api(`/api/sessions/${sid}/rename`, { title: wrap.mark + cur.title }).catch(() => {});
+      refreshSessions();
+    } }, wrap.label || "✅ 傾夠，落檔"), before);
     const me = state.live.find((x) => x.id === sid) || {};
     const caps = state.config?.agent_caps || [];
     const capSel = h("select", { title: "今次對話最多可以派幾多個助手（sub-agent）；超出會彈卡問你", onchange: (e) => api(`/api/sessions/${sid}/agents`, { cap: +e.target.value }).then(() => toast(`助手上限改咗做 ${e.target.value}`)).catch((x) => toast(x.message)) },
       ...caps.map((c) => h("option", { value: c.cap, title: c.why, selected: c.cap === (me.agentCap ?? state.config?.agent_cap_default) }, `🤖 助手：${c.label}`)));
     head.insertBefore(capSel, before);
     modelSelect(model, async (m) => { await api(`/api/sessions/${sid}/model`, { model: m }).then(() => toast(m ? `之後用 ${m}` : "之後用預設 model")).catch((e) => toast(e.message)); }).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
+    head.insertBefore(effortSelect(effort, (e) => api(`/api/sessions/${sid}/effort`, { effort: e }).then(() => toast(e ? `之後用「${effortLabel(e)}」思考深度` : "之後用預設思考深度")).catch((x) => toast(x.message))), head.querySelector(".pp-toggle"));
   }
   el.replaceChildren(wrap);
   let streamEl = null;
@@ -306,7 +322,9 @@ function chatView(el, { title, sid, model, taskId, live }) {
   // 🌸 thinking indicator: always the last thing in the chat while Claude works, with what it is doing and for how long
   const thinkText = h("span", { class: "think-text" }, "諗緊");
   const thinkTime = h("span", { class: "think-time" });
-  const thinking = h("div", { class: "msg thinking" }, h("span", { class: "think-dots" }, h("i"), h("i"), h("i")), thinkText, thinkTime);
+  // stop button lives in the running indicator, so every live chat can halt the AI mid-run
+  const stopBtn = live ? h("button", { class: "think-stop", title: "停咗 AI 而家做緊嘅嘢", onclick: () => { api(`/api/sessions/${sid}/interrupt`, {}).catch((e) => toast(e.message)); thinkText.textContent = "停緊…"; } }, "⏹ 停") : null;
+  const thinking = h("div", { class: "msg thinking" }, h("span", { class: "think-dots" }, h("i"), h("i"), h("i")), thinkText, thinkTime, stopBtn);
   let thinkStart = 0, thinkTimer = null;
   const think = (on, what) => {
     if (what) thinkText.textContent = what;
@@ -366,9 +384,10 @@ function chatView(el, { title, sid, model, taskId, live }) {
         cards[ev.requestId]?.markAnswered?.();
         cards[ev.requestId]?.querySelectorAll("input,textarea,button").forEach((e) => (e.disabled = true));
         break;
-      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) loadIndex(true); break;
+      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) { loadIndex(true); refreshUsage(true); refreshLens(); } break;
       case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message)); break;
       case "status": running = ev.status === "running"; think(running); if (live) refreshSessions(); break;
+      case "effort": add(h("div", { class: "msg result" }, `🧠 由呢度開始思考深度：${ev.effort ? effortLabel(ev.effort) : "預設"}`)); break;
       case "model": add(h("div", { class: "msg result" }, `🔀 由呢度開始用 ${ev.model || "預設 model"}`)); break;
       case "note": add(h("div", { class: "msg result" }, ev.text)); break;
       case "agents": { const sel = head.querySelector("select[title^='今次對話最多']"); if (sel) sel.title = `已派 ${ev.used} 個／上限 ${ev.cap}；超出會彈卡問你`; if (live) add(h("div", { class: "msg result" }, `🤖 派咗第 ${ev.used} 個助手（上限 ${ev.cap}）`)); break; }
@@ -382,7 +401,7 @@ async function renderPast(el, cur) {
   const v = chatView(el, { title: cur.title, sid: null, live: false });
   v.head.append(h("button", { class: "primary", onclick: async (e) => {
     e.currentTarget.disabled = true; e.currentTarget.textContent = "接緊…";
-    const { id } = await api("/api/sessions", { title: cur.title, resume: cur.past });
+    const { id } = await api("/api/sessions", { title: cur.title, resume: cur.past, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined });
     await refreshSessions(); openLive(id);
   } }, "繼續呢個 session"));
   v.msgs.append(loading("讀緊對話紀錄…"));
@@ -424,6 +443,7 @@ $("#tray-send").onclick = async () => {
 let drawerPath = null;
 async function openFile(path) {
   drawerPath = path;
+  state.drawer = { file: path };
   $("#drawer-path").textContent = path;
   $("#drawer-chat").style.display = "";
   $("#drawer-body").replaceChildren(h("div", { class: "muted" }, "讀緊…"));
@@ -434,16 +454,18 @@ async function openFile(path) {
   body.classList.add("msg");
   $("#drawer-body").replaceChildren(body);
 }
-$("#drawer-close").onclick = () => $("#drawer").classList.remove("open");
+const closeDrawer = () => { $("#drawer").classList.remove("open"); state.drawer = null; syncURL(true); };
+$("#drawer-close").onclick = closeDrawer;
 document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && !e.shiftKey && !e.isComposing && e.keyCode !== 229 && typeof e.target.onEnter === "function") { e.preventDefault(); return e.target.onEnter(); }
   if (e.key !== "Escape") return;
   const lb = [...document.querySelectorAll(".lightbox")].pop();
   if (lb) return lb.remove();
   const modal = document.querySelector(".search-modal.show");
   if (modal) return modal.classList.remove("show");
-  $("#drawer").classList.remove("open");
+  if ($("#drawer").classList.contains("open")) closeDrawer();
 });
-$("#drawer-chat").onclick = () => { $("#drawer").classList.remove("open"); newSession(`我想傾 \`${drawerPath}\` 呢份文件。請先讀佢，再話我知佢而家嘅狀態同有咩未決。`); };
+$("#drawer-chat").onclick = () => { $("#drawer").classList.remove("open"); state.drawer = null; newSession(`我想傾 \`${drawerPath}\` 呢份文件。請先讀佢，再話我知佢而家嘅狀態同有咩未決。`); };
 
 // ---------------- views ----------------
 let _entityUI;
@@ -468,6 +490,14 @@ async function modelSelect(current, onchange) {
   return sel;
 }
 
+// Thinking depth (effort). Levels come from ui_config.json; "" = the model's own default.
+const effortLabel = (v) => (state.config?.effort_levels || []).find((x) => x.value === v)?.label || v;
+function effortSelect(current, onchange) {
+  return h("select", { class: "model-select", title: "思考深度（effort）：越深越慢越貴", onchange: (e) => onchange(e.target.value) },
+    h("option", { value: "" }, "🧠 預設深度"),
+    ...(state.config?.effort_levels || []).map((x) => h("option", { value: x.value, selected: x.value === current, title: x.why }, `🧠 ${x.label}`)));
+}
+
 function makeCtx() {
   return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title) => openPast({ sessionId, title }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), refresh: async () => { await loadIndex(); renderTab(); } };
 }
@@ -475,9 +505,90 @@ function makeCtx() {
 function switchTab(tab) {
   state.tab = tab;
   store.set("tab", tab);
-  document.querySelectorAll("#tabs [data-tab]").forEach((b) => b.classList.toggle("active", b.dataset.tab === tab));
+  markNav();
   renderTab();
+  syncURL(true);
 }
+const markNav = () => document.querySelectorAll("[data-tab]").forEach((b) => b.classList.toggle("active", b.dataset.tab === state.tab));
+
+// ---------------- routing ----------------
+// URL = #<tab>[/<chat id>][?<page state>&_file=…|_ent=…]. Each page keeps its filters/selection in one state object
+// (named by "state" in views.json); it is written into the URL after every click/typing, so browser back/forward,
+// reload and bookmarks bring back the page, its filters, the open conversation/discussion and the side panel.
+let restoring = true; // until init() has read the URL, nothing may rewrite it
+const pending = {}; // tab -> URL params waiting for the page to create its state object
+const viewOf = (tab) => state.views.find((v) => v.id === tab);
+function pageParams(tab) {
+  const v = viewOf(tab), o = v?.state && state[v.state], out = new URLSearchParams();
+  if (!o) return out;
+  for (const [k, val] of Object.entries(o)) {
+    if ((v.state_skip || []).includes(k) || val == null) continue;
+    if (typeof val === "boolean") out.set(k, val ? "1" : "0");
+    else if (typeof val === "string" || typeof val === "number") out.set(k, String(val));
+    else if (val instanceof Set || Array.isArray(val)) { if ([...val].every((x) => typeof x !== "object")) out.set(k, [...val].join(",")); }
+  }
+  return out;
+}
+function applyParams(tab, params) {
+  const v = viewOf(tab), o = v?.state && state[v.state];
+  if (!o) return false;
+  for (const [k, cur] of Object.entries(o)) {
+    if ((v.state_skip || []).includes(k)) continue;
+    const has = params.has(k), raw = params.get(k);
+    if (typeof cur === "boolean") o[k] = raw === "1";
+    else if (cur instanceof Set) o[k] = new Set(raw ? raw.split(",") : []);
+    else if (Array.isArray(cur)) o[k] = raw ? raw.split(",") : [];
+    else if (typeof cur === "number") { if (has) o[k] = +raw; }
+    else if (cur == null || typeof cur === "string") o[k] = has ? raw : null;
+  }
+  return true;
+}
+function currentHash() {
+  let path = state.tab;
+  const cur = state.current;
+  if (state.tab === "chat" && cur) {
+    const live = cur.id && state.live.find((x) => x.id === cur.id);
+    path += "/" + (cur.past || live?.sdkSessionId || cur.id);
+  }
+  const q = pageParams(state.tab);
+  if ($("#drawer").classList.contains("open")) { // some buttons just slide the panel shut; only an open panel goes in the URL
+    if (state.drawer?.file) q.set("_file", state.drawer.file);
+    if (state.drawer?.ent) q.set("_ent", state.drawer.ent);
+  }
+  const qs = q.toString();
+  return "#" + path + (qs ? "?" + qs : "");
+}
+function syncURL(push) {
+  if (restoring || !state.views.length) return;
+  const hash = currentHash();
+  if (hash === location.hash) return;
+  history[push ? "pushState" : "replaceState"](null, "", hash);
+}
+async function applyURL() {
+  const [path, qs = ""] = decodeURIComponent(location.hash.slice(1)).split("?");
+  const [tab, key] = path.split("/");
+  const params = new URLSearchParams(location.hash.slice(1).split("?")[1] || "");
+  restoring = true;
+  try {
+    state.tab = tab && (tab === "chat" || viewOf(tab)) ? tab : store.get("tab", "today");
+    if (state.tab === "chat") {
+      const live = key && state.live.find((x) => x.id === key || x.sdkSessionId === key);
+      const past = !live && key && /^[0-9a-f-]{36}$/.test(key) ? key : null;
+      state.current = live ? { id: live.id } : past ? { past, title: state.past.find((p) => p.sessionId === past)?.title || "以前嘅 session" } : null;
+    }
+    if (!applyParams(state.tab, params) && [...params.keys()].some((k) => !k.startsWith("_"))) pending[state.tab] = params;
+    const file = params.get("_file"), ent = params.get("_ent");
+    if (ent && state.index) openEntity(ent);
+    else if (file) openFile(file);
+    else { state.drawer = null; $("#drawer").classList.remove("open"); }
+    markNav();
+    await renderTab();
+  } finally { restoring = false; }
+}
+window.addEventListener("popstate", applyURL);
+// after any click / pick / typing, the page state may have changed: record it (typing replaces instead of piling up history)
+for (const [type, push] of [["click", true], ["change", true], ["input", false]])
+  document.addEventListener(type, () => setTimeout(() => syncURL(push), 0), true);
 
 // Help text stays out of the way: page hints collapse behind an ⓘ beside the page title.
 function tidy(box) {
@@ -492,6 +603,7 @@ let renderSeq = 0;
 async function renderTab() {
   const el = $("#view");
   const seq = ++renderSeq;
+  state.dES?.close();
   if (state.tab === "chat") return renderChat(el);
   state.es?.close();
   const v = state.views.find((x) => x.id === state.tab) || state.views[0];
@@ -504,11 +616,51 @@ async function renderTab() {
     const ld = loading(`載入緊「${v.name}」…`);
     el.replaceChildren(ld, box);
     await mod.render(box, makeCtx());
+    if (pending[v.id] && applyParams(v.id, pending[v.id])) { // first visit from a link: page state now exists, fill it and draw again
+      delete pending[v.id];
+      if (seq !== renderSeq) return;
+      box.replaceChildren(); await mod.render(box, makeCtx());
+    }
     ld.remove();
     tidy(box);
   } catch (e) {
     el.replaceChildren(h("div", { class: "view-pad" }, h("div", { class: "card" }, h("h4", {}, `「${v.name}」畫面出錯`), h("pre", { class: "small" }, String(e.stack || e)))));
   }
+}
+
+// ---------------- plan usage (sidebar, every page) ----------------
+async function refreshUsage(fresh) {
+  const u = await api("/api/usage" + (fresh ? "?fresh=1" : ""), undefined, { quiet: true }).catch(() => null);
+  const box = $("#usage");
+  if (!u || u.unavailable || u.error) { box.replaceChildren(u?.error ? h("div", { class: "small muted" }, "用量讀唔到") : ""); return; }
+  const when = (iso) => { if (!iso) return ""; const d = new Date(iso), ms = d - Date.now();
+    return ms < 864e5 ? `${Math.max(0, Math.floor(ms / 36e5))} 粒鐘 ${Math.max(0, Math.round((ms % 36e5) / 6e4))} 分後重設` : `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")} 重設`; };
+  const row = (label, w) => w && h("div", { class: "usage-row", title: when(w.resets) },
+    h("div", { class: "usage-top" }, h("span", {}, label), h("b", {}, `${Math.round(w.pct)}%`)),
+    h("div", { class: "usage-bar " + (w.pct >= 90 ? "bad" : w.pct >= 70 ? "warn" : "") }, h("div", { style: `width:${Math.min(100, w.pct)}%` })),
+    h("div", { class: "small muted" }, when(w.resets)));
+  box.replaceChildren(...[row("⏱️ 5 小時", u.five_hour), row("📅 本週", u.week)].filter(Boolean));
+}
+$("#usage").onclick = () => refreshUsage(true);
+
+// ---------------- 🪞 author lens button (sidebar, every page) ----------------
+// shows how many of the author's own lines were recorded since the last update; one press updates the model now
+let lensPoll = null;
+async function refreshLens() {
+  const s = await api("/api/lens", undefined, { quiet: true }).catch(() => null);
+  const box = $("#lens");
+  if (!s) return box.replaceChildren();
+  const when = s.updated ? new Date(s.updated).toLocaleString("zh-HK", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "未試過";
+  const btn = h("button", { class: "small" + (s.fresh && !s.running ? " primary" : ""), disabled: s.running || !s.fresh,
+    title: "用你上次更新之後新記錄嘅說話，即刻更新「你點樣問嘢」嘅模型（會用少少用量）",
+    onclick: async () => { await api("/api/lens", {}); toast("更新緊你嘅問法模型…"); refreshLens(); } },
+    s.running ? "更新緊…" : s.fresh ? `🪞 用 ${s.fresh} 句新說話更新` : "🪞 冇新說話");
+  box.replaceChildren(
+    h("div", { class: "lens-top" }, h("span", {}, "我嘅問法模型"), s.exists ? h("button", { class: "linkish", onclick: () => openFile("canon/_working/author_voice/AUTHOR_LENS.md") }, "睇") : null),
+    h("div", { class: "small muted" }, `已記 ${s.total} 句 · 上次更新：${when}`),
+    ...(s.error ? [h("div", { class: "small", style: "color:var(--red)" }, "上次失敗：" + s.error.slice(0, 80))] : []), btn);
+  clearTimeout(lensPoll);
+  if (s.running) lensPoll = setTimeout(async () => { await refreshLens(); const n = await api("/api/lens", undefined, { quiet: true }).catch(() => null); if (n && !n.running && !n.error) toast("問法模型更新好咗"); }, 5000);
 }
 
 async function init() {
@@ -524,13 +676,14 @@ async function init() {
   $("#new-btn").onclick = () => launch();
   $("#search-btn").onclick = () => entityUI().search();
   modelSelect(store.get("model", ""), (m) => { store.set("model", m); toast(m ? `新對話預設用 ${m}` : "新對話用預設 model"); }).then((sel) => { sel.title = "新開對話預設用邊個 model"; $("#model-default").replaceWith(sel); sel.id = "model-default"; });
+  { const sel = effortSelect(store.get("effort", ""), (e) => { store.set("effort", e); toast(e ? `新對話預設思考深度：${effortLabel(e)}` : "新對話用預設思考深度"); });
+    sel.title = "新開對話預設嘅思考深度（effort）"; sel.id = "effort-default"; $("#effort-default").replaceWith(sel); }
   await Promise.all([refreshSessions(), loadIndex()]);
-  const [hashTab, hashId] = location.hash.slice(1).split("/");
-  if (hashTab) state.tab = hashTab; // bookmarkable: /#beats, /#docmap, /#chat/<session id>
-  if (hashId) state.current = { id: hashId };
-  if (state.tab === "chat" && !state.current) state.tab = "today";
-  switchTab(state.tab);
+  if (location.hash.length > 1) await applyURL();
+  else { restoring = false; markNav(); renderTab(); syncURL(false); }
   setInterval(refreshSessions, 3000);
+  refreshLens(); setInterval(() => { if (!document.hidden) refreshLens(); }, 60000);
+  refreshUsage(); setInterval(() => { if (!document.hidden) refreshUsage(); }, 120000);
   setInterval(() => { if (state.tab !== "chat" && !document.hidden) loadIndex(); }, 30000);
 }
 init();

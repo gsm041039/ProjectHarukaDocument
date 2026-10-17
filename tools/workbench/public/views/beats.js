@@ -7,7 +7,7 @@ export function render(el, ctx) {
   const data = state.index?.beats;
   if (!data?.boards?.length) return el.append(h("div", { class: "card empty-start" }, h("div", { class: "mascot" }, "🎬"), h("h3", {}, "未有 Beat 層"),
     h("button", { class: "primary", onclick: () => start({ type: "new-beat", title: "開始做 Beat 層（照 layer gate，上層要先批）" }) }, "✨ 開始做 Beat 層")));
-  const pick = (state.beatPick ||= { track: data.tracks[0], file: null, old: false });
+  const pick = (state.beatPick ||= { track: data.tracks[0], file: null, old: false, view: "board" });
   if (!data.tracks.includes(pick.track)) pick.track = data.tracks[0];
   const inTrack = data.boards.filter((b) => b.track === pick.track && (pick.old || b.current === "CURRENT" || b.file === pick.file));
   const src = inTrack.find((b) => b.file === pick.file) || inTrack[0] || data.boards.find((b) => b.track === pick.track);
@@ -95,6 +95,28 @@ export function render(el, ctx) {
     picked.clear(); rerender();
   };
 
+  // 時間線：所有 beat 由上到下嘅 sequence 順序排成一條左→右嘅故事流，睇到整體節奏同埋 R（有外部觸發）／N（底色）嘅分佈
+  const timeline = () => {
+    const rail = h("div", { class: "tl-rail" });
+    seqs.forEach((s, si) => {
+      const live = s.beats.filter((b) => !b.removed);
+      if (!live.length) return;
+      rail.append(h("div", { class: "tl-seg" + (si % 2 ? " alt" : "") },
+        h("div", { class: "tl-seg-h" }, h("b", {}, s.id), h("span", { class: "small muted" }, s.title)),
+        h("div", { class: "tl-beats" }, ...live.map((b) => h("div", {
+          class: `tl-beat s-${b.status}` + (b.pending ? " pending" : ""), title: `${b.id} ${b.title}\n${b.deep?.function || b.summary || ""}`,
+          onclick: () => (src.current === "CURRENT" ? openEntity(`BEAT:${src.file}#${b.id}`) : openFile(b.deep?.file || src.file)),
+        },
+          h("div", { class: "tl-top" }, h("span", { class: "tl-id" }, b.id), b.kind ? h("span", { class: "tl-kind" + (b.kind === "R" ? " r" : "") }, b.kind) : null),
+          h("div", { class: "tl-title" }, b.title))))));
+    });
+    const n = seqs.reduce((a, s) => a + s.beats.filter((b) => !b.removed).length, 0);
+    const r = seqs.reduce((a, s) => a + s.beats.filter((b) => !b.removed && b.kind === "R").length, 0);
+    return h("div", {},
+      h("div", { class: "hint" }, `成個故事流由左到右：每條 sequence 一段，入面嘅 beat 跟順序。色＝狀態（藍 DRAFT／橙 PROVISIONAL／紅 要 revalidate／綠 已批）；R＝有外部觸發，N＝底色／過渡。撳一個 beat 睇佢嘅關聯。而家共 ${n} 個 beat，其中 ${r} 個有外部觸發。時間線睇節奏；要拖卡／合併就切返「看板」。`),
+      rail);
+  };
+
   const trackCount = (tr) => data.boards.filter((b) => b.track === tr && b.current === "CURRENT").length;
   const docs = data.boards.filter((b) => b.track === pick.track && (pick.old || b.current === "CURRENT"));
   const select = h("select", { onchange: (e) => { pick.file = e.target.value; picked.clear(); rerender(); } },
@@ -103,13 +125,17 @@ export function render(el, ctx) {
     h("div", { class: "toolbar" },
       ...data.tracks.map((tr) => h("button", { class: "chip" + (tr === pick.track ? " on" : ""), onclick: () => { pick.track = tr; pick.file = null; picked.clear(); rerender(); } }, `${tr}（${trackCount(tr)}）`)),
       h("div", { style: "flex:1" }),
+      h("div", { class: "seg-toggle" },
+        h("button", { class: pick.view !== "timeline" ? "on" : "", onclick: () => { pick.view = "board"; rerender(); } }, "🗂️ 看板"),
+        h("button", { class: pick.view === "timeline" ? "on" : "", onclick: () => { pick.view = "timeline"; rerender(); } }, "📈 時間線")),
       select,
       h("label", { style: "font-weight:700" }, h("input", { type: "checkbox", checked: pick.old, onchange: (e) => { pick.old = e.target.checked; rerender(); } }), " 顯示舊版")),
     h("div", { class: "toolbar" }, h("h2", { style: "margin:0;flex:1" }, src.title, src.current !== "CURRENT" ? h("span", { class: "pill warn", style: "margin-left:8px;vertical-align:middle" }, CUR_LABEL[src.current] || src.current) : null),
       picked.size >= 2 ? h("button", { class: "primary", onclick: merge }, `合併已揀嘅 ${picked.size} 個`) : null,
       picked.size ? h("button", { onclick: () => { picked.clear(); rerender(); } }, "取消揀選") : null,
       h("button", { onclick: () => openFile(src.file) }, "睇原文")),
-    h("div", { class: "hint" },
-      `由 LAYER_MANIFEST 自動生成：track 跟資料夾分，每份登記咗嘅 Beat 層文件一塊板；逐 beat 詳細設計會自動對返上層。拖卡排位；剔兩張或以上可以合併。所有改動排喺右下角，送出先交畀 Claude。顏色：藍＝DRAFT、橙＝PROVISIONAL、紅＝要 revalidate、綠＝已批。`),
-    h("div", { class: "board" }, ...seqs.map(column)));
+    pick.view === "timeline" ? timeline() : h("div", {},
+      h("div", { class: "hint" },
+        `由 LAYER_MANIFEST 自動生成：track 跟資料夾分，每份登記咗嘅 Beat 層文件一塊板；逐 beat 詳細設計會自動對返上層。拖卡排位；剔兩張或以上可以合併。所有改動排喺右下角，送出先交畀 Claude。顏色：藍＝DRAFT、橙＝PROVISIONAL、紅＝要 revalidate、綠＝已批。`),
+      h("div", { class: "board" }, ...seqs.map(column))));
 }

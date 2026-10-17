@@ -17,49 +17,59 @@
     "name": "未完成事項",
     "icon": "📝",
     "order": 2,
-    "group": "工作"
+    "group": "工作",
+    "state": "todoFilter",
+    "state_skip": [
+      "open"
+    ]
   },
   {
     "id": "beats",
     "name": "Beat 板",
     "icon": "🎬",
     "order": 3,
-    "group": "故事"
+    "group": "故事",
+    "state": "beatPick"
   },
   {
     "id": "discuss",
     "name": "自動討論",
     "icon": "🤖",
     "group": "故事",
-    "order": 3.5
+    "order": 3.5,
+    "state": "discuss"
   },
   {
     "id": "questions",
     "name": "問題",
     "icon": "❓",
     "order": 4,
-    "group": "故事"
+    "group": "故事",
+    "state": "qFilter"
   },
   {
     "id": "decisions",
     "name": "決定",
     "icon": "⚖️",
     "order": 5,
-    "group": "故事"
+    "group": "故事",
+    "state": "dFilter"
   },
   {
     "id": "matrix",
     "name": "角度矩陣",
     "icon": "🧩",
     "order": 6,
-    "group": "故事"
+    "group": "故事",
+    "state": "mFilter"
   },
   {
     "id": "voice",
     "name": "對白工作坊",
     "icon": "🗣️",
     "order": 7,
-    "group": "故事"
+    "group": "故事",
+    "state": "voicePick"
   },
   {
     "id": "characters",
@@ -73,21 +83,27 @@
     "name": "美術",
     "icon": "🖼️",
     "order": 9,
-    "group": "素材"
+    "group": "素材",
+    "state": "artPick"
   },
   {
     "id": "scenes",
     "name": "場景圖",
     "icon": "🎞️",
     "order": 10,
-    "group": "素材"
+    "group": "素材",
+    "state": "sceneFilter"
   },
   {
     "id": "docs",
     "name": "文件結構",
     "icon": "📚",
     "order": 11,
-    "group": "文件"
+    "group": "文件",
+    "state": "docsPick",
+    "state_skip": [
+      "open"
+    ]
   },
   {
     "id": "changes",
@@ -101,6 +117,14 @@
     "name": "文件關係圖",
     "icon": "🗺️",
     "order": 13,
-    "group": "文件"
+    "group": "文件",
+    "state": "mapOpt"
+  },
+  {
+    "id": "flow",
+    "name": "流程",
+    "icon": "🛤️",
+    "order": 0.5,
+    "state": "flowPick"
   }
 ]

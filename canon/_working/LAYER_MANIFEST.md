@@ -33,3 +33,5 @@
 | `canon/_working/character-voice-workshops/misao_voice_discovery.md` | dialogue | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/character-voice-bibles/misao_voice_bible_DRAFT.md` | dialogue | `canon/_working/character-voice-workshops/misao_voice_discovery.md` | CURRENT |
 | `canon/_working/character-voice-workshops/shion_voice_discovery.md` | dialogue | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
+| `canon/_working/story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` | other | `canon/03_characters/ayakomoji_misao.md` | CURRENT |
+| `canon/_working/story_construction/MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md` | other | `canon/_working/story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` | CURRENT |

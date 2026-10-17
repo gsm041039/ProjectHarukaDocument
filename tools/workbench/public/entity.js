@@ -114,6 +114,7 @@ export function createEntityUI(ctx) {
     const e = ent(id);
     if (!e) return toast("搵唔到：" + id);
     if (push) history.push(id);
+    state.drawer = { ent: id }; // goes into the URL (app.js routing)
     const [ic, tname] = TYPES[e.type] || ["•", e.type];
     const rels = (e.rel || []).map(ent).filter(Boolean);
     const groups = TYPE_ORDER.map((t) => [t, rels.filter((r) => r.type === t)]).filter(([, xs]) => xs.length);

@@ -37,7 +37,7 @@ export function createSmartStart(ctx) {
       const goal = extra.value.trim();
       const text = (skill ? `請用 \`${skill}\` skill：` : "") + prompt.replaceAll("{goal}", goal || item.title) + (goal && !prompt.includes("{goal}") ? `\n補充：${goal}` : "") + `\n\n相關：${where}`;
       close();
-      newSession(text, `${label}：${item.title}`.slice(0, 28));
+      newSession(text, `${label}：${item.title}`.slice(0, 28), undefined, goal);
     };
 
     const draw = () => {

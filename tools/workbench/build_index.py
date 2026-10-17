@@ -803,7 +803,7 @@ def parse_skills():
 
 
 STAGE_HEAD = re.compile(r"^(#{2,3}) +((?:Stage|Phase|階段|P)\s?\d+(?:\.\d+)?[A-Z]?(?:-\d+)?)\s*[—:：-]\s*(.+?)\s*$", re.M)
-STAGE_STATUS = [("DONE", r"\bDONE\b|COMPLETE|已完成|✅"), ("IN_PROGRESS", r"IN[_ ]PROGRESS|進行中|CURRENT NEXT|EXPLORING"),
+STAGE_STATUS = [("DONE", r"\bDONE(?:_PROVISIONAL)?\b|COMPLETE|已完成|✅"), ("IN_PROGRESS", r"IN[_ ]PROGRESS|進行中|CURRENT NEXT|EXPLORING"),
                 ("AWAITING", r"AWAITING|等作者|待作者批"), ("BLOCKED", r"BLOCKED|卡住"), ("DEFERRED", r"DEFERRED|PARKED|稍後|押後|CUT"),
                 ("TODO", r"\bTODO\b|NOT STARTED|未開始")]
 
@@ -848,11 +848,16 @@ def parse_pipelines():
             title = strip_md(re.sub(r"`[^`]*`|[◆（(].*$", "", m.group(3))).strip() or m.group(3)
             stages.append({"code": m.group(2), "title": title[:60], "status": status, "author_gate": "◆" in m.group(3),
                            "line": text[: m.start()].count("\n") + 1,
-                           "skills": [s for s in skill_names if s in body][:6], "note": strip_md(body.strip().splitlines()[0].lstrip("#> -") if body.strip() else "")[:200]})
+                           "skills": [s for s in skill_names if s in body][:6],
+                           # what the step involves: its checklist lines and its 產出 (output) line
+                           "checks": [{"done": c[0].lower() == "x", "text": strip_md(c[1])[:160]} for c in re.findall(r"^\s*[-*] \[( |x|X)\] (.+)$", body, re.M)][:12],
+                           "outputs": next((strip_md(o)[:200] for o in re.findall(r"產出[：:]\s*(.+)", body)), ""), "note": strip_md(body.strip().splitlines()[0].lstrip("#> -") if body.strip() else "")[:200]})
         if not any(s["status"] for s in stages):
             continue
         h1 = re.search(r"^# (.+)$", text, re.M)
-        active = any(s["status"] in ("IN_PROGRESS", "AWAITING", "BLOCKED") for s in stages)
+        # active = something is under way, or it has started but isn't finished (a TODO step right after DONE ones counts)
+        active = any(s["status"] in ("IN_PROGRESS", "AWAITING", "BLOCKED") for s in stages) or (
+            any(s["status"] == "DONE" for s in stages) and any(s["status"] in ("TODO", "") for s in stages))
         title = strip_md(h1.group(1))[:100] if h1 else f.stem
         folder = rel(f.parent)
         # short display name: the folder's label (e.g. demo_pilot → Demo 試點), else the title minus generic words

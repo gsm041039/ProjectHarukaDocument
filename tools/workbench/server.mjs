@@ -6,7 +6,7 @@ import path from "node:path";
 import { spawn } from "node:child_process";
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
-import { query, listSessions, getSessionMessages } from "@anthropic-ai/claude-agent-sdk";
+import { query, listSessions, getSessionMessages, renameSession } from "@anthropic-ai/claude-agent-sdk";
 import { createDiscussions } from "./discuss.mjs";
 
 const PORT = Number(process.env.WORKBENCH_PORT || 4317);
@@ -28,6 +28,8 @@ const askCodes = (qs) => [...new Set((qs || []).flatMap((q) => [q.header, q.ques
 const DANGER = /\brm\s+-\w*[rf]|\bgit\s+(push|reset\s+--hard|clean|checkout\s+--|branch\s+-D)|Remove-Item|\bdel\s|\brmdir\b|\bformat\b/i;
 
 const sessions = new Map(); // local id -> session
+// first lines of the auto-discussion / discussion-setup prompts (discuss.mjs header, planner below)
+const BACKGROUND_PROMPT = /^\s*(你喺一個「AI 編劇室」自動討論|你係 Haruka Workbench 嘅「自動討論設定助手」)/;
 // which conversation read / changed which file (survives restarts): { sdkSessionId: { title, t, files: { "canon/x.md": "read"|"edit" } } }
 const TOUCHED_FILE = path.join(REPO, "canon/_working/.tmp/workbench/session_files.json");
 let touched = {};
@@ -146,7 +148,7 @@ links 只放你確認存在、真係相關嘅（可以沿用種子嘅）。`;
   let text = "";
   for await (const m of query({ prompt, options: {
     cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, model: cfg.planner_model || undefined,
-    allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12,
+    allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12, persistSession: false,
   } })) if (m.type === "result") text = m.result || text;
   const raw = (text.match(/```json\s*([\s\S]*?)```/) || text.match(/(\{[\s\S]*\})/) || [])[1];
   const plan = JSON.parse(raw);
@@ -154,10 +156,10 @@ links 只放你確認存在、真係相關嘅（可以沿用種子嘅）。`;
   return plan;
 }
 
-function createSession({ title, resume, task, model, agentCap }) {
+function createSession({ title, resume, task, model, effort, agentCap }) {
   const id = Math.random().toString(36).slice(2, 10);
   const s = {
-    id, title: title || "新 task", status: "idle", sdkSessionId: resume || null, taskId: task || null, model: model || "",
+    id, title: title || "新 task", status: "idle", sdkSessionId: resume || null, taskId: task || null, model: model || "", effort: effort || "",
     events: [], clients: new Set(), pending: new Map(), toolNames: new Map(), inbox: inbox(), q: null,
     agentCap: Number.isFinite(+agentCap) && agentCap !== "" && agentCap != null ? +agentCap : (readConfig().agent_cap_default ?? 2), agentsUsed: 0,
   };
@@ -186,6 +188,7 @@ function createSession({ title, resume, task, model, agentCap }) {
       }] }] },
       ...(resume ? { resume } : {}),
       ...(model ? { model } : {}),
+      ...(effort ? { effort } : {}),
       canUseTool: async (toolName, input, { signal }) => {
         if (toolName === "AskUserQuestion") {
           const codes = askCodes(input.questions);
@@ -245,6 +248,75 @@ function createSession({ title, resume, task, model, agentCap }) {
     setStatus(s, "closed");
   })();
   return s;
+}
+
+// What the author typed in the web (not button prompts) → the same repo log the VSCode hook writes
+// (.claude/hooks/log_author_prompt.py), read by the author-lens skill. In the repo so it follows the author between computers.
+const AUTHOR_LOG = path.join(REPO, "canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl");
+function logAuthor(text, session, where) {
+  text = String(text || "").trim();
+  if (!text) return;
+  try {
+    fs.mkdirSync(path.dirname(AUTHOR_LOG), { recursive: true });
+    fs.appendFileSync(AUTHOR_LOG, JSON.stringify({ t: new Date().toISOString(), src: "workbench" + (where ? ":" + where : ""), session: session || "", text }) + "\n");
+  } catch {}
+}
+
+// 🪞 Author lens: the author presses one button → the model of how they question ideas (AUTHOR_LENS.md) is
+// updated from the lines recorded since the last update. One-shot agent that may only write that one file.
+const LENS_FILE = path.join(REPO, "canon/_working/author_voice/AUTHOR_LENS.md");
+const LENS_STATE = path.join(REPO, "canon/_working/author_voice/lens_state.json");
+const lens = { running: false, error: "", startedAt: 0 };
+const readLines = () => { try { return fs.readFileSync(AUTHOR_LOG, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)); } catch { return []; } };
+const lensState = () => { try { return JSON.parse(fs.readFileSync(LENS_STATE, "utf8")); } catch { return { processed: 0, updated: null }; } };
+function lensStatus() {
+  const total = readLines().length, st = lensState();
+  return { total, processed: Math.min(st.processed || 0, total), fresh: Math.max(0, total - (st.processed || 0)), updated: st.updated, running: lens.running, error: lens.error, exists: fs.existsSync(LENS_FILE) };
+}
+async function updateLens() {
+  if (lens.running) return;
+  const rows = readLines(), st = lensState(), fresh = rows.slice(st.processed || 0);
+  if (!fresh.length) return;
+  Object.assign(lens, { running: true, error: "", startedAt: Date.now() });
+  const lines = fresh.map((r, i) => `[${(st.processed || 0) + i + 1}] ${String(r.t).slice(0, 10)} ${r.src}: ${String(r.text).replace(/\s+/g, " ").slice(0, 600)}`).join("\n");
+  const prompt = `你係 author-lens skill。先 Read .claude/skills/author-lens/SKILL.md 照佢嘅方法同界線做。
+${fs.existsSync(LENS_FILE) ? "現有模型喺 canon/_working/author_voice/AUTHOR_LENS.md，先 Read 佢，喺上面增量更新（保留仍成立嘅 pattern，加新證據，新 pattern 另開，同舊嘢矛盾就標出嚟）。" : "未有模型，請新建 canon/_working/author_voice/AUTHOR_LENS.md。"}
+下面係上次更新之後新記錄、作者親手打嘅 ${fresh.length} 句（方括號係行號，可以用嚟做證據引用）：
+${lines}
+
+要求：只取創作／設計上嘅問法、關注角度、否決訊號、深度控制；題外話（整網頁、工具、私事）唔入模型；唔抄措辭同粗口；每個 pattern 寫「證據（行號＋日期）」同「下次點用呢個角度挑戰方案」。檔頂寫一句最後更新日期同累計句數 ${rows.length}。只可以寫呢一個檔。完成後用一兩句白話講改咗咩。`;
+  try {
+    let summary = "";
+    for await (const m of query({ prompt, options: {
+      cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, persistSession: false, maxTurns: 20,
+      model: readConfig().lens_model || undefined, allowedTools: ["Read", "Grep", "Glob", "Write", "Edit"],
+      disallowedTools: ["Bash", "PowerShell", "Agent", "Task", "NotebookEdit", "WebFetch", "WebSearch"],
+      canUseTool: async (tool, input) => (["Write", "Edit"].includes(tool) && path.resolve(REPO, String(input.file_path || "")) !== LENS_FILE)
+        ? { behavior: "deny", message: "只可以寫 canon/_working/author_voice/AUTHOR_LENS.md" } : { behavior: "allow", updatedInput: input },
+    } })) if (m.type === "result") { summary = m.result || ""; if (m.subtype !== "success") throw new Error(summary || m.subtype); }
+    fs.writeFileSync(LENS_STATE, JSON.stringify({ processed: rows.length, updated: new Date().toISOString(), summary: summary.slice(0, 500) }, null, 1));
+  } catch (err) { lens.error = String(err?.message || err).slice(0, 300); }
+  lens.running = false;
+}
+
+// Plan usage (5-hour / weekly windows), same data as /usage. Experimental SDK call: asks an open conversation,
+// else a throwaway one that never sends a message (costs nothing). Cached a minute; errors just hide the meter.
+let usageCache = { t: 0, data: null }, usageBusy = null;
+async function getUsage(force) {
+  if (!force && Date.now() - usageCache.t < 60000) return usageCache.data;
+  return (usageBusy ||= (async () => {
+    const live = [...sessions.values()].find((s) => s.status !== "closed");
+    let q = live?.q, temp = null;
+    if (!q) temp = q = query({ prompt: (async function* () { await new Promise(() => {}); })(), options: { cwd: REPO, settingSources: [], persistSession: false } });
+    try {
+      const u = await q.usage_EXPERIMENTAL_MAY_CHANGE_DO_NOT_RELY_ON_THIS_API_YET({ skipBehaviors: true });
+      const win = (w) => (w && w.utilization != null ? { pct: w.utilization, resets: w.resets_at } : null);
+      usageCache = { t: Date.now(), data: u.rate_limits_available ? { plan: u.subscription_type, five_hour: win(u.rate_limits?.five_hour), week: win(u.rate_limits?.seven_day) } : { unavailable: true } };
+    } catch (err) {
+      usageCache = { t: Date.now(), data: { error: String(err?.message || err).slice(0, 200) } };
+    } finally { temp?.close(); usageBusy = null; }
+    return usageCache.data;
+  })());
 }
 
 function sendMessage(s, text) {
@@ -394,7 +466,7 @@ const server = http.createServer(async (req, res) => {
         if (!d) return json(res, 404, { error: "no discussion" });
         if (parts[3] === "events") {
           res.writeHead(200, { "content-type": "text/event-stream", "cache-control": "no-cache", connection: "keep-alive" });
-          res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice, from: d.from || "" })}\n\n`);
+          res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice, from: d.from || "", items: d.items || [], actions: d.actions || [] })}\n\n`);
           for (const ev of d.events) res.write(`data: ${JSON.stringify(ev)}\n\n`);
           d.clients.add(res);
           req.on("close", () => d.clients.delete(res));
@@ -402,6 +474,7 @@ const server = http.createServer(async (req, res) => {
         }
         if (parts[3] === "control" && req.method === "POST") {
           const b = await readBody(req);
+          if (b.action === "say") logAuthor(b.text, "DISC:" + d.id, "discussion");
           discussions.control(d, String(b.action || ""), b.text, b);
           return json(res, 200, { ok: true, state: d.state });
         }
@@ -421,6 +494,12 @@ const server = http.createServer(async (req, res) => {
         }
         try { return json(res, 200, JSON.parse(fs.readFileSync(file, "utf8"))); } catch { return json(res, 200, []); }
       }
+
+      if (url.pathname === "/api/lens") {
+        if (req.method === "POST") { updateLens(); return json(res, 200, lensStatus()); }
+        return json(res, 200, { ...lensStatus(), summary: lensState().summary || "" });
+      }
+      if (url.pathname === "/api/usage") return json(res, 200, await getUsage(url.searchParams.has("fresh")));
 
       if (url.pathname === "/api/models") {
         // Ask a live session what this account can use; fall back to aliases Claude Code always understands.
@@ -450,9 +529,11 @@ const server = http.createServer(async (req, res) => {
       }
 
       if (url.pathname === "/api/sessions" && req.method === "GET") {
-        const live = [...sessions.values()].map(({ id, title, status, sdkSessionId, pending, taskId, model, activity, agentCap, agentsUsed }) => ({ id, title, status, sdkSessionId, taskId, model, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
-        const past = (await listSessions({ dir: REPO, limit: 40 }).catch(() => []))
-          .filter((p) => !live.some((l) => l.sdkSessionId === p.sessionId))
+        const live = [...sessions.values()].map(({ id, title, status, sdkSessionId, pending, taskId, model, effort, activity, agentCap, agentsUsed }) => ({ id, title, status, sdkSessionId, taskId, model, effort, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
+        // Older builds saved every auto-discussion turn as a session; skip those so they can't push real chats off the list.
+        const past = (await listSessions({ dir: REPO, limit: 400 }).catch(() => []))
+          .filter((p) => !live.some((l) => l.sdkSessionId === p.sessionId) && !BACKGROUND_PROMPT.test(p.firstPrompt || p.summary || ""))
+          .slice(0, 40)
           .map((p) => ({ sessionId: p.sessionId, title: p.customTitle || p.summary || p.sessionId, lastModified: p.lastModified }));
         // give backfilled file-touch records a readable conversation title
         let named = false;
@@ -464,6 +545,7 @@ const server = http.createServer(async (req, res) => {
       if (url.pathname === "/api/sessions" && req.method === "POST") {
         const body = await readBody(req);
         const s = createSession(body);
+        logAuthor(body.said, s.id, "new");
         if (body.resume) { // show what was said before, then a divider, before anything new streams in
           const old = historyEvents(await getSessionMessages(body.resume, { dir: REPO }).catch(() => []));
           if (old.length) s.events.unshift(...old, { kind: "note", text: "── 以上係之前嘅對話，由呢度繼續 ──" });
@@ -492,11 +574,12 @@ const server = http.createServer(async (req, res) => {
         if (req.method !== "POST") return json(res, 405, { error: "POST" });
         const body = await readBody(req);
         if (action === "agents") { s.agentCap = Math.max(0, Math.min(8, +body.cap || 0)); emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed }); return json(res, 200, { ok: true }); }
-        if (action === "message") { sendMessage(s, String(body.text || "")); return json(res, 200, { ok: true }); }
+        if (action === "message") { logAuthor(body.said, s.sdkSessionId || s.id); sendMessage(s, String(body.text || "")); return json(res, 200, { ok: true }); }
         if (action === "answer") {
           const resolve = s.pending.get(body.requestId);
           if (!resolve) return json(res, 404, { error: "no pending request" });
           s.pending.delete(body.requestId);
+          logAuthor(body.said, s.sdkSessionId || s.id, "answer");
           emit(s, { kind: "answered", requestId: body.requestId, result: body.result });
           setStatus(s, "running");
           resolve(body.result);
@@ -509,7 +592,18 @@ const server = http.createServer(async (req, res) => {
           emit(s, { kind: "model", model: s.model });
           return json(res, 200, { ok: true });
         }
-        if (action === "rename") { s.title = String(body.title || s.title); return json(res, 200, { ok: true }); }
+        if (action === "effort") {
+          s.effort = String(body.effort || "");
+          await s.q.applyFlagSettings({ effortLevel: s.effort || null }); // null = back to the model's default
+          emit(s, { kind: "effort", effort: s.effort });
+          return json(res, 200, { ok: true });
+        }
+        if (action === "rename") {
+          s.title = String(body.title || s.title);
+          // also save it in the transcript, so the past-session list keeps the title after a restart
+          if (s.sdkSessionId) await renameSession(s.sdkSessionId, s.title, { dir: REPO }).catch(() => {});
+          return json(res, 200, { ok: true });
+        }
         return json(res, 404, { error: "unknown action" });
       }
       return json(res, 404, { error: "unknown api" });

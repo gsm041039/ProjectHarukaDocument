@@ -17,7 +17,7 @@ export async function render(el, ctx) {
     const head = h("div", { class: "disc-head card" });
     const feed = h("div", { class: "disc-feed" });
     const ctrl = h("div", { class: "disc-ctrl card" });
-    el.append(h("div", { class: "toolbar" }, h("button", { class: "small", onclick: () => { f.id = null; rerender(); } }, "← 全部討論"), h("h2", { style: "margin:0;flex:1" }, "🤖 自動討論")), box);
+    el.append(h("div", { class: "toolbar" }, h("button", { class: "small", onclick: () => { f.id = null; f.focus = null; rerender(); } }, "← 全部討論"), h("h2", { style: "margin:0;flex:1" }, "🤖 自動討論")), box);
     box.append(head, feed, ctrl);
     let cfg = {}, cost = 0, st = "running", consensus = null, round = 0;
     const control = (action, text, extra = {}) => api(`/api/discuss/${f.id}/control`, { action, text, ...extra }).catch((e) => toast(e.message));
@@ -52,8 +52,11 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
         h("span", { class: "small", style: "font-weight:800" }, `第 ${round}／${cfg.maxRounds || "?"} 輪`),
         h("div", { class: "meter", title: "主持人評嘅共識度" }, h("div", { style: `width:${Math.round((consensus ?? 0) * 100)}%` })),
         h("span", { class: "small muted" }, consensus == null ? "共識：未評" : `共識 ${Math.round(consensus * 100)}%`),
-        h("span", { class: "small muted" }, `US$${cost.toFixed(2)}／${cfg.budget || "?"}`)), usedBox);
-    const say = h("input", { type: "text", placeholder: "插話：例如「唔好再傾 B3，集中傾 B5」", style: "flex:1" });
+        synth ? h("button", { class: "small primary", onclick: () => { f.focus = "summary"; showSynth(); } }, "📋 睇總結") : null), usedBox);
+    let synthEl = null;
+    const showSynth = () => synthEl?.scrollIntoView({ behavior: "smooth", block: "start" });
+    const say = h("input", { type: "text", placeholder: "插話：例如「唔好再傾 B3，集中傾 B5」（Enter 送出）", style: "flex:1" });
+    say.onEnter = () => { if (say.value.trim()) { control("say", say.value.trim()); say.value = ""; } };
     const drawCtrl = () => ctrl.replaceChildren(...(["done", "stopped"].includes(st) ? [h("span", { class: "muted", style: "flex:1" }, "討論已經完"), h("button", { class: "small primary", onclick: toChat }, "💬 轉去對話")] : [
       ctx.mic?.(say), say, h("button", { class: "small primary", onclick: () => { if (say.value.trim()) { control("say", say.value.trim()); say.value = ""; } } }, "插話"),
       st === "paused" ? h("button", { class: "small", onclick: () => control("resume") }, "▶ 繼續") : h("button", { class: "small", onclick: () => control("pause") }, "⏸ 暫停"),
@@ -101,14 +104,54 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
           ev.next_focus ? h("div", { class: "small muted" }, "下一輪焦點：" + ev.next_focus) : null));
       }
       if (ev.kind === "need_author") {
-        const ans = h("input", { type: "text", placeholder: "你嘅答案（可以講）", style: "flex:1" });
+        const ans = h("input", { type: "text", placeholder: "你嘅答案（可以講；Enter 送出）", style: "flex:1" });
+        ans.onEnter = () => ans.value.trim() && control("say", ans.value.trim());
         add(h("div", { class: "card ask need-card", style: "padding:14px" }, h("b", {}, "🙋 主持人想你拍板：" + ev.question),
           h("div", { class: "toolbar", style: "margin:8px 0 0" }, ctx.mic?.(ans), ans,
             h("button", { class: "small primary", onclick: () => ans.value.trim() && control("say", ans.value.trim()) }, "答"),
             h("button", { class: "small", onclick: () => control("say", "你哋自己判斷，標明係假設") }, "你哋自己判斷"))));
       }
-      if (ev.kind === "synthesis") add(synthesisCard(ev, cfg));
+      if (ev.kind === "synthesis") {
+        synthEl = synthesisCard(ev, cfg); add(synthEl); drawHead();
+        if (f.focus === "summary") setTimeout(showSynth, 50); // opened via 「睇總結」 or a summary link
+      }
       if (ev.kind === "error") add(h("div", { class: "msg error" }, "出錯：" + ev.message));
+    };
+
+    // every pick still goes through the normal gate in the chat (the summary is a DRAFT, not the author's approval)
+    const decide = (s, c, ask, title) => newSession(`以下係一場 AI 自動討論嘅總結（DRAFT，唔係我嘅批准）。題目：${c.topic}
+範圍：${c.range}
+
+${JSON.stringify(s, null, 1)}
+
+${ask}`, title.slice(0, 24));
+    const pickOpt = (s, c, o) => decide(s, c, `我傾向揀「${o.name}」。請按正常 gate 同我落實：先用白話講揀咗會改到乜、下游邊啲要重新核對、仲有咩要我決定，然後用選項卡問我確認；未確認唔好寫入 canon。`, "揀：" + o.name);
+    const talkQ = (s, c, q) => decide(s, c, `我想先傾呢條：「${q}」。請先讀相關文件，用白話講考慮方向同代價，然後用選項卡問我。`, "傾：" + q);
+    // 📋 per-item suggestions from the summary: the author ticks, then they go to the tray like the page's own buttons
+    // (the discussion agents never edit files; Claude handles the tray through the normal gate)
+    const itemActions = (s, c) => {
+      const items = c.items || [], allowed = c.actions || [];
+      const recs = (s.item_actions || []).filter((r) => items.some((x) => x.id === r.id));
+      if (!items.length || !recs.length) return null;
+      const label = (t) => allowed.find((a) => a.type === t)?.label || "保留";
+      const picks = new Map(recs.filter((r) => r.type !== "keep" && allowed.some((a) => a.type === r.type)).map((r) => [r.id, r.type]));
+      const run = h("button", { class: "small primary", onclick: () => {
+        if (!picks.size) return toast("未揀任何處理");
+        for (const [id, type] of picks) {
+          const it = items.find((x) => x.id === id), why = recs.find((r) => r.id === id)?.reason || "";
+          sendIntent({ type, target: id, payload: { ...it.payload, reason: why, from_discussion: c.topic.slice(0, 60) }, note: `${label(type)}：「${it.title.slice(0, 50)}」（自動討論建議：${why}）` });
+        }
+        toast(`${picks.size} 項已放入待送出，送出先交畀 Claude 處理`); run.disabled = true;
+      } }, "📤 執行揀咗嘅");
+      return h("div", { class: "synth-sec" }, h("b", {}, "📋 逐項建議（剔咗嘅先會做）"),
+        ...recs.map((r) => {
+          const it = items.find((x) => x.id === r.id);
+          return h("label", { class: "item-act" },
+            h("input", { type: "checkbox", checked: picks.has(r.id), disabled: r.type === "keep", onchange: (e) => (e.target.checked ? picks.set(r.id, r.type) : picks.delete(r.id)) }),
+            h("span", { class: "pill" + (r.type === "keep" ? "" : " warn") }, label(r.type)),
+            h("span", { style: "flex:1" }, h("b", {}, it.title.slice(0, 60)), h("div", { class: "small muted" }, r.reason || "")));
+        }),
+        h("div", { class: "actions" }, run));
     };
 
     const synthesisCard = (s, c) => h("div", { class: "card synth" },
@@ -116,10 +159,13 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
       h("div", {}, s.summary || ""),
       s.consensus?.length ? h("div", { class: "synth-sec" }, h("b", {}, "✅ 共識"), h("ul", {}, ...s.consensus.map((x) => h("li", {}, x)))) : null,
       s.options?.length ? h("div", { class: "synth-sec" }, h("b", {}, "🧭 候選"), ...s.options.map((o) => h("div", { class: "opt", style: "display:block;cursor:default" },
-        h("div", { class: "l" }, o.name, o.name === s.recommended ? h("span", { class: "pill accent", style: "margin-left:6px" }, "建議") : null),
+        h("div", { class: "l", style: "display:flex;align-items:center;gap:6px" }, o.name, o.name === s.recommended ? h("span", { class: "pill accent" }, "建議") : null,
+          h("button", { class: "small" + (o.name === s.recommended ? " primary" : ""), style: "margin-left:auto", title: "帶住總結去對話，照 gate 落實（唔會直接寫 canon）", onclick: () => pickOpt(s, c, o) }, "👉 揀呢個")),
         h("div", { class: "kv small" }, ...[["會發生咩", o.what_happens], ["點解", o.why], ["代價", o.cost], ["放棄咗", o.given_up]].filter(([, v]) => v).flatMap(([k, v]) => [h("div", { class: "k" }, k), h("div", {}, v)]))))) : null,
-      s.open_questions?.length ? h("div", { class: "synth-sec" }, h("b", {}, "🙋 要你決定"), h("ul", {}, ...s.open_questions.map((x) => h("li", {}, x)))) : null,
+      s.open_questions?.length ? h("div", { class: "synth-sec" }, h("b", {}, "🙋 要你決定"), h("ul", {}, ...s.open_questions.map((x) => h("li", {}, x, " ",
+        h("button", { class: "small", title: "開對話專門傾呢條", onclick: () => talkQ(s, c, x) }, "💬 傾呢條"))))) : null,
       s.risks?.length ? h("div", { class: "synth-sec" }, h("b", {}, "⚠️ 風險"), h("ul", {}, ...s.risks.map((x) => h("li", {}, x)))) : null,
+      itemActions(s, c),
       h("div", { class: "actions" },
         h("button", { class: "small", onclick: () => { f.draft = { topic: c.topic, range: c.range, stop: c.stop, links: c.links || [], skill: c.skill || "", skillChoice: "", context: (c.context ? c.context + "；" : "") + "上一輪討論總結：" + (s.summary || "") }; f.id = null; rerender(); } }, "🔁 再傾一輪（新焦點）"),
         h("button", { class: "small", onclick: () => sendIntent({ type: "discussion.save", target: c.topic.slice(0, 40), payload: { summary: s }, note: `將自動討論「${c.topic.slice(0, 30)}」嘅總結記入討論紀錄（標 DRAFT，唔當作者批准）` }) }, "📝 記入討論紀錄"),
@@ -164,10 +210,8 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
   const topic = h("textarea", { rows: 3, placeholder: "想 AI 傾咩？例如：「Demo B5–B6 操中陷阱、晴香擋，有冇更好嘅觸發方式？」" }); topic.value = d.topic;
   const range = h("textarea", { rows: 2, placeholder: "範圍：佢哋唔可以超出呢度（可以撳下面建議）" }); range.value = d.range;
   const stopIn = h("input", { type: "text", value: d.stop, style: "width:100%" });
-  const rounds = h("input", { type: "range", min: 1, max: 6, value: 3 });
-  const roundsOut = h("b", {}, "3");
-  rounds.addEventListener("input", () => { roundsOut.textContent = rounds.value; est(); });
-  const budget = h("input", { type: "number", min: 0.5, max: 50, step: 0.5, value: 5, style: "width:90px" });
+  const rounds = h("input", { type: "number", min: 1, step: 1, value: 3, style: "width:70px" });
+  rounds.addEventListener("input", () => est());
   const modelSel = h("select", {}, h("option", { value: "" }, "預設 model"));
   api("/api/models").then((ms) => modelSel.append(...ms.map((m) => h("option", { value: m.value, title: m.description || "" }, m.label)))).catch(() => {});
   const estOut = h("span", { class: "small muted" });
@@ -247,7 +291,7 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
   };
   const applyPlan = (pr) => {
     topic.value = d.topic = pr.topic || topic.value; range.value = d.range = pr.range || range.value; stopIn.value = d.stop = pr.stop || stopIn.value;
-    if (pr.rounds) { rounds.value = Math.min(6, Math.max(1, +pr.rounds)); roundsOut.textContent = rounds.value; }
+    if (pr.rounds) rounds.value = Math.max(1, +pr.rounds);
     if (pr.roles?.length) for (const r of roles) r.on = pr.roles.includes(r.name);
     for (const l of pr.links || []) if (ents[l.id] && !d.links.some((x) => x.id === l.id)) d.links.push({ id: l.id, title: l.title || ents[l.id].title, file: l.file || ents[l.id].file || "" });
     drawRoles(); drawLinks(); drawChars(); est(); toast(`用咗「${pr.label}」，可以再改先開始`);
@@ -280,7 +324,7 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
     if (on.length < 2) return toast("最少揀兩個角色");
     await api("/api/discuss/roles", roles);
     const { id } = await api("/api/discuss", { topic: topic.value.trim(), range: range.value.trim(), stop: stopIn.value.trim(), context: d.context, links: d.links, from: d.from || "",
-      skill: d.skill, skillChoice: d.skillChoice, roles: on, maxRounds: +rounds.value, budget: +budget.value, model: modelSel.value });
+      skill: d.skill, skillChoice: d.skillChoice, roles: on, maxRounds: +rounds.value, model: modelSel.value, items: d.items || [], actions: d.actions || [] });
     f.draft = null; f.plan = null; f.id = id; rerender();
   };
   drawChips();
@@ -291,16 +335,18 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
       planBox,
       h("div", { class: "field" }, h("b", {}, "1. 題目"), h("div", { style: "display:flex;gap:8px" }, ctx.mic?.(topic), topic)),
       d.context ? h("div", { class: "small muted" }, "📎 " + d.context.slice(0, 200)) : null,
+      d.items?.length ? h("div", { class: "small", style: "font-weight:700" }, `📋 處理 ${d.items.length} 項（傾完總結會逐項建議：${(d.actions || []).map((a) => a.label).join("／")}／保留，你剔完先執行）`) : null,
       h("div", { class: "field" }, h("b", {}, "2. 範圍"), h("div", { style: "display:flex;gap:8px" }, ctx.mic?.(range), range), rangeChips, boards.length ? pickBox : null),
       h("div", { class: "field" }, h("b", {}, "3. 去到邊度停"), stopIn, stopChips),
       h("div", { class: "field" }, h("b", {}, "4. 連住嘅嘢（AI 會以佢哋為依據）"), linkBox, charBox, linkSearch, linkHits),
       h("div", { class: "field" }, h("b", {}, "5. 用邊個 skill 嘅方法（可選）"), skillSel, choiceBox),
       h("div", { class: "field" }, h("b", {}, "6. 邊啲角色傾（撳揀；可以由 skill 加）"), roleTiles),
-      h("div", { class: "field toolbar", style: "margin:0" }, h("span", {}, "最多 ", roundsOut, " 輪"), rounds, h("span", {}, "預算 US$"), budget, modelSel, estOut),
+      h("div", { class: "field toolbar", style: "margin:0" }, h("span", {}, "最多"), rounds, h("span", {}, "輪"), modelSel, estOut),
       h("div", { class: "actions" }, h("button", { class: "primary", onclick: start }, "🤖 開始討論"))),
     history.length ? h("h3", { style: "margin-top:20px" }, "以前嘅討論") : null,
-    history.length ? h("div", { class: "card", style: "padding:0" }, ...history.slice(0, 30).map((x) => h("div", { class: "list-item clickable", style: "display:flex;gap:10px;align-items:center", onclick: () => { f.id = x.id; rerender(); } },
+    history.length ? h("div", { class: "card", style: "padding:0" }, ...history.slice(0, 30).map((x) => h("div", { class: "list-item clickable", style: "display:flex;gap:10px;align-items:center", onclick: () => { f.id = x.id; f.focus = null; rerender(); } },
       h("span", { class: "pill " + ({ done: "ok", running: "info", paused: "warn" }[x.state] || "") }, { done: "完成", running: "傾緊", paused: "暫停", stopped: "停咗", summarizing: "總結緊" }[x.state] || x.state),
       h("b", { style: "flex:1" }, x.topic.slice(0, 60)), x.links?.length ? h("span", { class: "pill" }, `📎 ${x.links.length}`) : null,
-      h("span", { class: "small muted" }, `${x.round}/${x.maxRounds} 輪 · US$${x.cost.toFixed(2)}`)))) : null);
+      h("span", { class: "small muted" }, `${x.round}/${x.maxRounds} 輪`),
+      x.state === "done" ? h("button", { class: "small primary", onclick: (e) => { e.stopPropagation(); f.id = x.id; f.focus = "summary"; rerender(); } }, "📋 睇總結") : null))) : null);
 }

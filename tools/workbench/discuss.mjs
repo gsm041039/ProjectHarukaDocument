@@ -24,7 +24,9 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
     const reads = new Set();
     for await (const m of query({ prompt, options: {
       cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
-      allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 8, ...(d.model ? { model: d.model } : {}),
+      allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 8,
+      persistSession: false, // one-shot turns: saving them buried the author's real chats in "以前嘅 session"
+      ...(d.model ? { model: d.model } : {}),
     } })) {
       if (m.type === "result") { text = m.result || text; cost = m.total_cost_usd || 0; }
       else if (m.type === "assistant") for (const b of m.message.content) {
@@ -50,7 +52,10 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
 
 【題目】${d.topic}
 【範圍——只可以喺呢個範圍內討論，唔好跳層】${d.range || "（未限定）"}
-【停止點——去到呢度就夠】${d.stop}${d.context ? `\n【背景】${d.context}` : ""}${d.links?.length ? `\n【連住嘅嘢——討論要以佢哋為依據，有需要用 Read/Grep 去搵原文】\n${d.links.map((l) => `- ${l.id}｜${l.title}${l.file ? "（" + l.file + "）" : ""}`).join("\n")}` : ""}${d.skill ? `\n【全場方法】跟 \`${d.skill}\` skill 嘅規則傾（可以 Read .claude/skills/${d.skill}/SKILL.md）。${d.skillChoice ? "今次方向：" + d.skillChoice : ""}` : ""}`;
+【停止點——去到呢度就夠】${d.stop}${d.items?.length ? `
+【今次要處理嘅項目（作者揀嘅）】
+${d.items.map((x) => `- ${x.id}｜${x.title}`).join("\n")}
+【每項可以建議嘅處理】${d.actions.map((a) => a.label).join("／")}／保留` : ""}${d.context ? `\n【背景】${d.context}` : ""}${d.links?.length ? `\n【連住嘅嘢——討論要以佢哋為依據，有需要用 Read/Grep 去搵原文】\n${d.links.map((l) => `- ${l.id}｜${l.title}${l.file ? "（" + l.file + "）" : ""}`).join("\n")}` : ""}${d.skill ? `\n【全場方法】跟 \`${d.skill}\` skill 嘅規則傾（可以 Read .claude/skills/${d.skill}/SKILL.md）。${d.skillChoice ? "今次方向：" + d.skillChoice : ""}` : ""}`;
 
   const rolePrompt = (d, role, round) => `${header(d)}
 
@@ -78,7 +83,8 @@ ${transcript(d)}`;
 
 你係獨立主持人。討論已經停（原因：${d.stopReason}）。為作者寫總結，只輸出一個 JSON（放喺 \`\`\`json 入面）：
 {"summary":"3 句內講清傾咗咩、去到邊","consensus":["大家同意嘅點"],"options":[{"name":"候選自然名","what_happens":"會發生咩","why":"點解","cost":"代價","given_up":"放棄咗咩"}],"recommended":"建議嘅候選名","open_questions":["仲要作者決定嘅嘢（白話）"],"risks":["要留意嘅 canon／結構風險"]}
-冇候選就 options 留空。唔好當作者已經批准任何嘢。
+冇候選就 options 留空。唔好當作者已經批准任何嘢。${d.items?.length ? `
+另外喺同一個 JSON 加 "item_actions":[{"id":"項目 id","type":"${d.actions.map((a) => a.type).join('" 或 "')}" 或 "keep","reason":"一句白話理由"}]，每個項目一條；唔肯定就 keep。` : ""}
 
 ${transcript(d)}`;
 
@@ -115,7 +121,6 @@ ${transcript(d)}`;
         if (j.stop_reached) { d.stopReason = "已去到停止點"; break; }
         if ((j.consensus ?? 0) >= 0.85) { d.stopReason = "已達成共識"; break; }
         if (j.repetitive && round >= 2) { d.stopReason = "開始兜圈"; break; }
-        if (d.cost >= d.budget) { d.stopReason = `用到預算 US$${d.budget}`; break; }
         if (round === d.maxRounds) d.stopReason = `到咗最多 ${d.maxRounds} 輪`;
       }
       d.state = "summarizing";
@@ -140,7 +145,9 @@ ${transcript(d)}`;
         stop: String(cfg.stop || "有 2–3 個成形候選＋推薦").slice(0, 300), context: String(cfg.context || "").slice(0, 800), roles,
         links: (Array.isArray(cfg.links) ? cfg.links : []).slice(0, 20).map((l) => ({ id: String(l.id).slice(0, 200), title: String(l.title || "").slice(0, 200), file: String(l.file || "").slice(0, 300) })),
         skill: String(cfg.skill || "").slice(0, 80), skillChoice: String(cfg.skillChoice || "").slice(0, 600), from: String(cfg.from || "").slice(0, 40),
-        maxRounds: Math.min(Math.max(+cfg.maxRounds || 3, 1), 6), budget: Math.min(Math.max(+cfg.budget || 5, 0.5), 50), model: cfg.model || "",
+        maxRounds: Math.max(+cfg.maxRounds || 3, 1), model: cfg.model || "",
+        items: (Array.isArray(cfg.items) ? cfg.items : []).slice(0, 40).map((x) => ({ id: String(x.id).slice(0, 200), title: String(x.title || "").slice(0, 300), payload: x.payload && typeof x.payload === "object" ? x.payload : {} })),
+        actions: (Array.isArray(cfg.actions) ? cfg.actions : []).slice(0, 6).map((a) => ({ type: String(a.type).slice(0, 60), label: String(a.label || a.type).slice(0, 30) })),
         round: 0, cost: 0, focus: "", state: "running", stopReason: "", events: [], clients: new Set() };
       all.set(d.id, d);
       emit(d, { kind: "state", state: "running" });
@@ -156,7 +163,7 @@ ${transcript(d)}`;
         d.roles = body.roles.slice(0, 6).map((r) => ({ name: String(r.name).slice(0, 40), icon: String(r.icon || "🤖").slice(0, 4), brief: String(r.brief || "").slice(0, 600), skill: String(r.skill || "").slice(0, 80) }));
         emit(d, { kind: "author", text: `（改咗角色：${d.roles.map((r) => r.name).join("、")}，下一個發言開始生效）` });
       } else if (action === "rounds") {
-        d.maxRounds = Math.min(Math.max(+body.rounds || d.maxRounds, d.round || 1), 8);
+        d.maxRounds = Math.max(+body.rounds || d.maxRounds, d.round || 1);
         emit(d, { kind: "author", text: `（最多輪數改做 ${d.maxRounds}）` });
       }
       else if (action === "say" && text) { emit(d, { kind: "author", text: String(text).slice(0, 2000) }); if (d.state === "paused") { d.state = "running"; d.waiter?.(); } }

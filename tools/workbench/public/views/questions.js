@@ -79,7 +79,13 @@ export function render(el, ctx) {
       h("div", { style: "flex:1" }),
       h("button", { disabled: !sel.size, onclick: () => bulk("top") }, "⬆️ 最優先"),
       h("button", { disabled: !sel.size, onclick: () => bulk("defer") }, "⏸️ 押後"),
-      h("button", { class: "danger", disabled: !sel.size, onclick: () => bulk("drop") }, "🗑️ 作廢")),
+      h("button", { class: "danger", disabled: !sel.size, onclick: () => bulk("drop") }, "🗑️ 作廢"),
+      h("button", { disabled: !sel.size, title: "交畀幾個 AI 角色傾呢幾條問題，總結會逐條建議點處理，你剔完先執行", onclick: () => {
+        const items = qs.filter((q) => sel.has(q.id)).map((q) => ({ id: q.id, title: q.topic || q.summary || q.id, payload: {} }));
+        ctx.openDiscuss({ topic: `呢 ${items.length} 條問題：邊啲已經答咗或者過時要作廢、邊啲要押後、邊啲應該提到最優先？`, range: "只判斷呢幾條問題嘅去留同優先次序，要讀 QUESTION_QUEUE 同相關文件核實；唔替作者答故事問題",
+          stop: "每條都有建議（附證據）", items, actions: [{ type: "question.drop", label: "作廢" }, { type: "question.defer", label: "押後" }, { type: "question.priority", label: "最優先" }],
+          links: items.slice(0, 20).map((x) => ({ id: x.id, title: x.title.slice(0, 80), file: "canon/_working/QUESTION_QUEUE.md" })) });
+      } }, "🤖 自動討論")),
     h("div", { class: "card", style: "padding:0" }, ...(shown.length ? grouped(h, shown, GROUPS[f.group][1], item,
       { openState: f.open, order: f.group === "status" ? (a, b) => Object.values(ZH).indexOf(a[0]) - Object.values(ZH).indexOf(b[0]) : undefined }) : [h("div", { class: "list-item muted" }, "冇符合嘅問題")])));
 }

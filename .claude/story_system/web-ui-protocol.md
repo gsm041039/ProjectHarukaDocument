@@ -90,12 +90,19 @@ PROTOCOL_VERSION: 1
 
 ## 4D. 作者控制（2026-10-17）
 - **助手（sub-agent）上限**：每個對話頂有「🤖 助手」選單（預設＝`ui_config.json` 嘅 `agent_cap_default`，跟 CLAUDE.md Sub-Agent Budget）。上限內 server 自動批；超出會彈卡問作者，作者唔批你會收到 deny——**自己做，或者講清點解一定要派**，唔好換個方法偷派。
+- **用量**：側欄每頁顯示 5 小時／本週 Claude 用量（`/api/usage`，SDK experimental；撳一下更新）。
+- **問法模型**：側欄「🪞」掣即刻用新記錄嘅說話更新 `canon/_working/author_voice/AUTHOR_LENS.md`（`/api/lens`）。
+- **快捷掣**：對話框兩行——對話回覆（`quick_replies`）同「📁 文件」操作（`quick_actions`，`{label, prompt}`），都喺 `ui_config.json` 改。
+- **思考深度（effort）**：側欄同對話頂「🧠」選單（層級喺 `ui_config.json` `effort_levels`）；作者中途改會見到「🧠 由呢度開始思考深度」。
 - **隨時轉**：對話 →「🤖 交畀 AI 傾」；自動討論 →「💬 轉去對話」（傾到一半都得，會返去原本嗰個對話，冇就開新）。收到「傾到一半轉過嚟」嘅內容＝DRAFT，照 gate 問作者。討論中途作者可以「👥 改角色」「＋1 輪」。
+- **作者親手打嘅字入 log**：`server.mjs` 只將作者親手打嘅（新話題／回覆／選項卡自己寫／討論插話，靠 `said` 欄）寫入 `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl`；掣同模板 prompt 唔入。VSCode／terminal 由 `.claude/hooks/log_author_prompt.py` 入。畀 `author-lens` skill 歸納作者問法。
+- **揀咗就自動討論**：未完成事項同問題頁剔幾條 →「🤖 自動討論」，設定頁預填呢幾項（`items`）同可以做嘅處理（`actions`，例如標完成／作廢／押後）。總結會逐項建議（`item_actions`），作者剔完撳「📤 執行揀咗嘅」先放入待送出，同頁面本身嘅掣一樣行 `ui:intent`；討論 agent 照舊只讀、唔直接改檔。新頁面想用：`ctx.openDiscuss({topic, items, actions, links})`。
 - **自動討論設定助手**：撳自動討論（由對話／問題／beat 帶過嚟會自動開始）＝一個只讀 AI 跟 `story-auto-discussion` skill 讀相關文件，講「我理解你想傾…」再出 2–4 個方向掣同按話題建議嘅範圍／停止點。
 
 ## 5. 改網頁本身
 
 - 加 view：`build_index.py` 加 `parse_<name>()` 並登記入 `PARSERS`；`public/views/<id>.js` export `render(el, ctx)`；`public/views.json` 加一行。
+- **網址（上一頁／下一頁）**：網址＝`#<頁>[/<對話 id>][?<頁面狀態>&_file=…|_ent=…]`。每頁將篩選／揀咗嘅嘢放喺一個 `state.<名>` object，喺 `views.json` 用 `"state": "<名>"` 登記（唔入網址嘅欄放 `"state_skip"`）；入面嘅字串／數字／true-false／Set 會自動寫入網址同還原。新 view 唔登記就淨係記到頁名。
 - 格式有破壞性改動 → 升 `PROTOCOL_VERSION`（本檔、`build_index.py`、`public/app.js` 三處同步）。
 - **唔好 hard code 清單**：快速回覆、層級名同顏色、討論範圍／停止點後備、通用開工掣、助手上限選項、設定助手 model——全部喺 `tools/workbench/ui_config.json`（`/api/config`）。新加嘅「預設清單」一律放呢度。
 - 自檢：`python tools/workbench/build_index.py --check`。

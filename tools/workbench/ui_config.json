@@ -132,5 +132,117 @@
     }
   ],
   "agent_cap_default": 2,
-  "planner_model": "sonnet"
+  "effort_levels": [
+    {
+      "value": "low",
+      "label": "輕",
+      "why": "快、平；啱查嘢、改格式、細改動"
+    },
+    {
+      "value": "medium",
+      "label": "中",
+      "why": "日常故事工作"
+    },
+    {
+      "value": "high",
+      "label": "深",
+      "why": "要諗清楚嘅設計／結構問題"
+    },
+    {
+      "value": "xhigh",
+      "label": "好深",
+      "why": "跨幕、高風險決定；慢啲、貴啲"
+    },
+    {
+      "value": "max",
+      "label": "最深",
+      "why": "最慢最貴；只限真係好難嘅問題（model 唔支援會自動降級）"
+    }
+  ],
+  "planner_model": "sonnet",
+  "lens_model": "sonnet",
+  "wrap_up": {
+    "label": "✅ 傾夠，落檔",
+    "mark": "✅ ",
+    "prompt": "呢個題目傾夠喇，請收尾落檔（之後我可能返嚟繼續，對話唔好當完結）。照 story-router 揀合適 skill，第一句講用邊個。已確認嘅決定照 writeback gate，用選項卡問我批先入 canon；未確認嘅寫入工作文件標 DRAFT；未決問題入 QUESTION_QUEUE。更新進度狀態檔，喺 SESSION_LEDGER 留一句「下次由呢度繼續」。最後用 ui:next 畀我幾個之後點繼續嘅選擇。"
+  },
+  "quick_actions": [
+    {
+      "label": "入 canon",
+      "prompt": "將今次傾好、我已經確認咗嘅決定照 writeback gate 入 canon：先列出會改邊啲檔、每處改動前後同依據，用選項卡問我批，批咗先寫。未確認、仲係 DRAFT 嘅唔好入。"
+    },
+    {
+      "label": "落檔做草稿",
+      "prompt": "將今次討論落檔到相關嘅工作文件（canon/_working），標 DRAFT／PROVISIONAL，唔好寫入正式 canon。寫完講清寫咗邊個檔、邊一段。"
+    },
+    {
+      "label": "更新進度檔",
+      "prompt": "更新 PROJECT_STATUS、SESSION_LEDGER、NEXT_ACTION，有變動就連 QUESTION_QUEUE、TASK_BOARD、LAYER_MANIFEST 一齊更新。改完用白話講改咗咩。"
+    },
+    {
+      "label": "記低未決問題",
+      "prompt": "將啱啱傾到但未決定嘅問題記入 QUESTION_QUEUE，每條寫清幾時要再諗（revisit 條件）同點解押後。"
+    },
+    {
+      "label": "開做 task",
+      "prompt": "將而家做緊嘅嘢加入 TASK_BOARD 做一個 task，寫清下一步同相關文件。"
+    },
+    {
+      "label": "先讀相關文件",
+      "prompt": "答之前先讀晒相關嘅 canon 同工作文件（包括 00_Story_Brief.html），講清讀咗邊啲、每份講咩，再答。"
+    },
+    {
+      "label": "對返 canon",
+      "prompt": "將今次嘅方向對返 canon 同 00_Story_Brief.html，列出有冇矛盾、矛盾喺邊個檔邊一段，唔好自己靜靜解決，有矛盾就用選項卡問我。"
+    },
+    {
+      "label": "搵返之前講過",
+      "prompt": "搵返之前對話紀錄同文件入面講過呢件事嘅地方，列出喺邊度、當時講咗咩、有冇改過。"
+    },
+    {
+      "label": "下游要重驗",
+      "prompt": "檢查今次改動會影響邊啲下游文件（Beat、場景、對白、角色檔），列出要標 REVALIDATE_REQUIRED 嘅，問我批先標。"
+    },
+    {
+      "label": "睇改咗咩",
+      "prompt": "列出今次對話改過嘅所有檔，每個講清改咗咩（前後對比），未 commit 嘅都講埋。"
+    },
+    {
+      "label": "commit 今次改動",
+      "prompt": "幫我 commit 今次對話改過嘅檔，只入今次改嘅，唔好掂其他人／其他對話嘅改動。commit 前列出會入邊啲檔等我確認。"
+    }
+  ],
+  "skill_labels": {
+    "story-audience-experience-designer": "定觀眾應該有咩感覺",
+    "story-audio-direction": "聲音同配樂設計",
+    "story-character-arc-positioner": "角色喺成長弧線嘅位置",
+    "story-character-consistency-tester": "測角色有冇走樣",
+    "story-character-context-recovery": "翻查角色呢刻嘅背景",
+    "story-character-foundation-planner": "睇角色資料夠唔夠",
+    "story-character-performance-bible-designer": "角色動作表演設定",
+    "story-character-voice-designer": "角色說話方式",
+    "story-character-voice-evidence-auditor": "核對說話方式有冇根據",
+    "story-coverage-table-read": "讀稿評分",
+    "story-dialogue-architect": "對話骨架",
+    "story-dialogue-readiness-gate": "寫稿前檢查夠唔夠料",
+    "story-dialogue-room": "審對白",
+    "story-dialogue-script": "寫對白劇本",
+    "story-directing-language-auditor": "審導演用語",
+    "story-director-delivery-builder": "整交付文件",
+    "story-experience-alignment-auditor": "測有冇做到想要嘅感覺",
+    "story-game-director": "整體導演方案",
+    "story-gameplay-cinematic-integrator": "玩法同過場銜接",
+    "story-gameplay-dialogue-integrator": "玩法同對白銜接",
+    "story-knowledge-state-mapper": "邊個知道咩",
+    "story-location-stage-director": "場地同走位",
+    "story-scene-expression-planner": "邊啲用對白、邊啲用畫面講",
+    "story-scene-objective-architect": "每場角色想要咩、阻力、轉折",
+    "story-scene-performance-state-builder": "今場角色身體狀態",
+    "story-scene-psychology-mapper": "今場角色心理",
+    "story-scene-speaking-state-builder": "今場角色說話狀態",
+    "story-sequence-boundary-designer": "定段落由邊到邊",
+    "story-source-recovery-gate": "先搵齊資料",
+    "story-storyboard-designer": "分鏡",
+    "story-work-readiness-diagnostician": "睇準備夠唔夠"
+  }
 }

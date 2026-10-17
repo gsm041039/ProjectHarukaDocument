@@ -29,7 +29,8 @@ export function render(el, ctx) {
 
   // 🧪 try any line
   const tryOut = h("pre", { class: "small try-out" });
-  const tryIn = h("input", { type: "text", placeholder: "打或者講一句粵語對白（多句用 / 分隔）", style: "flex:1" });
+  const tryIn = h("input", { type: "text", placeholder: "打或者講一句粵語對白（多句用 / 分隔；Enter 評分）", style: "flex:1" });
+  tryIn.onEnter = () => tryIn.value.trim() && score(tryIn.value.trim(), tryOut);
   const tryBox = h("div", { class: "card", style: "margin-bottom:16px" }, h("h3", {}, "🧪 試句"),
     h("div", { class: "toolbar", style: "margin:0" }, ctx.mic?.(tryIn), tryIn,
       h("button", { class: "small primary", onclick: () => tryIn.value.trim() && score(tryIn.value.trim(), tryOut) }, "📊 評自然度"),
