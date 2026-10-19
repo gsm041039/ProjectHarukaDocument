@@ -7,6 +7,7 @@ import { micButton } from "./mic.js";
 import { createSmartStart } from "./smartstart.js";
 import { plain, strip } from "./plain.js";
 import { linkify, fileId } from "./links.js";
+import { workCard } from "./workcard.js";
 
 // One-click replies so the author rarely needs to type.
 const PROTOCOL = 1;
@@ -68,19 +69,29 @@ async function loadIndex(fresh) {
 // ---------------- sessions ----------------
 async function refreshSessions() {
   try { Object.assign(state, await api("/api/sessions", undefined, { quiet: true })); } catch { return; }
-  document.title = (state.live.some((s) => s.pending) ? "🙋 " : state.live.some((s) => s.status === "running") ? "⏳ " : "") + "Haruka Workbench";
+  const discs = state.discussions || [];
+  const discOn = discs.filter((x) => ["running", "paused", "summarizing", "stopping"].includes(x.state));
+  const discRow = (x) => h("div", { class: "sess" + (state.tab === "discuss" && state.discuss?.id === x.id ? " active" : ""), title: x.topic,
+    onclick: () => { state.discuss = { id: x.id, draft: null }; switchTab("discuss"); } },
+    h("span", { class: "dot " + (x.asking ? "waiting" : x.state === "running" || x.state === "summarizing" ? "running" : x.state === "done" ? "idle" : "") }),
+    h("span", { class: "t" }, "🤖 " + x.topic),
+    x.asking ? h("span", { class: "badge", title: "討論停低等你答：" + x.asking }, "等你") : null);
+  document.title = (state.live.some((s) => s.pending) || discs.some((x) => x.asking) ? "🙋 " : state.live.some((s) => s.status === "running") || discOn.length ? "⏳ " : "") + "Haruka Workbench";
   const list = $("#session-list");
   list.replaceChildren(
     h("div", { class: "section-title" }, "進行中"),
-    ...(state.live.length ? state.live.map((s) => h("div", { class: "sess" + (state.current?.id === s.id ? " active" : ""), onclick: () => openLive(s.id) },
+    ...(state.live.length || discOn.length ? [...state.live.map((s) => h("div", { class: "sess" + (state.current?.id === s.id ? " active" : ""), onclick: () => openLive(s.id) },
       h("span", { class: "dot " + s.status }), h("span", { class: "t", title: s.title }, s.title),
-      s.pending ? h("span", { class: "badge", title: "等你回覆" }, s.pending) : null))
+      s.pending ? h("span", { class: "badge", title: "等你回覆" }, s.pending) : null)), ...discOn.map(discRow)]
       : [h("div", { class: "small muted", style: "padding:4px 10px" }, "未有，撳上面開新 task")]),
     h("div", { class: "section-title" }, "以前嘅 session"),
-    ...state.past.slice(0, 30).map((p) => h("div", { class: "sess" + (state.current?.past === p.sessionId ? " active" : ""), onclick: () => openPast(p) },
-      h("span", { class: "dot" }), h("span", { class: "t", title: p.title }, p.title))),
+    // finished discussions sit in the same list as past chats, newest first
+    ...[...state.past.map((p) => ({ t: p.lastModified || 0, row: h("div", { class: "sess" + (state.current?.past === p.sessionId ? " active" : ""), onclick: () => openPast(p) },
+        h("span", { class: "dot" }), h("span", { class: "t", title: p.title }, p.title)) })),
+      ...discs.filter((x) => !discOn.includes(x)).map((x) => ({ t: x.created || 0, row: discRow(x) }))]
+      .sort((a, b) => b.t - a.t).slice(0, 30).map((x) => x.row),
   );
-  const pending = state.live.reduce((n, s) => n + (s.pending || 0), 0);
+  const pending = state.live.reduce((n, s) => n + (s.pending || 0), 0) + discs.filter((x) => x.asking).length;
   document.title = (pending ? `(${pending}) ` : "") + "Haruka Workbench";
   if (state.tab === "chat") syncURL(false);
   const count = $('[data-tab="chat"] .count');
@@ -240,11 +251,19 @@ function chatShell(title, live) {
     ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
     head.append(h("button", { onclick: () => api(`/api/sessions/${state.current.id}/interrupt`, {}) }, "停"));
     const quick = (text) => api(`/api/sessions/${state.current.id}/message`, { text }).catch((e) => toast(e.message));
+    const quickRow = h("div", { class: "quick-row" }, ...(state.config?.quick_replies || []).map((q) => h("button", { class: "quick", onclick: () => quick(q) }, q)));
     box.append(h("div", { id: "composer" },
-      h("div", { class: "quick-row" }, ...(state.config?.quick_replies || []).map((q) => h("button", { class: "quick", onclick: () => quick(q) }, q))),
+      quickRow,
       // 📁 file / canon actions: short label, full gate-respecting instruction (ui_config.json quick_actions)
-      (state.config?.quick_actions || []).length ? h("div", { class: "quick-row" }, h("span", { class: "quick-tag" }, "📁 文件"),
-        ...state.config.quick_actions.map((a) => h("button", { class: "quick file", title: a.prompt, onclick: () => quick(a.prompt) }, a.label))) : null,
+      // folded behind one chip so the reply area stays short and the messages keep their room
+      (state.config?.quick_actions || []).length ? (() => {
+        const row = h("div", { class: "quick-row", style: store.get("fileActsOpen", false) ? "" : "display:none" },
+          ...state.config.quick_actions.map((a) => h("button", { class: "quick file", title: a.prompt, onclick: () => quick(a.prompt) }, a.label)));
+        const tog = h("button", { class: "quick quick-toggle", onclick: () => { const on = row.style.display === "none"; row.style.display = on ? "" : "none"; store.set("fileActsOpen", on); tog.textContent = on ? "📁 文件動作 ▴" : "📁 文件動作 ▾"; } },
+          store.get("fileActsOpen", false) ? "📁 文件動作 ▴" : "📁 文件動作 ▾");
+        quickRow.append(tog);
+        return row;
+      })() : null,
       h("div", { class: "row" }, micButton(h, ta), ta, h("button", { class: "primary", onclick: send }, "送出"))));
   }
   return { box, msgs, head };
@@ -282,8 +301,27 @@ function renderChat(el) {
 }
 
 // One chat view for live and saved conversations: both are fed the same events (saved ones come from /api/history).
-function chatView(el, { title, sid, model, effort, taskId, live }) {
+function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
   const { box, msgs, head } = chatShell(title, live);
+  // 🛠️ what this chat is working on right now: the latest ui:status / ui:progress the AI declared
+  // (web-ui-protocol §2). Nothing is hard-coded per page; it follows whatever the AI says it is doing.
+  const doingBar = h("div", { class: "chat-doing", style: "display:none" });
+  // 📋 which piece of work this chat belongs to + where it stands (workcard.js)
+  const work = workCard(makeCtx(), () => pastSid || state.live.find((x) => x.id === sid)?.sdkSessionId);
+  box.insertBefore(work.el, msgs);
+  box.insertBefore(doingBar, msgs);
+  const LAYER = Object.fromEntries((state.config?.layers || []).map((l) => [l.id, l.name]));
+  const updateDoing = (text) => {
+    let last = null;
+    for (const m of String(text || "").matchAll(/```ui:(status|progress)\s*([\s\S]*?)```/g)) { try { last = { kind: m[1], ...JSON.parse(m[2]) }; } catch {} }
+    if (!last) return;
+    const what = last.task || last.stage || "";
+    const how = last.kind === "status" ? last.doing : (last.task && last.stage ? last.stage : "");
+    doingBar.replaceChildren(...[h("span", { class: "chat-doing-ic" }, "🛠️ 做緊"),
+      what && h("b", {}, strip(what) || what), how && h("span", {}, (what ? " · " : "") + (strip(how) || how)),
+      last.layer && h("span", { class: "pill info", style: "margin-left:auto" }, LAYER[last.layer] || last.layer)].filter(Boolean));
+    doingBar.style.display = "";
+  };
   const ctx = makeCtx();
   const task = (state.index?.tasks || []).find((t) => t.id === taskId || (title && t.task.startsWith(title.replace(/…$/, ""))));
   const prog = createProgress({ h, sendToClaude: ctx.sendToClaude, taskName: task?.task, openEntity, openFile, openDiscuss, fileId: (p) => fileId(state.index, p), layers: state.config?.layers || [], choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
@@ -314,6 +352,16 @@ function chatView(el, { title, sid, model, effort, taskId, live }) {
     head.insertBefore(capSel, before);
     modelSelect(model, async (m) => { await api(`/api/sessions/${sid}/model`, { model: m }).then(() => toast(m ? `之後用 ${m}` : "之後用預設 model")).catch((e) => toast(e.message)); }).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
     head.insertBefore(effortSelect(effort, (e) => api(`/api/sessions/${sid}/effort`, { effort: e }).then(() => toast(e ? `之後用「${effortLabel(e)}」思考深度` : "之後用預設思考深度")).catch((x) => toast(x.message))), head.querySelector(".pp-toggle"));
+  }
+  // secondary header actions go under 「⋯ 更多」 so the header never runs off the side
+  const extra = [...head.querySelectorAll(":scope > button.small, :scope > select:not(.model-select)")].filter((b) => b.textContent.trim() !== "←");
+  if (extra.length) {
+    const menu = h("div", { class: "head-menu" }, ...extra);
+    const more = h("button", { class: "small", onclick: (e) => { e.stopPropagation(); menu.classList.toggle("open"); } }, "⋯ 更多");
+    menu.addEventListener("click", (e) => { if (e.target.tagName === "BUTTON") menu.classList.remove("open"); });
+    document.addEventListener("click", (e) => { if (!menu.contains(e.target)) menu.classList.remove("open"); });
+    const stop = [...head.children].find((e) => e.tagName === "BUTTON" && e.textContent.trim() === "停");
+    head.insertBefore(h("div", { class: "head-more" }, more, menu), stop || head.querySelector(".pp-toggle") || null);
   }
   el.replaceChildren(wrap);
   let streamEl = null;
@@ -346,7 +394,10 @@ function chatView(el, { title, sid, model, effort, taskId, live }) {
         thinking.remove();
         if (!streamEl) { streamEl = h("div", { class: "msg assistant streaming" }); add(streamEl); }
         streamEl.textContent += ev.text; if (atBottom()) msgs.scrollTop = msgs.scrollHeight; break;
+      case "work": work.update(); break;
       case "text": {
+        updateDoing(ev.text);
+        for (const m of String(ev.text || "").matchAll(/```ui:step\s*([\s\S]*?)```/g)) { try { work.onStep(JSON.parse(m[1])); } catch {} }
         const node = renderAssistant(ev.text, ctx);
         if (streamEl) { streamEl.replaceWith(node); streamEl = null; } else add(node);
         if (running) think(true, "諗緊");
@@ -384,11 +435,11 @@ function chatView(el, { title, sid, model, effort, taskId, live }) {
         cards[ev.requestId]?.markAnswered?.();
         cards[ev.requestId]?.querySelectorAll("input,textarea,button").forEach((e) => (e.disabled = true));
         break;
-      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) { loadIndex(true); refreshUsage(true); refreshLens(); } break;
+      case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) { loadIndex(true).then(() => work.update()); refreshUsage(true); refreshLens(); } break;
       case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message)); break;
       case "status": running = ev.status === "running"; think(running); if (live) refreshSessions(); break;
       case "effort": add(h("div", { class: "msg result" }, `🧠 由呢度開始思考深度：${ev.effort ? effortLabel(ev.effort) : "預設"}`)); break;
-      case "model": add(h("div", { class: "msg result" }, `🔀 由呢度開始用 ${ev.model || "預設 model"}`)); break;
+      case "model": add(h("div", { class: "msg result" }, ev.note ? `🔀 ${ev.note}` : `🔀 由呢度開始用 ${ev.model || "預設 model"}`)); break;
       case "note": add(h("div", { class: "msg result" }, ev.text)); break;
       case "agents": { const sel = head.querySelector("select[title^='今次對話最多']"); if (sel) sel.title = `已派 ${ev.used} 個／上限 ${ev.cap}；超出會彈卡問你`; if (live) add(h("div", { class: "msg result" }, `🤖 派咗第 ${ev.used} 個助手（上限 ${ev.cap}）`)); break; }
     }
@@ -398,7 +449,7 @@ function chatView(el, { title, sid, model, effort, taskId, live }) {
 }
 
 async function renderPast(el, cur) {
-  const v = chatView(el, { title: cur.title, sid: null, live: false });
+  const v = chatView(el, { title: cur.title, sid: null, live: false, pastSid: cur.past });
   v.head.append(h("button", { class: "primary", onclick: async (e) => {
     e.currentTarget.disabled = true; e.currentTarget.textContent = "接緊…";
     const { id } = await api("/api/sessions", { title: cur.title, resume: cur.past, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined });
@@ -499,7 +550,7 @@ function effortSelect(current, onchange) {
 }
 
 function makeCtx() {
-  return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title) => openPast({ sessionId, title }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), refresh: async () => { await loadIndex(); renderTab(); } };
+  return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title) => openPast({ sessionId, title }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), syncURL: () => syncURL(true), reloadIndex: () => loadIndex(true), refresh: async () => { await loadIndex(); renderTab(); } };
 }
 
 function switchTab(tab) {
@@ -539,7 +590,8 @@ function applyParams(tab, params) {
     else if (cur instanceof Set) o[k] = new Set(raw ? raw.split(",") : []);
     else if (Array.isArray(cur)) o[k] = raw ? raw.split(",") : [];
     else if (typeof cur === "number") { if (has) o[k] = +raw; }
-    else if (cur == null || typeof cur === "string") o[k] = has ? raw : null;
+    else if (typeof cur === "string") o[k] = has ? raw : ""; // text stays text (pages call .startsWith etc.)
+    else if (cur == null) o[k] = has ? raw : null;
   }
   return true;
 }
@@ -572,6 +624,7 @@ async function applyURL() {
   try {
     state.tab = tab && (tab === "chat" || viewOf(tab)) ? tab : store.get("tab", "today");
     if (state.tab === "chat") {
+      if (key && !state.live.some((x) => x.id === key || x.sdkSessionId === key)) await refreshSessions(); // just-opened chat: list may be stale
       const live = key && state.live.find((x) => x.id === key || x.sdkSessionId === key);
       const past = !live && key && /^[0-9a-f-]{36}$/.test(key) ? key : null;
       state.current = live ? { id: live.id } : past ? { past, title: state.past.find((p) => p.sessionId === past)?.title || "以前嘅 session" } : null;

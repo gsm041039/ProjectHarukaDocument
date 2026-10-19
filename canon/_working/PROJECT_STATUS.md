@@ -1,5 +1,7 @@
 # PROJECT_STATUS
 
+- **2026-10-19 聲線重做 T-009 ①–④ 完成（DRAFT／PROVISIONAL）**：三人證據重分級、缺口微場景候選、稱呼表覆核、Re-audit #3 均已落檔；燈塔句同餵糖句確認為 canon 逐字句。候選全部待作者揀（tracker ⑤）；Beat 層有 5 個矛盾要先定。見 `demo_pilot/VOICE_EVIDENCE_REGRADE_T009.md`、`VOICE_EVIDENCE_REVIEW.md`。
+- **2026-10-17～19 Haruka Workbench 作者回饋改善（工具，唔涉故事內容）**：修 session 喺清單消失（自動討論每步唔再存成對話）；加思考深度、網址上一頁／下一頁、用量顯示、Enter 送出、討論總結逐項處理、作者親手打嘅字記錄＋`author-lens` 問法模型（`canon/_working/author_voice/`）、「🛤️ 流程」頁（按狀態出掣＋建議）、Beat 時間線、角度矩陣分組同逐角度詳情、對話頂「🛠️ 做緊」條（AI 用 `ui:status` 講）、「✅ 傾夠，落檔」。查證：Demo Beat 層仍未批（作者揀唔改進度檔）。2026-10-19 再加：粗到幼工作樹（TASK_BOARD「屬於」欄＋`canon/_working/tasks/` 步驟檔）、`story-work-flow` 逐步引導（節奏由作者定）、輕鬆步自動用平啲 model。未做：舊工作補掛、手機版、真相等級標示、Brief 同新確認決定邊個優先（待作者揀）。見 TASK_BOARD T-008、SESSION_LEDGER。
 - **2026-10-18 警戒對比自然落差原則（PROVISIONAL）**：作者揀「唔使啟動嘅成本」＋「受控對不受控嘅細節」，並接受「身體先放鬆、腦後追上去推開」時差。原則層，未落場景，未 writeback。見 `MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` §9。
 - **2026-10-18 整體日常溫柔載體取向（PROVISIONAL）**：作者揀外部巧合小善意／環境留餘地／旁人唔講出嚟照顧／玩法慢位；男孩死後暖位繼續存在、痛但仍然真。原則層，未落場景，未 writeback。見 `MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` §8。
 - **2026-10-18 新 setting：夕貓形態×朔「異世界行者」（DRAFT／CANDIDATE）**：作者提案夕變貓、由朔養住；因帶 Alpha 線記憶被稱異世界行者，朔想利用佢搵美夜子真相，令朔前期似壞人。草稿＋撞 canon 表見 `story_construction/YU_CAT_SAKU_ISEKAI_WALKER_DRAFT.md`；QQ-231 OPEN。稍後作者揀：夕貓＝同一個體、貓＝壓抑讀數、夕目的＝揾朔做外面嘅手；「夕代食祝福」只作解讀、唔改詛咒定義（草稿 §3.6）；朔自私底線＝主動試探逼美夜子崩潰＋有時攻擊晴香等人，朔唔知貓係夕（§3.7，PROVISIONAL）。未 writeback canon；唔改主線。

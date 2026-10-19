@@ -1,4 +1,5 @@
 # DEMO PILOT TRACKER — 15–20 分鐘 MVP Demo 試點段
+屬於：Act I
 
 > ⚠️ **2026-09-30 方向重設：作者要求喺本 demo 範圍內由粗到幼重新討論劇情，試驗方法。** 已有決定（8 場 cut、場8 操縫牙暗示等）＝DOWNSTREAM_EXPERIMENT / NON_BINDING_REFERENCE，於 Sequence／Beat 層重新確認先決定去留；Stage 6 暫停，直至 demo 範圍粗層（段落功能、觀眾感覺）獲作者確認。voice 結果保留，可被 REVALIDATE。
 
@@ -134,7 +135,9 @@
 - [x] 操 voice bible（Discovery Workshop，DRAFT）：5 個 Voice Engine 候選、5 句禁句、M1–M5 微場景、6 項待作者確認（見該檔 §C4）
 - [x] 操／晴香／美夜子動作表演文件第一版（DRAFT）：各自有待作者確認候選（操 4 項、晴香 2 項、美夜子 3 項）
 - [x] 支線：粵語對白研究＋skill §3.1／§8B／§8C／§8D＋語料基準（`_CANTONESE_DIALOGUE_RESEARCH.md`）
-- [ ] **新 workflow 重做聲線（D-12）**：操（M1–M5＋收尾已寫）／美夜子（已起草）／晴香（已起草）各自：①舊 bible 當證據輸入，重新做證據分級（原句 vs 舊候選）②慢速微場景工作坊（每個含 §8B 分析卡、§8D 語料對照、粵語自然化）③自稱／稱呼表 ④`story-character-voice-evidence-auditor` ⑤作者聽感確認。舊 bible 頂部已加「舊 workflow／CANDIDATE」提示
+- [x] **新 workflow 重做聲線（D-12）**（2026-10-19 ①–④ 完成，見下；⑤ 作者聽感確認另列一項）：操（M1–M5＋收尾已寫）／美夜子（已起草）／晴香（已起草）各自：①舊 bible 當證據輸入，重新做證據分級（原句 vs 舊候選）②慢速微場景工作坊（每個含 §8B 分析卡、§8D 語料對照、粵語自然化）③自稱／稱呼表 ④`story-character-voice-evidence-auditor` ⑤作者聽感確認。舊 bible 頂部已加「舊 workflow／CANDIDATE」提示
+  - 結果（2026-10-19，T-009）：①證據重分級 `VOICE_EVIDENCE_REGRADE_T009.md`（認出燈塔句、餵糖句為 canon 逐字句）②缺口微場景候選已寫入三份 workshop（美夜子 §9、晴香 §10、操 M6–M9）③三人自稱／稱呼表覆核版 ④auditor Re-audit #3 見 `VOICE_EVIDENCE_REVIEW.md`。**候選全部未經作者揀。**
+  - [ ] ⑤ 作者聽感確認＋揀句（含 Beat 層 5 個矛盾要先定）
 - [ ] 語音微場景工作坊 M1–M5、MY、MH（進度表見 §1.5）；舊 bible 係 CANDIDATE，唔作定案
 - [ ] 表演文件：作者逐項過目候選（操 4／晴香 2／美夜子 3），可同語音工作坊穿插
 - [ ] **紫音（D-14 新增）**：聲線微場景 1–7 作者已全部揀（5「仲等乜嘢呀，衝啦！」、6「唉，咁煩㗎。」、7「貓，食唔食。」，PROVISIONAL）；自稱／稱呼表已起草；表演文件 2 項候選已揀（坐近出入口背貼牆、嗤笑整場一次）；**auditor 已跑（2026-10-17）：四人 exploratory**

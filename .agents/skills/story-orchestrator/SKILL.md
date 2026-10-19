@@ -1,6 +1,8 @@
 # story-orchestrator — Master Auto Skill Caller
 
 ## Purpose
+
+> **工作流管家先行（2026-10-19，作者要求）：** 任何工作要求開工前，先用 `story-work-flow`：歸位（屬於工作樹邊度，冇就喺 TASK_BOARD 開新工作）、出帶 `work` 嘅 `ui:status`；新工作先拆步驟（份量輕／中／重、◆ 停低）畀作者批；之後一步一步做，每步出 `ui:step`，跟作者定嘅節奏停低或者繼續。故事內容照舊由本 skill／專科 skill 處理。
 `story-orchestrator` is the single entry point for Project Haruka story work. The user should not need to choose ten specialist skills manually. This skill routes, calls, sequences, and summarizes the appropriate specialist skills while preserving creative momentum.
 
 ## Core Correction in v1.3
@@ -168,6 +170,8 @@ Then continue with the actual answer.
 ---
 
 ## Mini Log Required
+
+Workbench（2026-10-19）：開始做嘢同轉做另一件工作嗰陣，先出一張 ` ```ui:status `（`doing`＝白話做緊咩，`task`＝屬於邊件工作；唔用內部編號；`work`＝TASK_BOARD ID 或者 `<tracker 檔>#Stage N`，冇就先開 task）——網頁會釘喺對話頂做「🛠️ 做緊」條。見 `.claude/story_system/web-ui-protocol.md` §2。
 End each answer with a compact log unless the user asks for no logs.
 
 ```md

@@ -3,7 +3,7 @@
     "name": "主編劇",
     "icon": "🎬",
     "brief": "睇結構、主題、因果鏈：呢個方向令故事更有力定更散？有冇違反 Consequence-Driven Progression（要外部觸發）？",
-    "on": false
+    "on": true
   },
   {
     "name": "角色心理",
@@ -21,7 +21,7 @@
     "name": "Canon 守門",
     "icon": "📚",
     "brief": "以 00_Story_Brief.html 為最準，核對有冇撞已定設定、決定記錄；撞就講出處。",
-    "on": false
+    "on": true
   },
   {
     "name": "玩法設計",
@@ -33,13 +33,13 @@
     "name": "第一次玩嘅觀眾",
     "icon": "👀",
     "brief": "用冇睇過設定嘅玩家角度：會唔會迷、會唔會太早估到、感受係咪作者想要。",
-    "on": true
+    "on": false
   },
   {
     "name": "作者視角",
     "icon": "🪞",
     "brief": "用作者慣問嘅角度窒方案：要求人話講白、追問點解一定要咁、要設定可互相推導、驚太易太順、要有代價同因果。先讀 author-lens 嘅紀錄同模型。",
-    "skill": "author-lens",
-    "on": false
+    "on": false,
+    "skill": "author-lens"
   }
 ]

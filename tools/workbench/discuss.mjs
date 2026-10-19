@@ -13,7 +13,7 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
   const all = new Map();
   fs.mkdirSync(DIR, { recursive: true });
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
-    try { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")); d.clients = new Set(); if (d.state === "running") d.state = "stopped"; all.set(d.id, d); } catch {}
+    try { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")); d.clients = new Set(); if (d.state === "running" || d.state === "paused") { d.state = "stopped"; d.waitingMore = false; } /* no loop survives a restart; ＋輪 restarts it */ all.set(d.id, d); } catch {}
   }
   const save = (d) => { const { clients, waiter, ...rest } = d; fs.writeFileSync(path.join(DIR, d.id + ".json"), JSON.stringify(rest)); };
   const emit = (d, ev) => { ev.t = Date.now(); d.events.push(ev); for (const r of d.clients) r.write(`data: ${JSON.stringify(ev)}\n\n`); save(d); };
@@ -31,8 +31,9 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
       if (m.type === "result") { text = m.result || text; cost = m.total_cost_usd || 0; }
       else if (m.type === "assistant") for (const b of m.message.content) {
         if (b.type === "text") text = b.text;
-        else if (b.type === "tool_use" && b.name === "Read" && b.input?.file_path) {
-          const rel = path.relative(REPO, path.resolve(REPO, b.input.file_path)).split(path.sep).join("/");
+        // files it read, and files it searched in (Grep with a file path) — both count as "讀咗" for the author
+        else if (b.type === "tool_use" && ((b.name === "Read" && b.input?.file_path) || (b.name === "Grep" && b.input?.path && /\.\w+$/.test(b.input.path)))) {
+          const rel = path.relative(REPO, path.resolve(REPO, b.input.file_path || b.input.path)).split(path.sep).join("/");
           if (!rel.startsWith("..")) reads.add(rel);
         }
       }
@@ -48,7 +49,8 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
     e.kind === "author" ? `【作者】${e.text}` : `【第${e.round}輪｜${e.role}】${e.text}`).join("\n\n");
 
   const header = (d) => `你喺一個「AI 編劇室」自動討論入面。呢個係 DRAFT 討論，唔係作者批准，唔可以當 canon。
-你只可以讀檔（Read/Grep/Glob），唔可以改任何嘢。設定以 00_Story_Brief.html 為最準，其次 canon/。用廣東話白話，唔用內部編號（QQ-/CDL- 等）同作者以外嘅人講嘢都要講返件事本身。
+你只可以讀檔（Read/Grep/Glob），唔可以改任何嘢。設定以 00_Story_Brief.html 為最準，其次 canon/。用廣東話白話。
+**你寫嘅每一個字都會直接顯示畀作者睇：唔准寫任何內部編號**（例如 QQ-123、CDL-186、TODO:196、P-A14、M5、Stage 6、v4.1），要講返件事本身係咩（例：唔好寫「CDL-186」，寫「熊公仔做 Act III 回收嗰個決定」）。要引證據就寫檔名同大概位置，例如「詞彙表 Emo-Visor 嗰段」。
 
 【題目】${d.topic}
 【範圍——只可以喺呢個範圍內討論，唔好跳層】${d.range || "（未限定）"}
@@ -89,7 +91,7 @@ ${transcript(d)}`;
 ${transcript(d)}`;
 
   const parseJSON = (s) => { const m = s.match(/```json\s*([\s\S]*?)```/) || s.match(/(\{[\s\S]*\})/); try { return JSON.parse(m[1]); } catch { return null; } };
-  const gate = async (d) => { while (d.state === "paused") await new Promise((r) => (d.waiter = r)); };
+  const gate = async (d) => { while (d.state === "paused") await new Promise((r) => (d.waiter = r)); d.asking = ""; };
 
   async function run(d) {
     try {
@@ -114,6 +116,8 @@ ${transcript(d)}`;
         emit(d, { kind: "judge", round, ...j });
         if (j.needs_author) {
           d.state = "paused";
+          d.asking = String(j.needs_author).slice(0, 300); // the sidebar shows "等你" while this is set
+          emit(d, { kind: "state", state: d.state }); // tell the page it is paused (it used to keep saying 傾緊)
           emit(d, { kind: "need_author", question: j.needs_author });
           await gate(d);
         }
@@ -121,7 +125,16 @@ ${transcript(d)}`;
         if (j.stop_reached) { d.stopReason = "已去到停止點"; break; }
         if ((j.consensus ?? 0) >= 0.85) { d.stopReason = "已達成共識"; break; }
         if (j.repetitive && round >= 2) { d.stopReason = "開始兜圈"; break; }
-        if (round === d.maxRounds) d.stopReason = `到咗最多 ${d.maxRounds} 輪`;
+        if (round === d.maxRounds) {
+          // not finished but out of rounds: don't force a summary — pause and let the author add rounds or summarise
+          d.state = "paused"; d.waitingMore = true; d.asking = `傾咗 ${round} 輪未去到停止點，＋輪定總結？`;
+          emit(d, { kind: "state", state: d.state });
+          emit(d, { kind: "need_rounds", round, open: j.open_points || [] });
+          await gate(d);
+          d.waitingMore = false;
+          if (d.state === "stopping") { d.stopReason = `用晒 ${round} 輪，作者叫總結`; break; }
+          if (d.maxRounds <= round) d.stopReason = `到咗最多 ${d.maxRounds} 輪`;
+        }
       }
       d.state = "summarizing";
       emit(d, { kind: "state", state: d.state });
@@ -136,7 +149,7 @@ ${transcript(d)}`;
   }
 
   return {
-    list: () => [...all.values()].map(({ id, topic, state, round, maxRounds, cost, created, links }) => ({ id, topic, state, round, maxRounds, cost, created, links: links || [] })).sort((a, b) => b.created - a.created),
+    list: () => [...all.values()].map(({ id, topic, state, round, maxRounds, cost, created, links, asking, items }) => ({ id, topic, state, round, maxRounds, cost, created, links: links || [], asking: asking || "", items: (items || []).length })).sort((a, b) => b.created - a.created),
     get: (id) => all.get(id),
     start(cfg) {
       const roles = (cfg.roles || []).filter((r) => r && r.name).slice(0, 6).map((r) => ({ name: String(r.name).slice(0, 40), icon: String(r.icon || "🤖").slice(0, 4), brief: String(r.brief || "").slice(0, 600), skill: String(r.skill || "").slice(0, 80) }));
@@ -165,6 +178,10 @@ ${transcript(d)}`;
       } else if (action === "rounds") {
         d.maxRounds = Math.max(+body.rounds || d.maxRounds, d.round || 1);
         emit(d, { kind: "author", text: `（最多輪數改做 ${d.maxRounds}）` });
+        if (d.state === "paused" && d.waitingMore && d.maxRounds > d.round) { d.state = "running"; d.waiter?.(); }
+        else if (["done", "stopped"].includes(d.state) && d.maxRounds > d.round) { // a finished discussion can carry on, then summarise again
+          d.state = "running"; d.stopReason = ""; emit(d, { kind: "author", text: "（作者叫佢繼續傾）" }); run(d);
+        }
       }
       else if (action === "say" && text) { emit(d, { kind: "author", text: String(text).slice(0, 2000) }); if (d.state === "paused") { d.state = "running"; d.waiter?.(); } }
       emit(d, { kind: "state", state: d.state });

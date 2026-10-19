@@ -1,4 +1,5 @@
 # Beta Visual Development Pipeline — DRAFT
+屬於：全作
 
 > **狀態：DRAFT / 未拍板細節。**
 > 作者 2026-09-27 起要求建立「一步一步分開測唔同元素、最後先一次過合成」嘅 visual-development pipeline；2026-09-28 再確認：**清楚優先於靚，benchmark location 唔應該早過基礎 visual-language modules。**

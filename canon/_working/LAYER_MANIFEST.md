@@ -35,3 +35,6 @@
 | `canon/_working/character-voice-workshops/shion_voice_discovery.md` | dialogue | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` | other | `canon/03_characters/ayakomoji_misao.md` | CURRENT |
 | `canon/_working/story_construction/MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md` | other | `canon/_working/story_construction/MISAO_NAMELESS_BOY_CARRIERS_DRAFT.md` | CURRENT |
+| `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl` | other | — | CURRENT |
+| `canon/_working/author_voice/AUTHOR_LENS.md` | other | `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl` | CURRENT |
+| `canon/_working/demo_pilot/VOICE_EVIDENCE_REGRADE_T009.md` | other | `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md` | CURRENT |

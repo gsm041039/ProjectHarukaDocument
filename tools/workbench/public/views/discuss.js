@@ -1,6 +1,7 @@
 // 🤖 自動討論：設定題目＋範圍＋停止點，幾個 AI 角色自己傾，獨立主持人每輪判斷停唔停；你隨時可以暫停、插話、叫停。
 // 討論只讀唔改；結果係 DRAFT，要帶入對話先正式決定。
 import { fileId } from "../links.js";
+import { workCard } from "../workcard.js";
 
 
 export async function render(el, ctx) {
@@ -18,7 +19,9 @@ export async function render(el, ctx) {
     const feed = h("div", { class: "disc-feed" });
     const ctrl = h("div", { class: "disc-ctrl card" });
     el.append(h("div", { class: "toolbar" }, h("button", { class: "small", onclick: () => { f.id = null; f.focus = null; rerender(); } }, "← 全部討論"), h("h2", { style: "margin:0;flex:1" }, "🤖 自動討論")), box);
-    box.append(head, feed, ctrl);
+    // 📋 which piece of work this discussion belongs to — same card as a chat (workcard.js); a discussion is a session too
+    const work = workCard(ctx, () => "DISC:" + f.id);
+    box.append(work.el, head, feed, ctrl);
     let cfg = {}, cost = 0, st = "running", consensus = null, round = 0;
     const control = (action, text, extra = {}) => api(`/api/discuss/${f.id}/control`, { action, text, ...extra }).catch((e) => toast(e.message));
     const said = []; let synth = null, lastJudge = null;
@@ -35,6 +38,8 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
       else newSession(body, "討論：" + (cfg.topic || "").slice(0, 16));
     };
     let castOpen = false, allRoles = null;
+    let pendingAsk = ""; // what the discussion is waiting for the author to answer (shown at the top, so a pause is never silent)
+    const goAsk = () => feed.querySelector(".need-card:not(.answered)")?.scrollIntoView({ behavior: "smooth", block: "center" });
     const castBox = h("div");
     const drawCast = async () => {
       if (!castOpen) return castBox.replaceChildren();
@@ -48,21 +53,26 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
       h("div", { class: "small muted", style: "margin:4px 0 8px" }, `範圍：${cfg.range || "未限定"} ｜ 停止點：${cfg.stop || ""}${cfg.skill ? ` ｜ 方法：${cfg.skill}` : ""}`),
       cfg.links?.length ? h("div", { class: "chips", style: "margin-bottom:8px" }, ...cfg.links.map((l) => h("button", { class: "fchip", onclick: () => ctx.openEntity(l.id) }, "📎 " + l.title.slice(0, 30)))) : null,
       h("div", { class: "disc-meters" },
-        h("span", { class: "pill " + ({ running: "info", paused: "warn", done: "ok", summarizing: "info" }[st] || "") }, { running: "傾緊", paused: "暫停", stopping: "停緊", summarizing: "總結緊", done: "完成", stopped: "停咗" }[st] || st),
+        h("span", { class: "pill " + (st === "paused" && pendingAsk ? "warn" : { running: "info", paused: "warn", done: "ok", summarizing: "info" }[st] || "") }, st === "paused" && pendingAsk ? "⏸ 等緊你答" : { running: "傾緊", paused: "暫停", stopping: "停緊", summarizing: "總結緊", done: "完成", stopped: "停咗" }[st] || st),
         h("span", { class: "small", style: "font-weight:800" }, `第 ${round}／${cfg.maxRounds || "?"} 輪`),
         h("div", { class: "meter", title: "主持人評嘅共識度" }, h("div", { style: `width:${Math.round((consensus ?? 0) * 100)}%` })),
         h("span", { class: "small muted" }, consensus == null ? "共識：未評" : `共識 ${Math.round(consensus * 100)}%`),
-        synth ? h("button", { class: "small primary", onclick: () => { f.focus = "summary"; showSynth(); } }, "📋 睇總結") : null), usedBox);
+        synth ? h("button", { class: "small primary", onclick: () => { f.focus = "summary"; showSynth(); } }, "📋 睇總結") : null),
+      st === "running" ? h("div", { class: "small muted", style: "margin-top:6px" }, "👀 佢哋自己傾緊，你可以淨係睇，唔使做嘢。想插話、轉人、加輪先用下面嘅掣。") : null,
+      pendingAsk ? h("div", { class: "disc-wait" }, h("b", {}, "🙋 討論停低咗，等緊你答："), " ", pendingAsk, " ", h("button", { class: "small primary", onclick: goAsk }, "去答")) : null,
+      usedBox);
     let synthEl = null;
     const showSynth = () => synthEl?.scrollIntoView({ behavior: "smooth", block: "start" });
     const say = h("input", { type: "text", placeholder: "插話：例如「唔好再傾 B3，集中傾 B5」（Enter 送出）", style: "flex:1" });
     say.onEnter = () => { if (say.value.trim()) { control("say", say.value.trim()); say.value = ""; } };
-    const drawCtrl = () => ctrl.replaceChildren(...(["done", "stopped"].includes(st) ? [h("span", { class: "muted", style: "flex:1" }, "討論已經完"), h("button", { class: "small primary", onclick: toChat }, "💬 轉去對話")] : [
+    const more = (n) => { cfg.maxRounds = Math.max(cfg.maxRounds || 0, round) + n; control("rounds", null, { rounds: cfg.maxRounds }); drawHead(); };
+    const drawCtrl = () => ctrl.replaceChildren(...(["done", "stopped"].includes(st) ? [h("span", { class: "muted", style: "flex:1" }, "討論已經完（未夠可以繼續傾）"),
+      h("button", { class: "small", title: "由停低嗰度再傾一輪，傾完會出新總結", onclick: () => more(1) }, "＋1 輪繼續傾"), h("button", { class: "small primary", title: "開一個對話，帶住呢場討論嘅結果同你繼續決定", onclick: toChat }, "💬 帶去對話決定")] : [
       ctx.mic?.(say), say, h("button", { class: "small primary", onclick: () => { if (say.value.trim()) { control("say", say.value.trim()); say.value = ""; } } }, "插話"),
       st === "paused" ? h("button", { class: "small", onclick: () => control("resume") }, "▶ 繼續") : h("button", { class: "small", onclick: () => control("pause") }, "⏸ 暫停"),
       h("button", { class: "small", title: "下一個發言開始換角色", onclick: () => { castOpen = !castOpen; drawCast(); } }, "👥 改角色"),
       h("button", { class: "small", title: "多傾一輪", onclick: () => { cfg.maxRounds = (cfg.maxRounds || 3) + 1; control("rounds", null, { rounds: cfg.maxRounds }); drawHead(); } }, "＋1 輪"),
-      h("button", { class: "small", title: "唔使等傾完，即刻帶住而家嘅內容去對話（討論會繼續，你可以之後叫停）", onclick: toChat }, "💬 轉去對話"),
+      h("button", { class: "small", title: "唔係「睇過程」：呢粒會開一個新對話，叫 AI 帶住而家嘅內容同你決定。呢場討論唔會停，你仍然可以喺度睇。", onclick: () => { if (confirm("開一個新對話，帶住而家傾到嘅內容同你決定？（呢場討論唔會停，你想睇都照睇到）")) toChat(); } }, "💬 帶去對話決定"),
       h("button", { class: "small danger", onclick: () => control("stop") }, "⏹ 停並總結"), castBox]).filter(Boolean));
     // 📚 which files this discussion stood on, and which roles read each one — the discussion ↔ document relations
     const used = new Map();
@@ -93,6 +103,7 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
             ev.reads?.length ? h("div", { class: "disc-reads" }, "📖 讀咗：", ...ev.reads.slice(0, 8).map(fileChip)) : null)));
       }
       if (ev.kind === "author") {
+        pendingAsk = ""; drawHead();
         feed.querySelectorAll(".need-card:not(.answered)").forEach((c) => { c.classList.add("answered"); c.querySelectorAll("input,button").forEach((x) => (x.disabled = true)); });
         add(h("div", { class: "msg user" }, "✋ " + ev.text));
       }
@@ -103,7 +114,20 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
           ev.open_points?.length ? h("div", { class: "small", style: "margin-top:4px" }, "未解決：", ...ev.open_points.map((p) => h("span", { class: "pill" }, p))) : null,
           ev.next_focus ? h("div", { class: "small muted" }, "下一輪焦點：" + ev.next_focus) : null));
       }
+      if (ev.kind === "need_rounds") { // out of rounds but not at the stop point: the author decides, nothing is forced
+        pendingAsk = `傾咗 ${ev.round} 輪，未去到停止點：＋輪、定係就咁總結？`; drawHead();
+        const card = h("div", { class: "card ask need-card", style: "padding:14px" },
+          h("b", {}, `⏸ 傾咗 ${ev.round} 輪，未去到停止點`),
+          ev.open?.length ? h("div", { class: "small", style: "margin-top:4px" }, "仲未解決：", ...ev.open.map((x) => h("span", { class: "pill" }, x))) : null,
+          h("div", { class: "toolbar", style: "margin:8px 0 0" },
+            h("button", { class: "small primary", onclick: () => more(1) }, "＋1 輪"), h("button", { class: "small", onclick: () => more(2) }, "＋2 輪"),
+            h("button", { class: "small", onclick: () => control("stop") }, "就咁總結")));
+        add(card);
+      }
+      if (ev.kind === "state" && ev.state !== "paused" && pendingAsk) { pendingAsk = ""; drawHead(); }
+      if (ev.kind === "state" && st !== "paused") feed.querySelectorAll(".need-card:not(.answered)").forEach((c) => { c.classList.add("answered"); c.querySelectorAll("button,input").forEach((x) => (x.disabled = true)); });
       if (ev.kind === "need_author") {
+        pendingAsk = ev.question; drawHead();
         const ans = h("input", { type: "text", placeholder: "你嘅答案（可以講；Enter 送出）", style: "flex:1" });
         ans.onEnter = () => ans.value.trim() && control("say", ans.value.trim());
         add(h("div", { class: "card ask need-card", style: "padding:14px" }, h("b", {}, "🙋 主持人想你拍板：" + ev.question),
@@ -149,7 +173,7 @@ ${ask}`, title.slice(0, 24));
           return h("label", { class: "item-act" },
             h("input", { type: "checkbox", checked: picks.has(r.id), disabled: r.type === "keep", onchange: (e) => (e.target.checked ? picks.set(r.id, r.type) : picks.delete(r.id)) }),
             h("span", { class: "pill" + (r.type === "keep" ? "" : " warn") }, label(r.type)),
-            h("span", { style: "flex:1" }, h("b", {}, it.title.slice(0, 60)), h("div", { class: "small muted" }, r.reason || "")));
+            h("span", { style: "flex:1", title: it.title }, h("b", {}, ctx.plain(it.title)), h("div", { class: "small muted" }, ctx.strip(r.reason || "") || r.reason || "")));
         }),
         h("div", { class: "actions" }, run));
     };
@@ -243,7 +267,8 @@ ${ask}`, title.slice(0, 24));
   const ordered = [];
   const walk = (n) => { if (scopes.includes(n)) ordered.push(n); for (const c of kids[n.id] || []) walk(c); };
   tree.filter((n) => !n.parent).sort((a, b) => a.order - b.order).forEach(walk);
-  const rp = (state.rangePick ||= { scope: (ordered.find((n) => n.layer === "beat" && n.current === "CURRENT") || ordered[0])?.id, a: null, b: null });
+  // start at the top of the structure (全作), not at one Act's beats — the topic decides how deep to go
+  const rp = (state.rangePick ||= { scope: ordered[0]?.id, a: null, b: null });
   const pickBox = h("div", { class: "range-pick" });
   const label = (n) => ctx.strip(n.title) || n.title;
   const drawPick = () => {
@@ -281,7 +306,8 @@ ${ask}`, title.slice(0, 24));
   }));
   drawChars();
   // 🧭 AI 理解：reads story-auto-discussion + the linked files, says what it understood, proposes set-ups as buttons
-  const plan = (f.plan ||= { state: "idle", data: null, key: "" });
+  const plan = (f.plan ||= { state: "idle", data: null, key: "", answers: {} });
+  plan.answers ||= {};
   const planBox = h("div", { class: "card plan-card" });
   const rangeChips = h("div", { class: "chips" }), stopChips = h("div", { class: "chips" });
   const drawChips = () => {
@@ -305,13 +331,27 @@ ${ask}`, title.slice(0, 24));
       plan.state === "error" ? h("div", { class: "msg error" }, plan.err) : null,
       plan.state === "idle" && !pd ? h("div", { class: "small muted" }, "寫低題目或者連住啲嘢，再撳「叫 AI 幫我設定」；由對話／問題／beat 帶過嚟嘅會自動開始。") : null,
       pd ? h("div", { class: "plan-understand" }, pd.understanding) : null,
+      // 📌 what the setting is now (so the author can see at once whether the AI got it right) + where it read it
+      pd?.current ? h("div", { class: "plan-current" }, h("b", {}, "📌 而家嘅設定："), " ", pd.current,
+        (pd.sources || []).length ? h("div", { class: "chips", style: "margin-top:6px" }, ...pd.sources.map((s) => h("button", { class: "fchip", title: s.note || "", onclick: () => ctx.openFile(s.file) }, "📄 " + String(s.file).split("/").pop()))) : null) : null,
+      pd?.big ? h("div", { class: "plan-warn" }, "⚠️ 呢個題目會改已經確認咗嘅設定：討論結果只係草稿，要你批先會改。") : null,
+      // guiding questions first: the author answers, then the AI proposes set-ups that fit the answers
+      pd?.questions?.length ? h("div", { class: "plan-qs" }, h("b", {}, "🙋 開始之前想問你："),
+        ...pd.questions.map((q) => { const own = h("input", { type: "text", placeholder: "或者自己寫", value: plan.answers[q.q] && !q.options.includes(plan.answers[q.q]) ? plan.answers[q.q] : "", oninput: (e) => { plan.answers[q.q] = e.target.value; } });
+          return h("div", { class: "plan-q" }, h("div", { style: "font-weight:700" }, q.q),
+            h("div", { class: "chips" }, ...(q.options || []).map((o) => h("button", { class: "chip" + (plan.answers[q.q] === o ? " on" : ""), onclick: () => { plan.answers[q.q] = o; drawPlan(); } }, o)), own)); }),
+        h("div", { class: "toolbar", style: "margin:8px 0 0" },
+          h("button", { class: "small primary", onclick: () => runPlan() }, "✅ 答完，出討論方向"),
+          h("button", { class: "small", onclick: () => { plan.answers["（作者跳過引導問題）"] = "直接出方向"; runPlan(); } }, "跳過，直接出方向"))) : null,
       pd?.proposals?.length ? h("div", { class: "plan-props" }, ...pd.proposals.map((pr) => h("button", { class: "pp-sugg", onclick: () => applyPlan(pr) },
         h("div", { class: "l" }, pr.label), h("div", { class: "w" }, pr.why), h("div", { class: "w" }, `👥 ${(pr.roles || []).join("、") || "（你揀）"} · ${pr.rounds || 3} 輪`)))) : null,
     ].filter(Boolean));
   };
   async function runPlan() {
-    plan.state = "loading"; plan.key = JSON.stringify([topic.value.trim(), d.context, d.links.map((l) => l.id)]); drawPlan();
-    try { plan.data = await api("/api/discuss/plan", { topic: topic.value.trim(), context: d.context, links: d.links }); plan.state = "done"; }
+    const key = JSON.stringify([topic.value.trim(), d.context, d.links.map((l) => l.id)]);
+    if (key !== plan.key) plan.answers = {}; // new topic: earlier answers no longer apply
+    plan.state = "loading"; plan.key = key; drawPlan();
+    try { plan.data = await api("/api/discuss/plan", { topic: topic.value.trim(), context: d.context, links: d.links, answers: plan.answers }); plan.state = "done"; }
     catch (e) { plan.state = "error"; plan.err = e.message; }
     drawPlan(); drawChips();
   }
@@ -326,6 +366,7 @@ ${ask}`, title.slice(0, 24));
     const { id } = await api("/api/discuss", { topic: topic.value.trim(), range: range.value.trim(), stop: stopIn.value.trim(), context: d.context, links: d.links, from: d.from || "",
       skill: d.skill, skillChoice: d.skillChoice, roles: on, maxRounds: +rounds.value, model: modelSel.value, items: d.items || [], actions: d.actions || [] });
     f.draft = null; f.plan = null; f.id = id; rerender();
+    ctx.syncURL?.(); // the discussion's address (back/forward, bookmarks) once it has an id
   };
   drawChips();
 

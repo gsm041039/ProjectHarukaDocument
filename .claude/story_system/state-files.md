@@ -47,6 +47,12 @@
 - 產出新版本、降級舊版、writeback 時順手更新
 - 網頁文件地圖靠佢顯示「衍生」關係同新舊版本
 
+## 8. 工作樹同步驟檔（2026-10-19 新增，`story-work-flow`）
+- TASK_BOARD 最尾一欄「屬於」：工作喺工作樹（全作 › Act › 大流程 › 工作）邊度。
+- `canon/_working/tasks/<ID>.md`：每件工作嘅步驟計劃（`## Stage N — 名 〔輕／中／重〕 \`狀態\``，◆＝停低等作者；檔頭 `類型：task`／`屬於：`／`節奏：每步停｜自動`）。
+- pipeline tracker 檔頭 `屬於：Act X`。
+- 都係工作狀態、唔承載故事真相；作者喺網頁撳嘅節奏／◆／份量會直接改呢啲記號。
+
 ## Mandatory update sequence before stop
 1. 更新 `PROJECT_STATUS.md`
 2. 更新 `SESSION_LEDGER.md`

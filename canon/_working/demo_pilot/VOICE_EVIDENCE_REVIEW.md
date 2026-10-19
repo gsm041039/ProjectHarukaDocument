@@ -215,3 +215,65 @@
 2. Stage 8：補上表缺口（B8、天台美夜子事實長句、晴香餵糖、M2 提議、操 U1 重配觸發）；「貓，食唔食。」Native Gate；紫音 V5 Batch 2 「佳」錯字修正。
 3. 交 `story-dialogue-readiness-gate`（Stage 10 前）附本 re-audit。
 
+
+---
+
+# Re-audit #3 — 2026-10-19（T-009：新分級＋新 Beat 缺口微場景；操／美夜子／晴香）
+
+> **[DRAFT / 暫定 — pending full-story beat lock]** ｜ 審核對象：`VOICE_EVIDENCE_REGRADE_T009.md`＋三份 workshop 新節（美夜子 §9 MY4–MY7、晴香 §10 MH7–MH10、操 M6–M9）＋三張覆核稱呼表 ｜ Requested：`VOICE_READY_FOR_EXPLORATORY_DIALOGUE` ｜ 方法：直接核對，0 sub-agent；canon 句逐一開原檔核；語料分數 2026-10-19 重 build 後全部重跑（不沿用舊分數）
+
+## 結論（簡單講）
+三人仍然夠做 **探索性 demo 對白草稿**（帶 [DRAFT] 章），但**新微場景嘅候選全部未經作者揀**，所以新 Beat 缺口位只算「候選已備」，唔算「可入稿」。今次最大收穫係兩個 canon 逐字句被重新認出（燈塔句、餵糖句），最大風險係三個 Beat 層矛盾要先定位置。審核過程搵到 **1 個我自己初稿嘅錯**（E-01 句誤標位置衝突），已即時改正。
+
+## Achieved level
+| 角色 | Achieved | 新增可用 | 仍然唔可用 |
+|---|---|---|---|
+| 操 | `VOICE_READY_FOR_EXPLORATORY_DIALOGUE` | B8 冷處理（O1–O3 待揀）；M5／M4 零台詞（暫定）| 穿搭批評整組（觸發已失，等 R-a／R-b／R-c）；場6「那是什麼人？」|
+| 美夜子（貓）| `VOICE_READY_FOR_EXPLORATORY_DIALOGUE`（窄）| 天台使命（MY4）、交槍（MY5）、燈塔句（MY6，**canon 原句 L0 可直接用**）、M2 提議（MY7）候選 | 所有句「若聽得到」未答；人形語言 |
+| 晴香 | `VOICE_READY_FOR_EXPLORATORY_DIALOGUE` | 天台驚／問（MH7）、燈塔問（MH8）、餵糖（MH9：**canon 原句 F1 可直接用**）、M5 拉人（MH10）候選 | 「好人」類、「你冇事吖嘛」場4 |
+
+## (1) 核對結果
+| # | 檢查 | 結果 |
+|---|---|---|
+| 1 | 燈塔句 canon 來源 | ✔ CDL-089（`CANON_DECISION_LOG.md` 第 193 行，AC 2026-03-30）＋`miyako.md` 第 180 行，逐字一致 |
+| 2 | 餵糖句 canon 來源 | ✔ CDL-052（第 147 行）＋`ACT_I_OUTLINE.md` 第 156 行＋`iwakura_akane.md` 第 162 行，三處逐字一致 → `CANON_AC_VERBATIM` |
+| 3 | 「停下來！妳想被扭斷嗎？！」來源 | ✔ `miyako.md` 第 254 行（習慣 #3），之前「來源未核」已解；仍淘汰（作者風格＋凜創傷觸發，Act I 無觸發 beat）|
+| 4 | CDL-109／272 | ✔ CDL-272 令「交予裝置」描述要重核；E-01 句屬 demo 範圍外 |
+| 5 | **自查錯誤** | 初稿將「用它。現在。」「咩嚟㗎？／交畀我！」標 `POSITION_CONFLICT`（話 V4.1 冇位）；核實 V4.1 由 N1 起手、E-01 係範圍外 → 已改 `OUT_OF_RANGE`。同時「場1 街頭 IG 已冇」改為「現行 Beat 冇逐字對應」|
+| 6 | 語料數字 | ✔ 全部新句重跑 `score`；「唔使客氣」（97，You're welcome 義）因功能相反，已寫明不採用——**分數高≠合用** |
+| 7 | 專有名詞影響 | ⚠ 句入面有「操／美夜子」會令分數偏低（MH8 W2＝22、MH10 X1／X2），已喺節首註明；唔可以當句式不自然 |
+| 8 | 標籤 | ✔ 新候選全部 `VOICE_CANDIDATE`；canon 句標 `CANON_AC_VERBATIM`；改動句標 NATURALIZATION |
+| 9 | 時期洩漏 | ✔ 無「我唔會走」、人形語言、Act II 崩潰語；MY6 只講「屍骸跟住我」，**無「持有者被追殺」**（W3 已列出但標不建議）|
+| 10 | 心理標籤單一解釋 | ⚠ 操「先評形、後動手」仍係 5+4 個微場景內部一致，無第二來源；R-b（嫌環境）會令它由「評人」變「評環境」，等於一個新用法，唔升規則 |
+
+## (2) Unsupported or Overstated（今次新增）
+- MY6 L1「我去邊度，屍骸跟到邊度」係重複對仗；作者曾決定唔列言5（對仗短句）為言癖。L1 只係解說句例外，**唔可以當新言癖**。
+- MY4 候選 A 三句全是「事實」，同美夜子引擎「極短、白直」貼合，但「會傷人」係評價式動詞（輕微感受）；Blind Attribution 要測。
+- MH7 N2-c「我而家都仲喺度震」唔含「驚」，Beat 要求「直接講自己驚」：未必符合。
+- M7 R-b「污糟」同 canon 操用語「污糟晒我對眼」重疊 → 變口頭禪風險。
+- 稱呼表「操唔回叫名」係 INFERRED（canon 冇證據）。
+
+## (3) Beat 層矛盾（要先定，唔係聲線層可以解）
+1. 燈塔句放 B8 定 M2（V4.1 vs V5 Batch 5／6 不一致）。
+2. V5 Batch 5 B8 寫「晴香問美夜子點解**操**會成日喺學校」——疑似筆誤，CDL-089 係「點解美夜子去學校」。
+3. V4.1 M2 寫美夜子講「屍骸會搵上持有裝置嘅人」，盲審 B 已指出會交咗「持有＝被迫戰鬥」代價。
+4. 穿搭批評 beat 已冇，但操四個言癖仍靠佢示範。
+5. 另（上一輪留下）：V4.1 刪「下顎擦傷做牙前兆」，V5 B5 又寫返。
+
+## Relationship-Voice Gaps（仍然開放）
+- 晴香×美夜子：天台私下口吻（稱呼）同 B8 公開口吻未核。
+- 美夜子×操：M2 提議後操嘅反應只得 R-b 候選；兩人直接對話仍然零。
+- 操×紫音、紫音×晴香（餵糖後）：只靠紫音檔。
+
+## Safe To Use Now
+- Stage 10 探索草稿：燈塔句 L0（canon 原句）、餵糖句 F1（canon 原句）；其餘作者已揀句；新候選唔入稿直至作者揀。全稿 `[DRAFT / 暫定]`。
+
+## Must Not Use Yet
+- 任何 MY4–MY7／MH7–MH10／M6–M9 候選當作者選擇；穿搭批評整組（觸發失）；MH8 W3；MY7 N2；任何言癖或引擎寫入 canon；polished／recording。
+
+## Required Next Work
+1. 作者聽感：揀新微場景（美夜子 MY4 A／B／C、MY5 H1–H3、MY6 L0–L2、MY7；晴香 MH7–MH10；操 M6、M7 方向）＝tracker 該項 ⑤。
+2. Beat 層定 (3) 五點。
+3. 四人 Blind Attribution（含新句，重點：美夜子 MY4 A vs 操 O3；晴香 X2 vs 操「過嚟」）。
+4. Stage 8：補 M2 操／紫音反應、場6 句、Native Cantonese Gate 逐句覆核（新句仍只做語料，未做真人聽感）。
+5. 交 `story-dialogue-readiness-gate` 附本節。

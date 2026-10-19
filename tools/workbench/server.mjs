@@ -10,6 +10,7 @@ import { query, listSessions, getSessionMessages, renameSession } from "@anthrop
 import { createDiscussions } from "./discuss.mjs";
 
 const PORT = Number(process.env.WORKBENCH_PORT || 4317);
+process.env.HARUKA_WORKBENCH = "1"; // inherited by every Claude run we start: the author-prompt hook skips them (this server logs typed text itself)
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(HERE, "..", "..");
 const PUBLIC = path.join(HERE, "public");
@@ -18,7 +19,12 @@ const PROTOCOL_VERSION = 1;
 // task id -> Claude session id, so "繼續" can reopen the same conversation after a restart (UI state, not story data).
 const LINKS_FILE = path.join(REPO, "canon/_working/.tmp/workbench/task_sessions.json");
 const readLinks = () => { try { return JSON.parse(fs.readFileSync(LINKS_FILE, "utf8")); } catch { return {}; } };
-const saveLink = (task, sid) => { const l = readLinks(); l[task] = sid; fs.mkdirSync(path.dirname(LINKS_FILE), { recursive: true }); fs.writeFileSync(LINKS_FILE, JSON.stringify(l, null, 1)); };
+// task → latest chat (for 「繼續」), plus _bySession: chat → every piece of work it belongs to (for the chat's progress card)
+const saveLink = (task, sid) => {
+  const l = readLinks(); l[task] = sid;
+  const by = (l._bySession ||= {}); by[sid] = [...new Set([...(by[sid] || []), task])].slice(-6);
+  fs.mkdirSync(path.dirname(LINKS_FILE), { recursive: true }); fs.writeFileSync(LINKS_FILE, JSON.stringify(l, null, 1));
+};
 
 // Commands that always need the author's click, even though everything else runs unattended.
 // internal codes the author can't read: QQ-12, CDL-125, E-09, M5, B7, G4, D-17-G4, v4.1, V5, Batch 6, Stage 2a, Phase 3
@@ -46,6 +52,26 @@ function touch(s, name, input) {
   rec.title = s.title; rec.t = Date.now();
   if (rec.files[rel] !== "edit") rec.files[rel] = kind;
   touchTimer ||= setTimeout(() => { touchTimer = null; fs.writeFileSync(TOUCHED_FILE, JSON.stringify(touched)); }, 1000);
+  if (kind === "edit") logActivity({ kind: "edit", sid: key, title: s.title, file: rel, reason: s.lastDoing || "" });
+}
+
+// 📜 工作紀錄: one line per file change (which chat, which file, why) and per tray item the author sent.
+// Written by the server itself, so it never depends on the AI remembering to log. Local to this computer.
+const ACTIVITY_FILE = path.join(REPO, "canon/_working/.tmp/workbench/activity.jsonl");
+const lastAct = new Map(); // "sid|file" -> time: several edits to one file in one go count as one line
+function logActivity(ev) {
+  const k = `${ev.sid}|${ev.file || ev.note}`;
+  if (ev.kind === "edit" && Date.now() - (lastAct.get(k) || 0) < 120000) return;
+  lastAct.set(k, Date.now());
+  try { fs.appendFileSync(ACTIVITY_FILE, JSON.stringify({ t: Date.now(), ...ev }) + "\n"); } catch {}
+}
+function readActivity() {
+  let rows = [];
+  try { rows = fs.readFileSync(ACTIVITY_FILE, "utf8").split("\n").filter(Boolean).map((l) => JSON.parse(l)); } catch {}
+  if (!rows.length) // first run: rebuild what we can from the conversation ↔ file records (time = the chat's last activity)
+    rows = Object.entries(touched).flatMap(([sid, r]) => Object.entries(r.files || {}).filter(([, k]) => k === "edit")
+      .map(([file]) => ({ t: r.t || 0, kind: "edit", sid, title: r.title || "", file, reason: "", backfill: true })));
+  return rows.slice(-4000);
 }
 const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"));
 const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"),
@@ -124,27 +150,48 @@ function historyEvents(msgs) {
 
 const readConfig = () => { try { return JSON.parse(fs.readFileSync(path.join(HERE, "ui_config.json"), "utf8")); } catch { return {}; } };
 
+// Names canon itself says are superseded ("取代舊稿「X」" / "取代…「X」"): the planner must not treat them as current.
+function supersededNames() {
+  const out = new Set();
+  const scan = (f) => { try { for (const m of fs.readFileSync(f, "utf8").matchAll(/取代[^「『\n]{0,12}[「『]([^」』\n]{2,24})[」』]/g)) out.add(m[1]); } catch {} };
+  const canon = path.join(REPO, "canon");
+  for (const f of fs.readdirSync(canon)) if (f.endsWith(".md")) scan(path.join(canon, f));
+  for (const f of fs.readdirSync(path.join(canon, "03_characters"))) if (f.endsWith(".md")) scan(path.join(canon, "03_characters", f));
+  return [...out].slice(0, 40);
+}
+
 // 🧭 auto-discussion planner: reads the skill + linked files, says what it understood, proposes 2–4 ready-made set-ups
 async function planDiscussion(seed) {
   const cfg = readConfig();
   let roles = [];
   try { roles = JSON.parse(fs.readFileSync(path.join(HERE, "discuss_roles.json"), "utf8")).map((r) => r.name); } catch {}
   const links = (Array.isArray(seed.links) ? seed.links : []).slice(0, 12).map((l) => `- ${l.id}｜${l.title || ""}${l.file ? "（" + l.file + "）" : ""}`).join("\n");
-  const prompt = `你係 Haruka Workbench 嘅「自動討論設定助手」。先 Read .claude/skills/story-auto-discussion/SKILL.md，再按需要讀下面連住嘅文件（只讀，唔改任何嘢，最多讀 6 個檔）。
+  const superseded = supersededNames();
+  const answers = Object.entries(seed.answers || {}).filter(([, a]) => a).map(([q, a]) => `- ${q} → ${a}`).join("\n");
+  const prompt = `你係 Haruka Workbench 嘅「自動討論設定助手」。先 Read .claude/skills/story-auto-discussion/SKILL.md，再按需要讀下面連住嘅文件（只讀，唔改任何嘢，最多讀 8 個檔）。
 作者想開一場自動討論。種子：
 【題目／作者講嘅】${String(seed.topic || "").slice(0, 1500) || "（未講，靠連住嘅嘢同背景推斷）"}
 【背景】${String(seed.context || "").slice(0, 800) || "（冇）"}
 【連住嘅嘢】
 ${links || "（冇）"}
+【作者已經答咗嘅引導問題】
+${answers || "（未答）"}
 可用角色（roles 只可以由呢度揀）：${roles.join("、")}
 
-做三件事：
-1. 用一兩句白話講你理解作者想傾咩、而家卡喺邊（唔准有內部編號 QQ-/CDL-/E-xx/M5/v4.1/Batch 等，作者睇得到）。
-2. 出 2–4 個唔同方向嘅討論設定（例如：比較幾個做法／搵漏洞／壓力測試某段／收窄範圍），每個要真係唔同。
-3. 按呢個話題建議 2–4 句「範圍」同 2–4 句「停止點」畀作者揀。
+先做 source check（必做）：用 Grep 喺 00_Story_Brief.html（最準）同 canon/ 嘅正式文件（唔計 canon/_working）搵呢個題目而家嘅設定。
+**小心舊稿**：見到「取代舊稿 X」「舊稿」「已作廢」「superseded」，X 就唔係現行，唔可以當而家嘅設定。
+canon 自己寫明已被取代嘅舊稱（用咗呢啲字都唔可以當現行）：${superseded.join("、") || "（暫時冇）"}。有啲 canon 文件仲未改走舊稱，所以以角色檔、Brief 同決定紀錄寫嘅最新叫法為準；每次出答案都要照呢個規矩，唔論作者有冇答引導問題。
+
+然後：
+1. understanding：一兩句白話講你理解作者想傾咩、而家卡喺邊。
+2. current：一兩句白話講「而家嘅設定係乜」，sources 列你根據嘅檔（2–4 個，附一句佢講咩）。
+3. big：呢個題目會唔會改已經確認咗嘅設定（true／false）。
+4. 如果題目含糊，或者 big 係 true，**而且作者未答引導問題**：出 questions 2–3 條引導問題，幫作者搵出真正目的（例如點解想改、想要邊種結果、有咩一定要留），每條 2–4 個白話選項；呢個情況 proposals 留空 []。
+   否則（作者已經答咗，或者題目清楚又唔改已確認嘅嘢）：questions 留空，按作者嘅答案出 2–4 個真係唔同嘅討論方向，同 2–4 句「範圍」、2–4 句「停止點」。
+所有字作者都睇到：唔准有內部編號（QQ-/CDL-/E-xx/M5/v4.1/Batch/Stage 等），講返件事本身。唔好寫錢或者 US$。
 只輸出一個 JSON（放喺 \`\`\`json 入面）：
-{"understanding":"…","proposals":[{"label":"≤12字方向名","why":"一句：點解咁傾＋代價（幾多輪／大約幾錢）","topic":"討論題目（白話）","range":"範圍","stop":"停止點","roles":["角色名"],"rounds":3,"links":[{"id":"實體 id","title":"白話名","file":"repo 相對路徑"}]}],"ranges":["…"],"stops":["…"]}
-links 只放你確認存在、真係相關嘅（可以沿用種子嘅）。`;
+{"understanding":"…","current":"…","sources":[{"file":"repo 相對路徑","note":"一句"}],"big":true,"questions":[{"q":"問題","options":["選項"]}],"proposals":[{"label":"≤12字方向名","why":"一句：點解咁傾＋代價（幾多輪、要讀幾多嘢）","topic":"討論題目（白話）","range":"範圍","stop":"停止點","roles":["角色名"],"rounds":3,"links":[{"id":"實體 id","title":"白話名","file":"repo 相對路徑"}]}],"ranges":["…"],"stops":["…"]}
+links 只放你確認存在、真係相關嘅（可以沿用種子嘅）；proposals 嘅 range 要寫明以 current 講嘅現行設定為準。`;
   let text = "";
   for await (const m of query({ prompt, options: {
     cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, model: cfg.planner_model || undefined,
@@ -219,7 +266,15 @@ function createSession({ title, resume, task, model, effort, agentCap }) {
             emit(s, { kind: "delta", text: e.delta.text });
         } else if (m.type === "assistant" && !m.parent_tool_use_id) {
           for (const b of m.message.content) {
-            if (b.type === "text") emit(s, { kind: "text", text: b.text });
+            if (b.type === "text") {
+              emit(s, { kind: "text", text: b.text });
+              // a ui:status that names the work (TASK_BOARD id, or "<tracker file>#Stage N") links this chat to it for good
+              for (const m of b.text.matchAll(/```ui:step\s*([\s\S]*?)```/g)) { try { stepModel(s, JSON.parse(m[1])); } catch {} }
+              for (const m of b.text.matchAll(/```ui:status\s*([\s\S]*?)```/g)) {
+                try { s.lastDoing = String(JSON.parse(m[1]).doing || s.lastDoing || "").slice(0, 200); } catch {}
+                try { const w = JSON.parse(m[1]).work; if (w && s.sdkSessionId) { saveLink(String(w).slice(0, 300), s.sdkSessionId); emit(s, { kind: "work", work: String(w) }); } } catch {}
+              }
+            }
             else if (b.type === "tool_use") {
               s.toolNames.set(b.id, b.name);
               // One plain line for the overview: current step if Claude keeps a todo list, else the tool it is using.
@@ -319,8 +374,35 @@ async function getUsage(force) {
   })());
 }
 
+// 〔輕／中／重〕 step weight -> model (ui_config.json step_models). Heavy steps and steps the author must approve never
+// go below the floor model. A model the author picked by hand in this chat always wins.
+const RANK = { haiku: 0, sonnet: 1, opus: 2 };
+function stepInfo(work, code) {
+  try { const idx = JSON.parse(fs.readFileSync(INDEX_JSON, "utf8")); const [file] = String(work || "").split("#");
+    return idx.pipelines?.rows?.find((p) => p.file === file)?.stages?.find((x) => x.code === code) || null; } catch { return null; }
+}
+async function stepModel(s, st) {
+  if (!st || !["in_progress", "start", "doing"].includes(String(st.status || "")) || s.modelPinned) return;
+  const cfg = readConfig().step_models || {};
+  const info = stepInfo(st.work, st.step);
+  const weight = st.weight || info?.weight || "";
+  let model = cfg[weight];
+  if (!model) return;
+  const floor = cfg._floor_for_heavy_or_gate || "sonnet";
+  if ((weight === "重" || st.gate || info?.author_gate) && (RANK[model] ?? 9) < (RANK[floor] ?? 0)) model = floor;
+  if (model === s.model) return;
+  s.model = model;
+  await s.q.setModel(model).catch(() => {});
+  emit(s, { kind: "model", model, note: `呢步用 ${model}（${weight}）` });
+}
+
 function sendMessage(s, text) {
   emit(s, { kind: "user", text });
+  // the tray (待送出) arrives as a ui:intent block: every item the author approved goes into 工作紀錄
+  for (const m of String(text).matchAll(/```ui:intent\s*([\s\S]*?)```/g)) {
+    try { for (const it of JSON.parse(m[1]).intents || [])
+      logActivity({ kind: "intent", sid: s.sdkSessionId || s.id, title: s.title, file: it.payload?.file || "", note: String(it.note || it.type).slice(0, 300), type: it.type, target: String(it.target || "").slice(0, 120) }); } catch {}
+  }
   setStatus(s, "running");
   s.inbox.push({ type: "user", message: { role: "user", content: text }, parent_tool_use_id: null });
 }
@@ -431,6 +513,12 @@ const server = http.createServer(async (req, res) => {
         ]);
         return json(res, 200, { status, log });
       }
+      if (url.pathname === "/api/activity") { // 📜 工作紀錄: logged changes + recent commits with their files
+        const log = await run("git", ["log", "-n", "60", "--date=iso-strict", "--pretty=format:@@%h%x09%ad%x09%s", "--name-only"]);
+        const commits = log.split("@@").filter(Boolean).map((blk) => { const [head, ...files] = blk.trim().split("\n");
+          const [hash, date, msg] = head.split("\t"); return { hash, t: Date.parse(date) || 0, msg, files: files.map((x) => x.trim()).filter(Boolean) }; });
+        return json(res, 200, { events: readActivity(), commits });
+      }
       if (url.pathname === "/api/git/diff") {
         const file = url.searchParams.get("path") || "";
         const commit = url.searchParams.get("commit") || "";
@@ -495,6 +583,38 @@ const server = http.createServer(async (req, res) => {
         try { return json(res, 200, JSON.parse(fs.readFileSync(file, "utf8"))); } catch { return json(res, 200, []); }
       }
 
+      // stepper buttons: pace (每步停／自動) for the whole work, and per step ◆ (stop for the author) and 〔輕／中／重〕.
+      // Only these work-state markers in a tracker / step file under canon/_working are touched — never story text.
+      if (url.pathname === "/api/work/step" && req.method === "POST") {
+        const b = await readBody(req);
+        const full = inside(REPO, String(b.file || ""));
+        if (!full || !String(b.file).startsWith("canon/_working/") || !full.endsWith(".md") || !fs.existsSync(full)) return json(res, 400, { error: "唔係工作檔" });
+        let text = fs.readFileSync(full, "utf8");
+        if (b.pace) {
+          const pace = b.pace === "自動" ? "自動" : "每步停";
+          text = /^\s*[-*]?\s*\**節奏\**\s*[:：].*$/m.test(text) ? text.replace(/^(\s*[-*]?\s*\**節奏\**\s*[:：]).*$/m, `$1${pace}`)
+            : text.replace(/^(# .*\n)/, `$1節奏：${pace}\n`);
+        }
+        if (b.code) {
+          const esc = String(b.code).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+          const re = new RegExp(`^(#{2,4}\\s*${esc}(?![\\d.])[^\\n]*)$`, "m");
+          const m = text.match(re);
+          if (!m) return json(res, 404, { error: "搵唔到呢步" });
+          let line = m[1];
+          if (b.weight !== undefined) { line = line.replace(/\s*〔[^〕]*〕/g, ""); if (["輕", "中", "重"].includes(b.weight)) line = line.replace(/(\s*`[^`]*`)?\s*$/, ` 〔${b.weight}〕$1`); }
+          if (b.gate !== undefined) { line = line.replace(/\s*◆/g, ""); if (b.gate) line = line.replace(/(\s*`[^`]*`|\s*〔[^〕]*〕)*\s*$/, (t) => " ◆" + t); }
+          text = text.replace(m[1], line);
+        }
+        fs.writeFileSync(full, text);
+        buildIndex(true).catch(() => {});
+        return json(res, 200, { ok: true });
+      }
+      if (url.pathname === "/api/link" && req.method === "POST") { // attach any conversation (live or past) to a piece of work
+        const b = await readBody(req);
+        if (!/^([0-9a-f-]{36}|DISC:[a-z0-9]+)$/.test(String(b.sid || "")) || !b.work) return json(res, 400, { error: "要 sid 同 work" });
+        saveLink(String(b.work).slice(0, 300), b.sid);
+        return json(res, 200, { ok: true, links: readLinks() });
+      }
       if (url.pathname === "/api/lens") {
         if (req.method === "POST") { updateLens(); return json(res, 200, lensStatus()); }
         return json(res, 200, { ...lensStatus(), summary: lensState().summary || "" });
@@ -539,7 +659,7 @@ const server = http.createServer(async (req, res) => {
         let named = false;
         for (const p of past) if (touched[p.sessionId] && !touched[p.sessionId].title) { touched[p.sessionId].title = p.title.slice(0, 60); named = true; }
         if (named) fs.writeFileSync(TOUCHED_FILE, JSON.stringify(touched));
-        return json(res, 200, { live, past, links: readLinks() });
+        return json(res, 200, { live, past, links: readLinks(), discussions: discussions.list().slice(0, 40) });
       }
 
       if (url.pathname === "/api/sessions" && req.method === "POST") {
@@ -588,6 +708,7 @@ const server = http.createServer(async (req, res) => {
         if (action === "interrupt") { await s.q.interrupt().catch(() => {}); return json(res, 200, { ok: true }); }
         if (action === "model") {
           s.model = String(body.model || "");
+          s.modelPinned = !!s.model; // the author picked a model by hand: step weights stop switching it
           await s.q.setModel(s.model || undefined);
           emit(s, { kind: "model", model: s.model });
           return json(res, 200, { ok: true });
@@ -596,6 +717,11 @@ const server = http.createServer(async (req, res) => {
           s.effort = String(body.effort || "");
           await s.q.applyFlagSettings({ effortLevel: s.effort || null }); // null = back to the model's default
           emit(s, { kind: "effort", effort: s.effort });
+          return json(res, 200, { ok: true });
+        }
+        if (action === "link") { // the author attaches this chat to a piece of work by hand
+          if (!s.sdkSessionId) return json(res, 409, { error: "對話未開始，傾咗第一句先掛得" });
+          saveLink(String(body.work || "").slice(0, 300), s.sdkSessionId); emit(s, { kind: "work", work: String(body.work) });
           return json(res, 200, { ok: true });
         }
         if (action === "rename") {

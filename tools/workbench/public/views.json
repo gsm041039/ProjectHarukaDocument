@@ -126,5 +126,13 @@
     "icon": "🛤️",
     "order": 0.5,
     "state": "flowPick"
+  },
+  {
+    "id": "activity",
+    "name": "工作紀錄",
+    "icon": "📜",
+    "order": 11.5,
+    "group": "文件",
+    "state": "actPick"
   }
 ]

@@ -98,6 +98,7 @@ def parse_tasks():
             "files": [f.strip(" `") for f in re.split(r"[、,，]", r[4]) if f.strip(" `-")],
             "needs_author": r[5].upper().startswith("Y") or r[5].startswith("是"),
             "updated": r[6] if len(r) > 6 else "",
+            "parent": strip_md(r[7]) if len(r) > 7 else "",  # 屬於：where this task sits in the work tree
         })
     return out
 
@@ -210,6 +211,8 @@ def matrix_state(label: str) -> str | None:
         return "blocked"
     if "INFERRED" in s:
         return "inferred"
+    if "PROVISIONAL" in s or "暫定" in s:  # author picked it for now: not settled yet
+        return "blocked"
     if re.search(r"SOURCE_SUPPORTED|RESOLVED|CONFIRMED|\bAC\b", s):
         return "stable"
     return "relevant"
@@ -257,6 +260,7 @@ def parse_matrix():
         rowtext = "|".join(r)
         qids = sorted(set(re.findall(r"QQ-\d+[a-z]?", rowtext)))
         cells: dict[int, str] = {}
+        detail = None  # long-shape rows say what each angle found (shown when a cell is clicked)
         if find("relevant") is not None:  # summary shape
             rel_ = angles_in(cell(find("relevant")))
             stable, unstable = angles_in(cell(find("stable"))), angles_in(cell(find("unstable")))
@@ -267,14 +271,26 @@ def parse_matrix():
             st = matrix_state(cell(find("status")))
             if st is None:
                 continue
+            ask = strip_md(cell(find("question needed", "需要作者輸入", "需要作者")))
+            if st != "stable" and (ask.upper().startswith("YES") or ask.startswith("要")):  # unsettled row that says the author must decide
+                st = "needs"
             for n in angles_in(cell(find("angle", "主要角度"))):
                 cells[n] = st
+            txt = lambda *k: strip_md(cell(find(*k)))[:600]
+            # column names are English in older rounds, Chinese in newer ones
+            detail = {"id": mid, "status": st, "interp": txt("current interpretation", "interpretation", "current", "當前詮釋", "詮釋"),
+                      "source": txt("source", "來源", "依據"), "why": txt("why", "點解"), "risk": txt("risk", "關鍵風險", "風險"),
+                      "question": txt("draft question", "question for author") or re.sub(r"^(YES|NO)\s*", "", ask).strip("（）() "),
+                      "cands": [strip_md(cell(i))[:300] for name, i in col.items() if name.startswith("candidate") and strip_md(cell(i))][:4]}
         else:
             continue
         if not cells:
             unmatched += 1
         topic = strip_md(cell(i_topic))[:200]
-        t = topics.setdefault(topic, {"topic": topic, "section": section_name[:80], "ids": [], "cells": {}, "qids": {}, "notes": []})
+        t = topics.setdefault(topic, {"topic": topic, "section": section_name[:80], "ids": [], "cells": {}, "qids": {}, "notes": [], "detail": {}})
+        if detail:
+            for n in cells:
+                t["detail"].setdefault(str(n), []).append(detail)
         if mid:
             t["ids"].append(mid)
         for n, st in cells.items():
@@ -829,8 +845,10 @@ def parse_pipelines():
         if ".tmp" in f.parts:
             continue
         text = read(f)
+        meta = lambda key: (re.search(r"^\s*[-*]?\s*\**" + key + r"\**\s*[:：]\s*(.+)$", text[:1500], re.M) or [None, ""])[1].strip()
+        kind = "task" if "tasks" in f.parts or meta("類型").startswith("task") else "pipeline"
         heads = list(STAGE_HEAD.finditer(text))
-        if len(heads) < 4:
+        if len(heads) < (1 if kind == "task" else 4):
             continue
         top = min(len(m.group(1)) for m in heads)
         heads = [m for m in heads if len(m.group(1)) == top]
@@ -845,8 +863,9 @@ def parse_pipelines():
             if not status and reg:  # stage owns register items: DONE only when all of them are done
                 sts = [stage_status(v["state"]) for v in reg]
                 status = "DONE" if all(s == "DONE" for s in sts) else next((s for s in ("IN_PROGRESS", "BLOCKED", "AWAITING", "TODO", "DEFERRED") if s in sts), "")
-            title = strip_md(re.sub(r"`[^`]*`|[◆（(].*$", "", m.group(3))).strip() or m.group(3)
-            stages.append({"code": m.group(2), "title": title[:60], "status": status, "author_gate": "◆" in m.group(3),
+            wm = re.search(r"〔(輕|中|重)〕", m.group(3))
+            title = strip_md(re.sub(r"`[^`]*`|〔[^〕]*〕|[◆（(].*$", "", m.group(3))).strip() or m.group(3)
+            stages.append({"code": m.group(2), "title": title[:60], "status": status, "author_gate": "◆" in m.group(3), "weight": wm.group(1) if wm else "",
                            "line": text[: m.start()].count("\n") + 1,
                            "skills": [s for s in skill_names if s in body][:6],
                            # what the step involves: its checklist lines and its 產出 (output) line
@@ -865,6 +884,7 @@ def parse_pipelines():
         if not short:
             short = re.sub(r"(PROGRESS|TRACKER|DRAFT|PIPELINE|Pipeline|WORKING)|[—–-]\s*$", "", title).strip(" —–-") or title
         out.append({"file": rel(f), "title": title, "short": short[:24], "active": active,
+                    "kind": kind, "parent": meta("屬於"), "pace": "自動" if meta("節奏").startswith("自動") else "每步停",
                     "done": sum(s["status"] == "DONE" for s in stages), "stages": stages,
                     "modified": time.strftime("%Y-%m-%d", time.localtime(f.stat().st_mtime))})
     out.sort(key=lambda x: (not x["active"], x["modified"]), reverse=False)

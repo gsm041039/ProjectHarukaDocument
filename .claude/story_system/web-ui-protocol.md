@@ -26,8 +26,9 @@ PROTOCOL_VERSION: 1
 |---|---|---|
 | `mini-log` | 每次主要回應尾（取代純文字 Mini Log 嘅顯示；markdown 版照寫） | `skills_used[]`, `done[]`, `pending[]`, `blocked[]`, `next` |
 | `author-decision` | Director-Facing Display Format 嘅問題 | `happened`, `why_now`, `my_view`, `consequences`, `question`, `options[]`（`name`, `what_happens`, `why`, `cost`, `given_up`, `difference`）, `recommended` |
-| `status` | 開始一段長工作前嘅一句交代 | `doing`, `because`, `stop_at?`, `layer?`, `task?` |
+| `status` | **每個對話開始做嘢、同埋轉做另一件工作嗰陣必出**（網頁會釘喺對話頂做「🛠️ 做緊」條，冇就唔顯示） | `doing`（白話：而家做緊咩）, `because`, `stop_at?`, `layer?`, `task`（白話：屬於邊件工作，例如「Demo 試點・場景設計」；唔用內部編號）, `work`（**機器用、唔顯示**：TASK_BOARD 嘅 task ID，或者 pipeline `<tracker 檔>#Stage N`；網頁靠佢將對話永久掛去嗰件工作，對話頂「📋 工作進度」卡就顯示嗰件工作嘅狀態同進度。冇對應 task 就先喺 TASK_BOARD 開一個） |
 | `progress` | 層／階段有變（入咗新 layer、開始新 stage）時；網頁右邊「而家喺邊」面板會亮起對應層 | `layer`（baseline／act／sequence／beat／scene／dialogue／script）, `stage`, `task?` |
+| `step` | **開始同做完每一步嗰陣**（`story-work-flow`）：對話頂步驟列即刻轉；`weight` 會令網頁換 model（`ui_config.json` `step_models`，重／◆ 最低 sonnet，作者手揀 model 就唔換） | `work`, `step`（`Stage N`）, `status`（in_progress／done／waiting／blocked）, `weight?`（輕／中／重）, `gate?` |
 | `next` | **每次主要回應尾必出**（放喺 mini-log 之後）：2–4 個建議下一步，作者撳一下就會送出 | `suggestions[]`（`label` 白話動作名, `why` 一句點解建議＋代價, `prompt?` 撳咗之後送畀你嘅完整指示），`discuss?` 有呢欄＝呢個建議係開一場自動討論：網頁開設定頁預填 `{topic, range, stop, links[{id,title,file}], skill?, roles?[]}`，作者撳開始先收費；幾時建議、點砌見 `story-auto-discussion` skill） |
 
 `author-decision` 卡只係將上下文排得易讀；真正要作者揀嗰下，緊接住用 AskUserQuestion。
@@ -44,7 +45,7 @@ PROTOCOL_VERSION: 1
 - 當作**作者親自下嘅指示**，但照該層 pipeline、author gate、Global Dependency Protection 處理——唔可以因為來自網頁就跳 gate，亦唔可以 silent canonize。
 - 改之前用白話講：會改邊個檔、下游邊啲要 revalidate；有需要批核就用 AskUserQuestion 問。
 - `type` 參考（開放清單，唔識嘅 type 就讀 `note` 理解）：`beat.move`、`beat.add`、`beat.remove`、`beat.merge`、`task.set_status`、`question.priority`、`question.defer`、`doc.mark_revalidate`、`matrix.refresh`（matrix 行嘅問題已答但狀態未更新）。
-  另有：`question.resolve`（payload.answer）、`question.drop`（作廢：QUESTION_QUEUE 標 DROPPED＋原因，**保留紀錄唔刪**）、`decision.review`（只開問題，唔直接改 canon）、`beat.revalidate`、`task.set_status`、`visual.set_state`、`doc.supersede`（LAYER_MANIFEST 標 SUPERSEDED）、`doc.name_mismatch`、`art.redo`／`art.approve`（記入對應角色／視覺文件）、`ledger.todo_done`／`ledger.todo_drop`（SESSION_LEDGER 該條 `[ ]` 改 `[x]` 或加 ~~刪除線~~＋原因）。`pipeline.set_status`（改 tracker 嗰個階段嘅狀態碼）、`docs.register`（登記入 LAYER_MANIFEST，核實層同父層）。`voice.pick`（將作者揀嘅候選句記入該工作坊微場景嘅「作者選擇」，記日期）。
+  另有：`question.resolve`（payload.answer）、`question.drop`（作廢：QUESTION_QUEUE 標 DROPPED＋原因，**保留紀錄唔刪**）、`decision.review`（只開問題，唔直接改 canon）、`beat.revalidate`、`task.set_status`、`visual.set_state`、`doc.supersede`（LAYER_MANIFEST 標 SUPERSEDED）、`doc.name_mismatch`、`art.redo`／`art.approve`（記入對應角色／視覺文件）、`ledger.todo_done`／`ledger.todo_drop`（SESSION_LEDGER 該條 `[ ]` 改 `[x]` 或加 ~~刪除線~~＋原因）。`ledger.todo_rewrite`（按 `payload.reason` 改寫或者同其他條合併：原條加 ~~刪除線~~＋「改寫為…」，新條寫喺同一段尾，保留原日期來源）、`question.add_deferred`（將嗰條待辦轉入 QUESTION_QUEUE 做 DEFERRED，寫清 revisit trigger，原條標「已轉問題」；**唔可以令佢消失**）。`pipeline.set_status`（改 tracker 嗰個階段嘅狀態碼）、`docs.register`（登記入 LAYER_MANIFEST，核實層同父層）。`voice.pick`（將作者揀嘅候選句記入該工作坊微場景嘅「作者選擇」，記日期）。
 - Beat 改動改 intent `payload.file` 指明嗰份文件（Beat 板有 Demo／正式等多塊，唔好假設係邊份），並喺對應逐 beat 詳細設計（例如 V5 batch）標 `REVALIDATE_REQUIRED`。改完照常更新 state files。
 
 ## 4. 要維護嘅檔（網頁直接讀）
@@ -60,6 +61,8 @@ PROTOCOL_VERSION: 1
 ## 4B. 網頁點樣連埋所有嘢（維護時要知）
 
 `build_index.py` 會將問題（QQ-）、決定（CDL-）、矩陣題目、現行 Beat、task（T-）、視覺語言（VL-）、角色（canon/03_characters）、美術資料夾、文件全部登記成「實體」，再由內文抽**編號、角色名、檔名**建立雙向連結；網頁任何實體都可以撳開睇「相關」。所以寫文件時：引用其他嘢**用編號或檔名**（例：「見 CDL-123」「QQ-227」「`ACT_I_OUTLINE.md`」），網頁先連得到。角色名以角色檔標題（`# 全名（English）`）同成長追蹤表標題做準；美術跟 `art/ConceptArt/<類>/<名>/` 自動分組，`_BAK`／`BAK` 子資料夾當舊版。
+
+**角度矩陣要連到故事位置（2026-10-18）：** 寫 `QUESTION_MATRIX.md` 新 row 時，喺 row 入面寫明佢關於邊個 Act／beat 文件同相關問題（例：「`BEAT_LAYER_V4_1.md` 基地嗰場」「QQ-229」），網頁先會喺矩陣詳情度連到嗰個 beat；冇寫就只可以靠 `ui_config.json` `story_areas` 字眼估分類（只係顯示，唔係 canon）。
 
 **有方向嘅關係（2026-10-17）：** 除咗「有提過對方」，網頁仲會顯示有類型嘅關係（詳情面板「🧬 關係」、文件地圖彩色線）。來源：LAYER_MANIFEST 父層（衍生自）、md 連結（連去）、編號（引用；決定引用問題＝答咗）、角色名（講到）、對話／自動討論紀錄（讀過／改過）。**產出或者改寫一份工作文件時，喺檔頭寫關係行**，網頁就會連得到：
 
@@ -96,6 +99,17 @@ PROTOCOL_VERSION: 1
 - **思考深度（effort）**：側欄同對話頂「🧠」選單（層級喺 `ui_config.json` `effort_levels`）；作者中途改會見到「🧠 由呢度開始思考深度」。
 - **隨時轉**：對話 →「🤖 交畀 AI 傾」；自動討論 →「💬 轉去對話」（傾到一半都得，會返去原本嗰個對話，冇就開新）。收到「傾到一半轉過嚟」嘅內容＝DRAFT，照 gate 問作者。討論中途作者可以「👥 改角色」「＋1 輪」。
 - **作者親手打嘅字入 log**：`server.mjs` 只將作者親手打嘅（新話題／回覆／選項卡自己寫／討論插話，靠 `said` 欄）寫入 `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl`；掣同模板 prompt 唔入。VSCode／terminal 由 `.claude/hooks/log_author_prompt.py` 入。畀 `author-lens` skill 歸納作者問法。
+- **🌳 工作樹＋步驟列**：流程頁左邊係工作樹（全作 › Act › 大流程 › 工作，由 tracker `屬於：`、TASK_BOARD「屬於」欄、`canon/_working/tasks/<ID>.md` 推導）；未有步驟計劃嘅工作有「🧩 拆步驟」。對話頂顯示工作路徑同全部步驟，每步撳開有「做完停低等我／照節奏」同份量「輕中重」，成件工作有「節奏：每步停／自動」——呢啲掣經 `/api/work/step` 直接改步驟檔記號（只改 ◆／〔份量〕／節奏，唔改故事內容）。
+- **📋 工作進度卡**（`public/workcard.js`）：每個對話頂顯示佢屬於邊件工作（Task 板 task 或者流程步驟）同嗰件工作而家狀態／第幾步／清單幾多。連結來源：AI `ui:status` 嘅 `work`、流程頁開嘅對話、TASK_BOARD Session 欄、作者喺卡度揀；都冇就由對話讀寫過嘅檔估（標「估」，撳「✓ 係呢件」先確認）。存 `.tmp/workbench/task_sessions.json`（`_bySession`）。
+- **🛠️ 做緊條**：對話頂顯示 AI 最近一張 `ui:status`／`ui:progress` 講嘅「做緊咩、屬於邊件工作」（`app.js` 讀對話內容，唔係按頁面寫死）；AI 冇講就唔顯示，所以開工同轉工作都要出 `ui:status`。
+- **🛤️ 流程頁**（`views/flow.js`＋`views/flow_actions.js`）：左＝所有 pipeline tracker，中＝步驟，右＝揀咗嗰步：清單（tracker `- [ ]`）、產出（`產出：`）、skill（白話名：`ui_config.json` `skill_labels`）、按狀態出嘅掣同「💡 建議而家做」（`ui_config.json` `flow_steps`：每個狀態 `hint`＋`buttons[]`）。改狀態全部入待送出（`pipeline.set_status`）。
+- **🎬 Beat 時間線**：Beat 板「📈 時間線」將 beat 由左到右按 sequence 排，色＝狀態、R／N 標記。
+- **角度矩陣**：按 `story_areas` 估故事位置分組（只係顯示）；撳一格睇嗰個角度嘅分析（長表 M 行：理解／根據／點解重要／估錯會點／要問你／候選）。
+- **✅ 傾夠，落檔**（對話頂，`ui_config.json` `wrap_up`）：AI 揀合適 skill 收尾落檔（入 canon 前照 gate 問），標題加 ✅，對話唔閂可以繼續。
+- **輸入**：所有回覆框 Enter 送出、Shift+Enter 換行（輸入法組字中唔送）；AI 做緊嘢時「諗緊」泡泡有「⏹ 停」。
+- **📜 工作紀錄**（`views/activity.js`，`/api/activity`）：左＝檔案樹（改過嘅檔亮起＋次數），中＝時間線（✏️ AI 改咗／📤 你批咗／📦 commit），右＝揀咗嘅檔每次改動同 diff。server 自動記（`.tmp/workbench/activity.jsonl`）：對話每次 Edit/Write 記一行，原因＝AI 最近 `ui:status` 嘅 `doing`；作者送出待送出逐項記。所以開工同轉工作要出 `ui:status`，紀錄先有原因。
+- **自動討論都係 session**：側邊清單（進行中／以前嘅 session）同對話混排，🤖 開頭；討論停低等作者答（`asking`）就有「等你」徽章；討論頁頂有同對話一樣嘅「📋 工作進度」卡（`DISC:<id>` 掛工作）。
+- **自動討論輪數唔夠**：到咗最多輪數但主持人話未去到停止點，唔會硬總結，會停低出「＋1 輪／＋2 輪／就咁總結」；已完嘅討論都可以「＋1 輪繼續傾」，傾完出新總結。
 - **揀咗就自動討論**：未完成事項同問題頁剔幾條 →「🤖 自動討論」，設定頁預填呢幾項（`items`）同可以做嘅處理（`actions`，例如標完成／作廢／押後）。總結會逐項建議（`item_actions`），作者剔完撳「📤 執行揀咗嘅」先放入待送出，同頁面本身嘅掣一樣行 `ui:intent`；討論 agent 照舊只讀、唔直接改檔。新頁面想用：`ctx.openDiscuss({topic, items, actions, links})`。
 - **自動討論設定助手**：撳自動討論（由對話／問題／beat 帶過嚟會自動開始）＝一個只讀 AI 跟 `story-auto-discussion` skill 讀相關文件，講「我理解你想傾…」再出 2–4 個方向掣同按話題建議嘅範圍／停止點。
 

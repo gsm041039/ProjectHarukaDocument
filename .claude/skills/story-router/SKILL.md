@@ -1,6 +1,8 @@
 # story-router — Task Classifier and Mode Selector
 
 ## Purpose
+
+> **工作流管家先行（2026-10-19，作者要求）：** 任何工作要求開工前，先用 `story-work-flow`：歸位（屬於工作樹邊度，冇就喺 TASK_BOARD 開新工作）、出帶 `work` 嘅 `ui:status`；新工作先拆步驟（份量輕／中／重、◆ 停低）畀作者批；之後一步一步做，每步出 `ui:step`，跟作者定嘅節奏停低或者繼續。故事內容照舊由本 skill／專科 skill 處理。
 Classify the user's request and select a workflow mode. The router must keep the assistant useful: not too verbose, not too passive.
 
 ## Default Entry (Patch 3)

@@ -1,4 +1,5 @@
 # REMEDIATION_PHASE_COMPLETION_REPORT.md
+屬於：全作
 
 **Execution Date**: 2026-05-20  
 **Mode**: `/story-canon-fact-map-builder Mode: REMEDIATE_COMPLETENESS_GAPS`  

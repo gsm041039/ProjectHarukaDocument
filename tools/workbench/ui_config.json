@@ -244,5 +244,206 @@
     "story-source-recovery-gate": "先搵齊資料",
     "story-storyboard-designer": "分鏡",
     "story-work-readiness-diagnostician": "睇準備夠唔夠"
+  },
+  "flow_steps": {
+    "TODO": {
+      "hint": "未開始。建議先撳「檢查前置條件」，確認上一步同要批嘅嘢齊晒，先撳「開始呢步」。",
+      "buttons": [
+        {
+          "icon": "🔍",
+          "label": "檢查前置條件",
+          "kind": "chat",
+          "desc": "AI 淨係檢查上一步同要批嘅嘢齊未，唔會開始做",
+          "prompt": "淨係檢查前置條件：上一步做完未、有冇未批嘅層、缺咩資料。用白話列出，唔好開始做。",
+          "primary": true
+        },
+        {
+          "icon": "▶",
+          "label": "開始呢步",
+          "kind": "chat",
+          "primary": false,
+          "desc": "開新對話，AI 讀呢步同前置條件再開始做",
+          "prompt": "先讀嗰段同前置條件，用白話講要做咩、有冇要我決定，然後開始。"
+        },
+        {
+          "icon": "⏸",
+          "label": "押後",
+          "kind": "status",
+          "status": "DEFERRED",
+          "ask": "押後原因？（可留空）",
+          "desc": "暫時唔做，標押後（放入待送出）",
+          "primary": false
+        }
+      ]
+    },
+    "IN_PROGRESS": {
+      "hint": "做緊。撳「繼續做」接返；唔記得做到邊就撳「總結做到邊」；做完撳「標做完」，再喺右下角送出。",
+      "buttons": [
+        {
+          "icon": "▶",
+          "label": "繼續做",
+          "kind": "chat",
+          "primary": true,
+          "desc": "開對話，AI 讀返紀錄講做到邊再繼續",
+          "prompt": "讀返嗰段同相關紀錄，講返做到邊，然後繼續。"
+        },
+        {
+          "icon": "📋",
+          "label": "總結做到邊",
+          "kind": "chat",
+          "desc": "淨係講進度同仲差咩，唔做嘢",
+          "prompt": "淨係用白話總結做到邊、仲差咩、有咩要我決定，唔好開始做。"
+        },
+        {
+          "icon": "✓",
+          "label": "標做完",
+          "kind": "status",
+          "status": "DONE",
+          "desc": "放入待送出，你送出先改進度檔"
+        },
+        {
+          "icon": "⛔",
+          "label": "標卡住",
+          "kind": "status",
+          "status": "BLOCKED",
+          "ask": "卡喺邊？",
+          "desc": "寫低卡喺邊，放入待送出"
+        }
+      ]
+    },
+    "AWAITING": {
+      "hint": "等你批。撳「睇要批嘅嘢」，AI 會用白話講要批咩同選擇；滿意就撳「批准」，唔滿意撳「要改」。",
+      "buttons": [
+        {
+          "icon": "👀",
+          "label": "睇要批嘅嘢",
+          "kind": "chat",
+          "primary": true,
+          "desc": "AI 用白話講要你批咩、有咩選擇同代價",
+          "prompt": "用白話講呢步要我批嘅係咩、有咩選擇同代價，用選項卡問我。"
+        },
+        {
+          "icon": "✅",
+          "label": "批准呢步",
+          "kind": "status",
+          "status": "DONE",
+          "reason": "作者批准",
+          "desc": "標做完（放入待送出）"
+        },
+        {
+          "icon": "✏️",
+          "label": "要改",
+          "kind": "chat",
+          "ask": "要改咩？",
+          "desc": "講要改咩，AI 先講會改邊度再改",
+          "prompt": "我未批，要改：{answer}。先講會改邊度，再改。"
+        }
+      ]
+    },
+    "BLOCKED": {
+      "hint": "卡住。撳「搵解決方法」，AI 會分析點解卡住同出選擇；解決咗就撳「恢復做緊」。",
+      "buttons": [
+        {
+          "icon": "🧩",
+          "label": "搵解決方法",
+          "kind": "chat",
+          "primary": true,
+          "desc": "AI 分析點解卡住，出選擇畀你揀",
+          "prompt": "分析點解卡住、有咩方法解，用選項卡問我揀。"
+        },
+        {
+          "icon": "▶",
+          "label": "恢復做緊",
+          "kind": "status",
+          "status": "IN_PROGRESS",
+          "reason": "已解卡",
+          "desc": "改返做緊（放入待送出）"
+        }
+      ]
+    },
+    "DEFERRED": {
+      "hint": "押後咗。想再做就撳「恢復」。",
+      "buttons": [
+        {
+          "icon": "▶",
+          "label": "恢復",
+          "kind": "status",
+          "status": "TODO",
+          "reason": "恢復",
+          "primary": true,
+          "desc": "改返未開始（放入待送出）"
+        }
+      ]
+    },
+    "DONE": {
+      "hint": "做完。想睇產出就撳「睇產出」；發現要改先撳「重開」。",
+      "buttons": [
+        {
+          "icon": "📦",
+          "label": "睇產出",
+          "kind": "chat",
+          "primary": true,
+          "desc": "AI 列出呢步產出咗咩檔、每份講咩",
+          "prompt": "列出呢步產出咗咩檔、每份講咩，唔好改嘢。"
+        },
+        {
+          "icon": "🔄",
+          "label": "重開",
+          "kind": "status",
+          "status": "IN_PROGRESS",
+          "ask": "點解要重開？",
+          "desc": "改返做緊（放入待送出）"
+        }
+      ]
+    }
+  },
+  "story_areas": [
+    {
+      "name": "Demo",
+      "icon": "🎮",
+      "match": "demo|Demo|試點"
+    },
+    {
+      "name": "Act I",
+      "icon": "1️⃣",
+      "match": "Act ?I(?![IV])|E-I-|第一幕|開場|操對男孩|無名男孩"
+    },
+    {
+      "name": "Act II",
+      "icon": "2️⃣",
+      "match": "Act ?II(?!I)|E-II-|第二幕|soft pivot"
+    },
+    {
+      "name": "Act III",
+      "icon": "3️⃣",
+      "match": "Act ?III|E-III|第三幕|地下抵抗|地下期|114年|三連爆|處刑|秋穗|BD-13"
+    },
+    {
+      "name": "Act IV",
+      "icon": "4️⃣",
+      "match": "Act ?IV|E-IV|第四幕|三位一體"
+    },
+    {
+      "name": "世界觀",
+      "icon": "🌏",
+      "match": "世界|Beta|Alpha|無鏡之城|黑市|美食家|Emo-Visor|HSP|心理學具現|設定|晨間|概念"
+    },
+    {
+      "name": "導演／表現",
+      "icon": "🎬",
+      "match": "導演|視覺|鏡頭|受難|具現|雙場景"
+    },
+    {
+      "name": "全作結構",
+      "icon": "🧱",
+      "match": "架構|框架|Foreshadow|伏筆|Outline|錨點|四階段|揭示時機"
+    }
+  ],
+  "step_models": {
+    "輕": "haiku",
+    "中": "sonnet",
+    "重": "opus",
+    "_floor_for_heavy_or_gate": "sonnet",
+    "_why": "輕＝落檔／更新狀態檔／整理格式／搵檔；中＝讀資料寫草稿、核對、總結；重＝設計決定、結構、入 canon 前判斷、創作候選。重同要作者批嘅步最低用 _floor_for_heavy_or_gate。"
   }
 }

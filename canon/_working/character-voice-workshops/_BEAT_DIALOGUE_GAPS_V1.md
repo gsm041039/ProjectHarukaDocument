@@ -5,6 +5,8 @@
 > 語料＝`tools/cantonese_corpus.py score`（百分位；≤3字唔可靠）。**注意**：屍骸／魔法／血糖／糖等 domain 詞語料冇覆蓋，令整句分偏低；分數只反映句式，唔反映角色辨識度。
 > 層級提示：呢度只係聲線層候選句，唔係 Scene 層劇本；位置、次序、鏡頭留 Stage 6／8。
 
+> **T-009 更新（2026-10-19）**：G1／G2 已升級入 `miyako_voice_discovery.md` §9 MY4／MY5（補分析卡＋語料對照）；G3 → `misao_voice_discovery.md` M6；G4 → `haruka_voice_discovery.md` MH9（**餵糖句重分級為 CANON_AC_VERBATIM，F 系列評語以 MH9 為準**）。本檔保留做追溯，唔再更新。燈塔句（CDL-089 canon）漏咗，已補入 MY6。
+
 ---
 
 ## G1 — 天台，美夜子講使命（N3）

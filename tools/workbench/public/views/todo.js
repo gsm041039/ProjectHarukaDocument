@@ -53,7 +53,8 @@ export function render(el, ctx) {
       topic: ledgerTab ? `呢 ${items.length} 條未完成事項：邊啲其實已經做咗、邊啲應該作廢、邊啲要保留繼續做？` : `呢 ${items.length} 條好耐冇郁嘅問題：邊啲應該作廢、邊啲押後、邊啲要保留？`,
       range: ledgerTab ? "只判斷呢幾條待辦嘅去留，要讀 SESSION_LEDGER 同相關文件核實有冇做咗；唔改故事內容" : "只判斷呢幾條問題嘅去留，要讀 QUESTION_QUEUE 同相關文件核實；唔改故事內容",
       stop: "每條都有建議（附證據）",
-      items, actions: ledgerTab ? [{ type: "ledger.todo_done", label: "標完成" }, { type: "ledger.todo_drop", label: "作廢" }] : [{ type: "question.drop", label: "作廢" }, { type: "question.defer", label: "押後" }],
+      items, actions: ledgerTab ? [{ type: "ledger.todo_done", label: "標完成" }, { type: "ledger.todo_drop", label: "作廢" },
+        { type: "ledger.todo_rewrite", label: "改寫／合併" }, { type: "question.add_deferred", label: "轉做押後問題" }] : [{ type: "question.drop", label: "作廢" }, { type: "question.defer", label: "押後" }],
       links: items.filter((x) => ents[x.id]).slice(0, 20).map((x) => ({ id: x.id, title: x.title.slice(0, 80), file: ents[x.id].file || "" })),
     });
   };

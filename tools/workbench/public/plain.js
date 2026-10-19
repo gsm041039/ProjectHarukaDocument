@@ -2,6 +2,7 @@
 // 滑鼠停喺上面睇原文；撳開詳情都係原文。
 const CODE = /(?<![A-Za-z])(?:v\d+(?:\.\d+)*|[A-Z]{1,4}-?[A-Z]?\d+(?:\.\d+)?[a-z]?(?:-[A-Z]?\d+)*|batch\s*\d+|stage\s*\d+[a-z]?|phase\s*\d+)(?![A-Za-z0-9])/gi;
 export const strip = (t) => String(t || "").replace(/`[^`]*`/g, "").replace(/[\w./\-]+\.(md|html|py|json|mjs|js)\b/g, "").replace(CODE, "")
+  .replace(/§\s*[\dA-Z]+(?:\.\d+)?[A-Z]?/g, "").replace(/(?<=[（(])\s*[–\-＋+、，,\s]+|[–\-＋+、，,\s]+(?=\s*[)）])/g, "")  // § refs and what's left of "M1–M5＋"
   .replace(/[（(]\s*[／/、,，;；:：\s#]*[)）]/g, "").replace(/\s*[—–-]\s*[:：]\s*/g, " — ").replace(/^[\s:：—\-|｜]+/, "").replace(/\s{2,}/g, " ").trim();
 
 const done = {};

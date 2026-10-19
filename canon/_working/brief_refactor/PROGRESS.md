@@ -1,4 +1,5 @@
 # PROGRESS — Brief Refactor Task
+屬於：全作
 
 ## 目前階段
 **FULL DOCUMENT COMPREHENSION ARCHITECTURE + INFORMATION PLACEMENT + LAYOUT REFACTOR（Stage 8，最新一輪指令）進行中，未完成。** 唔止Knowledge Dependency + Primary Home，仲加咗Layer Confusion（world physics vs psychological lens）+ layout audit。詳細分析全部喺`COMPREHENSION_ARCHITECTURE.md`（用A-G標準格式）。
