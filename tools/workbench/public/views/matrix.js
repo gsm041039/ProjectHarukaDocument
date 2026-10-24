@@ -101,7 +101,7 @@ export function render(el, ctx) {
         recs.length ? h("div", {}, ...recs.map((d) => h("div", { class: "kv small mx-angle-rec" },
           ...row("而家點理解", d.interp), ...row("根據", d.source), ...row("點解重要", d.why), ...row("估錯會點", d.risk), ...row("要問你", d.question),
           ...(d.cands?.length ? [h("div", { class: "k" }, "候選"), h("div", {}, ...d.cands.map((c, i) => h("div", { title: c }, `${"ABCD"[i]}．${noCodes(c)}`)))] : []))))
-          : h("div", { class: "small muted" }, r.cells[f.angle] ? "呢個題目只喺總表記低咗呢個角度嘅狀態，冇逐角度嘅分析文字。撳「同 Claude 傾」可以叫 AI 補。" : "呢個題目冇用呢個角度。"));
+          : h("div", { class: "small muted" }, r.cells[f.angle] ? "呢個題目只喺總表記低咗呢個角度嘅狀態，冇逐角度嘅分析文字。撳「同 AI 傾」可以叫 AI 補。" : "呢個題目冇用呢個角度。"));
     })();
     detail.append(...[h("h3", { title: r.topic }, ctx.strip(r.topic) || r.topic), h("div", { class: "small muted", style: "font-weight:700" }, `${AREAS.find((a) => a.name === areaOf(r))?.icon || "📁"} ${areaOf(r)}（估）`),
       angleBox,
@@ -125,8 +125,8 @@ export function render(el, ctx) {
         h("button", { class: "small", onclick: () => openFile(m.file) }, "睇原文"),
         h("button", { class: "small", onclick: () => openEntity("MX:" + r.topic.slice(0, 60)) }, "🔗 關係"),
         r.stale ? h("button", { class: "small", onclick: () => sendIntent({ type: "matrix.refresh", target: r.ids.join(",") || r.topic, payload: { qids: r.qids },
-          note: `QUESTION_MATRIX「${r.topic.slice(0, 40)}」相關問題已答，請核對並更新呢行嘅角度狀態` }) }, "叫 Claude 更新") : null,
-        h("button", { class: "small primary", onclick: () => newSession(`我想傾 QUESTION_MATRIX 入面「${r.topic}」呢個題目。請先做 source check，用白話講而家邊啲角度穩、邊啲要我決定，再畀候選。`, r.topic.slice(0, 24)) }, "同 Claude 傾"))].filter(Boolean));
+          note: `QUESTION_MATRIX「${r.topic.slice(0, 40)}」相關問題已答，請核對並更新呢行嘅角度狀態` }) }, "叫 AI 更新") : null,
+        h("button", { class: "small primary", onclick: () => newSession(`我想傾 QUESTION_MATRIX 入面「${r.topic}」呢個題目。請先做 source check，用白話講而家邊啲角度穩、邊啲要我決定，再畀候選。`, r.topic.slice(0, 24)) }, "同 AI 傾"))].filter(Boolean));
   }
 
   el.append(h("div", { class: "toolbar", style: "margin-bottom:4px" }, h("h2", { style: "margin:0;flex:1" }, "角度矩陣"),
@@ -136,7 +136,7 @@ export function render(el, ctx) {
       h("ol", {}, h("li", {}, "上面「故事位置」揀你想睇嘅部分（例如 Act III、世界觀）。"),
         h("li", {}, "數字卡揀「未解決」或者「有角度要你決定」。"),
         h("li", {}, "撳一行，右邊會見到：相關問題同佢答咗未、相關決定、角色同 beat。"),
-        h("li", {}, "撳「同 Claude 傾」，AI 會先查資料，再用選項卡問你。")),
+        h("li", {}, "撳「同 AI 傾」，AI 會先查資料，再用選項卡問你。")),
       h("div", { class: "small muted" }, "「故事位置」係網頁按題目字眼估嘅分類（規則喺 ui_config.json 嘅 story_areas），唔係 canon。")),
     stats, areaChips,
     h("div", { class: "toolbar" }, search,

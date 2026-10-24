@@ -8,6 +8,9 @@ import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { query, listSessions, getSessionMessages, renameSession } from "@anthropic-ai/claude-agent-sdk";
 import { createDiscussions } from "./discuss.mjs";
+import { CodexSessionAdapter } from "./providers/codex-app-server.mjs";
+import { DEFAULT_PROVIDER, PROVIDER_CLAUDE, PROVIDER_CODEX, makeProviderSessionRef, normalizeProvider, readProviderSessionRef } from "./providers/provider-contract.mjs";
+import { runProviderPrompt } from "./providers/runtime.mjs";
 
 const PORT = Number(process.env.WORKBENCH_PORT || 4317);
 process.env.HARUKA_WORKBENCH = "1"; // inherited by every Claude run we start: the author-prompt hook skips them (this server logs typed text itself)
@@ -16,15 +19,18 @@ const REPO = path.resolve(HERE, "..", "..");
 const PUBLIC = path.join(HERE, "public");
 const INDEX_JSON = path.join(REPO, "canon/_working/.tmp/workbench/index.json");
 const PROTOCOL_VERSION = 1;
-// task id -> Claude session id, so "繼續" can reopen the same conversation after a restart (UI state, not story data).
+// task id -> provider/session reference, so "繼續" reopens the right backend after a restart.
 const LINKS_FILE = path.join(REPO, "canon/_working/.tmp/workbench/task_sessions.json");
 const readLinks = () => { try { return JSON.parse(fs.readFileSync(LINKS_FILE, "utf8")); } catch { return {}; } };
 // task → latest chat (for 「繼續」), plus _bySession: chat → every piece of work it belongs to (for the chat's progress card)
-const saveLink = (task, sid) => {
-  const l = readLinks(); l[task] = sid;
-  const by = (l._bySession ||= {}); by[sid] = [...new Set([...(by[sid] || []), task])].slice(-6);
+const saveLink = (task, ref) => {
+  const normalized = readProviderSessionRef(ref);
+  if (!normalized) return;
+  const l = readLinks(); l[task] = normalized;
+  const by = (l._bySession ||= {}); by[normalized.sessionId] = [...new Set([...(by[normalized.sessionId] || []), task])].slice(-6);
   fs.mkdirSync(path.dirname(LINKS_FILE), { recursive: true }); fs.writeFileSync(LINKS_FILE, JSON.stringify(l, null, 1));
 };
+const defaultProvider = () => normalizeProvider(readConfig()?.default_provider, DEFAULT_PROVIDER);
 
 // Commands that always need the author's click, even though everything else runs unattended.
 // internal codes the author can't read: QQ-12, CDL-125, E-09, M5, B7, G4, D-17-G4, v4.1, V5, Batch 6, Stage 2a, Phase 3
@@ -34,6 +40,7 @@ const askCodes = (qs) => [...new Set((qs || []).flatMap((q) => [q.header, q.ques
 const DANGER = /\brm\s+-\w*[rf]|\bgit\s+(push|reset\s+--hard|clean|checkout\s+--|branch\s+-D)|Remove-Item|\bdel\s|\brmdir\b|\bformat\b/i;
 
 const sessions = new Map(); // local id -> session
+const logSession = (s, action) => console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} ${action} | backend=${s.provider} | model=${s.model || "default"} | session=${s.id}`);
 // first lines of the auto-discussion / discussion-setup prompts (discuss.mjs header, planner below)
 const BACKGROUND_PROMPT = /^\s*(你喺一個「AI 編劇室」自動討論|你係 Haruka Workbench 嘅「自動討論設定助手」)/;
 // which conversation read / changed which file (survives restarts): { sdkSessionId: { title, t, files: { "canon/x.md": "read"|"edit" } } }
@@ -73,8 +80,8 @@ function readActivity() {
       .map(([file]) => ({ t: r.t || 0, kind: "edit", sid, title: r.title || "", file, reason: "", backfill: true })));
   return rows.slice(-4000);
 }
-const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"));
-const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"),
+const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"), runProviderPrompt);
+const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"), runPrompt: runProviderPrompt,
   onRead: (d, files) => { for (const f of files) touch({ id: "DISC:" + d.id, title: "🤖 " + d.topic.slice(0, 40) }, "Read", { file_path: path.join(REPO, f) }); } });
 
 function inbox() {
@@ -95,6 +102,11 @@ function emit(s, ev) {
   ev.t = Date.now();
   s.events.push(ev);
   for (const res of s.clients) res.write(`data: ${JSON.stringify(ev)}\n\n`);
+  if (ev.kind === "model") logSession(s, `model changed to ${ev.model || "default"}`);
+  else if (ev.kind === "result") logSession(s, `turn ${ev.ok === false ? "failed" : "finished"}`);
+  else if (ev.kind === "error") console.error(`[Workbench] session=${s.id} backend=${s.provider} error: ${String(ev.message || "unknown").slice(0, 300)}`);
+  else if (ev.kind === "ask" || ev.kind === "approve") logSession(s, "waiting for author");
+  else if (ev.kind === "tool") logSession(s, `tool ${String(ev.name || "unknown").replace(/[^\w.-]/g, "").slice(0, 40)}`);
 }
 
 function setStatus(s, status) {
@@ -106,7 +118,7 @@ function setStatus(s, status) {
 function ask(s, kind, payload, signal) {
   const requestId = `${kind}-${Date.now()}-${Math.random().toString(36).slice(2, 7)}`;
   setStatus(s, "waiting");
-  emit(s, { kind, requestId, ...payload });
+  emit(s, { kind, requestId, provider: s.provider || PROVIDER_CLAUDE, ...payload });
   return new Promise((resolve) => {
     s.pending.set(requestId, resolve);
     signal?.addEventListener("abort", () => {
@@ -149,6 +161,16 @@ function historyEvents(msgs) {
 }
 
 const readConfig = () => { try { return JSON.parse(fs.readFileSync(path.join(HERE, "ui_config.json"), "utf8")); } catch { return {}; } };
+let codexThreadCache = { t: 0, data: [] };
+async function listCodexThreads(force = false) {
+  if (!force && Date.now() - codexThreadCache.t < 30000) return codexThreadCache.data;
+  const adapter = new CodexSessionAdapter({ cwd: REPO });
+  try {
+    const data = await adapter.listThreads({ limit: 100 });
+    codexThreadCache = { t: Date.now(), data };
+    return data;
+  } finally { await adapter.close(); }
+}
 
 // Names canon itself says are superseded ("取代舊稿「X」" / "取代…「X」"): the planner must not treat them as current.
 function supersededNames() {
@@ -163,6 +185,7 @@ function supersededNames() {
 // 🧭 auto-discussion planner: reads the skill + linked files, says what it understood, proposes 2–4 ready-made set-ups
 async function planDiscussion(seed) {
   const cfg = readConfig();
+  const provider = normalizeProvider(seed.provider, defaultProvider());
   let roles = [];
   try { roles = JSON.parse(fs.readFileSync(path.join(HERE, "discuss_roles.json"), "utf8")).map((r) => r.name); } catch {}
   const links = (Array.isArray(seed.links) ? seed.links : []).slice(0, 12).map((l) => `- ${l.id}｜${l.title || ""}${l.file ? "（" + l.file + "）" : ""}`).join("\n");
@@ -192,25 +215,71 @@ canon 自己寫明已被取代嘅舊稱（用咗呢啲字都唔可以當現行�
 只輸出一個 JSON（放喺 \`\`\`json 入面）：
 {"understanding":"…","current":"…","sources":[{"file":"repo 相對路徑","note":"一句"}],"big":true,"questions":[{"q":"問題","options":["選項"]}],"proposals":[{"label":"≤12字方向名","why":"一句：點解咁傾＋代價（幾多輪、要讀幾多嘢）","topic":"討論題目（白話）","range":"範圍","stop":"停止點","roles":["角色名"],"rounds":3,"links":[{"id":"實體 id","title":"白話名","file":"repo 相對路徑"}]}],"ranges":["…"],"stops":["…"]}
 links 只放你確認存在、真係相關嘅（可以沿用種子嘅）；proposals 嘅 range 要寫明以 current 講嘅現行設定為準。`;
-  let text = "";
-  for await (const m of query({ prompt, options: {
-    cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, model: cfg.planner_model || undefined,
-    allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12, persistSession: false,
-  } })) if (m.type === "result") text = m.result || text;
+  const result = await runProviderPrompt({ provider, prompt, cwd: REPO,
+    model: seed.model || (provider === PROVIDER_CLAUDE ? cfg.planner_model : ""), effort: seed.effort || "",
+    claudeOptions: { settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
+      allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12, persistSession: false },
+  });
+  const text = result.text || "";
   const raw = (text.match(/```json\s*([\s\S]*?)```/) || text.match(/(\{[\s\S]*\})/) || [])[1];
   const plan = JSON.parse(raw);
   for (const pr of plan.proposals || []) pr.roles = (pr.roles || []).filter((r) => roles.includes(r));
   return plan;
 }
 
-function createSession({ title, resume, task, model, effort, agentCap }) {
+async function createSession({ title, resume, provider, task, model, effort, agentCap }) {
+  const resumeRef = readProviderSessionRef(resume);
+  provider = resumeRef?.provider || normalizeProvider(provider, defaultProvider());
+  const resumeId = resumeRef?.sessionId || (typeof resume === "string" ? resume : null);
   const id = Math.random().toString(36).slice(2, 10);
   const s = {
-    id, title: title || "新 task", status: "idle", sdkSessionId: resume || null, taskId: task || null, model: model || "", effort: effort || "",
+    id, title: title || "新 task", provider, status: "idle", sdkSessionId: resumeId, taskId: task || null, model: model || "", effort: effort || "",
     events: [], clients: new Set(), pending: new Map(), toolNames: new Map(), inbox: inbox(), q: null,
     agentCap: Number.isFinite(+agentCap) && agentCap !== "" && agentCap != null ? +agentCap : (readConfig().agent_cap_default ?? 2), agentsUsed: 0,
   };
   sessions.set(id, s);
+
+  if (provider === PROVIDER_CODEX) {
+    s.adapter = new CodexSessionAdapter({
+      cwd: REPO, model: s.model, effort: s.effort,
+      developerInstructions: `You are running inside Haruka Workbench's web UI. Follow .claude/story_system/web-ui-protocol.md for author questions and ui: cards, but never edit .claude/ workflow files. Follow AGENTS.md for Codex skill routing and prefer the matching .agents/skills/ skill. Keep author-facing text in Cantonese and plain language. The author set a soft sub-agent limit of ${s.agentCap}; respect it and use an author question card before exceeding it.`,
+      askAuthor: (kind, payload, signal) => ask(s, kind, payload, signal),
+      onThread: (threadId, metadata) => {
+        s.sdkSessionId = threadId;
+        s.defaultModel = s.model || metadata?.model || "";
+        if (s.taskId) saveLink(s.taskId, makeProviderSessionRef(provider, threadId));
+      },
+      onEvent: (event) => {
+        if (event.kind === "provider" && event.sessionId) {
+          s.sdkSessionId = event.sessionId;
+          emit(s, { kind: "provider", provider, model: event.model || s.model });
+          return;
+        }
+        if (event.kind === "status") s.status = event.status;
+        if (event.kind === "tool") {
+          s.toolNames.set(event.id, event.name);
+          const input = event.input || {};
+          if (event.name === "Agent") { s.agentsUsed++; emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed, soft: true }); }
+          s.activity = event.name === "Bash" ? `執行緊 ${String(input.command || "").slice(0, 160)}`
+            : `${event.name} ${String(input.description || input.file_path || "").split(/[\\/]/).pop()}`.trim();
+          touch(s, event.name, input);
+        }
+        if (event.kind === "text") {
+          for (const match of event.text.matchAll(/```ui:step\s*([\s\S]*?)```/g)) { try { stepModel(s, JSON.parse(match[1])); } catch {} }
+          for (const match of event.text.matchAll(/```ui:status\s*([\s\S]*?)```/g)) {
+            try { s.lastDoing = String(JSON.parse(match[1]).doing || s.lastDoing || "").slice(0, 200); } catch {}
+            try { const work = JSON.parse(match[1]).work; if (work && s.sdkSessionId) { saveLink(String(work).slice(0, 300), makeProviderSessionRef(provider, s.sdkSessionId)); emit(s, { kind: "work", work: String(work) }); } } catch {}
+          }
+        }
+        emit(s, event);
+      },
+    });
+    try { await s.adapter.start({ resumeThreadId: resumeId, title: s.title }); }
+    catch (error) { sessions.delete(id); await s.adapter.close().catch(() => {}); throw error; }
+    if (task && s.sdkSessionId) saveLink(task, makeProviderSessionRef(provider, s.sdkSessionId));
+    logSession(s, resumeId ? "session resumed" : "session created");
+    return s;
+  }
 
   s.q = query({
     prompt: s.inbox,
@@ -233,7 +302,7 @@ function createSession({ title, resume, task, model, effort, agentCap }) {
         s.agentsUsed++; emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed });
         return out("allow", "author approved an extra sub-agent");
       }] }] },
-      ...(resume ? { resume } : {}),
+      ...(resumeId ? { resume: resumeId } : {}),
       ...(model ? { model } : {}),
       ...(effort ? { effort } : {}),
       canUseTool: async (toolName, input, { signal }) => {
@@ -258,7 +327,7 @@ function createSession({ title, resume, task, model, effort, agentCap }) {
       for await (const m of s.q) {
         if (m.type === "system" && m.session_id && s.sdkSessionId !== m.session_id) {
           s.sdkSessionId = m.session_id;
-          if (s.taskId) saveLink(s.taskId, m.session_id);
+          if (s.taskId) saveLink(s.taskId, makeProviderSessionRef(provider, m.session_id));
         }
         if (m.type === "stream_event") {
           const e = m.event;
@@ -272,7 +341,7 @@ function createSession({ title, resume, task, model, effort, agentCap }) {
               for (const m of b.text.matchAll(/```ui:step\s*([\s\S]*?)```/g)) { try { stepModel(s, JSON.parse(m[1])); } catch {} }
               for (const m of b.text.matchAll(/```ui:status\s*([\s\S]*?)```/g)) {
                 try { s.lastDoing = String(JSON.parse(m[1]).doing || s.lastDoing || "").slice(0, 200); } catch {}
-                try { const w = JSON.parse(m[1]).work; if (w && s.sdkSessionId) { saveLink(String(w).slice(0, 300), s.sdkSessionId); emit(s, { kind: "work", work: String(w) }); } } catch {}
+                try { const w = JSON.parse(m[1]).work; if (w && s.sdkSessionId) { saveLink(String(w).slice(0, 300), makeProviderSessionRef(provider, s.sdkSessionId)); emit(s, { kind: "work", work: String(w) }); } } catch {}
               }
             }
             else if (b.type === "tool_use") {
@@ -302,6 +371,7 @@ function createSession({ title, resume, task, model, effort, agentCap }) {
     }
     setStatus(s, "closed");
   })();
+  logSession(s, resumeId ? "session resumed" : "session created");
   return s;
 }
 
@@ -328,50 +398,70 @@ function lensStatus() {
   const total = readLines().length, st = lensState();
   return { total, processed: Math.min(st.processed || 0, total), fresh: Math.max(0, total - (st.processed || 0)), updated: st.updated, running: lens.running, error: lens.error, exists: fs.existsSync(LENS_FILE) };
 }
-async function updateLens() {
+async function updateLens({ provider = defaultProvider(), model = "", effort = "" } = {}) {
   if (lens.running) return;
+  provider = normalizeProvider(provider, defaultProvider());
   const rows = readLines(), st = lensState(), fresh = rows.slice(st.processed || 0);
   if (!fresh.length) return;
   Object.assign(lens, { running: true, error: "", startedAt: Date.now() });
   const lines = fresh.map((r, i) => `[${(st.processed || 0) + i + 1}] ${String(r.t).slice(0, 10)} ${r.src}: ${String(r.text).replace(/\s+/g, " ").slice(0, 600)}`).join("\n");
+  const previous = fs.existsSync(LENS_FILE) ? fs.readFileSync(LENS_FILE, "utf8") : "";
   const prompt = `你係 author-lens skill。先 Read .claude/skills/author-lens/SKILL.md 照佢嘅方法同界線做。
-${fs.existsSync(LENS_FILE) ? "現有模型喺 canon/_working/author_voice/AUTHOR_LENS.md，先 Read 佢，喺上面增量更新（保留仍成立嘅 pattern，加新證據，新 pattern 另開，同舊嘢矛盾就標出嚟）。" : "未有模型，請新建 canon/_working/author_voice/AUTHOR_LENS.md。"}
+${previous ? `現有模型內容如下，請喺上面增量更新（保留仍成立嘅 pattern，加新證據，新 pattern 另開，同舊嘢矛盾就標出嚟）：\n\n<existing-author-lens>\n${previous}\n</existing-author-lens>` : "未有模型，請建立第一版。"}
 下面係上次更新之後新記錄、作者親手打嘅 ${fresh.length} 句（方括號係行號，可以用嚟做證據引用）：
 ${lines}
 
-要求：只取創作／設計上嘅問法、關注角度、否決訊號、深度控制；題外話（整網頁、工具、私事）唔入模型；唔抄措辭同粗口；每個 pattern 寫「證據（行號＋日期）」同「下次點用呢個角度挑戰方案」。檔頂寫一句最後更新日期同累計句數 ${rows.length}。只可以寫呢一個檔。完成後用一兩句白話講改咗咩。`;
+要求：只取創作／設計上嘅問法、關注角度、否決訊號、深度控制；題外話（整網頁、工具、私事）唔入模型；唔抄措辭同粗口；每個 pattern 寫「證據（行號＋日期）」同「下次點用呢個角度挑戰方案」。檔頂寫一句最後更新日期同累計句數 ${rows.length}。
+只輸出更新後完整檔案，放喺 \`\`\`markdown code fence 入面；fence 外用一兩句白話講改咗咩。唔好自行寫入任何檔案。`;
   try {
-    let summary = "";
-    for await (const m of query({ prompt, options: {
-      cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, persistSession: false, maxTurns: 20,
-      model: readConfig().lens_model || undefined, allowedTools: ["Read", "Grep", "Glob", "Write", "Edit"],
-      disallowedTools: ["Bash", "PowerShell", "Agent", "Task", "NotebookEdit", "WebFetch", "WebSearch"],
-      canUseTool: async (tool, input) => (["Write", "Edit"].includes(tool) && path.resolve(REPO, String(input.file_path || "")) !== LENS_FILE)
-        ? { behavior: "deny", message: "只可以寫 canon/_working/author_voice/AUTHOR_LENS.md" } : { behavior: "allow", updatedInput: input },
-    } })) if (m.type === "result") { summary = m.result || ""; if (m.subtype !== "success") throw new Error(summary || m.subtype); }
-    fs.writeFileSync(LENS_STATE, JSON.stringify({ processed: rows.length, updated: new Date().toISOString(), summary: summary.slice(0, 500) }, null, 1));
+    const result = await runProviderPrompt({ provider, prompt, cwd: REPO,
+      model: model || (provider === PROVIDER_CLAUDE ? readConfig().lens_model : ""), effort,
+      claudeOptions: { settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, persistSession: false, maxTurns: 20,
+        allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "PowerShell", "Agent", "Task", "NotebookEdit", "WebFetch", "WebSearch"] },
+    });
+    const summary = result.text || "";
+    const match = summary.match(/```(?:markdown|md)?\s*\n([\s\S]*?)```/i);
+    if (!match?.[1]?.trim()) throw new Error("AI 冇回傳完整問法模型檔案");
+    fs.mkdirSync(path.dirname(LENS_FILE), { recursive: true });
+    fs.writeFileSync(LENS_FILE, match[1].trim() + "\n", "utf8");
+    const report = summary.slice(summary.lastIndexOf("```") + 3).trim();
+    fs.writeFileSync(LENS_STATE, JSON.stringify({ processed: rows.length, updated: new Date().toISOString(), summary: report.slice(0, 500), provider }, null, 1));
   } catch (err) { lens.error = String(err?.message || err).slice(0, 300); }
   lens.running = false;
 }
 
 // Plan usage (5-hour / weekly windows), same data as /usage. Experimental SDK call: asks an open conversation,
 // else a throwaway one that never sends a message (costs nothing). Cached a minute; errors just hide the meter.
-let usageCache = { t: 0, data: null }, usageBusy = null;
-async function getUsage(force) {
-  if (!force && Date.now() - usageCache.t < 60000) return usageCache.data;
-  return (usageBusy ||= (async () => {
-    const live = [...sessions.values()].find((s) => s.status !== "closed");
-    let q = live?.q, temp = null;
-    if (!q) temp = q = query({ prompt: (async function* () { await new Promise(() => {}); })(), options: { cwd: REPO, settingSources: [], persistSession: false } });
+const usageCache = new Map(), usageBusy = new Map();
+async function getUsage(provider = defaultProvider(), force = false) {
+  provider = normalizeProvider(provider, defaultProvider());
+  const cached = usageCache.get(provider) || { t: 0, data: null };
+  if (!force && Date.now() - cached.t < 60000) return cached.data;
+  if (usageBusy.has(provider)) return usageBusy.get(provider);
+  const pending = (async () => {
     try {
-      const u = await q.usage_EXPERIMENTAL_MAY_CHANGE_DO_NOT_RELY_ON_THIS_API_YET({ skipBehaviors: true });
-      const win = (w) => (w && w.utilization != null ? { pct: w.utilization, resets: w.resets_at } : null);
-      usageCache = { t: Date.now(), data: u.rate_limits_available ? { plan: u.subscription_type, five_hour: win(u.rate_limits?.five_hour), week: win(u.rate_limits?.seven_day) } : { unavailable: true } };
+      let data;
+      if (provider === PROVIDER_CODEX) {
+        const adapter = new CodexSessionAdapter({ cwd: REPO });
+        try { data = await adapter.usage(); } finally { await adapter.close(); }
+      } else {
+        const live = [...sessions.values()].find((s) => s.provider === PROVIDER_CLAUDE && s.status !== "closed");
+        let q = live?.q, temp = null;
+        if (!q) temp = q = query({ prompt: (async function* () { await new Promise(() => {}); })(), options: { cwd: REPO, settingSources: [], persistSession: false } });
+        try {
+          const u = await q.usage_EXPERIMENTAL_MAY_CHANGE_DO_NOT_RELY_ON_THIS_API_YET({ skipBehaviors: true });
+          const win = (w) => (w && w.utilization != null ? { pct: w.utilization, resets: w.resets_at } : null);
+          data = u.rate_limits_available ? { plan: u.subscription_type, five_hour: win(u.rate_limits?.five_hour), week: win(u.rate_limits?.seven_day) } : { unavailable: true };
+        } finally { temp?.close(); }
+      }
+      usageCache.set(provider, { t: Date.now(), data: data || { unavailable: true } });
     } catch (err) {
-      usageCache = { t: Date.now(), data: { error: String(err?.message || err).slice(0, 200) } };
-    } finally { temp?.close(); usageBusy = null; }
-    return usageCache.data;
-  })());
+      usageCache.set(provider, { t: Date.now(), data: { error: String(err?.message || err).slice(0, 200) } });
+    } finally { usageBusy.delete(provider); }
+    return usageCache.get(provider).data;
+  })();
+  usageBusy.set(provider, pending);
+  return pending;
 }
 
 // 〔輕／中／重〕 step weight -> model (ui_config.json step_models). Heavy steps and steps the author must approve never
@@ -383,26 +473,37 @@ function stepInfo(work, code) {
 }
 async function stepModel(s, st) {
   if (!st || !["in_progress", "start", "doing"].includes(String(st.status || "")) || s.modelPinned) return;
-  const cfg = readConfig().step_models || {};
+  const config = readConfig();
+  const cfg = s.provider === PROVIDER_CODEX ? (config.codex_step_models || {}) : (config.step_models || {});
   const info = stepInfo(st.work, st.step);
   const weight = st.weight || info?.weight || "";
   let model = cfg[weight];
-  if (!model) return;
   const floor = cfg._floor_for_heavy_or_gate || "sonnet";
-  if ((weight === "重" || st.gate || info?.author_gate) && (RANK[model] ?? 9) < (RANK[floor] ?? 0)) model = floor;
+  if (s.provider === PROVIDER_CODEX) {
+    let catalog = s.codexModels;
+    if (!catalog) { try { catalog = s.codexModels = await s.adapter.listModels(); } catch { return; } }
+    const baseline = s.defaultModel || catalog.find((entry) => entry.isDefault)?.value || s.model || catalog[0]?.value || "";
+    if (!model) model = weight === "輕" ? catalog.find((entry) => /mini|nano/i.test(entry.value + " " + entry.label))?.value || baseline : baseline;
+    if ((weight === "重" || st.gate || info?.author_gate) && cfg._floor_for_heavy_or_gate) model = floor;
+  } else {
+    if (!model) return;
+    if ((weight === "重" || st.gate || info?.author_gate) && (RANK[model] ?? 9) < (RANK[floor] ?? 0)) model = floor;
+  }
   if (model === s.model) return;
   s.model = model;
-  await s.q.setModel(model).catch(() => {});
-  emit(s, { kind: "model", model, note: `呢步用 ${model}（${weight}）` });
+  if (s.adapter) await s.adapter.setModel(model).catch(() => {});
+  else { await s.q?.setModel(model).catch(() => {}); emit(s, { kind: "model", model, note: `呢步用 ${model}（${weight}）` }); }
 }
 
 function sendMessage(s, text) {
-  emit(s, { kind: "user", text });
   // the tray (待送出) arrives as a ui:intent block: every item the author approved goes into 工作紀錄
   for (const m of String(text).matchAll(/```ui:intent\s*([\s\S]*?)```/g)) {
     try { for (const it of JSON.parse(m[1]).intents || [])
       logActivity({ kind: "intent", sid: s.sdkSessionId || s.id, title: s.title, file: it.payload?.file || "", note: String(it.note || it.type).slice(0, 300), type: it.type, target: String(it.target || "").slice(0, 120) }); } catch {}
   }
+  logSession(s, "turn started");
+  if (s.adapter) return s.adapter.send(text);
+  emit(s, { kind: "user", text });
   setStatus(s, "running");
   s.inbox.push({ type: "user", message: { role: "user", content: text }, parent_tool_use_id: null });
 }
@@ -482,7 +583,16 @@ const server = http.createServer(async (req, res) => {
 
   try {
     if (parts[0] === "api") {
+      if (req.method === "POST" && url.pathname !== "/api/ui-action")
+        console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} API ${url.pathname}`);
       if (url.pathname === "/api/health") return json(res, 200, { ok: true, protocol: PROTOCOL_VERSION });
+
+      if (url.pathname === "/api/ui-action" && req.method === "POST") {
+        const body = await readBody(req);
+        const clean = (value) => String(value || "").replace(/[\x00-\x1f\x7f|]/g, " ").trim().slice(0, 100);
+        console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} UI ${clean(body.kind)} | ${clean(body.tab)} | ${clean(body.label)}`);
+        return json(res, 200, { ok: true });
+      }
 
       if (url.pathname === "/api/index") {
         const err = await buildIndex(url.searchParams.has("fresh"));
@@ -493,8 +603,9 @@ const server = http.createServer(async (req, res) => {
 
       // ---- tools the author already uses, exposed as one-click helpers ----
       if (url.pathname === "/api/plain" && req.method === "POST") {
-        const texts = (await readBody(req)).texts;
-        return json(res, 200, Array.isArray(texts) ? await plain.get(texts) : {});
+        const body = await readBody(req);
+        const provider = normalizeProvider(body.provider, defaultProvider());
+        return json(res, 200, Array.isArray(body.texts) ? await plain.get(body.texts, provider, body.model || "") : {});
       }
       if (url.pathname === "/api/corpus/score" && req.method === "POST") {
         const text = String((await readBody(req)).text || "").slice(0, 500);
@@ -530,7 +641,7 @@ const server = http.createServer(async (req, res) => {
       }
 
       // ---- automated discussions ----
-      if (url.pathname === "/api/config") return json(res, 200, readConfig());
+      if (url.pathname === "/api/config") return json(res, 200, { ...readConfig(), default_provider: defaultProvider() });
       if (url.pathname === "/api/discuss/plan" && req.method === "POST") {
         try { return json(res, 200, await planDiscussion(await readBody(req))); } catch (e) { return json(res, 500, { error: "AI 設定助手出錯：" + String(e.message || e).slice(0, 200) }); }
       }
@@ -547,14 +658,18 @@ const server = http.createServer(async (req, res) => {
       }
       if (url.pathname === "/api/discuss" && req.method === "GET") return json(res, 200, discussions.list());
       if (url.pathname === "/api/discuss" && req.method === "POST") {
-        try { return json(res, 200, { id: discussions.start(await readBody(req)).id }); } catch (e) { return json(res, 400, { error: String(e.message) }); }
+        try {
+          const body = await readBody(req);
+          body.provider = normalizeProvider(body.provider, defaultProvider());
+          return json(res, 200, { id: discussions.start(body).id });
+        } catch (e) { return json(res, 400, { error: String(e.message) }); }
       }
       if (parts[1] === "discuss" && parts[2]) {
         const d = discussions.get(parts[2]);
         if (!d) return json(res, 404, { error: "no discussion" });
         if (parts[3] === "events") {
           res.writeHead(200, { "content-type": "text/event-stream", "cache-control": "no-cache", connection: "keep-alive" });
-          res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice, from: d.from || "", items: d.items || [], actions: d.actions || [] })}\n\n`);
+        res.write(`data: ${JSON.stringify({ kind: "config", topic: d.topic, range: d.range, stop: d.stop, roles: d.roles, maxRounds: d.maxRounds, budget: d.budget, model: d.model, provider: d.provider || PROVIDER_CLAUDE, context: d.context, links: d.links || [], skill: d.skill, skillChoice: d.skillChoice, from: d.from || "", items: d.items || [], actions: d.actions || [] })}\n\n`);
           for (const ev of d.events) res.write(`data: ${JSON.stringify(ev)}\n\n`);
           d.clients.add(res);
           req.on("close", () => d.clients.delete(res));
@@ -611,20 +726,28 @@ const server = http.createServer(async (req, res) => {
       }
       if (url.pathname === "/api/link" && req.method === "POST") { // attach any conversation (live or past) to a piece of work
         const b = await readBody(req);
-        if (!/^([0-9a-f-]{36}|DISC:[a-z0-9]+)$/.test(String(b.sid || "")) || !b.work) return json(res, 400, { error: "要 sid 同 work" });
-        saveLink(String(b.work).slice(0, 300), b.sid);
+        const sid = String(b.sid && typeof b.sid === "object" ? b.sid.sessionId || "" : b.sid || "");
+        if (!/^([0-9a-f-]{36}|DISC:[a-z0-9]+)$/.test(sid) || !b.work) return json(res, 400, { error: "要 sid 同 work" });
+        const live = [...sessions.values()].find((s) => s.sdkSessionId === sid);
+        const provider = live?.provider || normalizeProvider(b.sid && typeof b.sid === "object" ? b.sid.provider : b.provider, defaultProvider());
+        saveLink(String(b.work).slice(0, 300), makeProviderSessionRef(provider, sid));
         return json(res, 200, { ok: true, links: readLinks() });
       }
       if (url.pathname === "/api/lens") {
-        if (req.method === "POST") { updateLens(); return json(res, 200, lensStatus()); }
+        if (req.method === "POST") { const body = await readBody(req); updateLens(body); return json(res, 200, lensStatus()); }
         return json(res, 200, { ...lensStatus(), summary: lensState().summary || "" });
       }
-      if (url.pathname === "/api/usage") return json(res, 200, await getUsage(url.searchParams.has("fresh")));
+      if (url.pathname === "/api/usage") return json(res, 200, await getUsage(url.searchParams.get("provider"), url.searchParams.has("fresh")));
 
       if (url.pathname === "/api/models") {
-        // Ask a live session what this account can use; fall back to aliases Claude Code always understands.
-        const live = [...sessions.values()].find((s) => s.status !== "closed");
-        const list = live ? await live.q.supportedModels().catch(() => null) : null;
+        const provider = normalizeProvider(url.searchParams.get("provider"), defaultProvider());
+        if (provider === PROVIDER_CODEX) {
+          const adapter = new CodexSessionAdapter({ cwd: REPO });
+          try { return json(res, 200, await adapter.listModels()); } finally { await adapter.close(); }
+        }
+        // Ask a live Claude session what this account can use; fall back to aliases Claude Code understands.
+        const live = [...sessions.values()].find((s) => s.provider === PROVIDER_CLAUDE && s.status !== "closed");
+        const list = live ? await live.q?.supportedModels().catch(() => null) : null;
         return json(res, 200, list?.length ? list.map((m) => ({ value: m.value, label: m.displayName || m.value, description: m.description || "" }))
           : [{ value: "opus", label: "Opus" }, { value: "sonnet", label: "Sonnet" }, { value: "haiku", label: "Haiku" }]);
       }
@@ -649,12 +772,19 @@ const server = http.createServer(async (req, res) => {
       }
 
       if (url.pathname === "/api/sessions" && req.method === "GET") {
-        const live = [...sessions.values()].map(({ id, title, status, sdkSessionId, pending, taskId, model, effort, activity, agentCap, agentsUsed }) => ({ id, title, status, sdkSessionId, taskId, model, effort, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
+        const live = [...sessions.values()].map(({ id, title, provider, status, sdkSessionId, pending, taskId, model, effort, activity, agentCap, agentsUsed }) => ({ id, title, provider, status, sdkSessionId, taskId, model, effort, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
+        const provider = normalizeProvider(url.searchParams.get("provider"), defaultProvider());
         // Older builds saved every auto-discussion turn as a session; skip those so they can't push real chats off the list.
-        const past = (await listSessions({ dir: REPO, limit: 400 }).catch(() => []))
-          .filter((p) => !live.some((l) => l.sdkSessionId === p.sessionId) && !BACKGROUND_PROMPT.test(p.firstPrompt || p.summary || ""))
-          .slice(0, 40)
-          .map((p) => ({ sessionId: p.sessionId, title: p.customTitle || p.summary || p.sessionId, lastModified: p.lastModified }));
+        const past = provider === PROVIDER_CODEX
+          ? (await listCodexThreads()).filter((p) => !live.some((l) => l.provider === provider && l.sdkSessionId === (p.id || p.threadId)))
+            .slice(0, 40).map((p) => {
+              const stamp = p.updatedAt ?? p.updated_at ?? p.createdAt ?? p.created_at ?? "";
+              const lastModified = typeof stamp === "number" ? (stamp < 1e12 ? stamp * 1000 : stamp) : Date.parse(stamp) || 0;
+              return { provider, sessionId: p.id || p.threadId, title: p.name || p.title || p.preview || p.id || p.threadId, lastModified };
+            })
+          : (await listSessions({ dir: REPO, limit: 400 }).catch(() => []))
+            .filter((p) => !live.some((l) => l.provider === provider && l.sdkSessionId === p.sessionId) && !BACKGROUND_PROMPT.test(p.firstPrompt || p.summary || ""))
+            .slice(0, 40).map((p) => ({ provider, sessionId: p.sessionId, title: p.customTitle || p.summary || p.sessionId, lastModified: p.lastModified }));
         // give backfilled file-touch records a readable conversation title
         let named = false;
         for (const p of past) if (touched[p.sessionId] && !touched[p.sessionId].title) { touched[p.sessionId].title = p.title.slice(0, 60); named = true; }
@@ -664,17 +794,25 @@ const server = http.createServer(async (req, res) => {
 
       if (url.pathname === "/api/sessions" && req.method === "POST") {
         const body = await readBody(req);
-        const s = createSession(body);
+        const s = await createSession(body);
         logAuthor(body.said, s.id, "new");
         if (body.resume) { // show what was said before, then a divider, before anything new streams in
-          const old = historyEvents(await getSessionMessages(body.resume, { dir: REPO }).catch(() => []));
+          const old = s.provider === PROVIDER_CODEX
+            ? await s.adapter.history().catch(() => [])
+            : historyEvents(await getSessionMessages(s.sdkSessionId, { dir: REPO }).catch(() => []));
           if (old.length) s.events.unshift(...old, { kind: "note", text: "── 以上係之前嘅對話，由呢度繼續 ──" });
         }
-        if (body.text) sendMessage(s, body.text);
+        if (body.text) await sendMessage(s, body.text);
         return json(res, 200, { id: s.id });
       }
 
       if (parts[1] === "history" && parts[2]) {
+        const provider = normalizeProvider(url.searchParams.get("provider"), defaultProvider());
+        if (provider === PROVIDER_CODEX) {
+          const adapter = new CodexSessionAdapter({ cwd: REPO });
+          try { await adapter.start({ resumeThreadId: parts[2] }); return json(res, 200, await adapter.history()); }
+          finally { await adapter.close(); }
+        }
         const msgs = await getSessionMessages(parts[2], { dir: REPO }).catch(() => []);
         return json(res, 200, historyEvents(msgs));
       }
@@ -694,7 +832,7 @@ const server = http.createServer(async (req, res) => {
         if (req.method !== "POST") return json(res, 405, { error: "POST" });
         const body = await readBody(req);
         if (action === "agents") { s.agentCap = Math.max(0, Math.min(8, +body.cap || 0)); emit(s, { kind: "agents", cap: s.agentCap, used: s.agentsUsed }); return json(res, 200, { ok: true }); }
-        if (action === "message") { logAuthor(body.said, s.sdkSessionId || s.id); sendMessage(s, String(body.text || "")); return json(res, 200, { ok: true }); }
+        if (action === "message") { logAuthor(body.said, s.sdkSessionId || s.id); await sendMessage(s, String(body.text || "")); return json(res, 200, { ok: true }); }
         if (action === "answer") {
           const resolve = s.pending.get(body.requestId);
           if (!resolve) return json(res, 404, { error: "no pending request" });
@@ -705,29 +843,34 @@ const server = http.createServer(async (req, res) => {
           resolve(body.result);
           return json(res, 200, { ok: true });
         }
-        if (action === "interrupt") { await s.q.interrupt().catch(() => {}); return json(res, 200, { ok: true }); }
+        if (action === "interrupt") {
+          if (s.adapter) await s.adapter.interrupt();
+          else await s.q?.interrupt().catch(() => {});
+          return json(res, 200, { ok: true });
+        }
         if (action === "model") {
           s.model = String(body.model || "");
           s.modelPinned = !!s.model; // the author picked a model by hand: step weights stop switching it
-          await s.q.setModel(s.model || undefined);
-          emit(s, { kind: "model", model: s.model });
+          if (s.adapter) await s.adapter.setModel(s.model);
+          else { await s.q?.setModel(s.model || undefined); emit(s, { kind: "model", model: s.model }); }
           return json(res, 200, { ok: true });
         }
         if (action === "effort") {
           s.effort = String(body.effort || "");
-          await s.q.applyFlagSettings({ effortLevel: s.effort || null }); // null = back to the model's default
-          emit(s, { kind: "effort", effort: s.effort });
+          if (s.adapter) await s.adapter.setEffort(s.effort);
+          else { await s.q?.applyFlagSettings({ effortLevel: s.effort || null }); emit(s, { kind: "effort", effort: s.effort }); } // null = back to the model's default
           return json(res, 200, { ok: true });
         }
         if (action === "link") { // the author attaches this chat to a piece of work by hand
           if (!s.sdkSessionId) return json(res, 409, { error: "對話未開始，傾咗第一句先掛得" });
-          saveLink(String(body.work || "").slice(0, 300), s.sdkSessionId); emit(s, { kind: "work", work: String(body.work) });
+          saveLink(String(body.work || "").slice(0, 300), makeProviderSessionRef(s.provider, s.sdkSessionId)); emit(s, { kind: "work", work: String(body.work) });
           return json(res, 200, { ok: true });
         }
         if (action === "rename") {
           s.title = String(body.title || s.title);
           // also save it in the transcript, so the past-session list keeps the title after a restart
-          if (s.sdkSessionId) await renameSession(s.sdkSessionId, s.title, { dir: REPO }).catch(() => {});
+          if (s.adapter) await s.adapter.rename(s.title).catch(() => {});
+          else if (s.sdkSessionId) await renameSession(s.sdkSessionId, s.title, { dir: REPO }).catch(() => {});
           return json(res, 200, { ok: true });
         }
         return json(res, 404, { error: "unknown action" });
@@ -744,11 +887,16 @@ const server = http.createServer(async (req, res) => {
     // static
     const full = inside(PUBLIC, url.pathname === "/" ? "index.html" : url.pathname.slice(1));
     if (!full || !fs.existsSync(full) || fs.statSync(full).isDirectory()) { res.writeHead(404); return res.end("not found"); }
-    res.writeHead(200, { "content-type": (MIME[path.extname(full)] || "application/octet-stream") + "; charset=utf-8" });
+    res.writeHead(200, { "content-type": (MIME[path.extname(full)] || "application/octet-stream") + "; charset=utf-8", "cache-control": "no-store" });
     fs.createReadStream(full).pipe(res);
   } catch (err) {
+    console.error(`[Workbench] ${req.method} ${url.pathname} error: ${String(err?.message || err).slice(0, 300)}`);
     json(res, 500, { error: String(err?.message || err) });
   }
 });
 
-server.listen(PORT, "127.0.0.1", () => console.log(`Haruka Workbench on http://localhost:${PORT}`));
+server.listen(PORT, "127.0.0.1", () => {
+  console.log(`Haruka Workbench on http://localhost:${PORT}`);
+  console.log(`[Workbench] Server config default backend: ${defaultProvider()} (browser choice is shown in the sidebar)`);
+  console.log("[Workbench] Session, model, turn and error activity will appear here.");
+});

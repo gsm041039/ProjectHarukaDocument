@@ -18,14 +18,16 @@
     <button class="search-btn" id="search-btn">🔍 搵嘢 <kbd>Ctrl K</kbd></button>
     <nav id="nav"></nav>
     <button class="btn primary block" id="new-btn">＋ 開新 task</button>
+    <div id="active-ai" class="ai-status" aria-live="polite">讀取模型設定中…</div>
     <div id="session-list"></div>
     <details class="side-tools" id="side-tools">
       <summary>⚙️ 設定、用量</summary>
+      <select id="provider-default" title="新對話及背景 AI 功能使用嘅 backend"></select>
       <select id="model-default"></select>
       <select id="effort-default"></select>
       <div id="lens" class="lens"></div>
     </details>
-    <div id="usage" class="usage" title="Claude 用量（同 /usage 一樣）：5 小時同每週上限用咗幾多；撳一下即刻更新"></div>
+    <div id="usage" class="usage" title="AI 用量（同 /usage 一樣）：5 小時同每週上限用咗幾多；撳一下即刻更新"></div>
   </aside>
   <main id="main">
     <div id="banner"></div>
@@ -34,17 +36,17 @@
 </div>
 
 <div id="tray" class="card">
-  <div class="tray-head"><span class="tray-icon">📝</span><div><b>待送出嘅改動</b><div class="small muted">網頁唔會直接改檔；送出後由 Claude 按 skill 同 gate 處理。</div></div></div>
+  <div class="tray-head"><span class="tray-icon">📝</span><div><b>待送出嘅改動</b><div class="small muted">網頁唔會直接改檔；送出後由 AI 按 skill 同 gate 處理。</div></div></div>
   <ol id="tray-list"></ol>
   <textarea id="tray-note" rows="2" placeholder="補充說明（可留空）"></textarea>
   <div class="actions">
     <button class="btn" id="tray-clear">清除</button>
-    <button class="btn primary" id="tray-send">送出畀 Claude</button>
+    <button class="btn primary" id="tray-send">送出畀 AI</button>
   </div>
 </div>
 
 <aside id="drawer">
-  <header><span class="p" id="drawer-path"></span><button class="btn small" id="drawer-chat">💬 同 Claude 傾</button><button class="icon-btn" id="drawer-close">✕</button></header>
+  <header><span class="p" id="drawer-path"></span><button class="btn small" id="drawer-chat">💬 同 AI 傾</button><button class="icon-btn" id="drawer-close">✕</button></header>
   <div class="body" id="drawer-body"></div>
 </aside>
 <div id="toast"></div>

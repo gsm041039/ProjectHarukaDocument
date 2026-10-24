@@ -1,4 +1,4 @@
-// 場景圖：IMAGE_PROMPT_SPEC 每個場景一張卡（有圖／生成失敗＋原因）；撳卡：睇大圖、複製完整 prompt、叫 Claude 修 spec、複製重新生成指令。
+// 場景圖：IMAGE_PROMPT_SPEC 每個場景一張卡（有圖／生成失敗＋原因）；撳卡：睇大圖、複製完整 prompt、叫 AI 修 spec、複製重新生成指令。
 export function render(el, ctx) {
   const { h, state, api, toast, openFile, newSession, start } = ctx;
   const d = state.index?.scenes;
@@ -26,7 +26,7 @@ export function render(el, ctx) {
           h("button", { class: "small", onclick: () => openFile(d.file) }, "📄 睇 spec"),
           h("button", { class: "small", onclick: async () => copy((await api(`/api/scene/prompt?n=${r.n}`)).output, " prompt") }, "📋 複製完整 prompt"),
           h("button", { class: "small", onclick: () => copy(`python tools/scene_gen_runner.py run ${r.n} --connect-cdp-url http://127.0.0.1:9222`, "生成指令") }, "⌨️ 複製生成指令"),
-          h("button", { class: "small primary", onclick: () => { box.remove(); newSession(`請睇 IMAGE_PROMPT_SPEC 嘅圖${r.n}「${r.title}」（第 ${r.line} 行）${r.status === "failed" ? `，上次生成失敗：${r.fail}` : ""}。對照 00_Story_Brief.html 同角色檔，講 spec 有冇同 canon 唔夾、點改先更易生成成功，用選項卡問我改唔改。`, `圖${r.n} ${r.title}`.slice(0, 24)); } }, "💬 叫 Claude 睇 spec"),
+          h("button", { class: "small primary", onclick: () => { box.remove(); newSession(`請睇 IMAGE_PROMPT_SPEC 嘅圖${r.n}「${r.title}」（第 ${r.line} 行）${r.status === "failed" ? `，上次生成失敗：${r.fail}` : ""}。對照 00_Story_Brief.html 同角色檔，講 spec 有冇同 canon 唔夾、點改先更易生成成功，用選項卡問我改唔改。`, `圖${r.n} ${r.title}`.slice(0, 24)); } }, "💬 叫 AI 睇 spec"),
           h("button", { class: "small", onclick: () => box.remove() }, "✕"))));
     document.body.append(box);
   };
@@ -36,7 +36,7 @@ export function render(el, ctx) {
   el.append(h("div", { class: "toolbar", style: "margin-bottom:4px" }, h("h2", { style: "margin:0;flex:1" }, "場景圖"),
       h("button", { onclick: () => copy("python tools/scene_gen_runner.py run-remaining --connect-cdp-url http://127.0.0.1:9222", "重試全部失敗嘅指令") }, "⌨️ 重試全部失敗"),
       h("button", { class: "primary", onclick: () => start({ type: "new-scene", title: "為新場景寫圖片 spec（跟 IMAGE_PROMPT_SPEC 格式，加入總覽表）" }) }, "＋ 新場景 spec")),
-    h("div", { class: "hint" }, `由 IMAGE_PROMPT_SPEC 自動讀：${d.rows.length} 個場景。撳卡睇大圖、複製 prompt、或者叫 Claude 執 spec。生成係用 tools/scene_gen_runner.py（要開住已登入嘅 Chrome）。`),
+    h("div", { class: "hint" }, `由 IMAGE_PROMPT_SPEC 自動讀：${d.rows.length} 個場景。撳卡睇大圖、複製 prompt、或者叫 AI 執 spec。生成係用 tools/scene_gen_runner.py（要開住已登入嘅 Chrome）。`),
     h("div", { class: "toolbar" },
       ...[["all", "全部"], ["ok", "✅ 有圖"], ["failed", "❌ 生成失敗"], ["todo", "⬜ 未有圖"]].map(([k, l]) => h("button", { class: "chip" + (f.status === k ? " on" : ""), onclick: () => { f.status = k; rerender(); } }, `${l} ${count(k)}`)),
       h("select", { onchange: (e) => { f.block = e.target.value; rerender(); } }, h("option", { value: "" }, "全部區塊"), ...blocks.map((b) => h("option", { value: b, selected: f.block === b }, b))),

@@ -1,10 +1,10 @@
 // 對話旁邊嘅「而家喺邊」面板：由 session 事件流重建（重連時會由頭 replay，所以唔使另外存）。
 // 來源：Skill 工具（用緊邊個 skill）、TodoWrite／TaskCreate／TaskUpdate（步驟）、ui:progress（層／階段）、ui:next（建議下一步）。
 const STATUS = {
-  running: ["🌸", "Claude 做緊嘢…"], waiting: ["🙋", "Claude 等緊你回覆"], idle: ["✅", "到你講嘢"], closed: ["💤", "對話已結束"],
+  running: ["🌸", "AI 做緊嘢…"], waiting: ["🙋", "AI 等緊你回覆"], idle: ["✅", "到你講嘢"], closed: ["💤", "對話已結束"],
 };
 
-export function createProgress({ h, sendToClaude, taskName, choicesOf = () => [], openEntity = () => {}, openFile = () => {}, fileId = () => null, openDiscuss = () => {}, layers = [] }) {
+export function createProgress({ h, sendToAI, taskName, choicesOf = () => [], openEntity = () => {}, openFile = () => {}, fileId = () => null, openDiscuss = () => {}, layers = [] }) {
   // layers come from tools/workbench/ui_config.json (order = pipeline order; "match" = words that mean that layer)
   const LAYERS = layers.filter((l) => l.track !== false).map((l) => [l.id, l.name]);
   const MATCH = [...layers].reverse().map((l) => [new RegExp(l.match || l.id, "i"), l.id]);
@@ -85,7 +85,7 @@ export function createProgress({ h, sendToClaude, taskName, choicesOf = () => []
       h("div", { class: "pp-sec" }, h("div", { class: "pp-h" }, "📍 而家喺邊"),
         h("div", { class: "pp-layers" }, ...LAYERS.map(([k, name], i) => h("div", { class: "pp-layer clickable-layer" + (i === li ? " on" : i < li ? " past" : ""),
           title: li < 0 ? `由 ${name} 層開始` : i === li ? `喺 ${name} 層再深入` : i > li ? `推進到 ${name} 層` : `退返 ${name} 層`,
-          onclick: () => sendToClaude(li < 0 ? `我想喺「${name}」層做嘢。請先確認上層有冇批核、夠唔夠穩定（照 CLAUDE.md 嘅 pipeline），唔夠就講清欠咩，用選項卡問我。`
+          onclick: () => sendToAI(li < 0 ? `我想喺「${name}」層做嘢。請先確認上層有冇批核、夠唔夠穩定（照 CLAUDE.md 嘅 pipeline），唔夠就講清欠咩，用選項卡問我。`
             : i === li ? `喺而家「${name}」層再深入：搵出呢層仲未夠穩定嘅位，畀我候選，用選項卡問我。`
             : i > li ? `我想推進到「${name}」層。請先按 Director Layer Gate 檢查目前層夠唔夠穩定、有冇未批嘅嘢；夠就出 Layer Review Packet 畀我批，唔夠就講清欠咩。唔可以跳層。`
             : `我想退返「${name}」層重新諗。請講清退返會令邊啲下層 work 要 revalidate，然後喺「${name}」層同我傾，用選項卡問我。`) },
@@ -93,24 +93,24 @@ export function createProgress({ h, sendToClaude, taskName, choicesOf = () => []
         h("div", { class: "small muted", style: "margin-top:4px" }, "撳一層：深入／推進／退返（一律照 layer gate）"),
         st.task ? h("div", { class: "pp-task" }, "📌 ", st.task) : null,
         st.stage ? h("div", { class: "pp-stage" }, st.stage) : null,
-        li < 0 && !st.task && !st.stage ? h("div", { class: "pp-empty" }, "Claude 講明做緊邊層之後會喺度亮起") : null),
+        li < 0 && !st.task && !st.stage ? h("div", { class: "pp-empty" }, "AI 講明做緊邊層之後會喺度亮起") : null),
 
       st.skills.length ? h("div", { class: "pp-sec" }, h("div", { class: "pp-h" }, "🧠 用緊嘅 skill"),
         h("div", { class: "pp-skills" }, ...st.skills.map((s, i) => h("span", { class: "pill " + (i === 0 ? "accent" : "") }, s))),
         h("div", { class: "pp-choices" }, ...choicesOf(st.skills[0]).map((c) => h("button", { class: "pp-sugg", disabled: st.status === "running", title: c.prompt,
-          onclick: () => sendToClaude(`請用 \`${st.skills[0]}\` skill：${c.prompt.replaceAll("{goal}", "（就而家呢件事）")}`) }, h("div", { class: "l" }, `${c.icon} ${c.label}`))))) : null,
+          onclick: () => sendToAI(`請用 \`${st.skills[0]}\` skill：${c.prompt.replaceAll("{goal}", "（就而家呢件事）")}`) }, h("div", { class: "l" }, `${c.icon} ${c.label}`))))) : null,
 
       h("div", { class: "pp-sec" }, h("div", { class: "pp-h" }, "📋 今輪步驟", st.steps.length ? h("span", { class: "pp-count" }, `${done}/${st.steps.length}`) : null),
         st.steps.length
           ? h("div", {}, h("div", { class: "pp-bar" }, h("div", { style: `width:${(done / st.steps.length) * 100}%` })),
               ...st.steps.map((s) => h("div", { class: "pp-step " + s.status }, h("span", { class: "pp-box" }, s.status === "completed" ? "✓" : s.status === "in_progress" ? "●" : ""),
                 h("span", {}, s.status === "in_progress" && s.active ? s.active : s.text))))
-          : h("div", { class: "pp-empty" }, "Claude 開始多步驟工作時，步驟會喺度逐步剔")),
+          : h("div", { class: "pp-empty" }, "AI 開始多步驟工作時，步驟會喺度逐步剔")),
 
       st.files.size ? filesSec() : null,
 
       st.next.length ? h("div", { class: "pp-sec pp-next" }, h("div", { class: "pp-h" }, "💡 建議下一步"),
-        ...st.next.map((s) => h("button", { class: "pp-sugg", disabled: st.status === "running", onclick: () => { if (s.discuss) return openDiscuss(s.discuss); st.next = []; paint(); sendToClaude(s.prompt || s.label); } },
+        ...st.next.map((s) => h("button", { class: "pp-sugg", disabled: st.status === "running", onclick: () => { if (s.discuss) return openDiscuss(s.discuss); st.next = []; paint(); sendToAI(s.prompt || s.label); } },
           h("div", { class: "l" }, s.discuss ? "🤖 " : "", s.label), s.why ? h("div", { class: "w" }, s.why) : null))) : null,
     ].filter(Boolean));
   }

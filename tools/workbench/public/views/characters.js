@@ -36,6 +36,6 @@ export function render(el, ctx) {
     mism.length ? h("div", { class: "todo-row orange", style: "cursor:default" }, h("span", { class: "ic" }, "⚠️"),
       h("div", { class: "tx" }, `${mism.length} 個角色喺成長追蹤表嘅全名同角色檔唔一致`, h("div", { class: "small muted" }, mism.map((c) => `${c.full} ↔ ${c.tracker_name}`).join("；"))),
       h("button", { class: "small", onclick: () => ctx.sendIntent({ type: "doc.name_mismatch", target: "INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md", payload: { pairs: mism.map((c) => [c.full, c.tracker_name]) },
-        note: `核對角色全名：成長追蹤表同角色檔唔一致（${mism.map((c) => c.full + "↔" + c.tracker_name).join("、")}），確認邊個係 canon 先改` }) }, "叫 Claude 核對")) : null,
+        note: `核對角色全名：成長追蹤表同角色檔唔一致（${mism.map((c) => c.full + "↔" + c.tracker_name).join("、")}），確認邊個係 canon 先改` }) }, "叫 AI 核對")) : null,
     h("div", { class: "char-grid" }, ...rows.map(card)));
 }

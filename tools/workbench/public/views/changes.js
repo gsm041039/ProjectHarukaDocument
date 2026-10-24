@@ -1,4 +1,4 @@
-// 改動紀錄：未 commit 嘅改動＋最近 30 個 commit；撳檔名睇改咗咩（diff）。睇清楚 Claude 改咗咩先決定 commit。
+// 改動紀錄：未 commit 嘅改動＋最近 30 個 commit；撳檔名睇改咗咩（diff）。睇清楚 AI 改咗咩先決定 commit。
 export async function render(el, ctx) {
   const { h, api, openEntity, newSession } = ctx;
   el.append(h("h2", {}, "改動紀錄"), h("div", { class: "muted" }, "讀緊 git…"));
@@ -33,7 +33,7 @@ export async function render(el, ctx) {
     h("div", { class: "hint" }, "睇清楚每個檔改咗咩。撳檔名睇 diff（綠＝加咗，紅＝刪咗）。"),
     h("div", { class: "card", style: "padding:0;margin-bottom:16px" },
       h("div", { class: "list-item toolbar", style: "margin:0" }, h("h3", { style: "margin:0;flex:1" }, `📝 未 commit 嘅改動（${pending.length}）`),
-        pending.length ? h("button", { class: "small primary", onclick: () => newSession("請睇 git status 同 diff，將未 commit 嘅改動按主題分組，用白話講每組改咗咩，建議 commit 訊息，用選項卡問我批邊幾組 commit。唔好 push。", "整理 commit") }, "🧹 叫 Claude 整理 commit") : null),
+        pending.length ? h("button", { class: "small primary", onclick: () => newSession("請睇 git status 同 diff，將未 commit 嘅改動按主題分組，用白話講每組改咗咩，建議 commit 訊息，用選項卡問我批邊幾組 commit。唔好 push。", "整理 commit") }, "🧹 叫 AI 整理 commit") : null),
       ...(pending.length ? pending.map(([c, f]) => fileRow(c, f)) : [h("div", { class: "list-item muted" }, "冇未 commit 嘅改動")])),
     diffBox,
     h("h3", { style: "margin-top:20px" }, "🕘 最近嘅 commit"),

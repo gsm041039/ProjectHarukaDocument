@@ -1,5 +1,5 @@
 // 未完成事項：SESSION_LEDGER 入面所有未剔嘅 [ ]，加好耐冇郁嘅未決問題。
-// 可以按來源 session／相關文件／角色／task／月份分組；逐條或剔多條：標完成、作廢、叫 Claude 查。
+// 可以按來源 session／相關文件／角色／task／月份分組；逐條或剔多條：標完成、作廢、叫 AI 查。
 import { groupPicker, grouped } from "../group.js";
 
 export function render(el, ctx) {

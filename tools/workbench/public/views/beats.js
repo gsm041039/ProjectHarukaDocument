@@ -1,5 +1,5 @@
 // Beat 板：由 LAYER_MANIFEST 自動生成——每份登記咗嘅 Beat 層文件係一塊板，按資料夾分 track（Demo 試點／正式／…）。
-// 欄＝Sequence／段落，卡＝beat。拖曳排位、加、刪、合併都只係排入「待送出」，由 Claude 按 beat 層規則改檔。
+// 欄＝Sequence／段落，卡＝beat。拖曳排位、加、刪、合併都只係排入「待送出」，由 AI 按 beat 層規則改檔。
 const CUR_LABEL = { CURRENT: "現行", REFERENCE: "參考", SUPERSEDED: "已取代" };
 
 export function render(el, ctx) {
@@ -35,7 +35,7 @@ export function render(el, ctx) {
           b.kind ? h("span", { class: "pill " + (b.kind === "R" ? "accent" : "") , title: b.kind === "R" ? "有外部觸發（Cost Signal）" : "底色／過渡 beat" }, b.kind) : null,
           h("span", { class: "pill " + (b.status === "PROVISIONAL" ? "warn" : "") }, b.status),
           b.removed ? null : h("button", { class: "x", title: "刪除", onclick: () => {
-            if (!confirm(`刪除 beat ${b.id}「${b.title}」？（會排入待送出，由 Claude 處理）`)) return;
+            if (!confirm(`刪除 beat ${b.id}「${b.title}」？（會排入待送出，由 AI 處理）`)) return;
             b.removed = true;
             sendIntent({ type: "beat.remove", target: b.id, payload: { file: src.file }, note: `刪除 beat ${b.id}「${b.title}」` });
             rerender();
@@ -136,6 +136,6 @@ export function render(el, ctx) {
       h("button", { onclick: () => openFile(src.file) }, "睇原文")),
     pick.view === "timeline" ? timeline() : h("div", {},
       h("div", { class: "hint" },
-        `由 LAYER_MANIFEST 自動生成：track 跟資料夾分，每份登記咗嘅 Beat 層文件一塊板；逐 beat 詳細設計會自動對返上層。拖卡排位；剔兩張或以上可以合併。所有改動排喺右下角，送出先交畀 Claude。顏色：藍＝DRAFT、橙＝PROVISIONAL、紅＝要 revalidate、綠＝已批。`),
+        `由 LAYER_MANIFEST 自動生成：track 跟資料夾分，每份登記咗嘅 Beat 層文件一塊板；逐 beat 詳細設計會自動對返上層。拖卡排位；剔兩張或以上可以合併。所有改動排喺右下角，送出先交畀 AI。顏色：藍＝DRAFT、橙＝PROVISIONAL、紅＝要 revalidate、綠＝已批。`),
       h("div", { class: "board" }, ...seqs.map(column))));
 }

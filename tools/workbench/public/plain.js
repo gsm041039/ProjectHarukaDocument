@@ -17,8 +17,11 @@ export function plain(h, text, cls = "") {
 async function flush() {
   const q = queue; queue = new Map(); timer = null;
   const keys = [...q.keys()];
+  const readPref = (key, fallback = "") => { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch { return fallback; } };
+  const provider = readPref("provider", "claude") === "codex" ? "codex" : "claude";
+  const model = readPref(`${provider}:model`, provider === "claude" ? readPref("model", "") : "");
   for (let i = 0; i < keys.length; i += 15) // one request per server batch, so the first lines show up early
-    fetch("/api/plain", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ texts: keys.slice(i, i + 15) }) })
+    fetch("/api/plain", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ texts: keys.slice(i, i + 15), provider, model }) })
       .then((r) => r.json()).catch(() => ({}))
       .then((res) => { for (const [t, v] of Object.entries(res)) { done[t] = v; for (const e of q.get(t) || []) e.textContent = v; } });
 }

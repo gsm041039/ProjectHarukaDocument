@@ -7,13 +7,13 @@
 // Agents are READ-ONLY (Read/Grep/Glob, dontAsk): a discussion can never edit the repo. Output is DRAFT, never canon.
 import fs from "node:fs";
 import path from "node:path";
-import { query } from "@anthropic-ai/claude-agent-sdk";
+import { PROVIDER_CLAUDE, normalizeProvider } from "./providers/provider-contract.mjs";
 
-export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
+export function createDiscussions({ REPO, DIR, onRead = () => {}, runPrompt }) {
   const all = new Map();
   fs.mkdirSync(DIR, { recursive: true });
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
-    try { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")); d.clients = new Set(); if (d.state === "running" || d.state === "paused") { d.state = "stopped"; d.waitingMore = false; } /* no loop survives a restart; ＋輪 restarts it */ all.set(d.id, d); } catch {}
+    try { const d = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8")); d.provider = normalizeProvider(d.provider, PROVIDER_CLAUDE); d.clients = new Set(); if (d.state === "running" || d.state === "paused") { d.state = "stopped"; d.waitingMore = false; } /* no loop survives a restart; ＋輪 restarts it */ all.set(d.id, d); } catch {}
   }
   const save = (d) => { const { clients, waiter, ...rest } = d; fs.writeFileSync(path.join(DIR, d.id + ".json"), JSON.stringify(rest)); };
   const emit = (d, ev) => { ev.t = Date.now(); d.events.push(ev); for (const r of d.clients) r.write(`data: ${JSON.stringify(ev)}\n\n`); save(d); };
@@ -22,22 +22,25 @@ export function createDiscussions({ REPO, DIR, onRead = () => {} }) {
   async function ask(d, prompt, out = {}) {
     let text = "", cost = 0;
     const reads = new Set();
-    for await (const m of query({ prompt, options: {
-      cwd: REPO, settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
-      allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 8,
-      persistSession: false, // one-shot turns: saving them buried the author's real chats in "以前嘅 session"
-      ...(d.model ? { model: d.model } : {}),
-    } })) {
-      if (m.type === "result") { text = m.result || text; cost = m.total_cost_usd || 0; }
-      else if (m.type === "assistant") for (const b of m.message.content) {
-        if (b.type === "text") text = b.text;
-        // files it read, and files it searched in (Grep with a file path) — both count as "讀咗" for the author
-        else if (b.type === "tool_use" && ((b.name === "Read" && b.input?.file_path) || (b.name === "Grep" && b.input?.path && /\.\w+$/.test(b.input.path)))) {
-          const rel = path.relative(REPO, path.resolve(REPO, b.input.file_path || b.input.path)).split(path.sep).join("/");
-          if (!rel.startsWith("..")) reads.add(rel);
-        }
-      }
-    }
+    const result = await runPrompt({
+      provider: d.provider, prompt, cwd: REPO, model: d.model,
+      claudeOptions: {
+        settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
+        allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 8,
+        persistSession: false, // one-shot turns: saving them buried the author's real chats in "以前嘅 session"
+      },
+      onEvent: (event) => {
+        if (event.kind !== "tool") return;
+        const input = event.input || {};
+        const candidate = event.name === "Read" ? input.file_path
+          : event.name === "Grep" && /\.\w+$/.test(input.path || "") ? input.path : "";
+        if (!candidate) return;
+        const rel = path.relative(REPO, path.resolve(REPO, candidate)).split(path.sep).join("/");
+        if (!rel.startsWith("..")) reads.add(rel);
+      },
+    });
+    text = result.text || "";
+    cost = result.cost || 0;
     d.cost += cost;
     out.reads = [...reads];
     if (reads.size) onRead(d, out.reads);
@@ -158,7 +161,7 @@ ${transcript(d)}`;
         stop: String(cfg.stop || "有 2–3 個成形候選＋推薦").slice(0, 300), context: String(cfg.context || "").slice(0, 800), roles,
         links: (Array.isArray(cfg.links) ? cfg.links : []).slice(0, 20).map((l) => ({ id: String(l.id).slice(0, 200), title: String(l.title || "").slice(0, 200), file: String(l.file || "").slice(0, 300) })),
         skill: String(cfg.skill || "").slice(0, 80), skillChoice: String(cfg.skillChoice || "").slice(0, 600), from: String(cfg.from || "").slice(0, 40),
-        maxRounds: Math.max(+cfg.maxRounds || 3, 1), model: cfg.model || "",
+        maxRounds: Math.max(+cfg.maxRounds || 3, 1), model: cfg.model || "", provider: normalizeProvider(cfg.provider, PROVIDER_CLAUDE),
         items: (Array.isArray(cfg.items) ? cfg.items : []).slice(0, 40).map((x) => ({ id: String(x.id).slice(0, 200), title: String(x.title || "").slice(0, 300), payload: x.payload && typeof x.payload === "object" ? x.payload : {} })),
         actions: (Array.isArray(cfg.actions) ? cfg.actions : []).slice(0, 6).map((a) => ({ type: String(a.type).slice(0, 60), label: String(a.label || a.type).slice(0, 30) })),
         round: 0, cost: 0, focus: "", state: "running", stopReason: "", events: [], clients: new Set() };

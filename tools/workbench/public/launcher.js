@@ -26,9 +26,9 @@ export function createLauncher(ctx) {
   async function open({ skill = null, context = "", tab = null } = {}) {
     await loadPresets();
     const st = { tab: tab || (skill ? "skills" : "quick"), skill, q: "", preset: null, choice: null };
-    const goal = h("textarea", { rows: 3, placeholder: "想做咩？（一兩句就得，可以留空等 Claude 問你）" });
+    const goal = h("textarea", { rows: 3, placeholder: "想做咩？（一兩句就得，可以留空等 AI 問你）" });
     const draw = () => {
-      const pick = st.preset ? `快捷：${st.preset.icon || ""} ${st.preset.label}` : st.skill ? `Skill：${st.skill}` : "唔指定 skill（直接同 Claude 傾）";
+      const pick = st.preset ? `快捷：${st.preset.icon || ""} ${st.preset.label}` : st.skill ? `Skill：${st.skill}` : "唔指定 skill（直接同 AI 傾）";
       const groups = {};
       for (const s of skills().filter((s) => !st.q || (s.name + s.description).toLowerCase().includes(st.q.toLowerCase()))) (groups[s.group] ||= []).push(s);
       const search = h("input", { type: "search", placeholder: "搵 skill…", value: st.q });
@@ -47,7 +47,7 @@ export function createLauncher(ctx) {
                 h("button", { class: "lt-x", title: "刪除呢個快捷", onclick: async (e) => { e.stopPropagation(); if (!confirm(`刪除快捷「${p.label}」？`)) return; presets.splice(i, 1); await api("/api/launchers", presets); draw(); } }, "✕"))),
               h("div", { class: "launch-tile add", onclick: () => addPreset() }, h("div", { class: "lt-ic" }, "＋"), h("div", { class: "lt-l" }, "加快捷掣"), h("div", { class: "lt-d" }, "例如「做 ED」、「加新資料」")))
           : h("div", {}, search, h("div", { class: "skill-list" },
-              h("div", { class: "skill-row" + (!st.skill && !st.preset ? " on" : ""), onclick: () => { st.skill = null; st.preset = null; draw(); } }, h("b", {}, "💬 唔指定 skill"), h("div", { class: "small muted" }, "直接同 Claude 傾，佢會自己揀")),
+              h("div", { class: "skill-row" + (!st.skill && !st.preset ? " on" : ""), onclick: () => { st.skill = null; st.preset = null; draw(); } }, h("b", {}, "💬 唔指定 skill"), h("div", { class: "small muted" }, "直接同 AI 傾，佢會自己揀")),
               ...Object.entries(groups).sort().flatMap(([g, xs]) => [h("div", { class: "section-title" }, g),
                 ...xs.map((s) => h("div", { class: "skill-row" + (st.skill === s.name && !st.preset ? " on" : ""), onclick: () => { st.skill = s.name; st.preset = null; draw(); } },
                   h("b", {}, s.name), h("div", { class: "small muted" }, s.description.slice(0, 160))))]))),

@@ -97,7 +97,7 @@ export async function render(el, ctx) {
       h("div", { class: "actions", style: "justify-content:flex-start" },
         h("button", { onclick: () => openFile(n.id) }, "打開"),
         h("button", { onclick: () => openEntity(n.id) }, "🔗 關係"),
-        h("button", { onclick: () => newSession(`我想傾 \`${n.id}\`。請先讀佢，同我講佢屬邊層、依據咩、邊啲文件依賴佢、有咩未決。`, n.id.split("/").pop()) }, "同 Claude 傾"),
+        h("button", { onclick: () => newSession(`我想傾 \`${n.id}\`。請先讀佢，同我講佢屬邊層、依據咩、邊啲文件依賴佢、有咩未決。`, n.id.split("/").pop()) }, "同 AI 傾"),
         h("button", { onclick: () => sendIntent({ type: "doc.mark_revalidate", target: n.id, payload: {}, note: `將 ${n.id.split("/").pop()} 標做要 revalidate，並列出受影響嘅下游` }) }, "標要 revalidate")),
       h("div", { class: "small", style: "margin-top:8px" }, h("span", { style: "color:#3c64a8" }, "■ 上游（佢依據）"), "　", h("span", { style: "color:#c27a12" }, "■ 下游（依賴佢）")),
       list(up, "上游："), list(down, "下游：")].filter(Boolean));

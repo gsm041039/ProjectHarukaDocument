@@ -69,7 +69,7 @@ export function render(el, ctx) {
   };
 
   el.append(...[h("h2", {}, "對白工作坊"),
-    h("div", { class: "hint" }, "全部角色都喺度：＋＝未有工作坊（一撳就開），🙋＝有微場景等你揀，✓＝暫時揀晒。每句候選可以朗讀同評分；揀句排入右下角，送出由 Claude 記錄。"),
+    h("div", { class: "hint" }, "全部角色都喺度：＋＝未有工作坊（一撳就開），🙋＝有微場景等你揀，✓＝暫時揀晒。每句候選可以朗讀同評分；揀句排入右下角，送出由 AI 記錄。"),
     tryBox, strip, startBar,
     ws ? h("div", { class: "toolbar" },
       h("label", { style: "font-weight:700" }, h("input", { type: "checkbox", checked: f.pendingOnly, onchange: (e) => { f.pendingOnly = e.target.checked; rerender(); } }), " 只睇未定"),
@@ -80,6 +80,6 @@ export function render(el, ctx) {
       sc.pick ? h("div", { class: "pick-box" }, "✅ ", sc.pick) : null,
       ...sc.candidates.map((c) => cand(sc, c)),
       sc.candidates.length ? null : h("div", { class: "small muted", style: "margin-top:6px" }, "呢段冇候選表（可能係證據整理或者已經定咗）")))
-      : [h("div", { class: "card empty-start" }, h("div", { class: "mascot" }, "🗣️"), h("h3", {}, `${name} 未有聲音工作坊`), h("p", { class: "muted" }, "撳上面「＋ 開工作坊」，Claude 會照網頁讀得到嘅格式建檔，再出第一個微場景畀你揀。"))]),
+      : [h("div", { class: "card empty-start" }, h("div", { class: "mascot" }, "🗣️"), h("h3", {}, `${name} 未有聲音工作坊`), h("p", { class: "muted" }, "撳上面「＋ 開工作坊」，AI 會照網頁讀得到嘅格式建檔，再出第一個微場景畀你揀。"))]),
     ws && !ws.scenes.length ? h("div", { class: "card empty-start" }, h("p", { class: "muted" }, "呢份工作坊仲未有微場景候選（可能只做咗證據整理）。撳「▶ 下一個微場景」開始。")) : null].filter(Boolean));
 }

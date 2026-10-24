@@ -19,7 +19,7 @@ export function render(el, ctx) {
 
   // ---------- ① focus: the single most important thing ----------
   const gatePipe = pipes.find((p) => { const s = curStage(p); return s && (s.status === "AWAITING" || s.author_gate); });
-  const focus = waiting[0] ? { ic: "🙋", title: `Claude 喺「${short(waiting[0].title)}」問緊你`, sub: "撳入去揀答案就得", btn: "去答", go: () => openLive(waiting[0].id) }
+  const focus = waiting[0] ? { ic: "🙋", title: `AI 喺「${short(waiting[0].title)}」問緊你`, sub: "撳入去揀答案就得", btn: "去答", go: () => openLive(waiting[0].id) }
     : na?.needs_author ? { ic: "👉", title: "下一步要你決定", sub: ctx.plain(na.text), btn: "開始", go: () => newSession("請讀 NEXT_ACTION.md 最頂嗰條單一步，用白話講要我決定咩，用選項卡問我。", "下一步") }
     : gatePipe ? { ic: "👑", title: `「${gatePipe.short}」要你批`, sub: `${curStage(gatePipe).code} ${short(curStage(gatePipe).title, 20)}`, btn: "去批", go: () => goPipe(gatePipe) }
     : { ic: "🌸", title: "冇嘢等你", sub: "揀一樣嘢繼續，或者開新工作", btn: "做下一步", go: () => newSession("請讀 NEXT_ACTION.md，然後開始做。", "下一步") };

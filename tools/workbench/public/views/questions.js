@@ -51,7 +51,7 @@ export function render(el, ctx) {
       q.matrix?.length ? h("div", { class: "small" }, h("b", {}, "拆題表（matrix）來源："), h("ul", {}, ...q.matrix.map((m) => h("li", {}, m)))) : null,
       q.section ? h("div", { class: "small muted" }, "出處：" + q.section) : null,
       h("div", { class: "actions", style: "justify-content:flex-start" },
-        h("button", { class: "small primary", onclick: () => newSession(`我想傾 QUESTION_QUEUE 入面嘅 ${q.id}（${q.topic.slice(0, 60)}）。請先做 source check，再用白話同我講要決定咩、點解、有咩候選。`, q.topic.slice(0, 24)) }, "💬 同 Claude 傾"),
+        h("button", { class: "small primary", onclick: () => newSession(`我想傾 QUESTION_QUEUE 入面嘅 ${q.id}（${q.topic.slice(0, 60)}）。請先做 source check，再用白話同我講要決定咩、點解、有咩候選。`, q.topic.slice(0, 24)) }, "💬 同 AI 傾"),
         h("button", { class: "small", onclick: () => { const a = ask("答案係咩？"); if (a) act.resolve(q, a); } }, "✅ 已解決"),
         h("button", { class: "small", onclick: () => { const r = ask("點解作廢？（可留空）"); if (r != null) act.drop(q, r); } }, "🗑️ 作廢"),
         h("button", { class: "small", onclick: () => act.defer(q) }, "⏸️ 押後"),

@@ -1,4 +1,4 @@
-// 美術：圖庫（按 art/ConceptArt 資料夾自動分組）、視覺語言登記、美術文件。撳圖放大，可以叫 Claude 處理。
+// 美術：圖庫（按 art/ConceptArt 資料夾自動分組）、視覺語言登記、美術文件。撳圖放大，可以叫 AI 處理。
 export function render(el, ctx) {
   const { h, state, openEntity, openFile, newSession, sendIntent, start, useSkill } = ctx;
   const art = state.index?.art || { groups: [], docs: [] };
@@ -14,7 +14,7 @@ export function render(el, ctx) {
   el.append(h("h2", {}, "美術"), tabs);
 
   if (pick.tab === "visual") {
-    el.append(h("div", { class: "hint" }, "BETA_VISUAL_LANGUAGE_REGISTER 嘅視覺語言項目。撳一行睇詳情／改狀態／同 Claude 傾。"),
+    el.append(h("div", { class: "hint" }, "BETA_VISUAL_LANGUAGE_REGISTER 嘅視覺語言項目。撳一行睇詳情／改狀態／同 AI 傾。"),
       h("div", { class: "card", style: "padding:0" }, ...vis.rows.map((v) => h("div", { class: "list-item clickable", onclick: () => openEntity(v.id) },
         h("div", { style: "display:flex;gap:8px;flex-wrap:wrap;align-items:baseline" }, h("span", { class: "pill" }, v.id), h("b", { style: "flex:1" }, v.name),
           h("span", { class: "pill info" }, v.layer), h("span", { class: "pill " + (/COMPLETE/.test(v.state) ? "ok" : /NOT STARTED/.test(v.state) ? "" : "warn") }, v.state)),

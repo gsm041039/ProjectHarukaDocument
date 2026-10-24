@@ -1,5 +1,5 @@
 // 任何實體（問題／決定／矩陣題目／beat／task／視覺語言／角色／美術／文件）都用同一個詳情面板：
-// 內容摘要＋所有相關實體（撳得，一路跳）＋嗰類實體適用嘅操作。所有改動都排入「待送出」，由 Claude 執行。
+// 內容摘要＋所有相關實體（撳得，一路跳）＋嗰類實體適用嘅操作。所有改動都排入「待送出」，由 AI 執行。
 // 加新類型：TYPES 加一行＋ACTIONS 加一個函數。
 export const TYPES = {
   question: ["❓", "問題"], decision: ["⚖️", "決定"], matrix: ["🧩", "矩陣題目"], beat: ["🎬", "Beat"], task: ["🗂️", "Task"],
@@ -22,7 +22,7 @@ export function createEntityUI(ctx) {
   // What you can do with each type. Each action: [label, fn, isPrimary]
   const ACTIONS = {
     question: (e) => [
-      ["💬 同 Claude 傾", () => talk(e, "再畀我候選。"), true],
+      ["💬 同 AI 傾", () => talk(e, "再畀我候選。"), true],
 ["🤖 叫 AI 自己傾", () => { state.discuss = { id: null, draft: { topic: e.title, range: "", stop: "有 2–3 個成形候選＋推薦", context: "", links: [{ id: e.id, title: e.title, file: e.file || "" }] } }; switchTab("discuss"); document.getElementById("drawer").classList.remove("open"); }],
       ["✅ 標已解決", () => { const a = ask("答案係咩？（一句講）"); if (a) sendIntent({ type: "question.resolve", target: e.id, payload: { answer: a }, note: `問題「${e.title.slice(0, 40)}」已解決：${a}（請更新 QUESTION_QUEUE，需要嘅話落 CDL）` }); }],
       ["🗑️ 作廢", () => { const r = ask("點解作廢？（例：已過時／被其他決定取代）"); if (r != null) sendIntent({ type: "question.drop", target: e.id, payload: { reason: r }, note: `作廢問題「${e.title.slice(0, 40)}」：${r || "已過時"}（QUESTION_QUEUE 標 DROPPED，保留紀錄）` }); }],
@@ -30,14 +30,14 @@ export function createEntityUI(ctx) {
       ["⬆️ 提到最優先", () => sendIntent({ type: "question.priority", target: e.id, payload: { to: "P1" }, note: `將問題「${e.title.slice(0, 40)}」提到最優先` })],
     ],
     decision: (e) => [
-      ["💬 同 Claude 傾", () => talk(e), true],
+      ["💬 同 AI 傾", () => talk(e), true],
 ["🤖 叫 AI 自己傾", () => { state.discuss = { id: null, draft: { topic: e.title, range: "", stop: "有 2–3 個成形候選＋推薦", context: "", links: [{ id: e.id, title: e.title, file: e.file || "" }] } }; switchTab("discuss"); document.getElementById("drawer").classList.remove("open"); }],
       ["🔁 要重審", () => { const r = ask("點解要重審？"); if (r) sendIntent({ type: "decision.review", target: e.id, payload: { reason: r }, note: `決定「${e.title.slice(0, 40)}」要重審：${r}（唔好直接改 canon，先開問題同作者確認）` }); }],
     ],
     matrix: (e) => [
-      ["💬 同 Claude 傾", () => talk(e, "邊啲角度要我決定？"), true],
+      ["💬 同 AI 傾", () => talk(e, "邊啲角度要我決定？"), true],
 ["🤖 叫 AI 自己傾", () => { state.discuss = { id: null, draft: { topic: e.title, range: "", stop: "有 2–3 個成形候選＋推薦", context: "", links: [{ id: e.id, title: e.title, file: e.file || "" }] } }; switchTab("discuss"); document.getElementById("drawer").classList.remove("open"); }],
-      ["🔄 叫 Claude 更新", () => sendIntent({ type: "matrix.refresh", target: e.id, payload: {}, note: `核對並更新 QUESTION_MATRIX「${e.title.slice(0, 40)}」嘅角度狀態` })],
+      ["🔄 叫 AI 更新", () => sendIntent({ type: "matrix.refresh", target: e.id, payload: {}, note: `核對並更新 QUESTION_MATRIX「${e.title.slice(0, 40)}」嘅角度狀態` })],
       ["🧩 喺矩陣睇", () => { state.mFilter = { mode: "all", text: e.title.slice(0, 20), usedOnly: true, sel: e.title }; switchTab("matrix"); }],
     ],
     beat: (e) => [
@@ -54,17 +54,17 @@ export function createEntityUI(ctx) {
       ].filter(Boolean);
     },
     visual: (e) => [
-      ["💬 同 Claude 傾", () => talk(e), true],
+      ["💬 同 AI 傾", () => talk(e), true],
       ["✏️ 改狀態", () => { const s = ask(`新狀態？（而家：${e.status}；例：FIRST-PASS COMPLETE／EXPLORING／PARKED）`); if (s) sendIntent({ type: "visual.set_state", target: e.id, payload: { state: s }, note: `視覺語言「${e.title.slice(0, 40)}」狀態改做 ${s}（BETA_VISUAL_LANGUAGE_REGISTER）` }); }],
     ],
     character: (e) => [
-      ["💬 同 Claude 傾", () => talk(e), true],
+      ["💬 同 AI 傾", () => talk(e), true],
       ["📄 角色檔", () => openFile(e.file)],
       ["🖼️ 睇美術", () => { const c = (state.index?.characters?.rows || []).find((x) => x.id === e.id); state.artPick = { group: c?.art_folder ? "ART:" + c.art_folder : null, old: false }; switchTab("art"); }],
     ],
     art: (e) => [
       ["🖼️ 打開圖庫", () => { state.artPick = { group: e.id, old: false }; switchTab("art"); }, true],
-      ["💬 同 Claude 傾", () => talk(e, "呢組美術同 canon 視覺設定有冇唔夾？")],
+      ["💬 同 AI 傾", () => talk(e, "呢組美術同 canon 視覺設定有冇唔夾？")],
     ],
     conversation: (e) => [
       ["▶ 打開對話", () => { document.getElementById("drawer").classList.remove("open"); const live = state.live.find((s) => s.sdkSessionId === e.session); live ? ctx.openLive(live.id) : ctx.openPast(e.session, e.title); }, true],
@@ -73,7 +73,7 @@ export function createEntityUI(ctx) {
       ["🤖 打開討論", () => { state.discuss = { id: e.id.replace(/^DISC:/, ""), draft: null }; switchTab("discuss"); document.getElementById("drawer").classList.remove("open"); }, true],
     ],
     todo: (e) => [
-      ["💬 叫 Claude 查", () => newSession(`SESSION_LEDGER 有條未完成待辦：「${e.title}」。請查吓佢而家仲使唔使做、做咗未，用白話話我知，再建議完成／作廢。`, e.title.slice(0, 24)), true],
+      ["💬 叫 AI 查", () => newSession(`SESSION_LEDGER 有條未完成待辦：「${e.title}」。請查吓佢而家仲使唔使做、做咗未，用白話話我知，再建議完成／作廢。`, e.title.slice(0, 24)), true],
       ["✅ 標完成", () => sendIntent({ type: "ledger.todo_done", target: e.id, payload: { text: e.title }, note: `標完成待辦：「${e.title.slice(0, 50)}」` })],
       ["🗑️ 作廢", () => sendIntent({ type: "ledger.todo_drop", target: e.id, payload: { text: e.title }, note: `作廢待辦：「${e.title.slice(0, 50)}」` })],
     ],
@@ -88,7 +88,7 @@ export function createEntityUI(ctx) {
     file: (e) => [
       ["📄 打開", () => openFile(e.id), true],
       ["🧠 揀 skill 處理", () => launch({ context: `文件 \`${e.id}\``, tab: "skills" })],
-      ["💬 同 Claude 傾", () => talk(e)],
+      ["💬 同 AI 傾", () => talk(e)],
       ["⚠️ 標要 revalidate", () => sendIntent({ type: "doc.mark_revalidate", target: e.id, payload: {}, note: `將 ${e.title} 標做要 revalidate，並列出受影響嘅下游` })],
       ["🗄️ 標已取代", () => { const by = ask("被邊份取代？（檔名，可留空）"); if (by != null) sendIntent({ type: "doc.supersede", target: e.id, payload: { by }, note: `${e.title} 已被取代${by ? "（由 " + by + "）" : ""}：更新 LAYER_MANIFEST 做 SUPERSEDED` }); }],
     ],

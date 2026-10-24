@@ -6,6 +6,7 @@ import { workCard } from "../workcard.js";
 
 export async function render(el, ctx) {
   const { h, state, api, toast, newSession, sendIntent } = ctx;
+  const provider = ctx.provider?.() || "claude";
   const f = (state.discuss ||= { id: null, draft: null });
   const rerender = () => { state.dES?.close(); el.replaceChildren(); render(el, ctx); };
   // fallback lists live in tools/workbench/ui_config.json; the 🧭 planner adds topic-specific ones on top
@@ -34,7 +35,7 @@ ${synth ? "總結：" + JSON.stringify(synth) : `到目前為止嘅發言（節�
 
 請按正常 gate 同我繼續：先用白話講而家傾到邊、要決定咩，然後用選項卡問我。`;
       const back = cfg.from && state.live.find((s) => s.id === cfg.from && s.status !== "closed");
-      if (back) { state.current = { id: back.id }; ctx.sendToClaude(body); }
+      if (back) { state.current = { id: back.id }; ctx.sendToAI(body); }
       else newSession(body, "討論：" + (cfg.topic || "").slice(0, 16));
     };
     let castOpen = false, allRoles = null;
@@ -152,7 +153,7 @@ ${ask}`, title.slice(0, 24));
     const pickOpt = (s, c, o) => decide(s, c, `我傾向揀「${o.name}」。請按正常 gate 同我落實：先用白話講揀咗會改到乜、下游邊啲要重新核對、仲有咩要我決定，然後用選項卡問我確認；未確認唔好寫入 canon。`, "揀：" + o.name);
     const talkQ = (s, c, q) => decide(s, c, `我想先傾呢條：「${q}」。請先讀相關文件，用白話講考慮方向同代價，然後用選項卡問我。`, "傾：" + q);
     // 📋 per-item suggestions from the summary: the author ticks, then they go to the tray like the page's own buttons
-    // (the discussion agents never edit files; Claude handles the tray through the normal gate)
+    // (the discussion agents never edit files; AI handles the tray through the normal gate)
     const itemActions = (s, c) => {
       const items = c.items || [], allowed = c.actions || [];
       const recs = (s.item_actions || []).filter((r) => items.some((x) => x.id === r.id));
@@ -165,7 +166,7 @@ ${ask}`, title.slice(0, 24));
           const it = items.find((x) => x.id === id), why = recs.find((r) => r.id === id)?.reason || "";
           sendIntent({ type, target: id, payload: { ...it.payload, reason: why, from_discussion: c.topic.slice(0, 60) }, note: `${label(type)}：「${it.title.slice(0, 50)}」（自動討論建議：${why}）` });
         }
-        toast(`${picks.size} 項已放入待送出，送出先交畀 Claude 處理`); run.disabled = true;
+        toast(`${picks.size} 項已放入待送出，送出先交畀 AI 處理`); run.disabled = true;
       } }, "📤 執行揀咗嘅");
       return h("div", { class: "synth-sec" }, h("b", {}, "📋 逐項建議（剔咗嘅先會做）"),
         ...recs.map((r) => {
@@ -200,6 +201,8 @@ ${ask}`, title.slice(0, 24));
   // ---------- setup + history ----------
   const [roles, history] = await Promise.all([api("/api/discuss/roles"), api("/api/discuss")]);
   const d = (f.draft ||= { topic: "", range: "", stop: STOPS[0] || "", context: "" });
+  if (d.provider && d.provider !== provider) d.model = "";
+  d.provider = provider;
   d.links ??= []; d.skill ??= ""; d.skillChoice ??= "";
   const ents = state.index?.entities || {};
   const skills = state.index?.skills?.rows || [];
@@ -236,8 +239,9 @@ ${ask}`, title.slice(0, 24));
   const stopIn = h("input", { type: "text", value: d.stop, style: "width:100%" });
   const rounds = h("input", { type: "number", min: 1, step: 1, value: 3, style: "width:70px" });
   rounds.addEventListener("input", () => est());
-  const modelSel = h("select", {}, h("option", { value: "" }, "預設 model"));
-  api("/api/models").then((ms) => modelSel.append(...ms.map((m) => h("option", { value: m.value, title: m.description || "" }, m.label)))).catch(() => {});
+  const modelSel = h("select", { onchange: () => { d.model = modelSel.value; } }, h("option", { value: "" }, "預設 model"));
+  const preferredModel = ctx.preference?.("model", provider) || "";
+  api(`/api/models?provider=${encodeURIComponent(provider)}`).then((ms) => modelSel.append(...ms.map((m) => h("option", { value: m.value, selected: m.value === (d.model || preferredModel), title: m.description || "" }, m.label)))).catch(() => {});
   const estOut = h("span", { class: "small muted" });
   const est = () => { const n = roles.filter((r) => r.on).length; estOut.textContent = `大約 ${n * +rounds.value + +rounds.value + 1} 次 AI 回覆`; };
   if (Array.isArray(d.roles) && d.roles.length) { for (const r of roles) r.on = d.roles.includes(r.name); delete d.roles; } // a suggestion can pick the cast
@@ -351,7 +355,7 @@ ${ask}`, title.slice(0, 24));
     const key = JSON.stringify([topic.value.trim(), d.context, d.links.map((l) => l.id)]);
     if (key !== plan.key) plan.answers = {}; // new topic: earlier answers no longer apply
     plan.state = "loading"; plan.key = key; drawPlan();
-    try { plan.data = await api("/api/discuss/plan", { topic: topic.value.trim(), context: d.context, links: d.links, answers: plan.answers }); plan.state = "done"; }
+    try { plan.data = await api("/api/discuss/plan", { topic: topic.value.trim(), context: d.context, links: d.links, answers: plan.answers, provider, model: modelSel.value || preferredModel, effort: ctx.preference?.("effort", provider) || "" }); plan.state = "done"; }
     catch (e) { plan.state = "error"; plan.err = e.message; }
     drawPlan(); drawChips();
   }
@@ -364,7 +368,8 @@ ${ask}`, title.slice(0, 24));
     if (on.length < 2) return toast("最少揀兩個角色");
     await api("/api/discuss/roles", roles);
     const { id } = await api("/api/discuss", { topic: topic.value.trim(), range: range.value.trim(), stop: stopIn.value.trim(), context: d.context, links: d.links, from: d.from || "",
-      skill: d.skill, skillChoice: d.skillChoice, roles: on, maxRounds: +rounds.value, model: modelSel.value, items: d.items || [], actions: d.actions || [] });
+      skill: d.skill, skillChoice: d.skillChoice, roles: on, maxRounds: +rounds.value, provider, model: modelSel.value || preferredModel,
+      items: d.items || [], actions: d.actions || [] });
     f.draft = null; f.plan = null; f.id = id; rerender();
     ctx.syncURL?.(); // the discussion's address (back/forward, bookmarks) once it has an id
   };

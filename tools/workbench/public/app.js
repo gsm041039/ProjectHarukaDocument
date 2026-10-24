@@ -15,7 +15,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const h = (tag, attrs = {}, ...kids) => {
   const el = document.createElement(tag);
   for (const [k, v] of Object.entries(attrs)) {
-    if (k.startsWith("on")) el.addEventListener(k.slice(2), v);
+    if (k.startsWith("on")) { el.addEventListener(k.slice(2), v); if (k === "onclick") el.dataset.wbClick = ""; }
     else if (k === "class") el.className = v;
     else if (v !== false && v != null) el.setAttribute(k, v === true ? "" : v);
   }
@@ -38,12 +38,40 @@ const api = async (path, body, { quiet } = {}) => {
     return await r.json();
   } finally { if (!quiet) busy(-1); }
 };
-// Topic first, skill second: a free-text request without a chosen skill asks Claude to pick the skill and enter its process.
+// Topic first, skill second: a free-text request without a chosen skill asks the selected AI provider to choose the skill.
 const ROUTE = "（先由你揀 skill：照 story-router 嘅判斷規則，揀最啱處理呢件事嘅 skill；第一句用白話講「我會用〈skill〉處理，因為…」，然後直接用嗰個 skill 嘅流程開始（要先讀嘅檔照讀）。如果有兩個或以上都合理、而且揀錯代價唔細，先用選項卡問我揀邊個流程。）\n\n";
 const toast = (msg) => { const t = $("#toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toast.t); toast.t = setTimeout(() => t.classList.remove("show"), 2200); };
 const store = { get: (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+const currentProvider = () => store.get("provider", state.config?.default_provider || "claude") === "codex" ? "codex" : "claude";
+const providerRef = (value, fallback = "claude") => typeof value === "string" && value
+  ? { provider: "claude", sessionId: value }
+  : value && typeof value.sessionId === "string" && value.sessionId
+    ? ["claude", "codex"].includes(value.provider || fallback) ? { provider: value.provider || fallback, sessionId: value.sessionId } : null
+    : null;
+const preference = (name, provider = currentProvider()) => store.get(`${provider}:${name}`, provider === "claude" ? store.get(name, "") : "");
+const savePreference = (name, value, provider = currentProvider()) => { store.set(`${provider}:${name}`, value); if (provider === "claude") store.set(name, value); };
 
 const state = { tab: store.get("tab", "today"), live: [], past: [], current: null, index: null, views: [], tray: [], es: null };
+
+// One line per author action in the server CMD. Field contents and chat text are never sent here.
+const logUiAction = (kind, el) => {
+  const name = el.getAttribute("aria-label") || el.getAttribute("title") || el.dataset.tab || el.textContent || el.id || el.tagName.toLowerCase();
+  const choice = el.tagName === "SELECT" ? ` → ${el.selectedOptions[0]?.textContent || ""}`
+    : el.type === "checkbox" ? ` → ${el.checked ? "開" : "關"}` : "";
+  fetch("/api/ui-action", { method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify({ kind, tab: state.tab, label: (String(name).replace(/\s+/g, " ").trim() + choice).slice(0, 100) }), keepalive: true }).catch(() => {});
+};
+document.addEventListener("click", (event) => {
+  const el = event.target instanceof Element && event.target.closest("[data-wb-click], button, a, summary, [role='button']");
+  if (el && !el.matches("input, select, textarea")) logUiAction("click", el);
+}, true);
+document.addEventListener("change", (event) => {
+  const el = event.target;
+  if (el instanceof Element && el.matches("input, select, textarea")) logUiAction("change", el);
+}, true);
+document.addEventListener("submit", (event) => {
+  if (event.target instanceof Element) logUiAction("submit", event.target);
+}, true);
 
 // ---------------- theme ----------------
 const applyTheme = () => { const t = store.get("theme", null); if (t) document.documentElement.dataset.theme = t; else delete document.documentElement.dataset.theme; };
@@ -67,8 +95,17 @@ async function loadIndex(fresh) {
 }
 
 // ---------------- sessions ----------------
+let sessionLoadError = "";
 async function refreshSessions() {
-  try { Object.assign(state, await api("/api/sessions", undefined, { quiet: true })); } catch { return; }
+  const listedProvider = state.current?.past ? state.current.provider : currentProvider();
+  try {
+    Object.assign(state, await api(`/api/sessions?provider=${encodeURIComponent(listedProvider || currentProvider())}`, undefined, { quiet: true }));
+    sessionLoadError = "";
+  } catch (error) {
+    if (listedProvider === "codex" && sessionLoadError !== error.message) toast(`Codex 對話列表讀唔到：${error.message}`);
+    sessionLoadError = error.message;
+    return;
+  }
   const discs = state.discussions || [];
   const discOn = discs.filter((x) => ["running", "paused", "summarizing", "stopping"].includes(x.state));
   const discRow = (x) => h("div", { class: "sess" + (state.tab === "discuss" && state.discuss?.id === x.id ? " active" : ""), title: x.topic,
@@ -101,19 +138,24 @@ async function refreshSessions() {
 // said = only the words the author typed themselves (logged for the author-lens skill); button prompts pass nothing
 async function newSession(text, title, task, said) {
   const t = title || (text ? text.replace(/```[\s\S]*$/, "").trim().slice(0, 28) : "新 task");
-  const { id } = await api("/api/sessions", { title: t, text, task, said, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined, agentCap: store.get("agentCap", undefined) });
+  const provider = currentProvider();
+  let id;
+  try { ({ id } = await api("/api/sessions", { title: t, text, task, said, provider, model: preference("model", provider) || undefined, effort: preference("effort", provider) || undefined, agentCap: store.get("agentCap", undefined) })); }
+  catch (error) { toast(error.message); return null; }
   await refreshSessions();
   openLive(id);
   return id;
 }
 
-// 「繼續」：開緊就跳去；以前開過就接返舊對話；未開過就開新對話叫 Claude 先交代進度。
+// 「繼續」：開緊就跳去；以前開過就接返舊對話；未開過就開新對話先交代進度。
 async function continueTask(task) {
-  const sid = state.links?.[task.id] || (/^[0-9a-f-]{36}$/.test(task.session) ? task.session : null);
-  const live = state.live.find((s) => s.status !== "closed" && (s.taskId === task.id || (sid && s.sdkSessionId === sid)));
+  const ref = providerRef(state.links?.[task.id]) || (/^[0-9a-f-]{36}$/.test(task.session) ? providerRef(task.session) : null);
+  const live = state.live.find((s) => s.status !== "closed" && (s.taskId === task.id || (ref && s.provider === ref.provider && s.sdkSessionId === ref.sessionId)));
   if (live) return openLive(live.id);
-  if (sid) {
-    const { id } = await api("/api/sessions", { title: task.task.slice(0, 28), resume: sid, task: task.id, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined });
+  if (ref) {
+    let id;
+    try { ({ id } = await api("/api/sessions", { title: task.task.slice(0, 28), resume: ref, provider: ref.provider, task: task.id, model: preference("model", ref.provider) || undefined, effort: preference("effort", ref.provider) || undefined })); }
+    catch (error) { toast(error.message); return null; }
     await refreshSessions();
     return openLive(id);
   }
@@ -121,8 +163,8 @@ async function continueTask(task) {
   return newSession(`繼續 task ${task.id}「${task.task}」。請先讀 TASK_BOARD.md 呢行同相關文件（${files}），用白話話我知：做到邊、下一步係咩、有冇要我決定。講完就繼續做（要我決定嘅就用選項卡問我）。`, task.task.slice(0, 28), task.id);
 }
 const taskSession = (task) => {
-  const sid = state.links?.[task.id];
-  return state.live.find((s) => s.status !== "closed" && (s.taskId === task.id || (sid && s.sdkSessionId === sid)));
+  const ref = providerRef(state.links?.[task.id]);
+  return state.live.find((s) => s.status !== "closed" && (s.taskId === task.id || (ref && s.provider === ref.provider && s.sdkSessionId === ref.sessionId)));
 };
 
 function openLive(id) {
@@ -133,12 +175,12 @@ function openLive(id) {
 }
 
 async function openPast(p) {
-  state.current = { past: p.sessionId, title: p.title };
+  state.current = { past: p.sessionId, title: p.title, provider: p.provider || state.past.find((item) => item.sessionId === p.sessionId)?.provider || "claude" };
   switchTab("chat");
   refreshSessions();
 }
 
-async function sendToClaude(text) {
+async function sendToAI(text) {
   if (state.current?.id && state.live.find((s) => s.id === state.current.id && s.status !== "closed")) {
     await api(`/api/sessions/${state.current.id}/message`, { text });
     if (state.tab !== "chat") switchTab("chat"); // already showing this chat: the event stream adds the message, no full re-render
@@ -194,7 +236,7 @@ function renderAssistant(text, ctx) {
 function askCard(ev, sid, answered) {
   const note = h("span", { class: "note" }, answered ? "✔ 已回覆" : "揀好就撳送出；可以混合，或者喺「其他」自己寫");
   const form = h("div", { class: "card ask" + (answered ? " answered" : "") },
-    h("div", { class: "ask-head" }, h("span", { class: "mascot" }, "🌸"), h("div", { class: "speech" }, "Claude 想你決定")));
+    h("div", { class: "ask-head" }, h("span", { class: "mascot" }, "🌸"), h("div", { class: "speech" }, `${ev.provider === "codex" ? "Codex" : "Claude"} 想你決定`)));
   const getters = ev.questions.map((q, qi) => {
     const name = `q${ev.requestId}-${qi}`;
     const other = h("input", { type: "text", class: "other", placeholder: "其他／自己寫（可留空）" });
@@ -234,7 +276,7 @@ function approveCard(ev, sid, answered) {
   };
   const body = ev.tool === "ExitPlanMode" ? md(ev.input.plan || "") : h("pre", {}, ev.input.command || JSON.stringify(ev.input, null, 2));
   const card = h("div", { class: "card approve" + (answered ? " answered" : "") },
-    h("h4", {}, ev.tool === "ExitPlanMode" ? "Claude 想開始執行呢個計劃" : ev.tool === "Agent" ? "🤖 Claude 想派多一個助手（超出你定嘅上限）" : "呢個指令要你批准"), body,
+    h("h4", {}, ev.tool === "ExitPlanMode" ? `${ev.provider === "codex" ? "Codex" : "Claude"} 想開始執行呢個計劃` : ev.tool === "Agent" ? `🤖 ${ev.provider === "codex" ? "Codex" : "Claude"} 想派多一個助手（超出你定嘅上限）` : "呢個指令要你批准"), body,
     h("div", { class: "actions" }, reason, h("button", { onclick: () => decide(false) }, "唔批"), h("button", { class: "primary", onclick: () => decide(true) }, "批准")));
   if (answered) card.querySelectorAll("input,button").forEach((e) => (e.disabled = true));
   return card;
@@ -246,7 +288,7 @@ function chatShell(title, live) {
   const msgs = h("div", { id: "messages" });
   box.append(head, msgs);
   if (live) {
-    const ta = h("textarea", { rows: 2, placeholder: "回覆 Claude…（Enter 送出，Shift+Enter 換行）" });
+    const ta = h("textarea", { rows: 2, placeholder: "回覆 AI…（Enter 送出，Shift+Enter 換行）" });
     const send = async () => { const t = ta.value.trim(); if (!t) return; ta.value = ""; await api(`/api/sessions/${state.current.id}/message`, { text: t, said: t }).catch((e) => toast(e.message)); };
     ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
     head.append(h("button", { onclick: () => api(`/api/sessions/${state.current.id}/interrupt`, {}) }, "停"));
@@ -283,7 +325,7 @@ function renderChat(el) {
     const tile = (s, onclick, sub) => h("div", { class: "todo-row" + (s.pending ? " orange" : ""), onclick },
       h("span", { class: "ic" }, s.pending ? "🙋" : "💬"), h("div", { class: "tx" }, s.title, h("div", { class: "small muted" }, sub)));
     el.replaceChildren(h("div", { class: "empty" }, h("div", { class: "mascot" }, "🌸"), h("h2", {}, "今日想傾咩？"),
-      h("p", { class: "muted" }, "直接講想做咩，Claude 會自己揀用邊個 skill 再開始；或者揀一個 session 繼續。"),
+      h("p", { class: "muted" }, "直接講想做咩，AI 會自己揀用邊個 skill 再開始；或者揀一個 session 繼續。"),
       topicBox(),
       h("button", { onclick: () => launch() }, "＋ 自己揀 skill 開新 task"),
       h("div", { class: "sess-tiles" },
@@ -293,7 +335,7 @@ function renderChat(el) {
   }
   if (cur.past) return renderPast(el, cur);
   const s = state.live.find((x) => x.id === cur.id) || { title: "" };
-  const v = chatView(el, { title: s.title, sid: cur.id, model: s.model, effort: s.effort, taskId: s.taskId, live: true });
+  const v = chatView(el, { title: s.title, sid: cur.id, provider: s.provider, model: s.model, effort: s.effort, taskId: s.taskId, live: true });
   const es = new EventSource(`/api/sessions/${cur.id}/events`);
   state.es = es;
   es.onopen = v.reset;
@@ -301,13 +343,17 @@ function renderChat(el) {
 }
 
 // One chat view for live and saved conversations: both are fed the same events (saved ones come from /api/history).
-function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
+function chatView(el, { title, sid, provider = "claude", model, effort, taskId, live, pastSid }) {
   const { box, msgs, head } = chatShell(title, live);
   // 🛠️ what this chat is working on right now: the latest ui:status / ui:progress the AI declared
   // (web-ui-protocol §2). Nothing is hard-coded per page; it follows whatever the AI says it is doing.
   const doingBar = h("div", { class: "chat-doing", style: "display:none" });
   // 📋 which piece of work this chat belongs to + where it stands (workcard.js)
-  const work = workCard(makeCtx(), () => pastSid || state.live.find((x) => x.id === sid)?.sdkSessionId);
+  const work = workCard(makeCtx(), () => {
+    const session = state.live.find((x) => x.id === sid);
+    const sessionId = pastSid || session?.sdkSessionId;
+    return sessionId ? { provider: pastSid ? provider : session?.provider || provider, sessionId } : null;
+  });
   box.insertBefore(work.el, msgs);
   box.insertBefore(doingBar, msgs);
   const LAYER = Object.fromEntries((state.config?.layers || []).map((l) => [l.id, l.name]));
@@ -324,10 +370,14 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
   };
   const ctx = makeCtx();
   const task = (state.index?.tasks || []).find((t) => t.id === taskId || (title && t.task.startsWith(title.replace(/…$/, ""))));
-  const prog = createProgress({ h, sendToClaude: ctx.sendToClaude, taskName: task?.task, openEntity, openFile, openDiscuss, fileId: (p) => fileId(state.index, p), layers: state.config?.layers || [], choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
+  const prog = createProgress({ h, sendToAI: ctx.sendToAI, taskName: task?.task, openEntity, openFile, openDiscuss, fileId: (p) => fileId(state.index, p), layers: state.config?.layers || [], choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
   const wrap = h("div", { class: "chat-wrap" }, box, prog.el);
   head.prepend(h("button", { class: "small", title: "返對話列表", onclick: () => { state.current = null; renderTab(); } }, "←"));
   const before = head.lastChild;
+  const backendPill = h("span", { class: "pill info", title: "呢條對話使用嘅 backend 同 model" });
+  const showChatModel = (value) => { backendPill.textContent = `${provider === "codex" ? "Codex" : "Claude"}${live ? ` · ${modelName(provider, value)}` : ""}`; };
+  showChatModel(model);
+  head.insertBefore(backendPill, before);
   head.insertBefore(h("button", { class: "pp-toggle", onclick: () => wrap.classList.toggle("show-panel") }, "📍 進度"), before);
   head.insertBefore(h("button", { class: "small", title: "將今次對話嘅題目交畀幾個 AI 角色自己傾（先去設定頁，唔會自動開始）", onclick: () => openDiscuss({
     topic: title || "", from: live ? sid : "", context: `由對話「${title}」帶過嚟`, links: prog.fileIds().map((id) => ({ id, title: state.index.entities[id].title, file: id })),
@@ -337,7 +387,7 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
       const used = prog.skills().join("、") || "（未偵測到，請你自己判斷用過邊啲）";
       api(`/api/sessions/${sid}/message`, { text: `請回顧今次對話，用嚟改進 skill（今次用過：${used}）。搵出：①我要糾正你／重複講嘅位；②你走錯步、問錯問題、或者答得唔夠白話嘅位；③skill 規則冇講清、令你做錯嘅位。每點講清係邊個 skill、邊段、建議點改（附改動前後），同埋點解咁改唔會整爛其他規則。先用選項卡問我批邊幾條，批咗先改 SKILL.md（.claude 同 .agents 兩份都要同步），改完跑相關 validator，再記入 SESSION_LEDGER。` }).catch((e) => toast(e.message));
     } }, "🛠️ 改進 skill"), before);
-    // ✅ wrap-up: Claude picks the right skill to file this topic; the chat stays open and can carry on later
+    // ✅ wrap-up: the selected provider picks the right skill to file this topic; the chat stays open and can carry on later
     const wrap = state.config?.wrap_up;
     if (wrap?.prompt) head.insertBefore(h("button", { class: "small", title: "呢個題目傾夠：AI 揀合適 skill 落檔（入 canon 前會問你），對話唔會閂，可以再繼續", onclick: async () => {
       await api(`/api/sessions/${sid}/message`, { text: wrap.prompt }).catch((e) => toast(e.message));
@@ -350,8 +400,20 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
     const capSel = h("select", { title: "今次對話最多可以派幾多個助手（sub-agent）；超出會彈卡問你", onchange: (e) => api(`/api/sessions/${sid}/agents`, { cap: +e.target.value }).then(() => toast(`助手上限改咗做 ${e.target.value}`)).catch((x) => toast(x.message)) },
       ...caps.map((c) => h("option", { value: c.cap, title: c.why, selected: c.cap === (me.agentCap ?? state.config?.agent_cap_default) }, `🤖 助手：${c.label}`)));
     head.insertBefore(capSel, before);
-    modelSelect(model, async (m) => { await api(`/api/sessions/${sid}/model`, { model: m }).then(() => toast(m ? `之後用 ${m}` : "之後用預設 model")).catch((e) => toast(e.message)); }).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
-    head.insertBefore(effortSelect(effort, (e) => api(`/api/sessions/${sid}/effort`, { effort: e }).then(() => toast(e ? `之後用「${effortLabel(e)}」思考深度` : "之後用預設思考深度")).catch((x) => toast(x.message))), head.querySelector(".pp-toggle"));
+    const effortNode = effortSelect(effort, (e) => api(`/api/sessions/${sid}/effort`, { effort: e }).then(() => toast(e ? `之後用「${effortLabel(e)}」思考深度` : "之後用預設思考深度")).catch((x) => toast(x.message)), provider, model);
+    modelSelect(model, async (m) => {
+      try {
+        await api(`/api/sessions/${sid}/model`, { model: m });
+        toast(m ? `之後用 ${m}` : "之後用預設 model");
+        const supported = await refreshEffortOptions(await effortNode, effort, provider, m);
+        if (effort && !supported) await api(`/api/sessions/${sid}/effort`, { effort: "" }).catch(() => {});
+      } catch (e) {
+        const sel = head.querySelector("select[title='呢個對話用邊個 model']");
+        if (sel) sel.value = state.live.find((session) => session.id === sid)?.model || model || "";
+        toast(e.message);
+      }
+    }, provider).then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
+    effortNode.then((sel) => head.insertBefore(sel, head.querySelector(".pp-toggle")));
   }
   // secondary header actions go under 「⋯ 更多」 so the header never runs off the side
   const extra = [...head.querySelectorAll(":scope > button.small, :scope > select:not(.model-select)")].filter((b) => b.textContent.trim() !== "←");
@@ -367,7 +429,7 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
   let streamEl = null;
   const answered = new Set();
   const cards = {};
-  // 🌸 thinking indicator: always the last thing in the chat while Claude works, with what it is doing and for how long
+  // 🌸 thinking indicator: always the last thing in the chat while the selected provider works
   const thinkText = h("span", { class: "think-text" }, "諗緊");
   const thinkTime = h("span", { class: "think-time" });
   // stop button lives in the running indicator, so every live chat can halt the AI mid-run
@@ -439,9 +501,19 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
       case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message)); break;
       case "status": running = ev.status === "running"; think(running); if (live) refreshSessions(); break;
       case "effort": add(h("div", { class: "msg result" }, `🧠 由呢度開始思考深度：${ev.effort ? effortLabel(ev.effort) : "預設"}`)); break;
-      case "model": add(h("div", { class: "msg result" }, ev.note ? `🔀 ${ev.note}` : `🔀 由呢度開始用 ${ev.model || "預設 model"}`)); break;
+      case "provider": if (ev.model) showChatModel(ev.model); break;
+      case "model": {
+        const selected = ev.model || "";
+        const session = state.live.find((item) => item.id === sid);
+        if (session) session.model = selected;
+        showChatModel(selected);
+        const sel = head.querySelector("select[title='呢個對話用邊個 model']");
+        if (sel) sel.value = selected;
+        add(h("div", { class: "msg result" }, ev.note ? `🔀 ${ev.note}` : `🔀 由呢度開始用 ${selected || "預設 model"}`));
+        break;
+      }
       case "note": add(h("div", { class: "msg result" }, ev.text)); break;
-      case "agents": { const sel = head.querySelector("select[title^='今次對話最多']"); if (sel) sel.title = `已派 ${ev.used} 個／上限 ${ev.cap}；超出會彈卡問你`; if (live) add(h("div", { class: "msg result" }, `🤖 派咗第 ${ev.used} 個助手（上限 ${ev.cap}）`)); break; }
+      case "agents": { const sel = head.querySelector("select[title^='今次對話最多']"); if (sel) sel.title = ev.soft ? `Codex 已開啟 ${ev.used} 個助手；上限係提示，Workbench 暫時未能預先攔截` : `已派 ${ev.used} 個／上限 ${ev.cap}；超出會彈卡問你`; if (live) add(h("div", { class: "msg result" }, ev.soft ? `🤖 Codex 開啟咗第 ${ev.used} 個助手（上限 ${ev.cap} 係提示）` : `🤖 派咗第 ${ev.used} 個助手（上限 ${ev.cap}）`)); break; }
     }
   };
   const reset = () => { msgs.replaceChildren(); streamEl = null; answered.clear(); prog.reset(); think(false); running = false; };
@@ -449,21 +521,25 @@ function chatView(el, { title, sid, model, effort, taskId, live, pastSid }) {
 }
 
 async function renderPast(el, cur) {
-  const v = chatView(el, { title: cur.title, sid: null, live: false, pastSid: cur.past });
+  const provider = cur.provider || "claude";
+  const v = chatView(el, { title: cur.title, provider, sid: null, live: false, pastSid: cur.past });
   v.head.append(h("button", { class: "primary", onclick: async (e) => {
     e.currentTarget.disabled = true; e.currentTarget.textContent = "接緊…";
-    const { id } = await api("/api/sessions", { title: cur.title, resume: cur.past, model: store.get("model", "") || undefined, effort: store.get("effort", "") || undefined });
+    const ref = { provider, sessionId: cur.past };
+    let id;
+    try { ({ id } = await api("/api/sessions", { title: cur.title, resume: ref, provider, model: preference("model", provider) || undefined, effort: preference("effort", provider) || undefined })); }
+    catch (error) { toast(error.message); e.currentTarget.disabled = false; e.currentTarget.textContent = "繼續呢個 session"; return; }
     await refreshSessions(); openLive(id);
   } }, "繼續呢個 session"));
   v.msgs.append(loading("讀緊對話紀錄…"));
-  const events = await api(`/api/history/${cur.past}`).catch(() => []);
+  const events = await api(`/api/history/${cur.past}?provider=${encodeURIComponent(provider)}`).catch(() => []);
   if (state.current?.past !== cur.past) return; // switched away while loading
   v.reset();
   events.forEach(v.handle);
   if (!events.length) v.msgs.append(h("div", { class: "msg result" }, "呢個 session 冇可顯示嘅內容。"));
 }
 
-// ---------------- intents (all edits go through Claude) ----------------
+// ---------------- intents (all edits go through the selected provider) ----------------
 function sendIntent(intent) {
   state.tray.push(intent);
   renderTray();
@@ -486,8 +562,8 @@ $("#tray-send").onclick = async () => {
     "\n```ui:intent\n" + JSON.stringify({ protocol: PROTOCOL, intents: items }, null, 1) + "\n```",
   ].join("\n");
   state.tray = []; resetDrafts(); $("#tray-note").value = ""; renderTray();
-  await sendToClaude(text);
-  toast("已送出畀 Claude");
+  await sendToAI(text);
+  toast("已送出畀 AI");
 };
 
 // ---------------- drawer ----------------
@@ -532,25 +608,56 @@ const launch = (opts) => (_launcher ||= createLauncher(makeCtx())).open(opts);
 let _smart;
 const start = (item) => (_smart ||= createSmartStart(makeCtx())).open(item);
 
-// Models this account can use (asked from a live session; aliases otherwise).
-let _models;
-const models = async () => (_models ||= await api("/api/models").catch(() => [{ value: "opus", label: "Opus" }, { value: "sonnet", label: "Sonnet" }, { value: "haiku", label: "Haiku" }]));
-async function modelSelect(current, onchange) {
+// Model catalogs stay separate because Claude and Codex use different model IDs.
+const modelCache = {};
+const models = async (provider = currentProvider()) => {
+  if (modelCache[provider]) return modelCache[provider];
+  try { modelCache[provider] = await api(`/api/models?provider=${encodeURIComponent(provider)}`); }
+  catch (error) {
+    if (provider === "codex") toast(`Codex 暫不可用：${error.message}`);
+    modelCache[provider] = provider === "claude" ? [{ value: "opus", label: "Opus" }, { value: "sonnet", label: "Sonnet" }, { value: "haiku", label: "Haiku" }] : [];
+  }
+  return modelCache[provider];
+};
+const modelName = (provider, value) => {
+  const catalog = modelCache[provider] || [];
+  if (value) return catalog.find((item) => item.value === value)?.label || value;
+  const defaultModel = catalog.find((item) => item.isDefault);
+  return defaultModel ? `預設：${defaultModel.label}` : "預設 model";
+};
+async function modelSelect(current, onchange, provider = currentProvider()) {
+  const catalog = await models(provider);
+  const options = catalog.map((m) => h("option", { value: m.value, selected: m.value === current, title: m.description || "" }, m.label));
+  if (current && !catalog.some((m) => m.value === current)) options.unshift(h("option", { value: current, selected: true }, current));
   const sel = h("select", { class: "model-select", title: "呢個對話用邊個 model", onchange: (e) => onchange(e.target.value) },
-    h("option", { value: "" }, "預設 model"), ...(await models()).map((m) => h("option", { value: m.value, selected: m.value === current, title: m.description || "" }, m.label)));
+    h("option", { value: "", selected: !current }, modelName(provider, "")), ...options);
   return sel;
 }
 
 // Thinking depth (effort). Levels come from ui_config.json; "" = the model's own default.
-const effortLabel = (v) => (state.config?.effort_levels || []).find((x) => x.value === v)?.label || v;
-function effortSelect(current, onchange) {
-  return h("select", { class: "model-select", title: "思考深度（effort）：越深越慢越貴", onchange: (e) => onchange(e.target.value) },
-    h("option", { value: "" }, "🧠 預設深度"),
-    ...(state.config?.effort_levels || []).map((x) => h("option", { value: x.value, selected: x.value === current, title: x.why }, `🧠 ${x.label}`)));
+const effortLabel = (v) => (state.config?.effort_levels || []).find((x) => x.value === v)?.label || ({ minimal: "最淺", low: "輕", medium: "中", high: "深", xhigh: "好深", max: "最深" }[v] || v);
+async function refreshEffortOptions(sel, current, provider = currentProvider(), model = "") {
+  let choices;
+  if (provider === "codex") {
+    const catalog = await models(provider);
+    const selected = catalog.find((item) => item.value === model) || catalog.find((item) => item.value === preference("model", provider)) || catalog[0];
+    choices = (selected?.reasoningEfforts || []).map((entry) => typeof entry === "string" ? { value: entry, label: effortLabel(entry) }
+      : { value: entry.reasoningEffort || entry.value || "", label: entry.reasoningEffort || entry.value || "", why: entry.description || "" }).filter((entry) => entry.value);
+    if (!choices.length) choices = ["minimal", "low", "medium", "high", "xhigh"].map((value) => ({ value, label: effortLabel(value) }));
+  } else choices = state.config?.effort_levels || [];
+  const options = choices.map((entry) => h("option", { value: entry.value, selected: entry.value === current, title: entry.why || entry.description || "" }, `🧠 ${entry.label || entry.value}`));
+  const valid = !current || choices.some((entry) => entry.value === current);
+  sel.replaceChildren(h("option", { value: "", selected: !current || !valid }, "🧠 預設深度"), ...options);
+  return valid;
+}
+async function effortSelect(current, onchange, provider = currentProvider(), model = "") {
+  const sel = h("select", { class: "model-select", title: "思考深度（effort）：越深越慢越貴", onchange: (e) => onchange(e.target.value) });
+  await refreshEffortOptions(sel, current, provider, model);
+  return sel;
 }
 
 function makeCtx() {
-  return { h, md, api, toast, state, sendIntent, sendToClaude, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title) => openPast({ sessionId, title }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), syncURL: () => syncURL(true), reloadIndex: () => loadIndex(true), refresh: async () => { await loadIndex(); renderTab(); } };
+  return { h, md, api, toast, state, provider: currentProvider, preference, sendIntent, sendToAI, openFile, openLive, newSession, switchTab, continueTask, taskSession, openEntity, openPast: (sessionId, title, provider) => openPast({ sessionId, title, provider }), openDiscuss, ROUTE, launch, start, plain: (text, cls) => plain(h, text, cls), strip, useSkill: (skill, prompt, title) => newSession(skill ? `請用 \`${skill}\` skill：${prompt}` : prompt, (title || prompt).slice(0, 24)), mic: (el) => micButton(h, el), search: () => entityUI().search(), syncURL: () => syncURL(true), reloadIndex: () => loadIndex(true), refresh: async () => { await loadIndex(); renderTab(); } };
 }
 
 function switchTab(tab) {
@@ -603,6 +710,7 @@ function currentHash() {
     path += "/" + (cur.past || live?.sdkSessionId || cur.id);
   }
   const q = pageParams(state.tab);
+  if (state.tab === "chat" && (state.current?.provider === "codex" || (state.current?.id && state.live.find((x) => x.id === state.current.id)?.provider === "codex"))) q.set("_provider", "codex");
   if ($("#drawer").classList.contains("open")) { // some buttons just slide the panel shut; only an open panel goes in the URL
     if (state.drawer?.file) q.set("_file", state.drawer.file);
     if (state.drawer?.ent) q.set("_ent", state.drawer.ent);
@@ -624,10 +732,15 @@ async function applyURL() {
   try {
     state.tab = tab && (tab === "chat" || viewOf(tab)) ? tab : store.get("tab", "today");
     if (state.tab === "chat") {
-      if (key && !state.live.some((x) => x.id === key || x.sdkSessionId === key)) await refreshSessions(); // just-opened chat: list may be stale
-      const live = key && state.live.find((x) => x.id === key || x.sdkSessionId === key);
-      const past = !live && key && /^[0-9a-f-]{36}$/.test(key) ? key : null;
-      state.current = live ? { id: live.id } : past ? { past, title: state.past.find((p) => p.sessionId === past)?.title || "以前嘅 session" } : null;
+      const backend = params.get("_provider") === "codex" ? "codex" : "claude";
+      if (key && !state.live.some((x) => x.id === key || (x.sdkSessionId === key && x.provider === backend))) {
+        state.current = { past: key, provider: backend };
+        await refreshSessions(); // just-opened chat: list may be stale
+      }
+      const live = key && state.live.find((x) => x.id === key || (x.sdkSessionId === key && x.provider === backend));
+      const past = !live && key && (state.past.some((p) => p.sessionId === key) || /^[0-9a-f-]{36}$/.test(key)) ? key : null;
+      const saved = past && state.past.find((p) => p.sessionId === past);
+      state.current = live ? { id: live.id } : past ? { past, provider: saved?.provider || backend, title: saved?.title || "以前嘅 session" } : null;
     }
     if (!applyParams(state.tab, params) && [...params.keys()].some((k) => !k.startsWith("_"))) pending[state.tab] = params;
     const file = params.get("_file"), ent = params.get("_ent");
@@ -683,15 +796,21 @@ async function renderTab() {
 
 // ---------------- plan usage (sidebar, every page) ----------------
 async function refreshUsage(fresh) {
-  const u = await api("/api/usage" + (fresh ? "?fresh=1" : ""), undefined, { quiet: true }).catch(() => null);
+  const u = await api(`/api/usage?provider=${encodeURIComponent(currentProvider())}${fresh ? "&fresh=1" : ""}`, undefined, { quiet: true }).catch(() => null);
   const box = $("#usage");
-  if (!u || u.unavailable || u.error) { box.replaceChildren(u?.error ? h("div", { class: "small muted" }, "用量讀唔到") : ""); return; }
+  if (!u || u.unavailable || u.error) {
+    const name = currentProvider() === "codex" ? "Codex" : "Claude";
+    box.title = `${name} 用量`;
+    box.replaceChildren(h("div", { class: "small muted" }, `${name} 用量${u?.error ? "讀唔到" : "暫不可用"}`));
+    return;
+  }
   const when = (iso) => { if (!iso) return ""; const d = new Date(iso), ms = d - Date.now();
     return ms < 864e5 ? `${Math.max(0, Math.floor(ms / 36e5))} 粒鐘 ${Math.max(0, Math.round((ms % 36e5) / 6e4))} 分後重設` : `${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, "0")}:${String(d.getMinutes()).padStart(2, "0")} 重設`; };
   const row = (label, w) => w && h("div", { class: "usage-row", title: when(w.resets) },
     h("div", { class: "usage-top" }, h("span", {}, label), h("b", {}, `${Math.round(w.pct)}%`)),
     h("div", { class: "usage-bar " + (w.pct >= 90 ? "bad" : w.pct >= 70 ? "warn" : "") }, h("div", { style: `width:${Math.min(100, w.pct)}%` })),
     h("div", { class: "small muted" }, when(w.resets)));
+  box.title = `${currentProvider() === "codex" ? "Codex" : "Claude"} 用量：5 小時同每週上限用咗幾多；撳一下即刻更新`;
   box.replaceChildren(...[row("⏱️ 5 小時", u.five_hour), row("📅 本週", u.week)].filter(Boolean));
 }
 $("#usage").onclick = () => refreshUsage(true);
@@ -706,7 +825,7 @@ async function refreshLens() {
   const when = s.updated ? new Date(s.updated).toLocaleString("zh-HK", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" }) : "未試過";
   const btn = h("button", { class: "small" + (s.fresh && !s.running ? " primary" : ""), disabled: s.running || !s.fresh,
     title: "用你上次更新之後新記錄嘅說話，即刻更新「你點樣問嘢」嘅模型（會用少少用量）",
-    onclick: async () => { await api("/api/lens", {}); toast("更新緊你嘅問法模型…"); refreshLens(); } },
+    onclick: async () => { const provider = currentProvider(); await api("/api/lens", { provider, model: preference("model", provider), effort: preference("effort", provider) }); toast("更新緊你嘅問法模型…"); refreshLens(); } },
     s.running ? "更新緊…" : s.fresh ? `🪞 用 ${s.fresh} 句新說話更新` : "🪞 冇新說話");
   box.replaceChildren(
     h("div", { class: "lens-top" }, h("span", {}, "我嘅問法模型"), s.exists ? h("button", { class: "linkish", onclick: () => openFile("canon/_working/author_voice/AUTHOR_LENS.md") }, "睇") : null),
@@ -716,8 +835,30 @@ async function refreshLens() {
   if (s.running) lensPoll = setTimeout(async () => { await refreshLens(); const n = await api("/api/lens", undefined, { quiet: true }).catch(() => null); if (n && !n.running && !n.error) toast("問法模型更新好咗"); }, 5000);
 }
 
+async function refreshDefaultControls() {
+  const provider = currentProvider();
+  const showDefault = () => { $("#active-ai").textContent = `新對話：${provider === "codex" ? "Codex" : "Claude"} · ${modelName(provider, preference("model", provider))}`; };
+  let effortSel;
+  const modelSel = await modelSelect(preference("model", provider), (model) => {
+    savePreference("model", model, provider);
+    showDefault();
+    toast(model ? `新對話預設用 ${model}` : "新對話用預設 model");
+    if (effortSel) refreshEffortOptions(effortSel, preference("effort", provider), provider, model).then((valid) => {
+      if (!valid) savePreference("effort", "", provider);
+    });
+  }, provider);
+  modelSel.title = "新開對話預設用邊個 model"; modelSel.id = "model-default"; $("#model-default").replaceWith(modelSel);
+  showDefault();
+  effortSel = await effortSelect(preference("effort", provider), (effort) => {
+    savePreference("effort", effort, provider);
+    toast(effort ? `新對話預設思考深度：${effortLabel(effort)}` : "新對話用預設思考深度");
+  }, provider, preference("model", provider));
+  effortSel.title = "新開對話預設嘅思考深度（effort）"; effortSel.id = "effort-default"; $("#effort-default").replaceWith(effortSel);
+}
+
 async function init() {
   state.config = await api("/api/config").catch(() => ({})); // lists that used to be hard-coded (tools/workbench/ui_config.json)
+  if (!store.get("provider", null)) store.set("provider", state.config.default_provider || "claude");
   state.views = (await (await fetch("views.json")).json()).sort((a, b) => a.order - b.order);
   const item = (id, icon, name) => h("button", { class: "nav-item", "data-tab": id, onclick: () => switchTab(id) },
     h("span", { class: "ic" }, icon), h("span", { class: "lbl" }, name), id === "chat" ? h("span", { class: "count", style: "display:none" }) : null);
@@ -728,9 +869,17 @@ async function init() {
     ...groups.flatMap((g) => [g.name ? h("div", { class: "nav-group" }, g.name) : null, ...g.items.map((v) => item(v.id, v.icon || "•", v.name))].filter(Boolean)));
   $("#new-btn").onclick = () => launch();
   $("#search-btn").onclick = () => entityUI().search();
-  modelSelect(store.get("model", ""), (m) => { store.set("model", m); toast(m ? `新對話預設用 ${m}` : "新對話用預設 model"); }).then((sel) => { sel.title = "新開對話預設用邊個 model"; $("#model-default").replaceWith(sel); sel.id = "model-default"; });
-  { const sel = effortSelect(store.get("effort", ""), (e) => { store.set("effort", e); toast(e ? `新對話預設思考深度：${effortLabel(e)}` : "新對話用預設思考深度"); });
-    sel.title = "新開對話預設嘅思考深度（effort）"; sel.id = "effort-default"; $("#effort-default").replaceWith(sel); }
+  const providerSel = $("#provider-default");
+  providerSel.replaceChildren(h("option", { value: "claude" }, "Backend：Claude"), h("option", { value: "codex" }, "Backend：Codex"));
+  providerSel.value = currentProvider();
+  providerSel.onchange = async () => {
+    store.set("provider", providerSel.value === "codex" ? "codex" : "claude");
+    modelCache[providerSel.value] = undefined;
+    await refreshDefaultControls();
+    await Promise.all([refreshSessions(), refreshUsage(true)]);
+    if (state.tab === "discuss") renderTab();
+  };
+  await refreshDefaultControls();
   await Promise.all([refreshSessions(), loadIndex()]);
   if (location.hash.length > 1) await applyURL();
   else { restoring = false; markNav(); renderTab(); syncURL(false); }

@@ -19,7 +19,7 @@ export function workCard(ctx, getSid) {
   // ---------- which work ----------
   function links(sid) {
     const set = new Set(state.links?._bySession?.[sid] || []);
-    for (const [w, v] of Object.entries(state.links || {})) if (v === sid) set.add(w);
+    for (const [w, v] of Object.entries(state.links || {})) if (v === sid || v?.sessionId === sid) set.add(w);
     for (const t of tasks()) if (t.session && t.session !== "—" && sid.startsWith(t.session)) set.add(t.id);
     set.delete("_bySession");
     return [...set];
@@ -28,8 +28,8 @@ export function workCard(ctx, getSid) {
     const files = new Set(state.index?.entities?.[sid.startsWith("DISC:") ? sid : "CONV:" + sid]?.rel || []); // a discussion's entity is DISC:<id>
     return files.size ? tasks().filter((t) => t.status !== "完成" && t.files.some((f) => files.has(f))).map((t) => t.id).slice(0, 1) : [];
   }
-  const link = async (sid, work) => {
-    const r = await api("/api/link", { sid, work }).catch((e) => toast(e.message));
+  const link = async (ref, work) => {
+    const r = await api("/api/link", { sid: ref, work }).catch((e) => toast(e.message));
     if (r?.links) state.links = r.links;
     update();
   };
@@ -81,7 +81,7 @@ export function workCard(ctx, getSid) {
       h("b", {}, sel.title), " ", h("span", { class: "pill" }, ZH[live[sel.code] || sel.status] || "未做"),
       sel.note && !/^skills?\s*[:：]/i.test(sel.note) ? h("div", { class: "small" }, plain(sel.note)) : null,
       (sel.checks || []).length ? h("div", { class: "small" }, ...sel.checks.map((c) => c.done ? h("div", { class: "muted" }, "☑ ", plain(c.text))
-        : h("button", { class: "flow-check flow-item", title: "叫 AI 做呢項：" + c.text, onclick: () => ctx.sendToClaude(`用 story-work-flow 做「${sel.title}」入面嘅一項：「${c.text}」。先講你會點做同會改邊啲檔，淨係做呢一項，做完喺步驟檔剔返，再停低問我。`) },
+        : h("button", { class: "flow-check flow-item", title: "叫 AI 做呢項：" + c.text, onclick: () => ctx.sendToAI(`用 story-work-flow 做「${sel.title}」入面嘅一項：「${c.text}」。先講你會點做同會改邊啲檔，淨係做呢一項，做完喺步驟檔剔返，再停低問我。`) },
             h("span", { class: "flow-item-box" }, "☐"), plain(c.text), h("span", { class: "flow-item-go" }, "▶ 叫 AI 做")))) : null,
       sel.outputs ? h("div", { class: "small muted" }, "做完會有：", sel.outputs) : null,
       h("div", { class: "work-step-btns" },
@@ -110,14 +110,15 @@ export function workCard(ctx, getSid) {
   }
 
   function update() {
-    const sid = getSid();
+    const ref = getSid();
+    const sid = typeof ref === "object" ? ref?.sessionId : ref;
     if (!sid) { el.replaceChildren(h("div", { class: "small muted work-row" }, "📋 AI 開始做嘢之後，呢度會顯示屬於邊件工作同全部步驟")); return; }
     const sure = links(sid), guess = sure.length ? [] : guesses(sid);
     const w = sure[sure.length - 1] || guess[0];
     const info = w && resolve(w);
     if (!info) {
       el.replaceChildren(h("div", { class: "work-row" }, h("span", { class: "work-ic" }, "❔"),
-        h("span", { class: "work-main muted" }, "AI 未講明屬於邊件工作"), picker(sid)));
+        h("span", { class: "work-main muted" }, "AI 未講明屬於邊件工作"), picker(ref)));
       return;
     }
     el.replaceChildren(
@@ -125,7 +126,7 @@ export function workCard(ctx, getSid) {
         h("span", { class: "work-path" }, ...path(info).flatMap((p, i) => [i ? h("span", { class: "sep" }, "›") : null, h("span", {}, ctx.strip(p) || p)]).filter(Boolean)), // names stay as written
         h("span", { class: "sep" }, "›"), h("b", { class: "work-main" }, plain(info.title)),
         info.status ? h("span", { class: "pill " + ({ 完成: "ok", 等作者: "warn", 進行中: "info" }[info.status] || "") }, info.status === "等作者" ? "等你" : info.status) : null,
-        guess.length && !sure.length ? [h("span", { class: "small muted" }, "（估）"), h("button", { class: "small", onclick: () => link(sid, w) }, "✓ 係呢件"), picker(sid)]
+        guess.length && !sure.length ? [h("span", { class: "small muted" }, "（估）"), h("button", { class: "small", onclick: () => link(ref, w) }, "✓ 係呢件"), picker(ref)]
           : h("button", { class: "small", onclick: () => openEntity(info.entity) }, "詳情")),
       stepper(info));
   }

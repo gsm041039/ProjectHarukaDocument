@@ -1,5 +1,5 @@
 // 文件結構：Brief（最準）喺最頂，分六大部分，每部分連去佢嘅 canon 文件；下面係成個 repo 嘅資料夾樹＋文件健康狀態。
-// 整理動作（登記層級、標舊版、同 Brief 對照、整理資料夾）全部經 Claude；網頁唔直接改檔、唔刪檔。
+// 整理動作（登記層級、標舊版、同 Brief 對照、整理資料夾）全部經 AI；網頁唔直接改檔、唔刪檔。
 const CUR = { CURRENT: ["現行", "ok"], "LATEST?": ["似係最新版", "ok"], REFERENCE: ["參考", ""], SUPERSEDED: ["已取代", "bad"], "OLD?": ["可能舊版", "warn"], "": ["未登記", ""] };
 
 export function render(el, ctx) {
@@ -82,7 +82,7 @@ export function render(el, ctx) {
   const main = h("div", {},
     h("div", { class: "toolbar" }, h("h3", { style: "margin:0;flex:1" }, fo?.label || f.folder, h("span", { class: "small muted", style: "margin-left:8px" }, f.folder)),
       search,
-      h("button", { class: "small", onclick: () => newSession(`請整理資料夾 \`${f.folder}\`（${list.length} 份文件）：①邊啲係現行、邊啲係舊版或已取代；②邊啲應該登記入 LAYER_MANIFEST（層、父層）；③邊啲同 00_Story_Brief.html 唔一致；④建議歸檔但唔好刪除。先交清單，用選項卡問我批邊啲，批咗先改 LAYER_MANIFEST。`, "整理 " + f.folder.split("/").pop()) }, "🧹 叫 Claude 整理呢個資料夾")),
+      h("button", { class: "small", onclick: () => newSession(`請整理資料夾 \`${f.folder}\`（${list.length} 份文件）：①邊啲係現行、邊啲係舊版或已取代；②邊啲應該登記入 LAYER_MANIFEST（層、父層）；③邊啲同 00_Story_Brief.html 唔一致；④建議歸檔但唔好刪除。先交清單，用選項卡問我批邊啲，批咗先改 LAYER_MANIFEST。`, "整理 " + f.folder.split("/").pop()) }, "🧹 叫 AI 整理呢個資料夾")),
     fo?.about ? h("div", { class: "hint" }, fo.about) : null,
     (() => {  // skills whose SKILL.md mentions this folder (or the folder it sits in)
       const sk = (state.index?.skills?.rows || []).filter((s) => s.folders.some((x) => x === f.folder || (f.folder.startsWith(x + "/") && x.split("/").length >= 3)));

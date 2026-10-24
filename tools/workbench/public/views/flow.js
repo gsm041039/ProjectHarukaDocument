@@ -1,5 +1,5 @@
 // 🛤️ 流程：所有 pipeline tracker（build_index.py 自動發現）。左＝流程，中＝步驟，右＝揀咗嗰步嘅詳情同掣。
-// 改狀態只係排入待送出（pipeline.set_status），由 Claude 照 gate 改 tracker。
+// 改狀態只係排入待送出（pipeline.set_status），由 AI 照 gate 改 tracker。
 import { stepButtons } from "./flow_actions.js";
 import { workTree, taskPanel } from "./flow_tree.js";
 
@@ -51,7 +51,7 @@ export function render(el, ctx) {
       h("li", {}, "左邊揀一條流程（例如 Demo 試點）。中間會列晒佢嘅步驟，藍邊「← 而家做到呢度」就係你而家要做嗰步。"),
       h("li", {}, "撳任何一步，右邊會講：呢步要做咩、做完會有咩、會用到咩工具，同埋「💡 建議而家做」。"),
       h("li", {}, "跟建議撳綠色掣：通常係先「檢查前置條件」，再「開始呢步」。會開一個對話，AI 讀好資料先同你做。"),
-      h("li", {}, "做完撳「標做完」——佢只會放入右下角「待送出」，你喺嗰度撳送出，Claude 先會真正改進度檔。"),
+      h("li", {}, "做完撳「標做完」——佢只會放入右下角「待送出」，你喺嗰度撳送出，AI 先會真正改進度檔。"),
       h("li", {}, "下一次返嚟，撳返同一步會見到「呢步開緊嘅對話」，一撳返去接住做。")),
     h("div", { class: "small muted" }, "步驟唔係寫死喺網頁：全部由 canon/_working 入面嘅進度檔讀出嚟，改進度檔就會跟住變。每個狀態出咩掣，喺 tools/workbench/ui_config.json 嘅 flow_steps 改。"));
   el.append(h("h2", {}, "🛤️ 流程"), guide, h("div", { class: "flow-page" }, list, steps, detail));
