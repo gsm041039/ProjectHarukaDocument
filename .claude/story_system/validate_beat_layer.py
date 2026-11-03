@@ -168,6 +168,54 @@ def validate_beat(beat_id, body):
                     blocking.append(f"{beat_id}/{name}: DESIGN_ACTION '{v}' does not start with one of "
                                      f"{sorted(DESIGN_ACTIONS)}")
 
+    # ---- content-quality NOTES (2026-11-02; non-blocking heuristics, NOT a semantic pass) ----
+    cite_re = re.compile(r"CDL-\d+|HC-\d+\w*|QQ-\d+|\.md|\.html|L\d+|[A-Z]{1,3}:\d{2,4}|Brief|Outline|canon", re.I)
+    n_ang = len(angles)
+    if n_ang >= 5:
+        with_cite = sum(1 for _, ab in angles if cite_re.search(ab))
+        bare_risk = 0
+        keep_only = 0
+        for _, ab in angles:
+            rk = get_angle_kv(ab, "RISK_TRADEOFF") or ""
+            if rk.strip().startswith("冇風險") and len(rk.strip()) < 8:
+                bare_risk += 1
+            da = get_angle_kv(ab, "DESIGN_ACTION") or ""
+            if da.startswith("KEEP"):
+                keep_only += 1
+        if with_cite / n_ang < 0.4:
+            notes.append(f"{beat_id}: only {with_cite}/{n_ang} angle blocks cite a recognisable source "
+                         f"(file/CDL/HC/line) — evidence may be thin")
+        if bare_risk / n_ang > 0.5:
+            notes.append(f"{beat_id}: {bare_risk}/{n_ang} angle blocks have RISK_TRADEOFF just '冇風險' — "
+                         f"attack step may be missing")
+        if n_ang >= 10 and keep_only / n_ang >= 0.9:
+            notes.append(f"{beat_id}: {keep_only}/{n_ang} angles are all KEEP — check the analysis is not rubber-stamping")
+
+    # garbled Cantonese characters seen in earlier files: 佢->佳, 嚟->嚎
+    scrub = re.sub(r"絕佳|最佳|佳作|佳人|佳節|佳話|佳境", "", body)
+    scrub2 = re.sub(r"哀嚎|嚎叫|嚎哭|嚎啕|狼嚎", "", body)
+    if "佳" in scrub or "嚎" in scrub2:
+        notes.append(f"{beat_id}: possible garbled characters ('佳' for 佢 / '嚎' for 嚟) — check and fix")
+
+    # HW (old head-writer) decisions must not read as author-approved
+    for sm in re.finditer(r"[^。\n]*(HW|舊編劇)[^。\n]*(已定案|定案)[^。\n]*", body):
+        if "作者" not in sm.group(0):
+            notes.append(f"{beat_id}: '{sm.group(0).strip()[:50]}…' — HW decision labelled 定案 without author approval; "
+                         f"mark decided_by")
+            break
+
+    # transition with no causal link
+    nbp = get_field(body, "next_beat_pressure") or ""
+    if any(w in nbp for w in ("硬切", "純敘事銜接", "時間推進")):
+        notes.append(f"{beat_id}.next_beat_pressure: '硬切／純敘事銜接／時間推進' — no causal link; do the story-room "
+                     f"I.3 transition table and check for a deleted bridge beat")
+
+    # too many jobs in one beat
+    bf = get_field(body, "beat_function") or ""
+    jobs = [x for x in re.split(r"[；;]", bf) if x.strip()]
+    if len(jobs) > 5:
+        notes.append(f"{beat_id}.beat_function: {len(jobs)} separate jobs (>5) — overload risk (story-room I.7)")
+
     return blocking, notes
 
 

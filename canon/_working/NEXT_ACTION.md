@@ -4,6 +4,10 @@
 
 > **單一步（2026-10-08 深夜，取代下面）：** Demo Beat 層 v4.1 完成（`demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md`；Reference Audit 已做）。下一步＝作者批 Beat 層（Director review）或指出要改 → 批咗先入 Scene 層。需要作者 input：YES。
 
+> 🧠 **並行線（2026-10-25，苦難後永久改變，DRAFT）：** 晴香・凜・紫音好壞並存睇世界轉變已記草稿（`story_construction/PERMANENT_WORLDVIEW_SHIFT_HARUKA_RIN_SHION_DRAFT.md`）。原則已記主題候選、晴香換返已揀（會換但返唔到轉頭）。下一步＝揀凜缺口候選，再決定做邊批角色。需要作者 input：YES。
+
+> 🩸 **並行線（2026-10-25，晴香罪孽引入，DRAFT）：** 心理描寫草稿 v3 已記（`story_construction/HARUKA_SIN_INTRO_KILL_NARRATION_DRAFT.md`：美夜子失手殺被屍骸奪舍嘅活人、晴香不知情安慰；§8 扣凜候選：喀嚓聲＋保險栓）。下一步＝作者揀呈現形式、採唔採用扣凜種子、放邊個 beat。需要作者 input：YES。
+
 > 🎙️ **並行線（2026-10-19，聲線 T-009）：** 操／美夜子／晴香新 Beat 缺口候選已備（DRAFT）。下一步＝作者揀句（天台使命／交槍／燈塔句／M2 提議／天台驚同問／餵糖／拉人入鏡／操 B8 冷處理／操穿搭言癖去向），並先定燈塔位 B8 定 M2。需要作者 input：YES。
 
 > 🐈‍⬛ **並行線（2026-10-18，夕貓×朔新 setting，DRAFT）：** 草稿已記（`story_construction/YU_CAT_SAKU_ISEKAI_WALKER_DRAFT.md`）。下一步＝作者揀夕貓同腦內夕係分身定脫離、朔「似壞人」靠咩；之後核對單一靈魂原則同 Act I 出場收窄。需要作者 input：YES。

@@ -30,7 +30,11 @@ export function createProgress({ h, sendToAI, taskName, choicesOf = () => [], op
         const i = ev.input || {};
         const fk = { Read: "read", Edit: "edit", Write: "edit", NotebookEdit: "edit" }[ev.name];
         if (fk && i.file_path && st.files.get(i.file_path) !== "edit") st.files.set(i.file_path, fk);
-        if (ev.name === "Skill" && i.skill) { st.skills = [i.skill, ...st.skills.filter((s) => s !== i.skill)].slice(0, 5); st.activity = `用緊 skill：${i.skill}`; }
+        if (i.skills?.length || (ev.name === "Skill" && i.skill)) {
+          const skills = i.skills?.length ? i.skills : [i.skill];
+          st.skills = [...skills, ...st.skills.filter((s) => !skills.includes(s))].slice(0, 5);
+          st.activity = `讀緊 skill：${skills.join("、")}`;
+        }
         else if (ev.name === "TodoWrite" && Array.isArray(i.todos)) st.steps = i.todos.map((t, n) => ({ id: "todo" + n, text: t.content, active: t.activeForm, status: t.status }));
         else if (ev.name === "TaskCreate") st.steps.push({ id: ev.id, text: i.subject, active: i.activeForm, status: "pending" });
         else if (ev.name === "TaskUpdate") {

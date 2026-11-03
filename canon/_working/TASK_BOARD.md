@@ -9,7 +9,7 @@ NEXT_ACTION 仍然係「唯一單一步」；呢度係「而家有幾多條線�
 
 | ID | Task | 狀態 | Session | 相關文件 | 等作者？ | 更新日期 | 屬於 |
 |---|---|---|---|---|---|---|---|
-| T-001 | Demo Beat 層：v4.1 待 Director review；V5 逐 beat 深度設計（BATCH 1–6） | 等作者 | — | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md`、`canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH6_M2toM5.md` | YES | 2026-10-15 | Demo 試點・Beat 層 |
+| T-001 | Demo Beat 層：由粗到幼重做（逐 beat 用 10 幾個角度；舊版全部留做參考） | 等作者 | — | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md`、`canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH6_M2toM5.md` | YES | 2026-10-31 | Demo 試點・Beat 層 |
 | T-002 | 紫音 voice discovery workshop＋表演文件（demo 新角色；Stage 5；微場景齊，auditor 已跑，夠用版達成暫定） | 完成 | — | `canon/_working/character-voice-workshops/shion_voice_discovery.md`、`canon/_working/character-performance-bibles/shion.md` | NO | 2026-10-17 | Demo 試點・人物底 |
 | T-003 | Haruka Workbench（網頁工作環境）建立 | 完成 | — | `tools/workbench/server.mjs`、`.claude/story_system/web-ui-protocol.md` | NO | 2026-10-15 | 工具 |
 | T-004 | Workbench「今日」頁加咩資訊（傾方向，唔改 code） | 進行中 | — | `tools/workbench/public/views/today.js` | YES | 2026-10-15 | 工具 |
@@ -19,6 +19,9 @@ NEXT_ACTION 仍然係「唯一單一步」；呢度係「而家有幾多條線�
 | T-009 | 聲線重做：操／美夜子／晴香按新 workflow（證據重分級、缺口微場景、自稱表、auditor）；①–④ 完成，等作者揀句 | 等作者 | — | `canon/_working/tasks/T-009.md`、`canon/_working/demo_pilot/VOICE_EVIDENCE_REGRADE_T009.md`、`canon/_working/demo_pilot/VOICE_EVIDENCE_REVIEW.md` | YES | 2026-10-19 | Demo 試點・人物底 |
 | T-008 | Workbench 作者回饋改善（session 消失、思考深度、網址上一頁／下一頁、討論總結同逐項處理、用量、Enter 送出、作者問法紀錄、流程頁、角度矩陣分組同角度詳情、對話「做緊」條、傾夠落檔）；已加：工作樹、AI 逐步引導（story-work-flow）、輕鬆步用平啲 model；下一步：舊工作補掛（等作者批）、真對話試一次；未做：手機版、真相等級標示、Brief 同新決定邊個優先 | 進行中 | 0f8dcaed | `tools/workbench/`、`.claude/story_system/web-ui-protocol.md`、`.claude/skills/author-lens/SKILL.md` | YES | 2026-10-19 | 工具 |
 | T-010 | Workbench 加入 Codex provider：Claude 保持預設，Codex 支援聊天、續談及背景 AI 工作流 | 完成 | — | `canon/_working/tasks/T-010.md`、`canon/_working/workbench/CODEX_PROVIDER_DESIGN.md`、`tools/workbench/providers/` | NO | 2026-10-22 | 工具 |
+| T-011 | 晴香「罪孽深重」引入：美夜子失手殺被屍骸奪舍嘅活人後嘅心理描寫，晴香不知情去安慰，日後揭露回想覺得噁心；已加扣凜候選（草稿 v3 DRAFT；待揀呈現形式、扣凜、放邊個 beat） | 等作者 | — | `canon/_working/story_construction/HARUKA_SIN_INTRO_KILL_NARRATION_DRAFT.md` | YES | 2026-10-25 | Act I |
+| T-012 | 苦難後心理／睇世界永久改變（好壞並存）：晴香・凜・紫音 DRAFT 已出，其餘角色未做 | 等作者 | — | `canon/_working/story_construction/PERMANENT_WORLDVIEW_SHIFT_HARUKA_RIN_SHION_DRAFT.md` | YES | 2026-10-25 | 全作・主題立場 |
+| T-013 | 屍骸真實外貌核對：黑鐵哥德係真、人形一律保留但扭曲程度唔同（DRAFT；2026-11-03 作者揀混合：全城同一過濾遮人形＋部分人隱約感覺，動機＝令人安心殺，完全崩壞型改人形扭曲；待定過濾由誰做、全部人邊界、同夜區設定點接、邊個有隱約感覺） | 等作者 | — | `canon/_working/story_construction/CORPSE_TRUE_FORM_HUMAN_SILHOUETTE_DRAFT.md` | YES | 2026-11-02 | 全作・世界設定核對 |
 
 ## Archive
 

@@ -193,6 +193,18 @@ Full log belongs in `canon/_working/SESSION_LEDGER.md` when file write is availa
 - Do not become passive: offer at least one usable recommendation when enough context exists.
 - Do not treat source recovery as a reason to stop thinking; use it to ground better thinking.
 
+## 2026-11 起硬規則（作者 2026-11-02 批准；同上面舊版流程有衝突時，以本段為準；全文見 `.claude/skills/story-orchestrator/SKILL.md` 同 `.claude/skills/story-room/SKILL.md`）
+1. **冷讀都明：** 任何概念第一次出現，先用一句日常話講（發生咩、點解重要）；內部術語、編號、版本名唔單獨出現；落檔前對返作者原話，確認動詞（搬／新增／取代／刪）冇多講或少講。
+2. **新做法優於舊文件要主動表態：** 舊文件唔係死規則。認為新做法更好時，明講「我認為新做法更好，點解；舊文件咁寫；由你決定」，唔好只列合規選項；亦唔好將「有意偏離但冇登記」當成漂移。
+3. **主動提新建議：** 逐 beat 或討論時，唔使作者問都要提 2–3 個新建議（至少 1 個現有內容以外嘅新方向），用同一套角度並排比較（包括「現狀」一欄），先核對 canon 先講；每個講清發生咩／點解／代價／放棄咗咩／同其他真正分別。
+4. **固定 28 行角度表：** FULL（Beat 層批核、Layer Review）用 Master Angle Registry 原名 28 行，唔自揀、唔改名；UNAFFECTED 要引設計內容講理由；Pool 2（13–18）不相關都要落檔。TARGETED 自揀角度只可叫「觀察」，唔可叫「beat 結論」。
+5. **批層關卡 13 項（未全過標 `INCOMPLETE_SCAN`，只出補件卡，唔可出批核卡）：** ①全角度逐段掃描 ②知情狀態表 ③Gate A／B／C ④對 Hard Constraints／Knowledge Dependency／Considerations 嘅義務檢查 ⑤Coping／Ideology 對撞檢查 ⑥質疑輪覆蓋角度掃描 ⑦獨立盲審 ⑧覆蓋摘要（用語誠實，唔可講「完整考慮晒」）⑨版本一致性核對 ⑩TRACE 行 ⑪環境敘事分配（設定介紹）⑫接駁表 ⑬前提對賬＋範圍外功能帳。
+6. **接駁表（相鄰 beat 每對一份）：** 上一個 beat 完咗故事狀態變咗乜？下一個 beat 點解而家發生（外部事件）？點解係呢個角色呢個反應？留低咩後果？答「硬切」「時間推進」要查有冇被刪嘅過渡 beat。
+7. **前提對賬＋範圍外功能帳：** 列出玩家已有咩操作、觀眾已知咩、角色已知咩，同上游版本逐項對；切片切走嘅 beat 原本承擔嘅功能（教學、設定介紹、先感受後被告知、埋位）逐項列「點樣補」或「有意放棄」。
+8. **逐 beat 工作：** 先叫 `story-work-flow` 歸位並出 `ui:status`，再入 `story-room` 嘅 Beat Walkthrough Mode（H 講解次序／I 搵缺口 13 項／J 新建議欄／K 28 行角度表）；齊晒先可叫「beat 結論」。查設定編號用 `python .claude/story_system/lookup_id.py <ID>`（同號多條會全部列出）。
+
+9. **前台圖表化、後台不變：** 對話用圖表（`ui:scan` 一覽、`ui:chain` 流程、`ui:compare` 並排比較）同日常講法，術語改說法，角度用白話名；完整紀錄（28 行表、搵缺口 16 項、接駁表、TRACE）照舊寫檔，前台每句要對得返後台。細則見 `.claude/skills/story-room/SKILL.md` L 節。
+
 ## Workbench Choices
 <!-- Haruka Workbench 讀呢段做成一撳掣。格式：- <emoji> <短標籤> | <開場指示>。改呢段唔影響 skill 其他規則。 -->
 - 🔍 掃現有睇欠咩 | 先 resume 同現場讀目標層材料，用白話講已經有咩、真正欠咩、點影響成品，然後用選項卡問我自動做一版定逐項確認。

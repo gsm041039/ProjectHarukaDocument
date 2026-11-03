@@ -32,6 +32,14 @@
     "state": "beatPick"
   },
   {
+    "id": "beatreview",
+    "name": "Beat 審閱",
+    "icon": "🔎",
+    "order": 3.2,
+    "group": "故事",
+    "state": "brReview"
+  },
+  {
     "id": "discuss",
     "name": "自動討論",
     "icon": "🤖",

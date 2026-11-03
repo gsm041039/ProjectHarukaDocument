@@ -2,6 +2,8 @@
 // Chats are remembered per step (localStorage) so 開始 becomes 返去對話 while one is open.
 const ls = { get: (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
 
+import { ladderSection } from "./flow_ladder.js";
+
 export function stepButtons(ctx, pl, s, at, rerender) {
   const { h, state, api, newSession, sendIntent, openFile, openLive, openDiscuss, toast } = ctx;
   const key = `${pl.file}#${s.code}`;
@@ -25,11 +27,14 @@ export function stepButtons(ctx, pl, s, at, rerender) {
   // buttons per status come from ui_config.json flow_steps (hint + buttons); each shows its own one-line explanation
   const st = s.status || "TODO";
   const conf = state.config?.flow_steps?.[st] || { hint: "", buttons: [] };
+  const redoKey = "flowRedo";
+  const redos = ls.get(redoKey, {})[key] || 0;
   const run = (b) => {
     const answer = b.ask ? prompt(b.ask) : "";
-    if (answer == null || (b.ask && b.kind === "chat" && !answer)) return;
+    if (answer == null || (b.ask && b.kind === "chat" && !answer && !b.ask_optional)) return;
+    if (b.redo) { ls.set(redoKey, { ...ls.get(redoKey, {}), [key]: redos + 1 }); toast(`呢步第 ${redos + 1} 次重做／改善`); }
     if (b.kind === "status") return setStatus(b.status, [b.reason, answer].filter(Boolean).join("："));
-    chat(String(b.prompt || "").replaceAll("{answer}", answer), b.label);
+    chat(String(b.prompt || "").replaceAll("{answer}", answer ? `我想：${answer}。` : ""), b.label);
   };
   const main = conf.buttons.map((b) => h("div", { class: "flow-act" },
     h("button", { class: b.primary ? "primary" : "", onclick: () => run(b) }, `${b.icon || ""} ${b.label}`.trim()),
@@ -62,7 +67,9 @@ export function stepButtons(ctx, pl, s, at, rerender) {
       h("div", { class: "chips" }, ...s.skills.map((k) => h("button", { class: "chip", title: k, onclick: () => chat(`用 \`${k}\` skill 做呢步。先讀嗰段，再開始。`, label(k)) }, label(k))))) : null,
     open.length ? h("div", { class: "flow-sec" }, h("b", {}, "呢步開緊嘅對話"),
       ...open.map((x) => h("div", { class: "sess", onclick: () => openLive(x.id) }, h("span", { class: "dot " + x.status }), h("span", { class: "t" }, x.title)))) : null,
+    redos ? h("div", { class: "small muted", style: "margin-bottom:6px" }, `🔁 呢步已經重做／改善過 ${redos} 次（舊版都留低，喺「文件地圖」睇到取代關係）`) : null,
     h("div", { class: "flow-sec" }, h("b", {}, "下一步"), h("div", { class: "flow-acts" }, ...main)),
+    ladderSection(ctx, { pl, s, chat }),
     h("div", { class: "flow-sec" }, h("b", {}, "其他"), h("div", { class: "flow-acts" },
       btn("🤖 交畀 AI 傾", "開自動討論設定，預填呢步", () => openDiscuss({ topic: `${pl.short}：${s.title} 點做最好？`, range: `只限呢一步：${s.title}`, links: [{ id: pl.file, title: pl.short, file: pl.file }] })),
       btn("📝 記低問題", "將呢步未決嘅嘢記入問題清單", () => chat("將呢步未決嘅問題記入 QUESTION_QUEUE，寫清幾時再諗。", "記問題")),

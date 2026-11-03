@@ -1,5 +1,35 @@
 # SESSION_LEDGER
 
+## Skill 改進（作者批「兩樣都改」，2026-10-26）— 盤點先行、慢慢跑
+- 起因：作者貼出 T-001 對話：一開頭拋「牙／開場／長度」口味題；未盤點就問；「繼續」後靜靜用預設（仲將 Act II 前期嘅「滲血」當 demo 決定，同問題清單記低嘅暫定「基地甜品局悄悄跌牙」唔夾）；Stage 1 清單頭兩項（查已有決定、揀角度）未剔就標 DONE；一次擲十幾個角度同成份草稿。作者原話：想佢「幫我慢慢 run 一啲基本野先」。
+- 改動：①`story-work-flow`（`.claude`＋`.agents`）流程 3 加「盤點先行、慢慢跑」硬規則（三欄盤點表→逐角度 2–3 行結論直接寫檔→最後先問真未定、唔准靜靜用預設、清單冇做完唔准標 DONE），加「🐢 盤點先行慢慢跑」掣。②`tasks/T-001.md` 加 Stage 0 基本盤點，Stage 1 由 DONE 改返 AWAITING（盤點未做）。③`ui_config.json` `coarse_to_fine.modes` 加預設節奏「盤點先行，慢慢跑」。
+- 註：另一個對話可能仍然按舊 Stage 1 做緊；佢下次讀步驟檔會見到新規則同 Stage 0。
+
+## Tooling — Workbench v14：諗緊要睇得出生定死＋粗到幼「你喺邊」（2026-10-26）
+- [x] 「諗緊」久：成因＝AI 內部思考、助手做緊、長指令時主對話完全冇事件，網頁分唔到「做緊」同「卡住」。修：server `pulse()`（thinking／agent／tool／retry，唔存重播）＋`s.lastBeat`；對話列表帶 `quietSec`；泡泡第二行講做緊咩；完全冇訊號超過 90／300 秒變橙／紅＋「停低佢／打斷再叫佢繼續」；最後動作係工具就講「唔一定卡住」。門檻同字眼喺 `ui_config.json` `stall`／`pulse_text`。實測：思考對話出 7 個 thinking pulse；長 ping 指令顯示橙色工具提示（測試時暫時縮短門檻，已還原）。發現：Bash 長指令唔會有進度訊號，故需要工具判斷。
+- [x] 粗到幼：流程頁頂「🔭 你而家喺邊」進度條（✓／●／○／–、一句講上一層同下一層、「等你批」標記）；步驟按層分組（「← 而家喺呢層」）；層級梯標出做完嘅層。`flow_ladder.js` `layerOfStages` 由標題推層（`layers[].match`，修正：act／beat 等改用 `` 詞界，避免 interactive 誤中；注意 shell 會將 `` 變退格字元，要用檔案寫）。實測 T-001：全作 ✓、Sequence ●等你批、Beat 下一層。
+- 測試殘留：我啟動測試 server 開過幾個叫「pulse test／stall test」嘅對話，會出現喺以前嘅 session 清單，可以忽略。
+
+## Skill 改進（作者批「兩樣都改」，2026-10-25）— story-work-flow／T-001
+- 起因：T-001 對話第一輪按舊標題「收尾 BATCH 1–6」諗；Stage 1 未做角度分析、未查已有決定就問「牙喺邊／開場點」；計劃淨係第四步先有 10 幾角度。
+- 改動：①`story-work-flow`（`.claude`＋`.agents`）流程 2 加「要求角度分析嘅工作每層都要有」；流程 3 加「先分析後問作者」硬規則（先查已有決定→揀角度分析→寫入產出→先問只有作者決定到嘅位，每次 ≤3 條）。②`tasks/T-001.md` Stage 1–3 各加角度分析清單項。③TASK_BOARD T-001 標題改「由粗到幼重做」。
+- 未跑 validator（無相關 validator）；改動前後如上。
+
+## Tooling — Workbench v13：流程頁由粗到幼＋回頭改善（2026-10-25）
+- [x] 作者問流程頁冇掣可以「由粗到幼慢慢重傾 beat」，之後補充係想「返去已做完嘅步驟再做多次／改善」。
+- [x] `flow_ladder.js`＋`ui_config.json` `coarse_to_fine`：每步有層級梯（全作→Act→Sequence→Beat→Scene→對白→劇本，讀 `layers`）、揀起點層同節奏、一撳開對話一層一層傾（layer gate、唔跳層、批咗先落）。
+- [x] `flow_steps.DONE` 改做「✨ 改善呢步／🔁 再做一次／↩️ 返去呢步／📦 睇產出」；舊版留低（SUPERSEDED＋取代關係行）；記重做次數；做完嘅步驟標「做完・可重做」。協議 §4D 加兩條。
+- 未做：「只傾某幾個 beat」嘅範圍揀選喺流程頁未接（自動討論頁有）；要嘅話下一步接。
+
+## 苦難後心理／睇世界永久改變（好壞並存）（2026-10-25）
+- [x] 作者提出主題想法，更正方向為心理／睇世界方式、好壞並存；作者揀「改變係中性事實」「知唔知因角色而異」。已精讀晴香、凜、紫音，出 DRAFT：`story_construction/PERMANENT_WORLDVIEW_SHIFT_HARUKA_RIN_SHION_DRAFT.md`（唔改 canon）。先前一輪按「身體痕」篩查缺口方向錯，作廢。
+- [x] 作者批：四條原則記成主題候選（DRAFT）；晴香換返＝會換但返唔到轉頭（PROVISIONAL）。
+- [ ] 待作者：凜缺口候選；其餘角色未做。
+
+
+## 美夜子搭車聽歌習慣（2026-10-24）
+- [x] **已 writeback（CDL-417）**：習慣本身入 `miyako.md` 習慣 #15；其餘候選仍 DRAFT。原記錄：作者提出：美夜子搭車聽歌但唔戴耳機（兵器時期耳聽八方），手機 speaker 開好細聲。已寫入 `character-performance-bibles/miyako.md`「日常習慣」段，標 AUTHOR_STATED／DRAFT，未 writeback canon；demo 不用。未定：首次出現位、點樣同晴香戴耳機對比（見該檔未解決候選 4）。
+
 ## Tooling — 自動討論變成 session ＋ 修側邊欄睇唔到 session（2026-10-19）
 - [x] 自動討論同對話一樣有位追蹤：側邊清單「進行中」列傾緊／停低嘅討論（🤖，停低等作者答就有橙色「等你」徽章，分頁標題 🙋／⏳、徽章數都計埋），完咗嘅同以前嘅對話按時間混排喺「以前嘅 session」，撳就返去睇（過程、總結都喺）。討論頁頂加同對話一樣嘅「📋 工作進度」卡（掛去邊件工作，可估、可揀；`/api/link` 接受 `DISC:<id>`）。server：討論有 `asking`（等緊作者答乜），`/api/sessions` 帶 `discussions`。
 - [x] 發現並修嚴重 bug：側邊欄加咗用量／問法模型等格之後，session 清單被擠去畫面下面（850px 高視窗入面 y=1553、高度 0，側邊欄又唔可以捲）＝一個 session 都睇唔到。修：頁面選單縮細、限高（36vh、自己捲）；清單放中間佔剩低嘅位；model／深度／問法模型收入「⚙️ 設定、用量」；用量縮短；多餘「Sessions」標題刪走；側邊欄可捲。
@@ -3264,3 +3294,57 @@
 - 作者揀：(1) 主力＝美夜子一個人接（單向、具體重複行為、晴香不回應）；(2) 世界可留「最輕嘅一個」無法證實痕跡，兩種解讀都要成立。
 - 狀態：PROVISIONAL / DRAFT。未做：核對決定記錄有冇鎖死結局細節；美夜子具體儀式未設計；痕跡形式未定；任何 haruka.md／miyako.md／Brief 改動未做（需 author gate）。
 - 風險：痕跡被觀眾讀成「晴香聽到」會拆穿意識留白；美夜子老化緩慢（外貌凍結）可作接住嘅代價載體。
+
+## 2026-10-24 晴香「罪孽深重」引入：殺人返唔到轉頭（DRAFT，未入 canon）
+- 作者方向：故事開頭事件發生喺另一角色（美夜子／紫音）身上，晴香不知自己係創世者、去安慰殺咗人嗰個；揭露時回想覺得噁心。作者揀：直接寫旁白草稿。
+- 產出：`story_construction/HARUKA_SIN_INTRO_KILL_NARRATION_DRAFT.md`（預設美夜子視角旁白＋晴香行為載體＋揭露回想候選句）。
+- 核對：合晴香罪責感累積時序；撞奪舍示範（原設計晴香「震驚不追問、膠布自欺」）→ REVALIDATE。
+- [ ] 待作者：揀殺手（美夜子／紫音）；放邊個 beat；殺嘅係屍骸定真人；係咪改寫奪舍示範晴香反應。
+- 狀態：全部 DRAFT／PROVISIONAL。
+- 2026-10-24 更新（同日）：旁白草稿改 v2——殺嘅改真人（作者揀「被黑奏利用嘅人」，粉絲版否決）；觸發＝被利用者襲擊晴香→美夜子本能擋失手；加「殺後心理差異／認晴香後差異／點解會被安慰」。待核實：美夜子 Act I 知唔知晴香係姊姊；黑奏 Act I 介入能力。
+- 2026-10-24 核查：美夜子 Act I 意識上唔知晴香係親姊姊（timeline 詛咒真相揭露＝記憶恢復後；CDL-060 腦說工具、身體守護）→ 旁白草稿 §4 已修正。黑奏 Act I 冇指使真人襲擊晴香嘅 canon 能力／動機，屬新增設定，待作者 gate。
+- 2026-10-25：襲擊來源——作者嫌「黑市裝置失控」要補太多設定；暫定改「屍骸奪舍活人」（沿用奪舍示範，PROVISIONAL）；備選「曾被晴香幫過嘅人」。旁白草稿 §2 已改，奪舍示範待 REVALIDATE。
+- 2026-10-25 核查凜最終戰（遲來的介錯）：晴香喺前段在場（伸手被 Unit 00-Null 推開，05 outline）；介錯一槍 beat（ACT_III_OUTLINE E-III-I5）冇寫晴香喺唔喺場／有冇安慰；功能係「未完成告別、失語感」。時序：Day14 深夜末、Phase J 前夕；晴香已知美夜子係姊姊（H1.5/I4），仍未知創世真相。
+- 2026-10-25 落檔：草稿 v3（`HARUKA_SIN_INTRO_KILL_NARRATION_DRAFT.md` §1/§2/§8/§9）整合襲擊來源改「屍骸奪舍活人」、扣凜候選、凜最終戰核查；NEXT_ACTION／TASK_BOARD T-011 已同步。全部 DRAFT／PROVISIONAL，未入正式 canon。未更新：QUESTION_QUEUE（未決項喺草稿 §9）、LAYER_MANIFEST（未登記）。
+
+## 2026-10-31 改進 skill：層級角度分析 + 一定叫 skill + 可追溯
+- [x] 作者質疑：由粗到幼每層都應自動做足夠角度分析、合適情況一定叫合適 skill、一定可追溯。檢視 `story-work-flow`／`story-orchestrator` 搵到 4 個漏洞（報到靠自覺、角度要求靠作者開口、批核卡可繞過關卡且紀錄去向對唔上、後寫版本推翻前面決定冇人查），作者答「總之要一定 call 到合適 skill、一定可追溯」→ 當批晒四條。
+- [x] 改動：`CLAUDE.md` 加「Skill 一定要叫＋一定可追溯」；`story-work-flow` 加層內 TARGETED／批核前 FULL 對照、TRACE 行、角度紀錄去向（QUESTION_MATRIX＋validate_beat_layer.py）、版本一致性核對、批核關卡；`story-orchestrator` Completeness Gate 加第 9（版本一致性）、10（TRACE）項同批核卡前置。`.agents/skills/story-work-flow` 已同步；`.agents/skills/story-orchestrator` 係另一個舊格式檔（205 行，冇 Angle Basis Rule），冇改。
+- [x] 驗證：`build_index.py --check` OK（1 警告：矩陣有 1 row 未寫角度名，舊問題）；`validate_beat_layer.py` 跑逐場詳細版 PASS。
+- [ ] 待：Beat 層批核前，用新關卡補做覆蓋狀態行、版本一致性核對（合照、美夜子護邊個兩點）、TRACE 落檔；`.agents` orchestrator 是否要升級待作者決定。
+
+## 2026-10-31 Demo Beat 層批核前覆蓋檢查（story-work-flow；T-001）
+- TRACE：story-work-flow＋Angle Basis Rule／Completeness Gate（只做第 1、9、10 項）｜盤點＋TARGETED 版本核對｜盲審 無｜詳見 `QUESTION_MATRIX.md`「Demo Beat 層批核前覆蓋檢查」。
+- [x] 盤點：16 beat 全部有逐 beat 角度標題（10–14 個，共 182 個；只證明格式）；5 份現行 V5 檔結構 validator PASS；7 個角度（價值排序、社會位置、道德代價、象徵儀式、故事點對待、因果鏈、跨幕影響）未以角度名出現；V5 全部無獨立盲審。
+- [x] 版本一致性：①最尾合照＝前版「唔影到」、後寫「補影成功」，冇偏離登記，下游四份聲線／表演材料已採用；②潛入護邊個＝同一 beat 前後講法唔同。更正：我之前建議「合照唔影到」「護紫音」依據不足（忽略下游已採用、晴香已拉紫音）。
+- [x] 發現步驟檔 `tasks/T-001.md` Stage 3–6 仍 TODO、產出路徑 `beat_rederive_v5/` 不存在，但實際逐 beat 設計已存在於 `beat_rederive_v4/BEAT_LAYER_V5_BATCH*`——已加對照註，狀態待作者確認。
+- **覆蓋狀態：INCOMPLETE_SCAN。唔出批核卡。** 新問題記入 QQ-232／233／234。
+- [ ] 待：補掃缺口角度；知情表／三道主題關卡／控制總表對照重核；作者答 QQ-232（合照）、確認 QQ-233 暫定；盲審 ≤1 agent 需作者批。
+
+- 2026-11-02 跟進（收回＋抽驗）：①收回「182 個角度分析」（只係標題數）同「暫定護操」（冇預設）。②內容抽驗（腳本＋人手抽讀）：182 塊中只有 44 塊有可辨認出處、114 塊風險欄只寫「冇風險」；最薄＝潛入決定、最尾基地收尾、兩個街頭 beat、潛入、佈置甜品局，最實＝晴香擋操、天台使命、夜獨處；見矩陣新 row。③修正逐 beat 設計檔亂碼：「佢」變「佳」、「嚟」變「嚎」，共 71 個＋16 個（逐場詳細版 4 份），validator 仍 PASS。④覆蓋狀態維持 INCOMPLETE_SCAN。
+- [ ] 待：重做薄 beat 嘅角度分析（有出處＋攻擊）；補掃 7 個缺口角度；知情表／主題關卡重核。
+- 2026-11-02 作者糾正方向：要嘅唔係「完整覆蓋檢查」，係由粗到幼、每個 beat 用 10 幾個角度慢慢分析點解出現、講畀作者聽、可追蹤。已改做逐 beat 講解＋矩陣一行 TRACE。第 1 個 beat（首戰當晚獨處）完成講解（13 角度、3 個發現），見矩陣 WALK-01；下一個＝天台到場。
+- 2026-11-02 作者揀「先修正」：第一個 beat（`BEAT_LAYER_V5_BATCH1_R2.md`）補身體沉重嘅無台詞日常動作（扭頸揼膊頭）、沖可可互動由「已定案」更正為 PROVISIONAL（作者未批）、CDL-128 追溯補齊；validator PASS。同時整理 skill 改進觀察（見對話），待作者批先改 skill。
+- 2026-11-02 第二個 beat（天台到場）分析完成，15 角度，見矩陣 WALK-02。改咗兩處出處（CDL-198→CDL-337／408；對話提示標暫定），未改設計。發現：下一個 beat 靠呢個 beat 一句想幫人嘅台詞，但本 beat 動作欄冇——待作者決定。skill 觀察累積喺 `skill_improvement_notes.md`。
+- 2026-11-02 作者批准：第二個 beat（天台到場）加入『講完驚後主動表示想幫手』行為（`BEAT_LAYER_V5_BATCH1_R2.md`，PROVISIONAL，wording 留 Scene 層）；validator PASS。作者問我逐 beat 時有冇主動提新建議——坦白係冇（審核模式），已記入 skill 觀察第 16 條。
+- 2026-11-02 作者糾正：我話『逐 beat 流程冇叫我用 Candidates-First』係推卸，常設規則本來就要用。已更正 skill 觀察第 16 條，並補第 17 條（新建議先核 canon）。為第二個 beat 提 2 個新建議候選（見矩陣），核對後撤回其中『講驚時捏膠布邊』一版（用錯 canon 動作意思）。未改 beat。
+- 2026-11-02 作者糾正：新建議都要用 10 幾個角度分析再列出。已補 15 角度比較（矩陣），並發現我加入嘅 N2『想幫手』若用一句話會同 N3『我可以做啲咩』撞；建議降為非語言。待作者決定。另：我多次喺對話直接講設定編號，違反『對話唔提編號』規則，之後改正。
+- 2026-11-02 第三個 beat（天台使命＋交槍）分析：17 角度、6 個發現（緋潮位置提早、出處錯已更正、HC-2e 自評、過載、N2 重複、假選擇），見矩陣 WALK-03；已更正 IM:52→IM:55、CDL-176 加註。決定記錄 CDL-176 同號兩條（維多利亞之淚／緋潮視覺）——canon log 房務，待作者處理。新建議 3 個與現狀 17 角度並排比較（見對話）。skill 觀察新增 21–24。
+- 2026-11-02 作者批准採用建議 1（晴香複述使命、美夜子冇糾正），已加入第三個 beat 動作欄／知情欄（PROVISIONAL，wording 留 Scene 層）；validator PASS。作者指示：(1) 若我認為新做法好過舊文件，可提出討論，唔使死跟舊文件；(2) 解釋要日常講法，唔可以靠內部術語（例如『精心隱藏』『功能過載』）。已存記憶。緋潮位置、『先感受後被告知』約束仍待作者決定。
+- 2026-11-02 作者揀『緋潮放天台、街戰保留淡重複』：已改第三個 beat 追溯（標偏離）、街戰開場 beat 加背景重複（PROVISIONAL）、DERIVATION_LEDGER 加偏離登記 8 並標 REVALIDATE（ACT_I_OUTLINE E-02／E-04、CDL-176 二周目句子、06_visual_bible 緋潮規格）。更正我早前說法：搬位唔係漂移，v4 推導已經有人提出同樣理由，缺嘅只係偏離登記。
+- 2026-11-02 作者糾正用字：緋潮『搬去天台』講錯——街頭首戰照原設定照放緋潮第一級，天台只係額外加嘅先行出現。已改寫第三個 beat 追溯、街戰開場 beat、偏離登記 8、矩陣；偏離範圍縮窄為『第一次出現＝街頭首戰』變成『天台先行』。
+- 2026-11-02 分層更正：『天台晴香口頭三次太多話』屬場景層（節奏／對白），唔係 beat 層待決定。Beat 層真問題＝第二個 beat『想幫手』同第三個 beat『我可以做啲咩』功能相同（兩個 beat 做同一件事，削弱第三個轉折）；複述功能唔同，唔重複。場景層交接：天台兩個 beat 晴香有三項口頭功能，留意節奏、可考慮合併。待作者揀：想幫手降非語言／刪走／保持現狀。
+- 2026-11-02 作者決定：兩個天台 beat 保持現狀，只寫 Scene 層交接（想幫手同問做咩功能相近，三項口頭功能要處理）。已寫入 `BEAT_LAYER_V5_BATCH1_R2.md` 兩個 beat 嘅 downstream_references。
+- 2026-11-02 第四個 beat（街頭首戰開場）分析完成：17 角度，5 個 Beat 層發現（教學前提矛盾、出處錯已更正、情緒起點未對接、美夜子防護預先用盡、人群位置細出入），3 個新建議候選（S1 膠布儀式／S2 玩家按鍵變身／S3 人群只留聲音），見矩陣 WALK-04。
+- 2026-11-02 作者決定：(1) 變身由玩家按鍵啟動，已加入街戰開場 beat（PROVISIONAL）；(2) 教學前提矛盾以『補一個教學』解決，形式待設計；(3) 作者指出更重要：要討論『點解由上一個 beat 去到呢個 beat』。我承認逐 beat 分析只睇 beat 自己，漏咗相鄰 beat 因果接駁。已開矩陣新節（TRANS-01）。發現：天台→街戰嘅過渡 beat（原本『開頭日常』）係舊編劇預設刪走，硬切冇人討論過。
+- 2026-11-02 作者指出：我用嘅 10 幾個角度唔係文件 28 個，漏咗設定介紹，應該用方案 2 日常巡街，並問是否有好多野冇真係考慮。我承認：頭四個 beat 係 TARGETED 觀察，唔係 beat 結論；7 個角度從未用（12／14／15／16／17／18／22 真分析）；Layer 3.5 環境敘事矩陣零分配；canon Beat 0 負責嘅光幕／日夜區／帝國宣傳／直播文化 demo 冇補。已記矩陣新節；方案 2 日常巡街記為 PROVISIONAL，須用 FULL 流程設計。
+- 2026-11-02 改進 skill（作者批准『按整個對話提出嘅改善位修改』）：改 `story-room`（新增 H 逐 beat 講解／I Gap Scan 12 項／J 新建議欄／K 28 行角度表；Delivery Gate 第 4 項要接駁表、加第 6–8 項；範本加選填欄；加工作掣）、`story-work-flow`（首個動作、對賬、入 story-room mode、補件分工）、`story-orchestrator`（冷讀都明、新做法優於舊文件、主動提、固定 28 行表、Completeness Gate 加 11–13）、`CLAUDE.md`（兩條）、`validate_beat_layer.py`（6 類非阻斷內容提示）、新 `lookup_id.py`。驗證：5 份現行 beat 檔 validator 全 PASS，新提示正確指出最薄嘅 beat（最尾基地收尾、潛入決定、街戰首兩個 beat）同全部『硬切』接駁；lookup 測試 CDL-176 回報重號。未同步 `.agents` 舊格式 orchestrator／room。對應表見 `skill_improvement_notes.md`。
+- 2026-11-02 .agents 同步（作者批准方案 1 加 2）：`.agents/skills/story-room/SKILL.md` 用 `.claude` 版本取代（diff 核對完全一致，325 行）；`.agents/skills/story-orchestrator/SKILL.md` 喺 Workbench Choices 前加『2026-11 起硬規則』八點（冷讀都明、新做法優於舊文件、主動新建議、28 行角度表、批層關卡 13 項、接駁表、前提對賬＋範圍外功能帳、逐 beat 入 story-room），舊版內容保留；Workbench Choices 保持最尾，索引檢查通過。`.agents/skills/story-work-flow` 同 `.claude` 一致。其餘 11 個 .agents 差異 skill 未處理。
+- 2026-11-02 新流程第一次真實試跑（日常巡街 beat）第一段：Gap Scan 12 項完成，結果 `BEAT_PATROL_GAP_SCAN.md`。skill 自己搵到：被刪嘅『開頭日常』其實屬作者已揀範圍場 1、範圍外功能帳（光幕／日夜區／帝國宣傳／直播文化冇人補）、道具數量未定、硬約束命中（HC-1b／2d／2e／5c／7d／4b）、功能數量剛好 5 件。skill 冇搵到、我手動搵到：下游孤兒（晴香／美夜子聲線場 1、M4 貓擋鏡頭埋位）。待作者揀：一個 beat 定拆兩個。
+- 2026-11-02 作者揀『補 skill 第 13 項』並要求前台更易讀更人話（後台不變）：story-room 加 I.13 下游依賴核對、I.4 對返作者已揀範圍、L 顯示層；story-orchestrator 加前台圖表化一條；新增網頁卡片 scan／chain／compare（node 假 DOM 測試通過，未喺真網頁驗證）；web-ui-protocol 加欄位說明；.agents 兩份同步。
+- 2026-11-02 新流程第二段：按作者揀（拆兩個 beat）設計日常巡街（PT1）同實戰前練習被打斷（PR1）：`BEAT_LAYER_V5_BATCH7_PATROL_PRACTICE.md`（validator PASS，已登記 LAYER_MANIFEST）＋`BEAT_PATROL_FULL_ANALYSIS.md`（28 行表×2、三道主題關卡、知情表、四拍、環境敘事分配、硬約束、下游依賴、新建議比較）。N3 next_beat_pressure 同 B1 入場／觸發／情緒起點／美夜子防護／教學負擔已同步（PROVISIONAL）。待作者：紅霞碎話、注射槍道具描述、先感受切片偏離、揀新建議 C1／C2／C3。
+- 2026-11-02 作者追問『屍骸被引來美夜子知唔知？』→ 查 `miyako.md` L180／CDL-089：美夜子自己就係燈塔，必知、冇得避。更正 PR1／B1 觸發（原寫練習啟動引來、美夜子冇預計＝錯配）。M2 講法同 CDL-064／089 疊加待對賬。skill 缺口三項待批：角色檔核對、知情→行動一致性、同主題多條設定對賬。作者揀盲審：待提交申請書（理由、範圍、預算），未派。
+- 2026-11-02 作者提出『屍骸真實外貌可能同主角群所見唔同』，經 story-canon-reconciliation 核對 Brief：作者糾正為『黑鐵哥德係真、人形一律保留但扭曲程度唔同』，分類＝重新詮釋候選（完全崩壞型『無人形』要重解）；作者話『繼續』，暫定用外殼包密＋鏡子揭露、維多利亞之淚留作可選。草稿 `CORPSE_TRUE_FORM_HUMAN_SILHOUETTE_DRAFT.md`，T-013。未寫入 canon。
+- 2026-11-02 作者批准三件事一齊做：①盲審（派 1 個獨立 agent，隔離包 `demo_pilot/blind_audit_patrol/`，背景進行中）②skill 補三項缺口檢查：`story-room` I.14 角色檔核對、I.15 知情→行動一致性、I.16 同主題多條設定對賬（唔加新角度編號；責任歸屬、觀眾討喜度記為清單缺口留參考），Delivery Gate 加第 9 項，`story-work-flow` 列表同步，`.agents` 三份同步③Beat 審閱頁（建置中）。
+- 2026-11-02 Beat 審閱頁完成（最小可用版）：`tools/workbench/public/views/beatreview.js`＋`views.json` 加『Beat 審閱』（故事組）＋`ui_config.json` 加 `beat_reviews`＋`web-ui-protocol.md` 說明；分析檔 `BEAT_PATROL_FULL_ANALYSIS.md` 加第 15 節『待作者決定』8 項供頁面讀取。用 node 假 DOM 對真檔測試：解析 2 個 beat（各 19 欄）、2×28 行表、8 個決定；剔選 D3 產生 `review.decide` intent；28 角度分頁 28 個色塊。未喺真瀏覽器睇過，要重新載入網頁。盲審 agent 背景進行中，結果到咗先做 Diff。
+- 2026-11-03 屍骸真貌自動討論總結（DRAFT）→ 作者揀『混合：過濾＋部分人隱約感覺』，確認落草稿；動機＝令人安心殺，但作者話過濾唔淨係少女，係全部人睇到結果一樣（取代總結『只影響佩戴者』）；完全崩壞型改『人形扭曲到認唔出』。已寫入 `CORPSE_TRUE_FORM_HUMAN_SILHOUETTE_DRAFT.md`（DRAFT，T-013）。下游全標待重核：完全崩壞型描述、鏡像規格、Act I 美夜子一句、晴香罪孽草稿、屍骸美術描述。未寫 canon。待作者：過濾由誰做、全部人邊界（觀眾視角）、同夜區睇真貌設定點接、隱約感覺邊個。

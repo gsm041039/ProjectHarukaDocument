@@ -2,8 +2,9 @@
 // 改狀態只係排入待送出（pipeline.set_status），由 AI 照 gate 改 tracker。
 import { stepButtons } from "./flow_actions.js";
 import { workTree, taskPanel } from "./flow_tree.js";
+import { layerBar, layerOfStages } from "./flow_ladder.js";
 
-const ZH = { DONE: "做完", IN_PROGRESS: "做緊", AWAITING: "等你批", BLOCKED: "卡住", DEFERRED: "押後", TODO: "未開始", "": "未開始" };
+const ZH = { DONE: "做完・可重做", IN_PROGRESS: "做緊", AWAITING: "等你批", BLOCKED: "卡住", DEFERRED: "押後", TODO: "未開始", "": "未開始" };
 const PILL = { DONE: "ok", IN_PROGRESS: "info", AWAITING: "warn", BLOCKED: "bad" };
 
 // the step to work on: one under way, else the first not done (skips deferred ones)
@@ -30,12 +31,16 @@ export function render(el, ctx) {
   f.step = s.code;
   const at = pl.stages.indexOf(s);
 
-  const steps = h("div", { class: "flow-steps" }, ...pl.stages.map((x, k) => h("div", {
+  // group the steps under their layer heading when the flow is coarse → fine (headings come from the flow's own wording + ui_config layers)
+  const layerOf = layerOfStages(ctx, pl), distinct = new Set(layerOf.filter(Boolean)).size > 1;
+  const lname = Object.fromEntries((state.config?.layers || []).map((l) => [l.id, l.name]));
+  const steps = h("div", { class: "flow-steps" }, ...pl.stages.flatMap((x, k) => [distinct && layerOf[k] && layerOf[k] !== layerOf[k - 1]
+    ? h("div", { class: "flow-layerhead" + (cur && layerOf[pl.stages.indexOf(cur)] === layerOf[k] ? " now" : "") }, "🔭 " + (lname[layerOf[k]] || layerOf[k]) + " 層", cur && layerOf[pl.stages.indexOf(cur)] === layerOf[k] ? h("span", { class: "small" }, "← 而家喺呢層") : null) : null, h("div", {
     class: "flow-steprow" + (x === s ? " on" : "") + (x === cur ? " cur" : ""), onclick: () => { f.step = x.code; rerender(); } },
     h("span", { class: "flow-num d-" + (x.status || "TODO") }, x.status === "DONE" ? "✓" : String(k + 1)),
     h("span", { style: "flex:1;min-width:0" }, h("div", { style: "font-weight:800" }, x.title), x === cur ? h("div", { class: "small", style: "color:var(--blue);font-weight:900" }, "← 而家做到呢度") : null),
     x.author_gate && x.status !== "DONE" ? h("span", { class: "pill warn", title: "呢步要你批先算完" }, "要你批") : null,
-    h("span", { class: "pill " + (PILL[x.status] || "") }, ZH[x.status] || x.status))));
+    h("span", { class: "pill " + (PILL[x.status] || "") }, ZH[x.status] || x.status))].filter(Boolean)));
 
   const detail = h("div", { class: "flow-detail card" },
     h("div", { class: "small muted" }, `${pl.short} · 第 ${at + 1}/${pl.stages.length} 步`),
@@ -54,5 +59,5 @@ export function render(el, ctx) {
       h("li", {}, "做完撳「標做完」——佢只會放入右下角「待送出」，你喺嗰度撳送出，AI 先會真正改進度檔。"),
       h("li", {}, "下一次返嚟，撳返同一步會見到「呢步開緊嘅對話」，一撳返去接住做。")),
     h("div", { class: "small muted" }, "步驟唔係寫死喺網頁：全部由 canon/_working 入面嘅進度檔讀出嚟，改進度檔就會跟住變。每個狀態出咩掣，喺 tools/workbench/ui_config.json 嘅 flow_steps 改。"));
-  el.append(h("h2", {}, "🛤️ 流程"), guide, h("div", { class: "flow-page" }, list, steps, detail));
+  el.append(h("h2", {}, "🛤️ 流程"), guide, layerBar(ctx, pl, cur), h("div", { class: "flow-page" }, list, steps, detail));
 }

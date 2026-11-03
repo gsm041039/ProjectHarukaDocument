@@ -187,6 +187,9 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - 用日常話講，唔用內部編號（QQ-／CDL-／E-xx／R-3／HC-x／B11／M5／N2／H1／Stage 2a／盲審格號／v4.1、Batch 6 呢類文件版本名等；選項卡、`ui:` 卡、對話標題同正文一樣）同未解釋過嘅術語；要講 canon 階段就描述佢發生咩（例：「Act II 中期、操父親背叛嗰晚，操將跌咗嘅牙用絲線縫返」），唔係講「Stage 2a」。
 - 寫之前核 canon 原文，唔憑印象；之前講錯就直接更正。
 - 發送前自測：作者冷讀呢段，唔使開任何檔案、唔使識任何編號，睇唔睇得明「發生咩、點解、代價、放棄咗咩」？唔得就重寫。
+- **冷讀都明（2026-11-02 作者要求）：** 任何概念第一次出現，先用一句日常話講（發生咩、點解重要）；內部術語（例：精心隱藏、功能過載、二周目、位置提早）唔單獨出現；落檔前對返作者原話，確認動詞（搬／新增／取代／刪）冇多講或少講。
+- **前台圖表化、後台不變（2026-11-02 作者要求）：** 對話用圖表（`ui:scan` 一覽、`ui:chain` 流程、`ui:compare` 並排比較）同日常講法，術語改說法，角度用白話名；完整紀錄（28 行表、搵缺口、接駁表、TRACE）照舊寫檔，前台每句要對得返後台。細則同角度人話對照見 `story-room` L。
+- **新做法優於舊文件要主動表態（2026-11-02）：** 舊文件唔係死規則。認為新做法更好時，明講「我認為新做法更好，點解；舊文件咁寫；由你決定」，唔好只列「跟舊文件／兩處都放／承認偏離」呢類合規選項；亦唔好將「有意偏離但冇登記」當成漂移。
 - 本規則同下面 Candidates-First Rule 疊加：Candidates-First 規定「問作者之前要先備候選」；本規則規定「任何建議都要人話詳情」。
 
 #### Angle Basis Rule — 角度係覆蓋輔助，唔係每個建議嘅必經關卡（2026-10-02 新增；2026-10-08 作者批准 TARGETED 預設／FULL 觸發政策，見下）
@@ -196,6 +199,7 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
 - `TARGETED` 要簡短記錄：揀咗嘅 lens family＋一句相關理由；跳過嘅 family（family 層級）；點解漏 lens 風險低。
 - 呢個政策已獲作者批准，並已寫入正式 `CLAUDE.md`。
 - **TARGETED／FULL 只係覆蓋模式，唔係 sub-agent 數量**（見 Sub-Agent Budget Policy）；FULL 28 角度由 orchestrator 或單一 agent 分階段做。
+- **FULL 固定 28 行表（2026-11-02）：** 角度名用 Registry 原名，唔自揀、唔改名；表缺行＝未完成；Pool 2（13–18）NOT_RELEVANT 都要落檔。TARGETED 自揀角度只可以叫「觀察」，唔可以叫「beat 結論」（定義見 `story-room` H.4）。
 - Registry 係覆蓋輔助，永遠唔可以講「所有角度都過咗，所以 ready」。Registry 角色改變，**唔加新角度 ID**。
 - 以下第 2、3、5–8 點照舊適用於被揀嘅角度；第 1、4 點嘅「全掃」只喺 `FULL` 模式適用。
 **起因：** 我曾經交一張「19 個角度全部相關」嘅表，但格入面多數係套話、冇人驗證，而且標咗「canon 連貫」相關之後我仍然憑印象講錯 canon。剔號唔等於做過。作者要求：每個建議都要真係以所有角度為依據（如有觸及）。
@@ -222,6 +226,7 @@ Before sending any Director question, run `HUMAN_LANGUAGE_TEST`: could the Direc
   5. **同其他候選真正嘅分別**：唔係表面分別；如果兩個候選實質係同一件事（或其中一個喺 canon／角色邏輯上站唔住），要老實講，唔好硬湊數。
 - 候選嘅事實描述（例如「呢個屬 canon 邊個階段」）寫之前要對返 canon 原文核實；唔可以憑印象歸類。發現自己之前講錯，直接更正並講明點解。
 - 唔用編號 Q1/A/B/C，用候選嘅自然名稱（例：「靠對話帶過」「一句旁白」「完全唔交代」）。
+- **主動提（2026-11-02）：** 逐 beat 或討論時，唔使作者問都要提 2–3 個新建議（至少 1 個現有內容以外嘅新方向），用同一套角度並排比較（包括「現狀」一欄），先核對 canon 先講；未提新建議就唔可以講 beat 結論。
 - 標明我推薦邊個同點解（同問題同一抽象層次）；容許作者揀、混合、或自己提第四個（No False Binary）。
 - 候選要通過 Existing Carrier First／上游 canon 檢查，按 Angle Basis Rule 模式（預設 TARGETED lens；FULL 只限指定情況）掃描先可以呈上；只有一個合理答案就唔係 Director 問題，直接決定並記錄。
 - 唔可以將「作者其實可以自己想」嘅創作工作外判畀作者；開放式問題只限候選真係窮盡唔到、需要作者提供全新資訊（例如 canon 未寫嘅事實）。
@@ -371,7 +376,13 @@ Beat 層（及之後每一層）出 Layer Review Packet 之前，下列八項**�
 6. **質疑輪要覆蓋角度掃描**：rule 9 嘅五個質疑 lens 之外，orchestrator 自己要做 1–3 項，並將發現回寫 ledger 並更新候選嘅推薦（新證據可以推翻自己之前嘅推薦，要直接講明點解改）。
 7. **獨立盲審（強制，2026-10-02 作者揀）**：第 1 項係我自己做、自己剔，所以唔算驗證。出 Layer Review Packet 前要有獨立盲審。**按 Sub-Agent Budget：預設 1 個盲審 agent，用隔離來源包分階段逐組攻擊全部角度（角色與關係／資訊與知情／結構與 canon／主題與觀眾體驗與節奏／玩法與導演與製作與功能重疊），逐段寫檔；如需要，第 2 個 agent 合併做「清單漏洞搜尋員＋提案員」。分組各派一個 agent（3–4 個）只限作者明確批准嘅完整 Holistic Audit；超過 4 個唔可以自動派。** 各職能：分組審核（逐格攻擊）；「清單漏洞搜尋員」（先唔睇角度清單搵問題，之後先對應返角度；`NO_MATCH`＝Registry 漏咗角度）；「提案員」（審核員預設只搵問題、唔會主動創作；提案員以 `story-solution-space-designer` 嘅 Proactive Opportunity Mode 主動提新事件／想法／其他形式，全部 CANDIDATE，收齊後經 Diff＋Question Funnel 先決定上咩畀作者）。協議見 `.claude/story_system/blind-angle-audit-protocol.md`。盲審條件（vNext：用語係 `SCOPED_INPUT_WITH_EXPOSURE_AUDIT`，唔係「硬隔離」——除非 harness 真係強制，否則唔可以聲稱 agent 睇唔到禁讀內容）：orchestrator 準備 scoped read-only 輸入包，agent 只喺包內搜；包＝被審 artifact（唔含 orchestrator 分析結論）＋canon 來源路徑＋協議；**禁讀** orchestrator 自己嘅掃描檔、ledger、狀態檔；要保留 tool-access／exposure 記錄，agent 讀到禁讀內容要申報，orchestrator 記低接觸時間同類型（降低獨立性信心，唔自動令發現作廢）；每格要有 evidence＋attack，無效格作廢（正式多格審核用 machine-readable cell，見 blind-angle-audit-protocol §4）。之後 orchestrator 做 **Diff**：盲審有而我自己掃描漏咗＝漏項，逐個記入 ledger（漏咗咩、點解漏）；我有而盲審冇＝記低（可能 agent 失手或我過度）；`BLOCKS_BEAT_LAYER` 發現未處理＝`INCOMPLETE_SCAN`。Agent 只出證據同攻擊，唔批核、唔代答作者決定。
 8. **覆蓋摘要（用語誠實）**：Layer Review Packet 必附：過咗幾多角度、盲審格數同發現數（按嚴重度）、已處理／未處理、仍然薄嘅格數、Registry 缺口、重掃（STALE）狀態。唔可以用「完整考慮晒」一句帶過（見 Angle Basis Rule 第 8 點）。
-唔通過任何一項（1–8），Layer Review Packet 標 `INCOMPLETE_SCAN`，唔好叫作者批。
+9. **版本一致性核對（2026-10-31 新增）**：同一層有多份文件或多批逐場設計時，逐項對照後寫嗰份有冇靜靜推翻前面已記錄嘅決定（例如前一版刻意排除、後一版重新加返）；有就列入偏離登記，並標記下游要重新核對。唔核對唔可以叫「層已完整」。
+10. **TRACE 行（2026-10-31 新增）**：每個層級產出、建議、批核卡背後要有 `TRACE` 行（用咗 skill｜角度模式｜揀咗＋跳過角度同理由｜核對咗原文 檔:行｜盲審 有／無｜日期），寫入產出檔檔頭、`QUESTION_MATRIX.md` 對應 row（寫明故事位置）、`SESSION_LEDGER.md`。只喺 chat 提過＝冇做。
+11. **環境敘事分配（設定介紹，2026-11-02 新增）**：觸及世界規則或設定嘅 beat，逐個對 `ACT_I_OUTLINE.md` Layer 3.5 環境敘事矩陣（CDL-175／181）：用邊種媒介、第幾個、有冇官方 vs 底層對比；零分配＝缺口（`story-room` I.6）。
+12. **接駁表（2026-11-02 新增）**：相鄰 beat 每對一份四問表（狀態變咗乜／點解而家發生／點解係佢反應／留低咩後果）；「硬切」「時間推進」要查被刪過渡 beat（`story-room` I.3、I.4）。
+13. **前提對賬＋範圍外功能帳（2026-11-02 新增）**：玩家已有咩操作、觀眾已知咩、角色已知咩，同上游版本逐項對；切片切走嘅 beat 原本承擔嘅功能（教學、設定介紹、先感受、埋位）逐項列「點樣補」或「有意放棄」（`story-room` I.1、I.2）。
+唔通過任何一項（1–13），Layer Review Packet 標 `INCOMPLETE_SCAN`，唔好叫作者批。
+**批核卡前置（2026-10-31）：** 任何請作者批一層嘅選項卡（唔論有冇叫佢做 Layer Review Packet），發出之前必須先出一行覆蓋狀態（過咗幾多角度、盲審有冇、薄格數、版本一致性結果）；`INCOMPLETE_SCAN` 時只可出補件卡，唔可以出批核卡。批核前嗰步由 `story-work-flow` 放喺步驟清單，標 ◆。
 
 ### Decision classes（C3 resolved 2026-09-10；vNext：AUTO_RESOLVABLE＝ROUTINE、AI_PROPOSED_CANDIDATE＝MATERIAL、AUTHOR_DECISION＝DIRECTOR，純 decision-weight，同 SCOPE_SCALE 無關）
 - **AUTO_RESOLVABLE**（Claude 自己做，唔問）：回收證據；明確 supersession 揀新源；改 stale label；認 sequence 邊界；認缺失 causal bridge；提小 transition；判資訊可唔可以入既有 beat；避免重複 exposition；揀低風險 carrier;拆過大材料;保留既有 detailed reference;routine 結構診斷;明顯 setup/payoff 維護。

@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { PROVIDER_CLAUDE, normalizeProvider } from "./providers/provider-contract.mjs";
 
-export function createDiscussions({ REPO, DIR, onRead = () => {}, runPrompt }) {
+export function createDiscussions({ REPO, DIR, onRead = () => {}, onTool = () => {}, runPrompt }) {
   const all = new Map();
   fs.mkdirSync(DIR, { recursive: true });
   for (const f of fs.readdirSync(DIR).filter((x) => x.endsWith(".json"))) {
@@ -31,6 +31,7 @@ export function createDiscussions({ REPO, DIR, onRead = () => {}, runPrompt }) {
       },
       onEvent: (event) => {
         if (event.kind !== "tool") return;
+        onTool(d, event);
         const input = event.input || {};
         const candidate = event.name === "Read" ? input.file_path
           : event.name === "Grep" && /\.\w+$/.test(input.path || "") ? input.path : "";

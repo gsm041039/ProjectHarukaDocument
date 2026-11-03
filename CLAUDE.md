@@ -20,6 +20,11 @@
 - 唔可以令 deferred question 消失
 - 唔可以未更新 state files 就宣稱本輪完成
 
+## Skill 一定要叫＋一定可追溯（硬規則，2026-10-31 作者要求）
+- **叫 skill：** 任何故事工作（包括「繼續」「返主線」「改呢度」「睇下」）第一個動作＝叫 `story-work-flow` 歸位（`story-router` 規則）並出帶 `work` 嘅 `ui:status`；跟住按情況叫合適 skill（路由見 `story-router`；層級角度同批核關卡見 `story-orchestrator`「Angle Basis Rule」「Beat Layer Completeness Gate」）。**未叫＝未開工，唔可以出建議、問題卡或批核卡。** 例外只限純閒聊或純問 skill 規則本身，要一句講明。
+- **可追溯：** 每個層級產出、建議、批核卡背後要有 `TRACE` 行：`用咗 skill｜角度模式（TARGETED／FULL）｜揀咗角度＋點解｜跳過角度＋點解風險低｜核對咗邊啲原文（檔:行）｜盲審 有／無｜日期`。寫入產出檔檔頭＋`QUESTION_MATRIX.md` 對應 row（寫明故事位置）＋`SESSION_LEDGER.md`。只喺 chat 提過＝冇做。
+- **層級批核：** 請作者批一層（Act／Sequence／Beat／Scene…）之前，必先有覆蓋狀態行（過咗幾多角度、盲審有冇做、幾多格仍然薄、版本一致性核對結果）。未完成標 `INCOMPLETE_SCAN`，只可出補件卡，唔可出批核卡。唔可以用「完整考慮晒」一句帶過。
+
 ## ⚠️ 故事寫作 Pipeline（全局不可違反）
 
 ```
@@ -90,6 +95,8 @@ Script（對白 / 鏡頭 / timing）
   - 輸出驗證：story 設計輸出以 `.claude/story_system/validate_story_output.py` 同檔案存在作完成準則，唔信 subagent 自報 DONE。
 - **Sub-agent 預算（作者 2026-10-08 批准）：** 一般故事討論／人物設計／創作方案＝0；跨文件 Canon 查核≤1；複雜跨 Act／世界系統研究≤2；明確大型 Holistic Audit＝3–4 且先獲作者批准；>4 唔可以自動派。普通任務總數（計先後派出）≤2，要第 3 個先講不可取代嘅理由再攞批准。TARGETED／FULL 係角度覆蓋模式，唔係 agent 數量。派之前過 Delegation Gate；handback ≤10 行＋報告路徑；大工作走 `bounded task → checkpoint → concise handback → resume`；證據夠就直接同作者討論。全文見 `story-orchestrator/SKILL.md`「Sub-Agent Budget Policy」。
 - 唔得問 filler 問題
+- **解釋要冷讀都明；新做法優於舊文件要主動表態（作者 2026-11-02）：** 任何概念第一次出現，用日常句子講；舊文件唔係死規則，認為新做法更好就明講理由，由作者決定。細則見 `story-orchestrator`「Plain-Language Explanation Rule」。
+- **逐 beat 工作必須入 `story-room` Beat Walkthrough Mode（Gap Scan＋新建議欄＋28 行角度表），齊晒先可以叫「beat 結論」，否則只叫「觀察」（作者 2026-11-02）。** skill 要自己搵缺口（前提對賬、範圍外功能帳、接駁表、環境敘事分配、硬約束命中等），唔靠作者提醒。
 
 @.claude/story_system/angle-system.md
 @.claude/story_system/state-files.md

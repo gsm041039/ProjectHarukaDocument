@@ -30,6 +30,7 @@
 | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH4_B1toB4.md` | beat | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH5_B5toB8.md` | beat | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH6_M2toM5.md` | beat | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
+| `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH7_PATROL_PRACTICE.md` | beat | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/character-voice-workshops/misao_voice_discovery.md` | dialogue | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
 | `canon/_working/character-voice-bibles/misao_voice_bible_DRAFT.md` | dialogue | `canon/_working/character-voice-workshops/misao_voice_discovery.md` | CURRENT |
 | `canon/_working/character-voice-workshops/shion_voice_discovery.md` | dialogue | `canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | CURRENT |
@@ -38,3 +39,4 @@
 | `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl` | other | — | CURRENT |
 | `canon/_working/author_voice/AUTHOR_LENS.md` | other | `canon/_working/author_voice/AUTHOR_UTTERANCES.jsonl` | CURRENT |
 | `canon/_working/demo_pilot/VOICE_EVIDENCE_REGRADE_T009.md` | other | `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md` | CURRENT |
+| `canon/_working/story_construction/PERMANENT_WORLDVIEW_SHIFT_HARUKA_RIN_SHION_DRAFT.md` | other | `canon/08_narrative_design_bible.md` | CURRENT |

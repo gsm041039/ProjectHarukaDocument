@@ -5,13 +5,13 @@
     {
       "id": "baseline",
       "name": "全作",
-      "match": "全作|baseline|whole",
+      "match": "全作|baseline|whole|粗層|^粗",
       "color": "#7a5ea8"
     },
     {
       "id": "act",
       "name": "Act",
-      "match": "act|outline|幕",
+      "match": "\\bact\\b|outline|幕",
       "color": "#3c64a8"
     },
     {
@@ -23,7 +23,7 @@
     {
       "id": "beat",
       "name": "Beat",
-      "match": "beat",
+      "match": "\\bbeat\\b",
       "color": "#2f7d55"
     },
     {
@@ -36,19 +36,19 @@
     {
       "id": "scene",
       "name": "Scene",
-      "match": "scene|場",
+      "match": "\\bscene\\b|場景",
       "color": "#a8892f"
     },
     {
       "id": "dialogue",
       "name": "對白",
-      "match": "dialogue|對白|voice",
+      "match": "dialogue|對白|\\bvoice\\b",
       "color": "#b4475e"
     },
     {
       "id": "script",
       "name": "劇本",
-      "match": "script|劇本",
+      "match": "\\bscript\\b|劇本",
       "color": "#b4475e"
     },
     {
@@ -133,6 +133,7 @@
     }
   ],
   "agent_cap_default": 2,
+  "beat_reviews": [{"id": "patrol", "name": "日常巡街＋實戰前練習", "beats": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH7_PATROL_PRACTICE.md", "analysis": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_PATROL_FULL_ANALYSIS.md"}],
   "effort_levels": [
     {
       "value": "low",
@@ -377,23 +378,45 @@
       ]
     },
     "DONE": {
-      "hint": "做完。想睇產出就撳「睇產出」；發現要改先撳「重開」。",
+      "hint": "做完。想再做多次或者改善都得：舊版會留低，新舊可以對住睇；撳「由粗到幼，一層一層重傾」可以由頭慢慢傾。",
       "buttons": [
+        {
+          "icon": "✨",
+          "label": "改善呢步",
+          "kind": "chat",
+          "primary": true,
+          "redo": true,
+          "ask": "邊度想改善？（例：太長、唔夠有感覺、撞咗某設定；可以留空，由 AI 自己搵）",
+          "ask_optional": true,
+          "desc": "AI 讀返呢步產出，列出弱位，畀改善候選用選項卡問你；改完留低舊版",
+          "prompt": "呢步已經做完，我想改善佢。{answer}請先讀返呢步嘅產出同相關 canon，用白話講邊度可以更好（每點講清點解、改咗要付咩代價），畀 2–4 個改善候選用選項卡問我揀。我批咗先改；改嗰份要留低舊版（舊版標 SUPERSEDED 並喺 LAYER_MANIFEST 登記），新版標 DRAFT。"
+        },
+        {
+          "icon": "🔁",
+          "label": "再做一次",
+          "kind": "chat",
+          "redo": true,
+          "ask": "想點唔同？（例：換個方向、用另一個 skill、放寬範圍；可以留空）",
+          "ask_optional": true,
+          "desc": "由頭再做，舊版留低唔覆蓋；做完新舊對住比，你揀用邊個",
+          "prompt": "呢步已經做過一次，我想再做一次睇吓有冇更好。{answer}舊版唔好改、唔好刪；新版另存做新檔（檔頭寫「取代／衍生自」關係），做完用白話列出新舊版本嘅分別、各自優缺，用選項卡問我揀用邊個。揀咗之後落邊個先照 gate 做。"
+        },
+        {
+          "icon": "↩️",
+          "label": "返去呢步",
+          "kind": "status",
+          "status": "IN_PROGRESS",
+          "ask": "點解要返去呢步？",
+          "redo": true,
+          "desc": "呢步改返做緊；之後嘅步驟邊啲要重驗，AI 會列出（放入待送出）",
+          "reason": "返去重做；請列出之後嘅步驟邊啲要重驗（標 REVALIDATE_REQUIRED 前先問我）"
+        },
         {
           "icon": "📦",
           "label": "睇產出",
           "kind": "chat",
-          "primary": true,
           "desc": "AI 列出呢步產出咗咩檔、每份講咩",
           "prompt": "列出呢步產出咗咩檔、每份講咩，唔好改嘢。"
-        },
-        {
-          "icon": "🔄",
-          "label": "重開",
-          "kind": "status",
-          "status": "IN_PROGRESS",
-          "ask": "點解要重開？",
-          "desc": "改返做緊（放入待送出）"
         }
       ]
     }
@@ -446,5 +469,42 @@
     "重": "opus",
     "_floor_for_heavy_or_gate": "sonnet",
     "_why": "輕＝落檔／更新狀態檔／整理格式／搵檔；中＝讀資料寫草稿、核對、總結；重＝設計決定、結構、入 canon 前判斷、創作候選。重同要作者批嘅步最低用 _floor_for_heavy_or_gate。"
+  },
+  "coarse_to_fine": {
+    "title": "🔭 由粗到幼，一層一層重傾",
+    "desc": "揀由邊一層開始（前面嘅層當已經穩定）。AI 會一層一層帶你傾，上一層你批咗先落下一層，唔會跳層。",
+    "modes": [
+      {
+        "id": "slow",
+        "label": "盤點先行，慢慢跑",
+        "desc": "每層先自己讀檔出「已定／有矛盾／真係未定」三欄表（唔問你），再逐個角度慢慢跑，最後先問真係未定嘅位；每層傾完停低等你批。",
+        "prompt": "每一層先自己讀檔盤點，出三欄表（已定附出處／有矛盾／真係未定），未盤點唔好問我；然後逐個角度慢慢跑，每個只出 2–3 行結論並直接寫檔；最後先問真係未定嘅位（一次最多 2 條，附分析結論）。暫定嘅要寫明暫定咗乜、點解、點推翻。每層傾完停低，用選項卡問我批先落下一層。"
+      },
+      {
+        "id": "gate",
+        "label": "每層停低等我批",
+        "desc": "每一層傾完都停低，用選項卡問你批唔批先落下一層。慢但最穩。",
+        "prompt": "每一層傾完一定停低，用選項卡問我「呢層夠穩未、落唔落下一層」，我批咗先落。"
+      },
+      {
+        "id": "auto",
+        "label": "一路傾落去，要決定先停",
+        "desc": "每層傾到有個夠穩嘅草稿就自動落下一層；遇到要你拍板嘅位先停。全部標草稿，唔入 canon。",
+        "prompt": "每層傾到有個夠穩嘅草稿就自動落下一層，但凡有要我拍板嘅位（◆）一定停低問我；所有產出標 DRAFT，唔好寫入 canon。"
+      }
+    ],
+    "prompt": "我想喺呢個位由粗到幼重新慢慢傾，起點係「{layer}」層，次序：{chain}。用 story-work-flow 帶住做：先讀呢層而家嘅文件，用白話講現況同未夠穩定嘅位，再畀 2–4 個候選用選項卡問我揀。{mode}不可以跳層；某層改咗，要講清下層邊啲要重驗（標 REVALIDATE_REQUIRED 前先問我）。每層做完出 ui:step，傾夠先問我落「{next}」。"
+  },
+  "stall": {
+    "warn_seconds": 90,
+    "alert_seconds": 300,
+    "_說明": "AI 做緊但呢段時間完全冇任何訊號（連內部思考／助手／工具都冇）先警告。思考深度越高越易靜；改呢兩個數。"
+  },
+  "pulse_text": {
+    "thinking": "🧠 AI 內部思考緊（冇字出係正常，唔係卡住）",
+    "agent": "🤖 助手做緊嘢（主對話暫時靜，係正常）{desc}",
+    "tool-input": "✍️ 準備執行「{name}」",
+    "tool": "⏳ 「{name}」執行緊，已 {sec} 秒",
+    "retry": "🌐 連唔到 AI 服務，第 {attempt}/{max} 次重試（{wait} 秒後）"
   }
 }

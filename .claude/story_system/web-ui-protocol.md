@@ -31,6 +31,16 @@ PROTOCOL_VERSION: 1
 | `step` | **開始同做完每一步嗰陣**（`story-work-flow`）：對話頂步驟列即刻轉；`weight` 會令網頁換 model（`ui_config.json` `step_models`，重／◆ 最低 sonnet，作者手揀 model 就唔換） | `work`, `step`（`Stage N`）, `status`（in_progress／done／waiting／blocked）, `weight?`（輕／中／重）, `gate?` |
 | `next` | **每次主要回應尾必出**（放喺 mini-log 之後）：2–4 個建議下一步，作者撳一下就會送出 | `suggestions[]`（`label` 白話動作名, `why` 一句點解建議＋代價, `prompt?` 撳咗之後送畀你嘅完整指示），`discuss?` 有呢欄＝呢個建議係開一場自動討論：網頁開設定頁預填 `{topic, range, stop, links[{id,title,file}], skill?, roles?[]}`，作者撳開始先收費；幾時建議、點砌見 `story-auto-discussion` skill） |
 
+**圖表卡（2026-11-02，作者要求更易讀；後台完整紀錄照舊寫檔，卡只係前台摘要）：**
+
+| type | 幾時用 | JSON 欄位 |
+|---|---|---|
+| `scan` | 搵缺口結果、檢查項目一覽 | `title?`, `items[]`（`name`, `status`＝`ok`／`warn`／`gap`／`na`, `say` 一句人話） |
+| `chain` | 上下場點接、因果鏈、流程 | `title?`, `steps[]`（`label`, `detail?`, `gap?`＝true 紅框代表斷咗）, `note?` |
+| `compare` | 候選方案並排、現狀 vs 新做法 | `title?`, `columns[]`, `rows[]`（`label`, `cells[]`＝字串或 `{t, s?:ok／warn／bad}`）, `recommend?`（欄序號，0 起）, `note?` |
+
+用法細則（角度人話對照、術語白話、前台後台分工）見 `.claude/skills/story-room/SKILL.md` L 節。
+
 `author-decision` 卡只係將上下文排得易讀；真正要作者揀嗰下，緊接住用 AskUserQuestion。
 **`next` vs AskUserQuestion：** 有真正要作者決定先可以繼續嘅嘢 → AskUserQuestion（會停低等）；冇卡住、只係提議下一步做咩 → `ui:next`（唔會停低，作者可以唔理，自己打字）。`next` 嘅建議要跟 Plain-Language Explanation Rule：`why` 講清點解、代價。第一個係你最推薦嘅。
 **步驟清單：** 做多於兩步嘅工作，一開始用 TodoWrite（或 TaskCreate／TaskUpdate）列步驟，做一步更新一步——網頁面板會即時逐步剔，作者唔使問「做到邊」。步驟用白話寫（例：「讀 Beat 層 v4.1」），唔用內部編號。
@@ -103,6 +113,11 @@ PROTOCOL_VERSION: 1
 - **📋 工作進度卡**（`public/workcard.js`）：每個對話頂顯示佢屬於邊件工作（Task 板 task 或者流程步驟）同嗰件工作而家狀態／第幾步／清單幾多。連結來源：AI `ui:status` 嘅 `work`、流程頁開嘅對話、TASK_BOARD Session 欄、作者喺卡度揀；都冇就由對話讀寫過嘅檔估（標「估」，撳「✓ 係呢件」先確認）。存 `.tmp/workbench/task_sessions.json`（`_bySession`）。
 - **🛠️ 做緊條**：對話頂顯示 AI 最近一張 `ui:status`／`ui:progress` 講嘅「做緊咩、屬於邊件工作」（`app.js` 讀對話內容，唔係按頁面寫死）；AI 冇講就唔顯示，所以開工同轉工作都要出 `ui:status`。
 - **🛤️ 流程頁**（`views/flow.js`＋`views/flow_actions.js`）：左＝所有 pipeline tracker，中＝步驟，右＝揀咗嗰步：清單（tracker `- [ ]`）、產出（`產出：`）、skill（白話名：`ui_config.json` `skill_labels`）、按狀態出嘅掣同「💡 建議而家做」（`ui_config.json` `flow_steps`：每個狀態 `hint`＋`buttons[]`）。改狀態全部入待送出（`pipeline.set_status`）。
+- **回頭做／改善已完成嘅步驟**：流程頁揀一個「做完」嘅步驟有「✨ 改善呢步」「🔁 再做一次」「↩️ 返去呢步」（`flow_steps.DONE`，`redo:true` 嘅掣會記重做次數）。收到呢類指示：**舊版一定留低**（標 SUPERSEDED、LAYER_MANIFEST 登記、新檔檔頭寫「取代：／衍生自：」），新版標 DRAFT，做完用白話比較新舊畀作者揀；返去重開嗰步要列出下游邊啲步驟／文件要重驗，標 `REVALIDATE_REQUIRED` 前先問。
+- **🔭 由粗到幼重傾**（`views/flow_ladder.js`，`ui_config.json` `coarse_to_fine`）：每一步都有層級梯（層名同次序讀 `layers`）；作者揀起點層同節奏（每層停低等批／一路傾落去要決定先停），AI 用 `story-work-flow` 一層一層帶，每層照 layer gate、唔跳層、批咗先落下一層、每層出 `ui:step`。節奏同指示字眼喺 `coarse_to_fine` 改。
+- **「諗緊」泡泡（2026-10-26）**：泡泡第二行顯示 AI 真正做緊咩——內部思考（冇字出係正常）、助手做緊、長指令、網絡重試（server `pulse()` 事件，唔存入重播；字眼喺 `ui_config.json` `pulse_text`）。如果**完全冇任何訊號**超過 `stall.warn_seconds`（預設 90）泡泡變橙、超過 `alert_seconds`（300）變紅，並出「⏹ 停低佢／🔄 打斷再叫佢繼續」；最後一個動作係工具（例如跑緊長指令）就只講「最後一個動作係…，唔一定卡住」。**所以：要行好耐嘅指令前，先用一句講清楚會行幾耐**，作者先唔會當佢卡住。收到「繼續。上一步好似停咗…」就由上次做到嘅位繼續，用一句白話講返做緊咩。
+- **🔭 由粗到幼：你而家喺邊**（流程頁頂 `layer-bar`）：由 flow 每步標題入面嘅層字眼（`ui_config.json` `layers[].match`）推出每步屬邊層、冇字眼嘅步驟跟上一步；顯示每層 ✓做完／●而家／○未開始／–呢件工作冇、一句「你而家喺…，上一層…，做完先落…」，步驟列按層分組。**所以寫 flow／task 步驟標題要有層名**（例：「Sequence 層：…」「Beat 清單：…」「逐 beat 深度設計…」，粗層用「粗：」）。
+- **🔎 Beat 審閱頁**（`views/beatreview.js`，`ui_config.json` `beat_reviews`：`{id,name,beats,analysis}`；2026-11-02）：讀後台 beat 檔同完整分析檔，分頁顯示——總覽、28 角度色塊（由『結論』欄推出顏色）、缺口與接駁、關卡與知情、設定介紹與約束、新建議、下游與更正。右邊『待你決定』讀分析檔入面標題含『待作者決定』嘅表（欄：`ID｜問題｜選項（用『／』分隔）｜建議｜影響`），剔選後放入待送出（`review.decide` intent：`payload.decision/choice/file`，作者送出後 AI 照 gate 處理，唔直接改 canon）。**產出新一批 beat 完整分析時，用同一格式（28 行表標題含『28 行角度表 — <beat ID>』、章節 `## 待作者決定`），頁面就自動讀到。**
 - **🎬 Beat 時間線**：Beat 板「📈 時間線」將 beat 由左到右按 sequence 排，色＝狀態、R／N 標記。
 - **角度矩陣**：按 `story_areas` 估故事位置分組（只係顯示）；撳一格睇嗰個角度嘅分析（長表 M 行：理解／根據／點解重要／估錯會點／要問你／候選）。
 - **✅ 傾夠，落檔**（對話頂，`ui_config.json` `wrap_up`）：AI 揀合適 skill 收尾落檔（入 canon 前照 gate 問），標題加 ✅，對話唔閂可以繼續。

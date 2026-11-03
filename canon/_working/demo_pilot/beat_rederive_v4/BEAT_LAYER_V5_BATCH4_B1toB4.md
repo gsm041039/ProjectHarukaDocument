@@ -2,7 +2,7 @@ DELIVERY_STATUS: DELIVERY_READY
 
 <!--
 BEAT_LAYER_V5 — BATCH 4：B1–B4（街頭大戰開場 → 操到場）正式升級做 BEAT_LAYER_DEEP_DESIGN mode
-基底：BEAT_LAYER_V4_1.md 嘅 B1–B4（已經過一輪盲審修正）。本批將佳哋升級做完整 19 欄位＋10-14 角度格式，內容唔變，只係補完整結構同分析。
+基底：BEAT_LAYER_V4_1.md 嘅 B1–B4（已經過一輪盲審修正）。本批將佢哋升級做完整 19 欄位＋10-14 角度格式，內容唔變，只係補完整結構同分析。
 0 sub-agent；0 改 skill；0 改 canon；0 新盲審。
 -->
 
@@ -15,23 +15,23 @@ DESIGN_DECISION_RECORD:
 
 FIELDS:
 - beat_function: 開戰；變身展示（偽亮色高峰開場）；直播 UI 世界規則首現；基本戰鬥／閃避教學
-- entry_state: 晴香同美夜子（貓形）喺日區街道；一個人形扭曲嘅大型屍骸出現
-- pressure_trigger: R（REQUIRED）——外部事件：屍骸出現（燈塔效應引嚎，見 CDL-064）
-- participant_intentions: 晴香＝變身應戰；美夜子＝魔法防護支援
-- action: 晴香變身（美、帶極細代價視覺，HC-4f）；直播 UI 彈出；市民退到安全區外圍；玩家學基本攻擊／閃避
+- entry_state: 實戰前練習剛被打斷（PR1）：晴香已學變身／閃避／基本攻擊，帶驚加使命感，手震未停；美夜子（貓形）戒備；一個人形扭曲嘅大型屍骸出現喺日區街道（2026-11-02 更新，PROVISIONAL）
+- pressure_trigger: R（REQUIRED）——外部事件：屍骸出現（燈塔效應引嚟，見 CDL-064），由美夜子所在之處吸引而至（燈塔效應暗示階段，CDL-089；PR1 練習啟動令信號更強，CDL-064）；觀眾先感受後果、明示留入隊／基地之後
+- participant_intentions: 晴香＝變身應戰（帶驚但行動）；美夜子＝守住同觀察，唔做計劃性防護（保留 B2『本能擋、咬唇』係非計劃內第一次，2026-11-02 更正）
+- action: 屍骸出現後畫面提示按鍵，玩家按下，晴香變身（美、帶極細代價視覺，HC-4f；2026-11-02 作者批准『玩家按鍵啟動變身』，PROVISIONAL）；直播 UI 彈出；市民退到安全區外圍；玩家學基本攻擊／閃避
 - reaction: 屍骸開始攻擊
 - turn: N/A——呢個 beat 冇角色心理轉折，純粹係開戰同教學，功能係建立戰鬥場景
 - consequence: 戰鬥正式開始；玩家學會基本操作
-- emotional_value_shift: 平靜 → 戰鬥警覺（偽亮色高峰：外在光輝 vs 底層成本，O:141）
+- emotional_value_shift: 帶驚加使命感 → 戰鬥警覺（驚被行動蓋過；偽亮色高峰：外在光輝 vs 底層成本，O:141；2026-11-02 更正，原寫『平靜』同上一個 beat 出口對唔上）
 - relationship_delta: N/A——本 beat 冇關係互動
 - audience_info_delta: 觀眾見到呢個世界嘅戰鬥直播制度（Reality Show，CDL-057）同假數值 UI（CDL-073）
 - character_knowledge_delta: N/A——冇新知情變化
 - setup_payoff: Setup → O19 主題B（首次變身美好謊言，外在光輝 vs 底層成本）
-- world_rule_exposure: Reality Show 直播＋光幕（日區，Brief:5676）；屍骸＝人形扭曲（O20，唔係純怪物，CDL-031／HC-4b）
-- gameplay_form: 基本攻擊／閃避教學（唯一主動教學承載，承 BEAT_LAYER_V4 §14.1）
+- world_rule_exposure: Reality Show 直播＋光幕（日區，Brief:5676）；屍骸＝人形扭曲（O20，唔係純怪物，CDL-031／HC-4b）；**背景遠景放極淡暗紅（緋潮第一級，街頭首戰按原設定照放；天台另有先行出現；唔倚賴觀眾睇到，屬背景美術備註，光度唔可以強過天台；2026-11-02 作者批准，PROVISIONAL）**
+- gameplay_form: 玩家按鍵啟動變身（第二次按：PR1 練習時第一次喺安全環境按，今次喺真實威脅下按＝帶驚但行動；PROVISIONAL，2026-11-02 作者批准）；基本攻擊／閃避應用（教學已移到 PR1；原『唯一主動教學承載』作廢，原出處 DERIVATION_LEDGER.md 教學階梯 K2（L334；2026-11-02 更正：原寫 BEAT_LAYER_V4 §14.1 引錯檔案；注意 K2 假設玩家已有首戰操作，但本檔假設冇，兩者矛盾，見 WALK-04））
 - exit_state: 戰鬥進行中，玩家已學基本操作
 - next_beat_pressure: R——屍骸升級攻勢，逼出 B2 嘅血糖危機
-- source_obligation_trace: O:140（Outline Beat 2 事件：人形扭曲屍骸）；CDL-031（屍骸形態）；HC-4b（唔可以寫成純怪物）；CDL-057（Reality Show）；CDL-073（假數值 UI）；HC-4f（變身代價視覺）；CDL-064（燈塔效應）
+- source_obligation_trace: O:140（Outline Beat 2 事件：人形扭曲屍骸）；CDL-031（屍骸形態）；HC-4b（唔可以寫成純怪物）；CDL-057（Reality Show）；CDL-073（假數值 UI）；HC-4f（變身代價視覺）；CDL-064（燈塔效應）；CDL-176（緋潮第一級，街頭首戰按原設定；天台另有先行出現）
 - downstream_references:
   - Scene Reference: 無既有對白稿
   - Directing Reference: 無既有 timing／鏡頭引用
@@ -55,7 +55,7 @@ ANGLES_SELECTED: 10
 ### ANGLE: Gameplay/Player Agency
 - DESIGN_REQUIREMENT: demo 第一場戰鬥要教玩家基本操作
 - CURRENT_DESIGN: B1 定為「唯一主動教學承載」（基本攻擊／閃避）
-- RATIONALE: 跟教學階梯設計（BEAT_LAYER_V4 §14.1）——假設 demo 獨立開機冇 E-01，B1 要承擔最基本操作教學
+- RATIONALE: 跟教學階梯設計（DERIVATION_LEDGER.md 教學階梯 K2（L334；2026-11-02 更正：原寫 BEAT_LAYER_V4 §14.1 引錯檔案；注意 K2 假設玩家已有首戰操作，但本檔假設冇，兩者矛盾，見 WALK-04））——假設 demo 獨立開機冇 E-01，B1 要承擔最基本操作教學
 - RISK_TRADEOFF: 如果 demo 獨立開機（冇先前教學），可能需要加前置教學——呢個已經喺更早期標 AUTHOR-low，未解決
 - DESIGN_ACTION: VERIFY（demo 獨立開機嘅教學需求仍待定）
 
@@ -118,7 +118,7 @@ STATUS: DRAFT
 DESIGN_DECISION_RECORD:
 - CHALLENGE_GATE: 不可取代嘅戲劇功能＝教玩家用葡萄糖針（核心機制教學）；美夜子非計劃保護晴香（忠誠線第一步）。值得獨立存在。
 - ALTERNATIVES_CONSIDERED: 之前輪次已經做過一次修正——原設計「晴香照字面收美夜子嘅功利藉口」撞 CDL-083 原文要求「晴香若有所感但未深究」，已改正（見 source_obligation_trace）。本輪冇新嘅方案比較，純粹升級格式。
-- SUFFICIENCY: 美夜子嘅保護行動（擋）→即講功利藉口（coping）→晴香有所感但未深究（符合佳對自己身體唔深究嘅性格，同 N1 一致）——因果鏈完整。
+- SUFFICIENCY: 美夜子嘅保護行動（擋）→即講功利藉口（coping）→晴香有所感但未深究（符合佢對自己身體唔深究嘅性格，同 N1 一致）——因果鏈完整。
 
 FIELDS:
 - beat_function: 血糖危機教學（核心機制：注射針）；美夜子非計劃保護晴香，即用功利藉口掩蓋（忠誠線第一步）
@@ -146,23 +146,23 @@ FIELDS:
 PER_BEAT_DESIGN_RATIONALE:
 ANGLES_SELECTED: 11
 ### ANGLE: Relationship Dynamics
-- DESIGN_REQUIREMENT: 美夜子嘅保護行動要符合佳「大腦當工具、靈魂本能守護」嘅性格（CDL-060）
+- DESIGN_REQUIREMENT: 美夜子嘅保護行動要符合佢「大腦當工具、靈魂本能守護」嘅性格（CDL-060）
 - CURRENT_DESIGN: 本能擋、即講功利藉口——動作先行，語言補救
 - RATIONALE: CDL-083 明文要求「動作型非語言，比語言型更難被功利邏輯消解」——先做先講，先符合呢個設計
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Coping/Defense Mechanism
-- DESIGN_REQUIREMENT: 美夜子嘅「即講功利藉口」係佳嘅 coping（截停真心話），要準確
+- DESIGN_REQUIREMENT: 美夜子嘅「即講功利藉口」係佢嘅 coping（截停真心話），要準確
 - CURRENT_DESIGN: 擋完即刻講功利理由
-- RATIONALE: M:278「真心話已經衝到嘴邊，呢個動作係佢用嚎physical截停自己」——藉口嘅功能唔係呃人，係自我截停
+- RATIONALE: M:278「真心話已經衝到嘴邊，呢個動作係佢用嚟physical截停自己」——藉口嘅功能唔係呃人，係自我截停
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Character Knowledge State
 - DESIGN_REQUIREMENT: 晴香嘅反應要符合「若有所感但未深究」，唔可以寫成「照字面收」
 - CURRENT_DESIGN: reaction 欄已修正為「若有所感但未深究」
-- RATIONALE: 原本「照字面收」撞 CDL-083（美夜子期望晴香有所感先合理化佳自己嘅功利藉口有效）；呢個修正保留咗之前質疑輪嘅成果
+- RATIONALE: 原本「照字面收」撞 CDL-083（美夜子期望晴香有所感先合理化佢自己嘅功利藉口有效）；呢個修正保留咗之前質疑輪嘅成果
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
 
@@ -195,7 +195,7 @@ ANGLES_SELECTED: 11
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Audience Experience/Knowledge Gap
-- DESIGN_REQUIREMENT: 觀眾要見到美夜子真心保護，但唔可以提早揭穿佳嘅姊妹身份
+- DESIGN_REQUIREMENT: 觀眾要見到美夜子真心保護，但唔可以提早揭穿佢嘅姊妹身份
 - CURRENT_DESIGN: 保護動作純粹讀做「隊友義氣」，冇任何暗示血緣關係
 - RATIONALE: 美夜子「非普通人」第一信號要到 Act I 末（09:350），依個 beat 唔可以提早
 - RISK_TRADEOFF: 冇風險
@@ -231,7 +231,7 @@ STATUS: PROVISIONAL
 
 DESIGN_DECISION_RECORD:
 - CHALLENGE_GATE: 不可取代嘅戲劇功能＝情緒連結首次使用（canon 要求嘅 beat）；令晴香有餘裕留意到 B4 操救路人。值得獨立存在。
-- SUFFICIENCY：見下方「全局未解事項」——情緒連結人數（2026-10-11 補充）：紫音呢度未入隊、未出場（佳要到 M1 先出現），所以本 beat 嘅兩人用法同 canon「首次連結四人」嘅講法唔算喺同一個事件相撞——嗰個矛盾本身（canon 自己 CDL-121/225③/timeline:139 vs CDL-139 前後矛盾）依然未解決，但同呢個具體決定冇關，詳見 DERIVATION_V4.md PC17 補充（2026-10-11）。
+- SUFFICIENCY：見下方「全局未解事項」——情緒連結人數（2026-10-11 補充）：紫音呢度未入隊、未出場（佢要到 M1 先出現），所以本 beat 嘅兩人用法同 canon「首次連結四人」嘅講法唔算喺同一個事件相撞——嗰個矛盾本身（canon 自己 CDL-121/225③/timeline:139 vs CDL-139 前後矛盾）依然未解決，但同呢個具體決定冇關，詳見 DERIVATION_V4.md PC17 補充（2026-10-11）。
 - 全局未解事項（唔阻 demo，但要你知）：情緒連結嘅入侵強度，原本 canon 將 E-02 連結定做 Act I 最強懷疑點（CDL-224），demo 刻意降到「一瞬、雙向、冇記憶畫面」——呢個降低幅度屬於 DEV（作者 D-13 好暖決定嘅延伸），未經正式批核確認呢個降幅啱唔啱。
 
 FIELDS:
@@ -268,20 +268,20 @@ ANGLES_SELECTED: 12
 
 ### ANGLE: Information/Reveal Control（全局矛盾核實，2026-10-11 補充）
 - DESIGN_REQUIREMENT: 檢查「首次連結二人」會唔會撞 canon「首次連結四人」嘅講法
-- CURRENT_DESIGN: 紫音喺 B3 未入隊、未出場（佳要到 M1 先出現）
+- CURRENT_DESIGN: 紫音喺 B3 未入隊、未出場（佢要到 M1 先出現）
 - RATIONALE: 兩個事件唔喺同一個時間點，呢個具體決定（B3 用二人）同 canon 嘅四人講法冇直接相撞，因為紫音根本未到；canon 自己嘅內部矛盾（CDL-121/225③/timeline:139 vs CDL-139）依然未解決，但唔係因為呢個 beat 嘅決定造成嘅，亦唔係靠呢個決定解決咗
 - RISK_TRADEOFF: 完整版如果要寫明「首次四人連結」係邊一場，呢個問題依然 DEFERRED 待作者
 - DESIGN_ACTION: VERIFY（全局矛盾未解，但唔阻本 beat）
 
 ### ANGLE: Relationship Dynamics
-- DESIGN_REQUIREMENT: 美夜子提出連結係佳珍重嘅行為（同凜試過），要有相應重量
+- DESIGN_REQUIREMENT: 美夜子提出連結係佢珍重嘅行為（同凜試過），要有相應重量
 - CURRENT_DESIGN: 一句提到以前同人試過，一瞬猶豫
 - RATIONALE: CDL-084 要求「極簡一句帶情感色彩」，唔畀具體資訊，呢度跟足
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Character Knowledge State
-- DESIGN_REQUIREMENT: 晴香察覺美夜子猶豫但冇問，呢個係佳性格一致嘅表現
+- DESIGN_REQUIREMENT: 晴香察覺美夜子猶豫但冇問，呢個係佢性格一致嘅表現
 - CURRENT_DESIGN: character_knowledge_delta 寫明晴香得新知但唔知後遺症
 - RATIONALE: 同 N1/N2 嘅「察覺但未深究」一致
 - RISK_TRADEOFF: 冇風險
@@ -338,7 +338,7 @@ ANGLES_SELECTED: 12
 
 ### ANGLE: Pacing/Breathing
 - DESIGN_REQUIREMENT: B3 係戰鬥中段嘅高潮前奏，要有爆發感
-- CURRENT_DESIGN: 連結啟動帶嚎「強大」嘅情緒轉變
+- CURRENT_DESIGN: 連結啟動帶嚟「強大」嘅情緒轉變
 - RATIONALE: 由 B2 嘅危機升級到 B3 嘅反擊，節奏遞進合理
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
@@ -362,15 +362,15 @@ FIELDS:
 - action: 操由高處介入，撐傘、唔掂地、姿態優先（晴香因連結增幅有餘裕望過去，睇到操幾執著儀態）；混戰中為求存，操順手擋咗一擊，救咗一個未疏散路人（非刻意）
 - reaction: 路人獲救；操自己冇特別反應（當求存副作用，CDL-322）
 - turn: N/A——呢個 beat 冇操嘅心理轉折（轉折留喺 B6）
-- consequence: 晴香見到操救人，形成「佳心地好」嘅印象（CDL-322 三重解讀其中一重）；三方混戰開始
+- consequence: 晴香見到操救人，形成「佢心地好」嘅印象（CDL-322 三重解讀其中一重）；三方混戰開始
 - emotional_value_shift: 兩人戰 → 三方混戰
 - relationship_delta: 晴香對操＝「心地好」印象起點；操對呢個路人＝自己都未必有意識到救咗人
 - audience_info_delta: 觀眾第一次見到操——獨行、優雅、冷
 - character_knowledge_delta: 晴香唔知操嘅真實動機（形式主義強迫，唔係選擇打），單純睇到結果（操出手、救咗人）
 - setup_payoff: Setup → P-A04（晴香天真善意建隊，FM:20，Act II payoff）；Setup → CDL-322 三重解讀（操→Phase D CDL-323）
 - world_rule_exposure: 燈塔效應（CDL-064：啟動裝置者係本能獵殺目標，操唔係挑釁，係被迫）
-- gameplay_form: 操做 NPC 自動介入戰鬥，玩家唔操控佳
-- exit_state: 操喺戰場上，晴香已經對佳有咗初步印象
+- gameplay_form: 操做 NPC 自動介入戰鬥，玩家唔操控佢
+- exit_state: 操喺戰場上，晴香已經對佢有咗初步印象
 - next_beat_pressure: R——屍骸反撲，操即將中陷阱（B5）
 - source_obligation_trace: CDL-063／CDL-064／CDL-065（燈塔效應、冇得唔打、孤身戰鬥冇觀眾嘅空洞疲勞）；CDL-322（操順手求存副作用，三重解讀：晴香／路人／操自己各有唔同讀法）；CDL-050（操獨行俠性格，撐傘、唔掂地嘅姿態偏好）；FM:20（P-A04）
 - downstream_references:
@@ -380,7 +380,7 @@ FIELDS:
 PER_BEAT_DESIGN_RATIONALE:
 ANGLES_SELECTED: 11
 ### ANGLE: Character Growth
-- DESIGN_REQUIREMENT: 操嘅登場要確立佳 Act I 起點嘅性格（形式主義、冇得唔打），為後面轉折鋪路
+- DESIGN_REQUIREMENT: 操嘅登場要確立佢 Act I 起點嘅性格（形式主義、冇得唔打），為後面轉折鋪路
 - CURRENT_DESIGN: 操由燈塔效應被迫到場，唔係主動挑戰
 - RATIONALE: CDL-063/064 明文操「唔係主動挑釁，而係被迫成為目標」——呢個「被迫」係操 Act I 起點嘅核心，建立「義務式戰鬥」嘅基礎，為 B6 轉折做對照
 - RISK_TRADEOFF: 冇風險
@@ -401,14 +401,14 @@ ANGLES_SELECTED: 11
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Information/Reveal Control
-- DESIGN_REQUIREMENT: 操嘅出場要保留神秘感，唔可以一次過交代佳嘅背景
+- DESIGN_REQUIREMENT: 操嘅出場要保留神秘感，唔可以一次過交代佢嘅背景
 - CURRENT_DESIGN: 觀眾只見到行為（獨行、優雅、救人），冇任何背景交代
 - RATIONALE: 操嘅身份、家族背景留 Act I 隱藏（CDL-133 對家族話題明顯迴避）
 - RISK_TRADEOFF: 冇風險
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: World Rule/Mechanic Pressure
-- DESIGN_REQUIREMENT: 操到場要符合燈塔效應機制，唔可以寫成佳主動挑戰屍骸
+- DESIGN_REQUIREMENT: 操到場要符合燈塔效應機制，唔可以寫成佢主動挑戰屍骸
 - CURRENT_DESIGN: 操被燈塔效應引到，冇得唔打
 - RATIONALE: 燈塔效應（07:62-73）係所有魔法少女持有裝置嘅隱性代價，操嘅「冇得唔打」根源就係呢個機制
 - RISK_TRADEOFF: 冇風險

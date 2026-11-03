@@ -41,6 +41,20 @@ const DANGER = /\brm\s+-\w*[rf]|\bgit\s+(push|reset\s+--hard|clean|checkout\s+--
 
 const sessions = new Map(); // local id -> session
 const logSession = (s, action) => console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} ${action} | backend=${s.provider} | model=${s.model || "default"} | session=${s.id}`);
+function skillNamesFromTool(ev) {
+  if (ev.kind !== "tool") return [];
+  const input = ev.input || {};
+  const names = ev.name === "Skill" && input.skill ? [String(input.skill)] : [];
+  const target = [input.file_path, input.command, input.description].filter(Boolean).join(" ");
+  for (const match of target.matchAll(/(?:\.agents|\.claude)[\\/]skills[\\/]([^\\/\s'";]+)[\\/]SKILL\.md/gi)) names.push(match[1]);
+  return [...new Set(names.filter((name) => /^[\w.-]{1,80}$/.test(name)))];
+}
+function logBackgroundTool(label, provider, ev) {
+  if (ev.kind !== "tool") return;
+  const skills = skillNamesFromTool(ev);
+  console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} ${label} tool ${String(ev.name || "unknown").slice(0, 50)} | backend=${provider}`);
+  for (const skill of skills) console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} ${label} skill ${ev.name === "Skill" ? "invoked" : "read"}: ${skill} | backend=${provider}`);
+}
 // first lines of the auto-discussion / discussion-setup prompts (discuss.mjs header, planner below)
 const BACKGROUND_PROMPT = /^\s*(你喺一個「AI 編劇室」自動討論|你係 Haruka Workbench 嘅「自動討論設定助手」)/;
 // which conversation read / changed which file (survives restarts): { sdkSessionId: { title, t, files: { "canon/x.md": "read"|"edit" } } }
@@ -82,6 +96,7 @@ function readActivity() {
 }
 const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"), runProviderPrompt);
 const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"), runPrompt: runProviderPrompt,
+  onTool: (d, ev) => logBackgroundTool(`discussion=${d.id}`, d.provider, ev),
   onRead: (d, files) => { for (const f of files) touch({ id: "DISC:" + d.id, title: "🤖 " + d.topic.slice(0, 40) }, "Read", { file_path: path.join(REPO, f) }); } });
 
 function inbox() {
@@ -98,15 +113,36 @@ function inbox() {
   };
 }
 
+// "still alive" signal for the web (not stored in the replay): AI-internal thinking, a sub-agent working, a long tool, an API retry.
+// The page uses it to tell "working quietly" from "stuck" (no event of any kind for a long time).
+function pulse(s, what, extra = {}) {
+  const now = Date.now();
+  s.lastBeat = now;
+  if (what === s.lastPulseWhat && now - (s.lastPulseAt || 0) < 1500) return;
+  s.lastPulseWhat = what; s.lastPulseAt = now;
+  const line = `data: ${JSON.stringify({ kind: "pulse", what, t: now, ...extra })}
+
+`;
+  for (const res of s.clients) res.write(line);
+}
+
 function emit(s, ev) {
   ev.t = Date.now();
+  s.lastBeat = ev.t;
+  if (ev.kind === "tool") {
+    const skills = skillNamesFromTool(ev);
+    if (skills.length) ev.input = { ...(ev.input || {}), skills };
+  }
   s.events.push(ev);
   for (const res of s.clients) res.write(`data: ${JSON.stringify(ev)}\n\n`);
   if (ev.kind === "model") logSession(s, `model changed to ${ev.model || "default"}`);
   else if (ev.kind === "result") logSession(s, `turn ${ev.ok === false ? "failed" : "finished"}`);
   else if (ev.kind === "error") console.error(`[Workbench] session=${s.id} backend=${s.provider} error: ${String(ev.message || "unknown").slice(0, 300)}`);
   else if (ev.kind === "ask" || ev.kind === "approve") logSession(s, "waiting for author");
-  else if (ev.kind === "tool") logSession(s, `tool ${String(ev.name || "unknown").replace(/[^\w.-]/g, "").slice(0, 40)}`);
+  else if (ev.kind === "tool") {
+    logSession(s, `tool ${String(ev.name || "unknown").replace(/[^\w.-]/g, "").slice(0, 40)}`);
+    for (const skill of ev.input?.skills || []) logSession(s, `skill ${ev.name === "Skill" ? "invoked" : "read"}: ${skill}`);
+  }
 }
 
 function setStatus(s, status) {
@@ -217,6 +253,7 @@ canon 自己寫明已被取代嘅舊稱（用咗呢啲字都唔可以當現行�
 links 只放你確認存在、真係相關嘅（可以沿用種子嘅）；proposals 嘅 range 要寫明以 current 講嘅現行設定為準。`;
   const result = await runProviderPrompt({ provider, prompt, cwd: REPO,
     model: seed.model || (provider === PROVIDER_CLAUDE ? cfg.planner_model : ""), effort: seed.effort || "",
+    onEvent: (event) => logBackgroundTool("discussion planner", provider, event),
     claudeOptions: { settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" },
       allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "NotebookEdit", "Agent", "PowerShell"], permissionMode: "dontAsk", maxTurns: 12, persistSession: false },
   });
@@ -329,6 +366,15 @@ async function createSession({ title, resume, provider, task, model, effort, age
           s.sdkSessionId = m.session_id;
           if (s.taskId) saveLink(s.taskId, makeProviderSessionRef(provider, m.session_id));
         }
+        // alive signals first (everything the SDK says counts, even what the chat never shows)
+        if (m.parent_tool_use_id) pulse(s, "agent", { n: (s.subMsgs = (s.subMsgs || 0) + 1) });
+        else if (m.type === "stream_event") {
+          const e = m.event;
+          if (e.type === "content_block_delta" && e.delta?.type === "thinking_delta") pulse(s, "thinking", { chars: (s.thinkChars = (s.thinkChars || 0) + (e.delta.thinking || "").length) });
+          else if (e.type === "content_block_start" && e.content_block?.type === "tool_use") { s.thinkChars = 0; pulse(s, "tool-input", { name: e.content_block.name }); }
+        } else if (m.type === "tool_progress") pulse(s, "tool", { name: m.tool_name, sec: Math.round(m.elapsed_time_seconds || 0) });
+        else if (m.type === "system" && m.subtype === "api_retry") pulse(s, "retry", { attempt: m.attempt, max: m.max_retries, wait: Math.round((m.retry_delay_ms || 0) / 1000), status: m.error_status });
+        else if (m.type === "system" && m.subtype === "task_progress") pulse(s, "agent", { desc: String(m.description || "").slice(0, 80) });
         if (m.type === "stream_event") {
           const e = m.event;
           if (!m.parent_tool_use_id && e.type === "content_block_delta" && e.delta?.type === "text_delta")
@@ -362,6 +408,7 @@ async function createSession({ title, resume, provider, task, model, effort, age
               emit(s, { kind: "tool_result", id: b.tool_use_id, name: "TaskCreate", result: m.tool_use_result ?? null });
           }
         } else if (m.type === "result") {
+          s.thinkChars = 0; s.subMsgs = 0;
           emit(s, { kind: "result", ok: m.subtype === "success", cost: m.total_cost_usd, ms: m.duration_ms });
           setStatus(s, "idle");
         }
@@ -416,6 +463,7 @@ ${lines}
   try {
     const result = await runProviderPrompt({ provider, prompt, cwd: REPO,
       model: model || (provider === PROVIDER_CLAUDE ? readConfig().lens_model : ""), effort,
+      onEvent: (event) => logBackgroundTool("author lens", provider, event),
       claudeOptions: { settingSources: ["project"], systemPrompt: { type: "preset", preset: "claude_code" }, persistSession: false, maxTurns: 20,
         allowedTools: ["Read", "Grep", "Glob"], disallowedTools: ["Edit", "Write", "Bash", "PowerShell", "Agent", "Task", "NotebookEdit", "WebFetch", "WebSearch"] },
     });
@@ -772,7 +820,7 @@ const server = http.createServer(async (req, res) => {
       }
 
       if (url.pathname === "/api/sessions" && req.method === "GET") {
-        const live = [...sessions.values()].map(({ id, title, provider, status, sdkSessionId, pending, taskId, model, effort, activity, agentCap, agentsUsed }) => ({ id, title, provider, status, sdkSessionId, taskId, model, effort, activity: activity || "", pending: pending.size, agentCap, agentsUsed }));
+        const live = [...sessions.values()].map(({ id, title, provider, status, sdkSessionId, pending, taskId, model, effort, activity, agentCap, agentsUsed, lastBeat }) => ({ id, title, provider, status, sdkSessionId, taskId, model, effort, activity: activity || "", pending: pending.size, agentCap, agentsUsed, quietSec: status === "running" && lastBeat ? Math.round((Date.now() - lastBeat) / 1000) : 0 }));
         const provider = normalizeProvider(url.searchParams.get("provider"), defaultProvider());
         // Older builds saved every auto-discussion turn as a session; skip those so they can't push real chats off the list.
         const past = provider === PROVIDER_CODEX
@@ -800,6 +848,13 @@ const server = http.createServer(async (req, res) => {
           const old = s.provider === PROVIDER_CODEX
             ? await s.adapter.history().catch(() => [])
             : historyEvents(await getSessionMessages(s.sdkSessionId, { dir: REPO }).catch(() => []));
+          const oldSkills = new Set();
+          for (const event of old) {
+            const skills = skillNamesFromTool(event);
+            if (skills.length) event.input = { ...(event.input || {}), skills };
+            for (const skill of skills) oldSkills.add(skill);
+          }
+          for (const skill of oldSkills) logSession(s, `history skill read: ${skill}`);
           if (old.length) s.events.unshift(...old, { kind: "note", text: "── 以上係之前嘅對話，由呢度繼續 ──" });
         }
         if (body.text) await sendMessage(s, body.text);

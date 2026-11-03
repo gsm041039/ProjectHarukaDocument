@@ -208,10 +208,15 @@ function renderAssistant(text, ctx) {
     const slot = h("div");
     cards.append(slot);
     const [type, raw] = [m[1], m[2]];
+    const userVersion = ctx?.userVersion;
     loadCard(type).then((mod) => {
       let data;
       try { data = JSON.parse(raw); } catch { data = null; }
-      if (mod?.render && data) slot.replaceWith(mod.render(data, ctx));
+      if (mod?.render && data) {
+        const card = mod.render(data, ctx);
+        if (ctx?.userVersion !== userVersion) card.querySelectorAll("button.decision-option").forEach((button) => (button.disabled = true));
+        slot.replaceWith(card);
+      }
       else slot.replaceWith(md("```" + type + "\n" + raw + "```"));
     });
     last = re.lastIndex;
@@ -368,7 +373,7 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
       last.layer && h("span", { class: "pill info", style: "margin-left:auto" }, LAYER[last.layer] || last.layer)].filter(Boolean));
     doingBar.style.display = "";
   };
-  const ctx = makeCtx();
+  const ctx = { ...makeCtx(), backend: provider, live, userVersion: 0 };
   const task = (state.index?.tasks || []).find((t) => t.id === taskId || (title && t.task.startsWith(title.replace(/…$/, ""))));
   const prog = createProgress({ h, sendToAI: ctx.sendToAI, taskName: task?.task, openEntity, openFile, openDiscuss, fileId: (p) => fileId(state.index, p), layers: state.config?.layers || [], choicesOf: (n) => (_launcher ||= createLauncher(makeCtx())).choicesOf(n) });
   const wrap = h("div", { class: "chat-wrap" }, box, prog.el);
@@ -434,12 +439,38 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
   const thinkTime = h("span", { class: "think-time" });
   // stop button lives in the running indicator, so every live chat can halt the AI mid-run
   const stopBtn = live ? h("button", { class: "think-stop", title: "停咗 AI 而家做緊嘅嘢", onclick: () => { api(`/api/sessions/${sid}/interrupt`, {}).catch((e) => toast(e.message)); thinkText.textContent = "停緊…"; } }, "⏹ 停") : null;
-  const thinking = h("div", { class: "msg thinking" }, h("span", { class: "think-dots" }, h("i"), h("i"), h("i")), thinkText, thinkTime, stopBtn);
+  // what the AI is really doing right now (internal thinking / sub-agent / long tool / retry), and a warning when nothing at all has been heard for a long time
+  const thinkNote = h("div", { class: "think-note" });
+  const stallMsg = h("div", { class: "think-stall-msg" });
+  const stallBox = live ? h("div", { class: "think-stall", style: "display:none" }, stallMsg,
+    h("div", { class: "think-stall-btns" },
+      h("button", { class: "small", onclick: () => { api(`/api/sessions/${sid}/interrupt`, {}).catch((e) => toast(e.message)); } }, "⏹ 停低佢"),
+      h("button", { class: "small primary", title: "先打斷，再叫佢由上次做到嘅位繼續", onclick: async () => {
+        await api(`/api/sessions/${sid}/interrupt`, {}).catch(() => {});
+        setTimeout(() => api(`/api/sessions/${sid}/message`, { text: "繼續。上一步好似停咗，請由你上次做到邊度繼續，並用一句白話講返你做緊咩。" }).catch((e) => toast(e.message)), 1500);
+      } }, "🔄 打斷再叫佢繼續"))) : null;
+  const thinking = h("div", { class: "msg thinking" }, h("span", { class: "think-dots" }, h("i"), h("i"), h("i")), thinkText, thinkTime, stopBtn, thinkNote, stallBox);
+  // quiet = seconds since the last sign of life; the server tells us how long a chat was already quiet when we open it (replayed events don't count)
+  let lastBeat = Date.now() - ((state.live.find((x) => x.id === sid)?.quietSec) || 0) * 1000;
+  const fmt = (sec) => (sec < 60 ? `${Math.round(sec)} 秒` : `${Math.floor(sec / 60)} 分 ${Math.round(sec % 60)} 秒`);
+  const tick = () => {
+    thinkTime.textContent = ` · ${fmt((Date.now() - thinkStart) / 1000)}`;
+    const quiet = (Date.now() - lastBeat) / 1000, sc = state.config?.stall || {};
+    const level = quiet > (sc.alert_seconds || 300) ? "alert" : quiet > (sc.warn_seconds || 90) ? "warn" : "";
+    thinking.dataset.stall = lastTool && level === "alert" ? "warn" : level; // a running tool is orange, only total silence is red
+    if (stallBox) {
+      stallBox.style.display = level ? "" : "none";
+      if (level) stallMsg.textContent = lastTool
+        ? `⏳ 最後一個動作係「${lastTool}」，已經 ${fmt(quiet)} 冇新訊號。長時間嘅指令或者助手任務會咁耐，唔一定卡住；如果你知道佢唔應該咁耐，可以打斷。`
+        : `⚠️ 已經 ${fmt(quiet)} 完全冇任何動靜（連內部思考、助手、工具都冇訊號）。${level === "alert" ? "好大機會卡住咗，建議打斷再叫佢繼續。" : "可能網絡或者 AI 服務慢，可以再等一陣。"}`;
+    }
+  };
+  let lastTool = ""; // the last thing the AI did was call a tool and nothing has come back yet: quiet probably means "that tool is still running"
   let thinkStart = 0, thinkTimer = null;
   const think = (on, what) => {
     if (what) thinkText.textContent = what;
-    if (on && !thinking.isConnected) { thinkStart ||= Date.now(); msgs.append(thinking); thinkTimer ||= setInterval(() => (thinkTime.textContent = ` · ${Math.round((Date.now() - thinkStart) / 1000)} 秒`), 1000); }
-    if (!on) { thinking.remove(); clearInterval(thinkTimer); thinkTimer = null; thinkStart = 0; thinkTime.textContent = ""; thinkText.textContent = "諗緊"; }
+    if (on && !thinking.isConnected) { thinkStart ||= Date.now(); msgs.append(thinking); thinkTimer ||= setInterval(tick, 1000); tick(); }
+    if (!on) { thinking.remove(); clearInterval(thinkTimer); thinkTimer = null; thinkStart = 0; thinkTime.textContent = ""; thinkText.textContent = "諗緊"; thinkNote.textContent = ""; thinking.dataset.stall = ""; }
     composer?.classList.toggle("busy", on);
   };
   const composer = box.querySelector("#composer");
@@ -450,8 +481,21 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
 
   const handle = (ev) => {
     prog.onEvent(ev);
+    if (!ev.t || Date.now() - ev.t < 5000) lastBeat = Date.now(); // fresh signal only; a replayed old event is not proof of life
+    if (ev.kind !== "pulse" && ev.kind !== "status") thinkNote.textContent = "";
+    if (!["tool", "pulse", "status"].includes(ev.kind)) lastTool = "";
     switch (ev.kind) {
-      case "user": add(userMsg(ev.text)); break;
+      case "pulse": {
+        if (!running) break;
+        think(true);
+        thinkNote.textContent = (state.config?.pulse_text?.[ev.what] || "").replace(/\{(\w+)\}/g, (_, k) => (k === "chars" ? Math.round((ev[k] || 0) / 100) * 100 : ev[k] ?? "")).replace(/\s+$/, "");
+        break;
+      }
+      case "user":
+        ctx.userVersion++;
+        msgs.querySelectorAll("button.decision-option").forEach((button) => (button.disabled = true));
+        add(userMsg(ev.text));
+        break;
       case "delta":
         thinking.remove();
         if (!streamEl) { streamEl = h("div", { class: "msg assistant streaming" }); add(streamEl); }
@@ -467,7 +511,7 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
       }
       case "tool": {
         streamEl = null;
-        const label = ev.input?.file_path || ev.input?.command || ev.input?.pattern || ev.input?.description || ev.input?.skill || "";
+        const label = ev.input?.skills?.length ? `skill：${ev.input.skills.join("、")}` : ev.input?.file_path || ev.input?.command || ev.input?.pattern || ev.input?.description || ev.input?.skill || "";
         const short = String(label).split(/[\\/]/).pop().slice(0, 100);
         const line = h("div", {}, `${ev.name} ${short}`);
         const last = [...msgs.children].filter((x) => x !== thinking).pop();
@@ -480,7 +524,7 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
           tb._n = 1;
           add(tb);
         }
-        if (running) think(true, `${VERB[ev.name] || ev.name} ${short}`.trim());
+        if (running) { think(true, `${VERB[ev.name] || ev.name} ${short}`.trim()); lastTool = thinkText.textContent; }
         break;
       }
       case "ask": {
