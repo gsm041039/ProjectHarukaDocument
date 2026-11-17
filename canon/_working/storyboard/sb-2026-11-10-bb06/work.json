@@ -1,0 +1,565 @@
+{
+ "id": "sb-2026-11-10-bb06",
+ "title": "空教室（測試）",
+ "created": "2026-11-10T08:11:39.345Z",
+ "source": {
+  "text": "晴香推開教室門，發現入面空無一人。佢停低，冇即刻離開。",
+  "ref": "用戶例子"
+ },
+ "proposals": [
+  {
+   "id": "p8953e6",
+   "name": "清楚交代（MOCK）",
+   "intent": "先交代空間，再落角色反應",
+   "rationale": "MOCK 假資料：「晴香推開教室門，發現入面空無一人」",
+   "pros": "資訊清楚",
+   "cons": "神秘感低",
+   "sacrifices": "主觀感",
+   "status": "adopted",
+   "meta": {
+    "mock": true,
+    "provider": "mock",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:11:39.356Z",
+    "direction": ""
+   },
+   "cuts": [
+    {
+     "id": "c7524d9",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "全景見空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "建立空間",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c88928f",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "角色動作",
+     "reveals": "",
+     "continuity": "",
+     "why": "交代行為",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p06f302",
+   "name": "主觀心理（MOCK）",
+   "intent": "先睇反應，空間後揭",
+   "rationale": "MOCK 假資料",
+   "pros": "代入",
+   "cons": "空間資訊延遲",
+   "sacrifices": "即時交代",
+   "status": "open",
+   "meta": {
+    "mock": true,
+    "provider": "mock",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:11:39.356Z",
+    "direction": ""
+   },
+   "cuts": [
+    {
+     "id": "c28f727",
+     "n": 1,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "手部／反應",
+     "reveals": "",
+     "continuity": "",
+     "why": "主觀",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cf67838",
+     "n": 2,
+     "shot_size": "遠景",
+     "angle": "略高",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "揭露空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "延遲揭露",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p48c938",
+   "name": "安靜留白（MOCK）",
+   "intent": "固定長鏡靠時間",
+   "rationale": "MOCK 假資料",
+   "pros": "餘韻",
+   "cons": "Timing 要準",
+   "sacrifices": "資訊密度",
+   "status": "open",
+   "meta": {
+    "mock": true,
+    "provider": "mock",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:11:39.356Z",
+    "direction": ""
+   },
+   "cuts": [
+    {
+     "id": "ceea075",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 5,
+     "action": "角色入畫後停低",
+     "reveals": "",
+     "continuity": "",
+     "why": "hold",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "cf926c0",
+    "n": 1,
+    "shot_size": "中景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "角色動作",
+    "reveals": "",
+    "continuity": "",
+    "why": "交代行為",
+    "layout": {
+     "chars": [
+      {
+       "name": "主角",
+       "x": 0.5,
+       "y": 0.65,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8953e6",
+     "name": "清楚交代（MOCK）",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": true
+    }
+   }
+  ],
+  "from": [
+   "p8953e6"
+  ],
+  "version": 4
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:11:39.361Z",
+   "note": "採納「清楚交代（MOCK）」",
+   "cuts": [
+    {
+     "id": "c8d9cc4",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "全景見空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "建立空間",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    },
+    {
+     "id": "cf926c0",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "角色動作",
+     "reveals": "",
+     "continuity": "",
+     "why": "交代行為",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "at": "2026-11-10T08:11:39.366Z",
+   "note": "混合揀 cut",
+   "cuts": [
+    {
+     "id": "c8d9cc4",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "全景見空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "建立空間",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    },
+    {
+     "id": "cf926c0",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "角色動作",
+     "reveals": "",
+     "continuity": "",
+     "why": "交代行為",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    },
+    {
+     "id": "cb26bec",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "手部／反應",
+     "reveals": "",
+     "continuity": "",
+     "why": "主觀",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p06f302",
+      "name": "主觀心理（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "at": "2026-11-10T08:11:39.380Z",
+   "note": "回復到版本 1",
+   "cuts": [
+    {
+     "id": "c8d9cc4",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "全景見空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "建立空間",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    },
+    {
+     "id": "cf926c0",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "角色動作",
+     "reveals": "",
+     "continuity": "",
+     "why": "交代行為",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "at": "2026-11-10T08:16:28.954Z",
+   "note": "刪除前自動存檔",
+   "cuts": [
+    {
+     "id": "c8d9cc4",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "全景見空間",
+     "reveals": "",
+     "continuity": "",
+     "why": "建立空間",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    },
+    {
+     "id": "cf926c0",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "角色動作",
+     "reveals": "",
+     "continuity": "",
+     "why": "交代行為",
+     "layout": {
+      "chars": [
+       {
+        "name": "主角",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8953e6",
+      "name": "清楚交代（MOCK）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": true
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,878 @@
+{
+ "id": "sb-2026-11-10-c198",
+ "title": "B6 晴香擋",
+ "created": "2026-11-10T08:20:08.801Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B6 晴香擋】系統冇為操開視窗（佢唔係隊友）；玩家按閃避，晴香反而衝前撲出去擋【改：利用「視窗只對隊友」做主題——晴香喺系統之外當陌生人係隊友，E／G-P3】；滿身污糟，笑問條裙有冇整污糟。操第一次覺得有人在乎「佢」。\n（功能：操嘅轉折觸發點；晴香天真善意建隊（P-A04 plant）；街戰嘅情感高峰）",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B6"
+ },
+ "proposals": [
+  {
+   "id": "pd6adac",
+   "name": "快到嚟唔及諗",
+   "intent": "觀眾同晴香一齊衝動，比操更早知道佢會擋喺前面；感受到『佢冇諗就去』嘅真心，而唔係被系統引導嘅結果。",
+   "rationale": "劇情寫系統冇為操開視窗，晴香係自己撲出去。用快切同跟住晴香嘅鏡頭，突出佢嘅行動係自發，唔係遊戲機制安排嘅。",
+   "pros": "動作衝擊最強，情感高峰最清楚，同街戰節奏一致，觀眾好快入戲。",
+   "cons": "操嘅反應同內心冇時間停留；屍骸位置同空間關係睇得唔清楚。",
+   "sacrifices": "操『被看見』嗰一刻要留返畀之後先補；空間資訊會少。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:20:08.841Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.01875909
+   },
+   "cuts": [
+    {
+     "id": "cb38810",
+     "n": 1,
+     "shot_size": "全身",
+     "angle": "略仰角，睇到操懸喺半空",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操用絲線懸吊喺半空，屍骸由低處撲上嚟，地面有裂口，操唔掂地。",
+     "reveals": "觀眾知危險喺下方，而操暫時安全但行動受限。",
+     "continuity": "操面向右；屍骸由畫面左下進入；操視線望向右邊，唔見晴香。",
+     "why": "先定危險同空間，之後晴香衝入先有方向感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.62,
+        "y": 0.35,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.25,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cf75b0e",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "平視，由側面追拍",
+     "camera_move": "pan",
+     "duration": 0.5,
+     "action": "晴香由畫面左邊衝入，身體橫過鏡頭，攔喺屍骸同操之間。",
+     "reveals": "觀眾見到晴香衝前嘅路線，佢唔係等指令。",
+     "continuity": "晴香由左入、面向右；鏡頭跟住佢動；操仍然望住右方，未察覺。",
+     "why": "短促追拍令衝刺感強，唔俾觀眾停落嚟諗。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.6,
+        "y": 0.7,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8b2c83",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "背面，誇張透視",
+     "camera_move": "static",
+     "duration": 0.6,
+     "action": "晴香背影擋住屍骸，衣服沾滿污糟，身體止住（止め絵）。",
+     "reveals": "觀眾見到佢擋住嘅係屍骸嘅爪，佢係冇盾牌嘅。",
+     "continuity": "晴香背向鏡頭，面向屍骸；屍骸面向左；操喺畫面外。",
+     "why": "止め絵定住一拍，令『擋』嘅動作成為畫面焦點。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.6,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p094d71",
+   "name": "操嘅眼睛先",
+   "intent": "觀眾同操一齊等一個唔會嚟嘅提示，然後見到晴香突然闖入；感受到操被丟低、冇人幫佢嘅空虛，之後晴香嘅出現先有重量。",
+   "rationale": "用操嘅主觀視點拉長等待嘅一刻，再用空白畫面表示『系統冇開視窗』，令晴香出現嘅意外感最強。",
+   "pros": "情感層次豐富，觀眾同操經歷同一個落空；晴香嘅出現有衝擊。",
+   "cons": "戰況方向唔清楚；節奏慢，要靠音效撐住張力；觀眾可能會覺得『等咗好耐』。",
+   "sacrifices": "街戰嘅爽快感同空間感減少；對屍骸位置嘅資訊要靠之後交代。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:20:08.841Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.01875909
+   },
+   "cuts": [
+    {
+     "id": "c3590fd",
+     "n": 1,
+     "shot_size": "特寫",
+     "angle": "正面，平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "操眼睛望向上方，等緊甚麼，眼神有少少焦慮。",
+     "reveals": "觀眾知佢期待一個提示，佢習慣咗有人指引。",
+     "continuity": "操望向畫面上方偏左；畫面入面只有佢一個人。",
+     "why": "特寫放大佢嘅期待，之後落空先有反差。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.4,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c962609",
+     "n": 2,
+     "shot_size": "抽象背景",
+     "angle": "正面，留白",
+     "camera_move": "static",
+     "duration": 1,
+     "action": "背景淨係一片空白，操細細個站喺中間，冇任何提示出現。",
+     "reveals": "觀眾同操一樣，見到冇任何指示，佢要自己諗。",
+     "continuity": "背景無屍骸位置、無街道細節；屬於抽象表達，街道佈景待確認。",
+     "why": "留白將『系統冇幫佢』嘅感覺放大。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c9931a5",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "仰角，屍骸影子覆蓋操",
+     "camera_move": "push",
+     "duration": 0.5,
+     "action": "屍骸嘅影子慢慢覆蓋操，佢仲未察覺。",
+     "reveals": "觀眾知危險已經到，操仲未反應。",
+     "continuity": "屍骸由上方落下；操仍然望向上方；影子由右邊推入。",
+     "why": "用影子表示危險，唔使講嘢。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.45,
+        "y": 0.5,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.7,
+        "y": 0.2,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cce9bd6",
+     "n": 4,
+     "shot_size": "全身",
+     "angle": "低角度，誇張透視",
+     "camera_move": "static",
+     "duration": 0.5,
+     "action": "晴香由畫面外衝入，身體模糊，撲向屍骸同操之間。",
+     "reveals": "觀眾見到晴香係突然出現，同操嘅等待形成對比。",
+     "continuity": "晴香由右下入、面向左；操仲未轉身；屍骸面向右。",
+     "why": "模糊嘅動作強調速度，同前面嘅靜止形成強烈對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.55,
+        "y": 0.65,
+        "facing": "left"
+       },
+       {
+        "name": "操",
+        "x": 0.45,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p1b0689",
+   "name": "直播畫面入面嘅英雄",
+   "intent": "觀眾由街上人群同直播鏡頭嘅角度睇，見到晴香喺鏡頭入面成為『英雄』，但操同晴香之間嘅距離仲係好遠；感受到晴香嘅善意被外面世界當成熱鬧睇。",
+   "rationale": "場景設定喺直播中，用直播鏡頭嘅構圖同人群視角，令觀眾意識到自己同直播觀眾一樣，係睇客。之後鏡頭拉近晴香，形成外在與內在嘅對比。",
+   "pros": "有社會層面嘅意思，同直播設定扣得緊；畫面有層次，可以同之後嘅名聲線連埋。",
+   "cons": "情感距離遠，觀眾同晴香未夠貼近；需要直播 UI 同人群資產，製作量大。",
+   "sacrifices": "操嘅內心細節睇唔到；撲出去嗰下嘅衝擊會弱少少。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:20:08.841Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.01875909
+   },
+   "cuts": [
+    {
+     "id": "c358c80",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "高角度，俯視街道",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "街道全景，人群舉起手機，畫面四邊有直播畫面框，操同晴香喺街道中心，屍骸喺下方。",
+     "reveals": "觀眾知道有人喺拍，呢件事係公開嘅。",
+     "continuity": "操面向左；晴香面向右；屍骸面向右；操喺高處，晴香同屍骸喺地面。",
+     "why": "先用全景交代公開環境，之後嘅個人衝突就有社會背景。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "left"
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.4,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7ad22",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視，跟住直播鏡頭嘅構圖",
+     "camera_move": "pan",
+     "duration": 1.2,
+     "action": "鏡頭跟住晴香衝入畫面中心，直播框同步收窄，操仲未睇到佢。",
+     "reveals": "直播鏡頭先捕捉到晴香，操嘅注意力仲喺別處。",
+     "continuity": "晴香向右跑；鏡頭略為慢半拍；操喺畫面右上，視線望向左下。",
+     "why": "直播構圖令晴香被框入畫面，有鏡頭嘅感覺。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.7,
+        "y": 0.65,
+        "facing": "left"
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.35,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c9aa815",
+     "n": 3,
+     "shot_size": "近景",
+     "angle": "平視，略仰",
+     "camera_move": "static",
+     "duration": 1,
+     "action": "晴香背向鏡頭，擋住屍骸，衣服沾滿污糟。",
+     "reveals": "觀眾見到晴香嘅背影，佢並唔知道自己被拍。",
+     "continuity": "晴香背向鏡頭，面向屍骸；屍骸面向左；直播框喺畫面邊緣。",
+     "why": "近景將焦點放返喺晴香身上，同外面嘅直播形成對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.6,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "ce8fff1",
+    "n": 1,
+    "shot_size": "全身",
+    "angle": "略仰角，睇到操懸喺半空",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "操用絲線懸吊喺半空，屍骸由低處撲上嚟，地面有裂口，操唔掂地。",
+    "reveals": "觀眾知危險喺下方，而操暫時安全但行動受限。",
+    "continuity": "操面向右；屍骸由畫面左下進入；操視線望向右邊，唔見晴香。",
+    "why": "先定危險同空間，之後晴香衝入先有方向感。",
+    "layout": {
+     "chars": [
+      {
+       "name": "操",
+       "x": 0.62,
+       "y": 0.35,
+       "facing": "right"
+      },
+      {
+       "name": "屍骸",
+       "x": 0.25,
+       "y": 0.8,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pd6adac",
+     "name": "快到嚟唔及諗",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "cd02d5f",
+    "n": 2,
+    "shot_size": "中近景，貼地仰拍",
+    "angle": "極低角度，鏡頭貼住地面向上拍",
+    "camera_move": "track，由左向右跟住推近",
+    "duration": 0.7,
+    "action": "晴香由畫面左邊衝入，身體低伏向前，鏡頭跟住佢推近，佢越踩越近，最後橫過鏡頭前面，攔喺屍骸同操之間。",
+    "reveals": "觀眾感到佢係迎面衝過嚟，而唔係等指令；屍骸喺佢身後下方，位置感仍然清楚。",
+    "continuity": "晴香由左入、面向右，同第一格方向一致；屍骸喺畫面左下、面向右，已改返同第一格一致；操喺畫面外，視線仍然望向右邊，未察覺。",
+    "why": "低角度令佢喺畫面入面變得高大，衝刺同壓迫感都會強過平視；跟拍推近令觀眾同佢一齊衝，而唔係旁觀。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.34,
+       "y": 0.55,
+       "facing": "right"
+      },
+      {
+       "name": "屍骸",
+       "x": 0.18,
+       "y": 0.8,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pd6adac",
+     "name": "快到嚟唔及諗",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c8adc5d",
+    "n": 3,
+    "shot_size": "特寫",
+    "angle": "背面，誇張透視",
+    "camera_move": "static",
+    "duration": 0.6,
+    "action": "晴香背影擋住屍骸，衣服沾滿污糟，身體止住（止め絵）。",
+    "reveals": "觀眾見到佢擋住嘅係屍骸嘅爪，佢係冇盾牌嘅。",
+    "continuity": "晴香背向鏡頭，面向屍骸；屍骸面向左；操喺畫面外。",
+    "why": "止め絵定住一拍，令『擋』嘅動作成為畫面焦點。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.5,
+       "y": 0.55,
+       "facing": "right"
+      },
+      {
+       "name": "屍骸",
+       "x": 0.75,
+       "y": 0.6,
+       "facing": "left"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pd6adac",
+     "name": "快到嚟唔及諗",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "pd6adac"
+  ],
+  "version": 2
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:21:03.101Z",
+   "note": "AI 生成：快到嚟唔及諗",
+   "cuts": [
+    {
+     "id": "ce8fff1",
+     "n": 1,
+     "shot_size": "全身",
+     "angle": "略仰角，睇到操懸喺半空",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操用絲線懸吊喺半空，屍骸由低處撲上嚟，地面有裂口，操唔掂地。",
+     "reveals": "觀眾知危險喺下方，而操暫時安全但行動受限。",
+     "continuity": "操面向右；屍骸由畫面左下進入；操視線望向右邊，唔見晴香。",
+     "why": "先定危險同空間，之後晴香衝入先有方向感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.62,
+        "y": 0.35,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.25,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cd02d5f",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "平視，由側面追拍",
+     "camera_move": "pan",
+     "duration": 0.5,
+     "action": "晴香由畫面左邊衝入，身體橫過鏡頭，攔喺屍骸同操之間。",
+     "reveals": "觀眾見到晴香衝前嘅路線，佢唔係等指令。",
+     "continuity": "晴香由左入、面向右；鏡頭跟住佢動；操仍然望住右方，未察覺。",
+     "why": "短促追拍令衝刺感強，唔俾觀眾停落嚟諗。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.6,
+        "y": 0.7,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c8adc5d",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "背面，誇張透視",
+     "camera_move": "static",
+     "duration": 0.6,
+     "action": "晴香背影擋住屍骸，衣服沾滿污糟，身體止住（止め絵）。",
+     "reveals": "觀眾見到佢擋住嘅係屍骸嘅爪，佢係冇盾牌嘅。",
+     "continuity": "晴香背向鏡頭，面向屍骸；屍骸面向左；操喺畫面外。",
+     "why": "止め絵定住一拍，令『擋』嘅動作成為畫面焦點。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.6,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "at": "2026-11-10T08:22:04.123Z",
+   "note": "修改：地面仰角跟拍推近",
+   "cuts": [
+    {
+     "id": "ce8fff1",
+     "n": 1,
+     "shot_size": "全身",
+     "angle": "略仰角，睇到操懸喺半空",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操用絲線懸吊喺半空，屍骸由低處撲上嚟，地面有裂口，操唔掂地。",
+     "reveals": "觀眾知危險喺下方，而操暫時安全但行動受限。",
+     "continuity": "操面向右；屍骸由畫面左下進入；操視線望向右邊，唔見晴香。",
+     "why": "先定危險同空間，之後晴香衝入先有方向感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.62,
+        "y": 0.35,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.25,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cd02d5f",
+     "n": 2,
+     "shot_size": "中近景，貼地仰拍",
+     "angle": "極低角度，鏡頭貼住地面向上拍",
+     "camera_move": "track，由左向右跟住推近",
+     "duration": 0.7,
+     "action": "晴香由畫面左邊衝入，身體低伏向前，鏡頭跟住佢推近，佢越踩越近，最後橫過鏡頭前面，攔喺屍骸同操之間。",
+     "reveals": "觀眾感到佢係迎面衝過嚟，而唔係等指令；屍骸喺佢身後下方，位置感仍然清楚。",
+     "continuity": "晴香由左入、面向右，同第一格方向一致；屍骸喺畫面左下、面向右，已改返同第一格一致；操喺畫面外，視線仍然望向右邊，未察覺。",
+     "why": "低角度令佢喺畫面入面變得高大，衝刺同壓迫感都會強過平視；跟拍推近令觀眾同佢一齊衝，而唔係旁觀。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.34,
+        "y": 0.55,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.18,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c8adc5d",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "背面，誇張透視",
+     "camera_move": "static",
+     "duration": 0.6,
+     "action": "晴香背影擋住屍骸，衣服沾滿污糟，身體止住（止め絵）。",
+     "reveals": "觀眾見到佢擋住嘅係屍骸嘅爪，佢係冇盾牌嘅。",
+     "continuity": "晴香背向鏡頭，面向屍骸；屍骸面向左；操喺畫面外。",
+     "why": "止め絵定住一拍，令『擋』嘅動作成為畫面焦點。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.6,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pd6adac",
+      "name": "快到嚟唔及諗",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "k6f32a9",
+   "at": "2026-11-10T08:21:13.169Z",
+   "cuts": [
+    "cd02d5f"
+   ],
+   "instruction": "呢格改做低角度，晴香衝入嗰下要更有衝擊，但保持同前後格連貫",
+   "status": "adopted",
+   "mock": false,
+   "provider": "claude",
+   "skill": {
+    "name": "story-anime-storyboard-director",
+    "hash": "5e80a32b"
+   },
+   "variants": [
+    {
+     "label": "地面仰角跟拍推近",
+     "note": "攝影機貼住地面仰拍，晴香由左邊衝入，鏡頭向右跟住推近，佢喺鏡頭前越踩越大，畫面向上壓住，衝擊感由『佢迎面撲過嚟』嚟。前後格：晴香仍然由左入、面向右，方向同第一格一致；屍骸保持喺畫面左下。原本第二格把屍骸放喺右邊、面向左，同第一格對唔上，呢個方案順便改返喺左邊，第三格要跟住改。代價：要推軌或者跟拍，製作量偏高；天空或者天花會大面積入畫，背景資訊會少咗；晴香會遮住屍骸，觀眾未必一眼睇清爪喺邊。",
+     "edits": [
+      {
+       "cutId": "cd02d5f",
+       "patch": {
+        "shot_size": "中近景，貼地仰拍",
+        "angle": "極低角度，鏡頭貼住地面向上拍",
+        "camera_move": "track，由左向右跟住推近",
+        "duration": 0.7,
+        "action": "晴香由畫面左邊衝入，身體低伏向前，鏡頭跟住佢推近，佢越踩越近，最後橫過鏡頭前面，攔喺屍骸同操之間。",
+        "reveals": "觀眾感到佢係迎面衝過嚟，而唔係等指令；屍骸喺佢身後下方，位置感仍然清楚。",
+        "continuity": "晴香由左入、面向右，同第一格方向一致；屍骸喺畫面左下、面向右，已改返同第一格一致；操喺畫面外，視線仍然望向右邊，未察覺。",
+        "why": "低角度令佢喺畫面入面變得高大，衝刺同壓迫感都會強過平視；跟拍推近令觀眾同佢一齊衝，而唔係旁觀。"
+       },
+       "chars": [
+        {
+         "name": "晴香",
+         "x": 0.34,
+         "y": 0.55,
+         "facing": "right"
+        },
+        {
+         "name": "屍骸",
+         "x": 0.18,
+         "y": 0.8,
+         "facing": "right"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "先撞後見，鏡頭先被擋住",
+     "note": "低角度定鏡，晴香衝進嚟一閃而過，幾乎用掃過鏡頭嘅動態模糊帶過，然後佢停喺鏡頭前，背影擋住大半個畫面，屍骸只露一小截。改變咗資訊次序：觀眾先感到『有人擋喺前面』，危險要等第三格先完整睇到。前後格：方向同第一格一致，屍骸喺左下、面向右；第三格要改為由屍骸側面拍，先接得上。代價：觀眾喺呢格唔知屍骸有幾近，要靠下一格補；衝刺靠動態模糊，後期要做效果，但成本低過推軌；留白多咗，節奏會比較跳。",
+     "edits": [
+      {
+       "cutId": "cd02d5f",
+       "patch": {
+        "shot_size": "近景，鏡頭貼地",
+        "angle": "極低角度仰拍，鏡頭貼住地面",
+        "camera_move": "static，中途一下動態模糊",
+        "duration": 0.8,
+        "action": "晴香由畫面左邊衝入，掠過鏡頭前面，動態模糊一閃而過；佢隨即停低，背影擋住鏡頭同屍骸之間，屍骸只露出一截爪。",
+        "reveals": "觀眾先感到有人擋喺前面，屍骸只露一截，完整嘅威脅要等下一格先睇到。",
+        "continuity": "晴香由左入、面向右，方向同第一格一致；屍骸喺畫面左下、面向右，已改返同第一格一致，只露一截；操喺畫面外，未察覺。",
+        "why": "先掃過再停低，令『擋』成為畫面焦點；留住屍骸嘅全貌，令下一格嘅爪有衝擊。"
+       },
+       "chars": [
+        {
+         "name": "晴香",
+         "x": 0.5,
+         "y": 0.5,
+         "facing": "right"
+        },
+        {
+         "name": "屍骸",
+         "x": 0.2,
+         "y": 0.82,
+         "facing": "right"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "貼地裂口做前景",
+     "note": "攝影機放喺地面裂口旁邊，裂口做前景，晴香由裂口上跨過嚟，用低角度由下向上拍佢，屍骸喺畫面下方中間。重點係將危險由『空中嘅屍骸』轉成『腳下嘅地面』，同第一格操懸喺半空嘅感覺接上。前後格：晴香仍然由左入向右；屍骸位置同第一格一致，原本第二格嘅右邊位置一併修正。代價：要多造一個裂口前景資產，製作量中高；裂口會搶視線，晴香嘅表情睇唔清楚；呢個構圖偏向地面危險，衝入嗰下嘅速度感會弱過前兩個方案。",
+     "edits": [
+      {
+       "cutId": "cd02d5f",
+       "patch": {
+        "shot_size": "中景，裂口做前景",
+        "angle": "低角度，鏡頭由地面裂口旁向上拍",
+        "camera_move": "static，晴香跨過裂口時微微跟住",
+        "duration": 1.2,
+        "action": "地面裂口佔住畫面下方，晴香由左邊跨過裂口衝入，腳踏落地面，身體橫過鏡頭，攔喺屍骸同操之間。",
+        "reveals": "觀眾見到危險喺腳下嘅地面，而唔單止係空中嘅屍骸；晴香係踏過裂口衝過嚟嘅。",
+        "continuity": "晴香由左入、面向右，方向同第一格一致；屍骸喺畫面下方中間偏左、面向右，同第一格對得上；操喺畫面外，仍然望住右邊。",
+        "why": "用裂口做前景，將危險放落地面，同第一格懸吊嘅操形成上下對照；低角度令晴香有重量感，但較慢，所以留多少少時間俾觀眾感受佢擋住嘅係咩。"
+       },
+       "chars": [
+        {
+         "name": "晴香",
+         "x": 0.56,
+         "y": 0.42,
+         "facing": "right"
+        },
+        {
+         "name": "屍骸",
+         "x": 0.3,
+         "y": 0.86,
+         "facing": "right"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "cost": 0.015138309999999999,
+   "chosen": 0
+  }
+ ]
+}

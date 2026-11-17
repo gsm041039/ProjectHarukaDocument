@@ -10,18 +10,18 @@ BEAT_LAYER_V5 — BATCH 4：B1–B4（街頭大戰開場 → 操到場）正式�
 STATUS: DRAFT
 
 DESIGN_DECISION_RECORD:
-- CHALLENGE_GATE: 不可取代嘅戲劇功能＝開戰、變身、建立「偽亮色直播」嘅世界觀展示、教玩家基本操作。呢個係 demo 第一場戰鬥，值得獨立存在。現有設計（人形扭曲屍骸出現→變身→直播 UI→市民退後→教學）足以達成。冇靠標籤代替因果——變身、直播都係已確立嘅世界規則展示，唔係角色心理推論。
+- CHALLENGE_GATE: 不可取代嘅戲劇功能＝開戰、變身、建立「偽亮色直播」嘅世界觀展示、應用基本操作（教學已移到 PR1）。呢個係 demo 第一場戰鬥，值得獨立存在。現有設計（人形扭曲屍骸出現→變身→直播 UI→市民退後→教學）足以達成。冇靠標籤代替因果——變身、直播都係已確立嘅世界規則展示，唔係角色心理推論。
 - SUFFICIENCY: 呢個 beat 純粹係外部事件觸發（屍骸出現）→角色反應（變身應戰），冇複雜嘅角色動機落差要處理。
 
 FIELDS:
-- beat_function: 開戰；變身展示（偽亮色高峰開場）；直播 UI 世界規則首現；基本戰鬥／閃避教學
-- entry_state: 實戰前練習剛被打斷（PR1）：晴香已學變身／閃避／基本攻擊，帶驚加使命感，手震未停；美夜子（貓形）戒備；一個人形扭曲嘅大型屍骸出現喺日區街道（2026-11-02 更新，PROVISIONAL）
-- pressure_trigger: R（REQUIRED）——外部事件：屍骸出現（燈塔效應引嚟，見 CDL-064），由美夜子所在之處吸引而至（燈塔效應暗示階段，CDL-089；PR1 練習啟動令信號更強，CDL-064）；觀眾先感受後果、明示留入隊／基地之後
+- beat_function: 開戰；變身展示（偽亮色高峰開場）；直播 UI 世界規則首現；基本戰鬥／閃避應用（教學已移到 PR1）
+- entry_state: 實戰前練習剛被打斷（PR1）：晴香已學變身／閃避／基本攻擊，帶驚加使命感，手震未停；美夜子（貓形）戒備；晴香引屍骸離開練習處，一個人形扭曲嘅大型屍骸追至日區街道（2026-11-02 更新，PROVISIONAL）
+- pressure_trigger: R（REQUIRED）——外部事件：PR1 闖入嘅屍骸追至日區街道、正式進攻（唔係新出現；燈塔效應，見 CDL-064），由美夜子所在之處吸引而至（燈塔效應暗示階段，CDL-089；PR1 練習啟動令信號更強，CDL-064）；觀眾先感受後果、明示留入隊／基地之後
 - participant_intentions: 晴香＝變身應戰（帶驚但行動）；美夜子＝守住同觀察，唔做計劃性防護（保留 B2『本能擋、咬唇』係非計劃內第一次，2026-11-02 更正）
-- action: 屍骸出現後畫面提示按鍵，玩家按下，晴香變身（美、帶極細代價視覺，HC-4f；2026-11-02 作者批准『玩家按鍵啟動變身』，PROVISIONAL）；直播 UI 彈出；市民退到安全區外圍；玩家學基本攻擊／閃避
+- action: 屍骸追至街道，畫面提示按鍵，玩家按下，晴香變身（美、帶極細代價視覺，HC-4f；2026-11-02 作者批准『玩家按鍵啟動變身』，PROVISIONAL）；直播 UI 彈出；市民退到安全區外圍；玩家應用 PR1 學過嘅基本攻擊／閃避
 - reaction: 屍骸開始攻擊
 - turn: N/A——呢個 beat 冇角色心理轉折，純粹係開戰同教學，功能係建立戰鬥場景
-- consequence: 戰鬥正式開始；玩家學會基本操作
+- consequence: 戰鬥正式開始；玩家應用已學嘅基本操作
 - emotional_value_shift: 帶驚加使命感 → 戰鬥警覺（驚被行動蓋過；偽亮色高峰：外在光輝 vs 底層成本，O:141；2026-11-02 更正，原寫『平靜』同上一個 beat 出口對唔上）
 - relationship_delta: N/A——本 beat 冇關係互動
 - audience_info_delta: 觀眾見到呢個世界嘅戰鬥直播制度（Reality Show，CDL-057）同假數值 UI（CDL-073）
@@ -29,7 +29,7 @@ FIELDS:
 - setup_payoff: Setup → O19 主題B（首次變身美好謊言，外在光輝 vs 底層成本）
 - world_rule_exposure: Reality Show 直播＋光幕（日區，Brief:5676）；屍骸＝人形扭曲（O20，唔係純怪物，CDL-031／HC-4b）；**背景遠景放極淡暗紅（緋潮第一級，街頭首戰按原設定照放；天台另有先行出現；唔倚賴觀眾睇到，屬背景美術備註，光度唔可以強過天台；2026-11-02 作者批准，PROVISIONAL）**
 - gameplay_form: 玩家按鍵啟動變身（第二次按：PR1 練習時第一次喺安全環境按，今次喺真實威脅下按＝帶驚但行動；PROVISIONAL，2026-11-02 作者批准）；基本攻擊／閃避應用（教學已移到 PR1；原『唯一主動教學承載』作廢，原出處 DERIVATION_LEDGER.md 教學階梯 K2（L334；2026-11-02 更正：原寫 BEAT_LAYER_V4 §14.1 引錯檔案；注意 K2 假設玩家已有首戰操作，但本檔假設冇，兩者矛盾，見 WALK-04））
-- exit_state: 戰鬥進行中，玩家已學基本操作
+- exit_state: 戰鬥進行中，玩家已應用基本操作
 - next_beat_pressure: R——屍骸升級攻勢，逼出 B2 嘅血糖危機
 - source_obligation_trace: O:140（Outline Beat 2 事件：人形扭曲屍骸）；CDL-031（屍骸形態）；HC-4b（唔可以寫成純怪物）；CDL-057（Reality Show）；CDL-073（假數值 UI）；HC-4f（變身代價視覺）；CDL-064（燈塔效應）；CDL-176（緋潮第一級，街頭首戰按原設定；天台另有先行出現）
 - downstream_references:
@@ -53,11 +53,11 @@ ANGLES_SELECTED: 10
 - DESIGN_ACTION: KEEP
 
 ### ANGLE: Gameplay/Player Agency
-- DESIGN_REQUIREMENT: demo 第一場戰鬥要教玩家基本操作
-- CURRENT_DESIGN: B1 定為「唯一主動教學承載」（基本攻擊／閃避）
-- RATIONALE: 跟教學階梯設計（DERIVATION_LEDGER.md 教學階梯 K2（L334；2026-11-02 更正：原寫 BEAT_LAYER_V4 §14.1 引錯檔案；注意 K2 假設玩家已有首戰操作，但本檔假設冇，兩者矛盾，見 WALK-04））——假設 demo 獨立開機冇 E-01，B1 要承擔最基本操作教學
-- RISK_TRADEOFF: 如果 demo 獨立開機（冇先前教學），可能需要加前置教學——呢個已經喺更早期標 AUTHOR-low，未解決
-- DESIGN_ACTION: VERIFY（demo 獨立開機嘅教學需求仍待定）
+- DESIGN_REQUIREMENT: 第二次按鍵變身要令玩家感受到『帶驚但行動』；基本操作已喺 PR1 教咗，呢度只應用
+- CURRENT_DESIGN: B1 玩家按鍵啟動變身（第二次按，真實威脅下），應用基本攻擊／閃避；教學已移到 PR1（2026-11-02 更正，盲審 A-06）
+- RATIONALE: 同一操作兩種情境（PR1 安全、B1 高壓）令按鍵有意義；教學階梯前提矛盾已由 PR1 解決（DERIVATION_LEDGER.md 教學階梯 K2）
+- RISK_TRADEOFF: 若玩家唔記得 PR1 教過嘅操作，B1 冇補教；demo 獨立開機時 PR1 係唯一教學
+- DESIGN_ACTION: VERIFY（demo 獨立開機嘅教學需求）
 
 ### ANGLE: Information/Reveal Control
 - DESIGN_REQUIREMENT: 直播 UI 要喺呢個 beat 首現，but 唔可以過早揭示帝國操控嘅真相

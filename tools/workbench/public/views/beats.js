@@ -45,6 +45,12 @@ export function render(el, ctx) {
       h("div", { class: "actions", style: "margin-top:6px" },
         h("button", { class: "small", onclick: () => openFile(file) }, "睇設計"),
         src.current === "CURRENT" ? h("button", { class: "small", title: "睇同呢個 beat 有關嘅決定、角色、問題", onclick: () => openEntity(`BEAT:${src.file}#${b.id}`) }, "🔗") : null,
+        h("button", { class: "small", title: "帶呢個 beat 去分鏡 Studio", onclick: () => {
+          const deep = Object.entries(b.deep || {}).filter(([k, v]) => typeof v === "string" && k !== "file" && v).map(([k, v]) => `${k}：${v}`).join("\n");
+          try { localStorage.setItem("studioDraft", JSON.stringify({ title: `beat ${b.id}「${b.title}」`, ref: `${file}（beat ${b.id}）`, text: [b.title, b.summary, deep].filter(Boolean).join("\n\n") })); } catch {}
+          window.open("/studio.html?new=1", "_blank");
+          
+        } }, "🎞️ 開分鏡"),
         h("button", { class: "small brand", onclick: () => start({ type: "beat", id: `BEAT:${src.file}#${b.id}`, title: `beat ${b.id}「${b.title}」`, file }) }, "✨ 開工")));
   };
 

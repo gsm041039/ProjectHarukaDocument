@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="zh-HK"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Haruka Storyboard Studio</title>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/","mannequin":"https://cdn.jsdelivr.net/npm/mannequin-js@5.2.3/src/mannequin.js"}}</script>
+<style>
+:root{--bg:#181e29;--head:#303947;--panel:#28313f;--center:#222b37;--acc:#436185;--hi:#76c7ff;--tx:#f1f5f9;--mu:#a9bace;--ln:#3a4656;--warn:#e0a030;--bad:#e0607e;--ok:#5cb85c}
+*{box-sizing:border-box}html,body{height:100%;margin:0;background:var(--bg);color:var(--tx);font:13px/1.45 system-ui,"Segoe UI","Microsoft JhengHei",sans-serif}
+button,input,textarea,select{font:inherit;color:inherit}
+button{background:#37465a;border:1px solid var(--ln);border-radius:5px;padding:4px 10px;cursor:pointer}button:hover{background:#43556d}
+button.pri{background:var(--acc);border-color:#5a7ea8}button.pri:hover{background:#51739d}button.sm{padding:2px 7px;font-size:12px}button:disabled{opacity:.4;cursor:default}
+input,textarea,select{background:#1d2431;border:1px solid var(--ln);border-radius:5px;padding:4px 7px;width:100%}textarea{resize:vertical}
+#app{display:grid;height:100vh;grid-template-rows:38px 1fr auto;grid-template-columns:var(--lw,200px) 1fr var(--rw,300px)}
+header{grid-column:1/4;background:var(--head);display:flex;align-items:center;gap:10px;padding:0 12px}header b{font-size:14px}header select{width:auto;max-width:320px;background:#3b4758}
+.sp{flex:1}
+aside,main{min-height:0;overflow:auto;background:var(--panel);margin:4px 0 4px 4px;border-radius:6px;padding:8px}
+main{background:var(--center);display:flex;flex-direction:column;padding:0}aside.r{margin:4px 4px 4px 0}
+footer{grid-column:1/4;background:var(--head);padding:6px 10px}
+h4{margin:10px 0 4px;font-size:12px;color:var(--mu);font-weight:600}h4:first-child{margin-top:0}
+.tree div{padding:3px 6px;border-radius:4px;color:var(--mu);cursor:pointer;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.tree div:hover{background:#334053}.tree .on{background:var(--acc);color:#fff}.tree .i1{padding-left:14px}.tree .i2{padding-left:26px}.tree .d{cursor:default;color:#6f7f93}
+.tabs{display:flex;gap:2px;padding:6px 10px 0;border-bottom:1px solid var(--ln);align-items:center}.tabs .t{padding:6px 14px;color:var(--mu);cursor:pointer;border-bottom:2px solid transparent}.tabs .t.on{color:#fff;border-color:var(--hi)}
+.body{flex:1;overflow:auto;padding:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--tw,260px),1fr));gap:12px}
+.cut{position:relative;border-radius:6px;cursor:pointer;outline:2px solid transparent;background:#1b222d;padding:3px}.cut:hover{outline-color:#4a5d77}.cut.sel{outline:2px solid var(--hi)}.cut.pri{box-shadow:0 0 0 3px #76c7ff55}
+.cut svg{display:block;width:100%;border-radius:4px}.cut .cap{display:flex;gap:6px;padding:4px 3px 1px;font-size:12px;color:var(--mu)}.cut .cap span:first-child{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--tx)}
+.bd{font-size:10px;padding:0 5px;border-radius:8px;background:#3b4758;color:#cfe}.bd.m{background:#6b4a10;color:#fc9}
+.card{background:#1d2431;border:1px solid var(--ln);border-radius:6px;padding:8px;margin-bottom:10px}
+.prop{background:#1d2431;border:1px solid var(--ln);border-radius:8px;padding:10px;margin-bottom:12px}.prop.ad{border-color:var(--ok)}
+.strip{display:flex;gap:8px;overflow-x:auto;padding:6px 0}.strip .cut{flex:none;width:220px}
+.mu{color:var(--mu)}.sm{font-size:12px}.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.warn{color:var(--warn)}
+.tray{position:sticky;top:0;z-index:3;background:#2b3a50;border:1px solid var(--acc);border-radius:6px;padding:6px 8px;margin-bottom:10px}
+.tray .strip .cut{width:110px}
+.pane-tabs{display:flex;gap:4px;margin:6px 0}.pane-tabs .t{padding:3px 8px;border-radius:12px;background:#334053;cursor:pointer;font-size:12px;color:var(--mu)}.pane-tabs .t.on{background:var(--acc);color:#fff}
+.chips{display:flex;gap:4px;flex-wrap:wrap;margin:4px 0}.chips span{padding:2px 8px;border-radius:12px;background:#334053;cursor:pointer;font-size:12px}.chips span:hover{background:var(--acc)}
+.field{margin-bottom:6px}.field label{display:block;font-size:11px;color:var(--mu)}
+.var{border:1px solid var(--ln);border-radius:6px;padding:6px;margin:6px 0;background:#222b37}.var .pair{display:flex;align-items:center;gap:4px;margin:4px 0}.var .pair .cut{flex:1;padding:1px}.var .pair b{color:var(--mu)}
+.tl{display:flex;align-items:center;gap:8px}.track{position:relative;display:flex;gap:3px;height:26px;flex:1;cursor:pointer}.blk{background:#536b86;border-radius:3px;font-size:11px;padding:3px 5px;overflow:hidden;white-space:nowrap;min-width:14px;color:#dfe8f2}.blk.sel{background:#67a9dc;color:#06223a}
+.ph{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--bad);pointer-events:none}
+.stage{max-width:1000px;margin:0 auto;overflow:hidden;border-radius:6px}.stage svg{display:block;width:100%}
+#toast{position:fixed;right:16px;bottom:70px;background:#10151d;border:1px solid var(--acc);border-radius:6px;padding:8px 14px;opacity:0;transition:.2s;pointer-events:none;z-index:20;max-width:420px}#toast.on{opacity:1}
+.modal{position:fixed;inset:0;background:#000a;display:flex;align-items:center;justify-content:center;z-index:30}.modal>div{background:var(--panel);padding:16px;border-radius:8px;width:min(560px,92vw)}
+.busy{position:fixed;top:38px;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--hi),transparent);background-size:200% 100%;animation:b 1s linear infinite;display:none;z-index:25}body.loading .busy{display:block}@keyframes b{to{background-position:-200% 0}}
+</style></head><body>
+<div class="busy"></div>
+<div id="app">
+  <header><b>🎞️ Haruka Storyboard Studio</b><select id="workSel"></select><button class="sm" id="newBtn">＋ 新 Scene</button><span class="sp"></span><span class="mu sm" id="ver"></span><button class="sm" id="saveBtn">💾 存版本</button></header>
+  <aside id="left"></aside><main id="main"></main><aside class="r" id="right"></aside>
+  <footer id="foot"></footer>
+</div>
+<div id="toast"></div>
+<script>
+// ---------- tiny helpers ----------
+const $ = (s, e = document) => e.querySelector(s);
+const h = (t, a = {}, ...k) => { const e = document.createElement(t); for (const [n, v] of Object.entries(a || {})) { if (v == null || v === false) continue; if (n === "class") e.className = v; else if (n === "html") e.innerHTML = v; else if (n === "value") e.value = v; else if (n.startsWith("on")) e.addEventListener(n.slice(2), v); else if (n === "style") e.style.cssText = v; else e.setAttribute(n, v === true ? "" : v); } for (const c of k.flat(9)) if (c != null && c !== false) e.append(c.nodeType ? c : document.createTextNode(c)); return e; };
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const API = "/api/studio/works";
+let busyN = 0;
+const api = async (p, body) => { busyN++; document.body.classList.add("loading"); try { const r = await fetch(API + p, body === undefined ? {} : { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) }); const j = await r.json().catch(() => ({})); if (!r.ok) throw new Error(j.error || r.statusText); return j; } finally { if (!--busyN) document.body.classList.remove("loading"); } };
+let tt; const toast = (m) => { const t = $("#toast"); t.textContent = m; t.classList.add("on"); clearTimeout(tt); tt = setTimeout(() => t.classList.remove("on"), 2600); };
+const store = { get: (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } }, set: (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} } };
+
+// ---------- state ----------
+const S = { index: null, openBd: new Set(store.get("sb.openBd", [])), gen: false, works: [], w: null, events: [], mode: store.get("sb.mode", "board"), rtab: "ai", sel: [], tlOpen: store.get("sb.tl", true), mix: [], tw: store.get("sb.tw", 260), play: { on: false, timer: null, t: 0 } };
+const primary = () => S.sel[S.sel.length - 1];
+const cuts = () => S.w?.board.cuts || [];
+const cutById = (id) => cuts().find((c) => c.id === id);
+const num = (c) => String(c.n).padStart(2, "0");
+const total = () => cuts().reduce((a, c) => a + c.duration, 0);
+
+// ---------- 3D mannequin thumbnails (three.js + mannequin.js, GPL-3.0, local tool) ----------
+// Each cut is rendered from its data: characters (x = screen left/right, y = depth, pose, facing/turn) + camera (shot size, angle).
+const POSES = ["stand", "walk", "run", "crouch", "sit", "reach", "point", "guard", "fall", "lie", "kneel"];
+const POSE_ZH = { stand: "企", walk: "行", run: "跑", crouch: "蹲", sit: "坐", reach: "伸手", point: "指", guard: "戒備", fall: "跌", lie: "瞓低", kneel: "跪" };
+const FRAME = [["大遠景", 7], ["大特寫", .13], ["遠景", 4], ["全景", 2.4], ["全身", 1.35], ["中景", .7], ["近景", .42], ["特寫", .24]]; // visible height / figure height
+let R3 = null, R3wait = null; const R3cache = new Map();
+function init3d() {
+  return (R3wait ||= (async () => {
+    const THREE = await import("three"), M = await import("mannequin");
+    const st = M.getStage(); st.renderer.setAnimationLoop(null); st.renderer.domElement.remove();
+    const scene = st.scene, G = M.getGroundLevel(); scene.background = new THREE.Color("#e4e9ee"); const hemi = new THREE.HemisphereLight("#ffffff", "#8a96a3", 1.6); scene.add(hemi);
+    const gnd = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshLambertMaterial({ color: "#8f9cab" })); gnd.rotation.x = -Math.PI / 2; gnd.position.y = G; scene.add(gnd);
+    const grid = new THREE.GridHelper(200, 100, "#6f7d8c", "#7f8d9b"); grid.position.y = G + .003; scene.add(grid);
+    const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true }); renderer.setSize(640, 360); renderer.outputColorSpace = THREE.SRGBColorSpace;
+    const probe = new M.Female(); const box = new THREE.Box3().setFromObject(probe); scene.remove(probe);
+    R3 = { THREE, M, scene, renderer, hemi, ground: gnd, sun: st.light, setKey: null, setGroup: null, camera: new THREE.PerspectiveCamera(35, 16 / 9, .02, 800), figs: [], H: box.max.y - box.min.y, G };
+    R3cache.clear(); renderAll();
+    const redo = () => { R3cache.clear(); renderAll(); }; // mannequin textures load async: re-render once they arrive
+    THREE.DefaultLoadingManager.onLoad = redo; setTimeout(redo, 1500);
+  })().catch((e) => { console.error(e); toast("3D 載入失敗：" + e.message); }));
+}
+function posture(f, pose) {
+  const L = (a, b) => { if (f["l_" + a]) Object.assign(f["l_" + a], b); }, Rr = (a, b) => { if (f["r_" + a]) Object.assign(f["r_" + a], b); }, both = (a, b) => { L(a, b); Rr(a, b); };
+  switch (pose) {
+    case "walk": L("leg", { raise: 20 }); Rr("leg", { raise: -15 }); Rr("knee", { bend: 25 }); L("arm", { raise: -20 }); Rr("arm", { raise: 20 }); break;
+    case "run": f.torso.bend = 20; L("leg", { raise: 55 }); L("knee", { bend: 70 }); Rr("leg", { raise: -30 }); Rr("knee", { bend: 40 }); both("elbow", { bend: 90 }); L("arm", { raise: -35 }); Rr("arm", { raise: 45 }); break;
+    case "crouch": both("leg", { raise: 85 }); both("knee", { bend: 130 }); f.torso.bend = 35; both("elbow", { bend: 60 }); break;
+    case "kneel": L("leg", { raise: 90 }); L("knee", { bend: 90 }); Rr("knee", { bend: 100 }); break;
+    case "sit": both("leg", { raise: 90 }); both("knee", { bend: 90 }); break;
+    case "reach": Rr("arm", { raise: 85 }); Rr("elbow", { bend: 5 }); f.torso.bend = 10; break;
+    case "point": Rr("arm", { raise: 90, straddle: 10 }); Rr("elbow", { bend: 0 }); break;
+    case "guard": both("arm", { raise: 40 }); both("elbow", { bend: 110 }); both("leg", { straddle: 12 }); both("knee", { bend: 20 }); f.torso.bend = 10; break;
+    case "fall": f.bend = 50; both("arm", { raise: 70 }); L("leg", { raise: 30 }); break;
+    case "lie": f.bend = 90; break;
+  }
+}
+function camOf(c) {
+  const s = c.shot_size || "", a = c.angle || "";
+  const fr = (FRAME.find(([k]) => s.includes(k)) || ["", 1])[1];
+  const el = /鳥瞰|頂/.test(a) ? 70 : /極低|貼地/.test(a) ? -40 : /低|仰/.test(a) ? -22 : /俯|高/.test(a) ? 28 : 3;
+  const az = /背/.test(a) ? 180 : /斜側|3\/4|四分三/.test(a) ? 35 : /側/.test(a) ? 80 : 0;
+  const roll = /dutch|傾斜/i.test(a) ? 12 : 0;
+  return { fr, el, az, roll };
+}
+// ---------- scene set: environment + simple props (same 0..1 stage space as characters) ----------
+const PROPS = ["wall", "door", "window", "desk", "chair", "bench", "bed", "building", "car", "tree", "pole", "stairs", "railing", "crate", "screen", "rubble"];
+const PROP_ZH = { wall: "牆", door: "門", window: "窗", desk: "枱", chair: "椅", bench: "長凳", bed: "床", building: "建築", car: "車", tree: "樹", pole: "燈柱", stairs: "樓梯", railing: "欄杆", crate: "箱", screen: "大屏幕", rubble: "瓦礫" };
+const ENV = { day: ["日間", "#dfe7ef", "#8f9cab", 2.75, 1.6], sunset: ["黃昏", "#e8b48c", "#8a7a70", 2.2, 1.1], night: ["夜晚", "#18202c", "#39424f", .7, .55], interior: ["室內", "#d8d0c4", "#9c8466", 2.2, 1.5] };
+const SET_KEYS = ["building", "wall"];
+function buildProp(THREE, p, G) {
+  const g = new THREE.Group(), mat = (c, e) => new THREE.MeshLambertMaterial({ color: c, ...(e ? { emissive: c, emissiveIntensity: e } : {}) });
+  const box = (w, hh, d, c, x = 0, y = 0, z = 0, e) => { const m = new THREE.Mesh(new THREE.BoxGeometry(w, hh, d), mat(c, e)); m.position.set(x, y + hh / 2, z); g.add(m); return m; };
+  const cyl = (r, hh, c, x = 0, y = 0, z = 0) => { const m = new THREE.Mesh(new THREE.CylinderGeometry(r, r, hh, 12), mat(c)); m.position.set(x, y + hh / 2, z); g.add(m); };
+  switch (p.type) {
+    case "wall": box(3, 2.6, .15, "#b7c0ca"); break;
+    case "door": box(1.1, 2.2, .12, "#7c6a58"); box(.08, .08, .1, "#d9c27a", .4, 1.05, .08); break;
+    case "window": box(1.4, 1.1, .08, "#a9cbe4", 0, 1, 0); box(1.5, .08, .12, "#e8edf2", 0, .96, 0); break;
+    case "desk": box(1.2, .06, .65, "#a07b55", 0, .7, 0); [[-.55, -.28], [.55, -.28], [-.55, .28], [.55, .28]].forEach(([x, z]) => box(.05, .7, .05, "#6d5440", x, 0, z)); break;
+    case "chair": box(.45, .05, .45, "#7f6a55", 0, .45, 0); box(.45, .5, .05, "#7f6a55", 0, .45, -.2); [[-.2, -.2], [.2, -.2], [-.2, .2], [.2, .2]].forEach(([x, z]) => box(.04, .45, .04, "#5b4a3b", x, 0, z)); break;
+    case "bench": box(1.6, .06, .4, "#8a6d4f", 0, .42, 0); box(.08, .42, .35, "#555", -.7); box(.08, .42, .35, "#555", .7); break;
+    case "bed": box(2, .45, 1, "#c9ced6"); box(.6, .12, .9, "#eef1f4", -.6, .45, 0); break;
+    case "building": { const k = p.scale || 1; box(3 * k, 6 * k, 1.6, "#9aa3ad", 0, 0, -.8); for (let i = 0; i < 4 * k; i++) box(2.6 * k, .25, .02, "#c5d6e4", 0, 1 + i * 1.3, .01); break; } // front face sits on its position; scale = wider/taller only
+    case "car": box(3.8, .8, 1.7, "#6b7f96", 0, .3, 0); box(2, .6, 1.5, "#8fa3b8", -.2, 1.1, 0); break;
+    case "tree": cyl(.15, 1.6, "#6b5440"); { const m = new THREE.Mesh(new THREE.SphereGeometry(1, 14, 10), mat("#6f9a6a")); m.position.y = 2.3; g.add(m); } break;
+    case "pole": cyl(.06, 3.4, "#59606a"); box(.6, .08, .15, "#59606a", .25, 3.3, 0); break;
+    case "stairs": for (let i = 0; i < 6; i++) box(1.4, .18 * (i + 1), .3, "#a5adb6", 0, 0, -i * .3); break;
+    case "railing": box(3, .05, .05, "#6c7580", 0, 1.05, 0); for (let i = -1.5; i <= 1.5; i += .5) box(.04, 1.05, .04, "#6c7580", i, 0, 0); break;
+    case "crate": box(.6, .6, .6, "#a68657"); break;
+    case "screen": box(3.2, 1.8, .1, "#3d7fd0", 0, 1.6, 0, .5); cyl(.08, 1.6, "#59606a"); break;
+    case "rubble": [[0, 0, .5], [.5, .2, .35], [-.4, -.3, .4], [.2, -.5, .25]].forEach(([x, z, s]) => { const m = box(s, s * .7, s, "#8d8a84", x, 0, z); m.rotation.y = x * 3; }); break;
+  }
+  g.position.set((p.x - .5) * 7, G, (p.y - .5) * 7); g.rotation.y = -(p.turn || 0) * Math.PI / 180; if (p.type !== "building") g.scale.setScalar(Math.min(2, p.scale || 1));
+  return g;
+}
+function applySet(st) {
+  const { THREE, scene, G } = R3, key = JSON.stringify(st || {});
+  if (R3.setKey === key) return; R3.setKey = key;
+  if (R3.setGroup) scene.remove(R3.setGroup);
+  R3.setGroup = new THREE.Group(); scene.add(R3.setGroup);
+  for (const p of st?.props || []) if (PROPS.includes(p.type)) R3.setGroup.add(buildProp(THREE, p, G));
+  const [, bg, gnd, sun, amb] = ENV[st?.env] || ENV.day;
+  scene.background.set(bg); R3.ground.material.color.set(gnd); R3.sun.intensity = sun; R3.hemi.intensity = amb;
+}
+const turnOf = (p) => (Number.isFinite(p.turn) ? p.turn : p.facing === "left" ? -60 : 60);
+function render3d(c, set = S.w?.set) {
+  const key = JSON.stringify([c.shot_size, c.angle, c.layout.chars, set]);
+  if (R3cache.has(key)) return R3cache.get(key);
+  const { THREE, M, scene, renderer, camera, H, G } = R3;
+  applySet(set);
+  for (const f of R3.figs) scene.remove(f); R3.figs = [];
+  const chars = c.layout.chars;
+  for (const p of chars) {
+    const f = new M.Female(); posture(f, p.pose); f.position.set((p.x - .5) * 7, 0, (p.y - .5) * 7);
+    f.turn = turnOf(p) - 90; if (f.stepOnGround) f.stepOnGround(); R3.figs.push(f); // mannequin 0 = faces +X; ours 0 = faces camera, 90 = screen-right
+  }
+  const { fr, el, az, roll } = camOf(c);
+  let tx = 0, tz = 0, top = G + H; // subject = first character for closer shots, whole group for wide shots
+  const subj = fr < .6 && R3.figs[0] ? [R3.figs[0]] : R3.figs;
+  if (subj.length) { const b = new THREE.Box3(); subj.forEach((f) => b.expandByObject(f)); const ctr = b.getCenter(new THREE.Vector3()); tx = ctr.x; tz = ctr.z; top = b.max.y; }
+  const vis = fr * H, ty = Math.max(G + vis / 2 * .9, top - vis * .42);
+  let d = (vis / 2) / Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) + (fr < .5 ? .25 : 0);
+  if (subj.length > 1) { // wide shot of a group: back off until everyone fits left-right
+    const b = new THREE.Box3(); subj.forEach((f) => b.expandByObject(f));
+    const hf = Math.atan(Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * camera.aspect);
+    d = Math.max(d, ((b.max.x - b.min.x) / 2 + .4) / Math.tan(hf) + (b.max.z - tz));
+  }
+  const e = THREE.MathUtils.degToRad(el), z = THREE.MathUtils.degToRad(az);
+  camera.position.set(tx + d * Math.sin(z) * Math.cos(e), Math.max(G + .08, ty + d * Math.sin(e)), tz + d * Math.cos(z) * Math.cos(e));
+  camera.up.set(0, 1, 0); camera.lookAt(tx, ty, tz); if (roll) camera.rotateZ(THREE.MathUtils.degToRad(roll)); camera.updateMatrixWorld();
+  renderer.render(scene, camera);
+  const cv = document.createElement("canvas"); cv.width = 640; cv.height = 360; const g = cv.getContext("2d"); g.drawImage(renderer.domElement, 0, 0);
+  g.font = "bold 20px system-ui"; g.textAlign = "center";
+  R3.figs.forEach((f, i) => {
+    const b = new THREE.Box3().setFromObject(f), v = new THREE.Vector3((b.min.x + b.max.x) / 2, b.max.y + .05, (b.min.z + b.max.z) / 2).project(camera);
+    if (v.z > 1 || Math.abs(v.x) > 1.1) return;
+    const x = (v.x + 1) * 320, y = Math.max(22, (1 - v.y) * 180 - 6), w = g.measureText(chars[i].name).width + 10;
+    g.fillStyle = "#0009"; g.fillRect(x - w / 2, y - 19, w, 24); g.fillStyle = "#fff"; g.fillText(chars[i].name, x, y);
+  });
+  const url = cv.toDataURL("image/jpeg", .85); R3cache.set(key, url); if (R3cache.size > 300) R3cache.delete(R3cache.keys().next().value); return url;
+}
+function thumb(c, o = {}) {
+  const wrap = h("div", { style: "position:relative;aspect-ratio:16/9;background:#cfd6de;border-radius:4px;overflow:hidden" });
+  if (c.image) wrap.append(h("img", { src: c.image, style: "width:100%;height:100%;object-fit:cover" }));
+  else if (R3) wrap.append(h("img", { src: render3d(c, o.set ?? S.w?.set), style: "width:100%;height:100%;display:block" }));
+  else { init3d(); wrap.append(h("div", { class: "mu", style: "padding:20px;text-align:center" }, "載入 3D…")); }
+  wrap.append(h("div", { style: "position:absolute;left:6px;top:4px;font-weight:800;color:#24364a;font-size:15px;text-shadow:0 0 3px #fff" }, o.num ?? num(c)),
+    h("div", { style: "position:absolute;right:6px;bottom:3px;font-size:11px;color:#24364a;background:#ffffffaa;border-radius:3px;padding:0 4px" }, `${c.shot_size}・${c.angle}・${c.duration}s`));
+  return wrap;
+}
+const FOOT = { wall: [3, .15], door: [1.1, .12], window: [1.4, .1], desk: [1.2, .65], chair: [.45, .45], bench: [1.6, .4], bed: [2, 1], building: [3, 3], car: [3.8, 1.7], tree: [1.2, 1.2], pole: [.4, .4], stairs: [1.4, 1.8], railing: [3, .1], crate: [.6, .6], screen: [3.2, .2], rubble: [1.2, 1] };
+function propsSvg() {
+  return (S.w?.set?.props || []).map((p, i) => { const [fw, fd] = FOOT[p.type] || [1, 1], k = 100 / 7, w = fw * k * (p.scale || 1), d = Math.max(1.2, fd * k * (p.scale || 1)), x = p.x * 100, y = p.y * 85 + 3;
+    return `<g data-p="${i}" style="cursor:move" transform="translate(${x} ${y}) rotate(${p.turn || 0})"><rect x="${-w / 2}" y="${-d / 2}" width="${w}" height="${d}" fill="#5d6b7c" stroke="#8fa0b3" stroke-width=".4"/><text y="1.5" font-size="3.6" fill="#dfe8f2" text-anchor="middle">${esc(p.label || PROP_ZH[p.type])}</text></g>`; }).join("");
+}
+function planSvg(c) {
+  const ns = [...new Set(c.layout.chars.map((x) => x.name))], col = ["#4a90d9", "#e0607e", "#e0a030", "#5cb85c", "#9b6bd1"];
+  const grid = [25, 50, 75].map((v) => `<path d="M${v} 0V100M0 ${v}H100" stroke="#2b3443" stroke-width=".5"/>`).join("");
+  const figs = c.layout.chars.map((p) => {
+    const x = p.x * 100, y = p.y * 85 + 3, t = turnOf(p) * Math.PI / 180, cl = col[ns.indexOf(p.name) % col.length];
+    return `<g data-n="${esc(p.name)}" style="cursor:grab"><circle cx="${x}" cy="${y}" r="4.5" fill="${cl}"/><path d="M${x} ${y} l${Math.sin(t) * 8} ${Math.cos(t) * 8}" stroke="${cl}" stroke-width="1.6"/><text x="${x}" y="${y - 6}" font-size="4.2" fill="#dfe8f2" text-anchor="middle">${esc(p.name)}</text></g>`;
+  }).join("");
+  return `<svg viewBox="0 0 100 100" style="width:100%;background:#1d2431;border-radius:6px;touch-action:none;display:block"><path d="M0 0H100V100H0Z" fill="none" stroke="#3a4656"/>${grid}<path d="M50 98 l-4 -6 h8z" fill="#76c7ff"/><text x="50" y="90" font-size="4" fill="#76c7ff" text-anchor="middle">鏡頭</text>${propsSvg()}${figs}</svg>`;
+}
+const withPatch = (c, patch = {}, chars) => { const n = JSON.parse(JSON.stringify(c)); for (const k in patch) n[k] = k === "duration" ? +patch[k] || n[k] : patch[k]; if (Array.isArray(chars)) n.layout.chars = chars; return n; };
+
+// ---------- load / actions ----------
+async function loadWorks() { S.works = await api(""); const sel = $("#workSel"); sel.replaceChildren(h("option", { value: "" }, "— 揀 Scene —"), ...S.works.map((w) => h("option", { value: w.id }, `${w.title}（${w.cuts} 格）`))); }
+async function open(id) {
+  if (!id) { S.w = null; S.sel = []; return renderAll(); }
+  S.w = await api("/" + id); S.events = await api(`/${id}/events`); $("#workSel").value = id; location.hash = "w=" + id;
+  S.pending = null; S.sel = S.sel.filter((i) => cutById(i)); if (!S.sel.length && cuts().length) S.sel = [cuts()[0].id];
+  renderAll();
+  const first = S.w.proposals.find((p) => p.status === "open");
+  if (!cuts().length && first) post("adopt", { proposalId: first.id, reason: "分鏡板空，自動採用第一套（可換）" }, `已放上「${first.name}」，其他思路喺上面可以換`);
+}
+const act = (p, body, msg) => async () => { try { const r = await api(`/${S.w.id}/${p}`, body); await refresh(r.work || r); if (msg) toast(msg); return r; } catch (e) { toast("失敗：" + e.message); } };
+async function refresh(w) { S.w = w; S.events = await api(`/${w.id}/events`); S.sel = S.sel.filter((i) => cutById(i)); if (!S.sel.length && cuts().length) S.sel = [cuts()[0].id]; renderAll(); loadWorks().then(() => ($("#workSel").value = w.id)); }
+const post = async (p, body, msg) => { try { const r = await api(`/${S.w.id}/${p}`, body); await refresh(r.work || r); if (msg) toast(msg); return r; } catch (e) { toast("失敗：" + e.message); } };
+const setMode = (m) => { S.mode = m; store.set("sb.mode", m); renderAll(); };
+const select = (id, e) => { if (e?.shiftKey && primary()) { const a = cuts().findIndex((c) => c.id === primary()), b = cuts().findIndex((c) => c.id === id); S.sel = cuts().slice(Math.min(a, b), Math.max(a, b) + 1).map((c) => c.id); } else if (e?.ctrlKey || e?.metaKey) S.sel = S.sel.includes(id) ? S.sel.filter((x) => x !== id) : [...S.sel, id]; else S.sel = [id]; renderAll(); };
+const ctxLabel = () => !S.w ? "（未揀 Scene）" : !S.sel.length ? `整場：${S.w.title}` : S.sel.length === 1 ? `Cut ${num(cutById(S.sel[0]))}` : `Cuts ${S.sel.map((i) => num(cutById(i))).join(", ")}`;
+
+// ---------- render: left library ----------
+// Story tree straight from the Workbench index (Beat boards in LAYER_MANIFEST): click a beat or a whole sequence → AI storyboards it.
+const beatRef = (bd, col, bt) => `${bd.file}｜${col.id}${bt ? "｜" + bt.id : ""}`;
+const beatText = (col, bts) => bts.map((b) => `【${b.id} ${b.title}】${b.summary || ""}${b.deep?.function ? "\n（功能：" + b.deep.function + "）" : ""}`).join("\n\n");
+const titleOf = (col, bt) => (bt ? `${bt.id} ${bt.title}` : col.title);
+async function openBeat(bd, col, bt) {
+  const ref = beatRef(bd, col, bt), have = S.works.find((w) => w.ref === ref || (!w.ref && w.title === titleOf(col, bt)));
+  if (have) return open(have.id);
+  S.w = null; S.sel = []; S.pending = { bd, col, bt, ref }; location.hash = ""; renderAll();
+}
+async function generatePending(direction) {
+  const { bd, col, bt, ref } = S.pending, bts = bt ? [bt] : col.beats;
+  S.gen = true; renderAll(); toast("AI 生成緊分鏡（會讀 canon，約 1–3 分鐘）…");
+  try {
+    const w = await api("", { title: titleOf(col, bt), ref, text: `（${bd.title}・${col.title}）\n` + beatText(col, bts) });
+    S.pending = null; await loadWorks(); S.mode = "board"; await open(w.id);
+    S.gen = true; renderAll();
+    await post("propose", { auto: true, direction }, "分鏡已生成。揀格之後喺右邊叫 AI 改。");
+  } catch (e) { toast("失敗：" + e.message); } finally { S.gen = false; renderAll(); }
+}
+function renderLeft() {
+  const L = $("#left"), tree = h("div", { class: "tree" });
+  tree.append(h("h4", {}, "故事（撳 beat 或 🎞 整段 → AI 出分鏡）"));
+  const boards = (S.index?.beats?.boards || []).filter((b) => b.current === "CURRENT");
+  for (const bd of boards) {
+    const ok = S.openBd.has(bd.file);
+    tree.append(h("div", { class: "", title: bd.file, onclick: () => { ok ? S.openBd.delete(bd.file) : S.openBd.add(bd.file); renderLeft(); } }, (ok ? "▾ " : "▸ ") + bd.track + "・" + bd.title.slice(0, 22)));
+    if (!ok) continue;
+    for (const col of bd.columns) {
+      const done = S.works.some((w) => w.ref === beatRef(bd, col));
+      tree.append(h("div", { class: "i1", title: "成段生成分鏡", onclick: () => openBeat(bd, col) }, (done ? "● " : "🎞 ") + col.title));
+      for (const bt of col.beats) tree.append(h("div", { class: "i2" + (S.w?.source.ref === beatRef(bd, col, bt) ? " on" : ""), title: bt.summary, onclick: () => openBeat(bd, col, bt) }, (S.works.some((w) => w.ref === beatRef(bd, col, bt)) ? "● " : "") + bt.id + " " + bt.title));
+    }
+  }
+  const own = S.works.filter((w) => !String(w.ref || "").includes("｜"));
+  if (own.length) tree.append(h("h4", {}, "其他 Scene（自己貼嘅劇情）"));
+  for (const w of own) tree.append(h("div", { class: "i1" + (S.w?.id === w.id ? " on" : ""), onclick: () => open(w.id), title: w.ref }, w.title));
+  const names = S.w ? [...new Set(cuts().flatMap((c) => c.layout.chars.map((x) => x.name)))] : [];
+  tree.append(h("h4", {}, "Characters"), ...(names.length ? names.map((n) => h("div", { class: "i1", title: "揀出有呢個角色嘅 cut", onclick: () => { S.sel = cuts().filter((c) => c.layout.chars.some((x) => x.name === n)).map((c) => c.id); renderAll(); } }, n)) : [h("div", { class: "d i1" }, "（未有）")]));
+  tree.append(h("h4", {}, "Locations / References"), h("div", { class: "d i1" }, "（未接駁）"));
+  const sk = S.w?.proposals[0]?.meta.skill || S.w?.candidates?.[0]?.skill;
+  tree.append(h("h4", {}, "Skills"), h("div", { class: "i1 d" }, sk ? `${sk.name}@${sk.hash}` : "story-anime-storyboard-director"));
+  tree.append(h("h4", {}, "Source"), S.w ? h("div", { class: "i1", onclick: () => setMode("outline") }, "📄 " + (S.w.source.ref || "貼入嘅劇情")) : null);
+  L.replaceChildren(tree);
+}
+
+// ---------- render: center ----------
+function renderMain() {
+  const M = $("#main"); const tabs = h("div", { class: "tabs" }, ...[["outline", "Outline"], ["board", "Board"], ["layout", "Layout"], ["compare", "Compare"], ["preview", "Preview"]].map(([k, n]) => h("div", { class: "t" + (S.mode === k ? " on" : ""), onclick: () => setMode(k) }, n)), h("span", { class: "sp" }),
+    S.mode === "board" ? h("input", { type: "range", min: 160, max: 420, value: S.tw, style: "width:90px", title: "縮圖大細", oninput: (e) => { S.tw = +e.target.value; store.set("sb.tw", S.tw); document.documentElement.style.setProperty("--tw", S.tw + "px"); } }) : null);
+  const body = h("div", { class: "body" }); M.replaceChildren(tabs, body);
+  document.documentElement.style.setProperty("--tw", S.tw + "px");
+  if (!S.w && S.pending) {
+    const { bd, col, bt } = S.pending, dir = h("input", { placeholder: "（可留空）你想點拍？例如：想有留白、主觀啲、唔好用特寫" });
+    return body.append(h("div", { class: "card", style: "max-width:820px" }, h("h4", {}, `${bd.track}・${col.title}`), h("div", { style: "font-size:16px;font-weight:700;margin-bottom:6px" }, titleOf(col, bt)),
+      h("div", { style: "white-space:pre-wrap" }, beatText(col, bt ? [bt] : col.beats)), h("div", { class: "field", style: "margin-top:12px" }, dir),
+      h("button", { class: "pri", disabled: S.gen, style: "font-size:15px;padding:8px 18px", onclick: () => generatePending(dir.value) }, S.gen ? "AI 生成緊…" : "🤖 AI 生成分鏡"),
+      h("div", { class: "mu sm", style: "margin-top:6px" }, "AI 會讀呢段劇情同角色設定，諗幾套唔同拍法，第一套直接放上分鏡板，其他做「換方案」掣。")));
+  }
+  if (!S.w) return body.append(h("div", { class: "card" }, "喺左邊故事樹揀一個 beat（或者「🎞」成段），再撳「🤖 AI 生成分鏡」。"));
+  ({ outline, board, layout, compare, preview })[S.mode](body);
+}
+function outline(b) {
+  const dir = h("input", { placeholder: "你嘅方向（可留空，例如：想有留白／唔好用特寫）" }), mock = h("input", { type: "checkbox", style: "width:auto" });
+  b.append(h("div", { class: "card" }, h("h4", {}, S.w.source.ref ? "來源：" + S.w.source.ref : "劇情"), h("div", { style: "white-space:pre-wrap;font-size:14px" }, S.w.source.text)),
+    h("div", { class: "card" }, h("h4", {}, "叫 AI 提演出方案"), h("div", { class: "row" }, h("div", { style: "flex:1;min-width:240px" }, dir), h("button", { class: "pri", onclick: async () => { toast("AI 諗緊（1–3 分鐘，會讀 canon）…"); await post("propose", { direction: dir.value, mock: mock.checked }, "已提出新方案"); setMode("compare"); } }, "🤖 提方案"), h("label", { class: "sm mu" }, mock, " MOCK 假資料（只測 UI）"))),
+    h("div", { class: "card mu" }, `已有 ${S.w.proposals.length} 套方案、${cuts().length} 格分鏡板。到 Compare 睇方案，到 Board 排鏡。`));
+}
+function cutCard(c, { drag = true } = {}) {
+  const el = h("div", { class: "cut" + (S.sel.includes(c.id) ? " sel" : "") + (primary() === c.id ? " pri" : ""), draggable: drag, onclick: (e) => select(c.id, e), ondblclick: () => { S.sel = [c.id]; setMode("layout"); } },
+    thumb(c), h("div", { class: "cap" }, h("span", {}, c.action || "（未寫）"), h("span", {}, c.duration + "s"), c.origin?.mock ? h("span", { class: "bd m" }, "MOCK") : h("span", { class: "bd" }, c.origin?.name ? c.origin.name.slice(0, 8) : "手動")));
+  if (drag) { el.addEventListener("dragstart", (e) => e.dataTransfer.setData("text/id", c.id)); el.addEventListener("dragover", (e) => e.preventDefault()); el.addEventListener("drop", (e) => { e.preventDefault(); const from = e.dataTransfer.getData("text/id"); if (!from || from === c.id) return; const ids = cuts().map((x) => x.id).filter((i) => i !== from); ids.splice(ids.indexOf(c.id) + (cuts().findIndex((x) => x.id === from) < cuts().findIndex((x) => x.id === c.id) ? 1 : 0), 0, from); post("reorder", { ids }, "已重排"); }); }
+  return el;
+}
+function board(b) {
+  b.append(h("div", { class: "row", style: "margin-bottom:10px" }, h("button", { class: "sm", onclick: () => post("add", { afterId: primary() }, "已新增空白 cut") }, "＋ Cut"), h("button", { class: "sm", disabled: !S.sel.length, onclick: async () => { await api(`/${S.w.id}/snapshot`, { note: "刪除前自動存檔" }); post("remove", { cutIds: S.sel }, "已刪除（可喺 History 回復版本）"); } }, "🗑 刪除所選"),
+    h("button", { class: "sm", onclick: () => setMode("compare") }, "⇄ 比較方案"), h("span", { class: "mu sm" }, "Ctrl/Shift 多選・拖動排序・雙擊進 Layout")));
+  if (S.gen) b.append(h("div", { class: "card", style: "border-color:var(--hi)" }, "🤖 AI 做緊（讀劇情同 canon、諗演出），完成會自動更新呢度…"));
+  const alts = S.w.proposals.filter((p) => p.status === "open");
+  if (alts.length) b.append(h("div", { class: "row sm", style: "margin-bottom:10px" }, h("span", { class: "mu" }, "AI 其他演出思路（撳就換成呢套，舊嘅可還原）："), ...alts.map((p) => h("button", { class: "sm", title: p.intent, onclick: () => post("adopt", { proposalId: p.id, reason: "換方案" }, `已換成「${p.name}」`) }, p.name)), h("button", { class: "sm", onclick: () => setMode("compare") }, "並排比較")));
+  if (!cuts().length && !S.gen) return b.append(h("div", { class: "card" }, h("div", {}, "呢場未有分鏡。"), h("button", { class: "pri", style: "margin-top:8px", onclick: async () => { S.gen = true; renderAll(); try { await post("propose", { auto: true }, "分鏡已生成"); } finally { S.gen = false; renderAll(); } } }, "🤖 AI 生成分鏡"), h("span", { class: "mu sm" }, "　或者右邊講方向、或者「＋ Cut」自己排")));
+  if (!cuts().length) return;
+  b.append(h("div", { class: "grid" }, cuts().map((c) => cutCard(c))));
+}
+function layout(b) {
+  const c = cutById(primary()); if (!c) return b.append(h("div", { class: "card" }, "未揀 cut。"));
+  const i = cuts().indexOf(c), prev = cuts()[i - 1];
+  const view = h("div", { style: "flex:2;min-width:320px" }, thumb(c)), plan = h("div", { html: planSvg(c) });
+  const save = (reason) => post("cut", { cutId: c.id, patch: { chars: c.layout.chars }, reason });
+  const live = () => view.replaceChildren(thumb(c));
+  let drag = null;
+  const set = (S.w.set ||= { env: "day", props: [] }), saveSet = (reason) => post("set", { set, reason });
+  plan.addEventListener("pointerdown", (e) => { const g = e.target.closest("g[data-n]"), q = e.target.closest("g[data-p]"); if (g) drag = g.dataset.n; else if (q) drag = { p: +q.dataset.p }; if (drag !== null) plan.setPointerCapture(e.pointerId); });
+  plan.addEventListener("pointermove", (e) => {
+    if (drag === null) return; const r = plan.firstElementChild.getBoundingClientRect(), p = typeof drag === "object" ? set.props[drag.p] : c.layout.chars.find((x) => x.name === drag);
+    p.x = Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)); p.y = Math.min(1, Math.max(0, ((e.clientY - r.top) / r.height * 100 - 3) / 85)); plan.innerHTML = planSvg(c); R3.setKey = null; live();
+  });
+  plan.addEventListener("pointerup", () => { if (drag === null) return; const was = drag; drag = null; typeof was === "object" ? saveSet("移動道具") : save("拖動站位"); });
+  const rows = c.layout.chars.map((p) => h("div", { class: "row sm", style: "margin:4px 0" }, h("b", { style: "width:60px" }, p.name),
+    h("select", { style: "width:auto", onchange: (e) => { p.pose = e.target.value; save("改姿勢"); } }, POSES.map((k) => h("option", { value: k, selected: p.pose === k }, POSE_ZH[k]))),
+    h("input", { type: "range", min: -180, max: 180, value: turnOf(p), style: "width:110px", title: "身體朝向（0＝向鏡頭）", oninput: (e) => { p.turn = +e.target.value; plan.innerHTML = planSvg(c); live(); }, onchange: () => save("轉朝向") }),
+    h("button", { class: "sm", onclick: () => { c.layout.chars = c.layout.chars.filter((x) => x !== p); save("移除人物"); } }, "✕")));
+  const cam = (k, opts) => h("select", { style: "width:auto", onchange: (e) => post("cut", { cutId: c.id, patch: { [k]: e.target.value }, reason: "改鏡頭" }) }, [...new Set([c[k], ...opts])].map((v) => h("option", { value: v, selected: v === c[k] }, v)));
+  b.append(h("div", { class: "row", style: "margin-bottom:8px" }, h("b", {}, `Cut ${num(c)}`), h("span", { class: "mu sm" }, "鏡頭："),
+    cam("shot_size", ["大遠景", "遠景", "全景", "全身", "中景", "近景", "特寫", "大特寫"]), cam("angle", ["平視", "低角", "仰角", "高角", "俯視", "鳥瞰", "側面平視", "背面平視", "斜側平視", "傾斜(Dutch)"]),
+    h("span", { class: "sp" }), h("button", { class: "sm", onclick: () => { const n = prompt("人物名："); if (n) { c.layout.chars.push({ name: n, x: .5, y: .5, facing: "right", pose: "stand" }); save("加人物"); } } }, "＋ 人物"),
+    h("button", { class: "sm", disabled: !prev, onclick: () => { S.sel = [prev.id]; renderAll(); } }, "← 上一格"), h("button", { class: "sm", disabled: !cuts()[i + 1], onclick: () => { S.sel = [cuts()[i + 1].id]; renderAll(); } }, "下一格 →")),
+    h("div", { class: "row", style: "align-items:flex-start;gap:14px" }, view,
+      h("div", { style: "flex:1;min-width:220px;max-width:340px" }, h("div", { class: "mu sm" }, "俯視站位（拖人移位；下面係鏡頭）"), plan,
+        h("div", { class: "card", style: "margin-top:8px" }, rows.length ? rows : h("div", { class: "mu sm" }, "呢格冇人物")),
+        h("div", { class: "card" }, h("div", { class: "row sm" }, h("b", {}, "場景（全場共用）"), h("select", { style: "width:auto", onchange: (e) => { set.env = e.target.value; saveSet("改環境"); } }, Object.entries(ENV).map(([k, v]) => h("option", { value: k, selected: set.env === k }, v[0]))),
+            h("select", { style: "width:auto", onchange: (e) => { if (!e.target.value) return; set.props.push({ type: e.target.value, x: .5, y: .25, turn: 0, scale: 1 }); saveSet("加道具"); } }, h("option", { value: "" }, "＋ 道具…"), PROPS.map((k) => h("option", { value: k }, PROP_ZH[k])))),
+          set.props.map((q, qi) => h("div", { class: "row sm", style: "margin:3px 0" }, h("span", { style: "width:60px" }, q.label || PROP_ZH[q.type]),
+            h("input", { type: "range", min: -180, max: 180, value: q.turn || 0, style: "width:80px", title: "轉向", oninput: (e) => { q.turn = +e.target.value; plan.innerHTML = planSvg(c); R3cache.clear(); live(); }, onchange: () => saveSet("轉道具") }),
+            h("input", { type: "range", min: .3, max: 4, step: .1, value: q.scale || 1, style: "width:70px", title: "大細", oninput: (e) => { q.scale = +e.target.value; plan.innerHTML = planSvg(c); R3cache.clear(); live(); }, onchange: () => saveSet("改道具大細") }),
+            h("button", { class: "sm", onclick: () => { set.props.splice(qi, 1); saveSet("刪道具"); } }, "✕")))))),
+    h("div", { class: "card mu", style: "margin-top:10px" }, h("b", {}, "畫面："), c.action, c.why ? h("div", {}, h("b", {}, "點解咁拍："), c.why) : null));
+}
+function candView(cand, compact) {
+  const box = h("div", { class: "card" }, h("div", { class: "sm" }, h("b", {}, "「" + (cand.instruction || "提出改善") + "」"), " ", cand.mock ? h("span", { class: "bd m" }, "MOCK") : null, h("span", { class: "mu" }, ` ${cand.skill.name}@${cand.skill.hash}`)));
+  cand.variants.forEach((v, vi) => {
+    const pairs = v.edits.map((e) => { const c = cutById(e.cutId); if (!c) return null; const after = withPatch(c, e.patch, e.chars); return h("div", { class: "pair" }, h("div", { class: "cut", style: "flex:1" }, thumb(c, { num: num(c) })), h("b", {}, "→"), h("div", { class: "cut", style: "flex:1" }, thumb(after, { num: num(c) }))); });
+    box.append(h("div", { class: "var" }, h("div", {}, h("b", {}, v.label)), h("div", { class: "sm mu" }, v.note), compact ? pairs.slice(0, 2) : pairs,
+      h("div", { class: "row" }, h("button", { class: "sm pri", onclick: () => post("apply", { candidateId: cand.id, variant: vi }, `已採納「${v.label}」（版本已存，可回復）`) }, "✅ 採納"))));
+  });
+  box.append(h("div", { class: "row" }, h("button", { class: "sm", onclick: () => post("dismiss", { candidateId: cand.id }, "已忽略") }, "忽略全部"), compact ? h("button", { class: "sm", onclick: () => setMode("compare") }, "放大比較") : null));
+  return box;
+}
+function compare(b) {
+  const open = (S.w.candidates || []).filter((k) => k.status === "open" || k.id === S.showAlt);
+  if (open.length) { b.append(h("h4", {}, "AI 建議嘅修改（現有 → 候選）")); open.forEach((k) => b.append(candView(k))); }
+  if (S.mix.length) b.append(h("div", { class: "tray" }, h("div", { class: "row" }, h("b", {}, `混合托盤（${S.mix.length}）`), h("span", { class: "mu sm" }, "按次序加入分鏡板尾"), h("span", { class: "sp" }), h("button", { class: "sm pri", onclick: async () => { await post("pick", { picks: S.mix.map((m) => ({ proposalId: m.p, cutId: m.c })), reason: "混合揀格" }, "已加入分鏡板"); S.mix = []; renderAll(); } }, "加入分鏡板"), h("button", { class: "sm", onclick: () => { S.mix = []; renderAll(); } }, "清空")),
+    h("div", { class: "strip" }, S.mix.map((m) => { const p = S.w.proposals.find((x) => x.id === m.p), c = p.cuts.find((x) => x.id === m.c); return h("div", { class: "cut" }, thumb(c, { num: p.name.slice(0, 2) + num(c) })); }))));
+  const ps = S.w.proposals.filter((p) => p.status !== "rejected");
+  if (!ps.length) return b.append(h("div", { class: "card" }, "未有方案。去 Outline 叫 AI 提方案。"));
+  b.append(h("h4", {}, `演出方案（${ps.length}）— 撳任何一格加入混合托盤`));
+  ps.forEach((p, pi) => {
+    const sec = p.cuts.reduce((a, c) => a + c.duration, 0);
+    b.append(h("div", { class: "prop" + (p.status === "adopted" ? " ad" : "") },
+      h("div", { class: "row" }, h("b", { style: "font-size:14px" }, String.fromCharCode(65 + pi) + " — " + p.name), p.status === "adopted" ? h("span", { class: "bd" }, "已採納") : null, p.meta.mock ? h("span", { class: "bd m" }, "MOCK 假資料") : h("span", { class: "mu sm" }, `${p.meta.provider}・${p.meta.skill.name}@${p.meta.skill.hash}`), h("span", { class: "sp" }), h("span", { class: "mu sm" }, `${p.cuts.length} 格・約 ${sec.toFixed(1)}s`),
+        h("button", { class: "sm pri", onclick: () => { const r = prompt("採納原因（可留空，會入紀錄）：", ""); if (r !== null) post("adopt", { proposalId: p.id, reason: r }, `已採納「${p.name}」`); } }, "✅ 採納整套"), h("button", { class: "sm", onclick: () => { const r = prompt("否決原因（可留空）：", ""); if (r !== null) post("reject", { proposalId: p.id, reason: r }, "已否決（紀錄保留）"); } }, "否決")),
+      h("div", { class: "sm", style: "margin:4px 0" }, h("span", { class: "mu" }, "想表達："), p.intent, "　", h("span", { class: "mu" }, "點解："), p.rationale),
+      h("div", { class: "strip" }, p.cuts.map((c) => { const inMix = S.mix.some((m) => m.c === c.id), el = h("div", { class: "cut" + (inMix ? " sel" : ""), title: (c.why || "") + "\n" + (c.continuity || ""), onclick: () => { S.mix = inMix ? S.mix.filter((m) => m.c !== c.id) : [...S.mix, { p: p.id, c: c.id }]; renderAll(); } }, thumb(c), h("div", { class: "cap" }, h("span", {}, c.action), h("span", {}, c.duration + "s"))); return el; })),
+      h("div", { class: "sm" }, h("span", { class: "ok", style: "color:var(--ok)" }, "＋ " + p.pros), "　", h("span", { class: "warn" }, "− " + p.cons), "　", h("span", { class: "mu" }, "犧牲：" + p.sacrifices))));
+  });
+}
+function preview(b) {
+  const c = cutById(primary()) || cuts()[0]; if (!c) return b.append(h("div", { class: "card" }, "冇 cut 可以播。"));
+  const st = h("div", { class: "stage", id: "stage" }, thumb(c, { num: num(c) }));
+  b.append(st, h("div", { class: "row", style: "justify-content:center;margin-top:8px" }, h("b", {}, `Cut ${num(c)} / ${cuts().length}`), h("span", { class: "mu" }, `${c.action}　（${c.duration}s・${/static|hold|固定/.test(c.camera_move) ? "hold" : c.camera_move}）`)));
+  if (S.play.on) { const m = c.camera_move || "", to = /push|zoom in/i.test(m) ? "scale(1.25)" : /pan/i.test(m) ? "translateX(-8%) scale(1.1)" : /T\.U\.|tilt up/i.test(m) ? "translateY(6%) scale(1.1)" : /T\.B\.|tilt down/i.test(m) ? "translateY(-6%) scale(1.1)" : "none"; if (to !== "none") st.firstElementChild.animate([{ transform: "none" }, { transform: to }], { duration: c.duration * 1000, fill: "forwards", easing: "linear" }); }
+}
+
+// ---------- right: AI Director ----------
+function renderRight() {
+  const R = $("#right"); R.replaceChildren(h("b", { style: "font-size:14px" }, "AI Director"), h("div", { class: "mu sm" }, "Selected: ", h("b", { style: "color:var(--hi)" }, ctxLabel())),
+    h("div", { class: "pane-tabs" }, ...[["ai", "AI"], ["props", "Properties"], ["hist", "History"], ["trace", "Trace"]].map(([k, n]) => h("div", { class: "t" + (S.rtab === k ? " on" : ""), onclick: () => { S.rtab = k; renderRight(); } }, n))));
+  if (!S.w) return;
+  const c = cutById(primary()); ({ ai: rAI, props: rProps, hist: rHist, trace: rTrace })[S.rtab](R, c);
+}
+function rAI(R, c) {
+  const ta = h("textarea", { rows: 3, placeholder: S.sel.length ? `對 ${ctxLabel()} 講…例：呢格改成低角度，但要保持前後鏡頭連貫` : "對整場講…例：整段節奏太平，提供更緊張嘅處理" });
+  const mock = h("input", { type: "checkbox", style: "width:auto" });
+  const go = async () => {
+    if (!ta.value.trim()) return toast("講低想點改");
+    if (!cuts().length) { toast("AI 按你嘅方向生成緊分鏡…"); S.gen = true; renderAll(); try { await post("propose", { auto: true, direction: ta.value, mock: mock.checked }, "分鏡已生成"); } finally { S.gen = false; renderAll(); } return; }
+    toast("AI 改緊…"); S.gen = true; renderAll();
+    try { const r = await post("suggest", { cutIds: S.sel, instruction: ta.value, mock: mock.checked, apply: true }); if (r) { S.last = r.candidate; toast("已改：" + r.candidate.variants[0].label); } } finally { S.gen = false; renderAll(); }
+  };
+  ta.addEventListener("keydown", (e) => { if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); go(); } });
+  const last = S.last && S.w.candidates?.find((k) => k.id === S.last.id);
+  R.append(ta, h("div", { class: "row", style: "margin-top:4px" }, h("button", { class: "pri sm", disabled: S.gen, onclick: go }, S.gen ? "AI 做緊…" : "✏️ 叫 AI 改"), h("label", { class: "sm mu" }, mock, " MOCK")),
+    h("div", { class: "chips" }, ...["低角度，保持前後連貫", "加長 hold，留多啲白", "改善同下一格嘅轉場", "整段節奏太平，加強張力"].map((t) => h("span", { onclick: () => { ta.value = t; ta.focus(); } }, t))),
+    h("div", { class: "mu sm" }, S.sel.length ? `Enter 送出：AI 會直接改 ${ctxLabel()}（顧及前後格），即刻生效。` : "冇揀 cut＝改整場。"),
+    last ? h("div", { class: "card", style: "margin-top:8px" }, h("div", { class: "sm" }, h("b", {}, "啱啱改咗：" + last.variants[last.chosen ?? 0].label)), h("div", { class: "sm mu" }, last.variants[last.chosen ?? 0].note),
+      h("div", { class: "row", style: "margin-top:6px" }, h("button", { class: "sm", onclick: () => post("restore", { v: S.w.board.version - 1 }, "已還原上一版") }, "↩ 還原"),
+        last.variants.length > 1 ? h("button", { class: "sm", onclick: () => { S.showAlt = last.id; setMode("compare"); } }, `其他改法（${last.variants.length - 1}）`) : null)) : "");
+}
+function rProps(R, c) {
+  if (!c) return R.append(h("div", { class: "mu" }, "未揀 cut"));
+  const f = (k, l, area) => { const i = h(area ? "textarea" : "input", { value: c[k], rows: 2 }); i.addEventListener("change", () => post("cut", { cutId: c.id, patch: { [k]: i.value }, reason: "改屬性" })); return h("div", { class: "field" }, h("label", {}, l), i); };
+  R.append(f("shot_size", "鏡頭大小"), f("angle", "角度"), f("camera_move", "鏡頭運動"), f("duration", "秒數"), f("action", "畫面發生咩", 1), f("reveals", "觀眾新知道咩", 1), f("continuity", "連續性", 1), f("why", "點解用呢種形式", 1));
+}
+function rHist(R, c) {
+  const evs = S.events.filter((e) => (c && (e.cut === c.id || e.edits?.some((x) => x.cut === c.id))) || ["decision.adopt", "decision.mix"].includes(e.type)).reverse();
+  R.append(h("h4", {}, "Versions"), ...S.w.versions.slice().reverse().map((v) => h("div", { class: "row sm", style: "padding:2px 0" }, h("span", { style: "flex:1" }, `v${v.v} ${v.note}`), h("button", { class: "sm", onclick: () => { if (confirm(`回復到 v${v.v}？（現有板會先存做新版本）`)) post("restore", { v: v.v }, "已回復"); } }, "回復"))));
+  R.append(h("h4", {}, c ? `Cut ${num(c)} 相關紀錄` : "紀錄"), ...evs.slice(0, 40).map((e) => h("div", { class: "sm", style: "padding:3px 0;border-bottom:1px solid var(--ln)" }, h("span", { class: "mu" }, e.t.slice(5, 16).replace("T", " ") + " "), ({ "decision.adopt": "✅ 採納方案", "decision.apply": "✅ 採納修改", "decision.mix": "🔀 混合", "cut.edit": "✏️ 改" + (e.by === "ai" ? "(AI)" : ""), "cut.reorder": "↔ 重排" })[e.type] || e.type, " ", e.name || e.variant || "", e.reason ? h("div", { class: "mu" }, "原因：" + e.reason) : null)));
+}
+function rTrace(R, c) {
+  if (!c) return R.append(h("div", { class: "mu" }, "未揀 cut"));
+  const o = c.origin, why = c.why;
+  R.append(h("h4", {}, "Why this shot"), h("div", { class: "sm" }, why || "（未記）"), h("h4", {}, "來源"), h("div", { class: "sm" }, o ? `${o.name}${o.mock ? "（MOCK）" : ""}` : "—"), h("h4", {}, "Skill"), h("div", { class: "sm" }, o?.skill ? `${o.skill.name}@${o.skill.hash}` : "—"),
+    h("h4", {}, "Source"), h("div", { class: "sm" }, S.w.source.ref || "貼入嘅劇情"), h("h4", {}, "Continuity"), h("div", { class: "sm" }, c.continuity || "—"), h("h4", {}, "Reveals"), h("div", { class: "sm" }, c.reveals || "—"));
+}
+
+// ---------- bottom timeline + playback ----------
+function renderFoot() {
+  const F = $("#foot"); if (!S.w) return F.replaceChildren(h("span", { class: "mu sm" }, "Timeline"));
+  const tot = total(), head = h("div", { class: "tl" }, h("button", { class: "sm", onclick: () => { S.tlOpen = !S.tlOpen; store.set("sb.tl", S.tlOpen); renderFoot(); } }, S.tlOpen ? "▾" : "▸"), h("button", { class: "sm pri", onclick: togglePlay }, S.play.on ? "⏸ Pause" : "▶ Play"), h("span", { class: "mu sm" }, `${tot.toFixed(1)}s・${cuts().length} cuts`), h("span", { class: "sp" }), h("span", { class: "mu sm" }, "空白鍵播放／暫停"));
+  F.replaceChildren(head);
+  if (!S.tlOpen || !cuts().length) return;
+  const tr = h("div", { class: "track", style: "margin-top:6px" }, cuts().map((c) => h("div", { class: "blk" + (S.sel.includes(c.id) ? " sel" : ""), style: `flex:${c.duration} 1 0`, title: c.action, onclick: (e) => { e.stopPropagation(); select(c.id, e); } }, num(c) + " " + c.shot_size)));
+  tr.append(h("div", { class: "ph", id: "ph", style: "left:0" }));
+  tr.addEventListener("click", (e) => { const r = tr.getBoundingClientRect(), t = (e.clientX - r.left) / r.width * tot; let a = 0; for (const c of cuts()) { if (t < a + c.duration) { S.sel = [c.id]; S.play.t = a; break; } a += c.duration; } renderAll(); });
+  F.append(tr); movePh();
+}
+function movePh() { const p = $("#ph"); if (!p) return; let a = 0; for (const c of cuts()) { if (c.id === primary()) break; a += c.duration; } p.style.left = (a / (total() || 1) * 100) + "%"; }
+function togglePlay() {
+  if (S.play.on) { clearTimeout(S.play.timer); S.play.on = false; return renderAll(); }
+  if (!cuts().length) return; S.play.on = true; S.mode = "preview";
+  let i = Math.max(0, cuts().findIndex((c) => c.id === primary())); if (i === cuts().length - 1) i = 0;
+  const step = () => { if (!S.play.on) return; const c = cuts()[i]; S.sel = [c.id]; renderAll(); S.play.timer = setTimeout(() => { if (++i >= cuts().length) { S.play.on = false; return renderAll(); } step(); }, c.duration * 1000); };
+  step();
+}
+
+function renderAll() { renderLeft(); renderMain(); renderRight(); renderFoot(); $("#ver").textContent = S.w ? `${S.w.title}・版本 ${S.w.board.version}` : ""; }
+
+// ---------- boot ----------
+$("#workSel").onchange = (e) => open(e.target.value);
+$("#saveBtn").onclick = async () => { if (!S.w) return; const n = prompt("版本備註："); if (n !== null) post("snapshot", { note: n }, "已存版本"); };
+function newScene(d = {}) {
+  const t = h("input", { placeholder: "標題（可留空）", value: d.title || "" }), r = h("input", { placeholder: "來源（檔名／場景）", value: d.ref || "" }), x = h("textarea", { rows: 8, placeholder: "貼一段劇情／beat…", value: d.text || "" });
+  const m = h("div", { class: "modal", onclick: (e) => { if (e.target === m) m.remove(); } }, h("div", {}, h("h4", {}, "新 Scene"), h("div", { class: "field" }, t), h("div", { class: "field" }, r), h("div", { class: "field" }, x), h("div", { class: "row" }, h("button", { class: "pri", onclick: async () => { try { const w = await api("", { title: t.value, ref: r.value, text: x.value }); m.remove(); await loadWorks(); S.mode = "outline"; await open(w.id); } catch (e) { toast("失敗：" + e.message); } } }, "建立"), h("button", { onclick: () => m.remove() }, "取消"))));
+  document.body.append(m);
+}
+$("#newBtn").onclick = () => newScene();
+addEventListener("keydown", (e) => { if (/INPUT|TEXTAREA|SELECT/.test(e.target.tagName) || !S.w) return; const i = cuts().findIndex((c) => c.id === primary());
+  if (e.code === "Space") { e.preventDefault(); togglePlay(); } else if (e.key === "ArrowRight" && cuts()[i + 1]) select(cuts()[i + 1].id); else if (e.key === "ArrowLeft" && cuts()[i - 1]) select(cuts()[i - 1].id); });
+(async () => {
+  S.index = await fetch("/api/index").then((r) => r.json()).catch(() => null);
+  if (!S.openBd.size) (S.index?.beats?.boards || []).filter((b) => b.current === "CURRENT").slice(0, 1).forEach((b) => S.openBd.add(b.file));
+  addEventListener("beforeunload", () => store.set("sb.openBd", [...S.openBd]));
+  await loadWorks(); renderAll();
+  const qs = new URLSearchParams(location.search), id = new URLSearchParams(location.hash.slice(1)).get("w");
+  if (id) await open(id); else if (S.works[0] && !qs.get("new")) await open(S.works[0].id);
+  if (qs.get("new")) { const d = store.get("studioDraft", null); store.set("studioDraft", null); history.replaceState(null, "", "/studio.html"); newScene(d || {}); }
+})();
+</script></body></html>

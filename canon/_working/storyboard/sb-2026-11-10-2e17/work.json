@@ -1,0 +1,1488 @@
+{
+ "id": "sb-2026-11-10-2e17",
+ "title": "B8 戰後·安全區（有錯位嘅暖）",
+ "created": "2026-11-10T08:43:41.797Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B8 戰後·安全區（有錯位嘅暖）】市民歡呼求簽名；操避鏡頭；路人向操道謝，操冷處理否認，轉身後一瞬被打動（只觀眾見）【改：補 CDL-322 三重解讀，D】；晴香睇到佢否認。三人名義上組隊，但未熟、有距離（操撐傘先走）。\n（功能：戰後暖收束（有錯位嘅暖，D-13 作者決定嘅暖對比底色）；燈塔效應明示；三人未熟嘅團隊狀態；神秘身影鋪墊（為 M1 紫音登場做準備））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B8"
+ },
+ "proposals": [
+  {
+   "id": "p8286e5",
+   "name": "跟住晴香睇：先熱鬧後背影",
+   "intent": "觀眾先跟晴香一齊感受到戰後歡呼嘅暖，再同晴香一齊見到操冷冷否認，最後鏡頭離開晴香、比觀眾偷睇到操轉身後一瞬被打動——觀眾比晴香知多一步，暖得有錯位。",
+   "rationale": "劇情寫明「晴香睇到佢否認」同「轉身後一瞬被打動（只觀眾見）」，所以資訊次序天然係：晴香視角收到否認 → 視角交返畀觀眾。操嘅三重解讀（晴香當佢善良、路人當佢救命恩人、操自己私下動搖）靠視角切換分開，而唔係靠對白講出嚟。傘半開偏右前方係操嘅固定姿態（角色檔），用嚟做佢收埋自己嘅遮擋。",
+   "pros": "情感路線最清楚，同 B6 晴香擋攻擊之後嘅關係延續順；只觀眾見嗰格好有力。",
+   "cons": "手法比較常規；晴香主觀佔咗大半，美夜子存在感弱。",
+   "sacrifices": "犧牲咗街道整體空間感同直播社會層面（燈塔效應只係背景聲）；神秘身影只能好細咁塞喺一格背景。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:43:41.820Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md",
+     "canon/03_characters/ayakomoji_misao.md"
+    ],
+    "cost": 0.8415113999999999
+   },
+   "set": {
+    "env": "day",
+    "props": [
+     {
+      "type": "building",
+      "x": 0.1,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3,
+      "label": "街邊樓"
+     },
+     {
+      "type": "building",
+      "x": 0.9,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3.5,
+      "label": "高樓（遠處身影）"
+     },
+     {
+      "type": "rubble",
+      "x": 0.6,
+      "y": 0.35,
+      "turn": 0,
+      "scale": 1,
+      "label": "戰後碎石"
+     },
+     {
+      "type": "pole",
+      "x": 0.7,
+      "y": 0.3,
+      "turn": 0,
+      "scale": 1.2,
+      "label": "街燈"
+     },
+     {
+      "type": "car",
+      "x": 0.15,
+      "y": 0.3,
+      "turn": 20,
+      "scale": 1,
+      "label": "停低嘅車"
+     }
+    ]
+   },
+   "cuts": [
+    {
+     "id": "c7d9daf",
+     "n": 1,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "pan",
+     "duration": 4,
+     "action": "戰後街道，市民由畫面左湧入圍住晴香歡呼、遞嘢要簽名；美夜子企喺晴香後面少少；操喺畫面右邊遠處，背向人群。",
+     "reveals": "危機過咗，安全區有暖；三人站位已經分開。",
+     "continuity": "人群由左向右湧；晴香喺中間偏左，操喺右遠，之後全場保持操喺右邊。",
+     "why": "用 pan 由人群掃到操，一個鏡頭交代熱鬧同距離兩件事。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.6,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       },
+       {
+        "name": "美夜子",
+        "x": 0.3,
+        "y": 0.45,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 20
+       },
+       {
+        "name": "市民",
+        "x": 0.2,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 60
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.25,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c4c363e",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "有市民舉手機想影操，操將半開嘅傘轉向擋住鏡頭方向，冇講嘢。",
+     "reveals": "操避鏡頭——佢唔想被公眾見到。",
+     "continuity": "操喺右，傘偏右前方，市民喺左；市民眼神向右。",
+     "why": "用傘做動作代替對白，交代佢避鏡，亦重提傘＝佢同世界之間嘅距離。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.65,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "guard",
+        "turn": -60
+       },
+       {
+        "name": "市民",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "point",
+        "turn": 80
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c28de88",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視 斜側",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "之前被救嘅路人行埋去操面前低頭道謝；操冷冷咁否認，話自己冇特別做咩。前景虛焦係晴香嘅膊頭。",
+     "reveals": "路人當佢係救命恩人；操嘴硬否認。晴香喺度睇住。",
+     "continuity": "晴香前景左背向鏡頭（佢嘅視線向右）；路人喺中，向右望操；操喺右向左望路人。",
+     "why": "過膊鏡令觀眾自然代入晴香，否認係「晴香睇到嘅」。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.15,
+        "y": 0.9,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 150
+       },
+       {
+        "name": "路人",
+        "x": 0.45,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "kneel",
+        "turn": 80
+       },
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.45,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -80
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c82fd05",
+     "n": 4,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香望住操，輕輕笑咗一下。",
+     "reveals": "晴香嘅讀法：佢明明係好人，只係口硬。",
+     "continuity": "晴香向右望，eyeline 對返上一格操嘅位置。",
+     "why": "短近景收晴香嘅解讀，唔使講對白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.45,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 70
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8531ff",
+     "n": 5,
+     "shot_size": "近景",
+     "angle": "平視 背面",
+     "camera_move": "push",
+     "duration": 3,
+     "action": "操轉身行開，鏡頭喺佢背後慢慢推近；傘面遮住半邊，佢喺傘下腳步停咗半拍，手指捉緊傘柄。",
+     "reveals": "只有觀眾見到：佢其實被打動咗。晴香見唔到呢一下。",
+     "continuity": "操向畫面右遠離鏡頭，背向晴香同鏡頭；人群聲在左後。",
+     "why": "唔影佢塊面，用背影同手部細動作交代動搖，保留佢嘅防衛，亦令觀眾要自己察覺。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.55,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 170
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ce0b90f",
+     "n": 6,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "晴香同美夜子留喺人群度，操撐住傘一個人先行出畫右邊；遠處建築頂有一個好細嘅模糊身影一閃而過。",
+     "reveals": "三人名義組隊但未熟；有人喺遠處睇住佢哋。",
+     "continuity": "操繼續向右離場；晴香美夜子留左；身影喺右上遠處。",
+     "why": "遠景收束交代距離，同時將神秘身影收得好細，唔搶戲。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 60
+       },
+       {
+        "name": "美夜子",
+        "x": 0.22,
+        "y": 0.55,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 50
+       },
+       {
+        "name": "操",
+        "x": 0.85,
+        "y": 0.4,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 120
+       },
+       {
+        "name": "神秘身影",
+        "x": 0.9,
+        "y": 0.05,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p7c8d1d",
+   "name": "直播框內外：公眾畫面同私人一瞬",
+   "intent": "觀眾見到同一件事有兩個版本：直播／市民手機畫面入面係光鮮英雄時刻（燈塔效應），而畫面框之外先有真嘅操。暖係屬於畫面內嘅，操嘅動搖只喺框外——觀眾意識到「被睇見」同「真實」錯開。",
+   "rationale": "呢段發生喺直播中嘅日區街道（劇情標題寫明「直播中」），而操嘅性格核心之一係避開被觀看（角色檔：戴眼罩避鏡、傘做遮擋姿態）。用直播框做資訊次序：先交代公眾版，再切到框外，令操嘅三重解讀之中「自己私下嘅一層」同公眾解讀形成實際嘅畫面對比。直播大屏嘅存在係 unverified，可改用市民手機畫面。",
+   "pros": "主題感強，扣住直播／被觀看呢條全作線；操避鏡變成構圖規則，唔使額外解釋。",
+   "cons": "畫中畫／直播 UI 製作量較大；如果直播介面設定未定，可能要返工。晴香嘅「睇到否認」要另外交代，冇方案一咁親密。",
+   "sacrifices": "犧牲咗晴香主觀情感嘅連貫；直播 UI 樣式要待定，設定上有 unverified 風險。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:43:41.820Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md",
+     "canon/03_characters/ayakomoji_misao.md"
+    ],
+    "cost": 0.8415113999999999
+   },
+   "set": {
+    "env": "day",
+    "props": [
+     {
+      "type": "screen",
+      "x": 0.5,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 2.5,
+      "label": "直播大屏（未確認）"
+     },
+     {
+      "type": "building",
+      "x": 0.15,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3,
+      "label": "街邊樓"
+     },
+     {
+      "type": "building",
+      "x": 0.88,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3.5,
+      "label": "樓頂（人影）"
+     },
+     {
+      "type": "pole",
+      "x": 0.75,
+      "y": 0.3,
+      "turn": 0,
+      "scale": 1.2,
+      "label": "街燈（死角位）"
+     },
+     {
+      "type": "rubble",
+      "x": 0.6,
+      "y": 0.45,
+      "turn": 0,
+      "scale": 1,
+      "label": "碎石"
+     }
+    ]
+   },
+   "cuts": [
+    {
+     "id": "cbaf5aa",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "（直播／手機畫面格式）晴香向鏡頭揮手，市民圍住歡呼；畫面邊緣有一把深色傘一閃就出咗框。",
+     "reveals": "公眾見到嘅版本：開心勝利；操刻意喺框外。",
+     "continuity": "晴香喺中；傘喺畫面右邊緣出框（向右）。",
+     "why": "先俾觀眾睇公眾版本，建立「被睇見嘅暖」。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       },
+       {
+        "name": "市民",
+        "x": 0.25,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 40
+       },
+       {
+        "name": "操",
+        "x": 0.97,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 110
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c06dde2",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "高角",
+     "camera_move": "T.B.",
+     "duration": 4,
+     "action": "鏡頭拉後到直播畫面以外：見到市民舉住手機、晴香喺人群中心，美夜子企開少少，操喺所有手機嘅死角位，背對人群。",
+     "reveals": "畫面外嘅真實站位：操刻意企喺冇人影到嘅位置。",
+     "continuity": "手機全部向左（向晴香）；操喺右後，背對手機。",
+     "why": "T.B. 由框內退到框外，令觀眾意識到剛才係被剪裁過嘅畫面。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.35,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 20
+       },
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -20
+       },
+       {
+        "name": "市民",
+        "x": 0.2,
+        "y": 0.65,
+        "facing": "right",
+        "pose": "point",
+        "turn": 60
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.35,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cd434b2",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視 側面",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "路人行到死角位搵操道謝；操冷冷否認；畫面左邊遠處晴香望過嚟。",
+     "reveals": "道謝同否認都發生喺鏡頭之外，只有晴香同觀眾睇到。",
+     "continuity": "路人左、操右，對峙 90／-90；晴香喺左後遠，eyeline 向右。",
+     "why": "側面平視好似旁觀者，強調呢一刻冇被直播，係私下嘅。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.4,
+        "y": 0.55,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       },
+       {
+        "name": "操",
+        "x": 0.62,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       },
+       {
+        "name": "晴香",
+        "x": 0.1,
+        "y": 0.25,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 70
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c30cc33",
+     "n": 4,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "路人離開後，操喺傘下垂眼，嘴角極輕微鬆咗一下，好快收返。",
+     "reveals": "只觀眾見：佢被打動。",
+     "continuity": "操面向畫面左（路人離開方向），傘在右上遮半邊。",
+     "why": "止め絵式短 hold，係全場唯一一格近到睇清操塊面——因為呢格冇任何鏡頭／人望住佢。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -40
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cdfb68c",
+     "n": 5,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "（再返直播畫面格式）彈幕／點讚繼續湧，晴香同美夜子入鏡，操嘅位置係空嘅。",
+     "reveals": "公眾版本入面冇操；佢已經自己先走。",
+     "continuity": "晴香左、美夜子右；畫面右邊留空（操原本位置）。",
+     "why": "返返框內做首尾呼應，空位交代「未熟、有距離」。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 10
+       },
+       {
+        "name": "美夜子",
+        "x": 0.55,
+        "y": 0.6,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -10
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cecc9e6",
+     "n": 6,
+     "shot_size": "大遠景",
+     "angle": "俯視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "街道俯瞰：操一把深色傘沿街向右遠去；某棟樓頂有一個人影望落街。",
+     "reveals": "操一個人走；另外有人喺鏡頭以外睇住。",
+     "continuity": "操繼續向右；人影位置喺畫面右上，視線向下望街。",
+     "why": "俯視似「另一個觀看者」嘅角度，為神秘身影鋪墊，又同直播觀看形成第三層視線。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 120
+       },
+       {
+        "name": "神秘身影",
+        "x": 0.85,
+        "y": 0.1,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -120
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pe8697c",
+   "name": "一個固定遠景：用距離講關係",
+   "intent": "觀眾唔被帶入任何一個人，而係好似站喺街對面睇住三個未熟嘅人點樣喺同一個空間裏面保持距離；操嘅動搖細到要觀眾自己發現，暖係淡淡嘅、帶少少寂寞。",
+   "rationale": "B8 係「暖對比底色」嘅非推進 beat（劇情標 N），功能係氣氛同三人關係狀態，唔需要強烈情緒推進。三重解讀如果唔靠剪接分開，就靠空間：三個人各自喺畫面一角，觀眾自己比較佢哋嘅反應。操「每句話先審核三遍」嘅節能式沉默（角色檔）適合用長 hold 留白。",
+   "pros": "cut 少、製作量低；留白同戰鬥嘅快切形成最大節奏反差，真係「呼吸位」。",
+   "cons": "操嘅一瞬被打動喺遠景好易被忽略；玩家可能覺得平淡。",
+   "sacrifices": "犧牲咗觀眾對任何一個角色嘅親密度同面部表情資訊；靠極少嘅插入鏡去救重點。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:43:41.820Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md",
+     "canon/03_characters/ayakomoji_misao.md"
+    ],
+    "cost": 0.8415113999999999
+   },
+   "set": {
+    "env": "day",
+    "props": [
+     {
+      "type": "building",
+      "x": 0.05,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3,
+      "label": "街邊樓"
+     },
+     {
+      "type": "building",
+      "x": 0.92,
+      "y": 0.02,
+      "turn": 0,
+      "scale": 3.5,
+      "label": "遠處樓頂"
+     },
+     {
+      "type": "rubble",
+      "x": 0.75,
+      "y": 0.35,
+      "turn": 0,
+      "scale": 1.3,
+      "label": "戰鬥碎石"
+     },
+     {
+      "type": "pole",
+      "x": 0.6,
+      "y": 0.4,
+      "turn": 0,
+      "scale": 1.2,
+      "label": "街燈"
+     },
+     {
+      "type": "car",
+      "x": 0.35,
+      "y": 0.35,
+      "turn": 30,
+      "scale": 1,
+      "label": "打爛嘅車"
+     }
+    ]
+   },
+   "cuts": [
+    {
+     "id": "c972fac",
+     "n": 1,
+     "shot_size": "大遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "一個固定長鏡：前景市民圍住晴香歡呼簽名，中景美夜子靜靜企開，後景操撐傘企喺碎石邊，路人行過去向佢道謝，操擺擺手否認；晴香喺人群中望過去。",
+     "reveals": "三個人三個位置，三種反應同時發生；晴香望到操否認。",
+     "continuity": "晴香左前、美夜子中、操右後；路人由中行向右後；晴香 eyeline 向右後。",
+     "why": "長 hold 唔剪，觀眾自己揀睇邊度，似現實中嘅旁觀；三重解讀同時並存喺同一畫面。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.25,
+        "y": 0.75,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 60
+       },
+       {
+        "name": "市民",
+        "x": 0.15,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 70
+       },
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -20
+       },
+       {
+        "name": "路人",
+        "x": 0.68,
+        "y": 0.35,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.3,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cb24772",
+     "n": 2,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "插入：操握傘柄嘅手，指節收緊咗一下。",
+     "reveals": "只觀眾見：佢唔係冇感覺。",
+     "continuity": "手同傘柄位置同上一格操嘅右手一致；傘仍偏右前方。",
+     "why": "唔影塊面，只畀一個身體細節，保持操嘅保護殼，又確保觀眾唔會漏咗呢一瞬。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.9,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -60
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c3b1f1e",
+     "n": 3,
+     "shot_size": "大遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "返同一個固定鏡：人群漸散，操一個人撐傘向右行出畫；晴香同美夜子仍喺原位，中間隔住一大片空街；遠處建築頂一個好細嘅人影。",
+     "reveals": "三人名義組隊但距離仍大；有人喺遠處。",
+     "continuity": "同第一格完全同一機位，令變化（人散、操走）一眼睇得出；操向右出畫。",
+     "why": "同一機位前後對比，用空位講關係；神秘身影放喺固定鏡角落，唔用剪接強調，留畀細心觀眾。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.25,
+        "y": 0.75,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 70
+       },
+       {
+        "name": "美夜子",
+        "x": 0.45,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 60
+       },
+       {
+        "name": "操",
+        "x": 0.95,
+        "y": 0.3,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 110
+       },
+       {
+        "name": "神秘身影",
+        "x": 0.92,
+        "y": 0.03,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "ca8a497",
+    "n": 1,
+    "shot_size": "全景",
+    "angle": "平視",
+    "camera_move": "pan",
+    "duration": 4,
+    "action": "戰後街道，市民由畫面左湧入圍住晴香歡呼、遞嘢要簽名；美夜子企喺晴香後面少少；操喺畫面右邊遠處，背向人群。",
+    "reveals": "危機過咗，安全區有暖；三人站位已經分開。",
+    "continuity": "人群由左向右湧；晴香喺中間偏左，操喺右遠，之後全場保持操喺右邊。",
+    "why": "用 pan 由人群掃到操，一個鏡頭交代熱鬧同距離兩件事。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.4,
+       "y": 0.6,
+       "facing": "left",
+       "pose": "stand",
+       "turn": -30
+      },
+      {
+       "name": "美夜子",
+       "x": 0.3,
+       "y": 0.45,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 20
+      },
+      {
+       "name": "市民",
+       "x": 0.2,
+       "y": 0.7,
+       "facing": "right",
+       "pose": "reach",
+       "turn": 60
+      },
+      {
+       "name": "操",
+       "x": 0.8,
+       "y": 0.25,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 160
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "ce7bb91",
+    "n": 2,
+    "shot_size": "中景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 3,
+    "action": "有市民舉手機想影操，操將半開嘅傘轉向擋住鏡頭方向，冇講嘢。",
+    "reveals": "操避鏡頭——佢唔想被公眾見到。",
+    "continuity": "操喺右，傘偏右前方，市民喺左；市民眼神向右。",
+    "why": "用傘做動作代替對白，交代佢避鏡，亦重提傘＝佢同世界之間嘅距離。",
+    "layout": {
+     "chars": [
+      {
+       "name": "操",
+       "x": 0.65,
+       "y": 0.55,
+       "facing": "left",
+       "pose": "guard",
+       "turn": -60
+      },
+      {
+       "name": "市民",
+       "x": 0.3,
+       "y": 0.6,
+       "facing": "right",
+       "pose": "point",
+       "turn": 80
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "ca911ef",
+    "n": 3,
+    "shot_size": "中景",
+    "angle": "平視 斜側",
+    "camera_move": "static",
+    "duration": 4,
+    "action": "之前被救嘅路人行埋去操面前低頭道謝；操冷冷咁否認，話自己冇特別做咩。前景虛焦係晴香嘅膊頭。",
+    "reveals": "路人當佢係救命恩人；操嘴硬否認。晴香喺度睇住。",
+    "continuity": "晴香前景左背向鏡頭（佢嘅視線向右）；路人喺中，向右望操；操喺右向左望路人。",
+    "why": "過膊鏡令觀眾自然代入晴香，否認係「晴香睇到嘅」。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.15,
+       "y": 0.9,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 150
+      },
+      {
+       "name": "路人",
+       "x": 0.45,
+       "y": 0.5,
+       "facing": "right",
+       "pose": "kneel",
+       "turn": 80
+      },
+      {
+       "name": "操",
+       "x": 0.7,
+       "y": 0.45,
+       "facing": "left",
+       "pose": "stand",
+       "turn": -80
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c4bd69b",
+    "n": 4,
+    "shot_size": "近景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "晴香望住操，輕輕笑咗一下。",
+    "reveals": "晴香嘅讀法：佢明明係好人，只係口硬。",
+    "continuity": "晴香向右望，eyeline 對返上一格操嘅位置。",
+    "why": "短近景收晴香嘅解讀，唔使講對白。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.45,
+       "y": 0.7,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 70
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c7a3741",
+    "n": 5,
+    "shot_size": "近景",
+    "angle": "平視 背面",
+    "camera_move": "push",
+    "duration": 3,
+    "action": "操轉身行開，鏡頭喺佢背後慢慢推近；傘面遮住半邊，佢喺傘下腳步停咗半拍，手指捉緊傘柄。",
+    "reveals": "只有觀眾見到：佢其實被打動咗。晴香見唔到呢一下。",
+    "continuity": "操向畫面右遠離鏡頭，背向晴香同鏡頭；人群聲在左後。",
+    "why": "唔影佢塊面，用背影同手部細動作交代動搖，保留佢嘅防衛，亦令觀眾要自己察覺。",
+    "layout": {
+     "chars": [
+      {
+       "name": "操",
+       "x": 0.55,
+       "y": 0.6,
+       "facing": "right",
+       "pose": "walk",
+       "turn": 170
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "cfa2f1b",
+    "n": 6,
+    "shot_size": "遠景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 4,
+    "action": "晴香同美夜子留喺人群度，操撐住傘一個人先行出畫右邊；遠處建築頂有一個好細嘅模糊身影一閃而過。",
+    "reveals": "三人名義組隊但未熟；有人喺遠處睇住佢哋。",
+    "continuity": "操繼續向右離場；晴香美夜子留左；身影喺右上遠處。",
+    "why": "遠景收束交代距離，同時將神秘身影收得好細，唔搶戲。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.3,
+       "y": 0.6,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 60
+      },
+      {
+       "name": "美夜子",
+       "x": 0.22,
+       "y": 0.55,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 50
+      },
+      {
+       "name": "操",
+       "x": 0.85,
+       "y": 0.4,
+       "facing": "right",
+       "pose": "walk",
+       "turn": 120
+      },
+      {
+       "name": "神秘身影",
+       "x": 0.9,
+       "y": 0.05,
+       "facing": "left",
+       "pose": "stand",
+       "turn": -30
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p8286e5",
+     "name": "跟住晴香睇：先熱鬧後背影",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "p8286e5"
+  ],
+  "version": 1
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:45:23.482Z",
+   "note": "AI 生成：跟住晴香睇：先熱鬧後背影",
+   "cuts": [
+    {
+     "id": "ca8a497",
+     "n": 1,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "pan",
+     "duration": 4,
+     "action": "戰後街道，市民由畫面左湧入圍住晴香歡呼、遞嘢要簽名；美夜子企喺晴香後面少少；操喺畫面右邊遠處，背向人群。",
+     "reveals": "危機過咗，安全區有暖；三人站位已經分開。",
+     "continuity": "人群由左向右湧；晴香喺中間偏左，操喺右遠，之後全場保持操喺右邊。",
+     "why": "用 pan 由人群掃到操，一個鏡頭交代熱鬧同距離兩件事。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.6,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       },
+       {
+        "name": "美夜子",
+        "x": 0.3,
+        "y": 0.45,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 20
+       },
+       {
+        "name": "市民",
+        "x": 0.2,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 60
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.25,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "ce7bb91",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "有市民舉手機想影操，操將半開嘅傘轉向擋住鏡頭方向，冇講嘢。",
+     "reveals": "操避鏡頭——佢唔想被公眾見到。",
+     "continuity": "操喺右，傘偏右前方，市民喺左；市民眼神向右。",
+     "why": "用傘做動作代替對白，交代佢避鏡，亦重提傘＝佢同世界之間嘅距離。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.65,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "guard",
+        "turn": -60
+       },
+       {
+        "name": "市民",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "point",
+        "turn": 80
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "ca911ef",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視 斜側",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "之前被救嘅路人行埋去操面前低頭道謝；操冷冷咁否認，話自己冇特別做咩。前景虛焦係晴香嘅膊頭。",
+     "reveals": "路人當佢係救命恩人；操嘴硬否認。晴香喺度睇住。",
+     "continuity": "晴香前景左背向鏡頭（佢嘅視線向右）；路人喺中，向右望操；操喺右向左望路人。",
+     "why": "過膊鏡令觀眾自然代入晴香，否認係「晴香睇到嘅」。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.15,
+        "y": 0.9,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 150
+       },
+       {
+        "name": "路人",
+        "x": 0.45,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "kneel",
+        "turn": 80
+       },
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.45,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -80
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c4bd69b",
+     "n": 4,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香望住操，輕輕笑咗一下。",
+     "reveals": "晴香嘅讀法：佢明明係好人，只係口硬。",
+     "continuity": "晴香向右望，eyeline 對返上一格操嘅位置。",
+     "why": "短近景收晴香嘅解讀，唔使講對白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.45,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 70
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c7a3741",
+     "n": 5,
+     "shot_size": "近景",
+     "angle": "平視 背面",
+     "camera_move": "push",
+     "duration": 3,
+     "action": "操轉身行開，鏡頭喺佢背後慢慢推近；傘面遮住半邊，佢喺傘下腳步停咗半拍，手指捉緊傘柄。",
+     "reveals": "只有觀眾見到：佢其實被打動咗。晴香見唔到呢一下。",
+     "continuity": "操向畫面右遠離鏡頭，背向晴香同鏡頭；人群聲在左後。",
+     "why": "唔影佢塊面，用背影同手部細動作交代動搖，保留佢嘅防衛，亦令觀眾要自己察覺。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.55,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 170
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cfa2f1b",
+     "n": 6,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "晴香同美夜子留喺人群度，操撐住傘一個人先行出畫右邊；遠處建築頂有一個好細嘅模糊身影一閃而過。",
+     "reveals": "三人名義組隊但未熟；有人喺遠處睇住佢哋。",
+     "continuity": "操繼續向右離場；晴香美夜子留左；身影喺右上遠處。",
+     "why": "遠景收束交代距離，同時將神秘身影收得好細，唔搶戲。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 60
+       },
+       {
+        "name": "美夜子",
+        "x": 0.22,
+        "y": 0.55,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 50
+       },
+       {
+        "name": "操",
+        "x": 0.85,
+        "y": 0.4,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 120
+       },
+       {
+        "name": "神秘身影",
+        "x": 0.9,
+        "y": 0.05,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p8286e5",
+      "name": "跟住晴香睇：先熱鬧後背影",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ],
+   "set": {
+    "env": "day",
+    "props": [
+     {
+      "type": "building",
+      "x": 0.1,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3,
+      "label": "街邊樓"
+     },
+     {
+      "type": "building",
+      "x": 0.9,
+      "y": 0.05,
+      "turn": 0,
+      "scale": 3.5,
+      "label": "高樓（遠處身影）"
+     },
+     {
+      "type": "rubble",
+      "x": 0.6,
+      "y": 0.35,
+      "turn": 0,
+      "scale": 1,
+      "label": "戰後碎石"
+     },
+     {
+      "type": "pole",
+      "x": 0.7,
+      "y": 0.3,
+      "turn": 0,
+      "scale": 1.2,
+      "label": "街燈"
+     },
+     {
+      "type": "car",
+      "x": 0.15,
+      "y": 0.3,
+      "turn": 20,
+      "scale": 1,
+      "label": "停低嘅車"
+     }
+    ]
+   }
+  }
+ ],
+ "set": {
+  "env": "day",
+  "props": [
+   {
+    "type": "building",
+    "x": 0.1,
+    "y": 0.05,
+    "turn": 0,
+    "scale": 3,
+    "label": "街邊樓"
+   },
+   {
+    "type": "building",
+    "x": 0.9,
+    "y": 0.05,
+    "turn": 0,
+    "scale": 3.5,
+    "label": "高樓（遠處身影）"
+   },
+   {
+    "type": "rubble",
+    "x": 0.6,
+    "y": 0.35,
+    "turn": 0,
+    "scale": 1,
+    "label": "戰後碎石"
+   },
+   {
+    "type": "pole",
+    "x": 0.7,
+    "y": 0.3,
+    "turn": 0,
+    "scale": 1.2,
+    "label": "街燈"
+   },
+   {
+    "type": "car",
+    "x": 0.15,
+    "y": 0.3,
+    "turn": 20,
+    "scale": 1,
+    "label": "停低嘅車"
+   }
+  ]
+ }
+}

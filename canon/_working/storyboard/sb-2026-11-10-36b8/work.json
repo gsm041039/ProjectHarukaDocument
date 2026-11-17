@@ -1,0 +1,1274 @@
+{
+ "id": "sb-2026-11-10-36b8",
+ "title": "空教室（測試）",
+ "created": "2026-11-10T07:39:28.668Z",
+ "source": {
+  "text": "晴香推開教室門，發現入面空無一人。佢停低，冇即刻離開。",
+  "ref": "用戶例子"
+ },
+ "proposals": [
+  {
+   "id": "p3dbd14",
+   "name": "純留白・靜止等待",
+   "intent": "令觀眾同晴香一齊停喺空教室入面，唔俾答案，只留住「冇人」嘅感覺。",
+   "rationale": "劇情講佢「停低，冇即刻離開」，重點係停，唔係發現。用靜止長鏡頭俾觀眾同佢一齊等，唔替佢解釋。教室佈局未核對設定，標 unverified。",
+   "pros": "觀眾要自己決定佢喺等乜，張力純粹靠時間同空間撐住。",
+   "cons": "冇任何動作推進，節奏慢；觀眾可能覺得冇嘢發生。",
+   "sacrifices": "犧牲節奏同即時資訊；要靠 hold 嘅長度撐住。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T07:39:28.677Z",
+    "direction": "想有一案係純留白",
+    "reads": [],
+    "cost": 0.016348599999999998
+   },
+   "cuts": [
+    {
+     "id": "cff5141",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cf1dbbc",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca415fa",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p05290d",
+   "name": "先主觀，後抽離",
+   "intent": "先俾觀眾跟住晴香嘅視線掃過房間，再拉遠見佢孤身一人，令「冇人」變成佢一個人嘅感受。",
+   "rationale": "劇情重點係佢見到空房；用主觀鏡頭將觀察權交俾佢，然後拉遠令觀眾見到佢有幾孤單。",
+   "pros": "觀眾好似同晴香一齊搜尋，之後拉遠會有情感落差。",
+   "cons": "主觀鏡頭會令觀眾期待房內有嘢，之後若冇就需要處理呢個期待。",
+   "sacrifices": "犧牲全局空間感，觀眾先只見到一小部分房間。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T07:39:28.677Z",
+    "direction": "想有一案係純留白",
+    "reads": [],
+    "cost": 0.016348599999999998
+   },
+   "cuts": [
+    {
+     "id": "c12658d",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c264a15",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "晴香眼高（主觀）",
+     "camera_move": "pan",
+     "duration": 4,
+     "action": "視線由門口（畫面左）慢慢掃向右邊，停喺一排空座位上",
+     "reveals": "觀眾同佢一齊搵人，見到冇人",
+     "continuity": "主觀鏡頭無人物；pan 方向由左至右；門位同上格一致",
+     "why": "用視線交代佢喺搵緊人，觀眾跟住佢睇",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ce1f655",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 5,
+     "action": "鏡頭由主觀拉遠，見到晴香一個人站喺房中",
+     "reveals": "觀眾見到佢孤身一人，之前嘅搜尋變成佢一個人嘅感受",
+     "continuity": "晴香面向右，位置喺房中；門保持半開",
+     "why": "拉遠令同一個空間變成佢嘅孤單，唔用加多角色",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.35,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pd91615",
+   "name": "快切後突然靜止",
+   "intent": "用快切製造一下衝擊，然後突然靜止，令觀眾嘅心跳停低，等佢停低嘅感覺更重。",
+   "rationale": "劇情講佢冇即刻離開，所以快切之後停低係反差；快切令觀眾以為會有事，靜止令觀眾意識到冇事發生。",
+   "pros": "節奏反差強，停低嗰一刻最有份量。",
+   "cons": "快切令觀眾期待衝突；若之後冇衝突，會變成誤導。",
+   "sacrifices": "犧牲純粹留白嘅平靜感；快切需要多幾個 cut。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T07:39:28.677Z",
+    "direction": "想有一案係純留白",
+    "reads": [],
+    "cost": 0.016348599999999998
+   },
+   "cuts": [
+    {
+     "id": "c5190ce",
+     "n": 1,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1,
+     "action": "晴香手推門，快速開門",
+     "reveals": "觀眾以為會有人或事",
+     "continuity": "門喺畫面左；晴香面向右",
+     "why": "快速開門製造期待，令靜止之後反差更大",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c33c9ff",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "快切到房間全景，房內空無一人，晴香未入畫",
+     "reveals": "觀眾見到冇人，期待落空",
+     "continuity": "房內佈局未核對設定，標 unverified；門保持半開；晴香未入畫",
+     "why": "令期待突然落空，形成衝擊",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c95738d",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 7,
+     "action": "晴香由門口走入房內，然後停低，唔再郁",
+     "reveals": "佢冇即刻離開，觀眾感覺到佢停低嘅份量",
+     "continuity": "晴香由畫面左入畫，面向右；位置喺房中；冇人物互動",
+     "why": "快切之後突然靜止，用時間嚟承載停低嘅意義",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.65,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "c6c4980",
+    "n": 1,
+    "shot_size": "中景",
+    "angle": "低角",
+    "camera_move": "static",
+    "duration": 3,
+    "action": "晴香手推開門，身體跨入教室",
+    "reveals": "觀眾見到佢入門，但未見房內",
+    "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+    "why": "用一個穩定入門動作交代方向；低機位令門同晴香更有壓迫感，會搶一點之後嘅停頓，要留意",
+    "layout": {
+     "chars": [],
+     "frame": null
+    },
+    "image": null
+   },
+   {
+    "id": "ca7f584",
+    "n": 2,
+    "shot_size": "全景",
+    "angle": "低角",
+    "camera_move": "static",
+    "duration": 8,
+    "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+    "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+    "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開；低角由下向上取景，人物略顯高大，位置同前後格一致",
+    "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.629,
+       "y": 0.7889166666666667,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null
+   },
+   {
+    "id": "c326491",
+    "n": 3,
+    "shot_size": "全景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 6,
+    "action": "冇任何人物或物件動作，只保持靜止",
+    "reveals": "無新資訊；留白本身係資訊",
+    "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+    "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.4,
+       "y": 0.7,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null
+   },
+   {
+    "id": "c1c3128",
+    "n": 4,
+    "shot_size": "中景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 3,
+    "action": "晴香手推開門，身體跨入教室",
+    "reveals": "觀眾見到佢入門，但未見房內",
+    "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+    "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.2,
+       "y": 0.6,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null
+   },
+   {
+    "id": "c1ce5ce",
+    "n": 5,
+    "shot_size": "近景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "晴香手停喺門把，然後推開門",
+    "reveals": "門開咗，但觀眾未見房內",
+    "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+    "why": "用手部動作作門開嘅節拍，唔用對白",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.7,
+       "y": 0.5,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null
+   },
+   {
+    "id": "c8b35c7",
+    "n": 6,
+    "shot_size": "近景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "晴香手停喺門把，然後推開門",
+    "reveals": "門開咗，但觀眾未見房內",
+    "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+    "why": "用手部動作作門開嘅節拍，唔用對白",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.7,
+       "y": 0.5,
+       "facing": "right"
+      }
+     ],
+     "frame": null
+    },
+    "image": null
+   }
+  ],
+  "from": [
+   "p3dbd14"
+  ],
+  "version": 7
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T07:40:15.826Z",
+   "note": "採納「純留白・靜止等待」",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "at": "2026-11-10T07:40:15.829Z",
+   "note": "混合揀 cut",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c32e6aa",
+     "n": 4,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "at": "2026-11-10T07:40:15.839Z",
+   "note": "回復到版本 1",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 4,
+   "at": "2026-11-10T08:03:37.114Z",
+   "note": "混合揀 cut",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向；低機位令門同晴香更有壓迫感，會搶一點之後嘅停頓，要留意",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1c3128",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 5,
+   "at": "2026-11-10T08:04:41.851Z",
+   "note": "混合揀 cut",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向；低機位令門同晴香更有壓迫感，會搶一點之後嘅停頓，要留意",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1c3128",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1ce5ce",
+     "n": 5,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 6,
+   "at": "2026-11-10T08:04:42.834Z",
+   "note": "混合揀 cut",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向；低機位令門同晴香更有壓迫感，會搶一點之後嘅停頓，要留意",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1c3128",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1ce5ce",
+     "n": 5,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8b35c7",
+     "n": 6,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "v": 7,
+   "at": "2026-11-10T08:11:23.513Z",
+   "note": "採納修改：低角全景，留白照舊",
+   "cuts": [
+    {
+     "id": "c6c4980",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向；低機位令門同晴香更有壓迫感，會搶一點之後嘅停頓，要留意",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca7f584",
+     "n": 2,
+     "shot_size": "全景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 8,
+     "action": "晴香入房後停低，側身站住，望向房間深處；房內空無一人",
+     "reveals": "觀眾同晴香一樣見到冇人，唔知佢等緊乜",
+     "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開；低角由下向上取景，人物略顯高大，位置同前後格一致",
+     "why": "全景 hold 俾足夠空間同時間，唔切去佢嘅視線",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c326491",
+     "n": 3,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 6,
+     "action": "冇任何人物或物件動作，只保持靜止",
+     "reveals": "無新資訊；留白本身係資訊",
+     "continuity": "晴香位置、朝向同上一格一致，唔可以跳位",
+     "why": "留白需要一段唔被打斷嘅時間，觀眾先會自己填空",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1c3128",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香手推開門，身體跨入教室",
+     "reveals": "觀眾見到佢入門，但未見房內",
+     "continuity": "晴香由畫面左入；門喺左邊；佢面向右（入房方向）；佢未知房內有冇人",
+     "why": "用一個穩定入門動作交代方向，唔搶之後嘅停頓",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c1ce5ce",
+     "n": 5,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8b35c7",
+     "n": 6,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香手停喺門把，然後推開門",
+     "reveals": "門開咗，但觀眾未見房內",
+     "continuity": "門喺畫面左；晴香面向右（門方向）；手係主體",
+     "why": "用手部動作作門開嘅節拍，唔用對白",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "kca043a",
+   "at": "2026-11-10T08:10:32.617Z",
+   "cuts": [
+    "ca7f584"
+   ],
+   "instruction": "呢格改成低角度，但要保持前後鏡頭連貫",
+   "status": "adopted",
+   "mock": false,
+   "provider": "claude",
+   "skill": {
+    "name": "story-anime-storyboard-director",
+    "hash": "5e80a32b"
+   },
+   "variants": [
+    {
+     "label": "低角全景，留白照舊",
+     "note": "只將呢格改做低角。第一格（入門）已經係低角，所以由第一格切過嚟唔會跳。畫面仍然係全景，晴香嘅位置同視線唔變，房內仍然未見有人。代價：第三格仍然係平視，由呢格切去第三格會有一次角度跳動，要靠第三格靜止嘅留白吸收。低角會將天花同地板拉入畫面，房深處嘅空感會被壓低，感覺稍為更有壓迫。",
+     "edits": [
+      {
+       "cutId": "ca7f584",
+       "patch": {
+        "angle": "低角",
+        "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開；低角由下向上取景，人物略顯高大，位置同前後格一致"
+       }
+      }
+     ]
+    },
+    {
+     "label": "低角全景，留白段一齊改低角",
+     "note": "第二格同第三格都改成低角，成段留白保持同一個視角，唔會有跳動，整段感覺一致。代價：第三格唔係作者揀中嗰格，改咗佢要作者確認；低角連住留白 6 秒，房間會好似有隻看不見嘅東西壓住晴香，可能提早暗示房內有嘢，同「冇人」嘅設定有少少衝突。",
+     "edits": [
+      {
+       "cutId": "ca7f584",
+       "patch": {
+        "angle": "低角",
+        "continuity": "佢面向右；視線未指向任何具體物件；冇人同佢互動；門保持半開；低角由下向上取景，人物略顯高大，位置同前後格一致"
+       }
+      },
+      {
+       "cutId": "c326491",
+       "patch": {
+        "angle": "低角",
+        "continuity": "晴香位置、朝向同上一格一致，唔可以跳位；低角取景，同上一格同一視角"
+       }
+      }
+     ]
+    },
+    {
+     "label": "低角中景，房間未全露",
+     "note": "第二格改成低角中景，只見晴香上半身同門邊，房深處未入畫，觀眾同晴香一樣未知房內有冇人。第三格先改為全景，第一次俾觀眾見到房內空無一人，揭露位置由第二格移到第三格。代價：第二格同第一格都係中景低角，構圖相近，入門到停頓之間會少咗景深變化；第三格原本係「留白」，而家變咗「揭露」，節奏同用途都要作者認可。",
+     "edits": [
+      {
+       "cutId": "ca7f584",
+       "patch": {
+        "shot_size": "中景",
+        "angle": "低角",
+        "action": "晴香入房後停低，側身站住，望向畫外房深處；只見佢上半身同門邊，房深處未入畫",
+        "reveals": "觀眾同晴香一樣未知房內有冇人，只知佢望住嘅方向",
+        "continuity": "佢面向右；視線指向畫外房深處；位置同前後格一致（畫面左側偏中）；門保持半開；低角取景"
+       }
+      },
+      {
+       "cutId": "c326491",
+       "patch": {
+        "reveals": "全景首次見到房內空無一人，觀眾同晴香一齊望入去",
+        "why": "上一格只見佢望向深處，呢格先俾觀眾望入房內，留白由呢格開始"
+       }
+      }
+     ]
+    }
+   ],
+   "cost": 0.011801370000000002,
+   "chosen": 0
+  }
+ ]
+}

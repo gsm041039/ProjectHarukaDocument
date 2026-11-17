@@ -1,0 +1,577 @@
+{
+ "id": "sb-2026-11-10-3af1",
+ "title": "B7 入隊·收尾",
+ "created": "2026-11-10T08:23:06.411Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B7 入隊·收尾】操傲嬌答應（暫時指導）；三人收尾；屍骸倒下前一拍停止抵抗、似有人樣，然後消散；UI Likes 爆升。（態度示範只做正面一半＝只交氣氛；反面奪舍延後 REVALIDATE。）\n（功能：操傲嬌答應入隊（B6 轉折嘅兌現）；屍骸態度示範一半（正面消散））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B7"
+ },
+ "proposals": [
+  {
+   "id": "p1badf3",
+   "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+   "intent": "想觀眾覺得呢場仗贏得有啲怪：三個人仲未熟，但已經喺同一個畫面度。屍骸消散嗰下唔係勝利，係一個冇人講得清嘅空白。",
+   "rationale": "劇情要求屍骸倒下前一拍停止抵抗、似有人樣，然後消散。呢個反面奪舍（屍骸似人樣嘅真相）要延後，所以呢拍只可以交氣氛，唔可以解釋。用長鏡頭將晴香、美夜子、操同屍骸放喺同一個空間，觀眾自己睇到屍骸嗰下停頓，冇剪接帶住觀眾點睇。操入隊係暫時指導、態度有距離，所以三人之間留空位，唔擠埋一齊。",
+   "pros": "氣氛最乾淨，唔會偷步講屍骸真相；三人距離一眼見到；製作量低，主要係一個有細微動作嘅長鏡。",
+   "cons": "觀眾可能錯過屍骸嗰一拍似人樣嘅停頓，冇特寫幫手；Likes 爆升要靠畫面邊角嘅 UI，容易被忽略。",
+   "sacrifices": "犧牲咗操個人情緒嘅特寫同節奏上嘅爽快感，亦犧牲咗晴香反應嘅清晰度。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:06.443Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2529675
+   },
+   "cuts": [
+    {
+     "id": "c75a5b3",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視，略高於街面",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "日區街道，晴香、美夜子（貓）同操散開企，屍骸喺中間單膝跪低。操撐住半開嘅傘企喺最右、晴香企左邊，中間隔開一個身位。",
+     "reveals": "三人收尾嘅站位：操喺邊緣，仍然未入圈。",
+     "continuity": "晴香喺畫面左、面向右；操喺右、面向左；屍骸喺中間偏右；美夜子喺晴香腳邊。傘固定偏右前方半開。Brief 設定唔肯定嘅地方標 unverified：美夜子貓形站位未核對。",
+     "why": "用一個身位嘅空隙講『暫時指導』，唔使對白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.28,
+        "y": 0.7,
+        "facing": "right"
+       },
+       {
+        "name": "美夜子",
+        "x": 0.38,
+        "y": 0.82,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.78,
+        "y": 0.65,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ce9c8f7",
+     "n": 2,
+     "shot_size": "全身",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 5,
+     "action": "畫面唔切走。屍骸舉起嘅手慢慢放低，停止抵抗；一拍之後身體開始散成碎片。三人喺畫面邊睇住，冇人郁。",
+     "reveals": "屍骸一拍似有人樣嘅停頓，但唔解釋點解。",
+     "continuity": "屍骸位置唔變；三人站位同上一格一致，冇人行位。觀眾知得比角色少：角色亦唔知呢個停頓係咩意思。",
+     "why": "hold 住唔剪，等觀眾自己察覺嗰一拍；剪咗就變成作者指住畀人睇。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.28,
+        "y": 0.7,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.78,
+        "y": 0.65,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cb6cb23",
+     "n": 3,
+     "shot_size": "遠景",
+     "angle": "略仰",
+     "camera_move": "T.U.",
+     "duration": 3,
+     "action": "鏡頭慢慢向上，離開消散緊嘅屍骸，帶到街邊直播浮窗，Likes 數字急升。",
+     "reveals": "呢場戰鬥被睇緊、而且被讚。觀眾意識到呢個『贏』係俾人睇嘅。",
+     "continuity": "鏡頭向上，人物落出畫面底。晴香同操位置唔變。",
+     "why": "用鏡頭郁動代替剪接，將 UI 變成環境一部分，唔係貼紙。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p823f1c",
+   "name": "以操為主觀：佢聽到答應，但眼睛係睇屍骸",
+   "intent": "想觀眾感到操嘅『答應』唔係情緒爆發，而係被迫面對自己嘅位置：佢要入隊，但心仲停喺被晴香擋住嗰一刻。",
+   "rationale": "上一場晴香擋喺前面，操第一次覺得有人在乎『佢』。B7 係兌現嗰個轉折，所以用操嘅視線排資訊：先睇晴香，再睇屍骸，最後先答應。操係傲嬌，答應要夠冷，鏡頭幫佢講冇講出口嘅嘢。",
+   "pros": "人物情感線清楚；操嘅『傲嬌答應』有得睇；屍骸消散由佢眼睛見到，自然帶出似人樣嗰一拍。",
+   "cons": "屍骸似人樣變成操嘅主觀感受，觀眾可能以為只係佢諗多咗，空間資訊同三人一齊收尾嘅感覺會弱。",
+   "sacrifices": "犧牲咗客觀空間同美夜子嘅存在感，亦犧牲咗觀眾自己判斷屍骸停頓嘅餘地。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:06.443Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2529675
+   },
+   "cuts": [
+    {
+     "id": "c7c4087",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "微仰（操視線高度）",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "晴香滿身污糟，笑住伸手，問操要唔要真係入隊。晴香喺畫面左，面向右。",
+     "reveals": "晴香嘅邀請，從操視線角度見到。",
+     "continuity": "操嘅視線向左；晴香面向右。越過操肩膊嘅 OTS，傘喺畫面前景右邊。",
+     "why": "用過肩構圖將傘放入前景，傘係操同世界嘅距離，觀眾一入鏡就睇到。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.35,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.85,
+        "y": 0.8,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ced5cc3",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "操別開面，口型好細，傲嬌答應（暫時指導），耳朵有少少紅。",
+     "reveals": "操答應咗，而且唔係咁冷。",
+     "continuity": "操面朝畫面左，視線偏離晴香；上一格晴香喺左，所以保持同一軸線。",
+     "why": "一個近景，唔拉開，等觀眾睇到佢冇講嘅嘢。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.55,
+        "y": 0.5,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c0d09b5",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 5,
+     "action": "操視線轉去屍骸；屍骸一拍停止抵抗，頭低低，似人坐低，然後散開。操嘅手收緊傘柄。",
+     "reveals": "屍骸似人樣只係氣氛，同時暗示操睇到咗啲嘢。",
+     "continuity": "屍骸喺操嘅視線方向（畫面右）；操面向右；之前一格係面向左，所以呢格要有轉頭動作交代方向改變。",
+     "why": "推鏡幫手將視線收窄，唔補解釋；操手緊握傘柄係動作，唔係內心獨白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.7,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p77f60a",
+   "name": "直播視角：以浮窗同 Likes 收尾，人物變小",
+   "intent": "想觀眾覺得呢場勝仗已經被世界消費緊：Likes 爆升、屍骸消散，三人入隊嘅私人時刻同直播熱鬧並置，有啲唔對路。",
+   "rationale": "場景設定係直播中，B7 尾有 UI Likes 爆升。呢個方案將直播當成敘事視角，同 SEQ3a 之後市民求簽名、操避鏡頭嘅反應接上。操入隊係私人決定，但全部被睇緊。",
+   "pros": "同下一拍操避鏡頭、市民歡呼自然連接；Likes 爆升有分量；屍骸消散由『被觀看』包住，唔使解釋。",
+   "cons": "人物情感被 UI 搶走，操答應嗰下可能唔夠突出；直播浮窗畫面需要額外製作同設計。",
+   "sacrifices": "犧牲咗操個人表演嘅細節，同屍骸似人樣嗰一拍嘅分量。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:06.443Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2529675
+   },
+   "cuts": [
+    {
+     "id": "caf4ba7",
+     "n": 1,
+     "shot_size": "全身",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "操別開面答應，晴香笑，美夜子喺旁邊。三人喺中景，畫面前景係街邊一個市民舉起嘅手機屏幕模糊反光。",
+     "reveals": "有人喺度拍，三人嘅入隊被記錄緊。",
+     "continuity": "晴香左、操右，同前格保持。前景手機係外來物件，唔屬於三人。",
+     "why": "前景遮擋表達被偷窺，唔使旁白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.35,
+        "y": 0.65,
+        "facing": "right"
+       },
+       {
+        "name": "美夜子",
+        "x": 0.45,
+        "y": 0.82,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.62,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c016dfa",
+     "n": 2,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "直播浮窗特寫：屍骸倒地嘅一格畫面凍結，停止抵抗嗰一拍嘅影像被截圖，彈幕湧出。",
+     "reveals": "觀眾透過直播窗口再睇一次屍骸嗰一拍，但冇解釋。",
+     "continuity": "呢格係 UI 畫面，唔係現場位置；呢個觀眾知得比角色多（角色冇睇浮窗）。",
+     "why": "UI 重播令屍骸停頓被『睇咗兩次』，加強似人樣嘅怪感。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c5bc89e",
+     "n": 3,
+     "shot_size": "遠景",
+     "angle": "高位俯視",
+     "camera_move": "pull",
+     "duration": 4,
+     "action": "鏡頭拉遠，屍骸消散成光點，Likes 數字爆升。三人變成街上好細嘅人影，操撐傘率先轉身。",
+     "reveals": "三人名義上組隊但未熟：操已經行開。",
+     "continuity": "人物位置同第一格一致；操向畫面右離開。unverified：Likes 浮窗喺畫面邊定畫面中，設定未核對。",
+     "why": "拉遠令私人變細，Likes 變大，同主題『被睇』對上。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.75,
+        "facing": "right"
+       },
+       {
+        "name": "美夜子",
+        "x": 0.48,
+        "y": 0.85,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.72,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "c1e7ccb",
+    "n": 1,
+    "shot_size": "遠景",
+    "angle": "平視，略高於街面",
+    "camera_move": "static",
+    "duration": 4,
+    "action": "日區街道，晴香、美夜子（貓）同操散開企，屍骸喺中間單膝跪低。操撐住半開嘅傘企喺最右、晴香企左邊，中間隔開一個身位。",
+    "reveals": "三人收尾嘅站位：操喺邊緣，仍然未入圈。",
+    "continuity": "晴香喺畫面左、面向右；操喺右、面向左；屍骸喺中間偏右；美夜子喺晴香腳邊。傘固定偏右前方半開。Brief 設定唔肯定嘅地方標 unverified：美夜子貓形站位未核對。",
+    "why": "用一個身位嘅空隙講『暫時指導』，唔使對白。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.28,
+       "y": 0.7,
+       "facing": "right"
+      },
+      {
+       "name": "美夜子",
+       "x": 0.38,
+       "y": 0.82,
+       "facing": "right"
+      },
+      {
+       "name": "操",
+       "x": 0.78,
+       "y": 0.65,
+       "facing": "left"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p1badf3",
+     "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c5c0ad6",
+    "n": 2,
+    "shot_size": "全身",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 5,
+    "action": "畫面唔切走。屍骸舉起嘅手慢慢放低，停止抵抗；一拍之後身體開始散成碎片。三人喺畫面邊睇住，冇人郁。",
+    "reveals": "屍骸一拍似有人樣嘅停頓，但唔解釋點解。",
+    "continuity": "屍骸位置唔變；三人站位同上一格一致，冇人行位。觀眾知得比角色少：角色亦唔知呢個停頓係咩意思。",
+    "why": "hold 住唔剪，等觀眾自己察覺嗰一拍；剪咗就變成作者指住畀人睇。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.28,
+       "y": 0.7,
+       "facing": "right"
+      },
+      {
+       "name": "操",
+       "x": 0.78,
+       "y": 0.65,
+       "facing": "left"
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p1badf3",
+     "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c15b5bc",
+    "n": 3,
+    "shot_size": "遠景",
+    "angle": "略仰",
+    "camera_move": "T.U.",
+    "duration": 3,
+    "action": "鏡頭慢慢向上，離開消散緊嘅屍骸，帶到街邊直播浮窗，Likes 數字急升。",
+    "reveals": "呢場戰鬥被睇緊、而且被讚。觀眾意識到呢個『贏』係俾人睇嘅。",
+    "continuity": "鏡頭向上，人物落出畫面底。晴香同操位置唔變。",
+    "why": "用鏡頭郁動代替剪接，將 UI 變成環境一部分，唔係貼紙。",
+    "layout": {
+     "chars": [],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p1badf3",
+     "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "p1badf3"
+  ],
+  "version": 1
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T09:10:12.250Z",
+   "note": "採納「一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾」",
+   "cuts": [
+    {
+     "id": "c1e7ccb",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "平視，略高於街面",
+     "camera_move": "static",
+     "duration": 4,
+     "action": "日區街道，晴香、美夜子（貓）同操散開企，屍骸喺中間單膝跪低。操撐住半開嘅傘企喺最右、晴香企左邊，中間隔開一個身位。",
+     "reveals": "三人收尾嘅站位：操喺邊緣，仍然未入圈。",
+     "continuity": "晴香喺畫面左、面向右；操喺右、面向左；屍骸喺中間偏右；美夜子喺晴香腳邊。傘固定偏右前方半開。Brief 設定唔肯定嘅地方標 unverified：美夜子貓形站位未核對。",
+     "why": "用一個身位嘅空隙講『暫時指導』，唔使對白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.28,
+        "y": 0.7,
+        "facing": "right"
+       },
+       {
+        "name": "美夜子",
+        "x": 0.38,
+        "y": 0.82,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.78,
+        "y": 0.65,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p1badf3",
+      "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c5c0ad6",
+     "n": 2,
+     "shot_size": "全身",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 5,
+     "action": "畫面唔切走。屍骸舉起嘅手慢慢放低，停止抵抗；一拍之後身體開始散成碎片。三人喺畫面邊睇住，冇人郁。",
+     "reveals": "屍骸一拍似有人樣嘅停頓，但唔解釋點解。",
+     "continuity": "屍骸位置唔變；三人站位同上一格一致，冇人行位。觀眾知得比角色少：角色亦唔知呢個停頓係咩意思。",
+     "why": "hold 住唔剪，等觀眾自己察覺嗰一拍；剪咗就變成作者指住畀人睇。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.28,
+        "y": 0.7,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.78,
+        "y": 0.65,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p1badf3",
+      "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c15b5bc",
+     "n": 3,
+     "shot_size": "遠景",
+     "angle": "略仰",
+     "camera_move": "T.U.",
+     "duration": 3,
+     "action": "鏡頭慢慢向上，離開消散緊嘅屍骸，帶到街邊直播浮窗，Likes 數字急升。",
+     "reveals": "呢場戰鬥被睇緊、而且被讚。觀眾意識到呢個『贏』係俾人睇嘅。",
+     "continuity": "鏡頭向上，人物落出畫面底。晴香同操位置唔變。",
+     "why": "用鏡頭郁動代替剪接，將 UI 變成環境一部分，唔係貼紙。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p1badf3",
+      "name": "一個鏡頭撐晒：三人同屍骸一齊入框，留白收尾",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ],
+   "set": null
+  }
+ ]
+}

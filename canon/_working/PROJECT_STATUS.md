@@ -1,4 +1,6 @@
 # PROJECT_STATUS
+- **2026-11-13 晴香創世落人性＋美夜子人性化（T-014，DRAFT／PROVISIONAL）**：創世降做背景、主題放隊員對手戲；融合減「大愛」、加重為具體人（混合：美夜子最終推力＋被困聲音入口）；暫定「晴香視角主角、美夜子情感另一極」；美夜子人性化主力＝「唔敢收、要還」（成因＝凜為佢死），大哭只係大哭。未 writeback canon，未入 beat 層。見 `story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md` 末段。待決：Act IV 融合美夜子反應、Act I 失憶程度、三場對手戲位置。
+- **2026-11-08 Demo Beat 層：日常巡街＋實戰前練習（新兩個 beat）已設計並通過獨立盲審（半盲）**——`demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH7_PATROL_PRACTICE.md`＋`BEAT_PATROL_FULL_ANALYSIS.md`；盲審 56 格無 BLOCKS，已按發現修正；待作者 14 項決定（Workbench『Beat 審閱』頁）；全鏈接駁檢查發現戰後→補給見底硬連；頭四個 beat 仍只係觀察，未用完整流程補做。Skill 已補（搵缺口 16 項、前台圖表化），新增網頁卡 scan／chain／compare 同 Beat 審閱頁（未喺真瀏覽器驗證）。
 
 - **2026-10-19 聲線重做 T-009 ①–④ 完成（DRAFT／PROVISIONAL）**：三人證據重分級、缺口微場景候選、稱呼表覆核、Re-audit #3 均已落檔；燈塔句同餵糖句確認為 canon 逐字句。候選全部待作者揀（tracker ⑤）；Beat 層有 5 個矛盾要先定。見 `demo_pilot/VOICE_EVIDENCE_REGRADE_T009.md`、`VOICE_EVIDENCE_REVIEW.md`。
 - **2026-10-17～19 Haruka Workbench 作者回饋改善（工具，唔涉故事內容）**：修 session 喺清單消失（自動討論每步唔再存成對話）；加思考深度、網址上一頁／下一頁、用量顯示、Enter 送出、討論總結逐項處理、作者親手打嘅字記錄＋`author-lens` 問法模型（`canon/_working/author_voice/`）、「🛤️ 流程」頁（按狀態出掣＋建議）、Beat 時間線、角度矩陣分組同逐角度詳情、對話頂「🛠️ 做緊」條（AI 用 `ui:status` 講）、「✅ 傾夠，落檔」。查證：Demo Beat 層仍未批（作者揀唔改進度檔）。2026-10-19 再加：粗到幼工作樹（TASK_BOARD「屬於」欄＋`canon/_working/tasks/` 步驟檔）、`story-work-flow` 逐步引導（節奏由作者定）、輕鬆步自動用平啲 model。未做：舊工作補掛、手機版、真相等級標示、Brief 同新確認決定邊個優先（待作者揀）。見 TASK_BOARD T-008、SESSION_LEDGER。

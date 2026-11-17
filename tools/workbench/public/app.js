@@ -542,7 +542,12 @@ function chatView(el, { title, sid, provider = "claude", model, effort, taskId, 
         cards[ev.requestId]?.querySelectorAll("input,textarea,button").forEach((e) => (e.disabled = true));
         break;
       case "result": streamEl = null; add(h("div", { class: "msg result" }, `完成 · ${(ev.ms / 1000).toFixed(0)} 秒`)); if (live) { loadIndex(true).then(() => work.update()); refreshUsage(true); refreshLens(); } break;
-      case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message)); break;
+      case "error": add(h("div", { class: "msg error" }, "出錯：" + ev.message,
+        /authenticat|OAuth|401|expired/i.test(ev.message) ? h("button", { class: "btn", style: "margin-left:8px", onclick: async (e) => {
+          e.target.disabled = true;
+          try { await api("/api/claude-login", {}); toast("已開登入視窗，登入完再㩒重試／重新送一次"); } catch (x) { toast("開唔到：" + x.message); }
+          e.target.disabled = false;
+        } }, "🔑 重新登入 Claude") : null)); break;
       case "status": running = ev.status === "running"; think(running); if (live) refreshSessions(); break;
       case "effort": add(h("div", { class: "msg result" }, `🧠 由呢度開始思考深度：${ev.effort ? effortLabel(ev.effort) : "預設"}`)); break;
       case "provider": if (ev.model) showChatModel(ev.model); break;

@@ -1,0 +1,1006 @@
+{
+ "id": "sb-2026-11-10-c039",
+ "title": "B1 開戰·變身",
+ "created": "2026-11-10T08:40:36.154Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B1 開戰·變身】變身（美、帶極細代價視覺）；直播 UI；市民退到安全區外圍；學基本攻擊／閃避。\n（功能：開戰；變身展示（偽亮色高峰開場）；直播 UI 世界規則首現；基本戰鬥／閃避應用（教學已移到 PR1））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B1"
+ },
+ "proposals": [
+  {
+   "id": "pdafbff",
+   "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+   "intent": "令觀眾先同街上市民、直播觀眾一齊『睇』晴香變身，感到佢係被消費嘅偶像。直播 UI 係呢個世界嘅規則，要自然跳出嚟，變身要靚，但『靚』入面藏一絲唔對路。",
+   "rationale": "呢場喺日區街道、直播中，Demo 嘅設定係偽亮色高峰開場。直播 UI 世界規則第一次出現，市民要退到安全區外圍。由『被睇』嘅角度拍，UI 同市民退場就變成畫面本身，唔使靠對白交代。代價視覺（極細）用『UI 睇唔到、只有近鏡先見』嘅細節處理：直播畫面入面完美，近鏡先見到手指微震。（直播 UI 嘅具體樣式 unverified，要對返美術設定。）",
+   "pros": "一次過交代直播規則、市民退場、變身展示。觀眾同角色嘅知情落差好清楚：觀眾見到代價細節，市民睇唔到。",
+   "cons": "晴香內心感受要靠後面補。前半段觀眾同晴香有距離。",
+   "sacrifices": "犧牲咗晴香主觀嘅感受同身體感。亦犧牲咗屍骸嘅壓迫感，因為佢只係節目入面嘅怪。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:36.183Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2654845
+   },
+   "cuts": [
+    {
+     "id": "ce38a1f",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "高角，帶手機直播畫框",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "日區街道，市民舉住手機，人形扭曲屍骸從街口行出，眾人開始往後退",
+     "reveals": "呢度有直播，屍骸一出現市民就懂得退。觀眾知道呢個世界習慣咗睇戰鬥。",
+     "continuity": "屍骸喺畫面右上遠處，面向左。市民喺畫面中下，面向右。人群退向畫面左下。觀眾知道屍骸係威脅，晴香未出場。",
+     "why": "用高角加直播畫框，一開始就將視點交畀『睇客』，建立直播係世界規則。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.8,
+        "y": 0.2,
+        "facing": "left",
+        "pose": "walk",
+        "turn": -90
+       },
+       {
+        "name": "市民",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 90
+       },
+       {
+        "name": "市民",
+        "x": 0.45,
+        "y": 0.75,
+        "facing": "right",
+        "pose": "run",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cf83494",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視，手機屏幕感",
+     "camera_move": "push",
+     "duration": 2,
+     "action": "晴香企喺安全線前面，背向觀眾，直播 UI 數字（Likes）彈出，美夜子（貓形）喺佢腳邊",
+     "reveals": "晴香係被睇緊嘅人，美夜子喺旁邊。觀眾見到 Likes 開始升。",
+     "continuity": "晴香喺畫面中央偏左，背向鏡頭面向右邊屍骸方向。美夜子喺佢右後下方。直播 UI 浮喺畫面右上角。晴香未講過話。",
+     "why": "背影加 UI，令觀眾同市民一齊等佢變身，增加期待同被消費感。（美夜子貓形嘅設定要對返角色檔，unverified。）",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       },
+       {
+        "name": "美夜子",
+        "x": 0.55,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 100
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c130c1c",
+     "n": 3,
+     "shot_size": "全身",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 3,
+     "action": "變身光效由腳升到頭，粉色長髮同魔法服成形，姿勢帥氣",
+     "reveals": "變身好靚、好有偶像感。粉髮青挑染同金魚旗輪廓清楚。",
+     "continuity": "晴香留喺同一位置，面向右。光效亮色高峰。Likes 數字同步爆升。屍骸仍未行近。",
+     "why": "T.U. 配低角將變身拍成偶像演出，製造偽亮色高峰。形式本身就係呢場嘅諷刺。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c9f6746",
+     "n": 4,
+     "shot_size": "特寫",
+     "angle": "平視，側面",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香握拳嘅手指微微震咗一下，光效下一格先蓋過去",
+     "reveals": "極細代價視覺：手指震動。直播畫面睇唔到，只有觀眾見到。",
+     "continuity": "同一隻右手，位置同上格一致。市民同直播睇客見唔到呢格。呢格只有觀眾知道。",
+     "why": "將代價收窄到一個身體細節，唔講明。觀眾比直播睇客知得多，埋低代價伏線。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c5a3288",
+     "n": 5,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香企好戰鬥姿勢，屍骸衝前，市民已經全部退到畫面邊，UI 提示基本攻擊同閃避",
+     "reveals": "戰鬥開始，市民安全，玩家要開始操作。",
+     "continuity": "晴香喺畫面左，面向右。屍骸喺畫面右，面向左，兩者對峙。市民喺畫面最邊同後方。",
+     "why": "對峙構圖交畀玩家，畫面清楚、方向一致，方便接去戰鬥教學。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.72,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "run",
+        "turn": -90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.2,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pe3bc51",
+   "name": "晴香主觀：身體先醒，街道後到",
+   "intent": "令觀眾用晴香嘅身體去感受變身，覺得靚之餘有少少唔安，之後戰鬥開始先慢慢睇清楚街。",
+   "rationale": "變身要『美』，但代價係極細嘅。最貼身嘅處理係用晴香主觀同抽象背景（止め絵、變身背景）交代，唔需要將代價講出嚟。核心主題係身體代價，所以由身體開始，直播同市民放到後面。（直播 UI 同市民退場放後半，次序同原 beat 唔同，要作者確認。）",
+   "pros": "情感最近，變身有分量。代價視覺可以做到好細膩，例如呼吸、心跳、指尖。",
+   "cons": "直播規則同市民退場要延遲到後半先交代，資訊次序較慢。製作要做抽象變身背景。",
+   "sacrifices": "犧牲咗空間資訊同直播規則嘅即時性，觀眾要幾秒後先知道喺街上。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:36.183Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2654845
+   },
+   "cuts": [
+    {
+     "id": "c247631",
+     "n": 1,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香眼睛，高光閃一閃，呼吸聲重咗一下",
+     "reveals": "晴香準備好，有少少緊張。",
+     "continuity": "晴香面向鏡頭，未知道位置。屍骸、市民都未出現。",
+     "why": "用身體細節開場，將觀眾拉入主觀，延後交代空間。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c9f5a07",
+     "n": 2,
+     "shot_size": "全身",
+     "angle": "仰角",
+     "camera_move": "T.U.",
+     "duration": 3.5,
+     "action": "晴香企喺抽象光色背景入面，魔法服一層層成形，止め絵式 hold 一個姿勢",
+     "reveals": "變身係美嘅高峰，色彩飽和。呢段係偽亮色高峰。",
+     "continuity": "晴香喺畫面正中，面向右。背景抽象，冇街道。觀眾只知道佢變身，未知其他。",
+     "why": "2D anime 慣用嘅抽象背景加 hold，令變身有儀式感，同直播無關，純粹屬於晴香。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c313388",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視，側面",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "光退去，晴香輕輕呼一口氣，嘴角有少少繃緊，瞳孔向右邊望",
+     "reveals": "細微代價感：身體有少少負擔。望向右邊嘅屍骸方向。",
+     "continuity": "晴香面向右。視線方向（eyeline）指向之後屍骸出現嘅位置。",
+     "why": "留一個輕微嘅表情當代價視覺，同時建立視線去接下一格。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.9,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ce9011f",
+     "n": 4,
+     "shot_size": "遠景",
+     "angle": "平視",
+     "camera_move": "pan",
+     "duration": 3,
+     "action": "鏡頭從晴香 pan 向右，睇到街道、市民退向兩邊、屍骸站喺街中，直播 UI 浮現",
+     "reveals": "原來喺街上、直播緊、市民已經退咗。空間同規則一次過揭。",
+     "continuity": "晴香留喺畫面左，面向右。pan 過程屍骸喺畫面右，面向左。市民退去兩側。screen direction 一致，由左向右。",
+     "why": "用 pan 將主觀轉成客觀，令資訊後置，有『原來係咁』嘅揭示感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.65,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       },
+       {
+        "name": "市民",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "left",
+        "pose": "walk",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p6cae78",
+   "name": "空街先行：留白、市民退場、變身壓後",
+   "intent": "令觀眾先感到壓迫同威脅，市民撤走後街空咗，變身係喺危險入面一個被延遲嘅美麗瞬間。",
+   "rationale": "B1 係開戰，功能係屍骸出現、市民退場。先拍危險同空間，再用變身作為回應，會有明顯嘅緊張到釋放。偽亮色高峰喺最後先到。學基本攻擊／閃避之前，觀眾已經有『睇住屍骸』嘅壓力。（屍骸外形細節 unverified。）",
+   "pros": "開場有懸念，空間資訊清楚。變身最後先出現，印象深。令戰鬥教學自然接上。",
+   "cons": "變身要等好耐，如果前面太長會悶。偽亮色高峰變咗喺第二半先到。",
+   "sacrifices": "犧牲咗開場就靚嘅吸引力，同直播 UI 先聲奪人嘅設定感。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:36.183Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2654845
+   },
+   "cuts": [
+    {
+     "id": "c0ee5f2",
+     "n": 1,
+     "shot_size": "大遠景",
+     "angle": "鳥瞰",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "日區街道，行人急步離開，路面中間空出一條線，屍骸遠遠出現",
+     "reveals": "街道、人群方向、屍骸位置。",
+     "continuity": "人群向畫面左右兩側散開，屍骸喺畫面上方中間，面向下（朝鏡頭）。晴香未出現。",
+     "why": "鳥瞰最清楚交代空間同人流，作為整場嘅地圖。",
+     "layout": {
+      "chars": [
+       {
+        "name": "市民",
+        "x": 0.2,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "run",
+        "turn": -90
+       },
+       {
+        "name": "市民",
+        "x": 0.8,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "run",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.5,
+        "y": 0.15,
+        "facing": "left",
+        "pose": "walk",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cff95bb",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "背面",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香背向鏡頭企喺空街中間，屍骸喺遠處慢慢行近，美夜子喺旁邊",
+     "reveals": "晴香逆人流企住，同其他人唔同。",
+     "continuity": "晴香喺畫面中央偏下，背向鏡頭，面向前方（屍骸）。美夜子喺佢右腳邊。屍骸喺畫面遠處中央。",
+     "why": "背影加逆人流，建立主角意志，唔需要對白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.75,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 180
+       },
+       {
+        "name": "美夜子",
+        "x": 0.62,
+        "y": 0.82,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 150
+       },
+       {
+        "name": "屍骸",
+        "x": 0.5,
+        "y": 0.2,
+        "facing": "left",
+        "pose": "walk",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cc47e29",
+     "n": 3,
+     "shot_size": "近景",
+     "angle": "平視，斜側",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香拎出變身道具，手有少少震，之後握實",
+     "reveals": "極細代價：變身要付出少少，佢都做。",
+     "continuity": "晴香面向右。道具喺右手。手震動幅度細，直播 UI 未出現。",
+     "why": "用手部細節交代代價，唔解釋。同第一案嘅手指震動係唔同時間位。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.45,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 70
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c894de9",
+     "n": 4,
+     "shot_size": "全身",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 3,
+     "action": "變身光效炸開，街道被粉色光照亮，直播 UI 同 Likes 同時彈出",
+     "reveals": "偽亮色高峰：美、有觀眾、有 UI。直播規則首次出現。",
+     "continuity": "晴香面向右，位置同上格。光效照亮背景同屍骸輪廓。UI 彈出時市民已經喺安全區外圍。",
+     "why": "將變身同直播 UI 一齊爆出，令兩個資訊一次過到位，有釋放感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "run",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c788be4",
+     "n": 5,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香同屍骸對峙，屍骸衝前，UI 提示閃避",
+     "reveals": "戰鬥開始，玩家接手操作。",
+     "continuity": "晴香喺畫面左面向右，屍骸喺畫面右面向左。美夜子喺晴香後方。",
+     "why": "回到清晰對峙構圖，方便接戰鬥教學。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.7,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "run",
+        "turn": -90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.18,
+        "y": 0.78,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "cb56b18",
+    "n": 1,
+    "shot_size": "遠景",
+    "angle": "高角，帶手機直播畫框",
+    "camera_move": "static",
+    "duration": 2.5,
+    "action": "日區街道，市民舉住手機，人形扭曲屍骸從街口行出，眾人開始往後退",
+    "reveals": "呢度有直播，屍骸一出現市民就懂得退。觀眾知道呢個世界習慣咗睇戰鬥。",
+    "continuity": "屍骸喺畫面右上遠處，面向左。市民喺畫面中下，面向右。人群退向畫面左下。觀眾知道屍骸係威脅，晴香未出場。",
+    "why": "用高角加直播畫框，一開始就將視點交畀『睇客』，建立直播係世界規則。",
+    "layout": {
+     "chars": [
+      {
+       "name": "屍骸",
+       "x": 0.8,
+       "y": 0.2,
+       "facing": "left",
+       "pose": "walk",
+       "turn": -90
+      },
+      {
+       "name": "市民",
+       "x": 0.3,
+       "y": 0.6,
+       "facing": "right",
+       "pose": "walk",
+       "turn": 90
+      },
+      {
+       "name": "市民",
+       "x": 0.45,
+       "y": 0.75,
+       "facing": "right",
+       "pose": "run",
+       "turn": 90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pdafbff",
+     "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c4434a2",
+    "n": 2,
+    "shot_size": "中景",
+    "angle": "平視，手機屏幕感",
+    "camera_move": "push",
+    "duration": 2,
+    "action": "晴香企喺安全線前面，背向觀眾，直播 UI 數字（Likes）彈出，美夜子（貓形）喺佢腳邊",
+    "reveals": "晴香係被睇緊嘅人，美夜子喺旁邊。觀眾見到 Likes 開始升。",
+    "continuity": "晴香喺畫面中央偏左，背向鏡頭面向右邊屍骸方向。美夜子喺佢右後下方。直播 UI 浮喺畫面右上角。晴香未講過話。",
+    "why": "背影加 UI，令觀眾同市民一齊等佢變身，增加期待同被消費感。（美夜子貓形嘅設定要對返角色檔，unverified。）",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.4,
+       "y": 0.7,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 160
+      },
+      {
+       "name": "美夜子",
+       "x": 0.55,
+       "y": 0.85,
+       "facing": "right",
+       "pose": "crouch",
+       "turn": 100
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pdafbff",
+     "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "caf9fdc",
+    "n": 3,
+    "shot_size": "全身",
+    "angle": "低角",
+    "camera_move": "T.U.",
+    "duration": 3,
+    "action": "變身光效由腳升到頭，粉色長髮同魔法服成形，姿勢帥氣",
+    "reveals": "變身好靚、好有偶像感。粉髮青挑染同金魚旗輪廓清楚。",
+    "continuity": "晴香留喺同一位置，面向右。光效亮色高峰。Likes 數字同步爆升。屍骸仍未行近。",
+    "why": "T.U. 配低角將變身拍成偶像演出，製造偽亮色高峰。形式本身就係呢場嘅諷刺。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.4,
+       "y": 0.7,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pdafbff",
+     "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c7925f1",
+    "n": 4,
+    "shot_size": "特寫",
+    "angle": "平視，側面",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "晴香握拳嘅手指微微震咗一下，光效下一格先蓋過去",
+    "reveals": "極細代價視覺：手指震動。直播畫面睇唔到，只有觀眾見到。",
+    "continuity": "同一隻右手，位置同上格一致。市民同直播睇客見唔到呢格。呢格只有觀眾知道。",
+    "why": "將代價收窄到一個身體細節，唔講明。觀眾比直播睇客知得多，埋低代價伏線。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.5,
+       "y": 0.95,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pdafbff",
+     "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "ca78c8f",
+    "n": 5,
+    "shot_size": "全景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2.5,
+    "action": "晴香企好戰鬥姿勢，屍骸衝前，市民已經全部退到畫面邊，UI 提示基本攻擊同閃避",
+    "reveals": "戰鬥開始，市民安全，玩家要開始操作。",
+    "continuity": "晴香喺畫面左，面向右。屍骸喺畫面右，面向左，兩者對峙。市民喺畫面最邊同後方。",
+    "why": "對峙構圖交畀玩家，畫面清楚、方向一致，方便接去戰鬥教學。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.3,
+       "y": 0.6,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 90
+      },
+      {
+       "name": "屍骸",
+       "x": 0.72,
+       "y": 0.55,
+       "facing": "left",
+       "pose": "run",
+       "turn": -90
+      },
+      {
+       "name": "美夜子",
+       "x": 0.2,
+       "y": 0.8,
+       "facing": "right",
+       "pose": "crouch",
+       "turn": 90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pdafbff",
+     "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "pdafbff"
+  ],
+  "version": 1
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:41:35.001Z",
+   "note": "AI 生成：直播視角先行：觀眾係市民，睇變身似睇節目",
+   "cuts": [
+    {
+     "id": "cb56b18",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "高角，帶手機直播畫框",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "日區街道，市民舉住手機，人形扭曲屍骸從街口行出，眾人開始往後退",
+     "reveals": "呢度有直播，屍骸一出現市民就懂得退。觀眾知道呢個世界習慣咗睇戰鬥。",
+     "continuity": "屍骸喺畫面右上遠處，面向左。市民喺畫面中下，面向右。人群退向畫面左下。觀眾知道屍骸係威脅，晴香未出場。",
+     "why": "用高角加直播畫框，一開始就將視點交畀『睇客』，建立直播係世界規則。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.8,
+        "y": 0.2,
+        "facing": "left",
+        "pose": "walk",
+        "turn": -90
+       },
+       {
+        "name": "市民",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 90
+       },
+       {
+        "name": "市民",
+        "x": 0.45,
+        "y": 0.75,
+        "facing": "right",
+        "pose": "run",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pdafbff",
+      "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c4434a2",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "平視，手機屏幕感",
+     "camera_move": "push",
+     "duration": 2,
+     "action": "晴香企喺安全線前面，背向觀眾，直播 UI 數字（Likes）彈出，美夜子（貓形）喺佢腳邊",
+     "reveals": "晴香係被睇緊嘅人，美夜子喺旁邊。觀眾見到 Likes 開始升。",
+     "continuity": "晴香喺畫面中央偏左，背向鏡頭面向右邊屍骸方向。美夜子喺佢右後下方。直播 UI 浮喺畫面右上角。晴香未講過話。",
+     "why": "背影加 UI，令觀眾同市民一齊等佢變身，增加期待同被消費感。（美夜子貓形嘅設定要對返角色檔，unverified。）",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       },
+       {
+        "name": "美夜子",
+        "x": 0.55,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 100
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pdafbff",
+      "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "caf9fdc",
+     "n": 3,
+     "shot_size": "全身",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 3,
+     "action": "變身光效由腳升到頭，粉色長髮同魔法服成形，姿勢帥氣",
+     "reveals": "變身好靚、好有偶像感。粉髮青挑染同金魚旗輪廓清楚。",
+     "continuity": "晴香留喺同一位置，面向右。光效亮色高峰。Likes 數字同步爆升。屍骸仍未行近。",
+     "why": "T.U. 配低角將變身拍成偶像演出，製造偽亮色高峰。形式本身就係呢場嘅諷刺。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pdafbff",
+      "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c7925f1",
+     "n": 4,
+     "shot_size": "特寫",
+     "angle": "平視，側面",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香握拳嘅手指微微震咗一下，光效下一格先蓋過去",
+     "reveals": "極細代價視覺：手指震動。直播畫面睇唔到，只有觀眾見到。",
+     "continuity": "同一隻右手，位置同上格一致。市民同直播睇客見唔到呢格。呢格只有觀眾知道。",
+     "why": "將代價收窄到一個身體細節，唔講明。觀眾比直播睇客知得多，埋低代價伏線。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pdafbff",
+      "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "ca78c8f",
+     "n": 5,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香企好戰鬥姿勢，屍骸衝前，市民已經全部退到畫面邊，UI 提示基本攻擊同閃避",
+     "reveals": "戰鬥開始，市民安全，玩家要開始操作。",
+     "continuity": "晴香喺畫面左，面向右。屍骸喺畫面右，面向左，兩者對峙。市民喺畫面最邊同後方。",
+     "why": "對峙構圖交畀玩家，畫面清楚、方向一致，方便接去戰鬥教學。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.72,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "run",
+        "turn": -90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.2,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pdafbff",
+      "name": "直播視角先行：觀眾係市民，睇變身似睇節目",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -15,7 +15,7 @@ STATUS: PROVISIONAL
 
 DESIGN_DECISION_RECORD:
 - CHALLENGE_GATE: 不可取代嘅功能＝①填返天台去街戰之間欠嘅因果接駁（使命生活開始）②補 demo 切走嘅設定介紹（光幕、日夜區、帝國宣傳、直播消費文化；原本由開場 Beat 0 負責）③埋 IG 強行營業同貓擋鏡頭（基地合照鬧劇同聲線材料依賴）④晴香帶驚但被日常蓋住。呢個 beat 屬作者已揀範圍場 1（SCOPE_AND_CUT_LIST 方案 1），唔係舊編劇額外加。值得獨立存在。
-- ALTERNATIVES_CONSIDERED: ①維持硬切（現狀）：因果斷、設定介紹冇載體、聲線同合照埋位成孤兒——否決，理由係三處可核實缺口。②設定介紹塞入天台使命：違反環境敘事原則（設定唔設獨立說明事件，CDL-175），亦令天台過載——否決。③日常同練習併成一個 beat：五件事剛好喺上限（story-room I.7），作者已揀拆開。
+- ALTERNATIVES_CONSIDERED: ①維持硬切（現狀）：因果斷、設定介紹冇載體、聲線同合照埋位成孤兒——否決，理由係三處可核實缺口。②設定介紹塞入天台使命：天台已經承擔使命說明、晴香應承、美夜子孤立感、交槍、緋潮種子等多件事，再塞設定會過載；環境敘事原則（CDL-175）本意係用感受唔係上堂——否決。（2026-11-02 改寫：原理由同天台本身係說明場嘅現狀互相矛盾，盲審 A-05。）③日常同練習併成一個 beat：五件事剛好喺上限（story-room I.7），作者已揀拆開。
 - SUFFICIENCY: 意圖（晴香想用使命幫人；美夜子要晴香識用）→行動（出街、日常、IG、被帶走）→後果（世界日常建立、埋位、轉入練習）。因果鏈完整；本 beat 無轉折（底色）。
 
 FIELDS:
@@ -23,23 +23,24 @@ FIELDS:
 - entry_state: 晴香已接受使命（天台），帶驚加使命感，身上有急救袋；放學後某日；美夜子（貓形）隨行
 - pressure_trigger: N（COST_SIGNAL_NOT_APPLICABLE——純日常底色同設定介紹 beat，Beat 2 entry state 本來就係『延續日常運作節奏』，ACT_I_BEAT_SHEET 理由同 CDL-175）
 - participant_intentions: 晴香＝以使命生活為開心事、想分享（IG）、想帶貓一齊；美夜子＝跟住、保持距離、準備下一步（要晴香識用裝置）
-- action: 前段短動畫俯視維多利亞城（光幕、日區同夜區對比，CDL-127）→玩家控制晴香步行；環境點：高聳廣告牌完美偶像形象（官方謊言）、行人睇手機直播打賞討論賠率（CDL-131）、3 個文字道具（官方宣傳單張、觀光小冊子、街頭告示）、市民碎話（官方版對底層版）；晴香對街景一掃而過（日常化）但手帶住書包帶未放（驚未散）；晴香停低影自拍／IG、拉貓入鏡，貓用手擋鏡頭（CDL-125）；貓咬住晴香褲腳或書包帶示意走開
+- action: 前段短動畫俯視維多利亞城（光幕、日區同夜區對比，CDL-127）→玩家控制晴香步行；環境點：高聳廣告牌完美偶像形象（官方謊言）、行人睇手機直播打賞討論賠率（CDL-131）、3 個文字道具（官方宣傳單張、觀光小冊子、街頭告示）、市民碎話（官方版對底層版）；晴香對街景一掃而過（日常化）但縮手入袖口（canon 焦慮 Tell，驚未散）；經過廣告牌上完美天使形象時有一個最小反應位（唔使對白，Scene 層）；晴香停低影自拍／IG、拉貓入鏡，貓用手擋鏡頭（CDL-125）；貓咬住晴香褲腳或書包帶示意走開
 - reaction: 晴香笑住讓步，跟貓行；美夜子冇講公開說話（貓形街頭公開講嘢未答，暫定零台詞）
 - turn: N/A — 底色 beat，功能係建立日常同埋位，冇角色心理轉折
 - consequence: 觀眾接收世界日常輪廓同 IG 習慣；晴香被帶離人群去練習；『貓擋鏡頭』成立為後面基地合照鬧劇嘅埋位
 - emotional_value_shift: 帶驚加使命感 → 暫時被日常蓋住嘅暖（偽亮色），底下留一粒未散嘅驚
 - relationship_delta: 晴香對美夜子＝親近、主動拉；美夜子對晴香＝跟隨但功能性擋開（面硬、暗地照住，CDL-408）
-- audience_info_delta: 觀眾見到光幕、日夜區輪廓、帝國宣傳美學、市民直播消費文化；見到晴香有 IG 習慣；官方版同底層碎話並置，觀眾比晴香早察覺落差（戲劇反諷）
-- character_knowledge_delta: 晴香：完全唔知自己係帝國棋子（CDL-125），冇察覺官方／底層落差；美夜子：知道，唔講
+- audience_info_delta: 觀眾見到光幕、日夜區輪廓、帝國宣傳美學、市民直播消費文化；見到晴香有 IG 習慣；官方包裝（廣告牌、單張）同市民消費並置；『官方係謊』呢層 Act I 唔明示（HC-1b），只喺可選嘅底層碎話留種子，觀眾唔一定比晴香早察覺落差（盲審 B2-PT1-10）
+- character_knowledge_delta: 晴香：已知自己係維多利亞天使（天台），所以廣告牌天使形象係佢反應位嘅關鍵；完全唔知自己係帝國棋子（CDL-125），冇察覺官方／底層落差；美夜子：知道，唔講
 - setup_payoff: Setup → 基地合照鬧劇（貓擋鏡頭，M4）；→ 街戰直播 UI 首現（B1）；→ 文字道具官方謊言，E-03 後轉底層（demo 外）；→ 隊友斷更『數位墓碑』（Act II／III，CDL-125）
 - world_rule_exposure: 光幕、日夜區輪廓、直播消費文化、帝國宣傳——全部環境敘事碎片化，唔設獨立說明事件（CDL-175）
 - gameplay_form: 玩家控制晴香步行探索；環境互動點（文字道具可讀、市民碎話可聽）；低壓力，冇戰鬥，玩家有心情探索（CDL-181 偽亮色期）
 - exit_state: 晴香被美夜子帶去安靜處；設定已輕介紹；IG 習慣已埋位
 - next_beat_pressure: 美夜子要晴香識用裝置（『要識用先有用』，CDL-060 口說工具身體守護）；預告屍骸遲早嚟（唔解釋原因）——內部動機接駁，外部觸發留俾 PR1
-- source_obligation_trace: SCOPE_AND_CUT_LIST 方案 1 場 1；CDL-125（IG 強行營業）；CDL-127（開場兩段式）；CDL-131（廣告牌背景＋手機前景）；CDL-132（開場無縫）；CDL-181（偽亮色期 Text Props 3–4）；CDL-175（環境敘事）；CDL-408／060（美夜子）；ACT_I_BEAT_SHEET Beat 0／Beat 2 entry state；HC-1b／2d／7d（約束）
+- source_obligation_trace: SCOPE_AND_CUT_LIST 方案 1 場 1；CDL-125（IG 強行營業）；CDL-127（只借『前段俯視動畫＋無縫探索』形式；原為上學路上，PT1 係放學後）；CDL-131（廣告牌背景＋手機前景）；CDL-132（只借『無縫』精神；PT1 並非開場）；CDL-181（偽亮色期 Text Props 3–4）；CDL-175（環境敘事）；CDL-408／060（美夜子）；ACT_I_BEAT_SHEET Beat 0／Beat 2 entry state；HC-1b／7d（約束）
 - downstream_references:
-  - Scene Reference: 晴香 IG 對白候選（haruka_voice_discovery.md MH1：『望呢度呀！望呢度！』『喂，唔好擋住㗎！』）；美夜子擋鏡頭（miyako_voice_discovery.md MY3）——Scene 層重新對返
+  - Scene Reference: 晴香 IG 對白以作者已揀句為準（haruka_voice_discovery.md §9 場 1：『一齊影張相吖！』＋『喂，唔好啊！』；MH1 舊候選『望呢度呀！』『喂，唔好擋住㗎！』已淘汰）；美夜子擋鏡頭（miyako_voice_discovery.md MY3）——Scene 層重新對返；美夜子表演文件寫『擋鏡頭 1 次（Scene 7）』，PT1 加基地合照鬧劇共 ≥2 次，上限待作者確認
   - Directing Reference: 無既有 timing／鏡頭引用
+  - **REVALIDATE 清單（盲審 B3-PT1-28）：** `character-performance-bibles/miyako.md`（擋鏡頭上限）、`character-performance-bibles/haruka.md`（Tell）、`haruka_voice_discovery.md` MH1／MH10、`SCOPE_AND_CUT_LIST.md`（時長、第二次俯視動畫）、天台 beat 交接
   - **Scene 層交接：** 廣告牌文字、單張文字、碎話 wording、Text Props 內容、貓如何擋鏡頭、俯視動畫同天台俯視嘅區分（避免重複）
 
 PER_BEAT_DESIGN_RATIONALE:
@@ -47,7 +48,7 @@ ANGLES_SELECTED: 13
 ### ANGLE: Character Growth
 - DESIGN_REQUIREMENT: 晴香 Act I 冇面具、帶驚但行動（growth tracker 起點；CDL-355／381）
 - CURRENT_DESIGN: 日常中驚被蓋住但冇崩潰、冇刻意強顏歡笑
-- RATIONALE: CDL-355 否定面具唔否定壓抑；手帶住書包帶未放係未散嘅驚嘅身體痕跡，唔係表演
+- RATIONALE: CDL-355 否定面具唔否定壓抑；縮手入袖口（haruka 表演文件嘅 canon 焦慮 Tell）係未散嘅驚嘅身體痕跡，唔係表演
 - RISK_TRADEOFF: Scene 層寫得太開心會讀成蓋住創傷，撞 CDL-355；寫得太驚又同天台重複
 - DESIGN_ACTION: VERIFY（Scene 層控制份量）
 
@@ -68,13 +69,13 @@ ANGLES_SELECTED: 13
 ### ANGLE: Atmosphere/Tension
 - DESIGN_REQUIREMENT: D-13『好暖＋少少不安』
 - CURRENT_DESIGN: 偽亮色暖，加晴香未散嘅驚同底層碎話做小不安
-- RATIONALE: 不安來源係觀察層（碎話、書包帶），唔係事件
+- RATIONALE: 不安來源係觀察層（碎話、縮手入袖口），唔係事件
 - RISK_TRADEOFF: 暖過頭會冲淡天台建立嘅不安；底層碎話太少則變純廣告
 - DESIGN_ACTION: VERIFY
 
 ### ANGLE: Theme Expression
-- DESIGN_REQUIREMENT: 『態度 vs 命運』種子：官方謊言包裝 vs 底層記憶（CDL-175）
-- CURRENT_DESIGN: THEME_SEEDED：並置官方版同底層版，唔講明
+- DESIGN_REQUIREMENT: 子主題 B『完美幻象』種子（ACT_I_BEAT_SHEET 把官方使命包裝標為此線）：官方謊言包裝 vs 底層記憶（CDL-175）
+- CURRENT_DESIGN: THEME_SEEDED（完美幻象線）：並置官方版同底層版，唔講明
 - RATIONALE: Act I 階段 validate 官方表象（stance matrix 帝國）
 - RISK_TRADEOFF: 並置太含蓄觀眾讀唔到；太明顯又變上堂
 - DESIGN_ACTION: KEEP
@@ -148,35 +149,36 @@ DESIGN_DECISION_RECORD:
 - SUFFICIENCY: 意圖（美夜子要晴香識用；晴香想幫人）→行動（變身、閃避、攻擊練習）→外部觸發（屍骸闖入）→被迫反應（晴香僵住後入街戰）。因果鏈完整；轉折＝由安全練習變真實威脅。美夜子動機：口說『有用嘅工具』（CDL-060），所以要晴香識用；佢明知自己所在之處屍骸必來、無法停用（CDL-089），所以唔係『唔知』而係『冇得避』——訓練係佢唯一做到嘅保護方式；暗示階段唔解釋，只靠佢預先選位、戒備表現（Scene 層）。2026-11-02 更正：原寫『練習啟動引來、美夜子冇預計』同 CDL-089 唔符。
 
 FIELDS:
-- beat_function: 補基本操作教學（變身、閃避、基本攻擊）；接駁入街戰（外部事件＝屍骸被引來）；晴香帶驚但行動；『先感受後被告知』燈塔效應——觀眾先睇到後果
-- entry_state: 安靜、冇群眾嘅地方（公開戰鬥先套光幕，暫定練習唔套）；晴香帶驚加使命感；美夜子（貓形）；急救袋喺身
+- beat_function: 補基本操作教學（變身、閃避、基本攻擊；劇內理由：E-01 嗰次係被美夜子啟動，CDL-272，今次學自己啟動）；接駁入街戰（外部事件＝屍骸被引來）；晴香帶驚但行動；『先感受後被告知』燈塔效應——觀眾先睇到後果
+- entry_state: 安靜、冇群眾嘅地方（光幕覆蓋範圍內定外待作者揀：範圍內＝變身自動被光幕美化；範圍外＝現真身、殘餘代價自留體內，CDL-398）；晴香帶驚加使命感；美夜子（貓形）；急救袋喺身
 - pressure_trigger: R（REQUIRED）——外部事件：屍骸被吸引闖入——美夜子所在之處屍骸必來、無法停用（燈塔效應暗示階段，CDL-089）；練習啟動裝置令信號更強（CDL-064）
 - participant_intentions: 美夜子＝訓練晴香基本操作（功能優先）、暗地觀察；晴香＝想學、想幫手、興奮但手震
-- action: 美夜子示範／指示；玩家第一次按鍵變身（帶極細代價視覺，HC-4f）；練習閃避同基本攻擊；練習完晴香手震、鬆一口氣、解除變身；屍骸喺邊緣出現闖入；美夜子早有戒備（預計會嚟，但嚟得比預期大／早）；晴香僵住一拍
+- action: 美夜子示範／指示；玩家第一次按鍵變身（帶極細代價視覺，HC-4f）；練習閃避同基本攻擊；練習完晴香縮手入袖口、鬆一口氣、解除變身（驚用 canon Tell；手震留畀 B2 血糖提示，免得信號撞）；屍骸喺邊緣出現闖入；美夜子早有戒備（預計會嚟，但嚟得比預期大／早）；晴香僵住一拍
 - reaction: 晴香驚一下但冇逃（帶驚但行動）；美夜子唔做計劃性保護，只守住並戒備
 - turn: 安全練習 → 真實威脅（被打斷）
-- consequence: 晴香學咗基本操作；屍骸闖入，街戰開始；燈塔效應以後果形式先出現（暗示階段）；明示階段按 CDL-089 喺隊員入隊、晴香好奇詢問時由美夜子講『我所在之處屍骸必來』，M2 嘅講法要對返 CDL-089
+- consequence: 晴香學咗基本操作；練習有耗糖（變身、閃避、攻擊都燃燒血糖，血糖系統第一個感受埋位，07_entities L563）；屍骸闖入，街戰開始；燈塔效應以後果形式先出現（暗示階段）；明示階段按 CDL-089 喺隊員入隊、晴香好奇詢問時由美夜子講『我所在之處屍骸必來』，M2 嘅講法要對返 CDL-089
 - emotional_value_shift: 緊張興奮（練習）→ 驚（闖入）→ 準備行動
 - relationship_delta: 美夜子對晴香＝功能性教導，開始睇到佢肯做；晴香對美夜子＝信任加深（佢教我）
 - audience_info_delta: 玩家學會基本操作；觀眾感受到『美夜子喺邊度，屍骸就嚟邊度』（先感受，CDL-089 暗示階段）；美夜子知道比晴香多（觀眾察覺佢冇解釋）
 - character_knowledge_delta: 晴香：學咗操作，唔知燈塔效應；美夜子：知（自己就係燈塔），唔講
-- setup_payoff: Setup → B1 第二次按鍵（對比第一次）；→ 街戰注射槍教學（B2）；→ 燈塔效應明示（CDL-089 明示階段；M2 講法待對返）；急救袋數量交代（至少 2–3 支）
-- world_rule_exposure: 變身代價視覺（HC-4f）；燈塔效應以後果呈現；光幕唔覆蓋私密處（暫定，未核）
+- setup_payoff: Setup → B1 第二次按鍵（對比第一次）；→ 街戰注射槍教學（B2）；→ 燈塔效應明示（CDL-089 明示階段；M2 講法待對返）；急救袋數量交代（夠街戰用一支、之後基地先見底；注射槍不可連續使用超過兩次，唔好寫成『至少 3 支』）
+- world_rule_exposure: 變身代價視覺（HC-4f）；燈塔效應以後果呈現；光幕按『覆蓋範圍』內外分界（唔係公開／私密），練習地點喺範圍內定外待作者揀（CDL-398；盲審 A-02）
 - gameplay_form: 教學階梯：①按鍵變身（安全）②閃避③基本攻擊；下一個 beat 再按鍵變身（高壓）——操作相同、情境唔同
-- exit_state: 屍骸入場，晴香已學基本操作，美夜子戒備，準備入街戰
+- exit_state: 屍骸入場，晴香已學基本操作，美夜子戒備；晴香引屍骸離開練習處、行出日區街道應戰（空間接駁，暫定，PROVISIONAL）
 - next_beat_pressure: R——屍骸正式攻擊，B1 起首
 - source_obligation_trace: CDL-089（美夜子本身係燈塔：我所在之處屍骸必來，暗示階段 E-01 前後、明示階段 E-02 入隊時）；CDL-064（持有者啟動被獵殺）；CDL-108（貓形魔法執行方式）；CDL-272（裝置屬晴香本人）；CDL-060／408（美夜子）；HC-4f（變身代價視覺）；HC-1b／2e（約束）；ACT_I_BEAT_SHEET Beat 1／Beat 2 gameplay form 同 gameplay progression（教學原由首戰兩 beat 承擔）；DERIVATION_LEDGER 教學階梯 K2（前提矛盾已由本 beat 解決）
 - downstream_references:
   - Scene Reference: 美夜子戰鬥短句候選（miyako_voice_discovery.md §8『呢邊。』『唔好郁。會斷。』『後面。』）——Scene 層重新對返
   - Directing Reference: 無既有 timing／鏡頭引用
-  - **Scene 層交接：** 練習地點、標靶形式、闖入視覺／聲音訊號（雀鳥驚散？）、美夜子私下講話量（貓形公開講嘢未答，私密處暫定可講）、教學提示 UI 唔可以似教程牆
+  - **REVALIDATE 清單（盲審 B3-PR1-28）：** 街戰開場 beat（教學文字已統一）、街戰第二場（手震／血糖提示）、`miyako_voice_discovery.md`（每場戰鬥 2–3 句上限）、`07_entities_and_devices.md`（注射槍不可連續使用超過兩次）、完整版恢復首戰教學後本 beat
+  - **Scene 層交接：** 練習地點、標靶形式、闖入視覺／聲音訊號（雀鳥驚散？）、美夜子私下講話量（貓形公開講嘢未答，私密處暫定可講）、教學載體（盲審 B4-PR1-12：貓形低台詞，無手勢，要教三項操作，載體未有著落——選項：美夜子示範一次再由晴香模仿／UI 提示／晴香自學；台詞量受 2–3 句上限）、教學提示 UI 唔可以似教程牆
 
 PER_BEAT_DESIGN_RATIONALE:
 ANGLES_SELECTED: 13
 ### ANGLE: Character Growth
 - DESIGN_REQUIREMENT: 晴香帶驚但行動；Act I 冇面具（CDL-355）；主要欲望：被需要、幫人
-- CURRENT_DESIGN: 練習時興奮加手震，闖入時僵住一拍但冇逃
-- RATIONALE: 驚同興奮並存係真心反應，唔係表演；手震係未散嘅驚嘅身體證據
+- CURRENT_DESIGN: 練習時興奮加縮手入袖口，闖入時僵住一拍但冇逃
+- RATIONALE: 驚同興奮並存係真心反應，唔係表演；縮手入袖口係未散嘅驚嘅身體證據（手震留畀 B2 血糖提示）
 - RISK_TRADEOFF: 若學得太順似天才，削弱『驚』；若僵太耐似軟弱
 - DESIGN_ACTION: VERIFY
 
@@ -225,7 +227,7 @@ ANGLES_SELECTED: 13
 ### ANGLE: Setup/Payoff
 - DESIGN_REQUIREMENT: 急救袋數量、變身按鍵、燈塔解釋要有去向
 - CURRENT_DESIGN: 三條：B1 第二次按鍵、B2 注射槍、燈塔明示（CDL-089）
-- RATIONALE: 急救袋至少 2–3 支令街戰用一支後基地見底
+- RATIONALE: 急救袋數量夠街戰用一支、基地先見底，同注射槍『不可連續使用超過兩次』對得返
 - RISK_TRADEOFF: 數量未定會令補給見底（M1）失去根據
 - DESIGN_ACTION: VERIFY
 

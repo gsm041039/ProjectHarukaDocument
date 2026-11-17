@@ -142,5 +142,13 @@
     "order": 11.5,
     "group": "文件",
     "state": "actPick"
+  },
+  {
+    "id": "studio",
+    "name": "分鏡 Studio",
+    "icon": "🎞️",
+    "order": 3.6,
+    "group": "故事",
+    "state": "studioPick"
   }
 ]

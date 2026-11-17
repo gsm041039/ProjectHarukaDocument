@@ -1,0 +1,392 @@
+{
+ "id": "sb-2026-11-10-94a7",
+ "title": "B5 操中陷阱",
+ "created": "2026-11-10T08:23:09.609Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B5 操中陷阱】地面層攻擊（操弱點 S:365）纏住，佢唔肯狼狽閃避（S:310）；致命一擊逼近。【改：刪「下顎擦傷做牙前兆」——牙成因係魔法消耗唔係外傷，C／F】\n（功能：操中陷阱（由佢自己弱點造成）；牙前兆（延遲代價））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B5"
+ },
+ "proposals": [
+  {
+   "id": "p1f5d26",
+   "name": "跟住操嘅「姿態」走：由絲線到被扯落地",
+   "intent": "想觀眾先睇到操幾優雅、幾有掌控，然後親眼睇住佢引以為傲嘅「唔掂地」一個個被拆走，感到佢嘅潔癖正正係致命位。",
+   "rationale": "操嘅戰鬥風格係用絲線懸吊、絕對唔掂地，弱點就係地面層攻擊會切斷絲線令傀儡失控（操角色檔）。B4 佢高處介入、撐傘、救路人，B5 要由呢個高位被拉落嚟。直播中，操好重視姿態，所以佢寧可受傷都唔肯狼狽閃避。",
+   "pros": "視覺因果清楚，由絲線→被纏→失控一氣呵成；任何人冇對白都睇得明邊個位係弱點；同上一場 B4 嘅高處姿態有強對比。",
+   "cons": "觀眾由頭到尾都比操知得多，張力靠「點解你唔郁」而唔係未知；如果前面 B4 冇充分建立佢嘅高位優勢，跌落嚟冇力。",
+   "sacrifices": "犧牲咗晴香同美夜子嘅視角同街頭整體空間感；唔留懸念，純粹係「睇住佢中伏」。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:09.632Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.24825049999999999
+   },
+   "cuts": [
+    {
+     "id": "c1eb48e",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "仰角，由街面望向半空",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操懸喺半空，傘半開偏右前方，絲線細細閃光，傀儡喺下面同屍骸周旋，姿態從容。",
+     "reveals": "操仍然完全掌控局面；高度同距離就係佢嘅安全區。",
+     "continuity": "操喺畫面右上、面向左；屍骸喺左下；傘維持半開偏右前方；觀眾知道佢唔掂地，晴香同美夜子位置未交代。",
+     "why": "用仰角同遠景建立「佢喺安全高度」，令之後被拉落更痛。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.2,
+        "facing": "left"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.3,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c0578de",
+     "n": 2,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "一條絲線被地上突然伸出嘅黑影爪／觸手纏住，線微微拉緊。",
+     "reveals": "觸發點係地面層攻擊，而且已經纏住絲線。",
+     "continuity": "絲線由畫右上入畫、纏住位喺畫面中下；操未入畫；屍骸攻擊方向由下而上。",
+     "why": "用細節特寫交代「弱點被擊中」，唔使對白解釋。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c2da14c",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "微俯",
+     "camera_move": "T.B.",
+     "duration": 2.5,
+     "action": "操被線扯到離地面只差一個身位，傘角度歪咗；佢咬實牙，眼望住下面，腳尖本能縮起，唔肯放低。",
+     "reveals": "佢唔係唔知危險，係唔肯狼狽——姿態比命重要。",
+     "continuity": "操面向左、視線落向左下屍骸；傘由偏右前方被扯到偏右後；晴香同美夜子未入畫；觀眾知道操嘅執著。",
+     "why": "T.B. 跟住佢向下，將「被迫接近地面」變成鏡頭動作。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.6,
+        "y": 0.45,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c2a2aae",
+     "n": 4,
+     "shot_size": "全身",
+     "angle": "側面平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "傀儡全部同時失控，一隻接一隻癱軟垮低；屍骸舉起手，致命一擊影子罩住操。",
+     "reveals": "防線崩潰，致命一擊逼近；操幾乎冇退路。",
+     "continuity": "操喺畫面中，離地一尺；屍骸喺右、面向左；傀儡散落地面；道具：傘仍然喺手。",
+     "why": "用靜止全身，畀觀眾睇清楚全局崩潰，然後交俾 B6 晴香擋。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.4,
+        "y": 0.5,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.45,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p19bec2",
+   "name": "跟晴香嘅眼：由遠處睇到「佢點解唔閃」",
+   "intent": "想觀眾同晴香一齊，由旁人視角發現操好似出事，再先理解佢係死撐，令後面晴香衝出去擋嘅動機更直覺。",
+   "rationale": "B4 提過晴香因增幅有餘裕睇到操；B6 晴香反而衝前去擋，操第一次覺得有人在乎「佢」。所以 B5 由晴香視線做主觀，觀眾比操知得少，到最後先確認佢唔閃係因為姿態。注意晴香增幅有餘裕睇到係 B4 設定，B5 具體視野範圍 unverified。",
+   "pros": "自然鋪墊 B6：晴香睇到→擔心→行動；觀眾同主角站同一邊，感情投入；留少少懸念。",
+   "cons": "操嘅「弱點」同「死撐姿態」要靠晴香睇到先成立，如果晴香視角有遮擋會有資訊缺口；操嘅內心較難表達。",
+   "sacrifices": "犧牲咗操自己內心嘅直接描寫同絲線機關嘅細節；空間資訊比較碎。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:09.632Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.24825049999999999
+   },
+   "cuts": [
+    {
+     "id": "cabf8cd",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "晴香主觀偏過肩",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香喘氣，血糖未完全穩，眼睛望向遠處街中，操喺半空小小一點。",
+     "reveals": "晴香注意到操嘅位置，而且佢仲喺度。",
+     "continuity": "晴香喺畫面左前景、面向右；操喺右遠景；美夜子喺晴香附近（位置 unverified）；晴香知道操喺高處救咗人。",
+     "why": "用過肩建立主觀，由晴香引入。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.2,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c86bd19",
+     "n": 2,
+     "shot_size": "遠景",
+     "angle": "晴香主觀，微仰",
+     "camera_move": "push",
+     "duration": 2.5,
+     "action": "鏡頭慢推向操，睇到地面有東西纏住絲線，操身體一頓，但冇向旁邊閃。",
+     "reveals": "操被纏，但佢刻意唔閃。",
+     "continuity": "操喺畫面中右、面向左；絲線被纏位置喺畫面下方；晴香視線方向係向右；觀眾同晴香同步知道。",
+     "why": "推鏡模擬晴香視線聚焦，令觀眾自然跟住。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.65,
+        "y": 0.35,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cb2d57e",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "操嘅側面，下巴微抬，眼神望住下面嘅屍骸，冇慌張，只係咬住唇。",
+     "reveals": "佢唔係唔識閃，係唔肯閃。",
+     "continuity": "操面向左；視線同上一格一致；傘喺畫面右邊；操知道危險，晴香同觀眾估到佢嘅堅持。",
+     "why": "呢格係全段情感核心，用靜止特寫將「唔肯狼狽」變成肉眼睇到嘅表情。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.55,
+        "y": 0.5,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c76f626",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "pan",
+     "duration": 2,
+     "action": "鏡頭由操橫搖到晴香，晴香眼神變，已經提腳起步。",
+     "reveals": "晴香決定衝前；為 B6 鋪路。",
+     "continuity": "晴香由畫面右（面向左）起步；操留喺畫面左；晴香視線再次對準操；觀眾知道晴香要行動。",
+     "why": "用橫搖將兩人拉埋一齊，直接交棒俾下一個 beat。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.55,
+        "facing": "left"
+       },
+       {
+        "name": "操",
+        "x": 0.2,
+        "y": 0.35,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pe79bbb",
+   "name": "直播視角：用 UI 同彈幕打破姿態",
+   "intent": "想觀眾感到操係喺全城睇住嘅直播入面中伏，佢唔肯狼狽，部分原因係知道有人睇，令佢嘅死撐更令人心酸。",
+   "rationale": "場景設定喺直播中，Beat 有直播 UI 同 Likes；操對外表演好重要（角色檔：用表演取代真實）。可以用彈幕同數字變化將「被睇住」呈現出嚟。直播 UI 具體樣式同彈幕內容 unverified，要同 UI 設定對返。",
+   "pros": "同故事嘅直播設定互相呼應；將「姿態」提升到社會層面；製作上可重用 UI 資產。",
+   "cons": "容易搶走角色表演；彈幕如果寫得太多會令畫面太吵，削弱致命一擊嘅危機感。",
+   "sacrifices": "犧牲咗純粹嘅物理動作張力同空間清晰度；彈幕文字要避免劇透 B6。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:09.632Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.24825049999999999
+   },
+   "cuts": [
+    {
+     "id": "cbb6b67",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "直播畫面一角：Likes 持續跳升，彈幕飄過「操好靚」「呢個姿勢！」。",
+     "reveals": "全城睇住操，佢係被欣賞嘅對象。",
+     "continuity": "UI 喺畫面右側；彈幕向左飄；操未入畫；觀眾知道直播存在，操知唔知彈幕內容 unverified。",
+     "why": "用 UI 先建立「被睇住」嘅壓力。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c34ad6b",
+     "n": 2,
+     "shot_size": "中景",
+     "angle": "微仰",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操被地面攻擊纏住，身體一晃，彈幕突然變慢，數字停住，操望一望鏡頭方向，然後繃緊面唔閃。",
+     "reveals": "佢知道有人睇，所以唔肯狼狽。",
+     "continuity": "操面向左前方、視線輕微偏向鏡頭；傘偏右前方；屍骸喺畫面左下；觀眾知道操嘅動機。",
+     "why": "用輕微望鏡頭交代佢嘅「表演意識」，但唔打破第四面牆太多。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.45,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cad236d",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "UI 數字由跳升變靜止，彈幕開始夾雜「小心！」。",
+     "reveals": "外界開始察覺危險，但操冇動。",
+     "continuity": "UI 同上一格位置一致；操未入畫；觀眾知道危險逼近。",
+     "why": "令觀眾感到時間被拉長，同操嘅固執形成對比。",
+     "layout": {
+      "chars": [],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c4247d8",
+     "n": 4,
+     "shot_size": "全身",
+     "angle": "側面平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "致命一擊影子壓落，操仍然半懸、傘冇收，彈幕全部消失，畫面安靜。",
+     "reveals": "最危險嘅一刻只剩下操同屍骸；晴香未入畫，為 B6 留位。",
+     "continuity": "操喺畫面中央偏左；屍骸喺右、面向左；道具：傘；晴香同美夜子位置未交代。",
+     "why": "將外界噪音拿走，令致命一擊更乾淨、更有重量。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.4,
+        "y": 0.5,
+        "facing": "right"
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.45,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [],
+  "from": [],
+  "version": 0
+ },
+ "versions": []
+}

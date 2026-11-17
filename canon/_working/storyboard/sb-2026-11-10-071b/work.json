@@ -1,0 +1,413 @@
+{
+ "id": "sb-2026-11-10-071b",
+ "title": "B4 操到場·救路人",
+ "created": "2026-11-10T08:23:10.962Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B4 操到場·救路人】操高處介入、撐傘、唔掂地、姿態優先；混戰中求存順手救咗未疏散路人；晴香因增幅有餘裕睇到。\n（功能：操登場（燈塔效應、獨行、形式主義性格確立）；操救路人（為 B6「晴香覺得操心地好」做因果起點））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B4"
+ },
+ "proposals": [
+  {
+   "id": "p9398cf",
+   "name": "傘先到·人後到（先聲奪人再回望）",
+   "intent": "令觀眾先感到「呢個人好型、好遠、唔屬於呢場混戰」，之後先發現佢其實有睇住地上嘅人。操嘅形式主義姿態同佢實際求存救人之間嘅反差，由觀眾自己拼出嚟。",
+   "rationale": "設定上操係「恐懼露出破綻」嘅人，24小時表演完美；佢救路人係順手，唔係英雄決定。所以先交代佢嘅『表演面』（撐傘、唔掂地、高處），再用地面細節揭露『順手救人』，避免操自己有任何明顯善意表情。呢個次序為後面晴香覺得操心地好埋因果起點。",
+   "pros": "操嘅登場夠有燈塔效應；救人係觀眾自己發現，唔係被餵；冷處理嘅性格一入場就立住。",
+   "cons": "救人只係一兩格，觀眾可能睇漏；需要地面路人位置清楚先成立。",
+   "sacrifices": "犧牲咗操救人嘅正面戲劇感同路人嘅情緒反應；犧牲咗晴香視角嘅主觀投入。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:10.992Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.24959359999999997
+   },
+   "cuts": [
+    {
+     "id": "c778bf6",
+     "n": 1,
+     "shot_size": "遠景",
+     "angle": "仰角",
+     "camera_move": "T.U.",
+     "duration": 2.5,
+     "action": "街道上空，一把傘影慢慢擋住直播無人機嘅光，傘下人影唔著地，懸停喺招牌高處。",
+     "reveals": "有個人由高處介入，姿態優先，未知佢想做咩。",
+     "continuity": "傘影喺畫面右上，面向左；未見面；晴香同怪物仲未入鏡；觀眾未知操身份（觀眾已知角色設定，但呢格只見剪影）。",
+     "why": "先交『型』同『距離』，用仰角同T.U.令觀眾同地面人一齊抬頭，建立燈塔效應。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.75,
+        "y": 0.15,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8bbe8f",
+     "n": 2,
+     "shot_size": "全身",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操喺招牌邊緣輕巧轉身，傘柄轉一圈，腳尖輕輕點招牌，冇踩實。",
+     "reveals": "操唔掂地係刻意嘅姿態，唔係飛行失控；佢有餘裕。",
+     "continuity": "操面向右，位置喺畫面中上；傘喺右手；高度高過地面混戰。",
+     "why": "止め絵式 hold，將形式主義性格變成可以睇到嘅動作。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.5,
+        "y": 0.3,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ce09263",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "俯角",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "地面混戰，一個未疏散嘅路人跌低，怪物爪影壓落，路人縮埋。",
+     "reveals": "地面有人冇走到，處於危險。",
+     "continuity": "路人喺畫面左下，爪由右上落；操未入鏡；操嘅視線方向應該係由右上向左下。",
+     "why": "俯角即係操嘅視角位置，但唔交代佢有冇睇到，留低懸念。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.3,
+        "y": 0.75,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c248636",
+     "n": 4,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 1.5,
+     "action": "傘骨一撐，絲線掠過畫面，爪影被卸開，路人冇受傷，只覺風過。",
+     "reveals": "操出手救咗人，但冇任何救人姿態。",
+     "continuity": "絲線由右上入畫；傘仍喺操手；路人喺左下未見操。",
+     "why": "救人手法同表演一樣，冇多餘動作，保持冷淡。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.3,
+        "y": 0.75,
+        "facing": "right"
+       },
+       {
+        "name": "操",
+        "x": 0.8,
+        "y": 0.1,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c98627b",
+     "n": 5,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "操側面，眼尾向下一掃，隨即別開，嘴角冇任何表情，傘沿遮住半邊面。",
+     "reveals": "操知道自己救咗人，但唔肯承認。",
+     "continuity": "操面向左，視線掃向地面再收返；晴香未見；觀眾知操有留意地面。",
+     "why": "以最細嘅微表情交代佢有睇，但用傘遮住，保持佢冷處理嘅防衛。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.55,
+        "y": 0.45,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p175376",
+   "name": "晴香增幅視角（慢咗嘅世界）",
+   "intent": "令觀眾同晴香一齊『剛好睇到』操救人，感到呢個畫面係晴香有餘裕先攞到嘅發現，為之後晴香覺得操心地好立一個可追溯嘅主觀證據。",
+   "rationale": "劇情講明晴香因增幅有餘裕睇到。所以用佢視角將時間放慢，操嘅救人係喺晴香主觀入面被抽出嚟。操自己冇意識到有人睇到，造成觀眾同晴香知得比操多嘅落差。",
+   "pros": "直接為B6晴香判斷做因果；觀眾同晴香情感綁定；增幅嘅能力有視覺表現。",
+   "cons": "操嘅登場燈塔效應被削弱，因為焦點喺晴香；若慢動作太重，容易變成煽情。",
+   "sacrifices": "犧牲咗操登場嘅純粹型格同觀眾自己發現嘅樂趣；犧牲咗街道全域嘅空間資訊。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:10.992Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.24959359999999997
+   },
+   "cuts": [
+    {
+     "id": "cf9e5cc",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香喺混戰邊緣喘氣，視線突然被引向上方，周圍動作減速。",
+     "reveals": "晴香有餘裕留意其他地方；增幅令佢睇到平時睇唔到嘅嘢。",
+     "continuity": "晴香面向右，視線向右上；怪物喺畫面左外；背景人聲漸細。",
+     "why": "用hold加減速背景令觀眾知道呢段係晴香主觀，唔係客觀記錄。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "ca07ece",
+     "n": 2,
+     "shot_size": "遠景",
+     "angle": "仰角",
+     "camera_move": "T.U.",
+     "duration": 2,
+     "action": "晴香視點：高處傘影降落，操懸停，人群聲音被收細。",
+     "reveals": "操登場，由晴香角度睇。",
+     "continuity": "操喺畫面右上；視線方向對應晴香面向右；仍未見面。",
+     "why": "以晴香視點交代登場，同時保持距離感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.2,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cc9ef96",
+     "n": 3,
+     "shot_size": "全身",
+     "angle": "俯角",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "慢速畫面：操冇望地面，傘柄一偏，絲線撥開落向路人嘅爪，動作順手到似撥走灰塵。",
+     "reveals": "操救人，但完全冇當成救人。",
+     "continuity": "操位置同前格一致；路人喺畫面左下；絲線方向由右上落左下。",
+     "why": "慢速令『順手』變得可讀，同時保持操姿態優先。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.65,
+        "y": 0.25,
+        "facing": "left"
+       },
+       {
+        "name": "路人",
+        "x": 0.3,
+        "y": 0.8,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c182a5e",
+     "n": 4,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香眼神微微睜大，聲音一下子回復正常速度，佢望住操。",
+     "reveals": "晴香確認咗自己睇到嘅嘢；操未留意到。",
+     "continuity": "晴香面向右；操喺畫面外右上；只有晴香知道呢個發現。",
+     "why": "回到正常時間嗰刻，等觀眾感到『我哋同晴香一齊知道咗一個秘密』。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p9e140d",
+   "name": "路人眼中嘅傘（地面主觀、操保持神秘）",
+   "intent": "令觀眾由『被救者』角度感受操：佢係未知而且遙遠嘅存在，救人係一個無法被理解、無法道謝嘅事件。保持操嘅性格留白，唔俾觀眾提早入佢內心。",
+   "rationale": "操嘅被打動只喺轉身後一瞬俾觀眾見（之後場口），所以B4唔應該提前揭露佢內心。以路人視角，只見一把傘同一道影，令操嘅救人呈現為『來歷不明嘅恩惠』，同之後佢冷處理否認前後呼應。",
+   "pros": "保持操神秘，唔提早洩露佢內心；為之後路人道謝同操否認留低伏線；製作量低。",
+   "cons": "晴香睇到嘅部分只能靠後面補，B4功能（為B6立因果）會偏弱；觀眾對操嘅性格理解較慢。",
+   "sacrifices": "犧牲咗晴香增幅睇到嘅直接呈現；犧牲咗操登場嘅視覺主導權（因為視角壓低）。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:23:10.992Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.24959359999999997
+   },
+   "cuts": [
+    {
+     "id": "c4d949a",
+     "n": 1,
+     "shot_size": "全身",
+     "angle": "仰角",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "路人跌坐地上，抬頭見怪物影壓落，天色轉暗。",
+     "reveals": "路人處於即時危險，仍未疏散。",
+     "continuity": "路人位置喺畫面中下，面向右上；怪物影由右上落；操未出現。",
+     "why": "用仰角將觀眾放喺路人位置，增加無助感。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.4,
+        "y": 0.7,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c28ca98",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "仰角",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "一把傘由上而下彈開，擋住怪物爪，傘面遮住大半畫面。",
+     "reveals": "有人出手，但見唔到人。",
+     "continuity": "傘喺畫面上方中央；路人喺畫面下方；操喺畫面外上。",
+     "why": "將操縮成一個物件，保持神秘。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.4,
+        "y": 0.85,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cb30a20",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "仰角",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "路人睜大眼，傘影喺佢瞳孔入面一閃而過。",
+     "reveals": "路人感受到被救，但唔知係邊個。",
+     "continuity": "路人面向右上；瞳孔反射傘影；操仍未顯露。",
+     "why": "用瞳孔反射交代救人，節省空間，亦呼應之後路人道謝。",
+     "layout": {
+      "chars": [
+       {
+        "name": "路人",
+        "x": 0.5,
+        "y": 0.5,
+        "facing": "right"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c80d9e5",
+     "n": 4,
+     "shot_size": "全身",
+     "angle": "平視",
+     "camera_move": "pan",
+     "duration": 2.5,
+     "action": "鏡頭由路人仰角慢慢向上pan，見到操半身喺高處背光，傘遮面，冇望落嚟。",
+     "reveals": "救人嘅係操，但佢冇看路人，姿態冷淡。",
+     "continuity": "操位置喺畫面右上；面向左；路人喺畫面外下；背光令面部唔清晰。",
+     "why": "以pan代替切鏡，保持由地面向上嘅單一視線，令操似遙遠嘅存在。",
+     "layout": {
+      "chars": [
+       {
+        "name": "操",
+        "x": 0.7,
+        "y": 0.2,
+        "facing": "left"
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [],
+  "from": [],
+  "version": 0
+ },
+ "versions": []
+}

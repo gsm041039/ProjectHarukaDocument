@@ -1,0 +1,804 @@
+{
+ "id": "sb-2026-11-10-bcd0",
+ "title": "B3 情緒連結",
+ "created": "2026-11-10T08:40:37.138Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B3 情緒連結】美夜子提出、一句提到以前同人試過、一瞬猶豫；晴香察覺冇問。連結：力量暴增；兩人當下情緒一瞬互透（冇記憶畫面），晴香當自己緊張、美夜子認得唔講。可玩載體：連結期間兩個唔同步嘅心跳回饋（HUD／震動）【改：E／G-P10，Scene 驗】。\n（功能：情緒連結首次使用（canon 要求）；令晴香有餘裕留意到操救路人（B4 嘅前提））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B3"
+ },
+ "proposals": [
+  {
+   "id": "pf14c47",
+   "name": "先睇晴香，後知美夜子（主觀貼身）",
+   "intent": "想觀眾同晴香一樣，只覺得「我點解忽然心跳好快」，而唔知嗰份緊張其實係美夜子嘅。觀眾要有「有啲嘢唔對路」嘅隱約感覺，但未攞到答案。",
+   "rationale": "B3 設定係兩人情緒一瞬互透，晴香當自己緊張，美夜子認得但唔講。所以觀眾嘅視角鎖喺晴香身上，知得同晴香一樣少，等美夜子嗰份猶豫之後先回頭有意義。美夜子提到「以前同人試過」嘅一句，只用聲音交代，唔俾觀眾睇佢表情。（角色細節同街道環境未逐項核對，標 unverified）",
+   "pros": "觀眾嘅誤讀同晴香一致，之後美夜子認得唔講嘅一刻有後勁；畫面簡單，製作量低。",
+   "cons": "美夜子「一瞬猶豫」睇唔到，觀眾要靠聲音同後面回望先補得返。直播街戰中間突然收窄去晴香臉，空間資訊會少咗。",
+   "sacrifices": "犧牲咗街頭空間嘅清晰度，同埋美夜子猶豫嘅直接表情。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:37.190Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2302185
+   },
+   "cuts": [
+    {
+     "id": "c7fea77",
+     "n": 1,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "日區街道，怪物逼近，晴香喺左邊後退，美夜子喺右邊企住，兩人之間有一段距離。",
+     "reveals": "交代戰況同兩人相對位置，而家真係唔夠打。",
+     "continuity": "晴香喺畫面左、望右；美夜子喺畫面右、望左；怪物喺畫面右後方。兩人都未知對方會提出連結。",
+     "why": "先俾觀眾一個空間錨點，之後鏡頭收窄先有對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.25,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.7,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c4854d0",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 2.5,
+     "action": "晴香背向鏡頭少少，肩後見到美夜子側面輪廓，美夜子開口提議連結，聲音入畫但焦點留喺晴香後腦同肩膊。",
+     "reveals": "連結係美夜子提出；佢提到以前同人試過，但觀眾睇唔清佢表情。",
+     "continuity": "晴香喺畫面近鏡頭左邊，背向；美夜子喺遠端右邊，睇住晴香；晴香視線望向美夜子方向。",
+     "why": "過肩構圖令觀眾同晴香一齊聽，美夜子嗰一瞬猶豫只剩聲音上嘅停頓。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       },
+       {
+        "name": "美夜子",
+        "x": 0.7,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c163a81",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香面部特寫，眼神微微一震，手指不自覺收緊；背景嘅街道聲壓低，剩心跳聲。",
+     "reveals": "晴香感到一陣唔屬於自己嘅緊張，但自己以為係驚。",
+     "continuity": "晴香仍然望畫面右（美夜子方向）；心跳聲未同步，只得單一心跳。",
+     "why": "用特寫做「誤認」嗰一刻：晴香嘅反應係觀眾唯一嘅資訊來源。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 30
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c853681",
+     "n": 4,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "回到街道，兩人手伸向對方，連結啟動嘅光首次亮起，力量暴增。",
+     "reveals": "連結成功，戰力改變；觀眾仍然冇睇過美夜子正面。",
+     "continuity": "位置同第一格一致，只係兩人距離收近；怪物仍喺右後方。",
+     "why": "回返全景做結果，同第一格形成前後對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p62a479",
+   "name": "先睇美夜子，晴香冇察覺（觀眾比角色知得多）",
+   "intent": "想觀眾比晴香早知道美夜子有事收埋，畀觀眾一份「我識你，你唔知」嘅不安。",
+   "rationale": "設定寫明美夜子認得嗰份互透嘅情緒但唔講，晴香冇問。所以呢案反過嚟，鏡頭停喺美夜子，睇佢猶豫同認得，晴香喺畫面入面只係背景或者半身。",
+   "pros": "美夜子嘅秘密感最強，之後兩人關係嘅落差有埋位；觀眾會自己諗佢過去試過同邊個。",
+   "cons": "觀眾一早知道有野收埋，晴香「察覺冇問」嗰個細節會變成純粹被動；會同晴香產生距離。",
+   "sacrifices": "犧牲咗觀眾同晴香一齊「誤讀」嘅同步感。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:37.190Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2302185
+   },
+   "cuts": [
+    {
+     "id": "ca6e112",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "美夜子喺街道一側，望住晴香背影同遠處怪物，嘴唇微動。",
+     "reveals": "美夜子係今次提議嘅主導者，而佢本身有顧慮。",
+     "continuity": "美夜子喺畫面右，望左；晴香喺畫面左，背向鏡頭少少，遠景。",
+     "why": "一開始就將重心放喺美夜子，建立觀眾同佢嘅關係。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.65,
+        "y": 0.7,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -80
+       },
+       {
+        "name": "晴香",
+        "x": 0.25,
+        "y": 0.35,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 120
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c6d4c68",
+     "n": 2,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 3,
+     "action": "美夜子特寫，講出「以前同人試過」，之後眼神一垂，停頓一瞬，然後再抬眼。",
+     "reveals": "美夜子有過去經歷、對連結有猶豫，而佢決定繼續。",
+     "continuity": "美夜子望左（晴香方向），之後視線微垂再返回；晴香不在畫面，但位置喺畫面左。",
+     "why": "用 hold 嘅停頓畀觀眾睇到猶豫，唔需要旁白。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -30
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cd23dc7",
+     "n": 3,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香側面，眼神定住，似乎察覺到咩，但最後冇出聲，只係點頭。",
+     "reveals": "晴香察覺到美夜子嘅異樣，但選擇唔問。",
+     "continuity": "晴香望畫面右（美夜子方向）；與上一格嘅視線方向互相對應。",
+     "why": "用反打閉合兩人視線，但只用一格，保持美夜子係重心。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.9,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 60
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cea95a7",
+     "n": 4,
+     "shot_size": "全景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "兩人伸手相觸，光爆開，美夜子眼神一縮（認出嗰份緊張唔係自己嘅），冇出聲。",
+     "reveals": "互透情緒發生，美夜子認得，晴香以為係自己緊張。",
+     "continuity": "晴香喺左、美夜子喺右，手喺畫面中間相觸；怪物影子喺背景拉長。",
+     "why": "低角抬高兩人，令連結帶出力量感，同時喺爆光中保留美夜子嘅微細反應。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.38,
+        "y": 0.55,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.62,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "pfebcb4",
+   "name": "兩個心跳，唔交代（遊戲載體先行）",
+   "intent": "想觀眾用身體感覺到「有兩個唔同步嘅人」，而唔係靠表情或對白明白，同玩家喺遊戲入面嘅 HUD／震動回饋對應。",
+   "rationale": "設定指定可玩載體係兩個唔同步嘅心跳回饋，所以分鏡以「聲音／HUD 節奏」做主線，人物表情做輔助，等玩家玩到嘅感覺同動畫睇到嘅一致。（HUD 具體形式屬 Scene 驗證，標 unverified）",
+   "pros": "同遊戲載體直接對齊，之後落 Unity 規格容易；用節奏代替對白，冇出現具體對白 wording。",
+   "cons": "如果觀眾冇留意聲音，成場戲會變成兩人企住發光；要靠聲音混音同畫面 HUD 脈衝配合。",
+   "sacrifices": "犧牲咗人物表情嘅細緻度，同埋美夜子猶豫嘅情感重量。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:40:37.190Z",
+    "direction": "",
+    "reads": [],
+    "cost": 0.2302185
+   },
+   "cuts": [
+    {
+     "id": "c7e0a9d",
+     "n": 1,
+     "shot_size": "全景",
+     "angle": "俯視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "街道俯視，兩人站定，各自有一個細小脈衝圈喺腳下閃，節奏唔同。",
+     "reveals": "兩個人各有各嘅節奏，仲未連埋。",
+     "continuity": "晴香喺畫面左下、美夜子喺右上；怪物喺畫面最右。位置固定到連結完成。",
+     "why": "俯視令脈衝圈同空間距離一齊睇到，同遊戲視角對應。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.7,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c8ff5c6",
+     "n": 2,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "美夜子嘴唇微動提議連結，畫面角落脈衝停頓半拍，再繼續。",
+     "reveals": "美夜子嘅猶豫以節奏停頓表達，而唔係表情。",
+     "continuity": "美夜子望左；晴香喺畫外左邊。",
+     "why": "用節奏嘅一拍空白代替表情，令猶豫呢個資訊用另一個感官承載。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -35
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c4d9c99",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 2.5,
+     "action": "兩人手相觸，兩個脈衝圈慢慢重疊但相位仍然錯開，晴香皺眉，美夜子冇表情。",
+     "reveals": "連結成功但兩人感受並唔同步。",
+     "continuity": "兩人手喺畫面中間；晴香喺左望右、美夜子喺右望左。",
+     "why": "重疊但錯位嘅脈衝直接視覺化「互透但唔一樣」。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.38,
+        "y": 0.7,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.62,
+        "y": 0.7,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c366b8a",
+     "n": 4,
+     "shot_size": "遠景",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 2,
+     "action": "力量爆發，鏡頭由低角搖上去睇到兩人輪廓被光籠罩，兩個心跳聲喺背景交疊。",
+     "reveals": "力量暴增，但兩個心跳仍然唔同步，點出之後會有後果。",
+     "continuity": "人物位置同上一格一致，鏡頭向上，怪物喺畫面外後方。",
+     "why": "以 T.U. 帶出力量感，同時保留聲音上嘅「唔同步」餘韻。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.6,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "c6d1d81",
+    "n": 1,
+    "shot_size": "全景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "日區街道，怪物逼近，晴香喺左邊後退，美夜子喺右邊企住，兩人之間有一段距離。",
+    "reveals": "交代戰況同兩人相對位置，而家真係唔夠打。",
+    "continuity": "晴香喺畫面左、望右；美夜子喺畫面右、望左；怪物喺畫面右後方。兩人都未知對方會提出連結。",
+    "why": "先俾觀眾一個空間錨點，之後鏡頭收窄先有對比。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.25,
+       "y": 0.5,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 90
+      },
+      {
+       "name": "美夜子",
+       "x": 0.7,
+       "y": 0.55,
+       "facing": "left",
+       "pose": "stand",
+       "turn": -90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pf14c47",
+     "name": "先睇晴香，後知美夜子（主觀貼身）",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c74ac10",
+    "n": 2,
+    "shot_size": "近景",
+    "angle": "平視",
+    "camera_move": "push",
+    "duration": 2.5,
+    "action": "晴香背向鏡頭少少，肩後見到美夜子側面輪廓，美夜子開口提議連結，聲音入畫但焦點留喺晴香後腦同肩膊。",
+    "reveals": "連結係美夜子提出；佢提到以前同人試過，但觀眾睇唔清佢表情。",
+    "continuity": "晴香喺畫面近鏡頭左邊，背向；美夜子喺遠端右邊，睇住晴香；晴香視線望向美夜子方向。",
+    "why": "過肩構圖令觀眾同晴香一齊聽，美夜子嗰一瞬猶豫只剩聲音上嘅停頓。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.3,
+       "y": 0.85,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 160
+      },
+      {
+       "name": "美夜子",
+       "x": 0.7,
+       "y": 0.4,
+       "facing": "left",
+       "pose": "stand",
+       "turn": -90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pf14c47",
+     "name": "先睇晴香，後知美夜子（主觀貼身）",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c6c38e9",
+    "n": 3,
+    "shot_size": "特寫",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2,
+    "action": "晴香面部特寫，眼神微微一震，手指不自覺收緊；背景嘅街道聲壓低，剩心跳聲。",
+    "reveals": "晴香感到一陣唔屬於自己嘅緊張，但自己以為係驚。",
+    "continuity": "晴香仍然望畫面右（美夜子方向）；心跳聲未同步，只得單一心跳。",
+    "why": "用特寫做「誤認」嗰一刻：晴香嘅反應係觀眾唯一嘅資訊來源。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.5,
+       "y": 0.95,
+       "facing": "right",
+       "pose": "stand",
+       "turn": 30
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pf14c47",
+     "name": "先睇晴香，後知美夜子（主觀貼身）",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c8ac3a1",
+    "n": 4,
+    "shot_size": "全景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 1.5,
+    "action": "回到街道，兩人手伸向對方，連結啟動嘅光首次亮起，力量暴增。",
+    "reveals": "連結成功，戰力改變；觀眾仍然冇睇過美夜子正面。",
+    "continuity": "位置同第一格一致，只係兩人距離收近；怪物仍喺右後方。",
+    "why": "回返全景做結果，同第一格形成前後對比。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.4,
+       "y": 0.5,
+       "facing": "right",
+       "pose": "reach",
+       "turn": 90
+      },
+      {
+       "name": "美夜子",
+       "x": 0.6,
+       "y": 0.55,
+       "facing": "left",
+       "pose": "reach",
+       "turn": -90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "pf14c47",
+     "name": "先睇晴香，後知美夜子（主觀貼身）",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "pf14c47"
+  ],
+  "version": 1
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:41:20.219Z",
+   "note": "AI 生成：先睇晴香，後知美夜子（主觀貼身）",
+   "cuts": [
+    {
+     "id": "c6d1d81",
+     "n": 1,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "日區街道，怪物逼近，晴香喺左邊後退，美夜子喺右邊企住，兩人之間有一段距離。",
+     "reveals": "交代戰況同兩人相對位置，而家真係唔夠打。",
+     "continuity": "晴香喺畫面左、望右；美夜子喺畫面右、望左；怪物喺畫面右後方。兩人都未知對方會提出連結。",
+     "why": "先俾觀眾一個空間錨點，之後鏡頭收窄先有對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.25,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.7,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pf14c47",
+      "name": "先睇晴香，後知美夜子（主觀貼身）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c74ac10",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "push",
+     "duration": 2.5,
+     "action": "晴香背向鏡頭少少，肩後見到美夜子側面輪廓，美夜子開口提議連結，聲音入畫但焦點留喺晴香後腦同肩膊。",
+     "reveals": "連結係美夜子提出；佢提到以前同人試過，但觀眾睇唔清佢表情。",
+     "continuity": "晴香喺畫面近鏡頭左邊，背向；美夜子喺遠端右邊，睇住晴香；晴香視線望向美夜子方向。",
+     "why": "過肩構圖令觀眾同晴香一齊聽，美夜子嗰一瞬猶豫只剩聲音上嘅停頓。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.85,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 160
+       },
+       {
+        "name": "美夜子",
+        "x": 0.7,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "stand",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pf14c47",
+      "name": "先睇晴香，後知美夜子（主觀貼身）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c6c38e9",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "晴香面部特寫，眼神微微一震，手指不自覺收緊；背景嘅街道聲壓低，剩心跳聲。",
+     "reveals": "晴香感到一陣唔屬於自己嘅緊張，但自己以為係驚。",
+     "continuity": "晴香仍然望畫面右（美夜子方向）；心跳聲未同步，只得單一心跳。",
+     "why": "用特寫做「誤認」嗰一刻：晴香嘅反應係觀眾唯一嘅資訊來源。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.95,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 30
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pf14c47",
+      "name": "先睇晴香，後知美夜子（主觀貼身）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c8ac3a1",
+     "n": 4,
+     "shot_size": "全景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "回到街道，兩人手伸向對方，連結啟動嘅光首次亮起，力量暴增。",
+     "reveals": "連結成功，戰力改變；觀眾仍然冇睇過美夜子正面。",
+     "continuity": "位置同第一格一致，只係兩人距離收近；怪物仍喺右後方。",
+     "why": "回返全景做結果，同第一格形成前後對比。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.4,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 90
+       },
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.55,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "pf14c47",
+      "name": "先睇晴香，後知美夜子（主觀貼身）",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1562 @@
+{
+ "id": "sb-2026-11-10-2ea7",
+ "title": "B2 唔夠打·血糖·美夜子擋",
+ "created": "2026-11-10T08:29:29.348Z",
+ "source": {
+  "text": "（Demo Beat 層 v4.1（v4 ＋盲審 Diff 修正）・SEQ3a 街頭大戰＋操入隊（日區街道，直播中））\n【B2 唔夠打·血糖·美夜子擋】屍骸升級；晴香低血糖＝畫面變灰、手震（身體感知就係提示，冇數字讀數）【改：手錶 E-02 後先由秋穗送 CDL-110，demo 冇讀數，F】→ 玩家用一支注射槍。戰術視窗教學：美夜子（隊友）遇險時開一次視窗【改：教核心 loop，E】。晴香險中招，美夜子本能用魔法防護擋、咬唇（貓形同一動作 M:278）、即講功利藉口；晴香若有所感但未深究【改：原「照字面收」撞 CDL-083，C】。\n（功能：血糖危機教學（核心機制：注射針）；美夜子非計劃保護晴香，即用功利藉口掩蓋（忠誠線第一步））",
+  "ref": "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md｜SEQ3a 街頭大戰＋操入隊｜B2"
+ },
+ "proposals": [
+  {
+   "id": "p801566",
+   "name": "先跟晴香身體入去，觀眾先感到不妥",
+   "intent": "觀眾先同晴香一齊感受到身體出問題（畫面發灰、手震），未必即刻知原因；等玩家之後先睇清楚注射槍係解決方法。",
+   "rationale": "劇情寫明低血糖只係身體提示，冇數字讀數。用晴香嘅身體感受做主導，觀眾同晴香一樣係後知後覺，會令『呢個係教學』嘅目的慢慢浮現，而唔係一開始就講明。",
+   "pros": "觀眾同角色嘅感受綁得緊；血糖危機做得有身體質感；唔使靠畫外字幕解釋。",
+   "cons": "戰況空間資訊會少，觀眾未必清楚屍骸喺邊；如果太慢，前面嘅張力會鬆。",
+   "sacrifices": "犧牲咗戰場全景嘅清楚度，同埋教學資訊嘅即時性。",
+   "status": "adopted",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:29:29.352Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.01658952
+   },
+   "cuts": [
+    {
+     "id": "cf6b1bf",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香握住注射槍，右手控制唔到咁震；畫面邊緣開始褪色發灰。",
+     "reveals": "觀眾見到晴香狀態唔對，但未知係咩原因。",
+     "continuity": "晴香持槍手係右手；美夜子唔喺畫面入面；晴香知自己唔舒服，觀眾未必知。",
+     "why": "用近景將手震同臉色放大，先俾身體提示，唔靠字幕。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cfdc4f2",
+     "n": 2,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香嘅手抖緊，帶住注射槍慢慢收返落腰側。",
+     "reveals": "觀眾確認手震係身體問題，唔係戰鬥受傷。",
+     "continuity": "手震方向同上一格一致；注射槍仍然喺右手。",
+     "why": "用手部特寫代替講解，令觀眾相信佢身體出咗問題。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c58f3e3",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "斜側",
+     "camera_move": "pan",
+     "duration": 3,
+     "action": "鏡頭橫移，屍骸由左邊步步接近，晴香嘅視野有一層灰濛濛嘅遮蔽。",
+     "reveals": "觀眾知道威脅喺近身，而晴香未必睇清楚。",
+     "continuity": "屍骸由左入鏡；晴香面向右方；灰化效果只喺晴香嘅視覺層面。",
+     "why": "橫移令威脅慢慢入鏡，同時保持晴香仍然係主角。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.8,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "walk",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c0f39b0",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 1.5,
+     "action": "美夜子（黑貓形態）由側邊跳入，身體衝到晴香前面，魔法防護光一閃。",
+     "reveals": "觀眾見到美夜子出手擋住屍骸，但晴香仍然未完全意識到發生咗咩。",
+     "continuity": "美夜子由右側入鏡；屍骸喺左側；晴香仍然面向右方。",
+     "why": "低角同快速上推，令美夜子嘅出手似乎係本能，唔似計劃好。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "run",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "fall",
+        "turn": 0
+       },
+       {
+        "name": "屍骸",
+        "x": 0.85,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "reach",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p498655",
+   "name": "由貓嘅低位去睇，觀眾先知危險已經到",
+   "intent": "觀眾比晴香早一步知道危險已經喺身邊，而且清楚睇到美夜子係即時擋住，但晴香仍然唔知。",
+   "rationale": "美夜子係黑貓形態，視點低，天然適合『貓先見到威脅』。用佢嘅視角做主導，觀眾同美夜子一齊知道晴香嘅位置，而晴香毫不知情。",
+   "pros": "觀眾同美夜子之間會有一種秘密感；保護動作有戲劇張力；唔使靠對白交代。",
+   "cons": "觀眾知道嘅嘢比晴香多，如果做得太明顯，會令晴香感覺似笨人；另外低位構圖會令戰場左右關係難睇。",
+   "sacrifices": "犧牲咗晴香嘅主觀感受，同埋戰場空間嘅清楚度。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:29:29.352Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.01658952
+   },
+   "cuts": [
+    {
+     "id": "ce6a84c",
+     "n": 1,
+     "shot_size": "大遠景",
+     "angle": "高角",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "街道全景，晴香同美夜子喺街中央，屍骸由遠處慢慢接近。",
+     "reveals": "觀眾一開始就見到整個戰場佈局。",
+     "continuity": "晴香喺中間偏右；美夜子貼近佢；屍骸喺左遠處。",
+     "why": "先交代空間，之後先用低位貼近美夜子。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.55,
+        "y": 0.4,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       },
+       {
+        "name": "美夜子",
+        "x": 0.45,
+        "y": 0.3,
+        "facing": "left",
+        "pose": "crouch",
+        "turn": 0
+       },
+       {
+        "name": "屍骸",
+        "x": 0.1,
+        "y": 0.2,
+        "facing": "right",
+        "pose": "walk",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c83d00d",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "低角",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "從美夜子嘅低位望上去，晴香喺畫面上方，腳步有點不穩。",
+     "reveals": "觀眾由貓嘅角度睇到晴香狀態唔對，美夜子已經察覺。",
+     "continuity": "美夜子面向晴香；晴香視線向前；屍骸仍然喺遠處。",
+     "why": "低角令晴香顯得高大但脆弱，觀眾感到美夜子係擔心佢。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.3,
+        "y": 0.9,
+        "facing": "right",
+        "pose": "crouch",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.6,
+        "y": 0.3,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c16352b",
+     "n": 3,
+     "shot_size": "特寫",
+     "angle": "仰角",
+     "camera_move": "push",
+     "duration": 1.2,
+     "action": "屍骸嘅爪從左側伸出，鏡頭慢慢推向美夜子嘅前爪。",
+     "reveals": "觀眾知道危險即將出手，但晴香仍然背對住威脅。",
+     "continuity": "爪由左入鏡；美夜子前爪位置喺畫面中央；晴香唔喺畫面入面。",
+     "why": "推向前爪，把將來嘅擋格形成一個預告。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.2,
+        "y": 0.6,
+        "facing": "right",
+        "pose": "reach",
+        "turn": 0
+       },
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 0.9,
+        "facing": "left",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c9defbc",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "T.B.",
+     "duration": 2,
+     "action": "防護光擋住爪，美夜子縮咗一下；晴香先轉身，但只見到一道光。",
+     "reveals": "觀眾清楚知道係美夜子擋咗，晴香只見到結果，未見到過程。",
+     "continuity": "晴香面向左方；美夜子在晴香前面；防護光喺中間。",
+     "why": "停喺晴香轉身嗰一刻，令觀眾同美夜子一樣知道佢擋咗。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.35,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "stand",
+        "turn": 0
+       },
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  },
+  {
+   "id": "p973742",
+   "name": "用快切打戰，咬唇停一拍做焦點",
+   "intent": "觀眾由戰鬥節奏轉入一個停頓，見到美夜子咬唇，感到佢有話唔出口嘅情緒；晴香仍然唔深究。",
+   "rationale": "咬唇係美夜子嘅固定習慣，每次做完非計劃保護動作之後會有半拍停頓。將呢拍放大，用快切包住，令停頓變得突出，而唔使講明。",
+   "pros": "戰鬥有衝擊力；咬唇嘅停頓會令觀眾記住美夜子嘅性格；唔使加對白。",
+   "cons": "快切令空間清楚度會低，觀眾可能會漏睇；停頓太長會打斷戰鬥。",
+   "sacrifices": "犧牲咗戰場細節，同埋停頓嘅節奏要控制好。",
+   "status": "open",
+   "meta": {
+    "mock": false,
+    "provider": "claude",
+    "skill": {
+     "name": "story-anime-storyboard-director",
+     "hash": "5e80a32b"
+    },
+    "at": "2026-11-10T08:29:29.352Z",
+    "direction": "",
+    "reads": [
+     "canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md"
+    ],
+    "cost": 0.01658952
+   },
+   "cuts": [
+    {
+     "id": "c5bb116",
+     "n": 1,
+     "shot_size": "中景",
+     "angle": "斜側",
+     "camera_move": "static",
+     "duration": 1,
+     "action": "美夜子跳起，同屍骸交手，身體快速翻轉。",
+     "reveals": "觀眾見到美夜子主動出手，但未見到佢有咩特別反應。",
+     "continuity": "美夜子由左跳向右；屍骸喺右邊；晴香喺畫面外。",
+     "why": "快速交戰，令之後嘅停頓更突出。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "run",
+        "turn": 0
+       },
+       {
+        "name": "屍骸",
+        "x": 0.75,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "reach",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cedb77e",
+     "n": 2,
+     "shot_size": "近景",
+     "angle": "傾斜",
+     "camera_move": "T.B.",
+     "duration": 1,
+     "action": "防護光擋住屍骸嘅攻擊，鏡頭快速跳切到晴香嘅反應。",
+     "reveals": "觀眾見到防護出現咗，晴香只係見到光，未見到美夜子係咪受傷。",
+     "continuity": "晴香面向右方；防護光喺畫面左邊；美夜子背向鏡頭。",
+     "why": "傾斜構圖令戰鬥有緊張感，唔係靜態擋格。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.7,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "guard",
+        "turn": 0
+       },
+       {
+        "name": "美夜子",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "c815efa",
+     "n": 3,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.8,
+     "action": "美夜子喺防護後面咬住下唇，停一拍，尾巴收緊。",
+     "reveals": "觀眾見到美夜子有情緒，而佢唔想俾人見到。",
+     "continuity": "美夜子面向鏡頭；晴香喺畫面外；防護光逐漸消失。",
+     "why": "大特寫停喺咬唇，把佢嘅情緒放大，但唔講明。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    },
+    {
+     "id": "cc9c400",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2,
+     "action": "美夜子即刻轉頭，講一句功利嘅藉口，晴香接住佢嘅話，但眼神停咗一下。",
+     "reveals": "觀眾見到晴香有察覺，但佢冇追問。",
+     "continuity": "美夜子面向晴香；晴香面向美夜子；兩人距離近。",
+     "why": "用停頓嘅眼神帶出『有所感但未深究』，而唔係靠對白解釋。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.35,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "stand",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.65,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "stand",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null
+    }
+   ]
+  }
+ ],
+ "board": {
+  "cuts": [
+   {
+    "id": "c37df0d",
+    "n": 1,
+    "shot_size": "近景",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 2.5,
+    "action": "晴香握住注射槍，右手控制唔到咁震；畫面邊緣開始褪色發灰。",
+    "reveals": "觀眾見到晴香狀態唔對，但未知係咩原因。",
+    "continuity": "晴香持槍手係右手；美夜子唔喺畫面入面；晴香知自己唔舒服，觀眾未必知。",
+    "why": "用近景將手震同臉色放大，先俾身體提示，唔靠字幕。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.5,
+       "y": 0.8,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 0
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p801566",
+     "name": "先跟晴香身體入去，觀眾先感到不妥",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "c4a15f1",
+    "n": 2,
+    "shot_size": "大特寫",
+    "angle": "平視",
+    "camera_move": "static",
+    "duration": 1.5,
+    "action": "晴香嘅手抖緊，帶住注射槍慢慢收返落腰側。",
+    "reveals": "觀眾確認手震係身體問題，唔係戰鬥受傷。",
+    "continuity": "手震方向同上一格一致；注射槍仍然喺右手。",
+    "why": "用手部特寫代替講解，令觀眾相信佢身體出咗問題。",
+    "layout": {
+     "chars": [
+      {
+       "name": "晴香",
+       "x": 0.5,
+       "y": 1,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 0
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p801566",
+     "name": "先跟晴香身體入去，觀眾先感到不妥",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "cd6d5f7",
+    "n": 3,
+    "shot_size": "中景",
+    "angle": "平視",
+    "camera_move": "慢推",
+    "duration": 3,
+    "action": "屍骸由畫面右邊一步一步行入嚟，停喺晴香面前一步之外。晴香喺左邊，握住注射槍，身體僵住，望住屍骸；屍骸望返佢。畫面邊緣嘅灰慢慢向中間擴散。",
+    "reveals": "觀眾見到屍骸已經逼到身前，晴香望住佢但反應唔切；觀眾知道佢身體出咗事，屍骸未知。",
+    "continuity": "晴香喺左邊望向右（90），屍骸喺右邊望向左（-90），兩人視線相對，軸線晴香左、屍骸右，第四格要沿用；灰化係晴香嘅身體狀態；晴香見到屍骸，但判斷唔到距離；注射槍仍然喺右手。",
+    "why": "用側面中景將兩人之間嘅距離清楚擺出嚟，慢推令距離縮短嘅感覺累積，作者要求嘅面對面對峙最直接。",
+    "layout": {
+     "chars": [
+      {
+       "name": "屍骸",
+       "x": 0.62,
+       "y": 0.5,
+       "facing": "left",
+       "pose": "walk",
+       "turn": -90
+      },
+      {
+       "name": "晴香",
+       "x": 0.3,
+       "y": 0.5,
+       "facing": "right",
+       "pose": "guard",
+       "turn": 90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p801566",
+     "name": "先跟晴香身體入去，觀眾先感到不妥",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   },
+   {
+    "id": "cfd70eb",
+    "n": 4,
+    "shot_size": "中景",
+    "angle": "低角",
+    "camera_move": "T.U.",
+    "duration": 1.5,
+    "action": "美夜子（黑貓形態）由側邊跳入，身體衝到晴香前面，魔法防護光一閃。",
+    "reveals": "觀眾見到美夜子出手擋住屍骸，但晴香仍然未完全意識到發生咗咩。",
+    "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右邊望向左（-90），晴香喺左邊望向右（90），沿用上一格嘅軸線；注意：美夜子而家面向左，如果要擋屍骸，佢應該面向右，有待確認。",
+    "why": "低角同快速上推，令美夜子嘅出手似乎係本能，唔似計劃好。",
+    "layout": {
+     "chars": [
+      {
+       "name": "美夜子",
+       "x": 0.46,
+       "y": 0.4,
+       "facing": "left",
+       "pose": "run",
+       "turn": 0
+      },
+      {
+       "name": "晴香",
+       "x": 0.3,
+       "y": 0.5,
+       "facing": "right",
+       "pose": "fall",
+       "turn": 90
+      },
+      {
+       "name": "屍骸",
+       "x": 0.62,
+       "y": 0.5,
+       "facing": "left",
+       "pose": "reach",
+       "turn": -90
+      }
+     ],
+     "frame": null
+    },
+    "image": null,
+    "origin": {
+     "proposal": "p801566",
+     "name": "先跟晴香身體入去，觀眾先感到不妥",
+     "skill": {
+      "name": "story-anime-storyboard-director",
+      "hash": "5e80a32b"
+     },
+     "mock": false
+    }
+   }
+  ],
+  "from": [
+   "p801566"
+  ],
+  "version": 3
+ },
+ "versions": [
+  {
+   "v": 1,
+   "at": "2026-11-10T08:30:18.109Z",
+   "note": "AI 生成：先跟晴香身體入去，觀眾先感到不妥",
+   "cuts": [
+    {
+     "id": "c37df0d",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香握住注射槍，右手控制唔到咁震；畫面邊緣開始褪色發灰。",
+     "reveals": "觀眾見到晴香狀態唔對，但未知係咩原因。",
+     "continuity": "晴香持槍手係右手；美夜子唔喺畫面入面；晴香知自己唔舒服，觀眾未必知。",
+     "why": "用近景將手震同臉色放大，先俾身體提示，唔靠字幕。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c4a15f1",
+     "n": 2,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香嘅手抖緊，帶住注射槍慢慢收返落腰側。",
+     "reveals": "觀眾確認手震係身體問題，唔係戰鬥受傷。",
+     "continuity": "手震方向同上一格一致；注射槍仍然喺右手。",
+     "why": "用手部特寫代替講解，令觀眾相信佢身體出咗問題。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cd6d5f7",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "斜側",
+     "camera_move": "pan",
+     "duration": 3,
+     "action": "鏡頭橫移，屍骸由左邊步步接近，晴香嘅視野有一層灰濛濛嘅遮蔽。",
+     "reveals": "觀眾知道威脅喺近身，而晴香未必睇清楚。",
+     "continuity": "屍骸由左入鏡；晴香面向右方；灰化效果只喺晴香嘅視覺層面。",
+     "why": "橫移令威脅慢慢入鏡，同時保持晴香仍然係主角。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.8,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "walk",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cfd70eb",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 1.5,
+     "action": "美夜子（黑貓形態）由側邊跳入，身體衝到晴香前面，魔法防護光一閃。",
+     "reveals": "觀眾見到美夜子出手擋住屍骸，但晴香仍然未完全意識到發生咗咩。",
+     "continuity": "美夜子由右側入鏡；屍骸喺左側；晴香仍然面向右方。",
+     "why": "低角同快速上推，令美夜子嘅出手似乎係本能，唔似計劃好。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.6,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "run",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "fall",
+        "turn": 0
+       },
+       {
+        "name": "屍骸",
+        "x": 0.85,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "reach",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  },
+  {
+   "v": 2,
+   "at": "2026-11-10T08:32:33.163Z",
+   "note": "修改：同框慢推・近身對峙",
+   "cuts": [
+    {
+     "id": "c37df0d",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香握住注射槍，右手控制唔到咁震；畫面邊緣開始褪色發灰。",
+     "reveals": "觀眾見到晴香狀態唔對，但未知係咩原因。",
+     "continuity": "晴香持槍手係右手；美夜子唔喺畫面入面；晴香知自己唔舒服，觀眾未必知。",
+     "why": "用近景將手震同臉色放大，先俾身體提示，唔靠字幕。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c4a15f1",
+     "n": 2,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香嘅手抖緊，帶住注射槍慢慢收返落腰側。",
+     "reveals": "觀眾確認手震係身體問題，唔係戰鬥受傷。",
+     "continuity": "手震方向同上一格一致；注射槍仍然喺右手。",
+     "why": "用手部特寫代替講解，令觀眾相信佢身體出咗問題。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cd6d5f7",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "慢推",
+     "duration": 3,
+     "action": "屍骸由畫面右邊步步行入嚟，停喺晴香面前一步之外，兩人面對面。晴香握住注射槍，身體僵住，面向右方。畫面邊緣嘅灰化只喺晴香視野入面慢慢擴散。",
+     "reveals": "觀眾見到屍骸逼近到身前，晴香睇唔清楚，觀眾比佢更早感到危險。",
+     "continuity": "屍骸由右邊入鏡，面向左；晴香面向右，兩人視線相對；屍骸由右側逼近（今次修正原案「由左入鏡」同設定位置 0.8 右側互相矛盾）；灰化只喺晴香視覺層面；晴香知自己唔舒服，未知屍骸已經幾近。",
+     "why": "慢推令觀眾同晴香一齊感到距離縮短，兩人空間關係保留晒，作者要求嘅面對面對峙最直接。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.62,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "walk",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cfd70eb",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 1.5,
+     "action": "美夜子（黑貓形態）由側邊跳入，身體衝到晴香前面，魔法防護光一閃。",
+     "reveals": "觀眾見到美夜子出手擋住屍骸，但晴香仍然未完全意識到發生咗咩。",
+     "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右側（今次修正原案寫「左側」同位置 0.85 矛盾）；晴香仍然面向右方。",
+     "why": "低角同快速上推，令美夜子嘅出手似乎係本能，唔似計劃好。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.46,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "run",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "fall",
+        "turn": 0
+       },
+       {
+        "name": "屍骸",
+        "x": 0.62,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "reach",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  },
+  {
+   "v": 3,
+   "at": "2026-11-10T08:33:39.174Z",
+   "note": "修改：側身正面對峙（保留原構圖，補返視線）",
+   "cuts": [
+    {
+     "id": "c37df0d",
+     "n": 1,
+     "shot_size": "近景",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 2.5,
+     "action": "晴香握住注射槍，右手控制唔到咁震；畫面邊緣開始褪色發灰。",
+     "reveals": "觀眾見到晴香狀態唔對，但未知係咩原因。",
+     "continuity": "晴香持槍手係右手；美夜子唔喺畫面入面；晴香知自己唔舒服，觀眾未必知。",
+     "why": "用近景將手震同臉色放大，先俾身體提示，唔靠字幕。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 0.8,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "c4a15f1",
+     "n": 2,
+     "shot_size": "大特寫",
+     "angle": "平視",
+     "camera_move": "static",
+     "duration": 1.5,
+     "action": "晴香嘅手抖緊，帶住注射槍慢慢收返落腰側。",
+     "reveals": "觀眾確認手震係身體問題，唔係戰鬥受傷。",
+     "continuity": "手震方向同上一格一致；注射槍仍然喺右手。",
+     "why": "用手部特寫代替講解，令觀眾相信佢身體出咗問題。",
+     "layout": {
+      "chars": [
+       {
+        "name": "晴香",
+        "x": 0.5,
+        "y": 1,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 0
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cd6d5f7",
+     "n": 3,
+     "shot_size": "中景",
+     "angle": "平視",
+     "camera_move": "慢推",
+     "duration": 3,
+     "action": "屍骸由畫面右邊一步一步行入嚟，停喺晴香面前一步之外。晴香喺左邊，握住注射槍，身體僵住，望住屍骸；屍骸望返佢。畫面邊緣嘅灰慢慢向中間擴散。",
+     "reveals": "觀眾見到屍骸已經逼到身前，晴香望住佢但反應唔切；觀眾知道佢身體出咗事，屍骸未知。",
+     "continuity": "晴香喺左邊望向右（90），屍骸喺右邊望向左（-90），兩人視線相對，軸線晴香左、屍骸右，第四格要沿用；灰化係晴香嘅身體狀態；晴香見到屍骸，但判斷唔到距離；注射槍仍然喺右手。",
+     "why": "用側面中景將兩人之間嘅距離清楚擺出嚟，慢推令距離縮短嘅感覺累積，作者要求嘅面對面對峙最直接。",
+     "layout": {
+      "chars": [
+       {
+        "name": "屍骸",
+        "x": 0.62,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "walk",
+        "turn": -90
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "guard",
+        "turn": 90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    },
+    {
+     "id": "cfd70eb",
+     "n": 4,
+     "shot_size": "中景",
+     "angle": "低角",
+     "camera_move": "T.U.",
+     "duration": 1.5,
+     "action": "美夜子（黑貓形態）由側邊跳入，身體衝到晴香前面，魔法防護光一閃。",
+     "reveals": "觀眾見到美夜子出手擋住屍骸，但晴香仍然未完全意識到發生咗咩。",
+     "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右邊望向左（-90），晴香喺左邊望向右（90），沿用上一格嘅軸線；注意：美夜子而家面向左，如果要擋屍骸，佢應該面向右，有待確認。",
+     "why": "低角同快速上推，令美夜子嘅出手似乎係本能，唔似計劃好。",
+     "layout": {
+      "chars": [
+       {
+        "name": "美夜子",
+        "x": 0.46,
+        "y": 0.4,
+        "facing": "left",
+        "pose": "run",
+        "turn": 0
+       },
+       {
+        "name": "晴香",
+        "x": 0.3,
+        "y": 0.5,
+        "facing": "right",
+        "pose": "fall",
+        "turn": 90
+       },
+       {
+        "name": "屍骸",
+        "x": 0.62,
+        "y": 0.5,
+        "facing": "left",
+        "pose": "reach",
+        "turn": -90
+       }
+      ],
+      "frame": null
+     },
+     "image": null,
+     "origin": {
+      "proposal": "p801566",
+      "name": "先跟晴香身體入去，觀眾先感到不妥",
+      "skill": {
+       "name": "story-anime-storyboard-director",
+       "hash": "5e80a32b"
+      },
+      "mock": false
+     }
+    }
+   ]
+  }
+ ],
+ "candidates": [
+  {
+   "id": "k4861e2",
+   "at": "2026-11-10T08:31:34.143Z",
+   "cuts": [
+    "cd6d5f7"
+   ],
+   "instruction": "晴香同屍骸要面對面對峙，屍骸由右邊逼近",
+   "status": "adopted",
+   "mock": false,
+   "provider": "claude",
+   "skill": {
+    "name": "story-anime-storyboard-director",
+    "hash": "5e80a32b"
+   },
+   "variants": [
+    {
+     "label": "同框慢推・近身對峙",
+     "note": "成格都保持晴香同屍骸喺同一畫面入面。屍骸由右邊步步行入嚟，停喺晴香面前一步之外，兩人面對面、視線相對，鏡頭慢慢推近。觀眾一路睇到威脅點樣逼近，空間關係最清楚。屍骸停喺 0.62 位置，係為咗俾後一格美夜子由右邊衝入、插喺兩人中間有位置。代價：推鏡同人物行動同時發生，節奏偏慢，對峙嘅張力要靠美夜子出手先打斷；製作量低。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "shot_size": "中景",
+        "angle": "平視",
+        "camera_move": "慢推",
+        "duration": 3,
+        "action": "屍骸由畫面右邊步步行入嚟，停喺晴香面前一步之外，兩人面對面。晴香握住注射槍，身體僵住，面向右方。畫面邊緣嘅灰化只喺晴香視野入面慢慢擴散。",
+        "reveals": "觀眾見到屍骸逼近到身前，晴香睇唔清楚，觀眾比佢更早感到危險。",
+        "continuity": "屍骸由右邊入鏡，面向左；晴香面向右，兩人視線相對；屍骸由右側逼近（今次修正原案「由左入鏡」同設定位置 0.8 右側互相矛盾）；灰化只喺晴香視覺層面；晴香知自己唔舒服，未知屍骸已經幾近。",
+        "why": "慢推令觀眾同晴香一齊感到距離縮短，兩人空間關係保留晒，作者要求嘅面對面對峙最直接。"
+       },
+       "chars": [
+        {
+         "name": "屍骸",
+         "x": 0.62,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "walk",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.3,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 0
+        }
+       ]
+      },
+      {
+       "cutId": "cfd70eb",
+       "patch": {
+        "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右側（今次修正原案寫「左側」同位置 0.85 矛盾）；晴香仍然面向右方。"
+       },
+       "chars": [
+        {
+         "name": "美夜子",
+         "x": 0.46,
+         "y": 0.4,
+         "facing": "left",
+         "pose": "run",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.3,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "fall",
+         "turn": 0
+        },
+        {
+         "name": "屍骸",
+         "x": 0.62,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "reach",
+         "turn": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "過肩主觀・先見屍骸樣",
+     "note": "改用過肩鏡頭，將觀眾放喺晴香位置望住屍骸。屍骸由右邊走入，佔住右半邊畫面，面向左望住晴香。觀眾先清楚見到屍骸樣貌同壓迫感，晴香只見到模糊身影。信息次序同上一個方案相反：先俾觀眾睇清威脅，晴香仍然睇唔清。代價：唔見兩人距離全貌，空間要靠後一格嘅位置先建立；過肩機位同前後格嘅全景之間，要留意視線方向唔好跳。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "shot_size": "過肩中近景（晴香肩膊入鏡）",
+        "angle": "平視",
+        "camera_move": "靜止",
+        "duration": 2.5,
+        "action": "屍骸由畫面右邊走入，佔住右半邊畫面，面向左望住晴香。晴香喺左邊前景，握住注射槍，面向右方；畫面邊緣有灰化。",
+        "reveals": "觀眾清楚見到屍骸樣貌同逼近感；晴香只見到模糊身影，睇唔清佢嘅樣。",
+        "continuity": "屍骸由右邊入鏡，面向左；晴香喺左前景面向右，兩人視線相對；過肩機位只保留晴香一邊肩膊，唔交代兩人距離；屍骸行到右側近景為止（約 0.72）；灰化只喺晴香視覺層面。",
+        "why": "過肩鏡頭將觀眾放喺晴香位置望住屍骸，威脅嘅樣貌同壓迫感先出現，唔靠全景交代。"
+       },
+       "chars": [
+        {
+         "name": "屍骸",
+         "x": 0.72,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "walk",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.25,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 0
+        }
+       ]
+      },
+      {
+       "cutId": "cfd70eb",
+       "patch": {
+        "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右側（今次修正原案寫「左側」同位置矛盾）；晴香仍然面向右方，但後半格要由過肩位置轉返全景，留意視線方向。"
+       },
+       "chars": [
+        {
+         "name": "美夜子",
+         "x": 0.5,
+         "y": 0.4,
+         "facing": "left",
+         "pose": "run",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.25,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "fall",
+         "turn": 0
+        },
+        {
+         "name": "屍骸",
+         "x": 0.72,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "reach",
+         "turn": 0
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "止め絵留白・等佢走到前面",
+     "note": "第 3 格改成全景靜止鏡頭，時長拉長到 4 秒。屍骸行到右邊停低，離晴香大約四步，兩人隔住一段空地對望，雙方都冇動作，只有晴香視野嘅灰化慢慢向中間擴散。張力來自等待，唔係靠逼近動作。觀眾知道佢已經行到近，但未知佢想做咩。代價：節奏慢，4 秒可能拖慢 beat；作者要求嘅「逼近」感減弱，要靠後一格美夜子插入先有衝擊；製作量低。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "shot_size": "全景（留白）",
+        "angle": "平視",
+        "camera_move": "靜止",
+        "duration": 4,
+        "action": "屍骸行到畫面右邊停低，離晴香大約四步，兩人隔住一段空地對望；雙方都冇動作，只有晴香視野嘅灰化慢慢向中間擴散。",
+        "reveals": "觀眾等緊屍骸下一步；張力係等待嚟嘅，唔係逼近動作嚟；觀眾知道佢已經行近，但唔知佢想點。",
+        "continuity": "屍骸由右邊入鏡後停定，面向左；晴香面向右，兩人視線相對；屍骸停喺右側（約 0.72）；灰化只喺晴香視覺層面。",
+        "why": "止め絵加長時間，俾觀眾停低望住兩人嘅距離，令對峙嘅壓迫感係靜態嘅，唔靠動作推。"
+       },
+       "chars": [
+        {
+         "name": "屍骸",
+         "x": 0.72,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "idle",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.25,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 0
+        }
+       ]
+      },
+      {
+       "cutId": "cfd70eb",
+       "patch": {
+        "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右側（今次修正原案寫「左側」同位置矛盾）；晴香仍然面向右方。"
+       },
+       "chars": [
+        {
+         "name": "美夜子",
+         "x": 0.5,
+         "y": 0.4,
+         "facing": "left",
+         "pose": "run",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.25,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "fall",
+         "turn": 0
+        },
+        {
+         "name": "屍骸",
+         "x": 0.72,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "reach",
+         "turn": 0
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "cost": 0.01568751,
+   "chosen": 0
+  },
+  {
+   "id": "k78b3c9",
+   "at": "2026-11-10T08:32:48.118Z",
+   "cuts": [
+    "cd6d5f7"
+   ],
+   "instruction": "晴香同屍骸要面對面對峙，屍骸由右邊逼近",
+   "status": "adopted",
+   "mock": false,
+   "provider": "claude",
+   "skill": {
+    "name": "story-anime-storyboard-director",
+    "hash": "5e80a32b"
+   },
+   "variants": [
+    {
+     "label": "側身正面對峙（保留原構圖，補返視線）",
+     "note": "保留原本嘅中景同慢推，只係補返兩個人嘅朝向：晴香喺左邊望向右（turn 90），屍骸喺右邊望向左（turn -90），兩個人嘅視線真正對上。順手執正原本自相矛盾嘅知情描述：既然係面對面，晴香係見到屍骸嘅，只係灰化令佢睇唔清楚、判斷唔到距離。第四格嘅晴香同屍骸都同步改做 90／-90，保持視線一致。仲有一個連續性風險未處理：第四格美夜子由右邊衝入，但係佢面向左，即係背住屍骸；如果佢係用身擋，應該要面向右。呢點建議另外處理。代價：鏡頭係客觀側面，灰化只可以靠畫面邊緣表現，觀眾唔容易覺得自己就係晴香嘅視野；構圖同一般戰鬥對峙差唔多，比較平凡。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "action": "屍骸由畫面右邊一步一步行入嚟，停喺晴香面前一步之外。晴香喺左邊，握住注射槍，身體僵住，望住屍骸；屍骸望返佢。畫面邊緣嘅灰慢慢向中間擴散。",
+        "reveals": "觀眾見到屍骸已經逼到身前，晴香望住佢但反應唔切；觀眾知道佢身體出咗事，屍骸未知。",
+        "continuity": "晴香喺左邊望向右（90），屍骸喺右邊望向左（-90），兩人視線相對，軸線晴香左、屍骸右，第四格要沿用；灰化係晴香嘅身體狀態；晴香見到屍骸，但判斷唔到距離；注射槍仍然喺右手。",
+        "why": "用側面中景將兩人之間嘅距離清楚擺出嚟，慢推令距離縮短嘅感覺累積，作者要求嘅面對面對峙最直接。"
+       },
+       "chars": [
+        {
+         "name": "屍骸",
+         "x": 0.62,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "walk",
+         "turn": -90
+        },
+        {
+         "name": "晴香",
+         "x": 0.3,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 90
+        }
+       ]
+      },
+      {
+       "cutId": "cfd70eb",
+       "patch": {
+        "continuity": "美夜子由右側入鏡，插入晴香同屍骸之間；屍骸喺右邊望向左（-90），晴香喺左邊望向右（90），沿用上一格嘅軸線；注意：美夜子而家面向左，如果要擋屍骸，佢應該面向右，有待確認。"
+       },
+       "chars": [
+        {
+         "name": "美夜子",
+         "x": 0.46,
+         "y": 0.4,
+         "facing": "left",
+         "pose": "run",
+         "turn": 0
+        },
+        {
+         "name": "晴香",
+         "x": 0.3,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "fall",
+         "turn": 90
+        },
+        {
+         "name": "屍骸",
+         "x": 0.62,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "reach",
+         "turn": -90
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "由晴香膊頭後面望屍骸逼近",
+     "note": "鏡頭擺喺晴香背後越過膊頭：晴香喺前景左邊，半背住鏡頭（turn 135），屍骸喺右邊中景，迎住鏡頭行埋嚟（turn -45）。灰化變成晴香自己視野嘅邊緣，觀眾同佢睇同一樣嘢，屍骸愈行愈近、愈嚟愈大。軸線仍然係晴香左、屍骸右，接第四格美夜子由右邊入鏡冇問題。上一格已經用手部特寫交代咗手震，所以呢格睇唔到晴香塊面都唔會漏資訊。代價：睇唔到晴香嘅表情，佢有幾驚只可以靠肩膊僵硬嘅動作表現；屍骸要畫迎面行嚟，製作量多過側面行；第四格要由越肩跳返去低角側面，鏡頭位置變化比較大。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "shot_size": "過肩中景",
+        "angle": "平視",
+        "camera_move": "慢推",
+        "duration": 3,
+        "action": "由晴香膊頭後面望出去：屍骸由畫面右邊斜斜向晴香行埋嚟，愈嚟愈大，停喺一步之外。前景晴香嘅肩膊僵住，握住注射槍嘅右手喺畫面邊微微震。灰色由畫面四邊收埋嚟，屍骸嘅輪廓開始化開。",
+        "reveals": "觀眾借晴香嘅視野見到屍骸逼近，同時睇到佢自己嘅視線正在變灰；觀眾同晴香一樣睇唔清楚，危機感由畫面直接傳過嚟。",
+        "continuity": "晴香喺前景左邊，背向鏡頭偏右（135），屍骸喺右邊迎面行埋嚟（-45），兩人仍然面對面；軸線晴香左、屍骸右，第四格沿用；灰化係晴香主觀視野；右手揸住注射槍，同第二格一致。",
+        "why": "將鏡頭放喺晴香背後，令灰化由旁觀嘅特效變成觀眾自己都睇唔清，面對面嘅壓迫感由佢嘅位置感受，唔係由旁邊睇。"
+       },
+       "chars": [
+        {
+         "name": "晴香",
+         "x": 0.25,
+         "y": 0.75,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 135
+        },
+        {
+         "name": "屍骸",
+         "x": 0.62,
+         "y": 0.5,
+         "facing": "left",
+         "pose": "walk",
+         "turn": -45
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "label": "由屍骸背後反打晴香張臉",
+     "note": "相反方向：鏡頭喺屍骸背後偏右，屍骸佔右邊前景，半背住鏡頭（turn -135），晴香喺左邊中景，迎住鏡頭望向屍骸（turn 45）。觀眾見到屍骸嘅背影一步一步壓過去，同時睇到晴香發灰嘅面、遲咗半拍嘅眼神，知道佢反應唔切，比佢自己更早覺得大件事。軸線仍然係晴香左、屍骸右。代價：觀眾唔再喺晴香嘅視野入面，灰化要改做晴香臉色同周圍環境嘅色調變化，同第一格嘅畫面邊緣灰化表現方式唔同；屍骸背影遮住部分畫面，距離感要靠前景大細去讀；第四格美夜子插入嗰陣，鏡頭要由屍骸背後轉去側面低角，剪接跳動比較明顯。",
+     "edits": [
+      {
+       "cutId": "cd6d5f7",
+       "patch": {
+        "shot_size": "過肩中景",
+        "angle": "平視",
+        "camera_move": "慢推",
+        "duration": 3,
+        "action": "鏡頭由屍骸背後偏右望過去：屍骸嘅背影喺右邊前景一步一步向晴香壓過去，停喺一步之外。晴香喺左邊中景，迎住屍骸，握住注射槍，臉色發灰，眼神慢咗半拍先對焦。",
+        "reveals": "觀眾睇到晴香嘅面同眼神：佢見到屍骸，但反應遲咗；觀眾比晴香更早明白佢擋唔切。",
+        "continuity": "屍骸喺右邊前景，背向鏡頭偏左（-135），晴香喺左邊中景，望向右前方嘅屍骸（45），兩人面對面；軸線晴香左、屍骸右，第四格沿用；灰化改為晴香臉色同周圍色調變暗；右手揸住注射槍。",
+        "why": "將晴香塊面放喺正中，觀眾直接睇到佢反應唔切，危險嘅感覺來自睇住佢，唔係代入佢；屍骸背影壓住畫面，令逼近有實質重量。"
+       },
+       "chars": [
+        {
+         "name": "屍骸",
+         "x": 0.7,
+         "y": 0.6,
+         "facing": "left",
+         "pose": "walk",
+         "turn": -135
+        },
+        {
+         "name": "晴香",
+         "x": 0.32,
+         "y": 0.5,
+         "facing": "right",
+         "pose": "guard",
+         "turn": 45
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "cost": 0.638428,
+   "chosen": 0
+  }
+ ]
+}

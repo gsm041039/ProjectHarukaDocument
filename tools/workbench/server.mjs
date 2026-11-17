@@ -11,6 +11,7 @@ import { createDiscussions } from "./discuss.mjs";
 import { CodexSessionAdapter } from "./providers/codex-app-server.mjs";
 import { DEFAULT_PROVIDER, PROVIDER_CLAUDE, PROVIDER_CODEX, makeProviderSessionRef, normalizeProvider, readProviderSessionRef } from "./providers/provider-contract.mjs";
 import { runProviderPrompt } from "./providers/runtime.mjs";
+import { createStudio } from "./studio.mjs";
 
 const PORT = Number(process.env.WORKBENCH_PORT || 4317);
 process.env.HARUKA_WORKBENCH = "1"; // inherited by every Claude run we start: the author-prompt hook skips them (this server logs typed text itself)
@@ -94,6 +95,7 @@ function readActivity() {
       .map(([file]) => ({ t: r.t || 0, kind: "edit", sid, title: r.title || "", file, reason: "", backfill: true })));
   return rows.slice(-4000);
 }
+const studio = createStudio({ REPO, runPrompt: runProviderPrompt });
 const plain = createPlain(path.join(REPO, "canon/_working/.tmp/workbench/plain.json"), runProviderPrompt);
 const discussions = createDiscussions({ REPO, DIR: path.join(REPO, "canon/_working/.tmp/workbench/discussions"), runPrompt: runProviderPrompt,
   onTool: (d, ev) => logBackgroundTool(`discussion=${d.id}`, d.provider, ev),
@@ -382,6 +384,8 @@ async function createSession({ title, resume, provider, task, model, effort, age
         } else if (m.type === "assistant" && !m.parent_tool_use_id) {
           for (const b of m.message.content) {
             if (b.type === "text") {
+              // SDK reports auth failure as a plain assistant text → show it as an error so the re-login button appears
+              if (/^\s*Failed to authenticate|OAuth session expired/i.test(b.text)) { emit(s, { kind: "error", message: b.text.trim() }); continue; }
               emit(s, { kind: "text", text: b.text });
               // a ui:status that names the work (TASK_BOARD id, or "<tracker file>#Stage N") links this chat to it for good
               for (const m of b.text.matchAll(/```ui:step\s*([\s\S]*?)```/g)) { try { stepModel(s, JSON.parse(m[1])); } catch {} }
@@ -633,7 +637,15 @@ const server = http.createServer(async (req, res) => {
     if (parts[0] === "api") {
       if (req.method === "POST" && url.pathname !== "/api/ui-action")
         console.log(`[Workbench] ${new Date().toLocaleTimeString("en-GB", { hour12: false })} API ${url.pathname}`);
+      if (parts[1] === "studio" && await studio(req, res, url, parts, { json, readBody, provider: normalizeProvider(url.searchParams.get("provider"), defaultProvider()), model: url.searchParams.get("model") || "" })) return;
       if (url.pathname === "/api/health") return json(res, 200, { ok: true, protocol: PROTOCOL_VERSION });
+
+      // OAuth expired → run `claude auth login` (opens the browser to sign in again).
+      if (url.pathname === "/api/claude-login" && req.method === "POST") {
+        const p = spawn("claude", ["auth", "login"], { shell: true, detached: true, stdio: "ignore", windowsHide: false });
+        p.unref();
+        return json(res, 200, { ok: true });
+      }
 
       if (url.pathname === "/api/ui-action" && req.method === "POST") {
         const body = await readBody(req);

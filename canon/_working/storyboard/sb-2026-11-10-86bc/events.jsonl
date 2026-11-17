@@ -1,0 +1,7 @@
+{"t":"2026-11-10T07:39:24.778Z","type":"work.create","ref":"用戶例子"}
+{"t":"2026-11-10T07:39:24.787Z","type":"proposals.add","ids":["pc94404","pd94f9d","p605261"],"meta":{"mock":true,"provider":"mock","skill":{"name":"story-anime-storyboard-director","hash":"5e80a32b"},"at":"2026-11-10T07:39:24.787Z","direction":""}}
+{"t":"2026-11-10T07:39:24.791Z","type":"decision.adopt","proposal":"pc94404","name":"清楚交代（MOCK）","reason":"test","replaced_cuts":0,"skill":{"name":"story-anime-storyboard-director","hash":"5e80a32b"}}
+{"t":"2026-11-10T07:39:24.794Z","type":"decision.mix","picks":[{"proposalId":"pd94f9d","cutId":"c27a6b5"}],"reason":"mix"}
+{"t":"2026-11-10T07:39:24.797Z","type":"cut.edit","cut":"c895f9e","n":1,"by":"author","before":{"shot_size":"遠景","angle":"平視","camera_move":"static","duration":2,"action":"全景見空間","reveals":"","continuity":"","why":"建立空間","chars":[{"name":"主角","x":0.5,"y":0.65,"facing":"right"}]},"after":{"shot_size":"遠景","angle":"平視","camera_move":"static","duration":4,"action":"全景見空間","reveals":"","continuity":"","why":"建立空間","chars":[{"name":"主角","x":0.5,"y":0.65,"facing":"right"}]},"reason":"t"}
+{"t":"2026-11-10T07:39:24.804Z","type":"cut.reorder","ids":["c6c7b58","c4b6389","c895f9e"]}
+{"t":"2026-11-10T07:39:24.807Z","type":"version.restore","from":1}
