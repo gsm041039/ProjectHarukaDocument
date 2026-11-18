@@ -1,0 +1,25 @@
+I3 全方向圖像互審：每個例子都要由全部 14 個角度用圖片分析嚟討論。作者指示（2026-11-10 15:38 HKT）：「係每個例子都要通過每個角度討論,仲有要有圖片分析咁討論」。上一輪 I2 每個例子只得 3 個方向互審，唔夠。
+
+請先讀完整 brief，然後先做 I3（做完 14 例先停，等齊人先入 I4）：
+/workspace/haruka/lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/BRIEF_FULL_REVIEW_I3_20261110.md
+
+必讀：v6 草稿（審查對象，唔再審 v5）、REF v6 §8 官方圖清單、INTEGRATION_I2_20261110.md。唔好覆寫官方原圖、I1／I2 檔、v6 草稿或 REF。唔設計 Haruka。唔 git merge／push。紀錄 append-only。報告唔好寫出 CND、SUG 或 D- 編號。
+
+I3 產出（你嘅方向，覆蓋 EX01–EX14 全部，包括自己嗰例都要對住 v6 例塊重新用程式核對）：
+- 報告：research/<your_dir>/SKILL_EXAMPLE_IMG_I3_FULL_REVIEW_20261110.md
+- 腳本：research/<your_dir>/i3_scripts/
+- 輸出：research/<your_dir>/i3_img/（每例要有相關 128／64 px 縮圖，同可由腳本重產嘅 metrics.json）
+
+官方圖一律重用 REF v6 §8 已下載檔（brief §4 有路徑同 md5）。腳本開頭核 md5。只有檔案缺失先重新下載，下載後再核 md5；核唔對就唔好覆蓋盒上原檔。唔准生成或重繪參考圖。
+
+每例都要有你自己鏡頭嘅程式圖像分析，同對 v6 主張嘅判決：SUPPORT／PARTLY SUPPORT／CONTRADICT。寫量到嘅證據、你嘅鏡頭加咗或反對乜、同具體建議修訂（或「無需修改」）。需要設計師來源就做真實網絡查核，級別 A＝主創直引、B＝記者轉述，唔好發明來源。
+
+量度必須守 R1–R4：
+- R1：64 px 驗唔到表面圖案、細飾物、扣件、眉角、細尖；可見 ≠ 認得／記得；唔好因為 64 px 睇唔到就判呢類主張失敗。
+- R2：剪影主張要寫明量嘅係寬度定面積（換載體可以只加寬唔加面積）。
+- R3：淡色／白／金髮唔好靠色閾值自動遮罩，要人手遮罩＋目視 QC，並註明版本。
+- R4：唔同姿勢、持物或鏡頭距離嘅全身 IoU／寬高比，唔當改稿幅度或身份分。
+
+已作廢數字唔好再引用（詳見 brief §5），尤其 EX14 唔用 v1 剔劍檔、EX03 唔用舊髮面積 44.33%、EX13 自動 IoU 已撤回。128／64 px 要誠實。
+
+I4 先唔好做：等 14 份 I3 齊咗，再讀其餘 13 份，寫 research/<your_dir>/SKILL_EXAMPLE_IMG_I4_DISCUSSION_20261110.md，用圖像證據回應分歧（可做反證分析，放 i4_scripts／i4_img）。仍分裂嘅例子先會有 I5 投票。

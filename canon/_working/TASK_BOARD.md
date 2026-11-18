@@ -27,7 +27,7 @@ NEXT_ACTION 仍然係「唯一單一步」；呢度係「而家有幾多條線�
 | T-016 | 用熵平衡理論（canon 無）借代討論集體潛意識；已揀「只當內部設計指南」，草稿已落檔；待傾 Act IV 債務清零與否、護甲補償來源（DRAFT，未入 canon） | 進行中 | eb0bf79d | `canon/_working/story_construction/ENTROPY_BALANCE_COLLECTIVE_UNCONSCIOUS_DESIGN_GUIDE_DRAFT.md`、`canon/01_world_rules_and_costs.md` | YES | 2026-11-14 | 全作・世界觀 |
 | T-015 | 操嘅「過度自我監控／連改變都懷疑係表演／過度獨立」心理機制：作者貼咗一段心理對話做參考，傾點對應操（心理分析已落檔 DRAFT：`story_construction/MISAO_SELF_MONITORING_PSYCHOLOGY_DRAFT.md`，未入 canon）；另記一個押後題目：將「唔審判自己、容許混合動機」呢類練習內化成魔法／情緒系統嘅玩家可感知機制（作者 2026-11-14 提出，未開傾） | 暫停 | — | `canon/03_characters/ayakomoji_misao.md`、`canon/_working/story_construction/MISAO_SELF_MONITORING_PSYCHOLOGY_DRAFT.md`、`canon/_working/story_construction/INDIVIDUAL_CHARACTER_GROWTH_TRACKER.md` | NO | 2026-11-14 | 全作・角色心理（操） |
 | T-017 | 晴香／美夜子赤裸感同操比較：小傑模式（尼飛＝經理人）；已揀事件形狀＝晴香執意重創經理人、隊伍被迫轉移、美夜子睇穿；已落檔 DRAFT；已揀隊友知道＋全隊睇穿私心＋兩種人各有反應＋動手變拆穿嘅場合；待定私心分層、外部觸發、玩家控制、操「永遠唔知」確切意思、合併表已出（擺位暫定 E-14 後、E-15 前）；待確認擺位、屍骸女王日期衝突 | 等作者 | — | `canon/_working/story_construction/UNDERGROUND_PERIOD_EVENT_RELATION_TABLE_DRAFT.md`、`canon/_working/story_construction/HARUKA_MIYAKO_RAWNESS_DRAFT.md`、`canon/03_characters/haruka.md`、`canon/03_characters/miyako.md` | YES | 2026-11-14 | 全作・角色心理 |
-| T-018 | 全作宏觀診斷：提出所有故事問題同漏洞（7 條根因，DRAFT）；待作者揀先攻邊條上游 | 等作者 | — | `canon/_working/story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` | YES | 2026-11-14 | 全作（跨幕）・宏觀審視 |
+| T-018 | 全作宏觀診斷：提出所有故事問題同漏洞（7 條根因，DRAFT）；待作者揀先攻邊條上游 | 等作者 | — | `canon/_working/story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` | YES | 2026-11-18 | 全作（跨幕）・宏觀審視 |
 
 ## Archive
 

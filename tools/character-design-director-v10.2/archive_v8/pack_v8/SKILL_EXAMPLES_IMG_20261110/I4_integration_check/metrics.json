@@ -1,0 +1,103 @@
+{
+ "date_hkt": "2026-11-10",
+ "checks": {
+  "EX05_char_s2_lettering": {
+   "per_char": {
+    "hero": {
+     "s2_md5": "ee8049f55ae4964a582e4e83658fbe85",
+     "fg_components": 1,
+     "interior_holes": 0,
+     "hole_px": 0,
+     "distinct_luma_in_fg": 1
+    },
+    "anne": {
+     "s2_md5": "3711673ceb538f8f6710c0dbb54e3083",
+     "fg_components": 1,
+     "interior_holes": 2,
+     "hole_px": 37478,
+     "distinct_luma_in_fg": 1
+    },
+    "makoto": {
+     "s2_md5": "91c87f8241ba4eef70e2124620df65af",
+     "fg_components": 1,
+     "interior_holes": 0,
+     "hole_px": 0,
+     "distinct_luma_in_fg": 1
+    },
+    "ryuji": {
+     "s2_md5": "94ed67ff0df40dad5c159c3a579bd719",
+     "fg_components": 1,
+     "interior_holes": 0,
+     "hole_px": 0,
+     "distinct_luma_in_fg": 1
+    },
+    "futaba": {
+     "s2_md5": "3749f1129b3e4393963a53f8fcd9bcd7",
+     "fg_components": 1,
+     "interior_holes": 0,
+     "hole_px": 0,
+     "distinct_luma_in_fg": 1
+    },
+    "haru": {
+     "s2_md5": "0f767c99f20ad5e596ddff1981ebf0bf",
+     "fg_components": 1,
+     "interior_holes": 1,
+     "hole_px": 1,
+     "distinct_luma_in_fg": 1
+    },
+    "yusuke": {
+     "s2_md5": "73ebbc32075349e99a049b0cd3d0305e",
+     "fg_components": 1,
+     "interior_holes": 0,
+     "hole_px": 0,
+     "distinct_luma_in_fg": 1
+    }
+   },
+   "reading": "IMAGE_REVIEW: every char_s2 is a single flat-black polygonal silhouette; no glyph islands/holes shaped like CODE NAME (anne holes = whip loop gaps). Lettering exists only on char_img2 colour art and overlaps body."
+  },
+  "EX13_tail_tip": {
+   "gif_md5": "651dc9671fef0d37dd3eaa54e2f56766",
+   "landmarks": {
+    "scalp_topknot_band_y": 88,
+    "tail_tip_brush_end_y": 545,
+    "tail_tip_x": 778,
+    "knee_rings_y": 578,
+    "boot_sole_y": 755,
+    "pc_claimed_tip_xy": [
+     763,
+     705
+    ]
+   },
+   "tip_frac_scalp_to_sole": 0.685,
+   "knee_frac_scalp_to_sole": 0.735,
+   "pixel_at_pc_claimed_tip_rgb": [
+    68,
+    85,
+    34
+   ],
+   "reading": "IMAGE_REVIEW: tail brush ends ~y545, just above knee rings ~y578; lower calf (wraps y600-720) is not reached. PC landmark (763,705) falls on grass. Agrees with commercial I4 (tip 0.712 of height, knee guard 0.756)."
+  },
+  "EX03_pose": {
+   "md5": {
+    "kurumi_portrait1@2x.png": "3696885afbba2bc73945e780dea229a9",
+    "yuzu_portrait2@2x.png": "b1117ac9f456875efbbeb958684e1a8d"
+   },
+   "reading": "IMAGE_REVIEW: Kurumi = one arm out past skirt, one boot turned out to the side (toe slightly off ground); Yuzu = upright, both hands down, long hair widens both sides. Nobody kicks."
+  },
+  "EX11_head_hair_clothing_definition": {
+   "naoto": {
+    "hair_Lstar": 77.33,
+    "clothing_Lstar": 15.55,
+    "hair_frac_of_char": 0.0423,
+    "clothing_frac_of_char": 0.942
+   },
+   "naoya": {
+    "hair_Lstar": 81.55,
+    "clothing_Lstar": 50.42,
+    "hair_frac_of_char": 0.0523,
+    "clothing_frac_of_char": 0.9066
+   },
+   "reading": "head_hair clothing = all figure px minus hair/face (~91-94% of figure, includes trousers/inner layers); not a jacket sample, so naoya 50.42 is not comparable with mint-jacket L* ~73-76."
+  }
+ }
+}

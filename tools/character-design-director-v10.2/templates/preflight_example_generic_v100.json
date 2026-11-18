@@ -1,0 +1,178 @@
+{
+  "schema_version": "10.0",
+  "brief": {
+    "reference": "Generic fictional reference; this is a validator fixture only",
+    "scope": "whole-outfit",
+    "art_direction": "Friendly, relaxed anime casual; no additional decoration",
+    "anime_detail_target": "TV anime, controlled detail density",
+    "exploration_mode": "BOTH"
+  },
+  "baseline": {
+    "appeal_target": "A relaxed, welcoming, lively silhouette without becoming a fashion showcase",
+    "strengths": [
+      "Face and head silhouette already provide strong identification",
+      "Simple upper-body color mass balances a colorful lower silhouette"
+    ],
+    "proportions": "Upper garment reaches skirt waist; relaxed upper body over compact lower mass",
+    "color_front_back": "Solid muted blue-green upper front/back, dark gray lower with a small muted rose panel",
+    "wearing_identity": "Casual oversized upper garment worn naturally",
+    "detail_hierarchy": "Keep signature head accents; no additional small trim needed"
+  },
+  "candidates": [
+    {
+      "id": "A",
+      "mechanism": "Reduce sleeve width slightly without changing whole-body balance",
+      "visual_proof": {
+        "file": "templates/generic_proofs/option_A.svg",
+        "front_and_back": true,
+        "delta_visible_in_schematic": "Minimal sleeve width difference with otherwise identical body and skirt"
+      },
+      "design_map": {
+        "proportion": {
+          "action": "KEEP",
+          "before": "Upper to lower length in existing reference",
+          "after": "Same length balance",
+          "why": "Avoid unwanted crop"
+        },
+        "silhouette": {
+          "action": "CHANGE",
+          "before": "Relaxed wide sleeves",
+          "after": "Slightly narrower sleeve upper arm",
+          "why": "Test modest reduction of bulk"
+        },
+        "palette": {
+          "action": "KEEP",
+          "before": "Muted teal torso and gray/rose lower blocks",
+          "after": "Same color locations on front and back",
+          "why": "Preserve existing controlled color hierarchy"
+        },
+        "wearing": {
+          "action": "KEEP",
+          "before": "Casual loose upper garment",
+          "after": "Same wearing behavior",
+          "why": "Preserve approachable mood"
+        },
+        "appeal": {
+          "action": "CHANGE",
+          "before": "Cozy relaxed demeanor",
+          "after": "Potentially marginally neater arm shape",
+          "why": "Would not be enough to strengthen unique appeal"
+        },
+        "anime_detail": {
+          "action": "KEEP",
+          "before": "Existing number of lines and pieces",
+          "after": "Same line count",
+          "why": "No production gain"
+        }
+      },
+      "visible_changes": [
+        "Slightly narrow sleeves but leave torso and lower parts otherwise the same"
+      ],
+      "cross_part_effect": "No clear relationship change between upper body and lower silhouette",
+      "appeal_gain": "Only vague neatness, not an independently valuable character-specific gain",
+      "baseline_loss": "May lose the comfortable expressive volume",
+      "strongest_objection": "Tiny generic silhouette tweak fails to justify revision",
+      "failure_test": "If same-scale grayscale sketches are indistinguishable, stop",
+      "lower_cost_alternative": "Keep original and improve animation posing instead",
+      "anime_impact": "Same detail density",
+      "decision_reason": "Reject: visual proof shows almost no meaningful appeal gain",
+      "verdict": "REWORK_IDEA",
+      "blockers": [
+        "NO_VISIBLE_DESIGN_GAIN"
+      ],
+      "strategy": "AMPLIFY",
+      "creative_thesis": "Try to amplify the already soft and relaxed shoulder silhouette without losing its cozy charm",
+      "identity_boundary": "Keep the same head and signature colors, and only adjust the garment sleeve silhouette",
+      "why_character_specific": "Existing friendly appeal depends on gentle body volume rather than aggressive fashionable details",
+      "distinctive_gain": "Increase deliberate relaxed presence through the already defined sleeve mass",
+      "existing_appeal_anchor": "Original oversized softness is the main existing appeal anchor"
+    },
+    {
+      "id": "B",
+      "mechanism": "Rebalance the upper-body volume against lower silhouette without new details",
+      "visual_proof": {
+        "file": "templates/generic_proofs/option_B.svg",
+        "front_and_back": true,
+        "delta_visible_in_schematic": "Compare wider shoulder curve, higher hem, slightly more open lower silhouette in both views"
+      },
+      "design_map": {
+        "proportion": {
+          "action": "CHANGE",
+          "before": "Upper hem covers much of the skirt waist",
+          "after": "Raise hem to reveal a small clear band of upper skirt",
+          "why": "Creates more legible upper/lower rhythm"
+        },
+        "silhouette": {
+          "action": "CHANGE",
+          "before": "Similar compact width of torso and lower skirt",
+          "after": "Broader relaxed upper arc and slightly wider skirt flare with a waist pause",
+          "why": "Creates a more playful wide/stop/open rhythm"
+        },
+        "palette": {
+          "action": "KEEP",
+          "before": "Muted teal torso and dark gray lower with rose panel front/back",
+          "after": "Same color blocks but lower panel becomes slightly more visible",
+          "why": "Keeps identity while letting color balance follow shape"
+        },
+        "wearing": {
+          "action": "KEEP",
+          "before": "Oversized upper worn loose",
+          "after": "Still loosely worn with no extra fashion styling",
+          "why": "Maintain relaxed character feel"
+        },
+        "appeal": {
+          "action": "CHANGE",
+          "before": "Overall character reads warmly relaxed",
+          "after": "Expected to read warmly relaxed but slightly more lively through waist pause",
+          "why": "Visible wide/stop/open rhythm supports youthful energy"
+        },
+        "anime_detail": {
+          "action": "KEEP",
+          "before": "Existing simple large color masses",
+          "after": "Same number of pieces and no tiny edging",
+          "why": "No incremental animation detail load"
+        }
+      },
+      "visible_changes": [
+        "Shift garment hem relative to skirt waist so a narrow band of skirt is visible",
+        "Adjust shoulder arc and modestly widen skirt flare for coherent body rhythm"
+      ],
+      "cross_part_effect": "Front and back torso edge, waist stop, and skirt opening change together while head and accent map remain",
+      "appeal_gain": "Possible character-specific friendly liveliness from a clearer wide-pause-open rhythm without added motifs",
+      "baseline_loss": "Could feel too deliberately styled and lose easy oversized charm",
+      "strongest_objection": "Original unbroken large upper block may already best represent relaxed character",
+      "failure_test": "Reject if same-scale full-body concept feels less cozy, or waist focus distracts from the head",
+      "lower_cost_alternative": "Keep torso and change only a subtle lower flare, then compare the head focus",
+      "anime_impact": "Same large color regions; no increase in constant linework",
+      "decision_reason": "Visual proof supports a coherent two-part shape experiment with an explicit emotional effect and an observable loss condition",
+      "verdict": "SELECT_FOR_TEST",
+      "blockers": [],
+      "strategy": "REIMAGINE",
+      "creative_thesis": "Rebuild the upper/lower garment balance around a bolder pause and open rhythm while staying casual",
+      "identity_boundary": "Head, name, personal signature accents and palette are locked, but outer garment geometry can change",
+      "why_character_specific": "Existing visual identity is soft and buoyant, so an alternate shape rhythm could extend that personality",
+      "distinctive_gain": "New more playful shape progression contrasts with unchanged laid-back identity",
+      "new_visual_principle": "A broad upper form, deliberate slim waist pause, and clearer lower opening become the visual thesis"
+    }
+  ],
+  "selected_id": "B",
+  "overall_verdict": "SELECT_FOR_TEST",
+  "selection_reason": "Candidate B has visible changes on equal-scale front/back schematics to garment hem, upper width and skirt flare; no new trim; could enhance lively casual energy and can lose if coziness declines",
+  "visual_reviewer_note": "This is a conceptual side-by-side geometry sketch, not aesthetic proof; verify on original character at equal pose before promotion",
+  "render_contract": {
+    "keep": [
+      "Original character face, hair, named identity elements, existing color palette",
+      "Casual, comfortable mood and production-friendly color area count"
+    ],
+    "change": [
+      "Move hem upward relative to skirt waist without adding another shirt layer",
+      "Rebalance wide sleeve/body volume against the skirt opening at front and back"
+    ],
+    "forbid": [
+      "New stripes, piping, belts, patches, charms, decorative trims",
+      "Info graphic text, comparison tables or report layouts in final character art"
+    ],
+    "output": "Full-body front/back character-only design image, neutral background; documentation separate"
+  },
+  "run_mode": "SCHEMA_FIXTURE_ONLY"
+}

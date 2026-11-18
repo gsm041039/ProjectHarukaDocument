@@ -1,0 +1,51 @@
+{
+ "hero": {
+  "daily": 18.08,
+  "daily_md5": "b10ecce516066abbc94cd874303fd834",
+  "thief": 22.69,
+  "thief_md5": "cc8230b3e7b34cf29e5a0946654ddbc2",
+  "thief_minus_daily": 4.61
+ },
+ "ryuji": {
+  "daily": 34.28,
+  "daily_md5": "cafecc17a929e480325f821bc6763688",
+  "thief": 30.21,
+  "thief_md5": "d7338a78c8cd8e541b1b47c963ce842b",
+  "thief_minus_daily": -4.07
+ },
+ "anne": {
+  "daily": 45.92,
+  "daily_md5": "cb999adfa4b7a959d439fff42280bc8c",
+  "thief": 36.71,
+  "thief_md5": "64936486bee6ca636f600ab305cc96d8",
+  "thief_minus_daily": -9.21
+ },
+ "yusuke": {
+  "daily": 42.06,
+  "daily_md5": "6cfe2b303d5f68dc1f8c3d3b3ac9e587",
+  "thief": 38.17,
+  "thief_md5": "44fe24ff4f091174719060aef12d01ce",
+  "thief_minus_daily": -3.89
+ },
+ "makoto": {
+  "daily": 28.08,
+  "daily_md5": "76e72124ead169f02b0c32d25ba3aed8",
+  "thief": 24.27,
+  "thief_md5": "e49b68511b57824d522e40fd80356d03",
+  "thief_minus_daily": -3.81
+ },
+ "futaba": {
+  "daily": 41.6,
+  "daily_md5": "d9c22f9a3e35bbce3f32976de06ac5e9",
+  "thief": 31.69,
+  "thief_md5": "9dc81010ea9bbf970a4c56a3597b3b53",
+  "thief_minus_daily": -9.91
+ },
+ "haru": {
+  "daily": 59.56,
+  "daily_md5": "76783a98729eaf78bb131cbc403d9db4",
+  "thief": 36.64,
+  "thief_md5": "2fb3e69f55176377dc71e51379fb63d1",
+  "thief_minus_daily": -22.92
+ }
+}

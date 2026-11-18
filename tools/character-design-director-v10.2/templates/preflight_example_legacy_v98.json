@@ -1,0 +1,77 @@
+{
+  "schema_version": "9.8",
+  "brief": {
+    "reference": "Original reference image supplied by artist",
+    "scope": "whole-outfit",
+    "art_direction": "Clean approachable anime-casual, no unapproved new ornament",
+    "anime_detail_target": "TV anime model-sheet production"
+  },
+  "baseline": {
+    "appeal_target": "Friendly, relaxed, distinctive everyday presence",
+    "strengths": [
+      "The signature head silhouette creates recognition",
+      "A clean upper garment balances the vivid lower-body color rhythm"
+    ],
+    "proportions": "Full hair mass balances relaxed shoulders and compact lower silhouette",
+    "color_front_back": "Muted main large block, small controlled contrasting accents; back accessories retained",
+    "wearing_identity": "Casual wearing behavior defines non-performative mood",
+    "detail_hierarchy": "Keep high-signal head accessory; avoid tiny repeated stripes"
+  },
+  "candidates": [
+    {
+      "id": "A",
+      "mechanism": "Small hue harmonization on an existing back accessory",
+      "visible_changes": [
+        "Adjust two back ribbon colors to directly match clothing"
+      ],
+      "cross_part_effect": "Makes back palette more uniform but flattens the existing muted color contrast",
+      "appeal_gain": "Potentially stronger direct color echoes but little evidence of character-specific appeal",
+      "baseline_loss": "Muted contrast and natural lived-in feel are reduced",
+      "strongest_objection": "Palette matching alone does not produce a more distinctive or attractive character",
+      "failure_test": "At equal size the accessory looks generic or the back loses visual depth",
+      "lower_cost_alternative": "Keep existing ribbon colors and compare at equal scale first",
+      "anime_impact": "Same number of color cells and same draw cost",
+      "decision_reason": "No distinct character appeal gain beyond matching colors",
+      "verdict": "REWORK_IDEA",
+      "blockers": [
+        "NO_APPEAL_MECHANISM",
+        "BASELINE_DOMINATES"
+      ]
+    },
+    {
+      "id": "B",
+      "mechanism": "Rebalance mid-body shape flow without extra detail",
+      "visible_changes": [
+        "Adjust side seam volume to make the relaxed upper silhouette transition more clearly into lower flared skirt",
+        "Keep existing upper-garment markings and skirt accents unchanged"
+      ],
+      "cross_part_effect": "Creates upper-width to waist to skirt rhythm without disturbing focal head design, side view must be checked",
+      "appeal_gain": "Can strengthen playful relaxed quality of the specific outfit through the torso/waist/hem relationship instead of generic fashion detailing",
+      "baseline_loss": "Risk of losing the established comfortable oversized feel if waist gets too fitted",
+      "strongest_objection": "The original oversized outline may already be the best articulation of comfortable character mood",
+      "failure_test": "If the new waist reads tight or the upper mass loses warmth, reject this concept",
+      "lower_cost_alternative": "Keep original body width and only test a gentle hem curvature; compare against B",
+      "anime_impact": "No added constant linework or color cells, test folds at normal shot",
+      "decision_reason": "A reversible garment-shape hypothesis can improve appeal through cross-part rhythm, with specific falsification and no extra decoration",
+      "verdict": "SELECT_FOR_TEST",
+      "blockers": []
+    }
+  ],
+  "selected_id": "B",
+  "overall_verdict": "SELECT_FOR_TEST",
+  "selection_reason": "B changes a character-relevant shape relationship rather than erasing design identity or adding surface marks; retains meaningful old details while exposing a falsifiable proportion tradeoff",
+  "render_contract": {
+    "keep": [
+      "Existing face, hair, hat, colors, accessories, secondary markings",
+      "Original rendering detail level and overall relaxed mood"
+    ],
+    "change": [
+      "Only a subtle reshaping of upper garment side taper and hem curvature, matched across front and back"
+    ],
+    "forbid": [
+      "New sleeve stripes, new trim, extra layers, straps or accessories",
+      "Changing any motif or producing a design-report infographic"
+    ],
+    "output": "One neutral background, consistent front and back full-body character only; report stays separate"
+  }
+}

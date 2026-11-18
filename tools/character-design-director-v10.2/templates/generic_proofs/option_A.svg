@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" width="1000" height="440">
+<rect width="1000" height="440" fill="#f8f8f7"/>
+<text x="18" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#292e31">Generic concept A • before / after visual proof (schematic)</text>
+<rect x="16" y="48" width="233" height="339" rx="12" fill="#ffffff" stroke="#bdc5ca" stroke-width="1.1"/>
+<text x="28" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b454a">BASELINE FRONT</text>
+<g transform="translate(0,39)">
+<ellipse cx="133" cy="67" rx="24" ry="29" fill="#d6c1ae" stroke="#5f6569" stroke-width="1.3"/>
+<path d="M110 58 Q129 22 157 56" fill="none" stroke="#464b52" stroke-width="7"/>
+<path d="M93.0 92 Q133 83 173.0 92 Q192.0 99 202.0 160 L183.0 172 L176.0 133 L174.0 170 Q133 175 92.0 170 L90.0 133 L83.0 172 L64.0 160 Q74.0 99 93.0 92Z" fill="#277482" stroke="#26464d" stroke-width="2"/>
+<path d="M107 92 Q133 125 159 92" stroke="#174f5a" stroke-width="3" fill="none"/>
+<path d="M96.5 173 L169.5 173 L184.5 238 L81.5 238Z" fill="#565e67" stroke="#313c42" stroke-width="2"/>
+<path d="M137 173 L155 173 L160 238 L140 238Z" fill="#ad668b"/>
+<path d="M112 238 L110 303 M154 238 L156 303" stroke="#d6bda7" stroke-width="10" stroke-linecap="round"/>
+<path d="M110 303 l-15 8 h28 M156 303 l-4 8 h29" stroke="#414c55" stroke-width="8" stroke-linecap="round"/>
+<path d="M133 126 V162" stroke="#a1bdc5" stroke-width="1.4" stroke-dasharray="3 3"/>
+</g>
+<line x1="28" y1="209" x2="236" y2="209" stroke="#e48b68" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+<rect x="262" y="48" width="233" height="339" rx="12" fill="#ffffff" stroke="#bdc5ca" stroke-width="1.1"/>
+<text x="274" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b454a">OPTION A FRONT</text>
+<g transform="translate(0,39)">
+<ellipse cx="379" cy="67" rx="24" ry="29" fill="#d6c1ae" stroke="#5f6569" stroke-width="1.3"/>
+<path d="M356 58 Q375 22 403 56" fill="none" stroke="#464b52" stroke-width="7"/>
+<path d="M340.0 92 Q379 83 418.0 92 Q437.0 99 447.0 160 L428.0 172 L421.0 133 L419.0 169 Q379 174 339.0 169 L337.0 133 L330.0 172 L311.0 160 Q321.0 99 340.0 92Z" fill="#277482" stroke="#26464d" stroke-width="2"/>
+<path d="M353 92 Q379 125 405 92" stroke="#174f5a" stroke-width="3" fill="none"/>
+<path d="M342.0 172 L416.0 172 L431.0 238 L327.0 238Z" fill="#565e67" stroke="#313c42" stroke-width="2"/>
+<path d="M383 172 L401 172 L406 238 L386 238Z" fill="#ad668b"/>
+<path d="M358 238 L356 303 M400 238 L402 303" stroke="#d6bda7" stroke-width="10" stroke-linecap="round"/>
+<path d="M356 303 l-15 8 h28 M402 303 l-4 8 h29" stroke="#414c55" stroke-width="8" stroke-linecap="round"/>
+<path d="M379 126 V161" stroke="#a1bdc5" stroke-width="1.4" stroke-dasharray="3 3"/>
+</g>
+<line x1="274" y1="209" x2="482" y2="209" stroke="#e48b68" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+<rect x="508" y="48" width="233" height="339" rx="12" fill="#ffffff" stroke="#bdc5ca" stroke-width="1.1"/>
+<text x="520" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b454a">BASELINE BACK</text>
+<g transform="translate(0,39)">
+<ellipse cx="625" cy="67" rx="24" ry="29" fill="#d6c1ae" stroke="#5f6569" stroke-width="1.3"/>
+<path d="M602 58 Q621 22 649 56" fill="none" stroke="#464b52" stroke-width="7"/>
+<path d="M585.0 92 Q625 83 665.0 92 Q684.0 99 694.0 160 L675.0 172 L668.0 133 L666.0 170 Q625 175 584.0 170 L582.0 133 L575.0 172 L556.0 160 Q566.0 99 585.0 92Z" fill="#277482" stroke="#26464d" stroke-width="2"/>
+<path d="M599 92 Q625 125 651 92" stroke="#174f5a" stroke-width="3" fill="none"/>
+<path d="M588.5 173 L661.5 173 L676.5 238 L573.5 238Z" fill="#565e67" stroke="#313c42" stroke-width="2"/>
+<path d="M629 173 L647 173 L652 238 L632 238Z" fill="#ad668b"/>
+<path d="M604 238 L602 303 M646 238 L648 303" stroke="#d6bda7" stroke-width="10" stroke-linecap="round"/>
+<path d="M602 303 l-15 8 h28 M648 303 l-4 8 h29" stroke="#414c55" stroke-width="8" stroke-linecap="round"/>
+<path d="M609 95 Q625 112 641 95" stroke="#1d5966" stroke-width="2.5" fill="none"/>
+</g>
+<line x1="520" y1="209" x2="728" y2="209" stroke="#e48b68" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+<rect x="754" y="48" width="233" height="339" rx="12" fill="#ffffff" stroke="#bdc5ca" stroke-width="1.1"/>
+<text x="766" y="70" font-family="sans-serif" font-size="13" font-weight="bold" fill="#3b454a">OPTION A BACK</text>
+<g transform="translate(0,39)">
+<ellipse cx="871" cy="67" rx="24" ry="29" fill="#d6c1ae" stroke="#5f6569" stroke-width="1.3"/>
+<path d="M848 58 Q867 22 895 56" fill="none" stroke="#464b52" stroke-width="7"/>
+<path d="M832.0 92 Q871 83 910.0 92 Q929.0 99 939.0 160 L920.0 172 L913.0 133 L911.0 169 Q871 174 831.0 169 L829.0 133 L822.0 172 L803.0 160 Q813.0 99 832.0 92Z" fill="#277482" stroke="#26464d" stroke-width="2"/>
+<path d="M845 92 Q871 125 897 92" stroke="#174f5a" stroke-width="3" fill="none"/>
+<path d="M834.0 172 L908.0 172 L923.0 238 L819.0 238Z" fill="#565e67" stroke="#313c42" stroke-width="2"/>
+<path d="M875 172 L893 172 L898 238 L878 238Z" fill="#ad668b"/>
+<path d="M850 238 L848 303 M892 238 L894 303" stroke="#d6bda7" stroke-width="10" stroke-linecap="round"/>
+<path d="M848 303 l-15 8 h28 M894 303 l-4 8 h29" stroke="#414c55" stroke-width="8" stroke-linecap="round"/>
+<path d="M855 95 Q871 112 887 95" stroke="#1d5966" stroke-width="2.5" fill="none"/>
+</g>
+<line x1="766" y1="209" x2="974" y2="209" stroke="#e48b68" stroke-width="1" stroke-dasharray="4 3" opacity=".5"/>
+<text x="20" y="418" font-family="sans-serif" font-size="14" fill="#41494e">A: nearly unchanged body silhouette; reject as a weak cosmetic edit.</text>
+</svg>

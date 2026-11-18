@@ -1,0 +1,75 @@
+{
+ "paths_checked": 320,
+ "paths_missing": [
+  [
+   "INTEGRATION_RULES_R2_20261110.md",
+   "research/identity_canon/img_examples_20261110/raw_p5/*_char_img2.png"
+  ],
+  [
+   "SKILL_REF_character_design_sources_v8_20261110.md",
+   "research/<dir>/SKILL_DEBATE_R*_20261109.md"
+  ],
+  [
+   "SKILL_REF_character_design_sources_v8_20261110.md",
+   "raw_p5/*_char_img2.png"
+  ]
+ ],
+ "sec1A_decimals_unmatched": [],
+ "void_hits_sec1A": [
+  [
+   "EX03",
+   "0.39",
+   "、EX14（TV 一覽 176×246 見 3 尖〔v7〕）、EX11（暗份額 0.39 vs 0.12〔v7〕）、EX01（掩"
+  ],
+  [
+   "EX03",
+   "0.39",
+   "14（冠＋三色塊組合）、EX11（最近鄰：兄弟髮 ΔE00 約 3–5，靠領口 0.39 vs 0.12〔v7〕）。 - **圖"
+  ],
+  [
+   "EX03",
+   "46",
+   "4（Canny 206.1→145.7、大色塊 25.6%→42.2%；色區約 46–47 vs 45〔v7〕＝減法）。 -"
+  ],
+  [
+   "EX04",
+   "92",
+   " A）**：   - EX14：同姿勢剔劍全身 IoU 0.821（XOR 約 92% 喺 0–60% 高度帶）；寬高比 0"
+  ]
+ ],
+ "forbidden": [],
+ "untouched": {
+  "SKILL_DRAFT_character_design_core_v7_20261110.md": true,
+  "SKILL_REF_character_design_sources_v7_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/RULES_FROM_EXAMPLES_DRAFT_R1_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/BRIEF_RULES_R1_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/MSG_RULES_R1_20261110.txt": true,
+  "SKILL_EXAMPLES_IMG_20261110/INTEGRATION_RULES_R1_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/RULES_FROM_EXAMPLES_DRAFT_R2_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/BRIEF_RULES_R2_20261110.md": true,
+  "SKILL_EXAMPLES_IMG_20261110/MSG_RULES_R2_20261110.txt": true
+ },
+ "votes_untouched": true,
+ "bak_match": true,
+ "v7_lines_removed_in_v8": [
+  "-# 角色／服裝設計核心 v7：先過用途閘門，再寫一句主導識別，然後喺菜單揀手法（附業界例比較＋圖像核對）",
+  "-",
+  "-> **狀態**：未安裝草稿（2026-11-10 HKT）。冇做 UpdateSkill。",
+  "-  - まほなれ紅発動靜圖 UNVERIFIED；P5 制服否決句只有 T；さいひと表情集未公開；プリコネ遊戲立繪並排、Cygames Magazine 座談未核；Animate Times 刊出日 01-05／01-08 未解；",
+  "-"
+ ],
+ "ref7_lines_removed_in_ref8": [
+  "-# SKILL_REF v7：角色設計 skill 證據卡（2026-11-10 HKT）",
+  "-| 同訪 p.1 | https://www.animatetimes.com/news/details.php?id=1640588189 | B | IDC 200（頁首讀到 **2022-01-08**；E1 寫 2022-01-05）；HH 200；**整合抽查未能抽到日期 → ⚠未解** |",
+  "-"
+ ],
+ "new_md5": {
+  "SKILL_EXAMPLES_IMG_20261110/INTEGRATION_RULES_R2_20261110.md": "275fe550cd63872c287fec17cf06c80a",
+  "SKILL_EXAMPLES_IMG_20261110/RULES_FROM_EXAMPLES_FINAL_20261110.md": "d3023aa2af9b36d41ff56df7934dbd87",
+  "SKILL_DRAFT_character_design_core_v8_20261110.md": "8ed903f3dd4369ba995cc668878a700e",
+  "SKILL_REF_character_design_sources_v8_20261110.md": "1623a1ff0ba04865d1767abe174dc910",
+  "SKILL_EXAMPLES_IMG_20261110/CHANGELOG_v7_to_v8_20261110.md": "076159d0806e5aa9df613063f3130a23",
+  "SKILL_EXAMPLES_IMG_20261110/RULES_OVERVIEW_v8_20261110.png": "f3ac3cbf8dee0e244266bdafba6983ef",
+  "SKILL_EXAMPLES_IMG_20261110/RULES_OVERVIEW_v8_20261110.sources.json": "3bd9b4aecc41a2f2274d499fa8e4d494"
+ }
+}

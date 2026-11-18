@@ -1,0 +1,78 @@
+{
+ "b1_front": {
+  "md5_sil": "acea5b7bb85f01bfff85f6ff2f171c43",
+  "bbox": [
+   0,
+   4,
+   432,
+   808
+  ],
+  "t_left_extreme": 0.6224,
+  "t_right_extreme": 0.6578,
+  "t_left_rows": [
+   0.215,
+   0.766
+  ],
+  "t_right_rows": [
+   0.391,
+   0.748
+  ]
+ },
+ "b1_back": {
+  "md5_sil": "401169f5f568a00faa9f8c6aab22ceac",
+  "bbox": [
+   0,
+   4,
+   610,
+   796
+  ],
+  "t_left_extreme": 0.7226,
+  "t_right_extreme": 0.5366,
+  "t_left_rows": [
+   0.699,
+   0.747
+  ],
+  "t_right_rows": [
+   0.163,
+   0.604
+  ]
+ },
+ "b2_front": {
+  "md5_sil": "f683cda5760ceae82ba588d6ce6a4034",
+  "bbox": [
+   4,
+   4,
+   465,
+   695
+  ],
+  "t_left_extreme": 0.375,
+  "t_right_extreme": 0.3309,
+  "t_left_rows": [
+   0.366,
+   0.408
+  ],
+  "t_right_rows": [
+   0.312,
+   0.35
+  ]
+ },
+ "b2_back": {
+  "md5_sil": "976fd94615bdbf993b361a6eb131ee35",
+  "bbox": [
+   4,
+   4,
+   474,
+   698
+  ],
+  "t_left_extreme": 0.377,
+  "t_right_extreme": 0.3791,
+  "t_left_rows": [
+   0.363,
+   0.407
+  ],
+  "t_right_rows": [
+   0.363,
+   0.409
+  ]
+ }
+}

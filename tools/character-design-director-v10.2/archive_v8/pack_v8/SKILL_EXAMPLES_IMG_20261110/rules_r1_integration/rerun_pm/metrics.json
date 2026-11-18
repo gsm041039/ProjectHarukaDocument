@@ -1,0 +1,273 @@
+{
+ "pairs": [
+  {
+   "iou": 0.9634,
+   "best_dx_px_at_H256": 1,
+   "xor_share_by_band": {
+    "0-22": 0.0698,
+    "22-40": 0.1691,
+    "40-60": 0.2389,
+    "60-80": 0.2304,
+    "80-100": 0.2918
+   },
+   "a": "EX01_civ_neutral",
+   "b": "EX01_civ_cry",
+   "kind": "pose only (same costume, cry: hands to face)"
+  },
+  {
+   "iou": 0.9698,
+   "best_dx_px_at_H256": 0,
+   "xor_share_by_band": {
+    "0-22": 0.0265,
+    "22-40": 0.1023,
+    "40-60": 0.5669,
+    "60-80": 0.1263,
+    "80-100": 0.178
+   },
+   "a": "EX01_battle_neutral",
+   "b": "EX01_battle_cry",
+   "kind": "pose only (same costume)"
+  },
+  {
+   "iou": 0.7685,
+   "best_dx_px_at_H256": 2,
+   "xor_share_by_band": {
+    "0-22": 0.2323,
+    "22-40": 0.0898,
+    "40-60": 0.1176,
+    "60-80": 0.137,
+    "80-100": 0.4233
+   },
+   "a": "EX01_civ_neutral",
+   "b": "EX01_battle_neutral",
+   "kind": "carrier change, neutral poses"
+  },
+  {
+   "iou": 0.7698,
+   "best_dx_px_at_H256": 3,
+   "xor_share_by_band": {
+    "0-22": 0.2312,
+    "22-40": 0.0774,
+    "40-60": 0.0949,
+    "60-80": 0.1591,
+    "80-100": 0.4374
+   },
+   "a": "EX01_civ_cry",
+   "b": "EX01_battle_cry",
+   "kind": "carrier change, cry poses"
+  },
+  {
+   "iou": 0.8207,
+   "best_dx_px_at_H256": 21,
+   "xor_share_by_band": {
+    "0-22": 0.2229,
+    "22-40": 0.31,
+    "40-60": 0.3922,
+    "60-80": 0.038,
+    "80-100": 0.0368
+   },
+   "a": "EX14_game_with_sword",
+   "b": "EX14_game_nosword_v2",
+   "kind": "held object only (same pose, sword removed)"
+  },
+  {
+   "iou": 0.7079,
+   "best_dx_px_at_H256": 3,
+   "xor_share_by_band": {
+    "0-22": 0.0815,
+    "22-40": 0.1401,
+    "40-60": 0.3674,
+    "60-80": 0.1962,
+    "80-100": 0.2148
+   },
+   "a": "EX14_game_nosword_v2",
+   "b": "EX14_anime_card",
+   "kind": "media change + pose change (side-ish vs empty-handed stand)"
+  },
+  {
+   "iou": 0.4205,
+   "best_dx_px_at_H256": -33,
+   "xor_share_by_band": {
+    "0-22": 0.0624,
+    "22-40": 0.1274,
+    "40-60": 0.4561,
+    "60-80": 0.2063,
+    "80-100": 0.1478
+   },
+   "a": "EX05_char_s_everyday",
+   "b": "EX05_char_s2_thief",
+   "kind": "carrier change + pose change (upright vs lunge), confounded"
+  }
+ ],
+ "shapes": {
+  "EX01_civ_neutral": {
+   "bbox_w": 448,
+   "bbox_h": 714,
+   "aspect_w_over_h": 0.6275,
+   "area_over_h2": 0.3873
+  },
+  "EX01_civ_cry": {
+   "bbox_w": 446,
+   "bbox_h": 714,
+   "aspect_w_over_h": 0.6246,
+   "area_over_h2": 0.3849
+  },
+  "EX01_battle_neutral": {
+   "bbox_w": 444,
+   "bbox_h": 590,
+   "aspect_w_over_h": 0.7525,
+   "area_over_h2": 0.3928
+  },
+  "EX01_battle_cry": {
+   "bbox_w": 444,
+   "bbox_h": 589,
+   "aspect_w_over_h": 0.7538,
+   "area_over_h2": 0.3956
+  },
+  "EX14_game_with_sword": {
+   "bbox_w": 1342,
+   "bbox_h": 1803,
+   "aspect_w_over_h": 0.7443,
+   "area_over_h2": 0.2695
+  },
+  "EX14_game_nosword_v2": {
+   "bbox_w": 297,
+   "bbox_h": 512,
+   "aspect_w_over_h": 0.5801,
+   "area_over_h2": 0.2353
+  },
+  "EX14_anime_card": {
+   "bbox_w": 383,
+   "bbox_h": 647,
+   "aspect_w_over_h": 0.592,
+   "area_over_h2": 0.2599
+  },
+  "EX05_char_s_everyday": {
+   "bbox_w": 439,
+   "bbox_h": 934,
+   "aspect_w_over_h": 0.47,
+   "area_over_h2": 0.2113
+  },
+  "EX05_char_s2_thief": {
+   "bbox_w": 816,
+   "bbox_h": 949,
+   "aspect_w_over_h": 0.8599,
+   "area_over_h2": 0.2717
+  },
+  "EX10_noir": {
+   "bbox_w": 454,
+   "bbox_h": 1344,
+   "aspect_w_over_h": 0.3378,
+   "area_over_h2": 0.1696,
+   "hanging_outrigger": {
+    "band_62_88_mean_n_runs": 3.39,
+    "band_62_88_max_n_runs": 5,
+    "band_62_88_mean_full": 314.8,
+    "band_62_88_mean_largest": 57.8,
+    "band_62_88_mean_full_minus_largest": 257.1,
+    "outrigger_area_45_88": 42964,
+    "outrigger_area_62_88": 27021,
+    "outrigger_area_45_62": 16062
+   }
+  },
+  "EX10_mystere": {
+   "bbox_w": 568,
+   "bbox_h": 1355,
+   "aspect_w_over_h": 0.4192,
+   "area_over_h2": 0.1362,
+   "hanging_outrigger": {
+    "band_62_88_mean_n_runs": 2.085,
+    "band_62_88_max_n_runs": 4,
+    "band_62_88_mean_full": 284.7,
+    "band_62_88_mean_largest": 60.1,
+    "band_62_88_mean_full_minus_largest": 224.6,
+    "outrigger_area_45_88": 41543,
+    "outrigger_area_62_88": 19220,
+    "outrigger_area_45_62": 22392
+   }
+  }
+ },
+ "definitions": "RULES R1 — performance_motion new measurements (2026-11-10 HKT).\n\nOne command:  python3 analyze_rules_r1_pm.py [--root <research>] [--out <dir>]\nRelative ROOT: research root = two levels above this script (override --root / R1_PM_ROOT).\nOutput default ../rules_r1_img (override --out / R1_PM_OUT).\nReads official images in place (read-only), verifies md5 against our I3 OFFICIAL table\n(same paths as REF v7 §8). Reuses read-only helpers from ../i3_scripts (not modified).\nNo colour-threshold hair masks (R3). Masks: alpha>=128 official matte, except\nEX14 nosword (tv_simplify v2 hand-polygon derived silhouette, white>=128) and\nEX05 official silhouette assets char_s / char_s2 (alpha>=16, same as I3).\n\nMeasures (definitions):\n  A. pose-vs-carrier silhouette IoU. Each mask tight-bbox cropped, height-normalised\n     to H=256 (NEAREST), placed on a common canvas with bbox bottoms aligned; horizontal\n     offset searched over +-38 px (15% H) to maximise IoU (removes placement bias).\n     IoU=|A&B|/|A|B| at the best offset. XOR share by bbox-height band\n     (0-22, 22-40, 40-60, 60-80, 80-100 %) = XOR pixels in band / total XOR.\n  B. aspect = bbox w/h on the native mask; area_over_h2 = area/h^2.\nStatic images only: nothing here is an animation, cloth or audience PASS.\n",
+ "md5_sources": [
+  {
+   "ex": "EX01",
+   "key": "a4",
+   "rel": "commercial/img_examples_20261110/src/c_ntny_furyu_a4.png",
+   "md5": "a81b516c7ffb1109c9feb8eaba385396",
+   "expected": "a81b516c7ffb1109c9feb8eaba385396",
+   "ok": true
+  },
+  {
+   "ex": "EX01",
+   "key": "a8",
+   "rel": "commercial/img_examples_20261110/src/c_ntny_furyu_a8.png",
+   "md5": "b463628848bf536656da6f121707576e",
+   "expected": "b463628848bf536656da6f121707576e",
+   "ok": true
+  },
+  {
+   "ex": "EX14",
+   "key": "game",
+   "rel": "tv_simplify/img_examples_20261110/official/game_pecorine_astrum_whole.png",
+   "md5": "e78abb35023547a54092ef5eb822888c",
+   "expected": "e78abb35023547a54092ef5eb822888c",
+   "ok": true
+  },
+  {
+   "ex": "EX14",
+   "key": "nosword_v2",
+   "rel": "tv_simplify/img_examples_20261110/analysis_v2/silhouette_game_nosword_v2.png",
+   "md5": "f3c74541ba56682ef9ae9e399057f1cb",
+   "expected": "f3c74541ba56682ef9ae9e399057f1cb",
+   "ok": true
+  },
+  {
+   "ex": "EX14",
+   "key": "anime_card",
+   "rel": "tv_simplify/img_examples_20261110/official/anime_pecorine_default_pc.png",
+   "md5": "56f1ef6435f0a760544a6e01140e4dd1",
+   "expected": "56f1ef6435f0a760544a6e01140e4dd1",
+   "ok": true
+  },
+  {
+   "ex": "EX05",
+   "key": "hero_se",
+   "rel": "identity_canon/img_examples_20261110/raw_p5/hero_char_s.png",
+   "md5": "e0cd38767856e35af80cbef8c19ee68a",
+   "expected": "e0cd38767856e35af80cbef8c19ee68a",
+   "ok": true
+  },
+  {
+   "ex": "EX05",
+   "key": "hero_st",
+   "rel": "identity_canon/img_examples_20261110/raw_p5/hero_char_s2.png",
+   "md5": "ee8049f55ae4964a582e4e83658fbe85",
+   "expected": "ee8049f55ae4964a582e4e83658fbe85",
+   "ok": true
+  },
+  {
+   "ex": "EX10",
+   "key": "noir",
+   "rel": "performance_motion/img_examples_20261110/official/1.webp",
+   "md5": "b9ceebd57edf5241f8e5a9231adb1855",
+   "expected": "b9ceebd57edf5241f8e5a9231adb1855",
+   "ok": true
+  },
+  {
+   "ex": "EX10",
+   "key": "mystere",
+   "rel": "performance_motion/img_examples_20261110/official/16.webp",
+   "md5": "3c854a5fad38d7a192cc7e7c2acef2fd",
+   "expected": "3c854a5fad38d7a192cc7e7c2acef2fd",
+   "ok": true
+  }
+ ],
+ "outputs": [
+  "R1_EX01_headsquare_128_neutral_vs_cry.png",
+  "R1_pose_vs_carrier_iou_overlays.png"
+ ],
+ "output_png_md5": {
+  "R1_EX01_headsquare_128_neutral_vs_cry.png": "efe64a726799466f79e80b1f82200459",
+  "R1_pose_vs_carrier_iou_overlays.png": "aa7860fba6f69767ab22a5d933c6fe93"
+ }
+}

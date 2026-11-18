@@ -1,0 +1,6 @@
+Character design skill v8 (2026-11-10)
+skill_v8/  : SKILL v8 (規則喺 §1A) + REF v8（來源、勘誤、重產數）
+SKILL_EXAMPLES_IMG_20261110/RULES_FROM_EXAMPLES_FINAL_20261110.md : 最終 15 條規則同圖證
+SKILL_EXAMPLES_IMG_20261110/RULES_OVERVIEW_v8_20261110.png : 規則對例子總覽圖
+SKILL_EXAMPLES_IMG_20261110/CHANGELOG_v7_to_v8_20261110.md : 改動紀錄
+votes_R1/, votes_R2/ : 14 個方向兩輪投票

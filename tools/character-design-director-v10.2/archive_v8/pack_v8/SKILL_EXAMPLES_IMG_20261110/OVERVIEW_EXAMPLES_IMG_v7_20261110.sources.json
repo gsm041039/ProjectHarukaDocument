@@ -1,0 +1,180 @@
+[
+ {
+  "ex": "EX01",
+  "sources": [
+   {
+    "path": "commercial/img_examples_20261110/src/c_ntny_furyu_a4.png",
+    "md5": "a81b516c7ffb1109c9feb8eaba385396"
+   },
+   {
+    "path": "commercial/img_examples_20261110/src/c_ntny_furyu_a8.png",
+    "md5": "b463628848bf536656da6f121707576e"
+   }
+  ]
+ },
+ {
+  "ex": "EX02",
+  "sources": [
+   {
+    "path": "flow_structure/img_examples_20261110/src_b1_final_sheet.jpg",
+    "md5": "427b7986710a13502accb3ef57a9ff04"
+   },
+   {
+    "path": "flow_structure/img_examples_20261110/src_b2_sheet.jpg",
+    "md5": "731ac7ed43d275cd0277b48123fc1e96"
+   }
+  ]
+ },
+ {
+  "ex": "EX03",
+  "sources": [
+   {
+    "path": "color_value/img_examples_20261110/kurumi_portrait1@2x.png",
+    "md5": "3696885afbba2bc73945e780dea229a9"
+   },
+   {
+    "path": "color_value/img_examples_20261110/yuzu_portrait2@2x.png",
+    "md5": "b1117ac9f456875efbbeb958684e1a8d"
+   }
+  ]
+ },
+ {
+  "ex": "EX04",
+  "sources": [
+   {
+    "path": "silhouette_cast/img_examples_20261110/leben_private_famitsu_202303.jpg",
+    "md5": "2beb5dceca997eb522dff440d5972c17"
+   },
+   {
+    "path": "silhouette_cast/img_examples_20261110/leben_battle_famitsu_202303.jpg",
+    "md5": "52c7b6f4b8ec4ee89ceb8ac29970fff3"
+   }
+  ]
+ },
+ {
+  "ex": "EX05",
+  "sources": [
+   {
+    "path": "identity_canon/img_examples_20261110/raw_p5/hero_char_img.png",
+    "md5": "b10ecce516066abbc94cd874303fd834"
+   },
+   {
+    "path": "identity_canon/img_examples_20261110/raw_p5/hero_char_img2.png",
+    "md5": "cc8230b3e7b34cf29e5a0946654ddbc2"
+   }
+  ]
+ },
+ {
+  "ex": "EX06",
+  "sources": [
+   {
+    "path": "production_critic/img_examples_20261110/src/chara_image01-1.png",
+    "md5": "56393b7b2971e1264a1422a2e805012c"
+   },
+   {
+    "path": "production_critic/img_examples_20261110/src/chara_image02.png",
+    "md5": "f645c9ffa5cd2a8f228515328affc328"
+   }
+  ]
+ },
+ {
+  "ex": "EX07",
+  "sources": [
+   {
+    "path": "motif_world/img_examples_20261110/selected/cw2016_goldenglobes_filmframe.jpg",
+    "md5": "bda64dc8cc58a7aedb3450cee7c15f89"
+   },
+   {
+    "path": "motif_world/img_examples_20261110/selected/bp2018_npr_mattkennedy.jpg",
+    "md5": "3293cd2672ba1b3004596b7de266b54f"
+   }
+  ]
+ },
+ {
+  "ex": "EX08",
+  "sources": [
+   {
+    "path": "construction_fashion/img_examples_20261110/src/04_far_worn_otani.jpg",
+    "md5": "2ee2cb37564037648b75effb1dae5db0"
+   },
+   {
+    "path": "construction_fashion/img_examples_20261110/src/09_near_zip.jpg",
+    "md5": "94f32abb66091439345acdc1b3c44eb3"
+   }
+  ]
+ },
+ {
+  "ex": "EX09",
+  "sources": [
+   {
+    "path": "head_hair/img_examples_20261110/cafe_chisato.png",
+    "md5": "287ffd284044bf965d1baec6cfadc777"
+   },
+   {
+    "path": "head_hair/img_examples_20261110/cafe_takina.png",
+    "md5": "0e2ea8ff81ca317cce6cc858efb6c3df"
+   }
+  ]
+ },
+ {
+  "ex": "EX10",
+  "sources": [
+   {
+    "path": "performance_motion/img_examples_20261110/official/1.webp",
+    "md5": "b9ceebd57edf5241f8e5a9231adb1855"
+   },
+   {
+    "path": "performance_motion/img_examples_20261110/official/16.webp",
+    "md5": "3c854a5fad38d7a192cc7e7c2acef2fd"
+   }
+  ]
+ },
+ {
+  "ex": "EX11",
+  "sources": [
+   {
+    "path": "psychology/img_examples_20261110/official2041_thumb2.png",
+    "md5": "42d81ceb308def57a1cb4636f3b9fcb6"
+   },
+   {
+    "path": "psychology/img_examples_20261110/official2041_character_3thumb.png",
+    "md5": "fa6161e1904b74012ebac157046789db"
+   }
+  ]
+ },
+ {
+  "ex": "EX12",
+  "sources": [
+   {
+    "path": "audience_market/img_examples_20261110/p_02_style3_pc.png",
+    "md5": "1b642257b59fef5c730ee672240aa3fc"
+   },
+   {
+    "path": "audience_market/img_examples_20261110/p_02_style1_pc.png",
+    "md5": "d7e7abbbb39e3c643560030d1c79e81e"
+   }
+  ]
+ },
+ {
+  "ex": "EX13",
+  "sources": [
+   {
+    "path": "originality/img_examples_20261110/raw/asu_vs_old_comparisons.gif",
+    "md5": "651dc9671fef0d37dd3eaa54e2f56766"
+   }
+  ]
+ },
+ {
+  "ex": "EX14",
+  "sources": [
+   {
+    "path": "tv_simplify/img_examples_20261110/official/game_pecorine_astrum_whole.png",
+    "md5": "e78abb35023547a54092ef5eb822888c"
+   },
+   {
+    "path": "tv_simplify/img_examples_20261110/official/anime_pecorine_default_pc.png",
+    "md5": "56f1ef6435f0a760544a6e01140e4dd1"
+   }
+  ]
+ }
+]

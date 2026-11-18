@@ -1,0 +1,28 @@
+{
+ "A_w": 191,
+ "B_w": 148,
+ "P1a_leftorigin_pm38": [
+  0.6774,
+  38
+ ],
+ "P1b_centreorigin_pm38": [
+  0.8207,
+  42
+ ],
+ "P2_left_aligned": [
+  0.2858,
+  0
+ ],
+ "P3_centre_aligned": [
+  0.454,
+  21
+ ],
+ "P4_unrestricted": [
+  0.8207,
+  42
+ ],
+ "inputs_md5": {
+  "official/game_pecorine_astrum_whole.png": "e78abb35023547a54092ef5eb822888c",
+  "analysis_v2/silhouette_game_nosword_v2.png": "f3c74541ba56682ef9ae9e399057f1cb"
+ }
+}

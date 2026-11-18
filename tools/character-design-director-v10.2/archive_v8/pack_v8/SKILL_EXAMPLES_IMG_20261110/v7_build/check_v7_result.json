@@ -1,0 +1,64 @@
+{
+ "v6_md5": "df5dcf499c8761179a6267b362f596c7",
+ "v6_md5_ok": true,
+ "counts": {
+  "EX01": {
+   "numbers": 19,
+   "valid_entries": 19
+  },
+  "EX02": {
+   "numbers": 20,
+   "valid_entries": 20
+  },
+  "EX03": {
+   "numbers": 24,
+   "valid_entries": 24
+  },
+  "EX04": {
+   "numbers": 12,
+   "valid_entries": 12
+  },
+  "EX05": {
+   "numbers": 16,
+   "valid_entries": 16
+  },
+  "EX06": {
+   "numbers": 25,
+   "valid_entries": 25
+  },
+  "EX07": {
+   "numbers": 15,
+   "valid_entries": 15
+  },
+  "EX08": {
+   "numbers": 14,
+   "valid_entries": 14
+  },
+  "EX09": {
+   "numbers": 21,
+   "valid_entries": 21
+  },
+  "EX10": {
+   "numbers": 29,
+   "valid_entries": 29
+  },
+  "EX11": {
+   "numbers": 27,
+   "valid_entries": 27
+  },
+  "EX12": {
+   "numbers": 20,
+   "valid_entries": 20
+  },
+  "EX13": {
+   "numbers": 20,
+   "valid_entries": 20
+  },
+  "EX14": {
+   "numbers": 28,
+   "valid_entries": 28
+  }
+ },
+ "problems": [],
+ "ok": true
+}

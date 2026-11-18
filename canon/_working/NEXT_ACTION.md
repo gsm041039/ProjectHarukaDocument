@@ -3,7 +3,7 @@
 > 🧰 **工具（2026-10-15）：** 以後經 Haruka Workbench（`Workbench_Start.bat`）做下面嗰條單一步；故事單一步本身冇變。協議見 `.claude/story_system/web-ui-protocol.md`。
 
 > 🎭 **並行線（2026-11-11，創世落人性，DRAFT）：** 作者揀「創世只做觸發、主題放隊員對手戲」（`story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md` 末段）。下一步＝傾三場對手戲（美夜子／紫音／操）放 Act 邊度，同操嗰場嘅行為載體；Act III 揭露份量要 REVALIDATE。2026-11-13 補：作者而家喺傾「美夜子太抽離、點增加人性化」，等作者揀主力方向（見 creator draft 末段）。需要作者 input：YES。
-> 🔍 **並行線（2026-11-14，全作宏觀總掃，DRAFT）：** `story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md`，7 條根因。社會契約已揀「非法但默許嘅消耗型資產」（PROVISIONAL）；出動＝燈塔效應吸引＋個人原因（PROVISIONAL）；現實縫合範圍已核實（旁觀者縫合＋觀眾光幕濾鏡，唔衝突）；傷者／賠償已揀「唔深究」（PROVISIONAL）；對賬已做並更正社會契約（見草稿「更正＋對賬」）；社會契約已確認改讀（PROVISIONAL）；伏筆總表已記草稿；下一步＝傾 Act IV 骨架（需作者表態結局規模），再補螢／彩「多謝你」場景，並決定個人出戰原因要唔要逐角色落表。需要作者 input：YES。
+> 🔍 **並行線（2026-11-18，全作宏觀總掃，DRAFT）：** `story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md`。已暫定：社會契約＝非法、帝國預設捕獵／兵器化、Act I–II 暫時戰略性無視；出動＝燈塔效應＋個人原因；傷者賠償唔深究；緋潮 Act II 補細觸點；無鏡之城移除。已查實（非作者決定）：彩犧牲放 Act III 尾（CDL-312），timeline／05 outline／玩法聖經待同步。二十年 vs 數日＝已由 CDL-326 解決（只需文件標時鐘）。夜區核心喺範圍內（作者確認）；旁觀者補完＝縫合（心匣）＋凡人讀取開關，淚唔做記憶（修訂版草稿待確認）；鏡像之城稱號唔留。下一步＝作者確認統一模型，之後批文件同步。需要作者 input：YES。
 
 
 > **單一步（2026-11-08，取代下面）：** 作者去 Workbench『Beat 審閱』頁（或睇 `BEAT_PATROL_FULL_ANALYSIS.md` 第 15 節）處理日常巡街＋實戰前練習嘅 14 項待決定（紅霞碎話、注射槍描述、先感受切片偏離、三個新建議、基地燈塔講法、市民立場、光幕範圍、燈塔主來源、擋鏡頭上限、美夜子陪行人群、總時長、俯視動畫）；之後設計戰後安全區→補給見底接駁，再用新流程補做頭四個 beat。需要作者 input：YES。

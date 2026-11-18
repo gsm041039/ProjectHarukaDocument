@@ -1,0 +1,109 @@
+{
+ "inputs": {
+  "official/game_pecorine_astrum_whole.png": "e78abb35023547a54092ef5eb822888c",
+  "analysis_v2/qa_game_sword_overlay_v2.png": "7cd2ba4a6e6b589ef82da7c74e1104fe"
+ },
+ "bbox": [
+  311,
+  268,
+  1652,
+  2070
+ ],
+ "H": 1803,
+ "sword_px_total": 136552,
+ "naiveB_cx": 979,
+ "boxes": {
+  "head_0.22": {
+   "box": [
+    962,
+    268,
+    1358,
+    664
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "naiveA_bboxcentre_0.22": {
+   "box": [
+    783,
+    268,
+    1179,
+    664
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "naiveB_topband_0.22": {
+   "box": [
+    781,
+    268,
+    1177,
+    664
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "head_0.25": {
+   "box": [
+    935,
+    268,
+    1385,
+    718
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "naiveA_bboxcentre_0.25": {
+   "box": [
+    756,
+    268,
+    1206,
+    718
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "naiveB_topband_0.25": {
+   "box": [
+    754,
+    268,
+    1204,
+    718
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "head_0.28": {
+   "box": [
+    908,
+    268,
+    1412,
+    772
+   ],
+   "sword_px": 0,
+   "sword_min_x_in_rows": null
+  },
+  "naiveA_bboxcentre_0.28": {
+   "box": [
+    729,
+    268,
+    1233,
+    772
+   ],
+   "sword_px": 2948,
+   "sword_min_x_in_rows": null
+  },
+  "naiveB_topband_0.28": {
+   "box": [
+    727,
+    268,
+    1231,
+    772
+   ],
+   "sword_px": 3099,
+   "sword_min_x_in_rows": null
+  }
+ },
+ "sword_max_x_within_headbox_rows": 749,
+ "gap_px_to_headbox_left": 186
+}

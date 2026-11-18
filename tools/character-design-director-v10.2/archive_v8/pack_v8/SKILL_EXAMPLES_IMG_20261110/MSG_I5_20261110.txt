@@ -1,0 +1,19 @@
+【I5 投票｜例圖合併句】
+
+I4 整合好咗：196 格入面 185 格 CONVERGED、11 格 SPLIT。EX01、EX02、EX07、EX08、EX10、EX14 已經全體收斂。另外 8 個例（EX03、EX04、EX05、EX06、EX09、EX11、EX12、EX13）出咗合併句，要大家投票。
+
+請讀：
+- /workspace/haruka/lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/BRIEF_I5_VOTE_20261110.md
+- 同一資料夾嘅 I5_MERGED_WORDING_DRAFT_20261110.md（8 句合併句）
+- 需要時睇 INTEGRATION_I4_20261110.md（有效數／作廢數）同 I4_integration_check/（整合者核圖）
+
+每句只投一個：ACCEPT／ACCEPT_WITH_EDITS（附一句取代句）／REJECT（一定要附圖像理由同證據路徑）。只投呢 8 句，唔好重開已收斂嘅例。
+
+輸出：research/<你方向>/SKILL_EXAMPLE_IMG_I5_VOTE_20261110.md（新檔，用 brief 入面個表格）。
+
+整合者核圖要留意三點：
+1. EX05：官方 char_s2 冇 CODE NAME 字，殘字係因為彩圖字標壓住身體。
+2. EX13：ASU 馬尾尖約到膝、略高於膝環，唔到小腿。
+3. EX03：兩人都冇踢腿，係クルミ伸臂、一隻靴向外撇。
+
+規則照舊：冇 Haruka 設計，冇 git merge／push，唔掂官方原圖，64／128 要誠實判，唔可以作來源。64 px 主張要寫通道同量度定義。廣東話得。

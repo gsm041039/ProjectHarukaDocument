@@ -2,7 +2,7 @@
 
 ## 全作宏觀問題總掃（2026-11-14，T-018，DRAFT）
 - TRACE：story-holistic-supervisor／SYSTEMIC／見 `HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` 檔頭｜盲審 無｜三份 2026-09 Gap Map 未逐條對賬（STATUS_UNVERIFIED）。
-- 結論：7 條根因；作者揀先攻制度，社會契約＝非法但默許消耗型資產（PROVISIONAL）；下游候選已記。第二輪新發現 N1–N6 已記草稿；未改 canon。
+- 結論：7 條根因；社會契約＝非法、預設捕獵／兵器化、暫時戰略性無視（PROVISIONAL，已取代舊「非法但默許消耗型資產」）；已更正多處（Act IV 有錨點、彩犧牲＝CDL-312 已定、20年 vs 數日重開）；2026-11-18 改 `02_glossary.md` 光幕條「僅限日區」（作者指出，夜區核心待定）。
 
 ## 晴香／美夜子赤裸感：小傑模式（2026-11-14，T-017，DRAFT）
 - TRACE：用咗 skill＝story-work-flow、story-orchestrator｜TARGETED｜揀咗：角色成長／Coping、主題立場、因果鏈、知情、真人感、跨角色對照｜跳過：玩法、導演、製作量，風險低｜核對 `haruka.md`（拆穿經理人、經理人起源、形象被盜用、壓抑稅、為人哋喊）、`miyako.md`（凜犧牲、介錯人、習慣）、`04_timeline_canon.md:185-186`｜盲審 無｜2026-11-14
@@ -3425,3 +3425,5 @@
 
 
 - 2026-11-16：作者貼想太多Lab（Levin）13:00 後影片整理，傾可否借用於靈魂／肉體設定同美術；AI 對照世界規則、視覺聖經、美術參考軸、美夜子同凜角色檔；作者採納「屍骸／侵蝕＝目標形態被錯誤執行」做設計推演工具；核出舊版「美夜子靈魂 11 年喺集體潛意識（黑貓靈體）」只喺世界規則同詞彙表、無決定紀錄、同 Brief／時間線唔一致（STALE 候選，待作者批）；宗教元素幅度作者押後（QQ-237 DEFERRED）。落檔 `story_construction/SOUL_BODY_INTERFACE_LEVIN_DISCUSSION_DRAFT.md`（DRAFT）。未改 canon，未動 NEXT_ACTION／PROJECT_STATUS（旁線討論）。
+- 2026-11-18｜靈魂／黑貓核對更正：作者確認靈魂冇變黑貓、只係喺集體潛意識；撤回「Brief 錨定喺冰封肉體」過度解讀（Brief:6897、時間線:93/97 冇明寫位置）；DRAFT 檔 §3／§5 已更正；待批改動計劃（world_rules:621,625／glossary:879／timeline:97），未寫入 canon；NEXT_ACTION／PROJECT_STATUS 不變（旁線）。
+- 2026-11-18｜作者決定：美夜子唔用靈魂困禁／1% 對 99%；屍骸通用「被困」保留但 1%／99% 比例講法要改寫（約 15 處／6 檔）；DRAFT §7 已記，canon 未改，待 diff 計劃。

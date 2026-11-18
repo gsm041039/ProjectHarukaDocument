@@ -1,0 +1,188 @@
+{
+ "G01": [
+  {
+   "path": "research/commercial/img_examples_20261110/derived/01_side_by_side_standing_neutral.png",
+   "md5": "c9f5a249f8b80a71a7e393897004d145"
+  },
+  {
+   "path": "research/identity_canon/rules_r1_img/EX01_EX04_EX05_EX12_g01_carriers_h64.png",
+   "md5": "a3634bd41928308854bc311c608b4b96"
+  }
+ ],
+ "G02": [
+  {
+   "path": "research/originality/img_examples_20261110/analysis_v2/board_main_asu_vs_old.png",
+   "md5": "34a45f3d277d4839a4956c8d2cce4e0a"
+  },
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/I4_integration_check/EX13_frame0_asu_side_tip_vs_knee.png",
+   "md5": "7c78798a3c1f99691052ccf4c3a3023a"
+  },
+  {
+   "path": "research/motif_world/rules_r1_img/EX07/02_2016_fullframe_h64_nearest4x_boxes.png",
+   "md5": "402461f24583f803720926196eadb0b6"
+  }
+ ],
+ "G03": [
+  {
+   "path": "research/color_value/img_examples_20261110/out/01_side_by_side_h800.png",
+   "md5": "5b3918385d36a064853896caf0d0479f"
+  },
+  {
+   "path": "research/head_hair/rules_r2_img/EX03_g14_layers_yuzu.png",
+   "md5": "432746a84c5d5d8937216f90acc7450b"
+  },
+  {
+   "path": "research/head_hair/img_examples_20261110/out_cafe_02_silhouettes_overlays.png",
+   "md5": "bf5d4f0588e221e6fe2371638125efbe"
+  }
+ ],
+ "G04": [
+  {
+   "path": "research/color_value/img_examples_20261110/out/09_color_vs_gray_64_nnx6.png",
+   "md5": "4f12b7964f4990c19c16d3419ba0dbbc"
+  },
+  {
+   "path": "research/color_value/rules_r1_img/G04_G08_G09_evidence_board.png",
+   "md5": "3c2469fe51885441c9f125fb1cbe5a7a"
+  }
+ ],
+ "G05": [
+  {
+   "path": "research/silhouette_cast/img_examples_20261110/sheet_head_crop_64.png",
+   "md5": "8632b4585a62e3fc4b5bc13492c92dee"
+  },
+  {
+   "path": "research/tv_simplify/img_examples_20261110/analysis/comparison_sheet.png",
+   "md5": "59b9eba5dae04f9d73dc515da9b88b31"
+  },
+  {
+   "path": "research/flow_structure/img_examples_20261110/sheet_compare_2x2.png",
+   "md5": "2b3a3c0628194246580b1867c54a733c"
+  }
+ ],
+ "G06": [
+  {
+   "path": "research/tv_simplify/img_examples_20261110/analysis_v2/qa_game_sword_overlay_v2.png",
+   "md5": "7cd2ba4a6e6b589ef82da7c74e1104fe"
+  },
+  {
+   "path": "research/tv_simplify/rules_r1_img/g06_carrier_density_sheet.png",
+   "md5": "ffeb51a0eef4819db3e4432b3b0b6c1c"
+  }
+ ],
+ "G07": [
+  {
+   "path": "research/commercial/i5_img/EX06_crop_definitions_64.png",
+   "md5": "5e6327ae0a8b73ff482e894a021c12d6"
+  },
+  {
+   "path": "research/audience_market/rules_r1_img/G07_EX14_crop_channels.png",
+   "md5": "7b872b445d204689a9d3d45cceba72f0"
+  },
+  {
+   "path": "research/flow_structure/rules_r2_img/G15_headbox_qc.png",
+   "md5": "264de326a2023073e904d019348dfdfe"
+  }
+ ],
+ "G08": [
+  {
+   "path": "research/psychology/img_examples_20261110/v2/analysis_thumbs_h64_nearest4x.png",
+   "md5": "6f17f81719278c1d63ed99326c44814b"
+  },
+  {
+   "path": "research/silhouette_cast/rules_r2_img/EX04/i1_head_window_lance.png",
+   "md5": "89411d76085f2f22e2f4a06022bb105f"
+  }
+ ],
+ "G09": [
+  {
+   "path": "research/psychology/rules_r1_img/g09_value_board.png",
+   "md5": "c0332ccd4c912a41724c8afa9c6c278f"
+  },
+  {
+   "path": "research/psychology/rules_r1_img/ex05_team_Lstar.png",
+   "md5": "6f6fe37a4998a46889d3d9afeec9dd87"
+  }
+ ],
+ "G10": [
+  {
+   "path": "research/construction_fashion/img_examples_20261110/out/construction_callout_sheet.png",
+   "md5": "d7a537181136a658f8144cc70c65e905"
+  },
+  {
+   "path": "research/flow_structure/rules_r1_img/G10_parts_EX04_battle.png",
+   "md5": "50c07ca6338d6b16120533ecbbe59bb9"
+  },
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/rules_r2_integration/EX02_gun_vs_bbox_extremes.png",
+   "md5": "f371b68d206c6be27e1db7f81fee1974"
+  }
+ ],
+ "G11": [
+  {
+   "path": "research/flow_structure/rules_r1_img/G11_P5_shujin_torso_strip.png",
+   "md5": "e38ba26d9eec05272ed00c70e0a95092"
+  },
+  {
+   "path": "research/identity_canon/rules_r1_img/EX05_EX10_g11_wear_style.png",
+   "md5": "bc763f80e4d4ca32bc4eefa2910f2cbd"
+  },
+  {
+   "path": "research/performance_motion/img_examples_20261110/analysis_v2/01b_sheet_pair_color.png",
+   "md5": "50f545faf6bfab49590ef21b31f16143"
+  }
+ ],
+ "G12": [
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/rules_r1_integration/rerun_pm/R1_pose_vs_carrier_iou_overlays.png",
+   "md5": "aa7860fba6f69767ab22a5d933c6fe93"
+  },
+  {
+   "path": "research/production_critic/i4_img/EX14/01_anime_thumb_crown_native.png",
+   "md5": "68071260ea5f0f435ace01382d741def"
+  },
+  {
+   "path": "research/production_critic/img_examples_20261110/out/11_brow_tight_roi_julius_face02-1.png",
+   "md5": "d428afe9e461138842ed6715e500cc1c"
+  }
+ ],
+ "G13": [
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/OVERVIEW_EXAMPLES_IMG_v7_20261110.png",
+   "md5": "0bb675b1b21d57745dad21575612580e"
+  },
+  {
+   "path": "research/identity_canon/rules_r1_img/IDC_R1_OVERVIEW_MATRIX.png",
+   "md5": "013efece42c5900768d6aad994dc1c93"
+  }
+ ],
+ "G14": [
+  {
+   "path": "research/head_hair/rules_r2_img/EX03_g14_layers_yuzu.png",
+   "md5": "432746a84c5d5d8937216f90acc7450b"
+  },
+  {
+   "path": "research/flow_structure/rules_r2_img/G14_hair_layer_qc.png",
+   "md5": "e2787798261224e40709bb220539187b"
+  },
+  {
+   "path": "research/tv_simplify/rules_r2_img/EX08_top_qc.png",
+   "md5": "d142012926149277c723a84ccae4c83e"
+  }
+ ],
+ "G15": [
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/rules_r2_integration/EX14_sword_vs_headbox.png",
+   "md5": "d7ca2376e56a782ea1e17e9018926896"
+  },
+  {
+   "path": "lab/canon/_working/skill_distill/SKILL_EXAMPLES_IMG_20261110/rules_r2_integration/EX05_thief_bbox_top_top30.png",
+   "md5": "94e87dfedd26f858cd6fd647788bfe42"
+  },
+  {
+   "path": "research/silhouette_cast/rules_r2_img/EX12/raised_arm_vs_face_box.png",
+   "md5": "4697e7f0001ec4f1a19d76a4fb11f32a"
+  }
+ ]
+}

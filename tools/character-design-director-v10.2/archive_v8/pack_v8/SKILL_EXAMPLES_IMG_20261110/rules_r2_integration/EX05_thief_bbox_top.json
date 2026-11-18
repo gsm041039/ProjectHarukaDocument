@@ -1,0 +1,226 @@
+{
+ "hero": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/hero_char_img2.png",
+  "md5": "cc8230b3e7b34cf29e5a0946654ddbc2",
+  "size": [
+   786,
+   912
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    785,
+    911
+   ],
+   "top_x": [
+    492,
+    496
+   ]
+  },
+  "a128": {
+   "bbox": [
+    1,
+    1,
+    784,
+    911
+   ],
+   "top_x": [
+    492,
+    495
+   ]
+  }
+ },
+ "ryuji": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/ryuji_char_img2.png",
+  "md5": "d7338a78c8cd8e541b1b47c963ce842b",
+  "size": [
+   699,
+   817
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    698,
+    816
+   ],
+   "top_x": [
+    577,
+    594
+   ]
+  },
+  "a128": {
+   "bbox": [
+    0,
+    0,
+    698,
+    816
+   ],
+   "top_x": [
+    578,
+    594
+   ]
+  }
+ },
+ "anne": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/anne_char_img2.png",
+  "md5": "64936486bee6ca636f600ab305cc96d8",
+  "size": [
+   966,
+   1027
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    964,
+    1026
+   ],
+   "top_x": [
+    749,
+    941
+   ]
+  },
+  "a128": {
+   "bbox": [
+    0,
+    0,
+    964,
+    1026
+   ],
+   "top_x": [
+    752,
+    940
+   ]
+  }
+ },
+ "yusuke": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/yusuke_char_img2.png",
+  "md5": "44fe24ff4f091174719060aef12d01ce",
+  "size": [
+   652,
+   985
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    651,
+    984
+   ],
+   "top_x": [
+    7,
+    18
+   ]
+  },
+  "a128": {
+   "bbox": [
+    1,
+    1,
+    650,
+    983
+   ],
+   "top_x": [
+    7,
+    18
+   ]
+  }
+ },
+ "makoto": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/makoto_char_img2.png",
+  "md5": "e49b68511b57824d522e40fd80356d03",
+  "size": [
+   648,
+   940
+  ],
+  "a16": {
+   "bbox": [
+    15,
+    0,
+    647,
+    939
+   ],
+   "top_x": [
+    599,
+    638
+   ]
+  },
+  "a128": {
+   "bbox": [
+    16,
+    1,
+    646,
+    938
+   ],
+   "top_x": [
+    598,
+    638
+   ]
+  }
+ },
+ "futaba": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/futaba_char_img2.png",
+  "md5": "9dc81010ea9bbf970a4c56a3597b3b53",
+  "size": [
+   548,
+   808
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    547,
+    807
+   ],
+   "top_x": [
+    304,
+    333
+   ]
+  },
+  "a128": {
+   "bbox": [
+    0,
+    0,
+    547,
+    807
+   ],
+   "top_x": [
+    305,
+    332
+   ]
+  }
+ },
+ "haru": {
+  "path": "/workspace/haruka/research/identity_canon/img_examples_20261110/raw_p5/haru_char_img2.png",
+  "md5": "2fb3e69f55176377dc71e51379fb63d1",
+  "size": [
+   679,
+   799
+  ],
+  "a16": {
+   "bbox": [
+    0,
+    0,
+    678,
+    798
+   ],
+   "top_x": [
+    224,
+    239
+   ]
+  },
+  "a128": {
+   "bbox": [
+    1,
+    1,
+    677,
+    797
+   ],
+   "top_x": [
+    224,
+    235
+   ]
+  }
+ }
+}
