@@ -106,7 +106,7 @@
 5. **更大嘅決斷行動**（設計中，人質局暗中出手，保護對象確認：操——同確認事件/進步嘗試係同一段關係嘅延續，令彩嘅同理心圈子擴闊有跡可循，唔係分散喺唔同人身上）：一個更有決斷力嘅行動，顯示決心由內心掙扎進化到真正嘅行動力
 6. **J8 高潮嘅真正轉折**：黑奏防線最鬆懈嗰刻，彩累積落嚟嘅意志力終於夠爆發力奪返控制權——但真正嘅轉折喺於：佢成個弧線都係為咗證明「我自己」存在，攞返控制權嗰一刻，佢即刻將呢個得來不易嘅「自己」，全部交咗畀晴香，冇留返一分一毫為自己度身。呢個先係佢「窄而深」限制嘅終極突破——由一直只識為特定嘅人（螢、晴香）付出，去到最後一刻，用僅有、成個故事先爭取到嘅自主權，做咗一個完全唔為自己嘅選擇，證明咗呢個限制唔係佢嘅全部。
 
-**解決——扣連「彩的覺醒與犧牲」，唔係治癒缺陷而係承擔責任**：彩最終嘅解決唔係「學識愛晒所有人」（會太童話，亦唔似故事一路嘅寫法）——而係喺[覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)嗰刻，佢明確承認自己呢個限制係真嘅，但依然揀主動承擔全部因果責任，唔係因為對每一個受害者都感受到切膚之痛先去負責，而係佢揀擇唔用「我感受唔到」做藉口。呢個先扣得返故事「態度 vs 命運」主題核心——態度、揀點做，唔需要靠感受能力嚟證明正當性。
+**解決——扣連彩嘅「真正覺醒」（Act IV 輪迴，CDL-428；J8 只係奪回身體與犧牲），唔係治癒缺陷而係承擔責任**：彩最終嘅解決唔係「學識愛晒所有人」（會太童話，亦唔似故事一路嘅寫法）——而係喺[覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)嗰刻，佢明確承認自己呢個限制係真嘅，但依然揀主動承擔全部因果責任，唔係因為對每一個受害者都感受到切膚之痛先去負責，而係佢揀擇唔用「我感受唔到」做藉口。呢個先扣得返故事「態度 vs 命運」主題核心——態度、揀點做，唔需要靠感受能力嚟證明正當性。
 
 **同黑奏嘅鏡像——同一種傷，相反嘅選擇**：黑奏因為感受唔到而逃避責任（用修正主義哲學包裝自己嘅暴行）；彩因為感受唔到而依然選擇負責。同一種缺陷嘅兩種活法。黑奏成套瘋狂嘅[情緒結算儀式](../02_glossary.md#term-resonance-hell)（強制全人類互相感受對方嘅痛），亦都可以讀成——黑奏用暴力想幫成個人類世界攞到彩自己一直冇嘅嘢：廣泛、人人平等嘅感受連結，只不過用咗最扭曲嘅方式。
 
@@ -135,7 +135,7 @@
 這是彩最終答案：痛苦可以承受，但唔應再外判俾另一個自己。
 她用重複的選擇，慢慢把「被保護者」改寫成「可承擔者」。
 
-**See also**: [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle)
+**See also**: [Timeline — 彩的覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)
 
 ---
 
@@ -182,9 +182,9 @@
 
 #### 第三幕：覺醒
 
-帝國廣場[最終決戰](../04_timeline_canon.md#event-final-battle)。黑奏啟動[情緒結算儀式](../02_glossary.md#term-resonance-hell)。彩用盡全部意志奪回身體控制權——長期沉默在這一刻爆發。她燃燒靈魂填補天空裂痕，平息[緋潮](../02_glossary.md#term-scarlet-tide)反噬。
+帝國廣場[決戰](../04_timeline_canon.md#event-imperial-plaza-battle)（Act III 尾，CDL-312）。黑奏啟動[情緒結算儀式](../02_glossary.md#term-resonance-hell)。彩用盡全部意志奪回身體控制權——長期沉默在這一刻爆發。她燃燒靈魂填補天空裂痕，平息[緋潮](../02_glossary.md#term-scarlet-tide)反噬。
 
-彩對黑奏說的最後一句話：「多謝你保護咗我咁耐。但係……我想自己揀。」不是否定黑奏的愛，而是奪回選擇的權利。
+彩奪回身體後犧牲（J8–J9）；**J8 係「為晴香犧牲」，真正放低失去螢嘅痛係 Act IV 輪迴（CDL-428）**。**「多謝你保護咗我咁耐。但係……我想自己揀。」這句對黑奏說的話，時點移到 Act IV 黑奏最終消散一刻（CDL-427，2026-11-20 作者揀路線二）**：不是否定黑奏的愛，而是奪回選擇的權利。具體載體（彩在輪迴中成功一刻如何對黑奏說）留待 Act IV 設計。
 
 #### 第四幕：永恆輪迴
 
@@ -399,6 +399,8 @@
 
 #### 跨時間線能量收割（Soul Traversal）與因果閉環（CDL-289）
 
+> ⚠️ 2026-11-20 獨立審計標註：下段「黑奏導致花子／美夜子死亡」已被 CDL-290 取代（死因＝意外，無黑奏參與；封閉循環設計 CDL-006/007 作廢），亦同彩 79–103 年被收押設定矛盾；以 `04_timeline_canon.md` 為準，本段待清理。
+
 **Loop 0（起源循環）**：帝國歷102年，黑奏以無魔法的人類身份（Alpha 線低魔狀態）在黑幫衝突中導致花子和美夜子死亡——此為意外，非策劃。5歲晴香的悲痛透過靈樹引爆創世，因果能量逆流；因黑奏具備 Alpha 線極端創傷（螢死亡）的靈魂共振條件，加上同年鐵絲網偶遇中晴香許下「希望有人保護彩」的潛意識願望形成因果信標，兩者疊加令創世能量精準賦予黑奏魔法力量與 Soul Traversal 能力。
 
 **許願信標觸發點（Wishing Mark Anchor）**：鐵絲網偶遇（CF-TIME-0013）發生時，5 歲晴香透過金屬柵欄目睹被帝國拘束的 29 歲彩（當時晴香不知身份）。晴香的純淨悲憫——對陌生人的無辜關切——在內心深處自發形成「希望有人救出這個被困住的人」的潛意識願望。這份願望不是言語，而是靈魂層面的共鳴頻率。黑奏正位於靈樹與物理世界的交界處，受到 Alpha 線創傷共振加持，因此成為了這份無名願望的唯一接收者與受益者。從此刻起，黑奏以「奉晴香之願保護彩」的宿命名義被綁定至因果迴圈——她無法拒絕、也無法逃脫。這是黑奏力量的真正來源，也是她永恆詛咒的起點。
@@ -485,9 +487,9 @@
 
 在第三幕中段，黑奏刻意執行「真身揭露：巨大衣服，微小的神」——以皇袍滑落暴露幼體身軀，將「皇權威壓」瞬間轉成「被囚禁孩童」的心理震波。這不是示弱，而是對敵我認知的重新編排。
 
-最終，[彩](#section-aya)覺醒奪回身體。彩對黑奏說：「多謝你保護咗我咁耐。但係……我想自己揀。」黑奏的意識在這句話中消散——不是被擊敗，而是被她最想保護的人否定了存在意義。
+第三幕尾，[彩](#section-aya)覺醒奪回身體並犧牲（J8–J9），黑奏仍然存在。到 Act IV 終局，彩在永恆輪迴中成功，對黑奏說：「多謝你保護咗我咁耐。但係……我想自己揀。」黑奏的意識在這句話中消散——不是被擊敗，而是被她最想保護的人否定了存在意義（CDL-427；具體機制待 Act IV 設計，「輪迴成功促成消散」係 AI 提案）。
 
-**See also**: [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle)
+**See also**: [Timeline — 彩的覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)
 
 ---
 
@@ -538,7 +540,7 @@
 - [黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp)：由保護者轉為統治者。
 - [真身揭露](../04_timeline_canon.md#event-kurokana-body-reveal)：暴君與受害者同體的關鍵揭露。
 - [情緒結算儀式第三階段](../04_timeline_canon.md#event-resonance-hell-3)：修正主義終極實驗。
-- [彩的覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)：主人格最終承擔因果債務。
+- [彩奪回身體與犧牲（J8）／真正覺醒（Act IV）](../04_timeline_canon.md#event-aya-awakening)：主人格最終承擔因果債務。
 
 ---
 
@@ -576,7 +578,7 @@
 
 - [晴香 Canon Sheet](haruka.md)
 - [Character Index](../03_character_index.md)
-- [Timeline — 螢的死亡](../04_timeline_canon.md#event-hotaru-death) | [Timeline — 黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp) | [Timeline — 最終決戰](../04_timeline_canon.md#event-final-battle)
+- [Timeline — 螢的死亡](../04_timeline_canon.md#event-hotaru-death) | [Timeline — 黑奏篡位](../04_timeline_canon.md#event-kurokana-usurp) | [Timeline — 彩的覺醒與犧牲](../04_timeline_canon.md#event-aya-awakening)
 - [Glossary — 情緒結算儀式](../02_glossary.md#term-resonance-hell) | [Glossary — Soul Traversal](../02_glossary.md#term-soul-traversal) | [Glossary — 緋潮](../02_glossary.md#term-scarlet-tide)
 - [Glossary — 心匣](../02_glossary.md#term-heart-container) | [Glossary — 集體潛意識](../02_glossary.md#term-collective-unconscious) | [Glossary — 態度 vs. 命運](../02_glossary.md#term-attitude-vs-fate)
 - [Story Outline](../05_story_outline_canon.md)

@@ -36,3 +36,9 @@ TRACE：story-holistic-supervisor／TARGETED（世界規則、前史因果、公
 
 ## REVALIDATE
 `02_glossary.md` 光幕條（加「認知覆寫令屍骸被認知成怪物」）、`01_world_rules_and_costs.md` 淚條、`04_timeline_canon.md`（補創世後過渡期一段）、`CROSS_ACT_FORESHADOW_MANIFEST.md`（屍骸原理揭露位）。
+
+## 作者決定（2026-11-20，CDL-423）
+- 淚完全運作＝創世後約 5 年（約 107 年），已寫入 04_timeline_canon 過渡期一行。
+- 過渡期稱呼＝沿用「魔法屍骸」。
+- 仍未定：老一輩記唔記得舊稱、公眾幾時知魔法少女可變屍骸、市民見熟面孔反應、屍骸外流是否波及日區。
+- 2026-11-20 補（CDL-424）：公眾認知三階段已批（紫音事件後知道可變屍骸；淚毀後肉身恐懼轉敵視）。

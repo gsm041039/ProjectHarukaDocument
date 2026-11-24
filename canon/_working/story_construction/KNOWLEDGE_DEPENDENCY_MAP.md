@@ -69,7 +69,7 @@ Built: 2026-03-25 | 基於 FULL_STORY_ROUGH_OUTLINE_AUDIT + CROSS_ACT_CONTROL_LA
 ---
 
 ### 揭示 R-5：螢不可復活（AKS-S4）
-**揭示位置**：Act IV，彩說「多謝你保護咗我咁耐」[AC]
+**揭示位置**：Act IV 黑奏最終消散（CDL-427），彩說「多謝你保護咗我咁耐」[AC]
 
 | 類型 | 前置條件 | 狀態 |
 |------|---------|------|

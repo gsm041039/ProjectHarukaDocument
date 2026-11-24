@@ -11,6 +11,10 @@
 |---|---|---|---|
 | `canon/05_story_outline_canon.md` | baseline | — | CURRENT |
 | `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md` | baseline | `canon/05_story_outline_canon.md` | CURRENT |
+| `canon/_working/story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` | baseline | `canon/05_story_outline_canon.md` | REFERENCE |
+| `canon/_working/story_construction/BETA_CORPSE_PUBLIC_PERCEPTION_PREHISTORY_DRAFT.md` | baseline | `canon/_working/story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` | REFERENCE |
+| `canon/_working/story_construction/ACT_IV_DESIGN_PREREQUISITES_DRAFT.md` | act | `canon/05_story_outline_canon.md` | REFERENCE |
+| `canon/_working/story_construction/HOTARU_THANKYOU_LETTER_LINE_CANDIDATES_DRAFT.md` | act | `canon/_working/story_construction/ACT_II_OUTLINE.md` | REFERENCE |
 | `canon/_working/story_construction/ACT_I_OUTLINE.md` | act | `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md` | CURRENT |
 | `canon/_working/story_construction/ACT_II_OUTLINE.md` | act | `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md` | CURRENT |
 | `canon/_working/story_construction/ACT_III_OUTLINE.md` | act | `canon/_working/story_construction/FULL_STORY_ROUGH_OUTLINE_V2.md` | CURRENT |

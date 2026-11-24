@@ -1,4 +1,6 @@
 # FULL STORY ROUGH OUTLINE V2
+> **⚠️ 2026-11-20 同步註記：** 本檔仍有舊寫法「彩覺醒／多謝你／黑奏消散＝Act IV」（約 L89、94、131）。已被 CDL-312（彩犧牲＋「多謝你」＝Act III 尾 J8/J9）取代；黑奏最終「消散」同 J8「黑奏轉化」嘅關係待 Act IV 設計核實。以 `canon/04_timeline_canon.md`、`CANON_DECISION_LOG.md` 為準。
+
 **[PROPOSED v2 — NOT APPROVED]**
 Built: 2026-03-27 | Upgrade from v2-lite | P0 全部答完後首版
 基礎：FULL_STORY_ROUGH_OUTLINE_v2_LITE.md（2026-03-26）+ P0/P1 作者答案（2026-03-27）

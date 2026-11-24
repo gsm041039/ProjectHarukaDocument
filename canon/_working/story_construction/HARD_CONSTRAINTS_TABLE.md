@@ -27,7 +27,7 @@ Generated: 2026-03-25 | Phase 10 — Full Story Rough Outline Audit
 |------|------|------|------|
 | HC-2a | 紫音與操主動犧牲為**錯位雙殺**（CDL-218 AC 2026-04-13）：操 Day 13 學校人偶牆、紫音 Day 14 帝國廣場糖果山——連續兩日但分開犧牲，不可設計為同時同地。「嘆息之橋」為活動命名隱喻，非物理地點，紫音物理犧牲地點係帝國廣場（CDL-217 AC 2026-05-19） | `CDL-218`, `CDL-217` [AC] | Critical |
 | HC-2b | 螢不可復活。原因：靈樹武器在屠殺時連靈魂一同消滅（非普通死亡）。螢的不可復活性是整個彩/黑奏弧光的情感重量基礎 | `ROUGH_STORY_SKELETON.md` [AC] | Critical |
-| HC-2c | 螢的不可復活揭示時機：Act IV，彩說「多謝你保護咗我咁耐」的那一刻。不可提前揭示 | `STORY_CONSTRUCTION_PROGRESS.md §Confirmed` [AC] | Critical |
+| HC-2c | 螢的不可復活揭示時機：Act IV 黑奏最終消散（CDL-427），彩說「多謝你保護咗我咁耐」的那一刻。不可提前揭示 | `STORY_CONSTRUCTION_PROGRESS.md §Confirmed` [AC] | Critical |
 | HC-2d | 晴香的「創世者」身份：Act II 暗示（晴香知而拒絕承認）；Act III 由黑奏正式揭露。不可提前在 Act I 明確揭示 | `ROUGH_STORY_SKELETON.md`, `canon/05 §section-act-2/act-3` [AC] | Critical |
 | HC-2e | 「奪舍示範場景」（屍骸老婆婆透過小孩傳話）必須出現在正式講解世界規則「之前」。先「感受」後「被告知」 | `canon/05 §scene-possession-ghost` [AC] | High |
 | HC-2f | 「四人協議」（不再使用情緒連結）在情緒連結首戰後遺症場景後自動成立。無投票、無宣告、**無點頭場景**——各人「死人面」式震驚自然停止（CDL-119）。此協議是晴香後來拒絕共振地獄計劃的情感根源 | `canon/05 §scene-emotion-link-first-battle`, `CDL-119` [AC] | High |

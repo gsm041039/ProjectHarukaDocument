@@ -219,6 +219,7 @@ Tier 1（current durable state + current canon/CDL + 目標 Act Outline/Beat She
 
 
 ### H. Beat Walkthrough Mode（逐 beat 慢慢講；2026-11-02 作者要求）
+範圍界線（2026-11-23）：H–K 係單一 beat 嘅審查／深化。整幕或整段 Sequence 嘅創作發展、重構、出多條路線，交 `story-breaking`，唔入呢個 mode，亦唔需要 28 行表。
 觸發：作者要求「逐 beat 慢慢分析、講畀我聽」，或者 `story-work-flow` 帶入逐 beat 工作。**逐 beat 工作一律入呢個 mode，唔准即興；必跟下面 I（Gap Scan）、J（新建議）、K（角度表）。**
 1. **先讀推導歷史再分析**：該 beat 嘅 CHALLENGE_*、DERIVATION_*、SOLUTION_SPACE_*、偏離登記。分清「有意偏離但冇登記」同「無意漂移」，唔好當新發現。
 2. **講出嚟嘅固定次序**（作者喺對話睇）：①第一段＝結論，最多兩句；②點解有呢個 beat（出處；唔做會斷咩；點解係獨立 beat 唔併入鄰近 beat）；③角度逐個講（每個一兩句日常講法，引原文）；④發現，每條標「屬 Beat 層／屬 Scene 層（交接）」；⑤新建議（J）；⑥未核對嘅部分；⑦落檔位置。

@@ -15,15 +15,19 @@
 | `haruka.md` 四層種子第三層／`iwakura_akane.md` E-12 | 同上 | 指控改行為版 | TODO |
 | `ACT_I_BEAT_SHEET.md` 奪舍示範 | `HARUKA_SIN_INTRO_KILL_NARRATION_DRAFT.md` | 屍骸改活人被奪舍，晴香反應 | TODO |
 | 任何將晴香「理解」／紫音「雷達」寫成獎勵嘅 beat | `PERMANENT_WORLDVIEW_SHIFT_HARUKA_RIN_SHION_DRAFT.md` | 避免苦難＝獎勵 | TODO |
-| `10_gameplay_bible.md:331`（第四幕黑奏 boss） | 宏觀審視 N4 | 彩犧牲暫定放 Act III 尾，玩法聖經黑奏 boss 要改 | TODO（DOCUMENT_SYNC：CDL-312 已定 Act III 尾） |
-| `04_timeline_canon.md:303`（彩覺醒與犧牲，134年9月） | 同上 | 移去 Act III 尾 | TODO |
-| `05_story_outline_canon.md` Act IV 節點 6 | 同上 | 移走；最終決戰靠咩撐要重想 | TODO |
+| `10_gameplay_bible.md:331`（第四幕黑奏 boss） | 宏觀審視 N4 | 彩犧牲暫定放 Act III 尾，玩法聖經黑奏 boss 要改 | DONE（2026-11-20 已同步） |
+| `04_timeline_canon.md:303`（彩覺醒與犧牲，134年9月） | 同上 | 移去 Act III 尾 | DONE（2026-11-20 已同步） |
+| `05_story_outline_canon.md` Act IV 節點 6 | 同上 | 移走；最終決戰靠咩撐要重想 | DONE（2026-11-20 已同步） |
 | Act II 甜蜜高峰 beat／`CROSS_ACT_FORESHADOW_MANIFEST.md` | 宏觀審視（緋潮） | 補一個細緋潮觸點（deniable） | TODO（PROVISIONAL，位置待 Act II Beat 層） |
-| `01_world_rules_and_costs.md:139`、`02_glossary.md:105`、`06_visual_bible.md:146,237` | 宏觀審視（無鏡之城，QQ-98） | 作者暫定移除「無鏡之城」稱號同日區排斥反光規則；視覺聖經服飾避反光要改 | TODO（PROVISIONAL） |
+| `01_world_rules_and_costs.md:139`、`02_glossary.md:105`、`06_visual_bible.md:146,237` | 宏觀審視（無鏡之城，QQ-98） | 作者暫定移除「無鏡之城」稱號同日區排斥反光規則；視覺聖經服飾避反光要改 | DONE（2026-11-20 已同步；啞光視覺處理待重審） |
 | 「鏡像之城」稱號（QQ-100） | 同上 | 夜區稱號失去對立；日常照鏡問題已由 CDL-336 回答（魔法使用者專屬） | TODO（待作者，細） |
-| Act IV 時長（20年 vs 數日） | CDL-326 | 已由主觀／客觀時間分裂解決；只需 `ACT_III_OUTLINE.md:11`、`yu.md:151` 標明時鐘 | TODO（DOCUMENT_SYNC，唔使作者決定） |
+| Act IV 時長（20年 vs 數日） | CDL-326 | 已由主觀／客觀時間分裂解決；只需 `ACT_III_OUTLINE.md:11`、`yu.md:151` 標明時鐘 | DONE（2026-11-20 已標註，時鐘待 Act IV 設計） |
 | `02_glossary.md` 光幕濾鏡條（僅限日區） | audit 2026-11-18 | 同 CDL-336／398（市區覆蓋）及「全城熄滅」矛盾；待作者確認夜區核心喺範圍內定外 | 已改（2026-11-18 刪「僅限日區」）；夜區核心待定 |
 | 旁觀者補完記憶歸屬（淚 vs 心匣縫合） | audit 2026-11-18 | 兩套規則都改旁觀者認知，冇分工、冇寫範圍外 | OPEN（待討論） |
-| `01_world_rules_and_costs.md:140`、`02_glossary.md:114`、`06_visual_bible.md:147` | 作者 2026-11-18 | 刪「鏡像之城」稱號（保留濕街道意象） | TODO（PROVISIONAL） |
+| `01_world_rules_and_costs.md:140`、`02_glossary.md:114`、`06_visual_bible.md:147` | 作者 2026-11-18 | 刪「鏡像之城」稱號（保留濕街道意象） | DONE（2026-11-20 已同步） |
 | `01_world_rules_and_costs.md` 縫合規則、`02_glossary.md` 光幕條 | 統一模型修訂版 | 寫明：縫合（心匣）＝旁觀者記憶補完；淚＝外觀美化＋殘餘排走＋鏡像邊界，唔做記憶；冇魔法少女出手嘅事件靠凡人讀取開關；淚抽取對象（日區）同調節範圍（市區）分開 | TODO（待作者確認修訂版） |
 | `04_timeline_canon.md`、`02_glossary.md` 光幕條、`01_world_rules_and_costs.md` 淚條 | `BETA_CORPSE_PUBLIC_PERCEPTION_PREHISTORY_DRAFT.md` | 補創世後過渡期、光幕令屍骸被認知成怪物、年份待定 | TODO（PROVISIONAL） |
+| `09_information_design.md:410,425`、`13_major_events_relationship_impact.md:482`、`03_characters/aya.md:187,488` | 螢線對賬 2026-11-20 | 「多謝你」揭示位由 Act IV 末改 Act III 尾；句子對象（黑奏／螢）要統一 | 揭示位 DONE（2026-11-20：09:410 改 Act III 尾）；句子對象 DONE（CDL-422：字面對黑奏語義含螢，09/13 已同步） |
+| `ACT_II_OUTLINE.md` AKS 進程表 | `HOTARU_THANKYOU_LETTER_LINE_CANDIDATES_DRAFT.md` | 補 S2／S3 累積位（候選 A／B／C 待作者揀） | TODO |
+
+| `04_timeline_canon.md` event-aya-awakening、`05_story_outline_canon.md` node 6／弧光表、`aya.md:183-188,488`、`ACT_III_OUTLINE.md` J8、五階段計劃 stage 5／共振地獄第三階段 | 黑奏消散時點（CDL-427 PENDING） | 兩套講法並存：第三幕 J8 同時消散 vs 第四幕最後消散；影響第四幕共振地獄推動者 | 已定（CDL-427 路線二）；餘：J8 黑奏點解仍存在、Act IV 輪迴促成消散載體待設計 |

@@ -1,6 +1,7 @@
 # SESSION_LEDGER
 
-## 全作宏觀問題總掃（2026-11-14，T-018，DRAFT）
+## 全作宏觀問題總掃（2026-11-14，T-018）
+- 2026-11-20 作者批文件同步：已改 04_timeline、05_story_outline、10_gameplay_bible、09_information_design、02_glossary、01_world_rules、06_visual_bible、yu.md、ACT_III_OUTLINE；CDL-419／420；未寫入：縫合／淚分工、三層認知、「多謝你」對象（待作者）。
 - TRACE：story-holistic-supervisor／SYSTEMIC／見 `HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md` 檔頭｜盲審 無｜三份 2026-09 Gap Map 未逐條對賬（STATUS_UNVERIFIED）。
 - 結論：7 條根因；社會契約＝非法、預設捕獵／兵器化、暫時戰略性無視（PROVISIONAL，已取代舊「非法但默許消耗型資產」）；已更正多處（Act IV 有錨點、彩犧牲＝CDL-312 已定、20年 vs 數日重開）；2026-11-18 改 `02_glossary.md` 光幕條「僅限日區」（作者指出，夜區核心待定）。
 
@@ -3427,3 +3428,102 @@
 - 2026-11-16：作者貼想太多Lab（Levin）13:00 後影片整理，傾可否借用於靈魂／肉體設定同美術；AI 對照世界規則、視覺聖經、美術參考軸、美夜子同凜角色檔；作者採納「屍骸／侵蝕＝目標形態被錯誤執行」做設計推演工具；核出舊版「美夜子靈魂 11 年喺集體潛意識（黑貓靈體）」只喺世界規則同詞彙表、無決定紀錄、同 Brief／時間線唔一致（STALE 候選，待作者批）；宗教元素幅度作者押後（QQ-237 DEFERRED）。落檔 `story_construction/SOUL_BODY_INTERFACE_LEVIN_DISCUSSION_DRAFT.md`（DRAFT）。未改 canon，未動 NEXT_ACTION／PROJECT_STATUS（旁線討論）。
 - 2026-11-18｜靈魂／黑貓核對更正：作者確認靈魂冇變黑貓、只係喺集體潛意識；撤回「Brief 錨定喺冰封肉體」過度解讀（Brief:6897、時間線:93/97 冇明寫位置）；DRAFT 檔 §3／§5 已更正；待批改動計劃（world_rules:621,625／glossary:879／timeline:97），未寫入 canon；NEXT_ACTION／PROJECT_STATUS 不變（旁線）。
 - 2026-11-18｜作者決定：美夜子唔用靈魂困禁／1% 對 99%；屍骸通用「被困」保留但 1%／99% 比例講法要改寫（約 15 處／6 檔）；DRAFT §7 已記，canon 未改，待 diff 計劃。
+- 2026-11-20｜作者批「照你講咁改」→ 寫入 canon：黑貓非靈魂形態、靈魂喺集體潛意識、撈取兩步（timeline 91/93/97、world_rules 621-627）、屍骸 1%／99% 去數字化（約 35 行／8 檔）、美夜子 miyako.md 78/103 撤走困禁套用；決定日誌 CDL-418；Act III 月下崩潰成因待重新設計（REVALIDATE）；NEXT_ACTION／PROJECT_STATUS 不變（旁線）。
+
+- 2026-11-20：作者揀朔攔路場（五月後、美夜子養傷缺席）、貓偏朔＝夕自己策略、轉戰友＝直播證實警告＋部分融合。草稿 §3.35；養傷時長同朔局特工身份公開待核。
+
+- 2026-11-20 T-019 情緒具現化（DRAFT）：核對強弱 canon（輸出跟當下情緒強度，個體化影響代價）；作者揀個體化強度定義、載體＝晴香睇旁人；待作者講大石／空洞意思。檔：story_construction/EMOTION_EMBODIMENT_INDIVIDUATION_STRENGTH_DRAFT.md
+
+- 2026-11-20 補：作者批准三層補法 → 寫入 01_world_rules 變身的現實縫合機制＋02_glossary 現實縫合，新增 CDL-421；aya.md 4 處舊「最終決戰」連結清理；3 份草稿登記 LAYER_MANIFEST（REFERENCE）。未批：多謝你對象、屍骸前史補充、螢線候選。
+
+- 2026-11-20 T-019：audit 後將個體化強度定義＋具現化設計目的寫入 canon（CDL-422；12_philosophy §七兩處）。其餘仍 DRAFT。
+
+- 2026-11-20 補：作者批准「多謝你」＝字面對黑奏語義含螢；螢線 Act II＝C 主軸＋A 鋪墊＋B 一次。已同步 09/13，新增 CDL-422；螢線 beat 擺位待 Act II beat 層。
+- 2026-11-20 補：日區啞光／避水域視覺規則依 Brief HTML（淚過濾感知、建築冇排斥反光面）改寫 06_visual_bible；Brief HTML 兩處稱號移除。未改：00_Story_Brief.md（119,120,212,253,254）、art/00_Core_Visual_Foundation.md:113、art/02_Advanced_Narrative_Design.md:45,55（舊參考文件，待作者批同步）。
+
+- 2026-11-20 補：作者批同步，已改 00_Story_Brief.md（5 處）、art/00_Core_Visual_Foundation.md、art/02_Advanced_Narrative_Design.md（共 8 處），移除無鏡之城／鏡像之城稱號同日區避反光描述。
+- 2026-11-20 補：再掃舊缺口（帝國成立／日夜邊界／靈樹戰爭理由／淚之池）：靈樹戰爭理由＝取靈樹研究機制（glossary:124、world_rules:147）；帝國歷元年＝帝國建立，79 年入侵夜區前帝國已存在（timeline:21,35）；螢之死＝79 年戰場（timeline:36）銜接彩被收養研究至 103 政變；「淚之池」冇出現喺 canon，唔係缺口。方法＝關鍵字＋依賴搜索，非盲審。
+
+- 2026-11-20 補：作者批准淚完全運作≈107 年、過渡期稱呼沿用「魔法屍骸」→ 04_timeline 加 102-107 過渡期行，CDL-423。仍待：老一輩舊稱、公眾幾時知魔法少女可變屍骸、市民見熟面孔反應、QQ-118、盲審預算。
+
+- 2026-11-20 T-019：作者揀 晴香形狀＝夕帶出、凜形狀＝身體空白只有傷口有色（DRAFT，未入 canon）；待：操／紫音「縫」分開、未核角色。
+
+- 2026-11-20 T-019：作者揀 紫音鏡中餓死版本嘴＝生銹罐頭蓋封死（取代縫嘴，縫留作操專屬）；DRAFT，改 iwakura_akane.md:267 要走 author gate。
+
+- 2026-11-20 T-019：audit 後寫入五角色形狀＋視界擴展（CDL-423；glossary、haruka、rin、iwakura_akane、visual_bible、DIGEST）。REVALIDATE：08_narrative_design_bible:243,275、DIGEST H-S4/H-S6、紫音美術。
+
+- 2026-11-20 補：作者批准公眾認知三階段（CDL-424），寫入 01_world_rules。待：紫音事件公開度（Act II beat 層）、QQ-118、老一輩舊稱、盲審預算。
+
+- 2026-11-20 補：QQ-118 resolved（CDL-425）：屍骸外流＝夜區為主＋日區邊緣少量。ACT_II_OUTLINE 暗線描述未更新（待 Act II 設計）。
+
+- 2026-11-20 REVALIDATE 核對（CDL-423 跟進）：08_narrative_design_bible.md:243,275 同 DIGEST H-S4/H-S6 嘅「雙層」＝屍骸肉體層＋被困靈魂層，範圍限屍骸，同擴展後「活人陰影形狀」互不重疊，冇歧義，唔改文字。剩紫音美術參考待重驗。
+
+- 2026-11-20 REVALIDATE 紫音美術參考核對完成（CDL-423 跟進）：art/、canon/（除 _reports）、tools/ 文字檔已冇「縫死／縫嘴」；art/ConceptArt/Characters/Akane 只有日常／魔法少女／魔法屍骸圖，冇鏡中餓死版本嘅圖，所以冇圖要重畫。剩 canon/_reports/phase38_paragraph_risk_scan.csv 一行（自動生成嘅舊掃描報告，唔改）同 backup（備份，唔改）。日後若畫鏡中餓死版本，用罐頭封口。REVALIDATE 清單清晒。
+
+- 2026-11-20 補：獨立盲審（1 agent）發現已處理——多謝你揭示位 Act IV→Act III 尾（HARD_CONSTRAINTS HC-2c、CROSS_ACT AKS-S4、KNOWLEDGE_DEPENDENCY_MAP）；01 縫合補『戰後清場例外』；02 淚條加功能分期。待作者：階段②揭露載體、紫音處決／自爆同淚毀時序、夕撕光幕裝置 vs 光幕＝淚功能；舊 working 檔 08_Story_Engine:123、07_Major_Events:606 仍寫 Act IV。
+
+- 2026-11-20 補：階段②載體定案＝官方公佈『污染』（CDL-426），已寫入 01。待對賬：紫音 114-5 半屍骸形態 vs 階段③、夕撕光幕裝置 vs 光幕＝淚功能。
+
+- 2026-11-20 補：舊 working 檔 Act IV 殘留——V2 outline 頂加註記、07_Major_Events:606 加註；ROUGH_STORY_SKELETON／AUDIT／BLOCKED_DECISIONS 等歷史檔未逐行改（以 timeline／決定紀錄為準）。待核實：黑奏消散 vs J8 黑奏轉化。PROJECT_STATUS 已更新。
+
+- 2026-11-20 補（T-005）：操×無名男孩人物層加咗「越捉越緊→男孩退後→試修復更差→未能修復」（作者提出＋揀；證明畀自己同隊友睇、男孩覺得被當證物、男孩想要操做返自己），DRAFT／PROVISIONAL，寫入 MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md §4B。待：修復具體做咩同時期、男孩怕乜、同被欺凌點扣。
+
+- 2026-11-20 補：Demo 巡街 14 項待決定——作者話太繁碎、唔係想處理嘅 scope；2、12 OK，其餘按建議暫定（BEAT_PATROL_FULL_ANALYSIS §18）。作者核心要求：只處理影響劇情嘅設定。
+
+- 2026-11-20 補：更正（CDL-427）——早前同步誤將『黑奏消散』一齊移去 Act III 尾；依作者 2026-03-24 決定同 2026-11-20 重申，黑奏消散留 Act IV 最後。04 彩覺醒條、05 node 6／弧光表已改。待：ACT_III_OUTLINE J8 舊稿修正；彩犧牲後黑奏 Act IV 形態；『多謝你』對黑奏講但黑奏仍在，揭示位同步（09/13/HC-2c）需覆核。
+
+- 2026-11-20 補（T-005）：「越捉越緊→男孩退後→更用力修復更差→未修復」作者批准已 writeback 入 `03_characters/ayakomoji_misao.md` §無名男孩；決定紀錄 CDL-428。推論部分（載體、避見時序、修復手法）冇入 canon，留喺 PRINCIPLES_SUMMARY §4B。
+
+- 2026-11-20 補：作者揀路線二（CDL-427 轉正式）：彩犧牲 Act III 尾；黑奏留 Act IV 最後消散；『多謝你』移 Act IV。已改 aya.md（2 處）、09_information_design、HARD_CONSTRAINTS HC-2c、CROSS_ACT AKS-S4、KNOWLEDGE_DEPENDENCY_MAP、ACT_III_OUTLINE J8 註記。未改：13_major_events:482、07_Major_Events、V2 outline 註記需對賬、Act IV 具體戲（輪迴促成消散）、J8 黑奏點解仍存在。
+
+- 2026-11-20 補：CDL-428——J8＝為晴香犧牲、Act IV 輪迴先放低螢；黑奏失彩後更失控。J8 舊稿加註記。待：Act IV 設計前置清單（J8 黑奏點解仍存在已有答案＝螢傷口未解；輪迴促成消散載體；Act IV 時鐘）。
+
+- 2026-11-20 補：CDL-429 覺醒命名——J8 改『彩奪回身體與犧牲』、Act IV『彩的真正覺醒』；04／05／aya.md／ACT_III_OUTLINE 標題同步，錨點 id 不變。
+
+- 2026-11-20 補：再掃設定依賴（淚摧毀＝CDL-321/382 已定、光幕熄滅、縫合靠心匣唔受影響）——冇新缺口；新增 `ACT_IV_DESIGN_PREREQUISITES_DRAFT.md`（8 項 Act IV 設計前置），已登記 LAYER_MANIFEST。方法＝關鍵字＋依賴搜索，非盲審。
+
+- 2026-11-20 補：CDL-430——光幕詞條加濾鏡終端句；Act IV 時鐘＝J8 後數日、134 年只留結局後。05 五階段表第 5 步、Act IV 註、04 134 年節加註。待：Act IV 設計時逐處重標 134 年；ACT_IV_DESIGN_PREREQUISITES 第 2、6 項可標已定。
+
+- 2026-11-20 夕貓（T-007）核對朔攔路場前提：讀 `ACT_II_OUTLINE.md`／`saku.md`／`04_timeline_canon.md`。發現（草稿 §3.36，DRAFT）：①朔 Act II 唔向隊伍表露身份、愛莉風暴先破例現身，公開攔路撞 canon，推翻 §3.35「唔撞」嘅推論；②大綱已有鏡前攤牌（夕嘅指控，5–6 月），同貓審判場功能重疊；③直播（7 月）至部分融合（114 年 2–3 月）隔約 7 個月，貓入體後消失；④美夜子五月後缺席同大綱相容但冇依據。出三個候選（甲：貓單獨搵晴香；乙：併入鏡前攤牌；丙：朔隱藏、貓似朔嘅貓），待作者揀。TRACE 見草稿 §3.36；盲審 無。未改 canon、QUESTION_QUEUE／QUESTION_MATRIX／PROJECT_STATUS 未更新（夕貓仍係草稿階段，待作者揀後一併更新）。
+
+- 2026-11-20 補：第二個獨立 agent 審計全作設定缺口，報告摘要記入 HOLISTIC_PROBLEM_GAP_SWEEP 末段；已核實夕改變現實版本矛盾，aya.md:402 加標註。
+
+- 2026-11-20 夕貓（T-007）作者揀丙：朔唔出現，貓帶朔嘅標記走到晴香面前（草稿 §3.37，DRAFT，未 writeback）。取代 §3.35 朔攔路，美夜子缺席前提作廢；新增未決：貓審判場擺鏡前攤牌之前定之後、朔標記（唔可令晴香查到朔係局外勤）、貓主動搵晴香要明記推翻 §3.18。
+
+- 2026-11-20 補：審計『夕改變現實成功／失敗』矛盾——作者指出已有寫；核實 CDL-331（夕 Phase J＝全劇第二次奇蹟）、CDL-295、05_naming:35（假 Alpha 線，複製外殼）已解決；04:273 加釋義，『失敗』＝治癒不到創傷／被撥回。審計該條降為 DOCUMENT_SYNC（已處理）。
+
+- 2026-11-20 T-017：合併表去除寫死日期（只留先後，QQ-236 降級）；核實彩喺地下期喺隊（C9）；作者揀動手機會＝桐生健情報＋彩暗線（C11，DRAFT）。
+
+- 2026-11-20 夕貓（T-007）作者揀貓審判場擺鏡前攤牌（E-07d）之前（草稿 §3.38，DRAFT）：E-07d 唔再係第一次對手戲，標題功能要改（未改大綱，REVALIDATE_REQUIRED）；窗口＝E-06 之後至 E-07b 之前。未決：朔標記、貓場落單位置、直播前警告內容。
+
+- 2026-11-22 夕貓（T-007）作者揀朔標記＝綠松石藍布條（草稿 §3.39，DRAFT）：唔用月亮元素；愛莉風暴同色現身要回收；Act I 獵人影子服色待核。未決：貓場落單位置、直播前警告內容。
+
+- 2026-11-22 審計核實：Unlinked 製造機制＝已有答案（07:247、01:120 路線2；07:377 心防裝置刪除後重新定位為結果分類）→ DOCUMENT_SYNC，非漏洞。創世回溯範圍＝部分已定（回溯至少到92年），愛莉98年Alpha狀態未定→DEFERRED，記入 ACT_IV_DESIGN_PREREQUISITES_DRAFT 第9項。
+
+- 2026-11-22 夕貓（T-007）作者要求直播前警告「audit 更多再討論」：補審已落檔（草稿 §3.40，DRAFT，TARGETED、冇盲審，唔可話全部搵晒）。發現：①「問我一句」同鏡前攤牌重複；②新草稿冇處理爪擊／半屍骸，同大綱「夕刻意讓晴香遭爪擊」拉扯（上游缺口）；③警告觸發要外部事件；④警告太具體會令觀眾早猜貓＝夕；⑤變身鏡伏筆可兼落警告場；⑥E-09 觸發場景設計一直未動筆（QQ-165c）。警告內容未揀，等討論。
+
+- 2026-11-22 審計核實（續）：晴香知 Alpha 真相＝Act II 部分融合→Act III 黑奏展示→Act IV 整合，屬逐步揭露（COMPATIBLE_READING，非矛盾）。「20 年因果債」只 01:953 一處字眼，其餘「20 年」皆主觀二十年守望（CDL-326/387），屬字眼待釐清，未改 canon。魔法系統終結機制＝CDL-326 無此內容，指針落空→DEFERRED，記入 ACT_IV_DESIGN_PREREQUISITES_DRAFT 第10項。
+
+- 2026-11-22 T-017：作者話「你建議」→ 暫定採用動手擺位 β、彩純黑奏放任、私心兩層（合併表 §3c，PROVISIONAL，含推翻條件）。
+
+- 2026-11-22 夕貓（T-007）作者揀飢渴來源＝靈魂分裂＋壓抑，夕接近係放大器，抓傷刪走（草稿 §3.41，DRAFT，未改大綱）。夕唔再「刻意爪擊」；貓似壓力計；警告有自然外部觸發。待處理：E-08／E-09 抓傷／半屍骸寫法標 REVALIDATE、直播黑爪外觀另解釋、部分融合後飢渴點收、「屍骸化」法律依據核對、QQ-165b／c 同步。未決：警告內容、貓場落單位置、黑爪解釋。
+
+- 2026-11-22 夕貓（T-007）作者揀貓搵晴香嘅理由＝想被睇見但又怕害佢（草稿 §3.42，DRAFT）：明確推翻「貓唔主動搵晴香」舊決定；兩場對話數量有內在理由（行近有代價）；夕道德位變灰（複雜化，守住夕禁忌）。未決：兩場對話具體內容、晴香有冇留意「貓近→自己難受」。
+
+- 2026-11-22 T-017：核對夕狀態（窗口內體內敵對）同殺活人草稿依賴（軟依賴）；合併表 C7、C8 已更新。
+
+- 2026-11-22 T-020 Brief 同步 Stage 1 完成：備份 backup/00_Story_Brief_pre_sync_2026-11-22.html；差異清單 canon/_working/BRIEF_SYNC_MANIFEST_2026-11-22.md（CDL-402～429 對 Brief，關鍵字抽查，未改 Brief）。等作者批 Stage 2 分類。
+
+- 2026-11-22 T-020 Brief 同步完成：00_Story_Brief.html 按 CDL-402～429 改入（彩線、死亡機制、淚範圍／年份／縫合分工、公眾認知、歌德、個體化／陰影形狀、世界立場／手性等）；備份 backup/00_Story_Brief_pre_sync_2026-11-22.html；結果同未做項見 canon/_working/BRIEF_SYNC_MANIFEST_2026-11-22.md。驗證：ID 唯一、錨點完好；瀏覽器渲染未驗。PROJECT_STATUS／NEXT_ACTION 未改（無改變唯一下一步）。
+
+- 2026-11-23 T-021 Demo 試點・場景設計：對賬發現 Beat 層仍未批（tracker 第4行暫停、T-001 Stage 7 INCOMPLETE_SCAN、巡街14項待決定）；作者揀「先批 Beat 層」。T-021 暫停，無場景內容產出；解除條件＝T-001 Beat 層批核。
+
+- 2026-11-23 T-001 Stage 7：出 `demo_pilot/beat_rederive_v4/BEAT_COVERAGE_TABLE_2026-11-23.md`（18 beat 角度對照）：2 個有 28 行表＋搵缺口（巡街、練習，暫定）、4 個有逐 beat 講解、12 個只有格式級紀錄，其中 8 個最薄（M5、M2、B5、B4、M3、M4、B8、M1）；全層欠 7 個角度、盲審、接駁表。Beat 層唔可以批，須先補。QUESTION_MATRIX 加 COV-04。未改任何 beat 內容。
+
+- 2026-11-23 T-001 Stage 7：出 `demo_pilot/beat_rederive_v4/BEAT_TRANSITION_TABLE_2026-11-23.md`（17 對相鄰 beat 接駁表）：5 對接得上、14 缺口（4 個斷咗：B6→B7 入隊無提問、B7 勝負點、B8→M1 硬切、補給見底冇展示）；全屬 Beat 層。QUESTION_MATRIX 加 TRANS-02。未改任何 beat 內容、未提補橋方案。
+
+- 2026-11-23 T-001 Stage 7：出 `demo_pilot/beat_rederive_v4/BEAT_EXISTENCE_REASONS_B2toM5_2026-11-23.md`（B2 至 M5 十二個 beat 存在理由／決定者／出處核對）。結論：全部有出處支撐存在；B5、M2、M5 獨立成 beat 冇出處；M1 補給見底偏離登記不完整（紫音入隊與位置偏離有記，短戰串／針數載體消失冇記）；另搵到 B8 燈塔位置、M5 合照兩個未登記偏離。同日更正接駁表 G16（Outline L172 有學校補給目標）。QUESTION_MATRIX 加 EXIST-01。未改任何 beat 內容。
+
+- 2026-11-23 T-001：作者叫揀一個 beat 試評估，揀 B5。出 `demo_pilot/beat_rederive_v4/BEAT_B5_TRIAL_EVALUATION_2026-11-23.md`：現有記錄 10 角度 0 攻擊全 KEEP；B6 entry 重述 B5；牙前兆擦傷係 V4_1 已刪、V5 復活嘅未登記回退（第 5 個未登記偏離）；獨立存在理由未成立；候選甲併入 B6／乙／丙。標觀察（Gate A／B＝BK）。QUESTION_MATRIX 加 B5-TRIAL。未改 B5 內容。
+
+- 2026-11-23 Skill 改善第一輪（宏觀 Story Breaking，非故事內容、冇改 canon）：新增 `story-breaking` skill（`.claude`＋`.agents` 各一份）；`story-router` 加 STORY_BREAKING 模式、`story-orchestrator` 加「Macro Story Breaking」兩行指引、`story-room` H 節加範圍界線（整幕創作唔入 beat 講解／28 行表）。`.agents` 嘅 router／orchestrator 同 `.claude` 已經版本不一致（缺 Progressive 等段），今次冇同步，只同步新 skill 同 story-room。build_index --check 通過。外部 skill 只做搜尋參考，未安裝。

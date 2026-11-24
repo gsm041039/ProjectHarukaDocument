@@ -74,6 +74,20 @@ Rules:
 - Honour `CLAUDE.md` Local Vertical Refinement Policy: target Act may go deep while later Acts stay at outline; downstream artifacts carry a draft/provisional status stamp.
 - Only `AUTHOR_DECISION`-class questions stop the flow (see orchestrator decision classes).
 
+### STORY_BREAKING
+Use when the user wants a whole Act / Sequence developed, restructured or "broken" creatively, e.g.:
+- 發展／重構呢一幕、呢段點行會更好
+- 有冇更好嘅安排、可唔可以挑戰大綱
+- 幫我 break 呢段故事、出兩條故事路線
+
+Call chain:
+`context-manager → source-recovery-gate (as needed) → story-breaking → story-co-design-discussion for author decisions`
+
+Rules:
+- Creative exploration, not audit: do NOT apply the 28-angle Registry, Gap Admission Gate or Existing Carrier First to the routes themselves; ideas are `OPPORTUNITY` candidates. Facts still go through source recovery.
+- Output is DRAFT; major changes (locked author decisions, Act direction, life/death) are author decisions; no canon writeback without `story-writeback`.
+- Single-beat audit stays in `story-room`; layer approval stays with the orchestrator gates.
+
 ### DIRECTING_PIPELINE
 Use when the user asks for any combination of:
 - game directing / 導演方案

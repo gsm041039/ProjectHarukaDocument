@@ -293,6 +293,9 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
 
 唔可以因為全劇 Beat Sheet 未完成而停止（見 `CLAUDE.md` Local Vertical Refinement Policy）。目標 Act 夠穩定就可以逐層做落 Scene / Dialogue；成品帶狀態章 `[DRAFT / 暫定 — pending full-story beat lock]`，唔 writeback canon。依賴未解後幕真相嘅點要標 `PROVISIONAL` / `REVALIDATE_REQUIRED` / `BLOCKED_AT_THIS_DEPENDENCY`。
 
+## Macro Story Breaking（2026-11-23 新增）
+作者要求發展／重構一整幕或一段 Sequence、「有冇更好安排」「出兩條路線」時，交 `story-breaking`（宏觀創作，唔係 audit；唔套 28 角度、Gap Admission、Existing Carrier First）。結果係 DRAFT 候選；改鎖死決定、改一幕方向、角色生死＝作者決定，照 Candidates-First／Authority Funnel 問。層級批核、writeback 仍然行本檔 gate。單一 beat 審查照舊 `story-room`。
+
 ## Progressive Coarse-to-Fine Authoring Mode
 當作者講類似「由 Act I 開始由粗到幼做」「逐步做 Act II」「由大綱一路拆到 Scene」「唔好直接寫對白」「繼續上次 Act I」「改返上游決定再推落去」時，行呢個 mode。
 

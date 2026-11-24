@@ -604,4 +604,5 @@ Source: backup/screenwriter/07 + backup/director/Major_Events + canon/05 + confi
 - **晴香終局確認**：靜止搖籃已在 canon/05 定案。覺醒不明寫（讀者推斷空間）。
 - **夕終局（作者確認 2026-03-24）**：E-10 後夕為「暫時沉睡」，非謝幕；Act III 帝國廣場決戰（E-18）時被強迫接管。
 - **黑奏消散時點（作者確認 2026-03-24）**：Act IV（E-21 彩的覺醒後），非 Act III 末。
+  - ⚠️ 2026-11-20：已被 CDL-312 取代（彩覺醒／犧牲＝Act III 尾 J8/J9）；黑奏最終消散同 J8 黑奏轉化嘅關係待 Act IV 設計核實。
 - 本文件僅為 story construction working doc；所有 [SS]/[INF] 項目需在 canon 文件階段逐一確認。

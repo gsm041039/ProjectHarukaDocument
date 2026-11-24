@@ -148,7 +148,7 @@
 
 **修正說明**：此節原描述「美夜子引導晴香喺集體潛意識面對夕」場景，喺 ACT_II_OUTLINE.md / ACT_III_OUTLINE.md 都搵唔到對應 beat——實際已落實嘅設計係 Act II **E-15**（CDL-197/228/235）：晴香與夕直接鏡中對話促成部分融合，非美夜子引導/集體潛意識框架。晴香獲得[陰影視覺](../02_glossary.md#term-shadow-sight)能力（部分融合即觸發，非完全整合先觸發，見 haruka.md CDL-271 措辭修正），夕仍保留獨立意識，兩者開始共存。[Alpha 線](../02_glossary.md#term-alpha-line)真相逐步完全揭露。
 
-**三級整合進程**（避免同 Act I E-XX / Act IV 完全整合混淆）：Act I 幕末 E-XX（CDL-069/070，暫時性初裂，「整合（暫時共存/第一次無法壓抑）」）→ **Act II E-15（本節，部分融合，陰影視覺授予）** → Act IV（完全接管 Phase J 後，數日內完成最終整合，見第四幕）。三者係遞進關係，唔係互相矛盾嘅重複設計。
+**三級整合進程**（避免同 Act I E-XX / Act IV 完全整合混淆）：Act I 幕末 E-XX（CDL-069/070，暫時性初裂，「整合（暫時共存/第一次無法壓抑）」）→ **Act II E-15（本節，部分融合，陰影視覺授予）** → Act IV（完全接管 Phase J 後，數日內完成最終整合，見第四幕；「數日」用主觀定客觀時鐘待 Act IV 設計標明，CDL-326 容許兩者並存）。三者係遞進關係，唔係互相矛盾嘅重複設計。
 
 **See also**: [晴香與夕和解](../04_timeline_canon.md#event-haruka-yu-integration)
 

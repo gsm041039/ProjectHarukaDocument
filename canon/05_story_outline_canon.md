@@ -277,6 +277,7 @@
 | [美夜子](03_characters/miyako.md) | 防線冷化的冷靜隊長 | 唯一倖存者；晴香的最後連結 | 凜死訊衝擊 + 身份認知 + 月下崩潰兩步相認 |
 | [紫音](03_characters/iwakura_akane.md) | 半屍骸化的屍骸首領 | 糖果山犧牲（Day 14） | 帝國廣場被無條件拯救；「我唔想再一個人食飯」 |
 | [操](03_characters/ayakomoji_misao.md) | 人偶化進行中的殘破者 | 人偶牆犧牲（Day 13） | 鋼鐵獨舞；紗夜遺言清晰回放；「選擇停留在我想停留的位置」 |
+| [彩](03_characters/aya.md#section-kurokane) | 黑奏的囚徒 | 犧牲；被平衡機制捕獲（永恆輪迴） | 奪回身體控制權並犧牲（J8–J9，CDL-312）；黑奏最終消散留 Act IV |
 
 ---
 
@@ -287,7 +288,7 @@
 
 **氛圍**：史詩的悲壯與存在主義的孤寂。整個色調是憂鬱沉靜的，但廢墟中透出微光。像一首漫長的輓歌。
 
-> **注**：Act IV 詳細 Outline 設計待完成（見 `canon/_working/NEXT_ACTION.md`）。以下節點為當前 Canon 層級已確立的結構錨點；時間範圍已依 CDL-確認的 20 年靈魂風暴更新為帝國歷 134 年 7 月起。
+> **注**：Act IV 詳細 Outline 設計待完成（見 `canon/_working/NEXT_ACTION.md`）。以下節點為當前 Canon 層級已確立的結構錨點；時間範圍：舊稿依「20 年靈魂風暴」寫帝國歷 134 年 7 月起；**CDL-430 改為：Act IV 現實為 J8 後數日（主觀二十年、客觀數日，CDL-326），134 年只用於二十年後嘅結局場景**（下列「134 年」字眼待 Act IV 設計時逐處重標）。
 
 ### <a id="section-act4-key-events"></a>關鍵節點
 
@@ -312,9 +313,8 @@
 **5. [靈魂共鳴](04_timeline_canon.md#event-soul-resonance)**：逝者的態度延續
 - 功能上把「態度可傳承」落成可感知證據，完成黑暗治癒命題。
 
-**6. [彩的覺醒與犧牲](04_timeline_canon.md#event-aya-awakening)**
-- 功能上執行代價回收，並收束黑奏「保護者邏輯」。
-- 黑奏消散不是「被打敗」，而是「被還原為最初的保護衝動」——黑奏本質是 6 歲彩創傷分裂的防衛機制；彩主動承受螺旋痛苦，黑奏存在意義完結，最終還原為純粹保護愛回歸彩的靈魂。<!-- CDL-076; ACT_III_OUTLINE v0.2 [DRAFT] -->
+**6. 彩的真正覺醒（Act IV 輪迴，承受失去螢的痛；CDL-428）**；另「彩奪回身體與犧牲」（已移至 Act III 尾，J8–J9，CDL-312；時間線見 [event-aya-awakening](04_timeline_canon.md#event-aya-awakening)）
+- 本節點喺 Act IV 唔再執行：彩犧牲已於 Act III 尾完成；**黑奏最終消散仍留喺 Act IV 最後**（作者 2026-03-24 決定，2026-11-20 重申）。彩於 Act IV 以永恆輪迴形態存在（見 [aya.md](03_characters/aya.md#section-aya)）。<!-- 2026-11-20 文件同步 -->
 
 **7. [最終決戰](04_timeline_canon.md#event-final-battle)與[強制索回](04_timeline_canon.md#event-forced-ascension)**
 - 功能上把「吸收而非排放」定為結局方法論（機制見 [World Rules](01_world_rules_and_costs.md#rule-emotion-conservation)）。
@@ -340,7 +340,7 @@
 | [晴香](03_characters/haruka.md) | 從 20 年沉睡中覺醒 | 永恆的守護者 | 擁抱並承擔所有人的痛苦 |
 | [美夜子](03_characters/miyako.md) | 已覺醒的人類戰士 | 唯一的連結者 | 以新身份活下去，珍惜眼前連結 |
 | [朔](03_characters/saku.md) | 管理局叛逃者 | 解放者 | 解放被體制囚禁的靈魂 |
-| [彩](03_characters/aya.md#section-kurokane) | 黑奏的囚徒 | 自己的救贖者 | 用靈魂填補裂痕，終結黑奏 |
+| [彩](03_characters/aya.md#section-kurokane) | 永恆輪迴中的守護者（Act III 尾已犧牲） | 自己的救贖者 | Act III 尾用靈魂填補裂痕；Act IV 於輪迴中延續守護；黑奏消散於 Act IV 終局 |
 
 ---
 
@@ -427,7 +427,7 @@
 | 2. 分裂 | 113 年 5-6 月 | 利用紫音墮落、操虛榮、媒體輿論 | 摧毀團隊凝聚力 |
 | 3. 抹殺 | 113 年 6-8 月 | 夕直播失控→社會性死亡→鏡像破碎之夜 | 摧毀晴香的社會存在 |
 | 4. 試驗 | 113 年 7 月-114 年 3 月 | 地下圍剿（Emo-Visor/Fallen Angel 部署）→恐怖家家酒→帝國廣場 | 測試共振地獄+逼迫晴香發動改變現實 |
-| 5. 收割 | 134 年 7 月 | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
+| 5. 收割 | J8 後數日（現實；舊稿 134 年 7 月，CDL-430） | 共振地獄第三階段：要求晴香開啟全人類情緒視覺 | 達成「永久化、強制化、全面化」的共感 |
 
 ### 團隊壓力曲線
 

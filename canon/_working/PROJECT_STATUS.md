@@ -1,4 +1,6 @@
 # PROJECT_STATUS
+- **2026-11-20 操×無名男孩（T-005）**：作者批准「越捉越緊→男孩退後（接納不變）→更用力修復更差→未修復」，已 writeback `03_characters/ayakomoji_misao.md` §無名男孩，決定 CDL-428；載體／避見時序／修復手法仍係推論，留 `story_construction/MISAO_NAMELESS_BOY_PRINCIPLES_SUMMARY.md` §4B（DRAFT）。
+- **2026-11-20 整體設定漏洞審查（T-018，已批決定已 writeback）**：總記錄 `story_construction/HOLISTIC_PROBLEM_GAP_SWEEP_2026-11-14.md`。已寫入 canon：彩犧牲＝Act III 尾（timeline／outline／gameplay／glossary／information_design 同步）；20 年 vs 數日並存（主客觀時間分裂）；無鏡之城＋鏡像之城稱號移除（日區視覺依 Brief＝淚過濾感知，06／Brief md／Brief html／art 兩份已同步）；淚覆蓋範圍＝市區含夜區核心；縫合＝心匣變身瞬間記憶補完、淚＝外觀＋殘餘排走、凡人唔追究＝個人迴避＋官方敘事＋情緒視覺器；「多謝你」字面對黑奏語義含螢；螢線 Act II 累積＝熊公仔主軸＋痕跡鋪墊＋撞見一次（beat 擺位待 Act II beat 層）。**彩／黑奏時點（CDL-427，作者揀路線二）：彩犧牲＝Act III 尾；黑奏留 Act IV 最後消散；「多謝你」移 Act IV 黑奏消散一刻；待設計：J8 黑奏點解仍存在、Act IV 輪迴促成消散。** 決定紀錄 CDL-419～427（426＝階段②載體：官方公佈「魔法少女可能被屍骸污染」；已做獨立盲審 1 agent，已修 3 類，餘紫音半屍骸時序、夕撕光幕裝置待 Act III 對賬）（後補：淚完全運作≈107 年＋過渡期沿用「魔法屍骸」寫入 timeline；公眾認知三階段＝紫音事件後知可變屍骸、淚毀後肉身恐懼轉敵視；屍骸外流＝夜區為主＋日區邊緣少量）。**仍待：** 老一輩舊稱（可唔理）；紫音事件公開度、日區邊緣淚過濾描述（Act II beat 層）；ACT_II_OUTLINE 屍骸外流暗線描述待更新。限制：審查係關鍵字＋依賴搜索，未做獨立盲審。追蹤見 `REVALIDATE_LEDGER.md`。
 - **2026-11-13 晴香創世落人性＋美夜子人性化（T-014，DRAFT／PROVISIONAL）**：創世降做背景、主題放隊員對手戲；融合減「大愛」、加重為具體人（混合：美夜子最終推力＋被困聲音入口）；暫定「晴香視角主角、美夜子情感另一極」；美夜子人性化主力＝「唔敢收、要還」（成因＝凜為佢死），大哭只係大哭。未 writeback canon，未入 beat 層。見 `story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md` 末段。待決：Act IV 融合美夜子反應、Act I 失憶程度、三場對手戲位置。
 - **2026-11-08 Demo Beat 層：日常巡街＋實戰前練習（新兩個 beat）已設計並通過獨立盲審（半盲）**——`demo_pilot/beat_rederive_v4/BEAT_LAYER_V5_BATCH7_PATROL_PRACTICE.md`＋`BEAT_PATROL_FULL_ANALYSIS.md`；盲審 56 格無 BLOCKS，已按發現修正；待作者 14 項決定（Workbench『Beat 審閱』頁）；全鏈接駁檢查發現戰後→補給見底硬連；頭四個 beat 仍只係觀察，未用完整流程補做。Skill 已補（搵缺口 16 項、前台圖表化），新增網頁卡 scan／chain／compare 同 Beat 審閱頁（未喺真瀏覽器驗證）。
 
@@ -513,3 +515,5 @@ Read in this order:
 6. `canon/_working/story_construction/ACT_I_OUTLINE.md`
 
 - **2026-10-03 更新**：盲審驗證證據包已交（`demo_pilot/audit_debug/`）。結論：盲審大致有做（28 角度全有格、BLOCKS 3 核實、56 引用 ID 存在），但「盲度」「格數」「已改入 v3.1」三處有講過頭（B–G 路徑暴露、§15.1 數字無推導、v3.1 只係 patch 清單）。待作者：①揀要唔要採納 09 嘅三項 skill 修正；②牙形式／範圍、連結性質（原有）。Beat 層批核 PENDING；Stage 6 暫停。
+
+- 2026-11-20 並行線 T-019 情緒具現化 DRAFT，見 NEXT_ACTION 並行線。
