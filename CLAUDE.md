@@ -58,6 +58,12 @@ Script（對白 / 鏡頭 / timing）
 - 出現「具體對白wording / 鏡頭角度 / Xsec timing」而該段仲喺 Beat 層 = 跳咗層，須退回（除非已正式進入該段 Scene 層並有 draft 狀態標記）
 - 任何 Scene / Dialogue 產出，只要全故事 Beat Sheet 未全部批核，一律帶狀態章 `[DRAFT / 暫定 — pending full-story beat lock]`，唔可以 writeback 入 canon
 
+## Story Knowledge Layer（2026-11-26，作者批准有限整合；唔取代 canon，唔等於全面遷移）
+- 位置：`story_kb/`（先讀 `story_kb/README.md`）。事實卡指向 `canon/` 原檔位置（引文逐字抽出，`python story_kb/tools/kb.py check` 會偵測原檔漂移）。目前只遷移美夜子與凜、晴香與黑奏、作者反饋，其餘按需要遷移。
+- 卡將世界規則／已成立事實、現行劇情安排、作者意圖（FB）、未採納候選、已被取代設定分開（欄位 kind／time／status／authority／revisable）。作者回答記入 `facts/feedback.md`（FB，附日期）；未登記前唔當 canon，欣賞某構思≠批准。
+- 宏觀創作（story-breaking）同創作討論：用 `story_kb/README.md`「創作判斷」嘅輕量做法——Decision Trace 只簡短記重要決定同資料依據（事後整理要標明）；未決創作問題寫 `story_kb/threads/`，唔係作者決定。呢類唔使每次寫 TRACE 行、角度覆蓋或步驟計劃批核；**TRACE 行、覆蓋狀態同批核關卡仍然適用於層級批核產出（Act／Sequence／Beat 批核卡）**。
+- 作者意圖（想呈現咩）未入文件嘅問題可以直接問，唔使先做大量研究。
+
 ## Primary durable files
 - `PROJECT_STATUS.md` = 主 resume anchor / current truth snapshot
 - `SESSION_LEDGER.md` = 本輪與歷史 phase 記錄

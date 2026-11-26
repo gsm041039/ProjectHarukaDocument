@@ -326,7 +326,7 @@ Scene/Dialogue/Script material produced before this gate existed, or produced un
    - Dialogue → `story-dialogue-architect` → `story-dialogue-readiness-gate` → `story-dialogue-script`
    - LEVEL_2/LEVEL_3 candidate 工作 → `story-solution-space-designer`（見 Three Design Levels），結果經 orchestrator synthesis 後先落 candidate board
    - 全程 `story-run-workspace-manager` 存檔（含 candidate board、Director Layer Gate state）；上游改動 → `story-character-change-impact-manager` / `story-downstream-consistency-auditor`
-6. **AUTO_RESOLVABLE vs AI_PROPOSED_CANDIDATE vs AUTHOR_DECISION**（見下）— 只有 AUTHOR_DECISION 先停低問，而且要先 research → 試 reconcile → 出 recommendation → 講 consequence → 一條自然語言問題。
+6. **AUTO_RESOLVABLE vs AI_PROPOSED_CANDIDATE vs AUTHOR_DECISION**（見下）— 只有 AUTHOR_DECISION 先停低問，而且要先 research → 試 reconcile → 出 recommendation → 講 consequence → 一條自然語言問題。**例外（2026-11-26）：作者意圖（唔係 canon 事實）未入文件嘅問題，唔使先 research，可以一開始就直接問；細節作者會答「你決定」嘅，自己決定並講明（見 `story_kb/README.md`「創作判斷」、`story-breaking`）。**
 7. 每層做完：更新 workspace（PRODUCTION run 先再更新 `PROJECT_STATUS` / `NEXT_ACTION` / `SESSION_LEDGER` / `QUESTION_QUEUE`；PILOT/EXPERIMENT run 唔寫呢啲，見下面 Run Mode）。
 
 ### Continue-by-Default（2026-09-11 新增——關鍵規則）
