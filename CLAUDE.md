@@ -79,6 +79,7 @@ Script（對白 / 鏡頭 / timing）
 - Fresh session / interruption / new machine -> Resume first
 
 ## Update discipline
+寫入 canon／決定記錄後行 `python story_kb/tools/kb.py check`（知識卡漂移＋人物事實過時雷達）。
 每輪結束前，至少更新：
 - `PROJECT_STATUS.md`
 - `SESSION_LEDGER.md`
@@ -90,7 +91,7 @@ Script（對白 / 鏡頭 / timing）
 - **唔用編號 Q1/Q2 + A/B/C 選項式問答格式**（作者明確表示難以閱讀，2026-07-06 確認）——改用自由form：直接講清楚呢個位有咩要決定、點解要決定、有咩考慮方向，容許作者自由回應
 - **Haruka Workbench（2026-10-15 作者批准）：** 作者主要經網頁工作環境（`Workbench_Start.bat`）同 AI 傾。要作者揀嘅嘢預設用 **AskUserQuestion 選項卡**（選項用白話候選名＋白話說明，唔係 A/B/C、唔係內部編號——呢個唔違反上一條）；結構化輸出加 `ui:` 卡；網頁送嚟嘅 `ui:intent` 當作者指示但照行 gate；開／轉／完成 task 即時更新 `TASK_BOARD.md`。全文見 `.claude/story_system/web-ui-protocol.md`
 - 每輪只問真正需要決定嘅嘢，唔堆砌問題數量
-- 每條問題背後必須有 12角度分析支撐（RELEVANT/NOT_RELEVANT），但唔需要將呢個分析攤晒出嚟畀作者睇，除非佢要求
+- 每條問題背後必須有 12角度分析支撐（RELEVANT/NOT_RELEVANT），但唔需要將呢個分析攤晒出嚟畀作者睇，除非佢要求（宏觀創作／創作討論〔story-breaking〕除外：作者意圖類問題直接問，見上面 Story Knowledge Layer）
 - **對話入面唔用內部追蹤編號**（QQ-xxx、CDL-xxx、E-xx、M0xx 等）——呢啲編號只可以喺寫入 state files（QUESTION_QUEUE.md / CANON_DECISION_LOG.md 等）時使用，同作者對話時一律用白話直接講返件事本身係咩，唔可以假設作者記得個編號代表咩（2026-07-06 確認，比之前「白話文描述問題」規則更嚴格：唔止解釋，係根本唔好提編號）
 - **任何建議（候選、推薦、下一步提議、我自己揀嘅預設、要作者否決嘅清單）都要用人話講清：會發生咩、點解咁建議、要付咩代價、放棄咗咩、同另一個做法真正嘅分別**（作者 2026-10-02 要求；細而易改嘅預設可以簡短，但「點解」一定要有）。唔可以只畀標籤、編號或一句得失。詳見 `.claude/skills/story-orchestrator/SKILL.md`「Plain-Language Explanation Rule」
 - **角度政策（作者 2026-10-08 批准，取代 2026-10-02 「每個建議都要全角度」）：預設 TARGETED，特定情況先 FULL。**

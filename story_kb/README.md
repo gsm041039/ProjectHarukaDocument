@@ -20,6 +20,8 @@ python story_kb/tools/kb.py q --about 黑奏 --kind rule                    # �
 python story_kb/tools/kb.py q --id F-MR-18                                # 睇某張卡（包括已被取代）
 python story_kb/tools/kb.py q --superseded --about 美夜子                  # 現行＋歷史版本一齊睇
 python story_kb/tools/kb.py q --only-superseded                           # 只睇已被取代／撤回嘅設定
+python story_kb/tools/kb.py facts --about 晴香 黑奏 --from A2_END --to A3   # 人物知情／狀態（按時段）＋未有唯一答案嘅問題（見最後一節）
+python story_kb/tools/kb.py threads                                       # 上個 session 留低嘅未完成構思
 ```
 卡同原檔入面 `src:` 指向嘅位置可以直接用 Read 去睇更多上下文——想向上（主題、全幕結構）或向下（Scene、對白）研究，順住 `src` 同 `see` 去就得。亦可以直接 Read／Grep `facts/*.md`。
 `--as-of` 只係方便，唔係限制：AI 可以隨時加 `--plans` 或者直接睇原檔；獨立構思時先唔睇 plan，其後再睇亦得。
@@ -55,3 +57,16 @@ python story_kb/tools/kb.py q --only-superseded                           # 只�
 - **暫緩**：值得保留嘅未決問題，寫一個 `threads/<名>.md`（檔頭 `title:`／`status:`（open｜parked｜waiting_author｜resolved）／`next:`／`updated:`；內文自由：目前理解、仍保留嘅可能性同各自條件、點解未決、下一輪可以做咩、乜資料出現會改變答案）。細問題唔使寫。呢個唔係作者決定，亦唔係決策紀錄。繼續做唔受影響嘅部分。新 session 開頭行 `python story_kb/tools/kb.py threads` 睇有冇未完成嘅線。
 - **下一輪**：要有實質目的（新資料、另一個創作層次、作者反饋、冇用過嘅角度），唔係重複反思同一個答案。同一 session 繼續、或者寫低 thread 交下一個 session 都得；冇固定輪數。
 - **幾時停**：分清「方向值得繼續但有未決」、「足夠完整交作者評估」、「要作者決定先做到下一步」、「已經夠好、再研究唔值」。有答案≠完成；自己評自己會偏寬，交出前寫低最弱嗰幾點。作者確認先寫入正式檔。
+
+## 關係圖工具（輔助定位，原檔自動建立；index.json 可刪除重建，唔入 git）
+`python story_kb/refgraph/rg.py build`：掃原檔（只重解析有改動嘅檔），建立「段落＋決定編號／連結／取代字眼」關係。
+`python story_kb/refgraph/rg.py q <詞…>`：按詞權重搵段落，再沿明寫引用擴展一跳，列出點解帶出。
+`python story_kb/refgraph/rg.py impact <CDL-xxx 或詞>`：邊啲段落引用咗呢個決定（兩跳）。`rg.py issues`：重複定義同冇定義嘅編號。
+限制：只識得明寫嘅編號同連結；同義詞、隱含因果搵唔到（要靠卡同人）。結果只係定位，要讀原文先算數。
+
+## 人物知情／狀態事實（試點：美夜子、凜、晴香、黑奏／彩、夕）
+`python story_kb/tools/kb.py facts --about 美夜子 --as-of A2_END`：列出**重新核實過**嘅「邊個幾時知道乜、係咩狀態」，帶核實狀態（來源矛盾、舊行錯、未登記、未知）同「過時雷達」（原文或決定喺核實之後改過就會警告）。
+來源：`canon/_working/canon_fact_map/pilot_2026-11/PILOT_FACTS.md`。舊 `canon_fact_map/` 係 5 月嘅版本，已知有錯同過時（例如寫美夜子 Y102 起已知晴香係親妹），**唔好直接引用**。
+冇覆蓋嘅人物或問題，自己返原文或問作者；獨立構思時可以唔睇呢啲。
+
+**2026-11-27 輸出改版：** `kb.py facts` 分三類——「已核實」（對過現行原文）、「未有唯一答案嘅問題」（各版本＋來源＋一致部分＋構思影響＋避開做法，來源：`canon/_working/canon_fact_map/pilot_2026-11/OPEN_QUESTIONS.md`）、「未知／構思階段」。支援時段：`--from A2_END --to A3`（亦可 `--as-of`）。矛盾唔再放入普通事實欄；唔好將其中一個版本當已知。構思前提核實做法見 `story-breaking` skill。

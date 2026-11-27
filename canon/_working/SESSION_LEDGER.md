@@ -3527,3 +3527,13 @@
 - 2026-11-23 T-001：作者叫揀一個 beat 試評估，揀 B5。出 `demo_pilot/beat_rederive_v4/BEAT_B5_TRIAL_EVALUATION_2026-11-23.md`：現有記錄 10 角度 0 攻擊全 KEEP；B6 entry 重述 B5；牙前兆擦傷係 V4_1 已刪、V5 復活嘅未登記回退（第 5 個未登記偏離）；獨立存在理由未成立；候選甲併入 B6／乙／丙。標觀察（Gate A／B＝BK）。QUESTION_MATRIX 加 B5-TRIAL。未改 B5 內容。
 
 - 2026-11-23 Skill 改善第一輪（宏觀 Story Breaking，非故事內容、冇改 canon）：新增 `story-breaking` skill（`.claude`＋`.agents` 各一份）；`story-router` 加 STORY_BREAKING 模式、`story-orchestrator` 加「Macro Story Breaking」兩行指引、`story-room` H 節加範圍界線（整幕創作唔入 beat 講解／28 行表）。`.agents` 嘅 router／orchestrator 同 `.claude` 已經版本不一致（缺 Progressive 等段），今次冇同步，只同步新 skill 同 story-room。build_index --check 通過。外部 skill 只做搜尋參考，未安裝。
+
+- 2026-11-26 T-023 Stage 1 完成：只做接手必需對賬，記錄正式 repo 新觀察到的未提交 Aeri 圖檔（未碰）、ABTest7/8 無 Git metadata、haruka-research-decomp 為乾淨 Unity repo；摘要現有 story_kb 59 卡與 probe 行為，選晴香幸福監獄／二十年守望作有限樣本。產出 canon/_working/narrative_data_architecture/BASELINE_AND_SAMPLE.md。Stage 2 開始：按程式碼／資料模型／抽取更新／檢索及維護成本研究並試用本地現成方案；不重做舊 audit。
+
+- 2026-11-26 T-023 Stage 2 完成：按資料模型／抽取更新／檢索／維護程式比較 Graphiti、GraphRAG、LightRAG、HippoRAG2、GOLEM／Drammar；選 Graphiti 0.32.1 + Relate 作限量試驗（非最終採用）。已在暫存 Python 3.13 venv 安裝，BM25-only 原句搜尋取回 source episode＋fact edge；未呼叫 LLM／embedding API。發現 Relate 不保存 episode_metadata、短中文字詞未命中；首次未關 telemetry 時 PostHog flush 未完成，後續已關閉。方案見 OPTION_AND_DESIGN.md。Stage 3 開始，以固定來源片段拆分表示／覆蓋／檢索／AI 使用四個因素，含一次非盲宏觀創作試驗及來源修改維護試驗。
+
+- 2026-11-26 T-023 Stage 3 完成：以 7 段來源、9 條手動 source-backed edge、9 個節點做 in-memory Graphiti/Relate 試驗；BM25 對 5 個中文任務查詢有 1 條 edge+episode、1 條 edge、2 個只取回 episode、1 個無結果。明確拆分知識表示、覆蓋、檢索與 AI 使用；手寫 edge 和增加來源不能算圖演算法收益。完成一次非盲、非 Canon 宏觀故事概念檢查；未呼叫生成 API，不能宣稱架構造成準確度／自由創作／token 改善。來源文字修改後 episode 更新、依賴 edge 不變、episode_metadata 遺失，需外加來源差異同步及局部失效流程。詳見 PROTOTYPE_EVALUATION.md。
+
+- 2026-11-26 T-023 Stage 4 完成：建議暫不以任何圖式系統取代 story_kb；原文及作者決定維持權威，若續做只在可刪除索引試點驗證中文召回、來源更新、狀態分層、創作 A/B 及 token 成本。產出 RECOMMENDATION.md；本 task 完成，未改正式 Canon／作者決定，未加 dependency、未 commit。原有未提交 Aeri 概念圖改動仍保留。
+
+- 2026-11-27 Story Knowledge Recovery（試點，未 commit）：舊 canon_fact_map 抽查 17 行有 13 行有問題；新建 `canon_fact_map/pilot_2026-11/`（22 行核實事實、OPEN_QUESTIONS、fm_check 雷達、對照卡、可靠度分析）。`kb.py facts` 改為「已核實／未有唯一答案問題（列各版本＋避開做法）／未知／構思階段」並支援 `--from --to` 時段；`kb.py q` 尾加未解問題提示；`story-breaking` 加「構思前提核實」輕量做法（取 CoVe／RARR 核心，唔逐句審）。驗證（單 session、無對照）：第 1 次將未解矛盾當骨幹（失敗）；第 2 次冇用 facts（發現性失敗，但自己讀原文後都有標凜時間矛盾）；第 3 次（加提示後）用 facts、避開晴香創世者 Act II 知情問題、標暫定假設同換版本後果，8 turns／約 US$0.34。**未驗證：** 多任務穩定性、真係令創作更好、其他人物（只覆蓋 5 人）、雷達對無共同 ID 嘅真相變動。未改 Canon／作者決定／舊 fact map／T-023 staged 檔。

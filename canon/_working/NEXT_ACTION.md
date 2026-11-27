@@ -1,6 +1,7 @@
 # NEXT_ACTION
 
 > 🧰 **工具（2026-10-15）：** 以後經 Haruka Workbench（`Workbench_Start.bat`）做下面嗰條單一步；故事單一步本身冇變。協議見 `.claude/story_system/web-ui-protocol.md`。
+> 🧭 **並行線（2026-11-27，知識接地試點，未 commit）：** 已整合＝`story-breaking`→`story_kb`（threads／probe／facts 按時段／未有唯一答案提示於 q、probe、facts 三個入口）、`kb.py check` 帶過時雷達、CLAUDE.md／writeback／fact-map-builder 已接駁。未解限制＝只覆蓋 5 人物；雷達唔識無共同編號嘅真相改變；`.agents` 嘅 router／orchestrator 同 `.claude` 差異大未處理；多任務穩定性未驗證（最近一次全新 session 未用 facts，已補 probe 提示但未重測）。下一步＝作者決定 4 條未有唯一答案問題（`canon_fact_map/pilot_2026-11/OPEN_QUESTIONS.md`，唔阻技術工作）。需要作者 input：YES。
 > 💔 **並行線（2026-11-20，操×無名男孩，部分已入 canon）：** 越捉越緊／退後／未修復已 writeback（CDL-428）。下一步＝傾操嗰次用力修復具體做咩同男孩留門載體（DRAFT，見 PRINCIPLES_SUMMARY §4B）。需要作者 input：YES。
 
 > 🎭 **並行線（2026-11-11，創世落人性，DRAFT）：** 作者揀「創世只做觸發、主題放隊員對手戲」（`story_construction/TEAMMATE_FORGIVENESS_CREATOR_DRAFT.md` 末段）。下一步＝傾三場對手戲（美夜子／紫音／操）放 Act 邊度，同操嗰場嘅行為載體；Act III 揭露份量要 REVALIDATE。2026-11-13 補：作者而家喺傾「美夜子太抽離、點增加人性化」，等作者揀主力方向（見 creator draft 末段）。需要作者 input：YES。

@@ -49,6 +49,8 @@ RISK CHECK
 - 所有改動要有 change log。
 
 ## Must update
+- 寫入 canon 或決定記錄之後：行 `python story_kb/tools/kb.py check`（知識卡引文漂移＋人物事實過時雷達）；有警告就只重核受影響嗰幾張卡／行，唔使全部重做。
+
 - canon target files（只限批准範圍）
 - `CANON_DECISION_LOG.md`（如需）
 - `PROJECT_STATUS.md`

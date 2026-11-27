@@ -1,0 +1,2 @@
+graphiti-core[relate]==0.32.1
+

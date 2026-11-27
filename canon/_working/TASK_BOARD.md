@@ -32,8 +32,12 @@ NEXT_ACTION 仍然係「唯一單一步」；呢度係「而家有幾多條線�
 | T-020 | 00_Story_Brief.html 按最新 canon＋決定紀錄同步（story-static-site-sync；先快照、出改動清單、分類安全／要批） | 完成 | — | `00_Story_Brief.html`、`00_Story_Brief.md`、`canon/_working/CANON_DECISION_LOG.md` | NO | 2026-11-22 | 工具・Brief 同步 |
 | T-021 | Demo 試點・場景設計（每場想要咩／阻力／轉折／走位／對白定動作分工）；前置：Beat 層未批，先盤點；作者2026-11-23揀「先批 Beat 層」，場景設計等 T-001 批咗先開 | 暫停 | — | `canon/_working/demo_pilot/DEMO_PILOT_TRACKER.md`、`canon/_working/demo_pilot/beat_rederive_v4/BEAT_LAYER_V4_1.md` | YES | 2026-11-22 | Demo 試點・場景設計 |
 | T-022 | AI 自主管理創作研究（幾時問／保存未決問題／下一輪思考／幾時收工）：研究現成 skill，隔離環境最小整合＋跨 Session 驗證；唔改 canon | 進行中 | — | `canon/_working/tasks/T-022.md`、`/d/Projects/_HarukaABTest6` | YES | 2026-11-24 | 工具・創作自主管理 |
+| T-023 | AI 故事資料架構研究＋小型 prototype（自主推進；限量樣本；含真實創作驗證；唔改 canon） | 完成 | — | `canon/_working/tasks/T-023.md`、`canon/_working/narrative_data_architecture/` | NO | 2026-11-26 | 工具・AI 敘事資料架構 |
 
 ## Archive
 
 | ID | Task | 狀態 | Session | 相關文件 | 等作者？ | 更新日期 | 屬於 |
 |---|---|---|---|---|---|---|---|
+
+
+

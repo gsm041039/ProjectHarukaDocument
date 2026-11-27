@@ -1,0 +1,291 @@
+{
+  "package": "graphiti-core[relate]==0.32.1",
+  "privacy": "GRAPHITI_TELEMETRY_ENABLED=false; no LLM/embedding calls; in-memory Relate database",
+  "source_count": 7,
+  "edge_count": 9,
+  "node_count": 9,
+  "query_results": {
+    "晴香意識被困於集體潛意識": {
+      "edges": [
+        {
+          "relation": "CONFINED_IN",
+          "fact": "晴香意識被困於集體潛意識。",
+          "source_episode_ids": [
+            "Source:timeline_vigil"
+          ],
+          "attributes": {
+            "canon_status": "canon",
+            "source_kind": "explicit",
+            "source_lines": "278-284",
+            "source_path": "canon/04_timeline_canon.md",
+            "source_status": "canon",
+            "source_uuid": "Character:Haruka",
+            "story_world_interval": "114年6月至134年6月",
+            "target_uuid": "World:CollectiveUnconscious"
+          }
+        }
+      ],
+      "episodes": [],
+      "nodes": []
+    },
+    "主觀二十年 客觀數日 CDL-430": {
+      "edges": [
+        {
+          "relation": "HAS_APPROVED_CLOCK",
+          "fact": "作者確認 Act IV 現實時間為 J8 後數日，主觀二十年、客觀數日。",
+          "source_episode_ids": [
+            "Source:approved_clock"
+          ],
+          "attributes": {
+            "canon_status": "author-confirmed",
+            "decision_date": "2026-11-20",
+            "decision_id": "CDL-430",
+            "source_kind": "author-decision",
+            "source_lines": "6-6",
+            "source_path": "canon/_working/CANON_DECISION_LOG.md",
+            "source_status": "author-confirmed",
+            "source_uuid": "Event:TwentyYearVigil",
+            "story_objective_time": "數日",
+            "story_subjective_time": "二十年",
+            "target_uuid": "Rule:SubjectiveObjectiveTimeSplit"
+          }
+        }
+      ],
+      "episodes": [
+        {
+          "id": "Source:approved_clock",
+          "name": "approved_clock",
+          "source": "author-confirmed source canon/_working/CANON_DECISION_LOG.md:6-6",
+          "content": "| CDL-430 | 光幕濾鏡終端＋Act IV 時鐘 | **作者批准 2026-11-20**：①直播現場設有濾鏡終端，係光幕系統落地節點，夕撕破嘅係終端唔係淚本體；②Act IV 現實時間＝J8 後數日（主觀二十年／客觀數日，CDL-326），134 年只留二十年後結局場景；黑奏五階段計劃第 5 步改為 J8 後數日。逐處重標待 Act IV 設計。 | AC 作者 2026-11-20 | `02_glossary.md`、`05_story_outline_canon.md`、`04_timeline_canon.md` | 2026-11-20 |"
+        }
+      ],
+      "nodes": []
+    },
+    "陽光房間 花子煮早餐 態度剝奪": {
+      "edges": [],
+      "episodes": [],
+      "nodes": []
+    },
+    "強行掙扎 連結線 張力磨損": {
+      "edges": [],
+      "episodes": [
+        {
+          "id": "Source:link_tension_rule",
+          "name": "link_tension_rule",
+          "source": "canon source canon/01_world_rules_and_costs.md:1143-1144",
+          "content": "**連結線張力機制（CDL-326）**：靈魂沉入集體潛意識越深，同肉體嘅連結線承受嘅張力就越大；強行掙扎/暴力扯返連結線只會加速張力磨損，令控制力進一步流失，愈掙扎愈接近完全斷裂。連結線嘅穩定力量嚟自執念錨點，但執念唔可以用蠻力強化，只可以透過承接/接納嚟維持——當掙扎停止，張力不再累積，連結會自然趨向原本嘅連結狀態，唔需要額外「向上」嘅拉力。\n"
+        }
+      ],
+      "nodes": []
+    },
+    "夕維持身體機能 對抗黑奏": {
+      "edges": [],
+      "episodes": [
+        {
+          "id": "Source:timeline_vigil",
+          "name": "timeline_vigil",
+          "source": "canon source canon/04_timeline_canon.md:278-284",
+          "content": "### <a id=\"section-114-twenty-years\"></a>114 年 6 月-134 年 6 月：二十年守望\n\n- <a id=\"event-alpha-days\"></a>**Alpha 線的幾日**：夕在重建的 Alpha 線度過數日，發現內心創傷無法被治癒——證明「過去無法被修正，只能被接納」\n- <a id=\"event-disillusion\"></a>**幻滅與還原**：夕試圖撥回 Beta 線，造成時間線裂痕\n- <a id=\"event-resonance-hell-2\"></a>**[共振地獄](02_glossary.md#term-resonance-hell)第二階段**：[緋潮](02_glossary.md#term-scarlet-tide)爆發——時間線裂痕的副產品\n- <a id=\"event-faceless-truth\"></a>**[無臉執行官](02_glossary.md#term-faceless-executor)真相**：揭露無臉執行官就是[秋穗](03_characters/akiho.md)嘅命運，全句——唔分主線定失敗時間線，呢個都係佢最終會變成嘅嘢（CDL-394）\n- <a id=\"event-twenty-year-vigil\"></a>**二十年守望**：晴香意識被困於[集體潛意識](02_glossary.md#term-collective-unconscious)；夕維持身體機能，對抗黑奏侵蝕"
+        }
+      ],
+      "nodes": []
+    }
+  },
+  "same_source_keyword_results": {
+    "晴香意識被困於集體潛意識": [
+      {
+        "source": "outline_k1",
+        "path": "canon/_working/story_construction/ACT_III_OUTLINE.md",
+        "lines": "653-668",
+        "matched_terms": [
+          "晴香",
+          "集體潛意識"
+        ]
+      },
+      {
+        "source": "timeline_vigil",
+        "path": "canon/04_timeline_canon.md",
+        "lines": "278-284",
+        "matched_terms": [
+          "晴香",
+          "集體潛意識"
+        ]
+      },
+      {
+        "source": "haruka_psychology",
+        "path": "canon/03_characters/haruka.md",
+        "lines": "121-125",
+        "matched_terms": [
+          "晴香"
+        ]
+      },
+      {
+        "source": "yu_arc",
+        "path": "canon/03_characters/yu.md",
+        "lines": "157-169",
+        "matched_terms": [
+          "晴香",
+          "集體潛意識"
+        ]
+      },
+      {
+        "source": "time_split_rule",
+        "path": "canon/01_world_rules_and_costs.md",
+        "lines": "775-775",
+        "matched_terms": [
+          "集體潛意識"
+        ]
+      },
+      {
+        "source": "link_tension_rule",
+        "path": "canon/01_world_rules_and_costs.md",
+        "lines": "1143-1144",
+        "matched_terms": [
+          "集體潛意識"
+        ]
+      }
+    ],
+    "主觀二十年 客觀數日 CDL-430": [
+      {
+        "source": "outline_k1",
+        "path": "canon/_working/story_construction/ACT_III_OUTLINE.md",
+        "lines": "653-668",
+        "matched_terms": [
+          "主觀"
+        ]
+      },
+      {
+        "source": "timeline_vigil",
+        "path": "canon/04_timeline_canon.md",
+        "lines": "278-284",
+        "matched_terms": [
+          "二十年"
+        ]
+      },
+      {
+        "source": "haruka_psychology",
+        "path": "canon/03_characters/haruka.md",
+        "lines": "121-125",
+        "matched_terms": [
+          "二十年",
+          "客觀"
+        ]
+      },
+      {
+        "source": "yu_arc",
+        "path": "canon/03_characters/yu.md",
+        "lines": "157-169",
+        "matched_terms": [
+          "二十年"
+        ]
+      },
+      {
+        "source": "time_split_rule",
+        "path": "canon/01_world_rules_and_costs.md",
+        "lines": "775-775",
+        "matched_terms": [
+          "主觀",
+          "客觀"
+        ]
+      },
+      {
+        "source": "approved_clock",
+        "path": "canon/_working/CANON_DECISION_LOG.md",
+        "lines": "6-6",
+        "matched_terms": [
+          "二十年",
+          "主觀",
+          "客觀"
+        ]
+      }
+    ],
+    "陽光房間 花子煮早餐 態度剝奪": [
+      {
+        "source": "outline_k1",
+        "path": "canon/_working/story_construction/ACT_III_OUTLINE.md",
+        "lines": "653-668",
+        "matched_terms": [
+          "態度剝奪"
+        ]
+      }
+    ],
+    "強行掙扎 連結線 張力磨損": [
+      {
+        "source": "haruka_psychology",
+        "path": "canon/03_characters/haruka.md",
+        "lines": "121-125",
+        "matched_terms": [
+          "連結線"
+        ]
+      },
+      {
+        "source": "yu_arc",
+        "path": "canon/03_characters/yu.md",
+        "lines": "157-169",
+        "matched_terms": [
+          "連結線"
+        ]
+      },
+      {
+        "source": "link_tension_rule",
+        "path": "canon/01_world_rules_and_costs.md",
+        "lines": "1143-1144",
+        "matched_terms": [
+          "連結線"
+        ]
+      }
+    ],
+    "夕維持身體機能 對抗黑奏": [
+      {
+        "source": "outline_k1",
+        "path": "canon/_working/story_construction/ACT_III_OUTLINE.md",
+        "lines": "653-668",
+        "matched_terms": [
+          "黑奏"
+        ]
+      },
+      {
+        "source": "timeline_vigil",
+        "path": "canon/04_timeline_canon.md",
+        "lines": "278-284",
+        "matched_terms": [
+          "夕",
+          "黑奏"
+        ]
+      },
+      {
+        "source": "haruka_psychology",
+        "path": "canon/03_characters/haruka.md",
+        "lines": "121-125",
+        "matched_terms": [
+          "夕"
+        ]
+      },
+      {
+        "source": "yu_arc",
+        "path": "canon/03_characters/yu.md",
+        "lines": "157-169",
+        "matched_terms": [
+          "夕",
+          "黑奏"
+        ]
+      },
+      {
+        "source": "approved_clock",
+        "path": "canon/_working/CANON_DECISION_LOG.md",
+        "lines": "6-6",
+        "matched_terms": [
+          "夕",
+          "黑奏"
+        ]
+      }
+    ]
+  },
+  "story_kb_card_only_F_KH_25": "## F-KH-25 現行（時長矛盾）：晴香喺集體潛意識醒喺陽光房間、花子煮早餐，一切溫暖真實——「態度剝奪」詛咒令佢失去選擇態度嘅能力，係「黑奏農場」嘅最終詛咒形態；違和感積累、反覆掙扎醒來被拉回 【來源矛盾/時間存疑】\nkind=plan time=A4 status=disputed authority=大綱附錄草稿（Phase K/L 已移出 Act III，未登記為決定） revisable=open\nsee: F-KH-26\nnote: 原稿寫 20 年，同夕角色檔「數日」矛盾，待 Act IV 大綱核實（之後決定 CDL-430：現實數日、主觀二十年）。呢張卡係「完美世界／幸福監獄」嘅原有成因：已經歸因黑奏農場詛咒；Act IV 時間線嘅「母愛的琥珀」同呢段關係未理順。\n> 〔canon/_working/story_construction/ACT_III_OUTLINE.md:653-668〕\n> #### E-III-K1：蜜月期困境 [outline_raw.md 後段] — **靈魂風暴的主觀體驗（時長待核實，見 yu.md「數日」矛盾）**\n> \n> - **事件核心**：晴香在集體潛意識內醒來於陽光房間；花子在煮早餐；一切溫暖真實\n> - **詛咒機制**：「態度剝奪」詛咒生效；晴香失去自由選擇態度的能力\n>   - 這是「黑奏農場」的最終詛咒形態：即使讓晴香「活在幸福裡」，但她無法選擇自己的心態與態度\n>   - 無法決定「我想怎樣面對生活」\n> - **違和感積累**：\n>   - 夢見紫音操美夜子悲劇反覆上演\n>   - 花子端來「毒品味湯」（諷刺的家人關愛）\n>   - 鏡中倒影滿身傷痕（靈魂無法被掩蓋）\n>   - 時間無意義地循環\n> - **主觀煎熬**：\n>   - 晴香的意識在集體潛意識內被困（原稿「20年」，⚠️ 與 yu.md「數日」矛盾，待 Act IV Outline 核實）\n>   - 經歷無數次「選擇醒來但被拉回」的掙扎\n>   - 每一次掙扎都加深對「為什麼我無法選擇」的絕望\n> - **功能**：靈魂風暴的主觀體驗部分；為 L1（最終覺醒）做情感反差；證明「即使在看似幸福的監獄裡，人也無法放棄選擇自由」\n\n",
+  "maintenance": {
+    "source_episode_content_changed": true,
+    "fact_edge_unchanged_after_source_edit": true,
+    "source_metadata_roundtrip": null,
+    "edge_still_references_episode": true
+  }
+}

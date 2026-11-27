@@ -1,5 +1,7 @@
 # story-canon-fact-map-builder
 
+> **現況（2026-11-27）：** `canon/_working/canon_fact_map/` 嘅舊表係 2026-05 建立，抽查 17 行有 13 行有錯或過時（見 `pilot_2026-11/RELIABILITY_OF_OLD_ROWS.md`），**唔好當事實用**。做創作用嘅人物知情／狀態查 `python story_kb/tools/kb.py facts`（`pilot_2026-11/`，只覆蓋 5 個人物）。INCREMENTAL_UPDATE 嘅實際做法：先跑 `python canon/_working/canon_fact_map/pilot_2026-11/fm_check.py`（或 `kb.py check`）睇邊幾行因原文／決定改動要重新核實，只重核嗰幾行，核實前唔好標有效；雷達唔識偵測冇共同編號嘅真相改變。
+
 ## Purpose
 
 This skill builds a structured Canon Fact Map from Project Haruka story documents.
